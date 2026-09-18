@@ -71,3 +71,4 @@ public class GlossaryTests
         Assert.Empty(result.ProhibitedUsages);
     }
 }
+

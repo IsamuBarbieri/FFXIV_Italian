@@ -83,3 +83,4 @@ Quando Square Enix rilascia un nuovo aggiornamento di FFXIV (es. 7.1 o 7.2):
    Il report mostrerà esattamente quante righe sono nuove o modificate.
 4. **Aggiornare il pacchetto `.pmp`**:
    Le righe storiche già tradotte rimangono in italiano; le nuove righe della patch rimangono in inglese finché non vengono tradotte, garantendo la totale assenza di crash (*Best Effort*).
+

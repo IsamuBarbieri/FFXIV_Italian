@@ -69,3 +69,4 @@ Il database `ENpcBase` contiene il flag binario del genere (`0 = Maschio, 1 = Fe
 3. **Mal d'Etere (G7)**: Il debuff da teletrasporto/resurrezione è **Mal d'Etere** (MAI *"Malattia Eterica"*).
 4. **Unità di Misura (G28)**: *yalm*, *fulm*, *ilm*, *malm*, *ponze*, *onze*, *tonze* sono **invariabili** e **non vanno mai tradotte** in metri o iarde (vietato *"iarde"* o *"yalms"*).
 5. **Abilità e Magie (G24)**: I nomi iconici di mosse e incantesimi di franchise rimangono invariati (*Fire, Blizzard, Cure, Limit Break*); **le descrizioni, gli effetti e i tooltip vengono interamente tradotti in italiano**.
+

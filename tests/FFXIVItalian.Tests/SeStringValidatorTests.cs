@@ -53,3 +53,4 @@ public class SeStringValidatorTests
         Assert.Contains(result.Errors, e => e.Contains("<FullName>"));
     }
 }
+

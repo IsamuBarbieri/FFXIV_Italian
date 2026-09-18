@@ -70,3 +70,4 @@ public static partial class SeStringValidator
         }
     }
 }
+

@@ -197,3 +197,4 @@ public class PatchDiffEngineTests
         Assert.Equal(TranslationStatus.Untranslated, row3.Status);
     }
 }
+

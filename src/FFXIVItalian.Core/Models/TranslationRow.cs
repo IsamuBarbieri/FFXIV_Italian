@@ -49,3 +49,4 @@ public class TranslationRow
     public bool SeStringValid { get; set; } = true;
     public List<string> ValidationWarnings { get; set; } = [];
 }
+

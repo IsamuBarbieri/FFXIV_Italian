@@ -102,3 +102,4 @@ public class PatchDiffReport
         return sb.ToString();
     }
 }
+

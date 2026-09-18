@@ -36,3 +36,4 @@ public class VoiceProfile
     public List<string> KeyTraits { get; set; } = [];
     public List<string> CharacteristicPhrases { get; set; } = [];
 }
+

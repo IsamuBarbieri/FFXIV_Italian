@@ -87,3 +87,4 @@ dotnet run --project src/FFXIVItalian.Patcher -- FFXIV_Italian.pmp
 ## Licenza e Diritti
 Questo progetto è un'iniziativa di localizzazione fan-made della community. Final Fantasy XIV e tutti i relativi asset, marchi e testi sono copyright di SQUARE ENIX CO., LTD.
 Nessun file originale protetto da copyright viene redistribuito in questo repository.
+
