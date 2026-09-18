@@ -1,72 +1,598 @@
 {
-  "2001": { "original": "START", "translation": "GIOCA" },
-  "2002": { "original": "EXIT", "translation": "ESCI" },
-  "2003": { "original": "SYSTEM CONFIGURATION", "translation": "CONFIGURAZIONE DI SISTEMA" },
-  "2004": { "original": "OPENING MOVIE", "translation": "FILMATO INIZIALE" },
-  "2006": { "original": "DATA CENTER", "translation": "DATA CENTER" },
-  "2008": { "original": "A Realm Reborn Demo and Title", "translation": "Demo e Titolo A Realm Reborn" },
-  "2009": { "original": "BACK", "translation": "INDIETRO" },
-  "2010": { "original": "Character Selection", "translation": "Selezione Personaggio" },
-  "2011": { "original": "MOVIES & TITLES", "translation": "FILMATI E TITOLI" },
-  "2012": { "original": "Heavensward Demo and Title", "translation": "Demo e Titolo Heavensward" },
-  "2013": { "original": "Stormblood Demo and Title", "translation": "Demo e Titolo Stormblood" },
-  "2014": { "original": "Shadowbringers Demo and Title", "translation": "Demo e Titolo Shadowbringers" },
-  "2015": { "original": "RACE", "translation": "RAZZA" },
-  "2016": { "original": "CLAN", "translation": "CLAN" },
-  "2017": { "original": "NAMEDAY", "translation": "GENETLIACO" },
-  "2018": { "original": "GUARDIAN", "translation": "GUARDIANO" },
-  "2019": { "original": "CLASS", "translation": "CLASSE" },
-  "2020": { "original": "LOCATION", "translation": "POSIZIONE" },
-  "2021": { "original": "WORLD VISIT", "translation": "VISITA MONDO" },
-  "2022": { "original": "Endwalker Demo and Title", "translation": "Demo e Titolo Endwalker" },
-  "2023": { "original": "Dawntrail Demo and Title", "translation": "Demo e Titolo Dawntrail" },
-  "2025": { "original": "World", "translation": "Mondo" },
-  "2027": { "original": "New Character", "translation": "Nuovo Personaggio" },
-  "2028": { "original": "Saved Characters", "translation": "Personaggi Salvati" },
-  "2030": { "original": "World Selection", "translation": "Selezione Mondo" },
-  "2033": { "original": "World List", "translation": "Lista Mondi" },
-  "2035": { "original": "Forename", "translation": "Nome" },
-  "2036": { "original": "Surname", "translation": "Cognome" },
-  "2037": { "original": "Change", "translation": "Cambia" },
-  "2038": { "original": "Character Name", "translation": "Nome del Personaggio" },
-  "2044": { "original": "Load previously saved appearance data?", "translation": "Caricare i dati dell'aspetto salvati in precedenza?" },
-  "2046": { "original": "Select Another", "translation": "Scegli un Altro" },
-  "2047": { "original": "Return", "translation": "Indietro" },
-  "2050": { "original": "Confirm", "translation": "Conferma" },
-  "2051": { "original": "Cancel", "translation": "Annulla" },
-  "2052": { "original": "Quit", "translation": "Esci" },
-  "2053": { "original": "Update", "translation": "Aggiorna" },
-  "2055": { "original": "CHARACTER CREATION", "translation": "CREAZIONE PERSONAGGIO" },
-  "2056": { "original": "CHARACTER CUSTOMIZATION", "translation": "PERSONALIZZAZIONE PERSONAGGIO" },
-  "2057": { "original": "LICENSE", "translation": "LICENZA" },
-  "2058": { "original": "OPTIONS", "translation": "OPZIONI" },
-  "2060": { "original": "POSE", "translation": "POSA" },
-  "2061": { "original": "Standing", "translation": "In Piedi" },
-  "2062": { "original": "Unique", "translation": "Unica" },
-  "2063": { "original": "Random", "translation": "Casuale" },
-  "2064": { "original": "ATTIRE", "translation": "ABBIGLIAMENTO" },
-  "2065": { "original": "Race", "translation": "Razza" },
-  "2066": { "original": "Job", "translation": "Classe" },
-  "2067": { "original": "Smallclothes", "translation": "Biancheria" },
-  "2068": { "original": "Retainer", "translation": "Servitore" },
-  "2069": { "original": "Equipped", "translation": "Equipaggiato" },
-  "2070": { "original": "Environment", "translation": "Ambiente" },
-  "2071": { "original": "Dawn", "translation": "Alba" },
-  "2072": { "original": "Midday", "translation": "Mezzogiorno" },
-  "2073": { "original": "Dusk", "translation": "Tramonto" },
-  "2074": { "original": "Evening", "translation": "Sera" },
-  "2100": { "original": "Character Name", "translation": "Nome del Personaggio" },
-  "2101": { "original": "Forename", "translation": "Nome" },
-  "2102": { "original": "Surname", "translation": "Cognome" },
-  "2104": { "original": "Confirm", "translation": "Conferma" },
-  "2126": { "original": "Randomize Appearance", "translation": "Aspetto Casuale" },
-  "2162": { "original": "Yes", "translation": "Sì" },
-  "2163": { "original": "No", "translation": "No" },
-  "2177": { "original": "Yes", "translation": "Sì" },
-  "2178": { "original": "No", "translation": "No" },
-  "2180": { "original": "Return", "translation": "Indietro" },
-  "2184": { "original": "Data saved.", "translation": "Dati salvati." },
-  "2185": { "original": "Save failed.", "translation": "Salvataggio non riuscito." },
-  "2186": { "original": "OK", "translation": "OK" }
+  "2001": {
+    "original": "START",
+    "translation": "GIOCA"
+  },
+  "2002": {
+    "original": "EXIT",
+    "translation": "ESCI"
+  },
+  "2003": {
+    "original": "SYSTEM CONFIGURATION",
+    "translation": "CONFIGURAZIONE DI SISTEMA"
+  },
+  "2004": {
+    "original": "OPENING MOVIE",
+    "translation": "FILMATO INIZIALE"
+  },
+  "2006": {
+    "original": "DATA CENTER",
+    "translation": "DATA CENTER"
+  },
+  "2008": {
+    "original": "A Realm Reborn Demo and Title",
+    "translation": "Demo e Titolo A Realm Reborn"
+  },
+  "2009": {
+    "original": "BACK",
+    "translation": "INDIETRO"
+  },
+  "2010": {
+    "original": "Character Selection",
+    "translation": "Selezione Personaggio"
+  },
+  "2011": {
+    "original": "MOVIES & TITLES",
+    "translation": "FILMATI E TITOLI"
+  },
+  "2012": {
+    "original": "Heavensward Demo and Title",
+    "translation": "Demo e Titolo Heavensward"
+  },
+  "2013": {
+    "original": "Stormblood Demo and Title",
+    "translation": "Demo e Titolo Stormblood"
+  },
+  "2014": {
+    "original": "Shadowbringers Demo and Title",
+    "translation": "Demo e Titolo Shadowbringers"
+  },
+  "2015": {
+    "original": "RACE",
+    "translation": "RAZZA"
+  },
+  "2016": {
+    "original": "CLAN",
+    "translation": "CLAN"
+  },
+  "2017": {
+    "original": "NAMEDAY",
+    "translation": "GENETLIACO"
+  },
+  "2018": {
+    "original": "GUARDIAN",
+    "translation": "GUARDIANO"
+  },
+  "2019": {
+    "original": "CLASS",
+    "translation": "CLASSE"
+  },
+  "2020": {
+    "original": "LOCATION",
+    "translation": "POSIZIONE"
+  },
+  "2021": {
+    "original": "WORLD VISIT",
+    "translation": "VISITA MONDO"
+  },
+  "2022": {
+    "original": "Endwalker Demo and Title",
+    "translation": "Demo e Titolo Endwalker"
+  },
+  "2023": {
+    "original": "Dawntrail Demo and Title",
+    "translation": "Demo e Titolo Dawntrail"
+  },
+  "2025": {
+    "original": "World",
+    "translation": "Mondo"
+  },
+  "2027": {
+    "original": "New Character",
+    "translation": "Nuovo Personaggio"
+  },
+  "2028": {
+    "original": "Saved Characters",
+    "translation": "Personaggi Salvati"
+  },
+  "2030": {
+    "original": "World Selection",
+    "translation": "Selezione Mondo"
+  },
+  "2033": {
+    "original": "World List",
+    "translation": "Lista Mondi"
+  },
+  "2035": {
+    "original": "Forename",
+    "translation": "Nome"
+  },
+  "2036": {
+    "original": "Surname",
+    "translation": "Cognome"
+  },
+  "2037": {
+    "original": "Change",
+    "translation": "Cambia"
+  },
+  "2038": {
+    "original": "Character Name",
+    "translation": "Nome del Personaggio"
+  },
+  "2044": {
+    "original": "Load previously saved appearance data?",
+    "translation": "Caricare i dati dell'aspetto salvati in precedenza?"
+  },
+  "2046": {
+    "original": "Select Another",
+    "translation": "Scegli un Altro"
+  },
+  "2047": {
+    "original": "Return",
+    "translation": "Indietro"
+  },
+  "2050": {
+    "original": "Confirm",
+    "translation": "Conferma"
+  },
+  "2051": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "2052": {
+    "original": "Quit",
+    "translation": "Esci"
+  },
+  "2053": {
+    "original": "Update",
+    "translation": "Aggiorna"
+  },
+  "2055": {
+    "original": "CHARACTER CREATION",
+    "translation": "CREAZIONE PERSONAGGIO"
+  },
+  "2056": {
+    "original": "CHARACTER CUSTOMIZATION",
+    "translation": "PERSONALIZZAZIONE PERSONAGGIO"
+  },
+  "2057": {
+    "original": "LICENSE",
+    "translation": "LICENZA"
+  },
+  "2058": {
+    "original": "OPTIONS",
+    "translation": "OPZIONI"
+  },
+  "2060": {
+    "original": "POSE",
+    "translation": "POSA"
+  },
+  "2061": {
+    "original": "Standing",
+    "translation": "In Piedi"
+  },
+  "2062": {
+    "original": "Unique",
+    "translation": "Unica"
+  },
+  "2063": {
+    "original": "Random",
+    "translation": "Casuale"
+  },
+  "2064": {
+    "original": "ATTIRE",
+    "translation": "ABBIGLIAMENTO"
+  },
+  "2065": {
+    "original": "Race",
+    "translation": "Razza"
+  },
+  "2066": {
+    "original": "Job",
+    "translation": "Classe"
+  },
+  "2067": {
+    "original": "Smallclothes",
+    "translation": "Biancheria"
+  },
+  "2068": {
+    "original": "Retainer",
+    "translation": "Servitore"
+  },
+  "2069": {
+    "original": "Equipped",
+    "translation": "Equipaggiato"
+  },
+  "2070": {
+    "original": "Environment",
+    "translation": "Ambiente"
+  },
+  "2071": {
+    "original": "Dawn",
+    "translation": "Alba"
+  },
+  "2072": {
+    "original": "Midday",
+    "translation": "Mezzogiorno"
+  },
+  "2073": {
+    "original": "Dusk",
+    "translation": "Tramonto"
+  },
+  "2074": {
+    "original": "Evening",
+    "translation": "Sera"
+  },
+  "2100": {
+    "original": "Character Name",
+    "translation": "Nome del Personaggio"
+  },
+  "2101": {
+    "original": "Forename",
+    "translation": "Nome"
+  },
+  "2102": {
+    "original": "Surname",
+    "translation": "Cognome"
+  },
+  "2104": {
+    "original": "Confirm",
+    "translation": "Conferma"
+  },
+  "2126": {
+    "original": "Randomize Appearance",
+    "translation": "Aspetto Casuale"
+  },
+  "2162": {
+    "original": "Yes",
+    "translation": "Sì"
+  },
+  "2163": {
+    "original": "No",
+    "translation": "No"
+  },
+  "2177": {
+    "original": "Yes",
+    "translation": "Sì"
+  },
+  "2178": {
+    "original": "No",
+    "translation": "No"
+  },
+  "2180": {
+    "original": "Return",
+    "translation": "Indietro"
+  },
+  "2184": {
+    "original": "Data saved.",
+    "translation": "Dati salvati."
+  },
+  "2185": {
+    "original": "Save failed.",
+    "translation": "Salvataggio non riuscito."
+  },
+  "2186": {
+    "original": "OK",
+    "translation": "OK"
+  },
+  "1": {
+    "original": "Start Game",
+    "translation": "Avvia Gioco"
+  },
+  "2": {
+    "original": "Configuration",
+    "translation": "Configurazione"
+  },
+  "3": {
+    "original": "Opening Movie",
+    "translation": "Filmato Iniziale"
+  },
+  "4": {
+    "original": "Credits",
+    "translation": "Riconoscimenti"
+  },
+  "6": {
+    "original": "Calibrate controller?\r\n※Settings can be changed at any time via the System Configuration menu.",
+    "translation": "Calibrare il controller?\r\n※Le impostazioni possono essere modificate in qualsiasi momento dal menu Configurazione di Sistema."
+  },
+  "7": {
+    "original": "Yes",
+    "translation": "Sì"
+  },
+  "8": {
+    "original": "No",
+    "translation": "No"
+  },
+  "10": {
+    "original": "Service Account",
+    "translation": "Account di Servizio"
+  },
+  "11": {
+    "original": "Select a service account.",
+    "translation": "Seleziona un account di servizio."
+  },
+  "15": {
+    "original": "OK",
+    "translation": "OK"
+  },
+  "16": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "20": {
+    "original": "Delete Character",
+    "translation": "Elimina Personaggio"
+  },
+  "21": {
+    "original": "Delete ?",
+    "translation": "Vuoi eliminare ?\r\nAttenzione: se elimini questo personaggio, perderai tutti i suoi oggetti, i gil e i servitori assunti.\r\nSe questo personaggio è maestro di una compagnia libera senza successori validi, la compagnia verrà automaticamente sciolta, causando l'eliminazione della tenuta e degli oggetti nel forziere."
+  },
+  "22": {
+    "original": "I understand and wish to delete this character.",
+    "translation": "Ho compreso e desidero eliminare questo personaggio."
+  },
+  "23": {
+    "original": "Change Name",
+    "translation": "Cambia Nome"
+  },
+  "24": {
+    "original": "Change Retainer Name",
+    "translation": "Cambia Nome Servitore"
+  },
+  "25": {
+    "original": "Log in with ?",
+    "translation": "Vuoi accedere con ?"
+  },
+  "26": {
+    "original": "A name change is required to log in with this character.",
+    "translation": "È necessario modificare il nome per accedere con questo personaggio."
+  },
+  "30": {
+    "original": "New Character",
+    "translation": "Nuovo Personaggio"
+  },
+  "31": {
+    "original": "Quit character creation and lose all progress?",
+    "translation": "Vuoi uscire dalla creazione del personaggio e perdere tutti i progressi?"
+  },
+  "32": {
+    "original": "Begin a new game with this character?",
+    "translation": "Vuoi iniziare una nuova avventura con questo personaggio?"
+  },
+  "33": {
+    "original": "Create a new character?",
+    "translation": "Vuoi creare un nuovo personaggio?"
+  },
+  "40": {
+    "original": "First Astral Moon",
+    "translation": "Prima Luna Astrale"
+  },
+  "41": {
+    "original": "First Umbral Moon",
+    "translation": "Prima Luna Ombrale"
+  },
+  "42": {
+    "original": "Second Astral Moon",
+    "translation": "Seconda Luna Astrale"
+  },
+  "43": {
+    "original": "Second Umbral Moon",
+    "translation": "Seconda Luna Ombrale"
+  },
+  "44": {
+    "original": "Third Astral Moon",
+    "translation": "Terza Luna Astrale"
+  },
+  "45": {
+    "original": "Third Umbral Moon",
+    "translation": "Terza Luna Ombrale"
+  },
+  "46": {
+    "original": "Fourth Astral Moon",
+    "translation": "Quarta Luna Astrale"
+  },
+  "47": {
+    "original": "Fourth Umbral Moon",
+    "translation": "Quarta Luna Ombrale"
+  },
+  "48": {
+    "original": "Fifth Astral Moon",
+    "translation": "Quinta Luna Astrale"
+  },
+  "49": {
+    "original": "Fifth Umbral Moon",
+    "translation": "Quinta Luna Ombrale"
+  },
+  "50": {
+    "original": "Sixth Astral Moon",
+    "translation": "Sesta Luna Astrale"
+  },
+  "51": {
+    "original": "Sixth Umbral Moon",
+    "translation": "Sesta Luna Ombrale"
+  },
+  "57": {
+    "original": "Obtaining the World list...",
+    "translation": "Recupero dell'elenco dei Mondi in corso..."
+  },
+  "58": {
+    "original": "Unable to obtain the World list.",
+    "translation": "Impossibile recuperare l'elenco dei Mondi."
+  },
+  "60": {
+    "original": "This account has no available character slots.",
+    "translation": "Questo account non dispone di slot personaggio liberi. Per creare un nuovo personaggio, devi prima eliminarne uno esistente."
+  },
+  "61": {
+    "original": "You cannot create any more characters.",
+    "translation": "Non puoi creare altri personaggi."
+  },
+  "62": {
+    "original": "You cannot create any more characters on this World. Please select another.",
+    "translation": "Non puoi creare altri personaggi su questo Mondo. Selezionane un altro."
+  },
+  "63": {
+    "original": "This World is not accepting any more new characters. You may either wait for the restriction to be lifted, or you may select another World.",
+    "translation": "Questo Mondo non accetta nuovi personaggi al momento. Puoi attendere che la restrizione venga rimossa o selezionare un altro Mondo."
+  },
+  "84": {
+    "original": "Welcome to Eorzea!\r\nBefore your adventure can begin, you must first create a character.",
+    "translation": "Benvenuto ad Eorzea!\r\nPrima di iniziare la tua avventura, devi creare un personaggio."
+  },
+  "85": {
+    "original": "Proceed",
+    "translation": "Procedi"
+  },
+  "86": {
+    "original": "Welcome to Eorzea!\r\nStart your adventure by selecting an existing character, or creating a new one.",
+    "translation": "Benvenuto ad Eorzea!\r\nInizia la tua avventura selezionando un personaggio esistente o creandone uno nuovo."
+  },
+  "87": {
+    "original": "Proceed",
+    "translation": "Procedi"
+  },
+  "88": {
+    "original": "Select a World.",
+    "translation": "Seleziona un Mondo."
+  },
+  "95": {
+    "original": "Logging in with .",
+    "translation": "Accesso in corso con .\r\n\r\nIl tuo personaggio si trova su un Mondo diverso dal tuo Mondo d'Origine. Visita un'eterite a Limsa Lominsa, Gridania o Ul'dah per fare ritorno."
+  },
+  "96": {
+    "original": "Logging in with .",
+    "translation": "Accesso in corso con .\r\n\r\nIl tuo personaggio si trova in un Data Center diverso dal tuo Mondo d'Origine. Seleziona \"Torna al Mondo d'Origine\" dal sottomenu prima di accedere."
+  },
+  "610": {
+    "original": "Keyboard",
+    "translation": "Tastiera"
+  },
+  "611": {
+    "original": "Subcommands",
+    "translation": "Sottomenu"
+  },
+  "626": {
+    "original": "Finalize your character's appearance?",
+    "translation": "Confermare l'aspetto del personaggio?"
+  },
+  "627": {
+    "original": "Revert to your character's current appearance?",
+    "translation": "Ripristinare l'aspetto attuale del personaggio?"
+  },
+  "629": {
+    "original": "Log in with ?\r\n※Cancel and access the subcommand menu to re-edit your character.",
+    "translation": "Vuoi accedere con ?\r\n※Annulla e accedi al sottomenu per modificare nuovamente il tuo personaggio."
+  },
+  "634": {
+    "original": "Cancel appearance customization?",
+    "translation": "Annullare la personalizzazione dell'aspetto?"
+  },
+  "650": {
+    "original": "Disconnect from the  data center and connect to the  data center?",
+    "translation": "Vuoi disconnetterti dal Data Center  e connetterti al Data Center ?"
+  },
+  "800": {
+    "original": "Data Center Selection",
+    "translation": "Selezione Data Center"
+  },
+  "802": {
+    "original": "Data Center",
+    "translation": "Data Center"
+  },
+  "803": {
+    "original": "Information",
+    "translation": "Informazioni"
+  },
+  "806": {
+    "original": "FINAL FANTASY XIV requires connecting to one of several data centers to play.",
+    "translation": "FINAL FANTASY XIV richiede la connessione a uno dei Data Center per giocare. Più la tua posizione geografica è vicina al Data Center, migliore sarà l'esperienza di gioco."
+  },
+  "808": {
+    "original": "Connecting to the  data center.",
+    "translation": "Connessione al Data Center  in corso."
+  },
+  "809": {
+    "original": "Acquiring character list.",
+    "translation": "Recupero dell'elenco personaggi in corso."
+  },
+  "810": {
+    "original": "Proceed",
+    "translation": "Procedi"
+  },
+  "811": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "812": {
+    "original": "Japanese Data Centers",
+    "translation": "Data Center Giapponesi"
+  },
+  "813": {
+    "original": "North American Data Centers",
+    "translation": "Data Center Nordamericani"
+  },
+  "814": {
+    "original": "European Data Centers",
+    "translation": "Data Center Europei"
+  },
+  "815": {
+    "original": "Oceanian Data Center",
+    "translation": "Data Center Oceaniani"
+  },
+  "816": {
+    "original": "NA Cloud Data Center (Beta)",
+    "translation": "Data Center Cloud NA (Beta)"
+  },
+  "1100": {
+    "original": "Visit Another World Server",
+    "translation": "Visita un Altro Mondo"
+  },
+  "1102": {
+    "original": "Using the World Visit System",
+    "translation": "Guida alla Visita Mondi"
+  },
+  "1103": {
+    "original": "Close",
+    "translation": "Chiudi"
+  },
+  "1104": {
+    "original": "Visit Another World Server",
+    "translation": "Visita un Altro Mondo"
+  },
+  "1105": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "1106": {
+    "original": "World Visit request accepted. Please wait until the transfer is complete.",
+    "translation": "Richiesta di Visita Mondo accettata. Attendi il completamento del trasferimento."
+  },
+  "1116": {
+    "original": "World Visit transfer successful. Login to  now available.",
+    "translation": "Trasferimento completato con successo. Accesso a  ora disponibile."
+  },
+  "1150": {
+    "original": "Visit Another Data Center",
+    "translation": "Visita un Altro Data Center"
+  },
+  "1179": {
+    "original": "Return to Home World request accepted. Please wait until the transfer is complete.",
+    "translation": "Richiesta di Ritorno al Mondo d'Origine accettata. Attendi il completamento del trasferimento."
+  },
+  "1183": {
+    "original": "Successfully returned to Home World.",
+    "translation": "Ritorno al Mondo d'Origine completato con successo."
+  },
+  "1222": {
+    "original": "More Subcommands",
+    "translation": "Altri Comandi"
+  },
+  "1800": {
+    "original": "Are you certain you wish to leave the queue?",
+    "translation": "Sei sicuro di voler uscire dalla coda?"
+  },
+  "1801": {
+    "original": "You were automatically logged out due to extended inactivity.",
+    "translation": "Sei stato disconnesso automaticamente per inattività prolungata."
+  }
 }
-

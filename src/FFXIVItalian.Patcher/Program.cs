@@ -141,6 +141,27 @@ if (Directory.Exists(sqPackPath))
                 Console.WriteLine($"  * 'exd/maincommand_0_en.exd' rigenerato ({patchedCmdExd.Length:N0} byte).");
             }
         }
+
+        // 5. PATCH ERROR (Messaggi di connessione, server, coda e lobby)
+        string errJsonPath = Path.Combine(translationsDir, "error.json");
+        var errReplacements = TranslationFileReader.LoadReplacements(errJsonPath);
+        if (errReplacements.Count > 0)
+        {
+            Console.WriteLine();
+            Console.WriteLine($"Caricate {errReplacements.Count} traduzioni da '{Path.GetFileName(errJsonPath)}'.");
+            var originalErrExd = lumina.GetFile("exd/error_0_en.exd");
+            if (originalErrExd != null)
+            {
+                byte[] patchedErrExd = ExdPatcher.PatchSimpleStringSheet(
+                    originalErrExd.Data,
+                    fixedDataSize: 4,
+                    stringColumnOffset: 0,
+                    errReplacements);
+
+                fileMap["exd/error_0_en.exd"] = patchedErrExd;
+                Console.WriteLine($"  * 'exd/error_0_en.exd' rigenerato ({patchedErrExd.Length:N0} byte).");
+            }
+        }
     }
     catch (Exception ex)
     {

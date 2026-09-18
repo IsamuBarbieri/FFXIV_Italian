@@ -117,17 +117,35 @@ try
         }
     }
 
-    Console.WriteLine();
-    Console.WriteLine("Esplorazione fogli UI:");
-    var mainCommandSheet = lumina.GetExcelSheet<MainCommand>();
-    Console.WriteLine($"- Foglio MainCommand: {mainCommandSheet?.Count ?? 0} righe.");
-
     // Export templates
     string translationsDir = Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "..", "data", "translations");
     if (!Directory.Exists(translationsDir))
     {
         translationsDir = Path.Combine(Directory.GetCurrentDirectory(), "data", "translations");
     }
+
+    var lobbySheet = lumina.GetExcelSheet<Lobby>();
+    Console.WriteLine($"- Foglio Lobby: {lobbySheet?.Count ?? 0} righe caricate.");
+    if (lobbySheet != null)
+    {
+        var allLobby = new Dictionary<string, string>();
+        foreach (var row in lobbySheet)
+        {
+            var text = row.Text.ExtractText();
+            if (!string.IsNullOrEmpty(text))
+            {
+                allLobby[row.RowId.ToString()] = text;
+            }
+        }
+        string lobbyAllPath = Path.Combine(translationsDir, "lobby_all_extracted.json");
+        File.WriteAllText(lobbyAllPath, System.Text.Json.JsonSerializer.Serialize(allLobby, new System.Text.Json.JsonSerializerOptions { WriteIndented = true }));
+        Console.WriteLine($"Salvate tutte le {allLobby.Count} stringhe di Lobby in '{Path.GetFileName(lobbyAllPath)}'.");
+    }
+
+    Console.WriteLine();
+    Console.WriteLine("Esplorazione fogli UI:");
+    var mainCommandSheet = lumina.GetExcelSheet<MainCommand>();
+    Console.WriteLine($"- Foglio MainCommand: {mainCommandSheet?.Count ?? 0} righe.");
 
     var mainCommandCatSheet = lumina.GetExcelSheet<MainCommandCategory>();
     if (mainCommandCatSheet != null)
@@ -208,18 +226,40 @@ try
         }
     }
 
-    var mainCommandCatExh = lumina.GetFile("exd/maincommandcategory.exh");
-    if (mainCommandCatExh != null)
+    Console.WriteLine();
+    Console.WriteLine("Dettaglio file error_0_en.exd:");
+    var errorExh = lumina.GetFile("exd/error.exh");
+    var errorExd = lumina.GetFile("exd/error_0_en.exd");
+    if (errorExh != null && errorExd != null)
     {
-        var fixedDataSize = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(mainCommandCatExh.Data.AsSpan(0x06, 2));
-        var colCount = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(mainCommandCatExh.Data.AsSpan(0x08, 2));
-        Console.WriteLine($"- MainCommandCategory.exh: fixedDataSize={fixedDataSize}, columns={colCount}");
+        var fixedDataSize = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(errorExh.Data.AsSpan(0x06, 2));
+        var colCount = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(errorExh.Data.AsSpan(0x08, 2));
+        Console.WriteLine($"- Error.exh: fixedDataSize={fixedDataSize}, columns={colCount}");
         for (int c = 0; c < colCount; c++)
         {
             int colPos = 0x20 + (c * 4);
-            var colType = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(mainCommandCatExh.Data.AsSpan(colPos, 2));
-            var colOffset = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(mainCommandCatExh.Data.AsSpan(colPos + 2, 2));
-            Console.WriteLine($"  MainCommandCat Colonna {c}: Tipo=0x{colType:X4}, Offset={colOffset}");
+            var colType = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(errorExh.Data.AsSpan(colPos, 2));
+            var colOffset = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(errorExh.Data.AsSpan(colPos + 2, 2));
+            Console.WriteLine($"  Error Colonna {c}: Tipo=0x{colType:X4}, Offset={colOffset}");
+        }
+
+        uint indexSize = System.Buffers.Binary.BinaryPrimitives.ReadUInt32BigEndian(errorExd.Data.AsSpan(0x08, 4));
+        int rowCount = (int)(indexSize / 8);
+        for (int i = 0; i < rowCount; i++)
+        {
+            int entryPos = 0x20 + (i * 8);
+            uint rowId = System.Buffers.Binary.BinaryPrimitives.ReadUInt32BigEndian(errorExd.Data.AsSpan(entryPos, 4));
+            uint offset = System.Buffers.Binary.BinaryPrimitives.ReadUInt32BigEndian(errorExd.Data.AsSpan(entryPos + 4, 4));
+            if (rowId == 13206)
+            {
+                int dataSize = (int)System.Buffers.Binary.BinaryPrimitives.ReadUInt32BigEndian(errorExd.Data.AsSpan((int)offset, 4));
+                int strStart = (int)offset + 6 + 4;
+                int strLen = dataSize - 4;
+                var raw = errorExd.Data.AsSpan(strStart, strLen).ToArray();
+                Console.WriteLine($"Row 13206 raw bytes ({raw.Length}):");
+                Console.WriteLine(Convert.ToHexString(raw));
+                break;
+            }
         }
     }
 }
