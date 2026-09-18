@@ -27,6 +27,17 @@ Nel client di gioco non si usa la notazione `Italiano (Inglese)` (*es. non scriv
    - *The Waking Sands* -> **Sabbie del Risveglio** | *The Rising Stones* -> **Le Pietre Risorte**.
    - *The Drowning Wench* -> **La Fanciulla Annegata** | *The Carline Canopy* -> **Il Baldacchino di Carline** | *Buscarron's Druthers* -> **Il Capriccio di Buscarron**.
 
+### Regola C: Ricerca della Lore e del Contesto Culturale (Wiki & Lorebook)
+I nomi, i toponimi, i mostri e i titoli delle missioni non devono **mai** essere tradotti in modo isolato o letterale. È obbligatorio verificare la lore del mondo di gioco attraverso le fonti canoniche (Wiki di FFXIV, Gamer Escape, ConsoleGamesWiki, Lodestone ed *Encyclopaedia Eorzea*):
+1. **Origine ed Etimologia Culturale di Razza e Fazione**:
+   - Comprendere *perché* un luogo, un NPC o una fazione porta quel nome nella cultura eorzeana (es. convenzioni linguistiche di razza: nomi Roegadyn Guardia dell'Inferno composti descrittivi vs Lupi di Mare in lingua antica; nomi Garleani con gradi latini; toponimi Elezen a Ishgard).
+2. **Mostri, Bestiario e Creature Mitologiche**:
+   - Verificare l'origine folklorica o classica di ogni creatura per scegliere se mantenerla (es. mostri classici del franchise o della mitologia: *Behemoth, Malboro, Ahriman, Coeurl*) o tradurne gli epiteti descrittivi (*"Stray Coblyn"*, *"Dredge Peiste"*).
+3. **Citazioni, Proverbi e Giochi di Parole (Quest & Dialoghi)**:
+   - I titoli delle missioni e le battute dell'autore (Koji Fox & team) traboccano di giochi di parole, citazioni teatrali, titoli musicali e proverbi. Verificare sulla wiki la pagina della missione rivela quasi sempre il retroscena o il gioco di parole, consentendo di creare un equivalente italiano brillante invece di una traduzione piatta.
+4. **Contesto Scenico e Geopolitico**:
+   - Verificare chi partecipa alla scena, il tono drammatico o comico e l'atmosfera della fazione (es. il cinismo mercantilista di Ul'dah, la sacralità animista di Gridania, la parlata marinaresca e rozza di Limsa Lominsa).
+
 ---
 
 ## 2. Risoluzione della Concordanza di Genere
