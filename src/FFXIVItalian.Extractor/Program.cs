@@ -118,7 +118,110 @@ try
     }
 
     Console.WriteLine();
-    Console.WriteLine("Test di estrazione completato con SUCCESSO!");
+    Console.WriteLine("Esplorazione fogli UI:");
+    var mainCommandSheet = lumina.GetExcelSheet<MainCommand>();
+    Console.WriteLine($"- Foglio MainCommand: {mainCommandSheet?.Count ?? 0} righe.");
+
+    // Export templates
+    string translationsDir = Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "..", "data", "translations");
+    if (!Directory.Exists(translationsDir))
+    {
+        translationsDir = Path.Combine(Directory.GetCurrentDirectory(), "data", "translations");
+    }
+
+    var mainCommandCatSheet = lumina.GetExcelSheet<MainCommandCategory>();
+    if (mainCommandCatSheet != null)
+    {
+        var catDict = new Dictionary<string, object>();
+        foreach (var cat in mainCommandCatSheet)
+        {
+            var name = cat.Name.ExtractText();
+            if (!string.IsNullOrEmpty(name))
+            {
+                catDict[cat.RowId.ToString()] = new
+                {
+                    original = name,
+                    translation = ""
+                };
+            }
+        }
+        var catJson = System.Text.Json.JsonSerializer.Serialize(catDict, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
+        File.WriteAllText(Path.Combine(translationsDir, "maincommandcategory_template.json"), catJson);
+        Console.WriteLine($"Esportato maincommandcategory_template.json ({catDict.Count} voci)");
+    }
+
+    if (mainCommandSheet != null)
+    {
+        var cmdDict = new Dictionary<string, object>();
+        foreach (var cmd in mainCommandSheet)
+        {
+            var name = cmd.Name.ExtractText();
+            var desc = cmd.Description.ExtractText();
+            if (!string.IsNullOrEmpty(name))
+            {
+                cmdDict[cmd.RowId.ToString()] = new
+                {
+                    name = name,
+                    translation_name = "",
+                    description = desc,
+                    translation_description = ""
+                };
+            }
+        }
+        var cmdJson = System.Text.Json.JsonSerializer.Serialize(cmdDict, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
+        File.WriteAllText(Path.Combine(translationsDir, "maincommand_template.json"), cmdJson);
+        Console.WriteLine($"Esportato maincommand_template.json ({cmdDict.Count} comandi)");
+    }
+
+    if (addonSheet != null)
+    {
+        var addonDict = new Dictionary<string, string>();
+        for (uint i = 1; i <= 500; i++)
+        {
+            var row = addonSheet.GetRowOrDefault(i);
+            if (row != null)
+            {
+                var text = row.Value.Text.ExtractText();
+                if (!string.IsNullOrWhiteSpace(text) && text.Length > 1 && !text.StartsWith("--"))
+                {
+                    addonDict[i.ToString()] = text;
+                }
+            }
+        }
+        var addonJson = System.Text.Json.JsonSerializer.Serialize(addonDict, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
+        File.WriteAllText(Path.Combine(translationsDir, "addon_sample.json"), addonJson);
+        Console.WriteLine($"Esportato addon_sample.json ({addonDict.Count} righe Addon)");
+    }
+
+    var mainCommandExh = lumina.GetFile("exd/maincommand.exh");
+    if (mainCommandExh != null)
+    {
+        var fixedDataSize = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(mainCommandExh.Data.AsSpan(0x06, 2));
+        var colCount = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(mainCommandExh.Data.AsSpan(0x08, 2));
+        Console.WriteLine($"- MainCommand.exh: fixedDataSize={fixedDataSize}, columns={colCount}");
+        for (int c = 0; c < colCount; c++)
+        {
+            int colPos = 0x20 + (c * 4);
+            var colType = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(mainCommandExh.Data.AsSpan(colPos, 2));
+            var colOffset = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(mainCommandExh.Data.AsSpan(colPos + 2, 2));
+            Console.WriteLine($"  MainCommand Colonna {c}: Tipo=0x{colType:X4}, Offset={colOffset}");
+        }
+    }
+
+    var mainCommandCatExh = lumina.GetFile("exd/maincommandcategory.exh");
+    if (mainCommandCatExh != null)
+    {
+        var fixedDataSize = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(mainCommandCatExh.Data.AsSpan(0x06, 2));
+        var colCount = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(mainCommandCatExh.Data.AsSpan(0x08, 2));
+        Console.WriteLine($"- MainCommandCategory.exh: fixedDataSize={fixedDataSize}, columns={colCount}");
+        for (int c = 0; c < colCount; c++)
+        {
+            int colPos = 0x20 + (c * 4);
+            var colType = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(mainCommandCatExh.Data.AsSpan(colPos, 2));
+            var colOffset = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(mainCommandCatExh.Data.AsSpan(colPos + 2, 2));
+            Console.WriteLine($"  MainCommandCat Colonna {c}: Tipo=0x{colType:X4}, Offset={colOffset}");
+        }
+    }
 }
 catch (Exception ex)
 {

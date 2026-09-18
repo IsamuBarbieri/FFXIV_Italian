@@ -1,13 +1,1074 @@
 {
-  "1": { "original": "OK", "translation": "OK" },
-  "2": { "original": "Cancel", "translation": "Annulla" },
-  "3": { "original": "Yes.", "translation": "Sì." },
-  "4": { "original": "No.", "translation": "No." },
-  "5": { "original": "Quit", "translation": "Esci dal Gioco" },
-  "100": { "original": "Copy", "translation": "Copia" },
-  "101": { "original": "Paste", "translation": "Incolla" },
-  "102": { "original": "Cut", "translation": "Taglia" },
-  "103": { "original": "Execute", "translation": "Esegui" },
-  "104": { "original": "Delete", "translation": "Elimina" },
-  "105": { "original": "Undo", "translation": "Annulla azione" }
+  "1": {
+    "original": "OK",
+    "translation": "OK"
+  },
+  "2": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "3": {
+    "original": "Yes.",
+    "translation": "Sì."
+  },
+  "4": {
+    "original": "No.",
+    "translation": "No."
+  },
+  "5": {
+    "original": "Quit",
+    "translation": "Esci dal Gioco"
+  },
+  "7": {
+    "original": "None",
+    "translation": "Nessuno"
+  },
+  "10": {
+    "original": "Japanese",
+    "translation": "Giapponese"
+  },
+  "11": {
+    "original": "English",
+    "translation": "Inglese"
+  },
+  "12": {
+    "original": "German",
+    "translation": "Tedesco"
+  },
+  "13": {
+    "original": "French",
+    "translation": "Francese"
+  },
+  "14": {
+    "original": "Simplified Chinese",
+    "translation": "Cinese Semplificato"
+  },
+  "39": {
+    "original": "A few minutes ago",
+    "translation": "Pochi minuti fa"
+  },
+  "50": {
+    "original": "Send Tell",
+    "translation": "Invia Sussurro"
+  },
+  "51": {
+    "original": "View Search Info",
+    "translation": "Mostra Info Ricerca"
+  },
+  "52": {
+    "original": "Edit Search Info",
+    "translation": "Modifica Info Ricerca"
+  },
+  "53": {
+    "original": "Trade",
+    "translation": "Commercia"
+  },
+  "54": {
+    "original": "Invite to Party",
+    "translation": "Invita nel Gruppo"
+  },
+  "55": {
+    "original": "Promote",
+    "translation": "Promuovi a Capogruppo"
+  },
+  "56": {
+    "original": "Kick from Party",
+    "translation": "Espelli dal Gruppo"
+  },
+  "57": {
+    "original": "Attack",
+    "translation": "Attacca"
+  },
+  "58": {
+    "original": "Examine",
+    "translation": "Esamina"
+  },
+  "59": {
+    "original": "Add to Blacklist",
+    "translation": "Aggiungi alla Lista Nera"
+  },
+  "60": {
+    "original": "Remove from Blacklist",
+    "translation": "Rimuovi dalla Lista Nera"
+  },
+  "61": {
+    "original": "Send Friend Request",
+    "translation": "Invia Richiesta di Amicizia"
+  },
+  "62": {
+    "original": "Cancel Friend Request",
+    "translation": "Annulla Richiesta di Amicizia"
+  },
+  "63": {
+    "original": "Respond to Friend Request",
+    "translation": "Rispondi alla Richiesta"
+  },
+  "64": {
+    "original": "Decline Friend Request",
+    "translation": "Rifiuta Richiesta"
+  },
+  "65": {
+    "original": "Remove from Friend List",
+    "translation": "Rimuovi dagli Amici"
+  },
+  "66": {
+    "original": "View",
+    "translation": "Visualizza"
+  },
+  "67": {
+    "original": "Reply",
+    "translation": "Rispondi"
+  },
+  "68": {
+    "original": "Delete",
+    "translation": "Elimina"
+  },
+  "69": {
+    "original": "Remove Item",
+    "translation": "Rimuovi Oggetto"
+  },
+  "70": {
+    "original": "Follow",
+    "translation": "Segui"
+  },
+  "71": {
+    "original": "Hide Linkshell Log",
+    "translation": "Nascondi Chat Linkshell"
+  },
+  "72": {
+    "original": "Show Linkshell Log",
+    "translation": "Mostra Chat Linkshell"
+  },
+  "73": {
+    "original": "Activate Linkshell",
+    "translation": "Attiva Linkshell"
+  },
+  "74": {
+    "original": "Disband Linkshell",
+    "translation": "Sciogli Linkshell"
+  },
+  "75": {
+    "original": "Accept Linkshell Invite",
+    "translation": "Accetta Invito Linkshell"
+  },
+  "76": {
+    "original": "Decline Linkshell Invite",
+    "translation": "Rifiuta Invito Linkshell"
+  },
+  "77": {
+    "original": "Quit Linkshell",
+    "translation": "Abbandona Linkshell"
+  },
+  "78": {
+    "original": "Promote to Linkshell Master",
+    "translation": "Promuovi a Maestro Linkshell"
+  },
+  "79": {
+    "original": "Promote to Linkshell Leader",
+    "translation": "Promuovi a Leader Linkshell"
+  },
+  "80": {
+    "original": "Demote from Linkshell Leader",
+    "translation": "Degrada da Leader Linkshell"
+  },
+  "81": {
+    "original": "Kick from Linkshell",
+    "translation": "Espelli da Linkshell"
+  },
+  "82": {
+    "original": "Deactivate Linkshell",
+    "translation": "Disattiva Linkshell"
+  },
+  "83": {
+    "original": "Invite to Linkshell",
+    "translation": "Invita nella Linkshell"
+  },
+  "85": {
+    "original": "Remove",
+    "translation": "Rimuovi"
+  },
+  "86": {
+    "original": "Split Tab",
+    "translation": "Separa Scheda"
+  },
+  "87": {
+    "original": "Delete Tab",
+    "translation": "Elimina Scheda"
+  },
+  "88": {
+    "original": "Hand Over",
+    "translation": "Consegna"
+  },
+  "89": {
+    "original": "Unequip",
+    "translation": "Rimuovi Equipaggiamento"
+  },
+  "90": {
+    "original": "Use",
+    "translation": "Usa"
+  },
+  "91": {
+    "original": "Discard",
+    "translation": "Scarta"
+  },
+  "92": {
+    "original": "Split",
+    "translation": "Dividi"
+  },
+  "93": {
+    "original": "Sell",
+    "translation": "Vendi"
+  },
+  "94": {
+    "original": "Attach",
+    "translation": "Incastona"
+  },
+  "95": {
+    "original": "Trade",
+    "translation": "Scambia"
+  },
+  "96": {
+    "original": "Equip",
+    "translation": "Equipaggia"
+  },
+  "97": {
+    "original": "Entrust to Retainer",
+    "translation": "Affida al Servitore"
+  },
+  "98": {
+    "original": "Retrieve from Retainer",
+    "translation": "Ritira dal Servitore"
+  },
+  "99": {
+    "original": "Put Up for Sale",
+    "translation": "Metti in Vendita"
+  },
+  "100": {
+    "original": "Copy",
+    "translation": "Copia"
+  },
+  "101": {
+    "original": "Paste",
+    "translation": "Incolla"
+  },
+  "102": {
+    "original": "Cut",
+    "translation": "Taglia"
+  },
+  "103": {
+    "original": "Execute",
+    "translation": "Esegui"
+  },
+  "104": {
+    "original": "Delete",
+    "translation": "Elimina"
+  },
+  "105": {
+    "original": "Undo",
+    "translation": "Annulla Azione"
+  },
+  "106": {
+    "original": "Redo",
+    "translation": "Ripeti Azione"
+  },
+  "107": {
+    "original": "Repair",
+    "translation": "Ripara"
+  },
+  "108": {
+    "original": "Leave party and abandon your current duty?",
+    "translation": "Vuoi lasciare il gruppo e abbandonare l'incarico attuale?"
+  },
+  "109": {
+    "original": "Abandon your current duty?",
+    "translation": "Vuoi abbandonare l'incarico attuale?"
+  },
+  "112": {
+    "original": "Accept Raise?",
+    "translation": "Accettare la resurrezione?"
+  },
+  "115": {
+    "original": "Log out and return to the title screen?",
+    "translation": "Vuoi disconnetterti e tornare alla schermata del titolo?"
+  },
+  "116": {
+    "original": "Log out and exit the game?",
+    "translation": "Vuoi disconnetterti e uscire dal gioco?"
+  },
+  "117": {
+    "original": "Return to your home point?",
+    "translation": "Vuoi ritornare al tuo punto di ritorno?"
+  },
+  "122": {
+    "original": "Leave party?",
+    "translation": "Vuoi lasciare il gruppo?"
+  },
+  "123": {
+    "original": "Disband party?",
+    "translation": "Vuoi sciogliere il gruppo?"
+  },
+  "145": {
+    "original": "Timers",
+    "translation": "Promemoria Timer"
+  },
+  "147": {
+    "original": "Next Leve Allowance",
+    "translation": "Prossimi Mandati Disponibili"
+  },
+  "154": {
+    "original": "Lower Quality",
+    "translation": "Riduci Qualità"
+  },
+  "159": {
+    "original": "Copy Item Name",
+    "translation": "Copia Nome Oggetto"
+  },
+  "162": {
+    "original": "Record Ready Check",
+    "translation": "Controllo Prontezza Registrazione"
+  },
+  "168": {
+    "original": "Accept",
+    "translation": "Accetta"
+  },
+  "169": {
+    "original": "Decline",
+    "translation": "Rifiuta"
+  },
+  "170": {
+    "original": "Party Invite",
+    "translation": "Invito nel Gruppo"
+  },
+  "171": {
+    "original": "Friend Request",
+    "translation": "Richiesta di Amicizia"
+  },
+  "172": {
+    "original": "Linkshell Invite",
+    "translation": "Invito a Linkshell"
+  },
+  "175": {
+    "original": "Solo",
+    "translation": "In solitaria"
+  },
+  "176": {
+    "original": "Party",
+    "translation": "Gruppo"
+  },
+  "177": {
+    "original": "Light Party",
+    "translation": "Gruppo Ristretto"
+  },
+  "178": {
+    "original": "Full Party",
+    "translation": "Gruppo Completo"
+  },
+  "179": {
+    "original": "Mounted",
+    "translation": "A Cavallo"
+  },
+  "180": {
+    "original": "Disciplines of War",
+    "translation": "Discepoli della Guerra"
+  },
+  "181": {
+    "original": "Disciplines of Magic",
+    "translation": "Discepoli della Magia"
+  },
+  "182": {
+    "original": "Disciplines of the Land",
+    "translation": "Discepoli della Terra"
+  },
+  "183": {
+    "original": "Disciplines of the Hand",
+    "translation": "Discepoli della Mano"
+  },
+  "186": {
+    "original": "Teleport",
+    "translation": "Teletrasporto"
+  },
+  "187": {
+    "original": "Select a destination.\r\nCurrent Gil: ",
+    "translation": "Seleziona una destinazione.\r\nGil attuali: "
+  },
+  "195": {
+    "original": "Exit the game?",
+    "translation": "Vuoi uscire dal gioco?"
+  },
+  "201": {
+    "original": "Trade",
+    "translation": "Commercia"
+  },
+  "204": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "205": {
+    "original": "gil",
+    "translation": "gil"
+  },
+  "206": {
+    "original": "Specify quantity.",
+    "translation": "Specifica la quantità."
+  },
+  "208": {
+    "original": "OK",
+    "translation": "OK"
+  },
+  "210": {
+    "original": "Synthesis",
+    "translation": "Sintesi"
+  },
+  "212": {
+    "original": "Quit",
+    "translation": "Esci"
+  },
+  "213": {
+    "original": "Progress",
+    "translation": "Progresso"
+  },
+  "214": {
+    "original": "Durability",
+    "translation": "Durabilità"
+  },
+  "215": {
+    "original": "Condition",
+    "translation": "Condizione"
+  },
+  "216": {
+    "original": "Quality",
+    "translation": "Qualità"
+  },
+  "217": {
+    "original": "HQ",
+    "translation": "HQ"
+  },
+  "218": {
+    "original": "Step",
+    "translation": "Fase"
+  },
+  "220": {
+    "original": "Quick Synthesis",
+    "translation": "Sintesi Rapida"
+  },
+  "222": {
+    "original": "Quit",
+    "translation": "Esci"
+  },
+  "223": {
+    "original": "Succeeded",
+    "translation": "Riuscita"
+  },
+  "224": {
+    "original": "Failed",
+    "translation": "Fallita"
+  },
+  "226": {
+    "original": "Normal",
+    "translation": "Normale"
+  },
+  "227": {
+    "original": "Good",
+    "translation": "Buona"
+  },
+  "228": {
+    "original": "Excellent",
+    "translation": "Eccellente"
+  },
+  "229": {
+    "original": "Poor",
+    "translation": "Scarsa"
+  },
+  "230": {
+    "original": "Character",
+    "translation": "Personaggio"
+  },
+  "232": {
+    "original": "HP",
+    "translation": "HP"
+  },
+  "233": {
+    "original": "MP",
+    "translation": "MP"
+  },
+  "234": {
+    "original": "TP",
+    "translation": "TP"
+  },
+  "243": {
+    "original": "Fire",
+    "translation": "Fuoco"
+  },
+  "244": {
+    "original": "Water",
+    "translation": "Acqua"
+  },
+  "245": {
+    "original": "Lightning",
+    "translation": "Fulmine"
+  },
+  "246": {
+    "original": "Wind",
+    "translation": "Vento"
+  },
+  "247": {
+    "original": "Earth",
+    "translation": "Terra"
+  },
+  "248": {
+    "original": "Ice",
+    "translation": "Ghiaccio"
+  },
+  "255": {
+    "original": "Physical Properties",
+    "translation": "Proprietà Fisiche"
+  },
+  "256": {
+    "original": "Attack Power",
+    "translation": "Potenza d'Attacco"
+  },
+  "257": {
+    "original": "Defense",
+    "translation": "Difesa Fisica"
+  },
+  "258": {
+    "original": "Accuracy",
+    "translation": "Precisione"
+  },
+  "259": {
+    "original": "Evasion",
+    "translation": "Schivata"
+  },
+  "260": {
+    "original": "Mental Properties",
+    "translation": "Proprietà Magiche"
+  },
+  "261": {
+    "original": "Attack Magic Potency",
+    "translation": "Potenza Magica Offensiva"
+  },
+  "262": {
+    "original": "Healing Magic Potency",
+    "translation": "Potenza Magica Curativa"
+  },
+  "263": {
+    "original": "Magic Accuracy",
+    "translation": "Precisione Magica"
+  },
+  "266": {
+    "original": "Magic Evasion",
+    "translation": "Schivata Magica"
+  },
+  "267": {
+    "original": "Damage",
+    "translation": "Danno"
+  },
+  "268": {
+    "original": "Delay",
+    "translation": "Ritardo"
+  },
+  "269": {
+    "original": "Defensive Properties",
+    "translation": "Proprietà Difensive"
+  },
+  "270": {
+    "original": "Block Rate",
+    "translation": "Frequenza Parata"
+  },
+  "271": {
+    "original": "Block Strength",
+    "translation": "Efficacia Parata"
+  },
+  "273": {
+    "original": "Crafting",
+    "translation": "Fabbricazione"
+  },
+  "274": {
+    "original": "Craftsmanship",
+    "translation": "Maestria"
+  },
+  "275": {
+    "original": "Control",
+    "translation": "Controllo"
+  },
+  "276": {
+    "original": "Gathering",
+    "translation": "Raccolta"
+  },
+  "278": {
+    "original": "Perception",
+    "translation": "Percezione"
+  },
+  "279": {
+    "original": "Magic Defense",
+    "translation": "Difesa Magica"
+  },
+  "280": {
+    "original": "Skip",
+    "translation": "Salta"
+  },
+  "281": {
+    "original": "Skip cutscene?",
+    "translation": "Vuoi saltare il filmato?"
+  },
+  "282": {
+    "original": " Delete",
+    "translation": "Elimina"
+  },
+  "285": {
+    "original": "Physical Damage",
+    "translation": "Danno Fisico"
+  },
+  "286": {
+    "original": "Auto-attack",
+    "translation": "Attacco Automatico"
+  },
+  "288": {
+    "original": "Magic Damage",
+    "translation": "Danno Magico"
+  },
+  "290": {
+    "original": "Social",
+    "translation": "Social"
+  },
+  "292": {
+    "original": "Search Conditions",
+    "translation": "Condizioni di Ricerca"
+  },
+  "293": {
+    "original": "Name",
+    "translation": "Nome"
+  },
+  "294": {
+    "original": "Class/Job",
+    "translation": "Classe/Ruolo"
+  },
+  "295": {
+    "original": "GC",
+    "translation": "Grande Compagnia"
+  },
+  "296": {
+    "original": "Location",
+    "translation": "Posizione"
+  },
+  "297": {
+    "original": "Company",
+    "translation": "Compagnia Libera"
+  },
+  "298": {
+    "original": "Lang.",
+    "translation": "Lingua"
+  },
+  "299": {
+    "original": "The list is empty.",
+    "translation": "L'elenco è vuoto."
+  },
+  "300": {
+    "original": "Blacklist",
+    "translation": "Lista Nera"
+  },
+  "302": {
+    "original": "Add",
+    "translation": "Aggiungi"
+  },
+  "304": {
+    "original": "The list is empty.",
+    "translation": "L'elenco è vuoto."
+  },
+  "305": {
+    "original": "Search Info",
+    "translation": "Info Ricerca"
+  },
+  "310": {
+    "original": "Party",
+    "translation": "Gruppo"
+  },
+  "312": {
+    "original": "Leave Party",
+    "translation": "Lascia il Gruppo"
+  },
+  "313": {
+    "original": "Disband Party",
+    "translation": "Sciogli il Gruppo"
+  },
+  "321": {
+    "original": "There are no party members.",
+    "translation": "Non ci sono membri nel gruppo."
+  },
+  "325": {
+    "original": "Search",
+    "translation": "Cerca"
+  },
+  "327": {
+    "original": "Execute",
+    "translation": "Esegui"
+  },
+  "328": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "329": {
+    "original": "Reset",
+    "translation": "Ripristina"
+  },
+  "330": {
+    "original": "First Name",
+    "translation": "Nome"
+  },
+  "331": {
+    "original": "Last Name",
+    "translation": "Cognome"
+  },
+  "333": {
+    "original": "Online Status",
+    "translation": "Stato Online"
+  },
+  "334": {
+    "original": "Class/Job",
+    "translation": "Classe/Ruolo"
+  },
+  "335": {
+    "original": "Level",
+    "translation": "Livello"
+  },
+  "336": {
+    "original": "Location",
+    "translation": "Posizione"
+  },
+  "337": {
+    "original": "Grand Company",
+    "translation": "Grande Compagnia"
+  },
+  "338": {
+    "original": "Language",
+    "translation": "Lingua"
+  },
+  "339": {
+    "original": "No search results.",
+    "translation": "Nessun risultato trovato."
+  },
+  "340": {
+    "original": "OK",
+    "translation": "OK"
+  },
+  "341": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "342": {
+    "original": "Search Comment",
+    "translation": "Commento di Ricerca"
+  },
+  "345": {
+    "original": "Add",
+    "translation": "Aggiungi"
+  },
+  "346": {
+    "original": "Update",
+    "translation": "Aggiorna"
+  },
+  "347": {
+    "original": "Add Player to Blacklist",
+    "translation": "Aggiungi Giocatore alla Lista Nera"
+  },
+  "348": {
+    "original": "Add Player to Friend List",
+    "translation": "Aggiungi Giocatore agli Amici"
+  },
+  "350": {
+    "original": "Shop",
+    "translation": "Negozio"
+  },
+  "352": {
+    "original": "Current Stock",
+    "translation": "Merci in Vendita"
+  },
+  "353": {
+    "original": "Buyback",
+    "translation": "Riacquista"
+  },
+  "354": {
+    "original": "Select quantity.",
+    "translation": "Seleziona la quantità."
+  },
+  "355": {
+    "original": "Item",
+    "translation": "Oggetto"
+  },
+  "356": {
+    "original": "Quantity",
+    "translation": "Quantità"
+  },
+  "357": {
+    "original": "Price",
+    "translation": "Prezzo"
+  },
+  "358": {
+    "original": "Bag",
+    "translation": "Borsa"
+  },
+  "360": {
+    "original": "Item Request",
+    "translation": "Richiesta Oggetto"
+  },
+  "362": {
+    "original": "Hand Over",
+    "translation": "Consegna"
+  },
+  "363": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "370": {
+    "original": "Hide Log Window",
+    "translation": "Nascondi Finestra Chat"
+  },
+  "372": {
+    "original": "Edit Macro",
+    "translation": "Modifica Macro"
+  },
+  "373": {
+    "original": "What would you like to do?",
+    "translation": "Cosa desideri fare?"
+  },
+  "380": {
+    "original": "Buyback",
+    "translation": "Riacquista"
+  },
+  "385": {
+    "original": "There are no items to display.",
+    "translation": "Nessun oggetto da mostrare."
+  },
+  "386": {
+    "original": "Speed",
+    "translation": "Velocità"
+  },
+  "388": {
+    "original": "Player Team",
+    "translation": "Squadra Alleata"
+  },
+  "389": {
+    "original": "Enemy Team",
+    "translation": "Squadra Nemica"
+  },
+  "390": {
+    "original": "Need",
+    "translation": "Necessità"
+  },
+  "391": {
+    "original": "Greed",
+    "translation": "Bramosia"
+  },
+  "392": {
+    "original": "Pass",
+    "translation": "Rinuncia"
+  },
+  "393": {
+    "original": "Unique",
+    "translation": "Unico"
+  },
+  "395": {
+    "original": "Treasure Coffer",
+    "translation": "Forziere del Tesoro"
+  },
+  "397": {
+    "original": "This item has materia attached. Are you certain you wish to sell it?",
+    "translation": "Questo oggetto contiene materia incastonata. Sei sicuro di volerlo vendere?"
+  },
+  "398": {
+    "original": "Your spiritbond with this item is 100%. Are you certain you wish to sell it?",
+    "translation": "Il tuo legame spirituale con questo oggetto è al 100%. Sei sicuro di volerlo vendere?"
+  },
+  "399": {
+    "original": "This item is unique and untradable. Are you certain you wish to sell it?",
+    "translation": "Questo oggetto è unico e non scambiabile. Sei sicuro di volerlo vendere?"
+  },
+  "400": {
+    "original": "User Macros",
+    "translation": "Macro Utente"
+  },
+  "402": {
+    "original": "Text Commands",
+    "translation": "Comandi Testuali"
+  },
+  "403": {
+    "original": "Dictionary",
+    "translation": "Dizionario"
+  },
+  "405": {
+    "original": "Macro #",
+    "translation": "Macro n."
+  },
+  "406": {
+    "original": "Icons",
+    "translation": "Icone"
+  },
+  "410": {
+    "original": "Linkshells",
+    "translation": "Linkshell"
+  },
+  "412": {
+    "original": "List",
+    "translation": "Elenco"
+  },
+  "420": {
+    "original": "Moogle Delivery Service",
+    "translation": "Servizio Postale dei Moguri"
+  },
+  "422": {
+    "original": "Unopened",
+    "translation": "Da Aprire"
+  },
+  "423": {
+    "original": "Opened",
+    "translation": "Aperto"
+  },
+  "424": {
+    "original": "New",
+    "translation": "Nuovo"
+  },
+  "430": {
+    "original": "Take All",
+    "translation": "Ritira Tutto"
+  },
+  "431": {
+    "original": "Delete",
+    "translation": "Elimina"
+  },
+  "433": {
+    "original": "Reply",
+    "translation": "Rispondi"
+  },
+  "434": {
+    "original": "Recipient",
+    "translation": "Destinatario"
+  },
+  "440": {
+    "original": "Letter Editor",
+    "translation": "Componi Lettera"
+  },
+  "442": {
+    "original": "Edit",
+    "translation": "Modifica"
+  },
+  "443": {
+    "original": "Send",
+    "translation": "Invia"
+  },
+  "445": {
+    "original": "Body",
+    "translation": "Testo"
+  },
+  "450": {
+    "original": "Journal",
+    "translation": "Diario di Viaggio"
+  },
+  "452": {
+    "original": "Current",
+    "translation": "In Corso"
+  },
+  "453": {
+    "original": "Complete",
+    "translation": "Completate"
+  },
+  "454": {
+    "original": "Quests",
+    "translation": "Missioni"
+  },
+  "455": {
+    "original": "Levequests",
+    "translation": "Mandati"
+  },
+  "456": {
+    "original": "Allowances",
+    "translation": "Permessi Residui"
+  },
+  "457": {
+    "original": "Leve History",
+    "translation": "Cronologia Mandati"
+  },
+  "460": {
+    "original": "Accept",
+    "translation": "Accetta"
+  },
+  "461": {
+    "original": "Decline",
+    "translation": "Rifiuta"
+  },
+  "462": {
+    "original": "Objectives",
+    "translation": "Obiettivi"
+  },
+  "463": {
+    "original": "Reward",
+    "translation": "Ricompensa"
+  },
+  "465": {
+    "original": "Options",
+    "translation": "Opzioni"
+  },
+  "466": {
+    "original": "History",
+    "translation": "Cronologia"
+  },
+  "467": {
+    "original": "Map",
+    "translation": "Mappa"
+  },
+  "468": {
+    "original": "Retry",
+    "translation": "Riprova"
+  },
+  "469": {
+    "original": "Abandon",
+    "translation": "Abbandona"
+  },
+  "470": {
+    "original": "Initiate",
+    "translation": "Inizia"
+  },
+  "471": {
+    "original": "Completion Bonus",
+    "translation": "Bonus di Completamento"
+  },
+  "472": {
+    "original": "Complete",
+    "translation": "Completa"
+  },
+  "481": {
+    "original": "Materia",
+    "translation": "Materia"
+  },
+  "493": {
+    "original": "HQ",
+    "translation": "HQ"
+  },
+  "494": {
+    "original": "Unique",
+    "translation": "Unico"
+  },
+  "495": {
+    "original": "Untradable",
+    "translation": "Non Scambiabile"
+  },
+  "496": {
+    "original": "Binding",
+    "translation": "Vincolante"
+  },
+  "497": {
+    "original": "Crafting & Repairs",
+    "translation": "Fabbricazione e Riparazioni"
+  },
+  "498": {
+    "original": "Condition",
+    "translation": "Condizione"
+  },
+  "499": {
+    "original": "Spiritbond",
+    "translation": "Legame Spirituale"
+  },
+  "500": {
+    "original": "Repair Level",
+    "translation": "Livello di Riparazione"
+  }
 }

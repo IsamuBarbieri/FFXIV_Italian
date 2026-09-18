@@ -99,6 +99,48 @@ if (Directory.Exists(sqPackPath))
                 Console.WriteLine($"  * 'exd/addon_0_en.exd' rigenerato ({patchedAddonExd.Length:N0} byte).");
             }
         }
+        // 3. PATCH MAINCOMMANDCATEGORY (Le macro-categorie del menu principale)
+        string catJsonPath = Path.Combine(translationsDir, "maincommandcategory.json");
+        var catReplacements = TranslationFileReader.LoadReplacements(catJsonPath);
+        if (catReplacements.Count > 0)
+        {
+            Console.WriteLine();
+            Console.WriteLine($"Caricate {catReplacements.Count} traduzioni da '{Path.GetFileName(catJsonPath)}'.");
+            var originalCatExd = lumina.GetFile("exd/maincommandcategory_0_en.exd");
+            if (originalCatExd != null)
+            {
+                byte[] patchedCatExd = ExdPatcher.PatchSimpleStringSheet(
+                    originalCatExd.Data,
+                    fixedDataSize: 8,
+                    stringColumnOffset: 0,
+                    catReplacements);
+
+                fileMap["exd/maincommandcategory_0_en.exd"] = patchedCatExd;
+                Console.WriteLine($"  * 'exd/maincommandcategory_0_en.exd' rigenerato ({patchedCatExd.Length:N0} byte).");
+            }
+        }
+
+        // 4. PATCH MAINCOMMAND (I 100 comandi e descrizioni del menu principale)
+        string cmdJsonPath = Path.Combine(translationsDir, "maincommand.json");
+        var cmdReplacements = TranslationFileReader.LoadTwoStringReplacements(cmdJsonPath);
+        if (cmdReplacements.Count > 0)
+        {
+            Console.WriteLine();
+            Console.WriteLine($"Caricate {cmdReplacements.Count} traduzioni da '{Path.GetFileName(cmdJsonPath)}'.");
+            var originalCmdExd = lumina.GetFile("exd/maincommand_0_en.exd");
+            if (originalCmdExd != null)
+            {
+                byte[] patchedCmdExd = ExdPatcher.PatchTwoStringSheet(
+                    originalCmdExd.Data,
+                    fixedDataSize: 16,
+                    string1ColumnOffset: 0,
+                    string2ColumnOffset: 4,
+                    cmdReplacements);
+
+                fileMap["exd/maincommand_0_en.exd"] = patchedCmdExd;
+                Console.WriteLine($"  * 'exd/maincommand_0_en.exd' rigenerato ({patchedCmdExd.Length:N0} byte).");
+            }
+        }
     }
     catch (Exception ex)
     {
@@ -135,19 +177,45 @@ if (Directory.Exists(penumbraModDir))
         Console.WriteLine($"  * Scritto: {gamePath} ({data.Length:N0} byte)");
     }
 
+    // Preserve existing Identifier GUID from Penumbra
+    string? existingIdentifier = null;
+    string existingMetaPath = Path.Combine(penumbraModDir, "meta.json");
+    if (File.Exists(existingMetaPath))
+    {
+        try
+        {
+            using var doc = System.Text.Json.JsonDocument.Parse(File.ReadAllText(existingMetaPath));
+            if (doc.RootElement.TryGetProperty("Identifier", out var idProp) && idProp.ValueKind == System.Text.Json.JsonValueKind.String)
+            {
+                existingIdentifier = idProp.GetString();
+            }
+        }
+        catch { }
+    }
+
+    var filesJson = new StringBuilder();
+    int count = 0;
+    foreach (var key in fileMap.Keys)
+    {
+        if (count > 0) filesJson.AppendLine(",");
+        string escapedVal = key.Replace("/", "\\\\");
+        filesJson.Append($"            \"{key}\": \"{escapedVal}\"");
+        count++;
+    }
+
+    string idLine = !string.IsNullOrEmpty(existingIdentifier) ? $"\"Identifier\": \"{existingIdentifier}\",\n    " : "";
+
     var penumbraMetaJson = $$"""
     {
         "FileVersion": 4,
-        "Name": "{{meta.Name}}",
+        {{idLine}}"Name": "{{meta.Name}}",
         "Author": "{{meta.Author}}",
         "Description": "{{meta.Description}}",
         "Version": "{{meta.Version}}",
         "Website": "{{meta.Website}}",
         "DefaultData": {
             "Files": {
-                "exd/lobby_0_en.exd": "exd\\lobby_0_en.exd",
-                "exd/addon_0_en.exd": "exd\\addon_0_en.exd",
-                "readme_ita.txt": "readme_ita.txt"
+    {{filesJson}}
             }
         }
     }

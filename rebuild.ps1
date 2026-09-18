@@ -7,3 +7,4 @@ $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 Set-Location $scriptDir
 
 dotnet run --project src/FFXIVItalian.Patcher
+

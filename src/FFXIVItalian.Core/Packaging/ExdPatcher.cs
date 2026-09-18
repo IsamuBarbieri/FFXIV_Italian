@@ -96,6 +96,109 @@ public static class ExdPatcher
         return RebuildExdf(rows);
     }
 
+    /// <summary>
+    /// Replaces strings in an EXD page where fixedDataSize and two string column offsets are known (e.g. MainCommand).
+    /// </summary>
+    public static byte[] PatchTwoStringSheet(
+        byte[] originalExd,
+        int fixedDataSize,
+        int string1ColumnOffset,
+        int string2ColumnOffset,
+        IReadOnlyDictionary<uint, (string? String1, string? String2)> rowReplacements)
+    {
+        if (originalExd.Length < HeaderSize ||
+            originalExd[0] != 'E' || originalExd[1] != 'X' || originalExd[2] != 'D' || originalExd[3] != 'F')
+        {
+            throw new InvalidDataException("I byte forniti non appartengono a un file EXDF valido.");
+        }
+
+        uint indexTableSize = BinaryPrimitives.ReadUInt32BigEndian(originalExd.AsSpan(0x08, 4));
+        int rowCount = (int)(indexTableSize / 8);
+
+        var rows = new List<ExdRowData>(rowCount);
+
+        for (int i = 0; i < rowCount; i++)
+        {
+            int entryPos = HeaderSize + (i * 8);
+            uint rowId = BinaryPrimitives.ReadUInt32BigEndian(originalExd.AsSpan(entryPos, 4));
+            uint offset = BinaryPrimitives.ReadUInt32BigEndian(originalExd.AsSpan(entryPos + 4, 4));
+
+            if (offset + RowHeaderSize > originalExd.Length)
+            {
+                continue;
+            }
+
+            int dataSize = (int)BinaryPrimitives.ReadUInt32BigEndian(originalExd.AsSpan((int)offset, 4));
+            ushort subRowCount = BinaryPrimitives.ReadUInt16BigEndian(originalExd.AsSpan((int)offset + 4, 2));
+
+            int fixedStart = (int)offset + RowHeaderSize;
+            int stringStart = fixedStart + fixedDataSize;
+            int stringLength = dataSize - fixedDataSize;
+
+            if (stringStart > originalExd.Length || fixedStart + fixedDataSize > originalExd.Length)
+            {
+                continue;
+            }
+
+            byte[] fixedData = originalExd.AsSpan(fixedStart, fixedDataSize).ToArray();
+            byte[] stringData;
+
+            if (rowReplacements.TryGetValue(rowId, out var replacement))
+            {
+                uint origS1Offset = BinaryPrimitives.ReadUInt32BigEndian(fixedData.AsSpan(string1ColumnOffset, 4));
+                uint origS2Offset = BinaryPrimitives.ReadUInt32BigEndian(fixedData.AsSpan(string2ColumnOffset, 4));
+
+                string s1Text = replacement.String1 ?? ReadNullTerminatedString(originalExd, stringStart, origS1Offset, stringLength);
+                string s2Text = replacement.String2 ?? ReadNullTerminatedString(originalExd, stringStart, origS2Offset, stringLength);
+
+                byte[] s1Bytes = Encoding.UTF8.GetBytes(s1Text);
+                byte[] s2Bytes = Encoding.UTF8.GetBytes(s2Text);
+
+                // String payload: [s1, 0, s2, 0]
+                stringData = new byte[s1Bytes.Length + 1 + s2Bytes.Length + 1];
+                Buffer.BlockCopy(s1Bytes, 0, stringData, 0, s1Bytes.Length);
+                stringData[s1Bytes.Length] = 0;
+
+                int s2RelOffset = s1Bytes.Length + 1;
+                Buffer.BlockCopy(s2Bytes, 0, stringData, s2RelOffset, s2Bytes.Length);
+                stringData[^1] = 0;
+
+                // Update fixed data offsets
+                BinaryPrimitives.WriteUInt32BigEndian(fixedData.AsSpan(string1ColumnOffset, 4), 0);
+                BinaryPrimitives.WriteUInt32BigEndian(fixedData.AsSpan(string2ColumnOffset, 4), (uint)s2RelOffset);
+            }
+            else
+            {
+                stringData = originalExd.AsSpan(stringStart, Math.Max(0, stringLength)).ToArray();
+            }
+
+            rows.Add(new ExdRowData
+            {
+                RowId = rowId,
+                SubRowCount = subRowCount,
+                FixedData = fixedData,
+                StringData = stringData
+            });
+        }
+
+        return RebuildExdf(rows);
+    }
+
+    private static string ReadNullTerminatedString(byte[] data, int baseOffset, uint relativeOffset, int maxLength)
+    {
+        int start = baseOffset + (int)relativeOffset;
+        if (start >= data.Length || relativeOffset >= maxLength)
+            return string.Empty;
+
+        int end = start;
+        while (end < data.Length && end < baseOffset + maxLength && data[end] != 0)
+        {
+            end++;
+        }
+
+        return Encoding.UTF8.GetString(data, start, end - start);
+    }
+
     public static byte[] RebuildExdf(List<ExdRowData> rows)
     {
         using var ms = new MemoryStream();
