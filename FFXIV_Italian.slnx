@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/FFXIVItalian.Core/FFXIVItalian.Core.csproj" />
+    <Project Path="src/FFXIVItalian.DiffTool/FFXIVItalian.DiffTool.csproj" />
+    <Project Path="src/FFXIVItalian.Extractor/FFXIVItalian.Extractor.csproj" />
+    <Project Path="src/FFXIVItalian.Patcher/FFXIVItalian.Patcher.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/FFXIVItalian.Tests/FFXIVItalian.Tests.csproj" />
+  </Folder>
+</Solution>
