@@ -76,6 +76,43 @@ try
     }
 
     Console.WriteLine();
+    Console.WriteLine("Test lettura file raw EXD e EXH tramite Lumina:");
+    var placeNameExh = lumina.GetFile("exd/placename.exh");
+    if (placeNameExh != null)
+    {
+        var fixedDataSize = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(placeNameExh.Data.AsSpan(0x06, 2));
+        var colCount = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(placeNameExh.Data.AsSpan(0x08, 2));
+        Console.WriteLine($"- PlaceName.exh: fixedDataSize={fixedDataSize}, columns={colCount}");
+    }
+
+    var placeNameExd = lumina.GetFile("exd/placename_0_en.exd");
+    Console.WriteLine($"- File exd/placename_0_en.exd caricato: {placeNameExd?.Data.Length ?? 0} byte.");
+
+    var addonExh = lumina.GetFile("exd/addon.exh");
+    if (addonExh != null)
+    {
+        var fixedDataSize = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(addonExh.Data.AsSpan(0x06, 2));
+        var colCount = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(addonExh.Data.AsSpan(0x08, 2));
+        Console.WriteLine($"- Addon.exh: fixedDataSize={fixedDataSize}, columns={colCount}");
+    }
+
+    var addonExd = lumina.GetFile("exd/addon_0_en.exd");
+    Console.WriteLine($"- File exd/addon_0_en.exd caricato: {addonExd?.Data.Length ?? 0} byte.");
+
+    Console.WriteLine();
+    Console.WriteLine("Campione righe PlaceName sheet:");
+    uint[] placeIds = [1, 2, 22, 23, 24, 25, 26, 27, 28, 39, 40, 50, 51];
+    foreach (var id in placeIds)
+    {
+        var row = placeNameSheet?.GetRowOrDefault(id);
+        var text = row?.Name.ExtractText();
+        if (!string.IsNullOrEmpty(text))
+        {
+            Console.WriteLine($"  [Place #{id}]: \"{text}\"");
+        }
+    }
+
+    Console.WriteLine();
     Console.WriteLine("Test di estrazione completato con SUCCESSO!");
 }
 catch (Exception ex)
