@@ -18,12 +18,13 @@ public static class ExdPatcher
     public const int RowAlignment = 4;
 
     /// <summary>
-    /// Replaces strings in an EXD page where fixedDataSize is known (e.g. Addon = 4).
+    /// Replaces strings in an EXD page where fixedDataSize and the string column offset are known.
     /// Updates the string column offsets, row data sizes, and index table offsets.
     /// </summary>
     public static byte[] PatchSimpleStringSheet(
         byte[] originalExd,
         int fixedDataSize,
+        int stringColumnOffset,
         IReadOnlyDictionary<uint, string> rowReplacements)
     {
         if (originalExd.Length < HeaderSize ||
@@ -71,10 +72,10 @@ public static class ExdPatcher
                 Buffer.BlockCopy(utf8, 0, stringData, 0, utf8.Length);
                 stringData[^1] = 0; // null terminator
 
-                // If this is a 4-byte single string column sheet (like Addon), the fixed data is the string offset (0)
-                if (fixedDataSize == 4)
+                // Update string offset in fixed data to 0
+                if (stringColumnOffset >= 0 && stringColumnOffset + 4 <= fixedData.Length)
                 {
-                    BinaryPrimitives.WriteUInt32BigEndian(fixedData.AsSpan(0, 4), 0);
+                    BinaryPrimitives.WriteUInt32BigEndian(fixedData.AsSpan(stringColumnOffset, 4), 0);
                 }
             }
             else
@@ -170,3 +171,4 @@ public static class ExdPatcher
         return ms.ToArray();
     }
 }
+

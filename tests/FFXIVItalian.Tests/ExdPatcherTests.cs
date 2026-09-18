@@ -48,7 +48,7 @@ public class ExdPatcherTests
             [2] = "Esci dal Gioco"
         };
 
-        byte[] patchedExd = ExdPatcher.PatchSimpleStringSheet(originalExd, fixedDataSize: 4, replacements);
+        byte[] patchedExd = ExdPatcher.PatchSimpleStringSheet(originalExd, fixedDataSize: 4, stringColumnOffset: 0, replacements);
 
         Assert.NotNull(patchedExd);
         Assert.True(patchedExd.Length > ExdPatcher.HeaderSize);
@@ -71,3 +71,4 @@ public class ExdPatcherTests
         Assert.Equal("Confirm", row3Text);
     }
 }
+

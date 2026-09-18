@@ -100,15 +100,20 @@ try
     Console.WriteLine($"- File exd/addon_0_en.exd caricato: {addonExd?.Data.Length ?? 0} byte.");
 
     Console.WriteLine();
-    Console.WriteLine("Campione righe PlaceName sheet:");
-    uint[] placeIds = [1, 2, 22, 23, 24, 25, 26, 27, 28, 39, 40, 50, 51];
-    foreach (var id in placeIds)
+    Console.WriteLine("Colonne foglio Lobby.exh:");
+    var lobbyExh = lumina.GetFile("exd/lobby.exh");
+    if (lobbyExh != null)
     {
-        var row = placeNameSheet?.GetRowOrDefault(id);
-        var text = row?.Name.ExtractText();
-        if (!string.IsNullOrEmpty(text))
+        var fixedDataSize = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(lobbyExh.Data.AsSpan(0x06, 2));
+        var colCount = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(lobbyExh.Data.AsSpan(0x08, 2));
+        Console.WriteLine($"- Lobby.exh: fixedDataSize={fixedDataSize}, columns={colCount}");
+
+        for (int c = 0; c < colCount; c++)
         {
-            Console.WriteLine($"  [Place #{id}]: \"{text}\"");
+            int colPos = 0x20 + (c * 4);
+            var colType = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(lobbyExh.Data.AsSpan(colPos, 2));
+            var colOffset = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(lobbyExh.Data.AsSpan(colPos + 2, 2));
+            Console.WriteLine($"  Colonna {c}: Tipo=0x{colType:X4}, Offset={colOffset}");
         }
     }
 
