@@ -30,7 +30,7 @@ public static class Program
         switch (command)
         {
             case "status":
-                return RunStatus();
+                return RunStatus(args);
 
             case "export-batch":
                 return RunExportBatch(args);
@@ -85,7 +85,7 @@ USO:
   dotnet run --project src/FFXIVItalian.Extractor -- <comando> [opzioni]
 
 COMANDI DISPONIBILI:
-  status                        Mostra il cruscotto di avanzamento traduzione per tutti i fogli
+  status [filtro]               Mostra il cruscotto di avanzamento (es. status, status pending, status system)
   export-batch <foglio> [opt]   Esporta un blocco (batch) di righe pendenti pronte per la traduzione
   import-batch <foglio> <file>  Importa e convalida un batch tradotto nel master JSON
   autofill <foglio|all>         Pre-popola termini identici dal glossario canonico
@@ -531,10 +531,11 @@ ESEMPI:
         }
     }
 
-    private static int RunStatus()
+    private static int RunStatus(string[] args)
     {
         string translationsDir = FindTranslationsDir();
-        BatchManager.PrintStatus(translationsDir);
+        string? filter = args.Length > 1 ? args[1] : null;
+        BatchManager.PrintStatus(translationsDir, filter);
         return 0;
     }
 

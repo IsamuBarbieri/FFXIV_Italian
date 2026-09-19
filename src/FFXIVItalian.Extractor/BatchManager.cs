@@ -106,7 +106,7 @@ public static class BatchManager
         return false;
     }
 
-    public static void PrintStatus(string translationsDir)
+    public static void PrintStatus(string translationsDir, string? filter = null)
     {
         Console.WriteLine();
         Console.WriteLine("=========================================================================================");
@@ -133,6 +133,12 @@ public static class BatchManager
         int grandTranslated = 0;
         int grandPending = 0;
 
+        bool isPendingFilter = !string.IsNullOrWhiteSpace(filter) &&
+            (filter.Equals("pending", StringComparison.OrdinalIgnoreCase) || filter.Equals("--pending", StringComparison.OrdinalIgnoreCase));
+        string? categoryFilter = !string.IsNullOrWhiteSpace(filter) && !isPendingFilter ? filter.Trim().ToUpperInvariant() : null;
+
+        var allMasterStats = new List<(string Category, SheetStats Stats)>();
+
         // Group master files by folder name
         var masterGroups = masterFiles
             .GroupBy(f =>
@@ -145,28 +151,68 @@ public static class BatchManager
 
         foreach (var group in masterGroups)
         {
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine($"[CATEGORIA: {group.Key}]");
-            Console.ResetColor();
+            if (categoryFilter != null && !group.Key.Contains(categoryFilter, StringComparison.OrdinalIgnoreCase))
+            {
+                continue;
+            }
+
+            if (!isPendingFilter)
+            {
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine($"[CATEGORIA: {group.Key}]");
+                Console.ResetColor();
+            }
 
             foreach (var file in group.OrderBy(f => Path.GetFileName(f)))
             {
                 var stats = CalculateStats(file);
-                grandTotal += stats.TotalRows;
-                grandTranslated += stats.TranslatedRows;
-                grandPending += stats.PendingRows;
+                allMasterStats.Add((group.Key, stats));
 
-                PrintRow(stats.SheetName, stats.FileName, stats.TotalRows, stats.TranslatedRows, stats.PendingRows, stats.Percentage);
+                if (!isPendingFilter)
+                {
+                    grandTotal += stats.TotalRows;
+                    grandTranslated += stats.TranslatedRows;
+                    grandPending += stats.PendingRows;
+                    PrintRow(stats.SheetName, stats.FileName, stats.TotalRows, stats.TranslatedRows, stats.PendingRows, stats.Percentage);
+                }
+            }
+
+            if (!isPendingFilter)
+            {
+                Console.WriteLine();
+            }
+        }
+
+        if (isPendingFilter)
+        {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("[FOGLI CON RIGHE PENDENTI - ORDINATI PER PERCENTUALE DI COMPLETAMENTO]");
+            Console.ResetColor();
+
+            var pendingOnly = allMasterStats
+                .Where(s => s.Stats.PendingRows > 0)
+                .OrderByDescending(s => s.Stats.Percentage)
+                .ThenBy(s => s.Stats.PendingRows);
+
+            foreach (var (cat, s) in pendingOnly)
+            {
+                grandTotal += s.TotalRows;
+                grandTranslated += s.TranslatedRows;
+                grandPending += s.PendingRows;
+                PrintRow($"{s.SheetName} ({cat.ToLowerInvariant()})", s.FileName, s.TotalRows, s.TranslatedRows, s.PendingRows, s.Percentage);
             }
             Console.WriteLine();
         }
 
         // Group quest files by expansion
-        if (questFiles.Count > 0)
+        if (questFiles.Count > 0 && (categoryFilter == null || categoryFilter.Contains("QUEST")))
         {
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine($"[CATEGORIA: QUEST NARRATIVE - {questFiles.Count:N0} missioni censite]");
-            Console.ResetColor();
+            if (!isPendingFilter)
+            {
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine($"[CATEGORIA: QUEST NARRATIVE - {questFiles.Count:N0} missioni censite]");
+                Console.ResetColor();
+            }
 
             var questGroups = questFiles
                 .GroupBy(f =>
@@ -206,8 +252,57 @@ public static class BatchManager
         Console.WriteLine(new string('-', 98));
         double overallPct = grandTotal > 0 ? Math.Round((double)grandTranslated / grandTotal * 100.0, 1) : 0.0;
         Console.ForegroundColor = ConsoleColor.Cyan;
-        Console.WriteLine($"{"TOTALE COMPLESSIVO",-53} {grandTotal,8:N0} {grandTranslated,10:N0} {grandPending,10:N0} {$"{overallPct:F1}%",14}");
+        Console.WriteLine($"{"TOTALE PARZIALE/COMPLESSIVO",-53} {grandTotal,8:N0} {grandTranslated,10:N0} {grandPending,10:N0} {$"{overallPct:F1}%",14}");
         Console.ResetColor();
+        Console.WriteLine("=========================================================================================");
+        Console.WriteLine();
+
+        // Actionable guidance on where to continue
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine("=========================================================================================");
+        Console.WriteLine(" 🎯 GUIDA OPERATIVA: DA DOVE CONTINUARE (Priorità Suggerite)");
+        Console.WriteLine("=========================================================================================");
+        Console.ResetColor();
+
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.WriteLine(" 1. 🚀 Fogli IN CORSO (Portare al 100% come lobby):");
+        Console.ResetColor();
+        Console.WriteLine("    * addon          : 14.385 pendenti (3,9% fatto) - Tutti i dialoghi UI, menu contestuali, impostazioni e popup");
+        Console.WriteLine("    * howto          :    259 pendenti (1,1% fatto) - Finestre di aiuto e tutorial iniziali per i giocatori");
+        Console.WriteLine("    * itemuicategory :    112 pendenti (0,9% fatto) - Categorie dell'inventario e dell'armeria");
+        Console.WriteLine("    * placename      :  5.259 pendenti (0,8% fatto) - Nomi delle città, zone, regioni e punti cardinali");
+        Console.WriteLine("    * status         :  4.788 pendenti (0,1% fatto) - Nomi e descrizioni di buff, debuff ed effetti di stato");
+        Console.WriteLine();
+
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.WriteLine(" 2. ⚡ QUICK WINS (Fogli piccoli: chiudibili al 100% con 1-2 batch rapidi):");
+        Console.ResetColor();
+        Console.WriteLine("    * howtocategory  :     16 righe (0% fatto) - Categorie dei tutorial (completamento immediato!)");
+        Console.WriteLine("    * weather        :    209 righe (0% fatto) - Nomi delle condizioni meteorologiche di Eorzea");
+        Console.WriteLine("    * textcommand    :    543 righe (0% fatto) - Comandi chat slash (/say, /wave, /sit, /bow, ecc.)");
+        Console.WriteLine("    * trait          :    682 righe (0% fatto) - Nomi dei tratti passivi di classe/job");
+        Console.WriteLine("    * traittransient :    682 righe (0% fatto) - Descrizioni dei tratti passivi di classe/job");
+        Console.WriteLine("    * title          :    885 righe (0% fatto) - Titoli onorifici dei personaggi");
+        Console.WriteLine("    * customtalk     :    952 righe (0% fatto) - Dialoghi brevi di NPC interattivi");
+        Console.WriteLine();
+
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.WriteLine(" 3. 📜 TRAMA E MISSIONI (La narrazione di gioco):");
+        Console.ResetColor();
+        Console.WriteLine("    * Quests ARR     : 58.910 righe pendenti (1.599 missioni) - Campagna principale di A Realm Reborn");
+        Console.WriteLine();
+
+        Console.ForegroundColor = ConsoleColor.Cyan;
+        Console.WriteLine("-----------------------------------------------------------------------------------------");
+        Console.WriteLine(" COME AVVIARE UN BATCH DI TRADUZIONE:");
+        Console.WriteLine("   1. Esporta:  dotnet run --project src/FFXIVItalian.Extractor -- export-batch <foglio> --size 50");
+        Console.WriteLine("   2. Traduci:  fornisci il file in data/batches/ seguendo docs/TRANSLATION_PROMPT.md");
+        Console.WriteLine("   3. Importa:  dotnet run --project src/FFXIVItalian.Extractor -- import-batch <foglio> <batch.json>");
+        Console.WriteLine("   4. Rebuild:  .\\rebuild.bat  (oppure dotnet run --project src/FFXIVItalian.Patcher)");
+        Console.WriteLine("-----------------------------------------------------------------------------------------");
+        Console.WriteLine(" FILTRI STATUS DISPONIBILI:");
+        Console.WriteLine("   status pending               Mostra solo i fogli incompleti ordinati per avanzamento");
+        Console.WriteLine("   status system|world|combat   Mostra solo la categoria specificata");
         Console.WriteLine("=========================================================================================");
         Console.WriteLine();
     }
