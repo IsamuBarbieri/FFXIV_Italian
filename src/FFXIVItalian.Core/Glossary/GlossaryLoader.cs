@@ -53,6 +53,9 @@ public static class GlossaryLoader
         Add(engine, "Sharlayan", "Sharlayano/a", GlossaryCategory.Demonym, "G8");
         Add(engine, "Doman", "Domano/a", GlossaryCategory.Demonym, "G8");
 
+        // G16.1 - Places Kept Untranslated
+        Add(engine, "Sharlayan", "Sharlayan", GlossaryCategory.KeptUntranslated, "G16.1");
+
         // G9 - Places & Hubs
         Add(engine, "Black Shroud", "Velo Nero", GlossaryCategory.Place, "G9");
         Add(engine, "The Waking Sands", "Sabbie del Risveglio", GlossaryCategory.Place, "G9");

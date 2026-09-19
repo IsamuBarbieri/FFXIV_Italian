@@ -14,7 +14,9 @@ public static class ExtractorRegistry
         ["maincommandcategory"] = new MainCommandCategoryExtractor(),
         ["error"] = new ErrorExtractor(),
         ["classjob"] = new ClassJobExtractor(),
-        ["placename"] = new PlaceNameExtractor()
+        ["placename"] = new PlaceNameExtractor(),
+        ["tribe"] = new TribeExtractor(),
+        ["race"] = new RaceExtractor()
     };
 
     public static ISheetExtractor? Get(string sheetName)

@@ -66,18 +66,14 @@ if (Directory.Exists(sqPackPath))
 
         // 1. PATCH LOBBY (Schermata del Titolo e Creazione PG)
         string lobbyJsonPath = Path.Combine(translationsDir, "lobby.json");
-        var lobbyReplacements = TranslationFileReader.LoadReplacements(lobbyJsonPath);
-        if (lobbyReplacements.Count > 0)
+        var lobbyMulti = TranslationFileReader.LoadLobbyReplacements(lobbyJsonPath);
+        if (lobbyMulti.Count > 0)
         {
             Console.WriteLine();
-            Console.WriteLine($"Caricate {lobbyReplacements.Count} traduzioni da '{Path.GetFileName(lobbyJsonPath)}'.");
+            Console.WriteLine($"Caricate {lobbyMulti.Count} traduzioni da '{Path.GetFileName(lobbyJsonPath)}'.");
             var originalLobbyExd = lumina.GetFile("exd/lobby_0_en.exd");
             if (originalLobbyExd != null)
             {
-                var lobbyMulti = lobbyReplacements.ToDictionary(
-                    kvp => kvp.Key,
-                    kvp => (IReadOnlyDictionary<int, string>)new Dictionary<int, string> { [0] = kvp.Value });
-
                 byte[] patchedLobbyExd = ExdPatcher.PatchMultiColumnStringSheet(
                     originalLobbyExd.Data,
                     fixedDataSize: 24,
@@ -229,6 +225,60 @@ if (Directory.Exists(sqPackPath))
     }
 }
 
+// 8. PATCH TRIBE (Nomi dei clan maschile/femminile - schermata di creazione PG)
+string tribeJsonPath = Path.Combine(translationsDir, "tribe.json");
+var tribeReplacements = TranslationFileReader.LoadTwoColumnNameReplacements(tribeJsonPath);
+if (tribeReplacements.Count > 0 && Directory.Exists(sqPackPath))
+{
+    Console.WriteLine();
+    Console.WriteLine($"Caricate {tribeReplacements.Count} traduzioni da '{Path.GetFileName(tribeJsonPath)}'.");
+    var lumina8 = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var originalTribeExd = lumina8.GetFile("exd/tribe_0_en.exd");
+    if (originalTribeExd != null)
+    {
+        var tribeDict = tribeReplacements.ToDictionary(
+            kvp => kvp.Key,
+            kvp => (kvp.Value.Masculine, kvp.Value.Feminine));
+
+        byte[] patchedTribeExd = ExdPatcher.PatchTwoStringSheet(
+            originalTribeExd.Data,
+            fixedDataSize: 16,
+            string1ColumnOffset: 0,
+            string2ColumnOffset: 4,
+            tribeDict);
+
+        fileMap["exd/tribe_0_en.exd"] = patchedTribeExd;
+        Console.WriteLine($"  * 'exd/tribe_0_en.exd' rigenerato ({patchedTribeExd.Length:N0} byte).");
+    }
+}
+
+// 9. PATCH RACE (Nomi delle razze maschile/femminile - schermata di creazione PG)
+string raceJsonPath = Path.Combine(translationsDir, "race.json");
+var raceReplacements = TranslationFileReader.LoadTwoColumnNameReplacements(raceJsonPath);
+if (raceReplacements.Count > 0 && Directory.Exists(sqPackPath))
+{
+    Console.WriteLine();
+    Console.WriteLine($"Caricate {raceReplacements.Count} traduzioni da '{Path.GetFileName(raceJsonPath)}'.");
+    var lumina9 = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var originalRaceExd = lumina9.GetFile("exd/race_0_en.exd");
+    if (originalRaceExd != null)
+    {
+        var raceDict = raceReplacements.ToDictionary(
+            kvp => kvp.Key,
+            kvp => (kvp.Value.Masculine, kvp.Value.Feminine));
+
+        byte[] patchedRaceExd = ExdPatcher.PatchTwoStringSheet(
+            originalRaceExd.Data,
+            fixedDataSize: 44,
+            string1ColumnOffset: 0,
+            string2ColumnOffset: 4,
+            raceDict);
+
+        fileMap["exd/race_0_en.exd"] = patchedRaceExd;
+        Console.WriteLine($"  * 'exd/race_0_en.exd' rigenerato ({patchedRaceExd.Length:N0} byte).");
+    }
+}
+
 fileMap["readme_ita.txt"] = Encoding.UTF8.GetBytes("FFXIV Italiano - Compilato da file JSON in data/translations.");
 
 // A. Compilazione pacchetto .pmp per distribuzione
@@ -299,7 +349,7 @@ if (Directory.Exists(penumbraModDir))
 Console.WriteLine();
 Console.WriteLine("==================================================");
 Console.WriteLine("REBUILD COMPLETATO CON SUCCESSO!");
-Console.WriteLine("Tutti i 7 fogli EXD e i metadati Penumbra v4 sono pronti.");
+Console.WriteLine("Tutti i 9 fogli EXD e i metadati Penumbra v4 sono pronti.");
 Console.WriteLine("IMPORTANTE: Riavvia il gioco FINAL FANTASY XIV per applicare i fogli EXD.");
 Console.WriteLine("(I file EXD vengono memorizzati nella RAM del processo FFXIV al caricamento)");
 Console.WriteLine("==================================================");

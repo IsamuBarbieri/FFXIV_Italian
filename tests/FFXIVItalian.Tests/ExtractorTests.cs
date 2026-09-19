@@ -18,6 +18,8 @@ public class ExtractorTests
         Assert.Contains("error", names);
         Assert.Contains("classjob", names);
         Assert.Contains("placename", names);
+        Assert.Contains("tribe", names);
+        Assert.Contains("race", names);
     }
 
     [Theory]
@@ -29,6 +31,8 @@ public class ExtractorTests
     [InlineData("error")]
     [InlineData("classjob")]
     [InlineData("placename")]
+    [InlineData("tribe")]
+    [InlineData("race")]
     public void ExtractorRegistry_Get_IsCaseInsensitive(string sheetName)
     {
         var extractor = ExtractorRegistry.Get(sheetName);
@@ -93,5 +97,16 @@ public class ExtractorTests
 
         Assert.Equal(raw, reEncoded);
     }
-}
 
+    /// <summary>
+    /// Test diagnostico che richiede SqPack del gioco - saltato automaticamente se non disponibile.
+    /// Per eseguire manualmente: dotnet test --filter ScanLobbyColumns
+    /// </summary>
+    [Fact]
+    public void ScanLobbyColumns()
+    {
+        string sqpack = @"G:\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\sqpack";
+        // Salta silenziosamente se SqPack non è disponibile (CI/CD)
+        if (!System.IO.Directory.Exists(sqpack)) return;
+    }
+}

@@ -33,24 +33,50 @@ public sealed class LobbyExtractor : BaseSheetExtractor
             int dataSize = (int)BinaryPrimitives.ReadUInt32BigEndian(exd.Data.AsSpan((int)off, 4));
 
             string text = ReadRowString(exd.Data, (int)off + 6, fixedSize, 0, dataSize);
-            if (string.IsNullOrWhiteSpace(text)) continue;
+            string desc = ReadRowString(exd.Data, (int)off + 6, fixedSize, 8, dataSize);
+
+            if (string.IsNullOrWhiteSpace(text) && string.IsNullOrWhiteSpace(desc)) continue;
 
             string key = rId.ToString();
             string translation = string.Empty;
+            string transDesc = string.Empty;
 
             if (existing != null && existing.TryGetPropertyValue(key, out var oldNode) && oldNode is JsonObject oldObj)
             {
-                if (oldObj.TryGetPropertyValue("translation", out var transNode))
+                if (oldObj.TryGetPropertyValue("translation_name", out var tNameNode))
+                {
+                    translation = tNameNode?.GetValue<string>() ?? string.Empty;
+                }
+                else if (oldObj.TryGetPropertyValue("translation", out var transNode))
                 {
                     translation = transNode?.GetValue<string>() ?? string.Empty;
                 }
+
+                if (oldObj.TryGetPropertyValue("translation_description", out var tDescNode))
+                {
+                    transDesc = tDescNode?.GetValue<string>() ?? string.Empty;
+                }
             }
 
-            var entryObj = new JsonObject
+            JsonObject entryObj;
+            if (!string.IsNullOrWhiteSpace(desc))
             {
-                ["original"] = text,
-                ["translation"] = translation
-            };
+                entryObj = new JsonObject
+                {
+                    ["name"] = text,
+                    ["translation_name"] = translation,
+                    ["description"] = desc,
+                    ["translation_description"] = transDesc
+                };
+            }
+            else
+            {
+                entryObj = new JsonObject
+                {
+                    ["original"] = text,
+                    ["translation"] = translation
+                };
+            }
 
             root[key] = entryObj;
             extracted++;

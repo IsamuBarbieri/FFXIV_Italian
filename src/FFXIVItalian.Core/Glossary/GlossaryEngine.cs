@@ -71,6 +71,12 @@ public class GlossaryEngine
         // when the English text contained a mandatory translated term (e.g. "Warrior of Light", "Scions of the Seventh Dawn", "Vesper Bay")
         foreach (var entry in _entries.Where(e => e.Category != GlossaryCategory.KeptUntranslated))
         {
+            // If the term is also registered as KeptUntranslated (e.g. Sharlayan), it is valid to retain it as a proper noun
+            if (_entries.Any(e => e.Category == GlossaryCategory.KeptUntranslated && e.EnglishTerm.Equals(entry.EnglishTerm, StringComparison.OrdinalIgnoreCase)))
+            {
+                continue;
+            }
+
             // If English source contained the term...
             if (Regex.IsMatch(originalEn, $@"\b{Regex.Escape(entry.EnglishTerm)}\b", RegexOptions.IgnoreCase))
             {

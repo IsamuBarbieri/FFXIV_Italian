@@ -44,6 +44,9 @@ public static class Program
             case "validate":
                 return RunValidate();
 
+            case "apply-cc":
+                return RunApplyCharacterCreation();
+
             default:
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine($"Comando non riconosciuto: '{args[0]}'");
@@ -471,5 +474,27 @@ ESEMPI:
 
         // Fallback relative
         return Path.Combine(Directory.GetCurrentDirectory(), "data", "translations");
+    }
+
+    private static int RunApplyCharacterCreation()
+    {
+        string transDir = FindTranslationsDir();
+        string lobbyJson = Path.Combine(transDir, "lobby.json");
+        Console.WriteLine($"Applicazione traduzioni Creazione del Personaggio a: {lobbyJson}");
+        try
+        {
+            CharacterCreationTranslations.ApplyTo(lobbyJson);
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Traduzioni della Creazione del Personaggio applicate con successo!");
+            Console.ResetColor();
+            return 0;
+        }
+        catch (Exception ex)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"Errore: {ex.Message}");
+            Console.ResetColor();
+            return 1;
+        }
     }
 }
