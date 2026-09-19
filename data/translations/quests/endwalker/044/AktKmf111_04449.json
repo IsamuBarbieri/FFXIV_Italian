@@ -1,0 +1,827 @@
+{
+  "0": {
+    "tag": "TEXT_AKTKMF111_04449_SEQ_00",
+    "original": "Fourchenault is ready to lead you to Hydaelyn at last.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_AKTKMF111_04449_SEQ_01",
+    "original": "Satisfied with your level of preparedness, Fourchenault makes for the center of Thaumazein and invites you to follow. Given his lingering trepidation, however, you cannot help but wonder what as-yet-untold dangers await...",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_AKTKMF111_04449_SEQ_02",
+    "original": "At Thaumazein\u0027s heart, Fourchenault explains that the bright blue and seemingly bottomless well of aether beneath you is the aetherial sea, and that the nearby shaft connects to the \u201CAitiascope,\u201D a massive device by which the Forum peers into its depths to seek dialogue with Hydaelyn. Unfortunately, they have found little success since the Calamity weakened Her power, so you will be required to dive deeper than the Sharlayans ever dared if you would seek Her out. There, Fourchenault warns, drift memories strong enough to have escaped purgation by the cleansing tides, which may attempt to bar your path in death as they did in life...\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BTo enlist your companion NPCs for this duty, speak with them near the entrance or access Duty Support via the main menu. Use the Duty Finder if you wish to complete the instance alongside fellow players.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_AKTKMF111_04449_SEQ_03",
+    "original": "With a little help from old friends, you fight your way past the vestiges of once-conquered foes to meet a soul but recently cast into the abyss, clinging to the world of the living even as he curses its hollowness. His parlor tricks are of no moment with the erstwhile Lady Iceheart shielding you once more, yet you struggle to destroy him once and for all. Instead, it is the vengeful spirit of Asahi who brings an end to the man that was once Hermes, many times Fandaniel, but Amon at the last, leaving the path to Hydaelyn open before you.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_AKTKMF111_04449_SEQ_04",
+    "original": "At the Mothercrystal, Hydaelyn welcomes you warmly, and gives the answer you sought\u2500Meteion and the despair over which she presides can still be overcome. She cautions, however, that to do so will require tremendous power, and that a failed attempt means an end to your star and all life upon it. Thus does She challenge you to take up arms against Her, the very god of Light whose voice has echoed in your heart for so long, and prove your worth.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BTo enlist your companion NPCs for this duty, speak with them near the entrance or access Duty Support via the main menu.\u003Chex:02100103\u003E\u203BUse the Duty Finder if you wish to complete the instance alongside fellow players.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_AKTKMF111_04449_SEQ_05",
+    "original": "With trust in your allies and resolve in your heart, you bring your hard-won might to bear against the avatar of divine Light. Her talents are many, Her refulgence blinding, but though it is a trial in every sense of the word, you and your comrades triumph.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_AKTKMF111_04449_SEQ_06",
+    "original": "In testing your power, Hydaelyn has exhausted the last of Her own. But all was by design, for Her plans from time immemorial were a means to this end, in which man proclaims himself ready to dictate his own future. In parting, She bequeaths you three gifts\u2500the crystal that shall guide you to Meteion, the Mothercrystal\u0027s aether to see you there, and Her own power to give form to the formless, secured in Azem\u0027s own crystal. The last of these, She cautions, is not to be relied on overmuch, for only within yourself will you find deliverance.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_AKTKMF111_04449_SEQ_07",
+    "original": "With Hydaelyn\u0027s words still ringing in your ears, you return to report what you have learned to Fourchenault, Krile, and Livingway. Fourchenault assures his children that Sharlayan\u0027s starship is yours to do with as you will, while Livingway eagerly collects Meteion\u0027s crystal that the Loporrits may chart your course, encouraging you to take a well-earned rest in the meantime.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_AKTKMF111_04449_SEQ_08",
+    "original": "You have no difficulty drifting off upon falling into bed at the Baldesion Annex, yet your peaceful slumber is interrupted by the strangest dream of a familiar voice in one-sided conversation. Is this merely an echo brought to mind by your extended exposure to the aetherial sea, or something more?",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_AKTKMF111_04449_TODO_00",
+    "original": "Speak with Fourchenault.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_AKTKMF111_04449_TODO_01",
+    "original": "Enter the Aitiascope.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_AKTKMF111_04449_TODO_02",
+    "original": "Clear the Aitiascope.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_AKTKMF111_04449_TODO_03",
+    "original": "Confront Hydaelyn at the Mothercrystal.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_AKTKMF111_04449_TODO_04",
+    "original": "Confront Hydaelyn at the Mothercrystal.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_AKTKMF111_04449_TODO_05",
+    "original": "Speak with Fourchenault.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_AKTKMF111_04449_TODO_06",
+    "original": "Speak with Ojika Tsunjika.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_AKTKMF111_04449_ALPHINAUD_000_000",
+    "original": "To think how many generations labored for this end...and that we aim higher still.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_AKTKMF111_04449_ALPHINAUD_000_001",
+    "original": "We must spare no preparation\u2500and that means speaking with Hydaelyn, no matter the cost.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_AKTKMF111_04449_ALISAIE_000_005",
+    "original": "I can well imagine the zeal with which they\u0027re working on the aetherburner, and all I can say is that I\u0027m glad we have something to do other than get in their way.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_AKTKMF111_04449_ALISAIE_000_006",
+    "original": "Once it\u0027s ready, we\u0027ll see to it that the ship is put to good use!",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_AKTKMF111_04449_THANCRED_000_010",
+    "original": "I doubt this is what Erenville meant when he said that there remains much we do not know, but I still can\u0027t believe everything that was hidden underneath the city this entire time.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_AKTKMF111_04449_URIANGER_000_015",
+    "original": "\u0027Twould seem enchantments most advanced have been woven into the ship\u0027s very bones. Wilfsunn and Bloewyda were doubtless called upon for their expertise in teleportation magicks...",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_AKTKMF111_04449_YSHTOLA_000_020",
+    "original": "We must learn of Hydaelyn\u0027s greater plan. We can only hope that She also knows the current location of Meteion...",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_AKTKMF111_04449_YSHTOLA_000_021",
+    "original": "...And we can do neither if we do not focus on whatever trial awaits us within.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_AKTKMF111_04449_GRAHATIA_000_025",
+    "original": "It was the Allagans who first combined the mechanical and aetherial sciences into a revolutionary discipline.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_AKTKMF111_04449_GRAHATIA_000_026",
+    "original": "Given that this ship is nothing short of a technological marvel in that precise vein, Allagan salvage should suit it well.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_AKTKMF111_04449_ESTINIEN_000_030",
+    "original": "You feel it too, don\u0027t you? The ship is impressive, but it pales in comparison to the vast primordial power beneath our feet...",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_AKTKMF111_04449_KRILE_000_035",
+    "original": "If meeting Hydaelyn proves difficult even for the Forum, then perhaps I\u2500",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_AKTKMF111_04449_KRILE_000_036",
+    "original": "Oh, \u0027tis an unformed idea at this phase, I\u0027m afraid. I will duly inform you if anything comes of it.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_040",
+    "original": "We make for the lift at the center of this chamber. Come.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_AKTKMF111_04449_ALPHINAUD_000_050",
+    "original": "This doesn\u0027t strike me as particularly dangerous, unless one is afraid of lifts.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_AKTKMF111_04449_ALISAIE_000_055",
+    "original": "With the ship in the way, I didn\u0027t even notice this was here!",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_AKTKMF111_04449_THANCRED_000_060",
+    "original": "They must employ a full cohort of engineers just to maintain the lifts...",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_AKTKMF111_04449_URIANGER_000_065",
+    "original": "As a means of communing with the heart of the star, \u0027tis disappointingly mechanical in design...",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_AKTKMF111_04449_YSHTOLA_000_070",
+    "original": "The aether here is more brilliant than I have ever seen.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_AKTKMF111_04449_GRAHATIA_000_075",
+    "original": "...Am I the only one feeling terribly nervous? Surely not.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_AKTKMF111_04449_ESTINIEN_000_080",
+    "original": "I doubt there\u0027s anything worth worrying over. Not for Hydaelyn\u0027s champion, at any rate.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_AKTKMF111_04449_KRILE_000_085",
+    "original": "I should hope that Master Fourchenault has more to share ere sending anyone stumbling into the aetherial sea.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_090",
+    "original": "As you all know, alongside our physical world exists an aetherial plane\u2500what we refer to as the \u201Caetherial sea.\u201D",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_091",
+    "original": "At the heart of the star, the physical and aetherial are one and the same. Thus, the deeper we go, the easier it becomes to pass between said planes.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_092",
+    "original": "We utilized this principle in constructing the Antitower, and once more here in Thaumazein.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_093",
+    "original": "No sooner did the Forum decide that an exodus from the star would be necessary than it began work on this facility.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_094",
+    "original": "Our work culminated in a device that allowed us to peer deeper into the aetherial sea than ever before, in search of Hydaelyn\u0027s ever-fainter echoes...",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_095",
+    "original": "The Aitiascope.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_AKTKMF111_04449_YSHTOLA_000_096",
+    "original": "And you communicate with Her through this device?",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_097",
+    "original": "For a time, yes, but since the Seventh Umbral Calamity, it has been rare to hear even a whisper.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_098",
+    "original": "If you wish to reach Her, you must journey closer to the center of the star than we have ever dared, beyond the Aitiascope.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_099",
+    "original": "Even so, I make no guarantee that you will find Her. Nor of your safety\u2500not so deep in the aetherial sea.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_AKTKMF111_04449_ALPHINAUD_000_100",
+    "original": "We understand. But if we are to deliver this world, we have no choice but to try.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_101",
+    "original": "...I know. I only wish we could do more than observe your progress from afar.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_102",
+    "original": "The Aitiascope\u0027s ocular lens, by which we may peer into the aetherial sea without placing ourselves at hazard, lies above us. Through it, we can watch and guide you.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_103",
+    "original": "In those swirling depths, there are pockets of aether so dense and turbulent that they can unravel one\u0027s soul. If we determine that you are at risk of coming into contact with such a pocket, we will recall you with teleportation magicks.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_104",
+    "original": "To that end, it would be best if one familiar with the composition of your souls remained here to assist in assessing said risk. Otherwise, there is an increased probability that we will extract you too early...or too late.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_AKTKMF111_04449_KRILE_000_105",
+    "original": "Please, allow me.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_AKTKMF111_04449_KRILE_000_106",
+    "original": "I have thought upon this much, and...in truth, I do not believe that I am fit to join you in the trials ahead.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_AKTKMF111_04449_KRILE_000_107",
+    "original": "The events at the Tower of Babil drained me, yes, but even before that, your capabilities far outstripped my own.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_AKTKMF111_04449_KRILE_000_108",
+    "original": "This is no time to have a weak link in our vanguard. No matter how much she may wish it were otherwise.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_AKTKMF111_04449_KRILE_000_109",
+    "original": "...If I assist in the manner that Master Fourchenault has laid out, however, I may still be of use.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_AKTKMF111_04449_KRILE_000_110",
+    "original": "Will you trust in me to do so?",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_AKTKMF111_04449_ALISAIE_000_111",
+    "original": "I can think of none I\u0027d trust more! Compared to all that effort you put into keeping us alive while our souls were in the First, preventing us from dissolving into aether on a single expedition ought to pose no challenge at all.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_AKTKMF111_04449_ESTINIEN_000_112",
+    "original": "And even if we did, I expect you would hunt us down and restore us to health somehow.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_AKTKMF111_04449_KRILE_000_113",
+    "original": "You flatter me! But rest assured that I will be keeping a close eye on all of you.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_114",
+    "original": "There is one more thing...",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_115",
+    "original": "Those in ages past referred to the aetherial sea as the \u201CUnderworld,\u201D our final resting place.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_116",
+    "original": "In its embrace is memory washed away, leaving only the purity of one\u0027s soul...or so we believe.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_117",
+    "original": "Yet what of these memories? Few think to ask what becomes of them, cast adrift on aetherial tides.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_118",
+    "original": "Some theorize that they linger for some time\u2500those associated with strong sentiment, in particular.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_119",
+    "original": "In those depths, memories of the departed may even coalesce around you, for hatred or for love.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_120",
+    "original": "Thus do I caution you to be wary\u2500but also to have faith. Remember those who did gladly extend a hand to you, that they may lift you up once more.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_AKTKMF111_04449_Q1_000_130",
+    "original": "What will you do?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_AKTKMF111_04449_A1_000_131",
+    "original": "Small talk.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_AKTKMF111_04449_A1_000_132",
+    "original": "Form a party and enter the Aitiascope.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_AKTKMF111_04449_A1_000_133",
+    "original": "Nothing.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_AKTKMF111_04449_ALPHINAUD_000_140",
+    "original": "We have always tried to do the right thing...but we have not always been kind, nor merciful.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_AKTKMF111_04449_ALPHINAUD_000_141",
+    "original": "I should not be surprised if some few harbored resentment for us as they passed on...",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_AKTKMF111_04449_ALPHINAUD_000_142",
+    "original": "We must face these truths, and meet them as they come.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_AKTKMF111_04449_ALISAIE_000_145",
+    "original": "Maybe our enemies \u003Chex:021A020203\u003Eare\u003Chex:021A020103\u003E down there. But if we\u0027ve beaten them once, we can beat them again.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_AKTKMF111_04449_ALISAIE_000_146",
+    "original": "I\u0027m more concerned about our meeting with Hydaelyn. We may find our truth, but what if...",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_AKTKMF111_04449_ALISAIE_000_147",
+    "original": "...No, I would rather not think on it. Let us move on.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_AKTKMF111_04449_THANCRED_000_150",
+    "original": "If some part of them remains in the aetherial sea, do you think...",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_AKTKMF111_04449_THANCRED_000_151",
+    "original": "...Forgive me. That\u0027s not why we\u0027re here. And no matter what happens, she\u0027ll always be with us\u2500with Ryne, most of all.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_AKTKMF111_04449_THANCRED_000_152",
+    "original": "She\u0027d tell us to live for the here and now. To do what must be done. And we will.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_AKTKMF111_04449_URIANGER_000_155",
+    "original": "If Hydaelyn be unwilling or unable to divulge Meteion\u0027s location, I shall see our comrades delivered to the moon, one and all.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_AKTKMF111_04449_URIANGER_000_156",
+    "original": "I pray, however, that this eventuality doth not come to pass.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_AKTKMF111_04449_URIANGER_000_157",
+    "original": "While even a sliver of hope remaineth, we must needs fight on.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_AKTKMF111_04449_YSHTOLA_000_160",
+    "original": "I now understand why these facilities are so heavily guarded.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_AKTKMF111_04449_YSHTOLA_000_161",
+    "original": "If it fell into the wrong hands, the wisdom of Hydaelyn could be dangerous, \u0027tis true...",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_AKTKMF111_04449_YSHTOLA_000_162",
+    "original": "However, that danger is naught compared to what would result should the commonfolk en masse venture into the aetherial sea unprepared\u2500which they most certainly would, if they thought it would allow them to speak to the dead!",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_AKTKMF111_04449_YSHTOLA_000_163",
+    "original": "Once \u003Chex:021A020203\u003Ethat\u003Chex:021A020103\u003E secret got out, no rational argument could dissuade people from wanting to see their loved ones, no matter how ephemeral the meeting.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_AKTKMF111_04449_GRAHATIA_000_165",
+    "original": "I cannot help but think of those who were transformed into beasts.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_AKTKMF111_04449_GRAHATIA_000_166",
+    "original": "Their aether dissolved into nothingness, their souls forever lost...",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_AKTKMF111_04449_GRAHATIA_000_167",
+    "original": "Yet I daresay Fandaniel still wanders the aetherial sea. As do ancients who gave rise to Zodiark, setting in motion so many cataclysmic events...",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_AKTKMF111_04449_GRAHATIA_000_168",
+    "original": "If there is a justice or morality at work that governs our fates, I do not know it. Nor do I think any man ever will.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_AKTKMF111_04449_ESTINIEN_000_170",
+    "original": "I\u0027ve seen more than enough death in my time. Friends, enemies...far too many to count.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_AKTKMF111_04449_ESTINIEN_000_171",
+    "original": "Once, revenge was all I lived for. All that hate, all that anger...what good did it do?",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_AKTKMF111_04449_ESTINIEN_000_172",
+    "original": "None, that\u0027s what. Way I see it, there\u0027s no point living for the past. It\u0027s the present that needs protecting.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_AKTKMF111_04449_KRILE_000_180",
+    "original": "I hope to guide you via linkpearl while you\u0027re inside, but given the density of the aether, I\u0027m not sure how long the connection will hold.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_AKTKMF111_04449_KRILE_000_181",
+    "original": "Even if you can\u0027t hear me, however, be assured that I am watching over you.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_185",
+    "original": "Once you are below, you should proceed through the Aitiascope to the central observatory.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_186",
+    "original": "That is where the objective lens is located. We can manipulate it to direct an aetherial current deeper into the sea.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_187",
+    "original": "Though I shall assist you in every way possible, this is your journey to make. When you are ready, I bid you step forth.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_AKTKMF111_04449_Q2_000_190",
+    "original": "Proceed to the Mothercrystal?",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_AKTKMF111_04449_SYSTEM_000_200",
+    "original": "During this quest and when using the Duty Support system, you have the opportunity to undertake this trial with a party of Scions. Some of these allies\u0027 roles will differ from those you are normally able to select.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_AKTKMF111_04449_SYSTEM_000_201",
+    "original": "Additionally, you may now enter the Aitiascope with a party of NPC avatars. To make use of this feature, open the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ETrust\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E interface located under \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EDuty\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E in the main menu.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_AKTKMF111_04449_Q3_000_210",
+    "original": "What will you do?",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_AKTKMF111_04449_A3_000_211",
+    "original": "Small talk.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_AKTKMF111_04449_A3_000_212",
+    "original": "Form a party and face Hydaelyn.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_AKTKMF111_04449_A3_000_213",
+    "original": "Nothing.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_AKTKMF111_04449_ALPHINAUD_000_220",
+    "original": "If strength is the courage to confront your failings and accept that you are worthy of another chance...",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_AKTKMF111_04449_ALPHINAUD_000_221",
+    "original": "To rise from the ashes while the fire still burns...bloodied but unbowed...",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_AKTKMF111_04449_ALPHINAUD_000_222",
+    "original": "Then my friends have made me strong.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_AKTKMF111_04449_ALISAIE_000_225",
+    "original": "Emet-Selch called us incomplete. \u201CPitiful creatures,\u201D he said, and maybe we are.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_AKTKMF111_04449_ALISAIE_000_226",
+    "original": "Pain, grief, fear... They walk with us wherever we go.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_AKTKMF111_04449_ALISAIE_000_227",
+    "original": "But we proved to him that we deserve to live, and we\u0027ll prove it to Hydaelyn, Meteion...to the universe itself, if we must!",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_AKTKMF111_04449_THANCRED_000_230",
+    "original": "Pain and despair...aye, we\u0027re old friends. I\u0027ve lost count of the times I\u0027ve cursed my own powerlessness.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_AKTKMF111_04449_THANCRED_000_231",
+    "original": "But it\u0027s the blessed moments in between that I choose to hold in my heart. Memories...and possibilities. I fight to keep those things alive.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_AKTKMF111_04449_THANCRED_000_232",
+    "original": "Minfilia and Ryne\u2500to say nothing of you lot, I know\u2500would never settle for less.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_AKTKMF111_04449_URIANGER_000_240",
+    "original": "Hmm... Methinks we possess a surfeit of healers.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_AKTKMF111_04449_URIANGER_000_241",
+    "original": "Perhaps I shall call upon mine Amber Carbuncle in lieu of celestial blessings...",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_AKTKMF111_04449_URIANGER_000_242",
+    "original": "Fear not\u2500from unity and camaraderie doth my strength arise, not my choice of magicks.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_AKTKMF111_04449_URIANGER_000_245",
+    "original": "Should we bring our singular talents to bear as one, even gods may fall.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_AKTKMF111_04449_URIANGER_000_246",
+    "original": "...Nevertheless, I prithee throw thyself not into peril, lest our curative resources be spent.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_AKTKMF111_04449_YSHTOLA_000_250",
+    "original": "From the ruins of a sundered paradise did She rise, to grant this star new life.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_AKTKMF111_04449_YSHTOLA_000_251",
+    "original": "As its will, long has She labored to guide Her children.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_AKTKMF111_04449_YSHTOLA_000_252",
+    "original": "Make no mistake\u2500this trial puts to proof Hydaelyn\u0027s own faith.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_AKTKMF111_04449_GRAHATIA_000_255",
+    "original": "Never\u2500in the past, present, or future\u2500have I found only happiness. To live is to be ever beset by hardships great and small.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_AKTKMF111_04449_GRAHATIA_000_256",
+    "original": "Yet it is in adversity we find the strength to strive for the next moment of peace, and the next, no matter what trials we face.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_AKTKMF111_04449_GRAHATIA_000_257",
+    "original": "By this strength have the will of gods been defied and the fortunes of men been forever changed. May it be so again this day.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_AKTKMF111_04449_ESTINIEN_000_260",
+    "original": "What\u2500surprised to hear me and \u201Clove\u201D mentioned in the same breath?",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_AKTKMF111_04449_ESTINIEN_000_261",
+    "original": "I\u0027ve not a heart of stone. Even in my darkest hour, there were people I cared for. Mentors, comrades... That mad woman who gave her life for us...",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_AKTKMF111_04449_ESTINIEN_000_262",
+    "original": "Then you and Alphinaud threw my eyes off a bridge, and I\u0027ve never known peace since.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_AKTKMF111_04449_ALPHINAUD_000_270",
+    "original": "She has given us all She can.",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_AKTKMF111_04449_ALPHINAUD_000_271",
+    "original": "We must share what we know with Father and the Loporrits at once, that it not go to waste.",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_AKTKMF111_04449_ALISAIE_000_275",
+    "original": "I will keep Hydaelyn\u0027s words in my heart\u2500as talisman and lodestone both.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_AKTKMF111_04449_THANCRED_000_280",
+    "original": "She and Hydaelyn were two of a kind, weren\u0027t they?",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_AKTKMF111_04449_THANCRED_000_281",
+    "original": "Full of love for the star and its people. Always holding to hope for our future...",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_AKTKMF111_04449_URIANGER_000_285",
+    "original": "\u0027Tis fortunate that Fourchenault hath kept Livingway apprised of our progress. We require the Loporrits\u0027 aid more than ever.",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_AKTKMF111_04449_YSHTOLA_000_290",
+    "original": "Far be it from me to refute Hydaelyn\u0027s own words... Yet even if Her actions were neither kind nor just, we can yet give them a nobler meaning.",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_AKTKMF111_04449_YSHTOLA_000_291",
+    "original": "We can make Her faith the salvation of mankind.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_AKTKMF111_04449_GRAHATIA_000_300",
+    "original": "If dynamis is ruled by emotion, perhaps prayer has more tangible results than I suspected\u2500albeit ones that are not always obvious to us.",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_AKTKMF111_04449_GRAHATIA_000_301",
+    "original": "In which case, we may hope that Hydaelyn\u0027s wishes continue to move the hearts of men as they set forth time and time again.",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_AKTKMF111_04449_ESTINIEN_000_305",
+    "original": "A bit small for a welcoming party, but I\u0027ve never been one for crowds.",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_AKTKMF111_04449_KRILE_000_310",
+    "original": "Thank goodness! I never would have forgiven myself had any of you come to harm.",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_AKTKMF111_04449_LIVINGWAY_000_315",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Did you meet Hydaelyn? Pray tell\u2500how is She?",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_320",
+    "original": "I am glad to see you well. Though we could roughly place your souls, deep as you went, we could neither see nor hear you...",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_AKTKMF111_04449_KRILE_000_321",
+    "original": "The fluctuations in your aether near the end gave me quite a fright! What in the world happened?",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_AKTKMF111_04449_LIVINGWAY_000_322",
+    "original": "You mean to say Hydaelyn is...is...",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_AKTKMF111_04449_LIVINGWAY_000_323",
+    "original": "No, there\u0027s no time to feel our feelings! We must carry out Hydaelyn\u0027s will without delay.",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_AKTKMF111_04449_LIVINGWAY_000_324",
+    "original": "We\u0027ll find Meteion if it\u0027s the last thing we do!",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_AKTKMF111_04449_LIVINGWAY_000_325",
+    "original": "...If you wouldn\u0027t mind handing over the crystal, that is. The fancy navigatory one.",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_326",
+    "original": "To the edge of the universe, where congregates the despair of countless stars... You are determined to see this through?",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_AKTKMF111_04449_ALPHINAUD_000_327",
+    "original": "We are. Should words fail us, we will fight...to the bitter end.",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_AKTKMF111_04449_ALPHINAUD_000_328",
+    "original": "I know that it pains you to accept this. Would that I need ask nothing more of you...",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_AKTKMF111_04449_ALPHINAUD_000_329",
+    "original": "Yet we have only two means to travel the great expanse\u2500the moon, and Sharlayan\u0027s ark. I am all too aware that without both of them, there will be no exodus...but I nevertheless beg you to honor the agreement we made.",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_330",
+    "original": "The Forum\u0027s decision will be honored. You have earned the right to use the ship as you see fit, and I could not rescind it even if I wanted to.",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_AKTKMF111_04449_FOURCHENAULT_000_331",
+    "original": "As it happens, I do not, and would do all within my power to aid your cause.",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_AKTKMF111_04449_LIVINGWAY_000_332",
+    "original": "With that settled, might I suggest you rest a while?",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_AKTKMF111_04449_LIVINGWAY_000_333",
+    "original": "Proving oneself to Hydaelyn is never easy...and despite our unparalleled genius, we\u0027ll need a day to make the necessary calculations. You may as well take advantage of it!",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_AKTKMF111_04449_GRAHATIA_000_334",
+    "original": "You can chart a course through the sea of stars in a single day!? Ye gods...",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_AKTKMF111_04449_THANCRED_000_335",
+    "original": "Shall we head above ground for some fresh air, then? And perhaps a nap...",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_AKTKMF111_04449_OJIKATSUNJIKA_000_340",
+    "original": "Aha! I\u0027ve been expecting you.",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_AKTKMF111_04449_OJIKATSUNJIKA_000_341",
+    "original": "I heard about your foray into the aetherial sea. The Students have ventured far and wide, but never quite so deep as that!",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_AKTKMF111_04449_OJIKATSUNJIKA_000_342",
+    "original": "Are you experiencing any aftereffects from your prolonged exposure? Nausea? Dizziness? Hauntings? Hmm...",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_AKTKMF111_04449_OJIKATSUNJIKA_000_343",
+    "original": "Well, have a pleasant sleep! And if you do experience any unusual phenomena, please let me know. I shall add it to our records!",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_AKTKMF111_04449_Q4_000_344",
+    "original": "Retire to your chamber?",
+    "translation": ""
+  }
+}

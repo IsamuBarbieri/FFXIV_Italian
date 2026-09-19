@@ -1,0 +1,682 @@
+{
+  "0": {
+    "tag": "TEXT_LUCKRA201_03787_SEQ_00",
+    "original": "Yalfort has arrived in Mord Souq bearing pertinent information.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_LUCKRA201_03787_SEQ_01",
+    "original": "In the marketplace of Mord Souq, you are greeted by Yalfort, a member of the select few privy to the details surrounding the investigation being carried out in the Empty. After you are joined by Ryne and Urianger, Yalfort informs you that the girl who has been unconscious since leading the attack on Eden has awoken and is being escorted by Thancred to this very location. You learn that her name is Gaia and that she was originally a resident of Eulmore, although she has no memory of recent events. A short while later, she arrives with her newfound footman close behind, and it seems Thancred has been given the unenviable task of carrying her luggage. It soon becomes abundantly clear that she is incredibly impatient, and she demands that if the group insists on speaking at length, they should at least find somewhere to sit down first.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_LUCKRA201_03787_SEQ_02",
+    "original": "Gaia reveals that she has no memory whatsoever of your previous encounter, while Urianger inquires as to the true nature of her arcane abilities. She attributes these powers to a voice inside her head that she refers to as \u201Cthe faerie,\u201D which bears an uncanny similarity to Ryne\u0027s relationship to Minfilia. Gaia comes to the conclusion that if it was the faerie\u0027s intention for her to make contact with Eden, that is where she must go, and in so doing find the answers to the questions surrounding her past. In spite of Ryne\u0027s and Urianger\u0027s warnings, Gaia rushes off into the desert, displaying a surprising turn of speed, prompting Thancred to lead the rest of the group in chasing after her.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_LUCKRA201_03787_SEQ_03",
+    "original": "You race in the direction of a distant scream, where you discover Gaia staring down an enormous vilekin. As you dash to her rescue, she casts a seemingly potent spell, although the dark aura quickly dissipates, leaving the creature entirely unscathed. As it lunges to strike, it is suddenly enveloped in swirling magicks that leave nary a trace of the chitin-plated beast behind, while Gaia herself is thankfully unharmed.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_LUCKRA201_03787_SEQ_04",
+    "original": "Shortly after arriving on the scene, Ryne tells Gaia that if she is determined to risk life and limb to see Eden, you should all travel together. Thancred and Urianger\u0027s attempts to talk her out of it are vehemently rebuffed, though her two mentors soon admit that it was merely a ploy to test her resolve. Once again, Gaia cuts the conversation short and leads the way to the Derrick, where your transportation to the Empty awaits.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_LUCKRA201_03787_SEQ_05",
+    "original": "Thancred has finished preparing the skyslipper for the long journey ahead. Although the craft was apparently designed to only seat four people, the addition of the petite Gaia as the fifth member of your group is unlikely to cause any problems. As Thancred suggests, Urianger could always be made to sit with the camping supplies should you be in need of space inside the vessel.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_LUCKRA201_03787_SEQ_06",
+    "original": "After arriving at the camp, you find Gaia gazing towards Eden as it floats silently above the lake. As she stands in quiet contemplation, your comrades prepare to restore the next element to the Empty.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_LUCKRA201_03787_TODO_00",
+    "original": "Speak with Gaia.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_LUCKRA201_03787_TODO_01",
+    "original": "Search for Gaia at the designated location.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_LUCKRA201_03787_TODO_02",
+    "original": "Speak with Gaia.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_LUCKRA201_03787_TODO_03",
+    "original": "Speak with Thancred near the Derrick.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_LUCKRA201_03787_TODO_04",
+    "original": "Speak with Gaia in the Empty.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_LUCKRA201_03787_YALFORT_000_000",
+    "original": "Ah, there you are. I\u0027m part of the team helping with the Ede\u2500I mean, \u201Chighly classified and very, very secret...thing.\u201D",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_LUCKRA201_03787_YALFORT_000_001",
+    "original": "The fact of the matter is, I\u0027ve come to inform you of a rather interesting development. It\u0027s about the girl who was brought back from the Empty. She\u0027s finally woken up, you see.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_000_002",
+    "original": "Yalfort! And \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, too!",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_100_002",
+    "original": "We heard the news from Thancred. Is it true?",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_LUCKRA201_03787_YALFORT_100_002",
+    "original": "Why yes, it most certainly is!",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_LUCKRA201_03787_YALFORT_210_002",
+    "original": "Apparently, her name is Gaia. She claims to be a free citizen of Eulmore, although she remembers nothing of the events leading up to her attack on Eden.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_220_002",
+    "original": "She\u0027s lost her memory!?",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_LUCKRA201_03787_YALFORT_230_002",
+    "original": "Parts of it, at the very least. We also cannot be sure whether she\u0027s telling the truth or if it\u0027s merely a ruse. She\u0027s yet to display any hostility, which is encouraging, I suppose.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_240_002",
+    "original": "And Thancred\u0027s with her now, is he?",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_LUCKRA201_03787_YALFORT_250_002",
+    "original": "Yes. He\u0027s taken her to Eulmore, mainly to verify what she\u0027s told us so far. Quiz the locals, that sort of thing.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_LUCKRA201_03787_YALFORT_260_002",
+    "original": "After that, the plan is to come back here, though they\u0027re taking rather longer than I\u0027d anticipated. I do hope nothing is amiss...",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_003",
+    "original": "(-???-)Good grief! Are you always this slow!?",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_004",
+    "original": "(-???-)At this rate, it\u0027ll be dark again before we know it! The night sky returning is all well and good, but it does make each day seem awfully short. And are you still dragging your heels back there!? At least \u003Chex:021A020203\u003Eact\u003Chex:021A020103\u003E as if you\u0027ve got a purpose, would you?",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_000_005",
+    "original": "Now look here, I\u0027m not one of your servants. Why don\u0027t you try carrying your own luggage for a change?",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_000_006",
+    "original": "Thancred! You\u0027re back!",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_000_007",
+    "original": "You lot are a sight for sore eyes. Yes, even you, Urianger. Gaia and I have just finished shipping her personal effects from Eulmore.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_000_009",
+    "original": "I\u0027m glad we could finally meet. Properly, I mean.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_100_009",
+    "original": "So, ah... Did you learn anything useful?",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_000_010",
+    "original": "Other than where she lives, not an awful lot. Her supposed neighbors barely knew the first thing about her.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_000_011",
+    "original": "Hells, \u003Chex:021A020203\u003Eshe\u003Chex:021A020103\u003E barely knows the first thing about herself. Her recollection of her life in Eulmore is patchy at best.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_000_012",
+    "original": "But she seems convinced that she\u0027ll regain her memory if she accompanies us, and so she invited herself to join our merry band. And for her first act, she ordered me to carry her luggage.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_100_012",
+    "original": "If you insist on standing around talking, might I suggest finding a place to sit down first? My feet are killing me.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_200_012",
+    "original": "Then perhaps you should\u0027ve chosen more sensible footwear. Still, it\u0027s not such a bad idea. Shall we?",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_300_012",
+    "original": "I\u0027ve got so many things I want to ask, but I probably shouldn\u0027t bombard her with questions.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_310_012",
+    "original": "Well, I\u0027ve given you my early impression of Gaia, but I would be interested in hearing your opinion. Go on and talk to her and see what you make of her situation.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_LUCKRA201_03787_URIANGER_320_012",
+    "original": "Amnesia... \u0027Tis troubling though not entirely unexpected.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_LUCKRA201_03787_YALFORT_330_012",
+    "original": "That Gaia person appears to be none the worse off for her long sleep. A little surly, perhaps, but one can hardly expect her to be in the cheeriest of moods, given the circumstances.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_000_013",
+    "original": "So you don\u0027t remember anything at all? Not attacking us, not falling unconscious?",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_LUCKRA201_03787_URIANGER_000_014",
+    "original": "Such selective amnesia would rightly raise suspicion within those of a cautious mind.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_LUCKRA201_03787_URIANGER_000_015",
+    "original": "Yet if she doth speak the truth, it would lend credence to my current hypothesis, though admittedly some further\u2500",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_000_016",
+    "original": "Not now, Urianger, she\u0027s only just woken up. We don\u0027t want to bore her back to sleep.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_000_017",
+    "original": "In any case, I prefer to follow my instincts, and they\u0027re telling me that Gaia means us no harm. After much deliberation, I thought it only right to let her know about our work in the Empty, as a sign of goodwill. After all, trust works both ways.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_100_017",
+    "original": "Though, I would ask you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, not to let your guard down just yet.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_019",
+    "original": "So you\u0027re the one I\u0027m supposed to have fought? Come to think of it, I recognize you from somewhere.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_LUCKRA201_03787_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_LUCKRA201_03787_A1_000_001",
+    "original": "Maybe I just have one of those faces.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_LUCKRA201_03787_A1_000_002",
+    "original": "So you should, considering you tried to kill me.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_020",
+    "original": "Or perhaps you just didn\u0027t make much of an impression? But to be honest, I do feel that since meeting you, those hazy memories are becoming slightly clearer.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_022",
+    "original": "Well, if Thancred\u0027s version of events is anything to go by, you weren\u0027t exactly holding back yourself. Still, it seems I didn\u0027t give you much of a choice but to defend yourself, so let\u0027s call it even. Not that I have any recollection of it...",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_024",
+    "original": "...It\u0027s like remembering fragments of a dream, only to realize those things actually happened. \u003Csigh\u003E It\u0027s as though my whole life has been leading to this...",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_LUCKRA201_03787_URIANGER_000_026",
+    "original": "Thou speakest as though thou didst expect these events.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_027",
+    "original": "I guess you could say that. It\u0027s what the faerie tells me.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_030",
+    "original": "I can\u0027t see it, but it\u0027s as though there\u0027s someone else inside me. And I can hear its voice in my head.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_031",
+    "original": "It whispers to me and lets me use its power. \u201CMagic,\u201D I suppose you could call it, not that I know much about that sort of thing.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_LUCKRA201_03787_URIANGER_000_032",
+    "original": "And this power alloweth thee to tear open the fabric betwixt realities, that thou mayest call forth the aether-starved denizens of what remaineth of the Thirteenth?",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_033",
+    "original": "What!? Was that supposed to mean something or are you just spouting random words at me?",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_034",
+    "original": "Honestly, I don\u0027t know how you all put up with this. I\u0027ve only just met him and his insufferable prattle is already giving me a headache!",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_100_034",
+    "original": "Gods, I still can\u0027t believe I\u0027m having this conversation. And to think that I was flying about in a suit of armor, waving a sword. That doesn\u0027t sound like me at all.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_000_036",
+    "original": "Someone else inside you...",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_000_037",
+    "original": "...Like Minfilia was inside me!",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_LUCKRA201_03787_URIANGER_000_038",
+    "original": "Aye, the similarities cannot be ignored. Though it is too early to say with certainty, Gaia may well be the Oracle of Darkness.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_000_039",
+    "original": "The Oracle...of Darkness? What does this mean?",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_000_040",
+    "original": "It means that you may have been right when you said she has something in common with Emet-Selch.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_000_041",
+    "original": "Those who have been used as a living host by an Ascian have no recollection of events that occurred during their possession. This I know from personal experience.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_000_042",
+    "original": "But Gaia seems to have some memories still, even if they\u0027re a little hazy. Moreover, she has remained in control of herself even when she heard the voice within. Much like you and Minfilia.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_LUCKRA201_03787_URIANGER_000_045",
+    "original": "And though Ryne was very much her own person, Minfilia\u0027s presence did exert a change upon her outward appearance, granting her hair and eyes a hue akin to that of our dear departed friend.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_LUCKRA201_03787_URIANGER_000_046",
+    "original": "It is therefore not unthinkable that Gaia\u0027s raven locks may be a manifestation of the Darkness which hath come to reside within her.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_047",
+    "original": "But I was born like this. And my parents, they both had black hair, too.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_048",
+    "original": "Or at least I think they did. It\u0027s been so long since I saw them, I can\u0027t remember too well...",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_050",
+    "original": "But enough about me. You\u0027re Minfilia, aren\u0027t you? The Oracle of Light, who they were hosting in Eulmore?",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_000_051",
+    "original": "That\u0027s right, though imprisoning is a better word. They kept me locked away, and I didn\u0027t know much about Eulmore and its people, or the rest of the world for that matter.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_052",
+    "original": "I see. And how exactly did the Oracle of Light come to run with the Warrior of Darkness?",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_000_053",
+    "original": "Well, it all started when...",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_054",
+    "original": "Yes, I still remember the day everyone went raving mad and Lord Vauthry fled. Everything after that is still a blur, though.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_000_056",
+    "original": "From what Gaia\u0027s told me, she wasn\u0027t part of the mob that attacked us. But how was she able to resist Vauthry\u0027s control?",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_LUCKRA201_03787_URIANGER_000_057",
+    "original": "Mayhap \u0027twas the intervention of this \u201Cfaerie\u201D of whom she speaketh.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_000_058",
+    "original": "Hmm. As curious as that may be, we still don\u0027t know why she appeared out of nowhere as soon as Eden took flight.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_100_058",
+    "original": "This is just a guess, but I\u0027d say that the faerie reacted to it in some way, and for whatever reason, made me go after it.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_110_058",
+    "original": "Yes, that seems like the only explanation.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_061",
+    "original": "I don\u0027t know about you lot, but I\u0027ve had enough nattering. I\u0027m going back to Eden.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_000_062",
+    "original": "What!? But why!?",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_063",
+    "original": "The faerie wanted something from Eden, and knowing what that is will bring me a step closer to discovering exactly what has been living in my head all these years.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_068",
+    "original": "Besides, my memories aren\u0027t going to restore themselves, and certainly not through idle chitchat. So I\u0027m going, and that\u0027s that!",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_000_069",
+    "original": "Gaia, wait!",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_000_070",
+    "original": "Insufferable. Utterly insufferable, and yet we can\u0027t well leave her to her own devices. Come on!",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_LUCKRA201_03787_YALFORT_000_080",
+    "original": "Was there some sort of disagreement with Miss Gaia?",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_100_080",
+    "original": "She can\u0027t have gone far, especially not in those heels...",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_090",
+    "original": "Get away from me!",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_000_091",
+    "original": "Gaia!",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_092",
+    "original": "It seems I\u0027ve no choice...",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_093",
+    "original": "What...am I?",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_000_100",
+    "original": "I\u0027m not entirely sure what I just witnessed, but I\u0027m glad she\u0027s unharmed.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_000_101",
+    "original": "Powers befitting the Oracle of Darkness...",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_000_102",
+    "original": "When you fought Gaia, she opened voidgates, yes?",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_000_103",
+    "original": "Back in the Source, portals such as those were all too common, but tearing open the veil between the First and the Thirteenth is a different matter entirely.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_000_104",
+    "original": "We should be thankful that she\u0027s not of a mind to turn that power against us. For now.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_LUCKRA201_03787_URIANGER_000_105",
+    "original": "A most fascinating application of aetherial manipulation. The destructive blast did manifest a significant span of time after the initial casting. With sufficient mastery of such a technique, a second spell could be made to smite the target at precisely the same moment.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_LUCKRA201_03787_URIANGER_000_106",
+    "original": "While it would demand exceptional aetherial control, its tactical potential cannot be denied.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_110",
+    "original": "What are you all gawping at?",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_000_111",
+    "original": "I don\u0027t mean to stare, but it\u0027s not every day I see magic like that. So, this is the power of the faerie you spoke of?",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_112",
+    "original": "Ever since I was a child, it has whispered to me, telling me what to do. That\u0027s how I came to use its power.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_100_112",
+    "original": "But there are things I can\u0027t even explain... Holes ripped in thin air, terrifying creatures crawling out, ghastly-looking blades and armor appearing out of nowhere. But worst of all is the dark energy that comes from inside.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_113",
+    "original": "This power...it feels as though it\u0027s only flowing through me, and never truly mine. And even when it answers my call, it always takes a few moments for the spells to work.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_000_114",
+    "original": "So in summary, you don\u0027t have control over the magic.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_115",
+    "original": "Well, it\u0027s not as if I ever tried to control it. I haven\u0027t made a habit of fighting wild beasts.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_000_116",
+    "original": "Unfortunately, it\u0027s part and parcel of traveling through Amh Araeng. And while I understand that you want answers, you\u0027re not going to find them unprepared as you are. But if your heart is set on this, then we\u0027ll help you.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_000_117",
+    "original": "Ryne, think about what you\u0027re saying. You\u0027re seriously considering taking Gaia to see Eden?",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_000_119",
+    "original": "There\u0027s no telling what might happen if she loses control again, so the safest option is for her to stay away until our work is done. Somewhere we can keep an eye on her. You must realize, it\u0027s for her own good.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_LUCKRA201_03787_URIANGER_000_120",
+    "original": "I must concur with Thancred\u0027s assessment. At present, we know precious little of Gaia\u0027s origin and less still of her powers.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_LUCKRA201_03787_URIANGER_000_121",
+    "original": "If she is indeed the Oracle of Darkness, her presence may complicate a task already fraught with peril, placing our mission and her own well-being in jeopardy. In full knowledge of the risks, dost thou still wish to pursue this course?",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_000_122",
+    "original": "I do.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_000_123",
+    "original": "It wasn\u0027t so long ago that I was living in isolation, being held against my will. Maybe the people keeping an eye on me thought \u003Chex:021A020203\u003Ethat\u003Chex:021A020103\u003E was for my own good, too.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_000_124",
+    "original": "But if we shut Gaia away for our own convenience, we\u0027re no better than Vauthry and Ran\u0027jit!",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_000_125",
+    "original": "I\u0027ve learned that when someone is in need, we must reach out a helping hand, not push them away. Now, it\u0027s my turn. To do for Gaia what you\u0027ve all done for me.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_100_125",
+    "original": "Even knowing the danger that lies ahead, I won\u0027t choose the easy way out. This is the path I\u0027ve chosen!",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_000_126",
+    "original": "Is that good enough for you?",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_100_128",
+    "original": "Well, can\u0027t say fairer than that. How about you, Urianger?",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_LUCKRA201_03787_URIANGER_110_128",
+    "original": "The light of thy spirit doth burn bright.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_LUCKRA201_03787_URIANGER_000_130",
+    "original": "Mine apologies, my dear, but we felt it necessary to test thy resolve. Let it suffice it to say thou hast left no room for doubt.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_000_132",
+    "original": "For what it\u0027s worth, Ryne, I never doubted you. But make no mistake, the danger that Urianger and I spoke of is all too real. If you\u0027re prepared to go through with this, we\u0027ll be right there beside you.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_000_133",
+    "original": "That means a lot to me. Thank you.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_135",
+    "original": "I couldn\u0027t care less who I travel with, but if we\u0027re going to go, then let\u0027s get going already. There\u0027s supposed to be some sort of craft waiting at the southern watchtower, yes? Come along then, and don\u0027t fall behind.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_000_140",
+    "original": "Of course I\u0027m worried about what may happen when Gaia gets close to Eden. We\u0027ll keep a close eye on her, make sure she\u0027s all right.",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_LUCKRA201_03787_URIANGER_000_141",
+    "original": "Though our circumstance hath changed, our mission most assuredly hath not. Restoring life to the Empty remaineth our primary objective.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_142",
+    "original": "Why couldn\u0027t you leave this craft in Mord Souq instead of all the way out here? \u003Csigh\u003E Actually, don\u0027t bother explaining. Whatever the reason is, I\u0027m sure it\u0027s something frightfully uninteresting. Let\u0027s be about it, shall we?",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_000_150",
+    "original": "It might be a bit of a tight squeeze with the five of us, but we\u0027ll manage. Perhaps Urianger can sit on top of our luggage?",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_LUCKRA201_03787_YESNO_001",
+    "original": "Depart for the Empty?",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_LUCKRA201_03787_RYNE_000_160",
+    "original": "Everything seems fine here, as far as I can tell. As for Gaia, she hasn\u0027t started attacking anything yet, so I\u0027ll take that as a good sign.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_LUCKRA201_03787_THANCRED_000_161",
+    "original": "As usual, we should keep our sojourn here as brief as possible. Let\u0027s tend to business quickly.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_LUCKRA201_03787_URIANGER_000_162",
+    "original": "I had hoped that, during our absence, the rebalancing of ambient aether might work further change. Alas, \u0027twas not to be...",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_165",
+    "original": "So, there it is...",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_170",
+    "original": "Eden... Where I\u0027ll find the answers I seek.",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_171",
+    "original": "The bringer of the Flood, the first sin eater. Would it lead me to my past, or my future?",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_LUCKRA201_03787_GAIA_000_172",
+    "original": "What awaited on the path ahead, I couldn\u0027t say. But I had no choice but to take the first step...",
+    "translation": ""
+  }
+}

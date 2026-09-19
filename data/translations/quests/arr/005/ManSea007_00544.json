@@ -1,0 +1,627 @@
+{
+  "0": {
+    "tag": "TEXT_MANSEA007_00544_SEQ_00",
+    "original": "Baderon has a task for a trusted adventurer.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_MANSEA007_00544_SEQ_01",
+    "original": "According to Baderon, the missive intended for Ahtzapfyn is written in Sahagin script, and details plans for the destruction of the \u003Chex:021A020203\u003EVictory\u003Chex:021A020103\u003E. Though the message mentions a diversionary strike on Swiftperch, the Wench\u0027s proprietor seems convinced that the Serpent Reavers are lying, and that the struggling settlement is their true target. Take Baderon\u0027s hastily translated note and deliver it to Commodore Reyner at the Coral Tower.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_MANSEA007_00544_SEQ_02",
+    "original": "Though Reyner is grateful for Baderon\u0027s warning, he believes Swiftperch is but one of several settlements which the Serpent Raiders could be planning to attack. While the commodore debates where to deploy his forces, a Yellowjacket arrives bearing word that South Tidegate is being assaulted by the Sahagin. Lacking the resources to defend both locations, Reyner instructs you to make haste to Swiftperch and speak with the Yellowjacket, Ryssfloh.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_MANSEA007_00544_SEQ_03",
+    "original": "With the help of the Yellowjackets, you defeat the marauding Serpent Reavers and spare the residents of Swiftperch a fate worse than death.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_MANSEA007_00544_SEQ_04",
+    "original": "According to Y\u0027shtola, the Sahagin and their pirate allies were being manipulated by a masked mage she calls an \u201CAscian.\u201D Though much remains shrouded in mystery, not least the strange black crystal you discovered near the mage\u0027s remains, the truth behind the kidnappings has finally come to light. Return to the Coral Tower and report to Commodore Reyner.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_MANSEA007_00544_SEQ_05",
+    "original": "Your meeting with Commodore Reyner is interrupted by the appearance of Admiral Merlwyb, who commends you for your brave deeds. In recognition of your services to Limsa Lominsa, she insists that you attend a forthcoming banquet as her honored guest. Proud and daunted in equal measure, you look forward to what promises to be a memorable occasion.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_MANSEA007_00544_TODO_00",
+    "original": "Deliver Baderon\u0027s note to Reyner.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_MANSEA007_00544_TODO_01",
+    "original": "Travel to Swiftperch and speak with Ryssfloh.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_MANSEA007_00544_TODO_02",
+    "original": "Report to Reyner at the Coral Tower.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_MANSEA007_00544_TODO_03",
+    "original": "Report to Reyner at the Coral Tower.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_MANSEA007_00544_BADERON_050_1",
+    "original": "Good to \u0027ave ye aboard, \u003Chex:02080EE905FF056C617373FF046C616403\u003E. Now then...where to start?",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_MANSEA007_00544_BADERON_000_1",
+    "original": "Back when I was younger an\u0027 nastier, I earned me livin\u0027 as a sellsword. In that business, if ye wanted to know what yer enemy was up to, you \u0027ad to learn to read the orders ye prised from the cold dead \u0027ands of \u0027is mates. That\u0027s \u0027ow I came to know \u0027ow to read yer message.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_MANSEA007_00544_BADERON_000_2",
+    "original": "Truth be told, the script was only too bloody familiar. Them\u0027s \u003Chex:021A020203\u003ESahagin\u003Chex:021A020103\u003E letters, \u003Chex:02080EE905FF056C617373FF046C616403\u003E. An\u0027 I should know\u2500I\u0027ve gutted more fishback messengers than I can count.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_MANSEA007_00544_BADERON_000_3",
+    "original": "It gets worse, though... The plan to blow up the \u003Chex:021A020203\u003EVictory\u003Chex:021A020103\u003E is all in \u0027ere, right down to the fine details.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_MANSEA007_00544_BADERON_000_4",
+    "original": "Looks like they meant to raise eight kinds of \u0027ell in western La Noscea, then \u0027it the Maelstrom\u0027s new flagship in the confusion.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_MANSEA007_00544_BADERON_000_5",
+    "original": "The point bein\u0027, the attack on the \u003Chex:021A020203\u003EVictory\u003Chex:021A020103\u003E weren\u0027t the act of a few rebellious pirates\u2500\u0027twas a key part o\u0027 some canny bastard\u0027s grand plan.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_MANSEA007_00544_BADERON_000_6",
+    "original": "But if I\u0027m readin\u0027 this aright, the attack itself came much too early. I\u0027ll wager they panicked when they saw ye was on to \u0027em, rushed in to do the job, an\u0027 buggered it up.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_MANSEA007_00544_BADERON_000_7",
+    "original": "Hmmm... Them tattoo-faced bastards as they say was payin\u0027 Ahtbyrm\u0027s old man, they\u0027re with the Serpent Reavers, right? ...But none o\u0027 their crew was there, was they? Did they \u0027ave summat better to do, or what?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_MANSEA007_00544_BADERON_000_8",
+    "original": "...Seven \u0027ells! I\u0027ve got it all backwards! That mess at the \u003Chex:021A020203\u003EVictory\u003Chex:021A020103\u003E\u2500\u003Chex:021A020203\u003Ethat\u003Chex:021A020103\u003E was meant to be the bloody distraction!",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_MANSEA007_00544_BADERON_000_9",
+    "original": "The fishbacks ain\u0027t interested in the Maelstrom\u0027s baby! They\u0027re after \u003Chex:021A020203\u003Emen\u003Chex:021A020103\u003E, just like they\u0027ve always been. They\u0027re sendin\u0027 their pirate lackeys after a civilian target.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_MANSEA007_00544_BADERON_000_10",
+    "original": "This bit about raisin\u0027 \u0027ell in western La Noscea...that\u0027s where it\u0027ll be. Summat tells me Swiftperch is about to get \u0027it, an\u0027 \u0027it \u0027ard!",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_MANSEA007_00544_BADERON_000_11",
+    "original": "\u0027Ere\u0027s a rough translation o\u0027 the message.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_MANSEA007_00544_BADERON_000_12",
+    "original": "Take it to Commodore Reyner at the Coral Tower, an\u0027 tell \u0027im \u0027e\u0027s in fer a busy day.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_MANSEA007_00544_BADERON_000_13",
+    "original": "Oh, an\u0027 give \u0027im an \u0027and, eh? Ye can be damn sure \u0027e\u0027ll need one.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_MANSEA007_00544_REYNER_000_20",
+    "original": "Yes, I am Reyner. Ah, you must be the adventurer whose name seems to be on everyone\u0027s lips.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_MANSEA007_00544_REYNER_000_21",
+    "original": "You are to be commended for your part in thwarting the plot to destroy the \u003Chex:021A020203\u003EVictory\u003Chex:021A020103\u003E. Now, what can I do for you this day?",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_MANSEA007_00544_REYNER_000_22",
+    "original": "You bear an urgent message from Baderon? Why do I get the feeling that my hopes for a quiet \u003Chex:02083FE3E90C0DFF1B020817E3E90C05FF086576656E696E67FF086D6F726E696E6703FF1D020819E3E90C12FF0A61667465726E6F6F6EFF086576656E696E670303\u003E are about to be cruelly dashed? Tell me, what is afoot?",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_MANSEA007_00544_REYNER_000_30",
+    "original": "An assault on Swiftperch!? But we\u0027ve seen nothing to suggest the Serpent Reavers are massing for an attack.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_MANSEA007_00544_REYNER_000_31",
+    "original": "Even so, it would be foolish to discount the possibility\u2500Baderon is rarely wrong about such matters.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_MANSEA007_00544_REYNER_000_32",
+    "original": "I will marshal the Yellowjackets for battle immediately.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_MANSEA007_00544_REYNER_000_33",
+    "original": "The only question is where to send them. While I concur with Baderon\u0027s assessment that the attack on the Drydocks was intended as a diversion, Swiftperch is but one of several possible targets for the main thrust.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_MANSEA007_00544_YELLOWJACKET_000_34",
+    "original": "Commodore, sir!",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_MANSEA007_00544_REYNER_000_35",
+    "original": "Report.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_MANSEA007_00544_YELLOWJACKET_000_36",
+    "original": "It\u0027s the Sahagin, sir! They\u0027ve mounted a large-scale assault on South Tidegate, and threaten to overwhelm our defenses within the day. The garrison requests immediate reinforcements.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_MANSEA007_00544_REYNER_000_37",
+    "original": "By the Navigator... It seems my decision has been made for me.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_MANSEA007_00544_REYNER_000_38",
+    "original": "Muster the troops and give the order to march.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_MANSEA007_00544_REYNER_000_39",
+    "original": "Aye, the Serpent Reavers are in league with the Sahagin.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_MANSEA007_00544_REYNER_000_40",
+    "original": "...Which means there is every chance this assault on Tidegate may yet prove to be another feint. The fact remains, however, that we can ill afford to ignore it. And that leaves Swiftperch vulnerable to those pirate traitors.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_MANSEA007_00544_REYNER_000_41",
+    "original": "It is at times such as these that I wish the Warriors of Light yet walked among us. But wishes will avail us naught. \u003Chex:022C0DFF07022903EB0203FF02200303\u003E, \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E must serve in their absence. Make for Swiftperch with all haste and lend your strength to the squads I can spare for the settlement\u0027s defense.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_MANSEA007_00544_RYSSFLOH_000_45",
+    "original": "Commodore Reyner sent word we\u0027d be getting reinforcements, but I didn\u0027t expect him to send you! You certainly look like you\u0027ve seen your share of action, though\u2500you bear little resemblance to the wide-eyed whelp I met fresh off the ferry.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_MANSEA007_00544_RYSSFLOH_000_46",
+    "original": "In any case, do you know what you\u0027re fighting for here? This place\u2500Swiftperch\u2500it was rebuilt by folk who stood strong in the face of every hardship the Calamity threw their way.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_MANSEA007_00544_RYSSFLOH_000_47",
+    "original": "And we\u0027re not about to let some fish-fancying scum claim the honor of being the ones who finally broke their spirits. Don\u0027t give those pirate bastards one bloody ilm, you hear me?",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_MANSEA007_00544_Q1_000_1",
+    "original": "Duty calls. Do you wish to proceed with\u003Chex:02100103\u003E\u201CFeint and Strike\u201D?",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_MANSEA007_00544_A1_000_1",
+    "original": "Yes",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_MANSEA007_00544_A1_000_2",
+    "original": "No",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_MANSEA007_00544_GLAZRAEL_000_50",
+    "original": "Here they come!",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_MANSEA007_00544_DECKMAN_000_51",
+    "original": "\u0027Ere now, I thought all them Yellowjacket worms was meant to be busy. That useless scrag ain\u0027t followed the plan, \u0027as \u0027e?",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_MANSEA007_00544_HELMSMAN_000_52",
+    "original": "Now what? Pull back and wait for our Sahagin brothers?",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_MANSEA007_00544_BAENRYSS_000_53",
+    "original": "Piss on that! We ain\u0027t turnin\u0027 back empty-handed!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_MANSEA007_00544_BAENRYSS_000_54",
+    "original": "Remember, no killin\u0027 the smallfolk, or it\u0027ll be \u003Chex:021A020203\u003Eyour\u003Chex:021A020103\u003E blood what stains Lord Leviathan\u0027s altars!",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_MANSEA007_00544_BAENRYSS_000_55",
+    "original": "The Yellowbellies ye can butcher at will! Them dirt-eatin\u0027 slugs\u0027ll be crushed under the full might o\u0027 the Serpent Reavers!",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_MANSEA007_00544_RYSSFLOH_000_56",
+    "original": "Seems Swiftperch was the main target after all, eh?",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_MANSEA007_00544_RYSSFLOH_000_57",
+    "original": "Squads One and Two, protect the townsfolk! Squad Three, you\u0027re our rear guard!",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_MANSEA007_00544_RYSSFLOH_000_58",
+    "original": "The rest of you\u2500we meet their charge where we stand! Let us bear the commodore word of our victory, or no word at all!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_MANSEA007_00544_YELLOWJACKETS_000_58",
+    "original": "(-Yellowjacket Infantry-)For Limsa Lominsa!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_MANSEA007_00544_BAENRYSS_000_59",
+    "original": "Rargh! I\u0027ll gut all you Yellowbellies an\u0027 dance on yer gizzards!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_MANSEA007_00544_RYSSFLOH_000_70",
+    "original": "Well fought\u2500the Reavers are beaten and scattered.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_MANSEA007_00544_RYSSFLOH_000_71",
+    "original": "I\u0027ll take some men and hunt down the stragglers. Oh, but there may be more of them lurking about, so don\u0027t let your guard down just yet.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_MANSEA007_00544_MASKEDMAGUS_000_72",
+    "original": "The source of \u003Chex:02080DE905FF04686572FF0468697303\u003E strength becomes clear...",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_MANSEA007_00544_MASKEDMAGUS_000_73",
+    "original": "You may have bested the golem, but you will not fare so well this day.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_MANSEA007_00544_MASKEDMAGUS_000_74",
+    "original": "\u003Chex:024804F2022303\u003EO mournful voice of creation! Send unto me a creature of the abyss, my thrall to command, that I may smite mine enemies!\u003Chex:0248020103\u003E",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_MANSEA007_00544_MASKEDMAGUS_000_75",
+    "original": "Your very being imperils the plan. You cannot be suffered to live.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_MANSEA007_00544_MASKEDMAGUS_000_80",
+    "original": "Unnngh... That the wisdom of the Paragons should be brought low...by mere mortals...",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_MANSEA007_00544_YSHTOLA_000_81",
+    "original": "\u201CParagons,\u201D did he say? Then it is as I feared.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_MANSEA007_00544_YSHTOLA_000_82",
+    "original": "They are known as the Bringers of Chaos...or \u003Chex:021A020203\u003EAscians\u003Chex:021A020103\u003E, to give them their proper name.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_MANSEA007_00544_YSHTOLA_000_83",
+    "original": "It would seem our suspicions were correct\u2500it is they who have been manipulating the beast tribes.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_MANSEA007_00544_YSHTOLA_000_84",
+    "original": "Pardon? You would know if we Sharlayans have encountered Ascians before?\u003Chex:02100103\u003E...I have never spoken to you of my homeland. How did you know whence I hail?",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_MANSEA007_00544_YSHTOLA_000_85",
+    "original": "Wait. I do begin to see. You have been blessed with a special gift.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_MANSEA007_00544_RYSSFLOH_000_86",
+    "original": "Are you all right, \u003Chex:02080EE905FF056C617373FF046C616403\u003E!? If I\u0027d known a mean bugger like that was hiding in the bushes, I would\u0027ve left a squad or six to keep you company.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_MANSEA007_00544_RYSSFLOH_000_87",
+    "original": "Well, at least now we can call this kidnapping investigation to a close. Those Reavers were the ones spiriting folk away in the dead of night, and this bastard here was pulling all the strings.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_MANSEA007_00544_YSHTOLA_000_88",
+    "original": "A trifle simplistic, but not inaccurate.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_MANSEA007_00544_YSHTOLA_000_89",
+    "original": "I came as soon as I sensed his presence, but I never thought to find such a scene of carnage. Yet we prevailed. And thanks to your heroic actions, I have learned much.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_MANSEA007_00544_RYSSFLOH_000_90",
+    "original": "Aye, \u201Cheroic\u201D is the word. I don\u0027t want to think about what would\u0027ve happened if you hadn\u0027t been here, friend.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_MANSEA007_00544_RYSSFLOH_000_91",
+    "original": "And your assistance is much appreciated, too, Lady Y\u0027shtola. Please give our regards to the Scions.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_MANSEA007_00544_YSHTOLA_000_92",
+    "original": "I am glad to have played a role in bringing what I hope is an end to this disturbing spate of abductions.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_MANSEA007_00544_YSHTOLA_000_93",
+    "original": "The thread of your fate forms a part of a most intriguing tapestry. Mayhap we will be afforded the chance to speak more in the near future.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_MANSEA007_00544_YSHTOLA_000_94",
+    "original": "For now, however, you must see this particular tale to its conclusion. Pray send my greetings to Commodore Reyner.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_MANSEA007_00544_GLAZRAEL_000_97",
+    "original": "Feint after bloody feint! Those pirates are getting too damn clever by half!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_MANSEA007_00544_YELLOWJACKETA_000_98",
+    "original": "You\u0027ve come to aid with the defense? Then well met, and well come!",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_MANSEA007_00544_YELLOWJACKETB_000_99",
+    "original": "Come on, you gutless bastards! Let\u0027s see how you fare against trained soldiers!",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_MANSEA007_00544_REYNER_000_100",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200303\u003E, eagerly have I awaited your return!",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_MANSEA007_00544_REYNER_000_101",
+    "original": "Word of your exploits is already spreading through the ranks. My troops and I owe you a great debt of gratitude for your timely assistance.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_MANSEA007_00544_REYNER_000_102",
+    "original": "You have shown yourself to be possessed of a sure arm, a strong spirit, and sound judgment. Would that Limsa Lominsa had more of your like.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_MANSEA007_00544_REYNER_000_103",
+    "original": "I have little doubt that you shall one day join the ranks of Eorzea\u0027s greatest adventurers. It is but a matter of time.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_MANSEA007_00544_REYNER_000_104",
+    "original": "Clearly, Baderon\u0027s eye for potential remains as sharp as ever, though I doubt even \u003Chex:021A020203\u003Ehe\u003Chex:021A020103\u003E imagined you capable of such feats.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_MANSEA007_00544_REYNER_000_105",
+    "original": "Might you favor me with your own account of the day\u0027s events? Such victories bear retelling!",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_MANSEA007_00544_REYNER_000_110",
+    "original": "Y\u0027shtola has been working with us for quite some time, you see.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_MANSEA007_00544_REYNER_000_111",
+    "original": "And she was only too willing to assist the Yellowjackets in the kidnapping investigation, proving herself a stalwart ally of Limsa Lominsa yet again.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_MANSEA007_00544_REYNER_000_112",
+    "original": "Needless to say, after your part in thwarting the attempted sabotage of the \u003Chex:021A020203\u003EVictory\u003Chex:021A020103\u003E, and the small matter of your deeds at Swiftperch, you too have proven yourself a valued friend of the thalassocracy.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_MANSEA007_00544_YELLOWJACKET_000_113",
+    "original": "Admiral!",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_MANSEA007_00544_REYNER_000_204",
+    "original": "May I present to you Admiral Bloefhiswyn.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_MANSEA007_00544_400010_MERLWYB",
+    "original": "So this is the adventurer I\u0027ve been reading about in the field reports.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_MANSEA007_00544_400020_MERLWYB",
+    "original": "You seem familiar. Have we met? Mayhap at a medal presentation or some such?",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_MANSEA007_00544_400030_MERLWYB",
+    "original": "No? Have you kin in the Maelstrom?",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_MANSEA007_00544_400040_MERLWYB",
+    "original": "I\u0027ll be sworn I\u2500 But it is of little matter. To business.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_MANSEA007_00544_400050_MERLWYB",
+    "original": "I am Merlwyb Bloefhiswyn, Admiral of Limsa Lominsa.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_MANSEA007_00544_400060_MERLWYB",
+    "original": "On behalf of my people, I bid you thanks for the deeds you have done this day.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_MANSEA007_00544_400070_MERLWYB",
+    "original": "A token of our gratitude. What worth is high regard without just reward, after all? Ha!",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_MANSEA007_00544_400080_MERLWYB",
+    "original": "Since you first set foot in our city, my good friend Baderon and Commodore Reyner have taken turns at regaling me with tales of your exploits.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_MANSEA007_00544_400090_MERLWYB",
+    "original": "Safe to say, they left an impression. Join me at the coming banquet.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_MANSEA007_00544_400100_MERLWYB",
+    "original": "A seat of honor at the celebratory feast is the least I can offer the \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E who foiled the Sahagin.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_MANSEA007_00544_400110_YELLOWJACKET",
+    "original": "Oho!",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_MANSEA007_00544_400120_YELLOWJACKET",
+    "original": "A seat at the feast!",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_MANSEA007_00544_400130_MERLWYB",
+    "original": "Oh, and don\u0027t be late.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_MANSEA007_00544_400140_MERLWYB",
+    "original": "Your fellow guests will be eager to take the measure of their newest hero, and some do not take kindly to being kept waiting. Till then, may you walk in the light of the Crystal.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_MANSEA007_00544_QIB_TODO001",
+    "original": "Defeat the Serpent Reavers.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_MANSEA007_00544_QIB_RYSSFLOH_01",
+    "original": "Leave no pirate scum standing! Show \u0027em how a Yellowjacket fights!",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_MANSEA007_00544_QIB_GLAZRAEL_01",
+    "original": "Bwahaha! Time to split some heads, adventurer! Let\u0027s start with the frontline fodder!",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_MANSEA007_00544_QIB_RYSSFLOH_REACT_TO_VOID",
+    "original": "Is that a bloody \u003Chex:021A020203\u003Evoidsent\u003Chex:021A020103\u003E!? Hold steady, lads!",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_MANSEA007_00544_QIB_RYSSFLOH_02",
+    "original": "More of the bastards!? Come on, then!",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_MANSEA007_00544_QIB_BOSS_01",
+    "original": "All right, ye scurvy bastards... Here\u0027s a trick to make ye soil yer breeches!",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_MANSEA007_00544_QIB_BOSS_02",
+    "original": "Dweller o\u0027 the Abyss, yer master calls! Heed me words an\u0027 smite me foes!",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_MANSEA007_00544_QIB_RYSSFLOH_DEAD",
+    "original": "Damn...",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_MANSEA007_00544_QIB_GLAZRAEL_DEAD",
+    "original": "Least I went down fighting...",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_MANSEA007_00544_QIB_YELLOWJACKETARMYA_DEAD",
+    "original": "So cold...",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_MANSEA007_00544_QIB_YELLOWJACKETARMYB_DEAD",
+    "original": "I\u0027m done for...",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_MANSEA007_00544_QIB_GLAZRAEL_BOSS_HP25_REACT",
+    "original": "Keep on pummeling him! He can\u0027t take much more of this!",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_MANSEA007_00544_QIB_TODO002",
+    "original": "Defeat the masked mage!",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_MANSEA007_00544_QIB_MASKEDMAGUS_START",
+    "original": "Soon, you shall take your vile gifts to the grave!",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_MANSEA007_00544_QIB_MASKEDMAGUS_POISON",
+    "original": "Mwahahaha! Writhe as the venom eats its way through your veins!",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_MANSEA007_00544_QIB_MASKEDMAGUS_01",
+    "original": "An unwelcome guest. No matter, all shall fall before me!",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_MANSEA007_00544_QIB_MASKEDMAGUS_HP60",
+    "original": "Whence springs this preternatural might!?",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_MANSEA007_00544_QIB_YSHTOLA_ENTER",
+    "original": "A fearsome opponent...against whom you shall not stand alone!",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_MANSEA007_00544_QIB_MASKEDMAGUS_HP40",
+    "original": "No mortal should possess such strength!",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_MANSEA007_00544_QIB_YSHTOLA_MASKEDMAGUS_HP20",
+    "original": "His power wanes! Afford him no chance to recover!",
+    "translation": ""
+  }
+}

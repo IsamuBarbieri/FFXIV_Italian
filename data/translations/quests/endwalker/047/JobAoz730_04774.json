@@ -1,0 +1,562 @@
+{
+  "0": {
+    "tag": "TEXT_JOBAOZ730_04774_SEQ_00",
+    "original": "P\u0027yandih seems to be having an easy time managing the guild.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_JOBAOZ730_04774_SEQ_01",
+    "original": "P\u0027yandih has recently received word from Martyn, asking that you meet him at Mealvaan\u0027s Gate in Limsa Lominsa. Hopeful that this means he has found a worthy candidate for your nemesis, she quickly sends you on your way.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_JOBAOZ730_04774_SEQ_02",
+    "original": "You find Martyn finishing a lesson with a former classmate, receiving arguably unwarranted compensation for his teachings. With his business finished, he explains that the Executioners may likely have a fighter among them suitable to be your nemesis. To that end, he suggests paying a visit to the \u003Chex:021A020203\u003EAstalicia\u003Chex:021A020103\u003E to speak with their members.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_JOBAOZ730_04774_SEQ_03",
+    "original": "Despite knowing what needs to be done, you cannot help but notice Martyn\u0027s apprehension to speak with the Executioners. He suggests you take the lead while he observes from a comfortably safe distance.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BYou must be accompanied by Martyn to complete this task. Speak with him again should you become separated.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_JOBAOZ730_04774_SEQ_04",
+    "original": "Accompanied by Martyn, you go and speak with several members of the Executioners. They offer two potential candidates, but sadly neither is ideal for your needs. Martyn suggests looking for a higher-ranked member who may be more knowledgeable of capable pirates in La Noscea.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_JOBAOZ730_04774_SEQ_05",
+    "original": "Together you eventually happen across Hasthwab. Though he doesn\u0027t seem in a particularly talkative mood, he does offer a valuable piece of information. A man named Octobeard claims to be the right hand of Mistbeard, and has been seen frequenting the Drowning Wench. Considering Mistbeard\u0027s renown, you are convinced any man worthy to work at his side is more than capable of being your nemesis. And so you make for the tavern.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_JOBAOZ730_04774_SEQ_06",
+    "original": "Needing to be certain of the man\u0027s strength at arms, Martyn challenges Octobeard to trial by combat. The pirate accepts, though perhaps not with the grace or bluster you expected. He bids Martyn come to the Rogue River, and so the two of you take your leave and prepare to test his mettle.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_JOBAOZ730_04774_SEQ_07",
+    "original": "With a flourish of his cane, Martyn assails Octobeard with several spells, rendering the pirate seemingly incapacitated. Wishing to know his true identity, Martyn removes his mask and reveals him to be Trachtoum. His aim in adopting the identity of Octobeard was to freely partake of ale from the Drowning Wench. He promises never to do it again and begs his leave before running off, tail between his legs. With no other leads, Martyn believes it time to set his sights elsewhere. He bids you go and report back to P\u0027yandih in Ul\u0027dah while he seeks new leads.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_JOBAOZ730_04774_SEQ_08",
+    "original": "You relay the unfortunate news to P\u0027yandih, but she doesn\u0027t appear at all discouraged by the unexpected turn of events. She promises to inform Royse and bids you farewell\u2500but not before suggesting you go and learn Schiltron to round out your repertoire of spells.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_JOBAOZ730_04774_TODO_00",
+    "original": "Speak with Martyn at Mealvaan\u0027s Gate in Limsa Lominsa.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_JOBAOZ730_04774_TODO_01",
+    "original": "Speak with Martyn and have him accompany you.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_JOBAOZ730_04774_TODO_02",
+    "original": "Speak with crew members on the \u003Chex:021A020203\u003EAstalicia\u003Chex:021A020103\u003E while Martyn is accompanying you.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_JOBAOZ730_04774_TODO_03",
+    "original": "Speak with Hasthwab while Martyn is accompanying you.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_JOBAOZ730_04774_TODO_04",
+    "original": "Speak with Martyn.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_JOBAOZ730_04774_TODO_05",
+    "original": "Speak with Martyn near the Rogue River in middle La Noscea.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_JOBAOZ730_04774_TODO_06",
+    "original": "Speak with P\u0027yandih in Ul\u0027dah.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_JOBAOZ730_04774_PYANDIH_100_000",
+    "original": "As I recall, Martyn tasked you with learning new blue magic before you returned. Considering the trials to come, I think it prudent you heed his advice.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_JOBAOZ730_04774_SYSTEM_100_001",
+    "original": "The next blue mage quest will be available from P\u0027yandih upon learning Goblin Punch.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_JOBAOZ730_04774_PYANDIH_000_000",
+    "original": "You\u0027ve the look of a \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E who\u0027s mastered new techniques. I take it you followed Martyn\u0027s advice?",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_JOBAOZ730_04774_PYANDIH_000_001",
+    "original": "As much as I would love for you to regale me with tales of your training, we recently received word from Martyn requesting your presence.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_JOBAOZ730_04774_PYANDIH_000_002",
+    "original": "He asks that you meet him at Mealvaan\u0027s Gate in Limsa Lominsa. I think he may have finally found our fighter.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_JOBAOZ730_04774_PYANDIH_000_010",
+    "original": "I didn\u0027t expect Martyn would be in Limsa Lominsa of all places, but that\u0027s where he\u0027s asked you to meet.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_JOBAOZ730_04774_ARCANIST04774_000_011",
+    "original": "It seems I\u0027ve still much to learn...",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_020",
+    "original": "You\u0027ve got to empty your mind, lad. Be formless, shapeless. Like water!",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_021",
+    "original": "Oh, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I wasn\u0027t expectin\u0027 you to arrive so soon.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_022",
+    "original": "I couldn\u0027t help but stop by the old trainin\u0027 grounds, you see, and a former classmate of mine insisted on receivin\u0027 some specialized instruction.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_JOBAOZ730_04774_ARCANIST04774_000_023",
+    "original": "Martyn\u0027s advice has always been nothing short of inspirational! You would be hard-pressed to find one more adept at the arcane arts here at the guild.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_JOBAOZ730_04774_ARCANIST04774_000_024",
+    "original": "But his genius doesn\u0027t stop there! That he might better comprehend the nature of magicks in all corners of the world, he has mastered near every school of magic there is.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_JOBAOZ730_04774_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_JOBAOZ730_04774_A2_000_001",
+    "original": "You never told me you\u0027d mastered other schools of magic.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_JOBAOZ730_04774_A2_000_002",
+    "original": "But I thought you were devoted wholly to blue magic.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_025",
+    "original": "Masterin\u0027 all those magicks was the only way the wisdom of the Whalaqee could be fully realized in blue magic.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_026",
+    "original": "Even so, if I\u0027m to be a \u003Chex:021A020203\u003Etrue\u003Chex:021A020103\u003E master of the blue, I can\u0027t fall back on all them other spells I\u0027ve learned now, can I?",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_027",
+    "original": "That\u0027ll do for today. If you stay the course, and take my teachin\u0027s to heart, I\u0027m sure you\u0027ll do just fine.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_JOBAOZ730_04774_ARCANIST04774_000_028",
+    "original": "Thank you, Martyn, thank you! I haven\u0027t much money, but here\u2500a small token of my appreciation.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_029",
+    "original": "Right, then. About your nemesis. After weighin\u0027 our options here in Limsa Lominsa, I reckon a member of the Executioners could be just what you\u0027re lookin\u0027 for.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_030",
+    "original": "It remains to be seen if they\u0027ll be willin\u0027 to speak with us about their skill at arms, let alone agree to takin\u0027 you on as a rival at the Celestium, but we won\u0027t know for certain unless we try, eh? Come on, let\u0027s head over to the \u003Chex:021A020203\u003EAstalicia\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_JOBAOZ730_04774_ARCANIST04774_000_040",
+    "original": "Be water, he said... Wait. Did he mean to use a spell and literally \u003Chex:021A020203\u003Ebecome\u003Chex:021A020103\u003E water, or...?",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_050",
+    "original": "Seein\u0027 as this is your nemesis, why not take the lead in gettin\u0027 to know them? I\u0027ll be right behind you. Promise.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_051",
+    "original": "And if you hear anythin\u0027 that sounds like knees clackin\u0027, don\u0027t worry\u2500it\u0027s simply my excitement at becomin\u0027 showmaster. Yes, that\u0027s it, my excitement...",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_JOBAOZ730_04774_SYSTEM_000_055",
+    "original": "Martyn is now accompanying you. Keep him at your side in order to proceed with quest objectives.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_JOBAOZ730_04774_SYSTEM_000_056",
+    "original": "You can leave Martyn behind by entering a different area, or by speaking with him and selecting the option to part ways.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_JOBAOZ730_04774_SYSTEM_000_057",
+    "original": "If you wish to have Martyn accompany you again, return and speak with him at the original location.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_JOBAOZ730_04774_SYSTEM_100_058",
+    "original": "While you are accompanied, you may encounter \u201Cconversation points\u201D along the way which offer additional topics of discussion.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_JOBAOZ730_04774_SYSTEM_100_059",
+    "original": "Enter the glowing area and speak with your quest companions to initiate these bonus conversations. Enjoy exploring your surroundings together!",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_JOBAOZ730_04774_Q3_000_000",
+    "original": "What will you do?",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_JOBAOZ730_04774_A3_000_001",
+    "original": "Speak with Martyn.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_JOBAOZ730_04774_A3_000_002",
+    "original": "Part ways with Martyn.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_JOBAOZ730_04774_A3_000_003",
+    "original": "Nothing.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_060",
+    "original": "The lead of any good show should have an established rapport with the bloke playin\u0027 opposite them, no? All the more reason you should be the one to take the lead here. You can think of it as further blue mage trainin\u0027 if it helps.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_JOBAOZ730_04774_SYSTEM_000_065",
+    "original": "Are you sure you wish to part ways with Martyn?",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_066",
+    "original": "Bah, it figures some matter of \u003Chex:021A020203\u003Eearth-shatterin\u0027\u003Chex:021A020103\u003E importance would call you away. Though I suppose in your case, it\u0027s no exaggeration. Well, far be it from me to keep you. I\u0027ll wait for you at the \u003Chex:021A020203\u003EAstalicia\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_070",
+    "original": "Everythin\u0027 settled? Then let\u0027s get back to it. Ahem, after you...",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_JOBAOZ730_04774_BLOODYEXECUTIONERA04773_100_071",
+    "original": "Business with the Executioners, ye say?",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_JOBAOZ730_04774_BLOODYEXECUTIONERB04773_100_072",
+    "original": "...Well? What do ye want?",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_JOBAOZ730_04774_HASTHWAB_100_073",
+    "original": "What business \u0027ave ye with the Executioners?",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_JOBAOZ730_04774_SYSTEM_000_071",
+    "original": "You must be accompanied by Martyn and have him at your side in order to proceed with quest objectives.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_JOBAOZ730_04774_SYSTEM_000_072",
+    "original": "Martyn has yet to arrive. Be sure he is at your side before attempting to continue.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_JOBAOZ730_04774_A4_000_001",
+    "original": "\u003Chex:024804F2022403\u003EDiscuss the docks.\u003Chex:0248020103\u003E",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_080",
+    "original": "You can find them off-loadin\u0027 cargo at all hours of the day. And where there\u0027s cargo, there\u0027s sure to be payments exchangin\u0027 hands. Which means...",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_081",
+    "original": "Aha!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_082",
+    "original": "Another gil for the ol\u0027 coinpurse!",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_083",
+    "original": "Damn. And here I was hopin\u0027 they\u0027d be a little looser with their coin...",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_JOBAOZ730_04774_BLOODYEXECUTIONERA04773_000_090",
+    "original": "What\u0027s that? Our sharpest axe, ye say?",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_JOBAOZ730_04774_BLOODYEXECUTIONERA04773_000_091",
+    "original": "That\u0027d be Hyllfyr, though it ain\u0027t every day we get strangers \u003Chex:021A020203\u003Easkin\u0027\u003Chex:021A020103\u003E to be hacked to bits.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_092",
+    "original": "I don\u0027t mean to offend, but he\u0027s gettin\u0027 on in years, and if the rumors are true, he has a bad lung besides. I think it best we look elsewhere.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_JOBAOZ730_04774_BLOODYEXECUTIONERB04773_000_095",
+    "original": "A strong arm to grapple with? And what\u0027s to say I ain\u0027t good enough, hm?",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_JOBAOZ730_04774_BLOODYEXECUTIONERB04773_000_096",
+    "original": "...Bah, fine. If it be the cream yer after, then ye should go an\u0027 speak with Captain Sicard. No sharper shot in all o\u0027 La Noscea.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_097",
+    "original": "Captain Sicard? By no means a terrible prospect, but seein\u0027 as he\u0027s the actin\u0027 captain of the Executioners, he\u0027s like to demand a considerable price. And more importantly, he\u0027d cut into my profits...",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_100",
+    "original": "Hmmm. Maybe tryin\u0027 to recruit from the Executioners wasn\u0027t such a great idea after all. But we can\u0027t just leave empty-handed.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_100_100",
+    "original": "Well it\u0027s clear we\u0027re not gettin\u0027 anywhere talkin\u0027 with the lowly rank and file. What we need is someone with a little more authority to help us cast a wider net.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_JOBAOZ730_04774_BLOODYEXECUTIONERA04773_000_110",
+    "original": "Hyllfyr\u0027s the man yer after, but don\u0027t say I didn\u0027t warn ye.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_JOBAOZ730_04774_BLOODYEXECUTIONERB04773_000_111",
+    "original": "If present company ain\u0027t suited to yer \u003Chex:021A020203\u003Elofty\u003Chex:021A020103\u003E standards, I suppose you could go an\u0027 speak with Captain Sicard. You won\u0027t find a better marksman. ",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_JOBAOZ730_04774_HASTHWAB_000_120",
+    "original": "Ye need a duelin\u0027 partner for puttin\u0027 on some show?",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_JOBAOZ730_04774_HASTHWAB_000_121",
+    "original": "The Bloody Executioners ain\u0027t interested in dancin\u0027 for coin, \u003Chex:02080EE905FF056C617373FF046C616403\u003E. You\u0027ll have to search elsewhere.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_122",
+    "original": "O-Of course. Far be it from us to overstay our welcome.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_123",
+    "original": "Though, if you know of any pirates who might be willin\u0027 to take up our offer\u2500not those of the Executioners, of course\u2500we\u0027d be much obliged for aught you can tell us. ",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_JOBAOZ730_04774_HASTHWAB_000_124",
+    "original": "Hmmm... Come to think of it, there\u0027s been talk o\u0027 late about some bloke what claims to be the right hand o\u0027 Mistbeard \u0027imself come to town. They say \u0027e spends most of his time at the Drownin\u0027 Wench.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_JOBAOZ730_04774_HASTHWAB_000_125",
+    "original": "Wears a red mask, an\u0027 calls \u0027imself \u201COctobeard,\u201D if ye can believe it.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_126",
+    "original": "Octobeard, eh? Anyone who keeps company with Mistbeard is sure to make a worthy opponent. Thank you, sir. Much appreciated.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_127",
+    "original": "Well then, shall we pay a visit to the Drownin\u0027 Wench?",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_JOBAOZ730_04774_HASTHWAB_000_130",
+    "original": "A bloody odd name if ye ask me, that Octobeard. Bein\u0027 the supposed hand o\u0027 Mistbeard, though, can\u0027t imagine anyone\u0027s got the stones to question \u0027im.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_140",
+    "original": "Can\u0027t imagine we can convince him without a fight, so I thought it only right I dress for the occasion\u2500best foot forward and all that. Now, where is this Octobeard fellow...",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_JOBAOZ730_04774_TRACHTOUM_000_141",
+    "original": "(-???-)I be Mistbeard\u0027s right-hand man. Aye, I reckon that I am.\u266A\u003Chex:02100103\u003EFuddlin\u0027 me cap afore, sneakin\u0027 out the pub\u0027s back door.\u266A\u003Chex:02100103\u003EAaand nobody\u0027ll ever know.\u266A",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_142",
+    "original": "That\u0027s him, if we\u0027re to believe those sour notes of his. Let\u0027s be about it, eh?",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_JOBAOZ730_04774_TRACHTOUM_000_143",
+    "original": "Huh!? I-It\u0027s you!",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_144",
+    "original": "Oi, Octobeard! I\u0027d like to have a word... I-If that\u0027s all right, that is.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_JOBAOZ730_04774_TRACHTOUM_000_145",
+    "original": "I...er...ahem! I don\u0027t care for yer tone, ye preenin\u0027 little shite!",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_JOBAOZ730_04774_TRACHTOUM_000_146",
+    "original": "If it be a battle yer achin\u0027 for, then uh...then I guess I\u0027d better give it to ye! Outside by the Rogue River. Five minutes...",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_150",
+    "original": "I didn\u0027t see him leave as such, but he \u003Chex:021A020203\u003Eis\u003Chex:021A020103\u003E coming...isn\u0027t he? I wouldn\u0027t mind lookin\u0027 for another candidate of course, but...",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_0100_400",
+    "original": "There you are! I was hopin\u0027 you wouldn\u0027t\u2500I mean, that you \u003Chex:021A020203\u003Ewould\u003Chex:021A020103\u003E show up!",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_JOBAOZ730_04774_TRACHTOUM_000_400",
+    "original": "Aye, here I am! ...But there ain\u0027t no shame in turnin\u0027 tail, lad. Really. I wouldn\u0027t hold it against ye for leavin\u0027. Right now...",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_401",
+    "original": "Have at you!",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_402",
+    "original": "Take this!",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_403",
+    "original": "And that!",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_404",
+    "original": "Had enough, you barnacle-brained oaf?",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_405",
+    "original": "Ye gods! ...Did I overdo it?",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_406",
+    "original": "Well, he\u0027s still breathin\u0027. That\u0027s somethin\u0027, I suppose. Now, let\u0027s see who\u0027s under that mask.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_JOBAOZ730_04774_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_JOBAOZ730_04774_A1_000_001",
+    "original": "Just as I suspected. Trachtoum.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_JOBAOZ730_04774_A1_000_002",
+    "original": "I know you. You\u0027re the one that claimed to have slain Tidu\u2500I mean, Titan.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_JOBAOZ730_04774_TRACHTOUM_000_407",
+    "original": "Mercy! Mercy! All I wanted was a pint of ale...or three, and I\u0027d heard the tavernkeep\u0027s on good terms with Mistbeard\u0027s crew. I told \u0027em I was his right-hand man, then one thing led to another...",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_JOBAOZ730_04774_TRACHTOUM_000_408",
+    "original": "But you know the truth. About me member, about everything... So please, I beg of ye\u2500just let me go!",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_JOBAOZ730_04774_TRACHTOUM_100_408",
+    "original": "I swear I can change! You\u0027ll see!",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_409",
+    "original": "So he was an impostor all along. Pity...",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_410",
+    "original": "Even if he really was the hand of Mistbeard, anyone who\u0027d fall to me is certainly no match for you. We\u0027ll just have to keep searchin\u0027.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_411",
+    "original": "I don\u0027t know about you, but I think it\u0027s time we set our sights elsewhere. Could I trouble you to go and report back to P\u0027yandih in Ul\u0027dah?",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_JOBAOZ730_04774_MARTYN_000_412",
+    "original": "I\u0027ll be sure to send word when I\u0027ve found new prospects.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_JOBAOZ730_04774_PYANDIH_000_420",
+    "original": "Welcome back, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Any luck in Limsa Lominsa?",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_JOBAOZ730_04774_PYANDIH_000_421",
+    "original": "Oh, that\u0027s quite unfortunate. Even so, Royse must be informed, but you let me worry about that.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_JOBAOZ730_04774_PYANDIH_000_422",
+    "original": "Before you go, though, it wouldn\u0027t do to send you off without any guidance in your blue mage training.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_JOBAOZ730_04774_PYANDIH_000_423",
+    "original": "As I recall, Martyn said that Schiltron would go a long way in bolstering your repertoire of spells. Come and see me once you\u0027ve mastered it.",
+    "translation": ""
+  }
+}

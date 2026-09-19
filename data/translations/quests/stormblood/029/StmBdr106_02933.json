@@ -1,0 +1,477 @@
+{
+  "0": {
+    "tag": "TEXT_STMBDR106_02933_SEQ_00",
+    "original": "Cid looks calmer for having reached a malmstone in the investigation.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_STMBDR106_02933_SEQ_01",
+    "original": "Your party sets off for Rhalgr\u0027s Reach in high spirits, eager to recount recent events and enjoy a well-earned rest.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_STMBDR106_02933_SEQ_02",
+    "original": "Back at the workshop, Cid receives a dressing down from Jessie for acting without due consultation and placing himself in mortal danger. The exasperated engineer subsequently notes the absence of Biggs and Wedge, who have apparently failed to return from their mission to Omega Control. Fearing that they may have encountered trouble, Cid resolves to look for them, and bids you join him at the airship landing in Gridania, where the \u003Chex:021A020203\u003EExcelsior\u003Chex:021A020103\u003E awaits.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_STMBDR106_02933_SEQ_03",
+    "original": "Upon landing at the Carteneau Flats, Cid urges you to hurry on ahead to Omega Control while he moors the \u003Chex:021A020203\u003EExcelsior\u003Chex:021A020103\u003E.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BIn the event that you leave Omega Control, you may re-enter by speaking with Cid at the Gridania airship landing.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_STMBDR106_02933_SEQ_04",
+    "original": "Entering the control room, you are dismayed to find Biggs and Wedge sprawled on the floor, a slain fiend beside them. For a blessing, both are still alive, albeit in a bad way. The others soon join you, as does Omega via its communication system. It reveals that it was behind the attempt on the two engineers\u0027 lives, and threatens to kill innocent people unless you continue to participate in its experiment. Its objective: to study an anomaly known as heroes. Throughout history, it explains, otherwise unremarkable individuals have triumphed over vastly superior beings, just as you did in the Deltascape. Declaring itself \u201Can enemy to all life upon this star,\u201D Omega finally falls silent, leaving you to attend to your wounded friends.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_STMBDR106_02933_SEQ_05",
+    "original": "Back at the airship landing in Gridania, Nero informs you that Biggs and Wedge have been placed in the care of the healers at the Conjurers\u0027 Guild. After declaring his intent to visit them, he bids you make for Rhalgr\u0027s Reach to apprise Jessie of all that has occurred.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_STMBDR106_02933_SEQ_06",
+    "original": "Jessie is predictably shocked to hear the tidings from Carteneau. Though Biggs and Wedge will recover, Omega\u0027s threat looms large, and with little prospect of repairing its stasis system, Cid concludes that you have no choice but to obey its commands. Before long, you will be called to battle once more, and you fully intend to be ready.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_STMBDR106_02933_TODO_00",
+    "original": "Speak with Jessie.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_STMBDR106_02933_TODO_01",
+    "original": "Speak with Cid in Gridania.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_STMBDR106_02933_TODO_02",
+    "original": "Investigate Omega Control. ",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_STMBDR106_02933_TODO_03",
+    "original": "Speak with Nero.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_STMBDR106_02933_TODO_04",
+    "original": "Speak with Jessie at Rhalgr\u0027s Reach.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_STMBDR106_02933_ALPHA_000_000",
+    "original": "Kweh!",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_STMBDR106_02933_NERO_000_005",
+    "original": "For all Garlond\u0027s whining, I was cooperative and helpful, was I not? I look forward to many more such forays together, hero.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_STMBDR106_02933_GARLONDGATEKEEPER_000_008",
+    "original": "Good to have you back, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E! Worry not\u2500I shall see to it that no one falls in.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_010",
+    "original": "Right then, let\u0027s head back to Rhalgr\u0027s Reach. Jessie will want to know exactly what we\u0027ve been up to.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_STMBDR106_02933_ALPHA_000_020",
+    "original": "Kweh?",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_025",
+    "original": "I\u0027ve apprised Jessie of our travails, but you may want to let her know you\u0027ve returned. She claims to have been quite worried...",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_STMBDR106_02933_NERO_000_030",
+    "original": "Hm, how would Alpha react to seeing a normal chocobo, I wonder.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_STMBDR106_02933_JESSIE_000_040",
+    "original": "Welcome back, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I\u0027m told you\u0027ve been blazing a trail for us. The way I hear it, our investigation would\u0027ve long since ground to a halt without you.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_STMBDR106_02933_JESSIE_000_041",
+    "original": "I realize you\u0027re mostly interested in saving the world, but I want you to know how much I appreciate you helping the company out like this.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_STMBDR106_02933_JESSIE_000_042",
+    "original": "Frankly, we need all the help we can get, what with our esteemed president diving headlong into the jaws of danger without a word of warning to anyone. Irresponsible doesn\u0027t begin to describe it.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_STMBDR106_02933_NERO_000_043",
+    "original": "...You didn\u0027t tell her?",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_044",
+    "original": "I did...after a fashion. Though I may have exercised some...executive discretion.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_STMBDR106_02933_JESSIE_000_045",
+    "original": "I\u0027m no stranger to your lone endeavors, or your habit of confusing personal and company interests\u2500but just because you\u0027ve always done things a certain way, it doesn\u0027t make it the \u003Chex:021A020203\u003Eright\u003Chex:021A020103\u003E way. And until you wake up to your responsibilities, I\u0027m going to keep reminding you of them.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_STMBDR106_02933_JESSIE_000_046",
+    "original": "But such irksome matters aside...",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_STMBDR106_02933_JESSIE_000_047",
+    "original": "Aren\u0027t you just the most adorable little thing!?",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_STMBDR106_02933_JESSIE_000_048",
+    "original": "He followed you here of his own free will, did he? Which means he\u0027s basically part of the family! And why \u003Chex:021A020203\u003Ewouldn\u0027t\u003Chex:021A020103\u003E he grant us exclusive rights to use his likeness? Shall we start off with a simple clockwork version? They\u0027ll be queuing up in the streets!",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_049",
+    "original": "Oh, you can\u0027t be\u2500 What in the seven hells has gotten into you!?\u003Chex:02100103\u003EListen\u2500if I\u0027ve caused you any distress, I apologize, but I will \u003Chex:021A020203\u003Enot\u003Chex:021A020103\u003E have you comment on our guest\u0027s \u003Chex:021A020203\u003Emarketability\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_050",
+    "original": "Where are Biggs and Wedge? Shouldn\u0027t they be back by now?",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_STMBDR106_02933_JESSIE_000_051",
+    "original": "Oh? I thought you might have sent them off on another unauthorized mission. Last I heard from them, they said they were scouring Omega Control for anything useful. Would\u0027ve been a good while ago now, though.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_052",
+    "original": "I don\u0027t like the sound of this. Though we have all the necessary permissions, the area is technically a theater of war, and one littered with unknown Allagan artifacts to boot. Something may well have befallen them.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_053",
+    "original": "We\u0027d best take the \u003Chex:021A020203\u003EExcelsior\u003Chex:021A020103\u003E and go and find them.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_STMBDR106_02933_JESSIE_000_054",
+    "original": "Hmmm? Leaving again so soon?",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_STMBDR106_02933_JESSIE_000_055",
+    "original": "Nero, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u2500I want you two to accompany the chief. Make sure he doesn\u0027t do anything rash or take any detours.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_STMBDR106_02933_NERO_000_056",
+    "original": "Consider it done. I shall bring him back even if I have to drag him by the goggle straps.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_STMBDR106_02933_ALPHA_000_057",
+    "original": "Kweh, kweh! Kweh!",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_058",
+    "original": "Want to come along, eh? It\u0027s probably for the best. If we leave you here, Jessie is liable to take a mold of you.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_059",
+    "original": "Right, let\u0027s get moving. I\u0027ll bring the airship to Gridania. Wait for me at the landing.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_STMBDR106_02933_JESSIE_000_060",
+    "original": "If our esteemed president thinks he\u0027s heard the last of this, he\u0027s wrong. But our people\u0027s safety comes first. Take care, all right?",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_STMBDR106_02933_ALPHA_000_065",
+    "original": "Kweh... Kweh?",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_STMBDR106_02933_NERO_000_070",
+    "original": "Another chance to board the famous \u003Chex:021A020203\u003EEnterprise Excelsior\u003Chex:021A020103\u003E. Aren\u0027t I a lucky boy.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_080",
+    "original": "Looks like we\u0027re all here. Let\u0027s make haste to the Carteneau Flats.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_100",
+    "original": "Go on ahead to the control room, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. We\u0027ll follow as soon as we\u0027ve moored the \u003Chex:021A020203\u003EExcelsior\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_110",
+    "original": "Everything in order? Good. Let\u0027s make haste to the Carteneau Flats.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_STMBDR106_02933_SYSTEM_000_115",
+    "original": "He is unconscious.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_STMBDR106_02933_SYSTEM_000_118",
+    "original": "Exit Omega Control?",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_150",
+    "original": "Seven hells! Biggs, Wedge!",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_151",
+    "original": "Are you all right!? Answer me!",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_STMBDR106_02933_WEDGE_000_152",
+    "original": "Ch-Chief? \u003Chex:022C0DFF07022903EB0203FF02200203\u003E?",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_STMBDR106_02933_WEDGE_000_153",
+    "original": "A monster...appeared out of thin air...",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_STMBDR106_02933_OMEGA_000_154",
+    "original": "(-???-)\u003Cblip\u003E Targets exhibit vital signs. Mission failed.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_STMBDR106_02933_OMEGA_000_155",
+    "original": "(-???-)However, Alpha group members exhibit heightened levels of stress. Objective fulfilled.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_156",
+    "original": "Omega!? You set that thing upon them!?",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_STMBDR106_02933_OMEGA_000_157",
+    "original": "(-Omega-)Affirmative. I am able to create simple life-forms instantaneously at any temporal or spatial coordinate.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_STMBDR106_02933_OMEGA_000_158",
+    "original": "(-Omega-)Such beings may pose a negligible threat to you. However...",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_STMBDR106_02933_OMEGA_000_159",
+    "original": "(-Omega-)They are more than sufficient to grievously wound or kill the majority of your kind.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_STMBDR106_02933_OMEGA_000_160",
+    "original": "(-Omega-)I could instigate a massacre at any time, and you would be powerless to prevent it.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_STMBDR106_02933_NERO_000_161",
+    "original": "Do I detect a shift in policy? Quantity over quality?",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_STMBDR106_02933_OMEGA_000_162",
+    "original": "(-Omega-)Negative. My objective remains unchanged: evolution through formidable opposition.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_STMBDR106_02933_OMEGA_000_163",
+    "original": "(-Omega-)However, in the course of seeking suitable subjects, I observed an anomaly: those whom you call heroes.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_STMBDR106_02933_OMEGA_000_164",
+    "original": "(-Omega-)History shows numerous instances of otherwise unremarkable individuals who have defeated vastly superior beings. Who triumphed in the face of apparently impossible odds. Who performed what are popularly termed \u201Cmiracles.\u201D",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_STMBDR106_02933_OMEGA_000_165",
+    "original": "(-Omega-)This has occurred too frequently to be dismissed as a mere statistical aberration.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_STMBDR106_02933_OMEGA_000_166",
+    "original": "(-Omega-)I seek to understand this phenomenon. Should it prove to be of benefit, I will incorporate it into my own evolution. It is for this purpose that I brought you to my domain.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_STMBDR106_02933_NERO_000_167",
+    "original": "Hmph, so putting on a show at the Yawn and planting Alpha in our midst was but a part of your grand plan.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_STMBDR106_02933_OMEGA_000_168",
+    "original": "(-Omega-)By your victories, you have demonstrated the selfsame anomaly. You are fit to remain my subjects.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_STMBDR106_02933_OMEGA_000_169",
+    "original": "(-Omega-)You will continue participating in my experiment. Withdraw, and I will commence the extermination of your kind.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_STMBDR106_02933_OMEGA_000_170",
+    "original": "(-Omega-)This is an order. A threat. A declaration of war. I am an enemy to all life upon this star.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_171",
+    "original": "...\u0027Twould seem we have much to ponder. But first things first: we must tend to our friends. Quickly\u2500help me carry them.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_STMBDR106_02933_NERO_000_180",
+    "original": "Garlond and Alpha took our two wounded to the Conjurers\u0027 Guild.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_STMBDR106_02933_NERO_000_181",
+    "original": "The chief bids me lend a hand, so I suppose I shall take myself there too.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_STMBDR106_02933_NERO_000_182",
+    "original": "You, meanwhile, are to return to Rhalgr\u0027s Reach and report to Jessie.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_STMBDR106_02933_JESSIE_000_190",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, I heard there was trouble! What in the seven hells happened!?",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_STMBDR106_02933_JESSIE_000_191",
+    "original": "What!? Omega loosed a fiend on Biggs and Wedge!?",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_STMBDR106_02933_JESSIE_000_192",
+    "original": "Toying with people\u0027s lives like it was all a game... This is madness!",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_STMBDR106_02933_JESSIE_000_193",
+    "original": "S-Sir! Will they be all right!?",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_194",
+    "original": "The worst is passed, but they still drift in and out of consciousness. They\u0027ll remain in the conjurers\u0027 care for a time.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_STMBDR106_02933_JESSIE_000_195",
+    "original": "Then all we can do is wait and pray...",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_196",
+    "original": "Bah! Gods strike me down for a fool! I should have been more mindful of the dangers! I should never have\u2500",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_STMBDR106_02933_NERO_000_197",
+    "original": "Should never have what? Activated Omega? You know as well as I do that there was no other way to defeat Shinryu.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_198",
+    "original": "But is this truly any better? All of mankind is being held to ransom! And as the one who activated Omega, I bear the responsibility!",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_STMBDR106_02933_NERO_000_199",
+    "original": "The responsibility... \u003Csigh\u003E Just the kind of thing the new you would say.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_STMBDR106_02933_NERO_000_200",
+    "original": "You are deluding yourself, Garlond. We are \u003Chex:021A020203\u003Escientists\u003Chex:021A020103\u003E, not heroes. Even you must concede your talents do not extend to combat.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_STMBDR106_02933_NERO_000_201",
+    "original": "The old you understood this far better. \u003Chex:021A020203\u003EHe\u003Chex:021A020103\u003E only looked forwards, and gave himself wholly to science.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_STMBDR106_02933_NERO_000_202",
+    "original": "And then you changed. You styled yourself a pacifist and started spouting tripe about the \u003Chex:021A020203\u003Eproper\u003Chex:021A020103\u003E uses of technology. \u0027Twas in the wake of your old man\u0027s mishap at Bozja, I believe.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_STMBDR106_02933_NERO_000_203",
+    "original": "Calm yourself. All I wished to say is, embrace who you are\u2500a man who devotes his mind to making the impossible possible.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_204",
+    "original": "With little prospect of restoring the stasis system, I\u0027m afraid we have no recourse but to continue participating in Omega\u0027s tests.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_205",
+    "original": "Assuming Midgardsormr has the right of it, we face a legion of foes from history, both real and imagined.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_206",
+    "original": "Though I may not be the one who charges into the fray, I shall fight beside you as best I know how. That said...it will inevitably fall to you to administer the coup de gr\u00E2ce, old friend, so please...for Biggs and Wedge, and all of us\u2500don\u0027t lose!",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_STMBDR106_02933_ALPHA_000_207",
+    "original": "Kweh! Kweh, kweh!",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_STMBDR106_02933_JESSIE_000_208",
+    "original": "I reckon the little scamp is trying to encourage us.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_STMBDR106_02933_NERO_000_209",
+    "original": "We\u0027ve fallen far indeed to earn its pity...said the former tribunus. \u003Csigh\u003E Until such time as Omega next extends us an invitation, you will find me analyzing the data from our investigation. Good \u003Chex:020838E3E90C0DFF1A020816E3E90C05FF086576656E696E67FF076D6F72726F7703FF17020813E3E90C12FF04646179FF086576656E696E670303\u003E to you.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_210",
+    "original": "Before they were attacked, Biggs and Wedge discovered a tomestone.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_211",
+    "original": "I shall examine its contents and make the information available on the terminal over there as I extract it. Feel free to refer to it whenever the occasion arises.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_STMBDR106_02933_CID_000_212",
+    "original": "There\u0027s no telling when Omega will summon us, but we must all see that we are ready when it does. Fear not, old friend. We\u0027ll get through it together...somehow or other.",
+    "translation": ""
+  }
+}

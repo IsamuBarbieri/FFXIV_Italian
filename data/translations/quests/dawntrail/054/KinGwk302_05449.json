@@ -1,0 +1,717 @@
+{
+  "0": {
+    "tag": "TEXT_KINGWK302_05449_SEQ_00",
+    "original": "Having come this far, Searchingway is confident that nothing can bring the initiative down.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_KINGWK302_05449_SEQ_01",
+    "original": "As you and Searchingway are chatting about your experience on Oizys, Namingway returns, having concluded his newly expanded duties. He invites you to join him on another enlightening stroll to learn more of the nomenclature that he has chosen to bestow upon this gravity-torn star.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_KINGWK302_05449_SEQ_02",
+    "original": "As ever, your tour is to begin with the initiative\u0027s base of operations\u2500in this case, Terra Firma. To that end, the two of you will require an unobstructed view of its imposing structure.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BYou must be accompanied by Namingway to complete this task. Speak with him again should you become separated.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_KINGWK302_05449_SEQ_03",
+    "original": "Accompanied by Namingway, you observe the greater Megalithopolis, cradled by towering stone. There, he shares his initial fear of being unable to create appellations of equal significance to those that would have once been used on the star\u2500as well as his newfound philosophy that each name has its time and place, and one need not necessarily supplant or belie any others.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_KINGWK302_05449_SEQ_04",
+    "original": "The second stop on Namingway\u0027s tour features a pair of impressive stone protrusions. To the west is the Shielding Wall, named for the way it is positioned directly between the Megalithopolis and nearby gravity sphere. To the east, however, is the Falsifying Wall, which shields nothing but empty wasteland despite its grandiose appearance. Your next destination is promised to be more captivating still...",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_KINGWK302_05449_SEQ_05",
+    "original": "The Unmoored Anchor, as Namingway explains it, was named for its metaphorical relationship to Shadefleet rather than any real physical resemblance, this connection created through the use of the newly constructed gravitational generators. Beyond it to the south stretches a striking view of the Magnetic Horizon, which flouts Oizys\u0027s anomalous gravity by sheer magnetic force.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_KINGWK302_05449_SEQ_06",
+    "original": "Speaking of gravitational anomalies, stepping into Shadefleet grants you a frighteningly close look at the nearest specimen. Everything from the trees to the very earth has been warped by its influence, but there remain glimpses of a potentially promising future for Oizys. While Namingway cannot but dwell on the past once more, his regrets only become greater motivation to craft monikers with the utmost care.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_KINGWK302_05449_SEQ_07",
+    "original": "Upon your return to the Megalithopolis, Searchingway excitedly informs you of the latest report: the Euhedron is set to be restored in short order. Eager to learn what answers it holds, the three of you hurry into Terra Firma, where you find Dylise wrestling with the terminal. When it finally activates, it displays a strange holographic projection that resembles a navigational chart. Skilled as they were at gravitational magicks, could it be that the Voyagers\u0027 repeated interstellar departures were the cause of Oizys\u0027s corruption? And if they did leave the star ere its destruction, where did they go?",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_KINGWK302_05449_TODO_00",
+    "original": "Speak with Namingway and have him accompany you.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_KINGWK302_05449_TODO_01",
+    "original": "Speak with Namingway at Terra Firma while he is accompanying you.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_KINGWK302_05449_TODO_02",
+    "original": "Speak with Namingway near the Shielding Wall while he is accompanying you.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_KINGWK302_05449_TODO_03",
+    "original": "Speak with Namingway at the Unmoored Anchor while he is accompanying you.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_KINGWK302_05449_TODO_04",
+    "original": "Observe from the designated vantage point while accompanied by Namingway.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_KINGWK302_05449_TODO_05",
+    "original": "Speak with Searchingway.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_KINGWK302_05449_SEARCHINGWAY_000_001",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E! You\u0027ve explored Oizys to your liking, then? Or perhaps more, what with the spontaneous gravity shifts...",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_KINGWK302_05449_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_KINGWK302_05449_A1_000_001",
+    "original": "I\u0027ve been up and down all over the place!",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_KINGWK302_05449_A1_000_002",
+    "original": "Alas, I\u0027ve been holding fast to my work tools, lest they float away.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_KINGWK302_05449_SEARCHINGWAY_000_003",
+    "original": "You\u0027ve contributed a great deal, both to Terra Firma and the expedition front, and I couldn\u0027t be more grateful. We\u0027ve accomplished so much together!",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_004",
+    "original": "Hello again, my friends! I am pleased to report that appellations have been assigned to most everything\u2500and with nary a gravitational mishap besides!",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_KINGWK302_05449_SEARCHINGWAY_000_005",
+    "original": "Fantastic work as always, Namingway. With each new star we reach, your nuanced nomenclature becomes ever more essential to the initiative!",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_006",
+    "original": "I truly had my work cut out for me this time. Ruin after nameless ruin\u2500and all built by a nameless culture! Naturally, this necessitated a novel approach.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_KINGWK302_05449_SEARCHINGWAY_000_007",
+    "original": "Come to think of it, your nomenclature takes on a distinctive theme in each place we go. That must be terribly troublesome to accomplish.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_008",
+    "original": "How sweet of you to notice! It is my fondest hope that everyone in the initiative comes to appreciate each star\u0027s unique characteristics, so I try to do my part to highlight them.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_009",
+    "original": "How about it, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E? Might you be interested to learn how I\u0027ve chosen to characterize our dear, despoiled Oizys?",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_KINGWK302_05449_SEARCHINGWAY_000_010",
+    "original": "Knowing Namingway, he\u0027s been toiling in anticipation of this very opportunity. Go on, then, but try not to get too caught up!",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_KINGWK302_05449_SEARCHINGWAY_000_020",
+    "original": "Namingway does so love to cart you around like one of his many, many dictionaries. \u003Cchuckle\u003E",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_021",
+    "original": "If you\u0027re ready to begin today\u0027s terrific tour, we will begin with Terra Firma!",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_KINGWK302_05449_SYSTEM_000_030",
+    "original": "You must be accompanied by Namingway and have him at your side in order to proceed with quest objectives.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_KINGWK302_05449_SYSTEM_000_031",
+    "original": "Namingway has yet to arrive. Be sure he is at your side before attempting to continue.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_KINGWK302_05449_Q2_000_000",
+    "original": "What will you do?",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_KINGWK302_05449_A2_000_001",
+    "original": "Small talk.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_KINGWK302_05449_A2_000_002",
+    "original": "Part ways with Namingway.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_KINGWK302_05449_A2_000_003",
+    "original": "Nothing.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_033",
+    "original": "Our strolls together are always such a delight!",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_KINGWK302_05449_SYSTEM_000_034",
+    "original": "Are you sure you wish to part ways with Namingway?",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_035",
+    "original": "Duty calls you elsewhere, I suppose? Then I shall pass the time with Searchingway until your return.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_036",
+    "original": "Welcome back, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Now then, shall we?",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_037",
+    "original": "Our base of operations is nestled within the Megalithopolis\u2500a once-great city of stone.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_038",
+    "original": "Given that family dwellings are clustered here, as well as the largest ruins we\u0027ve found, it must have been a vibrant, bustling community.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_039",
+    "original": "Granted, it had a different identity then...even wore a different countenance, back before the anomalies tore it asunder.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_040",
+    "original": "And how am I to describe a place I never knew? The moment Searchingway told us of this star, I feared that any name I could give it would always be inferior to its true one.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_041",
+    "original": "...That was arrogant. Of course I could never replace the name it once had. And who would ask me to?",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_042",
+    "original": "\u201CEtheirys\u201D isn\u0027t gone, no matter how time has changed the face of it. Yet many of you have never known any home but \u201CHydaelyn.\u201D Neither truth makes the other less true.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_043",
+    "original": "\u201COizys\u201D can mean something now. It doesn\u0027t need to do more than that. And if we one day come to know this star\u0027s other name, well... ",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_044",
+    "original": "It can have both! That has to be better than being labeled \u201CRG 4-6,\u201D at the very least.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_045",
+    "original": "Now, let us embark on a journey of appreciation for all that this star has to offer!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_KINGWK302_05449_A2_100_001",
+    "original": "\u003Chex:024804F2022403\u003EDiscuss the rockhollow homes.\u003Chex:0248020103\u003E",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_046",
+    "original": "We believe that many Voyagers once made their homes here.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_047",
+    "original": "Quite literally, as each domicile appears to have been carved out of a single native boulder by arcane means. Thus, I call them rockhollow homes!",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_048",
+    "original": "Though they lie empty now, they still have much to tell us of their inhabitants...who may have been no taller than the people of Etheirys!",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_KINGWK302_05449_A3_100_001",
+    "original": "\u003Chex:024804F2022403\u003EDiscuss the megalith marble.\u003Chex:0248020103\u003E",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_049",
+    "original": "Do you recall the lampmelt marble we utilized on Phaenna? This new stone is in a similar vein\u2500heh\u2500but it was developed by our team expressly for Terra Firma!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_050",
+    "original": "It began with a question: why does much of the skyborne rock merely float in place? There had to be a natural counterbalance at play...and so we started digging.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_051",
+    "original": "The ore we found below can be used to shield against forces both gravitational and magnetic, so we ground it down to make the marble you see in the panels just there.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_060",
+    "original": "Two towering stone projections reaching toward the firmament...almost as if to taunt nature itself.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_061",
+    "original": "See how the Shielding Wall, to the west, is positioned directly between the Megalithopolis and the anomaly.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_062",
+    "original": "We believe this has kept the region\u0027s ruins comparatively undamaged. Hence the name.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_063",
+    "original": "And now you know that we ourselves are protected by more than just the rainbow crystal\u0027s power!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_064",
+    "original": "As for what lies beyond the Falsifying Wall to the east...nothing but wasteland. For that reason did I see fit to give it the name of a pretender!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_065",
+    "original": "Next, we shall pay a visit to what may well be the most captivating place on Oizys. I do hope you\u0027re excited, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_070",
+    "original": "I call this mountain the Unmoored Anchor, though the resemblance is more metaphorical than physical.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_071",
+    "original": "With a bit of help from our gravitational generators, it connects the stones of Shadefleet to more solid ground\u2500despite being quite adrift itself!",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_072",
+    "original": "Speaking of the sea, to the south sprawls the Magnetic Horizon. I assure you that \u003Chex:021A020203\u003Ethat\u003Chex:021A020103\u003E name is more than mere poetic license.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_073",
+    "original": "Only by grace of the waters\u0027 own magnetic properties do we find the sky less full of sea than it is of stone.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_074",
+    "original": "Can you imagine what would happen if a living Loporrit were to fall in!? ...On second thought, I shan\u0027t speculate.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_075",
+    "original": "Now, let us cross over to Shadefleet and get a closer look at this star\u0027s most fearsome feature...",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_076",
+    "original": "This view is what I shall always remember of Oizys.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_KINGWK302_05449_SYSTEM_000_077",
+    "original": "The following event cannot be skipped. You may wish to cancel any pending Duty Finder registrations.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_KINGWK302_05449_Q2_100_000",
+    "original": "Take in the view?",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_080",
+    "original": "Did you catch sight of Terra Firma growing smaller as we made our way up? It struck me that at this altitude, a sufficiently stiff breeze is as much of a danger as any anomaly...",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_081",
+    "original": "But put that from your mind for now. Tell me what else catches your eye!",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_082",
+    "original": "These landmasses were once part of the lithosphere, but Oizys\u0027s own gravity hasn\u0027t the strength to contend with the anomaly\u0027s effects on them.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_083",
+    "original": "Perhaps they would have been more easily tempted downward were they not riddled with striations of indigo, which has proven to be less dense than the surrounding stone... Or perhaps not. These details are better left to the mathematically inclined.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_084",
+    "original": "In any case, similar ore is found all across Oizys\u2500untouched, at that! The Voyagers seem to have had no use for it, despite its beauty.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_085",
+    "original": "The menacing orb you see before you is but one of the many gravitational anomalies that afflict Oizys.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_086",
+    "original": "We know not how they came to be, but that the star\u0027s aether is in some way corrupted\u2500a knot in the currents, mayhap.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_087",
+    "original": "Some have proposed using gravitational magicks to resolve the imbalance, but the finer points of this plan have yet to materialize.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_088",
+    "original": "Behold the crooked cedar, warped by gravity right down to the roots.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_089",
+    "original": "Evidently the anomalies fluctuate faintly. Hence, some branches are forced to grow toward the nearest sphere, while others are free to seek the sun.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_090",
+    "original": "A few saplings will be exported to Etheirys to observe their growth under normal conditions. I expect they\u0027ll go straight up!",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_091",
+    "original": "That puffed-up plant is kiting poulp, named both for its resemblance to the noble octopus and its ability to remain gently aloft.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_092",
+    "original": "It floats in place, impervious to the whims of the gravity spheres, seemingly unaided by roots or vines. They call it a botanical marvel!",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_093",
+    "original": "Yet there must be some unseen connection to the soil\u2500a force still greater than aetheric corruption. Through scientific study, we intend to find it!",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_094",
+    "original": "See how those blooms share their splendors with the sun? That is why I call them solberyllia!",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_095",
+    "original": "Their lofty position has caused their leaves to grow larger than is typical, so that they now resemble petals in their own right.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_096",
+    "original": "Though Shadefleet\u0027s soil has few nutrients and limited capacity to retain water, these hardy plants have only become bigger and brighter... I do admire their spirit!",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_097",
+    "original": "Have you spotted the yellow-green sparkle? That is Oizys jasper.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_098",
+    "original": "Like crystal, it has proven highly sensitive to aetheric stimuli. In fact, I hear it was expertly utilized in the restoration of Desert Burrow.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_099",
+    "original": "The Euhedron at Terra Firma is made of this jasper as well. The Voyagers unearthed some truly spectacular specimens!",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_100_099",
+    "original": "...Is it not strange that we ourselves have only found it here in Shadefleet? Were all other veins depleted, or has it something to do with the anomaly nearby?",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_100_100",
+    "original": "Recall you the impesctors and faux flora of Phaenna? These \u201Cpseudostones,\u201D as I call them, are arguably of a similar nature.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_100_101",
+    "original": "Their idle midair posture rather calls to mind an earth sprite prior to its awakening.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_100_102",
+    "original": "This star has yet to give rise to its own intelligent life...but mayhap one day it will spark from the faint power contained in these stones!",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_100_103",
+    "original": "Well? Have you made enough delightful discoveries about our dear Oizys, or do you need more time?",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_KINGWK302_05449_Q4_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_KINGWK302_05449_A4_000_001",
+    "original": "I have had my fullest fill of the delightful.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_KINGWK302_05449_A4_000_002",
+    "original": "A bit more time, perhaps.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_130",
+    "original": "I\u0027m glad! For my part, I have dearly enjoyed this academic tour.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_131",
+    "original": "Navigating this star\u0027s treacherous terrain has given me much to think about, too. As before, my mind is drawn to the past...",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_132",
+    "original": "Just as the people of Hydaelyn came to know the meaning of Etheirys, I should like to one day see Oizys as our predecessors knew her.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_133",
+    "original": "How I wish that the Voyagers were still here, that they might tell us not only their chosen nomenclature, but how it felt upon their tongues and in their hearts.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_134",
+    "original": "I see now the opportunities I missed, wandering Etheirys those hundred years...",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_135",
+    "original": "All that time, I worked from the shadows, speaking to but a scant few tenuous acquaintances. I was convinced that my means of study was superlative.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_136",
+    "original": "How much more I could have learned, had I thought to know you through your own words?",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_137",
+    "original": "...But that time of solitary struggle is long past! As are the Final Days, owing to you and yours.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_138",
+    "original": "Far more important is what I can achieve \u003Chex:021A020203\u003Enow\u003Chex:021A020103\u003E. I joined this initiative in pursuit of a new dream, and I intend to see it through.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_139",
+    "original": "Each and every discovery shall receive my very best\u2500whether I am giving it its first name or its hundredth!",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_140",
+    "original": "That\u0027s all I need to be able to look upon my contributions with pride.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_141",
+    "original": "...Oh, but I\u0027m rambling, aren\u0027t I? And we\u0027ve kept Searchingway waiting once again!",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_145",
+    "original": "Certainly! I shall wait warmly until such time as your curiosity is sated.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_146",
+    "original": "It means a great deal to share this scenic view with you\u2500greater still to know it resonates no less in your heart than mine. So, shall we bid good-bye to Shadefleet?",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_KINGWK302_05449_Q5_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_KINGWK302_05449_A5_000_001",
+    "original": "This has been wonderful, thank you.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_KINGWK302_05449_A5_000_002",
+    "original": "No, I can\u0027t bear to pull away just yet!",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_150",
+    "original": "What a journey that was\u2500as Searchingway himself will doubtless agree, romantic that he is!",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_KINGWK302_05449_SEARCHINGWAY_000_151",
+    "original": "The touring duo returns! Did Namingway get the chance to recount his naming escapades here on Oizys?",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_152",
+    "original": "Indeed, together we scoured the land for all of its most tragically beautiful vistas!",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_KINGWK302_05449_SEARCHINGWAY_000_153",
+    "original": "Excellent! While you were away, I received reports that significant progress has been made in restoring the Euhedron.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_154",
+    "original": "The Euhedron! Pray tell, what have they discovered?",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_KINGWK302_05449_SEARCHINGWAY_000_155",
+    "original": "Good question. Dylise is on-site as we speak\u2500what say we go and find out?",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_KINGWK302_05449_DYLISE_000_100",
+    "original": "Your timing is impeccable, for the data transfer from Desert Burrow has just concluded. If all goes to plan, we\u0027ll gain control of this thing any moment.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_101",
+    "original": "What is the meaning of this...swirly, sparkly spectacle? Is it some sort of record the Voyagers left behind?",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_KINGWK302_05449_SEARCHINGWAY_000_102",
+    "original": "Strange... This pattern of lights resembles the layout of star system RG-4.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_KINGWK302_05449_SEARCHINGWAY_000_103",
+    "original": "In which case, the curved line would suggest a trajectory...",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_KINGWK302_05449_SEARCHINGWAY_000_104",
+    "original": "Could this be a navigational chart\u2500one designed for using each star\u0027s orbital plane as a means of acceleration?",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_KINGWK302_05449_DYLISE_000_105",
+    "original": "We have evidence enough of the Voyagers\u0027 prowess with gravitational magicks to place it firmly within the realm of probability. Which \u003Chex:021A020203\u003Ecould\u003Chex:021A020103\u003E mean...",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_KINGWK302_05449_DYLISE_000_106",
+    "original": "The Voyagers left this star of their own volition!",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_KINGWK302_05449_SEARCHINGWAY_000_107",
+    "original": "Perhaps. But...",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_KINGWK302_05449_SEARCHINGWAY_000_108",
+    "original": "By the look of these coordinates, their starship must have departed at high velocity.",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_KINGWK302_05449_SEARCHINGWAY_000_109",
+    "original": "And to achieve this flight path with gravitational magicks would necessitate a spell of considerable scale for even the smallest vessel.",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_KINGWK302_05449_SEARCHINGWAY_000_110",
+    "original": "Were they to repeat that process to facilitate regular travel, gravity of the very star would suffer for it...would it not?",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_KINGWK302_05449_DYLISE_000_111",
+    "original": "...It\u0027s a stronger theory than aught the research team has managed to come up with.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_KINGWK302_05449_DYLISE_000_112",
+    "original": "I\u0027ll see who I can recruit for further analysis of this data.",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_KINGWK302_05449_SEARCHINGWAY_000_113",
+    "original": "The Phaenna observation team ought to hear of this, too. They may be able to work out precisely where the Voyagers were headed!",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_KINGWK302_05449_NAMINGWAY_000_114",
+    "original": "Then...we\u0027re going after them!?",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_KINGWK302_05449_SEARCHINGWAY_000_115",
+    "original": "You bet your carrots we\u0027re going after them! If we can make contact with their descendants, it will be the initiative\u0027s greatest hop yet!",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_KINGWK302_05449_SEARCHINGWAY_000_116",
+    "original": "For that reason, I\u0027ll have the whole crew pivot to data analysis. As soon as we have our next coordinates, you\u0027ll be the first to know.",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_KINGWK302_05449_SEARCHINGWAY_000_117",
+    "original": "Because when the time comes, I want you both on board with me!",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_KINGWK302_05449_SYSTEM_000_150",
+    "original": "As you have completed 50 stellar missions on Oizys, you are eligible to undertake an additional quest.",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_KINGWK302_05449_SYSTEM_000_151",
+    "original": "Seek out Mumukko to learn of ways you might further benefit the initiative.",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_KINGWK302_05449_SYSTEM_000_152",
+    "original": "Complete 50 stellar missions on Oizys to become eligible to undertake an additional quest.",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_KINGWK302_05449_SYSTEM_000_153",
+    "original": "Check your exotablet for available missions and other means by which to contribute to the Cosmic Exploration Initiative.",
+    "translation": ""
+  }
+}

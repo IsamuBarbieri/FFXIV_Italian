@@ -1,0 +1,582 @@
+{
+  "0": {
+    "tag": "TEXT_BANALL240_03164_SEQ_00",
+    "original": "Kabuto is more than ready to depart for Kugane.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_BANALL240_03164_SEQ_01",
+    "original": "With the matter of the Namazu\u0027s involvement settled\u2500after a fashion\u2500you and Kabuto set off for Kugane once again, knowing that you must make haste if you are to arrive before Nhaza\u0027a Jaab. You opt to go directly to the meeting place at the Bokairo Inn, as J\u0027olhmyn and M\u0027zhet are likely to find their way back to the port city before you.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_BANALL240_03164_SEQ_02",
+    "original": "Upon your arrival, J\u0027olhmyn informs you that she has already located Nhaza\u0027a Jaab, who but recently came into port and boarded the imposing \u003Chex:021A020203\u003EKuroboro Maru\u003Chex:021A020103\u003E along with his \u201Ccargo.\u201D Soon after, M\u0027zhet, who has been monitoring the harbor, contacts you by linkpearl, his rambling belying the urgency of the situation. It seems that Nhaza\u0027a has already brought Alpa and Gyorei out on deck, presumably to be presented as the Three Wonders to his buyer\u2500namely, the unscrupulous merchant Kageyama. The moment for action has come. Nhaza\u0027a and Kageyama must be stopped before Alpa and Gyorei are relieved of flesh and fin.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_BANALL240_03164_SEQ_03",
+    "original": "You and your companions rush aboard the \u003Chex:021A020203\u003EKuroboro Maru\u003Chex:021A020103\u003E, arriving just in time for J\u0027olhmyn to save Alpa from a grisly fate at the hands of Nhaza\u0027a Jaab. Though an ungallant kick to the ribs sends J\u0027olhmyn sprawling, the rest of your group rushes forward to continue the fight. This includes Gyoshin, who appears not a moment too soon, perched on an airborne mikoshi. Without preamble, he rams it into Kageyama, sending the villain\u2500along with many a Namazu mikoshi bearer\u2500flying. Meanwhile, Kabuto takes advantage of the confusion to slash at a distracted Nhaza\u0027a, leaving him clutching a wound in his abdomen. Though the villain is still unwilling to surrender, the sound of the Sekiseigumi\u0027s whistle sends him loping to his skiff, hidden nearby as a means of escape. Though M\u0027zhet\u0027s lobbed grenade fails to detonate, it is nevertheless successful in driving Nhaza\u0027a off his boat and into the water, where he is dragged under by an unidentified finned creature. Kageyama\u0027s flight is more successful\u2500he\u0027s halfway to Kogane Dori by the time you notice his departure. You, of course, give chase, Alpa and Kabuto in tow.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_BANALL240_03164_SEQ_04",
+    "original": "From a vantage point above Kogane Dori, you manage to catch sight of Kageyama. As you close in, he realizes that you are in pursuit, and hastily scatters a great deal of coin, causing nearby citizens to block your path as they scramble to lay hands on it. It immediately becomes clear, however, that he failed to account for the presence of a skilled Ananta goldsmith, as Alpa removes the distraction by shaping the money into a large ornament of the sort found atop Namazu mikoshi\u2500dispersing the crowd as they realize with horror that their financial windfall is now an ichthyic monument of questionable monetary or artistic value. Though the thwarted Kageyama once again attempts to flee on foot, he runs right into Hancock and a pair of Sekiseigumi, and is summarily detained. Perhaps he will at last face justice for eschewing morality in the name of greed. Perhaps.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_BANALL240_03164_SEQ_05",
+    "original": "With the dastardly plot of Nhaza\u0027a Jaab and Kageyama unraveled and the villains no longer a threat\u2500at least for the time being\u2500Alpa suggests that the whole group visit the Bokaisen Hot Springs to heal any lingering scrapes and bruises. As you enjoy the warm water and congenial chatter, you reflect on the many bonds forged this day. Indeed, such friendships may in time prove the greatest treasure of all.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_BANALL240_03164_TODO_00",
+    "original": "Wait for J\u0027olhmyn at the meeting spot near the Bokairo Inn.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_BANALL240_03164_TODO_01",
+    "original": "Speak with M\u0027zhet Tia at the harbor.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_BANALL240_03164_TODO_02",
+    "original": "Survey Kogane Dori from above.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_BANALL240_03164_TODO_03",
+    "original": "Speak with Alpa near the Bokairo Inn.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_BANALL240_03164_KABUTO_000_001",
+    "original": "It might serve us to have a clearer idea of Seigetsu the Enlightened\u0027s plan, but we can wait no longer to depart. Come, we should hasten to the Bokairo Inn.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_BANALL240_03164_GYOSHIN_000_005",
+    "original": "Maybe I should pack \u003Chex:021A020203\u003Etwo\u003Chex:021A020103\u003E hammers after all. Yes, yes...",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_BANALL240_03164_KOFUINSEIGETSU_000_010",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_BANALL240_03164_JOLHMYN_000_050",
+    "original": "You two made good time! We left for Kugane just after I spoke with you, and only arrived a short while ago ourselves.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_BANALL240_03164_KABUTO_000_051",
+    "original": "Have you been able to learn anything of Nhaza\u0027a?",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_BANALL240_03164_JOLHMYN_000_052",
+    "original": "We were successful in returning to Kugane ahead of him, though not by much. He\u0027s already made port.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_BANALL240_03164_JOLHMYN_000_053",
+    "original": "We saw dockworkers hauling a large barrel and squirming sack from his skiff\u2500under his close watch, unfortunately\u2500so whatever his plans are, they\u0027re likely already in motion.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_BANALL240_03164_KABUTO_000_054",
+    "original": "The prisoners! Where has he sent them?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_BANALL240_03164_JOLHMYN_000_055",
+    "original": "There\u0027s a large vessel docked at Pier #1\u2500it seems Alpa and Gyorei have been taken aboard. I have M\u0027zhet keeping an eye on the situation.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_BANALL240_03164_KABUTO_000_056",
+    "original": "I saw that ship when we arrived. It\u0027s unmistakably the \u003Chex:021A020203\u003EKuroboro Maru\u003Chex:021A020103\u003E. If I recall correctly, the merchant Kageyama purchased it for a hefty sum some time ago.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_BANALL240_03164_JOLHMYN_000_057",
+    "original": "Kageyama, you say? And who might that be?",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_BANALL240_03164_KABUTO_000_058",
+    "original": "A man easily as vile as Nhaza\u0027a Jaab himself. He once conspired to take Kugane Castle, holding the bugyo hostage as he made ludicrous demands. Though thwarted, he used his wealth and influence to escape justice.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_BANALL240_03164_KABUTO_000_059",
+    "original": "I am not familiar with the details, but according to rumor, he has a history of using wealth to make each and every one of his problems disappear.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_BANALL240_03164_KABUTO_000_060",
+    "original": "He has taken to using this tactic recently, it is said, in pursuit of a bride, spending more gil than most will ever see in his attempt to snare the perfect woman.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_BANALL240_03164_JOLHMYN_000_061",
+    "original": "A bride, hmm? Well, I think we\u0027ve found Nhaza\u0027a Jaab\u0027s esteemed employer.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_BANALL240_03164_MZHETTIA_000_062",
+    "original": "(-M\u0027zhet-)Hello, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E? It is I! You know\u2500your favorite Miqo\u0027te? Dashing good looks, ladies\u0027 man, future nunh of the M tribe?",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_BANALL240_03164_MZHETTIA_000_063",
+    "original": "(-M\u0027zhet-)Yes, well, I\u0027m afraid that we have a problem. One that requires your immediate attention\u2500that\u0027s why I contacted you. It\u0027s vital that you hear this as soon as possible.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_BANALL240_03164_MZHETTIA_000_064",
+    "original": "(-M\u0027zhet-)I\u0027ve been dutifully keeping watch by the \u003Chex:021A020203\u003EKuroboro Maru\u003Chex:021A020103\u003E, and Alpa and the Namazu have just been brought out on deck. We don\u0027t have much longer until our \u201Cmermaid\u201D becomes \u201Cmermaid\u0027s flesh\u201D!",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_BANALL240_03164_MZHETTIA_000_065",
+    "original": "(-M\u0027zhet-)I would love to continue this little chat we\u0027re having, but I rather think you should come to the harbor right away!",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_BANALL240_03164_JOLHMYN_000_066",
+    "original": "Was that M\u0027zhet?",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_BANALL240_03164_KABUTO_000_067",
+    "original": "This is our last chance, then. We must stop Nhaza\u0027a once and for all!",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_BANALL240_03164_KABUTO_000_070",
+    "original": "The others should have arrived before we did. I assume that they have occupied themselves by gathering information throughout the city in the meantime.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_BANALL240_03164_MZHETTIA_100_100",
+    "original": "There you are! We must hurry!",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_BANALL240_03164_MZHETTIA_200_100",
+    "original": "Alpa is a dear friend, and I won\u0027t have her turned into mince by some scheming\u2500and rather unattractive, I must say\u2500villain!",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_BANALL240_03164_KAGEYAMA_000_100",
+    "original": "Merflesh...",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_BANALL240_03164_KAGEYAMA_000_101",
+    "original": "The Philosopher\u0027s Fin...",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_BANALL240_03164_KAGEYAMA_000_102",
+    "original": "And the Jewel of Fair Souls.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_BANALL240_03164_KAGEYAMA_000_103",
+    "original": "With this, she can no longer deny me! And what a pretty thing she will be, beside me at our matrimonial feast. I can taste it now...",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_BANALL240_03164_NHAZAAJAAB_000_104",
+    "original": "I couldn\u0027t possibly care less about what you intend to do with the goods, so long as I am fairly compensated. And speaking of payment, I think it\u0027s time that we finish up here.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_BANALL240_03164_NHAZAAJAAB_100_104",
+    "original": "I need only carve the meat...",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_BANALL240_03164_JOLHMYN_000_105",
+    "original": "Not a chance!",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_BANALL240_03164_NHAZAAJAAB_000_106",
+    "original": "Finally caught up, have you? Though I doubt you have much more to offer this time around!",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_BANALL240_03164_MZHETTIA_000_107",
+    "original": "J\u0027olhmyn!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_BANALL240_03164_MZHETTIA_000_108",
+    "original": "That was dirty! What, afraid you couldn\u0027t defeat her in a fair fight?",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_BANALL240_03164_NHAZAAJAAB_000_109",
+    "original": "I merely prefer to spend my time on foes that are actually worthy\u2500or at least suitably entertaining. But if any of you believe you will present a greater challenge, then by all means...",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_BANALL240_03164_KABUTO_000_110",
+    "original": "Very well. I will defeat you myself, and have you return Tsukumo here and now.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_BANALL240_03164_GYOSHIN_000_111",
+    "original": "(-???-)I see them! They are most visible!",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_BANALL240_03164_GYOSHIN_000_112",
+    "original": "Ramming speed, yes, yeeeeees!",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_BANALL240_03164_NHAZAAJAAB_000_113",
+    "original": "Hurk!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_BANALL240_03164_KAGEYAMA_000_114",
+    "original": "That whistle\u2500it\u0027s the Sekiseigumi!",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_BANALL240_03164_NHAZAAJAAB_000_115",
+    "original": "Pity. I was just beginning to feel a twinge of excitement, but I see I must take my leave.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_BANALL240_03164_NHAZAAJAAB_000_116",
+    "original": "Ahahahahaha! Farewell, Eastern beastmen! This little chase has been \u003Chex:021A020203\u003Emost\u003Chex:021A020103\u003E amusing. Perhaps you may entertain me again someday.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_BANALL240_03164_MZHETTIA_000_117",
+    "original": "Not this time... As the future nunh, and a friend to J\u0027olhmyn and Alpa both, I cannot let these crimes go unanswered!",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_BANALL240_03164_MZHETTIA_000_118",
+    "original": "Trust me, sometimes you have to learn the hard way...\u003Chex:02100103\u003EHow to treat a lady!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_BANALL240_03164_NHAZAAJAAB_000_119",
+    "original": "Seven hells!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_BANALL240_03164_MZHETTIA_000_120",
+    "original": "Oh, \u003Chex:021A020203\u003Enow\u003Chex:021A020103\u003E we find the one with no powder.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_BANALL240_03164_MZHETTIA_100_120",
+    "original": "Gwahahahahahaha! So much for your parlor trick!",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_BANALL240_03164_MZHETTIA_000_121",
+    "original": "Gwahahahahahaha! As if explosives would save the adventurer\u0027s gaggle of misfits \u003Chex:021A020203\u003Eyet again\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_BANALL240_03164_KABUTO_000_121",
+    "original": "Now we only need ensure that Kageyama meets with justice at the hands of the Sekiseigumi.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_BANALL240_03164_MZHETTIA_000_122",
+    "original": "That...may pose a problem. Where has that eel slipped off to?",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_BANALL240_03164_KABUTO_000_123",
+    "original": "He makes for Kogane Dori! \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, with me!",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_BANALL240_03164_MZHETTIA_000_124",
+    "original": "We can meet at the Bokairo Inn afterward\u2500I will carry the wounded there. We\u0027re counting on you!",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_BANALL240_03164_SYSTEM_100_150",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_BANALL240_03164_KABUTO_000_150",
+    "original": "You need not push yourself, Alpa. You have only just been freed from what must have been a very trying ordeal.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_BANALL240_03164_ALPA_000_151",
+    "original": "I\u0027ll be fine. As captain of the Velodyna Gatekeepers, I can\u0027t let evil go unpunished!",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_BANALL240_03164_KABUTO_000_152",
+    "original": "There!",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_BANALL240_03164_KAGEYAMA_000_153",
+    "original": "What? How did you\u2500 Well, no matter. You may have followed me this far, but no further!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_BANALL240_03164_KAGEYAMA_000_154",
+    "original": "Paupers of Kugane! Behold my loose change!",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_BANALL240_03164_PASSERBYA03164_000_155",
+    "original": "(-Eager Townsperson-)Oooh, free money!",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_BANALL240_03164_KABUTO_000_156",
+    "original": "Pardon me, sir, but if you could move a bit to the left... Ma\u0027am, it is imperative that we capture this villain... \u003Csigh\u003E They\u0027re not listening.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_BANALL240_03164_KAGEYAMA_000_157",
+    "original": "Hahaha! Just look at them, scrounging at my feet! It pays to be wealthy!",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_BANALL240_03164_ALPA_000_158",
+    "original": "Please, leave thisss to me.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_BANALL240_03164_KAGEYAMA_000_159",
+    "original": "You\u0027re wasting your time, little mermaid! I\u0027m a master of monetary manipulation, and no one is easier to control than coin-starved commoners!",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_BANALL240_03164_KAGEYAMA_000_160",
+    "original": "What is the meaning of this!?",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_BANALL240_03164_PASSERBYA03164_000_161",
+    "original": "(-Disappointed Townsperson-)Oh, cruel fate, why do you mock me?",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_BANALL240_03164_KABUTO_000_162",
+    "original": "Well done. But why a fish?",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_BANALL240_03164_ALPA_000_163",
+    "original": "I saw one on the Namazu\u0027s strange contraption earlier. It was so cute, I just couldn\u0027t stop thinking about it.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_BANALL240_03164_PASSERBYB03164_000_164",
+    "original": "(-Disappointed Townsperson-)I don\u0027t even \u003Chex:021A020203\u003Elike\u003Chex:021A020103\u003E fish.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_BANALL240_03164_KABUTO_000_165",
+    "original": "I believe it\u0027s time that you accepted your fate.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_BANALL240_03164_HANCOCK_000_166",
+    "original": "Yes, I think that\u0027s quite enough escape attempts for one day. You\u0027ve made it perfectly clear who the villain here is. Right, my Sekiseigumi friends?",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_BANALL240_03164_KAGEYAMA_000_167",
+    "original": "You can\u0027t do this to me! I have a woman to coerce! A matrimonial banquet to consume!",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_BANALL240_03164_KABUTO_000_168",
+    "original": "It seems that the matter is resolved at last. Shall we go and inform the others?",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_BANALL240_03164_YAMABIKO_000_170",
+    "original": "That was quite the ruckus earlier. And where did all the Namazu come from?",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_BANALL240_03164_KOFUINSEIGETSU_000_175",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_BANALL240_03164_ALPA_000_200",
+    "original": "The innkeep was kind enough to call a doctor, but it ssseems that no one has more than minor injuries.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_BANALL240_03164_ALPA_000_201",
+    "original": "And apparently, there\u0027s no better treatment for scrapes and bruises than the Bokaisen Hot Springs! I guess we\u0027ll just have to visit them again!",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_BANALL240_03164_Q1_000_000",
+    "original": "Enter the hot springs in your current garb?",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_BANALL240_03164_ALPA_000_203",
+    "original": "Let\u0027s continue where we left off before we were so rudely interrupted, shall we?",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_BANALL240_03164_JOLHMYN_000_204",
+    "original": "I\u0027m so sorry, Alpa.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_BANALL240_03164_ALPA_000_205",
+    "original": "What? You have absolutely nothing to apologize for! Not now, not ever!",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_BANALL240_03164_JOLHMYN_000_206",
+    "original": "It\u0027s my duty to protect you, and I failed utterly. Then it took so long to free you...and I couldn\u0027t even manage that without help.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_BANALL240_03164_ALPA_000_207",
+    "original": "Maybe not, but the rescue wouldn\u0027t have succeeded without your leadership\u2500not to mention how you saved me from being sliced in two. You may not be able to do everything yourself, but I couldn\u0027t ask for a better sssecond-in-command.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_BANALL240_03164_JOLHMYN_000_208",
+    "original": "Alpa, I... Thank you.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_BANALL240_03164_ALPA_000_209",
+    "original": "I\u0027m grateful to everyone else too, of course. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, Kabuto, Gyoshin, M\u0027zh\u2500",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_BANALL240_03164_ALPA_100_209",
+    "original": "Hold on, where\u0027s M\u0027zhet?",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_BANALL240_03164_JOLHMYN_200_209",
+    "original": "Maybe he\u0027s still changing?",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_BANALL240_03164_JOLHMYN_000_210",
+    "original": "Augh!",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_BANALL240_03164_MZHETTIA_000_211",
+    "original": "Never fear, it is I, M\u0027zhet! I discovered this floating in the sea after Nhaza\u0027a disappeared. How do I look? Rakish?",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_BANALL240_03164_JOLHMYN_000_212",
+    "original": "I\u0027m throwing that back in the sea, and you along with it!",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_BANALL240_03164_JOLHMYN_100_212",
+    "original": "Just when you think he\u0027s learned something...",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_BANALL240_03164_KABUTO_000_213",
+    "original": "If I may ask, Gyoshin, how did you know to find us on the \u003Chex:021A020203\u003EKuroboro Maru\u003Chex:021A020103\u003E?",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_BANALL240_03164_GYOSHIN_000_214",
+    "original": "It was easy to spot you from above! I knew that stuffing the mikoshi with all of the cloudsbreath in our stores was the right choice, yes, yes.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_BANALL240_03164_JOLHMYN_000_215",
+    "original": "My, how convenient. And I\u0027m glad that you made it out safely too, Gyorei.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_BANALL240_03164_GYOREI_000_216",
+    "original": "Thanks to all of you! Being trapped in a barrel was harrowing, and fraught with splintery peril, yes, yes. But it was worth it for a chance to enjoy these hot springs together!",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_BANALL240_03164_KABUTO_000_217",
+    "original": "...If you say so.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_BANALL240_03164_GYOSHIN_000_218",
+    "original": "What is that gem in your helmet? It is most unusual. Quite unique!",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_BANALL240_03164_KABUTO_000_219",
+    "original": "This is the soul of my dear friend Tsukumo, more valuable than any treasure in the whole of the Ruby Sea.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_BANALL240_03164_KABUTO_000_220",
+    "original": "He is what Nhaza\u0027a stole from me, and I am truly grateful to you for helping me retrieve him.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_BANALL240_03164_KABUTO_000_221",
+    "original": "As Gyorei said, despite our tribulations, I feel fortunate to have met you all. I hope that we can continue to strengthen our friendship now that we\u0027re all safe and sound.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_BANALL240_03164_GYOSHIN_000_222",
+    "original": "Then please come to our festival, yes, yes! We can strengthen our friendship and all of our assorted limbs by carrying a mikoshi together!",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_BANALL240_03164_ALPA_000_223",
+    "original": "And if you\u0027re ever in Eorzea, come to Ala Mhigo! The Velodyna Gatekeepers will give you the grand tour, and you can stay at the cassstellum...",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_BANALL240_03164_SYSTEM_000_250",
+    "original": "You have achieved \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EAllied\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E reputation with the Kojin, the Vira, and the Namazu.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_BANALL240_03164_SYSTEM_000_251",
+    "original": "Furthermore, you now have access to a wider selection of wares from Shikitahe, Madhura, and Gyosho.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_BANALL240_03164_SYSTEM_000_252",
+    "original": "You have learned the emote \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EGratuity\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E!",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_BANALL240_03164_SYSTEM_000_253",
+    "original": "Through your efforts, your allies of all shapes and sizes across Ala Mhigo and the Far East have forged bonds of friendship that promise to remain strong through the years. You are truly a hero to societies across many realms!",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_BANALL240_03164_KABUTO_000_225",
+    "original": "I paid visit to Shihoumi. Thankfully, she was able to place Tsukumo back where he belongs.",
+    "translation": ""
+  }
+}

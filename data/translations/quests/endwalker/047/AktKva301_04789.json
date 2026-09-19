@@ -1,0 +1,637 @@
+{
+  "0": {
+    "tag": "TEXT_AKTKVA301_04789_SEQ_00",
+    "original": "Shallow Moor has a job for a certain adventurer. ",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_AKTKVA301_04789_SEQ_01",
+    "original": "The gleaners have received an odd job with your name on it\u2500literally. The alchemist Pasasun, writing on behalf of the fisherman Matsya, has asked for help in extricating his friend from a spot of unspecified trouble. Shallow Moor informs you that the alchemist can likely be found at the Great Work, if and when you decide to answer his call to action.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_AKTKVA301_04789_SEQ_02",
+    "original": "Pasasun wastes no time in bringing you to Matsya, upon whose head is perched a mysterious bird fluent in the common tongue. Kalika, as he names himself, hails from an isle to the south known as Aloalo, which has long been a verdant paradise home to many animals and men both. However, in the wake of the inhabitants\u0027 abrupt departure a century ago, the animals have been free to eat and breed unchecked, and now hordes of ravenous beasts threaten to destroy the balance of nature. Thus did Kalika brave the ocean waves to seek a hunter brave and true\u2500a hero he proclaims to be none other than Matsya. Matsya, unsurprisingly, begs to differ, and entreats you to accompany him on an expedition to Aloalo. You agree, and so Pasasun goes to charter a boat that will deliver you to the island, and bids you meet him in Yedlihmad once you are ready to depart.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_AKTKVA301_04789_SEQ_03",
+    "original": "Pasasun informs you that a trio of bandits stole a ship from the Yedlihmad docks shortly before your arrival. While it was not the vessel the alchemist commissioned\u2500and thus its loss shall not hinder your plans\u2500the timing of the theft is curious indeed. Regardless, you must turn your attention to Aloalo and the coming journey with your fisherman-turned-hero companion.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BAloalo Island can be accessed via the V\u0026C Dungeon Finder.\u003Chex:02100103\u003E\u203BTo open the V\u0026C Dungeon Finder, speak with the Yedlihmad skipper or select the option located under Duty in the main menu.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_AKTKVA301_04789_SEQ_04",
+    "original": "You brave the verdant wilds of Aloalo, illuminating its secrets and redressing the natural balance. Now that you have returned from your journey, you may seek out Pasasun in Yedlihmad to share with him your experiences on the south sea isle.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_AKTKVA301_04789_SEQ_05",
+    "original": "Pasasun is overjoyed to receive you and Matsya, and you regale him with the tale of your exciting expedition. Though the Arkasodara found the adventure rewarding in the end, he is nevertheless relieved to be home once more...until Kalika observes that a single hunt will not suffice to keep the beasts in check. The Speaker\u0027s servant implores you both to visit the isle many times more\u2500and indeed, the unexplored remainder and resilient fauna ensure that Pasasun will be busy taking notes for many days to come. But before you embark upon your next expedition, it is only prudent that you report your success to Shallow Moor.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_AKTKVA301_04789_SEQ_06",
+    "original": "Shallow Moor listens to your story with rapt interest, unable to suppress a smile when you speak of Matsya\u0027s quest to find fish for Nidhana. She congratulates you on a job well done and encourages you to return to Aloalo Island, for the sake of both alchemical knowledge and unrequited love.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_AKTKVA301_04789_TODO_00",
+    "original": "Speak with Pasasun at the Great Work.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_AKTKVA301_04789_TODO_01",
+    "original": "Speak with Pasasun at Yedlihmad.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_AKTKVA301_04789_TODO_02",
+    "original": "Enter Aloalo Island.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_AKTKVA301_04789_TODO_03",
+    "original": "Speak with Pasasun.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_AKTKVA301_04789_TODO_04",
+    "original": "Speak with Shallow Moor at Old Sharlayan.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_AKTKVA301_04789_SHALLOWMOOR_000_000",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E! In the mood for an odd job, are we? Your arrival is most fortuitous, for I received a request for \u003Chex:021A020203\u003Eyour\u003Chex:021A020103\u003E assistance but a moment ago.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_AKTKVA301_04789_SHALLOWMOOR_000_001",
+    "original": "It was written by Pasasun, a Thavnairian alchemist, on behalf of an acquaintance of yours. What was his name, again...?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_AKTKVA301_04789_SHALLOWMOOR_000_002",
+    "original": "...Ah, yes, Matsya! Rings familiar, I hope?",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_AKTKVA301_04789_SHALLOWMOOR_000_003",
+    "original": "Good, good. It seems your fisher friend is in a spot of trouble, and this Pasasun believes you\u0027re the one to get him out of it. That is, of course, assuming you have room in your schedule.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_AKTKVA301_04789_Q1_000_004",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_AKTKVA301_04789_A1_000_001",
+    "original": "I would gladly help a friend in need, especially one to whom I\u0027m indebted.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_AKTKVA301_04789_A1_000_002",
+    "original": "He doesn\u0027t want me to peddle his wares again, does he...?",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_AKTKVA301_04789_SHALLOWMOOR_000_005",
+    "original": "That\u0027s a \u201Cyes,\u201D then! Thank you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_AKTKVA301_04789_SHALLOWMOOR_000_006",
+    "original": "I really couldn\u0027t say, though I would have thought a merchant with \u003Chex:021A020203\u003Eyour\u003Chex:021A020103\u003E backing could sell ice crystals to fire sprites.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_AKTKVA301_04789_SHALLOWMOOR_000_007",
+    "original": "While I myself am not familiar with the details of the request, Pasasun should be happy to explain everything. I believe he can be found in the Great Work.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_AKTKVA301_04789_SHALLOWMOOR_000_008",
+    "original": "May the job prove free of hitches, hindrances, and headaches!",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_010",
+    "original": "Oh, you must be \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Have the gleaners sent you here?",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_011",
+    "original": "Very good. You have no idea how relieved I am that you\u0027ve come.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_012",
+    "original": "As you may have guessed, I am Pasasun. I work as an alchemist here at the Great Work, and Matsya is one of my oldest and dearest friends.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_013",
+    "original": "His is a problem which has proven quite difficult to unravel. Nevertheless, he is loath to ask you for help...",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_014",
+    "original": "And so I took it upon myself to reach out to you without his knowledge. For both his sake and the sake of the little one fate has brought into our lives.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_015",
+    "original": "He\u0027ll be along soon to sell his most recent catch, which should prove the perfect opportunity to convince him that we require your aid.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_016",
+    "original": "We\u0027ll be sure to catch his attention if we wait outside. Follow me, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_AKTKVA301_04789_MATSYA_000_020",
+    "original": "Is that...\u003Chex:022C0DFF07022903EB0203FF02200203\u003E? Why, I didn\u0027t know you and Pasasun were acquainted.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_021",
+    "original": "(-Talking Bird-)Master Matsya, who is this mighty hunter? \u003Chex:02080DE905FF04486572FF0448697303\u003E arms are thick, mighty roots, unlike Pasasun\u0027s limp seaweed limbs which shrivel in the sun.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_022",
+    "original": "I would have you know that I am an alchemist by trade\u2500I work with my mind, not my body. And need I remind you, it was my knowledge which allowed me to nurse you back to health. Surely a little respect isn\u0027t too much to ask...",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_023",
+    "original": "By the look on your face, I take it you understood Kalika\u0027s commentary. This is the little one I mentioned to you before. In spite of his...forthright nature, Matsya and I have become quite taken with him.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_024",
+    "original": "I apologize for contacting \u003Chex:022C0DFF07022903EB0203FF02200203\u003E without consulting you beforehand. I know you didn\u0027t want to burden \u003Chex:02080DE905FF04686572FF0468696D03\u003E with these troubles, but I\u0027m afraid I see no other recourse.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_AKTKVA301_04789_MATSYA_000_025",
+    "original": "Well, since you\u0027ve come all this way, I suppose it would be foolish of me not to tell you everything. That is, of course, if you would like to hear it?",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_AKTKVA301_04789_MATSYA_000_026",
+    "original": "Very well. Several days ago, I found this tiny bird on the shore, breathing faintly and unconscious. Pasasun and I took him in and watched over him day and night, unsure if he would ever awake. For a mercy, he did\u2500and then, to our surprise, he spoke: \u201CGo to the southern isles...\u201D",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_AKTKVA301_04789_MATSYA_000_027",
+    "original": "What isles are these, you may wonder. Kalika, would you explain?",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_028",
+    "original": "Certainly, Master Matsya! Your wish is my command!",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_029",
+    "original": "The \u201Csouth sea isles,\u201D I believe your kind call them. Remote and mysterious, \u0027tis said.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_030",
+    "original": "I hail from there\u2500from one in the west by the name of Aloalo.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_031",
+    "original": "It was home to a people thousands of years ago of whom now no trace remains, save for a grand shrine, and the great statue of the Speaker enshrined within.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_032",
+    "original": "The statue was embedded with a glorious gemstone which bestowed vitality and beauty to the island. Nowhere else did nature thrive so! Long after the builders vanished, others would cross the sea to bask in this bounty.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_033",
+    "original": "However, a century ago, from the ocean deep roiling flames burst forth, forcing the residents of Aloalo to flee. And so the animals, who no longer had to fear the hunters\u0027 arrows, laid claim to the island\u0027s gifts.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_034",
+    "original": "As Aloalo healed, ravenous beasts grew plentiful, and the rivers became choked with fish. They breed and feast unchecked, and not even the Speaker\u0027s blessing can forestall the island\u0027s gradual descent into a barren waste.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_035",
+    "original": "As the Speaker\u0027s servant, it fell to me to go forth and save my dear home, so I rode the waves upon a floating coconut in search of a mighty hunter!",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_036",
+    "original": "Although the ocean could have swallowed me whole at any moment, I looked to the horizon without fear. I had faith that the Speaker would guide me true, and I was right! Master Matsya is the very hunter who will save Aloalo!",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_AKTKVA301_04789_MATSYA_000_037",
+    "original": "You see now the source of my distress. The very thought of facing ravenous beasts makes my trunk shiver in fear.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_AKTKVA301_04789_MATSYA_000_038",
+    "original": "But \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E could be the hunter our little friend seeks\u2500and sate your hunger for exploration besides. Admittedly, I did not ask because I thought such a trifling task would be beneath you, but...",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_AKTKVA301_04789_Q2_000_039",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_AKTKVA301_04789_A2_000_001",
+    "original": "You had me at \u201Cgrand shrine.\u201D",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_AKTKVA301_04789_A2_000_002",
+    "original": "Well, if you went alone, you wouldn\u0027t come back...",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_040",
+    "original": "If you are as accomplished as Master Matsya says, I would welcome you to Aloalo with open wings! There is one catch, however...",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_041",
+    "original": "Your concern for Master Matsya\u0027s well-being is plain\u2500and I should be glad to call upon so accomplished a hunter as I am told you are. There is one catch, however... ",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_042",
+    "original": "Master Matsya must come, you see. The Speaker guided me into his embrace, and that is a sign I cannot ignore.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_043",
+    "original": "I have ever had a soft spot for small, defenseless creatures. And while I am no man of action, I possess knowledge of the south seas which may put wind in your sails, as it were.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_044",
+    "original": "Many of the fish native to the isles are prized for their rare properties and would make a fine gift for any alchemist. Nidhana would be most impressed if you were to brave unknown waters and bring her a few.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_AKTKVA301_04789_MATSYA_000_045",
+    "original": "A g-g-gift? For...Nidhana!?",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_AKTKVA301_04789_MATSYA_000_046",
+    "original": "Y-Yes, I\u0027ll go! I\u0027ll go and find the plumpest fish I can find!",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_AKTKVA301_04789_MATSYA_000_047",
+    "original": "As for you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, it seems I must burden you with my troubles after all. I know it\u0027s a lot to ask, but please...travel with me to Aloalo Island!",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_048",
+    "original": "Master Matsya, you wear resolve well! Every moment I become more certain of your success!",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_049",
+    "original": "Now, let us depart before this swell of courage recedes. Aloalo is south from here as the albatross flies. You will know it by the unusually lush canopies!",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_050",
+    "original": "No, Kalika, you must stay here. The wounds you suffered have yet to heal.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_051",
+    "original": "Hmm, rather presumptuous of you to command me thus, but you are right. I can scarcely lift my wings for the pain...",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_052",
+    "original": "Fear not. Your instructions were more than clear enough to guide \u003Chex:022C0DFF07022903EB0203FF02200203\u003E and Matsya to Aloalo Island.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_053",
+    "original": "Since I can\u0027t accompany you, I\u0027ll see to the commissioning of a vessel for your voyage. Once you\u0027re ready to depart, let us rendezvous at Yedlihmad.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_AKTKVA301_04789_JJHIMEI_000_054",
+    "original": "(-Energetic Miqo\u0027te Girl-)Did you hear that, Zozone!? A jewel bigger than \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E, just waiting for someone to sail to that island and give it a new home!",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_AKTKVA301_04789_ZOZONE_000_055",
+    "original": "Can\u0027t say I made out every little bit, J\u0027jhimei, but I got the salient points. Treasure in the south sea isles, ripe for the pluckin\u0027, aye?",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_AKTKVA301_04789_ZOZONE_000_056",
+    "original": "Seems you were onto somethin\u0027 with this wild chocobo chase, Whasbyrm. Rumors of wild riches rarely pay off this well!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_AKTKVA301_04789_WHASBYRM_000_057",
+    "original": "Aye, but that lot might be after the same thing. We\u0027d be in for some competition...",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_AKTKVA301_04789_JJHIMEI_000_058",
+    "original": "No need to get your smallclothes in a twist over one fisherman and his hired help! These ears aren\u0027t just for show, you know\u2500I heard them spill the exact location!",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_AKTKVA301_04789_ZOZONE_000_059",
+    "original": "This score smells bigger than the Mealvaan\u0027s Gate one. I wager we\u0027ll be richer than kings!",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_AKTKVA301_04789_ZOZONE_000_060",
+    "original": "Get your gear in order, you two! We\u0027re commandeerin\u0027 the first skiff we lay eyes on!",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_061",
+    "original": "How cruel to have been entrusted with this sacred duty, yet forced to wait and pray for another\u0027s success...",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_AKTKVA301_04789_BOATER04789_000_062",
+    "original": "Pasasun\u0027s told me everythin\u0027. I\u0027ll see you safely to this island of yours, you have my word!",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_065",
+    "original": "There you are. Did you spy the commotion on your way here?",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_066",
+    "original": "It seems a trio of masked scoundrels absconded with one of the smaller ships. The Radiant Host is attempting to track them down, but the sea is vast, and the thieves long gone. Let us give thanks that they did not choose \u003Chex:021A020203\u003Eour\u003Chex:021A020103\u003E vessel.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_067",
+    "original": "Ah, yes. Matsya wanted me to tell you that he has returned to Akyaali to wrap up some loose ends with his work while you make ready to depart.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_068",
+    "original": "Now that you\u0027ve arrived, I shall send word. Kalika and I may be staying behind, but that doesn\u0027t mean we can\u0027t make ourselves useful.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_069",
+    "original": "We\u0027ve given the skipper directions to Aloalo Island, and she is confident that she can deliver you there without issue. The rest depends on you, my friend.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_070",
+    "original": "I know you can handle yourself, but still...be careful, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_071",
+    "original": "Full glad I am to see you both returned, and in good health besides!",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_075",
+    "original": "Welcome back, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Your journey to the island has left you none the worse for wear, I am pleased to see.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_076",
+    "original": "While I cannot wait to hear the full account, I\u0027m sure you wish to take your ease after such a trying expedition.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_077",
+    "original": "Matsya has gone ahead to find a place we can sit and converse in peace. Let us go to him.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_078",
+    "original": "Now that we\u0027re all comfortable, pray tell us of your experiences on Aloalo.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_AKTKVA301_04789_MATSYA_000_079",
+    "original": "There was danger and death around every corner! Though that rather grim aspect was mitigated somewhat by the incredible beauty...",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_AKTKVA301_04789_MATSYA_000_080",
+    "original": "The waters surrounding the isle were teeming with fish. My peers might find this bounty tempting, but the number of wrecks on Aloalo\u0027s shores made plain the great risk inherent in pursuing it.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_081",
+    "original": "The shallows are not so different from those of Thavnair. Like our courageous skipper, I am sure your friends would be better suited than most to brave Aloalo\u0027s waters.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_AKTKVA301_04789_MATSYA_000_082",
+    "original": "When I spied the towering tree at the island\u0027s heart, I was reminded of Khadga! Did the ancient peoples live beneath its boughs?",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_083",
+    "original": "Indeed they did! \u0027Twas within the welcome shade where wise sages refined complex equations. Not unlike your Great Work, where Pasasun tempers his knowledge of alchemy.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_AKTKVA301_04789_MATSYA_000_084",
+    "original": "We were making our way through the ruins of a settlement when we were accosted by some sort of faerie. I worry her mocking laughter will haunt my dreams for nights to come.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_085",
+    "original": "Ah, I know the distasteful creature. She is a creation of others who settled Aloalo long after the ancients had vanished.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_086",
+    "original": "The travelers came from a distant land called Nym, a once-prosperous nation that was in its twilight. They sought refuge in the southern isles, for they had once been home to their forebears, they claimed.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_AKTKVA301_04789_MATSYA_000_087",
+    "original": "We managed to reach the shrine you described. As I stepped into the quiet grove, all my fears were washed away...",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_AKTKVA301_04789_MATSYA_000_088",
+    "original": "But that tranquility was shattered when the statue attacked us! If \u003Chex:022C0DFF07022903EB0203FF02200203\u003E hadn\u0027t been there to smash it into submission, I wouldn\u0027t be standing before you now.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_089",
+    "original": "The Speaker attacked you!? I have never heard of such a thing!",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_090",
+    "original": "Perhaps it had something to do with the sacred jewel the statue holds. Hmm... It seems there are mysteries whose answers even I do not know.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_AKTKVA301_04789_MATSYA_000_091",
+    "original": "It was a journey full of twists, turns, and fish besides. I\u0027m glad I was...compelled to embark upon it with \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, but gladder still to be home.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_092",
+    "original": "Ah, but I trust you understand this was but the first of many, yes? A single hunt will not suffice to keep Aloalo\u0027s many predators in check.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_093",
+    "original": "Do not forget its waters are teeming with fish rare and remarkable\u2500all of which would make fine gifts for your dear Nidhana. So please, you must promise me that this expedition will not be your last!",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_AKTKVA301_04789_MATSYA_000_094",
+    "original": "Y-Yes, of course...but I wouldn\u0027t dare brave Aloalo alone...",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_AKTKVA301_04789_MATSYA_000_095",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, I hate to impose upon you further, but I would be most grateful to have your resolute company again. For Kalika and Nidhana both!",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_AKTKVA301_04789_MATSYA_100_095",
+    "original": "Oh, thank you, thank you! With luck, your appetite for adventure will be sated. I know mine own will be a thousand times over.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_AKTKVA301_04789_MATSYA_000_096",
+    "original": "I only hope other \u201Ctreasure hunters\u201D haven\u0027t caught wind of the island\u0027s many curiosities. Those ruffians we faced and the wooden beast they set upon us were complications I\u0027d rather not contend with again.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_097",
+    "original": "People, in Aloalo? How odd...to say nothing of this \u201Cwooden beast.\u201D To command such constructs requires an intimate knowledge of arcanima...",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_100_097",
+    "original": "Perhaps these thieves you encountered were a step above common riffraff. Perhaps they lurked in shadow as I spoke carelessly of Aloalo\u0027s secrets!",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_098",
+    "original": "The stolen ship from before... I\u0027ll report this to the Radiant Host just in case Kalika\u0027s hunch is correct.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_AKTKVA301_04789_MATSYA_100_098",
+    "original": "Thank you, Pasasun.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_100_099",
+    "original": "Whoever they are, we must see them in chains before they defile my home again! Oh, if only my wings were healed, I would give them a buffeting they would not soon forget!",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_AKTKVA301_04789_MATSYA_000_099",
+    "original": "Now, enough talk of adventure. I\u0027d best get this fish to Nidhana before it spoils!",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_AKTKVA301_04789_MATSYA_100_099",
+    "original": "Now, enough talk of adventure. My fish won\u0027t sell themselves.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_AKTKVA301_04789_MATSYA_000_100",
+    "original": "Now, enough talk of adventure. The shrine\u0027s waters yielded a fish I\u0027ve never seen before, and I\u0027d like to show it to the other fishmongers. They might know something of its nature.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_101",
+    "original": "Thank you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, for everything\u2500especially for keeping Matsya safe.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_100_101",
+    "original": "For my part, I must write down your tale before it fades from my memory. Who knows, my records may prove useful when next you visit Aloalo Island.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_102",
+    "original": "I take it you\u0027ll be returning to Old Sharlayan soon. When you do, please give Shallow Moor my regards.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_103",
+    "original": "Nidhana seems to have won Kalika\u0027s respect sight unseen, while \u003Chex:021A020203\u003Estill\u003Chex:021A020103\u003E he looks down his beak at me. How vexing...",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_AKTKVA301_04789_PASASUN_000_104",
+    "original": "But I suppose that\u0027s neither here nor there. If you\u0027re on your way to Old Sharlayan, please be sure to give my thanks to Shallow Moor.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_AKTKVA301_04789_KALIKA_000_105",
+    "original": "Anyone who is dear to Master Matsya is dear to me. I would bow my head to Mistress Nidhana!",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_AKTKVA301_04789_SHALLOWMOOR_000_110",
+    "original": "\u003Chex:02080CE905FF04536865FF03486503\u003E returns! I trust this means Pasasun and Matsya\u0027s troubles have been resolved to their satisfaction?",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_AKTKVA301_04789_SHALLOWMOOR_000_111",
+    "original": "The south sea isles? Ah, would that I could have been there to walk amidst such verdant beauty! I daresay I\u0027m \u003Chex:021A020203\u003Egreen\u003Chex:021A020103\u003E with envy.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_AKTKVA301_04789_SHALLOWMOOR_000_112",
+    "original": "Your Arkasodara friend sounds like he made for fine company, too. To brave mysterious wilds in search of fish for your beloved\u2500the stakes turned out to be far higher than I realized.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_AKTKVA301_04789_SHALLOWMOOR_100_112",
+    "original": "In any event, while any \u201Cobligation\u201D to Matsya has arguably been met, I encourage you to aid him in his quest for new and exciting fish. Who knows what dazzling specimens are yet waiting to be discovered in the waters of Aloalo Island?",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_AKTKVA301_04789_SHALLOWMOOR_100_113",
+    "original": "Oh, and if you can spare a moment for Osmon, he will doubtless be eager to hear all about your experience as well.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_AKTKVA301_04789_SHALLOWMOOR_000_113",
+    "original": "Cheers to an odd job well done!",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_AKTKVA301_04789_SYSTEM_000_120",
+    "original": "The \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EAloalo Conservation Record\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is now available within the V\u0026C Dungeon Finder in the Duty section of the main menu.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_AKTKVA301_04789_SYSTEM_000_121",
+    "original": "New entries will be added to the log as you complete each possible route through the variant dungeon.",
+    "translation": ""
+  }
+}

@@ -1,0 +1,522 @@
+{
+  "0": {
+    "tag": "TEXT_JOBMCH680_02908_SEQ_00",
+    "original": "Hilda has a letter for you from Rostnsthal.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_JOBMCH680_02908_SEQ_01",
+    "original": "Hilda hands you a letter from Rostnsthal. The note informs you that the bandit leader\u0027s firearm is of Lominsan construction, and bids you travel to the maritime city to help investigate how the strictly regulated weapon ended up in the thief\u0027s hands. Make your way to the aetheryte plaza in Limsa Lominsa, and seek out your fellow instructor.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_JOBMCH680_02908_SEQ_02",
+    "original": "Rostnsthal has narrowed down the potential suppliers to a single merchant\u2500the very same trader who escaped the Hounds back in Boulder Downs. Find the black marketeer at the Anchor Yard, and aid Rostnsthal and Hilda with the interrogation.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_JOBMCH680_02908_SEQ_03",
+    "original": "After a healthy dose of intimidation from Rostnsthal, the merchant reveals the existence of a hidden bandit camp at Providence Point. Travel to the Coerthas central highlands, and track down the bandit leader.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_JOBMCH680_02908_SEQ_04",
+    "original": "You have located the bandit leader and defeated his beastly protectors. It is time to wring the full story from the cornered fugitive...",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_JOBMCH680_02908_SEQ_05",
+    "original": "After interrogating the bandit leader and learning the details of the theft, you become aware that the events leading to Hrunting\u0027s reclamation may have been deliberately orchestrated. Return to Ishgard, and raise your concerns with Ser Muscadain at the Congregation of Our Knights Most Heavenly.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_JOBMCH680_02908_SEQ_06",
+    "original": "Initially bemused by Hilda\u0027s unexpected visit, Ser Muscadain is nevertheless persuaded to release Hrunting to the manufactory for a more thorough examination. Her mission successful, Hilda bids you follow her back to the Brume.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_JOBMCH680_02908_SEQ_07",
+    "original": "Though somewhat surprised by Ser Muscadain\u0027s accommodating attitude, Hilda seems pleased to know that Lord Stephanivien will be examining the blade. You have naught to do now but await the chief machinist\u0027s report, and prepare to act against the true instigator of this crime...\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe next machinist quest will be available from Hilda upon reaching level 70.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_JOBMCH680_02908_TODO_00",
+    "original": "Speak with Rostnsthal in Limsa Lominsa.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_JOBMCH680_02908_TODO_01",
+    "original": "Speak with the black marketeer.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_JOBMCH680_02908_TODO_02",
+    "original": "Search for the bandit leader at Providence Point.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_JOBMCH680_02908_TODO_03",
+    "original": "Speak with the bandit leader.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_JOBMCH680_02908_TODO_04",
+    "original": "Speak with Ser Muscadain at the Congregation of Our Knights Most Heavenly.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_JOBMCH680_02908_TODO_05",
+    "original": "Speak with Hilda.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_000",
+    "original": "Where\u0027ve you been, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E? I\u0027ve been itchin\u0027 to open this letter from Rostnsthal, but he\u0027s addressed it to you. Come on, let\u0027s hear what he has to say!",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_JOBMCH680_02908_ROSTNSTHAL_000_001",
+    "original": "(-Letter from Rostnsthal-)\u003Chex:021A020203\u003EMystery solved. I took a good look at Naldiq \u0026 Vymelli\u0027s stock, and the firearm\u0027s one of theirs.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_JOBMCH680_02908_ROSTNSTHAL_000_002",
+    "original": "(-Letter from Rostnsthal-)\u003Chex:021A020203\u003ELimsa has some bloody strict regulations on the export of firearms, so our bandit chief must\u0027ve had a back-alley supplier.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_JOBMCH680_02908_ROSTNSTHAL_000_003",
+    "original": "(-Letter from Rostnsthal-)\u003Chex:021A020203\u003EGet your arse to Limsa Lominsa, and we\u0027ll find out who put that weapon in our thief\u0027s hands. I\u0027ll be at the aetheryte on the lower decks.\u003Chex:02100103\u003E\u003Chex:02100103\u003ERostnsthal\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_004",
+    "original": "So he\u0027s on the trail, then? Good. Just let me get my gear and we can be off.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_JOBMCH680_02908_SYMME_000_005",
+    "original": "Wha\u2500 You\u0027re going with \u003Chex:022C0DFF07022903EB0203FF02200203\u003E? Is that really a good idea...?",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_JOBMCH680_02908_EUDESTAND_000_006",
+    "original": "I\u0027m with Symme on this one, Hilda. If the leader of the Hounds starts pickin\u0027 quarrels on foreign soil, we could be lookin\u0027 at all sorts of trouble for Ishgard.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_007",
+    "original": "Ishgard\u0027s where the bloody trouble started! And since when have folk of the Brume been content to sit back and let others handle the dirty work!?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_008",
+    "original": "I\u0027m goin\u0027 and that\u0027s the end of it. But I promise I\u0027ll be on my best behavior!",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_JOBMCH680_02908_SYMME_000_009",
+    "original": "Once our Hilda sights her target, she\u0027s not one to question pulling the trigger...",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_JOBMCH680_02908_EUDESTAND_000_010",
+    "original": "There\u0027s no arguin\u0027 with Hilda when she gets like this. Usually we just try to watch her back, but that\u0027ll have to be your job while you\u0027re in Limsa.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_011",
+    "original": "Don\u0027t you listen to them two\u2500I\u0027m perfectly capable of bein\u0027 reasonable. And besides, I\u0027m sure Rostnsthal\u0027ll be glad to have me along!",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_012",
+    "original": "...What\u0027s that sour look for, then?",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_JOBMCH680_02908_ROSTNSTHAL_000_020",
+    "original": "What in the bloody hells is she doin\u0027 here? I put your bleedin\u0027 name on the letter an\u0027 all...",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_021",
+    "original": "I need to see this through; if I don\u0027t, then what\u0027re the Hounds good for? You\u0027ll just have to humor me.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_JOBMCH680_02908_ROSTNSTHAL_000_022",
+    "original": "I was aimin\u0027 to avoid political complications, seein\u0027 as \u003Chex:022C0DFF07022903EB0203FF02200203\u003E an\u0027 me ain\u0027t tied too tightly to any one nation... Yer just lucky I\u0027ve a soft spot for fools what ignore the risks to make a point.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_JOBMCH680_02908_ROSTNSTHAL_000_023",
+    "original": "Let\u0027s get to it, then. The bloke most likely to \u0027ave supplied that firearm is the same bastard what tried to buy the sword: our black marketeer friend.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_JOBMCH680_02908_ROSTNSTHAL_000_024",
+    "original": "If we\u0027re lucky, he might \u0027ave an idea o\u0027 where the brigand\u0027s run off to. I\u0027ve a mind to squeeze \u0027im until an answer pops out.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_025",
+    "original": "Aye, I\u0027d like to have a word or two with that bandit leader, myself. He\u0027s a loose end what needs tyin\u0027 up.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_JOBMCH680_02908_ROSTNSTHAL_000_026",
+    "original": "Then we\u0027re on the same page. Accordin\u0027 to me sources, we should find the merchant in the Anchor Yard\u2500let\u0027s get over there an\u0027 get this business over with.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_027",
+    "original": "As far as I\u0027m concerned, this ain\u0027t over till we\u0027ve got that bandit in chains. And I hate leavin\u0027 a job half-finished.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_028",
+    "original": "Good day to you, master merchant. How about we have us a little chat, eh?",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_JOBMCH680_02908_ROSTNSTHAL_000_029",
+    "original": "Ye ain\u0027t gettin\u0027 away this time, matey. Best start talkin\u0027 afore I start cuttin\u0027.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_JOBMCH680_02908_BLACKMARKETEER02908_000_030",
+    "original": "W-Well, if it isn\u0027t th-the...the Hounds, was it? What can a humble peddler such as myself do for Ishgard\u0027s finest?",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_JOBMCH680_02908_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_JOBMCH680_02908_A1_000_001",
+    "original": "Tell us where the bandit leader is hiding.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_JOBMCH680_02908_A1_000_002",
+    "original": "Help us capture the bandit leader.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_JOBMCH680_02908_BLACKMARKETEER02908_000_040",
+    "original": "For a man in my trade, no commodity is more valuable than discretion! If I were to disclose such information, my customers would cease to trus\u2500",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_JOBMCH680_02908_BLACKMARKETEER02908_000_050",
+    "original": "I am but a humble merchant. Surely I would be more hindrance than help in such an investig\u2500",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_JOBMCH680_02908_ROSTNSTHAL_000_060",
+    "original": "If yer not feelin\u0027 helpful, then maybe I should pay a visit to the Yellowjackets an\u0027 mention the firearm yer valued customer was usin\u0027. ...Or maybe I\u0027ll just skip straight to them as upholds the code.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_JOBMCH680_02908_BLACKMARKETEER02908_000_061",
+    "original": "N-Now let us not be too hasty! Mayhap I can make an exception in this case, in exchange for your silence regarding my, uh, trade in exotic weapons.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_JOBMCH680_02908_BLACKMARKETEER02908_000_062",
+    "original": "I believe the gentleman in question has a camp at Providence Point in the central highlands. That is where I would look.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_063",
+    "original": "Providence Point, eh? Well, it\u0027s a start.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_JOBMCH680_02908_ROSTNSTHAL_000_064",
+    "original": "If yer playin\u0027 us false, I\u0027ll be back to feed the crabs with yer lyin\u0027 tongue. In fact, if I ever \u0027ear o\u0027 ye dealin\u0027 in stolen goods again, ye can add a few more body parts to that list. Nice doin\u0027 business with ye.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_065",
+    "original": "More of them guard beasts came at me, but I put \u0027em down easily enough. Rostnsthal\u0027s drills must be payin\u0027 off.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_JOBMCH680_02908_ROSTNSTHAL_000_066",
+    "original": "These curs were trained. Seems our merchant was tellin\u0027 the truth about there bein\u0027 a camp \u0027ereabouts.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_JOBMCH680_02908_BLACKMARKETEER02908_000_067",
+    "original": "Never accept a deal from a client you know naught about! But that woman offered me so much gold, I ignored my own rule.\u003Chex:02100103\u003E\u003Csigh\u003E Mayhap it \u003Chex:021A020203\u003Eis\u003Chex:021A020103\u003E time I retired from this business...",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_JOBMCH680_02908_ROBBERLEADER02908_000_070",
+    "original": "What!? How did ye\u2500\u003Chex:02100103\u003EBah, ye\u0027ve signed yer own death warrant comin\u0027 here!",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_JOBMCH680_02908_ROBBERLEADER02908_000_080",
+    "original": "Gods, no! Ye\u0027ve killed me precious...",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_081",
+    "original": "I came runnin\u0027 when I heard the shots, but it seems you had things well in hand.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_JOBMCH680_02908_ROBBERLEADER02908_000_082",
+    "original": "Oh, bugger me, there\u0027s more of ye. Please, I\u0027ll do anythin\u0027 ye ask...just don\u0027t kill me!",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_JOBMCH680_02908_ROSTNSTHAL_000_083",
+    "original": "Stop yer blubberin\u0027, cur, we ain\u0027t goin\u0027 to kill ye...not just yet, anyroad. That\u0027ll depend on the answers ye give us.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_084",
+    "original": "Answers? What\u0027s he on about, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E?",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_JOBMCH680_02908_Q2_000_000",
+    "original": "What answer is Rostnsthal looking for?",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_JOBMCH680_02908_A2_000_001",
+    "original": "The reason behind Hrunting\u0027s theft.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_JOBMCH680_02908_A2_000_002",
+    "original": "The identity of the bandit\u0027s employer.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_090",
+    "original": "They wanted to sell it for coin, of cour\u2500 Ah. But then why only steal the sword, eh?",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_100",
+    "original": "Wait, it weren\u0027t that black market bloke? ...Hm, I guess he\u0027d have wanted more than just the sword, eh?",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_110",
+    "original": "Them other brigands we captured were bloody clueless. They only knew what the job was\u2500not the who or the why.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_JOBMCH680_02908_ROSTNSTHAL_000_111",
+    "original": "Meanin\u0027 the whole deal was made through this bastard. Start barkin\u0027, dog, an\u0027 ye might just save yer own \u0027ide.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_JOBMCH680_02908_ROBBERLEADER02908_000_112",
+    "original": "We...we was pirates once\u2500that is until the bitch Admiral passed her bloody law. Blokes like us, though, we ain\u0027t cut out for \u201Chonest\u201D work.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_JOBMCH680_02908_ROBBERLEADER02908_000_113",
+    "original": "We\u0027d almost drunk through the last of our plunder when that back-alley peddler showed up with some overpainted wench. Said she\u0027d a job for us.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_JOBMCH680_02908_ROBBERLEADER02908_000_114",
+    "original": "All we had to do was filch a special sword from the Holy See. Hah! For the purse she offered, we\u0027d have stolen the whole bleedin\u0027 vault.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_115",
+    "original": "And who was this woman?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_JOBMCH680_02908_ROBBERLEADER02908_000_116",
+    "original": "Part o\u0027 the deal was we didn\u0027t ask no questions. Even the merchant didn\u0027t know her real name. It was odd, aye, but we needed the coin an\u0027 I didn\u0027t rightly care either way.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_JOBMCH680_02908_ROBBERLEADER02908_000_117",
+    "original": "The job itself was easy as takin\u0027 a piss. She even paid for me to have a firearm to use, an\u0027 sent us down a route where we didn\u0027t see no guards\u2500though the gods only know how she managed that trick.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_JOBMCH680_02908_ROBBERLEADER02908_000_118",
+    "original": "All we did was follow her map, then shoot the locks on the vault. Walked in, grabbed the sword, walked out. Bold as ye please. The trouble came after the delivery was made...",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_JOBMCH680_02908_ROSTNSTHAL_000_119",
+    "original": "She gave the blade back to you.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_JOBMCH680_02908_ROBBERLEADER02908_000_120",
+    "original": "Aye. She sent for me again the day after. Pushed the sword back into me hand along with a sack full o\u0027 coin.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_JOBMCH680_02908_ROBBERLEADER02908_000_121",
+    "original": "Said she\u0027d made a mistake or summat, an\u0027 that I should sell the damn thing. Well, I ain\u0027t fool enough to try fencin\u0027 a relic like that on me own, so I went back to the merchant...",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_121",
+    "original": "You were fool enough not to properly burn your contract of sale. How do you think we found you the first time?",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_JOBMCH680_02908_ROBBERLEADER02908_000_122",
+    "original": "Contract o\u0027 sale? What in the hells are ye talkin\u0027 about? Ye think I\u0027d leave a deal like that in ink for the whole world to see!?",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_JOBMCH680_02908_ROSTNSTHAL_000_123",
+    "original": "...Things are startin\u0027 to make sense now. There\u0027s just one little problem with yer story.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_JOBMCH680_02908_ROBBERLEADER02908_000_124",
+    "original": "I\u0027ve told ye the truth, I swear! It was that wench what put us up to it!",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_JOBMCH680_02908_ROSTNSTHAL_000_125",
+    "original": "Aye, that bit I believe. What catches in me craw is her reason for handin\u0027 back the sword. That was no mistake. An\u0027 us findin\u0027 that contract o\u0027 sale this bastard says \u0027e never wrote was no mistake neither.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_126",
+    "original": "No...we was led by the nose to reclaim Hrunting before it was sold. And the quickest way to learn the why of it might be to ask the blade itself. Would you mind cartin\u0027 this piece of offal back to Ishgard, Rostnsthal?",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_127",
+    "original": "Come with me, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. We need to pay us a visit to Muscadain, and convince him to take a closer look at that sword.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_128",
+    "original": "To be honest, I ain\u0027t all that eager to talk to that blue-blooded bastard, but I suppose we all have to make sacrifices. Let\u0027s head over to the Congregation.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_JOBMCH680_02908_ROSTNSTHAL_000_129",
+    "original": "I\u0027ll take care o\u0027 this pissant; ye just concern yerself with inspectin\u0027 that sword.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_JOBMCH680_02908_ROBBERLEADER02908_000_130",
+    "original": "If it weren\u0027t for that witch Merlwyb an\u0027 her shite-eatin\u0027 law, I\u0027d still be sailin\u0027 free on the high seas...",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_JOBMCH680_02908_MUSCADAIN_000_140",
+    "original": "\u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, how may I...ah. You again. Was there some choice insult you\u0027d forgotten to spit at me during our previous meeting?",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_141",
+    "original": "Truce, Muscadain. I wouldn\u0027t be here if it weren\u0027t important.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_JOBMCH680_02908_MUSCADAIN_000_142",
+    "original": "I see. So you believe that Hrunting may have been altered in some fashion before you were \u201Callowed\u201D to reclaim it?",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_143",
+    "original": "It\u0027s a bit too bloody convenient, don\u0027t you think? Maybe I\u0027m wrong, but I\u0027d rather look the fool than risk summat happenin\u0027 at the ceremony. We need to check that sword!",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_JOBMCH680_02908_MUSCADAIN_000_144",
+    "original": "I must admit, your passion confounds me. The blade is recovered and your Hounds have done their duty. Why bother pursuing such a faint suspicion? Why willingly endure the presence of a man you so clearly despise?",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_145",
+    "original": "Oh, aye, I hate your bleedin\u0027 guts. But once we take on a job, we do the damn thing right!",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_146",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E gave \u003Chex:02080DE905FF04686572FF0468697303\u003E all to save Ishgard. How could I look \u003Chex:02080DE905FF04686572FF0468696D03\u003E in the eye if I let our petty feud get in the way of my duty!",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_JOBMCH680_02908_MUSCADAIN_000_149",
+    "original": "...Such pride. I\u0027ve not seen this side of you before.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_JOBMCH680_02908_MUSCADAIN_000_150",
+    "original": "It is as you say. If there truly is some flaw or trickery in the blade that disrupts the ceremony, the consequences could be grave indeed.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_JOBMCH680_02908_MUSCADAIN_000_152",
+    "original": "And yet there are rules in place which prevent me from simply handing Hrunting over to the Hounds. Furthermore, our resident blacksmith has already inspected the recovered weapon and declared it sound.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_153",
+    "original": "Even so, we should\u2500",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_JOBMCH680_02908_MUSCADAIN_000_154",
+    "original": "Even so, I will call upon Lord Stephanivien to conduct an independent examination. A machinist may notice a detail that a blacksmith would overlook. I trust this can be accomplished with the requisite discretion?",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_JOBMCH680_02908_MUSCADAIN_000_155",
+    "original": "Very good. As far as the release of Hrunting is concerned, the manufactory is a sanctioned facility. The bureaucrats will be satisfied even should I secure the necessary permissions after the fact. I shall begin making the arrangements.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_156",
+    "original": "Well...that\u0027s that, then. Let\u0027s get back to the Brume and tell the news to Rostnsthal.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_JOBMCH680_02908_SYMME_000_157",
+    "original": "Back then, are you? I don\u0027t rightly know what the story was with that sword, but Hilda seems happy with what we did...and that\u0027s good enough for me!",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_JOBMCH680_02908_EUDESTAND_000_158",
+    "original": "Lord Stephanivien will get to the bottom of this, you see if he doesn\u0027t. Best thing we can do is get back to our drills and leave him to it.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_JOBMCH680_02908_ROSTNSTHAL_000_159",
+    "original": "Keep one \u0027and near yer weapon, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Me gut says this business ain\u0027t over by a long shot...",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_160",
+    "original": "Muscadain\u0027s not known for his love of the lowborn. I didn\u0027t expect he\u0027d just... I thought I\u0027d have to put up more of a fight, is what I\u0027m sayin\u0027.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_161",
+    "original": "Well, the sword\u0027s with the manufactory now, so I\u0027ve no complaints\u2500that\u0027s where I\u0027d meant to take it in the first place. Now we wait.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_JOBMCH680_02908_HILDA_000_162",
+    "original": "But don\u0027t get too comfortable, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Things are sure to come to a head soon enough...",
+    "translation": ""
+  }
+}

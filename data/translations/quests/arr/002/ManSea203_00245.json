@@ -1,0 +1,447 @@
+{
+  "0": {
+    "tag": "TEXT_MANSEA203_00245_SEQ_00",
+    "original": "Baderon, the proprietor of the Drowning Wench, has need of a capable adventurer.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_MANSEA203_00245_SEQ_01",
+    "original": "Baderon and Commodore Reyner have requested your assistance with an investigation. A strange ship has been sighted off the coast of Aleport, and the subsequent appearance of a dangerous-looking group of men at the Sastasha Seagrot has the Yellowjackets greatly concerned. Speak with V\u0027mellpa at the ferry docks on the lower decks, and receive directions to the location of the caves.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_MANSEA203_00245_SEQ_02",
+    "original": "V\u0027mellpa has suggested that you pay a visit to the Hall of the Novice before continuing your journey to Sastasha. Make your way to the Adventurers\u0027 Guild building located north of Aleport, and speak with the seasoned adventurer.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_MANSEA203_00245_SEQ_03",
+    "original": "You have concluded your educational visit to the Hall of the Novice. Continue on to the north, and speak with the Yellowjacket stationed outside the entrance to Sastasha.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_MANSEA203_00245_SEQ_04",
+    "original": "The Yellowjackets are concerned that the unsavory-looking men seen entering Sastasha may belong to the Serpent Reavers, the pirate allies of the Sahagin. Search the caves and ascertain whether or not such suspicions are well founded.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BChallenge Sastasha with other players via the Duty Finder, or with a party of NPCs via Duty Support. Both systems are accessible from the main menu as well as the dungeon\u0027s entrance point.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_MANSEA203_00245_SEQ_05",
+    "original": "You have discovered a pirate den in the depths of Sastasha. Just as the Yellowjackets feared, it would appear the Serpent Reavers and their Sahagin masters are using the caves as a base for their nefarious operations. Return to Limsa Lominsa without delay, and report your findings to Baderon at the Drowning Wench.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_MANSEA203_00245_SEQ_06",
+    "original": "Having listened to your findings, Baderon expresses his satisfaction with your work, and mentions another task which might be of interest to you. It seems the Adventurers\u0027 Guild in Gridania wishes to employ the services of a seasoned adventurer. Prepare your gear, then speak with Baderon when you are ready to embark on the next stage of your journey.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_MANSEA203_00245_TODO_00",
+    "original": "Speak with V\u0027mellpa.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_MANSEA203_00245_TODO_01",
+    "original": "Speak with the seasoned adventurer at the Hall of the Novice.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_MANSEA203_00245_TODO_02",
+    "original": "Speak with the Yellowjacket at the entrance to Sastasha.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_MANSEA203_00245_TODO_03",
+    "original": "Enter Sastasha.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_MANSEA203_00245_TODO_04",
+    "original": "Speak with Baderon at the Drowning Wench.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_MANSEA203_00245_SYSTEM_100_000",
+    "original": "To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select \u201CAbandon.\u201D",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_MANSEA203_00245_BADERON_000_5",
+    "original": "I thank ye fer takin\u0027 the time to \u0027elp me out. Now, I\u0027m sure yer busy, so I\u0027ll come straight to the point.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_MANSEA203_00245_BADERON_000_6",
+    "original": "Word \u0027as it some suspicious-lookin\u0027 buggers \u0027ave been sneakin\u0027 in an\u0027 out o\u0027 the Sastasha Seagrot, an\u0027 I need a trustworthy sort to \u0027ead up north of Aleport an\u0027 find out who they are an\u0027 what they\u0027re up to.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_MANSEA203_00245_BADERON_000_7",
+    "original": "Don\u0027t sound like much, I know...",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_MANSEA203_00245_BADERON_000_8",
+    "original": "But since that nasty business over in Swiftperch, folk\u0027ve been a bit uneasy. Well, I say \u201Ca bit\u201D... \u0027Tis all they can do not to soil \u0027emselves every time the bloody floorboards creak.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_MANSEA203_00245_BADERON_000_9",
+    "original": "But it weren\u0027t so long ago as the fishbacks\u0027 pet pirates paid us an unwelcome visit, an\u0027 folk are feelin\u0027 a bit nervous.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_MANSEA203_00245_REYNER_000_10",
+    "original": "If you would permit me, Master Baderon, I should be happy to elaborate.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_MANSEA203_00245_BADERON_000_11",
+    "original": "Well, well, if it ain\u0027t the chief Yellowjacket \u0027imself. To what do I owe this rare honor, Commodore Reyner? Come to make sure me patrons are behavin\u0027\u2500or just thirsty?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_MANSEA203_00245_REYNER_000_12",
+    "original": "Neither, in fact. I came to welcome \u003Chex:022C0DFF07022903EB0203FF02200203\u003E back to Limsa Lominsa. It is well you have returned.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_MANSEA203_00245_REYNER_000_13",
+    "original": "Neither, in fact. I was informed that you had requested an adventurer to assist in my investigation, and I came to offer what information I could sift from recent reports.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_MANSEA203_00245_REYNER_000_14",
+    "original": "Over the course of the past moon, there have been several sightings of an unfamiliar vessel off the coast of Aleport, in the vicinity of the Isles of Umbra.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_MANSEA203_00245_REYNER_000_15",
+    "original": "This information came to my attention no more than a few weeks after a squad of my own soldiers had completed a routine patrol of the region, the Sastasha Seagrot included.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_MANSEA203_00245_REYNER_000_16",
+    "original": "Their search revealed little, save that a family of coeurls had taken up residence in the caves. Nothing to concern us, in short.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_MANSEA203_00245_REYNER_000_17",
+    "original": "In light of recent developments, however, it would seem wise to search Sastasha again.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_MANSEA203_00245_REYNER_000_18",
+    "original": "But with the Sahagin testing our defenses daily, I am loath to assign the task to the limited forces at my disposal. Our line is stretched as it is.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_MANSEA203_00245_REYNER_000_19",
+    "original": "Thus I sought the services of a competent adventurer to conduct an investigation in our stead. Any aid you can offer in this matter would be greatly appreciated.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_MANSEA203_00245_REYNER_000_20",
+    "original": "Then it is settled.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_MANSEA203_00245_REYNER_000_21",
+    "original": "Sastasha is located in western La Noscea. For more detailed instructions on how to reach the place, I suggest you consult V\u0027mellpa. She can be found at the ferry docks on the lower decks.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_MANSEA203_00245_BADERON_000_22",
+    "original": "You \u0027eard the man! Good luck to ye, \u003Chex:02080EE905FF056C617373FF046C616403\u003E!",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_MANSEA203_00245_VMELLPA_000_25",
+    "original": "You\u0027re here about Commodore Reyner\u0027s investigation? Then you\u0027ll want to board a ferry bound for Aleport.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_MANSEA203_00245_VMELLPA_000_26",
+    "original": "Once you arrive in western La Noscea, though, you\u0027d best pay a visit to the Hall of the Novice before you blunder into Sastasha.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_MANSEA203_00245_VMELLPA_100_26",
+    "original": "The Adventurers\u0027 Guild runs the Hall, and the folk there will prepare you\u2500train you with the skills you\u0027ll need to face the dangers undoubtedly waiting for you in the Seagrot.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_MANSEA203_00245_VMELLPA_100_27",
+    "original": "The Hall is on the way to Sastasha, just north of Aleport. Head inside and one of their seasoned adventurers will take you in hand. Best of luck to you, friend!",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_MANSEA203_00245_VMELLPA_000_27",
+    "original": "No matter what they\u0027ve told you, be ready for pirates. There\u0027s never any shortage of the bastards. This \u003Chex:021A020203\u003Eis\u003Chex:021A020103\u003E Limsa Lominsa we\u0027re talking about...",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_MANSEA203_00245_AIDE00675_100_30",
+    "original": "Ah, you must be the adventurer of whom the Yellowjackets sent word. I hear you are to brave the depths of the Sastasha Seagrot.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_MANSEA203_00245_AIDE00675_100_31",
+    "original": "The occupants of those caves are rumored to be as numerous as they are bloodthirsty. No matter what the epic tales would have you believe, strolling into such a den of savagery alone would be the height of foolishness. No, you shall need companions.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_MANSEA203_00245_AIDE00675_100_32",
+    "original": "And you shall need the training we here at the Hall of the Novice can provide! I strongly suggest that you study the fundamentals of group combat before continuing on your mission.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_MANSEA203_00245_AIDE00675_101_32",
+    "original": "The Smith here oversees the training schedules. Speak with him, and you can register for exercises tailored to your particular field of expertise.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_MANSEA203_00245_AIDE00675_100_33",
+    "original": "When you have mastered all that our masters have to teach, then it will be time to head north once more. Report to the Yellowjacket scout at the mouth of the Sastasha Seagrot, and he will furnish you with the details of your duty.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_MANSEA203_00245_AIDE00675_100_34",
+    "original": "When your skills have been honed and your mind sharpened, continue onwards to the north. The Yellowjacket scout stationed before the Sastasha Seagrot will have the details of your mission.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_MANSEA203_00245_YELLOWJACKET_000_30",
+    "original": "Please tell me you\u0027re here on Yellowjacket duty, and not some daft sod out for a stroll. I can\u0027t take any more of this blasted waiting. You are? Thank the gods.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_MANSEA203_00245_YELLOWJACKET_000_31",
+    "original": "I assume you already know about the ship seen slipping around the Isles of Umbra?",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_MANSEA203_00245_YELLOWJACKET_000_32",
+    "original": "We\u0027ve been on the lookout for pirate activity ever since that vessel was sighted, thinking a crew of cutthroats might have a den nearby.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_MANSEA203_00245_YELLOWJACKET_000_33",
+    "original": "So when we received word that men of questionable quality had been seen passing in and out of Sastasha here, we weren\u0027t entirely surprised.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_MANSEA203_00245_YELLOWJACKET_000_34",
+    "original": "I\u0027ve yet to see them for myself, but if this lot belongs to those fishback-fancying Serpent Reavers...",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_MANSEA203_00245_YELLOWJACKET_000_35",
+    "original": "Well, you can imagine the panic it\u0027ll cause. The kidnappings are still fresh in people\u0027s minds.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_MANSEA203_00245_YELLOWJACKET_000_36",
+    "original": "Anyway, your task is to poke around in the caves, and find out exactly who we\u0027re dealing with. While you do that, I\u0027ll be keeping watch out here...praying you don\u0027t spot any blue face tattoos.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_MANSEA203_00245_SYSTEM_000_37",
+    "original": "Enter Sastasha.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_MANSEA203_00245_AVERE_000_40",
+    "original": "What took ye so bloody long, Edda? If me purse was too light, ye might\u0027ve considered usin\u0027 some of yer own bleedin\u0027 coin to get us what we need!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_MANSEA203_00245_AVERE_000_41",
+    "original": "Ye\u0027ve only ever been as useful as the contents o\u0027 yer pockets\u2500the gods know ye can barely \u0027eal a scratch!",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_MANSEA203_00245_AVERE_000_42",
+    "original": "We took up the \u0027venturin\u0027 life to take on the big jobs an\u0027 claim the big rewards. How\u0027re we meant to do that if ye can\u0027t even get our supplies in order?",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_MANSEA203_00245_AVERE_000_43",
+    "original": "Hm? It\u0027s \u003Chex:021A020203\u003E\u003Chex:02080DE905FF04276572FF0427696D03\u003E\u003Chex:021A020103\u003E\u2500the one Baderon was talkin\u0027 to!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_MANSEA203_00245_AVERE_000_44",
+    "original": "Well, we\u0027ll see who gets the glory! This job should\u0027ve been ours in the first place!",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_MANSEA203_00245_LIAVINNE_000_50",
+    "original": "Bwahahaha! Edda, you\u0027re so slow, you\u0027d lose a footrace to a tree slug.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_MANSEA203_00245_PAIYOREIYO_000_55",
+    "original": "This is perfect for our inaugural outing as a party\u2500wandering around in the caves, turning over a few rocks... How difficult could it possibly be?",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_MANSEA203_00245_PAIYOREIYO_000_56",
+    "original": "I never expected our first visit to the Adventurers\u0027 Guild would yield such a straightforward way to win fame and fortune.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_MANSEA203_00245_EDDA_000_60",
+    "original": "\u003Cgasp\u003E I-I\u0027m sorry, Avere! I came as fast as I could!",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_MANSEA203_00245_EDDA_000_61",
+    "original": "I tried haggling with the merchant, but two potions was the best I could get with the money you gave me. I had no idea how \u003Chex:021A020203\u003Eexpensive\u003Chex:021A020103\u003E they were!",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_MANSEA203_00245_ISILDAURE_000_65",
+    "original": "Ah, a fellow adventurer. You, too, are here to unravel the mysteries of Sastasha?",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_MANSEA203_00245_ISILDAURE_000_66",
+    "original": "I have adventured across this wide realm for more seasons than I dare to count, yet still Eorzea manages to surprise me with her beauty and splendor.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_MANSEA203_00245_ISILDAURE_000_67",
+    "original": "Our journeys are not ended by the attainment of riches or fame. It is an unquenchable thirst for the unknown that drives us into the wilds time and again.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_MANSEA203_00245_ISILDAURE_000_68",
+    "original": "Even if I explored the world for a thousand years, I would never grow weary of this life.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_MANSEA203_00245_ALIANNE_000_70",
+    "original": "Grandfather and I are companions on the road.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_MANSEA203_00245_ALIANNE_000_71",
+    "original": "We travel where the wind takes us, and drink in all the wonders this world has to offer.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_MANSEA203_00245_ALIANNE_000_72",
+    "original": "Only an adventurer can understand the joy of such freedom\u2500of discovering hidden places and experiencing sights and sounds that few may ever know.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_MANSEA203_00245_ALIANNE_000_73",
+    "original": "The passing years have begun to take their toll on the old man, but no force save death itself will sate his appetite for adventure!",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_MANSEA203_00245_YELLOWJACKET_000_75",
+    "original": "The fishbacks and their Serpent Reaver lackeys cannot be allowed to establish a permanent base in these lands.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_MANSEA203_00245_YELLOWJACKET_000_76",
+    "original": "You must uncover the truth behind who or what is lurking in these caves, adventurer. The peace of western La Noscea may depend on it!",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_MANSEA203_00245_BADERON_000_80",
+    "original": "Aye, such a task was on the books. \u201CWas,\u201D mind. I\u0027m afraid that ship \u0027as already sailed, friend.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_MANSEA203_00245_DOLOROUSBEAR_000_81",
+    "original": "Ah. Might you be the adventurer who accepted the job of investigating Sastasha?",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_MANSEA203_00245_DOLOROUSBEAR_000_82",
+    "original": "Hmph. It would seem that ship has not only sailed, but now returns to harbor, none the worse for its voyage. A pity. We dragged our boots too long on this one.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_MANSEA203_00245_EMANAFA_000_83",
+    "original": "No matter. The wheel will turn and our chance will come.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_MANSEA203_00245_DOLOROUSBEAR_000_84",
+    "original": "You are right, of course. But there shall be no rest till we have attained our goal, lofty though it may be!",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_MANSEA203_00245_KIKINA_000_85",
+    "original": "Not a wink of sleep, great leader!",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_MANSEA203_00245_DOLOROUSBEAR_000_86",
+    "original": "Our aim, lest you wonder, is to perform such feats of heroism as will earn us a place in the songs of every alehouse in Eorzea. We mean to write a legend which will inspire adventurers as yet unborn to follow our shining example.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_MANSEA203_00245_DOLOROUSBEAR_000_87",
+    "original": "Do you have such a goal? Large or small, it matters not. Only have a star to reach for and you \u003Chex:021A020203\u003Ewill\u003Chex:021A020103\u003E reach higher.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_MANSEA203_00245_DOLOROUSBEAR_000_88",
+    "original": "Purpose can sustain you through times of hardship. Keep your eye on the prize, and all obstacles will be overcome in time.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_MANSEA203_00245_DOLOROUSBEAR_000_89",
+    "original": "You would not think to stride into battle unclad, would you? Well, goals are as arms and armor for the spirit! I wish you fortune in your endeavors, \u003Chex:020810E905FF076D696C616479FF0473697203\u003E!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_MANSEA203_00245_BADERON_000_90",
+    "original": "Back then, are ye? With all yer limbs, an\u0027 a tale to tell, I\u0027ll wager.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_MANSEA203_00245_BADERON_000_91",
+    "original": "Fishbacks? An\u0027 there I was thinkin\u0027 ye\u0027d only \u0027ave to crack a pirate skull or three. Seven hells... Ye turn yer back fer five bloody minutes, an\u0027 the scaly bastards\u0027ve set up shop on yer bleedin\u0027 doorstep...",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_MANSEA203_00245_BADERON_000_92",
+    "original": "Still, sounds like ye left \u0027em in pieces, so I don\u0027t s\u0027pose they\u0027ll be carryin\u0027 out whatever mischief they was plannin\u0027\u2500unless they was plannin\u0027 on feedin\u0027 \u0027emselves to the fauna o\u0027 Sastasha, o\u0027 course. Anyroad, all\u0027s well that ends well!",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_MANSEA203_00245_BADERON_000_93",
+    "original": "Thanks fer sheddin\u0027 some light on this mystery. I knew ye\u0027d get the job done, \u003Chex:02080EE905FF056C617373FF046C616403\u003E\u2500ye always do!",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_MANSEA203_00245_BADERON_000_94",
+    "original": "On behalf o\u0027 Limsa, I thank ye fer sheddin\u0027 some light on this mystery. Ye\u0027ve lived up to yer reputation, an\u0027 I couldn\u0027t ask fer no more\u0027n that.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_MANSEA203_00245_BADERON_000_95",
+    "original": "Now, I\u0027ll bet yer dyin\u0027 fer a rest, but just in case yer not, I was wonderin\u0027 if ye might be interested in takin\u0027 on another job? It just so \u0027appens that I\u0027ve \u0027ad a request from our sister guild in Gridania, see.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_MANSEA203_00245_BADERON_000_96",
+    "original": "Seems the forest folk\u0027re in need of a \u0027venturer what can get things done.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_MANSEA203_00245_BADERON_000_97",
+    "original": "Fer them to ask fer \u0027elp like this, ye can bet the task won\u0027t be no skip through a sunny glade. But after the way ye dealt with our fishback infestation, I doubt it\u0027s anythin\u0027 ye can\u0027t \u0027andle.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_MANSEA203_00245_BADERON_000_98",
+    "original": "Give us a shout when yer ready, an\u0027 I\u0027ll lay it out fer ye.",
+    "translation": ""
+  }
+}

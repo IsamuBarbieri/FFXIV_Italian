@@ -1,0 +1,617 @@
+{
+  "0": {
+    "tag": "TEXT_FESXMS401_03173_SEQ_00",
+    "original": "Amh Garanjy has need of a little helper, and who is more helpful than you?\u003Chex:02100103\u003E\u203BThis quest is available for a limited time only.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_FESXMS401_03173_SEQ_01",
+    "original": "The Starlight Celebration once again descends upon Gridania, with Amh Garanjy leading the festivities. This year, she plans to incorporate traditional Ishgardian choral singing, with presents distributed to children following the performance. Maisenta of Black Rabbit Traders has kindly offered to secure the services of a band of musicians, but little has been heard from her since. Amh Garanjy asks that you visit Maisenta at her stall to ascertain whether the concert preparations are proceeding as planned or have been beset by unforeseen difficulties.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_FESXMS401_03173_SEQ_02",
+    "original": "Thankfully, it soon becomes clear that Maisenta has not forgotten about her promise to assist with the Starlight Celebration. On the other hand, she appears to have serious reservations about discussing the matter openly, and requests that the conversation be taken to a more secluded location.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_FESXMS401_03173_SEQ_03",
+    "original": "Maisenta introduces you to the Homunculi, the musicians who will be gracing the Starlight Celebration. As talented as they are, their lack of familiarity with Ishgardian choral music led them to seek the aid of a composer, rather than attempt to write the songs themselves. Unfortunately for them, the manuscripts they received state that two female and two male singers are required, with highly specific\u2500not to mention extremely cryptic\u2500instructions as to the tone of their voices. Since there is little time to search for experienced female vocalists, it is decided that Maisenta and Amh Garanjy will fill the roles, with Augustiniel of the Homunculi assigned as one of the two males. In addition to choosing members for the choir, it seems that Maisenta has need of someone to collect a conductor\u0027s baton from the Carpenters\u0027 Guild and an order of choir surplices from the Weavers\u0027 Guild. Since Maisenta and the Homunculi are otherwise engaged, you are left as the only available candidate for the task.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_FESXMS401_03173_SEQ_04",
+    "original": "Timbermaster Beatin has prepared an exquisitely whittled conductor\u0027s baton for use in the concert, while Redolent Rose of the Weavers\u0027 Guild has gone above and beyond the call of duty by producing even more choir surplices than requested. Both guildmasters reveal that Maisenta appears to have an excess of coin at her disposal, and has no qualms about investing it in her precious Homunculi. With the expensive wares safely in your possession, you make for Mih Khetto\u0027s Amphitheatre.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_FESXMS401_03173_SEQ_05",
+    "original": "Amh Garanjy expresses bemusement when you arrive to deliver the conductor\u0027s baton and choir surplices, and it soon becomes clear that Maisenta has neglected to share her plans with the Starlight celebrant. When Maisenta and the Homunculi arrive, they have another surprise in store for Amh Garanjy: She has been selected\u2500without her knowledge\u2500as a member of the choir. Maisenta pays little heed to Amh Garanjy\u0027s initial reluctance and quickly moves on to the topic of the final member. The discussion is over almost as soon as it begins with the arrival of Baenfaeld, a hulking Roegadyn with a voice so deep one might mistake it for the lowing of an immense aurochs. Thankfully, he agrees to join the choir with only minimal persuasion required. Now that all four members have been chosen, Amh Garanjy reminds the group that they still have a conductor\u0027s baton without an owner. Once again, you demonstrate a knack for being in the wrong place at the wrong time, and find yourself involuntarily volunteered for the role of directing the performance.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_FESXMS401_03173_TODO_00",
+    "original": "Speak with Maisenta.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_FESXMS401_03173_TODO_01",
+    "original": "Wait for Maisenta outside the Leatherworkers\u0027 Guild.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_FESXMS401_03173_TODO_02",
+    "original": "Speak with Beatin at the Carpenters\u0027 Guild in New Gridania.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_FESXMS401_03173_TODO_03",
+    "original": "Speak with Redolent Rose at the Weavers\u0027 Guild in Ul\u0027dah.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_FESXMS401_03173_TODO_04",
+    "original": "Deliver the conductor\u0027s baton and choir surplices to Amh Garanjy.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_FESXMS401_03173_AMHGARANJY_000_000",
+    "original": "Ah, \u0027tis always a joy to welcome a new face. I am a Starlight celebrant, and you must be...an adventurer in search of festive cheer, correct?",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_FESXMS401_03173_AMHGARANJY_000_001",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E! How wonderful to see you! I just knew you\u0027d be joining us again this year.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_FESXMS401_03173_AMHGARANJY_000_002",
+    "original": "We have lots of surprises in store, especially for the little ones. The Starlight Celebration wouldn\u0027t be complete without the beaming smiles of all those darling children!",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_FESXMS401_03173_AMHGARANJY_000_003",
+    "original": "One of said surprises will involve a tradition from the frozen climes of Ishgard. A little snow makes the world glisten and sparkle, but too much can be ever so dangerous, as the Ishgardians know all too well. That is why the adults offer song to the Saint of Nymeia, so that he may keep the blizzards at bay.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_FESXMS401_03173_AMHGARANJY_000_004",
+    "original": "While the weather here in Gridania is nowhere near as inclement as that, a festive song like that would make the proceedings even more memorable. And when the singing is over, we\u0027ll give each child in the audience a present!",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_FESXMS401_03173_AMHGARANJY_000_005",
+    "original": "Luckily, several local businesses have agreed to fund all this merrymaking. Are you familiar with Maisenta of Black Rabbit Traders, by any chance? She has been particularly eager to lend us a hand.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_FESXMS401_03173_AMHGARANJY_000_006",
+    "original": "From the decorations to the costumes, there is scarcely an aspect of the celebrations in which she \u003Chex:021A020203\u003Ehasn\u0027t\u003Chex:021A020103\u003E been involved.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_FESXMS401_03173_AMHGARANJY_000_007",
+    "original": "In fact, she has even agreed to arrange the musicians who will be singing here at Mih Khetto\u0027s Amphitheatre. The only trouble is, I haven\u0027t seen her for a while and I worry that she may have encountered...complications.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_FESXMS401_03173_AMHGARANJY_000_008",
+    "original": "Now, I\u0027m sure there is nothing to worry about, but I would be ever so grateful if you could speak with her. Perhaps politely remind her that the success of the Starlight Celebration hangs in the balance?",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_FESXMS401_03173_AMHGARANJY_000_009",
+    "original": "I\u0027m dreadfully sorry to impose on you like this, but we are up to our baubles in tasks that simply cannot wait. Could you do me this one teensy favor?",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_FESXMS401_03173_AMHGARANJY_100_009",
+    "original": "Oh, that\u0027s terrific! She\u0027s probably at her stall near the aetheryte plaza.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_FESXMS401_03173_AMHGARANJY_000_010",
+    "original": "I do hope Maisenta hasn\u0027t experienced any \u201Ccreative differences\u201D with these musicians of hers. Artistic types are notoriously hard to work with, but I expect she knows how to keep them in line!",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_020",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, how lovely to see you! And might I say, seldom does a day go by that I do not think of the way you saved my precious Homunculi from the Baert Trading Company.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_021",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, how lovely to see you! And yes, not only am I a staunch supporter of Hatching\u003Chex:021F0103\u003Etide, but the Starlight Celebration as well.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_022",
+    "original": "Come to feast your eyes on my wares, have you? Or is there something you would like to discuss?",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_023",
+    "original": "Well, it was never my intention to keep Amh Garanjy waiting.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_024",
+    "original": "I will happily explain everything, as soon as we take this conversation somewhere a little more...private. Might I suggest the secluded area by the Leatherworkers\u0027 Guild?",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_025",
+    "original": "Please excuse my need for secrecy, but the preparations for the festival have reached a crucial stage, and I cannot risk any outside interference\u2500especially not of the female variety. All will become clear, I assure you.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_FESXMS401_03173_AMHGARANJY_000_026",
+    "original": "Maisenta wants to meet you somewhere secluded? Hmm... Are you sure this is about the Starlight Celebration? I can\u0027t imagine organizing a few songs would warrant this level of secrecy...",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_030",
+    "original": "Thank you for agreeing to meet me here. I\u0027m on good terms with Guildmaster Geva and she lets me use this space for...well, that\u0027s a story for another time. Or perhaps never.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_100_030",
+    "original": "Naturally, a quiet spot like this is ideal for avoiding unwanted attention, while the guard\u2500who has been asked to turn a blind eye\u2500is an effective deterrent to any would-be eavesdroppers. ",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_031",
+    "original": "As I am sure you know, the Homunculi cause a stir wherever they go, and I need them focused on the task at hand. It\u0027s strange to think that without your intervention all those moons ago, they would have escaped my clu\u2500ahem\u2500would have been lost to me forever, and here we all are, reunited.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_032",
+    "original": "You will no doubt be pleased to hear that since the last time you saw them, my honey-tongued musical geniuses have been touring the breadth of the realm. Naturally, Black Rabbit Traders continue to enjoy a profitable relationship with Eorzea\u0027s most beloved traveling bards.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_033",
+    "original": "I expect you remember the Homunculi from Hatching\u003Chex:021F0103\u003Etide all those years ago. Or maybe you\u0027ve seen them delighting crowds and stealing hearts while on your travels?",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_034",
+    "original": "We of Black Rabbit Traders are more than happy to cover their expenses provided that they perform dressed in our wares. I can only hope that their post-concert proclivities do nothing to endanger our reputation...",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_035",
+    "original": "It gives me great pleasure to introduce the Homunculi, the greatest musical sensation the realm has ever known. While I am not one to boast, I should point out that I played no small part in bringing them and my organization, Black Rabbit Traders, together in a mutually beneficial partnership.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_036",
+    "original": "We cover their expenses while they promote our fine range of fashionable attire as they enchant hoards of besotted onlookers. Although I should warn you\u2500any rumors of them siring a string of bastards across Eorzea are entirely unfounded. Well, mostly unfounded.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_037",
+    "original": "Of course, it won\u0027t do to have this conversation interrupted by legions of squealing followers, hence our current venue. As for their role in the Starlight Celebration, I jumped at the chance to have them take center stage.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_038",
+    "original": "Admirers will flock from malms around for the chance to see the Homunculi and their new, specially prepared material.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_039",
+    "original": "I can picture it now... The dulcet tones of my beautiful bards filling the ears of festival-goers young and old, with Black Rabbit Traders making gil hand over fist from all of the garments we sell.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_040",
+    "original": "And what\u0027s more, the presence of such renowned artists will raise the profile of the celebration, meaning that Amh Garanjy and her Starlight celebrants will have even more reason to be cheerful.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_041",
+    "original": "All that remains is for the Homunculi to fulfill their part of the bargain, and put together a few songs for the concert itself. Therein lies the problem.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_FESXMS401_03173_OSCARLET_000_042",
+    "original": "Were this any other performance, we would mesmerize the crowds with a few favorites from our repertoire, such as \u201CFair Lady, Return My Breeches\u201D or \u201CHey Nonny, Nonny, Maiden Most Bonny.\u201D Fearing that such material may not be...appropriate, we thought it best to work on some new pieces.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_FESXMS401_03173_AUGUSTINIEL_000_043",
+    "original": "But this occasion calls for traditional Ishgardian music, whereas we weave our entrancing melodies in the classic Gridanian style. To better fulfill the needs of the Starlight Celebration, we sought the aid of an Ishgardian composer.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_FESXMS401_03173_AUGUSTINIEL_000_044",
+    "original": "Upon taking receipt of the manuscripts, however, we found that they were written for a mixed choir. Four singers, two male and two female. It does not take a musical aficionado to appreciate that the Homunculi are ill-equipped for such a performance.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_FESXMS401_03173_ORSELFAUXL_000_045",
+    "original": "To make matters worse, there simply isn\u0027t time to have the pieces rewritten. We are well and truly out of our element, like proverbial babes in the wood. Whatever will we do?",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_046",
+    "original": "All of this moping is getting us nowhere! Are you professionals or not? ",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_047",
+    "original": "What we need are solutions, and fast. First of all, let us select our vocalists.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_048",
+    "original": "Luckily, the composer has provided instructions on the kind of voices required to carry the melody. Though I must admit, I can make neither head nor tail of these notes.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_049",
+    "original": "One of the female voices must be \u201Cas uplifting as birdsong on a crisp winter\u0027s morning,\u201D and the other \u201Cephemeral as a zephyr across a sun-dappled stream.\u201D For the males, \u201Creminiscent of a mighty oak\u0027s outstretched boughs\u201D and \u201Cdeep and cavernous as the bowels of the earth.\u201D",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_050",
+    "original": "We have to start our search somewhere I suppose.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_051",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, perhaps you can help.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_052",
+    "original": "Can you think of anyone who possesses a voice \u201Cas uplifting as birdsong on a crisp winter\u0027s morning?\u201D",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_FESXMS401_03173_Q1_000_000",
+    "original": "Who will you suggest?",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_FESXMS401_03173_A1_000_001",
+    "original": "Amh Garanjy.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_FESXMS401_03173_A1_000_002",
+    "original": "Fufucha of the Botanists\u0027 Guild.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_FESXMS401_03173_A1_000_003",
+    "original": "A chocobo.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_055",
+    "original": "Why hadn\u0027t I thought of that? If the cheerful manner in which she speaks is any indication, her singing voice may be exactly what we are looking for.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_056",
+    "original": "Being a Starlight celebrant, she can hardly refuse. I daresay you\u0027ve found the perfect candidate.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_057",
+    "original": "Hmm...I can picture her being able to carry a tune. But wouldn\u0027t her duties as guildmaster take priority?",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_058",
+    "original": "Thank you for the suggestion, though. I was actually planning to ask Amh Garanjy, mainly because she is the person least likely to refuse.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_059",
+    "original": "A chocobo!? Where the manuscripts mention birdsong, I don\u0027t think it was supposed to be taken literally! We can\u0027t have one of those smelly beasts kweh-ing its way through the concert.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_060",
+    "original": "If I were you, I would avoid making similar japes in future\u2500 It really doesn\u0027t suit you, dear. For lack of any better suggestions, how about...Amh Garanjy? Come to think of it, she may well be the perfect choice. A charming young lady like her is sure to have a singing voice to match.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_065",
+    "original": "With that settled, we should move on to our second female vocalist. Can you think of anyone with a voice as \u201Cephemeral as a zephyr across a sun-dappled stream?\u201D",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_FESXMS401_03173_Q2_000_000",
+    "original": "Who will you suggest?",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_FESXMS401_03173_A2_000_001",
+    "original": "You, Maisenta!",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_FESXMS401_03173_A2_000_002",
+    "original": "Kan\u003Chex:021F0103\u003EE\u003Chex:021F0103\u003ESenna, the Elder Seedseer.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_FESXMS401_03173_A2_000_003",
+    "original": "Ephemeral as a what?",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_066",
+    "original": "Me!? You must be joking!",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_067",
+    "original": "You\u0027re serious, aren\u0027t you? Hmm...I am somewhat partial to humming the odd tune while enjoying a long soak in the bath. I should be able to get through it without making too big a fool of myself. And it\u0027s for a good cause.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_068",
+    "original": "The Elder Seedseer herself!? Have you taken leave of your senses? Generous and benevolent she may be, but I struggle to imagine her joining our little choir group!",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_069",
+    "original": "There\u0027s only one thing for it: I will just have to do it myself. My devotion to the Homunculi and Black Rabbit Traders compels me! There is also the fact that I have already invested too much in this venture to allow it to fail now.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_070",
+    "original": "Well, I think we will have to disregard the composer\u0027s instructions in this case. Seeing as we are hardly spoiled for choice, perhaps we should set our sights a little lower.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_071",
+    "original": "And by that, I mean \u201Cany woman who can sing.\u201D Since time is of the essence, I nominate myself to fill this position. As much as I would rather avoid public humiliation, I will not have it said that I lack commitment.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_FESXMS401_03173_AUGUSTINIEL_000_072",
+    "original": "Maisenta, my darling! It would be an honor to join my voice with yours in musical matrimony!",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_073",
+    "original": "Let\u0027s not get carried away! For all you know, I could be a dreadful singer!",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_FESXMS401_03173_OSCARLET_000_074",
+    "original": "Fear not, my lady, for we shall be on hand to provide all the tutelage you might require. Though the question remains\u2500which two lucky fellows will be accompanying you?",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_FESXMS401_03173_ORSELFAUXL_000_075",
+    "original": "\u201CReminiscent of a mighty oak\u0027s outstretched boughs.\u201D I would say that description fits Augustiniel\u0027s soaring vocals.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_076",
+    "original": "I couldn\u0027t agree more. Finding someone whose voice is \u201Cdeep and cavernous as the bowels of the earth\u201D may prove a little more challenging. The Homunculi\u0027s music rarely ventures into the lower notes.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_077",
+    "original": "At the risk of volunteering myself for that role too, mayhaps we should put that matter to one side for now.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_078",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, might I be able to ask a favor of you? Two favors, actually.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_079",
+    "original": "Keen as always! And I haven\u0027t even told you what the favors are yet!",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_080",
+    "original": "I need you to collect a conductor\u0027s baton from Beatin of the Carpenter\u0027s Guild, as well as an order of choir surplices from Redolent Rose over at the Weavers\u0027 Guild in Ul\u0027dah.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_081",
+    "original": "After paying a visit to these master artisans, head straight to Amh Garanjy in Mih Khetto\u0027s Amphitheatre. She will be expecting you.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_082",
+    "original": "In the meantime, it seems prudent for us to rehearse away from prying...ears. Now, make haste, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_FESXMS401_03173_BEATIN_000_090",
+    "original": "How might I help you?",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_FESXMS401_03173_BEATIN_000_091",
+    "original": "So, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, are you any closer to becoming one with the wood?",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_FESXMS401_03173_BEATIN_000_092",
+    "original": "Welcome back, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Are you here to show me your latest creation?",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_FESXMS401_03173_BEATIN_000_093",
+    "original": "Ah, yes. I have the conductor\u0027s baton right here.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_FESXMS401_03173_BEATIN_000_094",
+    "original": "Since the guild seldom receives orders for such items, I thought it best to deal with this one personally. The maple gives it a certain degree of flexibility while the cork grip allows it to be held between thumb and index finger without fear of dropping it.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_FESXMS401_03173_BEATIN_000_095",
+    "original": "I am confident that Maisenta will appreciate the quality of the craftsmanship. While my services do not come cheap, she is sure to feel that her money was well spent.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_FESXMS401_03173_BEATIN_000_096",
+    "original": "And spend she did. In all honesty, a simple twig would probably suffice, but nothing is too good for her Homunculi. I must admit, I do not see the appeal in those preening pretty boys. The sigh of a saw on wood and the tap of a hammer on chisel are all the music I need.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_FESXMS401_03173_BEATIN_000_097",
+    "original": "Have a care as you transport that baton. \u0027Tis such a slight thing, you may even forget you have it on your person, until you sit down and hear a snap.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_FESXMS401_03173_REDOLENTROSE_000_100",
+    "original": "Oh, what\u0027s this? A customer? Or perhaps some lackey sent on an errand?",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_FESXMS401_03173_REDOLENTROSE_000_101",
+    "original": "Well, well. If it isn\u0027t \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I trust you have not been neglecting your needlework.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_FESXMS401_03173_REDOLENTROSE_000_102",
+    "original": "The choir surplices? Not the most challenging request the guild has received, but a welcome change from all the plebeians asking us to add arse flaps to their culottes.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_FESXMS401_03173_REDOLENTROSE_000_103",
+    "original": "Another pleasant surprise was the amount Maisenta was willing to pay for them. So generous was she that I thought it only fair to include a few more. Knowing her, she will find a way to pitch them to festival-goers, so any surplus surplices could be sold on for a profit.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_FESXMS401_03173_REDOLENTROSE_000_104",
+    "original": "This could even mark the beginning of a very lucrative venture for Black Rabbit Traders and the Weavers\u0027 Guild.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_FESXMS401_03173_REDOLENTROSE_000_105",
+    "original": "Our mutual acquaintance is undoubtedly counting the gil as we speak, so I suggest you deliver these garments to her posthaste. Best of luck with the Starlight Celebration!",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_FESXMS401_03173_REDOLENTROSE_000_106",
+    "original": "Was I speaking to myself when I told you to \u201Cdeliver these garments posthaste?\u201D No? I didn\u0027t think so. Now, off you go!",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_FESXMS401_03173_AMHGARANJY_000_110",
+    "original": "You\u0027re back! I was considering sending out a search party for you too! Is everything all right?",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_FESXMS401_03173_AMHGARANJY_000_111",
+    "original": "Unless I am very much mistaken, these look remarkably like a conductor\u0027s wand and some sort of smocks. This may seem like an odd question, but...why are you giving these to me?",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_112",
+    "original": "(-???-)Did I forget to tell you? Not to worry. All will become clear once you\u0027ve changed into your surplice and are ready to rehearse.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_FESXMS401_03173_AMHGARANJY_000_113",
+    "original": "Rehearse? But I don\u0027t remember agreeing to sing! And I\u0027m fairly certain you never even asked me!",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_114",
+    "original": "Sorry, dear. Change of plans. To be honest, knowing how committed you are to the Starlight Celebration, it never occurred to me that you might be opposed to the idea.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_FESXMS401_03173_AMHGARANJY_000_115",
+    "original": "Well, we cannot disappoint the little ones... I suppose it is only meet that I at least try.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_FESXMS401_03173_AMHGARANJY_100_115",
+    "original": "Very well. I\u0027ll do it!",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_116",
+    "original": "If it makes you feel any better, I will be singing too. Bear in mind that I lack your experience when it comes to entertaining the masses, so if there is anyone who should be nervous, it\u0027s me.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_117",
+    "original": "Besides, there\u0027s no time for dilly-dallying. We still have to find a man with a voice \u201Cdeep and cavernous as the bowels of the earth.\u201D",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_FESXMS401_03173_BAENFAELD_000_118",
+    "original": "Are these the musicians? We\u0027d better start checking the amphitheatre\u0027s...what did you call \u0027em? ...Accuse sticks? No, that don\u0027t sound right...",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_119",
+    "original": "You there! Are you one of the Starlight celebrants?",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_FESXMS401_03173_BAENFAELD_000_120",
+    "original": "Aye, and a member of the Adventurers\u0027 Guild besides. Every year, they give me leave to help out with the festival.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_FESXMS401_03173_AUGUSTINIEL_000_121",
+    "original": "Remarkable...his every word reverberates to the core of my soul. \u201CDeep and cavernous as the bowels of the earth?\u201D Why, he\u0027s Titan incarnate!",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_122",
+    "original": "My thoughts exactly. Who could have guessed that the perfect candidate was under our noses\u2500figuratively speaking, of course\u2500this whole time. How would you like to join our choir?",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_FESXMS401_03173_BAENFAELD_000_123",
+    "original": "I don\u0027t see why not. When it comes to bein\u0027 big and loud, no one does it better than me!",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_FESXMS401_03173_AUGUSTINIEL_000_124",
+    "original": "Ha ha! Glad to hear! While I would normally balk at sharing my stage with rank amateurs, I am willing to make an exception. Obviously, none of you can even hope to reach my standards, but with sufficient practice, we should be able to approach \u201Cadequate\u201D or even \u201Cnot displeasing.\u201D",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_125",
+    "original": "As for Oscarlet and Orselfaux, I have something else in mind. While you may not be serenading us with your angelic vocals, you will instead be blessing the children with the presents I have prepared.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_126",
+    "original": "I will make sure they keep their hands off of the children\u0027s mummies, no matter how \u201Cyummy\u201D they might be. If the Homunculi can limit their flirtations to a well-timed wink here and a cheeky smile there, we\u0027ll have them eating out of our hands, without any \u201Clasting repercussions.\u201D",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_FESXMS401_03173_AMHGARANJY_000_127",
+    "original": "Ummm...I have a question. Who is this conductor\u0027s stick for?",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_128",
+    "original": "You catch on quickly, don\u0027t you? I\u0027m not asking you to do this entirely from the goodness of your heart. I will see to it that you are appropriately remunerated. In some form.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_FESXMS401_03173_MAISENTA_000_129",
+    "original": "I would say compared to the four members of the choir, you have the easy job. Judging from what I\u0027ve seen at other concerts, you just need to look the part and wave the baton a bit. Simple.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_FESXMS401_03173_BAENFAELD_000_130",
+    "original": "Rather you than me, friend. I wouldn\u0027t know where to start! I\u0027m much more comfortable bellowin\u0027 away to me heart\u0027s content. Anyway, let me know when you\u0027re ready for some conductin\u0027.",
+    "translation": ""
+  }
+}

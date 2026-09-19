@@ -1,0 +1,807 @@
+{
+  "0": {
+    "tag": "TEXT_BANQIQ005_03798_SEQ_00",
+    "original": "The Great Serpent of Ronka would enlighten you as to the greatest mysteries of the universe...or so you believe.\u003Chex:02100103\u003E\u203BThe difficulty of this quest will be synced to your current level.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_BANQIQ005_03798_SEQ_01",
+    "original": "You engage in a stimulating conversation with the Great Serpent of Ronka, who\u2500you surmise from the urgency and eagerness of its screeing\u2500is keen to see the Stewards press deeper into the tunnels of Hopl\u0027s Stopple. Should you be inclined to heed its call, seek out Chaqurl Qhotl and see how you might best proceed.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_BANQIQ005_03798_SEQ_02",
+    "original": "You speak with Qitarl Natl, who shares with you further gleanings from the excavation of the flooded tunnels, and Chaqurl Qhotl, who laments the sad fate of the catfish people who once crossed paths with his ancestors. But there is more troubling news at hand\u2500Towarl Manol\u0027s symptoms have returned with a vengeance, and the sickness that afflicts her appears to be spreading about the Stopple. At the behest of the Qitari father and son, you resolve to travel to Fanow in their stead to acquire an additional supply of medicine from your Viis friends.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_BANQIQ005_03798_SEQ_03",
+    "original": "Master Lanille in Fanow is more than happy to provide you the medicine the Qitari require, but with it comes grim tidings\u2500a malady similar to that which plagues the Qitari appears to have afflicted the Viis as well. Deeply concerned for the well-being of your forest-dwelling friends, you set off for the Stopple once more, hoping that the remedy will provide a temporary respite from the suffering until such time as a cure can be found.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_BANQIQ005_03798_SEQ_04",
+    "original": "Your return to the Stopple is greeted with grim news when Chaqurl Qhotl informs you that the sickness has spread in your absence, leaving even Qitarl Natl bedridden. As the young Qitari struggles to come to grips with the situation, Quinfort rushes to the scene in a panic and confirms your worst fears\u2500the Night\u0027s Blessed of Slitherbough, too, have been stricken with the strange sickness, and your friend Valan lies unconscious in bed as you speak. Deeply distressed at this turn of events\u2500and at the thought that the Qitari themselves might be responsible for spreading the disease around the Greatwood\u2014Chaqurl resigns himself to calling off the excavation effort until a cure can be found, but is convinced otherwise by a timely interruption from the Great Serpent of Ronka. Believing this to be a sign that the very answer he seeks might be found in the tunnels below, he proclaims that the excavation will go on. Admiring the Qitari child\u0027s courage and composure in trying times, you resolve to speak to him and give him the encouragement he needs to go exploring without his father at his side.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_BANQIQ005_03798_SEQ_05",
+    "original": "Having descended into the tunnels with the great serpent at his side, Chaqurl Qhotl returns to the surface alone, but with triumphant news\u2500the fourth stela has been found. As the Qitari child tells it, unlike the previous three, it is in pristine condition, and the etchings upon it appear to provide the very answer that you seek. Guided by the divine wisdom of the great serpent, you resolve to scour the forest for the rare variety of Ronkan moss that may stay the spread of the terrible pox that now plagues the forest.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_BANQIQ005_03798_SEQ_06",
+    "original": "You succeed in harvesting the moss and delivering it safely to the Stopple. At Chaqurl Qhotl\u0027s direction, the remedy is brewed and swiftly administered to the sick, who begin to show immediate signs of recovery\u2500just as foretold by the great serpent. Before long, Qitarl Natl is back on his feet, greatly relieving his son. You are curious to speak with the elder Steward and hear his thoughts about the spread of the mysterious sickness.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_BANQIQ005_03798_SEQ_07",
+    "original": "A recovered Qitarl Natl shares with you his theory on the spread of the disease, which he believes to have been an unfortunate side effect of the migration of his own people from the far-flung reaches of the forest. Troubled by the implications and yet taking heart that it was the wisdom of his forefathers that quelled the epidemic, he vows that the Stewards will be vigilant against any similar outbreaks in the future. With the four stelae finally unearthed and restored to their original form, the Qitari resolve to continue their excavation and study, that further lost knowledge may be gleaned.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_BANQIQ005_03798_TODO_00",
+    "original": "Speak with Chaqurl Qhotl.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_BANQIQ005_03798_TODO_01",
+    "original": "Speak with Lanille in Fanow, and obtain the medicine.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_BANQIQ005_03798_TODO_02",
+    "original": "Deliver the medicine to Chaqurl Qhotl.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_BANQIQ005_03798_TODO_03",
+    "original": "Speak with Chaqurl Qhotl.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_BANQIQ005_03798_TODO_04",
+    "original": "\u003Chex:0208F20130E4E80511FF58020854E3E802E803FF234D696E6520612002310CFF054974656D04E80602020320617420746865204875736BFF2944656C697665722002310CFF054974656D03E80602020320746F204368617175726C2051686F746C03FFF0D00208CDE4E80512FF5A020856E3E802E803FF2547617468657220612002310CFF054974656D04E80602020320617420746865204875736BFF2944656C697665722002310CFF054974656D03E80602020320746F204368617175726C2051686F746C03FF6C020868E4E80513FF6002085CE3E802E803FF2B436174636820612002310CFF054974656D04E80602020320696E2074686520526564204368616C696365FF2944656C697665722002310CFF054974656D03E80602020320746F204368617175726C2051686F746C03FF01030303\u003E.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_BANQIQ005_03798_TODO_05",
+    "original": "Speak with Qitarl Natl.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_BANQIQ005_03798_BOUSHITSUCHINOKO_000_001",
+    "original": "Scree...!?",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_BANQIQ005_03798_SYSTEM_000_002",
+    "original": "The great serpent lets out a high-pitched squeal. It appears to be feeling anxious about something. Speak with Chaqurl Qhotl and see how the excavation effort fares.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_011",
+    "original": "Welcome back! The Stopple\u0027s feeling more comfortable than ever, thanks to all those helpful supplies you and our friends from Slitherbough brought to us! Father and I have also gone diving in the depths below some twenty times now, and you won\u0027t believe all we\u0027ve found!",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_015",
+    "original": "Indeed, my boy. Perhaps the most important discovery of all was that of relics and records confirming the interpretation of history engraved on the newly restored third stela.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_016",
+    "original": "During the age of famine, the catfish people were driven from the forest by our ancestors, who sought to protect the fishing grounds that were their most important source of nourishment. After this, no records or remnants of them were found in any of the lands ruled by the Ronkan Empire.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_017",
+    "original": "While it is possible that survivors and their descendants lived on outside Norvrandt, it is all but impossible that they could have survived the Flood of Light. Thus, we can safely say that their race is essentially extinct.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_018",
+    "original": "Poor catfish people... I would have\u2500\u003Csniff\u003E\u2500shared my food with you...",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_019",
+    "original": "Our ancestors enjoyed amiable relations with these curious catfish people, and indeed did share our food supply with them, allowing them to survive the age of great famine.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_020",
+    "original": "To their misfortune, however, they were a stubborn folk. When they refused to worship the deities of Ronka in favor of their old gods, they were driven from the land. Whether they still live on in some far-off land, none can say...",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_021",
+    "original": "Poor catfish people... If we ever meet someday, I promise I\u0027ll be your friend...",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_022",
+    "original": "At any rate, we have explored all there is to explore in the third stratum, meaning that it is time we ventured further below. Unfortunately, we find ourselves in a bit of a bind...",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_023",
+    "original": "My most trusted scout, Towarl Manol, has yet to make a full recovery from her ailment. On the contrary, others here in the Stopple have been suffering from similarly unpleasant symptoms\u2500even those who did not accompany Towarl on her expedition below.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_024",
+    "original": "I must say, I find myself quite at a loss. Might you be so kind as to accompany me as I look into the matter, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E?",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_025",
+    "original": "Towarl was on the verge of making a full recovery when her condition took a sudden turn for the worse. And it pains me to say that she is not the only one so afflicted.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_026",
+    "original": "The symptoms were mild at first, but in no time their fevers flared up, the pain and dizziness so severe that they cannot even rise to their feet.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_027",
+    "original": "The medicine that Master Quinfort brought from Fanow has served to ease their discomfort somewhat, but with more of us being stricken by the day and their conditions ever worsening, I fear it will not be long until we exhaust our supply...",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_028",
+    "original": "I am loath to impose upon your generosity once more, but might you be willing to go back and procure another batch from our friends? Surely they will take pity on our plight...",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_029",
+    "original": "Forgive me for not being able to travel with you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I must stay here and help Father tend to the sick.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_031",
+    "original": "I hope Towarl feels better soon. Going digging without her just isn\u0027t the same!",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_BANQIQ005_03798_BOUSHITSUCHINOKO_000_032",
+    "original": "Screee...",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_BANQIQ005_03798_PHYNA_000_040",
+    "original": "Of late, I have had my hands full providing supplies to the Stewards. While it saddens me to delay my journey yet again, I am happy to lend my aid where it is needed.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_BANQIQ005_03798_CIUNA_000_041",
+    "original": "Did young Chaqurl not accompany you this time? What a shame\u2500I was hoping to hear about his latest discoveries.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_BANQIQ005_03798_LANILLE_000_045",
+    "original": "...This is most distressing news. Rest assured that we will not stand idly by as our Qitari friends suffer.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_BANQIQ005_03798_LANILLE_000_046",
+    "original": "If our remedies may serve them well, I am happy to provide you with as much as you need. That said...",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_BANQIQ005_03798_PHYNA_000_047",
+    "original": "To tell the truth...a similar malady to the one of which you speak has come to Fanow as well. While only a few have taken ill thus far, I must say this does not bode well...",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_BANQIQ005_03798_CIUNA_000_048",
+    "original": "Now that you mention it, a traveling merchant from Slitherbough who sojourned here just days ago had a similar tale to tell. Whatever this affliction is, I fear it seems to be spreading.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_BANQIQ005_03798_LANILLE_000_049",
+    "original": "Qitari, Viis, and Humes alike...all stricken by a mysterious plague that spreads in the blink of an eye. In all the years I have lived, never have I heard of such a thing.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_BANQIQ005_03798_LANILLE_000_050",
+    "original": "I hope I am mistaken, but my instincts tell me this is no common chill. I fear that the medicine I gave you will offer little more than a momentary reprieve from the pain...",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_BANQIQ005_03798_PHYNA_000_051",
+    "original": "Do not say such things, Master Lanille! This lack of confidence ill befits you.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_BANQIQ005_03798_PHYNA_000_052",
+    "original": "Though it pains me, I suppose there is little we can do but ease the suffering as best we can until we can determine what has caused this.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_BANQIQ005_03798_CIUNA_000_053",
+    "original": "Pray deliver the medicine to young Chaqurl and the ailing Qitari. Should our efforts to find a cure bear fruit, we shall send word at once.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_BANQIQ005_03798_LANILLE_000_055",
+    "original": "Mayhap it is some ancient plague that once afflicted the Greatwood... But if so, why does it return today, so many years later? I fear I am at a loss for answers...",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_BANQIQ005_03798_PHYNA_000_056",
+    "original": "I have resolved to put off my journey until we discover the cause behind this pox. I simply cannot abandon our Qitari friends, nor risk spreading the disease beyond Rak\u0027tika...",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_BANQIQ005_03798_CIUNA_000_057",
+    "original": "Word has it that the Night\u0027s Blessed have a mind to cut off all contact with outsiders until they can find a cure for the disease. If only there were something we could do...",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_BANQIQ005_03798_BOUSHITSUCHINOKO_000_060",
+    "original": "Scree...",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_BANQIQ005_03798_SYSTEM_000_061",
+    "original": "The serpent lets out a mournful cry. It appears to be deeply concerned for the well-being of the stricken Qitari.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_058",
+    "original": "\u003Ccough\u003E \u003Ccough\u003E",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_062",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Did you bring the medicine from Fanow!?",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_063",
+    "original": "Oh, thank you! Your be-\u003Chex:021A020203\u003Even\u003Chex:021A020103\u003E-olence knows no bounds! But...but just look! Whatever am I to do...?",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_100_070",
+    "original": "Not long after you left us, Father suffered a terrible coughing fit. He has not gotten out of bed since, and one by one, the others have joined him...",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_100_071",
+    "original": "Father believes that there is a chance that we brought some ancient pox back with us from the ruins beneath the Stopple. Or that we ourselves have spread this disease in traveling to these parts from our former home. But as for the truth, we cannot\u2500",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_000_073",
+    "original": "My friends, are you all here!? I bring most grievous tidings from Slitherbough!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_000_074",
+    "original": "It\u0027s Valan! He has taken ill with the plague!",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_000_075",
+    "original": "He exercised the utmost caution when tending to poor Towarl, but to no avail! For the disease has stricken him too, and with great vengeance!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_076",
+    "original": "Master Valan, too!?",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_000_077",
+    "original": "...Indeed. I fear that it is none other than he who\u2500albeit unwittingly\u2500carried the pox back to Slitherbough.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_000_078",
+    "original": "Is it true that the Viis of Fanow, too, suffer from this frightful affliction!? A great plague, threatening to claim the lives of all who call the Greatwood home! I shudder at the thought...",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_079",
+    "original": "We have no choice. From today, all Qitari who still stand will devote every waking moment to in-\u003Chex:021A020203\u003Egest\u003Chex:021A020103\u003E-ivating the disease!",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_080",
+    "original": "Yes, in Father\u0027s name, I hereby suspend the ex-\u003Chex:021A020203\u003Evacation\u003Chex:021A020103\u003E effort and\u2500",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_BANQIQ005_03798_BOUSHITSUCHINOKO_000_081",
+    "original": "Scree scree! Screeeeeeeee!",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_082",
+    "original": "The great serpent! It speaks!",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_000_083",
+    "original": "By gods ancient and true...!",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_000_084",
+    "original": "Put away not your shovels and spades, young Chaqurl! The excavation must go on, for verily, so spake the divine protector of Ronka!",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_000_085",
+    "original": "Aye, many a prayer have I offered to the great serpent on behalf of the ailing, and today my prayers have been heard!",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_000_086",
+    "original": "Through me, Dwatl\u0027s own blood, the divine protector shall lead you to a cure for this frightful plague. Trust in it\u2500in me\u2500and the suffering of our peoples will soon come to an end!",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_BANQIQ005_03798_BOUSHITSUCHINOKO_000_087",
+    "original": "Screeeeeeeee!",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_088",
+    "original": "Master Quinfort! O, Great Serpent of Ronka! Of course, you speak true!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_089",
+    "original": "If Father is right, and we Qitari are res-\u003Chex:021A020203\u003Ebon\u003Chex:021A020103\u003E-sipple for the spread of the disease, then the answers we seek might yet be found along with the undiscovered stela.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_090",
+    "original": "After all, if this is indeed some ancient pox, it stands to reason that our \u003Chex:021A020203\u003Efar\u003Chex:021A020103\u003E-forethers left behind some record of it. A record that may very well shed light upon its cause...and its cure!",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_091",
+    "original": "With poor Father bedridden, it falls to me to carry on the dig! I will find the stela and save our people, even if I must do it alone!",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_000_092",
+    "original": "Your bravery is most admirable, young Chaqurl. And yet\u2500even with the divine protector watching over you\u2500are the tunnels not too dangerous for a child?",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_093",
+    "original": "I am no child, Master Quinfort! I have lived three whole years, and in just these recent days have accompanied Father into the depths time and again! No one is better prepared to search for the stela than me!",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_BANQIQ005_03798_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_BANQIQ005_03798_A1_000_001",
+    "original": "Chaqurl can do it.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_BANQIQ005_03798_A1_000_002",
+    "original": "It\u0027s too dangerous.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_094",
+    "original": "Oh, thank you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! A vote of con-\u003Chex:021A020203\u003Edif\u003Chex:021A020103\u003E-ence from you means the world to me! Mark my words: I will get to the bottom of this!",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_095",
+    "original": "Your concern is touching, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, but have no fear! You have given me\u2500and all of the Stewards\u2500great strength. Mark my words: I will get to the bottom of this!",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_000_096",
+    "original": "Such courageous words, spoken from one so young! Chaqurl Qhotl, you truly are a shining example for all your people...!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_000_097",
+    "original": "Worry not for your dear father. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E and I will see that he wants for nothing while you are exploring down below. Go in safety, and know that we pray for your success.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_000_100",
+    "original": "Young Chaqurl continues to impress, does he not? I would be lying to say I am entirely unconcerned, but I have faith that he will be safe under the great serpent\u0027s watchful eye.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_BANQIQ005_03798_BOUSHITSUCHINOKO_000_101",
+    "original": "Scree-eee!",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_BANQIQ005_03798_SYSTEM_000_102",
+    "original": "The serpent lets out a passionate cry and bounces about confidently. It appears moved by the young Qitari lad\u0027s courageous decision to venture deeper into the caves on his own.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_103",
+    "original": "Chaqurl, my boy... Be\u2500\u003Ccough\u003E\u2500safe...",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_105",
+    "original": "It is not simply for the future of my fellow Qitari that I must find the next stela...",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_106",
+    "original": "It is for Father, for Valan, for the Viis who suffer in Fanow... For all those who call Rak\u0027tika home, I must succeed! Let the ex-\u003Chex:021A020203\u003Evacation\u003Chex:021A020103\u003E begin!",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_BANQIQ005_03798_SYSTEM_000_071",
+    "original": "Some time later...",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_BANQIQ005_03798_SYSTEM_000_072",
+    "original": "Chaqurl Qhotl has safely returned from his exploration of the tunnels!",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_100_120",
+    "original": "You return, my young friend! Thanks be to the great serp\u2500what\u0027s this? Do mine eyes deceive me? You return alone...",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_100_121",
+    "original": "Indeed. On all our previous ex-\u003Chex:021A020203\u003Evacations\u003Chex:021A020103\u003E, an avatar of the great serpent\u2500clad in a suit of armor\u2500arrived to welcome Father and I to the stela\u0027s resting place. This time, there was none to be found...",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_100_122",
+    "original": "Inconceivable! The great serpent forsaking a descendant of Ronka in their time of need!?",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_100_123",
+    "original": "In-\u003Chex:021A020203\u003Etube\u003Chex:021A020103\u003E-itably, the divine protector moves in mysterious ways.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_100_124",
+    "original": "But worry not, my friends! For I was able to locate the fourth stela myself! And\u2500thanks be to the divine protector\u2500there was barely a scratch or scrape on it!",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_100_125",
+    "original": "Yes, using the tools and techniques you have supplied to us, I do believe we will be able to raise it to the surface in pristine condition!",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_000_126",
+    "original": "Remarkable! Truly, you are a paragon of Ronkan industriousness and ingenuity! Now do tell\u2500did the stone provide any new insights that might help us fend off the plague?",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_127",
+    "original": "Oh, Master Quinfort! You will see for yourself once we raise it to the surface, but let me tell you what I saw with my own eyes!",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_128",
+    "original": "Pictured \u003Chex:021A020203\u003Eprovident\u003Chex:021A020103\u003E-ly in the center was none other than the great serpent itself! Atop its head sat a gloriously large and fluffy green mass. Before the serpent, a man in Ronkan garb raised his hands in sheer \u003Chex:021A020203\u003Ejulib\u003Chex:021A020103\u003E-ation!",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_000_129",
+    "original": "Glorious! This is incontrovertible proof that the divine protector guided our ancestors to enlightenment just as it guides us today!",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_130",
+    "original": "Sadly, Father is in no condition to share with us his thoughts on the carvings\u2500but no matter! With the stela in im-\u003Chex:021A020203\u003Epec\u003Chex:021A020103\u003E-ulate condition, I am confident that my in-\u003Chex:021A020203\u003Epertritation\u003Chex:021A020103\u003E is the correct one!",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_131",
+    "original": "Yes, there can be no doubting it! With a mighty \u201Cscree!\u201D, the great serpent did bestow upon the Ronkan people a giant tuft of grass-green fluff, which cured them of a dreadful pox!",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_132",
+    "original": "No doubt it is to guide us to this very knowledge\u2500the cure that would save our people\u2500that the great serpent appeared before me!",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_BANQIQ005_03798_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_BANQIQ005_03798_A2_000_001",
+    "original": "Glory be to the scree!",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_BANQIQ005_03798_A2_000_002",
+    "original": "I could present another theory...",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_000_133",
+    "original": "Truly! The great serpent works in mysterious ways, but there can be no doubting that what happened here today was none other than a divine miracle!",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_000_134",
+    "original": "Ally of Ronka or no, I will entertain no wild theories or speculation about what has happened here today. The great serpent has granted us a miracle, and we must show proper obeisance!",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_000_135",
+    "original": "If I might be so bold as to expand upon your insight, young Chaqurl, I believe I can identify precisely that miraculous object which the serpent did carry on his blessed pate.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_000_136",
+    "original": "Verily, this can be none other than that greatest blessing of Rak\u0027tika\u2500Ronkan moss, which grows so verdant and lush in our forest home!",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_000_137",
+    "original": "If I recall from my studies, Ronkan moss can be harvested from numerous sources, but in particular certain rocks found in the Husk, upon which it grows in great abundance.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_100_137",
+    "original": "If I recall from my studies, Ronkan moss can be harvested from numerous sources, but in particular certain species of tree found in the Husk, upon which it grows in great abundance.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_200_137",
+    "original": "If I recall from my studies, Ronkan moss can be harvested from numerous sources, but in particular from a species of turtle found in the Red Chalice, upon whose shell it grows in great abundance.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_138",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, ally of Ronka! You have my word that this is the last time I will impose upon you. Might you be so kind as to go forth in search of the moss that will save my people?",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_000_139",
+    "original": "Splendid! And I, young Chaqurl, will make for Fanow. The Viis will doubtless have insight to share on how to brew the moss into a proper elixir.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_140",
+    "original": "I am deeply og-\u003Chex:021A020203\u003Ebliged\u003Chex:021A020103\u003E to you, my friends. I will tend to Father and pray that his condition has not worsened in the meantime. Until we meet again!",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_150",
+    "original": "The great serpent has spoken! The moss will heal Father and our friends once and for all\u2500I am sure of it!",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_BANQIQ005_03798_QUINFORT_000_151",
+    "original": "Does my encyclopedic knowledge of Ronkan flora surprise you? For it should not. Valan and I used to run about in the forest and collect rare shrubs and fronds since we were knee-high to a wood raider.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_BANQIQ005_03798_LANILLE_000_152",
+    "original": "So the fourth stela has been found. Welcome tidings in these trying times, indeed. If there is aught we can do to aid our Qitari friends, you need but say the word.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_BANQIQ005_03798_PHYNA_000_154",
+    "original": "Ronkan moss, you say? I fear that it does not grow in these parts. I pray that you find it, and find it swiftly\u2500the fate of the forest depends upon it.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_BANQIQ005_03798_CIUNA_100_154",
+    "original": "A type of moss that holds the power to heal the sick? I cannot help but wonder if this was one of the many wonders birthed by Ronkan mastery of the arcane.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_155",
+    "original": "Did you find the moss, friend? Oh, please say you did!",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_156",
+    "original": "Splendid! Splen-\u003Chex:021A020203\u003Efid\u003Chex:021A020103\u003E-erous! Why, it looks just as it did on the stela! We must prepare the medicine at once...",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_BANQIQ005_03798_SYSTEM_000_110",
+    "original": "Following the method illustrated by the carvings on the fourth stela, the Stewards brewed an elixir from the Ronkan moss, and distributed it to their ailing friends. Before long, the symptoms eased, and a brighter mood returned to the Stopple.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_BANQIQ005_03798_SYSTEM_000_111",
+    "original": "No longer lacking for manpower, Chaqurl Qhotl and his friends built a workshop where the medicine could be produced in large quantities to be distributed across the Greatwood.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_BANQIQ005_03798_SYSTEM_000_112",
+    "original": "Some time later...",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_113",
+    "original": "Ahem! Reports have it that our friends in Slitherbough and Fanow are well on their way to making a complete recovery. All of Rak\u0027tika truly is in your debt, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I have no words to express my gratitude...",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_114",
+    "original": "You have my \u003Chex:021A020203\u003Egrad\u003Chex:021A020103\u003E-atude as well, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! And we must not forget the great serpent, who guided us to the cure! Speaking of which...where did it go?",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_115",
+    "original": "It is not our place to question the workings of the divine, my boy. No doubt it felt its role here was done, and returned to a place where only the gods know.",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_116",
+    "original": "Does that mean\u2500\u003Csniff\u003E\u2500I\u0027ll never see it again?",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_BANQIQ005_03798_TSUCHINOKO_000_117",
+    "original": "(-Great Serpent of Ronka-)Scree!",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_118",
+    "original": "Did I hear what I think I heard!?",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_119",
+    "original": "The serpent returns to us! Or...perhaps it was watching over us from behind the stela all along?",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_120",
+    "original": "Doubtless so, Chaqurl. Indeed...the great serpent truly does work in mysterious ways.",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_BANQIQ005_03798_SYSTEM_000_121",
+    "original": "And so it was that the Qitari reclaimed the history and knowledge of their forefathers, and in so doing, played their role in returning peace to the Greatwood\u2500just as foreseen by a certain prognosticating priest. All was according to the great serpent\u0027s plan...or was it?",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_BANQIQ005_03798_TSUCHINOKO_000_122",
+    "original": "Scree?",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_161",
+    "original": "Ah, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I cannot thank you enough for all you have done on behalf of my boy\u2500no, on behalf of all the Stewards.",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_162",
+    "original": "You will be pleased to know that we have succeeded in producing the mossy brew in large quantities. Any fears of a plague sweeping through the Greatwood are well behind us.",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_163",
+    "original": "Did you ever find out what caused the disease, Father?",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_164",
+    "original": "It is difficult to say for certain, but I do have a theory. Plants, blossoms, and trees abound in the Greatwood, all possessing their own seeds and spores\u2500some of which can be quite poisonous.",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_165",
+    "original": "Lesser poisons exist as well. In that case, one might build up an immunity if one lives for long enough in their presence. At the same time, different areas of the wood are home to different flora, each bearing their own poisons.",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_166",
+    "original": "And so, living for a hundred years far away from this place, you say we have a different...in-\u003Chex:021A020203\u003Enum\u003Chex:021A020103\u003E-ity than our friends in Slitherbough and Fanow?",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_167",
+    "original": "Precisely, my boy. More precisely, we carry an element of the poison within us, and it is this which protects us from their harmful effects.",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_168",
+    "original": "The downside of this, of course, is quite clear. When these poisons are carried to a new place, where others are not accustomed to them, the selfsame thing that protects us from their effects can have harmful effects on others\u2500just as the poisons our own bodies are unaccustomed to can harm us.",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_169",
+    "original": "So, the sickness...it was all our fault for coming here?",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_170",
+    "original": "Perhaps...and perhaps not. We are not the only ones who traveled here when the path through the Ravel was opened. We Qitari, the creatures of the forest we saw on our way...doubtless the spread of the pox was inevitable.",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_171",
+    "original": "And besides, in coming here, we have rediscovered a powerful elixir fashioned by our forefathers\u2500one that we might use to prevent any further outbreaks of disease among those who call the Greatwood home.",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_172",
+    "original": "Looking back, I suspect that matters such as these were a source of great consternation in the days of the empire, when peoples moved about the Greatwood often and in droves.",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_173",
+    "original": "No doubt this is why it was the Ronkans who discovered the cure\u2500with the guidance of their divine protector, of course.",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_174",
+    "original": "The same divine protector who remembers well the events of those days, and who led us back to the remedy it had shared with our forefathers so many years ago.",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_175",
+    "original": "The fourth stela has been reclaimed, and with it, another piece of our heritage. And yet, the Qitari did not do this alone...",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_176",
+    "original": "You, ally of Ronka. Your friends Quinfort and Valan. Our loyal allies among the Viis. All played a part in making this day happen. Given our peoples\u0027 mutual histories, it is perhaps fitting\u2500wouldn\u0027t you say, Chaqurl?",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_177",
+    "original": "In-\u003Chex:021A020203\u003Etube\u003Chex:021A020103\u003E-itably! At long last, I understand how people must have felt in the days of Ronka, when our peoples cooperated and lived together in a great \u003Chex:021A020203\u003Ecil\u003Chex:021A020103\u003E-ivization!",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_BANQIQ005_03798_QITARLNATL_000_178",
+    "original": "The wisdom of our forefathers has saved us today. But we must not rest easy. We must continue to learn and record our experiences, that our own wisdom might serve those who follow in our footsteps.",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_000_179",
+    "original": "There is still much that I would study as well! Pray come back to visit us, my friends\u2500I would be happy to share with you all the wonderful things I am sure to learn!",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_100_179",
+    "original": "After all, while the serpent with the hat has gone off somewhere, the helmeted one remains with us. Surely, this is a sign that there is still much to explore in the tunnels below!",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_BANQIQ005_03798_CHAQURLQHOTL_200_179",
+    "original": "After all, why would it remain with us if there were not additional pathways and passages through which it seeks to guide us? Oh, I can hardly wait to see what may yet be unearthed!",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_BANQIQ005_03798_SYSTEM_000_180",
+    "original": "You have achieved \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESworn\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E reputation with the Stewards.",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_BANQIQ005_03798_SYSTEM_000_182",
+    "original": "Yet more embodiments of the great serpent have taken up residence in Hopl\u0027s Stopple. They appear quite pleased to see the Qitari stelae restored to their former glory.",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_BANQIQ005_03798_SYSTEM_000_184",
+    "original": "Furthermore, you now have access to a wider selection of wares from Yuqurl Manl.",
+    "translation": ""
+  }
+}

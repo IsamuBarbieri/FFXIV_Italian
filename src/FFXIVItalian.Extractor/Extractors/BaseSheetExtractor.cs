@@ -233,7 +233,7 @@ public abstract class BaseSheetExtractor : ISheetExtractor
     /// <summary>
     /// Loads an existing JSON file to preserve current translations during re-extraction.
     /// </summary>
-    protected static JsonObject? LoadExistingJson(string path)
+    public static JsonObject? LoadExistingJson(string path)
     {
         if (!File.Exists(path)) return null;
         try
@@ -246,7 +246,7 @@ public abstract class BaseSheetExtractor : ISheetExtractor
         }
     }
 
-    protected static void SaveJsonObject(string path, JsonObject obj)
+    public static void SaveJsonObject(string path, JsonObject obj)
     {
         var dir = Path.GetDirectoryName(path);
         if (!string.IsNullOrEmpty(dir) && !Directory.Exists(dir))

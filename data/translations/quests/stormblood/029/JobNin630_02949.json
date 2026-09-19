@@ -1,0 +1,647 @@
+{
+  "0": {
+    "tag": "TEXT_JOBNIN630_02949_SEQ_00",
+    "original": "Yomei has a missive from the Far East with your name on it.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_JOBNIN630_02949_SEQ_01",
+    "original": "Yomei greets you upon arrival, and eagerly hands you a letter. It would appear that Oboro and Jacke have safely arrived on Hingan shores, and that their investigation into the stolen scroll has turned up some promising leads. Your shinobi friend and master bids you join him in Kugane to continue the search. After disembarking, seek out Oboro in the alley behind Pier #2.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_JOBNIN630_02949_SEQ_02",
+    "original": "Oboro relates to you all that he and Jacke have learned. The theft of the scroll was apparently the work of the Garnet League, a band of masterless samurai who turned to banditry after having fled the battlefield in dishonor during the Doman uprising. Easily recognizable by their blood red garb and rough demeanor, they sojourn in Kugane of late. At Oboro\u0027s behest, spy upon them from the shadows of the Shiokaze Hostelry and the Rakuza District and see what knowledge you might glean of their plans, and of the scroll\u0027s current whereabouts.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_JOBNIN630_02949_SEQ_03",
+    "original": "Eavesdropping upon the Garnet League men, you manage to learn that they were hired to retrieve the scroll from an imperial storehouse by a Hingan client whose identity is not immediately evident. You also succeed in gathering more information on the Garnet League itself\u2500namely, that it is led by one Zakuro Brightblood, a samurai feared for both her prowess with the blade and her nigh-legendary temper. Oboro and Jacke will doubtless be keen to hear all you have learned.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_JOBNIN630_02949_SEQ_04",
+    "original": "You and your companions share what you have learned, when you are joined by V\u0027kebbe and Underfoot, who have been summoned to Kugane by Jacke to assist in the recovery of the scroll. Piecing together random bits of information, Captain Jacke devises a convoluted scheme to recover the scroll that will involve a high-wire act and imitation bird droppings, among other curious elements. With no better course of action coming immediately to mind, tasks are delegated amongst your party, and you prepare to move into action.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_JOBNIN630_02949_SEQ_05",
+    "original": "You carry out Jacke\u0027s creative plan to perfection, and send Zakuro running to the baths in utter horror. Infiltrate the Bokairo, and search for the scroll in the changing baskets while a somewhat-unwilling Oboro and Jacke keep Zakuro occupied with their manly wiles.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_JOBNIN630_02949_SEQ_06",
+    "original": "You search the baskets by the entrance to the baths, but the scroll is nowhere to be seen. Mayhap there is somewhere you haven\u0027t yet looked?",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_JOBNIN630_02949_SEQ_07",
+    "original": "You search another set of baskets, but to no avail. Wherever could Zakuro have hidden the scroll?",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_JOBNIN630_02949_SEQ_08",
+    "original": "You search the baskets in the innermost chamber of the bathhouse, where you successfully recover the scroll with Zakuro none the wiser. Make haste back to the alley and share the news of your success with your friends.",
+    "translation": ""
+  },
+  "9": {
+    "tag": "TEXT_JOBNIN630_02949_SEQ_09",
+    "original": "Oboro and Jacke rejoice at the success of the mission. The shinobi\u0027s mood, however, darkens considerably upon seeing what the scroll actually is\u2500a forbidden summoning mudra and ancient treasure of his village that went missing in the Garlean invasion of twenty-five years past. It would seem that the scroll slept untouched in an imperial vault until it was stolen by Zakuro and her minions at the behest of their mysterious client. As Oboro ponders who outside his village might have knowledge of the scroll, Karasu Redbeak appears in a puff of smoke, revealing that he was the one pulling the strings behind the operation on behalf of his new master, and threatening physical harm to Tsubame, V\u0027kebbe, and Underfoot\u2500who he has captured in the meantime\u2500if you do not return the scroll to him. Issuing an enigmatic warning of some challenge to come, he disappears as quickly as he came, leaving you and your companions at an utter loss. Continue to hone your skill in the art of ninjutsu, that you may be ready for whatever deadly game the crow has in store for you.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe next ninja quest will be available from Oboro upon reaching level 65.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_JOBNIN630_02949_TODO_00",
+    "original": "Join Oboro in Kugane.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_JOBNIN630_02949_TODO_01",
+    "original": "Use Hide to gather information at the Shiokaze Hostelry and the Rakuza District.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_JOBNIN630_02949_TODO_02",
+    "original": "Report to Oboro.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_JOBNIN630_02949_TODO_03",
+    "original": "Keep lookout from a high perch.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_JOBNIN630_02949_TODO_04",
+    "original": "Search the bathhouse baskets for the scroll.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_JOBNIN630_02949_TODO_05",
+    "original": "Search more baskets for the scroll.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_JOBNIN630_02949_TODO_06",
+    "original": "Search even more baskets for the scroll.",
+    "translation": ""
+  },
+  "31": {
+    "tag": "TEXT_JOBNIN630_02949_TODO_07",
+    "original": "Wait for Jacke and Oboro at the rendezvous point.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_JOBNIN630_02949_YOUMEI_000_000",
+    "original": "Ah, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I have a letter for you from Master Oboro. It would appear that his investigation in Kugane has borne fruit. Here, see for yourself.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_001",
+    "original": "(-Letter from Oboro-)\u003Chex:021A020203\u003EDear \u003Chex:022C0DFF07022903EB0203FF02200203\u003E,\u003Chex:02100103\u003EI hope this letter finds you well. After a long and rather uneventful voyage, we have arrived safely in Kugane. Captain Jacke seems quite taken with Hingan culture, and is enjoying a stroll in the pleasure quarters at this very moment.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_002",
+    "original": "(-Letter from Oboro-)\u003Chex:021A020203\u003EBut forgive me, you are not interested in a diary of our travels. As for the matter of the scroll, rumors abound of a band of Doman scofflaws have been causing a stir in town of late. Putting together the accounts we have heard, the good Captain and I are convinced that these are the thieves we seek.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_003",
+    "original": "(-Letter from Oboro-)\u003Chex:021A020203\u003EIf the word about town is to be believed, these individuals are far more dangerous than we had imagined. I trust that you have been pursuing your ninjutsu training with your usual diligence? My apologies\u2500of course you have. In any event, we would have you join us at your earliest convenience. We will be keeping an eye out for your arrival. Seek us in the alley behind the second pier ferry docks. Safe travels, friend.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_JOBNIN630_02949_YOUMEI_000_004",
+    "original": "It is good to see Master Oboro in good spirits once more. Ever since the elders commanded him to remain here in Eorzea, he has not quite been himself.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_JOBNIN630_02949_YOUMEI_000_005",
+    "original": "After all, a shinobi without a duty to carry out is as a hawk with clipped wings. It is good to see Master Oboro soaring high once more.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_JOBNIN630_02949_YOUMEI_000_006",
+    "original": "Still, I worry. Though I have great respect for the man, he can often be too trusting for his own good. Pray go to his side, friend, and see that he does not get himself into undue trouble. May the kami carry you safely across the sea.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_JOBNIN630_02949_YOUMEI_000_010",
+    "original": "Master Oboro awaits you in Kugane. I wish you a safe journey.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_JOBNIN630_02949_JACKE_000_011",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E! What took ye so long? Have ye snilched the rum doxies in the pleasure district? I\u0027m likin\u0027 this place more and more by the day!",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_JOBNIN630_02949_TSUBAME_000_012",
+    "original": "Ah, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! It has been too long. To have traveled so far to assist Oboro in his mission\u2500words cannot begin to convey my gratitude.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_020",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I thank you for answering my call. Tsubame, too, has made the journey from the village to join us in retrieving the scroll.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_JOBNIN630_02949_TSUBAME_000_021",
+    "original": "It is an honor to stand by your side again, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Master Oboro will doubtless benefit from your presence, as he always does.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_JOBNIN630_02949_JACKE_000_022",
+    "original": "Likewise, I figured we could use a few more dimber dambers on the job, so I\u0027ve sent for Underfoot and the Stray. Their ship should be pullin\u0027 into harbor afore long.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_023",
+    "original": "In the meantime, allow me to share what we have learned. Reliable sources have it that the theft of the scroll is the work of the Garnet League, a notorious band of outlaws feared throughout Doma.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_024",
+    "original": "When the Doman rebellion was crushed one year ago, many a samurai fled the battlefield to escape the Empire\u0027s wrath. Dishonored and unable to return home, most turned to banditry to eke out a living. It is the most lethal of these warriors who formed the Garnet League.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_025",
+    "original": "Cutting down innocent men for their coinpurses, plundering villages... The men and women of the Garnet will gladly stain their hands with blood as long as it means they will live to see the morrow.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_026",
+    "original": "Why they covet that scroll so, I cannot say. What I do know is that if we do not stop them, they are all but certain to leave a trail of corpses in their wake. We must move, and quickly.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_027",
+    "original": "Fortunately, they should not prove hard to find. Confident in their ability to cut down anyone who dares oppose them, they take little trouble to conceal themselves. On the contrary, they parade their garnet-hued kimono for all to see. You can distinguish them from the similarly garbed Sekiseigumi by their lack of a hakama and their singularly uncouth demeanor.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_028",
+    "original": "Let us split up and cover as much ground as we can. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, I would entrust the Shiokaze Hostelry and the Rakuza District to you. Keep to the shadows, and gather what knowledge you can. When we are done with the task, let us reconvene here.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_JOBNIN630_02949_SYSTEM_000_030",
+    "original": "These men look to be members of the Garnet League. They seem to be discussing something...",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKUROPEOPLEA02949_000_031",
+    "original": "One day she has us sneakin\u0027 into a bleedin\u0027 imperial storehouse, and the next the Confederacy\u0027s chasin\u0027 us halfway across the Ruby Sea. Zakuro could pay us twice what she does and it wouldn\u0027t be bloody worth it.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKUROPEOPLEB02949_000_032",
+    "original": "Come now. Even you must admit it was quite the little adventure. Though it was fortunate that we came upon those Eorzean pirates when we did\u2500and that they believed our little ruse. In the end, we made it here with our little prize, did we not? We simply took a slight detour.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKUROPEOPLEA02949_000_033",
+    "original": "We didn\u0027t \u003Chex:021A020203\u003Eall\u003Chex:021A020103\u003E make it\u2500or have ye forgotten those we left behind at Bloodshore? Cut down by our pursuers, no doubt. The poor bastards... Whose brilliant idea was it to go along with that masked man\u0027s plan, anyway?",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKUROPEOPLEA02949_000_034",
+    "original": "If our brothers could not fend for themselves, they have only themselves to blame. As for our mysterious benefactor, he led us here as promised, did he not? Now we need only wait for our client to show and deliver the goods, and we will never need worry about going hungry again.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKUROPEOPLEA02949_000_035",
+    "original": "Speakin\u0027 of which, just how long does our man mean to keep us waitin\u0027? I\u0027m beginnin\u0027 to wonder if someone isn\u0027t playin\u0027 all of us for fools.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKUROPEOPLEA02949_000_036",
+    "original": "Now, now. We were late with our delivery, after all. Word has it our client returned to Koshu when we did not show, and now is making the long journey back to Kugane. We owe him some patience, do we not?",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKUROPEOPLEA02949_000_037",
+    "original": "One day she has us sneakin\u0027 into\u2500hey, why don\u0027t you mind yer own bloody business?",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKUROPEOPLEB02949_000_038",
+    "original": "My friend here has a bit of a temper. You\u0027d be wise to leave him alone.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_JOBNIN630_02949_SYSTEM_000_039",
+    "original": "The Garnet League men are not likely to divulge any secrets in the presence of strangers. Move out of eyeshot and \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Ehide\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E yourself in the shadows before approaching them again.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKUROPEOPLEA02949_000_045",
+    "original": "We\u0027re not puttin\u0027 on a bloody show here. Piss off!",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKUROPEOPLEB02949_000_046",
+    "original": "I am not in the habit of talking to strangers. If you have business, state it. If not, begone.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKUROPEOPLEA02949_100_045",
+    "original": "I\u0027ll believe it when I bloody see it...",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKUROPEOPLEB02949_100_046",
+    "original": "Have patience, friend. Just a bit longer, and the lives we have always wanted will be ours!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_JOBNIN630_02949_SYSTEM_000_050",
+    "original": "These men look to be members of the Garnet League. They seem to be discussing something...",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKUROPEOPLEC02949_000_051",
+    "original": "I-I swear, I just wanted to see what all the fuss was about! Barely put a finger on the thing, and next I knew it, Zakuro\u0027s blade was at my throat! I-I thought she was going to cut me down right on the spot!",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKUROPEOPLED02949_000_052",
+    "original": "Put yourself in her shoes. They say our client is such a dangerous man he\u0027s been known to kill those who renege on their agreements. If anything happened to the scroll, her life\u2500and ours\u2500would be as good as forfeit.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKUROPEOPLEC02949_000_053",
+    "original": "Y-You\u0027re sayin\u0027 she\u0027s as scared as us? Zakuro Brightblood, who single-handedly cut down a hundred Garleans in a day during the rebellion? Zakuro Brightblood, who dyes her hair red with the blood of her foes?",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKUROPEOPLED02949_000_054",
+    "original": "She cuts an imposing figure, this is true. But deep down, she\u0027s actually quite the sensitive type.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKUROPEOPLEC02949_000_055",
+    "original": "S-Sensitive!? Don\u0027t make me laugh...",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKUROPEOPLEC02949_000_056",
+    "original": "I-I swear, I just wanted to\u2500ah, was I sayin\u0027 something? N-No, I don\u0027t believe I was...",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_JOBNIN630_02949_SYSTEM_000_057",
+    "original": "The Garnet League men are not likely to divulge any secrets in the presence of strangers. Move out of eyeshot and \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Ehide\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E yourself in the shadows before approaching them again.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKUROPEOPLEC02949_000_058",
+    "original": "Wh-What is it? C-Can\u0027t you see we\u0027re discussin\u0027 important matters here?",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKUROPEOPLED02949_000_059",
+    "original": "You seem lost, friend. I suggest you get found, and quickly. Kugane is not friendly to those who go looking in the wrong places.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKUROPEOPLEC02949_100_058",
+    "original": "\u003Chex:021A020203\u003ES-Sensitive\u003Chex:021A020103\u003E! H-Hah, that\u0027s rich!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKUROPEOPLED02949_100_059",
+    "original": "I tell you, she really is quite charming when you get to know her...",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_JOBNIN630_02949_JACKE_000_065",
+    "original": "Seems the long journey\u0027s dulled ol\u0027 Jacke\u0027s wattles. Hope ye had better luck than I.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_JOBNIN630_02949_TSUBAME_000_066",
+    "original": "There is an air about you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I can tell you have grown even stronger since last we met.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_070",
+    "original": "It would seem we have everyone assembled. Excellent\u2500let us share all we have learned.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_071",
+    "original": "Allow me to see if I have this right. So, in short, the Garnet League lifted the scroll from a Garlean storehouse at the bidding of an unknown Hingan client. They meant to sail straight from Yanxia to Kugane, but ran afoul of the Confederacy\u2500doubtless because they were too poor to pay the Ruby Tithe.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_072",
+    "original": "In fleeing, they were then captured by the Krakens, so they claimed to be Doman refugees seeking asylum. Upon arriving in Eorzea, they made off with the scroll, and eventually found safe passage to Kugane\u2500with Karasu\u0027s aid? That one\u0027s motives remain as inscrutable as ever...but I digress.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_073",
+    "original": "Furthermore, they are led by one Zakuro Brightblood, about whom no small number of tall tales are told. Regardless of their veracity, there can be no doubting that she is a formidable opponent.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_074",
+    "original": "For my part, I heard that she is most protective of the scroll, and keeps it on her person at all times\u2500night and day.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_JOBNIN630_02949_TSUBAME_000_075",
+    "original": "I heard that Zakuro and her followers have rented a room at the Bokairo, an inn in town famous for its hot spring baths.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_JOBNIN630_02949_JACKE_000_076",
+    "original": "All ol\u0027 Jacke managed to whiddle is that the cove is right fond o\u0027 her flowin\u0027 locks. An\u0027 that she fancies herself a cup o\u0027 tea, makin\u0027 the trip from the inn to the teahouse and back at least thrice a day.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_077",
+    "original": "That is most...enlightening, Captain Jacke. Now, we must find a way to get our hands on the scroll before Zakuro\u0027s client arrives\u2500but how? We could challenge her to single combat, but the Sekiseigumi would not look kindly on that.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_078",
+    "original": "Besides, we are shinobi, are we not? We must use stealth to our advantage. We simply need a plan...",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_JOBNIN630_02949_PERIMUHAURIMU_000_080",
+    "original": "Look out below! Underfoot\u0027s on the scene. Good to see ye again, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Can\u0027t wait to snilch the new tricks ye\u0027ve learned from yer friends here.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_JOBNIN630_02949_VKEBBE_000_081",
+    "original": "What\u0027s a mort got to do to get herself some sushi? I\u0027m bloody starved! And what\u0027s with all these bleedin\u0027 seagulls? I swear, if another one takes a shite on my hair, it\u0027ll be seagull stew for dinner tonight!",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_JOBNIN630_02949_JACKE_000_079",
+    "original": "Wait...that\u0027s it! V\u0027kebbe, yer a bloody genius\u2500an\u0027 so am I, I reckon.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_JOBNIN630_02949_JACKE_000_082",
+    "original": "Gather \u0027round and lend me yer wattles, friends\u2500ol\u0027 Jacke\u0027s got a plan!",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_JOBNIN630_02949_JACKE_000_083",
+    "original": "First, we catch Zakuro as she\u0027s beatin\u0027 her way from the inn to the teahouse. Underfoot, V\u0027kebbe, Tsubame\u2500you three\u0027ll be in charge of causin\u0027 a scene and stoppin\u0027 the mort in her tracks.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_JOBNIN630_02949_JACKE_000_084",
+    "original": "Meanwhile, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. You make your way to that perch atop the markets, an\u0027 drop some imitation seagull shite down from above.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_JOBNIN630_02949_JACKE_000_085",
+    "original": "What with her precious locks all mucked up, the mort\u0027s sure to make for the hot springs. She can\u0027t very well bring the scroll into the water, so we just follow along\u2500all stealthy-like\u2500an\u0027 heave it from whatever basket she\u0027s stowed it away in.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_JOBNIN630_02949_JACKE_000_086",
+    "original": "For good measure, Oboro and I\u0027ll head to the bathhouse as well an\u0027 keep the girl occupied until \u003Chex:022C0DFF07022903EB0203FF02200203\u003E has the scroll safely in \u003Chex:02080DE905FF04276572FF0427697303\u003E daddles!",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_087",
+    "original": "A most impressive plan, Captain Jacke. But I have one question: how do you propose that the two of us keep Zakuro...occupied?",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_JOBNIN630_02949_TSUBAME_000_088",
+    "original": "Oboro, surely you remember our visit to Bronze Lake, and the little show I put on for our pirate friend? It\u0027s all quite simple, really.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_089",
+    "original": "I am not certain I understand what you\u2500oh. On second thought, I am not quite convinced this is the best course of action...",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_JOBNIN630_02949_JACKE_000_090",
+    "original": "Ahaha! Give yerself some more credit, lad. Now, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Ye\u0027ll want to climb up to the roof atop the Bokairo, an\u0027 then make your way across to the wire atop the markets.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_JOBNIN630_02949_JACKE_000_091",
+    "original": "Here, this white dye should do a suitable seagull shite impersonation. Once Underfoot and the gang lure Zakuro into position, let \u0027er fly.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_JOBNIN630_02949_JACKE_000_092",
+    "original": "All right, lads and lasses, look sharp! We\u0027ll meet back here once all\u0027s bob.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_JOBNIN630_02949_JACKE_100_095",
+    "original": "Quite the plan, eh? Ol\u0027 Jacke\u0027s still got it in him.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_JOBNIN630_02949_VKEBBE_000_100",
+    "original": "The pain... Oh, the pain!",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_JOBNIN630_02949_TSUBAME_000_101",
+    "original": "My poor girl! Whatever is the matter?",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_JOBNIN630_02949_PERIMUHAURIMU_100_101",
+    "original": "Someone, anyone, find a healer! The girl needs help!",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKURO_000_102",
+    "original": "What was\u2500? Gah! Bird shite!? Oh, bloody \u003Chex:021A020203\u003Ebrilliant\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_JOBNIN630_02949_VKEBBE_000_103",
+    "original": "Thank you, kind sir and madam. But worry not\u2500I am not ill. You see, I simply haven\u0027t had a bite to eat all day.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_JOBNIN630_02949_PERIMUHAURIMU_000_104",
+    "original": "Ahaha! Is that all, now? Fortunately, the Shiokaze Hostelry is but a short walk away, and I hear their sushi is positively to \u003Chex:021A020203\u003Edie\u003Chex:021A020103\u003E for. Shall we?",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKURO_000_105",
+    "original": "My hair! My beautiful hair! \u003Csigh\u003E Back to the bathhouse, I suppose...",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_JOBNIN630_02949_SYSTEM_000_110",
+    "original": "You search the basket, but to no avail. The scroll must be around here somewhere...",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_115",
+    "original": "What beautiful locks you have! However do you keep them so smooth and silky?",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_JOBNIN630_02949_JACKE_000_116",
+    "original": "I\u0027ve seen many a rum doxy in my day, but ain\u0027t none what compare to you, milady.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_JOBNIN630_02949_ZAKURO_000_117",
+    "original": "Truly? I do not mean to boast, but they \u003Chex:021A020203\u003Edo\u003Chex:021A020103\u003E say my beauty is sung of far and wide...",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_JOBNIN630_02949_SYSTEM_000_120",
+    "original": "You search the basket, but to no avail. The scroll must be around here somewhere...",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_130",
+    "original": "Well done, my friends! The operation was, by any measure, a rousing success. That said, I have not seen Tsubame and the others\u2500I do hope all is well.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_JOBNIN630_02949_JACKE_000_131",
+    "original": "Now \u003Chex:021A020203\u003Ethat\u003Chex:021A020103\u003E was some rum fun, if I do say so meself. As for the cove, I wouldn\u0027t fret\u2500like as not V\u0027kebbe and Underfoot dragged her off to yaffle on some o\u0027 Kugane\u0027s finer delicacies.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_132",
+    "original": "No doubt you are right, Captain Jacke. In the meantime, pray show me the scroll, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I would see just what it is that Zakuro\u0027s mysterious employer covets so.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_133",
+    "original": "Why, this is\u2500are my eyes to be believed!? The forbidden mudra of summoning! I had half-thought it just a ghost story meant to strike fear in the hearts of shinobi who would stray from their path.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_JOBNIN630_02949_JACKE_000_134",
+    "original": "Forbidden summoning? I wouldn\u0027t know a mudra from me own grandmum, but that sounds right dangersome...",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_135",
+    "original": "It is indeed, Captain Jacke. The legends say that if the summoner\u0027s focus wanes for even a moment, the monstrous beast called forth by this mudra will not hesitate to devour him whole.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_136",
+    "original": "Many years ago, it was gifted from our village to the King of Doma\u2500then sealed away, to be used only in the most dire of circumstances. But it was lost in the chaos of the Garlean invasion, and never seen again. So it has been sleeping in an imperial vault all these years...",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_JOBNIN630_02949_JACKE_000_137",
+    "original": "So even with this bleedin\u0027 all-powerful summonin\u0027 at their fingertips, the Domans still couldn\u0027t hold off the Empire? Guess it wasn\u0027t all it was cracked up to be, eh?",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_138",
+    "original": "On the contrary, we never had the chance to find out. Master Gekkai, who led the shinobi, deemed the risk too great and refused to employ it, even as our nation fell.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_139",
+    "original": "Whether Master Gekkai plotted his betrayal even then, or whether he had our countrymen\u0027s best interests at heart, I cannot say\u2500though I would like to believe the latter.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_140",
+    "original": "Nonetheless, it is clear that none in Garlemald knew of the scroll\u0027s true power. And so it sat untouched until it was stolen by the Garnet League, at the bidding of some unknown master.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_141",
+    "original": "But aside from my fellow shinobi, who out there would know of the scroll\u0027s true power? But it matters little now. We have the scroll, and I must return it to its rightful home in my village.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_JOBNIN630_02949_JACKE_000_142",
+    "original": "\u0027Fraid I can\u0027t let ye do that, friend. I promised the Krakens I\u0027d bring the scroll back for them, an\u0027 I\u0027ll not have it said that Jacke ain\u0027t a man of his whids.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_JOBNIN630_02949_JACKE_000_143",
+    "original": "After all, the scroll\u0027s been missin\u0027 from your village for twenty-odd summers, no? Clearly no one\u0027s sufferin\u0027 much.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_144",
+    "original": "That is hardly the issue, Captain Jacke! This scroll is an ancient treasure\u2500it belongs in Doma!",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_JOBNIN630_02949_JACKE_000_145",
+    "original": "It belongs to those what found it, an\u0027 that\u0027s the Krakens! Gods, if ye ain\u0027t a stubborn bastard...",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_JOBNIN630_02949_KARASU_000_146",
+    "original": "(-Familiar Voice-)Gentlemen, gentlemen...must you make such a scene? After all, strictly speaking, the scroll \u003Chex:021A020203\u003Ebelongs\u003Chex:021A020103\u003E to neither of you.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_100_147",
+    "original": "Karasu! Wherever did you\u2500? But never mind. Thank you for guiding us here. You may rest assured that the scroll will safely return to Doma. You have my gratitude.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_JOBNIN630_02949_KARASU_000_148",
+    "original": "Oh, Oboro\u2500my dear, sweet, deluded Oboro. You grow ever dimmer by the day. Do you truly believe that I do what I do for \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E?",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_JOBNIN630_02949_KARASU_000_149",
+    "original": "I \u003Chex:021A020203\u003Edid\u003Chex:021A020103\u003E say that I was pulling all the strings in this little puppet play, did I not? Very well, allow me to put it in words even you can understand: the scroll belongs in Hingashi\u2500to the master I now serve.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_JOBNIN630_02949_KARASU_000_150",
+    "original": "My mistake was in entrusting to Zakuro and her lackeys what I should have seen to myself from the very start. Oh well, live and learn, I suppose!",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_JOBNIN630_02949_KARASU_000_151",
+    "original": "In any event, allow me to propose a simple transaction. You hand over the scroll, and I return your friends to you with their heads still attached to their bodies. A fair trade, no?",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_152",
+    "original": "Karasu, you craven\u2500!",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_JOBNIN630_02949_KARASU_000_153",
+    "original": "On second thought... Ahahaha! Yes, I do believe we could have even more fun. Keep your eyes and ears out, dim one\u2500you\u0027ll be hearing from me again soon.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_154",
+    "original": "Curse it all! And here I believed the man had turned over a new leaf after leaving Gekkai. But no, it would seem he has simply found another villain to serve.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_JOBNIN630_02949_JACKE_000_155",
+    "original": "Once a rook, always a rook, I reckon. An\u0027 a sharp one, at that\u2500Underfoot and the Stray aren\u0027t the types to get boned so easily.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_156",
+    "original": "As long as we have the scroll, Karasu is not like to cause our friends any harm. And yet, he is as unpredictable an adversary as they come. We must proceed with caution.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_JOBNIN630_02949_OBORO_000_157",
+    "original": "Forgive me, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. It would mean much to me if you would remain in Kugane until our work here is through. Pray continue to train in your ninjutsu, and I shall call upon you again when the time is right.",
+    "translation": ""
+  }
+}

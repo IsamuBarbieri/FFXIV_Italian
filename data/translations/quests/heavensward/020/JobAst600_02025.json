@@ -1,0 +1,402 @@
+{
+  "0": {
+    "tag": "TEXT_JOBAST600_02025_SEQ_00",
+    "original": "Jannequinard and Lady Leveva appear to be ready to depart\u2500with or without you.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_JOBAST600_02025_SEQ_01",
+    "original": "As a last-ditch effort to save Lady Leveva and her grandfather, you conceive a plan in which you will attempt to fool Sevestre into believing you possess a second document that could implicate him in Rufin\u0027s murder. Travel to Sharlayan\u0027s Answering Quarter in the Dravanian hinterlands and rendezvous with Jannequinard to begin your preparations for the final showdown.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_JOBAST600_02025_SEQ_02",
+    "original": "There is time before the scheduled meeting with Sevestre and Lady Leveva wishes to view the land where her father was raised. Join her on a walk through the abandoned city\u003Chex:021F0103\u003Estate.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_JOBAST600_02025_SEQ_03",
+    "original": "The time is nigh for your confrontation with Sevestre. Proceed to the place of meeting and wait for the Sharlayan official\u0027s arrival.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_JOBAST600_02025_SEQ_04",
+    "original": "Before you can even attempt to blackmail Sevestre, he reveals that the document contained in Rufin\u0027s diary is the only one remaining. The revelation is followed by a violent exchange from which, despite Sevestre\u0027s ability to manipulate time itself, you miraculously emerge victorious and retrieve the diary. In a lapse of judgment that could only be attributed to hubris, it appears Sevestre has failed to remove the information which damns him, allowing Lady Leveva to use the diary as leverage to see her grandfather freed and have Sevestre report to the Forum that she has perished on Eorzean soil so she may continue her activities in Ishgard unimpeded by the Old World.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_JOBAST600_02025_SEQ_05",
+    "original": "There is time for one last conversation with Jannequinard before you can celebrate.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_JOBAST600_02025_SEQ_06",
+    "original": "Upon returning to Ishgard, you learn that Lady Leveva has taken the name of her father Rufin and plans to continue his legacy. Jannequinard plans to finally unlock the remaining heavens, and Quimperain... He is most likely stuck doing the same thing he always has\u2500suffer his master.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe next astrologian quest will be available from Jannequinard once you have completed the main scenario quest \u201CThe Far Edge of Fate.\u201D",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_JOBAST600_02025_TODO_00",
+    "original": "Speak with Jannequinard in Sharlayan\u0027s Answering Quarter.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_JOBAST600_02025_TODO_01",
+    "original": "Speak with Leveva.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_JOBAST600_02025_TODO_02",
+    "original": "Speak with Leveva again.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_JOBAST600_02025_TODO_03",
+    "original": "Speak with Leveva yet again.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_JOBAST600_02025_TODO_04",
+    "original": "Return to Ishgard and speak with Jannequinard.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_000",
+    "original": "There is no other path for me to take. If I do not give myself up, I will be putting the only family I have left in danger, and I cannot bear such a burden. You may accompany me if you wish, but know that by doing so you put yourself in grave danger for no reason other than your pride.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_JOBAST600_02025_JANNEQUINARD_000_000",
+    "original": "I am quite aware that the mere notion of accompanying Leveva to the Answering Quarter is bordering on absurd, but I cannot in good faith abandon our good friend in her time of need, not after all we have been through. I am joyed to see that you have come to the same conclusion as well.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_001",
+    "original": "You two are foolish...but I would not trade friends such as you for all the gold in the Aurum Vale.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_JOBAST600_02025_JANNEQUINARD_000_002",
+    "original": "But there is no gold in the\u2500\u003Chex:02100103\u003EAhem, my lady, might I ask you entertain a second option? You said that your father\u0027s diary contained a document which implicates Sevestre in Rufin\u0027s murder. What if\u2500and I fully understand the enormity of this if\u2500but what if Sevestre still has yet to lay eyes on that document? Suppose he only took the diary to provoke you? If we could somehow retrieve it before you boarded his airship...",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_003",
+    "original": "Then we would have a bargaining chip of our own... But this man is the leader of the Bibliothecs\u2500their sole purpose in life is the hoarding of knowledge. Of course he read the diary. And knowing Sevestre, the document would have been set to flame the moment he discovered it.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_004",
+    "original": "Unless... We told him that there was \u003Chex:021A020203\u003Eanother\u003Chex:021A020103\u003E document... One that I removed from the diary to have examined. One that was \u003Chex:021A020203\u003Enot\u003Chex:021A020103\u003E in the diary when he stole it. Of course there is no such page, but it would be easy enough to draft something up from memory of what I saw. Something that would appear official from a distance...",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_005",
+    "original": "It just might work...though there is always the chance that he may simply attempt to take the document by force... Were that to happen, we would be fortunate to escape with our lives. Sevestre is a formidable astrologian. Some say he even possesses the power to \u003Chex:021A020203\u003Estop time\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_JOBAST600_02025_JANNEQUINARD_000_006",
+    "original": "But I thought those were only...!? No. We mustn\u0027t think of that. There is little time left before the scheduled meeting in the Answering Quarter. Lady Leveva\u0027s plan is all we have. If we are to save both her and her family, we must act, and trust that the stars will guide us to victory.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_JOBAST600_02025_JANNEQUINARD_000_009",
+    "original": "There is little time, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. If we are late to the arranged meeting place in the Answering Quarter, who knows what Sevestre will do to Professor Mace or Lady Leveva\u0027s mother!?",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_009",
+    "original": "This is where my people lived... Where my father was born and raised. Where he became an astrologian. Where he took his first steps on the path that would lead us all here. He was not a Sharlayan. Not even Hyuran. He was an Eorzean. Like Jannequinard and Quimperain. Even you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_JOBAST600_02025_QUIMPERAIN_000_009",
+    "original": "What happened here...?",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_JOBAST600_02025_JANNEQUINARD_000_010",
+    "original": "Nigh on fifteen summers have come and gone since I last set foot on the Paths of Contemplation, yet this place appears as if it hasn\u0027t been inhabited for centuries.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_011",
+    "original": "Nature is the greatest of levelers, Jannequinard. She provides us with what we need, but when we are done with it, she is quick to take back what is, and always has been, rightfully hers. There is still time before Sevestre is to arrive. I would like to take a walk and see where my father lived. Just knowing that I tread the same ground as he may grant my mind peace.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_JOBAST600_02025_JANNEQUINARD_000_012",
+    "original": "Well, then might I suggest a rooftop garden directly to the south of here? Your father and I would spend many a night there gazing up at the stars and prattling on about our dreams into the small hours. It is where he first told me of your mother\u2500your birth mother, not the aunt who cared for you after Lady Byrde died in labor\u2500and the child she was carrying.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_JOBAST600_02025_JANNEQUINARD_000_029",
+    "original": "Not all of the conversations Rufin and I had here were pleasant. He was a fiery spirit, who, once an idea had filled his head, would make it his whole life, regardless of how outlandish it was. Reintroducing Sharlayan astrology to Eorzea was one such idea. I was against it at first, knowing firsthand how traditionalist the people of my city\u003Chex:021F0103\u003Estate were... But your father overwhelmed me with his passion, and it was not long before I, too, found myself a disciple of his vision.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_030",
+    "original": "I wonder if my father knew that one day I would be here, standing under the same sky he did.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_031",
+    "original": "Did he know that he would have a daughter who was as stubborn as he? A daughter who put her life and the lives of those she loved in danger because of an unfulfilled dream?",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_032",
+    "original": "I think he did. And I think if he were here now, he would be proud. Proud that I at least tried. Proud that I did not let fate control me, but that I rather walked hand in hand with that fate down a path my father left, not only for me, but for all those who would carry in their hearts the same dream.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_JOBAST600_02025_JANNEQUINARD_000_033",
+    "original": "I believe he would be, as well, Lady Leveva. Though I did not fully realize it until recently, these past moons, it has been as if Rufin was here by my side once again. The passion...the stubbornness...the talent.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_JOBAST600_02025_JANNEQUINARD_000_034",
+    "original": "I do not think he would stand idly by as Sevestre had his way, and so I believe neither should we.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_035",
+    "original": "Thank you Janne... I know I have been hard on you, but it is only because you were an incompetent astrologian with an aversion to training...not because you were anything but a good man...and a good friend. Now, let us see what the stars have in mind for us today.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_JOBAST600_02025_JANNEQUINARD_000_039",
+    "original": "Fate is but a suggestion. Remember that.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_JOBAST600_02025_QUIMPERAIN_000_039",
+    "original": "You may keep your readings to yourself. No offense, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E, but the only thing that shall be guiding me tonight is my obligation to Lady Leveva. That, and my blade.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_050",
+    "original": "Sevestre is not a man to be late. He will be here.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_JOBAST600_02025_SEVESTRE_000_060",
+    "original": "Ah, ever so predictable, Leveva. I am sorry to inform you, there has been a change of plans. There will be no return to your homeland. No tear-filled reunion with your grandfather. No trial. Only a sentence. And that sentence shall be carried out here, by mine hand. You see, after reading your father\u0027s diary, it became clear that you and your wretched friends know too much.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_JOBAST600_02025_SEVESTRE_000_061",
+    "original": "You would not believe how long I have been searching for that document. The last one that connected me to your father\u0027s...unfortunate accident. I tracked down and had all the others destroyed. But this one has eluded me for almost two decades. ",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_062",
+    "original": "...The \u003Chex:021A020203\u003Elast\u003Chex:021A020103\u003E?",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_063",
+    "original": "Janne, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! It appears we are left with but a single path.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_JOBAST600_02025_JANNEQUINARD_000_064",
+    "original": "There was only ever one, my lady! And we shall see it to the end!",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_JOBAST600_02025_QIB_001_TODO_1",
+    "original": "Defeat Sevestre.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_JOBAST600_02025_QIB_001_SEVESTRE_BATTLETALK_01",
+    "original": "Thanks are in order, Leveva. By ignoring my directions to come alone, you have saved me the effort of tracking down and slaying each one of you individually.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_JOBAST600_02025_QIB_001_LEVEVA_BATTLETALK_01",
+    "original": "Silence!",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_JOBAST600_02025_QIB_001_SEVESTRE_BATTLETALK_02",
+    "original": "If you barbarians are one thing, it is brave. I shall give you that. Bravery, however, is the blunt blade of the foolish and the weak.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_JOBAST600_02025_QIB_001_SEVESTRE_BATTLETALK_03",
+    "original": "Let me show you why the barbarians cannot be allowed to have this knowledge!",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_JOBAST600_02025_QIB_001_LEVEVA_BATTLETALK_04",
+    "original": "Sevestre plots something ill. Do not let down your guard!",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_JOBAST600_02025_QIB_001_LEVEVA_BATTLETALK_05",
+    "original": "Those arcana... They are not right. I sense forbidden magicks.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_JOBAST600_02025_QIB_001_LEVEVA_BATTLETALK_06",
+    "original": "Hurry and destroy them! The power they draw from the constellations is too much!",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_JOBAST600_02025_QIB_001_SEVESTRE_BATTLETALK_04",
+    "original": "Destiny lies in mine hands!",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_JOBAST600_02025_QIB_001_SEVESTRE_BATTLETALK_05",
+    "original": "By your own definition, you manipulate the fates of others...but then bleat like lambs led to slaughter when another does the same to yours.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_JOBAST600_02025_QIB_001_SEVESTRE_BATTLETALK_06",
+    "original": "Do you still not see the fallacy in this!? Do you still not see that there is no escape?",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_JOBAST600_02025_QIB_001_LEVEVA_BATTLETALK_07",
+    "original": "I see that our fates are what we make them!",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_JOBAST600_02025_SEVESTRE_000_070",
+    "original": "Wait! If you wish to see your grandfather live, you will not kill me!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_071",
+    "original": "That was never our intention, Sevestre. No... I only wish to ask a few simple favors\u2500the first being the return of my father\u0027s diary.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_072",
+    "original": "You will then send word back to the Old World to have my grandfather released immediately. And finally, you will return to Sharlayan and report to the Forum that I have disappeared and am presumed deceased. Fail to do these things, and I shall tell the Forum all I know of your involvement in my father\u0027s death. I doubt they will be as generous with their mercy as I.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_JOBAST600_02025_SEVESTRE_000_073",
+    "original": "And what? You shall remain here and continue to spread our knowledge across this worm-eaten realm like it was sweet cream butter?",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_JOBAST600_02025_SEVESTRE_000_074",
+    "original": "You know not what you do. The barbarians of this realm have shown that they can only use knowledge to destroy each other. They corrupt it. They lessen it. And then they forget it. They never once have shown they are worthy of the knowledge they so defile. ",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_JOBAST600_02025_SEVESTRE_000_075",
+    "original": "And yet you would still give it to them. \u003Csigh\u003E Very well. I shall do as you ask.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_JOBAST600_02025_SEVESTRE_000_076",
+    "original": "But know that the Forum is ever listening, ever watching. Should you continue your escapades here in Ishgard, they \u003Chex:021A020203\u003Ewill\u003Chex:021A020103\u003E find out.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_JOBAST600_02025_SEVESTRE_000_077",
+    "original": "And they \u003Chex:021A020203\u003Ewill\u003Chex:021A020103\u003E send others until they have succeeded where I have...failed.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_078",
+    "original": "Then you\u0027d best make certain they do not. You are a powerful man who also happens to be a master of lies and deceit. I pray the task should not prove too difficult. And if it does, well then, I can always \u003Chex:021A020203\u003Eshow\u003Chex:021A020103\u003E them what manner of a man you truly are.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_JOBAST600_02025_JANNEQUINARD_000_079",
+    "original": "I do not think there will be any need for that. Sevestre, however wicked, is not a fool. He will not sacrifice what he has spent the past two decades building over a girl he, even with his back to the cobbles, sees as an inferior. Especially if you have offered him a means of accomplishing it without causing him to lose face. His pride, of course, will ache, but it\u0027s naught a little wine cannot cure.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_080",
+    "original": "\u003Csigh\u003E You are right, Jannequinard. Something I never thought I would admit...at least out loud.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_JOBAST600_02025_JANNEQUINARD_000_081",
+    "original": "So, does this mean you will remain in the See and continue your teachings?",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_082",
+    "original": "Of course I will. There is the pending contract with House Durendaire, my obligations to the Convictors and the hunters of Tailfeather...and then, of course, there is the matter of \u003Chex:021A020203\u003Eyour\u003Chex:021A020103\u003E incomplete training.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_083",
+    "original": "If memory serves me, you have still only opened \u003Chex:021A020203\u003Ehalf\u003Chex:021A020103\u003E of the heavens\u0027 gates.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_JOBAST600_02025_JANNEQUINARD_000_089",
+    "original": "Truth be told, I have no idea how we survived that battle. Think of it a moment. Sevestre could \u003Chex:021A020203\u003Estop\u003Chex:021A020103\u003E. \u003Chex:021A020203\u003ETime\u003Chex:021A020103\u003E. Perhaps fate has a stronger pull than I imagined... Or perhaps I\u0027ve merely evolved into an all-powerful astrologian. Likely the former.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_JOBAST600_02025_QUIMPERAIN_000_089",
+    "original": "You may recall a time when I pulled \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E aside and spoke of how I did not trust my master\u0027s heathen magicks. Well, I still do not trust \u003Chex:021A020203\u003Ehis\u003Chex:021A020103\u003E...but Lady Leveva\u0027s and yours? A man my age should not have lasted a half-bell in that last battle. Hells, I still cannot believe we fended off those pirates in Limsa Lominsa... I could not have survived this long without you, \u003Chex:02080FE905FF054C616479FF054C6F726403\u003E \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Should you ever have need of my sword, you need only ask.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_088",
+    "original": "Well, things did not go completely as planned, but we arrived at the fate intended for us nonetheless.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_089",
+    "original": "Now, the question is, what do we do with this fate we have been granted? I believe this warrants another reading...but perhaps, after we\u0027ve had a bite to eat.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_JOBAST600_02025_JANNEQUINARD_000_090",
+    "original": "Ah, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. You are just in time to greet the Athenaeum\u0027s newest member.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_JOBAST600_02025_JANNEQUINARD_000_091",
+    "original": "May I present you with, \u003Chex:021A020203\u003ELord\u003Chex:021A020103\u003E Rufin.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_092",
+    "original": "(-Rufin-)Why the surprise? Ah, but I believe I know the answer. Your senses are doubtless reeling \u003Chex:021A020203\u003Efrom having witnessed poor Lady Leveva\u0027s tragic end\u003Chex:021A020103\u003E in the hinterlands. \u003Cwink\u003E",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_100_093",
+    "original": "(-Rufin-)\u003Chex:021A020203\u003EContrary to popular opinion\u003Chex:021A020103\u003E, I was not murdered at all, but merely on a long and winding journey that has finally brought me back to Ishgard so that I may teach the secrets of Sharlayan astrology once again.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_093",
+    "original": "(-Rufin-)I mean to show the people that fate is a path that need not be walked in darkness. That the stars can be used to light the way.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_JOBAST600_02025_LEVEVA_000_094",
+    "original": "(-Rufin-)And my \u003Chex:021A020203\u003Efirst\u003Chex:021A020103\u003E lesson? That those who oppose this celestial guidance shall find their foes burning on and on without end.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_JOBAST600_02025_SYSTEM_000_500",
+    "original": "This concludes the astrologian quests for FINAL FANTASY XIV: Heavensward. In order to undertake the next series of quests, you must first meet the following requirements:",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_JOBAST600_02025_SYSTEM_000_501",
+    "original": "\u203BYou must have completed the main scenario quest \u201CThe Far Edge of Fate.\u201D",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_JOBAST600_02025_SYSTEM_000_502",
+    "original": "Once you have done so, the next astrologian quest will be available from Jannequinard.",
+    "translation": ""
+  }
+}

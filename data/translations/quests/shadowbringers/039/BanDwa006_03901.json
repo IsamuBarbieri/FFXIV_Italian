@@ -1,0 +1,592 @@
+{
+  "0": {
+    "tag": "TEXT_BANDWA006_03901_SEQ_00",
+    "original": "Ronitt looks primed to fire a particularly cheery dwarven greeting in your general direction.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_BANDWA006_03901_SEQ_01",
+    "original": "Following the roaring success of the Rolling Tankards, Ronitt is planning to host a small gathering of those who have contributed to Watts\u0027s Anvil. Rather than asking you to visit the far reaches of Norvrandt, extending personal invitations to each guest one by one, he saves you the trouble by volunteering to do the legwork himself, and asks only that you wait for him in Clearmelt with Lorathia.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_BANDWA006_03901_SEQ_02",
+    "original": "The guests arrive and are plied with Norvrandt\u0027s finest cuisine, while those partial to ale drink far more than is sensible. Regitt and Karutt offer some slurred words of gratitude and say their farewells before they can sully the clear waters of Clearmelt with the contents of their stomachs.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_BANDWA006_03901_SEQ_03",
+    "original": "Eueliss and Sai-Lewq express their thanks to you and Ronitt for helping to restore Wright to some semblance of its former glory. Due to your efforts, their fields are capable of producing the barley used in their traditional ale. Now their first batch in years has been successfully brewed, allowing them to share the fruits of their labors, which certain guests have been imbibing rather liberally.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_BANDWA006_03901_SEQ_04",
+    "original": "Ozogg reveals that you have inspired her to lead her own life, free from the rules and traditions of the Gogg. In a quite literally bare-faced display of defiance, she removes her helmet, and in so doing makes herself an outcast from her village. Though she pledges her allegiance to Watts\u0027s Anvil, she is more determined than ever to outdo Ronitt and claim the heirloom of their shared ancestor.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_BANDWA006_03901_SEQ_05",
+    "original": "Upon returning to Watts\u0027s Anvil, Ronitt makes no attempt to conceal his distaste at what he considers the utmost indecency on the part of Ozogg, an act viewed with scorn by Tholl and Gogg alike. Nevertheless, it seems their destinies are intrinsically entwined as their mutual rivalry spurs them to push the boundaries of dwarven engineering. The citizens of Norvrandt, meanwhile, stand to benefit a great deal as a result of this friendly competition.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_BANDWA006_03901_TODO_00",
+    "original": "Speak with Lorathia.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_BANDWA006_03901_TODO_01",
+    "original": "Speak with Eueliss.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_BANDWA006_03901_TODO_02",
+    "original": "Speak with Ozogg.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_BANDWA006_03901_TODO_03",
+    "original": "Speak with Ronitt.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_000",
+    "original": "Just who I was hopin\u0027 to see!",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_001",
+    "original": "Lali-ho to you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_BANDWA006_03901_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_BANDWA006_03901_A1_000_001",
+    "original": "Lali-ho!",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_BANDWA006_03901_A1_000_002",
+    "original": "Hi-ho!",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_BANDWA006_03901_A1_000_003",
+    "original": "Rh-Rhallie-who...?",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_002",
+    "original": "Haha! A fine lali-ho if ever I heard one!",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_003",
+    "original": "Hmm... Nah, I don\u0027t think that\u0027ll catch on, mate. I\u0027d stick to a good old-fashioned \u201Clali-ho\u201D if I were you. But I\u0027m glad you\u0027re here, all the same!",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_004",
+    "original": "Ha! Don\u0027t tell me your head\u0027s gettin\u0027 soft in your old age! Or maybe you\u0027re just pullin\u0027 my leg? Either way, it\u0027s great to see you!",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_005",
+    "original": "Since the last time we spoke, we\u0027ve been busier than ever. Our first payin\u0027 customers, Iriolva and Cobleva, have already started usin\u0027 Rollin\u0027 Tankards to ferry their goods about.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_006",
+    "original": "So far, there\u0027ve been no reports of any horrendous accidents or anythin\u0027, which is a relief.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_007",
+    "original": "We\u0027ll be aimin\u0027 for the same high level of quality for the rest of the tanks, and thanks to our new friends, word\u0027s been gettin\u0027 around fast.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_008",
+    "original": "Orders have been flyin\u0027 in thick and fast! This is goin\u0027 better\u0027n I dared dream!",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_009",
+    "original": "This calls for a celebration!",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_010",
+    "original": "\u0027Course, it wouldn\u0027t be the same without all of the others, so I\u0027ll go an\u0027 round \u0027em up. In the meantime, why don\u0027t you go over to Clearmelt and wait with Lorathia?",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_BANDWA006_03901_LORATHIA_000_020",
+    "original": "Oh, I see you\u0027re the opposite of what they call \u201Cfashionably late.\u201D Since you\u0027re here, you can help me get everything ready.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_100",
+    "original": "Heh, I\u0027m surprised you resisted the temptation to start diggin\u0027 in before we got here!",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_101",
+    "original": "I bet you ain\u0027t never seen a feast like this! We\u0027ve got the best grub Norvrandt has to offer. Eueliss and Sai-Lewq even brought a keg of their famous ale over from Wright!",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_102",
+    "original": "\u0022But how did they carry somethin\u0027 so heavy all this way?\u201C I hear you cry.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_103",
+    "original": "Yeah, that\u0027s right...",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_104",
+    "original": "...by tank, of course!",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_BANDWA006_03901_LORATHIA_000_105",
+    "original": "Those things might be armed to the teeth with some of the world\u0027s most advanced weaponry, but it\u0027s what they carry that makes the real difference. People across the land can get what they need, when they need it.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_BANDWA006_03901_LORATHIA_000_106",
+    "original": "Not to mention a few of life\u0027s luxuries, too!",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_BANDWA006_03901_EUELISS_000_107",
+    "original": "It seems all of our hard work has finally paid off!",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_BANDWA006_03901_EUELISS_000_108",
+    "original": "To think that Wright is at long last able to produce its own ale again! Thanks to you and Ronitt, we\u0027ve had the best barley crops in years.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_BANDWA006_03901_SAILEWQ_000_109",
+    "original": "Even our very first batch has earned the approval of our village\u0027s most demanding beer aficionados. And due to the much improved quality of the soil, we have begun growing our own fruit, the juice of which we\u0027ve brought for the younger ones and teetotalers to enjoy.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_BANDWA006_03901_OZOGG_000_110",
+    "original": "All right everyone, it\u0027s time for a toast! So raise a tankard of ale, or tankard of juice if you\u0027re a mewling whelp like Ronitt\u2500",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_111",
+    "original": "Watch it, Ozogg, or you\u0027ll be wearin\u0027 that drink of yours!",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_112",
+    "original": "Ahem! To the continued success of Watts\u0027s Anvil and all of our friends!",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_113",
+    "original": "(-Everyone-)Cheers!",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_114",
+    "original": "The years of struggle and adversity seem a distant memory to the inhabitants of the First as they strive for a better tomorrow.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_115",
+    "original": "In particular, the dwarves of Kholusia will have a vital role to play in the days to come, with their ingenuity and diligence paving the way to unlimited possibilities.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_BANDWA006_03901_SYSTEM_000_116",
+    "original": "And even after the dishes were cleared away, the celebrations continued...",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_BANDWA006_03901_REGITT_000_120",
+    "original": "Shay there, \u003Chex:020813E905FF066D69737368FF086D69736874657203\u003E... You don\u0027t sheem drunk in the \u003Chic\u003E shlightesht.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_BANDWA006_03901_KARUTT_000_121",
+    "original": "\u003Chic\u003E I...w-would jusht l-like to shay... To shay...",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_BANDWA006_03901_KARUTT_000_122",
+    "original": "\u003Csnore\u003E",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_BANDWA006_03901_REGITT_000_123",
+    "original": "Oi, Karutt! At leasht \u003Chic\u003E finish your shentence afore you fall ashleep!",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_BANDWA006_03901_REGITT_000_124",
+    "original": "I think...what he meansh ish...we all owe you our heartfelt thanksh, eshpecially Ronitt.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_BANDWA006_03901_KARUTT_000_125",
+    "original": "Afore you showed up, he wouldn\u0027t shay boo to a gooshe, but now, \u003Chic\u003E he\u0027s turned into a great leader! Musht be from following your \u003Chic\u003E example.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_BANDWA006_03901_REGITT_000_126",
+    "original": "We know you\u0027ve got other people out there who \u003Chic\u003E need you, sho it would be shelfish to expect you to shtay, but we\u0027re grateful for the time you\u0027ve \u003Chic\u003E shpent with ush.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_BANDWA006_03901_KARUTT_000_127",
+    "original": "It m-means \u003Chic\u003E a lot, it really does.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_BANDWA006_03901_REGITT_000_128",
+    "original": "And if you\u0027re ever passhing through, be sure to pay ush a visit!",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_BANDWA006_03901_KARUTT_000_129",
+    "original": "\u003Chic\u003E Anyway, w-we\u0027d besht be heading b-back to the Anvil. \u003Chic\u003E Shafe travels!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_BANDWA006_03901_REGITT_000_130",
+    "original": "Oh, and make sure you shay \u003Chic\u003E good-bye to Euelissh and Shai-Lewq afore you leave. They\u0027ve been meaning to shpeak with you!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_BANDWA006_03901_EUELISS_000_140",
+    "original": "Oh, there you are!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_BANDWA006_03901_SAILEWQ_000_141",
+    "original": "Eueliss and I were just talking about you. We were wondering if the ale was to your liking, and then it occurred to me that you may not even drink in the first place.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_BANDWA006_03901_SAILEWQ_000_142",
+    "original": "Do you, ah, partake in the odd tipple?",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_BANDWA006_03901_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_BANDWA006_03901_A2_000_001",
+    "original": "No, I never touch the stuff.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_BANDWA006_03901_A2_000_002",
+    "original": "I\u0027ve been known to wet my whistle on occasion.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_BANDWA006_03901_A2_000_003",
+    "original": "You can\u0027t buy love, but you \u003Chex:021A020203\u003Ecan\u003Chex:021A020103\u003E buy alcohol, which is better.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_BANDWA006_03901_SAILEWQ_000_143",
+    "original": "Then perhaps we have found another customer for our soon-to-be-famous fruit juice! And be sure to tell your friends!",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_BANDWA006_03901_SAILEWQ_000_144",
+    "original": "Yes, and no doubt the volume varying in accordance with the nature of said occasion! A happy one such as this calls for more than a mere sip or two, I daresay!",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_BANDWA006_03901_SAILEWQ_000_145",
+    "original": "Words to live by! Perhaps we can use that as our slogan?",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_BANDWA006_03901_EUELISS_000_146",
+    "original": "Can I say, Sai-Lewq, how wonderful it is to see you in such high spirits! You\u0027re like a changed man!",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_BANDWA006_03901_EUELISS_000_147",
+    "original": "A change we have you to thank for, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Considering all you\u0027ve done for us and our village, I cannot imagine how we will ever repay you, so if there is aught you need, just say the word!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_BANDWA006_03901_SAILEWQ_000_148",
+    "original": "My sentiments exactly. I dread to think what would have become of us without your intervention.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_BANDWA006_03901_EUELISS_000_149",
+    "original": "Yes, and we owe a debt of gratitude to Master Ronitt, as well. Thanks to him and his automaton, my father\u0027s dream has at long last come true!",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_BANDWA006_03901_SAILEWQ_000_150",
+    "original": "If we take a leaf out of Ronitt\u0027s book by combining ingenuity with hard work, there is nothing we cannot achieve.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_BANDWA006_03901_EUELISS_000_151",
+    "original": "Maybe the next time you come to Wright, we\u0027ll have something new to show you. Our doors are always open, so don\u0027t be a stranger!",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_BANDWA006_03901_SAILEWQ_000_152",
+    "original": "Ah! I almost forgot to ask, but have you spoken with Ozogg? It seems there is something she would like to discuss with you.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_BANDWA006_03901_SAILEWQ_000_154",
+    "original": "I must say, this is quite the gathering!",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_BANDWA006_03901_OZOGG_000_155",
+    "original": "This ale from Wright really hits the spot!",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_156",
+    "original": "Who does she think she is, callin\u0027 me a \u201Cmewlin\u0027 whelp\u201D!? I don\u0027t even know what that means, but I assume it\u0027s an insult!",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_BANDWA006_03901_OZOGG_000_160",
+    "original": "Have you eaten your fill, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E?",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_BANDWA006_03901_LORATHIA_000_161",
+    "original": "I\u0027m sure \u003Chex:02080CE905FF04736865FF03686503\u003E has room for some more. Have you tried these wrigglers from Amh Araeng? If you can pluck up the courage, they\u0027re quite delicious!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_100_162",
+    "original": "Yeah! I can\u0027t get enough of \u0027em!",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_BANDWA006_03901_OZOGG_000_162",
+    "original": "Urp... Just thinking about them is making me queasy.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_BANDWA006_03901_LORATHIA_000_163",
+    "original": "Come on, live a little! It\u0027s like I always say: youth is wasted on the young.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_BANDWA006_03901_OZOGG_000_164",
+    "original": "Yes, and it\u0027ll be even more of a waste if a gifted engineer like me chokes to death on some godsforsaken worm! I\u0027ve got to look after myself if I want these plans of ours to come to fruition.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_165",
+    "original": "Anyway, Lorathia, I\u0027ll bet your best years are still ahead of you. In fact, why don\u0027t you come and help out at Watts\u0027s Anvil? It\u0027s gotta be better\u0027n drinkin\u0027 tea and soakin\u0027 in the hot springs all day!",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_BANDWA006_03901_LORATHIA_000_166",
+    "original": "When you get to my age, you\u0027ll learn to appreciate things like that, you mark my words! Still, it wouldn\u0027t do to let my skills get rusty. I suppose I could pop over and do a spot of welding from time to time.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_BANDWA006_03901_OZOGG_000_167",
+    "original": "Actually, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, there\u0027s something I want to say to you.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_BANDWA006_03901_OZOGG_000_168",
+    "original": "For most of my life, I\u0027ve been living according to others\u0027 expectations, without thinking about what \u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E want. But thanks to you, I\u0027ve made up my mind!",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_BANDWA006_03901_OZOGG_000_169",
+    "original": "Like you, I\u0027m going to pursue my own goals, my own dreams. That\u0027s why I\u0027ve decided to carry on here, where I can express myself and be who I want to be.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_BANDWA006_03901_OZOGG_000_170",
+    "original": "Rather than wasting my life being bound by traditions and rules, I want to be free to go where I please and \u003Chex:021A020203\u003Edo\u003Chex:021A020103\u003E as I please.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_BANDWA006_03901_LORATHIA_000_171",
+    "original": "But don\u0027t you want to go back to your village? All the Tholls here have permission to travel between Tomra and the Anvil whenever they want. What about you?",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_BANDWA006_03901_OZOGG_000_172",
+    "original": "Well, it\u0027s not as though I\u0027ve been banished. Not yet, anyway.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_BANDWA006_03901_OZOGG_000_173",
+    "original": "I can hardly go back to Komra now, can I?",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_BANDWA006_03901_OZOGG_000_174",
+    "original": "From this day forth, I am no longer a Gogg! I shall live only as Ozogg, descendant of Watts himself. I answer to no one!",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_179",
+    "original": "B-But...you...",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_180",
+    "original": "You can\u0027t just take off your helmet like that! I-It\u0027s...indecent!",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_BANDWA006_03901_LORATHIA_000_181",
+    "original": "Hahaha! I think he\u0027s just getting flustered by the sight of a pretty girl!",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_BANDWA006_03901_OZOGG_000_182",
+    "original": "Ahahaha! How can he expect to beat me in a battle of wits if he turns into a babbling buffoon every time I take my helmet off? Watts\u0027s hammer is as good as mine!",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_BANDWA006_03901_OZOGG_000_183",
+    "original": "That reminds me, I should get started on my next creation and prove my superiority once and for all! Time to head back to the Anvil!",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_BANDWA006_03901_LORATHIA_000_184",
+    "original": "And it looks like I might be joining you sooner rather than later.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_BANDWA006_03901_LORATHIA_000_185",
+    "original": "You young\u0027uns have brought me some much-needed excitement, and I can\u0027t wait to see what you\u0027ll come up with next.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_BANDWA006_03901_LORATHIA_000_186",
+    "original": "When I heard they were bringing worms over from Amh Araeng for us to eat, I thought they\u0027d gone barmy. But having tasted them, I can see the appeal!",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_BANDWA006_03901_EUELISS_000_187",
+    "original": "While we\u0027ll be taking it one step at a time, if we continue our efforts, Wright will go from strength to strength!",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_BANDWA006_03901_SAILEWQ_000_188",
+    "original": "If only our dearly departed were here with us now... I should like to think they are watching over us even at this very moment.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_BANDWA006_03901_LORATHIA_000_189",
+    "original": "This certainly makes a difference from the usual crowd we have here at Clearmelt!",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_190",
+    "original": "That Ozogg! Ain\u0027t she got no shame!? Just because she don\u0027t wanna go back to Komra, there\u0027s no need to...to...expose herself like that!",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_191",
+    "original": "I know you ain\u0027t a Tholl or a Gogg, so I don\u0027t expect you to understand, but you agree with me, don\u0027t you?",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_BANDWA006_03901_Q3_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_BANDWA006_03901_A3_000_001",
+    "original": "This is the worst thing that\u0027s ever happened in Lakeland. The worst thing!",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_BANDWA006_03901_A3_000_002",
+    "original": "You should take off your helmet, too. You might find it liberating.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_192",
+    "original": "Yeah, exactly! I should give her a piece of my mind!",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_193",
+    "original": "Wh-What!?",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_194",
+    "original": "No, absolutely not, never! I\u0027d rather lose my whole damn head than remove my helmet! Grrr... This is all Ozogg\u0027s fault! She needs a bloody good talkin\u0027 to.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_195",
+    "original": "...But that can wait.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_196",
+    "original": "Bugger it, I can\u0027t remember what I was gonna say now! Urngh...somethin\u0027 about thankin\u0027 you, or whatever it was...",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_197",
+    "original": "Well, I s\u0027pose I should express my gratitude for stickin\u0027 with me through thick \u0027n thin, even when it looked like this whole plan was gonna blow up in my face.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_198",
+    "original": "I know sometimes I can get a bit jealous of you havin\u0027 so many talents compared to me, bein\u0027 the savior of the bleedin\u0027 world and all that.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_199",
+    "original": "But I know you ain\u0027t doin\u0027 it to steal my thunder, you\u0027re just tryin\u0027 to be a good friend. And you are. The very best.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_200",
+    "original": "Bloody hells, keep this up an\u0027 I\u0027ll start bawlin\u0027 like a newborn! Anyway, the struggle to get those tanks might be over, but me, Ozogg, and the others\u0027ll carry on here.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_BANDWA006_03901_RONITT_000_201",
+    "original": "So if you ever feel like showin\u0027 off those skills of yours, you know where to come. In the meantime, best of luck with savin\u0027 the world or whatever you\u0027ll be doin\u0027!",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_BANDWA006_03901_SYSTEM_000_210",
+    "original": "You have achieved \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EBloodsworn\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E reputation with Watts\u0027s Anvil.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_BANDWA006_03901_SYSTEM_000_211",
+    "original": "You will receive an experience point bonus upon completion of the dwarf society daily quests.",
+    "translation": ""
+  }
+}

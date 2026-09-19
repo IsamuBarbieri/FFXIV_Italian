@@ -1,0 +1,267 @@
+{
+  "0": {
+    "tag": "TEXT_CLSALC530_02066_SEQ_00",
+    "original": "Wiltwaek\u0027s eyes say that something new is afoot.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_CLSALC530_02066_SEQ_01",
+    "original": "According to Wiltwaek, the thieves have struck again, this time taking a number of Allagan artifacts from Saint Coinach\u0027s Find. During his escape, one of the robbers dropped a curious document: a map of Mor Dhona, covered in strange symbols. Wiltwaek thinks these are a code of some kind the gang uses to communicate. Understanding what they mean is crucial to the investigation, and so he bids you present the enciphered map to the realm\u0027s foremost expert on ciphers: Baderon, owner of the Drowning Wench in Limsa Lominsa.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_CLSALC530_02066_SEQ_02",
+    "original": "After casting an eye over the enciphered map, Baderon announces that it is not, in fact, enciphered at all. The symbols have no meaning, but serve to distract from the actual message on the paper. This is likely written in an invisible ink of some sort, the barkeep says. Return with this surprising interpretation to Wiltwaek in Revenant\u0027s Toll.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_CLSALC530_02066_SEQ_03",
+    "original": "Wiltwaek is impressed by Baderon\u0027s keen deduction, and asks Chanene to report that they too have learned something about the map. The paper is of no interest, but the symbols are penned in enchanted ink. After asking your expert opinion and learning that enchanted ink is used for arcanima, Chanene attempts to activate the arcane geometry. However, all she does is sense a strange stoppage on the map\u0027s face. Wiltwaek realizes this is precisely the point of the map\u2500to direct the criminals to their target. Quick on her feet, Chanene proposes that you three create fake maps to lure the culprits out into the open. Wiltwaek agrees, and asks that you concoct three bottles of high-quality enchanted mythrite ink for the forgeries.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_CLSALC530_02066_SEQ_04",
+    "original": "Wiltwaek gratefully accepts the enchanted mythrite ink, and says he will set Chanene to work on the maps forthwith. He plans to draw the crooks to Saint Coinach\u0027s Find, where they will be easily visible amongst the researchers. Join him there, for you never know when an alchemist will come in handy.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_CLSALC530_02066_SEQ_05",
+    "original": "You find Wiltwaek and Chanene with a suspect already in custody\u2500a young man who appears to have come from the Near East. However, upon closer inspection, Wiltwaek realizes his silence is not stubbornness, but rather forced. He suspects some foul potion or another is at play, and wonders aloud if the Near Eastern youth is a victim and not a criminal. As Chanene turns to leave, she suddenly notices a strange man watching you from the shadows. Wiltwaek calls to him, but the fellow simply wanders away. Perplexed, Wiltwaek says that the criminals are toying with dangerous powers, and asks that you lend your aid again when the need arises.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe next alchemist quest will be available from Wiltwaek upon reaching level 55.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_CLSALC530_02066_TODO_00",
+    "original": "Deliver the enciphered map to Baderon in Limsa Lominsa.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_CLSALC530_02066_TODO_01",
+    "original": "Return the enciphered map to Wiltwaek.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_CLSALC530_02066_TODO_02",
+    "original": "\u003Chex:020880E3E802E803FF3053796E74686573697A6520656E6368616E746564206D7974687269746520696E6B2002280AFF064164646F6E0A0103FF4844656C697665722074686520626F74746C6573206F6620656E6368616E746564206D7974687269746520696E6B2002280AFF064164646F6E0A010320746F2057696C747761656B03\u003E.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_CLSALC530_02066_TODO_03",
+    "original": "Rendezvous with Wiltwaek at Saint Coinach\u0027s Find.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_CLSALC530_02066_WILTWAEK_000_000",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Good, I\u0027ve a job for you. Saint Coinach\u0027s Find was robbed not a few bells past. The thieves took several Allagan artifacts, many recently excavated.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_CLSALC530_02066_WILTWAEK_000_001",
+    "original": "A guard said one dropped this map of Mor Dhona during his escape. But it\u0027s covered in odd symbols. A coded message, perhaps, or a cipher. We must learn its secrets.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_CLSALC530_02066_WILTWAEK_000_002",
+    "original": "The owner of the Drowning Wench in Limsa can help. \u003Chex:020952E947FF18596F75277665206D65742042616465726F6E2C20796573FF1A4861766520796F75206865617264206F662042616465726F6EFF1A4861766520796F75206865617264206F662042616465726F6E03\u003E?",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_CLSALC530_02066_WILTWAEK_000_003",
+    "original": "He\u0027s the realm\u0027s foremost expert on ciphers...which is ironic if you know him. But I do believe he\u0027ll be able to read the symbols, and he\u0027ll need an alchemist to untangle their meaning. Godsspeed, my friend.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_CLSALC530_02066_WILTWAEK_000_010",
+    "original": "Time may be a factor, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u2500I wouldn\u0027t dally long before taking the enciphered map to Baderon.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_CLSALC530_02066_BADERON_000_030",
+    "original": "Greetin\u0027s to ye, \u003Chex:02080EE905FF056C617373FF046C616403\u003E. Ye\u0027ve got a dark look to ye, but a pint o\u0027 the Wench\u0027s finest\u0027ll cure that! Or...is there somethin\u0027 else ye want?",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_CLSALC530_02066_BADERON_000_040",
+    "original": "There\u0027s crooks usin\u0027 a cipher, an\u0027 ye think alchemy\u0027s involved? Well, alchemists\u0027ve always kept their secrets secret with codes an\u0027 such. But I\u0027m certain this ain\u0027t one. Just a bleedin\u0027 load o\u0027 gibberish.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_CLSALC530_02066_BADERON_000_041",
+    "original": "Now, I\u0027d go for the double-bluff meself. Pen the \u003Chex:021A020203\u003Ereal\u003Chex:021A020103\u003E message in invisible ink or summat, an\u0027 write a fake cipher on top. That way, ye fool them what don\u0027t know the code, an\u0027 throw them what \u003Chex:021A020203\u003Edo\u003Chex:021A020103\u003E off yer track.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_CLSALC530_02066_BADERON_000_042",
+    "original": "Just me \u0027umble opinion, \u0027course. An\u0027 I can\u0027t tell you what it does say. But mind ye pass every word of it on to whoever sent ye, eh?",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_CLSALC530_02066_BADERON_000_050",
+    "original": "I\u0027ve been thinkin\u0027 on yer ciphered map, \u003Chex:02080EE905FF056C617373FF046C616403\u003E. Whoever came up with the idea o\u0027 usin\u0027 invisible ink\u0027s right clever. Watch yerself, eh?",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_CLSALC530_02066_CHANENE_000_055",
+    "original": "Have you learned the map\u0027s secrets yet, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E?",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_CLSALC530_02066_WILTWAEK_000_070",
+    "original": "Did Baderon have any insight into the cipher?",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_CLSALC530_02066_WILTWAEK_000_080",
+    "original": "A fake to distract us from the real message in invisible ink, eh? Genius! Well, rest assured we haven\u0027t been idle either. Chanene?",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_CLSALC530_02066_CHANENE_000_081",
+    "original": "I had a piece of the map analyzed. The paper is unremarkable, but I\u0027m told the symbols were written in \u201Cenchanted ink.\u201D \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, what is that?",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_CLSALC530_02066_Q1_100_090",
+    "original": "What is enchanted ink?",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_CLSALC530_02066_A1_101_090",
+    "original": "Ink for penning grimoires.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_CLSALC530_02066_A1_102_090",
+    "original": "A superior aetherial conductor.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_CLSALC530_02066_CHANENE_101_091",
+    "original": "Ah, you mean for tracing geometries? And would I be correct in thinking that the more conducive to aether said ink is, the greater the magic it can channel?",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_CLSALC530_02066_CHANENE_102_091",
+    "original": "Ah, so the mythrite increases aetherial conductivity? And I assume arcanima relies upon this ink to channel magicks, yes?",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_CLSALC530_02066_CHANENE_000_092",
+    "original": "In theory, these symbols \u003Chex:021A020203\u003Eare\u003Chex:021A020103\u003E an arcane geometry. So if I channel magic into the map, then something ought to happen.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_CLSALC530_02066_CHANENE_000_093",
+    "original": "Nothing. I felt the magic flowing, but it just stopped\u2500like it hit a wall. Around the crime scene, if I had to pinpoint it.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_CLSALC530_02066_WILTWAEK_000_094",
+    "original": "I\u0027ve got it! That stoppage \u003Chex:021A020203\u003Eis\u003Chex:021A020103\u003E the criminal\u0027s target! The map gives directions where to go when magic is channeled into it!",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_CLSALC530_02066_CHANENE_000_095",
+    "original": "Brilliant! And...and if they rely on these maps for directions, we could bring them directly to us with a fake map...right?",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_CLSALC530_02066_WILTWAEK_000_096",
+    "original": "Perhaps we could! I found a fragment of a similar map near the road a while ago. If that is where the criminals drop off their orders...",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_CLSALC530_02066_CHANENE_000_097",
+    "original": "Then we know where to leave the forgeries! If our fakes pass muster, we could send them anywhere\u2500even to a gaol if we wanted!",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_CLSALC530_02066_WILTWAEK_000_098",
+    "original": "Chanene, you\u0027re good with a pen, so I\u0027ll entrust the maps to you. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, could you concoct enchanted mythrite ink? With three bottles of your finest, we\u0027ll see if we can\u0027t catch the bastards!",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_CLSALC530_02066_WILTWAEK_000_120",
+    "original": "I know I asked for enchanted mythrite ink, but I\u0027ve since been informed it\u0027s a tricky recipe. Are you up to the task?",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_CLSALC530_02066_WILTWAEK_000_130",
+    "original": "I see why Severian thinks so highly of you! We\u0027ll be able to lure our criminals out into the open with this ink and a little luck.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_CLSALC530_02066_WILTWAEK_000_131",
+    "original": "Now, Chanene and I have chosen Saint Coinach\u0027s Find. It\u0027ll be damned difficult to miss our suspect there. Come with us, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u2500it\u0027s safer to have an alchemist on hand than not.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_CLSALC530_02066_WILTWAEK_000_140",
+    "original": "This is a good ruse, but I wonder if it will actually draw our criminals to Saint Coinach\u0027s Find.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_CLSALC530_02066_CHANENE_000_145",
+    "original": "Well, this is the rat caught in our trap. But he\u0027s a bit...off.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_CLSALC530_02066_NEAREASTMAN02066_000_150",
+    "original": "...",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_CLSALC530_02066_WILTWAEK_000_160",
+    "original": "Behold, our culprit\u2500captured not five minutes past \u003Chex:021A020203\u003Ewith\u003Chex:021A020103\u003E the false map on his person!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_CLSALC530_02066_CHANENE_000_161",
+    "original": "But it\u0027s strange. He\u0027s not said a living word, not even in his own defense. Come on, lad, speak up! ...Can\u0027t you hear me?",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_CLSALC530_02066_NEAREASTMAN02066_000_162",
+    "original": "...",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_CLSALC530_02066_WILTWAEK_000_163",
+    "original": "Just our luck\u2500he\u0027s in a stupor. Struck dumb by something. Or...or \u003Chex:021A020203\u003Esilenced\u003Chex:021A020103\u003E somehow.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_CLSALC530_02066_CHANENE_000_164",
+    "original": "Wiltwaek, are you suggesting we\u0027ve got it wrong? That this boy is in fact a victim, robbed of his mind by a...a spell or a potion or something?",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_CLSALC530_02066_WILTWAEK_000_165",
+    "original": "That is my suspicion, yes, though it\u0027s purely conjecture without his identity. Just by looking at him, I\u0027d say he\u0027s from the Near East.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_CLSALC530_02066_CHANENE_000_166",
+    "original": "As in the birthplace of alchemy? That can\u0027t be a coincidence. Now\u2500 Hello, who\u0027s that fellow?",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_CLSALC530_02066_WILTWAEK_000_167",
+    "original": "Hey! You! Excuse me!",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_CLSALC530_02066_CHANENE_000_168",
+    "original": "How rude! Judging by his garb, he was Near Eastern as well. But why ignore us?",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_CLSALC530_02066_WILTWAEK_000_169",
+    "original": "Yet another mystery. But at least we\u0027ve got a lead\u2500this lad is at the center of this, be he culprit or victim. The Adventurers\u0027 Guild can keep him in protective custody.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_CLSALC530_02066_WILTWAEK_000_170",
+    "original": "Whatever put him in this state is dangerous, and those who wield this power doubly so. I\u0027ve little doubt we\u0027ll need your expertise again soon, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  }
+}

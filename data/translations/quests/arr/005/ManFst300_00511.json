@@ -1,0 +1,1387 @@
+{
+  "0": {
+    "tag": "TEXT_MANFST300_00511_SEQ_00",
+    "original": "Minfilia is wearing a wry smile. Might it have something to do with your newfound fame?",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_MANFST300_00511_SEQ_01",
+    "original": "It would seem your recent exploits have garnered the attention of all three of the Grand Companies of Eorzea. Now each one is intent upon adding you to its ranks, going so far as to send a representative to the Waking Sands to court you. Though Minfilia does not seem best pleased by this turn of events, she concedes that joining a Grand Company would yield certain benefits. But which one will you choose? That you might make an informed decision, she suggests that you attend the forthcoming remembrance services and listen to each Grand Company leader\u0027s address. Tataru will be able to furnish you with the particulars.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_MANFST300_00511_SEQ_02",
+    "original": "Tataru has apprised you as to where the remembrance services are due to be held. Visit Mih Khetto\u0027s Amphitheatre in Gridania, the Royal Promenade in Ul\u0027dah, and finally the Stateroom in Limsa Lominsa, and hear what the Grand Company leaders have to say.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_MANFST300_00511_SEQ_03",
+    "original": "You have now attended all three of the remembrance services. Based on the words of the Grand Company leaders and the traveling twins, Alphinaud and Alisaie, it would appear that each of Eorzea\u0027s city\u003Chex:021F0103\u003Estates is beset with problems. Clearly, all three would benefit from your aid, but which of them deserves it most? Make your way back to the Waking Sands, and share your thoughts with Minfilia.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_MANFST300_00511_SEQ_04",
+    "original": "Minfilia confirms that all three city\u003Chex:021F0103\u003Estates are sorely in need of assistance, and laments the fact that there is only one of you. A difficult choice awaits. Weigh your decision well, and give your answer to the officer of the Grand Company you would join.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_MANFST300_00511_TODO_00",
+    "original": "Speak with Tataru.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_MANFST300_00511_TODO_01",
+    "original": "Attend the remembrance service at Mih Khetto\u0027s Amphitheatre in Gridania.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_MANFST300_00511_TODO_02",
+    "original": "Attend the remembrance service at the Royal Promenade in Ul\u0027dah.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_MANFST300_00511_TODO_03",
+    "original": "Attend the remembrance service at the Stateroom in Limsa Lominsa.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_MANFST300_00511_TODO_04",
+    "original": "Report to Minfilia at the Waking Sands.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_10",
+    "original": "Until not so very long ago, you were but one of the many adventurers seeking to make their way in Eorzea.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_11",
+    "original": "But for your character and courage, you were raised to the esteemed post of envoy. Thereafter, you traveled the realm, aiding those in need without thought of reward, confirming to \u003Chex:020929E947FF0959277368746F6C61FF1159646120616E6420506170616C796D6FFF095468616E6372656403\u003E that the Scions would benefit from your aid. And no sooner had you joined us than you personally bested the primal Ifrit.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_12",
+    "original": "You have achieved a great deal in a short time, and won fame in so doing. Alas, fame does not come without a price, as you will soon discover.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_13",
+    "original": "We have guests, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u2500or rather...\u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E have guests.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_MANFST300_00511_THREEOFFICER_000_14",
+    "original": "(-???-)Beg pardons!",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_MANFST300_00511_FLAMEOFFICER_000_15",
+    "original": "Ahhh, Lady Minfilia. Radiant as always!",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_MANFST300_00511_SERPENTOFFICER_000_16",
+    "original": "I am given to understand that the Scions of the Seventh Dawn have but recently welcomed a new hero into their midst! ",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_MANFST300_00511_STORMOFFICER_000_17",
+    "original": "I am here on behalf of the Maelstrom, Grand Company of Limsa Lominsa, to offer said hero a place of honor within our ranks!",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_18",
+    "original": "As you can see, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, your recent exploits have garnered you the attentions of the Grand Companies of Eorzea.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_19",
+    "original": "Each organization would have Ifrit\u0027s bane for its own. To this end, all three have sent officers to \u003Chex:021A020203\u003Ecourt\u003Chex:021A020103\u003E you.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_20",
+    "original": "They would not ordinarily go to such lengths to enlist a new recruit. That they \u003Chex:021A020203\u003Ehave\u003Chex:021A020103\u003E is evidence of their high regard for you.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_21",
+    "original": "I find myself wondering how word of \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u0027s deeds spread so quickly. That the Immortal Flames should know of \u003Chex:02080DE905FF04686572FF0468697303\u003E triumph is to be expected...but what of the \u003Chex:021A020203\u003Eother\u003Chex:021A020103\u003E Grand Companies?",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_MANFST300_00511_TATARU_000_22",
+    "original": "Eep!",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_MANFST300_00511_SERPENTOFFICER_000_23",
+    "original": "Your reputation precedes you, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E! \u0027Tis no ordinary \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E who can face a primal and emerge the victor!",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_MANFST300_00511_SERPENTOFFICER_000_24",
+    "original": "And imagine our pride when we learned that you began your journey as an adventurer in our own Gridania! Know that the people hold you in high esteem, and that you will always be welcome among us.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_MANFST300_00511_SERPENTOFFICER_000_25",
+    "original": "The Order of the Twin Adder has need of valiant \u003Chex:02080FE905FF06776F6D656EFF046D656E03\u003E such as you. Join your strength to ours, friend, and together let us ensure that peace ever reigns over the Twelveswood!",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_MANFST300_00511_FLAMEOFFICER_000_26",
+    "original": "What a pleasure it is to finally meet you, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E! My comrades speak of you in the most glowing terms!",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_MANFST300_00511_FLAMEOFFICER_000_27",
+    "original": "Why, even before you aided us against the Amalj\u0027aa and their dread primal, yours was already a respected name in Ul\u0027dah. Our people know you and love you well.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_MANFST300_00511_FLAMEOFFICER_000_28",
+    "original": "A \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E of your talent belongs with the Immortal Flames. Join your strength to ours, friend, and together let us secure a prosperous future for Ul\u0027dah!",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_MANFST300_00511_STORMOFFICER_000_29",
+    "original": "The Admiral was not exaggerating when she said you have the look of a hero! Full often does she speak of you, friend.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_MANFST300_00511_STORMOFFICER_000_30",
+    "original": "...As do many others in Limsa. Long before the rest of Eorzea took note, your name was well known to us, owing to your valorous deeds on behalf of our citizens.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_MANFST300_00511_STORMOFFICER_000_31",
+    "original": "It is only natural that we should want you for the Maelstrom. Join your strength to ours, and together let us see the grand vessel of Limsa Lominsa to the shores of glory!",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_MANFST300_00511_THREEOFFICER_000_32",
+    "original": "(-Grand Company Officers-)Lady Minfilia!",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_33",
+    "original": "\u003Csigh\u003E Very well...",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_34",
+    "original": "Though I am quite sure you need no reminding, mayhap a brief summary of the situation would help to clarify your thoughts on this matter. As you know, the Grand Companies are all-encompassing organizations empowered to call upon the martial, economic, and technological resources of their respective city\u003Chex:021F0103\u003Estates in times of strife.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_35",
+    "original": "There are presently three such organizations in Eorzea: the Maelstrom of Limsa Lominsa, the Order of the Twin Adder of Gridania, and the Immortal Flames of Ul\u0027dah.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_36",
+    "original": "Serving a Grand Company means serving the nation to which it belongs. You will be charged with its defense, and tasked with advancing its cause.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_37",
+    "original": "In return for your faithful service, you will be furnished with various rewards, some of which may well prove useful to you in your other endeavors.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_38",
+    "original": "If you are agonizing over which of the Grand Companies best deserves your loyalty, be at ease\u2500the commitment you make this day need not be permanent. Should you wish to shift your allegiance at a later date, you are entitled to do so. And yet...I concede that it is no small choice you face...",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_39",
+    "original": "Ah! A thought occurs to me! You will, of course, recall that the three city\u003Chex:021F0103\u003Estates are planning to hold remembrance services.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_40",
+    "original": "Well, as part of the proceedings, I am given to understand that the leader of each Grand Company will deliver an address.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_41",
+    "original": "Hearing these addresses ought to help you make an informed decision. What say you, my dear officers?",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_MANFST300_00511_SERPENTOFFICER_000_42",
+    "original": "A fine suggestion!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_MANFST300_00511_FLAMEOFFICER_000_43",
+    "original": "You are as wise as you are beautiful, my lady!",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_MANFST300_00511_STORMOFFICER_000_44",
+    "original": "Very well! Let \u003Chex:022C0DFF07022903EB0203FF02200203\u003E hear our leaders speak, then return here with \u003Chex:02080DE905FF04686572FF0468697303\u003E decision.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_MANFST300_00511_THREEOFFICER_000_45",
+    "original": "(-Grand Company Officers-)We eagerly await your answer!",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_46",
+    "original": "I know full well that adventurers are by their nature a liberty-loving breed, and not best suited to the discipline of military service, but I strongly urge you to join a Grand Company nonetheless. While the promise of reward is enticing in itself, it is not the only benefit.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_47",
+    "original": "You are possessed of great power, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, and with it you are capable of doing untold good. Yet know that great power is wont to attract attention\u2500not all of it friendly.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_48",
+    "original": "There will be those who wish you ill, and you must needs be on the lookout for them. Yet however vigilant you are, you are but one \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E. In the midst of a Grand Company, however, you will be one \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E amongst many\u2500a friend amongst friends. Your achievements will be shared, and so will the danger. I can think of no better arrangement.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_49",
+    "original": "Of course, joining one organization need not mean leaving another. I hope that we can continue to rely upon your aid\u2500the Twelve know that we will have need of it in the days ahead.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_50",
+    "original": "The Grand Companies seek to protect their own nations. We Scions, on the other hand, seek to preserve the future of Eorzea as a whole. Similar, yet not quite the same.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_51",
+    "original": "Now then, I expect that you will be afield more often in the future.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_52",
+    "original": "As such, I would have you carry this linkpearl with you at all times. It will allow us to stay in touch regardless of location.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_53",
+    "original": "Eorzea is changing, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, and you have the power to help shape it anew.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_54",
+    "original": "None can say what the morrow will bring, but so long as we believe in ourselves, there is naught we cannot achieve.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_55",
+    "original": "Now, it is time you made ready for your journey. Before you depart, be sure to speak to Tataru. She will apprise you as to where and when the remembrance services are due to take place.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_MANFST300_00511_FLAMEOFFICER_000_900",
+    "original": "The Flame General is a passionate man, and his words never fail to light a fire in the belly of those who listen. I am sure you will be no exception!",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_MANFST300_00511_SERPENTOFFICER_000_901",
+    "original": "The Elder Seedseer speaks only truth, and her words have the power to touch the soul. At the sound of her voice, all fall silent and attend her.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_MANFST300_00511_STORMOFFICER_000_902",
+    "original": "When the Admiral speaks, even pirates listen, and that is no small thing. She is a born leader\u2500the kind one would gladly follow to the seventh hell!",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_MANFST300_00511_TATARU_000_60",
+    "original": "I, um... I\u0027m sorry about all the attention you\u0027re getting, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E... I might have sung your praises a little too loudly...and often...to a few too many people. Ahem. Next time, I\u0027ll be sure to hold my tongue\u2500literally, if necessary.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_MANFST300_00511_TATARU_000_61",
+    "original": "Anyway, I expect you want to know where and when the remembrance services are taking place?",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_MANFST300_00511_TATARU_000_62",
+    "original": "If all goes to plan, Gridania\u0027s Grand Company, the Order of the Twin Adder, will hold the first of the three services, and Elder Seedseer Kan\u003Chex:021F0103\u003EE\u003Chex:021F0103\u003ESenna will deliver her address at Mih Khetto\u0027s Amphitheatre.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_MANFST300_00511_TATARU_000_63",
+    "original": "I should probably mention at this point that due to the organizational challenges involved in assembling all of the involved parties, it\u0027s possible that the order of the services might change... Still, there\u0027s not much we can do about that, so make Gridania your first port of call.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_MANFST300_00511_TATARU_000_64",
+    "original": "Next, you\u0027ll need to go to Ul\u0027dah, where Flame General Raubahn Aldynn will be addressing the masses at the Royal Promenade. Oh, and it\u0027s rumored there\u0027s to be a special guest! How exciting.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_MANFST300_00511_TATARU_000_65",
+    "original": "Last but not least, you must make your way to the Stateroom in Limsa Lominsa, where Maelstrom Chief Admiral Merlwyb Bloefhiswyn will be giving her address.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_MANFST300_00511_TATARU_000_66",
+    "original": "The room is accessible via the Admiral\u0027s Lift. Identify yourself to the sentry, Zanthael, and he will admit you. Got all that?",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_MANFST300_00511_TATARU_000_67",
+    "original": "Well, off you go, then. I hope you find the remembrance services suitably educational! I suggest visiting the city\u003Chex:021F0103\u003Estates in my prescribed order, though with your record of \u003Chex:021A020203\u003Eimpeccable\u003Chex:021A020103\u003E timing and luck, the schedule may well change in favor of your preferred travel plans. Farewell!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_MANFST300_00511_100010_CLATTERM",
+    "original": "Behold, it is the Sultana Nanamo herself!",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_MANFST300_00511_100020_CLATTERF",
+    "original": "And Raubahn as well!",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_MANFST300_00511_100030_RAUBAHN",
+    "original": "Hark you, souls of flame, drawn to the bosom of the desert, where the fire burns brightest and shall rage forevermore!",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_MANFST300_00511_100040_CLATTERM",
+    "original": "HURRAH!",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_MANFST300_00511_100050_CLATTERM",
+    "original": "RAUBAHN!",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_MANFST300_00511_100060_RAUBAHN",
+    "original": "Where since antiquity, under the sage and judicious rule of the Ul Dynasty, we have wrought sand into gold!",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_MANFST300_00511_100070_RAUBAHN",
+    "original": "Where by the Grace and Glory of Nald\u0027thal have our brave sons and daughters flourished and prospered\u2500I speak of Ul\u0027dah!",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_MANFST300_00511_100080_ALPHINAUD",
+    "original": "(-\u003Chex:020824E4E94B01FF1353656C662D6173737572656420596F757468FF0A416C7068696E61756403\u003E-)There, at the Flame General\u0027s back flies the Grand Company\u0027s standard.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_MANFST300_00511_100090_ALPHINAUD",
+    "original": "(-\u003Chex:020824E4E94B01FF1353656C662D6173737572656420596F757468FF0A416C7068696E61756403\u003E-)Note the sigil. The golden scales of order balance the jewel of prosperity with the flame of might.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_MANFST300_00511_100100_RAUBAHN",
+    "original": "Great and many are the gifts our nation has given the realm.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_MANFST300_00511_100110_RAUBAHN",
+    "original": "In Eorzea\u0027s darkest hour, on the killing fields of Carteneau, none spent more in blood and gold than we.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_MANFST300_00511_100120_RAUBAHN",
+    "original": "Thus was the VIIth Imperial Legion laid low!",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_MANFST300_00511_100130_CLATTERM",
+    "original": "Raaah!",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_MANFST300_00511_100140_CLATTERM",
+    "original": "Yaaah!",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_MANFST300_00511_100150_ALPHINAUD",
+    "original": "(-\u003Chex:020824E4E94B01FF1353656C662D6173737572656420596F757468FF0A416C7068696E61756403\u003E-)So \u003Chex:021A020203\u003Ethat\u0027s\u003Chex:021A020103\u003E how it happened! How soon history forgets.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_MANFST300_00511_100160_RAUBAHN",
+    "original": "Yet many left our gates, never to return.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_MANFST300_00511_100170_RAUBAHN",
+    "original": "Let us pray for our absent brothers and sisters, that they might know happiness in the great beyond, as Thal\u0027s honored guests.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_MANFST300_00511_100180_RAUBAHN",
+    "original": "If the fates were fair, the price we paid that day would have bought us victory. Alas, they are not.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_MANFST300_00511_100190_RAUBAHN",
+    "original": "And now, but five years into this Seventh Umbral Era, the spirit of sacrifice which granted us our strength is all but dead.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_MANFST300_00511_100200_RAUBAHN",
+    "original": "Look around you. What do you see? A people divided, downtrodden and enthralled!",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_MANFST300_00511_100210_RAUBAHN",
+    "original": "Where are the merciful alms of the rich? Where is the just steel of the righteous?",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_MANFST300_00511_100220_CLATTERM",
+    "original": "That\u0027s not really fair...",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_MANFST300_00511_100230_CLATTERF",
+    "original": "It is as he says.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_MANFST300_00511_100240_RAUBAHN",
+    "original": "I ask you: is this the great nation our brothers and sisters gave their lives to save?",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_MANFST300_00511_100250_RAUBAHN",
+    "original": "You who call this \u201Cliving\u201D dishonor the name of the Immortal Flames\u2500it is but a slow death!",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_MANFST300_00511_100260_RAUBAHN",
+    "original": "Our enemies surround us. The savage hordes of the Amalj\u0027aa wait beside our roads, strangling the lifelines of trade.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_MANFST300_00511_100270_RAUBAHN",
+    "original": "Meanwhile, the Garleans make mock of our borders, and despoil our land of its natural wealth.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_MANFST300_00511_100280_RAUBAHN",
+    "original": "We stand on a precipice...yet we do not act.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_MANFST300_00511_100290_RAUBAHN",
+    "original": "Whether trader or soldier, Monetarist or Royalist, all must recognize that a divided Ul\u0027dah stands to fall.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_MANFST300_00511_100300_RAUBAHN",
+    "original": "Victory and Fortune walk hand in hand!",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_MANFST300_00511_100310_RAUBAHN",
+    "original": "Ye who seek glory and wealth! Look not to what little you can snatch from your neighbor, but to the boundless wealth of the world beyond!",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_MANFST300_00511_100320_RAUBAHN",
+    "original": "Now is the time to unite! Now is the time to ride forth!",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_MANFST300_00511_100330_RAUBAHN",
+    "original": "In the name of the sultana, I beseech you!",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_MANFST300_00511_100340_RAUBAHN",
+    "original": "Line not your own coffers, but those of the Immortal Flames! Seek not to prosper from Ul\u0027dah, but to restore her to prosperity!",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_MANFST300_00511_100350_RAUBAHN",
+    "original": "As the realm prospers, so shall Ul\u0027dah. As Ul\u0027dah prospers, so shall her people!",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_MANFST300_00511_100360_CLATTERM",
+    "original": "Yah! For Ul\u0027dah!",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_MANFST300_00511_100370_CLATTERF",
+    "original": "Together we are one!",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_MANFST300_00511_100380_RAUBAHN",
+    "original": "Your Grace.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_MANFST300_00511_100390_NANAMOULNAMO",
+    "original": "Raubahn.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_MANFST300_00511_100400_NANAMOULNAMO",
+    "original": "People of Ul\u0027dah! I, Nanamo, seventeenth in the line of Ul, address you.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_MANFST300_00511_100410_NANAMOULNAMO",
+    "original": "Much has been made of the wealth of Ul\u0027dah.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_MANFST300_00511_100420_NANAMOULNAMO",
+    "original": "Yet those who measure that wealth in coins and carats are gravely deceived.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_MANFST300_00511_100430_NANAMOULNAMO",
+    "original": "For the true wealth of Ul\u0027dah lies in the health, happiness, and hopes of her people.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_MANFST300_00511_100440_NANAMOULNAMO",
+    "original": "Beloved subjects, I bid you raise aloft the torch of Ul\u0027dah, that her Flames might serve as a beacon for all Eorzea to see!",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_MANFST300_00511_100450_CLATTERM",
+    "original": "Long live Nanamo!",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_MANFST300_00511_100460_CLATTERM",
+    "original": "Glory to the sultana!",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_MANFST300_00511_100470_RAUBAHN",
+    "original": "For Victory and Fortune, stride fearless into the inferno, for we are by fire reborn!",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_MANFST300_00511_100480_CLATTERM",
+    "original": "Forsooth!",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_MANFST300_00511_100490_CLATTERM",
+    "original": "The time is now!",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_MANFST300_00511_100500_CLATTERM",
+    "original": "I believe!",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_MANFST300_00511_100510_ALPHINAUD",
+    "original": "If you\u0027ll permit me. Alphinaud.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_MANFST300_00511_100520_ALPHINAUD",
+    "original": "...And my sister, Alisaie, at your service.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_MANFST300_00511_100530_ALPHINAUD",
+    "original": "I saw at a glance that you were a fellow traveler.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_MANFST300_00511_100540_ALPHINAUD",
+    "original": "You might call us students of history, sampling the realm\u0027s remembrances in pursuit of...enlightenment.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_MANFST300_00511_100550_ALPHINAUD",
+    "original": "Fancy meeting you again.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_80",
+    "original": "The Ul\u0027dahns have a long history of conflict with the Amalj\u0027aa, the beast tribe that worships the primal Ifrit.",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_81",
+    "original": "Judging by your look of distaste, I take it you have encountered them.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_82",
+    "original": "The Ul\u0027dahns do not shy from confrontation. If aught threatens their precious prosperity, they \u003Chex:021A020203\u003Ewill\u003Chex:021A020103\u003E seek to crush it.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_83",
+    "original": "So have they dealt with Ifrit thus far, smothering his flames each time he is stoked to life.",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_84",
+    "original": "Yet he is but one of several problems. Though they have been quiet these past five years, the Garleans have not gone away.",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_85",
+    "original": "Meanwhile, refugees continue to arrive in droves, and Ul\u0027dah has no clear policy on how to deal with them.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_86",
+    "original": "After all, not even the sultanate\u0027s coffers are bottomless. And even assuming they had the coin, resources will ever be finite.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_87",
+    "original": "Which brings me back to the subject of Ifrit. It has been observed that the Amalj\u0027aa are summoning him with ever-increasing frequency.",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_88",
+    "original": "Every time they do so, the Ul\u0027dahns send their forces to smite the primal, and though they invariably succeed, each victory is bought with blood. It is a war of attrition which they cannot well sustain.",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_89",
+    "original": "Small wonder, then, that the Immortal Flames are eager to recruit more members.",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_90",
+    "original": "At such a desperate hour, an adventurer of your experience would be a most welcome addition to their ranks.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_91",
+    "original": "For their sake, I hope that the Flame General\u0027s words struck a chord with you.",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_MANFST300_00511_300560_CLATTERM",
+    "original": "I lost my son to the Calamity...",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_MANFST300_00511_300570_CLATTERM",
+    "original": "Some say you couldn\u0027t take a step without stumbling over a body.",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_MANFST300_00511_300580_CLATTERF",
+    "original": "The three Seedseers are all together!",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_MANFST300_00511_300590_KANESENNA",
+    "original": "Our forebears were once strangers in the Twelveswood.",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_MANFST300_00511_300600_KANESENNA",
+    "original": "Fearful of the greenwrath, they hid themselves in the dark recesses of the earth. Yet they dreamed of basking in the dappled sunlight of the forest.",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_MANFST300_00511_300610_KANESENNA",
+    "original": "Through great effort, they proved their worth to the elementals, and were granted a place beneath the boughs. So it was that Gridania was born, some five centuries ago.",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_MANFST300_00511_300620_KANESENNA",
+    "original": "Working hand in hand, the Hyur and the Elezen settlers sowed the seeds of our civilization. And soon they were joined by folk of all races.",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_MANFST300_00511_300630_KANESENNA",
+    "original": "So nourished by the waters of unity and blessed by the light of the Matron, Gridania flourished into the great nation it is today.",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_MANFST300_00511_300640_ALPHINAUD",
+    "original": "(-\u003Chex:020824E4E94B01FF1353656C662D6173737572656420596F757468FF0A416C7068696E61756403\u003E-)Do you see the Gridanian standard? There, hanging behind the Elder Seedseer.",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_MANFST300_00511_300650_ALPHINAUD",
+    "original": "(-\u003Chex:020824E4E94B01FF1353656C662D6173737572656420596F757468FF0A416C7068696E61756403\u003E-)The entwined serpents represent the unity between Hyur and Elezen. An elegant symbol, do you not agree?",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_MANFST300_00511_300660_KANESENNA",
+    "original": "In accordance with the will of the elementals, we have embraced a life of peace. Alas, our neighbors have not always sought the same for themselves\u2500nor for us.",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_MANFST300_00511_300670_KANESENNA",
+    "original": "Though we Gridanians have no love for war, we have still less for those who would threaten our way of life. Ever have we fought to protect the sanctity of the Twelveswood.",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_MANFST300_00511_300680_KANESENNA",
+    "original": "When the Garlean Empire brought its war of conquest to Eorzea, we rallied under the noble standard of the Twin Adder, that we might push back the encroaching darkness.",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_MANFST300_00511_300690_KANESENNA",
+    "original": "And it was we who prepared the ground for the reformation of the Eorzean Alliance, that all the peoples of this realm might stand united against the common threat.",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_MANFST300_00511_300700_KANESENNA",
+    "original": "Five years ago, the Alliance met the armies of the Empire upon the fields of Carteneau.",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_MANFST300_00511_300710_KANESENNA",
+    "original": "It would prove the bloodiest battle in recent memory. Countless Gridanian lives were lost.",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_MANFST300_00511_300720_KANESENNA",
+    "original": "As supreme commander of the Order of the Twin Adder, ever shall I bear the weight of our people\u0027s sacrifice.",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_MANFST300_00511_300730_KANESENNA",
+    "original": "Alas, their loss was not the only tragedy to befall us that day, for soon came the Calamity.",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_MANFST300_00511_300740_KANESENNA",
+    "original": "The scars borne by our forest are a constant reminder of its violence. Our lives have been irrevocably changed, each waking hour a struggle to survive.",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_MANFST300_00511_300750_KANESENNA",
+    "original": "Driven to desperation, some among us have strayed from the path of righteousness, resorting to banditry, poaching, and other unconscionable deeds.",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_MANFST300_00511_300760_KANESENNA",
+    "original": "To compound our woes, the Ixal have returned in force, emboldened by our suffering. They test our defenses nigh without cease, and prey upon the vulnerable.",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_MANFST300_00511_300770_KANESENNA",
+    "original": "So beleaguered from within and without, it is of little wonder that our unity now falters. Dark times are upon us.",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_MANFST300_00511_300780_CLATTERM",
+    "original": "Time was a man could walk the highroads without fear.",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_MANFST300_00511_300790_CLATTERM",
+    "original": "A pox on the bloody Ixal!",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_MANFST300_00511_300800_KANESENNA",
+    "original": "On this day, five years ago, countless Eorzeans laid down their lives that we might behold another dawn. Please join with me in honoring their memory.",
+    "translation": ""
+  },
+  "197": {
+    "tag": "TEXT_MANFST300_00511_300810_ALISAIE",
+    "original": "(-\u003Chex:02081CE4E94B01FF0D43796E6963616C204769726CFF08416C697361696503\u003E-)And how do you propose to honor the memory of those you cannot remember, pray tell?",
+    "translation": ""
+  },
+  "198": {
+    "tag": "TEXT_MANFST300_00511_300820_KANESENNA",
+    "original": "The destruction wrought by the Calamity was indiscriminate\u2500it dealt death to Eorzean and Garlean alike.",
+    "translation": ""
+  },
+  "199": {
+    "tag": "TEXT_MANFST300_00511_300830_KANESENNA",
+    "original": "Yet while we have labored to rebuild our homes\u2500to rebuild our lives\u2500the Empire has set about raising steel fortresses here in the Twelveswood.",
+    "translation": ""
+  },
+  "200": {
+    "tag": "TEXT_MANFST300_00511_300840_KANESENNA",
+    "original": "Let none be mistaken\u2500the Garleans remain the greatest threat to our survival. If we are to stand against them, we must remember what it is to be united.",
+    "translation": ""
+  },
+  "201": {
+    "tag": "TEXT_MANFST300_00511_300850_KANESENNA",
+    "original": "Our many troubles blind us to the woes of our fellow man. Thence is harmony lost. Yet harmony is the founding principle of Gridania.",
+    "translation": ""
+  },
+  "202": {
+    "tag": "TEXT_MANFST300_00511_300860_KANESENNA",
+    "original": "We are gathered here to honor the fallen.",
+    "translation": ""
+  },
+  "203": {
+    "tag": "TEXT_MANFST300_00511_300870_KANESENNA",
+    "original": "Let them be honored not only in word and thought, but through concerted action!",
+    "translation": ""
+  },
+  "204": {
+    "tag": "TEXT_MANFST300_00511_300880_KANESENNA",
+    "original": "I bid you join hands with me once more beneath the Twin Adder standard!",
+    "translation": ""
+  },
+  "205": {
+    "tag": "TEXT_MANFST300_00511_300890_KANESENNA",
+    "original": "And together, let us heal the forest\u0027s wounds, that our progeny might live in harmony beneath these ancient boughs. For serenity, purity, and sanctity!",
+    "translation": ""
+  },
+  "206": {
+    "tag": "TEXT_MANFST300_00511_300900_CLATTERF",
+    "original": "We must think of the children!",
+    "translation": ""
+  },
+  "207": {
+    "tag": "TEXT_MANFST300_00511_300910_CLATTERM",
+    "original": "Wood\u0027s Will Be Done!",
+    "translation": ""
+  },
+  "208": {
+    "tag": "TEXT_MANFST300_00511_300920_CLATTERM",
+    "original": "It\u0027s up to us to protect the forest!",
+    "translation": ""
+  },
+  "209": {
+    "tag": "TEXT_MANFST300_00511_300930_CLATTERM",
+    "original": "For the elementals!",
+    "translation": ""
+  },
+  "210": {
+    "tag": "TEXT_MANFST300_00511_300940_ALPHINAUD",
+    "original": "If you\u0027ll permit me. Alphinaud.",
+    "translation": ""
+  },
+  "211": {
+    "tag": "TEXT_MANFST300_00511_300950_ALPHINAUD",
+    "original": "...And my sister, Alisaie, at your service.",
+    "translation": ""
+  },
+  "212": {
+    "tag": "TEXT_MANFST300_00511_300960_ALPHINAUD",
+    "original": "I saw at a glance that you were a fellow traveler.",
+    "translation": ""
+  },
+  "213": {
+    "tag": "TEXT_MANFST300_00511_300970_ALPHINAUD",
+    "original": "You might call us students of history, sampling the realm\u0027s remembrances in pursuit of...enlightenment.",
+    "translation": ""
+  },
+  "214": {
+    "tag": "TEXT_MANFST300_00511_300980_ALPHINAUD",
+    "original": "Fancy meeting you again.",
+    "translation": ""
+  },
+  "215": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_110",
+    "original": "The Gridanians are unfortunate enough to have to contend with two beast tribes.",
+    "translation": ""
+  },
+  "216": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_111",
+    "original": "The Ixal are unquestionably the more troublesome, being of a naturally warlike disposition, and wont to summon their bloodthirsty primal, Garuda.",
+    "translation": ""
+  },
+  "217": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_112",
+    "original": "The sylphs, by contrast, are peaceful in nature, being mischievous rather than malevolent, and have long been on friendly terms with the Gridanians\u2500until recently, at least. Alas, they have grown aloof, a change observed at roughly the time they summoned the primal Ramuh.",
+    "translation": ""
+  },
+  "218": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_113",
+    "original": "The Gridanians have no love for war, and they consider open conflict a last resort.",
+    "translation": ""
+  },
+  "219": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_114",
+    "original": "Though they clash with the Ixal ever more regularly, you may be assured that they do so in self-defense. As for the sylphs...they are as yet bound by a peace treaty, though one wonders how long it will be before it is broken.",
+    "translation": ""
+  },
+  "220": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_115",
+    "original": "The Twelveswood was grievously wounded during the Calamity, leaving Gridania vulnerable to attack. The people are hopeful that restoring the wood\u2500and thereby the power of the elementals\u2500will put an end to their woes. Yet how long will that take? \u003Chex:021A020203\u003ECenturies\u003Chex:021A020103\u003E, I\u0027d wager.",
+    "translation": ""
+  },
+  "221": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_116",
+    "original": "Meanwhile, the Ixal will continue their incursions, spurred on by Garuda and her insatiable appetite for destruction.",
+    "translation": ""
+  },
+  "222": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_117",
+    "original": "Whether the Gridanians like it or not, sooner or later it will come to all-out war. And when it does, the Order of the Twin Adder will need all the help it can muster.",
+    "translation": ""
+  },
+  "223": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_118",
+    "original": "...How valuable might the aid of a capable adventurer prove to them then?",
+    "translation": ""
+  },
+  "224": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_119",
+    "original": "Well, perhaps we will find out\u2500if the Elder Seedseer\u0027s words fell on fertile ground...",
+    "translation": ""
+  },
+  "225": {
+    "tag": "TEXT_MANFST300_00511_ZANTHAEL_000_130",
+    "original": "Here to attend the remembrance service? Be quick\u2500the Admiral is due to give her address at any moment.",
+    "translation": ""
+  },
+  "226": {
+    "tag": "TEXT_MANFST300_00511_Q1_000_1",
+    "original": "Proceed to the Stateroom?",
+    "translation": ""
+  },
+  "227": {
+    "tag": "TEXT_MANFST300_00511_A1_000_1",
+    "original": "Yes",
+    "translation": ""
+  },
+  "228": {
+    "tag": "TEXT_MANFST300_00511_A1_000_2",
+    "original": "No",
+    "translation": ""
+  },
+  "229": {
+    "tag": "TEXT_MANFST300_00511_ZANTHAEL_000_131",
+    "original": "If you\u0027re not interested in attending, make way for those who are.",
+    "translation": ""
+  },
+  "230": {
+    "tag": "TEXT_MANFST300_00511_500990_CLATTERM",
+    "original": "The Garleans are another matter altogether.",
+    "translation": ""
+  },
+  "231": {
+    "tag": "TEXT_MANFST300_00511_501000_CLATTERF",
+    "original": "So much for our alliance.",
+    "translation": ""
+  },
+  "232": {
+    "tag": "TEXT_MANFST300_00511_501010_CLATTERM",
+    "original": "It\u0027s sunk beyond the seabed.",
+    "translation": ""
+  },
+  "233": {
+    "tag": "TEXT_MANFST300_00511_501020_MERLWYB",
+    "original": "Brothers and sisters of the sea, hearken unto me! Look upon this, our mighty crimson standard, and tell me your hearts do not swell with pride!",
+    "translation": ""
+  },
+  "234": {
+    "tag": "TEXT_MANFST300_00511_501030_CLATTERM",
+    "original": "Yaaaaaargh!",
+    "translation": ""
+  },
+  "235": {
+    "tag": "TEXT_MANFST300_00511_501040_MERLWYB",
+    "original": "Seven hundred summers have come and gone since our forefathers first ran aground in this fertile bay.",
+    "translation": ""
+  },
+  "236": {
+    "tag": "TEXT_MANFST300_00511_501050_MERLWYB",
+    "original": "In that time, guided by the Mother of Oceans, Limsa Lominsa has grown from humble fishing village to uncontested ruler of the five seas and beyond!",
+    "translation": ""
+  },
+  "237": {
+    "tag": "TEXT_MANFST300_00511_501060_CLATTERM",
+    "original": "Huzzah!",
+    "translation": ""
+  },
+  "238": {
+    "tag": "TEXT_MANFST300_00511_501070_CLATTERM",
+    "original": "Raaaaaarrr!",
+    "translation": ""
+  },
+  "239": {
+    "tag": "TEXT_MANFST300_00511_501080_ALPHINAUD",
+    "original": "(-\u003Chex:020824E4E94B01FF1353656C662D6173737572656420596F757468FF0A416C7068696E61756403\u003E-)Did you look, as the Admiral bid you? It \u003Chex:021A020203\u003Eis\u003Chex:021A020103\u003E a rather stirring standard, I must say.",
+    "translation": ""
+  },
+  "240": {
+    "tag": "TEXT_MANFST300_00511_501090_ALPHINAUD",
+    "original": "(-\u003Chex:020824E4E94B01FF1353656C662D6173737572656420596F757468FF0A416C7068696E61756403\u003E-)The crimson field is meant to signify the blood of fallen crewmates, while the black longship represents a pirate vessel.",
+    "translation": ""
+  },
+  "241": {
+    "tag": "TEXT_MANFST300_00511_501100_MERLWYB",
+    "original": "When the Garlean Empire marched upon Eorzea, we assembled beneath the Maelstrom\u0027s standard, and our Grand Company was reborn.",
+    "translation": ""
+  },
+  "242": {
+    "tag": "TEXT_MANFST300_00511_501110_MERLWYB",
+    "original": "All answered the call, from the Knights of the Barracuda to Hyllfyr\u0027s Bloody Executioners, and together we met our would-be conquerors upon the field of Carteneau.",
+    "translation": ""
+  },
+  "243": {
+    "tag": "TEXT_MANFST300_00511_501120_MERLWYB",
+    "original": "That day, the world bore witness to the united strength of Limsa Lominsa!",
+    "translation": ""
+  },
+  "244": {
+    "tag": "TEXT_MANFST300_00511_501130_MERLWYB",
+    "original": "I swear to you\u2500no army ever fought harder, or with more courage. Yet many of ours did not survive.",
+    "translation": ""
+  },
+  "245": {
+    "tag": "TEXT_MANFST300_00511_501140_MERLWYB",
+    "original": "Join me now in remembering those who fought in the name of freedom, and fell. May their souls be returned to the sea.",
+    "translation": ""
+  },
+  "246": {
+    "tag": "TEXT_MANFST300_00511_501150_ALPHINAUD",
+    "original": "(-\u003Chex:020824E4E94B01FF1353656C662D6173737572656420596F757468FF0A416C7068696E61756403\u003E-)Freedom... Yes, they have always been rather fond of their freedom.",
+    "translation": ""
+  },
+  "247": {
+    "tag": "TEXT_MANFST300_00511_501160_ALPHINAUD",
+    "original": "(-\u003Chex:020824E4E94B01FF1353656C662D6173737572656420596F757468FF0A416C7068696E61756403\u003E-)Much as the beast tribes have. Small wonder\u2500beneath the surface, one would struggle to tell them apart.",
+    "translation": ""
+  },
+  "248": {
+    "tag": "TEXT_MANFST300_00511_501170_MERLWYB",
+    "original": "It has been five long years since the Calamity struck. Five long years of tireless rebuilding.",
+    "translation": ""
+  },
+  "249": {
+    "tag": "TEXT_MANFST300_00511_501180_MERLWYB",
+    "original": "Yet still the wounds of the Calamity fester and weep.",
+    "translation": ""
+  },
+  "250": {
+    "tag": "TEXT_MANFST300_00511_501190_MERLWYB",
+    "original": "But when I stand atop the Mizzenmast, and gaze out upon our battered and broken vessel, I see an undying spirit. Did we not build all this from the wreck of the \u003Chex:021A020203\u003EGaladion\u003Chex:021A020103\u003E all those centuries ago? Shall we not do so again!?",
+    "translation": ""
+  },
+  "251": {
+    "tag": "TEXT_MANFST300_00511_501200_MERLWYB",
+    "original": "Yet there are those who would see this ship of ours sink beneath the waves of the restless Rhotano.",
+    "translation": ""
+  },
+  "252": {
+    "tag": "TEXT_MANFST300_00511_501210_MERLWYB",
+    "original": "The Sahagin creep ashore seeking blood for their accursed god.",
+    "translation": ""
+  },
+  "253": {
+    "tag": "TEXT_MANFST300_00511_501220_CLATTERM",
+    "original": "Those fishback bastards...",
+    "translation": ""
+  },
+  "254": {
+    "tag": "TEXT_MANFST300_00511_501230_CLATTERF",
+    "original": "The Sahagin have risen?",
+    "translation": ""
+  },
+  "255": {
+    "tag": "TEXT_MANFST300_00511_501240_MERLWYB",
+    "original": "While the mines of O\u0027Ghomoro spew forth kobolds who push ever south, despoiling our lands as they go.",
+    "translation": ""
+  },
+  "256": {
+    "tag": "TEXT_MANFST300_00511_501250_MERLWYB",
+    "original": "These savage beast tribes will be the first waves to crash against our creaking hull.",
+    "translation": ""
+  },
+  "257": {
+    "tag": "TEXT_MANFST300_00511_501260_MERLWYB",
+    "original": "And behind them swells the grim tide of the Garlean Empire.",
+    "translation": ""
+  },
+  "258": {
+    "tag": "TEXT_MANFST300_00511_501270_MERLWYB",
+    "original": "Even now, the curs fly their flags within our borders. Doubt not but that they will be upon us ere long.",
+    "translation": ""
+  },
+  "259": {
+    "tag": "TEXT_MANFST300_00511_501280_MERLWYB",
+    "original": "We are well-nigh surrounded. Yet there are those among us who would rather turn their swords against their crewmates than our cannons against our foes.",
+    "translation": ""
+  },
+  "260": {
+    "tag": "TEXT_MANFST300_00511_501290_MERLWYB",
+    "original": "How can we hope to repel our many enemies when mutiny breeds below deck?",
+    "translation": ""
+  },
+  "261": {
+    "tag": "TEXT_MANFST300_00511_501300_MERLWYB",
+    "original": "There is but one course left to us!",
+    "translation": ""
+  },
+  "262": {
+    "tag": "TEXT_MANFST300_00511_501310_MERLWYB",
+    "original": "One bearing that will bring us victory over the beast hordes and the Empire both, and see this ship safe to port.",
+    "translation": ""
+  },
+  "263": {
+    "tag": "TEXT_MANFST300_00511_501320_MERLWYB",
+    "original": "We must mend the rift the Calamity has reopened \u0027twixt pirate and Maelstrom, and stand fast with our adventurer brothers against the coming tempest!",
+    "translation": ""
+  },
+  "264": {
+    "tag": "TEXT_MANFST300_00511_501330_MERLWYB",
+    "original": "Mark ye well: a crew without unity is no crew at all\u2500\u0027tis but a mass of drowned men.",
+    "translation": ""
+  },
+  "265": {
+    "tag": "TEXT_MANFST300_00511_501340_MERLWYB",
+    "original": "To me, then, brothers and sisters of the sea! Gather beneath the undying crimson standard and pledge me your strength, your skill, your wisdom!",
+    "translation": ""
+  },
+  "266": {
+    "tag": "TEXT_MANFST300_00511_501350_MERLWYB",
+    "original": "And with the guidance of the Navigator, this great vessel of ours shall ride the waves till sea swallows all!",
+    "translation": ""
+  },
+  "267": {
+    "tag": "TEXT_MANFST300_00511_501360_CLATTERM",
+    "original": "Long live the Admiral!",
+    "translation": ""
+  },
+  "268": {
+    "tag": "TEXT_MANFST300_00511_501370_CLATTERM",
+    "original": "Admiral Merlwyb!",
+    "translation": ""
+  },
+  "269": {
+    "tag": "TEXT_MANFST300_00511_501380_CLATTERF",
+    "original": "Gather the lads!",
+    "translation": ""
+  },
+  "270": {
+    "tag": "TEXT_MANFST300_00511_501390_CLATTERM",
+    "original": "Where\u0027s me cutlass!?",
+    "translation": ""
+  },
+  "271": {
+    "tag": "TEXT_MANFST300_00511_501400_CLATTERM",
+    "original": "I\u0027ll follow ye to the seven hells, Admiral!",
+    "translation": ""
+  },
+  "272": {
+    "tag": "TEXT_MANFST300_00511_501410_ALPHINAUD",
+    "original": "If you\u0027ll permit me. Alphinaud.",
+    "translation": ""
+  },
+  "273": {
+    "tag": "TEXT_MANFST300_00511_501420_ALPHINAUD",
+    "original": "...And my sister, Alisaie, at your service.",
+    "translation": ""
+  },
+  "274": {
+    "tag": "TEXT_MANFST300_00511_501430_ALPHINAUD",
+    "original": "I saw at a glance that you were a fellow traveler.",
+    "translation": ""
+  },
+  "275": {
+    "tag": "TEXT_MANFST300_00511_501440_ALPHINAUD",
+    "original": "You might call us students of history, sampling the realm\u0027s remembrances in pursuit of...enlightenment.",
+    "translation": ""
+  },
+  "276": {
+    "tag": "TEXT_MANFST300_00511_501450_ALPHINAUD",
+    "original": "Fancy meeting you again.",
+    "translation": ""
+  },
+  "277": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_140",
+    "original": "As the Admiral mentioned in her address, Limsa Lominsa is plagued by two beast tribes.",
+    "translation": ""
+  },
+  "278": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_141",
+    "original": "The first are the fishlike Sahagin, worshipers of the primal Leviathan.",
+    "translation": ""
+  },
+  "279": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_142",
+    "original": "The second are the kobolds, who dwell beneath the earth, and take the primal Titan for their god.",
+    "translation": ""
+  },
+  "280": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_143",
+    "original": "As if the beast tribes\u0027 presence weren\u0027t troublesome enough, the Garleans have also chosen to erect a fortress right in the Lominsans\u0027 backyard.",
+    "translation": ""
+  },
+  "281": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_144",
+    "original": "And that is to say naught of internal strife. As a nation of pirates, there is no end to the blood feuds between the various factions. And while they fight amongst themselves, the Garleans whet their blades and watch.",
+    "translation": ""
+  },
+  "282": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_145",
+    "original": "If the Lominsans are to have any hope of withstanding the Empire, they must first resolve their own affairs. Differences must be set aside, and the primal threat dealt with once and for all.",
+    "translation": ""
+  },
+  "283": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_146",
+    "original": "To this end, I expect that they will soon take decisive action against the beast tribes. Mark my words, the Maelstrom standard will be drenched a deeper shade of crimson ere long.",
+    "translation": ""
+  },
+  "284": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_147",
+    "original": "That a capable adventurer like you would be a valuable addition to their crew is beyond question.",
+    "translation": ""
+  },
+  "285": {
+    "tag": "TEXT_MANFST300_00511_ALPHINAUD_000_148",
+    "original": "But will you sail with the Admiral?",
+    "translation": ""
+  },
+  "286": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_150",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, this is Minfilia. You are well, I hope? Would I be correct in thinking that the final remembrance service has now concluded?",
+    "translation": ""
+  },
+  "287": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_151",
+    "original": "A moment ago, you say? What a coincidence!",
+    "translation": ""
+  },
+  "288": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_152",
+    "original": "Jesting aside, I trust you remember our guests from the Grand Companies? Well, \u003Chex:021A020203\u003Edelighted\u003Chex:021A020103\u003E though we are to have them here at the Waking Sands, it would not do to keep them in suspense any longer than necessary. In short: hurry back!",
+    "translation": ""
+  },
+  "289": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_160",
+    "original": "Welcome back, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Were the Grand Company leaders\u0027 words as illuminating as you had hoped?",
+    "translation": ""
+  },
+  "290": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_161",
+    "original": "Aye, each nation is beset with problems. I trust you see now why your services are in such demand. Would that there were more of you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "291": {
+    "tag": "TEXT_MANFST300_00511_MINFILIA_000_162",
+    "original": "But you must be tired from your journey. Why don\u0027t you rest awhile, and take a moment to reflect on your decision? Once your mind is made up, pray give the Grand Company officers your answer.",
+    "translation": ""
+  },
+  "292": {
+    "tag": "TEXT_MANFST300_00511_701460_ALPHINAUD",
+    "original": "The gods only know what \u201Cgrand\u201D company our adventurer friend will keep.",
+    "translation": ""
+  },
+  "293": {
+    "tag": "TEXT_MANFST300_00511_701470_ALPHINAUD",
+    "original": "Hmph. The wheels of change are in motion regardless.",
+    "translation": ""
+  },
+  "294": {
+    "tag": "TEXT_MANFST300_00511_701480_ALISAIE",
+    "original": "Brother, are you certain this course is best?",
+    "translation": ""
+  },
+  "295": {
+    "tag": "TEXT_MANFST300_00511_701490_ALPHINAUD",
+    "original": "Whatever do you mean, dear sister?",
+    "translation": ""
+  },
+  "296": {
+    "tag": "TEXT_MANFST300_00511_701500_ALISAIE",
+    "original": "The so-called \u201Cremembrance\u201D ceremonies were little more than standard-waving rallies.",
+    "translation": ""
+  },
+  "297": {
+    "tag": "TEXT_MANFST300_00511_701510_ALISAIE",
+    "original": "...As though the Calamity and Seventh Umbral Era warranted scarcely a mention!",
+    "translation": ""
+  },
+  "298": {
+    "tag": "TEXT_MANFST300_00511_701520_ALPHINAUD",
+    "original": "Well, of course they were \u201Cstandard-waving rallies.\u201D",
+    "translation": ""
+  },
+  "299": {
+    "tag": "TEXT_MANFST300_00511_701530_ALPHINAUD",
+    "original": "Since you are so observant, mayhap you noticed what mention was made of the Warriors of Light? \u003Chex:021A020203\u003ENone\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "300": {
+    "tag": "TEXT_MANFST300_00511_701540_ALPHINAUD",
+    "original": "I suppose they must have forgotten the heroes who spared Eorzea a fate worse than the Calamity?",
+    "translation": ""
+  },
+  "301": {
+    "tag": "TEXT_MANFST300_00511_701550_ALPHINAUD",
+    "original": "No, dear Alisaie, they haven\u0027t \u201Cforgotten\u201D these details. They have elected to omit them.",
+    "translation": ""
+  },
+  "302": {
+    "tag": "TEXT_MANFST300_00511_701560_ALPHINAUD",
+    "original": "Deep are the wounds the Calamity inflicted upon Eorzea. So deep, in fact, that the realm still bleeds.",
+    "translation": ""
+  },
+  "303": {
+    "tag": "TEXT_MANFST300_00511_701570_ALPHINAUD",
+    "original": "Needless to say, the beast tribes and their primals do little to alleviate the pain.",
+    "translation": ""
+  },
+  "304": {
+    "tag": "TEXT_MANFST300_00511_701580_ALPHINAUD",
+    "original": "So the task of salving Eorzea\u0027s wounds falls to the Scions of the Seventh Dawn\u2500with a little help from our friends the Grand Companies.",
+    "translation": ""
+  },
+  "305": {
+    "tag": "TEXT_MANFST300_00511_701590_ALPHINAUD",
+    "original": "Remembrance will yield no remedy. If our world is to heal, we must put the horrors of the Calamity behind us.",
+    "translation": ""
+  },
+  "306": {
+    "tag": "TEXT_MANFST300_00511_701600_ALISAIE",
+    "original": "Our grandfather would never entrust the fate of the realm to despots who rewrite history to their convenience!",
+    "translation": ""
+  },
+  "307": {
+    "tag": "TEXT_MANFST300_00511_701610_ALISAIE",
+    "original": "There must be another way to cure what ails this world\u2500and I mean to find it!",
+    "translation": ""
+  },
+  "308": {
+    "tag": "TEXT_MANFST300_00511_701620_ALPHINAUD",
+    "original": "You are most welcome to try. Our paths may differ, but our destination is the same. In time, I daresay we will see eye to eye.",
+    "translation": ""
+  },
+  "309": {
+    "tag": "TEXT_MANFST300_00511_701630_ALISAIE",
+    "original": "I should hope so.",
+    "translation": ""
+  },
+  "310": {
+    "tag": "TEXT_MANFST300_00511_701640_BODYGUARDA",
+    "original": "M-M\u0027lady!",
+    "translation": ""
+  },
+  "311": {
+    "tag": "TEXT_MANFST300_00511_701650_BODYGUARDB",
+    "original": "We are to escort you!",
+    "translation": ""
+  },
+  "312": {
+    "tag": "TEXT_MANFST300_00511_701660_ALPHINAUD",
+    "original": "Hope does not come into it. We share the burden of this fate, dear sister, and will prevail together or not at all.",
+    "translation": ""
+  },
+  "313": {
+    "tag": "TEXT_MANFST300_00511_701670_ALPHINAUD",
+    "original": "The salve will serve not only to close up our present wounds...",
+    "translation": ""
+  },
+  "314": {
+    "tag": "TEXT_MANFST300_00511_701680_ALPHINAUD",
+    "original": "...but prevent old ones from opening anew.",
+    "translation": ""
+  }
+}

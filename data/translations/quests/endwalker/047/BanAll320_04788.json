@@ -1,0 +1,937 @@
+{
+  "0": {
+    "tag": "TEXT_BANALL320_04788_SEQ_00",
+    "original": "Jammingway appears moderately concerned about the unidentified calamity that may or may not be befalling the Last Dregs at this very moment.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_BANALL320_04788_SEQ_01",
+    "original": "Jammingway requests that you visit the Last Dregs, on the off chance that whatever caused N-7000 to terminate its transmission poses a serious threat to the caf\u00E9. As alternative duties likely involve cleaning up after terrified hippos being transported beyond the boundaries of their known world, you readily agree.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_BANALL320_04788_SEQ_02",
+    "original": "Upon inquiring with N-7000, you learn that the previous commotion was the patrons\u0027 sudden and fervent desire to join the upcoming race\u2500it seems that they have all gone off to prepare their own vehicles while Last Dregs employees and the Dreaming Ways set up for the contest. N-7000 indicates that Inventingway wishes to consult you about a related matter, and thus do you set off for Base Omicron to seek him out.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_BANALL320_04788_SEQ_03",
+    "original": "You speak with Inventingway, who cheerfully convinces you to participate in the race yourself. He has already prepared a modified moon-hopper for the occasion, so you need only make for A-4 Research and inform N-7000 of your intentions.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_BANALL320_04788_SEQ_04",
+    "original": "After registering you for the race, N-7000 provides an overview of the course, which will take contestants across multiple regions of Ultima Thule. Jammingway volunteers to bring your moon-hopper along to the starting line\u2500the starship \u003Chex:021A020203\u003ERagnarok\u003Chex:021A020103\u003E\u2500and instructs you to wait for them there.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_BANALL320_04788_SEQ_05",
+    "original": "With every team\u0027s preparations complete, the Hyper Hustle begins. Though several racers are knocked off of the course, you deftly avoid its perils and glide to the front of the pack. For a time, Trna and Ra-la remain a threat to your victory, but with a little help from Inventingway\u0027s enhancements to your hopper, you speed past both to edge across the finish line.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_BANALL320_04788_SEQ_06",
+    "original": "Back at the Last Dregs, Jammingway congratulates you on your victory by way of an enormous trophy. The other participants will also not be going home empty-handed, as the Dreaming Ways have provided new radios for diners in both the nekropolis and Svarna. Though the Hyper Hustle will soon be but a fond memory, you know in your heart that reasons to rejoice in this wide, wide universe are never-ending.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_BANALL320_04788_TODO_00",
+    "original": "Speak with N-7000 at the Last Dregs.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_BANALL320_04788_TODO_01",
+    "original": "Speak with Inventingway.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_BANALL320_04788_TODO_02",
+    "original": "Speak with N-7000.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_BANALL320_04788_TODO_03",
+    "original": "Wait at the starting line.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_BANALL320_04788_TODO_04",
+    "original": "Speak with Jammingway.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_000_001",
+    "original": "We decided to come and settle in while you and Jammingway handled the hippos\u2500and I\u0027m so glad we did! The carrot juice is simply divine.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_000_002",
+    "original": "Talkingway and Inventingway are off taking in the sights, but they\u0027ll be back in time for the race.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_BANALL320_04788_TRNA_000_003",
+    "original": "I\u0027m comin\u0027, I\u0027m comin\u0027! Hold your hippos.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_BANALL320_04788_ACALA_000_004",
+    "original": "Race will be good. Ac\u2500\u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E can feel it.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_BANALL320_04788_OGUL_000_005",
+    "original": "No harm will come to our comrades on my watch! And I shall be watching quite avidly, I expect...",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_010",
+    "original": "Initiating a new call doesn\u0027t work either...",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_011",
+    "original": "I doubt that it\u0027s anything serious, but perhaps you should check on N-7000 just in case. You typically carry at least one object suitable for a light bludgeoning, do you not?",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_012",
+    "original": "I\u0027ll work out the finer details with Trna and see the Hippo Riders safely to Ultima Thule. I trust that the caf\u00E9 will be intact when we arrive!",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_013",
+    "original": "Time to find out how many hippos the \u003Chex:021A020203\u003ERagnarok\u003Chex:021A020103\u003E\u0027s hold can hold!",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_015",
+    "original": "\u003Cwhirr\u003E Your return is most welcome. However, one managerial life-form remains conspicuously absent.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_016",
+    "original": "Understood. This unit will initiate idling protocols until Jammingway arrives. Carrot-based refreshments have already been distributed to the newcome life-forms.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_100_016",
+    "original": "And such refreshing refreshments they were!",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_017",
+    "original": "Furthermore, as your sensory organs will have detected, the usual customers have vacated the premises.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_018",
+    "original": "This unit will now convey additional context. \u003Cwhirr\u003E Once upon a timecode...",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_019",
+    "original": "...So, to sum up, we no longer need worry for lack of patrons. In fact, the Last Dregs being empty is quite inconceivable!",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_BANALL320_04788_TRNA_000_020",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Oh, thank the Sisters. Wasn\u0027t sure we\u0027d make it, \u0027specially after that experimental aetheryte...",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_021",
+    "original": "Oi! Where are our customers!? You had \u003Chex:021A020203\u003Eone job\u003Chex:021A020103\u003E, you buttons-for-brains...",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_022",
+    "original": "\u003Cwhirr\u003E Elevated body temperature detected in nagging life-form. This unit recommends swift consumption of chilled liquids.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_023",
+    "original": "As for the customers, they have temporarily ceased their consumption of fine caf\u00E9 fare to prepare for the upcoming race.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_024",
+    "original": "The Karellians procured a transport vessel with the assistance of Stigma-4. Presently, the Global Citizens and Freedom Fighters are conducting a joint test-drive.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_025",
+    "original": "Meanwhile, the Grebuloffs expressed a long-standing desire to float about within the Miw Miisv, which were eagerly volunteered by their Ea caretakers to serve as steeds. This unit\u0027s ethical algorithms are still processing.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_026",
+    "original": "The dragons, too, intend to participate. Soaring through Elysion\u0027s mountains has revived their passion for flight, and they have expressed a desire to see more of Ultima Thule from above.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_027",
+    "original": "Unexpected, but I\u0027ll take it! So long as our patrons reach happiness, the means by which they travel matters not.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_028",
+    "original": "This unit agrees, and hopes that all patrons will be replete with joy upon their inevitable defeat by the superior Omicron vehicle. Artillery may be involved.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_BANALL320_04788_TRNA_000_029",
+    "original": "Artillery...?",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_BANALL320_04788_ACALA_000_030",
+    "original": "Artillery is no match for Acala! I dodge!",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_BANALL320_04788_OGUL_000_031",
+    "original": "This is shaping up to be a gauntlet fiercer than Bardam\u0027s Mettle...",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_032",
+    "original": "\u003Cwhirr\u003E This unit also invited the Nibirun to share the singular experience of losing to the Omicrons, but their registration remains pending. Nevertheless, they have conceded to observe the other civilizations\u0027 preparations.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_033",
+    "original": "We\u0027ll have to hope that the overall excitement sweeps them up eventually. For now, we have our own preparations to attend to.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_034",
+    "original": "\u003Cwhirr\u003E On that note\u2500this unit recalls that the \u201CInventing\u201D life-form wished to speak with \u003Chex:022C0DFF07022903EB0203FF02200203\u003E regarding said preparations.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_035",
+    "original": "Reports of critical levels of static electricity indicate the likely presence of this ally at Base Omicron.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_036",
+    "original": "Now, this unit must return to supervising Stigma-4\u0027s production of racetrack features. Engaging enthusiasm protocols...",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_038",
+    "original": "If Inventingway is having difficulties with the radio relay, don\u0027t hesitate to direct him to me. I have a knack for whacking unruly machines into shape, if I do say so myself...",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_039",
+    "original": "But first, I should prepare a drink or two to help our Hannish guests feel at home. Perhaps some carrot chai?",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_BANALL320_04788_TRNA_000_040",
+    "original": "Odd spot for a restaurant. I don\u0027t reckon delivery to Thavnair\u0027d be sustainable in the long run, but we should bring some grub back for Maru, at least.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_BANALL320_04788_ACALA_000_041",
+    "original": "Later, we race. For now, we lunch!",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_BANALL320_04788_OGUL_000_042",
+    "original": "Grandmother always said that naught reveals more about a people than their food, and these dishes certainly look...educational. Which would Racashir like most, I wonder?",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_100_043",
+    "original": "This will be our best broadcast yet, I can feel it!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_BANALL320_04788_INVENTINGWAY_000_045",
+    "original": "Aha! Just the person of Etheirys I was hoping to see.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_BANALL320_04788_INVENTINGWAY_000_046",
+    "original": "As our Omicron friend doubtless relayed to you, this race is no longer a mere spectator sport. The people of Ultima Thule will be bringing the best their civilizations have to offer\u2500and they mean to win.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_BANALL320_04788_INVENTINGWAY_000_047",
+    "original": "Should the Arkasodara, then, be left to defend Etheirys\u0027s honor all on their own? Nay, says I! Mother put her faith in the \u003Chex:021A020203\u003Emyriad\u003Chex:021A020103\u003E peoples of the star for a reason.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_BANALL320_04788_INVENTINGWAY_000_048",
+    "original": "Fortunately, we brought a number of moon-hoppers to help prepare for the hustle. With a little help from good old Inventingway, there\u0027s no reason that one can\u0027t haul you to victory!",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_BANALL320_04788_Q1_000_049",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_BANALL320_04788_A1_000_001",
+    "original": "I \u003Chex:021A020203\u003Ehad\u003Chex:021A020103\u003E been hoping to join the contest!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_BANALL320_04788_A1_000_002",
+    "original": "N-7000 mentioned artillery. That might be a reason.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_BANALL320_04788_INVENTINGWAY_000_050",
+    "original": "Then the moment of my\u2500er, our\u2500triumph will soon be upon us!",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_BANALL320_04788_INVENTINGWAY_000_051",
+    "original": "Artillery, schmartillery. You can\u0027t pulverize what you can\u0027t catch!",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_BANALL320_04788_INVENTINGWAY_000_052",
+    "original": "I have already taken the liberty of altering this moon-hopper. Dazzle your competition with the hyper hop-step, or press the big \u201Cboost\u201D button to outstrip them with ease\u2500actually, why not do both?",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_BANALL320_04788_INVENTINGWAY_000_053",
+    "original": "Do mind your power reserves, though\u2500even with my prodigious skill, there are only so many batteries I can shove into this chassis.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_BANALL320_04788_INVENTINGWAY_000_054",
+    "original": "Now, hop along and tell N-7000 to add one more entrant to the roster! I\u0027ll catch up once I\u0027ve discovered where this final screw belongs...",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_BANALL320_04788_INVENTINGWAY_000_055",
+    "original": "...Safety features? What could we possibly need those for?",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_056",
+    "original": "Was Inventingway annoying the Omicrons? Perhaps we can learn from his methods.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_BANALL320_04788_TRNA_000_057",
+    "original": "This is gonna be one queer hustle...",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_BANALL320_04788_ACALA_000_058",
+    "original": "First, I have eaten. Now, victory awaits!",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_BANALL320_04788_OGUL_000_059",
+    "original": "Jammingway asked for my help at the starting line! Me being an expert, and all.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_065",
+    "original": "\u003Cwhirr\u003E Race preparations continue in accordance with projections. Did the \u201CInventing\u201D life-form raise any matters of note?",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_066",
+    "original": "You\u0027ll be joining the fray!? How thrilling!",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_067",
+    "original": "\u003Cwhirr\u003E Entrant registered. This unit will now provide supplementary information regarding the course.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_BANALL320_04788_N7000_100_067",
+    "original": "Please direct your orbs toward this geographical data display.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_068",
+    "original": "The race will begin at the starship \u003Chex:021A020203\u003ERagnarok\u003Chex:021A020103\u003E in Ostrakon Deka-okto.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_069",
+    "original": "Once Jammingway and Ogul signal the commencement of hostilities, competitors may proceed across Reah Tahra toward Ostrakon Tria. Passage through the checkpoint rings is mandatory.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_BANALL320_04788_OGUL_000_070",
+    "original": "Those rings look rather lofty. How are the hippo carts to get through?",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_071",
+    "original": "In Ultima Thule, emotions become reality. You only need \u003Chex:021A020203\u003Ebelieve\u003Chex:021A020103\u003E to make your hippos fly!",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_BANALL320_04788_TRNA_000_072",
+    "original": "Did you just call me an \u201CUltimate Fool\u201D? Because I\u0027d have to be, to believe somethin\u0027 like that.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_073",
+    "original": "\u003Cwhirr\u003E-hem. Once in Ostrakon Tria, racers will enter the artillery zone, which extends from the periphery of the ostrakon to the abode of the Ea. This exciting enhancement is sponsored by the Alphatron civilization.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_BANALL320_04788_TRNA_000_074",
+    "original": "Wait, you were serious about the artillery? What if my Saurya gets hit!?",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_075",
+    "original": "Out of concern for the curiously smooth four-legged life-forms, Stigma-4 is presently manufacturing nonlethal cannons. Encountering these painless projectiles will result in no more than explosive removal from the course.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_076",
+    "original": "Those who remain unblasted should continue to Ostrakon Deka-hexi, and proceed through Base Omicron.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_077",
+    "original": "Then it is merely a matter of reaching the finish line, located at the Last Dregs.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_BANALL320_04788_ACALA_000_078",
+    "original": "I win! Then, I feast on tiny desserts!",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_079",
+    "original": "\u003Cwhirr\u003E Note that, in accordance with Omicron contest protocols, there are no restrictions on contrivances mechanical, magical, or maniacal during the race. This concludes the briefing.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_BANALL320_04788_TRNA_000_080",
+    "original": "Well, at least I packed my rainbow gulal. Saurya should be happy to run for it, no matter where she is.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_BANALL320_04788_ACALA_000_081",
+    "original": "You brought gulal? Why you do not share? Sharing is caring!",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_BANALL320_04788_TRNA_000_082",
+    "original": "We\u0027ve been through this, Acala. Your hippo\u0027s never shown it a lick of interest\u2500you just like throwin\u0027 things.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_083",
+    "original": "Go ahead and make your preparations. I need to make sure that N-7000 isn\u0027t understating the firepower of those cannons...",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_084",
+    "original": "Once that\u0027s taken care of, I\u0027ll retrieve your moon-hopper and meet you at the \u003Chex:021A020203\u003ERagnarok\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_086",
+    "original": "Grab your most durable headgear and wait for me by the \u003Chex:021A020203\u003ERagnarok\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_BANALL320_04788_TRNA_000_087",
+    "original": "Once you work out what your hippo likes, you can throw some of \u003Chex:021A020203\u003Ethat\u003Chex:021A020103\u003E instead.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_BANALL320_04788_ACALA_000_088",
+    "original": "But Ac\u2500\u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E like rainbow colors!",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_BANALL320_04788_OGUL_000_089",
+    "original": "See you at the starting line!",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_BANALL320_04788_SYSTEM_100_090",
+    "original": "Upon commencing the race, several cutscenes will play in sequence.\u003Chex:02100103\u003EIt is recommended that you set aside sufficient time to view these scenes in their entirety.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_BANALL320_04788_Q2_000_090",
+    "original": "Let the games begin?",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_BANALL320_04788_TALKINGWAY_000_095",
+    "original": "Test... Test... People of Etheirys, are you there?",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_BANALL320_04788_TALKINGWAY_000_096",
+    "original": "We are your hosts, Talkingway and Dreamingway, coming to you live from the very edge of the universe.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_000_097",
+    "original": "And here among the stars, the Hyper Hustle is about to begin!",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_BANALL320_04788_TALKINGWAY_000_098",
+    "original": "This contest for the ages will see competitors race across a land as barren as it is beautiful, vying to be the first across the finish line.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_000_099",
+    "original": "You won\u0027t want to miss a moment of this, folks! Now, let\u0027s introduce our racers.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_000_100",
+    "original": "Hauled by the speedy Saurya is a courier as fast as she is reliable! All the way from Thavnair, it\u0027s Trna the Hippo Rider!",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_000_101",
+    "original": "Next, a Gajasura as fearsome on the track as he is fearless on the battlefield. Honed in the fires of the Hannish Hippo Hustle\u2500I, Acala!",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_000_102",
+    "original": "Let\u0027s hope that Peacekeeper\u0027s less peaceful functions are disabled. Hailing from Karellen, a team of once-bitter enemies turned fast friends\u2500the Citizens of Freedom!",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_000_103",
+    "original": "Our next entrant may look more frolicsome than furious, but pass them at your peril. Supported by the ever-so-darling Miw Miisv, it\u0027s...the electrifying Grebuloff X!",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_000_104",
+    "original": "This mean, clean, speeding machine is ready to put the \u201Calpha\u201D back in \u201CAlphatron civilization.\u201D Say hello to the lethal Lambda unit V1C70RY!",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_000_105",
+    "original": "But lo\u2500what wisdom rides the winds of Elysion and fair peaks once forgot? The Dragon Star has joined the fray!",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_000_106",
+    "original": "Last but not least, a sword in the darkness... A beacon of hope... The champion of Eorzea! Friends across the universe, we present the one and only Hurrier of Light!",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_000_107",
+    "original": "What\u0027s this? A Nibirun challenger? Um... (Are they supposed to be there? I thought the Hurrier was our last participant...) ",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_108",
+    "original": "You made it!",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_109",
+    "original": "Did you prepare a vehicle? We can lend you a moon-hopper, if you\u0027d like...",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_BANALL320_04788_NIBIRAENOMI_000_110",
+    "original": "That will not be necessary.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_BANALL320_04788_TRNA_000_111",
+    "original": "What in the name of the mug-swappin\u0027 Mrga? Saurya\u0027s a good girl, but she ain\u0027t no \u003Chex:021A020203\u003Edivinity\u003Chex:021A020103\u003E. How\u0027s a normal hippo meant to compete with that!?",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_112",
+    "original": "Like I said, you and your hippo need only let your competitive spirits burn bright. Where there\u0027s a will, there\u0027s a way! Quite literally.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_BANALL320_04788_TRNA_000_113",
+    "original": "...I suppose I\u0027ll toss some gulal and hope for the best.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_BANALL320_04788_OGUL_000_114",
+    "original": "Racers! Are you ready?",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_BANALL320_04788_TALKINGWAY_000_115",
+    "original": "Our racers have assembled at the starting line. Who will surpass the rest to emerge triumphant?",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_116",
+    "original": "(-Jammingway and Ogul-)On your mark... Get set...",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_117",
+    "original": "(-Jammingway and Ogul-)GO!",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_BANALL320_04788_TALKINGWAY_000_118",
+    "original": "And they\u0027re off, with the Nibirun god Ra-la taking the lead!",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_000_119",
+    "original": "Sweet Mother! A juicy jolt from the Miw Miisv has sent the Lambda unit tumbling! Does this spell defeat for V1C70RY!?",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_BANALL320_04788_TALKINGWAY_000_120",
+    "original": "The other competitors race on. They are now entering the next area\u2500and the field of automated artillery!",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_BANALL320_04788_TALKINGWAY_000_121",
+    "original": "The Citizens of Freedom are going in! We have received a transmission from the Peacekeeper: \u201CThis is naught compared to the carnage on Karellen! YAAAH!\u201D ...You heard it here, folks.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_000_122",
+    "original": "And the Peacekeeper is downed by double cannon blast! How fortunate that the Karellians wear helmets.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_BANALL320_04788_TALKINGWAY_000_123",
+    "original": "I, Acala\u0027s cart is enveloped in a cloud of gulal!",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_000_124",
+    "original": "A ploy to distract competing hippos, perhaps? Or did he fall prey to rainbow temptation?",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_BANALL320_04788_TALKINGWAY_000_125",
+    "original": "Whatever the cause, it has only made Trna the Hippo Rider\u0027s cart fly all the faster!",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_BANALL320_04788_TALKINGWAY_000_126",
+    "original": "She has overtaken the Hurrier of Light for second place!",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_BANALL320_04788_SYSTEM_000_127",
+    "original": "To claim victory, you must overtake both Trna\u0027s hippo cart and the Nibirun\u0027s Ra-la.",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_BANALL320_04788_INVENTINGWAY_000_128",
+    "original": "I have already taken the liberty of altering this moon-hopper. Dazzle your competition with the hyper hop-step, or press the big \u201Cboost\u201D button to outstrip them with ease\u2500actually, why not do both?",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_BANALL320_04788_INVENTINGWAY_000_129",
+    "original": "Do mind your power reserves, though\u2500even with my prodigious skill, there are only so many batteries I can shove into this chassis.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_BANALL320_04788_Q3_000_130",
+    "original": "What will you do?",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_BANALL320_04788_A3_000_001",
+    "original": "Mash the boost button until you surpass both racers.",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_BANALL320_04788_A3_000_002",
+    "original": "Use boost to overtake the hippo cart, then distract Ra-la with the hyper hop-step.",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_BANALL320_04788_A3_000_003",
+    "original": "Grab Saurya\u0027s attention with the hyper hop-step, then boost yourself past Ra-la.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_BANALL320_04788_SYSTEM_000_131",
+    "original": "(-Shrill Echo-)\u0022Weren\u0027t you listening to my brilliant explanation, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!? There\u0027s no way the batteries can sustain that much boosting!\u201C",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_BANALL320_04788_SYSTEM_000_132",
+    "original": "As you consider this option, you reflect upon your prior experiences with the Nibirun. They may not be the distractable sort...",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_000_133",
+    "original": "The hippo has halted! Overwhelmed by the euphony of my song, no doubt!",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_BANALL320_04788_TALKINGWAY_000_134",
+    "original": "And the Hurrier of Light has taken second place, to cries of \u201CThis ain\u0027t over, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!\u201D from Trna the Hippo Rider!",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_BANALL320_04788_TALKINGWAY_000_135",
+    "original": "This is it, folks\u2500the final stretch! The Hurrier of Light has pushed the moon-hopper to hair-raising speeds, but Ra-la is still one leap ahead! Who will emerge victorious!?",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_BANALL320_04788_TALKINGWAY_000_136",
+    "original": "We have word from N-7000 at the finish line. The winner of the Hyper Hustle is...",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_BANALL320_04788_TALKINGWAY_000_137",
+    "original": "The Hurrier of Light, by a nose!",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_BANALL320_04788_NIBIRAENOMI_000_140",
+    "original": "We do not understand.",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_BANALL320_04788_NIBIRAENOMI_000_141",
+    "original": "Our chosen form was suitable, our performance, flawless. Yet victory was not ours to claim.",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_BANALL320_04788_NIBIRAENOMI_000_142",
+    "original": "It has been long since we have experienced this quickening of the pulse. This...vexation.",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_BANALL320_04788_TRNA_000_143",
+    "original": "That\u0027s racin\u0027 for ya. Just when you think you\u0027ve got it, some grinnin\u0027 idiot comes shootin\u0027 past to take the gold. Then sometimes, you get to be that grinnin\u0027 idiot!",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_BANALL320_04788_TRNA_000_144",
+    "original": "And that\u0027s the thrill of it! You never know if it\u0027ll go your way. You just race with all you\u0027ve got.",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_000_145",
+    "original": "That you\u0027re upset to have lost can only mean one thing\u2500you want to win next time!",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_000_146",
+    "original": " \u003Chex:021A020203\u003EThat\u0027s\u003Chex:021A020103\u003E a dream worth chasing! Trust me, I\u0027m an expert.",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_BANALL320_04788_NIBIRAENOMI_000_147",
+    "original": "We do feel...a yearning. A yearning to race once more. A desire to triumph...",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_BANALL320_04788_Q4_000_148",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_BANALL320_04788_A4_000_001",
+    "original": "Happy to leave you in the dust any time!",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_BANALL320_04788_A4_000_002",
+    "original": "Looks like my hopper\u0027s going to need more batteries...",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_BANALL320_04788_NIBIRAENOMI_000_149",
+    "original": "This is well. We will engage with the other patrons of this establishment to develop a superior stratagem.",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_150",
+    "original": "\u003Cwhirr\u003E Dynamis readings indicate a positive effect on the local environment. In accordance with Jammingway\u0027s aspirations, the Last Dregs has become an ever greater source of hope.",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_151",
+    "original": "Despite the significant expense, extensive property damage, and crushing defeat incurred, this unit rates the Hyper Hustle as \u201Cworth it.\u201D",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_152",
+    "original": " \u003Cwhirr\u003E Congratulations, allied unit \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. This unit has already requested the manufacture of an Omega unit to be cultivated into a worthy competitor via racing trials. Please anticipate your defeat.",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_BANALL320_04788_TRNA_000_153",
+    "original": "I never thought you could be so tricky! Still, I\u0027m glad we got to ride together\u2500let\u0027s do it again sometime.",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_BANALL320_04788_ACALA_000_154",
+    "original": "Betrayed! Betrayed by rainbow gulal! Next time, I follow Trna\u0027s advice. I learn my hippo\u0027s favorite things.",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_000_155",
+    "original": "Do you think we could fit a racetrack in Hoper\u0027s Hold?",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_BANALL320_04788_TALKINGWAY_000_156",
+    "original": "Congratulations on your victory, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Though in truth, I\u0027m just relieved that everyone survived...",
+    "translation": ""
+  },
+  "197": {
+    "tag": "TEXT_BANALL320_04788_INVENTINGWAY_000_157",
+    "original": "What did I tell you? The very universe is in the palm of my paw!",
+    "translation": ""
+  },
+  "198": {
+    "tag": "TEXT_BANALL320_04788_OGUL_000_158",
+    "original": "You are as formidable on the track as on the battlefield! I shall do my best to learn from your example.",
+    "translation": ""
+  },
+  "199": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_160",
+    "original": "To think you did all of that on a Loporrit-built craft! I\u0027m delighted that we could play some small part in your triumph.",
+    "translation": ""
+  },
+  "200": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_161",
+    "original": "And I\u0027m even more delighted that the Nibirun have finally found something to work toward.",
+    "translation": ""
+  },
+  "201": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_162",
+    "original": "Still, I\u0027ll be glad to resume our usual service. Maybe make myself a nice carrot coffee while I\u0027m behind the counter...",
+    "translation": ""
+  },
+  "202": {
+    "tag": "TEXT_BANALL320_04788_TRNA_000_165",
+    "original": "You were right, I admit it\u2500I had a great time racin\u0027. Even if I didn\u0027t understand half of what was goin\u0027 on...",
+    "translation": ""
+  },
+  "203": {
+    "tag": "TEXT_BANALL320_04788_TRNA_000_166",
+    "original": "But as fun as it was, I need to be gettin\u0027 on home to Thavnair. Don\u0027t wanna leave the Hippo Riders alone for too long, lest some hamsaheads start gettin\u0027 restless...",
+    "translation": ""
+  },
+  "204": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_000_167",
+    "original": "We\u0027ve finished packing up the broadcasting equipment, so we\u0027ll be heading back to the Dreaming Workshop ourselves.",
+    "translation": ""
+  },
+  "205": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_168",
+    "original": "So soon? It\u0027ll feel so empty out here in the cosmic void without you...",
+    "translation": ""
+  },
+  "206": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_169",
+    "original": "\u003Cwhirr\u003E Affirmative. But did we not have one more objective to complete before the other organic life-forms depart?",
+    "translation": ""
+  },
+  "207": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_170",
+    "original": "Objective...?",
+    "translation": ""
+  },
+  "208": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_171",
+    "original": "Oh! I nearly forgot!",
+    "translation": ""
+  },
+  "209": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_100_171",
+    "original": "Talkingway! Inventingway! Help me lift this. One, two...hup!",
+    "translation": ""
+  },
+  "210": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_172",
+    "original": "It\u0027s for you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! A trophy befitting the victor of the Hyper Hustle.",
+    "translation": ""
+  },
+  "211": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_173",
+    "original": "As you can see, it was designed in the image of the Last Dregs, the Hippo Riders, and also the Dreaming Ways!",
+    "translation": ""
+  },
+  "212": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_000_174",
+    "original": "That reminds me\u2500we brought a few commemorative gifts as well.",
+    "translation": ""
+  },
+  "213": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_100_174",
+    "original": "Talkingway! Inventingway! Help me lift these. One, two...hrrrgh!",
+    "translation": ""
+  },
+  "214": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_000_175",
+    "original": "One for the Last Dregs, and one for Svarna! You have an eatery there too, I hear?",
+    "translation": ""
+  },
+  "215": {
+    "tag": "TEXT_BANALL320_04788_DREAMINGWAY_000_176",
+    "original": "Then I hope you\u0027ll let us keep you company at mealtimes. Whether it\u0027s weather advisories, hopping music, or simply a friendly voice you need, Hope FM is here for you!",
+    "translation": ""
+  },
+  "216": {
+    "tag": "TEXT_BANALL320_04788_TRNA_000_177",
+    "original": "So this is a radio contraption too? Has bigger ears than the other one I saw...but I\u0027ll be sure to listen with the crew.",
+    "translation": ""
+  },
+  "217": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_178",
+    "original": "I was just thinking we should get one of these! Our patrons are going to love it.",
+    "translation": ""
+  },
+  "218": {
+    "tag": "TEXT_BANALL320_04788_N7000_000_179",
+    "original": "\u003Cwhirr\u003E Projections anticipate increased customer satisfaction in the \u201Cambience\u201D category.",
+    "translation": ""
+  },
+  "219": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_180",
+    "original": "Thank you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. We wouldn\u0027t be here if you hadn\u0027t brought us together.",
+    "translation": ""
+  },
+  "220": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_181",
+    "original": "I think I speak for everyone when I say that this day will shine like a newborn star in our memories. I hope you feel the same.",
+    "translation": ""
+  },
+  "221": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_182",
+    "original": "Just don\u0027t let it eclipse the possibility of more unforgettable days to come. After all...",
+    "translation": ""
+  },
+  "222": {
+    "tag": "TEXT_BANALL320_04788_JAMMINGWAY_000_183",
+    "original": "Look across the sea, up at the moon, past the distant stars...and you\u0027ll find us waiting for you!",
+    "translation": ""
+  },
+  "223": {
+    "tag": "TEXT_BANALL320_04788_SYSTEM_000_190",
+    "original": "You have achieved \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EAllied\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E reputation with the Hippo Riders, the Dreaming Ways, and the staff and patrons of the Last Dregs.",
+    "translation": ""
+  },
+  "224": {
+    "tag": "TEXT_BANALL320_04788_SYSTEM_000_191",
+    "original": "Through your efforts, your allies from Etheirys to the stars beyond have forged bonds of friendship that promise to remain strong through the years. You are truly a hero to societies throughout the universe!",
+    "translation": ""
+  }
+}

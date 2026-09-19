@@ -1,0 +1,412 @@
+{
+  "0": {
+    "tag": "TEXT_AKTKCT203_04769_SEQ_00",
+    "original": "Chora-Zoi is excitedly drafting up the next improvements to her tools.\u003Chex:02100103\u003E\u203BChanging classes or jobs will prevent progress during this quest.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_AKTKCT203_04769_SEQ_01",
+    "original": "Chora-Zoi is eager to greet you, and takes a moment in your company to reflect upon her personal growth. Though the creation of her own tools has given her more confidence in her craft, the young smith is well aware that her labors with you and Grenoldt are far from complete. As if on cue, Grenoldt claims that he is ready to impart unto Chora-Zoi his secret techniques for the next steps of the tool enhancement process, and the two prepare once more to craft a tool that will breathe life into Norvrandt\u0027s trades. Such a monumental task cannot begin without the necessary trade goods, however, and you steel yourself in preparation for the slew of components that must be procured.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that you may not proceed with a class or job that is different from when you accepted the quest.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_AKTKCT203_04769_SEQ_02",
+    "original": "With another veritable mountain of components successfully obtained, you proudly present your stash to Chora-Zoi, which she happily accepts. The tool she eventually returns to you is unlike any you have ever laid eyes on, and upon holding it in your hands, you are overwhelmed by a sense of warmth and comfort. Chora-Zoi insists that the brilliant light that shines within your tool is made possible by those who have supported her in this lengthy endeavor, and a wave of pride swells in the hearts of those present\u2500yourself included. With another phase of the splendorous tools project complete, you revel in your progress, though in the back of your mind, you are almost certain that a day will soon come when Chora-Zoi seeks even further enhancements...",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_AKTKCT203_04769_TODO_00",
+    "original": "With \u003Chex:0208F20138E4E80509FF1102310DFF054974656D04F29B34020203FFF2011E0208F20118E4E8050AFF1102310DFF054974656D04F29B35020203FFF0FF0208F0FAE4E8050BFF1102310DFF054974656D04F29B36020203FFF0E10208F0DCE4E8050CFF1102310DFF054974656D04F29B37020203FFC50208C1E4E8050DFF1102310DFF054974656D04F29B38020203FFA90208A5E4E8050EFF1102310DFF054974656D04F29B39020203FF8D020889E4E8050FFF1102310DFF054974656D04F29B3A020203FF7102086DE4E80510FF1102310DFF054974656D04F29B3B020203FF55020851E4E80511FF1102310DFF054974656D04F29B3C020203FF39020835E4E80512FF1102310DFF054974656D04F29B3D020203FF1D020819E4E80513FF1102310DFF054974656D04F29B3E020203FF010303030303030303030303\u003E in your inventory or Armoury Chest, deliver \u003Chex:0208F20284E4E80509FF2C024804F2023B03024904F2023C033930024902010302480201032002310DFF054974656D04F29B75030203FFF2024F0208F20249E4E8050AFF2C024804F2023B03024904F2023C033930024902010302480201032002310DFF054974656D04F29B76030203FFF202140208F2020EE4E8050BFF2C024804F2023B03024904F2023C033930024902010302480201032002310DFF054974656D04F29B77030203FFF201D90208F201D3E4E8050CFF2C024804F2023B03024904F2023C033930024902010302480201032002310DFF054974656D04F29B78030203FFF2019E0208F20198E4E8050DFF2C024804F2023B03024904F2023C033930024902010302480201032002310DFF054974656D04F29B79030203FFF201630208F2015DE4E8050EFF2C024804F2023B03024904F2023C033930024902010302480201032002310DFF054974656D04F29B7A030203FFF201280208F20122E4E8050FFF2C024804F2023B03024904F2023C033930024902010302480201032002310DFF054974656D04F29B7B030203FFF0EE0208F0E9E4E80510FF2C024804F2023B03024904F2023C033930024902010302480201032002310DFF054974656D04F29B7C030203FFB70208B3E4E80511FF32024804F2023B03024904F2023C03323130024902010302480201032002310DFF054974656D04F29B8D03020320616E6420FF7A020876E4E80512FF32024804F2023B03024904F2023C03323130024902010302480201032002310DFF054974656D04F29B8E03020320616E6420FF3D020839E4E80513FF31024804F2023B03024904F2023C033830024902010302480201032002310DFF054974656D04F29B8F03020320616E6420FF010303030303030303030303\u003E\u003Chex:0208A4E4E80511FF2D024804F2023B03024904F2023C03323130024902010302480201032002310DFF054974656D04F29B84030203FF7002086CE4E80512FF2D024804F2023B03024904F2023C03323130024902010302480201032002310DFF054974656D04F29B86030203FF38020834E4E80513FF2C024804F2023B03024904F2023C033830024902010302480201032002310DFF054974656D04F29B90030203FF01030303\u003E to Chora-Zoi.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_000_001",
+    "original": "Please note that upon completing the quest \u201CA Tool without Compare,\u201D you will receive an upgraded splendorous tool for your current class of \u003Chex:02280EFF09436C6173734A6F62E9450103\u003E.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_AKTKCT203_04769_Q1_000_000",
+    "original": "What will you do?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_AKTKCT203_04769_A1_000_001",
+    "original": "Undertake this quest as another class.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_AKTKCT203_04769_A1_000_002",
+    "original": "Undertake this quest as \u003Chex:0208B0E4E9450BFF15616E2002280EFF09436C6173734A6F62E9450103FF94020890E4E9450FFF15616E2002280EFF09436C6173734A6F62E9450103FF74020870E4E94506FF15616E2002280EFF09436C6173734A6F62E9450103FF54020850E4E9451BFF15616E2002280EFF09436C6173734A6F62E9450103FF34020830E4E94522FF15616E2002280EFF09436C6173734A6F62E9450103FF14612002280EFF09436C6173734A6F62E94501030303030303\u003E.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_000_004",
+    "original": "Be advised that once you undertake this quest, you may not proceed with a class or job that is different from when you accepted it.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_000_005",
+    "original": "Please ensure that you have changed to your desired class before speaking with Chora-Zoi.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_000_006",
+    "original": "In order to receive the quest \u201CA Tool without Compare,\u201D you must have\u003Chex:02100103\u003E\u003Chex:02310CFF054974656D04E802020203\u003E equipped, in your Armoury Chest, or in your inventory.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_000_007",
+    "original": "You have already received \u003Chex:02310CFF054974656D03E802020203\u003E. Please change to a different class and speak to Chora-Zoi again.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_008",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Allow me to thank you again for your help thus far. I doubt we\u0027d have gotten to this point without you!",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_009",
+    "original": "I\u0027ve been taking some time to ponder over our progress. Crafting a tool with my name on it felt a bit surreal, to be sure! But I do believe it\u0027s given me a healthy dose of confidence as an artisan.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_AKTKCT203_04769_GRENOLDT_000_010",
+    "original": "Heh, ye\u0027ve come a long way, Miss Chora-Zoi. Ye got more in common with yer tools than ye think\u2500endless potential, for starters.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_AKTKCT203_04769_GRENOLDT_000_011",
+    "original": "The forge was yer canvas, and ye utilized all them components to paint it with yer own colors, so to speak. That\u0027s the sign of a smitty what knows her craft an\u0027 more.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_AKTKCT203_04769_GRENOLDT_000_012",
+    "original": "I know yer eager to get back to it and enhance yer works to the fullest...which is why I\u0027m plannin\u0027 to entrust ye with some o\u0027 me special techniques. If ye learn \u0027em well, yer next tool might even rival me own!",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_013",
+    "original": "You mean it, Master Grenoldt!? I\u0027m truly humbled by the offer, but...are you sure I\u0027m ready for this? ",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_014",
+    "original": "...No, I mustn\u0027t keep hesitating. I \u003Chex:021A020203\u003Eam\u003Chex:021A020103\u003E ready for this!",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_AKTKCT203_04769_GRENOLDT_000_015",
+    "original": "That\u0027s the spirit, lass! Ye may be reachin\u0027 uncharted territory, but we\u0027re in this together. Long as we\u0027re collaboratin\u0027, there ain\u0027t nothin\u0027 in this world ye can\u0027t craft.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_016",
+    "original": "Right! I won\u0027t let you down!",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_017",
+    "original": "It\u0027s thanks to all of you that I\u0027ve been able to grow and thrive as much as I have...and I promise to repay that debt by being the best artisan I can possibly be!",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_018",
+    "original": "Now then, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, we\u0027ve got quite a lot of work ahead of us, so I think it\u0027s time we got down to business. With every enhancement comes the customary components, after all!",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_019",
+    "original": "Here to upgrade another tool, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E? Well, you\u0027ve come to the right place! I imagine you\u0027ll want to address the matter of the components first and foremost, so let\u0027s get down to business, shall we?",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_020",
+    "original": "For our next phase of the project, we\u0027ll need a hefty helping of \u003Chex:02310CFF054974656D04E802030203\u003E!",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_021",
+    "original": "Now, as I\u0027m sure you\u0027re aware, the Boutique won\u0027t simply give those out for free. We\u0027ll need to provide them with something equally extraordinary, such as a supply of \u003Chex:0208F0DCE4E80202FF1102310DFF054974656D04F29B6503\u003E\u003Chex:0203\u003E\uFFFD\uFFFD\u003Chex:0208C1E4E80203FF1102310DFF054974656D04F29B66030203FFA90208A5E4E80204FF1102310DFF054974656D04F29B67030203FF8D020889E4E80205FF1102310DFF054974656D04F29B68030203FF7102086DE4E80206FF1102310DFF054974656D04F29B69030203FF55020851E4E80207FF1102310DFF054974656D04F29B6A030203FF39020835E4E80208FF1102310DFF054974656D04F29B6B030203FF1D020819E4E80209FF1102310DFF054974656D04F29B6C030203FF0103030303030303\u003E\u0003, carefully crafted by our one and only Warrior of Darkness!",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_022",
+    "original": "For our next phase of the project, we\u0027ll need a hefty helping of \u003Chex:02310CFF054974656D04E802030203\u003E and \u003Chex:02310CFF054974656D04E803030203\u003E!",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_100_024",
+    "original": "Now, as I\u0027m sure you\u0027re aware, the Boutique won\u0027t simply give those out for free. We\u0027ll need to provide them with something equally extraordinary\u2500such as a supply of \u003Chex:020835E4E8020AFF1102310DFF054974656D04F29B83030203FF1D020819E4E8020BFF1102310DFF054974656D04F29B85030203FF010303\u003E, lovingly gathered by our one and only Warrior of Darkness!",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_023",
+    "original": "For our next phase of the project, we\u0027ll need a hefty helping of \u003Chex:02310CFF054974656D04E802030203\u003E and \u003Chex:02310CFF054974656D04E803030203\u003E!",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_024",
+    "original": "Now, as I\u0027m sure you\u0027re aware, the Boutique won\u0027t simply give those out for free. We\u0027ll need to provide them with something equally extraordinary\u2500such as a supply of \u003Chex:02310DFF054974656D04F29B87030203\u003E and \u003Chex:02310DFF054974656D04F29B88030203\u003E, carefully caught by our one and only Warrior of Darkness!",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_025",
+    "original": "You can exchange your supplies here, of course, but if you find yourself far from our little piece of the Boutique, you should be able to use aetherial reduction to obtain what you need as well!",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_027",
+    "original": "I\u0027m sure you\u0027re itching to get started, but do make sure to keep my tool equipped while you\u0027re out and about! Once I observe how it reacts to your work, I should be able to optimize this upcoming round of improvements.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_028",
+    "original": "You can deliver your wares straight to Quinnana, and she\u0027ll provide us the components we seek from her usual stock. Any questions? Please direct them to Master Grenoldt!",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_029",
+    "original": "Once you\u0027ve collected the components we require, simply bring them to me along with your tool, and I\u0027ll make for the forge. Until then, I wish you a painless procurement process!",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_000_030",
+    "original": "Present Chora-Zoi with her crystalline tool and the requisite materials to receive an upgraded version.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_000_031",
+    "original": "Brilliant components can be obtained by delivering selected trade goods to Quinnana at Grenoldt\u0027s workbench near the Crystalline Mean.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_000_032",
+    "original": "Gatherers may also obtain brilliant components by using aetherial reduction on the applicable trade goods.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_100_032",
+    "original": "In order to use aetherial reduction, you must first complete the quest \u201CNo Longer a Collectable.\u201D",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_000_033",
+    "original": "To craft the necessary trade goods, open the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ECrafting Log\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E, followed by \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESpecial Recipes\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E from within the requisite crafting discipline. Next, select \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESidequests\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E, then lastly \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESplendorous Tools\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E to locate applicable recipes.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_000_034",
+    "original": "Please note that select crafting materials can be purchased with scrips, and that you must have Chora-Zoi\u0027s crystalline tool equipped when crafting.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_000_035",
+    "original": "The trade goods in question can be found in the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESplendorous Tools\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E section of the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EGathering Log\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_000_036",
+    "original": "Please note that you must have Chora-Zoi\u0027s crystalline tool equipped when gathering.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_000_037",
+    "original": "Catching fish suitable for trade goods requires the use of specialized bait balls. This bait can be obtained from Quinnana in exchange for scrips.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_000_038",
+    "original": "Furthermore, please note that you must have Chora-Zoi\u0027s crystalline tool equipped when fishing.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_000_039",
+    "original": "When making your final delivery to Chora-Zoi, the tool to be upgraded should be placed in your inventory or Armoury Chest, and not equipped.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_AKTKCT203_04769_GRENOLDT_000_040",
+    "original": "Summat confusin\u0027 ye? Just make sure to use Miss Chora-Zoi\u0027s tool to prepare the trade goods for barter.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_AKTKCT203_04769_GRENOLDT_000_041",
+    "original": "Deliver said goods to Quinnana, an\u0027 she\u0027ll exchange them for the rare materials we need. Once ye\u0027ve got enough, drop the lot on Chora-Zoi so\u0027s she can get on with the improvements. Simple, eh?",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_000_042",
+    "original": "Present Chora-Zoi with her crystalline tool and the requisite materials to receive an upgraded version.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_000_043",
+    "original": "Brilliant components can be obtained by delivering selected trade goods to Quinnana at Grenoldt\u0027s workbench near the Crystalline Mean.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_000_044",
+    "original": "To craft the necessary trade goods, open the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ECrafting Log\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E, followed by \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESpecial Recipes\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E from within the requisite crafting discipline. Next, select \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESidequests\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E, then lastly \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESplendorous Tools\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E to locate applicable recipes.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_000_045",
+    "original": "Please note that the selected crafting materials can be purchased with scrips, and that you must have Chora-Zoi\u0027s crystalline tool equipped when crafting.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_000_046",
+    "original": "The trade goods in question can be found in the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESplendorous Tools\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E section of the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EGathering Log\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_000_047",
+    "original": "Please note that you must have Chora-Zoi\u0027s crystalline tool equipped when gathering.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_000_048",
+    "original": "Catching fish suitable for trade goods requires the use of specialized bait balls. This bait can be obtained from Quinnana in exchange for scrips.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_000_049",
+    "original": "Furthermore, please note that you must have Chora-Zoi\u0027s crystalline tool equipped when fishing.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_AKTKCT203_04769_SYSTEM_000_050",
+    "original": "When making your final delivery to Chora-Zoi, the tool to be upgraded should be placed in your inventory or Armoury Chest, and not equipped.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_060",
+    "original": "There\u0027s our professional procurer! I can hardly begin to express how grateful I am for all the work you\u0027ve done...though something tells me you\u0027d prefer to rid yourself of all those components before I start singing your praises in earnest. If you can hand those over with your tool...",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_061",
+    "original": "You truly are one of a kind, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. We\u0027ve been hard at work with our share of preparations as well, so I guarantee you\u0027ll be more than satisfied with your new tool once we\u0027re finished with it!",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_AKTKCT203_04769_GRENOLDT_000_062",
+    "original": "Aye, while you were out collectin\u0027 yer wares, Miss Chora-Zoi here was studyin\u0027 my secret techniques. Picked \u0027em up right quick, too. She won\u0027t steer yer tool wrong\u2500ye have me word.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_063",
+    "original": "Let\u0027s see here... Yes, everything appears to be in order, which means it\u0027s high time we made our way to the Facet of Forging. We shouldn\u0027t be long, so stay right there and our work will be done before you know it!",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_064",
+    "original": "It\u0027s finally time for the all-important finishing touches...",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_065",
+    "original": "If it\u0027s a beacon of hope Mistress Mowen wants, then it\u0027s a beacon of hope she\u0027ll get! One that will shine like Master Grenoldt\u0027s kettles... One as brilliant as the very stars \u003Chex:022C0DFF07022903EB0203FF02200203\u003E fought so tirelessly to return to us!",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_066",
+    "original": "Wicked white, that was exhausting...but I\u0027m proud to say that you\u0027ll be wielding my greatest masterpiece yet!",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_AKTKCT203_04769_GRENOLDT_000_067",
+    "original": "That bein\u0027 said, ye\u0027d best take care of it! Now that she\u0027s mastered me forgin\u0027 techniques, Miss Chora-Zoi\u0027s works truly are as good as me own. Go on, then\u2500hold it aloft an\u0027 take a gander for yerself!",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_068",
+    "original": "For this enhancement, I wished to balance form and function, and Master Grenoldt\u0027s techniques allowed me to do just that! Not only is my newest creation a feast for the eyes, it also adapts to the whims of its wielder just as well as its predecessors.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_AKTKCT203_04769_GRENOLDT_100_068",
+    "original": "Hearin\u0027 that makes me heart swell with pride, it does. Still, I know me methods better than anyone, an\u0027 pure oil alone don\u0027t make a tool shine the way yers does. What was on yer mind when ye pieced this together?",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_200_068",
+    "original": "Well, to be honest, my head was in a bit of a jumble, but\u2500",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_AKTKCT203_04769_MOWEN_000_069",
+    "original": "I see I\u0027ve arrived at a most fortuitous time. You have outdone yourself once again, Miss Chora-Zoi!",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_070",
+    "original": "Mistress Mowen! What brings you here?",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_AKTKCT203_04769_MOWEN_000_071",
+    "original": "When word of your most recent exploits reached Eulmore, \u0027twas only a matter of time before my curiosity compelled me to make the journey here. Mistress Qeshi-Trao was equally intrigued by the news, so I thought it prudent to receive a firsthand report for our dear patron as well.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_200_072",
+    "original": "...Wait, that was it! \u003Chex:021A020203\u003EThat\u0027s\u003Chex:021A020103\u003E what was on my mind when I was forging the tool!",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_AKTKCT203_04769_GRENOLDT_100_071",
+    "original": "(-Grenoldt-)\u201CAs it turns out, I found me muse in them enchantin\u0027 eyes. The thousands of kettles I forged to capture that captivating gleam was what set me on the smitty\u0027s path!\u201D",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_072",
+    "original": "I recalled the moment Master Grenoldt spoke of his kettles in front of us. It was because of those very kettles that I became the artisan I am today.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_100_072",
+    "original": "The ardent wish he carved onto his every work, his maker\u0027s mark\u2500it was because he was inspired by you that I took an interest in the forge, Mistress Mowen! Your enduring bond is why we stand here now, blazing a new trail of hope for Norvrandt\u0027s trades.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_073",
+    "original": "The two of you, your kettles, and my inspiration...we were all bound together from the very first, whether we knew it or not.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_074",
+    "original": "And as luck would have it, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E came to our aid, providing the push we needed to unite our disparate dreams. The connections we\u0027ve forged now shine through in this very tool\u2500a brilliant maker\u0027s mark to represent us all!",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_075",
+    "original": "You have my deepest gratitude, Mistress Mowen. I would never have thought to name these tools for myself, and yet in doing so, I feel as though I can reach even greater heights in my craft.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_AKTKCT203_04769_GRENOLDT_000_076",
+    "original": "Hear, hear! Spoken like a true master.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_AKTKCT203_04769_GRENOLDT_000_077",
+    "original": "All I did was bring out the potential ye always had in ye, but small as my part was, I\u0027m right honored to have played it. Ye did me proud, lass, an\u0027 I reckon ye\u0027ll keep doin\u0027 the same.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_078",
+    "original": "That means the world to me, Master Grenoldt... Thank you so much!",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_079",
+    "original": "Phew! It took a bit of extra work to make sure it was up to my standards, but I\u0027ve done it once again. Allow me to present you with the newest tool in the Chora-Zoi line\u2500\u003Chex:02310CFF054974656D03E802020203\u003E! Go on and hold it up for the world to see!",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_AKTKCT203_04769_CHORAZOI_000_080",
+    "original": "Hee hee, perfect! Why, I think it shines even brighter in your hands, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.\u003Chex:02100103\u003EThank you for entrusting me with your tools once again. It\u0027s been an honor!",
+    "translation": ""
+  }
+}

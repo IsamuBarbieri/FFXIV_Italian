@@ -1,0 +1,662 @@
+{
+  "0": {
+    "tag": "TEXT_BANANA003_03038_SEQ_00",
+    "original": "Alpa needs your help with the latest additions to Castellum Velodyna.\u003Chex:02100103\u003E\u203BThe difficulty of this quest will be synced to your current level.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_BANANA003_03038_SEQ_01",
+    "original": "The area around the castellum is home to many dangerous creatures. To give travelers somewhere to stay at night, J\u0027olhmyn had proposed converting unused storerooms into lodgings. She suggests speaking with someone who has actually slept in one of the newly prepared rooms to find out if anything needs to be improved.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_BANANA003_03038_SEQ_02",
+    "original": "Although the merchant is grateful to have had somewhere to stay, he did not enjoy a good night\u0027s sleep. Bedding from Vira Nilya had been provided, but he did not know what to do with it and slept on the floor instead. When Alpa demonstrates the correct method of using the bedding by curling into a coil, it becomes clear that she has no knowledge whatsoever of the needs of their two-legged guests. While J\u0027olhmyn accepts responsibility for Alpa\u0027s lack of preparedness, she admits to being far from an expert on inns herself. She recommends looking around Ala Ghiri for those with experience in the field of accommodation to work as an advisor.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_BANANA003_03038_SEQ_03",
+    "original": "Upon arriving in Ala Ghiri, it soon becomes clear that the residents are busy restoring their village since its liberation from imperial rule. Although no one there has the time to go to Castellum Velodyna and act as advisor, you learn of a man called Gales who once worked as an innkeeper in Goodblade before it was razed. Alpa is carrying out her own inquiries and would be glad to hear this promising information.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_BANANA003_03038_SEQ_04",
+    "original": "Alpa is pleased by the news of there being a candidate for the role of advisor. She and J\u0027olhmyn proceed to Goodblade, where Gales is said to be wandering aimlessly.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_BANANA003_03038_SEQ_05",
+    "original": "Gales has hit upon hard times since the fall of Goodblade. He seems convinced that he is no longer of use to anyone, but Alpa persuades him to aid in her cause. Despite being hesitant at first, he accepts the offer and travels with her to the castellum.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_BANANA003_03038_SEQ_06",
+    "original": "Upon seeing the shoddy state of the castellum\u0027s sleeping quarters, Gales unexpectedly flies into a rage. Unperturbed by this sudden outburst, Alpa is filled with renewed enthusiasm and vows to do her utmost to carry out Gales\u0027s orders. His first instructions are to gather raw materials for building beds and a chocobo stable, which can be found in the wreckage of a nearby imperial base, according to J\u0027olhmyn. She advises you to ride a marid and use its powerful forelegs to smash the scrap metal into pieces small enough to carry. Luckily, Dakshina the Gatekeepers\u0027 resident marid trainer has one ready and waiting.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_BANANA003_03038_SEQ_07",
+    "original": "Climbing atop the marid, you head for what remains of Castellum Corvi. The enormous beast should make short work of crushing the scrap left strewn about the area.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_BANANA003_03038_SEQ_08",
+    "original": "Now that you and the marid have finished your work, the Gatekeepers can carry the raw materials back to Castellum Velodyna. Gales and the others eagerly await your return.",
+    "translation": ""
+  },
+  "9": {
+    "tag": "TEXT_BANANA003_03038_SEQ_09",
+    "original": "Thanks to Gales\u0027s cooperation, the castellum\u0027s guest rooms and chocobo stable are finally complete. His tutelage has given Alpa a deeper understanding of the travelers and their needs, while Gales realizes that he still has much to learn about the Ananta. Having overcome numerous hurdles, Alpa moves ever closer to bringing her plans for Velodyna to fruition.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_BANANA003_03038_TODO_00",
+    "original": "Speak with the Gridanian merchant.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_BANANA003_03038_TODO_01",
+    "original": "Search for potential advisors in Ala Ghiri.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_BANANA003_03038_TODO_02",
+    "original": "Report to Alpa.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_BANANA003_03038_TODO_03",
+    "original": "Speak with Gales in Goodblade.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_BANANA003_03038_TODO_04",
+    "original": "Speak with Gales in Castellum Velodyna.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_BANANA003_03038_TODO_05",
+    "original": "Speak with Dakshina.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_BANANA003_03038_TODO_06",
+    "original": "Use the marid\u0027s Trample ability on the warmachina wreckage in Castellum Corvi.",
+    "translation": ""
+  },
+  "31": {
+    "tag": "TEXT_BANANA003_03038_TODO_07",
+    "original": "Speak with Gales in Castellum Velodyna.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_BANANA003_03038_SYSTEM_100_001",
+    "original": "In order to undertake this quest, you must first complete the main scenario quest \u201CThe First of Many.\u201D",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_BANANA003_03038_ALPA_100_001",
+    "original": "Good to sssee you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! You know, I\u0027d say our work is progresssing quite nicely. There\u0027s still time left, but even if Mother were to arrive tomorrow, I think she\u0027d be impresssed!",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_100_001",
+    "original": "Isn\u0027t it a bit early to be saying that?",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_150_001",
+    "original": "The work needs to be finished before she comes back. We\u0027d have a hard time convincing your mother with the place as it is now.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_200_001",
+    "original": "Of course, the castellum is no longer under threat of demolition, and the griffin statues are very nice. But it\u0027s still more or less the same as when we arrived.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_BANANA003_03038_ALPA_200_001",
+    "original": "What about the old ssstorerooms we converted into overnight lodgings?",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_300_001",
+    "original": "Yes, I was just getting to that. As you doubtless know from personal experience, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, this whole area is crawling with dangerous creatures, many of which are more active at night.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_400_001",
+    "original": "Adventurers and soldiers can hold their own against them, but merchants and returning refugees are easy targets. We\u0027ll be seeing a lot more of them now that the Garleans have withdrawn.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_000_005",
+    "original": "That\u0027s why I suggested that we put down some beds in the old storerooms. I haven\u0027t actually had a look yet, but I\u0027m sure Alpa took care of it. There are probably a few things that need improving, though.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_100_005",
+    "original": "If we ask someone who\u0027s actually spent the night here, we can get their opinion.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_006",
+    "original": "That visitor from Gridania who ssslept here should still be about. Why don\u0027t we ssstart with him?",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_BANANA003_03038_MERCHANT03038_000_010",
+    "original": "Can I help you?",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_011",
+    "original": "Having stayed overnight in our lodgings, would you say you ssslept well?",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_BANANA003_03038_MERCHANT03038_000_012",
+    "original": "I wasn\u0027t expecting to find anywhere to stay and I was full glad to be offered shelter. Otherwise, I\u0027d have been traveling in the dark with only the beasts breathing down my neck to keep me warm!",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_BANANA003_03038_MERCHANT03038_000_013",
+    "original": "Having said that, I think it\u0027s a bit soon to be calling them \u201Clodgings.\u201D I would\u0027ve appreciated something to lie on besides the floor.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_014",
+    "original": "The floor? I heard that travelers preferred to sssleep in proper beds so I had some brought over from Vira Nilya.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_BANANA003_03038_MERCHANT03038_000_015",
+    "original": "A bed? I didn\u0027t see anything like that.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_100_015",
+    "original": "Alpa? You did give them something to sleep on, didn\u0027t you?",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_016",
+    "original": "Of course I did! Maybe it would be quicker if I just showed you. Wait here.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_017",
+    "original": "You had one of these in your room, didn\u0027t you?",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_BANANA003_03038_MERCHANT03038_000_018",
+    "original": "I did. Do you mean to say I\u0027m supposed to sleep on \u003Chex:021A020203\u003Ethat\u003Chex:021A020103\u003E?",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_019",
+    "original": "Allow me to demonstrate.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_BANANA003_03038_ALPA_100_019",
+    "original": "That\u0027s it! Put it down over here!",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_BANANA003_03038_BORDERGUARDCORPS03038_200_019",
+    "original": "Yes, Captain!",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_BANANA003_03038_ALPA_300_019",
+    "original": "Sssee?",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_020",
+    "original": "This is how we Ananta go to sssleep\u2500 We just coil up like this and we\u0027re perfectly comfortable.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_000_021",
+    "original": "You scaly-pated imbecile! Do you think we can \u201Cjust coil up\u201D like that? Get up, would you?",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_022",
+    "original": "\u003Csigh\u003E Fine...",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_BANANA003_03038_BORDERGUARDCORPS03038_200_022",
+    "original": "We\u0027ll help you, Captain Alpa!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_BANANA003_03038_MERCHANT03038_100_022",
+    "original": "And on that note, I bid you all farewell.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_200_022",
+    "original": "It\u0027s partly my fault, I suppose. I should\u0027ve made sure that Alpa knew what a guest room actually \u003Chex:021A020203\u003Eis\u003Chex:021A020103\u003E first.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_000_023",
+    "original": "To be honest, it\u0027s been a while since I stayed in a decent inn myself, so I\u0027m probably not in any position to give proper advice. Any thoughts?",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_BANANA003_03038_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_BANANA003_03038_A1_000_001",
+    "original": "We could head to a village with one and ask around?",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_BANANA003_03038_A1_000_002",
+    "original": "Nothing builds character like a cold, hard floor, I say.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_025",
+    "original": "I doubt our guestsss will be in the mood for any character-building after a long journey. Any other ideas?",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_100_025",
+    "original": "Come to think of it, there are several inns for travelers in Ala Ghiri.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_027",
+    "original": "Good idea. We might find sssomeone who can come here to tell us what this place is misssing.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_000_028",
+    "original": "Let\u0027s head to the inns in Ala Ghiri.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_030",
+    "original": "I think I sssaw that merchant a few moments ago. He can\u0027t have gone far.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_000_035",
+    "original": "You think we should ask him? No, not a good idea. Merchants tend to be a bit wary of us military types.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_BANANA003_03038_WEIDHERI_000_040",
+    "original": "Advice on accommodation? Sorry, I\u0027m needed here for the time being. Might be worth asking around though.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_BANANA003_03038_JNAIROH_000_041",
+    "original": "You want me to go all the way to Castellum Velodyna? I\u0027d love to help, but I\u0027ve got my hands full here as it is.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_BANANA003_03038_GERBOD_000_042",
+    "original": "Lodgings, you say? You ought to try askin\u0027 people who used to work in Goodblade. \u0027Course, it\u0027s naught more than rubble now, so the old residents are lookin\u0027 to apply their trades elsewhere.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_BANANA003_03038_GERBOD_000_043",
+    "original": "A bloke called Gales used to run an inn there and he took pride in his work. You should find him still mopin\u0027 around there.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_045",
+    "original": "How goes the sssearch? I\u0027m not having much luck.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_000_050",
+    "original": "It turns out that everyone\u0027s busy trying to get Ala Ghiri back on its feet. They might have some useful information, though. Let\u0027s keep trying.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_055",
+    "original": "They can\u0027t \u003Chex:021A020203\u003Eall\u003Chex:021A020103\u003E be busy, can they?",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_BANANA003_03038_ALPA_100_055",
+    "original": "Did you find anyone?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_056",
+    "original": "A man named Gales? And he was an innkeeper? Perfect! Let\u0027s go and look for him!",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_BANANA003_03038_WEIDHERI_000_057",
+    "original": "Actually, I could use a hand here if you\u0027re free!",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_BANANA003_03038_JNAIROH_000_058",
+    "original": "Sorry I couldn\u0027t be more helpful.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_BANANA003_03038_GERBOD_000_059",
+    "original": "If you\u0027re heading over to Goodblade, watch your backs. There\u0027s all sorts of horrible things lurkin\u0027 about.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_BANANA003_03038_GALES_000_060",
+    "original": "What brings you to Goodblade? Or rather, what\u0027s left of it...",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_BANANA003_03038_GALES_000_062",
+    "original": "Oh, I see. You say my advice may prove beneficial? It\u0027s very kind of you to ask, but I should warn you\u2500failure seems to follow me everywhere I go...",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_100_063",
+    "original": "He\u0027s a ray of sunshine, isn\u0027t he?",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_BANANA003_03038_GALES_100_063",
+    "original": "Since the fall of Goodblade, I\u0027ve tried working elsewhere. It never seems to last long because everyone takes such a disliking to me. I can\u0027t say I blame them. I\u0027m no good to anyone.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_064",
+    "original": "But we heard you were a first-rate innkeeper! You should put that experience to good use by helping usss!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_BANANA003_03038_GALES_000_066",
+    "original": "\u003Csigh\u003E If you say so. I\u0027m just worried that I\u0027ll go all the way to the castellum only for you to change your minds and turn me away. It would be just my luck...",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_067",
+    "original": "We wouldn\u0027t do that. We need you! Let\u0027s head for the cassstellum. I\u0027ll explain more on the way.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_070",
+    "original": "Is that Gales?",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_000_075",
+    "original": "Hopefully he\u0027ll be just what we\u0027re looking for!",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_BANANA003_03038_GALES_000_090",
+    "original": "Oi! You scrawny little turd! Are these supposed to be guest rooms!? It\u0027s an insult!",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_091",
+    "original": "Is sssomething amiss, Gales?",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_BANANA003_03038_GALES_000_092",
+    "original": "You\u0027re bloody right something\u0027s amiss! Why would anyone torture themselves by sleeping in this shitehole? That bed\u0027s not fit for a chocobo! And that\u0027s another thing\u2500 Where are the chocobos meant to stay?",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_100_092",
+    "original": "So this is why he has trouble keeping a job...",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_093",
+    "original": "All right, Gales, I hear you loud and clear! I\u0027ll do whatever it takes to turn this place around!",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_BANANA003_03038_GALES_000_094",
+    "original": "You know bugger all about how to treat guests, but you\u0027ve got the right attitude! Let\u0027s get to work!",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_BANANA003_03038_GALES_000_095",
+    "original": "Like I was saying, there\u0027s nothing for chocobos at all, so we\u0027ll start with that. We need a stable and troughs for food and water. Oi! You over there! Is there any wood or metal we can use?",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_000_096",
+    "original": "Not really, no. I know a few places we might be able to get some, though.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_100_096",
+    "original": "I\u0027ll arrange to have some timber collected. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, there should be some piles of scrap metal over at Castellum Corvi.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_000_097",
+    "original": "Don\u0027t worry\u2500I\u0027m not expecting you to lug it back here by yourself. The other Gatekeepers can take care of that. I just need you to prepare it for transport.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_000_098",
+    "original": "We should have a marid crush it underfoot to break it into smaller pieces. If you speak with Dakshina, she should be able to get one ready. She\u0027s just outside the gate.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_100",
+    "original": "Gales is looking things over as we ssspeak. I was about to ask his opinion, but he seems a bit...different from before.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_000_105",
+    "original": "It\u0027s hard to picture anyone being satisfied with Alpa\u0027s lodgings, never mind a professional.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_BANANA003_03038_DAKSHINA_000_106",
+    "original": "We Ananta have lived alongssside marids for generations. Do not fear. Their enormousss size belies their gentle nature.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_BANANA003_03038_DAKSHINA_000_110",
+    "original": "You wish to ride the marid? For what purpossse?",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_BANANA003_03038_DAKSHINA_000_111",
+    "original": "I sssee...crushing a few sssteel plates should pose no difficulty for a marid. They are even ssstronger than they look.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_BANANA003_03038_DAKSHINA_000_112",
+    "original": "Should you be ssseparated from the marid, it will return to me of its own volition. Once the work is complete, you may disssmount as you please.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_000_115",
+    "original": "Even a tamed marid can be dangerous if startled, so don\u0027t make any sudden moves or loud noises!",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_BANANA003_03038_ALPA_100_115",
+    "original": "Once we\u0027re finished, you\u0027ll hardly recognize the place!",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_BANANA003_03038_GALES_200_115",
+    "original": "Now I\u0027m really fired up!",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_BANANA003_03038_GUARDSOLDIER03038_000_120",
+    "original": "What strength! I wouldn\u0027t want to get on a marid\u0027s bad side, that\u0027s for sure.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_BANANA003_03038_GUARDSOLDIERTTWO03038_000_121",
+    "original": "We\u0027ll carry the scrap back to Castellum Velodyna. You can go ahead and wait with Gales and the others.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_BANANA003_03038_SYSTEM_000_125",
+    "original": "This scrap metal must be broken into smaller pieces before it can be carried away. Ride the marid and use its Trample ability to prepare the raw materials for transport.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_BANANA003_03038_DAKSHINA_000_122",
+    "original": "Do you wish to ride the marid again?",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_BANANA003_03038_GUARDSOLDIER03038_000_125",
+    "original": "J\u0027olhmyn\u0027s explained the situation. We\u0027ll stay out of your way, so go ahead!",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_BANANA003_03038_GUARDSOLDIERTWO03038_000_126",
+    "original": "You get started. We\u0027ll deal with the scrap once you\u0027re done!",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_BANANA003_03038_GALES_000_130",
+    "original": "You\u0027re back! Where\u0027s the scrap?",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_BANANA003_03038_GALES_000_140",
+    "original": "It\u0027ll be here soon? I can\u0027t wait! I\u0027ll make the best chocobo stables you\u0027ve ever bloody seen!",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_BANANA003_03038_GALES_100_140",
+    "original": "But first, I\u0027ll get Alpa to make some beds! And if she buggers it up, I\u0027ll have her guts for garters!",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_BANANA003_03038_GALES_000_141",
+    "original": "So, what do you think? Not bad, eh?",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_142",
+    "original": "I made all the sheets myself too! Weaving is another ssspecialty of the Ananta, you know. Compared to the headdresses and clothing we usually make, this was sssimple!",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_143",
+    "original": "To be honest, there\u0027s no point having a ssskill if you don\u0027t know what to do with it. That\u0027s why I\u0027m glad Gales is here. I\u0027d be lossst without his advice!",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_BANANA003_03038_GALES_000_144",
+    "original": "But I\u0027m equally clueless when it comes to the Ananta! I\u0027ve lived in Gyr Abania my whole life and I know next to nothing about them!",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_BANANA003_03038_GALES_000_145",
+    "original": "We may have our differences, but we share a common tongue. We can learn a lot from each other.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_146",
+    "original": "Yesss, I think so too.",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_147",
+    "original": "You\u0027ve really made a difference here, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I\u0027m sure I\u0027ll need your help when more people start passing through our gates.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_148",
+    "original": "That reminds me\u2500 I should try out one of the new beds!",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_BANANA003_03038_GALES_000_149",
+    "original": "When I first met Alpa and heard she was captain of the Velodyna Gatekeepers, I didn\u0027t know what to expect. It was worth the journey though.",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_100_149",
+    "original": "(I\u0027m glad he\u0027s calmed down a bit...)",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_BANANA003_03038_ALPA_000_150",
+    "original": "Ah! I guess it\u0027s not as sturdy as it looks...",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_100_150",
+    "original": "\u003Csigh\u003E I just hope her mother doesn\u0027t show up now...",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_BANANA003_03038_GALES_000_151",
+    "original": "After what happened to Goodblade, I thought I was finished. Alpa asking me to come here could be the fresh start I\u0027ve been looking for.",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_BANANA003_03038_SYSTEM_000_152",
+    "original": "Guest rooms have been added to Castellum Velodyna.",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_BANANA003_03038_SYSTEM_000_153",
+    "original": "You have achieved \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ERespected\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E reputation with the Vira.",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_BANANA003_03038_SYSTEM_000_154",
+    "original": "New Vira society daily quests are now available from Eshana at Castellum Velodyna.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_BANANA003_03038_SYSTEM_000_155",
+    "original": "Furthermore, you will be able to undertake three additional quests from Eshana as a reputation bonus. This bonus is available until the daily reset time for allied society quests.",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_BANANA003_03038_SYSTEM_000_156",
+    "original": "These additional quests will become available after accepting all current daily quests from Eshana. Please be advised that you cannot undertake these quests if you have no remaining allowances.",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_BANANA003_03038_SYSTEM_000_157",
+    "original": "You now have access to a wider selection of wares from Madhura.",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_BANANA003_03038_ALPA_100_151",
+    "original": "I think you\u0027ll be pleasantly sssurprised!",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_BANANA003_03038_JOLHMYN_000_160",
+    "original": "Hopefully the wood I brought was up to snuff.",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_BANANA003_03038_GUARDSOLDIER03038_000_165",
+    "original": "I always knew marids were strong but I\u0027ve never seen anything like that before!",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_BANANA003_03038_GUARDSOLDIERTWO03038_000_170",
+    "original": "Let us handle this. I think Gales and the others could use your help.",
+    "translation": ""
+  }
+}

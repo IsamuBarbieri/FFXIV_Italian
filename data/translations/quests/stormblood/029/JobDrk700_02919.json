@@ -1,0 +1,682 @@
+{
+  "0": {
+    "tag": "TEXT_JOBDRK700_02919_SEQ_00",
+    "original": "You knew from the first that there was only one way this could end.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_JOBDRK700_02919_SEQ_01",
+    "original": "Sid has at last accepted that Myste is not coming back to Ishgard, and that if we are to reclaim the remainder of our stolen aether, we will need to take the initiative. Rhalgr\u0027s Reach was the last place you spoke, and so that is where we will go.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_JOBDRK700_02919_SEQ_02",
+    "original": "In speaking with the people of Rhalgr\u0027s Reach, we learn that Myste stayed there for a time, asking questions of a conjurer regarding aether and perhaps being responsible for the mysterious deaths of several chocobos. He\u0027s been naughty, to say the least.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_JOBDRK700_02919_SEQ_03",
+    "original": "Sid is unsure what to make of what we learned, though it seems fairly obvious to me what mischief the boy\u0027s been about. And you too, I hope. Anyway, it would seem that Myste was seen leaving the Reach and heading towards the Peaks. The hunt is on!",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_JOBDRK700_02919_SEQ_04",
+    "original": "Two beasts, dead, with no discernable injuries. Now where have we heard that before? Sid finally realizes that the boy must have sucked them dry of their aether, in the same way that he stole our aether. Needless to say, he is far, far more dangerous than he appears. A pity it took you all this long to see it.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_JOBDRK700_02919_SEQ_05",
+    "original": "Wrong way, wrong way! He\u0027ll kill Sid and Rielle if we don\u0027t hurry!",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_JOBDRK700_02919_SEQ_06",
+    "original": "And now, the betrayal. Myste believes that the only way we can atone for our sins is to \u201Cundo\u201D them with his simulacra. Every life we took, every death that weighs upon our soul, he would make amends for it all with his beautiful lies. I can end this charade, godsdammit, I can end it! Now is the time! You need me! YOU NEED ME!",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_JOBDRK700_02919_SEQ_07",
+    "original": "...So it goes. If you would not forsake me, then of course you would not forsake him. And so...neither can I. He is a fool, but he is our little fool. The little \u003Chex:02080EE905FF056769726CFF04626F7903\u003E who wanted to make this cruel, twisted world a better place, futile as that is. \u003Chex:02080CE905FF04536865FF03486503\u003E\u0027s going to get us killed one of these days...but what can I say? I love \u003Chex:02080DE905FF04686572FF0468696D03\u003E. I forgive \u003Chex:02080DE905FF04686572FF0468696D03\u003E. And you...",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_JOBDRK700_02919_SEQ_08",
+    "original": "Do you recall how we came to this place? At a friend\u0027s behest, in the midst of a raging blizzard? As we drew closer the gates faded into vision, and the towering spires...the man bowed low and bade us follow him, up the winding stair, from still smoldering ruin to untouched splendor. There we found a warm home and warm hearth, and warm hearts...",
+    "translation": ""
+  },
+  "9": {
+    "tag": "TEXT_JOBDRK700_02919_SEQ_09",
+    "original": "At the Last Vigil, as you reflect once more on the path you have walked, you are surprised by Lord Edmont, who greets you warmly. News of your exploits is delivered to Fortemps Manor daily, and you remain always in the thoughts of the former count and his family. Though a part of him wishes that you would remain in Ishgard, he knows that your destiny leads you elsewhere, for you are still a hero. You are still a good person.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe next dark knight quest will be available from Sidurgu once you have met the following requirements:\u003Chex:02100103\u003E\u203BYou must have completed the main scenario quest \u201CShadowbringers.\u201D\u003Chex:02100103\u003E\u203BYou must have completed the role quest \u201CTo Have Loved and Lost.\u201D",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_JOBDRK700_02919_TODO_00",
+    "original": "Gather information in Rhalgr\u0027s Reach.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_JOBDRK700_02919_TODO_01",
+    "original": "Speak with Sidurgu.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_JOBDRK700_02919_TODO_02",
+    "original": "Follow Sidurgu.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_JOBDRK700_02919_TODO_03",
+    "original": "Search the Last Forest for Myste.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_JOBDRK700_02919_TODO_04",
+    "original": "Search for Sidurgu.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_JOBDRK700_02919_TODO_05",
+    "original": "Search for Sidurgu.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_JOBDRK700_02919_TODO_06",
+    "original": "Speak with Sidurgu in Ishgard.",
+    "translation": ""
+  },
+  "31": {
+    "tag": "TEXT_JOBDRK700_02919_TODO_07",
+    "original": "Return to where it all began.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_JOBDRK700_02919_SYSTEM_000_005",
+    "original": "In order to undertake this quest, you must first complete the main scenario quest \u201CA Familiar Face Forgotten.\u201D",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_010",
+    "original": "...Godsdammit, Myste. We\u0027re going to have to track him down and make him return the remainder of the aether he stole from you, aren\u0027t we?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_100_010",
+    "original": "He said that when this was finished, naught would remain of him. Bloody vague and ominous, to say the least...",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_110_010",
+    "original": "We\u0027ll just have to press him for answers when we find him.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_011",
+    "original": "You last saw him at Rhalgr\u0027s Reach in Gyr Abania, yes? We\u0027ll start there.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_JOBDRK700_02919_RIELLE_000_012",
+    "original": "I\u0027m going too, and I won\u0027t take no for an answer. Sid\u0027s gotten better, but he\u0027s a long way from fully recovered. Besides, you\u0027ll need someone else to help you do the talking. Sid\u0027s no good at it.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_20",
+    "original": "What are you waiting for? Clearly I\u0027m no good at making small talk, so you and Rielle will have to ask after Myste.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_JOBDRK700_02919_RIELLE_000_025",
+    "original": "Someone here has to know something that can lead us to Myste...",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_JOBDRK700_02919_GILOW_000_030",
+    "original": "Lot of unusual folks coming through the Reach these days...",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_JOBDRK700_02919_GATEKEEPER02919_000_040",
+    "original": "Looking for a young boy with long blue hair, you say? Reckon I would remember someone like that if they were to come this way. And I don\u0027t.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_JOBDRK700_02919_GATEKEEPER02919_000_041",
+    "original": "Spoke with the fella before me during the changing of the guard, as we do, and he made no mention of anyone matching that description either...",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_JOBDRK700_02919_GATEKEEPER02919_000_042",
+    "original": "I\u0027m not saying the boy didn\u0027t come this way, but I\u0027d be surprised if he had. Someone would have noted his passing and told the others.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_JOBDRK700_02919_ORELLA_000_045",
+    "original": "...Ah, yes, I remember the long-haired boy. Very curious, with many questions about the nature of aether. He conversed with one of the Adder conjurers for a time. I know not what they discussed, but from his expression I gathered it was important.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_JOBDRK700_02919_ORELLA_000_046",
+    "original": "Very mature for his age, the boy. And somehow ethereal...",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_JOBDRK700_02919_BREEDER02919_000_050",
+    "original": "Hm? What\u0027s that!? You\u0027re looking for that boy too, are you!?",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_JOBDRK700_02919_BREEDER02919_000_051",
+    "original": "I was watching some birds late the other night when I hear someone skulking about behind me. \u201CForgive me, forgive me,\u201D I hear him saying, before he runs off and disappears into the dark.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_JOBDRK700_02919_BREEDER02919_000_052",
+    "original": "Then I realize it\u0027s quiet\u2500too quiet, aye? Sleeping birds make noise, and mine ain\u0027t. \u0027Cause they\u0027re dead. Every last one of them. No wounds or any other obvious marks, but there they lay, like the life was sucked right out of them!",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_JOBDRK700_02919_BREEDER02919_000_053",
+    "original": "I don\u0027t know how or why he did it, but there\u0027s no denying that he did! I demand recompense! If you find him, you bring him to me!",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_JOBDRK700_02919_BREEDER02919_000_054",
+    "original": "Wait\u2500are you that boy\u0027s keeper? Are you responsible for him!? \u0027Cause if you are, you owe me an explanation!",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_JOBDRK700_02919_RIELLE_000_060",
+    "original": "I have a bad feeling about this. I hope Myste hasn\u0027t done something stupid...",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_070",
+    "original": "Our inspector returns. Tell us, have you learned aught of Myste\u0027s whereabouts?",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_071",
+    "original": "...Seen conversing with a conjurer and possibly killing chocobos? Not sure what to make of that. Though we \u003Chex:021A020203\u003Ecan\u003Chex:021A020103\u003E be sure he stayed here for a time.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_072",
+    "original": "But perhaps no longer. We learned but moments ago from Gilow here that a boy matching Myste\u0027s description was seen leaving the Reach.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_073",
+    "original": "He is for the Peaks. And so are we.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_JOBDRK700_02919_RIELLE_000_080",
+    "original": "They\u0027re dead. Just...dead. Like the chocobos in the story you heard.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_090",
+    "original": "No visible injuries, no bleeding. Aye, it is as Rielle says: these beasts died for no discernable reason. Just like the chocobos that man in the Reach claims Myste somehow killed.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_091",
+    "original": "But it doesn\u0027t add up. Other than his singular magick, Myste was utterly helpless. Unless...was he always capable of this?",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_092",
+    "original": "...But we know the answer already. He stole your aether when we first met.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_JOBDRK700_02919_RIELLE_000_093",
+    "original": "Even if he could do it, even if he did do it...why?",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_094",
+    "original": "We\u0027ll ask him when we find him. And this time, you\u0027ll let \u003Chex:021A020203\u003Eme\u003Chex:021A020103\u003E do the talking.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_095",
+    "original": "Search the east. Rielle and I will head south. We\u0027ll meet in between if we find naught, and if we do...either you will come to our aid, or we to yours.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_JOBDRK700_02919_SYSTEM_000_100",
+    "original": "As you survey your surroundings, you observe naught out of the ordinary...but on the edge of hearing, you hear a whisper to the southwest...",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_JOBDRK700_02919_RIELLE_000_110",
+    "original": "No... Mother...",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_120",
+    "original": "Seven hells, I hate being right...",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_121",
+    "original": "On your guard. Myste has shown his true colors. The aether or whatever else he took from those beasts has given him tremendous strength...",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_122",
+    "original": "Contrary to his earlier warnings, conjuring another simulacrum wasn\u0027t the end of him. And of all the wonderful people he had to pluck from our memories, he chose Ystride de Caulignont.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_123",
+    "original": "He knows why we\u0027re here, and this is his answer. He summoned the monster that haunts Rielle in her dreams and sends her screaming from her bed.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_124",
+    "original": "Forgive me, Sid, but you gave me no choice...",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_JOBDRK700_02919_Q1_000_125",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_JOBDRK700_02919_A1_000_126",
+    "original": "Say your name. Your \u003Chex:021A020203\u003Ereal\u003Chex:021A020103\u003E name!",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_JOBDRK700_02919_A1_000_127",
+    "original": "There is always a choice.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_128",
+    "original": "...Shall I ask you the same? Who holds the reins? Though it matters not.\u003Chex:02100103\u003EWe are complicit, you and I.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_129",
+    "original": "...No. There isn\u0027t. Not really.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_130",
+    "original": "Can you even remember why you came here? Can you even remember how many you killed? How many lives shattered, how many stories ended?",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_131",
+    "original": "Upon the surface of the crystal are carved the sins of dark knights past...and yours are beyond counting. Beyond fathoming. Without end.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_132",
+    "original": "Justice is an excuse. Nobility is a lie. Murder is murder!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_133",
+    "original": "And though we are most definitely not without fault, it is this cruel, indifferent world which has made murderers of us all.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_134",
+    "original": "But we need suffer no longer. I sought to make these broken souls whole, one by one, when in truth the solution was much more simple.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_135",
+    "original": "A world beyond pain and suffering and anguish and despair\u2500a world beyond death! A world in which we never need bid farewell to our dearest friends.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_136",
+    "original": "And how many beasts will you need to \u003Chex:021A020203\u003Ekill\u003Chex:021A020103\u003E to make this world of yours? How much aether will you consume to see it through? Bloody self-righteous sophistry from a mewling whelp...",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_100_136",
+    "original": "So your brilliant plan is to fill the world with simulacra of the dead, is it? And somehow that\u0027s supposed to make everyone happy?",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_110_136",
+    "original": "Well, you\u0027re right about one thing, I\u0027ll grant you that. This world is brutal, uncaring, without logic or justice...",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_137",
+    "original": "No justice but that which we make for ourselves! And I\u0027ll be damned if I give it up so you can force your illusions upon us to assuage your guilt!",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_138",
+    "original": "Did you not find comfort in your reunion with your master!? Even though you knew it was a lie, did it not help you to unburden your soul? To find a measure of peace in this madness!?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_100_138",
+    "original": "I am not your enemy. Not then or now. I will not fight you. All I ask is that you leave me to do my duty.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_139",
+    "original": "It\u0027s never too late to turn back. You are still a good person.\u003Chex:02100103\u003EYou can still be...a good person...",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_140",
+    "original": "So this is your answer...",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_141",
+    "original": "Maybe you cannot accept what needs to be done. But I can. Good-bye.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_400",
+    "original": "So many broken by this world, and then by you. So, so many...",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_401",
+    "original": "Woe betide the man who stands opposed to the Weapon of Light, for death will be his reward. Death for him and his kin and all that he holds dear.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_402",
+    "original": "Woe betide the man who stands with the Weapon of Light, for death will be his reward. Death for him and his kin and all that he holds dear.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_403",
+    "original": "Like sands through the hourglass, everything we fight so desperately to protect slips through our fingers...and what remains...what remains...",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_404",
+    "original": "...Is us. Only us, and the memory of our sin.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_405",
+    "original": "To walk this path is to suffer. To sacrifice...",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_JOBDRK700_02919_Q3_000_406",
+    "original": "(Listen to my voice. Listen to our heartbeat...)",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_JOBDRK700_02919_A3_000_407",
+    "original": "...Justice demands no less.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_JOBDRK700_02919_A3_000_408",
+    "original": "I tire of this charade.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_JOBDRK700_02919_FRAY_000_409",
+    "original": "(-???-)Serve... Save... Slave... Slay... I\u0027ve sins aplenty, aye, but regrets? Not so much.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_JOBDRK700_02919_FRAY_000_410",
+    "original": "(-???-)And if \u003Chex:02080CE905FF04736865FF03686503\u003E wouldn\u0027t listen to me, the embodiment of good sense and pragmatism, then what hope could you possibly have?",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_JOBDRK700_02919_FRAY_000_411",
+    "original": "(-???-)A house divided cannot stand, you know. This childish rebellion ends now.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_412",
+    "original": "What in the seven hells is this!?",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_JOBDRK700_02919_FRAY_000_413",
+    "original": "...A compromise, I suppose? Our dear friend here refused to let me take the reins, but I wasn\u0027t about to stand idly by while that imbecile tries to do...whatever it was he was trying to do.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_JOBDRK700_02919_FRAY_000_414",
+    "original": "No hard feelings about Whitebrim, eh? Promise not to stab you in the back.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_JOBDRK700_02919_FRAY_000_415",
+    "original": "It\u0027ll be just like old times.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_416",
+    "original": "A dark knight needs a sword. Take mine.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_417",
+    "original": "No... No... This is wrong... This is all wrong...",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_418",
+    "original": "I offer you peace! Restitution! A chance to make amends! Do not think you are above it! Do not think that a reckoning will be postponed indefinitely!",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_JOBDRK700_02919_FRAY_000_419",
+    "original": "When it comes, I shall welcome it with open arms...",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_JOBDRK700_02919_FRAY_000_420",
+    "original": "But today will not be the day, and you will not be the judge!",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_430",
+    "original": "Forgive me, forgive me... I ask, I beg, I pray, but it never comes...",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_431",
+    "original": "Again they go to join the multitude in the black oblivion of the abyss...",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_JOBDRK700_02919_FRAY_000_432",
+    "original": "Such is our lot. Such is the fate of all who are born\u2500to suffer and to die.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_JOBDRK700_02919_FRAY_000_433",
+    "original": "Do not seek forgiveness, for it will not ease the burden. It weighs as it should.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_434",
+    "original": "But what of the lost? Do they not deserve to live again?",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_JOBDRK700_02919_RIELLE_000_435",
+    "original": "They do. In our hearts and our souls and our memories.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_JOBDRK700_02919_RIELLE_000_436",
+    "original": "No one likes having to say good-bye. But it\u0027s...it\u0027s a part of life. That\u0027s what makes the time we share together so precious...",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_JOBDRK700_02919_RIELLE_000_437",
+    "original": "You can\u0027t obsess over the mistakes of the past, or you\u0027ll lose sight of the future. Of the people still with us, who need us more than ever.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_438",
+    "original": "The greatest strength is born of the flame in the abyss...",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_JOBDRK700_02919_FRAY_000_439",
+    "original": "Listen to my voice. Listen to our heartbeat. Listen...\u003Chex:02100103\u003EI forgive you. I forgive you. I forgive you...",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_440",
+    "original": "Thank you. That is...that is all I ever wanted...",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_441",
+    "original": "So...this is it. One last parting. One final farewell...after a fashion.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_JOBDRK700_02919_MYSTE_000_442",
+    "original": "In your darkest hour, in the blackest night...think of me...and I will be with you. Always. For where else could I go? Who else could I love but you?",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_JOBDRK700_02919_RIELLE_000_450",
+    "original": "Ah...you\u0027re back. Welcome home...?",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_460",
+    "original": "You\u0027ll forgive us for returning to Ishgard ahead of you, I hope. I, uh...needed some time to think on everything that happened in Gyr Abania.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_461",
+    "original": "I won\u0027t pretend to know everything you\u0027ve been through in your life. A man can never truly understand what\u0027s in another\u0027s heart...and probably not their own, for that matter...",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_462",
+    "original": "I\u0027m pretty much rambling at this point, but...I suppose what I\u0027m trying to say is that I\u0027m grateful for everything you\u0027ve done for me and Rielle. I like you. I respect you. And I\u0027ll always be here for you, if you need me.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_463",
+    "original": "We\u0027re fellow walkers of the path, after all. And friends, I\u0027d like to think.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_JOBDRK700_02919_RIELLE_000_464",
+    "original": "I\u0027ve been wondering... Myste appeared at the same time the soul crystal cracked, yes? But which happened first? And why then and there?",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_465",
+    "original": "Damned if I know. Does anyone truly understand how soul crystals work? What matters is that the crystal and \u003Chex:022C0DFF07022903EB0203FF02200203\u003E have been made whole.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_466",
+    "original": "That said... \u201CA heart bleeds, a man weeps, a soul burns. Thence comes the darkness, to consume.\u201D And few hearts have bled as much as \u003Chex:02080EE905FF0568657273FF0468697303\u003E...",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_JOBDRK700_02919_RIELLE_000_467",
+    "original": "Speaking of bleeding, I think your wounds have reopened. If you would sit, it would be much easier for me to tend to them...",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_JOBDRK700_02919_RIELLE_000_468",
+    "original": "You should get some rest too, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Not all wounds are so obvious.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_100_468",
+    "original": "Out of the mouths of babes and sucklings\u2500praise Halone! She\u0027s right, though. No need to overdo it by running off to the next battle just yet.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_469",
+    "original": "If you must put one foot in front of the other, though, why don\u0027t you go back to where this whole damn mess began? Maybe you\u0027ll have an epiphany.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_JOBDRK700_02919_SIDURGU_000_470",
+    "original": "Part of me can\u0027t help but think this was all a fever dream. And then I take a deep breath and feel the pain in my ribs...",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_JOBDRK700_02919_RIELLE_000_475",
+    "original": "It\u0027s nice to dream of a world without pain and suffering. But the world is what it is, and dreams will only carry you so far. That\u0027s why we\u0027ve got swords.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_JOBDRK700_02919_EDMONT_000_480",
+    "original": "(-???-)Hm? What troubles you, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E?",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_JOBDRK700_02919_EDMONT_000_481",
+    "original": "Ah, but of course. \u0027Tis bitterly cold this day. At times like these, one should be warming themselves by the fire.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_JOBDRK700_02919_EDMONT_000_482",
+    "original": "Not a day goes by without your name being spoken, you know. The soldiers and merchants often bring us news of your latest exploits. That said, to hear it from the hero \u003Chex:020815E905FF0868657273656C66FF0868696D73656C6603\u003E would be much preferable...",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_JOBDRK700_02919_EDMONT_000_483",
+    "original": "But there would be no expectation were you to call on us. The pleasure of your company alone would be more than enough.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_JOBDRK700_02919_EDMONT_000_484",
+    "original": "Rare though I expect it will be in the days to come... But your destiny was never to remain here, was it? Though a part of me wishes that you would...",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_JOBDRK700_02919_EDMONT_000_485",
+    "original": "Forgive me. I find myself growing more and more sentimental in my old age...and in working on my memoirs, I have had to reflect on the darker chapters of my life...",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_JOBDRK700_02919_EDMONT_000_486",
+    "original": "Haurchefant...lived his to the fullest...and if his story is preserved for generations to come, then I...I should be glad of it...",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_JOBDRK700_02919_EDMONT_000_487",
+    "original": "You will always have a place here, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. For you are family. Now, go! Do not let me keep you from your labors. The world waits for none\u2500not even you.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_JOBDRK700_02919_SYSTEM_100_500",
+    "original": "This concludes the dark knight quests for FINAL FANTASY XIV: Stormblood. In order to undertake the next series of quests, you must first meet the following requirements:",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_JOBDRK700_02919_SYSTEM_100_501",
+    "original": "\u203BYou must have completed the main scenario quest \u201CShadowbringers.\u201D",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_JOBDRK700_02919_SYSTEM_100_502",
+    "original": "\u203BYou must have completed the role quest \u201CTo Have Loved and Lost.\u201D",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_JOBDRK700_02919_SYSTEM_100_503",
+    "original": "Once you have done so, the next dark knight quest will be available from Sidurgu.",
+    "translation": ""
+  }
+}

@@ -1,0 +1,647 @@
+{
+  "0": {
+    "tag": "TEXT_MANFST408_00522_SEQ_00",
+    "original": "Minfilia is greatly concerned by recent developments concerning the council of the Alliance leaders.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_MANFST408_00522_SEQ_01",
+    "original": "In urgent tones, Minfilia reveals to you that Gaius van Baelsar has issued the Alliance leaders with an ultimatum. Even now, they are discussing how best to respond. Lest they make an uninformed decision and inadvertently seal Eorzea\u0027s doom, it is imperative that Minfilia be given an opportunity to plead her case. Make haste to the Royal Promenade and ask Bartholomew to admit you to the Fragrant Chamber.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_MANFST408_00522_SEQ_02",
+    "original": "Owing to your timely intervention, Eorzea\u0027s leaders have resolved to fight the Empire to the last. Return to the Waking Sands in Vesper Bay, and speak with Minfilia.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_MANFST408_00522_SEQ_03",
+    "original": "The path ahead is now clear\u2500all that remains is to walk it. Join your fellow Scions in preparing for the battle to decide the future of the realm.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_MANFST408_00522_TODO_00",
+    "original": "Speak with Bartholomew on the Royal Promenade.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_MANFST408_00522_TODO_01",
+    "original": "Speak with Minfilia at the Waking Sands.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_MANFST408_00522_MINFILIA_000_000",
+    "original": "Grim tidings, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. It seems that word of the Ultima Weapon\u0027s existence has already reached the Alliance leaders...in the form of an ultimatum. They have gathered in the Fragrant Chamber, and are deliberating their answer even as we speak.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_MANFST408_00522_MINFILIA_000_001",
+    "original": "Beleaguered as they are, I fear they may well elect to lay down their arms in the belief that surrender will spare their people untold suffering. Yet nothing could be further from the truth.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_MANFST408_00522_MINFILIA_000_002",
+    "original": "That which the Black Wolf offers will doom Eorzea, not deliver it, and the leaders must be made aware of this. Let us hurry to them, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, and ensure that they do not act in ignorance of the consequences.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_MANFST408_00522_BARTHOLOMEW_000_010",
+    "original": "The council of the Alliance leaders is presently in progress in the Fragrant Chamber. I must ask that you step away from the doors, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_MANFST408_00522_BARTHOLOMEW_000_011",
+    "original": "...I\u0027m sorry? You\u0027re here on behalf of the \u003Chex:021A020203\u003EScions of the Seventh Dawn\u003Chex:021A020103\u003E!? A thousand pardons, my \u003Chex:02080FE905FF056C616479FF056C6F726403\u003E! Of course you may enter!",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_MANFST408_00522_000010_RAUBAHN",
+    "original": "Bah! We keep treading the same ground.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_MANFST408_00522_000020_MERLWYB",
+    "original": "Van Baelsar\u0027s demands are clear...",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_MANFST408_00522_000030_KANESENNA",
+    "original": "Alas, our minds are not.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_MANFST408_00522_000040_RAUBAHN",
+    "original": "I\u0027ve never been one to shy from a fight. But if this weapon of theirs can do all they claim...",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_MANFST408_00522_000050_KANESENNA",
+    "original": "It has been five years since the Calamity, and our people have scarce begun to rebuild their lives.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_MANFST408_00522_000060_KANESENNA",
+    "original": "Can we now, in good conscience, call upon them to risk what little they have left? I would spare them the pain of further conflict.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_MANFST408_00522_000070_KANESENNA",
+    "original": "Conflict, I say, though that would imply forces set in opposition. If the combined might of three primals could not stay Garlemald\u0027s new terror...",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_MANFST408_00522_000090_KANESENNA",
+    "original": "What meaningful resistance can we offer? We who struggle to quell the foes who rise up within our own borders...",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_MANFST408_00522_000100_MERLWYB",
+    "original": "Long have we fought the primals, but to what end? We strike them down at no small cost, only for them to rise again and again.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_MANFST408_00522_000110_MERLWYB",
+    "original": "Are we to play this profitless game for the rest of days? I for one grow tired of it.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_MANFST408_00522_000120_MERLWYB",
+    "original": "Mistake me not, I do not propose to trade one tyranny for another.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_MANFST408_00522_000130_MERLWYB",
+    "original": "I love liberty. But conciliation need not mean oppression.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_MANFST408_00522_000140_RAUBAHN",
+    "original": "By the Twelve... Though neither of you cried \u201Csurrender,\u201D your every word betokened it.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_MANFST408_00522_000150_RAUBAHN",
+    "original": "Not that I deny there is truth in what you say. Nor can I rightly claim that Ul\u0027dah is ready to fight.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_MANFST408_00522_000160_RAUBAHN",
+    "original": "Refugees flood our gates, and beastmen swarm our land, while the great and the good do nothing. My Flames struggle to bear the burden.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_MANFST408_00522_000170_RAUBAHN",
+    "original": "I put on a grand show at the remembrance service, made all manner of lofty promises... I\u0027ve made good on not a bloody one.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_MANFST408_00522_000180_NANAMOULNAMO",
+    "original": "Do not blame yourself, Raubahn. You said only that which the people needed to hear. All present have done the same.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_MANFST408_00522_000190_NANAMOULNAMO",
+    "original": "Our citizens had become lost to hope. If our words served to kindle it in them anew, better we speak than remain silent.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_MANFST408_00522_000200_NANAMOULNAMO",
+    "original": "Our enemy condemns us for failing our people, yet what does he care for their well-being?",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_MANFST408_00522_000210_NANAMOULNAMO",
+    "original": "While we labored to rebuild their lives, the Black Wolf built instruments of murder with which to \u003Chex:021A020203\u003Eend\u003Chex:021A020103\u003E them.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_MANFST408_00522_000220_KANESENNA",
+    "original": "Her Majesty speaks true. For all our failings, the people\u0027s well-being has ever been our foremost priority.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_MANFST408_00522_000230_KANESENNA",
+    "original": "While none among us ever doubted that the Empire would one day resume its war, we scarcely had means enough to solve the problems of the present.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_MANFST408_00522_000240_MERLWYB",
+    "original": "Aye, which is why we looked to others to safeguard our future\u2500",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_MANFST408_00522_000250_MERLWYB",
+    "original": "The Scions of the Seventh Dawn. Alas, they are gone, and the Black Wolf is at our door.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_MANFST408_00522_000260_ALPHINAUD",
+    "original": "Admiral, I fear you are mistaken!",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_MANFST408_00522_000270_MERLWYB",
+    "original": "Alphinaud? Minfilia? And\u2500seven hells\u2500MASTER GARLOND!",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_MANFST408_00522_000280_KANESENNA",
+    "original": "And you, dear friend...",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_MANFST408_00522_000290_RAUBAHN",
+    "original": "By Rhalgr... You\u0027re alive! \u003Chex:021A020203\u003EAll\u003Chex:021A020103\u003E of you!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_MANFST408_00522_000300_ALPHINAUD",
+    "original": "As we approached, I would swear I heard talk of surrender, but I know that cannot be! It is not the Eorzean way!",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_MANFST408_00522_000310_MINFILIA",
+    "original": "Hear me, my friends! Accepting the Garleans\u0027 offer to vanquish the primals would be folly.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_MANFST408_00522_000320_MINFILIA",
+    "original": "Folly, I say, for might is not the answer to the primal threat. Indeed, the more the Empire exerts its strength, the worse matters will become.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_MANFST408_00522_000330_MINFILIA",
+    "original": "Primals enter this world when mortals call upon them, and mortals are wont to appeal to a higher power when they are desperate.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_MANFST408_00522_000340_MINFILIA",
+    "original": "Nothing is more certain to breed desperation in the beast tribes than the Garleans\u0027 proposed solution.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_MANFST408_00522_000350_ALPHINAUD",
+    "original": "The true answer lies in a lasting peace, but the Garleans only know war and conquest. Should Eorzea fall into their hands, there will be such suffering as none can imagine.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_MANFST408_00522_000360_MINFILIA",
+    "original": "We are not blind to the many challenges that each of your nations face. Yet you must not give in.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_MANFST408_00522_000370_ALPHINAUD",
+    "original": "Aye! Remember five years ago, when you wagered all for the sake of the realm! Remember what you fought for, what you were willing to die for!",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_MANFST408_00522_000380_ALPHINAUD",
+    "original": "Let the memories rekindle the fire in your heart, for Eorzea has need of it again!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_MANFST408_00522_000390_MINFILIA",
+    "original": "Come what may, we Scions will never give up the fight.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_MANFST408_00522_000400_MINFILIA",
+    "original": "And so I bid you stand with us, and together we shall safeguard the future of the realm!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_MANFST408_00522_000410_CID",
+    "original": "A great man once said that a shrewd merchant grasps not for the quick profit, but invests in the future. Wise words...eh, Raubahn?",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_MANFST408_00522_000420_RAUBAHN",
+    "original": "Cid... I...",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_MANFST408_00522_000430_KANESENNA",
+    "original": "Your words stir...and shame me in equal measure. How could I contemplate surrender...?",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_MANFST408_00522_000440_KANESENNA",
+    "original": "I know full well that all we have, we owe to the sacrifices of those who went before us. Yet the seeming hopelessness of our plight robbed me of my insight.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_MANFST408_00522_000450_KANESENNA",
+    "original": "We Gridanians have no love for war...",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_MANFST408_00522_000460_KANESENNA",
+    "original": "Yet we have still less for those who would threaten our homeland. Ever have we fought to protect those things we hold dear, and this shall never change.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_MANFST408_00522_000470_KANESENNA",
+    "original": "Gridania will go to war. We will fight the Empire, for the sake of the realm and all who abide here!",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_MANFST408_00522_000480_NANAMOULNAMO",
+    "original": "Ahaha... Ahahahaha!",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_MANFST408_00522_000490_NANAMOULNAMO",
+    "original": "Hahaha! Hear, hear!",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_MANFST408_00522_000500_MERLWYB",
+    "original": "Hahahaha...",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_MANFST408_00522_000510_RAUBAHN",
+    "original": "Hah hah hah hah!",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_MANFST408_00522_000520_NANAMOULNAMO",
+    "original": "At long last, I hear words worthy of a founder of the Alliance!",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_MANFST408_00522_000530_NANAMOULNAMO",
+    "original": "Raubahn! Are we to be outdone!?",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_MANFST408_00522_000540_RAUBAHN",
+    "original": "I lost one homeland. The thought of losing another had blunted my resolve.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_MANFST408_00522_000550_RAUBAHN",
+    "original": "But no man knows better than I that if you want aught, you\u0027d best be ready to die for it.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_MANFST408_00522_000560_RAUBAHN",
+    "original": "With great danger comes the chance for great glory, and great profit\u2500we Ul\u0027dahns, who have turned sand into gold, know this well.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_MANFST408_00522_000570_RAUBAHN",
+    "original": "How many times have we fallen into the pit of despair, only to have you pluck us out? I\u0027ve fair lost count.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_MANFST408_00522_000580_MERLWYB",
+    "original": "Reckless, the lot of you\u2500like bloody pirates! Well, I won\u0027t waste my breath trying to talk you \u0027round...",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_MANFST408_00522_000590_MERLWYB",
+    "original": "...On account of being a pirate myself. And the pirate who shrinks from a challenge is no pirate at all!",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_MANFST408_00522_000600_MERLWYB",
+    "original": "Those who would pick a quarrel with us must choose: back down, or go down with all hands.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_MANFST408_00522_000610_MERLWYB",
+    "original": "Let the Garleans come. The united strength of Limsa Lominsa will be waiting for them!",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_MANFST408_00522_000620_NANAMOULNAMO",
+    "original": "If our realm is to be free of this pall of darkness, let it be by our own hands!",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_MANFST408_00522_000630_LEADERS",
+    "original": "(-Leaders-)For Eorzea!",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_MANFST408_00522_000640_KANESENNA",
+    "original": "We must needs consider how the weapon may be brought to bear against us.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_MANFST408_00522_000650_MERLWYB",
+    "original": "The Maelstrom will secure strategic points along the coastline.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_MANFST408_00522_000660_RAUBAHN",
+    "original": "In the meantime, the Flames will deploy at...",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_MANFST408_00522_000670_NANAMOULNAMO",
+    "original": "Be at ease, my friends. You have banished our doubts.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_MANFST408_00522_000680_NANAMOULNAMO",
+    "original": "Pray leave the military matters to us, and retire to the Waking Sands. We will send word anon.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_MANFST408_00522_MINFILIA_000_020",
+    "original": "No text",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_MANFST408_00522_100690_MINFILIA",
+    "original": "I cannot well express my relief. To think that the Alliance came so close to surrender...",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_MANFST408_00522_100700_CID",
+    "original": "But the fire in their hearts has been rekindled, and they will fight to the last.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_MANFST408_00522_100710_ALPHINAUD",
+    "original": "This warmth inside... Did you feel it too, Grandfather?",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_MANFST408_00522_100720_ALPHINAUD",
+    "original": "I would know something\u2500was that your power at work earlier?",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_MANFST408_00522_100730_MINFILIA",
+    "original": "Nothing of the sort. The leaders of Eorzea had lost their way\u2500I merely helped them to find it again.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_MANFST408_00522_100740_MINFILIA",
+    "original": "Oh, hello!\u003Chex:02100103\u003E...Yes, our party returned just a moment ago. How close are you?",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_MANFST408_00522_100750_MINFILIA",
+    "original": "It\u0027s all right, Cid.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_MANFST408_00522_100760_ALPHINAUD",
+    "original": "We must needs plan our next move. Pray continue liaising with your respective nations. Cid, would you be our man in Ul\u0027dah?",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_MANFST408_00522_100770_CID",
+    "original": "I\u0027ll be whatever and wherever you need me to be!",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_MANFST408_00522_100780_YSHTOLA",
+    "original": "We haven\u0027t a moment to waste.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_MANFST408_00522_100790_YDA",
+    "original": "All right! Let\u0027s do this!",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_MANFST408_00522_100800_MINFILIA",
+    "original": "Thancred\u0027s fate weighs heavy on my mind. I cannot bear to think of him in thrall to an Ascian.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_MANFST408_00522_100810_MINFILIA",
+    "original": "Mayhap you know this already, but the Ascians are immortal beings without physical form. Since time immemorial, they have fanned the flames of chaos from the shadows.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_MANFST408_00522_100820_MINFILIA",
+    "original": "That they might work unseen, the Ascians entrap and possess mortal men by means of malign artifacts known as Crystals of Darkness.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_MANFST408_00522_100830_MINFILIA",
+    "original": "One such Crystal may yet be the key to saving Thancred.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_MANFST408_00522_100840_ALPHINAUD",
+    "original": "This is a Crystal of Darkness?",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_MANFST408_00522_100850_YSHTOLA",
+    "original": "A mere replica, created using data obtained from anomalous crystals found across Eorzea.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_MANFST408_00522_100860_MINFILIA",
+    "original": "It comes to us courtesy of the Students of Baldesion, our distant allies.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_MANFST408_00522_100870_MINFILIA",
+    "original": "Even for an Archon, Thancred\u0027s talents are exceptional. We all had complete confidence in him.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_MANFST408_00522_100880_MINFILIA",
+    "original": "It was for this reason that none among us foresaw the danger in sending him to investigate the Ascians alone.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_MANFST408_00522_100890_PAPALYMO",
+    "original": "Thancred had been striving to fill the void left by Louisoix. Yet it was plain that he was overtaxing himself.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_MANFST408_00522_100900_YDA",
+    "original": "Yeah... He would volunteer for everything and work till he was dizzy.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_MANFST408_00522_100910_ALPHINAUD",
+    "original": "And the toll taken by his exertions made him vulnerable to Ascian influence...",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_MANFST408_00522_100920_MINFILIA",
+    "original": "The Crystal that binds Thancred must be somewhere on his person. If we could but destroy it, his Ascian possessor would be compelled to relinquish control over him.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_MANFST408_00522_100930_MINFILIA",
+    "original": "You have proven the stoutest of allies, standing with us through thick and thin.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_MANFST408_00522_100940_MINFILIA",
+    "original": "Yet the most perilous struggle is still to come. For the sake of the realm\u2500and Thancred\u2500I ask that you lend us your strength once more.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_MANFST408_00522_Q1_000_1",
+    "original": "Will you lend your strength?",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_MANFST408_00522_A1_000_1",
+    "original": "Yes",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_MANFST408_00522_A1_000_2",
+    "original": "No",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_MANFST408_00522_100950_MINFILIA",
+    "original": "Thank you. From the bottom of my heart.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_MANFST408_00522_100960_MINFILIA",
+    "original": "As I am sure you are aware, the realm was saved from certain doom five years ago by heroes known as the Warriors of Light.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_MANFST408_00522_100970_MINFILIA",
+    "original": "What you may \u003Chex:021A020203\u003Enot\u003Chex:021A020103\u003E be aware of is that your many feats in service to the Scions have prompted folk to make certain...comparisons.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_MANFST408_00522_100980_MINFILIA",
+    "original": "I must confess, you do remind me of them.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_MANFST408_00522_100990_MINFILIA",
+    "original": "One can only wonder at their insight. Perhaps a touch of the Echo resides in everyone.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_MANFST408_00522_101000_MINFILIA",
+    "original": "Yet remember this: however glorious the past, it is the hero\u0027s lot to be judged on the deeds of the present.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_MANFST408_00522_101010_MINFILIA",
+    "original": "A new darkness threatens the realm, and the people cry out for a savior.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_MANFST408_00522_101020_MINFILIA",
+    "original": "I believe that \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E are \u003Chex:02080CE905FF04736865FF03686503\u003E\u2500a Warrior of Light, here in the present, guided by the Crystal\u0027s will.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_MANFST408_00522_101030_MINFILIA",
+    "original": "Come, my friends! Let us fight to safeguard the future of our beloved Eorzea!",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_MANFST408_00522_MINFILIA_000_030",
+    "original": "I meant to ask you. Are you, perchance, in possession of your own chocobo? I would be remiss to send you into a battle of this scale without a mount.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_MANFST408_00522_MINFILIA_000_031",
+    "original": "If you do not, I would encourage you to procure one from your Grand Company as soon as you are able. I can guarantee you that it will serve you well to have your own steed.",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_MANFST408_00522_SISTEM_000_032",
+    "original": "In order to undertake the next main scenario quest, you must first complete the quest \u201CMy Little Chocobo (\u003Chex:020812E1E93501FF0A4D61656C7374726F6DFF0103\u003E\u003Chex:020813E1E93601FF0B5477696E204164646572FF0103\u003E\u003Chex:020818E1E93701FF10496D6D6F7274616C20466C616D6573FF0103\u003E).\u201D",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_MANFST408_00522_SISTEM_000_040",
+    "original": "You may accept the quest \u201CMy Little Chocobo (\u003Chex:020812E1E93501FF0A4D61656C7374726F6DFF0103\u003E\u003Chex:020813E1E93601FF0B5477696E204164646572FF0103\u003E\u003Chex:020818E1E93701FF10496D6D6F7274616C20466C616D6573FF0103\u003E)\u201D by speaking with \u003Chex:02082CE1E93501FF245227617368616874205268696B69206174204D61656C7374726F6D20436F6D6D616E64FF0103\u003E\u003Chex:02082DE1E93601FF25566F727361696C65204865756C6F6978206174207468652041646465727327204E657374FF0103\u003E\u003Chex:02082EE1E93701FF26436F6D6D616E646572205377696674206174207468652048616C6C206F6620466C616D6573FF0103\u003E.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_MANFST408_00522_SYSTEM_000_041",
+    "original": "Furthermore, to better prepare for the impending struggle with the Empire, it is recommended that you first unlock a job and gain access to more powerful actions.",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_MANFST408_00522_SYSTEM_000_042",
+    "original": "This can be done by completing the level 30 quest of the associated class, and then undertaking the quests for the job by speaking with a nearby NPC.",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_MANFST408_00522_SYSTEM_000_043",
+    "original": "To better prepare for the impending struggle with the Empire, it is recommended that you first unlock a job and gain access to more powerful actions.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_MANFST408_00522_SYSTEM_000_044",
+    "original": "This can be done by completing the level 30 quest of the associated class, and then undertaking the quests for the job by speaking with a nearby NPC.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_MANFST408_00522_ELYENORA_050_100",
+    "original": "Greetings, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. Do you wish to proceed to your vessel?",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_MANFST408_00522_Q2_000_100",
+    "original": "Proceed to the landing area?",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_MANFST408_00522_A2_000_101",
+    "original": "Yes",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_MANFST408_00522_A2_000_102",
+    "original": "No",
+    "translation": ""
+  }
+}

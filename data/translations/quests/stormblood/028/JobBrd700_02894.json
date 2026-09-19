@@ -1,0 +1,627 @@
+{
+  "0": {
+    "tag": "TEXT_JOBBRD700_02894_SEQ_00",
+    "original": "Guydelot is keenly waiting to see how the Order of the Twin Adder will move.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_JOBBRD700_02894_SEQ_01",
+    "original": "The Order of the Twin Adder has made its will known: they refuse to negotiate with Nourval, effectively abandoning Sanson to his fate. As Guydelot lets vent his fury at the heartless decision, Commander Heuloix emerges as an ally, revealing that he has already recruited the aid of Gridania\u0027s martial guilds for Sanson\u0027s rescue. Speak with Luciane and Ywain at the Archers\u0027 and Lancers\u0027 Guilds respectively, and inform them that the mission will soon commence.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_JOBBRD700_02894_SEQ_02",
+    "original": "Both the archers and the lancers are ready to strike out. Take word back to Commander Heuloix at the Adders\u0027 Nest.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_JOBBRD700_02894_SEQ_03",
+    "original": "In urgent tones, Commander Heuloix informs you that the Order of the Twin Adder has ascertained Nourval\u0027s hideout, and will soon deploy troops for an assault. Unless you get there first, Sanson is as good as dead. Make haste to the North Shroud, and join Guydelot at Alder Springs.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_JOBBRD700_02894_SEQ_04",
+    "original": "With help from your allies, you succeed in subduing Nourval and liberating Sanson. Rejoin your comrades in the North Shroud.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_JOBBRD700_02894_SEQ_05",
+    "original": "At first, Nourval clings to his hatred for Ala Mhigo, but confronted with the truth of his ancestors\u0027 hearts, he is forced to concede the error of his ways. Reaching out to his erstwhile captor, Sanson swears to see to it that Vainchelon\u0027s sacrifice is not forgotten. With the situation now under control, turn your attention to Sanson and ensure that he is well.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_JOBBRD700_02894_SEQ_06",
+    "original": "Thanking you for his preservation, Sanson declares his intent to make good on his promise to Nourval. Return with your comrades to Gridania, and seek out Commander Heuloix at the Adders\u0027 Nest.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_JOBBRD700_02894_SEQ_07",
+    "original": "Commander Heuloix listens intently as Sanson states his terms for surrendering Gylbarde\u0027s journal: when the time is right, the Order of the Twin Adder must release the truth of Vainchelon\u0027s death to the public. The commander promises to do all within his power to make it so, and encourages Sanson to rise through the ranks that he, too, might join his voice to the cause. While Guydelot keeps watch over his recovering chief, seek out Jehantel at his campsite west of Quarrymill, and report the conclusion of events.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_JOBBRD700_02894_SEQ_08",
+    "original": "Jehantel expresses his hopes that Nourval will find a new path\u2500one that leads to peace in the world and in his heart. With you and yours leading the way, the ideals of peace and harmony may yet be restored to Vainchelon\u0027s line, made bolder still by a true remembrance of the past.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe next bard quest will be available from Jehantel once you have met the following requirements:\u003Chex:02100103\u003E\u203BYou must have completed the main scenario quest \u201CShadowbringers.\u201D\u003Chex:02100103\u003E\u203BYou must have completed the role quest \u201CCourage Born of Fear.\u201D",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_JOBBRD700_02894_TODO_00",
+    "original": "Speak with Luciane at the Archers\u0027 Guild. ",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_JOBBRD700_02894_TODO_01",
+    "original": "Speak with Ywain at the Lancers\u0027 Guild.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_JOBBRD700_02894_TODO_02",
+    "original": "Speak with Vorsaile Heuloix.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_JOBBRD700_02894_TODO_03",
+    "original": "Rendezvous with Guydelot at Alder Springs. ",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_JOBBRD700_02894_TODO_04",
+    "original": "Rendezvous with Guydelot at Alder Springs.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_JOBBRD700_02894_TODO_05",
+    "original": "Speak with Sanson.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_JOBBRD700_02894_TODO_06",
+    "original": "Speak with Vorsaile Heuloix at the Adders\u0027 Nest.",
+    "translation": ""
+  },
+  "31": {
+    "tag": "TEXT_JOBBRD700_02894_TODO_07",
+    "original": "Speak with Jehantel to the west of Quarrymill.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_000_000",
+    "original": "Good timing, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Nourval\u0027s demands\u0027ve just arrived at the Adders\u0027 Nest.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_000_001",
+    "original": "In exchange for Sanson\u0027s freedom, we\u0027re to release the contents of Gylbarde\u0027s journal to the public. Bastard won\u0027t be satisfied until all Gridanians hate all Ala Mhigans\u0027 guts.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_000_002",
+    "original": "The brass hats\u0027re deliberating a course of action as we speak. Not much we can do now but wait.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_JOBBRD700_02894_VORSAILE_000_010",
+    "original": "Command has made its decision.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_JOBBRD700_02894_VORSAILE_000_011",
+    "original": "You will not wish to hear this...but the order rejects Nourval\u0027s demands. He and his band are to be summarily eliminated.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_000_012",
+    "original": "What!? H-Hold on just a second! You won\u0027t even \u003Chex:021A020203\u003Etry\u003Chex:021A020103\u003E to negotiate Sanson\u0027s release!?",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_JOBBRD700_02894_VORSAILE_000_013",
+    "original": "As a nation, we cannot bow to acts of intimidation; I\u0027m afraid negotiation was never an option. And here I must repeat the order for you to relinquish the journal at once.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_000_015",
+    "original": "So what you\u0027re saying is, you\u0027re abandoning Sanson! You\u0027re gonna let him die!",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_000_016",
+    "original": "Here\u0027s the great Vainchelon, hero to all Gridanians, but you won\u0027t even lend an ear to his descendant! Oh no, instead you choose the easy way out! Just kill everyone, even your own man! Wash away the bloody past with more blood!",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_000_017",
+    "original": "Just to be clear, I ain\u0027t siding with Nourval\u2500there\u0027s no excusing his method! But there\u0027s no excusing yours either! It\u0027s bullshite, that\u0027s what it is!",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_JOBBRD700_02894_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_JOBBRD700_02894_A1_000_001",
+    "original": "Aye, it\u0027s bullshite.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_JOBBRD700_02894_A1_000_002",
+    "original": "I\u0027ve lost faith in the order.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_JOBBRD700_02894_VORSAILE_100_018",
+    "original": "Now, now, pray do not so be so quick to despair, for I was simply relaying the outcome of command\u0027s deliberation. A deliberation in which the Elder Seedseer had no part.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_JOBBRD700_02894_VORSAILE_100_019",
+    "original": "As you say, Guydelot, the orders are \u201Cbullshite\u201D\u2500not the words I would have chosen, but you speak the truth nonetheless. And I, for one, have no intention of abiding by them.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_JOBBRD700_02894_VORSAILE_100_020",
+    "original": "The decision was largely influenced by a small handful of our leadership, and not the boldest handful, if I may add. \u0027Tis plain from the fact that they did not think to bring the matter before the Elder Seedseer.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_JOBBRD700_02894_VORSAILE_100_021",
+    "original": "Captain Smyth is a dear comrade; like you, I would spare no aid in any effort to rescue him. And I am pleased to say that we are not alone in this sentiment. As a matter of fact, I have already reached out to my lancer and archer acquaintances, and they stand ready to aid our cause.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_100_022",
+    "original": "Oho, now we\u0027re talking! There\u0027s still hope for the order if it has good blokes like you, Vorsie!",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_JOBBRD700_02894_VORSAILE_100_023",
+    "original": "...I would thank you not to call me that. Now, the order will move as soon as they ascertain the enemy\u0027s location, so time is of the essence. Guydelot, pray take word of these developments to Jehantel.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_JOBBRD700_02894_VORSAILE_100_024",
+    "original": "Meanwhile, \u003Chex:0208C7E1E93501FF11022C0DFF07022903EB0203FF02200203FFAF0208ABE1E93601FF93022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF01030320022C0DFF07022903EB0203FF02200303FF11022C0DFF07022903EB0203FF022002030303\u003E, I need you to bear word to the two guildmasters, Luciane and Ywain.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_JOBBRD700_02894_VORSAILE_100_025",
+    "original": "Tell them that the time is nigh, and pray return here swiftly.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_JOBBRD700_02894_VORSAILE_000_030",
+    "original": "Make haste and bear word to the two guildmasters, Luciane and Ywain. I shall pretend to go along with official orders, all the while gathering what intelligence I can.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_JOBBRD700_02894_LUCIANE_000_040",
+    "original": "The time is nigh, then? Very well, we shall make ready to depart at once.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_JOBBRD700_02894_LUCIANE_000_041",
+    "original": "When the call came, full many here offered their bows. There is not a soul here who knows not of you and Jehantel and Guydelot. Together, let us rescue Sanson.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_JOBBRD700_02894_YWAIN_000_050",
+    "original": "Aye, Vorsaile has briefed me on the situation. Sanson once trained in these very halls, and I should like to hear his excuse for being captured so easily.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_JOBBRD700_02894_YWAIN_000_055",
+    "original": "At any rate, you may count on our lances. That Sanson was one of our own is reason enough; this request comes from my longtime friend Vorsaile himself.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_JOBBRD700_02894_YWAIN_000_060",
+    "original": "At any rate, you may count on our lances. That Sanson was one of our own is reason enough; this request comes from both you and my longtime friend Vorsaile himself.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_JOBBRD700_02894_LUCIANE_000_070",
+    "original": "Commander Vorsaile will send further instructions, aye? I shall see to it that we archers are ready to depart at a moment\u0027s notice.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_JOBBRD700_02894_YWAIN_000_075",
+    "original": "You may inform Vorsaile that the lancers stand ready. I\u0027ve already handpicked those of our ranks who can keep their heads above unsettling truths.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_JOBBRD700_02894_VORSAILE_000_080",
+    "original": "There you are, and not a moment too soon. Things have begun to move. Our scouts report that Nourval and his band have since returned to the Twelveswood.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_JOBBRD700_02894_VORSAILE_000_081",
+    "original": "They have made their lair in the North Shroud, near the shards of Dalamud. Even as we speak, the order mobilizes a unit for an assault. We must be there ahead of them.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_JOBBRD700_02894_VORSAILE_000_082",
+    "original": "Set out at once, and make first for Alder Springs; I shall instruct the others to join you there.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_JOBBRD700_02894_VORSAILE_000_083",
+    "original": "I will remain here to stall our forces as long as I can. Godsspeed!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_JOBBRD700_02894_LUCIANE_000_090",
+    "original": "We have received word. We shall strike out forthwith for Alder Springs.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_JOBBRD700_02894_YWAIN_000_095",
+    "original": "Focus on extricating Sanson. My lancers and I shall keep your way clear.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_JOBBRD700_02894_VORSAILE_000_100",
+    "original": "Set out at once for Alder Springs; I shall instruct the others to join you there.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_000_110",
+    "original": "Whew, we\u0027re ahead of the Twin Adder crew. Let\u0027s keep it that way and get right to work.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_000_111",
+    "original": "Our guild friends will take down the sentries and secure the area. We\u0027re free to get close to Nourval and give him the thrashing he deserves.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_JOBBRD700_02894_NOURVAL_000_120",
+    "original": "Well, well, I was not expecting you two. Here to deliver the Gridanians\u0027 answer, are we?",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_000_121",
+    "original": "You wish, you craven whoreson! Whatever your demands are, it ain\u0027t got nothing to do with us!",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_JOBBRD700_02894_NOURVAL_000_122",
+    "original": "So you are acting alone. I thought you had some wits. Or do you care that little for your friend?",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_000_123",
+    "original": "Kill Sanson before you get your answer, and all deals are off\u2500everything you\u0027ve worked for up in smoke. Or do you care that little for your goal?",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_JOBBRD700_02894_NOURVAL_000_124",
+    "original": "Hmph, mayhap you have some wits after all. But clever though your ploy may be, have you the strength to back it up?",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_000_125",
+    "original": "Oh, don\u0027t you worry on that score. We\u0027re gonna knock you around so hard, all the scales will fall from your eyes.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_000_126",
+    "original": "And if that ain\u0027t enough to make you see clearly, I\u0027ll even slap in a song\u2500something lively to wake you up from your misguided beliefs!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_JOBBRD700_02894_NOURVAL_000_200",
+    "original": "Why!? Why do you not understand!? Why do you not see the Ala Mhigans for the filth they are!?",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_000_201",
+    "original": "Let each spear be thrust for everlasting peace.\u266A\u003Chex:02100103\u003ELet each arrow be loosed for the forest and the trees.\u266A\u003Chex:02100103\u003EAnd the greatest rule of all, for all men to embrace:\u266A\u003Chex:02100103\u003ELet each life be lived for smiles on every face.\u266A",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_JOBBRD700_02894_NOURVAL_000_202",
+    "original": "Th-That song... How do you know it!?",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_000_203",
+    "original": "I learned it just recently, with a spot of help from Jehantel here. He showed me Vainchelon\u0027s grave, which I understand your family\u0027s been tending for generations.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_000_204",
+    "original": "The song was engraved on the headstone. It\u0027s a fine piece, and it ain\u0027t hard to see why your ancestor loved it.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_000_205",
+    "original": "Taking up arms that we might have peace, so the words go. Words that came from Vainchelon himself, as a matter of fact.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_000_206",
+    "original": "The Autumn War gave birth to a good many anthems, and a good many of \u0027em borrowed his words. Take a look, and you\u0027ll notice a recurring theme: peace and harmony.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_JOBBRD700_02894_NOURVAL_000_207",
+    "original": "How dare you preach to me of my ancestor!? For generations, my family has sought justice for Lord Vainchelon! You couldn\u0027t possibly comprehend our pain!",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_JOBBRD700_02894_JEHANTEL_000_208",
+    "original": "Not us, perhaps, but I daresay your great-grandsire, Lord Landrenel, could comprehend it better than any man. He witnessed his own sire murdered before his eyes. He knew the painful truth, yet he chose to keep it a secret. Why was this, do you suppose?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_JOBBRD700_02894_JEHANTEL_000_209",
+    "original": "It was because he knew that, above all else, his sire desired peace.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_JOBBRD700_02894_JEHANTEL_000_210",
+    "original": "Had it been made known that their hero was struck down by treachery, ordinary Gridanians would not have been satisfied with protecting their homes. Nay, they would have demanded justice. They would have demanded blood.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_JOBBRD700_02894_JEHANTEL_000_211",
+    "original": "The war would have raged on, leaving yet more death and destruction in its wake. And the peace that Lord Vainchelon dreamed of would have gone up in smoke. Knowing this, Lord Landrenel...",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_JOBBRD700_02894_NOURVAL_000_212",
+    "original": "Spare me your lies! Lord Vainchelon desired Ala Mhigo\u0027s destruction! You cannot tell me otherwise!",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_JOBBRD700_02894_JEHANTEL_000_213",
+    "original": "Tell me, young man, did it not strike you as odd that I knew of Lord Vainchelon\u0027s grave? That which your family has kept secret all these years? The explanation is simple: I had the honor of knowing Lord Landrenel.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_JOBBRD700_02894_JEHANTEL_000_214",
+    "original": "Like you, he admired Lord Vainchelon and everything he stood for. And what he stood for, first of all, was peace and harmony. If you would honor both their memories, you would do well to honor these ideals.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_JOBBRD700_02894_NOURVAL_000_215",
+    "original": "No... Th-This cannot be...",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_JOBBRD700_02894_NOURVAL_000_216",
+    "original": "My ancestors despised Ala Mhigans. Y-Yes, they \u003Chex:021A020203\u003Eall\u003Chex:021A020103\u003E did. If not, everything I\u0027ve labored for...all the blood and tears...have been for naught...",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_JOBBRD700_02894_SANSON_000_217",
+    "original": "I ask not that you forgive. But know that neither will we forget.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_JOBBRD700_02894_SANSON_000_218",
+    "original": "When the time is right, I will see to it that all know of Lord Vainchelon\u0027s great sacrifice. This I swear in Nophica\u0027s name.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_JOBBRD700_02894_SANSON_000_220",
+    "original": "I ask only that you believe, as your ancestors fervently did, in a brighter future\u2500one of our own shaping, undarkened by shadows of the past.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_JOBBRD700_02894_LUCIANE_000_300",
+    "original": "No thanks are necessary. That your friend is safe and well is reward enough.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_JOBBRD700_02894_YWAIN_000_305",
+    "original": "Nourval plainly inherited his ancestor\u0027s skill at arms. I pray that he will be given the chance to use his talents for good.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_JOBBRD700_02894_VORSAILE_000_310",
+    "original": "Sanson is safe? Praise be to the Matron!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_000_315",
+    "original": "I sent the others back. We can deal with the rest ourselves.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_JOBBRD700_02894_SANSON_000_320",
+    "original": "Worry not, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, I am quite well. Thanks to you and Guydelot, it ended with only a few cuts and bruises.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_JOBBRD700_02894_SANSON_000_321",
+    "original": "But ere I may rest, I must see to one last task: making good on my promise to Nourval. Come, let us return to the Adders\u0027 Nest.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_JOBBRD700_02894_SANSON_000_330",
+    "original": "My apologies for keeping you waiting, Commander. I have Gylbarde\u0027s journal with me, and I will surrender it on one condition.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_JOBBRD700_02894_SANSON_000_331",
+    "original": "Once the veracity of the tome\u0027s contents is ascertained, the order must make the truth public knowledge when the time is right.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_JOBBRD700_02894_VORSAILE_000_332",
+    "original": "On this we are of a mind, Captain Smyth. Not only will I relay your terms to our leaders, I will speak strongly in favor of them.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_JOBBRD700_02894_VORSAILE_000_333",
+    "original": "But know that mine is but one voice, and more shall be needed if we are to strengthen our cause. As such, you must rise through the ranks swiftly to stand with me.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_JOBBRD700_02894_SANSON_000_334",
+    "original": "S-Stand with you? I fear it will take me a while to attain that honor. To be fooled and taken captive so easily... I am still green as summer grass.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_JOBBRD700_02894_VORSAILE_100_334",
+    "original": "\u0027Tis true that the success of this mission is owed much to \u003Chex:0208C7E1E93501FF11022C0DFF07022903EB0203FF02200203FFAF0208ABE1E93601FF93022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF01030320022C0DFF07022903EB0203FF02200303FF11022C0DFF07022903EB0203FF022002030303\u003E, and you would do well to give \u003Chex:02080DE905FF04686572FF0468696D03\u003E your profuse thanks.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_JOBBRD700_02894_VORSAILE_000_335",
+    "original": "However, I suggest that you also give yourself more credit. You may have much to learn, but you will learn them in good time. This time, you were faced with numerous trials, yet did you not accomplish your mission in spite of them?",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_000_336",
+    "original": "Aye, listen to Vorsie! We came back with the tome\u2500no one can say we didn\u0027t do our jobs!",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_000_337",
+    "original": "Look at you\u2500a bit of praise, and you\u0027re a stunned marmot? That won\u0027t do at all! If you\u0027re gonna shape the future of our nation, you\u0027re gonna have to shape up!",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_JOBBRD700_02894_SANSON_000_338",
+    "original": "You are right, Guydelot. From leading our unit to fulfilling my promise to Nourval, much rests upon my shoulders. Come what may, I will ever stand tall and forge on.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_JOBBRD700_02894_SANSON_000_339",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, I must needs go to file my report, but ere I leave, allow me to offer you my heartfelt thanks. Not only for your invaluable aid, but for being an example to me.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_JOBBRD700_02894_SANSON_100_339",
+    "original": "By following your lead, I shall strive to become the best leader I can be, that my unit\u0027s song might one day serve to rouse all Gridania!",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_000_340",
+    "original": "And off he goes. Good that he\u0027s hale and hearty, at any rate.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_000_341",
+    "original": "I\u0027ll stick with Sanson for a while, make sure he don\u0027t tear open any stitches. In the meantime, would you go and let Jehantel know we\u0027re returned? I\u0027ll be along myself soon enough.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_000_342",
+    "original": "But speaking of the old man, to think that he knew Vainchelon\u0027s son! You don\u0027t get to that age and not rub shoulders with a legend or two, eh?",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_JOBBRD700_02894_VORSAILE_000_350",
+    "original": "My regards to Jehantel. And...I would thank you not to take up the habit of calling me \u201CVorsie.\u201D Ahem.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_JOBBRD700_02894_JEHANTEL_000_360",
+    "original": "...I see. My thanks for bearing word. Though Sanson and Guydelot may not have endeared themselves to the Twin Adder leadership, they have found a stout ally in Commander Heuloix. I must say, it truly stirs the spirit to see the younger generation blaze a new path.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_JOBBRD700_02894_JEHANTEL_000_361",
+    "original": "And I pray that Nourval, too, will find his own path to walk\u2500one that is paved not with hatred, but with hope. That leads to peace both in the world and in his heart. \u0027Tis what his ancestors would have wished.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_JOBBRD700_02894_JEHANTEL_000_362",
+    "original": "In him I see them, and it calls to mind my days spent learning bow and song under his great-grandsire. A kindly old man who tirelessly tended his father\u0027s grave, never forgetting the ideals he stood for...",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_JOBBRD700_02894_JEHANTEL_000_363",
+    "original": "Somewhere along Lord Vainchelon\u0027s line, those ideals had faded away. But thanks to you and yours, they may yet be restored, and made bolder still by a true remembrance of the past. And the world shall be a better place for it.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_JOBBRD700_02894_SYSTEM_100_364",
+    "original": "This concludes the bard quests for FINAL FANTASY XIV: Stormblood. In order to undertake the next series of quests, you must first meet the following requirements:",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_JOBBRD700_02894_SYSTEM_100_365",
+    "original": "\u203BYou must have completed the main scenario quest \u201CShadowbringers.\u201D",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_JOBBRD700_02894_SYSTEM_100_366",
+    "original": "\u203BYou must have completed the role quest \u201CCourage Born of Fear.\u201D",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_JOBBRD700_02894_SYSTEM_100_367",
+    "original": "Once you have done so, the next bard quest will be available from Jehantel.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_JOBBRD700_02894_QIB_001_TODO_1",
+    "original": "Defeat Nourval!",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_JOBBRD700_02894_NOURVAL_BATTLETALK_001_001",
+    "original": "I will suffer none to stand in the way of my ambition!",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_BATTLETALK_001_002",
+    "original": "Your ambition\u0027s shite, an\u0027 we\u0027re gonna make you see sense even if it means beatin\u0027 you senseless!",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_JOBBRD700_02894_NOURVAL_BATTLETALK_002_001",
+    "original": "Hmph, you\u0027re strong... But I cannot fall! Not until my goal is realized!",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_BATTLETALK_002_002",
+    "original": "Ugh, he\u0027s got spirit, I\u0027ll give him that...",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_BATTLETALK_002_003",
+    "original": "But so do we, and we ain\u0027t gonna take it lying down! Time to fire things up with song!",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_JOBBRD700_02894_NOURVAL_BATTLETALK_003_001",
+    "original": "Enough with that detestable noise!",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_BATTLETALK_003_002",
+    "original": "Gah! I-I can\u0027t move... Break me out of this, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_JOBBRD700_02894_NOURVAL_BATTLETALK_004_001",
+    "original": "Stubborn fools! If you are so eager for death, I will give it to you!",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_BATTLETALK_004_002",
+    "original": "What\u0027s this now? Keep your guard up!",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_BATTLETALK_004_003",
+    "original": "S-Seven hells! Spread out or he\u0027ll skewer us both!",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_JOBBRD700_02894_GUYDELOT_G_DEAD_001_001",
+    "original": "Ugh, bugger me... Finish it off, will you?",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_JOBBRD700_02894_NOURVAL_G_DEAD_001_002",
+    "original": "Master Guydelot has given up. It\u0027s past time you gave up too.",
+    "translation": ""
+  }
+}

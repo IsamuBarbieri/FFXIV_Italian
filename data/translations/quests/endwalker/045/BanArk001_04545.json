@@ -1,0 +1,812 @@
+{
+  "0": {
+    "tag": "TEXT_BANARK001_04545_SEQ_00",
+    "original": "Kancana shifts from foot to foot with agitation. Your adventurer senses tingle with the tantalizing taste of a problem to be solved.\u003Chex:02100103\u003E\u203BThe difficulty of this quest will be synced to your current level.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_BANARK001_04545_SEQ_01",
+    "original": "According to Kancana, there have been strange reports of hippos running wild on the highroad. In order to make sense of these bizarre sightings, you set out to question the residents of Yedlihmad.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_BANARK001_04545_SEQ_02",
+    "original": "Your interviews confirm the recent hippo sightings and provide you with some vague intelligence on a delinquent group of Arkasodara refugees. Seeking a clearer image of the situation, you decide to follow up on your most promising lead, a refugee named Trna, who is also in search of hippos around the Perfumed Rise. ",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_BANARK001_04545_SEQ_03",
+    "original": "Trna, you discover, is no ordinary refugee\u2500she is the leader of a crew of hippo-cart racers, whose reckless riding has been the very talk of the town you came to investigate. Despite an initially intimidating demeanor, Trna expresses her wish to formally apologize for causing trouble, so you accompany her to Yedlihmad to speak with Kancana.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_BANARK001_04545_SEQ_04",
+    "original": "Trna explains that she and her \u201Cassociates\u201D hail from Vanaspati. While intimidated by the prospect of attempting to fit in with greater Thavnairian society, Trna nevertheless voices her desire to positively contribute to the community in the wake of the Final Days. At this, you suggest that she and her band of racers make the most of their speedy hippo carts by becoming delivery workers, and in order to introduce Trna to the realities of the job, Kancana tasks you both with delivering a package to the Great Work. ",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_BANARK001_04545_SEQ_05",
+    "original": "In an act of hippo-based hospitality, Trna offers you a ride to the Great Work on one of her custom-made carts. There, she experiences the joy of successfully delivering a package firsthand, and is able to ameliorate perceptions of her raucous crew somewhat thanks to your stellar reputation and a convenient misunderstanding.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_BANARK001_04545_SEQ_06",
+    "original": "While Trna is eager to report back to Kancana, the hippo that pulled your cart needs to rest before taking another journey. In light of this, she sends you back to Yedlihmad first on her prized set of wheels, pulled by her very own partner-in-ride, Saurya.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_BANARK001_04545_SEQ_07",
+    "original": "Having arrived safely in Yedlihmad with nary a scratch on Trna\u0027s prized cart, Saurya trundles away. Hydaelyn\u0027s champion though you may be, you must now bear the indignity of walking the several yalms to where Kancana awaits.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_BANARK001_04545_SEQ_08",
+    "original": "As you are relaying the details to Kancana, Trna arrives. It transpires that delivery work is a challenge that she and her associates would be willing to attempt, although the prospect of building trust still feels daunting. Kancana, ever encouraging of struggling hearts, nominates you as a supporting member of Trna\u0027s fledgling organization, and offers to lease Trna\u0027s crew the grounds of an old trading post to get started.",
+    "translation": ""
+  },
+  "9": {
+    "tag": "TEXT_BANARK001_04545_SEQ_09",
+    "original": "The trading post in question has seen better days, but Trna and her associates get straight to work fixing it up. Rechristening themselves with their old team name, the \u201CHippo Riders\u201D set their sights on becoming legitimate and trusted delivery workers. As their advisor, help these aspiring deliverers achieve the success and sense of belonging they desire!",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_BANARK001_04545_TODO_00",
+    "original": "Question the residents of Yedlihmad.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_BANARK001_04545_TODO_01",
+    "original": "Search for Trna.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_BANARK001_04545_TODO_02",
+    "original": "Speak with Kancana.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_BANARK001_04545_TODO_03",
+    "original": "Speak with Trna.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_BANARK001_04545_TODO_04",
+    "original": "Speak with Trna again.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_BANARK001_04545_TODO_05",
+    "original": "Ride the hippo cart to Yedlihmad.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_BANARK001_04545_TODO_06",
+    "original": "Speak with Kancana.",
+    "translation": ""
+  },
+  "31": {
+    "tag": "TEXT_BANARK001_04545_TODO_07",
+    "original": "Speak with Trna.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_000",
+    "original": "Ah, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Just who I was hoping to see. Do you have a moment?",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_001",
+    "original": "Just when I thought normalcy had finally returned to us, I received word of some truly peculiar hippo sightings.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_002",
+    "original": "Yes, hippos! A veritable herd of hippos...",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_003",
+    "original": "Hurtling down the highroad, no less!",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_BANARK001_04545_Q1_000_004",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_BANARK001_04545_A1_000_001",
+    "original": "Hippos...hurtling?",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_BANARK001_04545_A1_000_002",
+    "original": "How majestic!",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_BANARK001_04545_A1_000_003",
+    "original": "Huh. I thought that was normal for Thavnair...",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_005",
+    "original": "Yes, well... Though hippos have long inhabited Vanaspati, it is quite unusual to see them in such numbers outside their natural habitat\u2500let alone harrying travelers on the highroad!",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_006",
+    "original": "Yet harried the travelers are. If these hippos have been displaced by the fires that beset the jungle during the Final Days, we must find them a more suitable home for the sake of all concerned.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_007",
+    "original": "I would normally ask the Radiant Host for help with such affairs, but they already have so much on their hands. And Ogul happens to be away, so could I ask you to look into the matter?",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_008",
+    "original": "Oh, thank you! You are truly a blessing.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_009",
+    "original": "I don\u0027t know much more than what I have already told you, but I am sure others in Yedlihmad have spotted a hurtling hippo or two.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_010",
+    "original": "I can only repeat what I\u0027ve told you\u2500hippos, hurtling, et cetera\u2500but with any luck, the other townsfolk will have more details for you.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_BANARK001_04545_RESIDENTSA_000_015",
+    "original": "Hurtling hippos, you say? Oh yes, I saw them. Barreling down the highroad at tremendous speed. It was frightening just to watch.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_BANARK001_04545_RESIDENTSA_000_016",
+    "original": "They kicked up so much dust that I couldn\u0027t get a clear look at them, but everyone on the island knows that smooth silhouette. An adorable-yet-fearsome creature, the hippo...",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_BANARK001_04545_RESIDENTSB_000_017",
+    "original": "Is this about those dreadful Arkasodara up north? Hitching carts to their hippos, and Cinduruva knows what else...",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_BANARK001_04545_RESIDENTSB_000_018",
+    "original": "If they\u0027ve come down to join the other refugees, I don\u0027t doubt they\u0027ll be stirring up trouble. As if we don\u0027t have enough people leeching off our goodwill already...",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_BANARK001_04545_RESIDENTSC_000_019",
+    "original": "Yes, I\u0027ve seen hippos on a number of occasions, over by the Great Work\u2500and this is the second time I\u0027ve answered that question in as many bells!",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_BANARK001_04545_RESIDENTSC_000_020",
+    "original": "One of the refugees came by asking the very same not moments ago. Trna, I think her name was.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_BANARK001_04545_RESIDENTSC_000_021",
+    "original": "If you\u0027re looking for the same hippos, maybe she could help? She set off towards the Perfumed Rise, last I saw. ",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_BANARK001_04545_RESIDENTSA_000_022",
+    "original": "I wonder why those hippos chose the highroad... Perhaps they prefer running on the strait and narrow?",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_BANARK001_04545_RESIDENTSB_000_023",
+    "original": "I can\u0027t believe they had the gall to bring their hippos! This town needs some limits on its charity, if you ask me.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_BANARK001_04545_RESIDENTSC_000_024",
+    "original": "Trna headed up the highroad. If you\u0027re still looking for hippos, maybe you should go after her.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_025",
+    "original": "...What\u0027re \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E lookin\u0027 at? Can\u0027t you see I\u0027m in the middle of somethin\u0027 here!?",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_026",
+    "original": "Eh? You\u0027re lookin\u0027 for hippos?",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_027",
+    "original": "...Damn. I was hopin\u0027 to put paid to this before it got outta hand.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_028",
+    "original": "Well, those hippos you\u0027re lookin\u0027 for should be rollin\u0027 through any moment now. Just stand back an\u0027 watch.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_030",
+    "original": "Here they come!",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_BANARK001_04545_MARU_000_031",
+    "original": "(-Rider-)H-Hey! No stoppin\u0027!",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_BANARK001_04545_MARU_000_032",
+    "original": "(-Rider-)What? Why\u0027s there fruit in the middle of the...?",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_033",
+    "original": "You\u0027ve done it now, you hamsaheads!",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_034",
+    "original": "Maru! What\u0027d I tell you about ridin\u0027 this highroad? ",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_BANARK001_04545_MARU_000_035",
+    "original": "Augh! B-Boss!",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_BANARK001_04545_MARU_000_036",
+    "original": "Erm... W-Well, the roads back home ain\u0027t good for ridin\u0027 no more, Boss. We ain\u0027t got much of a choice...",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_BANARK001_04545_Q2_000_037",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_BANARK001_04545_A2_000_001",
+    "original": "Hurtling hippos are dangerous!",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_BANARK001_04545_A2_000_002",
+    "original": "Keep it off the highroad, will you?",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_038",
+    "original": "Yeah! Roarin\u0027 down a main road, kickin\u0027 up dust storms\u2500you\u0027re scarin\u0027 people!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_039",
+    "original": "What, you already forgot about the Tower of Zot? The fires and the screamin\u0027 and the people turnin\u0027? You really think that raisin\u0027 a racket\u0027s what we need right now!? ",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_040",
+    "original": "In case you ain\u0027t got it through your heads yet, I\u0027ll spell it out for you\u2500our racin\u0027 days are over. They were over yesterday, and they were over the day before that too!",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_041",
+    "original": "...I take it this solves your hippo mystery.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_042",
+    "original": "Now all that\u0027s left is to apologize for these sorry sods. Care to tell me where to direct our grovelin\u0027? ",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_043",
+    "original": "Alright. Let\u0027s have a chat with this Kancana.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_BANARK001_04545_TRNA_100_044",
+    "original": "You\u0027re comin\u0027 too, Maru! I left you in charge, an\u0027 the one in charge takes responsibility. That\u0027s how it goes. ",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_044",
+    "original": "You\u0027ll be there to give your report or somethin\u0027, right? See you soon enough, then. ",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_050",
+    "original": "Now, who might these fresh faces be? I was expecting news about hippos, but perhaps you\u0027ve brought back a few lost souls as well?",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_051",
+    "original": "Somethin\u0027 like that. Trna\u0027s the name, an\u0027 on behalf of my hippos an\u0027...associates here, I apologize for the commotion.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_052",
+    "original": "We\u0027re used to racin\u0027 our hippo carts on the less-traveled paths of Vanaspati, you see. We never took much to \u201Csociety\u201D even before the sky started rainin\u0027 fire\u2500mostly just kept to ourselves an\u0027 lived off the land.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_053",
+    "original": "But bein\u0027 new to these parts is no excuse. We should\u0027ve known better than to take the highroad at high speed, an\u0027 we\u0027re sorry for any, er...undue distress we might\u0027ve caused.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_054",
+    "original": "We ain\u0027t got much to offer, but we\u0027ll make it up to you however we can. Thavnair\u0027s in a bad way, so if we\u0027re ever goin\u0027 to do any good for anybody, now\u0027s the time.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_055",
+    "original": "...Or at least I\u0027d like to think. I ain\u0027t got much in the way of ideas concernin\u0027 how misfits like us can contribute.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_BANARK001_04545_SYSTEM_000_056",
+    "original": "A crew of Arkasodara looking for purpose, and speedy hippos to steer them true...",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_BANARK001_04545_SYSTEM_000_057",
+    "original": "Perhaps there \u003Chex:021A020203\u003Eis\u003Chex:021A020103\u003E something Trna and her associates can contribute to a recovering Thavnair...",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_BANARK001_04545_Q3_000_058",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_BANARK001_04545_A3_000_001",
+    "original": "Have you ever considered delivery work?",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_BANARK001_04545_A3_000_002",
+    "original": "I think driving hippo carts could be an incredibly useful skill.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_059",
+    "original": "Delivery work? You think we could really do somethin\u0027 like that? I mean, a hippo cart\u0027s the fastest set of wheels there is, but...",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_060",
+    "original": "...Skill? You think so? We\u0027ve only ever seen it as a hobby, but...",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_061",
+    "original": "It\u0027s an excellent idea. Local trade is on its way to recovery, and the timely delivery of goods via hippo cart can only be a boon.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_062",
+    "original": "However, delivery work requires a great deal of trust. You are transporting someone\u0027s precious possessions, after all.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_063",
+    "original": "You will not only need to learn the trade, but earn the respect of the people as well.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_064",
+    "original": "Everyone starts somewhere, so there\u0027s no need to feel intimidated! If this sounds like something you\u0027d like to try, then why not let \u003Chex:022C0DFF07022903EB0203FF02200203\u003E show you how it\u0027s done?",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_065",
+    "original": "It just so happens that a parcel intended for the Great Work was accidentally off-loaded here today. It\u0027s filled with medicinal herbs from Gridania, so I\u0027d like it sent over as soon as possible.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_066",
+    "original": "Would you be a dear and deliver it with Trna? With your worldly experience, I\u0027m sure you will serve as a shining example of professionalism.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_067",
+    "original": "I\u0027ll entrust the parcel to you, Trna. I have no doubt that you will see it safely to its destination.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_068",
+    "original": "Sorry for takin\u0027 you outta your way, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, but I look forward to seein\u0027 a professional do...whatever it is a professional does.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_069",
+    "original": "I\u0027ll be waitin\u0027 by the gates, so give me a shout when you\u0027re ready to go.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_070",
+    "original": "You truly have a gift for finding those in need. I can\u0027t help but want to nurture each and every one!",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_071",
+    "original": "I know it\u0027s a little more work than you bargained for, but do lend Trna and her associates a helping hand. I see great potential in them...",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_BANARK001_04545_MARU_000_072",
+    "original": "Work? \u003Chex:021A020203\u003ERespect\u003Chex:021A020103\u003E? Us!? ",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_BANARK001_04545_MARU_100_072",
+    "original": "Sure, we wouldn\u0027t have to scrounge for food anymore, and it\u0027d keep us busy like the boss wants, but... If wishes were hippo carts, beggars\u0027d ride, y\u0027know?",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_075",
+    "original": "We\u0027re ready when you are!",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_076",
+    "original": "My partner Saurya here\u0027s pullin\u0027 the fastest cart on the island. I stowed the goods we\u0027re deliverin\u0027 under the seat, so they won\u0027t get damaged or nothin\u0027.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_077",
+    "original": "An\u0027 we ain\u0027t about to leave you high an\u0027 hippo-less\u2500there\u0027s another cart just for you!",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_078",
+    "original": "Our hippos are usually shy around strangers, but you were there with the fruit earlier, so you\u0027ve got nothin\u0027 to worry about. They\u0027re smarter than to bite the hand that feeds.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_BANARK001_04545_MARU_000_079",
+    "original": "We don\u0027t let just anybody ride our carts, but if Boss thinks you can handle it...",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_080",
+    "original": "No need for bellyachin\u0027, Maru. We ain\u0027t \u003Chex:021A020203\u003Eracin\u0027 the carts down the highroad\u003Chex:021A020103\u003E like some hamsaheads I know. Now, off we go, slow an\u0027 steady...",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_BANARK001_04545_Q4_000_081",
+    "original": "Ride in the hippo cart?",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_082",
+    "original": "Not a bad way to travel, eh? My crew designed these carts from scratch, you know.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_083",
+    "original": "Historically, we Arkasodara never went around in chocobo carriages and the like. But at some point I got to wonderin\u0027...why not? ",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_084",
+    "original": "Sure, we\u0027re a heavy bunch, but nothin\u0027s impossible if you put your mind to it, right? Well, after auditionin\u0027 all kinds of critters, we finally came \u0027round to hippos.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_085",
+    "original": "Hippo ridin\u0027s a team effort. Our hippos can sprint with the best of \u0027em, but they ain\u0027t got a lot of stamina, so a good rider knows when to push and when to let up.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_090",
+    "original": "Here we are, safe an\u0027 sound. Now we hand over the goods, right?",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_BANARK001_04545_ALCHEMIST04545_000_091",
+    "original": "(-???-)You wouldn\u0027t happen to be talking about an imported package, would you?",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_BANARK001_04545_ALCHEMIST04545_000_092",
+    "original": "I\u0027ve been expecting a delivery ship, but seen neither keel nor prow of it...",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_BANARK001_04545_ALCHEMIST04545_000_093",
+    "original": "Wait...aren\u0027t you the one who saved Nidhana?",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_BANARK001_04545_ALCHEMIST04545_000_094",
+    "original": "Ah, I see! Well, thank you both for going out of your way to bring this over. You\u0027ve saved me considerable grief.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_BANARK001_04545_ALCHEMIST04545_000_095",
+    "original": "No large trading vessels can dock here, you see?",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_BANARK001_04545_ALCHEMIST04545_000_096",
+    "original": "Usually, our orders are off-loaded at Alnair and thence shipped by dhow, but they sometimes get mixed in with packages destined for Yedlihmad.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_BANARK001_04545_ALCHEMIST04545_000_097",
+    "original": "And then the logistical nightmare begins, I\u0027m afraid. May I check to see if you indeed have my herbs?",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_BANARK001_04545_ALCHEMIST04545_000_098",
+    "original": "Yes, this is it!",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_BANARK001_04545_ALCHEMIST04545_000_099",
+    "original": "Importing these is trying enough without delivery mishaps, so I\u0027m relieved they made it here safely. ",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_BANARK001_04545_ALCHEMIST04545_000_100",
+    "original": "And to think that all of the hippo hubbub was, in fact, industrious delivery work! A little frightening to watch without proper context, but you\u0027ve done a marvelous job. I\u0027ll be sure to call upon your services again.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_101",
+    "original": "That wasn\u0027t a delivery...but I guess a little misunderstandin\u0027 never hurt anyone. ",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_102",
+    "original": "People sure do trust you, though. I got trusted just standin\u0027 next to you!",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_103",
+    "original": "And he looked so happy about his herbs... Had me smilin\u0027 right along with him. Maybe we really \u003Chex:021A020203\u003Ecan\u003Chex:021A020103\u003E make a difference with this delivery business! ",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_110",
+    "original": "Thanks for showin\u0027 me the ropes\u2500and for doin\u0027 all the talkin\u0027, too.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_111",
+    "original": "I\u0027d like to get straight back to Kancana, but from the looks of it, your hippo needs a breather. No surprise, considerin\u0027 what it\u0027s been through lately.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_112",
+    "original": "Here\u0027s what we\u0027ll do\u2500I\u0027ll let this big boy rest up a bit, while you go on ahead with Saurya.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_113",
+    "original": "I\u0027m trustin\u0027 you with my prized set of wheels, so be careful. No scratches or nothin\u0027. Just ride like you did comin\u0027 here and there shouldn\u0027t be any problems.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_BANARK001_04545_SYSTEM_000_114",
+    "original": "Should you become separated from your cart, speak with Trna at the Great Work to ride it again.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_BANARK001_04545_Q5_000_115",
+    "original": "Ride the hippo cart?",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_116",
+    "original": "When Saurya came runnin\u0027 back by herself, I got worried! You want to give it another shot?",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_BANARK001_04545_SYSTEM_000_120",
+    "original": "Her mission accomplished, a triumphant Saurya trundles away with the cart in tow. Kancana will be pleased to hear of your successful delivery.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_BANARK001_04545_SYSTEM_000_121",
+    "original": "Speak with Trna at the Great Work to board the hippo cart, then ride it to Yedlihmad.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_125",
+    "original": "Welcome back! \u003Chex:022C0DFF07022903EB0203FF02200203\u003E just told me all about your successful delivery. Thank you for your help, Trna.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_126",
+    "original": "What did you think of your first job?",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_127",
+    "original": "The delivery part seems pretty straightforward, even for our ilk. But the whole \u201Cbuildin\u0027 trust\u201D thing won\u0027t be easy.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_128",
+    "original": "Still, it\u0027s not like we can give up an\u0027 go home to Vanaspati. Sooner or later, we\u0027ll have to get used to livin\u0027 with other folks.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_129",
+    "original": "An\u0027 you should\u0027ve seen how relieved that alchemist was when he got his supplies! Feels nice to know we did some good in the world...",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_130",
+    "original": "There is no greater reward for a job well done, in my experience. If you choose to continue on this path, I am certain the joy you bring will be returned to you tenfold. ",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_131",
+    "original": "As this is a new endeavor for you and your associates, however, I do believe it best if someone oversees your progress.",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_132",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, you did so much for Ogul that I have to ask\u2500will you lend your aid to Trna and her associates?",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_133",
+    "original": "I know we\u0027re a right crew of misfits, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, but I promise you we\u0027re hard workers. Give us a chance, an\u0027 we\u0027ll make you proud.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_BANARK001_04545_Q6_000_134",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_BANARK001_04545_A6_000_001",
+    "original": "You\u0027ve got spirit, kid! I\u0027m with you!",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_BANARK001_04545_A6_000_002",
+    "original": "This is going to take a lot of work...",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_135",
+    "original": "Thank you! I swear you won\u0027t regret this!",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_136",
+    "original": "Oh, I don\u0027t know about that. Something tells me that Trna and her associates are quick studies. I\u0027m sure that if you all work together, you will make good progress in no time. ",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_137",
+    "original": "Now that that\u0027s settled, I think it is time you saw your new home.",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_138",
+    "original": "You see, I have come into possession of an old trading post that has since fallen into disuse.",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_139",
+    "original": "The structures may be a little worse for wear, but the plot itself is very conveniently located. You are free to fix it up however you would like.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_BANARK001_04545_MARU_000_140",
+    "original": "Y-You\u0027re just...gonna let us use it? Just like that?",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_141",
+    "original": "I will lease it to you for a small fee. That is to say, if your new business fails to turn a profit, I may have to rethink the use of that space one day.",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_142",
+    "original": "But we can talk about the particulars later. For now, how about you go and take a look? I\u0027ve marked its location on this map.",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_143",
+    "original": "Gladly! Thanks for everythin\u0027 you\u0027ve done for us.",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_144",
+    "original": "Let\u0027s reconvene at our new headquarters! I\u0027ll round up my people.",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_BANARK001_04545_KANCANA_000_145",
+    "original": "I have high hopes for that one. If there is anything else I can do to help, do not hesitate to let me know.",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_BANARK001_04545_MARU_000_146",
+    "original": "It\u0027s bigger than I thought, but what a dump! I\u0027m grateful, of course, but... \u003Csigh\u003E",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_150",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Glad you turned up.",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_151",
+    "original": "As you can see, this place ain\u0027t no Meghaduta. But once we get the basics up an\u0027 runnin\u0027, it\u0027ll start feelin\u0027 like home in no time. ",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_BANARK001_04545_MARU_000_152",
+    "original": "We\u0027ll need a cart shed, for starters...and a place to store packages an\u0027 whatnot...",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_BANARK001_04545_MARU_000_153",
+    "original": "If I\u0027m honest, Boss, I\u0027m still not sure about all this. But if you say we should give it a shot, I guess I can try...",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_154",
+    "original": "Thanks, Maru. I\u0027m countin\u0027 on you, y\u0027know.",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_155",
+    "original": "Alright\u2500as of today, we\u0027re makin\u0027 our name as reliable delivery workers. We\u0027ve got a lot to learn, but don\u0027t go easy on us. Teach us everythin\u0027 you know!",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_156",
+    "original": "Now, we need a name for our new business. Somethin\u0027 real...trustworthy. Hmm...",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_BANARK001_04545_MARU_000_157",
+    "original": "Boss, we gotta fix this place up! We ain\u0027t got time to be worryin\u0027 about names. What\u0027s wrong with our team name, anyway?",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_BANARK001_04545_TRNA_000_158",
+    "original": "Our team name? Y-You\u0027re right! We don\u0027t need to be fancy\u2500just fast, reliable, and ridin\u0027 hippo carts. \u201CHippo Riders\u201D it is!",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_BANARK001_04545_SYSTEM_000_160",
+    "original": "Led by their charismatic leader, Trna, the Hippo Riders have retired from racing and rebranded themselves as speedy delivery workers!",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_BANARK001_04545_SYSTEM_000_161",
+    "original": "However, they are still known on the island as local delinquents. Use your experience as an adventurer and trusted hero to help them better their reputation!",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_BANARK001_04545_SYSTEM_000_165",
+    "original": "You have achieved \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EFriendly\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E reputation with the Hippo Riders.",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_BANARK001_04545_SYSTEM_000_166",
+    "original": "Arkasodara society quests are now available from Maru in Svarna.",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_BANARK001_04545_SYSTEM_000_167",
+    "original": "Furthermore, you may now purchase wares from Ghanta.",
+    "translation": ""
+  }
+}

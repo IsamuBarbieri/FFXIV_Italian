@@ -1,0 +1,707 @@
+{
+  "0": {
+    "tag": "TEXT_FESPDY501_03208_SEQ_00",
+    "original": "The unsettled seneschal is eyeing you so plaintively that it is becoming difficult to ignore.\u003Chex:02100103\u003E\u203BThis quest is available for a limited time only.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_FESPDY501_03208_SEQ_01",
+    "original": "Unable to ignore someone in such clear\u2500if well-mannered\u2500distress, you speak with the unsettled seneschal you spotted on the streets of Ul\u0027dah. You discover that he, Rodolph, serves the historic Thorne family, which, once upon a time, gave rise to sultans and sultanas of the selfsame city\u003Chex:021F0103\u003Estate. His charge, Aldiytha Thorne, is currently missing\u2500and likely wishes to remain so, but you nevertheless agree to assist the poor man in locating her.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_FESPDY501_03208_SEQ_02",
+    "original": "It seems Aldiytha left a note indicating that she would be joining the Little Ladies\u0027 Day festivities, and Rodolph believes that the royal seneschal and his network of contacts may be of assistance in finding her. Though the event\u0027s overseer has not seen the girl, he agrees to help you search Emerald Avenue for her, as that is where he suspects she will be drawn.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_FESPDY501_03208_SEQ_03",
+    "original": "You locate Aldiytha not far from the Gate of Nald, gazing up at the redolent blooms of a peach tree. Though Rodolph does his best to convince her to return home, she refuses to acquiesce until she has spread joy to the people of Ul\u0027dah, just as her ancestor Sultan Baldric once did. Her chosen method is the distribution of floral crowns made from daisies that she herself grew, and, moved by her impassioned speech, you agree to accompany her until she has presented them to the townsfolk.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_FESPDY501_03208_SEQ_04",
+    "original": "Aldiytha, perhaps slightly overzealous in her chosen task, locates a young lady staring dreamily at the drifting peach blossoms. When you present the girl with a daisy crown, making her feel just like a princess, she jumps for joy. Though Aldiytha appears quite pleased with this reaction, there are yet more would-be royals in need of adornment, so she rushes off in search of the next.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_FESPDY501_03208_SEQ_05",
+    "original": "Your next target is a woman of middle age. Though she initially protests, after donning the crown she admits that she feels as if a childhood dream has come true\u2500as does her husband, having gleefully seized upon the opportunity to act as her seneschal (and make her blush). After enjoying a hearty laugh at their own behavior, the two stroll away amiably, while Rodolph reflects on his own youthful dream. Unfortunately, his train of thought is interrupted by Aldiytha\u0027s coughing, which alarms all present. Though she soon recovers, it is clear that she has exerted herself more than enough for one day, so she at last agrees with Rodolph that she ought to return home.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_FESPDY501_03208_SEQ_06",
+    "original": "As you wait for Rodolph and Aldiytha\u0027s carriage, the royal seneschal asks her to share the reason behind her desire to grow and distribute daisies for Little Ladies\u0027 Day. She regales you all with a tale of Sultan Baldric, who, in his kindness, accepted a gift of daisies from a common girl and made of them a pair of matching crowns. Moved by this, and all he has seen throughout the day, Rodolph reaffirms his commitment to serving Aldiytha. He presents her with the flower crown she deserves, which she delightedly accepts. The pair thank you, and as you say your good-byes, you\u2500with some encouragement from the royal seneschal\u2500promise to carry on Aldiytha\u0027s work, and give flower crowns to all of the would-be princesses and seneschals of Ul\u0027dah.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_FESPDY501_03208_TODO_00",
+    "original": "Speak with the royal seneschal.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_FESPDY501_03208_TODO_01",
+    "original": "Search for the dark-haired lady.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_FESPDY501_03208_TODO_02",
+    "original": "Present a flower crown to the young princess-to-be.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_FESPDY501_03208_TODO_03",
+    "original": "Present a flower crown to the mature princess-to-be.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_FESPDY501_03208_TODO_04",
+    "original": "Speak with Rodolph on Emerald Avenue.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_000",
+    "original": "Please, good \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E, you must help me! The young mistress has gone missing and I...",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_001",
+    "original": "...I do beg your pardon. That is hardly an appropriate way to begin a conversation, is it? I quite forgot myself for a moment.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_002",
+    "original": "(-Rodolph-)Allow me to introduce myself\u2500I am Rodolph, and I have the honor of serving the noble Thorne family. The young lady of whom I spoke is Aldiytha Thorne, whose whereabouts, I regret to report, are currently unknown.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_FESPDY501_03208_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_FESPDY501_03208_A1_000_001",
+    "original": "Should I know who that is?",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_FESPDY501_03208_A1_000_002",
+    "original": "Escaped her gilded cage, I take it?",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_003",
+    "original": "(-Rodolph-)A fair question, and one which I shall endeavor to answer to the fullest. \u201CSpare no detail\u201D are words I live by in my profession, you see.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_004",
+    "original": "(-Rodolph-)Ahem. You have doubtless heard of the Thorne Dynasty, the period in Ul\u0027dahn history that began some three hundred years ago. During this time, the Thorne family reigned in the sultanate.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_005",
+    "original": "(-Rodolph-)Though they relinquished their stewardship over the nation in favor of restoring the Ul to the throne, the noble scions of the Thorne line have continued to occupy positions of great social importance. Lady Aldiytha is the eldest daughter of the current head of the family.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_006",
+    "original": "(-Rodolph-)Alas, she has always been frail of body. For her protection, I do my utmost to keep her from the perils of the outside world. But she has been haler than usual as of late, and when I went to look in on her this morning, I found that she had, ah...given me the slip, one might say.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_007",
+    "original": "(-Rodolph-)Ever courteous, she left behind a note stating that she intended to join in the Little Ladies\u0027 Day celebrations in town. I certainly understand her desire to do so, given that her health has prevented her attendance in all previous years.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_008",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_009",
+    "original": "(-Rodolph-)However, it is far too dangerous for her to cavort about the city on her own. If she were to be taken ill, or some misfortune to befall her, I would never forgive myself. Oh, it\u0027s the Legend of the Lost Lady all over again!",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_FESPDY501_03208_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_FESPDY501_03208_A2_000_001",
+    "original": "So, shall we start the search sometime this century, or...",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_FESPDY501_03208_A2_000_002",
+    "original": "Oooh, the \u201CLegend of the Lost Lady\u201D? Tell me more!",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_010",
+    "original": "(-Rodolph-)Good heavens! In sparing no detail, I lost sight of the larger picture. Yes, we must find Lady Aldiytha immediately!",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_011",
+    "original": "(-Rodolph-)Ah, yes. In the tale, Princess Edvya, who had been her whole life confined to the palace, switched places with a common miller\u0027s daughter and slipped away. Her overprotective father, Sultan Baldric, flew into a panic, his army all but razing the miller\u0027s house as they searched.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_012",
+    "original": "(-Rodolph-)With the princess returned, however, the sultan came to repent his hasty actions. He had the miller\u0027s house rebuilt, and insisted upon personally serving as seneschal to the man\u0027s daughter for a day. His zeal for the role sparked smiles across the city.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_013",
+    "original": "(-Rodolph-)It is this legacy that lives on as Little Ladies\u0027 Day, on which we remember that each little girl is as dear as a princess, and should be equally treasured.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_014",
+    "original": "(-Rodolph-)...Good heavens! In sparing no detail, I lost sight of the larger picture. Yes, we must find Lady Aldiytha immediately!",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_015",
+    "original": "(-Rodolph-)Though I admit that, even with the both of us set to the task, it will be nigh impossible to locate her without knowing where in the city she might be.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_016",
+    "original": "(-Rodolph-)I have it! Responsible for overseeing the festivities as he is, the royal seneschal surely has knowledge that we lack. Lady Aldiytha may even have spoken with him. We should seek his aid first and foremost.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_017",
+    "original": "(-Rodolph-)Please, follow me!",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_FESPDY501_03208_BUTLER_000_018",
+    "original": "Warm hearts as a treasured princess! Spark joy as a loyal seneschal! Join us as we celebrate Little Ladies\u0027 Day!",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_020",
+    "original": "The royal seneschal takes his role very seriously\u2500I am confident that he will help us find Lady Aldiytha.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_FESPDY501_03208_BUTLER_000_021",
+    "original": "It\u0027s wonderful to see you again, my friend. Have you come to celebrate Little Ladies\u0027 Day with us?",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_FESPDY501_03208_BUTLER_000_022",
+    "original": "Well met, adventurer! I am the royal seneschal, tasked with making this year\u0027s Little Ladies\u0027 Day bring joy to the hearts of one and all.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_FESPDY501_03208_BUTLER_000_023",
+    "original": "Are you here to \u003Chex:020837E905FF1C6265636F6D652061207072696E6365737320666F72206120646179FF16656E6A6F79207468652063656C6562726174696F6E03\u003E\u2500or perhaps you wish to act as seneschal for someone dear to you? Either way, I am certain we can make your dream come true.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_024",
+    "original": "I am terribly sorry to bother you during the festivities, but we are in urgent need of your assistance.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_FESPDY501_03208_BUTLER_000_025",
+    "original": "Why, if it isn\u0027t Rodolph! You seem quite distressed. Am I correct, then, in assuming that this concerns Miss Aldiytha?",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_026",
+    "original": "Er...yes, as it happens. She wished to join the other citizens in celebrating Little Ladies\u0027 Day, but she left home unaccompanied, and I fear that my chances of locating her without help are slim.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_FESPDY501_03208_BUTLER_000_027",
+    "original": "That is distressing indeed. Though I have not seen her pass by, I shall of course join you in your search. I have yet to thank her for the daisies, after all.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_028",
+    "original": "Daisies? No\u2500we can spare no detail later. Lady Aldiytha is our priority!",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_FESPDY501_03208_BUTLER_000_029",
+    "original": "Well then, we can begin with the main thoroughfare on which we stand\u2500it is at the center of the festivities, and is always bustling with little ladies and their seneschals. If Aldiytha wished to join the celebration, she could not fail to be drawn to it.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_030",
+    "original": "In that case, we should spread out so as not to miss her. Kind adventurer, please search for a dignified young lady with long, dark hair between where we stand and the Gates of Nald. The royal seneschal and I will cover the opposite direction.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_040",
+    "original": "(-Aldiytha-)Yes, I am Aldiytha Thorne. Why do you ask?",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_041",
+    "original": "(-Aldiytha-)Rodolph sent you? Oh dear, I didn\u0027t think he would find me so quickly...",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_042",
+    "original": "Lady Aldiytha! Thank the heavens that you are unharmed!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_043",
+    "original": "Who knows what may have come to pass without your assistance? The two of you have my thanks. ",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_044",
+    "original": "Come now, we had best return home before you tax yourself overmuch.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_045",
+    "original": "(-Aldiytha-)I appreciate your concern, Rodolph, but that I cannot do. I have a mission this Little Ladies\u0027 Day, and I will see it through!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_046",
+    "original": "A...mission? Whatever it is, it cannot be more important than your health. I will not simply wait until you collapse\u2500or worse!",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_FESPDY501_03208_Q3_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_FESPDY501_03208_A3_000_001",
+    "original": "It\u0027s her life\u2500at least hear her out.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_FESPDY501_03208_A3_000_002",
+    "original": "Safety first!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_047",
+    "original": "(-Aldiytha-)Thank you, dear adventurer! I\u0027m sure you\u0027ll understand why this is so important to me.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_048",
+    "original": "(-Aldiytha-)It\u0027s kind of you to worry about me. But I swear that I\u0027m feeling perfectly well today. No trouble breathing, no dizziness...and I\u0027m not planning to do anything reckless. Truly!",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_049",
+    "original": "(-Aldiytha-)You see, as a Thorne, Little Ladies\u0027 Day has always held special meaning for me. I was raised on the Legend of the Lost Lady\u2500and as I grew older, it became my dream to bring joy to the people of Ul\u0027dah, just as Sultan Baldric once did.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_050",
+    "original": "(-Aldiytha-)My illness, however, has kept me from so much... Eventually, I decided that if I could not brighten people\u0027s hearts on Little Ladies\u0027 Day myself, I would at least contribute something that could. That\u0027s why I began growing daisies in the garden.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_051",
+    "original": "(-Aldiytha-)Miraculously, as they sprouted and bloomed, my body grew stronger\u2500and I began to think that my dream might at last come true. You and I both know that my fortune will likely not last, but that is all the more reason to do what I can right now! All I ask is for this one day.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_FESPDY501_03208_BUTLER_000_052",
+    "original": "Such a kind soul! I cannot speak for Rodolph, but your words have touched me deeply\u2500as have your actions. While the Thornes are always generous in their provisions for Little Ladies\u0027 Day, to receive so many beautiful flowers this year was a true delight.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_FESPDY501_03208_BUTLER_000_053",
+    "original": "If I may ask, why did you choose to grow daisies? Your family\u0027s crest depicts peach blossoms, does it not? That is why we typically use them as a motif for Little Ladies\u0027 Day... Could we have been mistaken all this time?",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_054",
+    "original": "(-Aldiytha-)I\u0027m glad that you asked, but that is a secret to be revealed at a later time! For now, I would like to begin weaving these daisies into crowns, so that we may present them to the many princesses of Ul\u0027dah.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_FESPDY501_03208_BUTLER_100_054",
+    "original": "Crowns of flowers! What a splendid idea! Please, allow us to assist you. I will set my staff to the task at once.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_055",
+    "original": "(-Aldiytha-)Wonderful! The preparations will go so much more smoothly with the royal seneschal\u0027s cooperation. Rodolph, pray bear with me a little bit longer.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_056",
+    "original": "I...cannot. Though I am loath to disappoint you, as your seneschal, it falls to me to protect you. Your health notwithstanding, it is simply not safe for you to wander the city. We cannot assume that all who walk these streets have motives as pure as your own\u2500Little Ladies\u0027 Day or no.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_057",
+    "original": "(-Aldiytha-)You can\u0027t mean to take me back! Not when I\u0027m so close...",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_FESPDY501_03208_Q4_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_FESPDY501_03208_A4_000_001",
+    "original": "I will accompany you, and guarantee her safety myself.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_FESPDY501_03208_A4_000_002",
+    "original": "Allow me to serve as her seneschal today!",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_058",
+    "original": "Hmm... I suppose that she would be reasonably safe with you as bodyguard. Very well.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_059",
+    "original": "Hmm... I have no means to protect her out here in the city, but you have. So if you were to take on that responsibility... Very well, then. But I cannot well cede \u003Chex:021A020203\u003Eall\u003Chex:021A020103\u003E of my duties to you, so I will remain with you until the lady is ready to return home.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_060",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_FESPDY501_03208_BUTLER_000_061",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_062",
+    "original": "(-Aldiytha-)Oh, thank you so very much! Let\u0027s go and crown some princesses right away!",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_100_062",
+    "original": "Lady Aldiytha! Please do not sprint so!",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_FESPDY501_03208_BUTLER_000_063",
+    "original": "Wait, we haven\u0027t finished making the flower crowns ye\u2500never mind.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_FESPDY501_03208_BUTLER_000_064",
+    "original": "Well, I have no doubt that she will succeed in putting smiles on the faces of many a little lady with her flower crowns\u2500assuming she has them on hand. I will have my staff bring along the ones that are finished so that you can take some with you.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_FESPDY501_03208_BUTLER_100_064",
+    "original": "Here we are. Please go after Miss Aldiytha, and see that these find their way to the heads of would-be princesses!",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_FESPDY501_03208_SYSTEM_000_065",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_070",
+    "original": "Oh, I\u0027m such a scatterbrain! You didn\u0027t happen to collect the flower crowns from the royal seneschal, did you? I would so like to present one to this young woman...",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_071",
+    "original": "If we work efficiently, I may be able to return the lady home before her father becomes worried.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_FESPDY501_03208_BUTLER_100_071",
+    "original": "I\u0027m sure little ladies across Ul\u0027dah will be delighted to receive crowns of their very own.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_FESPDY501_03208_PDYGIRL03208_100_072",
+    "original": "Sorry, am I in the way?",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_FESPDY501_03208_PDYGIRL03208_000_072",
+    "original": "Oh, a crown made of flowers! It\u0027s so pretty! Do you think that if I wear this, I can be a princess too?",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_FESPDY501_03208_PDYGIRL03208_000_073",
+    "original": "I really can? This is the best day ever! I have to go and tell Father that he\u0027s my seneschal now!",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_074",
+    "original": "Did you see her smile? It\u0027s wonderful that, even hundreds of years later, the Legend of the Lost Lady can bring people such joy.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_075",
+    "original": "Shall we try the Steps of Thal next? I\u0027m certain we can find others who dream of becoming princesses.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_076",
+    "original": "Lady Aldiytha! I spared no detail in warning you of the dangers of running mere moments ago!",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_080",
+    "original": "This woman surely deserves a flower crown! I know her husband will love it as well.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_081",
+    "original": "I must admit, I scarce remember when last I saw Lady Aldiytha so happy.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_FESPDY501_03208_PDYHUSBAND03208_000_082",
+    "original": "My wife and I have come to enjoy Little Ladies\u0027 Day. I have been too busy with work to spend time with her as of late, but the festivities give me an excuse to put my duties aside and take her on a romantic stroll.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_FESPDY501_03208_BUTLER_100_082",
+    "original": "There are still many princesses in need of crowns! We must do our utmost to pass these out to each and every one of them.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_FESPDY501_03208_PDYWIFE03208_100_083",
+    "original": "Hello, can I be of service?",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_FESPDY501_03208_PDYWIFE03208_000_083",
+    "original": "A crown of flowers? Are you quite certain you mean to give this to me? Surely there are younger ladies whom it would better suit...",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_084",
+    "original": "There\u0027s no mistake, I assure you. Though you may no longer be little, I am certain that you are a lady who is a princess at heart.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_FESPDY501_03208_PDYWIFE03208_000_085",
+    "original": "Well, \u0027tis true that as a child, I always dreamed of being a princess. Frilly dress billowing as I glide gracefully through palace halls, with a doting seneschal at my side...",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_FESPDY501_03208_PDYWIFE03208_000_086",
+    "original": "How...do I look? If you\u0027re going to laugh, hurry up about it!",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_FESPDY501_03208_PDYHUSBAND03208_000_087",
+    "original": "You are a vision of beauty, my lady. If I may be so bold\u2500it is an honor to serve one as lovely, as gentle, as...",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_FESPDY501_03208_PDYWIFE03208_000_088",
+    "original": "Eep! Stop, stop! Oh gods, I\u0027m blushing...",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_FESPDY501_03208_PDYHUSBAND03208_000_089",
+    "original": "Well, don\u0027t go and make it seem embarrassing! I always dreamed of having a princess to treasure, you know! And I found you, and, er... Oh, now \u003Chex:021A020203\u003EI\u0027m\u003Chex:021A020103\u003E blushing!",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_FESPDY501_03208_PDYWIFE03208_000_090",
+    "original": "Thank you. It seems both of our childhood dreams have come true! I never expected to feel so much like a princess at my age.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_FESPDY501_03208_PDYHUSBAND03208_000_091",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_092",
+    "original": "What a darling couple. Little Ladies\u0027 Day really does have the power to touch people\u0027s hearts, no matter their age! For we were all children, once\u2500children listening, starry-eyed, to tales of princesses and seneschals.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_093",
+    "original": "Childhood tales...yes, I remember. It was for the same reason that I dreamed of becoming a seneschal. To do my utmost to make one lady, one princess, smile.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_094",
+    "original": "But can I truly say I have been living up to that ideal as of late?",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_095",
+    "original": "\u003Ccough\u003E \u003Ccough\u003E \u003Ccough\u003E",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_096",
+    "original": "Lady Aldiytha! Are you alright?",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_097",
+    "original": "I will be fine. Though I suspect you were right\u2500I should not have run so much earlier.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_098",
+    "original": "Let us return to the royal seneschal. I will contact your father and ask that a carriage be sent.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_100",
+    "original": "I apologize for worrying you. I will be fine.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_FESPDY501_03208_BUTLER_000_101",
+    "original": "Perhaps all of this excitement at once was a bit too much for her.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_102",
+    "original": "Lady Aldiytha seems to be doing well for the moment, and we shall return home without further exertion on her part. Rest assured that there is no cause for you to worry.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_103",
+    "original": "Thank you\u2500because of your help, I was finally able to make my dream come true. I am so sorry to repay your kindness with more trouble. ",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_104",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_FESPDY501_03208_BUTLER_000_105",
+    "original": "Now, now, don\u0027t you worry over making others worry! Then everyone will be worried! Why don\u0027t we discuss something else instead\u2500perhaps you are ready to share with us your reasons for choosing daisies, for instance?",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_106",
+    "original": "But of course. I will tell you the story while we wait for the carriage.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_107",
+    "original": "After Sultan Baldric served as seneschal to the miller girl, he chose to do the same once each year for other Ul\u0027dahn ladies. It is said that this was his way of reminding himself\u2500and others\u2500that all girls should be treasured.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_108",
+    "original": "Then, one year, the girl he had chosen to be princess for a day presented him with a bouquet of daisies, to thank him for his service.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_109",
+    "original": "The daisies that grow in Ul\u0027dah are hearty\u2500capable of proliferating even in our arid climes. This made them popular amongst the commonfolk, for even those without a proper garden could grow or pick them. Of course, for the same reason, the nobles considered them beneath notice at best.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_110",
+    "original": "Amongst the nobility, presenting someone with such common flowers might even be considered an insult. So when the little lady gave them to the sultan, his attendants could do naught but hold their breath in trepidation.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_111",
+    "original": "But, knowing how hard the girl had worked to pick them, the sultan gladly accepted the daisies. He bade his attendants fashion them into circlets, and, removing his own royal crown, placed one on his head, and another on hers. \u201CWe\u0027re the same, you and I,\u201D he said, smiling.",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_112",
+    "original": "Ever since, the Thorne family has considered daisies to be symbols of happiness.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_113",
+    "original": "That your flower crowns had such meaning behind them... I had no idea. And as your seneschal, I should have. I should have asked. I should have listened to every detail.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_114",
+    "original": "But I am listening now. And if there is one thing I have learned today, it is that every lady deserves to be treated as a princess. So, I ask...does that not include you as well?",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_115",
+    "original": "How do I look?",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_FESPDY501_03208_Q5_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_FESPDY501_03208_A5_000_001",
+    "original": "Just like a princess!",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_FESPDY501_03208_A5_000_002",
+    "original": "Just like Sultan Baldric!",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_116",
+    "original": "To be honest, that is what I was hoping to hear. Oh, and it seems Rodolph has one for you, as well!",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_117",
+    "original": "\u201CWe\u0027re the same, you and I!\u201D ...I\u0027ve always wanted to say that.",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_118",
+    "original": "It seems that my lady is not the only one following in the footsteps of Sultan Baldric today. You not only watched over Lady Aldiytha\u2500you helped me understand what is most important to her. In granting her wish, you have granted mine as well. Thank you.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_119",
+    "original": "I can hardly express my gratitude. I\u0027ve never had such a wonderful day in all my life, and it\u0027s because you were here to help my dream come true.",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_FESPDY501_03208_ALDIYTHA_000_120",
+    "original": "Thank you. I only wish that I didn\u0027t have to leave so soon...",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_FESPDY501_03208_RODOLPH_000_121",
+    "original": "If that is your wish, we will simply have to find a way for you to stay longer next year.",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_FESPDY501_03208_BUTLER_000_122",
+    "original": "For my part, I\u0027m grateful to all of you. This will be a Little Ladies\u0027 Day to remember for many of us, I am sure of it.",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_FESPDY501_03208_BUTLER_000_123",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_FESPDY501_03208_BUTLER_000_124",
+    "original": "But it is not over for you and I, is it, adventurer? We must work to see flower crowns in the hands of many a princess and seneschal yet.",
+    "translation": ""
+  }
+}

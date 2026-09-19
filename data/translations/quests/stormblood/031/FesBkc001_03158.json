@@ -1,0 +1,577 @@
+{
+  "0": {
+    "tag": "TEXT_FESBKC001_03158_SEQ_00",
+    "original": "Kipih Jakkya has caught the scent of a story and needs help chasing it down.\u003Chex:02100103\u003E\u203BThis quest is available for a limited time only.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_FESBKC001_03158_SEQ_01",
+    "original": "Kipih Jakkya, reporter for \u003Chex:021A020203\u003EThe Raven\u003Chex:021A020103\u003E, tells you about a rumor that has been making its rounds of late. Apparently, an unusual black vehicle has been sighted in Thanalan along with peculiar mechanical soldiers, and there is growing concern that they may be some unknown type of Garlean weaponry. Kipih petitions your assistance to pen her story, and in case you should be amenable, she directs you to the vicinity of Black Brush, where the black vehicle was most recently sighted.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_FESBKC001_03158_SEQ_02",
+    "original": "At Black Brush, you come upon the black vehicle and its owner, a young man by the name of Noctis, who appears to be very far from home. His vehicle, the Regalia, has broken down, and he is relieved to learn that you know people who might be able to repair it. Soon after, you are joined by a crew from Garlond Ironworks and Cid himself, who promises to do his best with the Regalia. It then transpires that not only is Noctis acquainted with the mechanical soldiers, which he calls magitek troopers, but that both he and his automated adversaries hail from a world entirely different from your own. At Cid\u0027s suggestion, Noctis goes off to search for the magitek troopers in hopes of finding a way to return home. Follow Noctis and help him to defeat the magitek troopers by participating in the FATE \u201CLike Clockwork\u201D at the Clutch in central Thanalan.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_FESBKC001_03158_SEQ_03",
+    "original": "You and Noctis encounter a squad of magitek troopers and promptly vanquish them, along with a towering warmachina that had somehow managed to escape notice till now. The task thus concluded, Noctis turns his steps towards Black Brush, and you follow on his heels.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_FESBKC001_03158_SEQ_04",
+    "original": "On the road, Noctis laments that while the enemies indeed came from his world, they offered no clues as to how he might make his way back. For now, the two of you decide to return to the Regalia before seeking further help.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_FESBKC001_03158_SEQ_05",
+    "original": "After hearing about your battle with the magitek troopers, Cid expresses his interest in examining their technology, and bids you salvage their parts from future encounters. These parts may be delivered to one of the Ironworks hands posted at Black Brush and in each of the three city-states. Just as Cid is explaining that he had moved the Regalia to keep it away from prying eyes, Kipih Jakkya arrives on the scene and begins bombarding Noctis with questions. In exchange for receiving help to find his way home, Noctis agrees to an exclusive interview, and he sets out for Ul\u0027dah with Kipih.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_FESBKC001_03158_SEQ_06",
+    "original": "Arriving in Ul\u0027dah at the interview\u0027s conclusion, you learn that Noctis had been traveling with his comrades on his way to meet his beloved fianc\u00E9e. Satisfied with her harvest, Kipih reiterates her promise to help Noctis find the answers he seeks. At that moment, she receives a call from one of her colleagues, and turning back to you excitedly, she bids you and Noctis make ready for a journey on the trail of a hopeful lead.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_FESBKC001_03158_TODO_00",
+    "original": "Investigate the designated area in central Thanalan.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_FESBKC001_03158_TODO_01",
+    "original": "Participate in the FATE at the Unholy Heir.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_FESBKC001_03158_TODO_02",
+    "original": "Wait at the designated location.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_FESBKC001_03158_TODO_03",
+    "original": "Speak with Cid.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_FESBKC001_03158_TODO_04",
+    "original": "Speak with Kipih Jakkya in Ul\u0027dah.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_000",
+    "original": "Greetings, adventurer. I\u0027m Kipih Jakkya, reporter for \u003Chex:021A020203\u003EThe Raven\u003Chex:021A020103\u003E, Gridania\u0027s leading tabloid. I\u0027m hoping that I can rely on your kind assistance.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_001",
+    "original": "Greetings, adventurer! It\u0027s been a while.\u003Chex:02100103\u003E...Hm? Do not tell me you\u0027ve forgotten about Kipih Jakkya, reporter for \u003Chex:021A020203\u003EThe Raven\u003Chex:021A020103\u003E?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_002",
+    "original": "You kindly helped me pen my feature article on the mysterious lady\u003Chex:021F0103\u003Eknight, Lightning, and I\u0027m hoping that I can rely on you once more.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_003",
+    "original": "You see, a certain rumor has been making its rounds of late.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_004",
+    "original": "No few travelers passing through Thanalan report seeing an unusual black vehicle along with peculiar mechanical soldiers. Do you happen to know anything about them?",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_005",
+    "original": "No? Let me tell you, then, that there is growing concern that they might be some unknown type of Garlean weaponry. Why, even the good people of Garlond Ironworks have been called upon to investigate.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_006",
+    "original": "This promises to be a most compelling story, and I intend to be the first reporter to tell it. But in order to do that, I require the contribution of good folk such as yourself.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_007",
+    "original": "Lest you wonder, the black vehicle was most recently sighted near Black Brush, in central Thanalan. Should you come into any information, I ask that you bring me word without delay!",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_008",
+    "original": "The most recent sightings of the black vehicle took place near Black Brush, in central Thanalan. Should you come into any information, I ask that you bring me word without delay!",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_020",
+    "original": "(-Young Man\u0027s Voice-)Gah! Why won\u0027t you move, damn it?",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_021",
+    "original": "(-Man in Black-)Hey, do you know if there\u0027s a garage nearby?",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_022",
+    "original": "(-Man in Black-)\u003Csigh\u003E Just my luck to have a breakdown in the middle of nowhere... What is this place, anyway?",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_023",
+    "original": "(-Man in Black-)Thanalan? Eorzea? That\u0027s on no map I\u0027ve ever seen.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_024",
+    "original": "(-Man in Black-)I\u0027m not sure how I got here, and I\u0027ve got no idea where I need to go...but I\u0027m going nowhere at this rate. Isn\u0027t there anyone around here who can fix cars?",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_FESBKC001_03158_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_FESBKC001_03158_A1_000_001",
+    "original": "Garlond Ironworks might be able to handle it.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_FESBKC001_03158_A1_000_002",
+    "original": "If anyone can get you moving, it\u0027ll be Cid.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_025",
+    "original": "(-Man in Black-)Seriously!? Man, what a relief...",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_026",
+    "original": "(-Man in Black-)Wait, what? \u003Chex:021A020203\u003ECid\u003Chex:021A020103\u003E is here too!? What in the world\u0027s going on...?",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_027",
+    "original": "(-Man in Black-)Anyway, might as well keep pushing her along.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_028",
+    "original": "(-Man in Black-)Hey, mind giving me a hand? She\u0027s heavier than she looks.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_029",
+    "original": "(-Man in Black-)What\u0027s your name, by the way?",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_030",
+    "original": "Appreciate the help, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. My name\u0027s Noctis, but you can call me Noct.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_031",
+    "original": "And now that we\u0027re introduced, let\u0027s put our backs into it. \u003Csigh\u003E Talk about deja vu... Un. Believable.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_FESBKC001_03158_GARLONDIRONWORKSEMPLOYEESA_000_032",
+    "original": "Oho, if it isn\u0027t \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_FESBKC001_03158_GARLONDIRONWORKSEMPLOYEESA_000_033",
+    "original": "B-By the gods, she\u0027s magnificent! Such elegance, such refinement!",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_FESBKC001_03158_GARLONDIRONWORKSEMPLOYEESA_000_034",
+    "original": "Ah, as you may have heard, we were tasked by the Alliance with investigating the mystery vehicle.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_FESBKC001_03158_GARLONDIRONWORKSEMPLOYEESA_000_035",
+    "original": "Master Cid himself should be close. If you\u0027ll excuse me a moment, I will direct him hither.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_FESBKC001_03158_CID_000_036",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Why am I not surprised that you\u0027re here already?",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_FESBKC001_03158_CID_000_037",
+    "original": "So this is the machine... At a glance, it doesn\u0027t appear to be of Garlean make.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_FESBKC001_03158_CID_000_038",
+    "original": "The young fellow there\u2500I take it he\u0027s the owner?",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_FESBKC001_03158_CID_000_039",
+    "original": "And Noctis doesn\u0027t seem to know anything about Eorzea, you say? Peculiar...",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_FESBKC001_03158_CID_000_040",
+    "original": "Might he have lost his memories like I did?",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_041",
+    "original": "Hey, I\u0027m right here, you know? Now, if you\u0027re done talking about me\u2500you\u0027re Cid, right?",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_042",
+    "original": "Not quite the Cid I was expecting, but if you can fix the Regalia, then it\u0027s all good.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_FESBKC001_03158_CID_000_043",
+    "original": "I will be honest with you: this is technology I am unfamiliar with. I can\u0027t make any promises, but I will try my best.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_044",
+    "original": "Appreciate it. There\u0027s...er, just one little problem. I don\u0027t have any money.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_FESBKC001_03158_CID_000_045",
+    "original": "Never you mind that. To be able to work on a unique machine such as this is its own reward.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_046",
+    "original": "Seriously? You\u0027re a lifesaver!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_FESBKC001_03158_CID_000_047",
+    "original": "Oh, and \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I trust you also heard about the mechanical soldiers.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_FESBKC001_03158_CID_000_048",
+    "original": "We\u0027re tasked with investigating them as well. By all accounts, they appear to be simply men, albeit armored head to toe and bearing advanced firearms. What betrays them is the unnatural efficiency with which they move.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_049",
+    "original": "Sounds like MTs to me.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_FESBKC001_03158_CID_000_050",
+    "original": "Em-tees?",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_051",
+    "original": "Magitek troopers. Robotic soldiers created by the Niflheim Empire.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_052",
+    "original": "Come to think of it, the last thing I remember is being at a Niff base. It\u0027s kinda hazy...but there was a strange machine. And before I knew it, I was here, in this place you call Eorzea.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_FESBKC001_03158_CID_000_053",
+    "original": "That\u0027s quite an unusual tale, but then again I\u0027m in the presence of unusual technology. I have no reason to doubt your words. You may have inadvertently activated a teleportation device and been sent to our world.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_FESBKC001_03158_CID_000_054",
+    "original": "At any rate, you seem to be acquainted with these mechanical soldiers. Perhaps you could investigate in our stead? They were most recently sighted near the Unholy Heir, not far to the east of here.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_100_054",
+    "original": "Hmmm... If they really are MTs, they might hold some clue on how to return home...",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_055",
+    "original": "Alright, leave them to me.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_FESBKC001_03158_CID_000_056",
+    "original": "W-Wait!",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_FESBKC001_03158_CID_000_057",
+    "original": "It wouldn\u0027t do to leave our visitor to wander a strange land alone. Could you accompany him, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E? Rest assured I\u0027ll tend to the Regalia in the meantime.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_FESBKC001_03158_CID_000_058",
+    "original": "Go on and follow Noctis, my friend. Rest assured I\u0027ll tend to the Regalia in the meantime.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_060",
+    "original": "MTs, just as I thought. And a magitek armor to boot. They must have crossed over when I did.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_061",
+    "original": "But I couldn\u0027t find any clues on how I might cross back. Gah, what am I supposed to do now?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_FESBKC001_03158_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_FESBKC001_03158_A2_000_001",
+    "original": "Let\u0027s consult Cid.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_FESBKC001_03158_A2_000_002",
+    "original": "Let\u0027s consult Kipih.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_062",
+    "original": "That old geezer? Well, he did seem to know his stuff.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_063",
+    "original": "A reporter? That\u0027s...actually not a bad idea. She\u0027s bound to have loads of connections.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_064",
+    "original": "You\u0027re coming along, right? Let\u0027s go check in on the Regalia.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_FESBKC001_03158_CID_100_070",
+    "original": "So, how fared you? Were you able to find the mechanical soldiers?",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_FESBKC001_03158_CID_110_070",
+    "original": "You \u003Chex:021A020203\u003Efought\u003Chex:021A020103\u003E them!? So the rumors were true...",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_FESBKC001_03158_CID_120_070",
+    "original": "That being the case, I would very much like to examine the technology with my own eyes.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_FESBKC001_03158_CID_130_070",
+    "original": "I have a favor to ask, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. The next time you encounter these soldiers, could you salvage their parts?",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_FESBKC001_03158_GARLONDIRONWORKSRESEARCHER03158_140_070",
+    "original": "Ahem! \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, may I ask that you bring said parts to either myself or my colleagues in the three city-states?",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_FESBKC001_03158_GARLONDIRONWORKSRESEARCHER03158_150_070",
+    "original": "We will pass them along to the chief\u2500\u003Chex:021A020203\u003Eafter\u003Chex:021A020103\u003E he has completed his long list of outstanding tasks!",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_070",
+    "original": "Hey, where\u0027s my car?",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_FESBKC001_03158_CID_000_071",
+    "original": "Don\u0027t worry, she\u0027s in a safe place. A reporter came sniffing about while you were away, so I decided to move her to the Dispatch Yard that we might carry out the repairs undisturbed.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_FESBKC001_03158_CID_000_072",
+    "original": "I\u0027m pleased to say I was able to identify the problem, and I believe it can be fixed. However, it may take some time to fashion the replacement part.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_073",
+    "original": "I see. That\u0027s good to know.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_074",
+    "original": "(-Woman\u0027s Voice-)\u003Cgasp\u003E You must be the mystery man!",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_075",
+    "original": "Ooh, I\u0027m no fashion correspondent, but I like your look! A simple silhouette with an emphasis on the details!",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_076",
+    "original": "What\u0027s the deal with you?",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_077",
+    "original": "Ah, where are my manners? Kipih Jakkya, reporter for \u003Chex:021A020203\u003EThe Raven\u003Chex:021A020103\u003E, at your service!",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_078",
+    "original": "You \u003Chex:021A020203\u003Eare\u003Chex:021A020103\u003E the owner of the mysterious black vehicle, yes?",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_079",
+    "original": "What, you mean the Regalia?",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_080",
+    "original": "The Rega... I beg your pardon?",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_081",
+    "original": "Re-ga-lia.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_082",
+    "original": "Ah, so that\u0027s what she\u0027s called! A stately name!",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_083",
+    "original": "She\u0027s like nothing anyone has ever seen in Eorzea. May I ask where you hail from and how you came to be here?",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_084",
+    "original": "I\u0027m from...far away. I was on a journey. We were fighting. Then suddenly I was here.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_085",
+    "original": "I really need to find my way back. There\u0027s so much I have to do...",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_086",
+    "original": "A mysterious young man, come from another world, desperately seeking a way home... A promising premise! Now then, may I ask what manner of journey you were on?",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_087",
+    "original": "Well, I was traveling with my friends. We were on our way to meet...someone important to me.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_088",
+    "original": "Someone \u003Chex:021A020203\u003Eimportant\u003Chex:021A020103\u003E to you? Could you please elaborate on the nature of your relationship with this individual?",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_089",
+    "original": "H-Hold on just a second. You\u0027re not the only one with questions, you know. I\u0027ve got loads of my own.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_090",
+    "original": "Well, sir, \u003Chex:021A020203\u003EThe Raven\u003Chex:021A020103\u003E has many eyes and ears, and I would be happy to call upon them all for the answers you seek\u2500if you\u0027ll agree to grant me an exclusive interview!",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_091",
+    "original": "Yeah, sure, whatever.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_092",
+    "original": "Then it\u0027s settled! If you would accompany me to Ul\u0027dah, we may continue our conversation while I put my connections to work.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_FESBKC001_03158_NOCTIS_000_093",
+    "original": "Whew... That wasn\u0027t an interview\u2500it was an \u003Chex:021A020203\u003Einterrogation\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_FESBKC001_03158_CID_000_094",
+    "original": "I\u0027ll begin working on the replacement part for the Regalia, but it will take a while. Feel free to go about your own business in the meantime.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_100",
+    "original": "Noctis was very cooperative, and I have lots of juicy morsels for my feature article. Lest you wonder, he was on his way to meet his beloved fianc\u00E9e.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_101",
+    "original": "Will the two sweethearts be reunited? With such a timeless tale of romance, the next edition of \u003Chex:021A020203\u003EThe Raven\u003Chex:021A020103\u003E is certain to fly off the stands!",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_102",
+    "original": "C-Come now, don\u0027t look at me so. It\u0027s been so long since I last graced the front page. And as promised, I will help Noctis find the answers he seeks.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_103",
+    "original": "I\u0027ve already put the word out to my colleagues, and I expect to hear back from them any moment now.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_104",
+    "original": "Ah, speak of the devil!\u003Chex:02100103\u003E...Yes, Kipih here. What do you have for me?",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_105",
+    "original": "...Truly!? Thank you so much!",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_106",
+    "original": "See, what did I tell you? We have a hopeful lead!",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_FESBKC001_03158_KIPIHJAKKYA_000_107",
+    "original": "We\u0027ll need to take a little trip together, the three of us. See to your preparations and let me know when you\u0027re ready to depart!",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_FESBKC001_03158_SYSTEM_100_107",
+    "original": "The FATE \u201CLike Clockwork\u201D will appear at the Clutch in central Thanalan over the course of the seasonal event.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_FESBKC001_03158_SYSTEM_110_107",
+    "original": "Completing this FATE will reward players with pieces of unidentified magitek.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_FESBKC001_03158_SYSTEM_120_107",
+    "original": "These items may be exchanged for various goods by speaking with an Ironworks hand.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_FESBKC001_03158_SYSTEM_130_107",
+    "original": "Ironworks hands are posted at Black Brush and in each of the three city-states.",
+    "translation": ""
+  }
+}

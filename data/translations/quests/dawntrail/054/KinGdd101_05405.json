@@ -1,0 +1,742 @@
+{
+  "0": {
+    "tag": "TEXT_KINGDD101_05405_SEQ_00",
+    "original": "The bright-eyed child is regaling her mother with a tale.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_KINGDD101_05405_SEQ_01",
+    "original": "If the excitable youngling is to be believed, a Fuath is not only in the Crystarium but on its way to the Hortorium in search of an environment amenable to water spirits. The child\u0027s mother is highly skeptical, but knowing a Fuath\u0027s capacity for chaos as you do, you decide to err on the side of caution and investigate.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_KINGDD101_05405_SEQ_02",
+    "original": "The Fuath muttering questionable ditties in the Hortorium is called Aenc Daen and has been employed by none other than Feo Ul to recruit a mortal from the Crystarium. According to your beautiful branch, vagrant sin eaters have been wandering Il Mheg recently, emerging from the ruins of an old church of the First Light. Wards have been mysteriously activated around the chapel in question, preventing fae folk from investigating further, so the task must fall to mortal hands. Your hands, in fact\u2500so it is that you follow Aenc Daen back to Wolekdorf and the trouble brewing in the Kingdom of Rainbows.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_KINGDD101_05405_SEQ_03",
+    "original": "Accurately guessing that you know little about the Church of the First Light, Aenc Daen tells you how the once great religion faded to obscurity after the advent of the Flood. Armed with this new knowledge, you set forth to the Church at Dammroen Field where, allegedly, some ne\u0027er-do-wells are awaiting your arrival.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_KINGDD101_05405_SEQ_04",
+    "original": "The pixie Ose Wyd warmly welcomes you on behalf of the delinquent group of fae, and you gaze upon the blinking portal from which sin eaters have been appearing. Before long, Titania arrives to deliver a gift and some esoteric words of advice: should you require their assistance within the church, you are to burn juniper incense. The viability and significance of such an action is yet a mystery to you, but the Fuath in your company seems impressed by its potential.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_KINGDD101_05405_SEQ_05",
+    "original": "Aenc Daen\u0027s parting words are cryptic\u2500due to the web of magicks connecting Norvrandt\u0027s chapels, your journey may take you much farther than you anticipate. With only one way to discover how far that is, you turn to Vanthau the amaro, who has offered to take you to the awakening portal.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_KINGDD101_05405_SEQ_06",
+    "original": "Vanthau is clearly nervous that you may succumb to your mortality on his watch, but it is this selfsame mortality that will allow you inside the churches locked tight to fae folk. You prepare to take your first steps down the path to discovery, an unlikely pilgrim attempting a perilous traverse...",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_KINGDD101_05405_TODO_00",
+    "original": "Search for Fuath.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_KINGDD101_05405_TODO_01",
+    "original": "Speak with Aenc Daen in Wolekdorf.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_KINGDD101_05405_TODO_02",
+    "original": "Speak with Ose Wyd.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_KINGDD101_05405_TODO_03",
+    "original": "Speak with Aenc Daen.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_KINGDD101_05405_TODO_04",
+    "original": "Speak with Vanthau.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_KINGDD101_05405_SYSTEM_000_000",
+    "original": "In order to undertake this quest, you must first clear floor 50 of the Palace of the Dead.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_KINGDD101_05405_SYSTEM_000_001",
+    "original": "To gain access to the Palace of the Dead, you must complete the quest \u201CThe House That Death Built.\u201D",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_KINGDD101_05405_MOTHER05405_000_005",
+    "original": "Oh dear, is she bothering you? We\u0027ll be on our way in a moment, my apologies...",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_KINGDD101_05405_GIRL05405_000_010",
+    "original": "It\u0027s true, Mummy! I saw one right over there!",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_KINGDD101_05405_GIRL05405_000_011",
+    "original": "It was green and smooth, and had big round eyes, and a little tail like a leaf. And a feather in its cap!",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_KINGDD101_05405_GIRL05405_000_012",
+    "original": "Just like the Fuath from my picture books, Mummy! I just know it was a Fuath!",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_KINGDD101_05405_GIRL05405_000_013",
+    "original": "May we please go and find it? My book says Fuath are water folk, so I bet it went to the Hortorium. Please can we go? \u003Chex:021A020203\u003EPleeease\u003Chex:021A020103\u003E?",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_KINGDD101_05405_MOTHER05405_000_014",
+    "original": "Hush, child! You\u0027re not to go following fae, is that clear? They\u0027ll spirit you away to their kingdom, and you\u0027ll never see Mummy and Daddy again.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_KINGDD101_05405_MOTHER05405_000_015",
+    "original": "Besides, a Fuath would never be foolish enough to visit the Crystarium\u2500the guard would have them for frog legs. Now come along, we\u0027ve shopping to finish, and Daddy is waiting.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_KINGDD101_05405_GIRL05405_000_016",
+    "original": "But \u003Chex:021A020203\u003EMummy\u003Chex:021A020103\u003E! I \u003Chex:021A020203\u003Edid\u003Chex:021A020103\u003E see a Fuath! It had a feather in its caaap!",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_KINGDD101_05405_SYSTEM_000_017",
+    "original": "A Fuath running loose in the Crystarium would bode ill for the people\u0027s safety. It may be best to investigate the Hortorium, just in case...",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_020",
+    "original": "Fie, fie, the damn\u00E8d dry\u003Chex:02100103\u003EBurns me up and makes me cry.\u266A",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_021",
+    "original": "What to make me whole again?\u003Chex:02100103\u003EWhy, a soul of mortalkin!\u003Chex:02100103\u003ELead them on, and lead them true\u003Chex:02100103\u003ETo the depths of deepest blue...\u266A",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_022",
+    "original": "Ack!!!",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_023",
+    "original": "I-I shall not suffer \u003Chex:021A020203\u003Eyour\u003Chex:021A020103\u003E reproach, \u003Chex:020810E905FF076D6164616D65FF0473697203\u003E! Standing within my eavesdrop\u2500and with such prejudice!",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_024",
+    "original": "I\u0027ll have you know that I am a paragon among Fuath! Regard these charming brown eyes, and tell me that my innocence is not clear as mud!",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_025",
+    "original": "What\u0027s more, I am come to the Crystarium on official business. Impede my mission, and my master will break their fast upon \u003Chex:0209F0DFE948FF1D77686174657665722773206C656674206F6620796F757220736F756CFF1774686520616E676C65206F6620796F75722065617273FF16796F757220647562696F7573206B6E656563617073FF2B7468617420667572727920736E616B6520617474616368656420746F20796F757220627574746F636B73FF1C796F757220736B696E2C20626F6E652C20616E64206D7573636C65FF1A74686F7365207368696E792C207368696E79207363616C6573FF13796F75722062656675727265642068696465FF17796F75722070756666792C207775666679207461696C03\u003E. I\u0027m warning you!",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_026",
+    "original": "(-???-)And I shall warn \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E, Aenc Daen of waters fair!",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_027",
+    "original": "(-???-)My good books bent at the spine, my beautiful library flooded, and my Nu Mou keepers fit to faint. Sins of \u003Chex:021A020203\u003Eyours\u003Chex:021A020103\u003E, you old croak!",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_028",
+    "original": "(-???-)\u0027Twas your promise of service that bought you mercy, yet here you stand, babbling away.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_29",
+    "original": "(-Aenc Daen-)Y-Your Majesty!",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_030",
+    "original": "(-Aenc Daen-)Mistake me not, I remain your dedicated servant!\u003Chex:02100103\u003EIf this Fuath has offended,\u003Chex:02100103\u003ESend them forth, and all is mended.\u266A",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_031",
+    "original": "(-Aenc Daen-)But it is dry, and I am tired, and the air is thick with the stench of mortals. My element is water, and I\u0027m out of it!",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_032",
+    "original": "(-Aenc Daen-)Should I rejoice in my circumstances? Nay, only fools see providence in hardship\u2500only babes find novelty in strife!",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_033",
+    "original": "(-Aenc Daen-)Though I suppose Madblooms find the fun in everything, don\u0027t they, Your Majesty?",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_034",
+    "original": "Roll up that tongue before you step on it.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_035",
+    "original": "Never mind that old leatherskin. You, my adorable sapling, are a sight for sore eyes!",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_036",
+    "original": "I have followed every step of your journey. Our bond is as sturdy as ever it was.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_037",
+    "original": "Perhaps that is why you have found me now, in my hour of need.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_038",
+    "original": "Errant sin eaters have been roving Il Mheg, you see.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_039",
+    "original": "Clawing their way out of a ruined church of the First Light...",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_040",
+    "original": "We have yet to investigate further, as the site is warded with charms repellent to fae folk. Thus, I thought to enlist the help of a mortal from the Crystarium.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_041",
+    "original": "And though it may beggar belief, among the band of troublemakers that owe me penance, Aenc Daen makes the most suitable envoy.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_042",
+    "original": "Being far older than I, and knowing much and more about the church, they were \u003Chex:021A020203\u003Emeant\u003Chex:021A020103\u003E to enlist and instruct a sympathetic mortal.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_KINGDD101_05405_Q1_000_043",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_KINGDD101_05405_A1_000_044",
+    "original": "Why didn\u0027t you call me?",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_KINGDD101_05405_A1_000_045",
+    "original": "Is that so? Well, best of luck!",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_046",
+    "original": "What\u0027s this? \u003Chex:021A020203\u003EYou\u003Chex:021A020103\u003E demand to be called upon? After spurning my aid time and again!?",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_047",
+    "original": "Cruel, heartless sapling! How you toy with your poor branch\u0027s affections!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_048",
+    "original": "But as it seems I\u0027ve had my revenge, all is forgiven.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_049",
+    "original": "Now neither of us need hesitate when calling the other! \u003Chex:021A020203\u003EUnderstood\u003Chex:021A020103\u003E?",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_050",
+    "original": "Oh, you cruel, heartless sapling! To hear of my plight and not even feign an interest!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_051",
+    "original": "Is your poor branch not worthy of your courage? Your compassion?",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_052",
+    "original": "Or will you force me to say it\u2500that I\u0027d rather the help of no other mortal!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_053",
+    "original": "Would that I could stay cross with you... But I \u003Chex:021A020203\u003Eknow\u003Chex:021A020103\u003E you won\u0027t make me ask again.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_054",
+    "original": "(-Aenc Daen-)How delightful! A mortal acquired with nary a befuddlement!\u003Chex:02100103\u003EAnd the faerie proverb known,\u003Chex:02100103\u003EThat every king should take their own.\u266A\u003Chex:02100103\u003E...May I go now, Your Majesty?",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_055",
+    "original": "No. Your service lasts till Il Mheg is no longer plagued by sin eaters. Lead this \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E to the church\u0027s remains and await my arrival.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_056",
+    "original": "I shall see you again shortly, my brave and benevolent hero!",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_057",
+    "original": "(-Aenc Daen-)\u003Csigh\u003E Come along, mortal, tread downwind. Aenc Daen the Merry will be your guide.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_058",
+    "original": "(-Aenc Daen-)To Wolekdorf we make our way.\u003Chex:02100103\u003EIn Wolekdorf, your heart to sway.\u266A",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_060",
+    "original": "Still in one piece, eh?\u003Chex:02100103\u003EThe sapling knows where its root grows\u003Chex:02100103\u003EDeep in the Kingdom of Rainbows.\u266A",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_061",
+    "original": "Now, before we proceed further, just how ignorant are you of the Church of the First Light?",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_062",
+    "original": "Oh, what fools you mortals be! Your minds as soft as mallow, upon which you whet the instruments of your own violent demise!",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_063",
+    "original": "Stay, child, and I\u0027ll tell you the tale of a faith, a legion, and a grave.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_064",
+    "original": "Once upon a time, there was a church that worshipped the Light. Its flock believed that, if they were virtuous, it would wrest them from death\u0027s very grasp, to be born anew unto this world.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_065",
+    "original": "The ranks of the faithful grew and grew across Norvrandt, their beloved Light a beacon of hope...ere it turned upon them, scouring the very land and giving rise to a legion of beasts.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_066",
+    "original": "The church scrambled to defy these creatures, these devourers of sin! Yet the flock\u0027s devotion had begun to waver, its quivering sheep terrified of the fate that awaited their mortal souls.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_067",
+    "original": "As the Kingdom of Voeburt fell, they strayed one by one into the endless day, leaving their churches to suffocate in silence.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_068",
+    "original": "Now, in those mausoleums of a long-dead faith, bells ring once more...",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_069",
+    "original": "So we must turn a new page in an old fable! Come along, maiden bark, and bend your trunk to the Church at Dammroen Field. The rascals await.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_070",
+    "original": "Quick-handed fae that play in Il Mheg here,\u003Chex:02100103\u003EWhich never labored in good faith till now.\u266A",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_KINGDD101_05405_VANTHAU_000_075",
+    "original": "Ah! G-Greetings...",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_KINGDD101_05405_TYRMARN_000_080",
+    "original": "Are you the mortal come to help us? Welcome, welcome!",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_KINGDD101_05405_OSEWYD_000_100",
+    "original": "Hm? Hm? \u003Chex:021A020203\u003EHmmmmmmmmm\u003Chex:021A020103\u003E?",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_KINGDD101_05405_OSEWYD_000_101",
+    "original": "Why, it\u0027s the king\u0027s sapling! The king\u0027s sapling has come to play! ",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_KINGDD101_05405_OSEWYD_000_102",
+    "original": "I\u0027m Ose Wyd, and these are my fellows. We\u0027ve all been very naughty! Not as naughty as the Fuath, though. No one\u0027s as naughty as the Fuath.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_KINGDD101_05405_OSEWYD_000_103",
+    "original": "I\u0027m in charge of watching, and Vanthau there is in charge of trembling quietly. The biggest among us, yet the frailest of heart!",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_KINGDD101_05405_OSEWYD_000_104",
+    "original": "That\u0027s Tyr Marn. But I shan\u0027t introduce them. There\u0027s no telling what they might do!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_105",
+    "original": "How now, mad spirit? What changes now about these haunted stones?",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_KINGDD101_05405_OSEWYD_000_106",
+    "original": "None to speak of! Or to whisper of, or whistle at, or hoot! ",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_KINGDD101_05405_OSEWYD_000_107",
+    "original": "The magicks that paved the way for pilgrims of eld are blinking awake from ages of slumber.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_KINGDD101_05405_OSEWYD_000_108",
+    "original": "Like a crusty old eyeball! Blink, blink! ",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_KINGDD101_05405_VANTHAU_000_109",
+    "original": "Sometimes a sin eater will come crawling out... \u003Cshudder\u003E The church beyond this portal must be overrun.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_KINGDD101_05405_TYRMARN_000_110",
+    "original": "Fae wards prevent us from entering to sever the connection, unfortunately.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_111",
+    "original": "Fortune\u0027s got naught to do with it. In the old days, those Light-worshipers were always finding reason to shut door and window to us.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_112",
+    "original": "And no occasion warranted it so much as their most mortal of mortal ceremonies...",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_113",
+    "original": "(-???-)Obsequies!",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_114",
+    "original": "Well met by \u003Chex:020831E3E90C0DFF16020812E3E90C05FF056D6F6F6EFF066461776E2D03FF14020810E3E90C12FF0473756EFF056D6F6F6E0303\u003Elight, King Titania! \u0027Tis just as you say.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_115",
+    "original": "From man\u0027s last breath till his final rites were spoken, the church would not suffer even the suggestion of fae folk.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_116",
+    "original": "The precious souls of the faithful were promised rebirth! Not an everlasting sojourn into the Kingdom of Rainbows.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_117",
+    "original": "Beyond the yew trees lies a land\u003Chex:02100103\u003EUntouchable by mortal hand.\u003Chex:02100103\u003EEternal live the faeries there,\u003Chex:02100103\u003EWithout rebirth, without a prayer.\u266A",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_118",
+    "original": "\u0027Twould put a damper on funerals were we to steal away souls of the dearly departed. And so the wards went up.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_KINGDD101_05405_OSEWYD_000_119",
+    "original": "Then we know what\u0027s afoot, don\u0027t we!",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_KINGDD101_05405_OSEWYD_000_120",
+    "original": "They\u0027re having a funeral in there\u2500in a church rife with sin eaters!",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_121",
+    "original": "The onus of discovery is yours, I\u0027m afraid. You\u0027ll lay to rest whatever\u0027s being laid to rest, won\u0027t you?",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_122",
+    "original": "In the meantime, I will support you in any way I can.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_123",
+    "original": "First, with a gift from the castle vault. These will serve you well upon your journey.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_124",
+    "original": "Your determination is a fierce beauty, my sapling. Among the finest I have ever seen!",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_125",
+    "original": "\u0027Tis too precious to lose to a horde of greedy sin eaters. So you \u003Chex:021A020203\u003Emust\u003Chex:021A020103\u003E call me if ever you are in danger.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_126",
+    "original": "Begging your pardon, Majesty, but the church\u0027s uncouth wards make no exception for royalty. Not even you could blow down those walls, huff and puff though you might.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_127",
+    "original": "Perhaps. As a pixie, my path is barred. The only ones permitted to attend a funeral are living mortals...",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_128",
+    "original": "...and the faithful deceased.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_129",
+    "original": "Among the church\u0027s forgotten trinkets, you may find incense of juniper. Burn it, and think of me.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_130",
+    "original": "All shall return to its rightful place, and I will come to you, my sapling.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_131",
+    "original": "Light and silence! So \u003Chex:021A020203\u003Ethat\u0027s\u003Chex:021A020103\u003E what you mean!",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_132",
+    "original": "Our monarch proud, our monarch great,\u003Chex:02100103\u003EThe faerie king who cheats their fate.\u003Chex:02100103\u003ELet all who meet them quail and cow\u0027r\u003Chex:02100103\u003EAfore the Madbloom\u0027s maddest pow\u0027r!\u266A",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_133",
+    "original": "Come, my sapling, you have much to prepare.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_KINGDD101_05405_FEOUL_000_134",
+    "original": "Return to Wolekdorf and attend our hero. Your service pays your debt and aids your kingdom.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_KINGDD101_05405_OSEWYD_000_140",
+    "original": "I don\u0027t have to watch out for sin eaters anymore! They have to watch out for \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_KINGDD101_05405_VANTHAU_000_145",
+    "original": "(Ch-Charged with attending the royal sapling!? Oh dear, oh dear...)",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_KINGDD101_05405_TYRMARN_000_150",
+    "original": "At last, our campaign begins! I\u0027m eager to learn what the wards protect, aren\u0027t you?",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_160",
+    "original": "First things first, suppletrunk\u2500let\u0027s have a closer look at the king\u0027s gift.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_161",
+    "original": "A royal gift in times of need\u003Chex:02100103\u003EMust be of greatest worth, indeed.\u266A",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_162",
+    "original": "Hmm... That is this, and this is that...",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_163",
+    "original": "Oho! Their Majesty\u0027s foresight is formidable\u2500or should I say their sincerity is unassailable?",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_164",
+    "original": "...Very well. I have the short and long of it.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_165",
+    "original": "To summarize, the king has gifted you sacred weaponry. Arcane weaponry.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_166",
+    "original": "\u201CBut I have my own steel,\u201D you say. \u201CMy own magicked tomes and instruments of blunt trauma!\u201D All useless inside the great churches of the First Light.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_167",
+    "original": "The chapel walls enforce an armistice, protected by charms that melt aggression from the blade like butter under midday sun. To wit, your mortal armaments will gently caress the sin eaters before they kill you.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_168",
+    "original": "The king\u0027s gift, however, is immune to the church\u0027s spellwork. Allied with your more barbaric instincts, there is little destruction its power cannot realize.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_169",
+    "original": "In theory, anyway. After gathering dust in the royal vault for this long, these sacramental arms do look a bit...limp.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_KINGDD101_05405_OSEWYD_000_170",
+    "original": "Give them time, give them time! With enough use, any weapon will remember what it\u0027s made for.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_KINGDD101_05405_OSEWYD_000_171",
+    "original": "I would know\u2500I make a habit of making weapons!",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_KINGDD101_05405_TYRMARN_000_172",
+    "original": "In the course of making mischief, I would wager.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_173",
+    "original": "One more thing: the king thought fit to include a golden censer.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_174",
+    "original": "\u0027Twould seem the suggestion to burn incense was not made in jest...though whether the juniper will truly summon Titania to your side is for you to discover.",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_175",
+    "original": "Burn what you find, for what you burn\u003Chex:02100103\u003EMay cause a fortune foul to turn.\u003Chex:02100103\u003EWhen all is done and all is said,\u003Chex:02100103\u003EBetter to try than wind up dead!\u266A",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_176",
+    "original": "Whatever else you find lying abandoned is yours to take. The threat of divine punishment has long since passed...most likely.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_KINGDD101_05405_TYRMARN_000_177",
+    "original": "If you encounter any artifacts you can\u0027t make sense of, I\u0027ll be happy to appraise them for you.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_KINGDD101_05405_TYRMARN_000_178",
+    "original": "No matter whose, secrets are simply \u003Chex:021A020203\u003Emade\u003Chex:021A020103\u003E to be revealed, are they not!? Such scrumptious little truffles...",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_KINGDD101_05405_OSEWYD_100_178",
+    "original": "I\u0027ll keep my mischief if you keep your mushrooms. Deal?",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_179",
+    "original": "A final word of the wise to you, mortal.",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_180",
+    "original": "Though the Church of the First Light may lie in ruin, its chapels are still connected across Norvrandt by a web of living magicks, not unlike your aetherytes.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_181",
+    "original": "Be not surprised if your journey leads you to farther-flung lands than you imagined.",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_182",
+    "original": "From chapel door to chapel door,\u003Chex:02100103\u003ENo one can know what lies in store.\u003Chex:02100103\u003EA blessing or perhaps a curse\u003Chex:02100103\u003EUpon the long pilgrim\u0027s traverse!\u266A",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_183",
+    "original": "Follow the stones, royal sapling\u2500and unearth the root of our troubles.",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_KINGDD101_05405_VANTHAU_000_184",
+    "original": "I-It may not be much, but I can carry you to the portal. Save you the walk?",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_KINGDD101_05405_VANTHAU_000_185",
+    "original": "Just be sure that you\u0027re fully prepared before we go.",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_KINGDD101_05405_AENCDAEN_000_190",
+    "original": "Farewell, sweet goodfellow. I\u0027d pray for you were I not a Fuath.",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_KINGDD101_05405_VANTHAU_000_200",
+    "original": "I-If you ever feel overwhelmed, there\u0027s no shame in turning back.",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_KINGDD101_05405_VANTHAU_000_201",
+    "original": "Were anything to happen to you, the king would... \u003Cshudder\u003E Just \u003Chex:021A020203\u003Eplease\u003Chex:021A020103\u003E be careful.",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_KINGDD101_05405_VANTHAU_000_202",
+    "original": "...All right, then. Whenever you\u0027re ready.",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_KINGDD101_05405_SYSTEM_000_203",
+    "original": "You now have access to Pilgrim\u0027s Traverse.",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_KINGDD101_05405_SYSTEM_000_204",
+    "original": "You may enter the deep dungeon by speaking with Vanthau again.",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_KINGDD101_05405_SYSTEM_000_205",
+    "original": "You must be a Disciple of War or Magic of level 91 or above to participate, and your level will be adjusted to 91 upon entering Pilgrim\u0027s Traverse for the first time.",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_KINGDD101_05405_SYSTEM_000_206",
+    "original": "Further details on Pilgrim\u0027s Traverse and how it differs from the Palace of the Dead can be had by speaking with Vanthau.",
+    "translation": ""
+  }
+}

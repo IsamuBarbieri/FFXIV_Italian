@@ -1,0 +1,402 @@
+{
+  "0": {
+    "tag": "TEXT_MANWIL302_00682_SEQ_00",
+    "original": "The Immortal Flames recruitment officer seems eager to welcome you to Ul\u0027dah\u0027s Grand Company.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_MANWIL302_00682_SEQ_01",
+    "original": "You have confirmed your intention to join the ranks of the Immortal Flames. Visit the Hall of Flames in Ul\u0027dah, and speak with the personnel officer to be formally inducted into the Grand Company.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_MANWIL302_00682_SEQ_02",
+    "original": "Your formal induction into the Immortal Flames is interrupted by an urgent report concerning an imperial attack on a Highwind Skyways airship. Head to Horizon\u0027s Edge and determine the fate of the crippled vessel and its crew.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_MANWIL302_00682_SEQ_03",
+    "original": "You have defeated the imperial soldiers intent on requisitioning the downed airship. You learn that the vessel\u0027s crew, Biggs and Wedge, are engineers from Garlond Ironworks, and that Master Garlond himself has been missing since the Calamity. Return to the Hall of Flames and report to the personnel officer.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_MANWIL302_00682_SEQ_04",
+    "original": "Back at the Hall of Flames, the personnel officer praises your efforts, and reassures you that the two engineers you encountered were able to continue on their way. He then expresses his eagerness to complete your induction into the ranks of the Immortal Flames. Speak with him once more when you are ready to attend to the formalities.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_MANWIL302_00682_TODO_00",
+    "original": "Speak with the personnel officer at the Hall of Flames.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_MANWIL302_00682_TODO_01",
+    "original": "Head to Horizon\u0027s Edge and determine the fate of the airship and its crew.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_MANWIL302_00682_TODO_02",
+    "original": "Speak with the personnel officer at the Hall of Flames.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEOFFICER_000_1",
+    "original": "Welcome back, adventurer! I take it General Raubahn\u0027s words kindled a fire within you?",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_MANWIL302_00682_Q1_000_1",
+    "original": "Join the Immortal Flames?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_MANWIL302_00682_A1_000_1",
+    "original": "Yes",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_MANWIL302_00682_A1_000_2",
+    "original": "No",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEOFFICER_000_2",
+    "original": "Excellent! I feared that the incident with the traitor may have soured your opinion of us. It gladdens me to see that isn\u0027t the case.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEOFFICER_000_3",
+    "original": "But before we can count you as one of our own, you must be formally inducted into our ranks.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEOFFICER_000_4",
+    "original": "Please proceed to \u003Chex:020975E947FF2E7468652048616C6C206F6620466C616D6573206F6E20556C276461682773204D65726368616E74205374726970FF2E7468652048616C6C206F6620466C616D6573206F6E20556C276461682773204D65726368616E74205374726970FF137468652048616C6C206F6620466C616D657303\u003E and identify yourself to the personnel officer. I will notify him of your coming.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEOFFICER_000_5",
+    "original": "With your strength joined to ours, we shall surely prevail over our enemies, be they beastmen or imperials.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEOFFICER_000_6",
+    "original": "What? You cannot seriously be considering joining another Grand Company! Why, they are not nearly as \u003Chex:021A020203\u003Egrand\u003Chex:021A020103\u003E as ours!",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_MANWIL302_00682_SERPENTOFFICER_000_10",
+    "original": "I will not deny that I am disappointed, but I take comfort in the knowledge that individuals are permitted to transfer between Grand Companies. Know that the Order of the Twin Adder would be proud to have you should you undergo a change of heart.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEOFFICER_000_11",
+    "original": "Before you may take your place within our ranks, you must speak with the personnel officer at the Hall of Flames\u003Chex:02091DE947FF0B20696E20556C27646168FF0B20696E20556C27646168FF0103\u003E. Pray do so at your earliest convenience. I, meanwhile, will bear word of your \u003Chex:021A020203\u003Eexcellent\u003Chex:021A020103\u003E decision to General Raubahn.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_MANWIL302_00682_STORMOFFICER_000_12",
+    "original": "So you have decided to cast your lot with the Flames. Well, there is no help for it. Just remember that it\u0027s never too late to sign on with a different crew.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_20",
+    "original": "What brings you to the Hall of Flames this \u003Chex:020839E3E90C0DFF1B020817E3E90C05FF086576656E696E67FF086D6F726E696E6703FF17020813E3E90C12FF04646179FF086576656E696E670303\u003E, adventurer?",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_MANWIL302_00682_Q2_000_1",
+    "original": "How will you respond?",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_MANWIL302_00682_A2_000_1",
+    "original": "My name is \u003Chex:022903EB0203\u003E. I believe you are expecting me.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_MANWIL302_00682_A2_000_2",
+    "original": "I am here to enlist, if you will have me.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_21",
+    "original": "Ah, I thought as much! You are just as our man at the Waking Sands described! It is an honor to meet you, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E!",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEPERSONNEL_100_21",
+    "original": "Is that so? Well then, I must ask you for your name. Ah, but let me guess. It is \u003Chex:022903EB0203\u003E, is it not? Yes, you are just as our man at the Waking Sands described. Thank you for electing to join us.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_22",
+    "original": "Now, in order to formalize your\u2500",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEPRIVATE_000_23",
+    "original": "Sir!",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_24",
+    "original": "Speak, Private.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEPRIVATE_000_25",
+    "original": "Imperials, sir! They\u0027ve fired on a Highwind Skyways airship!",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEPRIVATE_000_26",
+    "original": "Scouts say she\u0027s coming down to the west, near Horizon\u0027s Edge!",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_27",
+    "original": "Bloody hells! Of all the times for this to happen!",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_28",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, there\u0027s no time for formalities! The Immortal Flames need your help \u003Chex:021A020203\u003Enow\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_29",
+    "original": "We\u0027re in the midst of a large-scale operation against the Amalj\u0027aa, and we have no one to spare in western Thanalan. You must get to that ship before the Garleans do!",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_30",
+    "original": "If there are any survivors, see that they do not come to further harm. Now go!",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_MANWIL302_00682_Q3_000_1",
+    "original": "Duty calls. Do you wish to proceed with\u003Chex:02100103\u003E\u201CThe Company You Keep (Immortal Flames)\u201D?",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_MANWIL302_00682_A3_000_1",
+    "original": "Yes",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_MANWIL302_00682_A3_000_2",
+    "original": "No",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_MANWIL302_00682_BIGGS_000_40",
+    "original": "(-Airship Crewman-)An adventurer!? What\u0027re you doing out here? No, wait\u2500let\u0027s find some cover first...",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_MANWIL302_00682_BIGGS_000_41",
+    "original": "(-Airship Crewman-)The Immortal Flames sent you? How do I know you\u0027re not an imperial spy? You don\u0027t even have a uniform!",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_42",
+    "original": "Are you all right, sir? Our scouts reported the attack on your craft. We\u0027ve come to rescue you.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_43",
+    "original": "\u003Chex:022903EB0203\u003E, yes? Glad to have you with us.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_MANWIL302_00682_IMPERIALSOLDIER_000_44",
+    "original": "I have not seen a craft of this design before... That traitor Garlond has been busy.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_MANWIL302_00682_IMPERIALSOLDIER_000_45",
+    "original": "The secrets of magitek are ours by right. They are not to be squandered upon the savages of this land.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_MANWIL302_00682_IMPERIALSOLDIER_000_46",
+    "original": "We are taking this craft back to the fortress! Dismantle it if you must! And bring the engineer! Someone must pay for Garlond\u0027s crimes.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_47",
+    "original": "They mean to take the ship back to Castrum Meridianum, along with your friend.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_MANWIL302_00682_BIGGS_000_48",
+    "original": "(-Airship Crewman-)Wedge! You have to help him! That fool of a Lalafell was hiding \u003Chex:021A020203\u003Einside\u003Chex:021A020103\u003E the \u003Chex:021A020203\u003ETiny Bronco\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_49",
+    "original": "Nice-looking ship\u2500though not the best place to have taken shelter, I agree.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_MANWIL302_00682_BIGGS_000_50",
+    "original": "(-Airship Crewman-)It\u0027s the first airship we\u0027ve built since the Calamity\u2500the first since Master Garlond...well, since he went missing.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_MANWIL302_00682_BIGGS_000_51",
+    "original": "(-Airship Crewman-)After years of work, she was finally ready for her first test flight. And she was \u003Chex:021A020203\u003Esoaring\u003Chex:021A020103\u003E, she really was\u2500till those bastards blasted her out of the sky!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_52",
+    "original": "We attack on my command. Kill them quickly, and save the Lalafell if possible.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_53",
+    "original": "Is that clear, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E?",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_54",
+    "original": "Show them what becomes of those who play with fire! Charge!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_MANWIL302_00682_IMPERIALSOLDIER_000_55",
+    "original": "We\u0027re under attack! To arms!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_MANWIL302_00682_WEDGE_000_60",
+    "original": "Biggs!",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_MANWIL302_00682_BIGGS_000_61",
+    "original": "Wedge! You shouldn\u0027t have stayed with the ship!",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_MANWIL302_00682_WEDGE_000_62",
+    "original": "Th-That was a close one!",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_MANWIL302_00682_BIGGS_000_63",
+    "original": "Too damn close. So...how\u0027s she look, anyway?",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_MANWIL302_00682_WEDGE_000_64",
+    "original": "The auxiliary propeller is a dead loss, but I think we can wring enough thrust from the main propeller to get us airborne.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_MANWIL302_00682_BIGGS_000_65",
+    "original": "A few minor modifications and we should be able to fly the \u003Chex:021A020203\u003ETiny Bronco\u003Chex:021A020103\u003E home.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_66",
+    "original": "The imperials will come looking for their scouts, but we can defend this position until the engineers leave.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_67",
+    "original": "You should go, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. You still have unfinished business to attend to at the Hall of Flames.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_68",
+    "original": "You\u0027re not quite one of us yet, though anyone who\u0027d seen you in action today would be forgiven for thinking otherwise.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_MANWIL302_00682_BIGGS_000_69",
+    "original": "I, um...just wanted to say sorry...you know, for calling you an imperial spy and all that... Got \u003Chex:021A020203\u003Ethat\u003Chex:021A020103\u003E one wrong, didn\u0027t I!? Ha ha! Seriously, though\u2500if it hadn\u0027t been for you and the Immortal Flames lads there, we\u0027d be chained up in a dungeon by now. I\u0027m in your debt, friend\u2500we both are.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_MANWIL302_00682_BIGGS_000_70",
+    "original": "Wedge!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_MANWIL302_00682_WEDGE_000_71",
+    "original": "Thank you! We\u0027re very grateful!",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_80",
+    "original": "Welcome back, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Word of your deeds in the field reached me not long ago. Exemplary service!",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_81",
+    "original": "Rest assured that the Garlond Ironworks engineers are fine. They were able to get their vessel back in the air before imperial reinforcements arrived.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_82",
+    "original": "Your willingness to assist us on such short notice is to be commended. Clearly, your reputation is well deserved. ",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_83",
+    "original": "Now then, I believe we have some unfinished business.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_84",
+    "original": "Shall we continue from where we left off and induct you into the Immortal Flames?",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_MANWIL302_00682_QIB_TODO_001",
+    "original": "Defeat the imperial soldiers!",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_MANWIL302_00682_FLAMELT_BATTLETALK_001",
+    "original": "Give them no quarter, Flames!",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_MANWIL302_00682_IMPERIALCENTURION_BATTLETALK_001",
+    "original": "Defend the airship! Kill the savages!",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_MANWIL302_00682_IMPERIALCENTURION_BATTLETALK_002",
+    "original": "What are you doing!? Kill them, I said!",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_MANWIL302_00682_IMPERIALCENTURION_BATTLETALK_003",
+    "original": "Where\u0027s that bloody vanguard!? We need it NOW!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_MANWIL302_00682_IMPERIALCENTURION_BATTLETALK_004",
+    "original": "Hahaha! Show them no mercy!",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_MANWIL302_00682_FLAMELT_BATTLETALK_DEAD",
+    "original": "Keep fighting, damn it... Don\u0027t...let them...",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_MANWIL302_00682_FLAMEPRIFIRST_BATTLETALK_DEAD",
+    "original": "S-Sir...I don\u0027t think I can...",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_MANWIL302_00682_QIB_GC_C_BATTLETALK_DEAD",
+    "original": "Not now! Not like this...",
+    "translation": ""
+  }
+}

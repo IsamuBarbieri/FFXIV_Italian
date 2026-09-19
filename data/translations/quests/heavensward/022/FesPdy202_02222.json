@@ -1,0 +1,817 @@
+{
+  "0": {
+    "tag": "TEXT_FESPDY202_02222_SEQ_00",
+    "original": "The royal servant asks you to help circulate flyers.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThis quest is available for a limited time only.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_FESPDY202_02222_SEQ_01",
+    "original": "The royal servant hands you roasted rice cakes wrapped in flyers and asks that you distribute them to citizens on the Steps of Nald.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_FESPDY202_02222_SEQ_02",
+    "original": "You finish handing out all your flyers and rice cakes. Return to the Ruby Road Exchange and report to the royal servant.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_FESPDY202_02222_SEQ_03",
+    "original": "The royal servant is ecstatic to learn of your success with the handouts, and is hopeful that your hard work has gained the Songbirds more than a few new fans.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_FESPDY202_02222_TODO_00",
+    "original": "Hand out flyers and roasted rice cakes to Ul\u0027dahn citizens on the Steps of Nald.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_FESPDY202_02222_TODO_01",
+    "original": "Report to the royal servant.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_FESPDY202_02222_CHAMBERLAIN02222_000_000",
+    "original": "Are you one of the adventurers that was kind enough to offer to assist us in promoting our trio of talented singers? Delighted to have you with us!",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_FESPDY202_02222_CHAMBERLAIN02222_100_000",
+    "original": "The seneschal has planted ears about the city to gauge the citizenry\u0027s interest in the Songbirds. As of our most recent tally, the girls are seen as \u003Chex:0209F2026BE802FF476E6175676874206D6F7265207468616E2062757A7A696E6720666C696573206C6F737420696E2074686520636C616D6F72206F66207468652063697479021F01037374617465FF39666163656C6573732073747265657420706572666F726D65727320706564646C696E6720746865697220736F6E677320666F7220636F696EFF4773747265657420706572666F726D6572732061726F756E642077686F6D20637572696F757320706173736572736279206D696768742067617468657220746F206C697374656EFF5C73747265657420706572666F726D6572732077686F2061726520656173696C79207265636F676E697A61626C6520666F7220746865697220666C7965727320616E642063616B657320627574206E6F7420746865697220736F6E67FF5961207265737065637461626C65207472696F206F66206C6F63616C20706572666F726D6572732077686F2068617665206761726E65726564206120736D616C6C2062616E64206F66206C6F79616C20666F6C6C6F77657273FF5961207472696F206F66206C6F63616C20706572666F726D6572732077686F73652073686F77732068617665206576656E20626567756E20746F206174747261637420746F75726973747320696E746F207468652061726561FF5D61207472696F206F6620736F6E6773747265737365732077686F206172652061646F726564206163726F7373207468652063697479021F01037374617465206279206E6F626C657320616E6420736D616C6C666F6C6B20616C696B65FF2F746865206D6F737420706F70756C617220736F6E67737472657373657320696E20616C6C206F6620556C2764616803\u003E.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_FESPDY202_02222_CHAMBERLAIN02222_100_001",
+    "original": "Thanks to the efforts of adventurers like yourself, one would be hard-pressed to find an Ul\u0027dahn who doesn\u0027t know of the Songbirds. As exciting as the thought is, we cannot allow ourselves to grow remiss in our duties, as maintaining this level of popularity will prove to be the real challenge!",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_FESPDY202_02222_CHAMBERLAIN02222_000_001",
+    "original": "To celebrate this most wondrous occasion, we have prepared some traditional Far Eastern roasted rice cakes\u2500a dessert currently all the rage amongst the nobles, who are always entranced by the exotic. By distributing these sweets alongside our flyers, we hope to garner the people\u0027s interest and entice them to gather before our Little Ladies\u0027 Day stage. Tedious though it may be, you would do us a great service were you to assist us in this endeavor.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_FESPDY202_02222_CHAMBERLAIN02222_000_002",
+    "original": "You\u0027re back already, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E? Do you think our flyers and cakes did the trick?",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_FESPDY202_02222_SYSTEM_100_002",
+    "original": "This quest may be undertaken multiple times. The quantity of flyers distributed in any given World will be reflected in the appearance of the Songbirds, as their costumes and performances grow more extravagant over time.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_FESPDY202_02222_SYSTEM_100_003",
+    "original": "Join forces with your fellow adventurers, complete the quest as often as you desire, and watch as your efforts transform the Songbirds into stars!",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSA02222_000_010",
+    "original": "Little Ladies\u0027 Day\u2500I can\u0027t believe it\u0027s already that time of year again! The days simply seem to fly by!",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSA02222_000_020",
+    "original": "What\u0027s this? A sweetcake and a concert flyer? Hm, if these girls are as charming as you claim, I\u0027ll see if I can make the time to attend.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSA02222_000_030",
+    "original": "Ah, so this is the group I passed by earlier on Emerald Avenue? I\u0027ll have need to sort out my schedule, but you might just see me there tonight.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSA02222_000_040",
+    "original": "Oh, yes! I know all about the Songbirds. I went to see them yesterday and was deeply impressed. You can bet your left leg I won\u0027t be missing any more of their shows!",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSB02222_000_011",
+    "original": "There\u0027s nothing quite so stunning as the pink of peach blossoms lining the streets of Ul\u0027dah at this time of year. Puts even the most restless of souls at ease, eh?",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSB02222_000_021",
+    "original": "By the looks of it, these \u201CSongbirds\u201D or other have shoveled off all the grunt work onto you, eh, \u003Chex:02080EE905FF056C617373FF046C616403\u003E? Well, so long as it comes with this here cake, I suppose I could take your flyer.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSB02222_000_031",
+    "original": "So these are the girls that have been singing and dancing down at Emerald Avenue, eh? I might have a friend or two who could be convinced to come along.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSB02222_000_041",
+    "original": "Is this what I think it is!? I went to see the Songbirds the other night and didn\u0027t regret a second of it! When Masha starts dancing, even the heavens above pause to gaze upon her in awe.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSC02222_000_012",
+    "original": "All this work has left me with little time to partake in the ongoing festivities and an itch in the back of my throat\u2500the likes of which can only be satisfied by a flagon of quality ale. If I were to steal a moment for myself, the chief surely wouldn\u0027t notice!",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSC02222_000_022",
+    "original": "Can\u0027t say the name \u201CSongbirds\u201D rings a bell\u2500not that it actually matters. I can\u0027t much stand all that screaming and shouting that tends to accompany such events. This rice cake, on the other hand, looks like something I could actually enjoy.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSC02222_000_032",
+    "original": "Lately, I\u0027ve been seeing these rice cakes all throughout the city. You\u0027re handing these out for those performers...the Songbirds, was it? If I feel up to it, I might have a gander at their next showing after work.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSC02222_000_042",
+    "original": "Is this another one of those rice cakes? I\u0027ve eaten so many of these things, I\u0027m all but obligated to go now!",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSD02222_000_013",
+    "original": "My passion in life is to seek beauty in even the simplest of things. In fact, you might even consider me an expert on the matter.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSD02222_000_023",
+    "original": "Attempting to lure in an audience with sweets, are you? Well, such trickery won\u0027t work on me! F\u0027lhaminn is the only singer worthy of the title \u201Csongstress,\u201D and I refuse to become tangled in whatever illicit schemes you weave!",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSD02222_000_033",
+    "original": "Oh, yes. I tried listening to them earlier but they don\u0027t possess even a fraction of F\u0027lhaminn\u0027s prowess. I\u0027ll eat your cake, but know I have no intention of ever supporting your Songbirds.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSD02222_000_043",
+    "original": "Ah, the Songbirds\u0027 rice cake, is it? There\u0027s no denying they lack F\u0027lhaminn\u0027s flair but I must admit that part of me has come to respect the Songbirds. They try harder than anyone I\u0027ve ever known.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSE02222_000_014",
+    "original": "Hmm, I can\u0027t help but feel as though there\u0027s something I forgot to buy.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSE02222_000_024",
+    "original": "Ah, that\u0027s it\u2500I forgot the rice cake! Today must be my lucky day, to think that someone would be walking around handing some out for free! I can\u0027t say I\u0027m interested in this Songbird group but you have my thanks!",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSE02222_000_034",
+    "original": "Oh, you\u0027re still handing these out, are you? I\u0027m on my way to wander the marketplace, so I might stop by on my way back.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSE02222_000_044",
+    "original": "Spare me the speech, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E\u2500when you\u0027ve gotten as many of these as I have, you\u0027ve practically got it memorized! Besides, they\u0027ve already won me over with their beaming smiles and adorable little routine.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSF02222_000_015",
+    "original": "Little Ladies\u0027 Day is in full swing and I couldn\u0027t be any happier! It\u0027s depressing to think that soon these clouds of pink blossoms will be giving way to barren skies. If only the festivities could continue all year round!",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSF02222_000_025",
+    "original": "Doesn\u0027t this look absolutely scrumptious! If those girls are as good as this wonderful cake, I might just have to give them a chance.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSF02222_000_035",
+    "original": "Another one of these delicious rice cakes\u2500what a pleasant surprise! And speaking of pleasant surprises, I went to see the Songbirds. Aren\u0027t they all so charming?",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSF02222_000_045",
+    "original": "The Songbirds...as in Ulala\u0027s group, \u201Cthe Songbirds\u201D? I\u0027ve come to very much admire Ulala, so it goes without saying that they have my full support!",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSG02222_000_016",
+    "original": "No matter how old you get, Little Ladies\u0027 Day is the one thing that can put a smile on any girl\u0027s face. A proper Ul\u0027dahn tradition, if I say so myself!",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSG02222_000_026",
+    "original": "You say, by circulating these flyers, you hope to grow the Songbirds\u0027 name? My apologies but I strain to find the appeal of such frivolities as singing and dancing. The little delight, however, is something I can appreciate.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSG02222_000_036",
+    "original": "Ah, yes, a Songbirds flyer, is it? I can only imagine how difficult it must be for budding young stars to fully blossom, with memories of Ul\u0027dah\u0027s legendary songstress looming over them. I might attend and show some support, should I happen to find myself in the area.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSG02222_000_046",
+    "original": "Of all the things, I would say it was your persistence that won me over. While I had thought F\u0027lhaminn would remain the undisputed Songstress of Ul\u0027dah for a long time to come, the Songbirds have convinced me that there is room enough in this city\u003Chex:021F0103\u003Estate for...shall we say, \u003Chex:021A020203\u003Ecomparable\u003Chex:021A020103\u003E talent.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSH02222_000_017",
+    "original": "My daughter has me rushing about town to fill her never-ending list of orders for Little Ladies\u0027 Day. My goodness! Girls her age are nigh impossible to please!",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSH02222_000_027",
+    "original": "Oh, what a fine little rice cake! If all else scheduled for Little Ladies\u0027 Day fails, this at least will put a smile on her lips. I\u0027ll leave it wrapped in the flyer, but I doubt she\u0027ll bother to look.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSH02222_000_037",
+    "original": "Oh, the gods know I can\u0027t say no to you or your tasty treats! My daughter absolutely loved the last one and that wasn\u0027t the only thing\u2500the Songbirds have found themselves a fan in my little girl!",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_FESPDY202_02222_RESIDENTSH02222_000_047",
+    "original": "Oh, it\u0027s you again! Day and night my daughter speaks of how she\u0027s going to be just like Narumi when she\u0027s older. Gods have mercy! No matter how many times I tell her singing and dancing won\u0027t put food on the table, she refuses to see reason.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_FESPDY202_02222_CHAMBERLAIN02222_000_050",
+    "original": "Already I can hear the city buzzing with excitement in anticipation of our next performance! You\u0027ve certainly earned yourself a nice long break. The girls are taking a quick recess, and I\u0027m sure they\u0027d be delighted if you decided to join them.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_FESPDY202_02222_Q1_000_000",
+    "original": "Would you like to visit with the Songbirds?",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_FESPDY202_02222_A1_000_001",
+    "original": "Yes.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_FESPDY202_02222_A1_000_002",
+    "original": "No.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_051",
+    "original": "Oh, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, we were also handing out flyers, but it was \u003Chex:021A020203\u003Emiserable\u003Chex:021A020103\u003E! Most passersby would brush straight past us without so much as a glance!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_052",
+    "original": "We may be invisible now, Narumi, but give it a bit more time. Soon the crowds will be chanting \u201COoh la la, Ulala.\u201D After that, we\u0027ll be able to forget we ever even had need for flyers!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_053",
+    "original": "Ulala\u0027s got it \u003Chex:021A020203\u003Emostly\u003Chex:021A020103\u003E right. We cannot allow a few dismissive shrugs and smiles to deter us. Fear not, Narumi. We shall conquer Ul\u0027dah, one fan at a time, if that\u0027s what it takes!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_054",
+    "original": "Oh, girls, I\u0027m sorry for complaining! You\u0027re completely right\u2500I can\u0027t allow myself to be so easily discouraged.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_055",
+    "original": "There\u0027s no need to apologize. You know we\u0027re always here for you if you ever need us. Now, let\u0027s make our way back onto the streets and win ourselves some new fans!",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_060",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, your hard work is always appreciated. Sadly, while people seem to be a lot more willing to accept and even read through our flyers, we\u0027ve found that they still hesitate to come to our shows.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_061",
+    "original": "Maybe handing out flyers and sweets alone is not enough to attract a crowd. We\u0027ve been focusing so hard on making people take our handouts that we\u0027ve neglected to practice our singing and dancing.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_062",
+    "original": "Oooh, don\u0027t tell me you want to do that \u003Chex:021A020203\u003Enow\u003Chex:021A020103\u003E. My bones creak with exhaustion even as we speak. Can\u0027t we do that after I\u0027ve taken a nice long rest?",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_063",
+    "original": "Giving up already, Ulala? What happened to wanting to become Eorzea\u0027s number one songstress?",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_064",
+    "original": "P\u003Chex:021F0103\u003EPfft! I...I was only joking about taking a break, of course. Why, I\u0027m so full of energy I feel as though I could dance and sing all day.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_070",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E! How was it? Things could certainly have gone better for us. \u003Csniff\u003E It would seem even my charm has its limits.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_071",
+    "original": "Yes, it was quite disappointing. Despite managing to gather together a small crowd, not a single person remained for longer than a few moments. I fear that mayhap even the average street performers of Ul\u0027dah surpass us in skill.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_072",
+    "original": "I\u003Chex:021F0103\u003EIt\u0027s true, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I\u003Chex:021F0103\u003EI\u0027m so afraid we\u0027ll end up naught but failures, left to wither away on the streets with the peach blossoms at festival\u0027s end.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_073",
+    "original": "Well, all this whining certainly isn\u0027t going to accomplish anything! If you two have time to mope, then you should also have the time to pick yourselves back up, look to the skies, and reach for the stars!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_074",
+    "original": "\u003Csigh\u003E While Ulala should be the last person to accuse anyone of whining, she is once again, correct. So long as we practice, practice, and practice some more, there is no obstacle too great!",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_080",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, we finally have some good news! People have started passing by our stage in droves, more often than not with flyers in hand! It\u0027s hard to say for certain, but I think our audience may be growing, as well! ...Don\u0027t you two think so?",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_081",
+    "original": "Oh, yes! I\u0027ve seen it too! Our flyers appear to be doing the trick!",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_082",
+    "original": "Ha ha ha! And no doubt the song-starved masses, captivated by my boundless charm, will keep coming back for more!",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_083",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, our newfound success has even convinced the royal seneschal to buy us new costumes! We\u0027re finally starting to look like the top-tier songstresses that we strive to become, and we owe it all to the many people who have and continue to support us from behind the scenes.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_084",
+    "original": "Which is why we would like to properly thank you once again for your tireless efforts!",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_090",
+    "original": "You\u0027re here, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! There\u0027s something we want to tell you before anyone else has the chance. Some of our most enthusiastic fans have banded together to form the Birdwatchers. Can you believe it?",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_091",
+    "original": "Indeed. We\u0027ve come to recognize certain faces\u2500people in the crowd who attend every one of our shows. Some even come bearing gifts or signs!",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_092",
+    "original": "You should have seen the wild look in the eyes of some of the girls that came to our last few performances. Like spriggans transfixed by the most exquisite of gems, they simply couldn\u0027t tear their gaze away from me!",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_093",
+    "original": "...As I recall, those were the selfsame people holding \u201CWe Love You, Narumi!\u201D banners, were they not?",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_094",
+    "original": "L\u003Chex:021F0103\u003ELies, Masha! People are attracted to the flaming passion that burns within me and maybe one day\u2500just like those girls\u2500you\u0027ll come to see it, too!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_100",
+    "original": "Tee hee hee, you\u0027re here, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Tell me, is it a crime to be this happy? Our dancing and singing has improved so much that soon F\u0027lhaminn will be but a memory to the people of Ul\u0027dah!",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_101",
+    "original": "While I wouldn\u0027t go so far as to say \u003Chex:021A020203\u003Ethat\u003Chex:021A020103\u003E, I feel very confident in the steady progress we have been making. Narumi\u0027s dancing especially has become so natural I might have need to redouble my efforts for fear of falling behind.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_102",
+    "original": "\u003Chex:021A020203\u003EYou\u003Chex:021A020103\u003E need to? I can barely keep up as it is!",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_103",
+    "original": "There are times I still struggle to hit the high notes for some of our songs, but so long as we\u0027re willing to work to improve, our shortcomings are nothing to be ashamed of, Narumi.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_104",
+    "original": "You both have my sympathies, but as I\u0027ve already mastered singing and dancing, the only thing left for me to do is learn to better channel my natural charm!",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_110",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, listen to this! I\u0027m so happy I can\u0027t stop shaking.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_111",
+    "original": "What\u0027s gotten into you? I don\u0027t think I\u0027ve ever seen you this excited before.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_112",
+    "original": "A nickname, Masha! The fans\u2500they gave me a nickname! It just goes to show how much they love me. Now there\u0027s no denying it. I\u0027m truly a star!",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_113",
+    "original": "Congratulations, Ulala. Though, I believe Narumi\u0027s been referred to by fans as Goldengale for quite some time now.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_115",
+    "original": "I\u003Chex:021F0103\u003EI\u0027m so sorry, Ulala! I think the name the fans gave you is just as pretty. Redcap, was it?",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_120",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, thanks to you, today\u0027s show was a success! I never thought I\u0027d perform in front of so many people! How can we ever repay you?",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_121",
+    "original": "Indeed...it\u0027s almost comical to think much of that success can be attributed to you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, helping us hand out sweetcakes. Our current level of popularity is something that could never have been attained without people like you.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_122",
+    "original": "More than that, it is my fans we must thank for coming to our performances! Though, I\u0027m far from satisfied. This is only the beginning! We\u0027re not stopping until we\u0027re the best in Eorzea.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_123",
+    "original": "Th\u003Chex:021F0103\u003EThe best in Eorzea!? Wow, Ulala, do you truly think it can happen?",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_124",
+    "original": "Think it can happen? I \u003Chex:021A020203\u003Eknow\u003Chex:021A020103\u003E it will happen. You\u0027ve heard the lecture before. As \u003Chex:021A020203\u003Esomeone\u003Chex:021A020103\u003E never fails to remind us, the key to success is practice, practice, and more practice!",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_FESPDY202_02222_Q2_000_000",
+    "original": "Who would you like to speak with?",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_FESPDY202_02222_A2_000_001",
+    "original": "Ulala.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_FESPDY202_02222_A2_000_002",
+    "original": "Narumi.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_FESPDY202_02222_A2_000_003",
+    "original": "Masha.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_FESPDY202_02222_A2_000_004",
+    "original": "No one.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_FESPDY202_02222_Q3_000_000",
+    "original": "What would you like to ask?",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_FESPDY202_02222_A3_000_001",
+    "original": "How did you become a Songbird?",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_FESPDY202_02222_A3_000_002",
+    "original": "What are your interests?",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_FESPDY202_02222_A3_000_003",
+    "original": "Tell me something about your family.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_FESPDY202_02222_A3_000_004",
+    "original": "What are your aspirations for the future?",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_FESPDY202_02222_A3_000_005",
+    "original": "Cancel.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_FESPDY202_02222_A3_000_006",
+    "original": "(Locked) What are your interests?",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_FESPDY202_02222_A3_000_007",
+    "original": "(Locked) Tell me something about your family.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_FESPDY202_02222_A3_000_008",
+    "original": "(Locked) What are your aspirations for the future?",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_FESPDY202_02222_SYSTEM_100_130",
+    "original": "To access this content, you must first help the Songbirds gain recognition from the citizens of Ul\u0027dah. These answers will continue to unlock as the girls become more popular.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_FESPDY202_02222_SYSTEM_200_130",
+    "original": "Complete the quest \u201CSugar, Spice, and Everything Rice\u201D as often as you like to help raise the Songbirds\u0027 popularity and make the Little Ladies\u0027 Day festival enjoyable for everyone!",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_130",
+    "original": "When I heard from a friend that the royal seneschal was looking to cast people for an ensemble of sorts, I promptly rushed over to the Sapphire Avenue Exchange to secure my place on the register!",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_131",
+    "original": "Honestly, what choice did I have? With my good looks and bell-like voice, I was born to be a star!",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_132",
+    "original": "While I was unable to find him on my first try, I set out for the Exchange every day thereafter and finally came across him on my tenth trip. It was all smooth sailing from there!",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_134",
+    "original": "My father is a merchant from the Far East and I accompanied him to Ul\u0027dah as his apprentice. It was during one of my routine runs to and from the marketplace that I encountered the royal seneschal.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_135",
+    "original": "Initially, I turned down his offer, but the more I thought about it, the more I realized that this was the perfect opportunity for me to overcome my bashfulness through the two things I love most\u2500singing and dancing!",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_136",
+    "original": "Being the traditional man that he is, my father was opposed to my decision. It took a while but I eventually managed to convince him to let me try my luck with the Little Ladies\u0027 Day festival. I think you already know what happened from there!",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_138",
+    "original": "My dance troupe and I would often perform in front of the Gate of the Sultana. One day, during an intermission, the royal seneschal approached me.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_139",
+    "original": "He praised me to the skies, saying I had great talent, and offered me a place with the Songbirds. I wasn\u0027t interested, but his honeyed words eventually won me over.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_140",
+    "original": "It was a real struggle in the beginning\u2500since singing isn\u0027t my strong suit\u2500but life is about the challenge! Nobody worth half their salt has gotten to where they are without pushing their limits...or so my mother always says.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_142",
+    "original": "It goes without saying that I love to sing and dance. Outside of that, I spend most of my free time reading... What? There\u0027s no need to look so astonished!",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_143",
+    "original": "Most recently, I read a transcription of one of the wandering minstrel\u0027s tales about a powerful black mage. A friend from the Ossuary recommended it to me. It was so interesting, I devoured it all in one sitting!",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_144",
+    "original": "As much as I enjoy reading, I also love spending time outdoors wandering the town! In fact, just the other night Masha, Narumi, and I went down to the Sapphire Avenue Exchange to browse the markets for tiny trinkets and shiny new accessories!",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_146",
+    "original": "A very good question, indeed! Well, for one, I love trying new foods! This may come as a surprise, but I have a fairly big appetite. Even now, Ulala refuses to believe how much I will eat!",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_147",
+    "original": "I know, I know, but no happiness beats that of a full stomach\u2500especially if you\u0027ve just had yourself a large helping of dhalmel gratin!",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_148",
+    "original": "What else? Obviously I love to sing, even when I\u0027m offstage. It\u0027s funny how easy it is to forget all your worries when you start humming a little tune! I suggest you try it the next time you\u0027re feeling glum.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_150",
+    "original": "Interests? There\u0027s nothing I love more than dancing, whether I\u0027m doing it myself or watching someone else. Even if they don\u0027t realize it, everyone has their own signature move and that\u0027s what makes it such a beautiful art!",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_151",
+    "original": "Maybe you\u0027ve heard but one of the most popular choreographists from the Gold Saucer will be releasing a book for the \u003Chex:021A020203\u003EBallroom Etiquette\u003Chex:021A020103\u003E series. Gah! I don\u0027t know how I\u0027ll pay for one, but I simply must get my hands on a copy!",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_152",
+    "original": "I suppose there\u0027s only one thing for me to do. It looks like I\u0027ll need to sneak my way into a \u201CThe Time of My Life\u201D event down at the Gold Saucer. If I can perform as well as last time, I should win enough MGP to both buy the book and have some left to spare!",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_154",
+    "original": "Seeing as I\u0027m small and have such a winsome smile, everyone often mistakes me for the baby of the family but I actually have a little brother. Aside from him, it\u0027s just me and my parents.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_100_154",
+    "original": "As my father always likes to tell anyone who will listen, he met my mother on a rainy evening when he was in Ul\u0027dah for work. It was love at first sight, and not long after that fateful day, church bells filled the air and they were married! Romantic, isn\u0027t it?",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_155",
+    "original": "I\u0027m a fairly versatile person, so even as a child I would always help out around the house by doing the cooking, cleaning, and sewing. Without me, I honestly don\u0027t know how my family would have managed!",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_156",
+    "original": "Why don\u0027t you visit us sometime? My parents always love having guests over!",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_158",
+    "original": "Aside from me, it\u0027s just my mother and father. Growing up as an only child could be lonely at times, so I\u0027m terribly jealous of Ulala and Masha.",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_159",
+    "original": "Being from the Far East, Father would always be forced to travel for work, often leaving me alone with Mother.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_160",
+    "original": "It was on my last nameday that my father decided I was old enough to begin accompanying him on his business excursions. Never had I thought that in traveling with him I\u0027d find a place on the stages of Ul\u0027dah!",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_162",
+    "original": "I grew up in a household as the third daughter of five. As you likely already know, we Keepers of the Moon are not raised with a father, so it was just my mother with us at home.",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_163",
+    "original": "Now, of course, I live on my own. After one of my older sisters moved to Ul\u0027dah, I decided to follow her example and leave the Black Shroud.",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_164",
+    "original": "It was only later I discovered she had run off with a man of debatable character, running an equally dubious business in the city. That said, I\u0027m not in any position to judge, as my current job isn\u0027t something most would consider \u201Cdecent work.\u201D",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_166",
+    "original": "Well, that\u0027s an obvious one, isn\u0027t it? My dream is to become the greatest singer in all of Eorzea\u2500nay\u2500the realm!",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_167",
+    "original": "Don\u0027t look at me like that! While this doesn\u0027t make anything I said earlier any less true, I will admit I\u0027m also actually quite satisfied with things as they are now.",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_168",
+    "original": "There really is nothing more I could ask for. Every day I move a step closer to becoming the singer I\u0027ve always wanted to be, with two of my best friends at my side. I suppose, in a way, that\u0027s the true dream.",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_170",
+    "original": "I\u0027d love to someday join a theater troupe...but I doubt anyone would ever take me on.",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_171",
+    "original": "Where I\u0027m from, we have a unique take on the art, and going to the theater to watch the productions that would be put on was one of my favorite things to do with my mother when I was younger.",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_172",
+    "original": "It\u0027s funny that the idea of acting appeals to me so much now because up until I joined the Songbirds, even the thought of standing center stage would have left me queasy!",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_174",
+    "original": "My dream? To win the hearts of the people through dance. While I\u0027ve currently pledged my loyalties to the Songbirds, I think I\u0027d like to one day see how far I\u0027d make it on my own.",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_175",
+    "original": "Dancing has the ability to move people and I\u0027d like to make them realize just how powerful a way to connect with the world it truly is.",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_176",
+    "original": "Who knows? Perhaps, I\u0027ll even publish my own books on the art of dance, which will one day surpass even the \u003Chex:021A020203\u003EBallroom Etiquette\u003Chex:021A020103\u003E series in popularity!",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_FESPDY202_02222_BUTLER_100_000",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_056",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_065",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_075",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_085",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_095",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_105",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_114",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_125",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_133",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_137",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_141",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_145",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "197": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_149",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "198": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_153",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "199": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_157",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "200": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_161",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "201": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_165",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "202": {
+    "tag": "TEXT_FESPDY202_02222_ULALA_000_169",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "203": {
+    "tag": "TEXT_FESPDY202_02222_NARUMI_000_173",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "204": {
+    "tag": "TEXT_FESPDY202_02222_MASHAMHAKARACCA_000_177",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  }
+}

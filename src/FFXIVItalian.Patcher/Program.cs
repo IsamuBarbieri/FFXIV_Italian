@@ -65,7 +65,7 @@ if (Directory.Exists(sqPackPath))
         });
 
         // 1. PATCH LOBBY (Schermata del Titolo e Creazione PG)
-        string lobbyJsonPath = Path.Combine(translationsDir, "lobby.json");
+        string lobbyJsonPath = TranslationPathResolver.FindFile(translationsDir, "lobby");
         var lobbyMulti = TranslationFileReader.LoadLobbyReplacements(lobbyJsonPath);
         if (lobbyMulti.Count > 0)
         {
@@ -86,7 +86,7 @@ if (Directory.Exists(sqPackPath))
         }
 
         // 2. PATCH ADDON (Popup di conferma, pulsanti e menu generali)
-        string addonJsonPath = Path.Combine(translationsDir, "addon.json");
+        string addonJsonPath = TranslationPathResolver.FindFile(translationsDir, "addon");
         var addonReplacements = TranslationFileReader.LoadReplacements(addonJsonPath);
         if (addonReplacements.Count > 0)
         {
@@ -106,7 +106,7 @@ if (Directory.Exists(sqPackPath))
             }
         }
         // 3. PATCH MAINCOMMANDCATEGORY (Le macro-categorie del menu principale)
-        string catJsonPath = Path.Combine(translationsDir, "maincommandcategory.json");
+        string catJsonPath = TranslationPathResolver.FindFile(translationsDir, "maincommandcategory");
         var catReplacements = TranslationFileReader.LoadReplacements(catJsonPath);
         if (catReplacements.Count > 0)
         {
@@ -127,7 +127,7 @@ if (Directory.Exists(sqPackPath))
         }
 
         // 4. PATCH MAINCOMMAND (I 100 comandi e descrizioni del menu principale)
-        string cmdJsonPath = Path.Combine(translationsDir, "maincommand.json");
+        string cmdJsonPath = TranslationPathResolver.FindFile(translationsDir, "maincommand");
         var cmdReplacements = TranslationFileReader.LoadTwoStringReplacements(cmdJsonPath);
         if (cmdReplacements.Count > 0)
         {
@@ -149,7 +149,7 @@ if (Directory.Exists(sqPackPath))
         }
 
         // 5. PATCH ERROR (Messaggi di connessione, server, coda e lobby)
-        string errJsonPath = Path.Combine(translationsDir, "error.json");
+        string errJsonPath = TranslationPathResolver.FindFile(translationsDir, "error");
         var errReplacements = TranslationFileReader.LoadReplacements(errJsonPath);
         if (errReplacements.Count > 0)
         {
@@ -170,7 +170,7 @@ if (Directory.Exists(sqPackPath))
         }
 
         // 6. PATCH CLASSJOB (Nomi di classi e job, inclusa la schermata di selezione personaggio)
-        string classJobJsonPath = Path.Combine(translationsDir, "classjob.json");
+        string classJobJsonPath = TranslationPathResolver.FindFile(translationsDir, "classjob");
         var classJobReplacements = TranslationFileReader.LoadReplacements(classJobJsonPath);
         if (classJobReplacements.Count > 0)
         {
@@ -195,7 +195,7 @@ if (Directory.Exists(sqPackPath))
         }
 
         // 7. PATCH PLACENAME (Nomi dei luoghi e zone, inclusa la schermata di selezione personaggio)
-        string placeJsonPath = Path.Combine(translationsDir, "placename.json");
+        string placeJsonPath = TranslationPathResolver.FindFile(translationsDir, "placename");
         var placeReplacements = TranslationFileReader.LoadReplacements(placeJsonPath);
         if (placeReplacements.Count > 0)
         {
@@ -226,7 +226,7 @@ if (Directory.Exists(sqPackPath))
 }
 
 // 8. PATCH TRIBE (Nomi dei clan maschile/femminile - schermata di creazione PG)
-string tribeJsonPath = Path.Combine(translationsDir, "tribe.json");
+string tribeJsonPath = TranslationPathResolver.FindFile(translationsDir, "tribe");
 var tribeReplacements = TranslationFileReader.LoadTwoColumnNameReplacements(tribeJsonPath);
 if (tribeReplacements.Count > 0 && Directory.Exists(sqPackPath))
 {
@@ -253,7 +253,7 @@ if (tribeReplacements.Count > 0 && Directory.Exists(sqPackPath))
 }
 
 // 9. PATCH RACE (Nomi delle razze maschile/femminile - schermata di creazione PG)
-string raceJsonPath = Path.Combine(translationsDir, "race.json");
+string raceJsonPath = TranslationPathResolver.FindFile(translationsDir, "race");
 var raceReplacements = TranslationFileReader.LoadTwoColumnNameReplacements(raceJsonPath);
 if (raceReplacements.Count > 0 && Directory.Exists(sqPackPath))
 {
@@ -276,6 +276,71 @@ if (raceReplacements.Count > 0 && Directory.Exists(sqPackPath))
 
         fileMap["exd/race_0_en.exd"] = patchedRaceExd;
         Console.WriteLine($"  * 'exd/race_0_en.exd' rigenerato ({patchedRaceExd.Length:N0} byte).");
+    }
+}
+
+// 10. PATCH TRANSLATED QUESTS (se presenti in data/translations/quests/)
+string questsDir = Path.Combine(translationsDir, "quests");
+if (Directory.Exists(questsDir) && Directory.Exists(sqPackPath))
+{
+    var luminaQuest = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    int patchedQuests = 0;
+
+    foreach (var qFile in Directory.GetFiles(questsDir, "*.json", SearchOption.AllDirectories))
+    {
+        try
+        {
+            var content = File.ReadAllText(qFile);
+            using var doc = System.Text.Json.JsonDocument.Parse(content);
+            var replacements = new Dictionary<uint, (string Tag, string Text)>();
+
+            foreach (var prop in doc.RootElement.EnumerateObject())
+            {
+                if (!uint.TryParse(prop.Name, out uint rowId)) continue;
+                if (prop.Value.ValueKind != System.Text.Json.JsonValueKind.Object) continue;
+
+                var obj = prop.Value;
+                string tag = obj.TryGetProperty("tag", out var tp) ? tp.GetString() ?? "" : "";
+                string orig = obj.TryGetProperty("original", out var op) ? op.GetString() ?? "" : "";
+                string trans = obj.TryGetProperty("translation", out var trp) ? trp.GetString() ?? "" : "";
+
+                if (!string.IsNullOrWhiteSpace(trans))
+                {
+                    replacements[rowId] = (tag, trans);
+                }
+            }
+
+            if (replacements.Count > 0)
+            {
+                string qName = Path.GetFileNameWithoutExtension(qFile);
+                var parentFolder = Directory.GetParent(qFile)?.Name; // e.g. 000
+                if (!string.IsNullOrEmpty(parentFolder))
+                {
+                    string exdGamePath = $"exd/quest/{parentFolder}/{qName.ToLowerInvariant()}_0_en.exd";
+                    var originalExd = luminaQuest.GetFile(exdGamePath);
+                    if (originalExd != null)
+                    {
+                        var dict = replacements.ToDictionary(k => k.Key, v => ((string?)v.Value.Tag, (string?)v.Value.Text));
+                        byte[] patchedQuestExd = ExdPatcher.PatchTwoStringSheet(
+                            originalExd.Data,
+                            fixedDataSize: 8,
+                            string1ColumnOffset: 0,
+                            string2ColumnOffset: 4,
+                            dict);
+
+                        fileMap[exdGamePath] = patchedQuestExd;
+                        patchedQuests++;
+                    }
+                }
+            }
+        }
+        catch { }
+    }
+
+    if (patchedQuests > 0)
+    {
+        Console.WriteLine();
+        Console.WriteLine($"[Quests] {patchedQuests} missioni con traduzioni patchate nel pacchetto Penumbra.");
     }
 }
 

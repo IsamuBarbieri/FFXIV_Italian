@@ -1,0 +1,672 @@
+{
+  "0": {
+    "tag": "TEXT_CHREND304_02364_SEQ_00",
+    "original": "A satisfied smirk steals across Briardien\u0027s face, as all the pieces of the puzzle fall into place.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_CHREND304_02364_SEQ_01",
+    "original": "Briardien\u0027s astute deductions lead you to a clear, if startling, conclusion: that the perpetrator of these crimes has been in front of you this whole time. All clues point to Lebrassoir de Bonfaurt being the culprit, but without evidence to support your suspicions, there is no way to absolve Archombadin of his perceived guilt. When all seems lost, Theomocent steps forth with a plan as to how he might obtain a confession from your suspect. He asks that you accompany him to Dzemael Manor, where both Archombadin and his fast friend have taken shelter.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_CHREND304_02364_SEQ_02",
+    "original": "Thanks to Theomocent\u0027s ingenious ploy, you manage to trick Lebrassoir into confessing to his crimes. He proudly reveals that, spurred by long-held grievances against House Dzemael, he was the one who set in motion the turmoil that has taken hold of the scholasticate. Funneling a portion of the Dzemael heir\u0027s inheritance towards financing Ulaa\u0027s kidnapping, he then stirred up the rumors that Archombadin was to blame, and distributed the letters to strike the proverbial final blow. Though you may have finally ascertained the truth, the hour of the hearing which will determine Archombadin\u0027s fate is at hand, and Theomocent fears that events might take a further twist. Quickly make your way to the deacon\u0027s quarters with Lebrassoir in tow, that the truth might be presented before the council and Archombadin cleared of the false charges.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_CHREND304_02364_SEQ_03",
+    "original": "Soon after Lebrassoir confesses to his crimes before the deacon and Father Saturnois, Briardien bursts in with Temple Knight guards at either side. Pointing his finger at the scholasticate priest, he tells you that it was Saturnois who manipulated Lebrassoir into carrying out his schemes and that he is not the man he claims to be. Having suffered for years isolated from the outside world, and forced to work for Her Holy Body of Decency as a watchman consigned to monitor the expurgators\u2500a terrible fate reserved solely for orphans who graduate from the scholasticate and enter the Holy See\u2500he had intended to create a scandal so large, the outrage it would spark in the community would force the scholasticate into closure. He believed the establishment\u0027s demise would right some of the wrongs committed against him and others like him. While Archombadin\u0027s name has been cleared and it is clear he will not be expelled, Saturnois\u0027 revelation causes the deacon to question if the school itself should remain open. At the behest of the students, however, she instead holds a public hearing and divulges to the people of Ishgard the terrible tragedy suffered by both expurgator and watchman. Having turned over a new leaf by speaking the truth, the residents of the scholasticate are hopeful that it will rekindle the people\u0027s faith in their institution.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_CHREND304_02364_SEQ_04",
+    "original": "Briardien bids you thanks along with all the students of the scholasticate and tells you he will be swinging by Ul\u0027dah to see someone special before moving on to solve his next mystery. While there is no doubt the students are sad to see the both of you go, they send you off with heartfelt good-byes and promise you that when you next return to Ishgard, they will have seen to it that the scholasticate has retaken its place as the nation\u0027s top establishment of higher learning.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_CHREND304_02364_TODO_00",
+    "original": "Speak with Archombadin.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_CHREND304_02364_TODO_01",
+    "original": "Speak with the scholasticate deacon.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_CHREND304_02364_TODO_02",
+    "original": "Speak with Theomocent in Saint Reymanaud\u0027s Cathedral.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_000",
+    "original": "I think I missed something. Who exactly are we going after?",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_CHREND304_02364_LEIGH_000_000",
+    "original": "I can see the connection, but how does this help us deduce the identity of the perpetrator?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_CHREND304_02364_CRAMMEVOIX_000_000",
+    "original": "Inspector Briardien truly is amazing! Why, he\u0027s cracked the case with little more than scattered scraps of evidence\u2500literally!",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_CHREND304_02364_BRIARDIEN_000_000",
+    "original": "Before we begin pursuing our man in earnest, answer me this: can any of you tell me where Ulaa\u0027s copy of volume eleven currently is?",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_CHREND304_02364_LEIGH_000_001",
+    "original": "The letters say it was found in Archombadin\u0027s room. Though, for all we know, that could be complete and utter bollocks...",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_CHREND304_02364_BRIARDIEN_000_002",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, I see you\u0027ve managed to keep your word to Lebrassoir. Very good.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_CHREND304_02364_BRIARDIEN_000_003",
+    "original": "Allow me to enlighten the rest of you. The tome is currently in my possession. Lebrassoir discovered it in Archombadin\u0027s room and turned it over to us in secret for fear it would fuel the ongoing rumors.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_CHREND304_02364_BRIARDIEN_100_003",
+    "original": "Now knowing what you do, it is time to put your minds to the test. What do you surmise is the relationship between our talented writer friend and the thief that lifted the book from Ulaa\u0027s quarters?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_CHREND304_02364_Q1_100_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_CHREND304_02364_A1_100_001",
+    "original": "They are one and the same!",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_CHREND304_02364_A1_100_002",
+    "original": "They must be accomplices!",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_CHREND304_02364_A1_100_003",
+    "original": "They\u0027re not related in the slightest!",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_CHREND304_02364_A1_100_004",
+    "original": "...",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_CHREND304_02364_BRIARDIEN_101_003",
+    "original": "...A sensible deduction. The planting of the book in Archombadin\u0027s quarters and the subsequent distribution of these letters were both carried out to a common end: to implicate the prefect in Ulaa\u0027s abduction and force his expulsion. It would stand to reason that the perpetrators are either working in tandem or, in fact, are one and the same.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_CHREND304_02364_BRIARDIEN_102_003",
+    "original": "While that, in itself, does not reveal the identity of the culprit, it does lead us to our next question: who would have been able to enter and exit Ulaa\u0027s room unnoticed?",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_CHREND304_02364_BRIARDIEN_103_003",
+    "original": "It seems you\u0027ve missed the obvious. If you were to take a moment and work through the facts, you would have noticed the motivation behind the stolen book and letters is the same.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_CHREND304_02364_BRIARDIEN_104_003",
+    "original": "It would stand to reason that the perpetrators are either working in tandem or, in fact, are one and the same. Which leads us to our next question: who would have been able to enter and exit Ulaa\u0027s room unnoticed?",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_CHREND304_02364_BRIARDIEN_000_004",
+    "original": "The perpetrator was able to move quickly and not draw attention to themselves in the act, leading me to believe our book-snatcher had easy access to all rooms within the dormitory. How, you might ask? Keys\u2500something only three people currently possess: Father Saturnois and the prefects Archombadin and Lebrassoir.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_CHREND304_02364_LEIGH_000_005",
+    "original": "So one of them is the culprit? But...which could it be?",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_CHREND304_02364_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_CHREND304_02364_A1_000_001",
+    "original": "It must have been Archombadin!",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_CHREND304_02364_A1_000_002",
+    "original": "It must have been Lebrassoir!",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_CHREND304_02364_A1_000_003",
+    "original": "It \u003Chex:021A020203\u003Ecouldn\u0027t\u003Chex:021A020103\u003E be...",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_CHREND304_02364_LEIGH_000_006",
+    "original": "Aha! I knew it was him all along! That explains why he was so adamant in refusing our help!",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_007",
+    "original": "But what sense is there in him stealing the book when the only thing it would serve to do is implicate him in a crime he may not have even committed?",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_CHREND304_02364_CRAMMEVOIX_000_008",
+    "original": "Then that leaves Lebrassoir. But as Archombadin\u0027s closest friend, what possible motive could \u003Chex:021A020203\u003Ehe\u003Chex:021A020103\u003E have?",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_009",
+    "original": "On the contrary, he is a prime suspect, as he is the only person besides \u003Chex:022C0DFF07022903EB0203FF02200203\u003E and the inspector here to have come in contact with the book. Of course, this is but speculation...",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_CHREND304_02364_LEIGH_000_010",
+    "original": "Lebrassoir, you say!? But he\u0027s Archombadin\u0027s closest confidant!",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_011",
+    "original": "As he is the only person besides \u003Chex:022C0DFF07022903EB0203FF02200203\u003E and the inspector here to have come in contact with the book, I\u0027d say he is a prime suspect. Of course, this is but speculation...",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_CHREND304_02364_LEIGH_000_012",
+    "original": "I know! It was Archombadin! Think about it\u2500it explains why he was so adamant in refusing our help!",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_013",
+    "original": "But what sense is there in him stealing the book when the only thing it would serve to do is implicate him in a crime he may not have even committed?",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_CHREND304_02364_CRAMMEVOIX_000_014",
+    "original": "Then that leaves Lebrassoir. As the only other person aside from the inspector and \u003Chex:022C0DFF07022903EB0203FF02200203\u003E who came into contact with the book, I\u0027d say he\u0027s a prime suspect.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_015",
+    "original": "It certainly is suspicious, but what motive could \u003Chex:021A020203\u003Ehe\u003Chex:021A020103\u003E possibly have? \u003Csigh\u003E If only there was a way we could glean the answer...",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_016",
+    "original": "...\u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I hear that you possess a great gift\u2500one which you employed to reveal long-hidden truths about our nation. Might you not be able to use this power to shine some light on the matter at hand?",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_017",
+    "original": "So it is not yours to control. \u003Csigh\u003E I guess that means we\u0027ll have need to rely on our own wits to obtain the answers we seek.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_018",
+    "original": "Fortunately, I have an idea of my own, but I\u0027ll need your help to see it through.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_CHREND304_02364_CRAMMEVOIX_000_019",
+    "original": "Well then, Theo, let us put this idea of yours into action. Last I heard Archombadin and Lebrassoir have taken refuge in Dzemael Manor. Let\u0027s make our way there posthaste.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_CHREND304_02364_BRIARDIEN_000_020",
+    "original": "I\u0027ll leave it to you to see that the bumblings of those three do not interfere with the final stage of my investigation at the Vault.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_CHREND304_02364_BRIARDIEN_000_021",
+    "original": "But do not tarry long. With Father Saturnois throwing his full support behind the petition, Archombadin has but a few bells before his name is permanently struck from the registry.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_CHREND304_02364_BRIARDIEN_000_022",
+    "original": "I shall do what I can to see that the proceedings are delayed, but I cannot guarantee it will buy us all the time we need. Godsspeed, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I\u0027ll see you at the hearing.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_029",
+    "original": "Looks like they\u0027re at it again... What are we to do...?",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_CHREND304_02364_LEIGH_000_029",
+    "original": "Again!? I wouldn\u0027t take this kind of treatment sitting down!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_CHREND304_02364_CRAMMEVOIX_000_029",
+    "original": "Whatever Theo\u0027s brilliant plan is, I certainly hope he took \u003Chex:021A020203\u003Ethis\u003Chex:021A020103\u003E into account.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_CHREND304_02364_LEBRASSOIR_000_029",
+    "original": "As you can see, Archombadin and I are, ah...discussing important matters at the moment. If you have something to report, pray return later.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_CHREND304_02364_ARCHOMBADIN_000_030",
+    "original": "Findings? Ha! As if anything you four managed to dig up can help me now. The hearing is about to begin\u2500my fate is as good as sealed!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_031",
+    "original": "There\u0027s still time, Archombadin! Earlier you pledged your innocence to us. Let us pledge it once more\u2500at the hearing, before one and all. The truth shall speak for itself!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_CHREND304_02364_ARCHOMBADIN_000_032",
+    "original": "The \u003Chex:021A020203\u003Etruth\u003Chex:021A020103\u003E? You expect those fools to see the \u003Chex:021A020203\u003Etruth\u003Chex:021A020103\u003E when this...this \u003Chex:021A020203\u003Eevidence\u003Chex:021A020103\u003E to the contrary is staring them in the face! How do you think this plan your pea-sized minds have concocted will succeed where all Lebrassoir\u0027s best attempts have failed!?",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_033",
+    "original": "We \u003Chex:021A020203\u003Ewill\u003Chex:021A020103\u003E succeed, Archombadin! For it is not just I that stands with you, but the hero who brought to light the truth behind our very nation! Yes, there is \u003Chex:021A020203\u003Enothing\u003Chex:021A020103\u003E that \u003Chex:02080CE905FF04736865FF03686503\u003E has not seen.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_034",
+    "original": "Surely \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E understand the implications of this. Don\u0027t you...Lebrassoir?",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_CHREND304_02364_LEBRASSOIR_000_035",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E has the ability to peer into events of the past. Indeed, it was through \u003Chex:02080DE905FF04686572FF0468697303\u003E visions that Ishgard\u0027s true origins were brought to light.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_CHREND304_02364_LEBRASSOIR_000_036",
+    "original": "Heh...you need say no more. \u003Chex:02080CE905FF04536865FF03486503\u003E has already used \u003Chex:02080DE905FF04686572FF0468697303\u003E vaunted power to see that \u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E was the one behind it all!",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_CHREND304_02364_LEBRASSOIR_100_036",
+    "original": "Yes, it was \u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E that kidnapped Ulaa. It was \u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E that snuck into her room and stole volume eleven. And it was \u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E that distributed the letters\u2500all so that I might implicate Archombadin.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_CHREND304_02364_LEBRASSOIR_000_037",
+    "original": "How satisfying it is to finally be able to say it aloud! For so long I have had to plot my revenge in silence, and mask my hatred of you with hollow praise and bashful smiles.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_CHREND304_02364_ARCHOMBADIN_000_038",
+    "original": "Lebrassoir! Wh-What madness is this you speak!?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_CHREND304_02364_LEBRASSOIR_000_039",
+    "original": "You truly are oblivious, aren\u0027t you? Then allow me to enlighten you! After all the transgressions your family has committed against mine, did you truly think I would remain loyal to \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E?",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_CHREND304_02364_LEBRASSOIR_000_040",
+    "original": "For centuries your house has humiliated us. It was something we\u0027d come to accept, but when the wall between the nobility and the common class came tumbling down, we were met with the most harrowing truth of all: that all our suffering had been for naught!",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_CHREND304_02364_LEBRASSOIR_000_041",
+    "original": "Everything we grew up believing about our status was a fabrication, tall tales spun to keep us complacent. In reality, you\u0027re no better than the two Brume rats beside you! You never were! It was a terrible realization, but one that also gave me hope\u2500hope that you could be taken down just as any other.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_CHREND304_02364_LEBRASSOIR_000_042",
+    "original": "That\u0027s when I began plotting. Ulaa\u0027s abduction, the letters and the rumors they spurred\u2500all was part of my master plan! To bring shame and dishonor on you and your family, as you have mine.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_CHREND304_02364_LEBRASSOIR_100_042",
+    "original": "I have staked everything\u2500yes, even my very freedom! But it was worth it to give you a taste of our pain! Bahahaha!",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_CHREND304_02364_LEBRASSOIR_000_043",
+    "original": "What\u0027s more, I bribed the two kidnappers into abducting Ulaa with money from your purse! And having entrusted the management of your finances to me, you never suspected a thing!",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_044",
+    "original": "Lebrassoir. I can only imagine the pain you have endured, but to seek revenge in this way...! Nevertheless, I thank you for confessing to your crimes. Now we can absolve Archombadin of the false charges brought against him.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_CHREND304_02364_LEBRASSOIR_000_045",
+    "original": "W-Wait a minute! You mean that \u003Chex:021A020203\u003E\u003Chex:02080CE905FF04736865FF03686503\u003E\u003Chex:021A020103\u003E didn\u0027t actually see into the past!? Y-You deceived me!",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_CHREND304_02364_CRAMMEVOIX_000_046",
+    "original": "If you\u0027ll recall, Theo never explicitly said that \u003Chex:022C0DFF07022903EB0203FF02200203\u003E had a vision of what happened to Ulaa. He merely observed that \u003Chex:02080CE905FF04736865FF03686503\u003E possesses such an ability.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_047",
+    "original": "Truth be told, it is not even a power that can be controlled at will.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_CHREND304_02364_CRAMMEVOIX_000_048",
+    "original": "Now then, Archombadin, I suppose that\u0027s all the proof of innocence you\u0027ll need. Let\u0027s escort Lebrassoir to the hearing and have him repeat his most dramatic confession before the headmistress.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_CHREND304_02364_ARCHOMBADIN_000_049",
+    "original": "I never saw it... The hatred, I mean. H-How could I have been so blind? We\u0027ve been friends from childhood, and never for a moment did I question his loyalty...",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_CHREND304_02364_ARCHOMBADIN_000_050",
+    "original": "What a fool I was! However did I think I could stand at the forefront of our nation, when I was so oblivious to that which was happening under my very nose!?",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_051",
+    "original": "Archombadin, pray do not torture yourself so. Rather, open your heart and allow Halone\u0027s wisdom to set you free. Once you come to see Lebrassoir not only as your friend but as your peer, I promise that the both of you will find a way to mend any bonds that have been broken.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_CHREND304_02364_ARCHOMBADIN_000_052",
+    "original": "\u201COf the Fury\u0027s love will all men receive, and by the balance of Her spear will all be set free...\u201D You truly believe these words, don\u0027t you? You cling to them even when reality does all it can to prove you wrong. I suppose it is that unwavering faith that your friends find so...endearing.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_CHREND304_02364_ARCHOMBADIN_100_052",
+    "original": "Now then, it is time for me to put my own faith to the test, and face my fate head-on. May the Fury have mercy.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_CHREND304_02364_LEIGH_000_053",
+    "original": "So what are we waiting around here for? We\u0027ve a hearing to attend!",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_054",
+    "original": "I\u0027ll meet you two there. There is something I must confirm with the inspector first.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_100_054",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, I cannot shake the feeling that this affair runs far deeper than any of us could have imagined. If you would, please accompany Archombadin to his hearing and see to it that nothing goes awry in my absence.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_CHREND304_02364_ELVIANE_000_060",
+    "original": "I must say, Master Lebrassoir, that I am extremely disappointed. That anyone, much less a student of our upstanding establishment, would commit such atrocities...! I am truly at a loss for words.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_CHREND304_02364_SATURNOIS_000_061",
+    "original": "Headmistress Elviane, if I may. Do you not find the timing of these confessions to be incredibly convenient? It\u0027s as if Master Lebrassoir here has been coerced into admitting to crimes he himself didn\u0027t commit. Let us not rush to condemn a man who may very well be innocent.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_CHREND304_02364_SATURNOIS_000_062",
+    "original": "We must also keep in mind that this incident will have repercussions that extend beyond the scholasticate. Distrust of our church has never been so high.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_CHREND304_02364_SATURNOIS_000_063",
+    "original": "If we were to expel either one of our prefects, both of whom have strong ties to House Dzemael, we will lose any credibility our establishment still has in the eyes of the citizens.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_CHREND304_02364_SATURNOIS_000_064",
+    "original": "To this end, I would propose an alternative plan: we will make a full disclosure of this scandal to the public, together with an announcement that Saint Endalim\u0027s Scholasticate will be temporarily closed. It is past time we pushed for a full reformation of the school and its curriculum.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_CHREND304_02364_BRIARDIEN_000_065",
+    "original": "(-Incisive Voice-)And there it is...the confession I\u0027ve been waiting for!",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_CHREND304_02364_ELVIANE_000_066",
+    "original": "Confession...? Master Briardien! Explain yourself!",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_CHREND304_02364_BRIARDIEN_000_067",
+    "original": "From the start, I had my suspicions that someone was pulling strings behind the scenes\u2500someone who had secured a high enough position within the clergy to manipulate the students and the system. I pored through records, closely examining any who fit this description.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_CHREND304_02364_BRIARDIEN_000_068",
+    "original": "It was no easy task, but I finally found what I was searching for. And combined with the confession Theomocent obtained from Lebrassoir, I was able to uncover the true culprit...",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_CHREND304_02364_BRIARDIEN_000_069",
+    "original": "I speak of you, Saturnois! And I do not call you \u201CFather,\u201D for you are no priest! The documents admitting you into your current position were all forged.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_CHREND304_02364_BRIARDIEN_100_069",
+    "original": "\u003Chex:021A020203\u003EYou\u003Chex:021A020103\u003E manipulated Lebrassoir into carrying out what you yourself could not. You stirred up discord among the students, and fomented the people\u0027s distrust of the clergy in the hopes of creating an even greater rift between the people of Ishgard and the clergy...all in the hopes of seeing the scholasticate closed down once and for all.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_CHREND304_02364_CRAMMEVOIX_000_070",
+    "original": "B-But I don\u0027t understand. Why would Father Saturnois seek the ruin of the scholasticate?",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_CHREND304_02364_BRIARDIEN_000_071",
+    "original": "The answer to that would lie in his past. Over a decade ago, Saturnois graduated top of his class and was welcomed into the ranks of the Holy See. It was there, he was assigned work as an expurgator.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_CHREND304_02364_ELVIANE_000_072",
+    "original": "Expurgator? What are you taking about? In all my years serving the Holy See, I\u0027ve never heard of such a post.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_CHREND304_02364_SATURNOIS_000_073",
+    "original": "I would be more surprised if you had. Her Holy Body of Decency\u2500a sector that is comprised of a few select individuals\u2500is perhaps the best-kept of Ishgard\u0027s many secrets. Its existence is known only to a handful of people beside the archbishop himself.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_CHREND304_02364_SATURNOIS_000_074",
+    "original": "I am impressed, Master Briardien\u2500it would seem your reputation is well deserved. Though I must correct you on one account. I am no expurgator, but rather one of the so-called \u201Cwatchmen\u201D consigned to guard them.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_CHREND304_02364_SATURNOIS_000_075",
+    "original": "That said, we shared a similar fate. Both expurgator and watchman alike were struck from official records and confined in the bowels of the Holy See\u2500damned to live out our lives in the shadows as pallid husks of the men and women we could have been\u2500all so that someday we might fulfill one task.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_CHREND304_02364_SATURNOIS_000_076",
+    "original": "Where written records were deemed too dangerous, expurgators would serve as living documents, orally passing down our nation\u0027s greatest secrets. When the time came for the archbishop\u0027s successor to ascend the throne, we would briefly emerge from our isolation to pass from our mouths to their ears all we knew of Ishgard before sinking back into obscurity.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_CHREND304_02364_SATURNOIS_000_077",
+    "original": "Of course, no highborn man or woman would be condemned to this fate. No, this was a destiny reserved for commoners\u2500orphans with no ties to the world above.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_CHREND304_02364_LEIGH_000_078",
+    "original": "Seven hells... So if the truth hadn\u0027t come to light, Th-Theo and I...",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_CHREND304_02364_ELVIANE_000_079",
+    "original": "Men and women forced to sacrifice their own lives, that our nation\u0027s darkest secrets might be preserved forever unbeknownst to her people... I can scarce believe my ears!",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_080",
+    "original": "Father Saturnois. The friend you spoke of...",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_CHREND304_02364_SATURNOIS_000_081",
+    "original": "Yes...he was an expurgator. Such anguish did his duties cause him that he chose death over that wretched excuse for a life. And while a new era is upon us\u2500one that does not condemn the innocent to a life of despair for the sake of one man\u2500it does not undo the injustice of a thousand years!",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_CHREND304_02364_SATURNOIS_000_082",
+    "original": "It was to right the wrongs of the past that I escaped that foul dungeon and made my way back to the place where it all began. This twisted institution\u2500the place responsible for stealing the bright futures of young orphans\u2500needs to be closed down for good.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_CHREND304_02364_ELVIANE_000_083",
+    "original": "...Father Saturnois. Your actions are heinous, and I can in no way condone them. That said, if there is truth to what you say, perhaps it would be best for us to suspend all lessons until we can reach a consensus as to how we might proceed.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_084",
+    "original": "B-But Headmistress Elviane! Would not closing down the scholasticate be akin to evading our responsibility as men and women of the clergy.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_085",
+    "original": "It is our duty to speak the truth, not bury it. For too long the people have been fed naught but lies. It is time we took the initiative, and gave them reason to put their faith in us once more!",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_CHREND304_02364_ARCHOMBADIN_000_086",
+    "original": "I must agree with Theomocent.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_CHREND304_02364_ARCHOMBADIN_100_086",
+    "original": "As I have learned firsthand, we must take care never to abuse our power and privilege, lest we hurt the people closest to us. To keep silent would be to repeat the mistakes of our past.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_CHREND304_02364_ARCHOMBADIN_000_087",
+    "original": "The only way we can move forward is to take responsibility for our actions, and make an earnest effort to reach out to those we have wronged. While we may never receive forgiveness, at least we can attempt to atone for any anguish we may have caused those that did not deserve it.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_CHREND304_02364_ARCHOMBADIN_000_088",
+    "original": "If it is true that all men are born equal\u2500as I have heard so many in this room preach time and time again\u2500then all are entitled to know the truth. Let us lead by example, and freely share all that we have learned here today.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_089",
+    "original": "Father Saturnois, while I cannot pretend to understand your ordeal or soothe the fury that has taken hold in your heart, I can promise you one thing. I swear on Father Choisseau\u0027s copy of \u003Chex:021A020203\u003EThe Parables of Saint Daniffen\u003Chex:021A020103\u003E that not you, nor any of those who shared your fate will ever again be forgotten!",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_CHREND304_02364_SYSTEM_000_090",
+    "original": "Thus all was laid bare before the public\u2500the atrocities suffered by expurgator and watchman alike, along with the hand the scholasticate and the Holy See had in their terrible demise revealed to all of Ishgard by the deacon herself.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_CHREND304_02364_SYSTEM_000_091",
+    "original": "So it was that a new path was forged that day\u2500one that would see a renewed faith in the church and its teachings where the citizens would come to learn that all men should be regarded as equal not only in the eyes of Halone but also by one another.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_CHREND304_02364_LEIGH_000_095",
+    "original": "Theo is a born detective! He told me that he went to speak with the inspector because he thought it suspicious that Father Saturnois was pushing so hard to have Archombadin expelled. Sure enough, it turned out that he was the one pulling the strings all along!",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_CHREND304_02364_LEIGH_100_095",
+    "original": "While I\u0027m glad this ordeal is finally behind us, I cannot help but feel as though we lost one of our own. We share the same origins as Father Saturnois, and would have shared the same fate, had it not been for you...",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_097",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, thank you for restoring peace to the scholasticate. You have reminded us that there is a world beyond these doors that relies as much upon us as we do them.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_098",
+    "original": "You have opened our eyes and shown us that destiny is but the choices we make. If we are strong and persevere, I have no doubt we can rebuild the scholasticate and regain the people\u0027s trust.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_CHREND304_02364_LEIGH_000_099",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, now that your work here is done, I suppose the time for farewells is upon us. Will you be departing Ishgard immediately? It\u0027s sad to say farewell, but let\u0027s send you and the inspector off in style!",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_CHREND304_02364_BRIARDIEN_000_100",
+    "original": "Ah, there is my trusted associate. I feared I might not be able to bid you a proper farewell before I left. On behalf of my uncle, allow me to thank you for all your hard work.",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_CHREND304_02364_CRAMMEVOIX_000_101",
+    "original": "There\u0027s still so much fighting and bickering going on, couldn\u0027t you stay with us for just a bit longer?",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_CHREND304_02364_BRIARDIEN_000_102",
+    "original": "I fear that there are more pressing mysteries that demand my attention. Not to mention a certain young lady in Ul\u0027dah who awaits my return.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_103",
+    "original": "Oho! Another client of yours, I take it?",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_CHREND304_02364_LEIGH_000_104",
+    "original": "Theo, is your head screwed on backwards!? He\u0027s talking about his\u2500",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_CHREND304_02364_ARCHOMBADIN_000_105",
+    "original": "Tactless fools, the both of you! But I suppose you\u0027re nothing if not sincere...eh, Theo?",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_CHREND304_02364_ARCHOMBADIN_000_106",
+    "original": "And while I\u0027ll admit that naivety is one of your more endearing traits, combined with the blunderings of the idiot beside you, it\u0027s like as not to bring the scholasticate to ruin. That\u0027s why you\u0027ll need someone with extensive knowledge of the affairs of Ishgard\u2500and the proper connections to actually bring about the change you seek. Someone like me.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_CHREND304_02364_CRAMMEVOIX_000_107",
+    "original": "The words of a man looking to steal his way into our dear Theo\u0027s heart! Hahaha! Blaisie, Leigh, it seems you\u0027ve got competition.",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_CHREND304_02364_LEIGH_000_108",
+    "original": "The Fury take you all! Call me what you will, but Theo would never replace me with anyone\u2500much less a conniving snake like Archombadin!",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_109",
+    "original": "Hahaha! How refreshing it is to hear such playful banter among my friends! It would seem our worries are finally behind us. Before we celebrate, however, there is one last thing. Blaisie, I\u0027d like to thank you for your support. Were it not for your meticulous notes and sharp eyes, Ulaa would still be missing.",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_110",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, Inspector, words are not enough to express our gratitude. It was only because of you that we were able to unmask the perpetrator and restore peace to our school.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_111",
+    "original": "Just as Father Choisseau brought you to us in Gorgagne Mills, I cannot help but feel Halone guided you to us in our time of need. We hope to one day repay the kindness you have shown us by rebuilding the scholasticate.",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_CHREND304_02364_THEOMOCENT_000_112",
+    "original": "When next you visit, we hope she will have retaken her place as the nation\u0027s top establishment of higher learning, and once again serve to light the people\u0027s way back to the Halls of Halone!",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_CHREND304_02364_BRIARDIEN_000_113",
+    "original": "Our fair nation has seen her share of tragedy and turmoil, but I take heart in knowing that there are those such as yourself to watch over her, and see that she does not stray from her course. Till we meet again.",
+    "translation": ""
+  }
+}

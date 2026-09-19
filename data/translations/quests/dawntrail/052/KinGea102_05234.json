@@ -1,0 +1,812 @@
+{
+  "0": {
+    "tag": "TEXT_KINGEA102_05234_SEQ_00",
+    "original": "Prishe is almost definitely probably certain you are standing in Jeuno.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_KINGEA102_05234_SEQ_01",
+    "original": "Prishe appears to have returned to her normal self, but she has no memory of your prior altercation, nor can she remember who first brought her to Jeuno. For want of clues as to how and why you are arrived there, Prishe suggests speaking with the scant few denizens wandering about the city.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BIn the event that you leave Lower Jeuno, you may re-enter via the portal in Gok Draak Descent.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_KINGEA102_05234_SEQ_02",
+    "original": "With Prishe in tow, you set off in search of answers. She is hopeful at least one locale, a place called the Tenshodo, will prove an eventful destination.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BYou must be accompanied by Prishe to complete this task. Speak with her again should you become separated.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_KINGEA102_05234_SEQ_03",
+    "original": "Together you and Prishe speak with a number of residents, but much like the two of you, they all appear bewildered by the present state of affairs in Jeuno. Without other potential leads, you elect to return to Bakool Ja Ja.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_KINGEA102_05234_SEQ_04",
+    "original": "You return to Bakool Ja Ja with greater certainty that you are in Jeuno, but little else. The armor-clad wanderer arrives soon after by way of the portal, but is dismayed to hear that Prishe has no idea who he is. Even now he struggles to recall his own name, and so Bakool Ja Ja offers him one\u2500Alxaal. The group begins to talk in circles, and an exasperated Bakool Ja Ja cries out in frustration. Much to everyone\u0027s surprise, his cries are soon answered by none other than Sareel Ja.\u003Chex:02100103\u003E\u003Chex:02100103\u003EHe claims to be the architect behind the city and its denizens, using the power of echoes from a place beyond space and time. His goal is to create a new ruler for Tural, and perhaps even the world, by combining the strength of powerful entities from another world\u2500Vana\u0027diel. Sareel Ja\u0027s confidence in his plan is palpable as he vanishes into the aether, leaving behind a promise to return once further preparations are complete.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_KINGEA102_05234_SEQ_05",
+    "original": "You at last have answers, but not at all what you had hoped for. Prishe in particular appears stricken by Sareel Ja\u0027s revelations. The only pressing question now is when will Sareel Ja return, and will you be ready for him?",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_KINGEA102_05234_TODO_00",
+    "original": "Speak with Prishe and have her accompany you.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_KINGEA102_05234_TODO_01",
+    "original": "Gather information while Prishe is accompanying you.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_KINGEA102_05234_TODO_02",
+    "original": "Speak with Bakool Ja Ja while Prishe is accompanying you.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_KINGEA102_05234_TODO_03",
+    "original": "Speak with Bakool Ja Ja.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_001",
+    "original": "(-Bakool Ja Ja the Mighty-)Hopefully this girl can give us some answers.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_010",
+    "original": "What were your names again?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_011",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E. And...Bakool Ja Ja, right?",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_012",
+    "original": "You look like a Hume. More importantly, you look like the adventuring type.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_013",
+    "original": "You look like an Elvaan, like me. More importantly, you look like the adventuring type.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_014",
+    "original": "A Tarutaru. You \u003Chex:021A020203\u003Eare\u003Chex:021A020103\u003E a Tarutaru, aren\u0027t you? I\u0027d expect you to be...shorter.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_015",
+    "original": "You look like a Mithra. More importantly, you look like the adventuring type.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_016",
+    "original": "Wait... A \u003Chex:021A020203\u003Emale\u003Chex:021A020103\u003E Mithra!? Well, now I\u0027ve seen everything!",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_017",
+    "original": "You \u003Chex:021A020203\u003Elook\u003Chex:021A020103\u003E like a Galka, but where\u0027s your tail? Hacked off on some wild adventure, I bet.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_018",
+    "original": "I don\u0027t know where you\u0027re from, but I can tell I\u0027d love to visit. Can\u0027t say I\u0027ve ever seen anyone quite like you before.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_019",
+    "original": "(-Bakool Ja Ja the Mighty-)If you\u0027re done with the small talk, would you mind explaining why you attacked us?",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_020",
+    "original": "What in the world are you talking about?",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_021",
+    "original": "(-Bakool Ja Ja the Mystic-)Don\u0027t play the fool with us. You were spouting nonsense about us being \u201Ctauri,\u201D and nearly killed a man on your rampage.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_022",
+    "original": "Well, I do recall fighting tauri not long ago. To protect Ulmia.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_023",
+    "original": "(-Bakool Ja Ja the Mystic-)Ulmia...?",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_024",
+    "original": "(-Bakool Ja Ja the Mystic-)A friend of hers, you say? That\u0027s all well and good, but she was addressing Gulool Ja Ja\u0027s shade with that name.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_025",
+    "original": "(-Bakool Ja Ja the Mystic-)Hmmm... The incantations needed to summon it are said to be based on a much older magick, one capable of clouding people\u0027s minds. If our enemy is skilled enough to summon Gulool Ja Ja, it stands to reason such tricks are not beyond them.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_026",
+    "original": "(-Bakool Ja Ja the Mighty-)Meaning young Prishe here was likely tricked into believing the shade was this Ulmia person.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_027",
+    "original": "So it was all an illusion, then.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_028",
+    "original": "It\u0027s starting to come back to me. There was someone who warned me that a dear friend needed my protection.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_029",
+    "original": "He was blue like your left head, and he gave me these bizarre weapons.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_100_029",
+    "original": "(-Bakool Ja Ja the Mystic-)Blue like me?",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_030",
+    "original": "I usually fight with my fists, but didn\u0027t think twice to accept what they gave me. I suppose their magick\u0027s to blame.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_031",
+    "original": "In any case, I hope the real Ulmia hasn\u0027t been dragged into all this.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_032",
+    "original": "(-Bakool Ja Ja the Mystic-)Can you tell us anything about the one you thought was your Ulmia? Where they may be hiding, perhaps?",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_033",
+    "original": "Would that I could, but when I got here, I was all by my lonesome.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_034",
+    "original": "(-Bakool Ja Ja the Mystic-)Here being where, exactly?",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_035",
+    "original": "Jeuno. At least, I think this is Jeuno. There was never anything like that here before.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_037",
+    "original": "It\u0027s mostly empty, but there are a few people lingering about, if you know where to look. Maybe they can tell us something.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_038",
+    "original": "(-Bakool Ja Ja the Mystic-)Go with Prishe, and see what you can learn of this place and the whereabouts of that shade.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_100_038",
+    "original": "(-Bakool Ja Ja the Mystic-)We will remain here and keep watch on this rift.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_040",
+    "original": "(-Bakool Ja Ja the Mystic-)I sense something foul on the winds here. The sooner we leave this place, the better. ",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_100",
+    "original": "Right, then. Let\u0027s have a look around.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_101",
+    "original": "Oh, and we should probably stop by the Tenshodo as well. It\u0027s in the back of Neptune\u0027s Spire, across the way from the fountain.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_KINGEA102_05234_SYSTEM_000_102",
+    "original": "Prishe is now accompanying you. Keep her at your side in order to proceed with quest objectives.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_KINGEA102_05234_SYSTEM_000_103",
+    "original": "You can leave Prishe behind by entering a different area, or by speaking with her and selecting the option to part ways.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_KINGEA102_05234_SYSTEM_000_104",
+    "original": "If you wish to have Prishe accompany you again, return and speak with her at the original location.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_KINGEA102_05234_SYSTEM_000_200",
+    "original": "You must be accompanied by Prishe and have her at your side in order to proceed with quest objectives.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_KINGEA102_05234_SYSTEM_000_201",
+    "original": "Prishe has yet to arrive. Be sure she is at your side before attempting to continue.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_KINGEA102_05234_Q4_000_000",
+    "original": "What will you do?",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_KINGEA102_05234_A4_000_001",
+    "original": "Talk.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_KINGEA102_05234_A4_000_002",
+    "original": "Part ways.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_KINGEA102_05234_A4_000_003",
+    "original": "\u003Chex:024804F2022403\u003EDiscuss the shuttered windows.\u003Chex:0248020103\u003E",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_KINGEA102_05234_A4_000_004",
+    "original": "\u003Chex:024804F2022403\u003EDiscuss the barred door.\u003Chex:0248020103\u003E",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_KINGEA102_05234_A4_000_005",
+    "original": "Nothing.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_203",
+    "original": "I\u0027ve only visited Jeuno a handful of times, when I needed a place to lay low, and maybe to lick my wounds once or twice.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_204",
+    "original": "I always enjoyed my time here, though. Met quite a few interesting people along the way.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_KINGEA102_05234_Q5_000_000",
+    "original": "Are you sure you wish to part ways with your companion?",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_205",
+    "original": "Oh. Well, if you\u0027re busy, don\u0027t let me keep you. The big guy can keep me company until you return.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_206",
+    "original": "All set? Then let\u0027s get going!",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_207",
+    "original": "Adventurers gather from all corners of the world to buy and sell their spoils here. The taxes are a pain, but it\u0027s worth it for the wide selection. Just between you and me, though, I\u0027ve heard you can cut a good deal with merchants peddling their wares just outside of town.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_208",
+    "original": "But why is it closed? The auction house \u003Chex:021A020203\u003Enever\u003Chex:021A020103\u003E closes...",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_209",
+    "original": "Maybe they\u0027re waiting for things to return back to normal around here. Whenever they reopen, I suggest you stop by. Who knows, you may get lucky and find something waaay below market price.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_210",
+    "original": "What!? Why is this blocked off?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_211",
+    "original": "There are supposed to be stairs here leading up to the residential area.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_212",
+    "original": "\u003Csigh\u003E I swear, things get stranger here by the minute.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_KINGEA102_05234_VANAADVENTURER05234A_000_213",
+    "original": "Oh, good. I was hoping to run into you two.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_KINGEA102_05234_VANAADVENTURER05234A_000_214",
+    "original": "I don\u0027t wish to be overly forward, but why were you speaking with that Mamool Ja earlier? More importantly, what was it doing here?",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_KINGEA102_05234_VANAADVENTURER05234A_000_215",
+    "original": "They would never dare venture beyond the shores of Aradjiah, unless... My gods, has Gulool Ja Ja laid siege to Aht Urhgan? Is Jeuno next to fall!?",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_216",
+    "original": "I don\u0027t know anything about sieges or invasions, but that Mamool Ja over there is a friend of mine. There ain\u0027t nothing for you to worry about.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_217",
+    "original": "The poor man\u0027s probably more confused than we are about all this.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_KINGEA102_05234_VANAADVENTURER05234A_000_220",
+    "original": "I do hope Serpent General Aliapoh is all right...",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_KINGEA102_05234_VANAADVENTURER05234B_000_230",
+    "original": "\u003Chex:0209F20233E948FF4C57656C6C2C2077656C6C2C20492074686F756768742049206B6E657720616C6C207468652048756D65732077686F2074726176656C207468726F7567682068657265206F66206C6174652EFF4D57656C6C2C2077656C6C2C20492074686F756768742049206B6E657720616C6C2074686520456C7661616E2077686F2074726176656C207468726F7567682068657265206F66206C6174652EFF4F57656C6C2C2077656C6C2C20492074686F756768742049206B6E657720616C6C207468652054617275746172752077686F2074726176656C207468726F7567682068657265206F66206C6174652EFF4D57656C6C2C2077656C6C2C20492074686F756768742049206B6E657720616C6C20746865204D69746872612077686F2074726176656C207468726F7567682068657265206F66206C6174652EFF4C57656C6C2C2077656C6C2C20492074686F756768742049206B6E657720616C6C207468652047616C6B612077686F2074726176656C207468726F7567682068657265206F66206C6174652EFF38486D6D6D2E2043616E2774207361792049277665207365656E20796F757220736F72742061726F756E642068657265206265666F72652EFF38486D6D6D2E2043616E2774207361792049277665207365656E20796F757220736F72742061726F756E642068657265206265666F72652EFF38486D6D6D2E2043616E2774207361792049277665207365656E20796F757220736F72742061726F756E642068657265206265666F72652E03\u003E Where are you from, stranger?",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_KINGEA102_05234_VANAADVENTURER05234B_100_230",
+    "original": "Hmmm. Can\u0027t say I\u0027ve seen your sort around here before. Where are you from, stranger?",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_KINGEA102_05234_VANAADVENTURER05234B_000_231",
+    "original": "\u003Chex:020924E947FF0E4C696D7361204C6F6D696E7361FF0947726964616E6961FF07556C2764616803\u003E? Can\u0027t say I\u0027ve heard of it.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_KINGEA102_05234_VANAADVENTURER05234B_000_232",
+    "original": "Most folks passing through hail from San d\u0027Oria, Bastok, or Windurst.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_KINGEA102_05234_VANAADVENTURER05234B_000_233",
+    "original": "Considering the present state of Jeuno, though, seems strange is becoming a common occurrence.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_234",
+    "original": "I\u0027d be lying if I said I\u0027d heard of your homeland either, but that\u0027s not important right now. At times like this, we need to know who can be trusted.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_KINGEA102_05234_VANAADVENTURER05234B_000_235",
+    "original": "What sort of place is \u003Chex:020924E947FF0E4C696D7361204C6F6D696E7361FF0947726964616E6961FF07556C2764616803\u003E, anyway? Maybe I can visit someday.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_KINGEA102_05234_VANAADV05234C_000_240",
+    "original": "You\u0027re new to Jeuno, aren\u0027t you? I can tell by the way you were taking in the sights.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_KINGEA102_05234_VANAADV05234C_000_241",
+    "original": "The city was built upon Heavens Bridge, connecting the two great continents of Quon and Mindartia.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_KINGEA102_05234_VANAADV05234C_000_242",
+    "original": "You\u0027ll find there\u0027s an upper and lower level, a port, and the administrative plaza of Ru\u0027Lude Gardens.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_KINGEA102_05234_VANAADV05234C_000_243",
+    "original": "At least, you would have before. All ways in and out of Lower Jeuno appear to be blocked or cut off.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_244",
+    "original": "The situation here is worse than I thought.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_KINGEA102_05234_VANAADV05234C_000_245",
+    "original": "Even teleport and recall spells seem to have no effect. What do you suppose has trapped us here?",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_KINGEA102_05234_SYSTEM_000_250",
+    "original": "You press against the door, but it refuses to budge.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_251",
+    "original": "Won\u0027t open? \u003Csigh\u003E Then I guess we won\u0027t be meeting Aldo.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_252",
+    "original": "He\u0027s head of the Tenshodo. When the world\u0027s in danger, he\u0027s always there to lend me a hand.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_KINGEA102_05234_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_KINGEA102_05234_A2_000_001",
+    "original": "Reminds me of my friends\u2500the Scions.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_KINGEA102_05234_A2_000_002",
+    "original": "A shame I can\u0027t meet him.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_254",
+    "original": "Scions, eh? They sound like a competent lot. Unfortunately, we\u0027re on our own here...",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_255",
+    "original": "I\u0027m sure the two of you would have gotten along famously. Unfortunately, we\u0027re on our own here...",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_270",
+    "original": "Whatever\u0027s happening here, these people are just as bewildered as we are. We should go back and find Bakool Ja Ja. See if he\u0027s noticed anything.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_300",
+    "original": "(-Bakool Ja Ja the Mighty-)Returned at last. With answers, I hope.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_301",
+    "original": "(-Bakool Ja Ja the Mystic-)So we\u0027re truly in this \u201CJeuno,\u201D as she says.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_302",
+    "original": "(-Bakool Ja Ja the Mighty-)But I\u0027ve traveled all over Tural, and never heard of a \u201CJeuno\u201D or \u201CSan d\u0027Oria\u201D or any of those other places.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_303",
+    "original": "What in Altana\u0027s name is Tural? I thought all you Mamool Ja are from Aradjiah.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_KINGEA102_05234_ALXAAL_000_304",
+    "original": "(-Armor-clad Wanderer-)Prishe! You\u0027re all right!",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_KINGEA102_05234_ALXAAL_000_305",
+    "original": "(-Armor-clad Wanderer-)And she has you to thank, I\u0027m sure.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_306",
+    "original": "Uh, thanks for caring. I guess... And who are you, exactly?",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_KINGEA102_05234_Q3_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_KINGEA102_05234_A3_000_001",
+    "original": "I thought he was a friend of yours.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_KINGEA102_05234_A3_000_002",
+    "original": "He\u0027s the one who asked me to go and look for you.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_308",
+    "original": "What? I\u0027ve never seen him before in my life.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_309",
+    "original": "I appreciate the concern, but I\u0027ve never seen him before in my life.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_KINGEA102_05234_ALXAAL_000_310",
+    "original": "(-Armor-clad Wanderer-)How can you say such a thing!?",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_311",
+    "original": "I mean, you \u003Chex:021A020203\u003Edo\u003Chex:021A020103\u003E look like the sort I might know, but I\u0027m drawing a blank. What was the name, mister...?",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_KINGEA102_05234_ALXAAL_000_312",
+    "original": "(-Armor-clad Wanderer-)Ah, my name is... My name is...",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_313",
+    "original": "(-Bakool Ja Ja the Mighty-)You must be the one they found wounded in the Skydeep Cenote. Well, we have to call you \u003Chex:021A020203\u003Esomething\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_314",
+    "original": "(-Bakool Ja Ja the Mighty-)How about...Alxaal?",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_315",
+    "original": "(-Bakool Ja Ja the Mystic-)\u201CVagabond\u201D in the Mamool Ja tongue.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_316",
+    "original": "(-Bakool Ja Ja the Mystic-)Though it may be closer to \u201Cadventurer\u201D in \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u0027s Eorzean. Nicely chosen, Brother.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_KINGEA102_05234_ALXAAL_000_317",
+    "original": "That does have a rather nice ring to it. Alxaal it is.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_KINGEA102_05234_ALXAAL_000_318",
+    "original": "So, where are we, exactly?",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_319",
+    "original": "Jeuno. Or at least, a close approximation. Surely, you remember this place, don\u0027t you?",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_KINGEA102_05234_ALXAAL_000_320",
+    "original": "It does feel familiar.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_322",
+    "original": "(-Bakool Ja Ja the Mighty-)What\u0027s so special about this place, anyway? And where did that damn shade get off to? Bah, none of this makes any sense!",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_KINGEA102_05234_SAREELJA_000_400",
+    "original": "(-Familiar Voice-)My, my, what a vexing predicament.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_100_400",
+    "original": "Hey! That\u0027s the one that put me under a spell, I\u0027m sure of it!",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_401",
+    "original": "(-Bakool Ja Ja the Mighty-)So, the Boonewa sycophant yet lives. What are you doing here!?",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_KINGEA102_05234_SAREELJA_000_402",
+    "original": "As you\u0027ve found me in a generous mood, I thought I might enlighten you as to the nature of this place. That is why you\u0027ve come, isn\u0027t it?",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_KINGEA102_05234_SAREELJA_000_403",
+    "original": "The young lady is correct. This is the Grand Duchy of Jeuno.",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_KINGEA102_05234_ALXAAL_000_404",
+    "original": "So we really are in Jeuno. And yet something about it feels so...off.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_KINGEA102_05234_SAREELJA_000_405",
+    "original": "I never said this is the \u003Chex:021A020203\u003Ereal\u003Chex:021A020103\u003E one. It is an imitation\u2500a rather convincing one, I might add\u2500which I created based on visions of another world.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_406",
+    "original": "(-Bakool Ja Ja the Mystic-)\u003Chex:021A020203\u003EYou\u003Chex:021A020103\u003E built this?",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_KINGEA102_05234_SAREELJA_000_407",
+    "original": "That I did. While you and yours were holding the Dawnservants\u0027 coronation, Zoraal Ja and I ventured to the gate of the golden city.",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_KINGEA102_05234_SAREELJA_000_408",
+    "original": "Everything was proceeding as planned\u2500the gate\u0027s key was in our possession, the power to reshape the world within our grasp. Or so I thought.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_KINGEA102_05234_SAREELJA_000_409",
+    "original": "In the eyes of the Resilient Son, I was but a useless tool to be cast aside.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_KINGEA102_05234_SAREELJA_000_410",
+    "original": "By all rights, I should have died when he struck me down, but once the chamber was empty\u2500the gate still open\u2500I saw my chance.",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_KINGEA102_05234_SAREELJA_000_411",
+    "original": "What I found when I dragged myself across the threshold was an emptiness. A space beyond time. It was there in this dark expanse I beheld another world.",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_KINGEA102_05234_SAREELJA_000_412",
+    "original": "That world was called...Vana\u0027diel.",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_413",
+    "original": "What a load of rubbish. As if anyone would believe that everything and everyone here is little more than one of your toys.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_414",
+    "original": "He turned to stone!",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_KINGEA102_05234_SAREELJA_000_415",
+    "original": "As I said, everything you see here is of my creation.",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_KINGEA102_05234_SAREELJA_000_416",
+    "original": "Much like we fashioned a phantom of Gulool Ja Ja for the Feat of the Brotherhood, I was able to use our ceremonial tools to breathe life into my visions of Vana\u0027diel.",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_KINGEA102_05234_SAREELJA_000_417",
+    "original": "Under normal circumstances, my conjurings only have strength enough for a brief clash. With that stone, however, my magicks are capable of so much more.",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_418",
+    "original": "(-Bakool Ja Ja the Mystic-)Isn\u0027t that what Zoraal Ja used to build his army? Electrope, he called it.",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_KINGEA102_05234_SAREELJA_000_419",
+    "original": "Electrope, you say?",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_KINGEA102_05234_SAREELJA_000_420",
+    "original": "If you know its name, then I trust you also know these stones are possessed of immense power. Power enough for my creations to persist for as long as I please.",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_KINGEA102_05234_SAREELJA_000_421",
+    "original": "Fortunate, then, that that world between worlds was filled with structures made from electrope. More than I could ever hope for.",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_422",
+    "original": "Wait! If everything we see here\u2500everything we believed was from Vana\u0027diel\u2500is of your making, then...am I...?",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_KINGEA102_05234_ALXAAL_000_423",
+    "original": "Gods, that would mean I am as well.",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_KINGEA102_05234_SAREELJA_000_424",
+    "original": "You...? Yes, well...a trivial thread in the tapestry of my grand designs.",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_KINGEA102_05234_SAREELJA_000_425",
+    "original": "And what a wondrous weave it will be, made possible by the endless possibilities gleaned in that Walk of Echoes!",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_KINGEA102_05234_SAREELJA_000_426",
+    "original": "The memories buried there\u2500those remnants of echoes\u2500will shape my dreams into reality.",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_KINGEA102_05234_SAREELJA_000_427",
+    "original": "I once believed that dream lay in the Resilient Son, but that bastard is dead to me. By my hand, Tural will have the greatest ruler the world has ever known!",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_KINGEA102_05234_SAREELJA_000_428",
+    "original": "I\u0027ve made an admirable start, but my work is far from finished.",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_KINGEA102_05234_SAREELJA_000_429",
+    "original": "Very soon, I will draw upon the echoes once more to summon the greatest beings of Vana\u0027diel, and their strength will be made one with this magnificent shade.",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_KINGEA102_05234_SAREELJA_000_430",
+    "original": "The reason and resolve which built the nation of Tuliyollal, matched with the uncompromising tyranny that commanded the Mamool Ja of that world.",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_KINGEA102_05234_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_KINGEA102_05234_A1_000_001",
+    "original": "You\u0027ll never get away with this. I\u0027ll make sure of it!",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_KINGEA102_05234_A1_000_002",
+    "original": "I won\u0027t let you sully the memories of Vana\u0027diel!",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_KINGEA102_05234_A1_000_003",
+    "original": "If you won\u0027t listen to reason, then maybe you\u0027ll listen to my fists.",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_KINGEA102_05234_SAREELJA_000_432",
+    "original": "That\u0027s the spirit! My preparations will take time, of course, but when I am ready, you can be certain I will call upon you. To bear witness to my greatness.",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_100_432",
+    "original": "(-Bakool Ja Ja the Mighty-)Sareel Ja, wait!",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_KINGEA102_05234_PRISHE_000_450",
+    "original": "...",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_KINGEA102_05234_ALXAAL_000_451",
+    "original": "Prishe...?",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_100_500",
+    "original": "(-Bakool Ja Ja the Mighty-)Damn it all!",
+    "translation": ""
+  },
+  "197": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_500",
+    "original": "(-Bakool Ja Ja the Mighty-)Just when I thought things couldn\u0027t become more complicated. Making sense of Alexandria was trouble enough, but now we have this Vana\u0027diel to deal with as well.",
+    "translation": ""
+  },
+  "198": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_501",
+    "original": "(-Bakool Ja Ja the Mighty-)I can only imagine how Prishe and Alxaal must be feeling.",
+    "translation": ""
+  },
+  "199": {
+    "tag": "TEXT_KINGEA102_05234_BAKOOLJAJA_000_502",
+    "original": "(-Bakool Ja Ja the Mighty-)What do you do when your very existence is called into question?",
+    "translation": ""
+  }
+}

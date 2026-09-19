@@ -1,0 +1,517 @@
+{
+  "0": {
+    "tag": "TEXT_CLSGLD700_02603_SEQ_00",
+    "original": "Emeloth has a message for you from your apprentices.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_CLSGLD700_02603_SEQ_01",
+    "original": "Emeloth informs you that your apprentices wish to consult you regarding the orchestrion they intend to make for the sultana. Seek the three of them out by Chakra Falls to the north, their favored gathering spot for furtive undertakings.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_CLSGLD700_02603_SEQ_02",
+    "original": "The apprentices reveal that they have already begun work on the orchestrion in secret, and they would like you and Emeloth to inspect the components they have each crafted. Take the three items to your deputy and have her assess their quality.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_CLSGLD700_02603_SEQ_03",
+    "original": "You present the three orchestrion components to Emeloth, who is astounded by the level of quality the apprentices were able to produce. While she believes they are capable of handling the rest themselves, she can appreciate the sentimental value in entrusting the finishing touches to you. See to this task and present Emeloth with the completed orchestrion.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BIn the event you lose the materials or the synthesis ends in failure, you may try again by speaking with Kanchana.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_CLSGLD700_02603_SEQ_04",
+    "original": "The orchestrion meets with Emeloth\u0027s resounding approval. The gift is ready; all that remains is the giving of it, and Emeloth promises to arrange an audience with Nanamo. Go to the palace entrance on the Royal Promenade at the appointed hour, and make yourself known to the sultansworn Bartholomew.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_CLSGLD700_02603_SEQ_05",
+    "original": "You present the orchestrion to Nanamo, who is beside herself with delight. For in its elegant yet compact form she sees not only the object of her desire, but also the promise of a brighter future for Ala Mhigo. The audience thus happily concluded, Emeloth bids the members of the Crown Gemworks gather at the Goldsmiths\u0027 Guild.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_CLSGLD700_02603_SEQ_06",
+    "original": "Marcel arrives with the news that the knowledge of your gift to the sultana has swiftly gone public, and orders for identical orchestrions have since flooded Eshtaime\u0027s Aesthetics. Serendipity confesses to having told Momodi, an act tantamount to telling the whole of Ul\u0027dah, but Marcel takes these developments in his stride and extends a supply deal to the apprentices\u2500now apprentices no more. So it is that your role in their tale comes to an end. Yet near or far, you shall ever be their schoolmaster, and for the betterment of your art, see to it that you continue to blaze new trails as a goldsmith.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_CLSGLD700_02603_TODO_00",
+    "original": "Speak with J\u0027khebica.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_CLSGLD700_02603_TODO_01",
+    "original": "Speak with Wido.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_CLSGLD700_02603_TODO_02",
+    "original": "Speak with Hal.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_CLSGLD700_02603_TODO_03",
+    "original": "Show the apprentices\u0027 work to Emeloth.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_CLSGLD700_02603_TODO_04",
+    "original": "\u003Chex:020870E3E802E803FF2F53796E74686573697A6520612074726962757465206F72636865737472696F6E2002280AFF064164646F6E0A0103FF3944656C69766572207468652074726962757465206F72636865737472696F6E2002280AFF064164646F6E0A010320746F20456D656C6F746803\u003E.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_CLSGLD700_02603_TODO_05",
+    "original": "Deliver the gift-wrapped orchestrion to Bartholomew in Ul\u0027dah.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_CLSGLD700_02603_TODO_06",
+    "original": "Speak with Emeloth at the Goldsmiths\u0027 Guild.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_CLSGLD700_02603_EMELOTH_000_030",
+    "original": "Oh, Schoolmaster. Our apprentices wished to consult you regarding the orchestrion they intend to make for the sultana.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_CLSGLD700_02603_EMELOTH_000_031",
+    "original": "You will find them over by Chakra Falls, their favored place to convene when they have something to hide.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_CLSGLD700_02603_EMELOTH_000_032",
+    "original": "And while you are there, could you please tell them they are needed at the workshop? As it happens, they have other tasks requiring their attention.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_CLSGLD700_02603_EMELOTH_000_050",
+    "original": "Our apprentices wished to consult you regarding the orchestrion. You will find them over by Chakra Falls, their favored place to convene when they have something to hide.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_CLSGLD700_02603_KANCHANA_000_055",
+    "original": "Another gathering at the waterfall? I say, what inssspired idea do they have this time?",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_CLSGLD700_02603_JKHEBICA_000_070",
+    "original": "Ah, Schoolmaster \u003Chex:022C0DFF07022903EB0203FF02200303\u003E! You\u0027ll never guess, but we\u0027ve already begun working on the orchestrion and without Miss Emeloth\u0027s knowledge because we wanted to see how well we could do by ourselves!",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_CLSGLD700_02603_JKHEBICA_000_071",
+    "original": "Like before, we\u0027ve divided up the tasks between the three of us and I\u0027m in charge of the cylinder.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_CLSGLD700_02603_JKHEBICA_000_072",
+    "original": "Each of the parts are ready already and all that remains is to join them together. Oh, and also apply the finishing touches and affix the gemstones, but these two things we\u0027d like to entrust to you seeing as the Gemworks wouldn\u0027t be...well, the Gemworks without you!",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_CLSGLD700_02603_JKHEBICA_000_073",
+    "original": "But before we get ahead of ourselves, we\u0027d appreciate it if you and Miss Emeloth could examine our work to make certain everything is up to scratch.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_CLSGLD700_02603_WIDO_000_080",
+    "original": "Chief, mind takin\u0027 a look at this for me? It\u0027s the case for the orchestrion.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_CLSGLD700_02603_WIDO_000_081",
+    "original": "Fittin\u0027 the wooden bits together was a deal harder\u0027n I expected, but I kept at it till it all came together. Or leastwise I think it did, heh!",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_CLSGLD700_02603_WIDO_000_082",
+    "original": "Eh, Miss Emeloth\u0027s needs us back? Ahhh, bugger, we was s\u0027posed to unload the supplies. Knew I forgot somethin\u0027...",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_CLSGLD700_02603_HAL_000_090",
+    "original": "So, er, we\u0027ve been workin\u0027 on the orchestrion in secret. The adornments\u0027re my task, an\u0027 I was hopin\u0027 you could tell me how good\u2500or shite\u2500a job I did.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_CLSGLD700_02603_HAL_000_091",
+    "original": "At first we was thinkin\u0027 to make the whole thing together ourselves, but then we got to thinkin\u0027 some more.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_CLSGLD700_02603_HAL_000_092",
+    "original": "You an\u0027 Your Grace go back a long way, right? Well, it seemed to us the tribute\u0027d be all the more special if you was to handle the finishing touches, attach the gemstones an\u0027 all that.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_CLSGLD700_02603_JKHEBICA_000_110",
+    "original": "We like to think we\u0027ve all done a half-decent job, but that\u0027s for you and Miss Emeloth to decide...so could the two of you take a look and decide?",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_CLSGLD700_02603_WIDO_000_115",
+    "original": "Was my first time workin\u0027 with wood, but I managed to put the case together somehow. Sure is a whole lot more to goldsmithin\u0027 than just metal and stone.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_CLSGLD700_02603_HAL_000_120",
+    "original": "The idea\u0027s to get the thing workin\u0027 between us three, but have you do the finishin\u0027 touches. That\u0027s to say, fix Her Grace\u0027s gemstones to it. That\u0027d please her best, we reckon.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_CLSGLD700_02603_EMELOTH_000_140",
+    "original": "You\u0027ve spoken with our apprentices? So, what manner of mischief has been keeping them up late at night?",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_CLSGLD700_02603_EMELOTH_000_150",
+    "original": "...They made all of these completely unaided!? If they want my honest opinion, it\u0027s good enough to assemble and present to the sultana!",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_CLSGLD700_02603_EMELOTH_000_151",
+    "original": "With this degree of polish, there\u0027s no reason why they couldn\u0027t handle the rest themselves. Yet I can appreciate the sentimental value in entrusting the finishing touches and the gemstones to you.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_CLSGLD700_02603_EMELOTH_100_151",
+    "original": "As our apprentices say, the Gemworks wouldn\u0027t be what it is without you, and as the sultana\u0027s personal friend, your involvement would imbue the tribute with greater meaning.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_CLSGLD700_02603_EMELOTH_000_152",
+    "original": "In addition to symbolizing Her Grace\u0027s faith in us, the gemstones represent the cherished memories of her mother. If any one of us here should have the honor of breathing new life into them, it is you.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_CLSGLD700_02603_EMELOTH_000_153",
+    "original": "With that, I shall leave you to it. Remember, should you require additional supplies, you need but speak with Kanchana. I look forward to beholding the finished orchestrion in all its glory.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_CLSGLD700_02603_JKHEBICA_000_170",
+    "original": "I can\u0027t wait to see how the orchestrion will look when you\u0027ve worked your magic on it!",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_CLSGLD700_02603_WIDO_000_175",
+    "original": "We\u0027re proud o\u0027 what we\u0027ve put together, an\u0027 we\u0027re glad it\u0027s you as does the finishin\u0027 touches.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_CLSGLD700_02603_HAL_000_180",
+    "original": "You\u0027ll fix the gemstones for us? Yesss, our orchestrion\u0027s gonna be perfect!",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_CLSGLD700_02603_KANCHANA_000_185",
+    "original": "If you require more partsss, you tell Kanchana, yesss?",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_CLSGLD700_02603_KANCHANA_000_190",
+    "original": "Well, well, sssuch a sssweet little orchestrion you have.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_CLSGLD700_02603_EMELOTH_000_210",
+    "original": "Is...is it ready, Schoolmaster? The orchestrion? Gods, I believe I am getting butterflies in spite of myself...",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_CLSGLD700_02603_EMELOTH_000_220",
+    "original": "Oh, my, this is magnificent... A more refined and elegant orchestrion I have never seen! Why, I can already see it gracing the sultana\u0027s chamber, its music imbuing her slumber with sweet dreams...",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_CLSGLD700_02603_EMELOTH_000_221",
+    "original": "Such a grand tribute calls for a grand occasion in which to present it, and as the creators, suffice it to say you and the apprentices must be in attendance.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_CLSGLD700_02603_EMELOTH_000_222",
+    "original": "I shall arrange for the Crown Gemworks to have an audience with Her Grace. Until that time, let all keep the nature of the tribute in confidence.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_CLSGLD700_02603_EMELOTH_000_223",
+    "original": "The orchestrion, I shall leave in your safekeeping, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. At the appointed hour, pray take it to the palace entrance on the Royal Promenade.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_CLSGLD700_02603_EMELOTH_000_224",
+    "original": "State your business to the sultansworn on duty, and he will show you in. I shall see you there.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_CLSGLD700_02603_EMELOTH_000_240",
+    "original": "I shall arrange for the Crown Gemworks to have an audience with Her Grace.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_CLSGLD700_02603_EMELOTH_000_241",
+    "original": "At the appointed hour, pray take the orchestrion to the palace entrance on the Royal Promenade.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_CLSGLD700_02603_JKHEBICA_000_245",
+    "original": "We\u0027ve already done the hard yalms, but the final few ilms waiting to see how Her Grace reacts is excruciating!",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_CLSGLD700_02603_WIDO_000_250",
+    "original": "We\u0027ve poured everythin\u0027 into the orchestrion. The sultana\u0027ll like it, I know she will.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_CLSGLD700_02603_HAL_000_255",
+    "original": "Wido says it\u0027s proper to wear a snowman suit when meetin\u0027 the sultana. I\u0027ll have to look into borrowin\u0027 one.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_CLSGLD700_02603_KANCHANA_000_260",
+    "original": "Enjoy your audience with the sssultana. I am liable to create a ssscene in Ul\u0027dah, so I won\u0027t be joining you.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_CLSGLD700_02603_BARTHOLOMEW_000_280",
+    "original": "Ah, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E of the Crown Gemworks, we have been expecting you. You have the\u2500ahem\u2500article to be presented, I trust?",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_CLSGLD700_02603_BARTHOLOMEW_000_290",
+    "original": "Very good. Lest you wonder, your colleagues have already arrived. I shall take you to join them. Her Grace will receive you in her chambers.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_CLSGLD700_02603_NANAMOULNAMO_000_300",
+    "original": "Be at ease, my friends.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_CLSGLD700_02603_NANAMOULNAMO_000_301",
+    "original": "I am informed you are come with a gift?",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_CLSGLD700_02603_SERENDIPITY_000_302",
+    "original": "Yes, Your Grace. A humble token of gratitude from the apprentice goldsmiths for the generosity you have shown them.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_CLSGLD700_02603_NANAMOULNAMO_000_303",
+    "original": "\u003Cgasp\u003E Do mine eyes deceive?",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_CLSGLD700_02603_JKHEBICA_000_304",
+    "original": "D-Does it not please you, Your Grace...?",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_CLSGLD700_02603_NANAMOULNAMO_000_305",
+    "original": "How should it not please me? \u0027Tis the very thing I desired, yet was resigned never to find!",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_CLSGLD700_02603_NANAMOULNAMO_000_306",
+    "original": "And the jewels that adorn it\u2500they are familiar to me, and comfortingly so. Could they be...?",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_CLSGLD700_02603_EMELOTH_000_307",
+    "original": "Indeed, Your Grace. We took the liberty of using jewels from your lady mother\u0027s crown.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_CLSGLD700_02603_NANAMOULNAMO_000_308",
+    "original": "Ahem. May I...try it?",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_CLSGLD700_02603_SERENDIPITY_000_309",
+    "original": "Naught would please us more, Your Grace!",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_CLSGLD700_02603_MARCEL_000_310",
+    "original": "\u0027Twas a collaboration between the apprentices, who crafted and assembled the primary components, and their schoolmaster, \u003Chex:022C0DFF07022903EB0203FF02200303\u003E, who handled the finishing touches.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_CLSGLD700_02603_NANAMOULNAMO_000_311",
+    "original": "I gave the crown willingly, expecting naught in return, yet here it is returned to me and reborn in magnificent form.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_CLSGLD700_02603_NANAMOULNAMO_000_312",
+    "original": "I am grateful beyond words. Not only for this gift, but also what it represents: your coming into your own as goldsmiths, ready to contribute to the future of your homeland.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_CLSGLD700_02603_NANAMOULNAMO_000_313",
+    "original": "From the first I had every faith in you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, but even so I dared not hope that this day would come so soon. From the bottom of my heart, I thank you.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_CLSGLD700_02603_EMELOTH_000_314",
+    "original": "A happier audience we couldn\u0027t have expected. Now then, ere we return to Rhalgr\u0027s Reach, may I suggest we gather at the Goldsmiths\u0027 Guild?",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_CLSGLD700_02603_JKHEBICA_000_330",
+    "original": "I\u0027m so happy that Her Grace was happy and we have you to thank for making it happen, Schoolmaster!",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_CLSGLD700_02603_WIDO_000_335",
+    "original": "Whew, felt myself turnin\u0027 red as a beet back there. Ain\u0027t used to such high praise...but I reckon I could grow to like it!",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_CLSGLD700_02603_HAL_000_340",
+    "original": "Damn, but that was a near thing. Got fishy when Wido wouldn\u0027t put a snowman suit on, so I took mine off right afore the audience.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_CLSGLD700_02603_KANCHANA_000_350",
+    "original": "Hal departed for Ul\u0027dah wearing a sssnowman sssuit. To each his own, I sssuppose?",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_CLSGLD700_02603_BARTHOLOMEW_000_360",
+    "original": "I see that the audience went well. Her Grace was positively beaming as she departed.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_CLSGLD700_02603_MARCEL_000_370",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200303\u003E, you have outdone yourself yet again\u2500you and your apprentices both. Seldom have I seen the sultana so jubilant.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_CLSGLD700_02603_MARCEL_000_371",
+    "original": "Now, as much as I should like to stand here and chat, the shop has burst into activity. I must return to my duties, but we will speak again soon, I am sure.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_CLSGLD700_02603_EMELOTH_000_380",
+    "original": "You set out to repay the sultana, and you have succeeded in the grandest fashion. I am truly happy for you.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_CLSGLD700_02603_EMELOTH_000_381",
+    "original": "Master Marcel beheld the orchestrion for the first time and was deeply impressed. He makes his way here even as we speak, doubtless with words of praise. Though if I may add, when he called he sounded uncharacteristically flustered...",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_CLSGLD700_02603_MARCEL_000_390",
+    "original": "We have a situation on our hands!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_CLSGLD700_02603_SERENDIPITY_000_391",
+    "original": "Oh dear, what could this be about?",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_CLSGLD700_02603_MARCEL_000_392",
+    "original": "No sooner did I return to Eshtaime\u0027s than I was flooded with orders for the selfsame orchestrion that you presented to the sultana.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_CLSGLD700_02603_MARCEL_000_393",
+    "original": "It seems that word has gotten out of the Crown Gemworks\u0027 tribute for Her Grace. While Ul\u0027dah is naught if not rife with rumors, that it happened with such speed beggars belief.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_CLSGLD700_02603_EMELOTH_000_394",
+    "original": "That\u0027s passing odd. No one else was in attendance save ourselves, and afterwards we came directly to the guild.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_CLSGLD700_02603_SERENDIPITY_000_395",
+    "original": "Oh, I\u0027m so sorry! It was me! On the way here, I bumped into Momodi and I might\u0027ve let it slip...",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_CLSGLD700_02603_MARCEL_000_396",
+    "original": "I see... If Miss Momodi knows, then \u0027tis fair to say that so does everyone.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_CLSGLD700_02603_MARCEL_000_397",
+    "original": "Far be it Her Grace\u0027s intent to publicize her initiative, but neither did she expressly forbid us from speaking. You\u0027ve done no ill, Miss Serendipity.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_CLSGLD700_02603_MARCEL_000_398",
+    "original": "On the contrary, you\u0027ve done extremely well\u2500from the perspective of commerce. The merchant in me is fairly giddy at the opportunities this presents.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_CLSGLD700_02603_MARCEL_000_399",
+    "original": "So, what say you all? Might Eshtaime\u0027s Aesthetics have the honor of carrying Gemworks orchestrions as an Ala Mhigan specialty?",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_CLSGLD700_02603_JKHEBICA_000_400",
+    "original": "Are you serious!?",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_CLSGLD700_02603_WIDO_000_401",
+    "original": "Our handiwork, sold at a prestigious place like Eshtaime\u0027s!? Are we ready for this!?",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_CLSGLD700_02603_HAL_000_402",
+    "original": "D-Don\u0027t worry, Brother! We\u0027ve got the schoolmaster at our backs, remember?",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_CLSGLD700_02603_EMELOTH_000_403",
+    "original": "I think not. Lest you forget, my apprentices, \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E are the heart of this initiative, and relying upon the schoolmaster would take the shine off your tale.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_CLSGLD700_02603_MARCEL_000_404",
+    "original": "I concur with that assessment. Furthermore, for all intents and purposes, a product synonymous with Ala Mhigo has been born this day.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_CLSGLD700_02603_MARCEL_000_405",
+    "original": "In other words, \u003Chex:022C0DFF07022903EB0203FF02200303\u003E has fulfilled \u003Chex:02080DE905FF04686572FF0468697303\u003E role as stipulated by the sultana, and with distinction besides. It would not be meet to demand more of \u003Chex:02080DE905FF04686572FF0468696D03\u003E.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_CLSGLD700_02603_JKHEBICA_000_406",
+    "original": "We\u0027ll manage by ourselves somehow, I know we will, so you needn\u0027t worry.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_CLSGLD700_02603_SERENDIPITY_000_407",
+    "original": "Yes, that\u0027s the spirit!",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_CLSGLD700_02603_SERENDIPITY_000_408",
+    "original": "Now, even though \u003Chex:022C0DFF07022903EB0203FF02200203\u003E won\u0027t always be on hand like before, I\u0027m sure \u003Chex:02080CE905FF04736865FF03686503\u003E\u0027ll visit Rhalgr\u0027s Reach whenever \u003Chex:02080CE905FF04736865FF03686503\u003E\u0027s able, and you may rest assured that Emeloth won\u0027t be going anywhere any time soon.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_CLSGLD700_02603_JKHEBICA_000_409",
+    "original": "Near or far, you\u0027ll always be our schoolmaster, Schoolmaster \u003Chex:022C0DFF07022903EB0203FF02200303\u003E, and we\u0027ll always be waiting for you!",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_CLSGLD700_02603_MARCEL_000_410",
+    "original": "Miss Emeloth, if I might trouble you for a moment of your time, I should very much like to discuss the matter of supply. And ere we go our separate ways, allow me to say to you all what an honor and a privilege it has been to be a part of this tale. Suffice it to say I shall continue to watch the Crown Gemworks with great interest and ever pray for its success. Till next time, my friends.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_CLSGLD700_02603_SYSTEM_000_900",
+    "original": "In finishing a goldsmithing masterpiece worthy of song, you have learned \u201CStroke of Genius\u201D!",
+    "translation": ""
+  }
+}

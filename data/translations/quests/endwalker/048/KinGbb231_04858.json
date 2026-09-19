@@ -1,0 +1,602 @@
+{
+  "0": {
+    "tag": "TEXT_KINGBB231_04858_SEQ_00",
+    "original": "Kupopo makes no attempt to hide his sorrow.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_KINGBB231_04858_SEQ_01",
+    "original": "As Kupopo continues to struggle with the revelation that Beruru may have died, you are approached by the art trader you previously aided. Out of concern for the moogle\u0027s well-being, he suggests you travel to Ul\u0027dah and speak with an information monger who will likely know for certain what became of his friend. Cautiously optimistic, Kupopo agrees to go to Ul\u0027dah, provided he may travel by hempen sack as before.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_KINGBB231_04858_SEQ_02",
+    "original": "Wymond has plenty to share regarding Beruru\u0027s disappearance. After selling her master\u0027s finest works, the pictomancer supposedly used her profits to purchase a tomb at Arrzaneth Ossuary. Shaken by the news, Kupopo hurriedly flies off towards Erralig\u0027s Burial Chamber.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_KINGBB231_04858_SEQ_03",
+    "original": "Kupopo begs an Ossuary priest to allow him to examine Beruru\u0027s coffin, but as the moogle is not family, he is promptly refused. The priest lets slip that he has more pressing concerns to address\u2500efforts to expand the burial chambers have unearthed both an unmapped ruin and a horde of belligerent zombies. Kupopo, as is his wont, offers your services to him, and you are tasked with slaying the zombies, who are presently writhing about the Sil\u0027dih excavation site.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_KINGBB231_04858_SEQ_04",
+    "original": "By your hand are the living corpses consigned to oblivion. Kupopo and the priest will wish to hear of your accomplishment, and can doubtless still be found at the entrance to the burial chamber.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_KINGBB231_04858_SEQ_05",
+    "original": "The priest is relieved to know that the zombie situation has been resolved. Having also realized that Kupopo and Beruru were like family, he agrees to open the coffin for the moogle\u0027s benefit. Yet when the moment comes, you discover it contains not Beruru, but a single painting, which Kupopo identifies as Janquetilaque\u0027s last work. Unsure what to make of this latest development, the moogle bids you speak with him outside the burial chamber.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_KINGBB231_04858_SEQ_06",
+    "original": "With renewed hope that Beruru may yet live, Kupopo believes another approach may be necessary to find her. As he will require some time before recommencing the search, the moogle urges you not to shirk your training and return once you have grown more confident in your skills.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe next pictomancer quest will be available from Kupopo upon reaching level 90.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_KINGBB231_04858_TODO_00",
+    "original": "Open the Kupopo-sized sack at the designated location.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_KINGBB231_04858_TODO_01",
+    "original": "Speak with Kupopo.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_KINGBB231_04858_TODO_02",
+    "original": "Defeat the rampaging zombies by the Sil\u0027dih excavation site.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_KINGBB231_04858_TODO_03",
+    "original": "Speak with the Order of Nald\u0027thal priest at Erralig\u0027s Burial Chamber.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_KINGBB231_04858_TODO_04",
+    "original": "Speak with Kupopo.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_001",
+    "original": "...Oh. It\u0027s you, kupo. What is it?",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_KINGBB231_04858_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_KINGBB231_04858_A1_000_001",
+    "original": "I\u0027ve been practicing my pictomancy.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_KINGBB231_04858_A1_000_002",
+    "original": "I wanted to see how you were faring.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_003",
+    "original": "I\u0027m glad you\u0027re doing well, kupo. The gods know I\u0027m not...",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_004",
+    "original": "That\u0027s very kind of you, kupo. Truth be told, I\u0027m still struggling to come to terms...",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_005",
+    "original": "If Beruru has truly left this world, it means that I...that I...",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_KINGBB231_04858_MERCHANT04857_000_006",
+    "original": "(-???-)I wasn\u0027t too late! Thank goodness!",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_007",
+    "original": "\u003Csigh\u003E If only, kupo... If only...",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_100_007",
+    "original": "...Oh, it\u0027s you, mister art dealer. What brings you back to us?",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_KINGBB231_04858_MERCHANT04857_000_008",
+    "original": "(-Aided Trader-)I\u0027ve concluded my business here and shall be returning to Ul\u0027dah. But before I take ship, I wished to speak with you again.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_KINGBB231_04858_MERCHANT04857_000_009",
+    "original": "(-Aided Trader-)\u0027Tis plain your friend\u0027s fate weighs heavily on your mind. If you wish to know the truth for a certainty, I should be glad to introduce someone who deals in information.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_010",
+    "original": "You...you think this person would know what became of Beruru?",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_KINGBB231_04858_MERCHANT04857_000_011",
+    "original": "(-Aided Trader-)Oh, yes. This man makes it his business to know everyone else\u0027s in Ul\u0027dah. At the very least, he should be able to tell you if your friend yet lives.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_KINGBB231_04858_MERCHANT04857_000_012",
+    "original": "(-Aided Trader-)He also happens to owe me a favor. I shall personally ask him to assist you.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_KINGBB231_04858_MERCHANT04857_000_013",
+    "original": "(-Aided Trader-)Once you arrive in Ul\u0027dah, head to Emerald Avenue and look for a bespectacled man with a self-satisfied grin. That will be him.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_KINGBB231_04858_MERCHANT04857_000_014",
+    "original": "(-Aided Trader-)Now then, it\u0027s time I boarded my vessel. Farewell, my friends, and best of luck in your search for the truth.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_015",
+    "original": "I want to know, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Desperately. But at the same time, I\u0027m so scared, kupo... If Beruru really is gone...",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_KINGBB231_04858_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_KINGBB231_04858_A2_000_001",
+    "original": "You mustn\u0027t lose hope.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_KINGBB231_04858_A2_000_002",
+    "original": "We\u0027ll face the truth together.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_017",
+    "original": "Shining the light of hope for me, are you? You\u0027ve grown so much as a pictomancer... Thank you. With you at my side, I feel I can press on and face whatever comes, kupo.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_018",
+    "original": "Right. Let\u0027s head to Ul\u0027dah. We\u0027ll do it the same way as the journey here\u2500you teleporting with me in a sack!",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_KINGBB231_04858_SYSTEM_000_019",
+    "original": "You are now carrying a Kupopo-sized sack. It would be prudent to handle your burden with the utmost care until such time as you reach Ul\u0027dah.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_030",
+    "original": "Whew, that was a lovely little nap... And just like that, we\u0027ve arrived!",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_031",
+    "original": "The towering cityscape, the dry desert air mingling with the scent of gil... There\u0027s no mistaking Ul\u0027dah!",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_032",
+    "original": "Now then, we should find the fellow who deals in information, kupo.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_033",
+    "original": "...And I believe I have! That bespectacled man there, with a grin that does indeed bespeak unwavering confidence!",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_KINGBB231_04858_WYMOND_000_034",
+    "original": "Well, well, if it ain\u0027t the pair the art dealer called about.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_035",
+    "original": "You could tell who we are just like that!? You really do know things, kupo!",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_KINGBB231_04858_WYMOND_000_036",
+    "original": "Aye, well, that\u0027s true enough. But to be fair, I\u0027d have to be blind as a bat to miss a moogle travelin\u0027 with the savior of the bleedin\u0027 realm an\u0027 then some. I understand you\u0027re lookin\u0027 for a friend?",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_037",
+    "original": "Th-That\u0027s right! Her name is Beruru, and she was last seen in Ul\u0027dah! If you know anything about what became of her, you must tell me, kupo!",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_KINGBB231_04858_WYMOND_000_038",
+    "original": "Don\u0027t get your pom in a twist. I\u0027ll oblige your burnin\u0027 curiosity.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_KINGBB231_04858_WYMOND_000_039",
+    "original": "It was about half a year past that Beruru came to Ul\u0027dah. She brought with her eight of Janquetilaque\u0027s paintings, which she put up for sale.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_KINGBB231_04858_WYMOND_000_040",
+    "original": "She sold the lot within a matter of weeks, an\u0027 with the small fortune she made, she went an\u0027 bought herself \u201Caccommodations\u201D at the Ossuary.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_041",
+    "original": "N-No, that can\u0027t be right...!",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_KINGBB231_04858_WYMOND_000_042",
+    "original": "\u0027Fraid it is, my furry friend. Now, it bears stressin\u0027 that bein\u0027 interred in the city is not an inexpensive proposition. Hardly surprisin\u0027, given the limited space what\u0027s left.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_KINGBB231_04858_WYMOND_000_043",
+    "original": "But she made the donation to the Ossuary up front an\u0027 in full\u2500an amount most folk\u0027ll never see in their lifetimes.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_044",
+    "original": "Wh-What did she do after that?",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_KINGBB231_04858_WYMOND_000_045",
+    "original": "That remains a mystery. Her room at the inn was found neat an\u0027 tidy. You wouldn\u0027t have known she\u0027d been there if not for some personal belongings left behind.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_KINGBB231_04858_WYMOND_000_046",
+    "original": "Among those, of greatest interest was a set of travelin\u0027 gear, a coinpurse containin\u0027 the payment for the room, an\u0027 a letter what said she wasn\u0027t comin\u0027 back.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_KINGBB231_04858_WYMOND_000_047",
+    "original": "Findin\u0027 it all a bit odd, the innkeep called the Brass Blades to investigate, but the evidence led \u0027em to conclude that she was voluntarily missin\u0027, an\u0027 likely dead by her own hand.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_048",
+    "original": "Then Beruru really is gone...",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_KINGBB231_04858_WYMOND_000_049",
+    "original": "That\u0027s what they think, but who\u0027s to say, eh? There\u0027s only one way to be certain, I reckon.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_KINGBB231_04858_WYMOND_000_050",
+    "original": "Accordin\u0027 to a priest who oversees burials, Beruru\u0027s coffin is stored in Erralig\u0027s Burial Chamber over by the Ossuary. You\u0027ll have to open it up and see what\u0027s there or isn\u0027t with your own eyes.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_051",
+    "original": "I-I\u0027ll go there at once, kupo!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_KINGBB231_04858_WYMOND_000_052",
+    "original": "An\u0027 off he flies...",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_KINGBB231_04858_WYMOND_000_053",
+    "original": "You should go after him. Dependin\u0027 on what\u0027s waitin\u0027, he\u0027ll need support.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_KINGBB231_04858_WYMOND_100_053",
+    "original": "Best you catch up to your moogle friend while you can. Headed straight for the Ossuary, no doubt.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_060",
+    "original": "I\u0027m sorry, but that is out of the question.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_070",
+    "original": "I beg you, kupo! It would only be a little peek!",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_071",
+    "original": "That does not make it any less an act of defilement! We cannot allow you to disturb the dead!",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_072",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, this priest says we can\u0027t check Beruru\u0027s coffin! Please explain the situation to him!",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_073",
+    "original": "So that is the way of it...",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_074",
+    "original": "While I am not unsympathetic to your plight, a coffin may only be opened in exceptional circumstances, and with the permission of family\u2500which you are not.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_075",
+    "original": "I\u0027m sorry, but I must ask that you leave me in peace. I have my hands full with other pressing matters.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_076",
+    "original": "Oh? And what matters might those be, if I may ask?",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_077",
+    "original": "In order to address the shortage of burial space in the city, works have been underway to expand Erralig\u0027s Burial Chamber downwards.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_078",
+    "original": "Alas, the excavators inadvertently unleashed a horde of zombies from an unmapped ruin, and it\u0027s fallen to me to deal with them...",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_079",
+    "original": "Oho! This sounds like another opportunity for \u003Chex:022C0DFF07022903EB0203FF02200203\u003E to put \u003Chex:02080DE905FF04686572FF0468697303\u003E pictomancy to work!",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_080",
+    "original": "Pictomancy? You mean the art created by the fabled Archon Relm, who roamed the land lending aid to those in need?",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_081",
+    "original": "None other, kupo. The matter of the tomb can wait\u2500let\u0027s tend to these zombies first.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_082",
+    "original": "Why, I should be most grateful! The zombies have taken to prowling the Sil\u0027dih excavation site in central Thanalan. Please see that those tormented souls finally know rest.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_090",
+    "original": "You will not have difficulty locating the zombies at the Sil\u0027dih excavation site. Grant them the peace they deserve, please.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_095",
+    "original": "Those zombies will be no match for your brush strokes, kupo!",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_100",
+    "original": "The zombies have been dealt with? Wonderful! You have my heartfelt thanks, good pictomancer.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_101",
+    "original": "While you were away, I spoke further with Kupopo about his relationship with Mistress Beruru. I understand now that they were as family to one another.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_102",
+    "original": "In light of this, and also in recognition of your service, I will allow you to examine her coffin. If you would follow me...",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_103",
+    "original": "This is the one. If you are ready, I shall open it.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_104",
+    "original": "Very well.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_105",
+    "original": "Please... Please don\u0027t let it be her...",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_106",
+    "original": "...What?",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_107",
+    "original": "What is this, kupo!?",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_108",
+    "original": "A painting.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_109",
+    "original": "Yes, we can all see that! And I recognize it as well!",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_110",
+    "original": "This is Janquetilaque\u0027s final work, \u003Chex:021A020203\u003EThe Ephemeral Palace\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_111",
+    "original": "Why was this painting in the casket? And if Beruru isn\u0027t here, then where could she possibly be?",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_112",
+    "original": "...I\u0027m afraid no one in the Order knows where she has gone.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_113",
+    "original": "Several moons ago, Mistress Beruru came to us unannounced...",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_KINGBB231_04858_BERURU_000_114",
+    "original": "Pardon me! Is anyone there?",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_115",
+    "original": "Greetings, my child. Are you come to pay your respects?",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_KINGBB231_04858_BERURU_000_116",
+    "original": "No, I...I was told I could purchase a tomb here.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_117",
+    "original": "Ahem. Tombs are \u003Chex:021A020203\u003Ebestowed\u003Chex:021A020103\u003E upon pious souls who make a donation, yes.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_KINGBB231_04858_BERURU_000_118",
+    "original": "Oh, I see... In that case, I wish to make a donation. My master\u0027s paintings fetched a high price, so I believe I have sufficient funds.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_KINGBB231_04858_BERURU_000_119",
+    "original": "Would it be possible to have the tomb prepared immediately?",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_120",
+    "original": "In that manner did she secure burial rights, and so we set about making the necessary arrangements.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_121",
+    "original": "When all was in readiness, she requested a moment alone in the chamber, so I waited outside the entrance.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_122",
+    "original": "When she did not emerge after a time, I went back in to check on her...only to find that she was gone.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_123",
+    "original": "There was only this painting and a handwritten note instructing us to inter it.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_124",
+    "original": "Are you saying Beruru vanished into thin air!?",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_125",
+    "original": "So far as I could tell. As you can see, there is only one entrance to this chamber.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_126",
+    "original": "I organized a large-scale search, thinking she might have wandered into the lower levels or even those under excavation. Yet still we found nothing.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_127",
+    "original": "At length the search was called off. And without answers, what else could I do but fulfill her final wish? I placed the painting within the coffin, where it has remained ever since.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_128",
+    "original": "Curiouser and curiouser, kupo...",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_KINGBB231_04858_NALDTHALPRIEST_000_129",
+    "original": "That is everything I know\u2500I am sorry I could not tell you more. Now, if you would excuse me, I must return to my duties...",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_130",
+    "original": "Y-Yes, of course.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_131",
+    "original": "Come on, then, let\u0027s head back outside.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_140",
+    "original": "Interring Janquetilaque\u0027s painting and vanishing without a trace... I\u0027m not sure what to make of Beruru\u0027s actions, kupo.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_141",
+    "original": "What about you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E? Do you have any thoughts?",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_KINGBB231_04858_Q3_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_KINGBB231_04858_A3_000_001",
+    "original": "I think Beruru may still be alive.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_KINGBB231_04858_A3_000_002",
+    "original": "Janquetilaque\u0027s painting must be the key to this puzzle.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_KINGBB231_04858_A3_000_003",
+    "original": "I haven\u0027t the foggiest...",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_143",
+    "original": "I pray you\u0027re right, kupo. I was terrified that she would be in the casket, and relieved my worst fears didn\u0027t come to pass...but now I can\u0027t help but wonder...",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_144",
+    "original": "I hope so, kupo. Because if the painting can\u0027t help us find answers, then I have no idea where we go from here.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_145",
+    "original": "So you can\u0027t make sense of it either...",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_146",
+    "original": "I suppose it\u0027s back to the search. I\u0027m going to take some time to ponder things and see if I can\u0027t think of other leads to pursue.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_KINGBB231_04858_KUPOPO_000_147",
+    "original": "Meanwhile, please continue to train. Think colorful thoughts, keep your brush arm supple, and come and find me when you feel your artist\u0027s aura has grown further, kupo!",
+    "translation": ""
+  }
+}

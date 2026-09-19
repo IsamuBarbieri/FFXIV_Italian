@@ -1,0 +1,542 @@
+{
+  "0": {
+    "tag": "TEXT_BANKJN001_02973_SEQ_00",
+    "original": "This vexed villager is keeping watch of the ocean with a growing sense of dread.\u003Chex:02100103\u003E\u203BThe difficulty of this quest will be synced to your current level.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_BANKJN001_02973_SEQ_01",
+    "original": "A man of Isari has been waiting patiently for his daughter to return from Kugane, but can stand it no longer. Fearing the worst, he asks you to go and search for her along the shore of Sakazuki.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_BANKJN001_02973_SEQ_02",
+    "original": "You find a young maiden along the shore in the company of a Blue Kojin with two Red Kojin fallen at their feet. Mistaking you for a threat, the Blue Kojin prepares to fight, but soon lowers his blade as you explain why you have come. The maiden before you is, in fact, Shihoumi, and she tells of the Blue Kojin\u0027s daring rescue. Though gravely injured, he soon runs off to retrieve Shihoumi\u0027s stolen cargo from the Red Kojin. She begs you to save him from this fool\u0027s errand before it is too late.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_BANKJN001_02973_SEQ_03",
+    "original": "The Blue Kojin is badly bruised and surrounded by his Red brothers, but you quickly put an end to their assault. With the Red Kojin defeated, you tend to the fallen Blue Kojin\u0027s wounds.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_BANKJN001_02973_SEQ_04",
+    "original": "You and the Blue Kojin named Kabuto are soon joined by Shihoumi, who wishes to thank you both for your help. Kabuto, however, insists that he be the one to reward you, given that you saved his life. Nevertheless, the girl insists that he accept a gift\u2500an item of his choosing from among her wares\u2500and Kabuto relents, settling upon a doll crafted in the likeness of a Kojin. He then invites you to Tamamizu, where he might present to you a token of his gratitude.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_BANKJN001_02973_SEQ_05",
+    "original": "You meet with Kabuto at Tamamizu and are taken to their newly created treasure vault. His plans to thank you are soon halted when the Kojin find themselves in the presence of a kami. The divine spirit, who prefers to be addressed as Tsukumo, declares Kabuto the leader of a group known as the Divine Circle, whose mission is to traverse the realm in search of treasures to fill their vault. Moreover, you have been named his first recruit. Never one to decline a call to action, you prepare yourself for adventures both wondrous and perilous.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_BANKJN001_02973_TODO_00",
+    "original": "Search for Shihoumi.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_BANKJN001_02973_TODO_01",
+    "original": "Find the overconfident Kojin.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_BANKJN001_02973_TODO_02",
+    "original": "Aid the overconfident Kojin.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_BANKJN001_02973_TODO_03",
+    "original": "Speak with Kabuto.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_BANKJN001_02973_TODO_04",
+    "original": "Speak with Kabuto.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_BANKJN001_02973_FATHER02973_000_000",
+    "original": "Where\u0027s that blasted boat? It should\u0027ve been here by now...",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_BANKJN001_02973_FATHER02973_000_001",
+    "original": "Oh! Sorry, didn\u0027t see you there. My daughter is late returning from Kugane, you see, and I thought to come and look for her.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_BANKJN001_02973_FATHER02973_000_002",
+    "original": "I can\u0027t imagine the Confederacy giving her any trouble; she\u0027s always been good about putting money aside for the Ruby Tithe... Oh gods! What if the Red Kojin caught sight of her?",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_BANKJN001_02973_FATHER02973_000_003",
+    "original": "My dear, sweet Shihoumi. She only meant to bring home a bit of old furnishings to give comfort to our village. I don\u0027t know what I\u0027d do if anything should happen to her.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_BANKJN001_02973_FATHER02973_000_004",
+    "original": "I know this is sudden, but...you\u0027ve the look of a \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E who can handle a bit of danger. Would you be willing to look for my daughter? She should be traveling close to the shore of Sakazuki.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_BANKJN001_02973_FATHER02973_000_009",
+    "original": "Oh, Shihoumi... I pray you are safe.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_009",
+    "original": "Stay back, or taste my steel!",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_BANKJN001_02973_SHIHOUMI_000_010",
+    "original": "Ahhh! Please, stay away!",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_011",
+    "original": "Not another step.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_BANKJN001_02973_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_BANKJN001_02973_A1_000_001",
+    "original": "I was sent here by a fisherman from Isari.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_BANKJN001_02973_A1_000_002",
+    "original": "I\u0027ve come from Isari in search of Shihoumi.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_BANKJN001_02973_SHIHOUMI_000_012",
+    "original": "A fisherman from Isari? By any chance did he send you in search of his daughter? If so, I suppose it is me you are searching for. My name is Shihoumi.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_BANKJN001_02973_SHIHOUMI_000_013",
+    "original": "From Isari, you say? Was it my father who sent you for me?",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_BANKJN001_02973_SHIHOUMI_000_014",
+    "original": "My ship was attacked by the Red Kojin, but I was saved by this warrior of the Blue. Would that we could have saved the cargo on board.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_015",
+    "original": "Save the cargo? Very well.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_BANKJN001_02973_SHIHOUMI_000_016",
+    "original": "Wait! Your kindness is greatly appreciated, but you cannot mean to go against the Red Kojin. Not alone.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_BANKJN001_02973_SHIHOUMI_000_017",
+    "original": "Please, \u003Chex:02080EE905FF056D697373FF0473697203\u003E, you have to go after him!",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_BANKJN001_02973_SHIHOUMI_000_018",
+    "original": "He was gravely injured in my rescue. \u0027Twould be suicide for him to face them in his condition!",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_BANKJN001_02973_SHIHOUMI_000_019",
+    "original": "We barely escaped the Red Kojin with our lives. He has no chance against them with those injuries.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_BANKJN001_02973_BALLOON_000_027",
+    "original": "Land-dwelling scum!",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_BANKJN001_02973_BALLOON_000_028",
+    "original": "These treasures belong to the Red!",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_BANKJN001_02973_BALLOON_000_029",
+    "original": "Stay out of our way!",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_030",
+    "original": "How could I fall for such an obvious trap...",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_031",
+    "original": "Thank you, brave warrior.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_BANKJN001_02973_SON02973_000_032",
+    "original": "Oh, thank goodness you\u0027re both all right!",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_033",
+    "original": "Why have you come, woman!?",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_BANKJN001_02973_SHIHOUMI_000_034",
+    "original": "I...I\u0027m sorry. You both were gone for so long I began to worry, and...",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_035",
+    "original": "Do not misunderstand. I am not angry. I meant only to say this place is dangerous.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_036",
+    "original": "But the Red are gone now, and your cargo is safe. Everything is there, yes?",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_BANKJN001_02973_SHIHOUMI_000_037",
+    "original": "One...two... Yes, yes, this seems to be all of it.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_BANKJN001_02973_SHIHOUMI_100_037",
+    "original": "The others will be so happy when they see these goods. Thank you so much!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_038",
+    "original": "Then my work here is finished.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_BANKJN001_02973_SHIHOUMI_000_039",
+    "original": "Wait, please. Would you at least tell me the name of the gallant Kojin who rescued me?",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_040",
+    "original": "My name...?",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_041",
+    "original": "(-Kabuto-)I am Kabuto of the Blue.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_042",
+    "original": "(-Kabuto-)You, brave warrior. What is the name of the \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E who rescued me?",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_043",
+    "original": "(-Kabuto-)\u003Chex:022C0DFF07022903EB0203FF02200203\u003E... I shall remember it.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_BANKJN001_02973_SHIHOUMI_000_044",
+    "original": "I haven\u0027t much, but please, let me repay you both for your kindness.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_045",
+    "original": "(-Kabuto-)\u003Chex:022C0DFF07022903EB0203FF02200203\u003E saved my life. For another to repay my debt of gratitude would be a stain on my honor. ",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_BANKJN001_02973_SHIHOUMI_000_046",
+    "original": "I...I see... Then at the very least, let me give you something. Most of these goods are worn or broken, but if anything here is to your liking, by all means.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_047",
+    "original": "(-Kabuto-)Broken?",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_BANKJN001_02973_SHIHOUMI_000_048",
+    "original": "Repairing them is part of my training as a craftsman. Thankfully the merchants of Kugane are willing to part with such wares for relatively little. Still, I hope there is something here that pleases you.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_049",
+    "original": "(-Kabuto-)What is this?",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_BANKJN001_02973_SHIHOUMI_000_050",
+    "original": "Ah, that is a karakuri puppet. Would that I knew who made it or how. Fixing it was quite the challenge. Still, the children back home will love\u2500",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_051",
+    "original": "(-Kabuto-)I would have this karakuri.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_BANKJN001_02973_SHIHOUMI_000_052",
+    "original": "Oh. That is a...fine choice. Yes, a fine choice indeed. Far be it from me to deny the Kojin who saved me his reward.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_053",
+    "original": "(-Kabuto-)\u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Meet with me at the entrance to Tamamizu. There, I will present you with a token of my thanks.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_BANKJN001_02973_SHIHOUMI_000_054",
+    "original": "A peculiar one, isn\u0027t he? Certainly not the best with words, but his heart is pure and sword true.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_BANKJN001_02973_SHIHOUMI_000_055",
+    "original": "Thank you again for your help. Delivering these home should be easy enough on my own. Take care, and safe travels.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_060",
+    "original": "You have come. Good.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_BANKJN001_02973_BUNCHIN_000_059",
+    "original": "There you are! You disobeyed me to go and search for treasures again, didn\u0027t you?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_BANKJN001_02973_BUNCHIN_000_061",
+    "original": "What\u0027s this? Ah, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. A welcome surprise. I hope Kabuto has not given you too much trouble.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_062",
+    "original": "\u003Chex:02080CE905FF04536865FF03486503\u003E saved my life, and so I wished to present \u003Chex:02080DE905FF04686572FF0468696D03\u003E a token of my gratitude. I did not realize you were acquainted. Perhaps I should take my leave...",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_BANKJN001_02973_BUNCHIN_000_063",
+    "original": "Wait, Kabuto! Where are you going? What of your gift to \u003Chex:022C0DFF07022903EB0203FF02200203\u003E?",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_064",
+    "original": "So you did not come to speak with \u003Chex:02080DE905FF04686572FF0468696D03\u003E?",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_BANKJN001_02973_BUNCHIN_000_065",
+    "original": "I was not even aware \u003Chex:02080CE905FF04736865FF03686503\u003E was here!",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_BANKJN001_02973_BUNCHIN_000_066",
+    "original": "I came here searching for you. How many times must I tell you not to go searching for treasure on your own? The Red are running amok in the Ruby Sea, you know this.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_067",
+    "original": "Yes, I went alone, and yes, I was saved by \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, but I believe it was fate. It brought us together and rewarded me with a karakuri puppet.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_BANKJN001_02973_BUNCHIN_000_068",
+    "original": "I will not deny you are a gifted fighter, but it would be foolish to mistake today\u0027s happenstance for good fortune. Though I suppose you have done worse in more favorable situations.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_069",
+    "original": "Before we continue, I wish to add today\u0027s find to the treasure vault.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_BANKJN001_02973_BUNCHIN_000_070",
+    "original": "You seem puzzled, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Ah! You must think he means to travel to the Isle of Zekki. Allow me to explain.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_BANKJN001_02973_BUNCHIN_000_071",
+    "original": "As you are well aware, the Isle of Zekki has been home to the most prized relics of both the Red and the Blue since time immemorial.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_BANKJN001_02973_BUNCHIN_000_072",
+    "original": "Though the Red guard it fiercely, they can no longer subsist on the plunder of the imperials. Now they demand that we join in their work as mercenaries and raiders. Naturally we refused, and so they deny us entry to the vault.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_BANKJN001_02973_BUNCHIN_000_073",
+    "original": "Rather than take up arms against our brothers, we have taken it upon ourselves to create a new treasure vault, here in Tamamizu.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_BANKJN001_02973_BUNCHIN_000_074",
+    "original": "To that end we have devoted a great deal of effort to searching far and wide for treasures with which to fill our vault. If certain individuals would learn not to wander off on their own, I could take comfort in knowing said efforts are not wasted.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_075",
+    "original": "The others would only slow me down...",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_BANKJN001_02973_BUNCHIN_000_076",
+    "original": "You will have to forgive Kabuto\u2500he is as stubborn as his shell is thick. But you are not here to listen to our quarrels. Come, let us make our way to the treasure vault.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_BANKJN001_02973_MAKURA_000_080",
+    "original": "Kabuto, you\u0027ve returned! What wondrous treasure have you brought us today?",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_BANKJN001_02973_SHIKITAHE_000_081",
+    "original": "You can\u0027t possibly expect to fill the vault on your own. Such a task is much too great, even for you. Let us help, brother.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_082",
+    "original": "No. I work alone.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_BANKJN001_02973_BUNCHIN_000_083",
+    "original": "Oh my! You never mentioned the puppet was a Kojin. Such detail, such craftsmanship. The kami will surely be pleased with a treasure so fine.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_BANKJN001_02973_TSUKUMO_000_084",
+    "original": "(-???-)Kabuto of the Blue!",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_BANKJN001_02973_BUNCHIN_000_085",
+    "original": "Wh-What!? Makura, was that you?",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_BANKJN001_02973_TSUKUMO_000_086",
+    "original": "(-???-)No one walks alone, Kabuto. To turn your back on your brothers and sisters would be folly of the greatest order.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_BANKJN001_02973_BUNCHIN_000_087",
+    "original": "A tsukumogami!? Oh great, divine spirit, we are humbled by your presence.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_BANKJN001_02973_TSUKUMO_000_088",
+    "original": "(-???-)Raise your heads and be proud! You have done well to gather such a glorious bounty.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_BANKJN001_02973_TSUKUMO_000_089",
+    "original": "(-???-)But the task before you is too great for a single Kojin. Kabuto, you must lead your brothers and sisters. Lead them to ever greater treasures and prosperity! ",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_BANKJN001_02973_MAKURA_000_090",
+    "original": "You have been chosen, brother!",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_091",
+    "original": "I am honored. Truly, I am. I swear on my honor our vault will overflow with riches, but I need no help to\u2500",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_BANKJN001_02973_TSUKUMO_000_092",
+    "original": "(-???-)Silence! You \u003Chex:021A020203\u003Ewill\u003Chex:021A020103\u003E form a company of treasure seekers, starting with \u003Chex:02080DE905FF04686572FF0468696D03\u003E.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_BANKJN001_02973_TSUKUMO_000_093",
+    "original": "(-???-)Yes, you\u2500\u003Chex:0209A6E948FF0F74686520666C65736879206F6E65FF137769746820746865206C6F6E67206E65636BFF1477697468207468652073686F7274206C656773FF1477697468207468652066757A7A79207461696CFF177769746820746865206D757363756C61722061726D73FF0F776974682074686520686F726E73FF177769746820746865206D757363756C61722061726D73FF1477697468207468652066756E6E79206561727303\u003E.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_094",
+    "original": "Please, divine one. There is no need to burden \u003Chex:02080DE905FF04686572FF0468696D03\u003E with\u2500",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_BANKJN001_02973_TSUKUMO_000_095",
+    "original": "(-???-)Such insolence! You call yourself a warrior, but your prowess pales before the might of \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_BANKJN001_02973_TSUKUMO_000_096",
+    "original": "(-???-)Was it not \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E who said it was fate that brought you together?",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_097",
+    "original": "Yes, but...how do you\u2500",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_BANKJN001_02973_TSUKUMO_000_098",
+    "original": "(-???-)You must accept that to which fate has bound you, Kabuto, and do so with all your heart.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_BANKJN001_02973_TSUKUMO_000_099",
+    "original": "(-???-)Henceforth, you and yours will be known as the Divine Circle. Who else shall join you in this endeavor?",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_BANKJN001_02973_KABUTO_000_100",
+    "original": "Well, there is Zukin, Makura, and Shikitahe. I mean, that is... If it isn\u0027t an inconvenience...",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_BANKJN001_02973_TSUKUMO_000_101",
+    "original": "(-???-)Where is your backbone, Kabuto? The duty placed upon you is both sudden and daunting, so your uncertainty shall be forgiven\u2500but only this once.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_BANKJN001_02973_TSUKUMO_000_102",
+    "original": "Furthermore, until you prove your resolve to be unbending and your mind focused, I, Tsukumo, will oversee your operations personally!",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_BANKJN001_02973_TSUKUMO_000_103",
+    "original": "And with that, our team is assembled. Let us set forth and seek out the untold riches of the realm that even the Red Kojin will burn with envy!",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_BANKJN001_02973_SYSTEM_000_200",
+    "original": "The Blue Kojin have begun making contributions to the treasure vault in Tamamizu.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_BANKJN001_02973_SYSTEM_000_201",
+    "original": "You have achieved \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EFriendly\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E reputation with the Kojin.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_BANKJN001_02973_SYSTEM_000_202",
+    "original": "Kojin society quests are now available from Zukin at Tamamizu.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_BANKJN001_02973_SYSTEM_000_203",
+    "original": "Furthermore, you may now purchase wares from Shikitahe.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_BANKJN001_02973_SYSTEM_000_204",
+    "original": "In order to undertake the next allied society main quest, you must first complete the main scenario quest \u201CA Silence in Three Parts.\u201D",
+    "translation": ""
+  }
+}

@@ -22,14 +22,31 @@ public static class TranslationFileReader
             {
                 if (property.Value.ValueKind == JsonValueKind.String)
                 {
-                    result[rowId] = property.Value.GetString() ?? string.Empty;
+                    var val = property.Value.GetString();
+                    if (!string.IsNullOrWhiteSpace(val))
+                    {
+                        result[rowId] = val;
+                    }
                 }
                 else if (property.Value.ValueKind == JsonValueKind.Object)
                 {
                     if (property.Value.TryGetProperty("translation", out var transProp) &&
                         transProp.ValueKind == JsonValueKind.String)
                     {
-                        result[rowId] = transProp.GetString() ?? string.Empty;
+                        var val = transProp.GetString();
+                        if (!string.IsNullOrWhiteSpace(val))
+                        {
+                            result[rowId] = val;
+                        }
+                    }
+                    else if (property.Value.TryGetProperty("translation_name", out var transNameProp) &&
+                             transNameProp.ValueKind == JsonValueKind.String)
+                    {
+                        var val = transNameProp.GetString();
+                        if (!string.IsNullOrWhiteSpace(val))
+                        {
+                            result[rowId] = val;
+                        }
                     }
                 }
             }
@@ -56,26 +73,29 @@ public static class TranslationFileReader
             {
                 string? name = null;
                 string? desc = null;
+                bool hasTranslation = false;
 
                 if (property.Value.TryGetProperty("translation_name", out var tName) && tName.ValueKind == JsonValueKind.String)
                 {
-                    name = tName.GetString();
-                }
-                else if (property.Value.TryGetProperty("name", out var n) && n.ValueKind == JsonValueKind.String)
-                {
-                    name = n.GetString();
+                    var val = tName.GetString();
+                    if (!string.IsNullOrWhiteSpace(val))
+                    {
+                        name = val;
+                        hasTranslation = true;
+                    }
                 }
 
                 if (property.Value.TryGetProperty("translation_description", out var tDesc) && tDesc.ValueKind == JsonValueKind.String)
                 {
-                    desc = tDesc.GetString();
-                }
-                else if (property.Value.TryGetProperty("description", out var d) && d.ValueKind == JsonValueKind.String)
-                {
-                    desc = d.GetString();
+                    var val = tDesc.GetString();
+                    if (!string.IsNullOrWhiteSpace(val))
+                    {
+                        desc = val;
+                        hasTranslation = true;
+                    }
                 }
 
-                if (name != null || desc != null)
+                if (hasTranslation)
                 {
                     result[rowId] = (name, desc);
                 }

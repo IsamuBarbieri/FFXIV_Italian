@@ -1,0 +1,632 @@
+{
+  "0": {
+    "tag": "TEXT_JOBWHM700_02418_SEQ_00",
+    "original": "Sylphie appears to be overwhelmed.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_JOBWHM700_02418_SEQ_01",
+    "original": "Sylphie reports that Gatty\u0027s training is proceeding as planned, but Sanche\u0027s health is in steady decline. Aid the overwhelmed acolyte by picking up the herbal remedy from the independent sutler at Castrum Oriens.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_JOBWHM700_02418_SEQ_02",
+    "original": "You have secured the potent medicine from the merchant. Travel through the forest and rejoin Sylphie at Fletcher\u0027s Cabin.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_JOBWHM700_02418_SEQ_03",
+    "original": "You return to the cabin to find Sylphie on the verge of panic. /soothe the frantic acolyte and learn what has driven her to such a state.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_JOBWHM700_02418_SEQ_04",
+    "original": "Following your efforts to calm her, Sylphie tells you of how she returned from drawing water to find that both the Padjal and her mother had vanished. The acolyte then recalls how Sanche expressed a desire to visit a cave known as the Comet\u0027s Tail one last time, and sends you there to search for the missing pair...",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_JOBWHM700_02418_SEQ_05",
+    "original": "You find Gatty and her mother inside the cave, and dispatch the voidsent poised to prey upon the Padjal. Sanche appears to have suffered another of her turns, and Gatty is clearly on the verge of panic. Administer the herbal remedy to the prone woman, and wait for it to take effect.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_JOBWHM700_02418_SEQ_06",
+    "original": "Despite your best efforts, Sanche at last succumbs to the ravages of her illness. Gatty is unable to accept her mother\u0027s fate, and the ensuing tempest of aether attracts the attention of an insidious greater voidsent. The fiend, seeking to feed on the outpouring of energy, manipulates the child into losing complete control of her aura. You engage the voidsent in battle without hesitation, whilst E\u003Chex:021F0103\u003ESumi\u003Chex:021F0103\u003EYan and Sylphie attempt to bolster Gatty\u0027s waning spirit. Gatty eventually regains control of her aether, and you succeed in casting the winged horror back into the void. Approach the grieving Padjal, and offer her what comfort you may.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_JOBWHM700_02418_SEQ_07",
+    "original": "Though devastated by the loss of her mother, Gatty realizes that her newfound control now allows her to leave her isolation in the forest. Hoping to make her mother proud, she vows to study hard, and live a life of happiness as Sanche would have wanted. With Sylphie and E\u003Chex:021F0103\u003ESumi\u003Chex:021F0103\u003EYan there to guide her, you sense that Gatty has a wonderful future awaiting her at Stillglade Fane.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe next white mage quest will be available from Raya\u003Chex:021F0103\u003EO\u003Chex:021F0103\u003ESenna once you have met the following requirements:\u003Chex:02100103\u003E\u203BYou must have completed the main scenario quest \u201CShadowbringers.\u201D\u003Chex:02100103\u003E\u203BYou must have completed the role quest \u201CThe Soul of Temperance.\u201D",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_JOBWHM700_02418_TODO_00",
+    "original": "Obtain the herbal remedy from the independent sutler at Castrum Oriens.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_JOBWHM700_02418_TODO_01",
+    "original": "Return to Sylphie.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_JOBWHM700_02418_TODO_02",
+    "original": "/soothe Sylphie.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_JOBWHM700_02418_TODO_03",
+    "original": "Find Sanche and Gatty.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_JOBWHM700_02418_TODO_04",
+    "original": "Administer the herbal remedy to Sanche.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_JOBWHM700_02418_TODO_05",
+    "original": "Speak with Gatty.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_000_000",
+    "original": "I\u0027ve been studying as much as I can, but Mama\u0027s still not getting better. Maybe...maybe if I work even harder!",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_JOBWHM700_02418_SANCHE_000_000",
+    "original": "Ah, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E...\u003Chex:02100103\u003EEach day has become a struggle to rise from bed. I cannot hunt, I can barely\u2500 Promise me you\u0027ll care for Gatty.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_JOBWHM700_02418_SYLPHIE_000_000",
+    "original": "Come to look in on us, have you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E? Brother E\u003Chex:021F0103\u003ESumi will also soon be here to gauge Gatty\u0027s progress.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_JOBWHM700_02418_SYLPHIE_000_001",
+    "original": "Her studies have actually been going rather well\u2500it\u0027s Sanche I\u0027m worried about. Please don\u0027t say anything to Gatty yet, but I fear her mother may be near her time...",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_JOBWHM700_02418_SYLPHIE_000_002",
+    "original": "I\u0027ve suspended lessons for the moment, and had the two of them spend every waking moment together. Treating Sanche has left me too exhausted to teach in any case.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_JOBWHM700_02418_SYLPHIE_000_003",
+    "original": "As for her medicine, another batch should have arrived at the castrum by now. I need to draw the spring water I use to dilute the dose, so would you mind picking up the delivery from the sutler for me? We\u0027ll meet back here.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_000_009",
+    "original": "Mama... Why won\u0027t you open your eyes...?",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_JOBWHM700_02418_SANCHE_000_009",
+    "original": "...",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_JOBWHM700_02418_SUPPORTER02418_000_010",
+    "original": "You\u0027ve come on young Sylphie\u0027s behalf, have you? I\u0027ve got her delivery right here\u2500rushed it through on the back of our swiftest chocobo.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_JOBWHM700_02418_SUPPORTER02418_000_011",
+    "original": "Seems her patient\u0027s in a bad way, eh? Well, I\u0027ll say my own prayers to the Matron and hope the medicine does the trick.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_JOBWHM700_02418_SYLPHIE_000_020",
+    "original": "Sanche!? Gatty!? Please, no more hiding now...\u003Chex:02100103\u003EOh, where could they have gone!?",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_JOBWHM700_02418_SYSTEM_000_021",
+    "original": "Sylphie seems to be in a panic. Do your best to \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Esoothe\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E her.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_JOBWHM700_02418_SYLPHIE_000_028",
+    "original": "This isn\u0027t funny! Please! Please, come out...",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_JOBWHM700_02418_SYSTEM_000_029",
+    "original": "Sylphie seems to be in a panic. Do your best to \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Esoothe\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E her.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_JOBWHM700_02418_SYLPHIE_000_030",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E! I... Thank you. If ever I needed your calming presence, it\u0027s now.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_JOBWHM700_02418_SYLPHIE_000_031",
+    "original": "I came back with the spring water to find Gatty\u0027s hat upon the floor and the two of them vanished. Sanche could barely move! Where in Hydaelyn could they have gone!?",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_JOBWHM700_02418_Q1_000_000",
+    "original": "Where could they have gone?",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_JOBWHM700_02418_A1_000_001",
+    "original": "They\u0027ve run away again.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_JOBWHM700_02418_A1_000_002",
+    "original": "They can\u0027t have gone far.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_JOBWHM700_02418_SYLPHIE_000_032",
+    "original": "Run away? But from what? Gatty was doing wonderfully with her training\u2500there hasn\u0027t been another voidsent attack since the river.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_JOBWHM700_02418_SYLPHIE_000_033",
+    "original": "You\u0027re right. Gatty\u0027s been doing wonderfully with her training, so there\u0027s no reason for them to run away.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_JOBWHM700_02418_SYLPHIE_000_034",
+    "original": "...Ah, I think I might have it! I\u0027ve heard Sanche talking about a cave called the \u201CComet\u0027s Tail,\u201D and how she wanted to visit it again before...before it was too late.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_JOBWHM700_02418_SYLPHIE_000_035",
+    "original": "I said we\u0027d head straight there when she was well enough, but she may have convinced Gatty to help her sneak out.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_JOBWHM700_02418_SYLPHIE_000_036",
+    "original": "Brother E\u003Chex:021F0103\u003ESumi is likely on his way. I\u0027ll go and intercept him while you head to the cave. If you find them there, make sure Sanche takes her medicine!",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_000_040",
+    "original": "Mama! You have to get up...",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_JOBWHM700_02418_SANCHE_000_040",
+    "original": "\u003Cgroan\u003E",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_000_049",
+    "original": "Mama, don\u0027t leave me... Please, you have to help her!",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_JOBWHM700_02418_SANCHE_000_050",
+    "original": "\u003Cgroan\u003E",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_100_050",
+    "original": "Mama... Mama, please... Don\u0027t leave me alone...",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_JOBWHM700_02418_SANCHE_000_051",
+    "original": "\u003Cgroan\u003E Ugh...",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_000_052",
+    "original": "Why isn\u0027t the medicine working!? Mama? Mama! Open your eyes!",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_000_053",
+    "original": "I can\u0027t... I\u0027m losing control...",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_100_053",
+    "original": "No, I must own my fear.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_101_053",
+    "original": "Feel the ground beneath my feet; the flow of wind and water!",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_000_054",
+    "original": "Nicely done, Gatty. You have made remarkable progress since last we met.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_100_054",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, Sylphie, you have instructed her well.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_JOBWHM700_02418_SYLPHIE_000_055",
+    "original": "Don\u0027t worry! We\u0027ll look after your mama!",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_JOBWHM700_02418_SANCHE_000_056",
+    "original": "It\u0027s so beautiful...\u003Chex:02100103\u003EThank you for bringing me here...one last time.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_000_057",
+    "original": "Don\u0027t say that, Mama! I\u0027ll learn conjury, and once you\u0027re better we can come here every day!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_100_057",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E... It is thanks to your and Sylphie\u0027s efforts that Sanche has held on this long.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_000_058",
+    "original": "And yet, there are limits to the healing arts. Each life comes to an end, and even a conjurer cannot undo that which fate has ordained.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_100_058",
+    "original": "Take heart, however, in knowing that your care and attention is what has allowed these irreplaceable moments between mother and daughter...",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_JOBWHM700_02418_SANCHE_000_059",
+    "original": "My precious girl...\u003Chex:02100103\u003EYou have filled my days with love...",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_JOBWHM700_02418_SANCHE_100_059",
+    "original": "But I was selfish...and that selfishness has brought you pain. For that, I am truly sorry...",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_101_057",
+    "original": "Mama!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_JOBWHM700_02418_SANCHE_102_059",
+    "original": "My love... My light... I pray you find such happiness as I have known...",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_JOBWHM700_02418_SANCHE_103_059",
+    "original": "Thank you...all of you. Watch over her...",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_000_060",
+    "original": "No... No. NO!!!",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_100_060",
+    "original": "This can\u0027t be happening... I promised Mama...",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_JOBWHM700_02418_SYLPHIE_100_060",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u2605\uFF09",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_JOBWHM700_02418_SYLPHIE_000_061",
+    "original": "Oh no...",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_JOBWHM700_02418_BOSSWHM700_000_062",
+    "original": "(-Sinister Voice-)Mmm... So very close. Heed my words, then...",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_100_062",
+    "original": "How long has this fiend lurked within Sanche, awaiting this very moment...?",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_JOBWHM700_02418_BOSSWHM700_101_062",
+    "original": "(-Sinister Voice-)Terrible child. Dragging around your sick mother. You have killed her! Accept the evil you have done, and atone with your very life!",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_000_063",
+    "original": "But, I didn\u0027t... I killed her...?",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_JOBWHM700_02418_BOSSWHM700_000_064",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u2605\uFF09",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_000_065",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u2605\uFF09",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_JOBWHM700_02418_SYLPHIE_000_065",
+    "original": "Ignore it, Gatty!",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_000_066",
+    "original": "But I did bring Mama here...\u003Chex:02100103\u003EIt was me. \u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E killed her...",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_000_067",
+    "original": "Aaah!!!",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_000_068",
+    "original": "The voidsent has sunk its hooks into Gatty\u0027s spirit. We must destroy it ere her life force is drained away!",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_JOBWHM700_02418_QIB_001_TODO_1",
+    "original": "Defeat Camazotz!",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_JOBWHM700_02418_QIB_001_GATTY_HP_TODO",
+    "original": "Gatty\u0027s life force",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_JOBWHM700_02418_BOSSWHM700_BATTLETALK_01",
+    "original": "Revile what you have become, murderer! Surrender your life to me!",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_BATTLETALK_00",
+    "original": "We will help Gatty resist this trance, but the voidsent must be slain!",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_JOBWHM700_02418_SYLPHIE_BATTLETALK_02",
+    "original": "Remember the elements, Gatty! Let wind and water calm your mind!",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_BATTLETALK_03",
+    "original": "Do not give in to despair!\u003Chex:02100103\u003EIt is what the voidsent wants!",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_JOBWHM700_02418_BOSSWHM700_BATTLETALK_04",
+    "original": "All who stand with you will die! Revel in the depth of your atrocity!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_BATTLETALK_04",
+    "original": "Sylphie!?",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_BATTLETALK_00",
+    "original": "No, not you, too...\u003Chex:02100103\u003EThis is all my fault!",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_BATTLETALK_01",
+    "original": "Aaaaaah!",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_BATTLETALK_02",
+    "original": "No! She\u0027s losing too much aether!",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_BATTLETALK_12",
+    "original": "I will try to staunch the flow.\u003Chex:02100103\u003E\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, slay the voidsent!",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_BATTLETALK_13",
+    "original": "The candle of life burns down for us all.\u003Chex:02100103\u003EYou cannot punish yourself...",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_BATTLETALK_06",
+    "original": "Gatty, remember what your mother wanted for you!",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_BATTLETALK_02",
+    "original": "What Mama wanted...?",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_BATTLETALK_14",
+    "original": "Yes, think back on her words!",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_BATTLETALK_15",
+    "original": "Say them, Gatty! Hear yourself say them!",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_BATTLETALK_03",
+    "original": "\u201CI pray you find such happiness...\u201D",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_BATTLETALK_07",
+    "original": "Well done, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!\u003Chex:02100103\u003EI will rouse Sylphie\u2500pray focus your art upon her.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_JOBWHM700_02418_SYLPHIE_BATTLETALK_08",
+    "original": "Thank you, Guildmaster.\u003Chex:02100103\u003E\u003Chex:022C0DFF07022903EB0203FF02200203\u003E...I need your healing touch...",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_JOBWHM700_02418_QIB_001_TODO_2",
+    "original": "Heal Sylphie!",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_JOBWHM700_02418_SYLPHIE_BATTLETALK_13",
+    "original": "We won\u0027t let you go, Gatty!",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_BATTLETALK_11",
+    "original": "Draw on our strength! Remember your mother\u0027s love!",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_BATTLETALK_04",
+    "original": "I... I\u0027m in control now. Thank you...",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_JOBWHM700_02418_QIB_001_TODO_3",
+    "original": "Defeat Camazotz!",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_BATTLETALK_09",
+    "original": "Mama, I know what you wanted for me...\u003Chex:02100103\u003EAnd I think I\u0027ve found it...",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_BATTLETALK_10",
+    "original": "You\u0027ve done well, Gatty.\u003Chex:02100103\u003ENow, let us banish this foul creature from our midst!",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_BOSSWHM700_BATTLETALK_08",
+    "original": "Foolish girl! Your right to love is forfeit! You belong to me!",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_BATTLETALK_05",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u2605\uFF09",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_BATTLETALK_DEAD",
+    "original": "Was this foe beyond us...?",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_BATTLETALK_DEAD",
+    "original": "I never should\u0027ve... I\u0027m sorry...",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_JOBWHM700_02418_SYLPHIE_BATTLETALK_DEAD",
+    "original": "This can\u0027t be...\u003Chex:02100103\u003EI gave all I had...",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_JOBWHM700_02418_BOSSWHM700_BATTLETALK_DEAD",
+    "original": "Your feeble magicks are...ah...AAAHHH!",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_000_069",
+    "original": "With the voidsent vanquished, Gatty has been freed of its debilitating influence. We need not fear her losing control again.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_JOBWHM700_02418_SYLPHIE_000_069",
+    "original": "Gatty is a fighter, but I think she needs a strong shoulder right now...",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_000_070",
+    "original": "When Mama died, it was as if I\u0027d fallen into a deep, dark hole. My mind was full of screaming...and then I heard your voices from somewhere far away, calling me back.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_000_071",
+    "original": "I heard Mama\u0027s voice, too. That\u0027s when I knew that she would always be at my side...",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_000_072",
+    "original": "I\u0027ll do my best to make her proud of me!",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_000_073",
+    "original": "With the strength you\u0027ve shown, there is already much of which to be proud. Your aether is tranquil. Calm.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_000_074",
+    "original": "I see no need to enforce further training at the guild...though its doors are open to you, nonetheless. Will you return with us to Gridania?",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_000_075",
+    "original": "...I\u0027d always thought Mama wanted to live alone with me, away from other people. So I tried to forget about wanting friends, or traveling to other places.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_000_076",
+    "original": "But now, I think what she really wanted was to let me find my own way. And thanks to Sylphie\u0027s lessons, there\u0027s no need to hide in the forest anymore.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_000_077",
+    "original": "I will go to Gridania. I want to study more conjury, and learn to fight fiends as well as \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_JOBWHM700_02418_GATTY_000_080",
+    "original": "And I still have so much to learn from Sylphie.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_JOBWHM700_02418_SYLPHIE_000_081",
+    "original": "We\u0027ll keep studying together, I promise. Although we both have far to go before we\u0027re a match for \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_000_082",
+    "original": "Well, well, Sylphie. Making promises to \u003Chex:021A020203\u003Estudy\u003Chex:021A020103\u003E? \u0027Twould seem that mentoring Gatty has proven beneficial to you both.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_JOBWHM700_02418_ESUMIYAN_000_083",
+    "original": "\u0027Tis time we were on our way. We shall hold a memorial for Sanche, then see about settling you into your new life at Stillglade Fane.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_JOBWHM700_02418_SYSTEM_000_500",
+    "original": "This concludes the white mage quests for FINAL FANTASY XIV: Stormblood. In order to undertake the next series of quests, you must first meet the following requirements:",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_JOBWHM700_02418_SYSTEM_000_501",
+    "original": "\u203BYou must have completed the main scenario quest \u201CShadowbringers.\u201D",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_JOBWHM700_02418_SYSTEM_000_502",
+    "original": "\u203BYou must have completed the role quest \u201CThe Soul of Temperance.\u201D",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_JOBWHM700_02418_SYSTEM_000_503",
+    "original": "Once you have done so, the next white mage quest will be available from Raya\u003Chex:021F0103\u003EO\u003Chex:021F0103\u003ESenna.",
+    "translation": ""
+  }
+}

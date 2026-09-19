@@ -1,0 +1,592 @@
+{
+  "0": {
+    "tag": "TEXT_CLSARC004_00070_SEQ_00",
+    "original": "Guildmaster Luciane wants you to go to Buscarron\u0027s Druthers.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_CLSARC004_00070_SEQ_01",
+    "original": "The Archers\u0027 Guild has received a petition from a man named Buscarron, who runs a tavern in the South Shroud. Take yourself to Buscarron\u0027s Druthers and speak with the proprietor.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_CLSARC004_00070_SEQ_02",
+    "original": "Buscarron asks you to investigate a gang of poachers who he believes are led by the infamous Pawah Mujuuk. Search the forest for any clues to their whereabouts.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_CLSARC004_00070_SEQ_03",
+    "original": "You discover several suspicious objects in the forest northwest of Buscarron\u0027s Druthers. Return to the tavern and share your findings with Leih and Silvairre.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_CLSARC004_00070_SEQ_04",
+    "original": "Silvairre suspects that the bottles were taken from Buscarron\u0027s famous cache of home-brewed mead, thought lost in the fall of his former guard post. Investigate Buscarron\u0027s Scar for signs of recent activity.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_CLSARC004_00070_SEQ_05",
+    "original": "At Buscarron\u0027s Scar, you are ambushed by Pawah Mujuuk and her gang of poachers. A skirmish ensues, during which you successfully repel the enemy. Bear word of this to Buscarron, who awaits you back at the Druthers.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_CLSARC004_00070_SEQ_06",
+    "original": "Clearly nettled by the thought of the poachers helping themselves to his prized mead, Buscarron takes great pleasure in the tale of their comeuppance. With the situation under control, you can now return to the Archers\u0027 Guild and report all that transpired to Luciane.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_CLSARC004_00070_SEQ_07",
+    "original": "At the Archers\u0027 Guild, Luciane praises you for your outstanding service at Buscarron\u0027s Scar. She then thanks you for helping Leih and Silvairre to cooperate, and bids you continue working for the benefit of the guild. Your efforts thus validated, you resume your training with heretofore unseen fervor.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe next archer quest will be available from Luciane upon reaching level 25.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_CLSARC004_00070_TODO_00",
+    "original": "Speak with Buscarron.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_CLSARC004_00070_TODO_01",
+    "original": "Search for clues.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_CLSARC004_00070_TODO_02",
+    "original": "Consult with Leih and Silvairre.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_CLSARC004_00070_TODO_03",
+    "original": "Investigate Buscarron\u0027s Scar.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_CLSARC004_00070_TODO_04",
+    "original": "Report to Buscarron.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_CLSARC004_00070_TODO_05",
+    "original": "Report to Luciane.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_CLSARC004_00070_LUCIANE_000_1",
+    "original": "You come at a good time, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I have a task for you.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_CLSARC004_00070_LUCIANE_000_2",
+    "original": "A petition has arrived from the proprietor of Buscarron\u0027s Druthers, out in the South Shroud.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_CLSARC004_00070_LUCIANE_000_3",
+    "original": "The petitioner, Buscarron himself, has requested our assistance in dealing with a gang of poachers. I would have the three of you meet with him and investigate his claims.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_CLSARC004_00070_LEIHALIAPOH_000_4",
+    "original": "The \u003Chex:021A020203\u003Ethree\u003Chex:021A020103\u003E of us? You mean, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, myself, and...?",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_5",
+    "original": "It would be better if I went alone, Luciane. The Miqo\u0027te and...the other one will only encumber me.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_CLSARC004_00070_LUCIANE_000_6",
+    "original": "No, Silvairre, you will go as three. Also, it is past time you recognized \u003Chex:022C0DFF07022903EB0203FF02200203\u003E as a fellow archer.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_7",
+    "original": "I will not. I have held my tongue on the matter of \u003Chex:02080DE905FF04686572FF0468697303\u003E continued presence here, but I will bend no further.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_CLSARC004_00070_LEIHALIAPOH_000_8",
+    "original": "Who in the seven hells do you think you are\u2500Bowlord Lewin!? In case you\u0027ve forgotten, you aren\u0027t even a Quiverman anymore!",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_9",
+    "original": "That may be, but I have shed blood defending our borders\u2500unlike you, savage.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_CLSARC004_00070_LEIHALIAPOH_000_10",
+    "original": "\u0022Savage\u201C!? You know \u003Chex:021A020203\u003Enothing\u003Chex:021A020103\u003E about me, you bigoted son of a\u2500",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_CLSARC004_00070_LUCIANE_000_11",
+    "original": "Enough!",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_CLSARC004_00070_LUCIANE_000_12",
+    "original": "But one more word and you shall have cause to regret your petulance. The three of you \u003Chex:021A020203\u003Ewill\u003Chex:021A020103\u003E go to Buscarron\u0027s Druthers in the South Shroud. Now, out of my sight!",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_CLSARC004_00070_BUSCARRON_000_20",
+    "original": "Ah, you lot must be from the Archers\u0027 Guild. Welcome, friends.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_CLSARC004_00070_BUSCARRON_000_21",
+    "original": "Now, as your guildmaster will have said, I put in a request for some keen-eyed archers to help me track down a gang of poachers that\u0027ve been plaguing these parts.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_22",
+    "original": "If I may\u2500it is not uncommon to find poachers in this region. While regrettable, neither the Gods\u0027 Quiver nor the Wood Wailers deem them worthy of attention. Why, then, did you imagine them worthy of ours?",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_CLSARC004_00070_BUSCARRON_000_23",
+    "original": "\u0027Cause these ain\u0027t no common poachers. They\u0027re Pawah Mujuuk\u0027s gang.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_24",
+    "original": "...",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_CLSARC004_00070_BUSCARRON_000_25",
+    "original": "They say she and hers are always moving, staying one step ahead. But I reckon she\u0027s hiding out here somewhere.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_CLSARC004_00070_BUSCARRON_000_26",
+    "original": "Thing is, I can\u0027t just send my people out searching. I made a pact with the Redbelly bandits, see\u2500we stay out of their territory, and they don\u0027t make no trouble at the Druthers.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_CLSARC004_00070_BUSCARRON_000_27",
+    "original": "That being so, if I summoned the massed ranks of the Wailers and the Quivermen, all seven hells would swiftly break loose...assuming they thought the matter \u003Chex:021A020203\u003Eworthy of their attention\u003Chex:021A020103\u003E, of course. Needless to say, that\u0027s not an option. As luck would have it, though, I\u0027ve got three keen-eyed archers to take care of things instead\u2500and all without raising no alarms.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_28",
+    "original": "...We understand. You may leave the matter to us.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_29",
+    "original": "Leih, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u2500split up and scour the area for any sign of the poachers.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_30",
+    "original": "Should you discover anything, return here and wait. We will reconvene to compare our findings ere long. Go.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_40",
+    "original": "An iron leg trap and a poacher\u0027s arrow... These are both evidence of illegal activity, but nothing that will help us find Pawah.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_41",
+    "original": "And these mead bottles are but old refuse, from before the Druthers was even built. They have no connection to the gang.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_CLSARC004_00070_LEIHALIAPOH_000_42",
+    "original": "...What do you know of this Pawah woman, Silvairre?",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_43",
+    "original": "I know that she is the most infamous poacher ever to walk the Twelveswood.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_44",
+    "original": "A born leader, deadly with the bow, she formed her own gang of Miqo\u0027te hunters.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_45",
+    "original": "She was apprehended once, and would have been brought to justice...had she not tricked a foolish young sentry into releasing her, before vanishing without a trace.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_CLSARC004_00070_LEIHALIAPOH_000_46",
+    "original": "...Is that so?",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_CLSARC004_00070_LEIHALIAPOH_000_47",
+    "original": "In any case, we\u0027ve scoured the area and found nothing. How do we know that this Pawah was ever even here?",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_CLSARC004_00070_LEIHALIAPOH_000_48",
+    "original": "I say we inform the Gods\u0027 Quiver and the Wood Wailers, taking care not to implicate Buscarron, and leave the rest to them. This doesn\u0027t concern the Archers\u0027 Guild.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_49",
+    "original": "It concerns \u003Chex:021A020203\u003EGridania\u003Chex:021A020103\u003E, Leih! Pawah Mujuuk is a savage and utterly amoral poacher whose actions, however indirectly, threaten the city\u0027s well-being.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_50",
+    "original": "But what would a vagrant like you know of duty to one\u0027s homeland? No more than \u003Chex:021A020203\u003E\u003Chex:02080CE905FF04736865FF03686503\u003E\u003Chex:021A020103\u003E, I suspect.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_CLSARC004_00070_LEIHALIAPOH_000_51",
+    "original": "How dare you! And you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u2500say something!",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_CLSARC004_00070_Q1_000_1",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_CLSARC004_00070_A1_000_1",
+    "original": "Now is not the time for this!",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_CLSARC004_00070_A1_000_2",
+    "original": "...",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_55",
+    "original": "You see? Even \u003Chex:02080CE905FF04736865FF03686503\u003E knows it to be true. \u003Chex:02080DE905FF04486572FF0448697303\u003E silence speaks volumes.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_CLSARC004_00070_LEIHALIAPOH_000_56",
+    "original": "Damn it, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u2500say something!",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_60",
+    "original": "Hmph. Very well. We will return to the matter at hand. Mayhap we should take a second look at the clues we have gathered.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_CLSARC004_00070_LEIHALIAPOH_000_61",
+    "original": "Look all you want. Though the trap and the arrow we found suggest poaching, there is nothing remotely unusual about them.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_CLSARC004_00070_LEIHALIAPOH_000_62",
+    "original": "What do \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E think we should examine, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E?",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_CLSARC004_00070_Q2_000_1",
+    "original": "What will you examine?",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_CLSARC004_00070_A2_000_1",
+    "original": "The poacher\u0027s arrow.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_CLSARC004_00070_A2_000_2",
+    "original": "The iron leg trap.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_CLSARC004_00070_A2_000_3",
+    "original": "The empty mead bottles.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_65",
+    "original": "We know that this is a poacher\u0027s arrow. Beyond that, it tells us nothing.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_66",
+    "original": "This trap is a common tool used for hunting beasts.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_67",
+    "original": "Such devices do not distinguish between friend and foe, and have been the cause of much tragedy for both man and chocobo. Gridanian hunters would never stoop so low.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_68",
+    "original": "Poachers, meanwhile, are wont to litter the forest floor with these accursed things. That said, I see nothing here that will lead us to Pawah.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_70",
+    "original": "Why are you still carrying that rubbish? I told you, those bottles predate the Druthers. They have no connection with this matter.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_CLSARC004_00070_LEIHALIAPOH_000_71",
+    "original": "...But if these bottles are so old, why do they retain the scent of mead? They must surely have been opened recently.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_72",
+    "original": "Wait. Before the Calamity, Buscarron once served as a sentry. Yet even then, he sometimes spoke of owning his own tavern...and it was an open secret that he was brewing his own private stock. If some survived...",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_73",
+    "original": "Of course! Buscarron\u0027s Scar\u2500his old lookout post!",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_74",
+    "original": "It may not be Pawah Mujuuk, but we must investigate at once!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_0001",
+    "original": "Any signs?",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_CLSARC004_00070_LEIHALIAPOH_000_0002",
+    "original": "Look\u2500the ground is covered in Miqo\u0027te footprints.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_CLSARC004_00070_LEIHALIAPOH_000_0003",
+    "original": "These tracks are fresh\u2500\u003Chex:021A020203\u003Every\u003Chex:021A020103\u003E fresh. I\u0027ll wager the bandits were alerted to our coming and fled...else they\u0027re hiding near\u2500",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_0004",
+    "original": "Take cover!",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_CLSARC004_00070_PAWAHMUJUUK_000_0005",
+    "original": "...Eh? An\u0027 there I was thinkin\u0027 we\u0027d caught usselves some o\u0027 them meddlin\u0027 bloody masqueraders...",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_CLSARC004_00070_PAWAHMUJUUK_000_0006",
+    "original": "Not that I\u0027m complainin\u0027\u2500hidin\u0027 yer face\u0027s downright bloody \u003Chex:021A020203\u003Erude\u003Chex:021A020103\u003E when ye ain\u0027t been introduced.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_CLSARC004_00070_PAWAHMUJUUK_000_0007",
+    "original": "Speakin\u0027 of ill manners, don\u0027t ye know it ain\u0027t decent to barge yer way into a lady\u0027s bedchamber without knockin\u0027!?",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_0008",
+    "original": "...You would lecture us on manners? Truly, I have heard it all.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_0009",
+    "original": "They have us outnumbered. We had best split up.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_CLSARC004_00070_LEIHALIAPOH_000_0010",
+    "original": "The leader\u0027s mine! I\u0027ll try to isolate her from her litter!",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_CLSARC004_00070_LEIHALIAPOH_000_0011",
+    "original": "Silvairre, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u2500the rest I leave to you two.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_0012",
+    "original": "As you will.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_1001",
+    "original": "Was that the last of them?",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_1002",
+    "original": "Have you seen Aliapoh?",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_1003",
+    "original": "With me, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_CLSARC004_00070_PAWAHMUJUUK_000_1004",
+    "original": "Tsk-tsk. That was a piss-poor showin\u0027, sister.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_CLSARC004_00070_PAWAHMUJUUK_000_1005",
+    "original": "An\u0027 ye call yerself a Keeper? A hunter with no fangs ain\u0027t nothin\u0027 but \u003Chex:021A020203\u003Eprey\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_CLSARC004_00070_LEIHALIAPOH_000_1006",
+    "original": "No!",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_CLSARC004_00070_PAWAHMUJUUK_000_1007",
+    "original": "Awww, bugger. Looks like playtime\u0027s over.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_CLSARC004_00070_PAWAHMUJUUK_000_1008",
+    "original": "Be seein\u0027 ye, sister!",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_000_100",
+    "original": "So it was Pawah Mujuuk after all. Buscarron must be informed.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_CLSARC004_00070_LEIHALIAPOH_000_105",
+    "original": "Pawah Mujuuk... I...I was no match for her...",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_CLSARC004_00070_BUSCARRON_000_80",
+    "original": "Seven hells! They were at my old post? And they drank my old mead!?",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_CLSARC004_00070_BUSCARRON_000_81",
+    "original": "That stings most of all... Well, \u0027tis past time the proper authorities were informed. I\u0027ll send messengers to the Wood Wailers and Gods\u0027 Quiver.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_CLSARC004_00070_BUSCARRON_000_82",
+    "original": "The Redbelly bandits won\u0027t like it one bit, but I\u0027ll see they\u0027re told exactly who the military is after. I only hope it\u0027ll be enough...",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_CLSARC004_00070_BUSCARRON_000_83",
+    "original": "\u0027Course, Pawah Mujuuk\u0027s no fool. Now she knows she\u0027s been spotted, she\u0027ll break camp and be long gone by the time the next bell sounds. And the trail won\u0027t stay fresh long, neither...",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_CLSARC004_00070_BUSCARRON_000_84",
+    "original": "Anyway, you\u0027ve done me a great kindness, friends. Tell Luciane I appreciate the help.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_CLSARC004_00070_LUCIANE_000_90",
+    "original": "Welcome back, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Silvairre tells me that you encountered Pawah Mujuuk.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_CLSARC004_00070_LUCIANE_000_91",
+    "original": "No Gridanian could fail to recognize that name, so oft has it been spoken, and with such bitterness.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_CLSARC004_00070_LUCIANE_000_92",
+    "original": "I fear we lack the strength to face her ourselves. This is a matter for the Gods\u0027 Quiver and Wood Wailers.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_CLSARC004_00070_LUCIANE_000_93",
+    "original": "That you confronted her and survived is a testament to your growing mastery of our art. Ah, and I was surprised to note that Leih and Silvairre were not at loggerheads upon their return. I presume we owe this unnatural state of affairs to your calming influence?",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_CLSARC004_00070_LUCIANE_000_94",
+    "original": "...No? Modest to the last. Truly, your every deed bespeaks a clarity of vision far beyond your years.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_CLSARC004_00070_LUCIANE_000_95",
+    "original": "I implore you to share that perspective with your peers and help them to grow into better, wiser archers.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_CLSARC004_00070_LUCIANE_000_96",
+    "original": "As you go forth and temper your skills in battle, know that we always look forward to your return.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_CLSARC004_00070_POP_MESSAGE",
+    "original": "You sense a hostile presence!",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_CLSARC004_00070_QIB_TODO_001",
+    "original": "Defeat the poachers!",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_CLSARC004_00070_INSTANCE_BATTLE_YESNO_TITLE",
+    "original": "Duty calls. Do you wish to proceed with\u003Chex:02100103\u003E\u201CTo Catch a Poacher\u201D?",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_CLSARC004_00070_INSTANCE_BATTLE_YESNO_YES",
+    "original": "Yes",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_CLSARC004_00070_INSTANCE_BATTLE_YESNO_NO",
+    "original": "No",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_CLSARC004_00070_UNNOWN_BATTLETALK_01",
+    "original": "For Pawah! Get the bastards!",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_BATTLETALK_01",
+    "original": "Focus on my target, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! We can take them down faster if we work together!",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_CLSARC004_00070_UNNOWN_BATTLETALK_02",
+    "original": "Don\u0027t let them get away!",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_BATTLETALK_02",
+    "original": "We cannot allow that conjurer to draw this out!",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_BATTLETALK_03",
+    "original": "Remember your techniques! Finish her quickly while she is weak!",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_CLSARC004_00070_UNNOWN_BATTLETALK_03",
+    "original": "Bloody hells! Why won\u0027t you two die!?",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_BATTLETALK_04",
+    "original": "Stay on your toes, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! This lot is quicker than the rest!",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_BATTLETALK_05",
+    "original": "Watch their movements and dodge their attacks!",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_CLSARC004_00070_SILVAIRRE_BATTLETALK_DEAD",
+    "original": "Ugh... Hmph...",
+    "translation": ""
+  }
+}

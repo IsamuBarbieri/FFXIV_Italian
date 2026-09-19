@@ -1,0 +1,782 @@
+{
+  "0": {
+    "tag": "TEXT_CHRHDB811_04542_SEQ_00",
+    "original": "The pungent Lalafell can scarcely conceal his excitement.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_CHRHDB811_04542_SEQ_01",
+    "original": "Strolling through the streets of Radz\u003Chex:021F0103\u003Eat\u003Chex:021F0103\u003EHan, you encounter a strangely familiar Lalafell. He proudly identifies himself as the selfsame youth you met once upon a time in Kugane...who happens to have an unhealthy obsession with Nashu Mhakaracca. It seems the apple of his eye has once again found herself in a pickle, and is greatly distressed by the condition of one Hildibrand\u2500agent of enquiry, inspector extraordinaire. Curious as to what fate has befallen the redoubtable gentleman\u2500you make for the High Crucible to learn more.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_CHRHDB811_04542_SEQ_02",
+    "original": "Following events in the Far East in which Nashu and Hildibrand were sucked into a foreboding portal\u2500along with Gilgamesh, notorious weapon thief, and Jubraca, an unscrupulous Hannish merchant\u2500your associates found themselves wandering the \u201CInterspectorial Rift\u201D for a time. Eventually, with the aid of a recovered Gilgamesh, the other three managed to return to the Source. However, while Nashu was none the worse for wear, Hildibrand emerged in a comatose state for reasons yet unknown. The inspector\u0027s plucky assistant has attempted to fashion medicines to revive him, but to no avail. Hoping you might have some insight into his condition, she invites you to join her in Kama at the residence where the inspector is convalescing.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_CHRHDB811_04542_SEQ_03",
+    "original": "Examining the unconscious body of Hildibrand, you conclude that, like the Scions before him, his soul has been summoned to another world\u2500likely the First. Nashu, understandably, is not quite able to grasp the situation, but she is nevertheless heartened that you might be able to bring him back. Entrusting you with her homemade explosives should you have need of them, she bids you a safe journey, and you prepare to depart for the Crystarium. With luck, you will track down the gentleman inspector\u0027s wandering spirit.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_CHRHDB811_04542_SEQ_04",
+    "original": "You pay a visit to the Wandering Stairs, where Glynard informs you that one of the veteran bounty hunters mentioned a suspicious individual wont to strike unseemly poses. After listening to the account of said bounty hunter, the dwarf Giott, you are all but convinced that the man in question is none other than Inspector Hildibrand. You are subsequently approached by the former guardsmen Theyler and Vonard, who coincidentally enough are also on the trail of the infamous poser. United by a common goal, you and your comrades depart for Sullen, where the man was last spotted.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_CHRHDB811_04542_SEQ_05",
+    "original": "While the various witnesses in Sullen offer conflicting reports, the picture they paint of the mystery man is one which suggests that, despite his ghastly appearance and disturbing poses, he is a gentlemanly soul at heart. With no doubt remaining that you are on the inspector\u0027s trail, you go to share your findings with Theyler and Vonard.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_CHRHDB811_04542_SEQ_06",
+    "original": "Theyler and Vonard are pleased to hear of your success, and somewhat relieved that the poser has proved relatively benign thus far. The three of you resolve to scour the Forest of the Lost Shepherd, where the eyewitnesses claim to have encountered your quarry.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_CHRHDB811_04542_SEQ_07",
+    "original": "Sure enough, you soon come upon a Hildibrand seemingly bereft of his memories and looking a bit pale in the face. Fortunately, a judicious application of Nashu\u0027s Delight is enough to make the inspector remember who he is. In that instant, you and your companions are granted a vision by the Echo, which reveals in ludicrous detail how a chance encounter with Giott led Hildibrand to believe he was a Lightwarden extraordinaire. In any event, having been disabused of such notions, Hildibrand strikes his trademark pose and announces his triumphant return to his adoring fans.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_CHRHDB811_04542_TODO_00",
+    "original": "Speak with Nashu Mhakaracca.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_CHRHDB811_04542_TODO_01",
+    "original": "Speak with Nashu Mhakaracca again.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_CHRHDB811_04542_TODO_02",
+    "original": "Speak with Glynard at the Crystarium.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_CHRHDB811_04542_TODO_03",
+    "original": "Question the locals in Sullen.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_CHRHDB811_04542_TODO_04",
+    "original": "Speak with Theyler.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_CHRHDB811_04542_TODO_05",
+    "original": "Speak with Theyler again.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_CHRHDB811_04542_OKKAKE_000_000",
+    "original": "Wait, I know you! We met in Kugane! You\u0027re that stone-cold killer I asked to look after the love of my life!",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_CHRHDB811_04542_OKKAKE_000_001",
+    "original": "What\u0027s that look for? Surely you haven\u0027t forgotten me. You and me, we had a \u003Chex:021A020203\u003Emoment\u003Chex:021A020103\u003E\u2500a connection! Not like the one I\u0027ve got with her, of course, but I \u003Chex:021A020203\u003Eknow\u003Chex:021A020103\u003E I left an impression!",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_CHRHDB811_04542_Q4_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_CHRHDB811_04542_A4_000_001",
+    "original": "...The creepy little bastard who smells like cheese and followed Nashu to Kugane after stalking her for over five years?",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_CHRHDB811_04542_A4_000_002",
+    "original": "Frankly, considering how many blows to the head I\u0027ve taken, I\u0027m lucky I haven\u0027t forgotten my own name.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_CHRHDB811_04542_OKKAKE_000_002",
+    "original": "Hey! There\u0027s nothing \u003Chex:021A020203\u003Ecreepy\u003Chex:021A020103\u003E about my love! It\u0027s as pure as the pristine waters of a forest stream! \u003Csniff\u003E \u003Csniff\u003E ...Fair point about the cheese stink, though.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_CHRHDB811_04542_OKKAKE_000_003",
+    "original": "Head trauma notwithstanding, I\u0027m still offended! At the very least, surely my love for my sultry muse\u2500my innocent and pure and not-at-all creepy adoration for the totality of her existence\u2500is the kind of thing that would stick in your memory!",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_CHRHDB811_04542_OKKAKE_000_004",
+    "original": "But enough about \u003Chex:021A020203\u003Eme\u003Chex:021A020103\u003E\u2500this is about Miss Nashu!",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_CHRHDB811_04542_OKKAKE_000_005",
+    "original": "Ever since she got sucked into that weird portal back east, I\u0027ve been scouring the world for any sign of her. I was \u003Chex:021A020203\u003Ethis\u003Chex:021A020103\u003E close to giving up, but then, huzzah! I found her here in Radz\u003Chex:021F0103\u003Eat\u003Chex:021F0103\u003EHan!",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_CHRHDB811_04542_OKKAKE_000_006",
+    "original": "Normally I\u0027d be happy to get back to playing the silent invisible guardian, but she seems pretty distressed by the plight of her inspector friend. He\u0027s here too, but laid up and showing no signs of waking any time soon. My Nashu has been fashioning all sorts of medicines in hopes of rousing him, but to no avail.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_CHRHDB811_04542_OKKAKE_000_007",
+    "original": "I mean, I couldn\u0027t care less if he kicked the bucket, but I hate seeing her like this. She\u0027s liable to work herself to death!",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_CHRHDB811_04542_OKKAKE_100_007",
+    "original": "So, what say you? Will you deliver my dearest Nashu from her plight? You\u0027ll find her over at the High Crucible, no doubt slaving over an alembic.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_CHRHDB811_04542_OKKAKE_000_008",
+    "original": "And with that, I\u0027ll get back to cheering her on from the shadows! You too, I guess. Now go, quickly! Save my beloved!",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_010",
+    "original": "And that should do it! Now to take this medicine and...",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_011",
+    "original": "Cor! \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! It feels like it\u0027s been forever! Though \u003Chex:021A020203\u003Edefinitely\u003Chex:021A020103\u003E less than a year, I\u0027m sure.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_012",
+    "original": "What brings you to Radz\u003Chex:021F0103\u003Eat\u003Chex:021F0103\u003EHan? Enjoying a spot of adventuring, or perhaps...",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_013",
+    "original": "Then you\u0027ve heard! It\u0027s true. Inspector Hildibrand\u0027s gone into hibernation again, and\u2500 Ah, wait. You\u0027re giving me that look. The one that screams, \u201CWhat about the whole weird portal business?\u201D All right, since you silently asked...",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_014",
+    "original": "So, back on the Ruby Sea\u2500remember how Greg got doused with dewprism and was forced to whisk us all \u201Cfar away\u201D?",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_015",
+    "original": "...How that strange rift then opened up\u2500which the inspector then got sucked up into\u2500and how I followed him in after that?",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_016",
+    "original": "Well, after that, we all ended up in this bizarre place. Couldn\u0027t tell up from down, left from right. And so we wandered, lost and confused...",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_017",
+    "original": "Fortunately, Greg came to his senses and explained that we were in the \u201CInterspectorial Rift,\u201D and then used the same trick to bring us home! ",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_018",
+    "original": "Greg himself stayed behind, though. Something about a score that he had to settle. Not sure what that was about, but hey, you know Greg...",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_019",
+    "original": "Anyway, we\u0027re back now, but the rub is that Inspector Hildibrand hasn\u0027t opened his eyes once!",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_100_019",
+    "original": "I know he needs his beauty sleep, but it\u0027s been an awfully long time, and we\u0027ve got cases to solve!",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_020",
+    "original": "I\u0027ve been trying my hand at apothecary stuff, seeing if I can\u0027t make something that\u0027ll get him up and moving, but nothing seems to work!",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_021",
+    "original": "But I think we\u0027re making progress. Me and Mister Chupacabra from the Shakshouka Concern, that is. You remember Mister Chupacabra, right? Got sucked into the rift along with us, former evil mastermind\u2500not so bad once you get to know him.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_CHRHDB811_04542_RADZATHANMERCHANT03168_000_022",
+    "original": "Pleased I am to meet you once more, and under less compromising circumstances. If I may correct our mutual friend\u2500I am Jubraca, chairman of the Sahjattra Concern.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_CHRHDB811_04542_RADZATHANMERCHANT03168_000_023",
+    "original": "Y-Your distrustful and somewhat bloodthirsty glare is not unwarranted, but in my defense, who among us has not contemplated enslaving the rich and powerful to bend the world to their whim...? Hah hah...hah... Ahem.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_CHRHDB811_04542_RADZATHANMERCHANT03168_000_024",
+    "original": "I pray you forgive me my poor joke, and allow me to assure you that after wandering the interdimensional rift for the-Sisters-only-know-how long, I am a changed man! ",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_CHRHDB811_04542_RADZATHANMERCHANT03168_000_025",
+    "original": "Naturally, I understand that words alone would not suffice to absolve me of my sins. Thus, since my return, I have operated a humble apothecary that caters to the needs of one and all.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_CHRHDB811_04542_RADZATHANMERCHANT03168_000_026",
+    "original": "Furthermore, I made arrangements for Miss Nashu\u0027s workshop. Rest assured that I will spare no effort in helping her see Inspector Hildibrand awakened and returned to full health.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_CHRHDB811_04542_RADZATHANMERCHANT03168_000_027",
+    "original": "And with that, if you would excuse me, I must see to other business...",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_028",
+    "original": "Isn\u0027t he the nicest ex-villain you\u0027ve ever met? Ah, but that\u0027s right\u2500I had just finished my latest medicine! I\u0027ve got high hopes for this new recipe.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_CHRHDB811_04542_Q5_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_CHRHDB811_04542_A5_000_001",
+    "original": "I suppose I ought to get a look at the Manderville man himself.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_CHRHDB811_04542_A5_000_002",
+    "original": "Medicine might not do us any good...",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_029",
+    "original": "By all means! The inspector is resting in a room up in Kama. Awake or asleep, I\u0027m sure he\u0027d enjoy your company. Let\u0027s go!",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_030",
+    "original": "Really? Well, you\u0027ve seen all kinds of amazing things in your travels, so maybe you\u0027ll be able to tell what\u0027s wrong with the inspector if you get a look at him yourself.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_031",
+    "original": "He\u0027s resting in a room up in Kama. Let\u0027s go!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_CHRHDB811_04542_PARIGHA_000_035",
+    "original": "The girl\u0027s a friend of yours, is she? She\u0027s welcome to stay as long as she likes. I do hope her friend recovers soon, though. Sleeping on the floor hasn\u0027t been good for my back...",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_040",
+    "original": "Isn\u0027t this room nice? Mister Chupacabra\u0027s taken care of everything\u2500even paid the rent in full! Ah, but I\u0027m distracting you, aren\u0027t I? You need to concentrate while you examine the inspector, yes?",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_CHRHDB811_04542_SYSTEM_000_041",
+    "original": "Study the sleeping Inspector Hildibrand. You may move the camera, as well as zoom in and out. Target a section and examine it in more detail with \u003Chex:020825E4E95101FF10024804F2022203EE81910248020103FF0E021E021003202F20021E02090303\u003E.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_CHRHDB811_04542_SYSTEM_100_042",
+    "original": "The inspector\u0027s condition is disturbingly reminiscent of the Scions\u0027 who were summoned to the First for a time...",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_042",
+    "original": "Hmm...? Oh! Finished already?",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_043",
+    "original": "Any theories as to what\u0027s wrong with the inspector?",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_CHRHDB811_04542_Q6_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_CHRHDB811_04542_A6_000_001",
+    "original": "Well, he\u0027s a soulless husk, which is less than ideal.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_CHRHDB811_04542_A6_000_002",
+    "original": "I suspect he may have been \u003Chex:021A020203\u003Esummoned\u003Chex:021A020103\u003E to another reflection.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_044",
+    "original": "I see... I mean, I \u003Chex:021A020203\u003Edon\u0027t\u003Chex:021A020103\u003E, but that\u0027s what you\u0027re supposed to say at times like this, I know that much. How do we wake him up?",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_100_045",
+    "original": "Return his soul to his body? But where did it go, and what is it doing there?",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_CHRHDB811_04542_Q9_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_CHRHDB811_04542_A9_000_001",
+    "original": "Probably went to the First to become the Gentleman of Darkness, as you do.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_CHRHDB811_04542_A9_000_002",
+    "original": "I think it\u0027s gone to another world wholly unlike ours...but still slightly like ours. A world of contrasts.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_045",
+    "original": "I \u003Chex:021A020203\u003Esee\u003Chex:021A020103\u003E... Right. So can you go...there?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_046",
+    "original": "Great! In that case, I\u0027ll leave the soul-searching to you!",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_047",
+    "original": "I\u0027m sure it goes without saying, but once you\u0027ve arrived in this otherworldly world, look for a place that smells of mystery and intrigue, and chat with people there. That\u0027s standard agent of enquiry protocol!",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_048",
+    "original": "Oh, and since this is Inspector Hildibrand we\u0027re talking about...don\u0027t be surprised if you find him asleep, or having forgotten a thing or two.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_049",
+    "original": "But not to worry! I\u0027ve prepared my traditional \u201Cmedicine\u201D just in case. Don\u0027t hesitate to use it! And with that, do take care out there!",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_CHRHDB811_04542_NASHUMHAKARACCA_000_050",
+    "original": "When in doubt, use Nashu\u0027s Delights to blow the cobwebs right out! The inspector will thank you after, I\u0027m sure.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_CHRHDB811_04542_GLYNARD_000_060",
+    "original": "Welcome back, friend. I\u0027d offer you a pint, but my barman\u0027s sense tells me that\u0027s not why you\u0027re here...",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_CHRHDB811_04542_GLYNARD_000_061",
+    "original": "So this friend of yours has gone missing? Sorry to hear that, but plenty of travelers pass through these parts. Could you describe the fellow to me? ",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_CHRHDB811_04542_Q7_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_CHRHDB811_04542_A7_000_001",
+    "original": "Hume, burly, wears a monocle, well-meaning idiot.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_CHRHDB811_04542_A7_000_002",
+    "original": "He was wearing a tattered suit, most like.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_CHRHDB811_04542_GLYNARD_000_062",
+    "original": "Hmmm...yes, that sounds familiar. Mind you, I didn\u0027t see him myself\u2500but I do believe one of our bounty hunters spied such a man when you were all battling that horde of spectral warriors.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_CHRHDB811_04542_GLYNARD_000_063",
+    "original": "Giott! Come here a moment. There\u0027s someone who wants to speak with you!",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_CHRHDB811_04542_GIOTT_000_064",
+    "original": "\u003Cgulp\u003E That so? Make it\u2500\u003Chic\u003E\u2500quick. Thish ale ishn\u0027t going to drink itshelf...",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_CHRHDB811_04542_GIOTT_000_065",
+    "original": "If it ain\u0027t \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! What brings you back to our neck of the woods?",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_CHRHDB811_04542_GIOTT_000_066",
+    "original": "Who\u0027re\u2500 Wait. You\u0027re one of the Exarch\u0027s friends\u2500the Warrior of Darkness! Fought by your side when the glowing bastards came to ruin our day\u2500but we showed them, hah! But enough reminiscing\u2500what\u0027s so important that you had to interrupt my regularly scheduled drinking?",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_CHRHDB811_04542_GIOTT_000_067",
+    "original": "Now that you mention it, I did see someone like that. Back there on the battlefield, after you ran off to do more hero work.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_CHRHDB811_04542_GIOTT_000_068",
+    "original": "At first, I thought he was going to attack me like the rest of the spirit wotsits. But no, he just stood there, striking a pose, trying to scare or seduce me. Damned if I could tell.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_CHRHDB811_04542_GIOTT_100_068",
+    "original": "Still, he was glowing, and I wasn\u0027t about to take any chances, so I said, \u201CHey! Piss off, ghost!\u201D and sent him packing.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_CHRHDB811_04542_GIOTT_000_069",
+    "original": "\u0022Did he die,\u201C you ask? To which I say, \u201DWhat am I, a chirurgeon?\u201C Also, \u201DI\u0027ve kept my mug waiting long enough.\u201C Good talk.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_CHRHDB811_04542_SOLDIER03608_000_070",
+    "original": "(-???-)Could it be!? The Warrior of Darkness!",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_CHRHDB811_04542_SOLDIER03608_000_071",
+    "original": "I thought that was your voice, but was convinced my ears were playing tricks on me. It\u0027s good to see you again.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_CHRHDB811_04542_BRAVESOLDIER_000_072",
+    "original": "Didn\u0027t mean to eavesdrop, but we overheard you discussing the renegade poser. We\u0027ve been searching for him for some time now.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_CHRHDB811_04542_SOLDIER03608_000_073",
+    "original": "There have been sightings in Lakeland, you see. Vonard and I have been tasked with getting to the bottom of it.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_CHRHDB811_04542_SOLDIER03608_000_074",
+    "original": "We\u0027ve little in the way of useful information, though. All we know is that he appears without warning and strikes a disturbing pose.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_CHRHDB811_04542_BRAVESOLDIER_000_075",
+    "original": "He\u0027s not caused any harm\u2500if you discount the shock of a strange man gesticulating in your general direction, that is. Nevertheless, we\u0027re worried his behavior might escalate. Have you been tasked with apprehending the miscreant as well?",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_CHRHDB811_04542_GLYNARD_000_076",
+    "original": "Not quite, Vonard. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u0027s come back to track down a missing friend.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_CHRHDB811_04542_Q8_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_CHRHDB811_04542_A8_000_001",
+    "original": "Your \u201Cmiscreant,\u201D I regret to say, might be my friend...",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_CHRHDB811_04542_A8_000_002",
+    "original": "I wouldn\u0027t call him a \u201Cfriend\u201D per se, but I too happen to be looking for a man prone to posing.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_CHRHDB811_04542_GLYNARD_000_077",
+    "original": "Hmm. If the man you\u0027re looking for might be one and the same, then why not work together? Between the three of you, you\u0027re bound to have better luck.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_CHRHDB811_04542_SOLDIER03608_000_078",
+    "original": "It would be an honor\u2500and a great help! We were just about to leave to gather testimony, as it happens.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_CHRHDB811_04542_BRAVESOLDIER_000_079",
+    "original": "Come and join us in Sullen when you\u0027ve finished here. We\u0027ll solve this mystery in no time!",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_CHRHDB811_04542_GLYNARD_000_085",
+    "original": "You always kept interesting company, that\u0027s for sure. I don\u0027t know if it would be better or worse if this \u201Cposer\u201D is your friend, but I wish you the best of luck.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_CHRHDB811_04542_SOLDIER03608_000_086",
+    "original": "Searching for this man might seem like a waste of time to some, but it\u0027s our duty to ease the people\u0027s worries\u2500large or small.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_CHRHDB811_04542_BRAVESOLDIER_000_087",
+    "original": "Maybe we\u0027re worrying over nothing if he\u0027s not hurt anyone yet, but you never know with some people. Better safe than sorry.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_CHRHDB811_04542_SULLENA04542_000_090",
+    "original": "Did I see him? You bet I did. I was crossing through the Forest of the Lost Shepherd, on my way to deliver fish to the Ostall Imperative...",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_CHRHDB811_04542_SULLENA04542_000_091",
+    "original": "Out of nowhere, this odd man leapt in front of me! I thought he was a bandit at first, but then he abruptly turned to the side, curled his neck, and put his fist to his head as if to say...I don\u0027t know. It was baffling. I ran when I realized he wasn\u0027t going to do anything else.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_CHRHDB811_04542_SULLENB04542_000_092",
+    "original": "...Why, yes\u2500I saw someone like that when I was out picking mushrooms in the forest. He even spoke to me!",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_CHRHDB811_04542_SULLENB04542_000_093",
+    "original": "I was repulsed at first by his form, but he only wanted to warn me that fell beasts lurk in the forest, and that I should be wary.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_CHRHDB811_04542_SULLENB04542_000_094",
+    "original": "Contrary to appearances, I\u0027d say he was actually quite...gentlemanly.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_CHRHDB811_04542_SULLENC04542_000_095",
+    "original": "Oh, \u003Chex:021A020203\u003Ethat\u003Chex:021A020103\u003E fellow? Aye, I saw \u0027im the other day on the way home from Clearmelt. I\u0027d enjoyed one too many libations after my bath, and ended up wanderin\u0027 off into the forest.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_CHRHDB811_04542_SULLENC04542_000_096",
+    "original": "Before I knew it, the sun was dippin\u0027 low, and the sky turnin\u0027 dark, and I was beginnin\u0027 to wonder if I\u0027d ever make it home. Then I felt a gentle tug at my arm.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_CHRHDB811_04542_SULLENC04542_000_097",
+    "original": "And would you believe it? This odd-lookin\u0027 man led me out of the forest and set me back on the road! I thanked him profusely, but he said nothin\u0027 in reply, just struck this pose and walked off.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_CHRHDB811_04542_SULLENA04542_000_200",
+    "original": "I do hope you find that strange man. He may just be a nuisance for now, but we shouldn\u0027t have to suffer posing vagabonds.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_CHRHDB811_04542_SULLENB04542_000_201",
+    "original": "He may look scary, but he\u0027s quite the gentleman. Why else would he have warned me about the monsters?",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_CHRHDB811_04542_SULLENC04542_000_202",
+    "original": "If you see the fellow, tell him to come and visit. I owe him a drink or two for his kindness.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_CHRHDB811_04542_BRAVESOLDIER_000_203",
+    "original": "To be honest, I\u0027m not sure what to make of all this...",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_CHRHDB811_04542_SOLDIER03608_000_210",
+    "original": "Finished questioning the locals, have you? Were you able to learn anything?",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_CHRHDB811_04542_SOLDIER03608_000_211",
+    "original": "...Not only has the poser caused no harm, he\u0027s even \u003Chex:021A020203\u003Ehelped\u003Chex:021A020103\u003E people?",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_CHRHDB811_04542_BRAVESOLDIER_000_212",
+    "original": "So he\u0027s a gentleman, albeit a suspicious one. Something of a contradiction you might say, but there\u0027s no reason to doubt what we heard.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_CHRHDB811_04542_SOLDIER03608_000_213",
+    "original": "Everyone seemed to encounter him in the Forest of the Lost Shepherd, right? Then that\u0027s where we\u0027ll look next. Shall we?",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_CHRHDB811_04542_BRAVESOLDIER_000_215",
+    "original": "On the other hand, some folks might argue a suspicious gentleman is more dangerous than a man more blatant in his villainy. This \u201Cgentlemanliness\u201D could well be a ruse to mask all kinds of evil intentions.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_CHRHDB811_04542_SOLDIER03608_100_100",
+    "original": "Well, here we are. But how exactly are we supposed to begin our search? These woods are, well...woods.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_CHRHDB811_04542_BRAVESOLDIER_100_101",
+    "original": "Got a plan, do you? Far be it from me to doubt the Warrior of Darkness. Show us what you\u0027ve got in mind, and we\u0027ll back you up to the best of our ability.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_CHRHDB811_04542_Q1_000_000",
+    "original": "What will you do?",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_CHRHDB811_04542_A1_000_001",
+    "original": "Perform the Manderville.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_CHRHDB811_04542_A1_000_002",
+    "original": "Perform the Manderville Mambo.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_CHRHDB811_04542_HILDIBRAND_000_101",
+    "original": "(-Familiar Voice-)Hark! What familiar gentlemanly gyrations are these!?",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_CHRHDB811_04542_BRAVESOLDIER_100_102",
+    "original": "On your guard! It\u0027s a sin eater!",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_CHRHDB811_04542_SOLDIER03608_100_103",
+    "original": "No, wait! That\u0027s no sin eater!",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_CHRHDB811_04542_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_CHRHDB811_04542_A2_000_001",
+    "original": "It\u0027s Hildibrand!",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_CHRHDB811_04542_A2_000_002",
+    "original": "It\u0027s the Gentleman of Light!",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_CHRHDB811_04542_HILDIBRAND_000_104",
+    "original": "(-Forgiven Gentleman-)Hildibrand? Who is this Hildibrand of whom you speak? I am the Forgiven Gentleman, devourer of sins! Lightwarden extraordinaire!",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_CHRHDB811_04542_HILDIBRAND_000_105",
+    "original": "(-Forgiven Gentleman-)Gentleman of Light? Who is this Gentleman of Light of whom you speak? I am the Forgiven Gentleman, devourer of sins! Lightwarden extraordinaire!",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_CHRHDB811_04542_Q3_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_CHRHDB811_04542_A3_000_001",
+    "original": "You\u0027re not a sin eater\u2500you\u0027re Hildibrand, the gentleman inspector!",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_CHRHDB811_04542_A3_000_002",
+    "original": "You might occasionally moonlight as a zombie overlord, but trust me, you\u0027re a gentleman inspector!",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_CHRHDB811_04542_HILDIBRAND_000_106",
+    "original": "(-Forgiven Gentleman-)Urrrgggh... Hurrrggghhh...! Inspector... Sin eater... Inspector... Sin eater...",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_CHRHDB811_04542_SOLDIER03608_100_107",
+    "original": "You\u0027re acquainted with this, er...gentleman?",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_CHRHDB811_04542_SOLDIER03608_100_108",
+    "original": "...Right, then. Clearly, your friend has been through a lot. But still, how did he get it in his head he\u0027s a sin eater?",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_CHRHDB811_04542_BRAVESOLDIER_100_109",
+    "original": "Is there no way to bring back his memories?",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_CHRHDB811_04542_BRAVESOLDIER_100_110",
+    "original": "Explosives? We\u0027re still trying to \u003Chex:021A020203\u003Esave\u003Chex:021A020103\u003E him, right?",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_CHRHDB811_04542_SOLDIER03608_100_111",
+    "original": "Wicked white, we\u0027ve killed him!",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_CHRHDB811_04542_HILDIBRAND_000_112",
+    "original": "I say, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! I had resigned myself to Nashu\u0027s ungentle methodology, but you too, my brutish friend!?",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_CHRHDB811_04542_HILDIBRAND_000_113",
+    "original": "But never mind that. I do not recall the world being quite so purple...",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_CHRHDB811_04542_HILDIBRAND_100_113",
+    "original": "Previously, I was with Nashu and Greg, wandering the bizarre, shadowy realm known as the \u201CInterspectorial Rift\u201D...",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_CHRHDB811_04542_HILDIBRAND_000_114",
+    "original": "Hmm? Where am I...? \u003Chex:021A020203\u003EWho\u003Chex:021A020103\u003E am I?",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_CHRHDB811_04542_GIOTT_000_115",
+    "original": "That sickening light. That aggressive posturing. I know what you are. You\u0027re one of \u003Chex:021A020203\u003Ethem\u003Chex:021A020103\u003E, ain\u0027t you?",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_CHRHDB811_04542_GIOTT_000_116",
+    "original": "What you need is a good old-fashioned dwarven decking!",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_CHRHDB811_04542_GIOTT_000_117",
+    "original": "Piss off, ghost!",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_CHRHDB811_04542_SULLENRESIDENT_000_118",
+    "original": "R-Run for your lives! It\u0027s a sin eater!",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_CHRHDB811_04542_HILDIBRAND_000_119",
+    "original": "A sin...eater?",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_CHRHDB811_04542_BRAVESOLDIER_100_120",
+    "original": "I\u0027ll be damned. I saw a vision of the man\u0027s past. No wonder he became convinced he was a sin eater.",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_CHRHDB811_04542_SOLDIER03608_100_121",
+    "original": "I saw it too. It was, quite possibly, the most ridiculous memory I\u0027ve ever glimpsed...",
+    "translation": ""
+  },
+  "197": {
+    "tag": "TEXT_CHRHDB811_04542_HILDIBRAND_000_122",
+    "original": "Answer me, my faithful assistant! Where are we\u2500and why is it so \u003Chex:021A020203\u003Epurple\u003Chex:021A020103\u003E!?",
+    "translation": ""
+  },
+  "198": {
+    "tag": "TEXT_CHRHDB811_04542_HILDIBRAND_000_123",
+    "original": "...The \u201CFirst\u201D? The first what? Are you telling me we\u0027ve somehow traveled to an entirely different \u003Chex:021A020203\u003Eworld\u003Chex:021A020103\u003E?",
+    "translation": ""
+  },
+  "199": {
+    "tag": "TEXT_CHRHDB811_04542_HILDIBRAND_000_124",
+    "original": "Good gods! To think that I have transcended the very boundaries of time and space! But worry not, my adoring fans! Hildibrand\u2500agent of enquiry, inspector extraordinaire\u2500will return to you forthwith!",
+    "translation": ""
+  }
+}

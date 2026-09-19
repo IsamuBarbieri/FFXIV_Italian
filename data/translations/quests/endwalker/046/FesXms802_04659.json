@@ -1,0 +1,522 @@
+{
+  "0": {
+    "tag": "TEXT_FESXMS802_04659_SEQ_00",
+    "original": "Associate Professor Laurenssen is experiencing some panic.\u003Chex:02100103\u003E\u203BThis quest is available for a limited time only.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_FESXMS802_04659_SEQ_01",
+    "original": "In light of his reindeer\u0027s disappearance, Laurenssen\u0027s calm is disintegrating faster than a snowman in midsummer. Being the kind-hearted soul you are, you prepare to /soothe him like none but a somewhat exasperated adventurer can.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_FESXMS802_04659_SEQ_02",
+    "original": "Thanks to your diligent patting, Laurenssen regains his composure and is ready to find Blitzen. He sends you off towards Mih Khetto\u0027s Amphitheatre to gather witness testimonies, while he retraces his steps back to Apkallu Falls.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_FESXMS802_04659_SEQ_03",
+    "original": "Witness testimony has informed you of Blitzen\u0027s likely whereabouts. You jingle merrily as you run for some reason, but such things are hardly unusual during the Starlight season. Pay it no mind and head for New Gridania.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_FESXMS802_04659_SEQ_04",
+    "original": "You and Laurenssen successfully find Blitzen and, rather unexpectedly, the Saint of Nymeia, who has one of those faces you swear you\u0027ve seen somewhere before. With a little hinting, Laurenssen realizes the error of his ways. He resolves to think less selfishly and more of the children, and as though fate intends to hold him to it, a despondent and childlike wail breaks out from the other side of the aetheryte plaza.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_FESXMS802_04659_SEQ_05",
+    "original": "Upon investigating the source of the noise, Laurenssen is faced with a weepy child in search of her mother. After a crucial assist from Blitzen, who effortlessly quells the child\u0027s hysterics with a spectacular illusion, Laurenssen uses his own special powers of shouting very loudly to summon the missing mother without incident. Family reunited and balance restored, the three of you tromp back to Amh Garanjy.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_FESXMS802_04659_SEQ_06",
+    "original": "Amh Garanjy thanks you for your help, Laurenssen thanks you for your patience, and Blitzen honks loudly. It is clear now that the mystical illusions of reindeer are only triggered by genuine feelings of fondness and concern for children, and cannot be recreated under contrived pretenses. Embracing this reality with goodness in his heart, Laurenssen asks you to accompany him on a turn of Gridania to deliver cheer and spectacle to as many children as you can find.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_FESXMS802_04659_TODO_00",
+    "original": "/soothe Laurenssen.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_FESXMS802_04659_TODO_01",
+    "original": "Gather information on Blitzen.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_FESXMS802_04659_TODO_02",
+    "original": "Search for Blitzen in New Gridania.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_FESXMS802_04659_TODO_03",
+    "original": "Speak with the tearful tot.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_FESXMS802_04659_TODO_04",
+    "original": "Speak with Amh Garanjy.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_FESXMS802_04659_AMHGARANJY_100_000",
+    "original": "Blitzen is missing? Oh no, that\u0027s terrible... I hope you find him soon!",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_000",
+    "original": "Oh, B-Blitzen! Wh-Where could he have gone!?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_FESXMS802_04659_SYSTEM_000_001",
+    "original": "Laurenssen is in a state of distress. Try to \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Esoothe\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E his nerves.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_010",
+    "original": "M-My poor boy, he must be inconsolable for the loneliness! I-I must find him...but where do I even begin!?",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_FESXMS802_04659_SYSTEM_000_011",
+    "original": "Laurenssen is in a state of distress. Try to \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Esoothe\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E his nerves.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_012",
+    "original": "\u003Cgasp\u003E What am I doing? Blitzen needs me, and yet here I am, a blubbering mess...",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_013",
+    "original": "My apologies for subjecting you to such undignified behavior. Unforeseen circumstances have a tendency of rattling my nerves, but I am well now thanks to you.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_014",
+    "original": "I shall go and search for Blitzen at once. May I count on your cooperation once more?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_015",
+    "original": "My heartfelt thanks. For now, let us focus our search within the city.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_016",
+    "original": "If you could make inquiries in the direction of Mih Khetto\u0027s Amphitheatre, I shall retrace our steps back to Apkallu Falls. Quickly, now!",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_FESXMS802_04659_CITIZENA04659_000_020",
+    "original": "A reindeer? Why, yes, I saw it go dashing through the snow towards Mih Khetto\u0027s Amphitheatre.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_FESXMS802_04659_CITIZENB04659_000_021",
+    "original": "A reindeer, you say? As a matter of fact, one went trotting by the amphitheatre and down the lane not long ago.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_FESXMS802_04659_CITIZENC04659_000_022",
+    "original": "Mmm, perfection! Absolute perfection! The very incarnation of crystalline beauty! ...Oh, were you speaking to me?",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_FESXMS802_04659_CITIZENC04659_000_023",
+    "original": "Reindeer? I can\u0027t say that I did, transfixed to this frozen masterpiece as I was.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_FESXMS802_04659_CITIZENC04659_000_024",
+    "original": "I vaguely recall having heard some clopping noises passing behind me, though... Must have been something of the sort.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_FESXMS802_04659_CITIZENA04659_000_025",
+    "original": "The reindeer was headed towards the amphitheatre. You should take a look there.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_FESXMS802_04659_CITIZENB04659_000_026",
+    "original": "Seemed to be in a bit of a rush, that reindeer. Make sure it doesn\u0027t run anyone over, eh?",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_FESXMS802_04659_CITIZENC04659_000_027",
+    "original": "I didn\u0027t notice what creature it was that went by, I\u0027m afraid. If indeed it was a creature. But more importantly, have you ever beheld such a magnificent snowman!?",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_030",
+    "original": "Oh, adventurer! Have you had any luck in locating\u2500",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_031",
+    "original": "Blitzen! Where have you been!? I have been running myself ragged in search of you!",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_FESXMS802_04659_BLITZEN_000_032",
+    "original": "Gwoooaaahhh!",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_033",
+    "original": "B-Blitzen? Why do you bray so?",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_FESXMS802_04659_GODBERT_000_034",
+    "original": "(-???-)Why, to summon me, of course! Ho ho ho!",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_035",
+    "original": "And you are...?",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_FESXMS802_04659_GODBERT_000_036",
+    "original": "(-Saint of Nymeia-)I am the Saint of Nymeia, and I have come at our antlered friend\u0027s behest to lead your misguided soul unto the soothing bosom of the Starlight Celebration.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_FESXMS802_04659_GODBERT_000_037",
+    "original": "(-Saint of Nymeia-)I will ask you plainly, young scholar\u2500do you understand why you were unable to coax forth the legendary twinkling of this reindeer\u0027s magicks?",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_038",
+    "original": "I-I... I...",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_FESXMS802_04659_GODBERT_100_038",
+    "original": "(-Saint of Nymeia-)So you do not know. Fortunately for you, naught escapes the Saint of Nymeia\u0027s all-seeing eyes!",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_FESXMS802_04659_GODBERT_150_038",
+    "original": "(-Saint of Nymeia-)You see it too, do you not? The reason why our scholarly friend failed?",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_FESXMS802_04659_Q1_000_000",
+    "original": "What will you say to Laurenssen?",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_FESXMS802_04659_A1_000_000",
+    "original": "You\u0027ve lost sight of the spirit of the Starlight Celebration.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_FESXMS802_04659_A1_000_001",
+    "original": "You\u0027ve forgotten who the celebration is held for.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_039",
+    "original": "What? Of course I haven\u0027t lost sight. All know that the Starlight Celebration is held for the benefit of...",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_040",
+    "original": "What? Of course I haven\u0027t forgotten. All know that the Starlight Celebration is held for the benefit of...",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_100_040",
+    "original": "...The children.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_FESXMS802_04659_GODBERT_000_041",
+    "original": "(-Saint of Nymeia-)So you finally understand. Indeed, the Starlight Celebration exists for the good children of the realm. This, our antlered friend knows well.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_FESXMS802_04659_GODBERT_000_042",
+    "original": "(-Saint of Nymeia-)But you, my scholarly friend\u2500you were so obsessed with your work that you could only see the children as a means to prove your theory. Is it any wonder, then, that Blitzen was not minded to oblige your demands?",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_043",
+    "original": "It is as you say, good saint. Respecting the customs one seeks to understand is basic folklorist fieldwork. I shame my profession in forgetting it...",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_FESXMS802_04659_BLITZEN_000_044",
+    "original": "Gwoooah! Gwoooah!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_045",
+    "original": "My thanks for comforting me, my friend. And my apologies for ignoring your feelings.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_FESXMS802_04659_GODBERT_000_046",
+    "original": "(-Saint of Nymeia-)Ho ho ho! It seems my job here is done.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_FESXMS802_04659_GODBERT_000_047",
+    "original": "(-Saint of Nymeia-)I leave this man and this reindeer in your capable hands, adventurer. Happy Starlight to all, and to all a good \u003Chex:020835E3E90C0DFF19020815E3E90C05FF066E69676874FF086D6F726E696E6703FF15020811E3E90C12FF04646179FF066E696768740303\u003E!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_048",
+    "original": "Right, there isn\u0027t a moment to lose. Let us resume our research\u2500erm, forgive me. Force of habit...\u003Chex:02100103\u003EAhem! Let us resume our \u003Chex:021A020203\u003Ecelebration\u003Chex:021A020103\u003E of this wondrous season by bringing joy and happiness to children!",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_FESXMS802_04659_CHILDA04659_000_049",
+    "original": "(-Tearful Tot-)Waaaaaaaaaaaah! I want my mummyyyyyyyyy!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_100_049",
+    "original": "That cry of distress... It comes from the other side of the aetheryte plaza. Come, my friends!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_050",
+    "original": "O-Oh dear, what does one do at a time like this? Er, whimper not, little one! All shall be well!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_FESXMS802_04659_BLITZEN_000_051",
+    "original": "Gwoooah...",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_FESXMS802_04659_AMHGARANJY_100_052",
+    "original": "A crying child, you say? Please give them what comfort you can, and try to work out what the matter is.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_FESXMS802_04659_CHILDA04659_000_060",
+    "original": "(-Tearful Tot-)Waaaaaaaaaaaah! I want my mummyyyyyyyyy!",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_061",
+    "original": "Oh dear... Distraught as she is, how are we to learn what ails her?",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_062",
+    "original": "W-We need to settle her somehow... With sweets, perhaps...or toys?",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_FESXMS802_04659_BLITZEN_000_063",
+    "original": "Gwoooaaah!",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_FESXMS802_04659_CHILDA04659_100_063",
+    "original": "(-Tearful Tot-)Ooooooh! How pretty!",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_064",
+    "original": "Well done, Blitzen! Well done! Now we may ask after the source of her woes!",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_FESXMS802_04659_BLITZEN_000_065",
+    "original": "Gwoah!",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_066",
+    "original": "Er, greetings, little one. Tell me\u2500what is it that troubles you?",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_FESXMS802_04659_CHILDA04659_000_067",
+    "original": "(-Tearful Tot-)Well, me and Mummy were on our way to the markets. B-But suddenly she wasn\u0027t there, and I got scared!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_068",
+    "original": "I see. I expect that your mother is still nearby. In which case...",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_069",
+    "original": "IS ANYONE MISSING A CHILD!? WE HAVE A LOST CHILD IN SEARCH OF HER MOTHER!",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_FESXMS802_04659_BLITZEN_000_070",
+    "original": "GWOOOOOOOOOAAAAAAAAAHHHHHHHHH!",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_FESXMS802_04659_MOTHER04659_000_071",
+    "original": "Oh, there you are! Thank goodness!",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_FESXMS802_04659_CHILDA04659_000_072",
+    "original": "(-Tearful Tot-)Mummyyy! You were there...then suddenly you were gone! I was so scared!",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_FESXMS802_04659_MOTHER04659_000_073",
+    "original": "Oh, I\u0027m so sorry, sweetling. I\u0027m here now.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_FESXMS802_04659_MOTHER04659_000_074",
+    "original": "Thank you so much for looking after my daughter, sir.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_FESXMS802_04659_CHILDA04659_000_075",
+    "original": "(-Tearful Tot-)Thank you, sir! And you too, Mister Reindeer! Those shiny presents were really pretty.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_FESXMS802_04659_Q2_000_000",
+    "original": "What will you say to Laurenssen?",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_FESXMS802_04659_A2_000_000",
+    "original": "I think congratulations are in order.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_FESXMS802_04659_A2_000_001",
+    "original": "Your hypothesis was correct, I see.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_076",
+    "original": "What? ...Oh, right! I suppose Blitzen just proved my theory, didn\u0027t he? I was too concerned with helping the little one to notice...",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_077",
+    "original": "Well, I shan\u0027t complain. Seeing as we\u0027ve fulfilled our objective, shall we report back to Amh Garanjy?",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_FESXMS802_04659_AMHGARANJY_000_080",
+    "original": "Ah, welcome back, everyone! How did you fare in the end?",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_081",
+    "original": "Very well, I\u0027m pleased to say. We managed to reunite a lost child with her mother...and for a happy side benefit, succeeded in proving my theory.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_FESXMS802_04659_AMHGARANJY_000_082",
+    "original": "...My, my, the three of you have been busy indeed. Thank you for your help, adventurer.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_083",
+    "original": "Allow me to offer my gratitude as well. Were it not for you, I would have remained blind to what\u0027s truly important.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_FESXMS802_04659_BLITZEN_000_084",
+    "original": "Gwoah!",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_FESXMS802_04659_AMHGARANJY_000_085",
+    "original": "Hehe, saying thanks as well, are you?",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_FESXMS802_04659_AMHGARANJY_000_086",
+    "original": "But it seems to me you played as important a role as any today, Blitzen. You are as dependable a little helper as I have ever known.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_FESXMS802_04659_AMHGARANJY_000_087",
+    "original": "It\u0027s curious, though. At first he seemed wholly unmotivated to act, but then showed the illusion of his own volition. What do you suppose inspired his change of heart?",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_088",
+    "original": "I believe the answer is \u201Cconcern.\u201D In the beginning, he could tell that I held none for the children and sought only academic satisfaction. Pure of heart as he is, how could Blitzen be moved to assist me?",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_089",
+    "original": "However, when he sensed that the concern I held for that crying child was genuine, he no longer felt resistance to using his powers.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_FESXMS802_04659_AMHGARANJY_000_090",
+    "original": "Blitzen sounds like quite the intuitive fellow!",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_091",
+    "original": "Reindeer generally are. As herd animals, they are accustomed to sensing even the slightest shift in feeling or intent.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_092",
+    "original": "And this is but another theory, but I suspect that Blitzen\u0027s ancestors conjured their illusions in response to the feelings of love and kindness they sensed in the people around them.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_093",
+    "original": "Such reindeer were far more plentiful back then\u2500some were even domesticated to pull sleighs. No doubt younglings had ample opportunity to witness the same spectacular illusions we now find so precious...",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_FESXMS802_04659_AMHGARANJY_000_094",
+    "original": "It is truly unfortunate that Blitzen\u0027s kin have so declined in number...",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_FESXMS802_04659_AMHGARANJY_000_095",
+    "original": "But I will cherish their invaluable contribution to the Starlight Celebration. Thank you for sharing this fascinating history with us.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_096",
+    "original": "If I was able to impart even a modicum of the passion I feel towards my subject, I will count myself very blessed indeed. Ah, but that reminds me.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_FESXMS802_04659_LAURENSSEN_000_097",
+    "original": "There is one last task for which I would appreciate your assistance. To wit, sharing Blitzen\u0027s miraculous illusions\u2500and the joy they inspire\u2500with as many children as we can find.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_FESXMS802_04659_AMHGARANJY_000_098",
+    "original": "Speaking in the true spirit of Starlight, Laurenssen! I daresay you\u0027ll be a little helper yet.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_FESXMS802_04659_BLITZEN_000_099",
+    "original": "Gwooooooaaaaaahhhhhhhhh!",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_FESXMS802_04659_SYSTEM_000_100",
+    "original": "Speak with Laurenssen to accompany him on a special Starlight Celebration mission.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_FESXMS802_04659_SYSTEM_000_101",
+    "original": "Who knows what familiar faces you might encounter...?",
+    "translation": ""
+  }
+}

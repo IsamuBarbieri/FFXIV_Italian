@@ -1,0 +1,592 @@
+{
+  "0": {
+    "tag": "TEXT_FESHLX102_05376_SEQ_00",
+    "original": "The pumpkin-headed apparition appears ready to put her plans into action.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThis quest is available for a limited time only.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_FESHLX102_05376_SEQ_01",
+    "original": "With the pumpkin-headed apparition\u0027s work nearly complete, she bids you return to the Haunted Manor and locate the Impresario within. You can only imagine what sort of creation she has in mind to resolve the situation.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_FESHLX102_05376_SEQ_02",
+    "original": "Both you and the Impresario are shocked to discover the pumpkin-headed apparition\u0027s \u201Cgift\u201D\u2500a large, enchanted doll resembling the Impresario, complete with illusory magicks. With no time to lose, you are tasked with operating the mechanical Ambulario and calming the cacophony in the manor once and for all.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_FESHLX102_05376_SEQ_03",
+    "original": "Armed with your new Ambulario and its dazzling illusions, you must seek out the Circus members and guests. Using your new powers of pacification, you may use the Ambulario\u0027s tricksome pumpkins to order the voidsent back to their ringleader, and its rain of treats to placate the manor\u0027s guests.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BSpeak with the Impresario in the Haunted Manor to mount the Ambulario.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_FESHLX102_05376_SEQ_04",
+    "original": "Those on the second floor have been pacified by the Ambulario\u0027s illusions. Your work is only partially done, however, as the first floor still awaits.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_FESHLX102_05376_SEQ_05",
+    "original": "The clockwork creature\u0027s charms prove a rousing success, and quiet has returned to the manor. The Impresario should be delighted to hear the news, and awaits your return to the foyer.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_FESHLX102_05376_SEQ_06",
+    "original": "As the Impresario tells it, both ghoul and guest now gambol joyfully together in the night\u2500just as he initially envisioned. He wishes to relay his thanks to the Ambulario\u0027s creator, who should still be loitering about Mih Khetto\u0027s Amphitheatre.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_FESHLX102_05376_SEQ_07",
+    "original": "Upon your meeting with the pumpkin-headed apparition, it is clear that the joys of All Saints\u0027 Wake have begun to spread throughout Gridania, and children flock to the manor for treats. After years of devilish deeds, the Impresario is moved by the display, and vows to continue his efforts to provide his mortal guests with memorable performances. He humbly entrusts you with the Ambulario, and use its likeness to the Impresario to spread word of his troupe across the realm.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_FESHLX102_05376_TODO_00",
+    "original": "Speak with the Impresario at the Haunted Manor.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_FESHLX102_05376_TODO_01",
+    "original": "Speak with the Impresario once more.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_FESHLX102_05376_TODO_02",
+    "original": "Use Trickster\u0027s Treat on the second floor guest.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_FESHLX102_05376_TODO_03",
+    "original": "Use Treater\u0027s Trick on the second floor performer.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_FESHLX102_05376_TODO_04",
+    "original": "Use Trickster\u0027s Treat on the first floor guest.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_FESHLX102_05376_TODO_05",
+    "original": "Use Treater\u0027s Trick on the first floor performers.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_FESHLX102_05376_TODO_06",
+    "original": "Speak with the Impresario.",
+    "translation": ""
+  },
+  "31": {
+    "tag": "TEXT_FESHLX102_05376_TODO_07",
+    "original": "Speak with the Impresario in Gridania.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_000",
+    "original": "Has that mortal mind of yours contrived any reasonable solutions? We cannot afford to let the rest of the troupe have their way for much longer\u2500I daresay our patrons will soon reach their limits. For now, I shall continue to watch over matters here and consider our options.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_FESHLX102_05376_VISITORA05376_000_001",
+    "original": "\u003Csob\u003E This isn\u0027t what I signed up for...! They said this masquerade was going to be fun!",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_FESHLX102_05376_VISITORD05376_000_002",
+    "original": "There must be an elixir around here somewhere... If I give one to the creature in the pot, do you suppose it\u0027ll give me treats in return?",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_FESHLX102_05376_ZOMBIE_000_003",
+    "original": "Now that I think on it, I can\u0027t gouge any eyes in this glamour. But perhaps I could dispel it for a fleeting moment while no one\u0027s looking... Heh heh...",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_FESHLX102_05376_PUDDING_000_004",
+    "original": "Chaos! All shall fall into chaos, I say! And you must not stand in my way!",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_FESHLX102_05376_MAGICPOT_000_005",
+    "original": "No elixir!? Then no treats for you!",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_FESHLX102_05376_CLOWNGATEKEEPER05375_100_005",
+    "original": "I am told there is a...situation occurring at our masquerade, but I have faith that you will solve it! Shall I guide you to the manor?",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_FESHLX102_05376_EVENTAREA_WARP_110_005",
+    "original": "Enter the manor?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_FESHLX102_05376_PUMPKIN_000_010",
+    "original": "Heh heh... Now, let us put an end to the Continental Circus\u0027s cruel tricks, shall we?",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_FESHLX102_05376_PUMPKIN_000_011",
+    "original": "With the materials you have gathered, I shall prepare the solution we require... But all good things take time. I suggest you return to the manor and inform the Impresario of our plan. All shall be made clear soon enough.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_FESHLX102_05376_PUMPKIN_000_020",
+    "original": "Those who play their tricks with ill intentions cannot be left to their own devices. Joy is meant to be shared, not hoarded\u2500a lesson all naughty children must learn.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_030",
+    "original": "Welcome back. I regret to report that circumstances remain unchanged here in the manor. Have you any new ideas to share?",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_031",
+    "original": "\u201CConcocted a creation,\u201D you say? Of what kind?",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_FESHLX102_05376_MYSTERIOUSGUIDE05376_000_032",
+    "original": "Apologies for the wait! My master proudly presents...a ghoulish gift for our dear Impresario!",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_033",
+    "original": "My word! This doll is the spitting image of...of me!",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_FESHLX102_05376_MYSTERIOUSGUIDE05376_000_034",
+    "original": "\u0027Tis no ordinary doll, I assure you! You may operate it by riding atop its head. And that\u0027s not all\u2500take control, and you shall have a bevy of illusory spells at your disposal!",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_FESHLX102_05376_MYSTERIOUSGUIDE05376_000_035",
+    "original": "These illusory spells are based on the materials our adventurer friend so kindly provided us: delectable delights for the worthy, and a haunting trick for those undeserving of treats.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_036",
+    "original": "I see... A solution to mollify both parties.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_037",
+    "original": "Might I leave the operation of this magicked doll to you, adventurer? In this mortal glamour, I doubt I\u0027d be able to maneuver it as well as you.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_038",
+    "original": "Once you have shown them the error of their ways, order them to return to me, and I shall reeducate them on the parts they must play here.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_039",
+    "original": "Our guests also deserve recompense for their prior treatment. I ask that you send them to me as well, that I might offer them sweets in apology. I cannot bear to end their All Saints\u0027 Wake on a dour note.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_FESHLX102_05376_MYSTERIOUSGUIDE05376_000_040",
+    "original": "So your plans are made, yes? Then I shall return to my master. I wish you happy frightening and delighting!",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_050",
+    "original": "...Well, then. I suppose all that\u0027s left for you to do is operate this mechanical me! I suggest you begin by marching it right up to the second floor and calming the commotion above.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_051",
+    "original": "And remember: my fellow performers should be convinced to return with the pumpkin\u0027s trick. I ask that you reserve the treats for our guests! We mustn\u0027t give them more undue fright...",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_052",
+    "original": "Should you find yourself separated from our pumpkin friend, simply return to me, and you may hop on its head once more. Now, then, off you go!",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_055",
+    "original": "Ah, there you are. Our clockwork companion has been awaiting your return. Now, off you go, and remember: tricks for the performers, treats for our guests!",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_FESHLX102_05376_SYSTEM_000_060",
+    "original": "While riding the Ambulario, you must use the correct actions to calm the voidsent and guests. Should you become dismounted, you may speak with the Impresario to ride the Ambulario again.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_FESHLX102_05376_VISITORA05376_000_070",
+    "original": "Aaagh! What \u003Chex:021A020203\u003Enow\u003Chex:021A020103\u003E!?",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_FESHLX102_05376_VISITORA05376_000_071",
+    "original": "You\u0027re the ringleader of the Continental Circus, aren\u0027t you!? P-P-Please, have mercy...! My heart can\u0027t take any more of this!",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_FESHLX102_05376_SYSTEM_000_072",
+    "original": "You appear to have used the wrong spell. You must use the Trickster\u0027s Treat ability on this guest.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_FESHLX102_05376_VISITORA05376_000_073",
+    "original": "What!? What more could you possibly\u2500",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_FESHLX102_05376_VISITORA05376_000_074",
+    "original": "Magic candy? Was that your doing?",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_FESHLX102_05376_VISITORA05376_000_075",
+    "original": "They\u0027re offering cookies and candy as an apology, you say? Gods, I deserve a treat after all this... I\u0027ll be on my way, then!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_FESHLX102_05376_PUDDING_100_075",
+    "original": "AAAGH!",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_FESHLX102_05376_PUDDING_110_075",
+    "original": "How dare you! How \u003Chex:021A020203\u003Edare\u003Chex:021A020103\u003E you get in my way! I don\u0027t need treats! I\u0027ll make you pay!",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_FESHLX102_05376_SYSTEM_120_075",
+    "original": "You appear to have used the wrong spell. You must use the Treater\u0027s Trick ability on the Continental Circus member.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_FESHLX102_05376_PUDDING_130_075",
+    "original": "No, no, NOOO!",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_FESHLX102_05376_PUDDING_140_075",
+    "original": "I-Impresario, no! I\u0027ve been good all this time! It\u0027s not what you think! I\u0027ve done no crime!",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_FESHLX102_05376_PUDDING_150_075",
+    "original": "Oh, dear... The Impresario isn\u0027t happy with us? Then I\u0027ll hurry to him, lest I cause further fuss!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_FESHLX102_05376_ZOMBIE_100_077",
+    "original": "What \u003Chex:021A020203\u003Eis\u003Chex:021A020103\u003E that!?",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_FESHLX102_05376_ZOMBIE_110_077",
+    "original": "O-Oh. You\u0027re no guest. It is kind of you to offer me a treat, but I must abstain. And, erm...please refrain from touching any nearby weaponry.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_FESHLX102_05376_ZOMBIE_120_077",
+    "original": "Augh! The hells was that for!?",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_FESHLX102_05376_ZOMBIE_130_077",
+    "original": "Strange... It felt as though the Impresario was slapping me across the head, but it did not hurt. Has he conjured up some new illusion?",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_FESHLX102_05376_ZOMBIE_140_077",
+    "original": "You say he\u0027s summoning the whole troupe to the front of the manor for a talking-to!? Now that you mention it, I have been a bit...overzealous about frightening our clientele. I-I\u0027ll hurry back right away!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_FESHLX102_05376_VISITORD05376_000_080",
+    "original": "Oh!?",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_FESHLX102_05376_VISITORD05376_000_081",
+    "original": "What strange pumpkins... But I mustn\u0027t get distracted! I still need to find that elixir.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_FESHLX102_05376_VISITORD05376_000_082",
+    "original": "It\u0027s raining candy!?",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_FESHLX102_05376_VISITORD05376_000_083",
+    "original": "Oh! There it goes...",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_FESHLX102_05376_VISITORD05376_000_084",
+    "original": "They\u0027re giving away free treats!? Hooray! Then I\u0027ll march right up to that Impresario and tell him to \u201Cgimme candy!\u201D",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_FESHLX102_05376_MAGICPOT_000_110",
+    "original": "What!? What is it?",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_FESHLX102_05376_MAGICPOT_000_111",
+    "original": "Ohhh, sweet, sweet candy! Gimme candy! Gimme more!",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_FESHLX102_05376_MAGICPOT_000_112",
+    "original": "Oh, no! The Impresario\u0027s magicks!",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_FESHLX102_05376_MAGICPOT_000_113",
+    "original": "Gone already? Ah... No more magicks for me.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_FESHLX102_05376_MAGICPOT_000_114",
+    "original": "Wh-What!? He summons us to the foyer!? Yesss... Hahaha, yes! Then to the Impresario I shall go!",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_FESHLX102_05376_ZOMBIE_000_120",
+    "original": "\u003Csigh\u003E I dedicated myself too fiercely to my role, and forgot the oath I made to the Impresario... How shameful of me.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_FESHLX102_05376_PUDDING_000_121",
+    "original": "Oh, the Impresario, did he roil with rage! This bump on my head\u0027s going to last a whole age...",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_FESHLX102_05376_MAGICPOT_000_122",
+    "original": "Gimme an elixir! And candy, too! Gimme enough candy for everyone!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_130",
+    "original": "I owe you a great debt, adventurer! With your aid, I was able to give these members of the troupe a good scolding.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_131",
+    "original": "While a few frights are necessary to amplify the delights we provide, we must never allow the former to overshadow the latter. It is our solemn duty to provide the smallfolk with a memorable All Saints\u0027 Wake experience!",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_FESHLX102_05376_ZOMBIE_000_132",
+    "original": "We felt the very same, Impresario. Even though the adventurers always came for us, even though we knew what it was like to be punished and scared in years past... We lost ourselves, striking fear into the hearts of those who didn\u0027t deserve it.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_FESHLX102_05376_PUDDING_000_133",
+    "original": "Chaos is good for us, but not for them! We must bring smiles to their faces again!",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_FESHLX102_05376_MAGICPOT_000_134",
+    "original": "Hear, hear! Less chaos! More treats and smiles!",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_FESHLX102_05376_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_FESHLX102_05376_A1_000_001",
+    "original": "Then let\u0027s enjoy All Saints\u0027 Wake, hand in hand!",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_FESHLX102_05376_A1_000_002",
+    "original": "Undue chaos will be promptly punished!",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_FESHLX102_05376_ZOMBIE_000_135",
+    "original": "Indeed! And we shall do our part with a performance worthy of the season!",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_FESHLX102_05376_PUDDING_000_136",
+    "original": "No more punishments, please! We\u0027ll remain good hosts, so be at ease!",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_137",
+    "original": "All right, my fellow thespians! It\u0027s time we greeted our guests with good cheer. Return to your places, and give them all the masquerade they deserve!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_138",
+    "original": "With that settled, I believe I should be able to handle the troupe from here on out. I cannot thank you enough for your assistance, adventurer.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_139",
+    "original": "Ah, and before I forget... Is the one who crafted that mechanical masterpiece an acquaintance of yours? If at all possible, I\u0027d like to express my thanks to them as well.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_140",
+    "original": "A woman sporting a white pumpkin head...? That sounds awfully like the legendary Great Gourd, who would command the voidsent forces on the Night of Devilry...",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_141",
+    "original": "Haha, but I jest! Legends are precisely that\u2500tall tales, and no more! Allow me that joke, at least!",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_142",
+    "original": "In any event, you mentioned she awaited your return at Mih Khetto\u0027s Amphitheatre, did you not?",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_143",
+    "original": "Pray allow me to join you. I should very much like to meet this pumpkin-headed acquaintance of yours.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_FESHLX102_05376_PUMPKIN_100_150",
+    "original": "Heh heh... \u0027Tis a pleasure to finally meet the famed Impresario.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_FESHLX102_05376_CLOWNGATEKEEPER05375_100_150",
+    "original": "I hear you\u0027ve saved the Continental Circus\u0027s masquerade, adventurer! I\u0027ll gladly escort you to the Haunted Manor as many times as you\u0027d like. Shall I guide you there now?",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_090_160",
+    "original": "So this is the one you spoke of. She does exude a...legendary sort of aura. If you were to tell me she was the Great Gourd, I\u0027d certainly believe it. But of course, that\u0027s simply not possible.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_FESHLX102_05376_PUMPKIN_000_160",
+    "original": "Heh heh... All\u0027s well that ends well, I see. Was my clockwork creation of assistance?",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_161",
+    "original": "Indeed it was. My brethren have remembered their duty to entertain, and I daresay our guests shall be all the merrier for it.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_FESHLX102_05376_PUMPKIN_000_162",
+    "original": "That is well... I trust you will continue to give this city\u0027s mortal residents an exhilarating All Saints\u0027 Wake experience.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_FESHLX102_05376_VISITORD05376_000_163",
+    "original": "(-Cheery Child-)Trust me, it\u0027s lots of fun in the manor! Let\u0027s all go!",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_FESHLX102_05376_VISITORB05376_000_164",
+    "original": "(-Fretful Child-)You\u0027re sure...? Those scary monsters won\u0027t eat me up?",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_FESHLX102_05376_VISITORD05376_000_165",
+    "original": "(-Cheery Child-)They might give you a bit of a fright, but it\u0027s all in good fun! They\u0027re giving away lots of treats, too!",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_FESHLX102_05376_VISITORC05376_000_166",
+    "original": "(-Hasty Child-)Well...if you say so. But you have to promise you\u0027ll stay with us the whole time!",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_FESHLX102_05376_VISITORD05376_000_167",
+    "original": "(-Cheery Child-)Of course! I wouldn\u0027t leave you two behind! Come on, then, let\u0027s go!",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_168",
+    "original": "Yes, all is well... Those children\u0027s smiles are proof of it.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_169",
+    "original": "How strange. I feel as though I\u0027m truly enjoying All Saints\u0027 Wake for the first time. It\u0027s...rather refreshing, actually.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_170",
+    "original": "I shall continue to put forth my best effort, that the Continental Circus\u0027s name might be known in every corner of the realm!",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_171",
+    "original": "But for the present, my duties call me to the manor. Thus do I ask of you, adventurer, to spread word of our deeds, and speak of us fondly in your travels.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_172",
+    "original": "That clockwork creature you possess is a reflection of myself\u2500and of my troupe, as well. Use it with pride, and perhaps others will want to know more of us in so doing...",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_FESHLX102_05376_PUMPKIN_000_173",
+    "original": "A sound plan. Yours is the face of the Continental Circus, after all.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_FESHLX102_05376_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_FESHLX102_05376_A2_000_001",
+    "original": "Leave it to me!",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_FESHLX102_05376_A2_000_002",
+    "original": "As long as your mischief-making days are over...",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_174",
+    "original": "One day, perhaps tales of my troupe will overshadow even those of the Great Gourd! But until then, I shall continue my work\u2500to convey to the realm all that the Wake can offer! Ahaha!",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_175",
+    "original": "Now, then, \u0027tis time I returned. As you well know, I cannot leave those scoundrels without their ringleader for too long.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_176",
+    "original": "We shall be performing at the manor for the remainder of the season. Should you wish to join in our festivities, you are welcome to visit us as often as you please.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_FESHLX102_05376_PUMPKIN_000_177",
+    "original": "In that case, I, too, shall open my haunted home to you, adventurer. Join me in my gardens, if you dare...",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_FESHLX102_05376_PUMPKIN_000_178",
+    "original": "Simply speak with my servant, and he shall guide you to my abode. You may entertain yourself there for as long as you wish.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_FESHLX102_05376_IMPHEAD_000_179",
+    "original": "The season of devilry and revelry lingers yet, and we shall thrive upon it! May you carouse to your heart\u0027s content this All Saints\u0027 Wake!",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_FESHLX102_05376_SYSTEM_000_180",
+    "original": "You now have access to Sneaky Hollow. Speak with the unusual usher at Mih Khetto\u0027s Amphitheatre to be escorted to the costume party.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_FESHLX102_05376_SYSTEM_100_180",
+    "original": "Furthermore, the shady smock and her associates are now open for business.",
+    "translation": ""
+  }
+}

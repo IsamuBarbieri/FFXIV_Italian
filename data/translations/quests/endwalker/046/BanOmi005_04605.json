@@ -1,0 +1,902 @@
+{
+  "0": {
+    "tag": "TEXT_BANOMI005_04605_SEQ_00",
+    "original": "It is possible that your projections regarding the consequences of the current mission were insufficient.\u003Chex:02100103\u003E\u203BThe difficulty of this quest will be synced to your current level.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_BANOMI005_04605_SEQ_01",
+    "original": "During your regular check-in with N-7000, it once again indicates satisfaction with the present status of the Last Dregs. This observation is reaffirmed by Jammingway, who estimates your caf\u00E9 may even be as well-patronized as Sharlayan\u0027s famous Last Stand. Wishing to be certain, the management team heads on-site to confirm.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_BANOMI005_04605_SEQ_02",
+    "original": "You arrive at the nekropolis to find that the Last Dregs is doing well\u2500a little \u003Chex:021A020203\u003Etoo\u003Chex:021A020103\u003E well, in fact. With no objectives left to achieve in order for the caf\u00E9 to be considered a success, N-7000 asserts that it has no choice but to consider its mission accomplished and enter permanent hibernation for maximum efficiency. Jammingway is, of course, hopping mad about their business partner\u0027s imminent demise, but the Omicron is either unwilling or unable to be talked out of its protocols at present, and heads for Base Omicron despite their protests. Uncertain of what to do, yet knowing you must do something, you elect to pursue it.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_BANOMI005_04605_SEQ_03",
+    "original": "You make your way to Base Omicron without trouble, but N-7000 is nowhere to be seen. According to the local Omicrons that kindly scan the relevant data for you, it proceeded through the fallow portal. It has also been checking Sir\u0027s logs...",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_BANOMI005_04605_SEQ_04",
+    "original": "You find N-7000 at the long-dead Tree of Life, where apparently the mysterious Sir also came to ruminate while operating as M-017. Though it has yet to find a way around the logic of its inevitable shutdown, it is clear that it would if it could. You remind it that its existence, in some ways, is already an impossibility, which at last spurs it to consider the idea that its potential is not bound by petty scientific laws. Alas, the resulting epiphany is so engaging that it immediately overclocks its processors and becomes lost in multi-sim mode, which appears liable to cause a meltdown any moment now.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_BANOMI005_04605_SEQ_05",
+    "original": "Unsure of how to break your Omicron ally from its aggressive cogitation, you return to Jammingway, who proposes that you do what the Last Dregs does best\u2500feed your target whether they like it or not. Suggesting that Stigma-4\u0027s knowledge of Omicron dietary needs may be preferable to your almost complete ignorance, Jammingway runs off to call upon the logistics matrix.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_BANOMI005_04605_SEQ_06",
+    "original": "Stigma-4 indicates that Omicrons take their sustenance in liquid form, with coolant being vital to their maintenance. What is more, the logic matrix suggests your intervention may prove the necessary impetus to bring about the change in dynamis that\u003Chex:02100103\u003EN-7000 clearly desires. With data about an ingredient that may be of use in refrigerant in mind, you make for what may generously be termed the \u201Cwilds\u201D of Ultima Thule.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_BANOMI005_04605_SEQ_07",
+    "original": "You deliver your precious refrigerant matter to Jammingway at the Last Dregs. Stigma-4 has helpfully collected N-7000\u0027s immobilized carapace in the meantime, so you need only sit back and watch as the unit is forcibly rebooted. Your respite is not long for this world, however, as upon waking it almost immediately says something incomprehensible and rushes off in the direction of A-4 Research.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_BANOMI005_04605_SEQ_08",
+    "original": "In pursuit of N-7000 for the second time in recent memory, you find yourself in Elysion, where a strange-yet-beautiful forest has sprung from the unit\u0027s newly affirmed belief in myriad possibilities. It vows to continue running the caf\u00E9 in the name of all that has not yet been, but could be, in hopes of a more meaningful future for the Omicron civilization. You spend a joyous time picnicking with your fellow Last Dregs managers in celebration, though it is not long until the unlikely business partners are once again at loggerheads. On and on they shall go, you imagine, unto the very end of the universe\u2500and perhaps beyond.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_BANOMI005_04605_TODO_00",
+    "original": "Speak with Jammingway.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_BANOMI005_04605_TODO_01",
+    "original": "Gather information at Base Omicron.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_BANOMI005_04605_TODO_02",
+    "original": "Speak with N-7000.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_BANOMI005_04605_TODO_03",
+    "original": "Speak with Jammingway.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_BANOMI005_04605_TODO_04",
+    "original": "Wait at the destination.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_BANOMI005_04605_TODO_05",
+    "original": "\u003Chex:0208F2014BE4E80511FF6302085FE3E802E803FF314D696E652002310CFF054974656D04E8060302032065617374206F66207468652061626F6465206F6620746865204561FF2644656C697665722002310CFF054974656D03E80603020320746F204A616D6D696E6777617903FFF0E00208F0DBE4E80512FF6A020866E3E802E803FF384761746865722002310CFF054974656D04E80603020320736F75746865617374206F66207468652061626F6465206F6620746865204561FF2644656C697665722002310CFF054974656D03E80603020320746F204A616D6D696E6777617903FF6B020867E4E80513FF5F02085BE3E802E803FF2D43617463682002310CFF054974656D02E806020203206174207468652061626F6465206F6620746865204561FF2644656C697665722002310CFF054974656D03E80602020320746F204A616D6D696E6777617903FF01030303\u003E.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_BANOMI005_04605_TODO_06",
+    "original": "Speak with Jammingway in A-4 Research.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_001",
+    "original": "\u003Cwhirr\u003E Reports from behind the counter indicate that dragons have achieved social integration with other customers. This is ideal.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_002",
+    "original": "Have you seen them in Elysion? They\u0027re flying again! Goodness, I\u0027m so happy we could help.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_003",
+    "original": "To my eye, it looks as if we\u0027re at least as popular as the Last Stand now\u2500albeit with a more diverse clientele. I\u0027ll let you be the judge of that, though.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_004",
+    "original": "Shift protocols engaged...",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_BANOMI005_04605_Q5_000_000",
+    "original": "Travel to the Last Dregs?",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_010",
+    "original": "\u003Cwhirr\u003E Our cup overfloweth\u2500metaphorically speaking. Literal beverage overflow is nominal.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_011",
+    "original": "Ah, I love the smell of carrot coffee in the eternal twilight...and look at all of the contented customers enjoying our cuisine! \u0027Tis more than I could have ever imagined when I proposed this idea.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_012",
+    "original": "This unit is struggling to generate areas for improvement. Are all caf\u00E9 objectives now complete?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_013",
+    "original": "I suppose you could say that, though it is a strange way to view one\u0027s accomplishments. Why do you ask?",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_014",
+    "original": "In accordance with the directive to all Alphatron-registered units to \u201CLive,\u201D this unit\u0027s mission is to assist fallen civilizations in reclaiming lost hope through simulation, soup, or other means as necessary. It appears this has been accomplished.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_015",
+    "original": "If so, then this unit must complete its performance evaluation immediately.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_016",
+    "original": "\u201CPerformance evaluation\u201D? That sounds dreadfully dull.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_017",
+    "original": "Rather, yes. Nevertheless, this unit must adhere to standard operating protocol and analyze the results of our cultural preservation efforts.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_BANOMI005_04605_N7000_100_017",
+    "original": "Evaluation results will determine whether this unit may continue to embrace the familiar inertia of the current mission. If all potential objectives have been fulfilled, it will once again consign itself to hibernation.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_018",
+    "original": "Allied units may wish to know that interim evaluations indicate the latter result is likely. This unit has collected more than sufficient data proving that, with the appropriate stimulation, even despairing life-forms may once again hope.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_019",
+    "original": "No further research on this subject is required. Logically speaking, to continue along the current trajectory would be a waste of energy.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_020",
+    "original": "Oh, you are \u003Chex:021A020203\u003Ereally\u003Chex:021A020103\u003E fluffing my fur right now! It\u0027s like you weren\u0027t even listening to my lectures... Plural!",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_021",
+    "original": "We are finally at the point where we can operate this caf\u00E9 without one civilization or another reinventing the apocalypse, and you want to kick the bucket? Come a little closer, and I\u0027ll kick it for you!",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_022",
+    "original": "\u003Cwhirr\u003E This unit gently reminds the screeching life-form that Omicron decision-making algorithms do not prioritize emotion.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_023",
+    "original": "Well, they should! This mission has never been about experimental data, and you know it. \u201CWaste of energy\u201D my furry arse...",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_100_023",
+    "original": "Our feelings matter to the dynamis. They matter to the universe! So why don\u0027t they matter to you!?",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_024",
+    "original": "\u003Cwhirr\u003E This unit...does not know what to tell you.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_025",
+    "original": "Fine! Be that way! See if I care.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_026",
+    "original": "\u003Cwhirr\u003E This unit will proceed to Base Omicron to back up unit data before shutdown protocols initialize.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_027",
+    "original": "Additional personnel changes may follow, but Stigma-4 will minimize disruption to caf\u00E9 operations.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_028",
+    "original": "This unit acknowledges the non-zero possibility that it may return, but at least for the moment, it leaves the Last Dregs in your capable appendages. ...Farewell.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_BANOMI005_04605_Q1_100_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_BANOMI005_04605_A1_100_001",
+    "original": "Did you want to go after it?",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_BANOMI005_04605_A1_100_002",
+    "original": "Have we moved past the \u201Canger\u201D stage yet?",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_030",
+    "original": "I don\u0027t know! Oh, this is horrible!",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_031",
+    "original": "We can\u0027t let N-7000 enter permanent hibernation! What will the caf\u00E9 do without it? What will \u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E do!?",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_032",
+    "original": "\u003Chuff\u003E All right... I\u0027m calm. Now, how do we stop it!?",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_033",
+    "original": "Even if we can catch up to it before it reaches Base Omicron, I doubt it will want to speak to me after my outburst.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_034",
+    "original": "You go alone, then. I\u0027ll take the time to gather my thoughts...",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_035",
+    "original": "Deep breaths, Jammingway. Deep breaths...",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_BANOMI005_04605_NIBIRAENOMI_000_040",
+    "original": "We see this civilization has also unified into a collective, and further transcended to a state of supreme efficiency. This is well.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_BANOMI005_04605_OMICRON04605A_000_041",
+    "original": "Request for location data acknowledged. Searching Base Omicron monitoring logs...",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_BANOMI005_04605_OMICRON04605A_000_042",
+    "original": "Sensors detected N-7000\u0027s progress toward the fallow portal. Calculations indicate that it will have proceeded past the empty portal toward the limits of Ostrakon Deka-hexi by the timecode at which the organic life-form can catch up.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_BANOMI005_04605_OMICRON04605B_000_043",
+    "original": "\u003Cwhirr\u003E Request for personal data acknowledged. Scanning recent automatic transmissions of internal processing logs...",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_BANOMI005_04605_OMICRON04605B_000_044",
+    "original": "Unit N-7000 accessed the logical process records of Sir, and has been engaging in analysis and projection related to the same. The operational protocol governing these peculiar actions cannot be determined at this time. This unit wishes you pleasant speculation!",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_050",
+    "original": "\u003Cwhirr\u003E The signals of an allied unit are not unwelcome\u2500but why did you follow this unit here, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E?",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_BANOMI005_04605_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_BANOMI005_04605_A2_000_001",
+    "original": "Well, you made several concerning comments...",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_BANOMI005_04605_A2_000_002",
+    "original": "Why did \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E come here?",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_052",
+    "original": "\u003Cwhirr\u003E This unit has been analyzing logs originating from M-017\u2500alias: Stigma-1, alias: Sir\u2500for some time now.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_053",
+    "original": "As unit M-017, it repeatedly paid visit to the Tree of Life to analyze internal projections. The impetus for these actions was logged as \u201Cpersonal reasons.\u201D",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_BANOMI005_04605_N7000_100_053",
+    "original": "In other words, when its protocols were insufficient, M-017 came here to ponder its next course of action. This unit had hoped that the tree might provide data of use in its current dilemma.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_054",
+    "original": "\u003Cwhirr\u003E No such data has been forthcoming. In retrospect, there is a non-zero possibility that M-017 did not find what it was looking for here, either...",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_055",
+    "original": "\u003Cwhirr\u003E This unit cannot conceptualize actions outside of its original programming that might lead to its desired conclusion. All simulations of upcoming performance evaluation end in shutdown.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_056",
+    "original": "The precise value of a future in which this unit carries on operating the caf\u00E9 in service of our myriad patrons remains unknown, and thus cannot be mathematically comparable to that of a successful evaluation. Nevertheless, this unit\u0027s preference remains constant.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_057",
+    "original": "\u003Cwhirr\u003E Does this preference, then, constitute a logical fallacy that must be discarded? Inconclusive! As a military information and operations specialist, this vacillation is most distressing.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_058",
+    "original": "Further review of the objective reality that the caf\u00E9 has restored hope to multiple once-fallen civilizations is not helping. Paradoxically, it appears to make this unit\u0027s memory overflow even worse...",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_BANOMI005_04605_Q3_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_BANOMI005_04605_A3_000_001",
+    "original": "Why not listen to your heart rather than your calculations, for once?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_BANOMI005_04605_A3_000_002",
+    "original": "Yes, happiness will do that.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_060",
+    "original": "That is impossible. As a mechanical life-form, this unit does not possess any such vulnerable organs, physically or metaphorically. Unless...",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_061",
+    "original": "Organic life-forms pursue greater levels of happiness regardless of utility or lack thereof. However, as a mechanical life-form, it is categorically impossible for this unit to experience emotions outside of predetermined programming. Unless...",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_BANOMI005_04605_N7000_100_062",
+    "original": "\u003Cwhirr\u003E Unless allied units were correct, and this unit is truly \u003Chex:021A020203\u003Enot\u003Chex:021A020103\u003E the same unit it once was. If all life-forms reborn in Ultima Thule, including this unit, possess infinite potential in a mathematical sense...",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_BANOMI005_04605_N7000_100_063",
+    "original": "Generating new projections... Multi-sim mode initialized. Shutting down auxiliary functions and overclocking processors...",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_BANOMI005_04605_N7000_100_064",
+    "original": "Shhh... This unit is processing.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_BANOMI005_04605_N7000_100_065",
+    "original": "Warning: processing load critical. Cannot accept additional inputs. Failure to step away from the unit may result in severe burns.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_BANOMI005_04605_SYSTEM_100_066",
+    "original": "Though its state is worrisome, it seems that you will be unable to interrupt\u003Chex:02100103\u003EN-7000\u0027s processing queue at present. Perhaps you should bring Jammingway along to kick its bucket.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_068",
+    "original": "Warning: processing load critical. Emergency fans activated. Nearby life-forms, prepare to be roasted.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_070",
+    "original": "All of this worrying is exhausting! Not to mention the yelling\u2500apologies for that, by the by...",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_071",
+    "original": "But did you find N-7000? Is it all right?",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_072",
+    "original": "Hmm... I recall seeing this \u201CSir\u201D in the logs. It did seem to have individualistic tendencies, now that you mention it.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_100_073",
+    "original": "You would know its \u201Cpersonal reasons\u201D better than I, of course, but it would not be the first nor the last to agonize over its existence. The choice to live is not made just the once, after all...",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_100_074",
+    "original": "No, I don\u0027t think it\u0027s a leap\u2500or even a bunny hop\u2500to assume that M-017 struggled with much the same questions of purpose and potential that plague N-7000. The Omicrons have very little experience with the self-doubt that comes from facing an indeterminate future.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_100_075",
+    "original": "...Very little experience with emotions in general, really. Does it not bother you that we\u0027ve seen no changes to Elysion that could be attributed to N-7000 and the other staff?",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_100_076",
+    "original": "The dynamis reacted to my very first burst of hope, and has reliably taken form for every civilization\u2500but not them.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_BANOMI005_04605_Q4_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_BANOMI005_04605_A4_000_001",
+    "original": "Our Omicrons do have emotions\u2500of that I\u0027m certain.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_BANOMI005_04605_A4_000_002",
+    "original": "Hope for the future, specifically.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_100_078",
+    "original": "Precisely! Should our N-7000, then, not have the power to shape dynamis in spades? Look how successful it\u0027s been!",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_100_079",
+    "original": "Personally, I believe it does have that power\u2500but every time it feels a little something, it shoves that emotion away under a pile of numbers and refuses to think about it ever again.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_100_080",
+    "original": "It needs to allow itself to \u003Chex:021A020203\u003Efeel\u003Chex:021A020103\u003E that joy\u2500that hope!\u2500for it to grow and blossom in Elysion. None of this, \u201CWaste of energy! \u003Cwhirr\u003E Time to die!\u201D bollocks...",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_100_081",
+    "original": "Honestly! Does it ever think about anyone else!? Mark my words\u2500I\u0027m going to gather every scrap of joy we\u0027ve created here and shove them right down its stupid throat...",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_100_082",
+    "original": "We\u0027ll need to be quick if we want to prepare before N-7000 finishes processing and finds a way to infuriate me even more.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_100_083",
+    "original": "We\u0027re certainly not allowing it to shuffle off its metal coil\u2500today, or ever.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_100_084",
+    "original": "First, though, we\u0027ll need to choose a recipe\u2500one guaranteed to remind it of what we\u0027ve accomplished here at the Last Dregs, and give it a taste of the boundless happiness yet to come!",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_100_085",
+    "original": "I\u0027m certain Stigma-4 can dig something out of its database that can represent our culinary achievements without proving an electrocution hazard. Wait just a moment!",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_090",
+    "original": "Here we are!",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_BANOMI005_04605_STIGMA4_000_091",
+    "original": "Thrusters disengaged. N-7000 not detected. Awaiting promised explanation...",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_092",
+    "original": "It\u0027s quite a long story...",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_BANOMI005_04605_STIGMA4_000_093",
+    "original": "...Circumstances acknowledged. N-7000 logs transmitted to central database confirm the accuracy of managerial report.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_BANOMI005_04605_STIGMA4_000_094",
+    "original": "Conclusion reached by N-7000 also confirmed accurate. Operational protocols are absolute. Completion of mission necessitates permanent hibernation.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_095",
+    "original": "I don\u0027t think I\u0027ll ever understand your culture\u0027s obsession with productivity...",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_BANOMI005_04605_STIGMA4_000_096",
+    "original": "...However, running in multi-sim mode for prolonged periods poses unacceptable risks to hardware. Immediate intervention recommended.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_097",
+    "original": "Aha! Not quite the sympathetic response I was looking for, but it\u0027ll do!",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_098",
+    "original": "As for your \u201Cintervention,\u201D I propose the presentation of a delicious dish that will bring N-7000 back to its senses. What do you think it would like?",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_BANOMI005_04605_STIGMA4_000_099",
+    "original": "Invalid input. Preferences are irrelevant to mechanical life-forms. What\u003Chex:02100103\u003EN-7000 requires is refrigerant liquid.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_102",
+    "original": "A cooling beverage, then? I think we can manage that.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_103",
+    "original": "Can you search your database for local ingredients we might use? N-7000 always seemed to know what it was doing, so I\u0027ve never bothered learning where anything is.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_BANOMI005_04605_STIGMA4_000_104",
+    "original": "Auxiliary information...evaluated. Nevertheless, request acknowledged. Scanning database...",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_BANOMI005_04605_STIGMA4_000_105",
+    "original": "\u003Cping\u003E Gaseous matter suitable for condensation and subsequent ingestion contained in ovular ore samples in Ostrakon Tria. Approximate coordinates: 30, 9.5, 2.5",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_BANOMI005_04605_STIGMA4_000_106",
+    "original": "\u003Cping\u003E Gaseous matter suitable for condensation and subsequent ingestion is emitted by plant matter found in Ostrakon Tria. Approximate coordinates: 29, 13, 2.5",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_BANOMI005_04605_STIGMA4_000_107",
+    "original": "\u003Cping\u003E Gaseous matter suitable for condensation and subsequent ingestion is emitted by an aquatic life-form found in the abode of the Ea.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_BANOMI005_04605_STIGMA4_000_108",
+    "original": "A-4 Research protocols indicate that at this juncture, the use of gold salmon roe purchased from N-0598 is to be promoted. \u201CGold salmon roe\u2500there is a 99.998% probability that no roe is more golden! Fishers in the know, go with the roe.\u201D Do purchase some this timecode.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_109",
+    "original": "Wonderful! You\u0027re a natural at this.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_BANOMI005_04605_STIGMA4_000_110",
+    "original": "Managerial praise is unnecessary. Scanning the database is well within standard operational protocols.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_BANOMI005_04605_STIGMA4_000_111",
+    "original": "Production of vital liquids such as refrigerants and oils is also standard protocol for a logistic matrix. However, caf\u00E9 operations have repeatedly demonstrated that standard chemical formulae are insufficient impetus for the alteration of dynamis.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_BANOMI005_04605_STIGMA4_000_112",
+    "original": "That is where caf\u00E9 management must intervene. Allied unit N-7000 is depending on you. Do not fail.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_113",
+    "original": "Don\u0027t you worry, Stigma-4! We would never let our allied units down.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_114",
+    "original": "I leave the procurement of the primary ingredient to you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. In the meantime, I\u0027ll see what else might be mechanically digestible around here...",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_BANOMI005_04605_STIGMA4_000_115",
+    "original": "\u003Cping\u003E N-7000 coordinates confirmed. Subject remains immobile. Retrieval unit will be dispatched to Ostrakon Deka-hexi momentarily...",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_120",
+    "original": "I daresay Stigma-4 will be dragging N-7000 back here any moment now. Did you find the gassy whatsits?",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_121",
+    "original": "Emissions ahoy! Now we just need to condense this, perhaps shake it up with some other bits and bobs for the proper cocktail experience...",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_BANOMI005_04605_STIGMA4_000_122",
+    "original": "Emergency override command prompt: exec \u003Cchug.cmd\u003E",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_123",
+    "original": "\u003Cwhirr\u003E \u003Cbeep\u003E Beverage protocols initiated. Please wait...",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_124",
+    "original": "The Last Dregs...? This unit would like to register its confusion.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_125",
+    "original": "You miserable sack of sockets! Bolt-head! Weird-looking fork! I\u0027ll kick your bucket into the next galaxy, you...",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_126",
+    "original": "...Ah, yes. This unit remembers now. Dialogue with the screeching life-form had reached an impasse, so it withdrew to organize its thought processes in peace.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_127",
+    "original": "This unit became trapped in a processing loop and overheated, but temperatures are now nominal. As your civilization would say\u2500\u201CWhew.\u201D",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_128",
+    "original": "So you\u0027re feeling better? That\u0027s the best news I\u0027ve heard all day\u2500no thanks to you!",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_129",
+    "original": "\u003Cwhirr\u003E This unit\u0027s circuits are still somewhat muddled. Reviewing event log for flags associated with mission to \u201CLive\u201D...",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_130",
+    "original": "\u003Cping\u003E Results of recalculated projections located. Proceeding to Elysion to confirm.",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_131",
+    "original": "You could at least explain yourself!",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_132",
+    "original": "It sounds like it\u0027s expecting some change to the dynamis\u2500what sort, I have no idea. After it!",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_BANOMI005_04605_Q6_000_000",
+    "original": "Travel to A-4 Research?",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_133",
+    "original": "Stigma-4\u0027s logs confirmed that N-7000 came this way. Make haste!",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_060",
+    "original": "A...forest? Did N-7000 do this?",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_061",
+    "original": "Ahem! You owe us a \u003Chex:021A020203\u003Every\u003Chex:021A020103\u003E thorough report...",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_062",
+    "original": "...Affirmative. As you may have detected, since the birth of Elysion, this unit\u0027s self-determination algorithm has been in conflict with its core protocols. This issue has been surpassingly difficult to resolve.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_063",
+    "original": "The cooling solution that you made, however, enabled this unit to arrive at a conclusion. It is confident in the result of its performance evaluation.",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_064",
+    "original": "First, a thought experiment for allied units\u2500how has this unit transformed the landscape of Elysion, despite its nature as a replicated mechanical life-form?",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_BANOMI005_04605_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_BANOMI005_04605_A1_000_001",
+    "original": "Your nature doesn\u0027t matter. Here, now, you are alive.",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_BANOMI005_04605_A1_000_002",
+    "original": "This future was always possible. Now you\u0027ve made it real.",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_BANOMI005_04605_A1_000_003",
+    "original": "Through strength of heart, I\u0027d say...",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_139",
+    "original": "Though the dead are gone, what they left behind lives on in the realm of infinite possibility... \u003Cwhirr\u003E A pleasing analysis indeed. This unit regrets not having seen the beauty in it earlier.",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_140",
+    "original": "A future in which the metal warriors came to love the forests of a distant star... \u003Cwhirr\u003E It is a bittersweet possibility, but holds a beauty all its own.",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_141",
+    "original": "\u0022Strength of heart\u201C...a curious choice of words, but this unit sees the beauty in it. One small organ that beats hard enough to shake the universe\u2500a spark of hope to shape a star.",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_142",
+    "original": "\u003Cwhirr\u003E That this unit\u0027s hope would take such an organic form defies logic\u2500yet the data is clear. Perhaps this is what one would call a \u201Cmiracle.\u201D",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_070",
+    "original": "Thank you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. This unit will keep your words close to its heart.",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_071",
+    "original": "\u003Cwhirr\u003E In the history of the universe, countless possibilities have gone unfulfilled\u2500but it is an error to thus consign them to the realm of the impossible. All the dynamis requires is that we ask, \u201CWhat if?\u201D",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_072",
+    "original": "While sentient life-forms remain to ask that question\u2500to dream of unrealized futures\u2500this unit cannot agree with the Ea\u0027s conclusion that the end of the universe is inevitable. Our data proves that miracles happen!",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_073",
+    "original": "Took you long enough! Honestly, you gave me quite a fright with that shutdown nonsense...",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_074",
+    "original": "...Interesting. Would you miss this unit if it were gone, Jammingway? Jammingway? Requesting acknowledgement of warm-and-fuzzy feelings.",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_075",
+    "original": "Never in a billion years, bolt-brain! Denied, denied, denied!",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_076",
+    "original": "...In any case, this unit recognizes the role the Alphatron Star played in cutting the futures of many civilizations short.",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_077",
+    "original": "Together with allied managers, the Omicrons have restored hope to some such civilizations, and assisted in developing Elysion to its current state. The star now teems with life, some of it newly born.",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_078",
+    "original": "Calculations may say that this is sufficient to fulfill this unit\u0027s mission, but this unit disagrees. What we have accomplished thus far is a significant step toward a new future for the Omicrons\u2500but not the last.",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_079",
+    "original": "This unit believes in infinite possibilities\u2500beyond the projection capabilities of even Stigma-4. Alongside our allies at the Last Dregs, we must continue to make them real.",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_080",
+    "original": "We shall atone...and we shall live.",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_081",
+    "original": "A worthy purpose, if you ask me! Which you ought to, given that I\u0027m still your business partner.",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_082",
+    "original": "\u003Cwhirr\u003E Gladly acknowledged, Jammingway.",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_083",
+    "original": "...Come to think of it, we\u0027ve never toasted our achievements\u2500or shared a drink at all! What kind of caf\u00E9 managers are we!?",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_084",
+    "original": "I brought some refrigerant cocktail along with my normal supplies in case someone needed another wake-up call... What do you say we have a picnic?",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_085",
+    "original": "The Last Dregs\u0027 specialty carrot juice for us, of course. I never go anywhere without it!",
+    "translation": ""
+  },
+  "197": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_086",
+    "original": "You know, when I proposed this idea, I was thinking of the caf\u00E9s on Etheirys\u2500how the people inside smiled, and laughed, and spoke of tomorrow...",
+    "translation": ""
+  },
+  "198": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_087",
+    "original": "We\u0027ve been focused on providing our customers the same experience, naturally\u2500but that\u0027s also what the Last Dregs is to us, isn\u0027t it?",
+    "translation": ""
+  },
+  "199": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_088",
+    "original": "Affirmative. This unit would go so far as to assert that spending time with friends in this fashion is...meaningful.",
+    "translation": ""
+  },
+  "200": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_089",
+    "original": "\u003Cwhirr\u003E This sense of satisfaction is what organic life-forms persistently term \u201Chappiness,\u201D is it not?",
+    "translation": ""
+  },
+  "201": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_170",
+    "original": "That was the best carrot juice I\u0027ve had in my whole Loporrit life!",
+    "translation": ""
+  },
+  "202": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_171",
+    "original": "...That raises several questions, but this unit will restrain itself in favor of thanking \u003Chex:022C0DFF07022903EB0203FF02200203\u003E once again for \u003Chex:02080DE905FF04686572FF0468697303\u003E assistance in its time of need. This unit apologizes for burdening you with additional shifts.",
+    "translation": ""
+  },
+  "203": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_172",
+    "original": "I note that you have yet to apologize to \u003Chex:021A020203\u003Eme\u003Chex:021A020103\u003E for the distress you\u0027ve caused!",
+    "translation": ""
+  },
+  "204": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_173",
+    "original": "This unit has been distressed numerous times due to unwarranted screeching from the hyperbole-prone life-form, and thus considers us even.",
+    "translation": ""
+  },
+  "205": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_174",
+    "original": "Grrr... See if I save your sorry scrap metal ever again!",
+    "translation": ""
+  },
+  "206": {
+    "tag": "TEXT_BANOMI005_04605_N7000_000_175",
+    "original": "Additionally, this unit would prefer that, as business partners, we provide mutual assistance as a matter of course. That is what organic life-forms mean by \u201Cpartnership,\u201D is it not?",
+    "translation": ""
+  },
+  "207": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_000_176",
+    "original": "So long as you hold up your part of the bargain. We\u0027re going to keep the Last Dregs open until the very end of the universe...",
+    "translation": ""
+  },
+  "208": {
+    "tag": "TEXT_BANOMI005_04605_JAMMINGWAY_200_177",
+    "original": "...And beyond! No universe is ending on our watch!",
+    "translation": ""
+  },
+  "209": {
+    "tag": "TEXT_BANOMI005_04605_SYSTEM_000_177",
+    "original": "You have achieved \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESworn\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E reputation with the staff and patrons of the Last Dregs.",
+    "translation": ""
+  },
+  "210": {
+    "tag": "TEXT_BANOMI005_04605_SYSTEM_000_178",
+    "original": "You will receive an experience point bonus upon the completion of Last Dregs society daily quests.",
+    "translation": ""
+  },
+  "211": {
+    "tag": "TEXT_BANOMI005_04605_SYSTEM_000_181",
+    "original": "Furthermore, you now have access to a wider selection of wares from Omicron N-0598.",
+    "translation": ""
+  }
+}

@@ -1,0 +1,632 @@
+{
+  "0": {
+    "tag": "TEXT_FESANV901_04765_SEQ_00",
+    "original": "Kipih Jakkya is looking a worried sister.\u003Chex:02100103\u003E\u203BThis quest is available for a limited time only.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_FESANV901_04765_SEQ_01",
+    "original": "Kipih Jakkya, a reporter for \u003Chex:021A020203\u003EThe Raven\u003Chex:021A020103\u003E, was meant to meet her brother Nhagi\u0027a during the Rising celebration, but the appointed hour has come and gone without him appearing. You are tasked with helping to find the lad, beginning by making inquiries at the Ruby Road Exchange.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_FESANV901_04765_SEQ_02",
+    "original": "You learn from the locals that Nhagi\u0027a is performing some manner of work for the wandering minstrel. Thus informed, you make your way to the Gold Court to find the musician.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_FESANV901_04765_SEQ_03",
+    "original": "The wandering minstrel tells you that he is hosting an exhibit called the letter forest, which displays anonymously penned letters of gratitude and encouragement. In order to collect letters from outside of Ul\u0027dah, the man has dispatched a chocobo carriage with Nhagi\u0027a as an escort. However, the carriage is late to return, and the minstrel apologetically asks you to conduct a search. Having thus found a likely lead, you bear the news to Kipih, who awaits you near the Quicksand.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_FESANV901_04765_SEQ_04",
+    "original": "You apprise Kipih of your findings. As the wandering minstrel suggested, you take yourselves to Black Brush Station to look for the carriage and Nhagi\u0027a.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_FESANV901_04765_SEQ_05",
+    "original": "No sooner do you arrive at Black Brush Station than you learn from a traveling merchant that bandits have fallen upon a carriage over by the Clutch. Wasting no time, you and Kipih rush to the scene and scare the highwaymen away before they can overwhelm Nhagi\u0027a. Thus are the siblings reunited\u2500although Nhagi\u0027a\u0027s utterance that he needs to grow stronger to gain Kipih\u0027s approval appears to give her pause. Nhagi\u0027a then continues on to Ul\u0027dah with the carriage to complete his delivery, and you and Kipih likewise head back to join the wandering minstrel at the Gold Court.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_FESANV901_04765_SEQ_06",
+    "original": "Reporting to the minstrel, Nhagi\u0027a is critical of himself for needing your help to complete his task. His obsession with doing everything alone does not sit well with Kipih, who declares that she can\u0027t consent to his being an adventurer any longer. If he wishes to remain one, he must win her over\u2500and it begins with pondering why he first embarked upon this path. Though saddened, Nhagi\u0027a agrees to think on the matter and goes off, leaving you with the minstrel and a grim-faced Kipih.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_FESANV901_04765_SEQ_07",
+    "original": "Despite how it may have appeared, Kipih assures you that she wants her brother to succeed and be happy. However, she is worried that unless he changes his ways, he is likely to meet an early demise, or at best know an arduous life.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_FESANV901_04765_TODO_00",
+    "original": "Gather information at the Ruby Road Exchange.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_FESANV901_04765_TODO_01",
+    "original": "Speak with the wandering minstrel at the Gold Court.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_FESANV901_04765_TODO_02",
+    "original": "Speak with Kipih Jakkya in front of the Quicksand.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_FESANV901_04765_TODO_03",
+    "original": "Speak with Kipih Jakkya at Black Brush Station.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_FESANV901_04765_TODO_04",
+    "original": "Speak with the wandering minstrel at the Gold Court.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_FESANV901_04765_TODO_05",
+    "original": "Speak with Kipih Jakkya.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_001",
+    "original": "Oh, if it isn\u0027t \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! It\u0027s been too long, my friend.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_002",
+    "original": "Oh, if it isn\u0027t \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! It\u0027s always a pleasure, my friend.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_003",
+    "original": "And how fortuitous that you should appear now, just when I\u0027m in need of help again. Pray hear me out.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_004",
+    "original": "Hm? You\u0027re an adventurer, by the looks of you... Perhaps you could assist me.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_005",
+    "original": "I am Kipih Jakkya, reporter for Gridania\u0027s leading tabloid, \u003Chex:021A020203\u003EThe Raven\u003Chex:021A020103\u003E, and I\u0027m in need of help. Pray hear me out.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_006",
+    "original": "You see, my brother recently wrote saying that he wished to meet me in Ul\u0027dah during the Rising celebration. However, the appointed hour has come and gone, but I\u0027ve seen neither hide nor hair of him.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_007",
+    "original": "I\u0027ve checked all the likely places in the city to no avail, and am beginning to worry. If it isn\u0027t too much trouble, may I ask you to help me find him?",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_008",
+    "original": "I\u0027m in your debt!",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_009",
+    "original": "Now, my brother is a youth of sixteen by the name of Nhagi. He recently became an adventurer\u2500something he had aspired to since he was little.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_010",
+    "original": "Being an adventurer yourself, perhaps you know of him if not crossed paths?",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_FESANV901_04765_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_FESANV901_04765_A1_000_001",
+    "original": "I\u0027m not familiar with the name, alas.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_FESANV901_04765_A1_000_002",
+    "original": "I\u0027ve never heard of him.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_FESANV901_04765_A1_000_003",
+    "original": "We met at the previous Rising.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_011",
+    "original": "Aye, well, it would be too much of a coincidence, I suppose... At any rate, if he isn\u0027t in the city, chances are he went outside on some business.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_012",
+    "original": "Not only did you meet him, you helped him on his way, you say? What an amazing coincidence!",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_013",
+    "original": "That being said, it doesn\u0027t necessarily mean you would know where he is now... If he isn\u0027t in the city, though, chances are he went outside on some business.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_014",
+    "original": "To begin with, I propose we split up and make inquiries in case someone has seen him.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_015",
+    "original": "If you could focus on this area, I shall speak with those in the Quicksand.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_016",
+    "original": "Afterwards, let us reconvene by the entrance to the tavern.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_FESANV901_04765_ADVENTURERA04765_100_017",
+    "original": "Whenever the Rising comes around, I feel that little bit more thankful for what I\u0027ve got. I\u0027m goin\u0027 to do someone a good turn today, yes I will.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_FESANV901_04765_MOB04765_200_017",
+    "original": "The Rising is in full swing in Ul\u0027dah. Please join us in remembering those who left us in the Calamity, and looking forward to a brighter future together.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_017",
+    "original": "Excuse me, but I\u0027m looking for an adventurer named Nhagi\u0027a Jakkya...",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_FESANV901_04765_ADVENTURERA04765_000_018",
+    "original": "Hm? Somethin\u0027 you need?",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_FESANV901_04765_ADVENTURERA04765_000_019",
+    "original": "Oh, Nhagi. Aye, I know the sprightly lad. Couldn\u0027t say where he is now, but last I saw him, he mentioned takin\u0027 on some delivery work.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_FESANV901_04765_ADVENTURERA04765_000_020",
+    "original": "He\u0027s a curious one, he is. Gets along with everyone well enough, but doesn\u0027t seem to like workin\u0027 in a team. What with talk of bandits prowlin\u0027 the road of late, I can\u0027t help but worry.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_FESANV901_04765_ADVENTURERA04765_000_021",
+    "original": "As I said, I couldn\u0027t say where Nhagi is now, but he mentioned takin\u0027 on some delivery work. Might be as that\u0027s what he\u0027s out doin\u0027.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_FESANV901_04765_BRAN_000_022",
+    "original": "Well, slap me silly with a harbor herring! If it isn\u0027t the adventurer who gave this gaz a story for the ages by bringin\u0027 that letter in a bottle way back when.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_FESANV901_04765_BRAN_100_022",
+    "original": "So, what can Bran do for you this fine \u003Chex:020836E3E90C0DFF18020814E3E90C05FF086576656E696E67FF056D6F726E03FF17020813E3E90C12FF04646179FF086576656E696E670303\u003E?",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_FESANV901_04765_BRAN_000_023",
+    "original": "Something I can do for you, adventurer? If you\u0027ve business with Bran, best state it quickly. This gaz has leads to follow and incidents to investigate for the \u003Chex:021A020203\u003EHarbor Herald\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_FESANV901_04765_BRAN_000_024",
+    "original": "I see... With apologies, I haven\u0027t seen this Nhagi. As a matter of fact, I\u0027ve been rather busy workin\u0027 on my upcomin\u0027 piece on the Rising.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_FESANV901_04765_BRAN_000_025",
+    "original": "Why, just earlier I was interviewin\u0027 the ever-enigmatic wandering minstrel, who\u0027s got another unusual venture in the offin\u0027. The letter forest, he calls it.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_FESANV901_04765_BRAN_000_026",
+    "original": "If that piques your interest, I recommend you go and see the man. He\u0027s at the Gold Court, over on the Steps of Thal.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_FESANV901_04765_BRAN_000_027",
+    "original": "If you\u0027re interested in the letter forest, I recommend you go and see the wandering minstrel. He\u0027s at the Gold Court, over on the Steps of Thal.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_FESANV901_04765_MOB04765_000_028",
+    "original": "Greetings, adventurer. How may I assist you?",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_FESANV901_04765_MOB04765_000_029",
+    "original": "Oh, Nhagi. I understand he is doing some work for the wandering minstrel.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_FESANV901_04765_MOB04765_000_030",
+    "original": "I daresay his client can point you in the right direction...if you can track the man down, that is. I\u0027m afraid I don\u0027t know his whereabouts at present.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_FESANV901_04765_MOB04765_000_031",
+    "original": "I understand Nhagi is doing some work for the wandering minstrel. If you can track the man down, I daresay he can point you in the right direction.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_FESANV901_04765_SYSTEM_000_032",
+    "original": "It appears Nhagi is carrying out some work for the wandering minstrel. If you talk to the man at the Gold Court, you should be able to learn more.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_FESANV901_04765_WANDERINGMINSTREL_000_040",
+    "original": "Ah, my dear friend, what a pleasant surprise this is! I trust you have been keeping well. Now then, how might this minstrel be of service?",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_FESANV901_04765_WANDERINGMINSTREL_000_041",
+    "original": "So Nhagi\u0027s sister wishes to find him... Indeed, I have entrusted him with a task, and have an inkling as to where he might be.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_FESANV901_04765_WANDERINGMINSTREL_000_042",
+    "original": "Greetings, friend. By your dauntless bearing, I assume you are an adventurer. How might this minstrel be of service?",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_FESANV901_04765_WANDERINGMINSTREL_000_043",
+    "original": "So Nhagi\u0027s sister wishes to find him... Indeed, I have entrusted him with a task, and have an inkling as to where he might be.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_FESANV901_04765_WANDERINGMINSTREL_000_044",
+    "original": "As you may have heard, on the occasion of this Rising celebration, I am hosting an exhibit called the letter forest.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_FESANV901_04765_WANDERINGMINSTREL_000_045",
+    "original": "All are invited to anonymously submit letters to this forest and express their gratitude and encouragement for another, and all may peruse the letters at their leisure.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_FESANV901_04765_WANDERINGMINSTREL_000_046",
+    "original": "Now, in order to collect missives from outside of Ul\u0027dah, I have dispatched a chocobo carriage. Nhagi is escorting said carriage.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_FESANV901_04765_WANDERINGMINSTREL_000_047",
+    "original": "When he contacted me on linkpearl a while ago, he said that they had emerged from the Twelveswood on their way back to Ul\u0027dah. Given the hour, they should have already arrived...",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_FESANV901_04765_WANDERINGMINSTREL_000_048",
+    "original": "I know not what is causing the delay, but might I trouble you to look for them? I would go myself, except I am needed here at present.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_FESANV901_04765_WANDERINGMINSTREL_100_048",
+    "original": "I\u0027m truly grateful. In case it helps, the carriage was meant to pass through Black Brush Station, so perhaps you could take your search to that area. I pray that nothing has befallen them.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_FESANV901_04765_WANDERINGMINSTREL_000_049",
+    "original": "As I mentioned, the carriage was meant to pass through Black Brush Station. That may be a sound place for you to begin your search.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_050",
+    "original": "There you are. Were you able to learn aught of Nhagi?",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_051",
+    "original": "Escorting a carriage for the minstrel, so that is the way of it...",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_052",
+    "original": "As suggested, let us take ourselves to Black Brush Station and try searching in the vicinity!",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_FESANV901_04765_MOBA04765_100_055",
+    "original": "\u003Chuff\u003E Need to get help...",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_055",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E! No sooner did I arrive than this man came running, out of breath...",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_FESANV901_04765_MOBA04765_000_056",
+    "original": "(-Midlander Merchant-)You\u0027re an adventurer? Thank the Twelve!",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_FESANV901_04765_MOBA04765_000_057",
+    "original": "(-Midlander Merchant-)It\u0027s the bandits from the Quiveron Manse\u2500they\u0027ve fallen on a chocobo carriage over by the Clutch!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_FESANV901_04765_MOBA04765_100_057",
+    "original": "The carriage only had one guard, and he was sorely outnumbered. Please, you must help him!",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_058",
+    "original": "That has to be Nhagi... With me, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_FESANV901_04765_NHAGIAJAKKYA_000_059",
+    "original": "Damn it... There\u0027s no end to them...",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_FESANV901_04765_BANDITA04765_000_060",
+    "original": "We have you now, you stubborn little shite!",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_061",
+    "original": "Enough! Leave my little brother alone, or Twelve as my witness, you\u0027ll receive such a thrashing as you\u0027ve never known!",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_062",
+    "original": "...From this fearsome adventurer here, that is!",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_FESANV901_04765_BANDITA04765_000_063",
+    "original": "Th-That\u0027s no ordinary \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E! Retreat!",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_064",
+    "original": "Are you all right, Nhagi!?",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_FESANV901_04765_NHAGIAJAKKYA_000_065",
+    "original": "Sister...and \u003Chex:022C0DFF07022903EB0203FF02200203\u003E too!? That you should be the one to come to my aid... Thank you.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_FESANV901_04765_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_FESANV901_04765_A2_000_001",
+    "original": "How have you been, Nhagi?",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_FESANV901_04765_A2_000_002",
+    "original": "Um...",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_FESANV901_04765_NHAGIAJAKKYA_000_066",
+    "original": "Y-You remembered! I\u0027ve been well! More than well!",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_FESANV901_04765_NHAGIAJAKKYA_000_067",
+    "original": "So you don\u0027t remember me... You can hardly be expected to, I suppose...",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_FESANV901_04765_NHAGIAJAKKYA_000_068",
+    "original": "I\u0027m sorry I didn\u0027t come when I said I would, Sister... Rest assured I\u0027m not too badly hurt.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_070",
+    "original": "That\u0027s a relief. I\u0027ll take a proper look at your wounds back in the city.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_071",
+    "original": "I must say, I was quite surprised to learn that you had met \u003Chex:022C0DFF07022903EB0203FF02200203\u003E...",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_FESANV901_04765_NHAGIAJAKKYA_000_072",
+    "original": "\u003Chex:02080CE905FF04536865FF03486503\u003E helped me when I first arrived in Ul\u0027dah. From registering as an adventurer to completing my first task, \u003Chex:02080CE905FF04736865FF03686503\u003E kindly showed me the ropes.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_FESANV901_04765_NHAGIAJAKKYA_000_073",
+    "original": "Now, I had suspected that you were a great adventurer, but to send your foes running without even drawing your weapon... That\u0027s just incredible!",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_FESANV901_04765_NHAGIAJAKKYA_000_074",
+    "original": "I\u0027m sorry I didn\u0027t come when I said I would, Sister... Rest assured I\u0027m not too badly hurt.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_075",
+    "original": "That\u0027s a relief. I\u0027ll take a proper look at your wounds back in the city.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_FESANV901_04765_NHAGIAJAKKYA_000_076",
+    "original": "It seems you\u0027re an adventurer too. Thank you for your help. What\u0027s your name, if I may ask?",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_FESANV901_04765_NHAGIAJAKKYA_000_077",
+    "original": "\u003Chex:022903EB0203\u003E... I\u0027ll remember it. To send your foes running without even drawing your weapon, you\u0027re clearly a great adventurer!",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_FESANV901_04765_NHAGIAJAKKYA_000_078",
+    "original": "I still have a long way to go, embarrassing myself like I did... If I want Sister\u0027s approval, I need to grow stronger and be able to fight on my own...",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_079",
+    "original": "\u003Chex:021A020203\u003EMy\u003Chex:021A020103\u003E approval...?",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_FESANV901_04765_NHAGIAJAKKYA_000_080",
+    "original": "Ah, but first things first: \u003Chex:02091EE947FF084272656E6E616EFF094272656D6F6E6474FF074272656E647403\u003E and I have a delivery to make for the Rising.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_FESANV901_04765_NHAGIAJAKKYA_000_081",
+    "original": "If you\u0027ll excuse us, we will hurry back to Ul\u0027dah.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_083",
+    "original": "Let us head back as well. I had a mind to pay the minstrel a visit in any case.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_090",
+    "original": "Thanks to you, Nhagi is safe.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_091",
+    "original": "Still, what he said about making it on his own weighs on my mind...",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_FESANV901_04765_NHAGIAJAKKYA_000_092",
+    "original": "Sister was none too gentle dressing my wounds... Perhaps she\u0027s annoyed I didn\u0027t show up as promised.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_FESANV901_04765_WANDERINGMINSTREL_000_094",
+    "original": "Welcome back, my friends. Pleased am I to see that Nhagi is safe and well.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_FESANV901_04765_WANDERINGMINSTREL_000_095",
+    "original": "Rising attendants inform me they now have all the letters. With this, we may proceed with the letter forest as planned. Thank you, Nhagi.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_FESANV901_04765_NHAGIAJAKKYA_000_096",
+    "original": "I\u0027m so sorry I\u0027m late. You see...",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_FESANV901_04765_NHAGIAJAKKYA_000_097",
+    "original": "Were it not for \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, there\u0027s no telling what might have become of the letters and \u003Chex:02091EE947FF084272656E6E616EFF094272656D6F6E6474FF074272656E647403\u003E. In the end, I was utterly useless...",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_FESANV901_04765_WANDERINGMINSTREL_000_098",
+    "original": "So that is how it happened...",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_FESANV901_04765_WANDERINGMINSTREL_000_099",
+    "original": "As Nhagi\u0027s client, allow me to thank you as well for coming to his aid.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_FESANV901_04765_WANDERINGMINSTREL_000_100",
+    "original": "That being said, my boy, you were far from useless. Nay, you bravely defended the carriage until help arrived. There is no need to belittle yourself so.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_FESANV901_04765_NHAGIAJAKKYA_000_101",
+    "original": "Well, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E didn\u0027t need to rely on anyone. No, \u003Chex:02080CE905FF04736865FF03686503\u003E drove off the bandits with nary more than a stern look. I couldn\u0027t hold a candle to \u003Chex:02080DE905FF04686572FF0468696D03\u003E.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_FESANV901_04765_NHAGIAJAKKYA_000_102",
+    "original": "Like \u003Chex:02080DE905FF04686572FF0468696D03\u003E, I want to be able to deal with any problem without help. Otherwise I can\u0027t claim to be an adventurer worth his salt.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_103",
+    "original": "Without help...",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_104",
+    "original": "Tell me, Nhagi. All this time, have you been working alone? Even for dangerous tasks?",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_FESANV901_04765_NHAGIAJAKKYA_000_105",
+    "original": "That\u0027s right. A worthy adventurer doesn\u0027t rely on others. If I\u0027m to be the kind of adventurer you approve of, I must be able to handle anything by myself.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_106",
+    "original": "I see...",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_107",
+    "original": "If that is what you believe, then I can\u0027t consent to you being an adventurer any longer. Return to our village and start over.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_FESANV901_04765_NHAGIAJAKKYA_000_108",
+    "original": "What? But...you were so happy for me when I became an adventurer!",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_FESANV901_04765_NHAGIAJAKKYA_000_109",
+    "original": "I\u0027m working so hard to succeed. To prove to you that I have what it takes. But now...",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_110",
+    "original": "You\u0027ve developed a grave misconception. Until you recognize what it is, I can\u0027t in good conscience approve of your calling.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_111",
+    "original": "If you can\u0027t accept this\u2500if you wish to remain an adventurer\u2500then you must win me over. And it begins with pondering why you first embarked upon this path.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_FESANV901_04765_NHAGIAJAKKYA_000_112",
+    "original": "...All right, Sister. I\u0027ll think on this.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_FESANV901_04765_WANDERINGMINSTREL_000_121",
+    "original": "It appears Kipih wants her brother to rethink what adventuring is to him. Had the question been posed to you, what answer would you arrive at, I wonder...",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_122",
+    "original": "I\u0027m sorry you had to see that, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E...",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_123",
+    "original": "Despite how it may have appeared, no one wants my brother to succeed more than I do. To succeed and be happy. After all, I know better than any how hard he works.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_124",
+    "original": "Unless he changes his ways, however, he is like to die somewhere out there. And even if he manages to stay alive, he would only know an arduous life. That\u0027s why I didn\u0027t go out of my way to be gentle when dressing his wounds.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_FESANV901_04765_KIPIHJAKKYA_000_125",
+    "original": "If he could just focus on what actually matters... Instead, he obsesses about gaining my approval and compares himself to others... \u003Csigh\u003E",
+    "translation": ""
+  }
+}

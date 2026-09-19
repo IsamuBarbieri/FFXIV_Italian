@@ -1,0 +1,892 @@
+{
+  "0": {
+    "tag": "TEXT_AKTKMA114_04370_SEQ_00",
+    "original": "Matsya regards you nervously.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_AKTKMA114_04370_TODO_00",
+    "original": "Speak with Matsya and have him accompany you.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_AKTKMA114_04370_TODO_01",
+    "original": "Speak with Mehrunnah while accompanied by Matsya.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_AKTKMA114_04370_TODO_02",
+    "original": "Speak with Nashreen while accompanied by Matsya.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_AKTKMA114_04370_TODO_03",
+    "original": "Speak with Bhazahma while accompanied by Matsya.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_AKTKMA114_04370_TODO_04",
+    "original": "Accompany Matsya to the pier and then speak with him.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_AKTKMA114_04370_TODO_05",
+    "original": "Speak with Thancred.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_AKTKMA114_04370_KHALZAHL_000_000",
+    "original": "If foreign vessels won\u0027t come to us, why not use our own to deliver the wares to them!?",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_AKTKMA114_04370_PORTMANAGER04368_000_005",
+    "original": "It\u0027s not so simple, Khalzahl. And besides, everyone is in the same boat. \u003Chex:021A020203\u003EEveryone\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_010",
+    "original": "Um...if I may ask, what is it that you do?",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_011",
+    "original": "An adventurer, you say! And you travel the world, helping people...",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_012",
+    "original": "Then...that must mean you\u0027re great at dealing with strangers! Please, won\u0027t you teach me to be like you?",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_013",
+    "original": "You see, I\u0027ve brought some fresh fish with me\u2500the portion I couldn\u0027t preserve\u2500and I want to sell them.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_014",
+    "original": "The problem is, I\u0027m terrible with people. I\u0027ve ever only dealt with Khalzahl, and I can\u0027t talk to customers without getting my trunk in a twist...",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_015",
+    "original": "So please...as silly as it might sound, will you not peddle the fish in my stead, and show me how it\u0027s done?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_016",
+    "original": "If you\u0027re willing, please let me know, and we can begin at once!",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_AKTKMA114_04370_SYSTEM_000_017",
+    "original": "The events to follow cannot be skipped. You may wish to cancel any pending Duty Finder registrations.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_AKTKMA114_04370_THANCRED_000_020",
+    "original": "Folk here are rather...\u003Chex:021A020203\u003Ebusiness-minded\u003Chex:021A020103\u003E, for want of a better word, but at least they are welcoming of foreigners. In ordinary times, this harbor must overflow with visitors from all over the world.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_AKTKMA114_04370_URIANGER_000_025",
+    "original": "\u0027Tis a storehouse like any other, at first glance. Yet in contrast to its scale, there is a distinct lack of activity.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_AKTKMA114_04370_ESTINIEN_000_030",
+    "original": "Seeing as there\u0027s dried fish, I wondered if there might be dried squid as well...",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_040",
+    "original": "You\u0027ll do it, then? Show me how to deal with customers? I\u0027m in your debt!",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_041",
+    "original": "Right, please try peddling my fish to...shall we say, three people here in Yedlihmad. I will observe you and learn!",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_AKTKMA114_04370_SYSTEM_000_042",
+    "original": "Matsya is now accompanying you. Keep him at your side in order to proceed with quest objectives.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_AKTKMA114_04370_SYSTEM_000_043",
+    "original": "You can leave Matsya behind by entering a different area, or by speaking with him and selecting the option to part ways.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_AKTKMA114_04370_SYSTEM_000_044",
+    "original": "If you wish to have Matsya join you again, return and speak with him at the original location.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_AKTKMA114_04370_Q1_000_050",
+    "original": "What will you do?",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_AKTKMA114_04370_A1_000_051",
+    "original": "Talk.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_AKTKMA114_04370_A1_000_052",
+    "original": "Part ways.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_AKTKMA114_04370_A1_000_053",
+    "original": "Nothing.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_055",
+    "original": "To travel to unfamiliar places and speak with unfamiliar peoples... Your conversational skills must be astounding!",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_AKTKMA114_04370_SYSTEM_000_060",
+    "original": "Are you sure you wish to part ways with Matsya?",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_061",
+    "original": "O-Oh, did you have other things you needed to do? In that case, I\u0027ll head back to the pier for now...",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_065",
+    "original": "Ah, you\u0027re back! Shall we continue where we left off, then?",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_AKTKMA114_04370_SYSTEM_000_070",
+    "original": "Matsya has yet to arrive. Be sure he is at your side before attempting to continue.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_AKTKMA114_04370_MEHRUNNAH_000_080",
+    "original": "Hm? Yes?",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_AKTKMA114_04370_SYSTEM_000_081",
+    "original": "You should have Matsya accompanying you before you attempt to sell the fish.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_AKTKMA114_04370_MEHRUNNAH_000_085",
+    "original": "Hm? Yes?",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_AKTKMA114_04370_Q2_000_086",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_AKTKMA114_04370_A2_000_087",
+    "original": "Fish, fish! I got fish here! Fresh fish, straight from the sea\u0027s bosom to your mouth!",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_AKTKMA114_04370_A2_000_088",
+    "original": "Greetings, friend. How fare you of late?",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_AKTKMA114_04370_MEHRUNNAH_000_089",
+    "original": "Er...I\u0027m sure your bosom fish are very fresh, but this is rather sudden... I don\u0027t need any fish right now, so thanks but no thanks.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_AKTKMA114_04370_SYSTEM_000_090",
+    "original": "You fail to make a sale...",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_091",
+    "original": "N-Never mind, it never goes well the first time. I\u0027m sure you\u0027ll fare better with the next customer!",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_AKTKMA114_04370_MEHRUNNAH_000_092",
+    "original": "Greetings to you too. \u003Csigh\u003E I suppose I\u0027m well enough given the circumstance...",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_AKTKMA114_04370_MEHRUNNAH_000_093",
+    "original": "Things have settled down somewhat, but it was utter chaos when that tower first appeared. Everyone grabbing whatever they could, trampling over each other to get to the city...",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_AKTKMA114_04370_MEHRUNNAH_000_094",
+    "original": "Many remain there for now, but I could not stay away. Had to come back\u2500continue with my life, such as it is.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_AKTKMA114_04370_MEHRUNNAH_000_095",
+    "original": "Whether or not it was the right choice...only time will tell.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_AKTKMA114_04370_Q3_000_096",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_AKTKMA114_04370_A3_000_097",
+    "original": "It\u0027s too risky out here. Maybe you ought to move to the city too.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_AKTKMA114_04370_A3_000_098",
+    "original": "There\u0027s no place like home, but don\u0027t do anything dangerous, eh?",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_AKTKMA114_04370_MEHRUNNAH_000_099",
+    "original": "Well, I make sure to keep well clear of the tower. And when more monsters emerge from it, I heed the Radiant Host\u0027s instructions.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_AKTKMA114_04370_MEHRUNNAH_000_100",
+    "original": "No place safer than the city, of course, but if everyone up and left, what would happen to Yedlihmad? Dangerous though it may be, I\u0027ll keep doing what I\u0027ve always done, to the extent I can.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_AKTKMA114_04370_Q4_000_101",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_AKTKMA114_04370_A4_000_102",
+    "original": "I understand. Were it me, I\u0027d probably carry on doing what I do best as well.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_AKTKMA114_04370_A4_000_103",
+    "original": "All right. Best of luck to you, and stay safe.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_AKTKMA114_04370_MEHRUNNAH_000_104",
+    "original": "Oh, trust me, I don\u0027t. I make sure to keep well clear of the tower, and when more monsters emerge from it, I heed the Radiant Host\u0027s instructions.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_AKTKMA114_04370_MEHRUNNAH_000_105",
+    "original": "I hope they deal with it soon so we can get back to our normal lives. To the days when you could earn as much as you gave, and tuck into a meal satisfied that you did good work...",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_AKTKMA114_04370_Q5_000_106",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_AKTKMA114_04370_A5_000_107",
+    "original": "Speaking of meals, why not have some fresh fish today?",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_AKTKMA114_04370_A5_000_108",
+    "original": "Those days will come again before you know it. Till then, stay safe!",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_AKTKMA114_04370_MEHRUNNAH_000_109",
+    "original": "What do you do for a living, if you don\u0027t mind me asking?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_AKTKMA114_04370_MEHRUNNAH_000_110",
+    "original": "Well now, a fishmonger! Do you have your goods with you? If so, I\u0027d like to buy some.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_AKTKMA114_04370_MEHRUNNAH_000_111",
+    "original": "Like me, you\u0027re doing your part to keep things normal. I respect that.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_112",
+    "original": "Th-Thank you for your custom! The catch of the day is shallows cod\u2500delectable stewed in coconut milk, or baked with a sprinkle of salt.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_AKTKMA114_04370_SYSTEM_000_113",
+    "original": "You succeed in making a sale!",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_AKTKMA114_04370_MEHRUNNAH_000_114",
+    "original": "You too, friend. And best of luck to us both.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_AKTKMA114_04370_SYSTEM_000_115",
+    "original": "The conversation ends without a sale...",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_116",
+    "original": "N-Never mind. Sale or no, the way you established a rapport was very enlightening. Come, let\u0027s find another potential customer!",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_AKTKMA114_04370_MEHRUNNAH_000_117",
+    "original": "Hm? Fresh fish, you say?",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_AKTKMA114_04370_MEHRUNNAH_000_118",
+    "original": "Ohhh, you\u0027re a fishmonger!",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_AKTKMA114_04370_MEHRUNNAH_000_119",
+    "original": "Heh, when you \u003Chex:021A020203\u003Ebait\u003Chex:021A020103\u003E me like that, how can I not bite? Very well, give me some of your fish!",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_120",
+    "original": "Th-Thank you for your custom! The catch of the day is shallows cod\u2500delectable stewed in coconut milk, or baked with a sprinkle of salt.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_AKTKMA114_04370_SYSTEM_000_121",
+    "original": "You succeed in making a sale!",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_130",
+    "original": "That you should make a sale on the first attempt... I\u0027ve learned a lot already, and I hope to learn more still!",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_131",
+    "original": "That was just the first person, so not to worry. We still have plenty of opportunities.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_AKTKMA114_04370_NASHREEN_000_140",
+    "original": "Hm? A hawker, are you?",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_AKTKMA114_04370_NASHREEN_000_145",
+    "original": "A hawker, are you? Do you sell fruit, by chance?",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_AKTKMA114_04370_NASHREEN_000_146",
+    "original": "If so, I want to buy some amra. Let\u0027s say a dozen. They don\u0027t need to be export quality.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_AKTKMA114_04370_Q6_000_147",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_AKTKMA114_04370_A6_000_148",
+    "original": "Amra shmamra! My fresh fish is the only thing you need!",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_AKTKMA114_04370_A6_000_149",
+    "original": "What do you need so many amra for?",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_AKTKMA114_04370_NASHREEN_000_150",
+    "original": "Um...no? As I said, it\u0027s amra that I want. If I wanted fish, I would\u0027ve asked for it!",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_AKTKMA114_04370_SYSTEM_000_151",
+    "original": "You fail to make a sale...",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_152",
+    "original": "Oh well... If it\u0027s not what they want, then there\u0027s no point forcing it. Let\u0027s move on to the north side of town, shall we?",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_AKTKMA114_04370_NASHREEN_000_153",
+    "original": "Why, for eating, of course! It may seem like a lot, but of late, I go through that much in no time at all.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_AKTKMA114_04370_NASHREEN_000_154",
+    "original": "I am a stocktaker by trade, but with no vessels coming these days, the wares are beginning to pile up.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_AKTKMA114_04370_NASHREEN_000_155",
+    "original": "By the same token, nothing is coming in from overseas. But not a day goes by that someone doesn\u0027t come asking when the next shipment is arriving for this and that and this and that...",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_AKTKMA114_04370_NASHREEN_000_156",
+    "original": "All of it wears me down, and I find myself feeling constantly hungry...",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_AKTKMA114_04370_Q7_000_157",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_AKTKMA114_04370_A7_000_158",
+    "original": "Are you sure you\u0027re actually hungry?",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_AKTKMA114_04370_A7_000_159",
+    "original": "I know how you feel...",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_AKTKMA114_04370_NASHREEN_000_160",
+    "original": "You know, when I think on it, I\u0027m not so sure...",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_AKTKMA114_04370_NASHREEN_000_161",
+    "original": "Rather than hungry, perhaps I\u0027ve been feeling...unfulfilled? And I try to fill the void by gorging on food I like.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_AKTKMA114_04370_Q8_000_162",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_AKTKMA114_04370_A8_000_163",
+    "original": "Take care not to overeat.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_AKTKMA114_04370_A8_000_164",
+    "original": "Do you like fish?",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_AKTKMA114_04370_NASHREEN_000_165",
+    "original": "Thank you. A pity you don\u0027t sell fruit, but I enjoyed our little chat! It took my mind off my troubles for a moment.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_AKTKMA114_04370_SYSTEM_000_166",
+    "original": "The conversation ends without a sale...",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_167",
+    "original": "N-Never mind. If nothing else, you left her with a positive impression. Let\u0027s move on to the north side of town, shall we?",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_AKTKMA114_04370_NASHREEN_000_168",
+    "original": "Heh, I\u0027ll try not to, thank you. Perhaps it\u0027s for the best you don\u0027t sell fruit. Still, I enjoyed our chat. It took my mind off my troubles for a moment.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_AKTKMA114_04370_SYSTEM_000_169",
+    "original": "The conversation ends without a sale...",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_170",
+    "original": "N-Never mind. If nothing else, you left her with a positive impression. Let\u0027s move on to the north side of town, shall we?",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_AKTKMA114_04370_NASHREEN_000_171",
+    "original": "Fish? I do like fish, as a matter of fact. Why do you ask?",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_AKTKMA114_04370_NASHREEN_000_172",
+    "original": "Oh, so you\u0027re a fishmonger! Apologies for the misunderstanding!",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_AKTKMA114_04370_NASHREEN_000_173",
+    "original": "Hmm... Seeing as you\u0027re here, do you happen to have Akyaali sardine? They\u0027re perfect in a spicy soup.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_174",
+    "original": "We certainly do, madam! And if you like it spicy, I also recommend them pickled in oil with a generous amount of chilies.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_AKTKMA114_04370_NASHREEN_000_175",
+    "original": "Oh, that does sound like a wonderful challenge! I didn\u0027t have fish in mind at first, but I daresay I\u0027ll enjoy these. Thank you!",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_AKTKMA114_04370_SYSTEM_000_176",
+    "original": "You succeed in making a sale!",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_180",
+    "original": "We\u0027re doing great so far... Dare I hope that we can make it three of three?",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_181",
+    "original": "Not a bad result so far... Let\u0027s see if we can finish on a high note!",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_182",
+    "original": "Don\u0027t lose heart yet. We\u0027ll sell something to the next person, I\u0027m sure of it!",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_AKTKMA114_04370_BHAZAHMA_000_190",
+    "original": "Hm? What is it?",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_AKTKMA114_04370_BHAZAHMA_000_195",
+    "original": "What is it? If you don\u0027t mind, I\u0027m rather busy.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_AKTKMA114_04370_BHAZAHMA_000_196",
+    "original": "Ohhh gods, my stomach... Ungh...",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_AKTKMA114_04370_BHAZAHMA_000_197",
+    "original": "Aether sickness? No, no, nothing so unusual. In my hurry to get back to work, I just ate a little too quickly...",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_AKTKMA114_04370_Q9_000_198",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_AKTKMA114_04370_A9_000_199",
+    "original": "Some fresh fish will settle your stomach, and mine are the freshest of all!",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_AKTKMA114_04370_A9_000_200",
+    "original": "You should take it easier\u2500eat more slowly and savor your food.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_AKTKMA114_04370_BHAZAHMA_000_201",
+    "original": "Ugh, food is the \u003Chex:021A020203\u003Elast\u003Chex:021A020103\u003E thing I need right now... Go and sell your fish to someone else!",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_AKTKMA114_04370_SYSTEM_000_202",
+    "original": "You fail to make a sale...",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_203",
+    "original": "N-Never mind, we just approached him at a bad time\u2500and timing is everything, yes?",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_204",
+    "original": "Thank you so much for your demonstration\u2500it was a truly eye-opening experience. Come, let us return to the pier.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_AKTKMA114_04370_BHAZAHMA_000_205",
+    "original": "Would that I could, but I can\u0027t afford to be idle. Like as not, circumstances will surely get worse before they get better.",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_AKTKMA114_04370_BHAZAHMA_000_206",
+    "original": "And so I\u0027m working as hard as I can while I still can, the better to be prepared.",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_AKTKMA114_04370_Q10_000_207",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_AKTKMA114_04370_A10_000_208",
+    "original": "What an industrious young man you are!",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_AKTKMA114_04370_A10_000_209",
+    "original": "How do you intend to prepare?",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_AKTKMA114_04370_BHAZAHMA_000_210",
+    "original": "W-Well, it\u0027s not like I\u0027m trying to impress anyone...",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_AKTKMA114_04370_BHAZAHMA_000_211",
+    "original": "Now, if you\u0027ll excuse me, I must be getting back to work. Take care.",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_AKTKMA114_04370_SYSTEM_000_212",
+    "original": "The conversation ends without a sale...",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_213",
+    "original": "T-Too bad we couldn\u0027t make a sale, but we did manage to build something of a relationship...?",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_214",
+    "original": "Thank you so much for your demonstration\u2500it was a truly eye-opening experience. Come, let us return to the pier.",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_AKTKMA114_04370_BHAZAHMA_000_215",
+    "original": "By stockpiling supplies. For that, I need to earn coin so I can buy food, medicine, what have you.",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_AKTKMA114_04370_Q11_000_216",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_AKTKMA114_04370_A11_000_217",
+    "original": "How about some fish for your supplies? They\u0027re fresh caught!",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_AKTKMA114_04370_A11_000_218",
+    "original": "Do we have anything suitable, Matsya?",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_AKTKMA114_04370_BHAZAHMA_000_219",
+    "original": "Aye, well, fish wouldn\u0027t be bad, but I don\u0027t want to go through the hassle of preserving them myself. I\u0027d rather buy stuff that\u0027s ready to store.",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_AKTKMA114_04370_BHAZAHMA_000_220",
+    "original": "So I\u0027m afraid I\u0027ll have to pass on your fish. Now, if you\u0027ll excuse me, I must be getting back to work.",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_AKTKMA114_04370_SYSTEM_000_221",
+    "original": "The conversation ends without a sale...",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_222",
+    "original": "T-Too bad we couldn\u0027t make a sale, but we did manage to build something of a relationship...?",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_223",
+    "original": "Thank you so much for your demonstration\u2500it was a truly eye-opening experience. Come, let us return to the pier.",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_224",
+    "original": "Oh, er...we do have some dried products too\u2500Thavnairian cucumber and puff-paya fish.",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_225",
+    "original": "They\u0027re the last of the batch, so if you\u0027re interested, you can have them for a discount.",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_AKTKMA114_04370_BHAZAHMA_000_226",
+    "original": "Truly!? By all means, I\u0027ll take them all!",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_AKTKMA114_04370_SYSTEM_000_227",
+    "original": "You succeed in making a sale!",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_228",
+    "original": "Heh heh, you remembered what I told you earlier\u2500that I preserve what I catch. Which serves to show the importance of being attentive!",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_229",
+    "original": "Thank you so much for your demonstration\u2500it was a truly eye-opening experience. Come, let us return to the pier.",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_240",
+    "original": "Come, let us return to the pier. I wish to thank you properly for your kind help.",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_250",
+    "original": "Th-Thank you so much for showing me how to talk to customers.",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_251",
+    "original": "You managed to sell to everyone you approached. Any merchant in Radz\u003Chex:021F0103\u003Eat\u003Chex:021F0103\u003EHan would be envious of your success!",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_252",
+    "original": "Watching you at work was truly inspiring! By applying the lessons I\u0027ve learned, I hope to one day peddle as well as you!",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_253",
+    "original": "You managed to sell to two of the three people you approached. Adventurers do indeed have great conversational skills!",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_254",
+    "original": "Watching you at work was very enlightening. By applying the lessons I\u0027ve learned, I hope to one day peddle as well as you!",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_255",
+    "original": "You managed to sell to one of the three people you approached. It was difficult, but when you put your mind to it, you succeeded.",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_256",
+    "original": "Though you did fail too...but there are lessons to be learned in both success and failure! By applying yours, I\u0027ll endeavor to become a better peddler.",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_257",
+    "original": "Though you didn\u0027t manage to sell any fish in the end...but the way you fearlessly approached strangers gave me much courage!",
+    "translation": ""
+  },
+  "197": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_258",
+    "original": "When I peddle my wares, I\u0027ll remember your example and endeavor to be fearless too.",
+    "translation": ""
+  },
+  "198": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_259",
+    "original": "Still...there\u0027s only so much I can do alone. I hope that things will return to normal for Khalzahl soon...",
+    "translation": ""
+  },
+  "199": {
+    "tag": "TEXT_AKTKMA114_04370_KHALZAHL_000_260",
+    "original": "I thought I heard a familiar voice, and who should it be but Matsya...",
+    "translation": ""
+  },
+  "200": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_261",
+    "original": "Khalzahl! H-Have you finished your business at the guild?",
+    "translation": ""
+  },
+  "201": {
+    "tag": "TEXT_AKTKMA114_04370_KHALZAHL_000_262",
+    "original": "So you were there too...",
+    "translation": ""
+  },
+  "202": {
+    "tag": "TEXT_AKTKMA114_04370_KHALZAHL_000_263",
+    "original": "Forgive me... Try as I might, I can\u0027t find any buyers.",
+    "translation": ""
+  },
+  "203": {
+    "tag": "TEXT_AKTKMA114_04370_KHALZAHL_000_264",
+    "original": "With no ships coming in and hardly any going out, there simply aren\u0027t any options. At this rate...",
+    "translation": ""
+  },
+  "204": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_265",
+    "original": "So...you can\u0027t buy my fish anymore?",
+    "translation": ""
+  },
+  "205": {
+    "tag": "TEXT_AKTKMA114_04370_KHALZAHL_000_266",
+    "original": "I\u0027m sorry, Matsya. I truly am. But for now, you must peddle your own goods.",
+    "translation": ""
+  },
+  "206": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_267",
+    "original": "But...by myself, I can\u0027t...",
+    "translation": ""
+  },
+  "207": {
+    "tag": "TEXT_AKTKMA114_04370_KHALZAHL_000_268",
+    "original": "I want to help you, I do. But as it stands, I can barely help myself.",
+    "translation": ""
+  },
+  "208": {
+    "tag": "TEXT_AKTKMA114_04370_KHALZAHL_000_269",
+    "original": "I\u0027ve poured my all into the consortium, and I\u0027ll be damned if I let it fall apart. I\u0027ve friends and families depending on me, and I can\u0027t\u2500I \u003Chex:021A020203\u003Ewon\u0027t\u003Chex:021A020103\u003E\u2500fail them. The Sisters as my witness.",
+    "translation": ""
+  },
+  "209": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_270",
+    "original": "Khalzahl...",
+    "translation": ""
+  },
+  "210": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_271",
+    "original": "N-Not to worry. Using what I\u0027ve learned from you, I\u0027m sure I\u0027ll manage...somehow.",
+    "translation": ""
+  },
+  "211": {
+    "tag": "TEXT_AKTKMA114_04370_MATSYA_000_272",
+    "original": "Well, I had best return to my village. My thanks again, and please take care on the road.",
+    "translation": ""
+  },
+  "212": {
+    "tag": "TEXT_AKTKMA114_04370_URIANGER_000_280",
+    "original": "Mayhap owing to the island\u0027s small size, the tower\u0027s impact upon the people\u0027s lives doth appear more pronounced here than in Eorzea.",
+    "translation": ""
+  },
+  "213": {
+    "tag": "TEXT_AKTKMA114_04370_ESTINIEN_000_285",
+    "original": "There you are. Gotten over the aether sickness, have you?",
+    "translation": ""
+  },
+  "214": {
+    "tag": "TEXT_AKTKMA114_04370_THANCRED_000_290",
+    "original": "I see you\u0027ve been busy. Managed to learn a tidbit or two, I trust?",
+    "translation": ""
+  },
+  "215": {
+    "tag": "TEXT_AKTKMA114_04370_THANCRED_000_291",
+    "original": "I see... We also heard that the tower is affecting many locals\u0027 livelihoods, but to think that it would be to such an extent...",
+    "translation": ""
+  },
+  "216": {
+    "tag": "TEXT_AKTKMA114_04370_THANCRED_000_292",
+    "original": "For another notable\u2500if not wholly unexpected\u2500discovery, disappearances and kidnappings are disturbingly commonplace.",
+    "translation": ""
+  },
+  "217": {
+    "tag": "TEXT_AKTKMA114_04370_THANCRED_000_293",
+    "original": "As before, the culprits are almost certainly tempered imperial soldiers.",
+    "translation": ""
+  },
+  "218": {
+    "tag": "TEXT_AKTKMA114_04370_THANCRED_000_294",
+    "original": "And as before, they mean to use the faith of their hapless thralls to call forth a lunar primal. Business as usual for the Telophoroi.",
+    "translation": ""
+  }
+}

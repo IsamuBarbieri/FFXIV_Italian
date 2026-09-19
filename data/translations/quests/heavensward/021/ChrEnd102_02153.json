@@ -1,0 +1,467 @@
+{
+  "0": {
+    "tag": "TEXT_CHREND102_02153_SEQ_00",
+    "original": "Gaetelle looks at you with bright eyes.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_CHREND102_02153_SEQ_01",
+    "original": "Gaetelle expresses hope that you will come visit the scholasticate. She bids you and Mathye farewell before taking her leave to return to the cathedral.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_CHREND102_02153_SEQ_02",
+    "original": "Upon approaching the scholasticate, the lector standing at the doors recognizes you, mentioning that Gaetelle was hopeful you would come and visit. Pass through and seek her out.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_CHREND102_02153_SEQ_03",
+    "original": "You enter the humble seminary and speak with Gaetelle about meeting with the headmistress, only to find that she is absent. Instead, Bruvagnon introduces himself as the deputy headmaster, before you are interrupted by none other than Consulting Inspector Briardien, his nephew. The good inspector has been summoned to investigate the theft of the new head of the statue of Saint Valeroyant. For old times\u0027 sake, Briardien asks Bruvagnon if you can accompany him as his associate in the case. Bruvagnon seems reluctant for you to be \u201Cassociated\u201D with the scholasticate, but eventually acquiesces. Join Briardien in his search for the student responsible for supervising the statue work.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_CHREND102_02153_SEQ_04",
+    "original": "The student overseeing the statue\u0027s restoration happens to be Theomocent, the student whom you rescued in the Brume. After being questioned by Briardien, he grows skittish and abruptly takes his leave to search for the missing piece on his own. Judging his conduct to be odd, Briardien concludes that the boy is hiding something. While he conducts his own investigation in the Brume, he asks that you search Saint Valeroyant\u0027s Forum in Foundation for anyone suspicious, as he believes the thief may be drawn to the broken statue.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_CHREND102_02153_SEQ_05",
+    "original": "In the forum, you find Theomocent pleading with Ben to return the crate containing the head of the statue. In response, Ben angrily accuses Theomocent of accepting the lies of the Holy See in order to have a better life. Leigh soon appears and realizing he is outnumbered, Ben yields the crate and escapes. However, Theomocent seems distraught as he ponders the words of his childhood friend. But he is soon inspired by your courage, and resolves to do his part to redeem the teachings of Halone. The two boys take their leave to return to the scholasticate with the crate.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_CHREND102_02153_SEQ_06",
+    "original": "You return to the scholasticate and see Theomocent and Leigh, who have already returned the statue piece and explained what happened, leaving out the details of who had stolen it. Briardien asks after the culprit, but before you can reply, one of the highborn students, Archombadin, interrupts, claiming to have witnessed Theomocent and Leigh conspiring with another lowborn friend to steal the statue piece and return it to curry favor. Leigh denies the accusation, asserting that you were there and can vouch for their innocence, but Bruvagnon dismisses the students, putting an end to the discussion.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_CHREND102_02153_SEQ_07",
+    "original": "Bruvagnon commends your assistance in resolving the incident and allows you to further accompany Briardien in his work in the scholasticate. However, pointing out the basic level of investigative skill that was necessary to resolve the incident, the inspector remarks that the theft was merely a way to present a more serious problem. He asks his uncle to explain the real reason why his services were requested.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_CHREND102_02153_TODO_00",
+    "original": "Speak with the scholasticate lector.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_CHREND102_02153_TODO_01",
+    "original": "Speak with Gaetelle.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_CHREND102_02153_TODO_02",
+    "original": "Seek out the student in charge of the statue\u0027s restoration.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_CHREND102_02153_TODO_03",
+    "original": "Search for suspects in Saint Valeroyant\u0027s Forum.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_CHREND102_02153_TODO_04",
+    "original": "Report to Bruvagnon.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_CHREND102_02153_TODO_05",
+    "original": "Speak with Bruvagnon.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_CHREND102_02153_GAETELLE_000_000",
+    "original": "I must take my leave and return to the cathedral. Mathye, it has been a pleasure. \u003Chex:020812E905FF064D6164616DFF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E, I sincerely hope you shall consider my offer to meet with the headmistress. Halone\u0027s blessings be upon you both.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_CHREND102_02153_THEOMOCENT_000_009",
+    "original": "\u003Chex:020812E905FF064D6164616DFF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E! It seems Halone has answered my prayer that you would visit our halls.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_CHREND102_02153_MATHYE_000_009",
+    "original": "Oh, my face must be red as a beet at this moment. Well, um, let me know if you ever feel a burning need to help out again? When you have the time, of course!",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_CHREND102_02153_SCHOLASTICATELECTOR_000_005",
+    "original": "\u003Chex:020812E905FF064D6164616DFF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E, yes? Sister Gaetelle was hopeful you would come and visit. She awaits you inside.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_CHREND102_02153_Q1_000_010",
+    "original": "Enter Saint Endalim\u0027s Scholasticate?",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_CHREND102_02153_A1_000_011",
+    "original": "Yes",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_CHREND102_02153_A1_000_012",
+    "original": "No",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_CHREND102_02153_GAETELLE_000_010",
+    "original": "\u003Chex:020812E905FF064D6164616DFF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E, welcome to the scholasticate! I appreciate you coming all this way, but I am afraid the headmistress is not here at the moment. She has taken leave to rest. Forgive me, but I must ask you to meet with her another day...",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_CHREND102_02153_BRUVAGNON_000_011",
+    "original": "It truly is a pity, as I too was looking forward to her audience with you. Allow me to formally introduce myself\u2500I am Father Bruvagnon. I have heard much about you from Sister Gaetelle.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_CHREND102_02153_BRUVAGNON_000_012",
+    "original": "In the headmistress\u0027s absence, I have been charged with tending to myriad administrative matters. While that would ordinarily constitute as simply waxing the seal to a pile of parchments, I have been forced to take a more hands-on approach.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_CHREND102_02153_GAETELLE_000_013",
+    "original": "The deputy headmaster and I were just discussing a rather troubling event which occurred soon after our students\u0027 encounter in the Brume, and we fear it may be connected.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_CHREND102_02153_GAETELLE_000_014",
+    "original": "\u003Chex:020812E905FF064D6164616DFF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E, you are familiar with the statue of Saint Valeroyant? The one in the center of the forum? House Dzemael\u0027s stonemasons have been working on chiseling a new head, and one of our students has been tasked with overseeing their work.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_CHREND102_02153_GAETELLE_000_015",
+    "original": "Unfortunately, this student has since reported that the piece has vanished from the artisans\u0027 workshop. Given that it has little monetary value, Father Bruvagnon and I cannot help but wonder if\u2500",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_CHREND102_02153_BRIARDIEN_000_016",
+    "original": "If the culprit bears a grudge towards this student? Briardien, consulting inspector, at your service.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_CHREND102_02153_BRIARDIEN_000_017",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E!? What brings you here of all places? Ah, don\u0027t tell me. \u003Chex:021A020203\u003EYou\u003Chex:021A020103\u003E were the \u201Chero\u201D that the students have been murmuring about. I cannot say I am surprised.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_CHREND102_02153_BRUVAGNON_000_018",
+    "original": "You are acquainted with my nephew, \u003Chex:020812E905FF064D6164616DFF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E?",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_CHREND102_02153_BRIARDIEN_000_019",
+    "original": "Yes, mine uncle. You could say our paths have crossed. More than once.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_CHREND102_02153_BRIARDIEN_000_020",
+    "original": "An idea occurs to me. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E is an adventurer of exceptional skill, in combat and deduction both. Pray, allow me to appoint \u003Chex:02080DE905FF04686572FF0468696D03\u003E as my assistant\u2500no, \u003Chex:021A020203\u003Eassociate\u003Chex:021A020103\u003E, in my work here at the scholasticate.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_CHREND102_02153_BRUVAGNON_000_021",
+    "original": "A prolonged association is like to raise more than a few eyebrows, if not invite criticism.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_CHREND102_02153_GAETELLE_000_022",
+    "original": "While I understand your concern, I am willing to trust Briardien\u0027s judgment. \u003Chex:020812E905FF064D6164616DFF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E has shown nothing but compassion towards our students.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_CHREND102_02153_BRIARDIEN_000_023",
+    "original": "At least permit me \u003Chex:02080DE905FF04686572FF0468697303\u003E company in ascertaining the piece\u0027s whereabouts. You may judge the value of our association afterwards.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_CHREND102_02153_BRUVAGNON_000_024",
+    "original": "...Very well. But no one is to speak of this to the headmistress. I will allow \u003Chex:020812E905FF064D6164616DFF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E to accompany you, but only for the duration of the investigation. And for the love of the Fury, be discreet.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_CHREND102_02153_BRIARDIEN_000_025",
+    "original": "Excellent. Come, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Our first course of action will be to question the student responsible for overseeing the statue\u0027s restoration.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_CHREND102_02153_BRIARDIEN_000_029",
+    "original": "Hm. Soot and white pumice dust. We have our boy.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_CHREND102_02153_BRUVAGNON_000_029",
+    "original": "I pray the Fury will give you the speed to solve this conundrum before the headmistress returns. ",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_CHREND102_02153_GAETELLE_000_029",
+    "original": "Your friendship with Briardien may be a blessing in disguise. I hope you will find the missing piece soon.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_CHREND102_02153_THEOMOCENT_000_030",
+    "original": "\u003Chex:020812E905FF064D6164616DFF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E! A pleasant surprise to see you once more. Praise be to Halone.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_CHREND102_02153_THEOMOCENT_000_031",
+    "original": "...So you are asking after the statue piece. I made sure to lock the workshop door, so I don\u0027t understand how it could have been taken. But worry not! I take full responsibility and will personally see it returned.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_CHREND102_02153_BRIARDIEN_000_032",
+    "original": "That won\u0027t be necessary. Inspector Briardien, at your service. I am told you were recently harassed by several ruffians in the Brume, and I suspect they may be responsible for this theft. What can you tell me about these men?",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_CHREND102_02153_THEOMOCENT_000_033",
+    "original": "N-Nothing, Inspector! I had never seen them before in my life! A-And besides, why would they want to steal the statue piece? It makes no sense! In any event, as I said, the responsibility is mine and mine alone. N-Now, if you would excuse me.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_CHREND102_02153_BRIARDIEN_000_034",
+    "original": "Hmph. Admirable sense of responsibility notwithstanding, he\u0027s clearly hiding something.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_CHREND102_02153_BRIARDIEN_000_035",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, I think we may find our answers in Foundation. While I make inquiries in the Brume, I ask that you keep an eye on the forum. Many miscreants are wont to delight in their misdeeds, and this one may be drawn to the statue.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_CHREND102_02153_BEN_000_039",
+    "original": "You again!? I told you not to meddle in my affairs. Away with you!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_CHREND102_02153_THEOMOCENT_000_040",
+    "original": "\u003Chex:020812E905FF064D6164616DFF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E, how did you...? \u003Csigh\u003E I suppose I should be honest with you. I am certain the stolen piece is in that crate. I know you are helping the inspector, but I beg you, let me try to reason with Ben first.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_CHREND102_02153_THEOMOCENT_000_041",
+    "original": "Ben, please return the statue piece and all shall be forgiven. You do understand the consequences of what you are doing? Defiling a saint\u0027s monument is a serious crime!",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_CHREND102_02153_THEOMOCENT_000_042",
+    "original": "When Father Choisseau read us stories at the orphanage, you loved the ones about Saint Valeroyant. Do you not wish to see the statue restored?",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_CHREND102_02153_BEN_000_043",
+    "original": "Saint Valeroyant. An Azure Dragoon who drew the great wyrm away from Ishgard. For all we know, that too was a lie. ",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_CHREND102_02153_BEN_000_044",
+    "original": "The Holy See and the bloody highborn deceived us, Theo! They built their fortunes on our backs! But you...you would willingly believe those lies if it meant a chance at a better life for yourself!",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_CHREND102_02153_LEIGH_000_045",
+    "original": "I knew you were the one behind this! You\u0027ve been following Theo and me ever since we met in the Brume!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_CHREND102_02153_LEIGH_000_046",
+    "original": "Be careful, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! He\u0027s not going to give it up without a fight!",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_CHREND102_02153_THEOMOCENT_000_047",
+    "original": "W-Wait, all of you! I still believe Ben will do what\u0027s right!",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_CHREND102_02153_BEN_000_048",
+    "original": "There you go again, turning up your nose and spewing shite as if you\u0027re one of \u003Chex:021A020203\u003Ethem\u003Chex:021A020103\u003E. Don\u0027t you see? I \u003Chex:021A020203\u003Eam\u003Chex:021A020103\u003E doing what\u0027s right! I\u0027m ridding us of these false heroes!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_CHREND102_02153_BEN_000_049",
+    "original": "Bah! Keep your bloody head, and your library and lessons filled with lies. Believe them if you want\u2500you\u0027re just as bad as the rest!",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_CHREND102_02153_THEOMOCENT_000_050",
+    "original": "He...he is right to be angry. I dreamt of teaching our people to walk in Halone\u0027s grace. But when the scripture itself has been called into question, how am I to find my own way?",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_CHREND102_02153_THEOMOCENT_000_051",
+    "original": "Whatever should I do...?",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_CHREND102_02153_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_CHREND102_02153_A1_000_001",
+    "original": "Forge your own path.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_CHREND102_02153_A1_000_002",
+    "original": "...",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_CHREND102_02153_THEOMOCENT_000_052",
+    "original": "My own path? You mean...interpret the scripture on my own? A different approach to our faith, to be sure...but mayhap you have the right of it.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_CHREND102_02153_THEOMOCENT_000_053",
+    "original": "I suppose there is no simple answer. Yet when I look at you, I see one who has walked \u003Chex:02080DE905FF04686572FF0468697303\u003E own path, no matter how perilous. I envy that courage...",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_CHREND102_02153_THEOMOCENT_000_054",
+    "original": "Mayhap the answer to my question is writ not in ink nor carved in stone, but in the strength of mine own conviction.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_CHREND102_02153_THEOMOCENT_000_055",
+    "original": "Forgive me, Ben, but I have come too far to give up now. If Halone\u0027s teachings have been distorted by man\u0027s hand, then by man\u0027s hand must they be redeemed.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_CHREND102_02153_LEIGH_000_056",
+    "original": "That\u0027s all well and good, but we won\u0027t change Ishgard by standing around in the snow. At least Ben left us the statue piece. We\u0027d best return it before that prized peacock starts squawking to the deputy headmaster.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_CHREND102_02153_LEIGH_000_057",
+    "original": "Will you come too, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E? I\u0027m sure he will appreciate your help in retrieving it.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_CHREND102_02153_BRIARDIEN_000_059",
+    "original": "I see you found the boy and the missing statue piece. Care to share with us the details?",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_CHREND102_02153_THEOMOCENT_000_059",
+    "original": "Well, that is that. All\u0027s well that ends well, yes?",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_CHREND102_02153_LEIGH_000_059",
+    "original": "(Theo already explained everything. We recovered the statue piece, and that\u0027s what matters.)",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_CHREND102_02153_BRUVAGNON_000_060",
+    "original": "\u003Chex:020812E905FF064D6164616DFF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E, I see you\u0027ve returned as well. Leigh and Theomocent have just finished explaining to me what happened. I thank you for your help in resolving this matter swiftly.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_CHREND102_02153_BRIARDIEN_000_061",
+    "original": "But there appears to be something missing. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, pray tell...what became of the suspect? Surely these two wish to seek justice for the theft.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_CHREND102_02153_ARCHOMBADIN_000_062",
+    "original": "(-???-)Those two will tell you naught, Inspector. For they are the culprits whom you seek.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_CHREND102_02153_ARCHOMBADIN_000_063",
+    "original": "Allow me to shed some light on this troubling situation. As a son of House Dzemael, it \u003Chex:021A020203\u003Epained\u003Chex:021A020103\u003E me to learn that our artisans\u0027 precious work had been spirited away. So I saw fit to conduct mine own investigation. I followed Leigh at a distance, only to find him and his friend consorting with the culprit!",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_CHREND102_02153_ARCHOMBADIN_000_064",
+    "original": "Camaraderie among orphans of the Brume is to be expected. But to steal a saint\u0027s head so that they may \u201Cretrieve\u201D it to prove their merit!",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_CHREND102_02153_LEBRASSOIR_000_065",
+    "original": "(-Composed Student-)And such desperation that they would desecrate a tome in this manner! You would expect a seminarian to treat any holy text with the utmost care\u2500even if they are but children\u0027s stories.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_CHREND102_02153_LEIGH_000_066",
+    "original": "Piss off, you priggish whoreson! \u003Chex:022C0DFF07022903EB0203FF02200203\u003E was there! \u003Chex:02080CE905FF04536865FF03486503\u003E\u0027ll tell you you\u0027re wrong!",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_CHREND102_02153_BRUVAGNON_000_067",
+    "original": "Enough! You will \u003Chex:021A020203\u003Eall\u003Chex:021A020103\u003E conduct yourselves with decorum as befits seminarians! Leigh, we will discuss penance for your foul language anon.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_CHREND102_02153_ARCHOMBADIN_000_068",
+    "original": "Father Bruvagnon, if I may. The next time the scholasticate apportions work with the sacred monuments, pray entrust the task to me. I am certain the artisans of my house would be at ease knowing their work was in \u003Chex:021A020203\u003Ecleaner\u003Chex:021A020103\u003E, more dependable hands.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_CHREND102_02153_ARCHOMBADIN_000_069",
+    "original": "And as for my ignoble peers, if the comprehension of advanced scripture is still beyond you such that you require a tattered tome of children\u0027s lessons, then allow me to procure for you a new copy with mine own coin. You need not thank me\u2500House Dzemael prides itself on its charity to the deprived.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_CHREND102_02153_THEOMOCENT_000_070",
+    "original": "M-My tome, if you would! Oof!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_CHREND102_02153_JANCHETTE_000_071",
+    "original": "(-???-)Just how long are you planning to lie there?",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_CHREND102_02153_JANCHETTE_100_071",
+    "original": "You\u0027re completely hopeless.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_CHREND102_02153_THEOMOCENT_000_072",
+    "original": "Th-Thank you, Blaisie.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_CHREND102_02153_LEIGH_000_073",
+    "original": "Gah! This is what happens when you let him walk all over you! It\u0027ll be a miracle if we\u0027re not branded heretics by the end of this term!",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_CHREND102_02153_BRUVAGNON_000_074",
+    "original": "Leigh, Theomocent, consider this a warning; you were saved this time solely by \u003Chex:020812E905FF064D6164616DFF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E\u0027s integrity and the grace of the Fury. But I will not turn a blind eye if you continue to fraternize with questionable company.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_CHREND102_02153_QUIQUETIN_000_075",
+    "original": "(-???-)Ah, the insurmountable wall between the highborn and lowborn. I wonder, did our ancestors build it, brick by brick? Or was it fate which drove us apart? And where shall we go from here...",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_CHREND102_02153_BRIARDIEN_000_079",
+    "original": "Excellent work, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I had no doubts that you would rise to the challenge.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_CHREND102_02153_BRUVAGNON_000_080",
+    "original": "\u003Chex:020812E905FF064D6164616DFF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E, I must apologize for the behavior of my students. They have been at each other\u0027s throats since the revelations came to light. As for your performance\u2500you have surpassed my expectations, and I will allow you to assist Briardien in his work at the scholasticate. Well done.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_CHREND102_02153_BRIARDIEN_000_081",
+    "original": "If I may be so bold, Uncle. Though I have but arrived, and this is the only case you have had me investigate thus far, I must say that I found it rather a waste of my talents.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_CHREND102_02153_BRIARDIEN_000_082",
+    "original": "While theft is indeed a serious matter, I cannot help but wonder if this was merely some pretense. Surely you have a more pressing problem?",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_CHREND102_02153_BRUVAGNON_000_083",
+    "original": "...An astute observation. I expected nothing less. There is indeed another matter I should discuss with you and your newly appointed associate.",
+    "translation": ""
+  }
+}

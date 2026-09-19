@@ -1,0 +1,792 @@
+{
+  "0": {
+    "tag": "TEXT_GAIUSD601_00494_SEQ_00",
+    "original": "Rammbroes has a furrowed brow and the look of one with ill tidings.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_GAIUSD601_00494_SEQ_01",
+    "original": "Rammbroes and G\u0027raha have been hard at work finding a way to rescue Unei, Doga, and Nero from the World of Darkness. However, their research has revealed a more pressing problem: Emperor Xande\u0027s covenant with the voidsent known as the Cloud of Darkness remains in effect, and his orders still control the Crystal Tower. Thus, the Allagan structure continues amassing energy to open a voidgate, and unleash the Cloud upon Eorzea. Should this come to pass, all that is will be destroyed. However, even amidst such dire circumstance, there is a sliver of hope. If NOAH can retrieve Unei and Doga from the dark realm, then the tower can be halted and the covenant broken. Garlond Ironworks has labored to make a machine able to open a small rift, through which a brave band of adventurers can enter the World of Darkness. Cid arrives to inform you the preparations are nearly complete, and bids you speak with Wedge at the Eight Sentinels.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_GAIUSD601_00494_SEQ_02",
+    "original": "Wedge ushers you to the throne room of Syrcus Tower. In the moments before opening the rift, G\u0027raha Tia falls into a strange mood, and tells you of a band of heroes in ancient Allag who sought to dethrone Xande. Ultimately, though, they did not succeed in stopping the emperor. History aside, Cid receives word that the Ironworks\u0027 machine is ready. With a devilish glint in his eye, the engineer orders the voidgate opened. Lights flash and power hums, and before your very eyes a rift appears. Rammbroes now lays the burden of rescuing your friends from the World of Darkness upon you. As you turn to go, G\u0027raha Tia asks for a moment of your time. Speak with him at the Eight Sentinels to discover what is on his mind.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_GAIUSD601_00494_SEQ_03",
+    "original": "G\u0027raha Tia reveals his inner struggle. Though he has learned the hue of his eye marks him as close to Allag, he does not know why. However, he feels instinctively that he must accompany you beyond the rift. You gladly accept his offer of company, and ready yourself to pass through the voidgate to rescue your three lost comrades.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe World of Darkness can be accessed via the Duty Finder.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_GAIUSD601_00494_SEQ_04",
+    "original": "After vanquishing the Cloud of Darkness, you find your lost companions safe. You discover that Unei and Doga\u0027s royal blood offers them protection from the shadowy realm, and learn of their will: to stay behind and sever Xande\u0027s covenant. The Cloud of Darkness suddenly rears up around you, harrowing you. G\u0027raha is hit...and mysteriously unharmed. Astounded, Unei proclaims that the royal blood of Allag flows in G\u0027raha\u2500though only through some tremendous technological feat. The two clones then tell the historian he can control the Crystal Tower, and bid you all hasten back to Eorzea. Concealing a deep sadness at the loss of friends, G\u0027raha begins the race homewards. You and Nero follow.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_GAIUSD601_00494_SEQ_05",
+    "original": "After nearly losing Nero to the dark realm, you have safely returned to the Crystal Tower. Rammbroes and Cid are saddened at the loss of Unei and Doga, but they are both happy to learn that your venture into the World of Darkness was a success. G\u0027raha now holds the royal blood of Allag in concentration great enough to control the tower and put an end to the threat it poses. However, Rammbroes realizes\u2500with some prodding\u2500how tiring your journey truly was. So before beginning, he bids you rest for a spell, and speak with him briefly at Saint Coinach\u0027s Find.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_GAIUSD601_00494_SEQ_06",
+    "original": "You have spoken with Rammbroes, who thanks you for your service to both NOAH and the realm. He concludes that the saga of the Crystal Tower is nearly finished, and that it will be but a short time before Allag\u0027s sad history may be laid to rest.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_GAIUSD601_00494_TODO_00",
+    "original": "Speak with Wedge at the Eight Sentinels.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_GAIUSD601_00494_TODO_01",
+    "original": "Speak with G\u0027raha Tia at the Eight Sentinels.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_GAIUSD601_00494_TODO_02",
+    "original": "Enter the World of Darkness.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_GAIUSD601_00494_TODO_03",
+    "original": "Enter the World of Darkness.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_GAIUSD601_00494_TODO_04",
+    "original": "Speak with Rammbroes at Saint Coinach\u0027s Find.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_GAIUSD601_00494_RAMMBROES_000_000",
+    "original": "Ah, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, it is good you are come. I have news you must be made aware of.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_GAIUSD601_00494_RAMMBROES_000_001",
+    "original": "Alas, none of it bodes well for us, nor for Unei, Doga, and Nero imprisoned in the dark realm.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_002",
+    "original": "Think back upon our last foray into Syrcus Tower, if you will. The Calamity stirred the place from its long slumber and awoke Emperor Xande. But you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, you ensured he was laid to rest permanently.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_003",
+    "original": "Yet the emperor had sealed a binding covenant with the terrible voidsent known as the Cloud of Darkness. Even as Doga and Unei labored to annul this contract, the entity reached through a rift and dragged the pair of them\u2500and Nero\u2500out of our realm.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_GAIUSD601_00494_RAMMBROES_000_004",
+    "original": "Since that day, NOAH has devoted itself to rescuing Unei, Doga, and Nero from beyond the rift. Our research, however, has exposed a far more dire problem.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_GAIUSD601_00494_RAMMBROES_000_005",
+    "original": "The Crystal Tower still acts upon Emperor Xande\u0027s orders, and collects energy to open another voidgate even as we speak. Indeed, the place nigh hums with energy.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_GAIUSD601_00494_RAMMBROES_000_006",
+    "original": "We have done all we can to stop the imperial edict, but to no avail. Just as the gate would open only for Unei and Doga, so too will the tower heed only those with the royal blood of Allag.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_007",
+    "original": "\u0027Tis a most galling design. Granted, this was not always so vexatious, according to the Allagan tomestone Nero presented us.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_008",
+    "original": "During the golden age of Allag, the royalty had some means of bestowing their blood upon others. If they hadn\u0027t such a technology, Amon and his underlings could never have controlled the Crystal Tower.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_GAIUSD601_00494_RAMMBROES_000_009",
+    "original": "But we do not have either this art or any with royal blood. Every moment we wait, a vast rift through which the Cloud of Darkness can enter our realm threatens to open.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_GAIUSD601_00494_RAMMBROES_000_010",
+    "original": "Such a disaster cannot be allowed to come to pass. We \u003Chex:021A020203\u003Emust\u003Chex:021A020103\u003E seal the Crystal Tower, and annul Xande\u0027s covenant with the dark realm.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_GAIUSD601_00494_RAMMBROES_000_011",
+    "original": "If only breaking the latter would suffice... But then what of the energy building in the Crystal Tower? Without suppression, that power could discharge and cause a calamity like to the one that destroyed Allag.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_GAIUSD601_00494_RAMMBROES_000_012",
+    "original": "In truth, we have more than just three lost compatriots to worry about. If we do not act, our very world will fall before the might of this threat.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_013",
+    "original": "We know but one way out of this predicament: rescue those who can control the tower from beyond the dark realm, and seal the rift shut after them. And mercifully, not all our news is quite so bleak.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_014",
+    "original": "\u0027Tis true we cannot stop the voidgate from manifesting within the tower, but this can be to our benefit.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_015",
+    "original": "We can use Syrcus\u0027s power for our own purposes, and create a portal to carry us into the dark realm!",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_GAIUSD601_00494_RAMMBROES_000_016",
+    "original": "We have heard this is possible from a man of the Thaumaturges\u0027 Guild well versed in otherworldly matters. And with Master Garlond working to create said portal, the final preparations are well underway. Ah, and here comes the man himself.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_GAIUSD601_00494_CID_000_017",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Just the \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E we need!",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_GAIUSD601_00494_RAMMBROES_000_018",
+    "original": "Yes, our fellowship is indeed complete, and all parties privy to our strategy. And you, Master Garlond, how fare your endeavors?",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_GAIUSD601_00494_CID_000_019",
+    "original": "Quite well! The device is nearly ready\u2500though attaching the damnable thing to Syrcus Tower took every onze of ingenuity the Ironworks has got. But it should produce the energy we need.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_GAIUSD601_00494_CID_000_020",
+    "original": "With just a little more fine-tuning, we can open a rift. I\u0027m here to request your presence at the tower.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_GAIUSD601_00494_CID_000_021",
+    "original": "I\u0027ll leave Biggs and Wedge at the Eight Sentinels as guides. And do hurry, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I\u0027m sure you wouldn\u0027t miss another chance to save the world, would you?",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_022",
+    "original": "Well, Cid certainly seems to have a firm hand on the helm. Shall we make our way to the Crystal Tower?",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_030",
+    "original": "Time is of the essence, my friend. We must go to the Eight Sentinels.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_GAIUSD601_00494_BIGGS_000_035",
+    "original": "Has the chief filled you in on the plan, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E? Opening up that voidgate will be a real feat for the Ironworks.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_GAIUSD601_00494_BIGGS_000_036",
+    "original": "But I\u0027m worried about what comes afterwards. I\u0027ve never heard of anyone going through a rift, let alone coming back. I don\u0027t relish the idea of getting stuck there ourselves...",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_GAIUSD601_00494_WEDGE_000_040",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E! I\u0027ll bet you\u0027re here to watch us pry open a rift between worlds, eh?",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_GAIUSD601_00494_WEDGE_000_041",
+    "original": "We\u0027re almost ready. Syrcus Tower is full of engineers scurrying around and making adjustments. We\u0027re dealing with a lot of power, and if a single coupling\u0027s off... Well, \u003Chex:021A020203\u003Eboom\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_GAIUSD601_00494_WEDGE_000_042",
+    "original": "B-But it should be fine. Really! Anyway, you\u0027d best wait at the top. The chief\u0027s there overseeing the whole operation.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_GAIUSD601_00494_CID_000_050",
+    "original": "My friends, you\u0027ve arrived. I\u0027m just waiting for my engineers to give the signal. Then, we\u0027ll see if we can\u0027t open a gateway to another world!",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_GAIUSD601_00494_CID_000_051",
+    "original": "Hm? Is there something amiss, G\u0027raha?",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_GAIUSD601_00494_CID_000_052",
+    "original": "...Ahhh, Emperor Xande\u0027s throne\u2500how the mighty have fallen, eh? Once, it stood as a symbol of Allag\u0027s art and power. Now, it\u0027s nothing more than an empty chair.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_GAIUSD601_00494_CID_000_053",
+    "original": "Just imagine if Allagan civilization had lived on, and a just emperor still sat on that throne. How different would our history be, how much further would we have advanced? \u003Csigh\u003E Unfortunately, there was no stopping Xande and his ambition.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_054",
+    "original": "There...there were those who tried.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_055",
+    "original": "Xande\u0027s war of dominion left no one unscathed. Unable to abide the horrors inflicted upon the people, warriors young and brave took up the sword against Allag.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_056",
+    "original": "These men and women became as beacons of hope to those who had suffered\u2500not unlike the Warriors of Light in our age.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_057",
+    "original": "But all this merely hastened the destruction. Just as they moved towards Allag\u0027s heart for the kill, Xande lashed out in anger and frustration...as trapped beasts are wont to do.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_058",
+    "original": "In his desperation, Xande desired that a great rift be opened to hasten the Cloud of Darkness\u0027s coming. To this end, he commanded the sun\u0027s power held within Dalamud be emptied into Syrcus Tower at once.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_059",
+    "original": "The act bore terrible consequences. The tower only withstood the blast by flooding the land below with energy. Syrcus was swallowed by the very earth upon which it once stood.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_GAIUSD601_00494_CID_000_060",
+    "original": "The Fourth Umbral Calamity... I\u0027d learned of its cause from Unei and Doga. I had no idea that rebellion incited Xande to rashness, though.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_GAIUSD601_00494_CID_000_061",
+    "original": "Your knowledge of Allagan history is astounding, G\u0027raha. Why, a man could study for two lifetimes and only learn half of what you know.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_062",
+    "original": "Mayhap... \u0027Tis strange, though\u2500I cannot seem to remember where I learned such things...",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_GAIUSD601_00494_CID_000_063",
+    "original": "Yes? Ah, Biggs, are you ready?",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_GAIUSD601_00494_BIGGS_000_064",
+    "original": "Ready and raring to open up that voidgate, Chief!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_GAIUSD601_00494_BIGGS_000_065",
+    "original": "We reckon when this machine\u0027s up and running, she\u0027ll be able to float five airships the size of the \u003Chex:021A020203\u003EAgrius\u003Chex:021A020103\u003E. So just give us the word, and we\u0027ll start channeling energy into the tower.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_GAIUSD601_00494_CID_000_066",
+    "original": "Good! Then let\u0027s get started!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_GAIUSD601_00494_CID_000_067",
+    "original": "Our preparations are complete. Everyone, step away from the throne.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_GAIUSD601_00494_CID_000_068",
+    "original": "All right, let\u0027s see what this machine can do. Now, Biggs!",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_GAIUSD601_00494_RAMMBROES_000_069",
+    "original": "Ahhh, a rift to the World of Darkness, as Unei called it. Splendid work, Master Garlond!",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_GAIUSD601_00494_CID_000_070",
+    "original": "We can\u0027t break out the mead just yet. The tough part\u0027s still ahead. We\u0027ve broken into the dark realm, but the gate\u0027s not all that stable: it won\u0027t stay open forever, and only a few can use it.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_GAIUSD601_00494_CID_000_071",
+    "original": "I, for one, will remain here to ensure the voidgate stays open.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_GAIUSD601_00494_RAMMBROES_000_072",
+    "original": "As will the Sons of Saint Coinach. This rift is our sole path to salvation\u2500if it closes, we are all truly lost.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_GAIUSD601_00494_RAMMBROES_000_073",
+    "original": "Which leaves...\u003Chex:022C0DFF07022903EB0203FF02200203\u003E. My friend, \u0027tis a heavy burden I must task you with, but there are none more able. Pray lead the adventurers beyond the rift.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_GAIUSD601_00494_RAMMBROES_000_074",
+    "original": "I do not know what awaits you, save the Cloud of Darkness and our three comrades. But you must go, for the fate of our world now rests upon your shoulders.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_GAIUSD601_00494_RAMMBROES_000_075",
+    "original": "This is our only gambit, but I have every faith you will succeed.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_GAIUSD601_00494_RAMMBROES_000_076",
+    "original": "It will be no small feat to return after you have passed beyond the rift. Make certain you are prepared before leaving.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_077",
+    "original": "...Might I have a moment of your time, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E? There is a matter of import we must needs discuss ere you leave.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_080",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, I wished to speak to you about my eye. As you are no doubt aware, \u0027tis a trait seen only amongst Allagan royalty. ",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_081",
+    "original": "Long I have pondered why such is my inheritance. The sanguine hue must have some bearing upon my destiny\u2500this much Doga himself admitted. But what?",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_082",
+    "original": "In truth, the more I learn of the Crystal Tower, the less I am myself. Somehow, meeting those two clones has wrought great change in me.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_083",
+    "original": "I am consumed with remembering...something. Something ancient, but ever so important.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_084",
+    "original": "And my father\u0027s words echo in my mind, the selfsame ones his father told him: the truth of our eye rests with Allag.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_085",
+    "original": "Mayhap what I wish to remember and these words are related. Mayhap not. But I know I must learn the truth that history hides from me. I would see this journey\u2500\u003Chex:021A020203\u003Eour\u003Chex:021A020103\u003E journey\u2500through to the very end with mine own two eyes.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_086",
+    "original": "So I implore you: allow me to join you beyond the rift!",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_087",
+    "original": "You have my thanks, my friend. Now, let us venture into the World of Darkness, to save our comrades and our realm!",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_090",
+    "original": "If you have prepared yourself, let us waste no time in rescuing our comrades from the darkness.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_100",
+    "original": "Where in the seven hells are they!? Without them to stem the energy in the tower, our defeat of the Cloud aids our cause little.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_101",
+    "original": "Doga! Unei! Can you hear me? Nero!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_GAIUSD601_00494_NERO_000_102",
+    "original": "(-???-)\u003Chex:021A020203\u003EMust\u003Chex:021A020103\u003E you be so infernally loud!? Are you so keen to attract more voidsent?",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_GAIUSD601_00494_NERO_000_103",
+    "original": "...Though I don\u0027t blame you for missing my company.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_104",
+    "original": "Thank the Twelve! Are you all right?",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_GAIUSD601_00494_NERO_000_105",
+    "original": "As all right as can be expected. Unei has simply passed out.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_106",
+    "original": "Nero, by the gods... What\u0027s happened to you?",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_GAIUSD601_00494_DOGA_000_107",
+    "original": "Alas, his wounds were too deep, and allowed this foul place entry to his body. Now, the darkness claws at the aether of his very form. Would that we could have protected him...",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_GAIUSD601_00494_DOGA_000_108",
+    "original": "The Cloud of Darkness was bound by Xande\u0027s unholy covenant to bring prosperity to Allagan royalty. The same blood that sealed this contract gives us a measure of protection.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_GAIUSD601_00494_DOGA_000_109",
+    "original": "I say \u201Ca measure,\u201D for this vow does not protect us from other voidsent. The Cloud imprisoned us here precisely to unleash fiends upon us. We would be dead had Nero not defended us so valiantly.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_GAIUSD601_00494_NERO_000_110",
+    "original": "Mistake not my actions for kindness. I have use for you yet in Eorzea, and simply couldn\u0027t let harm befall you here.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_GAIUSD601_00494_UNEI_000_111",
+    "original": "Wh-Where...?",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_GAIUSD601_00494_DOGA_000_112",
+    "original": "Unei! You are safe\u2500our friends have come for us.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_GAIUSD601_00494_UNEI_000_113",
+    "original": "H-Have they? Then perhaps, Doga, there is yet hope we may fulfill our purpose.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_GAIUSD601_00494_CLOUDOFDARKNESS_000_114",
+    "original": "Mortals! You have dared to challenge me, and now must feel my wrath!",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_GAIUSD601_00494_CLOUDOFDARKNESS_000_115",
+    "original": "Did you think to destroy me in \u003Chex:021A020203\u003Emy\u003Chex:021A020103\u003E realm? Here, I am eternal! I will smother your light and entomb your bones amongst my shadows!",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_116",
+    "original": "A-Are we truly so powerless here?",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_GAIUSD601_00494_DOGA_000_117",
+    "original": "As long as we fight the Cloud in this realm, I fear so.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_GAIUSD601_00494_DOGA_000_118",
+    "original": "And yet...though we may not be able to destroy it, this may be our chance to stop it. If we strike now whilst the Cloud can barely hold her form, mayhap we can sever Xande\u0027s covenant!",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_GAIUSD601_00494_UNEI_000_119",
+    "original": "Yes, and raze the bridge between the Crystal Tower and this foul place once and for all! \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, G\u0027raha\u2500you must flee!",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_120",
+    "original": "You...you and Doga mean to \u003Chex:021A020203\u003Estay\u003Chex:021A020103\u003E here!?",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_121",
+    "original": "\u0027Tis madness! You must return with us! No one but you can save the world from the threat of the Crystal Tower!",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_GAIUSD601_00494_CLOUDOFDARKNESS_000_122",
+    "original": "What is this trickery? ...Your blood! You too gain protection from Xande\u0027s blood!",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_GAIUSD601_00494_UNEI_000_123",
+    "original": "G\u0027raha Tia... You \u003Chex:021A020203\u003Eare\u003Chex:021A020103\u003E possessed of royal blood! That is why the Royal Eye runs in your line!",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_GAIUSD601_00494_UNEI_000_124",
+    "original": "\u0027Tis a gift you have inherited. G\u0027raha\u2500\u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E have been granted authority over the Crystal Tower!",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_GAIUSD601_00494_DOGA_000_125",
+    "original": "...I had thought time would consume all of Allag that was. That a man should still live with his forebears\u0027 blood in this age can be no coincidence.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_GAIUSD601_00494_DOGA_000_126",
+    "original": "Some person must have planted this gift in your line, and used the highest of Allagan technology to do so.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_GAIUSD601_00494_DOGA_000_127",
+    "original": "True, the Crystal Tower is not like to recognize you as Allagan, not as you are now. But your Royal Eye bespeaks a simple truth: within you dwells one feeble glitter that will illuminate all, the light of hope!",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_128",
+    "original": "But...how should I use this light? Pray, tell me!",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_GAIUSD601_00494_UNEI_000_129",
+    "original": "You must gain control of the Crystal Tower. We will share our blood with you, G\u0027raha. Though its effects will be but ephemeral, it will bolster the Allagan presence within you.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_GAIUSD601_00494_DOGA_000_130",
+    "original": "This is our gift to you, that you may fulfill your destiny. All with the Royal Eye are bound by fate to Allag. Our part in this journey is to bury Xande\u0027s dark ambitions in the past. This was the true Unei and Doga\u0027s purpose, one we have carried into the future.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_GAIUSD601_00494_DOGA_000_131",
+    "original": "Know that as long as this light of hope survives in you, our souls will still remain\u2500even if our bodies are lost.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_GAIUSD601_00494_DOGA_000_133",
+    "original": "You must leave us as well, Nero. I am sorry we could not live up to your expectations.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_GAIUSD601_00494_UNEI_000_134",
+    "original": "I must return to you what is yours, though. You dropped it whilst defending us.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_GAIUSD601_00494_UNEI_000_135",
+    "original": "What you seek by this instrument may not be possible, Nero. But do not give up. There are many other paths that await you.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_GAIUSD601_00494_NERO_000_136",
+    "original": "...Of \u003Chex:021A020203\u003Ecourse\u003Chex:021A020103\u003E they do.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_100_136",
+    "original": "Doga, Unei, I... Thank you. We shall never forget you. Now, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, Nero, let us quit this place.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_GAIUSD601_00494_CLOUDOFDARKNESS_000_137",
+    "original": "You shall not escape me, impudent children of light!",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_GAIUSD601_00494_UNEI_000_138",
+    "original": "No, \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E shall not escape \u003Chex:021A020203\u003Eus\u003Chex:021A020103\u003E.\u003Chex:02100103\u003EHere, Xande\u0027s bloodstained dreams of glory end.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_140",
+    "original": "There! The glint of light!",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_141",
+    "original": "It...it grows faint! Then the bridge between realms grows fragile by the covenant\u0027s annulment!",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_142",
+    "original": "If that light dies, we are stranded here! Hurry!",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_143",
+    "original": "Nero, no! You must move!",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_GAIUSD601_00494_NERO_000_144",
+    "original": "Leave me!",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_GAIUSD601_00494_NERO_000_145",
+    "original": "I don\u0027t need you! If I die here, it\u0027ll be because I bloody well decided to!",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_GAIUSD601_00494_NERO_000_146",
+    "original": "I failed to master darkness. I\u0027ll not suffer watching a green boy master the tower.",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_GAIUSD601_00494_NERO_000_147",
+    "original": "Do what you will with it. But remember me, \u003Chex:021A020203\u003Eson of Allag\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_GAIUSD601_00494_NERO_000_148",
+    "original": "I am Nero tol Scaeva, the man who\u0027ll yet outdo Allag \u003Chex:021A020203\u003Eand\u003Chex:021A020103\u003E Garlond!",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_149",
+    "original": "\u003Chex:021A020203\u003EThat\u003Chex:021A020103\u003E was what you hoped to\u2500",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_GAIUSD601_00494_SALINA_000_150",
+    "original": "May the Crystal Tower...\u003Chex:02100103\u003Eagain be a beacon of hope for mankind.",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_GAIUSD601_00494_NERO_000_151",
+    "original": "Go, damn you!",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_GAIUSD601_00494_NERO_000_152",
+    "original": "\u003Ccough\u003E Must move onwards... Th-This is \u003Chex:021A020203\u003Enot\u003Chex:021A020103\u003E where I come to rest!",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_GAIUSD601_00494_NERO_000_153",
+    "original": "But how did...?\u003Chex:02100103\u003E...So those damn clones did it, after all.",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_GAIUSD601_00494_NERO_000_154",
+    "original": "Now, onwards!",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_GAIUSD601_00494_NERO_000_155",
+    "original": "Aaaaaaaaah!",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_GAIUSD601_00494_CID_000_156",
+    "original": "You owe me, Nero.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_GAIUSD601_00494_NERO_000_157",
+    "original": "The hells I do!",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_GAIUSD601_00494_RAMMBROES_000_160",
+    "original": "You are returned unharmed, thank the gods!",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_GAIUSD601_00494_WEDGE_000_161",
+    "original": "When that voidgate started to close... I had never felt so powerless in all my life!",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_GAIUSD601_00494_BIGGS_000_162",
+    "original": "We were running about like madmen, trying to keep the gate open\u2500and then the chief actually went and dived in! But if you\u0027re all sa\u2500 Hm?",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_GAIUSD601_00494_WEDGE_000_163",
+    "original": "Wh-Where are Unei and Doga? They\u0027re not...?",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_GAIUSD601_00494_RAMMBROES_000_164",
+    "original": "...I see. I will miss the two of them dearly, but I am happy they fulfilled their purpose.",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_GAIUSD601_00494_RAMMBROES_000_165",
+    "original": "We who live on must still attend to the Crystal Tower...though we now have no one able to seal it.",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_166",
+    "original": "That is not true, my friend. Unei and Doga have entrusted me with their blood. I can now control the Crystal Tower.",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_GAIUSD601_00494_RAMMBROES_000_167",
+    "original": "G\u0027raha... Yes, I can see it in your eyes. Good. Then let us put an end to this, and seal away the tower.",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_168",
+    "original": "I understand your instinct, Rammbroes, but please, give us a moment to rest. I am weary to the bone, and Nero and \u003Chex:022C0DFF07022903EB0203FF02200203\u003E are both emerged from long battle.",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_GAIUSD601_00494_RAMMBROES_000_169",
+    "original": "Of course, of course, you have the right of it. Come, we shall leave this place for a spell, and repair to Saint Coinach\u0027s Find.",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_170",
+    "original": "No one but you could have succeeded in the World of Darkness, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_171",
+    "original": "Would that I could have been of more use beyond the rift. As it stands, I was but a vessel for Doga and Unei\u0027s blood...",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_172",
+    "original": "Hm? Have I remembered what I wished to?",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_173",
+    "original": "...Yes, something has come back to me. Gaining royal blood and witnessing true bravery has reminded me of my forebears\u0027 dearest wish.",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_174",
+    "original": "But we need not speak of these things now. It was not my place to keep you. Pray go on ahead of me; there is something small I would do before I return.",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_175",
+    "original": "I could not have asked for a better comrade. If only I could have been a part of your adventures for longer, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E... Alas, fate dictates I have a different role to play.",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_176",
+    "original": "A wish hidden for millennia, and brought to light by the good people of NOAH...",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_GAIUSD601_00494_GRAHATIA_000_177",
+    "original": "Now, finally, \u0027tis my time to see it realized.",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_GAIUSD601_00494_CID_000_180",
+    "original": "Nero never would\u0027ve made it back without you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, and for that you have my thanks. I doubt he will hatch any more dastardly schemes for the present. He owes me his life, after all.",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_GAIUSD601_00494_BIGGS_000_185",
+    "original": "I\u0027ll tell you, that rift started closing up \u003Chex:021A020203\u003Efast\u003Chex:021A020103\u003E. Waiting for you three to pop out was the tensest few moments of my life!",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_GAIUSD601_00494_WEDGE_000_190",
+    "original": "No matter how many other clones are still out there, our Unei and Doga were special. I\u0027m going to miss them...",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_GAIUSD601_00494_RAMMBROES_000_200",
+    "original": "I cannot express how glad I am you returned safely, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u2500and with the means to dispel the threat of the Crystal Tower for good!",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_GAIUSD601_00494_RAMMBROES_000_201",
+    "original": "Rest if you will, and then let us free ourselves from the specter of the Allagans!",
+    "translation": ""
+  }
+}

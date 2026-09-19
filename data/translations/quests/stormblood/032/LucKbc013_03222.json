@@ -1,0 +1,557 @@
+{
+  "0": {
+    "tag": "TEXT_LUCKBC013_03222_SEQ_00",
+    "original": "Something\u2500mayhap the stars\u2500tells you that Jannequinard would like a word or two...hundred.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_LUCKBC013_03222_SEQ_01",
+    "original": "Jannequinard has taken notice that Master Rufin\u2500better known as Lady Leveva\u2500may not be in the highest of spirits, and has asked you to take a quick stroll to the Last Vigil to learn what is troubling her.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_LUCKBC013_03222_SEQ_02",
+    "original": "Before you can discern the source of Lady Leveva\u0027s disquiet, the young astrologian tasks you with greeting Kyokuho at the city-state\u0027s aetheryte plaza\u2500where he is scheduled to arrive at any moment.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_LUCKBC013_03222_SEQ_03",
+    "original": "You locate Kyokuho and warmly welcome the geomancer back to Ishgard before informing him of Jannequinard\u0027s concern regarding Lady Leveva\u0027s state of mind. You elect to continue your conversation at the Athenaeum Astrologicum.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_LUCKBC013_03222_SEQ_04",
+    "original": "For reasons unstated (and most likely unfounded), Kyokuho comes to the hasty conclusion that Lady Leveva is knee-deep in the thralls of love, and it is an affair of the heart that clutters her thoughts. The Far Eastern fop insists that you must confront Leveva if any manner of normality is to be restored.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_LUCKBC013_03222_SEQ_05",
+    "original": "Upon discovering you and Kyokuho trading whispers behind her back like schoolgirls at recess, Lady Leveva makes it clear that the cause of her distress is most definitely \u003Chex:021A020203\u003Enot\u003Chex:021A020103\u003E some mysterious longing for companionship. Unfortunately, she departs for Camp Dragonhead before you have the chance to confirm what exactly \u003Chex:021A020203\u003Eis\u003Chex:021A020103\u003E the cause of that stress. One not need be an accomplished reader of the stars to know that a journey to the selfsame outpost awaits you.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_LUCKBC013_03222_SEQ_06",
+    "original": "As it turns out, Lady Leveva is struggling to formulate how the schools of Sharlayan astrology and Far Eastern geomancy might be incorporated into a single art. Recollections of your time spent in the First, however, have given her cause for excitement. She now asks for you to cast Aspected Benefic that she might witness firsthand your bond to this nightless realm\u0027s astral energies.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_LUCKBC013_03222_SEQ_07",
+    "original": "Like when a candle is lit in the dark, Lady Leveva\u0027s mind is flooded with inspiration, and you are to thank. Eager to continue her studies, the reinvigorated astrologer bids you a hasty farewell before hurrying back to the Athenaeum.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_LUCKBC013_03222_SEQ_08",
+    "original": "Lady Leveva apologizes to her companions for not confiding in them her troubles, then promptly reveals her only romantic interest is her studies\u2500a \u201Crevelation\u201D with which Kyokuho seems disturbingly uncomfortable.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_LUCKBC013_03222_TODO_00",
+    "original": "Speak with Lady Leveva at the Last Vigil.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_LUCKBC013_03222_TODO_01",
+    "original": "Speak with Kyokuho at the aetheryte plaza.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_LUCKBC013_03222_TODO_02",
+    "original": "Speak with Kyokuho at the Athenaeum Astrologicum.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_LUCKBC013_03222_TODO_03",
+    "original": "Speak with Kyokuho.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_LUCKBC013_03222_TODO_04",
+    "original": "Speak with Lady Leveva at Camp Dragonhead.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_LUCKBC013_03222_TODO_05",
+    "original": "Cast Aspected Benefic on Lady Leveva.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_LUCKBC013_03222_TODO_06",
+    "original": "Speak with Lady Leveva at the Athenaeum Astrologicum.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_000",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E! You always seem to know the precise moment at which your services are required. Such is the mark of an accomplished astrologian, if I do say so myself!",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_001",
+    "original": "Which would, of course, imply you are already aware of what I would ask of you! Yet, I shall indulge you with my request nonetheless. It is Master Rufin. Following our return from Kugane, she has been...distant. Well, more distant than usual. Enough to give one pause, at least.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_002",
+    "original": "I thought I might ascertain the source of her worriment with the Deck of Sixty, but was presented the usual slumgullion of vague portents and portentous vagaries. By the time I unwrapped my throbbing head from the spread, all I could discern was something about a \u201Cdark wind blowing from the east.\u201D",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_003",
+    "original": "I suppose this could imply any number of things\u2500ill tidings from our allies in Doma, a rainstorm brewing over the Black Shroud, a fire at that fine patisserie near the Arc of the Venerable... Why, I suppose even \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E could be the dark wind. Ahem. No. Right.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_004",
+    "original": "Let us simply say, I am worried about our companion, but am at a loss as to how I might help her. Leveva has been spending much of her days up at the Last Vigil, staring blankly out over the Sea of Clouds. I\u0027ve attempted speaking with her, but the lady is about as receptive to my concerns as one might expect. Perhaps, though, she would prove more forthcoming with her star pupil? ",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_010",
+    "original": "The Last Vigil was once a lookout for the See\u0027s Knights Dragoon, though by the time anyone manning the outpost spotted a dragon, it was far too late to do aught but crawl into a root cellar and pray.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_020",
+    "original": "\u003Csigh\u003E It will never work, and I was a fool to think\u2500",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_021",
+    "original": "Oh, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Just the \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E I wanted to see.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_022",
+    "original": "Might you remember our good fr\u2500 Might you remember Kyokuho? Lanky fellow, disheveled hair, somewhat capable in the geomantic arts? Well, it appears his travels will be bringing him once again to Ishgard.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_023",
+    "original": "Seeing as he has provided me with a wealth of valuable insight into his discipline, the least I could do would be to greet him upon his arrival. Unfortunately, I must see to some unfinished affairs near the Architects...",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_024",
+    "original": "Would it be too much to ask for you to visit the aetheryte plaza in my stead? I shall catch up with both of you later at the Athenaeum Astrologicum.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_030",
+    "original": "Kyokuho will be arriving at the aetheryte plaza. You cannot well greet him while loitering here in the Pillars, unless you heard tell he was flying in on the back of a dragon?",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_040",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Imagine us, meeting here! Could it be fate? Hah hah hah, I jest!",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_041",
+    "original": "Slow down, friend. I\u0027ve only just arrived in Ishgard and already you\u0027re recruiting me to some urgent cause? You Westlanders certainly don\u0027t waste your time.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_042",
+    "original": "I intended this to be but a short visit to discuss how matters have progressed since you vanquished Kinko and aided me in restoring my grandfather\u0027s wards. However, I suppose all that can wait.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_043",
+    "original": "To the Athenaeum, then?",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_050",
+    "original": "Why if it isn\u0027t...\u003Chex:021A020203\u003Ea dark wind from the East\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_060",
+    "original": "It is good to see you again, too, Jannequinard. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E tells me all is not well with Lady Leveva?",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_061",
+    "original": "Ah, so I see someone has wasted little time in informing every rat in the Brume of matters that I thought it obvious were of a more personal nature.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_062",
+    "original": "Oh, save the drama for the stage, my friend. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E merely recognized that the intimate connection Lady Leveva and I forged in Kugane made me the perfect candidate for discerning what might be weighing oh, so heavily on her soul.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_063",
+    "original": "Hah! And how do you propose to do that?",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_064",
+    "original": "Do it? I\u0027ve already \u003Chex:021A020203\u003Edone\u003Chex:021A020103\u003E it! Lady Leveva\u0027s in love!",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_065",
+    "original": "But of course she is! Wait...what?",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_066",
+    "original": "Her archenemy defeated, her father\u0027s memory honored, and a city saved\u2500Lady Leveva has conquered the countless peaks that rose before her with an air of aplomb that would belie her mere sixteen summers. And now, bereft of purpose, she has turned her eyes to companionship to fill the void that lies agape in her heart.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_067",
+    "original": "And I believe I can help. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, might you know the lonely lady\u0027s current whereabouts?",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_068",
+    "original": "Those massive stone effigies to raw masculinity!? Oh, it is worse than I thought! We must make haste!",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_070",
+    "original": "Don\u0027t tell me you take that addle-pated moonboy seriously. Lady Leveva? In love? What a ridiculous notion. Unless...",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_071",
+    "original": "If she is smitten with some unknown individual\u2500and I am, by no means, implying that she is\u2500it is my duty as friend of her father to determine if the cur is worthy of Lady Leveva\u0027s attention.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_072",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Might I assume you saw Kyokuho safely to the Athenaeum? Very well. I shall be along shortly.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_080",
+    "original": "Look, there she is.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_LUCKBC013_03222_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_LUCKBC013_03222_A1_000_001",
+    "original": "Indeed. There she is. And?",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_LUCKBC013_03222_A1_000_002",
+    "original": "Then why are we \u003Chex:021A020203\u003Ehere\u003Chex:021A020103\u003E?",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_090",
+    "original": "And nothing. That\u0027s the problem. She\u0027s just been \u003Chex:021A020203\u003Estanding\u003Chex:021A020103\u003E there.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_100",
+    "original": "I was afraid you might ask that.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_110",
+    "original": "What do \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E think we should do?",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_111",
+    "original": "I\u0027m but a humble student of the geomantic arts. I have little understanding when it comes to matters of the heart.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_112",
+    "original": "(-Leveva-)And what, pray tell, are you two doing here?",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_113",
+    "original": "I, uh...greetings and salutations, my dearest Leveva! Aren\u0027t you looking most resplendent this fine \u003Chex:02083FE3E90C0DFF1B020817E3E90C05FF086576656E696E67FF086D6F726E696E6703FF1D020819E3E90C12FF0A61667465726E6F6F6EFF086576656E696E670303\u003E!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_114",
+    "original": "Resplendent? Spent a few bells in the books, have we?",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_115",
+    "original": "Time will tell if this new vocabulary suits you, but time is not a luxury I am afforded at this moment.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_100_115",
+    "original": "The city\u0027s din is positively deafening. It stifles my thoughts and upsets my humours. What I require is clarity\u2500something unattainable within these stone walls. The quiet of Camp Dragonhead, however, may provide me with a moment\u0027s respite.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_116",
+    "original": "Oh, and you may cease with this ridiculous talk of \u201Cmatters of the heart.\u201D Love is the furthest of my worries. I, for one, am already promised to another.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_116",
+    "original": "Al...",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_100_116",
+    "original": "...ready...",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_200_116",
+    "original": "...promised!?",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_117",
+    "original": "How is that even...?",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_118",
+    "original": "Ah, Kyokuho. There\u0027s no need to kneel in my presence. Did I miss anything?",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_119",
+    "original": "I see. It comes as little surprise that one of her social standing would be betrothed at such a young age. Such is the custom amongst older houses\u2500even in a city as progressive as Sharlayan\u2500and she hails from one of the oldest.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_120",
+    "original": "I suppose... It\u0027s just that\u2500",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_121",
+    "original": "Kyokuho! Whither the vim and vigor from our conversation earlier? And all this upon learning Lady Leveva is to be married. A more astute observant might presume a certain emotional attachment to our young prot\u00E9g\u00E9.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_122",
+    "original": "But that would be ludicrous. I, for one, know that good Kyokuho\u0027s feelings towards Leveva are naught but those of admiration for her skill at the astromantic arts. So let us return to the task at hand. We still do not know what is weighing down on the lady\u0027s fragile heart.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_123",
+    "original": "And what better way to find out than to ask. A novel idea, don\u0027t you think? Asking someone what is troubling them rather than assuming\u2500without having actually spoken with them, or even seen them for some time\u2500that they\u0027re simply longing for amorous relations.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_124",
+    "original": "Wonderful. Kyokuho and I shall return to the Athenaeum where I will make certain he refrains from idle meddlement in any other lives.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_130",
+    "original": "I could accompany you to Camp Dragonhead, but one thing my time with Lady Leveva has taught me is that when she has her head wrapped about some vexatious affair, the last person\u0027s company she desires is mine.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_131",
+    "original": "I fear I have offended the Lady Leveva... Will she ever forgive me?",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_140",
+    "original": "As persistent as always... Fine. You have seen through my ruse. I am \u003Chex:021A020203\u003Enot\u003Chex:021A020103\u003E, in fact, promised to another. I simply implied as much to silence Kyokuho.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_141",
+    "original": "Alright, there \u003Chex:021A020203\u003Ewas\u003Chex:021A020103\u003E a time I was promised to another. We have my grandfather to thank for that. However, since I am now officially \u003Chex:021A020203\u003Edeceased\u003Chex:021A020103\u003E, my assumption is that the arrangement will have been annulled. Not that I shall ever bother to actually confirm this assumption.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_142",
+    "original": "What is troubling me? \u003Csigh\u003E \u0027Twas not my intention to involve you or Jannequinard...or even Kyokuho in such matters. However, the discord my silence has sown perhaps warrants an explanation.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_143",
+    "original": "Despite repeated efforts following our recent achievements in Kugane, I have been unable to conceive feasible means of blending the teachings of Sharlayan astrology and those of Far Eastern geomancy.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_144",
+    "original": "As Kyokuho explained, unlike astrologians who look to the stars above to read their fates, geomancers look to the star \u003Chex:021A020203\u003Ebelow\u003Chex:021A020103\u003E and listen to its songs, and draw their answers from its whispers.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_145",
+    "original": "Yet try as I might, I remain impotent in tapping the land\u0027s puissance. I\u0027ve spent my life attuning to the slight variations in the aether of distant stars. So much so that when I look to Hydaelyn and her aether, I am overwhelmed by its potency...its \u003Chex:021A020203\u003Eglow\u003Chex:021A020103\u003E, you could say. Think of it as trying to open one of the heavens\u0027 gates in a world of everlasting daylight.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_LUCKBC013_03222_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_LUCKBC013_03222_A2_000_001",
+    "original": "A world of everlasting daylight? About that...",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_LUCKBC013_03222_A2_000_002",
+    "original": "......",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_150",
+    "original": "You have visited such a place? Then my readings were accurate. Exactly \u003Chex:021A020203\u003Ewhere\u003Chex:021A020103\u003E have your adventures taken you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E?",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_160",
+    "original": "Your silence speaks louder than words. As do my readings. The Deck of Sixty has already revealed much and more about your recent foray into distant realms. Now, if you would care to elaborate.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_170",
+    "original": "And you had no trouble channeling the aether from that world\u0027s heavens \u003Chex:021A020203\u003Edespite\u003Chex:021A020103\u003E the fact that you never once physically laid eyes upon them?",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_171",
+    "original": "Intriguing... But I am a woman of reason, and shall require more than the word of another\u2500no matter how close\u2500to convince me of this phenomenon. A firsthand demonstration, however, might suffice. A single Aspected Benefic, perhaps?",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_180",
+    "original": "When you are ready, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. A single incantation of Aspected Benefic will suffice.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_190",
+    "original": "Your faculty for aetherially conversing with celestial bodies both far and near is peerless. A most eloquent display...and one I should endeavor to learn from.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_191",
+    "original": "I have committed the most grievous of sins by allowing things such as light, distance, and dimension\u2500things that hold no dominion over the realm aetherial\u2500to prevent me from unbinding my full potential.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_192",
+    "original": "You, however, helped me to realize the error in my ways. I believe now I might continue my studies.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_193",
+    "original": "Just...not here. I am unsure why I thought this would be a suitable location to ponder my predicament in the first place. Perhaps it was the memories of our first lesson here... Ahem. Let us hurry back to the Athenaeum lest we catch cold.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_200",
+    "original": "So...my original reading was accurate all along! \u003Chex:021A020203\u003EYou\u003Chex:021A020103\u003E were the dark wind! But then why...dark? I thought people were calling you the Warrior of Light...",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_200",
+    "original": "Jannequinard was right. \u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E was the dark wind from the east. If I hadn\u0027t arrived and upset Lady Leveva with my ridiculous notions, we wouldn\u0027t find ourselves in this mess...",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_500",
+    "original": "Foremost, I believe I owe you both an apology. Or at least I owe you one, Jannequinard. As for you, Kyokuho\u2500",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_501",
+    "original": "How did you arrive at the ridiculous notion that I was somehow languishing in the throes of love?",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_502",
+    "original": "When \u003Chex:022C0DFF07022903EB0203FF02200203\u003E and Jannequinard mentioned you were not yourself after returning from Kugane, I simply assumed that\u2500",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_503",
+    "original": "Do you dare suggest that we had any hand in this, Kyokuho? You were not a quarter bell in the Pillars before you were telling anyone who would listen about the cavernous maw that yawned in the heart of poor, lonely Master Rufin...and how you were to fill it.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_504",
+    "original": "Lonely? Pah! I\u0027m far from lonely. In fact, I\u0027ve already promised my heart to another.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_505",
+    "original": "Of course. Already promised to a\u2500 Wait...what?",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_506",
+    "original": "You heard me, and I\u0027ve never spoken a truer word.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_507",
+    "original": "Whoever could it be? It is certainly not \u003Chex:022C0DFF07022903EB0203FF02200203\u003E...or, heavens forfend, \u003Chex:021A020203\u003EKyokuho\u003Chex:021A020103\u003E?",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_508",
+    "original": "Why, astrology, of course!",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_509",
+    "original": "What? Who did you expect, Quimperain?",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_510",
+    "original": "I suppose you\u0027re wondering what brought me to Ishgard in the first place. It most certainly wasn\u0027t to ruffle Master Rufin\u0027s feathers...though it seems I have succeeded in that nonetheless.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_100_510",
+    "original": "Our triumph over Kinko having restored the people of Kugane\u0027s faith in geomancy, it was not long before a gaggle of eager mages were clamoring at my door, seeking guidance in the art of wind and water.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_LUCKBC013_03222_KYOKUHO_000_511",
+    "original": "To accommodate, I transformed my grandfather\u0027s study into a place where I might train those who are willing to invest the time and effort necessary to become masters. Which reminds me... My students are likely wondering where their sensei is! Farewell, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_100_511",
+    "original": "So he came to tell us of his new school of geomancy? Did we not give him a linkpearl?",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_LUCKBC013_03222_LEVEVA_000_512",
+    "original": "At any rate, allow me to thank you once again for the inspiration you provided. Despite being your mentor in matters astrological, I find myself consistently in your debt when it comes to...well, everything else. You are a true friend and confidant, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_513",
+    "original": "And as always, she has once again failed to acknowledge that it was \u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E who first noticed her change in mood, and that it was \u003Chex:021A020203\u003Emy\u003Chex:021A020103\u003E reading that predicted your arrival, and that it was \u003Chex:021A020203\u003Emy\u003Chex:021A020103\u003E good judgment that eventually pointed you in her direction.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_514",
+    "original": "But such is my destiny, I suppose.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_515",
+    "original": "I am simply happy that Lady Leveva is back to her normal self. If aught were to befall her, Rufin would haunt me till the Eighth Umbral Era.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_LUCKBC013_03222_JANNEQUINARD_000_516",
+    "original": "Thank you again, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I would say we make a fine team, but considering you cover the coeurl\u0027s share of the footwork, I will refrain from any further analogies of a sporting nature.",
+    "translation": ""
+  }
+}

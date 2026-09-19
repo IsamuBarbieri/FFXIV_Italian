@@ -1,0 +1,557 @@
+{
+  "0": {
+    "tag": "TEXT_SUBCTS671_04524_SEQ_00",
+    "original": "Ameliance is eager to depart for the Studium.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_SUBCTS671_04524_TODO_00",
+    "original": "Speak with Ameliance and have her accompany you.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_SUBCTS671_04524_TODO_01",
+    "original": "Accompany Ameliance to the designated location and then speak with her.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_SUBCTS671_04524_TODO_02",
+    "original": "Speak with the contemplative student while accompanied by Ameliance.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_SUBCTS671_04524_TODO_03",
+    "original": "Accompany Ameliance to the designated location and then speak with her.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_SUBCTS671_04524_TODO_04",
+    "original": "Speak with Ameliance.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_001",
+    "original": "Lest you worry, I\u0027ve informed Meryld to wait here in case Mila returns home before we find her.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_002",
+    "original": "With that, let us be off. Oh, I can scarcely wait to see the look on her face when we arrive.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_SUBCTS671_04524_MERYLD_000_005",
+    "original": "I offered to escort Miss Miladeen here, but Lady Ameliance refused. I fear her unexpected arrival may prove overly stressful for our young charge. Please look after them both in my absence, would you?",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_SUBCTS671_04524_SYSTEM_000_010",
+    "original": "Custom deliveries cannot be made while this quest is in progress. They will become available again once the quest is completed.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_020",
+    "original": "Is it strange that, having come all this way, I only now begin to have second thoughts about my plan to surprise Mila? Surely, she would be glad to see us. More so, I should think, if she were to see you in the lead.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_021",
+    "original": "You are far too kind. Thank you.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_022",
+    "original": "Phenomenon is where she\u0027s most likely to be, so I suggest we start there.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_SUBCTS671_04524_SYSTEM_000_023",
+    "original": "Ameliance is now accompanying you. Keep her at your side in order to proceed with quest objectives.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_SUBCTS671_04524_SYSTEM_000_024",
+    "original": "You can leave Ameliance behind by entering a different area, or by speaking with her and selecting the option to part ways.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_SUBCTS671_04524_SYSTEM_000_025",
+    "original": "If you wish to have Ameliance accompany you again, return and speak with her at the original location.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_SUBCTS671_04524_Q1_000_000",
+    "original": "What will you do?",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_SUBCTS671_04524_A1_000_001",
+    "original": "Talk.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_SUBCTS671_04524_A1_000_002",
+    "original": "Part ways with Ameliance.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_SUBCTS671_04524_A1_000_003",
+    "original": "Nothing.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_027",
+    "original": "Is something the matter? If you\u0027re hungry, I could have our attendants at the manor prepare something on our return.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_SUBCTS671_04524_SYSTEM_100_028",
+    "original": "Are you sure you wish to part ways with Ameliance?",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_028",
+    "original": "Other worldly matters demand your attention, I take it. Say no more. When you return, I shall await you here at the Studium.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_029",
+    "original": "Ah, you\u0027ve returned. I trust everything is all right? Wonderful. Then let us resume our search for Mila!",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_040",
+    "original": "I should have known she would not be here. There is rarely an opportunity to remain idle at the Studium, after all. She did mention some manner of practical training today, however. Perhaps we can find her at Makers\u0027 Meet. Or, failing that, we can ask if any students have seen her.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_041",
+    "original": "...But my, how wonderful it is to walk through these halls again. So many fond memories. Perhaps you would care to hear a story or two?",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_SUBCTS671_04524_A1_000_004",
+    "original": "\u003Chex:024804F2022403\u003EDiscuss the Studium.\u003Chex:0248020103\u003E",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_SUBCTS671_04524_A1_000_005",
+    "original": "\u003Chex:024804F2022403\u003EDiscuss the various faculties.\u003Chex:0248020103\u003E",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_043",
+    "original": "It was the twins\u0027 graduation when last I was here. Unfortunately, an emergency Forum meeting prevented Fourchenault from attending.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_044",
+    "original": "I\u0027d never seen Alisaie in such a foul mood. Alphinaud, meanwhile, tried to put on a brave face, saying he understood the demand and duty of the Forum... But a mother knows when her children are hurting.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_045",
+    "original": "Fourchenault was no better. Would that you could have seen it. He spent an entire day with Alphinaud in the kitchen, baking batch after batch of ginger cookies for Alisaie in an amusing attempt to cheer her up.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_046",
+    "original": "As a student, my studies here centered on the arcane. Fourchenault, meanwhile, studied the art of somanoutics\u2500a dreadfully difficult discipline undertaken by those who aspire to become sages.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_047",
+    "original": "One fateful day, he and I found ourselves working together on an experiment. I had never worked closely with him before, but I knew him well by reputation.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_048",
+    "original": "...He was said to be unbelievably cantankerous, stubborn, unapproachable, and overall quite insufferable\u2500all of which turned out to be true. Naturally, I wished to learn everything about him!",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_049",
+    "original": "He was always so flustered whenever we spoke, averting his eyes this way and that. It was all so very amusing and peculiar\u2500to even think of it begs for laughter! ...Ahem, \u0027tis probably best that we keep this conversation between ourselves.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_SUBCTS671_04524_RESEARCHSTUDENT04524_000_050",
+    "original": "Thaliak give me strength, I can\u0027t think of a way to frame my research! Perhaps I\u0027d best schedule another meeting with the professor...",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_SUBCTS671_04524_SYSTEM_000_051",
+    "original": "Ameliance must be accompanying you in order to proceed with the quest.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_SUBCTS671_04524_RESEARCHSTUDENT04524_000_060",
+    "original": "I\u0027m sorry...did you need something?",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_061",
+    "original": "Please forgive us our intrusion. Would you perchance happen to know where we can find Miladeen? She\u0027s a student newly arrived from Thavnair.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_062",
+    "original": "Ah, but how rude of me! I am her host mother, Ameliance Leveilleur.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_SUBCTS671_04524_RESEARCHSTUDENT04524_000_063",
+    "original": "Ameliance... \u003Chex:021A020203\u003EL-Leveilleur\u003Chex:021A020103\u003E!?",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_SUBCTS671_04524_RESEARCHSTUDENT04524_000_064",
+    "original": "Y-Yes, of course! Miladeen! She\u0027s in the same course as me. She usually heads over to the pavilion by Noumenon to study on her own after class!",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_065",
+    "original": "Perfect! She shan\u0027t be hard to find, then. My apologies again for the disturbance.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_SUBCTS671_04524_RESEARCHSTUDENT04524_000_066",
+    "original": "N-No problem at all! It was an honor to meet you, milady!",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_067",
+    "original": "We\u0027ve no time to lose\u2500let us make for the pavilion near Noumenon!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_SUBCTS671_04524_RESEARCHSTUDENT04524_000_070",
+    "original": "Miladeen is really fond of that pavilion\u2500there\u0027s nary a day I don\u0027t see her studying there.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_SUBCTS671_04524_A1_000_006",
+    "original": "\u003Chex:024804F2022403\u003EDiscuss Noumenon.\u003Chex:0248020103\u003E",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_081",
+    "original": "You wish to know about Noumenon? Oh, there\u0027s not much to tell of those dusty old halls, though I suppose they are not without a memorable moment or two. I once ventured there in the dead of night for some last-minute research\u2500the deadline for my thesis was close at hand, you see.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_082",
+    "original": "The corridors were dark and empty, with naught but the soft echo of my footsteps to keep me company.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_083",
+    "original": "Then suddenly, a shadowy phantom appeared before me, as if from the very void itself!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_084",
+    "original": "Much to my surprise, a phantom...it was not. Nay, \u0027twas Fourchenault. Under the veil of his Vanish spell, he\u0027d been sneaking around the forbidden archives.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_085",
+    "original": "Gods, the look on his face! He near died from embarrassment. \u201CSpeak of this to no one, I beg you!\u201D he cried. I obliged, but on the condition he take me to dinner.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_086",
+    "original": "...I trust you understand he\u0027s not to hear a word of this conversation.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_087",
+    "original": "There she is! But...she doesn\u0027t quite seem herself.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_090",
+    "original": "Mila?",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_SUBCTS671_04524_MILADEEN_000_091",
+    "original": "L-Lady Ameliance? And \u003Chex:022C0DFF07022903EB0203FF02200203\u003E as well? Oh no, is something wrong?",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_092",
+    "original": "Not at all, my dear, everything is quite all right. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E and I merely wished to check on you. It is getting rather late, after all. You must be famished!",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_SUBCTS671_04524_MILADEEN_000_093",
+    "original": "Oh... I\u0027m sorry for making you worry. I just got so absorbed in what I was doing...",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_094",
+    "original": "I take it you\u0027ve been using the mammet there to practice your healing?",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_SUBCTS671_04524_MILADEEN_000_095",
+    "original": "Yes...but to be perfectly honest, it hasn\u0027t been going well.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_096",
+    "original": "The mammet is designed specifically to respond to healing magicks. Rather than risk the danger of practice on a living patient, students use puppets such as this. When a spell is successful, the mammet will rise to its feet.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_097",
+    "original": "...Observe.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_SUBCTS671_04524_MILADEEN_000_098",
+    "original": "A-Amazing...!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_SUBCTS671_04524_MILADEEN_000_099",
+    "original": "Lady Ameliance, that was simply incredible! Such grace and precision\u2500without expending even an onze of excess energy. It was...",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_SUBCTS671_04524_MILADEEN_000_100",
+    "original": "It was absolutely perfect... Yet no matter what I do, the mammet refuses to even move.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_SUBCTS671_04524_MILADEEN_000_101",
+    "original": "I\u0027ve been trying so hard to prove my mother wrong, but maybe she was right. Maybe I never should\u0027ve convinced myself that I could master healing magicks...",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_SUBCTS671_04524_MILADEEN_000_102",
+    "original": "I...I came all this way, and accomplished nothing. You\u0027ve been so kind to me, Lady Ameliance, and I don\u0027t want to waste any more of your precious time. Perhaps it\u0027d be best if I returned home...",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_103",
+    "original": "Nothing could be further from the truth. You think so too, don\u0027t you?",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_SUBCTS671_04524_DUMMYMAMMET04524_000_104",
+    "original": "YeS, tHaT iS sImPlY nOt TrUe! PlEaSe ChEeR uP, mIlA!",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_SUBCTS671_04524_MILADEEN_000_105",
+    "original": "Whoa! Erm...are you making it speak, Lady Ameliance? ",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_SUBCTS671_04524_DUMMYMAMMET04524_000_106",
+    "original": "PaReNtS aRe AlWaYs ThInKiNg Of ThEiR cHiLdReN. yOuR mOtHeR sUrElY wAnTs ThE bEsT fOr YoU.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_SUBCTS671_04524_MILADEEN_000_107",
+    "original": "I...I know that. I do, truly. That\u0027s why I\u0027m afraid of disappointing her.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_SUBCTS671_04524_DUMMYMAMMET04524_000_108",
+    "original": "YoU aRe NoT a PuPpEt. YoU nEeD nOt DaNcE tO yOuR mOtHeR\u0027s TuNe!",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_SUBCTS671_04524_DUMMYMAMMET04524_000_109",
+    "original": "YoU hAvE dEtErMiNaTiOn, PaSsIoN, aNd A wOnDeRfUl DrEaM!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_SUBCTS671_04524_DUMMYMAMMET04524_000_110",
+    "original": "BeSiDeS, aLwAyS dOiNg As OnE iS tOlD iS nOt EaSy. TaKe It FrOm Me\u2500I\u0027m An ExPeRt!",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_SUBCTS671_04524_MILADEEN_000_111",
+    "original": "Bahahaha! That\u0027s hardly something to brag about!",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_112",
+    "original": "There\u0027s the darling smile I\u0027ve come to admire.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_113",
+    "original": "Mila, there is no doubt in my mind that a brilliant, hardworking young lady like yourself would make a fine alchemist.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_114",
+    "original": "Your mother surely saw the same, and simply wished for you to walk an easier path\u2500a path where your success would be assured.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_115",
+    "original": "But with great resolve and determination, you fought to pursue your own way forward. This is part of what it means to become an adult.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_116",
+    "original": "After a child strikes out on their own, a mother can only pray they find happiness...",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_SUBCTS671_04524_MILADEEN_000_117",
+    "original": "I... I know not what to say...",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_SUBCTS671_04524_MILADEEN_000_118",
+    "original": "Perhaps a light stroll might help me to collect my thoughts before I make any rash decisions.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_119",
+    "original": "Then we shall take a leisurely walk back to the estate. I would much rather hear your decision once we are returned\u2500you\u0027re like to come down with something if you stay outdoors overlong!",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_SUBCTS671_04524_MERYLD_000_130",
+    "original": "Welcome back. If you\u0027ve worked up an appetite, you will be pleased to hear that the head chef is presently preparing a most exquisite Thavnairian stew.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_SUBCTS671_04524_MILADEEN_000_135",
+    "original": "I\u0027m sorry for making you worry! And, thank you.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_SUBCTS671_04524_MILADEEN_000_140",
+    "original": "I\u0027ve decided... I\u0027m going to finish what I started! If there came a day when a life I could have saved was lost because I gave up now, I\u0027d never be able to forgive myself.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_SUBCTS671_04524_MILADEEN_000_141",
+    "original": "But more than that...I want to repay the support and kindness you both have shown me. I want to make you proud! That is, if you will still have me...?",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_142",
+    "original": "Oh, come now, you hardly need ask. You shall ever be welcome here, Mila, and have our unwavering support.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_143",
+    "original": "Have you any sage counsel for our aspiring weaver of magicks here?",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_SUBCTS671_04524_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_SUBCTS671_04524_A2_000_001",
+    "original": "If worse comes to worst, you always have your fists!",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_SUBCTS671_04524_A2_000_002",
+    "original": "Practice makes perfect.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_SUBCTS671_04524_A2_000_003",
+    "original": "You must have a sympathetic heart to those in need of succor.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_SUBCTS671_04524_A2_000_004",
+    "original": "An unshakable will is key.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_SUBCTS671_04524_MILADEEN_000_145",
+    "original": "...N-No way, punching things is out of the question! Ohhh, wait, I see. You\u0027re saying a strong mind requires a strong body! One cannot hope to refine their magicks without the fortitude to do so, after all!",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_SUBCTS671_04524_MILADEEN_000_146",
+    "original": "I see. No shortcuts, just hard work...drilling over and over until wielding magic feels like second nature. I will do my best, and follow your example! ",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_SUBCTS671_04524_MILADEEN_000_147",
+    "original": "A sympathetic heart...a shoulder for those in need to lean on. I want to become someone like that...like you!",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_SUBCTS671_04524_MILADEEN_000_148",
+    "original": "An unshakable will... You\u0027re right, I need to believe in myself, and stand firm in my conviction. Only then I can walk the path towards mastery with my head held high!",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_149",
+    "original": "One last word of advice, from a former student of the Studium.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_150",
+    "original": "Set aside practicing healing incantations for the time being, and focus solely on manipulating the mammet.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_151",
+    "original": "Magic is the power to convert one\u0027s aether into tangible phenomena. The key is to visualize precisely what it is you wish to bring forth.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_152",
+    "original": "I believe your problem stems from the lack of a solid image in your mind\u0027s eye. When picturing the act of \u201Chealing,\u201D what do you envision?",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_SUBCTS671_04524_MILADEEN_000_153",
+    "original": "I-I don\u0027t know, really... I\u0027ve been so caught up with trying to perfect the technique, I hadn\u0027t given it any thought.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_154",
+    "original": "Then focusing on manipulating the mammet may be just what you need. You can concentrate on clear images like making it walk, run, or sit.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_155",
+    "original": "With enough practice and repetition, more abstract concepts\u2500such as the inner workings of healing a wound\u2500should become easier to conceive.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_SUBCTS671_04524_MILADEEN_000_156",
+    "original": "I-I see! The whole process just seemed so complex, that I... But that\u0027s in the past. From now on, I\u0027m going to focus on visualizing \u003Chex:021A020203\u003Eeverything\u003Chex:021A020103\u003E, step by step!",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_157",
+    "original": "That\u0027s the spirit! But do take care not to push yourself too hard. For now, I think a hot bowl of soup is precisely what you need. It\u0027s a Thavnairian recipe, so I hope it offers a taste of home.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_158",
+    "original": "I cannot thank you enough for accompanying me today. ...I admit, I may have lost track of time in all the excitement.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_159",
+    "original": "Now then, if Mila and the other students are to continue their training, I believe it prudent we prepare a new set of mammets. Those of cruder make are more troublesome to manipulate, and thus I must ask that you fashion aetheroconductive units to replace them.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_SUBCTS671_04524_AMELIANCE_000_160",
+    "original": "With a mammet of good quality, Mila should be able to grasp how to manipulate her aether rather quickly\u2500and I shall be beside her, ready to help at every turn.",
+    "translation": ""
+  }
+}

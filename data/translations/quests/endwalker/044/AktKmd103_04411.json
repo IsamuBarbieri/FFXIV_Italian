@@ -1,0 +1,662 @@
+{
+  "0": {
+    "tag": "TEXT_AKTKMD103_04411_SEQ_00",
+    "original": "Mihleel has information that should serve you well.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_AKTKMD103_04411_TODO_00",
+    "original": "Accompany G\u0027raha Tia to Kama and speak with him.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_AKTKMD103_04411_TODO_01",
+    "original": "Gather information in Kama while G\u0027raha Tia is accompanying you.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_AKTKMD103_04411_TODO_02",
+    "original": "Speak with Djinabaha while G\u0027raha Tia is accompanying you.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_AKTKMD103_04411_TODO_03",
+    "original": "Speak with Kamala.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_AKTKMD103_04411_TODO_04",
+    "original": "Pick up the light crate.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_AKTKMD103_04411_TODO_05",
+    "original": "Deliver the crate to Nahbrifhal.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_AKTKMD103_04411_TODO_06",
+    "original": "Pick up the ordinary crate.",
+    "translation": ""
+  },
+  "31": {
+    "tag": "TEXT_AKTKMD103_04411_TODO_07",
+    "original": "Deliver the crate to Mahnuha.",
+    "translation": ""
+  },
+  "32": {
+    "tag": "TEXT_AKTKMD103_04411_TODO_08",
+    "original": "Pick up the weighty crate.",
+    "translation": ""
+  },
+  "33": {
+    "tag": "TEXT_AKTKMD103_04411_TODO_09",
+    "original": "Deliver the crate to Zeymeira.",
+    "translation": ""
+  },
+  "34": {
+    "tag": "TEXT_AKTKMD103_04411_TODO_10",
+    "original": "Speak with Kamala.",
+    "translation": ""
+  },
+  "35": {
+    "tag": "TEXT_AKTKMD103_04411_TODO_11",
+    "original": "Speak with Djinabaha.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_000",
+    "original": "Thanks to Mihleel, it appears we have a new lead. Let us leave no stone unturned!",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_AKTKMD103_04411_CUSTOMER04410_000_005",
+    "original": "Those poor merchants... Turned into frightful beasts, to the last man...",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_AKTKMD103_04411_MIHLEEL_000_010",
+    "original": "Khalzahl made his home in Kama, a nearby residential area.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_AKTKMD103_04411_MIHLEEL_000_011",
+    "original": "From what I gather, Khalzahl lived there since childhood and was known throughout the neighborhood.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_012",
+    "original": "Kama...the name is new to me. How do we get there?",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_AKTKMD103_04411_MIHLEEL_000_013",
+    "original": "I\u0027ll write down some directions.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_AKTKMD103_04411_MIHLEEL_000_014",
+    "original": "I cannot promise that you will find what you seek there, but if nothing else, it is a start.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_015",
+    "original": "Come, let\u0027s see where this lead takes us.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_AKTKMD103_04411_Q1_000_020",
+    "original": "What will you do?",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_AKTKMD103_04411_A1_000_021",
+    "original": "Speak with G\u0027raha Tia.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_AKTKMD103_04411_A1_000_022",
+    "original": "Part ways with G\u0027raha Tia.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_AKTKMD103_04411_A1_000_023",
+    "original": "Nothing.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_AKTKMD103_04411_A1_000_024",
+    "original": "\u003Chex:024804F2022403\u003EAsk for directions.\u003Chex:0248020103\u003E",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_030",
+    "original": "The residents of Kama should know more of Khalzahl\u0027s circumstances. ",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_031",
+    "original": "If we follow Mihleel\u0027s directions, we\u0027ll be there in no time.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_AKTKMD103_04411_Q2_000_035",
+    "original": "Are you sure you wish to part ways with G\u0027raha Tia?",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_036",
+    "original": "Very well. I will return to the meyhane for the time being. When you are ready to resume the investigation, meet me there.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_040",
+    "original": "And with that, we\u0027re off! Let us see what we can learn about the merchant Khalzahl.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_AKTKMD103_04411_SYSTEM_000_045",
+    "original": "G\u0027raha Tia has yet to arrive. Be sure he is at your side before attempting to continue.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_050",
+    "original": "Let\u0027s see... After leaving the meyhane, we\u0027re to retrace our steps and head back towards the aetheryte plaza.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_055",
+    "original": "From here, we ascend the stairs...",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_060",
+    "original": "Ah, this must be Yuj. In which case, we should take the path leading southeast.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_065",
+    "original": "If we keep going this way, we should arrive in Kama before long.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_070",
+    "original": "Walking these unfamiliar streets is quite the adventure, is it not? I can only hope we can explore Radz\u003Chex:021F0103\u003Eat\u003Chex:021F0103\u003EHan at our leisure once this crisis has passed.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_AKTKMD103_04411_MIHLEEL_000_080",
+    "original": "Forgive me... I know nothing of this \u201Cblasphemy,\u201D nor what caused those poor men to take on such hideous forms.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_AKTKMD103_04411_MIHLEEL_000_081",
+    "original": "That said, I could tell that Khalzahl cared deeply for his colleagues and clients. He did not seem the sort to willingly damage the trust they placed in him.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_090",
+    "original": "...And this must be Kama! We\u0027ve arrived at last!",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_091",
+    "original": "Let us begin questioning the residents without delay. No doubt someone here can tell us more about Khalzahl.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_092",
+    "original": "Given recent events, I imagine many are taking shelter indoors.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_100",
+    "original": "To see the streets so empty, I wonder if some residents have fled Radz\u003Chex:021F0103\u003Eat\u003Chex:021F0103\u003EHan altogether.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_AKTKMD103_04411_MAHTI_000_110",
+    "original": "Visitors? Now there\u0027s a surprise.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_AKTKMD103_04411_SYSTEM_000_115",
+    "original": "You should have G\u0027raha Tia accompanying you before proceeding with the investigation.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_AKTKMD103_04411_MAHTI_000_120",
+    "original": "Khalzahl, you say? Yes, I\u0027ve known him since he was a boy.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_AKTKMD103_04411_MAHTI_000_121",
+    "original": "If there was ever a man who was born to be a merchant, it was him. Always early to depart and late to return, he\u0027d spend his days procuring the finest wares and seeking out willing customers. You could say it came to him as easily as breathing.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_AKTKMD103_04411_MAHTI_000_122",
+    "original": "Sadly, business was flagging of late. No surprise, really, what with how dangerous travel has become. He was cooped up in his house from dawn till dusk the other day\u2500no doubt racking his brain for a way to turn his fortunes around.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_AKTKMD103_04411_MAHTI_000_123",
+    "original": "Then, at night, I heard the door open. I looked out to see Khalzahl sitting on a bench, his head hung low. A man with the weight of the world on his shoulders...",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_124",
+    "original": "I see. The situation must have been quite dire, indeed...",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_125",
+    "original": "Did you notice anything else out of the ordinary?",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_AKTKMD103_04411_MAHTI_000_126",
+    "original": "Nothing to speak of. Other than the troubles with his consortium, he was the same old Khalzahl. Cordial and honest, like always.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_AKTKMD103_04411_MAHTI_000_127",
+    "original": "These questions you are asking...has something happened to him? He wasn\u0027t caught up in that terrible incident at the bazaar, was he?",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_AKTKMD103_04411_MAHTI_000_128",
+    "original": "I don\u0027t travel much these days, but my daughter\u0027s told me not to venture outside. Stuck in here as I am, I\u0027ve heard little about these bizarre goings-on.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_129",
+    "original": "Rest assured, the city is safe for now, but the situation may change without warning.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_130",
+    "original": "I urge you: stay close to your daughter, and be prepared to take refuge should the satrap order it.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_AKTKMD103_04411_MAHTI_000_135",
+    "original": "Yes, I shall do just that. Thank you for your concern, and pray stay safe as well.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_AKTKMD103_04411_PARIGHA_000_140",
+    "original": "Hmmm...? Could you come back another time? I just woke up, and I\u0027m not exactly in the mood for idle chitchat.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_AKTKMD103_04411_PARIGHA_000_141",
+    "original": "Hmmm...? Could you come back another time? I just woke up, and I\u0027m not exactly in the mood for idle chitchat.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_142",
+    "original": "Well, that\u0027s one way to avoid the panic, I suppose...",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_143",
+    "original": "Pardon our intrusion. You may not have noticed, but a great danger has come to Thavnair. I encourage you to stay alert, and prepare to flee the city should the situation turn dire.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_144",
+    "original": "But before we leave you in peace...pray allow us to ask a question or two. Did you know a local merchant named Khalzahl? If so, did you notice anything unusual about him recently?",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_AKTKMD103_04411_PARIGHA_000_145",
+    "original": "Khalzahl? Aye, I know him. In fact, we spoke just the other day.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_AKTKMD103_04411_PARIGHA_000_146",
+    "original": "Like many others, his business was doing poorly. Still, it seemed as though he\u0027d managed to turn things around, thanks to a generous order from Ruveydah Fibers. Why, he was practically dancing in the streets.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_AKTKMD103_04411_PARIGHA_000_147",
+    "original": "I haven\u0027t spoken with him since, but I assume it all went well. Djinabaha might be able to tell you more, though. As I recall, he was the one who brokered the arrangement.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_148",
+    "original": "Djinabaha at Ruveydah Fibers... This sounds promising.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_149",
+    "original": "Djinabaha at Ruveydah Fibers... Let\u0027s make a point to visit him after we\u0027ve spoken with other locals.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_AKTKMD103_04411_PARIGHA_000_155",
+    "original": "I must\u0027ve been working myself too hard... I only intended to take a short nap, but when I woke up, it was already sunset. Come to think of it, hasn\u0027t the sky been red rather longer than usual?",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_AKTKMD103_04411_A3_000_160",
+    "original": "\u003Chex:024804F2022403\u003EDiscuss the way to Dharma.\u003Chex:0248020103\u003E",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_AKTKMD103_04411_A3_000_161",
+    "original": "\u003Chex:024804F2022403\u003EDiscuss Ruveydah Fibers.\u003Chex:0248020103\u003E",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_165",
+    "original": "From what we\u0027ve heard, our man Khalzahl was truly at wits\u0027 end.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_166",
+    "original": "And it all came to a head at the meyhane... Perhaps his arrangement with Ruveydah Fibers did not go according to plan? I expect this Djinabaha can tell us more.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_170",
+    "original": "If I am not mistaken, these stairs lead to Dharma.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_171",
+    "original": "It is...quite the sight, the red sky above.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_172",
+    "original": "During the Final Days of yore, the heavens burned and the stars fell. Creation magicks run amok\u2500that was my assumption when I saw Amaurot.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_173",
+    "original": "Perhaps the ancients believed the same\u2500that the terror of a single powerful individual was the cause of their calamity.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_174",
+    "original": "And yet, those selfsame horrors now manifest themselves before our eyes. What could it be that sets the heavens aflame and turns ordinary men into beasts?",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_180",
+    "original": "They\u0027re farming silkworms... This must be Ruveydah Fibers, where we should find Djinabaha.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_AKTKMD103_04411_DJINABAHA_000_185",
+    "original": "We must protect our wares lest the beasts come again!",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_AKTKMD103_04411_SYSTEM_000_186",
+    "original": "Djinabaha will not speak to you alone. Return with G\u0027raha Tia accompanying you to proceed with the investigation.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_AKTKMD103_04411_DJINABAHA_000_190",
+    "original": "...And hurry, I say! There\u0027s no time to waste!",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_191",
+    "original": "Pardon me, but you are in charge of buying and selling here, yes? We have a few questions that we\u0027d like to\u2500",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_AKTKMD103_04411_DJINABAHA_000_192",
+    "original": "I\u0027m sorry, but I simply don\u0027t have time to chat.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_AKTKMD103_04411_DJINABAHA_000_193",
+    "original": "If you haven\u0027t noticed, we have our hands full at the moment. We must carry all our wares and equipment to safety before those accursed beasts return.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_194",
+    "original": "In that case, might we be of assistance? Perhaps we could speak when the job is done.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_AKTKMD103_04411_DJINABAHA_000_195",
+    "original": "...Very well.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_AKTKMD103_04411_DJINABAHA_000_196",
+    "original": "You can start by helping us move our equipment. Ask the others what to put where.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_AKTKMD103_04411_DJINABAHA_000_197",
+    "original": "And you can carry our fabrics.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_AKTKMD103_04411_DJINABAHA_000_198",
+    "original": "Go through that door and speak with Kamala. She\u0027ll tell you the rest.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_AKTKMD103_04411_DJINABAHA_000_199",
+    "original": "Remember, these textiles are our livelihood. Handle them with care.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_AKTKMD103_04411_DJINABAHA_000_210",
+    "original": "You\u0027ll get your answers \u003Chex:021A020203\u003Eafter\u003Chex:021A020103\u003E you\u0027ve kept your side of the bargain. Now, off with you.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_AKTKMD103_04411_KAMALA_000_220",
+    "original": "This area is for employees only. Out, out!",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_AKTKMD103_04411_KAMALA_000_221",
+    "original": "What\u0027s that? You\u0027ve come to \u003Chex:021A020203\u003Ehelp\u003Chex:021A020103\u003E!? Oh, praise be to Minduruva!",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_AKTKMD103_04411_KAMALA_000_222",
+    "original": "Kind stranger, I welcome your assistance. On your way here, you passed three storehouses, yes?",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_AKTKMD103_04411_KAMALA_000_223",
+    "original": "I\u0027d like you to carry that small crate to Nahbrifhal, by the storehouse near the hatchery.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_AKTKMD103_04411_KAMALA_000_224",
+    "original": "The crate of clothing is for Mahnuha...",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_AKTKMD103_04411_KAMALA_000_225",
+    "original": "...And that massive crate there goes to Zeymeira by the middle storehouse. Watch your back with that one.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_AKTKMD103_04411_KAMALA_000_226",
+    "original": "Those are all the crates we have ready. Once they\u0027ve been delivered, consider your work here complete!",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_AKTKMD103_04411_NAHBRIFHAL_000_230",
+    "original": "This is where we store all our instruments and materials for both our silkworm hatchery and weaving workshop. I would show you around, but I\u0027m expecting a delivery any moment now.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_AKTKMD103_04411_NAHBRIFHAL_000_235",
+    "original": "Thread, is it? Then you\u0027ve come to the right place. We thank you for your aid.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_AKTKMD103_04411_MAHNUHA_000_240",
+    "original": "This storehouse is where we keep our finished products. Carpets, curtains, assorted garments and the like. Needless to say, we keep it tightly guarded.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_AKTKMD103_04411_MAHNUHA_000_245",
+    "original": "If you have any crates of finished products such as carpets, clothing, and the like, pray bring them here to our primary storehouse.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_AKTKMD103_04411_MAHNUHA_000_246",
+    "original": "A crateful of clothing, is it? I can take that off your hands. Many thanks for the delivery!",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_AKTKMD103_04411_ZEYMEIRA_000_250",
+    "original": "The crates we keep here are packed to the brim with fabrics, and it might surprise you just how heavy they can get. Do take care to lift with your legs, or you\u0027ll regret it!",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_AKTKMD103_04411_ZEYMEIRA_000_255",
+    "original": "I say, you\u0027re quite the brawny one, aren\u0027t you? A good thing, that. Never know when you\u0027ll need to defend yourself in these unpredictable times.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_AKTKMD103_04411_ZEYMEIRA_000_256",
+    "original": "A crateful of fabrics, is it? Exactly what I was hoping to receive. Here, let me put that away for you.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_AKTKMD103_04411_KAMALA_000_260",
+    "original": "You\u0027ve carried all the crates to the storehouses, you say? And so quickly, too! Why, I\u0027ve never seen anyone so strong!",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_AKTKMD103_04411_KAMALA_000_261",
+    "original": "I and my associates will see to the rest, so please return to Djinabaha and assure him our work is proceeding apace.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_AKTKMD103_04411_KAMALA_000_262",
+    "original": "To tell the truth, we\u0027re grateful for this distraction. Too many terrible happenings of late. But generous souls like yourself give me hope that we may emerge from this trial even stronger. I pray we meet again in more peaceful times.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_AKTKMD103_04411_KAMALA_000_270",
+    "original": "Pack it all up, and quickly, now! We\u0027ll not let any of our precious fabrics be trampled and torn by those beasts!",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_AKTKMD103_04411_DJINABAHA_000_280",
+    "original": "Done as I asked, have you?",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_AKTKMD103_04411_DJINABAHA_000_281",
+    "original": "If Kamala is satisfied with your work, then so am I. You have done us a great favor, traveler.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_282",
+    "original": "I, too, have delivered the instruments and apparatus entrusted to me.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_AKTKMD103_04411_DJINABAHA_000_283",
+    "original": "You both have my thanks. With our wares safely stored away, we\u0027ll not lose any more to those fiends.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_284",
+    "original": "I take it that your establishment did not escape the attack unscathed?",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_AKTKMD103_04411_DJINABAHA_000_285",
+    "original": "We did not. Thankfully, most of our workers had already left for the day. But those of us still here saw it all...",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_AKTKMD103_04411_DJINABAHA_000_286",
+    "original": "We looked to the burning skies in confusion...and then, before we could even begin to make sense of it, a hideous creature burst through the doors, shrieking...",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_AKTKMD103_04411_DJINABAHA_000_287",
+    "original": "We ran for our lives, but one of my colleagues was not so fortunate. He cried out\u2500a scream of such agony, such terror\u2500and in the next instant, he, too, sprouted fearsome claws...",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_AKTKMD103_04411_DJINABAHA_000_288",
+    "original": "The sight of it caused another fellow to panic, and then...",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_AKTKMD103_04411_DJINABAHA_000_289",
+    "original": "He, too, transformed...",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_AKTKMD103_04411_DJINABAHA_000_290",
+    "original": "...I\u0027m sorry. There was something you wanted to ask?",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_291",
+    "original": "Indeed. You knew the merchant Khalzahl, did you not? I believe he had some dealings with your establishment.",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_AKTKMD103_04411_DJINABAHA_000_292",
+    "original": "Khalzahl? I know him well. We\u0027d arranged for his consortium to deliver a large shipment of fabrics, but in the end, we received a better offer, and had to turn him down.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_AKTKMD103_04411_DJINABAHA_000_293",
+    "original": "I understand his business is struggling, but so is ours. Another of our most reliable trading partners agreed to transport the goods for a much smaller commission, and we\u0027d have been fools to refuse.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_AKTKMD103_04411_DJINABAHA_000_294",
+    "original": "I felt terrible for withdrawing the offer...but you must understand, we simply had no choice.",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_AKTKMD103_04411_DJINABAHA_000_295",
+    "original": "He tried to put on a brave face when I delivered the news, but his dejection and despair were plain as day. He said he\u0027d discuss it with his associates, but I could tell he\u0027d all but given up hope...",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_296",
+    "original": "Dejection...and despair.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_297",
+    "original": "You remember what we saw in Vanaspati, yes? Soldiers and jungle dwellers pushed to the very brink turning into beasts one after the next...",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_298",
+    "original": "It would seem the same phenomenon occurred here. The poor craftsmen attacked by the fiends, as well as those that witnessed it...all undergoing the change.",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_299",
+    "original": "I suspect that everything began with Khalzahl. By all accounts, it was he who suffered from the most profound and piercing despair...",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_300",
+    "original": "...Wait. Could that be it? That such intense emotions were what triggered his transformation?",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_AKTKMD103_04411_GRAHATIA_000_301",
+    "original": "Much remains unclear, but I believe we are drawing closer to an answer. At any rate, we must discuss our findings with the others.",
+    "translation": ""
+  }
+}

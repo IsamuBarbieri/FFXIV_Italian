@@ -1,0 +1,1232 @@
+{
+  "0": {
+    "tag": "TEXT_MANFST407_00521_SEQ_00",
+    "original": "Cid awaits confirmation of your readiness to undertake the rescue mission.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_MANFST407_00521_SEQ_01",
+    "original": "After much painstaking preparation, the time has finally come to infiltrate Castrum Centri and rescue your fellow Scions. Don your imperial pot helm and short robe, and proceed to the rendezvous point east of the stronghold.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_MANFST407_00521_SEQ_02",
+    "original": "You have succeeded in entering the castrum undetected. Next, you must gather information on where your comrades are being held. Approach three imperial soldiers and greet each with a disarming /imperialsalute.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_MANFST407_00521_SEQ_03",
+    "original": "Based on what you have learned, Minfilia and the others are being held within the storage tower. Accessing this tower requires a special identification key, which you must somehow obtain from the imperial centurion. Approach the forbidding fellow and win his good opinion with a perfectly executed /imperialsalute.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_MANFST407_00521_SEQ_04",
+    "original": "Through deft use of the magic word, you succeed in convincing the centurion to loan you his identification key. Biggs will know what to do with it.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_MANFST407_00521_SEQ_05",
+    "original": "Using the identification key, you have gained access to the sector in which the storage tower stands. Enter the tower via the steel gate, and set your friends free.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_MANFST407_00521_SEQ_06",
+    "original": "Though the rescue mission was a success, the shocking revelation that Thancred has been possessed by Lahabrea has cast a dark pall over the Scions. Painful though this blow may be, you have no choice but to take it on the chin and forge on for the sake of Eorzea.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_MANFST407_00521_SEQ_07",
+    "original": "You have safely arrived in Ul\u0027dah. Speak with Minfilia to learn her mind.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_MANFST407_00521_SEQ_08",
+    "original": "None can say how the Alliance leaders may respond to the threat posed by the Ultima Weapon, but Minfilia is certain of one thing: so long as it exists, Eorzea shall never know peace.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_MANFST407_00521_TODO_00",
+    "original": "Speak with Cid while disguised as an imperial soldier.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_MANFST407_00521_TODO_01",
+    "original": "Perform an /imperialsalute to imperial soldiers.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_MANFST407_00521_TODO_02",
+    "original": "Perform an /imperialsalute to the centurion.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_MANFST407_00521_TODO_03",
+    "original": "Give Biggs the imperial identification key.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_MANFST407_00521_TODO_04",
+    "original": "Examine the steel door.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_MANFST407_00521_TODO_05",
+    "original": "Examine the steel door.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_MANFST407_00521_TODO_06",
+    "original": "Speak with Minfilia.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_MANFST407_00521_CID_000_000",
+    "original": "How go your preparations, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E? We leave as soon as you\u0027re ready.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_MANFST407_00521_CID_000_001",
+    "original": "Glaumunt! You came!",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_MANFST407_00521_GLAUMUNT_000_002",
+    "original": "Aye\u2500thought I\u0027d give you all a roarin\u0027 send-off. \u0027Tis the least I can do for the fine men an\u0027 women what\u0027re about to make my lifelong wish come true.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_MANFST407_00521_CID_000_003",
+    "original": "Well, we\u0027ll do our best! Hmmm... It occurs to me, for all the help you\u0027ve afforded us, we know little and less about you. What did the Empire do to earn your ire? ...Ah, but I fear I\u0027ve put curiosity before consideration. I quite understand if you\u0027d rather not relive those memories.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_MANFST407_00521_GLAUMUNT_000_004",
+    "original": "No, no, I don\u0027t mind, really. Truth be told, a part o\u0027 me was itchin\u0027 to tell you my tale. Mind you, \u0027tis hardly novel\u2500I ain\u0027t the first to suffer at imperial hands.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_MANFST407_00521_GLAUMUNT_000_005",
+    "original": "Like most folk, I used to have a mother. She was a sweet, carin\u0027 woman with a smile never far from her face. There was a sister too. Pretty little thing, she was\u2500gentle as a lamb, but tough as nails. We were poor folk livin\u0027 simple lives, but we knew happiness just the same.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_MANFST407_00521_GLAUMUNT_000_006",
+    "original": "An\u0027 then the imperials came an\u0027 took it all away. When Ala Mhigo fell, they put my family in a camp. Bein\u0027 a lad, I was made to do hard labor, while my mother an\u0027 sister were forced to do far worse... They hid their sufferin\u0027 from me as best they could, but I \u003Chex:021A020203\u003Eknew\u003Chex:021A020103\u003E, an\u0027 the thought of it drove me mad. We had to escape. An\u0027 so I hatched a plan to get us out o\u0027 the city.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_MANFST407_00521_GLAUMUNT_000_007",
+    "original": "We were pickin\u0027 our way around a gorge not far outside the walls when they caught up with us... An\u0027 rather than allow \u0027emselves to be taken again, my mother an\u0027 sister leaped over the edge before my very eyes. Heartbroken as I was, I didn\u0027t put up a fight when the imperials clapped me in chains an\u0027 dragged me back.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_MANFST407_00521_GLAUMUNT_000_008",
+    "original": "\u0027Twas some years after that I escaped again, an\u0027 that time, I got away. I swore then that I\u0027d get revenge on the Empire, an\u0027 became an adventurer so as to hone my skills an\u0027 earn the coin I needed. But nigh on two decades\u0027ve since gone by, an\u0027 what\u0027ve I achieved? Bugger all, that\u0027s what.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_MANFST407_00521_GLAUMUNT_000_009",
+    "original": "Not like you lot. You ain\u0027t been here ten minutes, an\u0027 you\u0027ve already done more\u0027n I managed in ten bloody \u003Chex:021A020203\u003Eyears\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_MANFST407_00521_CID_000_010",
+    "original": "You give us too much credit, Glaumunt. We seek only to rescue our friends.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_MANFST407_00521_GLAUMUNT_000_011",
+    "original": "Well, what\u0027s more important than that? An\u0027 anyroad, after you\u0027ve got your friends back, you\u0027re plannin\u0027 on goin\u0027 after the Empire, an\u0027 don\u0027t pretend you ain\u0027t.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_MANFST407_00521_GLAUMUNT_000_012",
+    "original": "I\u0027ve helped a few folk take on the imperials over the years, an\u0027 every time I have, it\u0027s helped stave off my appetite for revenge. But summat tells me I won\u0027t be goin\u0027 hungry for a while what with everythin\u0027 you\u0027ve got planned.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_MANFST407_00521_CID_000_013",
+    "original": "And you are sure that will satisfy you? If you wish to strike back at the Empire with your own hand, you need only say the word. We would be glad to have you with us.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_MANFST407_00521_GLAUMUNT_000_014",
+    "original": "Temptin\u0027 though your offer is, I\u0027m afeared I must decline.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_MANFST407_00521_GLAUMUNT_000_015",
+    "original": "I swore I\u0027d get revenge on the Empire, \u0027tis true, but I\u0027ve long since realized that the front lines are no place for a man like me.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_MANFST407_00521_GLAUMUNT_000_016",
+    "original": "Aye, there\u0027s some as would call me craven, but I prefer to think o\u0027 myself as a realist. My talents lie in schemin\u0027, ye see, not swordplay. Helpin\u0027 folk like you is how I can make the most difference.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_MANFST407_00521_GLAUMUNT_000_017",
+    "original": "...But that\u0027s quite enough storytellin\u0027 for one day. Best not keep your friends waitin\u0027 any longer. I\u0027ll be prayin\u0027 for your safety an\u0027 success. May Rhalgr give you strength!",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_MANFST407_00521_CID_000_018",
+    "original": "Wherever the Empire goes, misery invariably follows in its wake.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_MANFST407_00521_CID_000_019",
+    "original": "For the sake of all who call Eorzea home, we must put an end to Gaius\u0027s ambitions.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_MANFST407_00521_CID_000_020",
+    "original": "But first, we have friends to rescue.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_MANFST407_00521_CID_000_021",
+    "original": "Biggs, Wedge, and I will lie in wait east of Castrum Centri, just outside the stronghold\u0027s patrol perimeter.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_MANFST407_00521_CID_000_022",
+    "original": "Join us when you\u0027re ready.\u003Chex:02100103\u003EOh, and don\u0027t forget to wear your disguise, or this will be the shortest rescue mission in history.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_MANFST407_00521_SLAFBORN_000_030",
+    "original": "Want to go in? It hardly needs saying, but try not to be seen.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_MANFST407_00521_EVENTAREA_WARP_YESNO_TITLE",
+    "original": "Proceed to Cid\u0027s workshop?",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_MANFST407_00521_EVENTAREA_WARP_YESNO_YES",
+    "original": "Yes",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_MANFST407_00521_EVENTAREA_WARP_YESNO_NO",
+    "original": "No",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_MANFST407_00521_CID_000_040",
+    "original": "There you are. A patrol should be heading back to the castrum any moment now, so for gods\u0027 sakes, don your disguise.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_MANFST407_00521_CID_000_041",
+    "original": "If you\u0027ve misplaced your disguise, hurry back to Revenant\u0027s Toll. Glaumunt told me that he\u0027d acquired some additional helms and robes for just such an eventuality. Whatever you do, though, do it \u003Chex:021A020203\u003Eswiftly\u003Chex:021A020103\u003E. We need you here and in imperial uniform if this plan is going to work.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_MANFST407_00521_GLAUMUNT_000_042",
+    "original": "...Eh? Lost your imperial disguise? You daft sod! \u0027Tis lucky I thought to acquire some spares... In case you\u0027ve forgotten, these ain\u0027t exactly easy to get hold of. Be more careful with \u0027em this time.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_MANFST407_00521_CID_000_050",
+    "original": "This is it, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Time to rescue our comrades.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_MANFST407_00521_Q1_000_051",
+    "original": "Infiltrate Castrum Centri?",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_MANFST407_00521_A1_000_052",
+    "original": "Yes",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_MANFST407_00521_A2_000_053",
+    "original": "No",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_MANFST407_00521_CID_000_100",
+    "original": "Forgive me for saying so, but you \u003Chex:020831E905FF116C6F6F6B207261746865722066696E65FF1B63757420717569746520612064617368696E672066696775726503\u003E in imperial black and crimson!\u003Chex:020829E905FF2320021A020203446566696E6974656C79021A02010320796F757220636F6C6F727321FF0103\u003E Ahhh, but now is not the time for jests.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_MANFST407_00521_CID_000_101",
+    "original": "Let\u0027s review the infiltration plan. Castrum Centri lies just beyond.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_MANFST407_00521_CID_000_102",
+    "original": "A short while ago, an imperial patrol left to do its rounds.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_MANFST407_00521_CID_000_103",
+    "original": "Alphinaud and I will create a diversion out here and keep them occupied for as long as we are able. Meanwhile, the three of you will enter the stronghold, posing as the patrol returning from duty.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_MANFST407_00521_CID_000_104",
+    "original": "Should Alphinaud and I prove less distracting than hoped, I will contact you via linkpearl. Be ready to beat a hasty retreat.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_MANFST407_00521_CID_000_105",
+    "original": "Wedge will lead the way in the reaper. Stay close to him.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_MANFST407_00521_CID_000_106",
+    "original": "And I hardly need tell you this, but don\u0027t do anything suspicious!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_MANFST407_00521_CID_000_107",
+    "original": "Oh, and lest you wonder, Yda and Y\u0027shtola left shortly before you arrived. We had planned that they should linger in the vicinity, to cover our retreat in the event that Alphinaud and I attracted too much attention\u2500but the approach of an imperial vehicle forced us to improvise.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_MANFST407_00521_CID_000_108",
+    "original": "Don\u0027t be too disappointed\u2500they did at least leave a message for you. Something along the lines of \u201Cdon\u0027t do anything reckless,\u201D if memory serves. Wise words.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_MANFST407_00521_CID_000_109",
+    "original": "All right, the imperial patrol should be returning any moment now. You\u0027d best be off.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_MANFST407_00521_CID_000_110",
+    "original": "Good luck, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! May the Twelve keep you!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_MANFST407_00521_000010_LIVIA",
+    "original": "You have spirit, that I will allow. Yet you struggle to the benefit of none, least of all yourself.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_MANFST407_00521_000020_MINFILIA",
+    "original": "Ugh!",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_MANFST407_00521_000030_LIVIA",
+    "original": "This \u201CEcho\u201D of yours intrigues us. We desire only to understand it. And for that, we need your help.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_MANFST407_00521_000040_LIVIA",
+    "original": "You wish to be rid of the eikons, do you not?",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_MANFST407_00521_000050_LIVIA",
+    "original": "You would have saved yourself a great deal of torment had you accepted our aid from the beginning.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_MANFST407_00521_000060_MINFILIA",
+    "original": "Ugh! Ugggh...",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_MANFST407_00521_000070_LIVIA",
+    "original": "Tell me everything, and I shall end it quickly. Refuse, and though you beg for death, you shall not have it.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_MANFST407_00521_000080_LIVIA",
+    "original": "Which will it be?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_MANFST407_00521_000090_MINFILIA",
+    "original": "Ugggh! Ugh...",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_MANFST407_00521_000100_LIVIA",
+    "original": "As you wish, my dear Minfilia.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_MANFST407_00521_000110_LIVIA",
+    "original": "Unpleasant though it will be for all concerned, you leave us no choice but to employ more rigorous methods of study.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_MANFST407_00521_000120_LIVIA",
+    "original": "Be so kind as to deliver the prisoners to Castrum Meridianum.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_MANFST407_00521_000130_IMPERIALSOLDIER",
+    "original": "Yes, milady!",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_MANFST407_00521_000140_MINFILIA",
+    "original": "\u003Cwhimper\u003E \u003Cmoan\u003E",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_A_000_050",
+    "original": "Part of the maintenance crew from Occidens, are you? I don\u0027t know what they teach you over there, but being an engineer does \u003Chex:021A020203\u003Enot\u003Chex:021A020103\u003E exempt you from saluting your superiors!",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_A_000_051",
+    "original": "Why aren\u0027t you in uniform!? Dressed as you are, you\u0027re like to be mistaken for an adventurer!",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_A_000_052",
+    "original": "Part of the maintenance crew from Occidens, you say? I don\u0027t know what they teach you over there, but being an engineer does \u003Chex:021A020203\u003Enot\u003Chex:021A020103\u003E exempt you from saluting your superiors!",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_A_000_053",
+    "original": "Hm, that\u0027s a fine salute. Part of the maintenance crew from Occidens, are you? Welcome to Castrum Centri, engineer.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_A_000_054",
+    "original": "Hm, that\u0027s a fine salute...but why aren\u0027t you in uniform? As you are, you\u0027re like to be mistaken for an adventurer!",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_A_000_055",
+    "original": "What? Prisoners? Ah, you\u0027ve heard the rumors, then. Yes, they\u0027re being held in the storage tower\u2500but I \u003Chex:021A020203\u003Estrongly\u003Chex:021A020103\u003E suggest you pay them no mind.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_A_000_056",
+    "original": "You were summoned here to work, not to gawp at Eorzea\u0027s defeated heroes. Now show a bit of enthusiasm, or I\u0027ll have you reported.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_A_000_057",
+    "original": "What was that supposed to be? A salute? I\u0027ll have you know, being an engineer does \u003Chex:021A020203\u003Enot\u003Chex:021A020103\u003E give you license to be sloppy! Do it till you get it right!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_B_000_060",
+    "original": "Huh? Doesn\u0027t your senior officer have anything to say about your outfit? Not that I\u0027m complaining, by the way\u2500I for one would appreciate a bit more variety. I\u0027m so used to seeing this uniform, I\u0027ve caught myself saluting reflective surfaces.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_B_000_061",
+    "original": "I\u0027d best get back to my duties. The supplies aren\u0027t going to move themselves\u2500and neither are the prisoners, come to that.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_B_000_062",
+    "original": "Oh, my apologies! I didn\u0027t notice you there, so engrossed was I in my task. You\u0027d be engrossed, too, had the tribunus commanded you to arrange for the prisoners to be transported.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_B_000_063",
+    "original": "Ah, your spirited salute reminds me that, uniform or no, we are all proud soldiers of the Garlean Empire. Everything we do is for the greater glory of Garlemald, be it scrubbing the privy floor or arranging for prisoners to be transported.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_B_000_064",
+    "original": "What prisoners do I speak of? ...You mean you haven\u0027t heard? Only the infamous \u201CScions of the Seventh Dawn,\u201D captured by the tribunus herself! If you don\u0027t believe me, have a look in the storage tower when next you pass that way.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_B_000_065",
+    "original": "The officers constantly tell me that I have the sloppiest salute in all the western lands, but in you I\u0027d say I\u0027ve finally met my match. Perhaps we could practice together?",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_C_000_070",
+    "original": "Whoa... Where did you leave your uniform!? If one of the brass hats sees you, you\u0027ll be in for the dressing-down of your life!",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_C_000_071",
+    "original": "Hm? Shouldn\u0027t I be at my post? \u003Csigh\u003E I suppose so, but such things don\u0027t seem to matter anymore. I\u0027ve...I\u0027ve fallen for one of the prisoners. She\u0027s all I can think about of late. Am I...am I a deviant for wanting her to salute me?",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_C_000_072",
+    "original": "Greetings, comrade. Forgive me for asking, but you haven\u0027t visited the storage tower recently, have you? I only ask because I dropped something in there, and...um... Oh, who am I fooling!? I\u0027ve fallen for one of the prisoners, all right!? I daresay you know the one I mean. ...Eh? The svelte blonde? Goodness, no!",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_C_000_073",
+    "original": "It\u0027s the Lalafellin lass I\u0027m smitten with! She\u0027s so adorable, it hurts! I want to sweep her up into my arms and squeeze her till my arms ache!\u003Chex:02100103\u003EWhat do you reckon it would take to convince the centurion to lend me the key so I can see her?",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_C_000_074",
+    "original": "No, no, no! You\u0027re doing it all wrong! Unless you can master a good old-fashioned imperial salute, you\u0027ll never amount to anything in this army. Take the centurion, for example: his every salute\u0027s the same. It\u0027s no wonder he\u0027s been entrusted with such responsibility. Which is probably why he\u0027s been trusted with the keys to the storage tower.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_D_000_080",
+    "original": "Why are you not at your post? If you have business, salute me before opening your mouth.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_D_000_081",
+    "original": "Unless you can explain why you are not in uniform, and during a period of heightened security, to boot, you have earned yourself time in a black cell.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_D_000_082",
+    "original": "What\u0027s this? You need access to the storage tower? What business have you there?",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_D_000_083",
+    "original": "What\u0027s this? You need access to the storage tower? What business have you there?",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_D_000_084",
+    "original": "...At the tribunus\u0027s behest, you say? This is highly irregular, but it would not do to make my lady wroth. Take my identification key. See that it is returned when your errand is concluded.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_D_000_085",
+    "original": "What mummery is this? You have just earned yourself a fortnight in a black cell. Report to detention at the end of your shift.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_MANFST407_00521_BIGGS_000_100",
+    "original": "Security\u0027s tight, just as we expected. We\u0027re going to need a special key if we want to get past this bulkhead.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_MANFST407_00521_MINFILIA_000_700",
+    "original": "No!",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_MANFST407_00521_BIGGS_000_701",
+    "original": "Minfilia...and the rest! Thank goodness they\u0027re safe!",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_MANFST407_00521_MINFILIA_000_702",
+    "original": "I am the one you want! Leave the others be!",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_MANFST407_00521_MINFILIA_000_703",
+    "original": "If you harm my friends, I \u003Chex:021A020203\u003Eswear\u003Chex:021A020103\u003E I shall take my own life\u2500and you shall answer to your mistress!",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_MANFST407_00521_WEDGE_000_704",
+    "original": "\u003Cgasp\u003E T-Tataru! We must do something!",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_MANFST407_00521_BIGGS_000_705",
+    "original": "We risk letting the entire castrum know we\u0027re here.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_MANFST407_00521_BIGGS_000_706",
+    "original": "Aye...you\u0027re right. We may not get a better chance.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALGUARD_000_707",
+    "original": "This is the third squadron. What is it?",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALGUARD_000_708",
+    "original": "...A reaper? Seized \u003Chex:021A020203\u003Ewhen\u003Chex:021A020103\u003E?",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALGUARD_000_709",
+    "original": "...And this came to light only NOW!?",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALGUARD_000_710",
+    "original": "The culprits will have left a trail. Take as many men as you need and scour the area! I want that reaper found!",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_MANFST407_00521_BIGGS_000_711",
+    "original": "Now\u0027s our chance!",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALGUARD_000_712",
+    "original": "What the\u2500!? Strike my last!",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALGUARD_000_713",
+    "original": "Eliminate the intruders!",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_MANFST407_00521_TATARU_000_740",
+    "original": "\u003Cwhimper\u003E \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! I was so scared!",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_MANFST407_00521_MINFILIA_000_741",
+    "original": "It was foolish of you to come here. You might have been killed!",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_MANFST407_00521_MINFILIA_000_742",
+    "original": "But...thank you. I shudder to think what might have happened had you not arrived when you did.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_MANFST407_00521_PAPALYMO_000_743",
+    "original": "I say, did you not see Thancred anywhere? I\u0027m beginning to fear for the fellow...",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_MANFST407_00521_PAPALYMO_000_744",
+    "original": "To linger here shall yield us no answer. Let us away, ere the window to our liberty closes shut.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_MANFST407_00521_LIVIA_000_745",
+    "original": "...What did you say? \u003Chex:021A020203\u003EEscaped\u003Chex:021A020103\u003E?",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_MANFST407_00521_LIVIA_000_746",
+    "original": "Then \u003Chex:021A020203\u003Erecapture them\u003Chex:021A020103\u003E! Fail and I shall have your head.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_MANFST407_00521_LIVIA_000_747",
+    "original": "...And what have we here?",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_MANFST407_00521_YSHTOLA_000_748",
+    "original": "...The tribunus herself, just as you said. You have the eye of an ahriman, Yda.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_MANFST407_00521_YDA_000_749",
+    "original": "Well...she\u0027s kind of hard to miss in that showy armor of hers.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_MANFST407_00521_LIVIA_000_750",
+    "original": "Accursed Scions... How did you slip our defenses?",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_MANFST407_00521_YSHTOLA_000_751",
+    "original": "With unexpected ease, if truth be told. There chanced to be a commotion outside the castrum\u0027s walls which allowed us to avail ourselves of the comforts of your vehicle.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_MANFST407_00521_YDA_000_752",
+    "original": "Y\u0027shtola\u0027s just being polite. That was one of the most uncomfortable things I\u0027ve \u003Chex:021A020203\u003Eever\u003Chex:021A020103\u003E stowed away in. It\u0027s no wonder it\u0027s called the \u003Chex:021A020203\u003EPhantom Train\u003Chex:021A020103\u003E\u2500no passenger would be seen dead on it!",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_MANFST407_00521_LIVIA_000_753",
+    "original": "So you scuttled in amidst the freight, like the vermin you are. I shall be sure to have words with our ratcatcher. Such negligence is unforgivable.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_MANFST407_00521_YSHTOLA_000_754",
+    "original": "That is far from your most pressing concern. First, you must answer for your \u003Chex:021A020203\u003Eown\u003Chex:021A020103\u003E wrongdoing, Livia sas Junius.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_MANFST407_00521_YSHTOLA_000_755",
+    "original": "\u0027Twas you who led the raid on the Waking Sands\u2500you who butchered unarmed men and women for the crime of being unworthy of capture.",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_MANFST407_00521_YDA_000_756",
+    "original": "You killed our friends! We\u0027ll never forgive you!",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_MANFST407_00521_YSHTOLA_000_757",
+    "original": "Nor shall we suffer you to plague Eorzea a day longer. Betake you to your guard.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALGUARD_000_758",
+    "original": "More intruders! Protect the tribunus!",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_MANFST407_00521_YSHTOLA_000_759",
+    "original": "Confound it! Yda, with me!",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALGUARD_000_760",
+    "original": "After them!",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_MANFST407_00521_LIVIA_000_761",
+    "original": "Where is His Excellency?",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALGUARD_000_762",
+    "original": "In the hangar, my lady\u2500in discussion with our guest!",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_MANFST407_00521_LIVIA_000_763",
+    "original": "Alert him at once!",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALGUARD_000_764",
+    "original": "Yes, my lady!",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_MANFST407_00521_LIVIA_000_765",
+    "original": "No! No, no, NO!",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALGUARD_000_766",
+    "original": "There they are! Fan out and surround them!",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_MANFST407_00521_WEDGE_000_767",
+    "original": "Must...protect...Tataru! Biggs\u2500I\u0027m going in! See everyone to safety!",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_MANFST407_00521_BIGGS_000_768",
+    "original": "No! Wedge\u2500don\u0027t do it!",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_MANFST407_00521_BIGGS_000_769",
+    "original": "Oh, no... \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u2500hold them off! I\u0027ll look after Minfilia and Tataru!",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_MANFST407_00521_300150_IMPERIALSOLDIER",
+    "original": "Take the leader! Kill the rest!",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_MANFST407_00521_300160_IMPERIALSOLDIER",
+    "original": "What the\u2500!?",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_MANFST407_00521_300170_MINFILIA",
+    "original": "Y\u0027shtola!",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_MANFST407_00521_300180_YSHTOLA",
+    "original": "Pray forgive us our delay!",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_MANFST407_00521_300190_YDA",
+    "original": "Papalymo! Minfilia!",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_MANFST407_00521_300200_MINFILIA",
+    "original": "Yda!",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_MANFST407_00521_300210_PAPALYMO",
+    "original": "What took you so long!?",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_MANFST407_00521_300220_YDA",
+    "original": "Well, it\u0027s nice to see you too!",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_MANFST407_00521_300230_YSHTOLA",
+    "original": "The reunion must wait!",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_MANFST407_00521_300240_YDA",
+    "original": "Right! First things first!",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_MANFST407_00521_300250_PAPALYMO",
+    "original": "Yes, let\u0027s get back to being heavily outnumbered...",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_MANFST407_00521_300260_WEDGE",
+    "original": "Uwaaaaaah!",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_MANFST407_00521_300270_BIGGS",
+    "original": "You ditched your magitek armor!? Fool of a Lalafell!",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_MANFST407_00521_300280_WEDGE",
+    "original": "Well, excuse \u003Chex:021A020203\u003Eme\u003Chex:021A020103\u003E! She\u0027s all yours if you think you can do any better!",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_MANFST407_00521_300290_IMPERIALSOLDIER",
+    "original": "\u003Cgasp\u003E",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_MANFST407_00521_300300_IMPERIALSOLDIER",
+    "original": "But there\u0027s no one in there!",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_MANFST407_00521_300310_CID",
+    "original": "This is Cid! Can you hear me!?",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_MANFST407_00521_300320_CID",
+    "original": "I need you to count to five, then jump! Understood!?",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_MANFST407_00521_300330_YSHTOLA",
+    "original": "One...",
+    "translation": ""
+  },
+  "197": {
+    "tag": "TEXT_MANFST407_00521_300340_YDA",
+    "original": "Two!",
+    "translation": ""
+  },
+  "198": {
+    "tag": "TEXT_MANFST407_00521_300350_PAPALYMO",
+    "original": "Three!",
+    "translation": ""
+  },
+  "199": {
+    "tag": "TEXT_MANFST407_00521_300360_MINFILIA",
+    "original": "Four!",
+    "translation": ""
+  },
+  "200": {
+    "tag": "TEXT_MANFST407_00521_400370_GAIUS",
+    "original": "I know not which is more pitiful: the charlatans who rule Eorzea...",
+    "translation": ""
+  },
+  "201": {
+    "tag": "TEXT_MANFST407_00521_400380_GAIUS",
+    "original": "...or the masses that clamor for their implausible panaceas.",
+    "translation": ""
+  },
+  "202": {
+    "tag": "TEXT_MANFST407_00521_400390_GAIUS",
+    "original": "I see that which they cannot. This realm founders for want of a ruler with true power\u2500the power to cast down eikons.",
+    "translation": ""
+  },
+  "203": {
+    "tag": "TEXT_MANFST407_00521_400400_GAIUS",
+    "original": "If you continue to deny this truth, it is the people who will suffer. Embrace reason.",
+    "translation": ""
+  },
+  "204": {
+    "tag": "TEXT_MANFST407_00521_400410_CID",
+    "original": "\u003Cgasp\u003E",
+    "translation": ""
+  },
+  "205": {
+    "tag": "TEXT_MANFST407_00521_400420_CID",
+    "original": "What in the seven hells\u2500!?",
+    "translation": ""
+  },
+  "206": {
+    "tag": "TEXT_MANFST407_00521_400430_ALPHINAUD",
+    "original": "Oh no... It\u0027s here!",
+    "translation": ""
+  },
+  "207": {
+    "tag": "TEXT_MANFST407_00521_400440_MINFILIA",
+    "original": "Twelve preserve us... They finished it. Ultima Weapon...",
+    "translation": ""
+  },
+  "208": {
+    "tag": "TEXT_MANFST407_00521_400450_ALPHINAUD",
+    "original": "So it has a name...",
+    "translation": ""
+  },
+  "209": {
+    "tag": "TEXT_MANFST407_00521_400460_MINFILIA",
+    "original": "It is a relic of ancient Allag, excavated from its resting place deep beneath Ala Mhigo.",
+    "translation": ""
+  },
+  "210": {
+    "tag": "TEXT_MANFST407_00521_400470_MINFILIA",
+    "original": "The Allagans used it to crush primal and foe alike...and now the Garleans mean to do the same!",
+    "translation": ""
+  },
+  "211": {
+    "tag": "TEXT_MANFST407_00521_400480_CID",
+    "original": "Damn you, Gaius!",
+    "translation": ""
+  },
+  "212": {
+    "tag": "TEXT_MANFST407_00521_400490_ALPHINAUD",
+    "original": "Look! There, beside the Black Wolf!",
+    "translation": ""
+  },
+  "213": {
+    "tag": "TEXT_MANFST407_00521_400500_ALPHINAUD",
+    "original": "An Ascian!",
+    "translation": ""
+  },
+  "214": {
+    "tag": "TEXT_MANFST407_00521_400510_ALPHINAUD",
+    "original": "An overlord, no less. His garb attests to that.",
+    "translation": ""
+  },
+  "215": {
+    "tag": "TEXT_MANFST407_00521_400520_MINFILIA",
+    "original": "Lahabrea! It could only be him!",
+    "translation": ""
+  },
+  "216": {
+    "tag": "TEXT_MANFST407_00521_400530_MINFILIA",
+    "original": "Thancred!",
+    "translation": ""
+  },
+  "217": {
+    "tag": "TEXT_MANFST407_00521_400540_MINFILIA",
+    "original": "\u003Chex:021A020203\u003EHe\u003Chex:021A020103\u003E was Lahabrea...? No... No, this cannot be!",
+    "translation": ""
+  },
+  "218": {
+    "tag": "TEXT_MANFST407_00521_400550_CID",
+    "original": "We have to go now! Hang on!",
+    "translation": ""
+  },
+  "219": {
+    "tag": "TEXT_MANFST407_00521_400560_MINFILIA",
+    "original": "Thancred! NOOOOOO!",
+    "translation": ""
+  },
+  "220": {
+    "tag": "TEXT_MANFST407_00521_400570_LAHABREAEORZEA",
+    "original": "Ahahaha... Muahahahahaha!",
+    "translation": ""
+  },
+  "221": {
+    "tag": "TEXT_MANFST407_00521_500580_ALPHINAUD",
+    "original": "All that time, the enemy was beside me, and I never even suspected.",
+    "translation": ""
+  },
+  "222": {
+    "tag": "TEXT_MANFST407_00521_500590_ALPHINAUD",
+    "original": "And to think that it was I who suggested that Thancred investigate the Ascians! How could I have been so blind!?",
+    "translation": ""
+  },
+  "223": {
+    "tag": "TEXT_MANFST407_00521_500600_ALPHINAUD",
+    "original": "Small wonder the enemy knew our every move\u2500\u003Chex:021A020203\u003Eand\u003Chex:021A020103\u003E where to find us! Confound it all!",
+    "translation": ""
+  },
+  "224": {
+    "tag": "TEXT_MANFST407_00521_500610_ALPHINAUD",
+    "original": "No... No, this is not the time for self-doubt. The Alliance leaders staked their hopes on the Scions, but now they believe us all dead or missing.",
+    "translation": ""
+  },
+  "225": {
+    "tag": "TEXT_MANFST407_00521_500620_ALPHINAUD",
+    "original": "When they learn of the Empire\u0027s new weapon, we cannot be certain what they will do.",
+    "translation": ""
+  },
+  "226": {
+    "tag": "TEXT_MANFST407_00521_500630_ALPHINAUD",
+    "original": "We must go and offer them what assurances we can that defeat is not inevitable!",
+    "translation": ""
+  },
+  "227": {
+    "tag": "TEXT_MANFST407_00521_500640_MINFILIA",
+    "original": "Krile? This is Minfilia. I am in some haste, so forgive me if I seem brusque. The item I requested\u2500is it ready? Wonderful! I am sorry to press, but we need it urgently. How soon can it be delivered?\u003Chex:02100103\u003E...I am in your debt, my friend.",
+    "translation": ""
+  },
+  "228": {
+    "tag": "TEXT_MANFST407_00521_500650_ALPHINAUD",
+    "original": "The situation may have taken an ill turn...",
+    "translation": ""
+  },
+  "229": {
+    "tag": "TEXT_MANFST407_00521_500660_ALPHINAUD",
+    "original": "But the battle is far from over. And so long as we stand together, there shall ever be hope of victory.",
+    "translation": ""
+  },
+  "230": {
+    "tag": "TEXT_MANFST407_00521_500670_ALPHINAUD",
+    "original": "The people of Eorzea falter for want of such hope. Let \u003Chex:021A020203\u003Eus\u003Chex:021A020103\u003E provide it. Let us bear to them the tidings that the Scions of the Seventh Dawn are returned!",
+    "translation": ""
+  },
+  "231": {
+    "tag": "TEXT_MANFST407_00521_500680_ALPHINAUD",
+    "original": "Matters are coming to a head. I hope we can count on you.",
+    "translation": ""
+  },
+  "232": {
+    "tag": "TEXT_MANFST407_00521_500690_MINFILIA",
+    "original": "...My regards to Grandfather.",
+    "translation": ""
+  },
+  "233": {
+    "tag": "TEXT_MANFST407_00521_500700_MINFILIA",
+    "original": "I am ready. Let us pay a visit to the council of the Alliance leadership.",
+    "translation": ""
+  },
+  "234": {
+    "tag": "TEXT_MANFST407_00521_RAUBAHN_000_800",
+    "original": "Hells take the Black Wolf and his new toy...",
+    "translation": ""
+  },
+  "235": {
+    "tag": "TEXT_MANFST407_00521_MERLWYB_000_801",
+    "original": "Rally all available forces. I want them ready to move upon my word.",
+    "translation": ""
+  },
+  "236": {
+    "tag": "TEXT_MANFST407_00521_MERLWYB_000_802",
+    "original": "And relay to Slafyrsyn the order to sail. That is all.",
+    "translation": ""
+  },
+  "237": {
+    "tag": "TEXT_MANFST407_00521_MERLWYB_000_803",
+    "original": "The Maelstrom stands ready. What of the Flames?",
+    "translation": ""
+  },
+  "238": {
+    "tag": "TEXT_MANFST407_00521_RAUBAHN_000_804",
+    "original": "Ready as we\u0027re like to be. I need only give the word to Roaille.",
+    "translation": ""
+  },
+  "239": {
+    "tag": "TEXT_MANFST407_00521_KANESENNA_000_805",
+    "original": "Has there been no word from Ishgard?",
+    "translation": ""
+  },
+  "240": {
+    "tag": "TEXT_MANFST407_00521_RAUBAHN_000_806",
+    "original": "None. The dragons have got their tongues.",
+    "translation": ""
+  },
+  "241": {
+    "tag": "TEXT_MANFST407_00521_KANESENNA_000_807",
+    "original": "Silent to the last. I was unwise to hope for better.",
+    "translation": ""
+  },
+  "242": {
+    "tag": "TEXT_MANFST407_00521_MERLWYB_000_808",
+    "original": "What would stir the archbishop to open his holy mouth, if not this!? And he claims the Fury for his god... \u0027Tis bad comedy!",
+    "translation": ""
+  },
+  "243": {
+    "tag": "TEXT_MANFST407_00521_NANAMOULNAMO_000_809",
+    "original": "The Holy See has made its choice. We will proceed without its cooperation.",
+    "translation": ""
+  },
+  "244": {
+    "tag": "TEXT_MANFST407_00521_NANAMOULNAMO_000_810",
+    "original": "I believe we are all acquainted with the terms of the Black Wolf\u0027s ultimatum.",
+    "translation": ""
+  },
+  "245": {
+    "tag": "TEXT_MANFST407_00521_NANAMOULNAMO_000_811",
+    "original": "We must agree upon a course of action. Naught less than the fate of Eorzea hangs upon the decision of this council.",
+    "translation": ""
+  },
+  "246": {
+    "tag": "TEXT_MANFST407_00521_RAUBAHN_000_812",
+    "original": "Van Baelsar claims to wield the power to smite primals.",
+    "translation": ""
+  },
+  "247": {
+    "tag": "TEXT_MANFST407_00521_KANESENNA_000_813",
+    "original": "Should we yield to him, he pledges to rid the realm of its false gods. Yet offer resistance, and he swears that we shall share the primals\u0027 fate.",
+    "translation": ""
+  },
+  "248": {
+    "tag": "TEXT_MANFST407_00521_MERLWYB_000_814",
+    "original": "Pardon me my bluntness, but I like not these choices.",
+    "translation": ""
+  },
+  "249": {
+    "tag": "TEXT_MANFST407_00521_NANAMOULNAMO_000_815",
+    "original": "This is too great a decision for any one of our nations to make alone.",
+    "translation": ""
+  },
+  "250": {
+    "tag": "TEXT_MANFST407_00521_NANAMOULNAMO_000_816",
+    "original": "Choose we surrender or resistance, we must answer as one, for if but one surrenders, the rest shall surely fall. Let us pray for the wisdom to do right by \u003Chex:021A020203\u003Eall\u003Chex:021A020103\u003E our peoples.",
+    "translation": ""
+  },
+  "251": {
+    "tag": "TEXT_MANFST407_00521_MINFILIA_000_900",
+    "original": "Thancred\u0027s plight troubles us all, yet we cannot allow anything to come between us and our goal.",
+    "translation": ""
+  },
+  "252": {
+    "tag": "TEXT_MANFST407_00521_MINFILIA_000_901",
+    "original": "So long as the Ultima Weapon exists, Eorzea will never know peace.",
+    "translation": ""
+  },
+  "253": {
+    "tag": "TEXT_MANFST407_00521_MINFILIA_000_902",
+    "original": "Let us go to the Alliance leaders, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, and help them to make the right decision.",
+    "translation": ""
+  },
+  "254": {
+    "tag": "TEXT_MANFST407_00521_ELYENORA_000_940",
+    "original": "Greetings, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. Do you wish to proceed to your vessel?",
+    "translation": ""
+  },
+  "255": {
+    "tag": "TEXT_MANFST407_00521_Q2_000_950",
+    "original": "Proceed to the landing area?",
+    "translation": ""
+  },
+  "256": {
+    "tag": "TEXT_MANFST407_00521_A2_000_951",
+    "original": "Yes",
+    "translation": ""
+  },
+  "257": {
+    "tag": "TEXT_MANFST407_00521_A2_000_952",
+    "original": "No",
+    "translation": ""
+  },
+  "258": {
+    "tag": "TEXT_MANFST407_00521_QIB_TODO003",
+    "original": "Unbind Papalymo and Urianger!",
+    "translation": ""
+  },
+  "259": {
+    "tag": "TEXT_MANFST407_00521_QIB_TODO001",
+    "original": "Defeat the enemy and rescue the Scions!",
+    "translation": ""
+  },
+  "260": {
+    "tag": "TEXT_MANFST407_00521_QIB_TODO002",
+    "original": "Defeat the enemy and escape from Castrum Centri!",
+    "translation": ""
+  },
+  "261": {
+    "tag": "TEXT_MANFST407_00521_MINFILIA_BATTLETALK_01",
+    "original": "You came!",
+    "translation": ""
+  },
+  "262": {
+    "tag": "TEXT_MANFST407_00521_URIANGER_BATTLETALK_03",
+    "original": "Unbind us, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Together we may yet win free.",
+    "translation": ""
+  },
+  "263": {
+    "tag": "TEXT_MANFST407_00521_PAPALYMO_BATTLETALK_02",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Get these shackles off us, quickly!",
+    "translation": ""
+  },
+  "264": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_MANFST407_A_BATTLETALK_04",
+    "original": "Take them, whatever the cost!",
+    "translation": ""
+  },
+  "265": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALSOLDIER_MANFST407_B_BATTLETALK_05",
+    "original": "All units, to emergency stations! Do \u003Chex:021A020203\u003Enot\u003Chex:021A020103\u003E let the prisoners escape!",
+    "translation": ""
+  },
+  "266": {
+    "tag": "TEXT_MANFST407_00521_URIANGER_BATTLETALK_06",
+    "original": "This infernal creation is shielded by energies not its own.",
+    "translation": ""
+  },
+  "267": {
+    "tag": "TEXT_MANFST407_00521_PAPALYMO_BATTLETALK_07",
+    "original": "Whatever is generating its shield must be near! Find it, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "268": {
+    "tag": "TEXT_MANFST407_00521_PAPALYMO_BATTLETALK_08",
+    "original": "Ack! There\u0027s no end to them!",
+    "translation": ""
+  },
+  "269": {
+    "tag": "TEXT_MANFST407_00521_URIANGER_BATTLETALK_09",
+    "original": "We labor in vain! Till the beast be divested of its shield, our blows shall not find their mark.",
+    "translation": ""
+  },
+  "270": {
+    "tag": "TEXT_MANFST407_00521_IMPERIALGUARD_MANFST407_C_BATTLETALK_10",
+    "original": "You\u0027re not getting away! Bring forth the colossus!",
+    "translation": ""
+  },
+  "271": {
+    "tag": "TEXT_MANFST407_00521_BIGGS_BATTLETALK_11",
+    "original": "What in the hells...? A new design!",
+    "translation": ""
+  },
+  "272": {
+    "tag": "TEXT_MANFST407_00521_MINFILIA_BATTLETALK_12",
+    "original": "Have care!",
+    "translation": ""
+  },
+  "273": {
+    "tag": "TEXT_MANFST407_00521_URIANGER_BATTLETALK_13",
+    "original": "Ware the unknown foe.",
+    "translation": ""
+  },
+  "274": {
+    "tag": "TEXT_MANFST407_00521_PAPALYMO_BATTLETALK_14",
+    "original": "So that\u0027s a colossus, is it!? More like a colossal waste of iron!",
+    "translation": ""
+  },
+  "275": {
+    "tag": "TEXT_MANFST407_00521_PAPALYMO_BATTLETALK_DEAD",
+    "original": "Ungh... Confound it...",
+    "translation": ""
+  },
+  "276": {
+    "tag": "TEXT_MANFST407_00521_URIANGER_BATTLETALK_DEAD",
+    "original": "Mine eyes...darken...",
+    "translation": ""
+  },
+  "277": {
+    "tag": "TEXT_MANFST407_00521_WEDGE_BATTLETALK_DEAD",
+    "original": "Tataru... Forgive me...",
+    "translation": ""
+  },
+  "278": {
+    "tag": "TEXT_MANFST407_00521_BIGGS_BATTLETALK_DEAD",
+    "original": "I...I couldn\u0027t... Ungh...",
+    "translation": ""
+  }
+}

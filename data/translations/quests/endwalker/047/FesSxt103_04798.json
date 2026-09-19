@@ -1,0 +1,697 @@
+{
+  "0": {
+    "tag": "TEXT_FESSXT103_04798_SEQ_00",
+    "original": "Clive seems somewhat bemused.\u003Chex:02100103\u003E\u203BThis quest is available for a limited time only.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_FESSXT103_04798_SEQ_01",
+    "original": "Clive confesses bemusement at the minstrel\u0027s plan, but is nonetheless willing to follow his instructions. After explaining the way to Apkallu Falls, you set off for your nearby destination.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that you will be unable to complete this quest after the event has ended. For details, please check the Lodestone.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_FESSXT103_04798_SEQ_02",
+    "original": "Judging by Clive\u0027s reaction to the mention of Ifrit, the wandering minstrel believes he has identified the root cause of the scarlet star\u0027s amnesia. His lyrical magicks weave a replica of the Bowl of Embers, within which you and Clive confront the Lord of the Inferno\u2500an entity which soon blurs and changes to more closely match the creature of Clive\u0027s befogged memories.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_FESSXT103_04798_SEQ_03",
+    "original": "At the culmination of his fiery duel, Clive breaks through his mental barrier, and at last accepts the truth that the monstrous beast before him...is himself. You then return victorious to the real world, but it seems you have not returned alone: Clive\u0027s resolve has manifested an old companion from the swirling aether. The loyal Torgal will serve as a guide to lead Clive home to his own world\u2500or so the delighted musician asserts. And after listening to the continuation of Clive\u0027s harrowing tale, the minstrel is adamant that this journey begin at the beginning: the Burning Wall.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_FESSXT103_04798_SEQ_04",
+    "original": "Now that you have arrived in the vicinity, the minstrel looks to Torgal to lead Clive the rest of the way. But will the hound guide his master true as the minstrel believes?",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_FESSXT103_04798_SEQ_05",
+    "original": "With Torgal in the lead, you set off alongside Clive and the minstrel. The destination you seek appears to lie somewhere within the twists and turns of the Burning Wall...\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BIf you part ways with Clive and the wandering minstrel or fall behind Torgal, return to the starting point and speak with Clive, the wandering minstrel, or Torgal to try again.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_FESSXT103_04798_SEQ_06",
+    "original": "You accompany Clive back to the very spot where you first found him. It seems the Burning Wall\u0027s relation to the Phoenix of your world played a part in Clive\u0027s unexpected arrival, a connection forged by the bond with his brother\u2500the Phoenix of his world. With memories restored and answers yet to find, Clive bids you farewell as his time in Eorzea comes to an end.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_FESSXT103_04798_SEQ_07",
+    "original": "Now that you have seen Clive safely home to Valisthea, the wistful minstrel declares the adventure over. He rewards you for indulging his strange request, presenting you with a whistle to summon a likeness of Clive\u0027s loyal hound, Torgal. Though your time together was short, you cannot help but wonder what further trials await Clive on his own star, some unimaginable distance away...",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_FESSXT103_04798_TODO_00",
+    "original": "Speak with Clive.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_FESSXT103_04798_TODO_01",
+    "original": "Speak with Clive.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_FESSXT103_04798_TODO_02",
+    "original": "Speak with the wandering minstrel at the Burning Wall.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_FESSXT103_04798_TODO_03",
+    "original": "Speak with Clive and have him accompany you.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_FESSXT103_04798_TODO_04",
+    "original": "Follow Torgal\u0027s lead, then speak with Clive at the designated location.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_FESSXT103_04798_TODO_05",
+    "original": "Speak with the wandering minstrel.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_001",
+    "original": "The minstrel has a plan, it seems, but he shares little beyond confusing metaphor...",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_002",
+    "original": "Still, I\u0027m willing to indulge him if it means making progress.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_003",
+    "original": "We\u0027re to meet him at \u201CApkallu Falls,\u201D right? And where is that to be found?",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_004",
+    "original": "Good\u2500not far, then. Let\u0027s get on with it.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_010",
+    "original": "This place...? Why here?",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_011",
+    "original": "Because this waterfall is where the legendary Archon Louisoix gathered a band of adventurers in the time of the Seventh Umbral Calamity.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_012",
+    "original": "Their purpose: to extinguish the infernal Ifrit.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_013",
+    "original": "Ifrit!?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_014",
+    "original": "Hngh. I know something is there, I just... Why can\u0027t I \u003Chex:021A020203\u003Eremember\u003Chex:021A020103\u003E!?",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_015",
+    "original": "Clive recalled several words in the Elder Seedseer\u0027s presence\u2500words which brought him pain. While the significance of \u201CBearer\u201D eludes me, you and I are more than familiar with \u201CIfrit.\u201D",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_100_015",
+    "original": "Considering your reaction to the mere mention of the name, \u0027tis likely that the primal\u2500or its equivalent in your world\u2500is deeply connected to your condition.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_016",
+    "original": "Thus have I resolved to weave my lyrical magicks and bring you face-to-face with the Ifrit of our world.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_017",
+    "original": "Here, where Archon Louisoix paved an aetherial path to the primal\u0027s lair, will my words be given substance. And within the vision which takes form will you do battle with a phantom of our minds\u0027 creation.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_018",
+    "original": "Imaginary though this confrontation may be, I fear your suffering will be all too real. Yet you must persevere, for your hidden truth will not be unearthed without hardship.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_019",
+    "original": "Take heart, scarlet star, and call upon the strength of your shining twin! Your past awaits!",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_FESSXT103_04798_SYSTEM_100_019",
+    "original": "You must be a Disciple of War or Magic of level 50 or above to proceed.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_020",
+    "original": "Where has he sent us!?",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_021",
+    "original": "(-Wandering Minstrel-)You stand in the Bowl of Embers, the site where the Amalj\u0027aa summoned their patron deity...and the stage upon which the Warrior of Light became a slayer of gods.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_022",
+    "original": "(-Wandering Minstrel-)\u0027Tis but convincing illusion\u2500the body of recounted tale given breath by fanciful verse.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_023",
+    "original": "(-Wandering Minstrel-)Come forth, Lord of the Inferno!",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_024",
+    "original": "(-Wandering Minstrel-)An accurate facsimile, yet not quite the Ifrit you know.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_025",
+    "original": "No. Not quite the same...",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_026",
+    "original": "Hngggh!",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_FESSXT103_04798_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_FESSXT103_04798_A1_000_001",
+    "original": "It\u0027s time to uncover the truth!",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_FESSXT103_04798_A1_000_002",
+    "original": "Ready when you are!",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_028",
+    "original": "Alright. Time to find out who I am.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_029",
+    "original": "Together, then.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_030",
+    "original": "Ifrit...",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_031",
+    "original": "That\u0027s the \u003Chex:021A020203\u003Ething\u003Chex:021A020103\u003E which killed Joshua! Yes...I\u0027ve been on its trail, seeking vengeance for my brother!",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_032",
+    "original": "This fiend must pay. Fight with me, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_FESSXT103_04798_SYSTEM_100_032",
+    "original": "During this battle, you will gain access to special duty actions as follows:",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_FESSXT103_04798_SYSTEM_200_032",
+    "original": "Use \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ERising Flames\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E to charge the foe and inflict high damage.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_FESSXT103_04798_SYSTEM_300_032",
+    "original": "With the proper timing, you can use \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EDodge\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E to avoid taking damage, even if you are within the area of an enemy\u0027s attack.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_FESSXT103_04798_SYSTEM_400_032",
+    "original": "Certain enemy attacks will be preceded by a countdown icon. When this countdown progresses to the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EDodge\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E icon, quickly use the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EDodge\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E action.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_FESSXT103_04798_SYSTEM_500_032",
+    "original": "After executing a successful dodge, the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EDodge\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E action will change to \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EPrecision Strike\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E, which provides an opportunity to inflict additional damage.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_033",
+    "original": "I blamed another...to spare myself the guilt.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_034",
+    "original": "I feared that by accepting it, I would lose what little was left of me.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_035",
+    "original": "But I accept the truth of it now.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_036",
+    "original": "You are not Ifrit. I am.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_038",
+    "original": "(-Wandering Minstrel-)In the battle against your own mind, \u0027twould seem you have emerged the victor.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_039",
+    "original": "(-Wandering Minstrel-)Intriguing...",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_040",
+    "original": "The illusion is unraveled, yet you\u0027ve brought a friend back with you...",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_041",
+    "original": "This is Torgal, a wolf pup raised in the duchy. There is no more loyal ally in battle, and no keener guide when the road ahead is uncertain.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_042",
+    "original": "Ah... That would explain the aberration in the lingering aether. Torgal is here to lead you back to your own world.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_043",
+    "original": "Clive has embraced his harrowing past, and in doing so reclaimed the memories he lost. Though not a conscious act, he has manifested his readiness to return home in the form of a trusted companion.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_044",
+    "original": "Even so, it was...difficult...to accept what I\u0027d done.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_045",
+    "original": "My younger brother\u2500Joshua\u2500was a kind and gifted soul.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_046",
+    "original": "The inheritor of the Phoenix\u0027s flames, he was destined to become archduke, as our father had before him. But Joshua was murdered. His bright future cut short.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_047",
+    "original": "From that day onwards, I lived for one purpose alone. A Dominant of Fire had slain my brother, and I would have my revenge.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_048",
+    "original": "I spent years tracking the killer, until one day...I came to understand it had been me all along.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_049",
+    "original": "I was young and distraught when I first summoned Ifrit. I hadn\u0027t known such power lurked within me\u2500or that it could even exist at all.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_050",
+    "original": "The transformation was instinctive, uncontrolled... And it was by my hand that Joshua died.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_051",
+    "original": "I can but imagine the anguish this caused you.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_052",
+    "original": "There was anguish, yes, and a guilt I will never escape. But I cannot let it stop me.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_100_052",
+    "original": "I was born the vessel for Ifrit\u0027s power, and I need to know why.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_053",
+    "original": "It was in search of answers that I went to Phoenix Gate, and delved into the ruins below. There I found the courage to face my past and accept the truth\u2500and then everything faded to black.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_054",
+    "original": "Hmmm, your tale suggests that something in the ruins\u2500some mysterious force\u2500was responsible for your inadvertent journey.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_055",
+    "original": "And if you arrived in Eorzea from a place sacred to the Phoenix and its flames, then it stands to reason...",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_056",
+    "original": "Yes? What are you thinking?",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_057",
+    "original": "I\u0027m thinking that to see you home, then we must return to the beginning. Our road takes us back to the Burning Wall!",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_058",
+    "original": "Once there, your furry comrade will lead us exactly where we need to go.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_FESSXT103_04798_TORGAL_000_060",
+    "original": "......",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_FESSXT103_04798_SYSTEM_000_061",
+    "original": "Torgal\u0027s ears are pricked up, his senses focused on his surrounds.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_065",
+    "original": "Such an incredible sight. I was in no state to appreciate these crystals the first time...",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_070",
+    "original": "We\u0027ve come this far. Now Torgal will be our guide.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_071",
+    "original": "Such was the purpose of his creation, after all.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_080",
+    "original": "Ready, Torgal? Take me home.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_FESSXT103_04798_TORGAL_000_081",
+    "original": "\u003Cbark\u003E",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_FESSXT103_04798_SYSTEM_000_082",
+    "original": "Once you choose to depart, Clive and the wandering minstrel will accompany you. Torgal will then begin leading you onwards.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_FESSXT103_04798_SYSTEM_000_083",
+    "original": "Follow Torgal to his destination and try not to fall behind.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_FESSXT103_04798_SYSTEM_000_084",
+    "original": "If you leave Clive or the minstrel for any reason, or lose sight of Torgal, you may try again by returning to the starting point.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_FESSXT103_04798_Q1_000_085",
+    "original": "Follow Torgal?",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_FESSXT103_04798_TORGAL_000_086",
+    "original": "\u003Cbark\u003E",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_FESSXT103_04798_SYSTEM_000_087",
+    "original": "Once you choose to depart, Clive and the wandering minstrel will accompany you. Torgal will then begin leading you onwards.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_090",
+    "original": "I\u0027ll be back soon, Jill...",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_FESSXT103_04798_TORGAL_000_092",
+    "original": "\u003Cbark\u003E",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_094",
+    "original": "I sense the end to this extraordinary tale is at hand.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_FESSXT103_04798_Q2_000_095",
+    "original": "What will you do?",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_FESSXT103_04798_A2_000_096",
+    "original": "Talk.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_FESSXT103_04798_A2_000_097",
+    "original": "Part ways.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_FESSXT103_04798_A2_000_098",
+    "original": "Nothing.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_099",
+    "original": "Don\u0027t mind me. Keep an eye on Torgal.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_100_099",
+    "original": "A brief fellowship, formed beneath the wings of the Phoenix... \u0027Tis worthy of a poem in itself.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_FESSXT103_04798_Q3_101_099",
+    "original": "Are you sure you wish to part ways with your companions?",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_102_099",
+    "original": "Feeling lost? Maybe we should head back and start over.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_103_099",
+    "original": "...Leave? Some matter of heroic importance, I trust? Very well, we shall await your return at the spot where this expedition began.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_104_099",
+    "original": "Come, Torgal is eager to run.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_105_099",
+    "original": "I am ever ready to wander!",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_FESSXT103_04798_SYSTEM_106_099",
+    "original": "Once you choose to depart, Clive and the wandering minstrel will accompany you. Torgal will then begin leading you onwards.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_FESSXT103_04798_SYSTEM_107_099",
+    "original": "Your companions have yet to arrive. Be sure they are at your side before attempting to continue.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_108_099",
+    "original": "Right, let\u0027s try this again.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_109_099",
+    "original": "One can be forgiven for putting a foot wrong when faced with the sorrow of parting. No matter, we simply begin once more from the beginning.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_FESSXT103_04798_SYSTEM_110_099",
+    "original": "Speak with Torgal at the Burning Wall to try again.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_100",
+    "original": "Is this it, boy?",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_101",
+    "original": "The tale ends where it began.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_102",
+    "original": "Where you first found me?",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_103",
+    "original": "Indeed.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_104",
+    "original": "I was baffled as to why this, of all places, would serve as a junction between our two worlds. But now I think I understand.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_105",
+    "original": "You do?",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_106",
+    "original": "Some years ago, Eorzea was visited by a cataclysmic disaster known as the \u201CSeventh Umbral Calamity.\u201D",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_107",
+    "original": "Yet even as fire and ruin threatened all we held dear, the world underwent a mystical renewal. \u0027Twas as if the star was reborn.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_108",
+    "original": "One theory attributes the miracle to a benevolent entity, claiming that the undying Phoenix flared into being to save us in our hour of direst need.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_109",
+    "original": "The Phoenix!?",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_110",
+    "original": "The Burning Wall itself is a scar left by those events, its crystal ridges having erupted from the earth overnight. Some believe these monoliths of solidified flame to be proof of the Phoenix\u0027s deliverance.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_111",
+    "original": "The bond with your brother, the Phoenix of your world, may have been the connection which brought you to this sacred place in ours.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_112",
+    "original": "Drawn to the flame...",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_113",
+    "original": "It seems our time together is at an end.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_114",
+    "original": "Thank you both for all you\u0027ve done.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_FESSXT103_04798_Q4_000_115",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_FESSXT103_04798_A4_100_115",
+    "original": "Press on, friend. No matter how daunting the hardship, or bitter the truth.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_FESSXT103_04798_A4_200_115",
+    "original": "May your journeys be fair.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_116",
+    "original": "Always. No matter what fate awaits at journey\u0027s end...",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_117",
+    "original": "And yours as well. You don\u0027t seem the type to stand still.",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_FESSXT103_04798_CLIVE_000_118",
+    "original": "Come, Torgal. We have answers to seek, and Valisthea awaits.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_119",
+    "original": "And then he was gone.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_120",
+    "original": "I feel the stirrings of a ballad...",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_121",
+    "original": "...But, nay. \u0027Twould be hubris to imagine I could capture Clive\u0027s story from so fleeting an excerpt.",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_122",
+    "original": "That honor belongs to someone else\u2500someone privileged to see his tale to its conclusion. Sadly, the power to peer into other worlds was not granted me by this day\u0027s miracles.",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_123",
+    "original": "I wonder, however, if \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E might manage it, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_130",
+    "original": "Our little adventure is over. Set in motion as it was by a dream most cryptic, I must thank you for indulging my sudden and strange request.",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_131",
+    "original": "As for your promised reward, I hope this is sufficient?",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_132",
+    "original": "Torgal proved such a trustworthy guide that I thought to bind his likeness to a summoning whistle.",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_FESSXT103_04798_WANDERINGMINSTREL_000_133",
+    "original": "May his loyal spirit serve you well on your travels. Until we meet again!",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_FESSXT103_04798_SYSTEM_000_140",
+    "original": "You can now exchange MGP for special items by speaking with the Gold Saucer attendant at the Gold Saucer.",
+    "translation": ""
+  }
+}

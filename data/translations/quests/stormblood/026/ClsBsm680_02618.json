@@ -1,0 +1,362 @@
+{
+  "0": {
+    "tag": "TEXT_CLSBSM680_02618_SEQ_00",
+    "original": "Forgemaster Brithael appears lost in thought.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_CLSBSM680_02618_SEQ_01",
+    "original": "After turning several ideas over in his mind, Brithael concludes that Shinto is hiding the true reason he believes Sekka will never become a proper swordsmith. Wanting to learn exactly what that reason could be, he would have you go and speak with Shinto on the matter. Make your way to West Hawkers\u0027 Alley and speak with Sekka\u0027s father.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_CLSBSM680_02618_SEQ_02",
+    "original": "Speaking to Shinto reveals that he believes Sekka is missing something more fundamental than skill. Refusing to say anything more on the matter, he casually dismisses you. Return to the guild and seek out Forgemaster Brithael that you might apprise him of all that you have learned.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_CLSBSM680_02618_SEQ_03",
+    "original": "Forgemaster Brithael is unperturbed by the fact that Shinto saw through your plans and takes his answer as confirmation of what he had suspected: it is not Sekka\u0027s skill as a smithy that is holding her back. Speculating that her clunky old tools are preventing her from demonstrating her true skill as a swordsmith, he would have you help him forge her a new set. Asking that you make a custom-made hammer, he then sends you to speak with Randwulf, who will provide you with all the materials you will need.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_CLSBSM680_02618_SEQ_04",
+    "original": "Randwulf generously furnishes you with all the necessary materials for your hammer. Now you are more than ready to set to work. Craft a high-quality hammer and see that it is delivered to Forgemaster Brithael with all due haste.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BIn the event you lose the materials or the synthesis ends in failure, you may try again by speaking with Randwulf.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_CLSBSM680_02618_SEQ_05",
+    "original": "You hand your hammer to Forgemaster Brithael, who informs you that he, too, has finished making his portion of her new tools. Impressed by what you made, he hands you his assortment of metal implements, and requests that you deliver everything to a certain stubborn girl in Anchor Yard.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_CLSBSM680_02618_SEQ_06",
+    "original": "Sekka is delighted by the tools you have given her. After a quick thanks, she rushes off, intent on immediately testing them out. Follow her back to the guild and check to see if she is satisfied.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_CLSBSM680_02618_SEQ_07",
+    "original": "As you speak with Sekka, Shinto strides in. He takes one glance at her katana and is immediately displeased. Sekka, however defends her blade, saying that while it may not look like much, forging it reminded her of the joy of smithing. Those words seem to be exactly what Shinto was waiting to hear. He tells her she has learned a valuable lesson as a swordsmith, but if she is to become his apprentice there is one last thing she must prove: her worth. She must face off against you to see who can make the better katana. Declaring the contest will take place in Kugane, Shinto then bids you and Forgemaster Brithael to meet him and his daughter there.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe next blacksmith quest will be available from Brithael upon reaching level 70.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_CLSBSM680_02618_TODO_00",
+    "original": "Speak with Shinto in West Hawkers\u0027 Alley.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_CLSBSM680_02618_TODO_01",
+    "original": "Report to Forgemaster Brithael.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_CLSBSM680_02618_TODO_02",
+    "original": "Speak with Randwulf.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_CLSBSM680_02618_TODO_03",
+    "original": "\u003Chex:02087BE3E802E803FF2E53796E74686573697A65206120637573746F6D2D6D6164652068616D6D65722002280AFF064164646F6E0A0103FF4544656C697665722074686520637573746F6D2D6D6164652068616D6D65722002280AFF064164646F6E0A010320746F20466F7267656D617374657220427269746861656C03\u003E.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_CLSBSM680_02618_TODO_04",
+    "original": "Deliver the set of tools to Sekka.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_CLSBSM680_02618_TODO_05",
+    "original": "Speak with Sekka at the Blacksmiths\u0027 Guild.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_CLSBSM680_02618_BRITHAEL_000_000",
+    "original": "Ah, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, there ye are. Since we last met, I\u0027ve been givin\u0027 a lot o\u0027 thought as to how we might assist Sekka in winning her father\u0027s approval, an\u0027 there\u0027s one thing that strikes me as strange.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_CLSBSM680_02618_BRITHAEL_000_001",
+    "original": "While she is by no means a first-rate artisan, she\u0027s also not nearly so bad a smitty as her old man would have us believe.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_CLSBSM680_02618_BRITHAEL_000_002",
+    "original": "So why\u0027s he tryin\u0027 so hard to convince us she\u0027ll never amount to anythin\u0027? Me intuition tells me he\u0027s hidin\u0027 somethin\u0027 and it\u0027s up to ye to find out what.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_CLSBSM680_02618_BRITHAEL_000_003",
+    "original": "I saw him wanderin\u0027 through West Hawkers\u0027 Alley earlier. With any luck, he should still be there.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_CLSBSM680_02618_BRITHAEL_000_010",
+    "original": "The crotchety old man\u0027s taken a real shine to ye. No doubt ye\u0027ll have him singin\u0027 all his secrets in no time.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_CLSBSM680_02618_SHINTOU_000_020",
+    "original": "You want to know what will convince me of Sekka\u0027s potential as a swordsmith?",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_CLSBSM680_02618_SHINTOU_000_021",
+    "original": "You are an odd one\u2500to be so gifted and yet so humble as to treat a mediocre craftsman like my daughter as an equal...",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_CLSBSM680_02618_SHINTOU_000_022",
+    "original": "To answer your question, nothing will persuade me to take her on as an apprentice. What she lacks is something far more fundamental than skill.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_CLSBSM680_02618_SHINTOU_000_023",
+    "original": "While I am certain Master Brithael sent you here with hopes of learning more than what I just told you, that is all I am willing to say on the subject.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_CLSBSM680_02618_BRITHAEL_000_030",
+    "original": "So it is as I suspected then: it\u0027s not the girl\u0027s skills Shinto doesn\u0027t approve of.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_CLSBSM680_02618_BRITHAEL_100_030",
+    "original": "His secretiveness is quite curious, though, isn\u0027t it? Were it that he didn\u0027t care for his daughter, he\u0027d have no qualms about divulgin\u0027 the whole truth. Mayhap his distant demeanor is but a mask...",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_CLSBSM680_02618_BRITHAEL_000_031",
+    "original": "That, however, is a discussion fer another day. Now, I\u0027ve been observin\u0027 how Sekka works fer a while now to learn how we might help her improve.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_CLSBSM680_02618_BRITHAEL_000_032",
+    "original": "From what I\u0027ve seen, she\u0027s got a great deal of talent, but her clunky tools prevent her from displaying the full extent of her skill.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_CLSBSM680_02618_BRITHAEL_000_033",
+    "original": "I believe that her hampered dexterity is the missin\u0027 \u201Cfundamental\u201D to which Shinto refers. It should be an easy thing to fix. All we need do is provide her with a new set of svelte tools.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_CLSBSM680_02618_BRITHAEL_000_034",
+    "original": "That said, forgin\u0027 custom-made implements ain\u0027t easy, and there are only two people I\u0027d trust to do the job right.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_CLSBSM680_02618_BRITHAEL_000_035",
+    "original": "Well, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, what do ye say? Ye make her a nice hammer an\u0027 I\u0027ll take care o\u0027 the rest.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_CLSBSM680_02618_BRITHAEL_000_036",
+    "original": "Randwulf should be able to supply ye with what ye need. Ye can find him where he normally is\u2500over at reception.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_CLSBSM680_02618_BRITHAEL_000_038",
+    "original": "Just stroll on over to where Randwulf is and he\u0027ll see that you\u0027re supplied with any materials ye might need.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_CLSBSM680_02618_RANDWULF_000_040",
+    "original": "The two of ye are makin\u0027 a new set of tools for the girl? Bahaha! So the ol\u0027 bugger does have a chivalrous streak in him.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_CLSBSM680_02618_RANDWULF_000_041",
+    "original": "All right. This should be all that ye need, but feel free to come back if it\u0027s not enough.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_CLSBSM680_02618_RANDWULF_000_050",
+    "original": "Ye need more materials? No need to be so bashful about it, \u003Chex:02080EE905FF056C617373FF046C616403\u003E. Yer makin\u0027 these tools for a good cause.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_CLSBSM680_02618_RANDWULF_000_060",
+    "original": "I could take a look at it if ye really want, but Forgemaster Brithael\u0027s the one ye\u0027d want to show the hammer to. Don\u0027t have the eye for detail that he does...",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_CLSBSM680_02618_BRITHAEL_000_070",
+    "original": "Let\u0027s see it, then.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_CLSBSM680_02618_BRITHAEL_000_080",
+    "original": "Ye\u0027ve outdone yerself yet again, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Mayhap I\u0027ll have to ask ye to forge me a new hammer, once all this has been resolved.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_CLSBSM680_02618_BRITHAEL_000_081",
+    "original": "Between the two of us, we should now have a complete set o\u0027 tools. I\u0027ll let ye have the honor o\u0027 givin\u0027 them to the girl. If she\u0027s not down in the workshop, ye should be able to find her at the Anchor Yard.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_CLSBSM680_02618_BRITHAEL_000_090",
+    "original": "She wasn\u0027t there? Well, just wander about the Anchor Yard fer a wee bit\u2500yer bound to catch her sooner or later.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_CLSBSM680_02618_SEKKA_000_100",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, I...I am pathetic! I do not deserve to be called a smith.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_CLSBSM680_02618_SEKKA_000_101",
+    "original": "Forgemaster Brithael invested so much time and effort in helping me achieve my dreams, and yet everything I make is...is \u003Chex:021A020203\u003Erubbish\u003Chex:021A020103\u003E. I am undeserving of his teachings and his kindness.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_CLSBSM680_02618_SEKKA_000_102",
+    "original": "My father is a distinguished artisan in Kugane...",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_CLSBSM680_02618_SEKKA_000_103",
+    "original": "To gain his recognition would require that I craft an exceptional katana. This whole time I have been thinking how exactly I might bring such a blade into existence, but the harder I think the more I am overcome with panic.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_CLSBSM680_02618_SEKKA_000_104",
+    "original": "To make matters worse, I cannot get Forgemaster Brithael\u0027s face out of my head. Ever since he stood up for me against my father, I find myself unable to think straight and a flush rise in my cheeks whenever he is around.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_CLSBSM680_02618_SEKKA_000_105",
+    "original": "He has begun to dominate my thoughts and even my dreams. I do not know what has gotten into me. \u003Csigh\u003E My apologies. It seems I have gone off on a tangent. There was something you wanted to show me?",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_CLSBSM680_02618_SEKKA_000_110",
+    "original": "Forgemaster Brithael and you made these for \u003Chex:021A020203\u003Eme\u003Chex:021A020103\u003E?",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_CLSBSM680_02618_SEKKA_000_111",
+    "original": "It never occurred to me that your tools can make a difference. Unlike my current ones, these feel so light and sleek.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_CLSBSM680_02618_SEKKA_000_112",
+    "original": "Thank you so much for this wonderful gift. I cannot wait to test them out.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_CLSBSM680_02618_BRITHAEL_000_120",
+    "original": "The girl flew in here a quarter bell ago an\u0027 began poundin\u0027 up a storm. While I knew the tools would make her happy, I hadn\u0027t realized they\u0027d make her \u003Chex:021A020203\u003Ethat\u003Chex:021A020103\u003E happy.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_CLSBSM680_02618_SEKKA_000_130",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, look. It is magnificent, is it not? I made this using the tools you gave me.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_CLSBSM680_02618_SEKKA_000_140",
+    "original": "I only used them to put on the finishing touches, but what an astounding difference they have made. They are so much easier to handle than my old ones. Some of the things I used to struggle with now almost feel like second nature.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_CLSBSM680_02618_SEKKA_000_141",
+    "original": "Thank you. To think that you and Forgemaster Brithael cared deeply enough about me to design such a wonderful set of tools for me...",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_CLSBSM680_02618_SHINTOU_000_142",
+    "original": "(-???-)Sekka, it seems that, once again, you have gone against my wishes. This katana is abysmal. Did you think crafting this shoddy sword would somehow change my mind?",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_CLSBSM680_02618_SEKKA_000_143",
+    "original": "No, Father. This katana was not made with the intent of showcasing my skill. However, that does not make it any less valuable.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_CLSBSM680_02618_SEKKA_000_144",
+    "original": "This blade\u2500it represents my determination and marks the first step in my journey to becoming the best swordsmith in the realm.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_CLSBSM680_02618_SEKKA_000_145",
+    "original": "Working with these tools reminded me of what it was like to concentrate solely upon feeling the cool bite of metal upon my palm and the reverberation each pound of the mallet sends up my arm. It made me realize that until now, my katana have been made with anxiety\u2500a fear of being rejected\u2500and not for the pure joy of the art.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_CLSBSM680_02618_SEKKA_000_146",
+    "original": "Father, I am at a turning point. Now more than ever your guidance is essential to my success, and I would like to reiterate my request to you: please, I beg you, take me on as your apprentice.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_CLSBSM680_02618_SHINTOU_000_147",
+    "original": "You exhibit great dedication, but have always lacked the necessary focus and affection for this craft\u2500something which has reflected in your work. All your blades have been uninspired and lackluster.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_CLSBSM680_02618_SHINTOU_000_148",
+    "original": "This katana, while far from acceptable, is different. You directed your undivided attention to its creation, rather than fixating on gaining my approval. In so doing you have demonstrated you understand the essence of our art. I shall consider your request.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_CLSBSM680_02618_SEKKA_000_149",
+    "original": "Wh-What? Truly?",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_CLSBSM680_02618_SHINTOU_000_150",
+    "original": "Do not get ahead of yourself. You must first prove your worth. I will have you compete against \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Only if you win against \u003Chex:02080DE905FF04686572FF0468696D03\u003E, will I accept you.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_CLSBSM680_02618_SHINTOU_000_151",
+    "original": "We shall return to Kugane, and there the two of you will face off to see who can make the better katana. Keep in mind, Sekka, this shall be your last chance.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_CLSBSM680_02618_BRITHAEL_000_152",
+    "original": "Er\u2500pardon me, but I don\u0027t think I heard ye right. Ye can\u0027t mean to say yer plannin\u0027 on stealin\u0027 away me best smitty an\u0027 takin\u0027 \u003Chex:02080DE905FF04686572FF0468696D03\u003E to some distant country fer a bloody competition we didn\u0027t even agree to?",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_CLSBSM680_02618_SEKKA_000_153",
+    "original": "Father, I have no objection to those terms. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, I know it is a lot to ask but please, please, \u003Chex:021A020203\u003Eplease\u003Chex:021A020103\u003E, will you do this for me?",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_CLSBSM680_02618_SHINTOU_000_154",
+    "original": "Very good. I shall return to Kugane immediately to start on preparations for the impending match. I will see the three of you there.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_CLSBSM680_02618_BRITHAEL_000_155",
+    "original": "The three of you? Hold on. Ye don\u0027t mean to include \u003Chex:021A020203\u003Eme\u003Chex:021A020103\u003E, do ye?",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_CLSBSM680_02618_SHINTOU_000_156",
+    "original": "Who else? As guildmaster it is your duty to accompany your prot\u00E9g\u00E9 and see that \u003Chex:02080CE905FF04736865FF03686503\u003E performs to the very best of \u003Chex:02080DE905FF04686572FF0468697303\u003E ability. Now then, I believe I have a boat to catch. Till next we meet in Kugane.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_CLSBSM680_02618_SEKKA_000_157",
+    "original": "I shall be returning with my father. As we are adversaries now, I can no longer remain here at the guild.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_CLSBSM680_02618_SEKKA_000_158",
+    "original": "Forgemaster Brithael, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, I suggest you brace yourselves. I shall do everything in my power to win.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_CLSBSM680_02618_BRITHAEL_000_159",
+    "original": "Seven hells! Those two could give some of the fiercest pirates a run for their gil... ",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_CLSBSM680_02618_BRITHAEL_000_160",
+    "original": "\u003Csigh\u003E There\u0027s a lot that needs to be done ere we depart. While I go an\u0027 make sure things are in order, I expect ye to be practicin\u0027. If we\u0027re crossin\u0027 the five seas fer this bleedin\u0027 competition, ye better be sure to win it.",
+    "translation": ""
+  }
+}

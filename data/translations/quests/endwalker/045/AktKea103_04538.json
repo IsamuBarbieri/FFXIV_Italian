@@ -1,0 +1,687 @@
+{
+  "0": {
+    "tag": "TEXT_AKTKEA103_04538_SEQ_00",
+    "original": "Krile wishes to take stock of the situation.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_AKTKEA103_04538_SEQ_01",
+    "original": "Having taken stock of the situation, Krile declares that she will remain in the Omphalos for a time to explore. In the meantime, G\u0027raha Tia wishes to investigate the worship of the Twelve across Eorzea, and invites you and Deryk to accompany him.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_AKTKEA103_04538_SEQ_02",
+    "original": "By learning about the Twelve as They are worshipped, G\u0027raha hopes to identify any similarities or differences between Them and the beings you encountered; in so doing, he believes you will draw closer to the truth of their identities. Your mission thus established, you set out first for Rhalgr\u0027s Reach, the holy ground for disciples of the Destroyer.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_AKTKEA103_04538_SEQ_03",
+    "original": "Upon arriving at your destination, Deryk states that those places where phantom realm sightings are known to occur often have a tradition of Twelve worship. Encouraged by this fact, you split up to seek out people who may possess knowledge about the local faith.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_AKTKEA103_04538_SEQ_04",
+    "original": "Among a few other details, your search has yielded a copy of \u003Chex:021A020203\u003EDestructivity\u003Chex:021A020103\u003E, a rare surviving scripture of the Fist of Rhalgr. Satisfied with the fruits of your efforts, you go to reconvene with your comrades at Starfall.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_AKTKEA103_04538_SEQ_05",
+    "original": "Skimming over the scripture, G\u0027raha Tia finds an account of the construction of the great image of the Destroyer. The text states that, among the refugees who followed Rhalgr\u0027s comet to safety during the Sixth Umbral Calamity, some few claimed to have caught sight of the divinity Himself. Yet even as you struggle to decide whether the mysterious beings gave rise to their respective faiths or were born of them, Rhalgr and Byregot appear before you once more, in the form of a hawk and a spriggan respectively. The two explain that mortals may catch glimpses of them in their true forms when the aether surrounding their sanctums becomes unstable\u2500a phenomenon known to occur during an Umbral Calamity. Having shared this detail in lieu of an apology for their earlier deception, the pair then take their leave. As you discuss these revelations, Krile contacts you with word that she has recruited an acquaintance to your cause\u2500an authority on mythology. While G\u0027raha Tia takes himself to the Sunken Temple of Qarn to receive this individual, you are tasked with going ahead to Ul\u0027dah with Deryk to make inquiries about Nald\u0027thal.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_AKTKEA103_04538_SEQ_06",
+    "original": "Though Deryk has agreed to accompany you, his apprehension towards the idea is plain to see. Whatever may be the source of his discomfiture, for now you decide to focus on the task at hand.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_AKTKEA103_04538_TODO_00",
+    "original": "Speak with G\u0027raha Tia.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_AKTKEA103_04538_TODO_01",
+    "original": "Wait at the designated location in Rhalgr\u0027s Reach.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_AKTKEA103_04538_TODO_02",
+    "original": "Make inquiries on the Fist of Rhalgr.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_AKTKEA103_04538_TODO_03",
+    "original": "Wait at the designated location.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_AKTKEA103_04538_TODO_04",
+    "original": "Speak with Deryk.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_000",
+    "original": "\u0027Tis well Krile could make her way here quickly.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_AKTKEA103_04538_DERYK_000_005",
+    "original": "She\u0027s another one of your colleagues, I take it?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_AKTKEA103_04538_KRILE_000_010",
+    "original": "Greetings. I am Krile, of the Students of Baldesion. Do I have the pleasure of addressing Deryk, the explorer who sought aid in investigating this place?",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_AKTKEA103_04538_DERYK_000_011",
+    "original": "Aye, I am Deryk. And this here is a baby opo-opo.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_AKTKEA103_04538_KRILE_000_012",
+    "original": "Yes, I can see that. Doesn\u0027t it have a name?",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_AKTKEA103_04538_DERYK_000_013",
+    "original": "None that I know of. Nor would I presume to bestow one, for that would be condescending.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_AKTKEA103_04538_KRILE_000_014",
+    "original": "I see. That\u0027s very considerate of you.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_AKTKEA103_04538_KRILE_000_015",
+    "original": "So, I understand you explored the various phantom realms with Deryk. Will you recount to me the experience?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_016",
+    "original": "So while the gods tested you sorely, you did not sense any malicious intent... ",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_100_016",
+    "original": "As Byregot said, they wish to do battle with us. But \u0027twould seem they do not necessarily wish to cause us harm. ",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_017",
+    "original": "Though much and more about this perplexes, mayhap \u0027tis safe to assume that they are not primals.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_018",
+    "original": "As you may recall, Livingway once told us that the art of summoning as taught by the Ascians incorporates the fervent desire to assimilate others into one\u0027s belief.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_019",
+    "original": "Thus do the resultant primals seek to enthrall worshipers, who in turn seek to grow their ranks.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_020",
+    "original": "But these beings appear to harbor no such desire. If they are primals, then they are unlike those that have been summoned in recent memory.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_021",
+    "original": "We might suppose that they were created in antiquity in like manner to Hydaelyn, but there is no way to prove it.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_AKTKEA103_04538_KRILE_000_022",
+    "original": "Who could they possibly be? And why do they desire battle with man?",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_AKTKEA103_04538_EMETSELCH_000_023",
+    "original": "(-Emet-Selch-)Even of your little Eorzea, you know precious little. The true identities of the Twelve, for instance.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_024",
+    "original": "Emet-Selch did say that, didn\u0027t he?",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_100_024",
+    "original": "By which we may assume he knew the truth...and challenged you to seek it out too. Suffice it to say you\u0027ll do so, of course?",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_AKTKEA103_04538_KRILE_000_025",
+    "original": "Insofar as we can ascertain, this is a matter which has implications for the entire star. In light of this, the Students of Baldesion formally accept the commission. We will investigate the phantom realm and the beings who call themselves the Twelve.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_AKTKEA103_04538_DERYK_000_026",
+    "original": "I\u0027m pleased to hear that. Thank you.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_AKTKEA103_04538_KRILE_000_027",
+    "original": "Without further ado, then, I will take a look around. There are a few things I\u0027m curious about.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_028",
+    "original": "Then with your permission, I will take myself around Eorzea and investigate the worship of those gods we encountered.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_029",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, Deryk. Seeing as you\u0027ve already seen this place, would you care to accompany me?",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_AKTKEA103_04538_DERYK_000_030",
+    "original": "By all means. In which case...",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_AKTKEA103_04538_KRILE_000_031",
+    "original": "To be deleted.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_AKTKEA103_04538_DERYK_000_031",
+    "original": "Could you stay here with Krile, my friend? It wouldn\u0027t do to leave a fair maiden alone.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_AKTKEA103_04538_BABYOPOOPO_000_032",
+    "original": "Ook ook!",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_AKTKEA103_04538_KRILE_000_033",
+    "original": "Hehe, I shall be glad for the company. Take care, then, and good luck.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_AKTKEA103_04538_KRILE_000_040",
+    "original": "Raha has also shared his observations with me. Keeping your combined accounts in mind, I shall see what else I can learn here.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_AKTKEA103_04538_BABYOPOOPO_000_045",
+    "original": "(-Baby Opo-opo-)Ook!",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_AKTKEA103_04538_DERYK_000_047",
+    "original": "Shall we ask G\u0027raha Tia about his plan?",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_050",
+    "original": "So, to explain my plan...",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_051",
+    "original": "\u0027Tis believed that the Twelve were already worshipped during the Third Astral Era, when the Allagan Empire flourished.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_052",
+    "original": "Come the Fifth Astral Era, those nations that fought in the War of the Magi each took one of the Twelve as a guardian deity.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_053",
+    "original": "This practice has continued to the present day in Eorzea, with some notable regional differences. For instance, Ishgardians hold Halone as absolute, while Sharlayans enjoy a moderate relationship with Thaliak.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_054",
+    "original": "By visiting various locations in Eorzea and learning about the Twelve as They are worshipped, I hope to identify any similarities or differences between Them and the beings we encountered.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_055",
+    "original": "In so doing, I believe we will draw closer to the truth of their identities.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_056",
+    "original": "For our first destination, I propose we take ourselves to Rhalgr\u0027s Reach. The place is holy ground for worshipers of the Destroyer, and promises to yield useful details.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_060",
+    "original": "There you are, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_061",
+    "original": "This place served as the base of operations for your investigation into Omega, did it not? How delightful to be here together!",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_062",
+    "original": "So, this is Rhalgr\u0027s Reach, where the dauntless soldiers of the Ala Mhigan Resistance gathered... How stirring to stand here with you!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_AKTKEA103_04538_DERYK_000_063",
+    "original": "If you don\u0027t mind my making an observation, it seems you enjoy traveling with company.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_064",
+    "original": "I do. It\u0027s something I had dreamed of for a long time.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_AKTKEA103_04538_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_AKTKEA103_04538_A1_000_001",
+    "original": "There\u0027s nothing like traveling with good friends.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_AKTKEA103_04538_A1_000_002",
+    "original": "I enjoy company, but sometimes I prefer my own.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_AKTKEA103_04538_DERYK_000_065",
+    "original": "Is that so...",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_066",
+    "original": "What of yourself? Do you normally travel alone?",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_AKTKEA103_04538_DERYK_000_067",
+    "original": "Aye. In my wanderings, I much prefer to have solitude.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_AKTKEA103_04538_DERYK_000_068",
+    "original": "Not that I avoid people or communities, mind you. As a matter of fact, I\u0027ve been here before, on the trail of the phantom realm.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_AKTKEA103_04538_DERYK_000_069",
+    "original": "Hmmm, now that I think on it...",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_AKTKEA103_04538_DERYK_000_070",
+    "original": "More often than not, those places where phantom realm sightings are known to occur have a tradition of Twelve worship.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_071",
+    "original": "Then I dare to hope that we are on the right track.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_100_071",
+    "original": "As I\u0027m sure you know, Rhalgr\u0027s Reach is home to the Temple of the Fist, the ancient headquarters of the Fist of Rhalgr.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_072",
+    "original": "Razed by the mad king Theodoric, the temple lay abandoned before the Ala Mhigan Resistance claimed it for its operations.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_073",
+    "original": "While I doubt that much literature has survived over the years, the people here may possess some knowledge of the local faith.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_074",
+    "original": "So let us split up and make inquiries, and reconvene here afterwards to share findings.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_AKTKEA103_04538_DERYK_000_080",
+    "original": "Learned anything thus far?",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_AKTKEA103_04538_SYSTEM_000_089",
+    "original": "You read the words inscribed on the monument...",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_AKTKEA103_04538_SYSTEM_000_090",
+    "original": "(-Bloodstorm-)A storm of blood approaches fast,\u003Chex:02100103\u003EHells open, Heavens weep.\u003Chex:02100103\u003EFor no one soul doth lie beyond\u003Chex:02100103\u003EThe measure of His Reach.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_AKTKEA103_04538_SYSTEM_000_091",
+    "original": "Once upon a time, Lyse explained to you their meaning\u2500that we must prepare ourselves for the strife and sorrow that will inevitably come.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_AKTKEA103_04538_ALAMHIGANLIBERATOR04538_000_092",
+    "original": "Oh, if it isn\u0027t \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Is this man perchance a friend of yours?",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_AKTKEA103_04538_ALAMHIGANLIBERATOR04538_000_093",
+    "original": "When last he visited, he shared with me the tales he heard on his journeys. And what amazing tales they were!",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_AKTKEA103_04538_ALAMHIGANLIBERATOR04538_000_094",
+    "original": "If you have time, I\u0027d love to hear both of your stories!",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_AKTKEA103_04538_DERYK_000_095",
+    "original": "Alas, we\u0027re in some haste. We\u0027re investigating the worship of Rhalgr, and seek literature on the subject\u2500religious texts and the like. Can any still be found here?",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_AKTKEA103_04538_ALAMHIGANLIBERATOR04538_000_096",
+    "original": "Just about all of it is gone, sadly\u2500destroyed by the Empire if not the mad king before that.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_AKTKEA103_04538_ALAMHIGANLIBERATOR04538_000_097",
+    "original": "But we haven\u0027t lost everything. The mighty image of the Destroyer... The tales we share at the campfire, like the legend of our nation\u0027s founding...",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_AKTKEA103_04538_ALAMHIGANLIBERATOR04538_000_098",
+    "original": "We still have these things, and they were a source of great comfort and strength to us in our darkest moments.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_AKTKEA103_04538_DERYK_000_099",
+    "original": "I see. If you don\u0027t mind, I would be obliged to hear your stories this time.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_AKTKEA103_04538_DERYK_000_100",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, rest assured I have this well in hand. Feel free to carry on as you were.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_AKTKEA103_04538_SCHOLAR04538_101",
+    "original": "...Yes? If you have business, please make it quick. I\u0027m due to meet with someone any moment now.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_AKTKEA103_04538_MARJORIE_102",
+    "original": "(-???-)Forgive me my delay!",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_AKTKEA103_04538_MARJORIE_103",
+    "original": "Hm? You\u0027re an adventurer, I take it? What can we students of Ala Mhigan history do for you?",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_AKTKEA103_04538_MARJORIE_104",
+    "original": "Researching the worship of the Destroyer, you say! In that case, I have something that ought to be of interest!",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_AKTKEA103_04538_MARJORIE_105",
+    "original": "Why, if it isn\u0027t the adventurer who kindly escorted me to the Temple of the Fist! Are you studying monks too, perchance?",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_AKTKEA103_04538_MARJORIE_106",
+    "original": "If so, you ought to work together with me and my colleague here! Few things are finer than joining heads with like-minded folk!",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_AKTKEA103_04538_MARJORIE_107",
+    "original": "Researching the worship of the Destroyer, you say! Why didn\u0027t you mention it sooner!?",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_AKTKEA103_04538_MARJORIE_108",
+    "original": "This is a copy of \u003Chex:021A020203\u003EDestructivity\u003Chex:021A020103\u003E, a scripture of the Fist of Rhalgr. The original is one of the few texts that survived the temple\u0027s razing, and is in the safekeeping of one Professor Erik.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_AKTKEA103_04538_MARJORIE_109",
+    "original": "This is a copy of \u003Chex:021A020203\u003EDestructivity\u003Chex:021A020103\u003E, a scripture of the Fist of Rhalgr. The original is one of the few texts that survived the temple\u0027s razing, and was recovered by a monk named Widargelt.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_AKTKEA103_04538_MARJORIE_110",
+    "original": "I went to the trouble of having this made for my colleague...only for her to say she doesn\u0027t need it. So I will offer it to you instead!",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_AKTKEA103_04538_SCHOLAR04538_111",
+    "original": "\u003Csigh\u003E Lest you forget, this is \u003Chex:021A020203\u003Eyour\u003Chex:021A020103\u003E passion, not mine. I\u0027m simply assisting you as a favor, and I\u0027d thank you not to put us in danger.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_AKTKEA103_04538_MARJORIE_112",
+    "original": "Ah, but danger is the crucible in which the monk tempers body and mind! \u003Csigh\u003E So sublime, monks...",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_AKTKEA103_04538_MARJORIE_113",
+    "original": "Well, we had best return to our work! Till next time, adventurer!",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_AKTKEA103_04538_ALAMHIGANLIBERATOR04538_000_115",
+    "original": "Next time, I hope to hear some of your stories too!",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_121",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, what were you able to learn?",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_122",
+    "original": "A copy of one of the scriptures, you say? A moment while I skim over it!",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_123",
+    "original": "I see... This chapter appears to be a record of the construction of the great image of Rhalgr, written in a style that suggests folklore was committed to parchment.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_124",
+    "original": "When the deluge of the Sixth Umbral Calamity threatened Eorzea, the ancestors of the Ala Mhigans were guided to safety by a comet.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_125",
+    "original": "Believing that it was sent by Rhalgr, they came to hold Him in the highest. This much of the tale, I had been familiar with...",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_126",
+    "original": "But according to the scripture, among those refugees who followed the comet, some claimed to have caught sight of Rhalgr Himself.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_127",
+    "original": "Their accounts were passed down through the centuries, and worshipers of the Destroyer pieced them together to give shape to yonder statue.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_128",
+    "original": "I must say, it bears more than a passing resemblance to the being we encountered...",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_129",
+    "original": "Were that Rhalgr a primal, the explanation for the similarities would be simple.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_130",
+    "original": "That is, the statue gives rise to a unified interpretation of Rhalgr\u0027s appearance, which in turn lends form to the primal.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_131",
+    "original": "However, this fails to account for what inspired the likeness in the first place. If the scripture is to be believed, it was the sightings during the Sixth Umbral Calamity. Yet for those witnesses to be able to recognize Rhalgr, they would have needed an agreed-upon idea of His appearance beforehand.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_132",
+    "original": "If we then consider the history of Twelve worship\u2500that it already existed in the Third Astral Era\u2500it would not be ridiculous to think that these divinities existed even prior to that.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_AKTKEA103_04538_DERYK_000_133",
+    "original": "So the question is, did these beings give rise to their respective faiths, or are they primals born of them?",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_AKTKEA103_04538_RHALGR_000_134",
+    "original": "(-Rhalgr\u0027s Voice-)I thought we had made it clear. We are not summoned beings.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_AKTKEA103_04538_RHALGR_000_135",
+    "original": "(-Hawk with Rhalgr\u0027s Voice-)Since time immemorial, our domains have lain scattered across Eorzea. As a matter of fact, one of those in which you set foot is nearby. \u0027Tis not unusual for mortals to glimpse us.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_136",
+    "original": "That voice... Could they be...?",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_AKTKEA103_04538_BYREGOT_000_137",
+    "original": "Indeed. I am Byregot, and the hawk beside me is Rhalgr. I shall elaborate upon my master\u0027s explanation.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_AKTKEA103_04538_BYREGOT_000_138",
+    "original": "We thus disguise ourselves when we wish to observe the world without, for being seen in our true forms would violate our laws of conduct.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_AKTKEA103_04538_BYREGOT_000_139",
+    "original": "Yet though we similarly disguise our sanctums, veiling them in illusion, rents are known to manifest when the surrounding aether is unstable.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_AKTKEA103_04538_RHALGR_000_140",
+    "original": "In such a time, should a gifted mortal chance to be near, they may inadvertently catch sight of us.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_141",
+    "original": "Of course! During an Umbral Calamity, aetheric imbalance occurs on a star-wide scale\u2500the ideal condition for seeing the phantom realm!",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_AKTKEA103_04538_RHALGR_000_142",
+    "original": "Precisely how many times we have been seen, we ourselves have no way of knowing, but aye\u2500that is a sound assumption to make.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_AKTKEA103_04538_RHALGR_000_143",
+    "original": "Well, Byregot, I believe that much shall suffice by way of an apology for our deception. Shall we?",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_AKTKEA103_04538_BYREGOT_000_144",
+    "original": "Indeed, that is all we are at liberty to reveal. Fare you well, children of man.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_150",
+    "original": "Aside from their reticence where it concerns their identity and objective, these divinities are certainly approachable.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_151",
+    "original": "If what they said was true, and their worship can be traced back to their sightings, it would serve to explain one thing.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_152",
+    "original": "According to my research, in the field of comparative mythology, Rhalgr is often observed to bear many similarities with Ramuh.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_153",
+    "original": "Assuming both were inspired by the Rhalgr of the phantom realm...",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_154",
+    "original": "Their divergence may be attributable to differences in culture between man and sylph.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_AKTKEA103_04538_DERYK_000_155",
+    "original": "So you believe that they gave rise to the prevailing faiths of Eorzea?",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_156",
+    "original": "Given available evidence, yes\u2500I am inclined to. Yet none of this explains their presence. How and when did beings of such power come into existence?",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_157",
+    "original": "...Oh, \u0027tis you, Krile. Has something happened?",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_158",
+    "original": "...Truly!? Very well, I shall take care of it.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_159",
+    "original": "Krile has recruited an acquaintance to aid in our investigation\u2500an authority on mythology.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_160",
+    "original": "I must go and receive her at the Sunken Temple of Qarn, where she is currently conducting fieldwork\u2500after a brief detour to prepare...a little something.",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_161",
+    "original": "Conveniently, Thanalan is home to countless adherents of Nald\u0027thal. While I tend to business, may I ask the two of you to make inquiries in Ul\u0027dah?",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_AKTKEA103_04538_DERYK_000_162",
+    "original": "Very well...",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_AKTKEA103_04538_GRAHATIA_000_163",
+    "original": "Excellent. I will join you as soon as I\u0027m able. By your leave...",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_AKTKEA103_04538_DERYK_000_170",
+    "original": "So, it\u0027s to be just you and me in Ul\u0027dah...",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_AKTKEA103_04538_DERYK_000_171",
+    "original": "\u003Csigh\u003E I suppose it can\u0027t be helped...",
+    "translation": ""
+  }
+}

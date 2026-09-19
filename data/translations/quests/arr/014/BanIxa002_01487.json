@@ -1,0 +1,662 @@
+{
+  "0": {
+    "tag": "TEXT_BANIXA002_01487_SEQ_00",
+    "original": "\u003Chex:024804F201FC03\u003E\u003Chex:024904F201FD03\u003E\uE0BE Quest Sync\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u003Chex:02100103\u003ESezul appears eager to share more of his work with you.\u003Chex:02100103\u003E\u203BThe crafting portion of this quest is recommended for Disciples of the Hand level 1 and above.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_BANIXA002_01487_SEQ_01",
+    "original": "Sezul has marked you for a skilled artisan, and requests that you craft for him an airship hull component\u2500a specialized item which the Ehcatl camp lacks the resources to build. Make your way to Fallgourd Float and obtain the necessary crafting materials from the Qiqirn junkmonger.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that the difficulty of this quest has been synced to your current level.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_BANIXA002_01487_SEQ_02",
+    "original": "After handing you the component materials, the junkmonger advises that you make use of the crafting facility found beside the Bobbing Cork. Head over to the workshop and hand the materials over to Hildeyerd.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_BANIXA002_01487_SEQ_03",
+    "original": "After entrusting the component materials to Hildeyerd, the supervisor begins explaining the purpose of the crafting facility. Her explanation, however, is interrupted by a young Lalafellin man, who insists on appraising the results of your apparently doomed endeavor. Use the materials returned to you by Hildeyerd to craft the interior hull component, and then show the item to the waiting Tataramu.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BIn the event that the status \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EFacility Access: Detailing\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E wears off or the synthesis ends in failure, you may try again by speaking with Hildeyerd.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_BANIXA002_01487_SEQ_04",
+    "original": "You synthesize the hull interior component and show it to Tataramu. After recovering from his shock at the quality of your work, the young man demands to know the identity of your client. Upon realizing you were commissioned by a group of Ixal, however, Tataramu concludes that the beastmen mean to fashion a vessel of war, and rushes off to find the Ehcatl Nine\u0027s hidden camp. Return to Ehcatl and deliver the component to Sezul.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_BANIXA002_01487_SEQ_05",
+    "original": "No sooner have you placed the component into Sezul\u0027s hands than Tataramu bursts into the camp and accuses the chief of sullying the field of airship engineering. The Ehcatl Nine leader explains, however, that his purpose in breaking away from the Garuda-beholden Ixal was to begin construction on the \u003Chex:021A020203\u003EDezul Qualan\u003Chex:021A020103\u003E\u2500a hybrid vessel intended not to wage war, but to soar above the highest clouds. Quickly convinced by Sezul\u0027s obvious zeal and sincerity, Tataramu then begs for a position on the chief\u0027s ambitious project. Speak once more with Sezul, and decide what your own fate in this undertaking will be.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_BANIXA002_01487_SEQ_06",
+    "original": "You have agreed to assist Sezul in the construction of his unique airship. Lend your crafting skills to the efforts of the Ehcatl Nine, and join the chief and Tataramu in aiming for the heavens.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_BANIXA002_01487_TODO_00",
+    "original": "Obtain component materials from the Qiqirn junkmonger.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_BANIXA002_01487_TODO_01",
+    "original": "Present component materials to Hildeyerd.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_BANIXA002_01487_TODO_02",
+    "original": "\u003Chex:02085AE3E802E803FF2553796E74686573697A6520612068756C6C20696E746572696F7220636F6D706F6E656E74FF2D53686F77207468652068756C6C20696E746572696F7220636F6D706F6E656E7420746F205461746172616D7503\u003E.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_BANIXA002_01487_TODO_03",
+    "original": "Deliver the hull interior component to Sezul Totoloc.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_BANIXA002_01487_TODO_04",
+    "original": "Speak with Sezul Totoloc.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_000",
+    "original": "Hm? A strange face you make, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Burning with questions, you are, yes?",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_BANIXA002_01487_Q1_000_000",
+    "original": "Burning with questions?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_BANIXA002_01487_A1_000_001",
+    "original": "What is the \u201CEhcatl Nine\u201D exactly?",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_BANIXA002_01487_A1_000_002",
+    "original": "...What are you trying to do here?",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_001",
+    "original": "Make myself clear, I did not, eh? Only natural, your suspicion is. Many Ixal would simply kill featherless one, and leave corpse for vultures.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_002",
+    "original": "But think like bird-brained Natalan zealots, clever Sezul and his crew do not! Endlessly wasteful, this war with forest people is! Waste of time! Waste of resources!",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_003",
+    "original": "Ehcatl Nine is group of thinkers\u2500of \u003Chex:021A020203\u003Ecrafters\u003Chex:021A020103\u003E. This place, Ehcatl, is place for building dreams!",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_004",
+    "original": "To fly higher than any other is Ehcatl Nine\u0027s dream. But before we can fly, make wings, we must!",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_005",
+    "original": "Good at making things, you are, yes? Know \u003Chex:02280EFF09436C6173734A6F62E9450103\u003E when see one, Sezul does. Way of moving. Way of \u003Chex:021A020203\u003Elooking\u003Chex:021A020103\u003E. Caw, caw, caw! Clothing had Sezul confused at first, though!",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_006",
+    "original": "Creating much better than destroying, yes? Both Ixal and featherless ones agree on that, they can!",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_007",
+    "original": "Have \u003Chex:022C0DFF07022903EB0203FF02200203\u003E create something for Ehcatl Nine, Sezul would. Build many things, we can, but not everything is possible in remote camp like this!",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_008",
+    "original": "You know of place called \u201CFallgourd Float,\u201D yes? Fine crafting facility, they have! Perfect for making airship hull interior components!",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_016",
+    "original": "Sturdy metal frame is component Sezul needs. Support hull from inside and become vessel\u0027s spine, it will!",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_017",
+    "original": "Potent adhesive agent is component Sezul needs. Strengthen hull integrity and keep vessel from falling apart, it will!",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_018",
+    "original": "Leather-backed plywood is component Sezul needs. Make for strong and durable hull, it will!",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_019",
+    "original": "Placed order for raw materials with Qiqirn merchant in Fallgourd Float, Sezul has. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E need only speak to junkmonger. Spend own coin, you need not!",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_020",
+    "original": "Squawk! A surprise for you, Sezul has! Protect and support hands when crafting tricky airship components, these gloves will!",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_021",
+    "original": "Even clever \u003Chex:02280EFF09436C6173734A6F62E9450103\u003E needs help from time to time, eh? Come back soon, featherless one!",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_022",
+    "original": "Squaaawk! Featherless fool! How can \u003Chex:022C0DFF07022903EB0203FF02200203\u003E make components without proper equipment!? Lose precious gloves again, and beat \u003Chex:022C0DFF07022903EB0203FF02200203\u003E to within ilm of life with nail-spiked plank, Sezul will!",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_BANIXA002_01487_KIKIROON01487_000_025",
+    "original": "Master merchant welcomes well-come customer! Birdman chief tell master merchant of chief makings!",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_BANIXA002_01487_KIKIROON01487_000_026",
+    "original": "You take things for making, and go to place for making things! You find making place at side of inn, not inside!",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_BANIXA002_01487_KIKIROON01487_000_027",
+    "original": "Master merchant thinks you have no time for thinking\u2500birdman chief seems ready to burst at seams. Hildeyerd will give you helpful help!",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_BANIXA002_01487_HILDEYERD_000_030",
+    "original": "Hello there, adventurer! Come now, I can hardly hear you! I said, \u201CHello there\u201D!",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_BANIXA002_01487_HILDEYERD_000_031",
+    "original": "What\u0027s this? You wish to make use of our workshop? Well then, seeing as you\u0027re a first-timer, allow me to give you a brief explanation of what we seek to accomplish here.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_BANIXA002_01487_HILDEYERD_000_032",
+    "original": "As I\u0027m sure you are aware, Eorzea is populated with a plethora of artisans who create a range of wonderful wares. This workspace was created with just such a diversity of \u003Chex:02081BE905FF0C637261667473776F6D656EFF0A6372616674736D656E03\u003E in mind.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_BANIXA002_01487_HILDEYERD_000_033",
+    "original": "No matter your profession, our facility is designed to allow simply \u003Chex:021A020203\u003Eanyone\u003Chex:021A020103\u003E to bring in their materials and produce goods that demand an exquisite degree of precision and polish.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_BANIXA002_01487_HILDEYERD_000_034",
+    "original": "Our small operation here at the Bobbing Cork is only temporary until we secure a more permanent residence, but I assure you that everything is fully functional! Now, what exciting project has brought you to me this fine day?",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_BANIXA002_01487_HILDEYERD_000_035",
+    "original": "What have we here... Ah! Such a strange coincidence that you should happen to arrive bearing the very same rare materials that\u2500",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_036",
+    "original": "(-???-)Hildeyerd! Have you any word on my delivery?",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_037",
+    "original": "(-Lalafellin Youth-)Hm? And who might this \u003Chex:020814E905FF056C616479FF0A67656E746C656D616E03\u003E be? ...And why does \u003Chex:02080CE905FF04736865FF03686503\u003E hold the component materials that \u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E ordered!?",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_038",
+    "original": "(-Lalafellin Youth-)This is outrageous! You cannot simply swoop in and snatch up the wares I reserved a moon in advance!",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_BANIXA002_01487_HILDEYERD_000_039",
+    "original": "Please, Master Tataramu\u2500you misunderstand! This adventurer brought along these materials \u003Chex:020815E905FF0868657273656C66FF0868696D73656C6603\u003E.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_040",
+    "original": "Just \u201Cbrought them along,\u201D did \u003Chex:02080CE905FF04736865FF03686503\u003E!? Poppycock! What would a gil-grabbing mercenary need with airship hull component materials!?",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_041",
+    "original": "Only a master engineer with the highest level of skill would be capable of utilizing the potential of such specialized items\u2500and I highly doubt that anyone besides myself would have a use for them!",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_042",
+    "original": "I shall be gracious, however, and allow that you are some manner of artisan. Pray tell: exactly what do you intend to craft with those materials?",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_043",
+    "original": "...I am, of course, ignoring the fact that your efforts will invariably result in a botched job and wasted resources!",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_BANIXA002_01487_HILDEYERD_000_044",
+    "original": "Master Tataramu! This is hardly gentlemanly conduct!",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_045",
+    "original": "Hmph! Shall I offer to view the finished product, then? Go ahead, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. Craft your wares, and I shall appraise the \u201Cquality\u201D of your work\u2500free of charge.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_BANIXA002_01487_HILDEYERD_000_046",
+    "original": "Master Tataramu! I shall become cross with you if you continue in that tone! ...Here are your materials, \u003Chex:02080EE905FF056D697373FF0473697203\u003E. I\u0027m sure whatever you create will be absolutely splendid!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_BANIXA002_01487_SYSTEM_000_050",
+    "original": "Should you choose to assist the Ehcatl Nine in their engineering efforts, you will be called upon to make use of special crafting facilities.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_BANIXA002_01487_SYSTEM_000_051",
+    "original": "The first step in using one of these crafting facilities is to present the raw materials to the workshop supervisor. After preparing the workspace, the supervisor will then return to you the exact amount of materials required for your specific task.\u003Chex:02100103\u003EYou will next be allotted a certain amount of time in which to complete the synthesis.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_BANIXA002_01487_SYSTEM_000_052",
+    "original": "Should your synthesis efforts prove unsuccessful, speak with the workshop supervisor once more to retrieve excess materials and renew your access to the crafting facility.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_BANIXA002_01487_SYSTEM_100_052",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_BANIXA002_01487_SYSTEM_000_053",
+    "original": "To begin the crafting process, open the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ECrafting Log\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E from the main menu, followed by \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESpecial Recipes\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E. Next, select \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EAllied Society Quests\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E, then lastly \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EIxal Quests\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E to locate the desired recipe.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_BANIXA002_01487_HILDEYERD_000_055",
+    "original": "I\u0027m sure you\u0027ll do just fine! Remember: I\u0027ll be right here if you need anything!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_056",
+    "original": "Craft away, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. I\u0027ll be waiting to appraise the results of your \u201Cexpertise.\u201D",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_BANIXA002_01487_HILDEYERD_000_057",
+    "original": "Finished crafting, have you? Well, don\u0027t keep the client waiting\u2500run along and deliver your handiwork! Now, I doubt that you\u0027d be so clumsy as to misplace your precious creations, but on the off chance that you do, know that I still have the excess materials in my keeping.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_060",
+    "original": "All done, are we? Now, let\u0027s have a look at the travesty you\u0027ve made out of\u2500 Gods be good!",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_061",
+    "original": "I can scarce believe it! The craftsmanship is exemplary! And you say this component is to be used in the construction of an airship? I cannot even imagine what type of hull you mean to build!",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_062",
+    "original": "Tell me, adventurer: who commissioned this work from you? I \u003Chex:021A020203\u003Emust\u003Chex:021A020103\u003E know!",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_BANIXA002_01487_Q2_000_000",
+    "original": "Who commissioned this work?",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_BANIXA002_01487_A2_000_001",
+    "original": "An Ixal!",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_BANIXA002_01487_A2_000_002",
+    "original": "I prefer not to say.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_BANIXA002_01487_HILDEYERD_000_063",
+    "original": "A \u003Chex:021A020203\u003Ewhat\u003Chex:021A020103\u003E!? Why, that\u0027s incredible. ...Not to mention fascinating. Though I must wonder how one came to commission an adventurer for airship parts...",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_064",
+    "original": "Hm. A curious reluctance. What harm can come of revealing a client who builds airships? Unless...",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_065",
+    "original": "There was an odd rumor making the rounds amongst the engineers at the company. They say a group of Ixal had carved out a secret camp in the Black Shroud, and were conducting trials for some kind of secret weapon...",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_066",
+    "original": "I had thought it idle gossip at the time, but \u0027twould appear the tale held merit, after all! Your Ixali master seeks to craft an airborne vessel of war!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_067",
+    "original": "I will not allow it! Transforming the wonder of air travel into a means for delivering death is blasphemy of the highest order!",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_BANIXA002_01487_HILDEYERD_000_068",
+    "original": "But, Master Tataramu! What do you mean to do!?",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_069",
+    "original": "Isn\u0027t it obvious!? I\u0027m going to march right into that secret camp and give those blasted birdmen a good telling off! You\u0027d best stay out of my way!",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_BANIXA002_01487_HILDEYERD_000_070",
+    "original": "But you cannot simply... \u003Csigh\u003E When it comes to airships, I\u0027m afraid Master Tataramu\u0027s passion overpowers his capacity for common sense.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_BANIXA002_01487_HILDEYERD_000_071",
+    "original": "I wonder if he even has any idea where he\u0027s going...",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_BANIXA002_01487_HILDEYERD_000_072",
+    "original": "Here, you\u0027d best take your finished component and complete the delivery. Your appraiser appears to have forgotten it in his haste to rush off and chastise the Ixal.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_BANIXA002_01487_HILDEYERD_000_074",
+    "original": "Hm? Just who is Master Tataramu? I could tell you, but that wouldn\u0027t be very exciting now, would it? Perhaps you might ask him yourself.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_BANIXA002_01487_HILDEYERD_000_076",
+    "original": "He\u0027s not a bad person, you know. A trifle enthusiastic about airships, but ordinarily a most straightforward and reliable fellow. And considering the location of your client, I imagine you\u0027ll be meeting him again rather soon...",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_080",
+    "original": "Squawk, squawk! Returned, you have! Able to craft component, you were?",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_081",
+    "original": "Made this, you did? Hm. Hm, hm... Yes! Serve us well, this will! Begin construction on hull, we can!",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_082",
+    "original": "Raaaaaargh!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_083",
+    "original": "\u003Cpant\u003E \u003Cpant\u003E \u003Chuff\u003E \u003Chuff\u003E\u003Chex:02100103\u003EI...\u003Cpant\u003E...finally...\u003Chuff\u003E...found you! I never realized...\u003Cpant\u003E...just how big...\u003Chuff\u003E...this forest was...",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_084",
+    "original": "...Who is small angry featherless one?",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_085",
+    "original": "N-Never mind who \u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E am! \u0027Tis \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E who are on trial here! Are you not the Ixali master who seeks to build a death-dealing airship and bring war and destruction to Gridania!?",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_086",
+    "original": "Have you no respect for the virtuous field of engineering your uncouth plan will irretrievably sully!? Weapons on an airship!? Simply monstrous!",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_087",
+    "original": "Squawk! Mind your tongue, you shall! Making airship with weapons, Sezul is not! Been telling tall tales, someone has!",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_088",
+    "original": "Do not try to deny it! I have seen how the Ixal stole our technology to build those horrendous war balloons! Your kind know naught but killing and mayhem!",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_089",
+    "original": "Squawk! Blather too much, angry one does! Sees not enough! Look at design under own feet, you should!",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_090",
+    "original": "This schematic... It contains elements of both dirigible and airship... I\u0027ve never seen the like!",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_091",
+    "original": "Hybrid vessel \u003Chex:021A020203\u003EDezul Qualan\u003Chex:021A020103\u003E, it is! Fly very high, it shall! Ceiling altitude of five thousand yalms!",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_092",
+    "original": "Five thousand yalms!? That\u0027s impossible\u2500an unattainable fantasy!",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_093",
+    "original": "Why, even Master Garlond\u0027s \u003Chex:021A020203\u003EEnterprise\u003Chex:021A020103\u003E cannot reach such heights! You speak of visiting the heavens themselves!",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_094",
+    "original": "Yes! The heavens! Rap on gods\u0027 front door, we shall! Knock, knock!",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_095",
+    "original": "Ayatlan... Floating continent of legends, it is! High, high above clouds. Place where Sezul\u0027s ancestors once lived!",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_096",
+    "original": "Return to Ixal\u0027s lost paradise, we shall! All-consuming goal of Sezul\u0027s people, it once was!",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_097",
+    "original": "But this dream...shared now by too few, it is. Rather worship mad goddess Garuda and squabble with featherless ones, Natalan Ixal would...",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_098",
+    "original": "Waste of life, Sezul says! Help Ehcatl Nine build balloon-airship hybrid and reach for distant sky, other Ixal should!",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_099",
+    "original": "What an incredible idea... You have such vision...such zeal!",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_100",
+    "original": "Sezul, I...I have misjudged you! You must let me work with you! I will see this dream of yours become reality!",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_101",
+    "original": "Squawk? Wish to join Sezul\u0027s crew, do you? Possess some skill at crafting, do you, yes?",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_102",
+    "original": "Y-Yes! I have studied airship design most extensively! And though my practical experience is admittedly limited, I vow that there are none who match my passion for the craft!",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_103",
+    "original": "Important, passion is. But knowledge, too, you must have. Hmmm. Work you as hard as others, Sezul will. Be spared for your size, you will not!",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_104",
+    "original": "Thank you, sir, you won\u0027t regret this! Tataramu, at your service!",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_BANIXA002_01487_HILDEYERD_000_130",
+    "original": "What\u0027s this? You\u0027ve misplaced your commission? Oh dear, well you shall simply have to make use of our facilities again! Misfortune is no excuse for failing a delivery!",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_BANIXA002_01487_IXALDAILYR401498_000_131",
+    "original": "Lost precious crafting gloves, no-feathers has!? No respect for Ixal wares, you have!",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_BANIXA002_01487_IXALDAILYR401498_000_132",
+    "original": "One more pair, you will be given! Lose them again, and feel pain of ten thousand deaths, you shall!",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_105",
+    "original": "And what of \u003Chex:022C0DFF07022903EB0203FF02200203\u003E? Impressed with work, Sezul is!",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_106",
+    "original": "Enjoy crafting with Sezul\u0027s gloves, did you? Like second skin, yes? Protect hands, but allow artisan to make delicate and difficult movements, they do!",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_107",
+    "original": "Agree to help Ehcatl Nine build \u003Chex:021A020203\u003EDezul Qualan\u003Chex:021A020103\u003E, and let \u003Chex:022C0DFF07022903EB0203FF02200203\u003E keep gloves, Sezul will.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_108",
+    "original": "What say you, featherless one? Sprout wings and fly with us, yes?",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_BANIXA002_01487_Q3_000_000",
+    "original": "Fly with the Ehcatl Nine?",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_BANIXA002_01487_A3_000_001",
+    "original": "Sprout wings, I will!",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_BANIXA002_01487_A3_000_002",
+    "original": "Afraid of heights, I am...",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_130",
+    "original": "Squawk! Feathers of the spirit, we share!",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_131",
+    "original": "Hard to imagine to look at us now, it is... But an age when Ixal flew on power of their own wings, there once was!",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_132",
+    "original": "Sad, then, that wrath of elementals, we incurred. Hmmm. Banished from forest, and stripped of gift of flight, we were!",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_133",
+    "original": "With younglings hatched outside of forest, something wrong there was. Stunted, their feathers were. But lose desire to soar, Ixal never did!",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_134",
+    "original": "In place of lost wings, great balloons Sezul\u0027s forefathers made. Such ingenuity! Seek to continue their legacy, Ehcatl Nine does!",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_135",
+    "original": "But forgotten joy of crafting own wings, Natalan Ixal have. Grovel instead to goddess, they do. Grovel and beg.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_136",
+    "original": "Fools! Grant them new wings, Garuda never will! Seek only to increase her might, the goddess does! Always more sacrifices! Always more crystals!",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_137",
+    "original": "Nothing more than slaves, Natalan Ixal are! But not Ehcatl Nine, no!",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_138",
+    "original": "Soar once again, we shall. Within \u003Chex:021A020203\u003EDezul Qualan\u003Chex:021A020103\u003E, our salvation\u2500our waking dream\u2500lies!",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_139",
+    "original": "Work hard, and see history written, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E shall!",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_110",
+    "original": "Thought to share Ehcatl Nine\u0027s dream, Sezul did. Hmmm. But for everyone, the distant skies are not, eh?",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_BANIXA002_01487_SEZULTOTOLOC_000_111",
+    "original": "Force you against your will, Sezul will not. Farewell, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Rather than destroy, remember to build, you must!",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_BANIXA002_01487_TATARAMU_000_115",
+    "original": "Adventurer... \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, is it? I apologize for my earlier outburst\u2500I spoke out of turn. I hope that you can forgive me, and that you choose to lend your formidable skills to this wonderful endeavor!",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_BANIXA002_01487_SYSTEM_000_500",
+    "original": "Thanks to your efforts, construction of the \u003Chex:021A020203\u003EDezul Qualan\u003Chex:021A020103\u003E\u0027s hull has begun! Continue assisting the Ehcatl Nine to see the airship hybrid reach completion.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_BANIXA002_01487_SYSTEM_000_120",
+    "original": "You have achieved \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ENeutral\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E reputation with the Ehcatl Nine.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_BANIXA002_01487_SYSTEM_000_121",
+    "original": "Ixal society daily quests are now available from Yazel Ahuatan the Able at Ehcatl.",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_BANIXA002_01487_SYSTEM_000_122",
+    "original": "Delivery quests are also available from the Ehcatl Nine manciple.",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_BANIXA002_01487_SYSTEM_000_123",
+    "original": "Furthermore, you may now purchase wares from the Ehcatl Nine vendor.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_BANIXA002_01487_SYSTEM_000_124",
+    "original": "In the case that you misplace your Ehcatl wristgloves, a new pair can be purchased from this same vendor.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_BANIXA002_01487_POPMESSAGE_000_200",
+    "original": "You now have access to the crafting facility.",
+    "translation": ""
+  }
+}

@@ -1,0 +1,427 @@
+{
+  "0": {
+    "tag": "TEXT_CLSMIN500_00646_SEQ_00",
+    "original": "Adalberta is gravely concerned for the fate of an old friend.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_CLSMIN500_00646_SEQ_01",
+    "original": "The flustered Adalberta reveals to you that Wide Gulley has reported his father\u0027s abuse of power to the Concern\u0027s upper management. The guildmaster bids you speak with Wide Gulley and learn all you can of the situation, that she might help her old friend and mentor.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_CLSMIN500_00646_SEQ_02",
+    "original": "Wide Gulley admits that he has filed an official complaint to the Concern, so ashamed he was of his father\u0027s actions. He suggests you speak with the accused in order to hear his side of the story.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_CLSMIN500_00646_SEQ_03",
+    "original": "Deep Canyon reveals that his actions were fueled by the long-standing desire to bring down Adalberta for her betrayal years ago. Deliver this shocking revelation to your guildmaster.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_CLSMIN500_00646_SEQ_04",
+    "original": "According to Adalberta, Deep Canyon\u0027s belief that she betrayed him is nothing but a misunderstanding. Loath to see him destroy his career due to this perceived slight, she bids you speak with Wide Gulley, and with him find a way to save his father.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_CLSMIN500_00646_SEQ_05",
+    "original": "In order to prove that he is fit to remain vice foreman, Deep Canyon must demonstrate to the Concern that he still has the confidence of guild members. To this end, you must procure three chunks of darksteel ore, an extremely rare metal found only from unspoiled mineral deposits in Coerthas. You are warned that these deposits only appear during certain times of day. Use the technique Truth of Mountains to locate darksteel ore that appears in the Coerthas central highlands at 1:00 a.m. (Eorzea time), mine the required quantity, and return it to Adalberta as quickly as you are able.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_CLSMIN500_00646_SEQ_06",
+    "original": "Owing to your intervention, Deep Canyon has been given a chance to redeem himself. With the matter now laid to rest, speak once more with the relieved Adalberta, who awaits you in the Miners\u0027 Guild.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_CLSMIN500_00646_SEQ_07",
+    "original": "Adalberta thanks you for the part you played in sparing Deep Canyon a fate of ignominy, and lavishes you with praise for your growth as a miner. She bids you go forth and practice your craft for the benefit of all. May your toils never go unrewarded!\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe next miner quest will be available from Adalberta once you have completed the main scenario quest \u201CBefore the Dawn.\u201D",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_CLSMIN500_00646_TODO_00",
+    "original": "Speak with Wide Gulley.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_CLSMIN500_00646_TODO_01",
+    "original": "Speak with Deep Canyon.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_CLSMIN500_00646_TODO_02",
+    "original": "Speak with Adalberta.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_CLSMIN500_00646_TODO_03",
+    "original": "Speak with Wide Gulley.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_CLSMIN500_00646_TODO_04",
+    "original": "Deliver chunks of darksteel ore to Adalberta.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_CLSMIN500_00646_TODO_05",
+    "original": "Speak with Adalberta.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_000",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, thank the gods you\u0027re here! It\u0027s Wide Gulley... He\u0027s gone and filed a complaint against his father to the Concern, citing an abuse of power!",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_001",
+    "original": "It has forced Deep Canyon into a difficult position, to say the least. And though the two of us haven\u0027t exactly seen eye to eye of late, I still owe the man a great debt. I would go to him and offer what aid I could, but he\u0027s like to spurn even the attempt.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_002",
+    "original": "I know full well how much I\u0027ve already asked of you, but I would be \u003Chex:021A020203\u003Eeternally\u003Chex:021A020103\u003E grateful if you\u0027d lend Deep Canyon aid in my stead. To get started, it might be best to see what possessed his son to inform on his own flesh and blood.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_CLSMIN500_00646_WIDEGULLEY_000_010",
+    "original": "Here at the guildmaster\u0027s biddin\u0027 again? Well, I see no reason not to tell you about the situation. You know most everythin\u0027, anyroad.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_CLSMIN500_00646_WIDEGULLEY_000_011",
+    "original": "My old man was foistin\u0027 dangerous jobs on the guild, forcin\u0027 its members to risk life and limb fer his own agenda. If that ain\u0027t the very definition of abuse, I don\u0027t know what is. You yourself were on the receivin\u0027 end o\u0027 this, I\u0027m sure you\u0027ll recall.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_CLSMIN500_00646_WIDEGULLEY_000_012",
+    "original": "Kin or no, I couldn\u0027t stand by an\u0027 watch my guildmates bein\u0027 used like pawns in his game. So I went to the Concern\u0027s upper management an\u0027 filed a complaint.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_CLSMIN500_00646_WIDEGULLEY_000_013",
+    "original": "He hasn\u0027t said a word to me since, but I\u0027d have a guess that he might be willin\u0027 to speak with \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E. You\u0027ve certainly done your fair share fer the guild. He\u0027s out by the entrance right now, \u0027case you want to hear his side of the story.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_CLSMIN500_00646_DEEPCANYON_000_020",
+    "original": "It\u0027s been some time, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. You\u0027re doubtless here as regards my son\u0027s accusations. Well, it\u0027s just as he claims.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_CLSMIN500_00646_DEEPCANYON_000_021",
+    "original": "Now, this ain\u0027t gonna spare me what\u0027s comin\u0027, but I had a reason for my actions: vengeance. \u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E was supposed to become master of the Miners\u0027 Guild. Everyone knew I had the best claim. But Adalberta robbed me of the honor\u2500\u003Chex:021A020203\u003Eme\u003Chex:021A020103\u003E, the man who taught her nigh everythin\u0027 she knows about her trade!",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_CLSMIN500_00646_DEEPCANYON_000_022",
+    "original": "She went behind my back and conspired with her predecessor! An\u0027 then \u003Chex:021A020203\u003Efancy\u003Chex:021A020103\u003E who ended up bein\u0027 chosen to lead... By way of payback, ever since I became vice foreman, I\u0027ve striven to make Adalberta\u0027s life harder than tryin\u0027 to mine with a dull pickaxe.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_CLSMIN500_00646_DEEPCANYON_000_023",
+    "original": "All those outrageous demands? To make her look incompetent. At the same time, I went about ensurin\u0027 my son was well placed to take over as guildmaster. An\u0027 my plan was about to bear fruit, too...till \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E came along and ruined it all by bein\u0027 my son\u0027s better.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_CLSMIN500_00646_DEEPCANYON_000_024",
+    "original": "Heh... By your expression, I take it you\u0027re doubtful of the tale. Well, you need only ask your dear guildmaster. She can vouch for everythin\u0027 I\u0027ve said.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_CLSMIN500_00646_WIDEGULLEY_000_025",
+    "original": "If you\u0027re wonderin\u0027 where my father vanished to, he\u0027s been summoned to an inquest. The chairman of the Concern himself, Master Fyrgeiss, will be in attendance. An\u0027 that\u0027s just the beginnin\u0027.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_CLSMIN500_00646_WIDEGULLEY_000_026",
+    "original": "The chief foreman\u0027s sons will be present as well\u2500the twins Popokkuli and Seserukka. It\u0027ll be a sight to behold, all the guild\u0027s top players in one spot. An\u0027 it won\u0027t go easy for him, you can be sure of that.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_030",
+    "original": "What!? Deep Canyon believes \u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E cheated him out of becoming guildmaster!? That\u0027s not it at all! I \u003Chex:021A020203\u003Enever\u003Chex:021A020103\u003E aspired to this position...",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_031",
+    "original": "Gods, I was only an Ala Mhigan refugee, working as hard as I could to get by... I never even \u003Chex:021A020203\u003Edreamed\u003Chex:021A020103\u003E that I could rise as I did. And I suspected even less that it was that selfsame dedication to my work that would lead to me being chosen.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_032",
+    "original": "If I had known that accepting the mantle would tear us apart... \u003Csigh\u003E Lamenting the past won\u0027t avail us. I only know that I wouldn\u0027t be where I am without the man. I \u003Chex:021A020203\u003Ecan\u0027t\u003Chex:021A020103\u003E allow this misunderstanding to cost Deep Canyon everything.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_033",
+    "original": "I simply couldn\u0027t bear it. I\u0027m not sure there\u0027s aught we can still do for him at this point, but we must try.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_034",
+    "original": "Listen. Wide Gulley is the one who filed the complaint. If you were to throw your own weight behind some of my concerns, then maybe...maybe he could yet do something. Please, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. It would mean so much.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_CLSMIN500_00646_WIDEGULLEY_000_040",
+    "original": "Adalberta wants to help my old man? \u003Csigh\u003E Truth be told, it ain\u0027t my wish to see his career destroyed neither. I only wanted to teach him a lesson\u2500make him know that he can\u0027t just use people for his own ends.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_CLSMIN500_00646_WIDEGULLEY_000_042",
+    "original": "But now that the Concern knows, it\u0027s been taken out o\u0027 my hands. In their eyes, my father\u0027s actions\u0027ve jeopardized relations with the Miners\u0027 Guild, an\u0027 nothin\u0027 could be worse.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_CLSMIN500_00646_WIDEGULLEY_000_043",
+    "original": "So, they\u0027ve given him a test. If he\u0027s to remain vice foreman, he must prove at the inquest that he still has the confidence of the guild.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_CLSMIN500_00646_WIDEGULLEY_000_044",
+    "original": "An\u0027 they ain\u0027t interested in no words\u2500they want hard evidence. That is to say, they\u0027re demandin\u0027 that someone from the guild show him loyalty by goin\u0027 an\u0027 diggin\u0027 up three of the toughest damn chunks of ore there is to find: darksteel.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_CLSMIN500_00646_WIDEGULLEY_000_045",
+    "original": "Problem is, he\u0027s got no allies in the guild, on account of his own behavior. I certainly don\u0027t qualify for the task, bein\u0027 his son. An\u0027 Adalberta can\u0027t do it neither, \u0027cause she\u0027s the bleedin\u0027 guildmaster\u2500that\u0027s just how it works.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_CLSMIN500_00646_WIDEGULLEY_000_046",
+    "original": "This leaves you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. We don\u0027t have much time before the inquest begins, so you\u0027ll have to hurry. An\u0027 I wasn\u0027t exaggeratin\u0027 afore\u2500darksteel\u0027s elusive as all hells, located in the snowy reaches o\u0027 Coerthas an\u0027 nowhere else.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_CLSMIN500_00646_WIDEGULLEY_000_047",
+    "original": "To actually find the stuff, you\u0027ll first need to use your Truth of Mountains technique to locate unspoiled mineral deposits. Then\u2500an\u0027 gods know why\u2500you\u0027ll have to survive a night in the cold for the deposits to reveal \u0027emselves. Finally, you dig...an\u0027 you pray.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_CLSMIN500_00646_WIDEGULLEY_000_048",
+    "original": "When you have enough chunks of darksteel ore, take \u0027em to Adalberta. I\u0027ll make sure she knows what\u0027s goin\u0027 on.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_CLSMIN500_00646_SYSTEM_000_049",
+    "original": "Use the technique Truth of Mountains to locate darksteel ore that appears in the Coerthas central highlands at 1:00 a.m. (Eorzea time), mine the required quantity, and return it to Adalberta as quickly as you are able.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_050",
+    "original": "Wide Gulley\u0027s told me all about the situation. Be sure you bring in the darksteel ore as soon as you\u0027ve got it.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_051",
+    "original": "Now, I feel this bears mentioning, but regarding how to go about obtaining the ore... It may sound ridiculous, but it\u0027s exactly as Wide Gulley says.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_052",
+    "original": "You\u0027ll need the endurance to survive a night in Coerthas, and the technique Truth of Mountains to locate unspoiled mineral deposits. Twelve speed your way!",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_053",
+    "original": "Incredible, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Your talents are truly boundless. Hopefully, these will suffice to spare Deep Canyon. But let\u0027s make haste to the inquest. Wide Gulley is already on his way.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_CLSMIN500_00646_POPOKKULI_000_60",
+    "original": "Well, did you get a guild member to bring you darksteel ore? \u0027Cause make no mistake, Deep Canyon, if you came to this inquest empty-handed, we will \u003Chex:021A020203\u003Eend\u003Chex:021A020103\u003E you. Your time with the Concern will be just a memory.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_CLSMIN500_00646_DEEPCANYON_000_61",
+    "original": "Ungh, I... Well...",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_62",
+    "original": "We have the ore right here, procured by \u003Chex:022903EB0203\u003E of the Miners\u0027 Guild!",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_CLSMIN500_00646_SESERUKKA_000_63",
+    "original": "Twelve be good, she isn\u0027t lying! This is darksteel, and some of the finest I\u0027ve ever seen.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_CLSMIN500_00646_POPOKKULI_000_64",
+    "original": "Hmph. It\u0027s no ordinary miner who can find darksteel, let alone stuff that looks this good. Seems your reputation is well earned.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_CLSMIN500_00646_POPOKKULI_000_65",
+    "original": "That said, we\u0027re hardly here to question your ability. Though I find myself wondering as to your motives. Why did you bring the ore?",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_CLSMIN500_00646_SESERUKKA_000_66",
+    "original": "Aye, I\u0027d know the same. Why stick your neck out for \u003Chex:021A020203\u003Ehim\u003Chex:021A020103\u003E? He\u0027s given you nothing but trouble!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_CLSMIN500_00646_DEEPCANYON_000_67",
+    "original": "What in the seven hells\u0027re you tryin\u0027 to pull, Adalberta!? I don\u0027t need anyone\u0027s pity, yours least of all!",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_68",
+    "original": "I\u0027m not here to give you my pity, but to clear up the misunderstanding between us!",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_CLSMIN500_00646_DEEPCANYON_000_69",
+    "original": "Misunderstandin\u0027...?",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_70",
+    "original": "Listen to me, Deep Canyon. I never wanted to become guildmaster! The responsibility was thrust upon me, and there was naught to be done for it.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_71",
+    "original": "Gods, when my name was being bandied about for the position, my first instinct was to take myself out of consideration. Aye, I spoke to the guildmaster in private, as you say. But it wasn\u0027t to connive against you\u2500it was to give up my claim!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_CLSMIN500_00646_DEEPCANYON_000_72",
+    "original": "Y-You expect me to believe that!?",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_73",
+    "original": "If I had truly betrayed you back then, would I have bothered to come here?",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_CLSMIN500_00646_DEEPCANYON_000_74",
+    "original": "B-But...if that\u0027s true, then everythin\u0027 I\u0027ve done... By the Twelve, to have taken this so far...",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_CLSMIN500_00646_WIDEGULLEY_000_75",
+    "original": "You didn\u0027t want to admit defeat, Father. Adalberta beat you out on her own merits. You knew this in your heart, but you refused to accept it.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_CLSMIN500_00646_WIDEGULLEY_000_76",
+    "original": "In your pride, you convinced yourself that she betrayed you. But by doin\u0027 so, you only validated why you were passed over for guildmaster in the first place.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_CLSMIN500_00646_WIDEGULLEY_000_77",
+    "original": "Please, Father, let go of the past. Accept that you were beaten, as I have with \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, and let\u0027s start over.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_78",
+    "original": "You have it in you to do so, Deep Canyon\u2500to begin anew. I know of your love for mining more than anyone.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_79",
+    "original": "If you would be willing to try again, I promise you the guild\u0027s full cooperation.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_CLSMIN500_00646_SESERUKKA_000_80",
+    "original": "Full cooperation? Are you \u003Chex:021A020203\u003Esure\u003Chex:021A020103\u003E about this?",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_81",
+    "original": "Aye, I would leave the past where it belongs\u2500in the past. The guild wants only to look forward, and to continue working with the Concern.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_82",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E was the biggest victim in this whole affair, yet \u003Chex:02080CE905FF04736865FF03686503\u003E is willing to give Deep Canyon another chance. \u003Chex:02080CE905FF04536865FF03486503\u003E wouldn\u0027t have brought the darksteel ore otherwise.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_CLSMIN500_00646_POPOKKULI_000_83",
+    "original": "That\u0027s well and good, but what about \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E? Can you really forget everything he\u0027s done?",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_84",
+    "original": "...I can. Above all else, I miss my old friend and mentor. To get him back, I would forgive much and more.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_CLSMIN500_00646_DEEPCANYON_000_85",
+    "original": "A-Adalberta...",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_CLSMIN500_00646_POPOKKULI_000_86",
+    "original": "Well, I\u0027m inclined to lay this matter to rest. Any objections, Sese?",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_CLSMIN500_00646_SESERUKKA_000_87",
+    "original": "If you\u0027re satisfied, Brother, then so am I.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_CLSMIN500_00646_FYRGEISS_000_88",
+    "original": "Then it is settled! Vice Foreman Deep Canyon, by request of the Miners\u0027 Guild, you shall retain your present office at Amajina \u0026 Sons Mineral Concern. Through hard work, I trust that you will make amends for past transgressions.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_89",
+    "original": "\u003Csigh\u003E I\u0027m full glad that it\u0027s over... \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, I would have a word with you in private. Would you mind returning to the guild with me?",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_090",
+    "original": "I asked you here so that I might thank you properly.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_091",
+    "original": "Had you not been on hand to help, Deep Canyon\u0027s career would have ended prematurely, and in disgrace.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_092",
+    "original": "Worse, I might have lost my dear friend forever. I owe you a debt that I\u0027ll likely never be able to repay.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_093",
+    "original": "Ah, but look at you. In no time at all, you\u0027ve grown into a miner who can make the earth yield up even darksteel ore, the rarest of metals. There\u0027s nothing left for me to teach you.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_094",
+    "original": "As an adventurer, you\u0027re like to find yourself in all corners of the realm. But wherever your road takes you, I want you to practice our craft for the good of all.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_CLSMIN500_00646_ADALBERTA_000_095",
+    "original": "Go well, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, and may your toils never go unrewarded!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_CLSMIN500_00646_SYSTEM_000_500",
+    "original": "This concludes the miner quests for FINAL FANTASY XIV: A Realm Reborn. In order to undertake the next series of quests, you must first meet the following requirements:",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_CLSMIN500_00646_SYSTEM_000_501",
+    "original": "\u203BYou must have completed the main scenario quest \u201CBefore the Dawn.\u201D",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_CLSMIN500_00646_SYSTEM_000_502",
+    "original": "Once you have done so, the next miner quest will be available from Adalberta.",
+    "translation": ""
+  }
+}

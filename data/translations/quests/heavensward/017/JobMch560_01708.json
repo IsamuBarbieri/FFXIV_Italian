@@ -1,0 +1,327 @@
+{
+  "0": {
+    "tag": "TEXT_JOBMCH560_01708_SEQ_00",
+    "original": "Stephanivien seems in a cheerful mood.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_JOBMCH560_01708_SEQ_01",
+    "original": "Stephanivien welcomes you back to the manufactory, but his cheerful mood is soon soured by the arrival of a Temple Knight. It would seem that the chief machinist has been accused of fomenting insurrection, and a failure to clear this suspicion may result in the seizure of the workshop and imprisonment for its employees. Speak with Stephanivien, and discuss this ominous development.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_JOBMCH560_01708_SEQ_02",
+    "original": "Reasoning that an attempt to disprove his own actions would be fruitless, Stephanivien decides to counter the accusation by providing evidence of Tedalgrinche\u0027s wrongdoing. Head to the Forgotten Knight, and join Celestaux in his search for strings that would connect House Dzemael to their crimes.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_JOBMCH560_01708_SEQ_03",
+    "original": "Celestaux tells you of the sudden absence of Fraideoux\u2500the man who stood guard over Joye\u0027s abducted father\u2500and explains how his suspicions led him to investigate the novice machinist\u0027s abode. Amidst the splinters of broken furniture, it seems he discovered the ragged feather of a wild chocobo. Take the tale back to Stephanivien, and plan your next move.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_JOBMCH560_01708_SEQ_04",
+    "original": "You relay Celestaux\u0027s discovery to Stephanivien, and he decides to follow the lead to the Dravanian forelands. Make your way to Tailfeather, and speak with the chief machinist once more.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_JOBMCH560_01708_SEQ_05",
+    "original": "You join Stephanivien and Joye in Tailfeather. The chief machinist has already questioned the local hunters, and learned that a man matching Fraideoux\u0027s description was seen in the company of a rough-looking trio. Head to your assigned search area to the north of the settlement, and confront any suspicious fellows you find.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_JOBMCH560_01708_SEQ_06",
+    "original": "You find your quarry in a secluded corner of the forest, but are attacked the instant you approach. The ruffians, however, are no match for your effortless marksmanship. Holster your firearm, and rescue Fraideoux from his bonds.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_JOBMCH560_01708_SEQ_07",
+    "original": "Stephanivien and Joye appear at the scene of the rescue, and Fraideoux begs forgiveness for his unwilling betrayal. The chief machinist waves away the apology, and instead seizes upon the opportunity to turn the tables on his accuser. Return to the Skysteel Manufactory and speak with Stephanivien.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_JOBMCH560_01708_SEQ_08",
+    "original": "You arrive back at the manufactory to find that Stephanivien has, with the aid of Fraideoux\u0027s testimony, lodged a counter-accusation against Tedalgrinche. Practice your new machinist technique whilst you wait for the wheels of justice to slowly grind the suspicions against the workshop into dust.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe next machinist quest will be available from Stephanivien upon reaching level 58.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_JOBMCH560_01708_TODO_00",
+    "original": "Speak with Stephanivien.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_JOBMCH560_01708_TODO_01",
+    "original": "Meet Celestaux in the Forgotten Knight.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_JOBMCH560_01708_TODO_02",
+    "original": "Speak with Stephanivien.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_JOBMCH560_01708_TODO_03",
+    "original": "Speak with Stephanivien in Tailfeather.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_JOBMCH560_01708_TODO_04",
+    "original": "Confront the suspicious fellow north of Tailfeather.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_JOBMCH560_01708_TODO_05",
+    "original": "Rescue Fraideoux.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_JOBMCH560_01708_TODO_06",
+    "original": "Speak with Stephanivien at the Skysteel Manufactory.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_JOBMCH560_01708_STEPHANIVIEN_000_000",
+    "original": "Greetings, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Is this not a wonderful day to be a machinist?",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_JOBMCH560_01708_KISHI01708_000_001",
+    "original": "(-Stern Voice-)Lord Stephanivien de Haillenarte! You and the Skysteel Manufactory employees under your authority are hereby charged with fomenting insurrection!",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_JOBMCH560_01708_STEPHANIVIEN_000_002",
+    "original": "Insurrection!? My dear ser, I have fomented nothing of the sort!",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_JOBMCH560_01708_KISHI01708_000_003",
+    "original": "You stand accused of arming commoners with weapons of war, and discharging said weapons within the locality of the Brume.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_JOBMCH560_01708_STEPHANIVIEN_000_004",
+    "original": "Ah... That little scene when we liberated Joye\u0027s father...",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_JOBMCH560_01708_KISHI01708_000_005",
+    "original": "Henceforth, the manufactory shall remain under Temple Knight surveillance\u2500should you fail to refute the accusations against you within the allotted time, punishment may include seizure of your workshop...and imprisonment for all those deemed accomplices to the crime.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_JOBMCH560_01708_STEPHANIVIEN_000_006",
+    "original": "The Fury take that smirking fox! Tedalgrinche \u003Chex:021A020203\u003Eknew\u003Chex:021A020103\u003E we would attempt a rescue!",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_JOBMCH560_01708_ROSTNSTHAL_000_007",
+    "original": "Once they set their sights on summat, them Temple Knights is like a bandersnatch with a bone. Ye\u0027d best say farewell to yer workshop.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_JOBMCH560_01708_STEPHANIVIEN_000_008",
+    "original": "They\u0027ll not take my manufactory! I will think of something...",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_JOBMCH560_01708_ROSTNSTHAL_000_010",
+    "original": "Once they set their sights on summat, them Temple Knights is like a bandersnatch with a bone. Best say farewell to the workshop.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_JOBMCH560_01708_JOYE_000_010",
+    "original": "How could they have twisted me dad\u0027s rescue into an act of insurrection!?",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_JOBMCH560_01708_CELESTAUX_000_010",
+    "original": "That Tedalgrinche bastard\u0027s always two steps ahead...",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_JOBMCH560_01708_STEPHANIVIEN_000_010",
+    "original": "\u0027Tis difficult to prove the truth of something one has not done. Mayhap the wiser course would be to provide evidence of Tedalgrinche\u0027s wrongdoing.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_JOBMCH560_01708_ROSTNSTHAL_000_011",
+    "original": "\u0027E\u0027s a clever bastard, though, that one. Ye might try\u2500 Ah, but I\u0027d best not overstep me bounds.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_JOBMCH560_01708_ROSTNSTHAL_000_012",
+    "original": "Me contract\u0027s almost done in any case, and I\u0027ll be movin\u0027 on no matter what \u0027appens to the workshop.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_JOBMCH560_01708_CELESTAUX_000_013",
+    "original": "Our instructor, he sure don\u0027t like to get involved... As for me, I\u0027ll see if I can find any strings connectin\u0027 House Dzemael to their crimes. The Forgotten Knight should be a good place to start.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_JOBMCH560_01708_JOYE_000_014",
+    "original": "I don\u0027t know what I\u0027d do without the workshop! I\u0027ll see if I can\u0027t get some folks talkin\u0027!",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_JOBMCH560_01708_STEPHANIVIEN_000_015",
+    "original": "And that leaves you and me, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I believe I shall remain here in the manufactory to occupy the gaze of the Temple Knights, whilst you aid Celestaux with his inquiries.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_JOBMCH560_01708_STEPHANIVIEN_000_019",
+    "original": "\u0027Tis difficult to prove the truth of something one has not done. Mayhap the wiser course would be to provide evidence of Tedalgrinche\u0027s wrongdoing.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_JOBMCH560_01708_CELESTAUX_000_020",
+    "original": "I appreciate you comin\u0027 out, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. It\u0027s a bit hard plannin\u0027 aught in the workshop, what with the Temple Knights eyeballin\u0027 our every move. We should be able to talk freely in here, though.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_JOBMCH560_01708_CELESTAUX_000_021",
+    "original": "Do you recall that bloke as was standin\u0027 guard over Joye\u0027s dad? Aye, \u201CFraideoux\u201D is his name. He took to marksmanship with a passion, and hadn\u0027t missed a single day of trainin\u0027...not until today.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_JOBMCH560_01708_CELESTAUX_000_022",
+    "original": "I got suspicious, of course, and decided to pay a visit to his home. Right away, you could see the door had been kicked in, so I went inside and had me a proper look. That\u0027s when I found a ragged feather just lyin\u0027 there on the floor amidst the bits of broken furniture.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_JOBMCH560_01708_CELESTAUX_000_023",
+    "original": "If I wanted to keep me hands clean, then maybe I\u0027d hire me some thugs from out of town to do for poor Fraideoux. Thugs what might otherwise make a livin\u0027 poachin\u0027 wild chocobos.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_JOBMCH560_01708_CELESTAUX_000_024",
+    "original": "I suggest you talk to Lord Stephanivien, and take a trip out to Tailfeather. I\u0027ll keep pokin\u0027 around here in the city and see what else crawls out of the stonework.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_JOBMCH560_01708_STEPHANIVIEN_000_030",
+    "original": "...Hmmm, this may be our best lead. If we can track down the man who first employed Fraideoux, then we shall have a solid link to House Dzemael.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_JOBMCH560_01708_STEPHANIVIEN_000_031",
+    "original": "Let us waste no time. Onwards to the Dravanian forelands, and to Tailfeather!",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_JOBMCH560_01708_STEPHANIVIEN_000_039",
+    "original": "Onwards to the Dravanian forelands, and to Tailfeather!",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_JOBMCH560_01708_STEPHANIVIEN_000_040",
+    "original": "Good news, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! I have spoken with some few of these hunter fellows, and they told me of a trio of ruffians that passed through here dragging a man matching Fraideoux\u0027s description.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_JOBMCH560_01708_STEPHANIVIEN_000_041",
+    "original": "We shall scour the forest to the south, if you will look to the north. Do not wait for us\u2500should you find these ruffians, then pray confront them ere Fraideoux comes to further harm.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_JOBMCH560_01708_ZOKU01708_000_041",
+    "original": "No witnesses! Cut this one\u0027s throat as well!",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_JOBMCH560_01708_FRAIDEOUX_000_049",
+    "original": "H-How did you find me!?",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_JOBMCH560_01708_FRAIDEOUX_000_050",
+    "original": "...My thanks. I did not expect to see another dawn.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_JOBMCH560_01708_STEPHANIVIEN_000_051",
+    "original": "Fraideoux! Not leaking blood, are you? Splendid! You gave us quite a scare!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_JOBMCH560_01708_FRAIDEOUX_000_052",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_JOBMCH560_01708_FRAIDEOUX_000_053",
+    "original": "F-Forgive me, me lord! Those men...they dragged me from me home. Said they\u0027d hurt me if I didn\u0027t swear false witness to the Temple Knights...",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_JOBMCH560_01708_STEPHANIVIEN_000_054",
+    "original": "You were forced to substantiate their accusations? Then you merely need withdraw your testimony to strengthen our position. \u0027Twould be a boon if we were also able to provide some manner of physical evidence...",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_JOBMCH560_01708_STEPHANIVIEN_000_055",
+    "original": "A seal of House Dzemael. \u0027Twould explain how the ruffians who snatched Fraideoux were able to enter the city without challenge. Aye, this shall do nicely.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_JOBMCH560_01708_FRAIDEOUX_000_056",
+    "original": "I\u0027m truly sorry, me lord. All it took was one little beating for me to repay your kindness with betrayal. I\u0027ll not darken your doorstep again...",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_JOBMCH560_01708_STEPHANIVIEN_000_057",
+    "original": "What nonsense! You hardly had a choice in the matter!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_JOBMCH560_01708_STEPHANIVIEN_000_058",
+    "original": "Continue your training at the manufactory, however, and you\u0027ll become more than a match for thugs such as these. Even without a noble\u0027s wealth or prestige, a common man can earn himself independence!",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_JOBMCH560_01708_JOYE_000_059",
+    "original": "You\u0027ll see that a machinist\u0027s firearm is for more than just shootin\u0027 dragons\u2500it can help set you free. His lordship\u0027s vision\u0027ll change Ishgard for the better!",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_JOBMCH560_01708_JOYE_000_060",
+    "original": "Come with us, Fraideoux! Become the spear and the shield that our city needs!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_JOBMCH560_01708_FRAIDEOUX_000_061",
+    "original": "\u003Csob\u003E I-I\u0027d like that... I\u0027d like to feel like I\u0027m worth somethin\u0027...",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_JOBMCH560_01708_STEPHANIVIEN_000_062",
+    "original": "We all make mistakes, my dear fellow. The trick is to learn from them, and rise stronger from every defeat! Come, let us return to the manufactory!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_JOBMCH560_01708_STEPHANIVIEN_000_070",
+    "original": "The tables have turned, my friend. I have submitted the evidence you found to the Temple Knights.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_JOBMCH560_01708_STEPHANIVIEN_000_071",
+    "original": "With the aid of Fraideoux\u0027s new testimony, we had enough proof to lodge a counter-accusation against Tedalgrinche.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_JOBMCH560_01708_STEPHANIVIEN_000_072",
+    "original": "The wheels of justice have begun to turn, and we shall soon be free of these baseless suspicions!",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_JOBMCH560_01708_STEPHANIVIEN_000_073",
+    "original": "In the meantime, Rostnsthal requested that I instruct you to \u201Cremember yer bleedin\u0027 practice drills!\u201D Charming fellow.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_JOBMCH560_01708_SYTEM_000_074",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  }
+}

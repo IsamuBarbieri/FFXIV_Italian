@@ -1,0 +1,682 @@
+{
+  "0": {
+    "tag": "TEXT_JOBMNK700_02430_SEQ_00",
+    "original": "Widargelt\u0027s jaw is set in a look of resolve.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_JOBMNK700_02430_SEQ_01",
+    "original": "With Erik having recovered from his injuries, Widargelt is now ready to issue his challenge to Theobald. To avoid the risk of premature bloodshed, you have been tasked with bearing the letter to his opponent, who has made Rustrock his hideout.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_JOBMNK700_02430_SEQ_02",
+    "original": "You present the letter of challenge to Theobald, and he haughtily accepts. Take word to Widargelt at Schism.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_JOBMNK700_02430_SEQ_03",
+    "original": "Theobald arrives at the prescribed hour, and he and Widargelt square off before the gathered villagers. But before fists fly, it is revealed that Theobald is in fact Adri, Widargelt\u0027s dear comrade from his time at the Temple of the Fist. Made to feel powerless due to his low birth, he resents Widargelt for spurning his royal blood and the might it represents. Once the talking ends and they engage, it becomes clear that Widargelt has the upper hand, and Adri summons his minions to his aid and resorts to using imperial weaponry. For a blessing, Hamon appears with Chuchuto and Rurukuta, having been informed of the duel, and they join the fray to even the odds. At the end of a long struggle, you and yours emerge triumphant.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_JOBMNK700_02430_SEQ_04",
+    "original": "To a cheering crowd, Widargelt renews his promise to revive the Fist of Rhalgr. As the dust settles, speak with your comrades to hear their thoughts on the conclusion of events.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_JOBMNK700_02430_SEQ_05",
+    "original": "Praising Widargelt for his heartfelt speech, Hamon heads back to Ul\u0027dah with his two pupils in tow. D\u0027zentsa and O\u0027tchakha, meanwhile, reaffirm their resolve to grow stronger, that they might better support their master in his endeavors. Last but not least, Erik expresses his gratitude for the role you played in helping Widargelt to forge on in the face of adversity. With the others having taken their leave, you may now give your undivided attention to your brother monk.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_JOBMNK700_02430_SEQ_06",
+    "original": "Widargelt reflects upon all the lessons he has learned, and bids you farewell as he resumes his mission to revive the Fist of Rhalgr. Till next your paths cross, continue to help others as you have helped him.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe next monk quest will be available from Erik once you have met the following requirements:\u003Chex:02100103\u003E\u203BYou must have completed the main scenario quest \u201CShadowbringers.\u201D\u003Chex:02100103\u003E\u203BYou must have completed the role quest \u201CCourage Born of Fear.\u201D",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_JOBMNK700_02430_TODO_00",
+    "original": "Deliver Widargelt\u0027s challenge to Theobald at Rustrock.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_JOBMNK700_02430_TODO_01",
+    "original": "Speak with Widargelt at Schism.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_JOBMNK700_02430_TODO_02",
+    "original": "Speak with Widargelt at Schism.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_JOBMNK700_02430_TODO_03",
+    "original": "Speak with Hamon.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_JOBMNK700_02430_TODO_04",
+    "original": "Speak with O\u0027tchakha.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_JOBMNK700_02430_TODO_05",
+    "original": "Speak with Erik.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_JOBMNK700_02430_TODO_06",
+    "original": "Speak with Widargelt.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_001",
+    "original": "The professor is well again. The time is come. I will issue Theobald my challenge.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_002",
+    "original": "He and his minions use Rustrock as their hideout. But who should bear the letter there?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_JOBMNK700_02430_Q1_000_000",
+    "original": "Who should deliver the letter of challenge?",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_JOBMNK700_02430_A1_000_001",
+    "original": "I will go.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_JOBMNK700_02430_A1_000_002",
+    "original": "You should go.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_003",
+    "original": "You, \u003Chex:020814E905FF07736973746572FF0862726F7468657203\u003E? Is this wise? What if they set upon you again? No, better that I go.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_004",
+    "original": "You are right, \u003Chex:020814E905FF07736973746572FF0862726F7468657203\u003E. It is fitting that I go.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_JOBMNK700_02430_OTCHAKHA_000_005",
+    "original": "Master, wait. If you deliver the letter, it will most certainly end in blood. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E should go.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_JOBMNK700_02430_DZENTSA_000_006",
+    "original": "Without a hostage, they can\u0027t pull no dirty tricks. They wouldn\u0027t dare try \u003Chex:022C0DFF07022903EB0203FF02200203\u003E again.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_007",
+    "original": "Very well. I entrust this letter to you. Take it to Rustrock. And see it to Theobald\u0027s hands.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_JOBMNK700_02430_DZENTSA_000_010",
+    "original": "We\u0027ll get them back, and we\u0027ll get them good!",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_JOBMNK700_02430_OTCHAKHA_000_015",
+    "original": "Master Widargelt will prevail. With your training, I know he will.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_JOBMNK700_02430_THEOBALD_000_020",
+    "original": "Ah, I remember you\u2500friend to the pathetic monks. You are bold to come here. What do you want?",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_JOBMNK700_02430_THEOBALD_000_021",
+    "original": "...A letter of challenge? Hmph, a dated practice befitting a dying style, and a lot of effort simply to lose.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_JOBMNK700_02430_THEOBALD_000_022",
+    "original": "I accept. Indeed, I anticipated that I would have to deal the stubborn fool another beating.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_JOBMNK700_02430_THEOBALD_000_023",
+    "original": "I will be at Schism. And you may tell Widargelt\u2500nay, my dear cousin Theodred\u2500that he would do well to bring a coffin.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_025",
+    "original": "The things you have taught us. I will bring them to bear in the duel.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_030",
+    "original": "The letter is delivered? My thanks, \u003Chex:020814E905FF07736973746572FF0862726F7468657203\u003E.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_031",
+    "original": "I have invited the people of Ala Gannha. They, too, shall bear witness.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_032",
+    "original": "The fight is to be single combat. But my opponent scruples at naught. Well do we know this. And so we must be prepared for anything.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_200_032",
+    "original": "But whatever should happen, I am confident we will prevail. For as I trained, I awakened to a new power. The power to protect.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_JOBMNK700_02430_THEOBALD_000_033",
+    "original": "Really? A crowd? Well, if you\u0027re determined to make a spectacle of your demise, who am I to stop you? Let all present witness the death of the Fist of Rhalgr.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_JOBMNK700_02430_THEOBALD_000_034",
+    "original": "Hear me, people of Ala Mhigo! A feeble faith such as this charlatan peddles will avail you naught! Only a strong and absolute ruler can save you! Only \u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E can save you!",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_035",
+    "original": "Those words may as well come from the Empire! The people need not another tyrant! Nay, what they need is hope!",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_036",
+    "original": "And hope they may yet have. Hope everlasting in their hearts. That none can take away.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_037",
+    "original": "So I beg you, brother. Give up your aspirations for the throne. Join me in reviving the Fist of Rhalgr. As is your right.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_038",
+    "original": "The time for deception is past. But one man I know wields the lance as you do. So take off this mask that you wear. The mask of a dead prince. And show me your face, Adri. My brother.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_JOBMNK700_02430_THEOBALD_000_039",
+    "original": "Hahaha...",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_JOBMNK700_02430_THEOBALD_000_040",
+    "original": "Adri... Long has it been since last I heard that name. I had always thought you dim-witted, but it seems your memory still serves you well, at least.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_041",
+    "original": "Why do you so desire our destruction? So much so that you fool even yourself?",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_JOBMNK700_02430_THEOBALD_000_042",
+    "original": "Like you, I was an orphan. The temple was the only home I knew.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_JOBMNK700_02430_THEOBALD_000_043",
+    "original": "But that home was taken from me, laid to waste at Theodoric\u0027s command. The monks, hailed as the realm\u0027s greatest warriors, could not withstand the mad king\u0027s might.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_JOBMNK700_02430_THEOBALD_000_044",
+    "original": "It was then that I knew\u2500knew that blood counts for more than all else!",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_JOBMNK700_02430_THEOBALD_000_045",
+    "original": "All the training we undergo to hone flesh and mind... None of it is worth a spit in the face of absolute power! And those who are born without it\u2500those like me\u2500will ever be made to suffer!",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_JOBMNK700_02430_THEOBALD_000_046",
+    "original": "But you\u2500you had it all from the beginning. Born into the royal family, with the blood of kings coursing through your veins. You had the power to lead and to rule. But still you turned your back on our nation\u0027s liberation. And for what? For the sake of a Fist that couldn\u0027t protect itself!",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_JOBMNK700_02430_THEOBALD_000_047",
+    "original": "I was nobody. Just one of the Griffin\u0027s lowly doubles. But if you will not rise up for our nation, then \u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E will! And you have no right to stop me\u2500you, who have forfeited your own birthright!",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_048",
+    "original": "Hear me, brother! Our blood defines not who we are. The path we walk is ours to choose. And I have chosen not to destroy. But to protect.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_JOBMNK700_02430_THEOBALD_000_049",
+    "original": "Hollow words from someone born to power! You will never understand what it means to be weak! \u003Chex:021A020203\u003ENever\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_050",
+    "original": "I am Widargelt! A brother of the Fist of Rhalgr! That is who I am! No more, no less!",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_051",
+    "original": "I live to revive the Fist of Rhalgr! And by my fist, I will prove it to you!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_JOBMNK700_02430_HAMON_000_052",
+    "original": "Well, now. The professor said there\u0027d be a spectacle, but I certainly won\u0027t say no to some action. I\u0027ve been itching for it since our match was canceled.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_053",
+    "original": "Enough, Adri! Our goals are the same! Our methods but differ! Together, we can achieve much! We can restore our order!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_JOBMNK700_02430_THEOBALD_000_054",
+    "original": "Adri is dead! I am Theobald, Theodoric\u0027s true heir and rightful king of Ala Mhigo! And by your death I shall claim my throne!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_055",
+    "original": "To resort to the tools of our oppression... He will stop at naught for power. It is a twisted existence. And we must straighten him out.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_056",
+    "original": "Come, my friends! We fight for hope!",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_TODO_1",
+    "original": "Defeat the enemy!",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_WIDARGELT_BATTLETALK_01",
+    "original": "Cease this madness, Adri!",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_THEOBALD_BATTLETALK_02",
+    "original": "Never! I have come this far\u2500I will not stop now!",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_WIDARGELT_BATTLETALK_02",
+    "original": "I will see to Adri! Focus on the others!",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_WIDARGELT_BATTLETALK_03",
+    "original": "Come to me when you are hurt! I will heal you!",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_THEOBALD_BATTLETALK_05",
+    "original": "Hahahaha! None can stand in my way!",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_WIDARGELT_BATTLETALK_04",
+    "original": "More of them! Have care, my friends!",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_HAMON_BATTLETALK_03",
+    "original": "Chuchuto, Rurukuta! We\u0027re cleaning up the rank and file!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_CHUCHUTO_BATTLETALK_07",
+    "original": "Stay sharp, Rurukuta!",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_LULUKUTA_BATTLETALK_06",
+    "original": "Hmph, just more fodder for my fists.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_THEOBALD_BATTLETALK_06",
+    "original": "You\u0027ve been a thorn, adventurer. But I\u0027ve just the thing to deal with you!",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_WIDARGELT_BATTLETALK_JAMMER_HINT",
+    "original": "Beware, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! It senses movement!",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_OTCHAKHA_BATTLETALK_08",
+    "original": "More reinforcements!?",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_THEOBALD_BATTLETALK_09",
+    "original": "Whatever it takes, by any means...I will be king!",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_WIDARGELT_BATTLETALK_09",
+    "original": "A king bereft of honor! No Ala Mhigan will accept you!",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_HAMON_BATTLETALK_10",
+    "original": "Leave that hunk o\u0027 junk to me\u2500\u003Chex:021A020203\u003EHamooon HOLYFIIIST\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_WIDARGELT_BATTLETALK_10",
+    "original": "It\u0027s just you now, Adri!",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_THEOBALD_BATTLETALK_11",
+    "original": "So much for the dreaded Corpse Brigade. In the end, they\u0027re just relics of a bygone age.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_THEOBALD_BATTLETALK_12",
+    "original": "But not I! I will not fall to the likes of you!",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_WIDARGELT_BATTLETALK_13",
+    "original": "Enough, brother! It\u0027s over!",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_THEOBALD_BATTLETALK_14",
+    "original": "Silence! I\u0027ll not surrender to a craven who has forsaken his homeland!",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_WIDARGELT_BATTLETALK_15",
+    "original": "He leaves us no choice! Take down the infernal machine!",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_THEOBALD_BATTLETALK_15",
+    "original": "Damn you! If I must fall, I\u0027m taking you to the seventh hell with me!",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_WIDARGELT_BATTLETALK_DEAD",
+    "original": "So much...unfinished...",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_THEOBALD_BATTLETALK_DEAD",
+    "original": "I can\u0027t lose everything... Not again...",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_HAMON_BATTLETALK_DEAD",
+    "original": "Ack... You can\u0027t beat old age...",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_CHUCHUTO_BATTLETALK_DEAD",
+    "original": "I\u0027m sorry...Master...",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_LULUKUTA_BATTLETALK_DEAD",
+    "original": "Ugh... I was careless...",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_DZENTSA_BATTLETALK_DEAD",
+    "original": "Godsdammit...",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_JOBMNK700_02430_QIB_001_OTCHAKHA_BATTLETALK_DEAD",
+    "original": "It\u0027s in...your hands...",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_JOBMNK700_02430_DZENTSA_000_069",
+    "original": "Master Widargelt\u0027s gonna win. I know it.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_JOBMNK700_02430_OTCHAKHA_100_069",
+    "original": "So it begins...",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_060",
+    "original": "Adri. When next we fight, let it be as brothers. Let it be face\u003Chex:021F0103\u003Eto\u003Chex:021F0103\u003Eface.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_061",
+    "original": "I am weak. Too weak to bear the Fist of Rhalgr alone. Yet come what may, I will not give up. Each time I fall, I will pick myself up.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_062",
+    "original": "From my heart, I ask you this. Will you not join me? Help me to build a new Fist. One that knows not highborn or low. That discerns not shadow or light. A Fist of Rhalgr where all may belong.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_JOBMNK700_02430_ERIK_000_063",
+    "original": "Your fiery zeal kindles hope within people\u0027s hearts, and doubt not but that many will come to you seeking strength\u2500the strength to protect that which they hold dear, and by their own hands.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_JOBMNK700_02430_ERIK_000_064",
+    "original": "Now then, let us return to Ala Gannha. There is still much to do, not the least of all thanking our pugilist friends for their most timely arrival.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_JOBMNK700_02430_HAMON_000_070",
+    "original": "\u0027Twas a fine speech, spoken from the heart. Lacked polish, to be sure, but that\u0027ll come with age and experience.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_JOBMNK700_02430_RURUKUTA_000_071",
+    "original": "And as good a drubbing as we gave them, the Corpse Brigade will be laying low for a while.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_JOBMNK700_02430_HAMON_000_072",
+    "original": "As will I, I think. At my age, a moment of fun costs a week of soreness.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_JOBMNK700_02430_CHUCHUTO_000_073",
+    "original": "You must admit, though, every so often it\u0027s good to hurl yourself into a real battle!",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_JOBMNK700_02430_RURUKUTA_000_074",
+    "original": "A real battle? I don\u0027t know about you, but I scarcely broke a sweat.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_JOBMNK700_02430_CHUCHUTO_000_075",
+    "original": "Oh? Then I suppose I was simply imagining all your huffing and puffing!",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_JOBMNK700_02430_HAMON_000_076",
+    "original": "Ohohoho! Well, sad though it is to part, it\u0027s past time we headed home. But I hope to continue this fine exchange with our friend monks...D\u0027zentsa and O\u0027tchakha especially.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_JOBMNK700_02430_HAMON_000_077",
+    "original": "Young and lithe as they are, I believe they harbor much pugilistic potential. And it\u0027d be my pleasure to personally help them explore it, hehehe...",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_JOBMNK700_02430_CHUCHUTO_000_078",
+    "original": "Gods, could you make it any more obvious!?",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_JOBMNK700_02430_HAMON_000_079",
+    "original": "Till next time, take care, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. And thanks for showing these old bones a good time!",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_JOBMNK700_02430_OTCHAKHA_000_080",
+    "original": "With your help, we have managed to weather another storm. I daresay we\u0027ve all earned a moment\u0027s respite.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_JOBMNK700_02430_DZENTSA_000_081",
+    "original": "You know, I can\u0027t help but feel that Master is too nice sometimes. After all that Theobald...er, Adri fellow did to him, he goes and begs the villagers to tend his wounds.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_JOBMNK700_02430_OTCHAKHA_000_082",
+    "original": "So complete is his dedication to reviving the Fist of Rhalgr, he wastes no energy on such things as anger and retribution.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_JOBMNK700_02430_DZENTSA_000_083",
+    "original": "Right. And at any rate, there\u0027s nothing standing in our way for now. We\u0027re free to get on with our mission.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_JOBMNK700_02430_OTCHAKHA_000_084",
+    "original": "That we are. And what we\u0027ve begun in Ala Gannha, we shall continue in all corners of Gyr Abania, never resting until the Fist of Rhalgr thrives throughout the realm once more.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_JOBMNK700_02430_DZENTSA_000_085",
+    "original": "I\u0027d say Master has his work cut out for him. He\u0027s gonna need all the support we can muster.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_JOBMNK700_02430_OTCHAKHA_000_086",
+    "original": "So let us ever strive to grow stronger, the better to provide that support. After all, it wouldn\u0027t do to always rely on \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_JOBMNK700_02430_DZENTSA_000_087",
+    "original": "Damn right! So what\u0027re we waiting for? Let\u0027s go and train!",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_JOBMNK700_02430_OTCHAKHA_000_088",
+    "original": "Wh-What? But we\u0027ve only just\u2500 Er, pray excuse us, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E...and thank you! From the bottom of our hearts, for everything!",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_JOBMNK700_02430_ERIK_000_089",
+    "original": "Witnessing your furious struggle, I could not help but wish that I, too, could contribute with my fists. My son, I suspect, felt the same way when he chose to join the Resistance.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_JOBMNK700_02430_ERIK_000_090",
+    "original": "But as he walked his own path, so too must I. As a man of science, it is my duty to pursue truth immutable, that the knowledge may one day benefit future generations.",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_JOBMNK700_02430_ERIK_000_091",
+    "original": "I did my small part for Widargelt\u0027s cause. But know that it was mostly you, my friend, who helped him to forge ahead in the face of adversity\u2500who picked him up when fate cast him down.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_JOBMNK700_02430_ERIK_000_092",
+    "original": "And for that I am grateful. You possess a noble heart, and it more than makes up for your lackluster mind.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_JOBMNK700_02430_ERIK_000_093",
+    "original": "With that, I shall head back to Ul\u0027dah. As fine a distraction as it has been to watch youngbloods come into their own, my research will not advance itself.",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_JOBMNK700_02430_ERIK_000_094",
+    "original": "As ever, should you wish to partake of my knowledge, do not hesitate to come to me.",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_JOBMNK700_02430_DZENTSA_000_095",
+    "original": "We couldn\u0027t have done it without you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_JOBMNK700_02430_CHUCHUTO_000_100",
+    "original": "The way your fellow monks fought, it looked not so far departed from our own style. Unless I\u0027m mistaken, you\u0027ve taught them a trick or three!",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_JOBMNK700_02430_RURUKUTA_000_105",
+    "original": "By any objective measure, Master Hamon is strong now, and I can only imagine how strong he used to be. I must work hard if I\u0027m to be worthy of the Holyfist legacy.",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_106",
+    "original": "The others wish to speak with you. When they are done, I would speak with you also.",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_110",
+    "original": "The recent trials have taught me much. About myself. About the extent of my debts.",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_111",
+    "original": "Through adversity, none of you abandoned me. I nearly abandoned my dream. But never again. I owe it to those who stood by me.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_112",
+    "original": "To many I am indebted. And to you most of all. You are my master in all but name. Ever leading by example. Teaching me strength and grace.",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_113",
+    "original": "I pray that you will help many others. As you have helped me.",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_114",
+    "original": "I shall resume my mission. With my disciples at my side. Together, we will spread the Fist across the land.",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_115",
+    "original": "The journey will be long. But come what may, I will see it through. For I am not alone.",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_JOBMNK700_02430_WIDARGELT_000_116",
+    "original": "Fare you well, my \u003Chex:020814E905FF07736973746572FF0862726F7468657203\u003E. Till next we meet.",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_JOBMNK700_02430_SYSTEM_100_200",
+    "original": "This concludes the monk quests for FINAL FANTASY XIV: Stormblood. In order to undertake the next series of quests, you must first meet the following requirements:",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_JOBMNK700_02430_SYSTEM_100_201",
+    "original": "\u203BYou must have completed the main scenario quest \u201CShadowbringers.\u201D",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_JOBMNK700_02430_SYSTEM_100_202",
+    "original": "\u203BYou must have completed the role quest \u201CCourage Born of Fear.\u201D",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_JOBMNK700_02430_SYSTEM_100_203",
+    "original": "Once you have done so, the next monk quest will be available from Erik.",
+    "translation": ""
+  }
+}

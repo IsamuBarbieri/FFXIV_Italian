@@ -1,0 +1,567 @@
+{
+  "0": {
+    "tag": "TEXT_BANNAM005_03101_SEQ_00",
+    "original": "Gyoshin is staring at you in a way that suggests another doom-laden prophecy is forthcoming.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_BANNAM005_03101_SEQ_01",
+    "original": "Gyoshin summons you to a meeting to discuss a matter of dire import. Though he never manages to explain, one can safely assume that, were he given the opportunity, he would say that the Namazu must improve their festival, lest they be annihilated in seven years. Seven years! With that in mind, Seigetsu the Enlightened suggests that they incorporate a bizarre ritual so the festival will be more like the \u201Cunforgettable spectacles\u201D once held by the Namazu of yore. Having concluded that Master Matoya would be the best source of information on such rituals, you stow Gyoshin in your bag once again and prepare to make for the Dravanian hinterlands.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_BANNAM005_03101_SEQ_02",
+    "original": "After some confusion on Gyoshin\u0027s part, you correctly identify Matoya and ask her about odd rituals. She recommends reviving the darkest of practices in order to create a spectacle memorable enough to avert the Namazu\u0027s prophesied demise, and swiftly prepares a reference tome on forbidden rituals for you. In the meantime, Gyoshin manages to drink too much tea for his own good, and will have to be carried back to Dhoro Iloh in your luggage.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_BANNAM005_03101_SEQ_03",
+    "original": "You arrive in Dhoro Iloh and release Gyoshin from his cloth prison only to find that he has befouled your bag. Alas, you have no time to process this sudden and unfortunate addition to your laundry pile, as a scuffle over Matoya\u0027s book ensues. Seigetsu the Enlightened sends the tome flying, and while Gyoshin manages to prevent it falling into the bonfire, he himself is not so lucky. The unique experience of being set ablaze inspires him to hold the Wicker Man ritual, and, seeing the fire in his eyes, none have the courage to stop him.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_BANNAM005_03101_SEQ_04",
+    "original": "Gyoshin puts you in charge of one of the components necessary for the Namazu to build an enormous effigy and hold a sacrificial burning. You are in no position to refuse, so all you can do is follow orders and hope for the best.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_BANNAM005_03101_SEQ_05",
+    "original": "You hand over your component and help the Namazu build the giant effigy, but Seigetsu the Enlightened points out that the ritual cannot be completed until a live sacrifice is burned. Thankfully, Gyorei is one step ahead of him, and prevents the squabble over who should be incinerated from escalating by offering cloth dolls as a substitute. The Namazu effigy can now continue burning merrily without any off-putting bloodshed.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_BANNAM005_03101_TODO_00",
+    "original": "Deliver Gyoshin to Matoya\u0027s Cave.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_BANNAM005_03101_TODO_01",
+    "original": "Return Gyoshin to Dhoro Iloh.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_BANNAM005_03101_TODO_02",
+    "original": "Speak with Gyoshin.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_BANNAM005_03101_TODO_03",
+    "original": "\u003Chex:0208F203D8E4E8050AFF49020845E3E802E803FF1B53796E74686573697A652002310CFF054974656D02E806020203FF2244656C697665722002310CFF054974656D03E80602020320746F2047796F72656903FFF203860208F20380E4E8050BFF49020845E3E802E803FF1B53796E74686573697A652002310CFF054974656D02E806020203FF2244656C697665722002310CFF054974656D03E80602020320746F2047796F72656903FFF2032E0208F20328E4E8050CFF49020845E3E802E803FF1B53796E74686573697A652002310CFF054974656D02E806020203FF2244656C697665722002310CFF054974656D03E80602020320746F2047796F72656903FFF202D60208F202D0E4E80509FF49020845E3E802E803FF1B53796E74686573697A652002310CFF054974656D02E806020203FF2244656C697665722002310CFF054974656D03E80602020320746F2047796F72656903FFF2027E0208F20278E4E8050DFF49020845E3E802E803FF1B53796E74686573697A652002310CFF054974656D02E806020203FF2244656C697665722002310CFF054974656D03E80602020320746F2047796F72656903FFF202260208F20220E4E8050EFF49020845E3E802E803FF1B53796E74686573697A652002310CFF054974656D02E806020203FF2244656C697665722002310CFF054974656D03E80602020320746F2047796F72656903FFF201CE0208F201C8E4E8050FFF49020845E3E802E803FF1B53796E74686573697A652002310CFF054974656D02E806020203FF2244656C697665722002310CFF054974656D03E80602020320746F2047796F72656903FFF201760208F20170E4E80510FF49020845E3E802E803FF1B53796E74686573697A652002310CFF054974656D02E806020203FF2244656C697665722002310CFF054974656D03E80602020320746F2047796F72656903FFF2011E0208F20118E4E80511FF54020850E3E802E803FF264D696E652002310CFF054974656D02E8060202032065617374206F66204D6F6C20496C6F68FF2244656C697665722002310CFF054974656D03E80602020320746F2047796F72656903FFBE0208BAE4E80512FF56020852E3E802E803FF284761746865722002310CFF054974656D02E8060202032065617374206F66204D6F6C20496C6F68FF2244656C697665722002310CFF054974656D03E80602020320746F2047796F72656903FF5D020859E4E80513FF5102084DE3E802E803FF2343617463682002310CFF054974656D02E80602020320696E204E656D204B6861616CFF2244656C697665722002310CFF054974656D03E80602020320746F2047796F72656903FF010303030303030303030303\u003E.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_001",
+    "original": "Attendees love our fins-on activities. Just look at that one over there, who seems most loath to let go of his horse! But we cannot afford to rest in our jars just yet. You see, our dramatic demise, our painful annihila\u2500 Oh, I forgot to call Gyorei and Gyofun. One moment, please.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_002",
+    "original": "I have summoned you all here for one reason. Yes, ye\u2500",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_BANNAM005_03101_KOFUINSEIGETSU_000_003",
+    "original": "I assume this will again be some nonsense about dreams and prophecies? You must recall that I cautioned you against eating unidentified plant matter.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_004",
+    "original": "If it comes from the ground, it is food! Yes, yes. Just because I was rendered violently ill, incapacitated for a fortnight by those green mushrooms does not mean... Wait, what were we talking about? Oh, yes, yes. I have continued to see our greatest grandsire in my dreams.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_BANNAM005_03101_KOFUINSEIGETSU_000_005",
+    "original": "...Though the dreams of your addled mind are immaterial to my goal of enlightening one and all, I have identified an aspect in which our festival is lacking compared to those of our ancestors.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_006",
+    "original": "That is fantastic, Seigetsu the Enlightened. Yes, yes. Though I cannot help but worry that you are about to\u2500",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_BANNAM005_03101_KOFUINSEIGETSU_000_007",
+    "original": "Allow me to elaborate in detail! Culture is an ever-evolving beast, you see. The radicalization of culture, in particular, results in unique cultural expressions that outsiders struggle to comprehend. When it is applied to ritual, festivals become true carnivals of the bizarre.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_BANNAM005_03101_KOFUINSEIGETSU_000_008",
+    "original": "Given that our ancestors\u0027 festivals were known as \u201Cunforgettable spectacles,\u201D should we not assume they had a fair few radical elements? In which case, our event must needs include at least one uniquely memorable ritual if we are to carry on their legacy.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_009",
+    "original": "That actually sounds interesting! I am most intrigued. What happens in these rituals that everyone finds so strange?",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_BANNAM005_03101_KOFUINSEIGETSU_000_010",
+    "original": "I haven\u0027t the foggiest! Religious rituals are secretive by nature, my dear Gyoshin!",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_011",
+    "original": "Perhaps it is my own fault. Yes, yes. I neglected to remember Gyofun\u0027s unhelpfulness. I suppose we will put this matter to rest for now. Call it a day.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_BANNAM005_03101_KOFUINSEIGETSU_000_012",
+    "original": "Now, hold on a moment! Your lack of intellectual curiosity is no fault of mine. The correct response would be to acknowledge our need to engage in further research.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_BANNAM005_03101_KOFUINSEIGETSU_000_013",
+    "original": "\u003Chex:021A020203\u003EOccidentalism\u003Chex:021A020103\u003E makes mention of a Sharlayan society devoted to the pursuit of knowledge. One of their number might be privy to the information we seek.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_BANNAM005_03101_KOFUINSEIGETSU_000_014",
+    "original": "One such as yourself must know Sharlayans of the intellectual persuasion we require. Preferably someone wizened. With arcane knowledge. Who is also an expert in rituals. Surely you know a few fitting that profile?",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_BANNAM005_03101_KOFUINSEIGETSU_000_015",
+    "original": "Master Matoya in Dravania, you say? Yes, she sounds ideal. It is so convenient that you foreigners all know each other.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_016",
+    "original": "Yes, yes. She sounds most convenient. Much more useful than Gyofun.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_017",
+    "original": "I hate\u2500\u003Chex:021A020203\u003Ereally\u003Chex:021A020103\u003E hate\u2500to ask, but could you convey me to Master Matoya\u0027s in your bag?",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_BANNAM005_03101_GYOREI_000_025",
+    "original": "I realize that looking after Gyoshin can be exhausting. Yes, yes. In a variety of ways.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_BANNAM005_03101_MATOYA_000_030",
+    "original": "...I don\u0027t suppose you\u0027ve a reason for lugging that thing around?",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_040",
+    "original": "Is this the place? Please tell me this is the place.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_041",
+    "original": "Hello, hello! Are you Master Matoya? I am relieved to see you so moist, so slimy. From \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u0027s description, you sounded most dry and intimidating!",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_BANNAM005_03101_MATOYA_000_042",
+    "original": "Eager to get off on the wrong foot, aren\u0027t we?",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_043",
+    "original": "...Oh. Oh no. The scary lady is Master Matoya?",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_044",
+    "original": "I am so sorry. Most apologetic! I was confused.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_BANNAM005_03101_MATOYA_000_045",
+    "original": "Well, since you and your bumbling companion have already disrupted my routine, I suppose I\u0027ll hear you out. I presume you\u0027ve a reason for coming here other than to annoy me?",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_BANNAM005_03101_MATOYA_000_046",
+    "original": "Oh, the world is hardly short on carnivals of the bizarre.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_BANNAM005_03101_MATOYA_000_047",
+    "original": "Competitive cheese-rolling, fertility rituals where the bride gets whacked with a stick\u2500I tell you if someone tried that with me, they\u0027d be out an eye\u2500whatever nonsense you can imagine, someone\u0027s getting up to it.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_BANNAM005_03101_MATOYA_000_048",
+    "original": "But if you seek to avert a calamitous fate, I trust you\u0027ll want to do better than those half-baked traditions.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_BANNAM005_03101_MATOYA_000_049",
+    "original": "For a truly memorable spectacle, you\u0027ll want to revive a ceremony so terrible, so horrible that few would dare to even whisper of it. One so steeped in evil that men swore never again to perform it!",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_050",
+    "original": "Oooh, evil! Darkness! Tell me more! Tell me more!",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_BANNAM005_03101_MATOYA_000_051",
+    "original": "If you shrink not from these horrors, I assume you are prepared to not only sully your hands, but your very soul.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_052",
+    "original": "Yes, yes! I will save the Namazu, even if I must endure a never-ending celebration. Even if I must work my fins to the bone.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_BANNAM005_03101_MATOYA_000_053",
+    "original": "Color me impressed. Confused, but impressed.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_BANNAM005_03101_MATOYA_000_054",
+    "original": "I\u0027ll prepare a simple manuscript on forbidden rituals for you. Just stay put. Have some tea. Do whatever it is you Namazu do.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_BANNAM005_03101_MATOYA_000_055",
+    "original": "Here we are. Only three hundred pages, but it should serve.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_056",
+    "original": "Thank you\u2500\u003Chic\u003E\u2500thank you!",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_BANNAM005_03101_MATOYA_000_057",
+    "original": "Ah, right. Tea makes Namazu tipsy. Lucky you.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_BANNAM005_03101_MATOYA_000_058",
+    "original": "It\u0027s a miracle they\u0027ve survived this long. Well, back in the sack with him!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_BANNAM005_03101_MATOYA_000_060",
+    "original": "Had anyone else shown up on my doorstep with a Namazu in tow, I would\u0027ve had my poroggos deal with them. I\u0027m still not quite sure what you\u0027re about, but if it gets you to stop fighting every other god or dragon for a spell, it can\u0027t be all that bad.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_BANNAM005_03101_GYOREI_000_070",
+    "original": "Welco\u2500 What is that smell?",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_071",
+    "original": "...Fresh air at last. \u003Cgroan\u003E You might want to wash that. It smells like vomit in there.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_072",
+    "original": "A-Anyway, we should focus on this tome Matoya so kindly, most generously gave us.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_BANNAM005_03101_KOFUINSEIGETSU_000_073",
+    "original": "A manuscript penned by the Sharlayan scholar herself? I must peruse it without delay!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_074",
+    "original": "Yes, yes. It is most illuminating. So full of information on fascinating rituals that I can hardly decide which we should attempt!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_BANNAM005_03101_KOFUINSEIGETSU_000_075",
+    "original": "Relinquish that this instant! I must read it!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_076",
+    "original": "Just a moment, please, please. This one is just so... Oh, but this one is also...",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_BANNAM005_03101_KOFUINSEIGETSU_000_077",
+    "original": "Give it here, I say. Now. NOW!",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_078",
+    "original": "Whoa! Wait, wait!",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_BANNAM005_03101_KOFUINSEIGETSU_000_079",
+    "original": "...Fascinating.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_080",
+    "original": "Owowowowowowowowow!",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_BANNAM005_03101_GYOREI_000_081",
+    "original": "Are you...all right?",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_082",
+    "original": "...",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_083",
+    "original": "Yes, yes! There can be only one! No other!",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_084",
+    "original": "This \u201CWicker Man\u201D is the perfect choice. We must incinerate a live sacrifice inside a massive effigy!",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_085",
+    "original": "It is the only way to avert total Namazu annihilation! Yes...yes...",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_BANNAM005_03101_KOFUINSEIGETSU_000_086",
+    "original": "I...daresay he ought to be stopped, but it may be unwise to anger him just now.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_100",
+    "original": "To work! We require a large Namazu effigy. You must help me build it. You will not defy me, no, no?",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_101",
+    "original": "You will find materials to create a metal clamp in the crate. I expect you to bring me the finest you have ever made, yes, yes.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_102",
+    "original": "You will find materials to create papier-mache in the crate. I expect you to bring me the finest you have ever made, yes, yes.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_103",
+    "original": "You will find materials to create fuel in the crate. I expect you to bring me the most flammable you have ever made, yes, yes.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_104",
+    "original": "There are heat-resistant lava rocks in the deposits east of Mol Iloh that can be used in the effigy\u0027s base. I expect you to bring me the finest one you can find, yes, yes.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_105",
+    "original": "There is steppe sedge among the vegetation patches east of Mol Iloh that can be used for the papier-mache. I expect you to bring me a bundle of the finest you can find, yes, yes.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_106",
+    "original": "There are invisible catfish in Nem Khaal, easily caught with salmon roe. We will need one for the ceremonial offering that will accompany the effigy burning. I expect you to bring me the finest one you can find, yes, yes.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_107",
+    "original": "Gyorei will be the one collecting the components\u2500all one hundred and seven of them. So speak to her when you are ready.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_108",
+    "original": "And how it shall burn... Oh, you are still here? Right, right. Try the crate for more materials.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_100_108",
+    "original": "And how it shall burn... Oh, you are still here? Right, right. Try the crate for more materials.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_110_108",
+    "original": "And how it shall burn... Oh, you are still here? Right, right. Try the crate for more materials.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_200_108",
+    "original": "And how it shall burn... Oh, you are still here? Right, right, Gyorei will collect your component.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_210_108",
+    "original": "And how it shall burn... Oh, you are still here? Right, right, Gyorei will collect your component.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_220_108",
+    "original": "And how it shall burn... Oh, you are still here? Right, right, Gyorei will collect your component.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_BANNAM005_03101_SYSTEM_000_109",
+    "original": "The crate appears to be filled to the brim with sundry materials\u2500none of which you require at this time.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_BANNAM005_03101_SYSTEM_100_109",
+    "original": "The crate appears to be filled to the brim with sundry materials\u2500none of which you require at this time.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_BANNAM005_03101_SYSTEM_110_109",
+    "original": "The crate appears to be filled to the brim with sundry materials\u2500none of which you require at this time.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_BANNAM005_03101_SYSTEM_120_109",
+    "original": "The crate appears to be filled to the brim with sundry materials\u2500none of which you require at this time.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_BANNAM005_03101_SYSTEM_000_110",
+    "original": "You sift through the cornucopia of crafting materials and retrieve all you require for your work.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_BANNAM005_03101_SYSTEM_100_110",
+    "original": "You sift through the cornucopia of crafting materials and retrieve all you require for your work.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_BANNAM005_03101_SYSTEM_110_110",
+    "original": "You sift through the cornucopia of crafting materials and retrieve all you require for your work.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_111",
+    "original": "You brought what I requested? That is a wise choice. An excellent decision!",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_BANNAM005_03101_GYOREI_000_112",
+    "original": "I cannot say I expected us to go the \u201Clive sacrifice\u201D route. No, no.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_BANNAM005_03101_GYOREI_000_120",
+    "original": "Gyoshin seems a bit odd. Though I suppose he is always odd...",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_BANNAM005_03101_GYOREI_000_121",
+    "original": "Ah, the final component! Thank you, thank you. Now let us see what comes of this.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_122",
+    "original": "Wow, it is like looking into a stream. A reflection staring back at me! Most imposing. Quite impressive.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_BANNAM005_03101_KOFUINSEIGETSU_000_123",
+    "original": "Gyoshin, are you not forgetting something? Yet again?",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_124",
+    "original": "...",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_BANNAM005_03101_KOFUINSEIGETSU_000_125",
+    "original": "The live sacrifice, you imbecile!",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_126",
+    "original": "Oh! Thank you so much for volunteering!",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_BANNAM005_03101_KOFUINSEIGETSU_000_127",
+    "original": "I most certainly am not volunteering! Should it not be the artist who sees his work through to the end?",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_128",
+    "original": "Hm. Well, I am quite sure, indeed confident that \u003Chex:022C0DFF07022903EB0203FF02200203\u003E provided the most important parts...",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_BANNAM005_03101_GYOREI_000_129",
+    "original": "Oh, for the Big One\u0027s sake! You need not be in such a hurry to set each other aflame. According to Matoya\u0027s manuscript, a cloth doll is a perfectly acceptable substitute for the sacrifice. Yes, yes.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_BANNAM005_03101_GYOREI_000_130",
+    "original": "I set my fins to sewing a few some time ago. And I followed the instructions to the letter, so they should be more than sufficient.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_131",
+    "original": "Gyorei! You are a lifesaver!",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_BANNAM005_03101_GYOSHIN_000_132",
+    "original": "Let us get this fire started!",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_BANNAM005_03101_SYSTEM_000_133",
+    "original": "In seven years, the Namazu were fated to fall deeply in debt, and be doomed to work ceaselessly as slaves for the sinister soy sauce mogul, Kageyama. Many would have died.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_BANNAM005_03101_SYSTEM_000_134",
+    "original": "However, the oversized Namazu effigy will, over the course of seven years, come to be known far and wide as a uniquely bizarre spectacle, and generate significant revenue from tourism.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_BANNAM005_03101_SYSTEM_000_135",
+    "original": "Unbeknownst to all, the Namazu will be spared the grievous tragedy that could have consumed them, and their fate continues to change for the better.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_BANNAM005_03101_KOFUINSEIGETSU_000_136",
+    "original": "I daresay it is impossible to discern the meaning or purpose behind this peculiar ritual. Indeed, it is nothing less than the epitome of enlightenment!",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_BANNAM005_03101_SYSTEM_000_137",
+    "original": "You have achieved \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESworn\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E reputation with the Namazu.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_BANNAM005_03101_SYSTEM_100_137",
+    "original": "New Namazu society daily quests are now available from Seigetsu the Enlightened at Dhoro Iloh.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_BANNAM005_03101_SYSTEM_110_137",
+    "original": "Furthermore, you will be able to undertake three additional quests from Seigetsu the Enlightened as a reputation bonus. This bonus is available until the daily reset time for allied society quests.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_BANNAM005_03101_SYSTEM_000_138",
+    "original": "These additional quests will become available after accepting all current daily quests from Seigetsu the Enlightened. Please be advised that you cannot undertake these quests if you have no remaining allowances.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_BANNAM005_03101_SYSTEM_000_139",
+    "original": "You now have access to a wider selection of wares from Gyosho.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_BANNAM005_03101_SYSTEM_000_140",
+    "original": "Normal-quality items crafted in the course of this quest serve no purpose and cannot be sold. It is recommended that you discard them.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_BANNAM005_03101_SYSTEM_000_141",
+    "original": "Normal-quality items gathered in the course of this quest serve no purpose and cannot be sold. It is recommended that you discard them.",
+    "translation": ""
+  }
+}

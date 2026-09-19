@@ -1,0 +1,847 @@
+{
+  "0": {
+    "tag": "TEXT_AKTKME105_04423_SEQ_00",
+    "original": "Having found the wayward ambystoma, Hermes is the picture of relief.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_AKTKME105_04423_TODO_00",
+    "original": "Speak with Hermes.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_AKTKME105_04423_TODO_01",
+    "original": "Speak with Emet-Selch.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_AKTKME105_04423_TODO_02",
+    "original": "Speak with Meteion.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_AKTKME105_04423_TODO_03",
+    "original": "Speak with Meteion and have her accompany you.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_AKTKME105_04423_TODO_04",
+    "original": "Speak with Memnon while accompanied by Meteion.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_AKTKME105_04423_TODO_05",
+    "original": "Search for idle creations while accompanied by Meteion.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_AKTKME105_04423_TODO_06",
+    "original": "Speak with Euanthe while accompanied by Meteion.",
+    "translation": ""
+  },
+  "31": {
+    "tag": "TEXT_AKTKME105_04423_TODO_07",
+    "original": "Speak with Hermes while accompanied by Meteion.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_AKTKME105_04423_EMETSELCH_000_000",
+    "original": "The tenet of the Words of Mitron is to create aquatic life both unique and beneficial. \u003Chex:021A020203\u003EAquatic\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_AKTKME105_04423_EMETSELCH_000_001",
+    "original": "What would possess them to put this creature in the sky? And is it even aquatic to begin with...?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_AKTKME105_04423_HYTHLODAEUS_000_005",
+    "original": "The ambystoma was submitted to the bureau not long ago, and I\u0027m pleased to see it has found its way here.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_AKTKME105_04423_HYTHLODAEUS_000_006",
+    "original": "We\u0027ll make sure these little ones don\u0027t wander off like their adventurous fellow. Go on and lend Hermes a hand.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_010",
+    "original": "I\u0027m glad they\u0027re safe! Hermes and the ambystoma!",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_AKTKME105_04423_SYSTEM_000_015",
+    "original": "The ambystoma stares at you unflinchingly, as if regarding something novel.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_AKTKME105_04423_SYSTEM_000_016",
+    "original": "Regarding it in turn, you notice that it appears to be floating, if ever so slightly.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_AKTKME105_04423_HERMES_000_020",
+    "original": "Well, we mustn\u0027t keep the others waiting. Let us return to Anagnorisis.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_AKTKME105_04423_EMETSELCH_000_030",
+    "original": "No more errant creations to distract us from matters of actual import, I trust.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_AKTKME105_04423_HYTHLODAEUS_000_035",
+    "original": "\u0027Twas blissfully uneventful in your absence. The little ones were on their best behavior.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_040",
+    "original": "Some creations stay outside. Others stay at Ktisis. Like the ambystomas!",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_AKTKME105_04423_SYSTEM_000_045",
+    "original": "Perhaps it\u0027s only your imagination, but something in the creature\u0027s demeanor bespeaks proud defiance for having gone on an adventure.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_AKTKME105_04423_HERMES_000_050",
+    "original": "My apologies for the trouble. Owing to your kind assistance, all the ambystomas are safe and well.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_AKTKME105_04423_HERMES_000_051",
+    "original": "I will presently send them back to their space, if you would go on ahead to the main building.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_AKTKME105_04423_HERMES_000_052",
+    "original": "Upon entering, you will see a table and chairs\u2500a meeting area. We may speak there.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_AKTKME105_04423_EMETSELCH_000_053",
+    "original": "Very well. Take care not to let the creatures slip away again.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_AKTKME105_04423_HERMES_000_060",
+    "original": "Will you be attending as well? If so, you should join the others at the building.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_AKTKME105_04423_HYTHLODAEUS_000_065",
+    "original": "While Emet-Selch has been accommodating thus far, he is the one who has business with Hermes. If you wish to attend, you will have to ask his permission.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_AKTKME105_04423_EMETSELCH_000_070",
+    "original": "Most would jump at the chance to serve in the Convocation. And yet...",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_AKTKME105_04423_HYTHLODAEUS_000_075",
+    "original": "Don\u0027t mind us, my friend. Please tend to Meteion.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_AKTKME105_04423_HERMES_000_080",
+    "original": "Forgive me. I will make it up to you, I promise.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_090",
+    "original": "I\u0027m sorry, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E... I didn\u0027t want\u2500 Didn\u0027t mean\u2500 \u003Csigh\u003E",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_091",
+    "original": "...A walk. Perhaps we can go for a walk?",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_100",
+    "original": "Hermes gets sad. When he thinks about death.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_101",
+    "original": "When others are sad, I\u0027m sad too. That\u0027s how I am. How he made me.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_102",
+    "original": "But don\u0027t worry. I\u0027m fine now.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_103",
+    "original": "So...why did you come here?",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_104",
+    "original": "You want to learn about Elpis and Hermes? Ooh, ooh, teach you! I can teach you!",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_105",
+    "original": "We could take turns! I tell you something...then you tell me something!",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_AKTKME105_04423_Q1_000_106",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_AKTKME105_04423_A1_000_107",
+    "original": "Sounds like fun!",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_AKTKME105_04423_A1_000_108",
+    "original": "Sure, why not.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_AKTKME105_04423_A1_000_109",
+    "original": "Sounds like a bother...",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_110",
+    "original": "It will be! It will be!",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_111",
+    "original": "Then it\u0027s settled!",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_112",
+    "original": "Awww... I won\u0027t be a bother. So please, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Please!",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_113",
+    "original": "Hehe, you won\u0027t regret it! I\u0027ll teach you lots and lots of things!",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_114",
+    "original": "Um, where to start... Ah, yes! Let\u0027s talk to Memnon. He should be near the aetheryte.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_115",
+    "original": "I\u0027m not good at explaining, but Memnon is. So I\u0027ll have him explain instead.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_AKTKME105_04423_SYSTEM_000_116",
+    "original": "Meteion is now accompanying you. Keep her at your side in order to proceed with quest objectives.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_AKTKME105_04423_SYSTEM_000_117",
+    "original": "You can leave Meteion behind by entering a different area, or by speaking with her and selecting the option to part ways.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_AKTKME105_04423_SYSTEM_000_118",
+    "original": "If you wish to have Meteion accompany you again, return and speak with her at the original location.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_AKTKME105_04423_Q2_000_120",
+    "original": "What will you do?",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_AKTKME105_04423_A2_000_121",
+    "original": "Talk.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_AKTKME105_04423_A2_000_122",
+    "original": "Part ways.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_AKTKME105_04423_A2_000_123",
+    "original": "Nothing.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_AKTKME105_04423_A2_000_125",
+    "original": "\u003Chex:024804F2022403\u003EDiscuss the aetheryte.\u003Chex:0248020103\u003E",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_130",
+    "original": "Let\u0027s go and talk to Memnon. He should be near the aetheryte.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_AKTKME105_04423_Q3_000_135",
+    "original": "Are you sure you wish to part ways with Meteion?",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_136",
+    "original": "Oh, are you busy? Then I\u0027ll wait at the building.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_140",
+    "original": "Ah, you\u0027re back! Let\u0027s go, let\u0027s go!",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_AKTKME105_04423_SYSTEM_000_145",
+    "original": "Meteion has yet to arrive. Be sure she is at your side before attempting to continue.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_150",
+    "original": "Ah, the aetheryte. Anyone can use it to teleport anywhere!",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_151",
+    "original": "Well, maybe not anywhere. Not to the ground or other isles.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_152",
+    "original": "For that, you need teleporters. Oh, and permission!",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_AKTKME105_04423_MEMNON_000_160",
+    "original": "And what have we here...?",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_AKTKME105_04423_SYSTEM_000_161",
+    "original": "You should have Meteion accompanying you before initiating conversation.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_AKTKME105_04423_MEMNON_000_165",
+    "original": "And what have we here...?",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_AKTKME105_04423_MEMNON_000_166",
+    "original": "Though you look like a person, \u003Chex:0209F2011EE948FF1A796F757220616574686572206973207175697465207468696EFF1A796F757220616574686572206973207175697465207468696EFF23796F7520636F756C6420617320656173696C79207061737320666F72206120746F79FF26796F75206861766520746865206561727320616E64207461696C206F662061206265617374FF30796F75206861766520612072656D61726B61626C79206C6172676520616E6420726F62757374207068797369717565FF29796F7520686176652074686520686F726E7320616E64207363616C6573206F662061206265617374FF21796F75206861766520746865206665617475726573206F662061206265617374FF1D796F752068617665207468652065617273206F66206120626561737403\u003E... I assume you are a familiar like Meteion. Is there something you need?",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_167",
+    "original": "This is \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Could you teach \u003Chex:02080DE905FF04686572FF0468696D03\u003E about Elpis?",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_AKTKME105_04423_MEMNON_000_168",
+    "original": "Ah, a newly arrived familiar, is \u003Chex:02080CE905FF04736865FF03686503\u003E? Very well, I should be glad to introduce our fair facility to \u003Chex:02080DE905FF04686572FF0468696D03\u003E.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_AKTKME105_04423_MEMNON_000_169",
+    "original": "As you know, it is mankind\u0027s duty to make the star a better place. As part of this duty, we employ creation magicks to bring forth new life.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_AKTKME105_04423_MEMNON_000_170",
+    "original": "However, we cannot simply release our works into the world, for it would lead to chaos.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_AKTKME105_04423_MEMNON_000_171",
+    "original": "No, any and all life-forms must undergo extensive testing to determine their fitness to exist. Testing which is conducted here in Elpis.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_AKTKME105_04423_MEMNON_000_172",
+    "original": "Every candidate is subjected to rigorous study, in which we identify their properties, surmise what habitats might be suitable, and speculate as to the effects they may have on the environment and other species.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_AKTKME105_04423_MEMNON_000_173",
+    "original": "Should it be judged a beneficial addition to the star, it will be allowed to take its place in the world.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_AKTKME105_04423_MEMNON_000_174",
+    "original": "The two of you, too, were created with the hope of making the star a better place. So heed your masters well and be good, do you hear?",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_175",
+    "original": "We will, Memnon, we will. Thanks for the lesson!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_176",
+    "original": "You had a turn. Now I get a turn!",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_177",
+    "original": "Where did you come from?",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_AKTKME105_04423_Q4_000_178",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_AKTKME105_04423_A4_000_179",
+    "original": "From a place far, far away.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_AKTKME105_04423_A4_000_180",
+    "original": "From a place facing a great threat.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_AKTKME105_04423_A4_000_181",
+    "original": "From the Crystarium...I guess?",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_182",
+    "original": "Hmmm, then I probably don\u0027t know it. I don\u0027t know much about other places.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_183",
+    "original": "Th-There\u0027s such a place? I had no idea...",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_184",
+    "original": "Crys...tarium? I\u0027ve never heard of it.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_185",
+    "original": "But this place is important to you. I can feel it.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_186",
+    "original": "Oh, my power! I haven\u0027t told you about it.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_187",
+    "original": "A creation. Let\u0027s find a creation. One not being watched. Then I\u0027ll explain my power!",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_AKTKME105_04423_A5_000_190",
+    "original": "\u003Chex:024804F2022403\u003EDiscuss the spriggans.\u003Chex:0248020103\u003E",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_195",
+    "original": "Let\u0027s find a creation. One not being watched. Then I\u0027ll explain my power!",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_200",
+    "original": "...Spriggans? What are spriggans?",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_201",
+    "original": "Oh no, we call them oreiai. If there\u0027s many. If it\u0027s just one, we say oreias!",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_202",
+    "original": "Though they\u0027re cute, they can be naughty.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_203",
+    "original": "Sometimes, they run off with concept crystals. And Hermes has to run after them!",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_AKTKME105_04423_MEMNON_000_210",
+    "original": "The desire to learn is a good thing. I wish you well in your endeavors, my dear familiar.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_AKTKME105_04423_BALAENICEPSREX_000_220",
+    "original": "...",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_230",
+    "original": "Oh! This creation is perfect!",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_231",
+    "original": "But...I don\u0027t remember seeing it before. Perhaps it\u0027s new?",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_232",
+    "original": "Anyway, I\u0027ll try reading its mind. That\u0027s my power!",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_233",
+    "original": "Hmmm... I can\u0027t read it. Or maybe...there\u0027s nothing to read?",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_234",
+    "original": "Wait... Please, wait... I\u0027ll try again. With you this time...",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_235",
+    "original": "Greetings! Can you hear me?",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_236",
+    "original": "This is my power. I can read the emotions of those around me, and project my emotions to others in return.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_237",
+    "original": "I am not actually speaking to you in your mind. Rather, you are converting my emotions into words and intention\u2500a process performed subconsciously by intelligent life-forms.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_238",
+    "original": "This ability is vital to my mission, for it allows me to interact with intelligent beings even should they communicate via unknown languages or other nonverbal means.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_239",
+    "original": "As a consequence, I am clumsy at speaking...",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_240",
+    "original": "Yet though I struggle to express myself in this fashion, Hermes wants me to speak as much as possible, for everyone has thoughts and feelings that they may wish to hide...",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_241",
+    "original": "I harbor an affection for you. One that is difficult to define.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_242",
+    "original": "Aside from the fact that you share common traits with us, your thoughts are complex. Prismatic. They draw me in, and leave me wanting to know more.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_243",
+    "original": "Out of respect for your privacy, I will refrain from using my power when speaking with you. Nevertheless, I want you to know that I wish to be your friend.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_244",
+    "original": "Did you...hear me?",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_245",
+    "original": "Heh heh, good! Now it\u0027s my turn again! So...what are you good at?",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_AKTKME105_04423_Q6_000_246",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_AKTKME105_04423_A6_000_247",
+    "original": "Fighting.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_AKTKME105_04423_A6_000_248",
+    "original": "Crafting.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_AKTKME105_04423_A6_000_249",
+    "original": "Gathering.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_AKTKME105_04423_A6_000_250",
+    "original": "Playing.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_AKTKME105_04423_A6_000_251",
+    "original": "It\u0027s a secret!",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_255",
+    "original": "Ooh, fighting! That must mean you\u0027re strong!",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_256",
+    "original": "Hermes is strong too. But he doesn\u0027t like to fight. Even when creations fight him.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_260",
+    "original": "Oh, not creating...but crafting? Putting things together with your hands...",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_261",
+    "original": "That sounds like fun! I can\u0027t use creation magicks. But maybe I can learn to craft!",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_265",
+    "original": "Ooh, gathering! I like gathering too!",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_266",
+    "original": "What do you gather? Where do you go? How do you get there? Do you fly too!?",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_270",
+    "original": "Playing? I\u0027m still not sure what that means...",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_271",
+    "original": "Hermes says, \u201CLet\u0027s play.\u201D But then he goes for a walk. Or looks at creations. It\u0027s fun, but no different from work.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_272",
+    "original": "Ooh, a secret! That\u0027s something you want to hide! Just leave it to me...",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_273",
+    "original": "There! I\u0027ve blocked it out. I can\u0027t block everything\u2500not strong feelings. But that wasn\u0027t too strong.",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_274",
+    "original": "I-I think we might be bothering it...",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_275",
+    "original": "Let\u0027s keep going. We\u0027ll go and see Euanthe next. She\u0027s usually in a small building. One on the west row.",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_280",
+    "original": "Let\u0027s go and see Euanthe. She\u0027s usually in a small building. One on the west row.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_AKTKME105_04423_BALAENICEPSREX_000_290",
+    "original": "...",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_AKTKME105_04423_EUANTHE_000_300",
+    "original": "Well now, I don\u0027t believe I\u0027ve seen you before.",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_AKTKME105_04423_EUANTHE_000_305",
+    "original": "Well, well, if it isn\u0027t Meteion. I see you\u0027ve brought a friend today.",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_306",
+    "original": "Greetings, Euanthe! Um, an apple. Could you make me an apple?",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_307",
+    "original": "The kind Hermes likes. Covered in syrup. I want to share it with \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_AKTKME105_04423_EUANTHE_000_308",
+    "original": "Oh, candied apple? Hermes is certainly partial to them, but you know you can\u0027t eat, Meteion. You weren\u0027t made to do so.",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_309",
+    "original": "B-But I like it too...",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_AKTKME105_04423_EUANTHE_000_310",
+    "original": "It may seem that way, but it\u0027s due to your ability to share others\u0027 feelings. You\u0027ve taken Hermes\u0027s likes for your own.",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_AKTKME105_04423_EUANTHE_000_311",
+    "original": "In any case, I can\u0027t prepare an apple right now, but I\u0027ll bring one for Hermes soon. I promise.",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_312",
+    "original": "I\u0027m sorry, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E... I wanted to show you my favorite thing. Then I could ask about yours. But I failed...",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_AKTKME105_04423_Q7_000_313",
+    "original": "What will you do?",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_AKTKME105_04423_A7_000_314",
+    "original": "Tell her what you like.",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_AKTKME105_04423_A7_000_315",
+    "original": "Say nothing.",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_316",
+    "original": "Ooh, that\u0027s what you like? Yes... Yes, I can feel it! Your joy and happiness!",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_317",
+    "original": "And it makes me happy too! Thanks for sharing it with me, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_318",
+    "original": "Well, we\u0027ve walked and talked a lot. Maybe Hermes has finished talking too. Shall we go and see?",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_319",
+    "original": "Well, we\u0027ve walked and talked a lot. Maybe Hermes has finished talking too. Shall we go and see?",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_330",
+    "original": "I hope Hermes isn\u0027t sad anymore...",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_AKTKME105_04423_EUANTHE_000_340",
+    "original": "Between you and me, Hermes\u0027s eating habits are atrocious. We may not be reliant upon food to the extent that our smaller creations are, but our diets eventually catch up with us.",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_AKTKME105_04423_EUANTHE_000_341",
+    "original": "If we don\u0027t consume the requisite balance of nutrients, we grow weak and lethargic. Yet Hermes consumes candied apples as if they were a staple...",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_AKTKME105_04423_EMETSELCH_000_345",
+    "original": "What, back already? Pity. A bit longer and we might have snuck away without you...",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_AKTKME105_04423_HYTHLODAEUS_000_350",
+    "original": "Ah, excellent timing. \u0027Twas a refreshing constitutional, I hope?",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_AKTKME105_04423_HERMES_000_360",
+    "original": "Is Meteion still outside?",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_AKTKME105_04423_HERMES_000_365",
+    "original": "There you are. I can see the fresh air has done Meteion good.",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_366",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E wanted to learn about you and Elpis. So I taught \u003Chex:02080DE905FF04686572FF0468696D03\u003E!",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_367",
+    "original": "About this place. About my power. About your favorite food!",
+    "translation": ""
+  },
+  "197": {
+    "tag": "TEXT_AKTKME105_04423_HERMES_000_368",
+    "original": "I\u0027m not sure if that last one will be of any use...",
+    "translation": ""
+  },
+  "198": {
+    "tag": "TEXT_AKTKME105_04423_HERMES_000_369",
+    "original": "But I do appreciate your keeping Meteion company. While you were away, I finished speaking with our guests.",
+    "translation": ""
+  },
+  "199": {
+    "tag": "TEXT_AKTKME105_04423_EMETSELCH_000_370",
+    "original": "Finished? Hardly. You requested time to consider the invitation, so we have no choice but to occupy ourselves with an inspection of your work.",
+    "translation": ""
+  },
+  "200": {
+    "tag": "TEXT_AKTKME105_04423_HERMES_000_371",
+    "original": "My apologies...",
+    "translation": ""
+  },
+  "201": {
+    "tag": "TEXT_AKTKME105_04423_HERMES_000_372",
+    "original": "It has been decided that Emet-Selch and Hythlodaeus will accompany me as I tend to my duties.",
+    "translation": ""
+  },
+  "202": {
+    "tag": "TEXT_AKTKME105_04423_HERMES_000_373",
+    "original": "If you wish to learn more, perhaps you would like to come too?",
+    "translation": ""
+  },
+  "203": {
+    "tag": "TEXT_AKTKME105_04423_EMETSELCH_000_374",
+    "original": "I\u0027m compelled to remind you that \u003Chex:02080CE905FF04736865FF03686503\u003E is in no way associated with the Convocation. We simply chanced to meet at Propylaion.",
+    "translation": ""
+  },
+  "204": {
+    "tag": "TEXT_AKTKME105_04423_EMETSELCH_000_375",
+    "original": "There is no guarantee that the matters we discuss will remain private.",
+    "translation": ""
+  },
+  "205": {
+    "tag": "TEXT_AKTKME105_04423_HERMES_000_376",
+    "original": "I do not mind. To see the joy \u003Chex:02080DE905FF04686572FF0468697303\u003E presence brings Meteion, I cannot imagine our mysterious friend harbors malicious intent.",
+    "translation": ""
+  },
+  "206": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_377",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E is kind. Really, truly! \u003Chex:02080CE905FF04536865FF03486503\u003E taught me as much as I taught \u003Chex:02080DE905FF04686572FF0468696D03\u003E!",
+    "translation": ""
+  },
+  "207": {
+    "tag": "TEXT_AKTKME105_04423_METEION_000_378",
+    "original": "You\u0027re coming, of course? To watch Hermes? You\u0027re bound to learn lots and lots!",
+    "translation": ""
+  }
+}

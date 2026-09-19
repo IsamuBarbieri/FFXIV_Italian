@@ -1,0 +1,602 @@
+{
+  "0": {
+    "tag": "TEXT_KINGBA121_04820_SEQ_00",
+    "original": "Tentoawa has a worried expression on his face.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_KINGBA121_04820_SEQ_01",
+    "original": "Tentoawa asks your advice about a letter he plans to write to Loazenikwe, and after some words of encouragement he reveals that the effect of the cradle may soon wear off and after it does, he must sleep. You ponder the implications of this before Firmalbert arrives to inform you that more Temple Knights have been found asleep while on guard duty. Tentoawa finds this obsession with shaming the knights peculiar, and suggests that following them might be an effective way to track down Leophyne. As luck would have it, Firmalbert knows that a group of Temple Knights is even now joining knights from House Durendaire to patrol the ruins of Gorgagne Mills. You decide to assist them, and Firmalbert instructs you to speak with Redwald before departing for the mills.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_KINGBA121_04820_SEQ_02",
+    "original": "Redwald listens to your story attentively and informs you that a group of knights has already left for Gorgagne Mills. If you set out now, you may reach them before they run afoul of any sleep-inducing relics.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_KINGBA121_04820_SEQ_03",
+    "original": "You arrive at the entrance of Gorgagne Mills to see Tentoawa kneeling before a trio of insensate knights. While they appear unharmed, Tentoawa warns you to be on the lookout for Leophyne, and instructs you to search the nearby building for any more members of the party.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_KINGBA121_04820_SEQ_04",
+    "original": "As you explore the dilapidated building, you hear a yell from the basement. Following the source of the sound, you encounter two House Durendaire scouts being accosted by a pair of thugs. You quickly dispatch the interlopers, but the scouts seem shaken by the incident. A helping hand ought to get them on their feet.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_KINGBA121_04820_SEQ_05",
+    "original": "The House Durendaire scouts thank you before urging you to go stand guard with the Temple Knights. As you exit the building into the endless snow, you see an approaching woman whose scar marks her as Leophyne. After a heated exchange, Tentoawa draws his weapon, but soon falls victim to the artifact\u0027s influence, collapsing into a deep sleep. Leophyne appears energized, and after a few cryptic words, leaves her thugs to finish off you and the dazed knights.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_KINGBA121_04820_SEQ_06",
+    "original": "The thugs fall to your might, and while the knights seem to be regaining their senses, Tentoawa remains motionless. Perhaps a shake can rouse him awake.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_KINGBA121_04820_SEQ_07",
+    "original": "Despite your best efforts, Tentoawa\u0027s slumber remains absolute. The Temple Knights offer to carry him to the Congregation, where Firmalbert awaits to hear what transpired at Gorgagne Mills.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_KINGBA121_04820_SEQ_08",
+    "original": "Firmalbert assures you that Tentoawa will be safe under guard until he awakens. In the meantime, he is resolved to find out where Leophyne is hiding and to end her scheme to turn the Temple Knights into a laughingstock.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe next role quest will be available from Firmalbert upon reaching level 96 in any tank class.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_KINGBA121_04820_TODO_00",
+    "original": "Speak with Redwald at Falcon\u0027s Nest.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_KINGBA121_04820_TODO_01",
+    "original": "Speak with Tentoawa.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_KINGBA121_04820_TODO_02",
+    "original": "Survey Gorgagne Mills and defeat any enemies that appear.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_KINGBA121_04820_TODO_03",
+    "original": "Aid the House Durendaire scout.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_KINGBA121_04820_TODO_04",
+    "original": "Defeat the thugs.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_KINGBA121_04820_TODO_05",
+    "original": "Aid Tentoawa.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_KINGBA121_04820_TODO_06",
+    "original": "Speak with Firmalbert in Ishgard.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_001",
+    "original": "We now know what our enemy is capable of, and must plan accordingly. Rest assured we shall not rest until Leophyne is in shackles!",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_010",
+    "original": "Ah, just the person I wanted to see. I\u0027d like to ask your advice on a certain matter, if you don\u0027t mind.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_011",
+    "original": "It\u0027s been a while since my last letter to Loazenikwe. I wanted to wait until I discovered something worth sharing to write her, but we\u0027re still completely in the dark. I don\u0027t want her to worry, but I don\u0027t know what to tell her.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_KINGBA121_04820_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_KINGBA121_04820_A1_000_001",
+    "original": "Tell her you\u0027re in good spirits\u2500that will suffice.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_KINGBA121_04820_A1_000_002",
+    "original": "Whatever you write, don\u0027t make her wait too long.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_013",
+    "original": "...You might be right. Silence might make her think that something terrible has happened.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_014",
+    "original": "Good advice, as usual. I wish we had even a single thread to grasp, but an unexciting letter is better than none at all.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_015",
+    "original": "All right, I\u0027ll start right away. I may not have much time left...",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_016",
+    "original": "Oh, don\u0027t misunderstand\u2500it\u0027s nothing so grave as that! It\u0027s just...the last time I used the cradle was just before it was stolen.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_017",
+    "original": "Luckily, I\u0027m still as alert as I\u0027ve ever been, but it won\u0027t be long until I must dream like any other.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_018",
+    "original": "That will give Leophyne free rein while I\u0027m helpless in bed. There is no quarry more dangerous than one who doesn\u0027t sleep. We have to see this through before that happens.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_019",
+    "original": "\u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E, Master Tentoawa. We have received reports that several groups of Temple Knights have fallen afoul of what can only be your stolen artifact.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_020",
+    "original": "Several? Let me guess\u2500they were all guarding someone else.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_021",
+    "original": "You would be correct.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_022",
+    "original": "It is the duty of a knight to protect those who cannot protect themselves. If we fail at even that most basic function, then our honor means nothing.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_023",
+    "original": "As if the incident near Camp Dragonhead was not shameful enough, the knights in these most recent attacks were left in...quite compromising positions. ",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_024",
+    "original": "Yet the weight of embarrassment is a trifle compared to the guilt we would bear if any innocent came to harm. The Fury was merciful in that respect, but we would rather not see these incidents repeat.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_025",
+    "original": "Still, while the Temple Knights must work to repair their reputation in the days ahead, \u0027tis a far cry from bringing Ishgard crumbling to its knees. Truth be told, the methods of this Passage of the Unbound leave me mystified.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_026",
+    "original": "But Leophyne was cunning, if nothing else. Till we can discern her true motivations, we have little recourse but to wait until she makes a mistake.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_KINGBA121_04820_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_KINGBA121_04820_A2_000_001",
+    "original": "Perhaps she gets her jollies seeing people humiliated.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_KINGBA121_04820_A2_000_002",
+    "original": "She may be testing the limit of the artifact\u0027s powers.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_028",
+    "original": "Hmm... Many among the knights have suggested the same. Leophyne may be part of this esoteric order, but she has ever been one to put her own interests first and foremost.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_029",
+    "original": "The cradle is a tool of peace, yet Leophyne uses it for childish pranks! She makes a mockery of its sacred power...we have to get it out of her clutches!",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_030",
+    "original": "Then you suggest she has a greater purpose in mind for it, and these incidents are simply a prelude... We cannot discount that theory, I admit. We shall remain vigilant.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_031",
+    "original": "There\u0027s no telling how much chaos she can sow if left unchecked. We have to do everything we can to get the cradle out of her clutches!",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_032",
+    "original": "And to do that, we have to start asking the right questions. This new information makes me wonder\u2500why has she focused her attention on the Temple Knights?",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_033",
+    "original": "I have pondered the same. Posted at Camp Dragonhead are knights from many houses of repute, including House Fortemps.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_034",
+    "original": "Being a former Temple Knight herself, Leophyne doubtless knows their habits and training. Perhaps that makes it easier for her to exploit their weaknesses.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_035",
+    "original": "Then if we follow the knights, we may pick up her trail. It\u0027s not ideal, but it\u0027s the best we have to go on.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_037",
+    "original": "Well... A large contingent of knights has but recently been dispatched to Coerthas.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_100_037",
+    "original": "You remember Gorgagne Mills, yes? It has lain abandoned ever since the heretics were driven from it.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_038",
+    "original": "Yet there is ever the risk that unsavory elements might infest it once again. Thus have the Temple Knights planned joint patrols of its premises with other contingents. If you speak with Ser Redwald at Falcon\u0027s Nest, I am certain he would be glad to have you along.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_040",
+    "original": "Falcon\u0027s Nest is the charge of House Durendaire. Go there and speak with Ser Redwald, who should be most eager to have more help.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_KINGBA121_04820_REDWALD_000_100",
+    "original": "Is that \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E I see? Of course, you are ever welcome in Falcon\u0027s Nest. Yet I believe I do not know your companion here...",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_KINGBA121_04820_REDWALD_000_101",
+    "original": "Indeed, whispers of the Temple Knights\u0027 humiliations have reached us even here. Falling asleep while on duty...I dared not believe the stories, but it seems there was truth in them after all.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_102",
+    "original": "They fell asleep, true, but it wasn\u0027t their fault. We suspect they fell victim to an enemy wielding a powerful artifact.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_KINGBA121_04820_REDWALD_000_103",
+    "original": "Now, the rumors failed to mention anything like that. If it can lull even trained warriors to sleep, then we must treat it as a serious threat.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_KINGBA121_04820_REDWALD_000_104",
+    "original": "Nevertheless, if one knight falls, another is always at the ready to take their place. So long as this artifact cannot put an entire regiment under its spell, I believe we are well positioned to combat it.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_105",
+    "original": "Interesting. The idea of your allies falling in battle doesn\u0027t seem to disturb you at all. Where I hail from, a single warrior is responsible for the safety of his entire village.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_KINGBA121_04820_REDWALD_000_106",
+    "original": "Make no mistake, we do not doubt our allies\u0027 mettle, and we mourn every loss. Yet each man and woman here knows that if they must quit the battle, another sword just as fierce will take their place.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_107",
+    "original": "To know that an ally is at your back...it would allow you to fight with abandon.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_KINGBA121_04820_REDWALD_000_108",
+    "original": "Now, you believe this Leophyne might take interest in our activities at Gorgagne Mills, yes? A party has already left, accompanied by a group of Temple Knights.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_KINGBA121_04820_REDWALD_000_109",
+    "original": "If your suspicions are correct, then they are at risk. I would ask that you follow in their tracks and ensure they have not fallen victim to foul play.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_KINGBA121_04820_REDWALD_000_110",
+    "original": "The mills can be found to the north, just across the Black Iron Bridge. The party should be arriving there soon, conditions permitting.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_111",
+    "original": "We have to reach them before Leophyne does!",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_KINGBA121_04820_REDWALD_000_115",
+    "original": "I can only hope that all is well, but having you there would do much to set my heart at ease.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_200",
+    "original": "We\u0027re too late! They\u0027re fast asleep!",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_201",
+    "original": "But Redwald gave the impression there were more... These knights must have been the lookouts.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_202",
+    "original": "We should awaken them, but keep your eyes peeled for Leophyne. I\u0027ll rouse these ones\u2500\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, you search that building yonder.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_KINGBA121_04820_REDWALD_000_205",
+    "original": "They were attacked already!? I shall muster reinforcements at once\u2500until we arrive, I leave Gorgagne Mills in your hands.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_210",
+    "original": "They haven\u0027t been left in embarrassing positions, but this bears Leophyne\u0027s mark all the same.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_215",
+    "original": "I\u0027ll rouse this lot awake. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, you search that building over there!",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_KINGBA121_04820_HOUSEDURENDAIRESCOUT_000_220",
+    "original": "(-Frightened Voice-)Wh-Who the hells are you!? How\u0027d you get past the guards!?",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_300",
+    "original": "You heard a voice from the basement? Then why are you talking to me? Go and help!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_KINGBA121_04820_HOUSEDURENDAIRESCOUT_000_400",
+    "original": "It\u0027s...It\u0027s you! Thank the Fury you arrived when you did! Those thugs struck when our backs were turned...",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_KINGBA121_04820_HOUSEDURENDAIRESCOUT_000_401",
+    "original": "I assumed the Temple Knights were protecting the entrance, so I wasn\u0027t as cautious as I should\u0027ve been. Were...Were they killed?",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_KINGBA121_04820_HOUSEDURENDAIRESCOUT_000_402",
+    "original": "Sleeping!? I\u0027ve heard the stories, of course, but I didn\u0027t think they were true...",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_KINGBA121_04820_HOUSEDURENDAIRESCOUT_000_403",
+    "original": "Whomever is behind this, I\u0027m sure they didn\u0027t count on you showing up. For now, we shall tend to our wounds and then finish our inspection here. \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E, I ask that you join the knights outside and wait until we\u0027re finished.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_KINGBA121_04820_LEOPHYNE_000_404",
+    "original": "(-Menacing Woman-)Ah, as I thought. Just when I was becoming bored, I sighted a familiar face among these slumbering knights. I simply had to come and make sure it was you.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_405",
+    "original": "You\u0027ve finally found the courage to show yourself! Hand over the cradle now, and I won\u0027t kill you!",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_KINGBA121_04820_LEOPHYNE_000_406",
+    "original": "(-Menacing Woman-)What did they call you, again? \u201CThe Wide Eye.\u201D You must have had quite the journey to come this far.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_407",
+    "original": "Be careful, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! This is our quarry\u2500the thief who stole the Cradle of the Sleepless. This is Leophyne!",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_KINGBA121_04820_LEOPHYNE_000_408",
+    "original": "\u003Chex:021A020203\u003EThat\u003Chex:021A020103\u003E is your ally? \u003Chex:0209F202CAE948FF5F5768617420736F6464656E2074617665726E2064696420796F752064726167207468656D206F7574206F663F204920646172657361792074686579207365656B20796F757220617274696661637420666F72207468656D73656C7665732EFF5F5768617420736F6464656E2074617665726E2064696420796F752064726167207468656D206F7574206F663F204920646172657361792074686579207365656B20796F757220617274696661637420666F72207468656D73656C7665732EFF53596F752068616420746F2061736B2061206368696C6420666F722068656C703F20506572686170732074686579207365656B20746F20706C61792077697468207468697320746F79206F6620796F7572732EFF4557617265207468656972206E696D626C652068616E64732E2054686579206D6179207365656B20796F757220617274696661637420666F72207468656D73656C7665732EFF4E4D6F7265206D7573636C65207468616E20627261696E732E20596574206576656E2074686579206D6179207365656B20796F757220617274696661637420666F72207468656D73656C7665732EFF4557617265207468656972206E696D626C652068616E64732E2054686579206D6179207365656B20796F757220617274696661637420666F72207468656D73656C7665732EFF6E5768617420666C65612D72696464656E206B656E6E656C2064696420796F7520726573637565207468656D2066726F6D3F2041726520796F752073757265207468657920646F206E6F74207365656B20796F757220617274696661637420666F72207468656D73656C7665733FFF6954686569722061726D7320686172646C79206C6F6F6B2066697420746F20686F6C6420612073776F72642E2057686F20697320746F20736179207468657920646F206E6F74207365656B20796F757220617274696661637420666F72207468656D73656C7665733F03\u003E",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_KINGBA121_04820_LEOPHYNE_000_409",
+    "original": "It matters not, I suppose. Before you both throw your lives away, I suggest you think for a moment. Is the cause you fight for worth the sacrifice?",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_KINGBA121_04820_LEOPHYNE_000_410",
+    "original": "So few of us know true freedom. If there is aught you would grasp with your own hands, do so before they wither and your eyes shut for the last time.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_KINGBA121_04820_LEOPHYNE_000_411",
+    "original": "The codes and rules that would bind men are mere illusions. Open your eyes\u2500truly open them\u2500and you shall see a path all your own. Only a fool would waste their life in the struggle of another.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_412",
+    "original": "Quit spouting nonsense!",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_KINGBA121_04820_LEOPHYNE_000_413",
+    "original": "Nonsense? Perhaps. I am here because of another, after all\u2500Apyaahi, who came to me at the height of my debauchery and welcomed me into her devious brotherhood. She guided me to great power, yes, and now I lead others upon the unbound path.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_KINGBA121_04820_LEOPHYNE_100_413",
+    "original": "Yet truth be told, I have little interest in seeing where it ends. To tear down the world\u0027s nations\u2500Ishgard among them\u2500and usher the world into... Well, what does it matter?",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_KINGBA121_04820_LEOPHYNE_000_414",
+    "original": "Yet I \u003Chex:021A020203\u003Edo\u003Chex:021A020103\u003E derive great pleasure in shaming the Temple Knights. In seeing the snickers and jeers deflate their pompous stride as they walk down the streets. If this artifact can hasten their fall from grace, I believe I shall keep it.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_415",
+    "original": "I know the path I walk\u2500the one that leads to your downfall!",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_416",
+    "original": "And I won\u0027t abandon it. I\u0027ll take the cradle back.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_000_417",
+    "original": "And then I\u0027ll...",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_KINGBA121_04820_TENTOAWA_100_417",
+    "original": "I\u0027ll...",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_KINGBA121_04820_LEOPHYNE_000_418",
+    "original": "Oh, dear. You seem to have lost your train of thought. I know you cannot hear me, but if you want your artifact back, I might suggest stealing it from me while I\u0027m asleep. But considering the burden I have just passed to you, that opportunity may not come for some time yet!",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_KINGBA121_04820_LEOPHYNE_000_419",
+    "original": "Why, I feel absolutely \u003Chex:021A020203\u003Etranscendent\u003Chex:021A020103\u003E. To think the shackles of fatigue weighed so heavily...",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_KINGBA121_04820_LEOPHYNE_000_420",
+    "original": "Alas, it appears the artifact needs its own repose of sorts. No matter\u2500I have learned more than enough to take my next step.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_KINGBA121_04820_LEOPHYNE_000_421",
+    "original": "See to it that this lot is disposed of\u2500\u0027tis the least you can do for the freedom I have given you.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_KINGBA121_04820_HOUSEDURENDAIRESCOUT_000_425",
+    "original": "The enemy, here!? Don\u0027t worry about us\u2500save the others!",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_KINGBA121_04820_HOUSEDURENDAIRESCOUT_000_500",
+    "original": "I heard fighting, but it seems you made it through unscathed. Our wounds are mended, so we\u0027ll be up soon to render what aid we can!",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_KINGBA121_04820_SYSTEM_000_600",
+    "original": "Try as you might to rouse Tentoawa, he seems completely detached from the waking world.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_KINGBA121_04820_HOUSEDURENDAIRESCOUT_000_601",
+    "original": "It looks like you\u0027ve saved us twice today. Thank you.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_KINGBA121_04820_HOUSEDURENDAIRESCOUT_000_602",
+    "original": "But what of him?",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_KINGBA121_04820_TEMPLEKNIGHT04820A_000_603",
+    "original": "Fast asleep...just as we were. Could this be what Ser Firmalbert warned us of in his report?",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_KINGBA121_04820_TEMPLEKNIGHT04820A_000_604",
+    "original": "...I see. Then those stories are more than just wicked rumors. I suppose there is some small comfort in the fact that our enemy tipped their hand without causing loss of life.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_KINGBA121_04820_TEMPLEKNIGHT04820B_000_605",
+    "original": "While the drowsiness made my eyes heavy, my ears could not mistake Leophyne\u0027s arrogant voice. If she would not scruple to attack former comrades-in-arms, then she has fallen farther than I had dared imagine.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_KINGBA121_04820_TEMPLEKNIGHT04820A_000_606",
+    "original": "Yet we bear the blame for allowing her to get the upper hand, and in so doing put innocent lives in danger. Another black mark on our order...",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_KINGBA121_04820_TEMPLEKNIGHT04820B_000_607",
+    "original": "\u0027Twas only thanks to you and your companion\u0027s efforts that the snow was not stained red this day. At the very least, allow us to carry him to the Congregation.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_KINGBA121_04820_HOUSEDURENDAIRESCOUT_000_608",
+    "original": "Our work here is done, so we shall accompany them as far as Falcon\u0027s Nest. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, pray return to Ishgard and look after your friend.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_KINGBA121_04820_REDWALD_000_610",
+    "original": "The scouts have apprised us of what transpired at Gorgagne Mills. Rest assured, if we uncover aught of Leophyne\u0027s movements, we shall notify you straightaway.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_700",
+    "original": "Full glad I am to see you well, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E. I understand you come fresh from an encounter with none other than Leophyne.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_701",
+    "original": "Master Tentoawa now rests on the second floor. We shall stand vigil by his side every moment until he opens his eyes again.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_702",
+    "original": "We should not have long to wait, but if you wish to check on him, please do so at your leisure.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_703",
+    "original": "There is another matter to discuss. Just before your departure to Gorgagne Mills, it seems there was another incident.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_704",
+    "original": "A group of criminals were released from their cells, their guards found in a deep sleep. Doubtless Leophyne was behind this.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_705",
+    "original": "And doubtless the ruffians you clashed with were these selfsame criminals. Leophyne is gathering those who bear a grudge against the Temple Knights to her side, and using this animosity to her advantage.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_706",
+    "original": "We now know for certain that Leophyne is the mastermind of these attacks, and that her aim is to chip away at the very foundation of the Temple Knights\u2500our honor.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_707",
+    "original": "When I shared these revelations with my superiors, \u0027twas decided that none would speak publicly of the artifact and its powers.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_100_707",
+    "original": "The Passage of the Unbound seeks to overthrow the nations of the world. One obvious method to achieve this goal would be to stoke the flames of unrest among the commonfolk, thus sinking Ishgard into a mire of chaos and distrust.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_708",
+    "original": "The Passage of the Unbound seeks to overthrow the nations of the world. One obvious method to achieve this goal would be to stoke the flames of unrest among the commonfolk, thus sinking Ishgard into a mire of chaos and distrust. Not unlike the blasphemies of the Final Days...",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_709",
+    "original": "So long as these failures are placed squarely on the shoulders of the Temple Knights, we can avoid fomenting a more abiding mistrust in the nation\u0027s very core. For Ishgard\u0027s peace, I would gladly suffer any disgrace!",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_KINGBA121_04820_FIRMALBERT_000_710",
+    "original": "The question remains as to whether we can apprehend Leophyne before she tears our reputation to tatters. While Master Tentoawa slumbers, it falls to us to search for clues that might point towards her whereabouts.",
+    "translation": ""
+  }
+}

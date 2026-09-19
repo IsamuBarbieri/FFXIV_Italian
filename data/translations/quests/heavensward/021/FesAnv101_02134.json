@@ -1,0 +1,562 @@
+{
+  "0": {
+    "tag": "TEXT_FESANV101_02134_SEQ_00",
+    "original": "An untimely bug infestation has Nonora tearing her hair out.\u003Chex:02100103\u003E\u203BThis quest is available for a limited time only.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_FESANV101_02134_SEQ_01",
+    "original": "You learn from Nonora, a concerned citizen of Ul\u0027dah, that an invasion of insectoid machines threatens to disrupt the realm\u0027s anniversary celebrations. Participate in the FATE \u201CRecurring Bugs\u201D taking place northwest of Black Brush Station in central Thanalan, or in Nophica\u0027s Wells in western Thanalan.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that you will not be able to complete this quest after the seasonal event has ended. For details, check the Lodestone.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_FESANV101_02134_SEQ_02",
+    "original": "You fight at the wandering minstrel\u0027s side, and turn back the wave of insectoid invaders. Return to the Ruby Road Exchange and report to Nonora.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_FESANV101_02134_SEQ_03",
+    "original": "You relay your victory to an appreciative Nonora, but the wandering minstrel is swift to put your achievement into perspective\u2500unless a permanent solution is found, the bugs will continue to proliferate. Take the bug scrap you discovered to the wandering composer nearby, and ask him for his interpretation of the strange sound the object emits.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_FESANV101_02134_SEQ_04",
+    "original": "The itinerant composer discerns a definite rhythm and melody amid the noise, and notes a sequence of unfamiliar symbols on the scrap which seem to change in time to the sound. He suggests speaking with his acquaintance\u2500a translator\u2500who may be able to decipher the message. Locate the wandering translator in Arrzaneth Ossuary, and show him the bug scrap.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_FESANV101_02134_SEQ_05",
+    "original": "After peering intently at the symbols on the scrap, the translator deciphers two distinct themes: \u201Cproliferation\u201D and \u201Ccommand.\u201D Unsure of the significance of these words, however, he recommends you speak with yet another visitor to Ul\u0027dah whose eclectic knowledge of ancient civilizations may hold the answers you seek. Find the wandering author and request his assistance.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_FESANV101_02134_SEQ_06",
+    "original": "You recount your predicament to the visiting author who is reminded of a passage he came across while researching for a novella set in ancient Allag. It seems that the Allagans once developed a mechanism that allowed for the mass production of mechanical armaments. Seek out the wandering engineer at the Goldsmiths\u0027 Guild, and invite him to speculate upon the exact nature of the mechanism at work.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_FESANV101_02134_SEQ_07",
+    "original": "After explaining the purpose of the signal emitted by the scrap, the engineer reasons that playing a specific melody upon the bugs\u0027 defeat could interfere with the replication command. Take the scrap and the engineer\u0027s report, and return to the wandering minstrel at the Ruby Road Exchange.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_FESANV101_02134_SEQ_08",
+    "original": "You hand the engineer\u0027s report to the waiting minstrel, and share with him the rest of your findings. Inspired by the talented souls that jointly crafted a solution to the bug problem, he feels moved to compose an ode on the spot. The song has scarcely begun, however, when your mind is whisked away to another world introduced to you as the \u201CEighteenth Floor.\u201D When you are ready, approach the man in charge of this strange place: one \u201CNaoki Yoshida.\u201D",
+    "translation": ""
+  },
+  "9": {
+    "tag": "TEXT_FESANV101_02134_SEQ_09",
+    "original": "On behalf of the Eighteenth Floor\u0027s resident creators, Naoki Yoshida thanks you for your heroic deeds in the realm of Eorzea. Before you can ask how he and his colleagues came to hear of your tale, you awaken in Ul\u0027dah as if nothing had happened. Unperturbed, you resolve to enjoy the festivities and evening fireworks alongside Nonora and the wandering minstrel. May the souls lost to the Calamity find peace in the realm\u0027s rebirth.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_FESANV101_02134_TODO_00",
+    "original": "Participate in the FATE \u201CRecurring Bugs\u201D in central or western Thanalan.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_FESANV101_02134_TODO_01",
+    "original": "Return to Nonora in Ul\u0027dah.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_FESANV101_02134_TODO_02",
+    "original": "Show the bug scrap to the wandering composer.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_FESANV101_02134_TODO_03",
+    "original": "Show the bug scrap to the wandering translator.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_FESANV101_02134_TODO_04",
+    "original": "Show the bug scrap to the wandering author.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_FESANV101_02134_TODO_05",
+    "original": "Show the bug scrap to the wandering engineer at the Goldsmiths\u0027 Guild.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_FESANV101_02134_TODO_06",
+    "original": "Hand the bug scrap and the engineer\u0027s report to the wandering minstrel at the Ruby Road Exchange.",
+    "translation": ""
+  },
+  "31": {
+    "tag": "TEXT_FESANV101_02134_TODO_07",
+    "original": "Speak with Naoki Yoshida.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_FESANV101_02134_NONORA_000_000",
+    "original": "Your pardon, \u003Chex:02080EE905FF056D697373FF0473697203\u003E. You are an adventurer, yes? Then I take it you have heard about the bug infestation?",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_FESANV101_02134_Q1_000_000",
+    "original": "Have you heard about the bug infestation?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_FESANV101_02134_A1_000_001",
+    "original": "Yes.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_FESANV101_02134_A1_000_002",
+    "original": "No.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_FESANV101_02134_NONORA_000_010",
+    "original": "...Yes, it was only a matter of time before word spread. I need hardly tell you how these persistent pests might imperil the celebrations.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_FESANV101_02134_NONORA_000_020",
+    "original": "...No? Well, take it from me: the mere sight of the things would make your skin crawl with horror.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_FESANV101_02134_NONORA_000_030",
+    "original": "No one knows whence they came. No one knows why they have come. Only one thing is certain: the wilds just beyond the city walls are teeming with these mechanical monstrosities, and their numbers grow with each passing day.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_FESANV101_02134_NONORA_000_031",
+    "original": "What ill fortune that this plague should be visited upon us so close to the anniversary of our realm\u0027s rebirth! How might our citizens pray and reflect in peace with that skittering horde at our gates...?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_FESANV101_02134_NONORA_000_032",
+    "original": "Thankfully, this land is not without its heroes. I hear tell of a flamboyant bard who has declared war against the bugs.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_FESANV101_02134_NONORA_000_033",
+    "original": "The stories speak of him engaging the metallic creatures in both central and western Thanalan. Will you not aid this courageous minstrel in his noble attempt to secure a modicum of tranquility for the coming solemnities?",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_FESANV101_02134_NONORA_000_040",
+    "original": "The bugs have been sighted scuttling about both central and western Thanalan. Won\u0027t you join the tenacious troubadour of whom I spoke, and lend your arm to his struggles?",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_FESANV101_02134_NONORA_000_060",
+    "original": "You\u0027ve sent those bugs skittering, have you!? Twelve be praised, the celebrations are saved!",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMINSTREL_000_061",
+    "original": "(-???-)Alas no, my dear... We are not free of the pests yet.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMINSTREL_000_070",
+    "original": "I thank you for your assistance, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Wheresoever a heroic soul is needed, there shall you ever be found. I could ask for no stouter ally!",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMINSTREL_000_080",
+    "original": "I thank you for your assistance\u2500I do not think I could have turned back the swarm alone.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMINSTREL_000_090",
+    "original": "Our victory is, however, but a fleeting one. No matter how many of these bugs we put down, there will always be more to take their place. There seems to be hundreds of them, if not thousands, and more arrive by the day.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMINSTREL_000_091",
+    "original": "I am doing all I can to thin their numbers...but it is a losing battle.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMINSTREL_000_092",
+    "original": "...If I am not mistaken, you salvaged a piece of one of our foes, did you not? Might I see it?",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMINSTREL_000_093",
+    "original": "...Curious. \u0027Tis faint, but I do believe this scrap of metal is humming. Nay, mayhap not humming exactly... The sound has a most distinctive timbre...",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMINSTREL_000_094",
+    "original": "As a citizen of Ul\u0027dah, would you happen to know of any professional musicians with whom we might consult? They need not be local in origin\u2500merely local in whereabouts.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_FESANV101_02134_NONORA_000_095",
+    "original": "Now that you mention it, I \u003Chex:021A020203\u003Edid\u003Chex:021A020103\u003E recently make the acquaintance of a visiting composer. He has traveled from afar to attend the anniversary celebrations, seeking inspiration for his next work, I believe. You\u0027ll likely find him nearby, sampling all the sights and sounds of the sultanate!",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMINSTREL_000_096",
+    "original": "A propitious circumstance, indeed! If you are willing, I would have you seek out this composer as soon as you are able, and ask if he can identify the mysterious tone that issues without cease from your battlefield memento.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMINSTREL_000_097",
+    "original": "We stand at an impasse, and any new insight into our predicament would be most welcome. \u0027Tis perhaps fortunate that the anniversary celebrations have drawn such a large and varied crowd.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMINSTREL_000_098",
+    "original": "Surely within the mind of one of these myriad visitors can be found the solution to our problem. Pray begin your inquiries forthwith!",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_FESANV101_02134_NONORA_000_100",
+    "original": "I made the acquaintance of a visiting composer only recently\u2500you should find him nearby, savoring the sights and sounds of the anniversary celebrations!",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMINSTREL_000_105",
+    "original": "I shall remain here, and prepare to meet the next wave of bugs. You, my friend, must seek out and speak with those whose expertise might grant us an insight into the nature of our ever more numerous foes.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMUSICIAN02134_000_110",
+    "original": "What do you make of these dancin\u0027 lovelies? Not to be prudish, but I can\u0027t help feelin\u0027 the revealin\u0027 costumes take away from the performance a bit... Hm? What\u0027s that? You want me to listen to somethin\u0027?",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMUSICIAN02134_000_120",
+    "original": "Musical curio, is it? All right then, I\u0027m game! Let\u0027s have a listen to this mysterious sound of yours...",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMUSICIAN02134_000_121",
+    "original": "Hmmm, this here\u0027s more than your standard mechanical hum. There\u0027s a definite rhythm to it; a clear melody repeatin\u0027 over and over...",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMUSICIAN02134_000_122",
+    "original": "An\u0027 if you look closely, you can see some symbols on it, fadin\u0027 in an\u0027 out in time to the beat. \u0027Fraid the meanin\u0027s lost on me, though...",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMUSICIAN02134_000_123",
+    "original": "You should show this to a mate of mine\u2500he knows all manner of strange tongues. You\u0027ll probably find him in Arrzaneth Ossuary, salivatin\u0027 over all them dusty tomes.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_FESANV101_02134_NONORA_000_125",
+    "original": "I cannot tell you how much it means to me that you have taken up the fight against these awful bugs... I have the utmost faith that you will discover the means to exterminate them for good!",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMUSICIAN02134_000_130",
+    "original": "Me mate speaks all sorts of languages I\u0027ve never heard of. Head over to Arrzaneth Ossuary and ask him to have a look at them symbols for you. He\u0027ll know what they mean.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGTRANSLATOR02134_000_135",
+    "original": "...You have need of my linguistic expertise? Hm. I had intended to immerse myself in these delectable volumes...but I cannot deny, the puzzle you have presented to me is most intriguing... Most intriguing indeed...\u003Chex:02100103\u003EVery well. I shall indulge you. Silence, if you please!",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGTRANSLATOR02134_000_140",
+    "original": "Uh... Ah. This is the language of a long-dead civilization. I specialize in \u003Chex:021A020203\u003Eliving\u003Chex:021A020103\u003E tongues, but I daresay I can decipher some few words...",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGTRANSLATOR02134_000_141",
+    "original": "Hmmm. Though the finer details of the message elude me, the word stems suggest a theme of \u201Cproliferation\u201D and \u201Ccommand.\u201D",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGTRANSLATOR02134_000_142",
+    "original": "More, I cannot tell you. However...I have had the pleasure of collaborating with a noted author who is well versed in the history and culture of ancient civilizations. It is possible that he might be able to use the hints I have provided as keys to open the next set of doors.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGTRANSLATOR02134_000_143",
+    "original": "I suggest searching for him at the Quicksand\u2500writers do so love to eavesdrop on the colorful conversations of adventurers.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGTRANSLATOR02134_000_145",
+    "original": "I suggest you speak with the writer I mentioned. He will doubtless be in the Quicksand, eavesdropping on adventurers for inspiration.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGSCENARIOWRITER02134_000_150",
+    "original": "...You seem troubled, friend. Mayhap I can be of service. To pen a convincing story, one must first embrace the knowledge of a thousand times and places, and it is possible that on my wanderings I have stumbled across just the pearl of wisdom you require.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGSCENARIOWRITER02134_000_155",
+    "original": "\u201CProliferation\u201D and \u201Ccommand,\u201D you say... Those words bring to mind a passage I came across while researching ancient Allag\u2500background reading for a novella I was planning. As I recall, the passage described a mechanism enabling the mass production of mechanical weaponry.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGSCENARIOWRITER02134_000_156",
+    "original": "...But without understanding exactly how the mechanism functions, I fear you will struggle to disrupt it.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGSCENARIOWRITER02134_000_157",
+    "original": "\u0027Tis fortunate, then, that I am acquainted with a highly proficient engineer. If anyone is capable of proposing a practical solution to your problem, then it is he.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGSCENARIOWRITER02134_000_158",
+    "original": "The advent of the Calamity affected him deeply, so he will almost certainly be here to celebrate the anniversary of the realm\u0027s rebirth. And given his professional curiosity, I imagine the mammets of the Goldsmiths\u0027 Guild will prove an irresistible lure... You might try looking for him there.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGSCENARIOWRITER02134_000_160",
+    "original": "I know of a proficient engineer who is likely in Ul\u0027dah to celebrate the anniversary. And assuming he \u003Chex:021A020203\u003Eis\u003Chex:021A020103\u003E here, the mammets of the Goldsmiths\u0027 Guild cannot have failed to seize his attention...",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGPROGRSMMER02134_000_165",
+    "original": "...You have need of an engineer\u0027s perspective? Very well. Allow me to inspect this mechanical fragment.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGPROGRSMMER02134_000_170",
+    "original": "...Hmmm. From what you have told me, as well as my own cursory observations, I must conclude that the bugs you fought were constructed with some manner of self-replicating mechanism.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGPROGRSMMER02134_000_171",
+    "original": "Whenever the total number of active units falls below a certain threshold, it triggers the broadcast of a signal\u2500a command for the remaining units to multiply. Short of simultaneously disabling them all, your best hope of victory lies in disrupting this signal, and thereby preventing further replication.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGPROGRSMMER02134_000_172",
+    "original": "Pray return now to the friend you mentioned. A minstrel, was he not? Good. Explain to him that he must, upon the elimination of each bug, play in such a way as to disrupt the signal until the unit\u0027s remaining components have been destroyed.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGPROGRSMMER02134_000_173",
+    "original": "I will provide him with a sequence of notes that should achieve the desired interference. Here, I\u0027ve written down the particulars. Naught remains but to test the results in the field!",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMUSICIAN02134_000_175",
+    "original": "I hope me ears were of help to you. When you close your eyes an\u0027 truly listen, you\u0027d be amazed how the world reveals itself!",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGTRANSLATOR02134_000_180",
+    "original": "Were you able to make some sense of that writing? The words are important, aye, but ofttimes you miss the entire story when you focus too much on the literal meaning.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGSCENARIOWRITER02134_000_185",
+    "original": "\u0027Tis with the greatest of pleasure that we offer up our knowledge and expertise. Composer or translator, author or engineer, we all live to see our skills put to good use!",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGPROGRSMMER02134_000_190",
+    "original": "Those bugs have no place in this world. Take the answer you have pieced together from our combined efforts, and set your minstrel friend on the path to victory.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMINSTREL_000_200",
+    "original": "Well, my friend? Are we any closer to finding a permanent means of eradicating these bugs...?",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMINSTREL_000_210",
+    "original": "...Ah, such a mechanism would well explain their never-ending numbers!",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMINSTREL_000_211",
+    "original": "And I need only strum this melody until such time as I have destroyed the creatures\u0027 remains, yes? Why, naught could be simpler\u2500it shall be the tune of my triumph!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMINSTREL_000_212",
+    "original": "Thank you, adventurer. Now we might offer our prayers for the victims of the Calamity, undisturbed by the discordant clanging of metallic limbs...",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMINSTREL_000_213",
+    "original": "Without your aid\u2500and the advice of those generous visitors\u2500I would never have arrived at the solution you have provided.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMINSTREL_000_214",
+    "original": "It is incredible what can be accomplished when the wisdom and skill of many are bent towards a common goal. In fact, I am inspired to write a song in their honor...",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMINSTREL_000_215",
+    "original": "...An ode to all the creative souls who bring such color and vibrancy to our world. Might I treat you to the first verse...? Ahem!\u003Chex:02100103\u003EPraise be to all ye men of worth,\u266A\u003Chex:02100103\u003EWho build proud towers from clods of earth,\u266A\u003Chex:02100103\u003EWho grant our fancies form and weight,\u266A\u003Chex:02100103\u003EA thousand wonders incarnate...\u266A",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_FESANV101_02134_YOSHIDANAOKI_000_250",
+    "original": "(-???-)Greetings, Warrior of Light. You have arrived on the Eighteenth Floor.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_FESANV101_02134_YOSHIDANAOKI_000_251",
+    "original": "(-???-)This is a world that exists outside your reality. Could it be a dream? A flight of fancy conjured by your weary mind? Perhaps...or perhaps not.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_FESANV101_02134_YOSHIDANAOKI_000_252",
+    "original": "(-???-)All those you see here are creators of incredible fervor. And every single speck of energy and passion they possess is forever channeled towards your realm\u2500towards Eorzea!",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_FESANV101_02134_YOSHIDANAOKI_000_253",
+    "original": "...My name is Naoki Yoshida. On behalf of the Eighteenth Floor, I bid you welcome. We are overjoyed to have this opportunity to offer you our heartfelt thanks!",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_FESANV101_02134_NONORA_000_300",
+    "original": "Are you quite all right? \u0027Twas as if your spirit was transported elsewhere... You hear my words now, though, yes?",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMINSTREL_000_305",
+    "original": "Do you wish to hear my tribute to the creative once more?",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_FESANV101_02134_Q2_000_000",
+    "original": "Listen to the song again?",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_FESANV101_02134_A2_000_001",
+    "original": "Yes",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_FESANV101_02134_A2_000_002",
+    "original": "No",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_FESANV101_02134_YOSHIDANAOKI_000_340",
+    "original": "I know that each of my colleagues was keen to thank you in person. Have you spoken to everyone?",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_FESANV101_02134_Q3_000_000",
+    "original": "Have you spoken to everyone?",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_FESANV101_02134_A3_000_001",
+    "original": "Yes",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_FESANV101_02134_A3_000_002",
+    "original": "No",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_FESANV101_02134_YOSHIDANAOKI_000_341",
+    "original": "Would you accompany me for a time, then? There is something I wish to share with you...",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_FESANV101_02134_YOSHIDANAOKI_000_342",
+    "original": "Then pray feel free to make the rounds! They are dying to talk to you!",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_FESANV101_02134_YOSHIDANAOKI_000_350",
+    "original": "I do hope you\u0027re enjoying your time here on the Eighteenth Floor. We\u0027ve all been so eager to meet you.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_FESANV101_02134_YOSHIDANAOKI_000_351",
+    "original": "You see, Eorzea is our shared passion\u2500from its deepest valley to its loftiest cloud, and all that lies in between. And you, as one who has chosen to fight for this glorious realm, have become a hero not only to Eorzea\u0027s citizens, but to us as well!",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_FESANV101_02134_YOSHIDANAOKI_000_352",
+    "original": "As I am sure you know, our beloved star once faced a ruinous fate. It was a fate born of arrogance and pride and vanity; a fate we brought upon ourselves.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_FESANV101_02134_YOSHIDANAOKI_000_353",
+    "original": "Thus did we seek to commune with you, Eorzea\u0027s heroes, that we might together realize a desperate plan: to forsake our doomed path and begin our journey anew. We would tear down what we had wrought, and build another world amid the wreckage of our hubris.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_FESANV101_02134_YOSHIDANAOKI_000_354",
+    "original": "Since that day of rebirth, more than five years have passed in Eorzea. The land breathes with renewed vigor, and the lure of adventure invites you onwards and upwards into the heavens themselves.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_FESANV101_02134_YOSHIDANAOKI_000_355",
+    "original": "We shall never again make the mistake of believing that Hydaelyn is ours alone: it is the culmination of the history we have made together, and the future we have yet to share.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_FESANV101_02134_YOSHIDANAOKI_100_355",
+    "original": "There will be days when we shall stand side by side, our laughter ringing in the air. There will be days when we shall be at odds, our brows furrowed in frustration.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_FESANV101_02134_YOSHIDANAOKI_101_355",
+    "original": "But only through such earnest exchanges shall Eorzea continue to flourish, and new creations take shape. The Calamity taught us the truth of that.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_FESANV101_02134_YOSHIDANAOKI_102_355",
+    "original": "It is our fondest hope that your adventures in Eorzea will be a constant source of joy and wonder. May you ever walk in the light of the Crystal!",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_FESANV101_02134_YOSHIDANAOKI_000_356",
+    "original": "...Now, the time has come for this vision to end; time for your eyes to open from this waking dream.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_FESANV101_02134_YOSHIDANAOKI_000_357",
+    "original": "Ever will we be watching over you and your deeds. Guide the realm unto peace and happiness, Warrior of Light...",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMINSTREL_000_358",
+    "original": "By your expression, I thought your mind adrift on distant seas... Tell me: what manner of waking dream captivated your senses so completely?",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMINSTREL_000_359",
+    "original": "...Fascinating. A vision of a world that exists outside of our reality. \u003Chex:021A020203\u003EWas\u003Chex:021A020103\u003E it a dream? A flight of fancy conjured by your weary mind...? I doubt we will ever know.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMINSTREL_000_360",
+    "original": "I mean to remain in Ul\u0027dah for the duration of the anniversary celebrations. Should you wish to experience the vision again, you have only to ask\u2500I shall be glad to send you on your way with a song.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_FESANV101_02134_NONORA_000_361",
+    "original": "It seems to me that both you and the characters in your vision share a powerful desire to protect and nurture Eorzea... Mayhap it was that which gave form to the scene you witnessed.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_FESANV101_02134_WANDERINGMINSTREL_000_362",
+    "original": "...Let us now take a moment to remember those whose flames were extinguished too soon. The tragedies of yesterday must not be forgotten, lest we take for granted the gifts of tomorrow.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_FESANV101_02134_SYSTEM_000_400",
+    "original": "You have unlocked the Concentration mini-game.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_FESANV101_02134_SYSTEM_000_401",
+    "original": "Open the toy chest in any inn room to enjoy this classic pastime.",
+    "translation": ""
+  }
+}

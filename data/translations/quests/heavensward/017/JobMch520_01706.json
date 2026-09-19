@@ -1,0 +1,372 @@
+{
+  "0": {
+    "tag": "TEXT_JOBMCH520_01706_SEQ_00",
+    "original": "Stephanivien would ask for your assistance in his latest project.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_JOBMCH520_01706_SEQ_01",
+    "original": "With Joye\u0027s departure from the manufactory, Stephanivien seeks another edge to aid the machinists in the upcoming allied operation with House Dzemael. The chief machinist plans to create yet another new device, but explains that the process will be much expedited with the acquisition of existing magitek components. Infiltrate Castrum Centri in Mor Dhona, and salvage warmachina parts from the crates found around the imperial base.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_JOBMCH520_01706_SEQ_02",
+    "original": "You have salvaged a number of warmachina parts. Return to the Skysteel Manufactory, and deliver the components to Stephanivien.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_JOBMCH520_01706_SEQ_03",
+    "original": "Stephanivien eagerly accepts the magitek components. Before returning to his inventing, however, he tells you of the troubles Celestaux has encountered in his efforts to locate Joye. It would seem that someone has paid good coin to cover the ex-machinist\u0027s trail out of Ishgard. Head into the Brume, and try questioning its inhabitants as to the whereabouts of Joye\u0027s father instead.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_JOBMCH520_01706_SEQ_04",
+    "original": "You have spoken to several residents of the Brume, and learned several vital snippets of information. Return to the Skysteel Manufactory, and share your findings with Stephanivien.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_JOBMCH520_01706_SEQ_05",
+    "original": "After considering the information you uncovered in the Brume, Stephanivien is convinced that Joye will be found in Falcon\u0027s Nest. Travel to the settlement in the Coerthas western highlands, and cast your gaze about for the elusive ex-machinist.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_JOBMCH520_01706_SEQ_06",
+    "original": "You succeed in locating Joye in Falcon\u0027s Nest, but Stephanivien is unable to convince the young lady to return to her former position in the workshop. Return to the Skysteel Manufactory and console the chief machinist.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_JOBMCH520_01706_SEQ_07",
+    "original": "Celestaux shares his suspicion that Joye\u0027s father is being held against his will, thus forcing Joye\u0027s decision to abandon her employment in Ishgard. Stephanivien, however, refuses to meddle further in his former employee\u0027s affairs, choosing instead to focus on his preparations for the operation with House Dzemael. Accept the chief machinist\u0027s latest invention, and continue improving your skills that you might compensate for the workshop\u0027s dwindling ranks.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe next machinist quest will be available from Stephanivien upon reaching level 54.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_JOBMCH520_01706_TODO_00",
+    "original": "Inspect imperial crates in Castrum Centri and obtain materials.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_JOBMCH520_01706_TODO_01",
+    "original": "Deliver the warmachina parts to Stephanivien at the Skysteel Manufactory.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_JOBMCH520_01706_TODO_02",
+    "original": "Inquire about Joye\u0027s father in the Brume.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_JOBMCH520_01706_TODO_03",
+    "original": "Speak with Stephanivien.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_JOBMCH520_01706_TODO_04",
+    "original": "Search for Joye in Falcon\u0027s Nest.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_JOBMCH520_01706_TODO_05",
+    "original": "Speak with Stephanivien.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_000",
+    "original": "Ah, there you are, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. \u0027Twould seem that \u0027tis not only Joye, but her father as well who has vanished from the city.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_001",
+    "original": "Celestaux is out asking questions, but there are few answers to be had. Rather than sit here on our hands whilst we wait for a revelation, however, I would prefer we begin preparations for our engagement alongside House Dzemael.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_002",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_003",
+    "original": "The Dzemaels have been struggling to restore the township of Falcon\u0027s Nest\u2500an enterprise that has been interrupted time and again by marauding Dravanians.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_004",
+    "original": "The signs\u2500and a steady trickle of scouting reports\u2500suggest that the dragons are massing for a significant assault on the settlement. Its fortifications are not yet complete, and \u0027twill be the aim of the allied operation to defend these half-finished structures from the ravages of the Horde.\u003Chex:02100103\u003E...I expect House Haillenarte shall be positioned on the front lines of this conflict.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_005",
+    "original": "Should we fight well, the dragons will be routed; should we fight poorly, our reputation will suffer. From Lord Tedalgrinche\u0027s perspective, either result is a victory.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_006",
+    "original": "For the future of machinistry, however, we cannot afford to fail. Thus, have I focused my energies towards designing an attachment that will improve our chances of success. Now, the problem\u2500which I was hoping you might help me solve\u2500is the acquisition of suitable components.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_007",
+    "original": "The swiftest way to create new technology is by repurposing the old. To that end, I would have you infiltrate Castrum Centri, and salvage a goodly number of warmachina parts. The Garleans there may take a dim view of your efforts to, uh, \u003Chex:021A020203\u003Eliberate\u003Chex:021A020103\u003E their supplies...",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_009",
+    "original": "If I am to complete my newest invention in time, I must needs take advantage of existing magitek components. Fortunately, I hear that the Garleans have literal crates of the stuff simply lying about in Castrum Centri...",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_010",
+    "original": "With Joye gone from the workshop, I have no one else to whom I can entrust such duties. \u0027Tis no simple task, I know, but I must have those components.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_011",
+    "original": "Splendid! These parts will do much to speed the construction of my invention. Now, if only Joye were returned to us...",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_012",
+    "original": "Despite Celestaux\u0027s most earnest efforts, however, \u0027twould appear that his contacts in the Brume have elected to spurn his inquiries.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_013",
+    "original": "I sense an unseen hand\u2500and a sizable purse\u2500behind this sudden rash of reticence. Mayhap if you were to ask after the old hunter\u0027s disappearance instead, then the Brume\u0027s inhabitants would be more forthcoming.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_019",
+    "original": "We must learn whither Joye and her father have vanished...",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_JOBMCH520_01706_POOR01706A_000_020",
+    "original": "Eh? That old hunter fellow? I thought he\u0027d left to start a new job someplace else.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_JOBMCH520_01706_POOR01706A_000_021",
+    "original": "He was always cursin\u0027 how his old wounds kept him from practicin\u0027 his trade, but I s\u0027pose he found himself somethin\u0027 new...",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_JOBMCH520_01706_POOR01706A_000_029",
+    "original": "That old hunter fellow? I thought he\u0027d left to start a new job someplace else...",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_JOBMCH520_01706_POOR01706B_000_020",
+    "original": "Who? You mean the one whose daughter caught herself a husband in Falcon\u0027s Nest? He\u0027s probably there with her, ain\u0027t he?",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_JOBMCH520_01706_POOR01706B_000_029",
+    "original": "His daughter caught herself a husband in Falcon\u0027s Nest. He\u0027s probably there with her, ain\u0027t he?",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_JOBMCH520_01706_POOR01706C_000_020",
+    "original": "Oh, aye, the creaky old hunter. I hear he got himself payin\u0027 work \u003Chex:021A020203\u003Eand\u003Chex:021A020103\u003E saw his little girl get married on the same day.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_JOBMCH520_01706_POOR01706C_000_021",
+    "original": "The husband\u0027s said to be the brother of some famous carpenter, and that he don\u0027t even need a job to get by.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_JOBMCH520_01706_POOR01706C_000_028",
+    "original": "Oh, aye, the creaky old hunter. I hear he got himself payin\u0027 work \u003Chex:021A020203\u003Eand\u003Chex:021A020103\u003E saw his little girl get married on the same day.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_JOBMCH520_01706_POOR01706C_000_029",
+    "original": "The husband\u0027s said to be the brother of some famous carpenter, and that he don\u0027t even need a job to get by.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_JOBMCH520_01706_CELESTAUX_000_030",
+    "original": "I\u0027ve never had a fellow commoner refuse to talk to me afore... Is this what it feels like to be an outsider?",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_030",
+    "original": "Were you able to wring any information from the Brume?",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_031",
+    "original": "Hmmm, a new job for him, and a new husband for his daughter in Falcon\u0027s Nest...",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_JOBMCH520_01706_CELESTAUX_000_032",
+    "original": "They\u0027ve been takin\u0027 on a good number of laborers and such to help with the town\u0027s restoration\u2500even a half-crippled old hunter might find some kind of work for himself there.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_033",
+    "original": "Yes, my prospectometer points unerringly to the west. We shall head to Falcon\u0027s Nest, and seek out Joye and her father.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_039",
+    "original": "To Falcon\u0027s Nest, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! My prospectometer never lies!",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_JOBMCH520_01706_CELESTAUX_000_040",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_040",
+    "original": "She must be here somewhere...",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_041",
+    "original": "Any sign of her?",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_JOBMCH520_01706_JOYE_000_042",
+    "original": "H-His lordship!? What is he doin\u0027 here!?",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_043",
+    "original": "Joye, please! I ask only that you listen a moment! Will you and your husband not consider working for me in the manufactory?",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_JOBMCH520_01706_JOYE_000_044",
+    "original": "...I can\u0027t do that, me lordship. I can\u0027t be a machinist no more. It\u0027s best for everyone if I leave that life behind...",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_045",
+    "original": "What do you mean, \u201Cbest for everyone\u201D!? Is that what is best for \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E?",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_JOBMCH520_01706_JOYE_000_046",
+    "original": "All I want for me is a simple life\u2500one what doesn\u0027t cause problems for those who\u0027ve shown me such kindness.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_JOBMCH520_01706_JOYE_000_047",
+    "original": "I\u0027m glad we could talk this one last time, me lordship. I\u0027ll be prayin\u0027 that you and your machinists get the recognition you deserve.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_048",
+    "original": "I always thought Joye was happiest when she had the stock of her flintlock in hand. Will she now sacrifice that happiness for the satisfaction of others?",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_049",
+    "original": "...Or is it that she never truly wished to be a machinist, and merely suffered the training at my insistence?",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_050",
+    "original": "By arming the commoners, \u0027twas my intention to place them on equal footing with the nobles who seek to rule them. But caught in the throes of self-righteous ambition, mayhap I have treated them no better.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_JOBMCH520_01706_CELESTAUX_000_051",
+    "original": "(-Celestaux-)Seems his lordship is havin\u0027 himself a crisis of faith. Might be as you could lend him a sympathetic ear, eh? I\u0027ll join you back at the workshop in a bit\u2500there\u0027s somethin\u0027 I want to look into first.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_JOBMCH520_01706_CELESTAUX_000_060",
+    "original": "Welcome back.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_061",
+    "original": "I have run my prospectometer through all possible permutations, but the result is always the same: we focus on preparations for the allied operation.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_JOBMCH520_01706_CELESTAUX_000_062",
+    "original": "So we just give up on bringin\u0027 Joye back?",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_063",
+    "original": "Should we fail House Dzemael, then the reputation we built at the tourney will crumble into dust. We would have to begin again, brick by painful brick...",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_JOBMCH520_01706_CELESTAUX_000_064",
+    "original": "A moment, me lord. I lingered behind in Falcon\u0027s Nest to see if I could find Joye\u0027s father, but he was nowhere to be found. I\u0027ve got a feelin\u0027 somethin\u0027 ain\u0027t right here.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_065",
+    "original": "If Joye herself has no wish to be a machinist, then what more can I do? \u0027Tis not my place to meddle in her affairs.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_JOBMCH520_01706_CELESTAUX_000_066",
+    "original": "Oh, aye, I see how it is. I\u0027d thought you different from them other nobles, but you\u0027re all the same\u2500only interested in helpin\u0027 commoners as long as they\u0027re doin\u0027 your biddin\u0027.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_JOBMCH520_01706_CELESTAUX_000_067",
+    "original": "Well, I\u0027ve had enough of takin\u0027 orders. It\u0027s time I went me own way.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_068",
+    "original": "My grand plans for the future of machinistry... Have they all been in vain?",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_JOBMCH520_01706_Q1_000_000",
+    "original": "Have they all been in vain?",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_JOBMCH520_01706_A1_000_001",
+    "original": "We have come so far.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_JOBMCH520_01706_A1_000_002",
+    "original": "That is for you to judge.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_069",
+    "original": "We have, you and I. Speaking of which, I had promised to use those components you brought me to build a new weapon.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_070",
+    "original": "Do not underestimate your own contributions. Speaking of which, I had promised to use those components you brought me to build a new weapon.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_071",
+    "original": "If naught else, we have certainly made advances in the field of machinistry. Such a tangible measure of progress cannot be ignored...",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_072",
+    "original": "Yes! My prospectometer was so overloaded with peripheral problems, I failed to see the practical evidence of our success! The path is steep and our steps are small, but that does not mean the destination is beyond us!",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_JOBMCH520_01706_STEPHANIVIEN_000_073",
+    "original": "I will ask much of you in the coming days, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, and I shall see that you are the most well-equipped machinist in the short history of machinistry.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_JOBMCH520_01706_SYSTEM_000_074",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  }
+}

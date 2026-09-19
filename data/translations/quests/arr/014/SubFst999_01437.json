@@ -1,0 +1,992 @@
+{
+  "0": {
+    "tag": "TEXT_SUBFST999_01437_SEQ_00",
+    "original": "The realm of Eorzea is filled with countless mysteries, but there is only one which Valiant Hart wishes to solve.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_SUBFST999_01437_SEQ_01",
+    "original": "Valiant Hart has asked you to help him locate the secret treasure of Lalafuto III, who ruled the nation of Belah\u0027dia over seven hundred years ago. To that end, you must solve a riddle hidden in an encoded message, which was written by the famed explorer Winebaud. Valiant Hart also makes mention of a man named Yayaroku, who may be able to offer assistance.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_SUBFST999_01437_SEQ_02",
+    "original": "Your investigation leads you to a disciple of Winebaud, who entrusts you with the journal of his deceased master. Return to the statue of the Silent King and share your findings with Valiant Hart.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_SUBFST999_01437_SEQ_03",
+    "original": "In your absence, Valiant Hart has made further progress in deciphering the encoded message. However, his efforts have yielded yet another riddle, one which you must solve if you wish to locate the treasure you seek.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_SUBFST999_01437_SEQ_04",
+    "original": "Through methods mysterious and unknown, you receive a message from the late Winebaud. He praises your efforts to seek out the truth and shares with you a verse of poetry for reasons unknown. Valiant Hart will doubtless wish to hear of these developments.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_SUBFST999_01437_SEQ_05",
+    "original": "Valiant Hart is pleased with your progress, but disappointed that Winebaud did not provide any clues as to the whereabouts of Lalafuto III\u0027s secret treasure. Having no other leads, he bids you solve the latest riddle he has deciphered.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_SUBFST999_01437_SEQ_06",
+    "original": "Once again, the late Winebaud imparts to you a verse of poetry as a reward, albeit one of questionable value. Report your success to Valiant Hart at the statue of the Silent King.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_SUBFST999_01437_SEQ_07",
+    "original": "Valiant Hart is bemused by the increasing complexity of Winebaud\u0027s riddles, as well as his penchant for rewarding you with poetic verses. Brushing aside that curiosity for the time being, he directs you to his most recent translation, which contains yet another riddle.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_SUBFST999_01437_SEQ_08",
+    "original": "Your jewelry triggers an enchantment woven into Winebaud\u0027s engravings, allowing you to receive another message from the late explorer. To your chagrin, it contains little more than another verse of poetry. Valiant Hart does not appear to have seen the message, so perhaps you should tell him what you witnessed.",
+    "translation": ""
+  },
+  "9": {
+    "tag": "TEXT_SUBFST999_01437_SEQ_09",
+    "original": "Bemoaning Winebaud\u0027s refusal to offer clear and concise directions, Valiant Hart tells you he has finished deciphering the encoded message. However, unlike previous sections, this one does not appear to contain a riddle. But where is the treasure of Lalafuto III, and what must be done to claim it?",
+    "translation": ""
+  },
+  "10": {
+    "tag": "TEXT_SUBFST999_01437_SEQ_10",
+    "original": "With the aid of your copper gorget, you lay claim to the secret treasure purported to be worth one hundred million gil. Valiant Hart snatches it from your hand, his eyes wild with greed, but his expression soon changes to one of disbelief. The \u201Ctreasure\u201D Winebaud spoke of was a collection of love poems written by Lalafuto III to his paramour, with whom the sultan wished to elope. His quest for phenomenal wealth having ended in utter failure, Valiant Hart cries out to the heavens in rage, cursing the explorer who valued true love above all else.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_SUBFST999_01437_TODO_00",
+    "original": "Solve the explorer\u0027s riddle.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_SUBFST999_01437_TODO_01",
+    "original": "Speak with Valiant Hart.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_SUBFST999_01437_TODO_02",
+    "original": "Solve the explorer\u0027s riddle.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_SUBFST999_01437_TODO_03",
+    "original": "Speak with Valiant Hart.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_SUBFST999_01437_TODO_04",
+    "original": "Solve the explorer\u0027s riddle.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_SUBFST999_01437_TODO_05",
+    "original": "Speak with Valiant Hart.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_SUBFST999_01437_TODO_06",
+    "original": "Solve the explorer\u0027s riddle.",
+    "translation": ""
+  },
+  "31": {
+    "tag": "TEXT_SUBFST999_01437_TODO_07",
+    "original": "Speak with Valiant Hart.",
+    "translation": ""
+  },
+  "32": {
+    "tag": "TEXT_SUBFST999_01437_TODO_08",
+    "original": "Claim the treasure of Lalafuto III.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_000",
+    "original": "Elements? Wheels? Bah, it\u0027s gibberish! Utter gibberish!",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_001",
+    "original": "\u003Cgasp\u003E As I live and breathe, a Warrior of Light! I haven\u0027t seen your like in years\u2500not since bloody Carteneau, certainly.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_002",
+    "original": "...I see you refuse to confirm or deny my assessment. Keeping a low profile, are we? Very well\u2500I shall speak of this to no one. By the by, my name is Valiant Hart. A pleasure to meet you, \u003Chex:020811E905FF086D79206C616479FF0473697203\u003E.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_003",
+    "original": "Ahhh, look at us! Two veterans, burdened with experiences beyond the common man\u0027s ken. I say, we should be friends, you and I! To that end, I shall share with you my reason for being here, and in so doing deepen our bond.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_004",
+    "original": "Tell me, have you heard of Winebaud? He was an explorer of some renown ten years ago, though he regrettably retired and passed on not long ago. It is said that he discovered a treasure worth one hundred million gil.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_005",
+    "original": "That\u0027s right\u2500\u003Chex:021A020203\u003Eone hundred million gil\u003Chex:021A020103\u003E! Winebaud called it the most precious secret of Lalafuto III, who was sultan of Belah\u0027dia some seven hundred years ago. ",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_006",
+    "original": "Just think what we might do with such a treasure! Aye, I say \u003Chex:021A020203\u003Ewe\u003Chex:021A020103\u003E, for should you aid me in my search, I would gladly share the spoils. What say you?",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_SUBFST999_01437_SYSTEM_000_010",
+    "original": "Should you choose to undertake this quest, you will receive no guidance from the journal or the duty list. You will need to read the text carefully and decipher the clues to determine your next course of action.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_SUBFST999_01437_SYSTEM_000_011",
+    "original": "Moreover, it may be unwise to rely on other adventurers for assistance, as their clues and objectives may differ from yours.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_SUBFST999_01437_SYSTEM_000_012",
+    "original": "The path your quest may take and the rewards you may receive are unknown. Yet knowing this, will you follow in the footsteps of Winebaud and seek out the treasure of Lalafuto III?",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_SUBFST999_01437_Q1_000_000",
+    "original": "Follow in the footsteps of Winebaud?",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_SUBFST999_01437_A1_000_001",
+    "original": "Yes",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_SUBFST999_01437_A1_000_002",
+    "original": "No",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_014",
+    "original": "Of course you will. Only a great fool would turn \u003Chex:02080DE905FF04686572FF0468697303\u003E back on phenomenal wealth and everlasting glory! Now then, to the task at hand!",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_015",
+    "original": "Upon this statue of the Silent King is writ a message, left to us by Winebaud himself, which I believe will lead us to the treasure. Alas, it is encoded, and deciphering it is no small feat. See for yourself\u2500I have only finished the first passage.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_016",
+    "original": "What is worse, the contents are nigh unintelligible! It appears to be a riddle, but beyond that I cannot say. And so I would turn to you.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_017",
+    "original": "If you solve the riddles I decipher, then together we can claim the treasure of Lalafuto III. A simple arrangement, yes? Then let us begin at once! Look to the statue for the first riddle.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_020",
+    "original": "Beg your pardon, did you just say \u003Chex:021A020203\u003Eno\u003Chex:021A020103\u003E to one hundred million gil? Well, that is your decision to make\u2500and regret.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_021",
+    "original": "The thaumaturges summoned one of their own from the Ossuary to inspect this message when it was first found. He came and went in less than a bell, having determined at a glance that it wasn\u0027t Belah\u0027dian in origin.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_022",
+    "original": "Yet the treasure we seek belonged to a Belah\u0027dian sultan...and there must be a reason why Winebaud chose to mark this statue. That fellow\u2500Yayaroku was his name, I believe\u2500may have insight into this riddle.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_SUBFST999_01437_SYSTEM_000_025",
+    "original": "Carved upon the statue is a series of strange characters. Next to them, written in chalk, you find Valiant Hart\u0027s translation.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_026",
+    "original": "(-Winebaud\u0027s Message-)HO / OSC / BRA / N\u0027S / EM / CE\u003Chex:02100103\u003EFIRE / LIGHTNING / WATER / EARTH / ICE / WIND\u003Chex:02100103\u003EThe wheel must turn anew.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_027",
+    "original": "(-Winebaud\u0027s Message-)AL / TH / SPI / \u0027S / RE / TE\u003Chex:02100103\u003EFIRE / LIGHTNING / WATER / EARTH / ICE / WIND\u003Chex:02100103\u003EThe wheel must turn anew.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_028",
+    "original": "(-Winebaud\u0027s Message-)REN / FLO / SPI / TEL / \u0027S / RE\u003Chex:02100103\u003EFIRE / LIGHTNING / WATER / EARTH / ICE / WIND\u003Chex:02100103\u003EThe wheel must turn anew.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_SUBFST999_01437_YAYAROKU_000_030",
+    "original": "You wish to speak of ancient Belah\u0027dia? It would be my pleasure to converse with a fellow student of history. I\u2500 Wait, this isn\u0027t about Winebaud\u0027s message, is it?",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_SUBFST999_01437_YAYAROKU_000_031",
+    "original": "Then you must be another wide-eyed treasure hunter searching for the lost treasure of Lalafuto III. \u003Csigh\u003E Winebaud was a skilled storyteller, and you would be forgiven for thinking his tales were all true. Even now, I cannot say if he was lying to us or himself.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_SUBFST999_01437_YAYAROKU_000_032",
+    "original": "Hm? You say you deciphered his message? Very well, let us hear it.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_SUBFST999_01437_YAYAROKU_000_033",
+    "original": "\u201CFire, lightning, water, earth, ice, wind. The wheel must turn anew.\u201D\u003Chex:02100103\u003EThe six elements...but the order is wrong.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_SUBFST999_01437_YAYAROKU_000_034",
+    "original": "\u201CThe spark of Lightning ignites when it strikes, and thus Fire is born.\u003Chex:02100103\u003EThe heat of Fire renders to ash all that it touches, and thus Earth is born.\u003Chex:02100103\u003EThe density of Earth shuns sun and harbors cold, and thus Ice is born.\u003Chex:02100103\u003EThe armor of Ice melts away, and thus Water is born.\u003Chex:02100103\u003E\u201DThe moistness of Water mists and rises, and thus Wind is born.\u003Chex:02100103\u003EThe gusts and sighs of Wind gather the clouds, and thus Lightning is born.\u201C",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_SUBFST999_01437_YAYAROKU_000_035",
+    "original": "A passage from \u003Chex:021A020203\u003EEssences \u0026 Permutations\u003Chex:021A020103\u003E, in case you were unaware. Anyway, I have no idea what Winebaud meant to say.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_SUBFST999_01437_EXPLORERA01437_000_040",
+    "original": "At long last...does the wheel turn anew? Are you the one for whom I have waited?",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_SUBFST999_01437_EXPLORERA01437_000_041",
+    "original": "Praise the Twelve! Master Winebaud told me it might be years, even \u003Chex:021A020203\u003Edecades\u003Chex:021A020103\u003E, until one came\u2500\u003Chex:021A020203\u003Eif\u003Chex:021A020103\u003E someone came, but I swore an oath, so I couldn\u0027t\u2500",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_SUBFST999_01437_EXPLORERA01437_000_042",
+    "original": "You don\u0027t understand; this is all so \u003Chex:021A020203\u003Eexciting\u003Chex:021A020103\u003E! But you\u0027re not here for that, or for me. You\u0027re here for the \u003Chex:021A020203\u003Etreasure\u003Chex:021A020103\u003E, aren\u0027t you?",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_SUBFST999_01437_EXPLORERA01437_000_043",
+    "original": "This is Master Winebaud\u0027s journal, and it belongs to you now.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_SUBFST999_01437_EXPLORERA01437_000_044",
+    "original": "No, no, that\u0027s not true. It was always yours\u2500you had yet to claim it, is all. Keep it close, fellow explorer! This is only the beginning!",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_SUBFST999_01437_EXPLORERA01437_000_045",
+    "original": "He never told us what it was. The treasure. I think he thought just \u003Chex:021A020203\u003Eknowing\u003Chex:021A020103\u003E was enough to put us at risk.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_SUBFST999_01437_EXPLORERA01437_000_046",
+    "original": "So he hid it, and left his clues so that only an explorer worthy of the prize could ever hope to succeed.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_SUBFST999_01437_EXPLORERA01437_000_047",
+    "original": "They call him a charlatan, but I know he spoke the truth! It\u0027s real, and you\u0027ll find it! And then...you\u0027ll show it to me, won\u0027t you?",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_SUBFST999_01437_EXPLORERA01437_000_048",
+    "original": "Are you...? No, no. Leave me be, traveler.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_050",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, you\u0027ve returned! Tell me, have you solved Winebaud\u0027s riddle? Where did it lead you?",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_051",
+    "original": "The journal of the explorer himself! I knew I was right to trust in you.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_052",
+    "original": "I have news to share as well, though it is not quite as uplifting. I have deciphered another passage, only to find myself confronted with yet another inscrutable riddle.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_053",
+    "original": "But I\u0027m sure you\u0027ll have no trouble with it, given how quickly you deduced the answer to the first one!",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_054",
+    "original": "You\u0027ll find my translation next to the message as before. I\u0027m counting on you, my puzzle aficionado!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_SUBFST999_01437_SYSTEM_000_300",
+    "original": "As you gaze upon the encoded message, you abruptly recall that you have yet to report your latest findings to Valiant Hart.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_055",
+    "original": "The next riddle is waiting for you, my friend. Go and do what you do best!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_SUBFST999_01437_SYSTEM_000_056",
+    "original": "Carved upon the statue is a series of strange characters. Next to them, written in chalk, you find Valiant Hart\u0027s latest translation.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_060",
+    "original": "(-Winebaud\u0027s Message-)GNND NG SGF BNFTQMBKBV\u003Chex:02100103\u003EMemenugu knows the steps.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_061",
+    "original": "(-Winebaud\u0027s Message-)GNMKNXDC IDZWDMTOHMKZS AQJCFF\u003Chex:02100103\u003EMemenugu knows the steps.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_062",
+    "original": "(-Winebaud\u0027s Message-)AQPMYF KZLD GPS RQQHOFR\u003Chex:02100103\u003EMemenugu knows the steps.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_070",
+    "original": "(-Winebaud\u0027s Message-)08051212190218151504 0815120519\u003Chex:02100103\u003EJahelle knows her sums.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_071",
+    "original": "(-Winebaud\u0027s Message-)180504 130114200919 0601121219\u003Chex:02100103\u003EJahelle knows her sums.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_072",
+    "original": "(-Winebaud\u0027s Message-)260516082518 0418090620\u003Chex:02100103\u003EJahelle knows her sums.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_080",
+    "original": "(-Winebaud\u0027s Message-)ETAG FLOW ETIHW\u003Chex:02100103\u003EIsouda knows the truth.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_081",
+    "original": "(-Winebaud\u0027s Message-)SEMALF FO LLAH EHT\u003Chex:02100103\u003EIsouda knows the truth.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_082",
+    "original": "(-Winebaud\u0027s Message-)SCITEHTSEA S\u0027EMIATHSE\u003Chex:02100103\u003EIsouda knows the truth.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_SUBFST999_01437_MEMENUGU_000_090",
+    "original": "...So if I understand you correctly, a riddle on a statue said \u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E know \u201Cthe steps\u201D? A riddle written by Winebaud? I\u0027m sorry, but I haven\u0027t the foggiest what that could mean.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_SUBFST999_01437_MEMENUGU_000_091",
+    "original": "I swear, famed explorer or not, that old man was a bloody fool when it came to combat. This \u201Cstep\u201D nonsense reminds me of the time he tried to critique the form of my Elezen associate.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_SUBFST999_01437_MEMENUGU_000_092",
+    "original": "\u201CTwo steps forward, one step back. Over and over again, until the end.\u201D\u003Chex:02100103\u003EGods, he said it so many times it\u0027s been stuck in my head ever since!",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_SUBFST999_01437_MEMENUGU_000_093",
+    "original": "Looking to hire a few adventurers? No? Well, if you know anyone who is, send them our way.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_SUBFST999_01437_JAHELLE_000_100",
+    "original": "Hah! Winebaud carved a riddle on a statue...and included \u003Chex:021A020203\u003Emy\u003Chex:021A020103\u003E name along with it? I ought to be flattered, but I\u0027m just confused.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_SUBFST999_01437_JAHELLE_000_101",
+    "original": "This \u201Csums\u201D nonsense reminds me of all the times he argued with me over his bill. Time and time again I would have to show him the calculations, and when I was finished, he would always apologize in the same queer way:",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_SUBFST999_01437_JAHELLE_000_102",
+    "original": "\u201CI learned the letters of mathematics, but alas, not the grammar.\u201D\u003Chex:02100103\u003EI don\u0027t know why; a simple sorry would have sufficed.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_SUBFST999_01437_JAHELLE_000_103",
+    "original": "Welcome, \u003Chex:02080EE905FF056C617373FF046C616403\u003E. Feel free to take any open table.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_SUBFST999_01437_ISOUDA_000_110",
+    "original": "\u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E know \u201Cthe truth?\u201D That does not sound like something the Winebaud I knew would write.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_SUBFST999_01437_ISOUDA_000_111",
+    "original": "He was cantankerous and contrary to a fault. No matter the subject, he would, without fail, hold the exact opposite opinion. Whenever I pointed this out, he would offer the same insufferable retort:",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_SUBFST999_01437_ISOUDA_000_112",
+    "original": "\u201CThe opposite of nonsense is sense.\u201D\u003Chex:02100103\u003EI have never been a violent person, but that old man nearly made me one.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_SUBFST999_01437_ISOUDA_000_113",
+    "original": "Whatever it is, it can wait. My research demands my undivided attention.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_SUBFST999_01437_SYSTEM_000_120",
+    "original": "Magicked runes float across your eyes, assuming familiar shapes...",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_121",
+    "original": "(-Winebaud\u0027s Message-)Seeker of treasure and truth, I congratulate and bid you welcome.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_122",
+    "original": "(-Winebaud\u0027s Message-)Who are you, I wonder, and why have you come this far? What drives you to solve my riddles, and what do you expect to find?",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_123",
+    "original": "(-Winebaud\u0027s Message-)You must wonder what kind of man I was as well. Doubtless you have heard stories\u2500some more flattering than others.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_124",
+    "original": "(-Winebaud\u0027s Message-)But I have rambled enough, and you must be rewarded! Allow me to share with you a verse written by my favorite poet:",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_125",
+    "original": "(-Winebaud\u0027s Message-)Clandestine rendezvous leave me breathless and wanting\u003Chex:02100103\u003EObsession consumes me, a thirst for the taboo",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_SUBFST999_01437_SYSTEM_000_126",
+    "original": "A light catches your eye, but on closer inspection, you find nothing of interest.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_130",
+    "original": "A message written in magicked runes? Amazing! Though the content was rather disappointing, now that I think on it. I was expecting a clue to the treasure\u0027s location.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_131",
+    "original": "Oh, I almost forgot! I\u0027ve finished translating another riddle. Why don\u0027t you go and take a look?",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_SUBFST999_01437_SYSTEM_000_301",
+    "original": "As you gaze upon the encoded message, you abruptly recall that you have yet to report your latest findings to Valiant Hart.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_132",
+    "original": "This one looks to be even harder than the last...",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_SUBFST999_01437_SYSTEM_000_140",
+    "original": "Carved upon the statue is a series of strange characters. Next to them, written in chalk, you find Valiant Hart\u0027s latest translation.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_140",
+    "original": "(-Winebaud\u0027s Message-)All foR fen-YLL\u003Chex:02100103\u003EThe members of the Marauders\u0027 Guild understand the importance of etiquette.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_141",
+    "original": "(-Winebaud\u0027s Message-)HylLfyr\u0027s cUtthroAts and briGands\u003Chex:02100103\u003EThe members of the Marauders\u0027 Guild understand the importance of etiquette.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_142",
+    "original": "(-Winebaud\u0027s Message-)PulPy, NuTritiOus, And decIDedly DElicious cItruS\u003Chex:02100103\u003EThe members of the Marauders\u0027 Guild understand the importance of etiquette.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_143",
+    "original": "(-Winebaud\u0027s Message-)rope ANd wooD aCross thE gully\u003Chex:02100103\u003EThe members of the Marauders\u0027 Guild understand the importance of etiquette.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_144",
+    "original": "(-Winebaud\u0027s Message-)Under tRanqUilIty\u0027s FoOtpathS\u003Chex:02100103\u003EThe members of the Marauders\u0027 Guild understand the importance of etiquette.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_145",
+    "original": "(-Winebaud\u0027s Message-)sappHires and peaRls, fortUnes Great and Small\u003Chex:02100103\u003EThe members of the Marauders\u0027 Guild understand the importance of etiquette.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_146",
+    "original": "(-Winebaud\u0027s Message-)cOncealed belah\u0027dian maJestY\u003Chex:02100103\u003EThe members of the Marauders\u0027 Guild understand the importance of etiquette.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_147",
+    "original": "(-Winebaud\u0027s Message-)red ligHt amidst the blUe Haze\u003Chex:02100103\u003EThe members of the Marauders\u0027 Guild understand the importance of etiquette.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_148",
+    "original": "(-Winebaud\u0027s Message-)CherIsh the sPinniNg wAter lullaby\u003Chex:02100103\u003EThe members of the Marauders\u0027 Guild understand the importance of etiquette.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_SUBFST999_01437_SYSTEM_000_149",
+    "original": "A treatise on cultivating interpersonal relationships and influencing others catches your eye. You open it to the bookmarked page and take note of an underlined passage:",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_SUBFST999_01437_SYSTEM_000_150",
+    "original": "(-Conspicuous Treatise-)A deliberate display of emotion, as befits the situation, can be effective in deepening your relationships with others.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_SUBFST999_01437_SYSTEM_000_151",
+    "original": "Magicked runes float across your eyes, assuming familiar shapes...",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_152",
+    "original": "(-Winebaud\u0027s Message-)Seeker of treasure and truth, I must congratulate you once more! Let us celebrate your latest accomplishment with another verse from my favorite poet:",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_153",
+    "original": "(-Winebaud\u0027s Message-)Perchance we meet in public, be not a beguiler\u003Chex:02100103\u003EPly me not with honeyed words, and spare me glances alluring",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_SUBFST999_01437_SYSTEM_000_155",
+    "original": "A light catches your eye, but on closer inspection, you find nothing of interest.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_SUBFST999_01437_SYSTEM_000_156",
+    "original": "As you move closer to the light, it begins to grow dim, as if retreating from your presence. Perhaps you should reconsider your approach.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_160",
+    "original": "Eh!? You had to do \u003Chex:021A020203\u003Ewhat\u003Chex:021A020103\u003E to trigger the message? I know Winebaud had some skill with magicks, but that beggars belief!",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_161",
+    "original": "That curiosity aside, why is he continuing to spout poetry? Bah, never mind. For now, let us focus on the next riddle, which I\u0027ve just finished translating. It\u0027s waiting for you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_SUBFST999_01437_SYSTEM_000_302",
+    "original": "As you gaze upon the encoded message, you abruptly recall that you have yet to report your latest findings to Valiant Hart.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_162",
+    "original": "I may not be the most educated man, but even \u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E know arithmetic uses numbers, not letters...",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_SUBFST999_01437_SYSTEM_000_170",
+    "original": "Carved upon the statue is a series of strange characters. Next to them, written in chalk, you find Valiant Hart\u0027s latest translation.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_171",
+    "original": "(-Winebaud\u0027s Message-)If SWORD\u002BSWORD=DAGGER, then return to me with G of A.\u003Chex:02100103\u003EThe master of the markets has my list.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_172",
+    "original": "(-Winebaud\u0027s Message-)If SWORD\u002BSWORD=DAGGER, then return to me with a W of A.\u003Chex:02100103\u003EThe master of the markets has my list.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_173",
+    "original": "(-Winebaud\u0027s Message-)If SWORD\u002BSWORD=DAGGER, then return to me with a S of A.\u003Chex:02100103\u003EThe master of the markets has my list.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_174",
+    "original": "(-Winebaud\u0027s Message-)If SWORD\u002BSWORD=DAGGER, then return to me with G of O.\u003Chex:02100103\u003EThe master of the markets has my list.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_175",
+    "original": "(-Winebaud\u0027s Message-)If SWORD\u002BSWORD=DAGGER, then return to me with a W of O.\u003Chex:02100103\u003EThe master of the markets has my list.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_176",
+    "original": "(-Winebaud\u0027s Message-)If SWORD\u002BSWORD=DAGGER, then return to me with a S of O.\u003Chex:02100103\u003EThe master of the markets has my list.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_177",
+    "original": "(-Winebaud\u0027s Message-)If SWORD\u002BSWORD=DAGGER, then return to me with G of R.\u003Chex:02100103\u003EThe master of the markets has my list.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_178",
+    "original": "(-Winebaud\u0027s Message-)If SWORD\u002BSWORD=DAGGER, then return to me with a W of R.\u003Chex:02100103\u003EThe master of the markets has my list.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_179",
+    "original": "(-Winebaud\u0027s Message-)If SWORD\u002BSWORD=DAGGER, then return to me with a S of R.\u003Chex:02100103\u003EThe master of the markets has my list.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_SUBFST999_01437_Q3_000_000",
+    "original": "As you linger near the strange markings, your jewelry begins to grow uncomfortably warm. Wait and see if anything happens?",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_SUBFST999_01437_A3_000_001",
+    "original": "Yes",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_SUBFST999_01437_A3_000_002",
+    "original": "No",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_SUBFST999_01437_SESEROGA_000_180",
+    "original": "The adventurer returns, asking after a...Winebaud? Yes, I remember now. He requested my assistance in locating a number of items many years ago.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_SUBFST999_01437_SESEROGA_000_181",
+    "original": "However, his list lacked sufficient information, and I was unable to proceed. Fortunately for you, I am loath to dispose of any documents related to business. Now where did I...? Ah, here we are.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_SUBFST999_01437_SESEROGA_000_182",
+    "original": "(-Winebaud\u0027s List-)1 = Pearl\u003Chex:02100103\u003E2 = Fluorite\u003Chex:02100103\u003E3 = Malachite\u003Chex:02100103\u003E4 = Choker\u003Chex:02100103\u003E5 = Sunstone\u003Chex:02100103\u003E6 = Earrings\u003Chex:02100103\u003E7 = Ring\u003Chex:02100103\u003E8 = Bracelet",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_SUBFST999_01437_SESEROGA_000_183",
+    "original": "To be fair, it matters not if it were more detailed. A dead man cannot pay a finder\u0027s fee, after all.",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_SUBFST999_01437_SESEROGA_000_185",
+    "original": "This Winebaud gave a list to the master of the markets? \u0027Twas not I, adventurer. Mayhap he meant my counterpart in Gridania or Limsa Lominsa?",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_SUBFST999_01437_PARSEMONTRET_000_190",
+    "original": "You are come to ask another favor, sans eel pie? Hmph! Very well, out with it.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_SUBFST999_01437_PARSEMONTRET_000_191",
+    "original": "...The deceased explorer? We met years ago, as I recall. He wished to procure a number of items, though his list was lacking in details. There should still be a record...",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_SUBFST999_01437_PARSEMONTRET_000_192",
+    "original": "(-Winebaud\u0027s List-)1 = Pearl\u003Chex:02100103\u003E2 = Fluorite\u003Chex:02100103\u003E3 = Malachite\u003Chex:02100103\u003E4 = Choker\u003Chex:02100103\u003E5 = Sunstone\u003Chex:02100103\u003E6 = Earrings\u003Chex:02100103\u003E7 = Ring\u003Chex:02100103\u003E8 = Bracelet",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_SUBFST999_01437_PARSEMONTRET_000_193",
+    "original": "Useless, as you can see. He never returned, so I could not ask for clarification.",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_SUBFST999_01437_PARSEMONTRET_000_194",
+    "original": "Hm? I hold no such list. Mayhap this Winebaud meant the master of the markets in Limsa Lominsa or Ul\u0027dah?",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_SUBFST999_01437_SWOZBLAET_000_200",
+    "original": "A fine \u003Chex:020839E3E90C0DFF1B020817E3E90C05FF086576656E696E67FF086D6F726E696E6703FF17020813E3E90C12FF04646179FF086576656E696E670303\u003E to you, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E! Hm? Winebaud\u0027s list? Pray let me think a moment...",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_SUBFST999_01437_SWOZBLAET_000_201",
+    "original": "It has been several years, unless I have been mistaken, but there was a man by that name who begged assistance in procuring some supplies. With luck, his list may still be... Ah hah!",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_SUBFST999_01437_SWOZBLAET_000_202",
+    "original": "(-Winebaud\u0027s List-)1 = Pearl\u003Chex:02100103\u003E2 = Fluorite\u003Chex:02100103\u003E3 = Malachite\u003Chex:02100103\u003E4 = Choker\u003Chex:02100103\u003E5 = Sunstone\u003Chex:02100103\u003E6 = Earrings\u003Chex:02100103\u003E7 = Ring\u003Chex:02100103\u003E8 = Bracelet",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_SUBFST999_01437_SWOZBLAET_000_203",
+    "original": "Rather vague, to say the least. I would have requested more information, but I haven\u0027t seen him since that day.",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_SUBFST999_01437_SWOZBLAET_000_204",
+    "original": "Winebaud\u0027s list? Forgive me, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E, but if this Winebaud claims to have entrusted a list to a master of the markets, he must have meant the one in either Gridania or Ul\u0027dah.",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_SUBFST999_01437_SYSTEM_000_210",
+    "original": "Magicked runes float across your eyes, assuming familiar shapes...",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_211",
+    "original": "(-Winebaud\u0027s Message-)Seeker of treasure and truth, you are clever indeed. I pray you appreciate this next verse as much as I:",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_212",
+    "original": "(-Winebaud\u0027s Message-)Ere long this torment must end; together we must be\u003Chex:02100103\u003ERenounce it all I would, but we must be more discreet",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_220",
+    "original": "You saw something, didn\u0027t you? Tell me everything\u2500\u003Chex:021A020203\u003Eeverything\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_221",
+    "original": "...Eh? \u003Chex:021A020203\u003EAgain\u003Chex:021A020103\u003E he includes a verse of poetry? Gods, why must he be so obtuse? Why can he not just tell us where it is!?",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_222",
+    "original": "I know not what to do, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I finished deciphering the remaining portion of his message, and... \u003Csigh\u003E Just read it.",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_SUBFST999_01437_SYSTEM_000_303",
+    "original": "As you gaze upon the encoded message, you abruptly recall that you have yet to report your latest findings to Valiant Hart.",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_SUBFST999_01437_SYSTEM_000_225",
+    "original": "Carved upon the statue is a series of strange characters. Next to them, written in chalk, you find Valiant Hart\u0027s latest translation.",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_226",
+    "original": "(-Winebaud\u0027s Message-)Irrespective of the lives we lead, we are often defined by our beginnings and endings.",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_227",
+    "original": "(-Winebaud\u0027s Message-)The poet understood this. So do I, and so must you.",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_228",
+    "original": "(-Winebaud\u0027s Message-)Seeker of treasure and truth, I have given you the key.",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_229",
+    "original": "(-Winebaud\u0027s Message-)The lock lies before you, behind my obfuscations.",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_230",
+    "original": "(-Winebaud\u0027s Message-)It\u0027s a story, you see...",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_231",
+    "original": "(-Winebaud\u0027s Message-)But not the one we were told.",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_240",
+    "original": "(-Winebaud\u0027s Message-)Irrespective of the lives we lead, we are often defined by our beginnings and endings.",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_241",
+    "original": "(-Winebaud\u0027s Message-)The poet understood this. So do I, and so must you.",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_242",
+    "original": "(-Winebaud\u0027s Message-)Seeker of treasure and truth, I have given you the key. The lock lies before you, behind my obfuscations.",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_243",
+    "original": "(-Winebaud\u0027s Message-)It\u0027s a story, you see...but not the one we were told.",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_250",
+    "original": "He mentioned the poet, so perhaps his verses contain a clue? I keep turning them over in my head, but to no avail...",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_SUBFST999_01437_Q2_000_000",
+    "original": "What will you ask?",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_SUBFST999_01437_A2_000_001",
+    "original": "Would you repeat the first verse?",
+    "translation": ""
+  },
+  "197": {
+    "tag": "TEXT_SUBFST999_01437_A2_000_002",
+    "original": "Would you repeat the second verse?",
+    "translation": ""
+  },
+  "198": {
+    "tag": "TEXT_SUBFST999_01437_A2_000_003",
+    "original": "Would you repeat the third verse?",
+    "translation": ""
+  },
+  "199": {
+    "tag": "TEXT_SUBFST999_01437_A2_000_004",
+    "original": "Why do you seek the treasure?",
+    "translation": ""
+  },
+  "200": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_260",
+    "original": "\u201CClandestine rendezvous leave me breathless and wanting\u003Chex:02100103\u003EObsession consumes me, a thirst for the taboo\u201D",
+    "translation": ""
+  },
+  "201": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_261",
+    "original": "\u201CPerchance we meet in public, be not a beguiler\u003Chex:02100103\u003EPly me not with honeyed words, and spare me glances alluring\u201D",
+    "translation": ""
+  },
+  "202": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_262",
+    "original": "\u201CEre long this torment must end; together we must be\u003Chex:02100103\u003ERenounce it all I would, but we must be more discreet\u201D",
+    "translation": ""
+  },
+  "203": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_263",
+    "original": "Let\u0027s just say that during my enlistment in the Flames, I picked up a few bad habits. \u003Chex:021A020203\u003EExpensive\u003Chex:021A020103\u003E habits.",
+    "translation": ""
+  },
+  "204": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_264",
+    "original": "Really, though, what does it matter? If we find it, we\u0027ll both be richer than Lord Lolorito!",
+    "translation": ""
+  },
+  "205": {
+    "tag": "TEXT_SUBFST999_01437_SYSTEM_000_265",
+    "original": "The strange markings are reminiscent of Winebaud\u0027s encoded message, but are too worn to decipher.",
+    "translation": ""
+  },
+  "206": {
+    "tag": "TEXT_SUBFST999_01437_SYSTEM_000_270",
+    "original": "As you approach the faded markings, you feel the copper gorget around your neck grow warm. Magicked runes float across your eyes, assuming familiar shapes...",
+    "translation": ""
+  },
+  "207": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_271",
+    "original": "(-Winebaud\u0027s Message-)Seeker of treasure and truth, I can deny you no longer.",
+    "translation": ""
+  },
+  "208": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_272",
+    "original": "(-Winebaud\u0027s Message-)The most precious secret of Lalafuto III, priceless beyond measure, is yours.",
+    "translation": ""
+  },
+  "209": {
+    "tag": "TEXT_SUBFST999_01437_IBUN01437_000_273",
+    "original": "(-Winebaud\u0027s Message-)Reach within and claim your prize.",
+    "translation": ""
+  },
+  "210": {
+    "tag": "TEXT_SUBFST999_01437_SYSTEM_000_274",
+    "original": "A grinding sound draws your attention to a section of the statue, where a small opening has appeared...",
+    "translation": ""
+  },
+  "211": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_280",
+    "original": "What was that\u2500 \u003Cgasp\u003E The statue! That hole wasn\u0027t there before!",
+    "translation": ""
+  },
+  "212": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_281",
+    "original": "Y-You solved it, didn\u0027t you? The final riddle! Then you know where the treasure is!",
+    "translation": ""
+  },
+  "213": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_282",
+    "original": "That there, in your hands\u2500\u003Chex:021A020203\u003Ethat\u003Chex:021A020103\u003E is the sultan\u0027s secret treasure? Give it to me, give it to me!",
+    "translation": ""
+  },
+  "214": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_283",
+    "original": "(-Belah\u0027dian Tablet-)The gods may condemn me, my people forsake me, history judge me a fool\u003Chex:02100103\u003EPower and prestige, fortune and fineries\u2500all I would forsake for you\u003Chex:02100103\u003EMy kingdom may crumble\u2500",
+    "translation": ""
+  },
+  "215": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_284",
+    "original": "And it goes on like this. Line after line of...love poetry?",
+    "translation": ""
+  },
+  "216": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_285",
+    "original": "These are naught more than the words of some lovesick buffoon to his beloved! Over and over he repeats the same hackneyed phrases, and his desire to \u201Crenounce,\u201D to \u201Cforsake,\u201D to \u201Cabdicate\u2500\u201D",
+    "translation": ""
+  },
+  "217": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_286",
+    "original": "\u201CAbdicate the throne...\u201D Wait. Could it be that this was written by Lalafuto III!?",
+    "translation": ""
+  },
+  "218": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_287",
+    "original": "Many believed that the sultan\u0027s wife had him assassinated so that she could claim the throne for herself. Though that would seem the most likely explanation, his sudden disappearance remains a mystery to this day.",
+    "translation": ""
+  },
+  "219": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_288",
+    "original": "Yet if these poems are to be believed, Lalafuto III was madly in love with his paramour, and wished to be free of his royal responsibilities. He was plotting to flee the capital in secret\u2500and may very well have succeeded.",
+    "translation": ""
+  },
+  "220": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_289",
+    "original": "An ambitious courtier could have used these poems to gain favor with the sultana or her enemies. On one hand, they are arguably evidence that Lalafuto III still lived. On the other hand, one could assert that Memeto the Meek had him murdered for this ultimate betrayal...",
+    "translation": ""
+  },
+  "221": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_290",
+    "original": "But why did Winebaud claim the treasure was worth one hundred million gil? Seven hundred years ago he would have been right, but the nation of Belah\u0027dia is no more.",
+    "translation": ""
+  },
+  "222": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_291",
+    "original": "Hm? There\u0027s something written here in a different script.",
+    "translation": ""
+  },
+  "223": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_292",
+    "original": "(-Winebaud\u0027s Message-)A love that will echo through the ages. Truly, there is naught more precious in all creation.",
+    "translation": ""
+  },
+  "224": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_293",
+    "original": "All those riddles, all those clues\u2500all for \u003Chex:021A020203\u003Ethis\u003Chex:021A020103\u003E!?",
+    "translation": ""
+  },
+  "225": {
+    "tag": "TEXT_SUBFST999_01437_VALLIANTHART_000_294",
+    "original": "Winebaud! You thrice-damned son of a whore! I can\u0027t pay off my debts with swiving \u003Chex:021A020203\u003Epoetry\u003Chex:021A020103\u003E!",
+    "translation": ""
+  }
+}

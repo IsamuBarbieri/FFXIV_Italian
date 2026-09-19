@@ -1,0 +1,837 @@
+{
+  "0": {
+    "tag": "TEXT_KINGMF104_04949_SEQ_00",
+    "original": "Wuk Lamat\u0027s frustration is fairly palpable.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_KINGMF104_04949_SEQ_01",
+    "original": "With little else to be done at the Meso Terminal, Wuk Lamat suggests returning to the aetheryte. If Constancy is still there, he may be able to tell you more about Sphene\u0027s impending slumber and what that entails.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_KINGMF104_04949_SEQ_02",
+    "original": "As you search fruitlessly for Constancy, you are instead found by none other than Cahciua, who appears as she was as a living person. Having admitted that she had been an Endless all along, she offers to help with your mission to stop Sphene, but asks that you first consider a request of hers. To that end, she bids you join her at a place called Canal Town, which you can travel to from the nearby zip line station.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_KINGMF104_04949_SEQ_03",
+    "original": "You make the brief and exhilarating zip line trip to arrive at Canal Town, a charming and scenic zone built upon the water. There, Cahciua points out Endless going about their business, each and every one the very picture of happiness. These are the people Sphene strives to protect, and you cannot hide your shock when Cahciua reveals her request: to erase them all.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_KINGMF104_04949_SEQ_04",
+    "original": "Cahciua reasons that, if the Endless are gone, Sphene would have no motive to plunder aether from other worlds even should you fail to prevent interdimensonal fusion. Seeing the sense in her words, you agree to do as she asks while waiting for the Meso Terminal to become vulnerable. Before carrying out the deed, however, Wuk Lamat expresses her desire to meet the Endless, that she might better understand Sphene. Thus is it decided that you will speak with as many of the inhabitants of Living Memory as possible as you make your way to the terminals holding their memories.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_KINGMF104_04949_SEQ_05",
+    "original": "You speak with a number of Endless in Canal Town, learning what brings them joy. One of them, a self-professed gourmand, recommends the popcorn at the nearby stall, and you proceed there to satisfy your curiosity.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_KINGMF104_04949_SEQ_06",
+    "original": "You find that G\u0027raha Tia has also been directed to the stall, and together you sample the snack. While you are shocked to discover that the food in Living Memory tastes like nothing to you, your reactions suffice to delight the gathered crowd. Afterwards, G\u0027raha Tia mentions having seen a man who seemed to be frantically searching for something. Curious as to what the problem is, he asks you to accompany him to where he was seen.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_KINGMF104_04949_SEQ_07",
+    "original": "The man no longer appears to be in the vicinity. If you can find him, however, perhaps you can be of assistance in some way.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_KINGMF104_04949_TODO_00",
+    "original": "Stand lookout at the designated location.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_KINGMF104_04949_TODO_01",
+    "original": "Speak with the Canal Town guard.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_KINGMF104_04949_TODO_02",
+    "original": "Speak with Cahciua.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_KINGMF104_04949_TODO_03",
+    "original": "Speak with Endless.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_KINGMF104_04949_TODO_04",
+    "original": "Speak with Erastus.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_KINGMF104_04949_TODO_05",
+    "original": "Speak with G\u0027raha Tia.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_KINGMF104_04949_KRILE_000_001",
+    "original": "While Sphene\u0027s intentions are good, her methods are anything but. We cannot yield at any cost.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_KINGMF104_04949_GRAHATIA_000_002",
+    "original": "The Endless were unsustainable from the first. Sphene has been fighting a lost cause.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_KINGMF104_04949_ERENVILLE_000_003",
+    "original": "The Endless exist in defiance of the laws of nature. But they exist nonetheless, with Sphene holding them to be no different from the living...",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_000_004",
+    "original": "It doesn\u0027t seem like we can do much else here. Let\u0027s return to the aetheryte for now.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_000_005",
+    "original": "The caretaker, Constancy. Perhaps he can tell us more about this business of Sphene going into a slumber.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_KINGMF104_04949_KRILE_000_006",
+    "original": "No sign of Constancy...",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_KINGMF104_04949_GRAHATIA_000_007",
+    "original": "Is that...? No, that\u0027s not him.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_KINGMF104_04949_ERENVILLE_000_008",
+    "original": "He\u0027s left the area.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_000_009",
+    "original": "Don\u0027t tell me he\u0027s gone somewhere else!?",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_000_010",
+    "original": "He\u0027s nowhere in sight...",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_KINGMF104_04949_KRILE_000_011",
+    "original": "Perhaps he has taken other recent arrivals on a tour.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_012",
+    "original": "(-???-)Looking for someone, are you?",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_000_013",
+    "original": "Yes... He was here just earlier, a fellow named Constancy.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_000_014",
+    "original": "Wait, what!?",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_015",
+    "original": "(-???-)Hello, everyone. You made it here, as I knew you would.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_KINGMF104_04949_KRILE_000_016",
+    "original": "Is that who I think it is?",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_000_017",
+    "original": "It is! It\u0027s Cahciua!",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_018",
+    "original": "None other. This is the first time some of you are seeing me in the proverbial flesh, isn\u0027t it?",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_019",
+    "original": "Feast your eyes, then! She who was controlling that unassuming machine was a ravishing Shetona maiden!",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_020",
+    "original": "...That was a bit much, wasn\u0027t it? Ignore me.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_KINGMF104_04949_ERENVILLE_000_021",
+    "original": "So it was true. That you\u0027re here means...",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_022",
+    "original": "I tried to tell you. So many times. But my courage always failed me...",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_023",
+    "original": "I am indeed an Endless. Have been for quite a while now.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_000_024",
+    "original": "Erenville...",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_025",
+    "original": "Now, you\u0027ve come to stop Sphene, yes? I can help with that, but I have a request to make.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_KINGMF104_04949_GRAHATIA_000_026",
+    "original": "You know how to stop her, then?",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_027",
+    "original": "While there are no guarantees, your coming here makes it a distinct possibility.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_028",
+    "original": "As my wish is relevant to your mission, will you hear me out? You can decide what to do afterwards.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_029",
+    "original": "Excellent. To begin, we\u0027ll need to head to a different area.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_030",
+    "original": "See that sentry? I\u0027ll have them grant you access to the zip line.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_000_031",
+    "original": "Zip line? What is that?",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_032",
+    "original": "A fun little mode of transport. They don\u0027t see much use, though, as we Endless can teleport freely within Living Memory.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_100_032",
+    "original": "This particular line will take you to a zone called Canal Town. I\u0027ll be waiting for you there.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_KINGMF104_04949_KRILE_000_033",
+    "original": "\u003Cchuckle\u003E With that endearing pushiness, it could only be Cahciua. Let\u0027s go!",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_KINGMF104_04949_KRILE_000_034",
+    "original": "It has the look of the contraptions found throughout the Isle of Haam, does it not?",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_KINGMF104_04949_GRAHATIA_000_035",
+    "original": "Cahciua has already teleported ahead, it seems.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_KINGMF104_04949_ERENVILLE_000_036",
+    "original": "I\u0027m sorry, it\u0027s just...she\u0027s gone, yet to see and hear her carrying on like nothing\u0027s... I don\u0027t know how to feel.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_000_037",
+    "original": "I think I know how it works! I\u0027ve got this!",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_KINGMF104_04949_CANALTOWNGUARD_000_038",
+    "original": "Hm? You don\u0027t seem to be\u2500\u003Chex:02100103\u003E\u003Cbleep\u003E \u003Cbloop\u003E Error. Error. User registration...c-c-confirmed.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_KINGMF104_04949_CANALTOWNGUARD_000_039",
+    "original": "I bid you welcome to Canal Town, the resort of romance and relaxation! Please enjoy your stay!",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_KINGMF104_04949_KRILE_000_040",
+    "original": "What a charming place...",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_041",
+    "original": "That\u0027s them. The people Sphene strives to protect.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_000_042",
+    "original": "They look happy.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_000_043",
+    "original": "So, what\u0027s this request of yours?",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_044",
+    "original": "I want you to erase us. Erase the Endless.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_000_045",
+    "original": "What?",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_KINGMF104_04949_KRILE_000_105",
+    "original": "And by \u201Cerase,\u201D she means...",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_KINGMF104_04949_GRAHATIA_000_110",
+    "original": "For now, let us hear the rest.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_KINGMF104_04949_ERENVILLE_000_115",
+    "original": "...",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_000_120",
+    "original": "Cahciua must have her reasons.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_130",
+    "original": "Oh, come now, spare me those gloomy faces.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_131",
+    "original": "Being alive, you\u0027re the only ones who can do this. And we won\u0027t have a better opportunity than now, while Queen Sphene is busy preparing to initiate interdimensional fusion.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_000_132",
+    "original": "It\u0027s wrong to sacrifice others to sustain the Endless. This I firmly believe.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_000_133",
+    "original": "But talking to you now, you seem as real as any of us. And if you need an answer right away, I don\u0027t know if I can give it.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_000_134",
+    "original": "Is there a reason we need to act so soon?",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_135",
+    "original": "Because, as you\u0027ve just said, it\u0027s wrong to sacrifice others to sustain us. Remember, we need life force\u2500other forms of aether don\u0027t cut it.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_136",
+    "original": "In the beginning, we managed with the aether of those who died in the barrier. But as our numbers grew, there began to be a shortage.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_137",
+    "original": "That\u0027s why Queen Sphene looked to other sources. Even the aether I\u0027m composed of may have come from the victims of the attack on Tuliyollal.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_138",
+    "original": "I can\u0027t bear that thought. Can\u0027t bear to exist because someone died.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_000_139",
+    "original": "We\u0027d probably feel the same way if we were in your shoes... But what exactly are you asking us to do?",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_140",
+    "original": "In each zone, there is an enormous data storage device called a terminal. That is where our memories are kept.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_141",
+    "original": "If you shut down a terminal, the memories within will disappear\u2500along with those Endless created from them.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_KINGMF104_04949_ERENVILLE_000_142",
+    "original": "But does this need to be done now? Can\u0027t we stop Sphene first, and then take it from there?",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_143",
+    "original": "It\u0027s precisely in order to stop Sphene that it must be done now.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_144",
+    "original": "Her own memories are stored within the Meso Terminal, which stands at the heart of Living Memory.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_146",
+    "original": "As you would expect, the terminal\u0027s defenses are extremely tight. But it has moments of vulnerability, such as when it has just finished calculations, which we can exploit to shut it down from within.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_147",
+    "original": "While we wait for that opening, we erase the Endless. Once we are gone, Sphene will no longer have a reason to plunder aether from other worlds.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_KINGMF104_04949_GRAHATIA_000_148",
+    "original": "Would Sphene simply allow us to shut down the terminals?",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_149",
+    "original": "In preparation for fusion, the Meso Terminal is currently performing massive calculations while gathering energy. Even if the system notices us, it cannot easily suspend the process.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_150",
+    "original": "Rather than doing so, I believe it will attempt to accelerate the timetable and bridge worlds before the plan can be thwarted.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_151",
+    "original": "It wouldn\u0027t be a decision Sphene would wish to make, but she would be able to save those who are stored in the Meso Terminal, at least...",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_KINGMF104_04949_KRILE_000_152",
+    "original": "There\u0027s sense in your strategy, and in resolving to stop Sphene, we had anticipated that it might come to this. But to actually talk about erasing the Endless...is difficult.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_153",
+    "original": "You needn\u0027t feel any guilt. No matter how lifelike we may seem, we Endless are but facsimiles crafted from memories. ",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_100_153",
+    "original": "Besides, stopping Sphene requires that you shut down the Meso Terminal, which sustains all of us. Sooner or later, it will need to be done.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_110_153",
+    "original": "If we are to be erased, then let it be before more people come to harm. Living, breathing people with futures they deserve to experience.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_KINGMF104_04949_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_KINGMF104_04949_A1_000_001",
+    "original": "We\u0027ll do as you ask.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_KINGMF104_04949_A1_000_002",
+    "original": "There has to be another way.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_KINGMF104_04949_A1_000_003",
+    "original": "I don\u0027t want you to go...",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_155",
+    "original": "Thank you. For respecting my wish.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_156",
+    "original": "I\u0027m afraid not. We spent years scouring Preservation\u0027s records, but found nothing. It\u0027s truly a bothersome system they\u0027ve created.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_157",
+    "original": "\u003Cchuckle\u003E While I appreciate the thought, we can\u0027t afford to miss this chance. Do this for me, will you?",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_158",
+    "original": "And, as a personal request... While her actions cannot be condoned, I ask that you afford Queen Sphene a measure of understanding. Know that she herself didn\u0027t choose to become an Endless.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_159",
+    "original": "It was Preservation that made the choice for her.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_160",
+    "original": "She is powerless to resist her purpose.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_100_160",
+    "original": "What do you mean?",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_110_160",
+    "original": "The Sphene you know is an ideal that Preservation brought to life.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_120_160",
+    "original": "Harnessing the love the living Sphene bore for her people, they brought forth an eternal queen whose primary directive is to preserve the Endless.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_130_160",
+    "original": "But as you know, the Endless consume aether. Sphene was compelled to find ways to procure it, and that compulsion has driven her to resort to interdimensional fusion.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_140_160",
+    "original": "What? Are you telling me the original Sphene wouldn\u0027t have chosen this?",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_150_160",
+    "original": "What the queen might have done, only she herself would know.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_160_160",
+    "original": "But the scientists of Preservation have vanished, leaving their created queen to walk alone.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_170_160",
+    "original": "So as you go about your mission, think not that you\u0027re stopping a ruthless villain. But rather, that you\u0027re relieving a troubled soul of her burden.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_000_161",
+    "original": "Alright, Cahciua. We understand now. Both your reasoning and your feelings.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_000_162",
+    "original": "But before we erase the Endless, I\u0027d like to know them. I\u0027d like to know what she fights tooth and nail for.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_000_163",
+    "original": "If we\u0027re going to reject someone\u0027s beliefs, let it be after we\u0027ve come to understand them. This is a lesson I learned from the rite of succession.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_000_164",
+    "original": "I realize we\u0027re pressed for time, but if it\u0027s alright with you, I want to meet as many people as I can.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_165",
+    "original": "You truly are Gulool Ja Ja\u0027s kitten... Well, the calculations will take a while still. It should be fine if we do this as we proceed to the terminals.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_KINGMF104_04949_KRILE_000_166",
+    "original": "I\u0027m with you. We might not be able to learn everything, but it would nevertheless be meaningful if we could glimpse the hearts of those who inhabit this place before we set them free.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_167",
+    "original": "I\u0027ll leave you to it, then. When you\u0027ve finished here, come and find me at the fountain near that big clock tower.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_000_168",
+    "original": "Right, let\u0027s split up and find some locals to speak with!",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_169",
+    "original": "It really is a lovely place. You should run along and enjoy it while you can.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_KINGMF104_04949_KRILE_000_170",
+    "original": "A part of me hopes that my parents are here too, but it\u0027s probably too much to ask for...",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_KINGMF104_04949_GRAHATIA_000_175",
+    "original": "The Endless seem to eat the food with relish, but it couldn\u0027t be real...could it?",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_KINGMF104_04949_ERENVILLE_000_180",
+    "original": "I will not object to your decision... And as my mother says, you needn\u0027t feel any guilt.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_KINGMF104_04949_ERENVILLE_000_185",
+    "original": "Yet I admit I myself am still conflicted. To have such doubts after coming all this way... It\u0027s laughable, isn\u0027t it?",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_KINGMF104_04949_WUKLAMAT_000_190",
+    "original": "Your ancestors were refugees from Lindblum? What tales they must have...",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_KINGMF104_04949_CAHCIUA_000_195",
+    "original": "I must say, I\u0027m starting to enjoy myself. Even if it\u0027s only brief, this has the feel of a journey.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_KINGMF104_04949_CHEERFULENDLESS04949_000_200",
+    "original": "Well now, I don\u0027t believe I\u0027ve seen you around before. A newcomer, I take it?",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_KINGMF104_04949_CHEERFULENDLESS04949_000_201",
+    "original": "It\u0027s wonderful here, let me tell you! Why, I just bumped into a dear friend in life, and we\u0027ve been whiling away the hours reminiscing.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_KINGMF104_04949_CHEERFULENDLESS04949_000_202",
+    "original": "It might have been more like days, actually. You don\u0027t get a sense of the time here.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_KINGMF104_04949_CHEERFULENDLESS04949_000_203",
+    "original": "By the way, did you hear the announcement earlier? As much as I love this place, I wonder if Queen Sphene can really sustain us forever...",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_KINGMF104_04949_CHEERFULENDLESS04949_000_204",
+    "original": "But I suppose there\u0027s no use worrying about such things. Anyway, thanks to you, we found a break in our conversation. We\u0027ll go and ride the gondola next!",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_KINGMF104_04949_CALMENDLESS04949_000_205",
+    "original": "Oh, hello there. Taking in the sights of Canal Town too, are you? Both my wife and I just adore this place.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_KINGMF104_04949_CALMENDLESS04949_000_206",
+    "original": "We had become estranged in life, she and I, but being here gave us the chance to reconcile.",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_KINGMF104_04949_CALMENDLESS04949_000_207",
+    "original": "I couldn\u0027t be more grateful for the chance to spend these blessed little moments together again.",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_KINGMF104_04949_CALMENDLESS04949_000_208",
+    "original": "I have no more regrets. Whether Her Majesty\u0027s plan succeeds or no, I can rest with peace in my heart.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_KINGMF104_04949_CALMENDLESS04949_000_209",
+    "original": "Well, we shall continue on our way, but we hope to see you again. Till next time.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_KINGMF104_04949_SATISFIEDENDLESS04949_000_210",
+    "original": "You there! Have you tried the popcorn from that stall?",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_KINGMF104_04949_SATISFIEDENDLESS04949_000_211",
+    "original": "You haven\u0027t? You don\u0027t know what you\u0027re missing!",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_KINGMF104_04949_SATISFIEDENDLESS04949_000_212",
+    "original": "I consider myself something of a gourmand, and believe me when I say the classic salt flavor is amazing! The saltiness is simply \u003Chex:021A020203\u003Eexquisite\u003Chex:021A020103\u003E\u2500that\u0027s the only way to describe it. Once you have a mouthful, it\u0027s impossible to stop until it\u0027s all gone!",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_KINGMF104_04949_SATISFIEDENDLESS04949_000_213",
+    "original": "And after you\u0027ve tried that, I urge you to seek out other stalls. There are lots of them everywhere, offering all manner of delights.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_KINGMF104_04949_SATISFIEDENDLESS04949_000_214",
+    "original": "For another recommendation off the top of my head...the ice cream over in Asyle Volcane! It\u0027s so smooth and rich and\u2500",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_KINGMF104_04949_SATISFIEDENDLESS04949_000_215",
+    "original": "\u003Cslurp\u003E Just thinking about it has given me a hankering... That\u0027s it\u2500I\u0027m going to go and have some right now!",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_KINGMF104_04949_ERASTUS_000_220",
+    "original": "Welcome, welcome! Have a browse and let me know when you\u0027re ready to order.",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_KINGMF104_04949_GRAHATIA_000_221",
+    "original": "You\u0027re here on that lady\u0027s recommendation as well, I take it?",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_KINGMF104_04949_GRAHATIA_000_222",
+    "original": "I had been wondering what the Endless do for sustenance, so it seemed a good opportunity to learn.",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_KINGMF104_04949_ERASTUS_000_223",
+    "original": "Oho, this is your first time eating, is it?",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_KINGMF104_04949_ERASTUS_000_224",
+    "original": "The food here is created using aether and memory data. To us, it tastes just like the real thing.",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_KINGMF104_04949_ERASTUS_000_225",
+    "original": "So, how about it? Would you care for some popcorn?",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_KINGMF104_04949_GRAHATIA_000_226",
+    "original": "Let\u0027s give it a try, shall we?",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_KINGMF104_04949_ERASTUS_100_226",
+    "original": "That\u0027s the spirit! Find a table you like, and I\u0027ll bring it right out. And lest you worry, there\u0027s no charge\u2500all the food is free here.",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_KINGMF104_04949_GRAHATIA_100_226",
+    "original": "Food created with memory data... How will this taste to the living, I wonder.",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_KINGMF104_04949_GRAHATIA_110_226",
+    "original": "Well, as they say, there\u0027s only one way to find out!",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_KINGMF104_04949_SYSTEM_000_227",
+    "original": "You sample a handful of popcorn. While it has texture, you can detect no taste whatsoever.",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_KINGMF104_04949_GRAHATIA_000_228",
+    "original": "Good gods... It tastes like nothing at all...",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_KINGMF104_04949_GRAHATIA_000_229",
+    "original": "Er, I-I mean...it\u0027s amazing! I\u0027ve never had such tasty popcorn!",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_KINGMF104_04949_ERASTUS_000_230",
+    "original": "Hehe, it\u0027s not our best seller for nothing!",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_KINGMF104_04949_ERASTUS_000_231",
+    "original": "And what about you?",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_KINGMF104_04949_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_KINGMF104_04949_A2_000_001",
+    "original": "It\u0027s fantastic!",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_KINGMF104_04949_A2_000_002",
+    "original": "The saltiness is exquisite!",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_KINGMF104_04949_A2_000_003",
+    "original": "It\u0027s...interesting.",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_KINGMF104_04949_ERASTUS_000_233",
+    "original": "Hahaha! It\u0027s always special, watching newcomers eat for the first time!",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_KINGMF104_04949_GRAHATIA_000_234",
+    "original": "They\u0027re just like the people of Everkeep.",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_KINGMF104_04949_GRAHATIA_000_235",
+    "original": "Their communal spirit, their delighted smiles. Exactly the same...",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_KINGMF104_04949_ERASTUS_000_236",
+    "original": "Thank you for your custom. Come again any time!",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_KINGMF104_04949_GRAHATIA_000_237",
+    "original": "By the way, prior to this, a young man caught my eye near the canal. He appeared to be searching for something, and rather frantically.",
+    "translation": ""
+  },
+  "197": {
+    "tag": "TEXT_KINGMF104_04949_GRAHATIA_000_238",
+    "original": "Did you perchance see him too?",
+    "translation": ""
+  },
+  "198": {
+    "tag": "TEXT_KINGMF104_04949_GRAHATIA_000_239",
+    "original": "No? I must say I\u0027m curious as to what has him so flustered. Could you help me look for the fellow?",
+    "translation": ""
+  },
+  "199": {
+    "tag": "TEXT_KINGMF104_04949_GRAHATIA_000_240",
+    "original": "My thanks. Let\u0027s head to where I saw him.",
+    "translation": ""
+  },
+  "200": {
+    "tag": "TEXT_KINGMF104_04949_GRAHATIA_000_250",
+    "original": "\u0027Twould seem he is no longer in the vicinity.",
+    "translation": ""
+  },
+  "201": {
+    "tag": "TEXT_KINGMF104_04949_GRAHATIA_000_251",
+    "original": "Let us keep looking. Whatever it is that troubles him, perhaps we can be of assistance.",
+    "translation": ""
+  }
+}

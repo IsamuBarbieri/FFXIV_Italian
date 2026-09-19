@@ -1,0 +1,797 @@
+{
+  "0": {
+    "tag": "TEXT_BANKJN005_02977_SEQ_00",
+    "original": "Kabuto is making ready to storm the Isle of Zekki.\u003Chex:02100103\u003E\u203BThe difficulty of this quest will be synced to your current level.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_BANKJN005_02977_SEQ_01",
+    "original": "Kabuto has every intention of rescuing Tsukumo, but he cannot do it alone. First, he must enlist the aid of his fellow Kojin. As he musters the courage to do so, he asks you to accompany him in case he should falter.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_BANKJN005_02977_SEQ_02",
+    "original": "One of Kabuto\u0027s brothers agrees to help much to his surprise. Though only a small success, it gives him courage. So much so, he asks you to wait with Bunchin while he takes on the monumental task of speaking with all the Kojin of Tamamizu.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_BANKJN005_02977_SEQ_03",
+    "original": "Kabuto has done his due diligence and spoken with all his brothers. All that remains is to wait. Then wait. Then wait a while longer. Just as he was beginning to lose hope, the other members of the Divine Circle arrive. They each have taken steps to prepare for the upcoming battle, and their remaining brothers are all at the ready outside of Tamamizu. It is time for battle, and so Kabuto bids you follow him to the Dive.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_BANKJN005_02977_SEQ_04",
+    "original": "The plan to distract the Red Kojin about the island was a success. The entrance is unguarded, and Kabuto is prepared to rush inside.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_BANKJN005_02977_SEQ_05",
+    "original": "Together you and Kabuto fight your way through to the Air of the Opulent and at last find Tsukumo held captive by Hirumaki. A duel ensues, and the ringing of steel against steel is deafening. Alas, Kabuto appears to be no match for Hirumaki. The red-shelled swordsman prepares to deliver the finishing blow when Tsukumo struggles to speak. He offers a few words of encouragement before growing still, and Kabuto realizes at once what has happened. He then finds the strength to strike one last time. Hirumaki collapses to the ground, but Kabuto follows shortly after. With the general defeated, the other Blue Kojin carry the unmoving Tsukumo and Kabuto back to Tamamizu.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_BANKJN005_02977_SEQ_06",
+    "original": "Tsukumo is no more. The doll sits silently on an altar in the treasure vault when Shihoumi arrives to examine it. Kabuto\u0027s hopes of saving Tsukumo are dashed, however, when she tells him there is nothing she can do. Feeling defeated, Kabuto casts a sullen look at the altar and notices a peculiar gem on the ground. Shihoumi is quick to identify it as materia, and wastes no time affixing it to Kabuto\u0027s helmet. Taking the materia as a parting gift, he vows to honor Tsukumo\u0027s memory by redoubling his efforts to serve the Divine Circle.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_BANKJN005_02977_TODO_00",
+    "original": "Speak with Kabuto.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_BANKJN005_02977_TODO_01",
+    "original": "Wait for Kabuto to return.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_BANKJN005_02977_TODO_02",
+    "original": "Speak with Kabuto at the Dive.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_BANKJN005_02977_TODO_03",
+    "original": "Speak with Kabuto at the Dive.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_BANKJN005_02977_TODO_04",
+    "original": "Speak with Kabuto at Tamamizu.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_001",
+    "original": "I\u0027m afraid you\u0027ve arrived early, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. There is still much to do before preparations are complete.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_002",
+    "original": "Yet I cannot stop thinking about Tsukumo\u0027s capture. Why strike in Kugane rather than here in Tamamizu? There is little we could have done to stop them had they tried.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_003",
+    "original": "Unless... What if this was not the work of the Red as a whole, but a plot by Hirumaki to satisfy his own greed?",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_004",
+    "original": "Defeating him would be the key to rescuing Tsukumo.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_005",
+    "original": "The problem, however, is he is always so heavily guarded.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_006",
+    "original": "Our plans and preparation will all be for nothing unless they can be drawn away. ",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_007",
+    "original": "As ever your aid is greatly appreciated.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_008",
+    "original": "Nevertheless, we cannot deny their numbers. Sheer strength alone will not grant us victory.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_009",
+    "original": "The other members of the Divine Circle intend to create a distraction to draw them away, but even then we are still outmatched.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_010",
+    "original": "\u003Csigh\u003E How am I to sway my brothers to join us? Even the mere mention of the Isle of Zekki is enough to turn them away.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_BANKJN005_02977_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_BANKJN005_02977_A1_000_001",
+    "original": "You must convince them with your actions.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_BANKJN005_02977_A1_000_002",
+    "original": "You must convince them with a thorough explanation of your plan.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_011",
+    "original": "My actions...? Ah, like the Qestir of the Azim Steppe.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_012",
+    "original": "Hmmm. That sounds like what Tsukumo would do. He always had a way with words.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_013",
+    "original": "If that is what you believe, then I suppose it is worth a try.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_014",
+    "original": "Erm... Would you be willing to accompany me? Not to speak with everyone, of course. Only until I\u0027ve gained my nerve.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_BANKJN005_02977_VOLUNTEER02977_000_019",
+    "original": "Aren\u0027t you the one aiding the Divine Circle in their search for treasure? You\u0027ve done fine work for the Blue. Yes, fine work indeed.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_020",
+    "original": "Ah, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Your presence is greatly appreciated. Ahem. Now then.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_BANKJN005_02977_VOLUNTEER02977_000_021",
+    "original": "Are you well, Kabuto? It\u0027s rather unlike you to call on anyone for help. I suppose next Makura will tell us the striped rays are drowning.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_022",
+    "original": "Tsukumo has been taken by the Red, and I mean to rescue him.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_BANKJN005_02977_VOLUNTEER02977_000_023",
+    "original": "So it is true! I had hoped it was only a rumor. But what are we to do? We are not fighters, Kabuto. You would be leading turtles to slaughter.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_024",
+    "original": "I realize that, which is why I will not ask you to fight. But I do have a plan that requires your help.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_025",
+    "original": "You are perhaps the greatest swimmer the Ruby Sea has ever known, and your knowledge of its currents is unmatched. That is why I would ask you to lead their soldiers on a chase\u2500distract them that I might do battle with their leader alone.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_BANKJN005_02977_VOLUNTEER02977_000_026",
+    "original": "A chase, you say? Hmmm. It should be simple enough to drag those sea slugs through the waves. It might even prove fun.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_BANKJN005_02977_VOLUNTEER02977_000_027",
+    "original": "Very well. Give me time to prepare and you will have your diversion.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_028",
+    "original": "He listened. He listened and agreed to help! No doubt your presence helped to convince him.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_029",
+    "original": "But I cannot ask you to be present for everyone. Wait with the elder while I speak with the others.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_BANKJN005_02977_BUNCHIN_000_029",
+    "original": "Kabuto has taken to recruiting our brothers for his attack on the Isle of Zekki? It seems he has learned much from his time away from Tamamizu.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_030",
+    "original": "I never realized talking could be so tiresome.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_BANKJN005_02977_BUNCHIN_000_031",
+    "original": "I take it you have spoken with everyone, then. Fear not. Your cause is just, and from what \u003Chex:022C0DFF07022903EB0203FF02200203\u003E has told me, your plan is sound.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_BANKJN005_02977_BUNCHIN_000_032",
+    "original": "We need only wait for the others to assemble.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_0033",
+    "original": "It would seem my words have fallen on deaf ears. Come, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. We must save Tsukumo on our own.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_BANKJN005_02977_BUNCHIN_000_034",
+    "original": "You are too quick to judge your brothers, Kabuto. Take another look.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_BANKJN005_02977_MAKURA_000_035",
+    "original": "Sorry to keep you waiting. I thought it prudent we have proper weapons should we be forced to confront the Red, so I made a short trip to visit the Qestir.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_036",
+    "original": "You traveled all the way to Reunion for weapons!?",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_BANKJN005_02977_SHIKITAHE_000_037",
+    "original": "I paid a visit to the forge in Kugane, and the young smith\u2500Shihoumi, I believe is her name\u2500insisted she be brought here to prepare for Tsukumo\u0027s return. She seemed quite adamant about seeing to his repairs. ",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_038",
+    "original": "Shihoumi! I had nearly forgotten. I know not how to repay you.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_BANKJN005_02977_ZUKIN_000_039",
+    "original": "When a brother is in need, we help. It\u0027s as simple as that.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_BANKJN005_02977_MAKURA_000_040",
+    "original": "Just so. In fact, you\u0027ll find more of our brothers are waiting for you outside. Everyone is prepared to do their part to see Tsukumo returned safely.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_BANKJN005_02977_ZUKIN_000_041",
+    "original": "Which is why I scouted ahead, lest we have any unwanted surprises. I overheard the soldiers on watch speaking of Hirumaki.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_BANKJN005_02977_ZUKIN_000_042",
+    "original": "They say he\u0027s been gloating over his latest plunder, keeping it on display at the Air of the Opulent. It has to be Tsukumo.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_043",
+    "original": "Then I know where I must go.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_044",
+    "original": "As I mentioned before, your task will be to circle about the island and draw the attention of as many soldiers as you can.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_100_044",
+    "original": "While they\u0027re distracted, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E and I will sneak onto the island through the Dive. ",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_BANKJN005_02977_BUNCHIN_000_045",
+    "original": "Today we shall prove the Blue are not to be trifled with.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_046",
+    "original": "To the Isle of Zekki!",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_BANKJN005_02977_BUNCHIN_000_049",
+    "original": "You needn\u0027t worry about me. I may be old, but with age comes great wisdom. I know enough of battle to handle myself in the field.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_050",
+    "original": "You\u0027re here. Good. Everyone is in position.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_051",
+    "original": "When we reach the Air of the Opulent, I will see to Hirumaki while you retrieve Tsukumo.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_052",
+    "original": "Are you ready?",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_060",
+    "original": "There! It\u0027s Hirumaki, and he has Tsukumo!",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_BANKJN005_02977_SHIKITAHE_000_061",
+    "original": "The soldiers are all taking to the water. Now is your chance.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_062",
+    "original": "Thank you. All of you. I promise this opportunity will not be wasted.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_063",
+    "original": "Fall back and join the others. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E will handle the rest.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_BANKJN005_02977_MAKURA_000_064",
+    "original": "Understood. Good luck, and may the kami keep you safe.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_BANKJN005_02977_ZUKIN_000_065",
+    "original": "We have faith in you, Kabuto.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_BANKJN005_02977_HIRUMAKI_000_066",
+    "original": "So you\u0027ve come after all. Shaugi, why don\u0027t you entertain our guests?",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_BANKJN005_02977_SYAGI_100_066",
+    "original": "With pleasure.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_067",
+    "original": "Come, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. He stands no chance against the both of us.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_BANKJN005_02977_HIRUMAKI_000_070",
+    "original": "I\u0027ve had enough of your meddling! I will rip your heads from your shoulders and mount them on the walls of the vault!",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_071",
+    "original": "Hurry, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. See to Tsukumo!",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_100_071",
+    "original": "Prepare yourself!",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_BANKJN005_02977_HIRUMAKI_000_072",
+    "original": "Is that the best you can do?",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_BANKJN005_02977_HIRUMAKI_100_072",
+    "original": "This is your last chance. Join me or die along with the rest of the Blue.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_101_072",
+    "original": "Ugh...",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_BANKJN005_02977_TSUKUMO_000_073",
+    "original": "(-???-)GeT uP...",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_BANKJN005_02977_TSUKUMO_000_074",
+    "original": "ThE oThErS...cOuNtInG oN yOu...",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_BANKJN005_02977_TSUKUMO_000_075",
+    "original": "My WoRk...iS DoNe. FoLlOw...YoUr HeArT.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_BANKJN005_02977_TSUKUMO_000_076",
+    "original": "I wIlL...aLwAyS...",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_077",
+    "original": "Tsukumo!!!",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_BANKJN005_02977_REDZAKO02977_000_078",
+    "original": "(-Red Kojin Soldiers-)General Hirumaki has fallen! Retreat! Retreat!",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_BANKJN005_02977_BUNCHIN_000_079",
+    "original": "Quickly. We must take him back to Tamamizu.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_089",
+    "original": "I apologize if I\u0027ve worried you. I am fine, but there is still no change in Tsukumo.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_090",
+    "original": "He\u0027s remained lifeless since he last spoke on the Isle of Zekki.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_091",
+    "original": "Shihoumi. Can you repair him?",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_BANKJN005_02977_SHIHOUMI_000_092",
+    "original": "I\u0027m sorry. There doesn\u0027t seem to be anything wrong with him, physically.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_BANKJN005_02977_SHIHOUMI_000_093",
+    "original": "I could grant him movement, but only such as an ordinary karakuri puppet might have.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_094",
+    "original": "Tsukumo is no ordinary puppet. He is of the divine!",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_095",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E. You have dealt with matters of magic before, yes? Do you know of anything that might restore Tsukumo?",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_BANKJN005_02977_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_BANKJN005_02977_A2_000_001",
+    "original": "But why? He has already served his purpose.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_BANKJN005_02977_A2_000_002",
+    "original": "But why? Have you forgotten Tsukumo\u0027s parting message?",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_096",
+    "original": "How can you say that? There\u0027s still so much we\u0027ve yet to do.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_097",
+    "original": "His parting message? You say that as if his intention was to leave.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_098",
+    "original": "What\u0027s this? Did it fall from Tsukumo\u0027s altar?",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_BANKJN005_02977_SHIHOUMI_000_099",
+    "original": "How could I have overlooked such a thing while examining him? Hmmm. It bears a striking resemblance to materia...",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_BANKJN005_02977_SHIHOUMI_000_100",
+    "original": "Of course! Materia is essentially spiritual energy in crystallized form. It was likely used to make Tsukumo\u0027s core.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_BANKJN005_02977_BUNCHIN000_101",
+    "original": "Are you saying it was this materia that gave him life?",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_BANKJN005_02977_SHIHOUMI_000_102",
+    "original": "Precisely. And I have an idea as to how we may still put it to use. Would you sit down for a moment?",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_BANKJN005_02977_SHIHOUMI_000_103",
+    "original": "A perfect fit.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_BANKJN005_02977_SHIHOUMI_000_104",
+    "original": "It suits your helmet quite nicely.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_105",
+    "original": "Thank you, Shihoumi. I will treasure it always.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_106",
+    "original": "Tsukumo. You lent your voice when I could not find my own, your courage when I had only cowardice.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_107",
+    "original": "Thanks to you, I now understand the strength that comes from the bonds I share with others.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_108",
+    "original": "Before I might have thrown this materia away, but now...",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_000_109",
+    "original": "Now I would honor Tsukumo\u0027s memory by protecting the vault, and the allies that have helped us fill it.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_BANKJN005_02977_SYSTEM_000_200",
+    "original": "Thanks to your concerted efforts with Kabuto, Tsukumo now rests peacefully in the treasure vault.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_BANKJN005_02977_SYSTEM_000_201",
+    "original": "You have achieved \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESworn\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E reputation with the Kojin.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_BANKJN005_02977_SYSTEM_000_202",
+    "original": "Furthermore, you will receive an experience point bonus upon the completion of the Kojin society daily quests.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_BANKJN005_02977_SYSTEM_000_204",
+    "original": "New Kojin society daily quests are now available from Zukin at Tamamizu.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_BANKJN005_02977_QIB_001_TODO_1",
+    "original": "Follow Kabuto.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_BANKJN005_02977_QIB_002_TODO_1",
+    "original": "Harness the treasures\u0027 powers and make for the Air of the Opulent.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_BANKJN005_02977_QIB_007_TODO_1",
+    "original": "Defeat Shaugi.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_000_001",
+    "original": "The path is clear. Come, this way!",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_001_001",
+    "original": "What is he doing here?",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_BANKJN005_02977_BUNCHIN_BATTLETALK_001_002",
+    "original": "I brought treasures from the vault to aid you. Align yourself with the kami within and they shall grant you their blessings.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_001_003",
+    "original": "I... I\u0027ve never felt such power! With this we should have all we need to stop any in our way.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_BANKJN005_02977_BUNCHIN_BATTLETALK_001_005",
+    "original": "Makura waits for you within bearing more of our treasures. Go now, and may the kami protect you.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_002_001",
+    "original": "Onward, to the Air of the Opulent!",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_003_002",
+    "original": "By the kami! They should be out in the water, not here fighting. We have to help them!",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_BANKJN005_02977_ZUKIN_BATTLETALK_003_003",
+    "original": "Kabuto! \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Thank goodness you\u0027re here.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_BANKJN005_02977_VOLUNTEER02977_BATTLETALK_003_005",
+    "original": "That seems to be the last of them. We\u0027ll keep the way clear. Hurry and save Tsukumo!",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_BANKJN005_02977_MAKURA_BATTLETALK_003_006",
+    "original": "Before you go, come and partake of this treasure\u0027s blessing.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_003_004",
+    "original": "Thank you. I fear we will need it for what lies ahead.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_BANKJN005_02977_MAKURA_BATTLETALK_003_008",
+    "original": "Go quickly now. We will keep them at bay for as long as we can.",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_003_001",
+    "original": "Thank you, Makura.\u003Chex:02100103\u003ECome, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. We mustn\u0027t waste this opportunity.",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_004_001",
+    "original": "Curses! I wasn\u0027t expecting such numbers.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_004_006",
+    "original": "If they would stand against us, then we have no choice. Lead on, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_004_005",
+    "original": "Draw them together, and I will deliver the finishing blow!",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_004_002",
+    "original": "Reinforcements!? Distract them that I might strike again.",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_004_003",
+    "original": "There\u0027s no end to them! I fear I only have strength enough for one last attack.",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_004_004",
+    "original": "Well done. Now let\u0027s get moving. It shouldn\u0027t be much farther.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_BANKJN005_02977_ENEMY_BATTLETALK_005_004",
+    "original": "Intruders! Stop them!",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_005_001",
+    "original": "I...can\u0027t move. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, help!",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_005_002",
+    "original": "I\u0027m free! Now to dispense with these red-shelled fiends.",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_005_003",
+    "original": "The Air of the Opulent is just ahead. Once inside you mustn\u0027t let down your guard.",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_BANKJN005_02977_MAKURA_BATTLETALK_006_001",
+    "original": "Wait, Kabuto! We\u0027ve prepared one last treasure to aid you in your fight against Hirumaki.",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_BANKJN005_02977_MAKURA_BATTLETALK_006_002",
+    "original": "It\u0027s right around this corner.",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_006_002",
+    "original": "With this last blessing we should have all the strength we need. Let\u0027s put an end to Hirumaki and his schemes.",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_BANKJN005_02977_SYAGI_BATTLETALK_007_001",
+    "original": "How dare you raise your blade against General Hirumaki. Yours will be a slow and painful death!",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_007_002",
+    "original": "If we\u0027re to save Tsukumo he has to be stopped.",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_BANKJN005_02977_SYAGI_BATTLETALK_007_004",
+    "original": "Hmph. Let\u0027s see how you handle this!",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_007_005",
+    "original": "Quickly! We must destroy these spheres before they burst.",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_BANKJN005_02977_SYAGI_BATTLETALK_007_006",
+    "original": "We will suffer your intrusion no longer!",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_007_007",
+    "original": "To me, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! We must bear this attack together.",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_007_021",
+    "original": "Gah! For a blessing I survived, but I dare not suffer another alone.",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_007_023",
+    "original": "It will take more than some feeble spring shower to defeat us, Shaugi.",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_BANKJN005_02977_SYAGI_BATTLETALK_007_008",
+    "original": "I\u0027ve had enough of this wet nurse of yours. Begone with you!",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_007_010",
+    "original": "His strength is waning, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Keep it up!",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_BANKJN005_02977_SYAGI_BATTLETALK_007_009",
+    "original": "Fools! You cannot defeat the Red!",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_007_011",
+    "original": "The water spouts\u2500they\u0027re protecting him!",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_BANKJN005_02977_SYAGI_BATTLETALK_007_014",
+    "original": "Enough games. This time I will end you!",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_BANKJN005_02977_SYAGI_BATTLETALK_007_013",
+    "original": "Why! Why won\u0027t you die!?",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_007_020",
+    "original": "It seems the tide has turned in our favor.",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_BANKJN005_02977_SYAGI_BATTLETALK_007_024",
+    "original": "Forgive me... General...",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_BANKJN005_02977_KABUTO_BATTLETALK_007_012",
+    "original": "No... Not like this...",
+    "translation": ""
+  }
+}

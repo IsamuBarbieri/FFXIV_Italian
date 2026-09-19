@@ -1,0 +1,832 @@
+{
+  "0": {
+    "tag": "TEXT_BANDWA003_03898_SEQ_00",
+    "original": "Ronitt appears to have something in his eye. You cannot be certain because of his helmet, but it may be a twinkle.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_BANDWA003_03898_SEQ_01",
+    "original": "The next essential piece of the Rolling Tankard prototype is its cannon, though Ronitt is unsure how best to proceed. He comes to the conclusion that utilizing condensed aether should prove effective in combating sin eaters, although this is a field in which none of the dwarves present have any experience. Regitt recommends seeking the advice of Lorathia, who was once an engineer at the Crystarium.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_BANDWA003_03898_SEQ_02",
+    "original": "Ronitt arrives in Clearmelt to ask Lorathia whether she has any knowledge of aether-based weaponry. Fate conspires once again to bless him with outrageous fortune when Lorathia reveals she is in fact the very person who designed the crystal cannons that line the Crystarium. However, rather than go into any further details regarding this, Lorathia instead invites you to a tea party with her two friends, Iriolva and Cobleva. These elderly twins own merchant caravans that deliver goods across Norvrandt, and they are looking for a way to fend off sin eaters. Lorathia points out that this is an opportunity for Ronitt to secure buyers for his tanks, although his lack of social decorum requires that you be on hand to guide him through this informal exchange. ",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_BANDWA003_03898_SEQ_03",
+    "original": "The tea party ends with both twins expressing a keen interest in Ronitt\u0027s creations, although they will need to see the final product in action before they commit to a purchase.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_BANDWA003_03898_SEQ_04",
+    "original": "Lorathia gives you a letter of introduction to speak with Rosard in the Crystarium. She is confident he can assist in designing the tank\u0027s cannon, though it is still unclear whether you will need to jump through any more proverbial hoops before he agrees to help.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_BANDWA003_03898_SEQ_05",
+    "original": "Rosard is eager to support you and Ronitt in your endeavors, and provides you with the blueprints to the Crystarium\u0027s crystal cannons. While your dwarven companion is taken aback by the unexpected show of generosity, Rosard explains that he is acting in accordance with Lorathia\u0027s wishes, as stated in her letter.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_BANDWA003_03898_SEQ_06",
+    "original": "Back at Watts\u0027s Anvil, Ronitt asks you to craft some of the cannon\u0027s components, as described in the blueprints. As before, his automaton somehow has the exact materials required stored in its metallic belly, though this miraculous ability to produce precisely what is needed at any given moment should come as no surprise by now.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_BANDWA003_03898_SEQ_07",
+    "original": "With the necessary materials at your disposal, you are ready to fulfill Ronitt\u0027s order. But will your attempt to assist Ronitt end in triumph or bitter failure?",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_BANDWA003_03898_SEQ_08",
+    "original": "Mastery of your craft has ensured you seized victory rather than bitter defeat. As is customary, Ronitt downplays your achievement, though delight is clear on his face. Or would be, if one could see it. Although the prototype Rolling Tankard is ready for its first test run, Ronitt will still require your aid with other miscellaneous tasks in preparation for the next stage of his master plan: mass production.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_BANDWA003_03898_TODO_00",
+    "original": "Speak with Ronitt.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_BANDWA003_03898_TODO_01",
+    "original": "Speak with Lorathia.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_BANDWA003_03898_TODO_02",
+    "original": "Speak with Lorathia again.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_BANDWA003_03898_TODO_03",
+    "original": "Speak with Rosard in the Crystarium.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_BANDWA003_03898_TODO_04",
+    "original": "Speak with Ronitt at Watts\u0027s Anvil.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_BANDWA003_03898_TODO_05",
+    "original": "Obtain materials from the Fetchomatic Mechatoad.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_BANDWA003_03898_TODO_06",
+    "original": "\u003Chex:0208F202AEE4E8050AFF49020845E3E802E803FF1B53796E74686573697A652002310CFF054974656D03E806020203FF2244656C697665722002310CFF054974656D03E80602020320746F20526F6E69747403FFF2025C0208F20256E4E8050BFF49020845E3E802E803FF1B53796E74686573697A652002310CFF054974656D03E806020203FF2244656C697665722002310CFF054974656D03E80602020320746F20526F6E69747403FFF202040208F201FEE4E8050CFF49020845E3E802E803FF1B53796E74686573697A652002310CFF054974656D03E806020203FF2244656C697665722002310CFF054974656D03E80602020320746F20526F6E69747403FFF201AC0208F201A6E4E80509FF49020845E3E802E803FF1B53796E74686573697A652002310CFF054974656D03E806020203FF2244656C697665722002310CFF054974656D03E80602020320746F20526F6E69747403FFF201540208F2014EE4E8050DFF49020845E3E802E803FF1B53796E74686573697A652002310CFF054974656D03E806020203FF2244656C697665722002310CFF054974656D03E80602020320746F20526F6E69747403FFF0FD0208F0F8E4E8050EFF49020845E3E802E803FF1B53796E74686573697A652002310CFF054974656D03E806020203FF2244656C697665722002310CFF054974656D03E80602020320746F20526F6E69747403FFA90208A5E4E8050FFF49020845E3E802E803FF1B53796E74686573697A652002310CFF054974656D03E806020203FF2244656C697665722002310CFF054974656D03E80602020320746F20526F6E69747403FF55020851E4E80510FF49020845E3E802E803FF1B53796E74686573697A652002310CFF054974656D03E806020203FF2244656C697665722002310CFF054974656D03E80602020320746F20526F6E69747403FF010303030303030303\u003E.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_000",
+    "original": "It\u0027s time to work on the most interestin\u0027 part of the Rollin\u0027 Tankard\u0027s design: the cannon!",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_001",
+    "original": "Me and the others have a few things to go over first, so come and join us in the usual place.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_002",
+    "original": "...But those bastard sin eaters won\u0027t even get the chance to test our defenses if we blow their heads off first! That\u0027s why we need a cannon. The bigger, the better. \u0027Course, there were no sin eaters back in Watts\u0027s time, but with a bit of Tholl ingenuity...",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_BANDWA003_03898_OZOGG_000_003",
+    "original": "Hold it right there! Aren\u0027t you afraid I\u0027ll steal your secrets? And why did you even invite me to this meeting in the first place?",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_004",
+    "original": "Well, you want me to finish buildin\u0027 these tanks, don\u0027t you? Our reasons might be different, but we\u0027re workin\u0027 towards the same goal.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_BANDWA003_03898_REGITT_000_005",
+    "original": "Yeah! Besides, you\u0027ve already built the brewery, the ethanol mill, and shared a bunch of \u003Chex:021A020203\u003Eyour\u003Chex:021A020103\u003E secrets with us. You\u0027re on board now whether you like it or not!",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_BANDWA003_03898_OZOGG_100_006",
+    "original": "I didn\u0027t agree to become one of your lackeys! I come and go as I please!",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_BANDWA003_03898_OZOGG_000_006",
+    "original": "And how do I know all this stuff about sin eaters isn\u0027t some elaborate ruse? You could be building these war machines to attack Komra!",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_BANDWA003_03898_KARUTT_000_007",
+    "original": "Well, we weren\u0027t pl-planning to, but now that you mention it...",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_008",
+    "original": "Ozogg, that\u0027s a load of claptrap and you know it. If we wanted to invade Komra, it be as easy as snatchin\u0027 the helmet off a baby, and we wouldn\u0027t need no tanks, neither! We just wanna help people, that\u0027s all.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_009",
+    "original": "Ain\u0027t that right!?",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_BANDWA003_03898_OZOGG_000_010",
+    "original": "Hmph! That\u0027s all very noble, I\u0027m sure, but I\u0027m only here for one thing: Watts\u0027s hammer! If getting my hands on it means I have to help with your idiotic plan, so be it!",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_011",
+    "original": "Idiotic? That\u0027s rich comin\u0027 from you! And maybe you should wait till I\u0027ve finished explainin\u0027 about the cannon before you start judgin\u0027!",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_BANDWA003_03898_KARUTT_000_012",
+    "original": "Y-You mean to say sin eaters won\u0027t run away, even if they\u0027re injured? Watts\u0027s beard... What have we g-gotten ourselves into!?",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_BANDWA003_03898_OZOGG_000_014",
+    "original": "Why injure them when you can kill them outright? They won\u0027t be getting up again if you blast them to smithereens. A nice bit of gunpowder should do the trick, but I wouldn\u0027t trust you Tholls not to blow \u003Chex:021A020203\u003Eyourselves\u003Chex:021A020103\u003E to bits in the process.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_015",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, you\u0027ve fought sin eaters, haven\u0027t you? Got any suggestions?",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_BANDWA003_03898_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_BANDWA003_03898_A1_000_001",
+    "original": "Bombarding them with magic from a distance usually gets the job done.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_BANDWA003_03898_A1_000_002",
+    "original": "A beam of pure energy. It\u0027ll look pretty, too.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_016",
+    "original": "Magic? Dunno about that, mate. I think hiring a qualified mage to go along for the ride might get expensive. But if there was a way to produce a similar effect using machinery, that would be worth explorin\u0027.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_017",
+    "original": "So, we can destroy sin eaters and look good while we do it? Well, it\u0027s got my vote!",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_BANDWA003_03898_OZOGG_000_018",
+    "original": "Hmm... The only method I can think of would be to charge a crystal with aether and then release it all in one go. Though I hate to say it, but this is rather outside of my field of expertise.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_BANDWA003_03898_REGITT_000_019",
+    "original": "Why don\u0027t you ask that Lorathia lady over at Clearmelt? She used to be an engineer.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_020",
+    "original": "It\u0027s worth a try, I guess.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_021",
+    "original": "I\u0027d feel a lot better if you came with me, for moral support, like. To tell the truth, I find her a bit intimidatin\u0027... A-Anyway, let\u0027s get goin\u0027!",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_030",
+    "original": "Phew! Thank the gods you\u0027re here! I was afraid I\u0027d have to talk to her by myself. Ah well, here goes nothin\u0027...",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_031",
+    "original": "Lali-ho, old crone!",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_BANDWA003_03898_LORATHIA_000_032",
+    "original": "Bloody hells. I see your manners haven\u0027t improved since the last time we met. \u003Csigh\u003E Whatever it is you came to say, spit it out. I\u0027ve got guests arriving soon.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_BANDWA003_03898_LORATHIA_000_033",
+    "original": "You want to fit the tanks with aether cannons? So you do have more than sawdust in that head of yours.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_034",
+    "original": "Seems like a backhanded compliment to me, but I\u0027ll take it all the same! Though I must admit, I\u0027m not used to workin\u0027 with aether and whatnot. Don\u0027t s\u0027pose you know anythin\u0027 about it?",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_BANDWA003_03898_LORATHIA_000_035",
+    "original": "As a matter of fact, I\u0027m the one who designed the crystal cannons lining the walls of the Crystarium.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_036",
+    "original": "Nah, you\u0027re pullin\u0027 my leg. I\u0027ve had a lot of strange coincidences lately, but that\u0027s not even remotely feasible. Wait...you\u0027re serious, aren\u0027t you?",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_BANDWA003_03898_LORATHIA_000_037",
+    "original": "Of course I am! But if you want me to share my secrets, you\u0027d better make it worth my while!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_038",
+    "original": "Ah! I know where this is leadin\u0027! You\u0027re gonna send us to the ends of the earth on some godsforsaken errand, just to test our resolve, aren\u0027t you?",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_BANDWA003_03898_LORATHIA_000_039",
+    "original": "No, you bloody idiot, that\u0027s not what I mean at all! Listen, I have some friends coming over for tea and I want the pair of you to join us.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_040",
+    "original": "Tea? That\u0027s slightly less perilous than I was expectin\u0027. But what does that have to do with anythin\u0027?",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_BANDWA003_03898_LORATHIA_000_041",
+    "original": "If you shut your piehole, you might find out! My guests are twin sisters whose supply caravans run the length and breadth of Norvrandt. I reckon they\u0027ll have more than a passing interest in buying those tanks of yours.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_042",
+    "original": "Buy? You mean to tell me we could make a \u003Chex:021A020203\u003Eprofit\u003Chex:021A020103\u003E on these tanks? I was plannin\u0027 to give \u0027em away for nothin\u0027, but I might as well take the opportunity to line my pockets.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_BANDWA003_03898_LORATHIA_000_043",
+    "original": "It\u0027s clear your friend\u0027s not much of a businessman, so you\u0027d better do the talking.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_BANDWA003_03898_LORATHIA_000_044",
+    "original": "I still have some things to prepare before my guests arrive, so give me a few moments, would you?",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_100_044",
+    "original": "All I have to do is shut up and let you handle it. So why am I so nervous!?",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_BANDWA003_03898_LORATHIA_110_044",
+    "original": "Now that everything\u0027s in order, we\u0027re ready to begin. Try not to look so tense, dear!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_044",
+    "original": "Your mission, should you choose to accept it, is to engage Lorathia\u0027s guests in polite conversation and extol the virtues of Ronitt\u0027s master plan. Choose the best responses and generate interest in the Rolling Tankard.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_045",
+    "original": "This coming together of great minds\u2500plus Ronitt\u2500will take several minutes. You may wish to cancel any pending Duty Finder registrations.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_046",
+    "original": "Are your nerves suitably steeled?",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_BANDWA003_03898_IRIOLVA_000_056",
+    "original": "What a pleasure it is to make your acquaintance. Lorathia tells us you\u0027re in the transportation business, much like Cobleva and I.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_BANDWA003_03898_COBLEVA_000_057",
+    "original": "Yes, we were rather hoping you\u0027d help us with a little problem we\u0027ve been having of late: hordes of ravenous sin eaters. Terribly irritating, as I\u0027m sure you can imagine.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_BANDWA003_03898_IRIOLVA_000_058",
+    "original": "Is it true that you and yours are presently engaged in the construction of some sort of vehicle capable of warding off such assailants?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_059",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_060",
+    "original": "Ward off? Turn them into mincemeat, more like!",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_061",
+    "original": "It transports goods safely while repelling all manner of threats.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_BANDWA003_03898_IRIOLVA_000_062",
+    "original": "Oh, I say! That sounds positively ghastly! And I don\u0027t think our clients will take too kindly to having their wares covered in bits of mangled sin eater.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_100_063",
+    "original": "Well, ah...the cannons are only to be used in emergencies! It\u0027s not like the tanks would be sent out lookin\u0027 for trouble or nothin\u0027!",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_063",
+    "original": "(Oi, might wanna spare them the grisly details, you know?)",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_BANDWA003_03898_IRIOLVA_000_064",
+    "original": "Well, that does sound rather impressive! This could be precisely what we need.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_065",
+    "original": "If any sin eaters dare show up, the Rollin\u0027 Tankard can deal with \u0027em before they get anywhere near.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_100_065",
+    "original": "(Heh heh, seems like you\u0027ve got a way with words. Keep this up and they\u0027ll be putty in our hands!)",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_BANDWA003_03898_COBLEVA_000_066",
+    "original": "It does occur to me, however, that this all seems awfully complicated. Those used to working with amaro may struggle to operate these vehicles of yours.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_067",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_068",
+    "original": "The controls are manned by a purpose-built automaton.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_069",
+    "original": "What could possibly go wrong? Just pull the levers and see what happens!",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_BANDWA003_03898_COBLEVA_000_070",
+    "original": "The wonders of modern technology never cease to amaze me. Machines driving machines... Whatever next!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_BANDWA003_03898_LORATHIA_100_071",
+    "original": "That\u0027s...a surprisingly good idea.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_BANDWA003_03898_LORATHIA_000_071",
+    "original": "If all it takes is giving instructions to the automaton, anyone could do it. Quite an elegant solution, I must say.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_100_071",
+    "original": "(You just made that up, didn\u0027t you? Ah well, we can work all that out later! For now, carry on doin\u0027 what you\u0027re doin\u0027!)",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_BANDWA003_03898_COBLEVA_000_072",
+    "original": "It strikes me that trial and error is somewhat ill-advised when dealing with heavy weaponry. I\u0027d hate to blow up something I\u0027m not supposed to!",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_073",
+    "original": "Oh...um... Hahaha! That was just one of \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u0027s little jokes! What \u003Chex:02080CE905FF04736865FF03686503\u003E really means is that an automaton will take care of everythin\u0027!",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_100_073",
+    "original": "(Bloody hells! Even \u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E wouldn\u0027t say somethin\u0027 that bleedin\u0027 stupid!)",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_BANDWA003_03898_IRIOLVA_000_074",
+    "original": "While this is all very intriguing, young Ronitt, I would feel much more comfortable doing business with you if I could see your face, that I may better read your intentions. Though I do not doubt your sincerity, consider it a matter of courtesy.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_075",
+    "original": "Y-You want me to take off my h-helmet? B-But...",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_076",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_077",
+    "original": "Dwarven law prohibits it.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_078",
+    "original": "And then what!? You want him to dance on the table for you!?",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_BANDWA003_03898_IRIOLVA_000_079",
+    "original": "Oh, I beg your pardon! That was incredibly rude of me.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_BANDWA003_03898_COBLEVA_000_080",
+    "original": "We are, much to our embarrassment, unfamiliar with dwarven customs. You were very kind to intervene and prevent any further impertinence on our part.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_081",
+    "original": "Thanks, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. If you weren\u0027t here, I don\u0027t know what I would\u0027ve done!",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_100_081",
+    "original": "(Bugger my beard! Why\u0027d you have to say that!? Gods, this is awkward...)",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_BANDWA003_03898_IRIOLVA_000_082",
+    "original": "Well, I think we\u0027ve covered most of the pertinent points.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_BANDWA003_03898_COBLEVA_000_083",
+    "original": "There is, however, one last thing we would like to ask before we reach a decision. What do you think we sisters value most in all the world?",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_BANDWA003_03898_IRIOLVACOBLEVA_000_084",
+    "original": "(-Iriolva and Cobleva-)Your answer, please!",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_085",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_086",
+    "original": "Honesty.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_087",
+    "original": "Excitement.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_BANDWA003_03898_IRIOLVA_000_088",
+    "original": "Oh dear! That\u0027s not quite the answer we were looking for.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_BANDWA003_03898_COBLEVA_000_089",
+    "original": "We would like to think that honesty is the bare minimum we can expect from others, especially those with whom we would do business.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_BANDWA003_03898_IRIOLVA_000_090",
+    "original": "Luckily, we have been able to ascertain through the course of this conversation that the two of you possess this in abundance.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_BANDWA003_03898_IRIOLVA_000_091",
+    "original": "The perfect answer!",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_BANDWA003_03898_COBLEVA_000_092",
+    "original": "What would life be like without a little excitement? And what could be more exciting than an ambitious new enterprise, such as the one you are proposing!",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_BANDWA003_03898_IRIOLVA_000_093",
+    "original": "It seems that with our business acumen and your...tanks, we have a match made in the heavens!",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_100_094",
+    "original": "Haha! We did it! And they\u0027ve really taken a shine to you, it seems.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_094",
+    "original": "Iriolva and Cobleva\u0027s joyous response bodes well for Ronitt and his Rolling Tankards. You have almost certainly secured buyers for his tanks, provided they reach completion.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_100_095",
+    "original": "Phew! That was a bit of a struggle, but we got there in the end! Nicely done!",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_095",
+    "original": "Iriolva and Cobleva\u0027s warm response bodes well for Ronitt and his Rolling Tankards. It appears that you have secured buyers for his tanks, provided they reach completion.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_100_096",
+    "original": "Ungh... I\u0027m glad that\u0027s over. Maybe you ought to let me do the talkin\u0027 next time, eh?",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_096",
+    "original": "Iriolva and Cobleva were clearly unimpressed by your conversation skills, or lack thereof. In spite of your series of blunders, however, hope is not yet lost. There yet remains the possibility they may purchase Ronitt\u0027s tanks after all.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_BANDWA003_03898_LORATHIA_000_097",
+    "original": "Of course, seeing is believing. Once the tanks are finished, you should put on a demonstration. We\u0027d all be interested to see those aetherial cannons in action, but actually getting them up and running will be no easy task, I assure you.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_BANDWA003_03898_LORATHIA_000_098",
+    "original": "Lucky for you, I know just the man to point you in the right direction. I\u0027ll write you a letter of introduction requesting he help you in this little endeavor.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_BANDWA003_03898_LORATHIA_000_099",
+    "original": "It\u0027s been a while since we met, and I can\u0027t for the life of me remember how they take their tea...",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_BANDWA003_03898_LORATHIA_100_100",
+    "original": "Give this letter to Rosard in Ballistics. He looks a bit imposing, but he\u0027s friendly enough.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_BANDWA003_03898_LORATHIA_100_101",
+    "original": "Then again, if it\u0027s \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E doing the asking, I\u0027m sure he\u0027d be more than happy to help.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_102",
+    "original": "Hmph! One of these days, the people of Norvrandt\u0027ll be climbin\u0027 over each other for the chance to do \u003Chex:021A020203\u003Eme\u003Chex:021A020103\u003E a favor, just you wait and see!",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_103",
+    "original": "But until then, I\u0027ve got a lot of work ahead of me, so let\u0027s get goin\u0027!",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_BANDWA003_03898_LORATHIA_000_104",
+    "original": "I\u0027ve known that Rosard since he was knee-high to a phooka. Wait, do they even have knees?",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_BANDWA003_03898_COBLEVA_000_105",
+    "original": "Lorathia always serves such wonderful tea, and the scenery here is to die for!",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_BANDWA003_03898_IRIOLVA_000_106",
+    "original": "Is that the distant rumbling of tanks I hear? Or perhaps I\u0027m getting ahead of myself?",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_107",
+    "original": "Are we done yet? All this bein\u0027 polite\u0027s worn me out...",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_BANDWA003_03898_ROSARD_000_110",
+    "original": "Greetings! What can I do for you this fine \u003Chex:020839E3E90C0DFF1B020817E3E90C05FF086576656E696E67FF086D6F726E696E6703FF17020813E3E90C12FF04646179FF086576656E696E670303\u003E?",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_111",
+    "original": "...and blow their bloody heads off! That\u0027s the plan, anyway.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_BANDWA003_03898_ROSARD_000_112",
+    "original": "Ho ho! If it\u0027s aether-based firepower you\u0027re after, I have just the thing. Right behind me, as it happens!",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_BANDWA003_03898_ROSARD_000_113",
+    "original": "This model was mass-produced and installed along the perimeter of the Crystarium, specifically to deal with sin eater assaults. Those bastards soon give up the ghost after a blast of concentrated aether to the face! Bwahaha!",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_114",
+    "original": "I like the sound of that!",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_BANDWA003_03898_ROSARD_000_115",
+    "original": "I can\u0027t take the credit for these crystal cannons, though. Lorathia\u0027s the one who originally designed them. I suppose you could call her my mentor.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_BANDWA003_03898_ROSARD_000_116",
+    "original": "If she says I\u0027m to assist you, who am I to refuse? Now, let me see about getting you copies of our cannon blueprints.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_BANDWA003_03898_ROSARD_000_117",
+    "original": "A pleasant surprise, I take it? Ha, that\u0027s the Lorathia I know. Behind that sharp tongue and piercing gaze, she\u0027s one of the most caring people you\u0027ll ever meet. I expect she appreciates what you\u0027re doing, especially considering what happened at Holminster.",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_BANDWA003_03898_ROSARD_000_118",
+    "original": "Not to mention that we in the Crystarium owe much and more to you for restoring the night sky. It\u0027s not every day we get the chance to aid the Warrior of Darkness \u003Chex:020815E905FF0868657273656C66FF0868696D73656C6603\u003E!",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_BANDWA003_03898_ROSARD_000_119",
+    "original": "And it goes without saying we here in the Crystarium are extremely grateful for everything you\u0027re doing. You\u0027re an inspiration to us all!",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_BANDWA003_03898_ROSARD_000_120",
+    "original": "At any rate, every sin eater your tanks put down is one less for our soldiers to deal with, so sharing the plans for the crystal cannons is the least we can do.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_BANDWA003_03898_ROSARD_000_121",
+    "original": "In the meantime, I\u0027ll look forward to hearing of your success.",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_122",
+    "original": "It won\u0027t be long before tales of the Rollin\u0027 Tankards are on the lips of everyone in Norvrandt. Many thanks, Rosard!",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_123",
+    "original": "Come on, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. We\u0027ve got cannons to build! To the Anvil!",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_100_123",
+    "original": "Crystal cannon? Check. Big man? Check. This must be the place.",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_BANDWA003_03898_ROSARD_000_124",
+    "original": "When Lorathia was here, she\u0027d spend about half her time working and the other half drinking tea. She still got more done than the rest of us put together, though.",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_BANDWA003_03898_LORATHIA_000_125",
+    "original": "Rosard give you what you need, did he? Better get to work, then!",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_130",
+    "original": "I swear, everywhere we go, people treat you like you\u0027re some sort of hero! I suppose bein\u0027 a hero\u0027s most trusted friend is the next best thing, so I\u0027ll settle for that.",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_131",
+    "original": "Havin\u0027 said that, when it comes to buildin\u0027 these tanks, you\u0027re still my assistant! Ha! And it just so happens I\u0027ve got some work for you.",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_132",
+    "original": "There\u0027s more to these cannons than just crystal, as you can probably guess. In fact, there are so many different parts, it makes my head spin just thinkin\u0027 about it!",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_133",
+    "original": "I reckon there are a few things you can put together for me, though. Shouldn\u0027t be too hard for someone as skilled as you.",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_134",
+    "original": "I reckon there are a few things you can put together for me, though. Shouldn\u0027t be too hard for someone as skilled as you.",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_135",
+    "original": "I reckon there are a few things you can concoct for me, though. Shouldn\u0027t be too hard for someone as skilled as you.",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_136",
+    "original": "As usual, you\u0027ll find everythin\u0027 you need in the Fetchomatic Mechatoad. And if not...well, you\u0027re a clever \u003Chex:020810E905FF056C617373FF06626C6F6B6503\u003E. You\u0027ll come up with somethin\u0027.",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_137",
+    "original": "Don\u0027t worry about botchin\u0027 it. There are plenty more materials where those came from.",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_138",
+    "original": "Don\u0027t worry about botchin\u0027 it. There are plenty more materials where those came from.",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_139",
+    "original": "Don\u0027t worry about botchin\u0027 it. There are plenty more materials where those came from.",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_BANDWA003_03898_AUTOMATON_000_140",
+    "original": "\u003Cboop\u003E \u003Cbleep\u003E",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_BANDWA003_03898_AUTOMATON_000_141",
+    "original": "\u003Cboop\u003E \u003Cbleep\u003E",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_BANDWA003_03898_AUTOMATON_000_142",
+    "original": "\u003Cboop\u003E \u003Cbleep\u003E",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_BANDWA003_03898_AUTOMATON_000_143",
+    "original": "\u003Cbeep\u003E Request for materials acknowledged.",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_BANDWA003_03898_AUTOMATON_000_144",
+    "original": "\u003Cbeep\u003E Request for materials acknowledged.",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_BANDWA003_03898_AUTOMATON_000_145",
+    "original": "\u003Cbeep\u003E Request for ingredients acknowledged.",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_146",
+    "original": "Well? Don\u0027t keep me in suspense!",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_147",
+    "original": "Heh! Looks like all that time spent around a master engineer like me is payin\u0027 off.",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_148",
+    "original": "Once I\u0027ve built and fine-tuned the cannon, the prototype tank\u0027ll be ready!",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_BANDWA003_03898_RONITT_000_149",
+    "original": "After that, it\u0027s just a matter of producin\u0027 more of the same as quickly and cheaply as possible. Not that I\u0027ll be cuttin\u0027 any corners, mind!",
+    "translation": ""
+  },
+  "197": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_100",
+    "original": "With the final piece of the puzzle, the crystal cannon, in place, the Rolling Tankard prototype is all but complete.",
+    "translation": ""
+  },
+  "198": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_101",
+    "original": "However, this marks only the beginning of Ronitt\u0027s plans, as it will take more than a single tank to ensure the safe transportation of goods to and from various locations across Norvrandt.",
+    "translation": ""
+  },
+  "199": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_200",
+    "original": "You have achieved \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ERespected\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E reputation with Watts\u0027s Anvil.",
+    "translation": ""
+  },
+  "200": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_201",
+    "original": "New dwarf society daily quests are now available from Regitt at Watts\u0027s Anvil.",
+    "translation": ""
+  },
+  "201": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_202",
+    "original": "Furthermore, you will be able to undertake three additional quests from Regitt as a reputation bonus. This bonus is available until the daily reset time for allied society quests.",
+    "translation": ""
+  },
+  "202": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_203",
+    "original": "These additional quests will become available after accepting all current daily quests from Regitt. Please be advised that you cannot undertake these quests if you have no remaining allowances.",
+    "translation": ""
+  },
+  "203": {
+    "tag": "TEXT_BANDWA003_03898_SYSTEM_000_204",
+    "original": "You now have access to a wider selection of wares from Mizutt.",
+    "translation": ""
+  }
+}

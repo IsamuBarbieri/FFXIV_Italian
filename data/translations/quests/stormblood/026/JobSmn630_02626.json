@@ -1,0 +1,497 @@
+{
+  "0": {
+    "tag": "TEXT_JOBSMN630_02626_SEQ_00",
+    "original": "Y\u0027mhitra asks that you lend an ear to Principia.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_JOBSMN630_02626_SEQ_01",
+    "original": "Y\u0027mhitra directs your attention to Principia, and the toothy familiar announces you ready to undertake the second challenge. Finding herself stumped by the trial\u0027s requirement for additional summoners, Y\u0027mhitra is forced to accept Dancing Wolf\u0027s proposal to cooperate with his regiment\u0027s new summoners-in-training. Travel to Camp Bluefog in northern Thanalan, and report to the flame captain.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_JOBSMN630_02626_SEQ_02",
+    "original": "After Principia explains the second challenge and its focus on skill, Dancing Wolf introduces you to his cadre of neophyte summoners. Prepare yourself to battle the acolytes\u0027 egi, then approach Summoner Crispin to begin the trial.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_JOBSMN630_02626_SEQ_03",
+    "original": "You have overcome the pair of Ifrit-egi summoned by Crispin and Denise. Approach Summoner Jajasamu, and proceed to the next step of the challenge.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_JOBSMN630_02626_SEQ_04",
+    "original": "You have triumphed over the formidable Ifrit-egi summoned by Jajasamu. Speak with the lieutenant once more, and prepare to face your final opponent.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_JOBSMN630_02626_SEQ_05",
+    "original": "You have claimed victory over Jajasamu\u0027s Titan-egi. With no aetherial entities left to send against you, the novice summoners look on expectantly as Dancing Wolf waits to congratulate you.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_JOBSMN630_02626_SEQ_06",
+    "original": "Principia declares your attempt at the second challenge a resounding success. Your opponents accept their defeat with good-natured grace, and seem eager to resume their training. Bidding them farewell, you turn to follow Y\u0027mhitra back to Apkallu Falls.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_JOBSMN630_02626_SEQ_07",
+    "original": "Upon returning to Gridania, Principia continues its lecture on the history of Allagan summoning and shares the accomplishments of its creator. Y\u0027mhitra seems more determined than ever to see you earn the master summoner\u0027s long-lost wisdom, and urges you to prepare for the familiar\u0027s final challenge.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe next summoner quest will be available from Y\u0027mhitra upon reaching level 65.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_JOBSMN630_02626_TODO_00",
+    "original": "Speak with Dancing Wolf at Camp Bluefog.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_JOBSMN630_02626_TODO_01",
+    "original": "Speak with Crispin, and defeat the egi.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_JOBSMN630_02626_TODO_02",
+    "original": "Speak with Jajasamu, and defeat the egi.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_JOBSMN630_02626_TODO_03",
+    "original": "Speak with Jajasamu, and defeat the egi.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_JOBSMN630_02626_TODO_04",
+    "original": "Speak with Dancing Wolf.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_JOBSMN630_02626_TODO_05",
+    "original": "Speak with Y\u0027mhitra in Gridania.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_JOBSMN630_02626_DANCINGWOLF_000_000",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, you\u0027ve been well I trust? I\u0027m trying to bend Y\u0027mhitra\u0027s ear, but she seems a little distracted.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_JOBSMN630_02626_DANCINGWOLF_000_001",
+    "original": "...Not that I can blame her. Have you seen this hopping book? I\u0027m fairly sure I caught a flash of teeth in between those pages...",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_JOBSMN630_02626_PRINCIPIA_000_010",
+    "original": "Welcome home, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E. Or should that be, \u201Cwelcome back\u201D? I am told this is the base of your research efforts with Lady Y\u0027mhitra, but I am unsure of the correct salutation.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_JOBSMN630_02626_YMHITRA_000_030",
+    "original": "Greetings, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. \u0027Twould seem that Prin would speak with us about the second challenge.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_JOBSMN630_02626_PRINCIPIA_000_0040",
+    "original": "Congratulations, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E. You are sufficiently prepared to undertake the next test.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_JOBSMN630_02626_YMHITRA_000_041",
+    "original": "Excuse me, Prin, but...how can you tell?",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_JOBSMN630_02626_PRINCIPIA_000_0042",
+    "original": "By analyzing the patterns of \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E\u0027s aetherial emanations, I can gauge the strength and precision of \u003Chex:02080DE905FF04686572FF0468697303\u003E recently cast incantations. Of course, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E must attempt the challenge itself before I can provide an evaluation to the proper degree of accuracy.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_JOBSMN630_02626_PRINCIPIA_000_0043",
+    "original": "This will be a test of skill. To administer this trial under the prescribed conditions, however, I must request the assistance of several more summoners to play the role of antagonists...",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_JOBSMN630_02626_YMHITRA_000_044",
+    "original": "Several more summoners...? In this day and age, that will be no easy feat to arrange.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_JOBSMN630_02626_DANCINGWOLF_000_045",
+    "original": "Come now, Y\u0027mhitra. The solution is right under your nose!",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_JOBSMN630_02626_DANCINGWOLF_000_046",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, your deeds have caught the attention of the highest echelons of the Flames. After learning what you\u0027re capable of, we\u0027ve begun an initiative to take our very own summoners into battle against the primals.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_JOBSMN630_02626_DANCINGWOLF_000_047",
+    "original": "A number of soldiers under my command have already begun intensive training\u2500I handpicked veteran survivors of our expedition against Ifrit, and they\u0027ve been issued with soul crystals we claimed from the Ascians.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_JOBSMN630_02626_YMHITRA_000_048",
+    "original": "Aye, and Captain Wolf has been howling in my ear for days, begging to enlist your aid as some kind of drill instructor for the aetherially gifted.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_JOBSMN630_02626_DANCINGWOLF_000_049",
+    "original": "But now you\u0027re in need of summoners for this trial of yours, yes? I am prepared to offer my regiment\u0027s full cooperation. All I ask in return is a few morsels of advice for the acolytes!",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_JOBSMN630_02626_PRINCIPIA_000_0050",
+    "original": "It seems to me a fair trade. And my enchantments do not restrict me from instructing neophyte summoners in the fundamentals of the art.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_JOBSMN630_02626_YMHITRA_000_051",
+    "original": "Very well... I suppose such an arrangement could prove convenient for us all.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_JOBSMN630_02626_DANCINGWOLF_000_052",
+    "original": "I knew you\u0027d come around! Meet me at Camp Bluefog and I\u0027ll assemble the troops for inspection.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_JOBSMN630_02626_YMHITRA_000_090",
+    "original": "These are the three neophyte summoners who will be assisting with the trial. I have heard Allagan training can be rather remorseless... Do your best, but pray try not to injure them during the fray!",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_JOBSMN630_02626_PRINCIPIA_000_100",
+    "original": "Everything is in readiness for the second challenge, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_JOBSMN630_02626_CRISPIN_000_110",
+    "original": "I am told we are to be your opponents for this exercise. It\u0027s an honor to meet you, \u003Chex:02080EE905FF056D697373FF0473697203\u003E.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_JOBSMN630_02626_DENISE_000_120",
+    "original": "Summoner Denise at your service, \u003Chex:02080EE905FF056D697373FF0473697203\u003E!",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_JOBSMN630_02626_JAJASAMULALASAMU_000_130",
+    "original": "...Aye? We ain\u0027t started yet, have we?",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_JOBSMN630_02626_YMHITRA_000_140",
+    "original": "We should meet Captain Wolf at the camp, then we\u0027ll find a nice, open space somewhere in northern Thanalan to conduct the second challenge.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_JOBSMN630_02626_YMHITRA_000_141",
+    "original": "I did warn him, however, that you\u0027re far too busy to train his soldiers on any kind of permanent basis.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_JOBSMN630_02626_PRINCIPIA_000_150",
+    "original": "As mentioned, the second challenge will be a test of skill. I shall be evaluating your technique for flawless execution and executed flaws.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_JOBSMN630_02626_DANCINGWOLF_000_160",
+    "original": "Looks like we\u0027re all here! Let\u0027s get on with the briefing, shall we?",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_JOBSMN630_02626_PRINCIPIA_000_161",
+    "original": "As you command. This second challenge will evaluate the elegance of your technique as opposed to the magnitude of your Miasma.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_JOBSMN630_02626_PRINCIPIA_000_162",
+    "original": "First, I shall infuse the egi of your opponents with secondary enchantments, and then you are to engage the entities in combat.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_JOBSMN630_02626_YMHITRA_000_163",
+    "original": "Prin explained to me that the enchantments store the aether expended during the battle, and allow for an in-depth analysis of your...flair for Deathflares. As it were. In any case, I expect you\u0027ll pass with flying colors!",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_JOBSMN630_02626_DANCINGWOLF_000_164",
+    "original": "Right, I suppose you should know who you\u0027re up against. Designation and rank!",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_JOBSMN630_02626_CRISPIN_000_165",
+    "original": "Summoner Crispin. Private, first class. We\u0027re grateful for aught you can teach us, \u003Chex:02080EE905FF056D697373FF0473697203\u003E.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_JOBSMN630_02626_DENISE_000_166",
+    "original": "Summoner Denise. Sergeant. I\u0027m new to spellcasting, but I\u0027ve seen my share of combat, \u003Chex:02080EE905FF056D697373FF0473697203\u003E! Crispin and I are to fight you as a pair.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_JOBSMN630_02626_JAJASAMULALASAMU_000_167",
+    "original": "Summoner Jajasamu. \u003Chex:021A020203\u003ELieutenant\u003Chex:021A020103\u003E. Ye\u0027ve more\u0027n a few admirers in the barracks, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E...uh, \u003Chex:02080EE905FF056D697373FF0473697203\u003E. But that don\u0027t mean we\u0027ll go easy on ye!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_JOBSMN630_02626_DANCINGWOLF_000_168",
+    "original": "Enough chatter! Quick march to the training ground! Give the word to Crispin and Denise when you\u0027re ready to battle their egi, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_JOBSMN630_02626_DANCINGWOLF_000_169",
+    "original": "After that, you\u0027ll be facing off against the lieutenant\u0027s beast. You won\u0027t be attacking my troops directly, so give it all you\u0027ve got!",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_JOBSMN630_02626_DANCINGWOLF_000_190",
+    "original": "All set, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E? As I said, Crispin and Denise will be your first opponents. Just give them the word.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_JOBSMN630_02626_DENISE_000_220",
+    "original": "Our egi are primed for battle, \u003Chex:02080EE905FF056D697373FF0473697203\u003E! We\u0027ll unleash them as soon as you\u0027ve given Crispin the command!",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_JOBSMN630_02626_JAJASAMULALASAMU_000_230",
+    "original": "I\u0027ll just be watchin\u0027 for the now. Ye know, seein\u0027 how ye handle the small fish afore ye get to the \u003Chex:021A020203\u003Ereal\u003Chex:021A020103\u003E fight.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_JOBSMN630_02626_YMHITRA_000_240",
+    "original": "We should probably be in northern Thanalan. Captain Wolf and his summoners will be waiting.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_JOBSMN630_02626_PRINCIPIA_000_250",
+    "original": "Greetings, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E. We are conducting the second challenge near this \u201CCamp Bluefog\u201D of yours. Strange, I do not recall teleporting back here...",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_JOBSMN630_02626_CRISPIN_000_260",
+    "original": "Prepare yourself, \u003Chex:02080EE905FF056D697373FF0473697203\u003E! Denise and I will now summon our servants to battle!",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_JOBSMN630_02626_DENISE_000_270",
+    "original": "Aye, a pair of Ifrit-egi for you!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_JOBSMN630_02626_DANCINGWOLF_000_270",
+    "original": "Outstanding! Speak with Summoner Jajasamu to continue the challenge.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_JOBSMN630_02626_YMHITRA_000_280",
+    "original": "The enchantments were also meant to strengthen the egi somewhat...\u003Chex:02100103\u003EWell, that hardly seemed to matter to you!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_JOBSMN630_02626_PRINCIPIA_000_290",
+    "original": "An excellent performance so far, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E. Pray continue with the test.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_JOBSMN630_02626_CRISPIN_000_300",
+    "original": "Your victory was overwhelming, \u003Chex:02080EE905FF056D697373FF0473697203\u003E.\u003Chex:02100103\u003EWatching you wield the art is simply mesmerizing...",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_JOBSMN630_02626_DENISE_000_310",
+    "original": "We never stood a chance, really, but I was holding out a tiny bit of hope!",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_JOBSMN630_02626_JAJASAMULALASAMU_000_330",
+    "original": "Ye finished warmin\u0027 up on them embers, then? \u0027Cause even together, me mates\u0027 egi don\u0027t hold a candle to the inferno I can summon.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_JOBSMN630_02626_JAJASAMULALASAMU_000_331",
+    "original": "Right. Let\u0027s bring the flames!",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_JOBSMN630_02626_DANCINGWOLF_000_350",
+    "original": "Your next opponent will be another one of Summoner Jajasamu\u0027s egi. The lad\u0027s not fond of losing, so expect no quarter!",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_JOBSMN630_02626_YMHITRA_000_360",
+    "original": "You held your own easily enough, but that Ifrit-egi was still rather impressive.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_JOBSMN630_02626_PRINCIPIA_000_370",
+    "original": "How do you feel, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E? Dizziness? Itchiness? Nausea? No? Mayhap this challenge needs to be more...challenging. Continue!",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_JOBSMN630_02626_CRISPIN_000_380",
+    "original": "Even Jajasamu\u0027s egi was extinguished...\u003Chex:02100103\u003EWell, that\u0027s that, then.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_JOBSMN630_02626_DENISE_000_390",
+    "original": "It\u0027s not over yet: the lieutenant has one more card up his sleeve!",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_JOBSMN630_02626_JAJASAMULALASAMU_000_420",
+    "original": "Ah, I had hopes for that one, but ye snuffed him out right quick!",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_JOBSMN630_02626_JAJASAMULALASAMU_000_421",
+    "original": "Not much of a trial, eh? Well then, yer lucky I fought another primal durin\u0027 me time with the Company of Heroes.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_JOBSMN630_02626_JAJASAMULALASAMU_000_422",
+    "original": "Aye, yer not the only summoner as can command more\u0027n one aetherial beastie! Say hello to yer final opponent: Titan-egi!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_JOBSMN630_02626_YMHITRA_000_440",
+    "original": "A former member of the Company of Heroes? I\u0027m impressed. He has the makings of a talented summoner.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_JOBSMN630_02626_PRINCIPIA_000_450",
+    "original": "Allow me some time to chew on the residue of your battles, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E. Though from the taste alone, I can predict a favorable flavor for the result...",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_JOBSMN630_02626_CRISPIN_000_460",
+    "original": "Titan-egi seemed so solid...and then you broke him into little pieces.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_JOBSMN630_02626_DENISE_000_470",
+    "original": "That was a pleasure to watch, \u003Chex:02080EE905FF056D697373FF0473697203\u003E. I can hardly wait to return to our training!",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_JOBSMN630_02626_JAJASAMULALASAMU_000_480",
+    "original": "I wish I\u0027d been able to join in the battle with me own self. Not that the outcome would\u0027ve been any different, mind...",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_JOBSMN630_02626_DANCINGWOLF_000_500",
+    "original": "I hope my summoners put up enough of a fight for you! Anyway, shall we hear what the book has to say?",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_JOBSMN630_02626_PRINCIPIA_000_501",
+    "original": "I have ruminated upon the swirls and echoes of your battle, and the picture is clear: your technique is, without a doubt, a thing of exquisite beauty. Consider the second challenge conquered.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_JOBSMN630_02626_DANCINGWOLF_000_502",
+    "original": "Well, that\u0027s good news, if hardly surprising! After all, you did sweep through those egi like a storm through a field of dandelions!",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_JOBSMN630_02626_JAJASAMULALASAMU_000_503",
+    "original": "Me thanks. Ye\u0027ve opened me eyes\u2500I see I\u0027ve some work to do afore I\u0027ve truly mastered this discipline.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_JOBSMN630_02626_YMHITRA_000_504",
+    "original": "I\u0027m glad to know we\u0027ve been of service. Now, we really must be returning to Gridania.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_JOBSMN630_02626_CRISPIN_000_505",
+    "original": "Thank you, \u003Chex:02080EE905FF056D697373FF0473697203\u003E. This was truly an enriching experience!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_JOBSMN630_02626_DENISE_000_505",
+    "original": "Aye, pray train with us again in the future!",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_JOBSMN630_02626_PRINCIPIA_000_540",
+    "original": "One last challenge remains. Pray win through this trial, lest the higher knowledge I hoard remain lost.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_JOBSMN630_02626_YMHITRA_000_560",
+    "original": "Congratulations, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. With your impressive demonstrations of power and skill, you have already conquered two of Prin\u0027s three challenges!",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_JOBSMN630_02626_YMHITRA_000_561",
+    "original": "Ere we come to the final trial, however, Prin would further our education on Allagan summoning.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_JOBSMN630_02626_PRINCIPIA_000_570",
+    "original": "First, I would ask what you know of the rise and fall of summoning in the Allagan Empire\u2500I was made to \u201Ccover\u201D rather a lot of history, you understand.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_JOBSMN630_02626_YMHITRA_000_571",
+    "original": "From our research, we have learned that summoners were initially lauded as heroes for their success against the primals. When certain of these mages began to abuse the art\u0027s power for personal gain, however, the adoration of the populace shifted towards an oppressive hatred.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_JOBSMN630_02626_PRINCIPIA_000_572",
+    "original": "Correct. We speak now of the latter half of the Third Astral Era. My creator, Master Sari, was one of those who expended his energies on the destruction of primals, even as he fled from relentless persecution. Alongside his disciples, he triumphed over Belias and many other lesser entities.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_JOBSMN630_02626_YMHITRA_000_573",
+    "original": "Belias? That was the name of the elder primal from whom Tristan once drew power...\u003Chex:02100103\u003EMaster Sari must have been mighty indeed to defeat such a foe.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_JOBSMN630_02626_PRINCIPIA_000_574",
+    "original": "Yet he still knew fear: the thought that the grand discipline of summoning would fade into oblivion was more than Master Sari could bear. And so he sought to preserve its legacy, and provide for his successors.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_JOBSMN630_02626_PRINCIPIA_000_575",
+    "original": "My creator was well versed in aetherochemistry and held a particular interest in the technology of information. Broadly speaking, he researched methods for producing arcane geometries without grimoires, and experimented with machine-enhanced egi.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_JOBSMN630_02626_PRINCIPIA_000_576",
+    "original": "He eventually abandoned both of these technologies, deeming them unsuitable for the instruction of future generations. Hoping to provide guidance to those summoners yet unborn, he instead began writing and enchanting a work that would survive down the ages. He made me.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_JOBSMN630_02626_YMHITRA_000_577",
+    "original": "Such an accomplished personage...\u003Chex:02100103\u003EWhy, then, have I seen but scant mention of his name in Allag\u0027s histories?",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_JOBSMN630_02626_PRINCIPIA_000_578",
+    "original": "As you have said yourself, it was an age when the adulation of summoners experienced an extreme reversal. It is likely that Master Sari\u0027s achievements were struck from the records, even as his loyal pupils were struck down in the streets.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_JOBSMN630_02626_PRINCIPIA_000_579",
+    "original": "I was shut in a storeroom\u2500abandoned to my slumber like some common treatise on trade agreements in the southern provinces\u2500and thus I can tell you naught of what befell my creator in his later years.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_JOBSMN630_02626_YMHITRA_000_580",
+    "original": "I expected a dry recital on the history of summoning, but you\u0027ve shared with us your personal narrative. \u0027Tis clear you hold a great deal of respect for Master Sari.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_JOBSMN630_02626_PRINCIPIA_000_581",
+    "original": "I am a familiar. I simply relay information as I was enspelled. This lecture is now over.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_JOBSMN630_02626_YMHITRA_000_582",
+    "original": "As you wish, Prin.\u003Chex:02100103\u003EWell, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, \u0027twould seem class is dismissed for the moment. I suggest you recuperate from this day\u0027s trial, and look toward preparing yourself for the final challenge!",
+    "translation": ""
+  }
+}

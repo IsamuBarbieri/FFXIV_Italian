@@ -1,0 +1,512 @@
+{
+  "0": {
+    "tag": "TEXT_KINGKW301_05502_SEQ_00",
+    "original": "Lydirceil has something to discuss with you.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_KINGKW301_05502_SEQ_01",
+    "original": "Lydirceil informs you that Gerolt has some concerns regarding your phantom weapon\u2500possibly relating to the weaponsmith\u0027s ambitious plans to merge ancient methods with his own homegrown techniques. Curiosity piqued, you prepare to present your weapon to Gerolt for inspection.\u003Chex:02100103\u003E\u203BPlease note this quest cannot be abandoned via the journal. If you wish to abandon the quest, you may do so at any time by speaking with Lydirceil.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_KINGKW301_05502_SEQ_02",
+    "original": "After a brief examination of your phantom weapon, Gerolt concludes that his worries were, alas, warranted. Taking a moment to remind all present of the enhancement process thus far, he reveals that the island\u0027s aether\u2500from which your weapon derives its power\u2500is actually limiting the potential for further improvements due to its volatile, illusory nature. Thankfully, it would seem he has a plan to overcome this flaw. Rather less thankfully, Gerolt insists you /congratulate him on this breakthrough before he shares any further details.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_KINGKW301_05502_SEQ_03",
+    "original": "Buoyed by your acknowledgement, Gerolt describes how your phantom weapon has been inadvertently bound by a complex illusion, thereby limiting its power. His plan is thus: to remove its glamour-like shroud using the Archive\u0027s magical knife, which just so happens to have illusion-dispelling properties. To prepare the blade for the task, you are called upon to procure a variety of essential supplies and deliver them to the weaponsmith when ready.\u003Chex:02100103\u003E\u003Chex:02100103\u003EMonarch whetstone: seek a trader in the markets of Tuliyollal.\u003Chex:02100103\u003EAncestral alloy ingot, ascendant twine, and majestic polish: craft using the relevant recipe or purchase from the market board.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BShould you choose to craft the three items listed above, you will need to have obtained the Master Recipe XII tomes of the Disciples of the Hand.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_KINGKW301_05502_SEQ_04",
+    "original": "As you hand Gerolt the supplies, he declares his wish for a quick tipple to prevent any knife-honing mishaps. Doubts about the efficacy of rum in this context notwithstanding, you resolve to speak with the weaponsmith again.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_KINGKW301_05502_SEQ_05",
+    "original": "With quenched thirst\u2500and surprisingly steady hands\u2500Gerolt soon hones the blade to perfection. With the knife\u0027s physical form thus prepared, the next step will be to enhance its dispelling magicks. No doubt much work yet awaits...",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_KINGKW301_05502_TODO_00",
+    "original": "Speak with Gerolt while you have a phantom weapon obscurum equipped, in your Armoury Chest, or in your inventory.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_KINGKW301_05502_TODO_01",
+    "original": "/congratulate Gerolt.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_KINGKW301_05502_TODO_02",
+    "original": "Deliver the requested items to Gerolt.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_KINGKW301_05502_TODO_03",
+    "original": "Obtain a monarch whetstone.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_KINGKW301_05502_TODO_04",
+    "original": "Obtain an ancestral alloy ingot.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_KINGKW301_05502_TODO_05",
+    "original": "Obtain a spool of ascendant twine.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_KINGKW301_05502_TODO_06",
+    "original": "Obtain a bottle of majestic polish.",
+    "translation": ""
+  },
+  "31": {
+    "tag": "TEXT_KINGKW301_05502_TODO_07",
+    "original": "Speak with Gerolt.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_KINGKW301_05502_LYDIRCEIL_000_001",
+    "original": "Perfect timin\u0027. Been meanin\u0027 to have a word with ye.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_KINGKW301_05502_LYDIRCEIL_000_002",
+    "original": "I\u0027m guessin\u0027 ye remember Gerolt\u0027s plan to combine \u0027is modern methods with that ancient knowledge \u0027e\u0027s uncovered.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_KINGKW301_05502_LYDIRCEIL_000_003",
+    "original": "Well, it sounds like \u0027e needs to examine that phantom weapon o\u0027 yers. Would ye mind obligin\u0027?",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_KINGKW301_05502_SYSTEM_000_004",
+    "original": "Please note that the current quest \u201CUnder No Illusion\u201D cannot be abandoned via the journal. Should you wish to do so, speak with Lydirceil.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_KINGKW301_05502_LYDIRCEIL_000_005",
+    "original": "Needed elsewhere? No skin off my nose.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_KINGKW301_05502_SYSTEM_000_010",
+    "original": "Abandon the quest \u201CUnder No Illusion\u201D?",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_KINGKW301_05502_SYSTEM_000_015",
+    "original": "Are you sure you wish to proceed?",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_KINGKW301_05502_SYSTEM_000_020",
+    "original": "Abandoning this quest will forfeit any delivered items. If you choose to proceed with the quest at a later date, you will need to collect the requisite ingredients again.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_KINGKW301_05502_SYSTEM_000_025",
+    "original": "I understand and wish to abandon the quest.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_KINGKW301_05502_LYDIRCEIL_000_030",
+    "original": "Sounds like Gerolt can\u0027t make any headway until \u0027e sees yer weapon. Make sure ye show \u0027im sharpish.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_KINGKW301_05502_BRIGID_000_035",
+    "original": "I am also curious as to the current state of your weapon...",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_100",
+    "original": "I\u0027ll be straight with ye, \u003Chex:02080EE905FF056C617373FF046C616403\u003E. I\u0027m worried about yer phantom weapon.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_101",
+    "original": "Part o\u0027 me hopes it\u0027s just the rum talkin\u0027, but I\u0027ll need to take a gander either way.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_KINGKW301_05502_SYSTEM_100_101",
+    "original": "To proceed, you must first obtain a phantom weapon obscurum.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_102",
+    "original": "Go on, stow it away. I\u0027ve seen enough.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_103",
+    "original": "Just as predicted, eh?",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_KINGKW301_05502_BRIGID_000_104",
+    "original": "Indeed... I\u0027m afraid the weapon is, in a sense, defective.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_KINGKW301_05502_BRIGID_000_105",
+    "original": "To think the isle\u0027s aether could deceive even my superlative perception! A potent force indeed.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_106",
+    "original": "That it may be, but now we know the plan\u0027ll work.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_KINGKW301_05502_LYDIRCEIL_000_107",
+    "original": "\u0027Old on, \u0027old on! I\u0027m strugglin\u0027 to keep up.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_108",
+    "original": "Fair enough. Perhaps ye could all do with a reminder.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_109",
+    "original": "D\u0027ye remember what we\u0027ve done to yer phantom weapon so far?",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_KINGKW301_05502_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_KINGKW301_05502_A1_000_001",
+    "original": "I believe you infused it with the isle\u0027s elusive energies.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_KINGKW301_05502_A1_000_002",
+    "original": "Something involving the vast quantities of aether I gathered!",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_KINGKW301_05502_A1_000_003",
+    "original": "It\u0027s all flown right over my head, honestly...",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_111",
+    "original": "Exactly. An\u0027 just like those energies, yer weapon\u0027s a shiftin\u0027, intangible phantom. ",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_112",
+    "original": "Not quite. All that aether went into enhancin\u0027 me gods-given hands, not the weapon directly. No wonder that\u0027s seared into yer memory, though\u2500that was some hard graft...",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_113",
+    "original": "Suppose I can\u0027t expect everyone to keep pace with me unmatched intellect... Let\u0027s go over the basics again.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_114",
+    "original": "In short, the aether permeatin\u0027 this isle is teemin\u0027 with illusory properties, an\u0027 highly potent to boot. It\u0027s what gives yer weapon its frightenin\u0027 power. ",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_115",
+    "original": "\u0027Course, that power needed stabilizing, which is why we turned to ancient methods to keep the aether from dissipatin\u0027. I thought that had done the trick, but apparently not...",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_KINGKW301_05502_DODOKKULI_000_116",
+    "original": "Perhaps there was some flaw in the process?",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_KINGKW301_05502_BRIGID_000_117",
+    "original": "It would appear so. While the isle\u0027s aether greatly elevated the weapon\u0027s capabilities, its volatile nature is limiting the potential for further enhancement. ",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_KINGKW301_05502_BRIGID_000_118",
+    "original": "We were able to verify as much by examining the adventurer\u0027s weapon earlier.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_KINGKW301_05502_LYDIRCEIL_000_119",
+    "original": "So yer sayin\u0027 there\u0027s more power to wring out o\u0027 the thing, but we just can\u0027t get to it?",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_120",
+    "original": "Can\u0027t get to it \u003Chex:021A020203\u003Eyet\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_121",
+    "original": "Hence me grand plan...",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_100_121",
+    "original": "To counteract the phantasmal energies infusin\u0027 the weapon, reveal its innate form, an\u0027 unleash its true potential!",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_KINGKW301_05502_DODOKKULI_000_122",
+    "original": "A perfectly logical approach, but is such a thing possible?",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_123",
+    "original": "For a smith of me peerless talent it is, and worthy of a little praise, I\u0027d say. If ye want all the details, ye\u0027ll have to \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Econgratulate\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E me on me brilliant plannin\u0027\u2500before I crack open another bottle o\u0027 rum an\u0027 forget all about it...",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_KINGKW301_05502_LYDIRCEIL_000_125",
+    "original": "I\u0027m impressed Gerolt figured out what was wrong with yer weapon. No doubt this\u0027ll inflate \u0027is ego even further...",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_KINGKW301_05502_BRIGID_000_130",
+    "original": "I\u0027ve become rather invested in this phantom weapon of yours. I shall continue to lend my aid!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_200",
+    "original": "Don\u0027t just stand there gawkin\u0027, \u003Chex:02080EE905FF056C617373FF046C616403\u003E. \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ECongratulate\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E me on me inspired thinkin\u0027, else I\u0027ll raid the rum supply an\u0027 forget about the whole bleedin\u0027 thing!",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_KINGKW301_05502_SYSTEM_000_201",
+    "original": "Gerolt appears unwilling to divulge further details until he is showered with praise. Provide the acknowledgement he sorely craves and \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Econgratulate\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E him on a plan well conceived.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_202",
+    "original": "Baskin\u0027 in yer admiration\u0027s thirsty work! Might crack open the rum after all.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_203",
+    "original": "Only jokin\u0027... Truth is, I\u0027m itchin\u0027 to get started.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_204",
+    "original": "Those phantasmal energies I mentioned have bound yer weapon in a complex illusion, preventin\u0027 it from truly shinin\u0027.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_205",
+    "original": "By strippin\u0027 that illusion away an\u0027 revealin\u0027 the true essence o\u0027 the weapon, we solve the problem.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_KINGKW301_05502_DODOKKULI_000_206",
+    "original": "Stripping the illusion away...",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_KINGKW301_05502_DODOKKULI_000_207",
+    "original": "Like using a glamour dispeller to remove the projected appearance of arms and armor? Hmmm. That might be feasible with the right apparatus.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_208",
+    "original": "Now yer talkin\u0027. The best part is that we\u0027ve already got just the thing for the job. Ain\u0027t that right?",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_KINGKW301_05502_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_KINGKW301_05502_A2_000_001",
+    "original": "Didn\u0027t the Archive recently fillet a glamoured fish?",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_KINGKW301_05502_A2_000_002",
+    "original": "A certain knife comes to mind...",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_KINGKW301_05502_A2_000_003",
+    "original": "We do?",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_210",
+    "original": "Exactly! When the Archive cut into his catch with that rusty ol\u0027 knife, the glamour was dispelled an\u0027 the bleedin\u0027 thing shrank. That blade\u0027s the key!",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_100_210",
+    "original": "Don\u0027t ye remember the Archive complainin\u0027 about his piddlin\u0027 catch? When he cut into the fish with that rusty ol\u0027 knife, the glamour was dispelled an\u0027 the bleedin\u0027 thing shrank. That blade\u0027s the key!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_211",
+    "original": "Thankfully, the little feller let me borrow it for a while.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_212",
+    "original": "Just as expected, the blade\u0027s imbued with unique dispellin\u0027 magicks. All told, it\u0027s quite the relic in its own right.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_KINGKW301_05502_LYDIRCEIL_000_213",
+    "original": "An\u0027 ye reckon we can use it to cut through the illusion surroundin\u0027 the phantom weapon?",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_214",
+    "original": "Aye, but the isle\u0027s aether is vexin\u0027 stuff. Nothin\u0027 short o\u0027 the most potent dispellin\u0027 magick\u0027ll suffice.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_215",
+    "original": "Which is why we\u0027ll need to enhance the blade first!",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_KINGKW301_05502_Q3_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_KINGKW301_05502_A3_000_001",
+    "original": "Sounds eminently logical to me!",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_KINGKW301_05502_A3_000_002",
+    "original": "I don\u0027t know if I trust the Archive with a perfectly honed blade...",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_KINGKW301_05502_A3_000_003",
+    "original": "This whole process continues to confuse and astound me.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_217",
+    "original": "There aren\u0027t many who\u0027d even consider ravagin\u0027 one o\u0027 the realm\u0027s greatest weapons with a magical ol\u0027 blade, that\u0027s for sure. Then again, most lack me capacity for innovation!",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_218",
+    "original": "What harm could the little feller possibly do? Sounds like we oughta slice through those lingerin\u0027 doubts of yers while we\u0027re at it!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_219",
+    "original": "Ye\u0027ll never guess how I came up with the idea. There I was, daydreamin\u0027 about grilled fish after a few cups o\u0027 rum, when the Archive\u0027s knife sprang to mind...",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_220",
+    "original": "Anyroad, we\u0027ll need to hone the blade to boost its dispellin\u0027 properties. Don\u0027t mind what we use, as long it\u0027s top-quality kit.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_KINGKW301_05502_DODOKKULI_000_221",
+    "original": "If it\u0027s blade-sharpening supplies we\u0027re after, I\u0027ve heard nothing but the highest praise for monarch whetstones. They ought to sell them in Bayside Bevy.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_KINGKW301_05502_DODOKKULI_000_222",
+    "original": "Ancestral alloy ingots, ascendant twine, and majestic polish likewise command a good reputation. A skilled artisan should be more than capable of crafting them, though I\u0027m sure they can also be purchased with sufficient gil.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_223",
+    "original": "Seein\u0027 as how the rest of us are still stuck on this bastard rock, this falls to you again, \u003Chex:02080EE905FF056C617373FF046C616403\u003E. Hand over the goods when yer ready.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_KINGKW301_05502_SYSTEM_000_224",
+    "original": "Details on obtaining each item are noted in your journal.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_KINGKW301_05502_LYDIRCEIL_000_225",
+    "original": "\u0027Ate to stand around twiddlin\u0027 me thumbs while yer out there traipsin\u0027 about, but there ain\u0027t much else I can do. Good luck with yer search!",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_KINGKW301_05502_BRIGID_000_230",
+    "original": "I look forward to seeing that humble blade enjoy a new lease on life. Perhaps its transformation will rival my own...",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_300",
+    "original": "We\u0027re countin\u0027 on you to gather all four components for honin\u0027 the blade.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_KINGKW301_05502_SYSTEM_000_301",
+    "original": "Some of the items Gerolt requires can be obtained in the following locations:\u003Chex:02100103\u003EMonarch whetstones are sold in the markets of Tuliyollal.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_KINGKW301_05502_SYSTEM_000_302",
+    "original": "Ancestral alloy ingots, spools of ascendant twine, and bottles of majestic polish can be crafted via the crafting log using the relevant Master Recipe XII tomes of the Disciples of the Hand.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_KINGKW301_05502_SYSTEM_000_303",
+    "original": "Details on obtaining each item are noted in your journal.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_304",
+    "original": "Crackin\u0027 work! Time to get that knife honed to perfection.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_305",
+    "original": "Though I think I\u0027ll have a quick snifter o\u0027 rum to help me concentrate\u2500don\u0027t want to mess this up!",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_KINGKW301_05502_LYDIRCEIL_000_310",
+    "original": "Not sure why Gerolt\u0027s \u0027avin\u0027 a tipple at this juncture... Then again, I don\u0027t share \u0027is passion for rum.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_KINGKW301_05502_BRIGID_000_315",
+    "original": "Girding one\u0027s loins before an important ritual is a natural impulse. I daresay you yourself feast on the eve of battle, yes?",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_400",
+    "original": "The wonders a drop o\u0027 rum\u0027ll do. Me mind\u0027s clear an\u0027 me hands are steady!",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_401",
+    "original": "Here goes!",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_402",
+    "original": "Some o\u0027 me finest work to date. Razor sharp an\u0027 overflowin\u0027 with aether!",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_KINGKW301_05502_GEROLT_000_403",
+    "original": "With the blade honed to perfection, we can get to work on those dispellin\u0027 magicks!",
+    "translation": ""
+  }
+}

@@ -1,0 +1,572 @@
+{
+  "0": {
+    "tag": "TEXT_KINGMI110_05373_SEQ_00",
+    "original": "Shale is visibly relieved at your safe return.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_KINGMI110_05373_SEQ_01",
+    "original": "You pause a moment to let Shale savor the recent victory. For her, it represents the culmination of years of rebellion, and marks the end of an era for Oblivion itself. Triumphs aside, Krile wonders if you have seen the last of the troubles arising from the key. The Scion leaves you with that unsettling thought as she heads off to her meeting with G\u0027raha Tia and the city officials. Shale, too, returns to her own waiting tasks, but not before inviting you to rest in the Backroom while you watch over Alexandria\u0027s return to normalcy.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_KINGMI110_05373_SEQ_02",
+    "original": "You while away the days in the Backroom, coming and going as you please. In the weeks that pass, Oblivion uncovers several Preservation facilities and makes a comprehensive study of regulator function. This leads to the understanding that memories of the deceased were never truly erased, merely locked away, and that this process can be reversed by sending a signal from the Meso Terminal.\u003Chex:02100103\u003E\u003Chex:02100103\u003EActing at the government\u0027s behest, your party and Sphene escort Gossan to Living Memory, where a much-recovered Wuk Lamat makes a surprise appearance. Together, you reactivate the terminals, and restore the memories of those who consented. The reaction in Alexandria is immediate and bittersweet, with many bursting into tears at the sudden flood of long-lost remembrances.\u003Chex:02100103\u003E\u003Chex:02100103\u003EGossan is grateful for your actions, and responds to Sphene\u0027s request to remain in Alexandria with an unexpected demand of his own: it seems that, inspired by the gentle leadership she displayed when despair held the kingdom in thrall, the people have insisted that she take her rightful place as their monarch. After much flustered deliberation, Sphene accepts the role, declaring peace and prosperity for Alexandria as her foremost purpose. Thus do you stand witness to the rise of a new Queen of Reason.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_KINGMI110_05373_SEQ_03",
+    "original": "A determined Sphene returns to meet her citizens with her chief aide at her side, the Scions joining them to assist with any confusion stemming from memory restoration. Erenville and Wuk Lamat also prepare to depart, the Vow of Resolve urging you to come and visit her at the palace so that she and Koana might thank you properly for your deeds.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_KINGMI110_05373_SEQ_04",
+    "original": "You approach the two Vows outside Vollok Shoonsa only to find Gulool Ja there as well, having come to begin his training under the Landsguard. After showing enthusiastic support for her nephew\u0027s ambition to learn swordplay, Wuk Lamat turns her attention to you. She expresses joy at how events unfolded for the queens past and present, and thanks you for helping her fulfill her promise. Erenville, meanwhile, speaks of an impending extended journey, and Koana declares his intent to compile a thorough account of Tuliyollan history even as he attends to his day-to-day administrative duties. With plans shared and assurances to reunite exchanged, they send you on your way back to Sphene and the other Scions.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_KINGMI110_05373_SEQ_05",
+    "original": "Your arrival in Alexandria is met with discussion of the daunting tasks which lie ahead of Sphene, now that her kingdom will engage more openly with the other nations of Etheirys. Her citizens, too, have elected to face their grief with courage\u2500the precious memories they have reclaimed serving to guide and sustain them through the days to come. Whether you are staying to investigate Preservation\u0027s mysteries, or departing to seek distant adventures, the soon-to-be-crowned Queen of Reason offers you all, her cherished comrades, the eternal hospitality of the nation you so valiantly saved.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_KINGMI110_05373_TODO_00",
+    "original": "Speak with Shale.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_KINGMI110_05373_TODO_01",
+    "original": "Speak with Sphene.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_KINGMI110_05373_TODO_02",
+    "original": "Speak with Wuk Lamat at Vollok Shoonsa.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_KINGMI110_05373_TODO_03",
+    "original": "Speak with Sphene at Praxis Park.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_KINGMI110_05373_KRILE_000_001",
+    "original": "Oh, we had the same idea, I see! I thought it might be nice to catch up with our Oblivion friends before we delve into more serious matters with the city officials.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_KINGMI110_05373_SHALE_000_010",
+    "original": "Now that everyone\u0027s back, I say we pause a moment to savor what we\u0027ve accomplished.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_KINGMI110_05373_KRILE_000_011",
+    "original": "We\u0027ve been through much in these past days, haven\u0027t we?",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_KINGMI110_05373_SHALE_000_012",
+    "original": "That\u0027s an understatement. We\u0027ve seen the end of a years-long struggle, for Oblivion and for myself.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_KINGMI110_05373_SHALE_000_013",
+    "original": "Cahciua and Geode would be happy for us...",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_KINGMI110_05373_SHALE_000_014",
+    "original": "Oddly enough, fulfilling our purpose has somehow left me with even more work to do. The government has tasked me with conducting a more complete survey of the containment complex.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_KINGMI110_05373_KRILE_000_015",
+    "original": "Ah, the Preservation facility. That lab where they studied the key certainly demands further investigation.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_KINGMI110_05373_KRILE_000_016",
+    "original": "I can understand how those experiments may have led to the discovery of reflections, yet they fail to explain Calyx\u0027s knowledge of primal summoning.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_KINGMI110_05373_KRILE_000_017",
+    "original": "I fear that he and his hunger for interdimensional travel were only one facet of a greater puzzle. There is still someone or something out there that may pose a threat to us...",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_KINGMI110_05373_KRILE_000_021",
+    "original": "In any case, I think it prudent we secure ourselves a spot in Shale\u0027s next expedition to the tenth level.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_KINGMI110_05373_KRILE_000_022",
+    "original": "Right, I have a meeting with city officials to attend. \u0027Twould be cruel to leave Raha to answer their barrage of questions alone!",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_KINGMI110_05373_SHALE_000_023",
+    "original": "I should return to my work as well. My first job will be to analyze the data we pulled from Containment Complex 10-29, and locate other facilities of interest.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_KINGMI110_05373_SHALE_100_023",
+    "original": "I can only hope the information we uncover will serve Alexandria and the future we want to build.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_KINGMI110_05373_SHALE_000_024",
+    "original": "Whatever we end up finding, however, it\u0027s like to take some weeks to put the city back to rights. All these ambitious plans aside, I think you\u0027ve earned a rest, don\u0027t you?",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_KINGMI110_05373_SHALE_000_025",
+    "original": "Our break room is yours to bunk in for as long as you like. Say the word, and I\u0027ll help you settle in.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_KINGMI110_05373_SHALE_000_031",
+    "original": "Ready for a cot and a fluffy pillow?",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_KINGMI110_05373_SYSTEM_000_032",
+    "original": "It will likely be some time before the city returns to normal. You may choose to remain in the Backroom and watch over the proceedings...",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_KINGMI110_05373_SYSTEM_000_040",
+    "original": "While away the days in the Backroom?",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_KINGMI110_05373_WUKLAMAT_000_045",
+    "original": "So Sphene is to sit the throne once more... She may have questioned her claim, but Alexandria\u0027s citizens have made their feelings known.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_KINGMI110_05373_KRILE_000_050",
+    "original": "A new Alexandrian queen has risen. \u0027Tis an occasion worthy of grand celebration.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_KINGMI110_05373_GRAHATIA_000_055",
+    "original": "This great nation is set to become an ever greater one. How fortunate we are to be here and witness this turning point in its history.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_KINGMI110_05373_ERENVILLE_000_060",
+    "original": "Gulool Ja was also of the opinion that Sphene should become the Queen of Reason. He will be delighted to hear that she has accepted the role.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_KINGMI110_05373_GOSSAN_000_065",
+    "original": "We shall walk this difficult road together, as Vow Wuk Lamat has assured us.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_KINGMI110_05373_ORIGINALSPHENE_000_070",
+    "original": "Thank you for your kind encouragement, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_KINGMI110_05373_ORIGINALSPHENE_100_070",
+    "original": "Wuk Lamat is right. Ours will not be an easy road.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_KINGMI110_05373_ORIGINALSPHENE_110_070",
+    "original": "But with your words to lend me strength, I shall take it one step at a time.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_KINGMI110_05373_WUKLAMAT_000_071",
+    "original": "And Tuliyollal will be there to support you. Speaking of which, I should be getting back to the palace.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_KINGMI110_05373_WUKLAMAT_100_071",
+    "original": "I\u0027ll make my next visit an official one\u2500no sneaking out under Koana\u0027s nose like this time. The Vows of Resolve and Reason will both come, and we can discuss our futures together!",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_KINGMI110_05373_ORIGINALSPHENE_000_072",
+    "original": "I look forward to it!",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_KINGMI110_05373_ORIGINALSPHENE_000_073",
+    "original": "Shall we begin the journey home, then? I expect some confusion among the citizens with restored memories, and I would be present to offer them aid!",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_KINGMI110_05373_ERENVILLE_000_078",
+    "original": "Well, I believe this marks the end to my role as guide. I was intending to accompany Wuk Lamat back to Tuliyollal...",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_KINGMI110_05373_ERENVILLE_100_078",
+    "original": "But what are your plans, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E? Didn\u0027t you have other matters yet to attend to in Alexandria?",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_KINGMI110_05373_WUKLAMAT_000_079",
+    "original": "No, no, you need to stop by the palace first!",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_KINGMI110_05373_WUKLAMAT_100_079",
+    "original": "Koana\u0027s been wanting to thank you properly, but with everything going on, he hasn\u0027t had the chance. Please come back with us, or I\u0027ll never hear the end of it!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_KINGMI110_05373_ERENVILLE_000_080",
+    "original": "How long has it been since I last walked these streets...? Maybe I spent too long in Solution Nine, but the city seems livelier than it ever was.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_KINGMI110_05373_GULOOLJA_000_085",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E!? No one told me you were coming!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_KINGMI110_05373_KOANA_000_090",
+    "original": "...The memory restoration went well, I am told.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_KINGMI110_05373_WUKLAMAT_000_100",
+    "original": "It\u0027s good to be home. Thanks for coming along!",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_KINGMI110_05373_GULOOLJA_000_101",
+    "original": "I just got here too. The Landsguard said my training would begin right away, so I\u0027ll be staying in Tuliyollal a while.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_KINGMI110_05373_WUKLAMAT_000_102",
+    "original": "We believe in you, Gulool Ja! And whenever you need advice, your aunt is always happy to give it!",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_KINGMI110_05373_ERENVILLE_000_103",
+    "original": "...Oh dear, our Vow of Reason is out of sorts.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_KINGMI110_05373_KOANA_000_104",
+    "original": "Can you blame me? Lamaty\u0027i\u2500you were supposed to be convalescing in bed.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_KINGMI110_05373_KOANA_000_105",
+    "original": "So... You would study the way of the blade, Gulool Ja?",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_KINGMI110_05373_GULOOLJA_000_106",
+    "original": "Is...is that not allowed?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_KINGMI110_05373_KOANA_000_107",
+    "original": "I will permit your training on one condition: you only practice swordplay in the presence of a grown-up.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_KINGMI110_05373_GULOOLJA_000_108",
+    "original": "Yes, Koana, I promise!",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_KINGMI110_05373_WUKLAMAT_000_109",
+    "original": "It won\u0027t be long before you\u0027re good enough to train without a minder. You take too much after your sire and grandsire for that...",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_KINGMI110_05373_GULOOLJA_100_109",
+    "original": "Wait\u2500so if you\u0027re back here, does that mean everyone already got their memories back?",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_KINGMI110_05373_WUKLAMAT_110_109",
+    "original": "Not everyone...",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_KINGMI110_05373_WUKLAMAT_000_110",
+    "original": "...So, that was that. My days of meddling in Alexandrian affairs are over.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_KINGMI110_05373_GULOOLJA_000_112",
+    "original": "It all turned out for the best. The former queen really did love her people, and it\u0027s wonderful that her love lives on in Sphene.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_KINGMI110_05373_WUKLAMAT_000_113",
+    "original": "It truly is. With that love as the foundation of her rule, the new queen will be a font of hope for Alexandria.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_KINGMI110_05373_WUKLAMAT_000_114",
+    "original": "There\u0027s no better way for a life and legacy to forever endure...",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_KINGMI110_05373_WUKLAMAT_000_115",
+    "original": "You\u0027ll be heading back there, won\u0027t you? To Alexandria?",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_KINGMI110_05373_WUKLAMAT_000_116",
+    "original": "I won\u0027t pretend that I fully understand the workings of the key or the reflections. And I \u003Chex:021A020203\u003Eknow\u003Chex:021A020103\u003E I couldn\u0027t have stopped Calyx without you...",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_KINGMI110_05373_WUKLAMAT_000_117",
+    "original": "...Nor fulfilled my promise to the Endless Sphene. Thank you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, from the bottom of my heart.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_KINGMI110_05373_WUKLAMAT_000_118",
+    "original": "Be sure to come and visit us again in Tuliyollal. You\u0027ll always be welcome here!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_KINGMI110_05373_ERENVILLE_000_119",
+    "original": "It\u0027s time I moved on myself. Once I\u0027ve made the necessary preparations and arrangements, I will embark on an extended journey.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_KINGMI110_05373_KOANA_000_120",
+    "original": "Well, I expect \u003Chex:021A020203\u003Emy\u003Chex:021A020103\u003E days will be filled with administrative duties, much as they already are. I am hoping to compile a comprehensive history of Tuliyollal, however.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_KINGMI110_05373_KOANA_000_121",
+    "original": "The tale of our beautiful and resilient nation should be preserved for the future, with each successive generation adding their own chapter to the saga.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_KINGMI110_05373_GULOOLJA_000_122",
+    "original": "I...I think I\u0027ve learned to be happy with who I am, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_KINGMI110_05373_GULOOLJA_000_123",
+    "original": "Even when I make mistakes and cry and look silly.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_KINGMI110_05373_GULOOLJA_000_124",
+    "original": "And it\u0027s all because of the amazing things I\u0027ve seen with you. They remind me there\u0027s always tomorrow!",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_KINGMI110_05373_GULOOLJA_000_125",
+    "original": "Becoming the King of Resolve is not something I need to think about until I\u0027m older, but my father\u0027s authority did pass to me. So until that day comes, I\u0027ll study and train and do the best I can!",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_KINGMI110_05373_WUKLAMAT_000_126",
+    "original": "You\u0027ve really come far, Gulool Ja! And you\u0027ll keep on doing us proud, I\u0027m sure of it!",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_KINGMI110_05373_GULOOLJA_000_127",
+    "original": "I guess you have to go now, so be safe and enjoy your travels. We\u0027ll miss you!",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_KINGMI110_05373_WUKLAMAT_000_128",
+    "original": "Send our best to Sphene and the others!",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_KINGMI110_05373_WUKLAMAT_000_129",
+    "original": "Whatever burdens I must carry, I will. And I\u0027ll become stronger for it, just you watch!",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_KINGMI110_05373_ERENVILLE_000_130",
+    "original": "I won\u0027t just vanish over the horizon, I promise. I\u0027ll let you know before I leave on my journey.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_KINGMI110_05373_GULOOLJA_000_135",
+    "original": "I\u0027ll visit Shale and everyone as often as I can! There\u0027s still so much I want to learn from them.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_KINGMI110_05373_KOANA_000_140",
+    "original": "I intend to make a formal diplomatic visit to Alexandria in the near future, and express my gratitude to those who have watched over Gulool Ja.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_KINGMI110_05373_KRILE_000_145",
+    "original": "We\u0027ve observed no complications with the memory restoration thus far. Thank goodness for small mercies...",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_KINGMI110_05373_GRAHATIA_000_150",
+    "original": "I hear Gulool Ja has packed his bags and left to train in Tuliyollal. ...Oh, I suppose you would have seen him while you were there?",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_KINGMI110_05373_ALPHINAUD_000_155",
+    "original": "I\u0027ll need to give a full account of what happened here to Thancred and the others. That said, Estinien may prove difficult to track down...",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_KINGMI110_05373_ALISAIE_000_160",
+    "original": "When did Erenville leave Alexandria? Don\u0027t tell me he\u0027s embarked on some far-flung expedition without saying good-bye.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_KINGMI110_05373_YSHTOLA_000_165",
+    "original": "You\u0027ve had a busy time of it, Warrior of Light. Take advantage of this lull while you may.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_KINGMI110_05373_SHALE_000_170",
+    "original": "There are still those who can\u0027t decide if they want their memories back.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_KINGMI110_05373_SHALE_000_171",
+    "original": "I said I would restore mine after things calmed down, but the truth is, I\u0027m not sure \u003Chex:021A020203\u003EI\u0027m\u003Chex:021A020103\u003E even ready. So, we\u0027ll make this a gradual process, and give everyone the time they need to prepare. Myself included.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_KINGMI110_05373_ORIGINALSPHENE_000_180",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, you\u0027re here!",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_KINGMI110_05373_ORIGINALSPHENE_000_181",
+    "original": "We were just discussing what is to be done after the coronation ceremony. Our heretofore isolated kingdom must join its peers on the world stage.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_KINGMI110_05373_ALPHINAUD_000_182",
+    "original": "The fact that Alexandria is\u2500or was\u2500a nation of the Ninth will be the cause of some consternation... It may smooth introductions were the Scions to provide an explanation for its arrival in the Source.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_KINGMI110_05373_ALISAIE_000_183",
+    "original": "Rest assured, Sphene\u2500Etheirys\u0027s leaders are well accustomed to hearing Alphinaud report on fantastical events.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_KINGMI110_05373_ORIGINALSPHENE_000_184",
+    "original": "Once again, I am in your debt... I dread to imagine what might have come to pass had you never come to our aid.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_KINGMI110_05373_ORIGINALSPHENE_000_185",
+    "original": "Ah, I had other news: those who participated in the memory restoration have expressed the desire to hold a funerary service.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_KINGMI110_05373_ORIGINALSPHENE_000_186",
+    "original": "Rather than suppress their grief, they would embrace it, creating in their hearts a place for gentle remembrance.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_KINGMI110_05373_ORIGINALSPHENE_000_187",
+    "original": "We have yet to hammer out the details, but I was thinking we might host this service on the highest level of Everkeep. Ever since my time, we have believed that the departed continue their journey beyond the clouds...",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_KINGMI110_05373_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_KINGMI110_05373_A2_000_001",
+    "original": "That\u0027s a lovely idea.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_KINGMI110_05373_A2_000_002",
+    "original": "Seems very fitting for Alexandria.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_KINGMI110_05373_A2_000_003",
+    "original": "You\u0027ll invite our friends from Tuliyollal, won\u0027t you?",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_KINGMI110_05373_ORIGINALSPHENE_000_189",
+    "original": "I\u0027m glad you agree! Some have yet to receive their requested memories, however, so we shall wait until the initial wave of restorations is complete before proceeding.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_KINGMI110_05373_ORIGINALSPHENE_000_190",
+    "original": "Yes... I hope that from such a place, our prayers might be heard\u2500a wish for our loved ones to soar forever joyful and free in that heavenly expanse.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_KINGMI110_05373_ORIGINALSPHENE_000_191",
+    "original": "Yes, of course... I know of Zoraal Ja only by name, but they will wish to mourn their kin. I shall be sure to ask them.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_KINGMI110_05373_GRAHATIA_000_192",
+    "original": "After so long distancing themselves from the realities of death, the Alexandrians are to be commended for their courage.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_KINGMI110_05373_KRILE_000_193",
+    "original": "Yes, \u0027tis a tremendously brave thing they\u0027re doing.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_KINGMI110_05373_ORIGINALSPHENE_000_194",
+    "original": "Perhaps our hearts can never capture a memory as perfectly as data in a file...",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_KINGMI110_05373_ORIGINALSPHENE_000_195",
+    "original": "But what precious recollections we do keep will guide and sustain us as we fulfill the promise of tomorrow.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_KINGMI110_05373_SHALE_000_196",
+    "original": "You\u0027ve busy days ahead of you, Your Majesty. Oblivion stands ready to pitch in as needed.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_KINGMI110_05373_YSHTOLA_000_197",
+    "original": "Oh, and what of my investigations, Shale? I hope you\u0027ve left some time in your schedule for me.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_KINGMI110_05373_ORIGINALSPHENE_000_198",
+    "original": "Do you recall my first tour of the city after I awoke? It was all so strange and frightening, but I\u0027ve only grown more at home here ever since.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_KINGMI110_05373_ORIGINALSPHENE_000_199",
+    "original": "That I now feel a part of this new Alexandria is in large part thanks to your patient guidance.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_KINGMI110_05373_ORIGINALSPHENE_000_200",
+    "original": "And so here I will remain. Should you ever have need of my aid with anything at all, pray do not hesitate to ask.",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_KINGMI110_05373_KRILE_000_201",
+    "original": "Some few of us will stay here a while, as it happens. We\u0027ve made several interesting breakthroughs, and have no shortage of mysteries into which we would delve.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_KINGMI110_05373_ORIGINALSPHENE_000_202",
+    "original": "Then be welcome as honored guests for as long as you like. You are, and always will be, my cherished comrades.",
+    "translation": ""
+  }
+}

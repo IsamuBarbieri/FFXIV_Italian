@@ -1,0 +1,702 @@
+{
+  "0": {
+    "tag": "TEXT_AKTKME107_04425_SEQ_00",
+    "original": "Emet-Selch appears to be deep in thought.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_AKTKME107_04425_SEQ_01",
+    "original": "On account of his conversance with the celestial, Emet-Selch believes that Hermes would be a welcome addition to the Convocation\u2500assuming he is inclined to join. For now, you settle in for more observation as the chief overseer of Elpis goes about his work.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_AKTKME107_04425_SEQ_02",
+    "original": "Having inspected the ampelos to his satisfaction, Hermes will next look in on a creature that is reportedly having problems\u2500the charybdis. To that end, you make your way to the northern edge of Philomythes Notos.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_AKTKME107_04425_SEQ_03",
+    "original": "You learn that a third-generation charybdis is unable to fly due to its aetheric balance leaning strongly towards water. Though the observer in charge wishes to revert the specimen and its kind, having deemed them a lost cause, Hermes is loath to give up on them, and offers to transform in order to guide the creature skyward. The proposal is met with shock and dismay, for transforming in public is considered vainglorious and unseemly. While Hermes seems willing to bear the shame if it means saving the creatures, Emet-Selch is not wholly convinced. It is then that Hythlodaeus conceives of a solution. For this, he sends Emet-Selch off with the charybdis, while you and the others remain to assist him with the necessary preparations.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_AKTKME107_04425_SEQ_04",
+    "original": "Wearing a conspiratorial grin, Hythlodaeus reveals to you his grand plan: having Emet-Selch assist the charybdis. For your part, you are tasked with going to the man and making the initial plea. With the chat mode in \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESay\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E, say \u201CI have a favor to ask\u201D to indicate to Emet-Selch that you have a request.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_AKTKME107_04425_SEQ_05",
+    "original": "As you had been warned, Emet-Selch is disinclined to cooperate, but persistence is the key. With the chat mode in \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESay\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E, say \u201CPlease, Emet-Selch\u201D to batter the man\u0027s bulwark of petulant defiance.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_AKTKME107_04425_SEQ_06",
+    "original": "Beneath the combined weight of your incessant nagging, Emet-Selch finally caves and agrees to assist the charybdis. As he tends to the creature, you enjoy a quiet conversation with Hythlodaeus, who speaks of Emet-Selch and their mutual friend with great fondness and admiration. The tale draws to a close just as the charybdis appears to find its wings, and Hythlodaeus bids you signal to Emet-Selch that he may return to the ground. A simple /wave should do the trick.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_AKTKME107_04425_SEQ_07",
+    "original": "While the observer is impressed that the charybdis can in fact fly, he remains of the opinion that it would be better to simply have their concept adjusted. Hermes, however, is adamant that they continue to be given a chance to prove themselves a worthy addition to the star, and his underling acquiesces before taking his leave. With that, Hermes declares all his present tasks complete, and you set off together back to Anagnorisis.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_AKTKME107_04425_SEQ_08",
+    "original": "In observing Hermes performing his duties, you have gained some insight into the workings of Elpis, but thus far have uncovered no clear connection to the Final Days. For the sake of the star and all you hold dear, you must keep searching for clues.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_AKTKME107_04425_TODO_00",
+    "original": "Speak with Hermes.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_AKTKME107_04425_TODO_01",
+    "original": "Speak with Hermes again.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_AKTKME107_04425_TODO_02",
+    "original": "Speak with Hythlodaeus.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_AKTKME107_04425_TODO_03",
+    "original": "With the chat mode in \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESay\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E, enter \u201CI have a favor to ask\u201D to Emet-Selch.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_AKTKME107_04425_TODO_04",
+    "original": "With the chat mode in \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESay\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E, enter \u201CPlease, Emet-Selch\u201D to Emet-Selch.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_AKTKME107_04425_TODO_05",
+    "original": "/wave to Emet-Selch from the edge of the isle.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_AKTKME107_04425_TODO_06",
+    "original": "Speak with Emet-Selch.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_AKTKME107_04425_HYTHLODAEUS_000_000",
+    "original": "Never before had I heard of dynamis or entelechies. I can only assume the Elpis flower was submitted to the bureau before I joined.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_AKTKME107_04425_METEION_000_005",
+    "original": "Entelechy or no, we\u0027re friends! In thinness!",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_010",
+    "original": "All appears to be well. This shouldn\u0027t take long.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_020",
+    "original": "Not that I or anyone else would be able to make use of it even if we knew...",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_021",
+    "original": "But it irks me to discover that there is an entirely different form of energy\u2500and \u003Chex:021A020203\u003Eno one told me\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_022",
+    "original": "That personal annoyance aside, Hermes\u0027s knowledge is undeniably impressive. Given that there are none among the Fourteen who specialize in the celestial, he would be a welcome addition.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_023",
+    "original": "Assuming he can be persuaded to join, that is. I still can\u0027t understand his hesitation...",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_AKTKME107_04425_Q1_000_024",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_AKTKME107_04425_A1_000_025",
+    "original": "Why did you join the Convocation?",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_AKTKME107_04425_A1_000_026",
+    "original": "What do you specialize in?",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_AKTKME107_04425_HYTHLODAEUS_000_027",
+    "original": "Oho, you wish to know why Emet-Selch was chosen for the Convocation? I should be glad to share the tale!",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_AKTKME107_04425_HYTHLODAEUS_000_028",
+    "original": "Ahem. It began when...",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_029",
+    "original": "Not. Another. Word.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_030",
+    "original": "Lest you\u0027ve forgotten, we\u0027re to learn about Hermes. Not me. My misspent youth is not your concern.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_AKTKME107_04425_HYTHLODAEUS_000_040",
+    "original": "(I\u0027ll tell you the tale when we\u0027re away from sensitive ears.)",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_045",
+    "original": "\u003Csigh\u003E What now?",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_AKTKME107_04425_Q2_000_046",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_AKTKME107_04425_A2_000_047",
+    "original": "I want to learn about the Convocation.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_AKTKME107_04425_A2_000_048",
+    "original": "Actually...never mind.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_049",
+    "original": "Hmmm... If you would accompany us, I suppose you should at least know that much.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_050",
+    "original": "The Convocation of Fourteen is a governing body that determines myriad policies. Our goal is to ensure that all is right in creation, that our star may know a brighter future.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_051",
+    "original": "As the name suggests, the council is comprised of fourteen offices, each of which is held by an individual chosen for their surpassing abilities.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_052",
+    "original": "Depending on the office, one is required to either be an authority in a certain field, or possess skills that would facilitate the performance of their stipulated duties.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_053",
+    "original": "The former category includes Mitron, specialist in aquatic life; Loghrif, specialist in terrestrial life and husbandry...",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_054",
+    "original": "Halmarut, specialist in fungal and plant life; Emmerololth, specialist in medicine and healing...",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_055",
+    "original": "And Lahabrea, specialist in creation magicks, who has brought forth phantom beings of the highest complexity.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_056",
+    "original": "As for the latter category, there is Altima, advocate of the arts; Igeyorhm, champion of enlightenment and rhetoric; Pashtarot, preserver of discipline and order...",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_057",
+    "original": "Emet-Selch, keeper of the aetherial realm\u2500or \u201CUnderworld\u201D in the vernacular; Fandaniel, pursuer of extant phenomena...",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_058",
+    "original": "And Azem, traveler of the world and counselor to the people.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_059",
+    "original": "...What? Should I be revealing such details to you? Don\u0027t be silly. Even children know this much, and you would do well to remember it all.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_060",
+    "original": "Then why did you bother me!? \u003Csigh\u003E Honestly, I\u0027m beginning to think you were created for the sole purpose of trying my patience...",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_070",
+    "original": "My apologies for the wait. I have inspected the ampelos to my satisfaction.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_071",
+    "original": "All is well with the creature, and I daresay it won\u0027t be long ere it is released unto the world.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_072",
+    "original": "Another creation, however, reportedly isn\u0027t faring so well\u2500the charybdis.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_073",
+    "original": "That is what we shall tend to next.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_074",
+    "original": "If you would follow me, my friends, we shall return to the main isle and head north.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_080",
+    "original": "A serpentine bird...or a winged snake?",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_AKTKME107_04425_HYTHLODAEUS_000_085",
+    "original": "There is a slight difference in aetheric balance between these charybdises.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_AKTKME107_04425_HYTHLODAEUS_000_086",
+    "original": "By this, it may be assumed that they aren\u0027t the original creations, but their offspring.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_AKTKME107_04425_METEION_000_090",
+    "original": "Why is this one blue and shiny...?",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_AKTKME107_04425_ANAGNORISISSTAFF04425_000_095",
+    "original": "Uwaaah! ...Oh, forgive me, I thought another member of the Convocation had come. This is turning out to be an eventful day...",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_100",
+    "original": "I understand there is a problem with one of the charybdis.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_AKTKME107_04425_ANAGNORISISSTAFF04425_000_101",
+    "original": "Yes, that\u0027s right.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_AKTKME107_04425_ANAGNORISISSTAFF04425_000_102",
+    "original": "As you know, the charybdis is based on a sea creature. Owing to adjustments to enhance its affinity to wind, it is capable of flight.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_AKTKME107_04425_ANAGNORISISSTAFF04425_000_103",
+    "original": "The specimens created from the concept could all fly without issue, but a problem arose in subsequent generations.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_AKTKME107_04425_ANAGNORISISSTAFF04425_000_104",
+    "original": "This third-generation creature was born with an aetheric balance leaning strongly towards water. Its aquatic origin reasserting itself, it would seem...",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_AKTKME107_04425_ANAGNORISISSTAFF04425_000_105",
+    "original": "The result being its affinity to wind is diminished, and it cannot fly. No matter what we try, we can\u0027t get it to rise even the slightest bit.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_AKTKME107_04425_ANAGNORISISSTAFF04425_000_106",
+    "original": "For such change to manifest in so few generations... I fear they are too unstable. Flawed.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_AKTKME107_04425_ANAGNORISISSTAFF04425_000_107",
+    "original": "With your permission, I will revert the creatures, and recommend to the bureau that the concept be revised.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_108",
+    "original": "...With its aetheric balance leaning towards water, the charybdis would indeed struggle to manipulate wind.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_109",
+    "original": "Yet it is too early to conclude that it cannot fly. Having failed at first, it may simply have developed a fear.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_110",
+    "original": "I shall transform and fly with it, helping it to manipulate wind until it finds its wings.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_AKTKME107_04425_ANAGNORISISSTAFF04425_000_111",
+    "original": "What!? Y-You needn\u0027t go to such lengths...",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_112",
+    "original": "You don\u0027t know? \u003Csigh\u003E But of course not...",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_113",
+    "original": "Transformation is an art in which one manipulates a vast quantity of aether to construct another body around oneself.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_114",
+    "original": "In practice, this allows one to assume any conceivable form, and thereby transcend the limits of one\u0027s flesh.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_115",
+    "original": "Yet convenient though it may be, transforming in the presence of others is considered vainglorious in the extreme. As uncouth and unseemly as running about robeless. Shameful.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_116",
+    "original": "Am I to understand you make a habit of this?",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_117",
+    "original": "N-Nothing of the sort. It\u0027s just that, when transformed, I can wield the wind and fly.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_118",
+    "original": "It may seem excessive, but what is our shame next to the lives of these creatures?",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_119",
+    "original": "They deserve a chance, and we owe it to them to do all in our power!",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_120",
+    "original": "Be that as it may...",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_AKTKME107_04425_HYTHLODAEUS_000_121",
+    "original": "Hmmm...",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_AKTKME107_04425_HYTHLODAEUS_000_122",
+    "original": "Yes, I believe I have a solution. Emet-Selch\u2500may I trouble you to move that charybdis away from its fellows? Somewhere out of sight.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_AKTKME107_04425_HYTHLODAEUS_000_123",
+    "original": "Meanwhile, I\u0027d like the rest of you to help me prepare here.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_124",
+    "original": "What mischief are you scheming now?",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_AKTKME107_04425_HYTHLODAEUS_000_125",
+    "original": "No mischief, I assure you. I would but spare you the need to report to your colleagues that Hermes committed an indiscretion.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_AKTKME107_04425_HYTHLODAEUS_000_126",
+    "original": "So have a little faith, and run along.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_127",
+    "original": "I trust you don\u0027t mind?",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_130",
+    "original": "Well? Are your preparations for the scheme that is clearly not a scheme complete?",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_135",
+    "original": "Hythlodaeus is a man of ideas. I wonder what he has thought up this time...",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_AKTKME107_04425_METEION_000_140",
+    "original": "We must help the charybdis to fly. Or else they will all die!",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_AKTKME107_04425_ANAGNORISISSTAFF04425_000_145",
+    "original": "Such bother when we could simply begin anew... But I shall defer to the chief overseer.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_AKTKME107_04425_HYTHLODAEUS_000_150",
+    "original": "Emet-Selch is out of sight? Good. Let\u0027s speak of the plan.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_AKTKME107_04425_HYTHLODAEUS_000_151",
+    "original": "It\u0027s a stroke of genius, really: we have Emet-Selch train the charybdis!",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_AKTKME107_04425_HYTHLODAEUS_000_152",
+    "original": "Aside from being able to fly untransformed, he can readily see aether currents.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_AKTKME107_04425_HYTHLODAEUS_000_153",
+    "original": "And with his adept spellcraft, he can also employ suitable wind magicks to guide the creature along.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_154",
+    "original": "While he is indeed capable of all you described, it is not his duty. I am loath to trouble him with it.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_AKTKME107_04425_HYTHLODAEUS_000_155",
+    "original": "Don\u0027t be! As I mentioned, it would also be for his own sake. With that settled, let\u0027s begin at once!",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_AKTKME107_04425_HYTHLODAEUS_000_156",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u2500I want you to go to Emet-Selch. Tell him that you have a favor to ask.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_AKTKME107_04425_HYTHLODAEUS_000_157",
+    "original": "He will be disinclined to cooperate at first, but you mustn\u0027t be discouraged. With our friend, the trick is to be unflaggingly persistent.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_AKTKME107_04425_HYTHLODAEUS_000_158",
+    "original": "Off you go, now, and good luck!",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_AKTKME107_04425_SYSTEM_000_159",
+    "original": "With the chat mode in \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESay\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E, use your keyboard or the software keyboard to enter any phrase containing the words \u201CI have a favor to ask\u201D to indicate to Emet-Selch that you have a request.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_AKTKME107_04425_HYTHLODAEUS_000_170",
+    "original": "The rest of us will be right behind you. We wouldn\u0027t think to miss the fun!",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_175",
+    "original": "With apologies to Emet-Selch, but this may be the best approach. Let us work together to win him over! ",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_AKTKME107_04425_METEION_000_180",
+    "original": "I\u0027ll persist too!",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_AKTKME107_04425_ANAGNORISISSTAFF04425_000_185",
+    "original": "M-Me...? Uh...perhaps it\u0027s best if I watched from afar...",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_AKTKME107_04425_SAYTODO_000_190",
+    "original": "I have a favor to ask",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_195",
+    "original": "Well? Are your preparations for the scheme that is clearly not a scheme complete?",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_AKTKME107_04425_SYSTEM_000_196",
+    "original": "With the chat mode in \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESay\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E, use your keyboard or the software keyboard to enter any phrase containing the words \u201CI have a favor to ask\u201D to indicate to Emet-Selch that you have a request.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_200",
+    "original": "Oh no you don\u0027t! I\u0027m not lifting a finger!",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_201",
+    "original": "Ugh. I don\u0027t know what Hythlodaeus is up to, and I will \u003Chex:021A020203\u003Enot\u003Chex:021A020103\u003E be made to know. I refuse!",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_AKTKME107_04425_SYSTEM_000_202",
+    "original": "If Hythlodaeus is to be believed, relentless insistence may serve to wear down the ever-weary Emet-Selch...",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_AKTKME107_04425_SYSTEM_000_203",
+    "original": "With the chat mode in \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESay\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E, use your keyboard or the software keyboard to enter any phrase containing the words \u201CPlease, Emet-Selch\u201D to plead with Emet-Selch.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_AKTKME107_04425_SAYTODO_000_210",
+    "original": "Please, Emet-Selch",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_215",
+    "original": "You may tell Hythlodaeus he can contrive another brilliant solution\u2500one that doesn\u0027t involve me!",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_AKTKME107_04425_SYSTEM_000_216",
+    "original": "With the chat mode in \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESay\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E, use your keyboard or the software keyboard to enter any phrase containing the words \u201CPlease, Emet-Selch\u201D to plead with Emet-Selch.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_AKTKME107_04425_HYTHLODAEUS_000_220",
+    "original": "If I didn\u0027t know better, I\u0027d say Emet-Selch is enjoying himself. Not that he\u0027d ever deign to admit it.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_225",
+    "original": "It\u0027s flying... It\u0027s really flying, as if it were born to do so... Thank goodness...",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_AKTKME107_04425_METEION_000_230",
+    "original": "Look, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Look how well the charybdis flies!",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_AKTKME107_04425_SYSTEM_000_240",
+    "original": "The charybdis appears to be the subject of Emet-Selch\u0027s undivided attention. You may need to \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Ewave\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E rather forcefully in his general direction to remind him that you and the others exist.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_AKTKME107_04425_SYSTEM_000_245",
+    "original": "Emerging from his reverie, Emet-Selch notices you, and begins to descend with the charybdis...",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_246",
+    "original": "I have no words to express my gratitude. Thanks to you, the charybdis has learned to fly.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_AKTKME107_04425_HYTHLODAEUS_000_247",
+    "original": "And \u003Chex:022C0DFF07022903EB0203FF02200203\u003E and I could relax and have a pleasant chat.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_248",
+    "original": "I\u0027m sure you did.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_249",
+    "original": "The creature needed some small assistance at first, but soon it was flying more or less on its own. I doubt you will need to repeat the lesson.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_AKTKME107_04425_ANAGNORISISSTAFF04425_000_250",
+    "original": "That was truly impressive!",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_AKTKME107_04425_ANAGNORISISSTAFF04425_000_251",
+    "original": "I witnessed it all from afar\u2500the charybdis flies!",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_252",
+    "original": "Indeed. With this, we\u0027ve proven that even a creature with skewed aetheric balance is capable of flight.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_253",
+    "original": "Though we helped it to achieve this, the charybdis is a herd animal. They may well aid their struggling kin in like fashion if and when the need arises.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_254",
+    "original": "Keeping this in mind, I bid you continue observing them.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_AKTKME107_04425_ANAGNORISISSTAFF04425_000_255",
+    "original": "If that is what you want...",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_AKTKME107_04425_ANAGNORISISSTAFF04425_000_256",
+    "original": "But if I may say so, rather than hoping an idealistic possibility comes to pass, would it not be simpler to have the concept adjusted? That way, we could guarantee that anomalies such as this specimen are never born in the first place.",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_257",
+    "original": "These creatures are already here. We will spare no effort in giving them a chance to survive.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_AKTKME107_04425_ANAGNORISISSTAFF04425_000_258",
+    "original": "As you wish, Chief. As you wish.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_AKTKME107_04425_METEION_000_259",
+    "original": "Hermes...",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_260",
+    "original": "I\u0027m fine. Don\u0027t worry.",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_261",
+    "original": "Well, that concludes all of my present tasks.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_262",
+    "original": "Let us return to Anagnorisis for now.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_AKTKME107_04425_HYTHLODAEUS_000_270",
+    "original": "I thoroughly enjoyed myself\u2500at the end most of all!",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_AKTKME107_04425_HERMES_000_275",
+    "original": "Now you\u0027ve seen what I do. Was it everything you were expecting...?",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_AKTKME107_04425_METEION_000_280",
+    "original": "All the creations are happy. That makes me happy too!",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_290",
+    "original": "...What? Want to apologize for forcing me to help, do you?",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_AKTKME107_04425_EMETSELCH_000_291",
+    "original": "Save your breath. You didn\u0027t force me to do anything\u2500I merely chose the most expeditious way to have done with an impediment to our business.",
+    "translation": ""
+  }
+}

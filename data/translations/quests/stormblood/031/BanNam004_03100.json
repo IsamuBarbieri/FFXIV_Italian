@@ -1,0 +1,612 @@
+{
+  "0": {
+    "tag": "TEXT_BANNAM004_03100_SEQ_00",
+    "original": "Gyoshin is so eager to speak with you that he can no longer contain himself, and is now rocking back and forth with anticipation.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_BANNAM004_03100_SEQ_01",
+    "original": "Gyoshin is on the point of relaying another dire warning imparted by his ancestor when Seigetsu the Enlightened, having detected a familiar pattern, interjects to hasten matters along. He recommends that Gyoshin look into the Xaela\u0027s traditions, which may have been influenced by those of the Namazu long ago, for clues as to what vital element might be missing from the festival. Gyoshin, however, refuses to go without your protection, lest the Xaela get any ideas about their evening meal.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_BANNAM004_03100_SEQ_02",
+    "original": "You and Gyoshin speak to Cirina. She is more than willing to share information regarding her tribe\u0027s horse-racing customs with you, though the growling of her stomach is somewhat distracting. Perhaps sensing the intent behind her hungry stare, Gyoshin thanks her and asks that you set off for your next destination, the Dawn Throne, immediately.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_BANNAM004_03100_SEQ_03",
+    "original": "You speak with Magnai, who gives a brief overview of the Oronir\u0027s Azim B\u00F6kh wrestling competitions. In his usual contemptuous tone, he adds that a Namazu would likely make a poor opponent, but Gyoshin seems undeterred\u2500if somewhat miffed at being deemed \u201Cmalformed.\u201D",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_BANNAM004_03100_SEQ_04",
+    "original": "Your final stop is Dotharl Khaa, where Sadu\u2500apparently laboring under the delusion that Gyoshin is some sort of small and round khun chuluu\u2500speaks of the Dotharl\u0027s customary archery contests. Satisfied with the information you have gained, Gyoshin proposes you return to Dhoro Iloh to apply your newfound knowledge.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_BANNAM004_03100_SEQ_05",
+    "original": "Based on what the Xaela said of their own traditions, the Namazu conclude that a proper festival must include fins-on activities for attendees. Without sparing a thought for such seemingly vital questions as, \u201CIs it possible to pull a bow without getting one\u0027s whiskers tangled in the string?\u201D and \u201CAre horses not a bit high off the ground?\u201D the Namazu decide to copy the three Xaela tribes\u0027 competitions wholesale. You have been tasked with preparing for the archery contest together with Gyoshin.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_BANNAM004_03100_SEQ_06",
+    "original": "Once all materials for the ceremonial bow and arrows are assembled, Gyoshin excitedly reveals what he has been working on in the meantime\u2500a target. Unfortunately, said target cannot stand on its own, so Gyoshin is volunteered to hold it. You will be in charge of aiming accurately enough not to impale him.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_BANNAM004_03100_SEQ_07",
+    "original": "Accepting the bow and arrows from Gyorei, you take aim at the target, and fortunately manage not to cause anyone permanent injury.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_BANNAM004_03100_SEQ_08",
+    "original": "The successful archery demonstration gives heart to the festival participants, and in no time at all, the archery, Azim B\u00F6kh, and equestrian competitions are open to the public. With several Xaela now on-site, the festival grounds are poised to become a venue for cultural exchange.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_BANNAM004_03100_TODO_00",
+    "original": "Speak with Cirina.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_BANNAM004_03100_TODO_01",
+    "original": "Speak with Magnai.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_BANNAM004_03100_TODO_02",
+    "original": "Speak with Sadu.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_BANNAM004_03100_TODO_03",
+    "original": "Report to Gyorei.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_BANNAM004_03100_TODO_04",
+    "original": "\u003Chex:0208F203E6E4E8050AFF4A020846E3E802E803FF1B53796E74686573697A652002310CFF054974656D02E806020203FF2344656C697665722002310CFF054974656D03E80602020320746F2047796F7368696E03FFF203930208F2038DE4E8050BFF4A020846E3E802E803FF1B53796E74686573697A652002310CFF054974656D02E806020203FF2344656C697665722002310CFF054974656D03E80602020320746F2047796F7368696E03FFF2033A0208F20334E4E8050CFF4A020846E3E802E803FF1B53796E74686573697A652002310CFF054974656D02E806020203FF2344656C697665722002310CFF054974656D03E80602020320746F2047796F7368696E03FFF202E10208F202DBE4E80509FF4A020846E3E802E803FF1B53796E74686573697A652002310CFF054974656D02E806020203FF2344656C697665722002310CFF054974656D03E80602020320746F2047796F7368696E03FFF202880208F20282E4E8050DFF4A020846E3E802E803FF1B53796E74686573697A652002310CFF054974656D02E806020203FF2344656C697665722002310CFF054974656D03E80602020320746F2047796F7368696E03FFF2022F0208F20229E4E8050EFF4A020846E3E802E803FF1B53796E74686573697A652002310CFF054974656D02E806020203FF2344656C697665722002310CFF054974656D03E80602020320746F2047796F7368696E03FFF201D60208F201D0E4E8050FFF4A020846E3E802E803FF1B53796E74686573697A652002310CFF054974656D02E806020203FF2344656C697665722002310CFF054974656D03E80602020320746F2047796F7368696E03FFF2017D0208F20177E4E80510FF4A020846E3E802E803FF1B53796E74686573697A652002310CFF054974656D02E806020203FF2344656C697665722002310CFF054974656D03E80602020320746F2047796F7368696E03FFF201240208F2011EE4E80511FF55020851E3E802E803FF264D696E652002310CFF054974656D04E80602020320736F757468206F66205265756E696F6EFF2344656C697665722002310CFF054974656D03E80602020320746F2047796F7368696E03FFC30208BFE4E80512FF57020853E3E802E803FF284761746865722002310CFF054974656D02E80602020320736F757468206F66205265756E696F6EFF2344656C697665722002310CFF054974656D03E80602020320746F2047796F7368696E03FF6102085DE4E80513FF55020851E3E802E803FF2643617463682002310CFF054974656D02E80602020320617420446F746861726C204B686161FF2344656C697665722002310CFF054974656D03E80602020320746F2047796F7368696E03FF010303030303030303030303\u003E.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_BANNAM004_03100_TODO_05",
+    "original": "Speak with Gyorei.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_BANNAM004_03100_TODO_06",
+    "original": "Speak with Gyoshin.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_001",
+    "original": "\u003Cgasp\u003E \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Once more I would consult you on festival matters. Issues of dire import! Stay right there.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_002",
+    "original": "The parade was most delightful! So fun it was almost scary, yes, yes.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_003",
+    "original": "I paraded with such enthusiasm that I eventually lost all sense of time, all awareness of night and day...and when I came to, I was unconscious!",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_BANNAM004_03100_GYOREI_000_004",
+    "original": "...I do not think that is how that works. No, no.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_005",
+    "original": "Just imagine my shock when I saw my greatest grandsire before me once again! That is when I realized that I was asleep, dreaming.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_006",
+    "original": "And now we must endure several sentences\u0027 worth of warnings regarding the inevitable annihilation of the Namazu, correct? Entirely lacking in plot development, each iteration of this story is no different from the last. Were this a work of fiction, I would hurl it into the nearest river!",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_007",
+    "original": "However, never shall it be claimed that Seigetsu the Enlightened lacks foresight. Having observed these events repeat themselves once, I naturally prepared for another instance.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_008",
+    "original": "Now, festivals are culture made manifest, and, as posited in \u003Chex:021A020203\u003EThe Rise and Fall of Civilization: Volume VI\u003Chex:021A020103\u003E, culture spreads.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_009",
+    "original": "Cultural knowledge is disseminated via migration and commerce, and that knowledge takes root as new elements in foreign cultures.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_010",
+    "original": "I see you moving to interject, Gyoshin! Close your gaping maw for a few more moments, and yes, I shall condense my conclusion to three sentences or fewer.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_011",
+    "original": "Our forebears\u0027 festival took place here many hundreds of years ago.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_BANNAM004_03100_KOFUINSEIGETSU_100_011",
+    "original": "Contemporary nomads doubtless witnessed said event.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_BANNAM004_03100_KOFUINSEIGETSU_110_011",
+    "original": "They must have incorporated knowledge of it into their own cultures!",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_012",
+    "original": "Go forth, Gyoshin! Pay visit to the Xaela and learn what traditions they keep, and you may well return with a wealth of ideas as to what our own festival lacks.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_013",
+    "original": "Is it me, or is his enthusiasm a bit much? Anyway, I would very much like to call upon the Xaela, but there is the issue of being skewered, of being steamed in a buuz. Though considerably less so if you accompany me. Yes, yes?",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_014",
+    "original": "Let us start with the least likely to skewer. Introduce me to the most friendly among the Mol, and I will inquire about their traditions.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_BANNAM004_03100_GYOREI_000_015",
+    "original": "This festival is shaping up to be quite the abomina\u2500I mean, amalgam of traditions. Yes, yes.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_025",
+    "original": "I feel quite awkward, most nervous under this lady\u0027s rapt gaze. Could it be...love?",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_BANNAM004_03100_TEMULUN_000_026",
+    "original": "It is good to see Dhoro Iloh put to use with such enthusiasm.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_BANNAM004_03100_CIRINA_000_030",
+    "original": "(Mmm, catfish buuz... I can nearly taste it...)",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_BANNAM004_03100_CIRINA_100_030",
+    "original": "Oh, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! What can I do for you?",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_BANNAM004_03100_CIRINA_000_031",
+    "original": "Is that so? I would be glad to speak with you about our festival traditions, if you believe such knowledge might be of use to you.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_BANNAM004_03100_CIRINA_000_032",
+    "original": "In our tribe, children of a certain age participate in a ceremonial race through the grasslands on horseback.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_BANNAM004_03100_CIRINA_000_033",
+    "original": "For a nomadic people such as ourselves, horses are not only vital to our mobility and livelihood, they are like family. We tend to these dear companions with the utmost care.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_BANNAM004_03100_CIRINA_000_034",
+    "original": "The speed of these horses, and the skill of the Mol children who guide them\u2500these are what we offer the gods. How we show our gratitude for the richness of the land we are so blessed to live upon.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_035",
+    "original": "I would never have expected a festival to take the form of a horse race. No, no. But it is most intriguing. Thank you for your insight!",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_036",
+    "original": "You are also acquainted with the Oronir, yes, yes? To the Dawn Throne!",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_BANNAM004_03100_CIRINA_000_040",
+    "original": "Such a delicious-looking fellow. Are they all so plump?",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_045",
+    "original": "I feel rather unsettled, quite put off by this towering man\u0027s gaze. I hope he ate recently.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_BANNAM004_03100_MAGNAI_000_050",
+    "original": "Come to pay me your respects, have you? I hope you are not so foolish as to have brought that bloated creature as a gift.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_BANNAM004_03100_MAGNAI_000_051",
+    "original": "You believe that \u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E can be of service to \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E?",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_BANNAM004_03100_MAGNAI_000_052",
+    "original": "...I suppose I can spare a few moments to enlighten you, though I do not expect you to comprehend the splendor and significance of Oroniri tradition.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_BANNAM004_03100_MAGNAI_000_053",
+    "original": "The Oronir\u0027s most sacred custom is a tournament in which we determine who among us is the most\u2500and least\u2500worthy to lead. It is a contest which pits brother against brother in the traditional art of Azim B\u00F6kh. In this way, we demonstrate our strength to the tribe and to Father Azim.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_BANNAM004_03100_MAGNAI_000_054",
+    "original": "Were the opportunity to arise, khagan, I expect you would conduct yourself well in the tournament. The malformed fishman, however, would be put flat on his back in the space of a breath.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_055",
+    "original": "Why, I never! That sort of conduct will win you no friends. Nor bring you any luck with the ladies, no, no! Still, I suppose you did divulge a tradition of some interest, so I am grateful to you. A little. Not really.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_056",
+    "original": "I would like to speak to the Dotharl before we return. It goes without saying that you must be there to prevent any untoward consumption of my flesh. Yes, yes.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_BANNAM004_03100_MAGNAI_100_060",
+    "original": "...\u201CLuck with the ladies\u201D? Pah. What does a fishman know of such matters? Nothing! Nothing at all!",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_BANNAM004_03100_MAGNAI_000_060",
+    "original": "...\u201CLuck with the ladies\u201D? Pah. What does a fishman know of such matters? Nothing! Nothing at all!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_065",
+    "original": "I feel quite alarmed, rather terrified by this lady\u0027s piercing gaze. I sense skewerous intent!",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_BANNAM004_03100_SADU_000_070",
+    "original": "You. Is this khun chuluu yours? Its vacant stare vexes me.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_BANNAM004_03100_SADU_000_071",
+    "original": "...I see. So they are the ones who claimed Dhoro Iloh for this...festival? And they seek knowledge of our traditions for this end? Very well. They are no threat, so there is no risk.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_BANNAM004_03100_SADU_000_072",
+    "original": "The Dotharl are warriors and hunters both. Those born into this world could not survive otherwise.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_BANNAM004_03100_SADU_000_073",
+    "original": "Thus do we use archery to demonstrate to the Dusk Mother that we are worthy of her legacy.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_BANNAM004_03100_SADU_000_074",
+    "original": "We loose arrows at distant targets in a contest of truest aim. That is our tradition, simple as it is.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_075",
+    "original": "A festival like a game? How interesting! This has been most illuminating, yes, yes.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_076",
+    "original": "I think that is enough mortal peril for one day. We have sufficient information to get started, so let us return to Dhoro Iloh.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_BANNAM004_03100_SADU_000_080",
+    "original": "The khagan holding court with a host of khun chuluu! Will wonders never cease?",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_090",
+    "original": "We made it! I am showing Gyorei my haleness. The intact state of my flesh.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_BANNAM004_03100_GYOREI_000_100",
+    "original": "I am pleased to see you whole, yes, yes. What did you learn?",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_101",
+    "original": "Many, many things! Between horse races, Azim B\u00F6kh, and archery, the Xaela\u0027s festivals are most competitive. Quite fierce.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_102",
+    "original": "Unsurprising, given the nature of the Naadam. Without structured competitions, I daresay the Xaela would struggle to contain their base aggressive instincts. Their savagery would doubtless drive them to extinction, be it through internal or external conflicts.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_103",
+    "original": "I should like to indulge in further anthropological research, but I suppose your findings are sufficient for us to proceed. In essence, it seems that successful festivals involve engaging activities. We will require many if we are to entertain all seven hundred seventy-seven participants.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_104",
+    "original": "Yes, yes! It will be quite an undertaking. A massive task, requiring division of labor. But if Gyorei handles horse racing, you host an Azim B\u00F6kh tournament, and myself and \u003Chex:022C0DFF07022903EB0203FF02200203\u003E arrange for archery, we will have three whole activities for our attendees to enjoy!",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_BANNAM004_03100_KOFUINSEIGETSU_100_104",
+    "original": "As you wish. Though I am loath to deprive you of my insight, I must work from the pavilion with full access to my research materials if I am to learn the rules of Azim B\u00F6kh in their entirety. I advise you all to think twice or thrice about any ideas you may have in my absence. Especially Gyoshin.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_105",
+    "original": "Rude. Anyway, you can craft a metal grip fit for a ceremonial bow, yes, yes? I have stuffed all the materials in the crate in advance. Open it with care.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_106",
+    "original": "Rude. Anyway, you can craft a limb decoration fit for a ceremonial bow, yes, yes? I have stuffed all the materials in the crate in advance. Open it with care.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_107",
+    "original": "Rude. Anyway, you can make varnish fit for a ceremonial bow, yes, yes? I have stuffed all the materials in the crate in advance. Open it with care.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_108",
+    "original": "Rude. Anyway, if you bring me some mondite from the deposits south of Reunion, I can craft the arrowheads. Perhaps even safely! Yes, yes.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_109",
+    "original": "Rude. Anyway, if you bring me a straight shoot from the vegetation south of Reunion, I can craft the arrows. Perhaps even safely! Yes, yes.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_110",
+    "original": "Rude. Anyway, if you can catch an arrowhead snail in Dotharl Khaa, I can craft the arrowheads. Perhaps even safely! Yes, yes. I recommend you attract one with salmon roe. Everyone loves salmon roe.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_111",
+    "original": "Simply turn what you have over to me when finished, and I will complete the project most swiftly. With promptness!",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_BANNAM004_03100_GYOREI_000_112",
+    "original": "Hm? The crate remains replete with supplies, if you are in need. Yes, yes... Pardon me, I am attempting to work out how a Namazu might ride a horse.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_BANNAM004_03100_GYOREI_100_112",
+    "original": "Hm? The crate remains replete with supplies, if you are in need. Yes, yes... Pardon me, I am attempting to work out how a Namazu might ride a horse.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_BANNAM004_03100_GYOREI_110_112",
+    "original": "Hm? The crate remains replete with supplies, if you are in need. Yes, yes... Pardon me, I am attempting to work out how a Namazu might ride a horse.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_BANNAM004_03100_GYOREI_200_112",
+    "original": "Hm? Please provide your materials to Gyoshin. Yes, yes... Pardon me, I am attempting to work out how a Namazu might ride a horse.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_BANNAM004_03100_GYOREI_210_112",
+    "original": "Hm? Please provide your materials to Gyoshin. Yes, yes... Pardon me, I am attempting to work out how a Namazu might ride a horse.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_BANNAM004_03100_GYOREI_220_112",
+    "original": "Hm? Please provide your materials to Gyoshin. Yes, yes... Pardon me, I am attempting to work out how a Namazu might ride a horse.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_BANNAM004_03100_SYSTEM_000_113",
+    "original": "The crate appears to be filled to the brim with sundry materials\u2500none of which you require at this time.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_BANNAM004_03100_SYSTEM_100_113",
+    "original": "The crate appears to be filled to the brim with sundry materials\u2500none of which you require at this time.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_BANNAM004_03100_SYSTEM_110_113",
+    "original": "The crate appears to be filled to the brim with sundry materials\u2500none of which you require at this time.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_BANNAM004_03100_SYSTEM_120_113",
+    "original": "The crate appears to be filled to the brim with sundry materials\u2500none of which you require at this time.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_BANNAM004_03100_SYSTEM_000_114",
+    "original": "You sift through the cornucopia of crafting materials and retrieve all you require for your work.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_BANNAM004_03100_SYSTEM_100_114",
+    "original": "You sift through the cornucopia of crafting materials and retrieve all you require for your work.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_BANNAM004_03100_SYSTEM_110_114",
+    "original": "You sift through the cornucopia of crafting materials and retrieve all you require for your work.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_BANNAM004_03100_GYOREI_120_114",
+    "original": "Maybe we could use some sort of adhesive to affix them to the saddle... Oh! Thank you for taking care of that. Gyoshin will handle the bow and arrow assembly.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_120",
+    "original": "Bows and arrows require more pieces than I expected. Yes, yes. I am pleased to have such a challenge!",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_121",
+    "original": "Thank you, thank you! I can craft a suitably ceremonial bow and arrows with this.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_122",
+    "original": "I also have something to show you. I constructed it while awaiting your return...",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_123",
+    "original": "A most sturdy yet intricate target at which to aim! You love it, yes, yes?",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_BANNAM004_03100_GYOREI_000_124",
+    "original": "Your craftsmanship is impressive as always. Yes, yes. But should it not stand up?",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_125",
+    "original": "...Oh. I suppose I was absorbed in the design and completely, utterly forgot to make a stand. Yes, yes.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_126",
+    "original": "Gyoshin, has it never occurred to you that your difficulties are of your own making? Honestly. It would be more efficient to employ \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E to hold the target.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_127",
+    "original": "I do not trust your motive for making that suggestion. No, no!",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_128",
+    "original": "I assure you, your concern is unfounded. We need but assign the infallible \u003Chex:022C0DFF07022903EB0203FF02200203\u003E the role of marks\u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E for you to emerge uninjured. Yes, yes, I daresay.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_129",
+    "original": "Assume your positions! \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, you may collect the ceremonial bow and arrows from Gyorei behind the pavilion.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_135",
+    "original": "You will take care not to hit me, yes, yes? Do you promise? Do you swear?",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_BANNAM004_03100_GYOREI_000_140",
+    "original": "This is the perfect cure for Gyoshin\u0027s carelessness. Yes, yes. He is most full of cares now.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_BANNAM004_03100_GYOREI_000_141",
+    "original": "Here are your ceremonial bow and arrows. Take aim at the target Gyoshin holds and fire away!",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_BANNAM004_03100_SYSTEM_000_142",
+    "original": "The archery event has begun! Take aim at Gyoshin\u0027s target, zoom in to avoid accidents, and fire with \u003Chex:020825E4E95101FF10024804F2022203EE81910248020103FF0E021E021003202F20021E02090303\u003E.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_143",
+    "original": "W-Wow! Your aim is dead-on! Impeccable! ...Can I leave now?",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_144",
+    "original": "This arrowhead is most...piercing. A sign of...quality craftsmanship...yes...\u003Cgurgle\u003E",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_BANNAM004_03100_GYOREI_000_145",
+    "original": "Again, again! I am confident that you will get the hang of it with another shot or two!",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_BANNAM004_03100_GYOREI_000_150",
+    "original": "I am proud of how you handled that bow. Yes, yes!",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_160",
+    "original": "Being on the business end of an arrow has never been an aspiration of mine. Not one of my goals in life. No, no.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_BANNAM004_03100_GYOSHIN_000_161",
+    "original": "Still, I am quite confident we are prepared to host archery contests like the frightening Dotharl lady described. Attendees will be delighted with the complete and total accuracy of our reproduction, yes, yes. Now let us see if the other two activities are ready!",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_BANNAM004_03100_SYSTEM_000_162",
+    "original": "Working side by side with the Namazu, you have successfully incorporated Xaela traditions into the festival. The horse racing, Azim B\u00F6kh, and archery competitions are now open to attendees!",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_BANNAM004_03100_SYSTEM_000_163",
+    "original": "In seven years, the Namazu were fated to become the primary source of sustenance for starving Xaela, who would face food shortages after a fierce cold snap. Many would have died.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_BANNAM004_03100_SYSTEM_000_164",
+    "original": "However, continuous practice of nomadic festival traditions over the course of seven years will promote mutual understanding between the Namazu and Xaela, averting the slaughter.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_BANNAM004_03100_SYSTEM_000_165",
+    "original": "Unbeknownst to all, the Namazu will be spared the grievous tragedy that could have consumed them, and their fate continues to change for the better.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_BANNAM004_03100_SYSTEM_000_166",
+    "original": "You have achieved \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EHonored\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E reputation with the Namazu.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_BANNAM004_03100_SYSTEM_000_167",
+    "original": "New Namazu society daily quests are now available from Seigetsu the Enlightened at Dhoro Iloh.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_BANNAM004_03100_SYSTEM_000_168",
+    "original": "Furthermore, you will be able to undertake three additional quests from Seigetsu the Enlightened as a reputation bonus. This bonus is available until the daily reset time for allied society quests.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_BANNAM004_03100_SYSTEM_000_169",
+    "original": "These additional quests will become available after accepting all current daily quests from Seigetsu the Enlightened. Please be advised that you cannot undertake these quests if you have no remaining allowances.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_BANNAM004_03100_SYSTEM_000_170",
+    "original": "You now have access to a wider selection of wares from Gyosho.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_BANNAM004_03100_SYSTEM_000_171",
+    "original": "Normal-quality items crafted in the course of this quest serve no purpose and cannot be sold. It is recommended that you discard them.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_BANNAM004_03100_SYSTEM_000_172",
+    "original": "Normal-quality items gathered in the course of this quest serve no purpose and cannot be sold. It is recommended that you discard them.",
+    "translation": ""
+  }
+}

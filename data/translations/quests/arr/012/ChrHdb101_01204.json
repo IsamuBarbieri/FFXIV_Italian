@@ -1,0 +1,427 @@
+{
+  "0": {
+    "tag": "TEXT_CHRHDB101_01204_SEQ_00",
+    "original": "An old acquaintance of Wymond is at wit\u0027s end, and the businessman would have you help her.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_CHRHDB101_01204_SEQ_01",
+    "original": "Nashu, former assistant of the late inspector Hildibrand, is investigating rumors regarding unusual zombie behavior. However, she has made little progress thus far, and so Wymond has asked you to seek her out and offer whatever assistance you can. Considering her recent frustrations, Wymond suspects that Nashu can be found praying at the grave of her mentor in Camp Drybone\u0027s lichyard.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_CHRHDB101_01204_SEQ_02",
+    "original": "After waiting five years for her mentor to return, Nashu was devastated by the revelation that Inspector Hildibrand did not survive his journey to Dalamud. She then swore to carry on his legacy as an inspector herself, but has struggled to live up to his example. Her current investigation into a horde of dapper zombies had reached a standstill; however, with your help, she believes she might finally locate the zombies\u0027 leader. Travel to southern Thanalan and attempt to befriend any dapper zombies you encounter, or\u2500failing that\u2500slay and search them for clues.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_CHRHDB101_01204_SEQ_03",
+    "original": "Your attempts to befriend the zombie populace met with dismal failure. However, your efforts were not for naught, as a curious parchment found in their possession appears to be a map of some sort. Return to the lichyard in eastern Thanalan and show the parchment to Nashu.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_CHRHDB101_01204_SEQ_04",
+    "original": "Nashu confirms your suspicions that the parchment is a map, though she is unable to determine the significance of the phrase, \u201CA gentleman is, rather than does.\u201D In any case, she bids you follow her to the Sagolii Desert in southern Thanalan, to the destination marked on the map.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_CHRHDB101_01204_SEQ_05",
+    "original": "Deducing that the phrase is a password, you call out to the dapper zombies, who surround you and Nashu with malicious intent. Fortunately, before you are forced to defend yourselves, a disheveled Inspector Hildibrand appears and commands his loyal minions to spare you and Nashu. The reunion between mentor and assistant nearly ends in tragedy, as Nashu resolves to restore Inspector Hildibrand\u0027s lost memories via liberal use of explosives. Inexplicably, her plan works. Afterwards, you use the power of the Echo to delve into Inspector Hildibrand\u0027s memories in a vain attempt to learn how he survived his fall, as well as being buried alive. Alas, you soon discover that there are mysteries in this world that defy all reason and explanation.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_CHRHDB101_01204_TODO_00",
+    "original": "Speak with Nashu Mhakaracca at the lichyard in eastern Thanalan.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_CHRHDB101_01204_TODO_01",
+    "original": "Participate in the FATE \u201CFallen Corpses Writhe in Style\u201D in southern Thanalan.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_CHRHDB101_01204_TODO_02",
+    "original": "Show the curious parchment to Nashu Mhakaracca.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_CHRHDB101_01204_TODO_03",
+    "original": "Speak with Nashu Mhakaracca in the Sagolii Desert.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_CHRHDB101_01204_WYMOND_000_000",
+    "original": "I hear you\u0027ve been busy as a bee, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Seems half the whispers what come my way relate to your comin\u0027s an\u0027 goin\u0027s.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_CHRHDB101_01204_WYMOND_000_001",
+    "original": "Bein\u0027 the active type you are, I reckon you\u0027d be interested in investigatin\u0027 some queer rumors, am I right? But before that, let me ask: ever heard of a man named Hildibrand?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_CHRHDB101_01204_Q1_000_1",
+    "original": "Have you heard of Hildibrand before?",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_CHRHDB101_01204_A1_000_1",
+    "original": "Yes",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_CHRHDB101_01204_A2_000_2",
+    "original": "No",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_CHRHDB101_01204_WYMOND_000_010",
+    "original": "To hear him tell it, he was Eorzea\u0027s greatest an\u0027 most famous inspector. Still, can\u0027t say I\u0027m surprised you don\u0027t know him.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_CHRHDB101_01204_WYMOND_000_011",
+    "original": "To his credit, Hildibrand an\u0027 his assistant had a knack for showin\u0027 up when somethin\u0027 shady was afoot. As for sussin\u0027 out the culprits, well...he had his moments, though I hesitate to give him sole credit.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_CHRHDB101_01204_WYMOND_000_012",
+    "original": "Anyroad, five years ago he gets it in his head that he\u0027s \u201Ccracked the code\u201D of Mezaya\u0027s seventh verse. Dalamud, the Calamity\u2500all of it can be stopped, he says, so long as he finds the hero of prophecy. An\u0027 wouldn\u0027t you know it\u2500the hero was Hildibrand himself!",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_CHRHDB101_01204_WYMOND_000_013",
+    "original": "So he flies off towards Dalamud. Aye, that\u0027s right: he \u003Chex:021A020203\u003Eflew\u003Chex:021A020103\u003E. Launches himself straight into the air somehow, ridiculous as it sounds. \u0027Course, it\u0027s only logical that he\u0027s got to come back \u003Chex:021A020203\u003Edown\u003Chex:021A020103\u003E\u2500though it was only recently that we found his body.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_CHRHDB101_01204_WYMOND_000_020",
+    "original": "Oi, you don\u0027t mean to say you \u003Chex:021A020203\u003Eknew\u003Chex:021A020103\u003E the bugger!? I know he thought himself famous, but thinkin\u0027 it don\u0027t make it true.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_CHRHDB101_01204_WYMOND_000_021",
+    "original": "Shame that he had to go an\u0027 get himself killed. All that nonsense about stoppin\u0027 Dalamud himself\u2500what in the seven hells was he thinkin\u0027!?",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_CHRHDB101_01204_WYMOND_000_022",
+    "original": "Least it was mercifully quick. Still, judgin\u0027 from the depth of the crater, he must\u0027ve fallen from an unfathomable height.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_CHRHDB101_01204_WYMOND_000_023",
+    "original": "Gods only know what was goin\u0027 through his mind as he watched the ground rush up to meet him... \u003Cshudder\u003E ",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_CHRHDB101_01204_WYMOND_000_024",
+    "original": "Amazin\u0027 how well the body was preserved, though. Hells, it\u0027s amazin\u0027 there was a body left to bury at all!",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_CHRHDB101_01204_WYMOND_000_030",
+    "original": "Hmmm... I had reason for bringin\u0027 this up... Ah, right. So Nashu, Hildibrand\u0027s erstwhile assistant, has since become an inspector in her own right. At present, she\u0027s investigatin\u0027 the queer rumors I mentioned earlier.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_CHRHDB101_01204_WYMOND_000_031",
+    "original": "She\u0027s a sweet lass\u2500a bit daft, but sweet nonetheless. So when I hear she\u0027s at wit\u0027s end, I want to help. Thing is, I prefer to meddle in the affairs of the \u003Chex:021A020203\u003Elivin\u0027\u003Chex:021A020103\u003E\u2500zombies are most definitely \u003Chex:021A020203\u003Enot\u003Chex:021A020103\u003E my forte.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_CHRHDB101_01204_WYMOND_000_032",
+    "original": "So, if you\u0027re willin\u0027, I\u0027d be grateful if you lent her a hand. As for where to find her, she\u0027s like to visit Hildibrand\u0027s grave in the lichyard when she\u0027s frustrated. Try lookin\u0027 for her there first.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_CHRHDB101_01204_WYMOND_000_035",
+    "original": "How did \u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E know Hildibrand? Hah! Next you\u0027ll be askin\u0027 me how he was \u003Chex:021A020203\u003Ealways\u003Chex:021A020103\u003E in the right place at the right time. You\u0027re too clever to be that daft.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_050",
+    "original": "Oh, if only you were still alive, Inspector. You\u0027d know how to stop these zombies...",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_051",
+    "original": "Ah! You there! Could it be...?",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_052",
+    "original": "You\u0027ve come to offer your services to me!?",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_053",
+    "original": "Oh, but where are my manners! Allow me to introduce myself. Ahem. My name is Nashu, agent of inquiries! Extraordinary inspector!",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_054",
+    "original": "At least, that\u0027s what I\u0027m trying to be. It\u0027s not quite as easy as he made it look...",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_055",
+    "original": "Inspector Hildibrand was a great man\u2500a real Eorzean hero!",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_056",
+    "original": "We traveled the world, me and him, solving cases and thwarting evil! No matter the mystery, you could always count on the inspector to solve it with grace and style!",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_057",
+    "original": "But then there was the final case. \u201CThe case of the century,\u201D he called it\u2500how to stop the red moon from destroying the world.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_058",
+    "original": "To save us all, he flew into the sky, and all I could do was watch...",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_059",
+    "original": "But then...then he came back down, and he...he...",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_070",
+    "original": "This is all a joke\u2500a big, funny joke. Right, Inspector? Any moment now, you\u0027ll burst out of the ground and shout, \u201CSurprise! Had you fooled, eh?\u201D And...and we\u0027ll laugh and laugh...",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_CHRHDB101_01204_JIMAKU_000_071",
+    "original": "Hildibrand Manderville\u003Chex:02100103\u003EBeloved Son",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_072",
+    "original": "\u003Csniffle\u003E \u003Csob\u003E They say...they say no one remembers the Warriors of Light. Their names, their faces...all gone forever.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_073",
+    "original": "But I remember you, Inspector\u2500no, Gentleman Hero Hildibrand!",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_074",
+    "original": "I can never be the hero you were, but I\u0027ll do my best to try!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_075",
+    "original": "I, Nashu, inspector extraordinaire, will carry on your legacy!",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_090",
+    "original": "...So I told myself, well, Nashu, there must be a leader\u2500a head zombie, who tells the rest what to do! Therefore, all we need to do is kill him\u2500again, that is.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_091",
+    "original": "Unfortunately, I don\u0027t know where he is, or how to find him. But now that you\u0027re here, my faithful assistant, you can try the one good idea I\u0027ve come up with so far!",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_092",
+    "original": "If you go to where these dapper zombies were last seen in southern Thanalan, you might find them! And then you could...um... Ah! You could become their friend and ask to meet their leader! Yes, that\u0027s sure to work!",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_095",
+    "original": "I\u0027ve never tried making friends with a zombie, but I don\u0027t see why it would be hard. Just moan, groan, and pretend to be dead.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_110",
+    "original": "Did you find the zombies? You did!? That\u0027s wonderful! I\u0027ve been busy, too\u2500the head zombie will rue the day he meets me, you\u0027ll see. So, tell me: what did you learn?",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_115",
+    "original": "Oh, so you weren\u0027t able to make new friends. That\u0027s a shame. But this parchment... This is a map of the Sagolii Desert. There\u0027s a spot marked here in the south, and look\u2500there\u0027s something written here.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_116",
+    "original": "\u201CA gentleman is, rather than does.\u201D",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_117",
+    "original": "That sort of reminds me of...um... Well, no matter\u2500let\u0027s see where this map takes us, assistant! Onward, to the Sagolii!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_130",
+    "original": "I don\u0027t think I misread the map... Maybe they\u0027re just shy, though. I say we call out to them and let them know we come in peace\u2500and when the leader shows himself, we strike!",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_CHRHDB101_01204_Q2_000_1",
+    "original": "What will you call out?",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_CHRHDB101_01204_Q2A1_000_1",
+    "original": "I will go whither the \u003Chex:021A020203\u003Ewild rose\u003Chex:021A020103\u003E blooms!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_CHRHDB101_01204_Q2A2_000_2",
+    "original": "A gentleman is, rather than does!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_CHRHDB101_01204_Q2A3_000_3",
+    "original": "Show yourselves, foul fiends!",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_CHRHDB101_01204_Q2A4_000_4",
+    "original": "Nothing.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_135",
+    "original": "Hmmm... That didn\u0027t seem to work. Maybe you should try shouting something else?",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_CHRHDB101_01204_ZOMBIEA_000_150",
+    "original": "Urrrgggh... Hurrrggghhh...! Who summons the Gentle Dead Men?",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_CHRHDB101_01204_ZOMBIEB_000_151",
+    "original": "They live, they \u003Chex:021A020203\u003Elive\u003Chex:021A020103\u003E! And we...we hunger...",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_CHRHDB101_01204_HILDIBRAND_000_152",
+    "original": "(-???-)My brothers, lend me your ears! A gentleman does not dine upon his guests!",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_CHRHDB101_01204_HILDIBRAND_000_153",
+    "original": "(-Well-spoken Zombie-)Spare \u003Chex:02083DE905FF1674686573652074776F2066616972206C6164696573FF22746869732066696E652067656E746C656D616E20616E642066616972206C61647903\u003E your mastications. Withdraw, I say, and harass them no more!",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_154",
+    "original": "Up in the sky, look! It\u0027s a bird\u2500 No, it\u0027s an airship\u2500 \u003Chex:021A020203\u003ENo\u003Chex:021A020103\u003E! It\u0027s the \u003Chex:021A020203\u003Einspector\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_CHRHDB101_01204_ZOMBIEA_000_155",
+    "original": "(-Gentle Dead Men-)We hear, and we obey!",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_156",
+    "original": "It \u003Chex:021A020203\u003Eis\u003Chex:021A020103\u003E you, it really is you! I knew nothing could kill the great inspector Hildibrand!",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_CHRHDB101_01204_HILDIBRAND_000_157",
+    "original": "(-Zombibrand-)Hildibrand? Who is this Hildibrand of whom you speak? My name is Zombibrand, devourer of brains! Undead overlord extraordinaire!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_158",
+    "original": "What are you saying!? You\u0027re not an undead overlord\u2500you\u0027re a gentleman inspector!",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_CHRHDB101_01204_HILDIBRAND_000_159",
+    "original": "(-Zombibrand-)Urrrgggh... Hurrrggghhh...! Inspector... Overlord... Inspector... Overlord...",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_160",
+    "original": "Oh, Inspector, you\u0027re just confused is all. Don\u0027t worry\u2500I\u0027ll knock some sense back into that noggin of yours!",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_CHRHDB101_01204_HILDIBRAND_000_161",
+    "original": "(-Zombibrand-)St-Stay your hand, m\u0027lady. You know not what you do...",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_CHRHDB101_01204_HILDIBRAND_000_162",
+    "original": "(-Zombibrand-)Even if I were the esteemed gentleman you purport me to be, the concussive force of the blast is more like to liquefy my\u2500",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_163",
+    "original": "If crashing into the ground made you forget, then an explosion of equal force ought to make you remember! I\u0027ll save you, Inspector\u2500or kill you trying!",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_CHRHDB101_01204_HILDIBRAND_000_164",
+    "original": "(-Zombibrand-)See!? Even you acknowledge the possibility that this plan will result in my\u2500",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_CHRHDB101_01204_HILDIBRAND_000_165",
+    "original": "(-Zombibrand-)Death...",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_CHRHDB101_01204_HILDIBRAND_000_166",
+    "original": "(-Perturbed Gentleman-)Normally I would applaud your ingenuity, Nashu, but I would have preferred that you found a more elegant solution!",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_167",
+    "original": "Ah! He remembers me! Inspector Hildibrand remembers me!",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_CHRHDB101_01204_HILDIBRAND_000_168",
+    "original": "Yes, yes, I remember you, my faithful assistant. What I do not quite remember is how I came to be here...",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_CHRHDB101_01204_HILDIBRAND_000_190",
+    "original": "Ahhh! Such a wonderful dream. I slew a dragon, and\u2500",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_CHRHDB101_01204_HILDIBRAND_000_191",
+    "original": "Hm? What is this place? And for that matter...who am I?",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_CHRHDB101_01204_HILDIBRAND_000_200",
+    "original": "I, Hildibrand, agent of enquiry, inspector extraordinaire, have awoken at last!",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_CHRHDB101_01204_NASHUMHAKARACCA_000_201",
+    "original": "I\u2500 \u003Csniffle\u003E \u003Csob\u003E I always knew you\u0027d come back to us!",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_CHRHDB101_01204_HILDIBRAND_000_202",
+    "original": "Be it red moon or black dragon, no fiend is a match for my legendary might!",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_CHRHDB101_01204_HILDIBRAND_000_203",
+    "original": "And who might this fine \u003Chex:020814E905FF056C616479FF0A67656E746C656D616E03\u003E be? Hmmm, could \u003Chex:02080CE905FF04736865FF03686503\u003E perhaps be one of my many admire\u2500",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_CHRHDB101_01204_HILDIBRAND_000_204",
+    "original": "Oh, but what is this faint tingling sensation in my arm!? This ringing in my ears, this dizziness... Could it be...a case?",
+    "translation": ""
+  }
+}

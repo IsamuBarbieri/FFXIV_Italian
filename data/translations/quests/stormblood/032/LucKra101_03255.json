@@ -1,0 +1,407 @@
+{
+  "0": {
+    "tag": "TEXT_LUCKRA101_03255_SEQ_00",
+    "original": "One of the Crystarium guards is particularly relieved to have found you.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_LUCKRA101_03255_SEQ_01",
+    "original": "After finally managing to track you down, Ryne reveals that she has sensed a concentration of Light in the Empty, the name for the lands once swallowed by the Flood. Fearing that another cataclysm may be on the horizon, Ryne asks you to join her, Thancred, and Urianger on an expedition into the barren wastes to investigate the phenomenon. You arrange to rendezvous with them at the Derrick, from where you will depart on this potentially perilous journey.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_LUCKRA101_03255_SEQ_02",
+    "original": "Upon arriving at the Derrick, you are greeted by Urianger and Thancred, who are keen to begin the investigation as soon as possible. Neither of them are exactly thrilled by the prospect of journeying through the Empty, where the ambient aether is wildly imbalanced, making it unwise to travel by amaro or chocobo. Luckily, Thancred has borrowed a more mechanical mode of transport from the Crystarium, the skyslipper, which is less likely to be affected by such anomalies. With all of the necessary supplies and equipment at the ready, the four of you prepare to board the craft and embark on a voyage into parts unknown.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_LUCKRA101_03255_SEQ_03",
+    "original": "The first leg of the journey is remarkably uneventful, with naught but featureless wastelands for malms around. The monotony of the scenery eventually sends you into a deep sleep, and you are only awoken by Thancred\u0027s exclamations of surprise at the sight of a gargantuan entity resting inside a vast crater. Urianger comes to the conclusion that this is the first sin eater, the instigator of the Flood of Light. Rather than formulating a means of destroying the beast, he theorizes that the power which once threatened to consume all life on the planet might instead be used to restore what was lost. Ryne, who seems to share Urianger\u0027s optimism, even suggests naming it \u201CEden,\u201D which comes from the Fae word for \u201Cutopia.\u201D Thancred, on the other hand, turns the group\u0027s attention to more practical matters, such as setting up a camp from where to plan your next move.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_LUCKRA101_03255_SEQ_04",
+    "original": "After you finish laying out a simple camp to act as a base of operations, Thancred leaves to scout the area, and Ryne suggests waiting for him to return before you begin discussions on how best to investigate Eden. It remains to be seen whether the vast sin eater is the key to restoring balance to this shattered world or an adversary that must be eliminated.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_LUCKRA101_03255_TODO_00",
+    "original": "Speak with Ryne near the Derrick.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_LUCKRA101_03255_TODO_01",
+    "original": "Speak with Ryne.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_LUCKRA101_03255_TODO_02",
+    "original": "Speak with Ryne again.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_LUCKRA101_03255_GUARD03255_100_000",
+    "original": "Ah, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Have you seen Ryne? She\u0027s been looking for you.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_LUCKRA101_03255_GUARD03255_200_000",
+    "original": "Wait here. I\u0027ll go and get her.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_000_001",
+    "original": "There you are!",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_000_003",
+    "original": "The truth is, I need your help...",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_100_003",
+    "original": "Now hold on\u2500I haven\u0027t even told you what it is yet!",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_000_004",
+    "original": "Ahem. After you defeated Emet-Selch, I sensed a strange concentration of Light, somewhere far to the south.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_000_005",
+    "original": "In the Empty\u2500the lands that were once swallowed by the Flood.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_000_006",
+    "original": "I can\u0027t tell what it is, but we have to find out. For all we know, it might even be another Lightwarden!",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_100_006",
+    "original": "But whatever it may be, I don\u0027t intend to stand by and watch. I\u0027ll...",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_000_007",
+    "original": "Sorry, I\u0027m getting ahead of myself. Thancred, Urianger, and I have a few theories that we plan to test once we find whatever\u0027s causing this.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_000_008",
+    "original": "The three of us were reluctant to ask for your help, considering everything that you\u0027ve been through. The thing is, you\u0027re the only person who can defeat a Lightwarden without becoming one yourself, so we have no choice.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_100_008",
+    "original": "While we don\u0027t want to jump to conclusions, it would be a good idea to have you there, just in case.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_110_008",
+    "original": "So, will you come with us?",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_LUCKRA101_03255_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_LUCKRA101_03255_Q1_000_001",
+    "original": "I wouldn\u0027t have it any other way!",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_LUCKRA101_03255_Q1_000_002",
+    "original": "Perhaps we should let sleeping dogs lie.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_000_010",
+    "original": "Thank you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! This means a lot.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_000_020",
+    "original": "I see your point, but if we choose to ignore it, we should at least know \u003Chex:021A020203\u003Ewhat\u003Chex:021A020103\u003E we\u0027re ignoring first. And there\u0027s no harm in taking a look, is there?",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_000_030",
+    "original": "First of all, let\u0027s head to the Derrick in Amh Araeng. Thancred and Urianger should have everything ready by now.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_LUCKRA101_03255_THANCRED_000_040",
+    "original": "Sorry to drag you all the way out here. I have a feeling you\u0027ll miss this place when you see where we\u0027re going next, though.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_LUCKRA101_03255_URIANGER_000_041",
+    "original": "\u0027Tis a blessing to see thee so hale.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_000_050",
+    "original": "I hope the desert creatures didn\u0027t give you too much trouble on the way here.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_LUCKRA101_03255_THANCRED_000_051",
+    "original": "I doubt they posed any sort of challenge to \u003Chex:02080DE905FF04686572FF0468696D03\u003E. Would that I could say the same with confidence about whatever fiend may be waiting for us out there.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_LUCKRA101_03255_THANCRED_100_051",
+    "original": "Even if the Light that Ryne sensed turns out to be nothing of consequence, the Empty is hardly the most welcoming of places. Anything that could survive out there is not to be trifled with.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_LUCKRA101_03255_URIANGER_000_052",
+    "original": "Moreover, it should be reiterated that the Light-blasted wasteland poseth as severe a threat as any foe we might face.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_LUCKRA101_03255_URIANGER_000_053",
+    "original": "In any event, we are in agreement that this phenomenon doth warrant investigation. Though for lack of more precise means of navigation, we must needs rely on Ryne\u0027s innate abilities to guide us.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_LUCKRA101_03255_URIANGER_100_053",
+    "original": "I have formed several hypotheses regarding the nature of the Light, but speculation is a poor substitute for firsthand observation.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_000_055",
+    "original": "There\u0027ll be plenty of time for us to talk about it on the way.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_100_055",
+    "original": "Is the skyslipper ready, Thancred?",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_LUCKRA101_03255_THANCRED_000_056",
+    "original": "Ready to take us wherever we need to go, aye. Back again too, maybe, if we ask it nicely.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_LUCKRA101_03255_URIANGER_000_057",
+    "original": "Though the Light hath been expunged from Norvrandt, the ambient aether of the Empty is still corrupted. Dangerously so, in fact.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_LUCKRA101_03255_URIANGER_100_057",
+    "original": "The Flood of Light devastated everything in its wake. The soil, the air, the water, all rendered incapable of supporting life.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_LUCKRA101_03255_URIANGER_110_057",
+    "original": "\u0027Tis due to this imbalance that the Empty remaineth utterly uninhabitable, even a century thereafter.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_LUCKRA101_03255_THANCRED_000_059",
+    "original": "That\u0027s why we\u0027re taking every possible precaution. Between the aetherometers I\u0027ve packed and Ryne\u0027s unique abilities, we should be able to detect and measure any fluctuations in our alignments.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_LUCKRA101_03255_THANCRED_100_059",
+    "original": "According to the Crystarium scouts, a few days out there won\u0027t affect us to any noticeable degree. But much longer than that, and we risk becoming sin eaters...",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_LUCKRA101_03255_THANCRED_000_060",
+    "original": "Since we still don\u0027t know how chocobos and amaro will fare in the Empty, we opted for a more mechanical mode of transportation. This comes courtesy of the researchers at the Mean, who found it in the Crystal Tower and restored it to working order.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_100_062",
+    "original": "It\u0027s quite safe, I promise. The person in charge said he\u0027ll have parts delivered from the Crystarium should anything break.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_110_062",
+    "original": "He seemed quite eager to see what we bring back from the Empty, even though I told him we\u0027re not hunting for treasure. I\u0027ll introduce you if we have a chance to stop by Mord Souq at some point.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_000_062",
+    "original": "Anyway, I think that covers everything. When you\u0027re ready to leave, just say the word!",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_LUCKRA101_03255_THANCRED_000_070",
+    "original": "While I\u0027m piloting and Ryne\u0027s navigating, you and Urianger will be free to enjoy the view and engage in rousing conversation. By that, I mean he can spend the whole time talking at you, while you nod in agreement.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_LUCKRA101_03255_URIANGER_000_071",
+    "original": "Although the Flood of Light is believed to have expunged all traces of life from the Empty, we must remain ever vigilant. We know not what we shall find.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_000_070",
+    "original": "Well then, shall we?",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_LUCKRA101_03255_YESNO_001",
+    "original": "Depart for the Empty?",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_LUCKRA101_03255_THANCRED_000_080",
+    "original": "With a name like \u201Cthe Empty,\u201D I wasn\u0027t expecting much in the way of pleasant scenery, but this is downright depressing.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_LUCKRA101_03255_URIANGER_000_081",
+    "original": "To look on the lands swallowed by the Flood with mine own eyes... \u0027Tis a chilling sight indeed.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_LUCKRA101_03255_URIANGER_000_082",
+    "original": "Approximately nine-tenths of this world are as this. A slate all but wiped clean...",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_LUCKRA101_03255_THANCRED_000_083",
+    "original": "Were it not for the Warriors of Darkness and Minfilia...",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_LUCKRA101_03255_THANCRED_000_084",
+    "original": "Ryne, are you sure we\u0027re heading in the right direction?",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_000_085",
+    "original": "Yes, I\u0027m certain. There\u0027s no telling how far away it is, though.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_LUCKRA101_03255_THANCRED_000_086",
+    "original": "Nothing for it but to keep going, then. You two back there may as well take a nap. I have a feeling we\u0027ve a good few malms ahead of us.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_LUCKRA101_03255_THANCRED_000_087",
+    "original": "I have to say, it\u0027s a touch larger than I was expecting. And is it...sleeping?",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_000_088",
+    "original": "No. It\u0027s waking up.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_LUCKRA101_03255_THANCRED_000_089",
+    "original": "I don\u0027t like the sound of that... Is it a Lightwarden?",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_000_090",
+    "original": "No, I don\u0027t think so. Instead of being filled with Light...it \u003Chex:021A020203\u003Eis\u003Chex:021A020103\u003E Light.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_LUCKRA101_03255_URIANGER_000_091",
+    "original": "The first sin eater...",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_LUCKRA101_03255_URIANGER_000_092",
+    "original": "Long have I strived to unravel the mysteries surrounding the Flood of Light. To discover what set that terrible cataclysm in motion.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_LUCKRA101_03255_URIANGER_100_092",
+    "original": "Every thread led to the same conclusion. The same single point...",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_LUCKRA101_03255_THANCRED_000_093",
+    "original": "Or single being...",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_LUCKRA101_03255_URIANGER_000_094",
+    "original": "I have reason to believe that the entity we see before us is the first sin eater. The instigator of the Flood\u2500the very foe Minfilia vanquished a century ago.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_LUCKRA101_03255_THANCRED_000_095",
+    "original": "She gave everything she had...and won.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_LUCKRA101_03255_THANCRED_000_096",
+    "original": "...But this abomination could undo her work.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_LUCKRA101_03255_URIANGER_000_097",
+    "original": "Aye, the possibility cannot be denied. Though it is oft said that destruction and creation are but two sides of the same coin.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_LUCKRA101_03255_URIANGER_000_098",
+    "original": "Ryne, knowest thou of what I speak?",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_000_099",
+    "original": "The power to shape reality, to bend the laws of nature. For what was once shattered may be forged anew.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_LUCKRA101_03255_THANCRED_000_100",
+    "original": "That\u0027s all well and good, but don\u0027t you think we should give it a name first?",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_000_101",
+    "original": "...Eden.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_LUCKRA101_03255_URIANGER_000_102",
+    "original": "\u0022Utopia\u201C in Fae. A most auspicious title.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_LUCKRA101_03255_THANCRED_000_103",
+    "original": "Now that that\u0027s settled, perhaps we should find a spot to set up camp. I even brought a couple of tents, on the off chance, but pitching the damned things is something of a fine art. Does anyone fancy helping me?",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_LUCKRA101_03255_URIANGER_000_110",
+    "original": "Though frequent rest may allay the symptoms of prolonged exposure to the Empty\u0027s ambient aether, \u0027twould be unwise to linger here overlong.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_000_120",
+    "original": "I never realized that putting tents up could be such a bother! Still, I\u0027m glad that we got there in the end.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_LUCKRA101_03255_RYNE_000_121",
+    "original": "Thancred should be back from scouting the area soon. Once he\u0027s here, we can plan our next move.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_LUCKRA101_03255_SYSTEM_090_121",
+    "original": "During the course of your investigation, you may discover valuable artifacts.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_LUCKRA101_03255_SYSTEM_100_121",
+    "original": "These can be exchanged for equipment by speaking with Ghul Gul in Mord Souq or Yhal Yal in Eulmore.",
+    "translation": ""
+  }
+}

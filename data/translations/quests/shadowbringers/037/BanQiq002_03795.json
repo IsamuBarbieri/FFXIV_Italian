@@ -1,0 +1,647 @@
+{
+  "0": {
+    "tag": "TEXT_BANQIQ002_03795_SEQ_00",
+    "original": "Chaqurl Qhotl\u0027s eyes eagerly dart about the caves of Hopl\u0027s Stopple.\u003Chex:02100103\u003E\u203BThe difficulty of this quest will be synced to your current level.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_BANQIQ002_03795_SEQ_01",
+    "original": "Thanks in no small part to your aid in gathering resources for the excavation effort, Qitarl Natl and his Stewards are at last prepared to delve deeper into the tunnels of Hopl\u0027s Stopple. Alas, there is one small complication: the presence of an arcane ward preventing access to the inner chambers that is passable only by servants of Ox\u0027Dalan, protector of the underworld. As all present ponder a suitable course of action, the Great Serpent of Ronka lets forth a great scree, no doubt seeking to impart wisdom to your band. Sadly, no one present is able to comprehend the meaning of the divine protector\u0027s words, leaving you no choice but to accompany Chaqurl Qhotl to Slitherbough to seek the aid of the one man who can.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_BANQIQ002_03795_SEQ_02",
+    "original": "You find Quinfort, who does not hesitate to interpret the words of the great serpent in his typically grandiose, pontificating, and highly dubious fashion. Valan gives cursory consideration to the Keeper of Whispers\u0027s wisdom before offering up a more practical solution to the problem at hand: to construct a talisman enchanted with the incantations that keep Slitherbough safe from the selfsame beasts that would make the Qitari explorers their next meal.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_BANQIQ002_03795_SEQ_03",
+    "original": "You deliver the requested supplies to Valan, who deftly fashions a talisman according to Quinfort\u0027s instructions. Now able to probe the depths of Hopl\u0027s Stopple without fear of being devoured by creatures of the darkness, the Stewards\u0027 excavation team begins their dig, but will they succeed in finding the stone tablets they seek? Chaqurl Qhotl can scarce contain his anticipation to learn what secrets might be unearthed.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_BANQIQ002_03795_SEQ_04",
+    "original": "The Qitari rejoice as their excavation effort succeeds in exhuming the first Qitari stela: one of many great stone tablets on which is writ the sum total of the knowledge and history of their ancient race. The stone, however, has been weathered over the ages, obscuring key passages necessary to comprehend the writings in full. At the exhortation of the great serpent, the Qitari resolve to restore the tablets to the best of their ability. However, the missing text leaves many passages open for interpretation, and Qitarl Natl and his son Chaqurl Qhotl have differing views about the intended message. Seeking the wisdom of an impartial arbitrator, they turn to you...",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_BANQIQ002_03795_TODO_00",
+    "original": "Speak with Quinfort at Slitherbough.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_BANQIQ002_03795_TODO_01",
+    "original": "\u003Chex:0208F20118E4E80511FF5302084FE3E802E803FF264D696E652002310CFF054974656D02E806020203206174204D6A726C277320526567726574FF2144656C697665722002310CFF054974656D03E80602020320746F2056616C616E03FFBF0208BBE4E80512FF55020851E3E802E803FF284761746865722002310CFF054974656D02E806020203206174204D6A726C277320526567726574FF2144656C697665722002310CFF054974656D03E80602020320746F2056616C616E03FF5F02085BE4E80513FF5302084FE3E802E803FF2643617463682002310CFF054974656D02E806020203206174204D6A726C2773205465617273FF2144656C697665722002310CFF054974656D03E80602020320746F2056616C616E03FF01030303\u003E.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_BANQIQ002_03795_TODO_02",
+    "original": "Speak with Chaqurl Qhotl.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_001",
+    "original": "Good \u003Chex:02080FE905FF04736972FF066D6164616D03\u003E! It was \u003Chex:02080FE905FF04736972FF066D6164616D03\u003E, wasn\u0027t it? Mother tells me you\u0027ve been working your tail off around the Stopple! Is that why I can\u0027t see your tail, perhaps?",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_002",
+    "original": "Anyhow! Thanks to you, Father says that we\u0027re ready to begin the ex-\u003Chex:021A020203\u003Evacation\u003Chex:021A020103\u003E! Isn\u0027t this all so exciting?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_003",
+    "original": "Chaqurl. We must remember to remain calm and composed. These caves are vast, their tunnels burrowing deep into the bowels of the land. Slow, steady, and \u003Chex:021A020203\u003Ecircumspect\u003Chex:021A020103\u003E is the order of the day.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_004",
+    "original": "As we speak, a preliminary exploration team is surveying the tunnels to determine where we might best begin the excavation. We will await their findings before deciding on the best way to move forward.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_005",
+    "original": "Understood, Father! I promise to be \u003Chex:021A020203\u003Esir\u003Chex:021A020103\u003E-sumspect. Does that mean we can begin digging already?",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_006",
+    "original": "Towarl Manol! What news from the depths?",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_BANQIQ002_03795_TWARLMANOL_000_007",
+    "original": "Digmaster Qitarl. I fear we encountered something rather...unexpected. I fear that we may not be able to commence the excavation effort as quickly as we had hoped...",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_008",
+    "original": "We can\u0027t start digging? But why? What did you find down there?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_BANQIQ002_03795_TWARLMANOL_000_009",
+    "original": "No sooner had we stepped through the entrance, our whiskers twitching in anticipation of the wonders that awaited, than did we see them\u2500nasty creatures swarming in every nook and cranny of the caves!",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_010",
+    "original": "...A most troubling development indeed. We Qitari are scribes, not warriors. Indeed, it was the presence of fearsome fiends\u2500and worse\u2500blocking our way through the Ravel that kept us trapped for a hundred years. Are we doomed to suffer a similar fate here?",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_BANQIQ002_03795_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_BANQIQ002_03795_A1_000_001",
+    "original": "I did defeat the Lightwarden, you know.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_BANQIQ002_03795_A1_000_002",
+    "original": "I can do more than just gather things.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_011",
+    "original": "The ally of Ronka and bringer of the night would fell these terrible beasts for us? I would like little more than to take advantage of your kindness, but...I fear there is a rub.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_012",
+    "original": "A rub?",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_013",
+    "original": "...A rub. In our preliminary explorations of the Stopple, we have discovered that another ward seals off the tunnels below. A ward not unlike the one that barred the entrance, but with one notable\u2500and unfortunate\u2500difference.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_014",
+    "original": "It is a ward impassable to all but the servants of Dalan\u2500namely, the Qitari. No, I fear we will have to find our own way to dispatch the beasts that have burrowed their way up from the depths...",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_015",
+    "original": "But without Sirmadam \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u0027s aid, we\u0027ll be chewed up the moment we step in there\u2500tails and whiskers and all!",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_BANQIQ002_03795_BOUSHITSUCHINOKO_000_016",
+    "original": "Scree!",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_017",
+    "original": "The great serpent...it speaks!",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_018",
+    "original": "Indeed...and yet, it does not move. Till now, we have had only to follow where it goes. This time, it appears we must fully grasp the import of his message. A message which, sadly, is beyond my comprehension. If only there were someone who\u2500but, of course! The son of Dwatl!",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_019",
+    "original": "The son of... You mean, that tall fellow who likes to wave his arms in the air when he talks!?",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_020",
+    "original": "The very same. Ahem...\u003Chex:022C0DFF07022903EB0203FF02200203\u003E. It appears we will require your assistance once more. Might you be so kind as to see my boy safely to Slitherbough, that he might summon this Quinfort for us?",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_021",
+    "original": "Would you kindly, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E? Father and I would appreciate it ever so muchly and more! Now come along, great serpent!",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_000_030",
+    "original": "The Qitari boy told me you came seeking Quinfort\u0027s counsel. Are you sure you\u0027re feeling quite okay, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E?",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_031",
+    "original": "Slitherbough is full of tunnels, too! If Father wasn\u0027t waiting for us back at the Stopple, I\u0027d love to go digging and delving here, too!",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_BANQIQ002_03795_BOUSHITSUCHINOKO_000_032",
+    "original": "Scree!",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_BANQIQ002_03795_QUINFORT_000_040",
+    "original": "What\u0027s this you say!? Fell beasts prowl the tunnels at every turn? No doubt they are remnants of the shadows that wander the forests come to life! Demons, come to suck dry the currents of aether that give the Greatwood life, reducing our home to a withered husk!",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_000_041",
+    "original": "They \u003Chex:021A020203\u003Ecould\u003Chex:021A020103\u003E be that. Or they could simply be nasty little brutes that crawled their way up from between the rocks. You know, like the ones around here.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_042",
+    "original": "Valan, my good sirmadam! You know of these creatures, too?",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_000_043",
+    "original": "I do. Mother tells me that when our ancestors first came to Slitherbough, they were set upon by a swarm of ravenous creatures that crawled up from below. Fortunately, one of the elder priests managed to utter an incantation that drove them away.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_000_044",
+    "original": "If you look closely at the walls around us, you can see glyphs carved in them. The same protective magic that saved our forefathers then has been worked into the very walls around us. In a sense, the settlement of Slitherbough itself serves as a ward against the dangers that lurk beneath us.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_BANQIQ002_03795_QUINFORT_000_045",
+    "original": "Just so, Valan! And it is precisely wards and incantations of this sort that I have made the focus of my studies of late!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_046",
+    "original": "I remain ever impressed with your knowledge, my good sirmadams. Might it be too much to ask if you could teach this incantation to the great serpent, that he might protect us in our expedition below?",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_BANQIQ002_03795_BOUSHITSUCHINOKO_000_047",
+    "original": "Scree...?",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_BANQIQ002_03795_QUINFORT_000_048",
+    "original": "Wh-What...what blasphemy do you speak, child!? Do you think \u003Chex:021A020203\u003Eme\u003Chex:021A020103\u003E, a humble servant of the wood, so brazen as to believe he could enlighten the divine protector itself!?",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_000_049",
+    "original": "\u003Csigh\u003E Look...this isn\u0027t exactly my area of expertise, but it strikes me that there might be a simpler way to approach this.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_000_050",
+    "original": "Why don\u0027t we simply fashion a talisman or two for them? You know, like the ones we\u0027ve always used to keep danger at bay. I can craft a simple object to serve as the vessel, then Quinfort can mutter a few words and enchant it as he sees fit.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_100_050",
+    "original": "Tradition dictates that the talisman be fashioned from materials indelibly connected to the bearer\u0027s home. Those of us who live in Slitherbough usually gather what we need from the Citia Swamps, but for our Qitari friends, we\u0027ll have to look further east.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_000_051",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E...your knowledge of rocks and stones just might serve us well here. Why don\u0027t you head over to Mjrl\u0027s Regret and see if you can\u0027t find us a serpent\u0027s-eye? It\u0027s a rare gem that we often carry about to ward off danger.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_100_051",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E...your knowledge of trees and shrubs just might serve us well here. Why don\u0027t you head over to Mjrl\u0027s Regret and see if you can\u0027t find us a spectral cocoon. It\u0027s a casing of spun silk that we often carry about to ward off danger.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_200_051",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E...your angling aptitude just might serve us well here. Why don\u0027t you head over to Mjrl\u0027s Tears and see if you can\u0027t fish us up a shimmershell. It\u0027s a sea-dwelling creature whose husk we often carry about to ward off danger.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_300_051",
+    "original": "If you\u0027re in need of appetizing bait, I figure a fruit worm should suffice. Speaking of fruit worms, doesn\u0027t the way they wriggle and squirm remind you of\u2500on second thought, never mind.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_BANQIQ002_03795_QUINFORT_000_052",
+    "original": "And I shall immediately begin weaving an incantation especially tailored to protect our good friends from the sort of terrifying creatures that infest the caves and tunnels they seek to explore! Muahahaha! A foolproof plan if ever there was one!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_000_053",
+    "original": "Chaqurl, you can stay here with me in Slitherbough and help me collect the other materials I need. It\u0027ll be the perfect opportunity to introduce you to my fellow Blessed.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_000_054",
+    "original": "Once we have everything we need, let\u0027s meet up again at Hopl\u0027s Stopple. I want to test the effectiveness of the talisman for myself before we leave Chaqurl and his friends on their own.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_BANQIQ002_03795_QUINFORT_000_064",
+    "original": "I can scarce wait to put my prodigious talents to use for the sake of our Qitari friends!",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_000_065",
+    "original": "Oh, there you are! Were you able to find something suitable for making our talisman?",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_000_066",
+    "original": "Why, yes. This should serve us quite well. Just give me a moment or two\u2500I\u0027ll round up the materials Chaqurl and I gathered from the village and whip up something in no time.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_000_067",
+    "original": "Just add a feather here, here, and here, then thread through this length of rope, and...yes, this should do it!",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_070",
+    "original": "It\u0027s...it\u0027s beautiful! And this will let us begin the ex-\u003Chex:021A020203\u003Evacation\u003Chex:021A020103\u003E in safety, you say?",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_000_071",
+    "original": "Not so fast. The talisman needs to be enchanted before it\u0027s of any use. As it is now, it\u0027s little more than a fancy little ornament.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_000_072",
+    "original": "Well, Quinfort? This is the moment you\u0027ve been waiting for, isn\u0027t it?",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_BANQIQ002_03795_QUINFORT_000_073",
+    "original": "Muahahaha! Say no more! Stand back and bear witness as Quinfort, descendant of Dwatl, weaves an incantation the likes of which your eyes have never seen!",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_000_074",
+    "original": "Why do I have a bad feeling about this...?",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_BANQIQ002_03795_QUINFORT_000_075",
+    "original": "Worry not, dear Valan! In truth, at first I was uncertain which of the many prayers I have memorized would serve us best. A traditional chant of the Night\u0027s Blessed? But wait...the Qitari are an ancient race, so perhaps this calls for an incantation from ancient Ronka?",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_BANQIQ002_03795_QUINFORT_000_076",
+    "original": "Long did I ponder\u2500choose poorly, after all, and it could mean death and destruction for our friends, if not the forest itself! Fortunately, it was then that the great serpent came to me in a vision, enlightening me as to the precise words that will deliver us to salvation: words which have long been writ in the \u003Chex:021A020203\u003EGospel of Quinfort\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_000_077",
+    "original": "You\u0027re going to enchant this talisman with ramblings from your dream diary? Now I \u003Chex:021A020203\u003Ereally\u003Chex:021A020103\u003E have a bad feeling about this...",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_BANQIQ002_03795_QUINFORT_000_078",
+    "original": "Do not be silly, Valan. The great serpent speaks through me, and I am but a vessel for his divine wisdom. Hark, it is precisely as it says in chapter fifty-two, verse five...",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_BANQIQ002_03795_QUINFORT_100_078",
+    "original": "\u201CThe goddess\u0027s claws stained cerulean, she did await the arrival of the stewards. The coming of the darkness marked a new dawn; a proud people returned to the wood where the egg once fell from high above...\u201D",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_BANQIQ002_03795_QUINFORT_200_078",
+    "original": "\u201CO, Great Serpent of Ronka, gifted to us by the heavens! Hear the plea of the great sage\u0027s scion, and guide the children of Ronka safely to their ancestral home!\u201D",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_BANQIQ002_03795_QUINFORT_000_079",
+    "original": "O, Great Serpent! Do tell me, were my prayers heard?",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_BANQIQ002_03795_BOUSHITSUCHINOKO_000_080",
+    "original": "Scree-eee!",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_081",
+    "original": "Why, I\u0027ve never heard an in-\u003Chex:021A020203\u003Etank\u003Chex:021A020103\u003E-ation so inspiring! Your powers truly are something else, Master Quinfort!",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_BANQIQ002_03795_QUINFORT_000_082",
+    "original": "Oho! You are wise beyond your years, my young Qitari friend. My knowledge is vast, my powers indeed prodigious, and it is more than an honor to wield them in service of your esteemed people!",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_000_083",
+    "original": "Though he\u0027s prone to bouts of madness from time to time, Quinfort \u003Chex:021A020203\u003Eis\u003Chex:021A020103\u003E an accomplished priest. The talisman should serve you well.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_084",
+    "original": "Splendid. Our excavation effort has already been delayed for far longer than we can afford.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_085",
+    "original": "Well, Chaqurl? This is the moment of truth. There is no telling what dangers lurk beneath us. Are you quite certain you wish to accompany me to the tunnels below?",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_086",
+    "original": "But of course, Father! Why else would I have come to this place with you? Together, we will unearth the secrets of our \u003Chex:021A020203\u003Efar\u003Chex:021A020103\u003E-forethers, and reclaim our history!",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_087",
+    "original": "Very well. It is clear you do not take the task lightly. Perhaps you are coming of age after all. And with that, I believe it\u0027s time we started digging.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_088",
+    "original": "Let the ex-\u003Chex:021A020203\u003Evacation\u003Chex:021A020103\u003E begin!",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_BANQIQ002_03795_SYSTEM_001_031",
+    "original": "Some time later...",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_BANQIQ002_03795_SYSTEM_001_032",
+    "original": "Qitarl Natl and Chaqurl Qhotl have safely returned from their preliminary investigation of the tunnels.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_BANQIQ002_03795_QUINFORT_000_091",
+    "original": "Yet \u003Chex:021A020203\u003Emore\u003Chex:021A020103\u003E manifestations of the great serpent! Whatever have we done to deserve such a blessing!?",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_000_092",
+    "original": "Well, Chaqurl? Were you able to find any of the tablets you were searching for?",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_BANQIQ002_03795_HELMETTSUCHINOKO_000_094",
+    "original": "Scree! Scree!",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_BANQIQ002_03795_SYSTEM_000_095",
+    "original": "The great serpent wriggles about and lets out a clear, clarion call. It would seem that it wishes to aid the Qitari in their effort to reclaim their history.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_BANQIQ002_03795_QUINFORT_000_096",
+    "original": "What is this!? Another incarnation of the great serpent made manifest before us!? Whatever could be the meaning of this!? I must know at once!",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_097",
+    "original": "...Ahem. If you could settle down for just a moment, Master Quinfort, I will explain in detail all I witnessed down below.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_098",
+    "original": "Father and I found a stone! It was big and square and covered with all sorts of writings, just like in the legends!",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_099",
+    "original": "As my boy says, we did indeed find the stelae. Or at least...one piece of them.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_000_100",
+    "original": "What remains...?",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_101",
+    "original": "According to Qitari legend, the stelae comprised four perfectly square stones, stacked to form a massive pillar. Which is to say, what we have found is but one part of the larger whole...",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_102",
+    "original": "And if that were not unfortunate enough, even the single stela we found has been badly weathered through the years. In many places, the engravings are all but indecipherable.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_103",
+    "original": "That is not all we found. Lying beside the shattered stone were several sad piles of bones\u2500no doubt the remains of our once-proud forefathers who carried the stelae down below. I shudder to think of their last moments, torn apart by sin eaters as they hid away our legacy for safekeeping.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_104",
+    "original": "Father and I thought to carry the stone to the surface, but in that moment, something jumped out and stood in our path!",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_BANQIQ002_03795_HELMETTSUCHINOKO_000_105",
+    "original": "Scree!",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_BANQIQ002_03795_QUINFORT_000_106",
+    "original": "Are mine eyes to be believed!? The behatted serpent that first accompanied our Qitari friends remains on the surface, which means...we are graced by yet another incarnation of the divine protector!",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_000_107",
+    "original": "A \u003Chex:021A020203\u003Ethird\u003Chex:021A020103\u003E manifestation of the great serpent? Just how many of them are there, anyway?",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_100_108",
+    "original": "At the very least, this is the only one we encountered on our expedition. And yet, if it traveled here from somewhere to guide us in our efforts, it would not be unreasonable to assume that there are others where this one came from.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_108",
+    "original": "In truth, it appeared and spoke to us just as we stood before the shattered stone. I cannot help but believe it was conveying to us a message, just as its brethren guided us to these ancient tunnels.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_109",
+    "original": "Chaqurl and I pondered the matter, and we believe that we understand. The great serpent bids us to unearth what remains of the scattered and weathered stelae, and piece together our people\u0027s history anew with our own hands and minds.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_000_110",
+    "original": "I see. If the stones truly have been scattered and weathered by time, that\u0027s the best you could hope to do.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_BANQIQ002_03795_QUINFORT_000_111",
+    "original": "Yet surely you must have been able to make out something from what remained of the stone! What chronicles of eld were writ there!?",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_112",
+    "original": "...Ahem. What we were able to make of the markings could be described thus: a mighty Ronso wearing a crown\u2500no doubt meant to represent the first emperor of Ronka, stood tall with a blade raised high over his head.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_113",
+    "original": "Before him, cowered a Qitari\u2500one of our forefathers, no doubt. The carving would seem to depict the momentous occasion that was the first encounter between our people and the empire.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_114",
+    "original": "And the implications could not be more clear. Doubtless our ancestors, ill-suited for battle, were conquered and subjugated by the might of Ronka, under whose yoke they would find new purpose as the stewards of history.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_115",
+    "original": "A most fascinating interpretation, Father. But if I might be so bold, I saw the drawings quite differently.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_116",
+    "original": "I do not believe the Ronkan emperor would be so cruel as to threaten the poor, weak Qitari. No, I believe that he found us vulnerable and at the mercy of the fearsome beasts of the forest. He slew the beasts by his own hand, and befriended our ancestors, giving us new purpose as his subjects.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_117",
+    "original": "Your optimism is admirable, my boy, but I fear that such a bright and cheery interpretation of events is unlikely at best. History is full of harsh truths from which we must not avert our eyes.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_118",
+    "original": "But tales are still sung of the first emperor\u0027s might and majesty to this day, are they not? I simply cannot fathom that he would be so cruel as to enslave our people!",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_000_119",
+    "original": "If you ask me, both theories seem reasonable. But if you intend to keep a record of history to pass down to posterity, you\u0027re going to have to choose one.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_BANQIQ002_03795_QUINFORT_000_120",
+    "original": "Two conflicting theories of the past\u2500one to be etched in stone and sung until the end of time, and the other, destined to be consigned to the dust of the deep, dank caverns below! Truly, this is a turning point in the grand tapestry that is the history of the Qitari...!",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_BANQIQ002_03795_VALAN_000_121",
+    "original": "Yes, yes. At any rate, I believe we\u0027ve done all we can here. ",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_BANQIQ002_03795_QUINFORT_000_122",
+    "original": "Valan! I say, Valan\u2500have you no interest in witnessing this momentous occasion in history!?",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_123",
+    "original": "I would not think of insisting that my interpretation is the only valid one. And yet, I cannot simply toss it aside in favor of my son\u0027s rose-colored view of the past.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_124",
+    "original": "How poso-\u003Chex:021A020203\u003Elute\u003Chex:021A020103\u003E-ly, absi-\u003Chex:021A020203\u003Etive\u003Chex:021A020103\u003E-ly vexing!",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_BANQIQ002_03795_BOUSHITSUCHINOKO_000_125",
+    "original": "S-Screeeeeeeee!",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_126",
+    "original": "The great serpent...it speaks again!",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_BANQIQ002_03795_QITARLNATL_000_127",
+    "original": "It does, and this time its message could not be more clear. It believes that \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, the ally of Ronka, should be the one to weigh the options at hand and decide which version of history shall be inscribed upon the stone.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_BANQIQ002_03795_BOUSHITSUCHINOKO_000_128",
+    "original": "Scree!",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_BANQIQ002_03795_SYSTEM_000_150",
+    "original": "The Qitari father and son have arrived at conflicting interpretations of the events depicted on the stela. At the bidding of the Great Serpent of Ronka, it has fallen to you to determine which version of history will be recorded.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_BANQIQ002_03795_SYSTEM_000_151",
+    "original": "You have achieved \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ETrusted\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E reputation with the Stewards.",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_BANQIQ002_03795_SYSTEM_100_151",
+    "original": "Borrowing the wisdom of the Night\u0027s Blessed, the Qitari have set up warding talismans around Hopl\u0027s Stopple. Free from the danger of wandering beasts, the excavation effort should proceed smoothly from here.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_BANQIQ002_03795_SYSTEM_400_151",
+    "original": "Furthermore, yet another serpent clad in curious armor has arrived at the Qitari camp.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_BANQIQ002_03795_SYSTEM_200_151",
+    "original": "In order to continue the Qitari quests, speak with either Qitarl Natl or Chaqurl Qhotl, and choose the interpretation of history that you find most convincing.",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_BANQIQ002_03795_SYSTEM_300_151",
+    "original": "Your choice will affect not only the restoration of the stela, but history as it will be told for years to come. Once you make your choice, you will be unable to go back, so choose carefully.",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_BANQIQ002_03795_SYSTEM_000_152",
+    "original": "New Qitari society daily quests are now available from Qhoterl Pasol at Hopl\u0027s Stopple.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_BANQIQ002_03795_SYSTEM_000_153",
+    "original": "Furthermore, you will be able to undertake three additional quests from Qhoterl Pasol as a reputation bonus. This bonus is available until the daily reset time for allied society quests.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_BANQIQ002_03795_SYSTEM_000_154",
+    "original": "These additional quests will become available after accepting all current daily quests from Qhoterl Pasol. Please be advised that you cannot undertake these quests if you have no remaining allowances.",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_BANQIQ002_03795_SYSTEM_000_155",
+    "original": "Furthermore, you now have access to a wider selection of wares from Yuqurl Manl.",
+    "translation": ""
+  }
+}

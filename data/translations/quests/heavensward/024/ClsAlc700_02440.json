@@ -1,0 +1,607 @@
+{
+  "0": {
+    "tag": "TEXT_CLSALC700_02440_SEQ_00",
+    "original": "Popokkuli appears to be greatly disappointed.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_CLSALC700_02440_SEQ_01",
+    "original": "Popokkuli tells you that Ansobert has escaped from his warehouse. Travel to the Sapphire Avenue Exchange, and there search for the merchant\u0027s lady attendant.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_CLSALC700_02440_SEQ_02",
+    "original": "Ansobert\u0027s distressed attendant reveals that there is a strange rumor surrounding her master. Travel to Erralig\u0027s Burial Chamber and speak with her once more.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_CLSALC700_02440_SEQ_03",
+    "original": "The distressed attendant confesses to you that the remains found outside the city walls were those of her friend who had gone missing. To continue the hunt for Ansobert, travel to Revenant\u0027s Toll and speak with Popokkuli.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_CLSALC700_02440_SEQ_04",
+    "original": "Ansobert confesses to the crime of murdering the woman whose corpse was found outside the city. You have seized Heartstrike, and all that remains now is to use it to free Niellefresne from the blade\u0027s curse. Return to the Alchemists\u0027 Guild to speak with Severian.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_CLSALC700_02440_SEQ_05",
+    "original": "Severian informs you that the curse on Niellefresne can only be broken by destroying Heartstrike and leaving not a trace of it behind. Use a set of dissolvent ingredients to mix a vial of potent dissolvent, and then deliver it to Greinfarr at Erralig\u0027s Burial Chamber.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BIn the event you lose the ingredients or the synthesis ends in failure, you may try again by speaking with Severian.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_CLSALC700_02440_SEQ_06",
+    "original": "You have seen the vial of potent dissolvent to Greinfarr\u0027s hands. Freed at last from the curse of Heartstrike, the remains of Niellefresne and the young lady glow the color of aether before disappearing entirely. Speak once more with Greinfarr.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_CLSALC700_02440_SEQ_07",
+    "original": "Greinfarr has spoken his piece. Return to the Alchemists\u0027 Guild and relay to Severian the deep gratitude of F\u0027lhaminn and her friends.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_CLSALC700_02440_SEQ_08",
+    "original": "Before returning to his alchemical duties, Severian leaves you with the wisdom that learning to live with the loss of loved ones forces us to face our own weaknesses, and that it is an inevitable part of life itself. His trust and confidence in you have grown by the resolution of this affair at your hands. No doubt your adventures together are far from over.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_CLSALC700_02440_TODO_00",
+    "original": "Search for Ansobert\u0027s lady attendant.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_CLSALC700_02440_TODO_01",
+    "original": "Speak with the heartsore handmaiden at Erralig\u0027s Burial Chamber.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_CLSALC700_02440_TODO_02",
+    "original": "Speak with Popokkuli at Revenant\u0027s Toll.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_CLSALC700_02440_TODO_03",
+    "original": "Speak with Severian at the Alchemists\u0027 Guild.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_CLSALC700_02440_TODO_04",
+    "original": "\u003Chex:02089BE3E802E803FF3553796E74686573697A652061207669616C206F6620706F74656E7420646973736F6C76656E742002280AFF064164646F6E0A0103FF5E44656C6976657220746865207669616C206F6620706F74656E7420646973736F6C76656E742002280AFF064164646F6E0A010320746F20477265696E6661727220617420457272616C696727732042757269616C204368616D6265722E03\u003E",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_CLSALC700_02440_TODO_05",
+    "original": "Speak with Greinfarr.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_CLSALC700_02440_TODO_06",
+    "original": "Speak with Severian.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_CLSALC700_02440_POPOKKULI_000_001",
+    "original": "Forgive me, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I\u0027ve failed all of you. Ansobert has made his escape.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_CLSALC700_02440_POPOKKULI_000_002",
+    "original": "By the time Seserukka arrived with the Brass Blades and we entered the warehouse, he was already gone. We kept watch in shifts after that, but he did not return. No doubt he was onto us.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_CLSALC700_02440_POPOKKULI_000_003",
+    "original": "But the more we learn of our prey, the more likely we are to succeed in our hunt.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_CLSALC700_02440_POPOKKULI_000_004",
+    "original": "Seserukka found a woman in the employ of Ansobert\u2500an attendant. We\u0027ve gotten word she is out to the market as we speak.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_CLSALC700_02440_POPOKKULI_000_005",
+    "original": "Come with us. We mean to search for this attendant at the Sapphire Avenue Exchange.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_CLSALC700_02440_MAID02440_000_010",
+    "original": "Yes, that is correct. I am in the employ of the merchant Ansobert. May I inquire as to what business this is about?",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_CLSALC700_02440_POPOKKULI_000_011",
+    "original": "We\u0027ve reason to believe your master is involved in a murder. Tell us, have you noticed anything strange about him or his estate of late?",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_CLSALC700_02440_MAID02440_000_012",
+    "original": "Master Ansobert? Well, now that you mention it... There was another young lady who began work as his attendant around the same time as myself. But one day, with not word of any sort, she simply up and vanished. I never saw her come to work again after that.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_CLSALC700_02440_MAID02440_000_013",
+    "original": "Master Ansobert claimed she was stealing valuables from his home, and that he had no choice but to discharge her. But I grew to know her in the time we spent together. She never would have done such a thing!",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_CLSALC700_02440_MAID02440_000_014",
+    "original": "I came to hear a rumor not long after. People say that Master Ansobert only hires as his attendants women of humble means. And I...I confess, at times I find his gazes quite...discomforting.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_CLSALC700_02440_POPOKKULI_000_015",
+    "original": "It\u0027s alright. You\u0027re safe now. But I must ask, will you come with us to Erralig\u0027s Burial Chamber? There is something we need to know, and only you can tell us.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_CLSALC700_02440_MAID02440_000_016",
+    "original": "If it will in some way help you to learn what happened to that girl, then yes. I will follow wherever you ask.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_CLSALC700_02440_POPOKKULI_000_020",
+    "original": "There you are, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Come, let us hear what this lady attendant has to say.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_CLSALC700_02440_SESERUKKA_000_025",
+    "original": "Gods damn you, Ansobert! Run as much as you like. We\u0027ll find you all the same! We\u0027ll find you and end you!",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_CLSALC700_02440_MAID02440_000_030",
+    "original": "Yes, it... It is her. The girl at rest in that coffin is the same that worked beside me at Mast\u2500at Ansobert\u0027s estate. I know now, as I suspected then, that his accusations of her thievery were lies. He did this to her.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_CLSALC700_02440_POPOKKULI_000_031",
+    "original": "We must capture Ansobert before he harms anyone else. I\u0027m sorry, I know this is not an easy time, but I must ask. Where is he now?",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_CLSALC700_02440_MAID02440_000_032",
+    "original": "I know only that some dealings with a new client had taken him to Revenant\u0027s Toll.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_CLSALC700_02440_POPOKKULI_000_033",
+    "original": "Then let us make for Revenant\u0027s Toll. The hunt is on again!",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_CLSALC700_02440_POPOKKULI_000_035",
+    "original": "It was no easy thing to have this lady identify the remains of her friend, but it had to be done. The pieces are coming together, and we now know where to find Ansobert!",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_CLSALC700_02440_POPOKKULI_000_040",
+    "original": "I looked more into Ansobert\u0027s doings. It seems his name is well known in mercantile circles. But there are those who say his rise came only after many ill-done deeds. ",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_CLSALC700_02440_POPOKKULI_100_050",
+    "original": "He\u0027ll come here before long. We need only wait. Make ready to show Ansobert the vengeance of the dead!",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_CLSALC700_02440_ANSOBERT_000_050",
+    "original": "Who in the hells are you lot?",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_CLSALC700_02440_POPOKKULI_000_051",
+    "original": "We\u0027re here to ask about the corpse of a young lady known to have been in your employ\u2500one of your lady attendants.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_CLSALC700_02440_ANSOBERT_000_052",
+    "original": "I know nothing of such things, and resent the implication. I\u0027ve no business with you, and you\u0027ve none with me.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_CLSALC700_02440_SESERUKKA_000_053",
+    "original": "We know you attacked our friend as well. The evidence all points to you. Confess now. The penalty you will pay will only grow if you don\u0027t.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_CLSALC700_02440_ANSOBERT_000_054",
+    "original": "I told you, I know nothing of such things! I urge you to relent in this. A merchant such as myself has means of dealing with such harassment.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_CLSALC700_02440_GREINFARR_000_055",
+    "original": "Do you, now? And what means are those? I\u0027m eager to hear.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_CLSALC700_02440_MERCENARYA02440_000_056",
+    "original": "Y-You!? Impossible! You were stabbed... Through your very heart!",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_CLSALC700_02440_SESERUKKA_000_057",
+    "original": "Greinfarr! You are well again!",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_CLSALC700_02440_GREINFARR_000_058",
+    "original": "What sort of warrior do you take me for? I\u0027ve spent years cheating death by sword and spell. Did you think some common blade in an alley would be the end of me?",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_CLSALC700_02440_GREINFARR_000_059",
+    "original": "Now then, which of you was it? My sword left a nasty bite of its own. Let us have a look at those hands of yours.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_CLSALC700_02440_ANSOBERT_000_060",
+    "original": "Well, it would seem you\u0027ve left me no recourse but to kill you all! Send these fools to meet their maker!",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_CLSALC700_02440_MERCENARYA02440_000_061",
+    "original": "D-Didn\u0027t you hear him!? That\u0027s Greinfarr! The Bronze Bull! He\u0027s a bleedin\u0027 legend of the Coliseum, up there with the likes of the Hellfire Phoenix!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_CLSALC700_02440_MERCENARYB02440_000_062",
+    "original": "You\u0027re not paying us enough for this, merchant. If you have a fight with the Bronze Bull, that fight is yours alone.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_CLSALC700_02440_GREINFARR_000_063",
+    "original": "I thought my past behind me, but perhaps I am not behind it. No matter. What say you then, Ansobert? Are you prepared to confess your crimes?",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_CLSALC700_02440_ANSOBERT_000_064",
+    "original": "The girl... It was her fault. She forgot her station! The debt she owed me for taking her in! She had no right to refuse me!",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_CLSALC700_02440_ANSOBERT_000_065",
+    "original": "In the end, I forced myself upon her, but to no avail. She swore she would tell all of Ul\u0027dah of my improprieties. That she would tarnish my reputation. Ruin me! I... I could not abide that. So I...silenced her.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_CLSALC700_02440_GREINFARR_000_066",
+    "original": "We are not here to judge you for your crimes. That task will fall to others. We are here for Heartstrike. You have it still, yes? Surrender it.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_CLSALC700_02440_POPOKKULI_000_067",
+    "original": "We\u0027ll take him back to Ul\u0027dah and the Brass Blades. And fear not\u2500should we come under attack and he die along the way, well, we\u0027ll be sure he receives a proper burial. Hah!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_CLSALC700_02440_GREINFARR_000_068",
+    "original": "So this is the true Heartstrike... And the blade I stole was nothing more than a fake. Now we must find a way to release Niellefresne from the curse that binds him.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_CLSALC700_02440_GREINFARR_000_069",
+    "original": "We should show it to Severian. There are rumors he\u0027s dabbled in raising the dead before. Perhaps he knows something we do not.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_CLSALC700_02440_ROWENA_000_070",
+    "original": "What trouble have you brought to my gardens here?",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_CLSALC700_02440_ROWENA_000_071",
+    "original": "Well, Ansobert has always been an acquired taste, and I have never acquired it. I will tell the gate guard to look the other way\u2500no matter what transpires.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_CLSALC700_02440_ROWENA_000_072",
+    "original": "Hm? I\u0027m to ignore whatever comes to pass here this day?",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_CLSALC700_02440_WILTWAEK_000_073",
+    "original": "...I know not what you mean to do, but enjoy yourself in doing it.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_CLSALC700_02440_FLHAMINN_000_075",
+    "original": "The time is nearly here.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_CLSALC700_02440_SESERUKKA_000_076",
+    "original": "Ansobert can leave here as a corpse or in custody. Either is fine by me.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_CLSALC700_02440_MAID02440_000_074",
+    "original": "She was sent to her grave still bearing the false accusations thrown upon her. I fear her soul is unable to rest in peace. Please, deliver her to the other side.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_CLSALC700_02440_GREINFARR_000_080",
+    "original": "We must find a way to break the curse of this blade.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_081",
+    "original": "Well, what a most pleasant surprise. I heard a horde approaching and thought I\u0027d be inconvenienced by some daft clientele. Ahhh, now this is a rare treat indeed. Heartstrike, I presume?",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_082",
+    "original": "How foolish Lord Lolorito must have felt when he realized his blade was false, and Mumuepo\u0027s was genuine. And now I too see it for what it truly is.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_083",
+    "original": "Heartstrike is not, and never was, a blade with the glorious power to turn death to life. It is, and ever was, a blade with the hellish power to turn death to undeath. It is, in all ways, a tool of the most detestable of those who practice the dark arts.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_084",
+    "original": "When the blade punctures the flesh of the dead, the magic contained within this jewel here commands to action the deathly forces that grip a corpse.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_085",
+    "original": "And yet, behold, the other side. There is no such jewel embedded here. I would hazard it was dislodged at some point in all the exchanging of hands and violent stabbing this weapon has seen over the years. Without the other stone, there is not enough power to fully render death to undeath.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_086",
+    "original": "By that grace alone do Niellefresne and the young lady continue to lie in their perfectly preserved state. Had both stones remained, they would have risen as monsters\u2500not as they were known in life, and not truly living. With the power it was still able to muster, Heartstrike simply fettered their spirits to their bodies.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_087",
+    "original": "That, in turn, explains wondrously well why their flesh has never set to rot. Now, or at any point hence, the undoing of Heartstrike\u0027s magic will serve to unbind their spirits. Then, and only then, will they be free to return in peace to the aetherial realm.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_CLSALC700_02440_FLHAMINN_000_088",
+    "original": "How? How do we undo what it has done?",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_089",
+    "original": "I daresay it is far more simple than you might imagine. You need only destroy the source of the magic.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_090",
+    "original": "Stay your sword, fool. You will not break the magic by breaking the blade. We must obliterate Heartstrike, and leave nary a trace of its physical existence. To that end, we require a powerful agent\u2500an acid, a dissolvent of some sort.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_091",
+    "original": "And that being the case, you have done yourself a great service in coming here. Such a concoction shall prove no feat at all for myself and my prodigious pupil here. Is that not right, pupil?",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_092",
+    "original": "Indeed not! I would expect nothing less of you.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_CLSALC700_02440_GREINFARR_000_093",
+    "original": "And so in the end we turn to you, friend. The wrongs of our past were our own. And I hoped to right them by our own hands. But it seems that was not meant to be.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_CLSALC700_02440_GREINFARR_000_094",
+    "original": "That shame is ours to bear. For now, take your time. Steady your hand. Make us what we need to undo what Heartstrike has done. We will await you at Erralig\u0027s Burial Chamber.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_095",
+    "original": "Look at how far you\u0027ve come. Without me even realizing it, you\u0027ve grown to be quite the dependable assistant.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_096",
+    "original": "But enough praise. It does not become me. Come, let us see to the task at hand. We are in need of a solution that will dissolve this accursed blade.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_097",
+    "original": "Do not try and create the dissolvent. That is impossible. Instead, try only to realize that you are mixing the ingredients, and that \u003Chex:021A020203\u003Ethey\u003Chex:021A020103\u003E create the dissolvent. Should you fail in your attempt, I have more materials for you to try again. See this done, and deliver the vial to Greinfarr.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_CLSALC700_02440_GREINFARR_000_100",
+    "original": "Let us put this to the test, then.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_CLSALC700_02440_GREINFARR_000_101",
+    "original": "I\u0027ve run from your death ever since it took you. I was the Bronze Bull, but from that day to this day, I\u0027ve run from myself. From the blade that is my very life.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_CLSALC700_02440_GREINFARR_000_102",
+    "original": "But now, at last, I can move forward. I can see you sound to the other side, and live as I should. As I was meant to.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_CLSALC700_02440_GREINFARR_000_103",
+    "original": "Be at peace now, friend. Lay down the heavy sins of that day. I will carry them. Yours and mine both.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_CLSALC700_02440_POPOKKULI_000_104",
+    "original": "Niellefresne...",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_CLSALC700_02440_FLHAMINN_000_105",
+    "original": "Nielle!",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_CLSALC700_02440_FLHAMINN_000_106",
+    "original": "This is it, then. The end... The very end. Never will I forget you or our time together. The days I spent in your arms. In your love. Never.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_CLSALC700_02440_FLHAMINN_000_107",
+    "original": "I love you, my sweet. Then. Now. Always.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_CLSALC700_02440_FLHAMINN_000_108",
+    "original": "Farewell, my darling Nielle.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_109",
+    "original": "Now that looks to be a fine vial of potent dissolvent. I daresay I\u0027m not quite sure if I could have done better myself. But, yes, now that I think on it, I probably could have. Never mind that. Greinfarr awaits. Deliver your vial to him with all haste.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_CLSALC700_02440_FLHAMINN_000_110",
+    "original": "I have waited for this for a long, long time. Today is the day that we say our final farewell.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_CLSALC700_02440_POPOKKULI_000_115",
+    "original": "I never thought we\u0027d have this day. This chance. And it is all thanks to you.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_CLSALC700_02440_SESERUKKA_000_120",
+    "original": "Niellefresne...",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_CLSALC700_02440_GREINFARR_000_125",
+    "original": "How did you fare, friend? Is the mixture made?",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_CLSALC700_02440_GREINFARR_000_130",
+    "original": "There are no words, friend. No words. I owe you more than I could ever hope to repay.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_CLSALC700_02440_FLHAMINN_100_131",
+    "original": "By your toils, my dearest Nielle is now at peace. I know not what to say but this\u2500thank you. A thousand times, thank you.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_CLSALC700_02440_SESERUKKA_000_132",
+    "original": "Niellefresne...",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_CLSALC700_02440_POPOKKULI_000_133",
+    "original": "Chin up, Seserukka.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_CLSALC700_02440_GREINFARR_000_134",
+    "original": "This is an end, but not the end. There is still a path before each of us that we must walk.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_CLSALC700_02440_FLHAMINN_000_135",
+    "original": "You are right. And there will be those who we lean upon, just as we have to get here. Your mentor Severian is one such soul. Please, do tell him how grateful we are for all he has done.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_CLSALC700_02440_FLHAMINN_000_140",
+    "original": "I must move forward as well. My life must go on.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_CLSALC700_02440_POPOKKULI_000_145",
+    "original": "Sleep well, friend. Sleep well.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_CLSALC700_02440_SESERUKKA_000_150",
+    "original": "Good-bye, Niellefresne.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_160",
+    "original": "Welcome back, my intrepid cadet. Tell me, did all go well? Is Heartstrike no more?",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_161",
+    "original": "Then your dissolvent did as dissolvents do. That is good.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_162",
+    "original": "I am eager to move on to our next lesson. I put to you, a fledgling yet great alchemical mind, this quandary. Should you be faced with the death of one whom you loved more than life itself, and had at your means the method to resurrect him or her, would you?",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_CLSALC700_02440_Q1_00",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_CLSALC700_02440_A1_01",
+    "original": "Yes, without hesitation.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_CLSALC700_02440_A1_02",
+    "original": "No, I would not tamper with the natural order.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_163",
+    "original": "Is that so?",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_164",
+    "original": "Hmph, then you and I are very different people indeed. You are far braver, and far more noble.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_165",
+    "original": "I venture that you, as most, know the pain of losing someone very dear to you.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_166",
+    "original": "There are those who would do anything to bring back those they held torturingly and unyieldingly dear. Were the path to do so presented to them, many would find the temptation to tread it too great to resist.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_167",
+    "original": "And I daresay I must count myself among their number. I did what I could to undo the death of my beloved, yet in the end, her breast never swelled with the breath of life again. We were able to say our farewells, however, and for that I consider myself blessed.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_168",
+    "original": "In the face of such loss, we can do naught but confront our own weakness and carry on with our lives. That act itself is a central pillar of this miracle we call life.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_169",
+    "original": "Well, enough of this Heartstrike business. It is done and behind us. And while we busied ourselves with it, many chores have amassed at the Phrontistery. There is much to be done.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_CLSALC700_02440_SEVERIAN_000_170",
+    "original": "You did well, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. And you are among the finest alchemists I have ever had the honor to train. Come and see me again whenever you find yourself in need of help.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_CLSALC700_02440_GREINFARR_000_175",
+    "original": "It has been longer than I can remember since I knew such quiet and calm\u2500such peace. This, too, I owe to you, friend.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_CLSALC700_02440_SYSTEM_000_171",
+    "original": "In delving deeper into the mystical truths that govern all matter, you have learned \u201CStroke of Genius\u201D!",
+    "translation": ""
+  }
+}

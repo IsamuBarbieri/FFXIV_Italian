@@ -1,0 +1,402 @@
+{
+  "0": {
+    "tag": "TEXT_AKTKBA521_04128_SEQ_00",
+    "original": "The look of relief upon Artoirel\u0027s face bespeaks your timely arrival.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_AKTKBA521_04128_SEQ_01",
+    "original": "In hurried tones, Artoirel informs you that Bishop Vartinoix has decided to grant you an audience this very moment. Not wanting to miss the opportunity to learn if His Grace and Vaindreau may be connected, you make haste for Saint Reymanaud\u0027s Cathedral.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_AKTKBA521_04128_SEQ_02",
+    "original": "You arrive at the cathedral to find an apologetic Clem, who explains that the bishop has left on urgent business. While wondering what business should be so urgent, you head outside with your companions in search of His Grace.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_AKTKBA521_04128_SEQ_03",
+    "original": "It does not take you long to find the bishop. Appearing flustered, he denies any acquaintance with Vaindreau, and makes to leave. Ere he can do so, however, you experience a vision of his past, which reveals that he had journeyed to Azys Lla and tried to resurrect King Thordan and his knights twelve through a ritual of summoning. His plot laid bare, the bishop lashes out in a righteous fury, only to turn into a beast and force Aymeric to cut him down. Artoirel offers to tend to the aftermath and look after the distraught Clem, and bids you and Aymeric await him at the Congregation.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BIn the event that you leave the strategy room, you may re-enter by speaking with the Temple Knight guard at the Congregation of Our Knights Most Heavenly.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_AKTKBA521_04128_SEQ_04",
+    "original": "After you recount your vision in full, Aymeric posits that the summoning ritual may have succeeded despite the lack of aether. However, what resulted was not the fearsome primal and his guard you once faced and felled, but a single, otherwise ordinary man driven by the desire to protect the archbishop. While you have yet to find conclusive proof that this clone and Vaindreau are one and the same, the possibility cannot be ruled out, and it is on this premise that you press on with your investigation.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe next role quest will be available from Artoirel upon reaching level 88 in any magical ranged DPS class.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_AKTKBA521_04128_TODO_00",
+    "original": "Speak with Clem in Saint Reymanaud\u0027s Cathedral.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_AKTKBA521_04128_TODO_01",
+    "original": "Search for Vartinoix.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_AKTKBA521_04128_TODO_02",
+    "original": "Speak with Aymeric in the strategy room.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_AKTKBA521_04128_ARTOIREL_000_000",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, excellent timing as ever. Deacon Clem has just sent word that Bishop Vartinoix will see us now. By which I mean \u003Chex:021A020203\u003Eright this instant\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_AKTKBA521_04128_ARTOIREL_000_001",
+    "original": "\u0027Tis extremely short notice, I know, but it would not do to miss the opportunity to learn how he and Vaindreau may be connected.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_AKTKBA521_04128_ARTOIREL__000_002",
+    "original": "Not wishing to keep His Grace waiting, Lord Aymeric is already on his way to Saint Reymanaud\u0027s Cathedral.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_AKTKBA521_04128_ARTOIREL_000_003",
+    "original": "Come, let us hurry there ourselves.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_AKTKBA521_04128_AYMERIC_000_010",
+    "original": "Ah, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Full glad am I that you could join us.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_AKTKBA521_04128_ARTOIREL_000_015",
+    "original": "It seems His Grace has yet to arrive...",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_AKTKBA521_04128_CLEM_000_020",
+    "original": "My lords, I am so sorry...",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_AKTKBA521_04128_CLEM_000_021",
+    "original": "I informed His Grace that you were making your way hither...",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_AKTKBA521_04128_CLEM_000_022",
+    "original": "But shortly before you arrived, he recalled that he had urgent business and had to leave the cathedral at once.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_AKTKBA521_04128_CLEM_000_023",
+    "original": "He cannot have yet gone far, though, so if you wish to search for him in the hopes you can still steal a moment of his time...",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_AKTKBA521_04128_AYMERIC_000_024",
+    "original": "To grant us an audience only to depart with such haste... What business could be so pressing?",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_AKTKBA521_04128_AYMERIC_000_030",
+    "original": "To be deleted.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_AKTKBA521_04128_ARTOIREL_000_035",
+    "original": "I\u0027ve found His Grace, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_AKTKBA521_04128_CLEM_000_040",
+    "original": "His Grace has yet to return, I am afraid...",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_AKTKBA521_04128_VARTINOIX_000_050",
+    "original": "W-Well now, that even the savior of Ishgard should be here...",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_AKTKBA521_04128_ARTOIREL_000_051",
+    "original": "Your Grace. Perhaps \u0027tis simply our misunderstanding, but we were under the impression that you had granted us an audience.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_AKTKBA521_04128_VARTINOIX_000_052",
+    "original": "To be deleted.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_AKTKBA521_04128_VARTINOIX_000_101",
+    "original": "L-Lord Speaker! Rest assured I was just about to return to the cathedral...",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_AKTKBA521_04128_AYMERIC_000_102",
+    "original": "There is no need, Your Grace\u2500this will not take long. As you may have heard, we are investigating a young man named Vaindreau. Is he known to you?",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_AKTKBA521_04128_VARTINOIX_000_103",
+    "original": "No, no, I cannot say he is. With the exception of the former archimandrite, I am sure I know no one by that name.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_AKTKBA521_04128_VARTINOIX_000_104",
+    "original": "But mine and the archbishop\u0027s are known to many, yes? Perhaps...perhaps this youth took inspiration from public services over which we presided. Goodly soul that he is. Full glad am I that his faith was of comfort to him in sickness, and I pray to Halone that he will soon be found in good health.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_AKTKBA521_04128_VARTINOIX_000_105",
+    "original": "Now then, if there was nothing else, I shall return to my duties...",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_AKTKBA521_04128_VARTINOIX_000_106",
+    "original": "Fear not, Your Eminence. I shall carry on your legacy.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_AKTKBA521_04128_CLERGYMAN04129_000_107",
+    "original": "We have completed the preparations as per your instructions. But are you certain this will work...?",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_AKTKBA521_04128_VARTINOIX_000_108",
+    "original": "It will. It must. Lord Aymeric spoke the truth when he revealed the archbishop sought primal powers to strengthen the people\u0027s faith.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_AKTKBA521_04128_VARTINOIX_000_109",
+    "original": "I could not bring myself to believe it. Not at first. But in the course of cataloging His Eminence\u0027s personal articles, I came upon his journal...",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_AKTKBA521_04128_VARTINOIX_000_110",
+    "original": "Therein he had written that, through abundant aether and fervent prayer, it is possible to make gods of men!",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_AKTKBA521_04128_VARTINOIX_000_111",
+    "original": "All the power we require lies in this place, this Azys Lla. By channeling the essential elements into the soulless flesh and sword we found...",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_AKTKBA521_04128_VARTINOIX_000_112",
+    "original": "We shall summon forth King Thordan and his knights twelve, and by His blessing Ishgard shall be restored to its former glory!",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_AKTKBA521_04128_VARTINOIX_000_113",
+    "original": "Wh-What is this? It\u0027s...just an ordinary man, scarcely changed from before...",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_AKTKBA521_04128_VAINDREAU_000_114",
+    "original": "Unnngh... His Eminence... I must protect...unnngh...",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_AKTKBA521_04128_VARTINOIX_000_115",
+    "original": "No... No, this isn\u0027t right!",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_AKTKBA521_04128_VARTINOIX_000_116",
+    "original": "Confound it... Perhaps I overlooked something. I must return to the Holy See and review the journal.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_AKTKBA521_04128_INQUISITOR04129_000_117",
+    "original": "Your Grace! What shall we do with this...thing?",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_AKTKBA521_04128_VARTINOIX_000_118",
+    "original": "Leave it! \u0027Tis a failure without use or value. The denizens of this place will deal with it soon enough.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_AKTKBA521_04128_AYMERIC_000_119",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, are you well? Were you perchance granted a vision of the past?",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_AKTKBA521_04128_AYMERIC_000_120",
+    "original": "An attempted summoning of King Thordan and his knights twelve!?",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_AKTKBA521_04128_AYMERIC_000_121",
+    "original": "Your Grace, you should know full well that summoning is strictly forbidden. You will accompany us to the Congregation and explain yourself.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_AKTKBA521_04128_VARTINOIX_000_122",
+    "original": "I have dedicated my life to the church! Conducted my affairs in accordance with the scriptures, and taught others to do likewise!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_AKTKBA521_04128_VARTINOIX_000_123",
+    "original": "But you took it all from us! Tore down everything that defined us!",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_AKTKBA521_04128_VARTINOIX_000_124",
+    "original": "You cannot know how it feels to have your very existence rejected! To be forsaken by your community\u2500to be \u003Chex:021A020203\u003Edenied\u003Chex:021A020103\u003E by your society!",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_AKTKBA521_04128_VARTINOIX_000_125",
+    "original": "Well, I deny \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E and this \u003Chex:021A020203\u003Ejustice\u003Chex:021A020103\u003E! I deny an Ishgard where the church has no place!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_AKTKBA521_04128_VARTINOIX_000_126",
+    "original": "To be deleted.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_AKTKBA521_04128_VARTINOIX_000_127",
+    "original": "I refuse to accept it, do you hear me!? \u003Chex:021A020203\u003EI refuse to accept it\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_AKTKBA521_04128_CLEM_000_128",
+    "original": "Your Grace! Noooooo!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_AKTKBA521_04128_ARTOIREL_000_129",
+    "original": "That it should come to violence yet again... Would that your hand had not been forced, my lord.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_AKTKBA521_04128_ARTOIREL_000_130",
+    "original": "Deacon Clem should not be alone at this time. I shall remain with him while tending to the aftermath.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_AKTKBA521_04128_ARTOIREL_000_131",
+    "original": "When things have settled, I will return to the Congregation. Pray go on ahead and get some rest.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_AKTKBA521_04128_AYMERIC_000_140",
+    "original": "How fares the deacon?",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_AKTKBA521_04128_ARTOIREL_000_141",
+    "original": "Well enough, given the circumstances.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_AKTKBA521_04128_ARTOIREL_000_142",
+    "original": "Though understandably shaken, he is more determined than ever to help his fellows.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_AKTKBA521_04128_AYMERIC_000_143",
+    "original": "Truly, he is possessed of a stout heart.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_AKTKBA521_04128_AYMERIC_000_144",
+    "original": "But to think that even a member of the Synod could succumb to despair and turn...",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_AKTKBA521_04128_AYMERIC_000_145",
+    "original": "The crisis gripping the church is far graver than I had imagined.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_AKTKBA521_04128_AYMERIC_000_146",
+    "original": "In pushing for such an abrupt separation of religion and state, we may have exacerbated the growing divide between the clergy and the general populace.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_AKTKBA521_04128_ARTOIREL_000_147",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u2500will you recount in full that which you witnessed in your vision?",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_AKTKBA521_04128_ARTOIREL_000_148",
+    "original": "That he should seek to use one of Allag\u0027s unholy abominations to create a primal...",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_AKTKBA521_04128_ARTOIREL_000_149",
+    "original": "Yet that which manifested was not like the being you fought, but rather retained the form of a man. One driven by the desire to protect the archbishop...",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_AKTKBA521_04128_AYMERIC_000_150",
+    "original": "We may safely assume the bishop did not have sufficient aether. Bereft of Nidhogg\u0027s eye, the sword Ascalon no longer has such power.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_AKTKBA521_04128_AYMERIC_000_151",
+    "original": "Nor does that of the Warring Triad remain to be harnessed, thanks to your valorous intervention.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_AKTKBA521_04128_AYMERIC_000_152",
+    "original": "To be deleted.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_AKTKBA521_04128_ARTOIREL_000_153",
+    "original": "But if the summoning failed, how did the clone come to possess life? And what purpose drives it?",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_AKTKBA521_04128_ARTOIREL_000_154",
+    "original": "To be deleted.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_AKTKBA521_04128_AYMERIC_000_155",
+    "original": "Lack of aether notwithstanding, the necessary components were present for a summoning.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_AKTKBA521_04128_AYMERIC_000_156",
+    "original": "Perhaps the ritual itself was a success, and the vessel, though imperfect, arose as a champion of the archbishop. Yet how did he come to be in the central highlands...?",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_AKTKBA521_04128_AYMERIC_000_157",
+    "original": "To be deleted.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_AKTKBA521_04128_ARTOIREL_000_158",
+    "original": "You believe that this clone and the man who became the blasphemy are one and the same?",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_AKTKBA521_04128_AYMERIC_000_159",
+    "original": "Nay, I merely speculate. Yet considering what we know of the clone and Vaindreau, it would seem a likely possibility.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_AKTKBA521_04128_AYMERIC_000_160",
+    "original": "Whatever the truth may be, it will not elude us forever. But first, I must lay some groundwork for the next phase of our investigation.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_AKTKBA521_04128_AYMERIC_000_161",
+    "original": "Gods permitting, I will have news to share ere long, so pray look in on us when you can.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_AKTKBA521_04128_CASTERGATEKEEPER_000_500",
+    "original": "Heading to the strategy room? I should be glad to show you in.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_AKTKBA521_04128_SYSTEM_000_501",
+    "original": "Proceed to the strategy room?",
+    "translation": ""
+  }
+}

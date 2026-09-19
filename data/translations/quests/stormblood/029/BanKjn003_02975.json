@@ -1,0 +1,562 @@
+{
+  "0": {
+    "tag": "TEXT_BANKJN003_02975_SEQ_00",
+    "original": "The look in Kabuto\u0027s eyes suggests he recently received good news.\u003Chex:02100103\u003E\u203BThe difficulty of this quest will be synced to your current level.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_BANKJN003_02975_SEQ_01",
+    "original": "There is treasure in the Azim Steppe, and Kabuto is able to relay the news to you with surprising clarity. Because the Kojin are unfamiliar with the Steppe, Tsukumo asks that you accompany them on this expedition. No sooner do you consent than they make for Reunion.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_BANKJN003_02975_SEQ_02",
+    "original": "When you arrive at Reunion, Kabuto and Tsukumo are eager to begin their search. They suggest splitting up to speak with as many of the settlement\u0027s inhabitants as possible.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_BANKJN003_02975_SEQ_03",
+    "original": "You hear various rumors of a bow which grants its user strength beyond belief, its owner being a young boy of the Qestir tribe named Uchikin. Perhaps Kabuto has additional information to share.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_BANKJN003_02975_SEQ_04",
+    "original": "Kabuto tells you of his awkward and otherwise fruitless conversation with the Qestir tribe. Though they had no words of insight to offer, Kabuto believes the Qestir\u0027s mannerisms suggested they go and see the bow for themselves. Tsukumo suggests you split up once more to search for the young boy and his bow.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_BANKJN003_02975_SEQ_05",
+    "original": "You find a young Qestiri boy who you believe to be Uchikin, but his bow is nowhere to be found. His sullen expression suggests it was stolen. Realizing you have come to help he says nary a word, but points southeast. You head in that direction expecting to find his bow, and likely trouble as well.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_BANKJN003_02975_SEQ_06",
+    "original": "It does not take long for you to find Uchikin\u0027s bow, and the two Red Kojin who stole it. A quick thrashing as only you could give sends them running. Uchikin will be quite pleased to have his bow returned to him.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_BANKJN003_02975_SEQ_07",
+    "original": "Uchikin is silent, but his look of relief upon being reunited with his bow speaks volumes. It soon becomes clear that bow has no supernatural powers nor is Uchikin a naturally gifted marksman. In truth, his talent is born from the incredible time and dedication he poured into honing his skills. Kabuto and Tsukumo have no interest in asking for something he considers so precious and are ready to depart when Uchikin\u0027s father hands them an envelope. Enclosed within is a document granting the Blue Kojin leave to barter and trade in Reunion. There are, however, still finer details of the agreement that must be discussed. Tsukumo and Kabuto follow Uchikin\u0027s father back to Reunion and ask you to meet with them back in Tamamizu.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_BANKJN003_02975_SEQ_08",
+    "original": "All things considered, talks with the Qestir went smoothly. The future of trade for the Blue Kojin seems bright, but Kabuto is concerned he relies far too heavily on your strength. It seems Kabuto still has much to learn of what it means to lead.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_BANKJN003_02975_TODO_00",
+    "original": "Speak with Kabuto in Reunion.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_BANKJN003_02975_TODO_01",
+    "original": "Speak with the people of Reunion.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_BANKJN003_02975_TODO_02",
+    "original": "Speak with Kabuto.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_BANKJN003_02975_TODO_03",
+    "original": "Search for Uchikin.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_BANKJN003_02975_TODO_04",
+    "original": "Search for Uchikin\u0027s stolen bow.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_BANKJN003_02975_TODO_05",
+    "original": "Deliver the stolen bow to Uchikin.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_BANKJN003_02975_TODO_06",
+    "original": "Speak with Kabuto in Tamamizu.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_BANKJN003_02975_SYSTEM_000_000",
+    "original": "In order to undertake this quest, you must first complete the main scenario quest \u201CHere There Be Xaela.\u201D",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_BANKJN003_02975_KABUTO_000_001",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Your timing is fortuitous as always.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_BANKJN003_02975_KABUTO_000_002",
+    "original": "We recently received word of an artifact in the Azim Steppe worthy of the vault. As I am unfamiliar with lands beyond the Ruby Sea, I would ask you accompany me.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_003",
+    "original": "Well said, Kabuto. I knew you had it in you.\u003Chex:02100103\u003EYour assistance would be greatly appreciated, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Being such a well-traveled adventurer, I suspect you would be much better suited to guide us.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_004",
+    "original": "Excellent! Then we will meet you in Reunion.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_009",
+    "original": "There you are. A beautiful place, is it not? Would that the winds were not so strong. I feel as though I could be whisked away at any moment.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_BANKJN003_02975_PERSONA02975_000_009",
+    "original": "A hardened warrior, I see. There\u0027s no need to deny it\u2500the stench of blood and battle is unmistakable.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_BANKJN003_02975_PERSONB02975_000_009",
+    "original": "Hmmm. You\u0027ve the look of a warrior. Yes, one who might know an able-bodied man or two worthy of the Buduga. Perhaps you could introduce me?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_BANKJN003_02975_PERSONC02975_000_009",
+    "original": "Admiring my bow, are you? You will find no better in all the Steppe. A lesser weapon would bring shame to the Oronir.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_BANKJN003_02975_KABUTO_000_010",
+    "original": "There are Au Ra everywhere. It calls to mind Sui\u003Chex:021F0103\u003Eno\u003Chex:021F0103\u003ESato.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_011",
+    "original": "I was concerned you would only retreat further into your shell being so far away from home, but I am glad to be mistaken. At any rate, we must not waste any more time.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_012",
+    "original": "I will accompany Kabuto and see what we can learn here in Reunion. You should have a look about as well and see if you can learn aught of this treasure.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_BANKJN003_02975_PERSONA02975_000_020",
+    "original": "A great treasure? Do you mean the bow belonging to that Qestiri boy? I\u0027ve heard he can pierce the very heavens with it.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_BANKJN003_02975_PERSONA02975_000_029",
+    "original": "I only know that the bow belongs to a boy of the Qestir tribe. Would that I had such a weapon.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_BANKJN003_02975_PERSONB02975_000_020",
+    "original": "Yes, I\u0027ve heard of the young Qestiri boy and his bow. Uchikin is his name.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_BANKJN003_02975_PERSONB02975_100_020",
+    "original": "Though I love a good rumor, I suggest you speak with him yourself to learn the truth.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_BANKJN003_02975_PERSONB02975_000_029",
+    "original": "If you would know the truth of Uchikin and his bow, it would be best to see it for yourself.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_BANKJN003_02975_PERSONC02975_000_020",
+    "original": "A boy with a bow that can pierce the heavens? Hmph. I\u0027ve heard the rumors, but who would believe such nonsense. I guarantee you his bow pales in comparison to mine.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_BANKJN003_02975_PERSONC02975_000_029",
+    "original": "The rumors are just that\u2500rumors. His bow is likely plainer than the horns on my head.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_029",
+    "original": "You missed a rather amusing conversation. I never imagined meeting anyone who speaks less than Kabuto.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_BANKJN003_02975_KABUTO_000_030",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E. How did you fare? I spoke with the Au Ra of the Qestir tribe. Well, I tried to. I was met only with silence.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_031",
+    "original": "A pity you were not there. Kabuto speaking with a man of fewer words than himself is something that must be seen to be believed.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_BANKJN003_02975_KABUTO_000_032",
+    "original": "How is it they can govern Reunion yet never speak?",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_BANKJN003_02975_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_BANKJN003_02975_A1_000_001",
+    "original": "They gained the trust of their brethren through actions, not words.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_BANKJN003_02975_A1_000_002",
+    "original": "They have an august presence that commands respect.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_BANKJN003_02975_KABUTO_000_033",
+    "original": "Indeed. Words mean nothing without action to prove their worth.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_BANKJN003_02975_KABUTO_000_034",
+    "original": "Indeed. I doubt such authority is earned with empty words.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_BANKJN003_02975_KABUTO_000_035",
+    "original": "Though I know not how, their silence spoke volumes. It said that we should judge this treasure with our own eyes.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_036",
+    "original": "That would certainly be the fastest way to ascertain the truth of the stories that brought us here. Speaking of stories, were you able to learn anything from the residents of Reunion, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E?",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_037",
+    "original": "A boy of the Qestir tribe. I see. Persuading him to relinquish a weapon of such value seems unlikely, but at the very least we should seek him out.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_038",
+    "original": "We are like to find him faster if we split up. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, would you try searching south of Reunion? Kabuto and I will go north.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_BANKJN003_02975_UCHIKIN_000_040",
+    "original": "...",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_BANKJN003_02975_SYSTEM_100_040",
+    "original": "Uchikin seems awfully dejected.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_BANKJN003_02975_UCHIKIN_101_040",
+    "original": "...",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_BANKJN003_02975_SYSTEM_000_041",
+    "original": "Uchikin stifles his tears as he points southeast. Bereft of his bow, you surmise it was stolen. The culprit likely made off in the direction Uchikin is pointing.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_BANKJN003_02975_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_BANKJN003_02975_A2_000_001",
+    "original": "Don\u0027t worry. I\u0027ll retrieve your bow.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_BANKJN003_02975_A2_000_002",
+    "original": "Wait here.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_BANKJN003_02975_UCHIKIN_000_043",
+    "original": "...",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_BANKJN003_02975_SYSTEM_000_044",
+    "original": "Uchikin seems immensely grateful for your aid. You should leave now before the thief gets away.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_BANKJN003_02975_UCHIKIN_000_048",
+    "original": "...",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_BANKJN003_02975_SYSTEM_000_049",
+    "original": "Uchikin points to the southeast. You should leave now, lest the thief get away.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_BANKJN003_02975_BALLOON_000_050",
+    "original": "We were followed!?",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_BANKJN003_02975_BALLOON_000_051",
+    "original": "The treasure is ours!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_BANKJN003_02975_BALLOON_000_052",
+    "original": "You will pay for your meddling!",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_BANKJN003_02975_KABUTO_000_059",
+    "original": "That bow. Is that what I think it is?",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_059",
+    "original": "We failed to find the bow, but did manage to track down Uchikin\u0027s father. I can only hope your search was more fruitful.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_BANKJN003_02975_UCHIKINPAPA_000_058",
+    "original": "...",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_BANKJN003_02975_SYSTEM_000_059",
+    "original": "Uchikin\u0027s father seems glad to see you have retrieved his son\u0027s bow.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_BANKJN003_02975_UCHIKIN_000_060",
+    "original": "...",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_BANKJN003_02975_UCHIKIN_000_061",
+    "original": "...",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_062",
+    "original": "They both seem quite pleased to have the bow returned.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_063",
+    "original": "Where did you find it? We were just preparing to search the area with Uchikin\u0027s father.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_BANKJN003_02975_KABUTO_000_064",
+    "original": "The Red Kojin!? I didn\u0027t expect them to come this far in search of treasure.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_065",
+    "original": "Come now, Kabuto. If we were able to learn of this great treasure, it stands to reason they might come to know of it as well.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_BANKJN003_02975_KABUTO_000_066",
+    "original": "That said, this bow doesn\u0027t appear to be particularly unique, though it does seem easy for a child to wield.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_BANKJN003_02975_UCHIKIN_000_067",
+    "original": "...",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_068",
+    "original": "So that is the way of it. The bow is for Uchikin\u0027s training.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_BANKJN003_02975_KABUTO_000_069",
+    "original": "Then it was not the bow but Uchikin\u0027s natural prowess that spurred the rumors?",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_100_070",
+    "original": "I suspect Uchikin was not all that talented when he began practicing.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_071",
+    "original": "Take a closer look at the bow. Its size is perfect for him, and the draw weight seems to be such that he can handle it with ease. Moreover, it appears to be far from new, meaning Uchikin has put a great deal of care into maintaining it.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_072",
+    "original": "I think it was crafted by his father as a gift. And because Uchikin enjoyed the bow so much, he labored tirelessly to master it. It is indeed a treasure\u2500in Uchikin\u0027s eyes.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_100_073",
+    "original": "Well, there you have it. And who are we to ask him to part with something so precious? No, I believe there is nothing left for us here.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_BANKJN003_02975_UCHIKINPAPA_000_074",
+    "original": "...",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_BANKJN003_02975_KABUTO_000_075",
+    "original": "What is this?",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_076",
+    "original": "I think he means to grant us leave to barter in Reunion.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_100_076",
+    "original": "You would welcome trade with the Blue Kojin?",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_100_077",
+    "original": "Thank you, sir. Thank you! Trade here in the Azim Steppe will prove more valuable than any single treasure.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_BANKJN003_02975_KABUTO_000_078",
+    "original": "Again we have gained a new ally thanks to you.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_079",
+    "original": "Your resourcefulness never ceases to amaze. Isn\u0027t that RiGht...KaBu...",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_BANKJN003_02975_KABUTO_000_080",
+    "original": "Tsukumo!?",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_081",
+    "original": "...Hm? Where was I? Ah yes, your resourcefulness. There is much we have to learn from you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_082",
+    "original": "Why do you all stare at me so? Is something the matter?",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_BANKJN003_02975_KABUTO_000_083",
+    "original": "You suddenly stopped moving, as if devoid of life.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_084",
+    "original": "Nonsense. You must be imagining things. I assure you I am perfectly fine.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_100_084",
+    "original": "Uchikin\u0027s father wants us to follow him. No doubt there are still details of our new trade agreement that must be decided upon.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_085",
+    "original": "Kabuto and I can handle matters from here. Once we have finished our business in Reunion, we will meet you back in Tamamizu.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_089",
+    "original": "I told Kabuto there is nothing to worry about but he refuses to listen. Perhaps you can make him listen to reason.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_BANKJN003_02975_KABUTO_000_090",
+    "original": "Talks with the Qestir went well. While returning home, however, Tsukumo began acting strangely again.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_091",
+    "original": "For the last time, Kabuto, I am fine. I was merely tired from the long journey.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_092",
+    "original": "But enough about me. We should be celebrating a job well done. Trade with Reunion will open up new opportunities for the Blue Kojin, and the Qestir have taught us a lesson on the importance of one\u0027s actions. I hope it is one you took to heart, Kabuto.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_BANKJN003_02975_KABUTO_000_093",
+    "original": "I have. It was inspiring to see how they could manage all of Reunion yet never speak.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_BANKJN003_02975_KABUTO_000_094",
+    "original": "Yet I still find myself relying on \u003Chex:022C0DFF07022903EB0203FF02200203\u003E more than I should.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_095",
+    "original": "What happened to the confident Kojin I saw in the Azim Steppe? This is no way for the leader of the Divine Circle to behave. Is that not so, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E?",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_BANKJN003_02975_Q3_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_BANKJN003_02975_A3_000_001",
+    "original": "The others are counting on you, Kabuto.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_BANKJN003_02975_A3_000_002",
+    "original": "I have faith in you, Kabuto.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_BANKJN003_02975_KABUTO_000_096",
+    "original": "...",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_BANKJN003_02975_TSUKUMO_000_097",
+    "original": "My apologies, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, but it seems we will have need of your assistance a while longer.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_BANKJN003_02975_SYSTEM_000_200",
+    "original": "The Qestir of the Azim Steppe have invited the Blue Kojin to barter in Reunion, and offered a contribution to the treasure vault.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_BANKJN003_02975_SYSTEM_000_201",
+    "original": "You have achieved \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ERespected\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E reputation with the Kojin.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_BANKJN003_02975_SYSTEM_000_202",
+    "original": "New Kojin society daily quests are now available from Zukin at Tamamizu.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_BANKJN003_02975_SYSTEM_000_203",
+    "original": "Furthermore, you will be able to undertake three additional quests from Zukin as a reputation bonus. This bonus is available until the daily reset time for allied society quests.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_BANKJN003_02975_SYSTEM_000_204",
+    "original": "These additional quests will become available after accepting all current daily quests from Zukin. Please be advised that you cannot undertake these quests if you have no remaining allowances.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_BANKJN003_02975_SYSTEM_000_205",
+    "original": "You now have access to a wider selection of wares from Shikitahe.",
+    "translation": ""
+  }
+}

@@ -1,0 +1,967 @@
+{
+  "0": {
+    "tag": "TEXT_MANSEA200_00546_SEQ_00",
+    "original": "Merlwyb wishes to entrust you with an important task.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_MANSEA200_00546_SEQ_01",
+    "original": "Appointing you her personal envoy, Merlwyb bids you deliver a missive to the other two leaders of the Eorzean Alliance. In order to facilitate your journey, she bestows upon you an airship pass, which will allow you to travel by air between the three allied nations. Before making your way to the airship landing, be sure to quiz Baderon as to what awaits beyond the Strait of Merlthor.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_MANSEA200_00546_SEQ_02",
+    "original": "In addition to Limsa Lominsa, the Eorzean Alliance encompasses the city\u003Chex:021F0103\u003Estates of Gridania and Ul\u0027dah. Once you have made your final preparations for the journey, take the Crow\u0027s Lift to the airship landing and speak with L\u0027nophlo at the entrance lobby.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_MANSEA200_00546_SEQ_03",
+    "original": "You are now ready to embark upon the first leg of your journey, which will take you to Gridania. Make your way to the landing area and await departure.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_MANSEA200_00546_SEQ_04",
+    "original": "Having safely arrived in Gridania, you must now seek an audience with the Elder Seedseer. Ask the serpent honor guard for assistance.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_MANSEA200_00546_SEQ_05",
+    "original": "The Elder Seedseer awaits you at the Lotus Stand. Make your way to Nophica\u0027s Altar within Old Gridania, and present Merlwyb\u0027s missive to the silent conjurer to gain admission.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_MANSEA200_00546_SEQ_06",
+    "original": "The Elder Seedseer is receptive to the proposal detailed in Merlwyb\u0027s missive. It appears the Garlean Empire remains a grave threat to Eorzea, with the XIVth Imperial Legion, led by Legatus Gaius van Baelsar, deeply entrenched in the border regions. Your business in Gridania successfully concluded, make your way to the airship landing and speak with Lionnellais.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_MANSEA200_00546_SEQ_07",
+    "original": "You are now ready to embark upon the second leg of your journey, which will take you to Ul\u0027dah. Make your way to the landing area and await departure.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_MANSEA200_00546_SEQ_08",
+    "original": "Having safely arrived in Ul\u0027dah, you must now seek an audience with the Flame General. Ask the flame honor guard for assistance.",
+    "translation": ""
+  },
+  "9": {
+    "tag": "TEXT_MANSEA200_00546_SEQ_09",
+    "original": "The Flame General awaits you at the Royal Promenade. Present Merlwyb\u0027s missive to Bartholomew on the Hustings Strip to gain admission.",
+    "translation": ""
+  },
+  "10": {
+    "tag": "TEXT_MANSEA200_00546_SEQ_10",
+    "original": "Having now passed on Merlwyb\u0027s message to the leaders of both Gridania and Ul\u0027dah, you have discharged your duty as the Admiral\u0027s envoy, and learned of the various threats facing Eorzea in the process. Given the immensity of the forces at work, you are moved to wonder what meaningful contribution a lone adventurer might make to the realm\u0027s preservation. Perhaps the answer will be revealed to you in the days to come.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_MANSEA200_00546_TODO_00",
+    "original": "Speak with Baderon.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_MANSEA200_00546_TODO_01",
+    "original": "Speak with L\u0027nophlo at the airship landing.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_MANSEA200_00546_TODO_02",
+    "original": "Board the airship.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_MANSEA200_00546_TODO_03",
+    "original": "Speak with the serpent honor guard.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_MANSEA200_00546_TODO_04",
+    "original": "Present Merlwyb\u0027s missive to the silent conjurer at Nophica\u0027s Altar.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_MANSEA200_00546_TODO_05",
+    "original": "Speak with Lionnellais at the airship landing.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_MANSEA200_00546_TODO_06",
+    "original": "Board the airship.",
+    "translation": ""
+  },
+  "31": {
+    "tag": "TEXT_MANSEA200_00546_TODO_07",
+    "original": "Speak with the flame honor guard.",
+    "translation": ""
+  },
+  "32": {
+    "tag": "TEXT_MANSEA200_00546_TODO_08",
+    "original": "Present Merlwyb\u0027s missive to Bartholomew on the Hustings Strip.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_MANSEA200_00546_MERLWYB_000_1",
+    "original": "The duty I have in mind for you requires some explanation. I do hope you have not made other plans. To business, then.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_MANSEA200_00546_MERLWYB_000_10",
+    "original": "I have penned a letter to each of my counterparts in the Eorzean Alliance.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_MANSEA200_00546_MERLWYB_000_11",
+    "original": "The Battle of Carteneau and the Calamity that followed claimed countless lives.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_MANSEA200_00546_MERLWYB_000_12",
+    "original": "It has been five years since those of us who were spared dragged ourselves from the ashes to look upon an Eorzea we scarcely knew... Five years, and yet the people still suffer.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_MANSEA200_00546_MERLWYB_000_13",
+    "original": "Their lives are fraught with worry and hardship, and the Warriors of Light who might once have given them hope are gone.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_MANSEA200_00546_MERLWYB_000_14",
+    "original": "Yet we must press on regardless. We will never truly do so, however, till we have faced our past.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_MANSEA200_00546_MERLWYB_000_15",
+    "original": "To that end, I am proposing that a memorial service be held in each of the city\u003Chex:021F0103\u003Estates on the fifth anniversary of the Battle of Carteneau.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_MANSEA200_00546_MERLWYB_000_16",
+    "original": "These letters contain the details of said proposal.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_MANSEA200_00546_MERLWYB_000_17",
+    "original": "And I would have you deliver them to our allies as my personal envoy.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_MANSEA200_00546_MERLWYB_000_18",
+    "original": "You have proven yourself a staunch and able ally to Limsa, but that is not my only reason for choosing you. No. I choose you because you possess a quality which puts me in mind of history\u0027s champions. A quality I feared lost. Say that you will perform this duty.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_MANSEA200_00546_MERLWYB_000_19",
+    "original": "I knew you would not disappoint me.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_MANSEA200_00546_MERLWYB_000_20",
+    "original": "This task shall take you far from the borders of our nation, to the city\u003Chex:021F0103\u003Estates of Gridania and Ul\u0027dah.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_MANSEA200_00546_MERLWYB_000_21",
+    "original": "A grueling journey, to be sure...were you to travel by sea and land. But I mean to have you take to the skies.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_MANSEA200_00546_MERLWYB_000_22",
+    "original": "An airship pass, to be used at your discretion.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_MANSEA200_00546_MERLWYB_000_23",
+    "original": "Airships bound for the nations of our allies leave from the landing connected to the Bridge. But before you depart, I suggest you trouble Baderon for a few pearls of wisdom regarding each of your destinations. The old bastard is nothing if not well traveled.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_MANSEA200_00546_MERLWYB_000_24",
+    "original": "\u0027Tis a pity I cannot issue such passes with a freer hand, as I did in more peaceful times, when berths were not so limited. But in these times of war, every craft we commit to the clouds risks drawing the eye of the Empire, and every voyage must needs be born of necessity.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_MANSEA200_00546_MERLWYB_000_25",
+    "original": "Lest you doubt, I consider your place well deserved.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_MANSEA200_00546_MERLWYB_000_26",
+    "original": "Nor am I alone in that opinion. There were \u003Chex:021A020203\u003Eother\u003Chex:021A020103\u003E parties who would see you granted the privilege of air travel.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_MANSEA200_00546_MERLWYB_000_27",
+    "original": "Aye, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, your deeds do not go unnoticed.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_MANSEA200_00546_MERLWYB_000_28",
+    "original": "Full many see great promise in you. But I have flattered you enough.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_MANSEA200_00546_MERLWYB_000_29",
+    "original": "On behalf of Limsa Lominsa and her people, I bid you go forth, adventurer.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_MANSEA200_00546_MERLWYB_000_30",
+    "original": "Discover the realm for which so many have fought and died.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_MANSEA200_00546_MERLWYB_000_31",
+    "original": "Wonder and danger await you in equal measure, but turn not from either. Only by braving the unknown will you achieve the greatness of which you are surely capable.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_MANSEA200_00546_MERLWYB_000_32",
+    "original": "The light of the Crystal guides you, and I wager that your destiny will be no small thing.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_MANSEA200_00546_BADERON_000_40",
+    "original": "Back from yer meetin\u0027 with the Admiral, are ye?",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_MANSEA200_00546_BADERON_000_41",
+    "original": "Personal bleedin\u0027 envoy!?",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_MANSEA200_00546_BADERON_000_42",
+    "original": "So ye\u0027ll be carryin\u0027 the word o\u0027 the Admiral \u0027erself to the leaders o\u0027 the Alliance!?",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_MANSEA200_00546_BADERON_000_43",
+    "original": "Bugger me... I knew ye was goin\u0027 up in the world, but I didn\u0027t realize ye\u0027d got \u003Chex:021A020203\u003Ethat\u003Chex:021A020103\u003E bloody \u0027igh!",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_MANSEA200_00546_BADERON_000_44",
+    "original": "I\u0027m proud o\u0027 ye, \u003Chex:02080EE905FF056C617373FF046C616403\u003E! Thinkin\u0027 of \u0027ow far ye\u0027ve come...why, \u0027tis enough to bring a tear to me eye! An\u0027 that ain\u0027t the ale talkin\u0027, neither\u2500well, not \u003Chex:021A020203\u003Ejust\u003Chex:021A020103\u003E the ale, at any rate...",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_MANSEA200_00546_BADERON_000_45",
+    "original": "Bless the Navigator fer steerin\u0027 ye my way.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_MANSEA200_00546_BADERON_000_46",
+    "original": "\u0027Course, this is only the start! Now ye\u0027ve got yer \u0027ands on an airship pass, the \u0027ole of Eorzea\u0027s laid out before ye, like a fair maid on a feather bed!",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_MANSEA200_00546_BADERON_000_47",
+    "original": "An\u0027 she\u0027s a big girl, too, with plenty of enticin\u0027 nooks an\u0027 crannies!",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_MANSEA200_00546_BADERON_000_48",
+    "original": "If ye think us Lominsans are characters, just wait till ye cross paths with the grim forest dwellers o\u0027 Gridania, or trade coins with the crafty merchants of Ul\u0027dah.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_MANSEA200_00546_BADERON_000_49",
+    "original": "An\u0027 then there\u0027s the wild places where the beasties rule, an\u0027 no bugger with an onze o\u0027 sense sets foot...",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_MANSEA200_00546_BADERON_000_50",
+    "original": "But yer a \u0027venturer, so I wouldn\u0027t let a little thing like that \u0027old ye back.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_MANSEA200_00546_BADERON_000_51",
+    "original": "\u0027Course, it ain\u0027t \u003Chex:021A020203\u003Eall\u003Chex:021A020103\u003E explorin\u0027 an\u0027 excitement.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_MANSEA200_00546_BADERON_000_52",
+    "original": "There\u0027s an \u0027eap o\u0027 troubles what plagues every nation, see\u2500\u0027tain\u0027t just ours. I\u0027m talkin\u0027 intrigue an\u0027 infightin\u0027, beastmen an\u0027 their godsdamned primals\u2500aye, there\u0027s an ugly side to life, an\u0027 sooner or later, yer bound to walk into it.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_MANSEA200_00546_BADERON_000_53",
+    "original": "...But I\u0027ll wager there\u0027s bugger all out there as you can\u0027t \u0027andle. Summat tells me yer goin\u0027 to be just fine.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_MANSEA200_00546_BADERON_000_54",
+    "original": "The realm\u0027s \u0027ad it rough, \u0027tis true, but folk\u0027re beginnin\u0027 to recover from the beatin\u0027 the Calamity dealt \u0027em. Call me an \u0027opeless optimist, but it wouldn\u0027t take much to turn things \u0027round.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_MANSEA200_00546_BADERON_000_55",
+    "original": "\u0027Tis the perfect time fer a \u0027venturer like yerself to get out there an\u0027 make a difference!\u003Chex:02100103\u003E...Well, what are ye waitin\u0027 fer!?",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_MANSEA200_00546_LNOPHLO_000_60",
+    "original": "Greetings, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. This is the counter for passengers traveling to Gridania.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_MANSEA200_00546_LNOPHLO_000_61",
+    "original": "...Wait, aren\u0027t you that famous adventurer? It\u0027s \u003Chex:022903EB0203\u003E, isn\u0027t it? I thought I recognized you! You are an inspiration to us all, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E! Highwind Skyways is at your disposal! Will you be traveling with us today?",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_MANSEA200_00546_Q1_000_1",
+    "original": "Proceed to the landing area?",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_MANSEA200_00546_A1_000_1",
+    "original": "Yes",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_MANSEA200_00546_A1_000_2",
+    "original": "No",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_MANSEA200_00546_LNOPHLO_000_62",
+    "original": "Take your time, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. I\u0027ll be glad to assist you when you\u0027re ready.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_MANSEA200_00546_LNOPHLO_000_65",
+    "original": "Are you ready to depart, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E? The airship bound for Gridania will be leaving shortly.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_MANSEA200_00546_LNOPHLO_000_66",
+    "original": "Thank you for using Highwind Skyways. The airship to Ul\u0027dah will soon be departing.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_MANSEA200_00546_Q5_000_1",
+    "original": "Proceed to the landing area?",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_MANSEA200_00546_A5_000_1",
+    "original": "Yes",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_MANSEA200_00546_A5_000_2",
+    "original": "No",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_MANSEA200_00546_LNOPHLO_000_67",
+    "original": "Take your time, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. I\u0027ll be glad to assist you when you\u0027re ready.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_MANSEA200_00546_CABINCREW_000_70",
+    "original": "Do you wish to leave the landing area?",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_MANSEA200_00546_Q6_000_1",
+    "original": "Leave the landing area?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_MANSEA200_00546_A6_000_1",
+    "original": "Yes",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_MANSEA200_00546_A6_000_2",
+    "original": "No",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_MANSEA200_00546_CABINCREW_000_71",
+    "original": "We hope you have a pleasant voyage.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_MANSEA200_00546_Q3_000_1",
+    "original": "Board the airship?",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_MANSEA200_00546_A3_000_1",
+    "original": "Yes",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_MANSEA200_00546_A3_000_2",
+    "original": "No",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_MANSEA200_00546_ANNOUNCE_000_80",
+    "original": "Attention, all passengers: the airship bound for Gridania is about to depart. Please make your way to the boarding gate.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_MANSEA200_00546_BADERON_000_81",
+    "original": "Good fortune to ye, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_MANSEA200_00546_BADERON_000_82",
+    "original": "The day\u0027ll come when yer name means the same as \u201C\u0027ero\u201D to the folk o\u0027 this realm.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_MANSEA200_00546_BADERON_000_83",
+    "original": "May ye walk in the light o\u0027 the Crystal...",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_MANSEA200_00546_CABINCREW_000_90",
+    "original": "Ah, you must be the envoy from Limsa Lominsa. Welcome to Gridania, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. The Elder Seedseer awaits your arrival.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_MANSEA200_00546_Q7_000_1",
+    "original": "Leave the landing area?",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_MANSEA200_00546_A7_000_1",
+    "original": "Yes",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_MANSEA200_00546_A7_000_2",
+    "original": "No",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_MANSEA200_00546_CABINCREW_000_91",
+    "original": "Please let me know if you require any assistance.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_MANSEA200_00546_SERPENT_000_95",
+    "original": "Greetings, good \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_MANSEA200_00546_SERPENT_000_96",
+    "original": "You are the Lominsan envoy, are you not? I have received instructions to assist you.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_MANSEA200_00546_SERPENT_000_97",
+    "original": "Pray make your way into the city proper, and identify yourself to the conjurer at Nophica\u0027s Altar. She will admit you to the Lotus Stand, where the Elder Seedseer awaits.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_MANSEA200_00546_SERPENT_000_98",
+    "original": "Pray make your way into the city proper, and identify yourself to the conjurer at Nophica\u0027s Altar. She will admit you to the Lotus Stand, where the Elder Seedseer awaits.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_MANSEA200_00546_DOORMANLOTUS_000_100",
+    "original": "You are the Lominsan envoy? Begging your pardons, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E, but might I inspect the missive you bear?",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_MANSEA200_00546_DOORMANLOTUS_000_101",
+    "original": "Verily, this is the seal of the Admiral of Limsa Lominsa. Please come with me.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_MANSEA200_00546_600010_KANESENNA",
+    "original": "So you are the Lominsan envoy.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_MANSEA200_00546_600020_KANESENNA",
+    "original": "And an adventurer besides. The realm owes much to you and yours.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_MANSEA200_00546_600030_KANESENNA",
+    "original": "On behalf of our fair nation, I bid you welcome.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_MANSEA200_00546_600040_KANESENNA",
+    "original": "Please.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_MANSEA200_00546_600050_KANESENNA",
+    "original": "Allow me to introduce myself.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_MANSEA200_00546_600060_KANESENNA",
+    "original": "I am Kan-E-Senna, Elder Seedseer of Gridania, and leader of the Order of the Twin Adder, our nation\u0027s Grand Company.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_MANSEA200_00546_600070_KANESENNA",
+    "original": "I understand you bear a message from the Admiral.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_MANSEA200_00546_600080_KANESENNA",
+    "original": "But...before you begin, might I behold your face more closely?",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_MANSEA200_00546_600090_KANESENNA",
+    "original": "My apologies. You put me in mind of one I once knew\u2500a brave and noble soul.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_MANSEA200_00546_600100_KANESENNA",
+    "original": "But come, let us return to the matter at hand.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_MANSEA200_00546_KANESENNA_000_110",
+    "original": "A remembrance service for the fallen of Carteneau...",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_MANSEA200_00546_KANESENNA_000_111",
+    "original": "To think that five years have already come and gone...",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_MANSEA200_00546_KANESENNA_000_112",
+    "original": "It seems like only yesterday that the Garlean Empire attempted to seize all that we hold dear.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_MANSEA200_00546_KANESENNA_000_113",
+    "original": "Rising in resistance, the city\u003Chex:021F0103\u003Estates of Eorzea formed the Grand Companies, and joined hands in alliance.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_MANSEA200_00546_KANESENNA_000_114",
+    "original": "But unbeknown to us, the Garleans sought not to best us in battle, but moved instead to enact a terrible plot: the Meteor project, by which the lesser moon, Dalamud, would be torn down from the heavens to annihilate all life below.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_MANSEA200_00546_KANESENNA_000_115",
+    "original": "In a desperate bid to save the realm from certain destruction, our forces marched for the Carteneau Flats, and there met the VIIth Imperial Legion.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_MANSEA200_00546_KANESENNA_000_116",
+    "original": "More bloody a battle I have never seen, and would never wish to see again. Yet the carnage was but a prelude to the atrocity which followed.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_MANSEA200_00546_KANESENNA_000_117",
+    "original": "For despite our best efforts, Dalamud continued its descent, and from it emerged the elder primal Bahamut, who proceeded to rain fire upon Eorzea.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_MANSEA200_00546_KANESENNA_000_118",
+    "original": "The VIIth Imperial Legion was consumed in the blinking of an eye, while our own forces fared little better...",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_MANSEA200_00546_KANESENNA_000_119",
+    "original": "That \u003Chex:021A020203\u003Eany\u003Chex:021A020103\u003E among us were spared defies explanation. All seemed sure to perish.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_MANSEA200_00546_KANESENNA_000_120",
+    "original": "As the flames converged upon us, I prepared myself for death...only for a brilliant light to envelop me, relieving me of my senses.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_MANSEA200_00546_KANESENNA_000_121",
+    "original": "When at last I awoke, Bahamut was gone, and the land, which had but moments before been aflame, now seemed to me a place unknown\u2500not simply ruined...but \u003Chex:021A020203\u003Echanged\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_MANSEA200_00546_KANESENNA_000_122",
+    "original": "Archon Louisoix may well have been able to shed light upon these mysteries, but he, like so many, never returned from Carteneau.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_MANSEA200_00546_KANESENNA_000_123",
+    "original": "And so we were left with countless questions, and no prospect of an answer. Yet such matters did not long occupy our thoughts, for we had far graver concerns.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_MANSEA200_00546_KANESENNA_000_124",
+    "original": "The Calamity, as the devastation wrought by Bahamut has come to be known, laid our nations nigh to waste, and to this day we struggle to rebuild our lives and homes.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_MANSEA200_00546_KANESENNA_000_125",
+    "original": "To compound matters, the beast tribes continue to summon their primals, while the Empire encroaches upon our borders, consolidating its foothold in Eorzea. The outlook, in short, is bleak.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_MANSEA200_00546_KANESENNA_000_126",
+    "original": "In the wake of the Calamity, it has been all each nation could do to nurse its own wounds.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_MANSEA200_00546_KANESENNA_000_127",
+    "original": "Yet if we are to weather the coming storm, we must needs stand united once more. A remembrance service may well present an opportunity to rekindle the spirit of unity which first gave rise to the Alliance.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_MANSEA200_00546_KANESENNA_000_128",
+    "original": "I wholeheartedly approve of the Admiral\u0027s proposal. The necessary provisions shall be made for a service here in Gridania.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_MANSEA200_00546_KANESENNA_000_129",
+    "original": "You have done the people of Eorzea a fine service this day, and I would not put you to further trouble. I shall see that my reply reaches the Admiral anon.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_MANSEA200_00546_KANESENNA_000_130",
+    "original": "You, meanwhile, are bound next for Ul\u0027dah, are you not?",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_MANSEA200_00546_KANESENNA_000_131",
+    "original": "Please send the Flame General my regards. Ah, and if you would be so kind, I should appreciate it if you would inform him that a pet of mine has been ill behaved of late\u2500my \u003Chex:021A020203\u003Ewolf\u003Chex:021A020103\u003E, to be precise. Needless to say, he must be brought to heel, and I would very much welcome the General\u0027s counsel on how this might be achieved.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_MANSEA200_00546_KANESENNA_000_132",
+    "original": "I thank you for coming. May the Twelve see you safe to Ul\u0027dah and beyond.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_MANSEA200_00546_LIONNELLAIS_000_140",
+    "original": "Greetings, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. This is the counter for passengers traveling to Ul\u0027dah.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_MANSEA200_00546_LIONNELLAIS_000_141",
+    "original": "Oh, are you not \u003Chex:022903EB0203\u003E, the Lominsan envoy? On behalf of all at Highwind Skyways, may I say what an honor it is to serve you! Will you be flying with us today?",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_MANSEA200_00546_Q2_000_1",
+    "original": "Proceed to the landing area?",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_MANSEA200_00546_A2_000_1",
+    "original": "Yes",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_MANSEA200_00546_A2_000_2",
+    "original": "No",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_MANSEA200_00546_LIONNELLAIS_000_142",
+    "original": "Very well. When you are ready to board, please let me know.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_MANSEA200_00546_CABINCREW_000_144",
+    "original": "Do you wish to leave the landing area?",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_MANSEA200_00546_Q8_000_1",
+    "original": "Leave the landing area?",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_MANSEA200_00546_A8_000_1",
+    "original": "Yes",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_MANSEA200_00546_A8_000_2",
+    "original": "No",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_MANSEA200_00546_CABINCREW_000_145",
+    "original": "We hope you have a pleasant voyage.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_MANSEA200_00546_LIONNELLAIS_000_147",
+    "original": "The flight for Ul\u0027dah will soon be departing. Are your preparations in order, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E?",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_MANSEA200_00546_Q9_000_1",
+    "original": "Proceed to the landing area?",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_MANSEA200_00546_A9_000_1",
+    "original": "Yes",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_MANSEA200_00546_A9_000_2",
+    "original": "No",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_MANSEA200_00546_CABINCREW_000_148",
+    "original": "Very well. When you are ready to travel, you need only say the word.",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_MANSEA200_00546_Q4_000_1",
+    "original": "Board the airship?",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_MANSEA200_00546_A4_000_1",
+    "original": "Yes",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_MANSEA200_00546_A4_000_2",
+    "original": "No",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_MANSEA200_00546_CABINCREW_000_150",
+    "original": "Ah, you must be the envoy from Limsa Lominsa! Welcome to Ul\u0027dah, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. The Flame General awaits your arrival.",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_MANSEA200_00546_Q10_000_1",
+    "original": "Leave the landing area?",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_MANSEA200_00546_A10_000_1",
+    "original": "Yes",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_MANSEA200_00546_A10_000_2",
+    "original": "No",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_MANSEA200_00546_CABINCREW_000_151",
+    "original": "Please let me know if you require any assistance.",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_MANSEA200_00546_FLAMEA_000_155",
+    "original": "Welcome to Ul\u0027dah, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. We have been expecting you.",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_MANSEA200_00546_FLAMEA_000_156",
+    "original": "Flame General Raubahn will receive you in the Fragrant Chamber. Please take the lift down to the Hustings Strip and speak with Bartholomew at the Royal Promenade.",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_MANSEA200_00546_FLAMEA_000_158",
+    "original": "The lift over yonder will take you to the Hustings Strip. From there, proceed south to the Royal Promenade, and speak with Bartholomew to gain admittance to the Fragrant Chamber.",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_MANSEA200_00546_BARTHOLOMEW_000_160",
+    "original": "The Lominsan envoy, I presume? Would you be so good as to allow me to inspect the missive you bear, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E? My thanks.",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_MANSEA200_00546_BARTHOLOMEW_000_161",
+    "original": "Ah yes, the Admiral\u0027s seal. Please proceed.",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_MANSEA200_00546_800110_RAUBAHN",
+    "original": "Ah, a guest from Limsa. I thought I smelled stale ale.",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_MANSEA200_00546_800120_RAUBAHN",
+    "original": "I won\u0027t hold it against you. If you\u0027re half the warrior Merlwyb says, \u0027tis a wonder you don\u0027t reek of dead Sahagin.",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_MANSEA200_00546_800130_RAUBAHN",
+    "original": "Welcome to the sultanate of Ul\u0027dah. I am Raubahn Aldynn, General of the Immortal Flames.",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_MANSEA200_00546_800140_RAUBAHN",
+    "original": "But you did not come all this way to trade formalities.",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_MANSEA200_00546_800150_RAUBAHN",
+    "original": "There\u0027s something familiar about you... For a moment, I mistook you for an old \u003Chex:020824E905FF0F7369737465722D696E2D61726D73FF1062726F746865722D696E2D61726D7303\u003E.",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_MANSEA200_00546_800160_RAUBAHN",
+    "original": "Like \u003Chex:02080DE905FF04686572FF0468696D03\u003E, you have the eyes of a hero. Eyes that have looked upon the horrors of battle, unblinking.",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_MANSEA200_00546_800170_RAUBAHN",
+    "original": "I\u0027ve no doubt Merlwyb saw them, too. Mayhap there is hope for Limsa Lominsa yet! Come, let us talk.",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_MANSEA200_00546_RAUBAHN_000_181",
+    "original": "...Carteneau. Aye, I remember bloody Carteneau.",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_MANSEA200_00546_RAUBAHN_000_182",
+    "original": "Do you know what happened that day, adventurer? When we took the field against the Garleans?",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_MANSEA200_00546_RAUBAHN_000_183",
+    "original": "So my counterparts have educated you.",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_MANSEA200_00546_RAUBAHN_000_184",
+    "original": "Hm? Kan\u003Chex:021F0103\u003EE\u0027s pet is giving her trouble, is it? Well, she should already know my mind on that subject.",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_MANSEA200_00546_RAUBAHN_000_185",
+    "original": "Wolves are beyond taming. \u0027Tis but a matter of time before they bare their teeth.",
+    "translation": ""
+  },
+  "197": {
+    "tag": "TEXT_MANSEA200_00546_RAUBAHN_000_186",
+    "original": "So it was with the Garleans, fifty years ago.",
+    "translation": ""
+  },
+  "198": {
+    "tag": "TEXT_MANSEA200_00546_RAUBAHN_000_187",
+    "original": "No sooner had they learned how to use magitek than they began seizing territory from their neighbors.",
+    "translation": ""
+  },
+  "199": {
+    "tag": "TEXT_MANSEA200_00546_RAUBAHN_000_188",
+    "original": "Led by then legatus Solus zos Galvus, they swiftly brought the other nations of Ilsabard to heel. And so the legatus became an emperor, and his republic an empire...",
+    "translation": ""
+  },
+  "200": {
+    "tag": "TEXT_MANSEA200_00546_RAUBAHN_000_189",
+    "original": "An empire which then set its sights upon Eorzea.",
+    "translation": ""
+  },
+  "201": {
+    "tag": "TEXT_MANSEA200_00546_ROAILLE_000_190",
+    "original": "But the conquering emperor is now an old man of four score winters. His health is failing, and he has no clear successor. Like as not, this is why the Garleans have been quiet of late.",
+    "translation": ""
+  },
+  "202": {
+    "tag": "TEXT_MANSEA200_00546_RAUBAHN_000_191",
+    "original": "But the XIVth Imperial Legion is still entrenched within our borders.",
+    "translation": ""
+  },
+  "203": {
+    "tag": "TEXT_MANSEA200_00546_RAUBAHN_000_192",
+    "original": "And their commander, Legatus Gaius van Baelsar, has long harbored ambitions of conquest.",
+    "translation": ""
+  },
+  "204": {
+    "tag": "TEXT_MANSEA200_00546_RAUBAHN_000_193",
+    "original": "Were he to strike now, I fear we would fall like so many others before us. And not only Ul\u0027dah, but Gridania and Limsa Lominsa as well.",
+    "translation": ""
+  },
+  "205": {
+    "tag": "TEXT_MANSEA200_00546_RAUBAHN_000_194",
+    "original": "For the Calamity brought the lot of us to our knees, and we\u0027ve yet to get up. We barely have the strength to stand against the beast tribes, never mind the primals they mean to summon.",
+    "translation": ""
+  },
+  "206": {
+    "tag": "TEXT_MANSEA200_00546_RAUBAHN_000_195",
+    "original": "We are a realm divided, adventurer. An alliance in name only.",
+    "translation": ""
+  },
+  "207": {
+    "tag": "TEXT_MANSEA200_00546_RAUBAHN_000_196",
+    "original": "But the wolf cares not for the plight of its prey.",
+    "translation": ""
+  },
+  "208": {
+    "tag": "TEXT_MANSEA200_00546_RAUBAHN_000_197",
+    "original": "The Garleans stir, and the Elder Seedseer would not let it go unnoticed.",
+    "translation": ""
+  },
+  "209": {
+    "tag": "TEXT_MANSEA200_00546_RAUBAHN_000_198",
+    "original": "All other concerns pale in comparison to the Empire\u2500even the beast tribes and their bloody primals.",
+    "translation": ""
+  },
+  "210": {
+    "tag": "TEXT_MANSEA200_00546_RAUBAHN_000_199",
+    "original": "We must stand united once more, that much is clear. And if we\u0027re to do so, we must remember the cause which last brought us together. Merlwyb will have her memorial.",
+    "translation": ""
+  },
+  "211": {
+    "tag": "TEXT_MANSEA200_00546_RAUBAHN_000_200",
+    "original": "We will honor the memory of the fallen. We will remind the people what their brothers and sisters fought and died for.",
+    "translation": ""
+  },
+  "212": {
+    "tag": "TEXT_MANSEA200_00546_ROAILLE_000_201",
+    "original": "Shall I inform the sultana and the Syndicate?",
+    "translation": ""
+  },
+  "213": {
+    "tag": "TEXT_MANSEA200_00546_RAUBAHN_000_202",
+    "original": "I will speak with Her Grace myself.",
+    "translation": ""
+  },
+  "214": {
+    "tag": "TEXT_MANSEA200_00546_ROAILLE_000_203",
+    "original": "Very good, sir.",
+    "translation": ""
+  },
+  "215": {
+    "tag": "TEXT_MANSEA200_00546_RAUBAHN_000_204",
+    "original": "The Admiral will have my reply anon.",
+    "translation": ""
+  },
+  "216": {
+    "tag": "TEXT_MANSEA200_00546_RAUBAHN_000_205",
+    "original": "My thanks to you, adventurer.",
+    "translation": ""
+  },
+  "217": {
+    "tag": "TEXT_MANSEA200_00546_SYSTEM_000_300",
+    "original": "You can now make use of the airship routes connecting the three nations. Before you may board an airship, you must pay the requisite fare in gil.",
+    "translation": ""
+  },
+  "218": {
+    "tag": "TEXT_MANSEA200_00546_Q11_000_310",
+    "original": "Enter the command room?",
+    "translation": ""
+  },
+  "219": {
+    "tag": "TEXT_MANSEA200_00546_A11_000_311",
+    "original": "Yes",
+    "translation": ""
+  },
+  "220": {
+    "tag": "TEXT_MANSEA200_00546_A11_000_312",
+    "original": "No",
+    "translation": ""
+  }
+}

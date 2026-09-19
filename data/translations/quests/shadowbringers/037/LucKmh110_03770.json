@@ -1,0 +1,807 @@
+{
+  "0": {
+    "tag": "TEXT_LUCKMH110_03770_SEQ_00",
+    "original": "Urianger presumably has some idea as to what you might usefully do while Y\u0027shtola pursues her investigations in Anamnesis Anyder.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_LUCKMH110_03770_SEQ_01",
+    "original": "You trouble Urianger for his thoughts on how you and your fellow Scions should occupy yourselves in Y\u0027shtola\u0027s absence. After expressing confidence that her efforts will eventually bear fruit, he concludes the best course of action for the rest of you would be to wait\u2500which, Alphinaud points out, means that you now have the opportunity to look in on the Exarch and ascertain how his efforts to perfect the spirit vessel are coming along.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_LUCKMH110_03770_SEQ_02",
+    "original": "You find the Exarch not in his tower, but at the Exedra, surrounded by a crowd of overexcited citizens. It seems the words of \u201CArdbert\u201D have had the intended effect, kindling such heroic zeal in the people that they are ready to leave their homes without thought to the consequences. As if to compound matters, the sky suddenly turns dark, heralding the arrival of a shower of stars\u2500a spectacle which awakens the crowd to a voice you know very well indeed. With perfect timing, Elidibus appears, proclaiming to those who hear it that they, too, are Warriors of Light, before departing as abruptly as he came. You catch up with him a short distance away, and though he offers no clarity on the subject of his motives, he does confirm that the meteors were an illusion of his own making. With an ominous promise to save the world, he vanishes\u2500leaving you to ponder what all of this implies about Hydaelyn\u0027s own role in the creation of Warriors of Light...including you.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_LUCKMH110_03770_SEQ_03",
+    "original": "As the dust settles, you are approached by the Crystal Exarch. He informs you that two guardsmen with whom you are acquainted\u2500the irrepressible Theyler and Vonard\u2500have chosen to embark on a journey to become heroes in their own right, and asks that you offer them a few words of advice ere they depart.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_LUCKMH110_03770_SEQ_04",
+    "original": "You find Theyler and Vonard at the Amaro Launch, where they stand at the threshold of adventure, and impart a few pearls of wisdom gathered in the course of your own travels. They listen earnestly, and as you watch them set off into the unknown, it is easy to believe that the people of the First will find their path\u2500even after you have gone.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_LUCKMH110_03770_SEQ_05",
+    "original": "Back at the Crystal Tower, having regaled the Exarch with the intrigues of your journey to Anamnesis, thoughts turn to the future. Rather than stake everything on the success of Y\u0027shtola\u0027s investigations, Thancred proposes he use his ample experience in subterfuge to keep watch over Elidibus, and all readily agree. Urianger, meanwhile, will assist in ongoing research at the Umbilicus\u2500for confident though Beq Lugg and the Exarch are of developing a means to transfer memory into spirit vessels, a great deal of experimentation yet remains. Needful tasks thus assigned, the Exarch suggests you take the opportunity to rest\u2500a statement rife with irony, perhaps, given its source, but one not lacking in wisdom.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_LUCKMH110_03770_SEQ_06",
+    "original": "You retire to your suite in the Pendants, but are awoken in the evening by an unexpected tapping at your chamber door. It is Glynard, accompanied by a familiar figure come to offer words of encouragement\u2500and why not? Be it by Cardinal Virtue or shrouded Ascian, the twisting of good men to vile ends is not to be borne.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_LUCKMH110_03770_TODO_00",
+    "original": "Speak with Alphinaud.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_LUCKMH110_03770_TODO_01",
+    "original": "Speak with Alphinaud.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_LUCKMH110_03770_TODO_02",
+    "original": "Speak with Theyler.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_LUCKMH110_03770_TODO_03",
+    "original": "Speak with the Crystal Exarch.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_LUCKMH110_03770_TODO_04",
+    "original": "Speak with the manager of suites in the Pendants.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_LUCKMH110_03770_ALPHINAUD_000_000",
+    "original": "While it is true our findings have raised more questions than they have answered, it is not impossible that Y\u0027shtola will gain access to additional records. And if nothing else, we have spared Eulmore from invasion.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_LUCKMH110_03770_ALISAIE_000_001",
+    "original": "Hopefully, this will make the benthos think twice before raiding the stores of their fellow Ondo again.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_LUCKMH110_03770_THANCRED_000_003",
+    "original": "Answers never did come to us tied neatly with a bow. We\u0027ll get to the bottom of things eventually.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_LUCKMH110_03770_RYNE_000_004",
+    "original": "Does she really not mind working alone...?",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_LUCKMH110_03770_URIANGER_000_010",
+    "original": "Can we but uncover Elidibus\u0027s true origins, we may yet come to understand his designs. To that end, Y\u0027shtola must needs be afforded as much time as she doth require to complete her investigation.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_LUCKMH110_03770_ALPHINAUD_000_011",
+    "original": "...To the extent that such things are within our control, yes. Speaking of which, perhaps we might trouble the Exarch for news of his progress with the spirit vessel?",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_LUCKMH110_03770_ALPHINAUD_000_012",
+    "original": "He will no doubt wish to hear of our own discoveries as well, such as they are.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_LUCKMH110_03770_ALISAIE_000_020",
+    "original": "And there he goes again... Though I don\u0027t suppose he would have given us an honest answer about his history had he stayed.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_LUCKMH110_03770_THANCRED_000_021",
+    "original": "Unsettling though this is, I\u0027m certain our friends in the guard will use the Echo well.\u003Chex:02100103\u003E...Or with good intentions, at least.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_LUCKMH110_03770_RYNE_000_022",
+    "original": "It did remind me of it... Amaurot, I mean. All the fear, and the sadness...",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_LUCKMH110_03770_URIANGER_000_023",
+    "original": "Though I like not what it portendeth, having been treated to so \u003Chex:021A020203\u003Eunambiguous\u003Chex:021A020103\u003E a demonstration, I cannot well conclude aught but that starshowers are indeed instrumental in awakening the Echo.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_LUCKMH110_03770_URIANGER_000_024",
+    "original": "Yet we need not attribute such credence to all that Elidibus hath claimed. That he too seeketh this star\u0027s salvation, for one...",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_LUCKMH110_03770_ALPHINAUD_000_030",
+    "original": "The more Elidibus reveals, the less I understand. But that he has made a fine mess of things is plain.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_LUCKMH110_03770_MYSTERYVOICE_000_031",
+    "original": "He is gone, then?",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_LUCKMH110_03770_MYSTERYVOICE_000_032",
+    "original": "I\u0027ve managed to persuade a number of our would-be deserters to reconsider, or at least delay, their departure. But as many are deaf to my entreaties.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_LUCKMH110_03770_MYSTERYVOICE_000_033",
+    "original": "Young Theyler and Vonard among them, I am sorry to say. They have quit the guard.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_LUCKMH110_03770_MYSTERYVOICE_000_034",
+    "original": "Nevertheless, I wish them well. Whatever Elidibus\u0027s plans for them might be, the pair have only ever had the best of intentions.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_LUCKMH110_03770_THANCRED_000_035",
+    "original": "One can hardly blame them for thinking themselves heroes elect\u2500not after having been \u201Cblessed\u201D with the Echo. And it\u0027s not as if they haven\u0027t shown the requisite spirit.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_LUCKMH110_03770_MYSTERYVOICE_000_036",
+    "original": "I quite agree. Though the impetus for their sudden departure may have been words falsely spoken, the men and women in whose footsteps they would follow are heroes in truth. Warriors of Light. Ardbert. Yourself, most of all.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_LUCKMH110_03770_MYSTERYVOICE_000_037",
+    "original": "And so I would ask a favor of you\u2500speak with them ere they embark on their journey, and furnish them with what wisdom you can. They\u0027ve set off for the Amaro Launch, but you should still be able to catch them if you leave now.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_LUCKMH110_03770_THANCRED_000_038",
+    "original": "Worth the effort, I\u0027d say. If I recall correctly, \u003Chex:020931E947FF1041646D6972616C204D65726C777962FF1374686520456C646572205365656473656572FF085261756261686E03\u003E took the time to usher \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E out into the wider world, many moons ago.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_LUCKMH110_03770_ALPHINAUD_000_039",
+    "original": "I...think that comparison rather flatters Theyler and Vonard. But the point still stands. They would doubtless be greatly encouraged were the Warrior of Darkness \u003Chex:020815E905FF0868657273656C66FF0868696D73656C6603\u003E to see them off.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_LUCKMH110_03770_URIANGER_000_040",
+    "original": "If thou art willing, I prithee go. Thou mayest safely leave the task of unfolding that which did transpire at Anamnesis to us.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_LUCKMH110_03770_MYSTERYVOICE_000_041",
+    "original": "You will need to leave now if you are to catch them before they depart. They are...eager to be on their way.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_LUCKMH110_03770_ALPHINAUD_000_042",
+    "original": "I daresay I needn\u0027t wax poetical on the value of well-placed words of encouragement to you of all people. I have gained \u003Chex:021A020203\u003Ethat\u003Chex:021A020103\u003E much self-awareness in our time together...",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_LUCKMH110_03770_ALISAIE_000_043",
+    "original": "Honestly, don\u0027t listen to all this prattle about the life-changing importance of your words to impressionable young heroes. You could nod mutely in their general direction and they\u0027d still be inspired.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_LUCKMH110_03770_THANCRED_000_044",
+    "original": "You caused quite a stir when you set forth as the \u003Chex:020931E947FF0A41646D6972616C2773FF11456C6465722053656564736565722773FF10466C616D652047656E6572616C277303\u003E newly anointed envoy, you know.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_LUCKMH110_03770_THANCRED_100_044",
+    "original": "Minfilia was delighted. \u201CThe world is ever in need of heroes,\u201D she said...",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_LUCKMH110_03770_RYNE_000_045",
+    "original": "\u201CThis land is our home...and it is we who must protect it...\u201D Even if he didn\u0027t believe a word he was saying, and it\u0027s all part of some terrible scheme, it\u0027s hard not to take his message to heart.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_LUCKMH110_03770_URIANGER_000_046",
+    "original": "In days to come, when Elidibus\u0027s machinations have all come to naught, the First shall be stronger for its people\u0027s readiness to rise to the challenges of their time. We have but to defeat our foe to make it so.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_LUCKMH110_03770_BEQLUGG_000_047",
+    "original": "I was so deeply immersed in my research that I entirely failed to notice the starshower... Bugger.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_LUCKMH110_03770_BRAVESOLDIER_000_048",
+    "original": "...\u201CWhere in Amh Araeng\u201D? I mean... You know... Around.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_LUCKMH110_03770_SOLDIER03608_000_050",
+    "original": "You again!? Uh, I mean\u2500it\u0027s \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E, \u003Chex:020810E905FF076D696C616479FF0473697203\u003E! Sorry...it\u0027s been a funny old day.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_LUCKMH110_03770_SOLDIER03608_000_051",
+    "original": "You can be sure we\u0027ll take those words to heart.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_LUCKMH110_03770_BRAVESOLDIER_000_052",
+    "original": "I still can\u0027t believe it\u2500you coming all this way just to speak to us.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_LUCKMH110_03770_BRAVESOLDIER_000_053",
+    "original": "I swear we won\u0027t let you down. So long as it helps someone, we\u0027ll do what needs doing out there\u2500no matter how small! ",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_LUCKMH110_03770_SOLDIER03608_000_054",
+    "original": "And when larger threats loom, we\u0027ll be ready to face them. You see if we aren\u0027t.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_LUCKMH110_03770_Q1_000_500",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_LUCKMH110_03770_A1_000_500",
+    "original": "\u003Chex:0209C5E947FF48576F6E64657220616E642064616E67657220617761697420796F7520696E20657175616C206D6561737572652C20627574207475726E206E6F742066726F6D206569746865722EFF405468652070617468207368616C6C20657665722062652072657665616C656420746F2074686F73652077686F206172652074727565206F662068656172742EFF37537472696B65206661737420616E6420747275652C20666F7220766963746F72792062656C6F6E677320746F2074686520626F6C642E03\u003E",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_LUCKMH110_03770_A2_000_500",
+    "original": "...Well, what are you waiting for? Get out there!",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_LUCKMH110_03770_SOLDIER03608_000_055",
+    "original": "We\u0027ll be off, then. Farewell, Warrior of Darkness\u2500and thank you.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_LUCKMH110_03770_ALPHINAUD_000_058",
+    "original": "I take it they were suitably inspired?",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_LUCKMH110_03770_URIANGER_000_059",
+    "original": "Thou art returned! And at a most opportune time. We have but this moment concluded our account of all that came to pass in the deep.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_LUCKMH110_03770_MYSTERYVOICE_000_060",
+    "original": "Thank you for making the effort. I\u0027m certain your words will be a boon to them.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_LUCKMH110_03770_MYSTERYVOICE_000_061",
+    "original": "While you were away, the others told me of your investigation. We have yet to discuss how to proceed, however.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_LUCKMH110_03770_MYSTERYVOICE_000_062",
+    "original": "While your findings in Anamnesis Anyder do raise important questions as to the identity of our adversary, we are no closer to discerning his design. Nor do I know of any other potential avenue of investigation.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_LUCKMH110_03770_URIANGER_000_063",
+    "original": "For which reason, we must needs trust to Y\u0027shtola\u0027s ingenuity, and wait for her efforts to revive the ancients\u0027 device to bear fruit.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_LUCKMH110_03770_THANCRED_000_064",
+    "original": "...What if I were to attempt to follow the emissary? Elusive as he is, his plan compels him to court public attention. He shouldn\u0027t be impossible to find.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_LUCKMH110_03770_ALPHINAUD_000_065",
+    "original": "Especially for one of your experience. It does seem worth the attempt.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_LUCKMH110_03770_RYNE_000_066",
+    "original": "Then I\u0027ll come with you. Safety in numbers.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_LUCKMH110_03770_THANCRED_000_067",
+    "original": "In combat, perhaps\u2500but where stealth is required, the opposite is true. Happily, I don\u0027t plan on getting myself caught, so you\u0027ve no need to worry.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_LUCKMH110_03770_THANCRED_100_067",
+    "original": "Nor do I intend to vanish for moons on end. We still have the Empty to attend to, don\u0027t we?",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_LUCKMH110_03770_RYNE_000_068",
+    "original": "All right. Then I look forward to your return.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_LUCKMH110_03770_ALISAIE_000_069",
+    "original": "Then it sounds like the rest of us should avoid doing anything which might prompt Elidibus to look too closely at our movements. Insofar as it\u0027s possible, I recommend we limit our activities to the Crystarium.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_LUCKMH110_03770_ALPHINAUD_000_070",
+    "original": "Speaking of which\u2500Exarch, might I ask if you\u0027ve made any progress with the spirit vessel?",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_LUCKMH110_03770_RYNE_000_071",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_LUCKMH110_03770_MYSTERYVOICE_000_072",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_LUCKMH110_03770_MYSTERYVOICE_000_073",
+    "original": "Of course. We are presently studying the principles underpinning memory transference and, I believe, nearing the requisite level of understanding.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_LUCKMH110_03770_MYSTERYVOICE_000_074",
+    "original": "Less hearteningly, practical trials of transference methods suited for use with the vessel have yet to yield satisfactory results...to put it mildly.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_LUCKMH110_03770_BEQLUGG_000_075",
+    "original": "But there are still many promising possibilities we have yet to test!",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_LUCKMH110_03770_MYSTERYVOICE_000_076",
+    "original": "Indeed. Though it may take some time yet, we are well on our way to a solution.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_LUCKMH110_03770_MYSTERYVOICE_000_077",
+    "original": "And I shall not rest until one is found.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_LUCKMH110_03770_URIANGER_000_078",
+    "original": "Though we are all grateful for thine unstinting efforts, thou need\u0027st not labor to the exclusion of all else. If it would serve to lighten thy burden, however little, I should gladly offer mine assistance.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_LUCKMH110_03770_ALPHINAUD_100_078",
+    "original": "Quite. I, for my part, will do what I can to ensure that the Crystarium continues to run smoothly, in spite of recent disruptions.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_LUCKMH110_03770_RYNE_100_079",
+    "original": "Then perhaps I could help? There must be something I can do, even if it\u0027s just guard duty.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_LUCKMH110_03770_MYSTERYVOICE_000_079",
+    "original": "Thank you... All of you. I shall breathe easier for your assistance.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_LUCKMH110_03770_MYSTERYVOICE_100_080",
+    "original": "Of course, on the evidence of the recent past, it will not be long before some new crisis arrives to throw our plans into disarray\u2500at which time \u003Chex:021A020203\u003Eyour\u003Chex:021A020103\u003E services will be in particular demand. That being the case, perhaps you might take this opportunity to retire to your suite at the Pendants?",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_LUCKMH110_03770_MYSTERYVOICE_000_080",
+    "original": "One of these methods will work. It must.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_LUCKMH110_03770_MYSTERYVOICE_101_080",
+    "original": "...Of \u003Chex:021A020203\u003Ecourse\u003Chex:021A020103\u003E I don\u0027t wish to worry Lyna\u2500she has more than enough to worry about already. But I swore that I would return you all home.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_LUCKMH110_03770_MYSTERYVOICE_0102_080",
+    "original": "All right! \u003Chex:021A020203\u003EFine\u003Chex:021A020103\u003E. I will henceforth endeavor to take breaks when appropriate.\u003Chex:02100103\u003E...While Lyna is watching.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_LUCKMH110_03770_ALPHINAUD_000_081",
+    "original": "Ought we to inform the citizens that the starshower was an illusion, do you think? They might sleep better for the knowledge that no damage was done.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_LUCKMH110_03770_ALISAIE_000_082",
+    "original": "\u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E will accompany my brother, and make sure he doesn\u0027t get carried away. \u003Chex:021A020203\u003EYou\u003Chex:021A020103\u003E will do as you\u0027re told, and get some rest\u2500\u003Chex:021A020203\u003Eboth of you.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_LUCKMH110_03770_ALISAIE_100_082",
+    "original": "Honestly, he\u0027s a danger to himself. If I were Lyna, I think I would\u0027ve hit him over the head with a blunt object by now. At least then he\u0027d lie down.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_LUCKMH110_03770_THANCRED_000_083",
+    "original": "There is sure to be no shortage of potential heroes upon whose good nature Elidibus will try to prevail. The trick will be in anticipating which settlement he\u0027ll direct his attentions toward next...",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_LUCKMH110_03770_RYNE_000_084",
+    "original": "There\u0027s so much to be done, and so little I can do to help... But you can count on me to play my part in the Empty.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_LUCKMH110_03770_URIANGER_000_085",
+    "original": "Knowing not whether Elidibus or our ever-waning connection to the Source representeth the more pressing problem, we must needs attend to both...and risk solving neither.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_LUCKMH110_03770_BEQLUGG_000_086",
+    "original": "Never fear\u2500I too will continue to assist the Exarch to the best of my ability. And if that means casting the odd sleeping charm, \u003Chex:021A020203\u003Eso be it\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_LUCKMH110_03770_GUIDEOFTHEPENDANTS_000_087",
+    "original": "A pleasure as always, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_LUCKMH110_03770_GUIDEOFTHEPENDANTS_000_088",
+    "original": "I am relieved to see you were unharmed in the earlier commotion. Though, if I may\u2500you do look somewhat weary. I presume you will be retiring to your suite?",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_LUCKMH110_03770_Q1_000_600",
+    "original": "Retire to your quarters?",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_LUCKMH110_03770_GUIDEOFTHEPENDANTS_000_089",
+    "original": "Very good. Do let me know if there is anything you require.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_LUCKMH110_03770_SYSTEM_100_100",
+    "original": "A new Eden quest is now available from Yalfort in Mord Souq.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_LUCKMH110_03770_GLYNARD_000_090",
+    "original": "\u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E? It\u0027s Glynard\u2500from the Wandering Stairs. I apologize for calling so late.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_LUCKMH110_03770_GLYNARD_000_091",
+    "original": "A friend of yours was asking after you. You may remember them from that business with the Cardinal Virtues...",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_LUCKMH110_03770_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_LUCKMH110_03770_A1_000_001",
+    "original": "Granson.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_LUCKMH110_03770_A1_000_002",
+    "original": "Giott.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_LUCKMH110_03770_A1_000_003",
+    "original": "Lue-Reeq.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_LUCKMH110_03770_A1_000_004",
+    "original": "Taynor.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_LUCKMH110_03770_A1_000_005",
+    "original": "Cyella.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_LUCKMH110_03770_GRANSON_000_100",
+    "original": "Well met, sinner.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_LUCKMH110_03770_GRANSON_000_101",
+    "original": "I was looking forward to a welcome respite here in the Crystarium, but the mood here\u0027s not exactly conducive to relaxation, as I\u0027m sure you\u0027ve noticed.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_LUCKMH110_03770_GRANSON_000_102",
+    "original": "Aye, I\u0027d wager you know more about what\u0027s going on than anyone else in this city. Care to share?",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_LUCKMH110_03770_GRANSON_000_103",
+    "original": "Hmmm... I can\u0027t say that I envy you your prey.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_LUCKMH110_03770_GRANSON_000_104",
+    "original": "Dark work, this twisting of the Warriors of Light\u0027s legacy. Reminds me of what became of ol\u0027 Dikaiosyne\u2500though this \u201CAscian\u201D of yours is a fair bit more chatty.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_LUCKMH110_03770_GRANSON_000_105",
+    "original": "I\u0027m tempted to silence him myself. Branden made his mistakes\u2500I\u0027m sure they all did\u2500but the past is the past. They\u0027ve earned their rest.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_LUCKMH110_03770_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_LUCKMH110_03770_A2_000_001",
+    "original": "I\u0027m not about to let him sully Ardbert\u0027s good name.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_LUCKMH110_03770_A2_000_002",
+    "original": "I\u0027ll see that they have their peace.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_LUCKMH110_03770_GRANSON_000_106",
+    "original": "What, you want me to leave it to you?",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_LUCKMH110_03770_GRANSON_000_107",
+    "original": "...Right, right. I\u0027m not the only one carrying all that weight. Very well. But only because you asked.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_LUCKMH110_03770_GRANSON_000_108",
+    "original": "Remember: if you ever need me, just say the word. I\u0027ll be there.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_LUCKMH110_03770_GIOTT_000_200",
+    "original": "Lali-ho, stranger!",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_LUCKMH110_03770_GIOTT_000_201",
+    "original": "So there I am\u2500minding my own business, quaffing my ale\u2500when I hear a ruckus outside. And then, clear as day: \u201CWarrior of Light\u201D!",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_LUCKMH110_03770_GIOTT_000_202",
+    "original": "That sounded like trouble to me, and I knew that if anyone was going to trouble \u003Chex:020815E905FF0868657273656C66FF0868696D73656C6603\u003E over that trouble, it\u0027d be you. So I gave Glynard the ol\u0027 \u201CBut I\u0027m your best customer!\u201D routine until he agreed to bring me here, and now I know where you live! Great, ain\u0027t it?",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_LUCKMH110_03770_GIOTT_000_203",
+    "original": "Some bastard\u0027s walking around wearing Ardbert\u2500\u003Chex:021A020203\u003ELamitt\u0027s\u003Chex:021A020103\u003E Ardbert\u2500like a secondhand jerkin!?",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_LUCKMH110_03770_GIOTT_000_204",
+    "original": "I don\u0027t know what\u0027s more offensive\u2500that, or that you let him leave without a proper dwarven decking!",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_LUCKMH110_03770_Q3_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_LUCKMH110_03770_A3_000_001",
+    "original": "He \u003Chex:021A020203\u003Edid\u003Chex:021A020103\u003E vanish into thin air.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_LUCKMH110_03770_A3_000_002",
+    "original": "A certain hobson refused to teach me...",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_LUCKMH110_03770_GIOTT_000_205",
+    "original": "Bah! In a pinch, an improvised decking would\u0027ve been fine!",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_LUCKMH110_03770_GIOTT_000_206",
+    "original": "Tell you what. I\u0027ll show you how to knock that bastard flat in the blink of an eye here and now. Taboos be damned.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_LUCKMH110_03770_GIOTT_000_207",
+    "original": "After all, we ain\u0027t about to let him keep on like that, are we? Pretending to be Ardbert. \u003Chex:021A020203\u003ELamitt\u0027s\u003Chex:021A020103\u003E Ardbert.",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_LUCKMH110_03770_GIOTT_000_208",
+    "original": "Step one: make a fist. Step two: extend your arm, like so. Step three: beat \u0027em senseless. Got it?",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_LUCKMH110_03770_GIOTT_100_208",
+    "original": "Good. Now make me proud!",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_LUCKMH110_03770_LUEREEQ_000_300",
+    "original": "What charming accommodations!",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_LUCKMH110_03770_LUEREEQ_000_301",
+    "original": "I had come to dine at the Wandering Stairs, you see, when I spied a considerable gathering of locals. Then the sky caught fire, and, well...",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_LUCKMH110_03770_LUEREEQ_000_302",
+    "original": "You must know what it all means. Anything you\u0027d care to share with a friend?",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_LUCKMH110_03770_LUEREEQ_000_303",
+    "original": "That is...alarming, to say the least.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_LUCKMH110_03770_LUEREEQ_000_304",
+    "original": "It\u0027s all well and good that others have come to appreciate the Warriors of Light, but we cannot allow this charlatan to exploit their legacy. So...",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_LUCKMH110_03770_LUEREEQ_000_305",
+    "original": "Yes! Why not? We shall reform the indomitable duo that is Reeq and \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, and put an end to his shenanigans!",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_LUCKMH110_03770_Q4_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_LUCKMH110_03770_A4_000_001",
+    "original": "That\u0027s very kind of you.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_LUCKMH110_03770_A4_000_002",
+    "original": "Eager as ever, I see.",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_LUCKMH110_03770_LUEREEQ_000_306",
+    "original": "Yes, I know. No need to say it. You\u0027ve no intention of involving me. I\u0027m stupid, but I\u0027m not naive.",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_LUCKMH110_03770_LUEREEQ_000_307",
+    "original": "You\u0027re the better hunter, and the better person besides. I\u0027m reminded of Renda-Rae...though that\u0027s hardly a surprise, is it?",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_LUCKMH110_03770_LUEREEQ_000_308",
+    "original": "For her sake\u2500for all of theirs\u2500show this pretender what it truly means to be a hero!",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_LUCKMH110_03770_TAYNOR_000_400",
+    "original": "Pray forgive my late visit... I heard the man who called himself a Warrior of Light speak, you see, and saw the stars falling from the heavens.",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_LUCKMH110_03770_TAYNOR_000_401",
+    "original": "Cerigg grew tired of my endless fretting and bade me call upon you if it would put my mind at ease. Is there aught you can tell me?",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_LUCKMH110_03770_TAYNOR_000_402",
+    "original": "An impostor. I feared you might say that.",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_LUCKMH110_03770_TAYNOR_000_403",
+    "original": "I believed him\u2500I \u003Chex:021A020203\u003Ewanted\u003Chex:021A020103\u003E to believe him. How wonderful it was that even one of them returned, I thought...",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_LUCKMH110_03770_TAYNOR_000_404",
+    "original": "Yet if he is not the man you knew, then...I\u0027m sorry. I know all too well how that feels.",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_LUCKMH110_03770_TAYNOR_000_405",
+    "original": "I can only imagine how it must hurt to be unable to speak the truth\u2500how you must abide the lie for fear of condemning those fallen heroes once more.",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_LUCKMH110_03770_TAYNOR_000_406",
+    "original": "It may not be my place, but allow me to offer you a few words of advice. As you once did me.",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_LUCKMH110_03770_TAYNOR_000_407",
+    "original": "Remember how dear he was to you, and be brave.",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_LUCKMH110_03770_Q5_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_LUCKMH110_03770_A5_000_001",
+    "original": "Thank you, my friend.",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_LUCKMH110_03770_A5_000_002",
+    "original": "You\u0027ve certainly grown.",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_LUCKMH110_03770_TAYNOR_000_408",
+    "original": "O-Oh! I\u0027m not half so eloquent as you, but I hope that it helps!",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_LUCKMH110_03770_CYELLA_000_500",
+    "original": "Good evening.",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_LUCKMH110_03770_CYELLA_000_501",
+    "original": "I was in the Exedra. I saw everything.",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_LUCKMH110_03770_CYELLA_000_502",
+    "original": "That \u003Chex:021A020203\u003Ewas\u003Chex:021A020103\u003E Ardbert...and it was not. Twice now he has appeared, calling the people to arms. Speaking of \u201Cheroes.\u201D",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_LUCKMH110_03770_CYELLA_000_503",
+    "original": "I knew this day might come. Ardbert never did reappear as a Virtue.",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_LUCKMH110_03770_CYELLA_000_504",
+    "original": "But to see his flesh stolen by the selfsame Ascian that made mock of their sacrifice...",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_LUCKMH110_03770_CYELLA_000_505",
+    "original": "I spent years searching for a means to redeem their legacy. \u003Chex:021A020203\u003EHis\u003Chex:021A020103\u003E legacy. And in you, I found it. You slew the Virtues, reclaimed the stars...",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_LUCKMH110_03770_CYELLA_000_506",
+    "original": "You spoke the truth, and the people listened. When I heard our patrons speak of how the Warriors of Light had been their saviors all along, I thought at last, \u003Chex:021A020203\u003Eat long last\u003Chex:021A020103\u003E...",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_LUCKMH110_03770_CYELLA_100_506",
+    "original": "I was a fool.",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_LUCKMH110_03770_CYELLA_000_507",
+    "original": "I cannot ask more of you, not after what you\u0027ve given. But I must.",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_LUCKMH110_03770_CYELLA_000_508",
+    "original": "Set him free. Lay him to rest with the others, in honor and triumph.",
+    "translation": ""
+  }
+}

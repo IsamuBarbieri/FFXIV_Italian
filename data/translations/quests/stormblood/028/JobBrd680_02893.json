@@ -1,0 +1,332 @@
+{
+  "0": {
+    "tag": "TEXT_JOBBRD680_02893_SEQ_00",
+    "original": "Sanson is on the verge of making a decision on the tome.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_JOBBRD680_02893_SEQ_01",
+    "original": "Having heard your honest opinion, Sanson has made up his mind on what to do with the journal bearing the Autumn War\u0027s sordid secret. Go with him to Guydelot, and hear his announcement with your brother bard.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_JOBBRD680_02893_SEQ_02",
+    "original": "Sanson declares that he will surrender Gylbarde\u0027s journal to his superiors, but only on the condition that the truth is made known one day, when the people are ready to hear it. At that moment, a letter arrives from Nourval requesting to speak with you, and you alone. Although Guydelot is highly suspicious, Sanson chooses to believe that Nourval may in fact have something of import to discuss, and bids you meet him near the Percipient One in Dimwold.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_JOBBRD680_02893_SEQ_03",
+    "original": "As you arrive at the rendezvous point, you are ambushed by masked men, and end up trading blows with them instead of words with Nourval. Hasten back to Castrum Oriens and inform your comrades what has happened.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_JOBBRD680_02893_SEQ_04",
+    "original": "You return to the castrum to find Guydelot alone. It appears a second letter arrived shortly after you struck out, this time summoning Sanson, and it becomes apparent that he was Nourval\u0027s target all along. Follow Guydelot as he retraces Sanson\u0027s footsteps in the direction of the Percipient One.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_JOBBRD680_02893_SEQ_05",
+    "original": "You find Sanson\u0027s notebook bearing a message written in blood. As feared, Nourval has taken your friend, and will soon make his price known. Return to Gridania and join Guydelot at the Adders\u0027 Nest, where he will petition the order\u0027s aid.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_JOBBRD680_02893_SEQ_06",
+    "original": "Though Guydelot has reported the situation to his superiors, he holds on to Gylbarde\u0027s journal as insurance. While waiting to see how the order and Nourval will move, your comrade bids you rest up and conserve your strength, for it will surely be needed in the rescue mission to come.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe next bard quest will be available from Guydelot upon reaching level 70.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_JOBBRD680_02893_TODO_00",
+    "original": "Speak with Guydelot.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_JOBBRD680_02893_TODO_01",
+    "original": "Wait for Nourval at the Percipient One.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_JOBBRD680_02893_TODO_02",
+    "original": "Speak with Guydelot.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_JOBBRD680_02893_TODO_03",
+    "original": "Speak with Guydelot.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_JOBBRD680_02893_TODO_04",
+    "original": "Speak with Guydelot at the Adders\u0027 Nest.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_JOBBRD680_02893_GUYDELOT_100_000",
+    "original": "Sanson\u0027s still trying to make up his mind. Well, not like I\u0027m in a hurry or nothing.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_JOBBRD680_02893_SANSON_000_000",
+    "original": "The instant we hand Gylbarde\u0027s journal to headquarters, the truth of Vainchelon\u0027s death is all but guaranteed to be struck from history...",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_JOBBRD680_02893_SANSON_000_001",
+    "original": "I\u0027ve thought long and hard on a course of action\u2500what we should do with the tome\u2500and I believe I\u0027m drawing close to the answer.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_JOBBRD680_02893_SANSON_000_002",
+    "original": "Before I make my decision, however, I would ask your honest opinion. Do you think the sordid truth of the Autumn War should be made public knowledge? Even should it jeopardize our relations with Ala Mhigo?",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_JOBBRD680_02893_Q1_000_000",
+    "original": "What should we do with the truth?",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_JOBBRD680_02893_A1_000_001",
+    "original": "Make it public knowledge.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_JOBBRD680_02893_A1_000_002",
+    "original": "Keep it a secret.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_JOBBRD680_02893_A1_000_003",
+    "original": "Ascertain its credibility.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_JOBBRD680_02893_SANSON_000_010",
+    "original": "An upright choice from an upright \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E. Though Nourval\u0027s motives and methods are unconscionable, one cannot deny that there is justice in pursuing truth.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_JOBBRD680_02893_SANSON_000_020",
+    "original": "A practical choice from a practical \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E. As a man of the military, it should be mine also. Though the truth would be lost, it is arguably a small sacrifice to make in the face of potential chaos.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_JOBBRD680_02893_SANSON_000_025",
+    "original": "Verily, a sound choice demands a sound grasp of the situation. As ever, you are an island of calm reason amidst a sea of chaos.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_JOBBRD680_02893_SANSON_000_030",
+    "original": "Thank you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. As the leader of our unit, I am now ready to make my decision.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_JOBBRD680_02893_SANSON_000_031",
+    "original": "Let us find Guydelot. He will wish to hear it, too.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_JOBBRD680_02893_SANSON_000_035",
+    "original": "When the both of you are ready, I will announce my decision.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_JOBBRD680_02893_GUYDELOT_000_040",
+    "original": "So, you\u0027ve made up your mind, then? About what to do with the truth?",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_JOBBRD680_02893_SANSON_000_041",
+    "original": "I have. I shall go to the Adders\u0027 Nest and entrust the journal to our superiors\u0027 care. Above all, we cannot allow it to be used as an instrument of hatred.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_JOBBRD680_02893_SANSON_000_042",
+    "original": "Having said that, neither will I stand for the truth to be erased. I will oppose any attempt to do so with all my being.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_JOBBRD680_02893_GUYDELOT_000_043",
+    "original": "Er, I\u0027m not sure I understand. What do you want to do exactly?",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_JOBBRD680_02893_SANSON_000_044",
+    "original": "I will hand over the journal...on the condition that the truth be revealed one day, when the people are ready to accept it.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_JOBBRD680_02893_SANSON_000_045",
+    "original": "Call me indecisive, but I cannot bear to see the tome misused, nor the truth willfully buried.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_JOBBRD680_02893_GUYDELOT_000_046",
+    "original": "Well, well, look at you! Sanson the Stiff, standing his ground!",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_JOBBRD680_02893_GUYDELOT_000_047",
+    "original": "Goes without saying, but I\u0027m with you, Chief. Ain\u0027t no one gonna exploit or erase history on my watch.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_JOBBRD680_02893_SANSON_000_048",
+    "original": "Thank you, my friends. For trusting in me.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_JOBBRD680_02893_GUYDELOT_000_049",
+    "original": "Don\u0027t let it get to your head, though, eh? Had your decision not been to my liking, I would\u0027ve knocked you flat on your arse and resigned from your swivin\u0027 unit.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_JOBBRD680_02893_SANSON_000_050",
+    "original": "So much for \u201CYou decide\u201D... \u003Csigh\u003E Never change, Guydelot.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_JOBBRD680_02893_SERPENTSOLDIER02893_000_051",
+    "original": "Captain Sanson, right? Some fellow asked me to pass this letter to you.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_JOBBRD680_02893_SANSON_000_052",
+    "original": "Th-This is from Nourval!",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_JOBBRD680_02893_SANSON_000_053",
+    "original": "(-Nourval\u0027s Letter-)The journal is yours to do with as you wish. But ere you take it away, I would speak with \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, and \u003Chex:022C0DFF07022903EB0203FF02200203\u003E alone, one last time. I await you in Dimwold, by the Percipient One.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_JOBBRD680_02893_GUYDELOT_000_054",
+    "original": "Oh, this reeks. Tell me it don\u0027t.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_JOBBRD680_02893_SANSON_000_055",
+    "original": "But if this is a trap, why would Nourval ask for the strongest of all of us? He may truly have something important to say.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_JOBBRD680_02893_SANSON_000_056",
+    "original": "Conversely, it would also offer us a chance to convey our intent. I am loath to expose you to danger, my friend, but will you go to this meeting?",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_JOBBRD680_02893_GUYDELOT_000_057",
+    "original": "I don\u0027t like the idea of you going alone, but that\u0027d defeat the purpose of the meeting. At the first sign of danger, though, get out of there fast, alright?",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_JOBBRD680_02893_SANSON_000_070",
+    "original": "This may be our last chance to speak with Nourval. Please go to Dimwold and see what he has to say.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_JOBBRD680_02893_GUYDELOT_000_075",
+    "original": "First sign of trouble, you beat a retreat, alright?",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_JOBBRD680_02893_BALLOON_000_080",
+    "original": "We\u0027ve been waiting for you.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_JOBBRD680_02893_BALLOON_000_085",
+    "original": "...",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_JOBBRD680_02893_GUYDELOT_000_090",
+    "original": "Ah, you\u0027re back. But where\u0027s Sanson?",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_JOBBRD680_02893_GUYDELOT_000_091",
+    "original": "Another letter arrived right after you left, asked for him to come as well. You\u0027re really alone, then?",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_JOBBRD680_02893_GUYDELOT_000_092",
+    "original": "Swive me! You were just the diversion\u2500Sanson was their real target!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_JOBBRD680_02893_GUYDELOT_000_093",
+    "original": "I thought it\u0027d be alright seeing as you\u0027d be there, but I should\u0027ve gone as well! Gods strike me down for a fool!",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_JOBBRD680_02893_GUYDELOT_000_094",
+    "original": "If you didn\u0027t see Sanson, they must\u0027ve nabbed him on the way to Dimwold. Come on, we have to find him!",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_JOBBRD680_02893_GUYDELOT_000_100",
+    "original": "Sanson\u0027s book was lyin\u0027 here. They left a message in blood, the godsdamned mummers.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_JOBBRD680_02893_GUYDELOT_000_101",
+    "original": "\u201CWe have your friend. We will send our price to the Adders\u0027 Nest.\u201D\u003Chex:02100103\u003E...That whoreson can take his ransom and shove it up his arse! We\u0027re gonna storm their hideout, tear \u0027em all new ones, and free Sanson!",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_JOBBRD680_02893_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_JOBBRD680_02893_A2_000_001",
+    "original": "We must keep calm.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_JOBBRD680_02893_A2_000_002",
+    "original": "We don\u0027t know where they are.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_JOBBRD680_02893_GUYDELOT_000_110",
+    "original": "Dammit, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, how can you always be so calm? It\u0027s downright contagious. And you\u0027re right, of course. If we charge in, we\u0027d be putting Sanson at risk.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_JOBBRD680_02893_GUYDELOT_000_120",
+    "original": "Dammit, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, how can you always be so calm? It\u0027s downright contagious. And you\u0027re right, of course. We don\u0027t even know where the bastards\u0027ve taken Sanson.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_JOBBRD680_02893_GUYDELOT_000_130",
+    "original": "We need help if we\u0027re gonna save him. Come on, let\u0027s hurry back to Gridania, to the Adders\u0027 Nest.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_JOBBRD680_02893_GUYDELOT_000_140",
+    "original": "I\u0027ve just reported the situation. They\u0027re gonna call a meeting to talk strategy.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_JOBBRD680_02893_GUYDELOT_000_141",
+    "original": "As for Gylbarde\u0027s journal...I\u0027m still holding on to it. Told \u0027em it\u0027s for the chief to hand over. They were none too pleased, fancy that.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_JOBBRD680_02893_GUYDELOT_000_142",
+    "original": "Y\u0027see, unlike our friend Sanson, I don\u0027t have much faith in the order. Don\u0027t trust \u0027em to act in our best interests. The journal\u0027s our bargaining chip, not only with them but Nourval besides.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_JOBBRD680_02893_GUYDELOT_000_143",
+    "original": "Would be good to bring old Jehantel into it as well. He\u0027d want to know, and might even have some sage advice to share.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_JOBBRD680_02893_GUYDELOT_000_144",
+    "original": "But for now, we sit tight\u2500wait and see what the order and Nourval will do. And then we plan some doings of our own. Till then, rest up and save your strength, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. We\u0027re gonna need it.",
+    "translation": ""
+  }
+}

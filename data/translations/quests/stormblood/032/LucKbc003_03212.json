@@ -1,0 +1,612 @@
+{
+  "0": {
+    "tag": "TEXT_LUCKBC003_03212_SEQ_00",
+    "original": "Curious Gorge is training here, but his mind is elsewhere.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_LUCKBC003_03212_SEQ_01",
+    "original": "Curious Gorge has been training as hard as ever and has indeed grown stronger for it, yet upon seeing you for the first time in an age, he immediately recognizes that you have grown stronger still. After you regale him with tales of your adventures in the First, particularly those of Granson and Dikaiosyne, he concludes that the reason for his limited growth is love\u2500or rather, that he has been unable to put it out of his mind. Curious Gorge has sent many missives to Dorgono in the Far East, but has yet to receive even a single reply, and so he resolves to go and see her in person...and thus is not present when Dorgono and her father Luvsan arrive moments later, having recently come all the way from the Azim Steppe to thank in person all those who aided the Qerel. Since Curious Gorge is nowhere to be found, you are to proceed to the Moraby Drydocks where Broken Mountain and his warriors can be found.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_LUCKBC003_03212_SEQ_02",
+    "original": "During the course of their conversation, Broken Mountain admits to Luvsan that he does not carry an axe because he can no longer fight. However, the elder Xaela does not believe all hope is lost, and proposes a treatment that may restore him to fighting condition. A certain type of moss will be necessary for this, and Luvsan believes he saw a suitable substitute on the way to the docks.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_LUCKBC003_03212_SEQ_03",
+    "original": "The moss in question can be found growing on boulders strewn throughout the general vicinity, and Luvsan bids you gather it by first shattering them with a Heavy Swing, which should render it easier to collect. If nothing else, it is inarguably a more dramatic way of gathering moss than gently scraping it off.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_LUCKBC003_03212_SEQ_04",
+    "original": "You succeed in gathering the moss in the distinct warrior fashion. Luvsan should be satisfied with the quantity in your possession.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_LUCKBC003_03212_SEQ_05",
+    "original": "Taking advantage of your privacy, Luvsan confesses that he had an ulterior motive for coming to Eorzea: to confirm his suspicions that his daughter had fallen in love with a warrior of the West. After meeting you, he concludes that you are the suitor in question, and offers to bless your union\u2500at which point Dorgono returns and puts an end to the discussion for the time being.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_LUCKBC003_03212_SEQ_06",
+    "original": "With all gathered for the ritual, Luvsan offers an elixir to Broken Mountain, who drinks deep. Finally, he instructs you to strike the injured warrior with all your might, assuring you both that it is the only way. Though Broken Mountain is understandably uncomfortable with this proposal, the die is cast, and only a Heavy Swing will suffice.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_LUCKBC003_03212_SEQ_07",
+    "original": "Broken Mountain weathers your assault, and moments later finds himself filled with newfound strength. He is a warrior reborn, and the beast within is his to command. As all celebrate his successful recovery, Curious Gorge approaches\u2500but observing from afar, mistakes Dorgono\u0027s joyful smile as an expression of her love towards you, leading him to succumb to his inner beast and charge. Fortunately, before it turns into a needlessly messy and violent affair, she brings him to his senses with a single blow.\u003Chex:02100103\u003E\u003Chex:02100103\u003EAfter Curious Gorge recovers, he apologizes for the misunderstanding, and joins in celebrating his brother\u0027s miraculous recovery. Sensing that this is the Western suitor, Luvsan silently approves, and declares that it is time to return to the Steppe\u2500alone. Dorgono, however, is to remain in Eorzea, where she will continue to hone her skills until she is a warrior fit to be wed. Needless to say, both she and Curious Gorge are more than satisfied with this state of affairs, and together they return to Hidden Falls to begin their training together.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_LUCKBC003_03212_SEQ_08",
+    "original": "Curious Gorge reminds you not to grow complacent in your own efforts to grow stronger still, for with Broken Mountain healed and Dorgono in Eorzea for the time being, your competition for the title of the realm\u0027s greatest warrior has grown that much more intense. And indeed, the day may come when one of the three will dethrone you...but not yet.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_LUCKBC003_03212_TODO_00",
+    "original": "Speak with Broken Mountain in lower La Noscea.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_LUCKBC003_03212_TODO_01",
+    "original": "Speak with Luvsan.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_LUCKBC003_03212_TODO_02",
+    "original": "Use Heavy Swing on mossy boulders to obtain shivermoss.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_LUCKBC003_03212_TODO_03",
+    "original": "Deliver the shivermoss to Luvsan.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_LUCKBC003_03212_TODO_04",
+    "original": "Speak with Luvsan.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_LUCKBC003_03212_TODO_05",
+    "original": "Use Heavy Swing on Broken Mountain.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_LUCKBC003_03212_TODO_06",
+    "original": "Speak with Curious Gorge in eastern La Noscea.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_LUCKBC003_03212_CURIOUSGORGE_000_000",
+    "original": "Oh, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E...how long has it been? I\u0027ve been dedicating myself wholly to my training for some time now, day after day after day, but I fear my progress has come to a halt of late.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_LUCKBC003_03212_CURIOUSGORGE_000_001",
+    "original": "You look well. A fair bit stronger than I remember, even. What is your secret, my friend? How have you grown so much more powerful?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_LUCKBC003_03212_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_LUCKBC003_03212_A1_000_001",
+    "original": "So I got sucked into this portal and traveled to another world...",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_LUCKBC003_03212_A1_000_002",
+    "original": "I went toe-to-toe with this fellow called Dikaiosyne...",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_LUCKBC003_03212_CURIOUSGORGE_000_002",
+    "original": "Wait, wait\u2500 I can tell this is going to take a while. Since I\u0027ve just finished my training, why don\u0027t we speak at length on dry land?",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_LUCKBC003_03212_CURIOUSGORGE_000_003",
+    "original": "So there are more worlds than this, eh? That\u0027s a lot to take in... And this Granson, ye gods. To see the woman you love taken from you before your very eyes... \u003Csniffle\u003E No wonder he struggled so mightily to pick up the pieces of his life...",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_LUCKBC003_03212_CURIOUSGORGE_000_004",
+    "original": "After listening to your tale, I realize what it is I\u0027ve been missing. The one thing I lack to spur me to even greater heights!",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_LUCKBC003_03212_CURIOUSGORGE_100_004",
+    "original": "\u0027Tis love!",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_LUCKBC003_03212_CURIOUSGORGE_000_005",
+    "original": "I sent several missives to Dorgono, you see, but she has yet to respond even once! I\u0027ve waited patiently, eagerly, but still! Still no word has arrived!",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_LUCKBC003_03212_CURIOUSGORGE_000_006",
+    "original": "Fear has crept into my heart. Has she forgotten me? Has she met another!?",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_LUCKBC003_03212_CURIOUSGORGE_000_007",
+    "original": "I cannot rest until I know the reason for her delay! I must know! This is no time for training!",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_LUCKBC003_03212_CURIOUSGORGE_000_008",
+    "original": "Nor can I afford to be patient. Granson\u0027s time with his beloved was cut short\u2500who is to say ours will not be as well? Or worse, if it already has...",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_LUCKBC003_03212_CURIOUSGORGE_000_009",
+    "original": "It is decided! I will purchase passage on the next ship for the Far East and return to the Azim Steppe with all haste! I\u0027m coming, Dorgono!",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_LUCKBC003_03212_DORGONO_000_010",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, how fortunate you are here! I have been looking all over for Curious Gorge. The Marauders\u0027 Guild told me he trained near here, but I did not know you did as well!",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_LUCKBC003_03212_DORGONO_000_011",
+    "original": "What do you mean he\u0027s going to the Steppe to see me because I never answered any of his missives? Is this a joke?",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_LUCKBC003_03212_DORGONO_000_012",
+    "original": "No matter how many he sent, I would have never responded. Our people have no written tongue. Whatever reached us was probably fed to the goats. Anyway\u2500let us hope that someone informs him of our arrival before he gets on a ship...",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_LUCKBC003_03212_DORGONO_000_013",
+    "original": "As for why I have traveled all this way, it was at the behest of my father, who wished to thank you and Curious Gorge personally for fighting on our behalf.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_014",
+    "original": "I am Luvsan of the Qerel, and you are \u003Chex:022903EB0203\u003E\u2500the khagan who stood with my people against the Chaghan.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_015",
+    "original": "But that is not all, for you also helped my youngest daughter gain control over the will of Karash. No words can express the depth of my gratitude to you.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_LUCKBC003_03212_DORGONO_000_016",
+    "original": "You promised not to speak of Karash...",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_017",
+    "original": "But I must. My heart broke when she was marked as Taken and exiled. Never again would I see her, I feared. But then she returned! Blood of my blood, master of Karash! My little girl...and it is all because of you.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_018",
+    "original": "In thanks for your deeds, I wish to present to you thirty horses\u2500",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_LUCKBC003_03212_DORGONO_000_019",
+    "original": "Father, no! It is not the way of Eorzea to give horses as thanks! And besides, \u003Chex:02080CE905FF04736865FF03686503\u003E is a traveler! They would only be a burden!",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_020",
+    "original": "I apologize, khagan. Now then\u2500I must also express my gratitude to the others. Warriors of the Maelstrom, were they? I believe I recall the way...",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_LUCKBC003_03212_DORGONO_000_021",
+    "original": "If you have the time to spare, might you accompany us? Having traveled so long solely in the company of my father, I am finding him increasingly exhausting...",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_026",
+    "original": "Well do I know how difficult my daughter can be, and so I wish to present you with a gift as an expression of my gratitude. I am told you would have no use for horses, but what about fifty goats?",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_LUCKBC003_03212_DORGONO_000_027",
+    "original": "It brings me joy to see the Lominsan warriors in good health!",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_LUCKBC003_03212_WARRIOR02902_000_028",
+    "original": "Gorge\u0027s got good taste, aye. If it weren\u0027t for him, I\u0027d have a mind to...er...give a polite and wholly appropriate compliment and be on my way.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_LUCKBC003_03212_BROKENMOUNTAIN_000_030",
+    "original": "It is a pleasure to see you again, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, as well as Dorgono. I am surprised to see her as you doubtless are, and in the company of her father besides...",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_031",
+    "original": "...I must insist that you accept a small token of my appreciation. I do not doubt my daughter was quite the handful. No less than fifty goats, I think, should suffice for the imposition\u2500",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_LUCKBC003_03212_DORGONO_000_032",
+    "original": "Fifty goats would be a far greater imposition, Father!",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_LUCKBC003_03212_BROKENMOUNTAIN_000_033",
+    "original": "It really was no bother, sir. A pleasure, honestly\u2500and a regrettably short one at that. So much so that we were hoping we might see her again, so you can imagine our surprise and our delight when you arrived.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_034",
+    "original": "If not horses or goats, then... Wait. Are you not the leaders of these warriors? Yet you do not carry an axe. Why is this?",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_LUCKBC003_03212_BROKENMOUNTAIN_000_035",
+    "original": "That is...that is because I cannot. Not since I was defeated by mine own brother in battle. He had succumbed to his inner beast\u2500your Karash\u2500and struck a blow with such ferocity from which I have never fully recovered.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_LUCKBC003_03212_BROKENMOUNTAIN_000_036",
+    "original": "But it is well that he did, for I too was in thrall to the beast at the time. Had he not given it his all, countless innocents may have died by my hand...",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_037",
+    "original": "It is not an unfamiliar story. Many a Qerel has suffered a grievous injury which rendered them unable to fight.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_038",
+    "original": "But I am a boo\u2500a healer, and I can help you to wield your axe once more.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_LUCKBC003_03212_BROKENMOUNTAIN_000_039",
+    "original": "This is in your power? I...I did not think it was possible!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_040",
+    "original": "It pains me to see a warrior who yet yearns to fight but cannot. Allow me to treat you as repayment for your kindness.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_LUCKBC003_03212_BROKENMOUNTAIN_000_041",
+    "original": "Full glad am I to accept! Thank you, sir, thank you...",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_042",
+    "original": "This treatment requires a quantity of shivermoss. While it is not native to your land, I believe a similar type grows here. Let us go and gather some.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_LUCKBC003_03212_BROKENMOUNTAIN_000_043",
+    "original": "You lot return to your training for now.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_LUCKBC003_03212_BROKENMOUNTAIN_100_044",
+    "original": "I don\u0027t know about you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, but I\u0027m bloody excited!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_LUCKBC003_03212_DORGONO_000_046",
+    "original": "Do you have any siblings, khagan? I am youngest of eighteen myself...",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_050",
+    "original": "The moss of which I spoke I spied in this place not long ago. We will need a moderate amount for the ritual to heal Broken Mountain. You and Dorgono can both assist me in this.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_051",
+    "original": "Look for mossy rocks nearby and shatter them with a Heavy Swing, then gather up the shivermoss.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_LUCKBC003_03212_DORGONO_000_052",
+    "original": "Ah, I remember this game! The marauders were always breaking rocks to hone their skills. This will be easy!",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_LUCKBC003_03212_SYSTEM_100_053",
+    "original": "Use Heavy Swing on mossy boulders to obtain shivermoss.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_056",
+    "original": "To be fair, you need not actually shatter the rocks to gather the moss, but it hastens the process and makes a somewhat dull process a little more entertaining, do you not think?",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_060",
+    "original": "You wield your axe with great skill, khagan. May I have the shivermoss?",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_061",
+    "original": "Very good. Now, before my daughter returns, there is one other matter which I must discuss with you.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_062",
+    "original": "She is a woman grown, and as her father I must think of her future. Of marriage.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_063",
+    "original": "Alas, she has shown no interest in any warriors of the Qerel. At first I thought none suited her, but then I began to wonder...was her mind made up? Had she already chosen a suitor?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_064",
+    "original": "Realizing this, I persuaded her to come with me to Eorzea. And now that we have met, I feel more certain than ever. Dorgono has fallen in love with a warrior of another land...",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_065",
+    "original": "...And I could not be happier for her. For who could disapprove of the champion who stood against the Chaghan?",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_066",
+    "original": "\u003Chex:022903EB0203\u003E, khagan of the Steppe, I will not oppose the union of you and Dorgono. I offer you my blessing.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_LUCKBC003_03212_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_LUCKBC003_03212_A2_000_001",
+    "original": "My heart belongs to the sea.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_LUCKBC003_03212_A2_000_002",
+    "original": "Did I mention I\u0027m eternally bonded to someone else?",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_LUCKBC003_03212_A2_000_003",
+    "original": "Honestly I\u0027m not all that keen on the whole institution of marriage...",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_LUCKBC003_03212_A2_000_004",
+    "original": "So there\u0027s this bloke called Gorge...",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_LUCKBC003_03212_A2_000_005",
+    "original": "Don\u0027t mind if I do!",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_LUCKBC003_03212_DORGONO_000_067",
+    "original": "Hey! HEY! Who are you to decide such things for me!?",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_LUCKBC003_03212_DORGONO_000_068",
+    "original": "I will not marry \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! I have already chosen a suitor, and it is not \u003Chex:02080DE905FF04686572FF0468696D03\u003E!",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_069",
+    "original": "Oh! I see... I was so certain that... Ahem. So...who is this other...?",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_LUCKBC003_03212_DORGONO_000_070",
+    "original": "We will not discuss this any further! We have the moss, now let us go and prepare for the ritual!",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_071",
+    "original": "Pray forgive me, khagan. I spoke out of turn. Dorgono is right\u2500we should attend to the ritual and restore Broken Mountain to the warrior he was.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_LUCKBC003_03212_DORGONO_000_076",
+    "original": "I\u0027m so sorry he spoke to you like that. It is a bad habit of his, meddling in affairs that are not his concern...",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_LUCKBC003_03212_BROKENMOUNTAIN_000_077",
+    "original": "I know not what sort of ritual this is. Do you? The traditions of the Qerel are a complete and utter mystery to me...",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_080",
+    "original": "I have brewed an elixir using the moss. Drink it now.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_081",
+    "original": "Very good. Your body is ready. You must now receive of the power of another great warrior. I can think of none more suitable than you, khagan.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_082",
+    "original": "We must awaken the Karash within him once more. I bid you summon the strength of Father Azim and strike Broken Mountain with all your might!",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_LUCKBC003_03212_BROKENMOUNTAIN_000_083",
+    "original": "You bid \u003Chex:02080DE905FF04686572FF0468696D03\u003E what now!?",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_084",
+    "original": "\u003Chex:021A020203\u003EAll your might\u003Chex:021A020103\u003E! Hold nothing back! Swing to kill! Anything less and he will be crippled worse or die!",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_LUCKBC003_03212_SYSTEM_100_085",
+    "original": "Muster all your strength and attack Broken Mountain with a Heavy Swing.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_086",
+    "original": "Do not hesitate, khagan! Strike him down as you would your most hated enemy, else this treatment will end in failure.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_LUCKBC003_03212_DORGONO_000_087",
+    "original": "Do it, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Do it!",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_LUCKBC003_03212_BROKENMOUNTAIN_000_088",
+    "original": "This seems like the exact opposite of what would benefit me...",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_LUCKBC003_03212_BROKENMOUNTAIN_100_090",
+    "original": "Ugh!",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_LUCKBC003_03212_BROKENMOUNTAIN_000_100",
+    "original": "Seven hells, what is this...this feeling I feel welling up from deep within? This fire, this passion...this rage!",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_LUCKBC003_03212_BROKENMOUNTAIN_000_101",
+    "original": "The beast stirs again! Its power is mine! It fills me with strength, yet I remain in control! Huzzah!",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_102",
+    "original": "The strength never left you, my friend. The injury was not one of the flesh, but of the heart. Trickery of the mind, a deception of the self.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_103",
+    "original": "The elixir served only to steel your flesh and dull the pain, so you could stand fast against the khagan\u0027s axe. You will not need it again, for the fear that held you hostage has fled.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_LUCKBC003_03212_BROKENMOUNTAIN_000_104",
+    "original": "I see... It was in my head all this time. It\u0027s no secret that fear can cripple a man worse than any wound, but I never thought... Gods, what a fool I\u0027ve been.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_LUCKBC003_03212_BROKENMOUNTAIN_000_105",
+    "original": "Thank you so much for helping me to overcome my foolishness, Luvsan. You\u0027ve made me a warrior again!",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_106",
+    "original": "Thank \u003Chex:02080DE905FF04686572FF0468696D03\u003E, for a warrior of surpassing strength and power is indispensable for this ritual. No other could have served as well.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_LUCKBC003_03212_DORGONO_000_107",
+    "original": "Aye, for there is no greater warrior than \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_LUCKBC003_03212_CURIOUSGORGE_000_108",
+    "original": "How could you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E...? You and Dorgono, all this time... It all makes sense now. The letters, the silence. It was you...",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_LUCKBC003_03212_DORGONO_000_109",
+    "original": "Curious Gorge, what is this nonsense you speak? What\u0027s gotten into you?",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_LUCKBC003_03212_CURIOUSGORGE_000_110",
+    "original": "Graaaghhh! Gaaarrrghhh!",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_LUCKBC003_03212_DORGONO_000_111",
+    "original": "Oh no you don\u0027t, you stupid fool!",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_LUCKBC003_03212_CURIOUSGORGE_000_120",
+    "original": "I am so sorry, everyone. When I went to the docks to find a ship bound for the Far East, I ran into some marauders who told me Dorgono and her father had come.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_LUCKBC003_03212_CURIOUSGORGE_000_121",
+    "original": "So overcome by joy I began searching for them at once, but when I finally found you here, and saw how you looked on \u003Chex:022C0DFF07022903EB0203FF02200203\u003E with such joy, all my earlier fears came rushing back, and the beast within me seized control...",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_LUCKBC003_03212_DORGONO_000_122",
+    "original": "It had better not happen again! You\u0027re lucky I held back. Next time I won\u0027t!",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_LUCKBC003_03212_CURIOUSGORGE_000_123",
+    "original": "And Brother! Is it true that you have fully recovered? You are a warrior reborn? Congratulations! It is like a dream come true!",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_LUCKBC003_03212_BROKENMOUNTAIN_000_124",
+    "original": "Indeed, Brother, indeed! At first I struggled to believe it, but it is as Luvsan says! I must go and join in the training sessions at once. And do not fear\u2500the beast will not claim me again!",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_LUCKBC003_03212_CURIOUSGORGE_000_125",
+    "original": "I cannot thank you enough, Luvsan. It has been longer than I can remember since my brother smiled so. You\u0027ve given us such a gift...",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_LUCKBC003_03212_LUVSAN_000_126",
+    "original": "It is the least I could do after all you have done for my daughter. Thank you for your kindness and your hospitality. Our time is short, however, and we must be on our way...",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_LUCKBC003_03212_DORGONO_000_127",
+    "original": "Having said that... Dorgono. I am reminded that you are still young and want for experience. You are not yet a warrior fit to wed, and so I bid you continue to strengthen your body and mind here, in this land. It suits you, I think.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_LUCKBC003_03212_DORGONO_000_128",
+    "original": "Did you hear that? I can stay! We can even train together\u2500I can show you all the techniques we Qerel use to hone our skills!",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_LUCKBC003_03212_CURIOUSGORGE_000_129",
+    "original": "Aye, but first I must teach you my methods! You must come with me to Hidden Falls, right this instant!",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_LUCKBC003_03212_CURIOUSGORGE_000_130",
+    "original": "You too, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! I\u0027ve a few final words I wish to say to you there.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_LUCKBC003_03212_CURIOUSGORGE_000_140",
+    "original": "I trust you understand what all this means, my friend. Now that my brother has taken up the axe again, the competition for the title of Eorzea\u0027s greatest warrior will be that much more intense!",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_LUCKBC003_03212_DORGONO_000_141",
+    "original": "Don\u0027t forget I\u0027m in the running too, you know!",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_LUCKBC003_03212_CURIOUSGORGE_000_142",
+    "original": "So keep at it, warrior, for the time will come when we challenge you again!",
+    "translation": ""
+  }
+}

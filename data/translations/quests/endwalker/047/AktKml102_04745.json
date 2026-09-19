@@ -1,0 +1,817 @@
+{
+  "0": {
+    "tag": "TEXT_AKTKML102_04745_SEQ_00",
+    "original": "Ryne is eager to help you set your plan in motion.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_AKTKML102_04745_TODO_00",
+    "original": "Speak with Chai-Nuzz in Eulmore.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_AKTKML102_04745_TODO_01",
+    "original": "Speak with Zero and have her accompany you.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_AKTKML102_04745_TODO_02",
+    "original": "Speak with the Eulmoran citizens while Zero and Ryne are accompanying you.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_AKTKML102_04745_TODO_03",
+    "original": "Speak with Chai-Nuzz while Zero and Ryne are accompanying you.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_AKTKML102_04745_TODO_04",
+    "original": "Speak with Zero.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_001",
+    "original": "I see they use aetherytes here as well. Not that I\u0027ll be able to, having not attuned to any. I trust you\u0027re willing to walk with me?",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_010",
+    "original": "Let\u0027s head for Nabaath Areng. Since Zero can\u0027t teleport to the aetheryte there, we should probably travel by amaro.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_AKTKML102_04745_LYNA_000_011",
+    "original": "Ah, there you are. Thank goodness I\u0027m not too late.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_012",
+    "original": "Lyna! I take it Beq Lugg told you why \u003Chex:02080CE905FF04736865FF03686503\u003E\u0027s here?",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_AKTKML102_04745_LYNA_000_013",
+    "original": "More or less.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_AKTKML102_04745_LYNA_000_014",
+    "original": "Greetings and welcome. I am Lyna, captain of the guard here at the Crystarium.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_015",
+    "original": "Zero. Is there something you require...?",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_AKTKML102_04745_LYNA_000_016",
+    "original": "When I learned of your plan to gather Light at the Crystal Tower, I felt compelled to warn you of the potential repercussions.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_AKTKML102_04745_LYNA_000_017",
+    "original": "I know well that you would never use the tower for ill, nor without due caution. Even so...",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_018",
+    "original": "I believe I understand.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_019",
+    "original": "Ever since the Flood, Light has been a source of pain and misery. Some fear it still, no doubt.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_020",
+    "original": "Which is to say that some would be uncomfortable at the sight of it wielded as we intend. That is your concern, is it not?",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_AKTKML102_04745_LYNA_000_021",
+    "original": "Precisely.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_AKTKML102_04745_LYNA_000_022",
+    "original": "It was Light that nearly consumed our world. To use the Crystal Tower to harness this destructive force risks turning the tower into an object of fear.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_AKTKML102_04745_LYNA_000_023",
+    "original": "You may convince the Crystarium of the necessity of your cause, but it will not be so easy to win over those outside our walls.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_AKTKML102_04745_LYNA_000_024",
+    "original": "I worry this will undermine the fragile trust that we have only begun to build with some communities. They may misunderstand your intentions.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_025",
+    "original": "Tell me who they are and what misunderstandings they may have. I shall allay their concerns.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_026",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E and I will go with her. People know us. Our presence will put them at ease.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_AKTKML102_04745_LYNA_000_027",
+    "original": "Thank you. I realize this will delay the execution of your plans, but I see no other way.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_AKTKML102_04745_LYNA_000_028",
+    "original": "As for where to begin...I daresay Eulmore would be as good a place as any.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_AKTKML102_04745_LYNA_000_029",
+    "original": "Though ours is an amicable relationship now, we were at odds for long years.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_030",
+    "original": "Eulmore was once ruled by a tyrant who wielded the power of Light. Though he promised salvation, in truth he made slaves of his subjects, and sought to destroy any who defied him.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_031",
+    "original": "He\u0027s gone now, thankfully, and a good man named Chai-Nuzz was elected mayor. Relations between our cities have improved much since then.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_032",
+    "original": "Even so, there\u0027s a lingering rivalry between us. If the Crystarium were to harness Light without warning, some Eulmorans might suspect we have ulterior motives.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_AKTKML102_04745_LYNA_000_033",
+    "original": "Thus would it be prudent to give them prior notice. If you explain that you seek to save the Warrior of Darkness\u0027s home, though, I should hope that they would give you their blessing.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_034",
+    "original": "Once again, yours is a name that commands respect and trust in the domain of your former enemies. As it does in Garlemald...",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_035",
+    "original": "Where else should we visit?",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_AKTKML102_04745_LYNA_000_036",
+    "original": "After Eulmore, I would suggest the Rak\u0027tika Greatwood.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_AKTKML102_04745_LYNA_000_037",
+    "original": "There you will find the Night\u0027s Blessed, a small collective which worships Darkness, as well as the Viis, guardians of the secrets of ancient Ronka.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_AKTKML102_04745_LYNA_000_038",
+    "original": "The Viis are insular and will likely not object unless the Light encroaches upon their territory. The Night\u0027s Blessed, on the other hand, would greatly benefit from your assurances that your actions will not adversely affect their lives.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_039",
+    "original": "People who worship Darkness... Fitting for a world all but consumed by Light.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_040",
+    "original": "Very well. We will treat with the people of Eulmore and the Night\u0027s Blessed.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_AKTKML102_04745_LYNA_000_041",
+    "original": "Here, take these whisperweeds. I will let you know when all is in readiness with the tower.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_AKTKML102_04745_LYNA_000_042",
+    "original": "Right, then. I should tend to my own tasks...",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_AKTKML102_04745_LYNA_000_043",
+    "original": "Explaining the situation to the people of the Crystarium, and arranging for your transmitters to be placed here and in Nabaath Areng.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_044",
+    "original": "We\u0027re truly grateful. Thank you, Lyna.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_045",
+    "original": "Come, let\u0027s head to Eulmore. Hopefully Chai-Nuzz will know how best to present our plan to everyone.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_050",
+    "original": "This is the great and powerful leader of Eulmore...? He must be possessed of subtle qualities that make him uniquely suited to the position.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_055",
+    "original": "Look, Dulia-Chai and Wrenden are here too. Between the three of them, we should be able to get some good advice.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_AKTKML102_04745_WRENDEN_000_060",
+    "original": "Greetings, Warrior of Darkness. If you\u0027ve come out of concern for our esteemed mayor, fear not. He runs the city well, and as ever prefers to work closely with the people, the better to hear their voice.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_AKTKML102_04745_DULIACHAI_000_065",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, Ryne! Oh, what a wonderful surprise this is! And you\u0027ve even brought a new friend!",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_AKTKML102_04745_CHAINUZZ_000_100",
+    "original": "Good gods, if it isn\u0027t \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_AKTKML102_04745_CHAINUZZ_100_100",
+    "original": "To what do we owe the pleasure? Not another world-ending threat, surely not. Surely not...?",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_AKTKML102_04745_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_AKTKML102_04745_A1_000_001",
+    "original": "We\u0027re planning a grand undertaking that may be of concern to the people of Eulmore.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_AKTKML102_04745_A1_000_002",
+    "original": "There\u0027s a sensitive matter about which we thought it best to consult the city\u0027s esteemed mayor.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_AKTKML102_04745_CHAINUZZ_200_100",
+    "original": "Ah. And you wished to consult with me before making your plans known to the populace? Very well. What exactly did you have in mind...?",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_AKTKML102_04745_CHAINUZZ_210_100",
+    "original": "I doubt I\u0027d ever describe myself as such, but anyway. I can tell you\u0027re up to something\u2500the kind of something I might want nothing to do with, but regardless, I should probably know. What is it?",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_AKTKML102_04745_CHAINUZZ_000_101",
+    "original": "Gathering Light with the Crystal Tower, you say...",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_AKTKML102_04745_CHAINUZZ_000_102",
+    "original": "I would be lying if I said that doesn\u0027t bring back unpleasant memories, and I believe I speak for most Eulmorans.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_103",
+    "original": "We can hardly blame you...",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_AKTKML102_04745_CHAINUZZ_000_104",
+    "original": "We have no reason to question your motives, of course. Neither yours nor those of the Crystarium\u0027s leadership.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_AKTKML102_04745_CHAINUZZ_000_105",
+    "original": "A world engulfed in Darkness, its corrupted inhabitants attempting to invade your own... It\u0027s rather a lot to process. But the desire to save one\u0027s home is something anyone can understand.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_AKTKML102_04745_CHAINUZZ_000_109",
+    "original": "I\u0027m touched that you show such concern for our feelings despite the gravity of your plight. Very well. You have my support.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_AKTKML102_04745_DULIACHAI_000_110",
+    "original": "As if there was ever any doubt! Right\u2500let\u0027s gather the people at once. An explanation from you ought to ensure everyone understands.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_AKTKML102_04745_CHAINUZZ_000_111",
+    "original": "N-Not so fast, dearest. If I were to reveal everything at this juncture, many would be deeply unsettled, regardless of any assurances I offered.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_AKTKML102_04745_CHAINUZZ_000_112",
+    "original": "No, we need to first set the stage. Spread word of the Warrior of Darkness\u0027s plight\u2500that \u003Chex:02080CE905FF04736865FF03686503\u003E is on a mission to save \u003Chex:02080DE905FF04686572FF0468697303\u003E world, as \u003Chex:02080CE905FF04736865FF03686503\u003E once did ours.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_AKTKML102_04745_CHAINUZZ_000_113",
+    "original": "Once the tale is common knowledge, I shall call an assembly and explain the need to harness the power of Light to a populace far more amenable to the idea.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_AKTKML102_04745_CHAINUZZ_000_116",
+    "original": "To that end, might I trouble you to speak with our citizens about your predicament? \u0027Twould be more effective to hear the details from the hero \u003Chex:020815E905FF0868657273656C66FF0868696D73656C6603\u003E. More likely to inspire solidarity for your cause.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_AKTKML102_04745_WRENDEN_000_117",
+    "original": "So we appeal to the desire to aid the Warrior of Darkness to present Light in a more positive...light. Well played, Master Chai.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_126",
+    "original": "If it\u0027s best that you do the talking, then we\u0027ll come with you.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_127",
+    "original": "Fine by me. I\u0027m content to observe.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_AKTKML102_04745_CHAINUZZ_000_128",
+    "original": "Once you have finished your rounds, I ask that you report to me. I should like to know how the people react.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_129",
+    "original": "Lead the way, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. We\u0027ll be right behind you.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_AKTKML102_04745_CHAINUZZ_000_130",
+    "original": "I am acutely aware of my limitations and know that I am not the most persuasive speaker, thank you. We should do our utmost to make the people more receptive before I address them.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_AKTKML102_04745_WRENDEN_000_135",
+    "original": "The people of Eulmore have tremendous faith in both you and Master Chai. They would not still be here otherwise\u2500I myself included.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_AKTKML102_04745_DULIACHAI_000_140",
+    "original": "So Zero can travel here freely like you? Would that Alphinaud could do the same. I miss him dearly...",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_145",
+    "original": "While Lyna and Master Chai couldn\u0027t be more different, they\u0027re both mindful of how their actions may affect others. They\u0027re both good leaders, and there\u0027s much I hope to learn from them.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_200",
+    "original": "From that conversation alone, I could see how much the people here trust you.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_201",
+    "original": "Thanks to Jullus and Thancred, I\u0027ve grown better at recognizing it.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_202",
+    "original": "What? You\u0027ve met Thancred too?",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_203",
+    "original": "I mean, uh... Right. Of course you have. I don\u0027t know why I said that...",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_100_203",
+    "original": "Right, let\u0027s find some citizens to speak with. I suggest we start here in the Canopy before heading down to the Understory and then the Derelicts.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_AKTKML102_04745_SYSTEM_000_205",
+    "original": "Zero and Ryne are now accompanying you. Keep them at your side in order to proceed with quest objectives.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_AKTKML102_04745_SYSTEM_000_206",
+    "original": "You can leave your quest companions behind by entering a different area, or by speaking with them and selecting the option to part ways.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_AKTKML102_04745_SYSTEM_000_207",
+    "original": "If you wish to have your companions join you again, return and speak with them at the original location.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_AKTKML102_04745_SYSTEM_000_208",
+    "original": "What will you do?",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_AKTKML102_04745_SYSTEM_000_209",
+    "original": "Small talk.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_AKTKML102_04745_SYSTEM_000_210",
+    "original": "Part ways.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_AKTKML102_04745_SYSTEM_000_211",
+    "original": "Nothing.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_212",
+    "original": "A tower, growing more decadent as it rises, set upon an isolated sliver of land... Reminiscent of a voidsent domain.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_213",
+    "original": "Built by those who yearned for better times. Who ached for the shadow of a memory.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_214",
+    "original": "Yet I saw no such desperation in the Crystarium. Despite their shared tragedy, the two cities couldn\u0027t feel more different.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_215",
+    "original": "Though the Crystarium is my home now, I still visit Eulmore on occasion.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_100_215",
+    "original": "Though the Crystarium is my home now, I still visit Eulmore on occasion, together with Gaia.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_216",
+    "original": "And each time I\u0027m here, I can feel that the city has changed. The mood is brighter, and the people happier.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_217",
+    "original": "We can\u0027t allow all that hard-won progress to be undone. Let\u0027s do our best to reassure everyone.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_AKTKML102_04745_SYSTEM_000_218",
+    "original": "Are you sure you wish to part ways with your companions?",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_219",
+    "original": "You have other business? There\u0027s nothing else I care to do here, so I will wait for you at the main plaza.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_220",
+    "original": "Oh, has something come up? That\u0027s all right. Zero and I can wait for you at the aetheryte plaza.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_221",
+    "original": "There you are. Back to it, then.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_222",
+    "original": "Taken care of things, have you? Then lead the way!",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_AKTKML102_04745_SYSTEM_000_223",
+    "original": "\u003Chex:024804F2022403\u003EDiscuss the Beehive.\u003Chex:0248020103\u003E",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_AKTKML102_04745_SYSTEM_000_224",
+    "original": "\u003Chex:024804F2022403\u003EDiscuss the Derelicts.\u003Chex:0248020103\u003E",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_225",
+    "original": "A tavern, and an extravagant one at that. But those dancers engage with the poles in such strange ways.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_226",
+    "original": "Are they pantomiming a battle? A soldier thrusting their spear into the ground and using it to launch themselves at an enemy, perhaps...?",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_227",
+    "original": "Given this world\u0027s violent history, it makes sense that displays of martial prowess would become popular entertainment.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_228",
+    "original": "Thancred once told me that people come to these places to \u201Csavor some memories and drown the others.\u201D",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_229",
+    "original": "I imagine the Beehive was built primarily to help Eulmorans forget about sin eaters, even if only for a time. But now they can simply enjoy themselves.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_230",
+    "original": "I can see the appeal... But don\u0027t worry! I know I\u0027m still a bit too young for it...",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_231",
+    "original": "That thing there cleaning up the debris... For a moment I thought it might be a voidsent.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_232",
+    "original": "In case you didn\u0027t know, it\u0027s not uncommon for our kind to use statues as vessels.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_233",
+    "original": "But I see now that it\u0027s more akin to the mechanical soldiers used by the Garleans. They come in all shapes and sizes, don\u0027t they?",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_234",
+    "original": "When Vauthry tried to keep us out of the city, many free citizens died in the chaos.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_235",
+    "original": "Some had no kin to inherit their wealth, and so Eulmore decided to use it to help fund the reconstruction of the Derelicts.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_236",
+    "original": "It\u0027s part of a greater effort to improve the living conditions down here, which is important since there\u0027s simply not enough room for everyone in the city proper.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_AKTKML102_04745_CITIZEN04745A_000_300",
+    "original": "Hm? Haven\u0027t I seen you somewhere before?",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_AKTKML102_04745_CITIZEN04745B_000_301",
+    "original": "You keep looking over your shoulder. Are you waiting for someone...?",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_AKTKML102_04745_CITIZEN04745C_000_302",
+    "original": "Gods, how am I supposed to go on like this. \u003Csigh\u003E I need another drink.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_AKTKML102_04745_SYSTEM_000_303",
+    "original": "You must be accompanied by Ryne and Zero, and have them at your side in order to proceed with quest objectives.",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_AKTKML102_04745_SYSTEM_000_304",
+    "original": "Your companions have yet to arrive. Be sure they are at your side before attempting to continue.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_AKTKML102_04745_CITIZEN04745A_000_305",
+    "original": "You\u0027re the Warrior of Darkness! I never dreamed I\u0027d have the honor...but why are you in Eulmore, if I may ask?",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_AKTKML102_04745_CITIZEN04745A_000_306",
+    "original": "Your home is in danger, and you\u0027ve come seeking help...",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_AKTKML102_04745_CITIZEN04745A_000_307",
+    "original": "If there\u0027s anything we can do for you, you need only ask. Things could be better here, of course, and we\u0027ve got a long road ahead of us, but we wouldn\u0027t be here if it wasn\u0027t for you and yours. And we\u0027ll never forget that.",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_AKTKML102_04745_CITIZEN04745A_000_308",
+    "original": "I once feared the sin eaters and the Light with every fiber of my being, but no longer. There\u0027s too much that wants for doing; we can\u0027t afford to be ruled by fear. You taught me that.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_AKTKML102_04745_CITIZEN04745B_000_312",
+    "original": "Well now, the Warrior of Darkness and the Oracle of Light both! How may I be of service?",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_AKTKML102_04745_CITIZEN04745B_000_313",
+    "original": "Your enemies plot to invade your world!? Having heard tales of sin eaters ravaging countless villages, your plight feels all too familiar...",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_AKTKML102_04745_CITIZEN04745B_000_314",
+    "original": "Come what may, I urge you to remain strong. You overcame the Lightwardens\u2500you can overcome any adversity. And for what it\u0027s worth, I\u0027m sure everyone here would be willing to help in whatever way we can.",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_AKTKML102_04745_CITIZEN04745B_000_315",
+    "original": "Have courage, my friend. You saved our world once before, and I have faith you will save your own. That said, if I or my brethren can be of assistance, please don\u0027t hesitate to ask.",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_AKTKML102_04745_CITIZEN04745C_000_322",
+    "original": "I used to live for the moment, not caring what might happen on the morrow. But now that we have peace, I find myself thinking about the future...and feeling anxious...",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_AKTKML102_04745_CITIZEN04745C_000_323",
+    "original": "What? Your home is threatened with destruction? Wicked white, why are you wasting time in a drinking hole!?",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_AKTKML102_04745_CITIZEN04745C_000_324",
+    "original": "Ugh, but as I say it, I feel the sting of hypocrisy... Gods, I need to take control of my life. Need to face my troubles head-on\u2500and the same goes for you!",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_AKTKML102_04745_CITIZEN04745C_000_325",
+    "original": "No one ever found answers at the bottom of a cup. None worth a damn, at least. We both know exactly what we need to do, don\u0027t we?",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_AKTKML102_04745_WRENDEN_000_335",
+    "original": "Spoken with the people, have you? While they\u0027re not without their worries, I\u0027d like to think that, on the whole, they\u0027re not as prone to melancholy as they once were.",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_AKTKML102_04745_DULIACHAI_000_340",
+    "original": "The people know and respect you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I\u0027ve no doubt that everyone will rally around you in your hour of need!",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_AKTKML102_04745_CHAINUZZ_000_400",
+    "original": "Ah, you\u0027re back. Good. But where are Ryne and Zero?",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_AKTKML102_04745_CHAINUZZ_000_401",
+    "original": "So the people are of one mind in their desire to help. Good, good.",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_AKTKML102_04745_DULIACHAI_000_402",
+    "original": "Why, just earlier, I overheard a conversation about how the Warrior of Darkness is seeking to save their home. Your tale is spreading quickly.",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_AKTKML102_04745_WRENDEN_000_403",
+    "original": "Then the plan has unfolded precisely as you envisioned.",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_AKTKML102_04745_CHAINUZZ_000_404",
+    "original": "All that remains, then, is to assemble the citizens and explain \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u0027s need to gather Light...",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_AKTKML102_04745_CHAINUZZ_000_405",
+    "original": "For better or worse, I\u0027m mayor of this city. I\u0027ll do my best to win them over.",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_AKTKML102_04745_PATIENT03631_000_406",
+    "original": "Wait, aren\u0027t you...",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_AKTKML102_04745_PATIENT03631_000_407",
+    "original": "Yes, you\u0027re her! The young lady who saved me from Vauthry!",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_AKTKML102_04745_PATIENT03631_000_408",
+    "original": "I\u0027d eaten enough meol to fall under his control, but you cured me. I wouldn\u0027t be alive today if not for you.",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_409",
+    "original": "Oh, I remember you too! I\u0027m glad to see you\u0027re doing well.",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_AKTKML102_04745_PATIENT03631_000_410",
+    "original": "I only learned later that it was the Oracle of Light herself who saved me\u2500saved all of us. I didn\u0027t know if I\u0027d ever get the chance to express my gratitude...",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_AKTKML102_04745_PATIENT03631_000_411",
+    "original": "I\u0027m sure it was nothing for someone with your power, but thank you. Thank you, from the bottom of my heart.",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_412",
+    "original": "What is this \u201Cmeol\u201D?",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_414",
+    "original": "Food made from the Light-tainted flesh of sin eaters, you say?",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_100_414",
+    "original": "I see. The more they ate, the more the Light\u0027s corruption spread.",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_415",
+    "original": "Right. And because of that, they became susceptible to Vauthry\u0027s commands, as he could make the sin eaters do his bidding.",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_418",
+    "original": "Thankfully, I was able to suppress Light\u0027s influence and free everyone from his control, and there seems to be no lingering effects.",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_419",
+    "original": "You say that as if it were some small feat.",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_420",
+    "original": "I\u0027ve seen countless souls corrupted by Darkness. Someone with the power to heal them would be regarded as a great figure\u2500and never know peace.",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_421",
+    "original": "My gift has been a burden. Many have suffered for it. Died for it.",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_422",
+    "original": "There were times when I wished I didn\u0027t have it. When I wanted to run away from everyone and everything.",
+    "translation": ""
+  },
+  "197": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_423",
+    "original": "But I had friends to encourage and guide me\u2500to help me learn not just to embrace my gift, but to take charge of my life. To change my fate.",
+    "translation": ""
+  },
+  "198": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_425",
+    "original": "And so you did just that...",
+    "translation": ""
+  },
+  "199": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_426",
+    "original": "The people of this world are resilient indeed.",
+    "translation": ""
+  },
+  "200": {
+    "tag": "TEXT_AKTKML102_04745_RYNE_000_430",
+    "original": "When I tended to the people after Vauthry fled, I wasn\u0027t sure how much of a difference it would make. It\u0027s a relief to see so many that I treated are alive and well.",
+    "translation": ""
+  },
+  "201": {
+    "tag": "TEXT_AKTKML102_04745_CHAINUZZ_000_435",
+    "original": "My thanks again for your consideration, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. The rest, you may leave to us.",
+    "translation": ""
+  },
+  "202": {
+    "tag": "TEXT_AKTKML102_04745_WRENDEN_000_440",
+    "original": "We appreciate the Crystarium\u0027s concern for the welfare of our people. May we continue to strengthen the ties between our two cities.",
+    "translation": ""
+  },
+  "203": {
+    "tag": "TEXT_AKTKML102_04745_DULIACHAI_000_445",
+    "original": "Brief though it was, it was wonderful to see you. Do visit again soon\u2500hopefully when the fate of a world isn\u0027t weighing on your mind.",
+    "translation": ""
+  },
+  "204": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_500",
+    "original": "That a half-voidsent like me managed to escape the Flood of Darkness...",
+    "translation": ""
+  },
+  "205": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_501",
+    "original": "For all these years, I never stopped to wonder why. To wonder if I had a greater part to play.",
+    "translation": ""
+  },
+  "206": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_502",
+    "original": "Well. Perhaps it\u0027s time I took charge and considered what I might be able to do for others.",
+    "translation": ""
+  },
+  "207": {
+    "tag": "TEXT_AKTKML102_04745_MYSTERIOUSPERSON_000_503",
+    "original": "The answer is here in the First, and I \u003Chex:021A020203\u003Ewill\u003Chex:021A020103\u003E find it.",
+    "translation": ""
+  }
+}

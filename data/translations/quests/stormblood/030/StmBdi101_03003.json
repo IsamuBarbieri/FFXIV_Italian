@@ -1,0 +1,572 @@
+{
+  "0": {
+    "tag": "TEXT_STMBDI101_03003_SEQ_00",
+    "original": "Keiten knows of someone seeking your acquaintance.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_STMBDI101_03003_SEQ_01",
+    "original": "Lina Mewrilah and a young maid by the name of Alma seek not only your acquaintance, but your aid, as well. Follow the pair to the airship landing to learn more.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_STMBDI101_03003_SEQ_02",
+    "original": "It appears that Alma will only speak from the safety of her airship, currently berthed in the skies above Kugane. Approach Lina Mewrilah when you are ready to board the shuttle.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_STMBDI101_03003_SEQ_03",
+    "original": "Lina informs you that the theater barge belongs to the Majestic Imperial Theater Company, of which Alma is a member. Speak with the young girl in the tiring room.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BFuture visits to the \u003Chex:021A020203\u003EPrima Vista\u003Chex:021A020103\u003E can be made by speaking with the shuttle pilot stationed at the airship landing.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_STMBDI101_03003_SEQ_04",
+    "original": "You learn that the Majestic Imperial Theater Company was forced to flee the Empire after its founder and principal, Jenomis cen Lexentale, refused to cease his criticism of the government. There is, however, more to the story...and if you wish to hear it, you will need to proceed to the bridge.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_STMBDI101_03003_SEQ_05",
+    "original": "Jenomis apparently believed that the Zodiac Brave Story\u2500a legend known to all Garleans\u2500was more than a mere bedtime tale, and set off to the Royal City of Rabanastre in the recently annexed Kingdom of Dalmasca hoping to prove his theory. Contact with the principal, however, was lost soon after his departure, and he has not been heard from since. Speak with Jenomis\u0027s son Ramza on the bridge to find out your role in proceedings.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_STMBDI101_03003_SEQ_06",
+    "original": "Ramza is planning an expedition to locate and rescue his father, and your assistance has been grudgingly accepted. Speak with the youth again when you are ready to depart for Dalmasca.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_STMBDI101_03003_TODO_00",
+    "original": "Speak with Lina Mewrilah.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_STMBDI101_03003_TODO_01",
+    "original": "Speak with Lina Mewrilah.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_STMBDI101_03003_TODO_02",
+    "original": "Speak with Alma in the tiring room.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_STMBDI101_03003_TODO_03",
+    "original": "Speak with Alma in the tiring room.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_STMBDI101_03003_TODO_04",
+    "original": "Speak with Ramza on the bridge.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_STMBDI101_03003_KEITEN_000_000",
+    "original": "Welcome, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E. There is a young maiden here who would speak with you.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_STMBDI101_03003_KEITEN_100_000",
+    "original": "Miss! The adventurer has arrived!",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_001",
+    "original": "And here \u003Chex:02080CE905FF04736865FF03686503\u003E is! The liberator of both Doma and Ala Mhigo in the flesh! I am Lina Mewrilah, correspondent for \u003Chex:021A020203\u003EThe Raven\u003Chex:021A020103\u003E. You may recognize me from my expos\u00E9 on the secret lives of the Homunculi.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_005",
+    "original": "Is there...a problem?",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_006",
+    "original": "Mujih? That would be my sister. People mistake us all the time. Same profession, you see, and we do bear a passing resemblance. When last I heard, she was still assigned to the Botanists\u0027 Guild in Gridania, poor thing.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_010",
+    "original": "But enough small talk. It\u0027s not for nothing that I\u0027ve been standing here since yesterday morning on the off chance you\u0027d pass by.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_100_010",
+    "original": "No, I\u0027m here because\u2500 Actually, it\u0027s best you heard it from Alma. I am but an observer.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_101_010",
+    "original": "Alma, come! I\u0027ve found \u003Chex:02080DE905FF04686572FF0468696D03\u003E!",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_011",
+    "original": "(-Alma-)Is this the adventurer of whom you spoke?",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_012",
+    "original": "Indeed it is.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_013",
+    "original": "(-Alma-)Please! I beg of you! Find my father! You are his only hope!",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_014",
+    "original": "It\u0027s all right, Alma...",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_015",
+    "original": "We are attracting unwanted attention. Might I suggest a change of venue?",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_0016",
+    "original": "We will await you before the \u003Chex:021A020203\u003EPrima Vista\u003Chex:021A020103\u003E. The theater barge has a berth at the airship landing.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_STMBDI101_03003_KEITEN_000_020",
+    "original": "I have never been one to meddle in the affairs of my clients...but if I were, I would say that you would be a fool not to follow those two back to their airship. Call it...a feeling.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_025",
+    "original": "\u003Csob\u003E",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_030",
+    "original": "As I said before, I think it better we continue this conversation in the privacy of the young lady\u0027s barge. It\u0027s not that I don\u0027t trust anyone here...it\u0027s simply that I don\u0027t trust anyone here.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_031",
+    "original": "Gate guard Minegumo has been instructed to look out for you. In future, speak with him when you wish to gain admission to the docks.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_040",
+    "original": "...",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_STMBDI101_03003_AIRSHIPGUIDE03003_000_045",
+    "original": "You should speak with Lady Lina.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_050",
+    "original": "Thank you for coming, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_051",
+    "original": "You\u0027re probably wondering why I\u0027ve summoned you to an airship...and a Garlean one at that. Allow me to explain on the shuttle.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_055",
+    "original": "Welcome to the \u003Chex:021A020203\u003EPrima Vista\u003Chex:021A020103\u003E, the most luxurious theater barge in all the land!",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_060",
+    "original": "The \u003Chex:021A020203\u003EPrima Vista\u003Chex:021A020103\u003E serves as both stage and home to the Majestic Imperial Theater Company.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_070",
+    "original": "You can keep that dirk in your drawers. No one here is a member of the imperial army, nor are there any spies within the troupe...at least, no \u003Chex:021A020203\u003Eknown\u003Chex:021A020103\u003E spies...",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_071",
+    "original": "Ask anyone and they will readily attest: the Majestic Imperial Theater Company are the finest practitioners of the dramatic arts to be found anywhere on the Three Great Continents...and beyond!",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_072",
+    "original": "They have admirers throughout the Empire and its territories\u2500and even boast a sizable following in Gridania, hence my assignment to their story.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_073",
+    "original": "It is a little-known fact, outside Garlemald at least, that the late emperor was a devoted patron of the arts who supported various theater troupes to the tune of much coin.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_074",
+    "original": "Indeed, Solus was so enamored of the Majestic players that he ordered the construction of this very airship, that the troupe might perform in every corner of the Empire.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_075",
+    "original": "When his grandson took the throne, however, everything changed.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_076",
+    "original": "Now, all theater troupes domestic and foreign must submit their works for approval by the central imperial board of censors. If a play is deemed vulgar or inflammatory, it is banned and the troupe denied their writs of transit. The worst offenders? Well, they are never heard from again.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_077",
+    "original": "This policy has effectively left playwrights with one of two options: compromise their creative integrity to curry favor with His Radiance, or put down their quills altogether.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_078",
+    "original": "The principal of the Majestic, however, chose a third option: to express his disapproval for the new emperor\u0027s policies obliquely, in ostensibly unpolitical works.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_079",
+    "original": "(-Alma bas Lexentale-)Pray forgive me for my earlier outburst. I am Alma bas Lexentale, daughter of Principal Jenomis cen Lexentale.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_080",
+    "original": "(-Alma bas Lexentale-)Mayhap you have heard of my father\u0027s latest play, \u003Chex:021A020203\u003EThe Zodiac Brave Story\u003Chex:021A020103\u003E? On the surface, it is an innocent retelling of a well-known Garlean faerie tale\u2500hardly worthy of the censors\u0027 attention. But beneath, it is something quite different. A fact the censors failed to spot when they approved the manuscript for public performance.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_081",
+    "original": "(-Alma bas Lexentale-)The play quickly became a huge success. The commonfolk loved its fantastical story, while the learned classes appreciated its true message.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_082",
+    "original": "By the time the imperial board of censors realized their mistake, it was too late. No longer in a position to prohibit the performance outright without admitting fault, they took aim at the company\u0027s purse strings instead.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_083",
+    "original": "Before long, noble patrons began to withdraw their support, fearing to be associated with the troupe. And by the end, even the learned felt compelled to feign ignorance. By bleeding the Majestic of their funding, the censors robbed them of their voice.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_084",
+    "original": "And...none of this has made it any clearer as to why you\u0027re here. Right.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_STMBDI101_03003_CID_000_085",
+    "original": "Allow me, Lina.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_STMBDI101_03003_CID_000_086",
+    "original": "I\u0027ve known Jenomis since we were students at the Magitek Academy. When I heard his daughter was in Kugane looking to enlist the aid of an adventurer, I felt compelled to give her your name. Sorry for not announcing myself sooner, old friend.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_STMBDI101_03003_CID_000_087",
+    "original": "Jenomis and I were from different worlds, but that only served to fuel our friendship. Many were the nights we would prattle on into the wee small hours\u2500warm flagons of peated ale numbing our minds to the other\u0027s naive ideologies. Yet, no matter where our conversation began, it would invariably end with him telling me how he was going to change the Empire from the inside out. The troupe was to be his path into the people\u0027s hearts.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_STMBDI101_03003_CID_000_088",
+    "original": "Even after the Empire forced him from his home, Jenomis never gave up hope that his work might change the world.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_STMBDI101_03003_JENOMISLEXENTALE_000_089",
+    "original": "(-Jenomis cen Lexentale-)Art will ever strain against artificial bounds and borders! Man-made walls and misguided wars! It is in such times of uncertainty that we must needs embrace our calling and take to the skies so others might do the same!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_STMBDI101_03003_CID_000_090",
+    "original": "What I am trying to say\u2500rather poorly, I concede\u2500is that not all Garleans are hewn from the same stone.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_STMBDI101_03003_CID_000_091",
+    "original": "Just as there are those who pledge their lives to the Empire, and would never think to question the authority of its leaders, there are those like Alma\u0027s father and myself whose love for their country does not blind them to its flaws.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_STMBDI101_03003_CID_000_092",
+    "original": "Still...try selling that sack of sun flour to an Ala Mhigan or a Doman who has watched his family consumed in the flames of a magitek reaper.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_093",
+    "original": "How many Eorzean adventurers do you think would leap at the opportunity to help an imperial search for her missing father...and in Garlean territory, no less?",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_094",
+    "original": "But you\u2500you are different. You have seen enough to know that the line between good and evil is not defined by race, color, or creed. So, what say you?",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_STMBDI101_03003_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_STMBDI101_03003_A1_000_001",
+    "original": "I could never turn my back on a damsel in distress.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_STMBDI101_03003_A1_000_002",
+    "original": "I would make a poor adventurer were I to shy from adventure.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_100",
+    "original": "(-Alma bas Lexentale-)Oh, thank you. Thank you so much!",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_STMBDI101_03003_CID_000_105",
+    "original": "Indeed.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_STMBDI101_03003_CID_000_110",
+    "original": "Now that you understand the nature of the task, perhaps Alma could provide some insight as to where we might begin our search.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_111",
+    "original": "(-Alma bas Lexentale-)Shortly before my father disappeared, he began work on his next play\u2500a successor to \u003Chex:021A020203\u003EThe Zodiac Brave Story\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_112",
+    "original": "(-Alma bas Lexentale-)Ah, but I am getting ahead of myself. Please, follow me...",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_200",
+    "original": "...through adventure and hardship, young Delita, a boy of common blood, becomes a hero, culminating in the birth of the mythical kingdom of Ivalice.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_201",
+    "original": "But that is where the story ends. There are no records of anything that follows. Was Principal Jenomis simply going to invent something?",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_202",
+    "original": "My father believed that he had discovered evidence of a second hero. One whose efforts went largely unnoticed, but without whom Delita would never have risen to the throne. His was the next tale he wanted to tell\u2500the \u003Chex:021A020203\u003Etrue\u003Chex:021A020103\u003E Zodiac Brave Story.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_203",
+    "original": "A \u003Chex:021A020203\u003Esecond\u003Chex:021A020103\u003E hero?",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_204",
+    "original": "According to my father\u0027s studies, this young man was one of Delita\u0027s closest friends and confidants\u2500that is, until the untimely passing of Delita\u0027s sister forced the two to part ways.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_205",
+    "original": "Yet, the unnamed hero continued to provide aid to his friend by thwarting the machinations of those who would scheme against Delita, thus paving the way for the pauper\u0027s rise to regent.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_206",
+    "original": "You must forgive me, but I\u0027ve never heard anyone make such claims. How exactly did your father come by this information?",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_207",
+    "original": "That...is a long story...",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_STMBDI101_03003_CID_000_208",
+    "original": "One which begins and ends with Jenomis becoming lost in the very legend he sought to lay bare.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_STMBDI101_03003_CID_000_209",
+    "original": "Even as far back as our Academy days, Ivalice had Jenomis firmly in its grasp. He flatly refused to believe the story was just a faerie tale.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_STMBDI101_03003_CID_000_210",
+    "original": "And so, when he was finally driven out of Garlemald, it was only natural that he should choose this of all places as his refuge\u2500was it not, Alma?",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_211",
+    "original": "That is correct, Master Garlond. It has long been my father\u0027s belief that the ruins of ancient Ivalice lie beyond Nagxia, buried beneath the sands of the Dalmasca Desert.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_STMBDI101_03003_CID_000_212",
+    "original": "Poor Dalmasca... The kingdom prospered in relative isolation for countless generations...until the Empire came calling.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_213",
+    "original": "When not touring, my father would organize expeditions into the Dalmasca Desert to search for proof of Ivalice\u0027s existence. Sometimes he would bring back strange artifacts, ancient tomes...and crystals. Crystals unlike any others.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_214",
+    "original": "My father called them \u003Chex:021A020203\u003Eauracite\u003Chex:021A020103\u003E and claimed they were vital to proving his theories. This is one such crystal.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_215",
+    "original": "By the Twelve... It\u0027s magnificent!",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_STMBDI101_03003_CID_000_216",
+    "original": "Ivalician legend tells of crystals bequeathed by the gods unto those who would be kings. It is during his quest to gather auracite that young Delita rises to prominence.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_STMBDI101_03003_CID_000_217",
+    "original": "I must have heard the tale a thousand times from my nursemaid. But that is all it ever was\u2500a tale.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_218",
+    "original": "My father would often tell us how the auracite \u201Cspoke\u201D to him. At the time, we assumed he was speaking figuratively\u2500that the stones\u0027 beauty roused his muse.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_219",
+    "original": "But then he began to act strangely...",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_220",
+    "original": "How so?",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_221",
+    "original": "Following our arrival here in Hingashi, my father spent most of his time cloistered in his chambers, poring over his past research. And though he was alone, we could oft hear him in conversation.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_222",
+    "original": "It was not uncommon for my father to recite the lines as he wrote them, but it soon became clear that this was something else.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_223",
+    "original": "It was as if he was talking to my mother\u2500my mother who passed several winters gone.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_224",
+    "original": "Might this not have been out of mere loneliness? Or perhaps the strain of your flight from Garlemald?",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_225",
+    "original": "Possibly... But that would not explain the voices which answered him.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_STMBDI101_03003_RAMZALEXENTALE_000_226",
+    "original": "(-???-)Alma! Who are these people? I told you I did not require any help finding Father, especially from outsiders.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_STMBDI101_03003_CID_000_227",
+    "original": "So good of you to join us, Ramza. Allow me to introduce\u2500",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_STMBDI101_03003_RAMZALEXENTALE_000_228",
+    "original": "Enough, Master Cid!",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_STMBDI101_03003_RAMZALEXENTALE_000_229",
+    "original": "We may be shunned by the Empire, but we are still Garleans, and we still have our pride...unlike some, it seems. We require neither the aid nor the pity of foreign rabble.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_230",
+    "original": "Have you forgotten where you are, Brother? It is we who are the \u201Cforeign rabble.\u201D This land and its customs are all but unknown to us. We would be fools to conduct our search without a proven guide.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_STMBDI101_03003_CID_000_231",
+    "original": "Your sister is right, Ramza. As for my good friend here, your mistrust is ill-placed. I will personally vouch for \u003Chex:02080DE905FF04686572FF0468697303\u003E character. In all the time I have known \u003Chex:020816E905FF096865722C20736865FF0868696D2C20686503\u003E has never once let anything as insignificant as race or creed color \u003Chex:02080DE905FF04686572FF0468697303\u003E judgment. You are lucky to have \u003Chex:02080DE905FF04686572FF0468696D03\u003E.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_STMBDI101_03003_RAMZALEXENTALE_000_232",
+    "original": "But we would have \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E, Master Garlond! Why do you refuse us!?",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_STMBDI101_03003_CID_000_233",
+    "original": "You know why. Until this affair with Omega is resolved, my hands are tied. It pains me to refuse you and your sister, but it pains me far more to leave Jenomis to his fate... I am sorry.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_STMBDI101_03003_RAMZALEXENTALE_000_234",
+    "original": "You need not apologize. I let my emotions get the better of me... After what happened in Rabanastre, it may be time to admit we\u0027re out of our depth.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_235",
+    "original": "My brother\u0027s last expedition met with tragedy in the ruins of the capital city. He barely escaped with his life.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_STMBDI101_03003_CID_000_236",
+    "original": "The Empire turned Rabanastre into a death trap. You were a fool to set foot there without a proper escort.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_STMBDI101_03003_RAMZALEXENTALE_000_237",
+    "original": "I realize that now, Master Garlond, but at the time, I saw an opportunity to rescue our father, and I took it.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_238",
+    "original": "Whatever led you to believe your father was in Dalmasca\u0027s capital?",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_STMBDI101_03003_RAMZALEXENTALE_000_239",
+    "original": "My father\u0027s fascination with Ivalician legend began with a trip to the antediluvian city, long before the war. Call it a premonition, but something tells me that is where he has returned. Now you must excuse me. I need some time to think.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_STMBDI101_03003_CID_000_240",
+    "original": "Then, Alma, I shall leave you and your brother in \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u0027s capable hands. \u003Chex:02080CE905FF04536865FF03486503\u003E has ever repaid my trust with interest. You would do well to grant \u003Chex:02080DE905FF04686572FF0468696D03\u003E yours.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_241",
+    "original": "Thank you, Master Garlond. We will not forget this kindness.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_STMBDI101_03003_LINAMEWRILAH_000_250",
+    "original": "Cid didn\u0027t bid \u003Chex:021A020203\u003Eme\u003Chex:021A020103\u003E farewell! This is going in my write-up!",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_STMBDI101_03003_ALMALEXENTALE_000_255",
+    "original": "Oh, how I miss my father...",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_STMBDI101_03003_RAMZALEXENTALE_000_260",
+    "original": "Master Garlond seems to think highly of you...so I will withhold judgment until after Dalmasca.",
+    "translation": ""
+  }
+}

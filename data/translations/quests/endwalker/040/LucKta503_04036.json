@@ -1,0 +1,837 @@
+{
+  "0": {
+    "tag": "TEXT_LUCKTA503_04036_SEQ_00",
+    "original": "Relieved as he is that you and Konogg are safe, the dig site chief wishes to know of Anogg\u0027s fate.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_LUCKTA503_04036_SEQ_01",
+    "original": "You tell the dig site chief of what transpired within the tower. The truth of Anogg\u0027s fate seems almost too much for him to bear, and he requests that you be the one to inform Konogg\u2500and prevent his doing anything rash.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_LUCKTA503_04036_SEQ_02",
+    "original": "An anguished Konogg accepts the letter from Anogg and tearfully tasks you with a delivery in turn\u2500that of a watch to be entrusted to the dig site chief. The young dwarf found it amongst the rubble and made all the necessary repairs, but cannot bring himself to return to the village to see it into its owner\u0027s hands.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_LUCKTA503_04036_SEQ_03",
+    "original": "Though the chief is pleased to have his wife\u0027s treasured family heirloom back in one piece, he finds it suspicious that Konogg failed to return along with it. He dashes off in a panic\u2500presumably toward where you left Konogg in the tunnels.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_LUCKTA503_04036_SEQ_04",
+    "original": "As the chief suspected, Konogg is gone by the time the two of you reach the tunnels, leaving a note of farewell behind. Feeling that the twins\u0027 respective departures from Komra were ultimately the fault of its less-than-supportive people, he hurries off to gather the villagers, that they might know the consequences of their behavior.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_LUCKTA503_04036_SEQ_05",
+    "original": "The villagers gathered, the dig site chief begins to explain the situation. No sooner does he say that the danger has passed, however, than do the villagers once again revive their debate over who ought to be punished for it having been present in the first place. Stymied and more than a bit frustrated with the lot of them, the chief asks that you speak with each individual and try to bring them around.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_LUCKTA503_04036_SEQ_06",
+    "original": "You speak with the villagers. Though they remain a stubborn bunch, some seem at least perturbed, if not convinced, by your arguments.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_LUCKTA503_04036_SEQ_07",
+    "original": "For a moment, it appears that the villagers may see reason\u2500but the crowd soon turns their wayward ire on Glagg for his role in starting the witch hunt. This is the final straw for the dig site chief, who tells them frankly that everyone present is in the wrong before running off once again.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_LUCKTA503_04036_SEQ_08",
+    "original": "When you find the dig site chief once again, he is much calmer. In spite of everything, he remains determined to rebuild Komra. In addition to your own offer to aid in this endeavor comes a similar offer from a heretofore cowardly villager trying\u2500much like the chief himself\u2500to do the right thing, whatever that may be.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_LUCKTA503_04036_TODO_00",
+    "original": "Speak with Konogg in the excavation tunnels.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_LUCKTA503_04036_TODO_01",
+    "original": "Deliver the repaired watch to the dig site chief.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_LUCKTA503_04036_TODO_02",
+    "original": "Speak to the dig site chief in the excavation tunnels.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_LUCKTA503_04036_TODO_03",
+    "original": "Wait for the chief to return.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_LUCKTA503_04036_TODO_04",
+    "original": "Speak with the villagers.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_LUCKTA503_04036_TODO_05",
+    "original": "Speak with the dig site chief.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_LUCKTA503_04036_TODO_06",
+    "original": "Speak with the dig site chief in Komra.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_001",
+    "original": "So... What happened in there?",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_002",
+    "original": "...Well, I won\u0027t pretend I understood half of that. Can\u0027t say metaphysics is my area of expertise. Still, I knew that those androids in white and their weird orb were trouble.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_003",
+    "original": "And you\u0027re saying that you gave \u0027em what for, so they won\u0027t be coming back. Which is good...right?",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_004",
+    "original": "Glad to hear it. Thanks for risking your neck for us.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_005",
+    "original": "Where\u0027s Anogg, though? And your android friends, for that matter? Seems like they should\u0027ve come back with you...",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_LUCKTA503_04036_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_LUCKTA503_04036_A1_000_001",
+    "original": "...",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_LUCKTA503_04036_A1_000_002",
+    "original": "I\u0027m sorry.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_007",
+    "original": "No, she... But \u003Chex:021A020203\u003Ewhy\u003Chex:021A020103\u003E!?",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_008",
+    "original": "It just...don\u0027t seem fair.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_009",
+    "original": "I was holding out hope, you know? That everyone would be fine, and life would go back to normal.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_010",
+    "original": "I \u003Chex:021A020203\u003Eshould\u003Chex:021A020103\u003E have known better, sure, but...",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_011",
+    "original": "\u003Csigh\u003E Someone will need to tell the villagers. Again.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_012",
+    "original": "As for Konogg\u2500can you speak with him? I managed to talk him out of running back in there as soon as he woke up, but this... It might be better coming from you. Or maybe I\u0027m just a coward.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_LUCKTA503_04036_POD_000_050",
+    "original": "Alert: The tower can no longer be detected.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_LUCKTA503_04036_KONOGG_000_060",
+    "original": "You\u0027re back! But where\u0027s everyone else?",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_LUCKTA503_04036_KONOGG_000_061",
+    "original": "No... She can\u0027t be \u003Chex:021A020203\u003Egone\u003Chex:021A020103\u003E. She wouldn\u0027t leave me \u003Chex:021A020203\u003Eforever\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_LUCKTA503_04036_KONOGG_000_062",
+    "original": "Because if she did, I\u0027d... There\u0027d be no one left who...",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_LUCKTA503_04036_KONOGG_000_063",
+    "original": "A-A letter? From Anogg?",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_LUCKTA503_04036_KONOGG_000_064",
+    "original": "\u201CKonogg,\u003Chex:02100103\u003EI\u0027ve been to another world. I\u0027ve seen it...\u201D",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_LUCKTA503_04036_KONOGG_100_064",
+    "original": "Wh-What does she mean? She...the world...they\u0027re \u201Cconstructs\u201D?",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_LUCKTA503_04036_KONOGG_200_064",
+    "original": "That\u0027s hardly a reason to run off on her own! She could\u0027ve...\u003Csniff\u003E...I \u003Chex:021A020203\u003Ewould\u0027ve\u003Chex:021A020103\u003E...",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_LUCKTA503_04036_KONOGG_000_065",
+    "original": "Um. I...I have something I need to do. So...",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_LUCKTA503_04036_KONOGG_000_066",
+    "original": "That watch belongs to the chief\u0027s wife. I found it when I was clearing rubble earlier.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_LUCKTA503_04036_KONOGG_000_067",
+    "original": "It was broken, but I...\u003Csniff\u003E...I went ahead and fixed it. She\u0027d probably like it back, so can you give it to the chief for me?",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_LUCKTA503_04036_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_LUCKTA503_04036_A2_000_001",
+    "original": "I suppose.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_LUCKTA503_04036_A2_000_002",
+    "original": "Wouldn\u0027t they be happier if you delivered it yourself?",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_LUCKTA503_04036_KONOGG_000_069",
+    "original": "Thank you. Right now, I... I\u0027m sorry.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_LUCKTA503_04036_KONOGG_000_070",
+    "original": "I...can\u0027t. I need to\u2500 Never mind. I\u0027m sorry.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_LUCKTA503_04036_KONOGG_000_071",
+    "original": "I appreciate all that you\u0027ve done for us. If only I was as strong as you are...",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_LUCKTA503_04036_KONOGG_000_072",
+    "original": "Maybe someday.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_LUCKTA503_04036_KONOGG_000_075",
+    "original": "If the chief asks, tell him not to worry.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_100",
+    "original": "How did it go?",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_101",
+    "original": "Eh? Something for the missus?",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_102",
+    "original": "Wicked white, we thought this was gone for good! She\u0027ll be glad to have it back. It\u0027s all she has left of her parents.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_103",
+    "original": "Why didn\u0027t Konogg come in person, though? He must know we\u0027d want to thank him.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_104",
+    "original": "No... Not him too!",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_LUCKTA503_04036_SYSTEM_000_105",
+    "original": "It seems that you once again have cause to comfort a distraught dwarf...",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_150",
+    "original": "He left a letter of farewell.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_151",
+    "original": "He\u0027s gone.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_100_151",
+    "original": "I wish I could\u0027ve done something... \u003Chex:021A020203\u003EAnything.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_152",
+    "original": "We\u0027ve lost them both, and it\u0027s our own fault. We drove them to this.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_153",
+    "original": "This can\u0027t be right...",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_LUCKTA503_04036_Q3_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_LUCKTA503_04036_A3_000_001",
+    "original": "What do you plan to do about it?",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_LUCKTA503_04036_A3_000_002",
+    "original": "What is \u201Cright,\u201D in the end?",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_155",
+    "original": "I don\u0027t know what I \u003Chex:021A020203\u003Eshould\u003Chex:021A020103\u003E do. I don\u0027t know how to make things right, but...",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_156",
+    "original": "I don\u0027t know, but this ain\u0027t it.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_157",
+    "original": "The villagers need to understand that we can\u0027t keep on like this.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_158",
+    "original": "They might be better listeners now that they don\u0027t have to live in fear anymore\u2500if they can believe that\u0027s the case, that is. Would you mind sticking around? It\u0027ll seem more credible coming from the both of us.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_LUCKTA503_04036_Q4_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_LUCKTA503_04036_A4_000_001",
+    "original": "I\u0027m here for as long as you need me.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_LUCKTA503_04036_A4_000_002",
+    "original": "How much does this position pay?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_160",
+    "original": "I knew you would be. You\u0027re always willing to do what needs doing.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_161",
+    "original": "I\u0027m ready to do my part, too. Wait here.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_162",
+    "original": "Ha! That\u0027s right\u2500took you for an aspiring gate guard at first, didn\u0027t I?",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_163",
+    "original": "And we\u0027ve been nothing but trouble to you since. Not sure there\u0027s enough money in all of Komra to compensate you at this point...",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_LUCKTA503_04036_Q5_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_LUCKTA503_04036_A5_000_001",
+    "original": "It\u0027s fine. I\u0027m happy to help.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_LUCKTA503_04036_A5_000_002",
+    "original": "I also accept eternal gratitude and the right to ominously reference \u201Cdebts to be repaid.\u201D",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_165",
+    "original": "It\u0027s a deal, then. But I do hope we can pay you back someday.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_166",
+    "original": "For now, wait here\u2500I\u0027ll get the villagers.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_200",
+    "original": "Now that you\u0027re all here, I have an important announcement: \u003Chex:022C0DFF07022903EB0203FF02200203\u003E has put an end to those machines and their plot.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_201",
+    "original": "That means the danger\u0027s passed, but more importantly, that it\u0027s time we look to the future. We\u0027ll need to come together\u2500",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_LUCKTA503_04036_GLAGG_000_202",
+    "original": "Hold your ironfrogs! Even \u003Chex:021A020203\u003Eif\u003Chex:021A020103\u003E those things are gone, this ain\u0027t over.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_LUCKTA503_04036_GLAGG_000_203",
+    "original": "The culprit needs to be brought to justice. How can you expect people to move forward if we don\u0027t set an example?",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERA03954_000_204",
+    "original": "That\u0027s right\u2500we want to see consequences! Death! Mutilation!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_205",
+    "original": "Do you really!?",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_206",
+    "original": "We need to talk them down, or we\u0027ll never get anywhere with this. Bloodthirsty bastards...",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_210",
+    "original": "You can\u0027t force one person to shoulder the blame for all of this! Some things are bigger than all of us, Glagg.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_LUCKTA503_04036_GLAGG_000_215",
+    "original": "Folk\u0027ll never accept that. It just ain\u0027t a satisfyin\u0027 conclusion.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERA03954_000_250",
+    "original": "The sooner we do away with the culprit, the sooner we can all relax. You know I\u0027m right\u2500Glagg thinks so too!",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_LUCKTA503_04036_Q6_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_LUCKTA503_04036_A6_000_001",
+    "original": "You\u0027d change your tune if the finger were pointed at you.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_LUCKTA503_04036_A6_000_002",
+    "original": "The blame could just as easily fall on someone you love.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERA03954_000_252",
+    "original": "You wouldn\u0027t dare accuse me! Everyone knows I\u0027m innocent.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERA03954_000_253",
+    "original": "D-Don\u0027t they?",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERA03954_000_254",
+    "original": "Ha! That ploy won\u0027t work on me. I don\u0027t have anyone to worry about. No family, no friends, no lovers...",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERA03954_000_255",
+    "original": "I don\u0027t...have anyone.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERB03954_000_256",
+    "original": "All we need is one or two people to take the blame. Then the rest of us can get back to our normal lives.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_LUCKTA503_04036_Q7_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_LUCKTA503_04036_A7_000_001",
+    "original": "You\u0027d build your life by destroying others\u0027?",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_LUCKTA503_04036_A7_000_002",
+    "original": "Are you planning to volunteer?",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERB03954_000_258",
+    "original": "Wouldn\u0027t you? The way I see it, anyone here would throw you to the eaters in a heartbeat for their own gain. You, or me...",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERB03954_000_259",
+    "original": "Those backstabbers!",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERB03954_000_260",
+    "original": "Why should I? I\u0027ve done nothing wrong!",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERB03954_000_261",
+    "original": "No, not... Not a single thing...",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERC03954_000_262",
+    "original": "Justice should be swift and decisive, I say. Nothing so satisfying as the headsman\u0027s axe coming down.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_LUCKTA503_04036_Q8_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_LUCKTA503_04036_A8_000_001",
+    "original": "Justice isn\u0027t about personal satisfaction.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_LUCKTA503_04036_A8_000_002",
+    "original": "And if it comes down on the wrong person?",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERC03954_000_264",
+    "original": "Why shouldn\u0027t it be? Punish one person and everyone else feels better for it. That\u0027s justification enough.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERC03954_000_265",
+    "original": "\u003Chex:021A020203\u003EAnything\u003Chex:021A020103\u003E would be better than feeling like this...",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERC03954_000_266",
+    "original": "At least we\u0027ll be able to put this mess behind us. Forget the whole thing.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERC03954_000_267",
+    "original": "I can\u0027t think about it anymore. I just can\u0027t.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERD03954_000_268",
+    "original": "I-I only need to do what Glagg says, right? Then he won\u0027t blame me...and whatever happens, it won\u0027t be my fault.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_LUCKTA503_04036_Q9_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_LUCKTA503_04036_A9_000_001",
+    "original": "You think that will protect you?",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_LUCKTA503_04036_A9_000_002",
+    "original": "No. This is a choice you must make yourself.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERD03954_000_270",
+    "original": "W-Won\u0027t it? I haven\u0027t done anything wrong...",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERD03954_000_271",
+    "original": "I haven\u0027t done...anything.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERD03954_000_272",
+    "original": "B-But then it\u0027ll be my responsibility\u2500no matter what happens!",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERD03954_000_273",
+    "original": "Someone else... Someone else should be the one...",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERE03954_000_274",
+    "original": "The most prudent course is to cooperate with Glagg and rid the village of the guilty party. Then everything will be as it was.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_LUCKTA503_04036_Q10_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_LUCKTA503_04036_A10_000_001",
+    "original": "Will it?",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_LUCKTA503_04036_A10_000_002",
+    "original": "Is it really \u201Cprudent\u201D to follow harm with cruelty?",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERE03954_000_276",
+    "original": "Of course it will. It has to be.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERE03954_000_277",
+    "original": "Believe me, if there were a better way...",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERE03954_000_278",
+    "original": "If it weren\u0027t, Glagg wouldn\u0027t have suggested it. He\u0027s the elder. He knows how these things work. If not, then...",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERE03954_000_279",
+    "original": "No, don\u0027t be ridiculous.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERA03954_000_280",
+    "original": "It\u0027s better this way, trust me. You do trust me...right?",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERB03954_000_285",
+    "original": "I\u0027m right\u2500you\u0027ll see. You\u0027ll all see...",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERC03954_000_290",
+    "original": "...Forget I said anything.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERD03954_000_295",
+    "original": "You don\u0027t understand\u2500I can\u0027t be h-held \u003Chex:021A020203\u003Eaccountable\u003Chex:021A020103\u003E...",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERE03954_000_300",
+    "original": "...",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_350",
+    "original": "Well, they\u0027ve settled down a bit, at least. Thanks for that.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_LUCKTA503_04036_GLAGG_000_351",
+    "original": "\u003Csniff\u003E Still sober, eh? Then I\u0027ll ask\u2500what do you reckon we should do?",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_LUCKTA503_04036_Q11_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_LUCKTA503_04036_A11_000_001",
+    "original": "Stop this before it\u0027s too late.",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_LUCKTA503_04036_A11_000_002",
+    "original": "Whatever doesn\u0027t involve me hearing everyone\u0027s opinions again...",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_LUCKTA503_04036_A11_000_003",
+    "original": "How should I know better than any of you?",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERA03954_000_353",
+    "original": "Maybe the outsider\u0027s right. We\u0027ll never agree on who should take the blame for the attack. Which means the real problem is...Glagg!",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERC03954_000_354",
+    "original": "I did feel a lot more confident before he started telling us to \u201Clisten to other perspectives\u201D...",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERB03954_000_355",
+    "original": "He\u0027s been trying to turn us against each other, but \u003Chex:021A020203\u003Ehe\u0027s\u003Chex:021A020103\u003E the elder here. Shouldn\u0027t he have seen our village\u0027s fiery destruction by skybound machines coming?",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_356",
+    "original": "What? No!",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_357",
+    "original": "No one could\u0027ve foreseen this. No matter how wise they are, or how hard they try...no one\u0027s right every time!",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_358",
+    "original": "We\u0027ve all made mistakes here, believe me. Anogg, Konogg, Glagg, the whole lot of you...and me. \u003Chex:021A020203\u003EAll\u003Chex:021A020103\u003E of us!",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_359",
+    "original": "We failed each other.",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_LUCKTA503_04036_SYSTEM_000_360",
+    "original": "Alas, there he goes again.",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERA03954_000_365",
+    "original": "Er...now what?",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERB03954_000_370",
+    "original": "Me? Make a mistake? Never.",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERC03954_000_375",
+    "original": "Well? Don\u0027t let him get away!",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERD03954_000_380",
+    "original": "If... If doing nothing is just as wrong, then maybe it wouldn\u0027t be so bad to make my own choices...",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERE03954_000_385",
+    "original": "Now that\u0027s just cowardly.",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_LUCKTA503_04036_GLAGG_000_390",
+    "original": "Are my ears goin\u0027, or am I bein\u0027 insulted left and right?",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_400",
+    "original": "Lali-sorry you had to see that-ho. I may not be cut out for public speaking...",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_401",
+    "original": "I won\u0027t give up on putting Komra back together, though\u2500in whatever way I can.",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_402",
+    "original": "I don\u0027t know what we \u003Chex:021A020203\u003Eshould\u003Chex:021A020103\u003E have done, but...there\u0027s nothing for it but to try and do better. Day by day, moment by moment.",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_LUCKTA503_04036_Q12_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_LUCKTA503_04036_A12_000_001",
+    "original": "Day by day, moment by moment.",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_LUCKTA503_04036_A12_000_002",
+    "original": "Need some help with that? \u0027Course you do.",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_404",
+    "original": "I admit, I feel better knowing you\u0027ll be around.",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERD03954_000_405",
+    "original": "(-???-)P-Pardon me...",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERD03954_000_406",
+    "original": "I, er...I was thinking about what you said, and I realized I probably haven\u0027t been the most helpful...",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERD03954_000_407",
+    "original": "I want\u2500 I\u0027m \u003Chex:021A020203\u003Echoosing\u003Chex:021A020103\u003E to try harder, from now on. So if you need another pair of hands...",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_408",
+    "original": "You\u0027re more than welcome to join us.",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_409",
+    "original": "Though I\u0027d say we\u0027re all past due for a little breather, after all that\u0027s happened. Take a rest! Chief\u0027s orders.",
+    "translation": ""
+  },
+  "197": {
+    "tag": "TEXT_LUCKTA503_04036_VILLAGERD03954_000_410",
+    "original": "Understood! I\u0027ll be just over there, then. With my thoughts. Yes. Not a problem...",
+    "translation": ""
+  },
+  "198": {
+    "tag": "TEXT_LUCKTA503_04036_DWARFMASTER03671_000_411",
+    "original": "He\u0027s a little odd, but he\u0027s got the spirit. I look forward to putting the both of you to work\u2500at your earliest convenience, of course.",
+    "translation": ""
+  }
+}

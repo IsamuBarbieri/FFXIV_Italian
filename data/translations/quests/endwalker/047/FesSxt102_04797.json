@@ -1,0 +1,592 @@
+{
+  "0": {
+    "tag": "TEXT_FESSXT102_04797_SEQ_00",
+    "original": "Clive is ready to travel to Gridania.\u003Chex:02100103\u003E\u203BThis quest is available for a limited time only.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_FESSXT102_04797_SEQ_01",
+    "original": "Having failed to jog Clive\u0027s memories with a visit to Ul\u0027dah, it has been decided that you shall journey next to Gridania. Although apparently unfamiliar with airship travel, the young man is eager to continue onward.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that you will be unable to complete this quest after the event has ended. For details, please check the Lodestone.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_FESSXT102_04797_SEQ_02",
+    "original": "Despite retaining knowledge of general concepts such as swords and combat techniques, Clive still struggles with the existence of functional airships. With great effort, he sets the infuriating inconsistency of his memory loss aside and devotes his energies to moving forward.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_FESSXT102_04797_SEQ_03",
+    "original": "As a newcomer to Gridania, Clive must rely on you to guide him around the city. The Carline Canopy should thus make for a logical first stop.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BYou must be accompanied by Clive to complete this task. Speak with him again should you become separated.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_FESSXT102_04797_SEQ_04",
+    "original": "Upon entering the Carline Canopy, Clive is visited by a fragmented memory of a similar place...but nothing more. He looks to the tavern\u0027s exit, desperate to see more.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_FESSXT102_04797_SEQ_05",
+    "original": "The sight of a chocobo ignites a spark of recognition in Clive. He seems certain that he once had his own feathered mount, but can recall no other details. With little else forthcoming, you may as well continue onwards.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_FESSXT102_04797_SEQ_06",
+    "original": "Clive pauses at Gridania\u0027s aetheryte, wondering if the glittering construct could be a \u201CMothercrystal.\u201D Quickly realizing that it is far too small, he sets his sights on the next point of potential interest.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_FESSXT102_04797_SEQ_07",
+    "original": "Upon approaching the Adders\u0027 Nest, Clive reacts strongly when a returning scout makes mention of the primal Garuda. After learning of Clive\u0027s situation, Commander Heuloix expresses his sympathies and offers to arrange a meeting with the Elder Seedseer, believing it to be the best hope for his recovery. The aforementioned scout bids you find him at Nophica\u0027s Altar when you are ready for your audience.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_FESSXT102_04797_SEQ_08",
+    "original": "Kan\u003Chex:021F0103\u003EE\u003Chex:021F0103\u003ESenna provides Clive with further details of Garuda\u0027s appearance and disposition, yet while he finds it all somewhat familiar, he cannot help but feel something is awry. Appearing as if from nowhere, the wandering minstrel proposes that this disconnect stems from the fact that Clive himself is not of this world\u2500a conclusion reached after an extensive survey of the surrounding settlements turned up not even a single soul who had met their distinctively tattooed visitor before. Furthermore, the Elder Seedseer concludes that Clive\u0027s amnesia is not the result of illness or injury. Rather, she speculates he is suppressing some awful truth\u2500one he must confront by breaking through a barrier of his own making.",
+    "translation": ""
+  },
+  "9": {
+    "tag": "TEXT_FESSXT102_04797_SEQ_09",
+    "original": "As Clive ponders his confounding dilemma, the wandering minstrel suggests that the heat of battle may provide the solution. Asked only to prepare for war, you are to await the enigmatic performer at Apkallu Falls.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_FESSXT102_04797_TODO_00",
+    "original": "Speak with Clive at the airship landing in Ul\u0027dah.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_FESSXT102_04797_TODO_01",
+    "original": "Speak with Clive and have him accompany you.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_FESSXT102_04797_TODO_02",
+    "original": "Accompany Clive to the Carline Canopy and then speak with him.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_FESSXT102_04797_TODO_03",
+    "original": "Accompany Clive to the chocobokeep and then speak with him.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_FESSXT102_04797_TODO_04",
+    "original": "Accompany Clive to the aetheryte plaza and then speak with him.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_FESSXT102_04797_TODO_05",
+    "original": "Accompany Clive to the Adders\u0027 Nest and then speak with him.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_FESSXT102_04797_TODO_06",
+    "original": "Speak with the serpent scout at Nophica\u0027s Altar.",
+    "translation": ""
+  },
+  "31": {
+    "tag": "TEXT_FESSXT102_04797_TODO_07",
+    "original": "Speak with Clive.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_001",
+    "original": "Are we ready? Then let\u0027s head out.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_002",
+    "original": "This Gridania the minstrel mentioned, is it far? Will we need mounts?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_003",
+    "original": "...By \u201Cairship\u201D? You have those?",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_004",
+    "original": "Not that I mean to doubt you, friend. If you say we\u0027re boarding an airship, then that\u0027s what we\u0027ll do.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_010",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, if I may ask a foolish question... Do these airships of yours actually fly?",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_011",
+    "original": "A foolish question indeed, then. Your expression tells me as much.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_FESSXT102_04797_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_FESSXT102_04797_A1_000_001",
+    "original": "First time traveling by airship?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_FESSXT102_04797_A1_000_002",
+    "original": "Is there no airship travel where you\u0027re from?",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_013",
+    "original": "I believe it will be.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_014",
+    "original": "So it would seem...",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_015",
+    "original": "It\u0027s odd... I know that the weapon on my back is called a \u201Csword.\u201D I understand what it\u0027s for and how to wield it.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_016",
+    "original": "Foggy as my memories may be, my general knowledge seems intact.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_017",
+    "original": "Yet hearing you speak of functional airships, I felt...confusion. Disbelief. For something that you clearly think of as commonplace.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_018",
+    "original": "I can make no sense of it. Where was I before now...?",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_019",
+    "original": "Ah, but dwelling on this is pointless. Forward is the only way.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_020",
+    "original": "To feel that bracing wind, the deck shuddering beneath your feet as you rise into the sky... My memory may be faulty, but that was an experience I\u0027m sure I\u0027d not soon forget.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_030",
+    "original": "So, this is Gridania? It seems very unlike the city we just left.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_031",
+    "original": "Where to begin...? I think it best if I follow your lead.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_FESSXT102_04797_SYSTEM_000_032",
+    "original": "Clive is now accompanying you. Keep him at your side in order to proceed with quest objectives.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_FESSXT102_04797_SYSTEM_000_033",
+    "original": "You can leave Clive behind by entering a different area, or by speaking with him and selecting the option to part ways.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_FESSXT102_04797_SYSTEM_000_034",
+    "original": "If you wish to have Clive join you again, return and speak with him at the original location.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_FESSXT102_04797_Q2_000_045",
+    "original": "What will you do?",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_FESSXT102_04797_A2_000_046",
+    "original": "Talk.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_FESSXT102_04797_A2_000_047",
+    "original": "Part ways.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_FESSXT102_04797_A2_000_048",
+    "original": "Nothing.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_055",
+    "original": "This city certainly has a different feel to Ul\u0027dah. Not only the architecture, but the people as well.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_FESSXT102_04797_SYSTEM_000_060",
+    "original": "Are you sure you wish to part ways with Clive?",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_065",
+    "original": "An urgent task? Please, by all means. We can rendezvous back at the airship landing.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_070",
+    "original": "Shall we continue from where we left off?",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_080",
+    "original": "This tavern... It reminds me of somewhere I\u0027ve been before...",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_081",
+    "original": "No, it\u0027s no use. I can feel the memory, but it\u0027s like grasping at smoke. But maybe if you were to show me somewhere else?",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_090",
+    "original": "...A chocobo!? Now that\u0027s something I recognize.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_091",
+    "original": "Yet it\u0027s more than that. I had my own chocobo once, I\u0027m sure of it.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_092",
+    "original": "But as for the when or the where...",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_100",
+    "original": "An impressive crystal. Not a Mothercrystal, surely...?",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_105",
+    "original": "No, not nearly large enough.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_110",
+    "original": "Ugh, when I try to remember, the fog in my head almost seems to grow thicker...",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_120",
+    "original": "This is a truly beautiful place.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_FESSXT102_04797_Q3_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_FESSXT102_04797_A3_000_001",
+    "original": "You\u0027ve taken a liking to Gridania, then?",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_FESSXT102_04797_A3_000_002",
+    "original": "Have you remembered anything else?",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_122",
+    "original": "I do like what I\u0027ve seen of it. Seems a peaceful life here among the trees, only...",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_123",
+    "original": "Brief flashes of this and that, but nothing to suggest I\u0027ve been here before.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_124",
+    "original": "I just can\u0027t shake the strangest feeling.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_125",
+    "original": "As if it\u0027s \u003Chex:021A020203\u003Etoo\u003Chex:021A020103\u003E peaceful. And that doesn\u0027t sit right...",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_FESSXT102_04797_SERPENTSCOUT04797_000_126",
+    "original": "Patrol reporting, Commander! All is quiet with the Ixal\u2500no sightings of Garuda!",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_FESSXT102_04797_VORSAILE_000_127",
+    "original": "For which we are profoundly grateful. At ease, soldier.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_128",
+    "original": "Did he say \u201CGaruda\u201D?",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_129",
+    "original": "You there! This Garuda you speak of\u2500",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_130",
+    "original": "Hngh...",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_FESSXT102_04797_VORSAILE_000_131",
+    "original": "Sir, are you alright?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_FESSXT102_04797_VORSAILE_000_132",
+    "original": "\u003Chex:0208C7E1E93501FF11022C0DFF07022903EB0203FF02200203FFAF0208ABE1E93601FF93022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF01030320022C0DFF07022903EB0203FF02200303FF11022C0DFF07022903EB0203FF022002030303\u003E. Do you know this gentleman?",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_FESSXT102_04797_VORSAILE_000_133",
+    "original": "Memory loss, you say? I\u0027m sorry to hear that. Though it seems Garuda\u0027s name has lit a spark of some sort.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_134",
+    "original": "I was in a battle...with Garuda. I fought her, I\u0027m sure of it.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_135",
+    "original": "Please, you must tell me more. Anything that might help me remember my past.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_FESSXT102_04797_VORSAILE_100_135",
+    "original": "Of course. Gridania owes a debt of gratitude to any who\u0027ve stood against that destructive fiend.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_FESSXT102_04797_VORSAILE_000_136",
+    "original": "However, there is one more suited to the task than I. Our Elder Seedseer is well versed not only in primal lore, but also in the treatment of bodily afflictions. She is surely your best hope for recovery.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_FESSXT102_04797_VORSAILE_000_137",
+    "original": "I will send word ahead to Stillglade Fane. Stand ready to escort our guests to an audience.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_FESSXT102_04797_SERPENTSCOUT04797_000_138",
+    "original": "Understood, Commander!",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_FESSXT102_04797_SERPENTSCOUT04797_000_139",
+    "original": "Pray find me at Nophica\u0027s Altar in Old Gridania, and I will see that you are granted entry to the Lotus Stand.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_FESSXT102_04797_VORSAILE_000_150",
+    "original": "I shall pray for the swift return of your companion\u0027s memories.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_151",
+    "original": "The way back to what I\u0027ve lost begins with Garuda. Of that I feel certain.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_FESSXT102_04797_SERPENTSCOUT04797_000_160",
+    "original": "The Lotus Stand lies just ahead. If you would follow me, please.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_FESSXT102_04797_KANESENNA_000_161",
+    "original": "Greetings, honored guests.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_FESSXT102_04797_KANESENNA_000_162",
+    "original": "Commander Heuloix has apprised me of your friend\u0027s condition. This is he?",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_FESSXT102_04797_KANESENNA_000_163",
+    "original": "A pleasure to meet you. I am Kan\u003Chex:021F0103\u003EE\u003Chex:021F0103\u003ESenna, Elder Seedseer of Gridania.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_164",
+    "original": "I thank you for your gracious welcome.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_165",
+    "original": "I am Clive...though beyond that, I fear my introduction may be lacking.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_FESSXT102_04797_KANESENNA_000_166",
+    "original": "Please, concern yourself not with proprieties\u2500\u0027tis your memory loss we are here to address. I am told Garuda\u0027s name awakened some previous recollection...?",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_167",
+    "original": "Yes. In the instant I heard it, a hazy vision of battle rose unbidden. I think perhaps if I could hear more of Garuda...",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_FESSXT102_04797_KANESENNA_000_168",
+    "original": "A wish easily granted.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_FESSXT102_04797_KANESENNA_000_169",
+    "original": "Garuda is the deity revered by the Ixal, a people who once dwelled here in the Twelveswood.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_FESSXT102_04797_KANESENNA_000_170",
+    "original": "She appears as a winged entity, half-bird, half-woman, who commands the wind itself. Most frightening, however, is her capricious temper, as unpredictable as a howling storm.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_FESSXT102_04797_KANESENNA_000_171",
+    "original": "I should add that \u003Chex:022C0DFF07022903EB0203FF02200203\u003E has fought against Garuda in her primal incarnation.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_172",
+    "original": "A winged woman of volatile temperament, with power over the wind... A fitting description of the opponent I remember.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_173",
+    "original": "But a deity...? No, the will behind that monstrous visage was distinctly mortal.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_FESSXT102_04797_WANDERINGMINSTREL_000_174",
+    "original": "I suspect Clive\u0027s Garuda and Eorzea\u0027s primal are not one and the same.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_FESSXT102_04797_WANDERINGMINSTREL_000_175",
+    "original": "Mainly as Clive himself is not of our world.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_FESSXT102_04797_KANESENNA_000_176",
+    "original": "Explain yourself, minstrel.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_FESSXT102_04797_WANDERINGMINSTREL_000_177",
+    "original": "I went back to where we discovered Clive and questioned folk in all the nearby settlements. Not one person recognized his description.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_FESSXT102_04797_WANDERINGMINSTREL_000_178",
+    "original": "Such a distinctive tattoo escaping the notice of every local rumormonger for malms around? Improbable, to say the least.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_FESSXT102_04797_WANDERINGMINSTREL_000_179",
+    "original": "That led me to consider another possibility. One consistent with past accounts I have heard of visitors from other worlds somehow stumbling through reality\u0027s curtain and finding their way to our star.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_180",
+    "original": "My brand, it\u0027s... It\u0027s the mark of a Bearer.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_FESSXT102_04797_KANESENNA_000_181",
+    "original": "Does it pain you to remember?",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_182",
+    "original": "I feel the memories trying to surface, but when I strain to recall, a piercing ringing fills my ears...",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_183",
+    "original": "Garuda. Bearer. Ifrit...",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_FESSXT102_04797_KANESENNA_000_184",
+    "original": "Another primal\u0027s name. \u0027Twould seem the pain has a less-than-tangible source.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_FESSXT102_04797_KANESENNA_000_185",
+    "original": "Long have I studied the healing arts, yet I sense no shadow of illness in your body. Your suffering stems not from injury nor sickness.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_FESSXT102_04797_KANESENNA_000_186",
+    "original": "Victims of terrible events have been known to suppress their own memories out of instinct...",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_FESSXT102_04797_KANESENNA_000_187",
+    "original": "One\u0027s subconscious denies attempts to confront the awful truth, the mind creating a shield of pain to protect the heart.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_188",
+    "original": "The barrier is of my own making? How, then, am I to overcome it?",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_FESSXT102_04797_WANDERINGMINSTREL_000_189",
+    "original": "With our aid, of course.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_FESSXT102_04797_WANDERINGMINSTREL_000_190",
+    "original": "Fate has brought us together, and together we shall triumph over this adversity!",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_200",
+    "original": "So, you think me from another world...",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_FESSXT102_04797_CLIVE_000_201",
+    "original": "And my memories of said world are not like to return unless I acknowledge some terrible truth. A truth my mind refuses to remember.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_FESSXT102_04797_WANDERINGMINSTREL_000_202",
+    "original": "\u0027Tis a confounding dilemma, I agree, and I have given thought to a solution.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_FESSXT102_04797_WANDERINGMINSTREL_000_203",
+    "original": "I believe that the shackles which bind your mind may yet be struck off in the heat of battle. A drastic measure, perhaps, especially when not at your best.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_FESSXT102_04797_WANDERINGMINSTREL_000_204",
+    "original": "Which is why I turn to you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. You are the twin to Clive\u0027s wandering star\u2500your involvement is no accident.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_FESSXT102_04797_WANDERINGMINSTREL_000_205",
+    "original": "The path I see is thick with thorns, but if you\u0027ve the will to walk it, then gird yourself for war and await me at Apkallu Falls.",
+    "translation": ""
+  }
+}

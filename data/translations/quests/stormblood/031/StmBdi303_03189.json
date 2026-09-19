@@ -1,0 +1,832 @@
+{
+  "0": {
+    "tag": "TEXT_STMBDI303_03189_SEQ_00",
+    "original": "Jenomis is crestfallen at the thought he might never see his son again. See if there is aught you can do to put his mind at ease.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_STMBDI303_03189_SEQ_01",
+    "original": "A timely Echo-induced flashback gives you insight into Ramza Beoulve\u0027s final confrontation with Ultima, the High Seraph, and how Orran Durai and King Delita Heiral worked to see their companion\u0027s legacy both erased and preserved. The only path left for you...and all of Hydaelyn is to confront the Angel of Blood once more beneath the Orbonne Monastery.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe Orbonne Monastery can be accessed via the Duty Finder.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_STMBDI303_03189_SEQ_02",
+    "original": "Ultima is defeated and the land rid of her foul presence once and for all. Ramza, however, has yet to regain consciousness. All you can do now is wait.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_STMBDI303_03189_SEQ_03",
+    "original": "Aetherial visions of the hero Ramza Beoulve and King Delita appear to grant you and the Lexentales their thanks before returning once and for all to the Lifestream.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_STMBDI303_03189_SEQ_04",
+    "original": "Jenomis, despite having fulfilled his lifelong desire to discover the truth behind Ivalice and his ancestor Orran Durai, has second thoughts about revealing his discovery to the world. He instead elects to tell the tale in an all-new final act of his renowned play, \u003Chex:021A020203\u003EThe Zodiac Brave Story\u003Chex:021A020103\u003E. After witnessing the Majestic Theater Company rehearse this heartwarming scene, both you and Lina Mewrilah are at a loss for words...or at least you are.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_STMBDI303_03189_SEQ_05",
+    "original": "Lina Mewrilah is thoroughly satisfied with the outcome of events, and decides she will remain in Kugane for as long as her employers at \u003Chex:021A020203\u003EThe Raven\u003Chex:021A020103\u003E will foot the bill. Who knows, perhaps before that time comes, another opportunity for adventure with the Lexentales will arise?",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_STMBDI303_03189_TODO_00",
+    "original": "Enter the Orbonne Monastery.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_STMBDI303_03189_TODO_01",
+    "original": "Enter the Orbonne Monastery.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_STMBDI303_03189_TODO_02",
+    "original": "Speak with Jenomis.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_STMBDI303_03189_TODO_03",
+    "original": "Speak with Lina Mewrilah.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_STMBDI303_03189_GIJUK_500_000",
+    "original": "If you need help finding Ramza, do not hesitate to ask. We are here to help. I like to think it is what Ba\u0027Gamnan would have wished.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_STMBDI303_03189_RINOK_500_005",
+    "original": "Is the boy\u0027s father well? I cannot imagine what he is going through. Losing his daughter, only to lose his son moments after her return...",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_STMBDI303_03189_JENOMISLEXENTALE_000_000",
+    "original": "We need to do \u003Chex:021A020203\u003Esomething\u003Chex:021A020103\u003E...but what recourse is left to us? The only means we had of protecting ourselves could not even prevent my son from... My son from...",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_STMBDI303_03189_MIKOTO_000_010",
+    "original": "I am sorry, Jenomis. My design was...flawed...",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_STMBDI303_03189_FRAN_000_011",
+    "original": "Not necessarily, Sharlayan. We all saw how it succeeded in drawing Alma back from the rift and shattering the Otius. The loss of the boy is not yours to bear.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_STMBDI303_03189_FRAN_000_012",
+    "original": "Our focus here should not be on our failures, but what we have learned from them. The being beyond the rift\u2500it spoke before claiming Ramza. It referred to you as the \u201Cblood of its invokers.\u201D Could it be your ancestors are responsible for Ultima\u0027s summoning?",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_STMBDI303_03189_JENOMISLEXENTALE_000_013",
+    "original": "Most certainly not! I have discovered no such inference anywhere in the Durai Papers! Besides, tales of the High Seraph existed far before even the earliest of Ivalician legends.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_STMBDI303_03189_FRAN_000_014",
+    "original": "Then who exactly did summon Ultima, and why does she think them your kin?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_STMBDI303_03189_MIKOTO_000_015",
+    "original": "Look!",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_STMBDI303_03189_MONTBLANC_000_016",
+    "original": "I have a bad feeling about this, kupo!",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_STMBDI303_03189_DELITAHEIRAL_000_050",
+    "original": "(-???-)Ramza, dead!? You lie about as well as you carry yourself in battle, Orran.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_STMBDI303_03189_ORRANDURAI_000_051",
+    "original": "I did not say he was dead, my Lord Delita, merely that he had abandoned his mortal vessel, entrusting his aetherial soul to the auracite.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_STMBDI303_03189_DELITAHEIRAL_000_052",
+    "original": "But why would he do such a thing? Peace is finally come to Ivalice! There is naught to be had from further sacrifice!",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_STMBDI303_03189_DELITAHEIRAL_000_053",
+    "original": "The kingdom is won, and this victory is as much his as it is mine! He risked life and limb to shield me from the dark that would have seen me perish.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_STMBDI303_03189_DELITAHEIRAL_000_054",
+    "original": "Without him, I would not be standing here before you. It is my duty as both king and colleague to see him saved!",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_STMBDI303_03189_DELITAHEIRAL_000_055",
+    "original": "Knights, to me! We ride for Orbonne!",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_STMBDI303_03189_ORRANDURAI_000_056",
+    "original": "My lord! Wait!",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_STMBDI303_03189_ORRANDURAI_000_057",
+    "original": "Ajora Glabados, first of the Zodiac Braves, was not the hero the church would have you believe. He betrayed Mother Hydaelyn for the promise of coin and power, summoning forth a terrible evil from the depths of the celestial abyss.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_STMBDI303_03189_ORRANDURAI_000_058",
+    "original": "It was believed only one of the land\u0027s chosen\u2500only a Warrior of Light might stand against this threat.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_STMBDI303_03189_ORRANDURAI_000_059",
+    "original": "Yet while victorious in battle, Ramza was unable to see the darkness vanquished. If failure was all that awaited \u003Chex:021A020203\u003Eour\u003Chex:021A020103\u003E Warrior of Light, then what chance do you presume any other might stand?",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_STMBDI303_03189_DELITAHEIRAL_000_060",
+    "original": "Are you saying I should do nothing, then!?",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_STMBDI303_03189_ALMABEOULVE_000_061",
+    "original": "No, my lord. Ramza is. My brother\u0027s final wish before he surrendered to the aether was that his name be struck from the annals of history.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_STMBDI303_03189_DELITAHEIRAL_000_062",
+    "original": "Alma, you\u0027re unhurt! But I was led to believe none but Orran returned from Orbonne. What is this you speak of your brother\u0027s wishes?",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_STMBDI303_03189_ORRANDURAI_000_063",
+    "original": "When it became apparent that we were powerless to truly defeat the High Seraph, we chose the only path left to us\u2500to do what Hydaelyn Herself did countless centuries past: imprison Ultima.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_STMBDI303_03189_ORRANDURAI_000_064",
+    "original": "And as you are aware, my lord, a prison is only as strong as the \u003Chex:021A020203\u003Eseal\u003Chex:021A020103\u003E on its gates...",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_STMBDI303_03189_ALMABEOULVE_000_065",
+    "original": "Ramza sacrificed his body to ensure that the Angel of Blood would never again walk the land, and he believed that if people knew of this sacrifice, it would only inspire them to seek out the Holy Stones and repeat the mistakes of those come before.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_STMBDI303_03189_ALMABEOULVE_000_066",
+    "original": "If you truly avouch yourself his friend, then you will honor this, his final plea.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_STMBDI303_03189_DELITAHEIRAL_000_067",
+    "original": "No! Ramza should not be forgotten! He should be raised up as a hero for his deeds and claim his rightful place at my side. Only he might be my Knight Gallant!",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_STMBDI303_03189_ORRANDURAI_000_068",
+    "original": "He is gone, my lord.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_STMBDI303_03189_ALMABEOULVE_000_069",
+    "original": "Before Ramza was your friend, before he was my brother, he was a Warrior of Light. He did what he did for Hydaelyn, and for those who would one day, too, heed the Crystal\u0027s call.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_STMBDI303_03189_RAMZABEOULVE_000_070",
+    "original": "Claim the throne, my friend. Become ruler of Ivalice and restore peace to this war-torn realm once and for all.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_STMBDI303_03189_DELITAHEIRAL_000_071",
+    "original": "Wait, Ramza! Don\u0027t leave me! Please! I beg of you!",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_STMBDI303_03189_RAMZABEOULVE_000_072",
+    "original": "You will make a fine and just king, Delita. See you do not stray from that path.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_STMBDI303_03189_DELITAHEIRAL_000_073",
+    "original": "Ramza!",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_STMBDI303_03189_DELITAHEIRAL_000_074",
+    "original": "The stones in these two necklaces, you are certain they will guide the heroes of a new era to Ramza?",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_STMBDI303_03189_ORRANDURAI_000_075",
+    "original": "\u0027Tis what Ramza wished, my lord.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_STMBDI303_03189_DELITAHEIRAL_000_076",
+    "original": "Orran, I do not believe I can bear another farewell this day. Will you not reconsider my offer to remain as a member of my court?",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_STMBDI303_03189_ORRANDURAI_000_077",
+    "original": "\u0027Tis but a matter of time before the Cardinal and his Temple Knights grow wise to my past. I would not have my presence here implicate you as well.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_STMBDI303_03189_ORRANDURAI_000_078",
+    "original": "Ramza beseeched me strike his name from history, but like you, my lord, I could not bear the thought of future generations blind to the truth. As such, I penned this chronicle of the hero\u0027s journeys.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_STMBDI303_03189_ORRANDURAI_000_079",
+    "original": "I fear the world, however, is not yet ready for the gospel contained within these pages; nor would the church ever allow its circulation. In fact, I believe they will confiscate every existing copy and lock them away in their library.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_STMBDI303_03189_ALMABEOULVE_000_080",
+    "original": "And what better way for the words to remain forever preserved than in one of the most highly guarded vaults in all the realm? Then, one day, when the church has fallen out of favor, the chronicle will be discovered and truth shall prevail.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_STMBDI303_03189_DELITAHEIRAL_000_081",
+    "original": "I must admit, your plan is intriguing, Orran...but once the church learns it was you who penned the chronicle, your life\u2500",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_STMBDI303_03189_LINAMEWRILAH_000_100",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_STMBDI303_03189_MIKOTO_000_101",
+    "original": "\u0027Twas the Echo, wasn\u0027t it?",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_STMBDI303_03189_JENOMISLEXENTALE_000_102",
+    "original": "The removal of Ramza\u0027s name from the history books, the Durai Papers, the pendants...it was all set in motion by Orran himself!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_STMBDI303_03189_FRAN_000_103",
+    "original": "And if the liberator\u0027s visions are to be taken as fact, it also appears we now know what the High Seraph meant by \u201Cblood of my invoker.\u201D",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_STMBDI303_03189_MIKOTO_000_104",
+    "original": "She was not speaking of ancestors in the sense of \u003Chex:021A020203\u003Eactual\u003Chex:021A020103\u003E kin, but the line of those chosen by Hydaelyn to serve Her as Warriors of Light.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_STMBDI303_03189_LINAMEWRILAH_000_105",
+    "original": "But then why abduct Ramza...or even Alma? Unless...there is something you haven\u0027t been telling us!",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_STMBDI303_03189_ALMALEXENTALE_000_106",
+    "original": "She was using us...to lure \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. It is \u003Chex:02080DE905FF04686572FF0468697303\u003E vessel the High Seraph desires.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_STMBDI303_03189_LINAMEWRILAH_000_107",
+    "original": "Matron\u0027s teats, Alma, how long have you been awake!?",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_STMBDI303_03189_FRAN_000_108",
+    "original": "\u003Csigh\u003E I\u0027ve been a fool...",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_STMBDI303_03189_FRAN_000_109",
+    "original": "I told our leader that it did not matter if our request for aid was refused, for I had an alternative ploy.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_STMBDI303_03189_FRAN_100_109",
+    "original": "I told our leader that it did not matter if our request for aid was refused, for I had an alternative ploy.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_STMBDI303_03189_BWAGI_000_110",
+    "original": "General!",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_STMBDI303_03189_FRAN_000_111",
+    "original": "It is all right, Bwagi. My intention was to claim one of these auracite in the name of the resistance and use its power to lay waste to the Garlean occupants. Only now do I realize how flawed my ambitions were.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_STMBDI303_03189_LINAMEWRILAH_000_112",
+    "original": "You mean this whole time you were playing us for fools!? Why didn\u0027t we see it earlier!? Never trust a woman with ears longer than mine, I always say!",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_STMBDI303_03189_FRAN_000_113",
+    "original": "You\u0027ve every right to be angry, and I apologize for misleading you. But believe me, I no longer have any desire to deceive you and yours. I shall see you to the Orbonne Monastery, and ask naught in return but that you let me join you in your rescue of Ramza.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_STMBDI303_03189_FRAN_000_114",
+    "original": "Do not misunderstand me. I do not do this for any \u003Chex:021A020203\u003Eone\u003Chex:021A020103\u003E of you.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_STMBDI303_03189_FRAN_000_115",
+    "original": "I do it for my people in both Golmore and Rabanastre\u2500people who may die if this High Seraph is allowed to return to power.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_STMBDI303_03189_JENOMISLEXENTALE_500_030",
+    "original": "It pains me as a father that I am powerless to save my own son. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, I have asked much of you these past moons, but naught is more important than what I ask you now. Please, find Ramza.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_STMBDI303_03189_ALMALEXENTALE_500_035",
+    "original": "This is all my fault. I was convinced it was Ramza and my father who were bedeviled by the auracite...when in fact, it was me all along...",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_STMBDI303_03189_00543_MIKOTO_500_036",
+    "original": "You are wrong, Alma. The auracite held no power over you. It never did. Your concern for your family was justified, for they allowed their desires to cloud their own judgment.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_STMBDI303_03189_00543_MIKOTO_500_037",
+    "original": "You needn\u0027t blame yourself for matters beyond your control.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_STMBDI303_03189_ALMALEXENTALE_500_038",
+    "original": "But what of Ramza? He\u0027s gone because he tried to save \u003Chex:021A020203\u003Eme\u003Chex:021A020103\u003E...",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_STMBDI303_03189_00543_ALMALEXENTALE_500_039",
+    "original": "Please, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. You must bring back my brother. I...I don\u0027t know what I would do if I lost him, too...",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_STMBDI303_03189_MONTBLANC_000_200",
+    "original": "He\u0027s awake, kupo! ...But is it truly \u003Chex:021A020103\u003Ehim\u003Chex:021A020103\u003E?",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_STMBDI303_03189_RAMZALEXENTALE_000_201",
+    "original": "Thank you. Thank you all for coming to my aid.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_STMBDI303_03189_RAMZABEOULVE_000_202",
+    "original": "And you have my thanks, noble Warrior of Light. You have achieved what I could not.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_STMBDI303_03189_RAMZABEOULVE_000_203",
+    "original": "And you, bearer of my blood and the blood of House Durai. Thank you for seeing my final wish fulfilled.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_STMBDI303_03189_RAMZABEOULVE_000_204",
+    "original": "My sacrifice has finally been given meaning...",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_STMBDI303_03189_RAMZABEOULVE_000_205",
+    "original": "Now, my friends, let us retire to Mother Hydaelyn\u0027s bosom, that we may finally rest.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_STMBDI303_03189_RAMZABEOULVE_000_206",
+    "original": "Farewell. You are the true heroes of this story.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_STMBDI303_03189_RAMZABEOULVE_000_207",
+    "original": "Delita. How I have missed you, old friend.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_STMBDI303_03189_DELITAHEIRAL_000_208",
+    "original": "Forgive me, Ramza! You deserved better than what history gave you. I...I could have done more... I am truly sorry...",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_STMBDI303_03189_DELITAHEIRAL_000_209",
+    "original": "These countless centuries did I long for the day that we might meet once again. And now, that time is finally come. Hydaelyn beckons us both.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_STMBDI303_03189_00543_MIKOTO_500_060",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E. It is almost sad to see our quest come to an end, though we have given the land\u0027s scholars much to consider. Sharlayan will have to open a school of Ivalician studies, are we to keep up.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_STMBDI303_03189_00543_FRAN_500_065",
+    "original": "I owe you an apology, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I was wrong to doubt you.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_STMBDI303_03189_00543_FRAN_500_066",
+    "original": "Whether it be in a council room or on the field of battle, you have proven yourself more than worthy of the many praises the bards sing. I am glad to have counted you an ally, for I would not wish you upon even my worst enemy.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_STMBDI303_03189_00543_BWAGI_500_070",
+    "original": "Despite what Lady Fran says, \u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E had no doubt that you would come through in the end. It has been an honor, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I only wish Ba\u0027Gamnan were here with us to celebrate this day...",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_STMBDI303_03189_00543_RAMZALEXENTALE_500_075",
+    "original": "And here we are, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I cannot thank you enough for all you have done for my family...and that is before you saved me from the High Seraph!",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_STMBDI303_03189_00543_ALMALEXENTALE_500_080",
+    "original": "You rescued my brother, and for that I shall ever be indebted to you. You will be in my heart, always, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_STMBDI303_03189_00543_GIJUK_500_085",
+    "original": "You slew the she-devil who brought those unholy stones into the world? Then Ba\u0027Gamnan can finally rest in peace. Thank you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_STMBDI303_03189_00543_RINOK_500_090",
+    "original": "My only regret is that if we had grown wise to the High Seraph\u0027s presence sooner, perhaps our captain, too, would be here to enjoy this victory...",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_STMBDI303_03189_00543_LINAMEWRILAH_500_095",
+    "original": "You\u0027re alive! Oh, but of course you are. You\u0027d think that after this many triumphs, one might grow tired of saving the world. Consider us all fortunate that you have not! Ah hah hah hah!",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_STMBDI303_03189_00543_MONTBLANC_500_100",
+    "original": "But they were \u003Chex:021A020203\u003Ethere\u003Chex:021A020103\u003E, Hurdy, clear as day\u2500the hero Ramza and good King Delita! Why would I lie about something like that, kupo?",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_STMBDI303_03189_00543_HURDY_500_101",
+    "original": "My question is, why \u003Chex:021A020203\u003Ewouldn\u0027t\u003Chex:021A020103\u003E you? Still, after what we\u0027ve all been through in the past few days, I \u003Chex:021A020203\u003Emight\u003Chex:021A020103\u003E be willing to give you the benefit of the doubt...this time, kupo!",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_STMBDI303_03189_JENOMISLEXENTALE_000_300",
+    "original": "I am so sorry, Ramza. Alma. I convinced myself my research was the most important thing in my life, all the while you two were standing before me. Can you find it in your hearts to forgive your father?",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_STMBDI303_03189_ALMALEXENTALE_000_301",
+    "original": "It is all right. We are still here, are we not?",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_STMBDI303_03189_RAMZALEXENTALE_000_302",
+    "original": "And we triumphed. We \u003Chex:021A020203\u003Eproved\u003Chex:021A020103\u003E your theory true. Ivalice existed. Ramza existed. And Orran Durai was not a heretic, but a hero. Now all that remains is to tell the world!",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_STMBDI303_03189_JENOMISLEXENTALE_000_303",
+    "original": "No, my son. We needn\u0027t burden ourselves further.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_STMBDI303_03189_RAMZALEXENTALE_000_304",
+    "original": "But Father! We cannot allow our ancestor\u0027s name to remain\u2500",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_STMBDI303_03189_JENOMISLEXENTALE_000_305",
+    "original": "And we will not. Yet simply not in the manner you think.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_STMBDI303_03189_JENOMISLEXENTALE_000_306",
+    "original": "I shall be adding a final act to \u003Chex:021A020203\u003EThe Zodiac Brave Story\u003Chex:021A020103\u003E telling of how Ramza the forgotten hero and his chronicler Orran Durai smote the Angel of Blood and saved Ivalice from an age of darkness, before quietly embarking on a final journey that would take them far beyond the horizon.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_STMBDI303_03189_JENOMISLEXENTALE_000_307",
+    "original": "And of course, I shall not leave out those \u003Chex:021A020203\u003Enameless\u003Chex:021A020103\u003E heroes who fought alongside Ramza\u2500without whom the young noble would have surely perished.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_STMBDI303_03189_ALMALEXENTALE_000_308",
+    "original": "Is that what you truly want, Father? For the story to end?",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_STMBDI303_03189_JENOMISLEXENTALE_000_309",
+    "original": "It will only end on the stage, my dear, and live on in the hearts of the crowd.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_STMBDI303_03189_RAMZALEXENTALE_000_310",
+    "original": "King Delita and Orran envisioned the Virgo as a beacon which would lead future generations to the truth about the founding of their kingdom. They were right. And just as the pendants guided us, now we shall guide the masses through our play.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_STMBDI303_03189_JENOMISLEXENTALE_000_311",
+    "original": "And now you see, my son.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_STMBDI303_03189_JENOMISLEXENTALE_000_312",
+    "original": "I would offer you my thanks again, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, but thanks are not nearly enough to express my gratitude for all you have given us.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_STMBDI303_03189_JENOMISLEXENTALE_000_313",
+    "original": "Perhaps after I complete \u003Chex:021A020203\u003EThe Zodiac Brave Story\u003Chex:021A020103\u003E, I shall pen a tale about the legendary Warrior of Light and \u003Chex:02080DE905FF04686572FF0468697303\u003E adventures across the Three Great Continents.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_STMBDI303_03189_CID_000_314",
+    "original": "Then you\u0027ll have your work cut out for you, my friend. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E has enough battles under \u003Chex:02080DE905FF04686572FF0468697303\u003E belt to fill at least three tomes, if not four.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_STMBDI303_03189_LINAMEWRILAH_000_315",
+    "original": "Would you stop doing that, Cid?",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_STMBDI303_03189_CID_000_316",
+    "original": "And \u003Chex:02080DE905FF04686572FF0468697303\u003E tale is far from over, isn\u0027t it?",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_STMBDI303_03189_JENOMISLEXENTALE_000_350",
+    "original": "All right, this is our final dress rehearsal for the night. Make it count. Positions, everyone!",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_STMBDI303_03189_RAMZALEXENTALE_000_351",
+    "original": "Yes, Principal!",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_STMBDI303_03189_JENOMISLEXENTALE_000_352",
+    "original": "Lights! Music! There will be no more mistakes from you two, am I clear?",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_STMBDI303_03189_MONTBLANC_000_353",
+    "original": "(-Montblanc and Hurdy-)Mothercrystal clear, kupo!",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_STMBDI303_03189_LINAMEWRILAH_000_354",
+    "original": "They are going to perform the new final act!",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_STMBDI303_03189_JENOMISLEXENTALE_000_355",
+    "original": "Begin!",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_STMBDI303_03189_ALMALEXENTALE_000_356",
+    "original": "What ever will we do? The church has branded us heretics. No home awaits us in Ivalice.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_STMBDI303_03189_RAMZALEXENTALE_000_357",
+    "original": "We shall embark on a journey\u2500a journey together!",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_STMBDI303_03189_ALMALEXENTALE_000_358",
+    "original": "Together?",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_STMBDI303_03189_RAMZALEXENTALE_000_359",
+    "original": "Together! The Crystal\u0027s call has been answered and evil vanquished\u003Chex:02100103\u003Efrom the land. We are now free to soar like the griffin!",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_STMBDI303_03189_ALMALEXENTALE_000_360",
+    "original": "Free? But how?",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_STMBDI303_03189_RAMZALEXENTALE_000_361",
+    "original": "By casting off our noble names and forging a new path\u2500one not bound by fate!",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_STMBDI303_03189_RAMZALEXENTALE_000_362",
+    "original": "And on that path we shall meet new friends, make a new family.",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_STMBDI303_03189_RAMZALEXENTALE_000_363",
+    "original": "And unto them we shall entrust the true tale of our deeds\u003Chex:02100103\u003Ethat they may carry on our legacy...for all eternity!",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_STMBDI303_03189_ALMALEXENTALE_000_364",
+    "original": "Sword in hand, a warrior clutches stone to breast.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_STMBDI303_03189_RAMZALEXENTALE_000_365",
+    "original": "In sword etched he his fading memories.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_STMBDI303_03189_ALMALEXENTALE_000_366",
+    "original": "In stone he tempered his skill.",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_STMBDI303_03189_RAMZALEXENTALE_000_367",
+    "original": "By sword attested, by stone revealed.",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_STMBDI303_03189_RAMZALEXENTALE_000_368",
+    "original": "Their tale can now be told!",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_STMBDI303_03189_LINAMEWRILAH_000_369",
+    "original": "Bravo! Bravo! You both were wonderful!",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_STMBDI303_03189_JENOMISLEXENTALE_000_370",
+    "original": "I am inclined to agree with the Lady Mewrilah\u0027s sentiments, but there is always room for improvement. Back to your positions, everyone! Again from the top!",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_STMBDI303_03189_MONTBLANC_000_371",
+    "original": "Again? I\u0027ve had enough of this! I was promised a starring role, kupo! It is in my contract!",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_STMBDI303_03189_HURDY_000_372",
+    "original": "Oh, hush, Brother, before Jenomis has us back to polishing boot buckles again!",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_STMBDI303_03189_SYSTEM_000_399",
+    "original": "Meanwhile, in the Clockwork City of Goug...",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_STMBDI303_03189_GABRANTH_000_400",
+    "original": "Well?",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_STMBDI303_03189_IMPERIALRESEARCHER03189_000_401",
+    "original": "Sir! Further research will be required to reach a positive conclusion, but preliminary tests show that the technology utilized here bears striking similarities to our own.",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_STMBDI303_03189_GABRANTH_000_402",
+    "original": "Excellent. Let the Eorzeans play with their baubles. True power lies within these very walls.",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_STMBDI303_03189_GABRANTH_000_403",
+    "original": "It appears our ancestors were as cunning as they were ruthless.",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_STMBDI303_03189_GABRANTH_000_404",
+    "original": "A weapon powerful enough to carve a gateway to the land\u0027s very core. His Radiance will be eager to test this \u201CTartarus,\u201D wouldn\u0027t you all agree?",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_STMBDI303_03189_00543_MIKOTO_500_200",
+    "original": "It has been an honor to serve one as brave and just as you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I only hope my contributions to this most recent endeavor have proven of value.",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_STMBDI303_03189_00543_MIKOTO_500_201",
+    "original": "Before this assignment, I would spend my days alone in the library poring over texts, learning of others\u0027 accomplishments, but never recording any of my own.",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_STMBDI303_03189_00543_MIKOTO_500_202",
+    "original": "But witnessing you and all you achieved in our short time together has inspired me. When I return to Sharlayan, I will put in a request with the Students of Baldesion for an increase in field research!",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_STMBDI303_03189_00543_MIKOTO_500_203",
+    "original": "But I think I shall start with something in lower La Noscea! Thank you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_STMBDI303_03189_00543_FRAN_500_210",
+    "original": "I owe you an apology, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I was wrong to doubt you.",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_STMBDI303_03189_00543_FRAN_500_211",
+    "original": "Whether it be in a council room or on the field of battle, you have proven yourself more than worthy of the many praises the bards sing. I am glad to have counted you an ally, for I would not wish you upon even my worst enemy.",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_STMBDI303_03189_00543_FRAN_500_215",
+    "original": "In fact, our paths may cross again sooner than expected. I received word earlier that the Eorzean and Eastern alliances have agreed to assist Lente\u0027s Tears, though not in the manner my leader first sought.",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_STMBDI303_03189_00543_FRAN_500_218",
+    "original": "In fact, our paths may cross again sooner than expected. I received word earlier from both the Eorzean Alliance and Doma that they have agreed to assist Lente\u0027s Tears, though not in the manner my leader first sought.",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_STMBDI303_03189_00543_FRAN_500_220",
+    "original": "They will be providing refuge for those displaced by the fighting. Children, elderly, the wounded\u2500I have been assured that all are welcome.",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_STMBDI303_03189_00543_FRAN_500_221",
+    "original": "Unlike our demand for soldiery, both Lady Tataru and Lady Yugiri seemed much more amicable to this request. Perhaps they remembered how only recently Eorzea received refugees fleeing from Doma and Ala Mhigo. And perhaps it was I who reminded them.",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_STMBDI303_03189_00543_FRAN_500_222",
+    "original": "As for now, I must return to Dalmasca with these tidings, and somehow not only convince the myriad resistance factions to cease their infighting, but also cooperate in the organization of a method in which refugees might be transported safely across the borders.",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_STMBDI303_03189_00543_FRAN_500_223",
+    "original": "Needless to say, I have my work cut out for me. But even then, this is only the beginning. Once the refugees are safe, there is still a war to be fought...and won.",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_STMBDI303_03189_00543_FRAN_500_224",
+    "original": "And when that time comes, do not be surprised when I come again calling.",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_STMBDI303_03189_00543_GIJUK_500_230",
+    "original": "Reports are that the IVth Legion has marched on Valnain, making the commercial center their new temporary base of operations. If that is so, then that is where we strike next!",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_STMBDI303_03189_00543_GIJUK_500_231",
+    "original": "We had our past misgivings, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, but in the end we all learned to work for the same cause. I hope we can do so again, soon!",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_STMBDI303_03189_00543_RINOK_500_235",
+    "original": "It won\u0027t be simple uniting the factions, but when has war ever been simple?",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_STMBDI303_03189_00543_RINOK_500_236",
+    "original": "Once we are a united front, we still have to figure a means of besting the most powerful army in the world. And if, by some miracle, we achieve that, then we have an entire nation to rebuild...starting with the smoldering heap I used to call home.",
+    "translation": ""
+  },
+  "197": {
+    "tag": "TEXT_STMBDI303_03189_00543_RINOK_500_237",
+    "original": "But then again, it sure feels better than being a sky pirate. Let the next time we meet, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, be in the Desert Sapphire \u0027neath the royal Dalmascan standard!",
+    "translation": ""
+  },
+  "198": {
+    "tag": "TEXT_STMBDI303_03189_00543_BWAGI_500_240",
+    "original": "If Ba\u0027Gamnan were here, he\u0027d smile and slap us both on the back. You\u0027d probably fall on your face. I miss the captain.",
+    "translation": ""
+  },
+  "199": {
+    "tag": "TEXT_STMBDI303_03189_00543_BWAGI_500_241",
+    "original": "I\u0027m not as optimistic as my brothers as to our chances of meeting again, but know this, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E: I will not forget you, and hope that maybe you will say the same.",
+    "translation": ""
+  },
+  "200": {
+    "tag": "TEXT_STMBDI303_03189_LINAMEWRILAH_000_430",
+    "original": "Well, wasn\u0027t that an adventure, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E? It is sad to think we must soon part ways, what with all we\u0027ve been through these past few moons.",
+    "translation": ""
+  },
+  "201": {
+    "tag": "TEXT_STMBDI303_03189_LINAMEWRILAH_000_431",
+    "original": "Satisfied with the city\u0027s unwillingness to turn him over to the Garleans, Jenomis has decided to purchase a permanent berth above Kugane for the \u003Chex:021A020203\u003EPrima Vista\u003Chex:021A020103\u003E. Supposedly he has already received petitions from hundreds of geiko and geinin to join the company.",
+    "translation": ""
+  },
+  "202": {
+    "tag": "TEXT_STMBDI303_03189_LINAMEWRILAH_000_432",
+    "original": "And then there is the matter of my assignment. You will be delighted to learn that I am...\u003Chex:021A020203\u003Ealmost\u003Chex:021A020103\u003E finished. What? How do you expect one to write an expos\u00E9 when off battling forces of evil from beyond the void? Don\u0027t you worry, though. A few more weeks and I\u0027ll have a draft! All right...an outline.",
+    "translation": ""
+  },
+  "203": {
+    "tag": "TEXT_STMBDI303_03189_LINAMEWRILAH_000_433",
+    "original": "Until then, I\u0027ll stay here in Kugane a while longer...at \u003Chex:021A020203\u003EThe Raven\u003Chex:021A020103\u003E\u0027s expense, of course. Farewell!",
+    "translation": ""
+  }
+}

@@ -1,0 +1,402 @@
+{
+  "0": {
+    "tag": "TEXT_MANSEA302_00681_SEQ_00",
+    "original": "The Maelstrom recruitment officer seems eager to welcome you to Limsa Lominsa\u0027s Grand Company.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_MANSEA302_00681_SEQ_01",
+    "original": "You have confirmed your intention to join the ranks of the Maelstrom. Visit Maelstrom Command in Limsa Lominsa, and speak with the personnel officer to be formally inducted into the Grand Company.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_MANSEA302_00681_SEQ_02",
+    "original": "Your formal induction into the Maelstrom is interrupted by an urgent report concerning an imperial attack on a Highwind Skyways airship. Head to Cedarwood and determine the fate of the crippled vessel and its crew.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_MANSEA302_00681_SEQ_03",
+    "original": "You have defeated the imperial soldiers intent on requisitioning the downed airship. You learn that the vessel\u0027s crew, Biggs and Wedge, are engineers from Garlond Ironworks, and that Master Garlond himself has been missing since the Calamity. Return to Maelstrom Command and report to the personnel officer.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_MANSEA302_00681_SEQ_04",
+    "original": "Back at Maelstrom Command, the personnel officer praises your efforts, and assures you that the two engineers you encountered made it home without further incident. He then expresses his eagerness to complete your induction into the ranks of the Maelstrom. Speak with him once more when you are ready to attend to the formalities.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_MANSEA302_00681_TODO_00",
+    "original": "Speak with the personnel officer at Maelstrom Command.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_MANSEA302_00681_TODO_01",
+    "original": "Head to Cedarwood and determine the fate of the airship and its crew.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_MANSEA302_00681_TODO_02",
+    "original": "Speak with the personnel officer at Maelstrom Command.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_MANSEA302_00681_STORMOFFICER_000_1",
+    "original": "How was the Admiral\u0027s speech? Ah, but you need not explain\u2500that you stand before me now is answer enough. You have resolved to join the Maelstrom, have you not?",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_MANSEA302_00681_Q1_000_1",
+    "original": "Join the Maelstrom?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_MANSEA302_00681_A1_000_1",
+    "original": "Yes",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_MANSEA302_00681_A1_000_2",
+    "original": "No",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_MANSEA302_00681_STORMOFFICER_000_2",
+    "original": "That\u0027s the spirit, \u003Chex:02080EE905FF056C617373FF046C616403\u003E! With allies like you, how much stronger is our crew! Let us brave the seas together, friend!",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_MANSEA302_00681_STORMOFFICER_000_3",
+    "original": "Now the choice is made, it is time to add your name to our rolls. \u003Chex:0209F0D0E947FF314D616B6520796F75722077617920746F204D61656C7374726F6D20436F6D6D616E64206261636B20696E204C696D7361FF4D4D616B6520796F75722077617920746F204C696D7361204C6F6D696E736120616E64207365656B206F7574206F7572204772616E6420436F6D70616E79277320686561647175617274657273FF4D4D616B6520796F75722077617920746F204C696D7361204C6F6D696E736120616E64207365656B206F7574206F7572204772616E6420436F6D70616E7927732068656164717561727465727303\u003E.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_MANSEA302_00681_STORMOFFICER_000_4",
+    "original": "\u003Chex:02099AE947FF3427546973206F6E20746865207570706572206465636B732C20696E206361736520796F75206861766520666F72676F7474656EFF304D61656C7374726F6D20436F6D6D616E64206973206C6F6361746564206F6E20746865207570706572206465636B73FF304D61656C7374726F6D20436F6D6D616E64206973206C6F6361746564206F6E20746865207570706572206465636B7303\u003E. I will send word to our personnel officer to expect you.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_MANSEA302_00681_STORMOFFICER_000_5",
+    "original": "The duties of a Maelstrom soldier can be both arduous and challenging, but I promise you: you will not regret this choice. May your passage be swift and your bearings sure.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_MANSEA302_00681_STORMOFFICER_000_6",
+    "original": "...Well, I daresay you have your reasons. But mark me: in stormy seas, the strong of arm and stout of heart must pull together or the vessel will founder. And when a ship goes down, the passengers \u003Chex:021A020203\u003Ealways\u003Chex:021A020103\u003E share the fate of the crew. Remember that.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_MANSEA302_00681_SERPENTOFFICER_000_10",
+    "original": "Pray keep in mind that you are at liberty to transfer between Grand Companies. Should you ever experience a change of heart, the Order of the Twin Adder would be proud to have you.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_MANSEA302_00681_FLAMEOFFICER_000_11",
+    "original": "What\u0027s this!? You mean to take up with the \u003Chex:021A020203\u003EMaelstrom\u003Chex:021A020103\u003E!? B-But...did the awe-inspiring figure of General Raubahn not stir you? He \u003Chex:021A020203\u003Ecan\u003Chex:021A020103\u003E seem a trifle intimidating...but I\u0027m sure you\u0027d warm to him, given time.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_MANSEA302_00681_STORMOFFICER_000_12",
+    "original": "\u003Chex:02097CE947FF1C5265706F727420746F204D61656C7374726F6D20436F6D6D616E64FF2D5265706F727420746F204D61656C7374726F6D20436F6D6D616E6420696E204C696D7361204C6F6D696E7361FF2D5265706F727420746F204D61656C7374726F6D20436F6D6D616E6420696E204C696D7361204C6F6D696E736103\u003E to be officially sworn in to our ranks. And do not tarry. There is much work to be done\u2500work to which your skills are well suited.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_MANSEA302_00681_STORMPERSONNEL_000_20",
+    "original": "Hail, adventurer. What business have you at Maelstrom Command?",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_MANSEA302_00681_Q2_000_1",
+    "original": "How will you respond?",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_MANSEA302_00681_A2_000_1",
+    "original": "My name is \u003Chex:022903EB0203\u003E. I believe you are expecting me.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_MANSEA302_00681_A2_000_2",
+    "original": "I am here to enlist, if you will have me.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_MANSEA302_00681_STORMPERSONNEL_000_21",
+    "original": "\u003Chex:022903EB0203\u003E! Aye, our recruitment officer sent word of your coming. It shall be my honor to induct you into the ranks of the Maelstrom.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_MANSEA302_00681_STORMPERSONNEL_100_21",
+    "original": "Then well met, and welcome to the Maelstrom. I\u0027ll need a name for the roll, so\u2500 Wait a moment. You\u0027re \u003Chex:02080DE905FF04686572FF0468696D03\u003E, aren\u0027t you? \u003Chex:022903EB0203\u003E! Aye, you\u0027re just as our recruitment officer described. Glad to have you aboard, friend!",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_MANSEA302_00681_STORMPERSONNEL_000_22",
+    "original": "Now, before I can accept your oath, you must be made aware of several\u2500",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_MANSEA302_00681_STORMPRIVATE_000_23",
+    "original": "Sir!",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_MANSEA302_00681_STORMPERSONNEL_000_24",
+    "original": "What is it, Private? And this had better be important.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_MANSEA302_00681_STORMPRIVATE_000_25",
+    "original": "Sir! We\u0027ve received a report from a lookout in lower La Noscea, sir! Imperial forces have fired upon a Highwind Skyways airship.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_MANSEA302_00681_STORMPRIVATE_000_26",
+    "original": "The vessel is in a bad way, sir, and appears to be banking for an emergency landing in Cedarwood.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_MANSEA302_00681_STORMPERSONNEL_000_27",
+    "original": "Cedarwood? Damn it. We have no troops available in that area. The bulk of our infantry is bogged down on the coast, skirmishing with the fishbacks.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_MANSEA302_00681_STORMPERSONNEL_000_28",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200303\u003E\u2500this is highly irregular, but I fear your first duty in service to the Maelstrom must needs be unofficial.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_MANSEA302_00681_STORMPERSONNEL_000_29",
+    "original": "If our man in lower La Noscea is correct, the airship will come down in territory crawling with imperial scouts. If there are any survivors, we \u003Chex:021A020203\u003Emust\u003Chex:021A020103\u003E reach them before the Garleans do.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_MANSEA302_00681_STORMPERSONNEL_000_30",
+    "original": "Make haste to Cedarwood, locate the airship, and if any of its occupants are alive, make sure they come to no further harm. We\u0027ll see about swearing you in upon your return.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_MANSEA302_00681_Q3_000_1",
+    "original": "Duty calls. Do you wish to proceed with\u003Chex:02100103\u003E\u201CThe Company You Keep (Maelstrom)\u201D?",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_MANSEA302_00681_A3_000_1",
+    "original": "Yes",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_MANSEA302_00681_A3_000_2",
+    "original": "No",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_MANSEA302_00681_BIGGS_000_40",
+    "original": "(-Airship Crewman-)An adventurer!? What\u0027re you doing out here? No, wait\u2500let\u0027s find some cover first...",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_MANSEA302_00681_BIGGS_000_41",
+    "original": "(-Airship Crewman-)Maelstrom Command sent you? How do I know you\u0027re not an imperial spy? You don\u0027t even have a uniform!",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_MANSEA302_00681_STORMLIEUTENANT_000_42",
+    "original": "Be at ease, sir. We are of the Maelstrom. You\u0027re a Garlond Ironworks engineer, yes? One of our lookouts reported the attack on your craft\u2500we\u0027re here to rescue you.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_MANSEA302_00681_STORMLIEUTENANT_000_43",
+    "original": "You must be \u003Chex:022C0DFF07022903EB0203FF02200303\u003E. Good work on reaching our friend here before the imperials.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_MANSEA302_00681_IMPERIALSOLDIER_000_44",
+    "original": "I\u0027ve never seen a craft of this design... It must be Garlond\u0027s work. Is there no end to the man\u0027s treachery?",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_MANSEA302_00681_IMPERIALSOLDIER_000_45",
+    "original": "The secrets of magitek belong in imperial hands. They are not to be squandered on Eorzean savages!",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_MANSEA302_00681_IMPERIALSOLDIER_000_46",
+    "original": "We are taking this craft back to the fortress! Dismantle it if you must! And bring the engineer! Someone must pay for Garlond\u0027s crimes.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_MANSEA302_00681_STORMLIEUTENANT_000_47",
+    "original": "...Hm. Scouting party from Castrum Occidens, I\u0027d say. Seems they want your ship, engineer.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_MANSEA302_00681_BIGGS_000_48",
+    "original": "(-Airship Crewman-)Wedge! You have to help him! That fool of a Lalafell was hiding \u003Chex:021A020203\u003Einside\u003Chex:021A020103\u003E the \u003Chex:021A020203\u003ETiny Bronco\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_MANSEA302_00681_STORMLIEUTENANT_000_49",
+    "original": "The \u003Chex:021A020203\u003ETiny Bronco\u003Chex:021A020103\u003E? Isn\u0027t that the new design people have been whispering about?",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_MANSEA302_00681_BIGGS_000_50",
+    "original": "(-Airship Crewman-)It\u0027s the first airship we\u0027ve built since the Calamity\u2500the first since Master Garlond...well, since he went missing.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_MANSEA302_00681_BIGGS_000_51",
+    "original": "After years of work, she was finally ready for her first test flight. And she was \u003Chex:021A020203\u003Esoaring\u003Chex:021A020103\u003E, she really was\u2500till those bastards blasted her out of the sky!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_MANSEA302_00681_STORMLIEUTENANT_000_52",
+    "original": "All right, pay attention: we\u0027re going to hit these imperials hard and fast. If they want a souvenir from Eorzea, they can have a knife in the gut, but they\u0027re not getting that ship. Oh, and...don\u0027t forget to save the Lalafell.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_MANSEA302_00681_STORMLIEUTENANT_000_53",
+    "original": "What say you, \u003Chex:022C0DFF07022903EB0203FF02200303\u003E? Ready to give those curs a hiding?",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_MANSEA302_00681_STORMLIEUTENANT_000_54",
+    "original": "Like a tidal wave, lads! Charge!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_MANSEA302_00681_IMPERIALSOLDIER_000_55",
+    "original": "An ambush! To arms!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_MANSEA302_00681_WEDGE_000_60",
+    "original": "Biggs!",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_MANSEA302_00681_BIGGS_000_61",
+    "original": "Wedge! You shouldn\u0027t have stayed with the ship!",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_MANSEA302_00681_WEDGE_000_62",
+    "original": "Th-That was a close one!",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_MANSEA302_00681_BIGGS_000_63",
+    "original": "Too damn close. So...how\u0027s she look, anyway?",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_MANSEA302_00681_WEDGE_000_64",
+    "original": "The auxiliary propeller is a dead loss, but I think we can wring enough thrust from the main propeller to get us airborne.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_MANSEA302_00681_BIGGS_000_65",
+    "original": "A few minor modifications and we should be able to fly the \u003Chex:021A020203\u003ETiny Bronco\u003Chex:021A020103\u003E home.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_MANSEA302_00681_STORMLIEUTENANT_000_66",
+    "original": "We\u0027ll stand watch until the ship is ready to take off. The imperials will come looking for their scouts eventually, but I doubt they\u0027ll get here for a good while yet.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_MANSEA302_00681_STORMLIEUTENANT_000_67",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200303\u003E\u2500you\u0027re free to return to Maelstrom Command and complete your induction.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_MANSEA302_00681_STORMLIEUTENANT_000_68",
+    "original": "Ordinarily, I\u0027d ask you to stay, but I think we\u0027d all feel better knowing an adventurer of your ability was safely sworn in and ready for the next mission! Rest assured, I\u0027ll inform Command of the part you played today.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_MANSEA302_00681_BIGGS_000_69",
+    "original": "I, um...just wanted to say sorry...you know, for calling you an imperial spy and all that... Got \u003Chex:021A020203\u003Ethat\u003Chex:021A020103\u003E one wrong, didn\u0027t I!? Ha ha! Seriously, though\u2500if it hadn\u0027t been for you and the Maelstrom lads there, we\u0027d be chained up in a dungeon by now. I\u0027m in your debt, friend\u2500we both are.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_MANSEA302_00681_BIGGS_000_70",
+    "original": "Wedge!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_MANSEA302_00681_WEDGE_000_71",
+    "original": "Thank you! We\u0027re very grateful!",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_MANSEA302_00681_STORMPERSONNEL_000_80",
+    "original": "Welcome back, \u003Chex:022C0DFF07022903EB0203FF02200303\u003E. I just heard the report.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_MANSEA302_00681_STORMPERSONNEL_000_81",
+    "original": "You needn\u0027t be concerned about the engineers\u2500they completed their return trip without further imperial interference.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_MANSEA302_00681_STORMPERSONNEL_000_82",
+    "original": "...I must admit, I had my doubts at first, but it seems the stories about you are true.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_MANSEA302_00681_STORMPERSONNEL_000_83",
+    "original": "I look forward to seeing what else you\u0027re capable of...\u003Chex:021A020203\u003Eafter\u003Chex:021A020103\u003E you\u0027re properly inducted into the Maelstrom, of course!",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_MANSEA302_00681_STORMPERSONNEL_000_84",
+    "original": "Now, speaking of your induction...",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_MANSEA302_00681_QIB_TODO_001",
+    "original": "Defeat the imperial soldiers!",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_MANSEA302_00681_STORMLT_BATTLETALK_001",
+    "original": "Gut the bastards!",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_MANSEA302_00681_IMPERIALCENTURION_BATTLETALK_001",
+    "original": "Keep them away from the airship!",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_MANSEA302_00681_IMPERIALCENTURION_BATTLETALK_002",
+    "original": "Savages! You cannot stand against the might of the Empire!",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_MANSEA302_00681_IMPERIALCENTURION_BATTLETALK_003",
+    "original": "This has gone on long enough!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_MANSEA302_00681_IMPERIALCENTURION_BATTLETALK_004",
+    "original": "Exterminate these barbarians!\u003Chex:02100103\u003ETeach them the futility of resistance!",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_MANSEA302_00681_STORMLT_BATTLETALK_DEAD",
+    "original": "Thal\u0027s balls... I\u0027m done for.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_MANSEA302_00681_STORMPRIFIRST_BATTLETALK_DEAD",
+    "original": "Retreat! Retreat!",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_MANSEA302_00681_STORMPRIVATE_BATTLETALK_DEAD",
+    "original": "Is that \u003Chex:021A020203\u003Emy\u003Chex:021A020103\u003E blood? Oh, bollocks...",
+    "translation": ""
+  }
+}

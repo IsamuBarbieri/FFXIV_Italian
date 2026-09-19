@@ -1,0 +1,572 @@
+{
+  "0": {
+    "tag": "TEXT_AKTKMA104_04360_SEQ_00",
+    "original": "Alisaie appears in desperate need of a study break.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_AKTKMA104_04360_TODO_00",
+    "original": "Speak with Alisaie.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_AKTKMA104_04360_TODO_01",
+    "original": "Speak with Last Stand customers while accompanied by Alisaie.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_AKTKMA104_04360_TODO_02",
+    "original": "Speak with Dickon while accompanied by Alisaie.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_AKTKMA104_04360_TODO_03",
+    "original": "Place the correct dish on the first customer\u0027s table.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_AKTKMA104_04360_TODO_04",
+    "original": "Place the correct dish on the second customer\u0027s table.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_AKTKMA104_04360_TODO_05",
+    "original": "Place the correct dish on the third customer\u0027s table.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_AKTKMA104_04360_TODO_06",
+    "original": "Speak with Alisaie.",
+    "translation": ""
+  },
+  "31": {
+    "tag": "TEXT_AKTKMA104_04360_TODO_07",
+    "original": "Speak with Alisaie again.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_000",
+    "original": "Ready for a tea break, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E? I know I am.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_001",
+    "original": "Honestly, my neck and shoulders are going to calcify if I don\u0027t stretch my legs and walk around for a bit...",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_002",
+    "original": "You know the Last Stand down in the harbor, don\u0027t you? Come and meet me near the outside tables, and I\u0027ll treat you to their coffee. It\u0027s quite good!",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_010",
+    "original": "As busy as ever, I see. How very Sharlayan that no other gourmet caf\u00E9 has sprung up to compete for customers...",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_011",
+    "original": "Actually, this crowd gives me an idea: before we place an order, why don\u0027t we ask a few questions and gauge the mood of the city?",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_012",
+    "original": "I\u0027m interested to hear what the average citizen has to say about the Telophoroi. We might even learn something new. Worth a try, don\u0027t you think?",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_AKTKMA104_04360_SYSTEM_000_013",
+    "original": "Alisaie is now accompanying you. Keep her at your side in order to proceed with quest objectives.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_AKTKMA104_04360_SYSTEM_000_014",
+    "original": "You can leave Alisaie behind by entering a different area, or by speaking with her and selecting the option to part ways.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_AKTKMA104_04360_SYSTEM_000_015",
+    "original": "If you wish to have Alisaie accompany you again, return and speak with her at the original location.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_AKTKMA104_04360_Q1_000_020",
+    "original": "What will you do?",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_AKTKMA104_04360_A1_000_021",
+    "original": "Talk.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_AKTKMA104_04360_A1_000_022",
+    "original": "Part ways.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_AKTKMA104_04360_A1_000_023",
+    "original": "Nothing.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_025",
+    "original": "Someone here at the caf\u00E9 should be willing to speak with us. Let\u0027s ask around!",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_AKTKMA104_04360_Q2_000_030",
+    "original": "Are you sure you wish to part ways with Alisaie?",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_031",
+    "original": "No rest for a hero, eh? Do what you must. I\u0027ll wait for you at the Last Stand.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_035",
+    "original": "Right. Ready to pick up from where we left off?",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_AKTKMA104_04360_SYSTEM_000_040",
+    "original": "Alisaie has yet to arrive. Be sure she is at your side before attempting to continue.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_AKTKMA104_04360_SYSTEM_000_049",
+    "original": "Alisaie wishes to hear what the citizens have to say. Bring her with you before attempting to engage them in conversation.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_AKTKMA104_04360_HILDOISE_000_050",
+    "original": "Yes? I don\u0027t believe I\u0027ve had the pleasure...?",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_051",
+    "original": "Pray excuse the interruption, but we were hoping you might share your thoughts on the Telophoroi and their unconscionable plans...",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_AKTKMA104_04360_HILDOISE_000_052",
+    "original": "My goodness, if it isn\u0027t the young Miss Leveilleur.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_AKTKMA104_04360_HILDOISE_000_053",
+    "original": "My apologies, but I work in the offices of the Forum, and if word reached Master Fourchenault that I was helping you...",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_054",
+    "original": "I see... We\u0027re sorry to have bothered you.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_AKTKMA104_04360_HILDOISE_000_060",
+    "original": "I do not wish to give offense, but your companion is a well-known figure in the city, and you never know who might be watching...",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_AKTKMA104_04360_PIRONDIERRE_000_065",
+    "original": "What, what\u2500what is it? Can a man not enjoy a moment of private respite? If you\u0027re looking to share a table, then I respectfully request that you look elsewhere.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_066",
+    "original": "You misunderstand, sir\u2500we were simply wondering if you knew of the Telophoroi. These enemies of peace have promised an end to all we hold dear, and\u2500",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_AKTKMA104_04360_PIRONDIERRE_000_067",
+    "original": "Wait. You\u0027re that House Leveilleur girl, aren\u0027t you?",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_AKTKMA104_04360_PIRONDIERRE_000_068",
+    "original": "And this \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E with you is obviously a foreigner. Hmph. I\u0027d heard you were disowned for helping outsiders indulge their barbaric whims, and here you are giving truth to the rumor...",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_AKTKMA104_04360_PIRONDIERRE_000_069",
+    "original": "I\u0027ll thank you to leave me be. I\u0027ve naught to say to the likes of you.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_070",
+    "original": "Well! I must apologize. \u0027Twas foolish of me to expect an onze of civility from one so enlightened. Come, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_AKTKMA104_04360_PIRONDIERRE_000_075",
+    "original": "Did I not make myself clear? Away with you, and let me dine in peace.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_080",
+    "original": "Well, the customers have been decidedly uncooperative. Maybe the staff would be more willing to answer our questions.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_AKTKMA104_04360_DICKON_000_090",
+    "original": "Welcome, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E! What can I offer you today?",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_AKTKMA104_04360_DICKON_000_091",
+    "original": "Wait, is that Mistress Alisaie I see there!? My word, how long has it been!?",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_092",
+    "original": "Far too long...",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_093",
+    "original": "Meet Dickon, the owner of the Last Stand. I used to frequent his caf\u00E9 on occasion, in between lessons at the Studium.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_AKTKMA104_04360_DICKON_000_094",
+    "original": "That seems like an age ago now. I remember hearing that you and Master Alphinaud had set sail for Eorzea, but then you never came back.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_AKTKMA104_04360_DICKON_000_095",
+    "original": "Lately there\u0027s been gossip about your father disowning the pair of you. Everything all right at home?",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_096",
+    "original": "It\u0027s...complicated. And I hadn\u0027t expected complete strangers to be so familiar with our situation quite so quickly. Everyone has an opinion, it seems...",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_AKTKMA104_04360_DICKON_000_097",
+    "original": "Well, it \u003Chex:021A020203\u003Eis\u003Chex:021A020103\u003E House Leveilleur. No matter how discreet Master Fourchenault may have been, news of your family\u0027s doings never stays secret for long.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_AKTKMA104_04360_DICKON_000_098",
+    "original": "Things being what they are, what brings you back to the city now, of all times?",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_099",
+    "original": "We have questions, and only Sharlayan has the answers. Tell me, Master Dickon: have you heard anything about an apocalypse called the Final Days?",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_AKTKMA104_04360_DICKON_000_100",
+    "original": "What, like the end of the world? Nothing like that, I\u0027m afraid. And that\u0027s what you\u0027re here to find? Information on this...apocalypse?",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_101",
+    "original": "Yes, whatever we can learn. Unfortunately, your patrons appear to be unwilling to speak with me.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_AKTKMA104_04360_DICKON_000_102",
+    "original": "I wish there was more I could do to help...",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_AKTKMA104_04360_DICKON_000_103",
+    "original": "Hm, but maybe there is. You\u0027re a visitor to Sharlayan, aren\u0027t you?",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_AKTKMA104_04360_DICKON_000_104",
+    "original": "Then few will know your face. We should be able to pass you off as a server with none the wiser.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_AKTKMA104_04360_DICKON_000_105",
+    "original": "We just finished preparing a few orders. Strike up some friendly conversation while you\u0027re setting down the food, and you might just get the answers you\u0027re looking for.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_106",
+    "original": "Not a bad idea. I hate to ask, but...what do you think?",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_AKTKMA104_04360_DICKON_000_107",
+    "original": "That\u0027s the spirit! Pay attention, now, and I\u0027ll explain where each of these dishes needs to go.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_AKTKMA104_04360_DICKON_000_108",
+    "original": "The tea set is for the chatty group sitting by the water\u0027s edge.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_AKTKMA104_04360_DICKON_000_109",
+    "original": "The omelette is for one of our regulars\u2500a Highlander by the name of Gisla. She\u0027s sitting at an outside table with a friend of hers.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_AKTKMA104_04360_DICKON_000_110",
+    "original": "Behind them, you should see a Miqo\u0027te gentleman. He ordered the oven-baked lobster.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_AKTKMA104_04360_DICKON_000_111",
+    "original": "Got all that? If you\u0027re not sure, just ask and I\u0027ll explain again. Good luck!",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_120",
+    "original": "I think you\u0027ll be better off if I stay here, out of sight. Find out what you can, and there\u0027ll be a hot cup of coffee waiting for you.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_AKTKMA104_04360_DICKON_000_125",
+    "original": "Any troubles? Remember: the tea set goes to the group by the water.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_AKTKMA104_04360_DICKON_000_126",
+    "original": "The omelette is for Gisla, a Highlander woman sitting outside with her friend.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_AKTKMA104_04360_DICKON_000_127",
+    "original": "Last but not least, our famous lobster goes to the Miqo\u0027te man seated directly behind those two ladies.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_AKTKMA104_04360_Q3_000_130",
+    "original": "What will you serve?",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_AKTKMA104_04360_A3_000_131",
+    "original": "The tea set.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_AKTKMA104_04360_A3_000_132",
+    "original": "The omelette.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_AKTKMA104_04360_A3_000_133",
+    "original": "The oven-baked lobster.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_AKTKMA104_04360_A3_000_134",
+    "original": "Cancel.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_AKTKMA104_04360_Q4_000_135",
+    "original": "Clear away the dish?",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_AKTKMA104_04360_HERMENJART_000_136",
+    "original": "Oh, my tea set! Lovely, thank you!",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_AKTKMA104_04360_HERMENJART_000_137",
+    "original": "...The Telopho-who? I\u0027m sorry, I\u0027ve never heard of them, or their \u201Cfinal days.\u201D",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_AKTKMA104_04360_HERMENJART_000_138",
+    "original": "My friends and I are somewhat uninformed when it comes to current events. Now, if you wanted to hear about ritual arcane practices of the Sixth Astral Era\u2500common or esoteric\u2500then I\u0027d be happy to talk your ear off...",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_AKTKMA104_04360_HERMENJART_000_139",
+    "original": "Excuse me, I didn\u0027t order this! Where is my tea set?",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_AKTKMA104_04360_HERMENJART_000_140",
+    "original": "You work here, don\u0027t you? I\u0027m still waiting on that charming little tea set...",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_AKTKMA104_04360_HERMENJART_000_141",
+    "original": "Ahem, I only ordered the \u003Chex:021A020203\u003Etea set\u003Chex:021A020103\u003E. I can\u0027t possibly eat this as well, so if you would be so kind...?",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_AKTKMA104_04360_HERMENJART_000_142",
+    "original": "I always like to order this when I\u0027m discussing arcane theory with my peers. It\u0027s my favorite treat!",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_AKTKMA104_04360_Q5_000_150",
+    "original": "What will you serve?",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_AKTKMA104_04360_A5_000_151",
+    "original": "The omelette.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_AKTKMA104_04360_A5_000_152",
+    "original": "The oven-baked lobster.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_AKTKMA104_04360_A5_000_153",
+    "original": "Cancel.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_AKTKMA104_04360_GISLA_000_154",
+    "original": "Ah, finally! Two, four, six, eight!\u266A\u003Chex:02100103\u003ELet\u0027s dig in\u2500no time to waste\u2500\u266A",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_AKTKMA104_04360_GISLA_000_155",
+    "original": "What? The Telophoroi? Ah, yes! I remember seeing the name in the latest gazette.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_AKTKMA104_04360_GISLA_000_156",
+    "original": "That and some grand claim about the end of days. Same old senseless warmongering. When will these fools grow tired of spilling each other\u0027s blood?",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_AKTKMA104_04360_GISLA_000_157",
+    "original": "Best stay out of it, I say. The Forum made the right choice, and I fully support our decision to remain neutral!",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_AKTKMA104_04360_GISLA_000_158",
+    "original": "Is this on the house? Because I\u0027m not paying for oven-baked lobster I didn\u0027t order. Now, where is my omelette?",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_AKTKMA104_04360_GISLA_000_159",
+    "original": "Gods above, I\u0027m starving! I\u0027ve never known the service to be this slow...",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_AKTKMA104_04360_GISLA_000_160",
+    "original": "I know I didn\u0027t order this, but I\u0027m beginning to wish I had. It smells divine...",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_AKTKMA104_04360_GISLA_000_161",
+    "original": "The Last Stand really does make the best omelettes in the world. The fluffiest egg. The tartest sauce. I could eat it every day for a year!",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_AKTKMA104_04360_Q6_000_170",
+    "original": "What will you serve?",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_AKTKMA104_04360_A6_000_171",
+    "original": "The oven-baked lobster.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_AKTKMA104_04360_A6_000_172",
+    "original": "Urbane banter with a smile.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_AKTKMA104_04360_A6_000_173",
+    "original": "Cancel.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_AKTKMA104_04360_SMITUTIA_000_174",
+    "original": "At last, the oven-baked lobster is mine! You have no idea how long I\u0027ve scrimped and saved and suffered to afford this heavenly dish...",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_AKTKMA104_04360_SMITUTIA_000_175",
+    "original": "The Final Days? This is the first I\u0027ve heard of it.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_AKTKMA104_04360_SMITUTIA_000_176",
+    "original": "Although, that \u003Chex:021A020203\u003Ewould\u003Chex:021A020103\u003E explain why my friend has been rushed off his feet. It must be a busy time to be a gleaner.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_AKTKMA104_04360_SMITUTIA_000_177",
+    "original": "Hm? You don\u0027t know what a gleaner is? They\u0027re...collectors, of a sort. Travel the world procuring things that we haven\u0027t got here in Sharlayan\u2500priceless books, unusual live specimens, and so forth.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_AKTKMA104_04360_SMITUTIA_000_178",
+    "original": "So named for those folk who trail after the reapers in the fields, picking up every grain which was missed. Aye, by all accounts, gleaning is a most meticulous and demanding profession.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_AKTKMA104_04360_SMITUTIA_000_179",
+    "original": "If these Telophoroi make good on their audacious threats, then many uncatalogued rarities could be lost forever. Why else would the gleaners be buzzing about in such a frenzy?",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_AKTKMA104_04360_SMITUTIA_000_180",
+    "original": "Watch the harbor, and you\u0027ll see what I mean\u2500they\u0027re carting loads in from the docks all day. It\u0027s never been this hectic before. Not like this.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_AKTKMA104_04360_SMITUTIA_000_181",
+    "original": "Er, you don\u0027t need to butter me up, you know... I\u0027ve already ordered one of the most expensive things on the menu.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_AKTKMA104_04360_SMITUTIA_000_182",
+    "original": "Gods, the anticipation... I\u0027ve heard it melts in your mouth like the most succulent roast ever made!",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_AKTKMA104_04360_SMITUTIA_000_183",
+    "original": "I\u0027ve wanted to try this meal ever since I saw it served at another table. Ah, the aroma alone was worth every gil I scraped together!",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_AKTKMA104_04360_DICKON_000_190",
+    "original": "I hope you and Mistress Alisaie got what you needed! ...She must be fond of you, eh? I\u0027ve never known her to bring anyone to the caf\u00E9 before.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_200",
+    "original": "Any trouble with the customers? Were you able to get anyone talking?",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_201",
+    "original": "Interesting... They seem unaware of the Final Days, aside from whatever vague news the gazettes are printing.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_202",
+    "original": "Even Dickon had nothing to offer, and he\u0027s the best source of gossip in the city. Hmmm... If the Forum does have secret knowledge, then they\u0027ve done an impressive job of ensuring no one whispers it in the wrong ear.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_203",
+    "original": "In any case, thank you for playing the part so well! Here\u2500that cup of coffee I promised.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_204",
+    "original": "But let\u0027s enjoy our drinks somewhere else, shall we? Maybe behind the peristyle, away from the gossips and their wagging tongues...",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_AKTKMA104_04360_ALISAIE_000_210",
+    "original": "Yes, this should do nicely. Out of the wind, and out of sight.",
+    "translation": ""
+  }
+}

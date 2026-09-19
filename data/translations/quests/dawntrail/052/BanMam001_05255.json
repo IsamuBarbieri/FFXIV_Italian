@@ -1,0 +1,612 @@
+{
+  "0": {
+    "tag": "TEXT_BANMAM001_05255_SEQ_00",
+    "original": "Gotoll Ja fidgets anxiously.\u003Chex:02100103\u003E\u203BThe difficulty of this quest will be synced to your current level.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_BANMAM001_05255_SEQ_01",
+    "original": "Gotoll Ja tells you that a researcher from Sharlayan has just arrived to start planting foreign crops in Mamook. He shifts awkwardly and mutters his worries about proper etiquette, so you agree to accompany him to greet the newcomer.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_BANMAM001_05255_SEQ_02",
+    "original": "The amiable researcher from Sharlayan, Anggir, is happy to be so warmly welcomed, but she seems concerned by the lack of manpower available in Mamook. In walks Ruvoll Ja, a Mamook native who left his homeland for Tuliyollal years ago. The Doppro cheerfully suggests that using wivres will solve their problems and sallies forth to convince his fellows, but Gotoll Ja\u0027s countenance is troubled as he watches the young man depart. Apparently Ruvoll Ja\u0027s affability can overcome his coherence during conversation, so Gotoll Ja bids you help him in his negotiations.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_BANMAM001_05255_SEQ_03",
+    "original": "Indeed, you arrive to find Ruvoll Ja trying to convince a handful of skeptical Doppro to lend their wivres to a cause they don\u0027t fully understand. You may have to fill in the gaps a little before gaining these potential allies.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_BANMAM001_05255_SEQ_04",
+    "original": "Ruvoll Ja watches you convince the wivre handlers with awe, and eagerly presents his next errand of persuasion. Kageel Ja is a najool farmer whom he believes will be of help to the gainery with his knowledge of farming crops in this forest.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_BANMAM001_05255_SEQ_05",
+    "original": "What might have been a disastrous reunion ends in friendly agreement, and Kageel Ja offers to lend his support. Ruvoll Ja is hopeful that all must be in readiness by now, but it may be good to check with Anggir on that point first.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_BANMAM001_05255_SEQ_06",
+    "original": "Anggir bids you bring her materials replete with charcoal so as to balance the acidity of the soil. No stranger to gathering, you venture forth to the Xobr\u0027it Cinderfield for what she requires.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_BANMAM001_05255_SEQ_07",
+    "original": "The wivre handlers see to their charges and Kageel Ja to the fertilizer. Before your eyes the earth is tilled and where once was plain forest now lies a humble gainery. Though modest in scope and barely budding, Gok Golma yet represents the potential Mamook has for change, and with hard work it may indeed become a shining beacon of hope in a forest once oppressed by darkness...",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_BANMAM001_05255_TODO_00",
+    "original": "Speak with Anggir.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_BANMAM001_05255_TODO_01",
+    "original": "Speak with Ruvoll Ja.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_BANMAM001_05255_TODO_02",
+    "original": "Convince the wivre handlers.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_BANMAM001_05255_TODO_03",
+    "original": "Speak with Kageel Ja.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_BANMAM001_05255_TODO_04",
+    "original": "Speak with Anggir.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_BANMAM001_05255_TODO_05",
+    "original": "\u003Chex:0208F20134E4E80511FF6002085CE3E802E803FF324D696E652002310CFF054974656D04E806030203206E6561722074686520586F62722769742043696E6465726669656C64FF2244656C697665722002310CFF054974656D03E80603020320746F20416E6767697203FFCE0208CAE4E80512FF6202085EE3E802E803FF344761746865722002310CFF054974656D04E806030203206E6561722074686520586F62722769742043696E6465726669656C64FF2244656C697665722002310CFF054974656D03E80603020320746F20416E6767697203FF6102085DE4E80513FF55020851E3E802E803FF2743617463682002310CFF054974656D02E80602020320617420497120527261782054736F6C79FF2244656C697665722002310CFF054974656D03E80602020320746F20416E6767697203FF01030303\u003E.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_BANMAM001_05255_GOTOLLJA_000_000",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, nice to see you. Do you have a moment?",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_BANMAM001_05255_GOTOLLJA_000_001",
+    "original": "This may not come as a surprise, since you personally helped negotiate our import of foreign crops, but a researcher has recently arrived from Sharlayan.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_BANMAM001_05255_GOTOLLJA_000_002",
+    "original": "I\u0027ve a mind to go and pay my respects, but...",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_BANMAM001_05255_GOTOLLJA_000_003",
+    "original": "Well, I know little about Sharlayans, and I\u0027m worried I\u0027ll cause offense. Could you come along, if only for my peace of mind?",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_BANMAM001_05255_GOTOLLJA_000_004",
+    "original": "My thanks. Her name is Anggir, and she should be in the southern district of the city.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_BANMAM001_05255_GOTOLLJA_000_010",
+    "original": "This must be her. I\u0027m humbled she\u0027d travel so far for our sakes.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_000_020",
+    "original": "Hello there. May I be of assistance?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_BANMAM001_05255_GOTOLLJA_000_021",
+    "original": "And I\u0027m Gotoll Ja, former mercenary. Now I fashion whatever odds and ends need making.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_BANMAM001_05255_GOTOLLJA_000_022",
+    "original": "The Autarch says you\u0027ve come to oversee the growth of new crops here in Mamook, so we wanted to express our gratitude.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_000_023",
+    "original": "That\u0027s very kind of you. My name is Anggir, and it\u0027s my pleasure to be at your service.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_000_024",
+    "original": "When I first heard my assignment, I was intrigued. A forest dominated by the aetheric influence of meteorites...",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_000_025",
+    "original": "Rest assured, we shall soon have an experimental gainery up and running. New crops will flourish here, this I promise.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_000_027",
+    "original": "Indeed, my chief concern at the moment is not one of potential, but one of manpower. Mamook is rather sparse in population, is it not?",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_BANMAM001_05255_GOTOLLJA_000_028",
+    "original": "Yes, most of our able-bodied workers have left, either to become mercenaries or, er...for other reasons. I myself would be glad to help, but I doubt one extra body will count for much.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_030",
+    "original": "(-???-)You should use wivres! Put to the right use, our wivres can solve about any problem!",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_BANMAM001_05255_GOTOLLJA_000_031",
+    "original": "Ruvoll Ja! How many years has it been? I thought you had moved to Tuliyollal for good!",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_032",
+    "original": "When I heard change was in the air for Mamook, I had to come and see it for myself.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_000_033",
+    "original": "Using wivres sounds like an excellent idea. We could hitch them to plows, have them cart heavy equipment...",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_000_034",
+    "original": "All we need now is someone willing to gather extra materials we require.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_BANMAM001_05255_GOTOLLJA_000_036",
+    "original": "I know a few gatherers, but most are getting on in years. We\u0027ll have to find an adventurous soul if you need anything more than local mushrooms or the odd medicinal herb.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_037",
+    "original": "I handle beasts, not ore and timber. You?",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_BANMAM001_05255_Q1_100_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_BANMAM001_05255_A1_100_001",
+    "original": "I\u0027m an adventurous gatherer\u2500leave it to me!",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_BANMAM001_05255_A1_100_002",
+    "original": "For the right price, I\u0027ll handle just about anything.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_039",
+    "original": "Then it\u0027s settled! You\u0027ll be well compensated, I promise.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_090_039",
+    "original": "I look forward to working with you, friend!",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_100_039",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, Ruvoll Ja, you both have my thanks.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_040",
+    "original": "Think nothing of it! I\u0027ll gather what wivre handlers I can find and explain the situation. I\u0027m sure they\u0027ll be happy to help as well!",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_BANMAM001_05255_GOTOLLJA_000_043",
+    "original": "...\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, would you mind going with Ruvoll Ja? He\u0027s a good lad, but he gets ahead of himself sometimes.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_BANMAM001_05255_GOTOLLJA_000_044",
+    "original": "You\u0027ve more than proven your talent for communication, so if he\u0027s struggling to make his point, lend him a hand, would you?",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_000_050",
+    "original": "I appreciate your cooperation. I\u0027ll be here planning the particulars if you need anything.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_BANMAM001_05255_DOPPROA05255_100_050",
+    "original": "My wivre\u0027s trained for battle. I doubt it\u0027ll be much use on a farm...",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_BANMAM001_05255_DOPPROB05255_110_050",
+    "original": "Remind me why we\u0027re here again?",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_BANMAM001_05255_DOPPROC05255_120_050",
+    "original": "My darling has \u003Chex:021A020203\u003Eneeds\u003Chex:021A020103\u003E! I won\u0027t force him to do work he doesn\u0027t enjoy!",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_060",
+    "original": "As I\u0027ve been saying, wivres are the answer!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_BANMAM001_05255_DOPPROA05255_000_061",
+    "original": "...But ours are specifically trained for combat. How do you reckon they\u0027d help with farming?",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_062",
+    "original": "Oh \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, perfect timing. Tell them one wivre\u0027s worth a least ten men on the field, won\u0027t you?",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_BANMAM001_05255_SYSTEM_000_064",
+    "original": "The wivre handlers stand in awkward silence. Try convincing them on behalf of Ruvoll Ja.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_070",
+    "original": "I\u0027m not wrong, am I?",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_BANMAM001_05255_SYSTEM_000_071",
+    "original": "An awkward silence lingers. Try speaking on behalf of Ruvoll Ja.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_BANMAM001_05255_DOPPROA05255_000_080",
+    "original": "Believe me, we all want new crops here in Mamook. I\u0027m happy to help\u2500I just want to know how a wivre trained for battle could be useful.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_BANMAM001_05255_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_BANMAM001_05255_A1_000_001",
+    "original": "We need wivres to haul equipment.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_BANMAM001_05255_A1_000_002",
+    "original": "We need wivres to pull our plows.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_BANMAM001_05255_DOPPROA05255_000_081",
+    "original": "I see...a wivre with the strength for combat should have no problems with that. Very well, the both of us will be over presently.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_BANMAM001_05255_DOPPROB05255_000_090",
+    "original": "What does he expect our wivres to do, exactly? Hoe with their horns?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_BANMAM001_05255_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_BANMAM001_05255_A2_000_001",
+    "original": "More like pull heavy plows.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_BANMAM001_05255_A2_000_002",
+    "original": "Gotoll Ja will outfit them with farming equipment.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_BANMAM001_05255_DOPPROB05255_000_091",
+    "original": "That...makes far more sense. If that\u0027s what you need done, we can do it.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_BANMAM001_05255_DOPPROB05255_100_091",
+    "original": "Oh, that makes far more sense. I can trust Gotoll Ja\u0027s handiwork, so count me in.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_BANMAM001_05255_DOPPROC05255_000_100",
+    "original": "My precious wivre \u003Chex:021A020203\u003Eonly\u003Chex:021A020103\u003E smashes things. I\u0027d love to be of service, but if my darling can\u0027t smash something to bits, then I\u0027m afraid we\u0027re at an impasse.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_BANMAM001_05255_Q3_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_BANMAM001_05255_A3_000_001",
+    "original": "How about smashing rocks?",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_BANMAM001_05255_A3_000_002",
+    "original": "How about smashing trees?",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_BANMAM001_05255_DOPPROC05255_000_101",
+    "original": "That sounds...well, smashing! Leave it to me and my wivre\u2500we\u0027ll have the garden beds free of obstructions in a blink.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_110",
+    "original": "That was incredible! You convinced them all to help just like that.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_111",
+    "original": "Now, there\u0027s one last person I think we need.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_112",
+    "original": "His name is Kageel Ja and he\u0027s a najool\u2500er, Ja Tiika banana farmer. We can trust his expertise.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_120",
+    "original": "This is Kageel Ja. We\u0027ve been best friends since childhood, but... Well, after I moved to Tuliyollal, we haven\u0027t had much contact.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_BANMAM001_05255_KAGEELJA_000_130",
+    "original": "...You were part of the Third Promise\u0027s retinue, weren\u0027t you? What brings you here now? And with Ruvoll Ja?",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_131",
+    "original": "We just met, actually. A researcher from afar is beginning work on a gainery here, and we\u0027re both lending a hand.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_136",
+    "original": "I was hoping you might help out as well, knowing as much as you do about farming in these forests.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_BANMAM001_05255_KAGEELJA_000_137",
+    "original": "You think I\u0027d aid a traitor who abandoned his homeland for the comforts of Tuliyollal?",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_BANMAM001_05255_KAGEELJA_000_138",
+    "original": "...Pffft, the look on your face! I\u0027m kidding, I\u0027m kidding. Although it\u0027s in great part thanks to this \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E here that such words can be said in jest. Much has changed for Mamook.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_BANMAM001_05255_KAGEELJA_000_139",
+    "original": "If my best friend has finally come home, I\u0027d be a fool to refuse his pleas.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_141",
+    "original": "Joking aside, your words didn\u0027t ring hollow, Kageel Ja. To many, I was a traitor to everything Mamook once stood for. ...A traitor to my friend for never writing.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_100_141",
+    "original": "It broke my heart to leave, but I couldn\u0027t stand the zealotry of blessed siblings... Now that the old teachings have been left in the past, I want to do everything I can for Mamook\u0027s future.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_110_141",
+    "original": "Thank you, Kageel Ja, for your forgiveness. I hope that you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, and I can help find a new way forward.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_143",
+    "original": "All right, hopefully we have enough people to get started! Let\u0027s go and ask Anggir if she needs anything else.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_180",
+    "original": "Gotoll Ja is helping outfit the wivres with carts and plows. They\u0027ll be along afterwards.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_BANMAM001_05255_KAGEELJA_000_181",
+    "original": "I just introduced myself to Anggir. Let me know how I can help.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_000_190",
+    "original": "Thank you for your aid in recruiting the others. With a handful of wivres, our worker shortage is now but a trifle.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_000_191",
+    "original": "The handlers have their orders, but there\u0027s one thing I would yet ask of you.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_000_192",
+    "original": "While fertile, this soil needs some additions to better accommodate the seeds and starters I\u0027ve brought with me.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_000_200",
+    "original": "I think some charcoal should balance out its acidity nicely. Perhaps you could bring some from the Xobr\u0027it Cinderfield?",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_000_210",
+    "original": "I think some charred bark should balance out its acidity nicely. Perhaps you could bring some from the Xobr\u0027it Cinderfield?",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_000_220",
+    "original": "I think a cindershell should balance out its acidity nicely. Perhaps you could bring us one from Iq Rrax Tsoly?",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_000_221",
+    "original": "According to local fishers, golden stonefly nymphs should serve you well as bait.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_100_221",
+    "original": "I\u0027ve attained the proper permissions from Iq Br\u0027aax to gather from the Ut\u0027ohmu Horizon. As long as your work is done respectfully, we have nothing to fear.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_000_230",
+    "original": "We\u0027ll begin setting up a base of operations in the meantime, so let me know once you\u0027ve acquired what we need.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_240",
+    "original": "It\u0027s a relief to have Kageel Ja work with us. He\u0027s been growing najool forever, so he and Anggir should be unstoppable!",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_BANMAM001_05255_KAGEELJA_000_241",
+    "original": "Preparing the land before planting is an incredibly important step. If we have any hope for our new seedlings, we should take pains to do it properly.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_000_250",
+    "original": "Welcome back. I trust you have what I asked for?",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_000_251",
+    "original": "Perfect, just what I had hoped. I\u0027ll have the wivre handlers mix our fertilizer into the soil as they till it.",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_BANMAM001_05255_DOPPROD05255_000_300",
+    "original": "Cart\u0027s secure. We\u0027re ready when you are.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_BANMAM001_05255_KAGEELJA_000_301",
+    "original": "Just about... Yes, this should be ground finely enough to distribute evenly.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_000_302",
+    "original": "Once we\u0027ve tilled the soil for beds, we can begin planting in earnest. Ruvoll Ja, can I count on your continued support?",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_303",
+    "original": "Me? But Kageel Ja\u0027s the one who grows things.",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_000_304",
+    "original": "And \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E have grown our hopes into a viable operation by recruiting the necessary allies. Charisma like yours is essential for this gainery\u0027s success.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_306",
+    "original": "All right, I\u0027ll do what I can. On my pride as a Mamool Ja\u2500for Mamook!",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_307",
+    "original": "Your assistance would be invaluable, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, if you can spare the time.",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_309",
+    "original": "After all these years, my homestead is about to realize true progress. I would love to have you with us as we build a brighter future for my people.",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_BANMAM001_05255_Q5_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_BANMAM001_05255_A5_000_001",
+    "original": "I\u0027ll help. On my pride as an adventurer\u2500for Mamook!",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_BANMAM001_05255_A5_000_002",
+    "original": "When you put it that way, I can\u0027t really say no.",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_320",
+    "original": "Thank you. I\u0027m in your debt!",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_330",
+    "original": "I know I\u0027m asking a lot of you. I\u0027m truly grateful.",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_000_340",
+    "original": "It\u0027s heartening to have you with us.",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_BANMAM001_05255_KAGEELJA_000_341",
+    "original": "Sorry for the wait. The wivres are ready.",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_342",
+    "original": "Thanks, Kageel Ja. Let\u0027s get started!",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_BANMAM001_05255_RUVOLLJA_000_400",
+    "original": "This gainery will give Mamook another chance. I can just feel it.",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_000_401",
+    "original": "I can feel it too. Let\u0027s show the world what these lands can grow.",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_BANMAM001_05255_ANGGIR_000_402",
+    "original": "Together, by our own hands.",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_BANMAM001_05255_SYSTEM_000_403",
+    "original": "From hopes yet to fully blossom, Mamook has established a gainery! Help the Mamool Ja come to love the land that supports them by aiding the farmers of Gok Golma.",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_BANMAM001_05255_SYSTEM_000_450",
+    "original": "You have achieved \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EFriendly\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E reputation with the farmers of Gok Golma.",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_BANMAM001_05255_SYSTEM_000_451",
+    "original": "Mamool Ja society quests are now available from Kageel Ja in Gok Golma.",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_BANMAM001_05255_SYSTEM_000_452",
+    "original": "Furthermore, you may now purchase wares from Veerul Ja.",
+    "translation": ""
+  }
+}

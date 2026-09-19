@@ -1,0 +1,572 @@
+{
+  "0": {
+    "tag": "TEXT_CHRHDB721_03020_SEQ_00",
+    "original": "You have no one but yourself or the kami to blame for what comes if you talk to Nashu Mhakaracca.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_CHRHDB721_03020_SEQ_01",
+    "original": "Not content to remain idle, Nashu Mhakaracca has been aggressively pursuing any and all leads regarding the Kugane Wolf Burglar. From the various eyewitness accounts, she has managed to create a composite sketch of the infamous thief...though whether or not it will prove useful remains to be seen. In any event, you both decide it may be worthwhile to make renewed inquiries of Kugane\u0027s wealthy and powerful.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_CHRHDB721_03020_SEQ_02",
+    "original": "The burglar\u0027s reputation has only grown since last you spoke with the citizenry, and it is plain that he is growing bolder and bolder by the day. Despite this, the Sekiseigumi still has no leads\u2500and neither do you...",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_CHRHDB721_03020_SEQ_03",
+    "original": "While conversing with Nashu you run into Shigure once more\u2500or rather, Shigure runs into a certain cheese-loving Lalafell, who quickly flees before Nashu can take notice. It would seem that he too is still in pursuit of the Wolf Burglar, and informs you of an impending private auction he is bound for that he suspects may be the thief\u0027s next target. Nashu quickly insists that you join, and so the three of you head towards Kogane Dori.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_CHRHDB721_03020_SEQ_04",
+    "original": "The auction is an intimate affair, attended by a handful of Kugane\u0027s most wealthy individuals\u2500Master Akebono among them. He purchases the first item up for bid, which is described by the auctioneer as a legendary \u201Cratman,\u201D but which you and Nashu recognize at once to be an Eorzean Qiqirn. After the hapless beastman is shuffled away, the next item up for bid is brought on stage: \u003Chex:021A020203\u003EThe Eoruzean Gentleman\u003Chex:021A020103\u003E, which the auctioneer claims to be a triumph of Western sculpture, but which is plainly Inspector Hildibrand, somehow frozen in time. Once more Master Akebono is prepared to take on all comers, but before the sale can be finalized, the auction erupts into chaos when a bomb explodes and fills the area with smoke. When it clears, \u003Chex:021A020203\u003EThe Eoruzean Gentleman\u003Chex:021A020103\u003E is nowhere to be seen. An all-too-familiar note reveals that the Wolf Burglar has struck again, and Master Akebono urges you to give chase, for he glimpsed the thief running towards the Short Pier.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_CHRHDB721_03020_SEQ_05",
+    "original": "Fortunately, the Wolf Burglar\u0027s brazen crime has attracted more attention than usual. \u0027Tis a rare thing indeed, a Lupin carrying a hideous statue on his back, and the captain Shigure questions at the pier will not soon forget the sight. Apparently the thief boarded a boat and set forth for the Ruby Price, and so the chase continues.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_CHRHDB721_03020_SEQ_06",
+    "original": "Alas, with the recent liberation of Doma and the withdrawal of Garlean forces, the Ruby Price has seen increased traffic, and the watchmen there have been instructed to give departing vessels only a cursory glance if they are especially small. But surely someone else in the Ruby Sea will have noted the Wolf Burglar\u0027s skiff?",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_CHRHDB721_03020_TODO_00",
+    "original": "Question the wealthy and powerful of Kugane.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_CHRHDB721_03020_TODO_01",
+    "original": "Speak with Nashu.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_CHRHDB721_03020_TODO_02",
+    "original": "Speak with Shigure.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_CHRHDB721_03020_TODO_03",
+    "original": "Search for Shigure.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_CHRHDB721_03020_TODO_04",
+    "original": "Accompany Shigure to the Ruby Sea.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_000",
+    "original": "Well, well, well! If it isn\u0027t \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, looking bright-eyed and bushy-tailed! Have I got news for you!",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_001",
+    "original": "So I\u0027ve been asking after that Wolf Burglar fellow\u2500the one that left that cheeky note claiming credit, you remember? And it seems he\u0027s not quite as sneaky as he thinks he is!",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_002",
+    "original": "Oh, he\u0027s robbed plenty of rich merchants blind, I\u0027ll grant you that. No doubting it was him either\u2500never fails to leave a calling card, this one. Too proud to leave people wondering for even a moment.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_003",
+    "original": "But folks\u0027ve laid eyes on him more than a few times! In fact, after talking to all the eyewitnesses, I had enough information to try and sketch a picture of the devil himself!",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_100_003",
+    "original": "Not bad for a self-trained artiste, wouldn\u0027t you say?",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_CHRHDB721_03020_Q1_000_004",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_CHRHDB721_03020_A1_000_005",
+    "original": "Maybe leave the art to the professional artistes.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_CHRHDB721_03020_A2_000_006",
+    "original": "Don\u0027t see how this helps us, honestly.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_CHRHDB721_03020_A3_000_007",
+    "original": "...",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_008",
+    "original": "Hmm... Not hearing a lot of support for the sketch. Right, then. Back to the drawing board\u2500the metaphorical one, that is.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_009",
+    "original": "Let\u0027s you and me seek out and question the rich and famous\u2500the sort of folks the burglar\u0027s been targeting\u2500and see if we can\u0027t learn something new.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_010",
+    "original": "I\u0027ll head to Kogane Dori, and you can check out the teahouse and the hostelry.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_015",
+    "original": "What\u0027s a wealthy merchant in the Far East look like anyway? Hmm...something like Lord Godbert, but more...Hingan, maybe?",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_CHRHDB721_03020_CITIZEN03020_000_020",
+    "original": "I say! The Kugane Wolf Burglar? Must you sully my ears with that rapscallion\u0027s name as I attempt to take a moment to relax and take in the fresh air? Bah, it\u0027s no use\u2500the moment is ruined!",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_CHRHDB721_03020_CITIZEN03020_000_021",
+    "original": "I too fell victim to the wolf\u0027s villainy, like so many others. Oh, if you had seen the vase before he took it... Gah! If there was any justice in this world, he would be paraded through the streets and boiled alive in Tenkonto!",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_CHRHDB721_03020_BYAKUDAN_000_022",
+    "original": "Ah, that infamous thief? I know of him. For a mercy, he has not seen fit to trouble those of lesser means like me and my associates.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_CHRHDB721_03020_BYAKUDAN_000_023",
+    "original": "Perhaps you thought me wealthy because I patronize the teahouse? On the contrary, this is my sole indulgence. Were I a stronger man, I would forgo it, but alas...the heart will not be denied.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_CHRHDB721_03020_URAKI_000_024",
+    "original": "Too long it has been since I shared a pipe with an ijin! How fortunate I\u2500 Hm? You\u0027ve no desire for a smoke, only talk of the Wolf Burglar? I see...",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_CHRHDB721_03020_URAKI_000_025",
+    "original": "I have no personal experience on which to draw, so I doubt I can be of much assistance. What I know is known to all. But if you insist... He is a \u201Clone wolf\u201D without comrades, and despite their best efforts, the Sekiseigumi has no leads.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_CHRHDB721_03020_URAKI_000_026",
+    "original": "Some say this has emboldened the man. Each theft is more brazen than the last. He has even been witnessed practicing his trade in broad daylight, if you can believe it...",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_CHRHDB721_03020_URAKI_000_027",
+    "original": "That is the extent of my knowledge. Now, if you will not favor me with tales of your own, I ask that you leave me to my pipe. It is far less demanding company.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_CHRHDB721_03020_CITIZEN03020_000_030",
+    "original": "\u003Chex:021A020203\u003ESome\u003Chex:021A020103\u003E people say that cruel and unusual punishments don\u0027t deter the criminal element in the slightest. If you ask me, \u003Chex:021A020203\u003Esome\u003Chex:021A020103\u003E have no appreciation for a public boiling.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_CHRHDB721_03020_BYAKUDAN_000_031",
+    "original": "As I told you before, I doubt I need fear a visit from the Wolf Burglar. Despite appearances, my fortune is quite modest.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_CHRHDB721_03020_URAKI_000_032",
+    "original": "He is a \u201Clone wolf,\u201D this burglar, and quite brazen in his recent thefts. I can tell you no more of value, even if you were to accept my invitation to share a pipe.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_040",
+    "original": "Ah, here you are! Dig up any interesting tidbits?",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_041",
+    "original": "So he\u0027s getting bolder by the day, is he? Well! If there\u0027s anything I\u0027ve learned from following the inspector around, it\u0027s that overconfidence is liable to get you smacked upside the head by your mum and her magic frying pan!",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_042",
+    "original": "That said, we\u0027d have a better chance of catching this wolf if we knew who he was eyeing next...",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_CHRHDB721_03020_OKKAKE_000_043",
+    "original": "(-???-)Gah!",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_CHRHDB721_03020_SHIGURE_000_044",
+    "original": "A thousand pardons, young sir! I did not mean to trample you underfoot. Are you all right?",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_045",
+    "original": "Hey, aren\u0027t you the samurai I bumped into the other day? Shiggy-something, was it?",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_CHRHDB721_03020_SHIGURE_000_046",
+    "original": "Oh! We meet again, my lady! I say, you must think me in the habit of trampling my fellow pedestrians. Let me assure you nothing could be further from the truth. I was simply preoccupied with thoughts of my investigation...",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_047",
+    "original": "That\u0027s right\u2500you were after the Wolf Burglar too! Got any leads?",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_CHRHDB721_03020_SHIGURE_000_048",
+    "original": "As a matter of fact, I do! I but recently learned of a private auction in which many foreign wares are to be featured.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_CHRHDB721_03020_SHIGURE_000_049",
+    "original": "While such auctions are not uncommon in Kugane, it has been some time since the wolf last struck, and there are rumors that this auction may include \u201Cparticularly extraordinary\u201D items...",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_CHRHDB721_03020_SHIGURE_000_050",
+    "original": "Much as I would love to converse with you at great length, I really must be going. Until we meet again!",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_051",
+    "original": "Wait, Mister Shiggy, sir! Can we come too?",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_CHRHDB721_03020_SHIGURE_000_052",
+    "original": "To the auction? If you like, but I very much doubt you will be able to afford any of the items to be sold...",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_053",
+    "original": "Oh, don\u0027t you worry about that! \u003Chex:022C0DFF07022903EB0203FF02200203\u003E here\u0027s got enough money to buy and sell you a thousand times over!",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_CHRHDB721_03020_SHIGURE_000_054",
+    "original": "Er... Yes, very good! Then by all means, come with me!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_CHRHDB721_03020_SHIGURE_000_060",
+    "original": "This venue has been reserved for the private auction. The guests should be arriving any moment now...",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_061",
+    "original": "I remember you! Master Akebono, was it?",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_CHRHDB721_03020_AKEBONO_000_062",
+    "original": "Well, if it isn\u0027t the inspectors! I did not know you would be joining us.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_CHRHDB721_03020_AKEBONO_000_063",
+    "original": "I presume you are come to keep watch for the wolf, but should you see anything you like, know that we have money changers on hand to assist those who wish to spend foreign currency.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_CHRHDB721_03020_AKEBONO_100_063",
+    "original": "I must warn you, however, that should we desire the same item, I am not wont to surrender without a fight!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_CHRHDB721_03020_TRADER03020_000_065",
+    "original": "Greetings and welcome to you, the prosperous and esteemed elite! This \u003Chex:020835E3E90C0DFF17020813E3E90C05FF086576656E696E67FF0464617903FF17020813E3E90C12FF04646179FF086576656E696E670303\u003E you will be given a rare opportunity to view\u2500and purchase, if so inclined\u2500a selection of strange and wondrous items from all across the world!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_CHRHDB721_03020_TRADER03020_000_066",
+    "original": "Without further ado, I give you our first\u2500a queer, misshapen fiend captured in the mountainous wilds of Yanxia!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_CHRHDB721_03020_TRADER03020_000_067",
+    "original": "Aye, it is none other than the fabled ratman! An unholy union of man and beast! A demon of legend whose flesh, when consumed, bestows life everlasting!",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_CHRHDB721_03020_TRADER03020_000_068",
+    "original": "Eternal life can be yours, ladies and gentlemen! So\u2500shall we start the bidding at five hundred thousand koban!?",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_CHRHDB721_03020_RICHA03020_000_069",
+    "original": "Six hundred!",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_CHRHDB721_03020_RICHB03020_000_070",
+    "original": "Seven hundred!",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_CHRHDB721_03020_AKEBONO_000_071",
+    "original": "Eight hundred thousand koban!",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_CHRHDB721_03020_TRADER03020_000_072",
+    "original": "Eight hundred thousand koban! Going once...going twice...",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_CHRHDB721_03020_TRADER03020_000_073",
+    "original": "Sold! To Master Akebono! Let us proceed to the next item up for bidding...",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_074",
+    "original": "He\u0027s not really gonna eat him, is he...?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_CHRHDB721_03020_TRADER03020_000_075",
+    "original": "The statue you are about to see was brought to Kugane from the West\u2500the land of \u201CEoruzea,\u201D to be precise. But let me tell you, ladies and gentlemen: \u201Cstatue\u201D does not even begin to describe this extraordinary work of art...",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_CHRHDB721_03020_TRADER03020_000_076",
+    "original": "I give you \u003Chex:021A020203\u003EThe Eoruzean Gentleman\u003Chex:021A020103\u003E! A masterpiece\u2500nay, a triumph of Western sculpture! Marvel at the intricate details, the features so expertly realized that some have likened it to a living, breathing man, frozen in time...",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_077",
+    "original": "Well, would you look at that! That statue\u0027s the spitting image of Inspector Hildibrand. Could it have been sculpted by...a fan?",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_CHRHDB721_03020_SHIGURE_000_078",
+    "original": "Hm? Was it a trick of the light, or did that statue just twitch...",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_079",
+    "original": "You mean to say...you think it might actually be the inspector, somehow frozen by temporal magicks!? In that case, I\u0027ve got just the thing to bring him back to the land of the moving!",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_CHRHDB721_03020_SHIGURE_000_080",
+    "original": "Stay your bomb-filled hand, my lady, I beg of you, lest you slaughter these poor people and bring this marketplace to ruin!",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_081",
+    "original": "...I suppose you have a point. And it wouldn\u0027t be very inspector-like to blow innocents to kingdom come.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_CHRHDB721_03020_SHIGURE_000_082",
+    "original": "How readily she resorts to violence, this woman... I shudder to think what carnage she has left in her wake...",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_083",
+    "original": "Oho, I knew it! That\u0027s no statue\u2500it\u0027s the genuine article, in the flesh! Probably hit his head when he fell from the sky again. Or maybe he\u0027s gone into hibernation again or something?",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_CHRHDB721_03020_TRADER03020_000_084",
+    "original": "This bizarre sculpture is in truth a man? Is such a thing even possible?",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_CHRHDB721_03020_AKEBONO_000_085",
+    "original": "Strange...I do not recall it wearing an expression of sheer terror before...",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_CHRHDB721_03020_RICHA03020_000_086",
+    "original": "It was rather more serene, was it not...?",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_CHRHDB721_03020_TRADER03020_000_087",
+    "original": "H-How very perceptive of you! Verily, this is no ordinary statue\u2500it is a...a heretofore unseen hybrid of sculpture and automaton! Marvel at the way its features change, fluidly and effortlessly!",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_CHRHDB721_03020_TRADER03020_000_088",
+    "original": "...Yeees, indeed! So\u2500shall we start the bidding for this one-of-a-kind statue at five hundred thousand koban!?",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_CHRHDB721_03020_RICHB03020_000_089",
+    "original": "Six hundred!",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_CHRHDB721_03020_RICHA03020_000_090",
+    "original": "Seven!",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_CHRHDB721_03020_AKEBONO_000_091",
+    "original": "Eight hundred thousand koban, to be paid in full here and now!",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_CHRHDB721_03020_TRADER03020_000_092",
+    "original": "Once more, Master Akebono will not be denied! Will any challenge his claim to \u003Chex:021A020203\u003EThe Eoruzean Gentleman\u003Chex:021A020103\u003E!?",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_093",
+    "original": "We\u0027ve got to do something, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! If we don\u0027t, these people are going to buy the inspector!",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_CHRHDB721_03020_Q1_000_094",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_CHRHDB721_03020_A1_000_095",
+    "original": "I bid nine hundred thousand koban!",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_CHRHDB721_03020_A1_000_096",
+    "original": "Good riddance.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_CHRHDB721_03020_AKEBONO_000_097",
+    "original": "Bwahaha! There is nothing in this world I cannot buy!",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_CHRHDB721_03020_AKEBONO_000_098",
+    "original": "One miiillion koooban!",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_CHRHDB721_03020_TRADER03020_000_099",
+    "original": "\u003Ccough\u003E \u003Ccough\u003E What is the meaning of this!?",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_CHRHDB721_03020_TRADER03020_000_100",
+    "original": "By the kami! \u003Chex:021A020203\u003EThe Eoruzean Gentleman\u003Chex:021A020103\u003E has vanished!",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_CHRHDB721_03020_SYSTEM_000_101",
+    "original": "(-Cheeky Note-)\u0022You have just been robbed by the Kugane Wolf Burglar!\u201C",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_CHRHDB721_03020_SHIGURE_000_102",
+    "original": "That thrice-damned oni! He\u0027s struck again!",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_CHRHDB721_03020_AKEBONO_000_103",
+    "original": "\u003Ccough\u003E \u003Cwheeze\u003E I...I saw him! The fiend with wolfish features! He took the statue and ran towards the Short Pier!",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_104",
+    "original": "Do you know what this means!? Inspector Hildibrand has been stolen\u2500err, kidnapped!",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_100_104",
+    "original": "We\u0027ve got to get after that Wolf Burglar! For all we know he might want to eat him like that poor Qiqirn, and we can\u0027t have that!",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_108",
+    "original": "I still can\u0027t believe Inspector Hildibrand was stolen! That\u0027s got to be a first!",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_CHRHDB721_03020_KUGANEFERRYMAN_000_109",
+    "original": "Yes, yes. As I said, that is what I saw...",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_CHRHDB721_03020_SHIGURE_000_120",
+    "original": "Oh\u2500you followed me, I presume? Of a mind to pursue the Wolf Burglar as well?",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_121",
+    "original": "Of course we are! He\u0027s got Inspector Hildibrand, and I\u0027ll be damned if I\u0027m going to let some two-gil thief eat him!",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_CHRHDB721_03020_SHIGURE_000_122",
+    "original": "Er...are you perchance referring to \u003Chex:021A020203\u003EThe Eoruzean Gentleman\u003Chex:021A020103\u003E, that hideous statue? I daresay no one in their right mind would try to eat it...but nonsensical fears notwithstanding, I should be honored to work with you to catch the Wolf Burglar.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_CHRHDB721_03020_SHIGURE_000_123",
+    "original": "This man here claims he saw him board a boat with the statue and head towards the Ruby Price.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_CHRHDB721_03020_KUGANEFERRYMAN_000_124",
+    "original": "\u0027Twas a sight I will not soon forget. Never before have I seen a Lupin carrying a twisted mockery of a man on his back. Never again will I, I expect.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_CHRHDB721_03020_SHIGURE_000_125",
+    "original": "Too bold was the fiend this day! In seeking to claim such a conspicuous prize in broad daylight, he has left a trail we can follow!",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_CHRHDB721_03020_SHIGURE_000_126",
+    "original": "Come\u2500let us make haste to the Ruby Price!",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_CHRHDB721_03020_NASHUMHAKARACCA_000_128",
+    "original": "That there tower just keeps on going and going and going...",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_CHRHDB721_03020_KUGANEFERRYMAN_000_129",
+    "original": "So that thing the Lupin stole was a statue? And people were willing to pay hundreds of thousands of koban for it? I say, some people have more money than they have good sense...",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_CHRHDB721_03020_SHIGURE_000_130",
+    "original": "Surely one of the watchmen here will have seen the wolfman and his stolen statue...",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_CHRHDB721_03020_HAYAMA_000_131",
+    "original": "...Alas, I cannot say I have seen such a thing.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_CHRHDB721_03020_HAYAMA_000_132",
+    "original": "Since the withdrawal of Garlean forces from Doma and the Ruby Sea, there has been a significant increase in domestic traffic. Accordingly, we have been instructed to waive through smaller vessels leaving our waters, absent cause.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_CHRHDB721_03020_HAYAMA_000_133",
+    "original": "This Lupin you seek probably received no more than a cursory glance...",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_CHRHDB721_03020_SHIGURE_000_134",
+    "original": "I see. Thank you for taking the time to explain, and pray forgive me the interruption. We shall continue our search elsewhere.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_CHRHDB721_03020_SHIGURE_000_135",
+    "original": "The question is, where else should we search? Who else has reason to keep a close watch on these waters...?",
+    "translation": ""
+  }
+}

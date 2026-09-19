@@ -1,0 +1,687 @@
+{
+  "0": {
+    "tag": "TEXT_FESANV701_04091_SEQ_00",
+    "original": "Kipih Jakkya is looking around in consternation.\u003Chex:02100103\u003E\u203BThis quest is available for a limited time only.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_FESANV701_04091_SEQ_01",
+    "original": "Kipih Jakkya, reporter for Gridanian tabloid \u003Chex:021A020203\u003EThe Raven\u003Chex:021A020103\u003E, shares with you the details of her latest potential scoop. It would seem she is hot on the trail of some mysterious figure responsible for buying up a suspicious quantity of Nymeia lilies, but needs someone familiar with Ul\u0027dah to assist in her investigations. Perhaps the notables of the Quicksand can aid in your inquiries.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_FESANV701_04091_SEQ_02",
+    "original": "Mistress Momodi herself fields your questions, the description you provide reminding her of a request made by the infamous \u201Cwandering minstrel\u201D involving the transport of a sizable cargo to the Alchemists\u0027 Guild. Although conceding the similarities may be mere coincidence, you nevertheless decide to pay a visit to Guildmaster Severian.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_FESANV701_04091_SEQ_03",
+    "original": "The self-absorbed Severian almost dismisses you out of hand, but at the last moment recalls a task to process a vast quantity of floral material. His brief flicker of interest in the subject soon extinguished, the guildmaster directs you to speak with the guild\u0027s steadfast receptionist, Deitrich, for the details.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_FESANV701_04091_SEQ_04",
+    "original": "Without revealing the nature of the finished product, Deitrich explains that the fruits of their labor are to be distributed amongst the populace over the course of the Rising. If Kipih would learn more, it seems there is no recourse left but to accost the minstrel himself. It is time to return to the Quicksand.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_FESANV701_04091_SEQ_05",
+    "original": "After digesting the information you brought back from the Alchemists\u0027 Guild, Kipih agrees that an \u201Con the spot\u201D interview is in order. According to the Quicksand\u0027s clientele, the minstrel should be preparing to put on a performance in the vicinity of the Ruby Road Exchange.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_FESANV701_04091_SEQ_06",
+    "original": "The wandering minstrel welcomes your questions, relieved to hear that his surprise was not inadvertently spoiled. On the contrary, rather than turn you away, the nomadic musician insists that you participate in his plan to distribute bundles of custom-made potpourri to the masses. Kipih suggests that the two of you return to the Quicksand, whence news of your aromatic offerings should reach a wide and varied audience.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_FESANV701_04091_SEQ_07",
+    "original": "You finish handing out your bundles of calming potpourri, warmed by the knowledge that your efforts will help soothe hearts yet suffering from the violence of the Calamity. Return to the wandering minstrel at the Ruby Road Exchange and report the completion of your task.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_FESANV701_04091_SEQ_08",
+    "original": "You locate the itinerant bard, and Kipih is moved to share her own memories of the Calamity. The exchange inspires the minstrel, who composes a verse dedicated to the continued safe passage of those who yet ascend the path out of catastrophe and despair. Without warning, you are transported beyond the boundaries of time and space, to meet and speak with the enigmatic Naoki Yoshida. Upon your return to \u201Creality,\u201D the minstrel favors you with yet another composition, compounding his wishes that you\u2500indeed, all who seek to survive in this world\u2500are afforded the smoothest road possible for the journey still to come.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_FESANV701_04091_TODO_00",
+    "original": "Speak with Momodi at the Quicksand.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_FESANV701_04091_TODO_01",
+    "original": "Speak with Severian at the Alchemists\u0027 Guild.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_FESANV701_04091_TODO_02",
+    "original": "Speak with Deitrich.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_FESANV701_04091_TODO_03",
+    "original": "Return to Kipih Jakkya at the Quicksand.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_FESANV701_04091_TODO_04",
+    "original": "Speak with the wandering minstrel at the Ruby Road Exchange.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_FESANV701_04091_TODO_05",
+    "original": "Speak with Kipih Jakkya at the Quicksand.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_FESANV701_04091_TODO_06",
+    "original": "Speak with the wandering minstrel at the Ruby Road Exchange.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_001",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E!? What an astonishing coincidence!",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_002",
+    "original": "...What do you mean, who am I? I\u0027m Kipih Jakkya, reporter for \u003Chex:021A020203\u003EThe Raven\u003Chex:021A020103\u003E! You helped me investigate that \u201Cvisitor from another world,\u201D remember!?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_003",
+    "original": "Anyway, this is perfect\u2500I could use your assistance with another story. Assuming you have the time, that is?",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_004",
+    "original": "Oh, you\u0027re an adventurer, are you? Was there something I can assist you with...?",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_005",
+    "original": "...Now that I think about it, perhaps it is \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E who can assist \u003Chex:021A020203\u003Eme\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_006",
+    "original": "I am Kipih Jakkya, reporter for Gridania\u0027s leading tabloid, \u003Chex:021A020203\u003EThe Raven\u003Chex:021A020103\u003E! Might I steal a moment of your time?",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_007",
+    "original": "So, here\u0027s the thing. Just recently, an unusual visitor cut through Gridania\u0027s markets like a scythe, in a frenzy to purchase every Nymeia lily available. And I mean all of them!",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_008",
+    "original": "For what purpose, I hear you ask? Well, my friend, I sense the answer to that question will provide the basis for my next scoop, so I did some nosing around.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_009",
+    "original": "No one I talked to could put a name to our mysterious flower fancier, but by all accounts, he and his cargo hold of lilies had departed for Ul\u0027dah. Not wanting the trail to grow cold, I quickly grabbed my quill and notepad, and boarded an airship myself...",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_010",
+    "original": "...And was quickly reminded of how hard it is to chase a story in unfamiliar territory. You know this town and its people well enough though, don\u0027t you? What say you to lending a hand to my investigative efforts?",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_FESANV701_04091_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_FESANV701_04091_A1_000_001",
+    "original": "I\u0027d be happy to!",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_FESANV701_04091_A1_000_002",
+    "original": "I suppose if you need a guide...",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_011",
+    "original": "Wonderful! Then we\u0027ve no time to lose.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_012",
+    "original": "First things first, we pay a visit to the nearest drinking establishment. The local tavern is always the best place to pick up tidbits of gossip and rumor!",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_013",
+    "original": "If I recall correctly, the proprietress here serves the Adventurers\u0027 Guild in the same capacity as our Mother Miounne does in Gridania. For one so petite, she certainly exudes a commanding presence.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_FESANV701_04091_MOMODI_000_020",
+    "original": "My, my, those are some serious faces. What can I do for you this fine \u003Chex:02083FE3E90C0DFF1B020817E3E90C05FF086576656E696E27FF086D6F726E696E2703FF1D020819E3E90C12FF0A61667465726E6F6F6EFF086576656E696E270303\u003E?",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_FESANV701_04091_MOMODI_000_021",
+    "original": "Oooh, playin\u0027 reporter, are we? Sounds like fun. Let\u0027s hear your questions, then.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_022",
+    "original": "Ahem. We are attempting to track down a particular someone who purchased a suspiciously large number of Nymeia lilies in Gridania before transporting them here to Ul\u0027dah. Any idea of who this person might be?",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_FESANV701_04091_MOMODI_000_023",
+    "original": "Hmmm. We\u0027ve more than our fair share of traders comin\u0027 and goin\u0027, and a large shipment arrivin\u0027 in the city is hardly a noteworthy occurrence.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_FESANV701_04091_MOMODI_000_024",
+    "original": "But now that you mention it... I do remember this florid minstrel fellow who came in just the other day. Said he\u0027d pulled in from Gridania, and needed help haulin\u0027 a hefty delivery to the Alchemists\u0027 Guild.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_FESANV701_04091_MOMODI_000_025",
+    "original": "He\u0027s actually a familiar face in these parts. Never did get his name, though, strangely enough...",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_026",
+    "original": "...A nameless traveler arriving from Gridania with a sizable cargo to move. That sounds promising!",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_FESANV701_04091_MOMODI_000_027",
+    "original": "Like I said, it was just a request to move cargo.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_FESANV701_04091_MOMODI_000_028",
+    "original": "Before you run off to a possible dead end with the alchemists, I suggest you fish for more information inside the Quicksand. After all, where else can you find so many gossipy adventurers crammed into one spot?",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_029",
+    "original": "That certainly makes sense. Between the two of us, however, I see no reason why we cannot do both!",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_030",
+    "original": "I shall stay here and interview the clientele, while you chase down our other lead at the Alchemists\u0027 Guild. What do you think?",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_031",
+    "original": "Then that will be our plan! Once you\u0027ve spoken with the potion mixers, make your way back here and we can discuss any new revelations.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_032",
+    "original": "Asking the right questions is a reporter\u0027s most vital skill. I\u0027ll soon have these adventurers spilling the stories we need to hear!",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_FESANV701_04091_MOMODI_000_033",
+    "original": "It might be as you already know this, but Severian, the alchemists\u0027 guildmaster, can be an...uncooperative sort. Probably best that you\u0027re the one who\u0027s goin\u0027 to talk with him.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_FESANV701_04091_SEVERIAN_000_040",
+    "original": "Ah, my loyal assistant! What brings you to the guild at this hour? ...Hah! As if I paid attention to the mundane concerns of \u201Ctimekeeping.\u201D Have you some stimulating morsel of esoteric wisdom to share?",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_FESANV701_04091_SEVERIAN_000_041",
+    "original": "You brought questions? ...For a tabloid piece!? Think you that I, a thrall to academic exertion, have even a moment to spare on such trivialities!?",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_FESANV701_04091_SEVERIAN_000_042",
+    "original": "So boldly do you approach a master of his profession. I warn you: this matter best be deserving of the precious moments you steal away from my unending research.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_FESANV701_04091_SEVERIAN_000_043",
+    "original": "You question me for a \u003Chex:021A020203\u003Etabloid\u003Chex:021A020103\u003E piece!? Away with you! I refuse to waste another instant on this trivial nonsense!",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_FESANV701_04091_SEVERIAN_000_044",
+    "original": "Ah, but just a moment... Perhaps there is a shred of scholarly value to this after all. I vaguely recall the flamboyant character of whom you speak, and his request to process a vast quantity of floral material...",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_FESANV701_04091_SEVERIAN_000_045",
+    "original": "\u0027Tis laughable that I would undertake such a menial chore, of course, so I assigned the task to my subordinates. If you wish to discuss the tedious details, Deitrich is your man.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_FESANV701_04091_SEVERIAN_000_046",
+    "original": "Go and bother Deitrich, now. Persist with your pestering, and I shall enlist you as a test subject for experimental elixirs.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_FESANV701_04091_DEITRICH_000_047",
+    "original": "Why, I should be delighted to assist you. This is regarding that large delivery of Nymeia lilies...?",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_FESANV701_04091_DEITRICH_000_048",
+    "original": "Yes, the guild did accept a task involving said flowers, as commissioned by a nomadic minstrel gentleman.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_FESANV701_04091_DEITRICH_000_049",
+    "original": "And though I cannot reveal the nature of what we produced, I can tell you that it shall be distributed amongst the populace as part of the events of the Rising. If you wish to know more, then might I suggest you speak to the gentleman himself?",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_FESANV701_04091_SEVERIAN_000_050",
+    "original": "The minstrel\u0027s request was not daunting for its complexity, merely for its sheer volume. And we could not rely on\u2500or indeed, even expect\u2500the briefest assistance from Master Severian...",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_FESANV701_04091_MOMODI_000_060",
+    "original": "Master Severian was his usual prickly self, then? In a way, it\u0027s reassurin\u0027\u2500like all is right with the world.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_061",
+    "original": "Adventurer, you\u0027re back! Did the alchemists offer up any new information?",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_062",
+    "original": "So to summarize: this famously unnamed minstrel of nomadic inclination commissioned the manufacture of some as-yet-unknown item to be handed out during the Rising...",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_063",
+    "original": "Oh, I heartily agree that we should speak with him directly. And as luck may have it, I\u0027ve just discovered that he means to put on a performance at the Ruby Road Exchange.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_064",
+    "original": "I think it\u0027s time for one of my patented \u201Con the spot\u201D interviews, don\u0027t you?",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_065",
+    "original": "If we hurry over, we can catch him before he takes the stage.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_070",
+    "original": "That colorful fellow there must be our minstrel...",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_071",
+    "original": "Greetings, sir! I\u0027m terribly sorry to interrupt, but you \u003Chex:021A020203\u003Eare\u003Chex:021A020103\u003E the famous \u201Cwandering minstrel,\u201D are you not?",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_072",
+    "original": "I am indeed. And what might I do for you fine people?",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_073",
+    "original": "I am indeed...",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_074",
+    "original": "And look whom you\u0027ve brought to see me! Was there aught I might do for you fine people?",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_075",
+    "original": "I\u0027ve been following you, to be perfectly honest. I am curious to learn more about the wagonload of lilies you turned over to the alchemists...not to mention your plans to distribute the results of their work.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_076",
+    "original": "You followed me!? But how did y\u2500? I mean, why would you...?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_077",
+    "original": "Ah, a writer for \u003Chex:021A020203\u003EThe Raven\u003Chex:021A020103\u003E... That explains much. And did you also learn what I tasked the alchemists to create? Is the coeurl out of the bag for all to smell?",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_078",
+    "original": "No, I... We were hoping you might tell us.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_079",
+    "original": "Good, then my surprise remains unspoiled. The plan, if you must know, is to hand out bundles of potpourri to all and sundry during the Rising.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_080",
+    "original": "As in...flowers mixed with spices? That aromatic stuff you see in bowls on parlor tables and the like?",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_081",
+    "original": "The very same. Except \u003Chex:021A020203\u003Emy\u003Chex:021A020103\u003E potpourri will delight the eyes as much as the nose, thanks to the alchemical wizardry infused by my co-conspirators.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_082",
+    "original": "Yet even without such enhancements, the scent of Nymeia lilies is known to promote calm and tranquility.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_083",
+    "original": "The Rising is a time of remembrance. Of mourning. It is a time when sorrow can overwhelm folk who lost friends and loved ones in the Seventh Umbral Calamity.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_084",
+    "original": "It is my hope that the lily\u0027s gentle perfume will afford such burdened souls a modicum of peace during this ofttimes melancholy memorial.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_085",
+    "original": "Oh my... What a genuinely lovely idea!",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_086",
+    "original": "Only just this moment we were making arrangements for a, ahem, \u201Cshowcase\u201D of my humble talents, where I shall hand out potpourri bundles to the audience.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_087",
+    "original": "Again, I am glad we met ere you inadvertently spread word of our little surprise gift. ...I trust you now have sufficient detail to write your article?",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_088",
+    "original": "Oh, yes! I have plenty to work with, thank you!",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_089",
+    "original": "Splendid. Now, since you\u0027ve joined the inner circle, so to speak, we must have you play a role in the performance.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_090",
+    "original": "Hah, you needn\u0027t fret so\u2500I merely wish for your assistance in passing out potpourri. I can supply the crowd at the show, but it would be most helpful if you might deliver bundles to some other part of town.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_091",
+    "original": "Oh, we would be happy to! And it could only help me flesh out the story!",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_092",
+    "original": "Let\u0027s head back to the Quicksand, adventurer. If we hand out bundles there, then we can be sure to cover folk from every corner of the city!",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_093",
+    "original": "We were low on helping hands to tell the truth, so this has worked out for the best. Please, come and meet me at the Ruby Road Exchange once you\u0027ve finished with your task.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_094",
+    "original": "Ah, the hour of my performance draws near. Many times have I taken the stage in my life, yet that thrill of anticipatory terror never fails to run through me.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_FESANV701_04091_MOMODI_000_095",
+    "original": "...Potpourri? Aye, hand out as much as you like\u2500anythin\u0027 to overpower the scent of sweat-stained adventurer!",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_096",
+    "original": "Let\u0027s get to work, shall we?",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_FESANV701_04091_MIMIO_000_100",
+    "original": "(-???-)What is it you are giving out there, adventurer?",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_FESANV701_04091_MIMIO_000_101",
+    "original": "Ah, I know this scent... Nymeia lily, yes?",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_FESANV701_04091_MIMIO_000_102",
+    "original": "The flower is often placed on the graves of the fallen, a practice with which I am, alas, intimately familiar. Why choose this particular bloom?",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_FESANV701_04091_MIMIO_000_103",
+    "original": "I see. Perhaps the perfume does remind one of the peace of repose, rather than the violence which took our companions from us. It would seem the minstrel has given the matter some thought.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_FESANV701_04091_MIMIO_000_104",
+    "original": "For Carteneau veterans such as myself, the season of the Rising can be a torment...like the throbbing pain of an old wound. I will keep this bundle close, I think, and breathe in its calm whenever I feel my thoughts turning grim.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_FESANV701_04091_MOMODI_000_105",
+    "original": "Keepin\u0027 busy there, ain\u0027t you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E? I know it\u0027s for the Risin\u0027 and all, but it tickles me to see a hero of your stature handin\u0027 out presents like a simple errand \u003Chex:02080EE905FF056769726CFF04626F7903\u003E.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_FESANV701_04091_MOMODI_000_106",
+    "original": "Keepin\u0027 busy there, ain\u0027t you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E? I know it\u0027s for the Risin\u0027 and all, but it tickles me to see a promisin\u0027 adventurer such as yourself handin\u0027 out presents like a simple errand \u003Chex:02080EE905FF056769726CFF04626F7903\u003E.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_FESANV701_04091_MOMODI_000_107",
+    "original": "I mean, ever since the first time we met, you\u0027ve always been the type to lend aid where it\u0027s needed.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_FESANV701_04091_MOMODI_000_108",
+    "original": "And you haven\u0027t changed one bit. Makes me happy, it does...not to mention a little misty-eyed.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_FESANV701_04091_MOMODI_000_109",
+    "original": "The good you\u0027ve done for folk will linger on\u2500an unshakable foundation for your future. Keep goin\u0027 the way you\u0027re goin\u0027, my friend, and we\u0027ll all be the better for it.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_FESANV701_04091_MOMODI_000_110",
+    "original": "Here, why don\u0027t you let me have whatever bundles you\u0027ve got left and I\u0027ll put them together with the ones I took from your reporter friend. If we leave a basketful out on the guild counter, I guarantee they\u0027ll hand themselves out before the Risin\u0027 is over.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_100_110",
+    "original": "Mistress Momodi took a goodly amount off my hands, but I think we\u0027ve done our fair share of the work. We should go and see the minstrel, and let him know we\u0027ve completed our task!",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_111",
+    "original": "I wonder if that potpourri also loosens tongues... It seems everyone who took a bundle had a Rising tale to tell, be it a short remembrance or a lingering stroll down memory lane.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_FESANV701_04091_MOMODI_000_112",
+    "original": "That potpourri of yours is fairly flyin\u0027 off the counter. I don\u0027t know if it\u0027s just the scent or what, but it\u0027s proven popular with the patrons.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_FESANV701_04091_MIMIO_000_113",
+    "original": "Seems everything I see at this time of year reminds me of fallen friends. But with your gift on hand to salve my senses, the memories will be bittersweet...as opposed to simply bitter.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_120",
+    "original": "The reporter and her most-qualified assistant return. The performance went well, I must say, but what of your story research? Were the townsfolk willing to share any moving material?",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_121",
+    "original": "Yes, they were unexpectedly forthcoming. I was regaled with many an anecdote from those who lived through the Calamity, and privileged to hear their treasured memories of those who did not.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_122",
+    "original": "Back when the Calamity was poised to strike, I had only just earned my reporter\u0027s quill. I was rushing around town, questioning adventurers and taking notes...",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_123",
+    "original": "But as Dalamud descended ever lower, the streets erupted into chaos. It was then that I fled with my younger brother to the border and relative safety. There were a few less-prudent friends and colleagues who might still be here if they had done the same.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_124",
+    "original": "In the years since, the world has risen from the ashes. I\u0027ve done my best to rise along with it, but there are things I cannot\u2500nay, should not\u2500forget. Such are the thoughts which blossom in my mind when I breathe in that potpourri\u0027s perfume.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_126",
+    "original": "I\u0027ve enjoyed our collaboration this day, adventurer, and I shall attempt to write a piece that does it justice. What say you to \u201CRising Calm\u201D as a title?",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_127",
+    "original": "How fitting. I look forward to reading it.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_128",
+    "original": "I, too, sense the stirring of a new composition. A hopeful verse, dedicated to the continued safe passage of those who yet ascend the path out of catastrophe and despair...",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_FESANV701_04091_YOSHIDANAOKI_100_129",
+    "original": "(-???-)Greetings, Warrior of Light.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_FESANV701_04091_YOSHIDANAOKI_100_130",
+    "original": "(-???-)You needn\u0027t be alarmed.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_FESANV701_04091_YOSHIDANAOKI_100_131",
+    "original": "(-???-)This is a world that exists outside your reality. Could it be a dream? A flight of fancy conjured by your weary mind? Perhaps...or perhaps not.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_FESANV701_04091_YOSHIDANAOKI_000_132",
+    "original": "It is a pleasure to make your acquaintance. My name is Naoki Yoshida, and you have my most heartfelt thanks for gracing this world with your presence, and your deeds of surpassing courage and valor.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_FESANV701_04091_YOSHIDANAOKI_000_133",
+    "original": "What a pleasure it is to welcome you here again, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. And what a privilege that your chosen trail should run alongside mine for so long.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_FESANV701_04091_YOSHIDANAOKI_000_134",
+    "original": "On a day such as today, I hope you will forgive me a brief bout of nostalgia.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_FESANV701_04091_YOSHIDANAOKI_000_135",
+    "original": "It has been an entire decade since I first came to this world. I was a stranger here, a traveler in a troubled land, and the quest for its salvation consumed my every moment.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_FESANV701_04091_YOSHIDANAOKI_000_136",
+    "original": "Countless trials were met and overcome, and the world not only survived\u2500it flourished. This victory we owe to those who persevered alongside us; to those who explored and nurtured and loved this realm as much as we.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_FESANV701_04091_YOSHIDANAOKI_000_137",
+    "original": "...Yes, it is you of whom I speak. Of our indomitable adventurers.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_FESANV701_04091_YOSHIDANAOKI_000_138",
+    "original": "Ten years is a long time, yes, but for me the number holds no special significance. It is simply a count of the passage of days.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_FESANV701_04091_YOSHIDANAOKI_000_139",
+    "original": "Success, however, would not have come without that accumulation of daily effort, and that is what makes it a milestone worth marking. Thank you for staying the course with us these many years.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_FESANV701_04091_YOSHIDANAOKI_000_140",
+    "original": "I will keep making plans for this world for the foreseeable future. It has become a part of my life, and to see it grow is an adventure in itself...",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_FESANV701_04091_YOSHIDANAOKI_000_141",
+    "original": "Rest well, Warrior of Light, for a grand convergence of events approaches. May the road upon which you must embark become the greatest of all journeys.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_FESANV701_04091_YOSHIDANAOKI_000_142",
+    "original": "...Until we meet again, my friend.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_143",
+    "original": "What a moving rendition...",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_FESANV701_04091_KIPIHJAKKYA_000_144",
+    "original": "And now I really must head home to write that article. You have my gratitude, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u2500I would still be floundering in the street without your assistance. Until we meet again!",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_145",
+    "original": "A great many lives were lost in the flames of the Calamity, not to mention the chaos which followed. Yet it is the survivors who must face the challenges of living in this new era we have salvaged. To you, the champion in the vanguard of our efforts, I dedicate these verses...",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_146",
+    "original": "Scarred by the falling of fiery stars, the land is reborn with new life.\u266A\u003Chex:02100103\u003EGod-slayer struck by an echoing roar, heavens ring with the promise of strife.\u266A",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_147",
+    "original": "Beast and man, both, seek freedom or death in bloody inferno untamed.\u266A\u003Chex:02100103\u003EBy unbroken hopes, from a sky long undimmed shall the darkness of eld be reclaimed.\u266A",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_148",
+    "original": "A merciless gale, an unending road, if this be the path we are fated,\u266A\u003Chex:02100103\u003EThen pray be our dawn in the rift betwixt worlds, your soul\u0027s splendid light unabated.\u266A",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_149",
+    "original": "I really must apologize for pressing you into service for my potpourri scheme. I tend to consider adventurers as fellow wanderers, and call upon the assistance of your kind with little reservation.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_150",
+    "original": "...As for the gifts themselves, there was another reason as to why I chose the Nymeia lily. Traditionally, the bloom is said to represent a prayer for safe passage.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_FESANV701_04091_WANDERINGMINSTREL_000_151",
+    "original": "The way ahead yet promises more hardship, and I wanted, at the very least, to wish you\u2500all of you\u2500the smoothest road for the coming journey.",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_FESANV701_04091_SYSTEM_000_152",
+    "original": "You have unlocked the jigsaw puzzle mini-game. To play mini-games, open the toy chest found in any inn room.",
+    "translation": ""
+  }
+}

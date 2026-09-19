@@ -1,0 +1,407 @@
+{
+  "0": {
+    "tag": "TEXT_MANFST302_00680_SEQ_00",
+    "original": "The Twin Adder recruitment officer seems eager to welcome you to Gridania\u0027s Grand Company.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_MANFST302_00680_SEQ_01",
+    "original": "You have confirmed your intention to join the ranks of the Order of the Twin Adder. Visit the Adders\u0027 Nest in Gridania, and speak with the personnel officer to be formally inducted into the Grand Company.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_MANFST302_00680_SEQ_02",
+    "original": "Your formal induction into the Order of the Twin Adder is interrupted by an urgent report concerning an imperial attack on a Highwind Skyways airship. Head to the area southeast of Nine Ivies and determine the fate of the crippled vessel and its crew.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_MANFST302_00680_SEQ_03",
+    "original": "You have defeated the imperial soldiers intent on requisitioning the downed airship. You learn that the vessel\u0027s crew, Biggs and Wedge, are engineers from Garlond Ironworks, and that Master Garlond himself has been missing since the Calamity. Return to the Adders\u0027 Nest and report to the personnel officer.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_MANFST302_00680_SEQ_04",
+    "original": "Back at the Adders\u0027 Nest, the personnel officer praises your efforts, and reassures you that the two engineers you encountered were able to continue on their way. He then expresses his eagerness to complete your induction into the ranks of the Order of the Twin Adder. Speak with him once more when you are ready to attend to the formalities.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_MANFST302_00680_TODO_00",
+    "original": "Speak with the personnel officer at the Adders\u0027 Nest.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_MANFST302_00680_TODO_01",
+    "original": "Head southeast of Nine Ivies and determine the fate of the airship and its crew.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_MANFST302_00680_TODO_02",
+    "original": "Speak with the personnel officer at the Adders\u0027 Nest.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_MANFST302_00680_SERPENTOFFICER_000_1",
+    "original": "Ah, I take it the Elder Seedseer\u0027s words have touched your heart. Have you resolved to entwine your destiny with that of the Twin Adder?",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_MANFST302_00680_Q1_000_1",
+    "original": "Join the Order of the Twin Adder?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_MANFST302_00680_A1_000_1",
+    "original": "Yes",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_MANFST302_00680_A1_000_2",
+    "original": "No",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_MANFST302_00680_SERPENTOFFICER_000_2",
+    "original": "You have chosen wisely, my friend! The Elder Seedseer will be overjoyed!",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_MANFST302_00680_SERPENTOFFICER_000_3",
+    "original": "Without further ado, let us speak of practical matters. In order to complete the enrollment procedure, you must report to \u003Chex:020977E947FF306F75722068656164717561727465727320696E2047726964616E6961E294807468652041646465727327204E657374FF117468652041646465727327204E657374FF306F75722068656164717561727465727320696E2047726964616E6961E294807468652041646465727327204E65737403\u003E.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_MANFST302_00680_SERPENTOFFICER_000_4",
+    "original": "\u003Chex:0209F0F3E947FF57546865206275696C64696E6720796F75207365656B207374616E647320696E2074686520736F75746865726E2070617274206F662074686520636974792C206E6F772063616C6C6564204E65772047726964616E6961FF4049206461726573617920796F75206B6E6F772069742077656C6C2066726F6D20796F75722077616E646572696E677320696E204E65772047726964616E6961FF57546865206275696C64696E6720796F75207365656B207374616E647320696E2074686520736F75746865726E2070617274206F662074686520636974792C206E6F772063616C6C6564204E65772047726964616E696103\u003E. Give your name to the personnel officer there, and he will guide you through the formalities.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_MANFST302_00680_SERPENTOFFICER_000_5",
+    "original": "I have no doubt but that your deeds will bring great honor to our order. When next we meet in Gridania, I shall be proud to call you \u003Chex:020814E905FF07736973746572FF0862726F7468657203\u003E!",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_MANFST302_00680_SERPENTOFFICER_000_6",
+    "original": "Ah...forgive me. In my eagerness to embrace you as a \u003Chex:020814E905FF07736973746572FF0862726F7468657203\u003E, I mistook your intention.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_MANFST302_00680_SERPENTOFFICER_000_10",
+    "original": "I shall send word to the Adders\u0027 Nest so that our people know to expect you. Give your name to the personnel officer, and he will guide you through the formalities.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_MANFST302_00680_FLAMEOFFICER_000_11",
+    "original": "What\u0027s this!? You mean to take up with the \u003Chex:021A020203\u003EAdders\u003Chex:021A020103\u003E!? B-But...did the awe-inspiring figure of General Raubahn not stir you? He \u003Chex:021A020203\u003Ecan\u003Chex:021A020103\u003E seem a trifle intimidating...but I\u0027m sure you\u0027d warm to him, given time.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_MANFST302_00680_STORMOFFICER_000_12",
+    "original": "If your mind is made up, then there is no help for it. Yet know that like the tide, men\u0027s hearts are apt to change. If and when yours does, you may be certain of a warm welcome from us.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_MANFST302_00680_SERPENTPERSONNEL_000_20",
+    "original": "You are come to the Adders\u0027 Nest, headquarters of the Order of the Twin Adder. Ever do we welcome they who would toil in the elementals\u0027 name for the good of our forest nation.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_MANFST302_00680_Q2_000_1",
+    "original": "How will you respond?",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_MANFST302_00680_A2_000_1",
+    "original": "My name is \u003Chex:022903EB0203\u003E. I believe you are expecting me.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_MANFST302_00680_A2_000_2",
+    "original": "I am here to enlist, if you will have me.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_MANFST302_00680_SERPENTPERSONNEL_000_21",
+    "original": "Ah, the great adventurer \u003Chex:020815E905FF0868657273656C66FF0868696D73656C6603\u003E! Yes, our recruitment officer sent word that you were on your way. It is a pleasure and an honor both to welcome you to our ranks, friend.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_MANFST302_00680_SERPENTPERSONNEL_100_21",
+    "original": "Ah! Might you be \u003Chex:022903EB0203\u003E? I thought as much! Our recruitment officer sent word that you would be coming. It is a pleasure and an honor both to welcome you to our ranks.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_MANFST302_00680_SERPENTPERSONNEL_000_22",
+    "original": "Now, let me gather together the relevant documentation...",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_MANFST302_00680_SERPENT_000_23",
+    "original": "Sir!",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_MANFST302_00680_SERPENTPERSONNEL_000_24",
+    "original": "What is it? Report.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_MANFST302_00680_SERPENT_000_25",
+    "original": "An urgent message from Amarissaix\u0027s Spire, sir! A Highwind Skyways airship has taken fire from imperial forces in the skies over the East Shroud!",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_MANFST302_00680_SERPENT_000_26",
+    "original": "The vessel\u0027s engines were crippled, sir, and it was forced to make an emergency landing southeast of Nine Ivies.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_MANFST302_00680_SERPENTPERSONNEL_000_27",
+    "original": "Nine Ivies? Gods, this could not have come at a worse time. All but a handful of our forces are presently afield, dealing with the Ixal.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_MANFST302_00680_SERPENTPERSONNEL_000_28",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u2500I know full well you have yet to be formally inducted into our ranks, but we have urgent need of your aid.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_MANFST302_00680_SERPENTPERSONNEL_000_29",
+    "original": "In all likelihood, the airship was bearing civilians, and if the reports are accurate, it will have come down dangerously close to Garlean-occupied territory.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_MANFST302_00680_SERPENTPERSONNEL_000_30",
+    "original": "Please make all haste to the area southeast of Nine Ivies, locate the airship, and ascertain the status of the passengers.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_MANFST302_00680_SERPENTPERSONNEL_000_40",
+    "original": "We think the airship reportedly came down somewhere to the southeast of Nine Ivies. Go there without delay and ascertain the status of the passengers.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_MANFST302_00680_Q3_000_1",
+    "original": "Duty calls. Do you wish to proceed with\u003Chex:02100103\u003E\u201CThe Company You Keep (Twin Adder)\u201D?",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_MANFST302_00680_A3_000_1",
+    "original": "Yes",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_MANFST302_00680_A3_000_2",
+    "original": "No",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_MANFST302_00680_BIGGS_000_40",
+    "original": "(-Airship Crewman-)An adventurer!? What\u0027re you doing out here? No, wait\u2500let\u0027s find some cover first...",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_MANFST302_00680_BIGGS_000_41",
+    "original": "(-Airship Crewman-)The Adders\u0027 Nest sent you? How do I know you\u0027re not an imperial spy? You don\u0027t even have a uniform!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_MANFST302_00680_SERPENTLIEUTENANT_000_42",
+    "original": "Peace, friend\u2500we mean you no harm. You are an engineer of Garlond Ironworks, are you not? We were alerted to your plight, and have come to rescue you.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_MANFST302_00680_SERPENTLIEUTENANT_000_43",
+    "original": "And you are \u003Chex:022903EB0203\u003E, I presume. I was told to expect an \u201Chonorary\u201D Serpent. My thanks for your aid, friend.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_MANFST302_00680_IMPERIALSOLDIER_000_44",
+    "original": "I\u0027ve never seen a craft of this design... It must be Garlond\u0027s work. Is there no end to the man\u0027s treachery?",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_MANFST302_00680_IMPERIALSOLDIER_000_45",
+    "original": "The secrets of magitek belong in imperial hands. They are not to be squandered on Eorzean savages!",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_MANFST302_00680_IMPERIALSOLDIER_000_46",
+    "original": "We are taking this craft back to the fortress! Dismantle it if you must! And bring the engineer! Someone must pay for Garlond\u0027s crimes.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_MANFST302_00680_SERPENTLIEUTENANT_000_47",
+    "original": "Imperial scouts from Castrum Oriens. They mean to requisition the ship.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_MANFST302_00680_BIGGS_000_48",
+    "original": "(-Airship Crewman-)Wedge! You have to help him! That fool of a Lalafell was hiding \u003Chex:021A020203\u003Einside\u003Chex:021A020103\u003E the \u003Chex:021A020203\u003ETiny Bronco\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_MANFST302_00680_SERPENTLIEUTENANT_000_49",
+    "original": "The \u003Chex:021A020203\u003ETiny Bronco\u003Chex:021A020103\u003E? But isn\u0027t that the Ironworks\u0027 latest creation!?",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_MANFST302_00680_BIGGS_000_50",
+    "original": "(-Airship Crewman-)It\u0027s the first airship we\u0027ve built since the Calamity\u2500the first since Master Garlond...well, since he went missing.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_MANFST302_00680_BIGGS_000_51",
+    "original": "(-Airship Crewman-)After years of work, she was finally ready for her first test flight. And she was \u003Chex:021A020203\u003Esoaring\u003Chex:021A020103\u003E, she really was\u2500till those bastards blasted her out of the sky!",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_MANFST302_00680_SERPENTLIEUTENANT_000_52",
+    "original": "Attend me, all: the Ironworks\u0027 latest creation must not fall into Garlean hands. We shall strike them, swift and sure, and rescue Engineer Wedge.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_MANFST302_00680_SERPENTLIEUTENANT_000_53",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, I trust we can rely on your support.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_MANFST302_00680_SERPENTLIEUTENANT_000_54",
+    "original": "May the Matron watch over us! With me!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_MANFST302_00680_IMPERIALSOLDIER_000_55",
+    "original": "An ambush! To arms!",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_MANFST302_00680_WEDGE_000_60",
+    "original": "Biggs!",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_MANFST302_00680_BIGGS_000_61",
+    "original": "Wedge! You shouldn\u0027t have stayed with the ship!",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_MANFST302_00680_WEDGE_000_62",
+    "original": "Th-That was a close one!",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_MANFST302_00680_BIGGS_000_63",
+    "original": "Too damn close. So...how\u0027s she look, anyway?",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_MANFST302_00680_WEDGE_000_64",
+    "original": "The auxiliary propeller is a dead loss, but I think we can wring enough thrust from the main propeller to get us airborne.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_MANFST302_00680_BIGGS_000_65",
+    "original": "A few minor modifications and we should be able to fly the \u003Chex:021A020203\u003ETiny Bronco\u003Chex:021A020103\u003E home.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_MANFST302_00680_SERPENTLIEUTENANT_000_66",
+    "original": "While you do your work, we shall keep watch over the perimeter. The enemy may yet be lurking nearby. ",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_MANFST302_00680_SERPENTLIEUTENANT_000_67",
+    "original": "As for you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, you have more than done your part today. I bid you return to the Adders\u0027 Nest and complete your enlistment.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_MANFST302_00680_SERPENTLIEUTENANT_000_68",
+    "original": "I pray there will be no further interruptions. When next we meet, let it be as fellow Serpents of the Order!",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_MANFST302_00680_BIGGS_000_69",
+    "original": "I, um...just wanted to say sorry...you know, for calling you an imperial spy and all that... Got \u003Chex:021A020203\u003Ethat\u003Chex:021A020103\u003E one wrong, didn\u0027t I!? Ha ha! Seriously, though\u2500if it hadn\u0027t been for you and the Twin Adder lads there, we\u0027d be chained up in a dungeon by now. I\u0027m in your debt, friend\u2500we both are.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_MANFST302_00680_BIGGS_000_70",
+    "original": "Wedge!",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_MANFST302_00680_WEDGE_000_71",
+    "original": "Thank you! We\u0027re very grateful!",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_MANFST302_00680_SERPENTPERSONNEL_000_80",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E! It does my spirit well to see you returned!",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_MANFST302_00680_SERPENTPERSONNEL_000_81",
+    "original": "Word arrived but moments ago from the team at Nine Ivies. Lest you worry, the two engineers are safely on their way.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_MANFST302_00680_SERPENTPERSONNEL_000_82",
+    "original": "The lieutenant informs me that you were instrumental in the mission\u0027s success. Had you not found Engineer Biggs when you did, and helped us to rout the Garleans, things might have been very different.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_MANFST302_00680_SERPENTPERSONNEL_000_83",
+    "original": "And all this before you were even inducted into the Order! You are well on your way to carving out a fine career for yourself beneath the Twin Adder standard.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_MANFST302_00680_SERPENTPERSONNEL_000_84",
+    "original": "But without further ado, let us see to your induction. Twelve willing, there won\u0027t be any further interruptions.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_MANFST302_00680_QIB_TODO_001",
+    "original": "Defeat the imperial soldiers!",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_MANFST302_00680_QIB_SERPENTLT_BATTLETALK_001",
+    "original": "Leave none standing!",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_MANFST302_00680_QIB_IMPERIALCENTURION_BATTLETALK_001",
+    "original": "Keep them away from the airship!",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_MANFST302_00680_QIB_IMPERIALCENTURION_BATTLETALK_002",
+    "original": "Savages! You cannot stand against the might of the Empire!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_MANFST302_00680_QIB_IMPERIALCENTURION_BATTLETALK_003",
+    "original": "This has gone on long enough!",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_MANFST302_00680_QIB_IMPERIALCENTURION_BATTLETALK_004",
+    "original": "Annihilate these barbarians!\u003Chex:02100103\u003ETeach them the futility of resistance!",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_MANFST302_00680_QIB_SERPENTLT_BATTLETALK_DEAD",
+    "original": "The elementals take them...",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_MANFST302_00680_QIB_SERPENTPRIFIRST_BATTLETALK_DEAD",
+    "original": "Th-They\u0027re...too strong...",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_MANFST302_00680_QIB_SERPENTPRIVATE_BATTLETALK_DEAD",
+    "original": "Avenge...me...",
+    "translation": ""
+  }
+}

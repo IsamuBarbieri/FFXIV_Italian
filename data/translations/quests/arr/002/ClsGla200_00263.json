@@ -1,0 +1,492 @@
+{
+  "0": {
+    "tag": "TEXT_CLSGLA200_00263_SEQ_00",
+    "original": "First Sword Mylla has an urgent task for you.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_CLSGLA200_00263_SEQ_01",
+    "original": "One of your guildmates has been attacked by an unknown assailant and requires immediate assistance. Mylla bids you search for him at the Coffer \u0026 Coffin in central Thanalan and offer whatever assistance you can.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_CLSGLA200_00263_SEQ_02",
+    "original": "Though the potion is enough to save your comrade\u0027s life, it will take some time for him to make a full recovery. In the meantime, he asks you to find and speak with any witnesses in the vicinity, as well as search the point of ambush so that you can identify the assailant.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_CLSGLA200_00263_SEQ_03",
+    "original": "Your search yields a potential sighting, as well as a strange ring engraved with the likeness of a scorpion. Present your findings to the injured gladiator.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_CLSGLA200_00263_SEQ_04",
+    "original": "Believing the ring to be an important clue, the gladiator suggests that you show it to Wymond, an independent businessman known to possess knowledge on a wide variety of subjects. Speak with Wymond on the Steps of Nald in Ul\u0027dah.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_CLSGLA200_00263_SEQ_05",
+    "original": "Wymond informs you that the ring is worn by members of the Alacran, a notorious criminal organization. Return to the Gladiators\u0027 Guild and tell Mylla everything you have learned.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_CLSGLA200_00263_SEQ_06",
+    "original": "Moments after you return to make your report, Aldis once again bursts into the guild, much to Mylla\u0027s chagrin. He admits that he is the target of the bounty hunters, and urges the guildmaster to leave the Alacran to him. However, Mylla refuses to heed his counsel and declares that the Gladiators\u0027 Guild will confront the bandits at the Silver Bazaar. Make your preparations for the coming battle and rendezvous with Mylla in western Thanalan.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_CLSGLA200_00263_SEQ_07",
+    "original": "After repelling the attackers, you and your comrades are confronted by more members of the Alacran, who are led by a man armed with a blade resembling Aldis\u0027s. While the encounter did not result in bloodshed, it has left Mylla shaken to the core. Return to the Gladiators\u0027 Guild and see if she is all right.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_CLSGLA200_00263_SEQ_08",
+    "original": "At the guild, Aldis explains that Leavold, his former Coliseum partner, has taken control of the Alacran and transformed them from a gang of common thieves into the most feared criminal organization in Thanalan. However, Mylla insists that the Leavold she once knew would never do such terrible things. As you witness the exchange between the two of them, you cannot help but wonder what terrible twist of fate tore the three friends apart seven long years ago.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe next gladiator quest will be available from Mylla upon reaching level 25.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_CLSGLA200_00263_TODO_00",
+    "original": "Aid the injured gladiator at the Coffer \u0026 Coffin in central Thanalan.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_CLSGLA200_00263_TODO_01",
+    "original": "Find and speak with any witnesses.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_CLSGLA200_00263_TODO_02",
+    "original": "Search the point of ambush for evidence.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_CLSGLA200_00263_TODO_03",
+    "original": "Speak with the injured gladiator.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_CLSGLA200_00263_TODO_04",
+    "original": "Show the scorpion ring to Wymond in Ul\u0027dah.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_CLSGLA200_00263_TODO_05",
+    "original": "Report to Mylla.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_CLSGLA200_00263_TODO_06",
+    "original": "Rendezvous with Mylla at the Silver Bazaar in western Thanalan.",
+    "translation": ""
+  },
+  "31": {
+    "tag": "TEXT_CLSGLA200_00263_TODO_07",
+    "original": "Speak with Mylla at the Gladiators\u0027 Guild.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_1",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, I\u0027m glad you\u0027re here! One of our members has been attacked and gravely wounded, and I need you to go and help him.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_2",
+    "original": "I suspect this is the work of more bounty hunters. It may even be a trap to lure more of us into the open. Nevertheless, we cannot ignore our comrade\u0027s plight.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_3",
+    "original": "When last he contacted us by linkpearl, he said he\u0027d try to seek shelter at the Coffer \u0026 Coffin. Take this potion and search for him there.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_CLSGLA200_00263_GUILDMEMBER_000_20",
+    "original": "Help...help me... I can\u0027t feel my...",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_CLSGLA200_00263_GUILDMEMBER_000_21",
+    "original": "Thank you, \u003Chex:020814E905FF07736973746572FF0862726F7468657203\u003E. It all happened so fast...over by the tracks to the north. I don\u0027t know who attacked me, nor why they left me alive, but I daresay the answer is out there. Surely, someone saw something.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_CLSGLA200_00263_GUILDMEMBER_000_28",
+    "original": "I don\u0027t remember anything myself, but I\u0027m sure someone nearby saw something. Could you speak with the local residents and see what they know? The place I was attacked might also be worth a look.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_CLSGLA200_00263_NPC_000_40",
+    "original": "Suspicious characters? Well, now that you mention it, I did see a strange fellow wearing a garish purple robe. At first, I thought he was talking to himself, but then I realized he had a linkpearl. I heard him say something about the \u201Cwrong man\u201D and the \u201CSilver Bazaar.\u201D Does that help?",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_CLSGLA200_00263_NPC_000_60",
+    "original": "The fellow outside? Aye, I saw him stumble in when I left the bar to take a piss. Was alone as I recall. Ye say he\u0027s wounded? Thought he was just drunk!",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_CLSGLA200_00263_GUILDMEMBER_000_70",
+    "original": "\u003Ccough\u003E Purple robe? Hmmm, that sounds familiar...\u003Chex:02100103\u003EAye, it was him, I\u0027d swear it. Did you find anything else?",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_CLSGLA200_00263_GUILDMEMBER_000_74",
+    "original": "Picked this up by the tracks, eh? Might well have belonged to the bastard. Can\u0027t say I\u0027ve seen its like before.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_CLSGLA200_00263_GUILDMEMBER_000_75",
+    "original": "Might be as Wymond could tell you more. You know him, don\u0027t you? He\u0027s the bespectacled bloke who\u0027s always lounging around Emerald Avenue in the city. \u0027Course, being the \u003Chex:021A020203\u003Ebusinessman\u003Chex:021A020103\u003E that he is, he\u0027ll probably ask to be compensated in exchange.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_CLSGLA200_00263_GUILDMEMBER_000_82",
+    "original": "Show that ring to Wymond. He\u0027s sure to know something about it.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_CLSGLA200_00263_WYMOND_000_100",
+    "original": "Well now, if it ain\u0027t \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, everybody\u0027s favorite \u0027venturer! I hear you threw your lot in with the gladiators\u2500a questionable decision, given the events of recent days, but to each his own. To what do I owe the pleasure?",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_CLSGLA200_00263_WYMOND_000_102",
+    "original": "Oi, put that away before someone sees it! Where in the seven hells\u0027d you get one of those rings!?",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_CLSGLA200_00263_WYMOND_000_103",
+    "original": "What, don\u0027t you recognize the sigil? \u003Csigh\u003E Godsdamned fool. Before you go stumblin\u0027 around in the brush, you ought to at least know what kind of venomous bastards\u0027ll be lurkin\u0027 within.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_CLSGLA200_00263_WYMOND_000_104",
+    "original": "Been a long time since Ul\u0027dah\u0027s seen a criminal organization rise from obscurity to notoriety as quickly as the Alacran. Word is they\u0027ve got connections to the Brass Blades, the Syndicate, an\u0027 gods know who else.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_CLSGLA200_00263_WYMOND_000_105",
+    "original": "But you didn\u0027t hear that from me. I want no part of whatever mess you an\u0027 your mates have gotten yourselves into. Understood?",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_120",
+    "original": "Oh, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! I was wondering when you might return. What news do you bring of our injured comrade?",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_CLSGLA200_00263_Q1_000_124",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_CLSGLA200_00263_A1_000_125",
+    "original": "He was attacked by a member of the Alacran.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_CLSGLA200_00263_A2_000_126",
+    "original": "His attackers may be headed to the Silver Bazaar.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_130",
+    "original": "The Alacran? I find that hard to believe\u2500but no matter.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_140",
+    "original": "The Silver Bazaar!? Then it must be the same gang of ruffians!",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_150",
+    "original": "One of our comrades returned from Stonesthrow moments ago. A gang of bandits is said to be headed for the Silver Bazaar. They\u0027re after a man with an enormous bounty on his head.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_152",
+    "original": "The people living there are in grave danger. In their frenzy to find their quarry, the bandits won\u0027t scruple to destroy property and harm civilians, and the few Brass Blades stationed there will be powerless to stop them.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_154",
+    "original": "\u003Chex:021A020203\u003EWe\u003Chex:021A020103\u003E must stop them, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. We\u0027ll protect the Silver Bazaar and avenge our injured guildmate, all in one fell swoop!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_CLSGLA200_00263_ALDIS_000_156",
+    "original": "A bit melodramatic, if you ask me.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_157",
+    "original": "Aldis!? I told you never to come here again!",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_CLSGLA200_00263_ALDIS_000_164",
+    "original": "I couldn\u0027t sit idly by while you charge into battle against an enemy you know nothing about. Mylla, a responsible guildmaster would never risk the lives of her charges like this.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_165",
+    "original": "Who are \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E to lecture me about responsibility!?",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_CLSGLA200_00263_ALDIS_000_166",
+    "original": "Mylla, listen to me\u2500this is the \u003Chex:021A020203\u003EAlacran\u003Chex:021A020103\u003E you\u0027re dealing with.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_168",
+    "original": "So? Whatever notoriety they may have achieved means nothing to me. We\u0027ll cut them down like the common bandits they are.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_CLSGLA200_00263_ALDIS_000_170",
+    "original": "It\u0027s not that simple. More importantly, it\u0027s not your fight.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_171",
+    "original": "What are you saying?",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_CLSGLA200_00263_ALDIS_000_172",
+    "original": "They want \u003Chex:021A020203\u003Eme\u003Chex:021A020103\u003E, Mylla. I\u0027ve been fending off assassination attempts ever since I returned to Thanalan.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_CLSGLA200_00263_ALDIS_000_176",
+    "original": "Just stay here and let me handle this. It\u0027ll be over soon, I promise.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_177",
+    "original": "...Just stay here while you go off on your own, is that it?",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_178",
+    "original": "It\u0027s been seven years since I let you leave, Aldis. Seven \u003Chex:021A020203\u003Eyears\u003Chex:021A020103\u003E. Do you have any idea\u2500any idea at all what you put me through?",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_CLSGLA200_00263_ALDIS_000_183",
+    "original": "Mylla...",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_184",
+    "original": "I don\u0027t want to hear it, you selfish bastard! Do you even care about the people who suffered because of you? Just...just get out\u2500we don\u0027t need your help! We\u0027ll settle this ourselves!",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_CLSGLA200_00263_ALDIS_000_187",
+    "original": "Mylla, wait! There\u0027s something you need to know\u2500",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_188",
+    "original": "Enough! Get out, get OUT!",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_CLSGLA200_00263_ALDIS_000_192",
+    "original": "All right, all right. Save some of that for the Alacran. But do try not to let \u003Chex:022C0DFF07022903EB0203FF02200203\u003E here come to harm while you\u0027re at it.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_195",
+    "original": "What are you waiting for!? You have your orders, now \u003Chex:021A020203\u003Ego\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_200",
+    "original": "There you are, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Everyone\u0027s already in position! Are you prepared?",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_501",
+    "original": "Rejoice, gladiators, for the day is ours!",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_502",
+    "original": "Hm!?",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_504",
+    "original": "What!? But...but why would \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E be\u2500",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_CLSGLA200_00263_NPCA_000_505",
+    "original": "Leave \u0027em to us, First Sword!",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_506",
+    "original": "No, stop!",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_CLSGLA200_00263_ZANA_000_507",
+    "original": "(-???-)Such brittle blades, so easily broken. Perhaps the First Sword is made of stronger steel.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_CLSGLA200_00263_REHWOLDT_000_508",
+    "original": "(-???-)Leave her, Zana. Our business here is over.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_509",
+    "original": "What...what have you done, Leavold...?",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_CLSGLA200_00263_NPCA_000_510",
+    "original": "First Sword, we must withdraw! The wounded need tending! Let us take them back to the guild!",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_300",
+    "original": "Give me a moment, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I need to think...",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_CLSGLA200_00263_ALDIS_000_304",
+    "original": "I wanted to spare you this, Mylla. I begged you not to go.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_305",
+    "original": "You knew, Aldis? That...that Leavold had...",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_CLSGLA200_00263_ALDIS_000_308",
+    "original": "Leavold and I once fought side by side in the Coliseum\u2500the Twin Swords of Nald\u0027thal, they called us. Never lost a match, honored by the Bull of Ala Mhigo himself\u2500but that was then and this is now.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_CLSGLA200_00263_ALDIS_000_313",
+    "original": "When I learned Leavold single-handedly transformed the Alacran from a gang of common thieves into the most feared criminal organization in Thanalan, I knew I had to return.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_CLSGLA200_00263_ALDIS_000_314",
+    "original": "It seems like a lifetime ago that the three of us used to train together in this hall...",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_316",
+    "original": "The Leavold I knew would never stoop so low. He was a good man, strong and true! What would drive him to do this?",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_CLSGLA200_00263_ALDIS_000_321",
+    "original": "When I find him, I\u0027ll be sure to ask. Unfortunately, he seems determined to kill me for my curiosity.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_323",
+    "original": "What aren\u0027t you telling me, Aldis?",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_CLSGLA200_00263_ALDIS_000_325",
+    "original": "I\u0027m not clever enough to keep secrets, my dear. I\u0027m a simple man, only capable of dealing with what\u0027s right in front of me.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_000_326",
+    "original": "Is that so...",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_CLSGLA200_00263_ALDIS_000_327",
+    "original": "I\u0027ll find him, Mylla. I promise.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_CLSGLA200_00263_SYSTEM_000_350",
+    "original": "The next gladiator quest will be available from Mylla upon reaching level 25.",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_CLSGLA200_00263_SCENE00020_INSTANCE_BATTLE_YESNO_TITLE",
+    "original": "Duty calls. Do you wish to proceed with\u003Chex:02100103\u003E\u201CCLSGLA200\u201D?",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_CLSGLA200_00263_SCENE00020_INSTANCE_BATTLE_YESNO_YES",
+    "original": "Yes",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_CLSGLA200_00263_SCENE00020_INSTANCE_BATTLE_YESNO_NO",
+    "original": "No",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_CLSGLA200_00263_QIB_TODO001",
+    "original": "Defeat the Alacran henchmen!",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_BATTLETALK_001",
+    "original": "Stay focused! Choose your target and finish him!",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_BATTLETALK_002",
+    "original": "The conjurers are the greater threat! The others can wait!",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_BATTLETALK_002_2",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, deal with them!",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_BATTLETALK_003",
+    "original": "Thaumaturges!? Gods, I\u0027ve always hated mages...",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_BATTLETALK_004",
+    "original": "Finish them, before they can cast again!",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_CLSGLA200_00263_QIB_BATTLETALK_GUILDMEMBER_A_HP0",
+    "original": "Damn you, I\u0027ll...ugh!",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_CLSGLA200_00263_QIB_BATTLETALK_GUILDMEMBER_B_HP0",
+    "original": "First Sword...I\u0027m sorry...",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_CLSGLA200_00263_QIB_BATTLETALK_GUILDMEMBER_C_HP0",
+    "original": "Ugh... We must...p-protect...",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_CLSGLA200_00263_QIB_BATTLETALK_GUILDMEMBER_D_HP0",
+    "original": "\u003Chex:021A020203\u003ENobody\u003Chex:021A020103\u003E makes me bleed my own\u2500ugh!",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_CLSGLA200_00263_MYLLA_BATTLETALK_MYLLA_HP0",
+    "original": "I...I...",
+    "translation": ""
+  }
+}

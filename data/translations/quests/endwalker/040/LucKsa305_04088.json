@@ -1,0 +1,1002 @@
+{
+  "0": {
+    "tag": "TEXT_LUCKSA305_04088_SEQ_00",
+    "original": "The look of steely resolve in Bajsaljen\u0027s eyes suggests the hour of battle draws nigh.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_LUCKSA305_04088_SEQ_01",
+    "original": "The Resistance stands ready to march against the IVth Legion in the hopes of distracting them long enough for Cid to carry out his plan. If all goes well, the \u003Chex:021A020203\u003EDalriada\u003Chex:021A020103\u003E will be disabled, perhaps giving Bajsaljen and his troops the edge needed to rout the imperials once and for all.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_LUCKSA305_04088_SEQ_02",
+    "original": "Lilja has finished work on the D.A.M., and has even found the ideal location at which to set it. However, a number of final adjustments have to be made on-site, meaning that she must accompany you out onto the battlefield.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_LUCKSA305_04088_SEQ_03",
+    "original": "While seeking a suitable spot to set the D.A.M., you are assaulted by a small unit of IVth Legion soldiers. They prove no match for your martial prowess, and it is not long before you and Lilja resume preparing the D.A.M.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_LUCKSA305_04088_SEQ_04",
+    "original": "With the D.A.M. in place, the Resistance is ready to set their plan in motion. What they were not expecting, however, was for the \u003Chex:021A020203\u003EDalriada\u003Chex:021A020103\u003E to roar to life. Undeterred by the not-so-small setback of the imperial warship entering the fray, Cid succeeds in activating the aetherwave amplifier, and the \u003Chex:021A020203\u003EDalriada\u003Chex:021A020103\u003E is forced to make an emergency landing. The sight of this emboldens the Resistance, and so they prepare to press forward.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_LUCKSA305_04088_SEQ_05",
+    "original": "The \u003Chex:021A020203\u003EDalriada\u003Chex:021A020103\u003E has been rendered inoperable, but it remains to be seen what armaments yet remain within. Even so, there may never come a finer opportunity for the Resistance to strike, and Bajsaljen intends to seize it. He asks that you accompany his troops into the warship, and at last put an end to the IVth Legion\u0027s schemes to control Bozja.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlayers may enter the Dalriada via the associated critical engagement.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_LUCKSA305_04088_SEQ_06",
+    "original": "With Lyon and Menenius defeated, the IVth Legion\u0027s plans appear to have fallen to ruin. There is no time to revel in your victory, however, for the Allagan weapon, which lay dormant in the ship, breaks free from its confines. It takes to the sky and begins amassing energy to release in an attack of cataclysmic proportions. Before delivering its fatal blow to the people of Bozja, however, Queen Gunnhildr appears, her holy blade in hand. The two entities clash overhead, the ensuing explosion claiming both the Allagan weapon and the queen.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_LUCKSA305_04088_SEQ_07",
+    "original": "The threat of the IVth Legion and their Allagan weapon is no more. You thought to speak with Bajsaljen, but Marsak informs you he has already returned to Gangos. After your many travails together, the Resistance leader would no doubt welcome you to reflect on this historic victory.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_LUCKSA305_04088_SEQ_08",
+    "original": "You expect to find Bajsaljen in the midst of merrymaking, but instead he is already hard at work setting the foundation for a new Bozja. The myriad factions that comprised the Resistance originally came together out of necessity, but if all goes to plan, the dream of a united Bozja may very well soon become a reality.",
+    "translation": ""
+  },
+  "9": {
+    "tag": "TEXT_LUCKSA305_04088_SEQ_09",
+    "original": "The fight for freedom is won, and now work to rebuild may begin in earnest. Only time will tell what manner of nation Bozja will become, but you have every confidence it will prove a beacon of peace and prosperity to which others will aspire.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_LUCKSA305_04088_TODO_00",
+    "original": "Speak with Lilja.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_LUCKSA305_04088_TODO_01",
+    "original": "Investigate the designated location.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_LUCKSA305_04088_TODO_02",
+    "original": "Investigate the designated location.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_LUCKSA305_04088_TODO_03",
+    "original": "Speak with Bajsaljen.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_LUCKSA305_04088_TODO_04",
+    "original": "Enter the Dalriada.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_LUCKSA305_04088_TODO_05",
+    "original": "Speak with Marsak.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_LUCKSA305_04088_TODO_06",
+    "original": "Return to Gangos.",
+    "translation": ""
+  },
+  "31": {
+    "tag": "TEXT_LUCKSA305_04088_TODO_07",
+    "original": "Speak with Marsak.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_LUCKSA305_04088_SYSTEM_100_000",
+    "original": "A Resistance rank of \u003Chex:022003E80203\u003E is required to proceed with this quest.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_000",
+    "original": "Blade \u003Chex:022C0DFF07022903EB0203FF02200303\u003E. We have finished preparations for a full-scale assault. We will keep the imperials occupied, while Cid executes his plan to disable the \u003Chex:021A020203\u003EDalriada\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_LUCKSA305_04088_CID_000_001",
+    "original": "Our work on the aetherwave amplifier is complete, and the crystal focus has been mounted on board the \u003Chex:021A020203\u003EIa\u0027sar\u003Chex:021A020103\u003E. That said, it\u0027s hard to gauge the range of the pulse it will generate. In the event things don\u0027t go to plan, have your men ready to disperse.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_LUCKSA305_04088_MIKOTO_000_002",
+    "original": "You have nothing to worry about, Cid. The amplifier will work. I have seen it.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_LUCKSA305_04088_RINOK_000_003",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, it\u0027s been far too long. A pity our meeting is under such dire circumstances. But never fear, Cid and Mikoto\u0027ll be in good hands aboard the \u003Chex:021A020203\u003EIa\u0027sar\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_LUCKSA305_04088_BWAGI_000_004",
+    "original": "The amplifier has been loaded onto the ship, and the engine has been insulated against the blast.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_LUCKSA305_04088_LILJA_000_005",
+    "original": "That\u0027s not all. The Mark IV D.A.M. is ready to go, and I\u0027ve found just the place to put it.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_LUCKSA305_04088_MARSHAK_000_006",
+    "original": "Our plan for the upcoming battle is twofold. First and foremost, we must draw the enemy\u0027s attention on the ground, affording the crew of the \u003Chex:021A020203\u003EIa\u0027sar\u003Chex:021A020103\u003E the opportunity to disable the warship.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_LUCKSA305_04088_MARSHAK_000_007",
+    "original": "This will throw their forces into disarray, granting us the opportunity to press forward and, gods willing, remove the head of their detachment here in Bozja.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_008",
+    "original": "We speak, of course, of their commander Menenius sas Lanatus. It will be no easy endeavor, however, for we must also contend with the likes of Lyon rem Helsos and his entourage of beasts. Nevertheless, we mustn\u0027t lose heart. Remain vigilant, remember your training, and I have faith the day will be ours.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_009",
+    "original": "For Bozja!!!",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_LUCKSA305_04088_LILJA_000_030",
+    "original": "Well, I guess we\u0027d better get to work too, eh? First things first: setting up the D.A.M.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_LUCKSA305_04088_LILJA_000_031",
+    "original": "The location is right there, on your map. Trouble is, there are a few final adjustments that have to be made on-site, meaning I\u0027ll have to come along. You can handle any imperials that show up...right?",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_LUCKSA305_04088_LILJA_000_050",
+    "original": "Everything\u0027s set, Chief. Sending the coordinates now.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_LUCKSA305_04088_CID_000_051",
+    "original": "(-Cid-)We\u0027ll be there as soon as we can.\u003Chex:02100103\u003ERinok, Mikoto, it\u0027s time to head out.\u003Chex:02100103\u003EDid you get all that, Bajsaljen?",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_052",
+    "original": "(-Bajsaljen-)We will hold their attention for as long as we can. Godsspeed.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_LUCKSA305_04088_LILJA_000_053",
+    "original": "\u003Cgasp\u003E Oh, no! The warship...!",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_300",
+    "original": "Damn it! Are we too late?",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_LUCKSA305_04088_MARSHAK_000_301",
+    "original": "Sir, look!",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_302",
+    "original": "The \u003Chex:021A020203\u003EIa\u0027sar\u003Chex:021A020103\u003E... Gods, please let his plan work.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_LUCKSA305_04088_LILJA_000_303",
+    "original": "Ahhh!!!",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_LUCKSA305_04088_CID_000_304",
+    "original": "What in the seven hells was that!?",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_LUCKSA305_04088_MIKOTO_000_305",
+    "original": "Could it be the Allagan weapon is operational?",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_LUCKSA305_04088_IMPERIALSOLDIERA04088_000_306",
+    "original": "Sir, the target is too small to score a direct hit!",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_LUCKSA305_04088_MENENIUS_000_307",
+    "original": "They won\u0027t be so lucky a second time. Fire again!",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_LUCKSA305_04088_IMPERIALSOLDIERB04088_000_308",
+    "original": "Y-Yes, sir! Energy levels at 45%...",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_LUCKSA305_04088_MIKOTO_000_309",
+    "original": "Bad news, I\u0027m afraid. The amplifier has been damaged and we\u0027ve lost the coordinates of the D.A.M!",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_LUCKSA305_04088_CID_000_310",
+    "original": "Of all the rotten luck!",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_LUCKSA305_04088_CID_000_311",
+    "original": "(-Cid-)Did you catch that, Lilja? We\u0027ve lost the coordinates!",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_LUCKSA305_04088_CID_000_312",
+    "original": "(-Cid-)Quickly, send up a flare!",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_LUCKSA305_04088_LILJA_000_313",
+    "original": "Understood, Chief!",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_LUCKSA305_04088_CID_000_314",
+    "original": "There!",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_LUCKSA305_04088_MIKOTO_000_315",
+    "original": "(-Mikoto-)Now! Activate the D.A.M!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_LUCKSA305_04088_CID_000_316",
+    "original": "Come on, don\u0027t fail me now!",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_LUCKSA305_04088_IMPERIALSOLDIERA04088_000_317",
+    "original": "The engines\u2500they\u0027ve shut down! Preparing for emergency landing!",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_LUCKSA305_04088_MENENIUS_000_318",
+    "original": "What!?",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_LUCKSA305_04088_CID_000_319",
+    "original": "Mikoto, nooo!!!",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_LUCKSA305_04088_CID_000_320",
+    "original": "Take us down. Now!",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_LUCKSA305_04088_RINOK_000_321",
+    "original": "Right!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_LUCKSA305_04088_FRAN_000_322",
+    "original": "(-???-)Your Sharlayan companion is safe, though I cannot say the same for you at present. It would behoove you to retreat.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_LUCKSA305_04088_CID_000_323",
+    "original": "What? Who is this?",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_LUCKSA305_04088_FRAN_000_324",
+    "original": "Fran. General of the Dalmascan resistance. We may save the pleasantries for when you are returned to Camp Vrdelnis.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_LUCKSA305_04088_CID_000_325",
+    "original": "(-Cid-)Fran...? Right, Jenomis has told me about you.\u003Chex:02100103\u003EAll right, heading back now.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_LUCKSA305_04088_FRAN_000_330",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Bwagi said I would find you here. From what I gather, you are no stranger to conflict with the imperials.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_LUCKSA305_04088_FRAN_000_331",
+    "original": "Should they be defeated here, it will deal a heavy blow to the IVth Legion, who yet occupy my homeland of Dalmasca. One by one, we will reclaim those lands that were stolen from us.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_LUCKSA305_04088_FRAN_000_332",
+    "original": "And be it the Empire or any other would-be tyrant, we will never surrender to those who would deny us our freedom.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_LUCKSA305_04088_FRAN_000_333",
+    "original": "I suspect we are of a similar mind on such matters, and I am honored to have the opportunity to fight at your side.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_LUCKSA305_04088_ROSTIK_000_335",
+    "original": "Soon it will all be over. Oh Father... Would that you could have lived to see this day.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_350",
+    "original": "Our plan worked, Blade \u003Chex:022C0DFF07022903EB0203FF02200303\u003E! The \u003Chex:021A020203\u003EDalriada\u003Chex:021A020103\u003E was forced to make an abrupt landing after the amplifier released its pulse, just as Cid predicted.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_351",
+    "original": "We did not all emerge from the encounter unscathed, however. Lilja was badly wounded. We have done what we can for her, but she needs proper medical attention.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_LUCKSA305_04088_CID_000_352",
+    "original": "I\u0027ve already spoken with Lord Hien, and his chirurgeons are ready and awaiting her arrival in Doma.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_LUCKSA305_04088_CID_000_353",
+    "original": "Could I trouble you for use of the \u003Chex:021A020203\u003EIa\u0027sar\u003Chex:021A020103\u003E?",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_LUCKSA305_04088_BWAGI_000_354",
+    "original": "Yes, we\u0027d be glad to help.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_LUCKSA305_04088_MIKOTO_000_355",
+    "original": "I would accompany her to Doma as well, if that\u0027s all right.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_LUCKSA305_04088_MIKOTO_100_355",
+    "original": "This wouldn\u0027t have happened if not for me...",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_LUCKSA305_04088_CID_000_356",
+    "original": "You may have glimpsed the future, but you didn\u0027t see everything. There was no way of knowing for certain what would happen to any of us.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_LUCKSA305_04088_CID_000_357",
+    "original": "Using the amplifier was my plan, but we all knew the risks involved, including Lilja. This is a war we\u0027re fighting, after all.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_LUCKSA305_04088_CID_000_358",
+    "original": "But this is hardly the time to discuss such matters. We have a long journey ahead of us, and I daresay your healing magicks will be of great comfort to her until we reach Doma.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_359",
+    "original": "While they tend to our wounded comrade, let us deliver the final blow to the enemy. With the \u003Chex:021A020203\u003EDalriada\u003Chex:021A020103\u003E disabled, and reinforcements newly arrived from Dalmasca, we may never have a finer opportunity to strike.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_LUCKSA305_04088_FRAN_000_360",
+    "original": "We will offer whatever assistance we can if it means defeating the IVth Imperial Legion.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_LUCKSA305_04088_FRAN_000_361",
+    "original": "Though we can offer little in the way of materiel, I have brought several vehicles which I believe will prove helpful in this final endeavor.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_362",
+    "original": "General Fran, you have our gratitude. I will see they are put to good use.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_363",
+    "original": "It is time we make ready. The coming battle will decide the fate of Bozja.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_364",
+    "original": "But as we have seen, our enemy is willing to employ any means at their disposal, no matter how reckless or deplorable. We have reason to believe they have obtained a deadly new weapon, and we must be prepared to adapt our strategy as the situation warrants.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_365",
+    "original": "Blade \u003Chex:022C0DFF07022903EB0203FF02200303\u003E. May we count on your assistance one last time?",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_LUCKSA305_04088_Q2_000_200",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_LUCKSA305_04088_A1_000_200",
+    "original": "We \u003Chex:021A020203\u003Ewill\u003Chex:021A020103\u003E free Bozja. Together!",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_LUCKSA305_04088_A2_000_200",
+    "original": "One way or another, we\u0027re putting an end to this.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_366",
+    "original": "And there you have it! Time and again \u003Chex:02080CE905FF04736865FF03686503\u003E has fought at our side, and we have overcome many a foe. Now, we stride into battle once more, and by the grace of the gods, victory will be ours!",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_367",
+    "original": "\u0027Tis true the imperials\u0027 presence in the sky is greatly diminished, but Menenius has yet to reveal this Allagan weapon of his. And that is to say nothing of Lyon and his beasts.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_368",
+    "original": "Our victory will not be easily won, but I have faith that, together, we will prevail in the end.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_LUCKSA305_04088_RIAN_000_500",
+    "original": "For godssake, boy. What did I tell you about bowing out with a bit of grace? It\u0027s over, Menenius. We\u0027ve lost.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_LUCKSA305_04088_MENENIUS_000_501",
+    "original": "Even so, the relic cannot...\u003Chex:021A020203\u003Emust\u003Chex:021A020103\u003E not fall into the hands of the Bozjans. I will have it jettisoned from the \u003Chex:021A020203\u003EDalriada\u003Chex:021A020103\u003E into the ruins whence it came. Once our troops have been evacuated, I will engage the ship\u0027s self-destruct sequence and seal the entrance, keeping the relic beyond the reach of those savages.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_LUCKSA305_04088_MENENIUS_000_502",
+    "original": "Meanwhile, you are to take the rest of our detachment back to Dalmasca and crush the resistance. Then\u2500and only then\u2500are you to return here and reclaim Gabranth\u0027s weapon. Am I understood?",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_LUCKSA305_04088_RIAN_000_503",
+    "original": "So it\u0027s the coward\u0027s way out, is it? Not man enough to face him after your resounding failure?",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_LUCKSA305_04088_MENENIUS_000_504",
+    "original": "It was I Gabranth entrusted with the \u003Chex:021A020203\u003EDalriada\u003Chex:021A020103\u003E, his final hope of claiming these lands as his own. If that hope is to die here, then I would perish with it. I have naught but my life to offer to make amends for all we have lost.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_LUCKSA305_04088_RIAN_000_505",
+    "original": "Look, Menenius, everyone\u0027s bound to have a spot of bad luck eventually, even you. Now isn\u0027t the time for drastic measures.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_LUCKSA305_04088_RIAN_000_506",
+    "original": "As much as I\u0027d enjoy seeing an arrogant, forked-tongued prig such as yourself go down in a fiery ball of ruin, I know Gabranth still has a part for you to play.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_LUCKSA305_04088_RIAN_000_507",
+    "original": "If you want to bury the relic, fine\u2500I\u0027ll even help you. But when we\u0027re done, we go and speak with him \u003Chex:021A020203\u003Etogether\u003Chex:021A020103\u003E and explain what happened. All right?",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_LUCKSA305_04088_MENENIUS_000_508",
+    "original": "Your stubbornness never ceases to confound me.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_LUCKSA305_04088_RIAN_000_509",
+    "original": "Good. If that\u0027s what it takes to get through to you, I\u0027ll be as stubborn as I like.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_LUCKSA305_04088_MENENIUS_000_510",
+    "original": "Hmph. And you would call me the arrogant one.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_LUCKSA305_04088_SYSTEM_000_511",
+    "original": "You may now access the critical engagement \u201Cthe Dalriada.\u201D",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_LUCKSA305_04088_SYSTEM_000_512",
+    "original": "This critical engagement will be initiated when a sufficient number of players with access to the Dalriada are present in Zadnor.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_LUCKSA305_04088_SYSTEM_000_513",
+    "original": "Furthermore, by completing other skirmishes and critical engagements, the time required before the Dalriada can be initiated again will be reduced. ",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_LUCKSA305_04088_SYSTEM_000_514",
+    "original": "Be sure to prepare lost actions from the lost finds cache, as they may prove key to turning the tide of battle.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_520",
+    "original": "I know not what Menenius has unearthed in the ruins, but I would rather not afford him time to employ it.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_521",
+    "original": "Let us be swift, Blade \u003Chex:022C0DFF07022903EB0203FF02200303\u003E, and put an end to him and the IVth Legion.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_LUCKSA305_04088_TODO_000_100",
+    "original": "Speak with Bajsaljen.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_600",
+    "original": "Blade \u003Chex:022C0DFF07022903EB0203FF02200303\u003E! Thank goodness you are unharmed.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_601",
+    "original": "What is this place...?",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_602",
+    "original": "Lyon!? Menenius!?",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_603",
+    "original": "Everyone! Fall back, now!",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_LUCKSA305_04088_RIAN_000_604",
+    "original": "Menenius, you fool! ...It\u0027s not supposed to end like this!",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_605",
+    "original": "\u003Chex:021A020203\u003EThis\u003Chex:021A020103\u003E is the Allagan relic!?",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_LUCKSA305_04088_FRAN_000_606",
+    "original": "By the gods... It will destroy us all!",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_LUCKSA305_04088_MEESIYA_000_607",
+    "original": "In the name of Queen Gunnhildr, I will not allow you to harm these children of Bozja.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_608",
+    "original": "Queen Gunnhildr, she...she saved us.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_LUCKSA305_04088_MARSHAK_000_609",
+    "original": "Oh Misija...",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_LUCKSA305_04088_MEESIYA_000_620",
+    "original": "No... Leave me be...",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_621",
+    "original": "Please, Misija, you must hold on. I promised you we will rebuild Bozja, and I want you to see it for yourself.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_LUCKSA305_04088_MEESIYA_000_622",
+    "original": "For...what purpose...? Remorse? Repentance?",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_LUCKSA305_04088_MEESIYA_000_623",
+    "original": "Do not...misunderstand, Bajsaljen...",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_LUCKSA305_04088_MEESIYA_000_624",
+    "original": "I...care not...for forgiveness.\u003Chex:02100103\u003EToday...I fulfilled my duty...to the queen... Nothing more.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_LUCKSA305_04088_MEESIYA_000_625",
+    "original": "I am a Bozjan, yes. But also an imperial... A traitor...",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_LUCKSA305_04088_MEESIYA_000_626",
+    "original": "Justice...must be served. The people...demand it.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_LUCKSA305_04088_MEESIYA_000_627",
+    "original": "Fulfill your duty... As I have mine... Please...",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_LUCKSA305_04088_Q3_000_300",
+    "original": "What will you do?",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_LUCKSA305_04088_A1_000_300",
+    "original": "Grant her request.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_LUCKSA305_04088_A2_000_300",
+    "original": "Leave her be.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_LUCKSA305_04088_Q4_000_400",
+    "original": "What will you do?",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_LUCKSA305_04088_A3_000_400",
+    "original": "Grant her request.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_LUCKSA305_04088_A4_000_400",
+    "original": "Leave her be.",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_LUCKSA305_04088_MEESIYA_000_628",
+    "original": "Thank you...",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_629",
+    "original": "No, Blade \u003Chex:022C0DFF07022903EB0203FF02200303\u003E. She is gone.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_630",
+    "original": "If it must be done, I will do it.",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_100_630",
+    "original": "Farewell, Misija. Until we meet again...",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_631",
+    "original": "No, Blade \u003Chex:022C0DFF07022903EB0203FF02200303\u003E. This is not your burden to bear.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_100_631",
+    "original": "Your sacrifice will not be forgotten, Misija. And I pray it need never again be repeated.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_632",
+    "original": "Please, Blade \u003Chex:022C0DFF07022903EB0203FF02200303\u003E. Let me grant her this final mercy.",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_100_632",
+    "original": "Good-bye, Misija. May the queen bless you and keep you...",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_LUCKSA305_04088_MARSHAK_000_650",
+    "original": "At long last, victory is ours. There are still remnants of the IVth Legion to contend with, but I believe it is safe to say the war for Bozja is over.",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_LUCKSA305_04088_MARSHAK_000_651",
+    "original": "Many of our brothers and sisters were lost on our path to freedom, but I take heart in knowing that their sacrifices were not in vain. That our dream of a new Bozja will finally come true.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_LUCKSA305_04088_MARSHAK_000_652",
+    "original": "Bajsaljen has returned to Gangos, and I have no doubt he would be glad for your company.",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_LUCKSA305_04088_MARSHAK_000_653",
+    "original": "...Misija? We thought it best if her remains were not returned to Gangos. To some, she was naught more than a hated enemy, and even in death, she would be an object of their scorn. But rest assured, I will see to it personally that she is given a proper burial.",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_700",
+    "original": "Blade \u003Chex:022C0DFF07022903EB0203FF02200303\u003E. Words can scarcely convey my gratitude for all you have done for the people of Bozja.",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_701",
+    "original": "Though the fight for Bozja is over, our work is far from done. When faced with the IVth Legion, the Bozjan Resistance stood as a united, cohesive unit. But I now foresee disputes between its various factions as they seek to pursue their individual aims.",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_702",
+    "original": "For that reason, I wish to first create a council of leaders, that we might discuss and establish laws to govern our people.",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_703",
+    "original": "I have already begun drafting documents that may one day serve as our constitution, though it remains to be seen if they will meet with the others\u0027 approval.",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_704",
+    "original": "You see, I have chosen to base a number of my writings on the principles of the IVth Legion.",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_LUCKSA305_04088_MARSHAK_000_705",
+    "original": "With all due respect, sir, I do not think it wise to openly admit to borrowing from the \u003Chex:021A020203\u003Eimperial doctrine\u003Chex:021A020103\u003E of all things. The people would be up in arms!",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_706",
+    "original": "They deserve to know the truth, Marsak, and I have my reasons for choosing such an approach.",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_707",
+    "original": "While many of us dedicated ourselves to the Resistance, there are those who would rather live in peace, even if that means submitting to imperial rule. Some, like Misija, saw the Empire\u0027s ways as preferable to our own.",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_708",
+    "original": "To discard everything that came as a result of the occupation would cause more harm than good. There are many things introduced by the imperials from which we stand to benefit, and it would be foolish to dismiss them simply because they came from the enemy.",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_709",
+    "original": "Make no mistake\u2500the Bozja I intend to build will be free of discrimination and poverty. A nation of the people, by the people, and for the people. As such, it will require the understanding and cooperation of all.",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_710",
+    "original": "A great deal of blood has been shed that we might come this far, and I pray we never forget, that we may never again have to endure such tragedy.",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_LUCKSA305_04088_CID_000_711",
+    "original": "(-Familiar Voice-)Well, I for one have every confidence that you will lead Bozja to a bright and prosperous future. If Ala Mhigo and Doma are able to thrive, I see no reason why Bozja can\u0027t do the same.",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_712",
+    "original": "Cid. Mikoto. Welcome back.",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_LUCKSA305_04088_CID_000_713",
+    "original": "And here I thought you might actually take a moment to enjoy your hard-earned victory. Such steadfast dedication to rebuilding Bozja is proof enough the people are in good hands.",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_LUCKSA305_04088_MARSHAK_000_714",
+    "original": "Did Lilja not return with you? Has she yet to recover?",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_LUCKSA305_04088_CID_000_715",
+    "original": "It was touch and go at first, extracting the shrapnel from her stomach, but she\u0027s doing much better now. You should have seen her protesting when we insisted she stay behind to rest.",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_LUCKSA305_04088_LILJA_000_716",
+    "original": "(-Lilja-)\u003Chex:022C0DFF07022903EB0203FF02200203\u003E! I was worried sick about you. Right when you needed me most, I let my guard down... Sorry I couldn\u0027t be there with you to the end.",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_LUCKSA305_04088_Q1_000_100",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_LUCKSA305_04088_A1_000_100",
+    "original": "You did your best, and that\u0027s all I could ask for.",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_LUCKSA305_04088_A2_000_100",
+    "original": "Never mind that. How are your wounds?",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_LUCKSA305_04088_LILJA_000_720",
+    "original": "(-Lilja-)That... That means a lot coming from you. \u003Csniffle\u003E More than you know...",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_LUCKSA305_04088_LILJA_000_725",
+    "original": "(-Lilja-)I\u0027ve never felt better! As a matter of fact, I was about to gather my things and head back to\u2500gah! My stomach!",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_LUCKSA305_04088_CID_000_730",
+    "original": "Sounds like the chirurgeons are taking good care of you, Lilja, and I trust you won\u0027t be giving them any trouble. It\u0027d be a shame if I had to send Jessie to keep an eye on you.",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_LUCKSA305_04088_LILJA_000_731",
+    "original": "(-Lilja-)Jessie!? ...I think I\u0027d prefer the shrapnel.",
+    "translation": ""
+  },
+  "197": {
+    "tag": "TEXT_LUCKSA305_04088_GEROLT_000_732",
+    "original": "What in the\u2500 \u003Chic\u003E Why\u0027re ye all standin\u0027 about like a bunch o\u0027 prissy\u2500 \u003Chic\u003E prissy ol\u0027 maids? Ye \u003Chex:021A020203\u003Ewon\u003Chex:021A020103\u003E, didn\u0027t ye? Relax! Come an\u0027 have a pint or two! Or three! \u003Chic\u003E",
+    "translation": ""
+  },
+  "198": {
+    "tag": "TEXT_LUCKSA305_04088_FRAN_000_733",
+    "original": "Wheresoever your path may lead, it seems fortune sees fit to smile upon you. Not only have you led the Resistance to rout the IVth Legion, by some miracle the weapon they unearthed from these lands was also vanquished. On behalf of the people of Dalmasca, you have my sincerest thanks.",
+    "translation": ""
+  },
+  "199": {
+    "tag": "TEXT_LUCKSA305_04088_FRAN_000_734",
+    "original": "Of course, the war is not truly over until we have dealt with Gabranth. He is no doubt planning his next move, and I intend to be prepared for our next encounter with the imperials. When that time comes, I daresay we would benefit from your assistance. ",
+    "translation": ""
+  },
+  "200": {
+    "tag": "TEXT_LUCKSA305_04088_FRAN_100_734",
+    "original": "Until the next time. Perhaps in Dalmasca.",
+    "translation": ""
+  },
+  "201": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_735",
+    "original": "Another nation freed, following in the footsteps of Doma and Ala Mhigo. A dream realized thanks in part to one troubled soul whom I shall never forget for all my days.",
+    "translation": ""
+  },
+  "202": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_736",
+    "original": "In the eyes of the people she will forever remain a criminal. A traitor. Yet it was she who delivered us from certain destruction.",
+    "translation": ""
+  },
+  "203": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_100_736",
+    "original": "Her crimes were said to be unforgivable, but what of ours? Was it not our callousness, our animus, that fueled her hatred?",
+    "translation": ""
+  },
+  "204": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_101_736",
+    "original": "I squandered every opportunity to guide her, ignored every unspoken plea for help. Her loss is a scar on my heart that will never heal. A ceaseless reminder of my inadequacy and shame.",
+    "translation": ""
+  },
+  "205": {
+    "tag": "TEXT_LUCKSA305_04088_MIKOTO_000_737",
+    "original": "Can you sense anything?",
+    "translation": ""
+  },
+  "206": {
+    "tag": "TEXT_LUCKSA305_04088_MIKOTO_000_738",
+    "original": "Then it is as I thought. The last of the blade\u0027s residual aether is spent. The queen is no more...",
+    "translation": ""
+  },
+  "207": {
+    "tag": "TEXT_LUCKSA305_04088_MARSHAK_000_739",
+    "original": "Who could have foreseen that Misija would carry on Queen Gunnhildr\u0027s duty? Protecting her people to the very last.",
+    "translation": ""
+  },
+  "208": {
+    "tag": "TEXT_LUCKSA305_04088_MARSHAK_000_740",
+    "original": "Did she believe her final act could effect change in the world? Or, perhaps, did she at last find the means to do so within herself? An arduous task in either case. \u003Csigh\u003E A pity we will never know.",
+    "translation": ""
+  },
+  "209": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_741",
+    "original": "The lady of blades, Save the Queen, was returned to us. Devoid of the queen\u0027s grace, perhaps, but not of her hopes for a brighter tomorrow, nor Misija\u0027s for a better Bozja.",
+    "translation": ""
+  },
+  "210": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_742",
+    "original": "Indeed, their hopes shall live on. In me, in Marsak, in all of our people. The lives lost for our freedom will not have done so in vain, this I swear. Bozja \u003Chex:021A020203\u003Ewill\u003Chex:021A020103\u003E rise again. A land of peace and prosperity they would be proud to call home.",
+    "translation": ""
+  },
+  "211": {
+    "tag": "TEXT_LUCKSA305_04088_BAISHAEN_000_743",
+    "original": "From the \u003Chex:021A020203\u003EChronicles of the Bozjan Revolution\u003Chex:021A020103\u003E\u003Chex:02100103\u003EBajsaljen Ulgasch",
+    "translation": ""
+  },
+  "212": {
+    "tag": "TEXT_LUCKSA305_04088_MARSHAK_000_750",
+    "original": "If you are looking for Mikoto and the others, they have all returned to their homes. I expect you, too, will be leaving us before long. Though if I may be frank, I believe I speak for many when I say we are reluctant to see you go.",
+    "translation": ""
+  },
+  "213": {
+    "tag": "TEXT_LUCKSA305_04088_MARSHAK_000_751",
+    "original": "Were it possible, I would ask you to stay and help us in the rebuilding of Bozja, but I understand there are other worldly matters that require your attention.",
+    "translation": ""
+  },
+  "214": {
+    "tag": "TEXT_LUCKSA305_04088_MARSHAK_000_752",
+    "original": "We shall forever be in your debt, Blade \u003Chex:022C0DFF07022903EB0203FF02200303\u003E. Wherever duty demands you go, know that you always have allies here in Bozja. Farewell.",
+    "translation": ""
+  },
+  "215": {
+    "tag": "TEXT_LUCKSA305_04088_SYSTEM_000_800",
+    "original": "Meanwhile, at Valnain in Dalmasca...",
+    "translation": ""
+  },
+  "216": {
+    "tag": "TEXT_LUCKSA305_04088_GABRANTH_000_801",
+    "original": "...Thank you, Lyon. You are dismissed.",
+    "translation": ""
+  },
+  "217": {
+    "tag": "TEXT_LUCKSA305_04088_RIAN_000_802",
+    "original": "That\u0027s all? Menenius is dead and that\u0027s all you have to say?",
+    "translation": ""
+  },
+  "218": {
+    "tag": "TEXT_LUCKSA305_04088_GABRANTH_000_803",
+    "original": "What would you have me say, then?",
+    "translation": ""
+  },
+  "219": {
+    "tag": "TEXT_LUCKSA305_04088_RIAN_000_804",
+    "original": "You could at least acknowledge one of your most loyal followers gave his life for the sake of your ambitions.",
+    "translation": ""
+  },
+  "220": {
+    "tag": "TEXT_LUCKSA305_04088_GABRANTH_000_805",
+    "original": "Menenius understood such sacrifice was inevitable, and by all accounts he did not waver when faced with his demise. Such strength is needed if we are to succeed.",
+    "translation": ""
+  },
+  "221": {
+    "tag": "TEXT_LUCKSA305_04088_GABRANTH_100_805",
+    "original": "Time is short, Lyon... \u003Chex:021A020203\u003EMy\u003Chex:021A020103\u003E time is short...",
+    "translation": ""
+  },
+  "222": {
+    "tag": "TEXT_LUCKSA305_04088_RIAN_000_806",
+    "original": "So...it finally caught up with you. A damned shame.",
+    "translation": ""
+  },
+  "223": {
+    "tag": "TEXT_LUCKSA305_04088_GABRANTH_000_807",
+    "original": "Lest the soldiers begin to believe failure may go without consequence, I would have you sent to the gaols in Menenius\u0027s stead. I trust this will not pose a problem for you?",
+    "translation": ""
+  },
+  "224": {
+    "tag": "TEXT_LUCKSA305_04088_RIAN_000_808",
+    "original": "...Fine.",
+    "translation": ""
+  },
+  "225": {
+    "tag": "TEXT_LUCKSA305_04088_SICINIUS_000_809",
+    "original": "(-Sicinius mal Vellutus-)Legatus Gabranth, sir.",
+    "translation": ""
+  },
+  "226": {
+    "tag": "TEXT_LUCKSA305_04088_SICINIUS_000_810",
+    "original": "(-Sicinius mal Vellutus-)We have recovered the relics Menenius unearthed in the Bozjan ruins.",
+    "translation": ""
+  },
+  "227": {
+    "tag": "TEXT_LUCKSA305_04088_SYSTEM_000_899",
+    "original": "Certain \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EField Record\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E entries have been updated under Collection in the Duty section of the main menu.",
+    "translation": ""
+  },
+  "228": {
+    "tag": "TEXT_LUCKSA305_04088_SYSTEM_000_900",
+    "original": "New gear can now be purchased from the Resistance supplier at Camp Vrdelnis.",
+    "translation": ""
+  },
+  "229": {
+    "tag": "TEXT_LUCKSA305_04088_SYSTEM_000_901",
+    "original": "This new gear can be purchased in exchange for Bozjan platinum coins.",
+    "translation": ""
+  }
+}

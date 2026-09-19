@@ -1,0 +1,57 @@
+{
+  "0": {
+    "tag": "TEXT_HEAVNZ922_01987_SEQ_00",
+    "original": "The Allagan logistics node is spinning frantically.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_HEAVNZ922_01987_SEQ_01",
+    "original": "The Allagan logistics node informs you that several freight-handling units never received deactivation commands and have been operating continuously for over five thousand years. Lacking the ability to remotely deactivate these units itself, the logistics node authorizes you to do so in its stead. Find and deactivate four adamantite claws.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_HEAVNZ922_01987_SEQ_02",
+    "original": "You have successfully destroyed the adamantite claws. Report your success to the logistics node.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_HEAVNZ922_01987_SEQ_03",
+    "original": "The logistics node reminds you that you were asked to \u003Chex:021A020203\u003Edeactivate\u003Chex:021A020103\u003E the non-responsive units, not destroy them. In light of your crimes, it immediately rescinds the authorization it previously granted.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_HEAVNZ922_01987_TODO_00",
+    "original": "Slay adamantite claws.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_HEAVNZ922_01987_TODO_01",
+    "original": "Report to the logistics node.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_000",
+    "original": "\u003Chex:020946E948FF0548797572FF07456C657A656EFF094C616C6166656C6CFF084D69716F277465FF09526F65676164796EFF064175205261FF0948726F7468676172FF06566965726103\u003E, please help! The freight-handling subsystem never received a deactivation command and has been running for five thousand and twelve years, eight months, and two days.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_001",
+    "original": "Unfortunately, I do not have direct control over that subsystem and cannot issue an override command to deactivate it. Due to the severity of the situation, I am authorizing you to deactivate the affected units. At least four adamantite claws must be deactivated.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_010",
+    "original": "\u003Chex:020946E948FF0548797572FF07456C657A656EFF094C616C6166656C6CFF084D69716F277465FF09526F65676164796EFF064175205261FF0948726F7468676172FF06566965726103\u003E, please find and deactivate four of the non-responsive adamantite claws.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_020",
+    "original": "\u003Cbeep\u003E \u003Cbeep\u003E Freight-handling units confirmed destroyed. \u003Chex:020946E948FF0548797572FF07456C657A656EFF094C616C6166656C6CFF084D69716F277465FF09526F65676164796EFF064175205261FF0948726F7468676172FF06566965726103\u003E, you were authorized to deactivate these units. You were not authorized to destroy them!",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_021",
+    "original": "Your authorization has been revoked and your crimes have been registered with the central justice authority.",
+    "translation": ""
+  }
+}

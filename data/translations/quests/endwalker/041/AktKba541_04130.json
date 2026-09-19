@@ -1,0 +1,542 @@
+{
+  "0": {
+    "tag": "TEXT_AKTKBA541_04130_SEQ_00",
+    "original": "The set of Artoirel\u0027s jaw betrays a hint of anxiety.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_AKTKBA541_04130_SEQ_01",
+    "original": "With an air of solemnity, Artoirel informs you that the ecumenical council will soon be held. This council, he explains, is the highest assembly in the Ishgardian Orthodox Church, where participants gather to deliberate and decide upon changes to church doctrine. Traditionally, only the archbishop and the members of the Synod sit in attendance, but on this occasion the doors will be thrown open to the general public. While Artoirel and Clem go on ahead to the Vault, you are tasked with fetching Aymeric, who has headed to the Last Vigil to gather his thoughts ahead of this momentous event.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_AKTKBA541_04130_SEQ_02",
+    "original": "You find Aymeric deep in thought, pondering the difficult choices he has made, and what he must do in order to build a united Ishgard for one and all. With the appointed hour nigh, he suggests that you begin making your way to the Vault together.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_AKTKBA541_04130_SEQ_03",
+    "original": "You begin walking with Aymeric to the Vault, and at his behest first head to Fortemps Manor.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BYou must be accompanied by Aymeric to complete this task. Speak with him again at the Last Vigil should you become separated.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_AKTKBA541_04130_SEQ_04",
+    "original": "Standing before Fortemps Manor, Aymeric fondly recalls your time as wards of House Fortemps, and thanks you again for the many changes you set in motion by coming to Ishgard. You then set out once more, next making for the Architects.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_AKTKBA541_04130_SEQ_05",
+    "original": "Pausing at the Architects, Aymeric reflects upon the crimes of the founding fathers. If Ishgard is to forge a new future, he declares, it must decide how it will confront its complicated past. His musings thus concluded, the two of you continue on to join Clem at the Vault.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_AKTKBA541_04130_SEQ_06",
+    "original": "Thus does the ecumenical council commence\u2500the first in generations and first ever with the general public in attendance. Friction is initially evident between opposing factions of the clergy, but thanks to your companions\u0027 sage mediation and guidance, they are able to find common ground. In renewing their commitment to their shared faith in Halone and acknowledging the mistakes of the past, the church shall take its first step towards reform, that it might again serve as a beacon of hope for the people.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BIn the event that you leave the strategy room, you may re-enter by speaking with the Temple Knight guard at the Congregation of Our Knights Most Heavenly.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_AKTKBA541_04130_SEQ_07",
+    "original": "Back at the Congregation, you and your companions share your relief at the success of the council. Now that the church has seemingly weathered the worst of this crisis, you may turn your attention wholly upon the task of dealing with Profane Fafnir.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe next role quest will be available from Artoirel upon reaching level 90 in any magical ranged DPS class.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_AKTKBA541_04130_TODO_00",
+    "original": "Speak with Aymeric at the Last Vigil.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_AKTKBA541_04130_TODO_01",
+    "original": "Speak with Aymeric and have him accompany you.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_AKTKBA541_04130_TODO_02",
+    "original": "Accompany Aymeric to Fortemps Manor and then speak with him.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_AKTKBA541_04130_TODO_03",
+    "original": "Accompany Aymeric to the Architects and then speak with him.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_AKTKBA541_04130_TODO_04",
+    "original": "Speak with Clem while accompanied by Aymeric.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_AKTKBA541_04130_TODO_05",
+    "original": "Speak with Aymeric in the strategy room.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_AKTKBA541_04130_ARTOIREL_000_000",
+    "original": "Ah, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Owing to Lord Aymeric\u0027s swift action, I am pleased to say that the ecumenical council will soon be held.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_AKTKBA541_04130_ARTOIREL_000_001",
+    "original": "In case you are unaware, the council is the highest assembly in the Ishgardian Orthodox Church, its purpose to deliberate and decide upon doctrine.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_AKTKBA541_04130_ARTOIREL_000_002",
+    "original": "The previous one was held no less than eighty years ago, and four archbishops have since come and gone. As such, most Ishgardians know little of it save that which they have read in the historical records.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_AKTKBA541_04130_ARTOIREL_000_003",
+    "original": "Traditionally, the archbishop and members of the Synod would meet behind closed doors. In light of Bishop Vartinoix\u0027s fate, however, this time the doors will be thrown open to the public.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_AKTKBA541_04130_CLEM_000_004",
+    "original": "Indeed. For the first time in history, all men and women of the faith may have a hand in shaping the mission and the teachings of the church.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_AKTKBA541_04130_CLEM_000_005",
+    "original": "\u0027Tis my hope that you will also join us in this endeavor.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_AKTKBA541_04130_ARTOIREL_000_006",
+    "original": "Deacon Clem, allow me to express our gratitude for your efforts in facilitating the council. We appreciate the difficulty of your position.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_AKTKBA541_04130_CLEM_000_007",
+    "original": "I merely heed my conscience and my faith, my lord.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_AKTKBA541_04130_CLEM_000_008",
+    "original": "Acting in Bishop Vartinoix\u0027s stead, I shall do all within my power to see that the church may serve the people once more.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_AKTKBA541_04130_CLEM_000_009",
+    "original": "Where is the lord speaker, if I may ask?",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_AKTKBA541_04130_ARTOIREL_000_010",
+    "original": "He stepped outside for a moment, saying that he wished to gather his thoughts ahead of the council. The hour draws nigh, however...",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_AKTKBA541_04130_ARTOIREL_000_011",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u2500I shall proceed to the Vault with the good deacon. In the meantime, may I ask you to find Lord Aymeric? He should be at the Last Vigil, I believe.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_020",
+    "original": "Oh, \u0027tis you, my friend. Is it time already?",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_021",
+    "original": "I see... My apologies for making you come and fetch me.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_022",
+    "original": "I have been thinking, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. On the path I have chosen to walk, and on those who have been left behind as a consequence of my actions.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_023",
+    "original": "Those who died fighting... Those burdened with boundless grief... Those deprived of position and purpose...",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_024",
+    "original": "Like any nation, Ishgard is made up of disparate souls with disparate beliefs. Without an enemy to unite us, we recall the differences we once set aside out of necessity, and find amongst our old friends new ideological foes.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_025",
+    "original": "The future I had envisioned... \u0027Tis far more difficult to secure than I ever imagined.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_026",
+    "original": "What must I do for our people to live in harmony? For our nation to move forward as one?",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_027",
+    "original": "Such questions I have been pondering...",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_028",
+    "original": "We should begin making our way to the council. Shall we continue our conversation while we walk?",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_030",
+    "original": "Ready? Then let us be off.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_031",
+    "original": "If it is agreeable, I would like to look on Fortemps Manor.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_AKTKBA541_04130_Q1_000_032",
+    "original": "To be deleted.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_AKTKBA541_04130_SYSTEM_000_032",
+    "original": "Aymeric is now accompanying you. Keep him at your side in order to proceed with quest objectives.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_AKTKBA541_04130_SYSTEM_000_033",
+    "original": "You can leave Aymeric behind by entering a different area, or by speaking with him and selecting the option to part ways.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_AKTKBA541_04130_SYSTEM_000_034",
+    "original": "If you wish to have Aymeric accompany you again, return and speak with him at the original location.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_AKTKBA541_04130_SYSTEM_000_035",
+    "original": "You must be accompanied by Aymeric and have him at your side in order to proceed with quest objectives.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_AKTKBA541_04130_SYSTEM_000_036",
+    "original": "Aymeric has yet to arrive. Be sure he is at your side before attempting to continue.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_AKTKBA541_04130_Q1_000_000",
+    "original": "What will you do?",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_AKTKBA541_04130_A1_000_001",
+    "original": "Speak with Aymeric.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_AKTKBA541_04130_A1_000_002",
+    "original": "Part ways with Aymeric.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_AKTKBA541_04130_A1_000_003",
+    "original": "Nothing.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_037",
+    "original": "Though we haven\u0027t much time, I am glad for the opportunity to stroll about the city with you.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_AKTKBA541_04130_SYSTEM_000_038",
+    "original": "Are you sure you wish to part ways with Aymeric?",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_039",
+    "original": "Have business to attend to before the council, do you? Very well. Perhaps I shall take a moment more to compose myself...",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_100_039",
+    "original": "Ready for the council? Then let us make our way to the Vault.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_040",
+    "original": "It feels like another age that you and yours were no more than foreign wards of House Fortemps. And in actual fact, it may be considered so.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_041",
+    "original": "For your coming set in motion a chain of events that brought an end to the Dragonsong War, ushering in a new age of harmony.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_042",
+    "original": "You paved the way for meaningful change in our nation, and for that you shall ever have my gratitude.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_043",
+    "original": "Now then, shall we continue on to the Architects?",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_050",
+    "original": "King Thordan and his knights twelve. The murderers of Ratatoskr... Since the truth of their ancient crime came to light, many have demanded that these images be torn down.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_051",
+    "original": "Yet though what our founding fathers did was wrong, neither is it right to simply expunge them and their deeds from history. To do so would be to deny our people\u0027s part in what followed for a thousand years.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_052",
+    "original": "We have the chance to forge a new future, but we, as a nation, must decide how we will confront our past...",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_053",
+    "original": "...Forgive me, I was lost in thought yet again. Let us join Deacon Clem at the Vault.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_AKTKBA541_04130_CLEM_000_055",
+    "original": "Oh, is Lord Aymeric not with you? I was under the impression that you would be coming together...",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_AKTKBA541_04130_CLEM_000_056",
+    "original": "There is still some time before the council convenes. If you have other matters you must attend to first, you may yet see to them.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_AKTKBA541_04130_CLEM_000_060",
+    "original": "There you are, my friends. The council is about to convene. Let us take our place in the audience hall.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_201",
+    "original": "Esteemed members of the clergy and honored adherents of the faith. I thank you all for your attendance.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_202",
+    "original": "In recent days, our nation has been racked by a series of tragedies: those among us who do Halone\u0027s work have been transformed into abominations.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_203",
+    "original": "This dreadful phenomenon has been brought about by the Final Days, and it is upon our despair and anguish that it feeds. Thus, if we are to prevent further tragedy, we must strive to ensure that all Ishgardians, clergymen and citizens alike, abide with peace and love for one another in their hearts.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_204",
+    "original": "To that end have I called this ecumenical council, the first in generations, that we might together determine a path forward for the church and our society as a whole.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_AKTKBA541_04130_CLEM_000_205",
+    "original": "Since antiquity, the Ishgardian Orthodox Church served the people in two respects: as the Fury\u0027s spear to strike at the heart of dragonkind, and as the Fury\u0027s shield to safeguard the souls of men.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_AKTKBA541_04130_CLEM_000_206",
+    "original": "But now that we are at peace with the Dravanians, the church need no longer serve as the spear. And so we must now reconsider how we might better serve as a shield for our brethren.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_AKTKBA541_04130_CLERGYMANA04131_000_207",
+    "original": "The hierarchy must be reformed, and for that we need accountability. The upper echelon must be stripped of rank at a minimum, and investigations conducted\u2500trials held, if the evidence is sufficiently damning. And then we may turn our attention to their doctrine of lies.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_AKTKBA541_04130_CLERGYMANB04131_000_208",
+    "original": "As our predecessors did before us, we of the Synod have ever sought to interpret the scriptures to the best of our ability, and thence conveyed Halone\u0027s will to the people.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_AKTKBA541_04130_CLERGYMANB04131_000_209",
+    "original": "Such fervent pursuit of retribution at the expense of doctrine would come also at the expense of our faith.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_AKTKBA541_04130_ISHGARDIAN04131_000_210",
+    "original": "Have we won the war to lose our souls? O Halone, are we outside Your grace?",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_AKTKBA541_04130_ARTOIREL_000_211",
+    "original": "This bodes ill... At this rate, someone might turn...",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_212",
+    "original": "Since the war\u0027s end, the church and the faithful have stood at a crossroads, unable to take the next step forward.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_213",
+    "original": "His Grace Bishop Vartinoix\u2500may he walk in Halone\u0027s halls\u2500was one such soul, and in his longing for simpler times, he resorted to using forbidden magicks. He succumbed to despair.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_214",
+    "original": "In our minds we renounce the lies upon which our nation was built, but in our hearts we yearn for the righteousness\u2500misguided though it was\u2500that gave us comfort and purpose for so long.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_215",
+    "original": "So let us not forget who we were.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_216",
+    "original": "Let us confront the mistakes of the past and learn from them, that we do not repeat the mistakes of our forefathers.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_AKTKBA541_04130_CLEM_000_217",
+    "original": "As fervently as we believed in our sacred duty, we struggle to accept the church\u0027s deception and embrace change.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_AKTKBA541_04130_CLEM_000_218",
+    "original": "The legacy of Thordan weighs heavy, and there is the temptation to simply cast it aside like a mantle that suits us no longer.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_AKTKBA541_04130_CLEM_000_219",
+    "original": "Yet that would dishonor the sacrifice of those who went before. Countless souls who served the people with purest intent. And so, heavy though it may be, let us together bear this burden as we set forth anew.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_AKTKBA541_04130_ARTOIREL_000_220",
+    "original": "Our friend \u003Chex:022C0DFF07022903EB0203FF02200203\u003E risked life and limb to reveal the truth to us. The truth that our legends and our scripture were tainted by betrayal. But not wholly corrupted.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_AKTKBA541_04130_ARTOIREL_000_221",
+    "original": "Though the great walls and towering spires of our city may have been built with murder and deception, they rest upon a foundation immutable and true: our devotion to Halone, whom we have worshipped since before our forefathers settled these lands.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_AKTKBA541_04130_ARTOIREL_000_222",
+    "original": "The church is a font of practical wisdom, and its teachings guide us in our daily lives. Such things define our faith no less than the lies. We can acknowledge our sins without renouncing our religion.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_AKTKBA541_04130_CLERGYMANA04131_000_223",
+    "original": "Aye...and without rejecting who we are...",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_AKTKBA541_04130_CLERGYMANB04131_000_224",
+    "original": "A comprehensive review of scripture as well as historical literature will be necessary. Revisions, as appropriate, must be made to ensure that the truth of our past is preserved for future generations.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_AKTKBA541_04130_GERRALDIEUX_000_225",
+    "original": "With your peerless knowledge of church doctrine, I daresay none is better suited to leading that effort than you.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_AKTKBA541_04130_GERRALDIEUX_000_226",
+    "original": "I also expect that many eyes will be required to pore over all the tomes. And I know many idle men and women of faith who would jump at the chance to do Halone\u0027s work once more.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_227",
+    "original": "That day so very long ago, I had no answer to my father\u0027s words. But it seems the people had it within them all along.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_AKTKBA541_04130_ARTOIREL_000_230",
+    "original": "\u0027Tis well Lord Aymeric interjected when he did.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_AKTKBA541_04130_CLEM_000_235",
+    "original": "With this, the church and the people have taken their first step towards a brighter future.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_240",
+    "original": "The council went better than I had dared hope.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_AKTKBA541_04130_ARTOIREL_000_241",
+    "original": "Truly. While the details remain to be decided, \u0027twas a resounding success.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_AKTKBA541_04130_CLEM_000_242",
+    "original": "Your words helped everyone to find common ground. I know not how to thank you.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_243",
+    "original": "Much credit must go to \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. In the face of great hardship, never did \u003Chex:02080CE905FF04736865FF03686503\u003E hesitate to press on, and our people have not forgotten this.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_AKTKBA541_04130_CLEM_000_244",
+    "original": "Indeed. Well do I remember the day you flew into Ishgard upon a dragon\u0027s back. In making possible the impossible, you inspired us all.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_AKTKBA541_04130_CLEM_000_245",
+    "original": "In you we glimpse the Fury, a vision of courage in the face of uncertainty. Looking to your example, we shall endeavor to bring about change to the church\u2500for the future of all Ishgardians.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_AKTKBA541_04130_CLEM_000_246",
+    "original": "There will, of course, still be those souls who struggle to rise above the mire of despair. But my fellows and I shall be there to take their hand in faith and love.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_AKTKBA541_04130_CLEM_000_247",
+    "original": "For what is faith if not salvation?",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_AKTKBA541_04130_CLEM_000_248",
+    "original": "Well, I had best return to the cathedral. We have much and more to do!",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_AKTKBA541_04130_CLEM_000_249",
+    "original": "Ah, but ere I forget\u2500I have tracked down that which you requested. Some repairs will be necessary, but it will be seen to with all haste.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_AKTKBA541_04130_ARTOIREL_000_250",
+    "original": "To be deleted.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_251",
+    "original": "I had tasked the deacon with finding a certain item, you see\u2500a secret weapon, one might say. Given what we know of Profane Fafnir, I suspect it will be of great use in our hunt.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_252",
+    "original": "Once the repairs are complete, we shall be ready to strike.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_AKTKBA541_04130_ARTOIREL_000_253",
+    "original": "With the church having reached an accord with the people, the risk of more clergymen turning is greatly diminished. We may now focus entirely on the blasphemy.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_AKTKBA541_04130_AYMERIC_000_254",
+    "original": "\u0027Tis time we freed Vaindreau from his torment. Rest while you can, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, for I daresay the coming battle will demand the best of us.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_AKTKBA541_04130_CASTERGATEKEEPER_000_500",
+    "original": "Heading to the strategy room? I should be glad to show you in.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_AKTKBA541_04130_SYSTEM_000_501",
+    "original": "Proceed to the strategy room?",
+    "translation": ""
+  }
+}

@@ -1,0 +1,596 @@
+{
+  "1": {
+    "name": "Stance",
+    "translation_name": "Fodera/Estrai Arma",
+    "description": "Sheathe/unsheathe your main arm.",
+    "translation_description": "Fodera o estrae l\u0027arma principale del personaggio."
+  },
+  "2": {
+    "name": "Character",
+    "translation_name": "Personaggio",
+    "description": "Displays vital information about your character, including attributes, currently equipped gear, titles, and more.",
+    "translation_description": "Mostra le informazioni vitali del tuo personaggio: attributi, equipaggiamento attuale, titoli e altro ancora."
+  },
+  "3": {
+    "name": "Actions \u0026 Traits",
+    "translation_name": "Azioni e Tratti",
+    "description": "View and manage the actions and traits available to your character, as well as set them to your hotbars.",
+    "translation_description": "Visualizza e gestisci le azioni e i tratti disponibili per il tuo personaggio e assegnali alle barre delle azioni (hotbar)."
+  },
+  "4": {
+    "name": "Journal",
+    "translation_name": "Diario di Viaggio",
+    "description": "Displays a list of all current and completed quests, levequests, and company missions. From this list, objectives and locations can be confirmed, and duty can be abandoned.",
+    "translation_description": "Mostra l\u0027elenco di tutte le missioni in corso e completate, dei mandati e degli incarichi di compagnia. Permette di verificare obiettivi, luoghi o abbandonare un incarico."
+  },
+  "5": {
+    "name": "Timers",
+    "translation_name": "Promemoria Timer",
+    "description": "Displays time remaining for various duties such as allied society dailies and levequest allowance allotment.",
+    "translation_description": "Mostra il tempo residuo per vari incarichi ciclici, come le missioni giornaliere delle Societ\u00E0 Alleate e l\u0027assegnazione dei mandati."
+  },
+  "6": {
+    "name": "Achievements",
+    "translation_name": "Traguardi",
+    "description": "Displays a list of in-game achievements, as well as the conditions for obtaining them.",
+    "translation_description": "Mostra l\u0027elenco degli obiettivi e traguardi di gioco con le relative condizioni necessarie per conseguirli."
+  },
+  "7": {
+    "name": "Gathering Log",
+    "translation_name": "Registro di Raccolta",
+    "description": "Displays information on items previously gathered, as well as mining and logging locations categorized by area.",
+    "translation_description": "Mostra le informazioni sugli oggetti gi\u00E0 raccolti, nonch\u00E9 le zone minerarie e boschive suddivise per regione."
+  },
+  "8": {
+    "name": "Hunting Log",
+    "translation_name": "Registro di Caccia",
+    "description": "Displays a list of hunting objectives for Disciples of War and Magic. Information on monster habitat, kills recorded, and experience earned is also available.",
+    "translation_description": "Elenca gli obiettivi di caccia per i Discepoli della Guerra e della Magia, indicando l\u0027habitat dei mostri, le uccisioni registrate e l\u0027esperienza ottenuta."
+  },
+  "9": {
+    "name": "Crafting Log",
+    "translation_name": "Registro di Creazione",
+    "description": "Opens the crafting interface from which you can select items to synthesize.",
+    "translation_description": "Apre l\u0027interfaccia di artigianato da cui selezionare e fabbricare oggetti."
+  },
+  "10": {
+    "name": "Inventory",
+    "translation_name": "Inventario",
+    "description": "Displays a list of all crystals and items in your inventory. From this list, items can be equipped, used, discarded, or sorted.",
+    "translation_description": "Mostra tutti gli oggetti e i cristalli nell\u0027inventario. Da qui puoi equipaggiarli, usarli, scartarli o ordinarli."
+  },
+  "11": {
+    "name": "Key Items",
+    "translation_name": "Oggetti Chiave",
+    "description": "Displays a list of items used only in specific quests. If a quest is abandoned, all key items associated with it will be discarded.",
+    "translation_description": "Mostra gli oggetti speciali utilizzati esclusivamente per missioni specifiche. Se abbandoni una missione, i relativi oggetti chiave andranno perduti."
+  },
+  "12": {
+    "name": "Party Members",
+    "translation_name": "Membri del Gruppo",
+    "description": "Displays a list of your current party members. From this list you can change member order, and if you are leader, kick other players or dissolve the party altogether.",
+    "translation_description": "Mostra l\u0027elenco dei membri attuali del gruppo. Permette di modificare l\u0027ordine e, se sei il capo gruppo, espellere giocatori o sciogliere il gruppo."
+  },
+  "13": {
+    "name": "Friend List",
+    "translation_name": "Lista Amici",
+    "description": "Displays a list of players on your friend list. From this list you can send /tell messages or invite players to a party.",
+    "translation_description": "Mostra i giocatori aggiunti alla lista amici. Da qui puoi inviare sussurri (/tell) o invitarli in un gruppo."
+  },
+  "14": {
+    "name": "Blacklist",
+    "translation_name": "Lista Nera",
+    "description": "Displays a list of players you have added to your blacklist. Not only will their characters and messages be hidden, but they will be unable to trade with you or invite you to parties.",
+    "translation_description": "Mostra i giocatori inseriti nella lista nera. I loro personaggi e messaggi verranno nascosti e non potranno commerciare con te n\u00E9 invitarti in un gruppo."
+  },
+  "15": {
+    "name": "Player Search",
+    "translation_name": "Ricerca Giocatori",
+    "description": "Search for other players using variables such as name, class, level, and online status.",
+    "translation_description": "Cerca altri giocatori in base a parametri come nome, classe, livello e stato online."
+  },
+  "16": {
+    "name": "Map",
+    "translation_name": "Mappa",
+    "description": "Opens the map of your current location. Maps contain information on party members, aetherytes, shops, guilds, and quest destinations. Maps can also be zoomed in or out, or swapped with region or world maps.",
+    "translation_description": "Apre la mappa della posizione attuale. Mostra i membri del gruppo, le eteriti, i mercanti, le gilde e le destinazioni delle missioni."
+  },
+  "17": {
+    "name": "Emotes",
+    "translation_name": "Moviole ed Emote",
+    "description": "Displays a list of available emote commands which can be executed from the list, or set to your hotbar.",
+    "translation_description": "Mostra l\u0027elenco delle moviole ed emote disponibili, eseguibili direttamente o assegnabili alla barra delle azioni."
+  },
+  "18": {
+    "name": "Signs",
+    "translation_name": "Contrassegni",
+    "description": "Mark targets with various different signs to make them easier for party and alliance members to distinguish.",
+    "translation_description": "Contrassegna i bersagli con vari simboli per renderli facilmente distinguibili dai membri del gruppo e dell\u0027alleanza."
+  },
+  "19": {
+    "name": "System Configuration",
+    "translation_name": "Configurazione di Sistema",
+    "description": "Adjust system-related settings such as graphics, sound, \u003Chex:02081AE1E94C01FF0B636F6E74726F6C6C6572FF0867616D6570616403\u003E functionality, and more.",
+    "translation_description": "Regola le impostazioni di sistema come grafica, audio, periferiche e altre opzioni avanzate."
+  },
+  "20": {
+    "name": "Keybind",
+    "translation_name": "Assegnazione Tasti",
+    "description": "Map various in-game functions to your keyboard to better suit your play style.",
+    "translation_description": "Mappa le funzioni di gioco sui tasti della tastiera per adattarle alle tue preferenze."
+  },
+  "21": {
+    "name": "User Macros",
+    "translation_name": "Macro Utente",
+    "description": "Create and save multi-step macros to execute complex commands with a single button press. Macros can be assigned icons and set to your hotbar for easy access.",
+    "translation_description": "Crea e memorizza sequenze di comandi (macro) per eseguire azioni complesse con la pressione di un singolo tasto."
+  },
+  "22": {
+    "name": "HUD Layout",
+    "translation_name": "Disposizione HUD",
+    "description": "Adjust the location, size, and display status of all user-interface components and save them to templates.",
+    "translation_description": "Modifica la posizione, le dimensioni e la visibilit\u00E0 di tutti gli elementi dell\u0027interfaccia e salvali in configurazioni personalizzate."
+  },
+  "23": {
+    "name": "Log Out",
+    "translation_name": "Disconnetti",
+    "description": "Log out and return to the title screen.",
+    "translation_description": "Termina la sessione corrente e torna alla schermata del titolo."
+  },
+  "24": {
+    "name": "Exit Game",
+    "translation_name": "Esci dal Gioco",
+    "description": "Log out and exit the game.",
+    "translation_description": "Termina la sessione corrente e chiudi l\u0027applicazione di gioco."
+  },
+  "25": {
+    "name": "Armoury Chest",
+    "translation_name": "Arsenale",
+    "description": "Displays gear stored in your Armoury Chest. All gear obtained is automatically moved to the chest and sorted by type. From here it can be equipped, repaired, or returned to your inventory.",
+    "translation_description": "Mostra l\u0027equipaggiamento conservato nell\u0027Arsenale, ordinato automaticamente per tipo. Da qui puoi equipaggiarlo, ripararlo o spostarlo nell\u0027inventario."
+  },
+  "27": {
+    "name": "Free Company",
+    "translation_name": "Compagnia Libera",
+    "description": "Opens the Free Company interface, where you can access company information, view and leave messages, and execute company commands.",
+    "translation_description": "Apre l\u0027interfaccia della Compagnia Libera per visualizzare informazioni, leggere bacheche ed eseguire comandi di compagnia."
+  },
+  "28": {
+    "name": "Linkshells",
+    "translation_name": "Fonosfere",
+    "description": "Displays a list of all linkshell members for all your linkshells.",
+    "translation_description": "Mostra l\u0027elenco di tutti i membri appartenenti alle tue fonosfere attive."
+  },
+  "29": {
+    "name": "Fishing Log",
+    "translation_name": "Diario di Pesca",
+    "description": "Displays information on your previous catches, as well as fishing hole locations categorized by area.",
+    "translation_description": "Mostra le informazioni sui pesci catturati in precedenza e le zone di pesca suddivise per regione."
+  },
+  "30": {
+    "name": "Active Help",
+    "translation_name": "Guida Attiva",
+    "description": "Displays a list of all previously viewed active help tutorials.",
+    "translation_description": "Mostra l\u0027archivio di tutte le guide e tutorial di gioco visualizzati in precedenza."
+  },
+  "31": {
+    "name": "Recommendations",
+    "translation_name": "Consigliati",
+    "description": "Displays a list of nearby quests and duties currently available.",
+    "translation_description": "Mostra un elenco di missioni e incarichi disponibili nelle immediate vicinanze."
+  },
+  "32": {
+    "name": "Support Desk",
+    "translation_name": "Assistenza Clienti",
+    "description": "Search for answers to frequently asked questions, report issues, and confirm messages from the FINAL FANTASY XIV support team.",
+    "translation_description": "Consulta le risposte alle domande frequenti, segnala problemi o leggi le comunicazioni del team di supporto di FINAL FANTASY XIV."
+  },
+  "33": {
+    "name": "Duty Finder",
+    "translation_name": "Ricerca Incarichi",
+    "description": "Discover and join solo and party-based duties such as instanced raids and guildhests without having to gather a party yourself.",
+    "translation_description": "Cerca e affronta incarichi in solitaria o di gruppo, come spedizioni nei dungeon, raid e guildhest, senza dover comporre manualmente una squadra."
+  },
+  "34": {
+    "name": "Character Configuration",
+    "translation_name": "Configurazione Personaggio",
+    "description": "Adjust character-related settings such as camera type, targeting functionality, hotbar commands, and chat log preferences.",
+    "translation_description": "Regola le preferenze relative al personaggio, come inquadratura, modalit\u00E0 di aggancio bersaglio, hotbar e filtri della chat."
+  },
+  "35": {
+    "name": "Teleport",
+    "translation_name": "Teletrasporto",
+    "description": "Instantly travel to any aetheryte to which you have previously attuned. A fee will be collected upon your arrival.",
+    "translation_description": "Viaggia istantaneamente verso qualsiasi eterite con cui ti sei precedentemente sintonizzato, dietro pagamento di una tariffa in gil."
+  },
+  "36": {
+    "name": "Return",
+    "translation_name": "Rientro",
+    "description": "Instantly return to your current home point (or dungeon starting point). No aetheryte usage fee is required, but you can only use the spell once every 15 minutes (Earth time).",
+    "translation_description": "Ritorna istantaneamente al punto di ritorno designato (o all\u0027inizio del dungeon). Gratuito, utilizzabile una volta ogni 15 minuti."
+  },
+  "37": {
+    "name": "License",
+    "translation_name": "Contratto di Licenza",
+    "description": "Displays the FINAL FANTASY XIV end user license agreement.",
+    "translation_description": "Mostra il contratto di licenza con l\u0027utente finale (EULA) di FINAL FANTASY XIV."
+  },
+  "38": {
+    "name": "Logs",
+    "translation_name": "Registri",
+    "description": "\uFF08\u30D8\u30EB\u30D7\u7121\u3057\uFF09",
+    "translation_description": "Menu dei registri di gioco, imprese e attivit\u00E0."
+  },
+  "39": {
+    "name": "Social",
+    "translation_name": "Social",
+    "description": "\uFF08\u30D8\u30EB\u30D7\u7121\u3057\uFF09",
+    "translation_description": "Menu delle funzioni sociali, comunit\u00E0 e comunicazioni."
+  },
+  "40": {
+    "name": "System",
+    "translation_name": "Sistema",
+    "description": "\uFF08\u30D8\u30EB\u30D7\u7121\u3057\uFF09",
+    "translation_description": "Menu delle configurazioni e opzioni di sistema del gioco."
+  },
+  "41": {
+    "name": "Fish Guide",
+    "translation_name": "Guida ai Pesci",
+    "description": "Displays details on all the fish you have caught, where you caught them, as well as your personal records.",
+    "translation_description": "Mostra i dettagli di tutti i pesci catturati, i luoghi di pesca e i tuoi record personali."
+  },
+  "42": {
+    "name": "Companion",
+    "translation_name": "Compagno",
+    "description": "Displays information on your summonable companions, including level, class, and available actions.",
+    "translation_description": "Mostra le informazioni sui compagni evocabili (come il Chocobo da battaglia), inclusi livello, classe e azioni disponibili."
+  },
+  "43": {
+    "name": "Duty",
+    "translation_name": "Incarichi",
+    "description": "\uFF08\u30D8\u30EB\u30D7\u7121\u3057\uFF09",
+    "translation_description": "Menu per la ricerca e la gestione delle missioni e spedizioni."
+  },
+  "44": {
+    "name": "Housing",
+    "translation_name": "Alloggi",
+    "description": "Opens the Housing interface, where you can view and manage your estate.",
+    "translation_description": "Apre l\u0027interfaccia degli alloggi per gestire la tua tenuta o appartamento privato."
+  },
+  "45": {
+    "name": "Display Settings",
+    "translation_name": "Impostazioni Schermo",
+    "description": "Adjust display settings such as screen mode and resolution.",
+    "translation_description": "Regola le impostazioni dello schermo, come risoluzione, proporzioni e modalit\u00E0 finestra o schermo intero."
+  },
+  "46": {
+    "name": "Sound Settings",
+    "translation_name": "Impostazioni Audio",
+    "description": "Adjust various sound settings such as music and effects volume, and listening position.",
+    "translation_description": "Regola i vari volumi sonori: musica di sottofondo, effetti speciali, voci e posizione d\u0027ascolto."
+  },
+  "47": {
+    "name": "Graphics Settings",
+    "translation_name": "Impostazioni Grafiche",
+    "description": "Adjust various graphics settings in order to optimize performance on your system.",
+    "translation_description": "Regola i parametri di rendering grafico per ottimizzare le prestazioni sul tuo sistema."
+  },
+  "48": {
+    "name": "Mouse Settings",
+    "translation_name": "Impostazioni Mouse",
+    "description": "Adjust various mouse settings such as camera sensitivity.",
+    "translation_description": "Regola i parametri del puntatore del mouse, come la sensibilit\u00E0 dell\u0027inquadratura."
+  },
+  "49": {
+    "name": "\u003Chex:0242020203\u003E Settings",
+    "translation_name": "Impostazioni Controller",
+    "description": "Adjust various \u003Chex:022F08FF06024202020303\u003E settings such as vibration.",
+    "translation_description": "Regola i parametri del gamepad/controller, inclusa la vibrazione e la sensibilit\u00E0 degli analogici."
+  },
+  "50": {
+    "name": "Other Settings",
+    "translation_name": "Altre Impostazioni",
+    "description": "Adjust miscellaneous settings such as screenshot format and cutscene language.",
+    "translation_description": "Regola opzioni varie come il formato delle schermate catturate (screenshot) e la lingua dei filmati."
+  },
+  "51": {
+    "name": "Control Settings",
+    "translation_name": "Impostazioni Controlli",
+    "description": "Adjust various control settings such as movement and targeting.",
+    "translation_description": "Regola le modalit\u00E0 di movimento del personaggio e le regole di aggancio bersaglio."
+  },
+  "52": {
+    "name": "UI Settings",
+    "translation_name": "Impostazioni Interfaccia",
+    "description": "Adjust various UI settings such as HUD layout.",
+    "translation_description": "Regola i vari parametri dell\u0027interfaccia grafica (HUD) e la visibilit\u00E0 delle barre."
+  },
+  "53": {
+    "name": "Display Name Settings",
+    "translation_name": "Impostazioni Nomi a Schermo",
+    "description": "Adjust various settings pertaining to the information displayed above each character.",
+    "translation_description": "Regola la visualizzazione delle informazioni mostrate sopra ciascun personaggio o nemico."
+  },
+  "54": {
+    "name": "Hotbar Settings",
+    "translation_name": "Impostazioni Hotbar",
+    "description": "Adjust various settings for the hotbar.",
+    "translation_description": "Configura le barre di azione rapide (hotbar e cross-hotbar)."
+  },
+  "55": {
+    "name": "Log Window Settings",
+    "translation_name": "Impostazioni Finestra Log",
+    "description": "Adjust various log window settings such as font size and log filters.",
+    "translation_description": "Regola le impostazioni della finestra di chat e registro eventi, come dimensione dei caratteri e filtri."
+  },
+  "56": {
+    "name": "PvP Profile",
+    "translation_name": "Profilo PvP",
+    "description": "View PvP information for your character such as rank and performance records, and set PvP actions to your hotbars.",
+    "translation_description": "Visualizza le statistiche e i risultati PvP del tuo personaggio e assegna le azioni PvP alle barre."
+  },
+  "57": {
+    "name": "Party Finder",
+    "translation_name": "Ricerca Gruppo",
+    "description": "Find and recruit party members based on the specified conditions.",
+    "translation_description": "Cerca o recluta compagni di squadra in base a condizioni e obiettivi prestabiliti."
+  },
+  "58": {
+    "name": "Waymarks",
+    "translation_name": "Marcatori Tattici",
+    "description": "Place markers to guide your party and alliance members to a destination.",
+    "translation_description": "Posiziona marcatori sul terreno per guidare i membri del gruppo e dell\u0027alleanza durante le battaglie."
+  },
+  "59": {
+    "name": "Ready Check",
+    "translation_name": "Controllo Prontezza",
+    "description": "Confirm the readiness of other party and/or alliance members.",
+    "translation_description": "Avvia un controllo per confermare se tutti i membri del gruppo o dell\u0027alleanza sono pronti."
+  },
+  "60": {
+    "name": "Challenge Log",
+    "translation_name": "Registro delle Sfide",
+    "description": "Displays a list of challenges that you can undertake. Information on progress and rewards is also available. Progress in each category is reset every \u003Chex:020603120303\u003E\u003Chex:020942DDFF0753756E646179FF074D6F6E646179FF0854756573646179FF0A5765646E6573646179FF095468757273646179FF07467269646179FF09536174757264617903\u003E at \u003Chex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03\u003E \u003Chex:020810E0DB0DFF05702E6D2EFF05612E6D2E03\u003E (Earth time).",
+    "translation_description": "Mostra l\u0027elenco delle sfide settimanali affrontabili con progressi e ricompense, azzerate periodicamente."
+  },
+  "61": {
+    "name": "Mount Guide",
+    "translation_name": "Guida alle Cavalcature",
+    "description": "Displays detailed information on the mounts you have acquired.",
+    "translation_description": "Mostra informazioni dettagliate su tutte le cavalcature acquisite."
+  },
+  "62": {
+    "name": "Minion Guide",
+    "translation_name": "Guida ai Famigli",
+    "description": "Displays detailed information on the minions you have collected.",
+    "translation_description": "Mostra informazioni dettagliate su tutti i famigli (minion) collezionati."
+  },
+  "63": {
+    "name": "Accessibility Settings",
+    "translation_name": "Impostazioni Accessibilit\u00E0",
+    "description": "Adjust various gameplay and UI settings to make the game easier to hear, see, and use.",
+    "translation_description": "Regola le opzioni speciali per facilitare l\u0027ascolto, la visione e l\u0027uso dell\u0027interfaccia di gioco."
+  },
+  "64": {
+    "name": "Sightseeing Log",
+    "translation_name": "Diario di Esplorazione",
+    "description": "Displays information on sightseeing vistas.",
+    "translation_description": "Mostra i panorami e le meraviglie scoperte esplorando le terre di Eorzea."
+  },
+  "65": {
+    "name": "Gold Saucer",
+    "translation_name": "Gold Saucer",
+    "description": "Displays various information pertaining to the Gold Saucer, including MGP in possession, Cactpot draw times, Triple Triad tournament results, personal deck makeup, Lord of Verminion hotbar and Doman mahjong settings, and race chocobo status.",
+    "translation_description": "Mostra le informazioni relative al Gold Saucer: MGP posseduti, estrazioni Cactpot, Triple Triad e Chocobo da corsa."
+  },
+  "66": {
+    "name": "Currency",
+    "translation_name": "Valute",
+    "description": "Displays information on all currencies in possession.",
+    "translation_description": "Mostra il saldo di tutte le valute, gettoni e sigilli in tuo possesso."
+  },
+  "67": {
+    "name": "Aether Currents",
+    "translation_name": "Correnti Eteriche",
+    "description": "Displays attunement information for aether currents.",
+    "translation_description": "Mostra lo stato di sintonia con le correnti eteriche necessarie per consentire il volo nelle varie regioni."
+  },
+  "68": {
+    "name": "Playguide",
+    "translation_name": "Guida al Gioco",
+    "description": "Opens a menu granting access to the official FINAL FANTASY XIV website, the Lodestone.",
+    "translation_description": "Apre il menu di accesso al sito ufficiale e portale della community The Lodestone."
+  },
+  "69": {
+    "name": "Orchestrion List",
+    "translation_name": "Spartiti dell\u0027Orchestrion",
+    "description": "Displays information on orchestrion rolls obtained.",
+    "translation_description": "Mostra l\u0027archivio dei rulli musicali per l\u0027Orchestrion collezionati nel corso delle avventure."
+  },
+  "70": {
+    "name": "Hall of the Novice",
+    "translation_name": "Sala dei Novizi",
+    "description": "Grants entrance to the Hall of the Novice and access to their regimen of training exercises designed to teach new Disciples of War and Magic the basics of combat for tank, healer, and DPS roles.",
+    "translation_description": "Accedi agli esercizi d\u0027addestramento per apprendere le basi del combattimento per difensori (Tank), guaritori (Healer) e assalitori (DPS)."
+  },
+  "71": {
+    "name": "Item Settings",
+    "translation_name": "Impostazioni Oggetti",
+    "description": "Adjust various item and inventory settings.",
+    "translation_description": "Configura le preferenze relative alla gestione degli oggetti e dell\u0027inventario."
+  },
+  "72": {
+    "name": "Raid Finder",
+    "translation_name": "Ricerca Raid",
+    "description": "Challenge the latest high-level raids. Adjustable search settings allow for solo players or parties under the minimum member requirements to be matched with players with the same goals.",
+    "translation_description": "Trova compagni per affrontare i raid di alto livello pi\u00F9 impegnativi con condizioni avanzate."
+  },
+  "73": {
+    "name": "Countdown",
+    "translation_name": "Conto alla Rovescia",
+    "description": "Set and display a numerical countdown visible by all party and alliance members.",
+    "translation_description": "Imposta e avvia un conto alla rovescia numerico visibile da tutti i membri del gruppo."
+  },
+  "74": {
+    "name": "Contacts",
+    "translation_name": "Giocatori Recenti",
+    "description": "Displays a list of players with whom you have most recently partied. Players on the list can be added to your friend list.",
+    "translation_description": "Mostra i giocatori con cui hai fatto gruppo di recente per consentirne l\u0027aggiunta agli amici."
+  },
+  "75": {
+    "name": "Mount Speed",
+    "translation_name": "Velocit\u00E0 Cavalcatura",
+    "description": "Displays mount movement speed for every area.",
+    "translation_description": "Mostra il livello di velocit\u00E0 raggiunto dalle cavalcature in ciascuna area geografica."
+  },
+  "76": {
+    "name": "Duty Recorder",
+    "translation_name": "Registratore Incarichi",
+    "description": "View recorded duties and adjust Duty Recorder settings.",
+    "translation_description": "Riguarda le battaglie registrate e configura le opzioni del registratore di incarichi."
+  },
+  "77": {
+    "name": "Chocobo Saddlebag",
+    "translation_name": "Bisacce del Chocobo",
+    "description": "Displays a list of all items in your chocobo saddlebag. From this list, items can be transferred to your inventory, or that of a retainer. Cannot be accessed while participating in instanced duties.",
+    "translation_description": "Mostra gli oggetti conservati nelle bisacce della tua cavalcatura chocobo per trasferirli nell\u0027inventario."
+  },
+  "78": {
+    "name": "PvP Team",
+    "translation_name": "Squadra PvP",
+    "description": "Displays information on your PvP team.",
+    "translation_description": "Mostra le informazioni e lo stato della tua squadra PvP."
+  },
+  "79": {
+    "name": "Record Ready Check",
+    "translation_name": "Controllo Prontezza Registrazione",
+    "description": "Confirm the readiness of other party and/or alliance members before recording a duty. Can only be used while on a recordable duty.",
+    "translation_description": "Verifica la prontezza dei membri del gruppo prima di iniziare la registrazione di un incarico."
+  },
+  "80": {
+    "name": "Cross-world Linkshells",
+    "translation_name": "Fonosfere Intermondo",
+    "description": "Create cross-world linkshells, confirm cross-world linkshell status, and invite players to join cross-world parties.",
+    "translation_description": "Crea e gestisci fonosfere attive tra diversi mondi dello stesso Data Center per comunicare con giocatori di altri server."
+  },
+  "81": {
+    "name": "Blue Magic Spellbook",
+    "translation_name": "Grimorio di Magia Blu",
+    "description": "Displays all learned blue magic spells. Here, spells can be added to and removed from your Active Actions.",
+    "translation_description": "Mostra tutti gli incantesimi di magia blu appresi e permette di selezionare le azioni attive."
+  },
+  "82": {
+    "name": "Trust",
+    "translation_name": "Compagni Spettrali (Trust)",
+    "description": "Assemble a party of phantasmal NPC allies to challenge instanced dungeons.",
+    "translation_description": "Forma un gruppo con le proiezioni eteriche dei personaggi alleati per esplorare i dungeon di storia in solitaria."
+  },
+  "83": {
+    "name": "Theme Settings",
+    "translation_name": "Impostazioni Tema",
+    "description": "Select a color scheme for the UI.",
+    "translation_description": "Seleziona lo stile cromatico e visivo per l\u0027interfaccia di gioco."
+  },
+  "84": {
+    "name": "Shared FATE",
+    "translation_name": "FATE Condivisi",
+    "description": "Displays progress for shared FATEs in applicable regions, including rank and number of FATEs completed with the highest rating possible.",
+    "translation_description": "Mostra i progressi nei FATE condivisi delle varie regioni e i relativi gradi di ricompensa."
+  },
+  "85": {
+    "name": "Fellowships",
+    "translation_name": "Confraternite",
+    "description": "Create fellowships and confirm fellowship status.",
+    "translation_description": "Crea e gestisci le confraternite della community e visualizzane lo stato."
+  },
+  "86": {
+    "name": "Fellowship Finder",
+    "translation_name": "Ricerca Confraternite",
+    "description": "View a list of fellowships currently recruiting members and join them.",
+    "translation_description": "Consulta l\u0027elenco delle confraternite che cercano nuovi membri ed entra a farne parte."
+  },
+  "87": {
+    "name": "Collection",
+    "translation_name": "Collezione",
+    "description": "Displays items of interest gathered during your adventures.",
+    "translation_description": "Mostra gli oggetti d\u0027interesse e le curiosit\u00E0 raccolte durante le tue avventure."
+  },
+  "88": {
+    "name": "New Game\u002B",
+    "translation_name": "Nuova Partita\u002B",
+    "description": "Replay your favorite quests at your current level.",
+    "translation_description": "Rivivi le tue storie e missioni preferite mantenendo il livello e l\u0027equipaggiamento attuali."
+  },
+  "89": {
+    "name": "Fashion Accessories",
+    "translation_name": "Accessori di Moda",
+    "description": "Displays a list of available fashion accessories.",
+    "translation_description": "Mostra l\u0027elenco degli accessori di stile posseduti, come ombrelli, ali e occhiali speciali."
+  },
+  "90": {
+    "name": "Official Sites",
+    "translation_name": "Siti Ufficiali",
+    "description": "Displays a list of official sites for FINAL FANTASY XIV.",
+    "translation_description": "Visualizza i collegamenti rapidi ai portali ufficiali di FINAL FANTASY XIV."
+  },
+  "91": {
+    "name": "Duty Support",
+    "translation_name": "Supporto Incarichi",
+    "description": "Assemble a party of NPC supporters to challenge instanced dungeons.",
+    "translation_description": "Forma una squadra di alleati guidati dal computer per affrontare i dungeon principali della storia."
+  },
+  "92": {
+    "name": "Portraits",
+    "translation_name": "Ritratti",
+    "description": "View your portrait gallery or edit portraits for each of your gear sets.",
+    "translation_description": "Visualizza la galleria dei ritratti del personaggio o modificali per ciascun set di equipaggiamento."
+  },
+  "93": {
+    "name": "Adventurer Plate",
+    "translation_name": "Targa dell\u0027Avventuriero",
+    "description": "Edit the appearance and content of your profile to share with other adventurers.",
+    "translation_description": "Personalizza l\u0027aspetto e il contenuto del tuo profilo pubblico da condividere con gli altri avventurieri."
+  },
+  "94": {
+    "name": "V\u0026C Dungeon Finder",
+    "translation_name": "Dungeon Varianti e Criterio",
+    "description": "Join variant and criterion dungeons, and adjust dungeon settings. View entries for story elements discovered in variant dungeons.",
+    "translation_description": "Partecipa a dungeon speciali con bivi narrativi e consulta gli elementi di trama scoperti."
+  },
+  "95": {
+    "name": "Facewear",
+    "translation_name": "Cosmetici Viso",
+    "description": "Select the type and style of facewear to be equipped by your character.",
+    "translation_description": "Seleziona il modello e lo stile degli accessori estetici per il viso (es. occhiali) equipaggiabili dal personaggio."
+  },
+  "96": {
+    "name": "Mute List",
+    "translation_name": "Lista Silenziati",
+    "description": "Displays a list of players you have added to your mute list. Messages from these characters will be hidden.",
+    "translation_description": "Mostra l\u0027elenco dei personaggi silenziati i cui messaggi non appariranno nel tuo registro chat."
+  },
+  "97": {
+    "name": "Term Filter",
+    "translation_name": "Filtro Termini",
+    "description": "Displays a list of words added to the Term Filter. From this list you can add, remove, or edit terms to be filtered from the chat log.",
+    "translation_description": "Configura l\u0027elenco delle parole sgradite da mascherare automaticamente nei messaggi della chat."
+  },
+  "98": {
+    "name": "Strategy Board",
+    "translation_name": "Lavagna Tattica",
+    "description": "View and create strategy boards to assist in overcoming challenging duties.",
+    "translation_description": "Visualizza e crea schemi tattici per coordinare la squadra nelle sfide pi\u00F9 impegnative."
+  },
+  "99": {
+    "name": "Configuration Sharing",
+    "translation_name": "Condivisione Configurazione",
+    "description": "Temporarily save hotbar and configuration settings for use on other characters.",
+    "translation_description": "Salva temporaneamente la disposizione delle barre e le impostazioni per applicarle ad altri personaggi."
+  },
+  "100": {
+    "name": "Master\u0027s Bestiary",
+    "translation_name": "Bestiario del Domatore",
+    "description": "Displays all captured beasts. Here, beasts can be assigned to and removed from your battlehorns.",
+    "translation_description": "Mostra tutte le creature catturate assegnabili o rimovibili dai tuoi corni di battaglia."
+  }
+}

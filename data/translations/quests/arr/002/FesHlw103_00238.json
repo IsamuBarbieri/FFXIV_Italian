@@ -1,0 +1,957 @@
+{
+  "0": {
+    "tag": "TEXT_FESHLW103_00238_SEQ_00",
+    "original": "Godriquelain is eager to resume his investigation of the Continental Circus.\u003Chex:02100103\u003E\u203BThis quest is available for a limited time only.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_FESHLW103_00238_SEQ_01",
+    "original": "Godriquelain has learned that the Continental Circus is recruiting volunteers for the costume parade it is hosting in Ul\u0027dah. As you have done thus far, you must pretend to cooperate with the twisted troupe, that you might uncover the details of its dark plot. Speak with the unsavory illusionist by the entrance to the Ruby Road Exchange, and offer your services to her.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_FESHLW103_00238_SEQ_02",
+    "original": "Desiring to spread word of the parade, the unsavory illusionist entrusts you with three flyers to hand out at the Quicksand. Head inside the tavern, and find likely recipients for the flyers.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BIf the illusion wears off, you may receive it again by speaking with the unsavory illusionist.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_FESHLW103_00238_SEQ_03",
+    "original": "You have handed out all three flyers. Report the completion of your task to the unsavory illusionist.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_FESHLW103_00238_SEQ_04",
+    "original": "Satisfied that the parade has been sufficiently advertised, the unsavory illusionist next bids you participate in the parade itself. While transfigured, take your place in the parade alongside your fellow adventurers, and cast the Festal Cant charm upon the citizens who have come to spectate.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe FATE \u201CMain Street Spectral Parade\u201D can be commenced by speaking with the ogre pumpkinhead on Emerald Avenue.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_FESHLW103_00238_SEQ_05",
+    "original": "In no small part due to your participation, the parade has proved to be a rousing success. Report the completion of your task to the unsavory illusionist.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_FESHLW103_00238_SEQ_06",
+    "original": "Having thanked you for your assistance, the unsavory illusionist lets it slip that she has a clandestine meeting with someone she calls the Impresario. In spite of her earnest request that you do not follow her, your instincts tell you that this is a meeting you do not want to miss. Make your way to the Gold Court, and find a suitable place to observe the rendezvous.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_FESHLW103_00238_SEQ_07",
+    "original": "You have overheard the conversation between the Impresario and the unsavory illusionist, both of whom are revealed to be imps in disguise. As you have suspected all along, the parade is but a means to usher in the Night of Devilry; the charm does not actually grant happiness and fortune, but transforms people into fiends. Make haste to the Quicksand, and report all that you have seen and heard to Godriquelain.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_FESHLW103_00238_SEQ_08",
+    "original": "Godriquelain is shocked to learn of the charm\u0027s true nature, and moves to put a stop to the parade. However, Momodi, on her way back from spectating the parade, assures him that the charm is in fact harmless. It would seem that the Continental Circus had been misled all this time, and the citizens are perfectly safe. So ends your quest to forestall the Night of Devilry. And though the danger is past\u2500or rather, never was\u2500the festivities yet continue. Why not participate in another parade?",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_FESHLW103_00238_TODO_00",
+    "original": "Speak with the unsavory illusionist.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_FESHLW103_00238_TODO_01",
+    "original": "While transfigured, distribute parade flyers in the Quicksand.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_FESHLW103_00238_TODO_02",
+    "original": "Report to the unsavory illusionist.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_FESHLW103_00238_TODO_03",
+    "original": "Complete the FATE \u201CMain Street Spectral Parade\u201D on Emerald Avenue.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_FESHLW103_00238_TODO_04",
+    "original": "Report to the unsavory illusionist.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_FESHLW103_00238_TODO_05",
+    "original": "Lie in wait at the Gold Court.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_FESHLW103_00238_TODO_06",
+    "original": "Report to Godriquelain in front of the Quicksand.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_FESHLW103_00238_GODRIQUELAIN_000_000",
+    "original": "Without further ado, let us resume our investigation. Since arriving in Ul\u0027dah, I have learned that the Continental Circus is planning to host a costume parade.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_FESHLW103_00238_GODRIQUELAIN_000_001",
+    "original": "As the procession makes its way along Emerald Avenue, its participants will cast some manner of charm upon onlookers, which purportedly brings happiness and fortune to those who receive it.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_FESHLW103_00238_GODRIQUELAIN_000_002",
+    "original": "Sounds like harmless fun, but make no mistake, this event is but another means for the shape-shifting fiends to usher in the Night of Devilry. It falls to us to see that they do not succeed.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_FESHLW103_00238_GODRIQUELAIN_000_003",
+    "original": "As before, the Continental Circus is recruiting volunteers, and I would have you answer their call. Considering the assistance you have lent the troupe thus far, they will surely take you on again without suspicion.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_FESHLW103_00238_GODRIQUELAIN_000_004",
+    "original": "Now then, go and speak with the illusionist who stands by the entrance to the Ruby Road Exchange. Offer her your services, and do whatever she requires of you.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_FESHLW103_00238_GODRIQUELAIN_100_004",
+    "original": "In the meantime, I shall pursue my own line of investigation. Once you have completed your task for the troupe, seek me out in front of the Quicksand. Godsspeed!",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_FESHLW103_00238_GODRIQUELAIN_000_005",
+    "original": "The Continental Circus means to bring about the Night of Devilry, but how do they mean to go about achieving it? We must cast light upon this mystery.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_FESHLW103_00238_GODRIQUELAIN_000_006",
+    "original": "Uwaaah! Wh-What do you want from me!?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_FESHLW103_00238_GODRIQUELAIN_000_007",
+    "original": "A-Ahem. Of course it\u0027s only you. \u003Csigh\u003E I really must do something about my propensity to startle...",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_010",
+    "original": "Hello there, adventurer! Are you here to help out with our splendidly spooky parade by any chance? ...You are? Marvelous!",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_011",
+    "original": "We\u0027ve prepared flyers to spread word of the event, and we want you to hand them out to the people in the Quicksand.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_012",
+    "original": "In order to give them a taste of what\u0027s in store, I will weave an illusion to alter your appearance to something frighteningly festive.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_013",
+    "original": "Oh, and be sure to say this to each person who receives a flyer: \u201CIf you invite fourteen people within four hours and then join the parade, you will know great happiness!\u201D It\u0027s a surefire way to make the parade a rousing success!",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_014",
+    "original": "But without further ado, it\u0027s transfiguration time!",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_FESHLW103_00238_SYSTEM_500_014",
+    "original": "The action Festal Cant is now available on the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Epet hotbar\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_FESHLW103_00238_SYSTEM_501_014",
+    "original": "Festal Cant is used in the FATE \u201CMain Street Spectral Parade,\u201D and has no effect elsewhere.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_017",
+    "original": "Please hand out the parade flyers to the people in the Quicksand while you\u0027re in your frighteningly festive form.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_018",
+    "original": "To each person who receives a flyer, remember to say: \u201CIf you invite fourteen people within four hours and then join the parade, you will know great happiness!\u201D",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_019",
+    "original": "Oh dear, it looks like your illusion has faded. Allow me to refresh it!",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_FESHLW103_00238_SYSTEM_000_020",
+    "original": "This person seems to be deep in thought, and does not respond.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_FESHLW103_00238_PAPASU_000_020",
+    "original": "Aiiiiiie! Please don\u0027t eat me! I don\u0027t taste very good!",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_FESHLW103_00238_PAPASU_000_021",
+    "original": "\u003Cgasp\u003E M-My lord! I b-bid you welcome to the Quicksand! Will you be dining with us this day?",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_FESHLW103_00238_PAPASU_000_022",
+    "original": "\u003Cgasp\u003E Y-Your Grace! I b-bid you welcome to the Quicksand! Will you be dining with us this day?",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_FESHLW103_00238_PAPASU_000_023",
+    "original": "...Only an illusion!? You wicked, wicked adventurer! My heart nigh stopped beating for the fright!",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_FESHLW103_00238_PAPASU_000_024",
+    "original": "But what\u0027s this flyer you\u0027ve brought? Ooh, a charm that brings happiness and fortune! I must round up my whole family for the parade!",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_FESHLW103_00238_PAPASU_000_028",
+    "original": "Hello there, traveler. Are you enjoying the All Saints\u0027 Wake celebration? They say it\u0027s twice as fun if you\u0027re in costume.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_FESHLW103_00238_PAPASU_000_029",
+    "original": "My thanks for the flyer! I shall round up my whole family for the parade!",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_FESHLW103_00238_BOTULF_000_020",
+    "original": "A m-m-monster! Help me! Somebody!",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_FESHLW103_00238_BOTULF_000_021",
+    "original": "G-General Raubahn! \u0027Tis an honor to meet a great hero such as you! I would be your man, if you will have me! I can deliver your packages, scrub your mail, and...and massage your sore feet after a hard day\u0027s march!",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_FESHLW103_00238_BOTULF_000_022",
+    "original": "Y-Your Grace! Th-This is no place for a woman of your exalted personage! You\u0027re liable to get kidnapped...or worse! Allow your humble servant, Botulf, to spirit you to safety!",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_FESHLW103_00238_BOTULF_000_023",
+    "original": "...What? It\u0027s just an illusion? Godsdammit! If I\u0027m so easily deceived, how can I expect to survive in this viper\u0027s nest of a city?",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_FESHLW103_00238_BOTULF_000_024",
+    "original": "...Eh? I\u0027ll know great happiness if I invite fourteen people to this parade of yours!?",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_FESHLW103_00238_BOTULF_000_025",
+    "original": "This...this isn\u0027t another trick, is it? Because it sure sounds like one...\u003Chex:02100103\u003EAh, what the hells\u2500I\u0027ll be there with whomever else I can drag along. It\u0027s not like I have anything to lose.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_FESHLW103_00238_BOTULF_000_027",
+    "original": "\u003Csigh\u003E Of all the stupid blunders I\u0027ve made, this one trumps them all. Gods, I need a stiff drink to forget my woes. And I need the coin to buy that stiff drink. Thal bugger me dead...",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_FESHLW103_00238_BOTULF_000_028",
+    "original": "If I can bring fourteen people to the parade, I\u0027ll know great happiness...",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_FESHLW103_00238_BOTULF_000_029",
+    "original": "I don\u0027t want to set myself up for disappointment, but there\u0027s a part of me that desperately wishes for it to be true. I\u0027ll be at the parade with whomever else I can drag along.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_FESHLW103_00238_MARTEIRE_000_020",
+    "original": "Egads! A fiend in the Quicksand!? To arms, to arms!",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_FESHLW103_00238_MARTEIRE_000_021",
+    "original": "\u003Cgasp\u003E General Raubahn! The tales of your valorous exploits are known even in my native Gridania!",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_FESHLW103_00238_MARTEIRE_000_022",
+    "original": "\u003Cgasp\u003E Your Grace! I am moved beyond words that you would honor me, a humble outsider, with your presence!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_FESHLW103_00238_MARTEIRE_000_023",
+    "original": "...An illusion? I-I knew that, of course! I was simply, er...playing along. \u0027Tis All Saints\u0027 Wake, after all, and I am not one to spoil the festive mood.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_FESHLW103_00238_MARTEIRE_000_024",
+    "original": "Needless to say I should be glad to participate in the parade of which this flyer speaks.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_FESHLW103_00238_MARTEIRE_000_025",
+    "original": "...What\u0027s that? Come with fourteen friends, you say? Assuming they are willing, my comrades here make two, leaving twelve more to be found... Hmmm...",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_FESHLW103_00238_MARTEIRE_000_028",
+    "original": "The All Saints\u0027 Wake celebration here is rather more boisterous than what I\u0027m accustomed to in my native Gridania. I expect that the costumes, too, will be a deal more lavish.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_FESHLW103_00238_MARTEIRE_000_029",
+    "original": "I should be glad to participate in the parade. As for the fourteen friends you requested...I shall see what I can do.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_030",
+    "original": "Welcome back! Thanks to your deft distribution of the flyers, we\u0027re expecting record attendance at the parade! Well, this is the first time we\u0027re holding it, to be sure, but you get my meaning.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_031",
+    "original": "Welcome back! Thanks to your deft distribution of the flyers, we\u0027re expecting record attendance at the parade! Well, this is the first time we\u0027re holding it, to be sure, but no need for us to dwell on semantics. Oh, but before I go on, allow me to remove your illusion.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_032",
+    "original": "You have served us admirably for the parade\u0027s preparations. Next, I would have you participate in the parade itself\u2500our troupe\u0027s centerpiece for this year\u0027s All Saints\u0027 Wake!",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_033",
+    "original": "Oh, there is nothing to it. You simply have to march along Emerald Avenue and cast a charm upon citizens who have come to spectate. \u201CFestal Cant,\u201D the charm is called, and it brings happiness and fortune to all who are touched by it! Delightful, is it not?",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_034",
+    "original": "Yet not everything is sugar and rainbows, I\u0027m afraid. You must beware the mages of the Thaumaturges\u0027 Guild, who have concealed themselves among the crowd.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_035",
+    "original": "For reasons unclear, they bear our troupe no love, and will seek to spoil our efforts to spread joy in Ul\u0027dah. Should you cast the charm upon them, they will strip you of your illusion.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_036",
+    "original": "For the sake of our spectators\u0027 enjoyment, we must avoid showing our true forms during the parade. Do have care where the charm is directed.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_037",
+    "original": "Go now, adventurer, and show the people of Ul\u0027dah a frighteningly fun time! I look forward to hearing from you upon the parade\u0027s conclusion!",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_FESHLW103_00238_SYSTEM_000_039",
+    "original": "The FATE \u201CMain Street Spectral Parade\u201D can be commenced by speaking with the ogre pumpkinhead on Emerald Avenue.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_FESHLW103_00238_SYSTEM_000_040",
+    "original": "Accompany the ogre pumpkinhead as she makes her way along the avenue, and use the action Festal Cant on any unsuspecting citizens you come upon.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_FESHLW103_00238_SYSTEM_000_041",
+    "original": "You must be transfigured to participate in and complete the FATE. This status can be received by speaking with the unusual illusionist.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_FESHLW103_00238_SYSTEM_000_042",
+    "original": "Please note that you cannot interact with the ogre pumpkinhead while transfigured. You must remove the status if you wish to commence the FATE.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_FESHLW103_00238_SYSTEM_100_042",
+    "original": "Lastly, in order to obtain the FATE\u0027s rewards and advance the quest, you must be a Disciple of War or Magic.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_044",
+    "original": "Go on and show the people of Ul\u0027dah a frighteningly fun time! I look forward to hearing from you upon the parade\u0027s conclusion!",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_FESHLW103_00238_TRANSFORMATION_000_041",
+    "original": "I am a wondrous wizard of illusion! I am a maker of mirages and a rearranger of reality, with a thousand hi-potions\u0027 worth of health and infinite piety. I have received word of you, adventurer, and will grant you a frighteningly festive form, if that is your desire.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_FESHLW103_00238_TRANSFORMATION_000_042",
+    "original": "There, the illusion is in place. The parade awaits\u2500pray spread the joy of All Saints\u0027 Wake to the people.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_050",
+    "original": "I am told the parade was a rousing success! You have been a great help, adventurer.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_100_050",
+    "original": "I am told the parade was a rousing success! You have been a great help, adventurer. But here, you won\u0027t be needing the illusion anymore.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_051",
+    "original": "Finally, our mission is accomplished! The Impresario shall be most pleased!",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_052",
+    "original": "...What mission, you ask? Why, the parade, of course! What else could I be referring to?",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_053",
+    "original": "Now, if you\u0027ll excuse me, I must go and meet with the Impresario. He is expecting a report. In the meantime, might I suggest that you take part in more parades?",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_054",
+    "original": "...Where\u0027s this meeting taking place, you ask? Why, the Gold Court, of course! Where else could it\u2500 Oh...",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_055",
+    "original": "N-No one is supposed to know of this! You mustn\u0027t come, do you understand? If you do, I\u0027ll get turned into a pumpkin cookie! Being the kindly adventurer that you are, you don\u0027t want that to happen, right? Right!",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_059",
+    "original": "N-No one is supposed to know of my meeting with the Impresario! You mustn\u0027t come, do you understand? If you do, I\u0027ll get turned into a pumpkin cookie! Being the kindly adventurer that you are, you don\u0027t want that to happen, right? Right!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_FESHLW103_00238_IMPHEAD_000_060",
+    "original": "You were not followed?",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_061",
+    "original": "Of course not, sir! And you can be assured that not a soul knows of this meeting! ...Before we begin, would it be possible to shed this cumbersome form?",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_FESHLW103_00238_IMPHEAD_000_062",
+    "original": "It does get wearisome having to stand on these crude limbs. Very well.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_063",
+    "original": "Ahhh, that\u0027s more like it! Natural is the way to go!",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_FESHLW103_00238_IMPHEAD_000_064",
+    "original": "Aye, well, just remember that we\u0027ve got to be more vigilant. Now, give me that report.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_065",
+    "original": "Yes, sir! I\u0027m pleased to say that the parade was a resounding success. A gullible adventurer came along, and \u003Chex:02080CE905FF04736865FF03686503\u003E followed our instructions to the letter.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_FESHLW103_00238_IMPHEAD_000_066",
+    "original": "Heh heh heh! Our hard work has paid off! The Night of Devilry will return!",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_067",
+    "original": "Turning people into our brethren rather than summoning them\u2500it\u0027s so simple, I don\u0027t know why we didn\u0027t think of it before!",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_FESHLW103_00238_IMPHEAD_000_068",
+    "original": "The use of illusions, the plot for each nation... That woman suggested it all. And as if that weren\u0027t enough, she offers to lead the parade!",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_FESHLW103_00238_IMPHEAD_100_068",
+    "original": "I still don\u0027t have the faintest who she is, but we couldn\u0027t\u0027ve come this far without her. Hells, if I didn\u0027t know better, I\u0027d say she\u0027s the Great Gourd of legend come again!",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_069",
+    "original": "Ooh, it\u0027s about time the charm took effect. When the citizens become us, the terror that ensues will be delicious! We won\u0027t want to miss a moment of it!",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_070",
+    "original": "Heh heh heh... It\u0027s so close, I can almost taste that sweet, sweet terror...\u003Chex:02100103\u003EOh, hello there, adventurer! If you\u0027re not busy, might I suggest that you take part in more parades?",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_FESHLW103_00238_GODRIQUELAIN_000_080",
+    "original": "You are returned! Tell me, were you able to uncover the troupe\u0027s plot?",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_FESHLW103_00238_GODRIQUELAIN_000_081",
+    "original": "...They\u0027re using the parade to transform the citizens into fiends!? Gods be good... The situation is far graver than I had anticipated...",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_FESHLW103_00238_GODRIQUELAIN_000_082",
+    "original": "I know not what can be done for those who have already been affected by the charm, but we cannot allow any more to fall victim to it. We must put a stop to the parade!",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_000_083",
+    "original": "Sounds like you\u0027re in a spot of bother, Godri. Trouble with the womanfolk, mayhap?",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_FESHLW103_00238_GODRIQUELAIN_000_084",
+    "original": "Miss Momodi!",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_FESHLW103_00238_GODRIQUELAIN_000_085",
+    "original": "Allow me to introduce you to Miss Momodi, the owner of the Quicksand.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_000_086",
+    "original": "I also have the pleasure of lookin\u0027 after adventurers like yourself here in Ul\u0027dah. Pleased to meet you!",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_000_087",
+    "original": "I was just at the parade with some friends, and we had a grand old time. I stood at the front of the crowd and got a double dose of that charm! I feel as though I\u0027m walkin\u0027 on clouds!",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_FESHLW103_00238_GODRIQUELAIN_000_087",
+    "original": "What!? M-Miss Momodi, there is something you must know. That charm is not what you think it is. It turns people...into fiends!",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_000_088",
+    "original": "...People into \u003Chex:021A020203\u003Efiends\u003Chex:021A020103\u003E? Ahahaha! Godri, did you get into my mead while I was away?",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_000_089",
+    "original": "Do I look like a fiend to you? I don\u0027t think so! I appreciate your concern, but you\u0027re worryin\u0027 for naught.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_000_090",
+    "original": "\u0027Twas a traditional charm for promotin\u0027 a sense of well\u003Chex:021F0103\u003Ebein\u0027 what was bein\u0027 cast. I\u0027ve known \u0027bout it since I was a wee lass. The bit about bringin\u0027 fourteen friends, though? Now, \u003Chex:021A020203\u003Ethat\u0027s\u003Chex:021A020103\u003E bollocks.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_000_091",
+    "original": "Anyroad, if you saw \u0027em as went to the parade, you\u0027d see that they\u0027re all grinnin\u0027 from ear to ear\u2500like yours truly! Ain\u0027t no better proof the charm did as promised.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_100_091",
+    "original": "This has been the most enjoyable All Saints\u0027 Wake I\u0027ve had in \u003Chex:021A020203\u003Eages\u003Chex:021A020103\u003E. I daresay even the fiends had \u0027emselves a good time!",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_000_092",
+    "original": "Anyroad, it\u0027s past time I got back to work. Be seein\u0027 you! La la la la la...\u266A",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_FESHLW103_00238_GODRIQUELAIN_000_093",
+    "original": "So the Continental Circus had been misled all this time? Words do not suffice to express my relief...",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_FESHLW103_00238_PUMPKIN_000_094",
+    "original": "(-Disembodied Voice-)Heh heh heh... Happiness and joy for man and monster both\u2500things are as they should be...",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_FESHLW103_00238_GODRIQUELAIN_000_095",
+    "original": "D-Did you say something? No? I could have sworn I heard a voice...",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_FESHLW103_00238_IMPHEAD_000_096",
+    "original": "Hmmm... This is passing strange. Why has the transformation not begun?",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_096",
+    "original": "I\u0027m sure it will happen any moment now, sir. We just need to be patient.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_FESHLW103_00238_IMPHEAD_000_097",
+    "original": "Yes, no doubt you are right. The wait will make it all the more glorious when this city is overrun with our kind! Ahahahahaha!",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_FESHLW103_00238_SYSTEMS_000_087",
+    "original": "A new variety of face paint is now available. To use it, you must unlock access to the aesthetician by completing the quest \u201CBeauty Is Only Scalp Deep.\u201D",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_FESHLW103_00238_SYSTEMS_000_088",
+    "original": "A new variety of face paint is now available, and can be selected when summoning the aesthetician.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_000",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_001",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_002",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_003",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_004",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_005",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_006",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_FESHLW103_00238_CITIZEN65774_000_011",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_FESHLW103_00238_CITIZEN65774_000_012",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_FESHLW103_00238_CITIZEN65774_000_013",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_FESHLW103_00238_CITIZEN65774_000_014",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_FESHLW103_00238_CITIZEN65774_000_016",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_020",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_021",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_022",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_023",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_024",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_025",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_FESHLW103_00238_THAUMATURGE65774_000_030",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_FESHLW103_00238_THAUMATURGE65774_000_031",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_FESHLW103_00238_THAUMATURGE65774_000_032",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_FESHLW103_00238_THAUMATURGE65774_000_033",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_FESHLW103_00238_THAUMATURGE65774_000_034",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_FESHLW103_00238_THAUMATURGE65774_000_035",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_000_040",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_000_041",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_000_042",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_000_043",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_000_044",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_000_045",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_000_046",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_000_047",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_000_048",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_000_049",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_100_049",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_110_049",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_120_049",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_FESHLW103_00238_IMPRESARIO_000_051",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_FESHLW103_00238_IMPRESARIO_000_052",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_FESHLW103_00238_IMPRESARIO_000_053",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_FESHLW103_00238_IMPRESARIO_000_054",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_FESHLW103_00238_IMPRESARIO_000_055",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_FESHLW103_00238_IMPRESARIO_000_056",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_057",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_FESHLW103_00238_IMPRESARIO_000_058",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_FESHLW103_00238_IMPRESARIO_000_059",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "197": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_060",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "198": {
+    "tag": "TEXT_FESHLW103_00238_IMPRESARIO_000_061",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "199": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_062",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "200": {
+    "tag": "TEXT_FESHLW103_00238_HALLOWEEN00051_000_063",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "201": {
+    "tag": "TEXT_FESHLW103_00238_SYSTEM_000_064",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "202": {
+    "tag": "TEXT_FESHLW103_00238_SYSTEM_000_065",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "203": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_066",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "204": {
+    "tag": "TEXT_FESHLW103_00238_MAGICIAN65774_000_067",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "205": {
+    "tag": "TEXT_FESHLW103_00238_MAGICIAN65774_100_067",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "206": {
+    "tag": "TEXT_FESHLW103_00238_IMPRESARIO_000_070",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "207": {
+    "tag": "TEXT_FESHLW103_00238_IMPRESARIO_000_071",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "208": {
+    "tag": "TEXT_FESHLW103_00238_IMPRESARIO_000_072",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "209": {
+    "tag": "TEXT_FESHLW103_00238_IMPRESARIO_000_073",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "210": {
+    "tag": "TEXT_FESHLW103_00238_IMPRESARIO_000_074",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "211": {
+    "tag": "TEXT_FESHLW103_00238_IMPRESARIO_000_075",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "212": {
+    "tag": "TEXT_FESHLW103_00238_IMPRESARIO_000_076",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "213": {
+    "tag": "TEXT_FESHLW103_00238_IMPRESARIO_000_077",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "214": {
+    "tag": "TEXT_FESHLW103_00238_IMPRESARIO_000_078",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "215": {
+    "tag": "TEXT_FESHLW103_00238_IMPRESARIO_000_079",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "216": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_000_080",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "217": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_000_081",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "218": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_000_082",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "219": {
+    "tag": "TEXT_FESHLW103_00238_MOMODI_000_084",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "220": {
+    "tag": "TEXT_FESHLW103_00238_HALLOWEEN00051_000_085",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "221": {
+    "tag": "TEXT_FESHLW103_00238_IMPRESARIO_000_089",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  },
+  "222": {
+    "tag": "TEXT_FESHLW103_00238_CONJURER65774_000_090",
+    "original": "(Marked for deletion)",
+    "translation": ""
+  }
+}

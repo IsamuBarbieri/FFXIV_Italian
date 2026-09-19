@@ -1,0 +1,872 @@
+{
+  "0": {
+    "tag": "TEXT_KINGVA101_05441_SEQ_00",
+    "original": "Shallow Moor has an odd job for an enterprising adventurer.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_KINGVA101_05441_SEQ_01",
+    "original": "Shallow Moor relays an odd job request from someone who apparently knows you by name: one Y\u0027nazqha, a gleaner and younger sister of none other than Y\u0027shtola. She has enlisted your aid in a most unusual quest: to keep her safe while she explores the pages of a magical book left to her by her late father. The nature of the book demands it be kept under careful watch, so Y\u0027nazqha instructs you to come to the gleaners\u0027 lodgings in Journey\u0027s End at your soonest convenience to learn more.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_KINGVA101_05441_SEQ_02",
+    "original": "Y\u0027nazqha informs you that the book in question is entitled \u003Chex:021A020203\u003EThe Merchant\u0027s Tale\u003Chex:021A020103\u003E, a fable passed down in Corvos following the narrative of a young merchant\u0027s quest to find a great treasure. While the enchantment imbued within the manuscript makes reading the book almost certainly dangerous, the young gleaner is heartened by your company and appears ready to leap into a world of fiction at your signal.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_KINGVA101_05441_SEQ_03",
+    "original": "As the magicked tome is held up before the two of you, its cover begins to glow, and the world falls away in a haze of white light. Its radiance soon fades, and you find yourselves in a small but well-kept room. What\u0027s more, you are not alone. A young woman is addressing Y\u0027nazqha, who is now dressed in the garb of the tale\u0027s merchant. A scene plays out before you, and as the dialogue comes to a close, you suspect the gleaner may know how to move the story forward.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BIn the event that you leave the area, you may return by reading \u003Chex:021A020203\u003EThe Merchant\u0027s Tale\u003Chex:021A020103\u003E in Journey\u0027s End.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_KINGVA101_05441_SEQ_04",
+    "original": "With no clear path pointing towards the next plot point, you and Y\u0027nazqha inspect the room. While what you find provides only vague hints at what is to come, your companion appears eager to step further into the book.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203B\u003Chex:021A020203\u003EThe Merchant\u0027s Tale\u003Chex:021A020103\u003E can be accessed via the V\u0026C Dungeon Finder.\u003Chex:02100103\u003E\u203BTo open the V\u0026C Dungeon Finder, interact with the passage to the next chapter or select the option located under Duty in the main menu.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_KINGVA101_05441_SEQ_05",
+    "original": "After a journey full of fantastic locales and fierce battle, you and Y\u0027nazqha witness the final scene of \u003Chex:021A020203\u003EThe Merchant\u0027s Tale\u003Chex:021A020103\u003E\u2500one of the final scenes, in any case. Free from the pages of the enchanted manuscript, Y\u0027nazqha asks you to meet her at Journey\u0027s End to discuss what you experienced.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_KINGVA101_05441_SEQ_06",
+    "original": "Y\u0027nazqha thanks you for your courage and for helping her learn more about the keepsake left by her late father, and asks you to help her explore the book further when you have time. With your odd job complete, all that is left is to return to Shallow Moor for payment.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_KINGVA101_05441_SEQ_07",
+    "original": "Shallow Moor congratulates you on a job well done, happy to have another satisfied customer. Yet \u003Chex:021A020203\u003EThe Merchant\u0027s Tale\u003Chex:021A020103\u003E has secrets left to tell, and Y\u0027nazqha is depending on your protection to help uncover all the wondrous passages that are yet unread.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_KINGVA101_05441_TODO_00",
+    "original": "Speak with Y\u0027nazqha.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_KINGVA101_05441_TODO_01",
+    "original": "Speak with Y\u0027nazqha.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_KINGVA101_05441_TODO_02",
+    "original": "Speak with Y\u0027nazqha in the maiden\u0027s home.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_KINGVA101_05441_TODO_03",
+    "original": "Enter \u003Chex:021A020203\u003EThe Merchant\u0027s Tale\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_KINGVA101_05441_TODO_04",
+    "original": "Speak with Y\u0027nazqha in Old Sharlayan.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_KINGVA101_05441_TODO_05",
+    "original": "Speak with Shallow Moor.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_KINGVA101_05441_SHALLOWMOOR_000_000",
+    "original": "Why, if it isn\u0027t \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Come seeking work to keep your hands busy? Well, you\u0027re in luck, for a client of ours specifically requested \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E for a little odd job. A Miqo\u0027te lass who seems to know you, in fact.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_KINGVA101_05441_SHALLOWMOOR_000_001",
+    "original": "Hah, you\u0027re dying to know who it is, I see. Her name is Y\u0027nazqha, a gleaner. Does the name ring a bell?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_KINGVA101_05441_SHALLOWMOOR_000_002",
+    "original": "Ah, I suppose there\u0027s no need to ponder\u2500there she is!",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_KINGVA101_05441_SHALLOWMOOR_100_002",
+    "original": "Nazqha! Now\u0027s not the time to indulge your adventurous palate\u2500the \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E you requested is here!",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_110_002",
+    "original": "My apologies! I happened upon a new ingredient for sale and simply had to test its flavor!",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_003",
+    "original": "The one and only \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, I take it? \u0027Tis a pleasure to finally meet you. Thank you for keeping watch over my older sister. Shtola can be quite the handful.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_004",
+    "original": "I understand even Mhitra has relied upon your aid. Her respect isn\u0027t won easily, so imagine my surprise when she began singing your praises!",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_005",
+    "original": "When I had cause to seek out a skilled adventurer, I knew it had to be you. If my family can entrust you with matters of earth-shaking import, then who better to seek out for a little odd job?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_006",
+    "original": "If you have no objections, I would start right away. Now, will you journey into the pages of ancient folklore with me?",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_007",
+    "original": "Ah, I suppose that is an odd request to give without explanation, isn\u0027t it? Allow me to elucidate.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_008",
+    "original": "You see, I\u0027m a gleaner who specializes in recovering all manner of documents and manuscripts. Until but recently, I studied under my father and mentor, Y\u0027rhul Nunh.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_009",
+    "original": "Unfortunately, he succumbed to disease while on a mission in a distant land. \u0027Twas a...terrible loss for us all.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_100_009",
+    "original": "...Ah, forgive me. It was not my intent to sour the mood.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_110_009",
+    "original": "I was with him when he passed, so for a blessing I was able to say my farewells. Yet being suddenly left alone in an unfamiliar land was difficult, to say the least.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_120_009",
+    "original": "Luckily, my sisters were there to support me through the hardest times.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_010",
+    "original": "As was my father, in his way. He left me a keepsake, which happens to be at the heart of my request.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_011",
+    "original": "It is a beautifully illuminated manuscript that bears a treacherous enchantment: it can draw the reader\u0027s very mind into its pages. Needless to say, such a rare tome is notorious among collectors of unique and dangerous documents.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_100_011",
+    "original": "While it may seem a strange gift, I know my father gave it to me for a reason. And although it may be a risky endeavor, I must read its every page to find out why.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_012",
+    "original": "Now, I hope you understand the reason I requested your company. Might you keep me safe while I explore this world of fiction?",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_KINGVA101_05441_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_KINGVA101_05441_A1_000_001",
+    "original": "I\u0027ve always wanted to be part of a storybook!",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_KINGVA101_05441_A1_000_002",
+    "original": "I would never refuse Y\u0027shtola\u0027s sister.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_013",
+    "original": "I knew you wouldn\u0027t turn down an adventure! Especially to a land few have laid eyes upon.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_014",
+    "original": "That\u0027s a great comfort to hear!",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_015",
+    "original": "As you might imagine, such a book must be kept safe and away from prying eyes, so I\u0027ve left it in safekeeping at the gleaners\u0027 lodgings in Journey\u0027s End.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_016",
+    "original": "I shall await you there when you\u0027re ready!",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_KINGVA101_05441_SHALLOWMOOR_000_017",
+    "original": "What an odd request, eh? But I\u0027m sure you\u0027ve received odder. Go on, now, and best of luck!",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_030",
+    "original": "Thank you for coming, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! This is Fyrgeim, and she manages our lodgings here. I\u0027d trust her with my life.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_KINGVA101_05441_FYRGEIM_000_031",
+    "original": "I was skeptical when Nazqha was set on recruiting the realm\u0027s foremost hero, but here you are. I reckon no one else could keep up with her boundless...curiosity.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_KINGVA101_05441_FYRGEIM_100_031",
+    "original": "Aye, it\u0027s gotten her into trouble more than once, but it\u0027s also made her into a talented gleaner in her own right.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_KINGVA101_05441_FYRGEIM_110_031",
+    "original": "You see, where most would hesitate to eat something upon first sight, Nazqha will gladly gulp, slurp, or chomp it down. All in the name of knowledge\u2500or so she claims!",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_032",
+    "original": "Yes, er... I am...very thorough. But enough about me\u2500surely you\u0027re curious about the book! It\u0027s entitled \u003Chex:021A020203\u003EThe Merchant\u0027s Tale\u003Chex:021A020103\u003E, and it is a well-known fable passed down in Corvos, located in southern Ilsabard.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_100_032",
+    "original": "The protagonist is a shrewd young merchant, and the story describes his journey to find the perfect gift to win the heart of a young maiden.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_033",
+    "original": "However, over generations, countless versions of the tale have been passed down and retold. I can\u0027t say for certain how this particular manuscript ends.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_034",
+    "original": "We\u0027ve no choice but to read the entire thing ourselves, a feat made quite daunting by the enchantment imbued within its pages.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_100_034",
+    "original": "I can\u0027t help but be reminded of my father\u0027s words before he passed. He gave the book to me and said...",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_110_034",
+    "original": "\u201CAfter reading the final passage, you will come to an understanding. You shall see what is needed most to travel the path before you.\u201D",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_120_034",
+    "original": "This is a trial of sorts, of that I\u0027m certain. A test from mentor to pupil. From father to daughter. And I intended to rise to the occasion!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_130_034",
+    "original": "I haven\u0027t a clue what will happen when we give ourselves over to the magicks dwelling within the book, but with you by my side, I am not afraid.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_035",
+    "original": "So let us begin, and reveal the secrets bound within the covers of \u003Chex:021A020203\u003EThe Merchant\u0027s Tale\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_050",
+    "original": "Into the world of \u003Chex:021A020203\u003EThe Merchant\u0027s Tale\u003Chex:021A020103\u003E we go!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_KINGVA101_05441_CORVOSBELLE_000_060",
+    "original": "\u201CYou\u0027ve come again, peddler, but why? You know I cannot return the affection you bear for me. Pray accept this truth and move on.\u201D",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_061",
+    "original": "I, uh... And you are?",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_KINGVA101_05441_CORVOSBELLE_000_062",
+    "original": "\u201CJoy is not meant for one such as me. My fate is to remain here alone, with only my sorrow for company.\u201D",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_KINGVA101_05441_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_KINGVA101_05441_A2_000_001",
+    "original": "I take it the story has begun.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_KINGVA101_05441_A2_000_002",
+    "original": "It seems she\u0027s following a script.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_KINGVA101_05441_A2_000_003",
+    "original": "I have no idea what\u0027s going on...",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_065",
+    "original": "I see... We\u0027ve become characters in the narrative. And perhaps by acting as the characters should, we can advance the plot forward!",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_066",
+    "original": "Bits and pieces are coming to me!",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_067",
+    "original": "I must be the protagonist\u2500the shrewd young merchant. Next is the scene where I propose to the enchanting maiden who has captured my heart. I say...",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_068",
+    "original": "(-Theatrical Voice-)\u201CPray perish such desolate thoughts, my dear beloved. You deserve the utmost happiness, and I shall give it to you!\u201D",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_KINGVA101_05441_CORVOSBELLE_000_069",
+    "original": "\u201CIf you would prove your words and ardor true, then bring me an object of worth immeasurable.\u201D",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_KINGVA101_05441_CORVOSBELLE_000_070",
+    "original": "\u201CAn object of value so great that it may fill the void within my heart. Do that, and I can rest assured that your intentions are pure.\u201D",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_071",
+    "original": "(-Theatrical Voice-)\u201CIf you wish it, then it shall be done. Even if I must scour the ends of heaven and earth, I swear I shall return with what you desire.\u201D",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_KINGVA101_05441_CORVOSBELLE_000_072",
+    "original": "\u201CThen I shall pray for your safe return.\u201D",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_073",
+    "original": "And thus the tale moves forward. Apparently now the merchant, together with his skilled and trusted bodyguard, set forth in search of priceless treasure.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_KINGVA101_05441_Q3_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_KINGVA101_05441_A3_000_001",
+    "original": "Bodyguard? Sounds like a job for me!",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_KINGVA101_05441_A3_000_002",
+    "original": "I\u0027m not the main character?",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_075",
+    "original": "I\u0027m honored to have you by my side! Who better to entrust my safety to than the very hero who saved our star?",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_076",
+    "original": "I\u0027m terribly sorry about that, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, but it seems the magicks of the book have made their choice.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_077",
+    "original": "Nevertheless, I am heartened to have the stoutest arm in Corvos by my side. We\u0027ll see wonders together, of that I\u0027m certain!",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_090",
+    "original": "\u201CAn object of worth immeasurable\u201D... Hmm... What sort of treasure could that be?",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_091",
+    "original": "Whatever it is, it must be the key to unlocking the story\u0027s conclusion. It seems at this point in the narrative, the merchant is in the dark about it, so we\u0027ve no choice but to read further.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_092",
+    "original": "Seeing as the answer would logically be within the tale itself, perhaps there is a clue in this very room. Why don\u0027t we give it a closer look first?",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_KINGVA101_05441_Q4_000_096",
+    "original": "Examine the room with Y\u0027nazqha?",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_100",
+    "original": "The room isn\u0027t very large, all things considered. Does anything catch your eye?",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_110",
+    "original": "In a room with so much blue and white, the carpet does stand out, doesn\u0027t it?",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_111",
+    "original": "The pattern seems to be...a sea-maid. And upon closer look, it appears more worn than the other furniture. I suspect it has been a well-loved centerpiece over the years.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_120",
+    "original": "Ah, it\u0027s made from traditional porcelain found in Corvos. Marked by its vivid blue coloring, the material is still popular in the region.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_121",
+    "original": "According to a book I read some time ago, Corvosi tea is brewed strong and served with heaps of sugar.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_122",
+    "original": "Polite custom is to offer tea to guests and enjoy a leisurely chat over a cup. Such face-to-face interactions are a cherished part of daily life in Corvos!",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_130",
+    "original": "Though the maiden appears to be unaware of its presence, there is some manner of sigil carved here upon the wall.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_131",
+    "original": "The same design adorns the cover of the book, in fact. I can sense energy flowing outward from it\u2500likely it will bring us back to the real world.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_140",
+    "original": "A character in the tale itself. The story says she has no family and drifted into the city but several years ago.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_141",
+    "original": "While many suitors have been entranced by her beauty and grace, she has turned down every one.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_142",
+    "original": "None know where she came from or why she lives alone, and when asked about herself, she offers but a sad smile in return. This mystery seems only to deepen her allure.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_150",
+    "original": "Are you ready to go on? Of course, if there is anything else you would take a look at, simply say the word!",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_KINGVA101_05441_Q4_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_KINGVA101_05441_A4_000_001",
+    "original": "Let the story continue!",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_KINGVA101_05441_A4_000_002",
+    "original": "I think I saw something else...",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_151",
+    "original": "Well said! What twists and turns await us, I wonder? I cannot wait to find out!",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_152",
+    "original": "Although we\u0027ve set foot into a work of fiction, it appears to be set in a time in Corvos from before Garlean rule. Sights lost to history might await us...",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_153",
+    "original": "...And perhaps deadly beasts, too! But with you here, I needn\u0027t fear fang nor claw.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_154",
+    "original": "Let us be off, then. It appears we can leave from the door over there.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_160",
+    "original": "Of course, we wouldn\u0027t want to miss anything! Who knows if we\u0027ll have another chance. Once you\u0027re ready to continue the story, just say the word.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_161",
+    "original": "Are you ready to set off?",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_KINGVA101_05441_Q5_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_KINGVA101_05441_A5_000_001",
+    "original": "Let the story continue!",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_KINGVA101_05441_A5_000_002",
+    "original": "Maybe one last look around...",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_170",
+    "original": "Apparently, as the protagonist, the enchantment gifts me with just enough information to progress the plot.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_171",
+    "original": "What awaits us beyond those broader strokes of the pen, I know not. But that makes the prospect of stepping outside all the more thrilling!",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_KINGVA101_05441_CORVOSBELLE_000_200",
+    "original": "\u201CAn enchanted carpet...one that can soar the skies. I heard a tale about this once. An ancient tyrant commanded a pari under his thrall to make it.\u201D",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_KINGVA101_05441_CORVOSBELLE_000_201",
+    "original": "\u201CYet even among the heavens, I would not find what my heart desires. I implore you to sell this treasure and gain your fortune.\u201D",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_KINGVA101_05441_CORVOSBELLE_000_202",
+    "original": "\u201CPray forget about me, and seek happiness elsewhere.\u201D",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_KINGVA101_05441_SYSTEM_080_202",
+    "original": "You have reached the end of \u003Chex:021A020203\u003EThe Merchant\u0027s Tale\u003Chex:021A020103\u003E. Unfortunately, the fair maiden was unmoved by the treasure she received. Surely what she desires is somewhere else within the manuscript\u0027s pages.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_KINGVA101_05441_SYSTEM_090_202",
+    "original": "You have reached the end of \u003Chex:021A020203\u003EThe Merchant\u0027s Tale\u003Chex:021A020103\u003E, but the fair maiden appears unmoved by the treasure she received.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_KINGVA101_05441_SYSTEM_100_202",
+    "original": "You have explored the pages of \u003Chex:021A020203\u003EThe Merchant\u0027s Tale\u003Chex:021A020103\u003E further!",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_KINGVA101_05441_SYSTEM_101_202",
+    "original": "Although unread passages remain, you can now enter the variant dungeon (advanced) for an even greater challenge.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_KINGVA101_05441_SYSTEM_102_202",
+    "original": "Enter the new dungeon by speaking with Memolivia in Old Sharlayan.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_KINGVA101_05441_SYSTEM_110_202",
+    "original": "The folklore record has yet to be filled completely. Travel down every road and best every beast to unveil the rich tapestry of \u003Chex:021A020203\u003EThe Merchant\u0027s Tale\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_KINGVA101_05441_CORVOSBELLE_000_210",
+    "original": "\u201COh my. Such a jewel as I have never laid eyes upon before. It shimmers with all the light of the sea.\u201D",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_KINGVA101_05441_CORVOSBELLE_000_211",
+    "original": "\u201CYet such brilliance only serves to cast darker shadows upon my heart. Sell this, and win your fortune.\u201D",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_KINGVA101_05441_CORVOSBELLE_000_212",
+    "original": "\u201CPray forget about me, and seek happiness elsewhere.\u201D",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_KINGVA101_05441_SYSTEM_080_212",
+    "original": "You have reached the end of \u003Chex:021A020203\u003EThe Merchant\u0027s Tale\u003Chex:021A020103\u003E. Unfortunately, the fair maiden was unmoved by the treasure she received. Surely what she desires is somewhere else within the manuscript\u0027s pages.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_KINGVA101_05441_SYSTEM_090_212",
+    "original": "You have reached the end of \u003Chex:021A020203\u003EThe Merchant\u0027s Tale\u003Chex:021A020103\u003E, but the fair maiden appears unmoved by the treasure she received.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_KINGVA101_05441_SYSTEM_100_212",
+    "original": "You have explored the pages of \u003Chex:021A020203\u003EThe Merchant\u0027s Tale\u003Chex:021A020103\u003E further!",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_KINGVA101_05441_SYSTEM_101_212",
+    "original": "Although unread passages remain, you can now enter the variant dungeon (advanced) for an even greater challenge.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_KINGVA101_05441_SYSTEM_102_212",
+    "original": "Enter the new dungeon by speaking with Memolivia in Old Sharlayan.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_KINGVA101_05441_SYSTEM_110_212",
+    "original": "The folklore record has yet to be filled completely. Travel down every road and best every beast to unveil the rich tapestry of \u003Chex:021A020203\u003EThe Merchant\u0027s Tale\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_KINGVA101_05441_CORVOSBELLE_000_220",
+    "original": "\u201CThe beloved weapon of a proud swordmaster. The engravings are singular in beauty, and the blade unmatched in keenness.\u201D",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_KINGVA101_05441_CORVOSBELLE_000_221",
+    "original": "\u201CYet even the sharpest sword cannot cut away the sadness which engulfs my heart. Sell this treasure, and gain your fortune.\u201D",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_KINGVA101_05441_CORVOSBELLE_000_222",
+    "original": "\u201CPray forget about me, and seek happiness elsewhere.\u201D",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_KINGVA101_05441_SYSTEM_080_222",
+    "original": "You have reached the end of \u003Chex:021A020203\u003EThe Merchant\u0027s Tale\u003Chex:021A020103\u003E. Unfortunately, the fair maiden was unmoved by the treasure she received. Surely what she desires is somewhere else within the manuscript\u0027s pages.",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_KINGVA101_05441_SYSTEM_090_222",
+    "original": "You have reached the end of \u003Chex:021A020203\u003EThe Merchant\u0027s Tale\u003Chex:021A020103\u003E, but the fair maiden appears unmoved by the treasure she received.",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_KINGVA101_05441_SYSTEM_100_222",
+    "original": "You have explored the pages of \u003Chex:021A020203\u003EThe Merchant\u0027s Tale\u003Chex:021A020103\u003E further!",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_KINGVA101_05441_SYSTEM_101_222",
+    "original": "Although unread passages remain, you can now enter the variant dungeon (advanced) for an even greater challenge.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_KINGVA101_05441_SYSTEM_102_222",
+    "original": "Enter the new dungeon by speaking with Memolivia in Old Sharlayan.",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_KINGVA101_05441_SYSTEM_110_222",
+    "original": "The folklore record has yet to be filled completely. Travel down every road and best every beast to unveil the rich tapestry of \u003Chex:021A020203\u003EThe Merchant\u0027s Tale\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_230",
+    "original": "(-Theatrical Voice-)\u201CMy beloved, look. The sea-maid on this plate...it matches the one on the carpet adorning your room.\u201D",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_100_230",
+    "original": "(-Theatrical Voice-)\u201CI knew it must be special to you, and so I return with it now.\u201D",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_KINGVA101_05441_CORVOSBELLE_000_231",
+    "original": "\u201CYou were correct. This plate stirs memories of a life I had almost forgotten.\u201D",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_KINGVA101_05441_CORVOSBELLE_000_232",
+    "original": "\u201CWhen that terrible beast snuffed out the light of my joy, and left me with naught but solitude and sorrow.\u201D",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_KINGVA101_05441_CORVOSBELLE_000_233",
+    "original": "\u201CYet I am also reminded of those I lost. My parents, my brothers. They would want me to live in happiness, surely...\u201D",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_KINGVA101_05441_CORVOSBELLE_000_234",
+    "original": "\u201CIt was wrong of me to put you through this ordeal, yet I am grateful for this gift. If you could find it in your heart to forgive me, I would gladly spend my life by your side.\u201D",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_KINGVA101_05441_SYSTEM_100_234",
+    "original": "A new quest is available to undertake from Fyrgeim in Old Sharlayan.",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_260",
+    "original": "It seems we\u0027ve witnessed the story\u0027s finale! Thank you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, for your stalwart companionship.",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_KINGVA101_05441_FYRGEIM_000_261",
+    "original": "Welcome back. You two look none the worse for wear.",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_262",
+    "original": "All thanks to \u003Chex:022C0DFF07022903EB0203FF02200203\u003E here. We faced beasts the likes of which I\u0027ve only imagined, but \u003Chex:02080CE905FF04736865FF03686503\u003E trounced each and every one! ",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_263",
+    "original": "That was quite the singular experience, wasn\u0027t it? I\u0027m aware some parts were embellished for the sake of story, but to experience Corvos as it once was... Truly, \u0027twas a treasure unto itself.",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_270",
+    "original": "A warm, verdant land that stretched as far as the eye can see. Not to mention, deliciously sweet apples and grapes abound! Needless to say I ate my fair share.",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_271",
+    "original": "I understand the Garleans who once lived in Corvos called it \u201CLocus Amoenus\u201D\u2500their utopia. Having seen it with my own eyes, I now understand why.",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_272",
+    "original": "Sadly, the carpet we brought back from the bedchamber offered scant comfort to the young maiden. Yet perhaps the story can follow a different thread that we missed this time around...",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_280",
+    "original": "A journey through a sapphire city led us to the glittering ocean blue, full of vibrant corals and lustrous pearls! Though their taste was bitter, their beauty made up for it.",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_281",
+    "original": "Even so, I won\u0027t soon forget the mythical sea-maid we encountered! Do you think such a people ever truly existed?",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_282",
+    "original": "Unfortunately the jewel we brought back, brilliant as it was, could not fill the hole in the poor maiden\u0027s heart. Perhaps there is another path we can follow\u2500one which will lead us to a different end.",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_290",
+    "original": "Corvos brings to mind rich greenery and clear seas, so I was surprised to traverse such a treacherous valley! Yet those mushrooms we found were delicious enough to risk life and limb all over again.",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_291",
+    "original": "And the swordmaster was a most fearsome foe! I had heard practitioners of the Unyielding Blade were wiped out by the Garleans, and every page of their teachings burned to ash. To see such swordplay firsthand was truly awe-inspiring. ",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_292",
+    "original": "Unfortunately, the hard-won weapon did little to placate the poor maiden\u0027s sadness. Yet perhaps there is a different outcome to be found among the book\u0027s pages!",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_300",
+    "original": "To think we would find fellowship with one of the sea-folk! I had worried maybe she would bar our way, yet the story unfolded in a wonderfully surprising fashion.",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_301",
+    "original": "That monstrous fish got its just deserts after laying waste to the poor maiden\u0027s village. I had read that the seafaring peoples of the Corvos Narrow once paid obeisance to such creatures\u2500doubtless out of terror.",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_302",
+    "original": "Yet no beast can cow you, eh? Thanks to your might, we managed to recover exactly what we were looking for.",
+    "translation": ""
+  },
+  "197": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_303",
+    "original": "Although most wouldn\u0027t spare that ashen plate a second glance, the memories it stirred within the maiden\u0027s heart made it priceless to her.",
+    "translation": ""
+  },
+  "198": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_310",
+    "original": "We might have reached the end of the tale, yet I have a feeling it was but one of many.",
+    "translation": ""
+  },
+  "199": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_311",
+    "original": "My curiosity as a gleaner alone compels me to explore the book\u0027s pages further, yet I\u0027m also determined to discover the meaning of my father\u0027s parting words.",
+    "translation": ""
+  },
+  "200": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_100_311",
+    "original": "So I intend to pore over the pages again and again, until I know its every twist and turn by heart!",
+    "translation": ""
+  },
+  "201": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_312",
+    "original": "However, I wouldn\u0027t dare brave the journey alone. I understand you\u0027re a busy \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E, but I would be grateful for your help whenever you have the time.",
+    "translation": ""
+  },
+  "202": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_314",
+    "original": "You have no idea how happy that makes me! Well then, I look forward to our next adventure.",
+    "translation": ""
+  },
+  "203": {
+    "tag": "TEXT_KINGVA101_05441_FYRGEIM_000_315",
+    "original": "\u003Chex:021A020203\u003EThe Merchant\u0027s Tale\u003Chex:021A020103\u003E shall remain here in safekeeping. If you wish to peruse its pages again, you only need ask.",
+    "translation": ""
+  },
+  "204": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_316",
+    "original": "Oh, of course! I forgot to mention anything about your reward. Since the guildship handled this request, you can speak with Shallow Moor to receive it.",
+    "translation": ""
+  },
+  "205": {
+    "tag": "TEXT_KINGVA101_05441_YNAZQHA_000_317",
+    "original": "Now, I shall take my leave. I hope to see you again sooner rather than later, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "208": {
+    "tag": "TEXT_KINGVA101_05441_SHALLOWMOOR_000_330",
+    "original": "There you are, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! I take it Y\u0027nazqha\u0027s odd job wrapped up without a hitch?",
+    "translation": ""
+  },
+  "209": {
+    "tag": "TEXT_KINGVA101_05441_SHALLOWMOOR_000_331",
+    "original": "So, she wasn\u0027t exaggerating\u2500you actually \u003Chex:021A020203\u003Ewent inside\u003Chex:021A020103\u003E the book! I shouldn\u0027t have put it past Y\u0027rhul Nunh to have such a wondrous tome in his collection.",
+    "translation": ""
+  },
+  "210": {
+    "tag": "TEXT_KINGVA101_05441_SHALLOWMOOR_000_332",
+    "original": "While it\u0027s no surprise, I commend you for getting her safely to its final page. She chose well!",
+    "translation": ""
+  },
+  "211": {
+    "tag": "TEXT_KINGVA101_05441_SHALLOWMOOR_000_333",
+    "original": "And thus your obligation to us comes to an end! However, I\u0027m certain such a rare book holds an irresistible allure. Why, I reckon you\u0027re thinking about leaping back into its pages right this moment!",
+    "translation": ""
+  },
+  "213": {
+    "tag": "TEXT_KINGVA101_05441_SYSTEM_000_350",
+    "original": "The \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ECorvosi Folklore Record\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is now available within the V\u0026C Dungeon Finder in the Duty section of the main menu.",
+    "translation": ""
+  },
+  "214": {
+    "tag": "TEXT_KINGVA101_05441_SYSTEM_000_351",
+    "original": "New entries will be added to the log as you complete each possible route through the variant dungeon and surpass the challenges which await you.",
+    "translation": ""
+  },
+  "215": {
+    "tag": "TEXT_KINGVA101_05441_SYSTEM_100_351",
+    "original": "Help Y\u0027nazqha complete the folklore record and unveil every secret of this fantastic book!",
+    "translation": ""
+  },
+  "216": {
+    "tag": "TEXT_KINGVA101_05441_SYSTEM_110_351",
+    "original": "A new quest is available to undertake from Fyrgeim in Journey\u0027s End.",
+    "translation": ""
+  }
+}

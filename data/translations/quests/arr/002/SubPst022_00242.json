@@ -1,0 +1,547 @@
+{
+  "0": {
+    "tag": "TEXT_SUBPST022_00242_SEQ_00",
+    "original": "The deputy postmoogle finds himself with a pressing demand for an amenable adventurer.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_SUBPST022_00242_SEQ_01",
+    "original": "The deputy postmoogle has entrusted you with an official appeal for assistance from the Brass Blades. It must be delivered to Cocobuki, master of the Thaumaturges\u0027 Guild in Ul\u0027dah, without further delay.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_SUBPST022_00242_SEQ_02",
+    "original": "Cocobuki tears open the sealed epistle and reveals the subject of the Blades\u0027 suspicions: Prelate Yayake, the guild\u0027s receptionist. It would seem Yayake\u0027s name has been mentioned in connection with that of her former guildmaster, Mumuepo, whom the Blades believe to have fomented unrest in Ul\u0027dah. The disgraced thaumaturge is currently remanded in the Coliseum, where he is forced to fight until his debt to society is repaid. Recalling the way Yayake once idolized the man, Cocobuki is eager to investigate the prelate\u0027s recent activities, and asks for your assistance. By way of a first step, speak with Yayake herself, and check for any signs of suspicious activity.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_SUBPST022_00242_SEQ_03",
+    "original": "After overhearing an argument between Yayake and a would-be thaumaturge, the prelate confesses that she has been turning away applicants she deems unsuitable, without the guildmaster\u0027s consent. Confident in the probity of her actions, she permits you to return to Cocobuki, and report all.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_SUBPST022_00242_SEQ_04",
+    "original": "Cocobuki mulls over the possible motives behind Yayake\u0027s decision to interfere in guild recruitment, but cannot come to any definite conclusion. Accordingly, he asks that you question others around the Ossuary in the hope of gaining further insight into the prelate\u0027s recent behavior.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_SUBPST022_00242_SEQ_05",
+    "original": "Talk around the Ossuary suggests that Yayake, dearest disciple of the disgraced guildmaster, has been visiting Mumuepo at the Coliseum. She may even have taken several important thaumaturgical texts to him from the guild\u0027s private collection. Report this incriminating hearsay back to Cocobuki.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_SUBPST022_00242_SEQ_06",
+    "original": "The ominous news that Yayake has removed several volumes from the guild\u0027s library leaves Cocobuki profoundly perturbed. Only by determining which titles the prelate has purloined can he hope to uncover the conspirators\u0027 schemes. To this end, he entrusts you with the inventory of the guild\u0027s library, and urges you to scour the bookshelves that line the Ossuary walls to verify which texts were taken.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_SUBPST022_00242_SEQ_07",
+    "original": "You have completed your search, and identified the missing volumes. Return to the guildmaster to report your findings.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_SUBPST022_00242_SEQ_08",
+    "original": "The list of missing manuscripts appears to confirm Cocobuki\u0027s worst fears. Every title bore special significance to Master Mumuepo, and the fact that the copies taken lack the extravagant ornamentation that became his obsession would seem to imply that they hold some practical value to him. But what could he be plotting? In desperation, Cocobuki decides to set a trap for Yayake in a bid to make her talk. He would have you conceal yourself before the rear entrance to the Coliseum, and ambush the parlous prelate as she steals away to meet her conspirator-in-chief.",
+    "translation": ""
+  },
+  "9": {
+    "tag": "TEXT_SUBPST022_00242_SEQ_09",
+    "original": "Yayake confesses all. Racked with guilt over her inability to prevent her master\u0027s fall from grace, she has been secretly working towards his rehabilitation, and preventing others from following in his footsteps. Cocobuki accepts the sincerity of the prelate\u0027s words, and encourages her to put her expiatory intentions to work in service to the guild. Her lapses redeemed, Yayake vows to put the past behind her, and to return to her thaumaturgical studies with her head held high.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_SUBPST022_00242_TODO_00",
+    "original": "Deliver the epistle to Cocobuki in the Thaumaturges\u0027 Guild.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_SUBPST022_00242_TODO_01",
+    "original": "Speak with Yayake.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_SUBPST022_00242_TODO_02",
+    "original": "Report to Cocobuki.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_SUBPST022_00242_TODO_03",
+    "original": "Ask about Yayake\u0027s behavior around the Thaumaturges\u0027 Guild.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_SUBPST022_00242_TODO_04",
+    "original": "Report to Cocobuki.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_SUBPST022_00242_TODO_05",
+    "original": "Search the bookshelves to identify the missing volumes.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_SUBPST022_00242_TODO_06",
+    "original": "Report to Cocobuki.",
+    "translation": ""
+  },
+  "31": {
+    "tag": "TEXT_SUBPST022_00242_TODO_07",
+    "original": "Lie in wait by the rear entrance to the Coliseum.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_SUBPST022_00242_LETTERMOOGLE_000_000",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, my loyal lackey! Your timing is perfect, kupo! Look what I just found crumpled up in the bottom of\u2500 I mean, look what just popped into my postbag: it\u0027s an official epistle from those doughty defenders of Ul\u0027dah, the Brass Blades. Needless to say, it must be delivered without delay!",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_SUBPST022_00242_LETTERMOOGLE_000_001",
+    "original": "Do you recognize this seal? Any postmoogle worth his salt knows what it signifies\u2500an appeal for assistance. The Blades are not wont to ask for help, mind you\u2500what they want, they usually take by force. These petitions are only sent when their inquiries lead them outside their jurisdiction.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_SUBPST022_00242_LETTERMOOGLE_000_002",
+    "original": "This one is addressed to Cocobuki, master of the Thaumaturges\u0027 Guild. Those Blades are nothing if not plucky, I must say\u2500if \u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E suspected a thaumaturge of any manner of wrongdoing, I would stay well away! ...So hurry to Ul\u0027dah, kupo, and deliver the message before it\u0027s too late!",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_SUBPST022_00242_LETTERMOOGLE_000_005",
+    "original": "...I expect you\u0027re wondering how a letter from the Brass Blades of Ul\u0027dah to the Thaumaturges\u0027 Guild \u003Chex:021A020203\u003Ein\u003Chex:021A020103\u003E Ul\u0027dah has ended up here in Limsa Lominsa. Yes, well\u2500the moogle delivery service works in mysterious ways, kupo! As do the pockets of my postbag...",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_010",
+    "original": "Ah, you are returned, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Do you seek to delve still more deeply into the fathomless realms of the unreal? No...I sense your desires are altogether more worldly. ...A letter, you say?",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_100_010",
+    "original": "Hm hm hm... You stand upon the precipice of the fathomless void, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Are you ready to take the plunge? ...Mayhap not. I sense that you seek something altogether more worldly. ...A letter, you say?",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_110_010",
+    "original": "Ah...another aspirant come seeking knowledge of the ineffable. You are fortunate, child\u2500of the five masters of this guild, Thal led you to the wisest. ...Pardon? You came here for another purpose entirely? ...A letter, you say?",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_011",
+    "original": "Hmm... It seems that the name of our bonekeeper, Prelate Yayake, has been mentioned in connection with a Brass Blade investigation. Former guildmaster Mumuepo stands accused of fomenting insurrection against the crown, and they fear Yayake may have become embroiled in his vile plot.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_012",
+    "original": "Mumuepo was convicted of embezzlement five years ago, and sentenced to serve in the Coliseum as a noxius\u2500a prisoner of the arena, made to fight until his debts are repaid. He toils there to this day.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_013",
+    "original": "When his crimes first came to light, it was the sultana herself who pressed for a heavy sentence, to serve as an example of the consequences of corruption. That would give him reason enough to hold a grudge against the crown.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_014",
+    "original": "And it is true that Prelate Yayake was his dearest disciple before his fall from grace. It is not beyond the realms of possibility that he might attempt to involve her in his schemes. A swift and decisive investigation is called for.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_015",
+    "original": "...And I believe I know just the \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E to carry it out. Oh, do not feign surprise. Why else would I go to the trouble of explaining the situation to you? Now\u2500by way of a first step, I would have you speak with Prelate Yayake herself. Probe her demeanor for any irregularities, and report back to me.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_019",
+    "original": "If Prelate Yayake is guilty of any wrongdoing, she would take great pains to hide it from me. You, however, would be far less like to arouse her suspicion. With a modicum of discretion, you should be able to discover the truth of this matter.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_SUBPST022_00242_BOUKENSHA00242_000_020",
+    "original": "Who are you to refuse me admittance!? I demand to speak with your superior this instant!",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_SUBPST022_00242_YAYAKE_000_020",
+    "original": "How \u003Chex:021A020203\u003Edare\u003Chex:021A020103\u003E you speak to me like that! Get out of my sight before I give you reason to regret your presumption!",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_SUBPST022_00242_BOUKENSHA00242_000_021",
+    "original": "Oho! \u003Chex:021A020203\u003EMy\u003Chex:021A020103\u003E presumption!? I only \u003Chex:021A020203\u003Epresume\u003Chex:021A020103\u003E to be able to enroll in a guild without being turned away by a bloody \u003Chex:021A020203\u003Ereceptionist\u003Chex:021A020103\u003E, of all people! Your guildmaster will hear of this, you mark my words!",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_SUBPST022_00242_YAYAKE_000_022",
+    "original": "Ah...\u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I am sorry you had to bear witness to that ugly scene. Such altercations must seem unspeakably petty to a \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E of your experience.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_SUBPST022_00242_YAYAKE_000_023",
+    "original": "Ah...\u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I am sorry you had to bear witness to that ugly scene. Still, I daresay you\u0027ve been a party to fiercer conflicts than that in the course of your initiation.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_SUBPST022_00242_YAYAKE_000_024",
+    "original": "...Ahem. Welcome to the Thaumaturges\u0027 Guild. Pray pay no mind to all of that. It is a guild matter\u2500not that that impertinent young fool has any place in \u003Chex:021A020203\u003Ethis\u003Chex:021A020103\u003E guild.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_SUBPST022_00242_YAYAKE_000_025",
+    "original": "\u003Csigh\u003E ...I find that I am quite at a loss as to how to deal with this latest crop of initiates. Most are wholly oblivious to the dangers of thaumaturgy. They imagine our art a \u003Chex:021A020203\u003Epastime\u003Chex:021A020103\u003E, and would blindly embark on the path to oblivion without a moment\u0027s hesitation.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_SUBPST022_00242_YAYAKE_000_026",
+    "original": "If only they knew... I was here long before the brothers who serve as guildmasters today. For nigh on fifteen years have I stood at this desk, ushering unsuspecting novices into the abyss.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_SUBPST022_00242_YAYAKE_000_027",
+    "original": "I have seen too many souls corrupted by powers they did not understand, and could not control. So I have taken a stand. Any aspiring initiate who I adjudge to lack the necessary aptitude, I turn away.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_SUBPST022_00242_YAYAKE_000_028",
+    "original": "If that goes beyond a prelate\u0027s prerogative, so be it. Too often have I seen the spark of enthusiasm in a novice\u0027s eye turn into the conflagration that consumes him. I could not simply continue to stand by and do nothing.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_SUBPST022_00242_YAYAKE_000_029",
+    "original": "You may report my conduct to the guildmaster if you wish. I believe that what I have done is right, and will take full responsibility for my actions.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_SUBPST022_00242_YAYAKE_000_030",
+    "original": "It is for the council of guildmasters to decide whether or not my conduct goes against the dicta of the guild. Final judgment on the matter would fall to the eldest of the brothers\u2500Master Coco... Cocobe...? Cocobezi! ...I think.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_SUBPST022_00242_YAYAKE_000_035",
+    "original": "I do not know how my deeds will be judged\u2500only that they \u003Chex:021A020203\u003Efeel\u003Chex:021A020103\u003E right. The rest I leave in the hands of the guildmasters.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_040",
+    "original": "I see... So Prelate Yayake has been turning away prospective initiates. I had wondered why the number of new guild members had fallen so sharply... Now I know.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_041",
+    "original": "Could this be the bitter fruit of Mumuepo\u0027s unseen labor? Might he be working through Yayake to deprive the guild of new blood, and thereby precipitate our eventual downfall?",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_042",
+    "original": "If so, it has been for naught. For while the quantity of recruits has undoubtedly fallen, their quality has soared. Each one is blessed with a natural aptitude for aetherial manipulation. Be that as it may, we cannot be sure of Yayake\u0027s true motives...",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_043",
+    "original": "We must learn more of her recent behavior. Pray speak with others around the Ossuary, and glean what clues you can.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_045",
+    "original": "The Ossuary walls have ears, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u2500and eyes, and tongues. Little here goes unnoticed, and less unremarked. Speak to those around the guild, and add their knowledge to our own.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_SUBPST022_00242_YAYAKE_000_045",
+    "original": "There are three ways to study thaumaturgy: read, read, and read some more. All one could ever hope to know of the ancient arts of devastation dwells in the pages of the dusty volumes that line these walls. My master taught me as much...when he still lived by his own teachings...",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_SUBPST022_00242_COCOBEZI_000_050",
+    "original": "Prelate Yayake? She\u0027s been in the guild longer than any of us. And yet she\u0027s still only a bonekeeper, propping up the reception desk. I wonder why she refuses promotion so stubbornly?",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_SUBPST022_00242_COCOBEZI_000_051",
+    "original": "She was a loyal supporter of the previous guildmaster, you know\u2500right up until he was thrown out in disgrace. I suppose her feelings towards my brothers and I must be...complicated, to say the least.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_SUBPST022_00242_COCOBEZI_000_052",
+    "original": "That may explain why she \u003Chex:021A020203\u003Estill\u003Chex:021A020103\u003E can\u0027t seem to get our names right. I had always imagined it a simple lapse of memory, but now that I think about it, I can\u0027t help wondering if it might signify something. Could it be that, in her heart of hearts, she has yet to accept us as her guildmasters?",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_SUBPST022_00242_COCOBEZI_000_055",
+    "original": "I can\u0027t recall Yayake ever forgetting Mumuepo\u0027s name...or anybody else\u0027s, for that matter. She seems to know every single apprentice by sight.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_SUBPST022_00242_COCOBEZI_000_056",
+    "original": "Not so my brothers and I... Surely it can\u0027t be \u003Chex:021A020203\u003Ethat\u003Chex:021A020103\u003E difficult to tell us apart!",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_SUBPST022_00242_MAMANE_000_050",
+    "original": "Prelate Yayake? She \u003Chex:021A020203\u003Ealways\u003Chex:021A020103\u003E has her head in a book. A habit she picked up from Master Mumuepo, I believe.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_SUBPST022_00242_MAMANE_000_051",
+    "original": "In the study of esoteric tomes, he was without equal. So skilled was he at extracting knowledge from the most cryptic texts that he was even able to bring several long-forgotten magicks back to life.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_SUBPST022_00242_MAMANE_000_052",
+    "original": "Such achievements prompted many to look past his more questionable\u3000activities\u2500Yayake among them. Others, however, were not so forgiving. The truth is, long before his fall from grace, there were more than a few in the guild who regarded him with suspicion.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_SUBPST022_00242_MAMANE_000_053",
+    "original": "Not Yayake, though. She has always been such an earnest, single-minded person, completely \u003Chex:021A020203\u003Edevoted\u003Chex:021A020103\u003E to deepening her understanding of thaumaturgy. She saw only her master\u0027s genius...",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_SUBPST022_00242_MAMANE_000_055",
+    "original": "Poor woman... She did so adore him. It must have come as quite a shock when his many failings were aired so publicly. I would not be surprised if she shared his humiliation. But she didn\u0027t let it affect her work\u2500if anything, it only made her more determined than before.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_SUBPST022_00242_MAMANE_000_056",
+    "original": "Although, it\u0027s strange... Despite her devotion to her studies, she has never shown any inclination to seek a loftier post within the guild. She must have been at that reception desk for nigh on fifteen years now! I wonder what exactly she has been working on all this time...",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_SUBPST022_00242_YAYAROKU_000_050",
+    "original": "So you wish to learn about Prelate Yayake? There is but one thing to tell: she breaks her fast on thaumaturgical texts, and sups on treatises.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_SUBPST022_00242_YAYAROKU_000_051",
+    "original": "...Mayhap literally, if the guild librarians are to be believed. According to them, she has taken several weighty volumes from the Ossuary, and has thus far failed to return a single one. Just what could she be doing with them?",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_SUBPST022_00242_YAYAROKU_000_055",
+    "original": "Yayake has always had a voracious appetite for learning, and few are more familiar than her with the guild\u0027s collection. The volumes that line these walls are some of the most fundamental scriptures of the thaumaturgical canon.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_SUBPST022_00242_YAYAROKU_000_056",
+    "original": "I can scarce believe that a woman of her learning would remove such manuscripts from the collection. None knows better than she that this is no mere lending library!",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_SUBPST022_00242_DIDILATA_000_050",
+    "original": "Oh g-gods! I\u0027m g-good for the money, I swear! J-Just give me a few more days!",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_SUBPST022_00242_DIDILATA_000_051",
+    "original": "Wh-What? You want to know if I\u0027ve seen P-P-Prelate Yayake? Uh...no...? All right, all right, yes! I\u0027ve s-seen her a c-couple of times, heading through them d-doors over there, looking all shifty. St-Stuck out like a s-sore thumb, she did.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_SUBPST022_00242_DIDILATA_000_052",
+    "original": "That\u0027s a back way to the C-Coliseum, see, and she d-don\u0027t look like no fighter. Takes you d-down to where they lock up them n-n-noxius fellers, I think. Maybe she\u0027s been p-paying one of them a visit...?",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_SUBPST022_00242_DIDILATA_000_055",
+    "original": "Yayake\u0027s b-b-been through them d-doors a fair bit recently\u2500always s-seemed to be carrying s-something heavy, and all. But that\u0027s all I know, I s-swear!",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_SUBPST022_00242_DIDILATA_000_056",
+    "original": "Hey, wait\u2500wh-what\u0027s this information w-worth to you? Ah, hells, Didi\u2500this could\u0027ve been your lucky day. Why\u0027d you have to go and open your daft gob?",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_060",
+    "original": "My little bird returns. Tell me...what information were you able to gather about our prelate?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_061",
+    "original": "I see... It seems Yayake was more deeply in thrall to our predecessor than I first assumed. And the business of these missing tomes does not bode well.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_062",
+    "original": "Mumuepo was renowned for his almost preternatural ability to piece together scraps of arcane knowledge from the most moth-eaten manuscripts, and bring long-lost sorceries back to life.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_063",
+    "original": "If, as seems likely, Yayake delivered the stolen tomes to him, he may at this very moment be endeavoring to reawaken some dread magick with which to exact vengeance against the sultanate...",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_064",
+    "original": "But without knowing which texts have been taken, we can only guess at his intentions... Hold on a moment! You did say the books had been removed from the guild\u0027s private collection, did you not?",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_065",
+    "original": "Thal be praised\u2500there may yet be a way! Here, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u2500take this. It is the full inventory of the guild\u0027s archives, listing every manuscript that lines these walls. Simply compare the books on the shelves against the titles on this list, and our missing texts shall be revealed!",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_069",
+    "original": "The guild has collected many thousands of tomes over the centuries\u2500to take stock of them all would require no small amount of time, not to mention patience. Were I you, I should begin by looking out for any conspicuous gaps in the shelves...",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_SUBPST022_00242_SYSTEM_000_070",
+    "original": "A copy of \u003Chex:021A020203\u003EThaumaturgy: The Yawning Abyss\u003Chex:021A020103\u003E appears to be missing.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_SUBPST022_00242_SYSTEM_000_071",
+    "original": "A copy of \u003Chex:021A020203\u003EThe Cry from the Depths\u003Chex:021A020103\u003E appears to be missing.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_SUBPST022_00242_SYSTEM_000_072",
+    "original": "A copy of \u003Chex:021A020203\u003EThe Lesser Key of Thal\u003Chex:021A020103\u003E appears to be missing.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_SUBPST022_00242_SYSTEM_000_073",
+    "original": "A copy of \u003Chex:021A020203\u003EThe Troth of Kings\u003Chex:021A020103\u003E appears to be missing.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_080",
+    "original": "Is it done? Quickly, then\u2500show me which titles are missing.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_081",
+    "original": "Hmm... It is as I feared. All of the missing volumes are works which held a special fascination for our former guildmaster. It is all but certain that he requested them.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_082",
+    "original": "Alas, I cannot speak for their content. What I \u003Chex:021A020203\u003Ecan\u003Chex:021A020103\u003E say, is that Mumuepo will not have chosen them on a whim. Being a connoisseur of ancient manuscripts, he knows the worth of every volume here. The \u003Chex:021A020203\u003Eilluminative\u003Chex:021A020103\u003E worth, I should add\u2500though he knows the pecuniary worth just as well.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_083",
+    "original": "As you may have heard, he became obsessed with collecting lavishly ornamented codices, frittering our funds away on gilded or bejeweled copies of works already in our possession. He would even buy works of little scholarly value, providing they were rare enough to drive up the price.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_084",
+    "original": "By the end, the walls of his study were awash with gold and gems, and he would stare at them for hours, rapt in silent adoration. In his lust for luster, he emptied first the guild\u0027s coffers, then his own, being driven at last to the felonious peculation that would prove his undoing.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_085",
+    "original": "I mention this because the volumes which Yayake took were wholly without ornament\u2500meaning that Mumuepo desired them for their content and not their form. I fear something terrible lurks in those pages, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u2500something which Mumuepo alone may be capable of discovering...\u003Chex:02100103\u003E\u003Csigh\u003E There is nothing for it\u2500the prelate must be made to talk.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_086",
+    "original": "The end of Yayake\u0027s shift draws near. I propose we lay a trap for her. Lie in wait outside the rear entrance to the Coliseum. I will stalk her from the shadows, and when we have her cornered...we close the net!",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_089",
+    "original": "Hurry, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u2500to the Coliseum! Our only hope of exposing the truth of this murky intrigue is to catch Yayake in the act.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_090",
+    "original": "Hm hm hm... Heading back to the guild so soon, Prelate?",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_SUBPST022_00242_YAYAKE_000_091",
+    "original": "Wha\u2500!? Master Co... Coco... Cocobo...?",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_092",
+    "original": "Cocobuki. Prelate Yayake, you stand accused of treason. The Brass Blades have passed certain information to me which suggests that you have been conspiring with Mumuepo to incite rebellion against the crown.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_093",
+    "original": "I have been conducting an investigation to establish the veracity of their report. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E here has been assisting me in my inquiries.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_SUBPST022_00242_YAYAKE_000_094",
+    "original": "...Treason? No. I will admit that I have sought to meet with Master Mumuepo, but he has yet to agree to speak with me.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_095",
+    "original": "And what of the manuscripts you took from the guild? Do you claim that you removed them not at your former master\u0027s behest, but upon your own initiative?",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_SUBPST022_00242_YAYAKE_000_096",
+    "original": "I do...though I know it was wrong. I...I thought that if I could show him some of the texts he used to love so much, it might help to rekindle the passion he once felt for his studies...",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_SUBPST022_00242_YAYAKE_000_097",
+    "original": "By the time I realized how low he had sunk through his lust for gold, it was too late. If I had only paid more attention... If I hadn\u0027t been so absorbed in my own studies... I owe it to him to help him in whatever way I can!",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_098",
+    "original": "...This weight has been on your heart for a long time.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_SUBPST022_00242_YAYAKE_000_099",
+    "original": "I failed my master in his hour of need, but I have been attempting to make amends for it ever since. I have neglected my own advancement, and devoted myself to investigating what caused Master Mumuepo to stray from the path of enlightenment.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_SUBPST022_00242_YAYAKE_000_100",
+    "original": "In secret, I began to study the careers of every new initiate, hoping to identify such corruptive factors. In so doing, I feel I have gained an instinctive sense of which aspirants will bring honor to our noble art, and which stand at risk of being lost to the void.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_101",
+    "original": "And so you began to turn away those applicants whom you deemed unsound, hoping to prevent future thaumaturges from following your former master down the path to self-destruction...",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_SUBPST022_00242_YAYAKE_000_102",
+    "original": "That was mine intent, yes. Yet search as I might, I have been unable to find any precedent for my supposed predictive instinct in the ancient texts. Mayhap I have been deceiving myself, along with everyone else...",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_103",
+    "original": "The texts contain the accumulated knowledge of those who have gone before us. They do not preclude us from adding our own. The map of the void is ever incomplete\u2500it is our duty to delve into its unknown reaches, and bring back new insight for the guidance of future generations.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_104",
+    "original": "The ability to divine a man\u0027s nature at a glance would make a valuable addition to a thaumaturge\u0027s arsenal. It warrants investigation. Can I rely on you to research this matter further? Should you find evidence to support your claims, I will of course require that you systematize the process.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_105",
+    "original": "This shall be your atonement, Yayake, and a fresh opportunity to resume your studies. Though the mistakes of the past cannot be undone, mayhap through this the mistakes of the future can yet be prevented.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_SUBPST022_00242_YAYAKE_000_106",
+    "original": "Thank you, Master! If it can be of any assistance to the guild, I shall devote myself to this research with all my heart!",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_107",
+    "original": "I thank you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, for helping to bring the truth of this matter to light. Rest assured that I shall instruct the Brass Blades that their suspicions regarding Prelate Yayake are completely unfounded.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_SUBPST022_00242_COCOBUKI_000_108",
+    "original": "But for now, let us return to the Ossuary. It is past time that the fruits of Prelate Yayake\u0027s labors were shared with the guild\u2500not only for the benefit of thaumaturges today, but for thaumaturges yet to come!",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_SUBPST022_00242_SYSTEM_000_000",
+    "original": "With your successful delivery, your reputation as a letter carrier has grown!",
+    "translation": ""
+  }
+}

@@ -1,0 +1,897 @@
+{
+  "0": {
+    "tag": "TEXT_AKTKBA331_04117_SEQ_00",
+    "original": "The secretariat has urgent news for you.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_AKTKBA331_04117_SEQ_01",
+    "original": "The Crushing Tide have struck again, and Candlekeep Quay is under attack. You prepare to contact the Company of Heroes and order them into battle, that the threat may be quashed before the residents suffer any casualties.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_AKTKBA331_04117_SEQ_02",
+    "original": "You reach out to Wheiskaet and the Company via linkpearl and order them to defend Candlekeep Quay. With Landenel and U\u0027odh Nunh already in the vicinity, you assign each their tasks and send them on their way, while resolving to join them as soon as possible.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_AKTKBA331_04117_SEQ_03",
+    "original": "You arrive at Candlekeep Quay to find that the Company of Heroes succeeded in fending off the raiders and seeing the residents to safety. Interrogating two of the captured Crushing Tide after the battle, you learn that Doww is hiding out on a deserted isle that Merlwyb surmises is located in the Cieldalaes. All present resolve to set sail to promptly deal with the threat.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_AKTKBA331_04117_SEQ_04",
+    "original": "On the isle you come face-to-face with Doww and the blasphemy, whose presence stirs the power of the Echo. You are granted a vision which reveals that the blasphemy was born of none other than the Indigo Matriarch, queen of the Sahagin, who was overcome with despair for the plight of her people. Regaining your senses, you and your companions confront the beast, only to be incapacitated by a devastating attack that saps your strength. Fortunately, you manage to escape unharmed thanks to a well-timed bullet fired by an unknown sharpshooter. Making for the docks, you regroup with your companions and consider your next course of action.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_AKTKBA331_04117_SEQ_05",
+    "original": "The members of the Company vent their frustration at their failure to defeat the blasphemy. Noll, for his part, is deeply distressed by the revelation that the abomination was once his people\u0027s mother and queen. Together with Wheiskaet, you ponder the implications of what you have learned from your brief encounter, while Merlwyb declares her intent to dispatch scouts to track the escaped beast, and ascertain where it is taking shelter.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_AKTKBA331_04117_SEQ_06",
+    "original": "Back at Maelstrom Command, Merlwyb considers how the beast might be dealt with. Reaffirming her confidence in you and the Company of Heroes, she muses about attempting to recruit the Company\u0027s missing commander to aid in your cause. She encourages you to rest up while you can, as your greatest challenge still lies ahead.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe next role quest will be available from the Maelstrom secretariat upon reaching level 89 in any melee DPS class.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_AKTKBA331_04117_TODO_00",
+    "original": "Speak with the storm runner.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_AKTKBA331_04117_TODO_01",
+    "original": "Speak with Wheiskaet at Candlekeep Quay.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_AKTKBA331_04117_TODO_02",
+    "original": "Speak with Merlwyb at the Lominsan ferry docks.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_AKTKBA331_04117_TODO_03",
+    "original": "Speak with Merlwyb again.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_AKTKBA331_04117_TODO_04",
+    "original": "Speak with Merlwyb at Maelstrom Command.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_AKTKBA331_04117_LIMSASECRETARY_000_001",
+    "original": "Grave news, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. We\u0027ve just received word that Candlekeep Quay is under attack.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_AKTKBA331_04117_LIMSASECRETARY_000_002",
+    "original": "It would seem the Crushing Tide has struck again. The Admiral asks that you deploy the Company of Heroes at once. Our man here will act as your signaler.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_AKTKBA331_04117_LIMSASIGNALLER_000_003",
+    "original": "The Company of Heroes is awaiting your orders!",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_004",
+    "original": "(-Wheiskaet-)Candlekeep Quay!?",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_005",
+    "original": "(-Wheiskaet-)Both Landenel and U\u0027odh Nunh should be close by. What are your instructions?",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_AKTKBA331_04117_SYSTEM_000_006",
+    "original": "Landenel is a hot-headed warrior who lives for the thrill of battle, while U\u0027odh Nunh is a calm and calculating hunter. Both can serve you well, but better if assigned to a task suited to their skills...",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_AKTKBA331_04117_Q1_000_000",
+    "original": "What order will you give Landenel?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_AKTKBA331_04117_A1_000_001",
+    "original": "Drive the Crushing Tide away!",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_AKTKBA331_04117_A1_000_002",
+    "original": "See the residents of Candlekeep Quay to safety!",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_AKTKBA331_04117_LANDENEL_000_008",
+    "original": "(-Landenel-)Consider it done, Commander!",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_AKTKBA331_04117_Q2_000_000",
+    "original": "What order will you give to U\u0027odh Nunh?",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_AKTKBA331_04117_A2_000_001",
+    "original": "Drive the Crushing Tide away!",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_AKTKBA331_04117_A2_000_002",
+    "original": "See the residents of Candlekeep Quay to safety!",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_AKTKBA331_04117_UODHNUNH_000_010",
+    "original": "(-U\u0027odh Nunh-)Understood.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_011",
+    "original": "(-Wheiskaet-)The rest of us will head there at once!",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_AKTKBA331_04117_LIMSASECRETARY_000_012",
+    "original": "I\u0027ll tell the Admiral you and the Company of Heroes are on your way. Godsspeed! ",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_AKTKBA331_04117_LIMSASECRETARY_000_015",
+    "original": "Our communications officer will assist in relaying your orders.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_020",
+    "original": "Worry not. The tide has already ebbed, if you follow my meaning.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_021",
+    "original": "Perhaps you\u0027re curious how your men carried out your orders?",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_022",
+    "original": "You\u0027ll be pleased to hear that Landenel led the attack with his characteristic aplomb. Dancing amongst his foes with such speed and ferocity that were dizzying to watch.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_023",
+    "original": "Landenel managed to see every last man, woman, and child to safety\u2500albeit grumbling all the while about how he\u0027d rather be skewering fishbacks.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_024",
+    "original": "U\u0027odh Nunh made full use of his talents in neutralizing our foe\u0027s attack. Mere moments after he arrived, he devised and enacted the perfect defense plan, using the terrain to his advantage.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_025",
+    "original": "U\u0027odh Nunh made full use of his talents in leading the rescue effort. Not a single man, woman, or child suffered so much as a scratch.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_026",
+    "original": "I had my doubts at first, but you\u0027ve passed your first trial as acting captain with flying colors.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_027",
+    "original": "By sending both men to the front lines, you left the residents open to an attack. Fortunately, I came along in time to escort them to safety\u2500but a few stragglers were wounded in the chaos.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_028",
+    "original": "By assigning both men to the rescue effort, you left the quay itself vulnerable to attack...and the damage was as severe as you might expect. I advise you to consider your orders more carefully in the future.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_029",
+    "original": "Pardon my bluntness, but you have much to learn about being an effective leader. You\u0027d best be a quick study, or the consequences will be dire.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_030",
+    "original": "The battle is over, I see. \u0027Tis good to see the Company of Heroes can still live up to its name.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_031",
+    "original": "I demand answers. Why did you target Candlekeep Quay?",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_AKTKBA331_04117_ENEMYSAHAGINA04117_000_032",
+    "original": "(-Belligerent Sahagin-)Pshhh! I ssspit on your questions, filthy shhhorewalker!",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_033",
+    "original": "I was hoping we might do this the easy way, but if you insist...",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_AKTKBA331_04117_ENEMYSAHAGINA04117_000_034",
+    "original": "(-Belligerent Sahagin-)Pshhh! So you would torture us? You shorewalkers are all the same\u2500sssavage brutes, the lot of you!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_AKTKBA331_04117_SHAMANILOHMANI_000_035",
+    "original": "\u003Chex:021A020203\u003ETorture\u003Chex:021A020103\u003E? Please\u2500we are not so uncivilized as that, my slippery friend.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_AKTKBA331_04117_BRAYFLOX_000_036",
+    "original": "Pshhh... Shkohhh... Brayflox\u0027s shiny treasure will have fishman trading tongueflaps in no time!",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_037",
+    "original": "Allow me to explain: Shamani Lohmani and Brayflox are well practiced in the art of interrogation.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_038",
+    "original": "Shamani has a sharp mind, as I\u0027m sure you\u0027ve noticed, and a knack for getting information out of uncooperative types with a minimum of fuss.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_039",
+    "original": "Brayflox, on the other hand... Her methods can be...\u003Chex:021A020203\u003Eunconventional\u003Chex:021A020103\u003E, to say the least. But it\u0027s hard to argue with the results.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_040",
+    "original": "Well, Commander? The choice is yours to make.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_AKTKBA331_04117_Q3_000_000",
+    "original": "To whom will you entrust the interrogation?",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_AKTKBA331_04117_A3_000_001",
+    "original": "Shamani Lohmani\u0027s my man.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_AKTKBA331_04117_A3_000_002",
+    "original": "Brayflox, I choose you!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_AKTKBA331_04117_SHAMANILOHMANI_000_042",
+    "original": "But of course, Commander. Watch as I get him talking without so much as lifting a finger.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_AKTKBA331_04117_SHAMANILOHMANI_000_043",
+    "original": "They tell me your kind are particularly fond of La Noscean oranges. Might I interest you in a glass of delightful orange wine brewed from our latest harvest?",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_AKTKBA331_04117_ENEMYSAHAGINA04117_000_044",
+    "original": "(-Belligerent Sahagin-)Pshhh! Thisss... This is\u2500!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_AKTKBA331_04117_ENEMYSAHAGINA04117_000_045",
+    "original": "(-Belligerent Sahagin-)Pshhh! Another glass, shhhorewalker! I demand it, in return for the crimes you have committed against my spawnbrothers!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_AKTKBA331_04117_SHAMANILOHMANI_000_046",
+    "original": "A mere glass, my friend? Why, I\u0027d be more than happy to offer you a full bottle\u2500nay, an entire cask! \u003Chex:021A020203\u003EIf\u003Chex:021A020103\u003E you provide us with the answers we seek...",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_AKTKBA331_04117_ENEMYSAHAGINA04117_000_047",
+    "original": "(-Belligerent Sahagin-)Pshhh... We have a deal, shorewalker. For a cask of that blisssful beverage, I will tell you all my secrets!",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_AKTKBA331_04117_BRAYFLOX_000_048",
+    "original": "Pshhh... Shkohhh... If fishman will not spit out truthywords, Brayflox\u0027s treat will have fishman spit out something else...",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_AKTKBA331_04117_ENEMYSAHAGINA04117_000_049",
+    "original": "(-Belligerent Sahagin-)Pshhh! Wh-What...what is this!?",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_AKTKBA331_04117_ENEMYSAHAGINA04117_000_050",
+    "original": "(-Belligerent Sahagin-)Ngaaaaaah! So vile, so putrid this stench!",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_AKTKBA331_04117_ENEMYSAHAGINA04117_000_051",
+    "original": "(-Belligerent Sahagin-)Unnnghhh... Bleeeccchhhhhhhhh!",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_AKTKBA331_04117_BRAYFLOX_000_052",
+    "original": "Pshhh... Shkohhh... Stinkysweet of aged gobbiecheese is strong, yes? Makes many nosetickles and stomachturns.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_AKTKBA331_04117_UODHNUNH_000_053",
+    "original": "Our finned friend\u0027s spit \u003Chex:021A020203\u003Esomething\u003Chex:021A020103\u003E up, all rrright. Though I\u0027d rather he hadn\u0027t...",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_AKTKBA331_04117_ENEMYSAHAGINA04117_000_054",
+    "original": "(-Belligerent Sahagin-)Pshhh! F-Fine! I will speak, dirty shorewalkers! J-Just...just get that foul poison away from me!",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_055",
+    "original": "Again, I ask: why did you target Candlekeep Quay?",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_AKTKBA331_04117_ENEMYSAHAGINA04117_000_056",
+    "original": "(-Belligerent Sahagin-)...Doww himself gave the order. Said we must essstablish a foothold in preparation for our assault on the city.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_057",
+    "original": "He means to attack Limsa Lominsa itself? But with your numbers, that would be folly.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_AKTKBA331_04117_ENEMYSAHAGINA04117_000_058",
+    "original": "(-Belligerent Sahagin-)Pshhh! Speaker Doww commands power beyond the comprehension of you shorewalkers!",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_059",
+    "original": "We have dealt with Leviathan before.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_AKTKBA331_04117_ENEMYSAHAGINA04117_000_060",
+    "original": "(-Belligerent Sahagin-)You misunderstand. Speaker Doww says it is a greater power ssstill. The very first being blessed by our Lord...",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_061",
+    "original": "The blasphemy...",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_062",
+    "original": "Tell me where Doww is.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_AKTKBA331_04117_ENEMYSAHAGINA04117_000_063",
+    "original": "(-Belligerent Sahagin-)Pshhh... An island far to the sssouth and eassst... There, he performs the rite that will sssummon forth the divine one and deliver my brothers and I to glory!",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_064",
+    "original": "...Thank you for your cooperation.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_065",
+    "original": "I suspect that Doww is hiding out somewhere in the Cieldalaes\u2500a deserted isle, most likely.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_AKTKBA331_04117_LANDENEL_000_066",
+    "original": "I don\u0027t know much about these so-called \u201Cblasphemies,\u201D but can they truly be tamed so easily?",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_067",
+    "original": "We have no evidence they can\u2500but we must operate under the assumption that Doww has found a way.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_068",
+    "original": "I will ready a ship\u2500we set sail for the Cieldalaes at once. Prepare yourselves, and meet me at the docks as soon as you are ready.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_069",
+    "original": "I\u0027ll have Shamani and Brayflox continue the interrogation in the meantime. Our friends here might still be hiding something from us.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_AKTKBA331_04117_LANDENEL_000_070",
+    "original": "You kept us waiting long enough, Commander. Not that I\u0027m complaining\u2500more fishmen for me to skewer.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_AKTKBA331_04117_UODHNUNH_000_075",
+    "original": "Is that all? And I was just getting warrrmed up...",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_AKTKBA331_04117_SHAMANILOHMANI_000_080",
+    "original": "Good to know my colleagues haven\u0027t grown rusty in the years since we disbanded.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_AKTKBA331_04117_BRAYFLOX_000_085",
+    "original": "Pshhh... Shkohhh... Brayflox\u0027s treasures go boom! Blast fishymen to bittybits!",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_AKTKBA331_04117_LIMSASECRETARY_000_090",
+    "original": "You have orders from the Admiral to make for Candlekeep Quay and provide support for the Company as needed.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_AKTKBA331_04117_LIMSASIGNALLER_000_095",
+    "original": "To think I\u0027d live to see the famed Company of Heroes not only reform, but fight at our side.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_100",
+    "original": "Everyone is here? Good. We make for the Cieldalaes in search of Doww\u0027s hideout.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_101",
+    "original": "Our friend Noll will be waiting for us there.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_102",
+    "original": "The blasphemy, too, may be present. Be vigilant and keep your weapons at the ready.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_103",
+    "original": "Well, Commander? Do you have any words for your men on the eve of battle?",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_AKTKBA331_04117_Q4_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_AKTKBA331_04117_A4_000_001",
+    "original": "The duty of the strong...",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_AKTKBA331_04117_A4_000_002",
+    "original": "All for one...",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_AKTKBA331_04117_LANDENEL_000_105",
+    "original": "(-Company of Heroes-)...Is to protect the weak!",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_AKTKBA331_04117_UODHNUNH_000_106",
+    "original": "Hmm? Can\u0027t say I\u0027ve hearrrd that motto before...",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_107",
+    "original": "Nor I. At any rate, let\u0027s be about it!",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_100_108",
+    "original": "We meet again, Doww.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_108",
+    "original": "Where is the blasphemy? Tell us now so we may end this madness.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_AKTKBA331_04117_DOWW_000_109",
+    "original": "Pshhhhhhhhh... Heh heh heh...",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_110",
+    "original": "Speak of the bloody devil!",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_AKTKBA331_04117_NOLL_000_111",
+    "original": "Pshhh... There it is... The dread beassst I saw beneath the waves...",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_112",
+    "original": "The source of our woes...",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_113",
+    "original": "The Echo...!? Of all the times!",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_114",
+    "original": "Defend the commander!",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_AKTKBA331_04117_DOWW_000_115",
+    "original": "Pshhh... I bring grave tidingsss, my queen. The wretched shhhorewalkers poison the minds of my ssspawnbrothers with false words and foul magicks!",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_AKTKBA331_04117_DOWW_000_116",
+    "original": "Our poor, beguiled brethren renounce Lord Leviathan and name Him a false god! They treat with Limsa Lominsa, and some even call for an alliance!",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_AKTKBA331_04117_DOWW_000_117",
+    "original": "We must sssummon Him, that the lost might receive of His blesssing anew! This I would gladly do had our ssstock of crystals not run dry...",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_AKTKBA331_04117_SAHAGINMOTHER_000_118",
+    "original": "Ssspawning time is nearly upon us...yet you fight and bicker amongssst yourselves... How am I to birth a new brood when my children grown ssstand divided?",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_AKTKBA331_04117_DOWW_000_119",
+    "original": "Who dares enter the sssacred chamber!?",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_AKTKBA331_04117_RECONCILEDSAHAGIN04117_000_120",
+    "original": "(-Forward-thinking Sahagin-)Pshhh... Forgive my intrusion, Queen Mother. I speak for the Sahagin who seek an accord with the shhhorewalkers.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_AKTKBA331_04117_RECONCILEDSAHAGIN04117_000_121",
+    "original": "(-Forward-thinking Sahagin-)A new age is upon usss... We needn\u0027t turn to false gods, nor foment bitterness and bloodshed in our precious ssspawning grounds...",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_AKTKBA331_04117_RECONCILEDSAHAGIN04117_000_122",
+    "original": "(-Forward-thinking Sahagin-)The shhhorewalkers have changed. They endeavor to understand us. To shhhare these lands with us, that they may have peace, and we our ssspawning grounds.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_AKTKBA331_04117_SAHAGINMOTHER_000_123",
+    "original": "Could thisss be true...?",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_AKTKBA331_04117_DOWW_000_124",
+    "original": "Lies, lies! Do not be deceived by that one\u0027s delusions, my queen! He is a heathen who has ssstrayed from Lord Leviathan\u0027s light!",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_AKTKBA331_04117_DOWW_000_125",
+    "original": "The shhhorewalkers are oathbreakers, now and forevermore! As they extend one hand in friendship, they clutch a dagger in the other. We are beasts in their eyes, deserving of naught but ssslaughter!",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_AKTKBA331_04117_SAHAGINMOTHER_000_126",
+    "original": "Oh... Oh, for a blessed moment, I felt the faintest touch of hope... But you are right, Doww. They are demons...and we are damned...",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_AKTKBA331_04117_SAHAGINMOTHER_000_127",
+    "original": "O, for woe! My poor children have lossst their faith! Their minds poisoned by lies, they turn away from the Lord of the Whorl, and cassst their lot with the enemy...",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_AKTKBA331_04117_DOWW_100_127",
+    "original": "\u0027Tis so, my queen, \u0027tis so. We will have no choice but to abandon our sssacred spawning grounds, and sssink to the ocean\u0027s floor to rot and decay.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_AKTKBA331_04117_SAHAGINMOTHER_200_127",
+    "original": "Doww, dearessst of my children... You tell then that we have no future...?",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_AKTKBA331_04117_SAHAGINMOTHER_000_128",
+    "original": "How can I bring new life into this world, knowing that my brood will have their hearts ssstolen and abandon me? How can I bear this unbearable sssadness?",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_AKTKBA331_04117_SAHAGINMOTHER_000_129",
+    "original": "I cannot!",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_AKTKBA331_04117_RECONCILEDSAHAGIN04117_000_130",
+    "original": "(-Forward-thinking Sahagin-)Pshhh\u2500!? Wh-What\u0027s happening!?",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_AKTKBA331_04117_RECONCILEDSAHAGIN04117_000_131",
+    "original": "(-Forward-thinking Sahagin-)Please, my queen! You mussst calm yourself!",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_AKTKBA331_04117_RECONCILEDSAHAGIN04117_000_132",
+    "original": "(-Forward-thinking Sahagin-)Pshhhaaaaaaaaagh!",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_AKTKBA331_04117_DOWW_000_133",
+    "original": "Such...such power! Sssuch \u003Chex:021A020203\u003Ebeauty\u003Chex:021A020103\u003E! A blessing from Lord Leviathan Himself!",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_134",
+    "original": "\u003Cpant\u003E So this is a blasphemy, eh? I can see what all the fuss was about...",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_135",
+    "original": "Have your wits about you? Good. If you can fight, now is the time.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_AKTKBA331_04117_DOWW_000_136",
+    "original": "Pshhh... Strike now, my queen! Send the shhhorewalkers and their honorless leader to her death!",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_AKTKBA331_04117_LANDENEL_000_137",
+    "original": "Wh-What\u0027s happening!? I can\u0027t feel my legs!",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_AKTKBA331_04117_RADICALSAHAGINA04117_000_138",
+    "original": "(-Friendly Sahagin-)Pshhh... Wh-Why, Mother...? Are we not your children...too...?",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_139",
+    "original": "Dammit! We cannot weather another blow like the last!",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_AKTKBA331_04117_LANDENEL_000_140",
+    "original": "I still don\u0027t know what in the seven hells just happened, but I\u0027ll be damned if I\u0027m going to go down without a fight!",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_141",
+    "original": "Steady! The beast is feeding on our aether. We\u0027ll not survive a head-on fight!",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_142",
+    "original": "Landenel! U\u0027odh! Remember the Company stratagem when faced with overwhelming odds!",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_143",
+    "original": "Retreat! Retreat! Let\u0027s get ourselves the bloody hells out of here!",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_145",
+    "original": "Let\u0027s see how this blasphemy likes my axe between its eyes.",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_AKTKBA331_04117_LANDENEL_000_150",
+    "original": "I don\u0027t know a blasphemy from a hole in the ground. All I know is that I\u0027m ready to kill the bleedin\u0027 thing!",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_AKTKBA331_04117_UODHNUNH_000_155",
+    "original": "This is the enemy\u0027s stronghold. Never forget that they have the advantage.",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_AKTKBA331_04117_SHAMANILOHMANI_000_160",
+    "original": "Don\u0027t you worry\u2500Brayflox and I have the situation under control.",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_AKTKBA331_04117_BRAYFLOX_000_165",
+    "original": "Pshhh... Shkohhh... Brayflox keep watcheyes on this place.",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_200",
+    "original": "Damn it all! We\u0027d have better luck holding back the tide!",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_AKTKBA331_04117_SHAMANILOHMANI_000_201",
+    "original": "How goes it, friends...is what I would normally ask, but judging from the muttered cursing, I gather it did not go all that well.",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_202",
+    "original": "We barely escaped with our lives. To think the damned beast had the power to stop us in our tracks\u2500literally.",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_AKTKBA331_04117_UODHNUNH_000_203",
+    "original": "What do we know of the creature\u0027s origins? Was it once a Sahagin as you suspected?",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_204",
+    "original": "Mayhap the Echo afforded \u003Chex:022C0DFF07022903EB0203FF02200203\u003E some insight.",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_AKTKBA331_04117_NOLL_000_205",
+    "original": "Pshhh! Doww\u0027s villainy knows no bounds! Sssowing seeds of dessspair in our queen mother\u0027s heart, that she might transssform into that monstrosity!",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_AKTKBA331_04117_SHAMANILOHMANI_000_206",
+    "original": "If she was the first to turn, then there was nothing deliberate about it. Still, it\u0027s clear that his words served as a catalyst.",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_AKTKBA331_04117_LANDENEL_000_207",
+    "original": "If we kill the blasphemy, it\u0027ll be tantamount to killing the Sahagin\u0027s queen. That\u0027s not going to endear us to them one bit.",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_AKTKBA331_04117_NOLL_000_208",
+    "original": "Pshhh... I cannot turn my ssspear against the mother who birthed me, let alone take her life...",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_AKTKBA331_04117_LANDENEL_000_209",
+    "original": "Out of curiosity, did anyone see who fired that shot? Were it not for them, we\u0027d all be dead.",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_210",
+    "original": "I know not, but we must formulate a plan\u2500and quickly. My scouts tell me that the blasphemy has left the island, and now roams the open sea.",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_211",
+    "original": "I will order them to continue the search. In the meantime, we must find a means to overcome the beast\u0027s formidable offense.",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_212",
+    "original": "Leave that to us. Time and again, we\u0027ve used our wits and experience to triumph over the longest odds.",
+    "translation": ""
+  },
+  "197": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_213",
+    "original": "To defeat your enemy, first you must know your enemy. Tell me, Commander...what do \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E reckon was the most valuable knowledge we gleaned from our initial encounter?",
+    "translation": ""
+  },
+  "198": {
+    "tag": "TEXT_AKTKBA331_04117_Q5_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "199": {
+    "tag": "TEXT_AKTKBA331_04117_A5_000_001",
+    "original": "That the blasphemy is the Sahagin queen transformed.",
+    "translation": ""
+  },
+  "200": {
+    "tag": "TEXT_AKTKBA331_04117_A5_000_002",
+    "original": "That the blasphemy has the power to absorb aether.",
+    "translation": ""
+  },
+  "201": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_215",
+    "original": "Indeed. If the beast still has some memory of what it once was, we may very well be able to predict its future actions.",
+    "translation": ""
+  },
+  "202": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_216",
+    "original": "I concur. Now that we know how the beast disables its foes, we can use this knowledge to devise a proper defense against it.",
+    "translation": ""
+  },
+  "203": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_217",
+    "original": "...But that is not all we have learned. While the blasphemy can maneuver through the water, it also frequents caves and the like. Our best chance of defeating it would be in such a place.",
+    "translation": ""
+  },
+  "204": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_218",
+    "original": "Our only chance, I daresay.",
+    "translation": ""
+  },
+  "205": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_219",
+    "original": "I will send scouts to identify any and all large caverns and coastal areas that could serve as shelter for a massive creature.",
+    "translation": ""
+  },
+  "206": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_220",
+    "original": "To ensure the safety of our people\u2500and to have any hope for peace with the Sahagin\u2500this is a battle that we must win. All your strength and wisdom will be needed in the days to come. Dismissed.",
+    "translation": ""
+  },
+  "207": {
+    "tag": "TEXT_AKTKBA331_04117_NOLL_000_221",
+    "original": "......",
+    "translation": ""
+  },
+  "208": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_222",
+    "original": "Come, let us share our findings with the Maelstrom.",
+    "translation": ""
+  },
+  "209": {
+    "tag": "TEXT_AKTKBA331_04117_WHEISKAET_000_225",
+    "original": "When no path to victory can be found, flee and fight another day. It might not be the kind of approach that make a bard sing your praises, but it\u0027s kept us alive, and that\u0027s enough.",
+    "translation": ""
+  },
+  "210": {
+    "tag": "TEXT_AKTKBA331_04117_LANDENEL_000_230",
+    "original": "Face-to-face with the damned beast, and I could barely lift my spear! Next time, mark my words, that bastard fish is going to pay...",
+    "translation": ""
+  },
+  "211": {
+    "tag": "TEXT_AKTKBA331_04117_UODHNUNH_000_235",
+    "original": "So that was the blasphemy. Intrrriguing creature. For the first time in many summers, we find ourselves with a worthy foe.",
+    "translation": ""
+  },
+  "212": {
+    "tag": "TEXT_AKTKBA331_04117_NOLL_000_240",
+    "original": "Pshhh... Were the other beasssts we faced also once my ssspawnbrothers? I...I cannot bear the thought...",
+    "translation": ""
+  },
+  "213": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_250",
+    "original": "Now that we have seen what the blasphemy is capable of ourselves, \u0027tis more plain to me than ever that it must be slain.",
+    "translation": ""
+  },
+  "214": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_251",
+    "original": "Reach out to all trade ships entering and departing Limsa. Inform them that any sightings of the blasphemy are to be reported to Maelstrom Command at once.",
+    "translation": ""
+  },
+  "215": {
+    "tag": "TEXT_AKTKBA331_04117_LIMSASECRETARY_000_252",
+    "original": "Understood. But given the beast\u0027s abilities, how do you intend to overcome it?",
+    "translation": ""
+  },
+  "216": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_253",
+    "original": "I trust that the Company of Heroes and \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u2500experienced primal-slayers all\u2500will find a way.",
+    "translation": ""
+  },
+  "217": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_254",
+    "original": "...And yet I would leave no resource untapped. There is one more whose expertise I would call upon\u2500if he would agree.",
+    "translation": ""
+  },
+  "218": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_255",
+    "original": "Even Wheiskaet is at a loss as to his former commander\u0027s whereabouts. But mayhap Eynzahr could offer some guidance...?",
+    "translation": ""
+  },
+  "219": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_256",
+    "original": "No doubt you are still fatigued from the battle with the blasphemy. Pray rest while you are able.",
+    "translation": ""
+  },
+  "220": {
+    "tag": "TEXT_AKTKBA331_04117_MERLWYB_000_257",
+    "original": "When we are ready to take further action, you will hear from me. Till then, take care.",
+    "translation": ""
+  },
+  "221": {
+    "tag": "TEXT_AKTKBA331_04117_LIMSASECRETARY_000_260",
+    "original": "The Admiral told me of your encounter with the blasphemy. The result may not have been ideal, but I am heartened to see you return safely.",
+    "translation": ""
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "0": {
+    "tag": "TEXT_CLSBSM650_02617_SEQ_00",
+    "original": "Forgemaster Brithael has a twinkle in his eye that suggests he would like to make yet another request of you.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_CLSBSM650_02617_SEQ_01",
+    "original": "Forgemaster Brithael has received a request from a man named Shinto in the Far East, who has asked for the guild\u0027s most talented blacksmith to forge him a weapon. This seemingly standard commission, however, comes with an odd stipulation, which is that neither of you should mention anything about this to Sekka. While Brithael briefly puzzles over its implications, he tells you that you\u2500the best smithy\u2500will be going to fulfill Shinto\u0027s order. Make your way to the ferry docks and see what this mysterious Far Eastern man would have you forge.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_CLSBSM650_02617_SEQ_02",
+    "original": "Shinto hands you a hunk of rusted iron, and asks that you use it to create a katana. It seems the poor-quality metal is all the man can afford. Recognizing that this will be a challenging task, he urges you first consult Sekka before setting to work. As you make ready to leave, he gives you one last stern reminder to keep his identity a secret from her. Make your way to Anchor Yard and see if Sekka can assist you.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_CLSBSM650_02617_SEQ_03",
+    "original": "Given the high percentage of impurities and rust in the metal, Sekka proposes focusing solely on cultivating the durability of the blade as opposed to its sharpness. She fears that if you were to fold the already brittle iron too many times, it will make the blade prone to breakage. Suggesting you attempt to make a heavy uchigatana, she hands you half of the iron hunk, and holds on to the rest should you need to try again later. Make a high-quality heavy uchigatana and deliver it to Shinto, who awaits you at the docks.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BIn the event you lose the ingredients or the synthesis ends in failure, you may try again by speaking with Sekka.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_CLSBSM650_02617_SEQ_04",
+    "original": "Shinto begins by criticizing your work, saying that the shoddy craftsmanship trumps that of even the lesser swordsmiths of the Far East\u2500or, at least, that is the critique he would have given you had you been furnished with decent materials. As it stands, he is impressed by the fact that you were even able to create an uchigatana, however poor, from the rusted iron he provided you with. Shinto then bids you return to Forgemaster Brithael to tell him that he is satisfied with your performance.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_CLSBSM650_02617_SEQ_05",
+    "original": "You learn that Shinto is, in fact, Sekka\u0027s father and has come to take her back to Kugane. He tells her that it is past time she gave up on her dream of becoming his apprentice as she lacks the fundamental skills it takes to become a swordsmith. Brithael, however, is of a different opinion, and tells Shinto off for his disparaging and overly critical comments. After exchanging a few more scathing remarks, Shinto walks out, beckoning his daughter to follow him. Forgemaster Brithael\u2500out of a mixture of sympathy and fear that she will remain indefinitely at his guild\u2500turns to Sekka before she leaves and promises to help her think of a way to gain her father\u0027s approval and fulfill her greatest desire.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe next blacksmith quest will be available from Brithael upon reaching level 68.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_CLSBSM650_02617_TODO_00",
+    "original": "Speak with Shinto at the ferry docks.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_CLSBSM650_02617_TODO_01",
+    "original": "Hand the hunk of rusted iron to Sekka in the Anchor Yard.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_CLSBSM650_02617_TODO_02",
+    "original": "\u003Chex:02087BE3E802E803FF2B53796E74686573697A6520612068656176792075636869676174616E6102280AFF064164646F6E0A0103FF4844656C69766572207468652068656176792075636869676174616E612002280AFF064164646F6E0A010320746F205368696E746F2061742074686520666572727920646F636B7303\u003E.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_CLSBSM650_02617_TODO_03",
+    "original": "Report to Forgemaster Brithael.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_CLSBSM650_02617_BRITHAEL_000_000",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, thanks to ye winnin\u0027 that competition, Sekka has become surprisingly bearable o\u0027 late, and things have been oddly peaceful.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_CLSBSM650_02617_BRITHAEL_000_001",
+    "original": "That\u0027s not to say, however, that ye can rest on yer oars just yet. Not too soon before ye arrived, we received a rather peculiar request.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_CLSBSM650_02617_BRITHAEL_000_002",
+    "original": "It\u0027s from a man in Kugane named Shinto. He\u0027s askin\u0027 that our best smitty forge him a weapon. Seems pretty standard, right? Well, it\u0027s not.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_CLSBSM650_02617_BRITHAEL_000_003",
+    "original": "It came with one very interestin\u0027 condition. He\u0027s asked that we not mention a word of this to Sekka.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_CLSBSM650_02617_BRITHAEL_000_004",
+    "original": "Curious, ain\u0027t it? Why does he want to remain anonymous, and moreover, how does he know the girl is here?",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_CLSBSM650_02617_BRITHAEL_000_005",
+    "original": "While I don\u0027t have the answer to either of those questions, there\u0027s one thing I know for certain: yer our best smitty. Our client should be arrivin\u0027 soon so ye best hurry to the docks. Any questions? Good. Now off ye go.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_CLSBSM650_02617_BRITHAEL_000_010",
+    "original": "Ye best quickly make yer way to the docks where Shinto is. After all, it\u0027s bad fer business to keep the client waitin\u0027.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_CLSBSM650_02617_SHINTOU_000_020",
+    "original": "You must be the blacksmith Forgemaster Brithael promised me. Thank you for coming. Before I make an official request of you, however, please answer me this: have you ever made a katana before?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_CLSBSM650_02617_Q1_000_000",
+    "original": "Have you ever made an uchigatana before?",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_CLSBSM650_02617_SHINTOU_000_030",
+    "original": "Excellent. Then you are a \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E with experience, and one which I can confidently entrust with \u003Chex:021A020203\u003Ethis\u003Chex:021A020103\u003E...",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_CLSBSM650_02617_SHINTOU_000_040",
+    "original": "Is that so? Then this may be a rather demanding assignment. If your forgemaster believes you capable, however, I shall go against my better judgment and nevertheless entrust you with \u003Chex:021A020203\u003Ethis\u003Chex:021A020103\u003E...",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_CLSBSM650_02617_SHINTOU_000_050",
+    "original": "What you hold in your hands is a hunk of rusted iron. I would like for you to forge a heavy uchigatana using this.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_CLSBSM650_02617_SHINTOU_000_051",
+    "original": "Ah, yes the look of a skeptic. You do not think it a worthwhile endeavor?",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_CLSBSM650_02617_SHINTOU_000_052",
+    "original": "I agree it is far from ideal. Had my savings not been lost to unexpected expenses along the way, perhaps I would have been able to provide you with better metal to work with, but alas, this is all I can currently offer.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_CLSBSM650_02617_SHINTOU_000_053",
+    "original": "That said, I do not think it by any means an impossible task\u2500especially not for one of your purported talent.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_CLSBSM650_02617_SHINTOU_000_054",
+    "original": "If you find yourself struggling, however, feel free to appeal to your colleagues for assistance. From what I understand, one of them is quite knowledgeable on the art of making katana.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_CLSBSM650_02617_SHINTOU_000_055",
+    "original": "Be advised, however, not to mention my name should you choose to receive advice from this particular individual.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_CLSBSM650_02617_BRITHAEL_000_060",
+    "original": "So what\u0027d he have to say? While not yer typical request, I take it ye\u0027ve handled it with your usual charm an\u0027 grace?",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_CLSBSM650_02617_SHINTOU_000_065",
+    "original": "What? Have you already finished the katana I asked for?",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_CLSBSM650_02617_SEKKA_000_070",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E? What brings you here?",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_CLSBSM650_02617_SEKKA_000_080",
+    "original": "You have been tasked with forging an uchigatana from this rubbish!? Even the realm\u0027s greatest masters would struggle to do so with iron this poor. What idiot would ask such an outrageous thing of you?",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_CLSBSM650_02617_Q2_000_000",
+    "original": "Keep the client\u0027s identity a secret?",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_CLSBSM650_02617_SEKKA_000_090",
+    "original": "If the client has asked that you protect their identity, I suppose you must oblige their wishes. ",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_CLSBSM650_02617_SEKKA_000_100",
+    "original": "An elderly man from Hingashi, you say? Could it be... Ah, no. Never mind.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_CLSBSM650_02617_SEKKA_000_110",
+    "original": "Still, this is absurd. There are so many impurities in this metal that any blade forged from it will be extremely brittle.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_CLSBSM650_02617_SEKKA_000_111",
+    "original": "Should the katana shatter during battle, the wielder\u0027s life will be forfeit. To preserve what little durability is present in these brittle hunks, we must refrain from folding the metal too many times. As such, you best make a heavy uchigatana.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_CLSBSM650_02617_SEKKA_000_112",
+    "original": "While the rust appears to be overwhelming, I think we have enough workable iron to make a full blade. Take half. I shall hold on to the rest in case we need to try again.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_CLSBSM650_02617_SEKKA_000_120",
+    "original": "You need more metal? Here you go.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_CLSBSM650_02617_SEKKA_000_130",
+    "original": "You are truly gifted. To think that you would be able to forge anything resembling a katana, much less one of this quality, is nothing short of miraculous. Let us deliver this to the client as promised. They will no doubt be pleased.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_CLSBSM650_02617_SHINTOU_000_140",
+    "original": "So you have returned. Have you finished the uchigatana that I requested?",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_CLSBSM650_02617_SHINTOU_000_150",
+    "original": "...This blade\u2500it is so rough-hewn, it does not even come close to matching the skill of even the lesser swordsmiths of the Far East.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_CLSBSM650_02617_SHINTOU_000_151",
+    "original": "Or, at least, that is what I would say had I provided you with decent materials to work with. As it stands, the fact that you managed to craft a working uchigatana from the iron I gave you shows me you are an artisan of surpassing skill.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_CLSBSM650_02617_SHINTOU_000_152",
+    "original": "I have witnessed firsthand that your reputation is well founded. Tell Master Brithael I am satisfied with your performance.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_CLSBSM650_02617_SEKKA_000_160",
+    "original": "Please, sir. I will do anything you assign to me without any complaints this time. I promise!",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_CLSBSM650_02617_BRITHAEL_000_170",
+    "original": "Thank the Builder yer here. The bloody girl won\u0027t stop. She\u0027s been chasin\u0027 me around the shop all day sayin\u0027, \u201CPlease, sir, give me more work,\u201D or \u201CPlease, sir, I need to practice if I\u0027m ever to become as good as \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.\u201D It\u0027s drivin\u0027 me mad!",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_CLSBSM650_02617_SHINTOU_000_171",
+    "original": "(-Masculine Voice-)I believe I may have a solution to that!",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_CLSBSM650_02617_SHINTOU_000_172",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, thank you for humoring my earlier request. Blacksmiths who are as talented and professional as you are hard to come by. Ah, but before that\u2500Forgemaster Brithael, I believe we have not yet had the pleasure to meet in person. I am Shinto, master of Kugane\u0027s largest swordsmith forge.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_CLSBSM650_02617_SEKKA_000_173",
+    "original": "F-Father!? Wh-What are you doing here?",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_CLSBSM650_02617_SHINTOU_000_174",
+    "original": "I am here to take you home. Time and time again I have told you that you will never be good enough to become my apprentice. Sekka, you must clear your head of these foolish notions. We will be going now. You have caused these people and me enough trouble as it is.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_CLSBSM650_02617_BRITHAEL_000_175",
+    "original": "...While I\u0027m not normally one to involve myself in such things, I think yer bein\u0027 a bit too hard on yer daughter. Shouldn\u0027t ye be supportin\u0027 her dreams instead of tearin\u0027 \u0027em down?",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_CLSBSM650_02617_SHINTOU_000_176",
+    "original": "She simply does not have what it takes to become a swordsmith. It is time she realized this and looked to pursuing something better suited to her talents\u2500or lack thereof.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_CLSBSM650_02617_SHINTOU_000_177",
+    "original": "Sekka, I presume you saw \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u0027s uchigatana? While made from a heap of rusted scraps, it demonstrates a skill that far exceeds anything I have seen from you.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_CLSBSM650_02617_SHINTOU_000_178",
+    "original": "And to think the \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E does not even have a fraction of the knowledge you do. A decade\u0027s worth of practice has amounted to nothing.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_CLSBSM650_02617_BRITHAEL_000_179",
+    "original": "For ye to lecture yer daughter on her behavior is one thing, but I will not have ye puttin\u0027 her down an\u0027 worse\u2500usin\u0027 \u003Chex:022C0DFF07022903EB0203FF02200203\u003E to do it! Sekka may still have a ways to go before she\u0027s a master, but she\u0027s got talent and puts in a great deal of effort.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_CLSBSM650_02617_BRITHAEL_000_180",
+    "original": "I don\u0027t know who you think you are, but even if ye happen to be the finest swordsmith to have ever lived, it still doesn\u0027t give ye the right to tell a person to abandon their dreams!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_CLSBSM650_02617_SEKKA_000_181",
+    "original": "...Forgemaster...",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_CLSBSM650_02617_SHINTOU_000_182",
+    "original": "Setting people up for failure with hollow praise may be your way of doing things, but it is not mine. Sekka, come. I will allow you a few days to come to terms with this. Know, however, that should you disobey me again, you shall be disowned.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_CLSBSM650_02617_BRITHAEL_000_183",
+    "original": "Father or not, great swordsmith or not, I don\u0027t see why ye\u0027d ever want to be an apprentice to such a sour bast\u2500er, man. Wouldn\u0027t ye prefer to study under someone who believed in yer potential?",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_CLSBSM650_02617_SEKKA_000_184",
+    "original": "I grew up watching him work\u2500pounding, pouring, and heating metal with a single-minded focus. Despite his numerous faults as a person, he is an extraordinary swordsmith, and I hope to one day become just as good as him.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_CLSBSM650_02617_BRITHAEL_000_185",
+    "original": "\u003Csigh\u003E ...Lass, if ye really feel that strongly about it, we\u0027ll help you. ",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_CLSBSM650_02617_BRITHAEL_000_186",
+    "original": "The two o\u0027 us, we may have got off on the wrong foot, but it\u0027s nothing we can\u0027t put right startin\u0027 now. Together we\u0027ll think of a way to prove to yer father that yer worthy o\u0027 studyin\u0027 under him.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_CLSBSM650_02617_SEKKA_000_187",
+    "original": "...You would really do that for me? Thank you. Thank you so very much.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_CLSBSM650_02617_SEKKA_000_188",
+    "original": "Forgemaster Brithael, I must apologize. I was wrong about you. After seeing you stand up to my father, I now know you are rather chivalrous, brave, and kind.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_CLSBSM650_02617_BRITHAEL_000_189",
+    "original": "Rather chivalrous, brave, and kind, eh? I suppose she didn\u0027t see me in such a favorable light before this, then. Hahaha! But on to more important matters. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, let us each take some time to think of ways we might assist the girl and reconvene once we do.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_CLSBSM650_02617_SYSTEM_000_500",
+    "original": "In forging new paths as a blacksmith, you have learned \u201CManipulation\u201D!",
+    "translation": ""
+  }
+}

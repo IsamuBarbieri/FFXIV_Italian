@@ -1,0 +1,512 @@
+{
+  "0": {
+    "tag": "TEXT_CLSGLA300_00265_SEQ_00",
+    "original": "First Sword Mylla is extremely upset due to a recent turn of events...",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_CLSGLA300_00265_SEQ_01",
+    "original": "Aldis has been arrested by the Brass Blades on suspicion of plotting to assassinate the sultana. Mylla believes the accusations to be an Alacran machination, and bids you to speak with Wymond on the Steps of Nald to see what information you can uncover regarding the conspiracy.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_CLSGLA300_00265_SEQ_02",
+    "original": "Wymond informs you that the poison found in Aldis\u0027s possession was Rhalgr\u0027s Bile. The recipe for this rare and expensive concoction is said to be a closely guarded secret of the Corpse Brigade, a gang of criminals headquartered at the Sepulchre in southern Thanalan. Infiltrate the Sepulchre and search for evidence that proves the Corpse Brigade supplied the Alacran with the poison.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_CLSGLA300_00265_SEQ_03",
+    "original": "Your search yields a vial of Rhalgr\u0027s Bile, along with records proving that the poison was sold to the Alacran, not Aldis. Report your findings to Mylla at the Gladiators\u0027 Guild.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_CLSGLA300_00265_SEQ_04",
+    "original": "Although the guildmaster is overjoyed by your discovery, it seems your efforts may be for naught. The Sacrarium has ordered Aldis\u0027s execution, and your only hope of saving him is to present the evidence to the official overseeing the proceedings at Highbridge in eastern Thanalan. Hurry to the execution site and save Aldis from the headsman!",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_CLSGLA300_00265_SEQ_05",
+    "original": "Aldis\u0027s execution serves to draw Leavold out of hiding, and the former champions face each other in single combat. As they duel, you and your guildmates battle Alacran henchmen atop the bridge. You defeat the criminals in time to see Aldis disarm Leavold, who chooses to take his own life rather than surrender to his rival. Return to the Gladiators\u0027 Guild and discuss the events of recent days with Mylla.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_CLSGLA300_00265_SEQ_06",
+    "original": "Having finally put an end to Leavold\u0027s machinations, Aldis decides to leave Ul\u0027dah. Before he departs, he explains that he was once offered a sultan\u0027s ransom in exchange for a loss against Leavold, but he chose to preserve his honor instead\u2014a choice that triggered the events that would tear the two men and the woman they loved apart. After watching Aldis walk out of her life once more, Mylla rallies her gathered gladiators, declaring that they all have the potential for greatness\u2500but that it is up to them to determine their own destinies.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_CLSGLA300_00265_TODO_00",
+    "original": "Speak with Wymond on the Steps of Nald.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_CLSGLA300_00265_TODO_01",
+    "original": "Search for proof of Aldis\u0027s innocence at the Sepulchre in southern Thanalan.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_CLSGLA300_00265_TODO_02",
+    "original": "Search for a phial of Rhalgr\u0027s Bile at the Sepulchre in southern Thanalan.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_CLSGLA300_00265_TODO_03",
+    "original": "Show the evidence to Mylla.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_CLSGLA300_00265_TODO_04",
+    "original": "Show the evidence to the priest at Highbridge in eastern Thanalan.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_CLSGLA300_00265_TODO_05",
+    "original": "Speak with Mylla at the Gladiators\u0027 Guild.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_CLSGLA300_00265_MYLLA_000_1",
+    "original": "Damn it all to the seventh hell! This is madness!",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_CLSGLA300_00265_MYLLA_000_2",
+    "original": "It\u0027s Aldis. He\u0027s been \u003Chex:021A020203\u003Earrested\u003Chex:021A020103\u003E by the Brass Blades! They claim he was plotting to assassinate the sultana!",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_CLSGLA300_00265_MYLLA_000_3",
+    "original": "This is utter nonsense! He has no motive to do so! And whatever I\u0027ve said about the man, he would \u003Chex:021A020203\u003Enever\u003Chex:021A020103\u003E resort to using poison!",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_CLSGLA300_00265_MYLLA_000_4",
+    "original": "The Alacran must be behind this. They have failed to kill him time and again, and now they\u0027re reaching out to their Monetarist allies. I didn\u0027t want to believe Wymond when he said they had such influence, but\u2500",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_CLSGLA300_00265_MYLLA_000_6",
+    "original": "Wait...that\u0027s it! If anyone can help us unravel this plot, it\u0027s Wymond. He has a reputation for knowing things he shouldn\u0027t, after all.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_CLSGLA300_00265_MYLLA_000_7",
+    "original": "Find Wymond, see what he can tell us. Aldis is many things, but he is \u003Chex:021A020203\u003Enot\u003Chex:021A020103\u003E a murderer!",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_CLSGLA300_00265_WYMOND_000_30",
+    "original": "I was wonderin\u0027 when you might come along, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Frankly, I\u0027m surprised Aldis went so quietly. He ought to know there\u0027s no walkin\u0027 away from this...",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_CLSGLA300_00265_Q1_000_40",
+    "original": "What will you ask?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_CLSGLA300_00265_A1_000_50",
+    "original": "What happened between Aldis and Leavold seven years ago?",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_CLSGLA300_00265_A2_000_60",
+    "original": "Why would Aldis surrender himself?",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_CLSGLA300_00265_WYMOND_000_70",
+    "original": "You really don\u0027t know, do you? Best I start at the beginnin\u0027, then.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_CLSGLA300_00265_WYMOND_000_90",
+    "original": "Aldis is somethin\u0027 of an enigma. He and Leavold were two of the greatest gladiators ever to grace the bloodsands. But he threw all that hard-fought glory away for a few gil more.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_CLSGLA300_00265_WYMOND_000_91",
+    "original": "See, the average Ul\u0027dahn loves a good Coliseum fight. And what better way to make a gladiatorial spectacle more entertainin\u0027 than wagerin\u0027 on the outcome?",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_CLSGLA300_00265_WYMOND_000_92",
+    "original": "So when it got out that Aldis was orchestratin\u0027 a match-fixin\u0027 scheme of untold proportions, well...you can imagine the shock an\u0027 anger the people felt. He was expelled from the Coliseum, an\u0027 his wins were stricken from the record.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_CLSGLA300_00265_WYMOND_000_93",
+    "original": "Your guildmaster Mylla got the worst of it, though. Not only was her friend exposed as a fraud, but around the same time, her father fell ill an\u0027 passed away. There were some oddities surroundin\u0027 his death, too... \u0027Twas rumored he took his own life out of shame for his disgraced pupil, or that he might\u0027ve even been murdered by the man. Baseless conjecture, really, but it made Aldis look that much worse.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_CLSGLA300_00265_WYMOND_000_94",
+    "original": "In the end, Mylla lost two of the most important men in her life, an\u0027 was forced to take charge of the guild alone. And Leavold? He tried to go it solo on the bloodsands, but it wasn\u0027t the same. Without Aldis, his career was finished.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_CLSGLA300_00265_WYMOND_000_95",
+    "original": "Now you know the nature of the man you so desperately want to save. Though, judgin\u0027 from that look in your eyes, I gather you still have your reservations.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_CLSGLA300_00265_WYMOND_000_96",
+    "original": "\u003Csigh\u003E Fine, then. Though you can\u0027t blame me for doubtin\u0027 a man found in possession of Rhalgr\u0027s Bile.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_CLSGLA300_00265_WYMOND_000_97",
+    "original": "\u0027Tis a vile poison\u2500rare an\u0027 expensive, too. Only the Corpse Brigade knows how to make it, I hear. Gods only know why they\u0027d give it to Aldis. Could go to their headquarters at the Sepulchre in southern Thanalan an\u0027 ask \u0027em direct, I reckon.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_CLSGLA300_00265_WYMOND_000_98",
+    "original": "I\u0027ve an aversion to direct confrontation, personally\u2500but you don\u0027t, do you?\u003Chex:02100103\u003EBy the by, should you save the poor bastard\u0027s life, tell him we\u0027re even\u2500an\u0027 that I hope it was all worth it.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_CLSGLA300_00265_MYLLA_000_130",
+    "original": "Where have you been, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!? Aldis has been given over into the custody of the Sacrarium! They mean to execute him! We must do something!",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_CLSGLA300_00265_MYLLA_000_134",
+    "original": "Th-This poison, is it...? \u003Cgasp\u003E You\u0027ve proof that the Alacran purchased it from the Corpse Brigade! Thank the gods, you\u0027ve done it!",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_CLSGLA300_00265_MYLLA_000_135",
+    "original": "Quickly, we must show this to the official presiding over his execution at Highbridge! Go, \u003Chex:021A020203\u003Enow\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_CLSGLA300_00265_MYLLA_000_150",
+    "original": "We must go now, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! To Highbridge!",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_CLSGLA300_00265_GUILDMANBER_000_160",
+    "original": "We tried to delay them, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, but they\u0027ve already taken Aldis below. Hurry, before it\u0027s too late!",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_CLSGLA300_00265_SHINKAN_000_300",
+    "original": "The Sacrarium has sentenced you to death for your crimes against the sultanate. Have you any last\u2500\u003Chex:02100103\u003EHuh!? Who are you, and what do you want!?",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_CLSGLA300_00265_SHINKAN_000_410",
+    "original": "These are bold accusations you make, adventurer.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_CLSGLA300_00265_SHINKAN_000_416",
+    "original": "However, the Sacrarium has found the prisoner guilty in the eyes of gods and men, and he will be executed forthwith.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_000_419",
+    "original": "Don\u0027t waste your breath, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Thal\u0027s scales have always yielded to wealth above all else, and Leavold\u0027s spent a fortune to secure my sentence.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_CLSGLA300_00265_SHINKAN_000_421",
+    "original": "Silence, criminal! And you\u2500what are you waiting for? Do it!",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_CLSGLA300_00265_SHINKAN_000_422",
+    "original": "Where did that\u2500",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_CLSGLA300_00265_MYLLA_000_423",
+    "original": "Aldis!",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_000_425",
+    "original": "Just couldn\u0027t stay away, could you? Well, at least I don\u0027t have to steal the headsman\u0027s axe.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_000_427",
+    "original": "If the gods are to have blood this day, I\u0027m afraid it won\u0027t be mine. Since you two are so devout, perhaps you\u0027d be willing to offer yourselves in exchange?",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_CLSGLA300_00265_SHINKAN_000_428",
+    "original": "M-M-Mercy!",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_CLSGLA300_00265_BOSS_000_430",
+    "original": "Interfering with the law is a heinous crime. In fact, I believe it is punishable by death!",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_000_432",
+    "original": "I had a feeling the spectacle would draw you here.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_CLSGLA300_00265_REHWOLDT_000_438",
+    "original": "I should\u0027ve dealt with you myself from the start. Come\u2500let\u0027s dance, brother.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_000_439",
+    "original": "So it\u0027s to be a rematch? Very well, I accept.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_000_440",
+    "original": "Mylla and the others need you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Leave him to me!",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_CLSGLA300_00265_MYLLA_000_561",
+    "original": "Aldis!",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_CLSGLA300_00265_REHWOLDT_000_562",
+    "original": "ALDIIIS!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_000_565",
+    "original": "You almost had me, Leavold...",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_CLSGLA300_00265_REHWOLDT_000_566",
+    "original": "Stay back! I won\u0027t have your pity!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_CLSGLA300_00265_REHWOLDT_000_569",
+    "original": "You just had to have it all, didn\u0027t you!? Just one victory, just one bloody match...",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_CLSGLA300_00265_REHWOLDT_000_570",
+    "original": "But your precious ego couldn\u0027t accept that. You ruined \u003Chex:021A020203\u003Eeverything\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_CLSGLA300_00265_REHWOLDT_000_572",
+    "original": "\u003Ccough\u003E \u003Ccough\u003E Tell me, Aldis...how does it feel to lose your name, your legacy...everything you ever loved?",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_CLSGLA300_00265_REHWOLDT_000_576",
+    "original": "I want to know...how much you suffered...",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_000_577",
+    "original": "Let it go, Leavold. It\u0027s over.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_CLSGLA300_00265_REHWOLDT_000_580",
+    "original": "Like hells it is. I swear, you will \u003Chex:021A020203\u003Enever\u003Chex:021A020103\u003E know peace\u2500not in this life...or the next.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_000_581",
+    "original": "Leavold, no!",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_000_582",
+    "original": "You know damn well neither of us will see Thal\u0027s realm...",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_CLSGLA300_00265_MYLLA_000_584",
+    "original": "Let\u0027s go. Our comrades are waiting.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_CLSGLA300_00265_MYLLA_000_200",
+    "original": "I\u0027m glad you were there, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Without you, I doubt we could have defeated the Alacran.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_000_203",
+    "original": "Have you ever considered the Coliseum? You\u0027d make a wonderful attraction. Of course, you\u0027d need a title that befits your prowess.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_CLSGLA300_00265_MYLLA_000_205",
+    "original": "...Now that it\u0027s all over, you\u0027ll be staying, won\u0027t you?",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_000_206",
+    "original": "No. Leavold may be dead, but the Alacran are far from finished. I\u0027d rather not linger and give them a chance to regroup and seek revenge.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_000_208",
+    "original": "It is a true tragedy that I cannot enjoy the company of Ul\u0027dah\u0027s lovely ladies any longer, but I have faith that equally radiant beauties await me in distant lands.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_CLSGLA300_00265_MYLLA_000_209",
+    "original": "Aldis, I\u2500",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_000_213",
+    "original": "Not another word, my dear. It\u0027s bad enough that the First Sword has permitted a disgraced gladiator to fraternize with her subordinates. Can you imagine the scandal if she became personally involved with the man?",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_000_220",
+    "original": "Nevertheless, I understand how you feel, Mylla. I\u0027m known to have this effect on the fairer sex.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_CLSGLA300_00265_MYLLA_000_221",
+    "original": "I should\u0027ve let the headsman have his way with you. That way you might learn something of humility.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_000_222",
+    "original": "Ah, but how am I supposed to remember the lesson without a head?",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_000_223",
+    "original": "Your father would be proud of you, Mylla. Don\u0027t ever change.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_000_225",
+    "original": "Ah, yes\u2500there\u0027s one more thing I wanted to say to you before I go, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_000_226",
+    "original": "Seven years ago, before my last match on the bloodsands, I was given an offer. A sultan\u0027s ransom in exchange for a loss. Leavold begged and pleaded, but I...I just couldn\u0027t do it.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_000_227",
+    "original": "Call it honor or pride or whatever you like. I made my choice, and in spite all that came of it, to this day I have no regrets.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_000_233",
+    "original": "It\u0027s a simple thing to know what\u0027s right. Listen to that heart of yours and it will never lead you astray.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_000_234",
+    "original": "Trust in your comrades, have faith in your skills, and you will triumph over any adversity.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_000_239",
+    "original": "And with that, I bid you all farewell.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_CLSGLA300_00265_MYLLA_000_240",
+    "original": "...I\u0027d better not have to wait seven years to see that bastard again.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_CLSGLA300_00265_MYLLA_000_242",
+    "original": "There\u0027s still so much...so much I want to\u2500",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_CLSGLA300_00265_MYLLA_000_243",
+    "original": "What in the seven hells are you all looking at!? This is a training hall! Why aren\u0027t you all \u003Chex:021A020203\u003Etraining\u003Chex:021A020103\u003E right now!?",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_CLSGLA300_00265_MYLLA_000_247",
+    "original": "You think all it takes to stand on the bloodsands is a sword and a stupid grin? No! It takes years of hard work, an ocean of blood and sweat, and an unbreakable will! Every man and woman here has the potential to become a champion, but it is you\u2500and you alone\u2500who decides your destiny.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_CLSGLA300_00265_MYLLA_000_253",
+    "original": "So answer me now, gladiators! Will you follow in the footsteps of your brothers and sisters and inscribe your names in legend!?",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_CLSGLA300_00265_GUILDMEMBER_000_254",
+    "original": "(-Gladiators-)Aye!!!",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_CLSGLA300_00265_POP_MESSAGE",
+    "original": "Your actions have attracted unwanted attention...",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_CLSGLA300_00265_SCENE00011_INSTANCE_BATTLE_YESNO_TITLE",
+    "original": "Duty calls. Do you wish to proceed with\u003Chex:02100103\u003E\u201CCLSGLA300\u201D?",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_CLSGLA300_00265_SCENE00011_INSTANCE_BATTLE_YESNO_YES",
+    "original": "Yes",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_CLSGLA300_00265_SCENE00011_INSTANCE_BATTLE_YESNO_NO",
+    "original": "No",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_CLSGLA300_00265_QIB_TODO001",
+    "original": "Defeat the Alacran!",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_BATTLETALK_001",
+    "original": "They need you up on the bridge, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_CLSGLA300_00265_MYLLA_BATTLETALK_002",
+    "original": "Up here, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_CLSGLA300_00265_MYLLA_BATTLETALK_01",
+    "original": "Deal with that mage, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Quickly!",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_BATTLETALK_01",
+    "original": "Voidsent!? Gods damn you, Leavold!",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_CLSGLA300_00265_ALDIS_BATTLETALK_02",
+    "original": "Do not panic, brothers! It can be slain!",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_CLSGLA300_00265_QIB_BATTLETALK_GUILDMEMBER_A_HP0",
+    "original": "Ugh... Damn you...",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_CLSGLA300_00265_QIB_BATTLETALK_GUILDMEMBER_B_HP0",
+    "original": "\u003Cgasp\u003E First Sword, I can\u0027t...",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_CLSGLA300_00265_BATTLETALK_GOTOWIN_HP0",
+    "original": "Graaagh!",
+    "translation": ""
+  }
+}

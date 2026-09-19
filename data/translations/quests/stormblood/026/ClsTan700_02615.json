@@ -1,0 +1,602 @@
+{
+  "0": {
+    "tag": "TEXT_CLSTAN700_02615_SEQ_00",
+    "original": "Atelloune is not yet ready to abandon her work.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_CLSTAN700_02615_SEQ_01",
+    "original": "Despite her many connections as an established naturalist in Gridania, Atelloune could not find hide nor hair of the dhalmel mount. She has prepared for this undesirable outcome, however, by selecting another specimen for mounting\u2500the majestic three-feathered gagana. To that end, she bids you and Enion make for Gyr Abania to locate this gargantuan bird of prey.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_CLSTAN700_02615_SEQ_02",
+    "original": "Enion has only ill-tidings to share when you arrive at Castrum Oriens. It would seem the three-feathered gagana has not been sighted in the Fringes in quite some time. Some believe it may already be extinct. Just as all hope seemed to be lost, Enion has a stroke of genius. He suggests using the pelt of the more common variety of gagana to reproduce the visage of the three-feathered one. Before returning to Gridania, however, he insists on observing them briefly to ensure his mannequin properly conveys their likeness.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_CLSTAN700_02615_SEQ_03",
+    "original": "Captivated by their form and beauty, Enion asks you wait for him a while longer. He then takes his leave to continue observing the gaganas.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_CLSTAN700_02615_SEQ_04",
+    "original": "Enion is at last ready to return home, but not before confessing to you his uncertainty in creating a new mount. Your words of encouragement quickly replace his doubt with a newfound resolve to improve his skills as a taxidermist. In his excitement, he runs off to tell Atelloune of your plans for the gagana mount.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_CLSTAN700_02615_SEQ_05",
+    "original": "You return to find Atelloune has been apprised of the situation and has ordered a gagana pelt from the Leatherworkers\u0027 Guild. As she hands it to you, she reminds you of the importance of this mount. It is likely to be your final task as her assistant, and she insists this mount be the pinnacle of perfection. You roll up your sleeves and set to work on your masterwork to dress Enion\u0027s mannequin.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BIn the event you lose the ingredients or the synthesis ends in failure, you may try again by speaking with Atelloune.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_CLSTAN700_02615_SEQ_06",
+    "original": "The people of Gridania have gathered at Mih Khetto\u0027s Amphitheatre, all eyes fixed on the dhalmel jacket and gagana mount at center stage. It is not long before Atelloune\u0027s intended audience, Marmaduke, makes his presence known. He demands the exhibition be suspended forthwith, but Atelloune chooses to ignore his order. She instead goes on to explain how changes in the environment have endangered myriad animal species, and how people should make a better effort to protect them. Touched by her words, Marmaduke bids her continue, and teach the people of Gridania the value of the lives they would otherwise take for granted. The exhibition ends a resounding success, Atelloune completing her work with animal mounts, and Enion finding himself the newest recruit of the Leatherworkers\u0027 Guild. Atelloune means to spread learning and enlightenment to all corners of the realm, and she hopes the two of you might cross paths again someday.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_CLSTAN700_02615_SEQ_07",
+    "original": "deleted",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_CLSTAN700_02615_TODO_00",
+    "original": "Speak with Enion at Castrum Oriens.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_CLSTAN700_02615_TODO_01",
+    "original": "Speak with Enion.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_CLSTAN700_02615_TODO_02",
+    "original": "Speak with Enion.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_CLSTAN700_02615_TODO_03",
+    "original": "Speak with Atelloune in Old Gridania.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_CLSTAN700_02615_TODO_04",
+    "original": "\u003Chex:02086AE3E802E803FF2D53796E74686573697A652061206C6172676520676167616E6120636170652002280AFF064164646F6E0A0103FF3544656C6976657220746865206C6172676520676167616E6120636170652002280AFF064164646F6E0A010320746F20456E696F6E03\u003E.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_CLSTAN700_02615_TODO_05",
+    "original": "deleted",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_000",
+    "original": "I have exhausted every resource at my disposal, but I could find neither hide nor hair of the dhalmel mount.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_100_000",
+    "original": "I hoped it would not come to this, but we have no choice but to fashion a new mount.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_001",
+    "original": "As a precautionary measure, I have already decided on our next specimen\u2500the majestic gagana.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_002",
+    "original": "Those gargantuan birds in Gyr Abania? I never realized they were endangered.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_003",
+    "original": "I do not speak of the common gagana. What we seek is the \u003Chex:021A020203\u003Ethree-feathered\u003Chex:021A020103\u003E gagana. They are quite rare and sought for use in fine goods. Their population has dropped markedly over the years.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_100_003",
+    "original": "Unfortunately, this means I must again put the two of you in harm\u0027s way.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_004",
+    "original": "If it means having a mount for the exhibition, then we at least have to try!",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_005",
+    "original": "Gaganas live in the Fringes, right? I\u0027ll go ahead to Castrum Oriens and see if anyone knows where to find them. See you there, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_000",
+    "original": "I still can\u0027t believe they took it. After all our hard work...",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_010",
+    "original": "I\u0027m afraid we have a problem, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_011",
+    "original": "I\u0027ve spoken with everyone who would care to listen, but no one has seen a three-feathered gagana here in quite some time.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_100_012",
+    "original": "It\u0027s as Miss Atelloune said. The plumage of the three-feathered gagana is\u2500or rather, was\u2500highly sought for Gyr Abanian finery.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_100_013",
+    "original": "Before the Calamity, when Dalamud slowly began its descent, they say the public grew panicked. Believing the world might come to an end, people began squandering their money on things they normally couldn\u0027t afford. Clothing made from the three-feathered gagana was desired above all.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_100_014",
+    "original": "Demand declined after the Calamity, but it was too late. They never recovered from the overhunting...",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_100_015",
+    "original": "Miss Atelloune was counting on us to find one for the exhibition. I don\u0027t want to return to her empty-handed.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_CLSTAN700_02615_Q1_100_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_CLSTAN700_02615_A1_100_001",
+    "original": "There has to be another way.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_CLSTAN700_02615_A1_100_002",
+    "original": "Did anyone say why they\u0027re so valuable?",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_CLSTAN700_02615_A1_100_003",
+    "original": "...",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_100_020",
+    "original": "From the sounds of it we\u0027re only going to find the common variety of gagana here. And it\u0027s not as if we could dress one to\u2500wait...that\u0027s it! ",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_100_023",
+    "original": "Their feathers have a lustrous sheen unique to the three-feathered gagana. Other than that, I bet most people couldn\u0027t tell the difference between\u2500wait...that\u0027s it!",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_100_025",
+    "original": "\u003Csigh\u003E If only I could be as calm and collected as you. For a moment I humored the ridiculous idea of finding a regular gagana and\u2500wait...that\u0027s it!",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_100_030",
+    "original": "While it\u0027s true the three-feathered gagana was valued for the sheen of its feathers, the greater distinction between it and other gagana lies in the distribution of feathers on its body.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_100_031",
+    "original": "Do you think if we found a normal gagana you could change the arrangement of its feathers?",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_100_032",
+    "original": "It will be difficult with only books for reference, but I\u0027m certain a leatherworker of your caliber can do it.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_100_033",
+    "original": "Then there\u0027s still hope for the exhibition! Miss Atelloune was lucky to find a leatherworker like you to help us.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_100_034",
+    "original": "But if we\u0027re going to make a convincing mount, we\u0027ll need a good mannequin, and I\u0027ve never seen a gagana in person before. Let\u0027s see if we can find some. I heard they nest around Virdjala.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_015",
+    "original": "I will see to preparations for the exhibition. You go ahead to Gyr Abania. Number Seventy-One should be waiting for you.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_020",
+    "original": "I never realized the gagana was such a beautiful and majestic bird. If it\u0027s alright with you, I\u0027d like to observe them for just a while longer.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_025",
+    "original": "deleted",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_026",
+    "original": "deleted",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_030",
+    "original": "I think I\u0027m ready to head back. Our gagana mount is going to be great. At least, I hope it is...",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_031",
+    "original": "...Um, can I ask you a question? I know Miss Atelloune means well and all, but...Marmaduke was absolutely furious. If other people are just as angry, maybe we shouldn\u0027t be making another mount. What do you think?",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_CLSTAN700_02615_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_CLSTAN700_02615_A1_000_001",
+    "original": "Everything will be fine.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_CLSTAN700_02615_A1_000_002",
+    "original": "We\u0027ve come too far to run away now.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_CLSTAN700_02615_A1_000_003",
+    "original": "...",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_032",
+    "original": "You\u0027re right. It\u0027s true we\u0027ve had a few setbacks, but Miss Atelloune is counting on us.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_033",
+    "original": "On second thought, forget I asked. Miss Atelloune is counting on us.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_034",
+    "original": "And if I\u0027m going to be a real taxidermist someday, I have to do everything I can to make this one perfect! Let\u0027s head back to Gridania. She\u0027ll want to know what we have planned.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_035",
+    "original": "deleted",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_040",
+    "original": "delete",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_041",
+    "original": "delete",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_060",
+    "original": "At last you are returned, and with nary a scratch. Enion has told me everything. A pity you were unable to find a true, three-feathered gagana.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_100_060",
+    "original": "I knew sights of the bird had grown scarce over the years, but I never imagined the situation was so dire.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_101_060",
+    "original": "Your plan is to recreate the three-feathered gagana using the pelt of a normal one, is that right?",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_102_060",
+    "original": "This is no small task you place upon yourself. With the exhibition fast approaching, we can afford no mistakes.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_061",
+    "original": "If all goes as planned, this will be your final task for me. All the more reason I shall accept nothing short of perfection.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_062",
+    "original": "Though I loathe being made to wait, I will make an exception for this. Handle the pelt with care, and do not give it to Seventy-One until you are absolutely satisfied with your work.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_063",
+    "original": "If anything should happen to it, inform me immediately, that I might procure another.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_065",
+    "original": "Hey, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Miss Atelloune\u0027s ordered a pelt from the Leatherworkers\u0027 Guild for you.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_066",
+    "original": "deleted",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_070",
+    "original": "Have you finished yet? I just know this gagana is going to look great.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_071",
+    "original": "This is incredible! It\u0027s the spitting image of a three-feathered gagana!",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_100_071",
+    "original": "I can already picture the looks on people\u0027s faces when they see my mannequin dressed with this. It\u0027s going to be our finest mount yet!",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_072",
+    "original": "The placement of plumage on this pelt is immaculate. Well done, Number Seventy-Two.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_073",
+    "original": "Now, I must be off to the amphitheatre. I have posted flyers all about Gridania to ensure our desired audience is in attendance. Everything must be ready for his arrival. Be careful with that pelt, Number Seventy-Two. And remember: nothing less than perfection will suffice.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_074",
+    "original": "deleted",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_080",
+    "original": "I was hoping people would be excited to see our mount up there, but they actually seem kind of mad. We worked so hard on it though... I\u0027m sure Miss Atelloune can make them understand.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_CLSTAN700_02615_MARMADUKE_000_081",
+    "original": "Just when I had thought Gridania had reclaimed some modicum of decency. You will suspend this farce of an exhibition at once!",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_082",
+    "original": "Silence! I will hear no more of your fabricated tales of the elementals! ",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_100_082",
+    "original": "Our work is not a mockery of these animals, but a tribute to their majesty. If you would cease your blustering for only a moment, I will explain to you\u2500and the good people here in attendance\u2500why.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_083",
+    "original": "Ahem. Thank you for gathering here today. I wish to speak with you regarding a matter of grave concern. One often overlooked in the hustle and bustle of our lives here in Gridania. To start, I would have you consider this, the three-feathered gagana.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_084",
+    "original": "deleted",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_085",
+    "original": "A rare breed highly valued by the people of Gyr Abania. Before the Calamity, as Dalamud began its bodeful descent, demand for this bird\u0027s plumage would see its population drop substantially. Its natural habitat has undergone drastic change since then. So much so, some believe there may be none left.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_100_085",
+    "original": "The dhalmel which once stood outside the Leatherworkers\u0027 Guild represented a species that also struggles with a declining population. As the environment continues to undergo radical changes, these innocent creatures and countless others will be pushed to the brink of extinction.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_101_085",
+    "original": "We obviously cannot bend the laws of nature to return the world to what it once was, but we can still do our part to preserve their homes and what few of them remain. We must also show restraint in our hunting lest their peers become endangered as well.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_086",
+    "original": "Take for example this jacket crafted from dhalmel hide. Demand for its leather has grown noticeably of late. What do you suppose will happen as more hunters are drawn to the Sea of Clouds?",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_100_086",
+    "original": "Seeing only the products born of their hides, it is far too easy to forget the sacrifice of these animals. ",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_087",
+    "original": "We must protect them as we do the balance of life here in the Twelveswood. To do otherwise would be a grievous squandering of resources.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_CLSTAN700_02615_GUARD02615_000_088",
+    "original": "You\u0027re one to talk. What is this display other than a waste of skin? You claim it has an educational purpose, but one could simply read a book\u2500",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_088",
+    "original": "And you have read such a book? I should hope you have, and that you are highly knowledgeable as a result, given that you wear clothing made from their hides.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_CLSTAN700_02615_GUARD02615_000_089",
+    "original": "Well... I...",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_090",
+    "original": "What about you? Do you know \u003Chex:021A020203\u003Eanything\u003Chex:021A020103\u003E of dhalmels or gaganas?",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_100_090",
+    "original": "These people have a right to know what is happening to the world outside of Gridania. To know the cost of the goods they would otherwise take for granted.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_CLSTAN700_02615_GEVA_000_091",
+    "original": "Hearer Marmaduke, perhaps now you would be willing to consider the merit of Atelloune\u0027s work? These mounts are not meant to offend anyone.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_CLSTAN700_02615_GEVA_000_092",
+    "original": "They are a lasting reminder of the lives sacrificed for the clothing on our backs, and a tool to arouse interest in the study of animals so many would otherwise ignore.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_CLSTAN700_02615_GEVA_000_093",
+    "original": "You might think these specimens a grim reflection of their living counterparts, but they preserve a truth that mere words cannot express. Surely you understand the virtue in that?",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_CLSTAN700_02615_MARMADUKE_000_094",
+    "original": "...More than you realize. For it is my duty\u2500nay, my privilege\u2500to hearken to the elementals and bear witness to such truths, that we might maintain the delicate balance of life here in the Shroud.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_CLSTAN700_02615_MARMADUKE_000_095",
+    "original": "I see now you wish only to share with these people knowledge I have long taken for granted. I would ask your forgiveness for my recent wrongdoings.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_CLSTAN700_02615_MARMADUKE_000_096",
+    "original": "The Twelveswood suffered greatly in the Calamity, and in the years since, it has only grown weaker. The sight of your mounts was...was more than I could bear.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_CLSTAN700_02615_MARMADUKE_000_097",
+    "original": "But through the sacrifice of these few, countless more may be saved. If your creations serve to bring these good people wisdom, and instill in them a greater respect for the blessed creatures of this land, then I will condemn them no longer.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_098",
+    "original": "Then I will carry on, for it is my duty to illuminate the dark with the light of knowledge.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_099",
+    "original": "Before I continue, I must first give thanks to the two skilled artisans who made this possible. My darling assistants\u2500the aspiring taxidermist who pieced together this splendid gagana mount, and the gifted leatherworker who prepared both the jacket and gagana\u0027s pelt.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_110",
+    "original": "It has been far too long since I lectured before an audience so large. I hope I didn\u0027t bore them.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_111",
+    "original": "You were perfect, Miss Atelloune! They were hanging on your every word. And did you see how everyone was admiring the gagana mount? Today was a great day!",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_112",
+    "original": "Indeed it was. A great many people learned a valuable lesson, thanks in no small part to the two of you. And with that, I do believe my work here is done. Enion, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, you have my sincerest thanks.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_113",
+    "original": "Come now, you two. When my assistants are deserving of praise, I will not hesitate to give it.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_CLSTAN700_02615_GEVA_000_114",
+    "original": "Even I have to admit that gagana mount was quite impressive. It\u0027s not often the amphitheatre draws a crowd like that. Between that and the lecture, I\u0027d say the exhibition was a resounding success.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_115",
+    "original": "Thanks for the compliment, but building the mannequin was the easy part. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u0027s the one who made the incredible cape to dress it. \u003Chex:02080CE905FF04536865FF03486503\u003E\u0027s been like a big \u003Chex:020814E905FF07736973746572FF0862726F7468657203\u003E looking out for me every step of the way.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_116",
+    "original": "Now that we\u0027ve finished, though, I think I\u0027ll stay in Gridania a while longer. There\u0027s still a lot I need to learn about leatherworking, and I have plenty left to share about making animal mounts.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_CLSTAN700_02615_GEVA_000_117",
+    "original": "Well, well, looks like I have a new recruit. Don\u0027t think I\u0027ll go easy on you just because you\u0027re a friend of \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u0027s, either. Rather the contrary.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_CLSTAN700_02615_ENION_000_118",
+    "original": "Wait... \u003Chex:021A020203\u003EYou\u0027re\u003Chex:021A020103\u003E the guildmaster!? I thought you were just a friend of \u003Chex:02080EE905FF0568657273FF0468697303\u003E.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_119",
+    "original": "I admit I was doubtful of your abilities as a leatherworker, but I am grateful to have been proven wrong.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_120",
+    "original": "Thanks to you, we have touched the hearts and minds of a good many people here in Gridania.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_100_120",
+    "original": "But this is only the beginning. When I publish the results of our work here, all corners of the realm shall know of the great naturalist Atelloune. Indeed, the shining star that is my career has only begun to shine!",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_101_120",
+    "original": "Ah, did I not tell you? Not long after I finished my lecture at the amphitheatre, reservations for the next publication of \u003Chex:021A020203\u003ENew Eorzea Geographic\u003Chex:021A020103\u003E began to pour in.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_102_120",
+    "original": "What\u0027s more, Hearer Marmaduke plans to speak with the Elder Seedseer to have my publication instated as a reference work for the Seedseer\u0027s council.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_103_120",
+    "original": "I left Marcette to manage the better part of my research and writings, but this will require nothing short of my undivided attention.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_121",
+    "original": "My work must be thorough, and comprehensive. I foresee much traveling as well. Yes, across the whole of Eorzea, and then, the world!",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_100_121",
+    "original": "Perhaps we will meet again on a distant shore.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_122",
+    "original": "Should that day come, I would be honored to receive your assistance once more.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_125",
+    "original": "I trust the gagana pelt isn\u0027t giving you too much trouble? Number Seventy-One is rather eager to dress his new mannequin.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_126",
+    "original": "\u003Chex:021A020203\u003EAnother\u003Chex:021A020103\u003E gagana pelt? These animals do not grow on trees, you know. I should hope you are grateful that I thought to prepare another in case of an emergency.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_CLSTAN700_02615_ATELLOUNE_000_127",
+    "original": "Every pelt\u2500and the life given to obtain it\u2500is precious \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. You would do well not to waste them.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_CLSTAN700_02615_SYSTEM_000_500",
+    "original": "You have helped create an animal mount the likes of which Gridania has never seen, and in the doing learned \u201CStroke of Genius\u201D!",
+    "translation": ""
+  }
+}

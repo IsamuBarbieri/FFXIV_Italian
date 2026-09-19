@@ -1,0 +1,452 @@
+{
+  "0": {
+    "tag": "TEXT_BANKOB001_01320_SEQ_00",
+    "original": "Trachraet seeks an adventurer with superior sleuthing skills.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_BANKOB001_01320_SEQ_01",
+    "original": "Lieutenant Trachraet reveals to you a troubling development: a Maelstrom convoy was recently intercepted, the unidentified perpetrators absconding with a vital shipment of saltpeter. He beseeches your aid, asking you to travel to Swiftperch in western La Noscea to assist Lieutenant Skaetswys, the officer tasked with leading the investigation.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_BANKOB001_01320_SEQ_02",
+    "original": "Lieutenant Skaetswys is grateful for your assistance, as her subordinates have thus far not demonstrated much in the way of investigative skills. Search Swiftperch for the evidence which has thus far eluded her grasp.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_BANKOB001_01320_SEQ_03",
+    "original": "A thorough scouring of Swiftperch has turned up a misshapen pickaxe of curious make. Could this be a tool left behind by the saltpeter thieves? Present it to Lieutenant Skaetswys in hopes that it sheds light on her inquiry.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_BANKOB001_01320_SEQ_04",
+    "original": "Upon a close examination of the pick, Skaetswys is now convinced that the ambush of the convoy was carried out by a band of kobolds. Accompany Skaetswys to Camp Overlook and seek out Commander Bloeidin, whose vast knowledge of the tunnel-dwelling beastmen will prove vital in determining a proper course of action.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_BANKOB001_01320_SEQ_05",
+    "original": "Upon your arrival at Camp Overlook, a captive kobold under interrogation by Commander Bloeidin is quick to confess that a notorious order of his kin, the 789th, were the masterminds behind the saltpeter theft. Exercising due caution, infiltrate their den of villainy and rendezvous once more with Skaetswys.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_BANKOB001_01320_SEQ_06",
+    "original": "No sooner do you arrive at the dig and locate the stolen supplies than does the 789th Order sniff out your presence, quickly surrounding you. The mystery then deepens, however, when the vicious kobolds surrender the stolen goods with nary a fight. Speak with Skaetswys again, that the two of you might puzzle out exactly what has transpired.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_BANKOB001_01320_SEQ_07",
+    "original": "Thoroughly confused by the kobolds\u0027 behavior, Skaetswys nonetheless elects to put off any further pondering until the supplies are safely conveyed to their original destination. Before setting off for Camp Overlook, she encourages you to explore the dig and seek out the leader of the 789th, that you might glean some knowledge of the surprisingly nonconfrontational kobolds.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_BANKOB001_01320_SEQ_08",
+    "original": "The foreman of the 789th, an uninspiring kobold by the name of Gi Gu, sheepishly expresses his remorse for his order\u0027s actions, while insisting that they only stooped to common thievery due to extenuating circumstances. It would seem there is more to these kobolds\u0027 plight than meets the eye...",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_BANKOB001_01320_TODO_00",
+    "original": "Speak with Skaetswys at Swiftperch.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_BANKOB001_01320_TODO_01",
+    "original": "Search Swiftperch and the vicinity for clues.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_BANKOB001_01320_TODO_02",
+    "original": "Deliver the crooked pickaxe to Skaetswys.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_BANKOB001_01320_TODO_03",
+    "original": "Speak with Bloeidin at Camp Overlook.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_BANKOB001_01320_TODO_04",
+    "original": "Speak with Skaetswys at the 789th Order Dig.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_BANKOB001_01320_TODO_05",
+    "original": "Speak with Skaetswys.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_BANKOB001_01320_TODO_06",
+    "original": "Speak with 789th Order Pickman Gi Gu.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_BANKOB001_01320_TRACHRAET_000_001",
+    "original": "\u003Chex:0208C7E1E93501FF93022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF01030320022C0DFF07022903EB0203FF02200303FF2D020829E1E93601FF11022C0DFF07022903EB0203FF02200203FF11022C0DFF07022903EB0203FF022002030303\u003E! I know not what brings ye to Maelstrom Command this day, but I can \u0027ardly fault yer timin\u0027. Aye, we\u0027ve a situation on our \u0027ands, we do.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_BANKOB001_01320_TRACHRAET_000_002",
+    "original": "Not days ago, a convoy of ours was ambushed en route to Limsa, and a goodly shipment of saltpeter plundered from our very \u0027ands. The scurvy dogs responsible for the act struck swiftly and under darkness, so we\u0027ve yet to figure out who they are\u2500much less bring them to justice.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_BANKOB001_01320_TRACHRAET_000_003",
+    "original": "Saltpeter, as ye may know, is a key ingredient in fashionin\u0027 firesand. Whatever our foe might be plottin\u0027, like as not it involves an \u0027earty share o\u0027 fiery death and destruction.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_BANKOB001_01320_TRACHRAET_000_004",
+    "original": "Command has dispatched an elite regiment to the field to investigate, but clues \u0027ave proved \u0027arder to come by than an \u0027alf-decent pint of ale at sea.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_BANKOB001_01320_TRACHRAET_000_005",
+    "original": "Leadin\u0027 the investigation is a good comrade of mine. While I\u0027d like nothin\u0027 more than to lend me strength to \u0027er search, I can\u0027t very well shirk me duties \u0027ere.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_BANKOB001_01320_TRACHRAET_000_006",
+    "original": "If ye find yerself itchin\u0027 for adventure, ye could do worse than to make for Swiftperch and seek out one Lieutenant Skaetswys. Just say that Trachraet sent ye.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_BANKOB001_01320_TRACHRAET_000_007",
+    "original": "A dear old comrade of mine leads the search for our missin\u0027 shipment of saltpeter. If ye be itchin\u0027 for adventure, make for Swiftperch and seek out one Lieutenant Skaetswys. Just say that Trachraet sent ye.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_010",
+    "original": "Llymlaen take the lot of ye! Ye\u0027d \u0027ave me believe that there\u0027s not a single piece of evidence in this entire godsforsaken \u0027amlet!?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_011",
+    "original": "And who might \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E be? An adventurer come on behalf of ol\u0027 Trachraet? Who said I was lookin\u0027 for \u0027elp, anyway?",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_012",
+    "original": "Trachraet did? Hah! I\u0027ll \u0027ave ye both know that it\u0027s all clear skies and smooth sailin\u0027 \u0027ere. Aye, I was just about to file my report to\u2500",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_013",
+    "original": "...Eh, I ain\u0027t foolin\u0027 no one. A good tonze o\u0027 saltpeter\u0027s been snatched from our \u0027ands, like as not by someone who\u0027d use it to sink our fair Limsa to the bottom o\u0027 the sea. All right, I\u0027ll share with ye what me men \u0027ave gleaned, though I warn ye\u2500it ain\u0027t much.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_014",
+    "original": "Given the scope o\u0027 the act, we believe it was a coordinated effort by a well-trained group. What\u0027s more, given the sheer speed with which the scurvy thieves vanished from our sight, I reckon that they \u0027ave knowledge o\u0027 passages unknown to us.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_015",
+    "original": "I \u0027ad me \u0027opes up that my men would\u0027ve found \u003Chex:021A020203\u003Esomethin\u0027\u003Chex:021A020103\u003E, but they \u0027ad no such luck. What say ye? Care to take a look around and see if ye can find the evidence me \u0027alf-blind and thrice-daft subordinates couldn\u0027t?",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_016",
+    "original": "To steal off with all those crates with even our best men catchin\u0027 nary a glimpse... We\u0027re dealin\u0027 with a criminal band o\u0027 surpassin\u0027 skill an\u0027 chicanery.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_BANKOB001_01320_KOKKADANA01320_000_017",
+    "original": "\u003Csigh\u003E I\u0027m in for a demotion for sure. How will I ever face me wife and kids again...?",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_BANKOB001_01320_KOKKADANB01320_000_018",
+    "original": "Me eyes never left the wagon\u2500I swear on me mother\u0027s grave! Well, I mean...maybe they did. Just for a moment... But Aleport was in clear sight! Can ye blame me for thinkin\u0027 we were safe?",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_030",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, was it? Well? Find any evidence that could shed some light on our investigation?",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_031",
+    "original": "Hmmm...what \u0027ave we here? A pickaxe, and a rather sorry-lookin\u0027 one, at that. Do ye reckon this was left behind by the perpetrators?",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_032",
+    "original": "In my time with the Maelstrom, I\u0027ve confronted just about every pirate, brigand, and \u0027ighwayman in these parts, but I\u0027ve not known any of \u0027em to employ a tool like this.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_033",
+    "original": "No, I\u0027d wager more than a round at the Wench that our band o\u0027 grubby little thieves ain\u0027t no ordinary men. Aye, it\u0027s all becomin\u0027 clear to me...",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_034",
+    "original": "...And yerself, no doubt. Tell me, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u2500might ye be thinkin\u0027 what I\u0027m thinkin\u0027?",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_BANKOB001_01320_Q1_000_000",
+    "original": "Are you thinking what Skaetswys is thinking? The culprit is...",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_BANKOB001_01320_A1_000_001",
+    "original": "...A rogue Roegadyn!?",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_BANKOB001_01320_A1_000_002",
+    "original": "...Those conniving kobolds!",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_035",
+    "original": "None other! Aye, only a Roegadyn of abundant physical and mental talents\u2500such as meself\u2500could fashion and employ such an exquisite piece o\u0027...",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_036",
+    "original": "...Do ye \u0027ave barnacles where yer brains should be, adventurer!? \u0027Cause if yer so much as \u003Chex:021A020203\u003Eimplyin\u0027\u003Chex:021A020103\u003E that I staged the robbery meself, ye\u0027ll be takin\u0027 a long walk off a short pier the second you set foot back in Limsa!",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_037",
+    "original": "...I knew ye were a sharp one. Aye, the moment I laid eyes on that pickaxe ye found, me mind was convinced.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_038",
+    "original": "The primitive make o\u0027 this tool, an all\u003Chex:021F0103\u003Etoo\u003Chex:021F0103\u003E\u0027ealthy interest in explosives\u2500all signs point to those rat\u003Chex:021F0103\u003Efaced rapscallions bein\u0027 behind all this.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_039",
+    "original": "It\u0027s so bloody obvious now that I could almost kick meself\u2500and me good\u003Chex:021F0103\u003Efor\u003Chex:021F0103\u003Enothin\u0027 men\u2500for not comin\u0027 to this conclusion sooner.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_040",
+    "original": "But this is \u0027ardly a time for whingin\u0027. No, we must strike quickly if we mean to reclaim what\u0027s ours.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_041",
+    "original": "Camp Overlook is our front line o\u0027 defense against those tunnel-burrowin\u0027 thieves. If anyone \u0027as a notion o\u0027 where they\u0027ve taken the saltpeter and \u0027ow they plan to use it, it\u0027ll be Commander Bloeidin.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_042",
+    "original": "I\u0027m off to deliver me report, but I\u0027ve an \u0027unch our job has only begun. What say you come along, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E? You\u0027re the first capable \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E I\u0027ve worked with today.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_BANKOB001_01320_KOBOLDA01320_000_043",
+    "original": "Release me at once\u2500free me, unhand me, release me!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_BANKOB001_01320_BLOEIDIN_000_050",
+    "original": "Hm? Make it quick, adventurer. As ye can see, I\u0027ve got me hands full with our little friend here.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_BANKOB001_01320_KOBOLDA01320_000_051",
+    "original": "This is an outrage\u2500a farce, an atrocity, an outrage! This is an insult, and we kobolds will not stand for it. No, no, stand no more!",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_BANKOB001_01320_BLOEIDIN_000_052",
+    "original": "Ye\u0027ll not have legs to stand on if ye don\u0027t quit blabberin\u0027 an\u0027 spill the truth about whatever it is ye scurvy rats are plottin\u0027!",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_BANKOB001_01320_KOBOLDA01320_000_053",
+    "original": "Plotting? There is no plotting! No, no, we plot nothing\u2500naught, nil, nothing!",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_BANKOB001_01320_BLOEIDIN_000_054",
+    "original": "Enough! Unlike you and yer ilk, I\u0027ve a workin\u0027 pair of eyes and at least half me wits about me. Ye think I\u0027ve not seen you lot blastin\u0027 and scurryin\u0027 around U\u0027Ghamaro of late!?",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_055",
+    "original": "Commander Bloeidin, sir!",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_BANKOB001_01320_BLOEIDIN_000_056",
+    "original": "Skaetswys? Aye, it\u0027s a treat to see me old trainee, but I fear a brewin\u0027 kobold plot demands me attention...",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_057",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E \u0027ere and I just might be able to \u0027elp ye with that, Commander. I trust ye\u0027ve \u0027eard the news of our missin\u0027 shipment of saltpeter?",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_BANKOB001_01320_KOBOLDA01320_000_058",
+    "original": "So soon she knows!? This cannot be! No, no, it cannot be!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_BANKOB001_01320_BLOEIDIN_000_059",
+    "original": "Hah, I knew it! Yer endless tongue-waggin\u0027 has finally dug yer own grave!",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_BANKOB001_01320_KOBOLDA01320_000_060",
+    "original": "It was not us! No, no, not us. It was \u003Chex:021A020203\u003Ethem\u003Chex:021A020103\u003E\u2500yes, yes, \u003Chex:021A020203\u003Ethem\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_061",
+    "original": "What nonsense is this? Beady eyes, frizzy tail, a penchant for causin\u0027 us trouble\u2500a kobold\u0027s a kobold!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_BANKOB001_01320_KOBOLDA01320_000_062",
+    "original": "This is not so! No, no, not so! There are kobolds, and then there are kobolds, and then there are kobolds still. It is the low ones who stole your precious saltpeter\u2500the ones who live down, beneath, below!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_BANKOB001_01320_BLOEIDIN_000_063",
+    "original": "Beneath and below? ...Come to think of it, me scouts did mention a particularly scraggy band of kobolds what seem to have made their home at the cliff base.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_BANKOB001_01320_KOBOLDA01320_000_064",
+    "original": "Yes, yes! That is the place! That is the home, the home of the 789th. They are the worst\u2500the worst of the worst. They are most stinky\u2500smelly, scummy, stinky\u2500and ugly, too!",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_065",
+    "original": "Commander! As the presidin\u0027 officer in this investigation, I request permission to go below and investigate the so-called 789th. Furthermore, I would enlist this adventurer to join me\u2500\u003Chex:02080CE905FF04736865FF03276503\u003E\u0027s proven \u003Chex:020815E905FF0827657273656C66FF0827696D73656C6603\u003E capable, and it would seem we go up against a worthy foe.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_BANKOB001_01320_BLOEIDIN_000_066",
+    "original": "As ye please, Lieutenant. But I warn ye, be careful down there. The sight of a kobold won\u0027t strike fear into anyone\u0027s heart, but their bite\u2500and their bombs\u2500are a fair sight worse than their bark.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_067",
+    "original": "Understood, Commander\u2500we\u0027ll not let ye down. And with that, I take my leave. Till sea swallows all!",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_068",
+    "original": "Well, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E? Are ye ready to take on the scurviest band o\u0027 kobolds in La Noscea? Ye\u0027d best be, because I\u0027m countin\u0027 on ye to make yerself useful.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_BANKOB001_01320_BLOEIDIN_000_069",
+    "original": "Kobolds might look like little more than overgrown wharf rats, but their minds are as sharp as their claws. If you ever find yerself surrounded by \u0027em, ye\u0027d best be ready for the fight o\u0027 yer life.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_BANKOB001_01320_KOBOLDA01320_000_070",
+    "original": "No good can come from dealing with the 789th. No good, no good at all. Ignore my words, and you are a fool\u2500a dunce, a \u003Chex:020815E905FF096D6164776F6D616EFF076D61646D616E03\u003E, a fool.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_080",
+    "original": "Well, well... What \u0027ave we \u0027ere?",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_081",
+    "original": "One, two...aye, three crates o\u0027 saltpeter. It would seem our kobold informant spoke true.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_082",
+    "original": "What the\u2500!?",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_087",
+    "original": "Surrounded!? Stand ready, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_088",
+    "original": "Are ye just goin\u0027 to stand there squeakin\u0027 at me all \u003Chex:020831E3E90C0DFF15020811E3E90C05FF066E69676874FF0464617903FF15020811E3E90C12FF04646179FF066E696768740303\u003E!? Fight with \u0027onor, or die like the rats ye are!",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_BANKOB001_01320_GIGU_000_089",
+    "original": "(-Unimposing Kobold-)Ah, er...are there no alternatives\u2500ch-choices, options, alternatives? Such as perhaps...surrender? Yes, yes, surrender! We surrender!",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_090",
+    "original": "Did you just say...surrender?",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_BANKOB001_01320_KOBOLD01320_000_091",
+    "original": "(-789th Order Kobolds-)Yes, yes, we surrender\u2500yield, submit, surrender!",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_092",
+    "original": "What in the seven hells...?",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_100",
+    "original": "I \u0027aven\u0027t an inklin\u0027 as to the whys and wherefores, but it seems the notorious 789th is keen to return their plunder without so much as a fight.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_101",
+    "original": "I, for one, wouldn\u0027t \u0027ave been opposed to crackin\u0027 a few kobold skulls, but considerin\u0027 the strained relations between Limsa and the little buggers these days, who can argue with good diplomacy?",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_102",
+    "original": "Anyroad, I\u0027ll report back to Commander Bloeidin and arrange for the transport o\u0027 the supplies\u2500aye, and with a reliable escort this time.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_BANKOB001_01320_SKAETSWYS_000_103",
+    "original": "In the meantime, why don\u0027t ye ask around and see what ye can learn about our new neighbors? After all, they don\u0027t seem \u0027alf as imposin\u0027 as I expected\u2500their leader least of all... Best of luck, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Till sea swallows all!",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_BANKOB001_01320_GIGU_000_104",
+    "original": "Is the scary woman gone yet? Oh please, please say she is! You must forgive Gi Gu. Yes, Gi Gu and his friends naughty\u2500wicked, nasty, naughty!",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_BANKOB001_01320_GIGU_000_110",
+    "original": "Y-You are still here!? We have surrendered, yes? Yielded, submitted, surrendered? You will not hurt us, yes?",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_BANKOB001_01320_GIGU_000_111",
+    "original": "...Phew. I am relieved\u2500reassured, relaxed, relieved. And who I am, you ask?",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_BANKOB001_01320_GIGU_000_112",
+    "original": "I am Gi Gu, and Gi Gu is foreman of the 789th. Leader in name, yes, but no more. No, no, no more. For in truth, no one listens to Gi Gu. Gi Gu is ignored\u2500invisible, insulted, ignored...incompetent, too.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_BANKOB001_01320_GIGU_000_113",
+    "original": "The 789th stole your precious boompowder? Yes, yes, we did. And yet, we had good cause for doing so\u2500an excuse, a reason, a cause.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_BANKOB001_01320_GIGU_000_114",
+    "original": "Ours is a peaceful order by nature. The 789th troubled no one, and no one troubled us. No, not until now. Now we are driven from the tunnels, exiled to this place that stinks of soil and seawater.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_BANKOB001_01320_GIGU_000_115",
+    "original": "But you are a stranger, and I ramble too much, too soon. No, no, I will speak no more. Go now, and leave Gi Gu to his suffering\u2500his pain, his shame, his suffering.",
+    "translation": ""
+  }
+}

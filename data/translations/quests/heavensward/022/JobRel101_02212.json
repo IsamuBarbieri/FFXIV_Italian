@@ -1,0 +1,392 @@
+{
+  "0": {
+    "tag": "TEXT_JOBREL101_02212_SEQ_00",
+    "original": "Ardashir seems eager to bring anima into being.\u003Chex:02100103\u003E\u203BChanging classes or jobs will prevent progress during this quest.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_JOBREL101_02212_SEQ_01",
+    "original": "Ardashir hopes to begin work on the anima weapon as soon as possible. All the necessary elements are in place save two: astral and umbral nodules, the catalysts required to facilitate the process of channeling aether into the soulstone. Unsure of where to procure them, Ardashir suggests speaking with Rowena in Revenant\u0027s Toll. With any luck, she will know of a merchant who can provide what he needs.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BYou may not proceed with a class or job that is different from when you accepted this quest.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_JOBREL101_02212_SEQ_02",
+    "original": "Hearing of your need for crystals with unusual properties, Rowena suggests speaking with a merchant by the name of Syndony. She is a jeweler who also happens to be quite knowledgeable about crystals. You can find her on the terrace of the second floor in the House of Splendors.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_JOBREL101_02212_SEQ_03",
+    "original": "Upon speaking with Syndony, it soon becomes clear that your reputation has preceded you. When you inquire about the nodules, she is taken aback by your outlandish request, but is not deterred from the challenge of producing what you seek. The process will require elementally aspected luminous crystals, and she insists you bring her one of every element. However, she also believes there may be one other way: bringing her a Zodiac Weapon of the highest order. Seeing your nonplussed expression, she concedes that such a legendary weapon may be no more than a rumor.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BShould you be unwilling or unable to offer a suitable Zodiac Weapon, luminous crystals can be obtained by participating in FATEs in the following regions:\u003Chex:02100103\u003E- Sea of Clouds: luminous wind crystals\u003Chex:02100103\u003E- Azys Lla: luminous fire crystals\u003Chex:02100103\u003E- Churning Mists: luminous lightning crystals\u003Chex:02100103\u003E- Coerthas western highlands: luminous ice crystals\u003Chex:02100103\u003E- Dravanian forelands: luminous earth crystals\u003Chex:02100103\u003E- Dravanian hinterlands: luminous water crystals",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_JOBREL101_02212_SEQ_04",
+    "original": "With the nodules in hand, Ardashir is at last ready to go through with Gerolt\u0027s plan. He duly completes the infusion of aether, and hands the pulsating soulstone to Gerolt, who immediately sets about affixing the radiant gem to your weapon. Some time later, the sweating smith finally lowers his hammer, a look of both exhaustion and satisfaction on his face. The plan has succeeded and you are the proud owner of an anima weapon. Now begins the journey to discover its full potential.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_JOBREL101_02212_TODO_00",
+    "original": "Speak with Rowena at Revenant\u0027s Toll.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_JOBREL101_02212_TODO_01",
+    "original": "Speak with Syndony at Revenant\u0027s Toll.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_JOBREL101_02212_TODO_02",
+    "original": "Deliver the astral nodule and umbral nodule to Ardashir in Azys Lla.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_JOBREL101_02212_SYSTEM_100_000",
+    "original": "Please note that upon completing the quest \u201CSoul without Life,\u201D you will receive an anima weapon for \u003Chex:0208B0E4E9450BFF15616E2002280EFF09436C6173734A6F62E9450103FF94020890E4E9450FFF15616E2002280EFF09436C6173734A6F62E9450103FF74020870E4E94506FF15616E2002280EFF09436C6173734A6F62E9450103FF54020850E4E9451BFF15616E2002280EFF09436C6173734A6F62E9450103FF34020830E4E94522FF15616E2002280EFF09436C6173734A6F62E9450103FF14612002280EFF09436C6173734A6F62E94501030303030303\u003E.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_JOBREL101_02212_Q1_000_000",
+    "original": "What will you do?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_JOBREL101_02212_A1_000_000",
+    "original": "Undertake this quest as another job.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_JOBREL101_02212_A2_000_000",
+    "original": "Undertake this quest as \u003Chex:0208B0E4E9450BFF15616E2002280EFF09436C6173734A6F62E9450103FF94020890E4E9450FFF15616E2002280EFF09436C6173734A6F62E9450103FF74020870E4E94506FF15616E2002280EFF09436C6173734A6F62E9450103FF54020850E4E9451BFF15616E2002280EFF09436C6173734A6F62E9450103FF34020830E4E94522FF15616E2002280EFF09436C6173734A6F62E9450103FF14612002280EFF09436C6173734A6F62E94501030303030303\u003E.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_JOBREL101_02212_SYSTEM_100_001",
+    "original": "Be advised that once you have undertaken this quest, you may not proceed with a class or job that is different from when you accepted it.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_JOBREL101_02212_SYSTEM_100_002",
+    "original": "Please ensure you have changed to your desired job before speaking with Ardashir.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_JOBREL101_02212_SYSTEM_100_003",
+    "original": "You have already received \u003Chex:02310CFF054974656D03E802020203\u003E and \u003Chex:02310CFF054974656D03E803020203\u003E.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_JOBREL101_02212_SYSTEM_100_004",
+    "original": "You have already received \u003Chex:02310CFF054974656D03E802020203\u003E.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_JOBREL101_02212_SYSTEM_100_005",
+    "original": "To further enhance the strength of this anima weapon, speak with Ardashir again to undertake the quest \u201CToughening Up.\u201D",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_JOBREL101_02212_SYSTEM_100_006",
+    "original": "To forge a different anima weapon, please change to your desired job and speak with Ardashir again.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_JOBREL101_02212_ARDASHIR_000_000",
+    "original": "I take it you\u0027re ready to proceed? Excellent. Gerolt has already begun work on the weapon that will serve to contain the anima. The difficulty lies in sustaining the thing long enough for the transfer to take place.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_JOBREL101_02212_ARDASHIR_000_001",
+    "original": "But with the appropriate stabilizing materials, I believe it should be possible, provided we act quickly.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_JOBREL101_02212_ARDASHIR_100_001",
+    "original": "I have brought several soulstones with me, so you needn\u0027t worry about that. I shall see that one is fitted to your weapon.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_JOBREL101_02212_ARDASHIR_000_002",
+    "original": "The only needful things I do not currently possess are crystals capable of handling the quantities of aether required for our work.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_JOBREL101_02212_ARDASHIR_000_003",
+    "original": "To be specific, we will need astral and umbral nodules.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_JOBREL101_02212_ARDASHIR_000_004",
+    "original": "Would that we were working in Radz\u003Chex:021F0103\u003Eat\u003Chex:021F0103\u003EHan. I knew of a merchant there who sold them. Costly though they were, I was never wanting for supplies. Perhaps Mistress Rowena would know of someone willing to trade. Might you be willing to speak with her on my behalf?",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_JOBREL101_02212_ARDASHIR_000_005",
+    "original": "No doubt whoever she refers you to will not part with them readily, but I trust you will be able to come to some manner of arrangement.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_JOBREL101_02212_ARDASHIR_100_005",
+    "original": "In the meantime, Gerolt and I will finish preparations for the anima weapon. Safe travels, friend.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_JOBREL101_02212_ARDASHIR_000_010",
+    "original": "Ah, come to create another anima weapon, have you? Needless to say, I should be only too happy to help! I trust you remember the required astral and umbral nodules?",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_JOBREL101_02212_ARDASHIR_000_011",
+    "original": "Yes, well, I will need you to procure more of both. Syndony will doubtless be able to furnish you with a sufficiency, assuming her skills are as impressive as they seem. I do hope she is still where you last met. Perhaps you should speak with Mistress Rowena to know for certain. ",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_JOBREL101_02212_ROWENA_100_011",
+    "original": "Well if it isn\u0027t my favorite adventurer. How\u0027s that anima weapon comin\u0027 along?",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_JOBREL101_02212_ROWENA_100_012",
+    "original": "Astral and umbral nodules? Hmmm, might be as Syndony will have what you\u0027re after.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_JOBREL101_02212_ROWENA_100_013",
+    "original": "She\u0027s a jeweler by trade, but her work with crystals is somethin\u0027 to behold, let me tell you. They say she can strip \u0027em of elements, charge \u0027em with new ones, even make \u0027em out o\u0027 thin air, if you can believe such a thing. Can\u0027t vouch for the rumors myself, but her profits say plenty.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_JOBREL101_02212_ROWENA_100_014",
+    "original": "She can be a bit picky about clients, but you bein\u0027 the Warrior o\u0027 Light and all, I\u0027m sure your sparklin\u0027 reputation will catch her eye like the crystals she\u0027s so fond of.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_JOBREL101_02212_ROWENA_100_015",
+    "original": "If you go upstairs, you\u0027ll find her out on the terrace.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_JOBREL101_02212_ROWENA_100_016",
+    "original": "Ah, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. What brings you to the House o\u0027 Splendors?",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_JOBREL101_02212_ROWENA_100_017",
+    "original": "Nodules for another anima weapon? You\u0027ll be wantin\u0027 to speak with Syndony, then. You can find her on the terrace upstairs.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_JOBREL101_02212_SYNDONY_000_020",
+    "original": "Ah, the Warrior of Light. What a pleasant surprise. No need to be alarmed, my dear. It is my business to know all of Eorzea\u0027s treasures, be they material or mortal. But tell me, to what do I owe the pleasure?",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_JOBREL101_02212_SYNDONY_000_021",
+    "original": "...Astral and umbral nodules? My, my... I see you are a \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E of unusual tastes. Might I ask what you plan to do with such curious crystals?",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_JOBREL101_02212_SYNDONY_000_022",
+    "original": "An essence akin to the soul. I suppose such peculiar work would call for crystals as equally peculiar. Well, you were wise to seek me out. I\u0027ve dedicated my life to the study of crystals, and I cannot bear the thought of knowing there are crystals I could not procure.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_JOBREL101_02212_SYNDONY_000_023",
+    "original": "Mind you, these are no mere baubles or trinkets you ask of me. Crystals of such purity are not easily come by, but to also be so rich in astral- and umbral\u003Chex:021F0103\u003Easpected energies...",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_JOBREL101_02212_SYNDONY_100_023",
+    "original": "Still, with the proper materials I believe it can be done. It will require a great deal of aether, obviously, and of a specific persuasion.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_JOBREL101_02212_SYNDONY_000_024",
+    "original": "I am informed that when a man falls in battle, a residual energy hangs in the aether long after his spirit has returned to the Lifestream. This energy can infuse crystals in the vicinity with a purity not often seen in nature. A purity essential for what you desire.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_JOBREL101_02212_SYNDONY_000_025",
+    "original": "I can use these crystals, luminous crystals I call them, to imbue empty ones with the astral and umbral energies necessary to create what you seek. But I will require one crystal of every element. ",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_JOBREL101_02212_SYNDONY_100_025",
+    "original": "They will not be easy to come by, of that I can assure you. You will likely have to scour every ilm of Eorzea to find them.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_JOBREL101_02212_SYNDONY_000_026",
+    "original": "...However, there may be one other way to acquire the aether we need. It requires something of the rarer sort\u2500something much more precious than luminous crystals.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_JOBREL101_02212_SYNDONY_000_027",
+    "original": "As I mentioned before, it is my business to know all of Eorzea\u0027s treasures. And if the rumors are true, there exist certain weapons of legend said to have supped on the souls of countless enemies.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_JOBREL101_02212_SYNDONY_100_027",
+    "original": "In fact, a certain great hero who wields one of these weapons is supposedly working with a young researcher somewhere beyond the Sea of Clouds. Though this is only what I have heard. I will not hold you to ransom on the strength of mere hearsay.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_JOBREL101_02212_SYNDONY_000_028",
+    "original": "Even so, the rumors of these weapons are not so easily dismissed. Embodiments of war, veritable reservoirs of soul energy...",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_JOBREL101_02212_SYNDONY_100_028",
+    "original": "If you were in possession of such a weapon, creating these astral and umbral nodules would be as child\u0027s play.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_JOBREL101_02212_SYNDONY_100_029",
+    "original": "Or you could simply collect the requisite luminous crystals. I will assist you all the same.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_JOBREL101_02212_SYNDONY_200_029",
+    "original": "I leave the choice in your \u003Chex:021A020203\u003Efamously\u003Chex:021A020103\u003E capable hands.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_JOBREL101_02212_SYNDONY_000_030",
+    "original": "The Warrior of Light. A welcome sight, shining brightly as always. What can I do for you today?",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_JOBREL101_02212_SYNDONY_000_031",
+    "original": "Astral and umbral nodules \u003Chex:021A020203\u003Eagain\u003Chex:021A020103\u003E? I take it you put the others to good use, then.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_JOBREL101_02212_SYNDONY_000_032",
+    "original": "Well, far be it from me to turn away a fellow connoisseur of crystals. That is, of course, assuming you have what is required to make them. I would have either a Zodiac Weapon or a complete set of luminous crystals from you.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_JOBREL101_02212_SYNDONY_100_033",
+    "original": "In any case, I very much look forward to working with you.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_JOBREL101_02212_SYSTEM_000_100",
+    "original": "Players who possess a Zodiac Weapon Zeta may exchange it for both the astral and umbral nodules. Excalibur Zeta must be exchanged together with the Aegis Shield Zeta. Please note, however, that the Zodiac Weapon Zeta will be lost upon completing the exchange.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_JOBREL101_02212_SYSTEM_100_100",
+    "original": "Alternatively, players may acquire the astral and umbral nodules in exchange for elementally aspected luminous crystals. These crystals may be obtained, albeit at a low probability, by participating in FATEs in certain areas.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_JOBREL101_02212_SYSTEM_000_102",
+    "original": "Luminous wind crystals may be obtained from FATEs in the Sea of Clouds.\u003Chex:02100103\u003ELuminous fire crystals may be obtained from FATEs in Azys Lla.\u003Chex:02100103\u003ELuminous lightning crystals may be obtained from FATEs in the Churning Mists.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_JOBREL101_02212_SYSTEM_000_103",
+    "original": "Luminous ice crystals may be obtained from FATEs in the Coerthas western highlands.\u003Chex:02100103\u003ELuminous earth crystals may be obtained from FATEs in the Dravanian forelands.\u003Chex:02100103\u003ELuminous water crystals may be obtained from FATEs in the Dravanian hinterlands.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_JOBREL101_02212_SYSTEM_000_104",
+    "original": "Players will receive the astral nodule in exchange for a luminous wind, fire, and lightning crystal.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_JOBREL101_02212_SYSTEM_000_105",
+    "original": "Players will receive the umbral nodule in exchange for a luminous ice, earth, and water crystal.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_JOBREL101_02212_SYSTEM_000_106",
+    "original": "Luminous crystals may be obtained, albeit at a low probability, by participating in FATEs in the aforementioned regions with any Disciple of War or Magic, regardless of level.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_JOBREL101_02212_SYSTEM_100_107",
+    "original": "This information can be reviewed in your journal or by speaking with Syndony at any time.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_JOBREL101_02212_ARDASHIR_000_040",
+    "original": "Welcome back, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Were you able to acquire what we need?",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_JOBREL101_02212_ARDASHIR_000_041",
+    "original": "Yes, these appear to be genuine. I dare not ask what this cost you, but you have my sincerest thanks. As promised, the soulstone is ready. All that remains now is the aether infusion.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_JOBREL101_02212_ARDASHIR_000_042",
+    "original": "And if the weapon Gerolt has forged is strong enough to contain the resulting anima, we shall soon be the proud parents of a living weapon!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_JOBREL101_02212_ARDASHIR_000_043",
+    "original": "Now then, let us begin.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_JOBREL101_02212_ARDASHIR_000_044",
+    "original": "The aether has taken hold in the soulstone, but it will not last long.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_JOBREL101_02212_ARDASHIR_000_045",
+    "original": "Quickly, Gerolt\u2500seal it within the weapon before the aether fades!",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_JOBREL101_02212_GEROLT_000_046",
+    "original": "\u003Cpant\u003E \u003Cpant\u003E That... That should do it. That thing ain\u0027t goin\u0027 nowhere.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_JOBREL101_02212_GEROLT_000_047",
+    "original": "Now that there\u0027s a weapon worthy o\u0027 legends! Aye, an anima weapon: \u003Chex:02310CFF054974656D04E802020203\u003E. Wield it with pride, \u003Chex:02080EE905FF056C617373FF046C616403\u003E.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_JOBREL101_02212_GEROLT_000_048",
+    "original": "Now that there\u0027s a weapon worthy o\u0027 legends! Aye, an anima weapon: \u003Chex:02310CFF054974656D04E802020203\u003E, and its twin \u003Chex:02310CFF054974656D04E803020203\u003E. Wield \u0027em with pride, \u003Chex:02080EE905FF056C617373FF046C616403\u003E.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_JOBREL101_02212_GEROLT_000_049",
+    "original": "Though I wouldn\u0027t say \u003Chex:020833E4E94514FF117468657927726520636F6D706C657465FF1B7368652773207468652066696E69736865642061727469636C6503\u003E just yet. A weapon fresh from the forge is one thing, but if it\u0027s \u003Chex:021A020203\u003Elife\u003Chex:021A020103\u003E we\u0027re talkin\u0027 about, \u003Chex:02084AE4E94514FF2274686579277265206E617567687420627574207375636B6C696E27206261626573FF217368652773206E6175676874206275742061207375636B6C696E27206261626503\u003E. \u003Chex:02081BE4E94514FF0A546865792077616E74FF0A5368652077616E747303\u003E puttin\u0027 through \u003Chex:020811E4E94514FF067468656972FF0468657203\u003E paces and toughenin\u0027 up.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_JOBREL101_02212_GEROLT_000_050",
+    "original": "I could pound \u003Chex:02080FE4E94514FF0427656DFF0468657203\u003E with me hammer, o\u0027 course, but that ain\u0027t no substitute for real battle. If y\u0027ask me, ye need to get out there and teach that anima what it means to be a warrior.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_JOBREL101_02212_ARDASHIR_000_051",
+    "original": "Excuse me, Gerolt, but might I have a word with our friend here? It was, after all, my research that brought us this far.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_JOBREL101_02212_ARDASHIR_000_052",
+    "original": "Come, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, let us discuss the next step in developing the anima.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_JOBREL101_02212_SYSTEM_100_060",
+    "original": "The anima weapon quests may be repeated at any time. However, please note that you may only undertake these quests for one job at a time.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_JOBREL101_02212_SYSTEM_100_061",
+    "original": "If you wish to restart these quests as a different job, select \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EDuty\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E from the main menu, followed by \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EJournal\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E. Next, select the quest from within the interface, followed by \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EAbandon\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_JOBREL101_02212_SYSTEM_100_062",
+    "original": "Once you have abandoned the quest, you may change to your desired job and speak with Ardashir to start over.",
+    "translation": ""
+  }
+}

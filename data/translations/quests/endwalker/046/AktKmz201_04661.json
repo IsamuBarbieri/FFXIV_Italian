@@ -1,0 +1,922 @@
+{
+  "0": {
+    "tag": "TEXT_AKTKMZ201_04661_SEQ_00",
+    "original": "The Radiant scout is keeping a close eye on the sullen-eyed voidsent.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_AKTKMZ201_04661_SEQ_01",
+    "original": "You are conversing with the sullen-eyed voidsent at the Hall of the Radiant Host when the being suddenly senses the rest of itself in the city. As before, there are four of them all told, and as before, you are tasked with tracking them down and sending them back to rejoin themselves.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_AKTKMZ201_04661_SEQ_02",
+    "original": "You have located all four remaining wayward hecteyes, from whom you learn about the pasts of two mighty voidsent\u2500none other than your erstwhile foes, the archfiends Cagnazzo and Rubicante. With your task thus accomplished, you make your way back to the Hall of the Radiant Host.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_AKTKMZ201_04661_SEQ_03",
+    "original": "Having been reunited with all of its selves, the sullen-eyed voidsent is finally whole again. And thanks to its ability to see its kind from a great distance, it seems likely to find employment with the Radiant Host, thus allowing it to fulfill its dream of abiding in the Source. Voidsent were once people in the past, and they may yet have a future. As the creature sets a hopeful gaze upon the road ahead, you cannot help but wonder what lies in store for it.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_AKTKMZ201_04661_TODO_00",
+    "original": "Search for the wayward hecteyes.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_AKTKMZ201_04661_TODO_01",
+    "original": "Speak with the sullen-eyed voidsent.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_AKTKMZ201_04661_SCOUT04660_000_001",
+    "original": "Ah, if it isn\u0027t \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Since last we spoke, I have continued keeping an eye on the voidsent.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_AKTKMZ201_04661_SCOUT04660_000_002",
+    "original": "While the creatures have given me no reason to believe that they pose a danger, the rest of them remain at large.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_AKTKMZ201_04661_SCOUT04660_000_003",
+    "original": "My fellows and I have yet to come by any eyewitness information, but their forms being what they are, they cannot have gotten far. Of course, it would make our search easier if they were likewise drawn to Radz-at-Han...",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_000_004",
+    "original": "My other selves have been telling me about their adventures. Truly, your world is a fascinating place!",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_AKTKMZ201_04661_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_AKTKMZ201_04661_A1_000_001",
+    "original": "There\u0027s nothing like exploring a new city.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_AKTKMZ201_04661_A1_000_002",
+    "original": "Your world is fascinating too.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_000_005",
+    "original": "You\u0027ve seen a lot of this world, have you not? I wish to do the same, and travel to all sorts of places!",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_000_006",
+    "original": "Once I\u0027ve found the rest of me, that is... It would be unthinkable to leave even a sliver of myself out of the experience.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_000_007",
+    "original": "So you\u0027ve enjoyed hearing my tales? I would be glad to share more with you.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_000_008",
+    "original": "Once I\u0027ve found the rest of me, that is... The others have more knowledge of mighty voidsent, you see.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_000_009",
+    "original": "Hm? This sensation... Could it be...?",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_000_010",
+    "original": "Yes, I feel them! The rest of myself! They\u0027re very close now!",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_000_011",
+    "original": "There\u0027s four of them, and unless I\u0027m mistaken, they\u0027re somewhere in the city. Please find them for me, that I might be whole again!",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_000_012",
+    "original": "As before, by way of payment, they will tell you about powerful voidsent and their pasts.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_100_012",
+    "original": "Now, the nearest appears to be this way. Perhaps that\u0027s a good place to start.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_AKTKMZ201_04661_SCOUT04660_000_013",
+    "original": "The rest of its fellows have appeared in the city? Then you had best track them down!",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_AKTKMZ201_04661_SCOUT04660_100_013",
+    "original": "Judging by the direction, I expect the nearest one is in Dharma. I leave the creatures in your capable hands!",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_AKTKMZ201_04661_SCOUT04660_000_020",
+    "original": "Worry not, I will see to it that these ones do not wander off. Best of luck finding their fellows!",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_000_025",
+    "original": "The others will have seen some sights of their own. How I look forward to hearing their tales!",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_AKTKMZ201_04661_SYSTEM_000_100",
+    "original": "You have found the last of the voidsent. Time to head back to the Hall of the Radiant Host.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_101",
+    "original": "You\u0027ve been looking for me, you say? Sorry for the trouble. I found a place with beautiful water and thought I\u0027d have a rollick, but ended up being washed away...",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_102",
+    "original": "I tried to get back upstream, swimming against the flow, and had managed to come this far when you appeared.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_103",
+    "original": "After all that effort, I\u0027d like nothing more than to reunite with my other selves. But if you\u0027ve been promised a tale, then you shall have one!",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_AKTKMZ201_04661_FISHERA04661_000_104",
+    "original": "\u003Csigh\u003E Nothing but small fry...",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_105",
+    "original": "See that mortal there? He fished me up, but promptly released me while calling me a \u201Chideous slug.\u201D I don\u0027t know what that was about, but it worked out well enough.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_AKTKMZ201_04661_FISHERA04661_000_106",
+    "original": "Oh, to be out in the open sea and catch something \u003Chex:021A020203\u003Ebig\u003Chex:021A020103\u003E...",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_AKTKMZ201_04661_FISHERA04661_000_107",
+    "original": "But until I can afford a halfway decent rod, I\u0027ll just have to put up with this tired old fishing hole... \u003Csigh\u003E",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_108",
+    "original": "I know the feeling well. The desire to chase after big fish. I used to be a fisherman too, you see. Together with my brother.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_109",
+    "original": "But the Contramemoria wreaked havoc on the ocean\u0027s aether, and nary any fish remained to be caught. Each morning we would wake up not knowing whether we\u0027d have food to fill our bellies.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_110",
+    "original": "(-Wayward Hecteye-)On a day like so many before, we were waiting in vain for a bite. My brother\u0027s face was fixed in a grimace, and I assumed he was cursing the war in his mind. But it turned out he was thinking about something else altogether. And when he finally spoke, the frustration was plain in his voice.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_111",
+    "original": "(-Wayward Hecteye-)\u201CEven if there were fish to catch, is this how I\u0027m going to live out my days? Sitting endlessly with a pole in hand? It\u0027s like dying a slow death, and I can\u0027t take it anymore.\u201D",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_112",
+    "original": "(-Wayward Hecteye-)More so than our privation, it was the mundane, unchanging nature of our lives that bothered him.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_113",
+    "original": "(-Wayward Hecteye-)In the next instant he blurted out, \u201CThat\u0027s it\u2500if there\u0027s a war, I\u0027m going to fight too! That way I won\u0027t be bored, at least!\u201D",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_100_113",
+    "original": "(-Wayward Hecteye-)And just like that, he threw aside his rod and set off. Right into the thick of the conflict...",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_AKTKMZ201_04661_MEMORIAMASTERA04661_000_114",
+    "original": "D-Damn it!",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_AKTKMZ201_04661_MEMORIAMASTERB04661_000_115",
+    "original": "It\u0027s over!",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_AKTKMZ201_04661_MEMORIAMASTERB04661_000_116",
+    "original": "Ungh... Wh-Who the hells are you!?",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_AKTKMZ201_04661_MEMORIAMASTERA04661_000_117",
+    "original": "Whoever you are, I\u0027m in your debt. Having exhausted my powers, I was all but defeated, but now none remain to oppose me here.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_AKTKMZ201_04661_MEMORIAMASTERA04661_000_118",
+    "original": "Perhaps you would consider serving me? You would be well rewarded, of course. I could grant you riches, castles...",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_AKTKMZ201_04661_MEMORIAMASTERA04661_000_119",
+    "original": "Wh-What\u0027s the meaning of this!? Weren\u0027t you a friend!?",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_AKTKMZ201_04661_WATERMONOLITH_000_120",
+    "original": "\u003Chex:021A020203\u003EFriend\u003Chex:021A020103\u003E? I\u0027m just after some excitement. So come on, give it to me!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_AKTKMZ201_04661_FISHERB04661_000_121",
+    "original": "There you are, thank heavens! What were you thinking, taking on memoriates with your bare fists? However strong you may be, you\u0027re lucky to be alive!",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_AKTKMZ201_04661_WATERMONOLITH_000_122",
+    "original": "Alive...",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_AKTKMZ201_04661_WATERMONOLITH_000_123",
+    "original": "Yes, I\u0027ve never felt so...\u003Chex:021A020203\u003Ealive\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_AKTKMZ201_04661_FISHERB04661_000_124",
+    "original": "Wh-Where are you going?",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_AKTKMZ201_04661_WATERMONOLITH_000_125",
+    "original": "No more chasing small fry for me. From now on, I\u0027m going to live for the thrill of battle.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_AKTKMZ201_04661_WATERMONOLITH_000_126",
+    "original": "I\u0027ll seek out those stronger than me, and I\u0027ll give \u0027em all a taste of my fist!",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_127",
+    "original": "(-Wayward Hecteye-)\u201CNever have I felt so alive as I did, risking life and limb,\u201D he said as he strode away, never to return.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_128",
+    "original": "(-Wayward Hecteye-)Some time afterwards, a rumor reached me of a fearsome warrior. The man would arrive unannounced on a battlefield, trounce anyone and everyone indiscriminately, before disappearing again.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_129",
+    "original": "(-Wayward Hecteye-)Cagnazzo, he was called, and cursed for a feral dog. That was enough for me to know that my brother still lived.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_130",
+    "original": "It was only when I became a voidsent that I came to understand my brother. To understand the emptiness he felt in his mundane life.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_131",
+    "original": "It inspired me to want to break free from my own unchanging existence, and instilled in me a longing for this world.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_100_131",
+    "original": "And for all his quirks, he was a good and kind brother, always looking out for me and helping me with my fishing.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_132",
+    "original": "Like everyone, he must have turned into a voidsent. If he had the chance to come here, I believe he would\u0027ve found a purpose in life. A proper one.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_133",
+    "original": "Hehe, thanks to you, I could relive those old memories. And with that, I had best go and join my other selves. Be seeing you!",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_134",
+    "original": "Hm? What business does a mortal have with me?",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_135",
+    "original": "So the rest of me are safe!? Thank goodness... It was worth risking myself to let the others escape.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_136",
+    "original": "No sooner had we arrived in this world than we were attacked by fearsome creatures of stone. I drew their attention, and after scrambling hither and yon, managed to get myself to safety.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_137",
+    "original": "But to so jealously guard treasure, you mortals must truly be fond of it. Lo\u2500there\u0027s another place for storing it right there.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_AKTKMZ201_04661_SHIRAZADE_000_138",
+    "original": "They say it\u0027s mountain after mountain of treasure in there. We just need to find the coffers that act as portals.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_AKTKMZ201_04661_ADVENTURERA04661_000_139",
+    "original": "And then survive the guardians and deadly fiends... I don\u0027t like our chances with just the three of us.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_AKTKMZ201_04661_ADVENTURERB04661_000_140",
+    "original": "Less of us means a bigger share for each!",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_AKTKMZ201_04661_SHIRAZADE_000_141",
+    "original": "Exactly. Besides, what\u0027s an adventure without a little danger?",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_AKTKMZ201_04661_ADVENTURERA04661_000_142",
+    "original": "Hmmm... I\u0027m really not sure about this...",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_143",
+    "original": "To willingly throw oneself into danger... It\u0027s truly a strange mortal quirk. Unlike your kind, we voidsent are quite risk averse. For instance, we wouldn\u0027t think to challenge a stronger being.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_144",
+    "original": "Except for \u003Chex:021A020203\u003Ehim\u003Chex:021A020103\u003E, perhaps. An odd fellow who loved fighting for its own sake...",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_145",
+    "original": "His name was Cagnazzo, and there was nothing he feared in his domain.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_146",
+    "original": "Employing deception, he trapped his foes and drowned them in a bottomless mire. It mattered not how strong they were. All fell before him.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_147",
+    "original": "Yet despite his victories, he never felt truly satisfied. And through a chance meeting, he would learn the reason why.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_AKTKMZ201_04661_WATERMONOLITH_000_148",
+    "original": "That you should repel my attack... You\u0027re tougher than I expected!",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_AKTKMZ201_04661_BLACKKNIGHT_000_149",
+    "original": "(-Knight in Black-)To whom do I speak?",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_AKTKMZ201_04661_WATERMONOLITH_000_150",
+    "original": "I am Cagnazzo! And I\u0027ll bet you\u0027re the one they say is seeking out the strong. Well, if it\u0027s battle you want, then you need look no further!",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_AKTKMZ201_04661_BLACKKNIGHT_000_151",
+    "original": "(-Knight in Black-)Lest you misunderstand, I do not desire fruitless battle. On the contrary, \u0027twould seem that it is you who seek out the strong. Why?",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_AKTKMZ201_04661_WATERMONOLITH_000_152",
+    "original": "When you\u0027re hungry, you devour. It doesn\u0027t matter who. Your luck ran out when you strolled into my domain!",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_AKTKMZ201_04661_BLACKKNIGHT_000_153",
+    "original": "(-Knight in Black-)None would so risk themselves simply because of an empty stomach. Nay, my friend. The source of your hunger lies elsewhere.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_AKTKMZ201_04661_WATERMONOLITH_000_154",
+    "original": "Wh-What is this aether, so pure and sublime!? There\u0027s so much of it I\u0027m ripe to burst! And yet...",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_AKTKMZ201_04661_WATERMONOLITH_000_155",
+    "original": "I still don\u0027t feel satisfied...",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_AKTKMZ201_04661_BLACKKNIGHT_000_156",
+    "original": "(-Knight in Black-)Do you see? \u0027Tis not for aether that you thirst, but battle.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_AKTKMZ201_04661_BLACKKNIGHT_000_157",
+    "original": "(-Knight in Black-)You\u0027ll not quench this thirst with stagnant swamp water. Nay, naught save that of a raging torrent will sate you!",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_AKTKMZ201_04661_WATERMONOLITH_000_158",
+    "original": "What do you mean?",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_AKTKMZ201_04661_BLACKKNIGHT_000_159",
+    "original": "(-Knight in Black-)There is no joy to be had in ensnaring your quarry. For victory to have savor, you must place yourself in the midst of danger.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_AKTKMZ201_04661_BLACKKNIGHT_000_160",
+    "original": "(-Knight in Black-)If you join me, I shall see to it you never want for dread foes to grant you satisfaction. What say you?",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_AKTKMZ201_04661_WATERMONOLITH_000_161",
+    "original": "Heh, why do I feel as though I\u0027ve remembered something important? Whoever you are, I would know more.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_162",
+    "original": "And thus did he find a place to belong\u2500upon the fine line that divides the devourer and the devoured.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_163",
+    "original": "If he could do battle with just one worthy foe, he told himself, he could go to his rest forever satisfied.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_164",
+    "original": "From that day forth, Cagnazzo tirelessly sought out those who might be able to best him. Each time hoping for bliss, but knowing that, like as not, disappointment ultimately awaited.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_165",
+    "original": "A yearning so strong, nothing else matters... Do you have such a thing driving you too, mortal?",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_166",
+    "original": "Looking back, it was extremely reckless of me to come to this world. But it has been worth every bit of danger and more.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_167",
+    "original": "Ahhh, I can\u0027t wait to share my experiences with myself! I\u0027ll be on my way now\u2500thanks for coming to find me!",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_168",
+    "original": "The rest of me are here too? What a relief! I was taking in the sights in a village nearby when I realized I had become separated...",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_169",
+    "original": "I\u0027m glad I decided to follow the clamor and head to this city. There are so many mortals here, so many beautiful buildings!",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_AKTKMZ201_04661_BOY04661_000_170",
+    "original": "Father, what is this building?",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_AKTKMZ201_04661_DAD04661_000_171",
+    "original": "This, my boy, is the resting place of the great Alzadaal.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_AKTKMZ201_04661_DAD04661_000_172",
+    "original": "Centuries ago, he journeyed here from the mainland, and helped to end the war between the Matanga tribes\u2500an act which laid the foundation for the nation of Radz-at-Han.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_AKTKMZ201_04661_BOY04661_000_173",
+    "original": "So it\u0027s thanks to him that we all get along!",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_174",
+    "original": "Ah, a tomb. A place for mortals to remember their dead. It calls to mind people from my own past...",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_175",
+    "original": "My mother, who died in the Contramemoria. And the ones who laid her to rest...",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_176",
+    "original": "(-Wayward Hecteye-)Long, long ago, there lived two powerful mages.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_177",
+    "original": "(-Wayward Hecteye-)It was said that none could match their might, yet they nevertheless continued to hone their skills at their training ground, atop a peak called Mount Ordeals.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_178",
+    "original": "(-Wayward Hecteye-)One day, fell fiends began attacking villages unprovoked. Upon hearing the grim tidings, the mages came to a resolution.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_179",
+    "original": "(-Wayward Hecteye-)\u201CThrough years of training, we have mastered our flames. \u0027Tis time for us to employ them for the salvation of the world.\u201D",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_180",
+    "original": "(-Wayward Hecteye-)So it was that the pair descended the mountain, and set about vanquishing the fiends.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_AKTKMZ201_04661_FIREMONOLITH_000_181",
+    "original": "Just that one left!",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_AKTKMZ201_04661_MAGE04661_000_182",
+    "original": "Leave it to me!",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_AKTKMZ201_04661_GIRL04661_000_183",
+    "original": "(-Frightened Girl-)No! Don\u0027t!",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_AKTKMZ201_04661_GIRL04661_000_184",
+    "original": "Please don\u0027t hurt her! Don\u0027t hurt my mother!",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_AKTKMZ201_04661_MAGE04661_000_185",
+    "original": "Y-Your mother?",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_AKTKMZ201_04661_MAGE04661_000_186",
+    "original": "Arrrgh!",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_AKTKMZ201_04661_GIRL04661_000_187",
+    "original": "Please save her! I beg you!",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_AKTKMZ201_04661_FIREMONOLITH_000_188",
+    "original": "Grrr... What do I do!?",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_AKTKMZ201_04661_FIREMONOLITH_000_189",
+    "original": "It seems I have no choice...",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_AKTKMZ201_04661_GIRL04661_000_190",
+    "original": "What? She\u0027s...she\u0027s turned into a crystal!",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_AKTKMZ201_04661_FIREMONOLITH_000_191",
+    "original": "I said that I would save the world...but I couldn\u0027t save even a single life!",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_AKTKMZ201_04661_FIREMONOLITH_000_192",
+    "original": "My flames were meant to be like the sun... They were meant to protect\u2500to keep warm and light the way... And yet...and yet\u2500!",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_193",
+    "original": "(-Wayward Hecteye-)In his great fury at his failings, the mage\u0027s face turned red as a ruby. Thus did the girl choose to call him Rubicante.",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_194",
+    "original": "(-Wayward Hecteye-)The mage returned to his mountain, where he buried his comrade. Upon the gravestone he etched words of admonishment, and continued his training alone.",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_195",
+    "original": "(-Wayward Hecteye-)One day, when visiting his comrade\u0027s grave, he found that a familiar crystal had been left there.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_196",
+    "original": "(-Wayward Hecteye-)Its presence lifted a great weight off his chest. Without words, it told him that that girl was grateful for what he did.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_197",
+    "original": "(-Wayward Hecteye-)That day, he regained something he had lost. And descending the mountain once more, he embarked upon a journey, determined to use his powers for good.",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_198",
+    "original": "As sad as it is to lose a precious life, it\u0027s sadder still, I think, to lose one\u0027s purpose.",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_199",
+    "original": "Mount Ordeals has been swallowed up by Darkness, and his comrade\u0027s grave with it. But wherever Rubicante may be, I like to believe that the little girl still remains in his heart...",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_200",
+    "original": "Well, it\u0027s past time I rejoined the others. It was nice talking to you, mortal!",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_201",
+    "original": "...What? I\u0027m calling me, you say? I can appreciate my separation anxiety, but I answer to no one\u2500not even myself.",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_202",
+    "original": "I am my own master. I do what I like, when I like. I will rejoin the others at my own leisurely pace.",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_203",
+    "original": "Mortals, on the other hand, always seem to be busy at work. Short as your lives are, one would think you\u0027d spend more time on leisure. You\u0027re truly strange creatures.",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_AKTKMZ201_04661_ALCHEMIST04661_000_204",
+    "original": "Still burning strong, just like the start of the experiment...",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_AKTKMZ201_04661_ALCHEMIST04661_000_205",
+    "original": "Ugh, by the Sisters, but tending the flame is mind-numbing work. Someone has to do it, I suppose, but I just wish it wasn\u0027t me...",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_206",
+    "original": "Tending the flame... That reminds me of a voidsent I once knew.",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_207",
+    "original": "He watched over a beacon fire, seeing to it that it remained ever lit. Unlike that mortal, however, he did it of his own volition.",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_208",
+    "original": "Such an act served no practical purpose in our world\u2500even if night and day existed, we voidsent don\u0027t rely upon light. Yet he persisted.",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_209",
+    "original": "Though perplexed by his curious ritual, I somehow found myself helping him with it...",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_210",
+    "original": "Rubicante was his name, and he went about his task dutifully.",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_211",
+    "original": "Others mocked him for his meaningless act.",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_212",
+    "original": "But it must have held some manner of meaning to him. And so, when I chanced to find the beacon guttered out, I made certain to let him know.",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_213",
+    "original": "For time out of mind this routine continued uninterrupted. Until that fateful day...",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_AKTKMZ201_04661_BLACKKNIGHT_000_214",
+    "original": "(-Knight in Black-)I see flames dancing in the distance; who should I find tending it but a mage of considerable might. With such power, surely you can do more than keep a beacon lit?",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_AKTKMZ201_04661_FIREMONOLITH_000_215",
+    "original": "My flames serve not to smite others nor to sate my hunger.",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_AKTKMZ201_04661_BLACKKNIGHT_000_216",
+    "original": "(-Knight in Black-)Then what purpose do they serve?",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_AKTKMZ201_04661_FIREMONOLITH_000_217",
+    "original": "I cannot say for certain...but to simply behold this flame somehow sets my heart at ease.",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_AKTKMZ201_04661_BLACKKNIGHT_000_218",
+    "original": "(-Knight in Black-)I see... \u0027Twould seem you lack the power to comprehend the feelings engraved upon your soul.",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_AKTKMZ201_04661_BLACKKNIGHT_000_219",
+    "original": "(-Knight in Black-)But such a lack is readily rectified.",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_AKTKMZ201_04661_FIREMONOLITH_000_220",
+    "original": "This warmth, invigorating and comforting... Where have I felt it before?",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_AKTKMZ201_04661_FIREMONOLITH_000_221",
+    "original": "Of course\u2500the sun! That which once shone its light upon creation!",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_AKTKMZ201_04661_FIREMONOLITH_000_222",
+    "original": "Though it would set, never did it fail to rise again. And like the sun, my flames must never die!",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_AKTKMZ201_04661_BLACKKNIGHT_000_223",
+    "original": "(-Knight in Black-)So that is the way of it. Through your flames, you sought to recreate the sun\u0027s journey. To recreate the world as it was before.",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_AKTKMZ201_04661_FIREMONOLITH_000_224",
+    "original": "Who are you, who could unearth memories buried in the deepest recesses of my heart?",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_AKTKMZ201_04661_BLACKKNIGHT_000_225",
+    "original": "(-Knight in Black-)It matters not who I am, but what I seek to do. Join me, and together we shall banish the Darkness and see that the sun rises again.",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_226",
+    "original": "According to the mysterious knight, the price to save the world was dear: the inhabitants of the neighboring reality must be sacrificed. To which Rubicante replied...",
+    "translation": ""
+  },
+  "197": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_227",
+    "original": "\u201CI have sworn to use my power to save the world. If innocent souls must be consumed by my flames, then I shall bear responsibility for the sin.\u201D",
+    "translation": ""
+  },
+  "198": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_228",
+    "original": "Thus did he choose his path\u2500of his own volition. And his spirit lives on in me, as an undying flame.",
+    "translation": ""
+  },
+  "199": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_229",
+    "original": "A world engulfed in Darkness had become the norm for me. But since coming here and basking in the sun, I\u0027ve been reminded of all that we had lost.",
+    "translation": ""
+  },
+  "200": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_230",
+    "original": "I understand Rubicante better now. Understand why he was willing to sacrifice all to restore the world to the way it was. To him, it was worth the price.",
+    "translation": ""
+  },
+  "201": {
+    "tag": "TEXT_AKTKMZ201_04661_VOIDSENT04660_000_231",
+    "original": "...Well, I must say, it felt great to take a squirm down memory lane. With that, I shall now rejoin the others\u2500of my own volition, of course!",
+    "translation": ""
+  },
+  "202": {
+    "tag": "TEXT_AKTKMZ201_04661_SCOUT04660_000_235",
+    "original": "One, two, three... Um, is this all of them, then?",
+    "translation": ""
+  },
+  "203": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_000_300",
+    "original": "You did it! You found all of me!",
+    "translation": ""
+  },
+  "204": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_000_301",
+    "original": "I trust I upheld my part of the bargain, and told you about more mighty voidsent?",
+    "translation": ""
+  },
+  "205": {
+    "tag": "TEXT_AKTKMZ201_04661_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "206": {
+    "tag": "TEXT_AKTKMZ201_04661_A2_000_001",
+    "original": "I learned about the pasts of Cagnazzo and Rubicante.",
+    "translation": ""
+  },
+  "207": {
+    "tag": "TEXT_AKTKMZ201_04661_A2_000_002",
+    "original": "Those voidsent fought fiercely, but they\u0027ll fight no more.",
+    "translation": ""
+  },
+  "208": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_000_303",
+    "original": "So you had already crossed paths with them... Though the tales may not help you in the battles ahead, I daresay they gave you something to think upon.",
+    "translation": ""
+  },
+  "209": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_000_304",
+    "original": "As mortals, then voidsent, then archfiends, these troubled souls fought with all their being. And now their fight is over...",
+    "translation": ""
+  },
+  "210": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_000_305",
+    "original": "Well, I myself have only heard the tales from the others. If I\u0027m to make their feelings my own, I need to become whole again. Which I can now do, thanks to you.",
+    "translation": ""
+  },
+  "211": {
+    "tag": "TEXT_AKTKMZ201_04661_SCOUT04660_000_306",
+    "original": "So all of them are accounted for? Then by all means, let\u0027s have them return to the way they were.",
+    "translation": ""
+  },
+  "212": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_000_307",
+    "original": "Without further ado, then! To me, my selves!",
+    "translation": ""
+  },
+  "213": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_000_308",
+    "original": "At last, we\u0027re whole again! There\u0027s nothing we need fear!",
+    "translation": ""
+  },
+  "214": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_000_309",
+    "original": "And that which each of us experienced since coming here... It\u0027s as if I had experienced it all for myself!",
+    "translation": ""
+  },
+  "215": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_000_310",
+    "original": "I say it again, but this world is truly a fascinating place! I must see more of it. Yes, I must!",
+    "translation": ""
+  },
+  "216": {
+    "tag": "TEXT_AKTKMZ201_04661_SCOUT04660_000_311",
+    "original": "I\u0027m not sure what I was expecting...but now that it\u0027s whole, I can\u0027t help but feel that it\u0027s more of a danger.",
+    "translation": ""
+  },
+  "217": {
+    "tag": "TEXT_AKTKMZ201_04661_SCOUT04660_000_312",
+    "original": "Yet with the undersea portal destroyed, there\u0027s no way to return it whence it came. Whatever should we do now...?",
+    "translation": ""
+  },
+  "218": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_000_313",
+    "original": "Hm? What\u0027s this I see?",
+    "translation": ""
+  },
+  "219": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_000_314",
+    "original": "Oh, it\u0027s voidsent. There\u0027s a few of them in that direction. More of my brethren made it over, it seems. Curious, though\u2500this is much farther than I can usually perceive...",
+    "translation": ""
+  },
+  "220": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_000_315",
+    "original": "I can only assume my vision has improved. Could this be the accumulative effect of our experiences here...?",
+    "translation": ""
+  },
+  "221": {
+    "tag": "TEXT_AKTKMZ201_04661_SCOUT04660_000_316",
+    "original": "What? It can sense its kind from a vast distance?",
+    "translation": ""
+  },
+  "222": {
+    "tag": "TEXT_AKTKMZ201_04661_SCOUT04660_000_317",
+    "original": "Amazing! Such an ability would make the task of tracking down invading voidsent a breeze!",
+    "translation": ""
+  },
+  "223": {
+    "tag": "TEXT_AKTKMZ201_04661_SCOUT04660_000_318",
+    "original": "If the creature would agree to assist us in this manner, I\u0027m confident that I can convince my superiors to forge a pact with it!",
+    "translation": ""
+  },
+  "224": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_000_319",
+    "original": "Oho! If it means I can remain in this world, then I\u0027d gladly agree to that arrangement!",
+    "translation": ""
+  },
+  "225": {
+    "tag": "TEXT_AKTKMZ201_04661_HECTEYES_000_320",
+    "original": "I can\u0027t say how much I\u0027m indebted to you, mortal. Working with this fellow here, I\u0027ll find a way to communicate with your kind and make myself useful. Thank you for everything!",
+    "translation": ""
+  }
+}

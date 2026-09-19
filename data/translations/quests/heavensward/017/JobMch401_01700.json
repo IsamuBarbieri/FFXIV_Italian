@@ -1,0 +1,517 @@
+{
+  "0": {
+    "tag": "TEXT_JOBMCH401_01700_SEQ_00",
+    "original": "Stephanivien is once more irked by Rostnsthal\u0027s absence.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_JOBMCH401_01700_SEQ_01",
+    "original": "Stephanivien informs you that all is in readiness for the impending battle at Skyfire Locks. All, that is, except for the presence of the manufactory\u0027s oft-absent master of marksmanship. Head out into Foundation, and search for Rostnsthal.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_JOBMCH401_01700_SEQ_02",
+    "original": "You find Rostnsthal not far from the workshop, standing over the defeated form of some unfamiliar ruffian. The instructor claims that he caught the man creeping about nearby, looking to cause mischief for the manufactory. Search for similar troublemakers within Foundation, and scare them off using your Slug Shot skill.\u003Chex:02100103\u003E\u003Chex:02100103\u003EWhen Slug Shot is unavailable, Heated Slug Shot may be used instead.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_JOBMCH401_01700_SEQ_03",
+    "original": "You have scoured the streets of Foundation, and frightened away several other suspicious individuals. Their parting words, however, did not paint a favorable picture of the machinists\u0027 master of marksmanship. Return to the Skysteel Manufactory and speak with Stephanivien.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_JOBMCH401_01700_SEQ_04",
+    "original": "You report your encounters to Stephanivien, and the chief machinist reasons that the appalling rumors and intimidating acts have been initiated by some unprincipled rival of the manufactory. To Stephanivien and Joye\u0027s surprise, however, Rostnsthal admits that much of the gossip concerning his reputation is likely true. Though yet reeling at Rostnsthal\u0027s matter-of-fact confessions, the machinists must nevertheless finalize their preparations for battle. Meet Stephanivien at Skyfire Locks in the Coerthas central highlands.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_JOBMCH401_01700_SEQ_05",
+    "original": "You and your fellow machinists have successfully defended Skyfire Locks. Speak with Stephanivien and discuss the aftermath of the battle.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_JOBMCH401_01700_SEQ_06",
+    "original": "Your victory over the dragons appears to have at last won Count Baurendouin de Haillenarte\u0027s grudging respect. Speak with Stephanivien once more.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_JOBMCH401_01700_SEQ_07",
+    "original": "Stephanivien is eager to prove his profession to a wider audience, and accepts Lord Tedalgrinche\u0027s mocking challenge to enter his machinists in the upcoming tourney. Return to the Skysteel Manufactory and speak with Stephanivien.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_JOBMCH401_01700_SEQ_08",
+    "original": "The chief machinist has confided in you his misgivings concerning House Haillenarte\u0027s participation in the coming contest. Though your triumph over the Dravanians was a valuable experience, it may not be enough to prepare the machinists for group combat against battle-hardened knights. Concentrate on your training, and help transform your slim chance at victory into a certainty.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe next machinist quest will be available from Stephanivien upon reaching level 45.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_JOBMCH401_01700_TODO_00",
+    "original": "Search for Rostnsthal.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_JOBMCH401_01700_TODO_01",
+    "original": "Use Slug Shot to scare off troublemakers.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_JOBMCH401_01700_TODO_02",
+    "original": "Speak with Stephanivien.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_JOBMCH401_01700_TODO_03",
+    "original": "Speak with Stephanivien at Skyfire Locks.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_JOBMCH401_01700_TODO_04",
+    "original": "Speak with Stephanivien.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_JOBMCH401_01700_TODO_05",
+    "original": "Speak with Stephanivien once more.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_JOBMCH401_01700_TODO_06",
+    "original": "Speak with Stephanivien at the Skysteel Manufactory.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_000",
+    "original": "Well, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, we are as ready as ready can be.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_0001",
+    "original": "...All except for our wayward instructor. Would you be so kind as to locate Rostnsthal, and inform him of the urgency of our situation? I imagine he is loitering in Foundation somewhere, making his unhurried way to the workshop.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_009",
+    "original": "This shall be the machinists\u0027 first engagement, and we need every finger on the trigger. See to your tasks, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_JOBMCH401_01700_ROSTNSTHAL_000_020",
+    "original": "Ah, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Look at this scrag I caught me creepin\u0027 about near the workshop. Up to no bloody good, I reckoned, so\u0027s I sat \u0027im down for a friendly chat.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_JOBMCH401_01700_ROSTNSTHAL_000_021",
+    "original": "...Hm? A dragon attack? An\u0027 the boss needs every \u0027and on deck, does \u0027e? Aye, I\u0027ll be right there...just as soon as I\u0027m done wringin\u0027 some answers from this ugly sod.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_JOBMCH401_01700_ROSTNSTHAL_000_022",
+    "original": "Ye know where there\u0027s one rat, there\u0027s always a dozen more. Might be best if ye took a quick look \u0027round yerself, an\u0027 deal with any troublemakers afore ye \u0027ead back. No need to murder anyone, mind\u2500the noise from a Slug Shot ought to scare \u0027em off.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_JOBMCH401_01700_SYSTEM_000_023",
+    "original": "Heated Slug Shot may be used in place of Slug Shot to proceed with this quest.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_JOBMCH401_01700_ROSTNSTHAL_000_029",
+    "original": "I\u0027d wager there\u0027s more\u0027n this one rat scurryin\u0027 about the place. If ye see any sneaky bastards makin\u0027 mischief, a Slug Shot ought to send \u0027em packin\u0027.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_JOBMCH401_01700_FUSHINA01700_000_030",
+    "original": "Ah! What in the seven hells! You could\u0027ve taken off a toe!",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_JOBMCH401_01700_FUSHINA01700_000_031",
+    "original": "...You\u0027re Rostnsthal\u0027s new pup, ain\u0027t you? If it\u0027s trouble you\u0027re lookin\u0027 for, then look no further than that backstabbin\u0027 Lominsan cur!",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_JOBMCH401_01700_FUSHINA01700_000_035",
+    "original": "Heh heh heh... Just one lick of flame ought to do it...",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_JOBMCH401_01700_FUSHINB01700_000_030",
+    "original": "How uncouth! But I suppose I should expect naught less from one of Rostnsthal\u0027s underlings\u2500you learned it from the vicious brute himself.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_JOBMCH401_01700_FUSHINB01700_000_031",
+    "original": "Heed my words! The Skysteel Manufactory plays haven to villains! For the safety of Ishgard\u0027s citizens, the manufactory must needs be shut down!",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_JOBMCH401_01700_FUSHINB01700_000_032",
+    "original": "Their Roegadyn instructor poses as the former commodore of the Knights of the Barracuda. This is a lie. In truth, he is a bloodthirsty pirate who murdered his entire crew.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_JOBMCH401_01700_FUSHINB01700_000_035",
+    "original": "For the safety of Ishgard\u0027s citizens, the Skysteel Manufactory must needs be shut down!",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_JOBMCH401_01700_FUSHINC01700_000_030",
+    "original": "...You ain\u0027t seen the last of me.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_JOBMCH401_01700_CELESTAUX_000_031",
+    "original": "Me thanks. The name\u0027s Celestaux\u2500one of your fellow machinists, if you didn\u0027t know. I was makin\u0027 preparations for our fight with Svara when that thug ambushed me.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_JOBMCH401_01700_CELESTAUX_000_032",
+    "original": "Don\u0027t bother chasin\u0027 him\u2500I doubt he knows more than what he was paid to do. But he did make it damn clear that someone out there has a grudge against our workshop.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_JOBMCH401_01700_CELESTAUX_000_033",
+    "original": "...Anyway, I ought to get back to me duties. We ain\u0027t never fought in a proper battle, let alone against a monster like Svara, an\u0027 we\u0027ll need all the advantages we can get.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_JOBMCH401_01700_FUSHINC01700_000_035",
+    "original": "You ain\u0027t goin\u0027 nowhere.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_JOBMCH401_01700_CELESTAUX_000_035",
+    "original": "Gods damn it...",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_JOBMCH401_01700_CELESTAUX_000_036",
+    "original": "Gods damn it...",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_JOBMCH401_01700_FUSHINC01700_000_036",
+    "original": "You ain\u0027t goin\u0027 nowhere.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_040",
+    "original": "Is everything aright? Rostnsthal tells me there are villains afoot, making trouble for the workshop.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_041",
+    "original": "...Intimidating my machinists, were they? Setting fires and spreading rumors? Joye, too, has overheard vile slander intended to defame our master of marksmanship.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_042",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_JOBMCH401_01700_JOYE_000_042",
+    "original": "(-Joye-)You took every care to choose the right employee, me lordship. We could do a lot worse than the former commodore of Limsa Lominsa\u0027s Barracudas.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_043",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_JOBMCH401_01700_JOYE_000_043",
+    "original": "(-Joye-)And now half of Ishgard thinks he\u0027s lyin\u0027\u2500that he\u0027s a convict of terrible crimes.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_044",
+    "original": "Does someone seek to harm the manufactory\u0027s standing with these attacks upon our instructor\u0027s character? I am sorry, Rostnsthal\u2500your association with the machinists has brought you naught but ridicule and insult...",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_JOBMCH401_01700_ROSTNSTHAL_000_045",
+    "original": "(-Rostnsthal-)Bah, don\u0027t blame yerself, boss. After all, more\u0027n \u0027alf that stuff\u0027s probably true.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_JOBMCH401_01700_ROSTNSTHAL_000_046",
+    "original": "(-Rostnsthal-)Aye, I was the commodore o\u0027 the \u0027Cudas...right up until I got kicked out on me arse for makin\u0027 a bloody mess o\u0027 things. That\u0027s why ye found me in Camp Overlook\u2500I was there to visit one o\u0027 me old underlings.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_JOBMCH401_01700_ROSTNSTHAL_000_047",
+    "original": "(-Rostnsthal-)\u0027Course, \u0027e\u0027d rather take another axe to the face afore \u0027e\u0027d talk to me. Me mistakes cost some more\u0027n others, an\u0027 there\u0027s no bastard in La Noscea as\u0027d call me friend.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_JOBMCH401_01700_ROSTNSTHAL_000_049",
+    "original": "(-Rostnsthal-)Yer mysterious rival must\u0027ve learned o\u0027 me tarnished past, \u0027cause they offered a fortune for me to accept the job as yer master o\u0027 marksmanship.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_JOBMCH401_01700_ROSTNSTHAL_000_050",
+    "original": "(-Rostnsthal-)I s\u0027pose they thought the workshop\u0027d be ruined once the truth behind me charmin\u0027 reputation became common knowledge.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_JOBMCH401_01700_ROSTNSTHAL_000_051",
+    "original": "(-Rostnsthal-)But as it turns out, I don\u0027t take kindly to bein\u0027 some faceless bastard\u0027s puppet. So I took their coin\u2500an\u0027 yers\u2500an\u0027 made for the \u0027ills. I \u0027ad no intention of fulfillin\u0027 me contract...not until yer \u0027venturer \u0027ere went an\u0027 got me fired up about teachin\u0027 in truth.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_JOBMCH401_01700_ROSTNSTHAL_000_052",
+    "original": "(-Rostnsthal-)That said, there ain\u0027t naught in me agreement that says I gotta fight bleedin\u0027 dragons. An\u0027 me students\u0027ll give a better showin\u0027 without me there growlin\u0027 over their shoulders, anyroad.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_053",
+    "original": "Though his support will be missed, Rostnsthal is mayhap correct in his assumption\u2500our demonstration will be all the more impressive for his absence. Let us check our weapons one last time, and assemble at Skyfire Locks.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_060",
+    "original": "Allow me to brief you on our defensive strategy ere the dragon and its minions arrive.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_061",
+    "original": "Atop each of the three locks, we have placed a dragon-slaying cannon. Our task as machinists shall be to defend the cannons from Svara\u0027s lesser kin.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_062",
+    "original": "You will find a lock in the northeast...",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_100_062",
+    "original": "A lock to the northwest...",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_101_062",
+    "original": "...And a lock to the south. I will track the concentrations of our enemy, and direct you to the cannon most in need of protection.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_063",
+    "original": "Hark, the dragons are come... Everyone to your positions!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_JOBMCH401_01700_QIB_001_TODO001",
+    "original": "Defeat the Dravanian forces!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_JOBMCH401_01700_QIB_001_BALLISTA_A",
+    "original": "Big Bertha East",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_JOBMCH401_01700_QIB_001_BALLISTA_B",
+    "original": "Big Bertha West",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_JOBMCH401_01700_QIB_001_BALLISTA_C",
+    "original": "Big Bertha South",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_JOBMCH401_01700_QIB_001_JOYE_BATTLETALK_DEAD",
+    "original": "I\u0027ve failed you, me lordship...",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_JOBMCH401_01700_QIB_001_STEPHANIVIEN_BATTLETALK_DEAD",
+    "original": "Blast...\u003Chex:02100103\u003EI had hoped to give a better showing...",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_JOBMCH401_01700_QIB_001_STEPHANIVIEN_BATTLETALK_00",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, to the southern cannon!\u003Chex:02100103\u003EJoye, to the northwest!",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_JOBMCH401_01700_QIB_001_JOYE_BATTLETALK_03",
+    "original": "Loaded and ready!\u003Chex:02100103\u003EI\u0027m comin\u0027 for you scaly bastards!",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_JOBMCH401_01700_QIB_001_STEPHANIVIEN_BATTLETALK_01",
+    "original": "Our foe swarms the cannon to the northeast!\u003Chex:02100103\u003EJoye! \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Swiftly, now!",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_JOBMCH401_01700_QIB_001_STEPHANIVIEN_BATTLETALK_02",
+    "original": "I must staunch the wounds of the fallen!\u003Chex:02100103\u003EPray defend the cannons as needed!",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_JOBMCH401_01700_QIB_001_STEPHANIVIEN_BATTLETALK_04",
+    "original": "Svara is come!",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_JOBMCH401_01700_QIB_001_STEPHANIVIEN_BATTLETALK_05",
+    "original": "Face the cannons towards the brute! Concentrate all fire upon Svara!",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_JOBMCH401_01700_QIB_001_STEPHANIVIEN_BATTLETALK_06",
+    "original": "We\u0027ve won, Father! My machinists have carried the day!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_080",
+    "original": "Well, Father? Do you see now how we might prevail against dragons without risking the lives of our soldiers?",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_JOBMCH401_01700_BAURENDOUIN_000_081",
+    "original": "...\u0027Twas a most impressive display. I must admit, your commoners acquitted themselves admirably...",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_JOBMCH401_01700_TEDALGRINCHE_000_082",
+    "original": "(-Pretentious Noble-)I \u003Chex:021A020203\u003Ethought\u003Chex:021A020103\u003E I heard the terrible din of cannons being fired. And what do I hasten out here to find but the highborn Haillenartes frolicking in the snow with their lowborn lackeys...",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_JOBMCH401_01700_TEDALGRINCHE_000_083",
+    "original": "(-Pretentious Noble-)After providing you with this opportunity to improve the ailing reputation of your noble house, does the consideration of House Dzemael not merit a formal reply?",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_JOBMCH401_01700_BAURENDOUIN_000_084",
+    "original": "Lord Tedalgrinche, my apologies\u2500the foe was upon us ere we could put quill to parchment.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_JOBMCH401_01700_TEDALGRINCHE_000_085",
+    "original": "Ah, yes, I imagine you were full occupied with scraping together a serviceable company of soldiers. If only your dear son was as ardent with his knightly training as he is with his idle tinkering.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_086",
+    "original": "There is naught \u201Cidle\u201D in my work. You would not speak such insults had you seen my machinists in action.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_JOBMCH401_01700_TEDALGRINCHE_000_087",
+    "original": "Oh, such a temper! \u0027Twould seem your association with commoners has eroded your manners as well as your martial skills.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_JOBMCH401_01700_TEDALGRINCHE_000_088",
+    "original": "If you are so confident in these \u201Cmachinists\u201D of yours, mayhap you should enter them in the upcoming tourney?",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_089",
+    "original": "Mayhap I shall. Upon my oath, we will turn Ishgard\u0027s tradition-bound combat upon its ear.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_JOBMCH401_01700_TEDALGRINCHE_000_090",
+    "original": "Ahahaha! The Holy See\u0027s adjudicators will be \u003Chex:021A020203\u003Emost\u003Chex:021A020103\u003E impressed when your lowborn rabble is chopped to pieces by the tested blades of noble champions!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_JOBMCH401_01700_BAURENDOUIN_000_091",
+    "original": "My son, what have you done...? The tourney is a stage upon which is flaunted the might and mettle of the four great houses. Only the finest knights are chosen to participate.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_JOBMCH401_01700_BAURENDOUIN_000_092",
+    "original": "Even with the aid of your machinists, our battered ranks stand little chance of victory. Must we now parade our shame before the highest echelons of the Holy See?",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_093",
+    "original": "Do not be so swift to dismiss our chances, Father. I give you my word, House Haillenarte will leave the contest with its pride intact.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_094",
+    "original": "And furthermore, should we win, I will have \u003Chex:021A020203\u003Eyour\u003Chex:021A020103\u003E word that you shall yield the running of the manufactory to me.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_JOBMCH401_01700_BAURENDOUIN_000_095",
+    "original": "Very well, my stubborn boy. ...And whether you win or no, you be sure to give House Dzemael a darn good pummeling.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_096",
+    "original": "I shall see it done, Father. We will not disappoint you!",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_JOBMCH401_01700_JOYE_000_099",
+    "original": "I never thought I\u0027d see the day the count himself would give us his blessin\u0027...",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_JOBMCH401_01700_ROSTNSTHAL_000_099",
+    "original": "Ye might not\u0027ve seen me, but I was watchin\u0027 all the same. Them dragons didn\u0027t know what \u0027it \u0027em!",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_100",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E! By virtue of your undeniable expertise, my father has at last recognized the value of machinistry. But we cannot stop at but one hardheaded knight! This tourney will be our opportunity to demonstrate to all and sundry the potential of our profession.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_JOBMCH401_01700_JOYE_000_101",
+    "original": "Me lordship, if I may... It seems that Lord Tedalgrinche has a dislike for commoners such as me.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_JOBMCH401_01700_JOYE_000_103",
+    "original": "If me presence\u0027ll cause you more trouble, then maybe I should quit the manufactory...",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_JOBMCH401_01700_ROSTNSTHAL_000_104",
+    "original": "Pay no mind to that preenin\u0027 fop, lass. \u0027E\u0027s all piss an\u0027 wind.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_105",
+    "original": "Aye, ever has Tedalgrinche sought to needle me in such a manner. \u0027Tis not you, my dear, that he despises\u2500\u0027tis the mingling of highborn and lowborn.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_106",
+    "original": "House Dzemael is a powerful family, and their talent for the building of fortifications has brought them vast wealth and influence. Staunch allies of House Durendaire, the Dzemaels have also been party to a number of significant victories.\u003Chex:02100103\u003EThus do they stand at the peak of Ishgardian society, looking down their noses at any who do not share their \u201Cnoble\u201D pedigree.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_107",
+    "original": "If you truly wish to please me, then I would have you shine your brightest in the tourney and wipe that arrogant smirk from his face! Shall we be on our way?",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_110",
+    "original": "I must confess my misgivings to you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. When queried as to our chances at victory, my prospectometer returned an unfavorable result.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_111",
+    "original": "We triumphed over dragons, \u0027tis true...but such a battle has not prepared us to face coordinated parties of seasoned knights. My machinists are simply not ready.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_JOBMCH401_01700_STEPHANIVIEN_000_112",
+    "original": "\u0027Tis fortunate, then, that the tourney is yet some days away. Let us keep such disheartening talk from our colleagues, and continue to train them\u2500and ourselves\u2500for the contest ahead.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_JOBMCH401_01700_SYSTEM_000_113",
+    "original": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation": ""
+  }
+}

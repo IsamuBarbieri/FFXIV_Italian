@@ -1,0 +1,677 @@
+{
+  "0": {
+    "tag": "TEXT_BANANA004_03039_SEQ_00",
+    "original": "Alpa\u0027s list of quandaries grows ever longer.\u003Chex:02100103\u003E\u203BThe difficulty of this quest will be synced to your current level.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_BANANA004_03039_SEQ_01",
+    "original": "An Ala Mhigan traveler returning to his homeland has fallen ill while staying at Castellum Velodyna. While Alpa and J\u0027olhmyn are discussing his condition, M\u0027zhet Tia, self-proclaimed future nunh of the M tribe, makes an unexpected appearance and reveals that he has in fact volunteered to aid the Gatekeepers. He also claims that the stricken guest is in fact lovesick, a concept Alpa finds hard to grasp. With total disregard for more immediate concerns, M\u0027zhet asks the group to meet him at Pike Falls, where he will demonstrate the power of love.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_BANANA004_03039_SEQ_02",
+    "original": "After gathering an audience, the would-be nunh of the M tribe insists that the power of love can protect him from anything, including imperial grenades. In spite of Alpa\u0027s apparent concern, he asks you to pelt him with explosives in order to prove his point. He also makes it clear that he wants you to continue throwing, even if he tells you to stop.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_BANANA004_03039_SEQ_03",
+    "original": "M\u0027zhet was supposed to have removed some of the powder from the grenades to reduce their destructive force. However, it seems he neglected to do so, resulting in a powerful blast. Of course, it is entirely possible that the remaining explosives will produce the desired effect...",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_BANANA004_03039_SEQ_04",
+    "original": "You confirm that the grenades still contain the original amount of powder. Although M\u0027zhet seems to be in a considerable amount of pain, you prepare to throw some more.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_BANANA004_03039_SEQ_05",
+    "original": "M\u0027zhet miraculously survives the final grenade while J\u0027olhmyn comes to the conclusion that the power of love has little to do with one\u0027s resilience to explosions. Meanwhile, the bedridden traveler has still not received any treatment, so the group decides to call on the expertise of Orella, the Resistance\u0027s resident physician.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_BANANA004_03039_SEQ_06",
+    "original": "Orella has a hunch that the disease can be cured with a mixture that includes lightning caps. However, Orella\u0027s stock has been depleted, so you head to East End with Alpa to gather these rare mushrooms.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_BANANA004_03039_SEQ_07",
+    "original": "While gathering lightning caps, Alpa is suddenly attacked by deadly flora. Luckily, you arrive to prevent her untimely demise. After disposing of the woodland predators, you rush to her aid.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_BANANA004_03039_SEQ_08",
+    "original": "It seems that only Alpa\u0027s pride was wounded and she recovers quickly. Despite her unfortunate encounter, the lightning caps she has gathered are still intact. All that remains is to deliver them to Orella at Castellum Velodyna.",
+    "translation": ""
+  },
+  "9": {
+    "tag": "TEXT_BANANA004_03039_SEQ_09",
+    "original": "You return to the castellum, where Alpa informs you that she has given the mushrooms to Orella. The medicine that she prepares takes effect with astonishing rapidity, healing the stricken traveler almost instantly. However, he reveals that he is suffering from lovesickness following his encounter with Orella and chases after her to confess his feelings. If Alpa has learned anything from this episode, it is that even in times of relative peace, people are still prone to injury and disease. She comes to the conclusion that an infirmary would be a worthy addition to the castellum.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_BANANA004_03039_TODO_00",
+    "original": "Speak with M\u0027zhet Tia at Pike Falls.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_BANANA004_03039_TODO_01",
+    "original": "Throw a Mark XLII grenade at M\u0027zhet Tia.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_BANANA004_03039_TODO_02",
+    "original": "Throw another Mark XLII grenade at M\u0027zhet Tia.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_BANANA004_03039_TODO_03",
+    "original": "Throw yet another Mark XLII grenade at M\u0027zhet Tia.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_BANANA004_03039_TODO_04",
+    "original": "Speak with Orella in Rhalgr\u0027s Reach.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_BANANA004_03039_TODO_05",
+    "original": "Rendezvous with Alpa in East End.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_BANANA004_03039_TODO_06",
+    "original": "Aid Alpa.",
+    "translation": ""
+  },
+  "31": {
+    "tag": "TEXT_BANANA004_03039_TODO_07",
+    "original": "Speak with Alpa at Castellum Velodyna.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_BANANA004_03039_ALPA_000_001",
+    "original": "Oh, there you are, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. We have the latest report on Mother\u0027s molting. J\u0027olhmyn, if you\u0027d be ssso kind?",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_BANANA004_03039_JOLHMYN_100_001",
+    "original": "\u0022The broodmother\u0027s skin has become dry and slightly rough.\u201C",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_BANANA004_03039_ALPA_100_002",
+    "original": "She\u0027ll be shedding her ssskin before long.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_BANANA004_03039_ALPA_000_002",
+    "original": "I\u0027m not worried though. Even if Mother were to arrive now, I think the castellum would pass muster. The guest rooms we made have proven quite popular!",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_BANANA004_03039_JOLHMYN_100_002",
+    "original": "Yes, but you\u0027re forgetting one thing. What about that poor sod who\u0027s taken ill? Your mother might find his moaning and groaning a bit off-putting...",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_BANANA004_03039_ALPA_200_002",
+    "original": "I was just about to mention that. An Ala Mhigan fellow on his way home from Gridania stayed overnight, but he\u0027s come down with sssomething. We can\u0027t tell what\u0027s caused it, but he\u0027s in a terrible state.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_BANANA004_03039_JOLHMYN_000_004",
+    "original": "At first, we thought the shortness of breath and flushed cheeks were just signs of fatigue. We normally give medicinal tea in cases like this, but that hasn\u0027t seemed to work.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_BANANA004_03039_ALPA_100_004",
+    "original": "We\u0027ll have to try sssomething else.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_005",
+    "original": "Hark! Is that the sound of damsels in distress? Fear not! Your cries of despair will not go unanswered! For the future nunh of the M tribe, M\u0027zhet Tia, has arrived!",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_006",
+    "original": "What are you doing, J\u0027olhmyn? Is that any way to treat your would-be savior?",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_BANANA004_03039_JOLHMYN_000_007",
+    "original": "Savior? You can \u201Csave\u201D me the trouble of trouncing you again by buggering off and never coming back!",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_008",
+    "original": "Unghhh... Not quite the welcome I was expecting. Wait\u2500is that you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E?",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_BANANA004_03039_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_BANANA004_03039_A1_000_001",
+    "original": "You\u0027re looking bright-eyed and bushy-tailed.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_BANANA004_03039_A1_000_002",
+    "original": "I\u0027m amazed you\u0027re not dead yet.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_010",
+    "original": "And you\u0027re looking well too! You know, when I signed up to assist the Gatekeepers, I didn\u0027t expect to see you here!",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_011",
+    "original": "Ha ha! Amazing people is my specialty! So you\u0027re helping the Gatekeepers too, eh? It\u0027s true what they say. Great minds think alike!",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_BANANA004_03039_ALPA_000_012",
+    "original": "You two have met before?",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_BANANA004_03039_ALPA_100_012",
+    "original": "Ssso that\u0027s how you know each other...",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_013",
+    "original": "Know? Our bond goes beyond that of mere acquaintances. Why, we\u0027re like \u003Chex:020817E905FF097369626C696E6773FF0962726F746865727303\u003E!",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_BANANA004_03039_ALPA_000_014",
+    "original": "If you\u0027re \u003Chex:020817E905FF097369626C696E6773FF0962726F746865727303\u003E, it\u0027s clear to see which one got all the brains. Is he always this ssstupid?",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_015",
+    "original": "Ahem! I think we can discuss my virtues some other time. Captain Alpa, am I to understand a man has been struck down with a fever of some kind? If so, I may have useful information to impart.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_BANANA004_03039_ALPA_000_016",
+    "original": "Go on then, tell usss!",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_017",
+    "original": "This unfortunate soul is lovesick! I\u0027m absolutely certain of it!",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_018",
+    "original": "J\u0027olhmyn! Your violent outbursts notwithstanding, I must admit you possess a rather charming demeanor. Perhaps your convalescent guest has fallen for your feminine wiles and cannot bring himself to part from you!",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_BANANA004_03039_JOLHMYN_000_019",
+    "original": "My \u201Cfeminine wiles\u201D? I\u0027m a soldier. Hardly the sort that has secret admirers.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_020",
+    "original": "Now, now! There\u0027s no need to be shy. If you ask me, you\u0027re the belle of the Resistance!",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_BANANA004_03039_ALPA_000_021",
+    "original": "M\u0027zhet, what were you saying about our guest being \u201Clovesick\u201D? What kind of love makes you sssick?",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_022",
+    "original": "The romantic kind, of course! A love that unites those destined to spend eternity together, awakening their true potential. There is nothing it cannot conquer!",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_023",
+    "original": "But don\u0027t take my word for it. I will demonstrate the power of love! Come to Pike Falls and bear witness to its splendor.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_030",
+    "original": "Remember these? That\u0027s right\u2500they\u0027re grenades left behind by the Garleans.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_100_030",
+    "original": "I want you to throw them at me just like last time!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_BANANA004_03039_ALPA_000_031",
+    "original": "Ssstop this nonsense! You\u0027ll get yourself killed!",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_032",
+    "original": "Killed? I think not. I have the power of love on my side! Watch closely everyone\u2500especially you, J\u0027olhmyn. These explosions will be like water off an eft\u0027s back!",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_033",
+    "original": "(I nearly died the last time I tried this, but you needn\u0027t worry! I\u0027ve definitely removed enough of the powder. Yes, no doubt about it.)",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_034",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E, I\u0027m ready. Just keep flinging those grenades, even if I tell you stop!",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_BANANA004_03039_ALPA_000_035",
+    "original": "Why are we here?",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_BANANA004_03039_JOLHMYN_000_040",
+    "original": "I have no idea what\u0027s going on, but there\u0027s one thing I\u0027m certain of: he\u0027s the biggest idiot I\u0027ve ever met. And I\u0027ve met a lot of idiots.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_100_050",
+    "original": "Don\u0027t hesitate! Just throw!",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_050",
+    "original": "Aaaiiieeeeeeeee!",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_051",
+    "original": "Ack! Gah! (Did I forget to take out some of the powder?) I\u0027m perfectly fine! Let\u0027s try that again, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_BANANA004_03039_ALPA_000_052",
+    "original": "I don\u0027t think thisss is going to end well...",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_BANANA004_03039_ALPA_100_055",
+    "original": "Aaaaaah!",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_BANANA004_03039_ALPA_100_056",
+    "original": "What are you throwing it at me for? That ssstings, you know!",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_BANANA004_03039_JOLHMYN_000_057",
+    "original": "Yaaaaaah!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_BANANA004_03039_JOLHMYN_000_058",
+    "original": "Stop that, would you? M\u0027zhet\u0027s the one with a death wish around here, not me!",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_059",
+    "original": "(At least we know that taking out some of the powder results in a nonlethal explosion!)",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_100_070",
+    "original": "That had a bit more \u201Cbang\u201D than I was expecting. Could you try throwing another one?",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_070",
+    "original": "Gaaaaaaaaagh!",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_BANANA004_03039_JOLHMYN_000_071",
+    "original": "This seems like quite a dangerous way to prove the power of love. Why don\u0027t you just write a poem or something?",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_072",
+    "original": "Nnngh... That one was a full-sized explosion as well! \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, stop for a moment!",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_BANANA004_03039_ALPA_000_055",
+    "original": "Are you really going to throw that?",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_BANANA004_03039_JOLHMYN_000_060",
+    "original": "That looked really painful. Is the next one ready?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_100_080",
+    "original": "Forget what I said at the beginning! I really do want you to stop!",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_080",
+    "original": "Aaaaaarrrggghhh!",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_081",
+    "original": "No... I had so much to live for...",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_090",
+    "original": "...",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_BANANA004_03039_ALPA_000_091",
+    "original": "He\u0027s not dead, is he?",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_092",
+    "original": "I cannot die here! Not today, not like this. The M tribe needs me!",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_BANANA004_03039_ALPA_000_093",
+    "original": "Hooray! He\u0027s alive! And it\u0027s all because of the power of love!",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_BANANA004_03039_JOLHMYN_000_094",
+    "original": "Did the power of love really protect you from being blown to pieces? Perhaps your feelings for me are genuine after all...",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_095",
+    "original": "What!? No, no! You\u0027ve got it all wrong! One day I\u0027ll be nunh, and I\u0027ll have to serve the needs of every eligible woman in the tribe. I can\u0027t commit to just one girl!",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_BANANA004_03039_JOLHMYN_000_096",
+    "original": "So that means the reason you survived has nothing to do with love. It must be something else... Well, even if you did have eyes for me, I\u0027d poke them out with my spear.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_BANANA004_03039_GALES_000_097",
+    "original": "Ah, there you are, Alpa. A certain matter has come to light and\u2500",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_BANANA004_03039_GALES_000_098",
+    "original": "Who\u0027s this?",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_BANANA004_03039_Q2_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_BANANA004_03039_A2_000_001",
+    "original": "A lonely tia doomed to a life of solitude.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_BANANA004_03039_A2_000_002",
+    "original": "A misguided fool whose attempts to impress J\u0027olhmyn failed miserably.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_100",
+    "original": "That\u0027s entirely inaccurate!",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_BANANA004_03039_GALES_000_101",
+    "original": "There\u0027s no need to be ashamed. You\u0027re not alone. My attempts to woo members of the fairer sex always end in disaster... I\u0027ll never find a wife at this rate.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_102",
+    "original": "Gods be good! A man can reach your age and \u003Chex:021A020203\u003Estill\u003Chex:021A020103\u003E be a bachelor?",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_BANANA004_03039_GALES_000_103",
+    "original": "In my line of work, I meet women from far and wide. But as soon as I try to talk to them, they run a malm.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_104",
+    "original": "The same thing happens to me! Except in my case, I think they find my exuberant nature a tad overwhelming... Come friend, let us share our woes!",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_BANANA004_03039_JOLHMYN_000_105",
+    "original": "Why do I get the feeling this was a complete waste of time? And we\u0027re not an ilm closer to helping our bedridden patron. Perhaps we should consult a proper chirurgeon.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_BANANA004_03039_ALPA_000_106",
+    "original": "Now that you mention it, M\u0027zhet\u0027s injuries might need some attention too. Although he ssseems rather well considering...",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_BANANA004_03039_JOLHMYN_000_107",
+    "original": "Forget about him, he\u0027ll be fine. He\u0027s got Gales\u0027s shoulder to cry on now. Let\u0027s go to the Reach and ask Orella. She\u0027ll know what to do.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_BANANA004_03039_ORELLA_000_110",
+    "original": "Would I be correct in guessing this isn\u0027t a social call?",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_BANANA004_03039_ORELLA_000_111",
+    "original": "I can\u0027t say for sure, but it sounds like he\u0027s fallen victim to pleurisy.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_BANANA004_03039_ORELLA_000_112",
+    "original": "The medicine he needs is fairly simple to make, but unfortunately my supply of lightning cap mushrooms has been exhausted. I\u0027ll need you to gather some from East End. Once I\u0027ve got my things together, I\u0027ll go straight to Velodyna.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_BANANA004_03039_ALPA_000_113",
+    "original": "Understood! J\u0027olhmyn, stay with Orella and keep her sssafe!",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_BANANA004_03039_ALPA_000_115",
+    "original": "You\u0027ve met Orella before, haven\u0027t you?",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_BANANA004_03039_JOLHMYN_000_120",
+    "original": "Sadly, Alpa counts as one of Orella\u0027s \u201Cregulars.\u201D She\u0027s forever eating things she finds lying around and then wondering why she gets a stomachache. Orella\u0027s medicine usually sorts her out though.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_BANANA004_03039_GALES_000_125",
+    "original": "I can\u0027t believe I\u0027ve found someone whose lack of romantic experience rivals my own!",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_126",
+    "original": "To think that Gales is still single after all these years! What is the world coming to?",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_BANANA004_03039_ORELLA_000_130",
+    "original": "While the disease is not life-threatening, I\u0027m sure our patient would prefer that we avoid any unnecessary dillydallying.",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_BANANA004_03039_JOLHMYN_100_130",
+    "original": "No harm will come to Orella or her expensive-looking medical supplies as long as she\u0027s with me!",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_BANANA004_03039_ALPA_000_140",
+    "original": "\u003Cpant\u003E I\u0027m lucky you arrived when you did. I know I\u0027m not much of a fighter, but I didn\u0027t expect to be beaten by those ssstraggly-looking beasties!",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_BANANA004_03039_ALPA_000_141",
+    "original": "Ssstill, I managed to get the lightning caps! We\u0027d better get these to Orella right away!",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_BANANA004_03039_ALPA_000_150",
+    "original": "Ah, there you are. I\u0027ve handed the mushrooms to Orella, who is brewing her concoction as we ssspeak. All we can do now is wait.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_BANANA004_03039_ALPA_100_150",
+    "original": "What\u0027s taking Orella so long? I hope everything\u0027s all right...",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_100_150",
+    "original": "Have a little faith, Alpa! Ah, here they come now!",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_BANANA004_03039_ORELLA_000_151",
+    "original": "You\u0027ll be pleased to hear that the treatment was a success.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_BANANA004_03039_ALPA_000_152",
+    "original": "How do you feel?",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_BANANA004_03039_TRAVELLER03039_000_154",
+    "original": "That medicine worked wonders! One moment I\u0027m at death\u0027s door, and the next I\u0027m right as rain! Nothing can stop me finishing the last leg of my journey now.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_BANANA004_03039_ORELLA_000_155",
+    "original": "Just don\u0027t overexert yourself, do you hear? It\u0027s still too early to say you\u0027ve fully recovered. If you get so much as a runny nose, be sure to come and see me.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_BANANA004_03039_ALPA_100_155",
+    "original": "Orella, we appreciate you coming all the way here. Eshana will arrange an essscort back to the Reach.",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_156",
+    "original": "Well, I\u0027d say that came to a satisfactory conclusion!",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_BANANA004_03039_JOLHMYN_000_157",
+    "original": "\u003Csigh\u003E No thanks to you!",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_158",
+    "original": "But I could\u0027ve sworn he showed signs of being lovesick...",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_BANANA004_03039_TRAVELLER03039_000_159",
+    "original": "\u003Cgasp\u003E How did you know?",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_160",
+    "original": "Know what?",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_BANANA004_03039_TRAVELLER03039_000_161",
+    "original": "That I\u0027m in love! I\u0027ve never beheld such grace, such elegance, such...unfathomable beauty! Surely, she is an incarnation of Menphina herself!",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_BANANA004_03039_JOLHMYN_000_162",
+    "original": "That\u0027s very flattering, but you\u0027re embarrassing me!",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_BANANA004_03039_TRAVELLER03039_000_163",
+    "original": "My fever may be gone, but I yet yearn for your healing touch to ease my aching heart! Orella, my love, wait for meeeeee!",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_BANANA004_03039_JOLHMYN_000_164",
+    "original": "I...I beg your pardon!?",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_000_165",
+    "original": "Don\u0027t get downhearted! \u201CPlenty more sea in the fish\u201D and all that!",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_BANANA004_03039_ALPA_000_166",
+    "original": "If you ask me, this \u201Clove\u201D thing all seems rather sssilly. As far as I can tell, it leads to a lot of unnecessary bother.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_BANANA004_03039_ALPA_000_167",
+    "original": "In just a short ssspan of time, we\u0027ve had a guest fall ill, I\u0027ve nearly been eaten by carnivorous plants, and M\u0027zhet has been blown up and beaten several times.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_BANANA004_03039_ALPA_100_167",
+    "original": "I\u0027d say it\u0027s high time this place had its own infirmary. We should get it ready before Mother returns.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_BANANA004_03039_MZHETTIA_100_170",
+    "original": "My, my! While Gales and I were exchanging sob stories, it looks like you\u0027ve been rather busy.",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_BANANA004_03039_GALES_200_170",
+    "original": "M\u0027zhet has such a cheerful outlook despite losing his father at such a young age. My own problems pale in comparison.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_BANANA004_03039_SYSTEM_000_180",
+    "original": "Castellum Velodyna now has its own infirmary.",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_BANANA004_03039_SYSTEM_000_181",
+    "original": "You have achieved \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EHonored\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E reputation with the Vira.",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_BANANA004_03039_SYSTEM_000_182",
+    "original": "New Vira society daily quests are now available from Eshana at Castellum Velodyna.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_BANANA004_03039_SYSTEM_000_183",
+    "original": "Furthermore, you will be able to undertake three additional quests from Eshana as a reputation bonus. This bonus is available until the daily reset time for allied society quests.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_BANANA004_03039_SYSTEM_000_184",
+    "original": "These additional quests will become available after accepting all current daily quests from Eshana. Please be advised that you cannot undertake these quests if you have no remaining allowances.",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_BANANA004_03039_SYSTEM_000_185",
+    "original": "You now have access to a wider selection of wares from Madhura.",
+    "translation": ""
+  }
+}

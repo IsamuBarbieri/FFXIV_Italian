@@ -1,0 +1,702 @@
+{
+  "0": {
+    "tag": "TEXT_AKTKBA311_04115_SEQ_00",
+    "original": "The secretariat has recent developments to share.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_AKTKBA311_04115_SEQ_01",
+    "original": "While Limsa Lominsa\u0027s Sahagin allies assist in the hunt for the blasphemy, Merlwyb wishes to attempt negotiations with the Crushing Tide, in hopes of easing tensions and forestalling any additional transformations. To that end, a parley has been arranged with Doww\u2500leader of the hostile faction\u2500at the Sapsa Spawning Grounds, whereto you will accompany the Admiral.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_AKTKBA311_04115_SEQ_02",
+    "original": "You join Merlwyb near the spawning grounds, but Doww is nowhere to be found. With some trepidation, the two of you decide to seek answers from the other members of Crushing Tide in the vicinity.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BYou must be accompanied by Merlwyb to complete this task. Speak with her again should you become separated.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_AKTKBA311_04115_SEQ_03",
+    "original": "Together with the Admiral, you speak to a few of the hostile Sahagin, one of whom grudgingly reveals Speaker Doww\u0027s current whereabouts to you. Resolving to take caution not to fan the flames, you go to seek him out.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_AKTKBA311_04115_SEQ_04",
+    "original": "You succeed in tracking down Doww, who receives the Admiral\u0027s words with as much disdain as was to be expected. Nevertheless, he acquiesces to a parley in South Tidegate, if only as a show of strength for his followers. You can only hope that the Crushing Tide\u0027s leader will be more receptive when next you speak.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_AKTKBA311_04115_SEQ_05",
+    "original": "Back at South Tidegate, your parley with Speaker Doww proves an unmitigated disaster when he dismisses the Admiral\u0027s offer out of hand, and his followers\u2500overcome by their anger and despair\u2500transform into beasts before your eyes. Lofty aspirations of peace will have to wait until you have dealt with the immediate threat.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_AKTKBA311_04115_SEQ_06",
+    "original": "You swiftly dispatch the beast before it can sow untold chaos. Your concern turns to Noll, who you hope has survived the battle unscathed.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_AKTKBA311_04115_SEQ_07",
+    "original": "Noll is visibly shaken by the horrors he has just witnessed, but otherwise no worse for the wear. He encourages you to check on the Admiral, who was fighting off a beast of her own.",
+    "translation": ""
+  },
+  "8": {
+    "tag": "TEXT_AKTKBA311_04115_SEQ_08",
+    "original": "The immediate threat having been dealt with, you reconvene with your companions. Noll is deeply disturbed\u2500not merely by the sight of his brothers transforming before his eyes, but by Speaker Doww\u0027s fanatical delusion that it is a blessing bestowed upon them by Leviathan himself. Fearing disaster should greater numbers of the Crushing Tide turn, Merlwyb resolves to redouble her efforts in dispatching the blasphemy with all speed, and bids you join her back at Maelstrom Command.",
+    "translation": ""
+  },
+  "9": {
+    "tag": "TEXT_AKTKBA311_04115_SEQ_09",
+    "original": "Back in Limsa, Merlwyb expresses concern that reinforcements may be needed in dealing with the twofold threat of the blasphemy and the Crushing Tide. She bids you remain close by until such time as further action can be taken.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BThe next role quest will be available from the Maelstrom secretariat upon reaching level 87 in any melee DPS class.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_AKTKBA311_04115_TODO_00",
+    "original": "Speak with Merlwyb at South Tidegate and have her accompany you.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_AKTKBA311_04115_TODO_01",
+    "original": "Speak with the Crushing Tide Sahagin while Merlwyb is accompanying you.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_AKTKBA311_04115_TODO_02",
+    "original": "Speak with Doww while Merlwyb is accompanying you.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_AKTKBA311_04115_TODO_03",
+    "original": "Speak with Merlwyb.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_AKTKBA311_04115_TODO_04",
+    "original": "Defeat the beast.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_AKTKBA311_04115_TODO_05",
+    "original": "Speak with Noll.",
+    "translation": ""
+  },
+  "30": {
+    "tag": "TEXT_AKTKBA311_04115_TODO_06",
+    "original": "Speak with Merlwyb.",
+    "translation": ""
+  },
+  "31": {
+    "tag": "TEXT_AKTKBA311_04115_TODO_07",
+    "original": "Speak with Merlwyb at Maelstrom Command.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_AKTKBA311_04115_LIMSASECRETARY_000_001",
+    "original": "Your timing could not be better. The Admiral has just this moment returned from meeting with the Sahagin. I shall inform her of your arrival.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_002",
+    "original": "Ah, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I\u0027m glad you\u0027re here. We have decided on our next course of action.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_003",
+    "original": "As you know, we face two distinct, but interconnected, challenges. The transformations occurring among the Sahagin may be one, but the blasphemy itself is the root of the problem.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_004",
+    "original": "Thus far, those who succumbed to the change have all been affiliated with the Crushing Tide, who continue to resist our diplomatic efforts. Were we to put a stop to the phenomenon, as well as address their grievances, we may yet have a chance at peace.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_005",
+    "original": "To that end, I would propose a double-pronged approach.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_006",
+    "original": "On one front, we shall work in tandem with our Sahagin allies to redouble our patrols. Should the blasphemy surface, we will share this knowledge and move immediately to dispatch the threat.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_007",
+    "original": "At the same time, we will pursue a dialogue with the Crushing Tide. We need to bring them back to the negotiating table, and then see what can be done to convince them to stand down.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_008",
+    "original": "A key point will no doubt be the lingering issue of securing land for their spawning grounds. \u0027Tis a discussion I intend to approach with an open mind.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_009",
+    "original": "\u0027Twill be no easy task, but we succeeded with the kobolds, and I have faith that we will succeed with the Sahagin as well, so long as we parley in good faith.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_AKTKBA311_04115_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_AKTKBA311_04115_A1_000_001",
+    "original": "I can only hope the Crushing Tide share that sentiment...",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_AKTKBA311_04115_A1_000_002",
+    "original": "I doubt they will listen.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_011",
+    "original": "You\u0027re wise to temper your expectations, but I would not abandon hope ere we try. At any rate, Noll has sent word that one Doww\u2500a priest who styles himself the leader of the Crushing Tide\u2500has grudgingly agreed to hear us out.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_012",
+    "original": "I will parley with him face-to-face at the Sapsa Spawning Grounds, and would have you at my side. If you do not object, that is.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_013",
+    "original": "Excellent. In that case, pray join me at South Tidegate when you are ready. From there, we will go together.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_050",
+    "original": "All prepared, are you?",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_051",
+    "original": "Doww is not known for his patience. We must take care not to incur his ire.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_052",
+    "original": "I was told he would be at the spawning grounds upon our arrival, but it appears he has been delayed.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_053",
+    "original": "Let us speak with the Sahagin here. Mayhap one of them will be able to shed light on what may be keeping him.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_054",
+    "original": "One more thing\u2500I come here as a representative of Limsa Lominsa on a diplomatic mission. Should the talks deteriorate and things come to blows, I cannot be seen to bloody my hands. I trust that you understand.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_055",
+    "original": "And with that, let us be off.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_AKTKBA311_04115_SYSTEM_000_500",
+    "original": "Merlwyb is now accompanying you. Keep her at your side in order to proceed with quest objectives.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_AKTKBA311_04115_SYSTEM_000_501",
+    "original": "You can leave Merlwyb behind by entering a different area, or by speaking with her and selecting the option to part ways.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_AKTKBA311_04115_SYSTEM_000_502",
+    "original": "If you wish to have Merlwyb accompany you again, return and speak with her at the original location.",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_AKTKBA311_04115_Q9_000_000",
+    "original": "What will you do?",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_AKTKBA311_04115_A9_000_001",
+    "original": "Speak with Merlwyb.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_AKTKBA311_04115_A9_000_002",
+    "original": "Part ways with Merlwyb.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_AKTKBA311_04115_A9_000_003",
+    "original": "Nothing.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_504",
+    "original": "First, let us see if any of the Sahagin here possess any knowledge of Doww\u0027s whereabouts.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_505",
+    "original": "Are you sure you wish to part ways with Merlwyb?",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_506",
+    "original": "Far be it from me to keep you from more pressing duties. When you are ready to proceed, let us reconvene at South Tidegate.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_507",
+    "original": "Ready to resume our mission? Very well. Let us see if any of the Sahagin here can tell us aught of Doww\u0027s whereabouts.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_AKTKBA311_04115_ENEMYSAHAGINA04115_100_508",
+    "original": "Pshhh...! What business have you here, shhhorewalker!?",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_AKTKBA311_04115_ENEMYSAHAGINB04115_200_508",
+    "original": "Pshhh...! Since when do shhhorewalkers so brazenly traipse about our ssspawning grounds!?",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_AKTKBA311_04115_DOWW_300_150",
+    "original": "Pshhh...! You have some gall to show your face here, shhhorewalker. This is our domain. Tread carefully or pay the price.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_AKTKBA311_04115_SYSTEM_000_508",
+    "original": "You must be accompanied by Merlwyb and have her at your side in order to proceed with quest objectives.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_AKTKBA311_04115_SYSTEM_000_509",
+    "original": "Merlwyb has yet to arrive. Be sure she is at your side before attempting to continue.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_AKTKBA311_04115_LIMSASECRETARY_000_060",
+    "original": "We welcome your aid in our negotiations with the Crushing Tide. Admiral Bloefhiswyn awaits you at South Tidegate.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_AKTKBA311_04115_ENEMYSAHAGINA04115_000_100",
+    "original": "Pssshhh... Why do you tressspasss in our domain, vile shhhorewalkers!?",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_101",
+    "original": "We mean you no harm. We come only for a peaceful parley with your leader, Master Doww. Where might we find him?",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_AKTKBA311_04115_ENEMYSAHAGINA04115_000_102",
+    "original": "Pssshhh! We desssire no \u003Chex:021A020203\u003Eparley\u003Chex:021A020103\u003E with the shhhorewalkers who would sssteal our home!",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_AKTKBA311_04115_ENEMYSAHAGINA04115_000_103",
+    "original": "Were it not for your insssatiable selfishness, we Sssahagin would grow and flourishhh!",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_104",
+    "original": "Your grievances are justified. That is why I would speak with Master Doww, and work toward a peaceful solution.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_AKTKBA311_04115_ENEMYSAHAGINA04115_000_105",
+    "original": "Pssshhh! Empty words from the thieving shhhorewalker! But so be it\u2500soon you shhhall learn the futility of your efforts.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_AKTKBA311_04115_ENEMYSAHAGINA04115_000_106",
+    "original": "Speaker Doww is currently overseeing security at the ssspawning grounds. You will find him by the entrance\u2500though mark my wordsss, you will wishhh you hadn\u0027t.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_107",
+    "original": "We shall see. I thank you for your aid.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_AKTKBA311_04115_ENEMYSAHAGINB04115_000_108",
+    "original": "Pssshhh... What is this!? Sssince when are filthy shhhorewalkers free to intrude upon our sacred ssspawning grounds!?",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_109",
+    "original": "Pray forgive our intrusion.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_110",
+    "original": "We seek an audience with Speaker Doww. Where might we find him?",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_AKTKBA311_04115_ENEMYSAHAGINB04115_000_111",
+    "original": "You will do no sssuch thing, shhhorewalker! We have not forgotten what you did to Lord Leviathan. Begone!",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_112",
+    "original": "We won\u0027t get much out of this one. Let\u0027s try elsewhere.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_AKTKBA311_04115_STHALRHET_000_120",
+    "original": "We\u0027ve managed to bring a fair share of the drowned back to their senses. Sadly, the Sahagin\u0027s distrust of us remains deep-seated. If you mean to go onward, be wary\u2500you will find more foes than friends.",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_AKTKBA311_04115_DOWW_000_150",
+    "original": "Pssshhh... Shhhorewalkers in our ssspawning grounds? To what do I owe the dissspleasure?",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_151",
+    "original": "Speaker Doww, I presume. Our apologies for entering into your home unannounced.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_152",
+    "original": "I am Merlwyb Bloefhiswyn, Chief Admiral of Limsa Lominsa, and this is \u003Chex:022903EB0203\u003E.",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_153",
+    "original": "We come seeking a parley, that we might strive for peace between our peoples.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_AKTKBA311_04115_DOWW_000_154",
+    "original": "Parley, you sssay...?",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_155",
+    "original": "Prolonging this conflict any further will lead only to needless suffering.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_156",
+    "original": "The menace both our peoples face is great indeed. If ever there was a time to set aside our differences and come together for the greater good, it is now. I invite you to join us at South Tidegate for formal negotiations.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_AKTKBA311_04115_DOWW_000_157",
+    "original": "Shhhorewalkers and Sahagin, coming together? What assurance do I have that you will not ssslit our gills the moment we ssset foot within your territory?",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_158",
+    "original": "I can offer naught but my word. We open our gates to you, and invite you into our home as a show of respect.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_AKTKBA311_04115_DOWW_000_159",
+    "original": "...Hmph. I do not trussst you, shhhorewalker, but let it never be said that Doww of the Crushing Tide was a coward. I accept your offer, but attempt any treachery or sssubterfuge, and your people will drown in their own blood.",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_160",
+    "original": "Very well, Master Doww. I look forward to a productive discussion.",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_161",
+    "original": "Let us return, then. I shall send word to Noll as well\u2500I would have our Sahagin allies join us at the parley.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_163",
+    "original": "Ready to resume our mission? Excellent. Let us proceed to Speaker Doww\u0027s chambers.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_165",
+    "original": "Let us search the spawning grounds and see if we cannot find this Doww.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_AKTKBA311_04115_ENEMYSAHAGINA04115_000_170",
+    "original": "You will find Speaker Doww at the ssspawning grounds. Seek him out if you like\u2500but do not expect that he will lisssten to your empty promises.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_AKTKBA311_04115_ENEMYSAHAGINB04115_000_175",
+    "original": "Pssshhh! Every moment you linger here sssullies our sssacred home, shhhorewalker. Begone from this place before I ssspear you through the throat!",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_200",
+    "original": "Thank you for joining us here, Master Doww.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_AKTKBA311_04115_DOWW_000_201",
+    "original": "Pssshhh... The air here sssickens me. Be brief.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_202",
+    "original": "Aye, let us get straight to the heart of the matter.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_203",
+    "original": "A common threat looms before us\u2500one more powerful than any primal, with the potential to bring death without end to both Sahagin and Lominsan alike. These circumstances call for swift and united action.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_204",
+    "original": "You doubt our intentions, but I remind you that we have liberated many of your kin from Leviathan\u0027s enthrallment. They and countless other Sahagin have joined us, of their own free will, that we may ensure the survival of both our peoples.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_AKTKBA311_04115_NOLL_000_205",
+    "original": "Pshhh... Aye, by their deeds have the Lominsans proven themselves worthy of our trust.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_206",
+    "original": "Master Doww. You and your Crushing Tide want only to secure a future for your people. I say to you this can only be done by confronting this threat together.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_AKTKBA311_04115_DOWW_000_207",
+    "original": "Pshhh... Threats, \u003Chex:021A020203\u003Ethreatsss\u003Chex:021A020103\u003E\u2500what is this \u003Chex:021A020203\u003Ethreat\u003Chex:021A020103\u003E you ssspeak of!?",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_AKTKBA311_04115_DOWW_000_208",
+    "original": "If it is unity you crave, then sssubmit yourself to our command. Be as the Serpent Reavers. They are the only shhhorewalkers I deign to call friend.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_209",
+    "original": "You would ask us to willingly surrender ourselves to your Lord of the Whorl?",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_AKTKBA311_04115_DOWW_000_210",
+    "original": "I do. For that\u2500and that alone\u2500will ensure peace between us.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_AKTKBA311_04115_NOLL_000_211",
+    "original": "Preposterousss! You propose not alliance, but servitude. This way lies nothing but death for all Sahagin!",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_AKTKBA311_04115_DOWW_000_212",
+    "original": "Do you hear this, my ssspawnbrothers? The shhhorewalkers have stolen this one\u0027s mind! He decries Lord Leviathan, and espouses the lunacy of our sssworn foes!",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_AKTKBA311_04115_DOWW_000_213",
+    "original": "These treacherous wretches have abandoned our god, and conspire to drive we faithful from our ancestral home! We cannot\u2500we \u003Chex:021A020203\u003Emussst\u003Chex:021A020103\u003E not\u2500let this stand!",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_AKTKBA311_04115_RADICALSAHAGINA04115_000_214",
+    "original": "Pshhh...! For shhhame! Forsssaken by our spawnbrothers! They ssside with the finless ones and blaspheme our Lord Leviathan!",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_AKTKBA311_04115_RADICALSAHAGINB04115_000_215",
+    "original": "They who sssteal our spawning grounds and ssslaughter our children! Our future! \u003Chex:021A020203\u003EOur future\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_AKTKBA311_04115_DOWW_000_216",
+    "original": "Pshhh! Behold...behold this blessing! Lord Leviathan grants us greater and greater ssstrength!",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_217",
+    "original": "You would call this a \u003Chex:021A020203\u003Eblessing\u003Chex:021A020103\u003E!?",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_AKTKBA311_04115_RECONCILEDSAHAGINB04115_000_218",
+    "original": "Pshhh...! Sssuch horrors! Flee! Flee for your lives!",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_219",
+    "original": "The beast makes for Aleport. I leave this place to you!",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_AKTKBA311_04115_DOWW_000_220",
+    "original": "Pshhhhhh! Sssplendid...sssplendid! Let all our ssspawnbrothers be blessed with such power!",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_AKTKBA311_04115_DOWW_000_225",
+    "original": "Know thisss, shorewalker\u2500I come not because your words sssway me, but to show my ssspawnbrothers that Doww of the Crushhhing Tide is no coward.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_AKTKBA311_04115_ENEMYSAHAGINA04115_000_230",
+    "original": "Pshhh... Why do you linger here, shhhorewalker? Leave us be, lessst one of my spawnbrothers grow unable to sssuffer your presence.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_AKTKBA311_04115_ENEMYSAHAGINB04115_000_235",
+    "original": "Pshhh! Shhhorewalker! Every moment longer you remain compounds the insult of your trespass. Begone, begone I say!",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_AKTKBA311_04115_NOLL_000_250",
+    "original": "Pshhh... I beg of you, friend shorewalker. Deliver my ssspawnbrother from that horrific fate...",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_AKTKBA311_04115_STHALRHET_000_255",
+    "original": "Did that fishback just turn into some monstrous fiend? What in the seven hells is going on here!?",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_AKTKBA311_04115_NOLL_000_300",
+    "original": "Pshhh... This is the second time you\u0027ve saved my life, shorewalker. My gratitude is as boundlesss as the sea.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_AKTKBA311_04115_NOLL_000_301",
+    "original": "But what of the Admiral? We must go to her aid!",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_350",
+    "original": "...I was too late. I am sorry.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_AKTKBA311_04115_NOLL_000_351",
+    "original": "Pshhh... There is no need for apologies. You are not resssponsible for my people\u0027s plight.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_AKTKBA311_04115_NOLL_000_352",
+    "original": "But what I cannot fathom is Doww\u0027s response. How \u003Chex:021A020203\u003Epleased\u003Chex:021A020103\u003E he was to see his brothers become slavering beasts!",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_353",
+    "original": "The fool believes it a blessing from Leviathan himself...",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_354",
+    "original": "Any hope for a peaceable solution will be lost should Doww and his Crushing Tide manage to wield these transformations as a weapon against us.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_AKTKBA311_04115_NOLL_000_355",
+    "original": "I shhhudder at the very thought. And yet the true threat, the blasphemy, is still out there, yes?",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_356",
+    "original": "Just so. The first ones to transform are those who have fallen into the deepest depths of despair. The more painful their anguish, the more fearsome and formidable they become in their bestial forms\u2500and the greater their influence over others.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_AKTKBA311_04115_NOLL_000_357",
+    "original": "Pshhh... We can ssscarcely hope to stand against a legion of such foes. Would that there was more my people could do to help...",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_358",
+    "original": "I will have the Maelstrom patrol the seas for the blasphemy, that we might slay it with all due haste.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_359",
+    "original": "But this may well amount to naught. If the blasphemy, too, was born from a Sahagin, it could be sheltering in the depths, beyond the reach of our ships.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_AKTKBA311_04115_NOLL_000_360",
+    "original": "In that case, pray allow my spawnbrothers and I to serve as your eyes beneath the sssea.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_361",
+    "original": "Thank you, Noll. Through our efforts combined, we might yet weather this threat.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_100_361",
+    "original": "As for your brothers who gave their lives today for our cause, I shall see that they are returned home to be laid to rest as they deserve.",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_AKTKBA311_04115_NOLL_200_361",
+    "original": "Pshhh... You have my gratitude, Admiral.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_362",
+    "original": "And with that, we should return as well. There is much work to be done, and would see it done quickly.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_AKTKBA311_04115_NOLL_000_365",
+    "original": "Pshhh... What a horrific sssight...",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_AKTKBA311_04115_STHALRHET_000_370",
+    "original": "All that I can do is defend this gate as best I can. Go in safety, friend.",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_400",
+    "original": "Ah, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I was just sharing our findings.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_401",
+    "original": "So you see, the danger is exactly as the Sahagin described.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_402",
+    "original": "While Doww and his ilk have no means of forcibly triggering the phenomenon at present, \u0027tis plain they intend to seek one out.",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_403",
+    "original": "Redouble our patrols offshore, and inform me at the first sign of anything out of the ordinary.",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_AKTKBA311_04115_LIMSASECRETARY_000_404",
+    "original": "It shall be done, Admiral.",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_405",
+    "original": "I worry that we may be stretching ourselves too thin. Should the situation take a turn for the worse, I will recall our forces from Garlemald\u2500yet I would reserve that as a last resort.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_AKTKBA311_04115_MERLWYB_000_406",
+    "original": "For now, I must get to work securing reinforcements. I ask that you remain close by\u2500we may have need of your strength all too soon.",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_AKTKBA311_04115_LIMSASECRETARY_000_410",
+    "original": "Oh, you\u0027ve returned. The Admiral was just briefing me on the events at the spawning grounds.",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_AKTKBA311_04115_NOLL_000_420",
+    "original": "Pshhh... I mussst take my fallen brother home...",
+    "translation": ""
+  }
+}

@@ -1,0 +1,542 @@
+{
+  "0": {
+    "tag": "TEXT_CHRHDY101_04652_SEQ_00",
+    "original": "The House Manderville manservant has been patiently waiting to speak with you.\u003Chex:02100103\u003E\u203BChanging classes or jobs will prevent progress during this quest.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_CHRHDY101_04652_SEQ_01",
+    "original": "With no small degree of trepidation, you approach the House Manderville manservant to offer your assistance in Godbert\u0027s weaponsmithing endeavor. The servant responds with deferent appreciation, and directs you towards their base of operations in a corner of the High Crucible.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BYou may not proceed with a class or job that is different from when you accepted this quest.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_CHRHDY101_04652_SEQ_02",
+    "original": "Upon reaching the crafting station, the manservant departs to inform Lord Manderville of your arrival. Godbert appears in short order, and after providing you with a brief history of Manderville weaponry, introduces you to the third member of your crew: the legendary blacksmith, Gerolt. Various obstacles yet stand in the way of Godbert and the recreation of his ancestor\u0027s armaments, and your particular task will be to acquire a sufficient quantity of manderium meteorite. According to Gerolt, the sky rocks in question might be available from one of Rowena\u0027s lackeys, Jubrunnah, who has set up shop near the city aetheryte. Suspiciously convenient.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_CHRHDY101_04652_SEQ_03",
+    "original": "You approach Jubrunnah, and find that the opportunistic merchant has a large quantity of meteorite pieces in stock. Gil is the preferred currency of collectors the world over, but not for Rowena\u0027s very special customer, oh no. It seems her agent has been instructed to charge you a sizable bounty of Allagan tomestones for each chunk of fantastically rare sky rock. And Gerolt will need three of them.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_CHRHDY101_04652_SEQ_04",
+    "original": "You deliver the manderium meteorite to the waiting blacksmith, who wastes no time in beginning the oil extraction process. The inert results are disappointing, to say the least. Godbert chooses that moment to make his appearance, treating a dumbfounded Gerolt to an outrageously masculine display of alchemy which transforms the liquid into glowing Exalamanderville. With all the necessary components now in place, Gerolt takes up his hammer, and succeeds in forging what is apparently only the first iteration of your chosen Manderville weaponry. Further refinements, however, will have to wait until Godbert has deciphered the next passage of his ancestor\u0027s manual. For the moment, it seems you are free to spend your time as you see fit. Embroiled in another madcap case, perhaps...?",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_CHRHDY101_04652_TODO_00",
+    "original": "Speak with the House Manderville manservant.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_CHRHDY101_04652_TODO_01",
+    "original": "Speak with Jubrunnah.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_CHRHDY101_04652_TODO_02",
+    "original": "Deliver the chunks of manderium meteorite to Gerolt.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_CHRHDY101_04652_SYSTEM_100_000",
+    "original": "Please note that upon completing the quest \u201CMake It a Manderville,\u201D you will receive a Manderville weapon for \u003Chex:0208B0E4E9450BFF15616E2002280EFF09436C6173734A6F62E9450103FF94020890E4E9450FFF15616E2002280EFF09436C6173734A6F62E9450103FF74020870E4E94506FF15616E2002280EFF09436C6173734A6F62E9450103FF54020850E4E9451BFF15616E2002280EFF09436C6173734A6F62E9450103FF34020830E4E94522FF15616E2002280EFF09436C6173734A6F62E9450103FF14612002280EFF09436C6173734A6F62E94501030303030303\u003E.",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_CHRHDY101_04652_SYSTEM_110_000",
+    "original": "Please ensure you have changed to your desired job before speaking with the House Manderville manservant.",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_CHRHDY101_04652_Q2_000_000",
+    "original": "What will you do?",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_CHRHDY101_04652_A2_000_000",
+    "original": "Undertake this quest as another job.",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_CHRHDY101_04652_A2_000_001",
+    "original": "Undertake this quest as \u003Chex:0208B0E4E9450BFF15616E2002280EFF09436C6173734A6F62E9450103FF94020890E4E9450FFF15616E2002280EFF09436C6173734A6F62E9450103FF74020870E4E94506FF15616E2002280EFF09436C6173734A6F62E9450103FF54020850E4E9451BFF15616E2002280EFF09436C6173734A6F62E9450103FF34020830E4E94522FF15616E2002280EFF09436C6173734A6F62E9450103FF14612002280EFF09436C6173734A6F62E94501030303030303\u003E.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_CHRHDY101_04652_SYSTEM_120_000",
+    "original": "Be advised that once you have undertaken this quest, you may not proceed with a class or job that is different from when you accepted it.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_CHRHDY101_04652_SYSTEM_130_000",
+    "original": "Please speak with the House Manderville manservant again when you are ready to undertake this quest.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_CHRHDY101_04652_SERVANT04652_000_000",
+    "original": "\u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E, how wonderful to finally speak with you. Your cooperation in Lord Manderville\u0027s weaponsmithing endeavor is highly appreciated.",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_CHRHDY101_04652_SERVANT04652_000_001",
+    "original": "Regarding said endeavor, we\u0027ve borrowed a corner of the High Crucible in which to base our crafting station. If you would be so kind as to follow me?",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_CHRHDY101_04652_SERVANT04652_000_010",
+    "original": "Our humble base of operations.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_CHRHDY101_04652_SERVANT04652_100_010",
+    "original": "You will no doubt be coming back and forth many times in the days ahead, so I strongly suggest that you attune to the city Aethernet...if you\u0027ve not done so already.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_CHRHDY101_04652_SERVANT04652_000_011",
+    "original": "Otherwise, I trust you are all set to proceed? One moment whilst I inform Lord Manderville of your arrival.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_020",
+    "original": "Oho! Welcome, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, welcome! With your stalwart assistance added into the mix, I have every confidence that this adventure in forging will be a complete success!",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_021",
+    "original": "And so, let us begin...with a detailed exposition on the history of Manderville weaponry!",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_022",
+    "original": "First of all, when I say \u201CManderville weaponry,\u201D what I refer to is the series of masterpieces crafted by the legendary artisan, Godbrand Manderville, the first lord of House Manderville.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_023",
+    "original": "Made with mystical manderium, these purportedly peerless armaments are perhaps our most prized treasures...or at least they were, until someone misplaced them. Terrible housekeeping, that. Fortunately, the timeworn manual in which Godbrand penned his secrets is both intact and still within our possession.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_024",
+    "original": "Thus with that precious family heirloom in hand\u2500and a ready supply of purest ore\u2500I intend to recreate what was lost!",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_025",
+    "original": "The work, however, cannot proceed without a few more key ingredients. I should like to call upon you to procure said materials, as well as provide a seasoned adventurer\u0027s perspective on the fruits of our labor.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_026",
+    "original": "Excellent! I knew I could count on you. As a goldsmith, crafting weaponry is akin to venturing into unknown territory, and I would place my trust only in the most proficient guides.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_027",
+    "original": "Speaking of which, may I introduce one of the very best in the business. Come on over, my friend!",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_030",
+    "original": "Ugh, bloody hells...I had a feelin\u0027 you were the \u201Cadventurer\u201D his lordship mentioned was helpin\u0027 out. Like a fly on shite when ye catch a whiff of shiny new weapons, ain\u0027t ye? \u003Csigh\u003E",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_031",
+    "original": "Pleased to meet ye an\u0027 all that. The name\u0027s Gerolt. I suppose we\u0027ll be workin\u0027 together on this excitin\u0027 little project of his lordship. \u003Csigh\u003E",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_CHRHDY101_04652_Q1_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_CHRHDY101_04652_A1_000_000",
+    "original": "You don\u0027t seem too eager to be here...",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_CHRHDY101_04652_A1_000_001",
+    "original": "Come on, this\u0027ll be fun!",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_040",
+    "original": "An\u0027 why should I be!? Look at this gil-addled dandy I\u0027m forced to hammer fer. I\u0027d rather drag me stones \u0027cross hot coals than forge yet another rich old bastard\u0027s trinkets.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_041",
+    "original": "Oh, aye, like a barrelful o\u0027 plague-ridden paissas. Look at this gil-addled dandy I\u0027m forced to hammer fer. I\u0027d rather drag me stones \u0027cross hot coals than forge yet another rich old bastard\u0027s trinkets.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_050",
+    "original": "Is that the way of it, then? I contacted Rowena hoping to employ the talents of Eorzea\u0027s finest smith...",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_051",
+    "original": "But as you clearly have no interest in providing me with your services, I shall hire another artisan. We can put this talk of stones and coals behind us...",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_053",
+    "original": "Wait, wait, wait, ye\u0027ve got me all wrong, yer lordship! That was just a bit o\u0027 smitty humor to lighten the mood! I would be \u003Chex:021A020203\u003Ehonored\u003Chex:021A020103\u003E to work on yer trink\u2500er, Manderville weapon!",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_054",
+    "original": "Ugh, so here\u0027s the thing... I already spent the coin this job\u0027ll bring me on some right fancy bottles o\u0027 Thavnairian liquor. I can\u0027t afford \u003Chex:021A020203\u003Enot\u003Chex:021A020103\u003E to do it.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_055",
+    "original": "So that means we\u0027re back in business, yes? Marvelous!",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_056",
+    "original": "Aye, it\u0027s bloody splendid, it is. Yer crew is all present an\u0027 accounted fer, so let\u0027s get to smithin\u0027!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_057",
+    "original": "There is naught I\u0027d like to do more. Presently, however, there are three conundrums which stand between us and making any Manderville armament a reality.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_058",
+    "original": "The first of these is the devising of a method for working the manderium. From what I\u0027ve been able to decipher from the manual, the process is quite demanding.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_059",
+    "original": "Ye jus\u0027 leave that to ol\u0027 Gerolt. I\u0027ve yet to meet a metal I can\u0027t beat into shape.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_060",
+    "original": "Oho! Then I shall cede that chore to your artisanal ingenuity!",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_061",
+    "original": "The second is the crafting of ornamentation which will amplify the weapon\u0027s aetheric intensity.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_062",
+    "original": "If it\u0027s a sturdy blade ye need, then I\u0027m yer man. But fiddly bits o\u0027 decoration are not in me smithin\u0027 wheelhouse.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_063",
+    "original": "Then \u0027tis fortunate that fiddling with bits is most assuredly in mine! Though it shall no doubt be a challenge, creating suitably exquisite adornments is a task well suited to me and my goldsmithing hammer.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_064",
+    "original": "As for the third and final problem wanting for resolution, we require a vial of Exalamanderville. If one has access to an industrial-size alchemical furnace, it should be possible to extract this superlative mineral oil from manderium-rich meteorites.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_065",
+    "original": "Assumin\u0027 I\u0027ve understood what I heard o\u0027 the process, this exalamandra-whatsit oil is key to maximizin\u0027 aetherial conductivity.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_066",
+    "original": "And thanks to the good graces of the High Crucible, we have the extraction apparatus we require right here. All that remains is to collect three or so goodly chunks of manderium meteorite. That will be your charge, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_067",
+    "original": "Right, then I will see about preparing materials for my share of the workload.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_068",
+    "original": "An\u0027 I\u0027ll start stokin\u0027 the flames. Sounds like we\u0027ll need \u0027em nice an\u0027 hot.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_069",
+    "original": "Oh, Rowena asked me to tell ye summat. Seems like one o\u0027 her lackeys has oh-so-bloody-conveniently set up shop over by the aetheryte, an\u0027 jus\u0027 might have the meteorite chunks we need.",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_070",
+    "original": "Lass by the name o\u0027 Jubrunnah, I think it was. Could save ye some searchin\u0027, but she sure as shite ain\u0027t givin\u0027 out sky rocks fer free.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_072",
+    "original": "Jubrunnah. In the aetheryte plaza. I expect she\u0027s got the meteorite chunks ye need, but like I said, they won\u0027t come cheap.",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_CHRHDY101_04652_JUBRUNNAH_000_080",
+    "original": "You must be the famous \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Mistress Rowena said to expect you, and to assist with any procurement requests.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_CHRHDY101_04652_JUBRUNNAH_000_081",
+    "original": "Manderium meteorite? Why, yes, we happen to have cornered the market on that particular asset.",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_CHRHDY101_04652_JUBRUNNAH_000_082",
+    "original": "Only so many of them fall from the sky, you see, and collectors offer top gil for such rarities. In your case, however, I\u0027ve been instructed to request payment in an alternative currency. Say it with me now...",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_CHRHDY101_04652_JUBRUNNAH_000_083",
+    "original": "Allagan. Tome. Stones.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_CHRHDY101_04652_JUBRUNNAH_000_084",
+    "original": "The going rate is 500 \u003Chex:023111FF054974656D04FF06E380803238030203\u003E for one chunk of manderium meteorite. I\u0027ll be here whenever you\u0027re ready to make the trade.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_085",
+    "original": "Do ye have them chunks of sky rock yet? ...Then why are ye wastin\u0027 time gabbin\u0027 to me?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_CHRHDY101_04652_SYSTEM_000_086",
+    "original": "Chunks of manderium meteorite can be obtained from Jubrunnah at the aetheryte plaza in Radz\u003Chex:021F0103\u003Eat\u003Chex:021F0103\u003EHan.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_090",
+    "original": "Well? Don\u0027t jus\u0027 stand there with yer thumb up yer arse. Let\u0027s see the goods.",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_091",
+    "original": "Aye, these are proper sky rocks, an\u0027 no mistake. Godbert\u0027s not back yet, but I reckon we can get a head start on extractin\u0027 that special oil o\u0027 his!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_100",
+    "original": "Bugger. This might as well be cookin\u0027 grease fer all the conductivity it\u0027s got.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_101",
+    "original": "I must\u0027ve botched one o\u0027 the steps. But which one? Pretty sure I followed them instructions to the damn letter.",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_102",
+    "original": "(-Godbert-)There was no fault in your process, Master Gerolt!",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_103",
+    "original": "Oh? Then how do ye explain this bottle o\u0027 weak piss sittin\u0027 on me anvil?",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_104",
+    "original": "It has yet to undergo the final treatment\u2500an advanced oil-pressing technique passed down through generations of Manderville lubricant enthusiasts.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_105",
+    "original": "Hmph... It\u0027ll take more\u0027n some enthusiastic oil pressin\u0027 to bring this liquid up to snuff.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_106",
+    "original": "O ye of little faith. Observe!",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_107",
+    "original": "Egads, man, what in the hells are ye strippin\u0027 down to yer smallclothes fer!? I should\u0027ve known ye were jus\u0027 some degenerate fop!",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_108",
+    "original": "Patience, Master Gerolt! This is merely the prelude.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_109",
+    "original": "Behold the mighty squats of a Manderville man!",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_110",
+    "original": "That should be enough to get the juices flowing. Now, to demonstrate the aforementioned technique!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_111",
+    "original": "A single drop...of potently empowered...Manderville perspiration!",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_112",
+    "original": "Ye gods, it\u0027s full o\u0027 stars...",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_113",
+    "original": "B-But that don\u0027t change anythin\u0027! Yer still jus\u0027 an eccentric ol\u0027 bugger prancin\u0027 about an\u0027 sweatin\u0027 on things!",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_114",
+    "original": "Maybe so, but look closer, Master Gerolt. Thus is the Exalamanderville made ready!",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_115",
+    "original": "What d\u0027ye mean, \u201Cready\u201D? All ye did was add yer drippings...",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_100_116",
+    "original": "B-Bugger me!",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_117",
+    "original": "It ain\u0027t possible... Don\u0027t s\u0027pose yer gonna explain this, are ye?",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_118",
+    "original": "One does not simply reveal the tricks of one\u0027s trade, especially long-guarded family traditions. As a fellow professional, I\u0027m sure you understand.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_119",
+    "original": "Aye, well...makes no difference to me! Wouldn\u0027t be caught dead doin\u0027 them creepy poses!",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_120",
+    "original": "Bracing banter aside, I do believe this puts us in possession of all the necessary components. \u0027Tis your time to shine, Master Gerolt!",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_121",
+    "original": "Oh, I\u0027ll shine, alright. Yer a cut above the average craftsman, I\u0027ll grant you that, but ye\u0027ve still a few rungs to climb.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_122",
+    "original": "Best shield yer eyes, \u003Chex:02081CE905FF116C616469657320616E642067656E7473FF0667656E747303\u003E, \u0027cause \u003Chex:021A020203\u003Emy\u003Chex:021A020103\u003E work is positively blindin\u0027!",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_200",
+    "original": "Success! Just as I predicted!",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_201",
+    "original": "That right there is a collaborative masterpiece...",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_202",
+    "original": "\u003Chex:022B12FF1002310CFF054974656D03E80202020303\u003E an\u0027 \u003Chex:02310CFF054974656D03E803020203\u003E!",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_203",
+    "original": "\u003Chex:022B12FF1002310CFF054974656D03E80202020303\u003E!",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_204",
+    "original": "That I would live to see my ancestor\u0027s wondrous forge work recreated... You\u0027ve made me a happy Manderville man, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_205",
+    "original": "Let\u0027s not break out the bubbly booze jus\u0027 yet, yer lordship. We\u0027ve got a ways to go afore we can call our work \u201Cfinished.\u201D",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_206",
+    "original": "Master Gerolt is quite right. I\u0027ve neglected to properly explain that this is but the first stage of a much grander creation\u2500the bare bones of the weaponry, if you will.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_207",
+    "original": "Aye, now begins the endless chore o\u0027 refinement. Which means I\u0027ll be stuck here fer gods know how long...",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_207",
+    "original": "I am loath to monopolize your time, my good blacksmith, but the manual is written in a most confounding cipher. I am not even certain when I will finish decoding the next step in the process...",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_208",
+    "original": "So I\u0027m to sit idle, then? At least I\u0027ve a few bottles of quality liquor to keep me company, heh heh!",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_209",
+    "original": "A regrettable yet unavoidable delay. Let us reconvene when the manual has given up its secrets, shall we?",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_210",
+    "original": "Meanwhile, I leave the weaponry in your battle-hardened hands. When next we meet, your report of its performance will be indispensable in guiding our improvements.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_211",
+    "original": "Ah, and should you wish to experiment with a different variety of Manderville weapon...",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_212",
+    "original": "...Then this highly trained House Manderville artisan is at your service. I\u0027ve imparted to him the necessary techniques for facilitating this initial stage of crafting. He requires only a contribution of manderium meteorite to forge a weapon of your choosing.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_100_212",
+    "original": "Another near-naked bastard! What do ye Manderville folk have against trousers!?",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_150_212",
+    "original": "Ohohoho!",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_CHRHDY101_04652_GEROLT_000_213",
+    "original": "Ye know what, I don\u0027t even wanna know, jus\u0027...leave the smithin\u0027 to me. When I do a job, I do it right.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_CHRHDY101_04652_GODBERT_000_214",
+    "original": "Very well, then I shall return anon. I am most eager to see the next stage of our masterpiece take shape!",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_CHRHDY101_04652_SYSTEM_000_216",
+    "original": "A repeatable quest is now available from the House Manderville artisan at the High Crucible of Al-Kimiya. This quest may be accepted to create Manderville weapons for other jobs.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_CHRHDY101_04652_SYSTEM_000_217",
+    "original": "Please ensure you have changed to your desired job before speaking with the House Manderville artisan.",
+    "translation": ""
+  }
+}

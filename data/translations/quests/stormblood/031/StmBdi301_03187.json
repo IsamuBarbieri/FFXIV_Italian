@@ -1,0 +1,887 @@
+{
+  "0": {
+    "tag": "TEXT_STMBDI301_03187_SEQ_00",
+    "original": "The worried look on Lina Mewrilah\u0027s face suggests she bears grave tidings. Or not.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_STMBDI301_03187_SEQ_01",
+    "original": "Alma is unwell, but as to what ails her, none can say. Lina suggests you continue your conversation on the \u003Chex:021A020203\u003EPrima Vista\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_STMBDI301_03187_SEQ_02",
+    "original": "Jenomis is near a decision on where to next take his expedition, or at least so Lina believes.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_STMBDI301_03187_SEQ_03",
+    "original": "According to Jenomis\u0027s newest findings, the auracite are creations of an otherworldly being sealed beneath the Orbonne Monastery\u2500an ancient sanctuary deep within the heart of a Dalmascan jungle. During the principal\u0027s speech, Cid appears to deliver Mikoto a device she requisitioned the chief engineer to build, then leaves without as much as a farewell.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_STMBDI301_03187_SEQ_04",
+    "original": "The device conceived by Mikoto is, in fact, a means of protecting Alma from the aetherial influence of the Otius.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_STMBDI301_03187_SEQ_05",
+    "original": "Former royal fusilier and sky pirate Bwagi invites you aboard his airship that he may take you to speak with a general for the resistance movement to which he and his companions now belong.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_STMBDI301_03187_SEQ_06",
+    "original": "General Fran of the Dalmascan resistance group, Lente\u0027s Tears, promises her assistance in locating the Orbonne Monastery in return for financial and military aid from both the Eorzean and Doman alliances, and the East Aldenard Trading Company.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_STMBDI301_03187_SEQ_07",
+    "original": "Montblanc appears both frightened and excited at the notion of aiding the Dalmascan resistance in their plight against the Garlean Empire; though, perhaps you should speak with Jenomis first before sharpening your blade.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_STMBDI301_03187_TODO_00",
+    "original": "Ride the transport shuttle to the \u003Chex:021A020203\u003EPrima Vista\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_STMBDI301_03187_TODO_01",
+    "original": "Ride the transport shuttle to the \u003Chex:021A020203\u003EPrima Vista\u003Chex:021A020103\u003E.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_STMBDI301_03187_TODO_02",
+    "original": "Speak with Mikoto.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_STMBDI301_03187_TODO_03",
+    "original": "Speak with Bwagi down on Kugane landing.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_STMBDI301_03187_TODO_04",
+    "original": "Speak with Bwagi again.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_STMBDI301_03187_TODO_05",
+    "original": "Speak with Montblanc.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_STMBDI301_03187_LINAMEWRILAH_000_000",
+    "original": "Greetings and salutations, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! I suppose you are wondering whether or not the good Jenomis has finally determined where in the world our next adventure is to take us...",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_STMBDI301_03187_LINAMEWRILAH_000_001",
+    "original": "The good news is, he has. The bad news, however...",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_STMBDI301_03187_LINAMEWRILAH_000_002",
+    "original": "Now, while it is not in my nature to be sensationalist, sensationalism \u003Chex:021A020203\u003Eis\u003Chex:021A020103\u003E in my job description, so please bear with me when I tell you not all is right aboard the airship Lexentale. Something about Alma has me deeply worried.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_STMBDI301_03187_LINAMEWRILAH_000_003",
+    "original": "I would not trust this information in the hands of my publisher, let alone some sullen gate guard. Shall we continue our conversation on the \u003Chex:021A020203\u003EPrima Vista\u003Chex:021A020103\u003E away from inquisitive ears?",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_STMBDI301_03187_LINAMEWRILAH_000_010",
+    "original": "Principal Jenomis claims to have learned much from his continued study of the Durai Papers. Still, he appears to be frustrated at a lack of information crucial to solving the mystery.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_STMBDI301_03187_AIRSHIPGUIDE03003_000_020",
+    "original": "Shall I prepare the shuttle for you, \u003Chex:020815E905FF086D79206C616479FF086D79206C6F726403\u003E?",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_STMBDI301_03187_Q1_000_000",
+    "original": "Board the \u003Chex:021A020203\u003EPrima Vista\u003Chex:021A020103\u003E?",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_STMBDI301_03187_JENOMISLEXENTALE_000_100",
+    "original": "The question is, then, where exactly did Ramza and his fellowship journey next?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_STMBDI301_03187_JENOMISLEXENTALE_000_101",
+    "original": "Ah, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. To what do we owe this unexpected visit? I had not planned on summoning you for another several turns of the sun.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_STMBDI301_03187_RAMZALEXENTALE_000_102",
+    "original": "I apologize if we have caused you any worry. I suppose one cannot allow a reporter in their midst and not expect her to report what she sees...though I did expect a tad more discretion from Miss Mewrilah.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_STMBDI301_03187_RAMZALEXENTALE_000_103",
+    "original": "Alma has, as of late, been experiencing...difficulties with her health. Chirurgeons have been called upon to discern what exactly it is that ails her, but as far as they can tell, there is nothing physically wrong with my sister. The consensus is the rigors of an extended stay in a foreign land have taken their toll on her fragile heart.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_STMBDI301_03187_ALMALEXENTALE_000_104",
+    "original": "\u003Chex:022C0DFF07022903EB0203FF02200203\u003E! When did you\u2500",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_STMBDI301_03187_RAMZALEXENTALE_000_105",
+    "original": "Alma!",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_STMBDI301_03187_ALMALEXENTALE_000_106",
+    "original": "I\u0027m fine, Brother.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_STMBDI301_03187_RAMZALEXENTALE_000_107",
+    "original": "It is obvious you are not! You must return to your chambers and rest!",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_STMBDI301_03187_ALMALEXENTALE_000_108",
+    "original": "Forgive me. Perhaps we shall speak again once I regain my strength. Until then, please... Look after my father.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_STMBDI301_03187_JENOMISLEXENTALE_000_109",
+    "original": "Now then, where were we? Ah, yes. The matter of our next expedition.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_STMBDI301_03187_JENOMISLEXENTALE_000_110",
+    "original": "As we discovered during our most recent foray into the Estersands, the Dalmascan capital of Rabanastre appears to lie upon the ruins of what can only be the Royal City of Lesalia\u2500ancient capital of the lost kingdom of Ivalice.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_STMBDI301_03187_JENOMISLEXENTALE_000_111",
+    "original": "Shortly after, we stumbled across remnants of the legendary Clockwork City of Goug cleverly repurposed into a lighthouse overlooking the Ridorana Cataract\u2500remnants which now sit suspended above the fathomless chasm.",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_STMBDI301_03187_JENOMISLEXENTALE_000_112",
+    "original": "Lesalia, Goug. What have they in common, you ask? I shall tell you\u2500they both appear in my ancestor\u0027s account of the rise of Ivalice: the Durai Papers.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_STMBDI301_03187_JENOMISLEXENTALE_000_113",
+    "original": "And with each new discovery, this forbidden chronicle is now proving Ivalician legend to be more fact than faerie tale.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_STMBDI301_03187_JENOMISLEXENTALE_000_114",
+    "original": "There is no denying the proof, and it is but a matter of time before scholars and historians from across the realm come to the same conclusions.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_STMBDI301_03187_JENOMISLEXENTALE_000_115",
+    "original": "But as you all are aware, my aim has never been to simply prove the existence of Ivalice. No, I shall not rest till I have revealed the truth of young Ramza\u0027s role in King Delita\u0027s ascension, and cleared my ancestor Orran Durai of the false accusations made against him by the church.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_STMBDI301_03187_Q2_000_000",
+    "original": "How do you respond?",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_STMBDI301_03187_A2_000_001",
+    "original": "Then what are we waiting for?",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_STMBDI301_03187_A2_000_002",
+    "original": "Should we not see to Alma first?",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_STMBDI301_03187_JENOMISLEXENTALE_000_120",
+    "original": "I have a possible destination in mind. Arriving there safely, however, is another matter. To that end, I have enlisted the aid of our company\u0027s newest members.",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_STMBDI301_03187_RAMZALEXENTALE_000_121",
+    "original": "Despite my pleas to do otherwise. Who knows what trouble those two will see us into?",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_STMBDI301_03187_JENOMISLEXENTALE_000_130",
+    "original": "Kugane\u0027s chirurgeons would have us believe she is in no immediate danger, as her illness is not one of the body, but of the mind. To borrow their words, her spirit is in a state of unbalance and merely requires time to right itself.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_STMBDI301_03187_RAMZALEXENTALE_000_131",
+    "original": "Alma will be fine as long as she remains in bed. The last thing she needs is any further excitement...especially at the paws of these meddlesome mole-bats.",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_STMBDI301_03187_RAMZALEXENTALE_000_140",
+    "original": "Though, I must admit, both Montblanc and his brother have proven more useful than I would ever have dared to imagine.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_STMBDI301_03187_MONTBLANC_000_141",
+    "original": "When it comes to usefulness, I am first in the field...or was it furriest in the field? Would you like to feel my fur, kupo?",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_STMBDI301_03187_HURDY_000_142",
+    "original": "And you wonder why Ramza despises you so, Brother! They do all the work, and all you do is jest, kupo!",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_STMBDI301_03187_RAMZALEXENTALE_000_143",
+    "original": "Ah, but you are mistaken, Hurdy. I bear neither you nor your brother any ill will. Any \u003Chex:021A020203\u003Efurther\u003Chex:021A020103\u003E ill will, that is. If anything, I owe you my thanks for your recent contributions.",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_STMBDI301_03187_LINAMEWRILAH_000_144",
+    "original": "His \u003Chex:021A020203\u003Ethanks\u003Chex:021A020103\u003E? Are you hearing what I\u0027m hearing? What happened to the venom-spitting adder we all used to know and hate?",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_STMBDI301_03187_LINAMEWRILAH_000_145",
+    "original": "Alma certainly seems pleased with the change, but forgive me for not buying into this all-too-convenient transformation.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_STMBDI301_03187_JENOMISLEXENTALE_000_146",
+    "original": "Simply showing the world that Ivalice actually existed will not validate the claims chronicled in the Durai Papers.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_STMBDI301_03187_RAMZALEXENTALE_000_147",
+    "original": "That is correct, Father. The key lies with Ramza Beoulve. If we can find evidence of his hidden role in history, it will prove Orran\u0027s testimony true and safeguard our family name from ridicule.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_STMBDI301_03187_JENOMISLEXENTALE_000_148",
+    "original": "Which is why I turned the focus of my research to Delita\u0027s forgotten companion and his actions during the War of the Lions. It was only then I discovered something most intriguing\u2500an underlying struggle with an unknown force, a force with the power to bring about calamitous ruin.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_STMBDI301_03187_RAMZALEXENTALE_000_149",
+    "original": "Auracite! The twisted abominations we encountered in both Lesalia and Goug\u2500the Lucavi\u2500they are born of these unholy crystals.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_STMBDI301_03187_RAMZALEXENTALE_000_150",
+    "original": "While nobles of the north and south squabbled over Ivalice\u0027s crown, Ramza silently sought to rid the world of a darker evil\u2500evil manifest from the deepest desires of men and women whose minds had fallen prey to the auracite.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_STMBDI301_03187_JENOMISLEXENTALE_000_151",
+    "original": "And with each confrontation did Ramza\u0027s fellowship grow smaller. Countless companions lost to a cause that would go unwritten, yet was far more important than any clash of armies. And so did they endure, until reaching their final destination: the Orbonne Monastery.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_STMBDI301_03187_LINAMEWRILAH_000_152",
+    "original": "Oh, I know this one! The Orbonne Monastery is where Princess Ovelia was raised! There is a scene about it in \u003Chex:021A020203\u003EThe Zodiac Brave Story\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_STMBDI301_03187_LINAMEWRILAH_000_153",
+    "original": "After Delita emerged victorious in his final campaign, he married the princess to legitimize his claim to the throne of Ivalice.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_STMBDI301_03187_JENOMISLEXENTALE_000_154",
+    "original": "Ah, I see someone has been paying attention.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_STMBDI301_03187_LINAMEWRILAH_000_155",
+    "original": "But I don\u0027t understand. Why would Ramza\u0027s crusade against the Lucavi take him back there?",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_STMBDI301_03187_RAMZALEXENTALE_000_156",
+    "original": "According to the Durai Papers, the sinister being who engendered the auracite was said to have slumbered beneath the monastery.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_STMBDI301_03187_MIKOTO_000_157",
+    "original": "But who...or what would have the means to create something so powerful?",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_STMBDI301_03187_JENOMISLEXENTALE_000_158",
+    "original": "Ultima, the High Seraph.",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_STMBDI301_03187_LINAMEWRILAH_000_159",
+    "original": "A seraph!? Er...what\u0027s a seraph?",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_STMBDI301_03187_JENOMISLEXENTALE_000_160",
+    "original": "Seraphs are believed by some to be servants of the gods\u2500divine beings whose only purpose is to carry out the will of their immortal masters. As to whether or not Ultima can claim this title, however, I cannot say.",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_STMBDI301_03187_JENOMISLEXENTALE_000_161",
+    "original": "Just as there were those who chose to worship Ultima and her otherworldly might, there were equally as many who feared the visitor and her deadly magicks, oft referring to her as the \u201CAngel of Blood\u201D for the carnage left in her wake.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_STMBDI301_03187_MIKOTO_000_162",
+    "original": "Interesting... What if the spell \u003Chex:022C0DFF07022903EB0203FF02200203\u003E claims to have experienced in the Praetorium\u2500coincidentally also called Ultima\u2500was, in fact, an Allagan interpretation of the very magicks introduced to Hydaelyn by the High Seraph?",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_STMBDI301_03187_LINAMEWRILAH_000_163",
+    "original": "But that would mean... What would that mean?",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_STMBDI301_03187_MIKOTO_000_164",
+    "original": "I have spoken with several colleagues back in Sharlayan regarding their opinions on the ancient incantation, and while they yet have little to show for their research, they all agree on one thing: the manner in which Ultima aetherially manifests should not be possible...at least on Hydaelyn.",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_STMBDI301_03187_MIKOTO_000_165",
+    "original": "So it would naturally make sense if we discovered that the Allagans learned the spell from a being not of this dimensional plane. As to exactly \u003Chex:021A020203\u003Ehow\u003Chex:021A020103\u003E they convinced the being to impart that knowledge unto them...",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_STMBDI301_03187_LINAMEWRILAH_000_166",
+    "original": "Not of this plane? What manner of creature are we talking about here?",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_STMBDI301_03187_CID_000_167",
+    "original": "Likely one similar to Omega.",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_STMBDI301_03187_JENOMISLEXENTALE_000_168",
+    "original": "How long have you been listening from the shadows, my friend?",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_STMBDI301_03187_CID_000_169",
+    "original": "Long enough. I am here to deliver the item Mikoto requested.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_STMBDI301_03187_MIKOTO_000_170",
+    "original": "Cid! There was no need for you to deliver it personally. A moogle would have sufficed.",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_STMBDI301_03187_CID_000_171",
+    "original": "A moogle? And trust that he won\u0027t tear open the package and show it to some random adventurer? No, this was far too important.",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_STMBDI301_03187_LINAMEWRILAH_000_172",
+    "original": "If you two do not mind, the principal was about to tell us how to find the Orbonne Monastery.",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_STMBDI301_03187_JENOMISLEXENTALE_000_173",
+    "original": "Would that I could...",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_STMBDI301_03187_LINAMEWRILAH_000_174",
+    "original": "You don\u0027t know!? Then what have we been doing here?",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_STMBDI301_03187_RAMZALEXENTALE_000_175",
+    "original": "At ease, Lady Mewrilah. The Durai Papers speak of a cataract situated on the River Zeirchele, several leagues southeast of Rabanastre. There supposedly lies the monastery.",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_STMBDI301_03187_RAMZALEXENTALE_000_176",
+    "original": "Zeirchele is not a name you will find on any modern Dalmascan map. Rivers, however\u2500especially ones as large as the Zeirchele is established to be\u2500are rare in a nation more than half-claimed by the sand. The river we seek can only be that which bisects Golmore on the Nagxian border.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_STMBDI301_03187_RAMZALEXENTALE_000_177",
+    "original": "And for that invaluable information, we owe thanks to our brothers moogle. Their travels have made them veritable authorities on Dalmascan geography.",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_STMBDI301_03187_LINAMEWRILAH_000_178",
+    "original": "Wait, but earlier you claimed you \u003Chex:021A020203\u003Edidn\u0027t\u003Chex:021A020103\u003E know the monastery\u0027s whereabouts. I\u0027m confused...",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_STMBDI301_03187_RAMZALEXENTALE_000_179",
+    "original": "Its location is not what concerns me... But perhaps the moogles themselves should explain.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_STMBDI301_03187_MONTBLANC_000_180",
+    "original": "Why, certainly! That verdant valley of vines and vipers to where we must voyage next is home to the Viera\u2500and therein lies our little problem. The one thing the Viera do not suffer is trespassers, not even lovable moogles, kupo!",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_STMBDI301_03187_HURDY_000_181",
+    "original": "Our glamours kept us hidden long enough to see the jungle was teeming with ruins much like those we\u0027ve discovered in Lesalia and Goug, but the Viera trackers eventually found us and took us before their elders. We barely escaped with our poms, kupo!",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_STMBDI301_03187_LINAMEWRILAH_000_182",
+    "original": "So \u003Chex:021A020203\u003Ethat\u003Chex:021A020103\u003E is why we are still here talking instead of bound for the border.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_STMBDI301_03187_JENOMISLEXENTALE_000_183",
+    "original": "There are Viera who have spurned the strict code of their tribes, abandoning their people to come and live in the cities of Dalmasca. Finding and recruiting one to our cause might provide us with insight into how to reach the Orbonne Monastery ruins.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_STMBDI301_03187_RAMZALEXENTALE_000_184",
+    "original": "Unfortunately, the nation\u0027s current turmoil has not made it easy to accomplish this task. We still require more time...",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_STMBDI301_03187_CID_000_185",
+    "original": "Before boarding the shuttle here I was stopped by a Bangaa on the docks. He asked me if I knew a \u003Chex:022903EB0203\u003E and bid I deliver \u003Chex:02080DE905FF04686572FF0468696D03\u003E a message.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_STMBDI301_03187_CID_000_186",
+    "original": "I told him he was welcome to accompany me to the \u003Chex:021A020203\u003EPrima Vista\u003Chex:021A020103\u003E so that he might deliver that message himself, but the man refused.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_STMBDI301_03187_CID_000_187",
+    "original": "Mikoto. I saw this device crafted to your exact specifications, but cannot guarantee that it will function as intended, seeing as I had nary a subject to test it on.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_STMBDI301_03187_MIKOTO_000_188",
+    "original": "Of course, Master Cid. If any trouble is met, then most likely it is my design that is to blame.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_STMBDI301_03187_CID_000_189",
+    "original": "Your confidence in my craftsmanship is flattering, but you sell yourself too short, my dear. Here\u0027s to your success. Good day!",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_STMBDI301_03187_MONTBLANC_500_000",
+    "original": "You won\u0027t believe this, but since our \u003Chex:021A020203\u003Etime\u003Chex:021A020103\u003E together in the clockwork city, Ramza and I have grown inseparable! Why, I\u0027d consider him a closer companion now than even my good brother, Hurdy! (Just don\u0027t let Hurdy know that, kupo!)",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_STMBDI301_03187_MIKOTO_000_200",
+    "original": "I sense that you are interested in the package Cid delivered. I have every intention to apprise you of its contents, but first I believe we should speak of Alma\u0027s condition.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_STMBDI301_03187_MIKOTO_000_201",
+    "original": "Do you not find her illness all too timely? Jenomis and Ramza would like to believe that her bouts of vertigo are naught but a result of a mind fatigued, but the answer is clear: it is the auracite that plagues her.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_STMBDI301_03187_MIKOTO_000_202",
+    "original": "Alma recently confided in me that she would hear her father speaking with the Otius, well before even his first foray into Rabanastre. However, I do not think this entirely true.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_STMBDI301_03187_MIKOTO_000_203",
+    "original": "Which is not to imply that Alma is trying to deceive us. Rather, I think she saw something that led her to believe her father was conversing with the auracite. Moreover, I suspect it was the \u003Chex:021A020203\u003Eauracite itself\u003Chex:021A020103\u003E that granted her this vision.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_STMBDI301_03187_MIKOTO_000_204",
+    "original": "You recall my hypothesis on distinct-frequency NRR\u003Chex:021F0103\u003Etype harmonic vibrations and their tendency to promote aetherial amplification? Or when I mentioned that despite being in the principal\u0027s possession for an extended period, the Otius exhibited none of the imprinting present in the Duma? No?",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_STMBDI301_03187_MIKOTO_000_205",
+    "original": "The Otius has \u003Chex:021A020203\u003Enever\u003Chex:021A020103\u003E resonated with Jenomis; it has always been his wife\u0027s pendant and its auracite shard\u2500the Virgo\u2500that fueled his passion for Ivalice. No, the Otius is bound to \u003Chex:021A020203\u003EAlma\u0027s\u003Chex:021A020103\u003E deepest desires...whatever those may be.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_STMBDI301_03187_MIKOTO_000_206",
+    "original": "The only reasons I can fathom that Alma has not fallen victim to the auracite\u0027s grasp is that her desires are not as strong as those we have witnessed in Argath or Ba\u0027Gamnan. That and the aetherial interference caused by other nearby shards.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_STMBDI301_03187_MIKOTO_000_207",
+    "original": "I have explained all of this to Alma and recommended that she destroy the necklace, yet not only did she refuse, but she begged me to keep this revelation from her father.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_STMBDI301_03187_MIKOTO_000_208",
+    "original": "And so I did the only thing I could: I devised a means with which I might impede, or at least lessen, the effects of the Otius.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_STMBDI301_03187_MIKOTO_000_209",
+    "original": "This device, while still incomplete, will amplify the NRR wavelengths emitted by the Virgo. This should work to interfere with those emitted by the Otius, thereby shielding Alma from the brunt of their effect.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_STMBDI301_03187_MONTBLANC_000_210",
+    "original": "The city below is all abuzz with word of a Bangaa brigand loitering about the airship landing. Do you think it could be someone we know, kupo?",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_STMBDI301_03187_MONTBLANC_500_010",
+    "original": "It \u003Chex:021A020203\u003Ewas\u003Chex:021A020103\u003E Bwagi and his companions! Perhaps they know of the Orbonne Monastery! Sky pirates are bound to have traveled the whole of Dalmasca on their many misdeeds.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_STMBDI301_03187_BWAGI_000_240",
+    "original": "Apologies, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, but I needed to speak with you...and you alone.",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_STMBDI301_03187_MONTBLANC_000_241",
+    "original": "Oh don\u0027t mind me, kupo! I\u0027ll just be floating over here in perfect earshot.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_STMBDI301_03187_BWAGI_000_242",
+    "original": "Why you\u2500! What makes you think I won\u0027t lay you low, right here, right now?",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_STMBDI301_03187_MONTBLANC_000_243",
+    "original": "Because we\u0027re here to offer you a proposition, that\u0027s what! We need information on the Golmore Jungle, and thought a man as \u003Chex:021A020203\u003Ewell traveled\u003Chex:021A020103\u003E as you might be persuaded to provide some.",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_STMBDI301_03187_BWAGI_000_244",
+    "original": "Golmore? You of all creatures should know that is Viera land. What are you offering, then?",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_STMBDI301_03187_MONTBLANC_000_245",
+    "original": "Why, the opportunity to tell us what you know! Jenomis believes our next adventure lies beneath the jungle canopy, kupo.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_STMBDI301_03187_BWAGI_000_246",
+    "original": "\u003Csigh\u003E I should have expected as much.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_STMBDI301_03187_BWAGI_000_247",
+    "original": "Very well. \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, I came to ask if you would meet someone. Now it seems that someone may be able to assist Jenomis, as well. Seeing as you and the principal did right by us before, I do not see a reason why I cannot take both of you.",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_STMBDI301_03187_MONTBLANC_500_020",
+    "original": "That was far easier than I thought it would be, kupo!",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_STMBDI301_03187_BWAGI_000_280",
+    "original": "Let me know when you are ready to depart for Rabanastre. We will travel in our airship. The \u003Chex:021A020203\u003EPrima Vista\u003Chex:021A020103\u003E would draw too much unwanted attention.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_STMBDI301_03187_Q5_000_000",
+    "original": "Board Bwagi\u0027s vessel?",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_STMBDI301_03187_MONTBLANC_000_300",
+    "original": "Back to a life of brigandry in the clouds, are we?",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_STMBDI301_03187_BWAGI_000_301",
+    "original": "(-Bwagi-)Of course not! Not that it didn\u0027t cross our minds... But when faced with the decision of what to do next, we needed simply to remember the dying words of our leader. Gijuk, Rinok, and I decided to reenlist as Dalmascan fusiliers.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_STMBDI301_03187_MONTBLANC_000_302",
+    "original": "And the occupying Garleans actually said yes, kupo?",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_STMBDI301_03187_RINOK_000_303",
+    "original": "(-Rinok-)Not...exactly. We\u0027re now with the resistance.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_STMBDI301_03187_GIJUK_000_304",
+    "original": "(-Gijuk-)You no doubt heard of the uprising in Dalmasca that followed the Doman liberation...and how it was crushed under the iron heel of the IVth Legion.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_STMBDI301_03187_GIJUK_000_305",
+    "original": "(-Gijuk-)The resistance leaders were captured, tortured, and publicly executed. Yet, much to the Empire\u0027s chagrin, the gruesome display only served to further rally the survivors.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_STMBDI301_03187_BWAGI_000_306",
+    "original": "(-Bwagi-)Remove one head, and two grow back in its place. Remove two, and then there are four. A person can die, but an ideal will live on.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_STMBDI301_03187_BWAGI_000_307",
+    "original": "(-Bwagi-)Now there exist several factions throughout Dalmasca. We belong to one known as Lente\u0027s Tears.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_STMBDI301_03187_GIJUK_000_308",
+    "original": "(-Gijuk-)And when we told our commanding officer of our recent crossing with you and yours, she simply \u003Chex:021A020203\u003Einsisted\u003Chex:021A020103\u003E that we introduce you.",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_STMBDI301_03187_MONTBLANC_000_309",
+    "original": "M-M-Me!? But I wasn\u0027t even supposed to be here, kupo!",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_STMBDI301_03187_GIJUK_000_310",
+    "original": "(-Gijuk-)Not you, hairball. \u003Chex:02080DE905FF04486572FF0448696D03\u003E!",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_STMBDI301_03187_BWAGI_000_311",
+    "original": "(-Bwagi-)Meet with the general and hear her proposal, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. If you are not interested, we shall return you to Kugane unharmed. You have our\u2500",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_STMBDI301_03187_MONTBLANC_000_312",
+    "original": "Hm? Coeurl got your tongue?",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_STMBDI301_03187_RINOK_000_313",
+    "original": "(-Rinok-)Rabanastre dead ahead, lads.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_STMBDI301_03187_BWAGI_000_314",
+    "original": "(-Bwagi-)This way. We\u0027ve many malms to cover before nightfall.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_STMBDI301_03187_BWAGI_000_330",
+    "original": "(-Bwagi-)I\u0027ve done as asked. I bring you the liberator.",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_STMBDI301_03187_FRAN_000_331",
+    "original": "(-???-)And here I thought \u003Chex:020810E905FF067368652764FF056865276403\u003E be taller.",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_STMBDI301_03187_MONTBLANC_000_332",
+    "original": "I knew it! A Viera!",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_STMBDI301_03187_FRAN_000_333",
+    "original": "I am Fran, proud daughter of Dalmasca and general of Lente\u0027s Tears.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_STMBDI301_03187_BWAGI_000_335",
+    "original": "And yes, moogle. I am a Viera. Are you surprised?",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_STMBDI301_03187_BWAGI_100_335",
+    "original": "And yes, moogle. I am a Viera. Are you surprised?",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_STMBDI301_03187_MONTBLANC_000_340",
+    "original": "Why yes, in fact, I am! Her kind are all supposed to be living amongst the trees, having shunned contact with the outer world, kupo. There are supposedly a few who have left their homes, but I most certainly did not expect to see one here in this sewer!",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_STMBDI301_03187_FRAN_000_341",
+    "original": "Indeed...",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_STMBDI301_03187_FRAN_000_342",
+    "original": "This Bangaa claims you seek Orbonne. Does he speak true?",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_STMBDI301_03187_FRAN_000_343",
+    "original": "Those ruins lie deep within the Golmore Jungle\u2500a place most sacred to my sisters. They would take great offense were you to defile it with your presence.",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_STMBDI301_03187_FRAN_000_344",
+    "original": "What is more, Bwagi tells me you travel with Garleans, openly aiding those who would see our nation burn. How can we place our trust in one who would do such?",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_STMBDI301_03187_Q3_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_STMBDI301_03187_A3_000_001",
+    "original": "Jenomis and his family defected long ago! They are not your enemy!",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_STMBDI301_03187_A3_000_002",
+    "original": "My blade has tasted the blood of too many Garleans to count.",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_STMBDI301_03187_FRAN_000_350",
+    "original": "A Garlean is a Garlean. Their pathetic attempt at absolution only proves their past guilt.",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_STMBDI301_03187_FRAN_000_355",
+    "original": "And then you know the Empire and its people are one and the same. When you slay an imperial soldier, you are not slaying an individual, you are slaying the \u003Chex:021A020203\u003Eenemy\u003Chex:021A020103\u003E. Your companions, Liberator, \u003Chex:021A020203\u003Eare\u003Chex:021A020103\u003E the enemy, despite their supposed change of heart.",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_STMBDI301_03187_MONTBLANC_000_360",
+    "original": "You misunderstand! Kind Jenomis does not approve of the Emperor\u0027s warmongering! He wants to help Dalmasca and its impoverished masses, kupo!",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_STMBDI301_03187_FRAN_000_361",
+    "original": "And what would a moogle know about my people? Does your blood run Dalmascan red? We could cut you open and find out!",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_STMBDI301_03187_BWAGI_000_362",
+    "original": "(-Bwagi-)General, there is no need for threats.",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_STMBDI301_03187_FRAN_000_363",
+    "original": "You are right, Bwagi. Let us then parley!",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_STMBDI301_03187_MONTBLANC_000_364",
+    "original": "Par...ley?",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_STMBDI301_03187_FRAN_000_365",
+    "original": "Parley.",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_STMBDI301_03187_FRAN_000_366",
+    "original": "First, the resistance requires men\u2500men and women from the Eorzean and Eastern alliances to join us in ridding Dalmasca of its imperial invaders.",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_STMBDI301_03187_FRAN_100_366",
+    "original": "First, the resistance requires men\u2500men and women from Doma and the Eorzean Alliance to join us in ridding Dalmasca of its imperial invaders.",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_STMBDI301_03187_FRAN_000_367",
+    "original": "Your past deeds have made you well known to the leaders of both. They will listen to you, or if not, they will listen to these Scions to which you claim allegiance.",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_STMBDI301_03187_FRAN_000_368",
+    "original": "Second, the resistance requires gold\u2500gold to strengthen our forces from within.",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_STMBDI301_03187_FRAN_000_369",
+    "original": "Your allies are in bed with the East Aldenard Trading Company, which continues its dealings with Garlemald even as you raise your sword against them, profiting from the Empire\u0027s rampant aggression. As targets of that aggression, I believe my people are entitled to a portion of those profits.",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_STMBDI301_03187_FRAN_000_370",
+    "original": "Grant me these simple things, and I shall personally guide you safely to the ruins of Orbonne.",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_STMBDI301_03187_MONTBLANC_000_371",
+    "original": "And what of the Lexentales?",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_STMBDI301_03187_FRAN_000_372",
+    "original": "See me to victory, and I\u0027ll take the Emperor himself!",
+    "translation": ""
+  },
+  "197": {
+    "tag": "TEXT_STMBDI301_03187_FRAN_000_373",
+    "original": "Those are my conditions. What say you?",
+    "translation": ""
+  },
+  "198": {
+    "tag": "TEXT_STMBDI301_03187_Q4_000_000",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "199": {
+    "tag": "TEXT_STMBDI301_03187_A4_000_001",
+    "original": "I will deliver your request to the Scions, but can promise no more.",
+    "translation": ""
+  },
+  "200": {
+    "tag": "TEXT_STMBDI301_03187_A4_000_002",
+    "original": "Promise me first my companions will see no harm.",
+    "translation": ""
+  },
+  "201": {
+    "tag": "TEXT_STMBDI301_03187_FRAN_000_380",
+    "original": "Tell them my demands, but know the fate of your expedition hangs on how well you do so.",
+    "translation": ""
+  },
+  "202": {
+    "tag": "TEXT_STMBDI301_03187_FRAN_000_385",
+    "original": "I will promise you nothing! But if it helps you sleep, know that I have never cut down a man who did not take up arms against me and mine, be he Garlean or Eorzean.",
+    "translation": ""
+  },
+  "203": {
+    "tag": "TEXT_STMBDI301_03187_MONTBLANC_000_386",
+    "original": "I\u0027d say we have our work cut out for us, kupo!",
+    "translation": ""
+  },
+  "204": {
+    "tag": "TEXT_STMBDI301_03187_FRAN_000_387",
+    "original": "Bwagi. You and the fusiliers are to accompany the liberator. I expect a detailed report on how my demands are received.",
+    "translation": ""
+  },
+  "205": {
+    "tag": "TEXT_STMBDI301_03187_BWAGI_000_388",
+    "original": "(-Bwagi-)Yes, General.",
+    "translation": ""
+  },
+  "206": {
+    "tag": "TEXT_STMBDI301_03187_FRAN_000_389",
+    "original": "Not that I expect them to be taken seriously. You are a fool to trust them, Princess...",
+    "translation": ""
+  },
+  "207": {
+    "tag": "TEXT_STMBDI301_03187_BWAGI_500_020",
+    "original": "Do not be put off by Lady Fran. The general has quite the edge to her, but it is only because she wants what is best for the resistance.",
+    "translation": ""
+  },
+  "208": {
+    "tag": "TEXT_STMBDI301_03187_GIJUK_500_025",
+    "original": "I\u0027ve finally come to accept Ba\u0027Gamnan is gone for good, but I will never forget how he met his end. I cannot allow my hatred to consume me as it did him.",
+    "translation": ""
+  },
+  "209": {
+    "tag": "TEXT_STMBDI301_03187_RINOK_500_030",
+    "original": "The general is not too bad, once you\u0027re on her good side\u2500her only good side being her backside...but you didn\u0027t hear that from me.",
+    "translation": ""
+  },
+  "210": {
+    "tag": "TEXT_STMBDI301_03187_MONTBLANC_000_400",
+    "original": "What an adventure, kupo! Just think, by tomorrow, we could all be the newest members of the Dalmascan resistance! Er...not that I\u0027m ready to give up my place on the \u003Chex:021A020203\u003EPrima Vista\u003Chex:021A020103\u003E just yet...",
+    "translation": ""
+  }
+}

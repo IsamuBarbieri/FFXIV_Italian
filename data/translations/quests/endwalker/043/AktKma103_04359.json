@@ -1,0 +1,942 @@
+{
+  "0": {
+    "tag": "TEXT_AKTKMA103_04359_SEQ_00",
+    "original": "Krile is intent on uncovering the reason behind the Forum\u0027s inexplicable behavior.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_AKTKMA103_04359_SEQ_01",
+    "original": "As a means to gain insight into the Forum and their confounding obstinacy, Krile has been scouring Sharlayan\u0027s archives for any mention of the Final Days. Progress has been slow, however, and she enlists you and your fellow Scions to help with her research. For your first task, you are to meet Krile at the nearby entrance to Noumenon\u2500the grand library of Sharlayan.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_AKTKMA103_04359_SEQ_02",
+    "original": "Krile instructs you to seek out any books on the subject of Sharlayan history or the workings of the Forum. It seems she wishes for you to brush up on your fundamental knowledge for the sake of the ongoing investigation.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_AKTKMA103_04359_SEQ_03",
+    "original": "Having reviewed the basics of Sharlayan\u0027s founding and the establishment of the Forum, you feel sufficiently prepared for the task ahead. You then recall that you were to rendezvous with the others at the stone benches just outside Noumenon\u0027s entrance.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_AKTKMA103_04359_SEQ_04",
+    "original": "Alisaie and G\u0027raha Tia are the first to join you, and following a revealing discussion of their respective family situations, they settle down to study their borrowed books. Alphinaud and Krile should both be along soon...",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_AKTKMA103_04359_SEQ_05",
+    "original": "As expected, Alphinaud and Krile appear next, bearing their own armfuls of reading material. Krile subjects you to a sudden interrogation regarding your experiences in Amaurot, wishing to compare your firsthand account with what she knows of the Final Days. Satisfied that her understanding is now equal to the rest of the Scions, she and Alphinaud focus on their reading, leaving you to keep an eye out for the final member of your research group.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_AKTKMA103_04359_SEQ_06",
+    "original": "Last to arrive, Y\u0027shtola expresses doubts that the sensitive knowledge you seek would be contained in Noumenon\u0027s public archives. She is of the opinion, however, that some snippet of useful information might still be found, and enlists you as her research assistant. After what feels like an age, you are released to speak with Krile.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_AKTKMA103_04359_SEQ_07",
+    "original": "Despite your exhausted appearance, Krile informs you that, should you so desire, Noumenon\u0027s reference mammet can point you towards the same books you located earlier. For the moment, however, you are excused from further reading duties.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_AKTKMA103_04359_TODO_00",
+    "original": "Speak with Krile outside Noumenon.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_AKTKMA103_04359_TODO_01",
+    "original": "Read books in Noumenon on the relevant subjects.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_AKTKMA103_04359_TODO_02",
+    "original": "Wait at the designated location.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_AKTKMA103_04359_TODO_03",
+    "original": "Wait at the designated location again.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_AKTKMA103_04359_TODO_04",
+    "original": "Wait at the designated location once more.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_AKTKMA103_04359_TODO_05",
+    "original": "Speak with Krile.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_000",
+    "original": "If the Forum is intent on concealing its intentions, then a cursory investigation will avail us little, I suspect. We will need to dig deeper\u2500and with the greatest of care...",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_AKTKMA103_04359_ALISAIE_000_005",
+    "original": "I still don\u0027t understand how the vote could be unanimous... What could possibly convince them all to turn their backs on Eorzea?",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_AKTKMA103_04359_YSHTOLA_000_010",
+    "original": "The process by which Forum members are elected is fair and equitable\u2500neither wealth nor social standing offers any advantages to a prospective candidate. But fairly elected or not, Master Matoya still found them all to be insufferable.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_AKTKMA103_04359_GRAHATIA_000_015",
+    "original": "Our tour of the city was a pleasant distraction. I feel more than ready now to tackle the challenges of the day!",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_020",
+    "original": "An unsettling change has come over Sharlayan, but together we will divine the underlying cause for the Forum\u0027s callousness.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_021",
+    "original": "As I mentioned before, however, questioning the councilors directly is a fruitless endeavor. They seem to have already come to a consensus as to what\u2500and how little\u2500they are willing to divulge.",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_022",
+    "original": "Which is why I began scouring Sharlayan\u0027s archive of historical records for any hint of a connection to the Final Days.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_023",
+    "original": "Suffice it to say that progress has been slow\u2500there are only so many dusty pages one can skim in a day. But now that I have this band of willing reinforcements, the search should proceed all the swifter!",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_024",
+    "original": "Let us reconvene outside Noumenon, shall we?",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_025",
+    "original": "Exit the annex to the right, and you\u0027ll find the archives on the western edge of the woods.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_030",
+    "original": "My directions were easy enough to follow, I hope? In any case, you stand now before the doors of Noumenon, Sharlayan\u0027s grandest collection of books and tomes!",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_031",
+    "original": "This building is actually only an entrance\u2500and one of many at that\u2500for the archives of Noumenon extend deep beneath the surface like the roots of a tree. The vast halls of the Great Gubal Library pale in comparison to Noumenon\u0027s endless maze of subterranean chambers.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_032",
+    "original": "Any citizen of Sharlayan is free to enter and peruse its shelves. ...Well, most of its shelves. Only Archons are afforded access to certain restricted vaults.",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_033",
+    "original": "I\u0027ve dispatched Y\u0027shtola and Raha to investigate those. Meanwhile, Alisaie and Alphinaud will help me continue my search through the stacks open to the general public.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_034",
+    "original": "Your status presents more of a problem. As a non-citizen, you are only permitted to browse the first floor here at the entrance. Even so, there should be a number of books which touch upon Sharlayan history or Forum policy.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_035",
+    "original": "Your task will be to find and study the relevant publications. I promise you, a working knowledge of those subjects will make it far easier to spot the sort of clues we\u0027re looking for.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_036",
+    "original": "Let us be about it, shall we? I\u0027ve told the others to meet us at the stone benches over there once they\u0027ve found some promising tomes. Happy reading!",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_AKTKMA103_04359_Q1_000_040",
+    "original": "The title on the spine reads \u003Chex:021A020203\u003EAn Introduction to the Heavens\u003Chex:021A020103\u003E.\u003Chex:02100103\u003ERead the book?",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKONE_000_041",
+    "original": "(-\u003Chex:021A020203\u003EAn Introduction to the Heavens\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EHave you ever gazed at the skies above and contemplated the mysteries contained therein? I speak not of shifting cloud patterns, but of the vastness beyond\u2500of the sun and the twinkling tapestry of the night.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKONE_000_042",
+    "original": "(-\u003Chex:021A020203\u003EAn Introduction to the Heavens\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003ESome think the dome above us to be a finite space, yet amongst the leading thinkers of our age, one scholar\u0027s depiction of a boundless sea of stars has firmly taken root.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKONE_000_043",
+    "original": "(-\u003Chex:021A020203\u003EAn Introduction to the Heavens\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EAlas, this heavenly sea remains an unreachable, unknowable destination. There are few indeed who can explain, in satisfactory detail, why our own star is believed to revolve around the sun.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKONE_000_044",
+    "original": "(-\u003Chex:021A020203\u003EAn Introduction to the Heavens\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EIt was the technologists of Allag who came closest to understanding the laws which govern that starry abyss. It was they who launched Dalamud, and sought to expand beyond our earthbound existence.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKONE_000_045",
+    "original": "(-\u003Chex:021A020203\u003EAn Introduction to the Heavens\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003E...Having read of their ancient ambitions, I wonder: has your interest in this field of study waxed or waned?\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKONE_000_046",
+    "original": "(-\u003Chex:021A020203\u003EAn Introduction to the Heavens\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EWhat if I were to tell you that the eternal constellations were arranged differently in the distant past? That their positions continue to shift almost imperceptibly but measurably as we journey into the future?\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKONE_000_047",
+    "original": "(-\u003Chex:021A020203\u003EAn Introduction to the Heavens\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EWould it shock you to learn that the stars drift further and further apart, and may indeed do so forever? Are you eager to learn more?\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_AKTKMA103_04359_SYSTEM_000_048",
+    "original": "This book is on the wrong subject. Search for works which contain details on the Forum, or mention the history of Sharlayan.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_AKTKMA103_04359_Q2_000_049",
+    "original": "The title on the spine reads \u003Chex:021A020203\u003EThe Voice of a Growing City\u003Chex:021A020103\u003E.\u003Chex:02100103\u003ERead the book?",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKTWO_000_050",
+    "original": "(-\u003Chex:021A020203\u003EThe Voice of a Growing City\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EIn the years which followed the founding of Sharlayan, civic policy and other matters of import were decided at the Ecclesia\u2500a public forum at which every citizen was eligible to speak.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKTWO_000_051",
+    "original": "(-\u003Chex:021A020203\u003EThe Voice of a Growing City\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EAs the city\u0027s population grew, however, this format became increasingly impractical. The larger number of participants gave rise to ever-longer debates, resulting in significant delays of vital resolutions.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKTWO_000_052",
+    "original": "(-\u003Chex:021A020203\u003EThe Voice of a Growing City\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EVarious measures were introduced in an attempt to curtail protracted discussions, but in the year 201 of the Sixth Astral Era, it was ultimately decreed that Sharlayan would transition to a new form of governance.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKTWO_000_053",
+    "original": "(-\u003Chex:021A020203\u003EThe Voice of a Growing City\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EThe nation would now be led by a body of ninety-nine members\u2500citizens chosen from amongst their peers by means of a nationwide vote. Thus was the Forum as we know it today conceived and created.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_AKTKMA103_04359_SYSTEM_000_054",
+    "original": "You have gained a fundamental understanding of Sharlayan history and the foundation of the Forum. Head outside to the rendezvous point and await your companions.",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_AKTKMA103_04359_Q3_000_055",
+    "original": "The faded title on the spine reads \u003Chex:021A020203\u003EStewards of Wisdom\u003Chex:021A020103\u003E.\u003Chex:02100103\u003ERead the book?",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKTHREE_000_056",
+    "original": "(-\u003Chex:021A020203\u003EStewards of Wisdom\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EDuring the chaos of the Sixth Umbral Calamity, Archon Nyunkrepf, founder of Sharlayan, bore witness to the madness and savagery of men brought to the brink of despair. Upon raising a settlement on an island in the Northern Empty, he instructed his people thus:\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKTHREE_000_057",
+    "original": "(-\u003Chex:021A020203\u003EStewards of Wisdom\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003ERenounce the ways of war, and pursue enlightenment through knowledge and reason.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKTHREE_000_058",
+    "original": "(-\u003Chex:021A020203\u003EStewards of Wisdom\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EThe Sharlayans took to heart the words of their savior, and thenceforth served as stewards of wisdom.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKTHREE_000_059",
+    "original": "(-\u003Chex:021A020203\u003EStewards of Wisdom\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EUpon a foundation of accumulated learning, they built a homeland unlike any other\u2500a nation born from strength of minds, rather than strength of arms.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKTHREE_000_060",
+    "original": "(-\u003Chex:021A020203\u003EStewards of Wisdom\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EWith knowledge of economics came shrewd trading. With knowledge of agriculture came bountiful crops. Engineering brought wells and sewers, ending squabbles over water.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKTHREE_000_061",
+    "original": "(-\u003Chex:021A020203\u003EStewards of Wisdom\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EWealth of expertise could be bartered for wealth in coin. And the more their wisdom spread throughout the world, the more mankind as a whole would thrive.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKTHREE_000_062",
+    "original": "(-\u003Chex:021A020203\u003EStewards of Wisdom\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EAnd so it was that no matter the trials and tribulations of the age, the citizens of Sharlayan would live by their founder\u0027s teachings. For the sake of a better tomorrow\u2500for the sake of a brighter star\u2500they would eschew the tools of war, and with knowledge deliver the world.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_AKTKMA103_04359_Q4_000_063",
+    "original": "The title on the spine reads \u003Chex:021A020203\u003EForever Twenty Summers\u003Chex:021A020103\u003E.\u003Chex:02100103\u003ERead the book?",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKFOUR_000_064",
+    "original": "(-\u003Chex:021A020203\u003EForever Twenty Summers\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EMy beloved seekers of knowledge. Have you ever put learning before your health, and neglected to feed and rest your body as you should?\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKFOUR_000_065",
+    "original": "(-\u003Chex:021A020203\u003EForever Twenty Summers\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EI, too, once engaged in such foolish practices. But one night, engrossed in philosophical study, I had an epiphany:\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKFOUR_000_066",
+    "original": "(-\u003Chex:021A020203\u003EForever Twenty Summers\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EFor all the world\u0027s mysteries that drive us to reckless abandon, we have so very few years of life in which to achieve our goals.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKFOUR_000_067",
+    "original": "(-\u003Chex:021A020203\u003EForever Twenty Summers\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EThus do I share with you this mantra: I am forever twenty summers young.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKFOUR_000_068",
+    "original": "(-\u003Chex:021A020203\u003EForever Twenty Summers\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EThe number itself is unimportant\u2500you could be nineteen, or twenty-three, or forty. Whatever age you are when you discover this manual, let that be the age you aspire to remain.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKFOUR_000_069",
+    "original": "(-\u003Chex:021A020203\u003EForever Twenty Summers\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EThrough mindful, healthy living, will you extend the time available to spend upon your chosen research\u2500another day, another moon, another summer to grasp the greater truths you pursue.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKFOUR_000_070",
+    "original": "(-\u003Chex:021A020203\u003EForever Twenty Summers\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EIn the pages that follow, we will explore the secrets of maintaining one\u0027s physical condition from a biological, aetherological, and arcane viewpoint...\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_AKTKMA103_04359_Q5_000_071",
+    "original": "The title on the spine reads \u003Chex:021A020203\u003EThe Story of Sharlayan\u003Chex:021A020103\u003E.\u003Chex:02100103\u003ERead the book?",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKFIVE_000_072",
+    "original": "(-\u003Chex:021A020203\u003EThe Story of Sharlayan\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003ELong, long ago, on an island in the northern sea, there lived a Roegadyn man by the name of Nyunkrepf.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKFIVE_000_073",
+    "original": "(-\u003Chex:021A020203\u003EThe Story of Sharlayan\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003ENyunkrepf was a student of astrology, and he divined that a flood of terrifying proportions would soon sweep over the lands of Eorzea.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKFIVE_000_074",
+    "original": "(-\u003Chex:021A020203\u003EThe Story of Sharlayan\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003ESo it was that he built a gigantic ship, assembled a crew, and set sail for that imperiled realm.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKFIVE_000_075",
+    "original": "(-\u003Chex:021A020203\u003EThe Story of Sharlayan\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EThe flood arrived as foretold, and to their horror the strangely churning waters drove the people towards the ocean. It was there, however, that Nyunkrepf\u0027s crew hauled them aboard his ark, but the danger had not passed: a towering wave approached, threatening to smash the vessel to pieces!\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKFIVE_000_076",
+    "original": "(-\u003Chex:021A020203\u003EThe Story of Sharlayan\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EWith only moments to spare, Nyunkrepf wove a mighty spell of teleportation, and shifted the entire ship to safety atop Abalathia\u0027s Spine.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKFIVE_000_077",
+    "original": "(-\u003Chex:021A020203\u003EThe Story of Sharlayan\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003ERefugees from the surrounding regions huddled there alongside them, but it was not long before disputes over the dwindling supply of food led to violence and bloodshed.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKFIVE_000_078",
+    "original": "(-\u003Chex:021A020203\u003EThe Story of Sharlayan\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003ESaddened by the sight, Nyunkrepf gathered to him his crew and his grateful passengers, and abandoned the ark to those reddened peaks. They journeyed to the coast where they built a new ship, intent upon returning to the northern seas.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKFIVE_000_079",
+    "original": "(-\u003Chex:021A020203\u003EThe Story of Sharlayan\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EThey landed on the beach of an island, and settled upon that very spot. That settlement prospered and grew, and in time it became the city of Sharlayan we live in to this day.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_AKTKMA103_04359_Q6_000_080",
+    "original": "The title on the spine reads \u003Chex:021A020203\u003ERoads of Old: The Colony\u003Chex:021A020103\u003E.\u003Chex:02100103\u003ERead the book?",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKSIX_000_081",
+    "original": "(-\u003Chex:021A020203\u003ERoads of Old: The Colony\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EMany years ago, on the banks of the Thaliak in the Dravanian hinterlands, a Sharlayan colony once thrived.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKSIX_000_082",
+    "original": "(-\u003Chex:021A020203\u003ERoads of Old: The Colony\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EThis settlement was originally established as a mere outpost to study the aetherial sea in the year 1311 of the Sixth Astral Era.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKSIX_000_083",
+    "original": "(-\u003Chex:021A020203\u003ERoads of Old: The Colony\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EScholars dispatched to Eorzea found the facilities wanting, and their demands encouraged a gradual expansion in structures and services.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKSIX_000_084",
+    "original": "(-\u003Chex:021A020203\u003ERoads of Old: The Colony\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EAs rumors spread of a growing community of academics, the area was further inundated with Eorzean students hoping to share in the renowned wisdom of the Sharlayans.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKSIX_000_085",
+    "original": "(-\u003Chex:021A020203\u003ERoads of Old: The Colony\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EFifty years later, the Forum passed a motion to recognize what had become a flourishing town as an official Sharlayan colony.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKSIX_000_086",
+    "original": "(-\u003Chex:021A020203\u003ERoads of Old: The Colony\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EEorzean residents took to calling the colony itself \u201CSharlayan,\u201D which led to no small amount of confusion when discussions turned to the subject of the motherland.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKSIX_000_087",
+    "original": "(-\u003Chex:021A020203\u003ERoads of Old: The Colony\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EIn response, some Sharlayan inhabitants, if pressed for a name, would simply refer to it as \u201CEmporium.\u201D\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_AKTKMA103_04359_BOOKSIX_000_088",
+    "original": "(-\u003Chex:021A020203\u003ERoads of Old: The Colony\u003Chex:021A020103\u003E-)\u003Chex:021A020203\u003EFollowing the exodus, however, goblins and treasure hunters claimed for themselves a corner of the abandoned colony and gave it yet another name: Idyllshire.\u003Chex:021A020103\u003E",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_AKTKMA103_04359_SYSTEM_000_089",
+    "original": "The following chapters go on to introduce the most prominent features of Idyllshire. This book does not appear to contain additional information on the Forum, or cover the history of the Sharlayan motherland in greater detail.",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_AKTKMA103_04359_ALISAIE_000_090",
+    "original": "Sorry, were you waiting long?",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_AKTKMA103_04359_ALISAIE_000_091",
+    "original": "I wanted to make sure I\u0027d borrowed at least a few promising volumes. Alphinaud and Krile should also be along shortly.",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_AKTKMA103_04359_GRAHATIA_000_092",
+    "original": "I was delayed in similar fashion. As far as I could see, no titles in the Archon stacks mentioned the Final Days specifically, so we have no choice but to start with the tangentially relevant tomes\u2500if they are even that.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_AKTKMA103_04359_GRAHATIA_000_093",
+    "original": "At present, the plan is to skim through as quickly as we dare, and share our discoveries as we make them.",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_AKTKMA103_04359_ALISAIE_000_094",
+    "original": "It would\u0027ve been nice to invite everyone to the estate. Plenty of comfortable places to read, and a ready supply of hot tea...",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_AKTKMA103_04359_GRAHATIA_000_095",
+    "original": "Oh, I was always quite fond of reading outside.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_AKTKMA103_04359_GRAHATIA_000_096",
+    "original": "...But it\u0027s not about the little pleasures, is it? You miss your home.",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_AKTKMA103_04359_ALISAIE_000_097",
+    "original": "It\u0027s been...difficult. After our arrival, we managed to speak with one of the family servants and ask how things were.",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_AKTKMA103_04359_ALISAIE_000_098",
+    "original": "It seems our dear father has instructed the staff that even if Alphinaud and I were to return to Sharlayan, we were not to be allowed across the threshold.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_AKTKMA103_04359_GRAHATIA_000_099",
+    "original": "A harsh measure, indeed. I hope that our efforts to understand his position\u2500and that of the Forum\u2500will perhaps lead to a reconciliation...",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_AKTKMA103_04359_ALISAIE_000_100",
+    "original": "We\u0027ll mend this rift one day. I\u0027m certain of it.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_AKTKMA103_04359_ALISAIE_000_101",
+    "original": "And what of you, G\u0027raha? Have you been to visit your family? Or do they not live here in the city?",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_AKTKMA103_04359_GRAHATIA_000_102",
+    "original": "Ah, well... My situation is also somewhat complicated. I was raised in Sharlayan, yes, but I was born rather further away.",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_AKTKMA103_04359_GRAHATIA_000_103",
+    "original": "In the southern reaches of Ilsabard, in fact. For generations, my people have dwelt in Corvos, the coastal region opposite the island of Thavnair.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_AKTKMA103_04359_GRAHATIA_000_104",
+    "original": "The Allagans founded a city in that fertile land, and by ship, brought in the subjugated tribes of the Miqo\u0027te to serve as laborers.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_AKTKMA103_04359_GRAHATIA_000_105",
+    "original": "Of course, the massive earthquakes of the Fourth Umbral Calamity brought an end to the empire\u0027s reign. And when the Fifth Calamity froze the seas solid, many of the tribes still living in Corvos braved the journey back to Eorzea...",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_AKTKMA103_04359_GRAHATIA_000_106",
+    "original": "My ancestors, however, chose to remain, that they might prevent the remnants of Allagan technology from being misused.",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_AKTKMA103_04359_ALISAIE_000_107",
+    "original": "Isn\u0027t Corvos under Garlean rule?",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_AKTKMA103_04359_GRAHATIA_000_108",
+    "original": "For the past fifty years, yes. Some semblance of local culture remains, as is the case for most imperial provinces, but Garlemald renamed the region \u201CLocus Amoenus.\u201D",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_AKTKMA103_04359_GRAHATIA_000_109",
+    "original": "...When I was a boy, a nearby town came under the jurisdiction of an illustrious imperial family\u2500the nobles of House Darnus.",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_AKTKMA103_04359_GRAHATIA_000_110",
+    "original": "House Darnus demonstrated a singular interest in Allagan civilization, and so my tribe was forced to consider a plan of action.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_AKTKMA103_04359_GRAHATIA_000_111",
+    "original": "For some time already, voices had been raised in favor of abandoning our ancient customs\u2500after all, the Allagan Eye no longer passed to our eldest children as reliably as it once had.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_AKTKMA103_04359_GRAHATIA_000_112",
+    "original": "Fear of discovery eventually tipped the scales, and the decision was made to bury our ties to the knowledge and traditions of Allag.",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_AKTKMA103_04359_GRAHATIA_000_113",
+    "original": "As the last child born with the Allagan Eye, I was given over to the custody of friends in the Students of Baldesion, who had me registered as a Sharlayan citizen.",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_AKTKMA103_04359_ALISAIE_000_114",
+    "original": "I never even considered... Forgive me, it was an unkind question.",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_AKTKMA103_04359_GRAHATIA_000_115",
+    "original": "Even Thancred was taken in by Archon Louisoix, was he not? Stories of adopted waifs and rescued orphans are more common among Sharlayans than you might think.",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_AKTKMA103_04359_GRAHATIA_000_116",
+    "original": "Yet regardless of our origins, we are all provided with an equal opportunity to learn. And with sufficient perspicacity, we outsiders can even earn the vaunted title of \u201CArchon.\u201D",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_AKTKMA103_04359_GRAHATIA_000_117",
+    "original": "\u0027Tis exactly why I have such love for this country. And why I wish it to remain a nation of which its citizens can be proud.",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_AKTKMA103_04359_ALISAIE_000_118",
+    "original": "Hear, hear! Another good reason to get to the bottom of the Forum\u0027s stubbornness\u2500aside from the trifling matter of our impending doom.",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_AKTKMA103_04359_ALISAIE_000_119",
+    "original": "Excuse us while we try to make some headway into these books, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. More company should be arriving any moment now!",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_AKTKMA103_04359_ALISAIE_000_120",
+    "original": "There are others better suited to poring over old history books, so I thought I\u0027d try my luck with more recent events. If I can find anything to better inform the Forum\u0027s baffling behavior...",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_AKTKMA103_04359_GRAHATIA_000_125",
+    "original": "Hm? What else do I know of Corvos? Precious little, I am afraid\u2500I\u0027ve not returned since Master Galuf first brought me here.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_AKTKMA103_04359_GRAHATIA_000_126",
+    "original": "I can tell you that Corvosi rebels still seek to slip the yoke of their imperial masters, though the fighting is far less fierce than it once was.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_AKTKMA103_04359_GRAHATIA_000_127",
+    "original": "Oh, and they have carpets. \u003Chex:021A020203\u003EFlying\u003Chex:021A020103\u003E carpets! The legends are quite extraordinary!",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_130",
+    "original": "We\u0027ve returned with our selections!",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_131",
+    "original": "Although I must say, the pickings were quite slim indeed\u2500Mistress Krile has already flicked through every history book devoted to disasters, and more than a few which barely made mention of them.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_132",
+    "original": "As such, we will be looking into research papers on the Umbral Calamities, as well as articles written by prominent Forum members. Perhaps their knowledge of the Final Days comes from an unexpected source...",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_133",
+    "original": "Speaking of which, might I ask \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E a few questions related to the Final Days?",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_134",
+    "original": "I\u0027m the only one here who didn\u0027t witness the events of Amaurot firsthand, and fear I may be overlooking critical details.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_135",
+    "original": "My thanks! Now, where to begin...",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_136",
+    "original": "First things first\u2500what kind of phenomena did the ancients encounter as the Final Days drew nigh?",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_AKTKMA103_04359_Q7_000_137",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_AKTKMA103_04359_A7_000_138",
+    "original": "A complete destabilization of creation magicks.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_AKTKMA103_04359_A7_000_139",
+    "original": "Primals of unrivaled power were summoned from the aether.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_AKTKMA103_04359_A7_000_140",
+    "original": "The worst kind of phenomena you can imagine!",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_141",
+    "original": "Yes, the unfolding catastrophe wrought havoc on all manner of life...",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_142",
+    "original": "The chaos extended to the ancients themselves, causing their powers of creation to spiral out of control. Fear and despair manifested in terrible, tangible fashion\u2500meteors raining from the sky, fire erupting from the ground, indescribable abominations prowling the streets...",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_143",
+    "original": "Ahem, I believe Hydaelyn and Zodiark were summoned \u003Chex:021A020203\u003Eafter\u003Chex:021A020103\u003E the Final Days had arrived. Quite deliberately, in fact.",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_144",
+    "original": "If we are speaking of phenomena caused by the Final Days, the chaos of creation magicks run rampant is what first comes to mind. Fear and despair manifested in terrible, tangible fashion\u2500meteors raining from the sky, fire erupting from the ground, indescribable abominations prowling the streets...",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_145",
+    "original": "Well, that certainly is an accurate\u2500if somewhat ambiguous\u2500impression.",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_146",
+    "original": "To expound upon that explanation, the unfolding catastrophe wrought havoc on all manner of life...",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_147",
+    "original": "The chaos extended to the ancients themselves, causing their powers of creation to spiral out of control. Fear and despair manifested in terrible, tangible fashion\u2500meteors raining from the sky, fire erupting from the ground, indescribable abominations prowling the streets...",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_148",
+    "original": "That more or less aligns with my understanding. If only the arts of creation had survived until the present day, we might have had something substantial to analyze.",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_149",
+    "original": "To the best of our knowledge, however, those techniques were not preserved or passed on. Y\u0027shtola surmises that the closest known magick is that of the summoning rituals promulgated by the Ascians.",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_150",
+    "original": "Was there aught else of note which heralded the approach of the Final Days?",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_AKTKMA103_04359_Q8_000_151",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_AKTKMA103_04359_A8_000_152",
+    "original": "The entire star was engulfed by disaster all at once.",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_AKTKMA103_04359_A8_000_153",
+    "original": "They say it began with a keening sound from the land itself...",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_AKTKMA103_04359_A8_000_154",
+    "original": "Alphinaud, you can answer this one!",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_155",
+    "original": "I...think you may be misremembering. As I recall, \u0027twas more of a gradual spread.",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_156",
+    "original": "The Amaurotines spoke of a \u201Ckeening\u201D sound that rose from the land itself just before a region was visited by catastrophe. We never did hear this sound ourselves, of course, thrust as we were into the midst of the madness...",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_157",
+    "original": "Ah, yes, the Amaurotines spoke of it, didn\u0027t they? We never did hear this sound ourselves, of course, thrust as we were into the midst of the madness...",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_158",
+    "original": "But it seems that each and every one of the catastrophes was preceded by this ominous noise. Eventually it resounded all across the star, and not even Amaurot was spared.",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_159",
+    "original": "M-Me!? Well, as you wish...",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_160",
+    "original": "The Amaurotines were debating the cause of an anomaly which had been observed in the lands across the sea. By this fact alone, we can deduce that the Final Days occurred not all at once the world over, but rather had a point of origin from which it began to spread.",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_161",
+    "original": "Others also spoke of a \u201Ckeening\u201D sound rising from the land itself, just before a region was visited by catastrophe. We never did hear this sound ourselves, of course, thrust as we were into the midst of the madness...",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_162",
+    "original": "So the ground was crying out, you say? To be considered the harbinger of doom, it must have been quite distinctive...and probably quite loud.",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_163",
+    "original": "I\u0027ll have to speak with one of Noumenon\u0027s mammets, and ask after any books which make mention of such a sound.",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_164",
+    "original": "Last but not least, would you describe how the ancients sought to quell this unprecedented calamity? What definitive action did they take?",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_AKTKMA103_04359_Q9_000_165",
+    "original": "What will you say?",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_AKTKMA103_04359_A9_000_166",
+    "original": "They summoned Zodiark.",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_AKTKMA103_04359_A9_000_167",
+    "original": "They summoned Hydaelyn.",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_AKTKMA103_04359_A9_000_168",
+    "original": "They knocked Dalamud from the sky.",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_169",
+    "original": "Yes, with Elidibus serving as His heart. So many gave themselves in sacrifice to bring Him into being...",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_170",
+    "original": "Ah, I believe it was \u003Chex:021A020203\u003EZodiark\u003Chex:021A020103\u003E who was summoned in response to the Final Days. Many sacrificed themselves to bring Him into being, with Elidibus serving as His heart...",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_171",
+    "original": "Surely you can\u0027t be serious! That was the Seventh Umbral Calamity\u2500hardly an event of the distant past. And even if Dalamud had existed at the time, bringing down a moon of any kind would surely only make things worse!",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_172",
+    "original": "The ancients summoned \u003Chex:021A020203\u003EZodiark\u003Chex:021A020103\u003E in response to the Final Days. Many sacrificed themselves to bring Him into being, with Elidibus serving as His heart...",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_173",
+    "original": "We do not know exactly how Zodiark brought salvation to the star, only that by His godlike will were the laws of nature set aright.",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_174",
+    "original": "Then, once the balance was redressed, the ancients offered up a further sacrifice to heal the ravages of the Final Days.",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_175",
+    "original": "Lives sprouted anew, and it was these fledgling souls they intended to render unto Zodiark. A \u201Ctrade\u201D that would have allowed them to resurrect the shades of loved ones absorbed by the primal...",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_176",
+    "original": "...Or might have, had Venat and her fellows not manifested their opposition in the form of Hydaelyn.",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_177",
+    "original": "Thank you\u2500both of you\u2500for the detailed review. I feel much more confident now in my understanding of events.",
+    "translation": ""
+  },
+  "197": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_178",
+    "original": "With all that freshly in mind, it does make me wonder what the Telophoroi truly mean when they speak of bringing back the Final Days.",
+    "translation": ""
+  },
+  "198": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_179",
+    "original": "We\u0027ve seen what they\u0027re doing with those towers of theirs. Is forcing people to summon primals a kind of catalyst? Are they attempting to mirror the conditions caused by unstable creation magicks?",
+    "translation": ""
+  },
+  "199": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_180",
+    "original": "Or are they simply using the Final Days as a figure of speech? A convenient metaphor for the scale of destruction they plan to unleash...",
+    "translation": ""
+  },
+  "200": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_181",
+    "original": "\u003Csigh\u003E But this is all just pointless conjecture at this stage. Let us return our attention to the Forum, shall we?",
+    "translation": ""
+  },
+  "201": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_182",
+    "original": "We should keep an eye out for Y\u0027shtola, but \u0027tis time we began studying these research papers...",
+    "translation": ""
+  },
+  "202": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_190",
+    "original": "Many Forum members are also researchers or professors. If they know aught of the Final Days, then that knowledge might surface in their writing. That is my hope, anyway...",
+    "translation": ""
+  },
+  "203": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_195",
+    "original": "It really is comforting to have all these dedicated assistants on hand. Right, then! Enough chatting, more reading!",
+    "translation": ""
+  },
+  "204": {
+    "tag": "TEXT_AKTKMA103_04359_YSHTOLA_000_200",
+    "original": "I\u0027m the last, am I? Well, my extended search of the Archon stacks produced one or two possibly useful books.",
+    "translation": ""
+  },
+  "205": {
+    "tag": "TEXT_AKTKMA103_04359_YSHTOLA_000_201",
+    "original": "...But I wouldn\u0027t get your hopes up.",
+    "translation": ""
+  },
+  "206": {
+    "tag": "TEXT_AKTKMA103_04359_YSHTOLA_000_202",
+    "original": "If you recall, Urianger learned of the Source\u0027s reflections from \u003Chex:021A020203\u003EThe Gerun Oracles\u003Chex:021A020103\u003E. For its potential to cause panic and confusion, that tome was deemed apocrypha and sealed away in the Great Gubal Library.",
+    "translation": ""
+  },
+  "207": {
+    "tag": "TEXT_AKTKMA103_04359_YSHTOLA_000_203",
+    "original": "\u0027Tis even less likely that knowledge of the unsundered world, not to mention the horrors of the Final Days, would be left sitting on a shelf for any curious scholar to find.",
+    "translation": ""
+  },
+  "208": {
+    "tag": "TEXT_AKTKMA103_04359_YSHTOLA_000_204",
+    "original": "It stands to reason then that my colleagues\u2500be they Archons or councilors\u2500should perforce be largely ignorant of the subject.",
+    "translation": ""
+  },
+  "209": {
+    "tag": "TEXT_AKTKMA103_04359_YSHTOLA_000_205",
+    "original": "Yet when you confronted Master Fourchenault with knowledge of the Telophoroi and their machinations, he scoffed at the suggestion that they posed a threat. He seemed adamant that the Forum would know if the Final Days were truly upon us.",
+    "translation": ""
+  },
+  "210": {
+    "tag": "TEXT_AKTKMA103_04359_YSHTOLA_000_206",
+    "original": "Which only supports the conclusion that whatever privileged wisdom is guiding the Forum\u0027s behavior, it is being kept secret from the rest of the nation.",
+    "translation": ""
+  },
+  "211": {
+    "tag": "TEXT_AKTKMA103_04359_YSHTOLA_000_207",
+    "original": "...Not that I mean to excuse myself from reading duty. Whether they contain mention of the Final Days or no, these books could yet hold something of value.",
+    "translation": ""
+  },
+  "212": {
+    "tag": "TEXT_AKTKMA103_04359_YSHTOLA_000_208",
+    "original": "You weren\u0027t thinking of leaving, were you? There\u0027s plenty of work for everyone.",
+    "translation": ""
+  },
+  "213": {
+    "tag": "TEXT_AKTKMA103_04359_SYSTEM_000_209",
+    "original": "You labor for what feels like an age as Y\u0027shtola\u0027s research assistant...",
+    "translation": ""
+  },
+  "214": {
+    "tag": "TEXT_AKTKMA103_04359_ALPHINAUD_000_210",
+    "original": "I\u0027ve found naught of interest so far. I think Y\u0027shtola might be right about not getting our hopes up.",
+    "translation": ""
+  },
+  "215": {
+    "tag": "TEXT_AKTKMA103_04359_ALISAIE_000_215",
+    "original": "Ngh...",
+    "translation": ""
+  },
+  "216": {
+    "tag": "TEXT_AKTKMA103_04359_GRAHATIA_000_220",
+    "original": "......",
+    "translation": ""
+  },
+  "217": {
+    "tag": "TEXT_AKTKMA103_04359_SYSTEM_000_221",
+    "original": "Your efforts to gain G\u0027raha Tia\u0027s attention go unnoticed. He appears to be lost in his reading...",
+    "translation": ""
+  },
+  "218": {
+    "tag": "TEXT_AKTKMA103_04359_YSHTOLA_000_225",
+    "original": "Thank you for your help, but I think I can manage the rest without your assistance. If I were you, I\u0027d steal a few quiet moments for myself...",
+    "translation": ""
+  },
+  "219": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_230",
+    "original": "Oh dear, you look exhausted! But what about \u003Chex:021A020203\u003Eyour\u003Chex:021A020103\u003E studies? Were you able to find any books on the subjects I mentioned?",
+    "translation": ""
+  },
+  "220": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_231",
+    "original": "Then the day was well spent! Should you wish to read them again, a mammet at the reference desk will point you in the right direction.",
+    "translation": ""
+  },
+  "221": {
+    "tag": "TEXT_AKTKMA103_04359_KRILE_000_232",
+    "original": "For the moment, though, I suggest you take a well-deserved rest\u2500we might be occupied with our research for quite some time...",
+    "translation": ""
+  }
+}

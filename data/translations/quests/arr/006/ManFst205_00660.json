@@ -1,0 +1,877 @@
+{
+  "0": {
+    "tag": "TEXT_MANFST205_00660_SEQ_00",
+    "original": "Momodi is waiting to brief you on your task.",
+    "translation": ""
+  },
+  "1": {
+    "tag": "TEXT_MANFST205_00660_SEQ_01",
+    "original": "It would seem that a horde of hecatoncheires has been wreaking havoc in the depths of Copperbell Mines. So that mining operations may resume, Papashan bids you subdue the hulking creatures. In preparation for the mission, the stationmaster suggests that you speak with Painted Mesa, an employee of Amajina \u0026 Sons Mineral Concern.",
+    "translation": ""
+  },
+  "2": {
+    "tag": "TEXT_MANFST205_00660_SEQ_02",
+    "original": "You learn from Painted Mesa that Copperbell Mines were reopened in order to meet the pressing demand for building materials created in the wake of the Calamity. Without a steady supply, Ul\u0027dah\u0027s nascent recovery may slow to a standstill. Make your way to the mines, and report to the Stone Torch who stands guard at the entrance.",
+    "translation": ""
+  },
+  "3": {
+    "tag": "TEXT_MANFST205_00660_SEQ_03",
+    "original": "You\u0027ve been granted permission to enter the mines. Make your way through the tunnels, putting down any hecatoncheires you encounter.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BChallenge Copperbell Mines with other players via the Duty Finder, or with a party of NPCs via Duty Support. Both systems are accessible from the main menu as well as the dungeon\u0027s entrance point.",
+    "translation": ""
+  },
+  "4": {
+    "tag": "TEXT_MANFST205_00660_SEQ_04",
+    "original": "You have succeeded in subduing the hecatoncheires. Report back to Painted Mesa at the Quicksand.",
+    "translation": ""
+  },
+  "5": {
+    "tag": "TEXT_MANFST205_00660_SEQ_05",
+    "original": "Your conversation with Painted Mesa is cut short by a shrill cry. Rushing to the origin of the exclamation, you find a woman being harassed by ruffians, and hurl yourself in harm\u0027s way to protect her. Immediately thereafter, \u003Chex:02088DE4E94702FF1159277368746F6C612061727269766573FF75020871E4E94703FF1859646120616E6420506170616C796D6F20617272697665FF5202084EE4E94704FF115468616E637265642061727269766573FF3648696C64696272616E642C207468652062756D626C696E6720696E73706563746F72206F66206C6567656E642C2061727269766573030303\u003E on the scene.",
+    "translation": ""
+  },
+  "6": {
+    "tag": "TEXT_MANFST205_00660_SEQ_06",
+    "original": "After praising your courage, \u003Chex:0208AAE4E94702FF2259277368746F6C612072657665616C732074686174207368652062656C6F6E6773FF8102087DE4E94703FF2959646120616E6420506170616C796D6F2072657665616C207468617420746865792062656C6F6E67FF4D020849E4E94704FF215468616E637265642072657665616C7320746861742068652062656C6F6E6773FF2174686520706169722072657665616C207468617420746865792062656C6F6E67030303\u003E to an order called the Scions of the Seventh Dawn, and \u003Chex:02087FE4E94702FF19696E766974657320796F7520746F206A6F696E207468656DFF5F02085BE4E94703FF18696E7669746520796F7520746F206A6F696E207468656DFF3C020838E4E94704FF19696E766974657320796F7520746F206A6F696E207468656DFF18696E7669746520796F7520746F206A6F696E207468656D030303\u003E. But who exactly are these Scions, and what is their agenda? Perhaps Momodi can shed some light on these questions.",
+    "translation": ""
+  },
+  "7": {
+    "tag": "TEXT_MANFST205_00660_SEQ_07",
+    "original": "In the course of your travels, you have crossed paths with myriad individuals, some of whom you have positively influenced. One such individual is the young conjurer Edda, who reveals that you have inspired her to embark upon a new journey as an adventurer. You sense that you, too, must soon embark upon a new journey of your own. Speak with Momodi again when you have resolved to take the first step.",
+    "translation": ""
+  },
+  "24": {
+    "tag": "TEXT_MANFST205_00660_TODO_00",
+    "original": "Speak with Painted Mesa.",
+    "translation": ""
+  },
+  "25": {
+    "tag": "TEXT_MANFST205_00660_TODO_01",
+    "original": "Speak with the Stone Torch before Copperbell Mines.",
+    "translation": ""
+  },
+  "26": {
+    "tag": "TEXT_MANFST205_00660_TODO_02",
+    "original": "Enter Copperbell Mines.",
+    "translation": ""
+  },
+  "27": {
+    "tag": "TEXT_MANFST205_00660_TODO_03",
+    "original": "Report to Painted Mesa.",
+    "translation": ""
+  },
+  "28": {
+    "tag": "TEXT_MANFST205_00660_TODO_04",
+    "original": "Speak with Momodi.",
+    "translation": ""
+  },
+  "29": {
+    "tag": "TEXT_MANFST205_00660_TODO_05",
+    "original": "Speak with Momodi.",
+    "translation": ""
+  },
+  "48": {
+    "tag": "TEXT_MANFST205_00660_MOMODI_000_3",
+    "original": "The petitioner ought to be arrivin\u0027 any moment now...",
+    "translation": ""
+  },
+  "49": {
+    "tag": "TEXT_MANFST205_00660_PAPASHAN_000_4",
+    "original": "Gods almighty! Another second under that sun, and I would have been set afire! A tankard of ale, if you would be so kind!",
+    "translation": ""
+  },
+  "50": {
+    "tag": "TEXT_MANFST205_00660_MOMODI_000_5",
+    "original": "Excellent timin\u0027, Papashan. It just so happens the adventurer who\u0027ll be handlin\u0027 your petition is here.",
+    "translation": ""
+  },
+  "51": {
+    "tag": "TEXT_MANFST205_00660_PAPASHAN_000_6",
+    "original": "Oh? Why, if it isn\u0027t my good friend \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "52": {
+    "tag": "TEXT_MANFST205_00660_PAPASHAN_000_7",
+    "original": "It does my spirit well to know that you are the one who will be helping us.",
+    "translation": ""
+  },
+  "53": {
+    "tag": "TEXT_MANFST205_00660_PAPASHAN_000_8",
+    "original": "So this \u003Chex:020826E905FF0D77696E736F6D65206C617373FF14737472617070696E6720796F756E67206C616403\u003E is the much-lauded adventurer, is \u003Chex:02080CE905FF04736865FF03686503\u003E? Marvelous, marvelous!",
+    "translation": ""
+  },
+  "54": {
+    "tag": "TEXT_MANFST205_00660_PAPASHAN_000_9",
+    "original": "A pleasure to make your acquaintance, \u003Chex:020815E905FF076D696C616479FF09676F6F642073697203\u003E. I am Papashan, formerly of the Sultansworn. I thank you for agreeing to lend us your aid.",
+    "translation": ""
+  },
+  "55": {
+    "tag": "TEXT_MANFST205_00660_MOMODI_000_10",
+    "original": "Mayhap you\u0027d like to apprise \u003Chex:022C0DFF07022903EB0203FF02200203\u003E of \u003Chex:02080DE905FF04686572FF0468697303\u003E mission?",
+    "translation": ""
+  },
+  "56": {
+    "tag": "TEXT_MANFST205_00660_PAPASHAN_000_11",
+    "original": "Yes, of course. The petition in question was submitted by an acquaintance of mine at Amajina \u0026 Sons Mineral Concern. It relates to an unfortunate development at Copperbell Mines.",
+    "translation": ""
+  },
+  "57": {
+    "tag": "TEXT_MANFST205_00660_PAPASHAN_000_12",
+    "original": "To be plain, giants have seized control of the place.",
+    "translation": ""
+  },
+  "58": {
+    "tag": "TEXT_MANFST205_00660_PAPASHAN_000_13",
+    "original": "These giants are of the clan known as the hecatoncheires\u2500fearsome creatures who were sealed within the deepest depths of the mines during the bygone Thorne Dynasty.",
+    "translation": ""
+  },
+  "59": {
+    "tag": "TEXT_MANFST205_00660_PAPASHAN_000_14",
+    "original": "Alas, it seems they have managed to break through the layer of rock which served to imprison them, and now prowl the tunnels where the miners ply their trade. The creatures are justifiably angry about their treatment at the hands of our ancestors, and their presence has forced the suspension of all mining activities on the site.",
+    "translation": ""
+  },
+  "60": {
+    "tag": "TEXT_MANFST205_00660_MOMODI_000_15",
+    "original": "It\u0027s no wonder they\u0027re angry. Didn\u0027t the Thorne Dynasty come to an end over three hundred years ago?",
+    "translation": ""
+  },
+  "61": {
+    "tag": "TEXT_MANFST205_00660_PAPASHAN_000_16",
+    "original": "You know your history well, milady.",
+    "translation": ""
+  },
+  "62": {
+    "tag": "TEXT_MANFST205_00660_PAPASHAN_000_17",
+    "original": "The people of that age used the hecatoncheires to work their mines. By way of enchanted helms, they were able to bind the ferocious creatures to their will. But as is oft the way in such tales, these enchantments eventually failed, and the slaves rose up against their masters.",
+    "translation": ""
+  },
+  "63": {
+    "tag": "TEXT_MANFST205_00660_PAPASHAN_000_18",
+    "original": "In a desperate bid to contain the unbridled fury of the hecatoncheires, our ancestors induced the collapse of the mines\u0027 lowermost levels. So it was that the Great Giant Revolt was ended\u2500buried beneath a hundred thousand tonzes of rock.",
+    "translation": ""
+  },
+  "64": {
+    "tag": "TEXT_MANFST205_00660_MOMODI_000_19",
+    "original": "Well, now...that\u0027s got me thinkin\u0027... I seem to recall there bein\u0027 an article about Copperbell in the \u003Chex:021A020203\u003EMythril Eye\u003Chex:021A020103\u003E a fortnight or so ago.",
+    "translation": ""
+  },
+  "65": {
+    "tag": "TEXT_MANFST205_00660_MOMODI_000_20",
+    "original": "It said the mines were bein\u0027 reopened so as to meet the risin\u0027 demand for buildin\u0027 materials. Like as not, our boys dug a bit too deep and freed the giants.",
+    "translation": ""
+  },
+  "66": {
+    "tag": "TEXT_MANFST205_00660_MOMODI_000_21",
+    "original": "Gods...to think the poor creatures are still alive an\u0027 kickin\u0027 after three centuries... That\u0027s a long time to nurse a grudge. They must be \u003Chex:021A020203\u003Eseethin\u0027\u003Chex:021A020103\u003E...",
+    "translation": ""
+  },
+  "67": {
+    "tag": "TEXT_MANFST205_00660_PAPASHAN_000_22",
+    "original": "Indeed. And that makes them a danger to us all. There will be no mining at Copperbell so long as they remain. For the sake of both peace and prosperity, they must be subdued. This is the task which we would have you undertake.",
+    "translation": ""
+  },
+  "68": {
+    "tag": "TEXT_MANFST205_00660_PAPASHAN_000_23",
+    "original": "Indeed. And that makes them a danger to us all. There will be no mining at Copperbell so long as they remain. For the sake of both peace and prosperity, they must be subdued. This is the task which we would have you undertake.",
+    "translation": ""
+  },
+  "69": {
+    "tag": "TEXT_MANFST205_00660_PAPASHAN_000_24",
+    "original": "I\u0027ll not deny that the mission will be rife with danger, but our need is great. And so I beg you: put an end to this sorry business.",
+    "translation": ""
+  },
+  "70": {
+    "tag": "TEXT_MANFST205_00660_PAPASHAN_000_25",
+    "original": "Gods bless you! I feared you might have reservations, but I assure you it is for the best.",
+    "translation": ""
+  },
+  "71": {
+    "tag": "TEXT_MANFST205_00660_MOMODI_000_26",
+    "original": "Hmmm... In case you don\u0027t know, Copperbell Mines are in western Thanalan. Do take care, you hear?",
+    "translation": ""
+  },
+  "72": {
+    "tag": "TEXT_MANFST205_00660_PAPASHAN_000_27",
+    "original": "Ah, and one last thing before you depart... An employee of Amajina \u0026 Sons is presently at the Quicksand. The fellow\u0027s name is Painted Mesa, and he knows Copperbell Mines well. It may behoove you to seek his counsel.",
+    "translation": ""
+  },
+  "73": {
+    "tag": "TEXT_MANFST205_00660_PAINTEDMESA_000_30",
+    "original": "Lookin\u0027 for Painted Mesa? You found him.",
+    "translation": ""
+  },
+  "74": {
+    "tag": "TEXT_MANFST205_00660_PAINTEDMESA_000_31",
+    "original": "So you\u0027re the adventurer who\u0027s volunteered to deal with the mess down in Copperbell, are you?",
+    "translation": ""
+  },
+  "75": {
+    "tag": "TEXT_MANFST205_00660_PAINTEDMESA_000_32",
+    "original": "You\u0027ve got guts, \u003Chex:02080FE905FF056D697373FF056D61746503\u003E. I just hope you\u0027ve got skills to go with \u0027em, \u0027cause things ain\u0027t pretty down there. The hecatoncheires\u0027ve left the place in a right state, and nary a week after minin\u0027 resumed.",
+    "translation": ""
+  },
+  "76": {
+    "tag": "TEXT_MANFST205_00660_PAINTEDMESA_000_33",
+    "original": "I don\u0027t know if you know this, but Copperbell was old when the second Ul Dynasty was still young, and it was abandoned centuries ago. If it hadn\u0027t been for the shortage of materials needed for the rebuildin\u0027 effort, the Concern would never have thought to reopen it.",
+    "translation": ""
+  },
+  "77": {
+    "tag": "TEXT_MANFST205_00660_PAINTEDMESA_000_34",
+    "original": "We knew full well about the giants beforehand, but the project went ahead anyway. I mean, nothin\u0027 could possibly survive bein\u0027 buried under a mountain\u0027s worth of rock for three centuries, right? \u003Chex:021A020203\u003EWrong\u003Chex:021A020103\u003E!",
+    "translation": ""
+  },
+  "78": {
+    "tag": "TEXT_MANFST205_00660_PAINTEDMESA_000_35",
+    "original": "Our miners dug up more than they bargained for. One swing of the pickaxe too many, and they found \u0027emselves in the company of giants. Unless we can subdue \u0027em, the nation\u0027s glorious recovery\u0027ll grind to a halt for want of aught to build with.",
+    "translation": ""
+  },
+  "79": {
+    "tag": "TEXT_MANFST205_00660_PAINTEDMESA_000_36",
+    "original": "The Stone Torches\u0027re keepin\u0027 watch over the entrance in case the giants fancy some sunlight and fresh air. One of \u0027em will be able to show you the way in. The hope of the nation\u0027s restin\u0027 on you, friend. Best of luck!",
+    "translation": ""
+  },
+  "80": {
+    "tag": "TEXT_MANFST205_00660_STONETORCH_000_40",
+    "original": "There\u0027s been an incident inside Copperbell Mines. We are here to ensure that its effects are contained, but for your own safety, I suggest you stay well away from here.",
+    "translation": ""
+  },
+  "81": {
+    "tag": "TEXT_MANFST205_00660_STONETORCH_000_41",
+    "original": "What? You\u0027re the adventurer who\u0027s volunteered to quell the hecatoncheires?",
+    "translation": ""
+  },
+  "82": {
+    "tag": "TEXT_MANFST205_00660_STONETORCH_000_42",
+    "original": "I didn\u0027t think that Papashan would be able to find someone so quickly...if at all.",
+    "translation": ""
+  },
+  "83": {
+    "tag": "TEXT_MANFST205_00660_STONETORCH_000_43",
+    "original": "The giants are content to wreak havoc inside the mines for now, but it\u0027s only a matter of time before they think to come outside. The sooner you see to them, the better. Make ready as best you can, and enter at will.",
+    "translation": ""
+  },
+  "84": {
+    "tag": "TEXT_MANFST205_00660_ISILDAURE_000_50",
+    "original": "I have been an adventurer for long years, and borne witness to many a pivotal moment in history. Though the times may have changed, the essence of our trade has not.",
+    "translation": ""
+  },
+  "85": {
+    "tag": "TEXT_MANFST205_00660_ISILDAURE_000_51",
+    "original": "Adventuring has ever been a quest for self-betterment through challenges freely faced, and ever shall it remain so.",
+    "translation": ""
+  },
+  "86": {
+    "tag": "TEXT_MANFST205_00660_ISILDAURE_000_52",
+    "original": "As an adventurer becomes more experienced, he will naturally acquire a love of justice, and an understanding of the spirit of self-sacrifice.",
+    "translation": ""
+  },
+  "87": {
+    "tag": "TEXT_MANFST205_00660_ISILDAURE_000_53",
+    "original": "Such experience cannot be measured in any tangible way, yet it most assuredly shapes who we are, grounded as it is in the decisions we have made on our journey, and their consequences, good or ill.",
+    "translation": ""
+  },
+  "88": {
+    "tag": "TEXT_MANFST205_00660_ISILDAURE_000_54",
+    "original": "I sense a light within you, young one, and it tells me that you are destined for greatness.",
+    "translation": ""
+  },
+  "89": {
+    "tag": "TEXT_MANFST205_00660_ALIANNE_000_60",
+    "original": "We found Dolorous Bear and his entire party dead. The giants were...thorough in their work.",
+    "translation": ""
+  },
+  "90": {
+    "tag": "TEXT_MANFST205_00660_ALIANNE_000_61",
+    "original": "Judging by their tracks, it would seem they tried to rush a horde of the creatures. I cannot say for sure what drove an experienced crew like theirs to throw caution to the wind...but I do have my suspicions.",
+    "translation": ""
+  },
+  "91": {
+    "tag": "TEXT_MANFST205_00660_ALIANNE_000_62",
+    "original": "We are all our own worst critics, and our desire to better past achievements can rob us of good sense. Thus do we become more given to recklessness.",
+    "translation": ""
+  },
+  "92": {
+    "tag": "TEXT_MANFST205_00660_ALIANNE_000_63",
+    "original": "While it is important to have goals, one must not fixate upon them to the exclusion of all else. Do so, and one will surely pay the price, as Dolorous Bear and his comrades did this day.",
+    "translation": ""
+  },
+  "93": {
+    "tag": "TEXT_MANFST205_00660_PAINTEDMESA_000_65",
+    "original": "The hope of the nation\u0027s restin\u0027 on your shoulders, friend. Send them giants back to whichever of the seven hells they escaped from!",
+    "translation": ""
+  },
+  "94": {
+    "tag": "TEXT_MANFST205_00660_STONETORCH_000_67",
+    "original": "Good luck in there, adventurer. We Stone Torches will continue our vigil here, lest the foe slip by you.",
+    "translation": ""
+  },
+  "95": {
+    "tag": "TEXT_MANFST205_00660_Q1_000_1",
+    "original": "Duty calls. Do you wish to proceed with\u003Chex:02100103\u003E\u201CInto a Copper Hell\u201D?",
+    "translation": ""
+  },
+  "96": {
+    "tag": "TEXT_MANFST205_00660_A1_000_1",
+    "original": "Yes",
+    "translation": ""
+  },
+  "97": {
+    "tag": "TEXT_MANFST205_00660_A1_000_2",
+    "original": "No",
+    "translation": ""
+  },
+  "98": {
+    "tag": "TEXT_MANFST205_00660_PAINTEDMESA_000_70",
+    "original": "Ah, the conqueror of Copperbell returns!",
+    "translation": ""
+  },
+  "99": {
+    "tag": "TEXT_MANFST205_00660_PAINTEDMESA_000_71",
+    "original": "Thanks to you, our minin\u0027 operations can resume, and Ul\u0027dah will have the materials she needs to rebuild. The entire nation\u0027s in your debt, friend.",
+    "translation": ""
+  },
+  "100": {
+    "tag": "TEXT_MANFST205_00660_PAINTEDMESA_000_72",
+    "original": "I\u0027ll share the good tidin\u0027s with Papashan the next time I see him. As for you, you\u0027ll want to report to Momodi. It\u0027ll do the woman well to see you alive and in one piece.",
+    "translation": ""
+  },
+  "101": {
+    "tag": "TEXT_MANFST205_00660_POORDRESS_000_100",
+    "original": "(-???-)Noooooo!",
+    "translation": ""
+  },
+  "102": {
+    "tag": "TEXT_MANFST205_00660_UNGUST_000_101",
+    "original": "(-Obnoxious Merchant-)Shut your mouth, you thieving little swine! You stole from me\u2500don\u0027t even think to deny it!",
+    "translation": ""
+  },
+  "103": {
+    "tag": "TEXT_MANFST205_00660_POORDRESS_000_102",
+    "original": "P-Please, sir, I didn\u0027t steal nothin\u0027!",
+    "translation": ""
+  },
+  "104": {
+    "tag": "TEXT_MANFST205_00660_POORDRESS_000_103",
+    "original": "I b-bought this\u2500paid for it with me own coin!",
+    "translation": ""
+  },
+  "105": {
+    "tag": "TEXT_MANFST205_00660_UNGUST_000_104",
+    "original": "(-Obnoxious Merchant-)What rot! You refugees are all the same\u2500couldn\u0027t afford maggoty mole meat, much less a choice cut of dodo!",
+    "translation": ""
+  },
+  "106": {
+    "tag": "TEXT_MANFST205_00660_UNGUST_000_105",
+    "original": "(-Obnoxious Merchant-)I\u0027m going to say it one more time: give back what you stole, or I\u0027ll make you wish you\u0027d never set foot in this town!",
+    "translation": ""
+  },
+  "107": {
+    "tag": "TEXT_MANFST205_00660_UNGUST_000_106",
+    "original": "(-Obnoxious Merchant-)By rights, I should turn you over to the Brass Blades, you know\u2500help keep the streets safe for law-abiding citizens. But I\u0027m a reasonable man. If you agree to serve me in...whatever capacity I require, the authorities needn\u0027t hear of your crime.",
+    "translation": ""
+  },
+  "108": {
+    "tag": "TEXT_MANFST205_00660_POORDRESS_000_107",
+    "original": "B-But I ain\u0027t done nothin\u0027 wrong! Twelve as me witness!",
+    "translation": ""
+  },
+  "109": {
+    "tag": "TEXT_MANFST205_00660_POORDRESS_000_108",
+    "original": "P-Please, adventurer! Help me, I beg o\u0027 ye!",
+    "translation": ""
+  },
+  "110": {
+    "tag": "TEXT_MANFST205_00660_POORDRESS_000_109",
+    "original": "I swear on me mother\u0027s grave, I didn\u0027t steal nothin\u0027! I bought this with the coin I\u0027d saved... \u003Csob\u003E I only wanted to treat me children to a decent meal...",
+    "translation": ""
+  },
+  "111": {
+    "tag": "TEXT_MANFST205_00660_UNGUST_000_110",
+    "original": "(-Obnoxious Merchant-)And who the hells are you when you\u0027re at home!? This dog\u0027s master?",
+    "translation": ""
+  },
+  "112": {
+    "tag": "TEXT_MANFST205_00660_UNGUST_000_111",
+    "original": "(-Obnoxious Merchant-)I\u0027ve had enough of this mummer\u0027s farce. You lot, teach them a lesson!",
+    "translation": ""
+  },
+  "113": {
+    "tag": "TEXT_MANFST205_00660_HEAVY_000_120",
+    "original": "I ain\u0027t gettin\u0027 paid enough for this!",
+    "translation": ""
+  },
+  "114": {
+    "tag": "TEXT_MANFST205_00660_UNGUST_000_121",
+    "original": "(-Obnoxious Merchant-)H-Hey! Where the hells do you think you\u0027re going!?",
+    "translation": ""
+  },
+  "115": {
+    "tag": "TEXT_MANFST205_00660_POORDRESS_000_122",
+    "original": "Thank ye, kind adventurer! Thank ye thrice over!",
+    "translation": ""
+  },
+  "116": {
+    "tag": "TEXT_MANFST205_00660_YOUNGULD_000_130",
+    "original": "I\u0027d swear there were more refugees than when I last looked...",
+    "translation": ""
+  },
+  "117": {
+    "tag": "TEXT_MANFST205_00660_RESTLESSULD_000_131",
+    "original": "And you wouldn\u0027t be mistaken.",
+    "translation": ""
+  },
+  "118": {
+    "tag": "TEXT_MANFST205_00660_YOUNGULD_000_132",
+    "original": "But it\u0027s been five years since the Calamity! Why are they only coming here now?",
+    "translation": ""
+  },
+  "119": {
+    "tag": "TEXT_MANFST205_00660_RESTLESSULD_000_133",
+    "original": "It\u0027s simple, really\u2500while a number of hamlets survived the immediate aftermath of the Calamity, many were no longer able to support their communities.",
+    "translation": ""
+  },
+  "120": {
+    "tag": "TEXT_MANFST205_00660_RESTLESSULD_000_134",
+    "original": "The residents found their lands had either been rendered barren, or cut off from trade routes\u2500and problems like those aren\u0027t easily solved. Though they tried to make the best of it, it was only a matter of time before they were forced to abandon their homes and seek a new life in the city.",
+    "translation": ""
+  },
+  "121": {
+    "tag": "TEXT_MANFST205_00660_YOUNGULD_000_135",
+    "original": "I see...",
+    "translation": ""
+  },
+  "122": {
+    "tag": "TEXT_MANFST205_00660_YOUNGULD_000_136",
+    "original": "But the Calamity affected the whole realm, didn\u0027t it? Is the same thing happening in the other cities?",
+    "translation": ""
+  },
+  "123": {
+    "tag": "TEXT_MANFST205_00660_RESTLESSULD_000_137",
+    "original": "If the talk is true, yes.",
+    "translation": ""
+  },
+  "124": {
+    "tag": "TEXT_MANFST205_00660_RESTLESSULD_000_138",
+    "original": "Though perhaps our situation is more pronounced. Ul\u0027dah has a reputation for being prosperous, so it\u0027s natural that the refugees would try their luck here first.",
+    "translation": ""
+  },
+  "125": {
+    "tag": "TEXT_MANFST205_00660_YOUNGULD_000_139",
+    "original": "My heart goes out to them, it truly does...but I would be lying if I said that I wasn\u0027t apprehensive. I hope their presence doesn\u0027t foment lawlessness in the city.",
+    "translation": ""
+  },
+  "126": {
+    "tag": "TEXT_MANFST205_00660_RESTLESSULD_000_140",
+    "original": "Well, if things do take a turn for the worse, we always have the Immortal Flames. I daresay the Brass Blades would welcome their help.",
+    "translation": ""
+  },
+  "127": {
+    "tag": "TEXT_MANFST205_00660_YOUNGULD_000_141",
+    "original": "The heroes who fought the Garlean Empire, patrolling the streets for riffraff?",
+    "translation": ""
+  },
+  "128": {
+    "tag": "TEXT_MANFST205_00660_RESTLESSULD_000_142",
+    "original": "It may well come to that.",
+    "translation": ""
+  },
+  "129": {
+    "tag": "TEXT_MANFST205_00660_RESTLESSULD_000_143",
+    "original": "Impoverished and desperate as they are, you may be sure that some of the refugees will turn to crime.",
+    "translation": ""
+  },
+  "130": {
+    "tag": "TEXT_MANFST205_00660_RESTLESSULD_000_144",
+    "original": "You know what this place is like. If you\u0027ve no coin, you\u0027ve no hope.",
+    "translation": ""
+  },
+  "131": {
+    "tag": "TEXT_MANFST205_00660_YOUNGULD_000_145",
+    "original": "\u003Csigh\u003E What will become of our city?",
+    "translation": ""
+  },
+  "132": {
+    "tag": "TEXT_MANFST205_00660_RESTLESSULD_000_146",
+    "original": "Not \u003Chex:021A020203\u003Eall\u003Chex:021A020103\u003E refugees are bad, mind you. Some are able to find employment and lead honest lives.",
+    "translation": ""
+  },
+  "133": {
+    "tag": "TEXT_MANFST205_00660_SALESPITCH_000_147",
+    "original": "Dodo tenderloins! Get yer dodo tenderloins! Guaranteed cheapest in Thanalan!",
+    "translation": ""
+  },
+  "134": {
+    "tag": "TEXT_MANFST205_00660_SALESPITCH_000_148",
+    "original": "Thank ye for yer custom, madam! Please come again!",
+    "translation": ""
+  },
+  "135": {
+    "tag": "TEXT_MANFST205_00660_YOUNGULD_000_149",
+    "original": "Looking around, you\u0027d think that Ul\u0027dah was well on its way to recovery.",
+    "translation": ""
+  },
+  "136": {
+    "tag": "TEXT_MANFST205_00660_YOUNGULD_000_150",
+    "original": "But peer through the veil of prosperity and you\u0027ll see no end to the misery and suffering.",
+    "translation": ""
+  },
+  "137": {
+    "tag": "TEXT_MANFST205_00660_POORDRESS_000_160",
+    "original": "Er...\u003Chex:02080FE905FF066D6164616DFF0473697203\u003E? Are ye all right?",
+    "translation": ""
+  },
+  "138": {
+    "tag": "TEXT_MANFST205_00660_UNGUST_000_161",
+    "original": "(-Obnoxious Merchant-)Wh-What now!? You mean to threaten a defenseless citizen!?",
+    "translation": ""
+  },
+  "139": {
+    "tag": "TEXT_MANFST205_00660_UNGUST_000_162",
+    "original": "(-Obnoxious Merchant-)...What? Saw her buy that meat, you say? Th-That\u0027s absurd!",
+    "translation": ""
+  },
+  "140": {
+    "tag": "TEXT_MANFST205_00660_AGENT_000_163",
+    "original": "(-???-)Aye, as did I! Leave the poor woman alone, you damnable vulture!",
+    "translation": ""
+  },
+  "141": {
+    "tag": "TEXT_MANFST205_00660_UNGUST_000_164",
+    "original": "(-Obnoxious Merchant-)Wh-Who said that!?",
+    "translation": ""
+  },
+  "142": {
+    "tag": "TEXT_MANFST205_00660_UNGUST_000_165",
+    "original": "(-Obnoxious Merchant-)Grrr! I will overlook this...but just this once!",
+    "translation": ""
+  },
+  "143": {
+    "tag": "TEXT_MANFST205_00660_POORDRESS_000_166",
+    "original": "Gods bless ye, adventurer! If ye hadn\u0027t come along when ye did, who knows what that monster might\u0027ve done!? It don\u0027t bear thinkin\u0027 about...",
+    "translation": ""
+  },
+  "144": {
+    "tag": "TEXT_MANFST205_00660_YDA_000_170",
+    "original": "(-???-)Case closed!",
+    "translation": ""
+  },
+  "145": {
+    "tag": "TEXT_MANFST205_00660_YDA_000_171",
+    "original": "Hello again!",
+    "translation": ""
+  },
+  "146": {
+    "tag": "TEXT_MANFST205_00660_PAPALYMO_000_172",
+    "original": "We have been keeping a close eye on you ever since you left Gridania.",
+    "translation": ""
+  },
+  "147": {
+    "tag": "TEXT_MANFST205_00660_PAPALYMO_000_173",
+    "original": "You discharged your duty as envoy impeccably, and never once faltered in the face of myriad dangers.",
+    "translation": ""
+  },
+  "148": {
+    "tag": "TEXT_MANFST205_00660_YDA_000_174",
+    "original": "But more importantly, you were always ready to help those in need, even if you didn\u0027t stand to earn a gil by doing so!",
+    "translation": ""
+  },
+  "149": {
+    "tag": "TEXT_MANFST205_00660_PAPALYMO_000_175",
+    "original": "You are possessed of all the qualities we seek in an adventurer, of this we are convinced.",
+    "translation": ""
+  },
+  "150": {
+    "tag": "TEXT_MANFST205_00660_YDA_000_176",
+    "original": "Even if you \u003Chex:021A020203\u003Ewere\u003Chex:021A020103\u003E kind of dragged into that business with the dodo meat.",
+    "translation": ""
+  },
+  "151": {
+    "tag": "TEXT_MANFST205_00660_PAPALYMO_000_177",
+    "original": "Yes, \u003Chex:021A020203\u003Ethank you\u003Chex:021A020103\u003E, Yda. Ahem. And then there is the matter of your gift. I daresay you are curious as to the nature of the vision you bore witness to moments ago? Well, we can help you to understand it.",
+    "translation": ""
+  },
+  "152": {
+    "tag": "TEXT_MANFST205_00660_YDA_000_178",
+    "original": "You\u0027re not the only one with that power, you know. We have a friend who has it too, and we\u0027d love for you to meet her.",
+    "translation": ""
+  },
+  "153": {
+    "tag": "TEXT_MANFST205_00660_PAPALYMO_000_179",
+    "original": "And meeting her is only the beginning, for we would also have you lend your strength to our cause. In return, we should be glad to assist your adventuring endeavors in whatever way we are able.",
+    "translation": ""
+  },
+  "154": {
+    "tag": "TEXT_MANFST205_00660_PAPALYMO_000_180",
+    "original": "Should you decide to take us up on our offer\u2500and I sincerely hope you will\u2500pray speak with Momodi. The proprietress of the Quicksand is a good friend of ours. She will tell you where to find us.",
+    "translation": ""
+  },
+  "155": {
+    "tag": "TEXT_MANFST205_00660_YDA_000_181",
+    "original": "Waaait a minute\u2500we haven\u0027t even told you the name of our order! We\u0027re the Scions of the Seventh Dawn, defenders of justice! Oh, but don\u0027t tell anyone. Except for Momodi. She knows already.",
+    "translation": ""
+  },
+  "156": {
+    "tag": "TEXT_MANFST205_00660_YSHTOLA_000_190",
+    "original": "(-???-)Ever the selfless hero, I see.",
+    "translation": ""
+  },
+  "157": {
+    "tag": "TEXT_MANFST205_00660_YSHTOLA_000_191",
+    "original": "It has been a while, adventurer.",
+    "translation": ""
+  },
+  "158": {
+    "tag": "TEXT_MANFST205_00660_YSHTOLA_000_192",
+    "original": "I have been watching you closely ever since you flew out of Limsa Lominsa.",
+    "translation": ""
+  },
+  "159": {
+    "tag": "TEXT_MANFST205_00660_YSHTOLA_000_193",
+    "original": "You discharged your duty as the Admiral\u0027s personal envoy with admirable humility, and you have displayed unfaltering courage in the face of danger ever since.",
+    "translation": ""
+  },
+  "160": {
+    "tag": "TEXT_MANFST205_00660_YSHTOLA_000_194",
+    "original": "Whensoever you came upon those in need, you gave them succor with no thought of personal gain.",
+    "translation": ""
+  },
+  "161": {
+    "tag": "TEXT_MANFST205_00660_YSHTOLA_000_195",
+    "original": "In summary, you have demonstrated all of the qualities we seek in an adventurer.",
+    "translation": ""
+  },
+  "162": {
+    "tag": "TEXT_MANFST205_00660_YSHTOLA_000_196",
+    "original": "For reasons I cannot well explain, your every deed seems invariably to serve the general good...whether you mean it to or not. It is a happy knack, and one which speaks volumes for your character!",
+    "translation": ""
+  },
+  "163": {
+    "tag": "TEXT_MANFST205_00660_YSHTOLA_000_197",
+    "original": "Yet for all your admirable qualities, it is your \u003Chex:021A020203\u003Egift\u003Chex:021A020103\u003E which intrigues me most. I speak of the visions you experience. Visions like the one you had mere moments ago, if I am not mistaken. I can provide you with the means to understand them.",
+    "translation": ""
+  },
+  "164": {
+    "tag": "TEXT_MANFST205_00660_YSHTOLA_000_198",
+    "original": "An acquaintance of mine is blessed with the selfsame talent, you see... If you so desire, I can introduce you to her. She and I fight for a common cause\u2500a cause which would greatly benefit for your support.",
+    "translation": ""
+  },
+  "165": {
+    "tag": "TEXT_MANFST205_00660_YSHTOLA_000_199",
+    "original": "If you would agree to lend us your strength, we should be glad to do all within our power to aid you in your personal endeavors.",
+    "translation": ""
+  },
+  "166": {
+    "tag": "TEXT_MANFST205_00660_YSHTOLA_000_200",
+    "original": "Think on my offer awhile. Should you decide to accept it, pray speak with Momodi. The proprietress of the Quicksand is a close friend and ally of ours.",
+    "translation": ""
+  },
+  "167": {
+    "tag": "TEXT_MANFST205_00660_YSHTOLA_000_201",
+    "original": "Inform her that you have been chosen by the Scions of the Seventh Dawn, and she will tell you where to find us.",
+    "translation": ""
+  },
+  "168": {
+    "tag": "TEXT_MANFST205_00660_THANCRED_000_210",
+    "original": "(-???-)All\u0027s well that ends well!",
+    "translation": ""
+  },
+  "169": {
+    "tag": "TEXT_MANFST205_00660_THANCRED_000_211",
+    "original": "We meet again!",
+    "translation": ""
+  },
+  "170": {
+    "tag": "TEXT_MANFST205_00660_THANCRED_000_212",
+    "original": "Pray do not mistake my intent\u2500for it is \u003Chex:021A020203\u003Ealways\u003Chex:021A020103\u003E honorable\u2500but I have been watching you ever since you departed Ul\u0027dah.",
+    "translation": ""
+  },
+  "171": {
+    "tag": "TEXT_MANFST205_00660_THANCRED_000_213",
+    "original": "You played the part of envoy to perfection\u2500confident as a \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E on a diplomatic mission should be, yet unfailingly courteous to your betters. And when your travels led you into the midst of danger, you faced it without so much as a flinch. You, my \u003Chex:020811E905FF056C616479FF07667269656E6403\u003E, are quite a marvel, and I confess to being \u003Chex:020829E905FF1171756974652074616B656E2077697468FF13736F6D657768617420696E20617765206F6603\u003E you!",
+    "translation": ""
+  },
+  "172": {
+    "tag": "TEXT_MANFST205_00660_THANCRED_000_214",
+    "original": "Ah, but my lavish praise continues. Most of all, I was struck by your readiness to aid those in need, even when words were all the reward you could expect to receive. Such selflessness is a rare thing in this day and age.",
+    "translation": ""
+  },
+  "173": {
+    "tag": "TEXT_MANFST205_00660_THANCRED_000_215",
+    "original": "...All of which leads me to conclude that you are indeed the one whom I have been looking for\u2500an adventurer possessed of a very rare set of qualities.",
+    "translation": ""
+  },
+  "174": {
+    "tag": "TEXT_MANFST205_00660_THANCRED_000_216",
+    "original": "To be sure, your rescue of that damsel in distress was more of a happy accident. But rescue her you did, and that is what matters in the end.",
+    "translation": ""
+  },
+  "175": {
+    "tag": "TEXT_MANFST205_00660_THANCRED_000_217",
+    "original": "I feel I should mention at this point that I \u003Chex:021A020203\u003Ealso\u003Chex:021A020103\u003E harbor a burning interest in a certain talent of yours. I speak of your visions. You \u003Chex:021A020203\u003Ehave\u003Chex:021A020103\u003E been experiencing visions, have you not?",
+    "translation": ""
+  },
+  "176": {
+    "tag": "TEXT_MANFST205_00660_THANCRED_000_218",
+    "original": "Well, it just so happens that I know a woman who shares your talent, and can help you to understand it. She and I belong to the same organization, and we should both be delighted beyond words if you would agree to join our cause.",
+    "translation": ""
+  },
+  "177": {
+    "tag": "TEXT_MANFST205_00660_THANCRED_000_219",
+    "original": "Naturally, there are benefits to being part of such a collective. For one, we should be glad to assist you in realizing your potential as an adventurer.",
+    "translation": ""
+  },
+  "178": {
+    "tag": "TEXT_MANFST205_00660_THANCRED_000_220",
+    "original": "You need not give me your answer now. Think upon it, and if you feel moved to help us\u2500as I pray you shall\u2500speak with Momodi, the ever-lovely and youthful mistress of the Quicksand.",
+    "translation": ""
+  },
+  "179": {
+    "tag": "TEXT_MANFST205_00660_THANCRED_000_221",
+    "original": "Tell her the Scions of the Seventh Dawn have found their \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E, and she will tell you where to find us.",
+    "translation": ""
+  },
+  "180": {
+    "tag": "TEXT_MANFST205_00660_MOMODI_000_230",
+    "original": "Hmph. Scenes like that are becomin\u0027 ever more common, I\u0027m afraid. Don\u0027t worry, though\u2500if you work hard, you\u0027ll probably be all right.",
+    "translation": ""
+  },
+  "181": {
+    "tag": "TEXT_MANFST205_00660_MOMODI_000_231",
+    "original": "Sayin\u0027 that, if you ever find yourself in a spot of bother, come and see me. Just don\u0027t go pesterin\u0027 me every time you graze your knee, eh?",
+    "translation": ""
+  },
+  "182": {
+    "tag": "TEXT_MANFST205_00660_MOMODI_000_232",
+    "original": "...\u0027Course, I \u003Chex:021A020203\u003Edo\u003Chex:021A020103\u003E enjoy hearin\u0027 tell of a gentleman\u0027s woes with the womenfolk from time to time...",
+    "translation": ""
+  },
+  "183": {
+    "tag": "TEXT_MANFST205_00660_MOMODI_000_233",
+    "original": "Ah, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Sorry to keep you waitin\u0027\u2500I was just providin\u0027 guidance to a fresh-off-the-carriage adventurer.",
+    "translation": ""
+  },
+  "184": {
+    "tag": "TEXT_MANFST205_00660_MOMODI_000_234",
+    "original": "But gods, it\u0027s good to see you safe and well! To look at you, no one would ever guess you\u0027d been hard at it with giants in the dark!",
+    "translation": ""
+  },
+  "185": {
+    "tag": "TEXT_MANFST205_00660_MOMODI_000_235",
+    "original": "I never doubted for a moment that you\u0027d succeed, of course, and neither did Papashan\u2500which ain\u0027t to say he won\u0027t be overjoyed!",
+    "translation": ""
+  },
+  "186": {
+    "tag": "TEXT_MANFST205_00660_MOMODI_000_236",
+    "original": "You\u0027re every ilm the adventurer Miounne said you\u0027d be, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. The stationmaster will be overjoyed when he hears the news!",
+    "translation": ""
+  },
+  "187": {
+    "tag": "TEXT_MANFST205_00660_MOMODI_000_237",
+    "original": "Oh, before I forget, there\u0027s a lass here who wants a word with you. Didn\u0027t actually know your name, but hearin\u0027 her description, I knew who she meant right away.",
+    "translation": ""
+  },
+  "188": {
+    "tag": "TEXT_MANFST205_00660_EDDA_000_238",
+    "original": "Th-Thank you for sparing the time. I realize you don\u0027t know me, but I\u0027ve been longing to speak with you for a while now.",
+    "translation": ""
+  },
+  "189": {
+    "tag": "TEXT_MANFST205_00660_EDDA_000_239",
+    "original": "My name is Edda. I\u0027m an adventurer like you, though I\u0027m not very good at being one, if truth be told. Anyway, I was adventuring with my friends in Gridania when...when... I-I\u0027m sorry. We were in Gridania...when the leader of our party was killed.",
+    "translation": ""
+  },
+  "190": {
+    "tag": "TEXT_MANFST205_00660_EDDA_000_240",
+    "original": "His name was Avere, and he and I were to be wed in the spring. You may not remember him, but to say that he remembered you would be an understatement. He would sing your praises from dawn to dusk. He saw you for what you are, you see\u2500an adventurer\u0027s adventurer\u2500and swore that he would be like you one day.",
+    "translation": ""
+  },
+  "191": {
+    "tag": "TEXT_MANFST205_00660_EDDA_000_241",
+    "original": "I believe that he would have succeeded...had a fiend not robbed him of the chance. Since that day, I have thought long and hard about giving up adventuring.",
+    "translation": ""
+  },
+  "192": {
+    "tag": "TEXT_MANFST205_00660_EDDA_000_242",
+    "original": "But when I think of the \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E you are\u2500of all that you\u0027ve achieved\u2500I find that I am inspired, just as Avere once was.",
+    "translation": ""
+  },
+  "193": {
+    "tag": "TEXT_MANFST205_00660_EDDA_000_243",
+    "original": "And so I\u0027ve decided to start again as an adventurer. I will go back to the village of my birth and begin my training anew.",
+    "translation": ""
+  },
+  "194": {
+    "tag": "TEXT_MANFST205_00660_EDDA_000_244",
+    "original": "But I wanted to meet you first...to ask you your name.",
+    "translation": ""
+  },
+  "195": {
+    "tag": "TEXT_MANFST205_00660_EDDA_000_245",
+    "original": "\u003Chex:022903EB0203\u003E... I shan\u0027t forget.",
+    "translation": ""
+  },
+  "196": {
+    "tag": "TEXT_MANFST205_00660_EDDA_000_246",
+    "original": "Thank you, \u003Chex:022903EB0203\u003E. I pray that we will meet again. Fare you well!",
+    "translation": ""
+  },
+  "197": {
+    "tag": "TEXT_MANFST205_00660_MOMODI_000_247",
+    "original": "Adventurin\u0027 can be a cruel bleedin\u0027 business... Time was, I didn\u0027t know why anyone would bother. When they first asked me to take charge of the guild here, I didn\u0027t want aught to do with you lot\u2500thought it\u0027d be a right pain in the arse lookin\u0027 after you all.",
+    "translation": ""
+  },
+  "198": {
+    "tag": "TEXT_MANFST205_00660_MOMODI_000_248",
+    "original": "But against my better judgment, I decided to accept the post...and I\u0027m full glad I did. I feel privileged to be a part of your lives.",
+    "translation": ""
+  },
+  "199": {
+    "tag": "TEXT_MANFST205_00660_MOMODI_000_249",
+    "original": "And that goes double for yours, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E!",
+    "translation": ""
+  },
+  "200": {
+    "tag": "TEXT_MANFST205_00660_MOMODI_000_250",
+    "original": "...Eh? What did you say? You want to know about the Scions of the Seventh Dawn?",
+    "translation": ""
+  },
+  "201": {
+    "tag": "TEXT_MANFST205_00660_MOMODI_000_251",
+    "original": "They\u0027re beginnin\u0027 to move in earnest, then...",
+    "translation": ""
+  },
+  "202": {
+    "tag": "TEXT_MANFST205_00660_MOMODI_000_252",
+    "original": "Listen, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E\u2500the Scions ain\u0027t no ordinary folk, and the work they do ain\u0027t no ordinary work. I know full well how capable you are, but even \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E would think twice about attemptin\u0027 some of the stuff they do. Knowin\u0027 that, if you\u0027re still certain you want to get involved, I\u0027ll tell you what I can.",
+    "translation": ""
+  },
+  "203": {
+    "tag": "TEXT_MANFST205_00660_QIB_TODO_001",
+    "original": "Defeat the bodyguards!",
+    "translation": ""
+  },
+  "204": {
+    "tag": "TEXT_MANFST205_00660_QIB_HEAVYA_BATTLETALK_001",
+    "original": "\u003Cbelch\u003E I\u0027ll take care o\u0027 this. The rest o\u0027 ye can watch.",
+    "translation": ""
+  },
+  "205": {
+    "tag": "TEXT_MANFST205_00660_QIB_HEAVYA_BATTLETALK_002",
+    "original": "Hmph! Not bad...for an adventurer!",
+    "translation": ""
+  },
+  "206": {
+    "tag": "TEXT_MANFST205_00660_QIB_HEAVYA_BATTLETALK_003",
+    "original": "Ugh... I should\u0027ve stopped at the seventh ale...",
+    "translation": ""
+  },
+  "207": {
+    "tag": "TEXT_MANFST205_00660_QIB_HEAVYA_BATTLETALK_004",
+    "original": "Stop bloody gawpin\u0027 at me and give me a hand, will ye!?",
+    "translation": ""
+  },
+  "208": {
+    "tag": "TEXT_MANFST205_00660_QIB_HEAVYA_BATTLETALK_005",
+    "original": "Bugger, bugger, BUGGER!",
+    "translation": ""
+  }
+}
