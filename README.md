@@ -10,14 +10,19 @@ Il progetto estrae, gestisce, traduce e ricompila in formato binario nativo EXD 
 
 - **Righe Totali Censite ed Estratte**: **433.250 righe**
 - **Quest Narrative Organizzate per Espansione**: **5.532 missioni** (ARR, Heavensward, Stormblood, Shadowbringers, Endwalker, Dawntrail)
-- **Fogli di Sistema al 100% Tradotti**:
+- **Fogli al 100% Tradotti (12 fogli core)**:
   - `lobby.json` (975/975 - 100%): Schermata del titolo, login, selezione e creazione personaggio, opzioni client, gestione server e data center.
-  - `error.json` (63/63 - 100%): Messaggi di errore di sistema e connettività.
+  - `textcommand.json` (543/543 - 100%): Tutti i comandi chat slash e guide all'uso (comandi originali preservati per piena compatibilità con macro e guide esterne).
+  - `howto.json` (262/262 - 100%): Tutte le guide e finestre tutorial di aiuto per principianti.
+  - `weather.json` (209/209 - 100%): Tutte le condizioni meteorologiche di Eorzea e dei mondi di gioco.
+  - `itemuicategory.json` (113/113 - 100%): Tutte le categorie dell'inventario e dell'armeria.
   - `maincommand.json` (99/99 - 100%): Menu comandi principali di gioco.
-  - `maincommandcategory.json` (7/7 - 100%): Categorie del menu principale.
+  - `error.json` (63/63 - 100%): Messaggi di errore di sistema e connettività.
   - `classjob.json` (44/44 - 100%): Tutte le classi e i job di combattimento, gathering e crafting.
-  - `race.json` (8/8 - 100%): Tutte le razze giocabili di Eorzea.
+  - `howtocategory.json` (16/16 - 100%): Categorie delle guide e dei tutorial.
   - `tribe.json` (16/16 - 100%): Tutti i clan e tribù dei personaggi.
+  - `race.json` (8/8 - 100%): Tutte le razze giocabili di Eorzea.
+  - `maincommandcategory.json` (7/7 - 100%): Categorie del menu principale.
 - **Infrastruttura**:
   - Architettura a cartelle categorizzate (`system`, `world`, `combat`, `items`, `dialogue`, `quests`).
   - Pipeline di traduzione modulare a batch (`status`, `export-batch`, `import-batch`, `autofill`).

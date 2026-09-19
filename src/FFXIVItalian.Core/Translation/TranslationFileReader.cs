@@ -211,4 +211,39 @@ public static class TranslationFileReader
 
         return result;
     }
+
+    public static Dictionary<uint, IReadOnlyDictionary<int, string>> LoadTextCommandReplacements(string jsonFilePath)
+    {
+        var result = new Dictionary<uint, IReadOnlyDictionary<int, string>>();
+
+        if (!File.Exists(jsonFilePath))
+        {
+            return result;
+        }
+
+        var json = File.ReadAllText(jsonFilePath);
+        using var doc = JsonDocument.Parse(json);
+
+        foreach (var property in doc.RootElement.EnumerateObject())
+        {
+            if (uint.TryParse(property.Name, out uint rowId) && property.Value.ValueKind == JsonValueKind.Object)
+            {
+                var colMap = new Dictionary<int, string>();
+
+                // Col 8 is col_2 in TextCommand EXD (usage / help description)
+                if (property.Value.TryGetProperty("translation_col_2", out var tCol2) &&
+                    tCol2.ValueKind == JsonValueKind.String && !string.IsNullOrWhiteSpace(tCol2.GetString()))
+                {
+                    colMap[8] = tCol2.GetString()!;
+                }
+
+                if (colMap.Count > 0)
+                {
+                    result[rowId] = colMap;
+                }
+            }
+        }
+
+        return result;
+    }
 }

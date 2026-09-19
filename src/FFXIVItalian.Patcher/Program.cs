@@ -279,7 +279,118 @@ if (raceReplacements.Count > 0 && Directory.Exists(sqPackPath))
     }
 }
 
-// 10. PATCH TRANSLATED QUESTS (se presenti in data/translations/quests/)
+// 10. PATCH HOWTOCATEGORY (Categorie dei tutorial e guide per principianti)
+string howToCatJsonPath = TranslationPathResolver.FindFile(translationsDir, "howtocategory");
+var howToCatReplacements = TranslationFileReader.LoadReplacements(howToCatJsonPath);
+if (howToCatReplacements.Count > 0 && Directory.Exists(sqPackPath))
+{
+    Console.WriteLine();
+    Console.WriteLine($"Caricate {howToCatReplacements.Count} traduzioni da '{Path.GetFileName(howToCatJsonPath)}'.");
+    var luminaHowToCat = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var originalHowToCatExd = luminaHowToCat.GetFile("exd/howtocategory_0_en.exd");
+    if (originalHowToCatExd != null)
+    {
+        byte[] patchedHowToCatExd = ExdPatcher.PatchSimpleStringSheet(
+            originalHowToCatExd.Data,
+            fixedDataSize: 4,
+            stringColumnOffset: 0,
+            howToCatReplacements);
+
+        fileMap["exd/howtocategory_0_en.exd"] = patchedHowToCatExd;
+        Console.WriteLine($"  * 'exd/howtocategory_0_en.exd' rigenerato ({patchedHowToCatExd.Length:N0} byte).");
+    }
+}
+
+// 11. PATCH ITEMUICATEGORY (Categorie dell'inventario e dell'armeria)
+string itemCatJsonPath = TranslationPathResolver.FindFile(translationsDir, "itemuicategory");
+var itemCatReplacements = TranslationFileReader.LoadReplacements(itemCatJsonPath);
+if (itemCatReplacements.Count > 0 && Directory.Exists(sqPackPath))
+{
+    Console.WriteLine();
+    Console.WriteLine($"Caricate {itemCatReplacements.Count} traduzioni da '{Path.GetFileName(itemCatJsonPath)}'.");
+    var luminaItemCat = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var originalItemCatExd = luminaItemCat.GetFile("exd/itemuicategory_0_en.exd");
+    if (originalItemCatExd != null)
+    {
+        byte[] patchedItemCatExd = ExdPatcher.PatchSimpleStringSheet(
+            originalItemCatExd.Data,
+            fixedDataSize: 12,
+            stringColumnOffset: 0,
+            itemCatReplacements);
+
+        fileMap["exd/itemuicategory_0_en.exd"] = patchedItemCatExd;
+        Console.WriteLine($"  * 'exd/itemuicategory_0_en.exd' rigenerato ({patchedItemCatExd.Length:N0} byte).");
+    }
+}
+
+// 12. PATCH WEATHER (Condizioni meteorologiche di tutte le zone di Eorzea)
+string weatherJsonPath = TranslationPathResolver.FindFile(translationsDir, "weather");
+var weatherReplacements = TranslationFileReader.LoadTwoStringReplacements(weatherJsonPath);
+if (weatherReplacements.Count > 0 && Directory.Exists(sqPackPath))
+{
+    Console.WriteLine();
+    Console.WriteLine($"Caricate {weatherReplacements.Count} traduzioni da '{Path.GetFileName(weatherJsonPath)}'.");
+    var luminaWeather = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var originalWeatherExd = luminaWeather.GetFile("exd/weather_0_en.exd");
+    if (originalWeatherExd != null)
+    {
+        byte[] patchedWeatherExd = ExdPatcher.PatchTwoStringSheet(
+            originalWeatherExd.Data,
+            fixedDataSize: 28,
+            string1ColumnOffset: 0,
+            string2ColumnOffset: 4,
+            weatherReplacements);
+
+        fileMap["exd/weather_0_en.exd"] = patchedWeatherExd;
+        Console.WriteLine($"  * 'exd/weather_0_en.exd' rigenerato ({patchedWeatherExd.Length:N0} byte).");
+    }
+}
+
+// 13. PATCH HOWTO (Guide e tutorial per principianti)
+string howToJsonPath = TranslationPathResolver.FindFile(translationsDir, "howto");
+var howToReplacements = TranslationFileReader.LoadReplacements(howToJsonPath);
+if (howToReplacements.Count > 0 && Directory.Exists(sqPackPath))
+{
+    Console.WriteLine();
+    Console.WriteLine($"Caricate {howToReplacements.Count} traduzioni da '{Path.GetFileName(howToJsonPath)}'.");
+    var luminaHowTo = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var originalHowToExd = luminaHowTo.GetFile("exd/howto_0_en.exd");
+    if (originalHowToExd != null)
+    {
+        byte[] patchedHowToExd = ExdPatcher.PatchSimpleStringSheet(
+            originalHowToExd.Data,
+            fixedDataSize: 28,
+            stringColumnOffset: 0,
+            howToReplacements);
+
+        fileMap["exd/howto_0_en.exd"] = patchedHowToExd;
+        Console.WriteLine($"  * 'exd/howto_0_en.exd' rigenerato ({patchedHowToExd.Length:N0} byte).");
+    }
+}
+
+// 14. PATCH TEXTCOMMAND (Spiegazioni e manuali d'uso dei comandi chat slash)
+string textCmdJsonPath = TranslationPathResolver.FindFile(translationsDir, "textcommand");
+var textCmdReplacements = TranslationFileReader.LoadTextCommandReplacements(textCmdJsonPath);
+if (textCmdReplacements.Count > 0 && Directory.Exists(sqPackPath))
+{
+    Console.WriteLine();
+    Console.WriteLine($"Caricate {textCmdReplacements.Count} traduzioni da '{Path.GetFileName(textCmdJsonPath)}'.");
+    var luminaTextCmd = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var originalTextCmdExd = luminaTextCmd.GetFile("exd/textcommand_0_en.exd");
+    if (originalTextCmdExd != null)
+    {
+        byte[] patchedTextCmdExd = ExdPatcher.PatchMultiColumnStringSheet(
+            originalTextCmdExd.Data,
+            fixedDataSize: 32,
+            stringColumnOffsets: [0, 4, 8, 12, 16],
+            textCmdReplacements);
+
+        fileMap["exd/textcommand_0_en.exd"] = patchedTextCmdExd;
+        Console.WriteLine($"  * 'exd/textcommand_0_en.exd' rigenerato ({patchedTextCmdExd.Length:N0} byte).");
+    }
+}
+
+// 15. PATCH TRANSLATED QUESTS (se presenti in data/translations/quests/)
 string questsDir = Path.Combine(translationsDir, "quests");
 if (Directory.Exists(questsDir) && Directory.Exists(sqPackPath))
 {
