@@ -16,12 +16,12 @@
     "translation": "Riconoscimenti"
   },
   "6": {
-    "original": "Calibrate controller?\r\n\u203BSettings can be changed at any time via the System Configuration menu.",
-    "translation": "Calibrare il controller?\r\n\u203BLe impostazioni possono essere modificate in qualsiasi momento dal menu Configurazione di Sistema."
+    "original": "Calibrate controller?\r\n※Settings can be changed at any time via the System Configuration menu.",
+    "translation": "Calibrare il controller?\r\n※Le impostazioni possono essere modificate in qualsiasi momento dal menu Configurazione di Sistema."
   },
   "7": {
     "original": "Yes",
-    "translation": "S\u00EC"
+    "translation": "Sì"
   },
   "8": {
     "original": "No",
@@ -48,8 +48,8 @@
     "translation": "Elimina Personaggio"
   },
   "21": {
-    "original": "Delete \u003Cstring(lstr1)\u003E?",
-    "translation": "Vuoi eliminare \u003Cstring(lstr1)\u003E?\r\nAttenzione: se elimini questo personaggio, perderai tutti i suoi oggetti, i gil e i servitori assunti.\r\nSe questo personaggio \u00E8 maestro di una compagnia libera senza successori validi, la compagnia verr\u00E0 automaticamente sciolta, causando l\u0027eliminazione della tenuta e degli oggetti nel forziere."
+    "original": "Delete <string(lstr1)>?",
+    "translation": "Vuoi eliminare <string(lstr1)>?\r\nAttenzione: se elimini questo personaggio, perderai tutti i suoi oggetti, i gil e i servitori assunti.\r\nSe questo personaggio è maestro di una compagnia libera senza successori validi, la compagnia verrà automaticamente sciolta, causando l'eliminazione della tenuta e degli oggetti nel forziere."
   },
   "22": {
     "original": "I understand and wish to delete this character.",
@@ -64,20 +64,20 @@
     "translation": "Cambia Nome Servitore"
   },
   "25": {
-    "original": "Log in with \u003Cstring(lstr1)\u003E?",
-    "translation": "Vuoi accedere con \u003Cstring(lstr1)\u003E?"
+    "original": "Log in with <string(lstr1)>?",
+    "translation": "Vuoi accedere con <string(lstr1)>?"
   },
   "26": {
     "original": "A name change is required to log in with this character.",
-    "translation": "\u00C8 necessario modificare il nome per accedere con questo personaggio."
+    "translation": "È necessario modificare il nome per accedere con questo personaggio."
   },
   "28": {
-    "original": "Change this character\u0027s name to \u003Cstring(lstr1)\u003E?",
-    "translation": "Cambiare il nome di questo personaggio in \u003Cstring(lstr1)\u003E?"
+    "original": "Change this character's name to <string(lstr1)>?",
+    "translation": "Cambiare il nome di questo personaggio in <string(lstr1)>?"
   },
   "29": {
-    "original": "Change this retainer\u0027s name to \u003Cstring(lstr1)\u003E?",
-    "translation": "Cambiare il nome di questo servitore in \u003Cstring(lstr1)\u003E?"
+    "original": "Change this retainer's name to <string(lstr1)>?",
+    "translation": "Cambiare il nome di questo servitore in <string(lstr1)>?"
   },
   "30": {
     "original": "New Character",
@@ -145,11 +145,11 @@
   },
   "57": {
     "original": "Obtaining the World list...",
-    "translation": "Recupero dell\u0027elenco dei Mondi in corso..."
+    "translation": "Recupero dell'elenco dei Mondi in corso..."
   },
   "58": {
     "original": "Unable to obtain the World list.",
-    "translation": "Impossibile recuperare l\u0027elenco dei Mondi."
+    "translation": "Impossibile recuperare l'elenco dei Mondi."
   },
   "60": {
     "original": "This account has no available character slots.",
@@ -205,14 +205,14 @@
   },
   "95": {
     "original": "Logging in with .",
-    "translation": "Accesso in corso con .\r\n\r\nIl tuo personaggio si trova su un Mondo diverso dal tuo Mondo d\u0027Origine. Visita un\u0027eterite a Limsa Lominsa, Gridania o Ul\u0027dah per fare ritorno."
+    "translation": "Accesso in corso con .\r\n\r\nIl tuo personaggio si trova su un Mondo diverso dal tuo Mondo d'Origine. Visita un'eterite a Limsa Lominsa, Gridania o Ul'dah per fare ritorno."
   },
   "96": {
     "original": "Logging in with .",
-    "translation": "Accesso in corso con .\r\n\r\nIl tuo personaggio si trova in un Data Center diverso dal tuo Mondo d\u0027Origine. Seleziona \u0022Torna al Mondo d\u0027Origine\u0022 dal sottomenu prima di accedere."
+    "translation": "Accesso in corso con .\r\n\r\nIl tuo personaggio si trova in un Data Center diverso dal tuo Mondo d'Origine. Seleziona \"Torna al Mondo d'Origine\" dal sottomenu prima di accedere."
   },
   "101": {
-    "original": "Race \u0026 Gender",
+    "original": "Race & Gender",
     "translation": "Razza e Genere"
   },
   "102": {
@@ -233,119 +233,119 @@
   },
   "106": {
     "original": "Guardian",
-    "translation": "Divinit\u00E0 Patrona"
+    "translation": "Divinità Patrona"
   },
   "107": {
     "original": "Class",
     "translation": "Classe"
   },
   "110": {
-    "name": "Hyur\u003Chex:02090FE802FF0420C2A9FF0420C2AEFF0103\u003E",
-    "translation_name": "Hyur\u003Chex:02090FE802FF0420C2A9FF0420C2AEFF0103\u003E",
-    "description": "The Hyur are said to have first traveled to Eorzea from her surrounding\ncontinents and islands. Three great migratory waves later, they are now\nthe most populous of all the civilized races. They exhibit a relatively\nmodest physique, both in height and build, and are known for their\npeculiarly short, rounded ears. Hyurs are well suited for traveling long\ndistances by foot, a trait thought to account for their swift proliferation.\n\nTheir espousal of an eclectic variety of languages and traditions is\na legacy of their diverse heritage\uFF0Das is their resulting lack of a\nunified cultural identity.",
-    "translation_description": "Si narra che gli Hyur siano giunti per la prima volta a Eorzea dai continenti\ne dalle isole circostanti. Tre grandi ondate migratorie pi\u00F9 tardi, costituiscono\normai la pi\u00F9 popolosa tra tutte le civilt\u00E0. Presentano una corporatura relativamente\nmodesta, sia in altezza che per stazza, e si distinguono per le orecchie\nsingolarmente corte e arrotondate. Gli Hyur sono particolarmente adatti a coprire grandi\ndistanze di marcia, caratteristica considerata alla base della loro rapida proliferazione.\n\nLa loro adozione di un\u0027eclettica variet\u00E0 di idiomi e usanze \u00E8\nl\u0027eredit\u00E0 della loro eterogenea discendenza, cos\u00EC come la conseguente assenza\ndi un\u0027identit\u00E0 culturale unificata."
+    "name": "Hyur<hex:02090FE802FF0420C2A9FF0420C2AEFF0103>",
+    "translation_name": "Hyur<hex:02090FE802FF0420C2A9FF0420C2AEFF0103>",
+    "description": "The Hyur are said to have first traveled to Eorzea from her surrounding\ncontinents and islands. Three great migratory waves later, they are now\nthe most populous of all the civilized races. They exhibit a relatively\nmodest physique, both in height and build, and are known for their\npeculiarly short, rounded ears. Hyurs are well suited for traveling long\ndistances by foot, a trait thought to account for their swift proliferation.\n\nTheir espousal of an eclectic variety of languages and traditions is\na legacy of their diverse heritage－as is their resulting lack of a\nunified cultural identity.",
+    "translation_description": "Si narra che gli Hyur siano giunti per la prima\nvolta a Eorzea dai continenti e dalle isole\ncircostanti. Tre grandi ondate migratorie più\ntardi, costituiscono ormai la più popolosa tra\ntutte le civiltà. Presentano una corporatura\nrelativamente modesta, sia in altezza che per\nstazza, e si distinguono per le orecchie\nsingolarmente corte e arrotondate. Gli Hyur sono\nparticolarmente adatti a coprire grandi distanze\ndi marcia, caratteristica considerata alla base\ndella loro rapida proliferazione.\n\nLa loro adozione di un'eclettica varietà di\nidiomi e usanze è l'eredità della loro\neterogenea discendenza, così come la conseguente\nassenza di un'identità culturale unificata."
   },
   "112": {
-    "name": "Elezen\u003Chex:02090FE802FF0420C2A9FF0420C2AEFF0103\u003E",
-    "translation_name": "Elezen\u003Chex:02090FE802FF0420C2A9FF0420C2AEFF0103\u003E",
+    "name": "Elezen<hex:02090FE802FF0420C2A9FF0420C2AEFF0103>",
+    "translation_name": "Elezen<hex:02090FE802FF0420C2A9FF0420C2AEFF0103>",
     "description": "In former times, the Elezen were the sole inhabitants of Eorzea,\nclaiming dominion over her. Traditionally a nomadic people, the tall,\nslender Elezen believed the realm to be theirs by divine right.\nUnfortunately, this belief made the eventual appearance of the\nHyur in their multitudes akin to an invasion, and a long history of\nconflict ensued.\n\nUltimately, the Elezen diverged into the two clans that exist today.\nThe Wildwood Elezen took to the forests to protect their homeland,\nwhile the Duskwight Elezen withdrew to caves and subterrane, opting\ninstead to avoid all contact with any but their own.",
-    "translation_description": "In tempi remoti, gli Elezen erano gli unici abitanti di Eorzea,\nsu cui rivendicavano il dominio assoluto. Popolo tradizionalmente nomade, gli alti e\nslanciati Elezen credevano che il reame appartenesse loro per diritto divino.\nSfortunatamente, tale convinzione rese la comparsa delle moltitudini di\nHyur del tutto simile a un\u0027invasione, scatenando una lunga storia di aspri conflitti.\n\nCon il tempo, gli Elezen si scissero nei due clan odierni.\nGli Elezen Silvani scelsero le foreste per difendere la loro terra natia,\nmentre gli Elezen Crepuscolari si ritirarono in caverne e recessi sotterranei, preferendo\nevitare qualsiasi contatto con chiunque non appartenesse alla loro stirpe."
+    "translation_description": "In tempi remoti, gli Elezen erano gli unici\nabitanti di Eorzea, su cui rivendicavano il\ndominio assoluto. Popolo tradizionalmente\nnomade, gli alti e slanciati Elezen credevano\nche il reame appartenesse loro per diritto\ndivino. Sfortunatamente, tale convinzione rese\nla comparsa delle moltitudini di Hyur del tutto\nsimile a un'invasione, scatenando una lunga\nstoria di aspri conflitti.\n\nCon il tempo, gli Elezen si scissero nei due\nclan odierni. Gli Elezen Silvani scelsero le\nforeste per difendere la loro terra natia,\nmentre gli Elezen Crepuscolari si ritirarono in\ncaverne e recessi sotterranei, preferendo\nevitare qualsiasi contatto con chiunque non\nappartenesse alla loro stirpe."
   },
   "114": {
-    "name": "Lalafell\u003Chex:02090FE802FF0420C2A9FF0420C2AEFF0103\u003E",
-    "translation_name": "Lalafell\u003Chex:02090FE802FF0420C2A9FF0420C2AEFF0103\u003E",
+    "name": "Lalafell<hex:02090FE802FF0420C2A9FF0420C2AEFF0103>",
+    "translation_name": "Lalafell<hex:02090FE802FF0420C2A9FF0420C2AEFF0103>",
     "description": "A wee people sporting short, rotund bodies, the Lalafell appear as\nno more than children to the eyes of most. Many of these nimble\nlittle folk hail from the islands of the south seas, where they practice\na simple agricultural lifestyle. It was not until the opening of maritime\ntrade routes that the gradual migration of Lalafells to Eorzea began.\n\nNow one of the most well-established races in the realm, Lalafells\ncan be found in great numbers in nearly every city. Though Lalafellin\nculture places great emphasis on blood relations, individuals are known\nfor getting along amicably with members of all races.",
-    "translation_description": "Un popolo minuto dal corpo basso e paffuto, i Lalafell appaiono alla maggior parte\ndegli sguardi come poco pi\u00F9 che bambini. Molti di questi agili\ne piccoli individui provengono dalle isole dei mari meridionali, dove conducevano\nuna semplice vita agricola. Fu solo con l\u0027apertura delle rotte commerciali\nmarittime che ebbe inizio la graduale migrazione dei Lalafell verso Eorzea.\n\nOggi divenuti una delle civilt\u00E0 pi\u00F9 radicate del reame, i Lalafell\nsi trovano in gran numero in quasi ogni citt\u00E0. Sebbene la loro cultura\nattribuisca enorme importanza ai legami di sangue, ciascun individuo \u00E8 noto\nper la straordinaria cordialit\u00E0 con cui convive con ogni altra stirpe."
+    "translation_description": "Un popolo minuto dal corpo basso e paffuto, i\nLalafell appaiono alla maggior parte degli\nsguardi come poco più che bambini. Molti di\nquesti agili e piccoli individui provengono\ndalle isole dei mari meridionali, dove\nconducevano una semplice vita agricola. Fu solo\ncon l'apertura delle rotte commerciali marittime\nche ebbe inizio la graduale migrazione dei\nLalafell verso Eorzea.\n\nOggi divenuti una delle civiltà più radicate del\nreame, i Lalafell si trovano in gran numero in\nquasi ogni città. Sebbene la loro cultura\nattribuisca enorme importanza ai legami di\nsangue, ciascun individuo è noto per la\nstraordinaria cordialità con cui convive con\nogni altra stirpe."
   },
   "116": {
-    "name": "Miqo\u0027te\u003Chex:02090FE802FF0420C2A9FF0420C2AEFF0103\u003E",
-    "translation_name": "Miqo\u0027te\u003Chex:02090FE802FF0420C2A9FF0420C2AEFF0103\u003E",
-    "description": "The ancestors of the Miqo\u0027te made their way to Eorzea during the\nAge of Endless Frost, traversing the frozen seas in pursuit of the\nwildlife upon which they subsisted. Adaptation to a hunting lifestyle\nhas fashioned them with a keen sense of smell, powerful legs, and\na tail which provides them with exceptional balance.\n\nMiqo\u0027te are known to be very territorial, and many individuals tend\nto lead solitary lifestyles, particularly males.",
-    "translation_description": "Gli antenati dei Miqo\u0027te giunsero a Eorzea durante l\u0027Era del\nGelo Perpetuo, attraversando i mari ghiacciati al seguito della fauna selvatica\nda cui traevano sostentamento. L\u0027adattamento alla caccia ha conferito loro un olfatto\nfinissimo, gambe potenti e una coda che garantisce un equilibrio straordinario.\n\nI Miqo\u0027te sono noti per essere fortemente territoriali e molti individui prediligono\nuno stile di vita solitario, in particolare i maschi."
+    "name": "Miqo'te<hex:02090FE802FF0420C2A9FF0420C2AEFF0103>",
+    "translation_name": "Miqo'te<hex:02090FE802FF0420C2A9FF0420C2AEFF0103>",
+    "description": "The ancestors of the Miqo'te made their way to Eorzea during the\nAge of Endless Frost, traversing the frozen seas in pursuit of the\nwildlife upon which they subsisted. Adaptation to a hunting lifestyle\nhas fashioned them with a keen sense of smell, powerful legs, and\na tail which provides them with exceptional balance.\n\nMiqo'te are known to be very territorial, and many individuals tend\nto lead solitary lifestyles, particularly males.",
+    "translation_description": "Gli antenati dei Miqo'te giunsero a Eorzea\ndurante l'Era del Gelo Perpetuo, attraversando i\nmari ghiacciati al seguito della fauna selvatica\nda cui traevano sostentamento. L'adattamento\nalla caccia ha conferito loro un olfatto\nfinissimo, gambe potenti e una coda che\ngarantisce un equilibrio straordinario.\n\nI Miqo'te sono noti per essere fortemente\nterritoriali e molti individui prediligono uno\nstile di vita solitario, in particolare i\nmaschi."
   },
   "118": {
-    "name": "Roegadyn\u003Chex:02090FE802FF0420C2A9FF0420C2AEFF0103\u003E",
-    "translation_name": "Roegadyn\u003Chex:02090FE802FF0420C2A9FF0420C2AEFF0103\u003E",
-    "description": "Known for their brawny builds and piercing eyes, the Roegadyn\nare the largest and most rugged of Eorzea\u0027s races. The majority\nof the realm\u0027s Roegadyn belong to the Sea Wolf clan, a maritime\npeople who earn their keep on or by the sea, be it as sailors,\nfishermen, or pirates. Comparatively fewer in number are the\nHellsguard, who are known for their more earnest demeanors\nand can often be found working as bodyguards and smithies.",
-    "translation_description": "Noti per la muscolatura possente e lo sguardo penetrante, i Roegadyn\nsono la stirpe pi\u00F9 imponente e vigorosa di tutta Eorzea. La maggior parte\ndei Roegadyn del reame appartiene al clan dei Lupi di Mare, un popolo marittimo\nche trae sostentamento dalle acque, sia come marinai che come pescatori o pirati.\nInferiori per numero sono invece i Guardinferno, noti per la loro indole pi\u00F9 austera\ne spesso impiegati come guardie del corpo o fabbri."
+    "name": "Roegadyn<hex:02090FE802FF0420C2A9FF0420C2AEFF0103>",
+    "translation_name": "Roegadyn<hex:02090FE802FF0420C2A9FF0420C2AEFF0103>",
+    "description": "Known for their brawny builds and piercing eyes, the Roegadyn\nare the largest and most rugged of Eorzea's races. The majority\nof the realm's Roegadyn belong to the Sea Wolf clan, a maritime\npeople who earn their keep on or by the sea, be it as sailors,\nfishermen, or pirates. Comparatively fewer in number are the\nHellsguard, who are known for their more earnest demeanors\nand can often be found working as bodyguards and smithies.",
+    "translation_description": "Noti per la muscolatura possente e lo sguardo\npenetrante, i Roegadyn sono la stirpe più\nimponente e vigorosa di tutta Eorzea. La maggior\nparte dei Roegadyn del reame appartiene al clan\ndei Lupi di Mare, un popolo marittimo che trae\nsostentamento dalle acque, sia come marinai che\ncome pescatori o pirati. Inferiori per numero\nsono invece i Guardinferno, noti per la loro\nindole più austera e spesso impiegati come\nguardie del corpo o fabbri."
   },
   "120": {
     "name": "Midlander",
     "translation_name": "Piancolle",
-    "description": "The Midlander clan comprises over half of the total population of\nEorzea\u0027s Hyurs. They have established themselves throughout\nevery city in the realm and lead lives as diverse as their heritage.\n\nTrained in letters from infancy, the Midlanders are generally more\neducated than many of the other races and clans. Despite the fact\nthat males tend to be slightly taller than females, there are no\nsignificant differences between the genders.",
-    "translation_description": "Il clan dei Piancolle costituisce oltre la met\u00E0 della popolazione totale\ndegli Hyur di Eorzea. Si sono stabiliti in ogni citt\u00E0\ndel reame e conducono esistenze tanto variegate quanto la loro discendenza.\n\nEducati alle lettere sin dall\u0027infanzia, i Piancolle vantano generalmente un\u0027istruzione\nsuperiore a molte altre stirpi e clan. Bench\u00E9 i maschi tendano a essere leggermente\npi\u00F9 alti delle femmine, non sussistono differenze fisiche sostanziali tra i generi."
+    "description": "The Midlander clan comprises over half of the total population of\nEorzea's Hyurs. They have established themselves throughout\nevery city in the realm and lead lives as diverse as their heritage.\n\nTrained in letters from infancy, the Midlanders are generally more\neducated than many of the other races and clans. Despite the fact\nthat males tend to be slightly taller than females, there are no\nsignificant differences between the genders.",
+    "translation_description": "Il clan dei Piancolle costituisce oltre la metà\ndella popolazione totale degli Hyur di Eorzea.\nSi sono stabiliti in ogni città del reame e\nconducono esistenze tanto variegate quanto la\nloro discendenza.\n\nEducati alle lettere sin dall'infanzia, i\nPiancolle vantano generalmente un'istruzione\nsuperiore a molte altre stirpi e clan. Benché i\nmaschi tendano a essere leggermente più alti\ndelle femmine, non sussistono differenze fisiche\nsostanziali tra i generi."
   },
   "122": {
     "name": "Highlander",
     "translation_name": "Montanaro",
-    "description": "The Highlanders were the first of the Hyur to reach Eorzea.\nTheir name derives from their long tradition of building strongholds\nin the mountains. Compared to their Midland brethren, the\nHighlanders are noticeably larger in build.\n\nOf late, Highlanders have become an increasingly rare sight\nin Eorzea, their number represented almost exclusively by those\nwho fled Ala Mhigo after its fall and now work in the desert\ncity-state of Ul\u0027dah as mercenaries and sellswords.",
-    "translation_description": "I Montanari furono i primi tra gli Hyur a giungere a Eorzea.\nIl loro nome trae origine dall\u0027antica usanza di erigere roccaforti\ntra le vette montuose. Rispetto ai loro confratelli Piancolle, i\nMontanari presentano una corporatura visibilmente pi\u00F9 possente.\n\nNegli ultimi tempi, i Montanari sono divenuti una presenza sempre pi\u00F9 rara\na Eorzea, rappresentati quasi esclusivamente da coloro che fuggirono da Ala Mhigo\ndopo la sua caduta e che ora prestano servizio nella citt\u00E0-stato desertica\ndi Ul\u0027dah come mercenari e soldati di ventura."
+    "description": "The Highlanders were the first of the Hyur to reach Eorzea.\nTheir name derives from their long tradition of building strongholds\nin the mountains. Compared to their Midland brethren, the\nHighlanders are noticeably larger in build.\n\nOf late, Highlanders have become an increasingly rare sight\nin Eorzea, their number represented almost exclusively by those\nwho fled Ala Mhigo after its fall and now work in the desert\ncity-state of Ul'dah as mercenaries and sellswords.",
+    "translation_description": "I Montanari furono i primi tra gli Hyur a\ngiungere a Eorzea. Il loro nome trae origine\ndall'antica usanza di erigere roccaforti tra le\nvette montuose. Rispetto ai loro confratelli\nPiancolle, i Montanari presentano una\ncorporatura visibilmente più possente.\n\nNegli ultimi tempi, i Montanari sono divenuti\nuna presenza sempre più rara a Eorzea,\nrappresentati quasi esclusivamente da coloro che\nfuggirono da Ala Mhigo dopo la sua caduta e che\nora prestano servizio nella città-stato\ndesertica di Ul'dah come mercenari e soldati di\nventura."
   },
   "124": {
     "name": "Wildwood",
     "translation_name": "Silvano",
-    "description": "For hundreds of years, the Wildwood Elezen have lived in the\nrelative safety of Eorzea\u0027s lush forests. With the formation of\nEorzea\u0027s governments, however, many Wildwood ventured forth\nfrom the forests, drawn to the exhilarating cosmopolitanism of\nnearby Gridania. There is minimal dimorphism between the two\ngenders, though males are generally considered to be milder and\nmore contemplative than females, who are renowned for their fierce,\nsteadfast disposition.",
-    "translation_description": "Per centinaia di anni, gli Elezen Silvani hanno dimorato nella\nrelativa sicurezza delle lussureggianti foreste di Eorzea. Con la nascita\ndei governi del reame, tuttavia, molti Silvani si spinsero oltre i boschi,\nattratti dal vivace cosmopolitismo della vicina Gridania. Il dimorfismo tra i due sessi\n\u00E8 minimo, sebbene i maschi siano comunemente considerati pi\u00F9 miti e\nriflessivi delle femmine, rinomate per il loro spirito fiero e risoluto."
+    "description": "For hundreds of years, the Wildwood Elezen have lived in the\nrelative safety of Eorzea's lush forests. With the formation of\nEorzea's governments, however, many Wildwood ventured forth\nfrom the forests, drawn to the exhilarating cosmopolitanism of\nnearby Gridania. There is minimal dimorphism between the two\ngenders, though males are generally considered to be milder and\nmore contemplative than females, who are renowned for their fierce,\nsteadfast disposition.",
+    "translation_description": "Per centinaia di anni, gli Elezen Silvani hanno\ndimorato nella relativa sicurezza delle\nlussureggianti foreste di Eorzea. Con la nascita\ndei governi del reame, tuttavia, molti Silvani\nsi spinsero oltre i boschi, attratti dal vivace\ncosmopolitismo della vicina Gridania. Il\ndimorfismo tra i due sessi è minimo, sebbene i\nmaschi siano comunemente considerati più miti e\nriflessivi delle femmine, rinomate per il loro\nspirito fiero e risoluto."
   },
   "126": {
     "name": "Duskwight",
     "translation_name": "Crepuscolare",
     "description": "The Duskwight Elezen are descendants of those who sought\nsanctuary in the subterranean depths of Eorzea following the rupture\nof ties with their Wildwood brethren. Generations of cave-dwelling\nhave endowed them with pallid skin and keen senses of sight and hearing.\nWhile an unsavory reputation as brigands and outlaws clings to them among\ndwellers of the surface, many Duskwights are proud folk who wish only to\nlive in peace according to their ancestral customs.",
-    "translation_description": "Gli Elezen Crepuscolari sono i discendenti di coloro che cercarono rifugio\nnelle vaste caverne sotterranee di Eorzea in seguito alla rottura dei legami\ncon i loro fratelli Silvani. Vivendo da generazioni nell\u0027oscurit\u00E0, hanno sviluppato\nuna carnagione straordinariamente pallida e un acume visivo e uditivo superiore.\nNonostante la reputazione di briganti e banditi che spesso li accompagna tra gli\nabitanti della superficie, molti Crepuscolari sono individui fieri che desiderano\nsolo vivere in pace secondo le antiche tradizioni dei loro avi."
+    "translation_description": "Gli Elezen Crepuscolari sono i discendenti di\ncoloro che cercarono rifugio nelle vaste caverne\nsotterranee di Eorzea in seguito alla rottura\ndei legami con i loro fratelli Silvani. Vivendo\nda generazioni nell'oscurità, hanno sviluppato\nuna carnagione straordinariamente pallida e un\nacume visivo e uditivo superiore. Nonostante la\nreputazione di briganti e banditi che spesso li\naccompagna tra gli abitanti della superficie,\nmolti Crepuscolari sono individui fieri che\ndesiderano solo vivere in pace secondo le\nantiche tradizioni dei loro avi."
   },
   "128": {
     "name": "Plainsfolk",
     "translation_name": "Pratoverde",
     "description": "The Plainsfolk have lived for generations in the fertile grasslands of\nthe southern islands, fashioning traditional thatched dwellings of clay.\nTheir hair exhibits earthy, golden hues reminiscent of swaying prairies,\nwhile their large, luminous eyes reflect their friendly and inquisitive nature.\nAdapting swiftly to the urban centers of Eorzea, they excel in commerce,\nagriculture, and all trades calling for ingenuity and industriousness.",
-    "translation_description": "I Pratoverde hanno vissuto per generazioni nelle fertili pianure\ndelle isole meridionali, costruendo caratteristiche dimore di paglia e argilla.\nI loro capelli presentano tonalit\u00E0 terrose e dorate che richiamano le distese erbose,\nmentre gli occhi grandi e luminosi riflettono la loro indole cordiale e curiosa.\nAdattandosi rapidamente ai ritmi cittadini di Eorzea, eccellono nel commercio,\nnell\u0027agricoltura e in qualsiasi professione richieda ingegno e laboriosit\u00E0."
+    "translation_description": "I Pratoverde hanno vissuto per generazioni nelle\nfertili pianure delle isole meridionali,\ncostruendo caratteristiche dimore di paglia e\nargilla. I loro capelli presentano tonalità\nterrose e dorate che richiamano le distese\nerbose, mentre gli occhi grandi e luminosi\nriflettono la loro indole cordiale e curiosa.\nAdattandosi rapidamente ai ritmi cittadini di\nEorzea, eccellono nel commercio,\nnell'agricoltura e in qualsiasi professione\nrichieda ingegno e laboriosità."
   },
   "130": {
     "name": "Dunesfolk",
     "translation_name": "Dunagialla",
-    "description": "The Dunesfolk trace their lineage to the arid, desolate expanses of the\nsouthern islands, where they constructed dwellings atop the backs of giant\nbeasts of burden. The most striking trait of this clan is the luminous\nmembrane covering their pupils, evolved to shield their eyes from the harsh\nglare of the sun and blowing sand. Many Dunesfolk settled in the Thanalan desert,\nfounding the bustling merchant city of Ul\u0027dah and mastering its commerce.",
-    "translation_description": "I Dunagialla traggono origine dalle aride e desolate distese delle isole del sud,\ndove erigevano abitazioni sopra i dorsi di grandi bestie da soma.\nLa caratteristica pi\u00F9 peculiare di questo clan \u00E8 la sottile membrana lucida che\nricopre le pupille, evolutasi per proteggere gli occhi dal riverbero accecante del sole e dalla sabbia.\nMolti Dunagialla si sono stabiliti nel deserto di Thanalan, dove hanno fondato\nla sfarzosa citt\u00E0 mercantile di Ul\u0027dah, guidandone la finanza e il commercio con impareggiabile maestria."
+    "description": "The Dunesfolk trace their lineage to the arid, desolate expanses of the\nsouthern islands, where they constructed dwellings atop the backs of giant\nbeasts of burden. The most striking trait of this clan is the luminous\nmembrane covering their pupils, evolved to shield their eyes from the harsh\nglare of the sun and blowing sand. Many Dunesfolk settled in the Thanalan desert,\nfounding the bustling merchant city of Ul'dah and mastering its commerce.",
+    "translation_description": "I Dunagialla traggono origine dalle aride e\ndesolate distese delle isole del sud, dove\nerigevano abitazioni sopra i dorsi di grandi\nbestie da soma. La caratteristica più peculiare\ndi questo clan è la sottile membrana lucida che\nricopre le pupille, evolutasi per proteggere gli\nocchi dal riverbero accecante del sole e dalla\nsabbia. Molti Dunagialla si sono stabiliti nel\ndeserto di Thanalan, dove hanno fondato la\nsfarzosa città mercantile di Ul'dah, guidandone\nla finanza e il commercio con impareggiabile\nmaestria."
   },
   "132": {
     "name": "Seekers of the Sun",
     "translation_name": "Cercasole",
     "description": "The Seekers of the Sun have adapted to diurnal life and revere Azeyma, the\nWarden. Members of this clan are distinguished by their vividly colored eyes\nwith slender, vertical pupils reminiscent of predatory cats. Their tribal society\nis strictly structured around twenty-six patrilineal tribes, each associated with\na character of the ancient Eorzean alphabet. Males are divided between dominant\nbreeders and solitary wanderers seeking their own territories.",
-    "translation_description": "I Cercasole si sono adattati alla vita diurna e venerano Azeyma, Custode del Sole.\nI membri di questo clan si distinguono per gli occhi dai colori vividi con pupille verticali\ne sottili, simili a quelle dei felini predatori. La loro societ\u00E0 tribale \u00E8 rigidamente\norganizzata attorno a ventisei trib\u00F9, ciascuna associata a una lettera dell\u0027antico alfabeto eorzeano.\nI maschi sono suddivisi tra riproduttori dominanti e giovani guerrieri erranti in cerca del proprio territorio."
+    "translation_description": "I Cercasole si sono adattati alla vita diurna e\nvenerano Azeyma, Custode del Sole. I membri di\nquesto clan si distinguono per gli occhi dai\ncolori vividi con pupille verticali e sottili,\nsimili a quelle dei felini predatori. La loro\nsocietà tribale è rigidamente organizzata\nattorno a ventisei tribù, ciascuna associata a\nuna lettera dell'antico alfabeto eorzeano. I\nmaschi sono suddivisi tra riproduttori dominanti\ne giovani guerrieri erranti in cerca del proprio\nterritorio."
   },
   "134": {
     "name": "Keepers of the Moon",
     "translation_name": "Guardialuna",
-    "description": "The Keepers of the Moon are a nocturnal clan of Miqo\u0027te devoted to Menphina,\nthe Lover. They are recognized by their pronounced canines, fair skin, and large,\nrounded pupils tailored for hunting in the dark recesses of the woods. Unlike the\nSeekers of the Sun, the Keepers live in a distinctly matriarchal culture organized\ninto small family units where mothers pass down their names and authority.",
-    "translation_description": "Le Guardialuna sono un clan di Miqo\u0027te notturni devoti a Menphina, Custode della Luna.\nSi distinguono per i canini pronunciati, la carnagione pallida e gli occhi grandi dalle pupille rotonde,\nperfettamente adatti a cacciare nell\u0027oscurit\u00E0 delle selve. A differenza dei Cercasole,\nle Guardialuna vivono in una societ\u00E0 spiccatamente matriarcale, organizzata in piccole famiglie\nin cui le madri tramandano il proprio nome e la propria autorit\u00E0 alle figlie."
+    "description": "The Keepers of the Moon are a nocturnal clan of Miqo'te devoted to Menphina,\nthe Lover. They are recognized by their pronounced canines, fair skin, and large,\nrounded pupils tailored for hunting in the dark recesses of the woods. Unlike the\nSeekers of the Sun, the Keepers live in a distinctly matriarchal culture organized\ninto small family units where mothers pass down their names and authority.",
+    "translation_description": "Le Guardialuna sono un clan di Miqo'te notturni\ndevoti a Menphina, Custode della Luna. Si\ndistinguono per i canini pronunciati, la\ncarnagione pallida e gli occhi grandi dalle\npupille rotonde, perfettamente adatti a cacciare\nnell'oscurità delle selve. A differenza dei\nCercasole, le Guardialuna vivono in una società\nspiccatamente matriarcale, organizzata in\npiccole famiglie in cui le madri tramandano il\nproprio nome e la propria autorità alle figlie."
   },
   "136": {
     "name": "Sea Wolves",
     "translation_name": "Lupi di Mare",
     "description": "Hailing from the frozen archipelagos of the northern seas, the Sea Wolves arrived\nin Eorzea aboard formidable longships, earning widespread awe as intrepid mariners.\nTheir skin carries cool, bluish and greenish tints reminiscent of the ocean depths.\nToday they form the bedrock of the maritime realm of Limsa Lominsa, flourishing as\nmaster sailors, deep-sea fishermen, and naval commanders.",
-    "translation_description": "Originari delle gelide isole dei mari settentrionali, i Lupi di Mare approdarono a Eorzea\nsulle loro imponenti navi lunghe, guadagnandosi il rispetto e il timore di tutti come formidabili corsari.\nLa loro carnagione tende a sfumature bluastre e verdognole che richiamano le profondit\u00E0 oceaniche.\nOggi costituiscono la colonna portante della citt\u00E0 marinara di Limsa Lominsa, distinguendosi come\ncoraggiosi marinai, pescatori d\u0027alto mare e comandanti navali."
+    "translation_description": "Originari delle gelide isole dei mari\nsettentrionali, i Lupi di Mare approdarono a\nEorzea sulle loro imponenti navi lunghe,\nguadagnandosi il rispetto e il timore di tutti\ncome formidabili corsari. La loro carnagione\ntende a sfumature bluastre e verdognole che\nrichiamano le profondità oceaniche. Oggi\ncostituiscono la colonna portante della città\nmarinara di Limsa Lominsa, distinguendosi come\ncoraggiosi marinai, pescatori d'alto mare e\ncomandanti navali."
   },
   "138": {
     "name": "Hellsguard",
     "translation_name": "Guardinferno",
     "description": "The Hellsguard are a proud clan of Roegadyn who made their home in the volcanic\nreaches of the northern Abalathia spine. Believing the mouths of craters to be the\ngateways to the underworld, they took upon themselves the sacred vigil over the flaming\nabysses. Their rust-hued skin and immense stature make them fearsome warriors and master\nsmiths, while fostering profound spiritual devotion.",
-    "translation_description": "I Guardinferno sono un fiero clan di Roegadyn che ha eletto a propria dimora le regioni vulcaniche\ndi Abalathia. Credendo fermamente che le bocche dei crateri costituiscano i varchi d\u0027accesso agli inferi,\nsi sono assunti il solenne compito di vegliare su tali abissi ardenti. La loro pelle color ruggine\ne la forza erculea li rendono guerrieri temibili e maestri dell\u0027arte della forgiatura, sebbene coltivino\nanche una profonda disciplina spirituale e filosofica."
+    "translation_description": "I Guardinferno sono un fiero clan di Roegadyn\nche ha eletto a propria dimora le regioni\nvulcaniche di Abalathia. Credendo fermamente che\nle bocche dei crateri costituiscano i varchi\nd'accesso agli inferi, si sono assunti il\nsolenne compito di vegliare su tali abissi\nardenti. La loro pelle color ruggine e la forza\nerculea li rendono guerrieri temibili e maestri\ndell'arte della forgiatura, sebbene coltivino\nanche una profonda disciplina spirituale e\nfilosofica."
   },
   "140": {
-    "name": "Au Ra\u003Chex:02090FE802FF0420C2A9FF0420C2AEFF0103\u003E",
-    "translation_name": "Au Ra\u003Chex:02090FE802FF0420C2A9FF0420C2AEFF0103\u003E",
-    "description": "The curved horns and patterned scales that characterize the Au Ra\noften give rise to speculation that this Hyuran-sized race are,\nin fact, the progeny of dragons. This has long been a disputed\nsubject, based on the race\u0027s split creation myths and the\nevident dissimilarity in their respective physical features\uFF0Dthe\nmost egregious of which is the Au Ra\u0027s cranial horns, which grant\nthem enhanced hearing and spatial recognition, but remain\nunmatched by any dragon.\n\nIn addition to these cranial features, the Au Ra are also known\nfor the significant difference in height between males and females,\nwith the former often towering above the latter.",
-    "translation_description": "Le corna ricurve e le scaglie geometriche che contraddistinguono gli Au Ra\nhanno spesso alimentato l\u0027ipotesi che questa stirpe di statura simile a quella hyuriana\nsia, in realt\u00E0, la discendenza dei draghi. Tale congettura \u00E8 tuttavia oggetto di antica disputa,\nconsiderati i miti contrastanti sulla loro creazione e la palese divergenza nei rispettivi tratti anatomici:\nil pi\u00F9 evidente risiede nelle corna craniche degli Au Ra, che garantiscono loro\nun udito amplificato e una fine percezione spaziale, propriet\u00E0 del tutto assente nei draghi.\n\nOltre a queste caratteristiche craniche, gli Au Ra si distinguono\nper il marcato dimorfismo di statura tra maschi e femmine, nei quali i primi svettano\nnettamente sulle seconde per altezza."
+    "name": "Au Ra<hex:02090FE802FF0420C2A9FF0420C2AEFF0103>",
+    "translation_name": "Au Ra<hex:02090FE802FF0420C2A9FF0420C2AEFF0103>",
+    "description": "The curved horns and patterned scales that characterize the Au Ra\noften give rise to speculation that this Hyuran-sized race are,\nin fact, the progeny of dragons. This has long been a disputed\nsubject, based on the race's split creation myths and the\nevident dissimilarity in their respective physical features－the\nmost egregious of which is the Au Ra's cranial horns, which grant\nthem enhanced hearing and spatial recognition, but remain\nunmatched by any dragon.\n\nIn addition to these cranial features, the Au Ra are also known\nfor the significant difference in height between males and females,\nwith the former often towering above the latter.",
+    "translation_description": "Le corna ricurve e le scaglie geometriche che\ncontraddistinguono gli Au Ra hanno spesso\nalimentato l'ipotesi che questa stirpe di\nstatura simile a quella hyuriana sia, in realtà,\nla discendenza dei draghi. Tale congettura è\ntuttavia oggetto di antica disputa, considerati\ni miti contrastanti sulla loro creazione e la\npalese divergenza nei rispettivi tratti\nanatomici: il più evidente risiede nelle corna\ncraniche degli Au Ra, che garantiscono loro un\nudito amplificato e una fine percezione\nspaziale, proprietà del tutto assente nei\ndraghi.\n\nOltre a queste caratteristiche craniche, gli Au\nRa si distinguono per il marcato dimorfismo di\nstatura tra maschi e femmine, nei quali i primi\nsvettano nettamente sulle seconde per altezza."
   },
   "142": {
     "name": "Raen",
     "translation_name": "Raen",
     "description": "The Raen believe themselves to be descendants of the Dawn Father, the solar\ndeity of their creation myth. Their scales and horns gleam with an immaculate\nivory hue, symbolizing tranquility and virtue. Leaving behind the harsh steppes\nfor sheltered valleys and eastern shores, the Raen embraced a peaceful existence,\nexcelling in diplomacy, arts, and meditation while nurturing deep communal harmony.",
-    "translation_description": "I Raen credono di discendere dalla Madre dell\u0027Alba, divinit\u00E0 solare del loro pantheon.\nLe loro scaglie e corna sono di un colore bianco avorio immacolato, a simboleggiare purezza e serenit\u00E0.\nAbbandonate le aspre steppe per valli riparate e coste orientali, i Raen hanno intrapreso\nuno stile di vita pacifico, eccellendo nella diplomazia, nella poesia e nella meditazione spirituale,\nmantenendo un profondo senso di armonia e lealt\u00E0 verso la comunit\u00E0."
+    "translation_description": "I Raen credono di discendere dalla Madre\ndell'Alba, divinità solare del loro pantheon. Le\nloro scaglie e corna sono di un colore bianco\navorio immacolato, a simboleggiare purezza e\nserenità. Abbandonate le aspre steppe per valli\nriparate e coste orientali, i Raen hanno\nintrapreso uno stile di vita pacifico,\neccellendo nella diplomazia, nella poesia e\nnella meditazione spirituale, mantenendo un\nprofondo senso di armonia e lealtà verso la\ncomunità."
   },
   "144": {
     "name": "Xaela",
     "translation_name": "Xaela",
     "description": "The Xaela revere the Dusk Mother, primordial entity of the star-strewn night.\nThey boast lustrous scales and horns of pitch black and maintain nomadic ways\nacross the vast Azim Steppe. Divided into dozens of martial tribes perpetually\nwarring and allying among themselves, the Xaela place supreme value on battle prowess,\nsurvival skills, and untrammeled freedom beneath the open sky.",
-    "translation_description": "Gli Xaela venerano il Padre dell\u0027Imbrunire, entit\u00E0 primordiale della notte stellata.\nSfoggiano scaglie e corna di una fuligginosa tonalit\u00E0 nera come la pece e mantengono costumi nomadi\nnelle sterminate steppe di Othard. Suddivisi in decine di trib\u00F9 guerriere costantemente in lotta o alleanza\ntra loro, gli Xaela ripongono il massimo valore nel coraggio in battaglia, nell\u0027abilit\u00E0 venatoria e nella libert\u00E0\nassoluta sotto la volta celeste."
+    "translation_description": "Gli Xaela venerano il Padre dell'Imbrunire,\nentità primordiale della notte stellata.\nSfoggiano scaglie e corna di una fuligginosa\ntonalità nera come la pece e mantengono costumi\nnomadi nelle sterminate steppe di Othard.\nSuddivisi in decine di tribù guerriere\ncostantemente in lotta o alleanza tra loro, gli\nXaela ripongono il massimo valore nel coraggio\nin battaglia, nell'abilità venatoria e nella\nlibertà assoluta sotto la volta celeste."
   },
   "154": {
     "original": "Halone",
@@ -361,7 +361,7 @@
   },
   "157": {
     "original": "The Lover",
-    "translation": "L\u0027Amante"
+    "translation": "L'Amante"
   },
   "158": {
     "original": "Thaliak",
@@ -420,8 +420,8 @@
     "translation": "La Custode"
   },
   "172": {
-    "original": "Nald\u0027thal",
-    "translation": "Nald\u0027thal"
+    "original": "Nald'thal",
+    "translation": "Nald'thal"
   },
   "173": {
     "original": "The Traders",
@@ -447,49 +447,49 @@
     "name": "Gladiator",
     "translation_name": "Gladiatore",
     "description": "Gladiators specialize in the handling of all manner of one-handed\nblades, from daggers to longswords, be they single- or double-edged,\nstraight or curved. A defining characteristic of the art is its emphasis\non diverse combat tactics, training its members to bring their martial\nskills to bear in any situation. As such, there are practitioners who\nmarry sword with shield, seeking to defend their fellow companions.\nOthers opt for an empty off hand, choosing instead to focus entirely\non their sword arm. In all instances, the ages-old art of the sword\nmakes the gladiator a formidable adversary in any encounter.\n\nCorresponding Job: Paladin",
-    "translation_description": "I Gladiatori sono maestri nell\u0027impiego di ogni genere di lama a una mano,\ndai pugnali alle spade lunghe, siano esse a filo singolo o doppio, diritte\no ricurve. Tratto distintivo dell\u0027arte \u00E8 l\u0027enfasi posta su tattiche di combattimento\neterogenee, addestrando i praticanti ad applicare le proprie doti marziali\nin qualsiasi frangente. Vi sono guerrieri che abbinano spada e scudo per difendere\ni propri alleati, mentre altri prediligono la mano secondaria libera, concentrandosi\nesclusivamente sul braccio armato. In ogni caso, l\u0027antichissima arte della spada\nrende il gladiatore un avversario formidabile in qualunque scontro.\n\nJob Corrispondente: Paladino"
+    "translation_description": "I Gladiatori sono maestri nell'impiego di ogni genere di lama a una mano,\ndai pugnali alle spade lunghe, siano esse a filo singolo o doppio, diritte\no ricurve. Tratto distintivo dell'arte è l'enfasi posta su tattiche di combattimento\neterogenee, addestrando i praticanti ad applicare le proprie doti marziali\nin qualsiasi frangente. Vi sono guerrieri che abbinano spada e scudo per difendere\ni propri alleati, mentre altri prediligono la mano secondaria libera, concentrandosi\nesclusivamente sul braccio armato. In ogni caso, l'antichissima arte della spada\nrende il gladiatore un avversario formidabile in qualunque scontro.\n\nJob Corrispondente: Paladino"
   },
   "180": {
     "name": "Pugilist",
     "translation_name": "Pugile",
     "description": "Pugilists are hand-to-hand fighters who rely on physical conditioning and\nagility, transforming their limbs into deadly weapons. Trained in traditional\nboxing and the use of cestuses and knuckles, practitioners deliver lightning\nflurries of strikes capable of breaking enemy guards. Through rigorous training,\nthey channel their momentum to overwhelm opponents with relentless tempo.\n\nCorresponding Job: Monk",
-    "translation_description": "I Pugili sono combattenti corpo a corpo che fanno affidamento sull\u0027agilit\u00E0 e sulla forza\ndelle proprie membra, trasformando il proprio corpo in un\u0027arma micidiale. Addestrati\nnelle discipline del combattimento e nell\u0027impiego di tirapugni e guanti d\u0027arme,\ni praticanti sferrano raffiche di pugni fulminei capaci di scardinare le difese nemiche.\nGrazie a un costante addestramento fisico e spirituale, incanalano il proprio impeto\nper sopraffare l\u0027avversario con ritmo implacabile.\n\nJob Corrispondente: Monaco"
+    "translation_description": "I Pugili sono combattenti corpo a corpo che fanno affidamento sull'agilità e sulla forza\ndelle proprie membra, trasformando il proprio corpo in un'arma micidiale. Addestrati\nnelle discipline del combattimento e nell'impiego di tirapugni e guanti d'arme,\ni praticanti sferrano raffiche di pugni fulminei capaci di scardinare le difese nemiche.\nGrazie a un costante addestramento fisico e spirituale, incanalano il proprio impeto\nper sopraffare l'avversario con ritmo implacabile.\n\nJob Corrispondente: Monaco"
   },
   "182": {
     "name": "Marauder",
     "translation_name": "Incursore",
     "description": "Marauders are colossi of the battlefield who wield great two-handed greataxes.\nBorn from the ancient maritime traditions of Lominsan corsairs, they favor brute\nstrength and shock tactics, cleaving through armor and shields with devastating\nblows. Capable of weathering punishing attacks through unyielding grit, marauders\nstand in the vanguard, drawing enemy ire to safeguard their comrades.\n\nCorresponding Job: Warrior",
-    "translation_description": "Gli Incursori sono colossi del campo di battaglia armati di possenti asce da guerra bipenni.\nNati dall\u0027antica tradizione marinara dei corsari di Lominsa, privilegiano la forza bruta\ne l\u0027intimidazione, abbattendo fendenti devastanti capaci di spaccare corazze e scudi nemici.\nIn grado di incassare colpi impressionanti grazie a una tempra granitica, gli incursori\nsi pongono in prima linea attirando su di s\u00E9 l\u0027attenzione dei nemici per proteggere i propri compagni.\n\nJob Corrispondente: Guerriero"
+    "translation_description": "Gli Incursori sono colossi del campo di battaglia armati di possenti asce da guerra bipenni.\nNati dall'antica tradizione marinara dei corsari di Lominsa, privilegiano la forza bruta\ne l'intimidazione, abbattendo fendenti devastanti capaci di spaccare corazze e scudi nemici.\nIn grado di incassare colpi impressionanti grazie a una tempra granitica, gli incursori\nsi pongono in prima linea attirando su di sé l'attenzione dei nemici per proteggere i propri compagni.\n\nJob Corrispondente: Guerriero"
   },
   "184": {
     "name": "Lancer",
     "translation_name": "Lanciere",
-    "description": "Lancers excel in the martial art of polearms, wielding spears, halberds,\nand pikes with unmatched precision. Utilizing their weapon\u0027s reach, they keep\nfoes at bay before delivering deadly thrusts and sweeping strikes. Continuous\nrefinement of balance and positioning allows them to strike unerringly at vulnerabilities\nin enemy defenses, preparing to leap with formidable force.\n\nCorresponding Job: Dragoon",
-    "translation_description": "I Lancieri eccellono nell\u0027arte dell\u0027asta, impugnando lance, picche e alabarde con maestria impareggiabile.\nSfruttando la portata delle proprie armi, mantengono i nemici a distanza di sicurezza per poi sferrare\nstoccate fulminee e letali fendenti circolari. Il continuo studio dell\u0027equilibrio e del posizionamento\nconsente loro di colpire con precisione chirurgica i punti deboli delle difese avversarie,\npreparandosi a spiccare balzi poderosi.\n\nJob Corrispondente: Dragoon"
+    "description": "Lancers excel in the martial art of polearms, wielding spears, halberds,\nand pikes with unmatched precision. Utilizing their weapon's reach, they keep\nfoes at bay before delivering deadly thrusts and sweeping strikes. Continuous\nrefinement of balance and positioning allows them to strike unerringly at vulnerabilities\nin enemy defenses, preparing to leap with formidable force.\n\nCorresponding Job: Dragoon",
+    "translation_description": "I Lancieri eccellono nell'arte dell'asta, impugnando lance, picche e alabarde con maestria impareggiabile.\nSfruttando la portata delle proprie armi, mantengono i nemici a distanza di sicurezza per poi sferrare\nstoccate fulminee e letali fendenti circolari. Il continuo studio dell'equilibrio e del posizionamento\nconsente loro di colpire con precisione chirurgica i punti deboli delle difese avversarie,\npreparandosi a spiccare balzi poderosi.\n\nJob Corrispondente: Dragoon"
   },
   "186": {
     "name": "Archer",
     "translation_name": "Arciere",
     "description": "Archers are masters of ranged combat, blessed with keen eyes and deep knowledge\nof wind currents and ballistic arcs. Originating in the dense canopy of the Black\nShroud, the way of the bow allows rapid fire while maneuvering fluidly across the field.\nSoftening targets long before they can draw near, archers bolster their companions\nwith swift, coordinated tactics.\n\nCorresponding Job: Bard",
-    "translation_description": "Gli Arcieri sono maestri del combattimento a distanza, dotati di una mira infallibile e di una profonda\nconoscenza dei venti e delle traiettorie balistiche. Nata nelle folte foreste del Velo Nero,\nla disciplina dell\u0027arco consente di scoccare frecce a raffica mentre ci si sposta con agilit\u00E0 sul terreno di scontro.\nIn grado di indebolire i nemici prima ancora che possano avvicinarsi, gli arcieri supportano i compagni\ncon tattiche agili e coordinate.\n\nJob Corrispondente: Bardo"
+    "translation_description": "Gli Arcieri sono maestri del combattimento a distanza, dotati di una mira infallibile e di una profonda\nconoscenza dei venti e delle traiettorie balistiche. Nata nelle folte foreste del Velo Nero,\nla disciplina dell'arco consente di scoccare frecce a raffica mentre ci si sposta con agilità sul terreno di scontro.\nIn grado di indebolire i nemici prima ancora che possano avvicinarsi, gli arcieri supportano i compagni\ncon tattiche agili e coordinate.\n\nJob Corrispondente: Bardo"
   },
   "188": {
     "name": "Conjurer",
     "translation_name": "Incantatore",
-    "description": "Conjurers commune with the primal forces of nature, channeling the elements of\nearth, wind, and water. Deeply attuned to the elementals dwelling within the realm,\nthey draw pure aether to mend comrades\u0027 wounds, cleanse afflictions, and unleash\nnature\u0027s wrath against any who threaten balance. Their craft is an inexhaustible\nfount of solace and protection for every fellowship.\n\nCorresponding Job: White Mage",
-    "translation_description": "Gli Incantatori attingono alle forze primordiali della natura, invocando gli elementi della terra, del vento\ne dell\u0027acqua. In profonda comunione con gli spiriti elementali che dimorano nel reame, incanalano l\u0027etere\npuro per risanare le ferite degli alleati, purificare le impurit\u00E0 e scagliare vendette della natura contro chi minaccia\nl\u0027armonia del creato. La loro magia \u00E8 fonte inesauribile di sostegno e protezione per ogni avventuriero.\n\nJob Corrispondente: Mago Bianco"
+    "description": "Conjurers commune with the primal forces of nature, channeling the elements of\nearth, wind, and water. Deeply attuned to the elementals dwelling within the realm,\nthey draw pure aether to mend comrades' wounds, cleanse afflictions, and unleash\nnature's wrath against any who threaten balance. Their craft is an inexhaustible\nfount of solace and protection for every fellowship.\n\nCorresponding Job: White Mage",
+    "translation_description": "Gli Incantatori attingono alle forze primordiali della natura, invocando gli elementi della terra, del vento\ne dell'acqua. In profonda comunione con gli spiriti elementali che dimorano nel reame, incanalano l'etere\npuro per risanare le ferite degli alleati, purificare le impurità e scagliare vendette della natura contro chi minaccia\nl'armonia del creato. La loro magia è fonte inesauribile di sostegno e protezione per ogni avventuriero.\n\nJob Corrispondente: Mago Bianco"
   },
   "190": {
     "name": "Thaumaturge",
     "translation_name": "Taumaturgo",
-    "description": "Thaumaturges manipulate destructive aether through the mystical oscillation of\nfire, ice, and lightning. Originating in the mortuary crypts of Ul\u0027dah, they channel\nsearing flames to inflict catastrophic ruin, then transition to biting frost to replenish\ntheir aetherial reserves in an unceasing, rhythmic cycle. Their mastery over the dark\narts makes them among the deadliest magical attackers in the realm.\n\nCorresponding Job: Black Mage",
-    "translation_description": "I Taumaturghi manipolano l\u0027etere distruttivo attraverso l\u0027alternanza mistica di fuoco, ghiaccio e folgore.\nOriginari delle cripte e dei complessi funerari di Ul\u0027dah, incanalano le fiamme ardenti per infliggere danni\ncatastrofici, per poi passare al gelo profondo onde rigenerare le proprie riserve eteriche in un ciclo perfetto\ne inarrestabile. La loro padronanza delle arti oscure li rende tra gli attaccanti magici pi\u00F9 devastanti del reame.\n\nJob Corrispondente: Mago Nero"
+    "description": "Thaumaturges manipulate destructive aether through the mystical oscillation of\nfire, ice, and lightning. Originating in the mortuary crypts of Ul'dah, they channel\nsearing flames to inflict catastrophic ruin, then transition to biting frost to replenish\ntheir aetherial reserves in an unceasing, rhythmic cycle. Their mastery over the dark\narts makes them among the deadliest magical attackers in the realm.\n\nCorresponding Job: Black Mage",
+    "translation_description": "I Taumaturghi manipolano l'etere distruttivo attraverso l'alternanza mistica di fuoco, ghiaccio e folgore.\nOriginari delle cripte e dei complessi funerari di Ul'dah, incanalano le fiamme ardenti per infliggere danni\ncatastrofici, per poi passare al gelo profondo onde rigenerare le proprie riserve eteriche in un ciclo perfetto\ne inarrestabile. La loro padronanza delle arti oscure li rende tra gli attaccanti magici più devastanti del reame.\n\nJob Corrispondente: Mago Nero"
   },
   "192": {
     "name": "Arcanist",
     "translation_name": "Arcanista",
     "description": "Arcanists apply geometric rigor and mystic equations to the shaping of aether,\nweaving intricate patterns with conductive inks inside their grimoires. Through\nthese formulae, they breathe life into Carbuncles, faithful aetherial familiars\nthat battle at their side. Skilled in debilitating enemies and administering field\nsaid, arcanists embody the union of scholastic scholarship and battlefield strategy.\n\nCorresponding Jobs: Summoner / Scholar",
-    "translation_description": "Gli Arcanisti applicano rigore geometrico ed equazioni mistiche alla manipolazione dell\u0027etere,\ntracciando complessi schemi geometrici con inchiostri conduttivi all\u0027interno dei propri grimori.\nGrazie a tali formule, infondono vita ai Carbuncle, creature eteriche di supporto che combattono al loro fianco.\nAbili sia nell\u0027applicare debilitazioni persistenti sui nemici che nel prestare prime cure agli alleati,\ngli arcanisti incarnano la fusione ideale tra studio accademico e strategia tattica.\n\nJob Corrispondenti: Evocatore / Studioso"
+    "translation_description": "Gli Arcanisti applicano rigore geometrico ed equazioni mistiche alla manipolazione dell'etere,\ntracciando complessi schemi geometrici con inchiostri conduttivi all'interno dei propri grimori.\nGrazie a tali formule, infondono vita ai Carbuncle, creature eteriche di supporto che combattono al loro fianco.\nAbili sia nell'applicare debilitazioni persistenti sui nemici che nel prestare prime cure agli alleati,\ngli arcanisti incarnano la fusione ideale tra studio accademico e strategia tattica.\n\nJob Corrispondenti: Evocatore / Studioso"
   },
   "200": {
     "original": "Presets",
@@ -688,104 +688,104 @@
     "translation": "Dimensioni Seno"
   },
   "458": {
-    "name": "Hrothgar\u003Chex:02090FE802FF0420C2A9FF0420C2AEFF0103\u003E",
-    "translation_name": "Hrothgar\u003Chex:02090FE802FF0420C2A9FF0420C2AEFF0103\u003E",
-    "description": "Hailing from the distant shores of Ilsabard, the Hrothgar are a burly\npeople of leonine appearance\uFF0Dor so the men appear, for they were the\nonly Hrothgar to journey to the shores of Eorzea until only very\nrecently. Now that female Hrothgar have begun to cross the sea, they\ncan be seen standing beside their male counterparts, their\ntall, slender frames and regal mien readily setting them apart.\n\nBoth genders possess sharp claws and pointed fangs, instilling\nfear in other races upon their arrival in Eorzea. Despite their\nintimidating appearance, Hrothgar are on the whole a gentle people,\nand over time were able to establish themselves in the realm as trusted\nfriends and comrades.",
-    "translation_description": "Originari delle lontane coste di Ilsabard, gli Hrothgar sono una stirpe\nrobusta dai tratti leonini: o almeno tale era l\u0027aspetto dei soli maschi che, fino a tempi\nmolto recenti, avevano intrapreso il viaggio verso le rive di Eorzea. Ora che anche\nle femmine hrothgar hanno iniziato ad attraversare i mari, \u00E8 possibile scorgerle\nal fianco dei propri compagni, distinguendosi per la statura slanciata e il portamento fiero e regale.\n\nEntrambi i sessi possiedono artigli affilati e zanne aguzze, dettagli che suscitarono timore\nnelle altre civilt\u00E0 al loro primo sbarco a Eorzea. A dispetto del loro aspetto minaccioso,\ngli Hrothgar sono tuttavia un popolo benevolo, e nel tempo hanno saputo affermarsi\nnel reame come fidati amici e valorosi compagni d\u0027arme."
+    "name": "Hrothgar<hex:02090FE802FF0420C2A9FF0420C2AEFF0103>",
+    "translation_name": "Hrothgar<hex:02090FE802FF0420C2A9FF0420C2AEFF0103>",
+    "description": "Hailing from the distant shores of Ilsabard, the Hrothgar are a burly\npeople of leonine appearance－or so the men appear, for they were the\nonly Hrothgar to journey to the shores of Eorzea until only very\nrecently. Now that female Hrothgar have begun to cross the sea, they\ncan be seen standing beside their male counterparts, their\ntall, slender frames and regal mien readily setting them apart.\n\nBoth genders possess sharp claws and pointed fangs, instilling\nfear in other races upon their arrival in Eorzea. Despite their\nintimidating appearance, Hrothgar are on the whole a gentle people,\nand over time were able to establish themselves in the realm as trusted\nfriends and comrades.",
+    "translation_description": "Originari delle lontane coste di Ilsabard, gli\nHrothgar sono una stirpe robusta dai tratti\nleonini: o almeno tale era l'aspetto dei soli\nmaschi che, fino a tempi molto recenti, avevano\nintrapreso il viaggio verso le rive di Eorzea.\nOra che anche le femmine hrothgar hanno iniziato\nad attraversare i mari, è possibile scorgerle al\nfianco dei propri compagni, distinguendosi per\nla statura slanciata e il portamento fiero e\nregale.\n\nEntrambi i sessi possiedono artigli affilati e\nzanne aguzze, dettagli che suscitarono timore\nnelle altre civiltà al loro primo sbarco a\nEorzea. A dispetto del loro aspetto minaccioso,\ngli Hrothgar sono tuttavia un popolo benevolo, e\nnel tempo hanno saputo affermarsi nel reame come\nfidati amici e valorosi compagni d'arme."
   },
   "460": {
-    "name": "Viera\u003Chex:02090FE802FF0420C2A9FF0420C2AEFF0103\u003E",
-    "translation_name": "Viera\u003Chex:02090FE802FF0420C2A9FF0420C2AEFF0103\u003E",
-    "description": "Of tall stature and slender frame, the Viera\u0027s physical appearance is\nstrikingly similar to that of the Hyur and Elezen, save for their\ndistinctive long ears. Adhering to a strict code known as the Green\nWord, they are prohibited from contact with the outside world under\nthreat of exile. Their society is purely matriarchal, and males of age\nare seldom, if ever, found within the bounds of any village. They\ninstead serve as protectors of the wood from the shadows, that no\nevil may ever encroach on their sacred lands.",
-    "translation_description": "Di alta statura e corporatura sinuosa, l\u0027aspetto dei Viera presenta\nuna notevole somiglianza con quello di Hyur ed Elezen, eccezion fatta per le loro\ncaratteristiche lunghe orecchie. Fedeli a un rigido codice noto come Parola Verde,\n\u00E8 loro fatto divieto di entrare in contatto con il mondo esterno sotto pena di esilio. La loro\nsociet\u00E0 \u00E8 puramente matriarcale, e i maschi adulti assai raramente dimorano entro i confini\ndei villaggi. Essi agiscono invece come silenziosi custodi della foresta dall\u0027ombra,\naffinch\u00E9 nessuna minaccia osi profanare le loro terre sacre."
+    "name": "Viera<hex:02090FE802FF0420C2A9FF0420C2AEFF0103>",
+    "translation_name": "Viera<hex:02090FE802FF0420C2A9FF0420C2AEFF0103>",
+    "description": "Of tall stature and slender frame, the Viera's physical appearance is\nstrikingly similar to that of the Hyur and Elezen, save for their\ndistinctive long ears. Adhering to a strict code known as the Green\nWord, they are prohibited from contact with the outside world under\nthreat of exile. Their society is purely matriarchal, and males of age\nare seldom, if ever, found within the bounds of any village. They\ninstead serve as protectors of the wood from the shadows, that no\nevil may ever encroach on their sacred lands.",
+    "translation_description": "Di alta statura e corporatura sinuosa, l'aspetto\ndei Viera è simile a quello di Hyur ed Elezen,\neccezion fatta per le caratteristiche lunghe\norecchie. Fedeli a un rigido codice noto come\nParola Verde, è loro fatto divieto di entrare in\ncontatto con il mondo esterno sotto pena di\nesilio. La loro società è puramente matriarcale,\ne i maschi adulti assai raramente dimorano entro\ni confini dei villaggi. Essi agiscono invece\ncome silenziosi custodi della foresta\ndall'ombra, affinché nessuna minaccia osi\nprofanare le loro terre sacre."
   },
   "462": {
     "name": "Helions",
     "translation_name": "Eliano",
-    "description": "Helions have traditionally been content to reside in southern Ilsabard\nwith their respective tribes, devout servants to their queens,\none and all\u2014and thus have they only but recently begun to make\ntheir presence felt throughout the remainder of the three continents.\nThough these Hrothgar initially had no word to describe themselves,\nscholars came to call them \u0022Helions\u0022 after observing how their lives\nall but revolved about their queen\u0027s needs, as planets circle the sun.",
-    "translation_description": "Gli Eliani risiedevano tradizionalmente nell\u0027Ilsabard meridionale, suddivisi nelle rispettive trib\u00F9\ne devoti servitori delle proprie regine: per questa ragione hanno iniziato a palesare la propria presenza\nnel resto dei tre continenti solo in tempi recenti. Sebbene questi Hrothgar non possedessero originariamente\nun vocabolo per definirsi, gli studiosi presero a chiamarli \u0022Eliani\u0022 notando come le loro vite ruotassero\ninteramente attorno alle esigenze della regina, proprio come pianeti attorno al sole."
+    "description": "Helions have traditionally been content to reside in southern Ilsabard\nwith their respective tribes, devout servants to their queens,\none and all—and thus have they only but recently begun to make\ntheir presence felt throughout the remainder of the three continents.\nThough these Hrothgar initially had no word to describe themselves,\nscholars came to call them \"Helions\" after observing how their lives\nall but revolved about their queen's needs, as planets circle the sun.",
+    "translation_description": "Gli Eliani risiedevano tradizionalmente\nnell'Ilsabard meridionale, suddivisi nelle\nrispettive tribù e devoti servitori delle\nproprie regine: per questa ragione hanno\niniziato a palesare la propria presenza nel\nresto dei tre continenti solo in tempi recenti.\nSebbene questi Hrothgar non possedessero\noriginariamente un vocabolo per definirsi, gli\nstudiosi presero a chiamarli \"Eliani\" notando\ncome le loro vite ruotassero interamente attorno\nalle esigenze della regina, proprio come pianeti\nattorno al sole."
   },
   "464": {
     "name": "The Lost",
     "translation_name": "Ramingo",
-    "description": "Unlike their Helion brethren, the Lost are unbound by the whims of any\nreigning monarch, having long since found themselves bereft of the\nwarm radiance of their queen. Most find that a nomadic lifestyle\nbest suits their situation, and are known to ply a variety of trades\nthat align with their propensity to travel\u2014seasonal laborer,\nmercenary, and peddler among them.",
-    "translation_description": "A differenza dei loro confratelli Eliani, i Raminghi non sono vincolati ai voleri di alcun sovrano regnante,\nessendosi ritrovati da lungo tempo privati del caldo bagliore della loro regina. La maggior parte di essi ritiene\nche uno stile di vita nomade sia il pi\u00F9 consono alla propria condizione, dedicandosi a mestieri legati\nalla naturale propensione al viaggio: braccianti stagionali, mercenari e mercanti ambulanti su tutti."
+    "description": "Unlike their Helion brethren, the Lost are unbound by the whims of any\nreigning monarch, having long since found themselves bereft of the\nwarm radiance of their queen. Most find that a nomadic lifestyle\nbest suits their situation, and are known to ply a variety of trades\nthat align with their propensity to travel—seasonal laborer,\nmercenary, and peddler among them.",
+    "translation_description": "A differenza dei loro confratelli Eliani, i\nRaminghi non sono vincolati ai voleri di alcun\nsovrano regnante, essendosi ritrovati da lungo\ntempo privati del caldo bagliore della loro\nregina. La maggior parte di essi ritiene che uno\nstile di vita nomade sia il più consono alla\npropria condizione, dedicandosi a mestieri\nlegati alla naturale propensione al viaggio:\nbraccianti stagionali, mercenari e mercanti\nambulanti su tutti."
   },
   "466": {
     "name": "Rava",
     "translation_name": "Rava",
     "description": "Viera of the Rava clan live primarily in the Golmore Jungle, their\number skin allowing them to readily blend in with their surroundings.\nThough the males stand as wards of the forest, the females are\nadept hunters and protectors in their own right, fiercely guarding their homes and\ntheir young. Despite attempts by the Dalmascans to subjugate\nthem, they have ever maintained a self-governing dominion. Though\nmost would adhere to the traditions of the wood, some few have\nchosen to venture out into the world.",
-    "translation_description": "I Viera del clan Rava dimorano primariamente nella Giungla di Golmore, dove la pelle bruna consente loro\ndi confondersi agevolmente con la fitta vegetazione circostante. Sebbene i maschi agiscano come sentinelle\ndella foresta, le femmine sono cacciatrici e protettrici provette, pronte a difendere con ferocia le dimore\ne i piccoli. A dispetto dei tentativi di sottomissione operati dai Dalmascani, hanno sempre preservato\nla propria sovranit\u00E0. Bench\u00E9 i pi\u00F9 osservino le tradizioni boschive, alcuni hanno scelto di viaggiare nel mondo."
+    "translation_description": "I Viera del clan Rava dimorano principalmente\nnella Giungla di Golmore, dove la pelle bruna\nconsente loro di confondersi con la fitta\nvegetazione. Sebbene i maschi agiscano come\nsentinelle della foresta, le femmine sono\ncacciatrici e protettrici provette, pronte a\ndifendere le dimore e i piccoli. A dispetto dei\ntentativi di sottomissione dei Dalmascani, hanno\nsempre preservato la propria sovranità. Benché i\npiù osservino le tradizioni boschive, alcuni\nhanno scelto di viaggiare nel mondo."
   },
   "468": {
     "name": "Veena",
     "translation_name": "Veena",
     "description": "With skin as fair as the snowcapped mountains towering above, the\nVeena clan make their homes in the forests lining the southwestern\nfoothills of the Skatay Range. Like the members of their sister clan,\nthe Veena live as hunters and gatherers, laboring not only to protect\nthe woods, but to nurture them. As the winds of war swept up a\nnumber of those who left their mountain homes, many such\nhardened hunters chose to set out for the distant shores of Eorzea.",
-    "translation_description": "Con una carnagione candida come le vette innevate che svettano sopra di loro, i membri del clan Veena\ndimorano nelle foreste lungo le pendici sud-occidentali della Catena dello Skatay. Al pari delle loro sorelle Rava,\ni Veena vivono di caccia e raccolta, adoperandosi non solo per proteggere i boschi, bens\u00EC per nutrirli e curarli.\nQuando i venti di guerra travolsero quanti avevano lasciato le montagne, molti di questi indomiti cacciatori\nscelsero di salpare verso le lontane coste di Eorzea."
+    "translation_description": "Con una carnagione candida come le vette\ninnevate che svettano sopra di loro, i Veena\ndimorano nelle foreste lungo le pendici\nsud-occidentali della Catena dello Skatay. Al\npari delle loro sorelle Rava, i Veena vivono di\ncaccia e raccolta, adoperandosi non solo per\nproteggere i boschi, bensì per nutrirli e\ncurarli. Quando i venti di guerra travolsero\nquanti avevano lasciato le montagne, molti di\nquesti indomiti cacciatori scelsero di salpare\nverso le lontane coste di Eorzea."
   },
   "471": {
-    "original": "Halone, mover of glaciers and goddess of war, is the\u003Chex:02100103\u003Eguardian deity of Ishgard. She commands the element of\u003Chex:02100103\u003Eice and is associated with the first moon of the Eorzean\u003Chex:02100103\u003Ecalendar. Halone is the daughter of Rhalgr, and a bitter\u003Chex:02100103\u003Erival of Nophica. She is most often depicted as a\u003Chex:02100103\u003Erelentless warrioress armed with a bronze greatshield.\u003Chex:02100103\u003EHer symbol is the three spears.",
-    "translation": "Halone, Signora dei Ghiacciai e Dea della Guerra, \u00E8 la\u003Chex:02100103\u003Edivinit\u00E0 protettrice di Ishgard. Governa l\u0027elemento del\u003Chex:02100103\u003Eghiaccio ed \u00E8 associata alla prima luna del calendario\u003Chex:02100103\u003Eeorzeano. Halone \u00E8 la figlia di Rhalgr e l\u0027acerrima\u003Chex:02100103\u003Erivale di Nophica. \u00C8 per lo pi\u00F9 raffigurata come un\u0027implacabile\u003Chex:02100103\u003Eguerriera armata di un grande scudo di bronzo.\u003Chex:02100103\u003EIl suo simbolo sono le tre lance."
+    "original": "Halone, mover of glaciers and goddess of war, is the<hex:02100103>guardian deity of Ishgard. She commands the element of<hex:02100103>ice and is associated with the first moon of the Eorzean<hex:02100103>calendar. Halone is the daughter of Rhalgr, and a bitter<hex:02100103>rival of Nophica. She is most often depicted as a<hex:02100103>relentless warrioress armed with a bronze greatshield.<hex:02100103>Her symbol is the three spears.",
+    "translation": "Halone, Signora dei Ghiacciai e Dea della Guerra, è la<hex:02100103>divinità protettrice di Ishgard. Governa l'elemento del<hex:02100103>ghiaccio ed è associata alla prima luna del calendario<hex:02100103>eorzeano. Halone è la figlia di Rhalgr e l'acerrima<hex:02100103>rivale di Nophica. È per lo più raffigurata come un'implacabile<hex:02100103>guerriera armata di un grande scudo di bronzo.<hex:02100103>Il suo simbolo sono le tre lance."
   },
   "472": {
-    "original": "Menphina is keeper of the moon and the goddess of love.\u003Chex:02100103\u003EShe commands the element of ice and is associated with\u003Chex:02100103\u003Ethe second moon of the Eorzean calendar. Menphina is the\u003Chex:02100103\u003Esister of Azeyma, and the divine lover of Oschon. She is\u003Chex:02100103\u003Emost often depicted as a maid carrying a round skillet.\u003Chex:02100103\u003EHer symbol is the full moon.",
-    "translation": "Menphina \u00E8 la Custode della Luna e la Dea dell\u0027Amore.\u003Chex:02100103\u003EGoverna l\u0027elemento del ghiaccio ed \u00E8 associata alla\u003Chex:02100103\u003Eseconda luna del calendario eorzeano. Menphina \u00E8 la\u003Chex:02100103\u003Esorella di Azeyma e la divina amante di Oschon. \u00C8\u003Chex:02100103\u003Eper lo pi\u00F9 raffigurata come una fanciulla recante una padella rotonda.\u003Chex:02100103\u003EIl suo simbolo \u00E8 la luna piena."
+    "original": "Menphina is keeper of the moon and the goddess of love.<hex:02100103>She commands the element of ice and is associated with<hex:02100103>the second moon of the Eorzean calendar. Menphina is the<hex:02100103>sister of Azeyma, and the divine lover of Oschon. She is<hex:02100103>most often depicted as a maid carrying a round skillet.<hex:02100103>Her symbol is the full moon.",
+    "translation": "Menphina è la Custode della Luna e la Dea dell'Amore.<hex:02100103>Governa l'elemento del ghiaccio ed è associata alla<hex:02100103>seconda luna del calendario eorzeano. Menphina è la<hex:02100103>sorella di Azeyma e la divina amante di Oschon. È<hex:02100103>per lo più raffigurata come una fanciulla recante una padella rotonda.<hex:02100103>Il suo simbolo è la luna piena."
   },
   "473": {
-    "original": "Thaliak, ruler of rivers and wisdom, and god of knowledge,\u003Chex:02100103\u003Eis the guardian deity of Sharlayan. He commands the\u003Chex:02100103\u003Eelement of water and is associated with the third moon\u003Chex:02100103\u003Eof the Eorzean calendar. Thaliak is the father of Llymlaen,\u003Chex:02100103\u003Eand the teacher of Byregot. He is most often depicted as a\u003Chex:02100103\u003Ereserved scholar holding an ashen staff. His symbol is the scroll.",
-    "translation": "Thaliak, Signore dei Fiumi e della Saggezza, Dio della Conoscenza,\u003Chex:02100103\u003E\u00E8 la divinit\u00E0 protettrice di Sharlayan. Governa l\u0027elemento\u003Chex:02100103\u003Edell\u0027acqua ed \u00E8 associato alla terza luna del calendario\u003Chex:02100103\u003Eeorzeano. Thaliak \u00E8 il padre di Llymlaen e il maestro di Byregot.\u003Chex:02100103\u003E\u00C8 per lo pi\u00F9 raffigurato come un riservato studioso recante\u003Chex:02100103\u003Eun bastone di frassino. Il suo simbolo \u00E8 la pergamena."
+    "original": "Thaliak, ruler of rivers and wisdom, and god of knowledge,<hex:02100103>is the guardian deity of Sharlayan. He commands the<hex:02100103>element of water and is associated with the third moon<hex:02100103>of the Eorzean calendar. Thaliak is the father of Llymlaen,<hex:02100103>and the teacher of Byregot. He is most often depicted as a<hex:02100103>reserved scholar holding an ashen staff. His symbol is the scroll.",
+    "translation": "Thaliak, Signore dei Fiumi e della Saggezza, Dio della Conoscenza,<hex:02100103>è la divinità protettrice di Sharlayan. Governa l'elemento<hex:02100103>dell'acqua ed è associato alla terza luna del calendario<hex:02100103>eorzeano. Thaliak è il padre di Llymlaen e il maestro di Byregot.<hex:02100103>È per lo più raffigurato come un riservato studioso recante<hex:02100103>un bastone di frassino. Il suo simbolo è la pergamena."
   },
   "474": {
-    "original": "Nymeia is the watcher of celestial bodies and goddess\u003Chex:02100103\u003Eof fate. She commands the element of water and is\u003Chex:02100103\u003Eassociated with the fourth moon of the Eorzean calendar.\u003Chex:02100103\u003ENymeia is the younger sister of Althyk, and master of\u003Chex:02100103\u003ERhalgr. She is most often depicted as a weaver donning\u003Chex:02100103\u003Ea white silken veil. Her symbol is the spinning wheel.",
-    "translation": "Nymeia \u00E8 la Custode dei Corpi Celesti e la Dea del Destino.\u003Chex:02100103\u003EGoverna l\u0027elemento dell\u0027acqua ed \u00E8 associata alla quarta\u003Chex:02100103\u003Eluna del calendario eorzeano. Nymeia \u00E8 la sorella minore\u003Chex:02100103\u003Edi Althyk e la sovrana di Rhalgr. \u00C8 per lo pi\u00F9 raffigurata come\u003Chex:02100103\u003Euna tessitrice avvolta da un velo di candida seta.\u003Chex:02100103\u003EIl suo simbolo \u00E8 l\u0027arcolaio."
+    "original": "Nymeia is the watcher of celestial bodies and goddess<hex:02100103>of fate. She commands the element of water and is<hex:02100103>associated with the fourth moon of the Eorzean calendar.<hex:02100103>Nymeia is the younger sister of Althyk, and master of<hex:02100103>Rhalgr. She is most often depicted as a weaver donning<hex:02100103>a white silken veil. Her symbol is the spinning wheel.",
+    "translation": "Nymeia è la Custode dei Corpi Celesti e la Dea del Destino.<hex:02100103>Governa l'elemento dell'acqua ed è associata alla quarta<hex:02100103>luna del calendario eorzeano. Nymeia è la sorella minore<hex:02100103>di Althyk e la sovrana di Rhalgr. È per lo più raffigurata come<hex:02100103>una tessitrice avvolta da un velo di candida seta.<hex:02100103>Il suo simbolo è l'arcolaio."
   },
   "475": {
-    "original": "Llymlaen, watcher of the seas and goddess of navigation,\u003Chex:02100103\u003Eis the guardian deity of Limsa Lominsa. She commands\u003Chex:02100103\u003Ethe element of wind and is associated with the fifth\u003Chex:02100103\u003Emoon of the Eorzean calendar. Llymlaen is the daughter\u003Chex:02100103\u003Eof Thaliak, and the elder sister of Nophica. She is most\u003Chex:02100103\u003Eoften depicted as a strong fisherwoman wielding a\u003Chex:02100103\u003Elong-bladed harpoon. Her symbol is the wave.",
-    "translation": "Llymlaen, Custode dei Mari e Dea della Navigazione, \u00E8 la\u003Chex:02100103\u003Edivinit\u00E0 protettrice di Limsa Lominsa. Governa l\u0027elemento\u003Chex:02100103\u003Edel vento ed \u00E8 associata alla quinta luna del calendario\u003Chex:02100103\u003Eeorzeano. Llymlaen \u00E8 la figlia di Thaliak e la sorella\u003Chex:02100103\u003Emaggiore di Nophica. \u00C8 per lo pi\u00F9 raffigurata come una forte\u003Chex:02100103\u003Epescatrice armata di un lungo arpione.\u003Chex:02100103\u003EIl suo simbolo \u00E8 l\u0027onda."
+    "original": "Llymlaen, watcher of the seas and goddess of navigation,<hex:02100103>is the guardian deity of Limsa Lominsa. She commands<hex:02100103>the element of wind and is associated with the fifth<hex:02100103>moon of the Eorzean calendar. Llymlaen is the daughter<hex:02100103>of Thaliak, and the elder sister of Nophica. She is most<hex:02100103>often depicted as a strong fisherwoman wielding a<hex:02100103>long-bladed harpoon. Her symbol is the wave.",
+    "translation": "Llymlaen, Custode dei Mari e Dea della Navigazione, è la<hex:02100103>divinità protettrice di Limsa Lominsa. Governa l'elemento<hex:02100103>del vento ed è associata alla quinta luna del calendario<hex:02100103>eorzeano. Llymlaen è la figlia di Thaliak e la sorella<hex:02100103>maggiore di Nophica. È per lo più raffigurata come una forte<hex:02100103>pescatrice armata di un lungo arpione.<hex:02100103>Il suo simbolo è l'onda."
   },
   "476": {
-    "original": "Oschon is ruler of the mountains and god of travelers\u003Chex:02100103\u003Eand vagrants. He commands the element of wind and is\u003Chex:02100103\u003Eassociated with the sixth moon of the Eorzean calendar.\u003Chex:02100103\u003EOschon is the brother of Nald\u0027thal, and the close\u003Chex:02100103\u003Ecompanion of Halone. He is most often depicted as a\u003Chex:02100103\u003Ecarefree ranger wielding a bow of yew. His symbol is\u003Chex:02100103\u003Ethe walking stick.",
-    "translation": "Oschon \u00E8 il Signore delle Montagne e il Dio dei Viandanti e dei\u003Chex:02100103\u003EVagabondi. Governa l\u0027elemento del vento ed \u00E8 associato alla\u003Chex:02100103\u003Esesta luna del calendario eorzeano. Oschon \u00E8 il fratello di\u003Chex:02100103\u003ENald\u0027thal e l\u0027inseparabile compagno di Halone. \u00C8 per lo pi\u00F9\u003Chex:02100103\u003Eraffigurato come un cacciatore spensierato con un arco di tasso.\u003Chex:02100103\u003EIl suo simbolo \u00E8 il bastone da passeggio."
+    "original": "Oschon is ruler of the mountains and god of travelers<hex:02100103>and vagrants. He commands the element of wind and is<hex:02100103>associated with the sixth moon of the Eorzean calendar.<hex:02100103>Oschon is the brother of Nald'thal, and the close<hex:02100103>companion of Halone. He is most often depicted as a<hex:02100103>carefree ranger wielding a bow of yew. His symbol is<hex:02100103>the walking stick.",
+    "translation": "Oschon è il Signore delle Montagne e il Dio dei Viandanti e dei<hex:02100103>Vagabondi. Governa l'elemento del vento ed è associato alla<hex:02100103>sesta luna del calendario eorzeano. Oschon è il fratello di<hex:02100103>Nald'thal e l'inseparabile compagno di Halone. È per lo più<hex:02100103>raffigurato come un cacciatore spensierato con un arco di tasso.<hex:02100103>Il suo simbolo è il bastone da passeggio."
   },
   "477": {
-    "original": "Byregot is the purveyor of architecture and industry,\u003Chex:02100103\u003Eand god of the arts. He commands the element of\u003Chex:02100103\u003Elightning and is associated with the seventh moon of\u003Chex:02100103\u003Ethe Eorzean calendar. Byregot is the elder brother of\u003Chex:02100103\u003EHalone, and pupil of Thaliak. He is most often depicted\u003Chex:02100103\u003Eas an ardent smith with a two-headed hammer.\u003Chex:02100103\u003EHis symbol is the hand.",
-    "translation": "Byregot \u00E8 l\u0027Artefice dell\u0027Architettura e dell\u0027Industria, Dio delle\u003Chex:02100103\u003EArti. Governa l\u0027elemento del fulmine ed \u00E8 associato alla settima\u003Chex:02100103\u003Eluna del calendario eorzeano. Byregot \u00E8 il fratello maggiore di\u003Chex:02100103\u003EHalone e discepolo di Thaliak. \u00C8 per lo pi\u00F9 raffigurato come un\u003Chex:02100103\u003Eardente fabbro armato di un martello a due teste.\u003Chex:02100103\u003EIl suo simbolo \u00E8 la mano."
+    "original": "Byregot is the purveyor of architecture and industry,<hex:02100103>and god of the arts. He commands the element of<hex:02100103>lightning and is associated with the seventh moon of<hex:02100103>the Eorzean calendar. Byregot is the elder brother of<hex:02100103>Halone, and pupil of Thaliak. He is most often depicted<hex:02100103>as an ardent smith with a two-headed hammer.<hex:02100103>His symbol is the hand.",
+    "translation": "Byregot è l'Artefice dell'Architettura e dell'Industria, Dio delle<hex:02100103>Arti. Governa l'elemento del fulmine ed è associato alla settima<hex:02100103>luna del calendario eorzeano. Byregot è il fratello maggiore di<hex:02100103>Halone e discepolo di Thaliak. È per lo più raffigurato come un<hex:02100103>ardente fabbro armato di un martello a due teste.<hex:02100103>Il suo simbolo è la mano."
   },
   "478": {
-    "original": "Rhalgr, breaker of worlds, is the god of destruction\u003Chex:02100103\u003Eand guardian deity of the now-fallen nation of Ala Mhigo.\u003Chex:02100103\u003EHe commands the element of lightning and is associated\u003Chex:02100103\u003Ewith the eighth moon of the Eorzean calendar. Rhalgr is\u003Chex:02100103\u003Ethe father of both Byregot and Halone, and serves as\u003Chex:02100103\u003Eattendant to Nymeia. He is most often depicted as a\u003Chex:02100103\u003Emagus carrying a staff of bronze. His symbol is the\u003Chex:02100103\u003Estreaking meteor.",
-    "translation": "Rhalgr, lo Spezzatore di Mondi, \u00E8 il Dio della Distruzione\u003Chex:02100103\u003Ee la divinit\u00E0 protettrice dell\u0027ormai caduta nazione di Ala Mhigo.\u003Chex:02100103\u003EGoverna l\u0027elemento del fulmine ed \u00E8 associato all\u0027ottava\u003Chex:02100103\u003Eluna del calendario eorzeano. Rhalgr \u00E8 il padre sia di Byregot\u003Chex:02100103\u003Eche di Halone, e serve come attendente di Nymeia. \u00C8 per lo pi\u00F9\u003Chex:02100103\u003Eraffigurato come un mago recante un bastone di bronzo.\u003Chex:02100103\u003EIl suo simbolo \u00E8 la meteora fiammeggiante."
+    "original": "Rhalgr, breaker of worlds, is the god of destruction<hex:02100103>and guardian deity of the now-fallen nation of Ala Mhigo.<hex:02100103>He commands the element of lightning and is associated<hex:02100103>with the eighth moon of the Eorzean calendar. Rhalgr is<hex:02100103>the father of both Byregot and Halone, and serves as<hex:02100103>attendant to Nymeia. He is most often depicted as a<hex:02100103>magus carrying a staff of bronze. His symbol is the<hex:02100103>streaking meteor.",
+    "translation": "Rhalgr, lo Spezzatore di Mondi, è il Dio della Distruzione<hex:02100103>e la divinità protettrice dell'ormai caduta nazione di Ala Mhigo.<hex:02100103>Governa l'elemento del fulmine ed è associato all'ottava<hex:02100103>luna del calendario eorzeano. Rhalgr è il padre sia di Byregot<hex:02100103>che di Halone, e serve come attendente di Nymeia. È per lo più<hex:02100103>raffigurato come un mago recante un bastone di bronzo.<hex:02100103>Il suo simbolo è la meteora fiammeggiante."
   },
   "479": {
-    "original": "Azeyma is keeper of the sun and goddess of inquiry.\u003Chex:02100103\u003EShe commands the element of fire and is associated\u003Chex:02100103\u003Ewith the ninth moon of the Eorzean calendar. Azeyma\u003Chex:02100103\u003Eis the daughter of Althyk, and the elder sister of\u003Chex:02100103\u003EMenphina. She is most often depicted as a noble lady\u003Chex:02100103\u003Eholding a golden fan. Her symbol is the radiant sun.",
-    "translation": "Azeyma \u00E8 la Custode del Sole e la Dea dell\u0027Indagine.\u003Chex:02100103\u003EGoverna l\u0027elemento del fuoco ed \u00E8 associata alla nona\u003Chex:02100103\u003Eluna del calendario eorzeano. Azeyma \u00E8 la figlia di Althyk\u003Chex:02100103\u003Ee la sorella maggiore di Menphina. \u00C8 per lo pi\u00F9 raffigurata\u003Chex:02100103\u003Ecome una nobile dama con un ventaglio dorato.\u003Chex:02100103\u003EIl suo simbolo \u00E8 il sole radioso."
+    "original": "Azeyma is keeper of the sun and goddess of inquiry.<hex:02100103>She commands the element of fire and is associated<hex:02100103>with the ninth moon of the Eorzean calendar. Azeyma<hex:02100103>is the daughter of Althyk, and the elder sister of<hex:02100103>Menphina. She is most often depicted as a noble lady<hex:02100103>holding a golden fan. Her symbol is the radiant sun.",
+    "translation": "Azeyma è la Custode del Sole e la Dea dell'Indagine.<hex:02100103>Governa l'elemento del fuoco ed è associata alla nona<hex:02100103>luna del calendario eorzeano. Azeyma è la figlia di Althyk<hex:02100103>e la sorella maggiore di Menphina. È per lo più raffigurata<hex:02100103>come una nobile dama con un ventaglio dorato.<hex:02100103>Il suo simbolo è il sole radioso."
   },
   "480": {
-    "original": "Nald\u0027thal, overseer of the underworld and god of\u003Chex:02100103\u003Ecommerce, is the guardian deity of Ul\u0027dah. He\u003Chex:02100103\u003Ecommands the element of fire and is associated\u003Chex:02100103\u003Ewith the tenth moon of the Eorzean calendar.\u003Chex:02100103\u003ENald\u0027thal is the single manifestation of the deific\u003Chex:02100103\u003Etwins Nald and Thal. He is most often depicted\u003Chex:02100103\u003Eas a discerning merchant holding a balance.\u003Chex:02100103\u003EHis symbol is the cowry, an ancient shell currency.",
-    "translation": "Nald\u0027thal, Sovrintendente dell\u0027Oltretomba e Dio del Commercio,\u003Chex:02100103\u003E\u00E8 la divinit\u00E0 protettrice di Ul\u0027dah. Governa l\u0027elemento\u003Chex:02100103\u003Edel fuoco ed \u00E8 associato alla decima luna del calendario\u003Chex:02100103\u003Eeorzeano. Nald\u0027thal \u00E8 l\u0027unica manifestazione dei gemelli\u003Chex:02100103\u003Edivini Nald e Thal. \u00C8 per lo pi\u00F9 raffigurato come un accorto\u003Chex:02100103\u003Emercante che regge una bilancia.\u003Chex:02100103\u003EIl suo simbolo \u00E8 la conchiglia cauri, un\u0027antica valuta."
+    "original": "Nald'thal, overseer of the underworld and god of<hex:02100103>commerce, is the guardian deity of Ul'dah. He<hex:02100103>commands the element of fire and is associated<hex:02100103>with the tenth moon of the Eorzean calendar.<hex:02100103>Nald'thal is the single manifestation of the deific<hex:02100103>twins Nald and Thal. He is most often depicted<hex:02100103>as a discerning merchant holding a balance.<hex:02100103>His symbol is the cowry, an ancient shell currency.",
+    "translation": "Nald'thal, Sovrintendente dell'Oltretomba e Dio del Commercio,<hex:02100103>è la divinità protettrice di Ul'dah. Governa l'elemento<hex:02100103>del fuoco ed è associato alla decima luna del calendario<hex:02100103>eorzeano. Nald'thal è l'unica manifestazione dei gemelli<hex:02100103>divini Nald e Thal. È per lo più raffigurato come un accorto<hex:02100103>mercante che regge una bilancia.<hex:02100103>Il suo simbolo è la conchiglia cauri, un'antica valuta."
   },
   "481": {
-    "original": "Nophica, tender of soils and harvests, and goddess\u003Chex:02100103\u003Eof abundance, is the guardian deity of Gridania.\u003Chex:02100103\u003EShe commands the element of earth and is\u003Chex:02100103\u003Eassociated with the eleventh moon of the Eorzean\u003Chex:02100103\u003Ecalendar. Nophica is the daughter of Azeyma, and\u003Chex:02100103\u003Ethe younger sister of Llymlaen. She is most often\u003Chex:02100103\u003Edepicted as a jubilant farmer holding a scythe of\u003Chex:02100103\u003Esteel. Her symbol is the spring leaf.",
-    "translation": "Nophica, Custode delle Zolle e dei Raccolti, Dea dell\u0027Abbondanza,\u003Chex:02100103\u003E\u00E8 la divinit\u00E0 protettrice di Gridania. Governa l\u0027elemento\u003Chex:02100103\u003Edella terra ed \u00E8 associata all\u0027undicesima luna del calendario\u003Chex:02100103\u003Eeorzeano. Nophica \u00E8 la figlia di Azeyma e la sorella minore\u003Chex:02100103\u003Edi Llymlaen. \u00C8 per lo pi\u00F9 raffigurata come una contadina giubilante\u003Chex:02100103\u003Econ una falce d\u0027acciaio. Il suo simbolo \u00E8 la foglia primaverile."
+    "original": "Nophica, tender of soils and harvests, and goddess<hex:02100103>of abundance, is the guardian deity of Gridania.<hex:02100103>She commands the element of earth and is<hex:02100103>associated with the eleventh moon of the Eorzean<hex:02100103>calendar. Nophica is the daughter of Azeyma, and<hex:02100103>the younger sister of Llymlaen. She is most often<hex:02100103>depicted as a jubilant farmer holding a scythe of<hex:02100103>steel. Her symbol is the spring leaf.",
+    "translation": "Nophica, Custode delle Zolle e dei Raccolti, Dea dell'Abbondanza,<hex:02100103>è la divinità protettrice di Gridania. Governa l'elemento<hex:02100103>della terra ed è associata all'undicesima luna del calendario<hex:02100103>eorzeano. Nophica è la figlia di Azeyma e la sorella minore<hex:02100103>di Llymlaen. È per lo più raffigurata come una contadina giubilante<hex:02100103>con una falce d'acciaio. Il suo simbolo è la foglia primaverile."
   },
   "482": {
-    "original": "Althyk is the surveyor of change and space,\u003Chex:02100103\u003Eand god of time. He commands the element of\u003Chex:02100103\u003Eearth and is associated with the twelfth moon of\u003Chex:02100103\u003Ethe Eorzean calendar. Althyk is the father of\u003Chex:02100103\u003EAzeyma and Menphina, and elder brother to\u003Chex:02100103\u003ENymeia. He is most often depicted as an\u003Chex:02100103\u003Eaustere emperor wielding a mythril greataxe.\u003Chex:02100103\u003EHis symbol is the hourglass.",
-    "translation": "Althyk \u00E8 l\u0027Agrimensore del Mutamento e dello Spazio, Dio\u003Chex:02100103\u003Edel Tempo. Governa l\u0027elemento della terra ed \u00E8 associato alla\u003Chex:02100103\u003Edodicesima luna del calendario eorzeano. Althyk \u00E8 il padre di\u003Chex:02100103\u003EAzeyma e Menphina, e fratello maggiore di Nymeia. \u00C8 per lo pi\u00F9\u003Chex:02100103\u003Eraffigurato come un austero imperatore armato di una grande scure\u003Chex:02100103\u003Edi mythril. Il suo simbolo \u00E8 la clessidra."
+    "original": "Althyk is the surveyor of change and space,<hex:02100103>and god of time. He commands the element of<hex:02100103>earth and is associated with the twelfth moon of<hex:02100103>the Eorzean calendar. Althyk is the father of<hex:02100103>Azeyma and Menphina, and elder brother to<hex:02100103>Nymeia. He is most often depicted as an<hex:02100103>austere emperor wielding a mythril greataxe.<hex:02100103>His symbol is the hourglass.",
+    "translation": "Althyk è l'Agrimensore del Mutamento e dello Spazio, Dio<hex:02100103>del Tempo. Governa l'elemento della terra ed è associato alla<hex:02100103>dodicesima luna del calendario eorzeano. Althyk è il padre di<hex:02100103>Azeyma e Menphina, e fratello maggiore di Nymeia. È per lo più<hex:02100103>raffigurato come un austero imperatore armato di una grande scure<hex:02100103>di mythril. Il suo simbolo è la clessidra."
   },
   "600": {
-    "original": "\u003Chex:021E021803\u003E Rotate Camera \u003Chex:021E021503\u003E Rotate Background \u003Chex:021E020D03\u003E\u002B\u003Chex:021E021903\u003E Zoom \u003Chex:0212021403\u003E Reverse Camera",
-    "translation": "\u003Chex:021E021803\u003E Ruota Telecamera \u003Chex:021E021503\u003E Ruota Sfondo \u003Chex:021E020D03\u003E\u002B\u003Chex:021E021903\u003E Zoom \u003Chex:0212021403\u003E Inverti Telecamera"
+    "original": "<hex:021E021803> Rotate Camera <hex:021E021503> Rotate Background <hex:021E020D03>+<hex:021E021903> Zoom <hex:0212021403> Reverse Camera",
+    "translation": "<hex:021E021803> Ruota Telecamera <hex:021E021503> Ruota Sfondo <hex:021E020D03>+<hex:021E021903> Zoom <hex:0212021403> Inverti Telecamera"
   },
   "602": {
-    "original": "\u003Chex:021E021803\u003E Rotate Camera \u003Chex:021E021503\u003E Rotate Background \u003Chex:021E020D03\u003E\u002B\u003Chex:021E021903\u003E Zoom \u003Chex:021E020D03\u003E\u002B\u003Chex:021E021603\u003E Tilt Camera \u003Chex:0212021403\u003E Reverse Camera",
-    "translation": "\u003Chex:021E021803\u003E Ruota Telecamera \u003Chex:021E021503\u003E Ruota Sfondo \u003Chex:021E020D03\u003E\u002B\u003Chex:021E021903\u003E Zoom \u003Chex:021E020D03\u003E\u002B\u003Chex:021E021603\u003E Inclina Telecamera \u003Chex:0212021403\u003E Inverti Telecamera"
+    "original": "<hex:021E021803> Rotate Camera <hex:021E021503> Rotate Background <hex:021E020D03>+<hex:021E021903> Zoom <hex:021E020D03>+<hex:021E021603> Tilt Camera <hex:0212021403> Reverse Camera",
+    "translation": "<hex:021E021803> Ruota Telecamera <hex:021E021503> Ruota Sfondo <hex:021E020D03>+<hex:021E021903> Zoom <hex:021E020D03>+<hex:021E021603> Inclina Telecamera <hex:0212021403> Inverti Telecamera"
   },
   "610": {
-    "original": "\u003Chex:021E020C03\u003E Keyboard",
-    "translation": "\u003Chex:021E020C03\u003E Tastiera"
+    "original": "<hex:021E020C03> Keyboard",
+    "translation": "<hex:021E020C03> Tastiera"
   },
   "611": {
-    "original": "\u003Chex:021E020B03\u003E Subcommands",
-    "translation": "\u003Chex:021E020B03\u003E Sottomenu"
+    "original": "<hex:021E020B03> Subcommands",
+    "translation": "<hex:021E020B03> Sottomenu"
   },
   "612": {
     "original": "\uE051Rotate Camera \uE052Rotate Background \uE054Zoom",
@@ -796,16 +796,16 @@
     "translation": "\uE051Ruota Telecamera \uE052Ruota Sfondo \uE054Zoom \uE054Inclina Telecamera"
   },
   "615": {
-    "original": "Days of Play Time Remaining: \u003Chex:022003E80203\u003E",
-    "translation": "Giorni di Gioco Rimanenti: \u003Chex:022003E80203\u003E"
+    "original": "Days of Play Time Remaining: <hex:022003E80203>",
+    "translation": "Giorni di Gioco Rimanenti: <hex:022003E80203>"
   },
   "616": {
-    "original": "Veteran Reward Rank: \u003Chex:020813E1E80201FF07022003E80203FF054E6F6E6503\u003E",
-    "translation": "Grado Ricompense Veterano: \u003Chex:020816E1E80201FF07022003E80203FF084E657373756E6F03\u003E"
+    "original": "Veteran Reward Rank: <hex:020813E1E80201FF07022003E80203FF054E6F6E6503>",
+    "translation": "Grado Ricompense Veterano: <hex:020816E1E80201FF07022003E80203FF084E657373756E6F03>"
   },
   "617": {
-    "original": "Total Days Subscribed: \u003Chex:022206E802FF022C03\u003E\u003Chex:02082CE4E80301FF01FF24021001034461797320556E74696C204E6578742052616E6B3A20022206E803FF022C0303\u003E",
-    "translation": "Giorni Totali Sottoscritti: \u003Chex:022206E802FF022C03\u003E\u003Chex:020830E4E80301FF01FF280210010347696F726E6920616C2070726F7373696D6F20677261646F3A20022206E803FF022C0303\u003E"
+    "original": "Total Days Subscribed: <hex:022206E802FF022C03><hex:02082CE4E80301FF01FF24021001034461797320556E74696C204E6578742052616E6B3A20022206E803FF022C0303>",
+    "translation": "Giorni Totali Sottoscritti: <hex:022206E802FF022C03><hex:020830E4E80301FF01FF280210010347696F726E6920616C2070726F7373696D6F20677261646F3A20022206E803FF022C0303>"
   },
   "622": {
     "original": "Cancel retainer customization.",
@@ -820,20 +820,20 @@
     "translation": "Annullare la personalizzazione del personaggio e scartare le modifiche?"
   },
   "626": {
-    "original": "Finalize your character\u0027s appearance?",
-    "translation": "Confermare l\u0027aspetto del personaggio?"
+    "original": "Finalize your character's appearance?",
+    "translation": "Confermare l'aspetto del personaggio?"
   },
   "627": {
-    "original": "Revert to your character\u0027s current appearance?",
-    "translation": "Ripristinare l\u0027aspetto attuale del personaggio?"
+    "original": "Revert to your character's current appearance?",
+    "translation": "Ripristinare l'aspetto attuale del personaggio?"
   },
   "629": {
-    "original": "Log in with \u003Cstring(lstr1)\u003E?\u003Cbr\u003E\u003Ccolortype(506)\u003E\u003Cedgecolortype(507)\u003E\u203BCancel and access the subcommand menu to re-edit your character.\u003Cedgecolortype(0)\u003E\u003Ccolortype(0)\u003E",
-    "translation": "Vuoi accedere con \u003Cstring(lstr1)\u003E?\u003Cbr\u003E\u003Ccolortype(506)\u003E\u003Cedgecolortype(507)\u003E\u203BAnnulla e accedi al sottomenu per modificare nuovamente il tuo personaggio.\u003Cedgecolortype(0)\u003E\u003Ccolortype(0)\u003E"
+    "original": "Log in with <string(lstr1)>?<br><colortype(506)><edgecolortype(507)>※Cancel and access the subcommand menu to re-edit your character.<edgecolortype(0)><colortype(0)>",
+    "translation": "Vuoi accedere con <string(lstr1)>?<br><colortype(506)><edgecolortype(507)>※Annulla e accedi al sottomenu per modificare nuovamente il tuo personaggio.<edgecolortype(0)><colortype(0)>"
   },
   "634": {
     "original": "Cancel appearance customization?",
-    "translation": "Annullare la personalizzazione dell\u0027aspetto?"
+    "translation": "Annullare la personalizzazione dell'aspetto?"
   },
   "650": {
     "original": "Disconnect from the  data center and connect to the  data center?",
@@ -853,7 +853,7 @@
   },
   "806": {
     "original": "FINAL FANTASY XIV requires connecting to one of several data centers to play.",
-    "translation": "FINAL FANTASY XIV richiede la connessione a uno dei Data Center per giocare. Pi\u00F9 la tua posizione geografica \u00E8 vicina al Data Center, migliore sar\u00E0 l\u0027esperienza di gioco."
+    "translation": "FINAL FANTASY XIV richiede la connessione a uno dei Data Center per giocare. Più la tua posizione geografica è vicina al Data Center, migliore sarà l'esperienza di gioco."
   },
   "808": {
     "original": "Connecting to the  data center.",
@@ -861,7 +861,7 @@
   },
   "809": {
     "original": "Acquiring character list.",
-    "translation": "Recupero dell\u0027elenco personaggi in corso."
+    "translation": "Recupero dell'elenco personaggi in corso."
   },
   "810": {
     "original": "Proceed",
@@ -941,27 +941,27 @@
   },
   "1179": {
     "original": "Return to Home World request accepted. Please wait until the transfer is complete.",
-    "translation": "Richiesta di Ritorno al Mondo d\u0027Origine accettata. Attendi il completamento del trasferimento."
+    "translation": "Richiesta di Ritorno al Mondo d'Origine accettata. Attendi il completamento del trasferimento."
   },
   "1183": {
     "original": "Successfully returned to Home World.",
-    "translation": "Ritorno al Mondo d\u0027Origine completato con successo."
+    "translation": "Ritorno al Mondo d'Origine completato con successo."
   },
   "1222": {
     "original": "More Subcommands",
     "translation": "Altri Comandi"
   },
   "1702": {
-    "original": "Program Version: \u003Cstring(lstr1)\u003E",
-    "translation": "Versione Programma: \u003Cstring(lstr1)\u003E"
+    "original": "Program Version: <string(lstr1)>",
+    "translation": "Versione Programma: <string(lstr1)>"
   },
   "1703": {
-    "original": "FFXIV: \u003Cstring(lstr1)\u003E",
-    "translation": "FFXIV: \u003Cstring(lstr1)\u003E"
+    "original": "FFXIV: <string(lstr1)>",
+    "translation": "FFXIV: <string(lstr1)>"
   },
   "1704": {
-    "original": "EX\u003Chex:022003E80203\u003E: \u003Chex:022903EA0303\u003E",
-    "translation": "EX\u003Chex:022003E80203\u003E: \u003Chex:022903EA0303\u003E"
+    "original": "EX<hex:022003E80203>: <hex:022903EA0303>",
+    "translation": "EX<hex:022003E80203>: <hex:022903EA0303>"
   },
   "1800": {
     "original": "Are you certain you wish to leave the queue?",
@@ -969,61 +969,61 @@
   },
   "1801": {
     "original": "You were automatically logged out due to extended inactivity.",
-    "translation": "Sei stato disconnesso automaticamente per inattivit\u00E0 prolungata."
+    "translation": "Sei stato disconnesso automaticamente per inattività prolungata."
   },
   "1804": {
     "name": "Tank",
     "translation_name": "Tank",
     "description": "Stand as a bulwark in the face of danger.\nWith superior defensive abilities, tanks protect their comrades\nby diverting enemy focus and bearing the brunt of battle.\n\nBegin your journey as a gladiator or marauder, and later master\nthe jobs of paladin, warrior, dark knight, and gunbreaker.",
-    "translation_description": "Ergiti come un baluardo dinanzi al pericolo.\nGrazie a doti difensive superiori, i tank proteggono i compagni\ndistogliendo l\u0027attenzione dei nemici e sopportando il peso dello scontro.\n\nInizia la tua avventura come gladiatore o incursore, per poi padroneggiare\ni job di paladino, guerriero, cavaliere oscuro ed eterlama."
+    "translation_description": "Ergiti come un baluardo dinanzi al pericolo.\nGrazie a doti difensive superiori, i tank proteggono i compagni\ndistogliendo l'attenzione dei nemici e sopportando il peso dello scontro.\n\nInizia la tua avventura come gladiatore o incursore, per poi padroneggiare\ni job di paladino, guerriero, cavaliere oscuro ed eterlama."
   },
   "1805": {
     "name": "Healer",
     "translation_name": "Curatore",
-    "description": "Provide succor to all in need.\nThough limited in their offensive abilities, healers replenish\nhealth and protect their comrades with myriad rejuvenating skills.\n\nBegin your journey as a conjurer, and later master the jobs of\nwhite mage, scholar, astrologian, and sage.\n\u203BPlease note that the job of scholar is unlocked via the \nDPS class of arcanist.",
-    "translation_description": "Porta conforto e sollievo a chiunque ne abbia bisogno.\nBench\u00E9 dotati di capacit\u00E0 offensive limitate, i curatori ristorano la salute\ne difendono i compagni con una miriade di abilit\u00E0 rigeneranti.\n\nInizia la tua avventura come incantatore, per poi padroneggiare i job di\nmago bianco, studioso, astrologo e saggio.\n\u203BNota: il job dello studioso si sblocca tramite la classe d\u0027attacco dell\u0027arcanista."
+    "description": "Provide succor to all in need.\nThough limited in their offensive abilities, healers replenish\nhealth and protect their comrades with myriad rejuvenating skills.\n\nBegin your journey as a conjurer, and later master the jobs of\nwhite mage, scholar, astrologian, and sage.\n※Please note that the job of scholar is unlocked via the \nDPS class of arcanist.",
+    "translation_description": "Porta conforto e sollievo a chiunque ne abbia bisogno.\nBenché dotati di capacità offensive limitate, i curatori ristorano la salute\ne difendono i compagni con una miriade di abilità rigeneranti.\n\nInizia la tua avventura come incantatore, per poi padroneggiare i job di\nmago bianco, studioso, astrologo e saggio.\n※Nota: il job dello studioso si sblocca tramite la classe d'attacco dell'arcanista."
   },
   "1806": {
     "name": "DPS",
     "translation_name": "DPS",
     "description": "Decimate your foes.\nPossessing great talent for the offensive, DPS is a role whose sole\nfocus is to rout the enemy with a diverse array of punishing attacks.\n\nBegin your journey as a pugilist, lancer, archer, thaumaturge, or\narcanist. From there, master the jobs of monk, dragoon, ninja, samurai,\nreaper, viper, bard, machinist, dancer, black mage, summoner, red mage,\npictomancer, and blue mage.\n\nNote that the DPS role is divided into three categories.\nMelee DPS specializes in close combat; physical ranged DPS wields arms\nsuch as guns and bows; and magical ranged DPS uses arcane powers to\nassert dominance upon the battlefield.",
-    "translation_description": "Annienta i tuoi avversari.\nDotati di un talento straordinario per l\u0027offensiva, i DPS sono un ruolo il cui unico\nobiettivo \u00E8 sbaragliare il nemico con una variegata sequenza di attacchi devastanti.\n\nInizia la tua avventura come pugile, lanciere, arciere, taumaturgo o\narcanista. Da l\u00EC, padroneggia i job di monaco, dragoon, ninja, samurai,\nmietitore, vipera, bardo, artificiere, danzatore, mago nero, evocatore, mago rosso,\npittomante e mago blu.\n\nIl ruolo di DPS si suddivide in tre categorie:\nDPS da mischia (specializzato nel combattimento ravvicinato), DPS fisico a distanza (armi da fuoco e archi)\ne DPS magico a distanza (poteri arcani per dominare il campo di battaglia)."
+    "translation_description": "Annienta i tuoi avversari.\nDotati di un talento straordinario per l'offensiva, i DPS sono un ruolo il cui unico\nobiettivo è sbaragliare il nemico con una variegata sequenza di attacchi devastanti.\n\nInizia la tua avventura come pugile, lanciere, arciere, taumaturgo o\narcanista. Da lì, padroneggia i job di monaco, dragoon, ninja, samurai,\nmietitore, vipera, bardo, artificiere, danzatore, mago nero, evocatore, mago rosso,\npittomante e mago blu.\n\nIl ruolo di DPS si suddivide in tre categorie:\nDPS da mischia (specializzato nel combattimento ravvicinato), DPS fisico a distanza (armi da fuoco e archi)\ne DPS magico a distanza (poteri arcani per dominare il campo di battaglia)."
   },
   "1950": {
-    "original": "Select your character\u0027s race and gender.",
+    "original": "Select your character's race and gender.",
     "translation": "Seleziona la razza e il genere del tuo personaggio."
   },
   "1951": {
-    "original": "Select your character\u0027s clan.",
+    "original": "Select your character's clan.",
     "translation": "Seleziona il clan del tuo personaggio."
   },
   "1952": {
-    "original": "Select your character\u0027s gender.",
+    "original": "Select your character's gender.",
     "translation": "Seleziona il genere del tuo personaggio."
   },
   "1953": {
-    "original": "Customize your character\u0027s appearance.",
-    "translation": "Personalizza l\u0027aspetto del tuo personaggio."
+    "original": "Customize your character's appearance.",
+    "translation": "Personalizza l'aspetto del tuo personaggio."
   },
   "1954": {
-    "original": "Specify your character\u0027s date of birth.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u003Chex:0248020203\u003E\u003Chex:0249022503\u003EThis selection has no effect on gameplay.\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E",
-    "translation": "Specifica la data di nascita del tuo personaggio.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u003Chex:0248020203\u003E\u003Chex:0249022503\u003EQuesta scelta non influisce sull\u0027esperienza di gioco.\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E"
+    "original": "Specify your character's date of birth.<hex:02100103><hex:02100103><hex:0248020203><hex:0249022503>This selection has no effect on gameplay.<hex:0249020103><hex:0248020103>",
+    "translation": "Specifica la data di nascita del tuo personaggio.<hex:02100103><hex:02100103><hex:0248020203><hex:0249022503>Questa scelta non influisce sull'esperienza di gioco.<hex:0249020103><hex:0248020103>"
   },
   "1955": {
-    "original": "Select your character\u0027s patron deity.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u003Chex:0248020203\u003E\u003Chex:0249022503\u003EThis selection has no effect on gameplay.\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E",
-    "translation": "Seleziona la divinit\u00E0 patrona del tuo personaggio.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u003Chex:0248020203\u003E\u003Chex:0249022503\u003EQuesta scelta non influisce sull\u0027esperienza di gioco.\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E"
+    "original": "Select your character's patron deity.<hex:02100103><hex:02100103><hex:0248020203><hex:0249022503>This selection has no effect on gameplay.<hex:0249020103><hex:0248020103>",
+    "translation": "Seleziona la divinità patrona del tuo personaggio.<hex:02100103><hex:02100103><hex:0248020203><hex:0249022503>Questa scelta non influisce sull'esperienza di gioco.<hex:0249020103><hex:0248020103>"
   },
   "1956": {
     "original": "Select your starting class and city-state.",
-    "translation": "Seleziona la tua classe iniziale e la citt\u00E0-stato di partenza."
+    "translation": "Seleziona la tua classe iniziale e la città-stato di partenza."
   },
   "1961": {
-    "original": "View your character in the set of race-specific gear he or she will be wearing at the game\u0027s onset.",
-    "translation": "Visualizza il tuo personaggio nell\u0027equipaggiamento tipico della sua razza indossato all\u0027inizio del gioco."
+    "original": "View your character in the set of race-specific gear he or she will be wearing at the game's onset.",
+    "translation": "Visualizza il tuo personaggio nell'equipaggiamento tipico della sua razza indossato all'inizio del gioco."
   },
   "1962": {
     "original": "View your character in a set of job-specific gear based on the selected class. Available after class selection.",
-    "translation": "Visualizza il tuo personaggio nell\u0027equipaggiamento esclusivo del job associato alla classe. Disponibile dopo aver selezionato la classe."
+    "translation": "Visualizza il tuo personaggio nell'equipaggiamento esclusivo del job associato alla classe. Disponibile dopo aver selezionato la classe."
   },
   "1970": {
     "original": "Quit character creation and return to the Character Selection screen. You will lose all current progress.",
@@ -1032,34 +1032,34 @@
   "1973": {
     "name": "Eorzean Calendar",
     "translation_name": "Calendario Eorzeano",
-    "description": "The Eorzean year consists of the moon, Menphina, revolving\naround Hydaelyn\u0027s two astral and umbral poles while fluctuating\nbetween each of the six elements. In this, the year can be said\nto be the length of twelve moons.",
-    "translation_description": "L\u0027anno eorzeano \u00E8 scandito dal moto della luna Menphina, che ruota\nattorno ai due poli astrale e ombrale di Hydaelyn oscillando ciclicamente\ntra ciascuno dei sei elementi. In tal modo, si pu\u00F2 dire che l\u0027anno\nabbia la durata di dodici lune."
+    "description": "The Eorzean year consists of the moon, Menphina, revolving\naround Hydaelyn's two astral and umbral poles while fluctuating\nbetween each of the six elements. In this, the year can be said\nto be the length of twelve moons.",
+    "translation_description": "L'anno eorzeano è scandito dal moto della luna Menphina, che ruota\nattorno ai due poli astrale e ombrale di Hydaelyn oscillando ciclicamente\ntra ciascuno dei sei elementi. In tal modo, si può dire che l'anno\nabbia la durata di dodici lune."
   },
   "1977": {
     "original": "Adjust lighting and time of day.",
-    "translation": "Regola l\u0027illuminazione e l\u0027ora del giorno."
+    "translation": "Regola l'illuminazione e l'ora del giorno."
   },
   "1980": {
     "name": "Limsa Lominsa",
     "translation_name": "Limsa Lominsa",
     "description": "On the southern coast of the island of Vylbrand, under the shadow of\nancient cliffs worn by the relentless onslaught of the Rhotano Sea,\nlies the thalassocracy of Limsa Lominsa. Its economy is driven\nprimarily by shipping, but boasts lucrative shipbuilding, fishing, and\nsmithing industries as well. To maintain the safety of its maritime\nroutes, the city employs a formidable navy known as the Knights\nof the Barracuda. Even so, pirate bands run rampant in nearby waters,\nreaving and pillaging.",
-    "translation_description": "Sulla costa meridionale dell\u0027isola di Vylbrand, all\u0027ombra di antiche scogliere\nscolpite dall\u0027incessante impeto del Mare di Rhotano, sorge la talassocrazia di Limsa Lominsa.\nLa sua economia prospera principalmente grazie alla navigazione marittima, vantando fiorenti cantieri navali,\npesca d\u0027altura e forge metallurgiche. Per garantire la sicurezza delle rotte marittime, la citt\u00E0 schiera\nuna formidabile flotta nota come Cavalieri del Barracuda. Ciononostante, bande di pirati continuano a infestare\nle acque circostanti, dedite a scorrerie e saccheggi."
+    "translation_description": "Sulla costa meridionale dell'isola di Vylbrand, all'ombra di antiche scogliere\nscolpite dall'incessante impeto del Mare di Rhotano, sorge la talassocrazia di Limsa Lominsa.\nLa sua economia prospera principalmente grazie alla navigazione marittima, vantando fiorenti cantieri navali,\npesca d'altura e forge metallurgiche. Per garantire la sicurezza delle rotte marittime, la città schiera\nuna formidabile flotta nota come Cavalieri del Barracuda. Ciononostante, bande di pirati continuano a infestare\nle acque circostanti, dedite a scorrerie e saccheggi."
   },
   "1981": {
     "name": "Gridania",
     "translation_name": "Gridania",
-    "description": "In the eastern reaches of the Aldenard landmass, home to vast, dense\nwoodlands and coursing rivers, lies the forest nation of Gridania. The\ncityscape is a mosaic of labyrinthine waterways and great wooden\nstructures, so gracefully constructed they seem a part of the\nsurrounding environment. The favored goddess of the citizenry is\nNophica, the Matron, but great faith is also placed in the wisdom of\nthe Seedseers\uFF0Dyoung oracles who guide the nation based on the\nwill of the forest\u0027s elementals.",
-    "translation_description": "Nelle propaggini orientali della massa continentale di Aldenard, culla di vaste e fitte selve\ne fiumi impetuosi, sorge la nazione silvana di Gridania. Il paesaggio urbano \u00E8 un mosaico armonioso\ndi canali d\u0027acqua labirintici e grandi strutture in legno, modellate con tale grazia da sembrare parte integrante\ndell\u0027ambiente naturale. La dea pi\u00F9 venerata dalla cittadinanza \u00E8 Nophica, la Matrona, ma profonda devozione\n\u00E8 riposta anche nella saggezza dei Veggenti, giovani oracoli che guidano la nazione secondo la volont\u00E0\ndegli spiriti elementali del bosco."
+    "description": "In the eastern reaches of the Aldenard landmass, home to vast, dense\nwoodlands and coursing rivers, lies the forest nation of Gridania. The\ncityscape is a mosaic of labyrinthine waterways and great wooden\nstructures, so gracefully constructed they seem a part of the\nsurrounding environment. The favored goddess of the citizenry is\nNophica, the Matron, but great faith is also placed in the wisdom of\nthe Seedseers－young oracles who guide the nation based on the\nwill of the forest's elementals.",
+    "translation_description": "Nelle propaggini orientali della massa continentale di Aldenard, culla di vaste e fitte selve\ne fiumi impetuosi, sorge la nazione silvana di Gridania. Il paesaggio urbano è un mosaico armonioso\ndi canali d'acqua labirintici e grandi strutture in legno, modellate con tale grazia da sembrare parte integrante\ndell'ambiente naturale. La dea più venerata dalla cittadinanza è Nophica, la Matrona, ma profonda devozione\nè riposta anche nella saggezza dei Veggenti, giovani oracoli che guidano la nazione secondo la volontà\ndegli spiriti elementali del bosco."
   },
   "1982": {
-    "name": "Ul\u0027dah",
-    "translation_name": "Ul\u0027dah",
-    "description": "The bustling commercial hub of Ul\u0027dah sits amid the desolate desert\nlandscape of southern Aldenard. Ul\u0027dahn culture is known for its\naffluence, and the wealth of the nation comes in large part from its\nabundant mineral resources and clothcrafting industry. Though it is\nthe sultana who claims sovereignty, true power is wielded by the\nSyndicate, a council sat by six of Ul\u0027dah\u0027s most elite and influential.\nNald\u0027thal is the nation\u0027s patron deity, and two great halls devoted to\nHis two aspects lie in the east and west of the city.",
-    "translation_description": "Il vivace crocevia commerciale di Ul\u0027dah sorge nel cuore dell\u0027arido paesaggio desertico\ndell\u0027Aldenard meridionale. La cultura uldhiana \u00E8 celebre per l\u0027opulenza e la ricchezza della nazione,\nderivante in gran parte dalle abbondanti risorse minerarie e dall\u0027industria tessile. Sebbene la sovranit\u00E0\nappartenga alla Sultana, il vero potere \u00E8 esercitato dal Sindacato, un consiglio formato da sei tra gli esponenti\npi\u00F9 influenti ed elitari della citt\u00E0. Nald\u0027thal \u00E8 la divinit\u00E0 patrona della nazione, e due imponenti sale consacrate\nai suoi due aspetti sorgono a oriente e a occidente della citt\u00E0."
+    "name": "Ul'dah",
+    "translation_name": "Ul'dah",
+    "description": "The bustling commercial hub of Ul'dah sits amid the desolate desert\nlandscape of southern Aldenard. Ul'dahn culture is known for its\naffluence, and the wealth of the nation comes in large part from its\nabundant mineral resources and clothcrafting industry. Though it is\nthe sultana who claims sovereignty, true power is wielded by the\nSyndicate, a council sat by six of Ul'dah's most elite and influential.\nNald'thal is the nation's patron deity, and two great halls devoted to\nHis two aspects lie in the east and west of the city.",
+    "translation_description": "Il vivace crocevia commerciale di Ul'dah sorge nel cuore dell'arido paesaggio desertico\ndell'Aldenard meridionale. La cultura uldhiana è celebre per l'opulenza e la ricchezza della nazione,\nderivante in gran parte dalle abbondanti risorse minerarie e dall'industria tessile. Sebbene la sovranità\nappartenga alla Sultana, il vero potere è esercitato dal Sindacato, un consiglio formato da sei tra gli esponenti\npiù influenti ed elitari della città. Nald'thal è la divinità patrona della nazione, e due imponenti sale consacrate\nai suoi due aspetti sorgono a oriente e a occidente della città."
   },
   "1984": {
     "original": "Both forename and surname must be between 2 and 15 characters and not total more than 20 characters combined. Only letters, hyphens, and apostrophes can be used. The first character of either name must be a letter. Hyphens cannot be used in succession or placed immediately before or after apostrophes.",
-    "translation": "Sia il nome che il cognome devono contenere tra 2 e 15 caratteri e non superare complessivamente 20 caratteri totali. \u00C8 consentito l\u0027uso esclusivo di lettere, trattini e apostrofi. Il primo carattere di ciascun nome deve essere una lettera. Non \u00E8 possibile inserire trattini consecutivi o posti immediatamente prima o dopo un apostrofo."
+    "translation": "Sia il nome che il cognome devono contenere tra 2 e 15 caratteri e non superare complessivamente 20 caratteri totali. È consentito l'uso esclusivo di lettere, trattini e apostrofi. Il primo carattere di ciascun nome deve essere una lettera. Non è possibile inserire trattini consecutivi o posti immediatamente prima o dopo un apostrofo."
   },
   "1994": {
     "original": "Cancel character customization and discard changes.",
@@ -1102,7 +1102,7 @@
     "translation": "Selezione Personaggio"
   },
   "2011": {
-    "original": "MOVIES \u0026 TITLES",
+    "original": "MOVIES & TITLES",
     "translation": "FILMATI E TITOLI"
   },
   "2012": {
@@ -1191,11 +1191,11 @@
   },
   "2044": {
     "original": "Load previously saved appearance data?",
-    "translation": "Caricare i dati dell\u0027aspetto salvati in precedenza?"
+    "translation": "Caricare i dati dell'aspetto salvati in precedenza?"
   },
   "2045": {
-    "original": "You have selected \u003Cstring(lstr1)\u003E as your starting World. Proceed?",
-    "translation": "Hai selezionato \u003Cstring(lstr1)\u003E come Mondo di partenza. Procedere?"
+    "original": "You have selected <string(lstr1)> as your starting World. Proceed?",
+    "translation": "Hai selezionato <string(lstr1)> come Mondo di partenza. Procedere?"
   },
   "2046": {
     "original": "Select Another",
@@ -1323,7 +1323,7 @@
   },
   "2162": {
     "original": "Yes",
-    "translation": "S\u00EC"
+    "translation": "Sì"
   },
   "2163": {
     "original": "No",
@@ -1331,7 +1331,7 @@
   },
   "2177": {
     "original": "Yes",
-    "translation": "S\u00EC"
+    "translation": "Sì"
   },
   "2178": {
     "original": "No",
@@ -1721,18 +1721,6 @@
     "original": "Oceanian Data Center",
     "translation": "Data Center Oceaniano"
   },
-  "800": {
-    "original": "Data Center Selection",
-    "translation": "Selezione Data Center"
-  },
-  "802": {
-    "original": "Data Center",
-    "translation": "Data Center"
-  },
-  "803": {
-    "original": "Information",
-    "translation": "Informazioni"
-  },
   "2120": {
     "original": "Previous",
     "translation": "Precedente"
@@ -1869,89 +1857,338 @@
     "original": "Load appearance data? Your current progress will be lost.",
     "translation": "Caricare i dati estetici? I progressi attuali andranno persi."
   },
-  "275": { "original": "Type 1", "translation": "Tipo 1" },
-  "276": { "original": "Type 2", "translation": "Tipo 2" },
-  "277": { "original": "Type 3", "translation": "Tipo 3" },
-  "278": { "original": "Type 4", "translation": "Tipo 4" },
-  "279": { "original": "Type 5", "translation": "Tipo 5" },
-  "280": { "original": "Type 6", "translation": "Tipo 6" },
-  "281": { "original": "Type 7", "translation": "Tipo 7" },
-  "282": { "original": "Type 8", "translation": "Tipo 8" },
-  "283": { "original": "Type 9", "translation": "Tipo 9" },
-  "284": { "original": "Type 10", "translation": "Tipo 10" },
-  "285": { "original": "Type 11", "translation": "Tipo 11" },
-  "286": { "original": "Type 12", "translation": "Tipo 12" },
-  "325": { "original": "Type 1", "translation": "Tipo 1" },
-  "326": { "original": "Type 2", "translation": "Tipo 2" },
-  "327": { "original": "Type 3", "translation": "Tipo 3" },
-  "328": { "original": "Type 4", "translation": "Tipo 4" },
-  "340": { "original": "Type 1", "translation": "Tipo 1" },
-  "341": { "original": "Type 2", "translation": "Tipo 2" },
-  "342": { "original": "Type 3", "translation": "Tipo 3" },
-  "343": { "original": "Type 4", "translation": "Tipo 4" },
-  "355": { "original": "Type 1", "translation": "Tipo 1" },
-  "356": { "original": "Type 2", "translation": "Tipo 2" },
-  "357": { "original": "Type 3", "translation": "Tipo 3" },
-  "358": { "original": "Type 4", "translation": "Tipo 4" },
-  "370": { "original": "Type 1", "translation": "Tipo 1" },
-  "371": { "original": "Type 2", "translation": "Tipo 2" },
-  "372": { "original": "Type 3", "translation": "Tipo 3" },
-  "373": { "original": "Type 4", "translation": "Tipo 4" },
-  "385": { "original": "Type 1", "translation": "Tipo 1" },
-  "386": { "original": "Type 2", "translation": "Tipo 2" },
-  "387": { "original": "Type 3", "translation": "Tipo 3" },
-  "388": { "original": "Type 4", "translation": "Tipo 4" },
-  "400": { "original": "Type 1", "translation": "Tipo 1" },
-  "401": { "original": "Type 2", "translation": "Tipo 2" },
-  "402": { "original": "Type 3", "translation": "Tipo 3" },
-  "403": { "original": "Type 4", "translation": "Tipo 4" },
-  "405": { "original": "Small", "translation": "Piccolo" },
-  "406": { "original": "Small", "translation": "Piccolo" },
-  "407": { "original": "Average", "translation": "Nella media" },
-  "408": { "original": "Large", "translation": "Grande" },
-  "409": { "original": "Large", "translation": "Grande" },
-  "410": { "original": "Smooth", "translation": "Liscio" },
-  "411": { "original": "Smooth", "translation": "Liscio" },
-  "412": { "original": "Average", "translation": "Nella media" },
-  "413": { "original": "Chiseled", "translation": "Scolpito" },
-  "414": { "original": "Chiseled", "translation": "Scolpito" },
-  "415": { "original": "Short", "translation": "Corto" },
-  "416": { "original": "Short", "translation": "Corto" },
-  "417": { "original": "Average", "translation": "Nella media" },
-  "418": { "original": "Long", "translation": "Lungo" },
-  "419": { "original": "Long", "translation": "Lungo" },
-  "420": { "original": "Type 1", "translation": "Tipo 1" },
-  "421": { "original": "Type 2", "translation": "Tipo 2" },
-  "422": { "original": "Type 3", "translation": "Tipo 3" },
-  "423": { "original": "Type 4", "translation": "Tipo 4" },
-  "425": { "original": "Small", "translation": "Piccolo" },
-  "426": { "original": "Small", "translation": "Piccolo" },
-  "427": { "original": "Average", "translation": "Nella media" },
-  "428": { "original": "Large", "translation": "Grande" },
-  "429": { "original": "Large", "translation": "Grande" },
-  "430": { "original": "Short", "translation": "Corto" },
-  "431": { "original": "Short", "translation": "Corto" },
-  "432": { "original": "Average", "translation": "Nella media" },
-  "433": { "original": "Long", "translation": "Lungo" },
-  "434": { "original": "Long", "translation": "Lungo" },
-  "435": { "original": "Small", "translation": "Piccolo" },
-  "436": { "original": "Small", "translation": "Piccolo" },
-  "437": { "original": "Average", "translation": "Nella media" },
-  "438": { "original": "Large", "translation": "Grande" },
-  "439": { "original": "Large", "translation": "Grande" },
-  "545": { "original": "Type 1", "translation": "Tipo 1" },
-  "546": { "original": "Type 2", "translation": "Tipo 2" },
-  "547": { "original": "Type 3", "translation": "Tipo 3" },
-  "548": { "original": "Type 4", "translation": "Tipo 4" },
-  "560": { "original": "Type 1", "translation": "Tipo 1" },
-  "561": { "original": "Type 2", "translation": "Tipo 2" },
-  "562": { "original": "Type 3", "translation": "Tipo 3" },
-  "563": { "original": "Type 4", "translation": "Tipo 4" },
-  "565": { "original": "Small", "translation": "Piccolo" },
-  "566": { "original": "Small", "translation": "Piccolo" },
-  "567": { "original": "Average", "translation": "Nella media" },
-  "568": { "original": "Large", "translation": "Grande" },
-  "569": { "original": "Large", "translation": "Grande" },
+  "275": {
+    "original": "Type 1",
+    "translation": "Tipo 1"
+  },
+  "276": {
+    "original": "Type 2",
+    "translation": "Tipo 2"
+  },
+  "277": {
+    "original": "Type 3",
+    "translation": "Tipo 3"
+  },
+  "278": {
+    "original": "Type 4",
+    "translation": "Tipo 4"
+  },
+  "279": {
+    "original": "Type 5",
+    "translation": "Tipo 5"
+  },
+  "280": {
+    "original": "Type 6",
+    "translation": "Tipo 6"
+  },
+  "281": {
+    "original": "Type 7",
+    "translation": "Tipo 7"
+  },
+  "282": {
+    "original": "Type 8",
+    "translation": "Tipo 8"
+  },
+  "283": {
+    "original": "Type 9",
+    "translation": "Tipo 9"
+  },
+  "284": {
+    "original": "Type 10",
+    "translation": "Tipo 10"
+  },
+  "285": {
+    "original": "Type 11",
+    "translation": "Tipo 11"
+  },
+  "286": {
+    "original": "Type 12",
+    "translation": "Tipo 12"
+  },
+  "325": {
+    "original": "Type 1",
+    "translation": "Tipo 1"
+  },
+  "326": {
+    "original": "Type 2",
+    "translation": "Tipo 2"
+  },
+  "327": {
+    "original": "Type 3",
+    "translation": "Tipo 3"
+  },
+  "328": {
+    "original": "Type 4",
+    "translation": "Tipo 4"
+  },
+  "340": {
+    "original": "Type 1",
+    "translation": "Tipo 1"
+  },
+  "341": {
+    "original": "Type 2",
+    "translation": "Tipo 2"
+  },
+  "342": {
+    "original": "Type 3",
+    "translation": "Tipo 3"
+  },
+  "343": {
+    "original": "Type 4",
+    "translation": "Tipo 4"
+  },
+  "355": {
+    "original": "Type 1",
+    "translation": "Tipo 1"
+  },
+  "356": {
+    "original": "Type 2",
+    "translation": "Tipo 2"
+  },
+  "357": {
+    "original": "Type 3",
+    "translation": "Tipo 3"
+  },
+  "358": {
+    "original": "Type 4",
+    "translation": "Tipo 4"
+  },
+  "370": {
+    "original": "Type 1",
+    "translation": "Tipo 1"
+  },
+  "371": {
+    "original": "Type 2",
+    "translation": "Tipo 2"
+  },
+  "372": {
+    "original": "Type 3",
+    "translation": "Tipo 3"
+  },
+  "373": {
+    "original": "Type 4",
+    "translation": "Tipo 4"
+  },
+  "385": {
+    "original": "Type 1",
+    "translation": "Tipo 1"
+  },
+  "386": {
+    "original": "Type 2",
+    "translation": "Tipo 2"
+  },
+  "387": {
+    "original": "Type 3",
+    "translation": "Tipo 3"
+  },
+  "388": {
+    "original": "Type 4",
+    "translation": "Tipo 4"
+  },
+  "400": {
+    "original": "Type 1",
+    "translation": "Tipo 1"
+  },
+  "401": {
+    "original": "Type 2",
+    "translation": "Tipo 2"
+  },
+  "402": {
+    "original": "Type 3",
+    "translation": "Tipo 3"
+  },
+  "403": {
+    "original": "Type 4",
+    "translation": "Tipo 4"
+  },
+  "405": {
+    "original": "Small",
+    "translation": "Piccolo"
+  },
+  "406": {
+    "original": "Small",
+    "translation": "Piccolo"
+  },
+  "407": {
+    "original": "Average",
+    "translation": "Nella media"
+  },
+  "408": {
+    "original": "Large",
+    "translation": "Grande"
+  },
+  "409": {
+    "original": "Large",
+    "translation": "Grande"
+  },
+  "410": {
+    "original": "Smooth",
+    "translation": "Liscio"
+  },
+  "411": {
+    "original": "Smooth",
+    "translation": "Liscio"
+  },
+  "412": {
+    "original": "Average",
+    "translation": "Nella media"
+  },
+  "413": {
+    "original": "Chiseled",
+    "translation": "Scolpito"
+  },
+  "414": {
+    "original": "Chiseled",
+    "translation": "Scolpito"
+  },
+  "415": {
+    "original": "Short",
+    "translation": "Corto"
+  },
+  "416": {
+    "original": "Short",
+    "translation": "Corto"
+  },
+  "417": {
+    "original": "Average",
+    "translation": "Nella media"
+  },
+  "418": {
+    "original": "Long",
+    "translation": "Lungo"
+  },
+  "419": {
+    "original": "Long",
+    "translation": "Lungo"
+  },
+  "420": {
+    "original": "Type 1",
+    "translation": "Tipo 1"
+  },
+  "421": {
+    "original": "Type 2",
+    "translation": "Tipo 2"
+  },
+  "422": {
+    "original": "Type 3",
+    "translation": "Tipo 3"
+  },
+  "423": {
+    "original": "Type 4",
+    "translation": "Tipo 4"
+  },
+  "425": {
+    "original": "Small",
+    "translation": "Piccolo"
+  },
+  "426": {
+    "original": "Small",
+    "translation": "Piccolo"
+  },
+  "427": {
+    "original": "Average",
+    "translation": "Nella media"
+  },
+  "428": {
+    "original": "Large",
+    "translation": "Grande"
+  },
+  "429": {
+    "original": "Large",
+    "translation": "Grande"
+  },
+  "430": {
+    "original": "Short",
+    "translation": "Corto"
+  },
+  "431": {
+    "original": "Short",
+    "translation": "Corto"
+  },
+  "432": {
+    "original": "Average",
+    "translation": "Nella media"
+  },
+  "433": {
+    "original": "Long",
+    "translation": "Lungo"
+  },
+  "434": {
+    "original": "Long",
+    "translation": "Lungo"
+  },
+  "435": {
+    "original": "Small",
+    "translation": "Piccolo"
+  },
+  "436": {
+    "original": "Small",
+    "translation": "Piccolo"
+  },
+  "437": {
+    "original": "Average",
+    "translation": "Nella media"
+  },
+  "438": {
+    "original": "Large",
+    "translation": "Grande"
+  },
+  "439": {
+    "original": "Large",
+    "translation": "Grande"
+  },
+  "545": {
+    "original": "Type 1",
+    "translation": "Tipo 1"
+  },
+  "546": {
+    "original": "Type 2",
+    "translation": "Tipo 2"
+  },
+  "547": {
+    "original": "Type 3",
+    "translation": "Tipo 3"
+  },
+  "548": {
+    "original": "Type 4",
+    "translation": "Tipo 4"
+  },
+  "560": {
+    "original": "Type 1",
+    "translation": "Tipo 1"
+  },
+  "561": {
+    "original": "Type 2",
+    "translation": "Tipo 2"
+  },
+  "562": {
+    "original": "Type 3",
+    "translation": "Tipo 3"
+  },
+  "563": {
+    "original": "Type 4",
+    "translation": "Tipo 4"
+  },
+  "565": {
+    "original": "Small",
+    "translation": "Piccolo"
+  },
+  "566": {
+    "original": "Small",
+    "translation": "Piccolo"
+  },
+  "567": {
+    "original": "Average",
+    "translation": "Nella media"
+  },
+  "568": {
+    "original": "Large",
+    "translation": "Grande"
+  },
+  "569": {
+    "original": "Large",
+    "translation": "Grande"
+  },
   "636": {
     "original": "Pin Hairstyle",
     "translation": "Aggiungi ai Preferiti"
@@ -1964,17 +2201,50 @@
     "original": "Show Only Pinned Hairstyles",
     "translation": "Mostra Solo Acconciature Preferite"
   },
-  "1023": { "original": "Type 1", "translation": "Tipo 1" },
-  "1024": { "original": "Type 2", "translation": "Tipo 2" },
-  "1025": { "original": "Type 3", "translation": "Tipo 3" },
-  "1026": { "original": "Type 4", "translation": "Tipo 4" },
-  "1028": { "original": "Small", "translation": "Piccolo" },
-  "1029": { "original": "Small", "translation": "Piccolo" },
-  "1030": { "original": "Average", "translation": "Nella media" },
-  "1032": { "original": "Large", "translation": "Grande" },
-  "1033": { "original": "Large", "translation": "Grande" },
-  "1038": { "original": "Small", "translation": "Piccolo" },
-  "1039": { "original": "Large", "translation": "Grande" },
+  "1023": {
+    "original": "Type 1",
+    "translation": "Tipo 1"
+  },
+  "1024": {
+    "original": "Type 2",
+    "translation": "Tipo 2"
+  },
+  "1025": {
+    "original": "Type 3",
+    "translation": "Tipo 3"
+  },
+  "1026": {
+    "original": "Type 4",
+    "translation": "Tipo 4"
+  },
+  "1028": {
+    "original": "Small",
+    "translation": "Piccolo"
+  },
+  "1029": {
+    "original": "Small",
+    "translation": "Piccolo"
+  },
+  "1030": {
+    "original": "Average",
+    "translation": "Nella media"
+  },
+  "1032": {
+    "original": "Large",
+    "translation": "Grande"
+  },
+  "1033": {
+    "original": "Large",
+    "translation": "Grande"
+  },
+  "1038": {
+    "original": "Small",
+    "translation": "Piccolo"
+  },
+  "1039": {
+    "original": "Large",
+    "translation": "Grande"
+  },
   "1045": {
     "original": "Tattoos",
     "translation": "Tatuaggi"
@@ -1983,28 +2253,94 @@
     "original": "Tattoo Color",
     "translation": "Colore Tatuaggio"
   },
-  "1050": { "original": "Type 1", "translation": "Tipo 1" },
-  "1051": { "original": "Type 2", "translation": "Tipo 2" },
-  "1052": { "original": "Type 3", "translation": "Tipo 3" },
-  "1053": { "original": "Type 4", "translation": "Tipo 4" },
-  "1055": { "original": "Type 1", "translation": "Tipo 1" },
-  "1056": { "original": "Type 2", "translation": "Tipo 2" },
-  "1057": { "original": "Type 3", "translation": "Tipo 3" },
-  "1058": { "original": "Type 4", "translation": "Tipo 4" },
-  "1065": { "original": "Type 1", "translation": "Tipo 1" },
-  "1066": { "original": "Type 2", "translation": "Tipo 2" },
-  "1067": { "original": "Type 3", "translation": "Tipo 3" },
-  "1068": { "original": "Type 4", "translation": "Tipo 4" },
-  "1075": { "original": "Large", "translation": "Grande" },
-  "1076": { "original": "Small", "translation": "Piccolo" },
-  "1080": { "original": "Type 1", "translation": "Tipo 1" },
-  "1081": { "original": "Type 2", "translation": "Tipo 2" },
-  "1082": { "original": "Type 3", "translation": "Tipo 3" },
-  "1083": { "original": "Type 4", "translation": "Tipo 4" },
-  "1090": { "original": "Type 1", "translation": "Tipo 1" },
-  "1091": { "original": "Type 2", "translation": "Tipo 2" },
-  "1092": { "original": "Type 3", "translation": "Tipo 3" },
-  "1093": { "original": "Type 4", "translation": "Tipo 4" },
+  "1050": {
+    "original": "Type 1",
+    "translation": "Tipo 1"
+  },
+  "1051": {
+    "original": "Type 2",
+    "translation": "Tipo 2"
+  },
+  "1052": {
+    "original": "Type 3",
+    "translation": "Tipo 3"
+  },
+  "1053": {
+    "original": "Type 4",
+    "translation": "Tipo 4"
+  },
+  "1055": {
+    "original": "Type 1",
+    "translation": "Tipo 1"
+  },
+  "1056": {
+    "original": "Type 2",
+    "translation": "Tipo 2"
+  },
+  "1057": {
+    "original": "Type 3",
+    "translation": "Tipo 3"
+  },
+  "1058": {
+    "original": "Type 4",
+    "translation": "Tipo 4"
+  },
+  "1065": {
+    "original": "Type 1",
+    "translation": "Tipo 1"
+  },
+  "1066": {
+    "original": "Type 2",
+    "translation": "Tipo 2"
+  },
+  "1067": {
+    "original": "Type 3",
+    "translation": "Tipo 3"
+  },
+  "1068": {
+    "original": "Type 4",
+    "translation": "Tipo 4"
+  },
+  "1075": {
+    "original": "Large",
+    "translation": "Grande"
+  },
+  "1076": {
+    "original": "Small",
+    "translation": "Piccolo"
+  },
+  "1080": {
+    "original": "Type 1",
+    "translation": "Tipo 1"
+  },
+  "1081": {
+    "original": "Type 2",
+    "translation": "Tipo 2"
+  },
+  "1082": {
+    "original": "Type 3",
+    "translation": "Tipo 3"
+  },
+  "1083": {
+    "original": "Type 4",
+    "translation": "Tipo 4"
+  },
+  "1090": {
+    "original": "Type 1",
+    "translation": "Tipo 1"
+  },
+  "1091": {
+    "original": "Type 2",
+    "translation": "Tipo 2"
+  },
+  "1092": {
+    "original": "Type 3",
+    "translation": "Tipo 3"
+  },
+  "1093": {
+    "original": "Type 4",
+    "translation": "Tipo 4"
+  },
   "1740": {
     "original": "Facial Features",
     "translation": "Tratti Somatici"

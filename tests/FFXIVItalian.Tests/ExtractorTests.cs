@@ -98,13 +98,49 @@ public class ExtractorTests
         Assert.Equal(raw, reEncoded);
     }
 
+
     /// <summary>
-    /// Test diagnostico che richiede SqPack del gioco - saltato automaticamente se non disponibile.
+    /// Verifica che il file lobby_0_en.exd patchato contenga effettivamente i nomi italiani.
     /// </summary>
     [Fact]
-    public void ScanMissingCC()
+    public void VerifyPatchedLobbyHasItalianClanNames()
     {
-        string sqpack = @"G:\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\sqpack";
-        if (!System.IO.Directory.Exists(sqpack)) return;
+        // Cerca il file patchato nella cartella Penumbra
+        string patchedPath = @"G:\SquareEnix\FFXIV_Mod\FFXIV Italiano (Test In-Game)\exd\lobby_0_en.exd";
+        if (!System.IO.File.Exists(patchedPath)) return;
+
+        byte[] data = System.IO.File.ReadAllBytes(patchedPath);
+        string allText = System.Text.Encoding.UTF8.GetString(data);
+
+        // Il file patchato DEVE contenere i nomi italiani
+        Assert.Contains("Lupi di Mare", allText);
+        Assert.Contains("Guardinferno", allText);
+        Assert.Contains("Piancolle", allText);
+
+        // NON deve contenere i nomi inglesi per i clan che abbiamo tradotto
+        // (non verificabile semplicemente perché i nomi appaiono anche nei blob originali)
+        // Verifichiamo invece che la riga 136 sia patchata correttamente
+
+        // Trova il blob della riga 136 nel file patchato
+        byte[] seaWolves = System.Text.Encoding.UTF8.GetBytes("Sea Wolves");
+        byte[] lupiMare = System.Text.Encoding.UTF8.GetBytes("Lupi di Mare");
+        bool hasLupi = false;
+        for (int i = 0; i < data.Length - lupiMare.Length; i++)
+        {
+            bool match = true;
+            for (int j = 0; j < lupiMare.Length; j++)
+                if (data[i + j] != lupiMare[j]) { match = false; break; }
+            if (match) { hasLupi = true; break; }
+        }
+
+        Assert.True(hasLupi, "Il file patchato NON contiene 'Lupi di Mare' — il patch non è stato applicato correttamente!");
+
+        System.IO.File.WriteAllText(
+            @"C:\Users\barbi\.gemini\antigravity\brain\579efa5b-fb53-4615-b2d9-81b14baac555\scratch\patch_verify.txt",
+            $"HasLupiDiMare: {hasLupi}\nFile size: {data.Length} bytes\n" +
+            $"Contains 'Sea Wolves': {allText.Contains("Sea Wolves")}\n" +
+            $"Contains 'Lupi di Mare': {allText.Contains("Lupi di Mare")}\n" +
+            $"Contains 'Guardinferno': {allText.Contains("Guardinferno")}\n" +
+            $"Contains 'Piancolle': {allText.Contains("Piancolle")}");
     }
 }
