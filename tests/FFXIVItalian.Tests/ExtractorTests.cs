@@ -100,13 +100,11 @@ public class ExtractorTests
 
     /// <summary>
     /// Test diagnostico che richiede SqPack del gioco - saltato automaticamente se non disponibile.
-    /// Per eseguire manualmente: dotnet test --filter ScanLobbyColumns
     /// </summary>
     [Fact]
-    public void ScanLobbyColumns()
+    public void ScanMissingCC()
     {
         string sqpack = @"G:\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\sqpack";
-        // Salta silenziosamente se SqPack non è disponibile (CI/CD)
         if (!System.IO.Directory.Exists(sqpack)) return;
     }
 }

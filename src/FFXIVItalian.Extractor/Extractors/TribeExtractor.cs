@@ -74,3 +74,4 @@ public sealed class TribeExtractor : BaseSheetExtractor
         return extracted;
     }
 }
+
