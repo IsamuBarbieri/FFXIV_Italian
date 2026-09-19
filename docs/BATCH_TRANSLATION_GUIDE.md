@@ -118,3 +118,4 @@ Il patcher ricompila i binari `.exd`, rigenera `FFXIV_Italian.pmp` e sincronizza
 I file all'interno di `data/batches/` sono temporanei:
 - Una volta importati con successo nel master JSON e verificati, possono essere eliminati in sicurezza.
 - La cartella `data/batches/` è predisposta con `.gitkeep` per rimanere disponibile all'interno del repository.
+
