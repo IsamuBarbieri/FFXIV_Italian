@@ -390,7 +390,98 @@ if (textCmdReplacements.Count > 0 && Directory.Exists(sqPackPath))
     }
 }
 
-// 15. PATCH TRANSLATED QUESTS (se presenti in data/translations/quests/)
+// 15. PATCH TRAIT (Nomi dei tratti passivi di classe e job)
+string traitJsonPath = TranslationPathResolver.FindFile(translationsDir, "trait");
+var traitReplacements = TranslationFileReader.LoadReplacements(traitJsonPath);
+if (traitReplacements.Count > 0 && Directory.Exists(sqPackPath))
+{
+    Console.WriteLine();
+    Console.WriteLine($"Caricate {traitReplacements.Count} traduzioni da '{Path.GetFileName(traitJsonPath)}'.");
+    var luminaTrait = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var originalTraitExd = luminaTrait.GetFile("exd/trait_0_en.exd");
+    if (originalTraitExd != null)
+    {
+        byte[] patchedTraitExd = ExdPatcher.PatchSimpleStringSheet(
+            originalTraitExd.Data,
+            fixedDataSize: 20,
+            stringColumnOffset: 0,
+            traitReplacements);
+
+        fileMap["exd/trait_0_en.exd"] = patchedTraitExd;
+        Console.WriteLine($"  * 'exd/trait_0_en.exd' rigenerato ({patchedTraitExd.Length:N0} byte).");
+    }
+}
+
+// 16. PATCH TRAITTRANSIENT (Descrizioni e tooltip dei tratti passivi)
+string traitTransientJsonPath = TranslationPathResolver.FindFile(translationsDir, "traittransient");
+var traitTransientReplacements = TranslationFileReader.LoadReplacements(traitTransientJsonPath);
+if (traitTransientReplacements.Count > 0 && Directory.Exists(sqPackPath))
+{
+    Console.WriteLine();
+    Console.WriteLine($"Caricate {traitTransientReplacements.Count} traduzioni da '{Path.GetFileName(traitTransientJsonPath)}'.");
+    var luminaTraitTrans = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var originalTraitTransExd = luminaTraitTrans.GetFile("exd/traittransient_0_en.exd");
+    if (originalTraitTransExd != null)
+    {
+        byte[] patchedTraitTransExd = ExdPatcher.PatchSimpleStringSheet(
+            originalTraitTransExd.Data,
+            fixedDataSize: 4,
+            stringColumnOffset: 0,
+            traitTransientReplacements);
+
+        fileMap["exd/traittransient_0_en.exd"] = patchedTraitTransExd;
+        Console.WriteLine($"  * 'exd/traittransient_0_en.exd' rigenerato ({patchedTraitTransExd.Length:N0} byte).");
+    }
+}
+
+// 17. PATCH TITLE (Titoli onorifici dei personaggi - maschile e femminile)
+string titleJsonPath = TranslationPathResolver.FindFile(translationsDir, "title");
+var titleReplacements = TranslationFileReader.LoadTwoStringReplacements(titleJsonPath);
+if (titleReplacements.Count > 0 && Directory.Exists(sqPackPath))
+{
+    Console.WriteLine();
+    Console.WriteLine($"Caricate {titleReplacements.Count} traduzioni da '{Path.GetFileName(titleJsonPath)}'.");
+    var luminaTitle = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var originalTitleExd = luminaTitle.GetFile("exd/title_0_en.exd");
+    if (originalTitleExd != null)
+    {
+        byte[] patchedTitleExd = ExdPatcher.PatchTwoStringSheet(
+            originalTitleExd.Data,
+            fixedDataSize: 16,
+            string1ColumnOffset: 0,
+            string2ColumnOffset: 4,
+            titleReplacements);
+
+        fileMap["exd/title_0_en.exd"] = patchedTitleExd;
+        Console.WriteLine($"  * 'exd/title_0_en.exd' rigenerato ({patchedTitleExd.Length:N0} byte).");
+    }
+}
+
+// 18. PATCH CUSTOMTALK (Dialoghi brevi e opzioni menu NPC)
+string customTalkJsonPath = TranslationPathResolver.FindFile(translationsDir, "customtalk");
+var customTalkReplacements = TranslationFileReader.LoadCustomTalkReplacements(customTalkJsonPath);
+if (customTalkReplacements.Count > 0 && Directory.Exists(sqPackPath))
+{
+    Console.WriteLine();
+    Console.WriteLine($"Caricate {customTalkReplacements.Count} traduzioni da '{Path.GetFileName(customTalkJsonPath)}'.");
+    var luminaCustomTalk = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var originalCustomTalkExd = luminaCustomTalk.GetFile("exd/customtalk_720896_en.exd");
+    if (originalCustomTalkExd != null)
+    {
+        byte[] patchedCustomTalkExd = ExdPatcher.PatchMultiColumnStringSheet(
+            originalCustomTalkExd.Data,
+            fixedDataSize: 268,
+            stringColumnOffsets: [
+                248, 0, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96, 104, 112, 120, 128, 136, 144, 152, 160, 168, 176, 184, 192, 200, 208, 216, 224, 232, 240, 244
+            ],
+            customTalkReplacements);
+
+        fileMap["exd/customtalk_720896_en.exd"] = patchedCustomTalkExd;
+        Console.WriteLine($"  * 'exd/customtalk_720896_en.exd' rigenerato ({patchedCustomTalkExd.Length:N0} byte).");
+    }
+}
+
+// 19. PATCH TRANSLATED QUESTS (se presenti in data/translations/quests/)
 string questsDir = Path.Combine(translationsDir, "quests");
 if (Directory.Exists(questsDir) && Directory.Exists(sqPackPath))
 {

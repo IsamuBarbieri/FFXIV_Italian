@@ -10,8 +10,12 @@ Il progetto estrae, gestisce, traduce e ricompila in formato binario nativo EXD 
 
 - **Righe Totali Censite ed Estratte**: **433.250 righe**
 - **Quest Narrative Organizzate per Espansione**: **5.532 missioni** (ARR, Heavensward, Stormblood, Shadowbringers, Endwalker, Dawntrail)
-- **Fogli al 100% Tradotti (12 fogli core)**:
+- **Fogli al 100% Tradotti (16 fogli completi)**:
   - `lobby.json` (975/975 - 100%): Schermata del titolo, login, selezione e creazione personaggio, opzioni client, gestione server e data center.
+  - `customtalk.json` (952/952 - 100%): Tutte le opzioni e prompt di interazione dei menu NPC (dialoghi brevi, opzioni servitori, chocobo, scambi, ecc.; script ID preservati intatti).
+  - `title.json` (885/885 - 100%): Tutti i titoli onorifici dei personaggi giocanti (declinati sia al maschile che al femminile).
+  - `trait.json` (682/682 - 100%): Tutti i nomi dei tratti passivi di classe e job di combattimento, gathering e crafting.
+  - `traittransient.json` (682/682 - 100%): Tutte le descrizioni e i tooltip dettagliati dei tratti passivi.
   - `textcommand.json` (543/543 - 100%): Tutti i comandi chat slash e guide all'uso (comandi originali preservati per piena compatibilità con macro e guide esterne).
   - `howto.json` (262/262 - 100%): Tutte le guide e finestre tutorial di aiuto per principianti.
   - `weather.json` (209/209 - 100%): Tutte le condizioni meteorologiche di Eorzea e dei mondi di gioco.
@@ -26,7 +30,7 @@ Il progetto estrae, gestisce, traduce e ricompila in formato binario nativo EXD 
 - **Infrastruttura**:
   - Architettura a cartelle categorizzate (`system`, `world`, `combat`, `items`, `dialogue`, `quests`).
   - Pipeline di traduzione modulare a batch (`status`, `export-batch`, `import-batch`, `autofill`).
-  - Patcher binario con hot-deploy istantaneo nella cartella Penumbra attiva.
+  - Patcher binario con hot-deploy istantaneo nella cartella Penumbra attiva (19 file binari EXD registrati in `meta.json` e `default_mod.json`).
 
 ---
 
@@ -55,7 +59,7 @@ FFXIV_Italian/
 │   ├── FFXIVItalian.DiffTool/     # Comparatore delta patch per aggiornamenti di gioco
 │   └── FFXIVItalian.Patcher/      # Compilatore binario EXD, generatore .pmp e deployer Penumbra
 ├── tests/
-│   └── FFXIVItalian.Tests/        # Test suite xUnit (38 test: SeString, BatchManager, PathResolver, ecc.)
+│   └── FFXIVItalian.Tests/        # Test suite xUnit (39 test: SeString, BatchManager, PathResolver, ecc.)
 ├── rebuild.bat                    # Script one-click per ricompilare il modpack
 └── rebuild.ps1                    # Script PowerShell one-click per ricompilare il modpack
 ```

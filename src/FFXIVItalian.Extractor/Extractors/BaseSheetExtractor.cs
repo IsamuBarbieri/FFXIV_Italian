@@ -61,16 +61,23 @@ public abstract class BaseSheetExtractor : ISheetExtractor
             Console.WriteLine($"  * Colonna {c,2}: Tipo = 0x{type:X4} ({typeName,-6}), Offset = {offset}");
         }
 
-        var exd = lumina.GetFile($"exd/{SheetName.ToLowerInvariant()}_0_en.exd");
+        int pageTableStart = 0x20 + (colCount * 4);
+        uint startRowId = 0;
+        if (pageCount > 0 && pageTableStart + 4 <= exh.Data.Length)
+        {
+            startRowId = BinaryPrimitives.ReadUInt32BigEndian(exh.Data.AsSpan(pageTableStart, 4));
+        }
+
+        var exd = lumina.GetFile($"exd/{SheetName.ToLowerInvariant()}_{startRowId}_en.exd");
         if (exd == null)
         {
-            Console.WriteLine($"Errore: exd/{SheetName.ToLowerInvariant()}_0_en.exd non trovato!");
+            Console.WriteLine($"Errore: exd/{SheetName.ToLowerInvariant()}_{startRowId}_en.exd non trovato!");
             return;
         }
 
         uint indexSize = BinaryPrimitives.ReadUInt32BigEndian(exd.Data.AsSpan(0x08, 4));
         int rowCount = (int)(indexSize / 8);
-        Console.WriteLine($"EXD: Righe indicizzate = {rowCount}, Dimensione file = {exd.Data.Length:N0} byte");
+        Console.WriteLine($"EXD ({startRowId}): Righe indicizzate = {rowCount}, Dimensione file = {exd.Data.Length:N0} byte");
 
         if (targetRowId.HasValue)
         {

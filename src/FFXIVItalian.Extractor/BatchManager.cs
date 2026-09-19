@@ -79,7 +79,28 @@ public static class BatchManager
                 return !string.IsNullOrWhiteSpace(mStr) || !string.IsNullOrWhiteSpace(fStr);
             }
 
-            // Case 2: Dual string command (translation_name and translation_description)
+            // Case 2: Multi-column dialogue sheets with human prompts (e.g. CustomTalk col_31 / col_32)
+            bool hasC31 = elem.TryGetProperty("col_31", out var c31);
+            bool hasC32 = elem.TryGetProperty("col_32", out var c32);
+            if (hasC31 || hasC32)
+            {
+                string c31Text = hasC31 && c31.ValueKind == JsonValueKind.String ? c31.GetString() ?? "" : "";
+                string c32Text = hasC32 && c32.ValueKind == JsonValueKind.String ? c32.GetString() ?? "" : "";
+                if (string.IsNullOrWhiteSpace(c31Text) && string.IsNullOrWhiteSpace(c32Text))
+                {
+                    // No human prompt text in this row; internal engine script identifier
+                    return true;
+                }
+
+                bool c31Ok = string.IsNullOrWhiteSpace(c31Text) ||
+                    (elem.TryGetProperty("translation_col_31", out var tc31) && !string.IsNullOrWhiteSpace(tc31.GetString()));
+                bool c32Ok = string.IsNullOrWhiteSpace(c32Text) ||
+                    (elem.TryGetProperty("translation_col_32", out var tc32) && !string.IsNullOrWhiteSpace(tc32.GetString()));
+
+                return c31Ok && c32Ok;
+            }
+
+            // Case 3: Dual string command (translation_name and translation_description)
             if (elem.TryGetProperty("translation_description", out var descProp))
             {
                 string desc = descProp.ValueKind == JsonValueKind.String ? descProp.GetString() ?? "" : "";
@@ -264,27 +285,39 @@ public static class BatchManager
         Console.WriteLine("=========================================================================================");
         Console.ResetColor();
 
-        Console.ForegroundColor = ConsoleColor.Yellow;
-        Console.WriteLine(" 1. 🚀 Fogli IN CORSO (Portare al 100% come lobby):");
-        Console.ResetColor();
-        Console.WriteLine("    * addon          : 14.385 pendenti (3,9% fatto) - Tutti i dialoghi UI, menu contestuali, impostazioni e popup");
-        Console.WriteLine("    * howto          :    259 pendenti (1,1% fatto) - Finestre di aiuto e tutorial iniziali per i giocatori");
-        Console.WriteLine("    * itemuicategory :    112 pendenti (0,9% fatto) - Categorie dell'inventario e dell'armeria");
-        Console.WriteLine("    * placename      :  5.259 pendenti (0,8% fatto) - Nomi delle città, zone, regioni e punti cardinali");
-        Console.WriteLine("    * status         :  4.788 pendenti (0,1% fatto) - Nomi e descrizioni di buff, debuff ed effetti di stato");
-        Console.WriteLine();
+        var inProgress = allMasterStats
+            .Where(s => s.Stats.PendingRows > 0 && s.Stats.Percentage > 0)
+            .OrderByDescending(s => s.Stats.Percentage)
+            .ToList();
 
-        Console.ForegroundColor = ConsoleColor.Yellow;
-        Console.WriteLine(" 2. ⚡ QUICK WINS (Fogli piccoli: chiudibili al 100% con 1-2 batch rapidi):");
-        Console.ResetColor();
-        Console.WriteLine("    * howtocategory  :     16 righe (0% fatto) - Categorie dei tutorial (completamento immediato!)");
-        Console.WriteLine("    * weather        :    209 righe (0% fatto) - Nomi delle condizioni meteorologiche di Eorzea");
-        Console.WriteLine("    * textcommand    :    543 righe (0% fatto) - Comandi chat slash (/say, /wave, /sit, /bow, ecc.)");
-        Console.WriteLine("    * trait          :    682 righe (0% fatto) - Nomi dei tratti passivi di classe/job");
-        Console.WriteLine("    * traittransient :    682 righe (0% fatto) - Descrizioni dei tratti passivi di classe/job");
-        Console.WriteLine("    * title          :    885 righe (0% fatto) - Titoli onorifici dei personaggi");
-        Console.WriteLine("    * customtalk     :    952 righe (0% fatto) - Dialoghi brevi di NPC interattivi");
-        Console.WriteLine();
+        if (inProgress.Count > 0)
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(" 1. 🚀 Fogli IN CORSO (Priorità alta: completamento progressivo):");
+            Console.ResetColor();
+            foreach (var (cat, s) in inProgress)
+            {
+                Console.WriteLine($"    * {s.SheetName,-14} : {s.PendingRows,6:N0} pendenti ({s.Percentage:F1}% fatto) [{cat.ToLowerInvariant()}]");
+            }
+            Console.WriteLine();
+        }
+
+        var quickWins = allMasterStats
+            .Where(s => s.Stats.PendingRows > 0 && s.Stats.PendingRows <= 2000 && s.Stats.Percentage == 0)
+            .OrderBy(s => s.Stats.PendingRows)
+            .ToList();
+
+        if (quickWins.Count > 0)
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(" 2. ⚡ QUICK WINS (Fogli intermedi a dimensione contenuta):");
+            Console.ResetColor();
+            foreach (var (cat, s) in quickWins)
+            {
+                Console.WriteLine($"    * {s.SheetName,-14} : {s.PendingRows,6:N0} righe ({s.Percentage:F1}% fatto) [{cat.ToLowerInvariant()}]");
+            }
+            Console.WriteLine();
+        }
 
         Console.ForegroundColor = ConsoleColor.Yellow;
         Console.WriteLine(" 3. 📜 TRAMA E MISSIONI (La narrazione di gioco):");

@@ -82,5 +82,21 @@ public class BatchManagerTests
             if (Directory.Exists(tempDir)) Directory.Delete(tempDir, true);
         }
     }
+
+    [Fact]
+    public void IsRowTranslated_CustomTalk_HandlesPromptColumnsCorrectly()
+    {
+        // Pure script hook row (col_31 and col_32 empty) -> translated
+        using var doc1 = System.Text.Json.JsonDocument.Parse(@"{ ""name"": ""CmnDefMogLetter_00002"", ""col_31"": """", ""col_32"": """" }");
+        Assert.True(BatchManager.IsRowTranslated(doc1.RootElement));
+
+        // Row with col_31 untranslated -> pending
+        using var doc2 = System.Text.Json.JsonDocument.Parse(@"{ ""col_31"": ""Small Talk"", ""translation_col_31"": """" }");
+        Assert.False(BatchManager.IsRowTranslated(doc2.RootElement));
+
+        // Row with col_31 translated -> translated
+        using var doc3 = System.Text.Json.JsonDocument.Parse(@"{ ""col_31"": ""Small Talk"", ""translation_col_31"": ""Quattro chiacchiere"" }");
+        Assert.True(BatchManager.IsRowTranslated(doc3.RootElement));
+    }
 }
 

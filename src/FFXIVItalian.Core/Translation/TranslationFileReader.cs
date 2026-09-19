@@ -246,4 +246,46 @@ public static class TranslationFileReader
 
         return result;
     }
+
+    public static Dictionary<uint, IReadOnlyDictionary<int, string>> LoadCustomTalkReplacements(string jsonFilePath)
+    {
+        var result = new Dictionary<uint, IReadOnlyDictionary<int, string>>();
+
+        if (!File.Exists(jsonFilePath))
+        {
+            return result;
+        }
+
+        var json = File.ReadAllText(jsonFilePath);
+        using var doc = JsonDocument.Parse(json);
+
+        foreach (var property in doc.RootElement.EnumerateObject())
+        {
+            if (uint.TryParse(property.Name, out uint rowId) && property.Value.ValueKind == JsonValueKind.Object)
+            {
+                var colMap = new Dictionary<int, string>();
+
+                // Col 64 in EXH is col_31 (Offset 240)
+                if (property.Value.TryGetProperty("translation_col_31", out var tCol31) &&
+                    tCol31.ValueKind == JsonValueKind.String && !string.IsNullOrWhiteSpace(tCol31.GetString()))
+                {
+                    colMap[240] = tCol31.GetString()!;
+                }
+
+                // Col 65 in EXH is col_32 (Offset 244)
+                if (property.Value.TryGetProperty("translation_col_32", out var tCol32) &&
+                    tCol32.ValueKind == JsonValueKind.String && !string.IsNullOrWhiteSpace(tCol32.GetString()))
+                {
+                    colMap[244] = tCol32.GetString()!;
+                }
+
+                if (colMap.Count > 0)
+                {
+                    result[rowId] = colMap;
+                }
+            }
+        }
+
+        return result;
+    }
 }
