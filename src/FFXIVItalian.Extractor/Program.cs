@@ -1,270 +1,475 @@
+using FFXIVItalian.Extractor.Extractors;
 using Lumina;
 using Lumina.Data;
-using Lumina.Excel.Sheets;
+using System;
+using System.IO;
+using System.Linq;
 
-Console.WriteLine("==================================================");
-Console.WriteLine(" FFXIV Italian - Game Data Extractor");
-Console.WriteLine("==================================================");
+namespace FFXIVItalian.Extractor;
 
-// Detect game path
-string defaultSqPack = @"G:\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\sqpack";
-
-if (args.Length > 0 && Directory.Exists(args[0]))
+public static class Program
 {
-    defaultSqPack = args[0];
-}
+    private const string DefaultSqPackPath = @"G:\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\sqpack";
 
-Console.WriteLine($"Verifica percorso SqPack: {defaultSqPack}");
-
-if (!Directory.Exists(defaultSqPack))
-{
-    Console.WriteLine($"[ERRORE] Directory non trovata: {defaultSqPack}");
-    return;
-}
-
-try
-{
-    Console.WriteLine("Inizializzazione motore Lumina in corso...");
-    var lumina = new GameData(defaultSqPack, new LuminaOptions
+    public static int Main(string[] args)
     {
-        DefaultExcelLanguage = Language.English
-    });
+        Console.WriteLine("==================================================");
+        Console.WriteLine(" FFXIV Italian - Estrattore e Ispettore Fogli EXD");
+        Console.WriteLine("==================================================");
 
-    Console.WriteLine("Connessione ai dati di gioco riuscita!");
-
-    // Test reading sheets
-    var addonSheet = lumina.GetExcelSheet<Addon>();
-    Console.WriteLine($"- Foglio Addon: {addonSheet?.Count ?? 0} righe caricate.");
-
-    var actionSheet = lumina.GetExcelSheet<Lumina.Excel.Sheets.Action>();
-    Console.WriteLine($"- Foglio Action: {actionSheet?.Count ?? 0} righe caricate.");
-
-    var placeNameSheet = lumina.GetExcelSheet<PlaceName>();
-    Console.WriteLine($"- Foglio PlaceName: {placeNameSheet?.Count ?? 0} righe caricate.");
-
-    var npcBaseSheet = lumina.GetExcelSheet<ENpcBase>();
-    Console.WriteLine($"- Foglio ENpcBase: {npcBaseSheet?.Count ?? 0} righe caricate.");
-
-    var npcResidentSheet = lumina.GetExcelSheet<ENpcResident>();
-    Console.WriteLine($"- Foglio ENpcResident: {npcResidentSheet?.Count ?? 0} righe caricate.");
-
-    // Sample inspection: test NPC gender reading
-    if (npcResidentSheet != null && npcBaseSheet != null)
-    {
-        int checkedNpc = 0;
-        foreach (var resident in npcResidentSheet)
+        if (args.Length == 0 || args[0].Equals("--help", StringComparison.OrdinalIgnoreCase) || args[0].Equals("-h", StringComparison.OrdinalIgnoreCase))
         {
-            var name = resident.Singular.ExtractText();
-            if (string.IsNullOrEmpty(name)) continue;
+            PrintUsage();
+            return 0;
+        }
 
-            // Check if it matches a known NPC
-            if (name.Contains("Urianger") || name.Contains("Thancred") || name.Contains("Y'shtola") || name.Contains("Tataru") || name.Contains("Kan-E-Senna"))
+        string command = args[0].ToLowerInvariant();
+        string sqpackPath = FindSqPackPath(args);
+
+        switch (command)
+        {
+            case "list":
+                ListExtractors();
+                return 0;
+
+            case "inspect":
+                return RunInspect(args, sqpackPath);
+
+            case "extract":
+                return RunExtract(args, sqpackPath);
+
+            case "search":
+                return RunSearch(args, sqpackPath);
+
+            case "validate":
+                return RunValidate();
+
+            default:
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine($"Comando non riconosciuto: '{args[0]}'");
+                Console.ResetColor();
+                PrintUsage();
+                return 1;
+        }
+    }
+
+    private static void PrintUsage()
+    {
+        Console.WriteLine(@"
+USO:
+  dotnet run --project src/FFXIVItalian.Extractor -- <comando> [opzioni]
+
+COMANDI DISPONIBILI:
+  list                          Mostra tutti gli estrattori di fogli registrati
+  inspect <foglio> [rowId]      Ispeziona la struttura EXH/EXD di un foglio (es. lobby 1704)
+  extract <foglio|all>          Estrae il testo originale in JSON preservando le traduzioni esistenti
+  search <query>                Cerca un testo in inglese in tutti i fogli supportati
+  validate                      Verifica la conformità di tutte le traduzioni a 07_Glossary e SeString
+
+OPZIONI:
+  --sqpack <percorso>           Specifica il percorso della cartella sqpack del gioco
+  --out <percorso>              Specifica un file o cartella di output personalizzata
+
+ESEMPI:
+  dotnet run --project src/FFXIVItalian.Extractor -- list
+  dotnet run --project src/FFXIVItalian.Extractor -- inspect lobby 1704
+  dotnet run --project src/FFXIVItalian.Extractor -- inspect addon 2
+  dotnet run --project src/FFXIVItalian.Extractor -- extract lobby
+  dotnet run --project src/FFXIVItalian.Extractor -- extract all
+");
+    }
+
+    private static void ListExtractors()
+    {
+        Console.WriteLine();
+        Console.WriteLine($"{"Foglio",-22} {"File JSON Default",-26} {"Descrizione"}");
+        Console.WriteLine(new string('-', 85));
+
+        foreach (var ext in ExtractorRegistry.GetAll())
+        {
+            Console.WriteLine($"{ext.SheetName,-22} {ext.DefaultJsonFileName,-26} {ext.Description}");
+        }
+        Console.WriteLine();
+    }
+
+    private static int RunInspect(string[] args, string sqpackPath)
+    {
+        if (args.Length < 2)
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Specifica il nome del foglio da ispezionare. Es: inspect lobby 1704");
+            Console.ResetColor();
+            return 1;
+        }
+
+        string sheetName = args[1];
+        uint? targetRowId = null;
+
+        if (args.Length >= 3 && uint.TryParse(args[2], out uint rId))
+        {
+            targetRowId = rId;
+        }
+
+        var extractor = ExtractorRegistry.Get(sheetName);
+        if (extractor == null)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"Estrattore per '{sheetName}' non trovato. Usa 'list' per vedere i fogli supportati.");
+            Console.ResetColor();
+            return 1;
+        }
+
+        if (!Directory.Exists(sqpackPath))
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"Percorso sqpack non valido: {sqpackPath}");
+            Console.ResetColor();
+            return 1;
+        }
+
+        var lumina = CreateLumina(sqpackPath);
+        extractor.Inspect(lumina, targetRowId);
+        return 0;
+    }
+
+    private static int RunExtract(string[] args, string sqpackPath)
+    {
+        if (args.Length < 2)
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Specifica il nome del foglio o 'all' per estrarre tutto. Es: extract lobby");
+            Console.ResetColor();
+            return 1;
+        }
+
+        string target = args[1];
+        string translationsDir = FindTranslationsDir();
+
+        if (!Directory.Exists(sqpackPath))
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"Percorso sqpack non valido: {sqpackPath}");
+            Console.ResetColor();
+            return 1;
+        }
+
+        var lumina = CreateLumina(sqpackPath);
+
+        if (target.Equals("all", StringComparison.OrdinalIgnoreCase))
+        {
+            Console.WriteLine($"Estrazione di TUTTI i {ExtractorRegistry.GetAll().Count} fogli supportati...");
+            int totalExtracted = 0;
+
+            foreach (var ext in ExtractorRegistry.GetAll())
             {
-                var baseNpc = npcBaseSheet.GetRowOrDefault(resident.RowId);
-                var gender = baseNpc?.Gender ?? 255;
-                string genderStr = gender switch
+                string jsonPath = Path.Combine(translationsDir, ext.DefaultJsonFileName);
+                Console.Write($"  * Estrazione {ext.SheetName,-20} -> {Path.GetFileName(jsonPath)}... ");
+                try
                 {
-                    0 => "Maschio (0)",
-                    1 => "Femmina (1)",
-                    _ => $"Sconosciuto ({gender})"
-                };
-                Console.WriteLine($"  * NPC: {name} (ID: {resident.RowId}) -> Genere: {genderStr}");
-                checkedNpc++;
-                if (checkedNpc >= 5) break;
+                    int count = ext.ExtractAndSave(lumina, jsonPath);
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine($"OK ({count} righe)");
+                    Console.ResetColor();
+                    totalExtracted += count;
+                }
+                catch (Exception ex)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine($"ERRORE: {ex.Message}");
+                    Console.ResetColor();
+                }
+            }
+
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"Completato! Totale righe estratte/aggiornate: {totalExtracted:N0}");
+            Console.ResetColor();
+            return 0;
+        }
+        else
+        {
+            var ext = ExtractorRegistry.Get(target);
+            if (ext == null)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine($"Estrattore per '{target}' non trovato. Usa 'list' per vedere i fogli disponibili.");
+                Console.ResetColor();
+                return 1;
+            }
+
+            string jsonPath = Path.Combine(translationsDir, ext.DefaultJsonFileName);
+            Console.WriteLine($"Estrazione '{ext.SheetName}' -> {jsonPath}...");
+            try
+            {
+                int count = ext.ExtractAndSave(lumina, jsonPath);
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine($"Completato con successo! {count} righe estratte/aggiornate.");
+                Console.ResetColor();
+                return 0;
+            }
+            catch (Exception ex)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine($"ERRORE durante l'estrazione: {ex.Message}");
+                Console.ResetColor();
+                return 1;
             }
         }
     }
 
-    Console.WriteLine();
-    Console.WriteLine("Test lettura file raw EXD e EXH tramite Lumina:");
-    var placeNameExh = lumina.GetFile("exd/placename.exh");
-    if (placeNameExh != null)
+    private static int RunSearch(string[] args, string sqpackPath)
     {
-        var fixedDataSize = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(placeNameExh.Data.AsSpan(0x06, 2));
-        var colCount = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(placeNameExh.Data.AsSpan(0x08, 2));
-        Console.WriteLine($"- PlaceName.exh: fixedDataSize={fixedDataSize}, columns={colCount}");
-    }
-
-    var placeNameExd = lumina.GetFile("exd/placename_0_en.exd");
-    Console.WriteLine($"- File exd/placename_0_en.exd caricato: {placeNameExd?.Data.Length ?? 0} byte.");
-
-    var addonExh = lumina.GetFile("exd/addon.exh");
-    if (addonExh != null)
-    {
-        var fixedDataSize = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(addonExh.Data.AsSpan(0x06, 2));
-        var colCount = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(addonExh.Data.AsSpan(0x08, 2));
-        Console.WriteLine($"- Addon.exh: fixedDataSize={fixedDataSize}, columns={colCount}");
-    }
-
-    var addonExd = lumina.GetFile("exd/addon_0_en.exd");
-    Console.WriteLine($"- File exd/addon_0_en.exd caricato: {addonExd?.Data.Length ?? 0} byte.");
-
-    Console.WriteLine();
-    Console.WriteLine("Colonne foglio Lobby.exh:");
-    var lobbyExh = lumina.GetFile("exd/lobby.exh");
-    if (lobbyExh != null)
-    {
-        var fixedDataSize = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(lobbyExh.Data.AsSpan(0x06, 2));
-        var colCount = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(lobbyExh.Data.AsSpan(0x08, 2));
-        Console.WriteLine($"- Lobby.exh: fixedDataSize={fixedDataSize}, columns={colCount}");
-
-        for (int c = 0; c < colCount; c++)
+        if (args.Length < 2)
         {
-            int colPos = 0x20 + (c * 4);
-            var colType = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(lobbyExh.Data.AsSpan(colPos, 2));
-            var colOffset = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(lobbyExh.Data.AsSpan(colPos + 2, 2));
-            Console.WriteLine($"  Colonna {c}: Tipo=0x{colType:X4}, Offset={colOffset}");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Specifica il testo da cercare. Es: search \"INSTALLATION DETAILS\"");
+            Console.ResetColor();
+            return 1;
         }
-    }
 
-    // Export templates
-    string translationsDir = Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "..", "data", "translations");
-    if (!Directory.Exists(translationsDir))
-    {
-        translationsDir = Path.Combine(Directory.GetCurrentDirectory(), "data", "translations");
-    }
-
-    var lobbySheet = lumina.GetExcelSheet<Lobby>();
-    Console.WriteLine($"- Foglio Lobby: {lobbySheet?.Count ?? 0} righe caricate.");
-    if (lobbySheet != null)
-    {
-        var allLobby = new Dictionary<string, string>();
-        foreach (var row in lobbySheet)
+        string query = args[1];
+        if (!Directory.Exists(sqpackPath))
         {
-            var text = row.Text.ExtractText();
-            if (!string.IsNullOrEmpty(text))
-            {
-                allLobby[row.RowId.ToString()] = text;
-            }
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"Percorso sqpack non valido: {sqpackPath}");
+            Console.ResetColor();
+            return 1;
         }
-        string lobbyAllPath = Path.Combine(translationsDir, "lobby_all_extracted.json");
-        File.WriteAllText(lobbyAllPath, System.Text.Json.JsonSerializer.Serialize(allLobby, new System.Text.Json.JsonSerializerOptions { WriteIndented = true }));
-        Console.WriteLine($"Salvate tutte le {allLobby.Count} stringhe di Lobby in '{Path.GetFileName(lobbyAllPath)}'.");
-    }
 
-    Console.WriteLine();
-    Console.WriteLine("Esplorazione fogli UI:");
-    var mainCommandSheet = lumina.GetExcelSheet<MainCommand>();
-    Console.WriteLine($"- Foglio MainCommand: {mainCommandSheet?.Count ?? 0} righe.");
+        var lumina = CreateLumina(sqpackPath);
+        Console.WriteLine($"Ricerca di \"{query}\" in tutti i fogli supportati...");
+        int totalMatches = 0;
 
-    var mainCommandCatSheet = lumina.GetExcelSheet<MainCommandCategory>();
-    if (mainCommandCatSheet != null)
-    {
-        var catDict = new Dictionary<string, object>();
-        foreach (var cat in mainCommandCatSheet)
+        foreach (var ext in ExtractorRegistry.GetAll())
         {
-            var name = cat.Name.ExtractText();
-            if (!string.IsNullOrEmpty(name))
+            var exd = lumina.GetFile($"exd/{ext.SheetName.ToLowerInvariant()}_0_en.exd");
+            if (exd == null) continue;
+
+            var exh = lumina.GetFile($"exd/{ext.SheetName.ToLowerInvariant()}.exh");
+            ushort fixedSize = exh != null ? System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(exh.Data.AsSpan(0x06, 2)) : (ushort)24;
+
+            uint idx = System.Buffers.Binary.BinaryPrimitives.ReadUInt32BigEndian(exd.Data.AsSpan(0x08, 4));
+            int count = (int)(idx / 8);
+
+            for (int i = 0; i < count; i++)
             {
-                catDict[cat.RowId.ToString()] = new
+                int entryPos = 0x20 + (i * 8);
+                uint rId = System.Buffers.Binary.BinaryPrimitives.ReadUInt32BigEndian(exd.Data.AsSpan(entryPos, 4));
+                uint off = System.Buffers.Binary.BinaryPrimitives.ReadUInt32BigEndian(exd.Data.AsSpan(entryPos + 4, 4));
+                if (off + 6 > exd.Data.Length) continue;
+
+                int dataSize = (int)System.Buffers.Binary.BinaryPrimitives.ReadUInt32BigEndian(exd.Data.AsSpan((int)off, 4));
+                int stringStart = (int)off + 6 + fixedSize;
+                int maxLen = dataSize - fixedSize;
+                if (stringStart + maxLen > exd.Data.Length || maxLen <= 0) continue;
+
+                var strSpan = exd.Data.AsSpan(stringStart, maxLen);
+                string text = BaseSheetExtractor.DecodeSeStringPayload(strSpan);
+
+                if (text.Contains(query, StringComparison.OrdinalIgnoreCase))
                 {
-                    original = name,
-                    translation = ""
-                };
-            }
-        }
-        var catJson = System.Text.Json.JsonSerializer.Serialize(catDict, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
-        File.WriteAllText(Path.Combine(translationsDir, "maincommandcategory_template.json"), catJson);
-        Console.WriteLine($"Esportato maincommandcategory_template.json ({catDict.Count} voci)");
-    }
-
-    if (mainCommandSheet != null)
-    {
-        var cmdDict = new Dictionary<string, object>();
-        foreach (var cmd in mainCommandSheet)
-        {
-            var name = cmd.Name.ExtractText();
-            var desc = cmd.Description.ExtractText();
-            if (!string.IsNullOrEmpty(name))
-            {
-                cmdDict[cmd.RowId.ToString()] = new
-                {
-                    name = name,
-                    translation_name = "",
-                    description = desc,
-                    translation_description = ""
-                };
-            }
-        }
-        var cmdJson = System.Text.Json.JsonSerializer.Serialize(cmdDict, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
-        File.WriteAllText(Path.Combine(translationsDir, "maincommand_template.json"), cmdJson);
-        Console.WriteLine($"Esportato maincommand_template.json ({cmdDict.Count} comandi)");
-    }
-
-    if (addonSheet != null)
-    {
-        var addonDict = new Dictionary<string, string>();
-        for (uint i = 1; i <= 500; i++)
-        {
-            var row = addonSheet.GetRowOrDefault(i);
-            if (row != null)
-            {
-                var text = row.Value.Text.ExtractText();
-                if (!string.IsNullOrWhiteSpace(text) && text.Length > 1 && !text.StartsWith("--"))
-                {
-                    addonDict[i.ToString()] = text;
+                    totalMatches++;
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    Console.Write($"  [{ext.SheetName}] ");
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.Write($"Riga {rId}: ");
+                    Console.ResetColor();
+                    Console.WriteLine(text.Replace('\r', ' ').Replace('\n', ' '));
                 }
             }
         }
-        var addonJson = System.Text.Json.JsonSerializer.Serialize(addonDict, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
-        File.WriteAllText(Path.Combine(translationsDir, "addon_sample.json"), addonJson);
-        Console.WriteLine($"Esportato addon_sample.json ({addonDict.Count} righe Addon)");
+
+        Console.WriteLine();
+        Console.WriteLine($"Ricerca completata: {totalMatches} occorrenze trovate.");
+        return 0;
     }
 
-    var mainCommandExh = lumina.GetFile("exd/maincommand.exh");
-    if (mainCommandExh != null)
+    private static int RunValidate()
     {
-        var fixedDataSize = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(mainCommandExh.Data.AsSpan(0x06, 2));
-        var colCount = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(mainCommandExh.Data.AsSpan(0x08, 2));
-        Console.WriteLine($"- MainCommand.exh: fixedDataSize={fixedDataSize}, columns={colCount}");
-        for (int c = 0; c < colCount; c++)
+        string translationsDir = FindTranslationsDir();
+        if (!Directory.Exists(translationsDir))
         {
-            int colPos = 0x20 + (c * 4);
-            var colType = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(mainCommandExh.Data.AsSpan(colPos, 2));
-            var colOffset = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(mainCommandExh.Data.AsSpan(colPos + 2, 2));
-            Console.WriteLine($"  MainCommand Colonna {c}: Tipo=0x{colType:X4}, Offset={colOffset}");
-        }
-    }
-
-    Console.WriteLine();
-    Console.WriteLine("Dettaglio file error_0_en.exd:");
-    var errorExh = lumina.GetFile("exd/error.exh");
-    var errorExd = lumina.GetFile("exd/error_0_en.exd");
-    if (errorExh != null && errorExd != null)
-    {
-        var fixedDataSize = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(errorExh.Data.AsSpan(0x06, 2));
-        var colCount = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(errorExh.Data.AsSpan(0x08, 2));
-        Console.WriteLine($"- Error.exh: fixedDataSize={fixedDataSize}, columns={colCount}");
-        for (int c = 0; c < colCount; c++)
-        {
-            int colPos = 0x20 + (c * 4);
-            var colType = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(errorExh.Data.AsSpan(colPos, 2));
-            var colOffset = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(errorExh.Data.AsSpan(colPos + 2, 2));
-            Console.WriteLine($"  Error Colonna {c}: Tipo=0x{colType:X4}, Offset={colOffset}");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"Cartella traduzioni non trovata: {translationsDir}");
+            Console.ResetColor();
+            return 1;
         }
 
-        uint indexSize = System.Buffers.Binary.BinaryPrimitives.ReadUInt32BigEndian(errorExd.Data.AsSpan(0x08, 4));
-        int rowCount = (int)(indexSize / 8);
-        for (int i = 0; i < rowCount; i++)
+        var engine = FFXIVItalian.Core.Glossary.GlossaryLoader.CreateCanonicalEngine();
+        Console.WriteLine($"Motore Glossario inizializzato ({engine.Entries.Count} regole canoniche).");
+        Console.WriteLine($"Validazione di tutti i file JSON in: {translationsDir}");
+        Console.WriteLine();
+
+        int totalEntries = 0;
+        int totalIssues = 0;
+
+        foreach (var file in Directory.GetFiles(translationsDir, "*.json"))
         {
-            int entryPos = 0x20 + (i * 8);
-            uint rowId = System.Buffers.Binary.BinaryPrimitives.ReadUInt32BigEndian(errorExd.Data.AsSpan(entryPos, 4));
-            uint offset = System.Buffers.Binary.BinaryPrimitives.ReadUInt32BigEndian(errorExd.Data.AsSpan(entryPos + 4, 4));
-            if (rowId == 13206)
+            string fileName = Path.GetFileName(file);
+            Console.WriteLine($"--- Analisi: {fileName} ---");
+            string content = File.ReadAllText(file);
+            using var doc = System.Text.Json.JsonDocument.Parse(content);
+
+            int fileEntries = 0;
+            int fileIssues = 0;
+
+            foreach (var prop in doc.RootElement.EnumerateObject())
             {
-                int dataSize = (int)System.Buffers.Binary.BinaryPrimitives.ReadUInt32BigEndian(errorExd.Data.AsSpan((int)offset, 4));
-                int strStart = (int)offset + 6 + 4;
-                int strLen = dataSize - 4;
-                var raw = errorExd.Data.AsSpan(strStart, strLen).ToArray();
-                Console.WriteLine($"Row 13206 raw bytes ({raw.Length}):");
-                Console.WriteLine(Convert.ToHexString(raw));
-                break;
+                string rowId = prop.Name;
+                if (prop.Value.ValueKind == System.Text.Json.JsonValueKind.String)
+                {
+                    string trans = prop.Value.GetString() ?? "";
+                    fileEntries++;
+                    fileIssues += ValidateSingleEntry(fileName, rowId, "", trans, engine);
+                }
+                else if (prop.Value.ValueKind == System.Text.Json.JsonValueKind.Object)
+                {
+                    fileEntries++;
+                    var obj = prop.Value;
+                    string orig = "";
+                    string trans = "";
+
+                    if (obj.TryGetProperty("name", out var np)) orig = np.GetString() ?? "";
+                    if (obj.TryGetProperty("original", out var op)) orig = op.GetString() ?? "";
+                    if (obj.TryGetProperty("translation", out var tp)) trans = tp.GetString() ?? "";
+                    if (obj.TryGetProperty("translation_name", out var tnp)) trans = tnp.GetString() ?? "";
+
+                    fileIssues += ValidateSingleEntry(fileName, rowId, orig, trans, engine);
+
+                    if (obj.TryGetProperty("description", out var dp) && obj.TryGetProperty("translation_description", out var tdp))
+                    {
+                        string dOrig = dp.GetString() ?? "";
+                        string dTrans = tdp.GetString() ?? "";
+                        fileIssues += ValidateSingleEntry(fileName, $"{rowId} (desc)", dOrig, dTrans, engine);
+                    }
+                }
+            }
+
+            if (fileIssues == 0)
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine($"  [OK] {fileEntries} righe analizzate - Nessun errore riscontrato.");
+                Console.ResetColor();
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine($"  [ATTENZIONE] {fileIssues} problemi rilevati su {fileEntries} righe.");
+                Console.ResetColor();
+            }
+
+            totalEntries += fileEntries;
+            totalIssues += fileIssues;
+            Console.WriteLine();
+        }
+
+        Console.WriteLine("==================================================");
+        if (totalIssues == 0)
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"CONVALIDA SUPERATA CON SUCCESSO! {totalEntries} righe conformi a 07_Glossary e SeString.");
+            Console.ResetColor();
+            return 0;
+        }
+        else
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine($"CONVALIDA COMPLETATA: Trovati {totalIssues} avvisi su {totalEntries} righe.");
+            Console.ResetColor();
+            return 0;
+        }
+    }
+
+    private static int ValidateSingleEntry(string file, string rowId, string orig, string trans, FFXIVItalian.Core.Glossary.GlossaryEngine engine)
+    {
+        if (string.IsNullOrWhiteSpace(trans)) return 0;
+        int issues = 0;
+
+        // 1. Check SeString Syntax
+        var seResult = FFXIVItalian.Core.SeString.SeStringValidator.Validate(orig, trans);
+        foreach (var err in seResult.Errors)
+        {
+            issues++;
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"  [ERRORE SINTASSI] {file} Riga {rowId}: {err}");
+            Console.ResetColor();
+        }
+
+        // 2. Check Glossary Compliance
+        var glResult = engine.ValidateTranslation(orig, trans);
+        foreach (var pro in glResult.ProhibitedUsages)
+        {
+            issues++;
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"  [FORMA VIETATA] {file} Riga {rowId}: {pro}");
+            Console.ResetColor();
+        }
+
+        foreach (var warn in glResult.Warnings)
+        {
+            issues++;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine($"  [AVVISO GLOSSARIO] {file} Riga {rowId}: {warn}");
+            Console.ResetColor();
+        }
+
+        return issues;
+    }
+
+    private static GameData CreateLumina(string sqpackPath)
+    {
+        return new GameData(sqpackPath, new LuminaOptions
+        {
+            DefaultExcelLanguage = Language.English
+        });
+    }
+
+    private static string FindSqPackPath(string[] args)
+    {
+        for (int i = 0; i < args.Length - 1; i++)
+        {
+            if (args[i].Equals("--sqpack", StringComparison.OrdinalIgnoreCase))
+            {
+                return args[i + 1];
             }
         }
+
+        if (Directory.Exists(DefaultSqPackPath))
+        {
+            return DefaultSqPackPath;
+        }
+
+        // Common alternative locations
+        string[] fallbacks =
+        [
+            @"C:\Program Files (x86)\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\sqpack",
+            @"D:\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\sqpack"
+        ];
+
+        foreach (var fb in fallbacks)
+        {
+            if (Directory.Exists(fb)) return fb;
+        }
+
+        return DefaultSqPackPath;
     }
-}
-catch (Exception ex)
-{
-    Console.WriteLine($"[ECCEZIONE] {ex.Message}");
-    Console.WriteLine(ex.StackTrace);
+
+    private static string FindTranslationsDir()
+    {
+        string dir = Directory.GetCurrentDirectory();
+        while (dir != null && !Directory.Exists(Path.Combine(dir, "data", "translations")))
+        {
+            var parent = Directory.GetParent(dir);
+            if (parent == null) break;
+            dir = parent.FullName;
+        }
+
+        if (dir != null && Directory.Exists(Path.Combine(dir, "data", "translations")))
+        {
+            return Path.Combine(dir, "data", "translations");
+        }
+
+        // Fallback relative
+        return Path.Combine(Directory.GetCurrentDirectory(), "data", "translations");
+    }
 }

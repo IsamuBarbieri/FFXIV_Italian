@@ -38,6 +38,12 @@ Console.WriteLine($"Cartella Traduzioni: {translationsDir}");
 Console.WriteLine($"Percorso SqPack gioco: {sqPackPath}");
 Console.WriteLine($"Percorso Mod Penumbra: {penumbraModDir}");
 
+// Verifica e configura Dalamud per sospendere il gioco finché i plugin (Penumbra) non sono caricati
+Console.WriteLine();
+Console.WriteLine("Verifica configurazione Dalamud (IsResumeGameAfterPluginLoad)...");
+var dalamudCheck = DalamudConfigService.EnsureResumeGameAfterPluginLoad();
+Console.WriteLine($"  [Dalamud] {dalamudCheck.Message}");
+
 var meta = new PenumbraMeta
 {
     Name = "FFXIV Italiano (Test In-Game)",
@@ -68,11 +74,15 @@ if (Directory.Exists(sqPackPath))
             var originalLobbyExd = lumina.GetFile("exd/lobby_0_en.exd");
             if (originalLobbyExd != null)
             {
-                byte[] patchedLobbyExd = ExdPatcher.PatchSimpleStringSheet(
+                var lobbyMulti = lobbyReplacements.ToDictionary(
+                    kvp => kvp.Key,
+                    kvp => (IReadOnlyDictionary<int, string>)new Dictionary<int, string> { [0] = kvp.Value });
+
+                byte[] patchedLobbyExd = ExdPatcher.PatchMultiColumnStringSheet(
                     originalLobbyExd.Data,
                     fixedDataSize: 24,
-                    stringColumnOffset: 12,
-                    lobbyReplacements);
+                    stringColumnOffsets: [0, 4, 8],
+                    lobbyMulti);
 
                 fileMap["exd/lobby_0_en.exd"] = patchedLobbyExd;
                 Console.WriteLine($"  * 'exd/lobby_0_en.exd' rigenerato ({patchedLobbyExd.Length:N0} byte).");
@@ -162,6 +172,56 @@ if (Directory.Exists(sqPackPath))
                 Console.WriteLine($"  * 'exd/error_0_en.exd' rigenerato ({patchedErrExd.Length:N0} byte).");
             }
         }
+
+        // 6. PATCH CLASSJOB (Nomi di classi e job, inclusa la schermata di selezione personaggio)
+        string classJobJsonPath = Path.Combine(translationsDir, "classjob.json");
+        var classJobReplacements = TranslationFileReader.LoadReplacements(classJobJsonPath);
+        if (classJobReplacements.Count > 0)
+        {
+            Console.WriteLine();
+            Console.WriteLine($"Caricate {classJobReplacements.Count} traduzioni da '{Path.GetFileName(classJobJsonPath)}'.");
+            var originalClassJobExd = lumina.GetFile("exd/classjob_0_en.exd");
+            if (originalClassJobExd != null)
+            {
+                var classJobMulti = classJobReplacements.ToDictionary(
+                    kvp => kvp.Key,
+                    kvp => (IReadOnlyDictionary<int, string>)new Dictionary<int, string> { [16] = kvp.Value });
+
+                byte[] patchedClassJobExd = ExdPatcher.PatchMultiColumnStringSheet(
+                    originalClassJobExd.Data,
+                    fixedDataSize: 112,
+                    stringColumnOffsets: [0, 4, 8, 16],
+                    classJobMulti);
+
+                fileMap["exd/classjob_0_en.exd"] = patchedClassJobExd;
+                Console.WriteLine($"  * 'exd/classjob_0_en.exd' rigenerato ({patchedClassJobExd.Length:N0} byte).");
+            }
+        }
+
+        // 7. PATCH PLACENAME (Nomi dei luoghi e zone, inclusa la schermata di selezione personaggio)
+        string placeJsonPath = Path.Combine(translationsDir, "placename.json");
+        var placeReplacements = TranslationFileReader.LoadReplacements(placeJsonPath);
+        if (placeReplacements.Count > 0)
+        {
+            Console.WriteLine();
+            Console.WriteLine($"Caricate {placeReplacements.Count} traduzioni da '{Path.GetFileName(placeJsonPath)}'.");
+            var originalPlaceExd = lumina.GetFile("exd/placename_0_en.exd");
+            if (originalPlaceExd != null)
+            {
+                var placeMulti = placeReplacements.ToDictionary(
+                    kvp => kvp.Key,
+                    kvp => (IReadOnlyDictionary<int, string>)new Dictionary<int, string> { [0] = kvp.Value, [4] = kvp.Value });
+
+                byte[] patchedPlaceExd = ExdPatcher.PatchMultiColumnStringSheet(
+                    originalPlaceExd.Data,
+                    fixedDataSize: 24,
+                    stringColumnOffsets: [0, 4, 8],
+                    placeMulti);
+
+                fileMap["exd/placename_0_en.exd"] = patchedPlaceExd;
+                Console.WriteLine($"  * 'exd/placename_0_en.exd' rigenerato ({patchedPlaceExd.Length:N0} byte).");
+            }
+        }
     }
     catch (Exception ex)
     {
@@ -214,39 +274,33 @@ if (Directory.Exists(penumbraModDir))
         catch { }
     }
 
-    var filesJson = new StringBuilder();
-    int count = 0;
+    meta.Identifier = existingIdentifier;
+    meta.FileVersion = 4;
+    meta.DefaultData.Files.Clear();
+    var defaultMod = new PenumbraDefaultMod();
+
     foreach (var key in fileMap.Keys)
     {
-        if (count > 0) filesJson.AppendLine(",");
-        string escapedVal = key.Replace("/", "\\\\");
-        filesJson.Append($"            \"{key}\": \"{escapedVal}\"");
-        count++;
+        string normKey = key.Replace('\\', '/');
+        meta.DefaultData.Files[normKey] = normKey;
+        defaultMod.Files[normKey] = normKey;
     }
 
-    string idLine = !string.IsNullOrEmpty(existingIdentifier) ? $"\"Identifier\": \"{existingIdentifier}\",\n    " : "";
-
-    var penumbraMetaJson = $$"""
-    {
-        "FileVersion": 4,
-        {{idLine}}"Name": "{{meta.Name}}",
-        "Author": "{{meta.Author}}",
-        "Description": "{{meta.Description}}",
-        "Version": "{{meta.Version}}",
-        "Website": "{{meta.Website}}",
-        "DefaultData": {
-            "Files": {
-    {{filesJson}}
-            }
-        }
-    }
-    """;
+    var jsonOptions = new System.Text.Json.JsonSerializerOptions { WriteIndented = true };
+    string penumbraMetaJson = System.Text.Json.JsonSerializer.Serialize(meta, jsonOptions);
     await File.WriteAllTextAsync(Path.Combine(penumbraModDir, "meta.json"), penumbraMetaJson);
+    Console.WriteLine($"  * Scritto: meta.json ({meta.DefaultData.Files.Count} file registrati)");
+
+    string defaultModJson = System.Text.Json.JsonSerializer.Serialize(defaultMod, jsonOptions);
+    await File.WriteAllTextAsync(Path.Combine(penumbraModDir, "default_mod.json"), defaultModJson);
+    Console.WriteLine($"  * Scritto: default_mod.json ({defaultMod.Files.Count} file registrati)");
 }
 
 Console.WriteLine();
 Console.WriteLine("==================================================");
 Console.WriteLine("REBUILD COMPLETATO CON SUCCESSO!");
-Console.WriteLine("1. Modifica i file in: data/translations/ (*.json)");
-Console.WriteLine("2. Ricarica in gioco su Penumbra (/penumbra) cliccando 🔄 Reload.");
+Console.WriteLine("Tutti i 7 fogli EXD e i metadati Penumbra v4 sono pronti.");
+Console.WriteLine("IMPORTANTE: Riavvia il gioco FINAL FANTASY XIV per applicare i fogli EXD.");
+Console.WriteLine("(I file EXD vengono memorizzati nella RAM del processo FFXIV al caricamento)");
 Console.WriteLine("==================================================");
+

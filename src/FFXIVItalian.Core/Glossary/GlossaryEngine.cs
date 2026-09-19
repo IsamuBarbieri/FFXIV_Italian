@@ -51,7 +51,7 @@ public class GlossaryEngine
         var forbiddenUnitRegexes = new Dictionary<string, string>
         {
             { @"\biarde?\b", "G28: Non tradurre in 'iarda/iarde'; usa 'yalm' (invariabile)." },
-            { @"\bpied[ei]\b", "G28: Non tradurre in 'piede/piedi'; usa 'fulm' (invariabile)." },
+            { @"(?<!in\s+)\bpied[ei]\b", "G28: Non tradurre in 'piede/piedi'; usa 'fulm' (invariabile)." },
             { @"\bmigli[ao]\b", "G28: Non tradurre in 'miglio/miglia'; usa 'malm' (invariabile)." },
             { @"\blibbr[ae]\b", "G28: Non tradurre in 'libbra/libbre'; usa 'ponze' (invariabile)." },
             { @"\byalms\b", "G28: 'yalm' è invariabile al plurale (usa 'yalm', non 'yalms')." },

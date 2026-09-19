@@ -140,5 +140,70 @@ public class ExdPatcherTests
         string r2s1 = Encoding.UTF8.GetString(patchedExd.AsSpan(row2StringStart, "Journal".Length));
         Assert.Equal("Journal", r2s1);
     }
+
+    [Fact]
+    public void PatchMultiColumnStringSheet_ModifiesSpecifiedColumns_AndPreservesOthers()
+    {
+        // 1. Synthetic sheet with 3 string columns: offsets 0, 4, 16 (like ClassJob)
+        byte[] row1Fixed = new byte[24];
+        BinaryPrimitives.WriteUInt32BigEndian(row1Fixed.AsSpan(0, 4), 0); // "beastmaster\0" -> 12 bytes
+        BinaryPrimitives.WriteUInt32BigEndian(row1Fixed.AsSpan(4, 4), 12); // "BST\0" -> 4 bytes
+        BinaryPrimitives.WriteUInt32BigEndian(row1Fixed.AsSpan(16, 4), 16); // "Beastmaster\0" -> 12 bytes
+
+        byte[] row1String = [
+            ..Encoding.UTF8.GetBytes("beastmaster\0"),
+            ..Encoding.UTF8.GetBytes("BST\0"),
+            ..Encoding.UTF8.GetBytes("Beastmaster\0")
+        ];
+
+        var rows = new List<ExdRowData>
+        {
+            new() { RowId = 43, FixedData = row1Fixed, StringData = row1String }
+        };
+
+        byte[] originalExd = ExdPatcher.RebuildExdf(rows);
+
+        // 2. Patch only column 16 ("Beastmaster" -> "Signore delle Bestie"), leaving col 0 and 4 untouched
+        var replacements = new Dictionary<uint, IReadOnlyDictionary<int, string>>
+        {
+            [43] = new Dictionary<int, string>
+            {
+                [16] = "Signore delle Bestie"
+            }
+        };
+
+        byte[] patchedExd = ExdPatcher.PatchMultiColumnStringSheet(
+            originalExd,
+            fixedDataSize: 24,
+            stringColumnOffsets: [0, 4, 16],
+            replacements);
+
+        Assert.NotNull(patchedExd);
+
+        uint rowOffset = BinaryPrimitives.ReadUInt32BigEndian(patchedExd.AsSpan(ExdPatcher.HeaderSize + 4, 4));
+        int fixedStart = (int)rowOffset + ExdPatcher.RowHeaderSize;
+        int stringStart = fixedStart + 24;
+
+        uint off0 = BinaryPrimitives.ReadUInt32BigEndian(patchedExd.AsSpan(fixedStart + 0, 4));
+        uint off1 = BinaryPrimitives.ReadUInt32BigEndian(patchedExd.AsSpan(fixedStart + 4, 4));
+        uint off2 = BinaryPrimitives.ReadUInt32BigEndian(patchedExd.AsSpan(fixedStart + 16, 4));
+
+        string s0 = Encoding.UTF8.GetString(patchedExd.AsSpan(stringStart + (int)off0, "beastmaster".Length));
+        string s1 = Encoding.UTF8.GetString(patchedExd.AsSpan(stringStart + (int)off1, "BST".Length));
+        string s2 = Encoding.UTF8.GetString(patchedExd.AsSpan(stringStart + (int)off2, "Signore delle Bestie".Length));
+
+        Assert.Equal("beastmaster", s0);
+        Assert.Equal("BST", s1);
+        Assert.Equal("Signore delle Bestie", s2);
+    }
 }
+
+
+
+
+
+
+
+
+
 

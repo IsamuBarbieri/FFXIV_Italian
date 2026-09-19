@@ -1,4 +1,568 @@
 {
+  "1": {
+    "original": "Start Game",
+    "translation": "Avvia Gioco"
+  },
+  "2": {
+    "original": "Configuration",
+    "translation": "Configurazione"
+  },
+  "3": {
+    "original": "Opening Movie",
+    "translation": "Filmato Iniziale"
+  },
+  "4": {
+    "original": "Credits",
+    "translation": "Riconoscimenti"
+  },
+  "6": {
+    "original": "Calibrate controller?\r\n※Settings can be changed at any time via the System Configuration menu.",
+    "translation": "Calibrare il controller?\r\n※Le impostazioni possono essere modificate in qualsiasi momento dal menu Configurazione di Sistema."
+  },
+  "7": {
+    "original": "Yes",
+    "translation": "Sì"
+  },
+  "8": {
+    "original": "No",
+    "translation": "No"
+  },
+  "10": {
+    "original": "Service Account",
+    "translation": "Account di Servizio"
+  },
+  "11": {
+    "original": "Select a service account.",
+    "translation": "Seleziona un account di servizio."
+  },
+  "15": {
+    "original": "OK",
+    "translation": "OK"
+  },
+  "16": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "20": {
+    "original": "Delete Character",
+    "translation": "Elimina Personaggio"
+  },
+  "21": {
+    "original": "Delete <string(lstr1)>?",
+    "translation": "Vuoi eliminare <string(lstr1)>?\r\nAttenzione: se elimini questo personaggio, perderai tutti i suoi oggetti, i gil e i servitori assunti.\r\nSe questo personaggio è maestro di una compagnia libera senza successori validi, la compagnia verrà automaticamente sciolta, causando l'eliminazione della tenuta e degli oggetti nel forziere."
+  },
+  "22": {
+    "original": "I understand and wish to delete this character.",
+    "translation": "Ho compreso e desidero eliminare questo personaggio."
+  },
+  "23": {
+    "original": "Change Name",
+    "translation": "Cambia Nome"
+  },
+  "24": {
+    "original": "Change Retainer Name",
+    "translation": "Cambia Nome Servitore"
+  },
+  "25": {
+    "original": "Log in with <string(lstr1)>?",
+    "translation": "Vuoi accedere con <string(lstr1)>?"
+  },
+  "26": {
+    "original": "A name change is required to log in with this character.",
+    "translation": "È necessario modificare il nome per accedere con questo personaggio."
+  },
+  "28": {
+    "original": "Change this character's name to <string(lstr1)>?",
+    "translation": "Cambiare il nome di questo personaggio in <string(lstr1)>?"
+  },
+  "29": {
+    "original": "Change this retainer's name to <string(lstr1)>?",
+    "translation": "Cambiare il nome di questo servitore in <string(lstr1)>?"
+  },
+  "30": {
+    "original": "New Character",
+    "translation": "Nuovo Personaggio"
+  },
+  "31": {
+    "original": "Quit character creation and lose all progress?",
+    "translation": "Vuoi uscire dalla creazione del personaggio e perdere tutti i progressi?"
+  },
+  "32": {
+    "original": "Begin a new game with this character?",
+    "translation": "Vuoi iniziare una nuova avventura con questo personaggio?"
+  },
+  "33": {
+    "original": "Create a new character?",
+    "translation": "Vuoi creare un nuovo personaggio?"
+  },
+  "40": {
+    "original": "First Astral Moon",
+    "translation": "Prima Luna Astrale"
+  },
+  "41": {
+    "original": "First Umbral Moon",
+    "translation": "Prima Luna Ombrale"
+  },
+  "42": {
+    "original": "Second Astral Moon",
+    "translation": "Seconda Luna Astrale"
+  },
+  "43": {
+    "original": "Second Umbral Moon",
+    "translation": "Seconda Luna Ombrale"
+  },
+  "44": {
+    "original": "Third Astral Moon",
+    "translation": "Terza Luna Astrale"
+  },
+  "45": {
+    "original": "Third Umbral Moon",
+    "translation": "Terza Luna Ombrale"
+  },
+  "46": {
+    "original": "Fourth Astral Moon",
+    "translation": "Quarta Luna Astrale"
+  },
+  "47": {
+    "original": "Fourth Umbral Moon",
+    "translation": "Quarta Luna Ombrale"
+  },
+  "48": {
+    "original": "Fifth Astral Moon",
+    "translation": "Quinta Luna Astrale"
+  },
+  "49": {
+    "original": "Fifth Umbral Moon",
+    "translation": "Quinta Luna Ombrale"
+  },
+  "50": {
+    "original": "Sixth Astral Moon",
+    "translation": "Sesta Luna Astrale"
+  },
+  "51": {
+    "original": "Sixth Umbral Moon",
+    "translation": "Sesta Luna Ombrale"
+  },
+  "57": {
+    "original": "Obtaining the World list...",
+    "translation": "Recupero dell'elenco dei Mondi in corso..."
+  },
+  "58": {
+    "original": "Unable to obtain the World list.",
+    "translation": "Impossibile recuperare l'elenco dei Mondi."
+  },
+  "60": {
+    "original": "This account has no available character slots.",
+    "translation": "Questo account non dispone di slot personaggio liberi. Per creare un nuovo personaggio, devi prima eliminarne uno esistente."
+  },
+  "61": {
+    "original": "You cannot create any more characters.",
+    "translation": "Non puoi creare altri personaggi."
+  },
+  "62": {
+    "original": "You cannot create any more characters on this World. Please select another.",
+    "translation": "Non puoi creare altri personaggi su questo Mondo. Selezionane un altro."
+  },
+  "63": {
+    "original": "This World is not accepting any more new characters. You may either wait for the restriction to be lifted, or you may select another World.",
+    "translation": "Questo Mondo non accetta nuovi personaggi al momento. Puoi attendere che la restrizione venga rimossa o selezionare un altro Mondo."
+  },
+  "71": {
+    "original": "OK",
+    "translation": "OK"
+  },
+  "72": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "74": {
+    "original": "OK",
+    "translation": "OK"
+  },
+  "75": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "84": {
+    "original": "Welcome to Eorzea!\r\nBefore your adventure can begin, you must first create a character.",
+    "translation": "Benvenuto ad Eorzea!\r\nPrima di iniziare la tua avventura, devi creare un personaggio."
+  },
+  "85": {
+    "original": "Proceed",
+    "translation": "Procedi"
+  },
+  "86": {
+    "original": "Welcome to Eorzea!\r\nStart your adventure by selecting an existing character, or creating a new one.",
+    "translation": "Benvenuto ad Eorzea!\r\nInizia la tua avventura selezionando un personaggio esistente o creandone uno nuovo."
+  },
+  "87": {
+    "original": "Proceed",
+    "translation": "Procedi"
+  },
+  "88": {
+    "original": "Select a World.",
+    "translation": "Seleziona un Mondo."
+  },
+  "95": {
+    "original": "Logging in with .",
+    "translation": "Accesso in corso con .\r\n\r\nIl tuo personaggio si trova su un Mondo diverso dal tuo Mondo d'Origine. Visita un'eterite a Limsa Lominsa, Gridania o Ul'dah per fare ritorno."
+  },
+  "96": {
+    "original": "Logging in with .",
+    "translation": "Accesso in corso con .\r\n\r\nIl tuo personaggio si trova in un Data Center diverso dal tuo Mondo d'Origine. Seleziona \"Torna al Mondo d'Origine\" dal sottomenu prima di accedere."
+  },
+  "120": {
+    "original": "Midlander",
+    "translation": "Piancolle"
+  },
+  "122": {
+    "original": "Highlander",
+    "translation": "Montanaro"
+  },
+  "124": {
+    "original": "Wildwood",
+    "translation": "Silvano"
+  },
+  "126": {
+    "original": "Duskwight",
+    "translation": "Crepuscolare"
+  },
+  "128": {
+    "original": "Plainsfolk",
+    "translation": "Pratoverde"
+  },
+  "130": {
+    "original": "Dunesfolk",
+    "translation": "Dunagialla"
+  },
+  "132": {
+    "original": "Seekers of the Sun",
+    "translation": "Cercasole"
+  },
+  "134": {
+    "original": "Keepers of the Moon",
+    "translation": "Guardialuna"
+  },
+  "136": {
+    "original": "Sea Wolves",
+    "translation": "Lupi di Mare"
+  },
+  "138": {
+    "original": "Hellsguard",
+    "translation": "Guardinferno"
+  },
+  "142": {
+    "original": "Raen",
+    "translation": "Raen"
+  },
+  "144": {
+    "original": "Xaela",
+    "translation": "Xaela"
+  },
+  "154": {
+    "original": "Halone",
+    "translation": "Halone"
+  },
+  "155": {
+    "original": "The Fury",
+    "translation": "La Furia"
+  },
+  "156": {
+    "original": "Menphina",
+    "translation": "Menphina"
+  },
+  "157": {
+    "original": "The Lover",
+    "translation": "L'Amante"
+  },
+  "158": {
+    "original": "Thaliak",
+    "translation": "Thaliak"
+  },
+  "159": {
+    "original": "The Scholar",
+    "translation": "Lo Studioso"
+  },
+  "160": {
+    "original": "Nymeia",
+    "translation": "Nymeia"
+  },
+  "161": {
+    "original": "The Spinner",
+    "translation": "La Tessitrice"
+  },
+  "162": {
+    "original": "Llymlaen",
+    "translation": "Llymlaen"
+  },
+  "163": {
+    "original": "The Navigator",
+    "translation": "La Navigatrice"
+  },
+  "164": {
+    "original": "Oschon",
+    "translation": "Oschon"
+  },
+  "165": {
+    "original": "The Wanderer",
+    "translation": "Il Viandante"
+  },
+  "166": {
+    "original": "Byregot",
+    "translation": "Byregot"
+  },
+  "167": {
+    "original": "The Builder",
+    "translation": "Il Costruttore"
+  },
+  "168": {
+    "original": "Rhalgr",
+    "translation": "Rhalgr"
+  },
+  "169": {
+    "original": "The Destroyer",
+    "translation": "Il Distruttore"
+  },
+  "170": {
+    "original": "Azeyma",
+    "translation": "Azeyma"
+  },
+  "171": {
+    "original": "The Warden",
+    "translation": "La Custode"
+  },
+  "172": {
+    "original": "Nald'thal",
+    "translation": "Nald'thal"
+  },
+  "173": {
+    "original": "The Traders",
+    "translation": "I Mercanti"
+  },
+  "174": {
+    "original": "Nophica",
+    "translation": "Nophica"
+  },
+  "175": {
+    "original": "The Matron",
+    "translation": "La Matrona"
+  },
+  "176": {
+    "original": "Althyk",
+    "translation": "Althyk"
+  },
+  "177": {
+    "original": "The Keeper",
+    "translation": "Il Custode"
+  },
+  "251": {
+    "original": "OK",
+    "translation": "OK"
+  },
+  "600": {
+    "original": "<hex:021E021803> Rotate Camera <hex:021E021503> Rotate Background <hex:021E020D03>+<hex:021E021903> Zoom <hex:0212021403> Reverse Camera",
+    "translation": "<hex:021E021803> Ruota Telecamera <hex:021E021503> Ruota Sfondo <hex:021E020D03>+<hex:021E021903> Zoom <hex:0212021403> Inverti Telecamera"
+  },
+  "602": {
+    "original": "<hex:021E021803> Rotate Camera <hex:021E021503> Rotate Background <hex:021E020D03>+<hex:021E021903> Zoom <hex:021E020D03>+<hex:021E021603> Tilt Camera <hex:0212021403> Reverse Camera",
+    "translation": "<hex:021E021803> Ruota Telecamera <hex:021E021503> Ruota Sfondo <hex:021E020D03>+<hex:021E021903> Zoom <hex:021E020D03>+<hex:021E021603> Inclina Telecamera <hex:0212021403> Inverti Telecamera"
+  },
+  "610": {
+    "original": "<hex:021E020C03> Keyboard",
+    "translation": "<hex:021E020C03> Tastiera"
+  },
+  "611": {
+    "original": "<hex:021E020B03> Subcommands",
+    "translation": "<hex:021E020B03> Sottomenu"
+  },
+  "612": {
+    "original": "\uE051Rotate Camera \uE052Rotate Background \uE054Zoom",
+    "translation": "\uE051Ruota Telecamera \uE052Ruota Sfondo \uE054Zoom"
+  },
+  "613": {
+    "original": "\uE051Rotate Camera \uE052Rotate Background \uE054Zoom \uE054Tilt Camera",
+    "translation": "\uE051Ruota Telecamera \uE052Ruota Sfondo \uE054Zoom \uE054Inclina Telecamera"
+  },
+  "615": {
+    "original": "Days of Play Time Remaining: <hex:022003E80203>",
+    "translation": "Giorni di Gioco Rimanenti: <hex:022003E80203>"
+  },
+  "616": {
+    "original": "Veteran Reward Rank: <hex:020813E1E80201FF07022003E80203FF054E6F6E6503>",
+    "translation": "Grado Ricompense Veterano: <hex:020816E1E80201FF07022003E80203FF084E657373756E6F03>"
+  },
+  "617": {
+    "original": "Total Days Subscribed: <hex:022206E802FF022C03><hex:02082CE4E80301FF01FF24021001034461797320556E74696C204E6578742052616E6B3A20022206E803FF022C0303>",
+    "translation": "Giorni Totali Sottoscritti: <hex:022206E802FF022C03><hex:020830E4E80301FF01FF280210010347696F726E6920616C2070726F7373696D6F20677261646F3A20022206E803FF022C0303>"
+  },
+  "622": {
+    "original": "Cancel retainer customization.",
+    "translation": "Annulla la personalizzazione del servitore."
+  },
+  "623": {
+    "original": "Cancel retainer customization?",
+    "translation": "Annullare la personalizzazione del servitore?"
+  },
+  "625": {
+    "original": "Cancel character customization and discard changes?",
+    "translation": "Annullare la personalizzazione del personaggio e scartare le modifiche?"
+  },
+  "626": {
+    "original": "Finalize your character's appearance?",
+    "translation": "Confermare l'aspetto del personaggio?"
+  },
+  "627": {
+    "original": "Revert to your character's current appearance?",
+    "translation": "Ripristinare l'aspetto attuale del personaggio?"
+  },
+  "629": {
+    "original": "Log in with <string(lstr1)>?<br><colortype(506)><edgecolortype(507)>※Cancel and access the subcommand menu to re-edit your character.<edgecolortype(0)><colortype(0)>",
+    "translation": "Vuoi accedere con <string(lstr1)>?<br><colortype(506)><edgecolortype(507)>※Annulla e accedi al sottomenu per modificare nuovamente il tuo personaggio.<edgecolortype(0)><colortype(0)>"
+  },
+  "634": {
+    "original": "Cancel appearance customization?",
+    "translation": "Annullare la personalizzazione dell'aspetto?"
+  },
+  "650": {
+    "original": "Disconnect from the  data center and connect to the  data center?",
+    "translation": "Vuoi disconnetterti dal Data Center  e connetterti al Data Center ?"
+  },
+  "800": {
+    "original": "Data Center Selection",
+    "translation": "Selezione Data Center"
+  },
+  "802": {
+    "original": "Data Center",
+    "translation": "Data Center"
+  },
+  "803": {
+    "original": "Information",
+    "translation": "Informazioni"
+  },
+  "806": {
+    "original": "FINAL FANTASY XIV requires connecting to one of several data centers to play.",
+    "translation": "FINAL FANTASY XIV richiede la connessione a uno dei Data Center per giocare. Più la tua posizione geografica è vicina al Data Center, migliore sarà l'esperienza di gioco."
+  },
+  "808": {
+    "original": "Connecting to the  data center.",
+    "translation": "Connessione al Data Center  in corso."
+  },
+  "809": {
+    "original": "Acquiring character list.",
+    "translation": "Recupero dell'elenco personaggi in corso."
+  },
+  "810": {
+    "original": "Proceed",
+    "translation": "Procedi"
+  },
+  "811": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "812": {
+    "original": "Japanese Data Centers",
+    "translation": "Data Center Giapponesi"
+  },
+  "813": {
+    "original": "North American Data Centers",
+    "translation": "Data Center Nordamericani"
+  },
+  "814": {
+    "original": "European Data Centers",
+    "translation": "Data Center Europei"
+  },
+  "815": {
+    "original": "Oceanian Data Center",
+    "translation": "Data Center Oceania"
+  },
+  "816": {
+    "original": "NA Cloud Data Center (Beta)",
+    "translation": "Data Center Cloud NA (Beta)"
+  },
+  "899": {
+    "original": "Canceling download. Existing data and backup data are identical.",
+    "translation": "Annullamento download. I dati esistenti e i dati di backup sono identici."
+  },
+  "985": {
+    "original": "OK",
+    "translation": "OK"
+  },
+  "1100": {
+    "original": "Visit Another World Server",
+    "translation": "Visita un Altro Mondo"
+  },
+  "1102": {
+    "original": "Using the World Visit System",
+    "translation": "Guida alla Visita Mondi"
+  },
+  "1103": {
+    "original": "Close",
+    "translation": "Chiudi"
+  },
+  "1104": {
+    "original": "Visit Another World Server",
+    "translation": "Visita un Altro Mondo"
+  },
+  "1105": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "1106": {
+    "original": "World Visit request accepted. Please wait until the transfer is complete.",
+    "translation": "Richiesta di Visita Mondo accettata. Attendi il completamento del trasferimento."
+  },
+  "1116": {
+    "original": "World Visit transfer successful. Login to  now available.",
+    "translation": "Trasferimento completato con successo. Accesso a  ora disponibile."
+  },
+  "1150": {
+    "original": "Visit Another Data Center",
+    "translation": "Visita un Altro Data Center"
+  },
+  "1159": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "1167": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "1179": {
+    "original": "Return to Home World request accepted. Please wait until the transfer is complete.",
+    "translation": "Richiesta di Ritorno al Mondo d'Origine accettata. Attendi il completamento del trasferimento."
+  },
+  "1183": {
+    "original": "Successfully returned to Home World.",
+    "translation": "Ritorno al Mondo d'Origine completato con successo."
+  },
+  "1222": {
+    "original": "More Subcommands",
+    "translation": "Altri Comandi"
+  },
+  "1702": {
+    "original": "Program Version: <string(lstr1)>",
+    "translation": "Versione Programma: <string(lstr1)>"
+  },
+  "1703": {
+    "original": "FFXIV: <string(lstr1)>",
+    "translation": "FFXIV: <string(lstr1)>"
+  },
+  "1704": {
+    "original": "EX<hex:022003E80203>: <hex:022903EA0303>",
+    "translation": "EX<hex:022003E80203>: <hex:022903EA0303>"
+  },
+  "1800": {
+    "original": "Are you certain you wish to leave the queue?",
+    "translation": "Sei sicuro di voler uscire dalla coda?"
+  },
+  "1801": {
+    "original": "You were automatically logged out due to extended inactivity.",
+    "translation": "Sei stato disconnesso automaticamente per inattività prolungata."
+  },
+  "1994": {
+    "original": "Cancel character customization and discard changes.",
+    "translation": "Annulla la personalizzazione del personaggio e scarta le modifiche."
+  },
   "2001": {
     "original": "START",
     "translation": "GIOCA"
@@ -18,6 +582,10 @@
   "2006": {
     "original": "DATA CENTER",
     "translation": "DATA CENTER"
+  },
+  "2007": {
+    "original": "OPENING MOVIE",
+    "translation": "FILMATO INIZIALE"
   },
   "2008": {
     "original": "A Realm Reborn Demo and Title",
@@ -123,9 +691,13 @@
     "original": "Load previously saved appearance data?",
     "translation": "Caricare i dati dell'aspetto salvati in precedenza?"
   },
+  "2045": {
+    "original": "You have selected <string(lstr1)> as your starting World. Proceed?",
+    "translation": "Hai selezionato <string(lstr1)> come Mondo di partenza. Procedere?"
+  },
   "2046": {
     "original": "Select Another",
-    "translation": "Scegli un Altro"
+    "translation": "Seleziona un Altro"
   },
   "2047": {
     "original": "Return",
@@ -162,6 +734,10 @@
   "2058": {
     "original": "OPTIONS",
     "translation": "OPZIONI"
+  },
+  "2059": {
+    "original": "INSTALLATION DETAILS",
+    "translation": "DETTAGLI INSTALLAZIONE"
   },
   "2060": {
     "original": "POSE",
@@ -274,325 +850,5 @@
   "2186": {
     "original": "OK",
     "translation": "OK"
-  },
-  "1": {
-    "original": "Start Game",
-    "translation": "Avvia Gioco"
-  },
-  "2": {
-    "original": "Configuration",
-    "translation": "Configurazione"
-  },
-  "3": {
-    "original": "Opening Movie",
-    "translation": "Filmato Iniziale"
-  },
-  "4": {
-    "original": "Credits",
-    "translation": "Riconoscimenti"
-  },
-  "6": {
-    "original": "Calibrate controller?\r\n※Settings can be changed at any time via the System Configuration menu.",
-    "translation": "Calibrare il controller?\r\n※Le impostazioni possono essere modificate in qualsiasi momento dal menu Configurazione di Sistema."
-  },
-  "7": {
-    "original": "Yes",
-    "translation": "Sì"
-  },
-  "8": {
-    "original": "No",
-    "translation": "No"
-  },
-  "10": {
-    "original": "Service Account",
-    "translation": "Account di Servizio"
-  },
-  "11": {
-    "original": "Select a service account.",
-    "translation": "Seleziona un account di servizio."
-  },
-  "15": {
-    "original": "OK",
-    "translation": "OK"
-  },
-  "16": {
-    "original": "Cancel",
-    "translation": "Annulla"
-  },
-  "20": {
-    "original": "Delete Character",
-    "translation": "Elimina Personaggio"
-  },
-  "21": {
-    "original": "Delete ?",
-    "translation": "Vuoi eliminare ?\r\nAttenzione: se elimini questo personaggio, perderai tutti i suoi oggetti, i gil e i servitori assunti.\r\nSe questo personaggio è maestro di una compagnia libera senza successori validi, la compagnia verrà automaticamente sciolta, causando l'eliminazione della tenuta e degli oggetti nel forziere."
-  },
-  "22": {
-    "original": "I understand and wish to delete this character.",
-    "translation": "Ho compreso e desidero eliminare questo personaggio."
-  },
-  "23": {
-    "original": "Change Name",
-    "translation": "Cambia Nome"
-  },
-  "24": {
-    "original": "Change Retainer Name",
-    "translation": "Cambia Nome Servitore"
-  },
-  "25": {
-    "original": "Log in with ?",
-    "translation": "Vuoi accedere con ?"
-  },
-  "26": {
-    "original": "A name change is required to log in with this character.",
-    "translation": "È necessario modificare il nome per accedere con questo personaggio."
-  },
-  "30": {
-    "original": "New Character",
-    "translation": "Nuovo Personaggio"
-  },
-  "31": {
-    "original": "Quit character creation and lose all progress?",
-    "translation": "Vuoi uscire dalla creazione del personaggio e perdere tutti i progressi?"
-  },
-  "32": {
-    "original": "Begin a new game with this character?",
-    "translation": "Vuoi iniziare una nuova avventura con questo personaggio?"
-  },
-  "33": {
-    "original": "Create a new character?",
-    "translation": "Vuoi creare un nuovo personaggio?"
-  },
-  "40": {
-    "original": "First Astral Moon",
-    "translation": "Prima Luna Astrale"
-  },
-  "41": {
-    "original": "First Umbral Moon",
-    "translation": "Prima Luna Ombrale"
-  },
-  "42": {
-    "original": "Second Astral Moon",
-    "translation": "Seconda Luna Astrale"
-  },
-  "43": {
-    "original": "Second Umbral Moon",
-    "translation": "Seconda Luna Ombrale"
-  },
-  "44": {
-    "original": "Third Astral Moon",
-    "translation": "Terza Luna Astrale"
-  },
-  "45": {
-    "original": "Third Umbral Moon",
-    "translation": "Terza Luna Ombrale"
-  },
-  "46": {
-    "original": "Fourth Astral Moon",
-    "translation": "Quarta Luna Astrale"
-  },
-  "47": {
-    "original": "Fourth Umbral Moon",
-    "translation": "Quarta Luna Ombrale"
-  },
-  "48": {
-    "original": "Fifth Astral Moon",
-    "translation": "Quinta Luna Astrale"
-  },
-  "49": {
-    "original": "Fifth Umbral Moon",
-    "translation": "Quinta Luna Ombrale"
-  },
-  "50": {
-    "original": "Sixth Astral Moon",
-    "translation": "Sesta Luna Astrale"
-  },
-  "51": {
-    "original": "Sixth Umbral Moon",
-    "translation": "Sesta Luna Ombrale"
-  },
-  "57": {
-    "original": "Obtaining the World list...",
-    "translation": "Recupero dell'elenco dei Mondi in corso..."
-  },
-  "58": {
-    "original": "Unable to obtain the World list.",
-    "translation": "Impossibile recuperare l'elenco dei Mondi."
-  },
-  "60": {
-    "original": "This account has no available character slots.",
-    "translation": "Questo account non dispone di slot personaggio liberi. Per creare un nuovo personaggio, devi prima eliminarne uno esistente."
-  },
-  "61": {
-    "original": "You cannot create any more characters.",
-    "translation": "Non puoi creare altri personaggi."
-  },
-  "62": {
-    "original": "You cannot create any more characters on this World. Please select another.",
-    "translation": "Non puoi creare altri personaggi su questo Mondo. Selezionane un altro."
-  },
-  "63": {
-    "original": "This World is not accepting any more new characters. You may either wait for the restriction to be lifted, or you may select another World.",
-    "translation": "Questo Mondo non accetta nuovi personaggi al momento. Puoi attendere che la restrizione venga rimossa o selezionare un altro Mondo."
-  },
-  "84": {
-    "original": "Welcome to Eorzea!\r\nBefore your adventure can begin, you must first create a character.",
-    "translation": "Benvenuto ad Eorzea!\r\nPrima di iniziare la tua avventura, devi creare un personaggio."
-  },
-  "85": {
-    "original": "Proceed",
-    "translation": "Procedi"
-  },
-  "86": {
-    "original": "Welcome to Eorzea!\r\nStart your adventure by selecting an existing character, or creating a new one.",
-    "translation": "Benvenuto ad Eorzea!\r\nInizia la tua avventura selezionando un personaggio esistente o creandone uno nuovo."
-  },
-  "87": {
-    "original": "Proceed",
-    "translation": "Procedi"
-  },
-  "88": {
-    "original": "Select a World.",
-    "translation": "Seleziona un Mondo."
-  },
-  "95": {
-    "original": "Logging in with .",
-    "translation": "Accesso in corso con .\r\n\r\nIl tuo personaggio si trova su un Mondo diverso dal tuo Mondo d'Origine. Visita un'eterite a Limsa Lominsa, Gridania o Ul'dah per fare ritorno."
-  },
-  "96": {
-    "original": "Logging in with .",
-    "translation": "Accesso in corso con .\r\n\r\nIl tuo personaggio si trova in un Data Center diverso dal tuo Mondo d'Origine. Seleziona \"Torna al Mondo d'Origine\" dal sottomenu prima di accedere."
-  },
-  "610": {
-    "original": "Keyboard",
-    "translation": "Tastiera"
-  },
-  "611": {
-    "original": "Subcommands",
-    "translation": "Sottomenu"
-  },
-  "626": {
-    "original": "Finalize your character's appearance?",
-    "translation": "Confermare l'aspetto del personaggio?"
-  },
-  "627": {
-    "original": "Revert to your character's current appearance?",
-    "translation": "Ripristinare l'aspetto attuale del personaggio?"
-  },
-  "629": {
-    "original": "Log in with ?\r\n※Cancel and access the subcommand menu to re-edit your character.",
-    "translation": "Vuoi accedere con ?\r\n※Annulla e accedi al sottomenu per modificare nuovamente il tuo personaggio."
-  },
-  "634": {
-    "original": "Cancel appearance customization?",
-    "translation": "Annullare la personalizzazione dell'aspetto?"
-  },
-  "650": {
-    "original": "Disconnect from the  data center and connect to the  data center?",
-    "translation": "Vuoi disconnetterti dal Data Center  e connetterti al Data Center ?"
-  },
-  "800": {
-    "original": "Data Center Selection",
-    "translation": "Selezione Data Center"
-  },
-  "802": {
-    "original": "Data Center",
-    "translation": "Data Center"
-  },
-  "803": {
-    "original": "Information",
-    "translation": "Informazioni"
-  },
-  "806": {
-    "original": "FINAL FANTASY XIV requires connecting to one of several data centers to play.",
-    "translation": "FINAL FANTASY XIV richiede la connessione a uno dei Data Center per giocare. Più la tua posizione geografica è vicina al Data Center, migliore sarà l'esperienza di gioco."
-  },
-  "808": {
-    "original": "Connecting to the  data center.",
-    "translation": "Connessione al Data Center  in corso."
-  },
-  "809": {
-    "original": "Acquiring character list.",
-    "translation": "Recupero dell'elenco personaggi in corso."
-  },
-  "810": {
-    "original": "Proceed",
-    "translation": "Procedi"
-  },
-  "811": {
-    "original": "Cancel",
-    "translation": "Annulla"
-  },
-  "812": {
-    "original": "Japanese Data Centers",
-    "translation": "Data Center Giapponesi"
-  },
-  "813": {
-    "original": "North American Data Centers",
-    "translation": "Data Center Nordamericani"
-  },
-  "814": {
-    "original": "European Data Centers",
-    "translation": "Data Center Europei"
-  },
-  "815": {
-    "original": "Oceanian Data Center",
-    "translation": "Data Center Oceaniani"
-  },
-  "816": {
-    "original": "NA Cloud Data Center (Beta)",
-    "translation": "Data Center Cloud NA (Beta)"
-  },
-  "1100": {
-    "original": "Visit Another World Server",
-    "translation": "Visita un Altro Mondo"
-  },
-  "1102": {
-    "original": "Using the World Visit System",
-    "translation": "Guida alla Visita Mondi"
-  },
-  "1103": {
-    "original": "Close",
-    "translation": "Chiudi"
-  },
-  "1104": {
-    "original": "Visit Another World Server",
-    "translation": "Visita un Altro Mondo"
-  },
-  "1105": {
-    "original": "Cancel",
-    "translation": "Annulla"
-  },
-  "1106": {
-    "original": "World Visit request accepted. Please wait until the transfer is complete.",
-    "translation": "Richiesta di Visita Mondo accettata. Attendi il completamento del trasferimento."
-  },
-  "1116": {
-    "original": "World Visit transfer successful. Login to  now available.",
-    "translation": "Trasferimento completato con successo. Accesso a  ora disponibile."
-  },
-  "1150": {
-    "original": "Visit Another Data Center",
-    "translation": "Visita un Altro Data Center"
-  },
-  "1179": {
-    "original": "Return to Home World request accepted. Please wait until the transfer is complete.",
-    "translation": "Richiesta di Ritorno al Mondo d'Origine accettata. Attendi il completamento del trasferimento."
-  },
-  "1183": {
-    "original": "Successfully returned to Home World.",
-    "translation": "Ritorno al Mondo d'Origine completato con successo."
-  },
-  "1222": {
-    "original": "More Subcommands",
-    "translation": "Altri Comandi"
-  },
-  "1800": {
-    "original": "Are you certain you wish to leave the queue?",
-    "translation": "Sei sicuro di voler uscire dalla coda?"
-  },
-  "1801": {
-    "original": "You were automatically logged out due to extended inactivity.",
-    "translation": "Sei stato disconnesso automaticamente per inattività prolungata."
   }
 }

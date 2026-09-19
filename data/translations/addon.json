@@ -96,8 +96,8 @@
     "translation": "Invia Richiesta di Amicizia"
   },
   "62": {
-    "original": "Cancel Friend Request",
-    "translation": "Annulla Richiesta di Amicizia"
+    "original": "Cancel",
+    "translation": "Annulla"
   },
   "63": {
     "original": "Respond to Friend Request",
@@ -133,55 +133,55 @@
   },
   "71": {
     "original": "Hide Linkshell Log",
-    "translation": "Nascondi Chat Linkshell"
+    "translation": "Nascondi Chat Fonosfera"
   },
   "72": {
     "original": "Show Linkshell Log",
-    "translation": "Mostra Chat Linkshell"
+    "translation": "Mostra Chat Fonosfera"
   },
   "73": {
     "original": "Activate Linkshell",
-    "translation": "Attiva Linkshell"
+    "translation": "Attiva Fonosfera"
   },
   "74": {
     "original": "Disband Linkshell",
-    "translation": "Sciogli Linkshell"
+    "translation": "Sciogli Fonosfera"
   },
   "75": {
     "original": "Accept Linkshell Invite",
-    "translation": "Accetta Invito Linkshell"
+    "translation": "Accetta Invito a Fonosfera"
   },
   "76": {
     "original": "Decline Linkshell Invite",
-    "translation": "Rifiuta Invito Linkshell"
+    "translation": "Rifiuta Invito a Fonosfera"
   },
   "77": {
     "original": "Quit Linkshell",
-    "translation": "Abbandona Linkshell"
+    "translation": "Abbandona Fonosfera"
   },
   "78": {
     "original": "Promote to Linkshell Master",
-    "translation": "Promuovi a Maestro Linkshell"
+    "translation": "Promuovi a Maestro Fonosfera"
   },
   "79": {
     "original": "Promote to Linkshell Leader",
-    "translation": "Promuovi a Leader Linkshell"
+    "translation": "Promuovi a Leader Fonosfera"
   },
   "80": {
     "original": "Demote from Linkshell Leader",
-    "translation": "Degrada da Leader Linkshell"
+    "translation": "Degrada da Leader Fonosfera"
   },
   "81": {
     "original": "Kick from Linkshell",
-    "translation": "Espelli da Linkshell"
+    "translation": "Espelli dalla Fonosfera"
   },
   "82": {
     "original": "Deactivate Linkshell",
-    "translation": "Disattiva Linkshell"
+    "translation": "Disattiva Fonosfera"
   },
   "83": {
     "original": "Invite to Linkshell",
-    "translation": "Invita nella Linkshell"
+    "translation": "Invita nella Fonosfera"
   },
   "85": {
     "original": "Remove",
@@ -307,6 +307,10 @@
     "original": "Disband party?",
     "translation": "Vuoi sciogliere il gruppo?"
   },
+  "128": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
   "145": {
     "original": "Timers",
     "translation": "Promemoria Timer"
@@ -345,7 +349,7 @@
   },
   "172": {
     "original": "Linkshell Invite",
-    "translation": "Invito a Linkshell"
+    "translation": "Invito a Fonosfera"
   },
   "175": {
     "original": "Solo",
@@ -831,6 +835,10 @@
     "original": "What would you like to do?",
     "translation": "Cosa desideri fare?"
   },
+  "374": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
   "380": {
     "original": "Buyback",
     "translation": "Riacquista"
@@ -1070,5 +1078,757 @@
   "500": {
     "original": "Repair Level",
     "translation": "Livello di Riparazione"
+  },
+  "573": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "581": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "737": {
+    "original": "<switch(lnum3,1st,2nd,3rd,4th,5th,6th,7th,8th,9th,10th,11th,12th,13th,14th,15th,16th,17th,18th,19th,20th,21st,22nd,23rd,24th,25th,26th,27th,28th,29th,30th,31st,32nd)> Sun of the <switch(lnum2,1st Astral,1st Umbral,2nd Astral,2nd Umbral,3rd Astral,3rd Umbral,4th Astral,4th Umbral,5th Astral,5th Umbral,6th Astral,6th Umbral)> Moon",
+    "translation": "<switch(lnum3,1°,2°,3°,4°,5°,6°,7°,8°,9°,10°,11°,12°,13°,14°,15°,16°,17°,18°,19°,20°,21°,22°,23°,24°,25°,26°,27°,28°,29°,30°,31°,32°)> Sole della <switch(lnum2,1ª Luna Astrale,1ª Luna Umbrale,2ª Luna Astrale,2ª Luna Umbrale,3ª Luna Astrale,3ª Luna Umbrale,4ª Luna Astrale,4ª Luna Umbrale,5ª Luna Astrale,5ª Luna Umbrale,6ª Luna Astrale,6ª Luna Umbrale)>"
+  },
+  "784": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "785": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "786": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "787": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "925": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "941": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "1222": {
+    "original": "OK",
+    "translation": "OK"
+  },
+  "1223": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "1509": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "1685": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "1687": {
+    "original": "OK",
+    "translation": "OK"
+  },
+  "1688": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "1708": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "1834": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "2095": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "2177": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "2234": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "2240": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "2246": {
+    "original": "OK",
+    "translation": "OK"
+  },
+  "2247": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "2371": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "2455": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "2464": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "2544": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "2628": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "2657": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "2681": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "2698": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "2744": {
+    "original": "Installation Details",
+    "translation": "Dettagli Installazione"
+  },
+  "2750": {
+    "original": "Main Menu",
+    "translation": "Menu Principale"
+  },
+  "2796": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "2823": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "2983": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "3162": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "3312": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "3402": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "3412": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "3443": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "3483": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "3543": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "3763": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "3868": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "3888": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "4301": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "4311": {
+    "original": "OK",
+    "translation": "OK"
+  },
+  "4312": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "4469": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "4603": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "4775": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "4829": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "4855": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "4878": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "4983": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "5635": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "5644": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "5745": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "5764": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "5788": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "6297": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "6358": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "6376": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "6443": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "6444": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "6577": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "6709": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "6803": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "7049": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "7089": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "8503": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "8536": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "8539": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "8879": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "8880": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "9027": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "9037": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "9134": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "9269": {
+    "original": "OK",
+    "translation": "OK"
+  },
+  "9270": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "9489": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "9508": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "9521": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "9532": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "9547": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "9556": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "9865": {
+    "original": "OK",
+    "translation": "OK"
+  },
+  "9886": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "10107": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "10194": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "10197": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "10201": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "10208": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "10211": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "10215": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "10218": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "10708": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "10715": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "10719": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "10855": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "10873": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "10901": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "10965": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "10969": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "10979": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "10989": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "11075": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "11121": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "11223": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "11314": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "11428": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "11475": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "11505": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "11652": {
+    "original": "OK",
+    "translation": "OK"
+  },
+  "11674": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "11777": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "12129": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "12144": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "12531": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "12568": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "12610": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "12829": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "12840": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "12863": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "12888": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "12927": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "12932": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "12951": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "12978": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "13010": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "13123": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "13335": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "13526": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "13529": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "13731": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "13977": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "14190": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "14225": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "14328": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "14382": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "14435": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "14642": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "14729": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "14756": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "14768": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "14827": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "14940": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "14996": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "15077": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "15142": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "15150": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "15225": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "15237": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "15283": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "15294": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "15418": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "15475": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "15492": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "15613": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "15623": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "15672": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "15788": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "15845": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "15849": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "15864": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "15868": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "16011": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "16013": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "16044": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "16069": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "16083": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "16212": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "16674": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "16831": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "17079": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "17227": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "17344": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "17366": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "17398": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "17825": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "17857": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "17858": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "102217": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "102560": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "102573": {
+    "original": "OK",
+    "translation": "OK"
+  },
+  "102574": {
+    "original": "Cancel",
+    "translation": "Annulla"
+  },
+  "102577": {
+    "original": "Cancel",
+    "translation": "Annulla"
   }
 }
