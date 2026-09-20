@@ -114,12 +114,12 @@ NPCs - KEEP UNCHANGED (write once, no parentheses):
 ## G12 - ARR DUNGEONS, TRIALS & LOCATIONS (completion)
 G12.0 - CANON REGIONAL ZONES & CARDINAL SUBDIVISIONS (deterministic): for any zone or landmark named with a directional or geographic modifier ([Modifier] + [Zone]), render the modifier into Italian and keep the base zone name per its own rule, using the standard Italian (English) format at first occurrence.
 - La Noscea:
-  - Middle La Noscea -> Noscea Centrale (Middle La Noscea)
-  - Lower La Noscea -> Noscea Inferiore (Lower La Noscea)
-  - Upper La Noscea -> Noscea Superiore (Upper La Noscea)
-  - Western La Noscea -> Noscea Occidentale (Western La Noscea)
-  - Eastern La Noscea -> Noscea Orientale (Eastern La Noscea)
-  - Outer La Noscea -> Noscea Esterna (Outer La Noscea)
+  - Middle La Noscea -> La Noscea Centrale (Middle La Noscea)
+  - Lower La Noscea -> La Noscea Inferiore (Lower La Noscea)
+  - Upper La Noscea -> La Noscea Superiore (Upper La Noscea)
+  - Western La Noscea -> La Noscea Occidentale (Western La Noscea)
+  - Eastern La Noscea -> La Noscea Orientale (Eastern La Noscea)
+  - Outer La Noscea -> La Noscea Esterna (Outer La Noscea)
 - Thanalan:
   - Central Thanalan -> Thanalan Centrale (Central Thanalan)
   - Western Thanalan -> Thanalan Occidentale (Western Thanalan)
@@ -140,8 +140,8 @@ G12.2 - TRIALS / PRIMAL ARENAS: Il Braciere Infernale (The Bowl of Embers - Ifri
 G12.3 - ORGANIZATIONS / TERMS: Razziatori del Serpente (Serpent Reavers); Compagnia degli Eroi (Company of Heroes); Piccola Ala Mhigo (Little Ala Mhigo); il Sindacato (the Syndicate, Ul'dah).
 G12.4 - CITY GATES (first occurrence Italian (English)):
 - Limsa Lominsa:
-  - Zephyr Gate -> Porta Zefiro (Zephyr Gate) (lean apposition: Porta + name without article, connects Lower Decks to Middle La Noscea / Noscea Centrale)
-  - Tempest Gate -> Porta Tempesta (Tempest Gate) (lean apposition: Porta + name without article, connects Upper Decks to Lower La Noscea / Noscea Inferiore)
+  - Zephyr Gate -> Porta Zefiro (Zephyr Gate) (lean apposition: Porta + name without article, connects Lower Decks to Middle La Noscea / La Noscea Centrale)
+  - Tempest Gate -> Porta Tempesta (Tempest Gate) (lean apposition: Porta + name without article, connects Upper Decks to Lower La Noscea / La Noscea Inferiore)
 - Gridania:
   - Black Boar Gate -> Porta del Cinghiale Nero (Black Boar Gate) (Old Gridania to North Shroud / Velo Settentrionale)
   - Yellow Serpent Gate -> Porta della Vipera Gialla (Yellow Serpent Gate) (Old Gridania to landing/ferry)
@@ -311,7 +311,7 @@ Which unit and how to convert: 06 A2. Here, how they are WRITTEN.
 ## G29 - GOODS, DRINKS & FARE (the qualifier is a place or a people of Eorzea)
 Every drink, dish, fabric, tobacco or trade good is named BY ORIGIN, and the origin is Eorzean.
 - SHAPE: <good> + <Eorzean qualifier>, drawn from the G8 demonyms and the G9/G12-G26 places.
-- WORKED: 'rum di Vylbrand' · 'sidro noscean' · 'birra di Portobirra' · 'tè ishgardiano' · 'vino di Bacchus' · 'idromele ala mhigano' · 'tabacco thanalano'.
+- WORKED: 'rum di Vylbrand' · 'sidro nosceano' · 'birra di Portobirra' · 'tè ishgardiano' · 'vino di Bacchus' · 'idromele ala mhigano' · 'tabacco thanalano'.
 - A GOOD WITH NO ORIGIN IS STILL A GOOD: 'rum scuro', 'vino novello', 'birra chiara'. When no Eorzean origin is wanted, the good stands unqualified.
 - Same for flora and fauna in description: the setting's own species (aldcapra, dodo, marmotta di La Noscea, coblino) carry the local colour, per G25.
 

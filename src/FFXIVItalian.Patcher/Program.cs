@@ -481,7 +481,30 @@ if (customTalkReplacements.Count > 0 && Directory.Exists(sqPackPath))
     }
 }
 
-// 19. PATCH TRANSLATED QUESTS (se presenti in data/translations/quests/)
+// 19. PATCH STATUS (Effetti di stato, buff e debuff di combattimento)
+string statusJsonPath = TranslationPathResolver.FindFile(translationsDir, "status");
+var statusReplacements = TranslationFileReader.LoadTwoStringReplacements(statusJsonPath);
+if (statusReplacements.Count > 0 && Directory.Exists(sqPackPath))
+{
+    Console.WriteLine();
+    Console.WriteLine($"Caricate {statusReplacements.Count} traduzioni da '{Path.GetFileName(statusJsonPath)}'.");
+    var luminaStatus = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var originalStatusExd = luminaStatus.GetFile("exd/status_0_en.exd");
+    if (originalStatusExd != null)
+    {
+        byte[] patchedStatusExd = ExdPatcher.PatchTwoStringSheet(
+            originalStatusExd.Data,
+            fixedDataSize: 36,
+            string1ColumnOffset: 0,
+            string2ColumnOffset: 4,
+            statusReplacements);
+
+        fileMap["exd/status_0_en.exd"] = patchedStatusExd;
+        Console.WriteLine($"  * 'exd/status_0_en.exd' rigenerato ({patchedStatusExd.Length:N0} byte).");
+    }
+}
+
+// 20. PATCH TRANSLATED QUESTS (se presenti in data/translations/quests/)
 string questsDir = Path.Combine(translationsDir, "quests");
 if (Directory.Exists(questsDir) && Directory.Exists(sqPackPath))
 {
