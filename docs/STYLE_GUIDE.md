@@ -38,15 +38,6 @@ I nomi, i toponimi, i mostri e i titoli delle missioni non devono **mai** essere
 4. **Contesto Scenico e Geopolitico**:
    - Verificare chi partecipa alla scena, il tono drammatico o comico e l'atmosfera della fazione (es. il cinismo mercantilista di Ul'dah, la sacralità animista di Gridania, la parlata marinaresca e rozza di Limsa Lominsa).
 
-### Regola D: Preservazione delle Lettere Maiuscole
-Se una parola nel testo originale inizia con la lettera maiuscola, **deve tassativamente mantenere l'iniziale maiuscola anche nella traduzione italiana**.
-Questa regola si applica a:
-- Nomi propri e toponimi.
-- Termini tecnici e di sistema di gioco (*es. Weaponskill, Action, Trait, Duty, FATE, Status*).
-- Parametri, statistiche e risorse del personaggio (*es. Vitality -> Vitalità, Strength -> Forza, Mind -> Mente, Potency -> Potenza*).
-- Indicatori e barre di interfaccia (*es. Gauge -> Indicatore / Barra*).
-- Voci di menu, pulsanti e categorie dell'interfaccia utente (*es. Inventory -> Inventario, Settings -> Impostazioni*).
-
 ---
 
 ## 2. Risoluzione della Concordanza di Genere

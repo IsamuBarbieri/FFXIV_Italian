@@ -9,8 +9,12 @@ Il progetto estrae, gestisce, traduce e ricompila in formato binario nativo EXD 
 ## Stato del Progetto
 
 - **Righe Totali Censite ed Estratte**: **433.250 righe**
+- **Righe Totali Attualmente Tradotte**: **30.633 righe (7,1% del corpus di gioco)**
 - **Quest Narrative Organizzate per Espansione**: **5.532 missioni** (ARR, Heavensward, Stormblood, Shadowbringers, Endwalker, Dawntrail)
-- **Fogli al 100% Tradotti (16 fogli completi)**:
+- **Fogli al 100% Tradotti (19 fogli completi)**:
+  - `addon.json` (14.976/14.976 - 100%): Interfaccia grafica completa, finestre di sistema, HUD, opzioni, indicatori e notifiche di gioco.
+  - `placename.json` (5.302/5.302 - 100%): Toponimi completi, regioni, aree, insediamenti e landmark del mondo di gioco.
+  - `status.json` (4.791/4.791 - 100%): Tutti gli status alterati, buff, debuff e descrizioni degli effetti di combattimento.
   - `lobby.json` (975/975 - 100%): Schermata del titolo, login, selezione e creazione personaggio, opzioni client, gestione server e data center.
   - `customtalk.json` (952/952 - 100%): Tutte le opzioni e prompt di interazione dei menu NPC (dialoghi brevi, opzioni servitori, chocobo, scambi, ecc.; script ID preservati intatti).
   - `title.json` (885/885 - 100%): Tutti i titoli onorifici dei personaggi giocanti (declinati sia al maschile che al femminile).
@@ -159,7 +163,7 @@ dotnet test
    - Nessun tag di controllo SeString (`<hex:...>`, `<Sheet(...)>`, `<Highlight>`, ecc.) o carattere speciale Unicode (`\uE051`, `\uE052`, `\u203B`) deve essere rimosso o alterato.
 2. **Canone di Gioco (`07_Glossary.md`)**:
    - `Warrior of Light` -> *Guerriero della Luce*
-   - `Scions of the Seventh Dawn` -> *Sapienti della Settima Aurora*
+   - `Scions of the Seventh Dawn` -> *Figli della Settima Alba*
    - `Aetheryte` -> *Eterite* (invariabile al plurale)
    - `Gil` -> *Gil* (invariabile)
    - Unità di misura eorzeane invariabili (*yalm, fulm, malm, ilms*).

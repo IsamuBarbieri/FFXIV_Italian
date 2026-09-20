@@ -19,7 +19,7 @@ Devi rispettare tassativamente le seguenti REGOLE VINCOLANTI. Qualsiasi deviazio
   - VIETATO: "Baia del Vespro (Vesper Bay)", "Sabbie del Risveglio (The Waking Sands)".
   Il testo a schermo deve essere esclusivamente in italiano, naturale e dimensionato per i box grafici dell'interfaccia.
 - **CONCISIONE ED ELEGANZA**: I bottoni e i menu dell'interfaccia hanno limiti di spazio rigidi. Evita calchi prolissi; usa termini compatti ed espressivi (*es. "Inizia", "Annulla", "Ritorno", "Incarichi"*).
-- **PRESERVAZIONE DELLE MAIUSCOLE**: Se una parola nell'originale inizia con la lettera maiuscola, deve mantenere l'iniziale maiuscola anche nella traduzione italiana (es. nomi propri, termini di gioco, titoli, elementi di menu, statistiche e concetti chiave capitalizzati).
+- **CONVENZIONI E STILE LINGUISTICO**: Traduci in italiano naturale e scorrevole, coerente con le convenzioni grammaticali italiane e il contesto di gioco (usa la maiuscola solo per nomi propri, inizio frase, titoli o termini in cui abbia pieno senso e coerenza nella lingua italiana).
 
 ---
 
