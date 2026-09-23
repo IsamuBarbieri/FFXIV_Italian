@@ -45,23 +45,30 @@ Sono disponibili due percorsi operativi:
 
 #### Percorso B1: Architettura Parallela con Subagenti & Script Python (Consigliata)
 Permette la traduzione ad alta velocità di centinaia o migliaia di righe con validazione automatica 1:1 prima della scrittura nel master.
+Supporta **qualsiasi schema JSON** del progetto (standard `original`/`translation`, quest, e file multi-colonna come `textcommand.json`, `customtalk.json`, `item.json`).
 
 1. **Partizionamento in Batch Compatti**:
-   ```powershell
-   python scripts/split_untranslated.py data/translations/system/addon.json --batch-size 500 --out-dir scratch
-   ```
-   *Genera i file `scratch/input_batch_A.json`, `input_batch_B.json`, ecc. contenenti solo il dizionario compatto `{"id": "original"}`.*
+   - Per file standard (`addon.json`, `actiontransient.json`, `quests/`):
+     ```powershell
+     python scripts/split_untranslated.py data/translations/system/addon.json --batch-size 200 --out-dir scratch
+     ```
+   - Per file con colonne specifiche o testo ancora in inglese parziale (es. `textcommand.json` su `col_2`):
+     ```powershell
+     python scripts/split_untranslated.py data/translations/system/textcommand.json --field col_2 --detect-english --batch-size 100 --out-dir scratch
+     ```
+   *Genera i file `scratch/input_batch_A.json`, `input_batch_B.json`, ecc. e `scratch/batch_manifest.json`.*
 
 2. **Traduzione Parallela (Agente Principale + Subagenti)**:
-   - Invocare i subagenti tramite `invoke_subagent` per i lotti successivi (es. Batch B, C, D...) fornendo il contesto da [docs/PROMPT_COMPACT.md](file:///docs/PROMPT_COMPACT.md).
-   - L'agente principale traduce il Batch A in parallelo.
-   - Ogni subagente legge `input_batch_X.json` e scrive direttamente `scratch/output_batch_X.json` come dizionario `{"id": "traduzione"}`.
+   - Invocare i subagenti tramite `invoke_subagent` (o procedere in lotti consecutivi) fornendo il contesto da [docs/PROMPT_COMPACT.md](file:///docs/PROMPT_COMPACT.md).
+   - Ogni subagente/batch legge `input_batch_X.json` e scrive direttamente `scratch/output_batch_X.json` nel formato:
+     - Dizionario compatto `{"id": "traduzione"}` (per singoli campi/colonne).
+     - Oppure `{"id": {"campo": "traduzione"}}` (se multi-campo).
 
 3. **Validazione SeString 1:1 e Reintegrazione Atomica**:
    ```powershell
    python scripts/apply_all_translations.py data/translations/system/addon.json --batch-dir scratch
    ```
-   *Lo script valida al 100% l'integrità dei tag `<hex:...>` prima di toccare il file master. Se un tag non corrisponde esattamente, l'operazione viene bloccata senza corruzioni.*
+   *Lo script valida automaticamente l'integrità dei tag `<hex:...>`, i tag speciali e la chiusura delle parentesi angolari prima di toccare il file master. Se un tag non corrisponde esattamente, l'operazione viene bloccata senza corruzioni.*
 
 4. **Test e Ricompilazione Finale**:
    ```powershell
