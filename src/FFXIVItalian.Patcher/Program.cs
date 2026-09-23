@@ -505,6 +505,30 @@ if (statusReplacements.Count > 0 && Directory.Exists(sqPackPath))
 }
 
 // 20. PATCH TRANSLATED QUESTS (se presenti in data/translations/quests/)
+// 20. PATCH FATE (Eventi a tempo F.A.T.E. del mondo aperto)
+string fateJsonPath = TranslationPathResolver.FindFile(translationsDir, "fate");
+var fateReplacements = TranslationFileReader.LoadTwoStringReplacements(fateJsonPath);
+if (fateReplacements.Count > 0 && Directory.Exists(sqPackPath))
+{
+    Console.WriteLine();
+    Console.WriteLine($"Caricate {fateReplacements.Count} traduzioni da '{Path.GetFileName(fateJsonPath)}'.");
+    var luminaFate = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var originalFateExd = luminaFate.GetFile("exd/fate_0_en.exd");
+    if (originalFateExd != null)
+    {
+        byte[] patchedFateExd = ExdPatcher.PatchTwoStringSheet(
+            originalFateExd.Data,
+            fixedDataSize: 388,
+            string1ColumnOffset: 0,
+            string2ColumnOffset: 4,
+            fateReplacements);
+
+        fileMap["exd/fate_0_en.exd"] = patchedFateExd;
+        Console.WriteLine($"  * 'exd/fate_0_en.exd' rigenerato ({patchedFateExd.Length:N0} byte).");
+    }
+}
+
+// 21. PATCH TRANSLATED QUESTS (se presenti in data/translations/quests/)
 string questsDir = Path.Combine(translationsDir, "quests");
 if (Directory.Exists(questsDir) && Directory.Exists(sqPackPath))
 {
