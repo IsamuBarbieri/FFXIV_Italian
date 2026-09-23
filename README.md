@@ -9,12 +9,13 @@ Il progetto estrae, gestisce, traduce e ricompila in formato binario nativo EXD 
 ## Stato del Progetto
 
 - **Righe Totali Censite ed Estratte**: **433.250 righe**
-- **Righe Totali Attualmente Tradotte**: **30.633 righe (7,1% del corpus di gioco)**
+- **Righe Totali Attualmente Tradotte**: **32.347 righe (7,5% del corpus di gioco)**
 - **Quest Narrative Organizzate per Espansione**: **5.532 missioni** (ARR, Heavensward, Stormblood, Shadowbringers, Endwalker, Dawntrail)
-- **Fogli al 100% Tradotti (19 fogli completi)**:
+- **Fogli al 100% Tradotti (20 fogli completi)**:
   - `addon.json` (14.976/14.976 - 100%): Interfaccia grafica completa, finestre di sistema, HUD, opzioni, indicatori e notifiche di gioco.
   - `placename.json` (5.302/5.302 - 100%): Toponimi completi, regioni, aree, insediamenti e landmark del mondo di gioco.
   - `status.json` (4.791/4.791 - 100%): Tutti gli status alterati, buff, debuff e descrizioni degli effetti di combattimento.
+  - `fate.json` (1.714/1.714 - 100%): Tutti i nomi e le descrizioni degli eventi F.A.T.E. nel mondo di gioco.
   - `lobby.json` (975/975 - 100%): Schermata del titolo, login, selezione e creazione personaggio, opzioni client, gestione server e data center.
   - `customtalk.json` (952/952 - 100%): Tutte le opzioni e prompt di interazione dei menu NPC (dialoghi brevi, opzioni servitori, chocobo, scambi, ecc.; script ID preservati intatti).
   - `title.json` (885/885 - 100%): Tutti i titoli onorifici dei personaggi giocanti (declinati sia al maschile che al femminile).
@@ -33,8 +34,9 @@ Il progetto estrae, gestisce, traduce e ricompila in formato binario nativo EXD 
   - `maincommandcategory.json` (7/7 - 100%): Categorie del menu principale.
 - **Infrastruttura**:
   - Architettura a cartelle categorizzate (`system`, `world`, `combat`, `items`, `dialogue`, `quests`).
+  - Suite script Python per partizionamento, validazione SeString 1:1 e reintegrazione atomica (`scripts/`).
   - Pipeline di traduzione modulare a batch (`status`, `export-batch`, `import-batch`, `autofill`).
-  - Patcher binario con hot-deploy istantaneo nella cartella Penumbra attiva (19 file binari EXD registrati in `meta.json` e `default_mod.json`).
+  - Patcher binario con hot-deploy istantaneo nella cartella Penumbra attiva (20 file binari EXD registrati in `meta.json` e `default_mod.json`).
 
 ---
 
@@ -55,8 +57,13 @@ FFXIV_Italian/
 ├── docs/
 │   ├── ARCHITECTURE.md            # Architettura software, formati file e ciclo di vita patch
 │   ├── BATCH_TRANSLATION_GUIDE.md # Guida pratica alla traduzione a batch con AI o manuale
+│   ├── PROMPT_COMPACT.md          # Prompt condensato ultra-ottimizzato per token saving
 │   ├── STYLE_GUIDE.md             # Guida di stile linguistico, registri dei comprimari e formattazione
-│   └── TRANSLATION_PROMPT.md      # Metaprompt di sistema per LLM per preservare tag SeString
+│   ├── TRANSLATION_PROMPT.md      # Metaprompt di sistema per LLM per preservare tag SeString
+│   └── WORKFLOW_ANTIGRAVITY.md    # Protocollo operativo interno per sessioni con agente AI
+├── scripts/
+│   ├── split_untranslated.py      # Partizionamento file master in lotti compatti per subagenti
+│   └── apply_all_translations.py  # Validazione SeString 1:1 rigorosa e reintegrazione atomica
 ├── src/
 │   ├── FFXIVItalian.Core/         # Risolutore percorsi, modelli dati, validatore SeString e glossario
 │   ├── FFXIVItalian.Extractor/    # Estrattore Lumina 7.x, cruscotto avanzamento, batch manager
@@ -96,7 +103,7 @@ Per tradurre senza sprecare token e con la massima precisione:
    dotnet run --project src/FFXIVItalian.Extractor -- export-batch addon --limit 100
    ```
 2. **Tradurre il file generato in `data/batches/`**:
-   - Utilizzare le istruzioni di [docs/TRANSLATION_PROMPT.md](file:///docs/TRANSLATION_PROMPT.md) e il canone di [docs/STYLE_GUIDE.md](file:///docs/STYLE_GUIDE.md).
+   - Utilizzare le istruzioni di [docs/PROMPT_COMPACT.md](file:///docs/PROMPT_COMPACT.md) (o [docs/TRANSLATION_PROMPT.md](file:///docs/TRANSLATION_PROMPT.md)) e il canone di [docs/STYLE_GUIDE.md](file:///docs/STYLE_GUIDE.md).
    - Preservare inalterati tutti i codici esadecimali `<hex:...>` e i tag di formattazione SeString.
 3. **Importare il batch tradotto nel foglio master**:
    ```powershell
@@ -107,7 +114,7 @@ Per tradurre senza sprecare token e con la massima precisione:
    dotnet run --project src/FFXIVItalian.Extractor -- autofill
    ```
 
-Per la guida completa al workflow consulta [docs/BATCH_TRANSLATION_GUIDE.md](file:///docs/BATCH_TRANSLATION_GUIDE.md).
+Per l'architettura parallela avanzata con subagenti e la guida rapida token-zero, consulta [docs/WORKFLOW_ANTIGRAVITY.md](file:///docs/WORKFLOW_ANTIGRAVITY.md) e [docs/BATCH_TRANSLATION_GUIDE.md](file:///docs/BATCH_TRANSLATION_GUIDE.md).
 
 ---
 

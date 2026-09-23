@@ -179,11 +179,14 @@ flowchart TD
 
 ---
 
-### Template di Script Riutilizzabili
+### Script Riutilizzabili (Disponibili in `scripts/`)
 
-#### A. Script di Partizionamento (`split_untranslated.py`)
-```python
-# -*- coding: utf-8 -*-
+Gli script per la gestione automatizzata dei lotti sono pronti all'uso nella cartella `scripts/` del repository.
+
+#### A. Script di Partizionamento (`scripts/split_untranslated.py`)
+```bash
+python scripts/split_untranslated.py <master_json> --batch-size 500 --out-dir scratch
+```
 import json, os, sys
 
 def split_file(json_path, batch_size=600, out_dir="scratch"):
@@ -225,9 +228,10 @@ Regole vincolanti:
 Scrivi solo {OUTPUT_PATH} e notifica al completamento con il totale delle voci tradotte.
 ```
 
-#### C. Script di Aggregazione e Validazione (`apply_all_translations.py`)
-```python
-# -*- coding: utf-8 -*-
+#### C. Script di Aggregazione e Validazione (`scripts/apply_all_translations.py`)
+```bash
+python scripts/apply_all_translations.py <master_json> --batch-dir scratch
+```
 import json, os, re, sys
 
 def extract_tags(s):
