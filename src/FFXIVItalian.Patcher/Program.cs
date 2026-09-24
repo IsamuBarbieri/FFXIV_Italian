@@ -504,7 +504,6 @@ if (statusReplacements.Count > 0 && Directory.Exists(sqPackPath))
     }
 }
 
-// 20. PATCH TRANSLATED QUESTS (se presenti in data/translations/quests/)
 // 20. PATCH FATE (Eventi a tempo F.A.T.E. del mondo aperto)
 string fateJsonPath = TranslationPathResolver.FindFile(translationsDir, "fate");
 var fateReplacements = TranslationFileReader.LoadTwoStringReplacements(fateJsonPath);
@@ -528,7 +527,30 @@ if (fateReplacements.Count > 0 && Directory.Exists(sqPackPath))
     }
 }
 
-// 21. PATCH TRANSLATED QUESTS (se presenti in data/translations/quests/)
+// 21. PATCH ACHIEVEMENT (Obiettivi e trofei del personaggio)
+string achievementJsonPath = TranslationPathResolver.FindFile(translationsDir, "achievement");
+var achievementReplacements = TranslationFileReader.LoadTwoStringReplacements(achievementJsonPath);
+if (achievementReplacements.Count > 0 && Directory.Exists(sqPackPath))
+{
+    Console.WriteLine();
+    Console.WriteLine($"Caricate {achievementReplacements.Count} traduzioni da '{Path.GetFileName(achievementJsonPath)}'.");
+    var luminaAchievement = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var originalAchievementExd = luminaAchievement.GetFile("exd/achievement_0_en.exd");
+    if (originalAchievementExd != null)
+    {
+        byte[] patchedAchievementExd = ExdPatcher.PatchTwoStringSheet(
+            originalAchievementExd.Data,
+            fixedDataSize: 68,
+            string1ColumnOffset: 0,
+            string2ColumnOffset: 4,
+            achievementReplacements);
+
+        fileMap["exd/achievement_0_en.exd"] = patchedAchievementExd;
+        Console.WriteLine($"  * 'exd/achievement_0_en.exd' rigenerato ({patchedAchievementExd.Length:N0} byte).");
+    }
+}
+
+// 22. PATCH TRANSLATED QUESTS (se presenti in data/translations/quests/)
 string questsDir = Path.Combine(translationsDir, "quests");
 if (Directory.Exists(questsDir) && Directory.Exists(sqPackPath))
 {
@@ -663,7 +685,7 @@ if (Directory.Exists(penumbraModDir))
 Console.WriteLine();
 Console.WriteLine("==================================================");
 Console.WriteLine("REBUILD COMPLETATO CON SUCCESSO!");
-Console.WriteLine("Tutti i 9 fogli EXD e i metadati Penumbra v4 sono pronti.");
+Console.WriteLine($"Tutti i {fileMap.Count(f => f.Key.EndsWith(".exd", StringComparison.OrdinalIgnoreCase))} fogli EXD e i metadati Penumbra v4 sono pronti.");
 Console.WriteLine("IMPORTANTE: Riavvia il gioco FINAL FANTASY XIV per applicare i fogli EXD.");
 Console.WriteLine("(I file EXD vengono memorizzati nella RAM del processo FFXIV al caricamento)");
 Console.WriteLine("==================================================");
