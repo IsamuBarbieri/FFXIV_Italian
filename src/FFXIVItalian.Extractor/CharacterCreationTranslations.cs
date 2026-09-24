@@ -312,7 +312,7 @@ public static class CharacterCreationTranslations
         SetSingle(102, "Clan", "Clan");
         SetSingle(103, "Gender", "Genere");
         SetSingle(104, "Appearance", "Aspetto");
-        SetSingle(105, "Nameday", "Data di Nascita");
+        SetSingle(105, "Nameday", "Genetliaco");
         SetSingle(106, "Guardian", "Divinità Patrona");
         SetSingle(107, "Class", "Classe");
 
