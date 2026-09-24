@@ -180,6 +180,10 @@ dotnet test
 
 ---
 
+## Come Contribuire
+Se volete partecipare a questo ambizioso progetto potete farlo in varie maniere. Potete revisionare le traduzioni se trovate incongruenze o frasi sbagliate, convertire voi stessi pezzi mancanti con l'AI, oppure potete fare una [donazione](https://ko-fi.com/xeladon) per aiutarmi a sostenere i costi di traduzione. Qualsiasi forma di supporto é bena accetta, anche solo far conoscere il progetto a piú persone possibili. 
+Grazie.
+
 ## Licenza e Diritti
 Questo progetto è un'iniziativa fan-made amatoriale della community italiana. Final Fantasy XIV e tutti i relativi asset, marchi e testi sono proprietà intellettuale e copyright di **SQUARE ENIX CO., LTD.**
 Nessun file proprietario protetto da copyright viene ridistribuito nel repository.
