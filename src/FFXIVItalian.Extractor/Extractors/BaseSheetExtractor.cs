@@ -12,6 +12,8 @@ namespace FFXIVItalian.Extractor.Extractors;
 
 public abstract class BaseSheetExtractor : ISheetExtractor
 {
+    private static readonly Encoding StrictUtf8 = new UTF8Encoding(false, true);
+
     public abstract string SheetName { get; }
     public abstract string DefaultJsonFileName { get; }
     public abstract string Description { get; }
@@ -192,7 +194,21 @@ public abstract class BaseSheetExtractor : ISheetExtractor
             {
                 i++;
             }
-            sb.Append(Encoding.UTF8.GetString(bytes.Slice(textStart, i - textStart)));
+            var textBytes = bytes.Slice(textStart, i - textStart);
+            if (textBytes.IndexOfAny((byte)0x01, (byte)0x03, (byte)0x0E) >= 0)
+            {
+                sb.Append($"<hex:{Convert.ToHexString(textBytes)}>");
+                continue;
+            }
+
+            try
+            {
+                sb.Append(StrictUtf8.GetString(textBytes));
+            }
+            catch (DecoderFallbackException)
+            {
+                sb.Append($"<hex:{Convert.ToHexString(textBytes)}>");
+            }
         }
 
         return sb.ToString();
