@@ -11,7 +11,7 @@ Il progetto estrae, gestisce, traduce e ricompila in formato binario nativo EXD 
 - **Righe Totali Censite ed Estratte**: **433.250 righe**
 - **Righe Totali Attualmente Tradotte**: **39.755 righe (9,2% del corpus di gioco)**
 - **Quest Narrative Organizzate per Espansione**: **5.532 missioni** (ARR, Heavensward, Stormblood, Shadowbringers, Endwalker, Dawntrail)
-- **Fogli al 100% Tradotti (21 fogli completi)**:
+- **Fogli al 100% Tradotti (22 fogli completi)**:
   - `addon.json` (14.976/14.976 - 100%): Interfaccia grafica completa, finestre di sistema, HUD, opzioni, indicatori e notifiche di gioco.
   - `placename.json` (5.302/5.302 - 100%): Toponimi completi, regioni, aree, insediamenti e landmark del mondo di gioco.
   - `status.json` (4.791/4.791 - 100%): Tutti gli status alterati, buff, debuff e descrizioni degli effetti di combattimento.
@@ -29,6 +29,7 @@ Il progetto estrae, gestisce, traduce e ricompila in formato binario nativo EXD 
   - `itemuicategory.json` (113/113 - 100%): Tutte le categorie dell'inventario e dell'armeria.
   - `maincommand.json` (99/99 - 100%): Menu comandi principali di gioco.
   - `error.json` (63/63 - 100%): Messaggi di errore di sistema e connettività.
+  - `logmessage.json` (8.615/8.615 - 100%): Messaggi di sistema, notifiche e log di gioco.
   - `classjob.json` (44/44 - 100%): Tutte le classi e i job di combattimento, gathering e crafting.
   - `howtocategory.json` (16/16 - 100%): Categorie delle guide e dei tutorial.
   - `tribe.json` (16/16 - 100%): Tutti i clan e tribù dei personaggi.
@@ -38,7 +39,7 @@ Il progetto estrae, gestisce, traduce e ricompila in formato binario nativo EXD 
   - Architettura a cartelle categorizzate (`system`, `world`, `combat`, `items`, `dialogue`, `quests`).
   - Suite script Python per partizionamento, validazione SeString 1:1 e reintegrazione atomica (`scripts/`).
   - Pipeline di traduzione modulare a batch (`status`, `export-batch`, `import-batch`, `autofill`).
-  - Patcher binario con hot-deploy istantaneo nella cartella Penumbra attiva (21 file binari EXD registrati in `meta.json` e `default_mod.json`).
+  - Patcher binario con hot-deploy istantaneo nella cartella Penumbra attiva (22 file binari EXD registrati in `meta.json` e `default_mod.json`).
 
 ---
 

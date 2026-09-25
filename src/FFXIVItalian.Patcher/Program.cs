@@ -370,23 +370,68 @@ if (howToReplacements.Count > 0 && Directory.Exists(sqPackPath))
 
 // 14. PATCH TEXTCOMMAND (Spiegazioni e manuali d'uso dei comandi chat slash)
 string textCmdJsonPath = TranslationPathResolver.FindFile(translationsDir, "textcommand");
-var textCmdReplacements = TranslationFileReader.LoadTextCommandReplacements(textCmdJsonPath);
-if (textCmdReplacements.Count > 0 && Directory.Exists(sqPackPath))
+if (Directory.Exists(sqPackPath))
+{
+    var luminaTextCmd = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var textCmdExh = luminaTextCmd.GetFile("exd/textcommand.exh");
+    if (textCmdExh != null)
+    {
+        ushort fixedDataSize = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(textCmdExh.Data.AsSpan(0x06, 2));
+        ushort columnCount = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(textCmdExh.Data.AsSpan(0x08, 2));
+        var stringColumnOffsets = new List<int>();
+        for (int column = 0; column < columnCount; column++)
+        {
+            int columnPos = 0x20 + column * 4;
+            ushort type = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(textCmdExh.Data.AsSpan(columnPos, 2));
+            ushort offset = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(textCmdExh.Data.AsSpan(columnPos + 2, 2));
+            if (type == 0)
+                stringColumnOffsets.Add(offset);
+        }
+
+        if (stringColumnOffsets.Count < 3)
+            throw new InvalidDataException("Il foglio TextCommand non contiene la colonna stringa col_2 attesa.");
+
+        var textCmdReplacements = TranslationFileReader.LoadTextCommandReplacements(textCmdJsonPath, stringColumnOffsets[2]);
+        if (textCmdReplacements.Count > 0)
+        {
+            Console.WriteLine();
+            Console.WriteLine($"Caricate {textCmdReplacements.Count} traduzioni da '{Path.GetFileName(textCmdJsonPath)}'.");
+            var originalTextCmdExd = luminaTextCmd.GetFile("exd/textcommand_0_en.exd");
+            if (originalTextCmdExd != null)
+            {
+                byte[] patchedTextCmdExd = ExdPatcher.PatchMultiColumnStringSheet(
+                    originalTextCmdExd.Data,
+                    fixedDataSize,
+                    stringColumnOffsets,
+                    textCmdReplacements);
+
+                fileMap["exd/textcommand_0_en.exd"] = patchedTextCmdExd;
+                Console.WriteLine($"  * 'exd/textcommand_0_en.exd' rigenerato ({patchedTextCmdExd.Length:N0} byte).");
+            }
+        }
+
+    }
+}
+
+// PATCH LOGMESSAGE (Messaggi di sistema e notifiche)
+string logMessageJsonPath = TranslationPathResolver.FindFile(translationsDir, "logmessage");
+var logMessageReplacements = TranslationFileReader.LoadReplacements(logMessageJsonPath);
+if (logMessageReplacements.Count > 0 && Directory.Exists(sqPackPath))
 {
     Console.WriteLine();
-    Console.WriteLine($"Caricate {textCmdReplacements.Count} traduzioni da '{Path.GetFileName(textCmdJsonPath)}'.");
-    var luminaTextCmd = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
-    var originalTextCmdExd = luminaTextCmd.GetFile("exd/textcommand_0_en.exd");
-    if (originalTextCmdExd != null)
+    Console.WriteLine($"Caricate {logMessageReplacements.Count} traduzioni da '{Path.GetFileName(logMessageJsonPath)}'.");
+    var luminaLogMessage = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var originalLogMessageExd = luminaLogMessage.GetFile("exd/logmessage_0_en.exd");
+    if (originalLogMessageExd != null)
     {
-        byte[] patchedTextCmdExd = ExdPatcher.PatchMultiColumnStringSheet(
-            originalTextCmdExd.Data,
-            fixedDataSize: 32,
-            stringColumnOffsets: [0, 4, 8, 12, 16],
-            textCmdReplacements);
+        byte[] patchedLogMessageExd = ExdPatcher.PatchSimpleStringSheet(
+            originalLogMessageExd.Data,
+            fixedDataSize: 4,
+            stringColumnOffset: 0,
+            logMessageReplacements);
 
-        fileMap["exd/textcommand_0_en.exd"] = patchedTextCmdExd;
-        Console.WriteLine($"  * 'exd/textcommand_0_en.exd' rigenerato ({patchedTextCmdExd.Length:N0} byte).");
+        fileMap["exd/logmessage_0_en.exd"] = patchedLogMessageExd;
+        Console.WriteLine($"  * 'exd/logmessage_0_en.exd' rigenerato ({patchedLogMessageExd.Length:N0} byte).");
     }
 }
 

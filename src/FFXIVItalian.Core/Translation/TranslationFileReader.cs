@@ -212,7 +212,7 @@ public static class TranslationFileReader
         return result;
     }
 
-    public static Dictionary<uint, IReadOnlyDictionary<int, string>> LoadTextCommandReplacements(string jsonFilePath)
+    public static Dictionary<uint, IReadOnlyDictionary<int, string>> LoadTextCommandReplacements(string jsonFilePath, int col2Offset)
     {
         var result = new Dictionary<uint, IReadOnlyDictionary<int, string>>();
 
@@ -230,11 +230,11 @@ public static class TranslationFileReader
             {
                 var colMap = new Dictionary<int, string>();
 
-                // Col 8 is col_2 in TextCommand EXD (usage / help description)
+                // Map the third string field (col_2) to its actual EXH offset.
                 if (property.Value.TryGetProperty("translation_col_2", out var tCol2) &&
                     tCol2.ValueKind == JsonValueKind.String && !string.IsNullOrWhiteSpace(tCol2.GetString()))
                 {
-                    colMap[8] = tCol2.GetString()!;
+                    colMap[col2Offset] = tCol2.GetString()!;
                 }
 
                 if (colMap.Count > 0)
