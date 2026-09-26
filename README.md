@@ -19,7 +19,7 @@ La localizzazione comprende anche alcune texture dell'interfaccia: le scritte in
   - `status.json` (4.791/4.791 - 100%): Tutti gli status alterati, buff, debuff e descrizioni degli effetti di combattimento.
   - `achievement.json` (4.003/4.003 - 100%): Tutti i nomi, descrizioni e requisiti degli obiettivi e trofei del personaggio.
   - `actiontransient.json` (3.406/3.406 - 100%): Tutte le descrizioni dettagliate, effetti e parametri nei tooltip delle abilità.
-  - `fate.json` (1.714/1.714 - 100%): Tutti i nomi e le descrizioni degli eventi F.A.T.E. nel mondo di gioco.
+  - `fate.json` (1.714/1.714 - 100%): Tutti i nomi, le descrizioni e gli obiettivi degli eventi F.A.T.E.; tradotti anche i testi incorporati nei payload SeString esadecimali, preservandone la struttura.
   - `lobby.json` (975/975 - 100%): Schermata del titolo, login, selezione e creazione personaggio, opzioni client, gestione server e data center.
   - `customtalk.json` (952/952 - 100%): Tutte le opzioni e prompt di interazione dei menu NPC (dialoghi brevi, opzioni servitori, chocobo, scambi, ecc.; script ID preservati intatti).
   - `title.json` (885/885 - 100%): Tutti i titoli onorifici dei personaggi giocanti (declinati sia al maschile che al femminile).
@@ -37,6 +37,7 @@ La localizzazione comprende anche alcune texture dell'interfaccia: le scritte in
   - `tribe.json` (16/16 - 100%): Tutti i clan e tribù dei personaggi.
   - `race.json` (8/8 - 100%): Tutte le razze giocabili di Eorzea.
   - `maincommandcategory.json` (7/7 - 100%): Categorie del menu principale.
+- **Gradi delle Grandi Compagnie**: completate le descrizioni maschili e femminili dei 19 gradi per ciascuna compagnia (`gcrankgridania*`, `gcranklimsa*`, `gcrankuldah*`).
 - **Infrastruttura**:
   - Architettura a cartelle categorizzate (`system`, `world`, `combat`, `items`, `dialogue`, `quests`).
   - Suite script Python per partizionamento, validazione SeString 1:1 e reintegrazione atomica (`scripts/`).
