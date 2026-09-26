@@ -31,3 +31,15 @@ Puoi esportare una sola texture aggiungendo `-Ids 126011`.
 Le anteprime vengono salvate in `tools/clan_texture_previews`: il PNG semplice mantiene la trasparenza, mentre `_preview.png` mostra la texture su uno sfondo blu simile al pannello di gioco.
 
 `leftInset` è espresso in pixel HR1 e regola il margine interno a sinistra.
+
+## Maiuscole delle traduzioni
+
+Lo script controlla i fogli completati secondo `dotnet run --project src/FFXIVItalian.Extractor -- status`.
+Preserva articoli minuscoli, possessivi inglesi e maiuscole interne dei nomi con apostrofo.
+Mostra prima l'anteprima; aggiungi `--apply` per salvare le correzioni:
+
+```powershell
+python .\tools\fix_translation_capitalization.py
+python .\tools\fix_translation_capitalization.py --apply
+python .\tools\fix_translation_capitalization.py --self-test
+```
