@@ -8,8 +8,13 @@ La fonte canonica di riferimento terminologico è costituita da `data/glossary/0
 
 ## 1. Principi di Base
 
+### Regola 0: Maiuscole e minuscole
+Riproduci nella traduzione le maiuscole iniziali presenti nell'originale, parola per parola. Mantieni minuscoli gli articoli italiani interni alla frase, comprese le forme articolate (*del, dello, della, dei, degli, delle*); la prima parola resta maiuscola quando anche la stringa originale inizia con una maiuscola. Esempio: *Order of the Twin Adder* → **Ordine della Vipera Gemella**.
+
 ### Regola A: Adattamento per Videogioco (Niente Doppioni a Schermo)
 Nel client di gioco non si usa la notazione `Italiano (Inglese)` (*es. non scriviamo "Baia del Vespro (Vesper Bay)" nei dialoghi o nei menu*). Il testo deve essere **esclusivamente in italiano**, scorrevole, naturale e perfettamente dimensionato per i box dell'interfaccia.
+
+Nei fogli dei gradi delle Grandi Compagnie usa un riferimento breve alla fazione (*Capitano della Fiamma*, *Sottotenente della Tempesta*, *Sottomaresciallo del Serpente*). Traduci anche `col_2` con il nome comune del grado in minuscolo (*capitano*, *sergente*); scegli la forma femminile nel foglio dedicato quando il grado la prevede.
 
 ### Regola B: Trasparenza Semantica dei Nomi (G1)
 1. **Nomi Oparchi o Culturali (INVARIATI)**:
@@ -80,4 +85,3 @@ Il database `ENpcBase` contiene il flag binario del genere (`0 = Maschio, 1 = Fe
 3. **Mal d'Etere (G7)**: Il debuff da teletrasporto/resurrezione è **Mal d'Etere** (MAI *"Malattia Eterica"*).
 4. **Unità di Misura (G28)**: *yalm*, *fulm*, *ilm*, *malm*, *ponze*, *onze*, *tonze* sono **invariabili** e **non vanno mai tradotte** in metri o iarde (vietato *"iarde"* o *"yalms"*).
 5. **Abilità e Magie (G24)**: I nomi iconici di mosse e incantesimi di franchise rimangono invariati (*Fire, Blizzard, Cure, Limit Break*); **le descrizioni, gli effetti e i tooltip vengono interamente tradotti in italiano**.
-

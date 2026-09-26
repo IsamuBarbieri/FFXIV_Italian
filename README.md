@@ -4,6 +4,8 @@ Pipeline ingegneristica e suite di strumenti per la localizzazione italiana prof
 
 Il progetto estrae, gestisce, traduce e ricompila in formato binario nativo EXD l'intero corpus testuale del gioco (oltre 433.000 righe e 5.500 quest) senza toccare i file originali `.dat` di Square Enix.
 
+La localizzazione comprende anche alcune texture dell'interfaccia: le scritte incorporate nelle immagini vengono adattate in italiano per rendere coerenti elementi visivi e testi di gioco. Le risorse sono organizzate in `data/assets/` e distribuite tramite Penumbra insieme alla mod.
+
 ---
 
 ## Stato del Progetto

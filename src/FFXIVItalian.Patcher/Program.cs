@@ -105,6 +105,108 @@ if (Directory.Exists(sqPackPath))
                 Console.WriteLine($"  * 'exd/addon_0_en.exd' rigenerato ({patchedAddonExd.Length:N0} byte).");
             }
         }
+
+        // 2b. PATCH GRAND COMPANY (nomi risolti dal macro GrandCompany)
+        string grandCompanyJsonPath = TranslationPathResolver.FindFile(translationsDir, "grandcompany");
+        var grandCompanyReplacements = TranslationFileReader.LoadReplacements(grandCompanyJsonPath);
+        if (grandCompanyReplacements.Count > 0)
+        {
+            var originalGrandCompanyExd = lumina.GetFile("exd/grandcompany_0_en.exd");
+            if (originalGrandCompanyExd != null)
+            {
+                var grandCompanyColumns = grandCompanyReplacements.ToDictionary(
+                    kvp => kvp.Key,
+                    kvp => (IReadOnlyDictionary<int, string>)new Dictionary<int, string> { [0] = kvp.Value });
+                byte[] patchedGrandCompanyExd = ExdPatcher.PatchMultiColumnStringSheet(
+                    originalGrandCompanyExd.Data,
+                    fixedDataSize: 24,
+                    stringColumnOffsets: [0, 4, 8],
+                    grandCompanyColumns);
+                fileMap["exd/grandcompany_0_en.exd"] = patchedGrandCompanyExd;
+                Console.WriteLine($"  * 'exd/grandcompany_0_en.exd' rigenerato ({patchedGrandCompanyExd.Length:N0} byte).");
+            }
+        }
+
+        // 2c. PATCH FC REPUTATION (gradi risolti dal macro FCReputation)
+        string fcReputationJsonPath = TranslationPathResolver.FindFile(translationsDir, "fcreputation");
+        var fcReputationReplacements = TranslationFileReader.LoadReplacements(fcReputationJsonPath);
+        if (fcReputationReplacements.Count > 0)
+        {
+            var originalFcReputationExd = lumina.GetFile("exd/fcreputation_0_en.exd");
+            if (originalFcReputationExd != null)
+            {
+                var fcReputationRows = fcReputationReplacements.ToDictionary(
+                    kvp => kvp.Key,
+                    kvp => (IReadOnlyDictionary<int, string>)new Dictionary<int, string> { [0] = kvp.Value });
+                byte[] patchedFcReputationExd = ExdPatcher.PatchMultiColumnStringSheet(
+                    originalFcReputationExd.Data,
+                    fixedDataSize: 20,
+                    stringColumnOffsets: [0],
+                    fcReputationRows);
+                fileMap["exd/fcreputation_0_en.exd"] = patchedFcReputationExd;
+                Console.WriteLine($"  * 'exd/fcreputation_0_en.exd' rigenerato ({patchedFcReputationExd.Length:N0} byte).");
+            }
+        }
+
+        // 2d. PATCH BEAST REPUTATION RANK (gradi delle società alleate)
+        string beastReputationJsonPath = TranslationPathResolver.FindFile(translationsDir, "beastreputationrank");
+        var beastReputationReplacements = TranslationFileReader.LoadTwoStringReplacements(beastReputationJsonPath);
+        if (beastReputationReplacements.Count > 0)
+        {
+            var originalBeastReputationExd = lumina.GetFile("exd/beastreputationrank_0_en.exd");
+            if (originalBeastReputationExd != null)
+            {
+                var beastReputationRows = beastReputationReplacements.ToDictionary(
+                    kvp => kvp.Key,
+                    kvp => (kvp.Value.Name, kvp.Value.Description));
+                byte[] patchedBeastReputationExd = ExdPatcher.PatchTwoStringSheet(
+                    originalBeastReputationExd.Data,
+                    fixedDataSize: 16,
+                    string1ColumnOffset: 0,
+                    string2ColumnOffset: 4,
+                    beastReputationRows);
+                fileMap["exd/beastreputationrank_0_en.exd"] = patchedBeastReputationExd;
+                Console.WriteLine($"  * 'exd/beastreputationrank_0_en.exd' rigenerato ({patchedBeastReputationExd.Length:N0} byte).");
+            }
+        }
+
+        // 2e. PATCH GC RANK TEXT (i titoli sono suddivisi per compagnia e genere)
+        string[] gcRankSheets =
+        [
+            "gcranklimsamaletext", "gcranklimsafemaletext",
+            "gcrankgridaniamaletext", "gcrankgridaniafemaletext",
+            "gcrankuldahmaletext", "gcrankuldahfemaletext"
+        ];
+        foreach (string sheet in gcRankSheets)
+        {
+            string rankJsonPath = TranslationPathResolver.FindFile(translationsDir, sheet);
+            var replacements = TranslationFileReader.LoadReplacements(rankJsonPath);
+            var rankNouns = TranslationFileReader.LoadTextCommandReplacements(rankJsonPath, 8);
+            if (replacements.Count == 0 && rankNouns.Count == 0) continue;
+
+            string exdPath = $"exd/{sheet}_0_en.exd";
+            var originalExd = lumina.GetFile(exdPath);
+            if (originalExd == null) continue;
+
+            var columns = replacements.ToDictionary(
+                kvp => kvp.Key,
+                kvp => (IReadOnlyDictionary<int, string>)new Dictionary<int, string> { [0] = kvp.Value });
+            foreach (var (rowId, nounColumns) in rankNouns)
+            {
+                var row = columns.TryGetValue(rowId, out var existing)
+                    ? new Dictionary<int, string>(existing)
+                    : new Dictionary<int, string>();
+                row[8] = nounColumns[8];
+                columns[rowId] = row;
+            }
+            byte[] patchedExd = ExdPatcher.PatchMultiColumnStringSheet(
+                originalExd.Data,
+                fixedDataSize: 24,
+                stringColumnOffsets: [0, 4, 8, 12],
+                columns);
+            fileMap[exdPath] = patchedExd;
+            Console.WriteLine($"  * '{exdPath}' rigenerato ({patchedExd.Length:N0} byte).");
+        }
         // 3. PATCH MAINCOMMANDCATEGORY (Le macro-categorie del menu principale)
         string catJsonPath = TranslationPathResolver.FindFile(translationsDir, "maincommandcategory");
         var catReplacements = TranslationFileReader.LoadReplacements(catJsonPath);
@@ -458,6 +560,28 @@ if (traitReplacements.Count > 0 && Directory.Exists(sqPackPath))
     }
 }
 
+// PATCH ACTIONTRANSIENT (Descrizioni delle azioni nei tooltip)
+string actionTransientJsonPath = TranslationPathResolver.FindFile(translationsDir, "actiontransient");
+var actionTransientReplacements = TranslationFileReader.LoadReplacements(actionTransientJsonPath);
+if (actionTransientReplacements.Count > 0 && Directory.Exists(sqPackPath))
+{
+    Console.WriteLine();
+    Console.WriteLine($"Caricate {actionTransientReplacements.Count} traduzioni da '{Path.GetFileName(actionTransientJsonPath)}'.");
+    var luminaActionTransient = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var originalActionTransientExd = luminaActionTransient.GetFile("exd/actiontransient_0_en.exd");
+    if (originalActionTransientExd != null)
+    {
+        byte[] patchedActionTransientExd = ExdPatcher.PatchSimpleStringSheet(
+            originalActionTransientExd.Data,
+            fixedDataSize: 4,
+            stringColumnOffset: 0,
+            actionTransientReplacements);
+
+        fileMap["exd/actiontransient_0_en.exd"] = patchedActionTransientExd;
+        Console.WriteLine($"  * 'exd/actiontransient_0_en.exd' rigenerato ({patchedActionTransientExd.Length:N0} byte).");
+    }
+}
+
 // 16. PATCH TRAITTRANSIENT (Descrizioni e tooltip dei tratti passivi)
 string traitTransientJsonPath = TranslationPathResolver.FindFile(translationsDir, "traittransient");
 var traitTransientReplacements = TranslationFileReader.LoadReplacements(traitTransientJsonPath);
@@ -665,7 +789,7 @@ if (Directory.Exists(questsDir) && Directory.Exists(sqPackPath))
 string assetsDir = Path.Combine(projectRoot, "data", "assets");
 if (Directory.Exists(assetsDir))
 {
-    var assetFiles = Directory.EnumerateFiles(assetsDir, "*.tex", SearchOption.AllDirectories).ToArray();
+    var assetFiles = Directory.EnumerateFiles(assetsDir, "*", SearchOption.AllDirectories).ToArray();
     foreach (var assetPath in assetFiles)
     {
         string gamePath = Path.GetRelativePath(assetsDir, assetPath).Replace(Path.DirectorySeparatorChar, '/');
@@ -675,7 +799,7 @@ if (Directory.Exists(assetsDir))
     if (assetFiles.Length > 0)
     {
         Console.WriteLine();
-        Console.WriteLine($"Caricate {assetFiles.Length} texture localizzate da '{assetsDir}'.");
+        Console.WriteLine($"Caricate {assetFiles.Length} risorse UI localizzate da '{assetsDir}'.");
     }
 }
 

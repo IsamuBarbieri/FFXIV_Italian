@@ -613,7 +613,7 @@
     "name": "Conjurer",
     "translation_name": "Incantatore",
     "description": "Conjury calls upon elemental forces present in nature and concentrates\nthem to a potency at which spells can be woven. Through practiced\nmeditation on the essences of creation, conjurers draw forth and\nabsorb aether from their immediate surroundings. A wand or cane\nmade from unworked wood is then utilized to focus the aether until it\nmanifests as the desired spell. The seat of the Conjurers' Guild lies at\nStillglade Fane in Gridania, where the voices of Eorzea's elementals are\nsaid to be most powerful.\n\nCorresponding Job: White Mage",
-    "translation_description": "Gli Incantatori attingono alle forze primordiali della natura, invocando gli elementi della terra, del vento\ne dell'acqua. In profonda comunione con gli spiriti elementali che dimorano nel reame, incanalano l'etere\npuro per risanare le ferite degli alleati, purificare le impurità e scagliare vendette della natura contro chi minaccia\nl'armonia del creato. La loro magia è fonte inesauribile di sostegno e protezione per ogni avventuriero.\n\nJob Corrispondente: Mago Bianco"
+    "translation_description": "Gli Incantatori attingono alle forze primordiali della natura, invocando gli elementi della terra, del vento\ne dell'acqua. In profonda comunione con gli spiriti elementali che dimorano nel reame, incanalano l'etere\npuro per risanare le ferite degli alleati, purificare le impurità e scagliare vendette della natura contro chi minaccia l'armonia del creato\nLa loro magia è fonte inesauribile di sostegno e protezione per ogni avventuriero.\n\nJob Corrispondente: Mago Bianco"
   },
   "190": {
     "name": "Thaumaturge",
@@ -1741,7 +1741,7 @@
   },
   "652": {
     "original": "Saved data pertaining to hotbar/cross hotbar slot registration settings for all classes and jobs.",
-    "translation": "Dati salvati relativi alla registrazione degli slot per hotbar e cross hotbar per tutte le classi e i mestieri."
+    "translation": "Dati salvati relativi alla registrazione degli slot per hotbar e cross hotbar per tutte le classi e i job."
   },
   "653": {
     "original": "Saved data pertaining to gear sets.",
@@ -1769,7 +1769,7 @@
   },
   "680": {
     "original": "Job-specific Gear (Level 100)",
-    "translation": "Equipaggiamento di classe (Livello 100)"
+    "translation": "Equipaggiamento Job (Livello 100)"
   },
   "681": {
     "original": "Race-specific Gear",
@@ -1945,11 +1945,11 @@
   },
   "820": {
     "original": "“World” is another name for the server on which your character will reside.<hex:02100103>Once you have chosen a Home World, chances to move to another will be limited,<hex:02100103>so if you have made plans to play FINAL FANTASY XIV with friends, make<hex:02100103>certain that you all select the same one.<hex:02100103><hex:02100103>Worlds are divided between data centers based on the location of their servers.<hex:02100103>To ensure you encounter the fewest number of latency issues, it is recommended,<hex:02100103>but not required, that you select a data center that is geographically closer<hex:02100103>to you. If you do not see your preferred World displayed, please suspend character<hex:02100103>creation and select a different data center via the Character Selection screen<hex:02100103>or the Data Center menu option on the title screen. Legacy Worlds (servers existing<hex:02100103>since the original launch) are indicated in parentheses.<hex:02100103><hex:02100103><hex:02088BE4E80408FF83024804F2023703024904F20238035468697320646174612063656E74657220697320666F7220636C6F7564207374726573732074657374696E67206F6E6C792E204E6F20636F6E6E656374696F6E732063616E206265206D616465206F75747369646520746865207465737420706572696F642E0210010302490201030248020103FF0103><hex:020882E4E80302FF7A02100103021001030212026403024804F201FA03024904F201FB0345585020626F6E75736573206172652063757272656E746C79206265696E67206772616E74656420746F20616C6C206E657720706C61796572730210010363726561746564206F6E207468697320776F726C642E02490201030248020103FF0103><hex:0208F20142E4E80303FFF201380210010302100103024804F201FE03024904F201FF03546865206372656174696F6E206F662063686172616374657273206F6E207468697320576F726C642069732063757272656E746C7920726573747269637465642E20596F75206D75737402100103656974686572207761697420666F722074686973207265737472696374696F6E20746F206265206C69667465642C206F7220637265617465206120636861726163746572206F6E20616E6F7468657202100103576F726C642E20496E20746865206576656E7420796F7520637265617465206120636861726163746572206F6E20616E6F7468657220576F726C642C20796F75206D6179207573652074686502100103576F726C642056697369742073797374656D20746F20706C6179206F6E2074686973206F6E652E02490201030248020103FF0103>",
-    "translation": "“Mondo” è un altro nome per indicare il server in cui risiederà il tuo personaggio.<hex:02100103>Una volta scelto un Mondo di origine, le possibilità di trasferirsi saranno limitate,<hex:02100103>quindi se prevedi di giocare a FINAL FANTASY XIV con amici, assicurati<hex:02100103>di selezionare lo stesso server.<hex:02100103><hex:02100103>I Mondi sono suddivisi tra diversi Data Center in base alla posizione dei loro server.<hex:02100103>Per ridurre al minimo i problemi di latenza, è consigliabile, ma non obbligatorio,<hex:02100103>selezionare un Data Center geograficamente più vicino a te. Se non visualizzi<hex:02100103>il tuo Mondo preferito, sospendi la creazione del personaggio e seleziona<hex:02100103>un Data Center diverso tramite la schermata di selezione personaggio o l'opzione<hex:02100103>Data Center nella schermata del titolo. I Mondi Legacy (server esistenti sin dal<hex:02100103>lancio originale) sono indicati tra parentesi.<hex:02100103><hex:02100103><hex:02088BE4E80408FF83024804F2023703024904F20238035468697320646174612063656E74657220697320666F7220636C6F7564207374726573732074657374696E67206F6E6C792E204E6F20636F6E6E656374696F6E732063616E206265206D616465206F75747369646520746865207465737420706572696F642E0210010302490201030248020103FF0103><hex:02087DE4E80302FF7A02100103021001030212026403024804F201FA03024904F201FB034920626F6E75732045585020736F6E6F20617474697669207065722074757474692069206E756F766920706572736F6E61676769021001036372656174692073752071756573746F204D6F6E646F2E02490201030248020103FF0103><hex:0208F20142E4E80303FFF201380210010302100103024804F201FE03024904F201FF03546865206372656174696F6E206F662063686172616374657273206F6E207468697320576F726C642069732063757272656E746C7920726573747269637465642E20596F75206D75737402100103656974686572207761697420666F722074686973207265737472696374696F6E20746F206265206C69667465642C206F7220637265617465206120636861726163746572206F6E20616E6F7468657202100103576F726C642E20496E20746865206576656E7420796F7520637265617465206120636861726163746572206F6E20616E6F7468657220576F726C642C20796F75206D6179207573652074686502100103576F726C642056697369742073797374656D20746F20706C6179206F6E2074686973206F6E652E02490201030248020103FF0103>"
+    "translation": "“Mondo” è un altro nome per indicare il server in cui risiederà il tuo personaggio.<hex:02100103>Una volta scelto un Mondo di origine, le possibilità di trasferirsi saranno limitate,<hex:02100103>quindi se prevedi di giocare a FINAL FANTASY XIV con amici, assicurati<hex:02100103>di selezionare lo stesso server.<hex:02100103><hex:02100103>I Mondi sono suddivisi tra diversi Data Center in base alla posizione dei loro server.<hex:02100103>Per ridurre al minimo i problemi di latenza, è consigliabile, ma non obbligatorio,<hex:02100103>selezionare un Data Center geograficamente più vicino a te. Se non visualizzi<hex:02100103>il tuo Mondo preferito, sospendi la creazione del personaggio e seleziona<hex:02100103>un Data Center diverso tramite la schermata di selezione personaggio o l'opzione<hex:02100103>Data Center nella schermata del titolo. I Mondi Legacy (server esistenti sin dal<hex:02100103>lancio originale) sono indicati tra parentesi.<hex:02100103><hex:02100103><hex:02088BE4E80408FF83024804F2023703024904F20238035468697320646174612063656E74657220697320666F7220636C6F7564207374726573732074657374696E67206F6E6C792E204E6F20636F6E6E656374696F6E732063616E206265206D616465206F75747369646520746865207465737420706572696F642E0210010302490201030248020103FF0103><hex:020866E4E80302FF5E02100103021001030212026403024804F201FA03024904F201FB03426F6E757320455850207065722069206E756F766920706572736F6E61676769206372656174692073752071756573746F204D6F6E646F2E02490201030248020103FF0103><hex:0208F20142E4E80303FFF201380210010302100103024804F201FE03024904F201FF03546865206372656174696F6E206F662063686172616374657273206F6E207468697320576F726C642069732063757272656E746C7920726573747269637465642E20596F75206D75737402100103656974686572207761697420666F722074686973207265737472696374696F6E20746F206265206C69667465642C206F7220637265617465206120636861726163746572206F6E20616E6F7468657202100103576F726C642E20496E20746865206576656E7420796F7520637265617465206120636861726163746572206F6E20616E6F7468657220576F726C642C20796F75206D6179207573652074686502100103576F726C642056697369742073797374656D20746F20706C6179206F6E2074686973206F6E652E02490201030248020103FF0103>"
   },
   "823": {
     "original": "Load character creation data for the <hex:02092FE805FF146D616C652002280BFF065472696265E8040103FF1666656D616C652002280BFF065472696265E804020303> saved to slot <hex:022003E80303> at <hex:020703E80203><hex:022002DB03>:<hex:022402DA03> on <hex:02082BE4E94E04FF12022002DC032F022002DE032F022002DF03FF12022002DE032F022002DC032F022002DF0303>?",
-    "translation": "Caricare i dati di creazione del personaggio per <hex:02092FE805FF146D616C652002280BFF065472696265E8040103FF1666656D616C652002280BFF065472696265E804020303> salvati nello slot <hex:022003E80303> alle <hex:020703E80203><hex:022002DB03>:<hex:022402DA03> del <hex:02082BE4E94E04FF12022002DC032F022002DE032F022002DF03FF12022002DE032F022002DC032F022002DF0303>?"
+    "translation": "Caricare i dati di creazione del personaggio per il <hex:02095DE805FF2C706572736F6E616767696F206D61736368696F2064656C20636C616E2002280BFF065472696265E8040103FF2C706572736F6E616767696F2066656D6D696E612064656C20636C616E2002280BFF065472696265E804020303> salvati nello slot <hex:022003E80303> alle <hex:020703E80203><hex:022002DB03>:<hex:022402DA03> del <hex:02082BE4E94E04FF12022002DC032F022002DE032F022002DF03FF12022002DE032F022002DC032F022002DF0303>?"
   },
   "824": {
     "original": "Saved appearance data found in the FINAL FANTASY XIV folder. Select data to load and continue to the final step.",
@@ -2225,7 +2225,7 @@
   },
   "922": {
     "original": "Saves hotbar/cross hotbar settings for all classes and jobs.",
-    "translation": "Salva le impostazioni di hotbar e cross hotbar per tutte le classi e mestieri."
+    "translation": "Salva le impostazioni di hotbar e cross hotbar per tutte le classi e i job."
   },
   "923": {
     "original": "Saves gear sets.",
@@ -3323,19 +3323,19 @@
     "name": "Limsa Lominsa",
     "translation_name": "Limsa Lominsa",
     "description": "On the southern coast of the island of Vylbrand, under the shadow of\nancient cliffs worn by the relentless onslaught of the Rhotano Sea,\nlies the thalassocracy of Limsa Lominsa. Its economy is driven\nprimarily by shipping, but boasts lucrative shipbuilding, fishing, and\nsmithing industries as well. To maintain the safety of its maritime\nroutes, the city employs a formidable navy known as the Knights\nof the Barracuda. Even so, pirate bands run rampant in nearby waters,\nreaving and pillaging.",
-    "translation_description": "Sulla costa meridionale dell'isola di Vylbrand, all'ombra di antiche scogliere\nscolpite dall'incessante impeto del Mare di Rhotano, sorge la talassocrazia di Limsa Lominsa.\nLa sua economia prospera principalmente grazie alla navigazione marittima, vantando fiorenti cantieri navali,\npesca d'altura e forge metallurgiche. Per garantire la sicurezza delle rotte marittime, la città schiera\nuna formidabile flotta nota come Cavalieri del Barracuda. Ciononostante, bande di pirati continuano a infestare\nle acque circostanti, dedite a scorrerie e saccheggi."
+    "translation_description": "Sulla costa meridionale dell'isola di Vylbrand, all'ombra di antiche scogliere scolpite dall'incessante impeto del Mare di Rhotano, sorge la talassocrazia di Limsa Lominsa. La sua economia prospera principalmente grazie alla navigazione marittima, vantando fiorenti cantieri navali, pesca d'altura e forge metallurgiche. Per garantire la sicurezza delle rotte marittime, la città schiera una formidabile flotta nota come Cavalieri del Barracuda. Ciononostante, bande di pirati continuano a infestare le acque circostanti, dedite a scorrerie e saccheggi."
   },
   "1981": {
     "name": "Gridania",
     "translation_name": "Gridania",
     "description": "In the eastern reaches of the Aldenard landmass, home to vast, dense\nwoodlands and coursing rivers, lies the forest nation of Gridania. The\ncityscape is a mosaic of labyrinthine waterways and great wooden\nstructures, so gracefully constructed they seem a part of the\nsurrounding environment. The favored goddess of the citizenry is\nNophica, the Matron, but great faith is also placed in the wisdom of\nthe Seedseers－young oracles who guide the nation based on the\nwill of the forest's elementals.",
-    "translation_description": "Nelle propaggini orientali della massa continentale di Aldenard, culla di vaste e fitte selve\ne fiumi impetuosi, sorge la nazione silvana di Gridania. Il paesaggio urbano è un mosaico armonioso\ndi canali d'acqua labirintici e grandi strutture in legno, modellate con tale grazia da sembrare parte integrante\ndell'ambiente naturale. La dea più venerata dalla cittadinanza è Nophica, la Matrona, ma profonda devozione\nè riposta anche nella saggezza dei Veggenti, giovani oracoli che guidano la nazione secondo la volontà\ndegli spiriti elementali del bosco."
+    "translation_description": "Nelle propaggini orientali della massa continentale di Aldenard, culla di vaste e fitte selve e fiumi impetuosi, sorge la nazione silvana di Gridania. Il paesaggio urbano è un mosaico armonioso di canali d'acqua labirintici e grandi strutture in legno, modellate con tale grazia da sembrare parte integrante dell'ambiente naturale. La dea più venerata dalla cittadinanza è Nophica, la Matrona, ma profonda devozione è riposta anche nella saggezza dei Veggenti, giovani oracoli che guidano la nazione secondo la volontà degli spiriti elementali del bosco."
   },
   "1982": {
     "name": "Ul'dah",
     "translation_name": "Ul'dah",
     "description": "The bustling commercial hub of Ul'dah sits amid the desolate desert\nlandscape of southern Aldenard. Ul'dahn culture is known for its\naffluence, and the wealth of the nation comes in large part from its\nabundant mineral resources and clothcrafting industry. Though it is\nthe sultana who claims sovereignty, true power is wielded by the\nSyndicate, a council sat by six of Ul'dah's most elite and influential.\nNald'thal is the nation's patron deity, and two great halls devoted to\nHis two aspects lie in the east and west of the city.",
-    "translation_description": "Il vivace crocevia commerciale di Ul'dah sorge nel cuore dell'arido paesaggio desertico\ndell'Aldenard meridionale. La cultura uldhiana è celebre per l'opulenza e la ricchezza della nazione,\nderivante in gran parte dalle abbondanti risorse minerarie e dall'industria tessile. Sebbene la sovranità\nappartenga alla Sultana, il vero potere è esercitato dal Sindacato, un consiglio formato da sei tra gli esponenti\npiù influenti ed elitari della città. Nald'thal è la divinità patrona della nazione, e due imponenti sale consacrate\nai suoi due aspetti sorgono a oriente e a occidente della città."
+    "translation_description": "Il vivace crocevia commerciale di Ul'dah sorge nel cuore dell'arido paesaggio desertico dell'Aldenard meridionale. La cultura uldhiana è celebre per l'opulenza e la ricchezza della nazione, derivante in gran parte dalle abbondanti risorse minerarie e dall'industria tessile. Sebbene la sovranità appartenga alla Sultana, il vero potere è esercitato dal Sindacato, un consiglio formato da sei tra gli esponenti più influenti ed elitari della città. Nald'thal è la divinità patrona della nazione, e due imponenti sale consacrate ai suoi due aspetti sorgono a oriente e a occidente della città."
   },
   "1984": {
     "original": "Both forename and surname must be between 2 and 15 characters and not total more than 20 characters combined. Only letters, hyphens, and apostrophes can be used. The first character of either name must be a letter. Hyphens cannot be used in succession or placed immediately before or after apostrophes.<hex:020839E4E94C08FF3102100103E280BB4368617420496E7075742053656C65637465643A20021E020C03204163746976617465200242022A03FF0103>",
@@ -3595,7 +3595,7 @@
   },
   "2066": {
     "original": "Job",
-    "translation": "Classe"
+    "translation": "Job"
   },
   "2067": {
     "original": "Smallclothes",
@@ -3815,7 +3815,7 @@
   },
   "2147": {
     "original": "To load appearance data for the <hex:02092FE805FF146D616C652002280BFF065472696265E8040103FF1666656D616C652002280BFF065472696265E804020303> saved to slot <hex:022003E80303> at <hex:020703E80203><hex:022002DB03>:<hex:022402DA03> on <hex:02082BE4E94E04FF12022002DC032F022002DE032F022002DF03FF12022002DE032F022002DC032F022002DF0303> you must first install <hex:02280FFF0A457856657273696F6EE8060103>.",
-    "translation": "Per caricare i dati di aspetto per <hex:02092FE805FF146D616C652002280BFF065472696265E8040103FF1666656D616C652002280BFF065472696265E804020303> salvati nello slot <hex:022003E80303> alle <hex:020703E80203><hex:022002DB03>:<hex:022402DA03> del <hex:02082BE4E94E04FF12022002DC032F022002DE032F022002DF03FF12022002DE032F022002DC032F022002DF0303> devi prima installare <hex:02280FFF0A457856657273696F6EE8060103>."
+    "translation": "Per caricare i dati di aspetto per il <hex:02095DE805FF2C706572736F6E616767696F206D61736368696F2064656C20636C616E2002280BFF065472696265E8040103FF2C706572736F6E616767696F2066656D6D696E612064656C20636C616E2002280BFF065472696265E804020303> salvati nello slot <hex:022003E80303> alle <hex:020703E80203><hex:022002DB03>:<hex:022402DA03> del <hex:02082BE4E94E04FF12022002DC032F022002DE032F022002DF03FF12022002DE032F022002DC032F022002DF0303> devi prima installare <hex:02280FFF0A457856657273696F6EE8060103>."
   },
   "2150": {
     "original": "Character Data Export",
@@ -3839,7 +3839,7 @@
   },
   "2160": {
     "original": "Save <hex:02092FE803FF1402280BFF065472696265E8020103206D616C65FF1602280BFF065472696265E80202032066656D616C6503> appearance data to slot <hex:022003E80403>?",
-    "translation": "Salvare i dati di aspetto per <hex:02092FE803FF1402280BFF065472696265E8020103206D616C65FF1602280BFF065472696265E80202032066656D616C6503> nello slot <hex:022003E80403>?"
+    "translation": "Salvare i dati di aspetto per il <hex:02095DE803FF2C706572736F6E616767696F206D61736368696F2064656C20636C616E2002280BFF065472696265E8020103FF2C706572736F6E616767696F2066656D6D696E612064656C20636C616E2002280BFF065472696265E802020303> nello slot <hex:022003E80403>?"
   },
   "2161": {
     "original": "Comment",
@@ -3855,7 +3855,7 @@
   },
   "2164": {
     "original": "Load appearance data for the <hex:02092FE805FF146D616C652002280BFF065472696265E8040103FF1666656D616C652002280BFF065472696265E804020303> saved to slot <hex:022003E80303> at <hex:020703E80203><hex:022002DB03>:<hex:022402DA03> on <hex:02082BE4E94E04FF12022002DC032F022002DE032F022002DF03FF12022002DE032F022002DC032F022002DF0303>?",
-    "translation": "Caricare i dati di aspetto per <hex:02092FE805FF146D616C652002280BFF065472696265E8040103FF1666656D616C652002280BFF065472696265E804020303> salvati nello slot <hex:022003E80303> alle <hex:020703E80203><hex:022002DB03>:<hex:022402DA03> del <hex:02082BE4E94E04FF12022002DC032F022002DE032F022002DF03FF12022002DE032F022002DC032F022002DF0303>?"
+    "translation": "Caricare i dati di aspetto per il <hex:02095DE805FF2C706572736F6E616767696F206D61736368696F2064656C20636C616E2002280BFF065472696265E8040103FF2C706572736F6E616767696F2066656D6D696E612064656C20636C616E2002280BFF065472696265E804020303> salvati nello slot <hex:022003E80303> alle <hex:020703E80203><hex:022002DB03>:<hex:022402DA03> del <hex:02082BE4E94E04FF12022002DC032F022002DE032F022002DF03FF12022002DE032F022002DC032F022002DF0303>?"
   },
   "2165": {
     "original": "Yes",
@@ -3867,15 +3867,15 @@
   },
   "2167": {
     "original": "Load appearance data for the <hex:02092FE805FF146D616C652002280BFF065472696265E8040103FF1666656D616C652002280BFF065472696265E804020303> <hex:022903EA0303> hailing from Version 1.0 World, <hex:022903EA0203>?",
-    "translation": "Caricare i dati di aspetto per <hex:02092FE805FF146D616C652002280BFF065472696265E8040103FF1666656D616C652002280BFF065472696265E804020303> <hex:022903EA0303> proveniente dal Mondo della versione 1.0, <hex:022903EA0203>?"
+    "translation": "Caricare i dati di aspetto per il <hex:02095DE805FF2C706572736F6E616767696F206D61736368696F2064656C20636C616E2002280BFF065472696265E8040103FF2C706572736F6E616767696F2066656D6D696E612064656C20636C616E2002280BFF065472696265E804020303> <hex:022903EA0303> proveniente dal Mondo della versione 1.0, <hex:022903EA0203>?"
   },
   "2168": {
     "original": "Load appearance data for the <hex:02092FE805FF146D616C652002280BFF065472696265E8040103FF1666656D616C652002280BFF065472696265E804020303> saved to Version 1.0 save slot <hex:022003E80303>?",
-    "translation": "Caricare i dati di aspetto per <hex:02092FE805FF146D616C652002280BFF065472696265E8040103FF1666656D616C652002280BFF065472696265E804020303> salvati nello slot di salvataggio della versione 1.0 <hex:022003E80303>?"
+    "translation": "Caricare i dati di aspetto per il <hex:02095DE805FF2C706572736F6E616767696F206D61736368696F2064656C20636C616E2002280BFF065472696265E8040103FF2C706572736F6E616767696F2066656D6D696E612064656C20636C616E2002280BFF065472696265E804020303> salvati nello slot di salvataggio della versione 1.0 <hex:022003E80303>?"
   },
   "2169": {
     "original": "Overwrite appearance data for the <hex:02092FE805FF146D616C652002280BFF065472696265E8040103FF1666656D616C652002280BFF065472696265E804020303> saved to slot <hex:022003E80303> at <hex:020703E80203><hex:022002DB03>:<hex:022402DA03> on <hex:02082BE4E94E04FF12022002DC032F022002DE032F022002DF03FF12022002DE032F022002DC032F022002DF0303>?",
-    "translation": "Sovrascrivere i dati di aspetto per <hex:02092FE805FF146D616C652002280BFF065472696265E8040103FF1666656D616C652002280BFF065472696265E804020303> salvati nello slot <hex:022003E80303> alle <hex:020703E80203><hex:022002DB03>:<hex:022402DA03> del <hex:02082BE4E94E04FF12022002DC032F022002DE032F022002DF03FF12022002DE032F022002DC032F022002DF0303>?"
+    "translation": "Sovrascrivere i dati di aspetto per il <hex:02095DE805FF2C706572736F6E616767696F206D61736368696F2064656C20636C616E2002280BFF065472696265E8040103FF2C706572736F6E616767696F2066656D6D696E612064656C20636C616E2002280BFF065472696265E804020303> salvati nello slot <hex:022003E80303> alle <hex:020703E80203><hex:022002DB03>:<hex:022402DA03> del <hex:02082BE4E94E04FF12022002DC032F022002DE032F022002DF03FF12022002DE032F022002DC032F022002DF0303>?"
   },
   "2170": {
     "original": "(Version 1.0)",

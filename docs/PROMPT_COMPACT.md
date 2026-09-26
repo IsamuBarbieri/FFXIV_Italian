@@ -22,6 +22,7 @@ Leggi e scrivi direttamente sul file JSON in modo sequenziale, senza subagenti e
 ---
 
 ### REGOLE FERREE:
+- MAIUSCOLE: conserva le iniziali maiuscole dell'originale; articoli interni (anche articolati: della, delle) minuscoli. Esempio: "Order of the Twin Adder" → "Ordine della Vipera Gemella".
 - COERENZA FORMULE: Uniforma i pattern ripetitivi (formule di danno, durate, condizioni, trigger di combo) a quanto stabilito nel check iniziale. Non alternare sinonimi nello stesso file.
 - SESTRING & TAG: Tutti i tag `<hex:...>`, variabili `<FullName>`, `<Forename>`, macro `<If(...)>`, `<br>`, `\uE051`, ecc. vanno copiati IDENTICI dall'originale 1:1, senza alterazioni e senza lasciare tag sbilanciati.
 - MAI BILINGUISMO: Niente testo inglese tra parentesi nel client (MAI "Baia del Vespro (Vesper Bay)"). Solo italiano puro.

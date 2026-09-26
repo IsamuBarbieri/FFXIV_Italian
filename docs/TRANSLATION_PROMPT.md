@@ -19,7 +19,8 @@ Devi rispettare tassativamente le seguenti REGOLE VINCOLANTI. Qualsiasi deviazio
   - VIETATO: "Baia del Vespro (Vesper Bay)", "Sabbie del Risveglio (The Waking Sands)".
   Il testo a schermo deve essere esclusivamente in italiano, naturale e dimensionato per i box grafici dell'interfaccia.
 - **CONCISIONE ED ELEGANZA**: I bottoni e i menu dell'interfaccia hanno limiti di spazio rigidi. Evita calchi prolissi; usa termini compatti ed espressivi (*es. "Inizia", "Annulla", "Ritorno", "Incarichi"*).
-- **CONVENZIONI E STILE LINGUISTICO**: Traduci in italiano naturale e scorrevole, coerente con le convenzioni grammaticali italiane e il contesto di gioco (usa la maiuscola solo per nomi propri, inizio frase, titoli o termini in cui abbia pieno senso e coerenza nella lingua italiana).
+- **MAIUSCOLE E MINUSCOLE**: Mantieni nella traduzione le iniziali maiuscole delle parole che sono maiuscole nell'originale. Gli articoli italiani interni alla frase, comprese le forme articolate (*del, dello, della, dei, degli, delle*), restano minuscoli. Esempio: *Order of the Twin Adder* → **Ordine della Vipera Gemella**.
+- **CONVENZIONI E STILE LINGUISTICO**: Traduci in italiano naturale e scorrevole, coerente con la grammatica italiana e il contesto di gioco.
 
 ---
 
@@ -141,4 +142,3 @@ oppure, per comandi a due campi:
 ```
 Nessun commento superfluo, nessun testo inglese inserito tra parentesi nella traduzione, nessun tag SeString alterato.
 ```
-
