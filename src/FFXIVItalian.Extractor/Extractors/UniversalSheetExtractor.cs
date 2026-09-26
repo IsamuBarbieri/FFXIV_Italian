@@ -10,16 +10,18 @@ public class UniversalSheetExtractor : BaseSheetExtractor
     private readonly string _sheetName;
     private readonly string _defaultJsonFileName;
     private readonly string _description;
+    private readonly int? _selectedStringColumn;
 
     public override string SheetName => _sheetName;
     public override string DefaultJsonFileName => _defaultJsonFileName;
     public override string Description => _description;
 
-    public UniversalSheetExtractor(string sheetName, string? defaultJsonFileName = null, string? description = null)
+    public UniversalSheetExtractor(string sheetName, string? defaultJsonFileName = null, string? description = null, int? selectedStringColumn = null)
     {
         _sheetName = sheetName;
         _defaultJsonFileName = defaultJsonFileName ?? $"{sheetName.ToLowerInvariant()}.json";
         _description = description ?? $"Foglio EXD {sheetName}";
+        _selectedStringColumn = selectedStringColumn;
     }
 
     public override int ExtractAndSave(GameData lumina, string targetJsonPath)
@@ -53,6 +55,14 @@ public class UniversalSheetExtractor : BaseSheetExtractor
         {
             Console.WriteLine($"Il foglio '{_sheetName}' non contiene colonne di tipo String.");
             return 0;
+        }
+
+        if (_selectedStringColumn.HasValue)
+        {
+            if (_selectedStringColumn.Value < 0 || _selectedStringColumn.Value >= stringCols.Count)
+                throw new InvalidDataException($"Il foglio '{_sheetName}' non contiene la colonna String {_selectedStringColumn.Value}.");
+
+            stringCols = [stringCols[_selectedStringColumn.Value]];
         }
 
         // Read page table: starts at 0x20 + (colCount * 4)

@@ -40,7 +40,8 @@ public static class TranslationPathResolver
         ["customtalk"] = "dialogue",
         ["fate"] = "world",
         ["achievement"] = "world",
-        ["instancecontent"] = "world",
+        ["contentfindercondition"] = "world",
+        ["contentfinderconditiontransient"] = "world",
         ["aetheryte"] = "world"
     };
 

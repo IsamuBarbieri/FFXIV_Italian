@@ -53,7 +53,8 @@ public static class ExtractorRegistry
         ["customtalk"] = new UniversalSheetExtractor("CustomTalk", "customtalk.json", "Dialoghi speciali e interazioni NPC."),
         ["fate"] = new UniversalSheetExtractor("Fate", "fate.json", "Titoli, descrizioni e obiettivi dei FATE."),
         ["achievement"] = new UniversalSheetExtractor("Achievement", "achievement.json", "Trofei e obiettivi sbloccabili."),
-        ["instancecontent"] = new UniversalSheetExtractor("InstanceContent", "instancecontent.json", "Dungeon, Trial e Raid.")
+        ["contentfindercondition"] = new UniversalSheetExtractor("ContentFinderCondition", "contentfindercondition.json", "Nomi delle attività della Ricerca Incarichi.", selectedStringColumn: 1),
+        ["contentfinderconditiontransient"] = new UniversalSheetExtractor("ContentFinderConditionTransient", "contentfinderconditiontransient.json", "Descrizioni delle attività della Ricerca Incarichi.")
     };
 
     public static ISheetExtractor? Get(string sheetName)
