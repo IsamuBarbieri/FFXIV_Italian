@@ -12,84 +12,47 @@ public class GlossaryComplianceResult
 public class GlossaryEngine
 {
     private readonly List<GlossaryEntry> _entries = [];
-    private readonly Dictionary<string, VoiceProfile> _voiceProfiles = new(StringComparer.OrdinalIgnoreCase);
-
     public IReadOnlyList<GlossaryEntry> Entries => _entries;
-    public IReadOnlyDictionary<string, VoiceProfile> VoiceProfiles => _voiceProfiles;
 
-    public void AddEntry(GlossaryEntry entry)
-    {
-        _entries.Add(entry);
-    }
-
-    public void AddVoiceProfile(VoiceProfile profile)
-    {
-        _voiceProfiles[profile.CharacterName] = profile;
-    }
+    public void AddEntry(GlossaryEntry entry) => _entries.Add(entry);
 
     public GlossaryComplianceResult ValidateTranslation(string originalEn, string translatedIt)
     {
         var result = new GlossaryComplianceResult();
+        if (string.IsNullOrWhiteSpace(originalEn) || string.IsNullOrWhiteSpace(translatedIt)) return result;
 
-        if (string.IsNullOrWhiteSpace(translatedIt))
-            return result;
-
-        // 1. Check prohibited forms (terms that should never appear in Italian text)
-        foreach (var entry in _entries)
+        foreach (var group in _entries.GroupBy(e => e.EnglishTerm, StringComparer.OrdinalIgnoreCase))
         {
-            foreach (var prohibited in entry.ProhibitedForms)
+            var term = group.Key;
+            var variants = group.Select(e => e.ItalianTerm).Distinct(StringComparer.OrdinalIgnoreCase).ToArray();
+            var expected = string.Join(" / ", variants);
+            if (originalEn.Trim().Equals(term, StringComparison.OrdinalIgnoreCase))
             {
-                if (Regex.IsMatch(translatedIt, $@"\b{Regex.Escape(prohibited)}\b", RegexOptions.IgnoreCase))
-                {
-                    result.ProhibitedUsages.Add($"Forma vietata rilevata [{entry.RuleId}]: '{prohibited}'. Usare '{entry.ItalianTerm}'.");
-                }
-            }
-        }
-
-        // 2. Check for units of measurement violations (G28)
-        // Eorzean units: yalm, fulm, ilm, malm, ponze, onze, tonze must remain invariable and never translated to metric/imperial
-        var forbiddenUnitRegexes = new Dictionary<string, string>
-        {
-            { @"\biarde?\b", "G28: Non tradurre in 'iarda/iarde'; usa 'yalm' (invariabile)." },
-            { @"(?<!in\s+)\bpied[ei]\b", "G28: Non tradurre in 'piede/piedi'; usa 'fulm' (invariabile)." },
-            { @"\bmigli[ao]\b", "G28: Non tradurre in 'miglio/miglia'; usa 'malm' (invariabile)." },
-            { @"\blibbr[ae]\b", "G28: Non tradurre in 'libbra/libbre'; usa 'ponze' (invariabile)." },
-            { @"\byalms\b", "G28: 'yalm' è invariabile al plurale (usa 'yalm', non 'yalms')." },
-            { @"\bfulms\b", "G28: 'fulm' è invariabile al plurale (usa 'fulm', non 'fulms')." },
-            { @"\bmalms\b", "G28: 'malm' è invariabile al plurale (usa 'malm', non 'malms')." }
-        };
-
-        foreach (var (pattern, message) in forbiddenUnitRegexes)
-        {
-            if (Regex.IsMatch(translatedIt, pattern, RegexOptions.IgnoreCase))
-            {
-                result.Warnings.Add(message);
-            }
-        }
-
-        // 3. Check for English names that were mistakenly left untranslated
-        // when the English text contained a mandatory translated term (e.g. "Warrior of Light", "Scions of the Seventh Dawn", "Vesper Bay")
-        foreach (var entry in _entries.Where(e => e.Category != GlossaryCategory.KeptUntranslated))
-        {
-            // If the term is also registered as KeptUntranslated (e.g. Sharlayan), it is valid to retain it as a proper noun
-            if (_entries.Any(e => e.Category == GlossaryCategory.KeptUntranslated && e.EnglishTerm.Equals(entry.EnglishTerm, StringComparison.OrdinalIgnoreCase)))
-            {
+                if (!variants.Contains(translatedIt.Trim(), StringComparer.OrdinalIgnoreCase))
+                    result.Warnings.Add($"'{term}' → {expected} (fonte: {group.First().RuleId}).");
                 continue;
             }
 
-            // If English source contained the term...
-            if (Regex.IsMatch(originalEn, $@"\b{Regex.Escape(entry.EnglishTerm)}\b", RegexOptions.IgnoreCase))
-            {
-                // But Italian text still contains the pure English term verbatim...
-                if (Regex.IsMatch(translatedIt, $@"\b{Regex.Escape(entry.EnglishTerm)}\b", RegexOptions.IgnoreCase)
-                    && !entry.EnglishTerm.Equals(entry.ItalianTerm, StringComparison.OrdinalIgnoreCase))
-                {
-                    result.Warnings.Add($"Il termine '{entry.EnglishTerm}' [{entry.RuleId}] sembra essere stato lasciato in inglese. Forma italiana richiesta: '{entry.ItalianTerm}'.");
-                }
-            }
+            // In longer text, only flag a retained English phrase. A contextual paraphrase
+            // is valid, so the absence of a literal Italian form is never treated as an error.
+            if (!term.Contains(' ') || variants.Contains(term, StringComparer.OrdinalIgnoreCase)) continue;
+            string pattern = $@"(?<![\p{{L}}\p{{N}}]){Regex.Escape(term)}(?![\p{{L}}\p{{N}}])";
+            if (Regex.IsMatch(originalEn, pattern, RegexOptions.IgnoreCase) &&
+                Regex.IsMatch(translatedIt, pattern, RegexOptions.IgnoreCase))
+                result.Warnings.Add($"Termine inglese ancora presente: '{term}' → {expected} (fonte: {group.First().RuleId}).");
         }
-
+        if (_entries.Any(e => e.EnglishTerm == "Duty" && e.ItalianTerm == "Incarico") &&
+            !originalEn.Trim().Equals("Duty", StringComparison.OrdinalIgnoreCase) &&
+            !originalEn.Trim().Equals("Duties", StringComparison.OrdinalIgnoreCase) &&
+            Regex.IsMatch(originalEn, @"\bdut(?:y|ies)\b", RegexOptions.IgnoreCase) &&
+            !originalEn.Contains("Duty calls", StringComparison.OrdinalIgnoreCase))
+        {
+            if (Regex.IsMatch(translatedIt, @"\bdut(?:y|ies)\b", RegexOptions.IgnoreCase))
+                result.Warnings.Add("'Duty' rimane in inglese; usare Incarico/Incarichi per l'attività di gioco.");
+            if (!Regex.IsMatch(originalEn, @"\b(?:quests?|missions?|dailies)\b", RegexOptions.IgnoreCase) &&
+                Regex.IsMatch(translatedIt, @"\bmission[ei]\b", RegexOptions.IgnoreCase))
+                result.Warnings.Add("'Duty' è reso come Missione; usare Incarico/Incarichi per l'attività di gioco.");
+        }
         return result;
     }
 }
-

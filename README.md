@@ -51,7 +51,7 @@ La localizzazione comprende anche alcune texture dell'interfaccia: le scritte in
 FFXIV_Italian/
 ├── data/
 │   ├── batches/                   # File batch temporanei per traduzioni (export/import)
-│   ├── glossary/                  # 07_Glossary.md (canone terminologico) e glossary.json
+│   ├── glossary/                  # Glossary.md (termini dai file approvati)
 │   └── translations/              # Corpus completo dei testi estratti e tradotti
 │       ├── system/                # UI, Addon, Lobby, Error, MainCommand, HowTo, TextCommand, LogMessage
 │       ├── world/                 # ClassJob, Race, Tribe, PlaceName, Weather, Fate, Achievement, Title
@@ -173,12 +173,9 @@ dotnet test
 
 1. **Integrità Tecnica Assoluta**:
    - Nessun tag di controllo SeString (`<hex:...>`, `<Sheet(...)>`, `<Highlight>`, ecc.) o carattere speciale Unicode (`\uE051`, `\uE052`, `\u203B`) deve essere rimosso o alterato.
-2. **Canone di Gioco (`07_Glossary.md`)**:
-   - `Warrior of Light` -> *Guerriero della Luce*
-   - `Scions of the Seventh Dawn` -> *Figli della Settima Alba*
-   - `Aetheryte` -> *Eterite* (invariabile al plurale)
-   - `Gil` -> *Gil* (invariabile)
-   - Unità di misura eorzeane invariabili (*yalm, fulm, malm, ilms*).
+2. **Terminologia approvata**:
+   - Consulta `data/glossary/Glossary.md`; ogni voce rimanda a una riga revisionata e le varianti hanno una nota d’uso.
+   - `dotnet run --project src/FFXIVItalian.Extractor -- validate --review` segnala possibili incoerenze nei file completi non ancora approvati; aggiungi un percorso per controllare un solo file.
 3. **Concordanza di Genere e Profilazione Vocale**:
    - Ove possibile, si utilizzano forme inclusive o macro native di genere FFXIV.
    - Ogni comprimario (Urianger, Thancred, Alphinaud, Y'shtola, Tataru, Estinien, Emet-Selch) segue il registro linguistico documentato nella guida di stile.

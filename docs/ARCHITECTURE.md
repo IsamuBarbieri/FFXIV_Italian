@@ -51,7 +51,7 @@ La libreria di base contenente modelli, astrazioni e validatori:
 - **`SeString/SeStringValidator`**:
   - Validatore sintattico per tag interni di FFXIV (`<hex:...>`, `<Highlight>`, `<FullName>`, macro condizionali di genere). Rileva tag mancanti o malformati prima della compilazione.
 - **`Glossary/GlossaryEngine`**:
-  - Motore di coerenza terminologica basato su `07_Glossary.md`. Verifica forme non ammesse o errate (es. *Maelstrom*, *iarde*, ecc.).
+  - Motore di coerenza terminologica basato sulle voci approvate di `data/glossary/Glossary.md`; segnala possibili incoerenze da rivedere nel contesto.
 
 ---
 

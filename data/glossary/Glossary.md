@@ -1,0 +1,253 @@
+# Glossario approvato — FFXIV Italiano
+
+Fonte terminologica per le traduzioni future. Le voci derivano solo dai file revisionati elencati sotto; le tabelle sono intenzionalmente selettive. I termini inglesi servono da riferimento e non vanno aggiunti tra parentesi nel testo di gioco.
+
+## File approvati
+
+- `system/addon.json`
+- `system/howtocategory.json`
+- `system/lobby.json`
+- `system/maincommand.json`
+- `system/maincommandcategory.json`
+- `world/classjob.json`
+- `world/placename.json`
+- `world/race.json`
+- `world/tribe.json`
+- `world/weather.json`
+
+Per aggiungere un file: completarne la revisione, inserirlo in questo elenco e aggiungere solo termini riutilizzabili con una fonte `percorso#ID:campo`. Le varianti dello stesso termine restano righe separate con una nota di contesto. Forme grammaticali e frasi complete richiedono sempre una verifica nel contesto.
+
+## Voci
+
+### Interfaccia e comandi
+
+| Inglese | Italiano | Fonte | Uso |
+| --- | --- | --- | --- |
+| Cancel | Annulla | `system/addon.json#2:original` |  |
+| Close | Chiudi | `system/addon.json#1219:original` |  |
+| Confirm | Conferma | `system/addon.json#572:original` |  |
+| Yes | Sì | `system/addon.json#576:original` |  |
+| No | No | `system/addon.json#577:original` |  |
+| Item | Oggetto | `system/addon.json#355:original` |  |
+| Inventory | Inventario | `system/addon.json#520:original` |  |
+| Reward | Ricompensa | `system/addon.json#463:original` |  |
+| Apply | Applica | `system/addon.json#1218:original` |  |
+| Save | Salva | `system/addon.json#552:original` |  |
+| Character | Personaggio | `system/addon.json#230:original` |  |
+| Map | Mappa | `system/addon.json#467:original` |  |
+| Party | Gruppo | `system/addon.json#176:original` |  |
+| Teleport | Teletrasporto | `system/addon.json#186:original` |  |
+| Configuration | Configurazione | `system/lobby.json#2:original` |  |
+| Settings | Impostazioni | `system/addon.json#2660:original` |  |
+| Options | Opzioni | `system/addon.json#465:original` |  |
+| System | Sistema | `system/addon.json#1059:original` |  |
+| Help | Aiuto | `system/addon.json#2624:original` |  |
+| Search | Cerca | `system/addon.json#325:original` |  |
+| Back | Indietro | `system/addon.json#2222:original` |  |
+| Next | Avanti | `system/addon.json#9800:original` |  |
+| Previous | Precedente | `system/addon.json#17797:original` |  |
+| Accept | Accetta | `system/addon.json#168:original` |  |
+| Decline | Rifiuta | `system/addon.json#169:original` |  |
+| Delete | Elimina | `system/addon.json#68:original` |  |
+| Select | Seleziona | `system/addon.json#3139:original` |  |
+| Name | Nome | `system/addon.json#293:original` |  |
+| Level | Livello | `system/addon.json#335:original` |  |
+| Rank | Grado | `system/addon.json#732:original` |  |
+| Equipment | Equipaggiamento | `system/addon.json#11333:original` |  |
+| Gear | Equipaggiamento | `system/addon.json#852:original` |  |
+| Crafting | Fabbricazione | `system/addon.json#273:original` |  |
+| Gathering | Raccolta | `system/addon.json#276:original` |  |
+| Fishing | Pesca | `system/addon.json#2342:original` |  |
+| Movement | Movimento | `system/addon.json#1302:original` |  |
+| Battle | Battaglia | `system/addon.json#663:original` |  |
+| Quests | Missioni | `system/addon.json#454:original` |  |
+| Items | Oggetti | `system/addon.json#1926:original` |  |
+| Logs | Registri | `system/maincommand.json#38:name` |  |
+| Travel | Viaggio | `system/maincommandcategory.json#4:original` |  |
+| Return | Ritorna | `system/addon.json#1460:original` | Comando di ritorno. |
+| Return | Indietro | `system/lobby.json#507:original` | Navigazione alla schermata precedente. |
+| Return | Rientro | `system/maincommand.json#36:name` | Etichetta nominale contestuale. |
+| Exit | Esci | `system/addon.json#2849:original` | Azione. |
+| Exit | Uscita | `world/placename.json#528:name` | Etichetta nominale. |
+| Duty | Incarichi | `system/maincommandcategory.json#2:original` | Categoria del menu; plurale di Incarico. |
+| Duty | Incarico | `system/addon.json#2225:original` | Attività singola. Distinta dalle missioni delle quest. |
+| Duties | Incarichi | `system/addon.json#15793:original` | Plurale del termine di gioco. |
+| Duty Finder | Ricerca Incarichi | `system/maincommand.json#33:name` | Nome della funzione. |
+| Duty Recorder | Registratore Incarichi | `system/maincommand.json#76:name` | Nome della funzione. |
+| Duty Support | Supporto Incarichi | `system/maincommand.json#91:name` | Nome della funzione. |
+| Duty Roulette | Roulette Incarichi | `system/addon.json#8605:original` | Nome della funzione. |
+| Journal | Diario di Viaggio | `system/addon.json#450:original` | Nome del menu. |
+| Journal | Diario | `system/addon.json#593:original` | Etichetta breve. |
+| All | Tutti | `system/addon.json#970:original` | Insieme di elementi. |
+| All | Tutto | `system/howtocategory.json#1:original` | Categoria tutorial. |
+| Battle | Combattimento | `system/howtocategory.json#4:original` | Categoria tutorial. |
+| Crafting | Artigianato | `system/howtocategory.json#12:original` | Categoria tutorial. |
+| Crafting | Creazione | `system/addon.json#13233:original` | Etichetta contestuale in addon. |
+
+### Termini di gioco
+
+| Inglese | Italiano | Fonte | Uso |
+| --- | --- | --- | --- |
+| Free Company | Compagnia Libera | `system/addon.json#646:original` |  |
+| Grand Company | Grande Compagnia | `system/addon.json#337:original` |  |
+| Aetheryte | Eterite | `system/addon.json#8511:original` |  |
+| Aethernet | Eternet | `system/addon.json#2720:original` |  |
+| Gil | Gil | `system/addon.json#830:original` |  |
+| The Black Shroud | Velo Nero | `system/addon.json#1578:original` |  |
+| Chocobo | Chocobo | `system/addon.json#9081:original` |  |
+| Retainer | Servitore | `system/addon.json#532:original` |  |
+| Materia | Materia | `system/addon.json#481:original` |  |
+| Mount | Cavalcatura | `system/addon.json#774:original` |  |
+| Minion | Minion | `system/addon.json#8303:original` |  |
+| Achievement | Obiettivo | `system/addon.json#1484:original` |  |
+| Quest | Quest | `system/addon.json#12723:original` |  |
+| Job | Job | `system/addon.json#684:original` |  |
+| Class | Classe | `system/addon.json#869:original` |  |
+| HP | PV | `system/addon.json#1000:original` |  |
+| MP | PM | `system/addon.json#724:original` |  |
+| Retainer | Retainer | `system/addon.json#12580:original` | Termine conservato in una specifica etichetta. |
+| Mount | Monta | `system/addon.json#4964:original` | Azione contestuale. |
+| Mount | Pilota | `system/addon.json#11382:original` | Azione contestuale. |
+| HP | HP | `system/addon.json#232:original` | Sigla conservata in un'etichetta. |
+| MP | MP | `system/addon.json#233:original` | Sigla conservata in un'etichetta. |
+
+### Classi e mestieri
+
+| Inglese | Italiano | Fonte | Uso |
+| --- | --- | --- | --- |
+| Adventurer | Avventuriero | `world/classjob.json#0:name` |  |
+| Gladiator | Gladiatore | `world/classjob.json#1:name` |  |
+| Pugilist | Pugile | `world/classjob.json#2:name` |  |
+| Marauder | Incursore | `world/classjob.json#3:name` |  |
+| Lancer | Lanciere | `world/classjob.json#4:name` |  |
+| Archer | Arciere | `world/classjob.json#5:name` |  |
+| Conjurer | Incantatore | `world/classjob.json#6:name` |  |
+| Thaumaturge | Taumaturgo | `world/classjob.json#7:name` |  |
+| Carpenter | Falegname | `world/classjob.json#8:name` |  |
+| Blacksmith | Fabbro | `world/classjob.json#9:name` |  |
+| Armorer | Armaiolo | `world/classjob.json#10:name` |  |
+| Goldsmith | Orefice | `world/classjob.json#11:name` |  |
+| Leatherworker | Conciatore | `world/classjob.json#12:name` |  |
+| Weaver | Tessitore | `world/classjob.json#13:name` |  |
+| Alchemist | Alchimista | `world/classjob.json#14:name` |  |
+| Culinarian | Cuoco | `world/classjob.json#15:name` |  |
+| Miner | Minatore | `world/classjob.json#16:name` |  |
+| Botanist | Botanico | `world/classjob.json#17:name` |  |
+| Fisher | Pescatore | `world/classjob.json#18:name` |  |
+| Paladin | Paladino | `world/classjob.json#19:name` |  |
+| Monk | Monaco | `world/classjob.json#20:name` |  |
+| Warrior | Guerriero | `world/classjob.json#21:name` |  |
+| Dragoon | Dragoon | `world/classjob.json#22:name` |  |
+| Bard | Bardo | `world/classjob.json#23:name` |  |
+| White Mage | Mago Bianco | `world/classjob.json#24:name` |  |
+| Black Mage | Mago Nero | `world/classjob.json#25:name` |  |
+| Arcanist | Arcanista | `world/classjob.json#26:name` |  |
+| Summoner | Evocatore | `world/classjob.json#27:name` |  |
+| Scholar | Studioso | `world/classjob.json#28:name` |  |
+| Rogue | Furfante | `world/classjob.json#29:name` |  |
+| Ninja | Ninja | `world/classjob.json#30:name` |  |
+| Machinist | Artificiere | `world/classjob.json#31:name` |  |
+| Dark Knight | Cavaliere Oscuro | `world/classjob.json#32:name` |  |
+| Astrologian | Astrologo | `world/classjob.json#33:name` |  |
+| Samurai | Samurai | `world/classjob.json#34:name` |  |
+| Red Mage | Mago Rosso | `world/classjob.json#35:name` |  |
+| Blue Mage | Mago Blu | `world/classjob.json#36:name` |  |
+| Gunbreaker | Eterlama | `world/classjob.json#37:name` |  |
+| Dancer | Danzatore | `world/classjob.json#38:name` |  |
+| Reaper | Mietitore | `world/classjob.json#39:name` |  |
+| Sage | Saggio | `world/classjob.json#40:name` |  |
+| Viper | Vipera | `world/classjob.json#41:name` |  |
+| Pictomancer | Pittomante | `world/classjob.json#42:name` |  |
+| Beastmaster | Domatore | `world/classjob.json#43:name` |  |
+| Goldsmith | Orafo | `system/addon.json#816:original` | Variante attestata nell'interfaccia; nel foglio classjob: Orefice. |
+| Beastmaster | Signore delle Bestie | `world/placename.json#5322:name` | Variante attestata nell'interfaccia; nel foglio classjob: Domatore. |
+
+### Razze e clan
+
+| Inglese | Italiano | Fonte | Uso |
+| --- | --- | --- | --- |
+| Hyur | Hyur | `world/race.json#1:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+| Elezen | Elezen | `world/race.json#2:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+| Lalafell | Lalafell | `world/race.json#3:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+| Miqo'te | Miqo'te | `world/race.json#4:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+| Roegadyn | Roegadyn | `world/race.json#5:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+| Au Ra | Au Ra | `world/race.json#6:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+| Hrothgar | Hrothgar | `world/race.json#7:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+| Viera | Viera | `world/race.json#8:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+| Midlander | Piancolle | `world/tribe.json#1:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+| Highlander | Montanaro | `world/tribe.json#2:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+| Wildwood | Silvano | `world/tribe.json#3:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+| Duskwight | Crepuscolare | `world/tribe.json#4:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+| Plainsfolk | Pratoverde | `world/tribe.json#5:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+| Dunesfolk | Dunagialla | `world/tribe.json#6:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+| Seeker of the Sun | Cercasole | `world/tribe.json#7:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+| Keeper of the Moon | Guardialuna | `world/tribe.json#8:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+| Sea Wolf | Lupo di Mare | `world/tribe.json#9:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+| Hellsguard | Guardinferno | `world/tribe.json#10:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+| Raen | Raen | `world/tribe.json#11:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+| Xaela | Xaela | `world/tribe.json#12:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+| Helions | Eliano | `world/tribe.json#13:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+| The Lost | Ramingo | `world/tribe.json#14:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+| Rava | Rava | `world/tribe.json#15:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+| Veena | Veena | `world/tribe.json#16:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+
+### Luoghi
+
+| Inglese | Italiano | Fonte | Uso |
+| --- | --- | --- | --- |
+| Vesper Bay | Baia del Vespro | `world/placename.json#274:name` |  |
+| Aleport | Portobirra | `world/placename.json#223:name` |  |
+| Wineport | Portovino | `world/placename.json#216:name` |  |
+| Quarrymill | Cavamulino | `world/placename.json#129:name` |  |
+| The Waking Sands | Sabbie del Risveglio | `world/placename.json#356:name` |  |
+| The Rising Stones | Le Pietre Risorte | `world/placename.json#481:name` |  |
+| Revenant's Toll | Pedaggio del Redivivo | `world/placename.json#411:name` |  |
+| Limsa Lominsa | Limsa Lominsa | `world/placename.json#27:name` |  |
+| Gridania | Gridania | `world/placename.json#39:name` |  |
+| Ul'dah | Ul'dah | `world/placename.json#51:name` |  |
+| Ishgard | Ishgard | `world/placename.json#62:name` |  |
+| Eorzea | Eorzea | `world/placename.json#21:name` |  |
+| La Noscea | La Noscea | `world/placename.json#22:name` |  |
+| Central Shroud | Velo Centrale | `world/placename.json#54:name` |  |
+| East Shroud | Velo Orientale | `world/placename.json#55:name` |  |
+| South Shroud | Velo Meridionale | `world/placename.json#56:name` |  |
+| North Shroud | Velo Settentrionale | `world/placename.json#57:name` |  |
+| Middle La Noscea | La Noscea Centrale | `world/placename.json#30:name` |  |
+| Lower La Noscea | La Noscea Inferiore | `world/placename.json#31:name` |  |
+| Upper La Noscea | La Noscea Superiore | `world/placename.json#34:name` |  |
+| Western La Noscea | La Noscea Occidentale | `world/placename.json#33:name` |  |
+| Eastern La Noscea | La Noscea Orientale | `world/placename.json#32:name` |  |
+| Outer La Noscea | Noscea Esterna | `world/placename.json#350:name` |  |
+| The Drowning Wench | La Fanciulla Annegata | `world/placename.json#715:name` |  |
+| The Quicksand | Le Sabbie Mobili | `world/placename.json#615:name` |  |
+| Buscarron's Druthers | Il Capriccio di Buscarron | `world/placename.json#119:name` |  |
+| Camp Drybone | Campo Ossasecca | `world/placename.json#300:name` |  |
+| Camp Overlook | Campo Belvedere | `world/placename.json#237:name` |  |
+| Bronze Lake | Lago di Bronzo | `world/placename.json#177:name` |  |
+| Whitebrim | Orlo Bianco | `world/placename.json#383:name` |  |
+| Bentbranch Meadows | Prati di Ramostorto | `world/placename.json#94:name` |  |
+| Copperbell Mines | Miniere di Camparame | `world/placename.json#48:name` |  |
+
+### Meteo
+
+I nomi delle condizioni sono distinti dalle forme grammaticali usate nelle descrizioni.
+
+| Inglese | Italiano | Fonte | Uso |
+| --- | --- | --- | --- |
+| Clear Skies | Cielo Sereno | `world/weather.json#1:name` |  |
+| Fair Skies | Cielo Limpido | `world/weather.json#2:name` |  |
+| Clouds | Nuvoloso | `world/weather.json#3:name` |  |
+| Fog | Nebbia | `world/weather.json#4:name` |  |
+| Wind | Vento | `world/weather.json#5:name` |  |
+| Gales | Raffiche di vento | `world/weather.json#6:name` |  |
+| Rain | Pioggia | `world/weather.json#7:name` |  |
+| Showers | Rovesci | `world/weather.json#8:name` |  |
+| Thunder | Tuoni | `world/weather.json#9:name` |  |
+| Thunderstorms | Tempesta di fulmini | `world/weather.json#10:name` |  |
+| Dust Storms | Tempesta di Polvere | `world/weather.json#11:name` |  |
+| Sandstorms | Tempesta di sabbia | `world/weather.json#12:name` |  |
+| Hot Spells | Ondata di Caldo | `world/weather.json#13:name` |  |
+| Heat Waves | Ondata di Calore Torrido | `world/weather.json#14:name` |  |
+| Snow | Neve | `world/weather.json#15:name` |  |
+| Blizzards | Bufera di neve | `world/weather.json#16:name` |  |
+| Showers | Rovesci passeggeri | `world/weather.json#210:name` | Variante attestata in un'altra voce meteo. |

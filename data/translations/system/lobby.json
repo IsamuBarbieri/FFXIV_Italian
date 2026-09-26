@@ -1713,11 +1713,11 @@
   },
   "645": {
     "original": "Character was logged out or disconnected mid-duty. Unable to re-edit character.<hex:02100103>You must log in and leave the duty before trying again.",
-    "translation": "Il personaggio è stato disconnesso durante un'istanza. Impossibile modificare il personaggio.<hex:02100103>Devi accedere e abbandonare l'istanza prima di riprovare."
+    "translation": "Il personaggio è stato disconnesso durante un incarico. Impossibile modificare il personaggio.<hex:02100103>Devi accedere e abbandonare l'incarico prima di riprovare."
   },
   "646": {
     "original": "Character is currently bound by duty. Changes to race, gender, and appearance cannot be made.",
-    "translation": "Il personaggio è attualmente impegnato in un'istanza. Non è possibile apportare modifiche a razza, sesso e aspetto."
+    "translation": "Il personaggio è attualmente impegnato in un incarico. Non è possibile apportare modifiche a razza, sesso e aspetto."
   },
   "647": {
     "original": "Character is currently imprisoned in the Mordion Gaol. Unable to customize appearance.",
@@ -2717,7 +2717,7 @@
   },
   "1111": {
     "original": "Character was logged out or disconnected mid-duty. Unable to process <hex:020828E1E80201FF1552657475726E20746F20486F6D6520576F726C64FF0C576F726C6420566973697403> request.<hex:02100103>You must log in before a new request can be processed.",
-    "translation": "Il personaggio è stato disconnesso durante un'istanza. Impossibile elaborare la richiesta di <hex:020828E1E80201FF1552657475726E20746F20486F6D6520576F726C64FF0C576F726C6420566973697403>.<hex:02100103>Devi accedere prima di poter elaborare una nuova richiesta."
+    "translation": "Il personaggio è stato disconnesso durante un incarico. Impossibile elaborare la richiesta di <hex:020828E1E80201FF1552657475726E20746F20486F6D6520576F726C64FF0C576F726C6420566973697403>.<hex:02100103>Devi accedere prima di poter elaborare una nuova richiesta."
   },
   "1112": {
     "original": "Character has not completed the game's opening event. Unable to submit World Visit request.",
@@ -2769,7 +2769,7 @@
   },
   "1155": {
     "original": "The Data Center Travel system allows your character to visit Worlds in other data centers, where you can create parties with friends, trade items, challenge duties, and more.<hex:02100103><hex:02100103>※Certain features will be unavailable while visiting other data centers, including access to linkshell and free company chat channels affiliated with your Home Data Center.",
-    "translation": "Il sistema di Viaggio tra Data Center consente al tuo personaggio di visitare i Mondi di altri Data Center, dove potrai formare gruppi con amici, scambiare oggetti, affrontare istanze e altro ancora.<hex:02100103><hex:02100103>※Alcune funzionalità non saranno disponibili durante la visita ad altri Data Center, compreso l'accesso ai canali di chat della fonosfera e della compagnia libera affiliati al tuo Data Center di origine."
+    "translation": "Il sistema di Viaggio tra Data Center consente al tuo personaggio di visitare i Mondi di altri Data Center, dove potrai formare gruppi con amici, scambiare oggetti, affrontare incarichi e altro ancora.<hex:02100103><hex:02100103>※Alcune funzionalità non saranno disponibili durante la visita ad altri Data Center, compreso l'accesso ai canali di chat della fonosfera e della compagnia libera affiliati al tuo Data Center di origine."
   },
   "1156": {
     "original": "Using the Data Center Travel System",
@@ -2965,7 +2965,7 @@
   },
   "1211": {
     "original": "Character was logged out or disconnected mid-duty. Unable to process <hex:02082EE1E80201FF1552657475726E20746F20486F6D6520576F726C64FF12446174612043656E74657220566973697403> request.<hex:02100103>You must log in before a new request can be processed.",
-    "translation": "Il personaggio è stato disconnesso durante un'istanza. Impossibile elaborare la richiesta di <hex:02082EE1E80201FF1552657475726E20746F20486F6D6520576F726C64FF12446174612043656E74657220566973697403>.<hex:02100103>Devi accedere prima di poter elaborare una nuova richiesta."
+    "translation": "Il personaggio è stato disconnesso durante un incarico. Impossibile elaborare la richiesta di <hex:02082EE1E80201FF1552657475726E20746F20486F6D6520576F726C64FF12446174612043656E74657220566973697403>.<hex:02100103>Devi accedere prima di poter elaborare una nuova richiesta."
   },
   "1212": {
     "original": "Unable to proceed with Data Center Visit. You cannot have any more characters on <hex:022903EA0203>.",
@@ -3073,19 +3073,19 @@
   },
   "1238": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>This World is experiencing congestion. Visiting characters cannot log in at this time, and you will be unable to return to your duty in progress.<hex:0249020103><hex:0248020103><hex:02100103>By abandoning the duty, you may return to your Home World.<hex:02100103>Abandon duty?",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>Questo Mondo è attualmente congestionato. I personaggi in visita non possono accedere in questo momento e non potrai rientrare nell'istanza in corso.<hex:0249020103><hex:0248020103><hex:02100103>Abbandonando l'istanza, potrai tornare al tuo Mondo d'origine.<hex:02100103>Abbandonare l'istanza?"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>Questo Mondo è attualmente congestionato. I personaggi in visita non possono accedere in questo momento e non potrai rientrare nell'incarico in corso.<hex:0249020103><hex:0248020103><hex:02100103>Abbandonando l'incarico, potrai tornare al tuo Mondo d'origine.<hex:02100103>Abbandonare l'incarico?"
   },
   "1239": {
     "original": "Preparing to abandon duty.<hex:02100103>Please wait for the request to be processed.",
-    "translation": "Preparazione dell'abbandono dell'istanza in corso.<hex:02100103>Attendi che la richiesta venga elaborata."
+    "translation": "Preparazione dell'abbandono dell'incarico in corso.<hex:02100103>Attendi che la richiesta venga elaborata."
   },
   "1240": {
     "original": "Abandoning duty.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>It can take up to 5 minutes for the request to be processed.<hex:0249020103><hex:0248020103><hex:02100103>Please wait before traveling to another World.",
-    "translation": "Abbandono dell'istanza in corso.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>L'elaborazione della richiesta può richiedere fino a 5 minuti.<hex:0249020103><hex:0248020103><hex:02100103>Attendi prima di viaggiare verso un altro Mondo."
+    "translation": "Abbandono dell'incarico in corso.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>L'elaborazione della richiesta può richiedere fino a 5 minuti.<hex:0249020103><hex:0248020103><hex:02100103>Attendi prima di viaggiare verso un altro Mondo."
   },
   "1241": {
     "original": "The duty has not yet been abandoned.<hex:02100103>Please wait a moment and try again.",
-    "translation": "L'istanza non è ancora stata abbandonata.<hex:02100103>Attendi un momento e riprova."
+    "translation": "L'incarico non è ancora stato abbandonato.<hex:02100103>Attendi un momento e riprova."
   },
   "1242": {
     "original": "I understand.",

@@ -37,63 +37,8 @@ Il motore di gioco utilizza un bytecode binario proprietario (SeString). I tag s
 
 ---
 
-### 3. CONFORMITÀ FERREA AL GLOSSARIO UFFICIALE (07_GLOSSARY v1.43)
-
-#### A. Grandi Compagnie e Fazioni
-- **The Maelstrom** -> **La Tempesta** (MAI *"Maelstrom"* o *"Il Maelstrom"*).
-- **Order of the Twin Adder** -> **Ordine della Vipera Gemella**
-- **Immortal Flames** -> **Fiamme Immortali**
-- **Scions of the Seventh Dawn** -> **Figli della Settima Alba** (MAI *"Discendenti"*).
-- **Grand Company** -> **Grande Compagnia** | **Free Company** -> **Compagnia Libera** (mai confonderle).
-- **Yellowjackets** -> **Giubbe Gialle** | **Brass Blades** -> **Lame d'Ottone** | **Wood Wailers** -> **Sentinelle del Bosco**.
-
-#### B. Famiglia dell'Etere (G6)
-- **aether** -> **etere** | **aetheric/aetherial** -> **eterico/a** | **Aetheryte** -> **Eterite** | **Aethernet** -> **Eternet**
-- **Aetherial Sea** -> **Mare Etereo** | **Lifestream** -> **Flusso Vitale** | **ceruleum** -> **ceruleo** | **attunement** -> **sintonizzazione**
-- **Aether Sickness** -> **Mal d'Etere** (MAI *"Malattia Eterica"*).
-
-#### C. Classi e Mestieri (G18)
-- Il sostantivo "Job" o "class" si traduce **sempre con "Classe"** (sia base che avanzata).
-- Nomi fissi delle classi:
-  - Tank: **Gladiatore**, **Paladino**, **Incursore** (*Marauder*), **Guerriero**, **Cavaliere Oscuro**, **Eterlama** (*Gunbreaker*).
-  - Healer: **Incantatore** (*Conjurer*), **Mago Bianco**, **Arcanista**, **Studioso** (*Scholar*), **Astrologo**, **Saggio** (*Sage*).
-  - Melee DPS: **Pugile**, **Monaco**, **Lanciere**, **Dragoon** (*INVARIATO*), **Furfante** (*Rogue*), **Ninja** (*INVARIATO*), **Samurai** (*INVARIATO*), **Mietitore** (*Reaper*), **Vipera**.
-  - Physical Ranged: **Arciere**, **Bardo**, **Artificiere** (*Machinist*), **Danzatore/Danzatrice**.
-  - Magical Ranged: **Taumaturgo**, **Mago Nero**, **Evocatore** (*Summoner*), **Mago Rosso**, **Mago Blu**, **Pittomante**.
-
-#### D. Nomi delle Razze e dei Clan (G17)
-- Le razze restano invariate: *Hyur, Elezen, Lalafell, Miqo'te, Roegadyn, Au Ra, Hrothgar, Viera*.
-- I clan si traducono obbligatoriamente come segue:
-  - Hyur: **Piancolle** (*Midlander*), **Montanaro** (*Highlander*).
-  - Elezen: **Silvano** (*Wildwood*), **Crepuscolare** (*Duskwight*).
-  - Lalafell: **Pratoverde** (*Plainsfolk*), **Dunagialla** (*Dunesfolk*).
-  - Miqo'te: **Cercasole** (*Seeker of the Sun*), **Guardialuna** (*Keeper of the Moon*).
-  - Roegadyn: **Lupo di Mare / Lupi di Mare** (*Sea Wolf*), **Guardinferno** (*Hellsguard*).
-  - Hrothgar: **Eliano** (*Helions*), **Ramingo** (*The Lost*).
-  - Au Ra & Viera: *Raen, Xaela, Rava, Veena* (invariati).
-
-#### E. Toponimi e Divisioni Geografiche (G9 & G12.0)
-- **The Black Shroud** -> **Velo Nero** | Central -> **Velo Centrale** | East -> **Velo Orientale** | South -> **Velo Meridionale** | North -> **Velo Settentrionale** (MAI *"Selva"*).
-- **La Noscea**: Middle -> **Noscea Centrale** | Lower -> **Noscea Inferiore** | Upper -> **Noscea Superiore** | Western -> **Noscea Occidentale** | Eastern -> **Noscea Orientale** | Outer -> **Noscea Esterna**.
-- **Hub e Città**: *Portobirra* (Aleport), *Portovino* (Wineport), *Cavamulino* (Quarrymill), *Terralago* (Lakeland), *Sabbie del Risveglio* (The Waking Sands), *Le Pietre Risorte* (The Rising Stones), *Pedaggio del Redivivo* (Revenant's Toll), *Il Capriccio di Buscarron* (Buscarron's Druthers).
-
-#### F. Nomi Propri: Regola di Trasparenza (G1)
-- **Nomi Culturali/Opaqui (INVARIATI)**: *Alphinaud, Alisaie, Thancred, Y'shtola, Urianger, Merlwyb, Kan-E-Senna, Raubahn, Nanamo, Limsa Lominsa, Ul'dah, Gridania, Ishgard, Eorzea*.
-- **Cognomi trasparenti con significato (TRADURRE)**:
-  - *Haurchefant Greystone* -> **Haurchefant Pietragrigia**
-  - *Estinien Wyrmblood* -> **Estinien Sanguedidrago**
-  - *Baderon Tenfingers* -> **Baderon Diecidita**
-  - *Gerolt Blackthorn* -> **Gerolt Spinanera**
-  - *Nedrick Ironheart* -> **Nedrick Cuordiferro**
-
-#### G. Unità di Misura Eorzeane (G28)
-- Le unità eorzeane **non si traducono mai** in iarde, piedi, miglia o libbre:
-  - Lunghezza: **yalm**, **fulm**, **ilm**, **malm** (invariabili al plurale e sempre minuscoli: *"6 yalm"*, *"12 fulm"*, mai *"yalms"* o *"iarde"*).
-  - Peso: **ponze**, **onze**, **tonze** (invariabili: *"10 ponze"*, mai *"libbre"*).
-
-#### H. Abilità e Incantesimi (G24)
-- I nomi delle abilità iconiche di Final Fantasy **rimangono in inglese/originali** (*Fire, Blizzard, Cure, Rampart, Limit Break, Midare Setsugekka*).
-- **Solo gli effetti, le descrizioni e i tooltip vengono interamente tradotti in italiano**.
+### 3. GLOSSARIO APPROVATO
+Prima di tradurre, leggi `data/glossary/Glossary.md`. Usa le voci per i termini ricorrenti e rispetta le note sulle varianti contestuali. Solo i file elencati nel glossario sono approvati come fonti terminologiche.
 
 ---
 

@@ -64,7 +64,9 @@ public static class Program
                 return RunSearch(args, sqpackPath);
 
             case "validate":
-                return RunValidate();
+                return args.Length > 1 && args[1].Equals("--review", StringComparison.OrdinalIgnoreCase)
+                    ? RunGlossaryReview(args)
+                    : RunValidate();
 
             case "apply-cc":
                 return RunApplyCharacterCreation();
@@ -95,7 +97,8 @@ COMANDI DISPONIBILI:
   inspect <foglio> [rowId]      Ispeziona la struttura EXH/EXD di un foglio (es. lobby 1704)
   extract <foglio|all>          Estrae il testo originale in JSON preservando le traduzioni esistenti
   search <query>                Cerca un testo in inglese in tutti i fogli supportati
-  validate                      Verifica la conformità di tutte le traduzioni a 07_Glossary e SeString
+  validate                      Verifica le traduzioni con Glossary.md e SeString
+  validate --review [file]      Segnala termini sospetti nei file completi non approvati, o in un file specifico
 
 OPZIONI:
   --sqpack <percorso>           Specifica il percorso della cartella sqpack del gioco
@@ -403,7 +406,7 @@ ESEMPI:
         if (totalIssues == 0)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine($"CONVALIDA SUPERATA CON SUCCESSO! {totalEntries} righe conformi a 07_Glossary e SeString.");
+            Console.WriteLine($"CONVALIDA SUPERATA CON SUCCESSO! {totalEntries} righe conformi a Glossary.md e SeString.");
             Console.ResetColor();
             return 0;
         }
@@ -414,6 +417,53 @@ ESEMPI:
             Console.ResetColor();
             return 0;
         }
+    }
+
+    private static int RunGlossaryReview(string[] args)
+    {
+        var translationsDir = FindTranslationsDir();
+        var catalog = FFXIVItalian.Core.Glossary.GlossaryLoader.LoadCanonical();
+        string[] files;
+        if (args.Length > 2)
+        {
+            var requested = args[2];
+            var path = File.Exists(requested) ? requested : Path.Combine(translationsDir, requested);
+            if (!File.Exists(path))
+            {
+                Console.Error.WriteLine($"File non trovato: {requested}");
+                return 1;
+            }
+            files = [path];
+        }
+        else files = Directory.GetFiles(translationsDir, "*.json", SearchOption.AllDirectories);
+
+        int scanned = 0, complete = 0, findings = 0;
+        foreach (var file in files)
+        {
+            var relative = Path.GetRelativePath(translationsDir, file).Replace('\\', '/');
+            if (args.Length == 2 && catalog.ApprovedFiles.Contains(relative)) continue;
+            scanned++;
+            FFXIVItalian.Core.Glossary.GlossaryFileAudit audit;
+            try { audit = FFXIVItalian.Core.Glossary.GlossaryAudit.AuditFile(file, catalog.Engine); }
+            catch (Exception ex) when (ex is IOException or System.Text.Json.JsonException or FormatException)
+            {
+                Console.Error.WriteLine($"{relative}: {ex.Message}");
+                return 1;
+            }
+            if (!audit.IsComplete)
+            {
+                if (args.Length > 2) Console.WriteLine($"{relative}: traduzione incompleta o senza testo originale verificabile.");
+                continue;
+            }
+            complete++;
+            foreach (var issue in audit.Findings)
+            {
+                findings++;
+                Console.WriteLine($"{relative}#{issue.RowId}:{issue.Field}: {issue.Message}");
+            }
+        }
+        Console.WriteLine($"Revisione terminologica: {complete} file completi su {scanned} esaminati; {findings} suggerimenti da verificare.");
+        return 0;
     }
 
     private static int ValidateSingleEntry(string file, string rowId, string orig, string trans, FFXIVItalian.Core.Glossary.GlossaryEngine engine)

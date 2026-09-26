@@ -31,12 +31,6 @@ Leggi e scrivi direttamente sul file JSON in modo sequenziale, senza subagenti e
 
 ---
 
-### GLOSSARIO CHIAVE:
-- Fazioni: The Maelstrom → La Tempesta | Order of the Twin Adder → Ordine della Vipera Gemella | Immortal Flames → Fiamme Immortali | Scions of the Seventh Dawn → Figli della Settima Alba | Grand Company → Grande Compagnia | Free Company → Compagnia Libera.
-- Etere: aether → etere | aetherial → eterico/a | Aetheryte → Eterite | Aethernet → Eternet | Aetherial Sea → Mare Etereo | Lifestream → Flusso Vitale | Aether Sickness → Mal d'Etere.
-- Unità eorzeane (minuscole, invariabili al plurale, mai convertire in metri): yalm, fulm, ilm, malm | ponze, onze, tonze.
-- Classi (Job = Classe): Gladiatore, Paladino, Incursore (Marauder), Guerriero, Cavaliere Oscuro, Eterlama (Gunbreaker) | Incantatore (Conjurer), Mago Bianco, Arcanista, Studioso (Scholar), Astrologo, Saggio (Sage) | Pugile, Monaco, Lanciere, Dragoon (inv.), Furfante (Rogue), Ninja (inv.), Samurai (inv.), Mietitore (Reaper), Vipera | Arciere, Bardo, Artificiere (Machinist), Danzatore/Danzatrice | Taumaturgo, Mago Nero, Evocatore (Summoner), Mago Rosso, Mago Blu, Pittomante.
-- Razze: invariate (Hyur, Elezen, Lalafell, Miqo'te, Roegadyn, Au Ra, Hrothgar, Viera).
-- Toponimi: The Black Shroud → Velo Nero | Sabbie del Risveglio (Waking Sands) | Pietre Risorte (Rising Stones) | Pedaggio del Redivivo (Revenant's Toll) | Portobirra (Aleport) | Portovino (Wineport) | Cavamulino (Quarrymill) | Terralago (Lakeland).
-- NPC: Urianger (aulico/arcaico), Thancred (disinvolto/ironico), Alphinaud (diplomatico/formale), Alisaie (diretta/pungente), Y'shtola (calma/sferzante), Tataru (premurosa/squillante), Estinien (laconico/militare), Emet-Selch (teatrale/cinico).
+### GLOSSARIO APPROVATO:
+Leggi `data/glossary/Glossary.md` prima di tradurre. Applica le voci attestate e verifica le note sulle varianti nel contesto.
 ```

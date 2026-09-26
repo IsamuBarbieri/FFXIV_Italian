@@ -2,7 +2,7 @@
 
 Questo documento definisce i principi editoriali, la gestione dei registri dei personaggi e le regole grammaticali di riferimento per la localizzazione italiana di **Final Fantasy XIV**.
 
-La fonte canonica di riferimento terminologico è costituita da `data/glossary/07_Glossary.md` (v1.43).
+La fonte canonica di riferimento terminologico è costituita da `data/glossary/Glossary.md`.
 
 ---
 
@@ -16,21 +16,8 @@ Nel client di gioco non si usa la notazione `Italiano (Inglese)` (*es. non scriv
 
 Nei fogli dei gradi delle Grandi Compagnie usa un riferimento breve alla fazione (*Capitano della Fiamma*, *Sottotenente della Tempesta*, *Sottomaresciallo del Serpente*). Traduci anche `col_2` con il nome comune del grado in minuscolo (*capitano*, *sergente*); scegli la forma femminile nel foglio dedicato quando il grado la prevede.
 
-### Regola B: Trasparenza Semantica dei Nomi (G1)
-1. **Nomi Oparchi o Culturali (INVARIATI)**:
-   - Nomi e cognomi di popoli o lingue inventate non si toccano: *Alphinaud Leveilleur*, *Thancred Waters*, *Y'shtola Rhul*, *Urianger Augurelt*, *Merlwyb Bloefhiswyn*, *Kan-E-Senna*, *Raubahn Aldynn*, *Nanamo Ul Namo*.
-   - Capitali e macro-regioni: *Eorzea*, *Limsa Lominsa*, *Gridania*, *Ul'dah*, *Ishgard*, *Kugane*, *Garlemald*.
-2. **Cognomi ed Epiteti Trasparenti con Significato (TRADURRE)**:
-   - Quando una parola inglese comune (pianta, metallo, colore, azione) è usata come cognome o soprannome, si traduce per mantenere l'intento dell'autore:
-     - *Haurchefant Greystone* -> **Haurchefant Pietragrigia** (il cognome bastardo nobile di Coerthas).
-     - *Estinien Wyrmblood* -> **Estinien Sanguedidrago** (il titolo/lignaggio del Dragone Azzurro).
-     - *Baderon Tenfingers* -> **Baderon Diecidita**.
-     - *Gerolt Blackthorn* -> **Gerolt Spinanera**.
-     - *Nedrick Ironheart* -> **Nedrick Cuordiferro**.
-3. **Toponimi Descrittivi (TRADURRE)**:
-   - *Aleport* -> **Portobirra** | *Wineport* -> **Portovino** | *Lakeland* -> **Terralago** | *Quarrymill* -> **Cavamulino**.
-   - *The Waking Sands* -> **Sabbie del Risveglio** | *The Rising Stones* -> **Le Pietre Risorte**.
-   - *The Drowning Wench* -> **La Fanciulla Annegata** | *The Carline Canopy* -> **Il Baldacchino di Carline** | *Buscarron's Druthers* -> **Il Capriccio di Buscarron**.
+### Regola B: Nomi e toponimi
+Per le rese dei nomi e dei luoghi usa le forme documentate in `data/glossary/Glossary.md`, con le note di contesto e le fonti indicate. Per i nomi non presenti, verifica la traduzione prima di introdurre una nuova convenzione.
 
 ### Regola C: Ricerca della Lore e del Contesto Culturale (Wiki & Lorebook)
 I nomi, i toponimi, i mostri e i titoli delle missioni non devono **mai** essere tradotti in modo isolato o letterale. È obbligatorio verificare la lore del mondo di gioco attraverso le fonti canoniche (Wiki di FFXIV, Gamer Escape, ConsoleGamesWiki, Lodestone ed *Encyclopaedia Eorzea*):
@@ -77,11 +64,3 @@ Il database `ENpcBase` contiene il flag binario del genere (`0 = Maschio, 1 = Fe
 | **Haurchefant Pietragrigia** | **Cavalieresco, Caloroso, Esuberante** | Entusiasmo contagioso, affetto sincero e appassionato per il Guerriero della Luce, fedeltà incrollabile. | Fervore cavalleresco solare. Accoglienza calorosa ed enfatica ("Uno splendido spettacolo!"). |
 
 ---
-
-## 4. Regole Ferree di Glossario (Anti-Errori Comuni)
-
-1. **La Tempesta (G10)**: La Grande Compagnia di Limsa Lominsa è **La Tempesta** (MAI *"Maelstrom"* o *"Il Maelstrom"*).
-2. **Figli della Settima Alba (G10)**: L'organizzazione degli Scions è **I Figli della Settima Alba**.
-3. **Mal d'Etere (G7)**: Il debuff da teletrasporto/resurrezione è **Mal d'Etere** (MAI *"Malattia Eterica"*).
-4. **Unità di Misura (G28)**: *yalm*, *fulm*, *ilm*, *malm*, *ponze*, *onze*, *tonze* sono **invariabili** e **non vanno mai tradotte** in metri o iarde (vietato *"iarde"* o *"yalms"*).
-5. **Abilità e Magie (G24)**: I nomi iconici di mosse e incantesimi di franchise rimangono invariati (*Fire, Blizzard, Cure, Limit Break*); **le descrizioni, gli effetti e i tooltip vengono interamente tradotti in italiano**.

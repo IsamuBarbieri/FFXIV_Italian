@@ -429,11 +429,11 @@
   },
   "108": {
     "original": "Leave party and abandon your current duty?",
-    "translation": "Lasciare il gruppo e abbandonare la missione?"
+    "translation": "Lasciare il gruppo e abbandonare l'incarico?"
   },
   "109": {
     "original": "Abandon your current duty?",
-    "translation": "Vuoi abbandonare la missione?"
+    "translation": "Vuoi abbandonare l'incarico?"
   },
   "110": {
     "original": "<hex:024804F201FC03><hex:024904F201FD03>Discard <hex:02082FE4E80302FF1002310CFF054974656D03E802020203FF18022003E803032002310DFF054974656D04E802E803020303>?<hex:0249020103><hex:0248020103>",
@@ -1665,7 +1665,7 @@
   },
   "449": {
     "original": "<hex:021E020B03> Prioritize in Duty List <hex:021E021903> Scroll",
-    "translation": "<hex:021E020B03> Assegna Priorità nella Lista Missioni <hex:021E021903> Scorri"
+    "translation": "<hex:021E020B03> Assegna Priorità nella Lista incarichi <hex:021E021903> Scorri"
   },
   "450": {
     "original": "Journal",
@@ -1701,7 +1701,7 @@
   },
   "459": {
     "original": "You have no pending duties.",
-    "translation": "Non hai missioni in sospeso."
+    "translation": "Non hai incarichi in sospeso."
   },
   "460": {
     "original": "Accept",
@@ -1773,7 +1773,7 @@
   },
   "477": {
     "original": "You haven't completed any duties.",
-    "translation": "Non hai completato alcuna missione."
+    "translation": "Non hai completato alcun incarico."
   },
   "478": {
     "original": "You can reattempt a failed levequest for <hex:020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E8020303> leve allowance<hex:02080AE4E80202FF01FF027303>. Proceed?",
@@ -2169,7 +2169,7 @@
   },
   "584": {
     "original": "Changing classes during the course of this duty, or using a class above the recommended level, may reduce the amount of experience awarded upon completion.",
-    "translation": "Cambiare classe durante lo svolgimento di questa missione, o usare una classe superiore al livello consigliato, potrebbe ridurre l'esperienza assegnata al completamento."
+    "translation": "Cambiare classe durante lo svolgimento di questo incarico, o usare una classe superiore al livello consigliato, potrebbe ridurre l'esperienza assegnata al completamento."
   },
   "585": {
     "original": "Recommended Level +<hex:022003E80203>",
@@ -2261,7 +2261,7 @@
   },
   "608": {
     "original": "Your home point is not set to an aetheryte in this area. If you return to your current home point at any time during the levequest, you will automatically abandon the duty. Proceed?",
-    "translation": "Il tuo punto di ritorno non è impostato su un eterite di quest'area. Se torni al tuo attuale punto di ritorno durante l'incarico, abbandonerai automaticamente la missione. Procedere?"
+    "translation": "Il tuo punto di ritorno non è impostato su un eterite di quest'area. Se torni al tuo attuale punto di ritorno durante l'incarico, abbandonerai automaticamente l'incarico. Procedere?"
   },
   "609": {
     "original": "Location: <hex:022903EA0203>",
@@ -4273,15 +4273,15 @@
   },
   "1136": {
     "original": "Playing Recorded Duty",
-    "translation": "Riproduci Missione Registrata"
+    "translation": "Riproduci Incarico Registrato"
   },
   "1137": {
     "original": "Duty Recorder Paused<hex:02100103>The current duty is recordable. Initiate a <hex:024804F201FA03><hex:024904F201FB03>record ready check<hex:0249020103><hex:0248020103> to begin recording.",
-    "translation": "Registratore Missioni in Pausa<hex:02100103>La missione attuale è registrabile. Avvia un <hex:024804F201FA03><hex:024904F201FB03>controllo di presenza per la registrazione<hex:0249020103><hex:0248020103> per iniziare a registrare."
+    "translation": "Registratore Incarichi in Pausa<hex:02100103>L'incarico attuale è registrabile. Avvia un <hex:024804F201FA03><hex:024904F201FB03>controllo di presenza per la registrazione<hex:0249020103><hex:0248020103> per iniziare a registrare."
   },
   "1138": {
     "original": "Recording Duty",
-    "translation": "Registrazione Missione in Corso"
+    "translation": "Registrazione dell'incarico in Corso"
   },
   "1139": {
     "original": "The alarm <hex:024804F201F403><hex:024904F201F503><hex:022903EA0203><hex:0249020103><hex:0248020103> has been set for <hex:020703E80403><hex:020852E4E80601FF0C022002DB033A022402DA03FF3F020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D033A022402DA0320020810E0DB0DFF05702E6D2EFF05612E6D2E0303> <hex:020912E803FF04EE8390FF04EE8391FF04EE839203>.<hex:02100103>A notification will be given <hex:022003E80503> <hex:020816E4E80502FF076D696E757465FF086D696E7574657303> prior.",
@@ -8281,7 +8281,7 @@
   },
   "2253": {
     "original": "Until we complete our duty",
-    "translation": "Fino al completamento"
+    "translation": "Fino al completamento dell'incarico"
   },
   "2254": {
     "original": "Multiple runs for the loot",
@@ -9185,7 +9185,7 @@
   },
   "2500": {
     "original": "Duty Finder",
-    "translation": "Ricerca Missioni"
+    "translation": "Ricerca Incarichi"
   },
   "2502": {
     "original": "Level <hex:022003E80203>",
@@ -9201,7 +9201,7 @@
   },
   "2505": {
     "original": "Duty Status",
-    "translation": "Stato Missione"
+    "translation": "Stato Incarico"
   },
   "2506": {
     "original": "Withdraw",
@@ -9253,7 +9253,7 @@
   },
   "2518": {
     "original": "Duty: <hex:022903EA0203>",
-    "translation": "Missione: <hex:022903EA0203>"
+    "translation": "Incarico: <hex:022903EA0203>"
   },
   "2519": {
     "original": "Join Party in Progress",
@@ -9261,7 +9261,7 @@
   },
   "2520": {
     "original": "Duty Ready",
-    "translation": "Missione Pronta"
+    "translation": "Incarico Pronto"
   },
   "2521": {
     "original": "Class: ",
@@ -9301,7 +9301,7 @@
   },
   "2530": {
     "original": "Duty Status",
-    "translation": "Stato Missione"
+    "translation": "Stato Incarico"
   },
   "2532": {
     "original": "Current Class: ",
@@ -9353,7 +9353,7 @@
   },
   "2545": {
     "original": "Abandon duty?",
-    "translation": "Abbandonare la Missione?"
+    "translation": "Abbandonare l'incarico?"
   },
   "2546": {
     "original": "Level: <hex:022003E80203>",
@@ -9561,7 +9561,7 @@
   },
   "2598": {
     "original": "Duty Authorization",
-    "translation": "Autorizzazioni Missioni"
+    "translation": "Autorizzazioni Incarichi"
   },
   "2599": {
     "original": "Change Hierarchy",
@@ -10297,7 +10297,7 @@
   },
   "2829": {
     "original": "Duties:",
-    "translation": "Missioni:"
+    "translation": "Incarichi:"
   },
   "2830": {
     "original": "Following requirements not met:",
@@ -10309,11 +10309,11 @@
   },
   "2832": {
     "original": "Duty Finder",
-    "translation": "Ricerca Missioni"
+    "translation": "Ricerca Incarichi"
   },
   "2833": {
     "original": "Readying duty...",
-    "translation": "Preparazione missione..."
+    "translation": "Preparazione incarico..."
   },
   "2834": {
     "original": "Finding members...",
@@ -10345,7 +10345,7 @@
   },
   "2841": {
     "original": "Rewards for this duty can be traded with itinerant moogles.",
-    "translation": "Le ricompense per questa missione possono essere scambiate con i moguri itineranti."
+    "translation": "Le ricompense per questo incarico possono essere scambiate con i moguri itineranti."
   },
   "2842": {
     "original": "Progress: <hex:022003E80203>/<hex:022003E80303>",
@@ -10881,7 +10881,7 @@
   },
   "3050": {
     "original": "Duty Recorder",
-    "translation": "Registratore Missioni"
+    "translation": "Registratore Incarichi"
   },
   "3052": {
     "original": "Recorder Settings",
@@ -10897,7 +10897,7 @@
   },
   "3055": {
     "original": "Duty Records",
-    "translation": "Registrazioni Missioni"
+    "translation": "Registrazioni Incarichi"
   },
   "3056": {
     "original": "<hex:022B1BFF19022815FF10496E7374616E6365436F6E74656E74E802040303>",
@@ -10905,7 +10905,7 @@
   },
   "3057": {
     "original": "There are no recorded duties.",
-    "translation": "Nessuna missione registrata."
+    "translation": "Nessun incarico registrato."
   },
   "3058": {
     "original": "Length - <hex:025004E8020303>:<hex:025004E8030303>:<hex:025004E8040303>",
@@ -10925,15 +10925,15 @@
   },
   "3062": {
     "original": "Enables duty recording when all conditions are met.",
-    "translation": "Attiva la registrazione della missione quando tutte le condizioni sono soddisfatte."
+    "translation": "Attiva la registrazione dell'incarico quando tutte le condizioni sono soddisfatte."
   },
   "3063": {
     "original": "Disables duty recording even when all conditions are met.",
-    "translation": "Disattiva la registrazione della missione anche quando tutte le condizioni sono soddisfatte."
+    "translation": "Disattiva la registrazione dell'incarico anche quando tutte le condizioni sono soddisfatte."
   },
   "3064": {
     "original": "Display Duty Recorder help text.",
-    "translation": "Mostra guida del Registratore Missioni."
+    "translation": "Mostra guida del Registratore Incarichi."
   },
   "3065": {
     "original": "<hex:024804F201FC03><hex:024904F201FD03>Play function only available in inns.<hex:0249020103><hex:0248020103>",
@@ -10969,7 +10969,7 @@
   },
   "3074": {
     "original": "There are no recorded duties.",
-    "translation": "Nessua missione registrata."
+    "translation": "Nessun incarico registrato."
   },
   "3075": {
     "original": "・Locked",
@@ -11069,11 +11069,11 @@
   },
   "3104": {
     "original": "Initiating <hex:024804F201FA03><hex:024904F201FB03>record ready check<hex:0249020103><hex:0248020103>.<hex:02100103>Countdown will start and duty will begin recording once all duty members have selected “Yes.”<hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※A confirmation prompt will not appear for future recordings.<hex:0249020103><hex:0248020103>",
-    "translation": "Avvio del <hex:024804F201FA03><hex:024904F201FB03>controllo di presenza per la registrazione<hex:0249020103><hex:0248020103>.<hex:02100103>Il conto alla rovescia inizierà e la registrazione avrà inizio non appena tutti i membri avranno selezionato “Sì”.<hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Non verrà mostrata alcuna richiesta di conferma per le registrazioni future.<hex:0249020103><hex:0248020103>"
+    "translation": "Avvio del <hex:024804F201FA03><hex:024904F201FB03>controllo di presenza per la registrazione<hex:0249020103><hex:0248020103>.<hex:02100103>Il conto alla rovescia inizierà e la registrazione dell'incarico avrà inizio non appena tutti i membri avranno selezionato “Sì”.<hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Non verrà mostrata alcuna richiesta di conferma per le registrazioni future.<hex:0249020103><hex:0248020103>"
   },
   "3105": {
     "original": "Initiating <hex:024804F201FA03><hex:024904F201FB03>record ready check<hex:0249020103><hex:0248020103>.<hex:02100103>Countdown will start and duty will begin recording<hex:02100103>once all duty members have selected “Yes.”<hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※A confirmation prompt will not appear<hex:02100103>　for future recordings.<hex:0249020103><hex:0248020103>",
-    "translation": "Avvio del <hex:024804F201FA03><hex:024904F201FB03>controllo di presenza per la registrazione<hex:0249020103><hex:0248020103>.<hex:02100103>Il conto alla rovescia inizierà e la registrazione avrà inizio<hex:02100103>non appena tutti i membri avranno selezionato “Sì”.<hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Non verrà mostrata alcuna richiesta di conferma<hex:02100103>　per le registrazioni future.<hex:0249020103><hex:0248020103>"
+    "translation": "Avvio del <hex:024804F201FA03><hex:024904F201FB03>controllo di presenza per la registrazione<hex:0249020103><hex:0248020103>.<hex:02100103>Il conto alla rovescia inizierà e la registrazione dell'incarico avrà inizio<hex:02100103>non appena tutti i membri avranno selezionato “Sì”.<hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Non verrà mostrata alcuna richiesta di conferma<hex:02100103>　per le registrazioni future.<hex:0249020103><hex:0248020103>"
   },
   "3106": {
     "original": "Determine countdown length (5-30 seconds)",
@@ -11097,7 +11097,7 @@
   },
   "3111": {
     "original": "<hex:024804F201F403><hex:024904F201F503>Waiting for all duty members to confirm record ready check.<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:024804F201F403><hex:024904F201F503>In attesa che tutti i membri confermino il controllo di presenza.<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:024804F201F403><hex:024904F201F503>In attesa che tutti i partecipanti all'incarico confermino il controllo di presenza.<hex:0249020103><hex:0248020103>"
   },
   "3112": {
     "original": "Record Ready Check",
@@ -13021,7 +13021,7 @@
   },
   "3792": {
     "original": "Leave Current Duty",
-    "translation": "Abbandona Missione Attuale"
+    "translation": "Abbandona Incarico Attuale"
   },
   "3800": {
     "original": "Fishing Log",
@@ -18309,7 +18309,7 @@
   },
   "5544": {
     "original": "Select the PvP role action you wish to use. Only one of these actions can be used per role, and they are applicable only in large-scale PvP duties (Frontline and Rival Wings).",
-    "translation": "Seleziona l'azione di ruolo PvP che desideri usare. Può essere usata una sola azione per ruolo, ed è applicabile solo nelle missioni PvP su larga scala (Frontline e Rival Wings)."
+    "translation": "Seleziona l'azione di ruolo PvP che desideri usare. Può essere usata una sola azione per ruolo, ed è applicabile solo negli incarichi PvP su larga scala (Frontline e Rival Wings)."
   },
   "5545": {
     "original": "Select 3 traits. These will only activate during PvP.",
@@ -18325,7 +18325,7 @@
   },
   "5548": {
     "original": "PvP (player versus player) duty involves battles fought against other players rather than in-game creatures and incorporates an independent battle system with its own set of unique rules. FINAL FANTASY XIV offers several different varieties of PvP, from ranked matches to casual training for anywhere from 2 to 72 participants.<hex:02100103><hex:02100103>For more information on PvP, visit the Lodestone─the official player's site for FINAL FANTASY XIV.",
-    "translation": "Le missioni PvP (giocatore contro giocatore) prevedono battaglie combattute contro altri giocatori invece delle creature di gioco e incorporano un sistema di combattimento indipendente con regole uniche. FINAL FANTASY XIV offre diverse varietà di PvP, dalle partite classificate all'allenamento informale per gruppi da 2 a 72 partecipanti.<hex:02100103><hex:02100103>Per maggiori informazioni sul PvP, visita il Lodestone─il sito ufficiale dei giocatori di FINAL FANTASY XIV."
+    "translation": "Gli incarichi PvP (giocatore contro giocatore) prevedono battaglie combattute contro altri giocatori invece delle creature di gioco e incorporano un sistema di combattimento indipendente con regole uniche. FINAL FANTASY XIV offre diverse varietà di PvP, dalle partite classificate all'allenamento informale per gruppi da 2 a 72 partecipanti.<hex:02100103><hex:02100103>Per maggiori informazioni sul PvP, visita il Lodestone─il sito ufficiale dei giocatori di FINAL FANTASY XIV."
   },
   "5549": {
     "original": "Visit Website",
@@ -18493,11 +18493,11 @@
   },
   "5607": {
     "original": "Select a completed duty to receive a seal.",
-    "translation": "Seleziona una missione completata per ricevere un timbro."
+    "translation": "Seleziona un incarico completato per ricevere un timbro."
   },
   "5608": {
     "original": "Complete a task to receive a seal.<hex:02100103><hex:02100103>※Applicable duties may be confirmed via the subcommand.",
-    "translation": "Completa un incarico per ricevere un timbro.<hex:02100103><hex:02100103>※Le missioni valide possono essere verificate tramite il sottocomando."
+    "translation": "Completa un incarico per ricevere un timbro.<hex:02100103><hex:02100103>※Gli incarichi validi possono essere verificate tramite il sottocomando."
   },
   "5609": {
     "original": "Reward List",
@@ -18565,7 +18565,7 @@
   },
   "5625": {
     "original": "Second Chance points can be earned by completing duties with party members who are new to the duty, or by completing duties which offer Second Chance bonus points.",
-    "translation": "I punti Seconda Occasione possono essere ottenuti completando missioni con membri del gruppo che partecipano per la prima volta, o completando missioni con bonus Seconda Occasione."
+    "translation": "I punti Seconda Occasione possono essere ottenuti completando incarichi con membri del gruppo che partecipano per la prima volta, o completando incarichi con bonus Seconda Occasione."
   },
   "5626": {
     "original": "Second Chance Points: <hex:022003E80203>/9",
@@ -18577,7 +18577,7 @@
   },
   "5628": {
     "original": "Restores the status of a completed duty to incomplete, while rendering the status of an incomplete duty to complete.",
-    "translation": "Ripristina lo stato di una missione completata come incompleta, impostando lo stato di una missione incompleta come completata."
+    "translation": "Ripristina lo stato di un incarico completato come incompleta, impostando lo stato di un incarico incompleto come completata."
   },
   "5629": {
     "original": "Shuffle (2 Points)",
@@ -18593,7 +18593,7 @@
   },
   "5632": {
     "original": "Select a completed duty to be rendered incomplete.",
-    "translation": "Seleziona una missione completata da rendere incompleta."
+    "translation": "Seleziona un incarico completato da rendere incompleta."
   },
   "5633": {
     "original": "Execute",
@@ -18609,7 +18609,7 @@
   },
   "5636": {
     "original": "Render a previously completed duty incomplete?",
-    "translation": "Rendere incompleta una missione precedentemente completata?"
+    "translation": "Rendere incompleta un incarico precedentemente completata?"
   },
   "5637": {
     "original": "Guaranteed",
@@ -18681,7 +18681,7 @@
   },
   "5662": {
     "original": "<hex:024804F201F403><hex:024904F201F503>Select from where you wish to resume the duty.<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:024804F201F403><hex:024904F201F503>Seleziona da dove desideri riprendere la missione.<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:024804F201F403><hex:024904F201F503>Seleziona da dove desideri riprendere l'incarico.<hex:0249020103><hex:0248020103>"
   },
   "5663": {
     "original": "Resume from the beginning",
@@ -19301,11 +19301,11 @@
   },
   "5847": {
     "original": "Open Duty or Category",
-    "translation": "Apri Missione o Categoria"
+    "translation": "Apri Incarico o Categoria"
   },
   "5848": {
     "original": "Applicable Duties",
-    "translation": "Missioni Valide"
+    "translation": "Incarichi Validi"
   },
   "5860": {
     "original": "Quantity",
@@ -19925,7 +19925,7 @@
   },
   "6092": {
     "original": "<hex:022B09FF07022903EA020303> Duty Record #<hex:022003E80303>",
-    "translation": "<hex:022B09FF07022903EA020303> Registrazione Missione N. <hex:022003E80303>"
+    "translation": "<hex:022B09FF07022903EA020303> Registrazione dell'incarico N. <hex:022003E80303>"
   },
   "6093": {
     "original": "<hex:022B1BFF19022815FF10496E7374616E6365436F6E74656E74E802040303><hex:02100103><hex:020703E80303><hex:022002DE03>/<hex:022002DC03>/<hex:022002DF03> <hex:022002DB03>:<hex:022402DA03>:<hex:022402D903>",
@@ -23581,7 +23581,7 @@
   },
   "7137": {
     "original": "Waymarks can only be placed outside of combat.<hex:02100103>※Can be used during combat in PvP.<hex:02100103>Waymarks can only be saved and loaded during certain duties.",
-    "translation": "I segnaposto possono essere posizionati solo fuori dal combattimento.<hex:02100103>※Possono essere usati durante il combattimento nel PvP.<hex:02100103>I segnaposto possono essere salvati e caricati solo durante alcune missioni."
+    "translation": "I segnaposto possono essere posizionati solo fuori dal combattimento.<hex:02100103>※Possono essere usati durante il combattimento nel PvP.<hex:02100103>I segnaposto possono essere salvati e caricati solo durante alcuni incarichi."
   },
   "7138": {
     "original": "Overwrite",
@@ -24309,7 +24309,7 @@
   },
   "7655": {
     "original": "Display duty list.",
-    "translation": "Mostra elenco missioni."
+    "translation": "Mostra elenco incarichi."
   },
   "7656": {
     "original": "Display minimap.",
@@ -24517,11 +24517,11 @@
   },
   "7708": {
     "original": "Display registered duties in Timers.",
-    "translation": "Mostra missioni registrate nei Timer."
+    "translation": "Mostra incarichi registrati nei Timer."
   },
   "7709": {
     "original": "Display duty registration details in Timers.",
-    "translation": "Mostra dettagli registrazione missioni nei Timer."
+    "translation": "Mostra dettagli registrazione incarichi nei Timer."
   },
   "7710": {
     "original": "Party Members",
@@ -25485,7 +25485,7 @@
   },
   "7957": {
     "original": "※Display will change in accordance with PvP duties.",
-    "translation": "※La visualizzazione cambierà in base alle missioni PvP."
+    "translation": "※La visualizzazione cambierà in base agli incarichi PvP."
   },
   "7958": {
     "original": "Public Areas",
@@ -25525,7 +25525,7 @@
   },
   "7968": {
     "original": "Enable display of Traveler title in instanced duties.",
-    "translation": "Mostra il titolo Viaggiatore nelle missioni di istanza."
+    "translation": "Mostra il titolo Viaggiatore negli incarichi di istanza."
   },
   "7969": {
     "original": "※The Traveler title indicates a player is visiting another data center.",
@@ -25549,7 +25549,7 @@
   },
   "7974": {
     "original": "※Only applicable to PvE duties.",
-    "translation": "※Applicabile solo alle missioni PvE."
+    "translation": "※Applicabile solo agli incarichi PvE."
   },
   "7975": {
     "original": "Maximum",
@@ -25889,7 +25889,7 @@
   },
   "8075": {
     "original": "Number of Duties Displayed",
-    "translation": "Numero di Missioni Visualizzate"
+    "translation": "Numero di Incarichi Visualizzati"
   },
   "8076": {
     "original": "5",
@@ -25957,11 +25957,11 @@
   },
   "8093": {
     "original": "Caution. You have already completed the duty selected.<hex:02100103><hex:02100103>Enter <hex:022815FF10496E7374616E6365436F6E74656E74E8020403>?<hex:02100103><hex:024804F201F403><hex:024904F201F503>※Loot rule: <hex:020923E805FF074E6F726D616CFF0B4772656564204F6E6C79FF0B4C6F6F746D617374657203><hex:0249020103><hex:0248020103>",
-    "translation": "Attenzione. Hai già completato la missione selezionata.<hex:02100103><hex:02100103>Entrare in <hex:022815FF10496E7374616E6365436F6E74656E74E8020403>?<hex:02100103><hex:024804F201F403><hex:024904F201F503>※Regola bottino: <hex:020923E805FF074E6F726D616CFF0B4772656564204F6E6C79FF0B4C6F6F746D617374657203><hex:0249020103><hex:0248020103>"
+    "translation": "Attenzione. Hai già completato l'incarico selezionato.<hex:02100103><hex:02100103>Entrare in <hex:022815FF10496E7374616E6365436F6E74656E74E8020403>?<hex:02100103><hex:024804F201F403><hex:024904F201F503>※Regola bottino: <hex:020923E805FF074E6F726D616CFF0B4772656564204F6E6C79FF0B4C6F6F746D617374657203><hex:0249020103><hex:0248020103>"
   },
   "8094": {
     "original": "Caution. You have already completed the duty selected.<hex:02100103><hex:02100103><hex:022B66FF64020860E803FF54020850E2E8030BFF4202093EE803FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8030303FF07022003E803030303> <hex:020839E4E80302FF186D656D626572206F662074686520706172747920686173FF1A6D656D62657273206F6620746865207061727479206861766503> progressed beyond this part in the story. <hex:022B66FF64020860E804FF54020850E2E8040BFF4202093EE804FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8040303FF07022003E804030303> treasure <hex:020816E4E80402FF07636F66666572FF08636F666665727303> will appear upon duty completion.<hex:02100103><hex:02100103>Enter <hex:022815FF10496E7374616E6365436F6E74656E74E8020403>?<hex:02100103><hex:024804F201F403><hex:024904F201F503>※Loot rule: <hex:020923E805FF074E6F726D616CFF0B4772656564204F6E6C79FF0B4C6F6F746D617374657203><hex:0249020103><hex:0248020103>",
-    "translation": "Attenzione. Hai già completato la missione selezionata.<hex:02100103><hex:02100103><hex:022B66FF64020860E803FF54020850E2E8030BFF4202093EE803FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8030303FF07022003E803030303> <hex:020839E4E80302FF186D656D626572206F662074686520706172747920686173FF1A6D656D62657273206F6620746865207061727479206861766503> ha superato questa parte della storia. <hex:022B66FF64020860E804FF54020850E2E8040BFF4202093EE804FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8040303FF07022003E804030303> forzieri <hex:020816E4E80402FF07636F66666572FF08636F666665727303> appariranno al completamento dell'incarico.<hex:02100103><hex:02100103>Entrare in <hex:022815FF10496E7374616E6365436F6E74656E74E8020403>?<hex:02100103><hex:024804F201F403><hex:024904F201F503>※Regola bottino: <hex:020923E805FF074E6F726D616CFF0B4772656564204F6E6C79FF0B4C6F6F746D617374657203><hex:0249020103><hex:0248020103>"
+    "translation": "Attenzione. Hai già completato l'incarico selezionato.<hex:02100103><hex:02100103><hex:022B66FF64020860E803FF54020850E2E8030BFF4202093EE803FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8030303FF07022003E803030303> <hex:020839E4E80302FF186D656D626572206F662074686520706172747920686173FF1A6D656D62657273206F6620746865207061727479206861766503> ha superato questa parte della storia. <hex:022B66FF64020860E804FF54020850E2E8040BFF4202093EE804FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8040303FF07022003E804030303> forzieri <hex:020816E4E80402FF07636F66666572FF08636F666665727303> appariranno al completamento dell'incarico.<hex:02100103><hex:02100103>Entrare in <hex:022815FF10496E7374616E6365436F6E74656E74E8020403>?<hex:02100103><hex:024804F201F403><hex:024904F201F503>※Regola bottino: <hex:020923E805FF074E6F726D616CFF0B4772656564204F6E6C79FF0B4C6F6F746D617374657203><hex:0249020103><hex:0248020103>"
   },
   "8095": {
     "original": "<hex:022B66FF64020860E803FF54020850E2E8030BFF4202093EE803FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8030303FF07022003E803030303> <hex:020839E4E80302FF186D656D626572206F662074686520706172747920686173FF1A6D656D62657273206F6620746865207061727479206861766503> progressed beyond this part in the story. <hex:022B66FF64020860E804FF54020850E2E8040BFF4202093EE804FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8040303FF07022003E804030303> treasure <hex:020816E4E80402FF07636F66666572FF08636F666665727303> will appear upon duty completion.<hex:02100103><hex:02100103>Enter <hex:022815FF10496E7374616E6365436F6E74656E74E8020403>?<hex:02100103><hex:024804F201F403><hex:024904F201F503>※Loot rule: <hex:020923E805FF074E6F726D616CFF0B4772656564204F6E6C79FF0B4C6F6F746D617374657203><hex:0249020103><hex:0248020103>",
@@ -25969,11 +25969,11 @@
   },
   "8096": {
     "original": "Caution. The duty selected is beyond your current story progression.<hex:02100103><hex:02100103><hex:022B66FF64020860E803FF54020850E2E8030BFF4202093EE803FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8030303FF07022003E803030303> <hex:020839E4E80302FF186D656D626572206F662074686520706172747920686173FF1A6D656D62657273206F6620746865207061727479206861766503> progressed beyond this part in the story. <hex:022B66FF64020860E804FF54020850E2E8040BFF4202093EE804FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8040303FF07022003E804030303> treasure <hex:020816E4E80402FF07636F66666572FF08636F666665727303> will appear upon duty completion.<hex:02100103><hex:02100103>Enter <hex:022815FF10496E7374616E6365436F6E74656E74E8020403>?<hex:02100103><hex:024804F201F403><hex:024904F201F503>※Loot rule: <hex:020923E805FF074E6F726D616CFF0B4772656564204F6E6C79FF0B4C6F6F746D617374657203><hex:0249020103><hex:0248020103>",
-    "translation": "Attenzione. La missione selezionata supera i tuoi progressi attuali nella storia.<hex:02100103><hex:02100103><hex:022B66FF64020860E803FF54020850E2E8030BFF4202093EE803FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8030303FF07022003E803030303> <hex:020839E4E80302FF186D656D626572206F662074686520706172747920686173FF1A6D656D62657273206F6620746865207061727479206861766503> ha superato questa parte della storia. <hex:022B66FF64020860E804FF54020850E2E8040BFF4202093EE804FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8040303FF07022003E804030303> forzieri <hex:020816E4E80402FF07636F66666572FF08636F666665727303> appariranno al completamento dell'incarico.<hex:02100103><hex:02100103>Entrare in <hex:022815FF10496E7374616E6365436F6E74656E74E8020403>?<hex:02100103><hex:024804F201F403><hex:024904F201F503>※Regola bottino: <hex:020923E805FF074E6F726D616CFF0B4772656564204F6E6C79FF0B4C6F6F746D617374657203><hex:0249020103><hex:0248020103>"
+    "translation": "Attenzione. L'incarico selezionato supera i tuoi progressi attuali nella storia.<hex:02100103><hex:02100103><hex:022B66FF64020860E803FF54020850E2E8030BFF4202093EE803FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8030303FF07022003E803030303> <hex:020839E4E80302FF186D656D626572206F662074686520706172747920686173FF1A6D656D62657273206F6620746865207061727479206861766503> ha superato questa parte della storia. <hex:022B66FF64020860E804FF54020850E2E8040BFF4202093EE804FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8040303FF07022003E804030303> forzieri <hex:020816E4E80402FF07636F66666572FF08636F666665727303> appariranno al completamento dell'incarico.<hex:02100103><hex:02100103>Entrare in <hex:022815FF10496E7374616E6365436F6E74656E74E8020403>?<hex:02100103><hex:024804F201F403><hex:024904F201F503>※Regola bottino: <hex:020923E805FF074E6F726D616CFF0B4772656564204F6E6C79FF0B4C6F6F746D617374657203><hex:0249020103><hex:0248020103>"
   },
   "8097": {
     "original": "Caution. The duty selected is beyond your current story progression.<hex:02100103><hex:02100103>Enter <hex:022815FF10496E7374616E6365436F6E74656E74E8020403>?<hex:02100103><hex:024804F201F403><hex:024904F201F503>※Loot rule: <hex:020923E805FF074E6F726D616CFF0B4772656564204F6E6C79FF0B4C6F6F746D617374657203><hex:0249020103><hex:0248020103>",
-    "translation": "Attenzione. La missione selezionata supera i tuoi progressi attuali nella storia.<hex:02100103><hex:02100103>Entrare in <hex:022815FF10496E7374616E6365436F6E74656E74E8020403>?<hex:02100103><hex:024804F201F403><hex:024904F201F503>※Regola bottino: <hex:020923E805FF074E6F726D616CFF0B4772656564204F6E6C79FF0B4C6F6F746D617374657203><hex:0249020103><hex:0248020103>"
+    "translation": "Attenzione. L'incarico selezionato supera i tuoi progressi attuali nella storia.<hex:02100103><hex:02100103>Entrare in <hex:022815FF10496E7374616E6365436F6E74656E74E8020403>?<hex:02100103><hex:024804F201F403><hex:024904F201F503>※Regola bottino: <hex:020923E805FF074E6F726D616CFF0B4772656564204F6E6C79FF0B4C6F6F746D617374657203><hex:0249020103><hex:0248020103>"
   },
   "8098": {
     "original": "Enter <hex:022815FF10496E7374616E6365436F6E74656E74E8020403>?",
@@ -25981,7 +25981,7 @@
   },
   "8099": {
     "original": "<hex:024804F201FC03><hex:024904F201FD03>Caution.<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>A total of <hex:020860E803FF54020850E2E8030BFF4202093EE803FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8030303FF07022003E8030303> members (including you) have already completed this duty and are no longer eligible for duty rewards. <hex:022B66FF64020860E804FF54020850E2E8040BFF4202093EE804FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8040303FF07022003E804030303> treasure <hex:020816E4E80402FF07636F66666572FF08636F666665727303> will appear upon duty completion.<hex:02100103><hex:02100103>Enter <hex:022815FF10496E7374616E6365436F6E74656E74E8020403>?<hex:02100103><hex:024804F201F403><hex:024904F201F503>※Loot rule: <hex:020923E805FF074E6F726D616CFF0B4772656564204F6E6C79FF0B4C6F6F746D617374657203><hex:0249020103><hex:0248020103>",
-    "translation": "<hex:024804F201FC03><hex:024904F201FD03>Attenzione.<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Un totale di <hex:020860E803FF54020850E2E8030BFF4202093EE803FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8030303FF07022003E8030303> membri (te incluso) ha già completato questa missione e non può ricevere ricompense. <hex:022B66FF64020860E804FF54020850E2E8040BFF4202093EE804FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8040303FF07022003E804030303> forzieri <hex:020816E4E80402FF07636F66666572FF08636F666665727303> appariranno al completamento dell'incarico.<hex:02100103><hex:02100103>Entrare in <hex:022815FF10496E7374616E6365436F6E74656E74E8020403>?<hex:02100103><hex:024804F201F403><hex:024904F201F503>※Regola bottino: <hex:020923E805FF074E6F726D616CFF0B4772656564204F6E6C79FF0B4C6F6F746D617374657203><hex:0249020103><hex:0248020103>"
+    "translation": "<hex:024804F201FC03><hex:024904F201FD03>Attenzione.<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Un totale di <hex:020860E803FF54020850E2E8030BFF4202093EE803FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8030303FF07022003E8030303> membri (te incluso) ha già completato questo incarico e non può ricevere ricompense. <hex:022B66FF64020860E804FF54020850E2E8040BFF4202093EE804FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8040303FF07022003E804030303> forzieri <hex:020816E4E80402FF07636F66666572FF08636F666665727303> appariranno al completamento dell'incarico.<hex:02100103><hex:02100103>Entrare in <hex:022815FF10496E7374616E6365436F6E74656E74E8020403>?<hex:02100103><hex:024804F201F403><hex:024904F201F503>※Regola bottino: <hex:020923E805FF074E6F726D616CFF0B4772656564204F6E6C79FF0B4C6F6F746D617374657203><hex:0249020103><hex:0248020103>"
   },
   "8100": {
     "original": "Decipher",
@@ -27269,7 +27269,7 @@
   },
   "8465": {
     "original": "The following activities have been added to the Duty Finder and are accessible under Gold Saucer:<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Triple Triad Battlehall Matches<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>LoVM Player Battles (Non-RP)<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>LoVM Player Battles (RP)<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>LoVM Tournaments<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Lord of Verminion match registration no longer requires MGP.",
-    "translation": "Le seguenti attività sono state aggiunte alla Ricerca Missioni e sono accessibili sotto Gold Saucer:<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Partite nella Battlehall di Triple Triad<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Battaglie tra giocatori LoVM (non RP)<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Battaglie tra giocatori LoVM (RP)<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Tornei LoVM<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>La registrazione alle partite di Lord of Verminion non richiede più MGP."
+    "translation": "Le seguenti attività sono state aggiunte alla Ricerca Incarichi e sono accessibili sotto Gold Saucer:<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Partite nella Battlehall di Triple Triad<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Battaglie tra giocatori LoVM (non RP)<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Battaglie tra giocatori LoVM (RP)<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Tornei LoVM<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>La registrazione alle partite di Lord of Verminion non richiede più MGP."
   },
   "8466": {
     "original": "The following features have been added to estate orchestrions:<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Playlists<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Play All option<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Repeat option<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Shuffle option<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Further information on playlists can be found under the active help topic “The Orchestrion.”<hex:02100103><hex:02100103>Caught fish can now be placed in <hex:024804F201FA03><hex:024904F201FB03>aquariums<hex:0249020103><hex:0248020103> and displayed in estates or private rooms.",
@@ -27305,7 +27305,7 @@
   },
   "8474": {
     "original": "The following duties have been added<hex:02100103>to the Duty Finder under “Gold Saucer”:<hex:02100103><hex:02100103>Chocobo Races<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Chocobo Race: Random<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Chocobo Race: Sagolii Road<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Chocobo Race: Costa del Sol<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Chocobo Race: Tranquil Paths<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Chocobo Races (Party Member)<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Chocobo Race: Random<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Chocobo Race: Sagolii Road<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Chocobo Race: Costa del Sol<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Chocobo Race: Tranquil Paths<hex:0249020103><hex:0248020103><hex:02100103>",
-    "translation": "Le seguenti missioni sono state aggiunte<hex:02100103>alla Ricerca Missioni sotto \"Gold Saucer\":<hex:02100103><hex:02100103>Corse dei Chocobo<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei Chocobo: Casuale<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei Chocobo: Sagolii Road<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei Chocobo: Costa del Sol<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei Chocobo: Tranquil Paths<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Corse dei Chocobo (Membro del gruppo)<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei Chocobo: Casuale<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei Chocobo: Sagolii Road<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei Chocobo: Costa del Sol<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei Chocobo: Tranquil Paths<hex:0249020103><hex:0248020103><hex:02100103>"
+    "translation": "Le seguenti incarichi sono state aggiunte<hex:02100103>alla Ricerca Incarichi sotto \"Gold Saucer\":<hex:02100103><hex:02100103>Corse dei Chocobo<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei Chocobo: Casuale<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei Chocobo: Sagolii Road<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei Chocobo: Costa del Sol<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei Chocobo: Tranquil Paths<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Corse dei Chocobo (Membro del gruppo)<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei Chocobo: Casuale<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei Chocobo: Sagolii Road<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei Chocobo: Costa del Sol<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei Chocobo: Tranquil Paths<hex:0249020103><hex:0248020103><hex:02100103>"
   },
   "8475": {
     "original": "A new Gold Saucer Active Time Event<hex:02100103>“Leap of Faith” is now available!<hex:02100103><hex:02100103>To coincide with this addition, the GATE<hex:02100103>schedule has been updated. Speak with<hex:02100103>the Gold Saucer attendant at Entrance<hex:02100103>Square for details. ",
@@ -27757,7 +27757,7 @@
   },
   "8605": {
     "original": "Duty Roulette",
-    "translation": "Roulette Missioni"
+    "translation": "Roulette Incarichi"
   },
   "8606": {
     "original": "Guildhests",
@@ -28601,7 +28601,7 @@
   },
   "8883": {
     "original": "Unable to retrieve full data during instanced duty.",
-    "translation": "Impossibile recuperare i dati completi durante una missione con istanza."
+    "translation": "Impossibile recuperare i dati completi durante un incarico con istanza."
   },
   "8884": {
     "original": "Client List",
@@ -30165,7 +30165,7 @@
   },
   "9366": {
     "original": "Unable to retrieve data while bound by duty.",
-    "translation": "Impossibile recuperare i dati durante una duty."
+    "translation": "Impossibile recuperare i dati durante un incarico."
   },
   "9367": {
     "original": "Verminion",
@@ -30833,7 +30833,7 @@
   },
   "9538": {
     "original": "<hex:024804F201F403><hex:024904F201F503>Withdrawing from a match three times a day, whether it be via the withdraw button or allowing the timer to run out, will result in dismissal from the Battlehall as well as a penalty temporarily restricting use of both Duty and Raid Finders.<hex:0249020103><hex:0248020103><hex:02100103>Proceed?",
-    "translation": "<hex:024804F201F403><hex:024904F201F503>Ritirarsi da una partita tre volte in un giorno, sia premendo il pulsante di ritiro che lasciando scadere il tempo, comporterà l'espulsione dalla Battlehall e una penalità che limiterà temporaneamente l'uso di Duty Finder e Raid Finder.<hex:0249020103><hex:0248020103><hex:02100103>Procedere?"
+    "translation": "<hex:024804F201F403><hex:024904F201F503>Ritirarsi da una partita tre volte in un giorno, sia premendo il pulsante di ritiro che lasciando scadere il tempo, comporterà l'espulsione dalla Battlehall e una penalità che limiterà temporaneamente l'uso di Ricerca Incarichi e Raid Finder.<hex:0249020103><hex:0248020103><hex:02100103>Procedere?"
   },
   "9539": {
     "original": "Confirming opponent...",
@@ -32281,7 +32281,7 @@
   },
   "10000": {
     "original": "Open Duty Finder settings.",
-    "translation": "Apri le impostazioni del Duty Finder."
+    "translation": "Apri le impostazioni della Ricerca Incarichi."
   },
   "10001": {
     "original": "Parties will be formed with players who have selected the same languages.",
@@ -32289,7 +32289,7 @@
   },
   "10002": {
     "original": "Duty Finder Settings",
-    "translation": "Impostazioni Duty Finder"
+    "translation": "Impostazioni Ricerca Incarichi"
   },
   "10004": {
     "original": "Close window and discard all changes without saving?",
@@ -32313,7 +32313,7 @@
   },
   "10009": {
     "original": "Participate in duties without meeting the minimum party member requirements.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Level sync and item level sync are disabled and role requirements are ignored.<hex:02100103>※Defeating enemies will yield no EXP or items.<hex:02100103>※Equipment will not gain spiritbond.<hex:02100103>※Certain duties will apply special enhancements to players.<hex:02100103>※Only certain duties allow unrestricted parties.<hex:02100103>※Only the party leader's settings are applicable.<hex:02100103>※Vote abandon may be used at any time.<hex:0249020103><hex:0248020103>",
-    "translation": "Partecipa alle duty senza soddisfare i requisiti minimi di membri del party.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Il Level Sync e l'Item Level Sync sono disattivati e i requisiti di ruolo ignorati.<hex:02100103>※Sconfiggere i nemici non conferirà EXP né oggetti.<hex:02100103>※L'equipaggiamento non accumulerà spiritbond.<hex:02100103>※Alcune duty applicheranno potenziamenti speciali ai giocatori.<hex:02100103>※Solo alcune duty consentono l'unrestricted party.<hex:02100103>※Si applicano solo le impostazioni del capogruppo.<hex:02100103>※La votazione di abbandono può essere avviata in qualsiasi momento.<hex:0249020103><hex:0248020103>"
+    "translation": "Partecipa agli incarichi senza soddisfare i requisiti minimi di membri del party.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Il Level Sync e l'Item Level Sync sono disattivati e i requisiti di ruolo ignorati.<hex:02100103>※Sconfiggere i nemici non conferirà EXP né oggetti.<hex:02100103>※L'equipaggiamento non accumulerà spiritbond.<hex:02100103>※Alcuni incarichi applicheranno potenziamenti speciali ai giocatori.<hex:02100103>※Solo alcuni incarichi consentono l'unrestricted party.<hex:02100103>※Si applicano solo le impostazioni del capogruppo.<hex:02100103>※La votazione di abbandono può essere avviata in qualsiasi momento.<hex:0249020103><hex:0248020103>"
   },
   "10010": {
     "original": "Minimum IL",
@@ -32321,7 +32321,7 @@
   },
   "10011": {
     "original": "Item level sync all gear to the duty's minimum requirement.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※When using an unrestricted party, player and item levels will be synced.<hex:02100103>※When using an unrestricted party, gear will still gain spiritbond.<hex:02100103>※When using an unrestricted party, enemies will still yield EXP and items.<hex:02100103>※Can only be selected when using a preformed party meeting party size requirements or an unrestricted party.<hex:02100103>※Only the party leader's settings are applicable.<hex:0249020103><hex:0248020103>",
-    "translation": "Sincronizza l'item level di tutto l'equipaggiamento al requisito minimo della duty.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Con un unrestricted party, i livelli del giocatore e degli oggetti saranno sincronizzati.<hex:02100103>※Con un unrestricted party, l'equipaggiamento accumulerà comunque spiritbond.<hex:02100103>※Con un unrestricted party, i nemici conferiranno comunque EXP e oggetti.<hex:02100103>※Selezionabile solo con un party preformato che rispetta le dimensioni richieste o un unrestricted party.<hex:02100103>※Si applicano solo le impostazioni del capogruppo.<hex:0249020103><hex:0248020103>"
+    "translation": "Sincronizza l'item level di tutto l'equipaggiamento al requisito minimo dell'incarico.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Con un unrestricted party, i livelli del giocatore e degli oggetti saranno sincronizzati.<hex:02100103>※Con un unrestricted party, l'equipaggiamento accumulerà comunque spiritbond.<hex:02100103>※Con un unrestricted party, i nemici conferiranno comunque EXP e oggetti.<hex:02100103>※Selezionabile solo con un party preformato che rispetta le dimensioni richieste o un unrestricted party.<hex:02100103>※Si applicano solo le impostazioni del capogruppo.<hex:0249020103><hex:0248020103>"
   },
   "10012": {
     "original": "Confirm",
@@ -32345,7 +32345,7 @@
   },
   "10017": {
     "original": "The Need, Greed, Pass system is employed for loot drops.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Loot rules for some duties may be set to Greed Only.<hex:0249020103><hex:0248020103>",
-    "translation": "Per l'assegnazione del bottino viene utilizzato il sistema Need, Greed, Pass.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Le regole del bottino per alcune duty possono essere impostate su Solo Greed.<hex:0249020103><hex:0248020103>"
+    "translation": "Per l'assegnazione del bottino viene utilizzato il sistema Need, Greed, Pass.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Le regole del bottino per alcuni incarichi possono essere impostate su Solo Greed.<hex:0249020103><hex:0248020103>"
   },
   "10018": {
     "original": "Greed Only",
@@ -32493,7 +32493,7 @@
   },
   "10054": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>Check the boxes of the languages you are comfortable using.<hex:02100103>The ★ indicates your current client language setting.<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※This setting is shared in all duty matching.<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>Spunta le caselle delle lingue che comprendi.<hex:02100103>La ★ indica l'impostazione linguistica attuale del client.<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Questa impostazione è condivisa per tutti gli abbinamenti di duty.<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>Spunta le caselle delle lingue che comprendi.<hex:02100103>La ★ indica l'impostazione linguistica attuale del client.<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Questa impostazione è condivisa per tutti gli abbinamenti agli incarichi.<hex:0249020103><hex:0248020103>"
   },
   "10055": {
     "original": "★",
@@ -32505,7 +32505,7 @@
   },
   "10057": {
     "original": "Duty Information",
-    "translation": "Informazioni Missione"
+    "translation": "Informazioni Incarico"
   },
   "10058": {
     "original": "Close window and discard all changes without saving?",
@@ -32517,7 +32517,7 @@
   },
   "10060": {
     "original": "Duty Menu",
-    "translation": "Menu Missioni"
+    "translation": "Menu Incarichi"
   },
   "10062": {
     "original": "Functions",
@@ -32529,11 +32529,11 @@
   },
   "10064": {
     "original": "Abandon Duty",
-    "translation": "Abbandona Missione"
+    "translation": "Abbandona Incarico"
   },
   "10065": {
     "original": "Leave current duty.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※A Duty Finder penalty will be incurred in the following cases:<hex:02100103>　You are first to leave a matched party before duty is complete.<hex:02100103>　You are first to leave a preformed party in less than 10 minutes.<hex:02100103><hex:0249020103><hex:0248020103>",
-    "translation": "Lascia la duty attuale.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Verrà applicata una penalità del Duty Finder nei seguenti casi:<hex:02100103>　Sei il primo a lasciare un party abbinato prima del completamento della duty.<hex:02100103>　Sei il primo a lasciare un party preformato in meno di 10 minuti.<hex:02100103><hex:0249020103><hex:0248020103>"
+    "translation": "Lascia l'incarico attuale.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Verrà applicata una penalità della Ricerca Incarichi nei seguenti casi:<hex:02100103>　Sei il primo a lasciare un party abbinato prima del completamento dell'incarico.<hex:02100103>　Sei il primo a lasciare un party preformato in meno di 10 minuti.<hex:02100103><hex:0249020103><hex:0248020103>"
   },
   "10066": {
     "original": "Vote Abandon",
@@ -32541,7 +32541,7 @@
   },
   "10067": {
     "original": "Initiate a vote to abandon current duty.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Parties must wait 15 minutes from duty commencement<hex:02100103>　before voting.<hex:0249020103><hex:0248020103>",
-    "translation": "Avvia una votazione per abbandonare la duty attuale.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Il party deve attendere 15 minuti dall'inizio della duty<hex:02100103>　prima di poter votare.<hex:0249020103><hex:0248020103>"
+    "translation": "Avvia una votazione per abbandonare l'incarico attuale.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Il party deve attendere 15 minuti dall'inizio dell'incarico<hex:02100103>　prima di poter votare.<hex:0249020103><hex:0248020103>"
   },
   "10068": {
     "original": "Add Members",
@@ -32553,11 +32553,11 @@
   },
   "10070": {
     "original": "Display Duty Information",
-    "translation": "Mostra Informazioni Missione"
+    "translation": "Mostra Informazioni Incarico"
   },
   "10071": {
     "original": "Confirm duty requirements and rewards.",
-    "translation": "Conferma requisiti e ricompense della missione."
+    "translation": "Conferma requisiti e ricompense dell'incarico."
   },
   "10072": {
     "original": "Details",
@@ -32569,11 +32569,11 @@
   },
   "10074": {
     "original": "Duty Finder Settings",
-    "translation": "Impostazioni Ricerca Missioni"
+    "translation": "Impostazioni Ricerca Incarichi"
   },
   "10075": {
     "original": "Options set in Duty Finder settings.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Only settings for current duty are available for review.<hex:0249020103><hex:0248020103>",
-    "translation": "Opzioni impostate per Ricerca Missione.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※È possibile visualizzare solo le impostazioni della missione attuale.<hex:0249020103><hex:0248020103>"
+    "translation": "Opzioni impostate per Ricerca Incarichi.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※È possibile visualizzare solo le impostazioni dell'incarico attuale.<hex:0249020103><hex:0248020103>"
   },
   "10076": {
     "original": "Raid Finder",
@@ -32585,15 +32585,15 @@
   },
   "10079": {
     "original": "Duty Complete",
-    "translation": "Missione Completata"
+    "translation": "Incarico Completato"
   },
   "10080": {
     "original": "Duty Incomplete",
-    "translation": "Missione Incompleta"
+    "translation": "Incarico Incompleto"
   },
   "10081": {
     "original": "Option only available after completing duty.",
-    "translation": "Opzione disponibile solo dopo aver completato la missione."
+    "translation": "Opzione disponibile solo dopo aver completato l'incarico."
   },
   "10082": {
     "original": "Purpose",
@@ -32601,7 +32601,7 @@
   },
   "10083": {
     "original": "Duty Completion",
-    "translation": "Completamento Missione"
+    "translation": "Completamento Incarico"
   },
   "10084": {
     "original": "Practice",
@@ -32629,7 +32629,7 @@
   },
   "10090": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>※The “Duty Complete” option is only available for previously<hex:02100103>　completed duties.<hex:02100103><hex:020875E4E80201FF6DE280BB54686520E2809C4475747920436F6D706C6574696F6EE2809D206F7074696F6E206973206F6E6C7920617661696C61626C652069662074686502100103E380807765656B6C7920726577617264206861732079657420746F206265206F627461696E65642E02100103FF0103>※Practice phase selection does not entail the actual skipping<hex:02100103>　of phases.<hex:0249020103><hex:0248020103><hex:02100103><hex:0208F2016CE4E80201FFF20162024804F201FC03024904F201FD03E280BB49662074686520726567697374726174696F6E20706572696F64206F7665726C617073207769746820746865207765656B6C792072657365742C02100103E38080726567697374726174696F6E2077696C6C2062652063616E63656C65642E02100103E280BB4966203120746F2034206D656D62657273206861766520616C726561647920726563656976656420746865207765656B6C79207265776172642C02100103E380806F722069662061206D656D626572206C6F6773206F7574206F7220646973636F6E6E656374732C20746865206E756D626572206F66207265776172647302100103E3808077696C6C20626520726564756365642E204E6F20636F66666572732077696C6C206170706561722069662035206F72206D6F7265206D656D6265727302100103E380806861766520726563656976656420746865207265776172642E02490201030248020103FF0103>",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>※L'opzione “Missione Completata” è disponibile solo per le missioni<hex:02100103>　completate in precedenza.<hex:02100103><hex:020875E4E80201FF6DE280BB54686520E2809C4475747920436F6D706C6574696F6EE2809D206F7074696F6E206973206F6E6C7920617661696C61626C652069662074686502100103E380807765656B6C7920726577617264206861732079657420746F206265206F627461696E65642E02100103FF0103>※La selezione della fase di pratica non comporta il salto effettivo<hex:02100103>　delle fasi.<hex:0249020103><hex:0248020103><hex:02100103><hex:0208F2016CE4E80201FFF20162024804F201FC03024904F201FD03E280BB49662074686520726567697374726174696F6E20706572696F64206F7665726C617073207769746820746865207765656B6C792072657365742C02100103E38080726567697374726174696F6E2077696C6C2062652063616E63656C65642E02100103E280BB4966203120746F2034206D656D62657273206861766520616C726561647920726563656976656420746865207765656B6C79207265776172642C02100103E380806F722069662061206D656D626572206C6F6773206F7574206F7220646973636F6E6E656374732C20746865206E756D626572206F66207265776172647302100103E3808077696C6C20626520726564756365642E204E6F20636F66666572732077696C6C206170706561722069662035206F72206D6F7265206D656D6265727302100103E380806861766520726563656976656420746865207265776172642E02490201030248020103FF0103>"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>※L'opzione “Incarico Completato” è disponibile solo per gli incarichi<hex:02100103>　completate in precedenza.<hex:02100103><hex:020875E4E80201FF6DE280BB54686520E2809C4475747920436F6D706C6574696F6EE2809D206F7074696F6E206973206F6E6C7920617661696C61626C652069662074686502100103E380807765656B6C7920726577617264206861732079657420746F206265206F627461696E65642E02100103FF0103>※La selezione della fase di pratica non comporta il salto effettivo<hex:02100103>　delle fasi.<hex:0249020103><hex:0248020103><hex:02100103><hex:0208F2016CE4E80201FFF20162024804F201FC03024904F201FD03E280BB49662074686520726567697374726174696F6E20706572696F64206F7665726C617073207769746820746865207765656B6C792072657365742C02100103E38080726567697374726174696F6E2077696C6C2062652063616E63656C65642E02100103E280BB4966203120746F2034206D656D62657273206861766520616C726561647920726563656976656420746865207765656B6C79207265776172642C02100103E380806F722069662061206D656D626572206C6F6773206F7574206F7220646973636F6E6E656374732C20746865206E756D626572206F66207265776172647302100103E3808077696C6C20626520726564756365642E204E6F20636F66666572732077696C6C206170706561722069662035206F72206D6F7265206D656D6265727302100103E380806861766520726563656976656420746865207265776172642E02490201030248020103FF0103>"
   },
   "10091": {
     "original": "Unselect",
@@ -32653,7 +32653,7 @@
   },
   "10096": {
     "original": "The duty selected is beyond your current story progression. The preceding duty will be skipped and <hex:024804F201FE03><hex:024904F201FF03>its weekly reward lost<hex:0249020103><hex:0248020103>. Proceed?",
-    "translation": "La missione selezionata è oltre la tua attuale progressione della storia. La missione precedente verrà saltata e <hex:024804F201FE03><hex:024904F201FF03>la sua ricompensa settimanale andrà persa<hex:0249020103><hex:0248020103>. Procedere?"
+    "translation": "L'incarico selezionato è oltre la tua attuale progressione della storia. L'incarico precedente verrà saltata e <hex:024804F201FE03><hex:024904F201FF03>la sua ricompensa settimanale andrà persa<hex:0249020103><hex:0248020103>. Procedere?"
   },
   "10097": {
     "original": "Practice Phase Selection",
@@ -32733,7 +32733,7 @@
   },
   "10117": {
     "original": "※Items only available while undertaking duty.",
-    "translation": "※Oggetti disponibili solo durante lo svolgimento della missione."
+    "translation": "※Oggetti disponibili solo durante lo svolgimento dell'incarico."
   },
   "10118": {
     "original": "Accept",
@@ -32889,7 +32889,7 @@
   },
   "10160": {
     "original": "<hex:024804F2020203>Progress Record<hex:0248020103><hex:02100103>Progress within the latest Savage raids is<hex:02100103>periodically saved, allowing for continuation<hex:02100103>of the duty from that point.<hex:02100103><hex:02100103>Progress is reset every week on<hex:02100103><hex:020603120303><hex:020942DDFF0753756E646179FF074D6F6E646179FF0854756573646179FF0A5765646E6573646179FF095468757273646179FF07467269646179FF09536174757264617903> at <hex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03> <hex:020810E0DB0DFF05702E6D2EFF05612E6D2E03> (Earth time).<hex:02100103><hex:02100103><hex:024804F2020203>Party Progress<hex:0248020103><hex:02100103>A party's starting point in the raid is<hex:02100103>determined by the leader's past progress.<hex:02100103>As long as all other conditions are met, <hex:02100103>players who have not progressed as far as<hex:02100103>the leader may still participate in the duty.<hex:02100103><hex:02100103>If a party member's progress was less<hex:02100103>than that of the leader, then progress<hex:02100103>will be updated to match.<hex:02100103><hex:02100103>If a party member's progress is beyond<hex:02100103>that of the leader, that member's progress<hex:02100103>will remain unaffected.<hex:02100103><hex:02100103><hex:024804F2020203>Reward Restrictions<hex:0248020103><hex:02100103>Players will not earn rewards for completing<hex:02100103>phases they have already completed.<hex:02100103>Coffer quantity will vary based on the total<hex:02100103>number of party members who have already<hex:02100103>completed the duty.<hex:02100103><hex:02100103>When participating in the latest Savage raid<hex:02100103>with a matched party, duty rewards may<hex:02100103>change based on the progress level of<hex:02100103>matched members.<hex:02100103><hex:02100103><hex:024804F2020203>Job Distribution<hex:0248020103><hex:02100103>Parties formed with the Raid Finder do not<hex:02100103>allow for two members with the same job<hex:02100103>unless certain conditions are met.<hex:02100103><hex:02100103>DPS jobs are divided into the following roles:<hex:02100103>Melee DPS, Physical Ranged DPS,<hex:02100103>Magical Ranged DPS, and Not Specified.<hex:02100103><hex:02100103>When the raid purpose is set as “Duty Completion,”<hex:02100103>the jobs that fall into Not Specified must be<hex:02100103>different from the ones which fill the other three<hex:02100103>DPS roles. When the raid purpose is set to “Practice,”<hex:02100103>overlapping between specified and unspecified DPS<hex:02100103>jobs is allowed.<hex:02100103><hex:02100103><hex:024804F2020203>Loot Rules & Languages<hex:0248020103><hex:02100103>Loot rules and Language settings are imported<hex:02100103>from current Duty Finder settings.<hex:02100103><hex:02100103><hex:024804F2020203>Penalties<hex:0248020103><hex:02100103>Penalties for withdrawing from duties are<hex:02100103>shared between all matched content.",
-    "translation": "<hex:024804F2020203>Registro progressi<hex:0248020103><hex:02100103>I progressi nei raid Savage più recenti vengono<hex:02100103>salvati periodicamente, permettendo di riprendere<hex:02100103>la duty da quel punto.<hex:02100103><hex:02100103>I progressi si azzerano ogni settimana di<hex:02100103><hex:020603120303><hex:020942DDFF0753756E646179FF074D6F6E646179FF0854756573646179FF0A5765646E6573646179FF095468757273646179FF07467269646179FF09536174757264617903> alle <hex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03> <hex:020810E0DB0DFF05702E6D2EFF05612E6D2E03> (tempo reale).<hex:02100103><hex:02100103><hex:024804F2020203>Progressi del party<hex:0248020103><hex:02100103>Il punto di partenza nel raid per il party è<hex:02100103>determinato dai progressi precedenti del leader.<hex:02100103>Se tutte le altre condizioni sono soddisfatte, <hex:02100103>i giocatori che non sono avanzati quanto il leader<hex:02100103>possono comunque partecipare alla duty.<hex:02100103><hex:02100103>Se i progressi di un membro erano inferiori<hex:02100103>a quelli del leader, allora i progressi<hex:02100103>verranno aggiornati di conseguenza.<hex:02100103><hex:02100103>Se i progressi di un membro sono superiori<hex:02100103>a quelli del leader, i progressi di quel membro<hex:02100103>rimarranno invariati.<hex:02100103><hex:02100103><hex:024804F2020203>Limitazioni ricompense<hex:0248020103><hex:02100103>I giocatori non otterranno ricompense per<hex:02100103>il completamento di fasi già completate in precedenza.<hex:02100103>Il numero di scrigni varierà in base al totale<hex:02100103>dei membri del party che hanno già completato<hex:02100103>la duty.<hex:02100103><hex:02100103>Partecipando all'ultimo raid Savage con un<hex:02100103>party abbinato, le ricompense potrebbero variare<hex:02100103>in base al livello di progresso dei membri<hex:02100103>abbinati.<hex:02100103><hex:02100103><hex:024804F2020203>Distribuzione job<hex:0248020103><hex:02100103>I party formati con il Raid Finder non consentono<hex:02100103>due membri con lo stesso job a meno che non<hex:02100103>siano soddisfatte determinate condizioni.<hex:02100103><hex:02100103>I job DPS sono suddivisi nei seguenti ruoli:<hex:02100103>Melee DPS, Physical Ranged DPS,<hex:02100103>Magical Ranged DPS e Non specificato.<hex:02100103><hex:02100103>Quando l'obiettivo del raid è “Completamento duty”,<hex:02100103>i job che rientrano in Non specificato devono essere<hex:02100103>diversi da quelli che occupano gli altri tre ruoli<hex:02100103>DPS. Quando l'obiettivo è impostato su “Pratica”,<hex:02100103>è permessa la sovrapposizione tra job DPS specificati<hex:02100103>e non specificati.<hex:02100103><hex:02100103><hex:024804F2020203>Regole bottino e lingue<hex:0248020103><hex:02100103>Le regole del bottino e della lingua vengono importate<hex:02100103>dalle impostazioni attuali del Duty Finder.<hex:02100103><hex:02100103><hex:024804F2020203>Penalità<hex:0248020103><hex:02100103>Le penalità per l'abbandono delle duty sono<hex:02100103>condivise tra tutti i contenuti abbinati."
+    "translation": "<hex:024804F2020203>Registro progressi<hex:0248020103><hex:02100103>I progressi nei raid Savage più recenti vengono<hex:02100103>salvati periodicamente, permettendo di riprendere<hex:02100103>l'incarico da quel punto.<hex:02100103><hex:02100103>I progressi si azzerano ogni settimana di<hex:02100103><hex:020603120303><hex:020942DDFF0753756E646179FF074D6F6E646179FF0854756573646179FF0A5765646E6573646179FF095468757273646179FF07467269646179FF09536174757264617903> alle <hex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03> <hex:020810E0DB0DFF05702E6D2EFF05612E6D2E03> (tempo reale).<hex:02100103><hex:02100103><hex:024804F2020203>Progressi del party<hex:0248020103><hex:02100103>Il punto di partenza nel raid per il party è<hex:02100103>determinato dai progressi precedenti del leader.<hex:02100103>Se tutte le altre condizioni sono soddisfatte, <hex:02100103>i giocatori che non sono avanzati quanto il leader<hex:02100103>possono comunque partecipare all'incarico.<hex:02100103><hex:02100103>Se i progressi di un membro erano inferiori<hex:02100103>a quelli del leader, allora i progressi<hex:02100103>verranno aggiornati di conseguenza.<hex:02100103><hex:02100103>Se i progressi di un membro sono superiori<hex:02100103>a quelli del leader, i progressi di quel membro<hex:02100103>rimarranno invariati.<hex:02100103><hex:02100103><hex:024804F2020203>Limitazioni ricompense<hex:0248020103><hex:02100103>I giocatori non otterranno ricompense per<hex:02100103>il completamento di fasi già completate in precedenza.<hex:02100103>Il numero di scrigni varierà in base al totale<hex:02100103>dei membri del party che hanno già completato<hex:02100103>l'incarico.<hex:02100103><hex:02100103>Partecipando all'ultimo raid Savage con un<hex:02100103>party abbinato, le ricompense potrebbero variare<hex:02100103>in base al livello di progresso dei membri<hex:02100103>abbinati.<hex:02100103><hex:02100103><hex:024804F2020203>Distribuzione job<hex:0248020103><hex:02100103>I party formati con il Raid Finder non consentono<hex:02100103>due membri con lo stesso job a meno che non<hex:02100103>siano soddisfatte determinate condizioni.<hex:02100103><hex:02100103>I job DPS sono suddivisi nei seguenti ruoli:<hex:02100103>Melee DPS, Physical Ranged DPS,<hex:02100103>Magical Ranged DPS e Non specificato.<hex:02100103><hex:02100103>Quando l'obiettivo del raid è “Completamento Incarico”,<hex:02100103>i job che rientrano in Non specificato devono essere<hex:02100103>diversi da quelli che occupano gli altri tre ruoli<hex:02100103>DPS. Quando l'obiettivo è impostato su “Pratica”,<hex:02100103>è permessa la sovrapposizione tra job DPS specificati<hex:02100103>e non specificati.<hex:02100103><hex:02100103><hex:024804F2020203>Regole bottino e lingue<hex:0248020103><hex:02100103>Le regole del bottino e della lingua vengono importate<hex:02100103>dalle impostazioni attuali della Ricerca Incarichi.<hex:02100103><hex:02100103><hex:024804F2020203>Penalità<hex:0248020103><hex:02100103>Le penalità per l'abbandono degli incarichi sono<hex:02100103>condivise tra tutti i contenuti abbinati."
   },
   "10161": {
     "original": "Close",
@@ -32897,19 +32897,19 @@
   },
   "10162": {
     "original": "Enlistment in a Grand Company",
-    "translation": "Arruolamento in una Grand Company"
+    "translation": "Arruolamento in una Grande Compagnia"
   },
   "10163": {
     "original": "Set whether or not you wish to join a party in progress looking for members. This feature allows for party matching without using the Duty Finder.<hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Setting active only when playing solo and when all duties registered have been previously completed.<hex:0249020103><hex:0248020103>",
-    "translation": "Imposta se desideri o meno unirti a un party in corso che cerca membri. Questa funzione consente l'abbinamento del party senza usare la Ricerca Missione.<hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Impostazione attiva solo giocando in solitario e quando tutte le Duty registrate sono state precedentemente completate.<hex:0249020103><hex:0248020103>"
+    "translation": "Imposta se desideri o meno unirti a un party in corso che cerca membri. Questa funzione consente l'abbinamento del party senza usare la Ricerca Incarichi.<hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Impostazione attiva solo giocando in solitario e quando tutte gli incarichi registrati sono state precedentemente completate.<hex:0249020103><hex:0248020103>"
   },
   "10165": {
     "original": "Skipping duty. <hex:024804F201FE03><hex:024904F201FF03>The corresponding weekly reward will be made available again after the weekly reset.<hex:0249020103><hex:0248020103>",
-    "translation": "Salto della missione. <hex:024804F201FE03><hex:024904F201FF03>La relativa ricompensa settimanale sarà di nuovo disponibile dopo il reset settimanale.<hex:0249020103><hex:0248020103>"
+    "translation": "Salto dell'incarico. <hex:024804F201FE03><hex:024904F201FF03>La relativa ricompensa settimanale sarà di nuovo disponibile dopo il reset settimanale.<hex:0249020103><hex:0248020103>"
   },
   "10166": {
     "original": "Duty Status",
-    "translation": "Stato della Missione"
+    "translation": "Stato dell'incarico"
   },
   "10167": {
     "original": "Withdraw",
@@ -32953,7 +32953,7 @@
   },
   "10180": {
     "original": "You can now receive your mentor certification.<hex:02100103><hex:02100103>As a mentor, you are expected to actively perform the following:<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>1. Provide gameplay advice for new adventurers and other players.<hex:02100103>2. Be an exemplar for player etiquette.<hex:02100103>3. Invite new adventurers to the Novice Network, and answer their queries in the chat channel.<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Accepting mentor certification will grant you access to the Novice Network and Duty Roulette: Mentor, as well as earn you a bonus to experience points when grouping with a new adventurer.<hex:02100103><hex:02100103><hex:024804F201F403><hex:024904F201F503>※Mentors can participate in the Novice Network regardless of online status. You will also be able to register for Duty Roulette: Mentor, but your status will automatically switch to “Mentor” once inside the instance.<hex:02100103>※Inappropriate mentor behavior may be reported.<hex:0249020103><hex:0248020103>",
-    "translation": "Ora puoi ricevere la certificazione di mentor.<hex:02100103><hex:02100103>In qualità di mentor, ci si aspetta che tu svolga attivamente quanto segue:<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>1. Fornire consigli di gioco ai nuovi avventurieri e agli altri giocatori.<hex:02100103>2. Essere un modello esemplare di etichetta di gioco.<hex:02100103>3. Invitare i nuovi avventurieri nel Novice Network e rispondere alle loro domande nella chat.<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Accettare la certificazione da mentor ti garantirà l'accesso al Novice Network e alla Duty Roulette: Mentor, oltre a un bonus di punti esperienza quando sei in party con un nuovo avventuriero.<hex:02100103><hex:02100103><hex:024804F201F403><hex:024904F201F503>※I mentor possono partecipare al Novice Network indipendentemente dallo stato online. Potrai anche registrarti alla Duty Roulette: Mentor, ma il tuo stato passerà automaticamente a “Mentor” una volta all'interno dell'istanza.<hex:02100103>※I comportamenti inappropriati dei mentor possono essere segnalati.<hex:0249020103><hex:0248020103>"
+    "translation": "Ora puoi ricevere la certificazione di mentor.<hex:02100103><hex:02100103>In qualità di mentor, ci si aspetta che tu svolga attivamente quanto segue:<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>1. Fornire consigli di gioco ai nuovi avventurieri e agli altri giocatori.<hex:02100103>2. Essere un modello esemplare di etichetta di gioco.<hex:02100103>3. Invitare i nuovi avventurieri nel Novice Network e rispondere alle loro domande nella chat.<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Accettare la certificazione da mentor ti garantirà l'accesso al Novice Network e alla Roulette Incarichi: Mentor, oltre a un bonus di punti esperienza quando sei in party con un nuovo avventuriero.<hex:02100103><hex:02100103><hex:024804F201F403><hex:024904F201F503>※I mentor possono partecipare al Novice Network indipendentemente dallo stato online. Potrai anche registrarti alla Roulette Incarichi: Mentor, ma il tuo stato passerà automaticamente a “Mentor” una volta all'interno dell'istanza.<hex:02100103>※I comportamenti inappropriati dei mentor possono essere segnalati.<hex:0249020103><hex:0248020103>"
   },
   "10181": {
     "original": "Accept terms and become a mentor.",
@@ -32961,7 +32961,7 @@
   },
   "10182": {
     "original": "Do you wish to cancel all of your current mentor certifications?<hex:02100103>By renouncing your mentor status, you forfeit access to the Novice Network and Duty Roulette: Mentor, and will also lose the bonus to experience points earned when grouping with a new adventurer.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Mentor certification will be unavailable for 30 days following cancellation.<hex:0249020103><hex:0248020103>",
-    "translation": "Desideri annullare tutte le tue attuali certificazioni da mentor?<hex:02100103>Rinunciando allo stato di mentor, perderai l'accesso al Novice Network e alla Duty Roulette: Mentor, oltre al bonus ai punti esperienza guadagnati quando sei in party con un nuovo avventuriero.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>La certificazione da mentor non sarà disponibile per 30 giorni dopo l'annullamento.<hex:0249020103><hex:0248020103>"
+    "translation": "Desideri annullare tutte le tue attuali certificazioni da mentor?<hex:02100103>Rinunciando allo stato di mentor, perderai l'accesso al Novice Network e alla Roulette Incarichi: Mentor, oltre al bonus ai punti esperienza guadagnati quando sei in party con un nuovo avventuriero.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>La certificazione da mentor non sarà disponibile per 30 giorni dopo l'annullamento.<hex:0249020103><hex:0248020103>"
   },
   "10183": {
     "original": "Accept terms and renounce your mentor status.",
@@ -33133,7 +33133,7 @@
   },
   "10225": {
     "original": "Hide duty list during instanced duty.",
-    "translation": "Nascondi elenco missioni durante le missioni con istanza."
+    "translation": "Nascondi elenco incarichi durante gli incarichi con istanza."
   },
   "10226": {
     "original": "Role Sort Settings",
@@ -33149,7 +33149,7 @@
   },
   "10229": {
     "original": "Hide duty list during non-instanced duty.",
-    "translation": "Nascondi elenco missioni durante le missioni senza istanza."
+    "translation": "Nascondi elenco incarichi durante gli incarichi senza istanza."
   },
   "10230": {
     "original": "PvE Settings",
@@ -33349,7 +33349,7 @@
   },
   "10279": {
     "original": "Enable duty action input.",
-    "translation": "Attiva input per le Azioni Missione."
+    "translation": "Attiva input per le Azioni dell'incarico."
   },
   "10280": {
     "original": "Status Effect Icon Display Maximum",
@@ -33525,7 +33525,7 @@
   },
   "10323": {
     "original": "Show party member portraits at the start of duty.",
-    "translation": "Mostra i ritratti dei membri del party all'inizio della missione."
+    "translation": "Mostra i ritratti dei membri del party all'inizio dell'incarico."
   },
   "10324": {
     "original": "Display portraits in the player commendation window.",
@@ -34133,7 +34133,7 @@
   },
   "10500": {
     "original": "Register via Duty Support",
-    "translation": "Registrati tramite Supporto Missione"
+    "translation": "Registrati tramite Supporto Incarichi"
   },
   "10501": {
     "original": "Register via Trust",
@@ -34981,11 +34981,11 @@
   },
   "10811": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>※The “Duty Complete” option is only available for previously<hex:02100103>　completed duties.<hex:02100103>※Practice phase selection does not entail the actual skipping of<hex:02100103>　phases.<hex:0249020103><hex:0248020103><hex:02100103>",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>※L'opzione Missione completata” è disponibile solo per le missioni<hex:02100103>　completate in precedenza.<hex:02100103>※La selezione della fase di pratica non comporta il salto effettivo<hex:02100103>　delle fasi.<hex:0249020103><hex:0248020103><hex:02100103>"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>※L'opzione “Incarico completato” è disponibile solo per gli incarichi<hex:02100103>　completati in precedenza.<hex:02100103>※La selezione della fase di pratica non comporta il salto effettivo<hex:02100103>　delle fasi.<hex:0249020103><hex:0248020103><hex:02100103>"
   },
   "10812": {
     "original": "Cannot select with other duties",
-    "translation": "Non selezionabile con altre missioni"
+    "translation": "Non selezionabile con altri incarichi"
   },
   "10813": {
     "original": "Frontline Freelancer",
@@ -35021,19 +35021,19 @@
   },
   "10821": {
     "original": "Regular Duty",
-    "translation": "Missione Regolare"
+    "translation": "Incarico Regolare"
   },
   "10822": {
     "original": "High-end Duty",
-    "translation": "Missione d'Élite"
+    "translation": "Incarico d'Élite"
   },
   "10823": {
     "original": "Unable to participate in duty while looking for a party.<hex:02100103>Quit using the Party Finder?",
-    "translation": "Impossibile partecipare alla missione mentre si cerca un gruppo.<hex:02100103>Uscire dalla Ricerca Gruppo?"
+    "translation": "Impossibile partecipare all'incarico mentre si cerca un gruppo.<hex:02100103>Uscire dalla Ricerca Gruppo?"
   },
   "10824": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>※This duty is only open for full parties without role requirements. Matching requirements cannot be set.<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>※Questa missione è accessibile solo per gruppi completi senza requisiti di ruolo. I criteri di abbinamento non possono essere impostati.<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>※Questo incarico è accessibile solo per gruppi completi senza requisiti di ruolo. I criteri di abbinamento non possono essere impostati.<hex:0249020103><hex:0248020103>"
   },
   "10825": {
     "original": "※Three parties with at least one member each are necessary when the Unrestricted Party option is in effect.",
@@ -35053,7 +35053,7 @@
   },
   "10829": {
     "original": "※Limited jobs can participate only in a preformed party meeting party size requirements or an unrestricted party, and if duty rules allow.",
-    "translation": "※I job limitati possono partecipare solo in party preformati che rispettano i requisiti di dimensione o in gruppo senza restrizioni, e se consentito dalle regole della missione."
+    "translation": "※I job limitati possono partecipare solo in party preformati che rispettano i requisiti di dimensione o in gruppo senza restrizioni, e se consentito dalle regole dell'incarico."
   },
   "10830": {
     "original": "Register from Home World",
@@ -35065,7 +35065,7 @@
   },
   "10832": {
     "original": "Due to revisions being made to the PvP system, this duty is temporarily unavailable. Further announcements will be made in upcoming patch notes or similar.",
-    "translation": "A causa di modifiche al sistema PvP, questa missione è temporaneamente non disponibile. Ulteriori annunci saranno comunicati nelle prossime note della patch o canali simili."
+    "translation": "A causa di modifiche al sistema PvP, questo incarico è temporaneamente non disponibile. Ulteriori annunci saranno comunicati nelle prossime note della patch o canali simili."
   },
   "10834": {
     "original": "Sacramental Offerings",
@@ -35109,7 +35109,7 @@
   },
   "10849": {
     "original": "The Echo cannot be silenced in this duty.",
-    "translation": "L'Eco non può essere silenziato in questa missione."
+    "translation": "L'Eco non può essere silenziato in questo incarico."
   },
   "10850": {
     "original": "A Most Gentlemanly Duel",
@@ -35305,7 +35305,7 @@
   },
   "10919": {
     "original": "Filter search results based on party objective, conditions of participation, play style, Duty Finder settings, and loot rules.",
-    "translation": "Filtra i risultati della ricerca in base a obiettivo del party, condizioni di partecipazione, stile di gioco, impostazioni della Ricerca Missione e regole del bottino."
+    "translation": "Filtra i risultati della ricerca in base a obiettivo del party, condizioni di partecipazione, stile di gioco, impostazioni della Ricerca Incarichi e regole del bottino."
   },
   "10920": {
     "original": "Sort in ascending/descending order. (Up to 50 results shown)",
@@ -35329,7 +35329,7 @@
   },
   "10925": {
     "original": "Duty Completion",
-    "translation": "Completamento Missione"
+    "translation": "Completamento Incarico"
   },
   "10926": {
     "original": "Practice",
@@ -35365,11 +35365,11 @@
   },
   "10934": {
     "original": "Duty Complete",
-    "translation": "Missione Completata"
+    "translation": "Incarico Completato"
   },
   "10935": {
     "original": "Duty Finder Settings",
-    "translation": "Impostazioni Ricerca Missione"
+    "translation": "Impostazioni Ricerca Incarichi"
   },
   "10936": {
     "original": "Unrestricted Party",
@@ -35381,11 +35381,11 @@
   },
   "10938": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>※Settings assigned here are for display only. To change actual settings, you must access the Duty Finder interface.<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>※Le impostazioni assegnate qui sono solo a scopo informativo. Per modificarle effettivamente, devi accedere all'interfaccia della Ricerca Missione.<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>※Le impostazioni assegnate qui sono solo a scopo informativo. Per modificarle effettivamente, devi accedere all'interfaccia della Ricerca Incarichi.<hex:0249020103><hex:0248020103>"
   },
   "10939": {
     "original": "Selecting “Duty Complete” signifies that only players who have completed a certain duty may join the party. Selecting “Duty Incomplete” signifies the opposite.",
-    "translation": "Selezionare Missione Completata” indica che solo i giocatori che hanno già completato una certa missione possono unirsi al gruppo. Selezionare Missione Incompleta” indica l'opposto."
+    "translation": "Selezionare “Incarico completato” indica che solo i giocatori che hanno già completato un certo incarico possono unirsi al gruppo. Selezionare “Incarico incompleto” indica l'opposto."
   },
   "10940": {
     "original": "Contact List",
@@ -35421,7 +35421,7 @@
   },
   "10949": {
     "original": "Duty Complete (Weekly Reward Unclaimed)",
-    "translation": "Missione Completata (Ricompensa Settimanale non Riscossa)"
+    "translation": "Incarico Completato (Ricompensa Settimanale non Riscossa)"
   },
   "10950": {
     "original": "Retrieve online status for friends on other Worlds.",
@@ -35661,7 +35661,7 @@
   },
   "11014": {
     "original": "Once per week, completion of an unreal trial grants access to Faux Hollows.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※The “Duty Complete” option is only available for previously completed duties.<hex:02100103>※Earn a retelling while playing Faux Hollows to unlock one additional play per week.<hex:02100103>※Practice phase selection does not entail the actual skipping of phases.<hex:0249020103><hex:0248020103>",
-    "translation": "Una volta a settimana, il completamento di un trial Unreal concede l'accesso a Tane Sospette.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※L'opzione “Duty completata” è disponibile solo per le Duty completate in precedenza.<hex:02100103>※Ottieni un riracconto giocando a Tane Sospette per sbloccare una partita aggiuntiva a settimana.<hex:02100103>※La selezione della fase di pratica non comporta il salto effettivo delle fasi.<hex:0249020103><hex:0248020103>"
+    "translation": "Una volta a settimana, il completamento di un trial Unreal concede l'accesso a Tane Sospette.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※L'opzione “Incarico completato” è disponibile solo per gli incarichi completati in precedenza.<hex:02100103>※Ottieni un riracconto giocando a Tane Sospette per sbloccare una partita aggiuntiva a settimana.<hex:02100103>※La selezione della fase di pratica non comporta il salto effettivo delle fasi.<hex:0249020103><hex:0248020103>"
   },
   "11015": {
     "original": "Faux Hollows Available",
@@ -35833,7 +35833,7 @@
   },
   "11064": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>※Settings assigned here are for display only. To change actual settings, you must access the Duty Finder interface.<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>※Le impostazioni assegnate qui sono solo a scopo informativo. Per modificare le impostazioni effettive, devi accedere all'interfaccia della Ricerca Missione.<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>※Le impostazioni assegnate qui sono solo a scopo informativo. Per modificare le impostazioni effettive, devi accedere all'interfaccia della Ricerca Incarichi.<hex:0249020103><hex:0248020103>"
   },
   "11065": {
     "original": "Language",
@@ -35881,7 +35881,7 @@
   },
   "11077": {
     "original": "Objective: Duty Completion",
-    "translation": "Obiettivo: Completamento Missione"
+    "translation": "Obiettivo: Completamento Incarico"
   },
   "11078": {
     "original": "Objective: Practice",
@@ -35901,15 +35901,15 @@
   },
   "11082": {
     "original": "Conditions: Duty Complete",
-    "translation": "Condizioni: Missione Completata"
+    "translation": "Condizioni: Incarico Completato"
   },
   "11083": {
     "original": "Duty Finder Settings: Unrestricted Party",
-    "translation": "Impostazioni Ricerca Missione: Gruppo Senza Limiti"
+    "translation": "Impostazioni Ricerca Incarichi: Gruppo Senza Limiti"
   },
   "11084": {
     "original": "Duty Finder Settings: Minimum IL",
-    "translation": "Impostazioni Ricerca Missione: LO Minimo"
+    "translation": "Impostazioni Ricerca Incarichi: LO Minimo"
   },
   "11085": {
     "original": "Loot Rule: None",
@@ -35933,7 +35933,7 @@
   },
   "11090": {
     "original": "Locked Duty",
-    "translation": "Missione Bloccata"
+    "translation": "Incarico Bloccato"
   },
   "11091": {
     "original": "Unselect Classes",
@@ -36081,7 +36081,7 @@
   },
   "11128": {
     "original": "Show locked duty.",
-    "translation": "Mostra duty bloccate."
+    "translation": "Mostra incarichi bloccati."
   },
   "11129": {
     "original": "All changes will be discarded. Proceed?",
@@ -36129,11 +36129,11 @@
   },
   "11167": {
     "original": "Duty Incomplete",
-    "translation": "Missione Incompleta"
+    "translation": "Incarico Incompleto"
   },
   "11168": {
     "original": "Conditions: Duty Incomplete",
-    "translation": "Condizioni: Missione Incompleta"
+    "translation": "Condizioni: Incarico Incompleto"
   },
   "11169": {
     "original": "Average Item Level: <hex:022003E80203>",
@@ -36141,7 +36141,7 @@
   },
   "11170": {
     "original": "Duty",
-    "translation": "Missione"
+    "translation": "Incarico"
   },
   "11171": {
     "original": "※Private party results are not included.",
@@ -36173,7 +36173,7 @@
   },
   "11179": {
     "original": "Duty Finder Settings: Silence Echo",
-    "translation": "Impostazioni Ricerca Missione: Silenzia Eco"
+    "translation": "Impostazioni Ricerca Incarichi: Silenzia Eco"
   },
   "11180": {
     "original": "<hex:022B14FF1202280EFF09436C6173734A6F62E802010303>",
@@ -36205,7 +36205,7 @@
   },
   "11188": {
     "original": "Conditions: Duty Complete (Weekly Reward Unclaimed)",
-    "translation": "Condizioni: Missione Completata (Ricompensa Settimanale non Riscossa)"
+    "translation": "Condizioni: Incarico Completato (Ricompensa Settimanale non Riscossa)"
   },
   "11189": {
     "original": "Updated",
@@ -37773,7 +37773,7 @@
   },
   "11647": {
     "original": "<hex:020814E1E80202FF074D6E656D6573FF064D6E656D6503> extracted.<hex:02100103>Activate a logos action to convert <hex:020820E1E80202FF0F7468652074776F206D6E656D6573FF0A746865206D6E656D6503> into a duty action.",
-    "translation": "<hex:020814E1E80202FF074D6E656D6573FF064D6E656D6503> estratti.<hex:02100103>Attiva un'azione logos per convertire <hex:020820E1E80202FF0F7468652074776F206D6E656D6573FF0A746865206D6E656D6503> in un'azione duty."
+    "translation": "<hex:020814E1E80202FF074D6E656D6573FF064D6E656D6503> estratti.<hex:02100103>Attiva un'azione logos per convertire <hex:020820E1E80202FF0F7468652074776F206D6E656D6573FF0A746865206D6E656D6503> in un'azione dell'incarico."
   },
   "11648": {
     "original": "<hex:024804F201FC03><hex:024904F201FD03>Extraction failed.<hex:0249020103><hex:0248020103>",
@@ -38005,7 +38005,7 @@
   },
   "11727": {
     "original": "PvP teams are adventurers who, rather than have their companions<hex:02100103>chosen at random, join together to take on Crystalline Conflict and other PvP duties in custom-made parties of their own creation.<hex:02100103><hex:02100103>To create a PvP team, the following conditions must be met:<hex:02100103>・Only a party leader can create a team<hex:02100103>・Members cannot be part of another PvP team<hex:02100103>・Parties must have 4-6 members (cross-world allowed)<hex:02100103>・All members must have unlocked PvP<hex:02100103>・Players on free trial accounts are not allowed<hex:02100103>・All members must have Home Worlds in the current data center",
-    "translation": "I Team PvP sono formati da avventurieri che, invece di avere compagni<hex:02100103>scelti casualmente, si uniscono per affrontare Conflitti Cristallini e altre duty PvP in gruppi personalizzati.<hex:02100103><hex:02100103>Per creare un Team PvP devono essere soddisfatte le seguenti condizioni:<hex:02100103>・Solo il capogruppo può creare un team<hex:02100103>・I membri non possono far parte di un altro Team PvP<hex:02100103>・Il gruppo deve contare 4-6 membri (anche intramondo)<hex:02100103>・Tutti i membri devono aver sbloccato il PvP<hex:02100103>・Gli account di prova gratuita non sono ammessi<hex:02100103>・Tutti i membri devono avere il Mondo d'origine nello stesso data center"
+    "translation": "I Team PvP sono formati da avventurieri che, invece di avere compagni<hex:02100103>scelti casualmente, si uniscono per affrontare Conflitti Cristallini e altri incarichi PvP in gruppi personalizzati.<hex:02100103><hex:02100103>Per creare un Team PvP devono essere soddisfatte le seguenti condizioni:<hex:02100103>・Solo il capogruppo può creare un team<hex:02100103>・I membri non possono far parte di un altro Team PvP<hex:02100103>・Il gruppo deve contare 4-6 membri (anche intramondo)<hex:02100103>・Tutti i membri devono aver sbloccato il PvP<hex:02100103>・Gli account di prova gratuita non sono ammessi<hex:02100103>・Tutti i membri devono avere il Mondo d'origine nello stesso data center"
   },
   "11728": {
     "original": "Team Rating",
@@ -40857,7 +40857,7 @@
   },
   "12514": {
     "original": "<hex:0208F2041EE4E80203FFF20414E38080E38080E38080E38080E38080E38080E38080E38080E38080E38080024804F2020203446174612043656E7465722054726176656C2053797374656D02480201030210010354686520446174612043656E7465722054726176656C2073797374656D20697320616E20657874656E73696F6E206F662074686520576F726C642056697369742073797374656D2C20616E6420616C6C6F777320796F7520746F2074656D706F726172696C7920766973697420576F726C647320696E206F7468657220646174612063656E746572732E204365727461696E207265737472696374696F6E73206170706C7920746F20646174612063656E7465722074726176656C2C20696E636C7564696E672074686F73652064696374617465642062792074686520576F726C642056697369742073797374656D2E0210010302100103E38080E38080E38080E38080E38080E38080E38080E38080E38080E38080024804F20202035669736974696E67204F7468657220446174612043656E74657273024802010302100103E38080E383BB556E74696C20796F7520686176652072657475726E65642066726F6D207669736974696E6720616E6F7468657220646174612063656E7465722C20796F75206D6179206E6F74206C6F6720696E206F7220706572666F726D206F7468657220616374696F6E732077697468206368617261637465727320696E20796F757220486F6D6520576F726C642E02100103E38080E383BB596F75206D6179206F6E6C792074726176656C20746F206F7468657220646174612063656E746572732066726F6D20796F757220486F6D6520576F726C642E20496620796F75207769736820746F2074726176656C20746F206120646174612063656E74657220646966666572656E742066726F6D20746865206F6E6520796F75206172652063757272656E746C79207669736974696E672C20796F75206D7573742066697273742072657475726E20746F20796F757220486F6D6520576F726C6420616E64207375626D6974206120446174612043656E74657220566973697420726571756573742066726F6D2074686572652E02100103E38080E383BB5768656E206C6F6767696E67206F75742066726F6D20616E6F7468657220576F726C642C20796F752077696C6C206175746F6D61746963616C6C792062652072657475726E656420746F20796F757220486F6D6520576F726C6420696620796F7520646F206E6F74206C6F6720696E20616761696E2077697468696E20333020646179732E20446570656E64696E67206F6E207468652074696D696E67206F6620796F7572206C617374206C6F676F75742C20796F75206D61792062652072657475726E6564206166746572206D6F7265207468616E20333020646179732068617665207061737365642E0210010302100103FF0103><hex:0208F2036EE3E80203FFF20364E38080E38080E38080E38080E38080E38080E38080E38080E38080E38080024804F2020203576F726C642056697369742053797374656D02480201030210010354686520576F726C642056697369742053797374656D20616C6C6F777320796F7520746F2074726176656C2066726F6D2002083CE4E80201FF10796F757220486F6D6520576F726C64FF2574686520576F726C6420796F75206172652063757272656E746C79207669736974696E670320746F20646966666572656E7420576F726C6420736572766572732077697468696E207468652073616D6520646174612063656E7465722E205768696C65207669736974696E6720646966666572656E7420576F726C64732C20796F75206D6179207061727479207769746820667269656E64732C207075726368617365206974656D732C207461636B6C65206475746965732C20616E64206D6F72652E0210010302100103E38080E38080E38080E38080E38080E38080E38080E38080E38080E38080024804F20202035669736974696E67204F7468657220576F726C6473024802010302100103E38080E383BB446570656E64696E67206F6E2074686520636F6E67657374696F6E206F66207468652074617267657420576F726C642C2074726176656C206D61792074616B65207365766572616C206D696E757465732E02100103E38080E383BB4F6E6365207072657061726174696F6E732068617665206265656E20636F6D706C657465642C2074726176656C2077696C6C206F63637572206175746F6D61746963616C6C7920616E642063616E63656C20616C6C2063757272656E7420616374696F6E732F6475746965732E02100103E38080E383BB5768656E206C6F6767696E67206F75742066726F6D20616E6F7468657220576F726C642C20796F752077696C6C206175746F6D61746963616C6C792062652072657475726E656420746F20796F757220486F6D6520576F726C6420696620796F7520646F206E6F74206C6F6720696E20616761696E2077697468696E20333020646179732E20446570656E64696E67206F6E207468652074696D696E67206F6620796F7572206C617374206C6F676F75742C20796F75206D61792062652072657475726E6564206166746572206D6F7265207468616E20333020646179732068617665207061737365642E0210010302100103FF0103>\u3000\u3000\u3000\u3000\u3000\u3000\u3000<hex:024804F2020203>Restrictions While Visiting <hex:020827E1E80201FF134F7468657220446174612043656E74657273FF0D4F7468657220576F726C647303><hex:0248020103><hex:02100103><hex:02083AE4E80202FF32596F75206172652063757272656E746C79206F75747369646520796F757220486F6D6520446174612043656E7465722E20FF0103>The following restrictions apply when playing <hex:020835E1E80201FF17696E20616E6F7468657220646174612063656E746572FF176F6E206F7468657220576F726C64207365727665727303>:<hex:02100103><hex:02100103><hex:0208F0FBE1E80201FFF0F2024804F2020203>Friend List<hex:0248020103><hex:02100103>\u3000\u30fbFriends in different data centers cannot communicate<hex:02100103>\u3000\u30fbParties cannot be formed with friends in different data centers<hex:02100103>\u3000\u30fbLogin details for friends in different regions cannot be displayed<hex:02100103><hex:02100103><hex:FF0103><hex:024804F2020203>Free Companies<hex:0248020103><hex:02100103>\u3000\u30fbFree companies cannot be formed or joined<hex:02100103>\u3000\u30fbFree company information cannot be viewed<hex:02100103>\u3000\u30fbCompany credits cannot be earned<hex:02100103>\u3000\u30fbShould the company master spend 35 consecutive days away from their Home World, their rank will be automatically transferred to another member<hex:02100103>\u3000\u30fbLogin details for members in different regions cannot be displayed<hex:02100103><hex:02100103><hex:0208A9E1E80201FFA1024804F202020343726F73732D776F726C64204C696E6B7368656C6C73024802010302100103E38080E383BB43726F73732D776F726C64206C696E6B7368656C6C732063616E6E6F74206265206372656174656402100103E38080E383BB43726F73732D776F726C64206C696E6B7368656C6C206D61737465722070726976696C656765732063616E6E6F742062652061747461696E65640210010302100103FF0103><hex:024804F2020203>Linkshells<hex:0248020103><hex:02100103>\u3000\u30fbLinkshells cannot be used<hex:02100103>\u3000\u30fbLinkshell information cannot be viewed<hex:02100103>\u3000\u30fbLinkshells cannot be created or joined<hex:02100103><hex:02100103><hex:0208F2011DE1E80201FFF20113024804F2020203507650205465616D73024802010302100103E38080E383BB507650207465616D732063616E6E6F74206265207573656402100103E38080E383BB507650207465616D20696E666F726D6174696F6E2063616E6E6F742062652076696577656402100103E38080E383BB507650207465616D732063616E6E6F742062652063726561746564206F72206A6F696E65640210010302100103024804F202020346656C6C6F777368697073024802010302100103E38080E383BB416C6C2066756E6374696F6E7320666F722066656C6C6F7773686970732C206578636C7564696E6720726563727569746D656E74207365617263682C2061726520696E61636365737369626C650210010302100103FF0103><hex:024804F2020203>Retainers<hex:0248020103><hex:02100103>\u3000\u30fbRetainers cannot be summoned, hired, or released from service<hex:02100103>\u3000\u30fbItems cannot be put up to market (but can be purchased)<hex:02100103><hex:02100103><hex:024804F2020203>Housing<hex:0248020103><hex:02100103>\u3000\u30fbLand and apartments cannot be purchased<hex:02100103>\u3000\u30fbResidence sharing is unavailable<hex:02100103><hex:02100103><hex:024804F2020203>Eternal Bonding<hex:0248020103><hex:02100103>\u3000\u30fbCeremonies of Eternal Bonding are unavailable<hex:02100103>\u3000\u30fbEternal Bonding quests are unavailable<hex:02100103>\u3000\u30fbOthers' ceremonies cannot be attended<hex:02100103><hex:02100103><hex:024804F2020203>Duties/Features<hex:0248020103><hex:02100103><hex:0208C1E4E80203FFB9E38080E383BB4372797374616C6C696E6520436F6E666C6963742072616E6B6564206D6174636865732063616E20626520656E74657265642069663A02100103E38080E38080E383BB596F757220486F6D6520576F726C6420697320696E207468652073616D6520706879736963616C20646174612063656E74657202100103E38080E38080E383BB596F75207061727469636970617465207669612074686520686F7374696E6720646174612063656E74657202100103FF0103>\u3000\u30fbLord of Verminion tournaments cannot be entered<hex:02100103>\u3000\u30fbTriple Triad tournaments cannot be entered<hex:02100103>\u3000\u30fbCactpot tickets cannot be purchased<hex:02100103>\u3000\u30fbThe Moogle Delivery Service is unavailable<hex:02100103>\u3000\u30fbDeep Dungeon results will not be saved to the leaderboards<hex:02100103>\u3000\u30fbFriendship circlet and eternal bonding teleportation is<hex:02100103>\u3000\u3000available only if both parties are on the same World<hex:02100103>\u3000\u30fbLegendary and unspoiled gathering nodes are inaccessible<hex:02100103>",
-    "translation": "<hex:0208F2041EE4E80203FFF20414E38080E38080E38080E38080E38080E38080E38080E38080E38080E38080024804F2020203446174612043656E7465722054726176656C2053797374656D02480201030210010354686520446174612043656E7465722054726176656C2073797374656D20697320616E20657874656E73696F6E206F662074686520576F726C642056697369742073797374656D2C20616E6420616C6C6F777320796F7520746F2074656D706F726172696C7920766973697420576F726C647320696E206F7468657220646174612063656E746572732E204365727461696E207265737472696374696F6E73206170706C7920746F20646174612063656E7465722074726176656C2C20696E636C7564696E672074686F73652064696374617465642062792074686520576F726C642056697369742073797374656D2E0210010302100103E38080E38080E38080E38080E38080E38080E38080E38080E38080E38080024804F20202035669736974696E67204F7468657220446174612043656E74657273024802010302100103E38080E383BB556E74696C20796F7520686176652072657475726E65642066726F6D207669736974696E6720616E6F7468657220646174612063656E7465722C20796F75206D6179206E6F74206C6F6720696E206F7220706572666F726D206F7468657220616374696F6E732077697468206368617261637465727320696E20796F757220486F6D6520576F726C642E02100103E38080E383BB596F75206D6179206F6E6C792074726176656C20746F206F7468657220646174612063656E746572732066726F6D20796F757220486F6D6520576F726C642E20496620796F75207769736820746F2074726176656C20746F206120646174612063656E74657220646966666572656E742066726F6D20746865206F6E6520796F75206172652063757272656E746C79207669736974696E672C20796F75206D7573742066697273742072657475726E20746F20796F757220486F6D6520576F726C6420616E64207375626D6974206120446174612043656E74657220566973697420726571756573742066726F6D2074686572652E02100103E38080E383BB5768656E206C6F6767696E67206F75742066726F6D20616E6F7468657220576F726C642C20796F752077696C6C206175746F6D61746963616C6C792062652072657475726E656420746F20796F757220486F6D6520576F726C6420696620796F7520646F206E6F74206C6F6720696E20616761696E2077697468696E20333020646179732E20446570656E64696E67206F6E207468652074696D696E67206F6620796F7572206C617374206C6F676F75742C20796F75206D61792062652072657475726E6564206166746572206D6F7265207468616E20333020646179732068617665207061737365642E0210010302100103FF0103><hex:0208F2036EE3E80203FFF20364E38080E38080E38080E38080E38080E38080E38080E38080E38080E38080024804F2020203576F726C642056697369742053797374656D02480201030210010354686520576F726C642056697369742053797374656D20616C6C6F777320796F7520746F2074726176656C2066726F6D2002083CE4E80201FF10796F757220486F6D6520576F726C64FF2574686520576F726C6420796F75206172652063757272656E746C79207669736974696E670320746F20646966666572656E7420576F726C6420736572766572732077697468696E207468652073616D6520646174612063656E7465722E205768696C65207669736974696E6720646966666572656E7420576F726C64732C20796F75206D6179207061727479207769746820667269656E64732C207075726368617365206974656D732C207461636B6C65206475746965732C20616E64206D6F72652E0210010302100103E38080E38080E38080E38080E38080E38080E38080E38080E38080E38080024804F20202035669736974696E67204F7468657220576F726C6473024802010302100103E38080E383BB446570656E64696E67206F6E2074686520636F6E67657374696F6E206F66207468652074617267657420576F726C642C2074726176656C206D61792074616B65207365766572616C206D696E757465732E02100103E38080E383BB4F6E6365207072657061726174696F6E732068617665206265656E20636F6D706C657465642C2074726176656C2077696C6C206F63637572206175746F6D61746963616C6C7920616E642063616E63656C20616C6C2063757272656E7420616374696F6E732F6475746965732E02100103E38080E383BB5768656E206C6F6767696E67206F75742066726F6D20616E6F7468657220576F726C642C20796F752077696C6C206175746F6D61746963616C6C792062652072657475726E656420746F20796F757220486F6D6520576F726C6420696620796F7520646F206E6F74206C6F6720696E20616761696E2077697468696E20333020646179732E20446570656E64696E67206F6E207468652074696D696E67206F6620796F7572206C617374206C6F676F75742C20796F75206D61792062652072657475726E6564206166746572206D6F7265207468616E20333020646179732068617665207061737365642E0210010302100103FF0103>\u3000\u3000\u3000\u3000\u3000\u3000\u3000<hex:024804F2020203>Restrizioni durante la visita di <hex:020827E1E80201FF134F7468657220446174612043656E74657273FF0D4F7468657220576F726C647303><hex:0248020103><hex:02100103><hex:02083AE4E80202FF32596F75206172652063757272656E746C79206F75747369646520796F757220486F6D6520446174612043656E7465722E20FF0103>Si applicano le seguenti restrizioni quando si gioca <hex:020835E1E80201FF17696E20616E6F7468657220646174612063656E746572FF176F6E206F7468657220576F726C64207365727665727303>:<hex:02100103><hex:02100103><hex:0208F0FBE1E80201FFF0F2024804F2020203>Lista Amici<hex:0248020103><hex:02100103>\u3000\u30fbNon \u00e8 possibile comunicare con amici in data center diversi<hex:02100103>\u3000\u30fbNon \u00e8 possibile formare party con amici in data center diversi<hex:02100103>\u3000\u30fbI dettagli di accesso degli amici in regioni diverse non possono essere visualizzati<hex:02100103><hex:02100103><hex:FF><hex:01><hex:03>  <hex:024804F2020203>Free Company<hex:0248020103><hex:02100103>\u3000\u30fbNon \u00e8 possibile creare o unirsi a una Free Company<hex:02100103>\u3000\u30fbNon \u00e8 possibile consultare le informazioni della Free Company<hex:02100103>\u3000\u30fbNon \u00e8 possibile guadagnare crediti di compagnia<hex:02100103>\u3000\u30fbSe il master della compagnia trascorre 35 giorni consecutivi lontano dal proprio Mondo d'origine, il grado viene trasferito a un altro membro<hex:02100103>\u3000\u30fbI dettagli di accesso dei membri in regioni diverse non possono essere visualizzati<hex:02100103><hex:02100103><hex:0208A9E1E80201FFA1024804F202020343726F73732D776F726C64204C696E6B7368656C6C73024802010302100103E38080E383BB43726F73732D776F726C64206C696E6B7368656C6C732063616E6E6F74206265206372656174656402100103E38080E383BB43726F73732D776F726C64206C696E6B7368656C6C206D61737465722070726976696C656765732063616E6E6F742062652061747461696E65640210010302100103FF0103><hex:024804F2020203>Fonoperle<hex:0248020103><hex:02100103>\u3000\u30fbLe Fonoperle non possono essere usate<hex:02100103>\u3000\u30fbNon \u00e8 possibile visualizzare le informazioni delle Fonoperle<hex:02100103>\u3000\u30fbNon \u00e8 possibile creare Fonoperle o unirsi ad esse<hex:02100103><hex:02100103><hex:0208F2011DE1E80201FFF20113024804F2020203507650205465616D73024802010302100103E38080E383BB507650207465616D732063616E6E6F74206265207573656402100103E38080E383BB507650207465616D20696E666F726D6174696F6E2063616E6E6F742062652076696577656402100103E38080E383BB507650207465616D732063616E6E6F742062652063726561746564206F72206A6F696E65640210010302100103024804F202020346656C6C6F777368697073024802010302100103E38080E383BB416C6C2066756E6374696F6E7320666F722066656C6C6F7773686970732C206578636C7564696E6720726563727569746D656E74207365617263682C2061726520696E61636365737369626C650210010302100103FF0103><hex:024804F2020203>Retainer<hex:0248020103><hex:02100103>\u3000\u30fbNon \u00e8 possibile evocare, ingaggiare o congedare retainer<hex:02100103>\u3000\u30fbGli oggetti non possono essere messi in vendita (ma possono essere acquistati)<hex:02100103><hex:02100103><hex:024804F2020203>Alloggi<hex:0248020103><hex:02100103>\u3000\u30fbNon \u00e8 possibile acquistare terreni e appartamenti<hex:02100103>\u3000\u30fbLa condivisione dell'alloggio non \u00e8 disponibile<hex:02100103><hex:02100103><hex:024804F2020203>Eternal Bonding<hex:0248020103><hex:02100103>\u3000\u30fbLe Cerimonie dell'Eternal Bonding non sono disponibili<hex:02100103>\u3000\u30fbLe quest dell'Eternal Bonding non sono disponibili<hex:02100103>\u3000\u30fbNon \u00e8 possibile partecipare alle cerimonie altrui<hex:02100103><hex:02100103><hex:024804F2020203>Duty e funzioni<hex:0248020103><hex:02100103><hex:0208C1E4E80203FFB9E38080E383BB4372797374616C6C696E6520436F6E666C6963742072616E6B6564206D6174636865732063616E20626520656E74657265642069663A02100103E38080E38080E383BB596F757220486F6D6520576F726C6420697320696E207468652073616D6520706879736963616C20646174612063656E74657202100103E38080E38080E383BB596F75207061727469636970617465207669612074686520686F7374696E6720646174612063656E74657202100103FF0103>\u3000\u30fbNon \u00e8 possibile partecipare ai tornei di Lord of Verminion<hex:02100103>\u3000\u30fbNon \u00e8 possibile partecipare ai tornei di Triple Triad<hex:02100103>\u3000\u30fbI biglietti del Cactpot non possono essere acquistati<hex:02100103>\u3000\u30fbIl servizio di consegna dei moguri non \u00e8 disponibile<hex:02100103>\u3000\u30fbI risultati del Deep Dungeon non verranno registrati nelle classifiche<hex:02100103>\u3000\u30fbIl teletrasporto con Friendship Circlet o Eternal Bonding<hex:02100103>\u3000\u3000\u00e8 possibile solo se entrambi i giocatori si trovano nello stesso Mondo<hex:02100103>\u3000\u30fbI nodi di raccolta incontaminati ed effimeri non sono accessibili<hex:02100103>"
+    "translation": "<hex:0208F2041EE4E80203FFF20414E38080E38080E38080E38080E38080E38080E38080E38080E38080E38080024804F2020203446174612043656E7465722054726176656C2053797374656D02480201030210010354686520446174612043656E7465722054726176656C2073797374656D20697320616E20657874656E73696F6E206F662074686520576F726C642056697369742073797374656D2C20616E6420616C6C6F777320796F7520746F2074656D706F726172696C7920766973697420576F726C647320696E206F7468657220646174612063656E746572732E204365727461696E207265737472696374696F6E73206170706C7920746F20646174612063656E7465722074726176656C2C20696E636C7564696E672074686F73652064696374617465642062792074686520576F726C642056697369742073797374656D2E0210010302100103E38080E38080E38080E38080E38080E38080E38080E38080E38080E38080024804F20202035669736974696E67204F7468657220446174612043656E74657273024802010302100103E38080E383BB556E74696C20796F7520686176652072657475726E65642066726F6D207669736974696E6720616E6F7468657220646174612063656E7465722C20796F75206D6179206E6F74206C6F6720696E206F7220706572666F726D206F7468657220616374696F6E732077697468206368617261637465727320696E20796F757220486F6D6520576F726C642E02100103E38080E383BB596F75206D6179206F6E6C792074726176656C20746F206F7468657220646174612063656E746572732066726F6D20796F757220486F6D6520576F726C642E20496620796F75207769736820746F2074726176656C20746F206120646174612063656E74657220646966666572656E742066726F6D20746865206F6E6520796F75206172652063757272656E746C79207669736974696E672C20796F75206D7573742066697273742072657475726E20746F20796F757220486F6D6520576F726C6420616E64207375626D6974206120446174612043656E74657220566973697420726571756573742066726F6D2074686572652E02100103E38080E383BB5768656E206C6F6767696E67206F75742066726F6D20616E6F7468657220576F726C642C20796F752077696C6C206175746F6D61746963616C6C792062652072657475726E656420746F20796F757220486F6D6520576F726C6420696620796F7520646F206E6F74206C6F6720696E20616761696E2077697468696E20333020646179732E20446570656E64696E67206F6E207468652074696D696E67206F6620796F7572206C617374206C6F676F75742C20796F75206D61792062652072657475726E6564206166746572206D6F7265207468616E20333020646179732068617665207061737365642E0210010302100103FF0103><hex:0208F2036EE3E80203FFF20364E38080E38080E38080E38080E38080E38080E38080E38080E38080E38080024804F2020203576F726C642056697369742053797374656D02480201030210010354686520576F726C642056697369742053797374656D20616C6C6F777320796F7520746F2074726176656C2066726F6D2002083CE4E80201FF10796F757220486F6D6520576F726C64FF2574686520576F726C6420796F75206172652063757272656E746C79207669736974696E670320746F20646966666572656E7420576F726C6420736572766572732077697468696E207468652073616D6520646174612063656E7465722E205768696C65207669736974696E6720646966666572656E7420576F726C64732C20796F75206D6179207061727479207769746820667269656E64732C207075726368617365206974656D732C207461636B6C65206475746965732C20616E64206D6F72652E0210010302100103E38080E38080E38080E38080E38080E38080E38080E38080E38080E38080024804F20202035669736974696E67204F7468657220576F726C6473024802010302100103E38080E383BB446570656E64696E67206F6E2074686520636F6E67657374696F6E206F66207468652074617267657420576F726C642C2074726176656C206D61792074616B65207365766572616C206D696E757465732E02100103E38080E383BB4F6E6365207072657061726174696F6E732068617665206265656E20636F6D706C657465642C2074726176656C2077696C6C206F63637572206175746F6D61746963616C6C7920616E642063616E63656C20616C6C2063757272656E7420616374696F6E732F6475746965732E02100103E38080E383BB5768656E206C6F6767696E67206F75742066726F6D20616E6F7468657220576F726C642C20796F752077696C6C206175746F6D61746963616C6C792062652072657475726E656420746F20796F757220486F6D6520576F726C6420696620796F7520646F206E6F74206C6F6720696E20616761696E2077697468696E20333020646179732E20446570656E64696E67206F6E207468652074696D696E67206F6620796F7572206C617374206C6F676F75742C20796F75206D61792062652072657475726E6564206166746572206D6F7265207468616E20333020646179732068617665207061737365642E0210010302100103FF0103>　　　　　　　<hex:024804F2020203>Restrizioni durante la visita di <hex:020827E1E80201FF134F7468657220446174612043656E74657273FF0D4F7468657220576F726C647303><hex:0248020103><hex:02100103><hex:02083AE4E80202FF32596F75206172652063757272656E746C79206F75747369646520796F757220486F6D6520446174612043656E7465722E20FF0103>Si applicano le seguenti restrizioni quando si gioca <hex:020835E1E80201FF17696E20616E6F7468657220646174612063656E746572FF176F6E206F7468657220576F726C64207365727665727303>:<hex:02100103><hex:02100103><hex:0208F0FBE1E80201FFF0F2024804F2020203>Lista Amici<hex:0248020103><hex:02100103>　・Non è possibile comunicare con amici in data center diversi<hex:02100103>　・Non è possibile formare party con amici in data center diversi<hex:02100103>　・I dettagli di accesso degli amici in regioni diverse non possono essere visualizzati<hex:02100103><hex:02100103><hex:FF><hex:01><hex:03>  <hex:024804F2020203>Compagnia Libera<hex:0248020103><hex:02100103>　・Non è possibile creare o unirsi a una Compagnia Libera<hex:02100103>　・Non è possibile consultare le informazioni della Compagnia Libera<hex:02100103>　・Non è possibile guadagnare crediti di compagnia<hex:02100103>　・Se il master della compagnia trascorre 35 giorni consecutivi lontano dal proprio Mondo d'origine, il grado viene trasferito a un altro membro<hex:02100103>　・I dettagli di accesso dei membri in regioni diverse non possono essere visualizzati<hex:02100103><hex:02100103><hex:0208A9E1E80201FFA1024804F202020343726F73732D776F726C64204C696E6B7368656C6C73024802010302100103E38080E383BB43726F73732D776F726C64206C696E6B7368656C6C732063616E6E6F74206265206372656174656402100103E38080E383BB43726F73732D776F726C64206C696E6B7368656C6C206D61737465722070726976696C656765732063616E6E6F742062652061747461696E65640210010302100103FF0103><hex:024804F2020203>Fonoperle<hex:0248020103><hex:02100103>　・Le Fonoperle non possono essere usate<hex:02100103>　・Non è possibile visualizzare le informazioni delle Fonoperle<hex:02100103>　・Non è possibile creare Fonoperle o unirsi ad esse<hex:02100103><hex:02100103><hex:0208F2011DE1E80201FFF20113024804F2020203507650205465616D73024802010302100103E38080E383BB507650207465616D732063616E6E6F74206265207573656402100103E38080E383BB507650207465616D20696E666F726D6174696F6E2063616E6E6F742062652076696577656402100103E38080E383BB507650207465616D732063616E6E6F742062652063726561746564206F72206A6F696E65640210010302100103024804F202020346656C6C6F777368697073024802010302100103E38080E383BB416C6C2066756E6374696F6E7320666F722066656C6C6F7773686970732C206578636C7564696E6720726563727569746D656E74207365617263682C2061726520696E61636365737369626C650210010302100103FF0103><hex:024804F2020203>Retainer<hex:0248020103><hex:02100103>　・Non è possibile evocare, ingaggiare o congedare retainer<hex:02100103>　・Gli oggetti non possono essere messi in vendita (ma possono essere acquistati)<hex:02100103><hex:02100103><hex:024804F2020203>Alloggi<hex:0248020103><hex:02100103>　・Non è possibile acquistare terreni e appartamenti<hex:02100103>　・La condivisione dell'alloggio non è disponibile<hex:02100103><hex:02100103><hex:024804F2020203>Eternal Bonding<hex:0248020103><hex:02100103>　・Le Cerimonie dell'Eternal Bonding non sono disponibili<hex:02100103>　・Le quest dell'Eternal Bonding non sono disponibili<hex:02100103>　・Non è possibile partecipare alle cerimonie altrui<hex:02100103><hex:02100103><hex:024804F2020203>Incarico e funzioni<hex:0248020103><hex:02100103><hex:0208C1E4E80203FFB9E38080E383BB4372797374616C6C696E6520436F6E666C6963742072616E6B6564206D6174636865732063616E20626520656E74657265642069663A02100103E38080E38080E383BB596F757220486F6D6520576F726C6420697320696E207468652073616D6520706879736963616C20646174612063656E74657202100103E38080E38080E383BB596F75207061727469636970617465207669612074686520686F7374696E6720646174612063656E74657202100103FF0103>　・Non è possibile partecipare ai tornei di Lord of Verminion<hex:02100103>　・Non è possibile partecipare ai tornei di Triple Triad<hex:02100103>　・I biglietti del Cactpot non possono essere acquistati<hex:02100103>　・Il servizio di consegna dei moguri non è disponibile<hex:02100103>　・I risultati del Deep Dungeon non verranno registrati nelle classifiche<hex:02100103>　・Il teletrasporto con Friendship Circlet o Eternal Bonding<hex:02100103>　　è possibile solo se entrambi i giocatori si trovano nello stesso Mondo<hex:02100103>　・I nodi di raccolta incontaminati ed effimeri non sono accessibili<hex:02100103>"
   },
   "12515": {
     "original": "Home World",
@@ -40985,7 +40985,7 @@
   },
   "12548": {
     "original": "Commence Duty",
-    "translation": "Avvia Missione"
+    "translation": "Avvia Incarico"
   },
   "12549": {
     "original": "Complete",
@@ -41237,7 +41237,7 @@
   },
   "12616": {
     "original": "Standard Duty",
-    "translation": "Missione Standard"
+    "translation": "Incarico Standard"
   },
   "12617": {
     "original": "Save",
@@ -41421,11 +41421,11 @@
   },
   "12693": {
     "original": "Set the way in which loot is distributed.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Normal<hex:02100103><hex:0249020103><hex:0248020103>The Need, Greed, Pass system is employed for loot drops.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Greed Only<hex:02100103><hex:0249020103><hex:0248020103>All party members must select Greed or Pass.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Lootmaster<hex:02100103><hex:0249020103><hex:0248020103>The party leader determines individual loot distribution.<hex:02100103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Greed Only and Lootmaster can only be selected when using a preformed party meeting party size requirements or an unrestricted party.<hex:02100103>※Loot rules may be restricted to Greed Only on certain duties.<hex:02100103>※Loot rules cannot be changed on certain duties.<hex:02100103>※Only the party leader can change loot rules.<hex:0249020103><hex:0248020103>",
-    "translation": "Imposta la modalità di distribuzione del bottino.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Normale<hex:02100103><hex:0249020103><hex:0248020103>Si applica il sistema Need, Greed, Pass.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Solo Greed<hex:02100103><hex:0249020103><hex:0248020103>Tutti i membri del party possono selezionare solo Greed o Pass.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Lootmaster<hex:02100103><hex:0249020103><hex:0248020103>Il capogruppo decide l'assegnazione individuale del bottino.<hex:02100103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Solo Greed e Lootmaster sono selezionabili solo con un party preformato conforme alle dimensioni minime o con un unrestricted party.<hex:02100103>※In alcune duty le regole del bottino possono essere bloccate su Solo Greed.<hex:02100103>※In alcune duty non è possibile modificare le regole del bottino.<hex:02100103>※Solo il capogruppo può modificare le regole del bottino.<hex:0249020103><hex:0248020103>"
+    "translation": "Imposta la modalità di distribuzione del bottino.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Normale<hex:02100103><hex:0249020103><hex:0248020103>Si applica il sistema Need, Greed, Pass.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Solo Greed<hex:02100103><hex:0249020103><hex:0248020103>Tutti i membri del party possono selezionare solo Greed o Pass.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Lootmaster<hex:02100103><hex:0249020103><hex:0248020103>Il capogruppo decide l'assegnazione individuale del bottino.<hex:02100103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Solo Greed e Lootmaster sono selezionabili solo con un party preformato conforme alle dimensioni minime o con un unrestricted party.<hex:02100103>※In alcuni incarichi le regole del bottino possono essere bloccate su Solo Greed.<hex:02100103>※In alcuni incarichi non è possibile modificare le regole del bottino.<hex:02100103>※Solo il capogruppo può modificare le regole del bottino.<hex:0249020103><hex:0248020103>"
   },
   "12694": {
     "original": "You will be matched with players who are using the selected languages.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Depending on the languages chosen, matching times may increase. If you are experiencing overlong wait times, you may want to consider different language settings.<hex:02100103><hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※The _ indicates your current client language setting.<hex:02100103>※This setting is shared in all duty matching, though please be aware that it may not apply to certain Gold Saucer activities.<hex:0249020103><hex:0248020103>",
-    "translation": "Verrai abbinato a giocatori che utilizzano le lingue selezionate.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※A seconda delle lingue scelte, i tempi di attesa potrebbero aumentare. Se riscontri attese troppo lunghe, valuta di modificare le impostazioni di lingua.<hex:02100103><hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Il trattino basso indica la lingua attuale del client.<hex:02100103>※Questa impostazione si applica a tutto il matchmaking delle duty, ma potrebbe non essere valida per alcune attività del Gold Saucer.<hex:0249020103><hex:0248020103>"
+    "translation": "Verrai abbinato a giocatori che utilizzano le lingue selezionate.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※A seconda delle lingue scelte, i tempi di attesa potrebbero aumentare. Se riscontri attese troppo lunghe, valuta di modificare le impostazioni di lingua.<hex:02100103><hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Il trattino basso indica la lingua attuale del client.<hex:02100103>※Questa impostazione si applica a tutto il matchmaking degli incarichi, ma potrebbe non essere valida per alcune attività del Gold Saucer.<hex:0249020103><hex:0248020103>"
   },
   "12695": {
     "original": "Not available in New Game+ mode.",
@@ -41437,7 +41437,7 @@
   },
   "12697": {
     "original": "Sync all participants to a duty's required level.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※When using an unrestricted party, gear will still gain spiritbond.<hex:02100103>※When using an unrestricted party, enemies will still yield EXP and items.<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Can only be selected when using an unrestricted party.<hex:02100103>※Only the party leader's settings are applicable.<hex:0249020103><hex:0248020103>",
-    "translation": "Sincronizza tutti i partecipanti al livello richiesto dalla duty.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Con un unrestricted party, l'equipaggiamento accumulerà comunque legame spirituale.<hex:02100103>※Con un unrestricted party, i nemici forniranno comunque EXP e oggetti.<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Selezionabile solo con un unrestricted party.<hex:02100103>※Si applicano solo le impostazioni del capogruppo.<hex:0249020103><hex:0248020103>"
+    "translation": "Sincronizza tutti i partecipanti al livello richiesto dall'incarico.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Con un unrestricted party, l'equipaggiamento accumulerà comunque legame spirituale.<hex:02100103>※Con un unrestricted party, i nemici forniranno comunque EXP e oggetti.<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Selezionabile solo con un unrestricted party.<hex:02100103>※Si applicano solo le impostazioni del capogruppo.<hex:0249020103><hex:0248020103>"
   },
   "12700": {
     "original": "Trust",
@@ -41461,7 +41461,7 @@
   },
   "12706": {
     "original": "Register for Duty",
-    "translation": "Iscriviti alla Duty"
+    "translation": "Iscriviti all'incarico"
   },
   "12707": {
     "original": "Glamours",
@@ -42549,7 +42549,7 @@
   },
   "13031": {
     "original": "Limit the roulette to duties of an appropriate difficulty based on the level of party members.<hex:02100103><hex:02100103>The duty chosen will be within eight levels of the lowest level party member. For example, should the lowest character level in the party be 70, a duty ranging from level 63 to 70 will be chosen.<hex:02100103><hex:02100103>The following requirements must be met to enable this option:<hex:02100103>・Parties must meet minimum size requirements.<hex:02100103>・Parties must meet entry requirements for two or more duties.<hex:02100103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Only the party leader's settings are applicable.<hex:0249020103><hex:0248020103>",
-    "translation": "Limita la roulette alle duty con difficoltà adeguata al livello dei membri del party.<hex:02100103><hex:02100103>La duty scelta sarà entro otto livelli dal membro del party di livello più basso. Ad esempio, se il livello più basso è 70, verrà scelta una duty compresa tra il livello 63 e il 70.<hex:02100103><hex:02100103>Devono essere soddisfatti i seguenti requisiti:<hex:02100103>・Il party deve soddisfare i requisiti minimi di dimensioni.<hex:02100103>・Il party deve soddisfare i requisiti di accesso per due o più duty.<hex:02100103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Si applicano solo le impostazioni del capogruppo.<hex:0249020103><hex:0248020103>"
+    "translation": "Limita la roulette agli incarichi con difficoltà adeguata al livello dei membri del party.<hex:02100103><hex:02100103>l'incarico scelto sarà entro otto livelli dal membro del party di livello più basso. Ad esempio, se il livello più basso è 70, verrà scelta un incarico compreso tra il livello 63 e il 70.<hex:02100103><hex:02100103>Devono essere soddisfatti i seguenti requisiti:<hex:02100103>・Il party deve soddisfare i requisiti minimi di dimensioni.<hex:02100103>・Il party deve soddisfare i requisiti di accesso per due o più incarichi.<hex:02100103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Si applicano solo le impostazioni del capogruppo.<hex:0249020103><hex:0248020103>"
   },
   "13032": {
     "original": "Summon Striking Dummy",
@@ -42577,7 +42577,7 @@
   },
   "13039": {
     "original": "Revisit a dungeon in its completed state.<hex:02100103><hex:02100103>Explorer Mode allows access to the following:<hex:02100103>・Explorer Mode-exclusive actions<hex:02100103>・Minions, mounts, and fashion accessories<hex:02100103>・Changing jobs (excluding DoL/DoH classes)<hex:02100103>・Performance actions<hex:02100103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Available only for selected duties completed by the player.<hex:02100103>※Only the party leader's settings are applicable.<hex:02100103>※Enabling Explorer Mode will disable all other Duty Finder participation requirement settings.<hex:0249020103><hex:0248020103>",
-    "translation": "Visita nuovamente un dungeon già completato.<hex:02100103><hex:02100103>La Modalità esplorazione consente di accedere a quanto segue:<hex:02100103>・Azioni esclusive della Modalità esplorazione<hex:02100103>・Minion, cavalcature e accessori di moda<hex:02100103>・Cambio di job (escluse classi DoL/DoH)<hex:02100103>・Azioni di esibizione<hex:02100103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Disponibile solo per Duty selezionate già completate dal giocatore.<hex:02100103>※Si applicano solo le impostazioni del capogruppo.<hex:02100103>※Attivando la Modalità esplorazione verranno disattivate tutte le altre impostazioni di partecipazione del Duty Finder.<hex:0249020103><hex:0248020103>"
+    "translation": "Visita nuovamente un dungeon già completato.<hex:02100103><hex:02100103>La Modalità esplorazione consente di accedere a quanto segue:<hex:02100103>・Azioni esclusive della Modalità esplorazione<hex:02100103>・Minion, cavalcature e accessori di moda<hex:02100103>・Cambio di job (escluse classi DoL/DoH)<hex:02100103>・Azioni di esibizione<hex:02100103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Disponibile solo per incarichi selezionati già completate dal giocatore.<hex:02100103>※Si applicano solo le impostazioni del capogruppo.<hex:02100103>※Attivando la Modalità esplorazione verranno disattivate tutte le altre impostazioni di partecipazione della Ricerca Incarichi.<hex:0249020103><hex:0248020103>"
   },
   "13040": {
     "original": "Explorer Mode Unavailable",
@@ -42585,7 +42585,7 @@
   },
   "13041": {
     "original": "Current Duty Finder settings are only available for duties you have already completed.",
-    "translation": "Le impostazioni attuali del Duty Finder sono disponibili solo per le Duty già completate."
+    "translation": "Le impostazioni attuali della Ricerca Incarichi sono disponibili solo per gli incarichi già completate."
   },
   "13042": {
     "original": "Tone Change (Electric Guitar Only)",
@@ -42921,7 +42921,7 @@
   },
   "13131": {
     "original": "<hex:0248020203><hex:0249021103>You have not unlocked this duty.<hex:0248020103><hex:0249020103>",
-    "translation": "<hex:0248020203><hex:0249021103>Non hai sbloccato questa duty.<hex:0248020103><hex:0249020103>"
+    "translation": "<hex:0248020203><hex:0249021103>Non hai sbloccato questo incarico.<hex:0248020103><hex:0249020103>"
   },
   "13132": {
     "original": "Time Limit: <hex:022003E80203>m / <hex:02280FFF0A506C6163654E616D65E8030103>",
@@ -42929,7 +42929,7 @@
   },
   "13133": {
     "original": "<hex:02081BE1E80301FF13022003E803032070617274696573206F6620FF0103><hex:022003E80203> players<hex:02082AE1E80401FF2202100103EE80B341766572616765206974656D206C6576656C3A20022003E80403FF0103><hex:02100103>* The completion of duties will only count towards blue mage log progress if the party meets the size requirements. For this reason, it is recommended that you avoid using the “Unrestricted Party” option.",
-    "translation": "<hex:02081BE1E80301FF13022003E803032070617274696573206F6620FF0103><hex:022003E80203> giocatori<hex:02082AE1E80401FF2202100103EE80B341766572616765206974656D206C6576656C3A20022003E80403FF0103><hex:02100103>* Il completamento delle duty conta per il registro del Mago Blu solo se il party soddisfa i requisiti di dimensione. Si raccomanda pertanto di non usare l'opzione “Unrestricted Party”."
+    "translation": "<hex:02081BE1E80301FF13022003E803032070617274696573206F6620FF0103><hex:022003E80203> giocatori<hex:02082AE1E80401FF2202100103EE80B341766572616765206974656D206C6576656C3A20022003E80403FF0103><hex:02100103>* Il completamento degli incarichi conta per il registro del Mago Blu solo se il party soddisfa i requisiti di dimensione. Si raccomanda pertanto di non usare l'opzione “Unrestricted Party”."
   },
   "13134": {
     "original": "Search for Parties Recruiting",
@@ -44129,7 +44129,7 @@
   },
   "13557": {
     "original": "Earn a retelling by uncovering the large illustration. This reward will allow you to play Faux Hollows once more upon completion of an unreal duty.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Retellings can only be earned once per week.<hex:0249020103><hex:0248020103>",
-    "translation": "Ottieni un riracconto scoprendo l'illustrazione grande. Questa ricompensa ti permetterà di giocare nuovamente a Tane Sospette dopo aver completato una duty Unreal.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※I riracconti possono essere ottenuti solo una volta a settimana.<hex:0249020103><hex:0248020103>"
+    "translation": "Ottieni un riracconto scoprendo l'illustrazione grande. Questa ricompensa ti permetterà di giocare nuovamente a Tane Sospette dopo aver completato un incarico Unreal.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※I riracconti possono essere ottenuti solo una volta a settimana.<hex:0249020103><hex:0248020103>"
   },
   "13558": {
     "original": "Turn panels to uncover the hidden illustrations beneath and earn faux leaves─which can be exchanged for very real goods!",
@@ -44593,11 +44593,11 @@
   },
   "13741": {
     "original": "※This is a cross-world party.<hex:02100103>If the duty is entered from a World different to your current one, then you must use the World Visit system to travel to that World.",
-    "translation": "※Questo è un party cross-world.<hex:02100103>Se accedi alla duty da un Mondo diverso da quello attuale, devi usare il sistema World Visit per viaggiare verso quel Mondo."
+    "translation": "※Questo è un party cross-world.<hex:02100103>Se accedi all'incarico da un Mondo diverso da quello attuale, devi usare il sistema World Visit per viaggiare verso quel Mondo."
   },
   "13742": {
     "original": "Recruiting for the following duty as a cross-world party:<hex:02100103>・<hex:022903EA0203><hex:02100103><hex:02100103>Progression will be limited when entering this duty as a cross-world party. It is recommended that you convert to an in-world party.<hex:02100103>※The Convert command is located in the Party Members tab of the Party section in the main menu. <hex:02100103><hex:02100103>Continue as a cross-world party?",
-    "translation": "Reclutamento per la seguente duty come party cross-world:<hex:02100103>・<hex:022903EA0203><hex:02100103><hex:02100103>La progressione sarà limitata entrando in questa duty come party cross-world. Si consiglia di convertirlo in un party locale.<hex:02100103>※Il comando Converti si trova nella scheda Membri del party della sezione Party nel menu principale.<hex:02100103><hex:02100103>Continuare come party cross-world?"
+    "translation": "Reclutamento per la seguente incarico come party cross-world:<hex:02100103>・<hex:022903EA0203><hex:02100103><hex:02100103>La progressione sarà limitata entrando in questo incarico come party cross-world. Si consiglia di convertirlo in un party locale.<hex:02100103>※Il comando Converti si trova nella scheda Membri del party della sezione Party nel menu principale.<hex:02100103><hex:02100103>Continuare come party cross-world?"
   },
   "13743": {
     "original": "(Unable to set map link)",
@@ -45025,11 +45025,11 @@
   },
   "13866": {
     "original": "The lost action <hex:022903EA0203> will be converted into a duty action. Please select another action to be overwritten.",
-    "translation": "L'azione perduta <hex:022903EA0203> verrà convertita in un'azione della duty. Seleziona un'altra azione da sovrascrivere."
+    "translation": "L'azione perduta <hex:022903EA0203> verrà convertita in un'azione dell'incarico. Seleziona un'altra azione da sovrascrivere."
   },
   "13867": {
     "original": "Duty Action <hex:022003E80203>",
-    "translation": "Azione della Duty <hex:022003E80203>"
+    "translation": "Azione dell'incarico <hex:022003E80203>"
   },
   "13868": {
     "original": "Register",
@@ -45497,19 +45497,19 @@
   },
   "13993": {
     "original": "By using Return, you will abandon the duty and return to <hex:022903EB3903>. Proceed?",
-    "translation": "Usando Return abbandonerai la duty e tornerai a <hex:022903EB3903>. Procedere?"
+    "translation": "Usando Return abbandonerai l'incarico e tornerai a <hex:022903EB3903>. Procedere?"
   },
   "13994": {
     "original": "Use Return and abandon the duty.",
-    "translation": "Usa Return e abbandona la duty."
+    "translation": "Usa Return e abbandona l'incarico."
   },
   "13995": {
     "original": "In addition to abandoning your current duty, you will also leave the instance <hex:022903EB3903>. Proceed?",
-    "translation": "Oltre ad abbandonare la duty attuale, lascerai anche l'istanza <hex:022903EB3903>. Procedere?"
+    "translation": "Oltre ad abbandonare l'incarico attuale, lascerai anche l'istanza <hex:022903EB3903>. Procedere?"
   },
   "13996": {
     "original": "Abandon the duty and leave the instance.",
-    "translation": "Abbandona la duty ed esci dall'istanza."
+    "translation": "Abbandona l'incarico ed esci dall'istanza."
   },
   "13998": {
     "original": "Near Completion",
@@ -45717,7 +45717,7 @@
   },
   "14060": {
     "original": "Duty Name",
-    "translation": "Nome Missione"
+    "translation": "Nome Incarico"
   },
   "14061": {
     "original": "<hex:020703E80203><hex:022002DF03>/<hex:022002DE03>/<hex:022002DC03> <hex:022002DB03>:<hex:022402DA03>",
@@ -45869,7 +45869,7 @@
   },
   "14098": {
     "original": "Duty Name",
-    "translation": "Nome Missione"
+    "translation": "Nome Incarico"
   },
   "14099": {
     "original": "<hex:022003E80203>/<hex:022003E80303>",
@@ -48021,7 +48021,7 @@
   },
   "14804": {
     "original": "Duty Support",
-    "translation": "Supporto Missione"
+    "translation": "Supporto Incarichi"
   },
   "14806": {
     "original": "Reward",
@@ -48033,11 +48033,11 @@
   },
   "14808": {
     "original": "Duty Support Manual",
-    "translation": "Manuale Supporto Missione"
+    "translation": "Manuale Supporto Incarichi"
   },
   "14809": {
     "original": "Duty Support Help",
-    "translation": "Guida Supporto Missione"
+    "translation": "Guida Supporto Incarichi"
   },
   "14811": {
     "original": "<hex:022903EA0203>: Main Scenario",
@@ -48049,7 +48049,7 @@
   },
   "14813": {
     "original": "Display Duty Finder help.",
-    "translation": "Mostra guida Duty Finder."
+    "translation": "Mostra guida Ricerca Incarichi."
   },
   "14814": {
     "original": "Member Selection Available",
@@ -48061,7 +48061,7 @@
   },
   "14816": {
     "original": "The Duty Support option will become available in a future update.",
-    "translation": "L'opzione Supporto Missione sarà disponibile in un aggiornamento futuro."
+    "translation": "L'opzione Supporto Incarichi sarà disponibile in un aggiornamento futuro."
   },
   "14820": {
     "original": "Home World",
@@ -48505,11 +48505,11 @@
   },
   "14948": {
     "original": "Duty Menu",
-    "translation": "Menu Missione"
+    "translation": "Menu Incarico"
   },
   "14949": {
     "original": "Display party member portraits and access related settings.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Unavailable during certain duties.<hex:0249020103><hex:0248020103>",
-    "translation": "Visualizza i ritratti dei membri del party e accedi alle relative impostazioni.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Non disponibile durante determinate missioni.<hex:0249020103><hex:0248020103>"
+    "translation": "Visualizza i ritratti dei membri del party e accedi alle relative impostazioni.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Non disponibile durante determinati incarichi.<hex:0249020103><hex:0248020103>"
   },
   "14950": {
     "original": "Check the current status of the housing lottery.",
@@ -49813,7 +49813,7 @@
   },
   "15344": {
     "original": "Free Company Members",
-    "translation": "Membri della Free Company"
+    "translation": "Membri della Compagnia Libera"
   },
   "15345": {
     "original": "Party Members",
@@ -50109,7 +50109,7 @@
   },
   "15422": {
     "original": "Register for Duty",
-    "translation": "Registrati alla Duty"
+    "translation": "Registrati all'incarico"
   },
   "15423": {
     "original": "Entries <hex:022003E80203>/<hex:022003E80303>",
@@ -50165,11 +50165,11 @@
   },
   "15437": {
     "original": "End duty.",
-    "translation": "Termina la duty."
+    "translation": "Termina l'incarico."
   },
   "15438": {
     "original": "Should “End duty.” receive the most votes, an exit will appear rather than a portal to the next area. Proceed with your vote?",
-    "translation": "Se “Termina la duty.” riceverà il maggior numero di voti, apparirà un'uscita anziché un portale verso l'area successiva. Procedere con il voto?"
+    "translation": "Se “Termina l'incarico.” riceverà il maggior numero di voti, apparirà un'uscita anziché un portale verso l'area successiva. Procedere con il voto?"
   },
   "15439": {
     "original": "<hex:02080EE1E80301FF07022003E803030203> to <hex:022003E80203> players",
@@ -50249,7 +50249,7 @@
   },
   "15471": {
     "original": "Show party member portraits at the start of duty.",
-    "translation": "Mostra i ritratti dei membri del party all'inizio della duty."
+    "translation": "Mostra i ritratti dei membri del party all'inizio dell'incarico."
   },
   "15472": {
     "original": "Display party member portraits notification.",
@@ -51009,7 +51009,7 @@
   },
   "15793": {
     "original": "Duties",
-    "translation": "Duty"
+    "translation": "Incarichi"
   },
   "15800": {
     "original": "Chat Log Name Display Settings",
@@ -51341,7 +51341,7 @@
   },
   "15890": {
     "original": "Open Duty Finder",
-    "translation": "Apri Duty Finder"
+    "translation": "Apri Ricerca Incarichi"
   },
   "15891": {
     "original": "Open Area Map",
@@ -51385,7 +51385,7 @@
   },
   "15903": {
     "original": "Duty",
-    "translation": "Duty"
+    "translation": "Incarico"
   },
   "15904": {
     "original": "Rewards",
@@ -52349,7 +52349,7 @@
   },
   "16284": {
     "original": "Mute sound while bound by duty.",
-    "translation": "Disattiva l'audio durante i Duty."
+    "translation": "Disattiva l'audio durante gli incarichi."
   },
   "16285": {
     "original": "Reminder (Minutes)",
@@ -52925,7 +52925,7 @@
   },
   "16465": {
     "original": "Increased chance of obtaining certain items from the treasure coffer upon duty completion.",
-    "translation": "Probabilità aumentata di ottenere determinati oggetti dallo scrigno del tesoro al completamento del Duty."
+    "translation": "Probabilità aumentata di ottenere determinati oggetti dallo scrigno del tesoro al completamento dell'incarico."
   },
   "16466": {
     "original": "Register from Home World physical data center.",
@@ -52977,11 +52977,11 @@
   },
   "16489": {
     "original": "Duties",
-    "translation": "Duty"
+    "translation": "Incarichi"
   },
   "16491": {
     "original": "Select up to four duties.",
-    "translation": "Seleziona fino a quattro Duty."
+    "translation": "Seleziona fino a quattro incarichi."
   },
   "16492": {
     "original": "Apply",
@@ -52989,7 +52989,7 @@
   },
   "16493": {
     "original": "Seek job distributions recommended for high-end duties.",
-    "translation": "Cerca la composizione delle Classi consigliata per i Duty di alto livello."
+    "translation": "Cerca la composizione delle Classi consigliata per gli incarichi di alto livello."
   },
   "16500": {
     "original": "Changes will not be saved. Are you sure you wish to cancel?",
@@ -54273,7 +54273,7 @@
   },
   "16870": {
     "original": "Duty Finder registration is pending. Are you sure you wish to submit a pilot application?<hex:02100103><hex:02100103><hex:024804F201F403><hex:024904F201F503>※Registration will be canceled in the event you are selected as a pilot.<hex:0249020103><hex:0248020103>",
-    "translation": "L'iscrizione al Duty Finder è in attesa. Vuoi davvero inviare una candidatura pilota?<hex:02100103><hex:02100103><hex:024804F201F403><hex:024904F201F503>※L'iscrizione verrà annullata qualora tu venga selezionato come pilota.<hex:0249020103><hex:0248020103>"
+    "translation": "L'iscrizione alla Ricerca Incarichi è in attesa. Vuoi davvero inviare una candidatura pilota?<hex:02100103><hex:02100103><hex:024804F201F403><hex:024904F201F503>※L'iscrizione verrà annullata qualora tu venga selezionato come pilota.<hex:0249020103><hex:0248020103>"
   },
   "16871": {
     "original": "Sequential Missions",
@@ -55129,7 +55129,7 @@
   },
   "17127": {
     "original": "Duty-specific Display Settings",
-    "translation": "Impostazioni di visualizzazione per Incarico"
+    "translation": "Impostazioni di visualizzazione per incarico"
   },
   "17128": {
     "original": "Large-scale PvP Duties (Frontline and Rival Wings)",
@@ -55321,7 +55321,7 @@
   },
   "17203": {
     "original": "Unable to register. A different duty category is already selected <hex:020858E1E80205FF0A285370656369616C29FF47020843E1E80201FF3B020937E802FF0B28342D706C6179657229FF0B28382D706C6179657229FF0C2832342D706C6179657229FF0E284C617267652D7363616C652903FF010303>.",
-    "translation": "Impossibile registrarsi. È già stata selezionata una categoria di Incarico diversa <hex:020858E1E80205FF0A285370656369616C29FF47020843E1E80201FF3B020937E802FF0B28342D706C6179657229FF0B28382D706C6179657229FF0C2832342D706C6179657229FF0E284C617267652D7363616C652903FF010303>."
+    "translation": "Impossibile registrarsi. È già stata selezionata una categoria di incarichi diversa <hex:020858E1E80205FF0A285370656369616C29FF47020843E1E80201FF3B020937E802FF0B28342D706C6179657229FF0B28382D706C6179657229FF0C2832342D706C6179657229FF0E284C617267652D7363616C652903FF010303>."
   },
   "17210": {
     "original": "Choose whether the Command Panel will remain open or close automatically when executing commands within the panel.",
@@ -56049,11 +56049,11 @@
   },
   "17531": {
     "original": "Duty registrations are currently pending. Are you sure you wish to cancel registration and log out?",
-    "translation": "Ci sono registrazioni a Incarichi in sospeso. Sei sicuro di voler annullare la registrazione e disconnetterti?"
+    "translation": "Ci sono registrazioni a incarichi in sospeso. Sei sicuro di voler annullare la registrazione e disconnetterti?"
   },
   "17532": {
     "original": "Duty registrations are currently pending. Are you sure you wish to cancel registration and close the game client?",
-    "translation": "Ci sono registrazioni a Incarichi in sospeso. Sei sicuro di voler annullare la registrazione e chiudere il client di gioco?"
+    "translation": "Ci sono registrazioni a incarichi in sospeso. Sei sicuro di voler annullare la registrazione e chiudere il client di gioco?"
   },
   "17540": {
     "original": "スタート地点です。",
@@ -56941,7 +56941,7 @@
   },
   "17823": {
     "original": "Type your way to victory, earn Manderville Gold Saucer Credits (MGC), and win exclusive prizes!<hex:02100103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>Caution<hex:0249020103><hex:0248020103><hex:02100103>A keyboard is required to participate in this duty. The <hex:0242020203> and <hex:0242022A03> cannot be used, so please ensure that you have a keyboard connected before registering.",
-    "translation": "Digita fino alla vittoria, ottieni Manderville Gold Saucer Credit (MGC) e vinci premi esclusivi!<hex:02100103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>Attenzione<hex:0249020103><hex:0248020103><hex:02100103>È richiesta una tastiera per partecipare a questo Incarico. <hex:0242020203> e <hex:0242022A03> non possono essere usati; assicurati di aver collegato una tastiera prima di registrarti."
+    "translation": "Digita fino alla vittoria, ottieni Manderville Gold Saucer Credit (MGC) e vinci premi esclusivi!<hex:02100103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>Attenzione<hex:0249020103><hex:0248020103><hex:02100103>È richiesta una tastiera per partecipare a questo incarico. <hex:0242020203> e <hex:0242022A03> non possono essere usati; assicurati di aver collegato una tastiera prima di registrarti."
   },
   "17824": {
     "original": "Register",
@@ -57057,7 +57057,7 @@
   },
   "17854": {
     "original": "Quit <hex:022903EA0203>?<hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※By abandoning the game, you will not receive any rewards and may incur a Duty Finder penalty.<hex:0249020103><hex:0248020103>",
-    "translation": "Uscire da <hex:022903EA0203>?<hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Abbandonando la partita, non riceverai alcuna ricompensa e potresti incorrere in una penalità del Duty Finder.<hex:0249020103><hex:0248020103>"
+    "translation": "Uscire da <hex:022903EA0203>?<hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Abbandonando la partita, non riceverai alcuna ricompensa e potresti incorrere in una penalità della Ricerca Incarichi.<hex:0249020103><hex:0248020103>"
   },
   "17856": {
     "original": "Exchanging dye items",
@@ -59601,7 +59601,7 @@
   },
   "102612": {
     "original": "Summoning a companion at this time will cancel your Duty Finder registration. Proceed?",
-    "translation": "Evocare un compagno in questo momento annullerà la tua iscrizione al Duty Finder. Procedere?"
+    "translation": "Evocare un compagno in questo momento annullerà la tua iscrizione alla Ricerca Incarichi. Procedere?"
   },
   "102613": {
     "original": "Duty Participation Confirmation",
@@ -59625,7 +59625,7 @@
   },
   "102619": {
     "original": "Duty Recording On",
-    "translation": "Registrazione Incarico Attiva"
+    "translation": "Registrazione dell'incarico Attiva"
   },
   "102620": {
     "original": "Vote Abandon",

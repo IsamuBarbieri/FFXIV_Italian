@@ -24,6 +24,9 @@ public class GlossaryEntry
     public GlossaryCategory Category { get; set; } = GlossaryCategory.General;
     public string RuleId { get; set; } = string.Empty; // e.g. "G6", "G10", "G11"
     public string Notes { get; set; } = string.Empty;
+    public string SourceFile { get; set; } = string.Empty;
+    public string RowId { get; set; } = string.Empty;
+    public string SourceField { get; set; } = string.Empty;
     public bool CaseSensitive { get; set; } = false;
     public List<string> ProhibitedForms { get; set; } = []; // e.g. "Maelstrom" -> prohibited, must be "La Tempesta"
 }
@@ -36,4 +39,3 @@ public class VoiceProfile
     public List<string> KeyTraits { get; set; } = [];
     public List<string> CharacteristicPhrases { get; set; } = [];
 }
-

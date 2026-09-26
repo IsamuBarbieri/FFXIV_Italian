@@ -1,74 +1,84 @@
+using System.Text.Json;
+using System.Text.RegularExpressions;
 using FFXIVItalian.Core.Glossary;
-using Xunit;
 
 namespace FFXIVItalian.Tests;
 
 public class GlossaryTests
 {
-    private readonly GlossaryEngine _engine = GlossaryLoader.CreateCanonicalEngine();
+    private readonly GlossaryCatalog _catalog = GlossaryLoader.LoadCanonical();
 
     [Fact]
-    public void CanonicalEngine_ContainsEssentialGlossaryEntries()
+    public void EveryEntryIsPresentInAnApprovedSource()
     {
-        Assert.NotEmpty(_engine.Entries);
-        Assert.NotEmpty(_engine.VoiceProfiles);
-
-        // Check key lore terms from 07_Glossary.md
-        Assert.Contains(_engine.Entries, e => e.EnglishTerm == "Aetheryte" && e.ItalianTerm == "Eterite");
-        Assert.Contains(_engine.Entries, e => e.EnglishTerm == "The Maelstrom" && e.ItalianTerm == "La Tempesta");
-        Assert.Contains(_engine.Entries, e => e.EnglishTerm == "Warrior of Light" && e.ItalianTerm == "Guerriero della Luce");
-        Assert.Contains(_engine.Entries, e => e.EnglishTerm == "Scions of the Seventh Dawn" && e.ItalianTerm == "Figli della Settima Alba");
-        Assert.Contains(_engine.Entries, e => e.EnglishTerm == "Haurchefant Greystone" && e.ItalianTerm == "Haurchefant Pietragrigia");
-        Assert.Contains(_engine.Entries, e => e.EnglishTerm == "Estinien Wyrmblood" && e.ItalianTerm == "Estinien Sanguedidrago");
+        Assert.Equal(10, _catalog.ApprovedFiles.Count);
+        Assert.NotEmpty(_catalog.Engine.Entries);
+        string root = FindRepoRoot();
+        foreach (var entry in _catalog.Engine.Entries)
+        {
+            Assert.Contains(entry.SourceFile, _catalog.ApprovedFiles);
+            using var doc = JsonDocument.Parse(File.ReadAllText(Path.Combine(root, "data", "translations", entry.SourceFile)));
+            var row = doc.RootElement.GetProperty(entry.RowId);
+            string targetField = "translation_" + entry.SourceField;
+            if (!row.TryGetProperty(targetField, out _) &&
+                (entry.SourceField == "original" || entry.SourceField == "name")) targetField = "translation";
+            Assert.Equal(entry.EnglishTerm, row.GetProperty(entry.SourceField).GetString());
+            Assert.Equal(entry.ItalianTerm, row.GetProperty(targetField).GetString());
+        }
     }
 
     [Fact]
-    public void ValidateTranslation_CatchesProhibitedMaelstromUsage()
+    public void VariantsAreAcceptedAndOtherExactValuesAreFlagged()
     {
-        string en = "Report to the Maelstrom command.";
-        string it = "Fai rapporto al comando di Maelstrom.";
-
-        var result = _engine.ValidateTranslation(en, it);
-
-        Assert.False(result.IsCompliant);
-        Assert.Contains(result.ProhibitedUsages, p => p.Contains("Maelstrom") && p.Contains("La Tempesta"));
+        Assert.True(_catalog.Engine.ValidateTranslation("Return", "Ritorna").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation("Return", "Indietro").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation("Duty", "Incarico").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation("Duty", "Incarichi").IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation("Duty", "Missione").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation("Abandon your current duty?", "Abbandonare l'incarico?").IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation("Abandon your current duty?", "Abbandonare la missione?").IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation("Return", "Back").IsCompliant);
     }
 
     [Fact]
-    public void ValidateTranslation_CatchesForbiddenUnitConversions_PerRuleG28()
+    public void ApprovedFilesDoNotRetainDutyInItalian()
     {
-        string en = "The target is 10 yalms away.";
-        string it = "Il bersaglio dista 10 iarde da qui.";
-
-        var result = _engine.ValidateTranslation(en, it);
-
-        Assert.False(result.IsCompliant);
-        Assert.Contains(result.Warnings, w => w.Contains("G28") && w.Contains("iarda"));
+        string root = FindRepoRoot();
+        foreach (var file in _catalog.ApprovedFiles)
+        {
+            using var doc = JsonDocument.Parse(File.ReadAllText(Path.Combine(root, "data", "translations", file)));
+            foreach (var row in doc.RootElement.EnumerateObject())
+            {
+                if (row.Value.ValueKind != JsonValueKind.Object) continue;
+                foreach (var field in row.Value.EnumerateObject())
+                    if (field.Name.StartsWith("translation", StringComparison.Ordinal) && field.Value.ValueKind == JsonValueKind.String)
+                        Assert.False(Regex.IsMatch(field.Value.GetString() ?? "", @"\bDut(?:y|ies)\b", RegexOptions.IgnoreCase),
+                            $"{file}#{row.Name}:{field.Name}");
+            }
+        }
     }
 
-    [Fact]
-    public void ValidateTranslation_CatchesPluralizedYalm_PerRuleG28()
+    [Theory]
+    [InlineData("{\"1\":{\"original\":\"Cancel\",\"translation\":\"Abort\"}}", true, 1)]
+    [InlineData("{\"1\":{\"name\":\"Grand Company\",\"translation_name\":\"Grande Compagnia\",\"description\":\"Return\",\"translation_description\":\"Back\"}}", true, 1)]
+    [InlineData("{\"1\":{\"original\":\"Cancel\",\"translation\":\"\"}}", false, 0)]
+    public void AuditChecksAllTextFieldsOnlyWhenComplete(string json, bool complete, int findings)
     {
-        string en = "Walk 5 yalms forward.";
-        string it = "Avanza di 5 yalms.";
-
-        var result = _engine.ValidateTranslation(en, it);
-
-        Assert.False(result.IsCompliant);
-        Assert.Contains(result.Warnings, w => w.Contains("G28") && w.Contains("invariabile"));
+        string path = Path.GetTempFileName();
+        try
+        {
+            File.WriteAllText(path, json);
+            var result = GlossaryAudit.AuditFile(path, _catalog.Engine);
+            Assert.Equal(complete, result.IsComplete);
+            Assert.Equal(findings, result.Findings.Count);
+        }
+        finally { File.Delete(path); }
     }
 
-    [Fact]
-    public void ValidateTranslation_AcceptsCompliantTranslation()
+    private static string FindRepoRoot()
     {
-        string en = "May you ever walk in the light of the Crystal, Warrior of Light.";
-        string it = "Che il Cristallo illumini per sempre il vostro cammino, Guerriero della Luce.";
-
-        var result = _engine.ValidateTranslation(en, it);
-
-        Assert.True(result.IsCompliant);
-        Assert.Empty(result.Warnings);
-        Assert.Empty(result.ProhibitedUsages);
+        for (DirectoryInfo? dir = new(AppContext.BaseDirectory); dir is not null; dir = dir.Parent)
+            if (File.Exists(Path.Combine(dir.FullName, "data", "glossary", "Glossary.md"))) return dir.FullName;
+        throw new DirectoryNotFoundException("Repository root not found.");
     }
 }
-

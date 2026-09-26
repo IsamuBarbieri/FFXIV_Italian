@@ -566,8 +566,11 @@ public static class BatchManager
         if (rootObj == null) return 0;
 
         var termMap = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
-        foreach (var entry in engine.Entries)
+        foreach (var group in engine.Entries.GroupBy(e => e.EnglishTerm, StringComparer.OrdinalIgnoreCase))
         {
+            // Context-dependent variants require a human choice.
+            if (group.Select(e => e.ItalianTerm).Distinct(StringComparer.OrdinalIgnoreCase).Skip(1).Any()) continue;
+            var entry = group.First();
             if (!string.IsNullOrWhiteSpace(entry.EnglishTerm) && !string.IsNullOrWhiteSpace(entry.ItalianTerm))
             {
                 termMap[entry.EnglishTerm.Trim()] = entry.ItalianTerm.Trim();
