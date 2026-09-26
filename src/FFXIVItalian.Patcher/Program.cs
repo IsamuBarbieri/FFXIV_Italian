@@ -426,7 +426,8 @@ if (logMessageReplacements.Count > 0 && Directory.Exists(sqPackPath))
     {
         byte[] patchedLogMessageExd = ExdPatcher.PatchSimpleStringSheet(
             originalLogMessageExd.Data,
-            fixedDataSize: 4,
+            // LogMessage EXH: 12-byte fixed row data; its string column is at byte offset 0.
+            fixedDataSize: 12,
             stringColumnOffset: 0,
             logMessageReplacements);
 
@@ -657,6 +658,24 @@ if (Directory.Exists(questsDir) && Directory.Exists(sqPackPath))
     {
         Console.WriteLine();
         Console.WriteLine($"[Quests] {patchedQuests} missioni con traduzioni patchate nel pacchetto Penumbra.");
+    }
+}
+
+// PATCH ASSET UI (texture localizzate per la creazione del personaggio)
+string assetsDir = Path.Combine(projectRoot, "data", "assets");
+if (Directory.Exists(assetsDir))
+{
+    var assetFiles = Directory.EnumerateFiles(assetsDir, "*.tex", SearchOption.AllDirectories).ToArray();
+    foreach (var assetPath in assetFiles)
+    {
+        string gamePath = Path.GetRelativePath(assetsDir, assetPath).Replace(Path.DirectorySeparatorChar, '/');
+        fileMap[gamePath] = await File.ReadAllBytesAsync(assetPath);
+    }
+
+    if (assetFiles.Length > 0)
+    {
+        Console.WriteLine();
+        Console.WriteLine($"Caricate {assetFiles.Length} texture localizzate da '{assetsDir}'.");
     }
 }
 

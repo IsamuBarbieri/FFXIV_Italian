@@ -288,7 +288,7 @@ public static class CharacterCreationTranslations
         SetMulti(1973,
             "Eorzean Calendar", "Calendario Eorzeano",
             "The Eorzean year consists of the moon, Menphina, revolving\naround Hydaelyn's two astral and umbral poles while fluctuating\nbetween each of the six elements. In this, the year can be said\nto be the length of twelve moons.",
-            "L'anno eorzeano è scandito dal moto della luna Menphina, che ruota\nattorno ai due poli astrale e ombrale di Hydaelyn oscillando ciclicamente\ntra ciascuno dei sei elementi. In tal modo, si può dire che l'anno\nabbia la durata di dodici lune.");
+            "L'anno eorzeano è scandito dal moto della luna Menphina, che ruota\nattorno al polo astrale e ombrale di Hydaelyn oscillando ciclicamente\ntra ciascuno dei sei elementi. In tal modo, si può dire che l'anno\nabbia la durata di dodici lune.");
 
         SetMulti(1980,
             "Limsa Lominsa", "Limsa Lominsa",

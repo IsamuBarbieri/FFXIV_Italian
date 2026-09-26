@@ -429,11 +429,11 @@
   },
   "108": {
     "original": "Leave party and abandon your current duty?",
-    "translation": "Vuoi lasciare il gruppo e abbandonare l'incarico attuale?"
+    "translation": "Lasciare il gruppo e abbandonare la missione?"
   },
   "109": {
     "original": "Abandon your current duty?",
-    "translation": "Vuoi abbandonare l'incarico attuale?"
+    "translation": "Vuoi abbandonare la missione?"
   },
   "110": {
     "original": "<hex:024804F201FC03><hex:024904F201FD03>Discard <hex:02082FE4E80302FF1002310CFF054974656D03E802020203FF18022003E803032002310DFF054974656D04E802E803020303>?<hex:0249020103><hex:0248020103>",
@@ -445,11 +445,11 @@
   },
   "112": {
     "original": "Accept Raise?",
-    "translation": "Accettare la resurrezione?"
+    "translation": "Accetti la resurrezione?"
   },
   "113": {
     "original": "Accept Rebirth from <hex:022903EA0203>?",
-    "translation": "Accettare la rinascita da <hex:022903EA0203>?"
+    "translation": "Accetti la rinascita da <hex:022903EA0203>?"
   },
   "114": {
     "original": "Equip items in gear set <hex:022003E80303> (<hex:022903EA0203>)?",
@@ -573,7 +573,7 @@
   },
   "145": {
     "original": "Timers",
-    "translation": "Promemoria Timer"
+    "translation": "Timer Promemoria"
   },
   "146": {
     "original": "<hex:022B1BFF19022815FF10496E7374616E6365436F6E74656E74E802040303>",
@@ -581,7 +581,7 @@
   },
   "147": {
     "original": "Next Leve Allowance",
-    "translation": "Prossimi Mandati Disponibili"
+    "translation": "Prossimi Incarichi Disponibili"
   },
   "148": {
     "original": "  <hex:022003E80203>:<hex:022403E80303> Remaining  <hex:020703E80403><hex:022903EA0503><hex:02081FE4E94E04FF0C022002DC032F022002DE03FF0C022002DE032F022002DC0303> <hex:022002DB03>:<hex:022402DA03><hex:022903EA0603>",
@@ -1449,7 +1449,7 @@
   },
   "390": {
     "original": "Need",
-    "translation": "Necessito"
+    "translation": "Necessita"
   },
   "391": {
     "original": "Greed",
@@ -1685,7 +1685,7 @@
   },
   "455": {
     "original": "Levequests",
-    "translation": "Mandati"
+    "translation": "Incarichi"
   },
   "456": {
     "original": "Allowances",
@@ -1693,7 +1693,7 @@
   },
   "457": {
     "original": "Leve History",
-    "translation": "Cronologia Mandati"
+    "translation": "Cronologia Incarichi"
   },
   "458": {
     "original": "/",
@@ -1765,7 +1765,7 @@
   },
   "475": {
     "original": "Levequests",
-    "translation": "Leve"
+    "translation": "Incarichi"
   },
   "476": {
     "original": "Summary",
@@ -1777,7 +1777,7 @@
   },
   "478": {
     "original": "You can reattempt a failed levequest for <hex:020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E8020303> leve allowance<hex:02080AE4E80202FF01FF027303>. Proceed?",
-    "translation": "Puoi riprovare una leva fallita consumando <hex:020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E8020303> permesso<hex:02080AE4E80202FF01FF027303> di leva. Procedere?"
+    "translation": "Puoi riprovare un incarico fallito consumando <hex:020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E8020303> permesso<hex:02080AE4E80202FF01FF027303> di leva. Procedere?"
   },
   "479": {
     "original": "This quest is not yet available.",
@@ -2221,7 +2221,7 @@
   },
   "598": {
     "original": "Levequests",
-    "translation": "Leve"
+    "translation": "Incarichi"
   },
   "599": {
     "original": "Allowances",
@@ -2353,7 +2353,7 @@
   },
   "633": {
     "original": "Focus Target",
-    "translation": "Bersaglio Focale"
+    "translation": "Focus Bersaglio"
   },
   "634": {
     "original": "Away",
@@ -2441,7 +2441,7 @@
   },
   "655": {
     "original": "LS #<hex:022003E80203>: <hex:022903EA0303>",
-    "translation": "LS #<hex:022003E80203>: <hex:022903EA0303>"
+    "translation": "FP #<hex:022003E80203>: <hex:022903EA0303>"
   },
   "656": {
     "original": "Log #<hex:022003E80203>",
@@ -2745,7 +2745,7 @@
   },
   "737": {
     "original": "<hex:0209BAE804FF04317374FF04326E64FF04337264FF04347468FF04357468FF04367468FF04377468FF04387468FF04397468FF0531307468FF0531317468FF0531327468FF0531337468FF0531347468FF0531357468FF0531367468FF0531377468FF0531387468FF0531397468FF0532307468FF0532317374FF0532326E64FF0532337264FF0532347468FF0532357468FF0532367468FF0532377468FF0532387468FF0532397468FF0533307468FF0533317374FF0533326E6403> Sun of the <hex:020993E803FF0B3173742041737472616CFF0B31737420556D6272616CFF0B326E642041737472616CFF0B326E6420556D6272616CFF0B3372642041737472616CFF0B33726420556D6272616CFF0B3474682041737472616CFF0B34746820556D6272616CFF0B3574682041737472616CFF0B35746820556D6272616CFF0B3674682041737472616CFF0B36746820556D6272616C03> Moon",
-    "translation": "<hex:0209BAE804FF04317374FF04326E64FF04337264FF04347468FF04357468FF04367468FF04377468FF04387468FF04397468FF0531307468FF0531317468FF0531327468FF0531337468FF0531347468FF0531357468FF0531367468FF0531377468FF0531387468FF0531397468FF0532307468FF0532317374FF0532326E64FF0532337264FF0532347468FF0532357468FF0532367468FF0532377468FF0532387468FF0532397468FF0533307468FF0533317374FF0533326E6403> Sole della Luna <hex:020993E803FF0B3173742041737472616CFF0B31737420556D6272616CFF0B326E642041737472616CFF0B326E6420556D6272616CFF0B3372642041737472616CFF0B33726420556D6272616CFF0B3474682041737472616CFF0B34746820556D6272616CFF0B3574682041737472616CFF0B35746820556D6272616CFF0B3674682041737472616CFF0B36746820556D6272616C03>"
+    "translation": "<hex:0209BAE804FF0431C2B0FF0432C2B0FF0433C2B0FF0434C2B0FF0435C2B0FF0436C2B0FF0437C2B0FF0438C2B0FF0439C2B0FF053130C2B0FF053131C2B0FF053132C2B0FF053133C2B0FF053134C2B0FF053135C2B0FF053136C2B0FF053137C2B0FF053138C2B0FF053139C2B0FF053230C2B0FF053231C2B0FF053232C2B0FF053233C2B0FF053234C2B0FF053235C2B0FF053236C2B0FF053237C2B0FF053238C2B0FF053239C2B0FF053330C2B0FF053331C2B0FF053332C2B003> Sole della <hex:0209F0DAE803FF1131C2AA204C756E612041737472616C65FF1131C2AA204C756E6120556D6272616C65FF1132C2AA204C756E612041737472616C65FF1132C2AA204C756E6120556D6272616C65FF1133C2AA204C756E612041737472616C65FF1133C2AA204C756E6120556D6272616C65FF1134C2AA204C756E612041737472616C65FF1134C2AA204C756E6120556D6272616C65FF1135C2AA204C756E612041737472616C65FF1135C2AA204C756E6120556D6272616C65FF1136C2AA204C756E612041737472616C65FF1136C2AA204C756E6120556D6272616C6503>"
   },
   "738": {
     "original": "Main Hand",
@@ -2933,11 +2933,11 @@
   },
   "786": {
     "original": "Cancel All Party Invitations",
-    "translation": "Annulla Tutti gli Inviti al Party"
+    "translation": "Annulla Tutti gli Inviti al Gruppo"
   },
   "787": {
     "original": "Cancel the <hex:022003E80203> party invitation<hex:02080AE4E80202FF01FF027303> you have extended?",
-    "translation": "Vuoi annullare l'invito nel party di <hex:022003E80203><hex:02080AE4E80202FF01FF027303> che hai inviato?"
+    "translation": "Vuoi annullare l'invito al gruppo di <hex:022003E80203><hex:02080AE4E80202FF01FF027303> che hai inviato?"
   },
   "788": {
     "original": "<hex:020828E4E80402FF1302280FFF0A4576656E744974656DE8020A03FF0E02280AFF054974656DE8020A0303>",
@@ -3941,7 +3941,7 @@
   },
   "1049": {
     "original": "Branch Rewards",
-    "translation": "Ricompense Ramo"
+    "translation": "Ramo Ricompense"
   },
   "1050": {
     "original": "Casting",
@@ -4069,7 +4069,7 @@
   },
   "1082": {
     "original": "Tank",
-    "translation": "Tank"
+    "translation": "Difensore"
   },
   "1083": {
     "original": "Healer",
@@ -4169,7 +4169,7 @@
   },
   "1110": {
     "original": "Focus Target",
-    "translation": "Bersaglio Focalizzato"
+    "translation": "Focus Bersaglio"
   },
   "1111": {
     "original": "<hex:020811E802FF0BEE81AA022903EA030320FF0103><hex:02080FE805FF0920022903EA060320FF0103><hex:022D09FF07022903EA040303>",
@@ -4249,15 +4249,15 @@
   },
   "1130": {
     "original": "LT",
-    "translation": "LT"
+    "translation": "OL"
   },
   "1131": {
     "original": "ST",
-    "translation": "ST"
+    "translation": "OS"
   },
   "1132": {
     "original": "ET",
-    "translation": "ET"
+    "translation": "OE"
   },
   "1133": {
     "original": "Support",
@@ -4273,7 +4273,7 @@
   },
   "1136": {
     "original": "Playing Recorded Duty",
-    "translation": "Riproduzione Missione Registrata"
+    "translation": "Riproduci Missione Registrata"
   },
   "1137": {
     "original": "Duty Recorder Paused<hex:02100103>The current duty is recordable. Initiate a <hex:024804F201FA03><hex:024904F201FB03>record ready check<hex:0249020103><hex:0248020103> to begin recording.",
@@ -4501,7 +4501,7 @@
   },
   "1198": {
     "original": "<hex:022903EA0203> Leves",
-    "translation": "Leve di <hex:022903EA0203>"
+    "translation": "Incarico di <hex:022903EA0203>"
   },
   "1199": {
     "original": "Display/hide map icons.",
@@ -5321,7 +5321,7 @@
   },
   "1418": {
     "original": "Quick Synthesis Unavailable",
-    "translation": "Fabbricazione Rapida non Disponibile"
+    "translation": "Sintesi Rapida non Disponibile"
   },
   "1419": {
     "original": "High-quality Uncraftable",
@@ -6081,7 +6081,7 @@
   },
   "1619": {
     "original": "Tank",
-    "translation": "Tank"
+    "translation": "Difensore"
   },
   "1620": {
     "original": "Healer",
@@ -6681,7 +6681,7 @@
   },
   "1807": {
     "original": "Letters from Friends",
-    "translation": "Lettere Dagli Amici"
+    "translation": "Lettere degli Amici"
   },
   "1808": {
     "original": "Purchases & Rewards",
@@ -7065,7 +7065,7 @@
   },
   "1912": {
     "original": "Echo",
-    "translation": "Echo"
+    "translation": "Eco"
   },
   "1913": {
     "original": "System Messages",
@@ -8097,7 +8097,7 @@
   },
   "2205": {
     "original": "Search for Party",
-    "translation": "Cerca gruppo"
+    "translation": "Cerca Gruppo"
   },
   "2206": {
     "original": "Role",
@@ -8321,7 +8321,7 @@
   },
   "2266": {
     "original": "Silence Echo",
-    "translation": "Silenzia Echo"
+    "translation": "Silenzia Eco"
   },
   "2267": {
     "original": "Completion Status",
@@ -8465,7 +8465,7 @@
   },
   "2304": {
     "original": "Deep Dungeon",
-    "translation": "Deep Dungeon"
+    "translation": "Cripta Profonda"
   },
   "2305": {
     "original": "The Forbidden Land, Eureka",
@@ -8681,7 +8681,7 @@
   },
   "2363": {
     "original": "Venture Report",
-    "translation": "Rapporto di Spedizione"
+    "translation": "Rapporto della Spedizione"
   },
   "2365": {
     "original": "Recall",
@@ -9185,7 +9185,7 @@
   },
   "2500": {
     "original": "Duty Finder",
-    "translation": "Ricerca Incarichi"
+    "translation": "Ricerca Missioni"
   },
   "2502": {
     "original": "Level <hex:022003E80203>",
@@ -9201,7 +9201,7 @@
   },
   "2505": {
     "original": "Duty Status",
-    "translation": "Stato incarico"
+    "translation": "Stato Missione"
   },
   "2506": {
     "original": "Withdraw",
@@ -9253,7 +9253,7 @@
   },
   "2518": {
     "original": "Duty: <hex:022903EA0203>",
-    "translation": "Incarico: <hex:022903EA0203>"
+    "translation": "Missione: <hex:022903EA0203>"
   },
   "2519": {
     "original": "Join Party in Progress",
@@ -9261,7 +9261,7 @@
   },
   "2520": {
     "original": "Duty Ready",
-    "translation": "Incarico Pronto"
+    "translation": "Missione Pronta"
   },
   "2521": {
     "original": "Class: ",
@@ -9301,7 +9301,7 @@
   },
   "2530": {
     "original": "Duty Status",
-    "translation": "Stato Incarico"
+    "translation": "Stato Missione"
   },
   "2532": {
     "original": "Current Class: ",
@@ -9353,7 +9353,7 @@
   },
   "2545": {
     "original": "Abandon duty?",
-    "translation": "Abbandonare l'incarico?"
+    "translation": "Abbandonare la Missione?"
   },
   "2546": {
     "original": "Level: <hex:022003E80203>",
@@ -9561,7 +9561,7 @@
   },
   "2598": {
     "original": "Duty Authorization",
-    "translation": "Autorizzazioni Incarichi"
+    "translation": "Autorizzazioni Missioni"
   },
   "2599": {
     "original": "Change Hierarchy",
@@ -9833,7 +9833,7 @@
   },
   "2674": {
     "original": "Using Company Chat",
-    "translation": "Uso della chat di compagnia"
+    "translation": "Uso della Chat della Compagnia"
   },
   "2675": {
     "original": "<hex:022810FF0C4643417574686F726974790C0103>",
@@ -10037,7 +10037,7 @@
   },
   "2730": {
     "original": "Chocobo Porter",
-    "translation": "Chocobo da Noleggio"
+    "translation": "Noleggio Chocobo"
   },
   "2732": {
     "original": "Current Gil: ",
@@ -10141,7 +10141,7 @@
   },
   "2784": {
     "original": "Tank",
-    "translation": "Tank"
+    "translation": "Difensore"
   },
   "2785": {
     "original": "Healer",
@@ -10269,7 +10269,7 @@
   },
   "2820": {
     "original": "Company Board",
-    "translation": "Bacheca di Compagnia"
+    "translation": "Bacheca della Compagnia"
   },
   "2822": {
     "original": "Confirm",
@@ -10297,7 +10297,7 @@
   },
   "2829": {
     "original": "Duties:",
-    "translation": "Incarichi:"
+    "translation": "Missioni:"
   },
   "2830": {
     "original": "Following requirements not met:",
@@ -10309,11 +10309,11 @@
   },
   "2832": {
     "original": "Duty Finder",
-    "translation": "Ricerca Incarichi"
+    "translation": "Ricerca Missioni"
   },
   "2833": {
     "original": "Readying duty...",
-    "translation": "Preparazione incarico..."
+    "translation": "Preparazione missione..."
   },
   "2834": {
     "original": "Finding members...",
@@ -10345,7 +10345,7 @@
   },
   "2841": {
     "original": "Rewards for this duty can be traded with itinerant moogles.",
-    "translation": "Le ricompense per questo incarico possono essere scambiate con i moguri itineranti."
+    "translation": "Le ricompense per questa missione possono essere scambiate con i moguri itineranti."
   },
   "2842": {
     "original": "Progress: <hex:022003E80203>/<hex:022003E80303>",
@@ -10497,7 +10497,7 @@
   },
   "2880": {
     "original": "Company Chest",
-    "translation": "Baule di Compagnia"
+    "translation": "Baule della Compagnia"
   },
   "2882": {
     "original": "Crystals",
@@ -10713,7 +10713,7 @@
   },
   "2963": {
     "original": "Company Chest",
-    "translation": "Baule di Compagnia"
+    "translation": "Baule della Compagnia"
   },
   "2964": {
     "original": "History",
@@ -10881,7 +10881,7 @@
   },
   "3050": {
     "original": "Duty Recorder",
-    "translation": "Registratore Incarichi"
+    "translation": "Registratore Missioni"
   },
   "3052": {
     "original": "Recorder Settings",
@@ -10897,7 +10897,7 @@
   },
   "3055": {
     "original": "Duty Records",
-    "translation": "Registrazioni Incarichi"
+    "translation": "Registrazioni Missioni"
   },
   "3056": {
     "original": "<hex:022B1BFF19022815FF10496E7374616E6365436F6E74656E74E802040303>",
@@ -10905,7 +10905,7 @@
   },
   "3057": {
     "original": "There are no recorded duties.",
-    "translation": "Nessun incarico registrato."
+    "translation": "Nessuna missione registrata."
   },
   "3058": {
     "original": "Length - <hex:025004E8020303>:<hex:025004E8030303>:<hex:025004E8040303>",
@@ -10925,15 +10925,15 @@
   },
   "3062": {
     "original": "Enables duty recording when all conditions are met.",
-    "translation": "Attiva la registrazione dell'incarico quando tutte le condizioni sono soddisfatte."
+    "translation": "Attiva la registrazione della missione quando tutte le condizioni sono soddisfatte."
   },
   "3063": {
     "original": "Disables duty recording even when all conditions are met.",
-    "translation": "Disattiva la registrazione dell'incarico anche quando tutte le condizioni sono soddisfatte."
+    "translation": "Disattiva la registrazione della missione anche quando tutte le condizioni sono soddisfatte."
   },
   "3064": {
     "original": "Display Duty Recorder help text.",
-    "translation": "Mostra guida del Registratore Incarichi."
+    "translation": "Mostra guida del Registratore Missioni."
   },
   "3065": {
     "original": "<hex:024804F201FC03><hex:024904F201FD03>Play function only available in inns.<hex:0249020103><hex:0248020103>",
@@ -10969,7 +10969,7 @@
   },
   "3074": {
     "original": "There are no recorded duties.",
-    "translation": "Nessun incarico registrato."
+    "translation": "Nessua missione registrata."
   },
   "3075": {
     "original": "・Locked",
@@ -11001,7 +11001,7 @@
   },
   "3085": {
     "original": "Enable/Disable Focus Target",
-    "translation": "Attiva/Disattiva Focus Target"
+    "translation": "Attiva/Disattiva Focus Bersaglio"
   },
   "3086": {
     "original": "Display/Hide HUD",
@@ -11113,7 +11113,7 @@
   },
   "3120": {
     "original": "<hex:0212026503>Invite Friend to Return",
-    "translation": "<hex:0212026503>Invita amico a tornare"
+    "translation": "<hex:0212026503>Invita Amico a Tornare"
   },
   "3121": {
     "original": "Upon selecting the Yes button below, the FINAL FANTASY XIV Operations Team will send an e-mail from your character to the specified player, inviting them to return to Eorzea.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Invites will not be sent unless all applying conditions are met.<hex:02100103>No more than 5 invites can be sent at a time.<hex:02100103>A temporary restriction will be placed on invitations after reaching 5.<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>※Visit the following link for details: <hex:024804F201F603><hex:024904F201F703>https://sqex.to/callback<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Send <hex:024804F201FC03><hex:024904F201FD03><hex:022903EA0203><hex:0249020103><hex:0248020103> an invitation e-mail?",
@@ -11989,11 +11989,11 @@
   },
   "3430": {
     "original": "Active Actions",
-    "translation": "Azioni attive"
+    "translation": "Azioni Attive"
   },
   "3431": {
     "original": "Inactive Actions",
-    "translation": "Azioni inattive"
+    "translation": "Azioni Inattive"
   },
   "3432": {
     "original": "There are no active actions.",
@@ -12009,7 +12009,7 @@
   },
   "3440": {
     "original": "Ordinary Tincture",
-    "translation": "Tintura ordinaria"
+    "translation": "Tintura Ordinaria"
   },
   "3442": {
     "original": "Confirm",
@@ -12417,7 +12417,7 @@
   },
   "3606": {
     "original": "Least Turns",
-    "translation": "Meno Turni"
+    "translation": "Ultimi Turni"
   },
   "3607": {
     "original": "Results",
@@ -12969,7 +12969,7 @@
   },
   "3775": {
     "original": "Adjust duty-specific HUD layout. PvP-specific layouts can only be adjusted on Wolves' Den Pier or while participating in PvP.",
-    "translation": "Regola layout HUD specifico per gli incarichi. I layout specifici PvP possono essere regolati solo al Molo della Tana dei Lupi o partecipando al PvP."
+    "translation": "Regola layout HUD specifico per gli incarichi. I layout specifici PvP possono essere regolati solo al Molo del'Antro dei Lupi o partecipando al PvP."
   },
   "3780": {
     "original": "Wait",
@@ -13021,7 +13021,7 @@
   },
   "3792": {
     "original": "Leave Current Duty",
-    "translation": "Abbandona Incarico Attuale"
+    "translation": "Abbandona Missione Attuale"
   },
   "3800": {
     "original": "Fishing Log",
@@ -13201,7 +13201,7 @@
   },
   "3852": {
     "original": "Swimbait",
-    "translation": "Swimbait"
+    "translation": "Esca Viva"
   },
   "3853": {
     "original": "Powerful Hookset",
@@ -14061,7 +14061,7 @@
   },
   "4130": {
     "original": "Company Board",
-    "translation": "Bacheca di Compagnia"
+    "translation": "Bacheca della Compagnia"
   },
   "4131": {
     "original": "Latest Activity",
@@ -14113,7 +14113,7 @@
   },
   "4143": {
     "original": "Equip Set",
-    "translation": "Equipaggia Set"
+    "translation": "Equipaggia Completo"
   },
   "4144": {
     "original": "Gear data unavailable.",
@@ -14709,7 +14709,7 @@
   },
   "4351": {
     "original": "Equip Set",
-    "translation": "Equipaggia Set"
+    "translation": "Equipaggia Completo"
   },
   "4352": {
     "original": "Reassign Gear",
@@ -14717,15 +14717,15 @@
   },
   "4353": {
     "original": "Reassign Set Number",
-    "translation": "Riassegna Numero Set"
+    "translation": "Riassegna Numero Completo"
   },
   "4354": {
     "original": "Change Set Name",
-    "translation": "Cambia Nome Set"
+    "translation": "Cambia Nome Completo"
   },
   "4355": {
     "original": "Delete Set",
-    "translation": "Elimina Set"
+    "translation": "Elimina Completo"
   },
   "4356": {
     "original": "Reassign current gear to “<hex:022903EA0203>”?",
@@ -14745,7 +14745,7 @@
   },
   "4360": {
     "original": "Display Set",
-    "translation": "Mostra Set"
+    "translation": "Mostra Completo"
   },
   "4361": {
     "original": "The specified main arm was missing from your Armoury Chest.",
@@ -15289,11 +15289,11 @@
   },
   "4508": {
     "original": "Novice Network",
-    "translation": "Rete dei Novizi"
+    "translation": "Rete Novizi"
   },
   "4509": {
     "original": "Novice Network Announcements",
-    "translation": "Annunci Rete dei Novizi"
+    "translation": "Annunci Rete Novizi"
   },
   "4510": {
     "original": "Support Desk",
@@ -16117,7 +16117,7 @@
   },
   "4734": {
     "original": "Time Left in the Wolves' Den: <hex:022003E80203>m <hex:022403E80303>s",
-    "translation": "Tempo rimasto nella Tana dei Lupi: <hex:022003E80203>m <hex:022403E80303>s"
+    "translation": "Tempo rimasto nell'Antro dei Lupi: <hex:022003E80203>m <hex:022403E80303>s"
   },
   "4735": {
     "original": "Leave",
@@ -16325,7 +16325,7 @@
   },
   "4791": {
     "original": "Company Credits",
-    "translation": "Crediti di Compagnia"
+    "translation": "Crediti della Compagnia"
   },
   "4792": {
     "original": "Edit Profile",
@@ -16509,7 +16509,7 @@
   },
   "4844": {
     "original": "Mining",
-    "translation": "Estrazione mineraria"
+    "translation": "Minare"
   },
   "4846": {
     "original": "Quarrying",
@@ -16981,7 +16981,7 @@
   },
   "4984": {
     "original": "Company Slogan",
-    "translation": "Slogan di Compagnia"
+    "translation": "Slogan della Compagnia"
   },
   "4985": {
     "original": "None",
@@ -17921,7 +17921,7 @@
   },
   "5436": {
     "original": "Scrip",
-    "translation": "Scrip"
+    "translation": "Buono"
   },
   "5437": {
     "original": "EXP",
@@ -18213,7 +18213,7 @@
   },
   "5519": {
     "original": "Confirm Slots",
-    "translation": "Conferma Slot"
+    "translation": "Conferma Completo"
   },
   "5520": {
     "original": "Overwrite Current Actions",
@@ -18221,11 +18221,11 @@
   },
   "5521": {
     "original": "Change Slot Number",
-    "translation": "Cambia Numero Slot"
+    "translation": "Cambia Numero Completo"
   },
   "5522": {
     "original": "Change Slot Name",
-    "translation": "Cambia Nome Slot"
+    "translation": "Cambia Nome Completo"
   },
   "5523": {
     "original": "Delete",
@@ -18237,19 +18237,19 @@
   },
   "5526": {
     "original": "Assign <hex:022903EA0303> to preset slot <hex:022003E80203>?",
-    "translation": "Assegnare <hex:022903EA0303> allo slot predefinito <hex:022003E80203>?"
+    "translation": "Assegnare <hex:022903EA0303> allo completo predefinito <hex:022003E80203>?"
   },
   "5527": {
     "original": "Select a preset slot number.",
-    "translation": "Seleziona un numero di slot predefinito."
+    "translation": "Seleziona un numero di completo predefinito."
   },
   "5528": {
     "original": "Select a preset slot name.",
-    "translation": "Seleziona un nome per lo slot predefinito."
+    "translation": "Seleziona un nome per lo completo predefinito."
   },
   "5529": {
     "original": "Delete <hex:022903EA0303> from preset slot <hex:022003E80203>?",
-    "translation": "Eliminare <hex:022903EA0303> dallo slot predefinito <hex:022003E80203>?"
+    "translation": "Eliminare <hex:022903EA0303> dallo completo predefinito <hex:022003E80203>?"
   },
   "5530": {
     "original": "Switching to PvP Presets",
@@ -18361,7 +18361,7 @@
   },
   "5557": {
     "original": "Crystalline Conflict",
-    "translation": "Crystalline Conflict"
+    "translation": "Conflitto Cristallino"
   },
   "5558": {
     "original": "Frontline",
@@ -18369,7 +18369,7 @@
   },
   "5559": {
     "original": "Rival Wings",
-    "translation": "Rival Wings"
+    "translation": "Ali Rivali"
   },
   "5560": {
     "original": "Available Materia Enhancements",
@@ -18457,7 +18457,7 @@
   },
   "5587": {
     "original": "Dungeon Gear",
-    "translation": "Equipaggiamento dei Dungeon"
+    "translation": "Equipaggiamento Dungeon"
   },
   "5592": {
     "original": "Gathering Location",
@@ -18469,7 +18469,7 @@
   },
   "5600": {
     "original": "Wondrous Tails",
-    "translation": "Wondrous Tails"
+    "translation": "Code Meravigliose"
   },
   "5602": {
     "original": "Deadline:  <hex:020703E80203><hex:022002DE03>/<hex:022002DC03>/<hex:022002DF03> <hex:022002DB03>:<hex:022402DA03> <hex:020810E0DB0DFF05702E6D2EFF05612E6D2E03>",
@@ -18621,7 +18621,7 @@
   },
   "5640": {
     "original": "Wondrous Tails",
-    "translation": "Wondrous Tails"
+    "translation": "Code Meravigliose"
   },
   "5642": {
     "original": "Select One",
@@ -18653,7 +18653,7 @@
   },
   "5650": {
     "original": "Gig Head",
-    "translation": "Punta per Fiocina"
+    "translation": "Punta Fiocina"
   },
   "5652": {
     "original": "Small",
@@ -18761,7 +18761,7 @@
   },
   "5694": {
     "original": "The Bozjan Southern Front",
-    "translation": "The Bozjan Southern Front"
+    "translation": "Fronte Meridionale di Bozja"
   },
   "5696": {
     "original": "I am prepared for the Hall of the Novice.",
@@ -18773,7 +18773,7 @@
   },
   "5700": {
     "original": "Custom Deliveries",
-    "translation": "Consegne su misura"
+    "translation": "Consegne su Misura"
   },
   "5702": {
     "original": "Disciples of the Hand",
@@ -18805,7 +18805,7 @@
   },
   "5709": {
     "original": "Custom Deliveries (<hex:022903EA0203>)",
-    "translation": "Consegne su misura (<hex:022903EA0203>)"
+    "translation": "Consegne su Misura (<hex:022903EA0203>)"
   },
   "5710": {
     "original": "Collectability",
@@ -18841,7 +18841,7 @@
   },
   "5718": {
     "original": "Deliveries Remaining: <hex:022003E80203>",
-    "translation": "Consegne rimanenti: <hex:022003E80203>"
+    "translation": "Consegne Rimanenti: <hex:022003E80203>"
   },
   "5719": {
     "original": "Unable to receive the following items:<hex:02100103><hex:02081BE1E80201FF13021001032002280AFF054974656DE8030A03FF0103><hex:02081BE1E80401FF13021001032002280AFF054974656DE8050A03FF0103><hex:02100103><hex:02100103>Proceed?",
@@ -18965,7 +18965,7 @@
   },
   "5751": {
     "original": "Societal Currency",
-    "translation": "Valute di Società"
+    "translation": "Valute delle Società"
   },
   "5752": {
     "original": "A Realm Reborn",
@@ -19101,7 +19101,7 @@
   },
   "5789": {
     "original": "Switch Job Gauge to Simple Mode",
-    "translation": "Imposta Indicatore Job in Modalità Semplice"
+    "translation": "Imposta Indicatore Mestiere in Modalità Semplice"
   },
   "5790": {
     "original": "Display Target Info Independently",
@@ -19297,7 +19297,7 @@
   },
   "5845": {
     "original": "Wondrous Tails",
-    "translation": "Wondrous Tails"
+    "translation": "Code Meravigliose"
   },
   "5847": {
     "original": "Open Duty or Category",
@@ -20005,7 +20005,7 @@
   },
   "6112": {
     "original": "Recent Party",
-    "translation": "Gruppo recente"
+    "translation": "Gruppo Recente"
   },
   "6115": {
     "original": "<hex:020853E1E94C01FF4B020947E94CFF0F506C617953746174696F6EC2AE33FF0F506C617953746174696F6EC2AE34FF0F506C617953746174696F6EC2AE34FF0F506C617953746174696F6EC2AE35FF01FF0103FF0103> users can adjust the game's display area to match the TV screen under Display Area Settings.",
@@ -20017,15 +20017,15 @@
   },
   "6121": {
     "original": "All Notices",
-    "translation": "Tutti gli avvisi"
+    "translation": "Tutti gli Avvisi"
   },
   "6122": {
     "original": "Important Notices",
-    "translation": "Avvisi importanti"
+    "translation": "Avvisi Importanti"
   },
   "6123": {
     "original": "Other Notices",
-    "translation": "Altri avvisi"
+    "translation": "Altri Avvisi"
   },
   "6124": {
     "original": "Maintenance",
@@ -20069,11 +20069,11 @@
   },
   "6140": {
     "original": "Load Settings",
-    "translation": "Carica impostazioni"
+    "translation": "Carica Impostazioni"
   },
   "6141": {
     "original": "Camera Settings",
-    "translation": "Impostazioni telecamera"
+    "translation": "Impostazioni Telecamera"
   },
   "6143": {
     "original": "Load",
@@ -20137,7 +20137,7 @@
   },
   "6164": {
     "original": "Time Remaining",
-    "translation": "Tempo rimanente"
+    "translation": "Tempo Rimanente"
   },
   "6165": {
     "original": "<hex:022903EA0203>",
@@ -20161,7 +20161,7 @@
   },
   "6170": {
     "original": "Rowena's House of Splendors",
-    "translation": "Rowena's House of Splendors"
+    "translation": "Boutique delle Meraviglie di Rowena"
   },
   "6171": {
     "original": "View the list of items currently requested.",
@@ -20177,7 +20177,7 @@
   },
   "6174": {
     "original": "Company Projects",
-    "translation": "Progetti di compagnia"
+    "translation": "Progetti della Compagnia"
   },
   "6175": {
     "original": "Review the list of items being requested.",
@@ -20209,11 +20209,11 @@
   },
   "6182": {
     "original": "Company Vessels",
-    "translation": "Navi di compagnia"
+    "translation": "Navi della Compagnia"
   },
   "6183": {
     "original": "Time Remaining",
-    "translation": "Tempo rimanente"
+    "translation": "Tempo Rimanente"
   },
   "6184": {
     "original": "<hex:021A020203><hex:022903EA0203><hex:021A020103>",
@@ -20241,7 +20241,7 @@
   },
   "6190": {
     "original": "Voyage Complete",
-    "translation": "Viaggio completato"
+    "translation": "Viaggio Completato"
   },
   "6191": {
     "original": "Awaiting project progression.",
@@ -20285,11 +20285,11 @@
   },
   "6203": {
     "original": "Outdoor Furnishings",
-    "translation": "Arredi per esterni"
+    "translation": "Arredi per Esterni"
   },
   "6204": {
     "original": "Exterior Fixtures",
-    "translation": "Strutture esterne"
+    "translation": "Strutture Esterne"
   },
   "6205": {
     "original": "Estate Hall",
@@ -20297,15 +20297,15 @@
   },
   "6206": {
     "original": "Indoor Furnishings",
-    "translation": "Arredi interni"
+    "translation": "Arredi Interni"
   },
   "6207": {
     "original": "Interior Fixtures",
-    "translation": "Strutture interne"
+    "translation": "Strutture Interne"
   },
   "6208": {
     "original": "Estate Settings",
-    "translation": "Impostazioni proprietà"
+    "translation": "Impostazioni Proprietà"
   },
   "6209": {
     "original": "Leave",
@@ -20313,23 +20313,23 @@
   },
   "6210": {
     "original": "Move to Front Door",
-    "translation": "Vai alla porta d'ingresso"
+    "translation": "Vai alla Porta d'Ingresso"
   },
   "6211": {
     "original": "Move to Front Gate",
-    "translation": "Vai al cancello principale"
+    "translation": "Vai al Cancello Principale"
   },
   "6212": {
     "original": "Move to Chamber Door",
-    "translation": "Vai alla porta della camera"
+    "translation": "Vai alla Porta della Camera"
   },
   "6213": {
     "original": "Interior Settings",
-    "translation": "Impostazioni interni"
+    "translation": "Impostazioni Interni"
   },
   "6215": {
     "original": "Layout Mode",
-    "translation": "Modalità disposizione"
+    "translation": "Modalità Disposizione"
   },
   "6216": {
     "original": "Move",
@@ -20373,11 +20373,11 @@
   },
   "6227": {
     "original": "Enable Grid Snap",
-    "translation": "Attiva allineamento a griglia"
+    "translation": "Attiva Allineamento Griglia"
   },
   "6228": {
     "original": "Enable Counter Placement",
-    "translation": "Attiva posizionamento su ripiani"
+    "translation": "Attiva Posizionamento su Ripiani"
   },
   "6229": {
     "original": "Place",
@@ -20385,27 +20385,27 @@
   },
   "6230": {
     "original": "Estate Settings",
-    "translation": "Impostazioni proprietà"
+    "translation": "Impostazioni Proprietà"
   },
   "6232": {
     "original": "Rename Estate",
-    "translation": "Rinomina proprietà"
+    "translation": "Rinomina Proprietà"
   },
   "6233": {
     "original": "Edit Greeting",
-    "translation": "Modifica saluto"
+    "translation": "Modifica Saluto"
   },
   "6234": {
     "original": "Relinquish Land",
-    "translation": "Abbandona terreno"
+    "translation": "Abbandona Terreno"
   },
   "6235": {
     "original": "Guest Access Settings",
-    "translation": "Impostazioni accesso ospiti"
+    "translation": "Impostazioni accesso Ospiti"
   },
   "6236": {
     "original": "About Housing",
-    "translation": "Informazioni sugli alloggi"
+    "translation": "Informazioni sugli Alloggi"
   },
   "6237": {
     "original": "Layout",
@@ -20413,15 +20413,15 @@
   },
   "6238": {
     "original": "Disable Grid Snap",
-    "translation": "Disattiva allineamento a griglia"
+    "translation": "Disattiva Allineamento a Griglia"
   },
   "6239": {
     "original": "Disable Counter Placement",
-    "translation": "Disattiva posizionamento su ripiani"
+    "translation": "Disattiva Posizionamento su Ripiani"
   },
   "6240": {
     "original": "Rename Estate",
-    "translation": "Rinomina proprietà"
+    "translation": "Rinomina Proprietà"
   },
   "6242": {
     "original": "Please enter estate name.",
@@ -20441,7 +20441,7 @@
   },
   "6246": {
     "original": "Estate Name",
-    "translation": "Nome della proprietà"
+    "translation": "Nome della Proprietà"
   },
   "6247": {
     "original": "Place housing item.",
@@ -20453,15 +20453,15 @@
   },
   "6249": {
     "original": "Item Bind Prompt",
-    "translation": "Richiesta vincolo oggetto"
+    "translation": "Richiesta Vincolo Oggetto"
   },
   "6250": {
     "original": "Edit Greeting",
-    "translation": "Modifica saluto"
+    "translation": "Modifica Saluto"
   },
   "6252": {
     "original": "Demolish Workshop",
-    "translation": "Demolisci officina"
+    "translation": "Demolisci Officina"
   },
   "6253": {
     "original": "By choosing to demolish the company workshop, you will lose any progression made in company projects and exploratory/subaquatic voyages, and will not be refunded any gil used to purchase the facilities. Proceed?",
@@ -20481,11 +20481,11 @@
   },
   "6257": {
     "original": "Shared Estate Settings",
-    "translation": "Impostazioni residenza condivisa"
+    "translation": "Impostazioni Residenza Condivisa"
   },
   "6258": {
     "original": "Guest Access Settings",
-    "translation": "Impostazioni accesso ospiti"
+    "translation": "Impostazioni Accesso Ospiti"
   },
   "6260": {
     "original": "Allow the following privileges to non-free company members:",
@@ -20493,23 +20493,23 @@
   },
   "6261": {
     "original": "Estate Hall Access",
-    "translation": "Accesso alla residenza"
+    "translation": "Accesso alla Residenza"
   },
   "6262": {
     "original": "Estate Tag Settings",
-    "translation": "Impostazioni etichette proprietà"
+    "translation": "Impostazioni Etichette Proprietà"
   },
   "6263": {
     "original": "Preview Indoor Furnishings",
-    "translation": "Anteprima arredi interni"
+    "translation": "Anteprima Arredi Interni"
   },
   "6264": {
     "original": "Preview Outdoor Furnishings",
-    "translation": "Anteprima arredi per esterni"
+    "translation": "Anteprima Arredi per Esterni"
   },
   "6265": {
     "original": "Outdoor Furnishings",
-    "translation": "Arredi per esterni"
+    "translation": "Arredi per Esterni"
   },
   "6267": {
     "original": "Placed",
@@ -20517,7 +20517,7 @@
   },
   "6268": {
     "original": "Outdoor Furnishing",
-    "translation": "Arredo per esterni"
+    "translation": "Arredo per Esterni"
   },
   "6269": {
     "original": "<hex:022003E80203>/<hex:022003E80303>",
@@ -20933,7 +20933,7 @@
   },
   "6389": {
     "original": "Display Company Profile",
-    "translation": "Visualizza profilo di compagnia"
+    "translation": "Visualizza Profilo della Compagnia"
   },
   "6390": {
     "original": "Message Book",
@@ -21297,7 +21297,7 @@
   },
   "6489": {
     "original": "Company Airship",
-    "translation": "Aeronave di compagnia"
+    "translation": "Aeronave della Compagnia"
   },
   "6490": {
     "original": "Chocobo Stable",
@@ -22137,7 +22137,7 @@
   },
   "6715": {
     "original": "Free Company Estate Relocation (Plot <hex:022003E80403>, Ward <hex:022003E80303>, <hex:023111FF0A506C6163654E616D6503E802030203>).",
-    "translation": "Trasferimento proprietà di compagnia libera (Terreno <hex:022003E80403>, distretto <hex:022003E80303>, <hex:023111FF0A506C6163654E616D6503E802030203>)."
+    "translation": "Trasferimento proprietà della compagnia libera (Terreno <hex:022003E80403>, distretto <hex:022003E80303>, <hex:023111FF0A506C6163654E616D6503E802030203>)."
   },
   "6716": {
     "original": "Shared Estate Settings",
@@ -22857,7 +22857,7 @@
   },
   "6927": {
     "original": "Class/Job: <hex:022D14FF1202280EFF09436C6173734A6F62E802010303>",
-    "translation": "Classe/Job: <hex:022D14FF1202280EFF09436C6173734A6F62E802010303>"
+    "translation": "Classe/Mestiere: <hex:022D14FF1202280EFF09436C6173734A6F62E802010303>"
   },
   "6928": {
     "original": "Race: <hex:02280AFF0552616365E8020103>",
@@ -22889,7 +22889,7 @@
   },
   "6935": {
     "original": "Sell Only as Set",
-    "translation": "Vendi solo come set"
+    "translation": "Vendi Solo come Completo"
   },
   "6936": {
     "original": "Grand Total",
@@ -23893,11 +23893,11 @@
   },
   "7551": {
     "original": "Standard Type (Character-based)",
-    "translation": "Tipo standard (Basato sul personaggio)"
+    "translation": "Standard (Basato sul personaggio)"
   },
   "7552": {
     "original": "Legacy Type (Camera-based)",
-    "translation": "Tipo legacy (Basato sulla telecamera)"
+    "translation": "Legacy (Basato sulla telecamera)"
   },
   "7553": {
     "original": "Camera Controls",
@@ -24309,7 +24309,7 @@
   },
   "7655": {
     "original": "Display duty list.",
-    "translation": "Mostra elenco incarichi."
+    "translation": "Mostra elenco missioni."
   },
   "7656": {
     "original": "Display minimap.",
@@ -24813,7 +24813,7 @@
   },
   "7783": {
     "original": "Tank",
-    "translation": "Tank"
+    "translation": "Difensore"
   },
   "7784": {
     "original": "Healer",
@@ -25273,7 +25273,7 @@
   },
   "7898": {
     "original": "Novice Network",
-    "translation": "Rete dei Novizi"
+    "translation": "Rete Novizi"
   },
   "7899": {
     "original": "PvP Team",
@@ -25913,7 +25913,7 @@
   },
   "8081": {
     "original": "Crystalline Conflict (PvP)",
-    "translation": "Crystalline Conflict (PvP)"
+    "translation": "Conflitto Cristallino (PvP)"
   },
   "8082": {
     "original": "Display affiliated team on left side of Progress Gauge.",
@@ -27269,7 +27269,7 @@
   },
   "8465": {
     "original": "The following activities have been added to the Duty Finder and are accessible under Gold Saucer:<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Triple Triad Battlehall Matches<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>LoVM Player Battles (Non-RP)<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>LoVM Player Battles (RP)<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>LoVM Tournaments<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Lord of Verminion match registration no longer requires MGP.",
-    "translation": "Le seguenti attività sono state aggiunte alla Ricerca Incarichi e sono accessibili sotto Gold Saucer:<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Partite nella Battlehall di Triple Triad<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Battaglie tra giocatori LoVM (non RP)<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Battaglie tra giocatori LoVM (RP)<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Tornei LoVM<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>La registrazione alle partite di Lord of Verminion non richiede più MGP."
+    "translation": "Le seguenti attività sono state aggiunte alla Ricerca Missioni e sono accessibili sotto Gold Saucer:<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Partite nella Battlehall di Triple Triad<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Battaglie tra giocatori LoVM (non RP)<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Battaglie tra giocatori LoVM (RP)<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Tornei LoVM<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>La registrazione alle partite di Lord of Verminion non richiede più MGP."
   },
   "8466": {
     "original": "The following features have been added to estate orchestrions:<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Playlists<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Play All option<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Repeat option<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Shuffle option<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Further information on playlists can be found under the active help topic “The Orchestrion.”<hex:02100103><hex:02100103>Caught fish can now be placed in <hex:024804F201FA03><hex:024904F201FB03>aquariums<hex:0249020103><hex:0248020103> and displayed in estates or private rooms.",
@@ -27305,7 +27305,7 @@
   },
   "8474": {
     "original": "The following duties have been added<hex:02100103>to the Duty Finder under “Gold Saucer”:<hex:02100103><hex:02100103>Chocobo Races<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Chocobo Race: Random<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Chocobo Race: Sagolii Road<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Chocobo Race: Costa del Sol<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Chocobo Race: Tranquil Paths<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Chocobo Races (Party Member)<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Chocobo Race: Random<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Chocobo Race: Sagolii Road<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Chocobo Race: Costa del Sol<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Chocobo Race: Tranquil Paths<hex:0249020103><hex:0248020103><hex:02100103>",
-    "translation": "I seguenti incarichi sono stati aggiunti<hex:02100103>alla Ricerca Incarichi sotto \"Gold Saucer\":<hex:02100103><hex:02100103>Corse dei chocobo<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei chocobo: Casuale<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei chocobo: Sagolii Road<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei chocobo: Costa del Sol<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei chocobo: Tranquil Paths<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Corse dei chocobo (Membro del gruppo)<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei chocobo: Casuale<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei chocobo: Sagolii Road<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei chocobo: Costa del Sol<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei chocobo: Tranquil Paths<hex:0249020103><hex:0248020103><hex:02100103>"
+    "translation": "Le seguenti missioni sono state aggiunte<hex:02100103>alla Ricerca Missioni sotto \"Gold Saucer\":<hex:02100103><hex:02100103>Corse dei chocobo<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei chocobo: Casuale<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei chocobo: Sagolii Road<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei chocobo: Costa del Sol<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei chocobo: Tranquil Paths<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Corse dei chocobo (Membro del gruppo)<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei chocobo: Casuale<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei chocobo: Sagolii Road<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei chocobo: Costa del Sol<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Corsa dei chocobo: Tranquil Paths<hex:0249020103><hex:0248020103><hex:02100103>"
   },
   "8475": {
     "original": "A new Gold Saucer Active Time Event<hex:02100103>“Leap of Faith” is now available!<hex:02100103><hex:02100103>To coincide with this addition, the GATE<hex:02100103>schedule has been updated. Speak with<hex:02100103>the Gold Saucer attendant at Entrance<hex:02100103>Square for details. ",
@@ -27413,7 +27413,7 @@
   },
   "8501": {
     "original": "Aetheryte Tickets: <hex:020815E1E802F203E7FF053939392BFF07022003E8020303>",
-    "translation": "Buoni del teletrasporto: <hex:020815E1E802F203E7FF053939392BFF07022003E8020303>"
+    "translation": "Buoni Teletrasporto: <hex:020815E1E802F203E7FF053939392BFF07022003E8020303>"
   },
   "8502": {
     "original": "Close window and discard changes?",
@@ -27493,7 +27493,7 @@
   },
   "8522": {
     "original": "Aetheryte Ticket Usage",
-    "translation": "Uso dei buoni del teletrasporto"
+    "translation": "Uso dei buoni teletrasporto"
   },
   "8523": {
     "original": "Always Confirm Before Use",
@@ -27509,15 +27509,15 @@
   },
   "8526": {
     "original": "Confirm for All Costs Above Gil Allowance",
-    "translation": "Conferma per tutti i costi superiori alla soglia in gil"
+    "translation": "Conferma per tutti i costi superiori alla soglia gil"
   },
   "8527": {
     "original": "Always Use for Costs Above Gil Allowance",
-    "translation": "Usa sempre per costi superiori alla soglia in gil"
+    "translation": "Usa sempre per costi superiori alla soglia gil"
   },
   "8528": {
     "original": "Gil Allowance",
-    "translation": "Soglia in gil"
+    "translation": "Soglia Gil"
   },
   "8529": {
     "original": "Confirm",
@@ -27525,7 +27525,7 @@
   },
   "8530": {
     "original": "Form Alliance",
-    "translation": "Forma alleanza"
+    "translation": "Forma Alleanza"
   },
   "8532": {
     "original": "Party 1",
@@ -27757,11 +27757,11 @@
   },
   "8605": {
     "original": "Duty Roulette",
-    "translation": "Roulette incarichi"
+    "translation": "Roulette Missioni"
   },
   "8606": {
     "original": "Guildhests",
-    "translation": "Operazioni di gilda"
+    "translation": "Operazioni di Gilda"
   },
   "8607": {
     "original": "Dungeons",
@@ -28313,7 +28313,7 @@
   },
   "8809": {
     "original": "Today's Remaining Allowances: <hex:022003E80203>",
-    "translation": "Incarichi rimanenti oggi: <hex:022003E80203>"
+    "translation": "Permessi Rimanenti Oggi: <hex:022003E80203>"
   },
   "8810": {
     "original": "Custom Deliveries",
@@ -28609,7 +28609,7 @@
   },
   "8886": {
     "original": "Allowances: <hex:022003E80203>",
-    "translation": "Incarichi disponibili: <hex:022003E80203>"
+    "translation": "Permessi: <hex:022003E80203>"
   },
   "8887": {
     "original": "Show on Map",
@@ -30581,7 +30581,7 @@
   },
   "9472": {
     "original": "Garlean",
-    "translation": "Garleano/a"
+    "translation": "Garleano"
   },
   "9473": {
     "original": "Primal",
@@ -30677,7 +30677,7 @@
   },
   "9496": {
     "original": "Open Tournament Schedule",
-    "translation": "Programma Open Tournament"
+    "translation": "Programma Torneo Open"
   },
   "9497": {
     "original": "Match Opponents",
@@ -32221,39 +32221,39 @@
   },
   "9982": {
     "original": "Cliffhanger",
-    "translation": "Cliffhanger"
+    "translation": "Sospesi nel Vuoto"
   },
   "9983": {
     "original": "Skinchange We Can Believe In",
-    "translation": "Skinchange We Can Believe In"
+    "translation": "L'Impostore Credibile"
   },
   "9984": {
     "original": "Vase Off",
-    "translation": "Vase Off"
+    "translation": "Vasi d'Assalto"
   },
   "9985": {
     "original": "Any Way the Wind Blows",
-    "translation": "Any Way the Wind Blows"
+    "translation": "Ovunque Soffi il Vento"
   },
   "9986": {
     "original": "The Time of My Life",
-    "translation": "The Time of My Life"
+    "translation": "A Ritmo di Danza"
   },
   "9987": {
     "original": "Monster Toss",
-    "translation": "Monster Toss"
+    "translation": "Mostro nel Cesto"
   },
   "9988": {
     "original": "Cuff-a-Cur",
-    "translation": "Cuff-a-Cur"
+    "translation": "Picchia chi Puó"
   },
   "9989": {
     "original": "Crystal Tower Striker",
-    "translation": "Crystal Tower Striker"
+    "translation": "Il Martello della Torre di Cristallo"
   },
   "9990": {
     "original": "The Moogle's Paw",
-    "translation": "The Moogle's Paw"
+    "translation": "La Zampa del Moogle"
   },
   "9991": {
     "original": "Triple Triad",
@@ -32265,19 +32265,19 @@
   },
   "9993": {
     "original": "The Finer Miner",
-    "translation": "The Finer Miner"
+    "translation": "Il Minatore Matto"
   },
   "9994": {
     "original": "Out on a Limb",
-    "translation": "Out on a Limb"
+    "translation": "Il Potatore Matto"
   },
   "9995": {
     "original": "Fashion Report",
-    "translation": "Fashion Report"
+    "translation": "Sfilata di Moda"
   },
   "9996": {
     "original": "The Slice Is Right",
-    "translation": "The Slice Is Right"
+    "translation": "Il Taglio é Giusto"
   },
   "10000": {
     "original": "Open Duty Finder settings.",
@@ -32309,7 +32309,7 @@
   },
   "10008": {
     "original": "Unrestricted Party",
-    "translation": "Unrestricted Party"
+    "translation": "Gruppo Senza Restrizioni"
   },
   "10009": {
     "original": "Participate in duties without meeting the minimum party member requirements.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Level sync and item level sync are disabled and role requirements are ignored.<hex:02100103>※Defeating enemies will yield no EXP or items.<hex:02100103>※Equipment will not gain spiritbond.<hex:02100103>※Certain duties will apply special enhancements to players.<hex:02100103>※Only certain duties allow unrestricted parties.<hex:02100103>※Only the party leader's settings are applicable.<hex:02100103>※Vote abandon may be used at any time.<hex:0249020103><hex:0248020103>",
@@ -32329,11 +32329,11 @@
   },
   "10013": {
     "original": "Unrestricted Parties Allowed",
-    "translation": "Unrestricted Party consentito"
+    "translation": "Gruppo Senza Restrizioni Consentito"
   },
   "10014": {
     "original": "Unrestricted Parties Not Allowed",
-    "translation": "Unrestricted Party non consentito"
+    "translation": "Gruppo Senza Restrizioni Non Consentito"
   },
   "10015": {
     "original": "Select a loot rule.",
@@ -32349,11 +32349,11 @@
   },
   "10018": {
     "original": "Greed Only",
-    "translation": "Solo Greed"
+    "translation": "Solo Brama"
   },
   "10019": {
     "original": "All party members must select Greed.",
-    "translation": "Tutti i membri del party devono selezionare Greed."
+    "translation": "Tutti i membri del party devono selezionare Brama."
   },
   "10020": {
     "original": "Lootmaster",
@@ -32369,7 +32369,7 @@
   },
   "10023": {
     "original": "Loot Rule: Greed Only",
-    "translation": "Regola bottino: Solo Greed"
+    "translation": "Regola bottino: Solo Brama"
   },
   "10024": {
     "original": "Loot Rule: Lootmaster",
@@ -32381,7 +32381,7 @@
   },
   "10026": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>※Lootmaster and Greed Only can only be selected when using a preformed<hex:02100103>　party meeting party size requirements or an unrestricted party.<hex:02100103>※Only the party leader can change loot rules.<hex:02100103>※Loot rules are void upon leaving an instance.<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>※Lootmaster e Solo Greed possono essere selezionati solo con un party<hex:02100103>　preformato che rispetta le dimensioni richieste o un unrestricted party.<hex:02100103>※Solo il capogruppo può modificare le regole del bottino.<hex:02100103>※Le regole del bottino vengono annullate all'uscita dall'istanza.<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>※Lootmaster e Solo Brama possono essere selezionati solo con un party<hex:02100103>　preformato che rispetta le dimensioni richieste o un unrestricted party.<hex:02100103>※Solo il capogruppo può modificare le regole del bottino.<hex:02100103>※Le regole del bottino vengono annullate all'uscita dall'istanza.<hex:0249020103><hex:0248020103>"
   },
   "10027": {
     "original": "<hex:021E020B03> Select  <hex:021E020C03> Select and Close",
@@ -32441,15 +32441,15 @@
   },
   "10041": {
     "original": "The Wolves' Den (Rated)",
-    "translation": "The Wolves' Den (Classificata)"
+    "translation": "L'Antro dei Lupi (Classificata)"
   },
   "10042": {
     "original": "The Wolves' Den (Unrated)",
-    "translation": "The Wolves' Den (Non classificata)"
+    "translation": "L'Antro dei Lupi (Non classificata)"
   },
   "10043": {
     "original": "Frontline",
-    "translation": "Frontline"
+    "translation": "Prima Linea"
   },
   "10044": {
     "original": "Retrieving information...",
@@ -32505,7 +32505,7 @@
   },
   "10057": {
     "original": "Duty Information",
-    "translation": "Informazioni sulla duty"
+    "translation": "Informazioni Missione"
   },
   "10058": {
     "original": "Close window and discard all changes without saving?",
@@ -32517,7 +32517,7 @@
   },
   "10060": {
     "original": "Duty Menu",
-    "translation": "Menu Duty"
+    "translation": "Menu Missioni"
   },
   "10062": {
     "original": "Functions",
@@ -32529,7 +32529,7 @@
   },
   "10064": {
     "original": "Abandon Duty",
-    "translation": "Abbandona duty"
+    "translation": "Abbandona Missione"
   },
   "10065": {
     "original": "Leave current duty.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※A Duty Finder penalty will be incurred in the following cases:<hex:02100103>　You are first to leave a matched party before duty is complete.<hex:02100103>　You are first to leave a preformed party in less than 10 minutes.<hex:02100103><hex:0249020103><hex:0248020103>",
@@ -32553,11 +32553,11 @@
   },
   "10070": {
     "original": "Display Duty Information",
-    "translation": "Mostra informazioni sulla duty"
+    "translation": "Mostra informazioni Missione"
   },
   "10071": {
     "original": "Confirm duty requirements and rewards.",
-    "translation": "Conferma requisiti e ricompense della duty."
+    "translation": "Conferma requisiti e ricompense della missione."
   },
   "10072": {
     "original": "Details",
@@ -32569,15 +32569,15 @@
   },
   "10074": {
     "original": "Duty Finder Settings",
-    "translation": "Impostazioni Duty Finder"
+    "translation": "Impostazioni Ricerca Missioni"
   },
   "10075": {
     "original": "Options set in Duty Finder settings.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Only settings for current duty are available for review.<hex:0249020103><hex:0248020103>",
-    "translation": "Opzioni impostate nel Duty Finder.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※È possibile visualizzare solo le impostazioni della duty attuale.<hex:0249020103><hex:0248020103>"
+    "translation": "Opzioni impostate per Ricerca Missione.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※È possibile visualizzare solo le impostazioni della missione attuale.<hex:0249020103><hex:0248020103>"
   },
   "10076": {
     "original": "Raid Finder",
-    "translation": "Raid Finder"
+    "translation": "Ricerca Incursione"
   },
   "10078": {
     "original": "Matching Requirements",
@@ -32585,15 +32585,15 @@
   },
   "10079": {
     "original": "Duty Complete",
-    "translation": "Duty completata"
+    "translation": "Missione Completata"
   },
   "10080": {
     "original": "Duty Incomplete",
-    "translation": "Duty incompleta"
+    "translation": "Missione Incompleta"
   },
   "10081": {
     "original": "Option only available after completing duty.",
-    "translation": "Opzione disponibile solo dopo aver completato la duty."
+    "translation": "Opzione disponibile solo dopo aver completato la missione."
   },
   "10082": {
     "original": "Purpose",
@@ -32601,7 +32601,7 @@
   },
   "10083": {
     "original": "Duty Completion",
-    "translation": "Completamento duty"
+    "translation": "Completamento missione"
   },
   "10084": {
     "original": "Practice",
@@ -32629,7 +32629,7 @@
   },
   "10090": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>※The “Duty Complete” option is only available for previously<hex:02100103>　completed duties.<hex:02100103><hex:020875E4E80201FF6DE280BB54686520E2809C4475747920436F6D706C6574696F6EE2809D206F7074696F6E206973206F6E6C7920617661696C61626C652069662074686502100103E380807765656B6C7920726577617264206861732079657420746F206265206F627461696E65642E02100103FF0103>※Practice phase selection does not entail the actual skipping<hex:02100103>　of phases.<hex:0249020103><hex:0248020103><hex:02100103><hex:0208F2016CE4E80201FFF20162024804F201FC03024904F201FD03E280BB49662074686520726567697374726174696F6E20706572696F64206F7665726C617073207769746820746865207765656B6C792072657365742C02100103E38080726567697374726174696F6E2077696C6C2062652063616E63656C65642E02100103E280BB4966203120746F2034206D656D62657273206861766520616C726561647920726563656976656420746865207765656B6C79207265776172642C02100103E380806F722069662061206D656D626572206C6F6773206F7574206F7220646973636F6E6E656374732C20746865206E756D626572206F66207265776172647302100103E3808077696C6C20626520726564756365642E204E6F20636F66666572732077696C6C206170706561722069662035206F72206D6F7265206D656D6265727302100103E380806861766520726563656976656420746865207265776172642E02490201030248020103FF0103>",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>※L'opzione “Duty completata” è disponibile solo per le duty<hex:02100103>　completate in precedenza.<hex:02100103><hex:020875E4E80201FF6DE280BB54686520E2809C4475747920436F6D706C6574696F6EE2809D206F7074696F6E206973206F6E6C7920617661696C61626C652069662074686502100103E380807765656B6C7920726577617264206861732079657420746F206265206F627461696E65642E02100103FF0103>※La selezione della fase di pratica non comporta il salto effettivo<hex:02100103>　delle fasi.<hex:0249020103><hex:0248020103><hex:02100103><hex:0208F2016CE4E80201FFF20162024804F201FC03024904F201FD03E280BB49662074686520726567697374726174696F6E20706572696F64206F7665726C617073207769746820746865207765656B6C792072657365742C02100103E38080726567697374726174696F6E2077696C6C2062652063616E63656C65642E02100103E280BB4966203120746F2034206D656D62657273206861766520616C726561647920726563656976656420746865207765656B6C79207265776172642C02100103E380806F722069662061206D656D626572206C6F6773206F7574206F7220646973636F6E6E656374732C20746865206E756D626572206F66207265776172647302100103E3808077696C6C20626520726564756365642E204E6F20636F66666572732077696C6C206170706561722069662035206F72206D6F7265206D656D6265727302100103E380806861766520726563656976656420746865207265776172642E02490201030248020103FF0103>"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>※L'opzione “Missione Completata” è disponibile solo per le missioni<hex:02100103>　completate in precedenza.<hex:02100103><hex:020875E4E80201FF6DE280BB54686520E2809C4475747920436F6D706C6574696F6EE2809D206F7074696F6E206973206F6E6C7920617661696C61626C652069662074686502100103E380807765656B6C7920726577617264206861732079657420746F206265206F627461696E65642E02100103FF0103>※La selezione della fase di pratica non comporta il salto effettivo<hex:02100103>　delle fasi.<hex:0249020103><hex:0248020103><hex:02100103><hex:0208F2016CE4E80201FFF20162024804F201FC03024904F201FD03E280BB49662074686520726567697374726174696F6E20706572696F64206F7665726C617073207769746820746865207765656B6C792072657365742C02100103E38080726567697374726174696F6E2077696C6C2062652063616E63656C65642E02100103E280BB4966203120746F2034206D656D62657273206861766520616C726561647920726563656976656420746865207765656B6C79207265776172642C02100103E380806F722069662061206D656D626572206C6F6773206F7574206F7220646973636F6E6E656374732C20746865206E756D626572206F66207265776172647302100103E3808077696C6C20626520726564756365642E204E6F20636F66666572732077696C6C206170706561722069662035206F72206D6F7265206D656D6265727302100103E380806861766520726563656976656420746865207265776172642E02490201030248020103FF0103>"
   },
   "10091": {
     "original": "Unselect",
@@ -32649,11 +32649,11 @@
   },
   "10095": {
     "original": "One Player per Job",
-    "translation": "Un solo giocatore per job"
+    "translation": "Un Solo Giocatore per Mestiere"
   },
   "10096": {
     "original": "The duty selected is beyond your current story progression. The preceding duty will be skipped and <hex:024804F201FE03><hex:024904F201FF03>its weekly reward lost<hex:0249020103><hex:0248020103>. Proceed?",
-    "translation": "La duty selezionata è oltre la tua attuale progressione della storia. La duty precedente verrà saltata e <hex:024804F201FE03><hex:024904F201FF03>la sua ricompensa settimanale andrà persa<hex:0249020103><hex:0248020103>. Procedere?"
+    "translation": "La missione selezionata è oltre la tua attuale progressione della storia. La missione precedente verrà saltata e <hex:024804F201FE03><hex:024904F201FF03>la sua ricompensa settimanale andrà persa<hex:0249020103><hex:0248020103>. Procedere?"
   },
   "10097": {
     "original": "Practice Phase Selection",
@@ -32733,7 +32733,7 @@
   },
   "10117": {
     "original": "※Items only available while undertaking duty.",
-    "translation": "※Oggetti disponibili solo durante lo svolgimento della duty."
+    "translation": "※Oggetti disponibili solo durante lo svolgimento della missione."
   },
   "10118": {
     "original": "Accept",
@@ -32901,15 +32901,15 @@
   },
   "10163": {
     "original": "Set whether or not you wish to join a party in progress looking for members. This feature allows for party matching without using the Duty Finder.<hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Setting active only when playing solo and when all duties registered have been previously completed.<hex:0249020103><hex:0248020103>",
-    "translation": "Imposta se desideri o meno unirti a un party in corso che cerca membri. Questa funzione consente l'abbinamento del party senza usare il Duty Finder.<hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Impostazione attiva solo giocando in solitario e quando tutte le duty registrate sono state precedentemente completate.<hex:0249020103><hex:0248020103>"
+    "translation": "Imposta se desideri o meno unirti a un party in corso che cerca membri. Questa funzione consente l'abbinamento del party senza usare la Ricerca Missione.<hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Impostazione attiva solo giocando in solitario e quando tutte le duty registrate sono state precedentemente completate.<hex:0249020103><hex:0248020103>"
   },
   "10165": {
     "original": "Skipping duty. <hex:024804F201FE03><hex:024904F201FF03>The corresponding weekly reward will be made available again after the weekly reset.<hex:0249020103><hex:0248020103>",
-    "translation": "Salto della duty. <hex:024804F201FE03><hex:024904F201FF03>La relativa ricompensa settimanale sarà di nuovo disponibile dopo il reset settimanale.<hex:0249020103><hex:0248020103>"
+    "translation": "Salto della missione. <hex:024804F201FE03><hex:024904F201FF03>La relativa ricompensa settimanale sarà di nuovo disponibile dopo il reset settimanale.<hex:0249020103><hex:0248020103>"
   },
   "10166": {
     "original": "Duty Status",
-    "translation": "Stato della duty"
+    "translation": "Stato della Missione"
   },
   "10167": {
     "original": "Withdraw",
@@ -32933,11 +32933,11 @@
   },
   "10174": {
     "original": "Kick from Novice Network",
-    "translation": "Espelli dal Novice Network"
+    "translation": "Espelli dalla Rete Novizi"
   },
   "10175": {
     "original": "Novice Network",
-    "translation": "Novice Network"
+    "translation": "Rete Novizi"
   },
   "10177": {
     "original": "Current Participants:<hex:02100103><hex:022003E80203> mentor<hex:02080AE4E80202FF01FF027303>/<hex:022003E80303> <hex:020839E4E80302FF186E657720616476656E74757265722F72657475726E6572FF1A6E657720616476656E7475726572732F72657475726E65727303>",
@@ -32949,7 +32949,7 @@
   },
   "10179": {
     "original": "Invite to Novice Network",
-    "translation": "Invita al Novice Network"
+    "translation": "Invita alla Rete Novizi"
   },
   "10180": {
     "original": "You can now receive your mentor certification.<hex:02100103><hex:02100103>As a mentor, you are expected to actively perform the following:<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>1. Provide gameplay advice for new adventurers and other players.<hex:02100103>2. Be an exemplar for player etiquette.<hex:02100103>3. Invite new adventurers to the Novice Network, and answer their queries in the chat channel.<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Accepting mentor certification will grant you access to the Novice Network and Duty Roulette: Mentor, as well as earn you a bonus to experience points when grouping with a new adventurer.<hex:02100103><hex:02100103><hex:024804F201F403><hex:024904F201F503>※Mentors can participate in the Novice Network regardless of online status. You will also be able to register for Duty Roulette: Mentor, but your status will automatically switch to “Mentor” once inside the instance.<hex:02100103>※Inappropriate mentor behavior may be reported.<hex:0249020103><hex:0248020103>",
@@ -32989,11 +32989,11 @@
   },
   "10189": {
     "original": "You have received an invite to the Novice Network from the <hex:0212024F03>mentor <hex:022903EA0203>!<hex:02100103><hex:02100103>The Novice Network is a place where beginning players can share their experiences and pose questions on adventuring to participating mentors. Be sure to take full advantage of this channel, but also remember to be polite and respectful while doing so!",
-    "translation": "Hai ricevuto un invito al Novice Network dal <hex:0212024F03>mentor <hex:022903EA0203>!<hex:02100103><hex:02100103>Il Novice Network è un luogo dove i nuovi giocatori possono condividere le loro esperienze e porre domande sull'avventura ai mentor partecipanti. Approfitta al massimo di questo canale, ma ricorda di essere sempre educato e rispettoso!"
+    "translation": "Hai ricevuto un invito alla Rete Novizi dal <hex:0212024F03>mentor <hex:022903EA0203>!<hex:02100103><hex:02100103>La Rete Novizi è un luogo dove i nuovi giocatori possono condividere le loro esperienze e porre domande sull'avventura ai mentor partecipanti. Approfitta al massimo di questo canale, ma ricorda di essere sempre educato e rispettoso!"
   },
   "10190": {
     "original": "Join Novice Network",
-    "translation": "Unisciti al Novice Network"
+    "translation": "Unisciti alla Rete Novizi"
   },
   "10191": {
     "original": "Decline Invite",
@@ -33001,7 +33001,7 @@
   },
   "10192": {
     "original": "ビギナーチャンネルに参加しますか？<hex:02100103>ビギナーチャンネルは一度参加した後でも、<hex:02100103>以下の方法で退出することができますので、<hex:02100103>気軽に参加してみてください。<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>ビギナーチャンネル参加者リストの「退出」ボタンを押下<hex:02100103>テキストコマンド「/**** off」を実行<hex:0249020103><hex:0248020103>",
-    "translation": "Vuoi unirti al Novice Network?<hex:02100103>Anche dopo esserti unito al Novice Network,<hex:02100103>puoi uscirne in qualsiasi momento nei modi seguenti,<hex:02100103>quindi sentiti libero di partecipare.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Premi il pulsante “Esci” nell'elenco partecipanti del Novice Network<hex:02100103>Esegui il comando testuale “/novicenetwork off”<hex:0249020103><hex:0248020103>"
+    "translation": "Vuoi unirti alla Rete Novizi?<hex:02100103>Anche dopo esserti unito alla Rete Novizi,<hex:02100103>puoi uscirne in qualsiasi momento nei modi seguenti,<hex:02100103>quindi sentiti libero di partecipare.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Premi il pulsante “Esci” nell'elenco partecipanti della Rete Novizi<hex:02100103>Esegui il comando testuale “/novicenetwork off”<hex:0249020103><hex:0248020103>"
   },
   "10193": {
     "original": "Join",
@@ -33013,7 +33013,7 @@
   },
   "10195": {
     "original": "Once an invite to the Novice Network has been declined, participation in the channel will not be allowed until another invite is received.<hex:02100103><hex:02100103>Click the box below to automatically decline all further invites.",
-    "translation": "Una volta rifiutato un invito al Novice Network, non sarà consentito partecipare al canale fino alla ricezione di un nuovo invito.<hex:02100103><hex:02100103>Spunta la casella sottostante per rifiutare automaticamente tutti gli inviti futuri."
+    "translation": "Una volta rifiutato un invito alla Rete Novizi, non sarà consentito partecipare al canale fino alla ricezione di un nuovo invito.<hex:02100103><hex:02100103>Spunta la casella sottostante per rifiutare automaticamente tutti gli inviti futuri."
   },
   "10196": {
     "original": "Decline",
@@ -33029,7 +33029,7 @@
   },
   "10199": {
     "original": "Once the Novice Network has been left, participation in the channel will not be allowed until another invite is received.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Leaving the Novice Network does not remove the New Adventurer/Returner status.<hex:0249020103><hex:0248020103>",
-    "translation": "Una volta lasciato il Novice Network, non sarà possibile partecipare al canale fino alla ricezione di un nuovo invito.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Lasciare il Novice Network non rimuove lo stato di Nuovo avventuriero/Returner.<hex:0249020103><hex:0248020103>"
+    "translation": "Una volta lasciato la Rete Novizi, non sarà possibile partecipare al canale fino alla ricezione di un nuovo invito.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Lasciare la Rete Novizi non rimuove lo stato di Nuovo avventuriero/Returner.<hex:0249020103><hex:0248020103>"
   },
   "10200": {
     "original": "Leave",
@@ -33053,7 +33053,7 @@
   },
   "10205": {
     "original": "All <hex:0212026003>Returners are granted full access to the Novice Network. In addition to returners, this chat channel is only open to <hex:0212024F03>mentors and <hex:0212024E03>new adventurers, and provides players with a place to ask questions and seek help.<hex:02100103><hex:02100103>The Novice Network can be left at any time by pressing the Leave button in the Novice Network List, or by using the text command <hex:024804F201FA03><hex:024904F201FB03><hex:022811FF0C54657874436F6D6D616E64F0E10903><hex:0249020103><hex:0248020103>.",
-    "translation": "A tutti i <hex:0212026003>Returner è concesso il pieno accesso al Novice Network. Oltre ai returner, questo canale di chat è aperto solo ai <hex:0212024F03>mentor e ai <hex:0212024E03>nuovi avventurieri, e fornisce un luogo dove porre domande e chiedere aiuto.<hex:02100103><hex:02100103>È possibile lasciare il Novice Network in qualsiasi momento premendo il pulsante Esci nell'elenco del Novice Network o usando il comando testuale <hex:024804F201FA03><hex:024904F201FB03><hex:022811FF0C54657874436F6D6D616E64F0E10903><hex:0249020103><hex:0248020103>."
+    "translation": "A tutti i <hex:0212026003>Returner è concesso il pieno accesso alla Rete Novizi. Oltre ai returner, questo canale di chat è aperto solo ai <hex:0212024F03>mentor e ai <hex:0212024E03>nuovi avventurieri, e fornisce un luogo dove porre domande e chiedere aiuto.<hex:02100103><hex:02100103>È possibile lasciare la Rete Novizi in qualsiasi momento premendo il pulsante Esci nell'elenco della Rete Novizi o usando il comando testuale <hex:024804F201FA03><hex:024904F201FB03><hex:022811FF0C54657874436F6D6D616E64F0E10903><hex:0249020103><hex:0248020103>."
   },
   "10206": {
     "original": "Join",
@@ -33085,7 +33085,7 @@
   },
   "10213": {
     "original": "Join the Novice Network?",
-    "translation": "Unirsi al Novice Network?"
+    "translation": "Unirsi alla Rete Novizi?"
   },
   "10214": {
     "original": "Yes",
@@ -33097,7 +33097,7 @@
   },
   "10216": {
     "original": "Mentors can rejoin the Novice Network at any time by using the text command via the Novice Network List or by using the text command <hex:024804F201FA03><hex:024904F201FB03>/novicenetwork on<hex:0249020103><hex:0248020103>.",
-    "translation": "I mentor possono rientrare nel Novice Network in qualsiasi momento tramite il comando testuale nell'elenco del Novice Network o usando il comando <hex:024804F201FA03><hex:024904F201FB03>/novicenetwork on<hex:0249020103><hex:0248020103>."
+    "translation": "I mentor possono rientrare nella Rete Novizi in qualsiasi momento tramite il comando testuale nell'elenco della Rete Novizi o usando il comando <hex:024804F201FA03><hex:024904F201FB03>/novicenetwork on<hex:0249020103><hex:0248020103>."
   },
   "10217": {
     "original": "Leave",
@@ -33133,7 +33133,7 @@
   },
   "10225": {
     "original": "Hide duty list during instanced duty.",
-    "translation": "Nascondi elenco duty durante le duty con istanza."
+    "translation": "Nascondi elenco missioni durante le missioni con istanza."
   },
   "10226": {
     "original": "Role Sort Settings",
@@ -33149,7 +33149,7 @@
   },
   "10229": {
     "original": "Hide duty list during non-instanced duty.",
-    "translation": "Nascondi elenco duty durante le duty senza istanza."
+    "translation": "Nascondi elenco missioni durante le missioni senza istanza."
   },
   "10230": {
     "original": "PvE Settings",
@@ -33349,7 +33349,7 @@
   },
   "10279": {
     "original": "Enable duty action input.",
-    "translation": "Attiva input per Duty Action."
+    "translation": "Attiva input per le Azioni Missione."
   },
   "10280": {
     "original": "Status Effect Icon Display Maximum",
@@ -33521,11 +33521,11 @@
   },
   "10322": {
     "original": "Instant Portraits",
-    "translation": "Instant Portraits"
+    "translation": "Ritratti Istantanei"
   },
   "10323": {
     "original": "Show party member portraits at the start of duty.",
-    "translation": "Mostra i ritratti dei membri del party all'inizio della duty."
+    "translation": "Mostra i ritratti dei membri del party all'inizio della missione."
   },
   "10324": {
     "original": "Display portraits in the player commendation window.",
@@ -33737,7 +33737,7 @@
   },
   "10396": {
     "original": "View CWLS Members",
-    "translation": "Mostra membri CWLS"
+    "translation": "Mostra membri FPID"
   },
   "10397": {
     "original": "No Master",
@@ -33749,7 +33749,7 @@
   },
   "10400": {
     "original": "Deep Dungeon",
-    "translation": "Deep Dungeon"
+    "translation": "Cripta Profonda"
   },
   "10402": {
     "original": "Gear",
@@ -33789,7 +33789,7 @@
   },
   "10412": {
     "original": "Proceed and your save data will be deleted, allowing you reentry to the deep dungeon from <hex:020921E804FF06666C6F6F72FF06666C6F6F72FF0F74726176657273652073746F6E6503> 1.<hex:02100103><hex:02100103>Dungeon progression and character level will be reset, but aetherpool arm and gear strength will remain unchanged.<hex:02100103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Data cannot be restored once deleted.<hex:0249020103><hex:0248020103>",
-    "translation": "Procedendo, i dati di salvataggio verranno eliminati, consentendoti di rientrare nel Deep Dungeon da <hex:020921E804FF06666C6F6F72FF06666C6F6F72FF0F74726176657273652073746F6E6503> 1.<hex:02100103><hex:02100103>La progressione nel dungeon e il livello del personaggio verranno azzerati, ma la potenza delle armi e dell'equipaggiamento aetherpool rimarrà invariata.<hex:02100103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※I dati non possono essere ripristinati una volta eliminati.<hex:0249020103><hex:0248020103>"
+    "translation": "Procedendo, i dati di salvataggio verranno eliminati, consentendoti di rientrare nella Cripta Profonda da <hex:020921E804FF06666C6F6F72FF06666C6F6F72FF0F74726176657273652073746F6E6503> 1.<hex:02100103><hex:02100103>La progressione nel dungeon e il livello del personaggio verranno azzerati, ma la potenza delle armi e dell'equipaggiamento aetherpool rimarrà invariata.<hex:02100103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※I dati non possono essere ripristinati una volta eliminati.<hex:0249020103><hex:0248020103>"
   },
   "10413": {
     "original": "Accept terms and delete data.",
@@ -33813,11 +33813,11 @@
   },
   "10418": {
     "original": "Cairn of Return",
-    "translation": "Cairn of Return"
+    "translation": "Tumulo del Ritorno"
   },
   "10419": {
     "original": "Cairn of Passage",
-    "translation": "Cairn of Passage"
+    "translation": "Tumulo del Passaggio"
   },
   "10420": {
     "original": "Gold Coffer",
@@ -33869,7 +33869,7 @@
   },
   "10432": {
     "original": "Display character and item progression within the current deep dungeon.",
-    "translation": "Mostra la progressione del personaggio e degli oggetti nel Deep Dungeon attuale."
+    "translation": "Mostra la progressione del personaggio e degli oggetti della Cripta Profonda attuale."
   },
   "10433": {
     "original": "Lock/Unlock the Character Info window so that it does/does not close upon pressing <hex:021E020A03> or the Esc key, or accessing the main menu.",
@@ -33877,11 +33877,11 @@
   },
   "10434": {
     "original": "Display progression required for Cairn of Return activation.",
-    "translation": "Mostra i progressi richiesti per l'attivazione del Cairn of Return."
+    "translation": "Mostra i progressi richiesti per l'attivazione del Tumolo del Ritorno."
   },
   "10435": {
     "original": "Display progression required for Cairn of Passage activation.",
-    "translation": "Mostra i progressi richiesti per l'attivazione del Cairn of Passage."
+    "translation": "Mostra i progressi richiesti per l'attivazione del Tumolo del Passaggio."
   },
   "10436": {
     "original": "Lock/Unlock the map so that it does/does not close upon pressing the Esc key, <hex:021E020A03>, or <hex:0212020B03>.",
@@ -33889,7 +33889,7 @@
   },
   "10437": {
     "original": "A piece of the Accursed Hoard. Deadly magicks have been cast upon the chest to prevent theft.",
-    "translation": "Un pezzo dell'Accursed Hoard. Magie letali proteggono il baule per prevenire i furti."
+    "translation": "Un pezzo dell'Tesoro Maledetto. Magie letali proteggono il baule per prevenire i furti."
   },
   "10438": {
     "original": "Results",
@@ -33925,7 +33925,7 @@
   },
   "10446": {
     "original": "Deep Dungeon Challenge",
-    "translation": "Sfida Deep Dungeon"
+    "translation": "Sfida Cripta Profonda"
   },
   "10448": {
     "original": "Solo",
@@ -33941,7 +33941,7 @@
   },
   "10451": {
     "original": "Party KO: <hex:022003E80203>",
-    "translation": "KO del party: <hex:022003E80203>"
+    "translation": "KO del Gruppo: <hex:022003E80203>"
   },
   "10452": {
     "original": "The <hex:02091AE802FF07666C6F6F7273FF07666C6F6F7273FF06617265617303> beyond remain sealed.",
@@ -33953,7 +33953,7 @@
   },
   "10454": {
     "original": "Item Appraisal",
-    "translation": "Perizia oggetti"
+    "translation": "Perizia Oggetti"
   },
   "10456": {
     "original": "Appraise <hex:02310CFF054974656D03E802020203>?",
@@ -34017,7 +34017,7 @@
   },
   "10471": {
     "original": "Current Deep Dungeon rankings can be viewed on the Lodestone!<hex:02100103><hex:022903EA0203>",
-    "translation": "Le classifiche attuali del Deep Dungeon possono essere visualizzate su The Lodestone!<hex:02100103><hex:022903EA0203>"
+    "translation": "Le classifiche attuali della Cripta Profonda possono essere visualizzate su The Lodestone!<hex:02100103><hex:022903EA0203>"
   },
   "10472": {
     "original": "<hex:022D09FF07022903EA020303>",
@@ -34041,19 +34041,19 @@
   },
   "10477": {
     "original": "Beacon of Return",
-    "translation": "Beacon of Return"
+    "translation": "Faro del Ritorno"
   },
   "10478": {
     "original": "Beacon of Passage",
-    "translation": "Beacon of Passage"
+    "translation": "Faro del Passaggio"
   },
   "10479": {
     "original": "Display progression required for Beacon of Return activation.",
-    "translation": "Mostra i progressi richiesti per l'attivazione del Beacon of Return."
+    "translation": "Mostra i progressi richiesti per l'attivazione del Faro del Ritorno."
   },
   "10480": {
     "original": "Display progression required for Beacon of Passage activation.",
-    "translation": "Mostra i progressi richiesti per l'attivazione del Beacon of Passage."
+    "translation": "Mostra i progressi richiesti per l'attivazione del Faro del Passaggio."
   },
   "10481": {
     "original": "Floor",
@@ -34073,19 +34073,19 @@
   },
   "10485": {
     "original": "Pylon of Return",
-    "translation": "Pylon of Return"
+    "translation": "Pilone del Ritorno"
   },
   "10486": {
     "original": "Pylon of Passage",
-    "translation": "Pylon of Passage"
+    "translation": "Pilone del Passaggio"
   },
   "10487": {
     "original": "Progress toward Pylon of Return activation.",
-    "translation": "Progressi per l'attivazione del Pylon of Return."
+    "translation": "Progressi per l'attivazione del Pilone del Ritorno."
   },
   "10488": {
     "original": "Progress toward Pylon of Passage activation.",
-    "translation": "Progressi per l'attivazione del Pylon of Passage."
+    "translation": "Progressi per l'attivazione del Pilone del Passaggio."
   },
   "10489": {
     "original": "Demiclone Generator",
@@ -34097,23 +34097,23 @@
   },
   "10491": {
     "original": "View the deep dungeon guide.",
-    "translation": "Visualizza la guida al Deep Dungeon."
+    "translation": "Visualizza la guida della Cripta Profonda."
   },
   "10492": {
     "original": "Altar of Return",
-    "translation": "Altar of Return"
+    "translation": "Altare del Ritorno"
   },
   "10493": {
     "original": "Pylon of Passage",
-    "translation": "Pylon of Passage"
+    "translation": "Altare del Passaggio"
   },
   "10494": {
     "original": "Progress toward Altar of Return activation.",
-    "translation": "Progressi per l'attivazione dell'Altar of Return."
+    "translation": "Progressi per l'attivazione dell'Altare del Ritorno."
   },
   "10495": {
     "original": "Progress toward Pylon of Passage activation.",
-    "translation": "Progressi per l'attivazione del Pylon of Passage."
+    "translation": "Progressi per l'attivazione dell'Altare del Passaggio."
   },
   "10496": {
     "original": "?",
@@ -34133,11 +34133,11 @@
   },
   "10500": {
     "original": "Register via Duty Support",
-    "translation": "Registrati tramite Duty Support"
+    "translation": "Registrati tramite Supporto Missione"
   },
   "10501": {
     "original": "Register via Trust",
-    "translation": "Registrati tramite Trust"
+    "translation": "Registrati Tramite Compagni"
   },
   "10507": {
     "original": "/",
@@ -34153,7 +34153,7 @@
   },
   "10510": {
     "original": "Command Missions",
-    "translation": "Command Missions"
+    "translation": "Comando Missioni"
   },
   "10512": {
     "original": "Requirements",
@@ -34165,15 +34165,15 @@
   },
   "10514": {
     "original": "Reflect glamours?",
-    "translation": "Applicare i glamour?"
+    "translation": "Applicare le illusioni?"
   },
   "10515": {
     "original": "Reset glamours?",
-    "translation": "Reimpostare i glamour?"
+    "translation": "Reimpostare le illusioni?"
   },
   "10516": {
     "original": "Undo all glamours?",
-    "translation": "Annullare tutti i glamour?"
+    "translation": "Annullare tutte le illusioni?"
   },
   "10517": {
     "original": "Discard changes?",
@@ -34285,7 +34285,7 @@
   },
   "10546": {
     "original": "Using a glamour binds the item to you.",
-    "translation": "L'uso di un glamour vincola l'oggetto a te."
+    "translation": "L'uso di un illusione vincola l'oggetto a te."
   },
   "10547": {
     "original": "Squadron EXP",
@@ -34377,7 +34377,7 @@
   },
   "10570": {
     "original": "Limited Job",
-    "translation": "Job limitato"
+    "translation": "Mestiere Limitato"
   },
   "10571": {
     "original": "Training Regimens",
@@ -34429,7 +34429,7 @@
   },
   "10583": {
     "original": "Apply Glamours",
-    "translation": "Applica glamour"
+    "translation": "Applica Illusioni"
   },
   "10584": {
     "original": "Confirm",
@@ -34449,11 +34449,11 @@
   },
   "10588": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>Squadron glamours are available from level 51.<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>I glamour dello squadrone sono disponibili dal livello 51.<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>Le illsuioni dello squadrone sono disponibili dal livello 51.<hex:0249020103><hex:0248020103>"
   },
   "10589": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>To apply a glamour, speak to a squadron member.<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>Per applicare un glamour, parla con un membro dello squadrone.<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>Per applicare un illusione, parla con un membro dello squadrone.<hex:0249020103><hex:0248020103>"
   },
   "10590": {
     "original": "Unavailable",
@@ -34477,7 +34477,7 @@
   },
   "10595": {
     "original": "Glamour-ready",
-    "translation": "Pronto per glamour"
+    "translation": "Pronto per l'Illusione"
   },
   "10596": {
     "original": "Confirm",
@@ -34497,7 +34497,7 @@
   },
   "10600": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>Squadron glamours unavailable.<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>Glamour dello squadrone non disponibili.<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>Illusione dello squadrone non disponibili.<hex:0249020103><hex:0248020103>"
   },
   "10603": {
     "original": "Squadron Attributes: <hex:022003E80303>/<hex:022003E80403>",
@@ -34653,7 +34653,7 @@
   },
   "10669": {
     "original": "Tank",
-    "translation": "Tank"
+    "translation": "Difensore"
   },
   "10670": {
     "original": "DPS",
@@ -34661,7 +34661,7 @@
   },
   "10671": {
     "original": "Caster",
-    "translation": "Caster"
+    "translation": "Mago"
   },
   "10672": {
     "original": "<hex:02280EFF09436C6173734A6F62E8020103> Lv. <hex:022003E80303>",
@@ -34761,11 +34761,11 @@
   },
   "10702": {
     "original": "The Claws",
-    "translation": "The Claws"
+    "translation": "Gli Artigli"
   },
   "10703": {
     "original": "The Fangs",
-    "translation": "The Fangs"
+    "translation": "Le Zanne"
   },
   "10704": {
     "original": "Spectators",
@@ -34801,11 +34801,11 @@
   },
   "10712": {
     "original": "Challenge <hex:022903EA0203>'s party to a custom match.",
-    "translation": "Sfida il party di <hex:022903EA0203> a un match personalizzato."
+    "translation": "Sfida il gruppo di <hex:022903EA0203> a un match personalizzato."
   },
   "10713": {
     "original": "Invite <hex:022903EA0203>'s party to view a custom match.",
-    "translation": "Invita il party di <hex:022903EA0203> ad assistere a un match personalizzato."
+    "translation": "Invita il gruppo di <hex:022903EA0203> ad assistere a un match personalizzato."
   },
   "10714": {
     "original": "Invite",
@@ -34817,11 +34817,11 @@
   },
   "10716": {
     "original": "You have been challenged by <hex:022903EA0203> to a custom match in the Wolves' Den. Accept challenge?",
-    "translation": "Sei stato sfidato da <hex:022903EA0203> a un match personalizzato nel Wolves' Den. Accetti la sfida?"
+    "translation": "Sei stato sfidato da <hex:022903EA0203> a un match personalizzato nel'Antro dei Lupi'. Accetti la sfida?"
   },
   "10717": {
     "original": "You have been invited by <hex:022903EA0203> to spectate at a custom match in the Wolves' Den. Accept invitation?",
-    "translation": "Sei stato invitato da <hex:022903EA0203> ad assistere come spettatore a un match personalizzato nel Wolves' Den. Accetti l'invito?"
+    "translation": "Sei stato invitato da <hex:022903EA0203> ad assistere come spettatore a un match personalizzato nel'Antro dei Lupi'. Accetti l'invito?"
   },
   "10718": {
     "original": "Decline <hex:022903EA0203>'s invitation to a custom match?",
@@ -34961,7 +34961,7 @@
   },
   "10806": {
     "original": "Solo",
-    "translation": "Solo"
+    "translation": "In Solitaria"
   },
   "10807": {
     "original": "Match Count",
@@ -34981,19 +34981,19 @@
   },
   "10811": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>※The “Duty Complete” option is only available for previously<hex:02100103>　completed duties.<hex:02100103>※Practice phase selection does not entail the actual skipping of<hex:02100103>　phases.<hex:0249020103><hex:0248020103><hex:02100103>",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>※L'opzione “Duty completata” è disponibile solo per le duty<hex:02100103>　completate in precedenza.<hex:02100103>※La selezione della fase di pratica non comporta il salto effettivo<hex:02100103>　delle fasi.<hex:0249020103><hex:0248020103><hex:02100103>"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>※L'opzione Missione completata” è disponibile solo per le missioni<hex:02100103>　completate in precedenza.<hex:02100103>※La selezione della fase di pratica non comporta il salto effettivo<hex:02100103>　delle fasi.<hex:0249020103><hex:0248020103><hex:02100103>"
   },
   "10812": {
     "original": "Cannot select with other duties",
-    "translation": "Non selezionabile con altre duty"
+    "translation": "Non selezionabile con altre missioni"
   },
   "10813": {
     "original": "Frontline Freelancer",
-    "translation": "Frontline Freelancer"
+    "translation": "Mercenario della Prima Linea"
   },
   "10814": {
     "original": "Freelancers can participate in Frontline campaigns without being bound to their Grand Company of allegiance.<hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※When joining as a party, members will default to the freelance status.<hex:0249020103><hex:0248020103>",
-    "translation": "I mercenari freelance possono partecipare alle campagne Frontline senza essere vincolati alla propria Grand Company di appartenenza.<hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Partecipando come party, i membri adotteranno come predefinito lo stato freelance.<hex:0249020103><hex:0248020103>"
+    "translation": "I mercenari possono partecipare alle campagne in Prima Linea senza essere vincolati alla propria Grande Compagnia di appartenenza.<hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Partecipando come gruppo, i membri adotteranno come predefinito lo stato mercenario.<hex:0249020103><hex:0248020103>"
   },
   "10815": {
     "original": "<hex:0212025303>:<hex:022003E80203>/<hex:022003E80303> <hex:0212025403>:<hex:022003E80403>/<hex:022003E80503> <hex:0212025503>:<hex:022003E80603>/<hex:022003E80703>",
@@ -35021,27 +35021,27 @@
   },
   "10821": {
     "original": "Regular Duty",
-    "translation": "Duty regolare"
+    "translation": "Missione regolare"
   },
   "10822": {
     "original": "High-end Duty",
-    "translation": "Duty High-end"
+    "translation": "Missione d'Élite"
   },
   "10823": {
     "original": "Unable to participate in duty while looking for a party.<hex:02100103>Quit using the Party Finder?",
-    "translation": "Impossibile partecipare alla duty mentre si cerca un party.<hex:02100103>Uscire dal Party Finder?"
+    "translation": "Impossibile partecipare alla missione mentre si cerca un gruppo.<hex:02100103>Uscire dalla Ricerca Gruppo?"
   },
   "10824": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>※This duty is only open for full parties without role requirements. Matching requirements cannot be set.<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>※Questa duty è accessibile solo per full party senza requisiti di ruolo. I criteri di abbinamento non possono essere impostati.<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>※Questa missione è accessibile solo per gruppi completi senza requisiti di ruolo. I criteri di abbinamento non possono essere impostati.<hex:0249020103><hex:0248020103>"
   },
   "10825": {
     "original": "※Three parties with at least one member each are necessary when the Unrestricted Party option is in effect.",
-    "translation": "※Tre party con almeno un membro ciascuno sono necessari quando è attiva l'opzione Unrestricted Party."
+    "translation": "※Tre gruppi con almeno un membro ciascuno sono necessari quando è attiva l'opzione Gruppo Senza Restrizioni."
   },
   "10826": {
     "original": "Alliance Registration",
-    "translation": "Registrazione alleanza"
+    "translation": "Registrazione Alleanza"
   },
   "10827": {
     "original": "Participating Parties: Two <hex:020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E8020303>-player parties<hex:02100103>Spectator Party: 1-8 players",
@@ -35053,7 +35053,7 @@
   },
   "10829": {
     "original": "※Limited jobs can participate only in a preformed party meeting party size requirements or an unrestricted party, and if duty rules allow.",
-    "translation": "※I job limitati possono partecipare solo in party preformati che rispettano i requisiti di dimensione o in unrestricted party, e se consentito dalle regole della duty."
+    "translation": "※I job limitati possono partecipare solo in party preformati che rispettano i requisiti di dimensione o in gruppo senza restrizioni, e se consentito dalle regole della missione."
   },
   "10830": {
     "original": "Register from Home World",
@@ -35065,7 +35065,7 @@
   },
   "10832": {
     "original": "Due to revisions being made to the PvP system, this duty is temporarily unavailable. Further announcements will be made in upcoming patch notes or similar.",
-    "translation": "A causa di modifiche al sistema PvP, questa duty è temporaneamente non disponibile. Ulteriori annunci saranno comunicati nelle prossime note della patch o canali simili."
+    "translation": "A causa di modifiche al sistema PvP, questa missione è temporaneamente non disponibile. Ulteriori annunci saranno comunicati nelle prossime note della patch o canali simili."
   },
   "10834": {
     "original": "Sacramental Offerings",
@@ -35109,7 +35109,7 @@
   },
   "10849": {
     "original": "The Echo cannot be silenced in this duty.",
-    "translation": "L'Echo non può essere silenziato in questa duty."
+    "translation": "L'Eco non può essere silenziato in questa missione."
   },
   "10850": {
     "original": "A Most Gentlemanly Duel",
@@ -35217,19 +35217,19 @@
   },
   "10896": {
     "original": "Form a Private Party",
-    "translation": "Forma un party privato"
+    "translation": "Forma un Gruppo Privato"
   },
   "10897": {
     "original": "Party Password (Up to 4 digits)",
-    "translation": "Password party (Fino a 4 cifre)"
+    "translation": "Password Gruppo (Fino a 4 cifre)"
   },
   "10898": {
     "original": "Input private party password.",
-    "translation": "Inserisci password party privato."
+    "translation": "Inserisci Password Gruppo Privato."
   },
   "10899": {
     "original": "Party Password",
-    "translation": "Password party"
+    "translation": "Password Gruppo"
   },
   "10900": {
     "original": "Join",
@@ -35241,11 +35241,11 @@
   },
   "10902": {
     "original": "Cross-world Party",
-    "translation": "Party Cross-world"
+    "translation": "Gruppo Intramondo"
   },
   "10903": {
     "original": "You are currently in a cross-world party. Party-wide spells and actions will behave differently.",
-    "translation": "Attualmente ti trovi in un party cross-world. Incantesimi e azioni ad area sul party funzioneranno in modo differente."
+    "translation": "Attualmente ti trovi in un gruppo intramondo. Incantesimi e azioni ad area sul gruppo funzioneranno in modo differente."
   },
   "10904": {
     "original": "Search Area",
@@ -35297,7 +35297,7 @@
   },
   "10917": {
     "original": "World",
-    "translation": "World"
+    "translation": "Mondo"
   },
   "10918": {
     "original": "The number of advanced search results will periodically display in your log. Private party results are not included.",
@@ -35305,7 +35305,7 @@
   },
   "10919": {
     "original": "Filter search results based on party objective, conditions of participation, play style, Duty Finder settings, and loot rules.",
-    "translation": "Filtra i risultati della ricerca in base a obiettivo del party, condizioni di partecipazione, stile di gioco, impostazioni del Duty Finder e regole del bottino."
+    "translation": "Filtra i risultati della ricerca in base a obiettivo del party, condizioni di partecipazione, stile di gioco, impostazioni della Ricerca Missione e regole del bottino."
   },
   "10920": {
     "original": "Sort in ascending/descending order. (Up to 50 results shown)",
@@ -35329,7 +35329,7 @@
   },
   "10925": {
     "original": "Duty Completion",
-    "translation": "Completamento duty"
+    "translation": "Completamento Missione"
   },
   "10926": {
     "original": "Practice",
@@ -35349,11 +35349,11 @@
   },
   "10930": {
     "original": "When selected, your party recruitment listing can no longer be viewed or accepted by players from other Worlds.",
-    "translation": "Se selezionato, il tuo annuncio di reclutamento non potrà più essere visualizzato o accettato da giocatori di altri World."
+    "translation": "Se selezionato, il tuo annuncio di reclutamento non potrà più essere visualizzato o accettato da giocatori di altri Mondi."
   },
   "10931": {
     "original": "Limit Recruiting to World Server",
-    "translation": "Limita reclutamento al World server"
+    "translation": "Limita reclutamento ai Mondi del Server"
   },
   "10932": {
     "original": "Conditions",
@@ -35365,15 +35365,15 @@
   },
   "10934": {
     "original": "Duty Complete",
-    "translation": "Duty completata"
+    "translation": "Missione Completata"
   },
   "10935": {
     "original": "Duty Finder Settings",
-    "translation": "Impostazioni Duty Finder"
+    "translation": "Impostazioni Ricerca Missione"
   },
   "10936": {
     "original": "Unrestricted Party",
-    "translation": "Unrestricted Party"
+    "translation": "Gruppo Senza Limit"
   },
   "10937": {
     "original": "Minimum IL",
@@ -35381,19 +35381,19 @@
   },
   "10938": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>※Settings assigned here are for display only. To change actual settings, you must access the Duty Finder interface.<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>※Le impostazioni assegnate qui sono solo a scopo informativo. Per modificarle effettivamente, devi accedere all'interfaccia del Duty Finder.<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>※Le impostazioni assegnate qui sono solo a scopo informativo. Per modificarle effettivamente, devi accedere all'interfaccia della Ricerca Missione.<hex:0249020103><hex:0248020103>"
   },
   "10939": {
     "original": "Selecting “Duty Complete” signifies that only players who have completed a certain duty may join the party. Selecting “Duty Incomplete” signifies the opposite.",
-    "translation": "Selezionare “Duty completata” indica che solo i giocatori che hanno già completato una certa duty possono unirsi al party. Selezionare “Duty incompleta” indica l'opposto."
+    "translation": "Selezionare Missione Completata” indica che solo i giocatori che hanno già completato una certa missione possono unirsi al gruppo. Selezionare Missione Incompleta” indica l'opposto."
   },
   "10940": {
     "original": "Contact List",
-    "translation": "Elenco contatti"
+    "translation": "Elenco Contatti"
   },
   "10942": {
     "original": "A list of the 50 players with whom you most recently partied. Class/Job information reflects a player's class/job at the time of party formation.",
-    "translation": "Un elenco dei 50 giocatori con cui sei stato più di recente in party. Le informazioni su classe/job riflettono lo stato del giocatore al momento della formazione del party."
+    "translation": "Un elenco dei 50 giocatori con cui sei stato più di recente in gruppo. Le informazioni su classe/Mestiere riflettono lo stato del giocatore al momento della formazione del gruppo."
   },
   "10943": {
     "original": "Name",
@@ -35401,7 +35401,7 @@
   },
   "10944": {
     "original": "Home World",
-    "translation": "Home World"
+    "translation": "Mondo d'Origine"
   },
   "10945": {
     "original": "Close",
@@ -35409,7 +35409,7 @@
   },
   "10946": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>The names of blacklisted players from other World servers will be saved to your PC.<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Add <hex:022903EA0203> to your blacklist?",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>I nomi dei giocatori bloccati su altri server World verranno salvati sul tuo PC.<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Aggiungere <hex:022903EA0203> alla lista nera?"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>I nomi dei giocatori bloccati su altri Mondi verranno salvati sul tuo PC.<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Aggiungere <hex:022903EA0203> alla lista nera?"
   },
   "10947": {
     "original": "There are no players to display.",
@@ -35421,11 +35421,11 @@
   },
   "10949": {
     "original": "Duty Complete (Weekly Reward Unclaimed)",
-    "translation": "Duty completata (Ricompensa settimanale non riscossa)"
+    "translation": "Missione completata (Ricompensa settimanale non riscossa)"
   },
   "10950": {
     "original": "Retrieve online status for friends on other Worlds.",
-    "translation": "Recupera lo stato online degli amici su altri World."
+    "translation": "Recupera lo stato online degli amici su altri Mondi."
   },
   "10951": {
     "original": "<hex:022903EA0203><hex:0212025903><hex:022903EA0303>",
@@ -35441,19 +35441,19 @@
   },
   "10954": {
     "original": "Home World",
-    "translation": "Home World"
+    "translation": "Mondo d'Origine"
   },
   "10955": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03><hex:02100103>※Names of characters on other Worlds are saved to the client.<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03><hex:02100103>※I nomi dei personaggi su altri World vengono salvati sul client.<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03><hex:02100103>※I nomi dei personaggi su altri Mondi vengono salvati sul client.<hex:0249020103><hex:0248020103>"
   },
   "10956": {
     "original": "Online Status Unknown",
-    "translation": "Stato online sconosciuto"
+    "translation": "Stato Online Sconosciuto"
   },
   "10957": {
     "original": "<hex:022903EA0203> will be registered to your blacklist. Messages from this character will no longer be displayed, and their character model will be hidden. Any other characters registered to this player's account will also be blacklisted.<hex:02100103>This character's name and Home World at the time of registration will be saved locally.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>If you wish to simply mute this character, you can instead add them to your mute list.<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:022903EA0203> verrà registrato nella tua lista nera. I messaggi inviati da questo personaggio non verranno più mostrati e il suo modello sarà nascosto. Anche tutti gli altri personaggi registrati sull'account di questo giocatore verranno aggiunti alla lista nera.<hex:02100103>Il nome e l'Home World di questo personaggio al momento della registrazione verranno salvati localmente.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Se desideri semplicemente silenziare questo personaggio, puoi invece aggiungerlo alla lista dei mutati.<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:022903EA0203> verrà registrato nella tua lista nera. I messaggi inviati da questo personaggio non verranno più mostrati e il suo modello sarà nascosto. Anche tutti gli altri personaggi registrati sull'account di questo giocatore verranno aggiunti alla lista nera.<hex:02100103>Il nome e il Mondo d'Origine di questo personaggio al momento della registrazione verranno salvati localmente.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Se desideri semplicemente silenziare questo personaggio, puoi invece aggiungerlo alla lista dei mutati.<hex:0249020103><hex:0248020103>"
   },
   "10958": {
     "original": "I understand.",
@@ -35465,19 +35465,19 @@
   },
   "10960": {
     "original": "<hex:0212026003>Returner Status",
-    "translation": "<hex:0212026003>Stato di Returner"
+    "translation": "<hex:0212026003>Stato di Ritornato"
   },
   "10961": {
     "original": "The <hex:0212026003>Returner status is applied to players who have at least one class at level 50 or above, have not visited Eorzea in more than 45 days, and have accepted the Returner's Bounty.<hex:02100103><hex:02100103>The Returner's Bounty consists of the following:<hex:02100103>  <hex:024804F201FA03><hex:024904F201FB03>Novice Network Access<hex:02100103>  EXP bonus when partying with a <hex:0212024F03>Mentor (up to Lv. 90)<hex:02100103>  Returner online status icon<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Returner status is removed after accumulating 72 hours of gameplay after accepting the Bounty, or by using the text command <hex:024804F201FA03><hex:024904F201FB03><hex:022811FF0C54657874436F6D6D616E64F0EE0903><hex:0249020103><hex:0248020103>.",
-    "translation": "Lo stato di <hex:0212026003>Returner viene applicato ai giocatori con almeno una classe a livello 50 o superiore, che non visitano Eorzea da più di 45 giorni e hanno accettato la Taglia del Returner.<hex:02100103><hex:02100103>La Taglia del Returner include quanto segue:<hex:02100103>  <hex:024804F201FA03><hex:024904F201FB03>Accesso al Novice Network<hex:02100103>  Bonus EXP quando in party con un <hex:0212024F03>Mentor (fino al Lv. 90)<hex:02100103>  Icona di stato online Returner<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Lo stato di Returner decade accumulando 72 ore di gioco dopo aver accettato la Taglia, oppure usando il comando testuale <hex:024804F201FA03><hex:024904F201FB03><hex:022811FF0C54657874436F6D6D616E64F0EE0903><hex:0249020103><hex:0248020103>."
+    "translation": "Lo stato di <hex:0212026003>Ritornato viene applicato ai giocatori con almeno una classe a livello 50 o superiore, che non visitano Eorzea da più di 45 giorni e hanno accettato la Taglia del Ritornato.<hex:02100103><hex:02100103>La Taglia del Ritornato include quanto segue:<hex:02100103>  <hex:024804F201FA03><hex:024904F201FB03>Accesso alla Rete Novizi<hex:02100103>  Bonus EXP quando in gruppo con un <hex:0212024F03>Mentor (fino al Lv. 90)<hex:02100103>  Icona di stato online Ritornato<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Lo stato di Ritornato decade accumulando 72 ore di gioco dopo aver accettato la Taglia, oppure usando il comando testuale <hex:024804F201FA03><hex:024904F201FB03><hex:022811FF0C54657874436F6D6D616E64F0EE0903><hex:0249020103><hex:0248020103>."
   },
   "10962": {
     "original": "Novice Network",
-    "translation": "Novice Network"
+    "translation": "Rete Novizi"
   },
   "10963": {
     "original": "<hex:024804F201F403><hex:024904F201F503>Once Returner status has been removed, it cannot be obtained again until certain conditions are met.<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Proceed?",
-    "translation": "<hex:024804F201F403><hex:024904F201F503>Una volta rimosso lo stato di Returner, non potrà essere riacquisito finché non saranno soddisfatte determinate condizioni.<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Procedere?"
+    "translation": "<hex:024804F201F403><hex:024904F201F503>Una volta rimosso lo stato di Ritornato, non potrà essere riacquisito finché non saranno soddisfatte determinate condizioni.<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Procedere?"
   },
   "10964": {
     "original": "Remove",
@@ -35493,7 +35493,7 @@
   },
   "10967": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>You will be granted another opportunity to accept the Returner's Bounty upon your next login.<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Proceed?",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>Ti verrà concessa un'altra opportunità di accettare la Taglia del Returner al prossimo accesso.<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Procedere?"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>Ti verrà concessa un'altra opportunità di accettare la Taglia del Ritornato al prossimo accesso.<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103>Procedere?"
   },
   "10968": {
     "original": "Yes",
@@ -35505,7 +35505,7 @@
   },
   "10970": {
     "original": "Mentor Certification",
-    "translation": "Certificazione Mentor"
+    "translation": "Certificazione Mentore"
   },
   "10973": {
     "original": "Certified",
@@ -35513,7 +35513,7 @@
   },
   "10974": {
     "original": "<hex:0212025003> Battle Mentor",
-    "translation": "<hex:0212025003> Battle Mentor"
+    "translation": "<hex:0212025003> Mentore di Combattimento"
   },
   "10975": {
     "original": "1: Complete 1,000 instanced dungeon raids or trials.",
@@ -35521,7 +35521,7 @@
   },
   "10976": {
     "original": "<hex:0212025103> Trade Mentor",
-    "translation": "<hex:0212025103> Trade Mentor"
+    "translation": "<hex:0212025103> Mentore dei Mestieri"
   },
   "10977": {
     "original": "1: Gather or catch 300 collectables.",
@@ -35529,7 +35529,7 @@
   },
   "10978": {
     "original": "Apply for Mentor Certification",
-    "translation": "Richiedi certificazione da Mentor"
+    "translation": "Richiedi certificazione da Mentore"
   },
   "10979": {
     "original": "Cancel",
@@ -35537,19 +35537,19 @@
   },
   "10980": {
     "original": "You shall make a fine battle mentor!",
-    "translation": "Sarai un eccellente battle mentor!"
+    "translation": "Sarai un eccellente mentore di combattimento!"
   },
   "10981": {
     "original": "You shall make a fine trade mentor!",
-    "translation": "Sarai un eccellente trade mentor!"
+    "translation": "Sarai un eccellente mentore dei mestieri!"
   },
   "10982": {
     "original": "My word! You are qualified to become both a battle and trade mentor!",
-    "translation": "Perbacco! Sei qualificato per diventare sia battle che trade mentor!"
+    "translation": "Perbacco! Sei qualificato per diventare un mentore completo!"
   },
   "10983": {
     "original": "It seems you lack the credentials to become a mentor, though I daresay that you are capable of obtaining them.",
-    "translation": "Sembra che ti manchino i requisiti per diventare un mentor, anche se non dubito che tu sia in grado di ottenerli."
+    "translation": "Sembra che ti manchino i requisiti per diventare un menotre, anche se non dubito che tu sia in grado di ottenerli."
   },
   "10984": {
     "original": "2: Receive 1,500 player commendations.",
@@ -35557,11 +35557,11 @@
   },
   "10985": {
     "original": "3: Complete any level <hex:022003E80203> tank role quest.",
-    "translation": "3: Completa una qualsiasi role quest per tank di livello <hex:022003E80203>."
+    "translation": "3: Completa una qualsiasi quest di ruolo per difensore di livello <hex:022003E80203>."
   },
   "10986": {
     "original": "4: Complete any level <hex:022003E80203> healer role quest.",
-    "translation": "4: Completa una qualsiasi role quest per healer di livello <hex:022003E80203>."
+    "translation": "4: Completa una qualsiasi quest di ruolo per curatore di livello <hex:022003E80203>."
   },
   "10987": {
     "original": "Waiting for opening...",
@@ -35577,15 +35577,15 @@
   },
   "10990": {
     "original": "Sync Item Level to Lowest",
-    "translation": "Sincronizza Item Level al più basso"
+    "translation": "Sincronizza Livello Oggetto al Più Basso"
   },
   "10991": {
     "original": "Sync Item Level (150)",
-    "translation": "Sincronizza Item Level (150)"
+    "translation": "Sincronizza Livello Oggetto (150)"
   },
   "10992": {
     "original": "Do not Sync Item Level",
-    "translation": "Non sincronizzare l'Item Level"
+    "translation": "Non sincronizzare il Livello Oggetto"
   },
   "10993": {
     "original": "Adjust level of all items equipped by both parties to the lowest level item (<hex:022003E80203>).",
@@ -35601,11 +35601,11 @@
   },
   "10997": {
     "original": "Adventurer in Need: Tank",
-    "translation": "Avventuriero richiesto: Tank"
+    "translation": "Avventuriero richiesto: Difensore"
   },
   "10998": {
     "original": "Adventurer in Need: Healer",
-    "translation": "Avventuriero richiesto: Healer"
+    "translation": "Avventuriero richiesto: Curatore"
   },
   "10999": {
     "original": "Adventurer in Need: DPS",
@@ -35657,23 +35657,23 @@
   },
   "11013": {
     "original": "Faux Hollows",
-    "translation": "Faux Hollows"
+    "translation": "Tane Sospette"
   },
   "11014": {
     "original": "Once per week, completion of an unreal trial grants access to Faux Hollows.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※The “Duty Complete” option is only available for previously completed duties.<hex:02100103>※Earn a retelling while playing Faux Hollows to unlock one additional play per week.<hex:02100103>※Practice phase selection does not entail the actual skipping of phases.<hex:0249020103><hex:0248020103>",
-    "translation": "Una volta a settimana, il completamento di un trial Unreal concede l'accesso a Faux Hollows.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※L'opzione “Duty completata” è disponibile solo per le duty completate in precedenza.<hex:02100103>※Ottieni un riracconto giocando a Faux Hollows per sbloccare una partita aggiuntiva a settimana.<hex:02100103>※La selezione della fase di pratica non comporta il salto effettivo delle fasi.<hex:0249020103><hex:0248020103>"
+    "translation": "Una volta a settimana, il completamento di un trial Unreal concede l'accesso a Tane Sospette.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※L'opzione “Duty completata” è disponibile solo per le duty completate in precedenza.<hex:02100103>※Ottieni un riracconto giocando a Tane Sospette per sbloccare una partita aggiuntiva a settimana.<hex:02100103>※La selezione della fase di pratica non comporta il salto effettivo delle fasi.<hex:0249020103><hex:0248020103>"
   },
   "11015": {
     "original": "Faux Hollows Available",
-    "translation": "Faux Hollows disponibile"
+    "translation": "Tane Sospette disponibile"
   },
   "11016": {
     "original": "Faux Hollows Accessible",
-    "translation": "Faux Hollows accessibile"
+    "translation": "Tane Sospette accessibile"
   },
   "11017": {
     "original": "<hex:024804F201F403><hex:024904F201F503>Faux Hollows Unavailable<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:024804F201F403><hex:024904F201F503>Faux Hollows non disponibile<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:024804F201F403><hex:024904F201F503>Tane Sospette non disponibile<hex:0249020103><hex:0248020103>"
   },
   "11018": {
     "original": "Lv.  1 - 50",
@@ -35741,27 +35741,27 @@
   },
   "11040": {
     "original": "Attacking tank!<hex:026003026603>",
-    "translation": "Attacco al tank!<hex:026003026603>"
+    "translation": "Attacco al difensore!<hex:026003026603>"
   },
   "11041": {
     "original": "Attacking healer!<hex:026003026603>",
-    "translation": "Attacco all'healer!<hex:026003026603>"
+    "translation": "Attacco al curatore!<hex:026003026603>"
   },
   "11042": {
     "original": "Attacking melee DPS!<hex:026003026603>",
-    "translation": "Attacco al melee DPS!<hex:026003026603>"
+    "translation": "Attacco al DPS fisico!<hex:026003026603>"
   },
   "11043": {
     "original": "Attacking ranged DPS!<hex:026003026603>",
-    "translation": "Attacco al ranged DPS!<hex:026003026603>"
+    "translation": "Attacco al DPS a distanza!<hex:026003026603>"
   },
   "11044": {
     "original": "Stopping tank!<hex:026003026703>",
-    "translation": "Fermo il tank!<hex:026003026703>"
+    "translation": "Fermo il difensore!<hex:026003026703>"
   },
   "11045": {
     "original": "Stopping healer!<hex:026003026703>",
-    "translation": "Fermo l'healer!<hex:026003026703>"
+    "translation": "Fermo il curatore!<hex:026003026703>"
   },
   "11046": {
     "original": "Stopping melee DPS!<hex:026003026703>",
@@ -35769,7 +35769,7 @@
   },
   "11047": {
     "original": "Stopping ranged DPS!<hex:026003026703>",
-    "translation": "Fermo il ranged DPS!<hex:026003026703>"
+    "translation": "Fermo il DPS a distanza!<hex:026003026703>"
   },
   "11048": {
     "original": "Collecting medals!<hex:026003026803>",
@@ -35789,11 +35789,11 @@
   },
   "11052": {
     "original": "MP at <hex:022003E80203>%!<hex:026003026403>",
-    "translation": "MP al <hex:022003E80203>%!<hex:026003026403>"
+    "translation": "PM al <hex:022003E80203>%!<hex:026003026403>"
   },
   "11053": {
     "original": "TP at <hex:022003E80203>%!<hex:026003026403>",
-    "translation": "TP al <hex:022003E80203>%!<hex:026003026403>"
+    "translation": "PT al <hex:022003E80203>%!<hex:026003026403>"
   },
   "11054": {
     "original": "Attacking <hex:022F14FF1202280EFF09436C6173734A6F62E802010303>! <hex:026003026603>",
@@ -35825,15 +35825,15 @@
   },
   "11062": {
     "original": "Greed Only",
-    "translation": "Solo Greed"
+    "translation": "Solo Brama"
   },
   "11063": {
     "original": "Lootmaster",
-    "translation": "Lootmaster"
+    "translation": "Mastro Bottino"
   },
   "11064": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>※Settings assigned here are for display only. To change actual settings, you must access the Duty Finder interface.<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>※Le impostazioni assegnate qui sono solo a scopo informativo. Per modificare le impostazioni effettive, devi accedere all'interfaccia del Duty Finder.<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>※Le impostazioni assegnate qui sono solo a scopo informativo. Per modificare le impostazioni effettive, devi accedere all'interfaccia della Ricerca Missione.<hex:0249020103><hex:0248020103>"
   },
   "11065": {
     "original": "Language",
@@ -35881,7 +35881,7 @@
   },
   "11077": {
     "original": "Objective: Duty Completion",
-    "translation": "Obiettivo: Completamento duty"
+    "translation": "Obiettivo: Completamento Missione"
   },
   "11078": {
     "original": "Objective: Practice",
@@ -35901,15 +35901,15 @@
   },
   "11082": {
     "original": "Conditions: Duty Complete",
-    "translation": "Condizioni: Duty completata"
+    "translation": "Condizioni: Missione completata"
   },
   "11083": {
     "original": "Duty Finder Settings: Unrestricted Party",
-    "translation": "Impostazioni Duty Finder: Unrestricted Party"
+    "translation": "Impostazioni Ricerca Missione: Gruppo Senza Limiti"
   },
   "11084": {
     "original": "Duty Finder Settings: Minimum IL",
-    "translation": "Impostazioni Duty Finder: IL minimo"
+    "translation": "Impostazioni Ricerca Missione: LO Minimo"
   },
   "11085": {
     "original": "Loot Rule: None",
@@ -35917,11 +35917,11 @@
   },
   "11086": {
     "original": "Loot Rule: Greed Only",
-    "translation": "Regola bottino: Solo Greed"
+    "translation": "Regola bottino: Solo Brama"
   },
   "11087": {
     "original": "Loot Rule: Lootmaster",
-    "translation": "Regola bottino: Lootmaster"
+    "translation": "Regola bottino: Mastro Bottino"
   },
   "11088": {
     "original": "Ascending",
@@ -35933,7 +35933,7 @@
   },
   "11090": {
     "original": "Locked Duty",
-    "translation": "Duty bloccata"
+    "translation": "Missione Bloccata"
   },
   "11091": {
     "original": "Unselect Classes",
@@ -35941,15 +35941,15 @@
   },
   "11092": {
     "original": "Melee DPS",
-    "translation": "Melee DPS"
+    "translation": "DPS Mischia"
   },
   "11093": {
     "original": "Physical Ranged DPS",
-    "translation": "Physical Ranged DPS"
+    "translation": "DPS Fisico a Distanza"
   },
   "11094": {
     "original": "Magical Ranged DPS",
-    "translation": "Magical Ranged DPS"
+    "translation": "DPS Magico a Distanza"
   },
   "11095": {
     "original": "Details",
@@ -36013,11 +36013,11 @@
   },
   "11110": {
     "original": "Team Claw",
-    "translation": "Team Claw"
+    "translation": "Squadra Artigli"
   },
   "11111": {
     "original": "Team Fang",
-    "translation": "Team Fang"
+    "translation": "Squadra Zanne"
   },
   "11112": {
     "original": "Spectators",
@@ -36029,7 +36029,7 @@
   },
   "11114": {
     "original": "You are currently in an alliance. Party-wide spells and actions will behave differently.",
-    "translation": "Attualmente ti trovi in un'alleanza. Incantesimi e azioni ad area sul party funzioneranno in modo differente."
+    "translation": "Attualmente ti trovi in un'alleanza. Incantesimi e azioni ad area sul gruppo funzioneranno in modo differente."
   },
   "11115": {
     "original": "Join <hex:022903EA0203>'s alliance for <hex:022903EA0303>?",
@@ -36065,7 +36065,7 @@
   },
   "11123": {
     "original": "Open Party Finder Display Settings.",
-    "translation": "Apri impostazioni visualizzazione Party Finder."
+    "translation": "Apri impostazioni visualizzazione Ricerca Missione."
   },
   "11124": {
     "original": "Show blacklisted recruiters.",
@@ -36073,7 +36073,7 @@
   },
   "11125": {
     "original": "Party Finder Display Settings",
-    "translation": "Impostazioni visualizzazione Party Finder"
+    "translation": "Impostazioni Visualizzazione Ricerca Missioni"
   },
   "11127": {
     "original": "Display Settings",
@@ -36129,23 +36129,23 @@
   },
   "11167": {
     "original": "Duty Incomplete",
-    "translation": "Duty incompleta"
+    "translation": "Missione Incompleta"
   },
   "11168": {
     "original": "Conditions: Duty Incomplete",
-    "translation": "Condizioni: Duty incompleta"
+    "translation": "Condizioni: Missione Incompleta"
   },
   "11169": {
     "original": "Average Item Level: <hex:022003E80203>",
-    "translation": "Item Level medio: <hex:022003E80203>"
+    "translation": "Livello Oggetto Medio: <hex:022003E80203>"
   },
   "11170": {
     "original": "Duty",
-    "translation": "Duty"
+    "translation": "Missione"
   },
   "11171": {
     "original": "※Private party results are not included.",
-    "translation": "※I risultati dei party privati non sono inclusi."
+    "translation": "※I risultati dei gruppi privati non sono inclusi."
   },
   "11172": {
     "original": "Recruiter: <hex:022903EA0203>",
@@ -36157,7 +36157,7 @@
   },
   "11174": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>Party matching is unavailable for alliances. To form an alliance, three full parties are required (or three parties of at least one member each if using undersized parties).<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>L'abbinamento party non è disponibile per le alleanze. Per formare un'alleanza, sono necessari tre full party (o tre party di almeno un membro ciascuno se si usano party ridotti).<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>L'abbinamento gruppo non è disponibile per le alleanze. Per formare un'alleanza, sono necessari tre gruppi completi (o tre gruppi di almeno un membro ciascuno se si usano gruppi ridotti).<hex:0249020103><hex:0248020103>"
   },
   "11175": {
     "original": "Location: <hex:022B09FF07022903EA020303>",
@@ -36169,11 +36169,11 @@
   },
   "11178": {
     "original": "One Player per Job",
-    "translation": "Un solo giocatore per job"
+    "translation": "Un Solo Giocatore per Mestiere"
   },
   "11179": {
     "original": "Duty Finder Settings: Silence Echo",
-    "translation": "Impostazioni Duty Finder: Silenzia Echo"
+    "translation": "Impostazioni Ricerca Missione: Silenzia Eco"
   },
   "11180": {
     "original": "<hex:022B14FF1202280EFF09436C6173734A6F62E802010303>",
@@ -36185,7 +36185,7 @@
   },
   "11182": {
     "original": "Job Gauge Details",
-    "translation": "Dettagli indicatore job"
+    "translation": "Dettagli Indicatore Mestiere"
   },
   "11184": {
     "original": "Close",
@@ -36205,7 +36205,7 @@
   },
   "11188": {
     "original": "Conditions: Duty Complete (Weekly Reward Unclaimed)",
-    "translation": "Condizioni: Duty completata (Ricompensa settimanale non riscossa)"
+    "translation": "Condizioni: Missione Completata (Ricompensa Settimanale non Riscossa)"
   },
   "11189": {
     "original": "Updated",
@@ -36229,7 +36229,7 @@
   },
   "11200": {
     "original": "Cheap Dungeon",
-    "translation": "Cheap Dungeon"
+    "translation": "Cripta Sgrausa"
   },
   "11202": {
     "original": "Floor: <hex:022003E80203>",
@@ -36249,7 +36249,7 @@
   },
   "11206": {
     "original": "CRYSTAL",
-    "translation": "CRYSTAL"
+    "translation": "CRISTALLO"
   },
   "11207": {
     "original": "CHOCOBO",
@@ -36329,11 +36329,11 @@
   },
   "11227": {
     "original": "Dungeon Clear!",
-    "translation": "Dungeon completato!"
+    "translation": "Dungeon Completato!"
   },
   "11228": {
     "original": "Egg Hunter Riggy",
-    "translation": "Egg Hunter Riggy"
+    "translation": "Caccia l'Uovo Riggy!"
   },
   "11230": {
     "original": "Give Up",
@@ -36413,11 +36413,11 @@
   },
   "11249": {
     "original": "CRITICAL",
-    "translation": "CRITICAL"
+    "translation": "CRITICO"
   },
   "11250": {
     "original": "GREAT",
-    "translation": "GREAT"
+    "translation": "OTTIMO"
   },
   "11251": {
     "original": "GOOD",
@@ -36509,7 +36509,7 @@
   },
   "11274": {
     "original": "HP",
-    "translation": "HP"
+    "translation": "PV"
   },
   "11275": {
     "original": "<hex:022003E80203>/<hex:022003E80303>",
@@ -36517,7 +36517,7 @@
   },
   "11276": {
     "original": "MP",
-    "translation": "MP"
+    "translation": "PM"
   },
   "11277": {
     "original": "<hex:022003E80203>/<hex:022003E80303>",
@@ -36525,7 +36525,7 @@
   },
   "11278": {
     "original": "BP",
-    "translation": "BP"
+    "translation": "PB"
   },
   "11279": {
     "original": "[W][S]/ Move   Change Angle   Shoot",
@@ -36597,11 +36597,11 @@
   },
   "11296": {
     "original": "Full HP",
-    "translation": "HP al massimo"
+    "translation": "PV al massimo"
   },
   "11297": {
     "original": "Full MP",
-    "translation": "MP al massimo"
+    "translation": "PM al massimo"
   },
   "11298": {
     "original": "No Actions",
@@ -36613,11 +36613,11 @@
   },
   "11300": {
     "original": "Pure Healer",
-    "translation": "Pure Healer"
+    "translation": "Curatore Puro"
   },
   "11301": {
     "original": "Barrier Healer",
-    "translation": "Barrier Healer"
+    "translation": "Curatore Barriera"
   },
   "11302": {
     "original": "Retry",
@@ -36625,7 +36625,7 @@
   },
   "11304": {
     "original": "BP Up",
-    "translation": "BP Up"
+    "translation": "PB Su"
   },
   "11305": {
     "original": "<hex:02080BE1E80201FF022BFF022D03><hex:022903EA0303>",
@@ -36769,11 +36769,11 @@
   },
   "11342": {
     "original": "Falcons",
-    "translation": "Falcons"
+    "translation": "Falchi"
   },
   "11343": {
     "original": "Ravens",
-    "translation": "Ravens"
+    "translation": "Corvi"
   },
   "11344": {
     "original": "CE",
@@ -36801,11 +36801,11 @@
   },
   "11350": {
     "original": "Falcons",
-    "translation": "Falcons"
+    "translation": "Fslchi"
   },
   "11351": {
     "original": "Ravens",
-    "translation": "Ravens"
+    "translation": "Corvi"
   },
   "11352": {
     "original": "Sorted by <hex:022903EA0203>",
@@ -36813,15 +36813,15 @@
   },
   "11353": {
     "original": "Time remaining in Rival Wings: <hex:022003E80203>:<hex:022403E80303>",
-    "translation": "Tempo rimasto in Rival Wings: <hex:022003E80203>:<hex:022403E80303>"
+    "translation": "Tempo rimasto per Ali Rivali: <hex:022003E80203>:<hex:022403E80303>"
   },
   "11354": {
     "original": "Falcons win!",
-    "translation": "I Falcons vincono!"
+    "translation": "I Falchi vincono!"
   },
   "11355": {
     "original": "Ravens win!",
-    "translation": "I Ravens vincono!"
+    "translation": "I Corvi vincono!"
   },
   "11356": {
     "original": "Victory for <hex:022903EA0203>!",
@@ -36833,7 +36833,7 @@
   },
   "11358": {
     "original": "Ceruleum",
-    "translation": "ceruleo"
+    "translation": "Ceruleo"
   },
   "11359": {
     "original": "Readying forces for <hex:020819E4E80201FF096E6F72746865726EFF09736F75746865726E03> deployment.",
@@ -36881,7 +36881,7 @@
   },
   "11370": {
     "original": "A gobtank has emerged near the core.<hex:02100103>Limit gauge, ceruleum, and Soaring effects are increased for all team members.",
-    "translation": "Un gobtank è apparso vicino al nucleo.<hex:02100103>La barra del limit break, il ceruleum e gli effetti di Soaring sono aumentati per tutti i membri della squadra."
+    "translation": "Un gobtank è apparso vicino al nucleo.<hex:02100103>La barra del limit break, il ceruleum e gli effetti di Esaltazione sono aumentati per tutti i membri della squadra."
   },
   "11371": {
     "original": "Team",
@@ -36909,11 +36909,11 @@
   },
   "11377": {
     "original": "Allied with the Ravens",
-    "translation": "Alleato con i Ravens"
+    "translation": "Alleato con i Corvi"
   },
   "11378": {
     "original": "Select machina to mount.<hex:02100103>※Only one member per party may mount machina.",
-    "translation": "Seleziona la machina da pilotare.<hex:02100103>※Un solo membro per party può pilotare una machina."
+    "translation": "Seleziona la machina da pilotare.<hex:02100103>※Un solo membro per gruppo può pilotare una machina."
   },
   "11379": {
     "original": "CE",
@@ -36933,15 +36933,15 @@
   },
   "11383": {
     "original": "A gobtank has emerged near the core.<hex:02100103>Soaring effect is increased for all team members.",
-    "translation": "Un gobtank è apparso vicino al nucleo.<hex:02100103>L'effetto Soaring è aumentato per tutti i membri della squadra."
+    "translation": "Un gobtank è apparso vicino al nucleo.<hex:02100103>L'effetto Esaltazione è aumentato per tutti i membri della squadra."
   },
   "11384": {
     "original": "Ceruleum and Soaring effects are increased for all team members.",
-    "translation": "Il ceruleum e gli effetti di Soaring sono aumentati per tutti i membri della squadra."
+    "translation": "Il ceruleum e gli effetti di Esaltazione sono aumentati per tutti i membri della squadra."
   },
   "11385": {
     "original": "Limit gauge and Soaring effects are increased for all team members.",
-    "translation": "La barra del limit break e gli effetti di Soaring sono aumentati per tutti i membri della squadra."
+    "translation": "La barra del limit break e gli effetti di Esaltazione sono aumentati per tutti i membri della squadra."
   },
   "11386": {
     "original": "Unable to mount machina.",
@@ -36949,7 +36949,7 @@
   },
   "11387": {
     "original": "Another party member has already mounted.",
-    "translation": "Un altro membro del party ne sta già pilotando una."
+    "translation": "Un altro membro del gruppo ne sta già pilotando una."
   },
   "11388": {
     "original": "Ceruleum is depleted.",
@@ -36973,7 +36973,7 @@
   },
   "11393": {
     "original": "Rival Wings",
-    "translation": "Rival Wings"
+    "translation": "Ali Rivali"
   },
   "11394": {
     "original": "Total Matches:",
@@ -36993,7 +36993,7 @@
   },
   "11398": {
     "original": "Allied with the Falcons",
-    "translation": "Alleato con i Falcons"
+    "translation": "Alleato con i Falchi"
   },
   "11399": {
     "original": "Enemy engaged in the <hex:020813E4E80201FF066E6F727468FF06736F75746803>!",
@@ -37001,7 +37001,7 @@
   },
   "11400": {
     "original": "Gambler's Lure",
-    "translation": "Gambler's Lure"
+    "translation": "Lascia o Raddoppia"
   },
   "11402": {
     "original": "Treasure Claimed",
@@ -37025,7 +37025,7 @@
   },
   "11407": {
     "original": "Gambler's Lure",
-    "translation": "Gambler's Lure"
+    "translation": "Lascia o Raddoppia"
   },
   "11408": {
     "original": "Display Help",
@@ -37037,7 +37037,7 @@
   },
   "11411": {
     "original": "This treasure coffer has been marked by the Gambler's Lure!<hex:02100103>Should you wish to try your luck, two cards will appear─one hidden, one revealed─with a possible value of one to nine. You must then guess whether the value of the hidden card is higher or lower than that of the other.<hex:02100103>・If you guess correctly, the quantity of items you may claim will increase.<hex:02100103>・You may elect to try your luck again following a correct guess, up to a maximum of five times.<hex:02100103>・If you guess incorrectly at any point, the coffer will vanish, and you will lose all treasure.<hex:02100103>・If the number is the same, the quantity of items you may claim will remain unchanged, and you will have to try your luck again. This will not count against the five-time maximum.<hex:02100103>・To claim the treasure within, you need only resist the Gambler's Lure and open the chest...",
-    "translation": "Questo forziere è sotto l'effetto della Gambler's Lure!<hex:02100103>Se decidi di tentare la sorte, appariranno due carte─una coperta e una scoperta─con un valore da uno a nove. Dovrai indovinare se il valore della carta coperta è più alto o più basso di quello dell'altra.<hex:02100103>・Se indovini, la quantità di oggetti che puoi ottenere aumenterà.<hex:02100103>・Dopo un'ipotesi corretta puoi scegliere di tentare nuovamente la sorte, fino a un massimo di cinque volte.<hex:02100103>・Se sbagli in qualsiasi momento, il forziere svanirà e perderai l'intero tesoro.<hex:02100103>・Se il numero è lo stesso, la quantità di oggetti rimarrà invariata e dovrai riprovare. Questo non conterà ai fini del limite di cinque tentativi.<hex:02100103>・Per riscuotere il tesoro, ti basterà resistere alla Gambler's Lure e aprire il forziere..."
+    "translation": "Questo forziere è sotto l'effetto di Lascia o Raddoppia!<hex:02100103>Se decidi di tentare la sorte, appariranno due carte, una coperta e una scoperta, con un valore da uno a nove. Dovrai indovinare se il valore della carta coperta è più alto o più basso di quello dell'altra.<hex:02100103>・Se indovini, la quantità di oggetti che puoi ottenere aumenterà.<hex:02100103>・Dopo un'ipotesi corretta puoi scegliere di tentare nuovamente la sorte, fino a un massimo di cinque volte.<hex:02100103>・Se sbagli in qualsiasi momento, il forziere svanirà e perderai l'intero tesoro.<hex:02100103>・Se il numero è lo stesso, la quantità di oggetti rimarrà invariata e dovrai riprovare. Questo non conterà ai fini del limite di cinque tentativi.<hex:02100103>・Per riscuotere il tesoro, ti basterà aprire il forziere..."
   },
   "11420": {
     "original": "<hex:02081CE1E802F601869FFF0839392C3939392BFF0A022206E802FF022C0303>",
@@ -37109,23 +37109,23 @@
   },
   "11440": {
     "original": "Inventory/Armoury Chest",
-    "translation": "Inventario/Armoury Chest"
+    "translation": "Inventario/Arsenale"
   },
   "11441": {
     "original": "Glamour Dresser",
-    "translation": "Glamour Dresser"
+    "translation": "Comò delle Illusioni"
   },
   "11442": {
     "original": "Armoire",
-    "translation": "Armoire"
+    "translation": "Armadio"
   },
   "11443": {
     "original": "Glamour prisms are not required when<hex:02100103>applying glamours from a glamour dresser.",
-    "translation": "Non sono richiesti Glamour Prism quando<hex:02100103>si applicano glamour dal Glamour Dresser."
+    "translation": "Non sono richiesti prismi delle illusioni quando<hex:02100103>si applicano illusioni dal Comò delle Illusioni."
   },
   "11444": {
     "original": "Glamour prisms are not required when<hex:02100103>applying glamours from an armoire.",
-    "translation": "Non sono richiesti Glamour Prism quando<hex:02100103>si applicano glamour dall'Armoire."
+    "translation": "Non sono richiesti prismi dell ullusioni quando<hex:02100103>si applicano glamour dall'Armoire."
   },
   "11445": {
     "original": "Open Inventory",
@@ -37133,11 +37133,11 @@
   },
   "11446": {
     "original": "Open Glamour Dresser",
-    "translation": "Apri Glamour Dresser"
+    "translation": "Apri Comò delle Illusioni"
   },
   "11447": {
     "original": "Open Armoire",
-    "translation": "Apri Armoire"
+    "translation": "Apri Armadio"
   },
   "11448": {
     "original": "Dye",
@@ -37149,7 +37149,7 @@
   },
   "11450": {
     "original": "Dispel",
-    "translation": "Rimuovi glamour"
+    "translation": "Rimuovi Illusione"
   },
   "11451": {
     "original": "Apply Dye",
@@ -37381,7 +37381,7 @@
   },
   "11520": {
     "original": "Fashion Report",
-    "translation": "Fashion Report"
+    "translation": "Sfilata di Moda"
   },
   "11522": {
     "original": "<hex:022903EA0203>",
@@ -37389,7 +37389,7 @@
   },
   "11524": {
     "original": "Main Hand",
-    "translation": "Main Hand"
+    "translation": "Arma Principale"
   },
   "11525": {
     "original": "Head",
@@ -37597,7 +37597,7 @@
   },
   "11600": {
     "original": "Magia Board",
-    "translation": "Magia Board"
+    "translation": "Pannello Magia"
   },
   "11602": {
     "original": "Elemental Level",
@@ -37669,11 +37669,11 @@
   },
   "11619": {
     "original": "Party Seeker On",
-    "translation": "Ricerca party attiva"
+    "translation": "Ricerca gruppo attiva"
   },
   "11620": {
     "original": "Party Seeker Off",
-    "translation": "Ricerca party disattiva"
+    "translation": "Ricerca gruppo disattiva"
   },
   "11621": {
     "original": "Return to the starting point for<hex:02100103><hex:022903EB3903>? <hex:02100103><hex:02100103><hex:024804F201F403><hex:024904F201F503>※You will automatically return 10 minutes after KO.<hex:0249020103><hex:0248020103>",
@@ -37709,7 +37709,7 @@
   },
   "11629": {
     "original": "Looking for Parties",
-    "translation": "In cerca di party"
+    "translation": "In cerca di gruppo"
   },
   "11630": {
     "original": "<hex:022003E80203>/<hex:022003E80303>",
@@ -37717,7 +37717,7 @@
   },
   "11631": {
     "original": "Required Job",
-    "translation": "Classe o Job richiesto"
+    "translation": "Classe o Mestiere richiesto"
   },
   "11632": {
     "original": "<hex:02100103><hex:022B12FF1002280CFF07416374696F6EE802010303>",
@@ -37753,11 +37753,11 @@
   },
   "11642": {
     "original": "Astral Array",
-    "translation": "Array astrale"
+    "translation": "Matrice Astrale"
   },
   "11643": {
     "original": "Umbral Array",
-    "translation": "Array umbrale"
+    "translation": "Matrice Umbrale"
   },
   "11644": {
     "original": "Success Rate",
@@ -37769,7 +37769,7 @@
   },
   "11646": {
     "original": "Extract Mneme",
-    "translation": "Estrai mneme"
+    "translation": "Estrai Mneme"
   },
   "11647": {
     "original": "<hex:020814E1E80202FF074D6E656D6573FF064D6E656D6503> extracted.<hex:02100103>Activate a logos action to convert <hex:020820E1E80202FF0F7468652074776F206D6E656D6573FF0A746865206D6E656D6503> into a duty action.",
@@ -37781,11 +37781,11 @@
   },
   "11649": {
     "original": "<hex:024804F201FC03><hex:024904F201FD03>Your magia board cannot accommodate any more logos actions. To use a newly extracted mneme, you must first replace an existing action.<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:024804F201FC03><hex:024904F201FD03>La tua magia board non può contenere altre azioni logos. Per usare un mneme appena estratto, devi prima sostituire un'azione esistente.<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:024804F201FC03><hex:024904F201FD03>Il tuo pannello magia non può contenere altre azioni logos. Per usare un mneme appena estratto, devi prima sostituire un'azione esistente.<hex:0249020103><hex:0248020103>"
   },
   "11650": {
     "original": "<hex:024804F201FC03><hex:024904F201FD03>A recently extracted mneme remains and has been allocated to your magia board.<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:024804F201FC03><hex:024904F201FD03>Un mneme appena estratto è rimasto ed è stato assegnato alla tua magia board.<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:024804F201FC03><hex:024904F201FD03>Un mneme appena estratto è rimasto ed è stato assegnato al tuo pannello magia.<hex:0249020103><hex:0248020103>"
   },
   "11651": {
     "original": "<hex:024804F201FC03><hex:024904F201FD03>A recently extracted mneme remains. You must destroy the mneme or replace an existing logos action to continue.<hex:0249020103><hex:0248020103>",
@@ -37813,19 +37813,19 @@
   },
   "11657": {
     "original": "Set in Astral Array",
-    "translation": "Imposta nell'array astrale"
+    "translation": "Imposta nella Matrice Astrale"
   },
   "11658": {
     "original": "Set in Umbral Array",
-    "translation": "Imposta nell'array umbrale"
+    "translation": "Imposta nella Matrice umbrale"
   },
   "11659": {
     "original": "Remove Logogram",
-    "translation": "Rimuovi logogramma"
+    "translation": "Rimuovi Logogramma"
   },
   "11660": {
     "original": "Swap Arrays",
-    "translation": "Scambia array"
+    "translation": "Scambia Matrici"
   },
   "11661": {
     "original": "Destroy",
@@ -37833,15 +37833,15 @@
   },
   "11662": {
     "original": "Swap Actions",
-    "translation": "Scambia azioni"
+    "translation": "Scambia Azioni"
   },
   "11663": {
     "original": "Logos Actions",
-    "translation": "Azioni logos"
+    "translation": "Azioni Logos"
   },
   "11664": {
     "original": "Logos Action Log",
-    "translation": "Registro azioni logos"
+    "translation": "Registro Azioni Logos"
   },
   "11666": {
     "original": "Actions",
@@ -37861,7 +37861,7 @@
   },
   "11670": {
     "original": "Both arrays extracted the same mneme. Mnemes combined.",
-    "translation": "Entrambi gli array hanno estratto lo stesso mneme. Mneme combinati."
+    "translation": "Entrambi le matrici hanno estratto lo stesso mneme. Mneme combinati."
   },
   "11671": {
     "original": "Eureka Gear Enhancement",
@@ -37889,7 +37889,7 @@
   },
   "11678": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>Mnemes cannot be extracted unless at least one logogram is set in the astral array.<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>I mneme non possono essere estratti a meno che non sia impostato almeno un logogramma nell'array astrale.<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>I mneme non possono essere estratti a meno che non sia impostato almeno un logogramma nella matrice astrale.<hex:0249020103><hex:0248020103>"
   },
   "11679": {
     "original": "Before",
@@ -37925,11 +37925,11 @@
   },
   "11687": {
     "original": "Set magia board aspect to offensive.",
-    "translation": "Imposta assetto offensivo della magia board."
+    "translation": "Imposta assetto offensivo del pannello magia."
   },
   "11688": {
     "original": "Set magia board aspect to defensive.",
-    "translation": "Imposta assetto difensivo della magia board."
+    "translation": "Imposta assetto difensivo del pannello magia."
   },
   "11689": {
     "original": "Chain",
@@ -38005,7 +38005,7 @@
   },
   "11727": {
     "original": "PvP teams are adventurers who, rather than have their companions<hex:02100103>chosen at random, join together to take on Crystalline Conflict and other PvP duties in custom-made parties of their own creation.<hex:02100103><hex:02100103>To create a PvP team, the following conditions must be met:<hex:02100103>・Only a party leader can create a team<hex:02100103>・Members cannot be part of another PvP team<hex:02100103>・Parties must have 4-6 members (cross-world allowed)<hex:02100103>・All members must have unlocked PvP<hex:02100103>・Players on free trial accounts are not allowed<hex:02100103>・All members must have Home Worlds in the current data center",
-    "translation": "I Team PvP sono formati da avventurieri che, invece di avere compagni<hex:02100103>scelti casualmente, si uniscono per affrontare Crystalline Conflict e altre duty PvP in gruppi personalizzati.<hex:02100103><hex:02100103>Per creare un Team PvP devono essere soddisfatte le seguenti condizioni:<hex:02100103>・Solo il capogruppo può creare un team<hex:02100103>・I membri non possono far parte di un altro Team PvP<hex:02100103>・Il party deve contare 4-6 membri (anche cross-world)<hex:02100103>・Tutti i membri devono aver sbloccato il PvP<hex:02100103>・Gli account di prova gratuita non sono ammessi<hex:02100103>・Tutti i membri devono avere il Mondo d'origine nello stesso data center"
+    "translation": "I Team PvP sono formati da avventurieri che, invece di avere compagni<hex:02100103>scelti casualmente, si uniscono per affrontare Conflitti Cristallini e altre duty PvP in gruppi personalizzati.<hex:02100103><hex:02100103>Per creare un Team PvP devono essere soddisfatte le seguenti condizioni:<hex:02100103>・Solo il capogruppo può creare un team<hex:02100103>・I membri non possono far parte di un altro Team PvP<hex:02100103>・Il gruppo deve contare 4-6 membri (anche intramondo)<hex:02100103>・Tutti i membri devono aver sbloccato il PvP<hex:02100103>・Gli account di prova gratuita non sono ammessi<hex:02100103>・Tutti i membri devono avere il Mondo d'origine nello stesso data center"
   },
   "11728": {
     "original": "Team Rating",
@@ -38153,7 +38153,7 @@
   },
   "11771": {
     "original": "Subleader",
-    "translation": "Sottileader"
+    "translation": "Vice"
   },
   "11774": {
     "original": "Short Message",
@@ -38173,11 +38173,11 @@
   },
   "11780": {
     "original": "Promote to Subleader",
-    "translation": "Promuovi a Sottileader"
+    "translation": "Promuovi a Vice"
   },
   "11781": {
     "original": "Remove as Subleader",
-    "translation": "Rimuovi da Sottileader"
+    "translation": "Rimuovi Vice"
   },
   "11782": {
     "original": "Invite to PvP Team",
@@ -38309,7 +38309,7 @@
   },
   "11819": {
     "original": "※Only leader and subleader may edit team name or crest.",
-    "translation": "※Solo il leader e il sottileader possono modificare il nome o lo stemma del team."
+    "translation": "※Solo il leader e i vice possono modificare il nome o lo stemma del team."
   },
   "11820": {
     "original": "Leave Team",
@@ -38389,7 +38389,7 @@
   },
   "11847": {
     "original": "Submit request for creation of the PvP team “<hex:022903EA0203>” to your party members?",
-    "translation": "Inviare ai membri del party la richiesta di creazione del Team PvP “<hex:022903EA0203>”?"
+    "translation": "Inviare ai membri del gruppo la richiesta di creazione del Team PvP “<hex:022903EA0203>”?"
   },
   "11848": {
     "original": "The team name will be changed to “<hex:022903EA0203>” and cannot be changed again for 30 days. Proceed?",
@@ -38557,23 +38557,23 @@
   },
   "11900": {
     "original": "Apply Glamour",
-    "translation": "Applica glamour"
+    "translation": "Applica Illusione"
   },
   "11901": {
     "original": "Apply Glamour to Right Finger",
-    "translation": "Applica glamour al dito destro"
+    "translation": "Applica Illsione al Dito Destro"
   },
   "11902": {
     "original": "Apply Glamour to Left Finger",
-    "translation": "Applica glamour al dito sinistro"
+    "translation": "Applica Illusione al Dito Sinistro"
   },
   "11903": {
     "original": "Apply glamour to current gear?",
-    "translation": "Applicare il glamour all'equipaggiamento attuale?"
+    "translation": "Applicare illusione all'equipaggiamento attuale?"
   },
   "11904": {
     "original": "Restore Item",
-    "translation": "Ripristina oggetto"
+    "translation": "Ripristina Oggetto"
   },
   "11905": {
     "original": "Restore item to its original form?",
@@ -38597,11 +38597,11 @@
   },
   "11910": {
     "original": "Glamour Dresser",
-    "translation": "Glamour Dresser"
+    "translation": "Comò delle Illusioni"
   },
   "11912": {
     "original": "Edit Glamour Plates",
-    "translation": "Modifica piastre glamour"
+    "translation": "Modifica Piastre Illusione"
   },
   "11913": {
     "original": "<hex:022003E80203>/<hex:022003E80303>",
@@ -38617,7 +38617,7 @@
   },
   "11918": {
     "original": "Glamour Creation",
-    "translation": "Creazione glamour"
+    "translation": "Creazione Illusione"
   },
   "11920": {
     "original": "Equipment Selection",
@@ -38633,27 +38633,27 @@
   },
   "11923": {
     "original": "Armoury Chest (Main Hand/Off Hand)",
-    "translation": "Armoury Chest (Arma/Scudo)"
+    "translation": "Armeria (Arma/Scudo)"
   },
   "11924": {
     "original": "Armoury Chest (Head/Body/Hands)",
-    "translation": "Armoury Chest (Testa/Corpo/Mani)"
+    "translation": "Armeria (Testa/Corpo/Mani)"
   },
   "11925": {
     "original": "Armoury Chest (Legs/Feet)",
-    "translation": "Armoury Chest (Gambe/Piedi)"
+    "translation": "Armeria (Gambe/Piedi)"
   },
   "11926": {
     "original": "Armoury Chest (Ears/Neck)",
-    "translation": "Armoury Chest (Orecchie/Collo)"
+    "translation": "Armeria (Orecchie/Collo)"
   },
   "11927": {
     "original": "Armoury Chest (Wrists/Fingers)",
-    "translation": "Armoury Chest (Polsi/Dita)"
+    "translation": "Armeria (Polsi/Dita)"
   },
   "11928": {
     "original": "Glamour Prisms: <hex:022003E80203>",
-    "translation": "Glamour Prism: <hex:022003E80203>"
+    "translation": "Prisma delle Illusioni: <hex:022003E80203>"
   },
   "11929": {
     "original": "Hide items registered to gear sets.",
@@ -38681,15 +38681,15 @@
   },
   "11935": {
     "original": "There are no glamour-ready items.",
-    "translation": "Nessun oggetto disponibile per il glamour."
+    "translation": "Nessun oggetto disponibile per l'ullusione."
   },
   "11936": {
     "original": "Store as Glamour",
-    "translation": "Conserva come glamour"
+    "translation": "Conserva come Illusione"
   },
   "11939": {
     "original": "Glamour Plate Creation",
-    "translation": "Creazione piastra glamour"
+    "translation": "Creazione Piastra Illusione"
   },
   "11941": {
     "original": "Save",
@@ -38817,7 +38817,7 @@
   },
   "11973": {
     "original": "Open Glamour Dresser",
-    "translation": "Apri Glamour Dresser"
+    "translation": "Apri Comò delle Illusioni"
   },
   "11974": {
     "original": "Gear Selection",
@@ -38837,7 +38837,7 @@
   },
   "11980": {
     "original": "There are no glamours.",
-    "translation": "Non ci sono glamour."
+    "translation": "Non ci sono illusioni."
   },
   "11981": {
     "original": "Too many items are equipped in the following slots:<hex:02100103>",
@@ -38877,11 +38877,11 @@
   },
   "11991": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>This item can be stored in an armoire.<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>Questo oggetto può essere riposto nell'Armoire.<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>Questo oggetto può essere riposto nell'Armadio.<hex:0249020103><hex:0248020103>"
   },
   "11992": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>The same item is already stored in your glamour dresser.<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>Lo stesso oggetto è già conservato nel tuo Glamour Dresser.<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>Lo stesso oggetto è già conservato nel tuo Comò delle Illusioni.<hex:0249020103><hex:0248020103>"
   },
   "11993": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>This item is saved to a gear set.<hex:0249020103><hex:0248020103>",
@@ -38889,19 +38889,19 @@
   },
   "11994": {
     "original": "Using <hex:02310CFF054974656D02E802020203> on the selected item and placing it into the glamour dresser will reset its spiritbond to 0% and condition to 100%, as well as remove customization including glamours, dyes, crests, signatures, materia, and most aetherial bonuses. The item will also be bound to you upon removal. Proceed?",
-    "translation": "Usare <hex:02310CFF054974656D02E802020203> sull'oggetto selezionato e inserirlo nel Glamour Dresser azzererà il suo legame spirituale allo 0%, ne riporterà la condizione al 100% e rimuoverà ogni personalizzazione, inclusi glamour, tinture, stemmi, firme, materia e la maggior parte dei bonus eterei. L'oggetto sarà inoltre vincolato a te quando verrà rimosso. Procedere?"
+    "translation": "Usare <hex:02310CFF054974656D02E802020203> sull'oggetto selezionato e inserirlo nel comò delle illusioni azzererà il suo legame spirituale allo 0%, ne riporterà la condizione al 100% e rimuoverà ogni personalizzazione, inclusi illusioni, tinture, stemmi, firme, materia e la maggior parte dei bonus eterei. L'oggetto sarà inoltre vincolato a te quando verrà rimosso. Procedere?"
   },
   "11995": {
     "original": "Using <hex:022003E80303> <hex:02310DFF054974656D04E802E8030203> on the selected items and placing them into the glamour dresser will reset their spiritbond to 0% and condition to 100%, as well as remove customization including glamours, dyes, crests, signatures, materia, and most aetherial bonuses. The items will also be bound to you upon removal. Proceed?",
-    "translation": "Usare <hex:022003E80303> <hex:02310DFF054974656D04E802E8030203> sugli oggetti selezionati e inserirli nel Glamour Dresser azzererà il loro legame spirituale allo 0%, ne riporterà la condizione al 100% e rimuoverà ogni personalizzazione, inclusi glamour, tinture, stemmi, firme, materia e la maggior parte dei bonus eterei. Gli oggetti saranno inoltre vincolati a te quando verranno rimossi. Procedere?"
+    "translation": "Usare <hex:022003E80303> <hex:02310DFF054974656D04E802E8030203> sugli oggetti selezionati e inserirli nel comò delle illusioni azzererà il loro legame spirituale allo 0%, ne riporterà la condizione al 100% e rimuoverà ogni personalizzazione, inclusi illusioni, tinture, stemmi, firme, materia e la maggior parte dei bonus eterei. Gli oggetti saranno inoltre vincolati a te quando verranno rimossi. Procedere?"
   },
   "11996": {
     "original": "Store as Outfit Glamour",
-    "translation": "Conserva come glamour completo"
+    "translation": "Conserva come Completo Illusione"
   },
   "11997": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>Includes items that can be stored in an armoire.<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>Include oggetti che possono essere riposti in un'Armoire.<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>Include oggetti che possono essere riposti in un'Armadio.<hex:0249020103><hex:0248020103>"
   },
   "11998": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>Includes items saved to a gear set.<hex:0249020103><hex:0248020103>",
@@ -39301,7 +39301,7 @@
   },
   "12101": {
     "original": "When ensemble mode is enabled, all party members will be heard in sync by players in the vicinity, but there will be a delay between the inputs and the sounds being heard by those performing, according to the playback type.<hex:02100103>Those who select “Self Only” will only hear their own instrument, while “All Members” plays the instruments of all members with an increased delay.",
-    "translation": "Quando la modalità concerto è attiva, tutti i membri del party verranno ascoltati in sincronia dai giocatori nelle vicinanze, ma si verificherà un ritardo tra la pressione dei tasti e i suoni uditi da chi suona, in base al tipo di riproduzione.<hex:02100103>Selezionando “Solo se stesso” si udirà solo il proprio strumento, mentre con “Tutti i membri” si udranno gli strumenti di tutti i membri con un ritardo maggiore."
+    "translation": "Quando la modalità concerto è attiva, tutti i membri del gruppo verranno ascoltati in sincronia dai giocatori nelle vicinanze, ma si verificherà un ritardo tra la pressione dei tasti e i suoni uditi da chi suona, in base al tipo di riproduzione.<hex:02100103>Selezionando Con “Solo se stesso” si udirà solo il proprio strumento, mentre con “Tutti i membri” si udranno gli strumenti di tutti i membri con un ritardo maggiore."
   },
   "12102": {
     "original": "Help",
@@ -39541,7 +39541,7 @@
   },
   "12162": {
     "original": "Assign a new number to CWLS-<hex:022003E80203>.<hex:02100103>Swaps numbers that have already been assigned.",
-    "translation": "Assegna un nuovo numero a CWLS-<hex:022003E80203>.<hex:02100103>Scambia i numeri già assegnati."
+    "translation": "Assegna un nuovo numero a FPIM-<hex:022003E80203>.<hex:02100103>Scambia i numeri già assegnati."
   },
   "12163": {
     "original": "CWLS [<hex:022003E80203>]: <hex:022903EA0303>",
@@ -39549,7 +39549,7 @@
   },
   "12164": {
     "original": "Invite to CWLS-<hex:022003E80203>: <hex:022903EA0303>",
-    "translation": "Invita in CWLS-<hex:022003E80203>: <hex:022903EA0303>"
+    "translation": "Invita in FPIM-<hex:022003E80203>: <hex:022903EA0303>"
   },
   "12165": {
     "original": "List",
@@ -39601,23 +39601,23 @@
   },
   "12179": {
     "original": "<hex:0212024003>Organize CWLS",
-    "translation": "<hex:0212024003>Organizza CWLS"
+    "translation": "<hex:0212024003>Organizza FPIM"
   },
   "12180": {
     "original": "Glamour Removal",
-    "translation": "Rimozione glamour"
+    "translation": "Rimozione Illusione"
   },
   "12182": {
     "original": "Glamour Plate",
-    "translation": "Piastra glamour"
+    "translation": "Piastra Illusione"
   },
   "12183": {
     "original": "Dispel Glamour",
-    "translation": "Rimuovi glamour"
+    "translation": "Rimuovi Illusione"
   },
   "12184": {
     "original": "Glamour Dispellers",
-    "translation": "Glamour Dispeller"
+    "translation": "Rimozioni Illusioni"
   },
   "12185": {
     "original": "Remove <hex:022903EA0203> Glamour",
@@ -39629,7 +39629,7 @@
   },
   "12187": {
     "original": "Use <hex:022003E80303> <hex:02310DFF054974656D04E802E8030203> to dispel selected glamours?<hex:02100103>※Dyes and company crests will also be removed.",
-    "translation": "Usare <hex:022003E80303> <hex:02310DFF054974656D04E802E8030203> per rimuovere i glamour selezionati?<hex:02100103>※Verranno rimosse anche le tinture e gli stemmi di compagnia."
+    "translation": "Usare <hex:022003E80303> <hex:02310DFF054974656D04E802E8030203> per rimuovere le illusioni selezionate?<hex:02100103>※Verranno rimosse anche le tinture e gli stemmi di compagnia."
   },
   "12188": {
     "original": "Check all on/off.",
@@ -39637,7 +39637,7 @@
   },
   "12189": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>Active CWLS limit exceeded. Some CWLS are currently deactivated.<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>Limite di CWLS attive superato. Alcune CWLS sono al momento disattivate.<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>Limite di FPIM attive superato. Alcune FPIM sono al momento disattivate.<hex:0249020103><hex:0248020103>"
   },
   "12190": {
     "original": "Name",
@@ -39713,7 +39713,7 @@
   },
   "12210": {
     "original": "Armoury Chest",
-    "translation": "Armoury Chest"
+    "translation": "Arsenale"
   },
   "12211": {
     "original": "Equipped",
@@ -39721,7 +39721,7 @@
   },
   "12212": {
     "original": "Saddlebag",
-    "translation": "Sacca della sella"
+    "translation": "Sacca della Sella"
   },
   "12213": {
     "original": "Retainer Inventory",
@@ -39733,11 +39733,11 @@
   },
   "12215": {
     "original": "Glamour Dresser",
-    "translation": "Glamour Dresser"
+    "translation": "Comò delle Illusioni"
   },
   "12216": {
     "original": "Armoire",
-    "translation": "Armoire"
+    "translation": "Armadio"
   },
   "12217": {
     "original": "<hex:020815E1E802F203E7FF053939392BFF07022003E8020303><hex:020825E1E80501FF1D2FEE80BC020815E1E803F203E7FF053939392BFF07022003E8030303FF0103><hex:020822E1E80601FF1A2FEE80BD020812E1E80464FF0439392BFF07022003E8040303FF0103>",
@@ -39753,7 +39753,7 @@
   },
   "12220": {
     "original": "Unlocked via Quest",
-    "translation": "Sbloccato tramite quest"
+    "translation": "Sbloccato tramite missione"
   },
   "12221": {
     "original": "Unlocked after Summoning Once",
@@ -40613,7 +40613,7 @@
   },
   "12450": {
     "original": "The Masked Carnivale",
-    "translation": "The Masked Carnivale"
+    "translation": "Il Carnevale Mascherato"
   },
   "12452": {
     "original": "Act <hex:022003E80203>",
@@ -40733,7 +40733,7 @@
   },
   "12481": {
     "original": "Flat Damage/Death",
-    "translation": "Danno fisso/Morte istantanea"
+    "translation": "Danno fisso/Morte Istantanea"
   },
   "12482": {
     "original": "Low",
@@ -40845,7 +40845,7 @@
   },
   "12510": {
     "original": "World Visit",
-    "translation": "World Visit"
+    "translation": "Visita Mondo"
   },
   "12512": {
     "original": "Home World",
@@ -40881,7 +40881,7 @@
   },
   "12520": {
     "original": "World Visit",
-    "translation": "World Visit"
+    "translation": "Visita Mondo"
   },
   "12521": {
     "original": "Destination: <hex:022903EA0203>",
@@ -40897,7 +40897,7 @@
   },
   "12524": {
     "original": "World Visit",
-    "translation": "World Visit"
+    "translation": "Visita Mondo"
   },
   "12526": {
     "original": "<hex:022903EA0203>",
@@ -40945,7 +40945,7 @@
   },
   "12537": {
     "original": "World Visit",
-    "translation": "World Visit"
+    "translation": "Visita Mondo"
   },
   "12538": {
     "original": "Ready for transport.",
@@ -40961,7 +40961,7 @@
   },
   "12541": {
     "original": "Wanderer",
-    "translation": "Wanderer"
+    "translation": "Errante"
   },
   "12542": {
     "original": "Current World",
@@ -40985,7 +40985,7 @@
   },
   "12548": {
     "original": "Commence Duty",
-    "translation": "Avvia duty"
+    "translation": "Avvia Missione"
   },
   "12549": {
     "original": "Complete",
@@ -41117,7 +41117,7 @@
   },
   "12583": {
     "original": "Class/Job",
-    "translation": "Classe/Job"
+    "translation": "Classe/Mestiere"
   },
   "12584": {
     "original": "Inventory",
@@ -41157,11 +41157,11 @@
   },
   "12593": {
     "original": "Sort Retainers",
-    "translation": "Ordina Retainer"
+    "translation": "Ordina Servitori"
   },
   "12595": {
     "original": "Change the order of your retainers.",
-    "translation": "Cambia l'ordine dei tuoi retainer."
+    "translation": "Cambia l'ordine dei tuoi servitori."
   },
   "12596": {
     "original": "Currently selling no items",
@@ -41205,7 +41205,7 @@
   },
   "12607": {
     "original": "Retainer's Name",
-    "translation": "Nome del retainer"
+    "translation": "Nome del Servitore"
   },
   "12608": {
     "original": "Hiring Order",
@@ -41221,11 +41221,11 @@
   },
   "12611": {
     "original": "Change Active Set Name",
-    "translation": "Cambia nome del set attivo"
+    "translation": "Cambia Nome del Completo Attivo"
   },
   "12612": {
     "original": "Active set names can be changed via the subcommand menu.",
-    "translation": "I nomi dei set attivi possono essere modificati tramite il menu dei sottocomandi."
+    "translation": "I nomi dei completi attivi possono essere modificati tramite il menu dei sottocomandi."
   },
   "12613": {
     "original": "Input a new name for <hex:022903EA0203>. Leaving the entry field blank will restore the default set name.",
@@ -41237,7 +41237,7 @@
   },
   "12616": {
     "original": "Standard Duty",
-    "translation": "Duty standard"
+    "translation": "Missione Standard"
   },
   "12617": {
     "original": "Save",
@@ -41253,11 +41253,11 @@
   },
   "12624": {
     "original": "Travel to <hex:022903EA0203>?<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Please be advised you must be playing solo or in a cross-world party for your transfer to be processed.<hex:0249020103><hex:0248020103>",
-    "translation": "Viaggiare verso <hex:022903EA0203>?<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Per poter procedere con il trasferimento devi essere in solitaria o in un party cross-world.<hex:0249020103><hex:0248020103>"
+    "translation": "Viaggiare verso <hex:022903EA0203>?<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Per poter procedere con il trasferimento devi essere in solitaria o in un gruppo intramondo.<hex:0249020103><hex:0248020103>"
   },
   "12625": {
     "original": "Traveler",
-    "translation": "Traveler"
+    "translation": "Viaggiatore"
   },
   "12626": {
     "original": "Letter notifications are unavailable outside of your Home Data Center.",
@@ -41265,7 +41265,7 @@
   },
   "12627": {
     "original": "Voyager",
-    "translation": "Voyager"
+    "translation": "Esploratore"
   },
   "12628": {
     "original": "Full details of the player who sent this friend request are unavailable. You can only choose to refuse the request, or leave it pending.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Once a certain amount of time elapses, pending friend requests will be rendered void and the sender removed from your friend list.<hex:0249020103><hex:0248020103>",
@@ -41273,19 +41273,19 @@
   },
   "12630": {
     "original": "One-nut Clan Marks",
-    "translation": "Clan Mark a una noce"
+    "translation": "Manifesti Caccia Svitato"
   },
   "12631": {
     "original": "Two-nut Clan Marks",
-    "translation": "Clan Mark a due noci"
+    "translation": "Manifesti Caccia Svitatissimo"
   },
   "12632": {
     "original": "Three-nut Clan Marks",
-    "translation": "Clan Mark a tre noci"
+    "translation": "Manifesti Caccia Svitaterrimo"
   },
   "12633": {
     "original": "Elite Clan Nutsy Marks",
-    "translation": "Elite Clan Nutsy Mark"
+    "translation": "Manifesti Caccia Svitato d'Élite"
   },
   "12634": {
     "original": "<hex:020887E1E80401FF48022206E802FF022C032047696C202F20022206E803FF022C0320020812E4E80302FF055361636BFF065361636B7303206F66204E757473202F20022206E804FF022C0320455850FF38022206E802FF022C032047696C202F20022206E803FF022C0320020812E4E80302FF055361636BFF065361636B7303206F66204E75747303>",
@@ -41293,7 +41293,7 @@
   },
   "12635": {
     "original": "Clan Nutsy",
-    "translation": "Clan Nutsy"
+    "translation": "Clan degli Svitati"
   },
   "12636": {
     "original": "<hex:020959E802FF134F6E652D6E757420436C616E204D61726B73FF1354776F2D6E757420436C616E204D61726B73FF1554687265652D6E757420436C616E204D61726B73FF17456C69746520436C616E204E75747379204D61726B7303>（<hex:022903EA0303>）",
@@ -44129,7 +44129,7 @@
   },
   "13557": {
     "original": "Earn a retelling by uncovering the large illustration. This reward will allow you to play Faux Hollows once more upon completion of an unreal duty.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Retellings can only be earned once per week.<hex:0249020103><hex:0248020103>",
-    "translation": "Ottieni un riracconto scoprendo l'illustrazione grande. Questa ricompensa ti permetterà di giocare nuovamente a Faux Hollows dopo aver completato una duty Unreal.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※I riracconti possono essere ottenuti solo una volta a settimana.<hex:0249020103><hex:0248020103>"
+    "translation": "Ottieni un riracconto scoprendo l'illustrazione grande. Questa ricompensa ti permetterà di giocare nuovamente a Tane Sospette dopo aver completato una duty Unreal.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※I riracconti possono essere ottenuti solo una volta a settimana.<hex:0249020103><hex:0248020103>"
   },
   "13558": {
     "original": "Turn panels to uncover the hidden illustrations beneath and earn faux leaves─which can be exchanged for very real goods!",
@@ -44169,7 +44169,7 @@
   },
   "13568": {
     "original": "Faux Hollows",
-    "translation": "Faux Hollows"
+    "translation": "Tane Sospette"
   },
   "13570": {
     "original": "Once Upon a Time...",
@@ -45393,7 +45393,7 @@
   },
   "13967": {
     "original": "Tackle these challenges and reap rich rewards! Risk to life and limb may vary.",
-    "translation": "Affronta queste sfide e ottieni ricche ricompense! Il rischio per l'incolumità personale può variare."
+    "translation": "Affronta le sfide e ottieni ricche ricompense! Incolumità non garantita."
   },
   "13968": {
     "original": "Settings",
@@ -51085,7 +51085,7 @@
   },
   "15819": {
     "original": "Tank",
-    "translation": "Tank"
+    "translation": "Difensore"
   },
   "15820": {
     "original": "Healer",
@@ -59485,11 +59485,11 @@
   },
   "102583": {
     "original": "<hex:022B66FF64020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E802030303> player<hex:02080AE4E80202FF01FF027303> only<hex:02100103> (<hex:022003E80303> tank<hex:02080AE4E80302FF01FF027303>, <hex:022003E80403> healer<hex:02080AE4E80402FF01FF027303>, <hex:022003E80503> DPS)",
-    "translation": "Solo <hex:022B66FF64020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E802030303> giocator<hex:02080AE4E80202FF01FF027303><hex:02100103> (<hex:022003E80303> tank<hex:02080AE4E80302FF01FF027303>, <hex:022003E80403> healer<hex:02080AE4E80402FF01FF027303>, <hex:022003E80503> DPS)"
+    "translation": "Solo <hex:022B66FF64020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E802030303> giocator<hex:02080AE4E80202FF01FF027303><hex:02100103> (<hex:022003E80303> difensore<hex:02080AE4E80302FF01FF027303>, <hex:022003E80403> healer<hex:02080AE4E80402FF01FF027303>, <hex:022003E80503> DPS)"
   },
   "102584": {
     "original": "Up to <hex:020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E8020303> player<hex:02080AE4E80202FF01FF027303><hex:02100103> (<hex:022003E80303> tank<hex:02080AE4E80302FF01FF027303>, <hex:022003E80403> healer<hex:02080AE4E80402FF01FF027303>, <hex:022003E80503> DPS)",
-    "translation": "Fino a <hex:020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E8020303> giocator<hex:02080AE4E80202FF01FF027303><hex:02100103> (<hex:022003E80303> tank<hex:02080AE4E80302FF01FF027303>, <hex:022003E80403> healer<hex:02080AE4E80402FF01FF027303>, <hex:022003E80503> DPS)"
+    "translation": "Fino a <hex:020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E8020303> giocator<hex:02080AE4E80202FF01FF027303><hex:02100103> (<hex:022003E80303> difensore<hex:02080AE4E80302FF01FF027303>, <hex:022003E80403> healer<hex:02080AE4E80402FF01FF027303>, <hex:022003E80503> DPS)"
   },
   "102585": {
     "original": "<hex:020819E3E802E803FF10022B09FF07022003E802030320746FFF0103> <hex:022003E80303> players<hex:02100103>(<hex:022003E80803> part<hex:02080DE4E80802FF0279FF0469657303><hex:02084DE1E80401FF45206F6620022003E805032074616E6B02080AE4E80502FF01FF0273032C20022003E80603206865616C657202080AE4E80602FF01FF0273032C20022003E8070320445053FF0103>)",
@@ -59517,11 +59517,11 @@
   },
   "102591": {
     "original": "<hex:022B66FF64020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E802030303> player<hex:02080AE4E80202FF01FF027303> only<hex:02100103> (<hex:022003E80303> tank<hex:02080AE4E80302FF01FF027303>, <hex:022003E80403> healer<hex:02080AE4E80402FF01FF027303>, <hex:022003E80503> melee DPS, <hex:022003E80603> ranged DPS)",
-    "translation": "Solo <hex:022B66FF64020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E802030303> giocator<hex:02080AE4E80202FF01FF027303><hex:02100103> (<hex:022003E80303> tank<hex:02080AE4E80302FF01FF027303>, <hex:022003E80403> healer<hex:02080AE4E80402FF01FF027303>, <hex:022003E80503> DPS corpo a corpo, <hex:022003E80603> DPS a distanza)"
+    "translation": "Solo <hex:022B66FF64020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E802030303> giocator<hex:02080AE4E80202FF01FF027303><hex:02100103> (<hex:022003E80303> difensore<hex:02080AE4E80302FF01FF027303>, <hex:022003E80403> healer<hex:02080AE4E80402FF01FF027303>, <hex:022003E80503> DPS corpo a corpo, <hex:022003E80603> DPS a distanza)"
   },
   "102592": {
     "original": "Up to <hex:020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E8020303> player<hex:02080AE4E80202FF01FF027303><hex:02100103> (<hex:022003E80303> tank<hex:02080AE4E80302FF01FF027303>, <hex:022003E80403> healer<hex:02080AE4E80402FF01FF027303>, <hex:022003E80503> melee DPS, <hex:022003E80603> ranged DPS)",
-    "translation": "Fino a <hex:020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E8020303> giocator<hex:02080AE4E80202FF01FF027303><hex:02100103> (<hex:022003E80303> tank<hex:02080AE4E80302FF01FF027303>, <hex:022003E80403> healer<hex:02080AE4E80402FF01FF027303>, <hex:022003E80503> DPS corpo a corpo, <hex:022003E80603> DPS a distanza)"
+    "translation": "Fino a <hex:020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E8020303> giocator<hex:02080AE4E80202FF01FF027303><hex:02100103> (<hex:022003E80303> difensore<hex:02080AE4E80302FF01FF027303>, <hex:022003E80403> healer<hex:02080AE4E80402FF01FF027303>, <hex:022003E80503> DPS corpo a corpo, <hex:022003E80603> DPS a distanza)"
   },
   "102593": {
     "original": "<hex:0208F2015FE4E802E803FF7E022B66FF64020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E80203030320706C6179657202080AE4E80202FF01FF027303FFF0D8022B66FF64020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E80203030320746F20020860E803FF54020850E2E8030BFF4202093EE803FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8030303FF07022003E803030320706C617965727303> <hex:020868E1E80302FF600210010328022003E804032074616E6B02080AE4E80402FF01FF0273032C20022003E80503206865616C657202080AE4E80502FF01FF0273032C20022003E80603206D656C6565204450532C20022003E807032072616E6765642044505329FF0103>",

@@ -15,6 +15,9 @@ __pycache__/
 .venv/
 venv/
 
+## Generated Previews
+tools/clan_texture_previews/
+
 ## FFXIV Data & Dumps (Never commit raw Square Enix assets)
 *.dat
 *.sqpack
@@ -28,4 +31,3 @@ data/cache/
 Thumbs.db
 Desktop.ini
 .DS_Store
-
