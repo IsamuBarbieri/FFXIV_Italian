@@ -98,7 +98,7 @@ COMANDI DISPONIBILI:
   extract <foglio|all>          Estrae il testo originale in JSON preservando le traduzioni esistenti
   search <query>                Cerca un testo in inglese in tutti i fogli supportati
   validate                      Verifica le traduzioni con Glossary.md e SeString
-  validate --review [file]      Segnala termini sospetti nei file completi non approvati, o in un file specifico
+  validate --review [file]      Controlla le categorie nei file completi, oppure in un file specifico
 
 OPZIONI:
   --sqpack <percorso>           Specifica il percorso della cartella sqpack del gioco
@@ -441,7 +441,6 @@ ESEMPI:
         foreach (var file in files)
         {
             var relative = Path.GetRelativePath(translationsDir, file).Replace('\\', '/');
-            if (args.Length == 2 && catalog.ApprovedFiles.Contains(relative)) continue;
             scanned++;
             FFXIVItalian.Core.Glossary.GlossaryFileAudit audit;
             try { audit = FFXIVItalian.Core.Glossary.GlossaryAudit.AuditFile(file, catalog.Engine); }
@@ -459,7 +458,8 @@ ESEMPI:
             foreach (var issue in audit.Findings)
             {
                 findings++;
-                Console.WriteLine($"{relative}#{issue.RowId}:{issue.Field}: {issue.Message}");
+                static string Preview(string value) => value.Length <= 180 ? value : value[..180] + "…";
+                Console.WriteLine($"{relative}#{issue.RowId}:{issue.Field}: originale={Preview(issue.Original)} | traduzione={Preview(issue.Translation)} | proposta={issue.Message}");
             }
         }
         Console.WriteLine($"Revisione terminologica: {complete} file completi su {scanned} esaminati; {findings} suggerimenti da verificare.");

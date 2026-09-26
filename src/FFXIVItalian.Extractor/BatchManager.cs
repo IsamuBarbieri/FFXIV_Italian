@@ -69,17 +69,7 @@ public static class BatchManager
 
         if (elem.ValueKind == JsonValueKind.Object)
         {
-            // Case 1: Clan / Race dual column (translation_name_masculine and translation_name_feminine)
-            bool hasMasc = elem.TryGetProperty("translation_name_masculine", out var masc);
-            bool hasFem = elem.TryGetProperty("translation_name_feminine", out var fem);
-            if (hasMasc || hasFem)
-            {
-                string mStr = hasMasc && masc.ValueKind == JsonValueKind.String ? masc.GetString() ?? "" : "";
-                string fStr = hasFem && fem.ValueKind == JsonValueKind.String ? fem.GetString() ?? "" : "";
-                return !string.IsNullOrWhiteSpace(mStr) || !string.IsNullOrWhiteSpace(fStr);
-            }
-
-            // Case 2: Multi-column dialogue sheets with human prompts (e.g. CustomTalk col_31 / col_32)
+            // CustomTalk columns 2-30 are script identifiers; 31-32 are visible prompts.
             bool hasC31 = elem.TryGetProperty("col_31", out var c31);
             bool hasC32 = elem.TryGetProperty("col_32", out var c32);
             if (hasC31 || hasC32)
@@ -100,28 +90,20 @@ public static class BatchManager
                 return c31Ok && c32Ok;
             }
 
-            // Case 3: Dual string command (translation_name and translation_description)
-            if (elem.TryGetProperty("translation_description", out var descProp))
+            bool hasText = false;
+            foreach (var source in elem.EnumerateObject())
             {
-                string desc = descProp.ValueKind == JsonValueKind.String ? descProp.GetString() ?? "" : "";
-                string name = "";
-                if (elem.TryGetProperty("translation_name", out var nameProp) && nameProp.ValueKind == JsonValueKind.String)
-                {
-                    name = nameProp.GetString() ?? "";
-                }
-                return !string.IsNullOrWhiteSpace(name) || !string.IsNullOrWhiteSpace(desc);
+                if (source.Value.ValueKind != JsonValueKind.String ||
+                    source.Name is "tag" || source.Name.StartsWith("translation", StringComparison.Ordinal) ||
+                    string.IsNullOrWhiteSpace(source.Value.GetString())) continue;
+                var targetName = source.Name == "original" && elem.TryGetProperty("translation", out _)
+                    ? "translation" : "translation_" + source.Name;
+                if (!elem.TryGetProperty(targetName, out var target) && source.Name == "name")
+                    elem.TryGetProperty("translation", out target);
+                hasText = true;
+                if (target.ValueKind != JsonValueKind.String || string.IsNullOrWhiteSpace(target.GetString())) return false;
             }
-
-            // Case 3: Simple string with translation / translation_name
-            if (elem.TryGetProperty("translation", out var transProp) && transProp.ValueKind == JsonValueKind.String)
-            {
-                return !string.IsNullOrWhiteSpace(transProp.GetString());
-            }
-
-            if (elem.TryGetProperty("translation_name", out var tNameProp) && tNameProp.ValueKind == JsonValueKind.String)
-            {
-                return !string.IsNullOrWhiteSpace(tNameProp.GetString());
-            }
+            return hasText;
         }
 
         return false;

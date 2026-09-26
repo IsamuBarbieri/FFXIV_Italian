@@ -5,6 +5,7 @@ Fonte terminologica per le traduzioni future. Le voci derivano solo dai file rev
 ## File approvati
 
 - `system/addon.json`
+- `system/howto.json`
 - `system/howtocategory.json`
 - `system/lobby.json`
 - `system/maincommand.json`
@@ -16,6 +17,8 @@ Fonte terminologica per le traduzioni future. Le voci derivano solo dai file rev
 - `world/weather.json`
 
 Per aggiungere un file: completarne la revisione, inserirlo in questo elenco e aggiungere solo termini riutilizzabili con una fonte `percorso#ID:campo`. Le varianti dello stesso termine restano righe separate con una nota di contesto. Forme grammaticali e frasi complete richiedono sempre una verifica nel contesto.
+
+Per le **categorie di attività**: Quest = Missione; Subquest = Missione secondaria; Main Scenario Quest = Missione dello Scenario Principale; Duty = Incarico; Levequest e Leve = Mandato; Trial = Prova; Raid = Incursione; Dungeon = Spedizione; Deep Dungeon = Cripta Profonda; Guildhest = Operazione di Gilda; FATE resta FATE anche al plurale. I qualificatori di categoria (per esempio Alliance, Savage, Extreme) si traducono in italiano. Le forme singolari non attestate nelle fonti sotto sono convenzioni editoriali, non voci approvate. Queste equivalenze valgono per le attività di gioco: *duty* come dovere, *trial* come processo o prova narrativa, *quest* come ricerca generica e i nomi propri richiedono una traduzione contestuale. Non sostituire automaticamente i nomi di istanze o luoghi.
 
 ## Voci
 
@@ -61,6 +64,7 @@ Per aggiungere un file: completarne la revisione, inserirlo in questo elenco e a
 | Movement | Movimento | `system/addon.json#1302:original` |  |
 | Battle | Battaglia | `system/addon.json#663:original` |  |
 | Quests | Missioni | `system/addon.json#454:original` |  |
+| Main Scenario Quests | Missioni dello Scenario Principale | `system/howto.json#80:original` | Categoria delle missioni principali. |
 | Items | Oggetti | `system/addon.json#1926:original` |  |
 | Logs | Registri | `system/maincommand.json#38:name` |  |
 | Travel | Viaggio | `system/maincommandcategory.json#4:original` |  |
@@ -76,6 +80,17 @@ Per aggiungere un file: completarne la revisione, inserirlo in questo elenco e a
 | Duty Recorder | Registratore Incarichi | `system/maincommand.json#76:name` | Nome della funzione. |
 | Duty Support | Supporto Incarichi | `system/maincommand.json#91:name` | Nome della funzione. |
 | Duty Roulette | Roulette Incarichi | `system/addon.json#8605:original` | Nome della funzione. |
+| Raid Finder | Ricerca Incursioni | `system/maincommand.json#72:name` | Nome della funzione. |
+| V&C Dungeon Finder | Ricerca Spedizioni V&C | `system/maincommand.json#94:name` | Nome della funzione; comprende varianti e criterio. |
+| Levequests | Mandati | `system/addon.json#8602:original` | Singolare: Mandato; tipo specifico di attività. |
+| Leves | Mandati | `system/addon.json#8337:original` | Sinonimo di Levequests. |
+| Trials | Prove | `system/addon.json#8608:original` | Singolare: Prova; attività istanziata. |
+| Raids | Incursioni | `system/addon.json#8609:original` | Singolare: Incursione; attività istanziata. |
+| Dungeons | Spedizioni | `system/addon.json#8335:original` | Singolare: Spedizione; attività istanziata. |
+| Deep Dungeon | Cripta Profonda | `system/addon.json#2304:original` | Tipo distinto di attività. |
+| Guildhests | Operazioni di Gilda | `system/addon.json#3165:original` | Singolare: Operazione di Gilda. |
+| FATE | FATE | `system/addon.json#5768:original` | Sigla invariabile. |
+| FATEs | FATE | `system/addon.json#8336:original` | Plurale senza punti. |
 | Journal | Diario di Viaggio | `system/addon.json#450:original` | Nome del menu. |
 | Journal | Diario | `system/addon.json#593:original` | Etichetta breve. |
 | All | Tutti | `system/addon.json#970:original` | Insieme di elementi. |
@@ -100,7 +115,7 @@ Per aggiungere un file: completarne la revisione, inserirlo in questo elenco e a
 | Mount | Cavalcatura | `system/addon.json#774:original` |  |
 | Minion | Minion | `system/addon.json#8303:original` |  |
 | Achievement | Obiettivo | `system/addon.json#1484:original` |  |
-| Quest | Quest | `system/addon.json#12723:original` |  |
+| Quest | Missione | `system/addon.json#12723:original` | Categoria generale, singolare. |
 | Job | Job | `system/addon.json#684:original` |  |
 | Class | Classe | `system/addon.json#869:original` |  |
 | HP | PV | `system/addon.json#1000:original` |  |

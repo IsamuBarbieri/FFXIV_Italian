@@ -11,6 +11,20 @@ public class GlossaryComplianceResult
 
 public class GlossaryEngine
 {
+    private static readonly Dictionary<string, string> ActivityLabels = new(StringComparer.OrdinalIgnoreCase)
+    {
+        ["Subquest"] = "Missione secondaria",
+        ["Subquests"] = "Missioni secondarie",
+        ["Levequest"] = "Mandato",
+        ["Leve"] = "Mandato",
+        ["Trial"] = "Prova",
+        ["Raid"] = "Incursione",
+        ["Dungeon"] = "Spedizione",
+        ["Guildhest"] = "Operazione di Gilda",
+        ["Alliance Raid"] = "Incursione di Alleanza",
+        ["Savage Raid"] = "Incursione Selvaggia",
+        ["Extreme Trial"] = "Prova Estrema"
+    };
     private readonly List<GlossaryEntry> _entries = [];
     public IReadOnlyList<GlossaryEntry> Entries => _entries;
 
@@ -20,6 +34,26 @@ public class GlossaryEngine
     {
         var result = new GlossaryComplianceResult();
         if (string.IsNullOrWhiteSpace(originalEn) || string.IsNullOrWhiteSpace(translatedIt)) return result;
+
+        if (ActivityLabels.TryGetValue(originalEn.Trim(), out var activityLabel) &&
+            !translatedIt.Trim().Equals(activityLabel, StringComparison.OrdinalIgnoreCase))
+            result.Warnings.Add($"Categoria di attività '{originalEn.Trim()}' → {activityLabel}.");
+        if (Regex.IsMatch(originalEn, @"\bFATEs?\b", RegexOptions.IgnoreCase) &&
+            translatedIt.Contains("F.A.T.E.", StringComparison.OrdinalIgnoreCase))
+            result.Warnings.Add("Sigla FATE: usare FATE senza punti.");
+        foreach (var term in new[] { "dungeon", "raid", "trial", "guildhest", "levequest", "subquest" })
+        {
+            var pattern = $@"\b{term}s?\b";
+            // These are proper titles, even though they contain category words.
+            var sourceText = originalEn.Replace("Trials of the Braves", "", StringComparison.OrdinalIgnoreCase)
+                .Replace("Dungeons of Lyhe Ghiah", "", StringComparison.OrdinalIgnoreCase);
+            var targetText = translatedIt.Replace("Trials of the Braves", "", StringComparison.OrdinalIgnoreCase)
+                .Replace("Dungeons of Lyhe Ghiah", "", StringComparison.OrdinalIgnoreCase);
+            if (Regex.IsMatch(sourceText, pattern, RegexOptions.IgnoreCase) &&
+                Regex.IsMatch(targetText, pattern, RegexOptions.IgnoreCase) &&
+                !originalEn.Trim().Equals(term, StringComparison.OrdinalIgnoreCase))
+                result.Warnings.Add($"Possibile categoria ancora in inglese: '{term}' (verificare nomi propri e comandi).");
+        }
 
         foreach (var group in _entries.GroupBy(e => e.EnglishTerm, StringComparer.OrdinalIgnoreCase))
         {

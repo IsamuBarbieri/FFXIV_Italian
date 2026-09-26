@@ -21,12 +21,13 @@ Devi rispettare tassativamente le seguenti REGOLE VINCOLANTI. Qualsiasi deviazio
 - **CONCISIONE ED ELEGANZA**: I bottoni e i menu dell'interfaccia hanno limiti di spazio rigidi. Evita calchi prolissi; usa termini compatti ed espressivi (*es. "Inizia", "Annulla", "Ritorno", "Incarichi"*).
 - **MAIUSCOLE E MINUSCOLE**: Mantieni nella traduzione le iniziali maiuscole delle parole che sono maiuscole nell'originale. Gli articoli italiani interni alla frase, comprese le forme articolate (*del, dello, della, dei, degli, delle*), restano minuscoli. Esempio: *Order of the Twin Adder* → **Ordine della Vipera Gemella**.
 - **CONVENZIONI E STILE LINGUISTICO**: Traduci in italiano naturale e scorrevole, coerente con la grammatica italiana e il contesto di gioco.
+- **CATEGORIE DI ATTIVITÀ**: Usa le forme del glossario: Quest/Missione, Subquest/Missione secondaria, Duty/Incarico, Levequest e Leve/Mandato, Trial/Prova, Raid/Incursione, Dungeon/Spedizione, Deep Dungeon/Cripta Profonda, Guildhest/Operazione di Gilda e FATE/FATE. Traduci i qualificatori di categoria. Distingui usi comuni e nomi propri dalle etichette di attività.
 
 ---
 
 ### 2. INTEGRITÀ ASSOLUTA DEL CODICE E DEI TAG SESTRING
 Il motore di gioco utilizza un bytecode binario proprietario (SeString). I tag sono delimitati da parentesi angolari `<...>` o tag esadecimali `<hex:...>`.
-- **TAG ESADECIMALI (`<hex:...>`)**: I tag nella forma `<hex:AABBCC...>` (come le macro complesse, le icone del controller `0x1E` o le variabili di formattazione numerica) **NON DEVONO MAI ESSERE TOCCATI, MODIFICATI O ALTERATI**. Vanno ricopiati esattamente identici nel punto sintatticamente appropriato della frase italiana.
+- **TAG ESADECIMALI (`<hex:...>`)**: Decodifica il payload prima di decidere come trattarlo. Conserva identici i tag che contengono solo controlli, icone o variabili. Se il payload contiene testo visibile in inglese, traducilo e ricodifica il payload aggiornando tutte le lunghezze in byte UTF-8; preserva codici macro, separatori e altri byte di controllo. Verifica che il payload risultante sia decodificabile e che la struttura resti valida.
 - **TAG DI VARIABILI E SOSTITUZIONE**:
   - `<string(lstr1)>`, `<string(lstr2)>`, `<string(gstr1)>`: rappresentano nomi di personaggi, mondi o oggetti inseriti dal motore di gioco a runtime. Non alterare né tradurre l'interno del tag.
   - `<FullName>`, `<Forename>`, `<Surname>`, `<PlayerParameter(...)>`: obbligatori da preservare se presenti nell'originale.

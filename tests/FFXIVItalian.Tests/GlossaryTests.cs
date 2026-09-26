@@ -11,7 +11,7 @@ public class GlossaryTests
     [Fact]
     public void EveryEntryIsPresentInAnApprovedSource()
     {
-        Assert.Equal(10, _catalog.ApprovedFiles.Count);
+        Assert.Equal(11, _catalog.ApprovedFiles.Count);
         Assert.NotEmpty(_catalog.Engine.Entries);
         string root = FindRepoRoot();
         foreach (var entry in _catalog.Engine.Entries)
@@ -38,6 +38,10 @@ public class GlossaryTests
         Assert.True(_catalog.Engine.ValidateTranslation("Abandon your current duty?", "Abbandonare l'incarico?").IsCompliant);
         Assert.False(_catalog.Engine.ValidateTranslation("Abandon your current duty?", "Abbandonare la missione?").IsCompliant);
         Assert.False(_catalog.Engine.ValidateTranslation("Return", "Back").IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation("Dungeon", "Dungeon").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation("Dungeon", "Spedizione").IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation("Enter the dungeon", "Entra nel dungeon").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation("Raid the Dungeons of Lyhe Ghiah", "Compi un'incursione nei Dungeons of Lyhe Ghiah").IsCompliant);
     }
 
     [Fact]
@@ -62,6 +66,8 @@ public class GlossaryTests
     [InlineData("{\"1\":{\"original\":\"Cancel\",\"translation\":\"Abort\"}}", true, 1)]
     [InlineData("{\"1\":{\"name\":\"Grand Company\",\"translation_name\":\"Grande Compagnia\",\"description\":\"Return\",\"translation_description\":\"Back\"}}", true, 1)]
     [InlineData("{\"1\":{\"original\":\"Cancel\",\"translation\":\"\"}}", false, 0)]
+    [InlineData("{\"1\":{\"name\":\"Duty\",\"translation_name\":\"Incarico\",\"description\":\"Return\",\"translation_description\":\"\"}}", false, 0)]
+    [InlineData("{\"1\":{\"original\":\"Cancel\"}}", false, 0)]
     public void AuditChecksAllTextFieldsOnlyWhenComplete(string json, bool complete, int findings)
     {
         string path = Path.GetTempFileName();

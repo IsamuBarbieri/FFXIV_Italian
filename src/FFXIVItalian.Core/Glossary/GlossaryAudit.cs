@@ -2,7 +2,7 @@ using System.Text.Json;
 
 namespace FFXIVItalian.Core.Glossary;
 
-public sealed record GlossaryFinding(string RowId, string Field, string Message);
+public sealed record GlossaryFinding(string RowId, string Field, string Original, string Translation, string Message);
 public sealed record GlossaryFileAudit(bool IsComplete, int CheckedFields, IReadOnlyList<GlossaryFinding> Findings);
 
 public static class GlossaryAudit
@@ -27,15 +27,19 @@ public static class GlossaryAudit
             foreach (var source in row.Value.EnumerateObject())
             {
                 if (source.Name.StartsWith("translation", StringComparison.Ordinal) ||
-                    source.Value.ValueKind != JsonValueKind.String) continue;
+                    source.Name == "tag" || source.Value.ValueKind != JsonValueKind.String) continue;
+                // CustomTalk's name and columns 2-30 are engine identifiers.
+                if (Path.GetFileName(filePath).Equals("customtalk.json", StringComparison.OrdinalIgnoreCase) &&
+                    (source.Name == "name" || (source.Name.StartsWith("col_", StringComparison.Ordinal) &&
+                     int.TryParse(source.Name[4..], out var column) && column < 31))) continue;
 
                 string targetName = "translation_" + source.Name;
                 if ((source.Name == "original" || source.Name == "name") &&
                     !row.Value.TryGetProperty(targetName, out _) &&
                     row.Value.TryGetProperty("translation", out _)) targetName = "translation";
-                if (!row.Value.TryGetProperty(targetName, out var target)) continue;
                 string original = source.Value.GetString() ?? "";
                 if (string.IsNullOrWhiteSpace(original)) continue;
+                row.Value.TryGetProperty(targetName, out var target);
                 checkedFields++;
                 string translated = target.ValueKind == JsonValueKind.String ? target.GetString() ?? "" : "";
                 if (string.IsNullOrWhiteSpace(translated))
@@ -43,9 +47,13 @@ public static class GlossaryAudit
                     complete = false;
                     continue;
                 }
+                if (Path.GetFileName(filePath).Equals("placename.json", StringComparison.OrdinalIgnoreCase) &&
+                    source.Name == "name" && (original == "Dungeon" || original == "Raid")) continue;
+                if (Path.GetFileName(filePath).Equals("achievement.json", StringComparison.OrdinalIgnoreCase) &&
+                    source.Name == "name") continue; // Achievement titles are proper names.
                 var result = engine.ValidateTranslation(original, translated);
                 foreach (var warning in result.Warnings)
-                    findings.Add(new GlossaryFinding(row.Name, targetName, warning));
+                    findings.Add(new GlossaryFinding(row.Name, targetName, original, translated, warning));
             }
         }
         return new GlossaryFileAudit(complete && checkedFields > 0, checkedFields, findings);

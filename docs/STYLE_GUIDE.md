@@ -4,6 +4,8 @@ Questo documento definisce i principi editoriali, la gestione dei registri dei p
 
 La fonte canonica di riferimento terminologico è costituita da `data/glossary/Glossary.md`.
 
+Per le categorie di attività usa le equivalenze raccolte nel glossario: Missione, Missione secondaria, Incarico, Mandato, Prova, Incursione, Spedizione, Cripta Profonda, Operazione di Gilda e FATE. Mantieni distinti i tipi di attività. Applica la regola al significato di gioco, non ai nomi propri o agli usi comuni delle stesse parole inglesi.
+
 ---
 
 ## 1. Principi di Base

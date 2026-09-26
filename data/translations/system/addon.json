@@ -1685,7 +1685,7 @@
   },
   "455": {
     "original": "Levequests",
-    "translation": "Incarichi"
+    "translation": "Mandati"
   },
   "456": {
     "original": "Allowances",
@@ -1765,7 +1765,7 @@
   },
   "475": {
     "original": "Levequests",
-    "translation": "Incarichi"
+    "translation": "Mandati"
   },
   "476": {
     "original": "Summary",
@@ -2193,7 +2193,7 @@
   },
   "590": {
     "original": "Levequests",
-    "translation": "Incarichi"
+    "translation": "Mandati"
   },
   "592": {
     "original": "Leve History",
@@ -2221,7 +2221,7 @@
   },
   "598": {
     "original": "Levequests",
-    "translation": "Incarichi"
+    "translation": "Mandati"
   },
   "599": {
     "original": "Allowances",
@@ -18457,7 +18457,7 @@
   },
   "5587": {
     "original": "Dungeon Gear",
-    "translation": "Equipaggiamento Dungeon"
+    "translation": "Equipaggiamento da Spedizione"
   },
   "5592": {
     "original": "Gathering Location",
@@ -26813,11 +26813,11 @@
   },
   "8335": {
     "original": "Dungeons",
-    "translation": "Dungeon"
+    "translation": "Spedizioni"
   },
   "8336": {
     "original": "FATEs",
-    "translation": "F.A.T.E."
+    "translation": "FATE"
   },
   "8337": {
     "original": "Leves",
@@ -27741,7 +27741,7 @@
   },
   "8601": {
     "original": "FATEs",
-    "translation": "F.A.T.E."
+    "translation": "FATE"
   },
   "8602": {
     "original": "Levequests",
@@ -27765,15 +27765,15 @@
   },
   "8607": {
     "original": "Dungeons",
-    "translation": "Dungeon"
+    "translation": "Spedizioni"
   },
   "8608": {
     "original": "Trials",
-    "translation": "Trial"
+    "translation": "Prove"
   },
   "8609": {
     "original": "Raids",
-    "translation": "Raid"
+    "translation": "Incursioni"
   },
   "8610": {
     "original": "PvP",
@@ -30833,7 +30833,7 @@
   },
   "9538": {
     "original": "<hex:024804F201F403><hex:024904F201F503>Withdrawing from a match three times a day, whether it be via the withdraw button or allowing the timer to run out, will result in dismissal from the Battlehall as well as a penalty temporarily restricting use of both Duty and Raid Finders.<hex:0249020103><hex:0248020103><hex:02100103>Proceed?",
-    "translation": "<hex:024804F201F403><hex:024904F201F503>Ritirarsi da una partita tre volte in un giorno, sia premendo il pulsante di ritiro che lasciando scadere il tempo, comporterà l'espulsione dalla Battlehall e una penalità che limiterà temporaneamente l'uso di Ricerca Incarichi e Raid Finder.<hex:0249020103><hex:0248020103><hex:02100103>Procedere?"
+    "translation": "<hex:024804F201F403><hex:024904F201F503>Ritirarsi da una partita tre volte in un giorno, sia premendo il pulsante di ritiro che lasciando scadere il tempo, comporterà l'espulsione dalla Battlehall e una penalità che limiterà temporaneamente l'uso di Ricerca Incarichi e Ricerca Incursioni.<hex:0249020103><hex:0248020103><hex:02100103>Procedere?"
   },
   "9539": {
     "original": "Confirming opponent...",
@@ -32577,7 +32577,7 @@
   },
   "10076": {
     "original": "Raid Finder",
-    "translation": "Ricerca Incursione"
+    "translation": "Ricerca Incursioni"
   },
   "10078": {
     "original": "Matching Requirements",
@@ -32661,11 +32661,11 @@
   },
   "10098": {
     "original": "Progress (See Raid Finder for Details)",
-    "translation": "Progressione (Vedi Raid Finder per i Dettagli)"
+    "translation": "Progressione (Vedi Ricerca Incursioni per i Dettagli)"
   },
   "10099": {
     "original": "Display Raid Finder help.",
-    "translation": "Mostra aiuto del Raid Finder."
+    "translation": "Mostra aiuto della Ricerca Incursioni."
   },
   "10100": {
     "original": "Loot Rule: Normal",
@@ -32825,7 +32825,7 @@
   },
   "10142": {
     "original": "The following class quests must first be completed:",
-    "translation": "Le seguenti quest di classe devono essere completate prima:"
+    "translation": "Le seguenti missioni di classe devono essere completate prima:"
   },
   "10143": {
     "original": "<hex:022903EA0203>",
@@ -32885,11 +32885,11 @@
   },
   "10158": {
     "original": "Raid Finder Help",
-    "translation": "Aiuto Raid Finder"
+    "translation": "Aiuto Ricerca Incursioni"
   },
   "10160": {
     "original": "<hex:024804F2020203>Progress Record<hex:0248020103><hex:02100103>Progress within the latest Savage raids is<hex:02100103>periodically saved, allowing for continuation<hex:02100103>of the duty from that point.<hex:02100103><hex:02100103>Progress is reset every week on<hex:02100103><hex:020603120303><hex:020942DDFF0753756E646179FF074D6F6E646179FF0854756573646179FF0A5765646E6573646179FF095468757273646179FF07467269646179FF09536174757264617903> at <hex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03> <hex:020810E0DB0DFF05702E6D2EFF05612E6D2E03> (Earth time).<hex:02100103><hex:02100103><hex:024804F2020203>Party Progress<hex:0248020103><hex:02100103>A party's starting point in the raid is<hex:02100103>determined by the leader's past progress.<hex:02100103>As long as all other conditions are met, <hex:02100103>players who have not progressed as far as<hex:02100103>the leader may still participate in the duty.<hex:02100103><hex:02100103>If a party member's progress was less<hex:02100103>than that of the leader, then progress<hex:02100103>will be updated to match.<hex:02100103><hex:02100103>If a party member's progress is beyond<hex:02100103>that of the leader, that member's progress<hex:02100103>will remain unaffected.<hex:02100103><hex:02100103><hex:024804F2020203>Reward Restrictions<hex:0248020103><hex:02100103>Players will not earn rewards for completing<hex:02100103>phases they have already completed.<hex:02100103>Coffer quantity will vary based on the total<hex:02100103>number of party members who have already<hex:02100103>completed the duty.<hex:02100103><hex:02100103>When participating in the latest Savage raid<hex:02100103>with a matched party, duty rewards may<hex:02100103>change based on the progress level of<hex:02100103>matched members.<hex:02100103><hex:02100103><hex:024804F2020203>Job Distribution<hex:0248020103><hex:02100103>Parties formed with the Raid Finder do not<hex:02100103>allow for two members with the same job<hex:02100103>unless certain conditions are met.<hex:02100103><hex:02100103>DPS jobs are divided into the following roles:<hex:02100103>Melee DPS, Physical Ranged DPS,<hex:02100103>Magical Ranged DPS, and Not Specified.<hex:02100103><hex:02100103>When the raid purpose is set as “Duty Completion,”<hex:02100103>the jobs that fall into Not Specified must be<hex:02100103>different from the ones which fill the other three<hex:02100103>DPS roles. When the raid purpose is set to “Practice,”<hex:02100103>overlapping between specified and unspecified DPS<hex:02100103>jobs is allowed.<hex:02100103><hex:02100103><hex:024804F2020203>Loot Rules & Languages<hex:0248020103><hex:02100103>Loot rules and Language settings are imported<hex:02100103>from current Duty Finder settings.<hex:02100103><hex:02100103><hex:024804F2020203>Penalties<hex:0248020103><hex:02100103>Penalties for withdrawing from duties are<hex:02100103>shared between all matched content.",
-    "translation": "<hex:024804F2020203>Registro progressi<hex:0248020103><hex:02100103>I progressi nei raid Savage più recenti vengono<hex:02100103>salvati periodicamente, permettendo di riprendere<hex:02100103>l'incarico da quel punto.<hex:02100103><hex:02100103>I progressi si azzerano ogni settimana di<hex:02100103><hex:020603120303><hex:020942DDFF0753756E646179FF074D6F6E646179FF0854756573646179FF0A5765646E6573646179FF095468757273646179FF07467269646179FF09536174757264617903> alle <hex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03> <hex:020810E0DB0DFF05702E6D2EFF05612E6D2E03> (tempo reale).<hex:02100103><hex:02100103><hex:024804F2020203>Progressi del party<hex:0248020103><hex:02100103>Il punto di partenza nel raid per il party è<hex:02100103>determinato dai progressi precedenti del leader.<hex:02100103>Se tutte le altre condizioni sono soddisfatte, <hex:02100103>i giocatori che non sono avanzati quanto il leader<hex:02100103>possono comunque partecipare all'incarico.<hex:02100103><hex:02100103>Se i progressi di un membro erano inferiori<hex:02100103>a quelli del leader, allora i progressi<hex:02100103>verranno aggiornati di conseguenza.<hex:02100103><hex:02100103>Se i progressi di un membro sono superiori<hex:02100103>a quelli del leader, i progressi di quel membro<hex:02100103>rimarranno invariati.<hex:02100103><hex:02100103><hex:024804F2020203>Limitazioni ricompense<hex:0248020103><hex:02100103>I giocatori non otterranno ricompense per<hex:02100103>il completamento di fasi già completate in precedenza.<hex:02100103>Il numero di scrigni varierà in base al totale<hex:02100103>dei membri del party che hanno già completato<hex:02100103>l'incarico.<hex:02100103><hex:02100103>Partecipando all'ultimo raid Savage con un<hex:02100103>party abbinato, le ricompense potrebbero variare<hex:02100103>in base al livello di progresso dei membri<hex:02100103>abbinati.<hex:02100103><hex:02100103><hex:024804F2020203>Distribuzione job<hex:0248020103><hex:02100103>I party formati con il Raid Finder non consentono<hex:02100103>due membri con lo stesso job a meno che non<hex:02100103>siano soddisfatte determinate condizioni.<hex:02100103><hex:02100103>I job DPS sono suddivisi nei seguenti ruoli:<hex:02100103>Melee DPS, Physical Ranged DPS,<hex:02100103>Magical Ranged DPS e Non specificato.<hex:02100103><hex:02100103>Quando l'obiettivo del raid è “Completamento Incarico”,<hex:02100103>i job che rientrano in Non specificato devono essere<hex:02100103>diversi da quelli che occupano gli altri tre ruoli<hex:02100103>DPS. Quando l'obiettivo è impostato su “Pratica”,<hex:02100103>è permessa la sovrapposizione tra job DPS specificati<hex:02100103>e non specificati.<hex:02100103><hex:02100103><hex:024804F2020203>Regole bottino e lingue<hex:0248020103><hex:02100103>Le regole del bottino e della lingua vengono importate<hex:02100103>dalle impostazioni attuali della Ricerca Incarichi.<hex:02100103><hex:02100103><hex:024804F2020203>Penalità<hex:0248020103><hex:02100103>Le penalità per l'abbandono degli incarichi sono<hex:02100103>condivise tra tutti i contenuti abbinati."
+    "translation": "<hex:024804F2020203>Registro progressi<hex:0248020103><hex:02100103>I progressi nelle incursioni selvagge più recenti vengono<hex:02100103>salvati periodicamente, permettendo di riprendere<hex:02100103>l'incarico da quel punto.<hex:02100103><hex:02100103>I progressi si azzerano ogni settimana di<hex:02100103><hex:020603120303><hex:020942DDFF0753756E646179FF074D6F6E646179FF0854756573646179FF0A5765646E6573646179FF095468757273646179FF07467269646179FF09536174757264617903> alle <hex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03> <hex:020810E0DB0DFF05702E6D2EFF05612E6D2E03> (tempo reale).<hex:02100103><hex:02100103><hex:024804F2020203>Progressi del party<hex:0248020103><hex:02100103>Il punto di partenza nell'incursione per il party è<hex:02100103>determinato dai progressi precedenti del leader.<hex:02100103>Se tutte le altre condizioni sono soddisfatte, <hex:02100103>i giocatori che non sono avanzati quanto il leader<hex:02100103>possono comunque partecipare all'incarico.<hex:02100103><hex:02100103>Se i progressi di un membro erano inferiori<hex:02100103>a quelli del leader, allora i progressi<hex:02100103>verranno aggiornati di conseguenza.<hex:02100103><hex:02100103>Se i progressi di un membro sono superiori<hex:02100103>a quelli del leader, i progressi di quel membro<hex:02100103>rimarranno invariati.<hex:02100103><hex:02100103><hex:024804F2020203>Limitazioni ricompense<hex:0248020103><hex:02100103>I giocatori non otterranno ricompense per<hex:02100103>il completamento di fasi già completate in precedenza.<hex:02100103>Il numero di scrigni varierà in base al totale<hex:02100103>dei membri del party che hanno già completato<hex:02100103>l'incarico.<hex:02100103><hex:02100103>Partecipando all'ultima incursione selvaggia con un<hex:02100103>party abbinato, le ricompense potrebbero variare<hex:02100103>in base al livello di progresso dei membri<hex:02100103>abbinati.<hex:02100103><hex:02100103><hex:024804F2020203>Distribuzione job<hex:0248020103><hex:02100103>I party formati con la Ricerca Incursioni non consentono<hex:02100103>due membri con lo stesso job a meno che non<hex:02100103>siano soddisfatte determinate condizioni.<hex:02100103><hex:02100103>I job DPS sono suddivisi nei seguenti ruoli:<hex:02100103>Melee DPS, Physical Ranged DPS,<hex:02100103>Magical Ranged DPS e Non specificato.<hex:02100103><hex:02100103>Quando l'obiettivo dell'incursione è “Completamento Incarico”,<hex:02100103>i job che rientrano in Non specificato devono essere<hex:02100103>diversi da quelli che occupano gli altri tre ruoli<hex:02100103>DPS. Quando l'obiettivo è impostato su “Pratica”,<hex:02100103>è permessa la sovrapposizione tra job DPS specificati<hex:02100103>e non specificati.<hex:02100103><hex:02100103><hex:024804F2020203>Regole bottino e lingue<hex:0248020103><hex:02100103>Le regole del bottino e della lingua vengono importate<hex:02100103>dalle impostazioni attuali della Ricerca Incarichi.<hex:02100103><hex:02100103><hex:024804F2020203>Penalità<hex:0248020103><hex:02100103>Le penalità per l'abbandono degli incarichi sono<hex:02100103>condivise tra tutti i contenuti abbinati."
   },
   "10161": {
     "original": "Close",
@@ -33781,7 +33781,7 @@
   },
   "10410": {
     "original": "Proceed and your <hex:024804F201F403><hex:024904F201F503>fixed party<hex:0249020103><hex:0248020103> save data will be converted to <hex:024804F201F403><hex:024904F201F503>matched party<hex:0249020103><hex:0248020103> save data.<hex:02100103><hex:02100103>Matched party save data still allows for the creation of preformed parties as long as the party is formed before returning to the deep dungeon, and the progression of all members is identical. Any open party slots will be filled automatically via the matching system.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>All special items will be lost upon data conversion.<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Scores will not be recorded for matched parties.<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103><hex:0208B3E1E80201FF01FFAB024804F201FA03024904F201FB035361766520646174612074686174206861732070726F6772657373656420746F2002091AE803FF07666C6F6F7273FF07666C6F6F7273FF06617265617303207768696368207265717569726520612066697865642070617274792063616E6E6F7420626520636F6E76657274656420746F206D617463686564207061727479207361766520646174612E02490201030248020103021001030210010303><hex:024804F201FC03><hex:024904F201FD03>※Converted data cannot be restored to its original state.<hex:0249020103><hex:0248020103>",
-    "translation": "Procedendo, i dati di salvataggio del tuo <hex:024804F201F403><hex:024904F201F503>party fisso<hex:0249020103><hex:0248020103> verranno convertiti in dati di salvataggio per <hex:024804F201F403><hex:024904F201F503>party abbinato<hex:0249020103><hex:0248020103>.<hex:02100103><hex:02100103>I dati di salvataggio per party abbinato consentono comunque la creazione di party preformati, purché il party venga formato prima di rientrare nel Deep Dungeon e la progressione di tutti i membri sia identica. Gli slot aperti del party verranno riempiti automaticamente tramite il sistema di abbinamento.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Tutti gli oggetti speciali andranno persi con la conversione dei dati.<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>I punteggi non verranno registrati per i party abbinati.<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103><hex:0208B3E1E80201FF01FFAB024804F201FA03024904F201FB035361766520646174612074686174206861732070726F6772657373656420746F2002091AE803FF07666C6F6F7273FF07666C6F6F7273FF06617265617303207768696368207265717569726520612066697865642070617274792063616E6E6F7420626520636F6E76657274656420746F206D617463686564207061727479207361766520646174612E02490201030248020103021001030210010303><hex:024804F201FC03><hex:024904F201FD03>※I dati convertiti non possono essere ripristinati allo stato originale.<hex:0249020103><hex:0248020103>"
+    "translation": "Procedendo, i dati di salvataggio del tuo <hex:024804F201F403><hex:024904F201F503>party fisso<hex:0249020103><hex:0248020103> verranno convertiti in dati di salvataggio per <hex:024804F201F403><hex:024904F201F503>party abbinato<hex:0249020103><hex:0248020103>.<hex:02100103><hex:02100103>I dati di salvataggio per party abbinato consentono comunque la creazione di party preformati, purché il party venga formato prima di rientrare nella Cripta Profonda e la progressione di tutti i membri sia identica. Gli slot aperti del party verranno riempiti automaticamente tramite il sistema di abbinamento.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Tutti gli oggetti speciali andranno persi con la conversione dei dati.<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>I punteggi non verranno registrati per i party abbinati.<hex:0249020103><hex:0248020103><hex:02100103><hex:02100103><hex:0208B3E1E80201FF01FFAB024804F201FA03024904F201FB035361766520646174612074686174206861732070726F6772657373656420746F2002091AE803FF07666C6F6F7273FF07666C6F6F7273FF06617265617303207768696368207265717569726520612066697865642070617274792063616E6E6F7420626520636F6E76657274656420746F206D617463686564207061727479207361766520646174612E02490201030248020103021001030210010303><hex:024804F201FC03><hex:024904F201FD03>※I dati convertiti non possono essere ripristinati allo stato originale.<hex:0249020103><hex:0248020103>"
   },
   "10411": {
     "original": "Accept terms and convert data.",
@@ -33789,7 +33789,7 @@
   },
   "10412": {
     "original": "Proceed and your save data will be deleted, allowing you reentry to the deep dungeon from <hex:020921E804FF06666C6F6F72FF06666C6F6F72FF0F74726176657273652073746F6E6503> 1.<hex:02100103><hex:02100103>Dungeon progression and character level will be reset, but aetherpool arm and gear strength will remain unchanged.<hex:02100103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Data cannot be restored once deleted.<hex:0249020103><hex:0248020103>",
-    "translation": "Procedendo, i dati di salvataggio verranno eliminati, consentendoti di rientrare nella Cripta Profonda da <hex:020921E804FF06666C6F6F72FF06666C6F6F72FF0F74726176657273652073746F6E6503> 1.<hex:02100103><hex:02100103>La progressione nel dungeon e il livello del personaggio verranno azzerati, ma la potenza delle armi e dell'equipaggiamento aetherpool rimarrà invariata.<hex:02100103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※I dati non possono essere ripristinati una volta eliminati.<hex:0249020103><hex:0248020103>"
+    "translation": "Procedendo, i dati di salvataggio verranno eliminati, consentendoti di rientrare nella Cripta Profonda da <hex:020921E804FF06666C6F6F72FF06666C6F6F72FF0F74726176657273652073746F6E6503> 1.<hex:02100103><hex:02100103>La progressione nella Cripta Profonda e il livello del personaggio verranno azzerati, ma la potenza delle armi e dell'equipaggiamento aetherpool rimarrà invariata.<hex:02100103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※I dati non possono essere ripristinati una volta eliminati.<hex:0249020103><hex:0248020103>"
   },
   "10413": {
     "original": "Accept terms and delete data.",
@@ -33857,7 +33857,7 @@
   },
   "10429": {
     "original": "Cannot continue with this data. Dungeon is cleared.",
-    "translation": "Impossibile continuare con questi dati. Il Dungeon è completato."
+    "translation": "Impossibile continuare con questi dati. La Cripta Profonda è completata."
   },
   "10430": {
     "original": "To next level: ",
@@ -34121,11 +34121,11 @@
   },
   "10497": {
     "original": "Cannot continue with this data. Dungeon is cleared.",
-    "translation": "Impossibile continuare con questi dati. Il Dungeon è completato."
+    "translation": "Impossibile continuare con questi dati. La Cripta Profonda è completata."
   },
   "10498": {
     "original": "The next dungeon must be unlocked in order to continue.",
-    "translation": "Il dungeon successivo deve essere sbloccato per continuare."
+    "translation": "La Cripta Profonda successiva deve essere sbloccata per continuare."
   },
   "10499": {
     "original": "Unable to continue. Data includes record of a failed attempt.",
@@ -34541,7 +34541,7 @@
   },
   "10625": {
     "original": "Command Missions (Dungeons)",
-    "translation": "Command Missions (Dungeon)"
+    "translation": "Missioni di Comando (Spedizioni)"
   },
   "10630": {
     "original": "Mission Affinity",
@@ -35517,7 +35517,7 @@
   },
   "10975": {
     "original": "1: Complete 1,000 instanced dungeon raids or trials.",
-    "translation": "1: Completa 1.000 dungeon, raid o trial con istanza."
+    "translation": "1: Completa 1.000 spedizioni, incursioni o prove istanziate."
   },
   "10976": {
     "original": "<hex:0212025103> Trade Mentor",
@@ -35557,11 +35557,11 @@
   },
   "10985": {
     "original": "3: Complete any level <hex:022003E80203> tank role quest.",
-    "translation": "3: Completa una qualsiasi quest di ruolo per difensore di livello <hex:022003E80203>."
+    "translation": "3: Completa una qualsiasi missione di ruolo per difensore di livello <hex:022003E80203>."
   },
   "10986": {
     "original": "4: Complete any level <hex:022003E80203> healer role quest.",
-    "translation": "4: Completa una qualsiasi quest di ruolo per curatore di livello <hex:022003E80203>."
+    "translation": "4: Completa una qualsiasi missione di ruolo per curatore di livello <hex:022003E80203>."
   },
   "10987": {
     "original": "Waiting for opening...",
@@ -35661,7 +35661,7 @@
   },
   "11014": {
     "original": "Once per week, completion of an unreal trial grants access to Faux Hollows.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※The “Duty Complete” option is only available for previously completed duties.<hex:02100103>※Earn a retelling while playing Faux Hollows to unlock one additional play per week.<hex:02100103>※Practice phase selection does not entail the actual skipping of phases.<hex:0249020103><hex:0248020103>",
-    "translation": "Una volta a settimana, il completamento di un trial Unreal concede l'accesso a Tane Sospette.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※L'opzione “Incarico completato” è disponibile solo per gli incarichi completati in precedenza.<hex:02100103>※Ottieni un riracconto giocando a Tane Sospette per sbloccare una partita aggiuntiva a settimana.<hex:02100103>※La selezione della fase di pratica non comporta il salto effettivo delle fasi.<hex:0249020103><hex:0248020103>"
+    "translation": "Una volta a settimana, il completamento di una Prova Irreale concede l'accesso a Tane Sospette.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※L'opzione “Incarico completato” è disponibile solo per gli incarichi completati in precedenza.<hex:02100103>※Ottieni un riracconto giocando a Tane Sospette per sbloccare una partita aggiuntiva a settimana.<hex:02100103>※La selezione della fase di pratica non comporta il salto effettivo delle fasi.<hex:0249020103><hex:0248020103>"
   },
   "11015": {
     "original": "Faux Hollows Available",
@@ -36329,7 +36329,7 @@
   },
   "11227": {
     "original": "Dungeon Clear!",
-    "translation": "Dungeon Completato!"
+    "translation": "Spedizione Completata!"
   },
   "11228": {
     "original": "Egg Hunter Riggy",
@@ -37913,7 +37913,7 @@
   },
   "11684": {
     "original": "Exploring Dungeon",
-    "translation": "Esplorazione Dungeon"
+    "translation": "Esplorazione della Spedizione"
   },
   "11685": {
     "original": "Prioritize By",
@@ -39965,7 +39965,7 @@
   },
   "12276": {
     "original": "Required to complete the level <hex:022003E80203> blue mage quest, “<hex:022903EA0303>.”",
-    "translation": "Richiesta per completare la quest del Mago Blu di livello <hex:022003E80203>, “<hex:022903EA0303>”."
+    "translation": "Richiesta per completare la missione del Mago Blu di livello <hex:022003E80203>, “<hex:022903EA0303>”."
   },
   "12277": {
     "original": "<hex:022B09FF07022903EA020303>",
@@ -40857,7 +40857,7 @@
   },
   "12514": {
     "original": "<hex:0208F2041EE4E80203FFF20414E38080E38080E38080E38080E38080E38080E38080E38080E38080E38080024804F2020203446174612043656E7465722054726176656C2053797374656D02480201030210010354686520446174612043656E7465722054726176656C2073797374656D20697320616E20657874656E73696F6E206F662074686520576F726C642056697369742073797374656D2C20616E6420616C6C6F777320796F7520746F2074656D706F726172696C7920766973697420576F726C647320696E206F7468657220646174612063656E746572732E204365727461696E207265737472696374696F6E73206170706C7920746F20646174612063656E7465722074726176656C2C20696E636C7564696E672074686F73652064696374617465642062792074686520576F726C642056697369742073797374656D2E0210010302100103E38080E38080E38080E38080E38080E38080E38080E38080E38080E38080024804F20202035669736974696E67204F7468657220446174612043656E74657273024802010302100103E38080E383BB556E74696C20796F7520686176652072657475726E65642066726F6D207669736974696E6720616E6F7468657220646174612063656E7465722C20796F75206D6179206E6F74206C6F6720696E206F7220706572666F726D206F7468657220616374696F6E732077697468206368617261637465727320696E20796F757220486F6D6520576F726C642E02100103E38080E383BB596F75206D6179206F6E6C792074726176656C20746F206F7468657220646174612063656E746572732066726F6D20796F757220486F6D6520576F726C642E20496620796F75207769736820746F2074726176656C20746F206120646174612063656E74657220646966666572656E742066726F6D20746865206F6E6520796F75206172652063757272656E746C79207669736974696E672C20796F75206D7573742066697273742072657475726E20746F20796F757220486F6D6520576F726C6420616E64207375626D6974206120446174612043656E74657220566973697420726571756573742066726F6D2074686572652E02100103E38080E383BB5768656E206C6F6767696E67206F75742066726F6D20616E6F7468657220576F726C642C20796F752077696C6C206175746F6D61746963616C6C792062652072657475726E656420746F20796F757220486F6D6520576F726C6420696620796F7520646F206E6F74206C6F6720696E20616761696E2077697468696E20333020646179732E20446570656E64696E67206F6E207468652074696D696E67206F6620796F7572206C617374206C6F676F75742C20796F75206D61792062652072657475726E6564206166746572206D6F7265207468616E20333020646179732068617665207061737365642E0210010302100103FF0103><hex:0208F2036EE3E80203FFF20364E38080E38080E38080E38080E38080E38080E38080E38080E38080E38080024804F2020203576F726C642056697369742053797374656D02480201030210010354686520576F726C642056697369742053797374656D20616C6C6F777320796F7520746F2074726176656C2066726F6D2002083CE4E80201FF10796F757220486F6D6520576F726C64FF2574686520576F726C6420796F75206172652063757272656E746C79207669736974696E670320746F20646966666572656E7420576F726C6420736572766572732077697468696E207468652073616D6520646174612063656E7465722E205768696C65207669736974696E6720646966666572656E7420576F726C64732C20796F75206D6179207061727479207769746820667269656E64732C207075726368617365206974656D732C207461636B6C65206475746965732C20616E64206D6F72652E0210010302100103E38080E38080E38080E38080E38080E38080E38080E38080E38080E38080024804F20202035669736974696E67204F7468657220576F726C6473024802010302100103E38080E383BB446570656E64696E67206F6E2074686520636F6E67657374696F6E206F66207468652074617267657420576F726C642C2074726176656C206D61792074616B65207365766572616C206D696E757465732E02100103E38080E383BB4F6E6365207072657061726174696F6E732068617665206265656E20636F6D706C657465642C2074726176656C2077696C6C206F63637572206175746F6D61746963616C6C7920616E642063616E63656C20616C6C2063757272656E7420616374696F6E732F6475746965732E02100103E38080E383BB5768656E206C6F6767696E67206F75742066726F6D20616E6F7468657220576F726C642C20796F752077696C6C206175746F6D61746963616C6C792062652072657475726E656420746F20796F757220486F6D6520576F726C6420696620796F7520646F206E6F74206C6F6720696E20616761696E2077697468696E20333020646179732E20446570656E64696E67206F6E207468652074696D696E67206F6620796F7572206C617374206C6F676F75742C20796F75206D61792062652072657475726E6564206166746572206D6F7265207468616E20333020646179732068617665207061737365642E0210010302100103FF0103>\u3000\u3000\u3000\u3000\u3000\u3000\u3000<hex:024804F2020203>Restrictions While Visiting <hex:020827E1E80201FF134F7468657220446174612043656E74657273FF0D4F7468657220576F726C647303><hex:0248020103><hex:02100103><hex:02083AE4E80202FF32596F75206172652063757272656E746C79206F75747369646520796F757220486F6D6520446174612043656E7465722E20FF0103>The following restrictions apply when playing <hex:020835E1E80201FF17696E20616E6F7468657220646174612063656E746572FF176F6E206F7468657220576F726C64207365727665727303>:<hex:02100103><hex:02100103><hex:0208F0FBE1E80201FFF0F2024804F2020203>Friend List<hex:0248020103><hex:02100103>\u3000\u30fbFriends in different data centers cannot communicate<hex:02100103>\u3000\u30fbParties cannot be formed with friends in different data centers<hex:02100103>\u3000\u30fbLogin details for friends in different regions cannot be displayed<hex:02100103><hex:02100103><hex:FF0103><hex:024804F2020203>Free Companies<hex:0248020103><hex:02100103>\u3000\u30fbFree companies cannot be formed or joined<hex:02100103>\u3000\u30fbFree company information cannot be viewed<hex:02100103>\u3000\u30fbCompany credits cannot be earned<hex:02100103>\u3000\u30fbShould the company master spend 35 consecutive days away from their Home World, their rank will be automatically transferred to another member<hex:02100103>\u3000\u30fbLogin details for members in different regions cannot be displayed<hex:02100103><hex:02100103><hex:0208A9E1E80201FFA1024804F202020343726F73732D776F726C64204C696E6B7368656C6C73024802010302100103E38080E383BB43726F73732D776F726C64206C696E6B7368656C6C732063616E6E6F74206265206372656174656402100103E38080E383BB43726F73732D776F726C64206C696E6B7368656C6C206D61737465722070726976696C656765732063616E6E6F742062652061747461696E65640210010302100103FF0103><hex:024804F2020203>Linkshells<hex:0248020103><hex:02100103>\u3000\u30fbLinkshells cannot be used<hex:02100103>\u3000\u30fbLinkshell information cannot be viewed<hex:02100103>\u3000\u30fbLinkshells cannot be created or joined<hex:02100103><hex:02100103><hex:0208F2011DE1E80201FFF20113024804F2020203507650205465616D73024802010302100103E38080E383BB507650207465616D732063616E6E6F74206265207573656402100103E38080E383BB507650207465616D20696E666F726D6174696F6E2063616E6E6F742062652076696577656402100103E38080E383BB507650207465616D732063616E6E6F742062652063726561746564206F72206A6F696E65640210010302100103024804F202020346656C6C6F777368697073024802010302100103E38080E383BB416C6C2066756E6374696F6E7320666F722066656C6C6F7773686970732C206578636C7564696E6720726563727569746D656E74207365617263682C2061726520696E61636365737369626C650210010302100103FF0103><hex:024804F2020203>Retainers<hex:0248020103><hex:02100103>\u3000\u30fbRetainers cannot be summoned, hired, or released from service<hex:02100103>\u3000\u30fbItems cannot be put up to market (but can be purchased)<hex:02100103><hex:02100103><hex:024804F2020203>Housing<hex:0248020103><hex:02100103>\u3000\u30fbLand and apartments cannot be purchased<hex:02100103>\u3000\u30fbResidence sharing is unavailable<hex:02100103><hex:02100103><hex:024804F2020203>Eternal Bonding<hex:0248020103><hex:02100103>\u3000\u30fbCeremonies of Eternal Bonding are unavailable<hex:02100103>\u3000\u30fbEternal Bonding quests are unavailable<hex:02100103>\u3000\u30fbOthers' ceremonies cannot be attended<hex:02100103><hex:02100103><hex:024804F2020203>Duties/Features<hex:0248020103><hex:02100103><hex:0208C1E4E80203FFB9E38080E383BB4372797374616C6C696E6520436F6E666C6963742072616E6B6564206D6174636865732063616E20626520656E74657265642069663A02100103E38080E38080E383BB596F757220486F6D6520576F726C6420697320696E207468652073616D6520706879736963616C20646174612063656E74657202100103E38080E38080E383BB596F75207061727469636970617465207669612074686520686F7374696E6720646174612063656E74657202100103FF0103>\u3000\u30fbLord of Verminion tournaments cannot be entered<hex:02100103>\u3000\u30fbTriple Triad tournaments cannot be entered<hex:02100103>\u3000\u30fbCactpot tickets cannot be purchased<hex:02100103>\u3000\u30fbThe Moogle Delivery Service is unavailable<hex:02100103>\u3000\u30fbDeep Dungeon results will not be saved to the leaderboards<hex:02100103>\u3000\u30fbFriendship circlet and eternal bonding teleportation is<hex:02100103>\u3000\u3000available only if both parties are on the same World<hex:02100103>\u3000\u30fbLegendary and unspoiled gathering nodes are inaccessible<hex:02100103>",
-    "translation": "<hex:0208F2041EE4E80203FFF20414E38080E38080E38080E38080E38080E38080E38080E38080E38080E38080024804F2020203446174612043656E7465722054726176656C2053797374656D02480201030210010354686520446174612043656E7465722054726176656C2073797374656D20697320616E20657874656E73696F6E206F662074686520576F726C642056697369742073797374656D2C20616E6420616C6C6F777320796F7520746F2074656D706F726172696C7920766973697420576F726C647320696E206F7468657220646174612063656E746572732E204365727461696E207265737472696374696F6E73206170706C7920746F20646174612063656E7465722074726176656C2C20696E636C7564696E672074686F73652064696374617465642062792074686520576F726C642056697369742073797374656D2E0210010302100103E38080E38080E38080E38080E38080E38080E38080E38080E38080E38080024804F20202035669736974696E67204F7468657220446174612043656E74657273024802010302100103E38080E383BB556E74696C20796F7520686176652072657475726E65642066726F6D207669736974696E6720616E6F7468657220646174612063656E7465722C20796F75206D6179206E6F74206C6F6720696E206F7220706572666F726D206F7468657220616374696F6E732077697468206368617261637465727320696E20796F757220486F6D6520576F726C642E02100103E38080E383BB596F75206D6179206F6E6C792074726176656C20746F206F7468657220646174612063656E746572732066726F6D20796F757220486F6D6520576F726C642E20496620796F75207769736820746F2074726176656C20746F206120646174612063656E74657220646966666572656E742066726F6D20746865206F6E6520796F75206172652063757272656E746C79207669736974696E672C20796F75206D7573742066697273742072657475726E20746F20796F757220486F6D6520576F726C6420616E64207375626D6974206120446174612043656E74657220566973697420726571756573742066726F6D2074686572652E02100103E38080E383BB5768656E206C6F6767696E67206F75742066726F6D20616E6F7468657220576F726C642C20796F752077696C6C206175746F6D61746963616C6C792062652072657475726E656420746F20796F757220486F6D6520576F726C6420696620796F7520646F206E6F74206C6F6720696E20616761696E2077697468696E20333020646179732E20446570656E64696E67206F6E207468652074696D696E67206F6620796F7572206C617374206C6F676F75742C20796F75206D61792062652072657475726E6564206166746572206D6F7265207468616E20333020646179732068617665207061737365642E0210010302100103FF0103><hex:0208F2036EE3E80203FFF20364E38080E38080E38080E38080E38080E38080E38080E38080E38080E38080024804F2020203576F726C642056697369742053797374656D02480201030210010354686520576F726C642056697369742053797374656D20616C6C6F777320796F7520746F2074726176656C2066726F6D2002083CE4E80201FF10796F757220486F6D6520576F726C64FF2574686520576F726C6420796F75206172652063757272656E746C79207669736974696E670320746F20646966666572656E7420576F726C6420736572766572732077697468696E207468652073616D6520646174612063656E7465722E205768696C65207669736974696E6720646966666572656E7420576F726C64732C20796F75206D6179207061727479207769746820667269656E64732C207075726368617365206974656D732C207461636B6C65206475746965732C20616E64206D6F72652E0210010302100103E38080E38080E38080E38080E38080E38080E38080E38080E38080E38080024804F20202035669736974696E67204F7468657220576F726C6473024802010302100103E38080E383BB446570656E64696E67206F6E2074686520636F6E67657374696F6E206F66207468652074617267657420576F726C642C2074726176656C206D61792074616B65207365766572616C206D696E757465732E02100103E38080E383BB4F6E6365207072657061726174696F6E732068617665206265656E20636F6D706C657465642C2074726176656C2077696C6C206F63637572206175746F6D61746963616C6C7920616E642063616E63656C20616C6C2063757272656E7420616374696F6E732F6475746965732E02100103E38080E383BB5768656E206C6F6767696E67206F75742066726F6D20616E6F7468657220576F726C642C20796F752077696C6C206175746F6D61746963616C6C792062652072657475726E656420746F20796F757220486F6D6520576F726C6420696620796F7520646F206E6F74206C6F6720696E20616761696E2077697468696E20333020646179732E20446570656E64696E67206F6E207468652074696D696E67206F6620796F7572206C617374206C6F676F75742C20796F75206D61792062652072657475726E6564206166746572206D6F7265207468616E20333020646179732068617665207061737365642E0210010302100103FF0103>　　　　　　　<hex:024804F2020203>Restrizioni durante la visita di <hex:020827E1E80201FF134F7468657220446174612043656E74657273FF0D4F7468657220576F726C647303><hex:0248020103><hex:02100103><hex:02083AE4E80202FF32596F75206172652063757272656E746C79206F75747369646520796F757220486F6D6520446174612043656E7465722E20FF0103>Si applicano le seguenti restrizioni quando si gioca <hex:020835E1E80201FF17696E20616E6F7468657220646174612063656E746572FF176F6E206F7468657220576F726C64207365727665727303>:<hex:02100103><hex:02100103><hex:0208F0FBE1E80201FFF0F2024804F2020203>Lista Amici<hex:0248020103><hex:02100103>　・Non è possibile comunicare con amici in data center diversi<hex:02100103>　・Non è possibile formare party con amici in data center diversi<hex:02100103>　・I dettagli di accesso degli amici in regioni diverse non possono essere visualizzati<hex:02100103><hex:02100103><hex:FF><hex:01><hex:03>  <hex:024804F2020203>Compagnia Libera<hex:0248020103><hex:02100103>　・Non è possibile creare o unirsi a una Compagnia Libera<hex:02100103>　・Non è possibile consultare le informazioni della Compagnia Libera<hex:02100103>　・Non è possibile guadagnare crediti di compagnia<hex:02100103>　・Se il master della compagnia trascorre 35 giorni consecutivi lontano dal proprio Mondo d'origine, il grado viene trasferito a un altro membro<hex:02100103>　・I dettagli di accesso dei membri in regioni diverse non possono essere visualizzati<hex:02100103><hex:02100103><hex:0208A9E1E80201FFA1024804F202020343726F73732D776F726C64204C696E6B7368656C6C73024802010302100103E38080E383BB43726F73732D776F726C64206C696E6B7368656C6C732063616E6E6F74206265206372656174656402100103E38080E383BB43726F73732D776F726C64206C696E6B7368656C6C206D61737465722070726976696C656765732063616E6E6F742062652061747461696E65640210010302100103FF0103><hex:024804F2020203>Fonoperle<hex:0248020103><hex:02100103>　・Le Fonoperle non possono essere usate<hex:02100103>　・Non è possibile visualizzare le informazioni delle Fonoperle<hex:02100103>　・Non è possibile creare Fonoperle o unirsi ad esse<hex:02100103><hex:02100103><hex:0208F2011DE1E80201FFF20113024804F2020203507650205465616D73024802010302100103E38080E383BB507650207465616D732063616E6E6F74206265207573656402100103E38080E383BB507650207465616D20696E666F726D6174696F6E2063616E6E6F742062652076696577656402100103E38080E383BB507650207465616D732063616E6E6F742062652063726561746564206F72206A6F696E65640210010302100103024804F202020346656C6C6F777368697073024802010302100103E38080E383BB416C6C2066756E6374696F6E7320666F722066656C6C6F7773686970732C206578636C7564696E6720726563727569746D656E74207365617263682C2061726520696E61636365737369626C650210010302100103FF0103><hex:024804F2020203>Retainer<hex:0248020103><hex:02100103>　・Non è possibile evocare, ingaggiare o congedare retainer<hex:02100103>　・Gli oggetti non possono essere messi in vendita (ma possono essere acquistati)<hex:02100103><hex:02100103><hex:024804F2020203>Alloggi<hex:0248020103><hex:02100103>　・Non è possibile acquistare terreni e appartamenti<hex:02100103>　・La condivisione dell'alloggio non è disponibile<hex:02100103><hex:02100103><hex:024804F2020203>Eternal Bonding<hex:0248020103><hex:02100103>　・Le Cerimonie dell'Eternal Bonding non sono disponibili<hex:02100103>　・Le quest dell'Eternal Bonding non sono disponibili<hex:02100103>　・Non è possibile partecipare alle cerimonie altrui<hex:02100103><hex:02100103><hex:024804F2020203>Incarico e funzioni<hex:0248020103><hex:02100103><hex:0208C1E4E80203FFB9E38080E383BB4372797374616C6C696E6520436F6E666C6963742072616E6B6564206D6174636865732063616E20626520656E74657265642069663A02100103E38080E38080E383BB596F757220486F6D6520576F726C6420697320696E207468652073616D6520706879736963616C20646174612063656E74657202100103E38080E38080E383BB596F75207061727469636970617465207669612074686520686F7374696E6720646174612063656E74657202100103FF0103>　・Non è possibile partecipare ai tornei di Lord of Verminion<hex:02100103>　・Non è possibile partecipare ai tornei di Triple Triad<hex:02100103>　・I biglietti del Cactpot non possono essere acquistati<hex:02100103>　・Il servizio di consegna dei moguri non è disponibile<hex:02100103>　・I risultati del Deep Dungeon non verranno registrati nelle classifiche<hex:02100103>　・Il teletrasporto con Friendship Circlet o Eternal Bonding<hex:02100103>　　è possibile solo se entrambi i giocatori si trovano nello stesso Mondo<hex:02100103>　・I nodi di raccolta incontaminati ed effimeri non sono accessibili<hex:02100103>"
+    "translation": "<hex:0208F2041EE4E80203FFF20414E38080E38080E38080E38080E38080E38080E38080E38080E38080E38080024804F2020203446174612043656E7465722054726176656C2053797374656D02480201030210010354686520446174612043656E7465722054726176656C2073797374656D20697320616E20657874656E73696F6E206F662074686520576F726C642056697369742073797374656D2C20616E6420616C6C6F777320796F7520746F2074656D706F726172696C7920766973697420576F726C647320696E206F7468657220646174612063656E746572732E204365727461696E207265737472696374696F6E73206170706C7920746F20646174612063656E7465722074726176656C2C20696E636C7564696E672074686F73652064696374617465642062792074686520576F726C642056697369742073797374656D2E0210010302100103E38080E38080E38080E38080E38080E38080E38080E38080E38080E38080024804F20202035669736974696E67204F7468657220446174612043656E74657273024802010302100103E38080E383BB556E74696C20796F7520686176652072657475726E65642066726F6D207669736974696E6720616E6F7468657220646174612063656E7465722C20796F75206D6179206E6F74206C6F6720696E206F7220706572666F726D206F7468657220616374696F6E732077697468206368617261637465727320696E20796F757220486F6D6520576F726C642E02100103E38080E383BB596F75206D6179206F6E6C792074726176656C20746F206F7468657220646174612063656E746572732066726F6D20796F757220486F6D6520576F726C642E20496620796F75207769736820746F2074726176656C20746F206120646174612063656E74657220646966666572656E742066726F6D20746865206F6E6520796F75206172652063757272656E746C79207669736974696E672C20796F75206D7573742066697273742072657475726E20746F20796F757220486F6D6520576F726C6420616E64207375626D6974206120446174612043656E74657220566973697420726571756573742066726F6D2074686572652E02100103E38080E383BB5768656E206C6F6767696E67206F75742066726F6D20616E6F7468657220576F726C642C20796F752077696C6C206175746F6D61746963616C6C792062652072657475726E656420746F20796F757220486F6D6520576F726C6420696620796F7520646F206E6F74206C6F6720696E20616761696E2077697468696E20333020646179732E20446570656E64696E67206F6E207468652074696D696E67206F6620796F7572206C617374206C6F676F75742C20796F75206D61792062652072657475726E6564206166746572206D6F7265207468616E20333020646179732068617665207061737365642E0210010302100103FF0103><hex:0208F2036EE3E80203FFF20364E38080E38080E38080E38080E38080E38080E38080E38080E38080E38080024804F2020203576F726C642056697369742053797374656D02480201030210010354686520576F726C642056697369742053797374656D20616C6C6F777320796F7520746F2074726176656C2066726F6D2002083CE4E80201FF10796F757220486F6D6520576F726C64FF2574686520576F726C6420796F75206172652063757272656E746C79207669736974696E670320746F20646966666572656E7420576F726C6420736572766572732077697468696E207468652073616D6520646174612063656E7465722E205768696C65207669736974696E6720646966666572656E7420576F726C64732C20796F75206D6179207061727479207769746820667269656E64732C207075726368617365206974656D732C207461636B6C65206475746965732C20616E64206D6F72652E0210010302100103E38080E38080E38080E38080E38080E38080E38080E38080E38080E38080024804F20202035669736974696E67204F7468657220576F726C6473024802010302100103E38080E383BB446570656E64696E67206F6E2074686520636F6E67657374696F6E206F66207468652074617267657420576F726C642C2074726176656C206D61792074616B65207365766572616C206D696E757465732E02100103E38080E383BB4F6E6365207072657061726174696F6E732068617665206265656E20636F6D706C657465642C2074726176656C2077696C6C206F63637572206175746F6D61746963616C6C7920616E642063616E63656C20616C6C2063757272656E7420616374696F6E732F6475746965732E02100103E38080E383BB5768656E206C6F6767696E67206F75742066726F6D20616E6F7468657220576F726C642C20796F752077696C6C206175746F6D61746963616C6C792062652072657475726E656420746F20796F757220486F6D6520576F726C6420696620796F7520646F206E6F74206C6F6720696E20616761696E2077697468696E20333020646179732E20446570656E64696E67206F6E207468652074696D696E67206F6620796F7572206C617374206C6F676F75742C20796F75206D61792062652072657475726E6564206166746572206D6F7265207468616E20333020646179732068617665207061737365642E0210010302100103FF0103>　　　　　　　<hex:024804F2020203>Restrizioni durante la visita di <hex:020827E1E80201FF134F7468657220446174612043656E74657273FF0D4F7468657220576F726C647303><hex:0248020103><hex:02100103><hex:02083AE4E80202FF32596F75206172652063757272656E746C79206F75747369646520796F757220486F6D6520446174612043656E7465722E20FF0103>Si applicano le seguenti restrizioni quando si gioca <hex:020835E1E80201FF17696E20616E6F7468657220646174612063656E746572FF176F6E206F7468657220576F726C64207365727665727303>:<hex:02100103><hex:02100103><hex:0208F0FBE1E80201FFF0F2024804F2020203>Lista Amici<hex:0248020103><hex:02100103>　・Non è possibile comunicare con amici in data center diversi<hex:02100103>　・Non è possibile formare party con amici in data center diversi<hex:02100103>　・I dettagli di accesso degli amici in regioni diverse non possono essere visualizzati<hex:02100103><hex:02100103><hex:FF><hex:01><hex:03>  <hex:024804F2020203>Compagnia Libera<hex:0248020103><hex:02100103>　・Non è possibile creare o unirsi a una Compagnia Libera<hex:02100103>　・Non è possibile consultare le informazioni della Compagnia Libera<hex:02100103>　・Non è possibile guadagnare crediti di compagnia<hex:02100103>　・Se il master della compagnia trascorre 35 giorni consecutivi lontano dal proprio Mondo d'origine, il grado viene trasferito a un altro membro<hex:02100103>　・I dettagli di accesso dei membri in regioni diverse non possono essere visualizzati<hex:02100103><hex:02100103><hex:0208A9E1E80201FFA1024804F202020343726F73732D776F726C64204C696E6B7368656C6C73024802010302100103E38080E383BB43726F73732D776F726C64206C696E6B7368656C6C732063616E6E6F74206265206372656174656402100103E38080E383BB43726F73732D776F726C64206C696E6B7368656C6C206D61737465722070726976696C656765732063616E6E6F742062652061747461696E65640210010302100103FF0103><hex:024804F2020203>Fonoperle<hex:0248020103><hex:02100103>　・Le Fonoperle non possono essere usate<hex:02100103>　・Non è possibile visualizzare le informazioni delle Fonoperle<hex:02100103>　・Non è possibile creare Fonoperle o unirsi ad esse<hex:02100103><hex:02100103><hex:0208F2011DE1E80201FFF20113024804F2020203507650205465616D73024802010302100103E38080E383BB507650207465616D732063616E6E6F74206265207573656402100103E38080E383BB507650207465616D20696E666F726D6174696F6E2063616E6E6F742062652076696577656402100103E38080E383BB507650207465616D732063616E6E6F742062652063726561746564206F72206A6F696E65640210010302100103024804F202020346656C6C6F777368697073024802010302100103E38080E383BB416C6C2066756E6374696F6E7320666F722066656C6C6F7773686970732C206578636C7564696E6720726563727569746D656E74207365617263682C2061726520696E61636365737369626C650210010302100103FF0103><hex:024804F2020203>Retainer<hex:0248020103><hex:02100103>　・Non è possibile evocare, ingaggiare o congedare retainer<hex:02100103>　・Gli oggetti non possono essere messi in vendita (ma possono essere acquistati)<hex:02100103><hex:02100103><hex:024804F2020203>Alloggi<hex:0248020103><hex:02100103>　・Non è possibile acquistare terreni e appartamenti<hex:02100103>　・La condivisione dell'alloggio non è disponibile<hex:02100103><hex:02100103><hex:024804F2020203>Eternal Bonding<hex:0248020103><hex:02100103>　・Le Cerimonie dell'Eternal Bonding non sono disponibili<hex:02100103>　・Le missione dell'Eternal Bonding non sono disponibili<hex:02100103>　・Non è possibile partecipare alle cerimonie altrui<hex:02100103><hex:02100103><hex:024804F2020203>Incarico e funzioni<hex:0248020103><hex:02100103><hex:0208C1E4E80203FFB9E38080E383BB4372797374616C6C696E6520436F6E666C6963742072616E6B6564206D6174636865732063616E20626520656E74657265642069663A02100103E38080E38080E383BB596F757220486F6D6520576F726C6420697320696E207468652073616D6520706879736963616C20646174612063656E74657202100103E38080E38080E383BB596F75207061727469636970617465207669612074686520686F7374696E6720646174612063656E74657202100103FF0103>　・Non è possibile partecipare ai tornei di Lord of Verminion<hex:02100103>　・Non è possibile partecipare ai tornei di Triple Triad<hex:02100103>　・I biglietti del Cactpot non possono essere acquistati<hex:02100103>　・Il servizio di consegna dei moguri non è disponibile<hex:02100103>　・I risultati della Cripta Profonda non verranno registrati nelle classifiche<hex:02100103>　・Il teletrasporto con Friendship Circlet o Eternal Bonding<hex:02100103>　　è possibile solo se entrambi i giocatori si trovano nello stesso Mondo<hex:02100103>　・I nodi di raccolta incontaminati ed effimeri non sono accessibili<hex:02100103>"
   },
   "12515": {
     "original": "Home World",
@@ -41501,7 +41501,7 @@
   },
   "12723": {
     "original": "Quest",
-    "translation": "Quest"
+    "translation": "Missione"
   },
   "12725": {
     "original": "Avatars",
@@ -42513,7 +42513,7 @@
   },
   "13018": {
     "original": "5: Complete any level <hex:022003E80203> melee DPS or ranged DPS role quest.",
-    "translation": "5: Completa una qualsiasi quest di ruolo di livello <hex:022003E80203> per DPS corpo a corpo o DPS a distanza."
+    "translation": "5: Completa una qualsiasi missione di ruolo di livello <hex:022003E80203> per DPS corpo a corpo o DPS a distanza."
   },
   "13019": {
     "original": "2: Synthesize 100 collectables.",
@@ -42577,7 +42577,7 @@
   },
   "13039": {
     "original": "Revisit a dungeon in its completed state.<hex:02100103><hex:02100103>Explorer Mode allows access to the following:<hex:02100103>・Explorer Mode-exclusive actions<hex:02100103>・Minions, mounts, and fashion accessories<hex:02100103>・Changing jobs (excluding DoL/DoH classes)<hex:02100103>・Performance actions<hex:02100103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Available only for selected duties completed by the player.<hex:02100103>※Only the party leader's settings are applicable.<hex:02100103>※Enabling Explorer Mode will disable all other Duty Finder participation requirement settings.<hex:0249020103><hex:0248020103>",
-    "translation": "Visita nuovamente un dungeon già completato.<hex:02100103><hex:02100103>La Modalità esplorazione consente di accedere a quanto segue:<hex:02100103>・Azioni esclusive della Modalità esplorazione<hex:02100103>・Minion, cavalcature e accessori di moda<hex:02100103>・Cambio di job (escluse classi DoL/DoH)<hex:02100103>・Azioni di esibizione<hex:02100103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Disponibile solo per incarichi selezionati già completate dal giocatore.<hex:02100103>※Si applicano solo le impostazioni del capogruppo.<hex:02100103>※Attivando la Modalità esplorazione verranno disattivate tutte le altre impostazioni di partecipazione della Ricerca Incarichi.<hex:0249020103><hex:0248020103>"
+    "translation": "Visita nuovamente una spedizione già completata.<hex:02100103><hex:02100103>La Modalità esplorazione consente di accedere a quanto segue:<hex:02100103>・Azioni esclusive della Modalità esplorazione<hex:02100103>・Minion, cavalcature e accessori di moda<hex:02100103>・Cambio di job (escluse classi DoL/DoH)<hex:02100103>・Azioni di esibizione<hex:02100103><hex:02100103><hex:024804F201FC03><hex:024904F201FD03>※Disponibile solo per incarichi selezionati già completate dal giocatore.<hex:02100103>※Si applicano solo le impostazioni del capogruppo.<hex:02100103>※Attivando la Modalità esplorazione verranno disattivate tutte le altre impostazioni di partecipazione della Ricerca Incarichi.<hex:0249020103><hex:0248020103>"
   },
   "13040": {
     "original": "Explorer Mode Unavailable",
@@ -44397,11 +44397,11 @@
   },
   "13648": {
     "original": "You must complete the quest “<hex:02280BFF065175657374E8020103>” to gain access to the Ruby route.",
-    "translation": "Devi completare la quest “<hex:02280BFF065175657374E8020103>” per sbloccare la rotta di Ruby."
+    "translation": "Devi completare la missione “<hex:02280BFF065175657374E8020103>” per sbloccare la rotta di Ruby."
   },
   "13649": {
     "original": "You must complete the quest “<hex:02280BFF065175657374E8020103>” to board the ship.",
-    "translation": "Devi completare la quest “<hex:02280BFF065175657374E8020103>” per salire a bordo della nave."
+    "translation": "Devi completare la missione “<hex:02280BFF065175657374E8020103>” per salire a bordo della nave."
   },
   "13650": {
     "original": "Current selection of active actions and <hex:024804F201FC03><hex:024904F201FD03>hotbar slots containing blue magic spells<hex:0249020103><hex:0248020103> will be saved to an active set.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Excludes blue magic spells set to shared hotbars.<hex:0249020103><hex:0248020103>",
@@ -44657,7 +44657,7 @@
   },
   "13761": {
     "original": "Obtained by completing the quest “<hex:02280BFF065175657374E8020103>.”",
-    "translation": "Ottenuto completando la quest “<hex:02280BFF065175657374E8020103>”."
+    "translation": "Ottenuto completando la missione “<hex:02280BFF065175657374E8020103>”."
   },
   "13762": {
     "original": "Obtained from <hex:02281CFF17436F6E74656E7446696E646572436F6E646974696F6EE8022C03>.",
@@ -50029,7 +50029,7 @@
   },
   "15400": {
     "original": "V&C Dungeon Finder",
-    "translation": "Ricerca Dungeon V&C"
+    "translation": "Ricerca Spedizioni V&C"
   },
   "15402": {
     "original": "Variant",
@@ -50129,15 +50129,15 @@
   },
   "15427": {
     "original": "Display V&C Dungeon Finder help.",
-    "translation": "Mostra la guida della Ricerca Dungeon V&C."
+    "translation": "Mostra la guida della Ricerca Spedizioni V&C."
   },
   "15428": {
     "original": "V&C Dungeon Finder Help",
-    "translation": "Guida Ricerca Dungeon V&C"
+    "translation": "Guida alla Ricerca Spedizioni V&C"
   },
   "15430": {
     "original": "Enter dungeon as a solo player?",
-    "translation": "Entrare nel dungeon in solitaria?"
+    "translation": "Entrare nella spedizione in solitaria?"
   },
   "15431": {
     "original": "Variant actions cannot be changed during battle or while the recast timer is on cooldown.",
@@ -51545,15 +51545,15 @@
   },
   "15943": {
     "original": "Enter a treasure dungeon via a teleportation portal <hex:022003E80903> times.<hex:02100103>※Treasure hunts abandoned midway through will not count toward the total.",
-    "translation": "Entra in un dungeon del tesoro tramite un portale di teletrasporto per <hex:022003E80903> volte.<hex:02100103>※Le cacce al tesoro abbandonate a metà non verranno conteggiate nel totale."
+    "translation": "Entra in una spedizione del tesoro tramite un portale di teletrasporto per <hex:022003E80903> volte.<hex:02100103>※Le cacce al tesoro abbandonate a metà non verranno conteggiate nel totale."
   },
   "15944": {
     "original": "Treasure Dungeons",
-    "translation": "Dungeon del Tesoro"
+    "translation": "Spedizione del Tesoro"
   },
   "15945": {
     "original": "Treasure Dungeon<hex:02100103>Lv. <hex:022003E80803>",
-    "translation": "Dungeon del tesoro<hex:02100103>Liv. <hex:022003E80803>"
+    "translation": "Spedizione del tesoro<hex:02100103>Liv. <hex:022003E80803>"
   },
   "15946": {
     "original": "Decipher a timeworn map and collect the treasure.",
@@ -51621,7 +51621,7 @@
   },
   "15964": {
     "original": "Open V&C Dungeon Finder",
-    "translation": "Apri Ricerca Dungeon V&C"
+    "translation": "Apri Ricerca Spedizioni V&C"
   },
   "15965": {
     "original": "Complete the sidequest after “<hex:02280BFF065175657374E8020103>” to unlock.",
@@ -58681,7 +58681,7 @@
   },
   "102261": {
     "original": "Dungeon Requirement: <hex:022B1BFF19022815FF10496E7374616E6365436F6E74656E74E802040303>",
-    "translation": "Dungeon Richiesto: <hex:022B1BFF19022815FF10496E7374616E6365436F6E74656E74E802040303>"
+    "translation": "Spedizione Richiesta: <hex:022B1BFF19022815FF10496E7374616E6365436F6E74656E74E802040303>"
   },
   "102262": {
     "original": "No allied society daily quests accepted prior to today may be active.",

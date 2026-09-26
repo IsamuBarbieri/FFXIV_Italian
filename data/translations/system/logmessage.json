@@ -2709,7 +2709,7 @@
   },
   "695": {
     "original": "Unable to connect to Duty Finder server. Please try again later.",
-    "translation": "Impossibile connettersi al server del Duty Finder. Riprova più tardi."
+    "translation": "Impossibile connettersi al server della Ricerca Incarichi. Riprova più tardi."
   },
   "696": {
     "original": "Unable to proceed to duty. Returning to title screen. （<hex:022003E80203>）",
@@ -3525,7 +3525,7 @@
   },
   "901": {
     "original": "A problem has occurred with the Duty Finder server.<hex:02100103>Please try again in a few moments.",
-    "translation": "Si è verificato un problema con il server del Duty Finder.<hex:02100103>Riprova tra qualche istante."
+    "translation": "Si è verificato un problema con il server della Ricerca Incarichi.<hex:02100103>Riprova tra qualche istante."
   },
   "902": {
     "original": "A party member has withdrawn from the duty.<hex:02100103>Finding new member.",
@@ -3585,7 +3585,7 @@
   },
   "916": {
     "original": "<hex:022003E80203> minute<hex:020813E4E80202FF0520686173FF0773206861766503> elapsed since your last activity. If you are inactive for <hex:022003E80303> minute<hex:02080AE4E80302FF01FF027303>, you will be expelled from the duty.",
-    "translation": "<hex:020823E4E80202FF0DC3882074726173636F72736FFF0F536F6E6F2074726173636F72736903> <hex:022003E80203> minut<hex:02080BE4E80202FF026FFF026903> dalla tua ultima attività. Se rimani inattivo per <hex:022003E80303> minut<hex:02080BE4E80302FF026FFF026903>, verrai espulso dalla missione."
+    "translation": "<hex:020823E4E80202FF0DC3882074726173636F72736FFF0F536F6E6F2074726173636F72736903> <hex:022003E80203> minut<hex:02080BE4E80202FF026FFF026903> dalla tua ultima attività. Se rimani inattivo per <hex:022003E80303> minut<hex:02080BE4E80302FF026FFF026903>, verrai espulso dall'incarico."
   },
   "917": {
     "original": "Unable to initiate vote dismiss. 5 minutes must elapse since the commencement of duty.",
@@ -3597,7 +3597,7 @@
   },
   "919": {
     "original": "You have been dismissed from both the party and the duty. ",
-    "translation": "Sei stato espulso sia dal gruppo che dalla missione."
+    "translation": "Sei stato espulso sia dal gruppo che dall'incarico."
   },
   "920": {
     "original": "A party member has been dismissed.",
@@ -3733,7 +3733,7 @@
   },
   "954": {
     "original": "The Duty Finder and the Party Finder cannot be used simultaneously.",
-    "translation": "Non è possibile usare contemporaneamente il Duty Finder e il Party Finder."
+    "translation": "Non è possibile usare contemporaneamente la Ricerca Incarichi e il Party Finder."
   },
   "955": {
     "original": "Unable to commence quest battle while using the Party Finder.",
@@ -3745,7 +3745,7 @@
   },
   "957": {
     "original": "The Duty Finder and the Party Finder cannot be used simultaneously.",
-    "translation": "Non è possibile usare contemporaneamente il Duty Finder e il Party Finder."
+    "translation": "Non è possibile usare contemporaneamente la Ricerca Incarichi e il Party Finder."
   },
   "958": {
     "original": "Unable to retrieve party member information.",
@@ -6313,7 +6313,7 @@
   },
   "1620": {
     "original": "Unable to join quest battles while using the Duty Finder.",
-    "translation": "Impossibile partecipare alle battaglie di missione mentre si usa il Duty Finder."
+    "translation": "Impossibile partecipare alle battaglie di missione mentre si usa la Ricerca Incarichi."
   },
   "1621": {
     "original": "Now readying the Pit!",
@@ -11873,7 +11873,7 @@
   },
   "3151": {
     "original": "Unable to change allegiances while using the Duty Finder.",
-    "translation": "Impossibile cambiare affiliazione durante l'utilizzo del Duty Finder."
+    "translation": "Impossibile cambiare affiliazione durante l'utilizzo della Ricerca Incarichi."
   },
   "3153": {
     "original": "Application submitted to “<hex:020816E909FF1002280CFF074F626A537472E9090103EB0403>.”",
@@ -13801,7 +13801,7 @@
   },
   "3647": {
     "original": "The blood rite yields an article of black mage's garb.",
-    "translation": "Il rito di sangue genera un capo d'abbigliamento da black mage."
+    "translation": "Il rito di sangue genera un capo d'abbigliamento da mago nero."
   },
   "3648": {
     "original": "You have gained ancient knowledge from the Book of Nald!",
@@ -13821,15 +13821,15 @@
   },
   "3653": {
     "original": "Your communion has furthered your potential as a white mage.",
-    "translation": "La tua comunione ha accresciuto il tuo potenziale come white mage."
+    "translation": "La tua comunione ha accresciuto il tuo potenziale come mago bianco."
   },
   "3654": {
     "original": "Rescuing the Padjal has furthered your potential as a white mage.",
-    "translation": "Salvare il Padjal ha accresciuto il tuo potenziale come white mage."
+    "translation": "Salvare il Padjal ha accresciuto il tuo potenziale come mago bianco."
   },
   "3655": {
     "original": "Following in the footsteps of A<hex:021F0103>Towa<hex:021F0103>Cant, you have further realized your potential as a white mage.",
-    "translation": "Seguendo le orme di A<hex:021F0103>Towa<hex:021F0103>Cant, hai sviluppato ulteriormente il tuo potenziale come white mage."
+    "translation": "Seguendo le orme di A<hex:021F0103>Towa<hex:021F0103>Cant, hai sviluppato ulteriormente il tuo potenziale come mago bianco."
   },
   "3656": {
     "original": "You have restored harmony to the forest.",
@@ -13841,11 +13841,11 @@
   },
   "3658": {
     "original": "By purifying the taint, you have honed your powers as a white mage.",
-    "translation": "Purificando la corruzione, hai affinato i tuoi poteri di white mage."
+    "translation": "Purificando la corruzione, hai affinato i tuoi poteri di mago bianco."
   },
   "3659": {
     "original": "By purifying the taint at the source, you have honed your powers as a white mage.",
-    "translation": "Purificando la corruzione alla fonte, hai affinato i tuoi poteri di white mage."
+    "translation": "Purificando la corruzione alla fonte, hai affinato i tuoi poteri di mago bianco."
   },
   "3661": {
     "original": "A melody sung by the bards of old resounds within you!",
@@ -13985,7 +13985,7 @@
   },
   "3702": {
     "original": "The Duty Finder has been updated with a new regular duty.",
-    "translation": "Il Duty Finder e stato aggiornato con un nuovo dovere regolare."
+    "translation": "Il Ricerca Incarichi e stato aggiornato con un nuovo incarico regolare."
   },
   "3703": {
     "original": "You have lost your charge. Duty failed.",
@@ -14017,7 +14017,7 @@
   },
   "3710": {
     "original": "A new regular duty has been added to the Duty Finder.<hex:02100103>Stone, Sky, Sea options have also been updated.",
-    "translation": "Un nuovo dovere regolare e stato aggiunto al Duty Finder.<hex:02100103>Anche le opzioni di Stone, Sky, Sea sono state aggiornate."
+    "translation": "Un nuovo incarico regolare e stato aggiunto alla Ricerca Incarichi.<hex:02100103>Anche le opzioni di Stone, Sky, Sea sono state aggiornate."
   },
   "3711": {
     "original": "You attune with the aether current.<hex:02100103>In addition to currents found in the field, there are others which can only be accessed through main and side quests.<hex:02100103>Information on current attunement can be viewed under Aether Currents in the main menu.",
@@ -14053,7 +14053,7 @@
   },
   "3719": {
     "original": "Unable to commence duty while using the Duty Finder.",
-    "translation": "Impossibile iniziare il dovere durante l'uso del Duty Finder."
+    "translation": "Impossibile iniziare l'incarico durante l'uso della Ricerca Incarichi."
   },
   "3720": {
     "original": "Unable to commence duty while unconscious.",
@@ -14081,11 +14081,11 @@
   },
   "3726": {
     "original": "A new high-end duty has been added to the Raid Finder.",
-    "translation": "Un nuovo dovere di alto livello e stato aggiunto al Raid Finder."
+    "translation": "Un nuovo incarico di alto livello è stato aggiunto alla Ricerca Incursioni."
   },
   "3727": {
     "original": "A new high-end duty has been added to the Raid Finder.<hex:02100103>Stone, Sky, Sea options have also been updated.",
-    "translation": "Un nuovo dovere di alto livello e stato aggiunto al Raid Finder.<hex:02100103>Anche le opzioni di Stone, Sky, Sea sono state aggiornate."
+    "translation": "Un nuovo incarico di alto livello è stato aggiunto alla Ricerca Incursioni.<hex:02100103>Anche le opzioni di Stone, Sky, Sea sono state aggiornate."
   },
   "3728": {
     "original": "The anima housed in <hex:02310CFF054974656D03E802020203> shows vague signs of aetheric condensation.",
@@ -15001,7 +15001,7 @@
   },
   "3958": {
     "original": "Unable to commence mission. Insufficient item level.",
-    "translation": "Impossibile iniziare la missione. Livello oggetto insufficiente."
+    "translation": "Impossibile iniziare l'incarico. Livello oggetto insufficiente."
   },
   "3959": {
     "original": "Unable to commence mission. Not all unit members meet level requirements.",
@@ -15145,7 +15145,7 @@
   },
   "3995": {
     "original": "Unable to commence mission while using the Duty Finder. Your fee has been refunded.",
-    "translation": "Impossibile iniziare la missione durante l'uso del Duty Finder. La tua commissione e stata rimborsata."
+    "translation": "Impossibile iniziare l'incarico durante l'uso della Ricerca Incarichi. La tua commissione e stata rimborsata."
   },
   "3996": {
     "original": "Unable to claim reward while bound by duty.",
@@ -16965,7 +16965,7 @@
   },
   "4457": {
     "original": "Registration canceled. Roulette leveling unavailable when less than two duties qualify for your selected requirements.<hex:02100103>Adjust your Duty Finder settings and try again.",
-    "translation": "Registrazione annullata. La Roulette di aumento livello non e disponibile quando meno di due doveri soddisfano i requisiti selezionati.<hex:02100103>Modifica le impostazioni del Duty Finder e riprova."
+    "translation": "Registrazione annullata. La Roulette di aumento livello non e disponibile quando meno di due incarichi soddisfano i requisiti selezionati.<hex:02100103>Modifica le impostazioni della Ricerca Incarichi e riprova."
   },
   "4458": {
     "original": "Venture assignment has been canceled due to a procedural problem.",
@@ -17325,19 +17325,19 @@
   },
   "4550": {
     "original": "A new regular duty has been added to the Duty Finder and Duty Support.",
-    "translation": "Un nuovo dovere regolare e stato aggiunto al Duty Finder e al Duty Support."
+    "translation": "Un nuovo incarico regolare e stato aggiunto alla Ricerca Incarichi e al Supporto Incarichi."
   },
   "4551": {
     "original": "A new regular duty has been added to the Duty Finder and Duty Support.<hex:02100103>Stone, Sky, Sea options have also been updated.",
-    "translation": "Un nuovo dovere regolare e stato aggiunto al Duty Finder e al Duty Support.<hex:02100103>Anche le opzioni di Stone, Sky, Sea sono state aggiornate."
+    "translation": "Un nuovo incarico regolare e stato aggiunto alla Ricerca Incarichi e al Supporto Incarichi.<hex:02100103>Anche le opzioni di Stone, Sky, Sea sono state aggiornate."
   },
   "4552": {
     "original": "The V&C Dungeon Finder has been updated with a new variant dungeon.",
-    "translation": "Il V&C Dungeon Finder e stato aggiornato con un nuovo variant dungeon."
+    "translation": "La Ricerca Spedizioni V&C è stata aggiornata con una nuova spedizione variante."
   },
   "4553": {
     "original": "The V&C Dungeon Finder has been updated with a new criterion dungeon.",
-    "translation": "Il V&C Dungeon Finder e stato aggiornato con un nuovo criterion dungeon."
+    "translation": "La Ricerca Spedizioni V&C è stata aggiornata con una nuova spedizione criterio."
   },
   "4558": {
     "original": "Your efforts have restored some small measure of stability to Lakeland.",
@@ -17509,7 +17509,7 @@
   },
   "4608": {
     "original": "Unable to invite. That player is currently using the Duty Finder.",
-    "translation": "Impossibile invitare. Quel giocatore sta attualmente usando il Duty Finder."
+    "translation": "Impossibile invitare. Quel giocatore sta attualmente usando la Ricerca Incarichi."
   },
   "4609": {
     "original": "Unable to invite. That player is currently in another area.",
@@ -17569,7 +17569,7 @@
   },
   "4623": {
     "original": "Alliance formed. Duty Finder ready.",
-    "translation": "Alleanza formata. Duty Finder pronto."
+    "translation": "Alleanza formata. Ricerca Incarichi pronta."
   },
   "4624": {
     "original": "Unable to invite party to alliance. One or more members have gone offline.",
@@ -17777,7 +17777,7 @@
   },
   "4692": {
     "original": "A Game Master has restricted your use of the Duty Finder. Please wait for details.",
-    "translation": "Un Game Master ha limitato l'uso del Duty Finder. Attendi dettagli."
+    "translation": "Un Game Master ha limitato l'uso della Ricerca Incarichi. Attendi dettagli."
   },
   "4693": {
     "original": "To cancel a match after matching is complete, select Withdraw from the match confirmation screen.",
@@ -17801,7 +17801,7 @@
   },
   "4698": {
     "original": "You cannot use the Duty Finder, as you have incurred a penalty for abandoning duties.",
-    "translation": "Non puoi usare il Duty Finder poiche hai subito una penalita per aver abbandonato dei doveri."
+    "translation": "Non puoi usare la Ricerca Incarichi poiche hai subito una penalita per aver abbandonato degli incarichi."
   },
   "4699": {
     "original": "Your penalty count has increased due to one or more party members abandoning a duty by canceling matching.",
@@ -17809,7 +17809,7 @@
   },
   "4700": {
     "original": "You cannot use the Duty Finder, as one or more party members has incurred a penalty for abandoning duties.",
-    "translation": "Non puoi usare il Duty Finder poiche uno o piu membri del gruppo hanno subito una penalita per aver abbandonato dei doveri."
+    "translation": "Non puoi usare la Ricerca Incarichi poiche uno o piu membri del gruppo hanno subito una penalita per aver abbandonato degli incarichi."
   },
   "4705": {
     "original": "Party makeup has changed. Race entry denied.",
@@ -18153,7 +18153,7 @@
   },
   "4828": {
     "original": "Battles and tournaments are now available via the Duty Finder under the Gold Saucer!",
-    "translation": "Battaglie e tornei sono ora disponibili tramite il Duty Finder sotto il Gold Saucer!"
+    "translation": "Battaglie e tornei sono ora disponibili tramite la Ricerca Incarichi sotto il Gold Saucer!"
   },
   "4829": {
     "original": "<hex:026003014103>Select your starting minions!",
@@ -19433,7 +19433,7 @@
   },
   "5436": {
     "original": "Alisaie sets off at a brisk walk! Learn more about this quest objective via the <hex:021202B703> icon in the <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>.",
-    "translation": "Alisaie parte a passo spedito! Scopri di piu su questo obiettivo di missione tramite l'icona <hex:021202B703> nel <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>."
+    "translation": "Alisaie parte a passo spedito! Scopri di piu su questo obiettivo di missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Lista Incarichi<hex:0249020103><hex:0248020103>."
   },
   "5437": {
     "original": "<hex:0212024003>You have lost sight of the Saint of Nymeia. Speak with him again to reform your party.",
@@ -19441,11 +19441,11 @@
   },
   "5438": {
     "original": "The ailouros leads the way! Learn more about this quest objective via the <hex:021202B703> icon in the <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>.",
-    "translation": "L'ailouros fa strada! Scopri di piu su questo obiettivo di missione tramite l'icona <hex:021202B703> nel <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>."
+    "translation": "L'ailouros fa strada! Scopri di piu su questo obiettivo di missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Lista Incarichi<hex:0249020103><hex:0248020103>."
   },
   "5439": {
     "original": "The drunken deepa leads the way! Learn more about this quest objective via the <hex:021202B703> icon in the <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>.",
-    "translation": "Il deepa ubriaco fa strada! Scopri di piu su questo obiettivo di missione tramite l'icona <hex:021202B703> nel <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>."
+    "translation": "Il deepa ubriaco fa strada! Scopri di piu su questo obiettivo di missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Lista Incarichi<hex:0249020103><hex:0248020103>."
   },
   "5440": {
     "original": "<hex:0212024003>You have lost sight of Raubahn. Speak with him again to reform your party.",
@@ -19453,11 +19453,11 @@
   },
   "5441": {
     "original": "The lustrous dog leads the way! Learn more about this quest objective via the <hex:021202B703> icon in the <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>.",
-    "translation": "Il cane splendente fa strada! Scopri di piu su questo obiettivo di missione tramite l'icona <hex:021202B703> nel <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>."
+    "translation": "Il cane splendente fa strada! Scopri di piu su questo obiettivo di missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Lista Incarichi<hex:0249020103><hex:0248020103>."
   },
   "5442": {
     "original": "The lightly built lab assistant leads the way! Learn more about this quest objective via the <hex:021202B703> icon in the <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>.",
-    "translation": "L'assistente di laboratorio minuta fa strada! Scopri di piu su questo obiettivo di missione tramite l'icona <hex:021202B703> nel <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>."
+    "translation": "L'assistente di laboratorio minuta fa strada! Scopri di piu su questo obiettivo di missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Lista Incarichi<hex:0249020103><hex:0248020103>."
   },
   "5443": {
     "original": "<hex:0212024003>You have lost sight of Merlwyb. Speak with her again to reform your party.",
@@ -19545,11 +19545,11 @@
   },
   "5464": {
     "original": "Your next quest objective requires <hex:022812FF0E4576656E745475746F7269616C080203>. Your destination will not appear on the map while following. Learn more about this quest objective via the <hex:021202B703> icon in the <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>.",
-    "translation": "Il tuo prossimo obiettivo di missione richiede <hex:022812FF0E4576656E745475746F7269616C080203>. La tua destinazione non apparira sulla mappa durante l'inseguimento. Scopri di piu su questo obiettivo di missione tramite l'icona <hex:021202B703> nel <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>."
+    "translation": "Il tuo prossimo obiettivo di missione richiede <hex:022812FF0E4576656E745475746F7269616C080203>. La tua destinazione non apparira sulla mappa durante l'inseguimento. Scopri di piu su questo obiettivo di missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Lista Incarichi<hex:0249020103><hex:0248020103>."
   },
   "5465": {
     "original": "Alphinaud and Alisaie set off at a brisk walk! Learn more about this quest objective via the <hex:021202B703> icon in the <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>.",
-    "translation": "Alphinaud e Alisaie partono a passo svelto! Scopri di piu su questo obiettivo di missione tramite l'icona <hex:021202B703> nel <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>."
+    "translation": "Alphinaud e Alisaie partono a passo svelto! Scopri di piu su questo obiettivo di missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Lista Incarichi<hex:0249020103><hex:0248020103>."
   },
   "5466": {
     "original": "<hex:0212024003>You have lost sight of Appius. Speak with him again to reform your party.",
@@ -19573,11 +19573,11 @@
   },
   "5471": {
     "original": "The strange hanuman langur leads the way! Learn more about this quest objective via the <hex:021202B703> icon in the <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>.",
-    "translation": "Lo strano hanuman langur fa strada! Scopri di piu su questo obiettivo di missione tramite l'icona <hex:021202B703> nel <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>."
+    "translation": "Lo strano hanuman langur fa strada! Scopri di piu su questo obiettivo di missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Lista Incarichi<hex:0249020103><hex:0248020103>."
   },
   "5472": {
     "original": "The little girl leads the way! Learn more about this quest objective via the <hex:021202B703> icon in the <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>.",
-    "translation": "La bambina fa strada! Scopri di piu su questo obiettivo di missione tramite l'icona <hex:021202B703> nel <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>."
+    "translation": "La bambina fa strada! Scopri di piu su questo obiettivo di missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Lista Incarichi<hex:0249020103><hex:0248020103>."
   },
   "5473": {
     "original": "<hex:0212024003>You have lost sight of Y'shtola. Speak with her again to reform your party.",
@@ -21381,7 +21381,7 @@
   },
   "6977": {
     "original": "Unable to execute command while using the Duty Finder.",
-    "translation": "Impossibile eseguire il comando durante l'uso del Duty Finder."
+    "translation": "Impossibile eseguire il comando durante l'uso della Ricerca Incarichi."
   },
   "6978": {
     "original": "The gate is locked.",
@@ -21633,7 +21633,7 @@
   },
   "7042": {
     "original": "Unable to apply for mentor certification while using the Duty Finder.",
-    "translation": "Impossibile richiedere la certificazione da mentor durante l'uso del Duty Finder."
+    "translation": "Impossibile richiedere la certificazione da mentor durante l'uso della Ricerca Incarichi."
   },
   "7043": {
     "original": "You will be granted another opportunity to accept the Returner's Bounty upon your next login.",
@@ -21665,7 +21665,7 @@
   },
   "7106": {
     "original": "Unable to visit the Hall of the Novice while using the Duty Finder.",
-    "translation": "Impossibile visitare la Sala dei Novizi durante l'uso del Duty Finder."
+    "translation": "Impossibile visitare la Sala dei Novizi durante l'uso della Ricerca Incarichi."
   },
   "7107": {
     "original": "Unable to visit the Hall of the Novice while in a party.",
@@ -21689,7 +21689,7 @@
   },
   "7120": {
     "original": "Unable to open main map while in a deep dungeon.",
-    "translation": "Impossibile aprire la mappa principale in un deep dungeon."
+    "translation": "Impossibile aprire la mappa principale in una Cripta Profonda."
   },
   "7121": {
     "original": "Unable to execute command. There is no save data.",
@@ -21813,7 +21813,7 @@
   },
   "7207": {
     "original": "Unable to execute command. One or more party members is currently using the Duty Finder.",
-    "translation": "Impossibile eseguire il comando. Uno o più membri del gruppo stanno attualmente utilizzando il Duty Finder."
+    "translation": "Impossibile eseguire il comando. Uno o più membri del gruppo stanno attualmente utilizzando la Ricerca Incarichi."
   },
   "7208": {
     "original": "Unable to execute command. One or more party members is on the free trial.",
@@ -21845,7 +21845,7 @@
   },
   "7215": {
     "original": "<hex:020F1DE802FF08596F7520617265FF10022B09FF07020A03E802030320697303> using the Duty Finder.",
-    "translation": "<hex:020F1BE802FF0553746169FF11022B09FF07020A03E80203032073746103> utilizzando il Duty Finder."
+    "translation": "<hex:020F1BE802FF0553746169FF11022B09FF07020A03E80203032073746103> utilizzando la Ricerca Incarichi."
   },
   "7216": {
     "original": "<hex:020F1DE802FF08596F7520617265FF10022B09FF07020A03E802030320697303> on the free trial.",
@@ -21857,7 +21857,7 @@
   },
   "7218": {
     "original": "Unable to execute command while using the Duty Finder.",
-    "translation": "Impossibile eseguire il comando durante l'uso del Duty Finder."
+    "translation": "Impossibile eseguire il comando durante l'uso della Ricerca Incarichi."
   },
   "7219": {
     "original": "You are not a Disciple of War or Magic.",
@@ -21945,7 +21945,7 @@
   },
   "7240": {
     "original": "The gathering gloom appears to invigorate the dungeon's denizens.",
-    "translation": "L'oscurità che si addensa sembra rinvigorire gli abitanti del dungeon."
+    "translation": "L'oscurità che si addensa sembra rinvigorire gli abitanti della spedizione."
   },
   "7241": {
     "original": "<hex:022B12FF1002310CFF05454F626A03E80202020303> dims...",
@@ -22241,7 +22241,7 @@
   },
   "7334": {
     "original": "Unable to invite player using the Duty Finder.",
-    "translation": "Impossibile invitare un giocatore che sta utilizzando il Duty Finder."
+    "translation": "Impossibile invitare un giocatore che sta utilizzando la Ricerca Incarichi."
   },
   "7335": {
     "original": "Unable to invite. That player is currently in another area.",
@@ -22345,7 +22345,7 @@
   },
   "7397": {
     "original": "■Duty Finder Settings",
-    "translation": "■Impostazioni Duty Finder"
+    "translation": "■Impostazioni Ricerca Incarichi"
   },
   "7398": {
     "original": "Party recruitment ended. The applicable duty is no longer available.",
@@ -22545,7 +22545,7 @@
   },
   "7450": {
     "original": "Unable to join party while using the Duty Finder.",
-    "translation": "Impossibile unirsi al gruppo durante l'uso del Duty Finder."
+    "translation": "Impossibile unirsi al gruppo durante l'uso della Ricerca Incarichi."
   },
   "7451": {
     "original": "Party recruitment ended. All places have been filled.",
@@ -23633,7 +23633,7 @@
   },
   "7759": {
     "original": "Unable to execute command while waiting for Duty Finder.",
-    "translation": "Impossibile eseguire il comando in attesa del Duty Finder."
+    "translation": "Impossibile eseguire il comando in attesa della Ricerca Incarichi."
   },
   "7760": {
     "original": "Unable to execute command while creating a character.",
@@ -23705,7 +23705,7 @@
   },
   "7779": {
     "original": "Unable to execute command while delving into a deep dungeon.",
-    "translation": "Impossibile eseguire il comando durante l'esplorazione di un deep dungeon."
+    "translation": "Impossibile eseguire il comando durante l'esplorazione di una Cripta Profonda."
   },
   "7780": {
     "original": "Unable to execute command while swimming.",
@@ -23837,7 +23837,7 @@
   },
   "7907": {
     "original": "Unable to reset rating while using the Duty Finder.",
-    "translation": "Impossibile azzerare il punteggio durante l'uso del Duty Finder."
+    "translation": "Impossibile azzerare il punteggio durante l'uso della Ricerca Incarichi."
   },
   "7908": {
     "original": "You are not using a recommended resolution setting, so the HUD element has been resized to 60%.",
@@ -23925,7 +23925,7 @@
   },
   "7956": {
     "original": "Unable to convert while using the Duty Finder.",
-    "translation": "Impossibile convertire durante l'uso del Duty Finder."
+    "translation": "Impossibile convertire durante l'uso della Ricerca Incarichi."
   },
   "7957": {
     "original": "Unable to execute command at this time.",
@@ -24045,7 +24045,7 @@
   },
   "7986": {
     "original": "Wondrous Tails duty complete.",
-    "translation": "Missione delle Wondrous Tails completata."
+    "translation": "Incarico delle Wondrous Tails completato."
   },
   "7987": {
     "original": "<hex:020829E4EB02EB03FF05596F7572FF1C020816E908FF1002280CFF074F626A537472E9080103EB0303277303> true self emerges, granting <hex:020848E4EB02EB03FF04796F75FF3C020838E908FF2202081EFF1202280EFF09424E70634E616D65E9080703FF04686572FF0468696D03FF1102080DE906FF04686572FF0468696D030303> strength beyond <hex:020849E4EB02EB03FF05796F7572FF3C020838E908FF2202081EFF1202280EFF09424E70634E616D65E9080703FF04686572FF0468697303FF1102080DE906FF04686572FF04686973030303> limits!",
@@ -24073,15 +24073,15 @@
   },
   "7994": {
     "original": "Unable to display while bound by duty.",
-    "translation": "Impossibile visualizzare durante una missione."
+    "translation": "Impossibile visualizzare durante un incarico."
   },
   "7995": {
     "original": "This duty or category cannot be accessed via the Duty Finder.",
-    "translation": "Non è possibile accedere a questa missione o categoria tramite il Duty Finder."
+    "translation": "Non è possibile accedere a questo incarico o questa categoria tramite la Ricerca Incarichi."
   },
   "7996": {
     "original": "This duty or category has not been unlocked.",
-    "translation": "Questa missione o categoria non è stata sbloccata."
+    "translation": "Questo incarico o questa categoria non sono stati sbloccati."
   },
   "7997": {
     "original": "You have received a journal corresponding to your current progress in the main scenario.",
@@ -25825,7 +25825,7 @@
   },
   "9068": {
     "original": "Character progression enhancement will be applied to all participants in this duty.",
-    "translation": "Il potenziamento della progressione del personaggio verrà applicato a tutti i partecipanti in questa missione."
+    "translation": "Il potenziamento della progressione del personaggio verrà applicato a tutti i partecipanti in questo incarico."
   },
   "9069": {
     "original": "The memories of heroes past live on again!",
@@ -26389,23 +26389,23 @@
   },
   "9309": {
     "original": "You earn a bonus for completing this duty for the first time via the blue mage log.",
-    "translation": "Ottieni un bonus per aver completato questa missione per la prima volta tramite il registro del blue mage."
+    "translation": "Ottieni un bonus per aver completato questo incarico per la prima volta tramite il registro del mago blu."
   },
   "9310": {
     "original": "You earn a reward for completing an entry in your blue mage log.",
-    "translation": "Ottieni una ricompensa per aver completato una voce nel registro del blue mage."
+    "translation": "Ottieni una ricompensa per aver completato una voce nel registro del mago blu."
   },
   "9311": {
     "original": "Blue mage log weekly target complete!",
-    "translation": "Obiettivo settimanale del registro del Blue mage completato!"
+    "translation": "Obiettivo settimanale del registro del Mago blu completato!"
   },
   "9312": {
     "original": "Blue mage log prime target complete!",
-    "translation": "Obiettivo primario del registro del Blue mage completato!"
+    "translation": "Obiettivo primario del registro del Mago blu completato!"
   },
   "9313": {
     "original": "The party fulfills the blue mage log requirements for this duty.<hex:02100103>Completion will count towards blue mage log progress.",
-    "translation": "Il party soddisfa i requisiti del registro del blue mage per questa missione.<hex:02100103>Il completamento conterà per i progressi nel registro del blue mage."
+    "translation": "Il party soddisfa i requisiti del registro del mago blu per questo incarico.<hex:02100103>Il completamento conterà per i progressi nel registro del mago blu."
   },
   "9330": {
     "original": "You sense your mark to the <hex:020950E802FF066E6F727468FF0A6E6F72746865617374FF0565617374FF0A736F75746865617374FF06736F757468FF0A736F75746877657374FF0577657374FF0A6E6F72746877657374FF066E6F72746803>.",
@@ -26621,11 +26621,11 @@
   },
   "9392": {
     "original": "A bonus will be awarded for first-time completion of this duty.",
-    "translation": "Verrà assegnato un bonus per il completamento di questa missione per la prima volta."
+    "translation": "Verrà assegnato un bonus per il completamento di questo incarico per la prima volta."
   },
   "9393": {
     "original": "A bonus of <hex:022206E802FF022C03> experience points has been awarded for first-time completion of this duty.",
-    "translation": "È stato assegnato un bonus di <hex:022206E802FF022C03> punti esperienza per aver completato questa missione per la prima volta."
+    "translation": "È stato assegnato un bonus di <hex:022206E802FF022C03> punti esperienza per aver completato questo incarico per la prima volta."
   },
   "9394": {
     "original": "The Bombard has reached maximum flammability!",
@@ -26761,11 +26761,11 @@
   },
   "9451": {
     "original": "Role requirements unmet. Duty cannot be commenced.",
-    "translation": "Requisiti di ruolo non soddisfatti. Impossibile iniziare la missione."
+    "translation": "Requisiti di ruolo non soddisfatti. Impossibile iniziare l'incarico."
   },
   "9452": {
     "original": "Not all members meet level requirements. Duty cannot be commenced.",
-    "translation": "Non tutti i membri soddisfano i requisiti di livello. Impossibile iniziare la missione."
+    "translation": "Non tutti i membri soddisfano i requisiti di livello. Impossibile iniziare l'incarico."
   },
   "9453": {
     "original": "An unexpected error has occurred. Registration canceled.",
@@ -26781,7 +26781,7 @@
   },
   "9456": {
     "original": "Duty cannot be commenced. You must leave your party first.",
-    "translation": "Impossibile iniziare la missione. Devi prima lasciare il party."
+    "translation": "Impossibile iniziare l'incarico. Devi prima lasciare il party."
   },
   "9457": {
     "original": "Feature currently unavailable.",
@@ -26789,7 +26789,7 @@
   },
   "9458": {
     "original": "Unable to commence duty. Insufficient item level.",
-    "translation": "Impossibile iniziare la missione. Livello oggetto insufficiente."
+    "translation": "Impossibile iniziare l'incarico. Livello oggetto insufficiente."
   },
   "9459": {
     "original": "Scenario mode has been unlocked in the Trust system.",
@@ -26801,11 +26801,11 @@
   },
   "9461": {
     "original": "Avatars cannot accompany you on this duty.",
-    "translation": "Gli avatar non possono accompagnarti in questa missione."
+    "translation": "Gli avatar non possono accompagnarti in questo incarico."
   },
   "9462": {
     "original": "In this duty, your indomitable strength of will allows you to withstand incapacitating damage a certain number of times.",
-    "translation": "In questa missione, la tua indomita forza di volontà ti consente di resistere a danni incapacitanti per un certo numero di volte."
+    "translation": "In questo incarico, la tua indomita forza di volontà ti consente di resistere a danni incapacitanti per un certo numero di volte."
   },
   "9463": {
     "original": "You survive the attack by virtue of your strength of will!",
@@ -26813,11 +26813,11 @@
   },
   "9464": {
     "original": "No alternate members are available. Duty will commence with the current party.",
-    "translation": "Nessun membro alternativo disponibile. La missione inizierà con il party attuale."
+    "translation": "Nessun membro alternativo disponibile. L'incarico inizierà con il party attuale."
   },
   "9465": {
     "original": "The Duty Support option will become available in a future update.",
-    "translation": "L'opzione Duty Support sarà resa disponibile in un aggiornamento futuro."
+    "translation": "L'opzione Supporto Incarichi sarà resa disponibile in un aggiornamento futuro."
   },
   "9466": {
     "original": "If all party members are incapacitated, they will be revived automatically and granted a buff. This buff will expire when the boss is defeated.",
@@ -26833,7 +26833,7 @@
   },
   "9470": {
     "original": "In your current job/class, only changes to active action selections will be saved. Set job to blue mage if you wish to save blue magic hotbar slots.",
-    "translation": "Nella tua classe/job attuale, verranno salvate solo le modifiche alla selezione delle azioni attive. Passa al job blue mage se desideri salvare gli slot della hotbar per la magia blu."
+    "translation": "Nella tua classe/job attuale, verranno salvate solo le modifiche alla selezione delle azioni attive. Passa al job mago blu se desideri salvare gli slot della hotbar per la magia blu."
   },
   "9471": {
     "original": "Active actions and blue magic hotbar slots have been saved to <hex:022903EA0203>.",
@@ -26869,7 +26869,7 @@
   },
   "9485": {
     "original": "This duty or category has not been unlocked.",
-    "translation": "Questa missione o categoria non è stata sbloccata."
+    "translation": "Questo incarico o questa categoria non sono stati sbloccati."
   },
   "9486": {
     "original": "You must select an attribute for all three slots.",
@@ -27089,7 +27089,7 @@
   },
   "9541": {
     "original": "Use the duty action <hex:024804F201F403><hex:024904F201F503>Solicit Siphon Snout<hex:0249020103><hex:0248020103> to direct Ezel II to devour the clouded dream.",
-    "translation": "Usa l'azione di missione <hex:024804F201F403><hex:024904F201F503>Solicit Siphon Snout<hex:0249020103><hex:0248020103> per ordinare a Ezel II di divorare il sogno oscurato."
+    "translation": "Usa l'azione incarico <hex:024804F201F403><hex:024904F201F503>Solicit Siphon Snout<hex:0249020103><hex:0248020103> per ordinare a Ezel II di divorare il sogno oscurato."
   },
   "9542": {
     "original": "Unleash the wrath of Nidhogg upon the Garleans!",
@@ -27285,7 +27285,7 @@
   },
   "9590": {
     "original": "If you wish to leave the Diadem, you may do so via the exit at the starting point or the Duty Finder menu.",
-    "translation": "Se desideri lasciare il Diadem, puoi farlo tramite l'uscita al punto di partenza o tramite il menu del Duty Finder."
+    "translation": "Se desideri lasciare il Diadem, puoi farlo tramite l'uscita al punto di partenza o tramite il menu della Ricerca Incarichi."
   },
   "9591": {
     "original": "You have prevented a Flood of Light!",
@@ -27329,11 +27329,11 @@
   },
   "9601": {
     "original": "Unable to change to a Disciple of War or Magic under level 71 while undertaking this duty.",
-    "translation": "Impossibile passare a un Disciple of War o Magic inferiore al livello 71 durante questa missione."
+    "translation": "Impossibile passare a un Disciple of War o Magic inferiore al livello 71 durante questo incarico."
   },
   "9602": {
     "original": "This duty is level synced. The level of all participants will be adjusted to 80, and item level will be adjusted to 430.",
-    "translation": "Questa missione è a livello sincronizzato. Il livello di tutti i partecipanti sarà impostato a 80 e il livello oggetto a 430."
+    "translation": "Questo incarico è a livello sincronizzato. Il livello di tutti i partecipanti sarà impostato a 80 e il livello oggetto a 430."
   },
   "9603": {
     "original": "You have prevailed against <hex:023110FF09424E70634E616D6503E802020203> in single combat! Confidence within the Resistance surges as the enemy falters!",
@@ -27369,11 +27369,11 @@
   },
   "9611": {
     "original": "Only a party leader may register for duty.",
-    "translation": "Solo il leader del party può registrarsi per la missione."
+    "translation": "Solo il leader del party può registrarsi per l'incarico."
   },
   "9612": {
     "original": "One of your party members does not meet the requirements for duty.",
-    "translation": "Uno dei membri del party non soddisfa i requisiti per la missione."
+    "translation": "Uno dei membri del party non soddisfa i requisiti per l'incarico."
   },
   "9613": {
     "original": "Unable to register. One or more party members are incapacitated.",
@@ -27389,27 +27389,27 @@
   },
   "9616": {
     "original": "Your party leader has registered the party for the following duty:<hex:02100103><hex:022812FF0D44796E616D69634576656E74E8020C03>",
-    "translation": "Il leader del party ha registrato il gruppo per la seguente missione:<hex:02100103><hex:022812FF0D44796E616D69634576656E74E8020C03>"
+    "translation": "Il leader del party ha registrato il gruppo per la seguente incarico:<hex:02100103><hex:022812FF0D44796E616D69634576656E74E8020C03>"
   },
   "9617": {
     "original": "You have registered to join the following duty:<hex:02100103><hex:022812FF0D44796E616D69634576656E74E8020C03>",
-    "translation": "Ti sei registrato per partecipare alla seguente missione:<hex:02100103><hex:022812FF0D44796E616D69634576656E74E8020C03>"
+    "translation": "Ti sei registrato per partecipare alla seguente incarico:<hex:02100103><hex:022812FF0D44796E616D69634576656E74E8020C03>"
   },
   "9618": {
     "original": "Registration for the following duty has been canceled:<hex:02100103><hex:022812FF0D44796E616D69634576656E74E8020C03>",
-    "translation": "La registrazione per la seguente missione è stata annullata:<hex:02100103><hex:022812FF0D44796E616D69634576656E74E8020C03>"
+    "translation": "La registrazione per la seguente incarico è stata annullata:<hex:02100103><hex:022812FF0D44796E616D69634576656E74E8020C03>"
   },
   "9619": {
     "original": "Your party leader has canceled registration for the following duty:<hex:02100103><hex:022812FF0D44796E616D69634576656E74E8020C03>",
-    "translation": "Il leader del party ha annullato la registrazione per la seguente missione:<hex:02100103><hex:022812FF0D44796E616D69634576656E74E8020C03>"
+    "translation": "Il leader del party ha annullato la registrazione per la seguente incarico:<hex:02100103><hex:022812FF0D44796E616D69634576656E74E8020C03>"
   },
   "9620": {
     "original": "Party makeup has changed. Your registration for the following duty has been withdrawn:<hex:02100103><hex:022812FF0D44796E616D69634576656E74E8020C03>",
-    "translation": "La composizione del Party è cambiata. La tua registrazione per la seguente missione è stata ritirata:<hex:02100103><hex:022812FF0D44796E616D69634576656E74E8020C03>"
+    "translation": "La composizione del Party è cambiata. La tua registrazione per la seguente incarico è stata ritirata:<hex:02100103><hex:022812FF0D44796E616D69634576656E74E8020C03>"
   },
   "9621": {
     "original": "You have joined a critical engagement. Registration for other duties has been canceled.",
-    "translation": "Ti sei unito a un critical engagement. La registrazione per altre missioni è stata annullata."
+    "translation": "Ti sei unito a un critical engagement. La registrazione per altri incarichi è stata annullata."
   },
   "9622": {
     "original": "You have joined the critical engagement, <hex:022812FF0D44796E616D69634576656E74E8020C03>. Access the Resistance Recruitment menu to join the fray!",
@@ -27421,7 +27421,7 @@
   },
   "9624": {
     "original": "Consciousness is required to participate in this duty.",
-    "translation": "È necessario essere coscienti per partecipare a questa missione."
+    "translation": "È necessario essere coscienti per partecipare a questo incarico."
   },
   "9625": {
     "original": "Unable to register. You have already joined a critical engagement.",
@@ -27461,7 +27461,7 @@
   },
   "9634": {
     "original": "Only a party leader may cancel registration for duty.",
-    "translation": "Solo il leader del party può annullare la registrazione per la missione."
+    "translation": "Solo il leader del party può annullare la registrazione per l'incarico."
   },
   "9635": {
     "original": "<hex:022B2EFF2C020828E4EB02EB03FF04796F75FF1C020818E908FF1202310EFF074F626A53747203E908020203EB03030303> <hex:020813E4EB02EB03FF056761696EFF066761696E7303> <hex:022206E803FF022C03><hex:020813E4E80401FF01FF0B282B022003E80403252903> mettle.",
@@ -27477,7 +27477,7 @@
   },
   "9638": {
     "original": "You are incapacitated. Duty cannot be joined.",
-    "translation": "Sei privo di sensi. Impossibile partecipare alla missione."
+    "translation": "Sei privo di sensi. Impossibile partecipare all'incarico."
   },
   "9639": {
     "original": "Unable to execute command while registered to join another critical engagement.",
@@ -27597,11 +27597,11 @@
   },
   "9668": {
     "original": "You have already converted this lost action into a duty action.",
-    "translation": "Hai già convertito questa lost action in un'azione di missione."
+    "translation": "Hai già convertito questa lost action in un'azione incarico."
   },
   "9669": {
     "original": "One or more party members have accepted a challenge to duel. Registration for the following duty has been canceled:<hex:02100103><hex:022812FF0D44796E616D69634576656E74E8020C03>",
-    "translation": "Uno o più membri del party hanno accettato una sfida a duello. La registrazione per la seguente missione è stata annullata:<hex:02100103><hex:022812FF0D44796E616D69634576656E74E8020C03>"
+    "translation": "Uno o più membri del party hanno accettato una sfida a duello. La registrazione per la seguente incarico è stata annullata:<hex:02100103><hex:022812FF0D44796E616D69634576656E74E8020C03>"
   },
   "9670": {
     "original": "You were not chosen to duel in the critical engagement, <hex:022812FF0D44796E616D69634576656E74E8020C03>.<hex:02100103>However, your presence on the battlefield has increased your notoriety by 1.",
@@ -28073,11 +28073,11 @@
   },
   "9795": {
     "original": "It is possible to reform parties while undertaking this duty. Please note, however, your alliance has been temporarily disbanded.",
-    "translation": "È possibile riformare i party durante questa missione. Tieni presente, tuttavia, che l'alleanza è stata temporaneamente sciolta."
+    "translation": "È possibile riformare i party durante questo incarico. Tieni presente, tuttavia, che l'alleanza è stata temporaneamente sciolta."
   },
   "9796": {
     "original": "Return cannot be used while undertaking this duty.",
-    "translation": "Non è possibile usare Return durante questa missione."
+    "translation": "Non è possibile usare Return durante questo incarico."
   },
   "9797": {
     "original": "The overwhelming presence of magick in the air suddenly vanishes...",
@@ -29477,11 +29477,11 @@
   },
   "10155": {
     "original": "Unable to register the same variant action in multiple duty action slots.",
-    "translation": "Impossibile registrare la stessa azione variant in più slot per azioni di missione."
+    "translation": "Impossibile registrare la stessa azione variant in più slot per azioni incarico."
   },
   "10156": {
     "original": "Unable to change to a Disciple of War or Magic under level 90 while undertaking this duty.",
-    "translation": "Impossibile passare a un Disciple of War o Magic inferiore al livello 90 durante questa missione."
+    "translation": "Impossibile passare a un Disciple of War o Magic inferiore al livello 90 durante questo incarico."
   },
   "10157": {
     "original": "An ominous miasma begins seeping into the area.<hex:02100103>Your foes seem unaffected...for now.",
@@ -29665,7 +29665,7 @@
   },
   "10202": {
     "original": "Unable to access the boat for the Moraby Drydocks while using the Duty Finder.",
-    "translation": "Impossibile accedere alla nave per i Moraby Drydocks durante l'uso del Duty Finder."
+    "translation": "Impossibile accedere alla nave per i Moraby Drydocks durante l'uso della Ricerca Incarichi."
   },
   "10203": {
     "original": "Unable to claim. You cannot carry any more of the yields harvested by the produce producer.",
@@ -30261,7 +30261,7 @@
   },
   "10405": {
     "original": "Torgal leads the way! Learn more about this quest objective via the <hex:021202B703> icon in the <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>.",
-    "translation": "Torgal fa strada! Scopri di più su questo obiettivo della missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>."
+    "translation": "Torgal fa strada! Scopri di più su questo obiettivo della missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Lista Incarichi<hex:0249020103><hex:0248020103>."
   },
   "10406": {
     "original": "<hex:0212024003>You have lost sight of the wandering minstrel. Speak with him again to reform your party.",
@@ -30273,7 +30273,7 @@
   },
   "10408": {
     "original": "Deryk and the baby opo-opo set off at a brisk walk! Learn more about this quest objective via the <hex:021202B703> icon in the <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>.",
-    "translation": "Deryk e il cucciolo di opo-opo si incamminano a passo svelto! Scopri di più su questo obiettivo della missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>."
+    "translation": "Deryk e il cucciolo di opo-opo si incamminano a passo svelto! Scopri di più su questo obiettivo della missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Lista Incarichi<hex:0249020103><hex:0248020103>."
   },
   "10409": {
     "original": "Rral Soj now considers you <hex:02097DE802FF206120E2809C4D6574746C65736F6D65204D6574616C776F726B65722EE2809DFF1F6120E2809C4D617276656C6F7573204D6574616C776F726B65722EE2809DFF1E6120E2809C4D6574616C204D697261636C6520576F726B65722EE2809DFF196120E2809C4D6173746572206F66204D6574616C2EE2809D03>",
@@ -30349,11 +30349,11 @@
   },
   "10427": {
     "original": "Koana leads the way! Learn more about this quest objective via the <hex:021202B703> icon in the <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>.",
-    "translation": "Koana fa strada! Scopri di più su questo obiettivo della missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>."
+    "translation": "Koana fa strada! Scopri di più su questo obiettivo della missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Lista Incarichi<hex:0249020103><hex:0248020103>."
   },
   "10428": {
     "original": "The aether seeker leads the way! Learn more about this quest objective via the <hex:021202B703> icon in the <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>.",
-    "translation": "Il cercatore di etere fa strada! Scopri di più su questo obiettivo della missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>."
+    "translation": "Il cercatore di etere fa strada! Scopri di più su questo obiettivo della missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Lista Incarichi<hex:0249020103><hex:0248020103>."
   },
   "10429": {
     "original": "<hex:0212024003>You have lost sight of Erenville. Speak with him again to reform your party.",
@@ -30369,7 +30369,7 @@
   },
   "10432": {
     "original": "The blue-scaled Hoobigo child leads the way! Learn more about this quest objective via the <hex:021202B703> icon in the <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>.",
-    "translation": "Il piccolo Hoobigo dalle scaglie blu fa strada! Scopri di più su questo obiettivo della missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>."
+    "translation": "Il piccolo Hoobigo dalle scaglie blu fa strada! Scopri di più su questo obiettivo della missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Lista Incarichi<hex:0249020103><hex:0248020103>."
   },
   "10433": {
     "original": "<hex:0212024003>You have lost sight of Shaloaci. Speak with her again to reform your party.",
@@ -30405,15 +30405,15 @@
   },
   "10441": {
     "original": "Unable to proceed with “<hex:02280BFF065175657374E8020103>.” You are registered to join a duty.",
-    "translation": "Impossibile procedere con «<hex:02280BFF065175657374E8020103>». Sei registrato per partecipare a una missione."
+    "translation": "Impossibile procedere con «<hex:02280BFF065175657374E8020103>». Sei registrato per partecipare a un incarico."
   },
   "10442": {
     "original": "Unable to complete “<hex:02280BFF065175657374E8020103>.” You are registered to join a duty.",
-    "translation": "Impossibile completare «<hex:02280BFF065175657374E8020103>». Sei registrato per partecipare a una missione."
+    "translation": "Impossibile completare «<hex:02280BFF065175657374E8020103>». Sei registrato per partecipare a un incarico."
   },
   "10443": {
     "original": "The mysterious spirit leads the way! Learn more about this quest objective via the <hex:021202B703> icon in the <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>.",
-    "translation": "Lo spirito misterioso fa strada! Scopri di più su questo obiettivo della missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>."
+    "translation": "Lo spirito misterioso fa strada! Scopri di più su questo obiettivo della missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Lista Incarichi<hex:0249020103><hex:0248020103>."
   },
   "10444": {
     "original": "You lose sight of the cat...",
@@ -30445,7 +30445,7 @@
   },
   "10451": {
     "original": "The uma-no-unicolt leads the way! Learn more about this quest objective via the <hex:021202B703> icon in the <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>.",
-    "translation": "L'uma-no-unicolt fa strada! Scopri di più su questo obiettivo della missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>."
+    "translation": "L'uma-no-unicolt fa strada! Scopri di più su questo obiettivo della missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Lista Incarichi<hex:0249020103><hex:0248020103>."
   },
   "10452": {
     "original": "As your reputation has greatly improved, you may now undertake a new allied society main quest.",
@@ -30517,15 +30517,15 @@
   },
   "10469": {
     "original": "Your next quest objective requires <hex:022813FF0E4576656E745475746F7269616CE8020203>.<hex:020841E1E80301FF3920596F752077696C6C206861766520022003E80303207365636F6E647320746F20636F6D706C65746520746865206F626A6563746976652EFF0103><hex:02100103>Learn more about this quest objective via the <hex:021202B703> icon in the <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>.",
-    "translation": "Il prossimo obiettivo della missione richiede <hex:022813FF0E4576656E745475746F7269616CE8020203>.<hex:020841E1E80301FF3920596F752077696C6C206861766520022003E80303207365636F6E647320746F20636F6D706C65746520746865206F626A6563746976652EFF0103><hex:02100103>Scopri di più su questo obiettivo tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>."
+    "translation": "Il prossimo obiettivo della missione richiede <hex:022813FF0E4576656E745475746F7269616CE8020203>.<hex:020841E1E80301FF3920596F752077696C6C206861766520022003E80303207365636F6E647320746F20636F6D706C65746520746865206F626A6563746976652EFF0103><hex:02100103>Scopri di più su questo obiettivo tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Lista Incarichi<hex:0249020103><hex:0248020103>."
   },
   "10470": {
     "original": "Your next quest objective requires <hex:022813FF0E4576656E745475746F7269616CE8020203> and <hex:022813FF0E4576656E745475746F7269616CE8040203>.<hex:020844E1E80401FF3C20596F752077696C6C206861766520022003E80403207365636F6E647320746F20636F6D706C657465207468657365206F626A656374697665732EFF0103><hex:02100103>Learn more about these quest objectives via the <hex:021202B703> icon in the <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>.",
-    "translation": "I prossimi obiettivi della missione richiedono <hex:022813FF0E4576656E745475746F7269616CE8020203> e <hex:022813FF0E4576656E745475746F7269616CE8040203>.<hex:020844E1E80401FF3C20596F752077696C6C206861766520022003E80403207365636F6E647320746F20636F6D706C657465207468657365206F626A656374697665732EFF0103><hex:02100103>Scopri di più su questi obiettivi tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>."
+    "translation": "I prossimi obiettivi della missione richiedono <hex:022813FF0E4576656E745475746F7269616CE8020203> e <hex:022813FF0E4576656E745475746F7269616CE8040203>.<hex:020844E1E80401FF3C20596F752077696C6C206861766520022003E80403207365636F6E647320746F20636F6D706C657465207468657365206F626A656374697665732EFF0103><hex:02100103>Scopri di più su questi obiettivi tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Lista Incarichi<hex:0249020103><hex:0248020103>."
   },
   "10471": {
     "original": "Raubahn leads the way! Learn more about this quest objective via the <hex:021202B703> icon in the <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>.",
-    "translation": "Raubahn fa strada! Scopri di più su questo obiettivo della missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Duty List<hex:0249020103><hex:0248020103>."
+    "translation": "Raubahn fa strada! Scopri di più su questo obiettivo della missione tramite l'icona <hex:021202B703> nella <hex:024804F201F403><hex:024904F201F503>Lista Incarichi<hex:0249020103><hex:0248020103>."
   },
   "10472": {
     "original": "Unable to commence New Game+ mode from your current location. Please try again from a different location.",
@@ -30585,7 +30585,7 @@
   },
   "10492": {
     "original": "The tutorial on “<hex:022813FF0E4576656E745475746F7269616CE8020203>” may be accessed via the <hex:021202B703> icon in the Duty List.",
-    "translation": "Il tutorial su «<hex:022813FF0E4576656E745475746F7269616CE8020203>» è accessibile tramite l'icona <hex:021202B703> nella Duty List."
+    "translation": "Il tutorial su «<hex:022813FF0E4576656E745475746F7269616CE8020203>» è accessibile tramite l'icona <hex:021202B703> nella Lista Incarichi."
   },
   "10500": {
     "original": "The animals are worked up into a frenzy!",
@@ -31521,7 +31521,7 @@
   },
   "10761": {
     "original": "Duty actions cannot be used with this crafting recipe.",
-    "translation": "Le azioni di missione non possono essere utilizzate con questa ricetta di sintesi."
+    "translation": "Le azioni incarico non possono essere utilizzate con questa ricetta di sintesi."
   },
   "10762": {
     "original": "Unable to accept missions while undertaking mech ops.",
@@ -31841,11 +31841,11 @@
   },
   "10844": {
     "original": "A duty action will be assigned to your hotbar upon joining this mech op. Select Join Event to proceed.",
-    "translation": "Un'azione di missione verrà assegnata alla tua hotbar quando ti unirai a questa operazione sui mech. Seleziona Partecipa all'evento per procedere."
+    "translation": "Un'azione incarico verrà assegnata alla tua hotbar quando ti unirai a questa operazione sui mech. Seleziona Partecipa all'evento per procedere."
   },
   "10845": {
     "original": "You are now participating in a mech op!<hex:02100103>A duty action will be assigned to your hotbar.",
-    "translation": "Stai partecipando a un'operazione sui mech!<hex:02100103>Un'azione di missione verrà assegnata alla tua hotbar."
+    "translation": "Stai partecipando a un'operazione sui mech!<hex:02100103>Un'azione incarico verrà assegnata alla tua hotbar."
   },
   "10846": {
     "original": "Unable to participate. You must be a Disciple of the Hand or Land.",
@@ -32069,19 +32069,19 @@
   },
   "10901": {
     "original": "One or more party members are new to this duty.<hex:02100103>Upon completion, a bonus may be awarded based on the number of new party members.",
-    "translation": "Uno o più membri del party affrontano questa missione per la prima volta.<hex:02100103>Al completamento, potrebbe essere assegnato un bonus in base al numero di nuovi membri."
+    "translation": "Uno o più membri del party affrontano questo incarico per la prima volta.<hex:02100103>Al completamento, potrebbe essere assegnato un bonus in base al numero di nuovi membri."
   },
   "10902": {
     "original": "<hex:022003E80303> party <hex:020816E2E80302FF076D656D626572FF086D656D6265727303> <hex:020810E2E80302FF04776173FF057765726503> new to this duty upon its completion. A bonus <hex:02310CFF054974656D04E802020203> has been added to the rewards.",
-    "translation": "<hex:022003E80303> membri del party affrontavano questa missione per la prima volta al suo completamento. Un bonus <hex:02310CFF054974656D04E802020203> è stato aggiunto alle ricompense."
+    "translation": "<hex:022003E80303> membri del party affrontavano questo incarico per la prima volta al suo completamento. Un bonus <hex:02310CFF054974656D04E802020203> è stato aggiunto alle ricompense."
   },
   "10903": {
     "original": "<hex:022003E80303> party <hex:020816E2E80302FF076D656D626572FF086D656D6265727303> <hex:020810E2E80302FF04776173FF057765726503> new to this duty upon its completion. A bonus of <hex:022003E80403> <hex:02310CFF054974656D04E802030203> has been added to the rewards.",
-    "translation": "<hex:022003E80303> membri del party affrontavano questa missione per la prima volta al suo completamento. Un bonus di <hex:022003E80403> <hex:02310CFF054974656D04E802030203> è stato aggiunto alle ricompense."
+    "translation": "<hex:022003E80303> membri del party affrontavano questo incarico per la prima volta al suo completamento. Un bonus di <hex:022003E80403> <hex:02310CFF054974656D04E802030203> è stato aggiunto alle ricompense."
   },
   "10904": {
     "original": "<hex:022003E80303> party <hex:020816E2E80302FF076D656D626572FF086D656D6265727303> <hex:020810E2E80302FF04776173FF057765726503> new to this duty upon its completion. However, no <hex:02310CFF054974656D04E802020203> has been added to the rewards.",
-    "translation": "<hex:022003E80303> membri del party affrontavano questa missione per la prima volta al suo completamento. Tuttavia, non è stato aggiunto alcun bonus <hex:02310CFF054974656D04E802020203> alle ricompense."
+    "translation": "<hex:022003E80303> membri del party affrontavano questo incarico per la prima volta al suo completamento. Tuttavia, non è stato aggiunto alcun bonus <hex:02310CFF054974656D04E802020203> alle ricompense."
   },
   "10905": {
     "original": "Interior style changes can only be made from your estate's garden.",
@@ -32437,7 +32437,7 @@
   },
   "10998": {
     "original": "This item can only be used during certain duties.",
-    "translation": "Questo oggetto può essere usato solo durante determinate missioni."
+    "translation": "Questo oggetto può essere usato solo durante determinati incarichi."
   },
   "10999": {
     "original": "A new quest is available to undertake at the expedition base camp.",
@@ -32481,7 +32481,7 @@
   },
   "11011": {
     "original": "You do not meet the requirements to participate in this duty.",
-    "translation": "Non soddisfi i requisiti per partecipare a questa missione."
+    "translation": "Non soddisfi i requisiti per partecipare a questo incarico."
   },
   "11012": {
     "original": "You have mastered the phantom job <hex:022813FF0E4D4B44537570706F72744A6F62E8020103>!",
@@ -32685,7 +32685,7 @@
   },
   "11149": {
     "original": "The ingredients and decorations needed for the cake in progress are displayed in the duty list.",
-    "translation": "Gli ingredienti e le decorazioni necessari per la torta in preparazione sono visualizzati nella duty list."
+    "translation": "Gli ingredienti e le decorazioni necessari per la torta in preparazione sono visualizzati nella lista incarichi."
   },
   "11150": {
     "original": "Unable to obtain <hex:02310CFF054974656D03E802020203>. You may only carry one of that item.",
@@ -32749,7 +32749,7 @@
   },
   "11167": {
     "original": "Your duty registration is withdrawn. You were selected as a pilot.",
-    "translation": "La tua registrazione alla missione è stata ritirata. Sei stato selezionato come pilota."
+    "translation": "La tua registrazione all'incarico è stata ritirata. Sei stato selezionato come pilota."
   },
   "11168": {
     "original": "Stellar mission canceled. You have boarded a vehicle for mech ops.",
@@ -33061,7 +33061,7 @@
   },
   "11254": {
     "original": "Only the player who selected the sacramental offerings required to enter this duty may open the treasure coffer that appears upon completion.<hex:02100103>Sacramental offerings will be expended upon opening this coffer.",
-    "translation": "Solo il giocatore che ha selezionato le offerte sacramentali richieste per accedere a questa missione può aprire lo scrigno del tesoro che appare al completamento.<hex:02100103>Le offerte sacramentali verranno consumate all'apertura dello scrigno."
+    "translation": "Solo il giocatore che ha selezionato le offerte sacramentali richieste per accedere a questo incarico può aprire lo scrigno del tesoro che appare al completamento.<hex:02100103>Le offerte sacramentali verranno consumate all'apertura dello scrigno."
   },
   "11255": {
     "original": "You obtain your reward, thereby expending <hex:02082EE4E80302FF1002310CFF054974656D02E802020203FF17022003E803032002310CFF054974656D04E80203020303>.",
@@ -33069,7 +33069,7 @@
   },
   "11256": {
     "original": "By passing traverse stone 99, you have unlocked the Final Verse. Speak with Vanthau in Il Mheg for more information and to access this practice duty.",
-    "translation": "Superando la pietra di passaggio 99, hai sbloccato il Verso Finale. Parla con Vanthau a Il Mheg per ulteriori informazioni e per accedere a questa missione di pratica."
+    "translation": "Superando la pietra di passaggio 99, hai sbloccato il Verso Finale. Parla con Vanthau a Il Mheg per ulteriori informazioni e per accedere a questo incarico di pratica."
   },
   "11257": {
     "original": "The coffer is locked tight. You do not have the items or the authority required to open it.",
@@ -33505,7 +33505,7 @@
   },
   "11374": {
     "original": "This duty is level synced. The level of all participants will be adjusted to <hex:022003E80203>, and item level will be adjusted to <hex:022003E80303>.",
-    "translation": "Questa missione è a livello sincronizzato. Il livello di tutti i partecipanti sarà impostato a <hex:022003E80203> e il livello oggetto a <hex:022003E80303>."
+    "translation": "Questo incarico è a livello sincronizzato. Il livello di tutti i partecipanti sarà impostato a <hex:022003E80203> e il livello oggetto a <hex:022003E80303>."
   },
   "11375": {
     "original": "<hex:021A020203>Yet the sight did not perturb the bodyguard, who stood steadfast and dauntless.<hex:021A020103>",
@@ -33537,7 +33537,7 @@
   },
   "11382": {
     "original": "This item cannot be used outside of specified duties.",
-    "translation": "Questo oggetto non può essere utilizzato al di fuori delle missioni specificate."
+    "translation": "Questo oggetto non può essere utilizzato al di fuori degli incarichi specificati."
   },
   "11383": {
     "original": "Artifact appraisal complete!",
@@ -33893,7 +33893,7 @@
   },
   "11475": {
     "original": "Beast rank sync is in effect for this duty. If your familiars are of a higher rank, their attributes will be adjusted to beast rank <hex:022003E80203>.",
-    "translation": "La sincronizzazione del rango bestia è attiva per questa missione. Se i tuoi famigli sono di rango superiore, i loro attributi verranno impostati al rango <hex:022003E80203>."
+    "translation": "La sincronizzazione del rango bestia è attiva per questo incarico. Se i tuoi famigli sono di rango superiore, i loro attributi verranno impostati al rango <hex:022003E80203>."
   },
   "11476": {
     "original": "The ring of sacrifice revives you!",
@@ -33997,7 +33997,7 @@
   },
   "11508": {
     "original": "Time expired. You forfeit the duty.",
-    "translation": "Tempo scaduto. Rinunci alla missione."
+    "translation": "Tempo scaduto. Rinunci all'incarico."
   },
   "11509": {
     "original": "Analysis of collected floatstones has pinpointed new mech target coordinates!",
@@ -34029,7 +34029,7 @@
   },
   "11516": {
     "original": "“End duty.” has received the most votes. Proceed to the exit to leave the dungeon.",
-    "translation": "«Termina missione» ha ricevuto più voti. Raggiungi l'uscita per lasciare il dungeon."
+    "translation": "«Termina incarico» ha ricevuto più voti. Raggiungi l'uscita per lasciare la spedizione."
   },
   "11517": {
     "original": "Unable to use item. Quest requirements have not yet been met.",
@@ -34225,7 +34225,7 @@
   },
   "11569": {
     "original": "Logout canceled. Failed to cancel duty registration.",
-    "translation": "Disconnessione annullata. Impossibile annullare la registrazione alla missione."
+    "translation": "Disconnessione annullata. Impossibile annullare la registrazione all'incarico."
   },
   "11570": {
     "original": "You shred a toxic bloomer!",
@@ -34269,7 +34269,7 @@
   },
   "11581": {
     "original": "Duty conditions have changed. Finding new member.",
-    "translation": "Le condizioni della missione sono cambiate. Ricerca di un nuovo membro in corso."
+    "translation": "Le condizioni dell'incarico sono cambiate. Ricerca di un nuovo membro in corso."
   },
   "11582": {
     "original": "Stand near a formula tank to refill your Sublime Sublimator reserves!",
@@ -34389,7 +34389,7 @@
   },
   "11613": {
     "original": "Job distributions recommended for high-end duties selected.",
-    "translation": "Selezionate le distribuzioni dei ruoli raccomandate per le missioni di alto livello."
+    "translation": "Selezionate le distribuzioni dei ruoli raccomandate per gli incarichi di alto livello."
   },
   "11614": {
     "original": "Feature unavailable with current job distribution.",
@@ -34445,7 +34445,7 @@
   },
   "11665": {
     "original": "You were expelled from the duty due to extended inactivity.",
-    "translation": "Sei stato espulso dalla missione a causa di una prolungata inattività."
+    "translation": "Sei stato espulso dall'incarico a causa di una prolungata inattività."
   },
   "11676": {
     "original": "“<hex:022819FF124465736372697074696F6E537472696E67F206A4011D03>” has been added to the Crucible of the Unbroken guide.",
@@ -34457,6 +34457,6 @@
   },
   "11779": {
     "original": "The duty has ended. The time limit for this instance has been adjusted.",
-    "translation": "La missione è terminata. Il limite di tempo per questa istanza è stato modificato."
+    "translation": "L'incarico è terminata. Il limite di tempo per questa istanza è stato modificato."
   }
 }

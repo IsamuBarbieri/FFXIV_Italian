@@ -98,5 +98,13 @@ public class BatchManagerTests
         using var doc3 = System.Text.Json.JsonDocument.Parse(@"{ ""col_31"": ""Small Talk"", ""translation_col_31"": ""Quattro chiacchiere"" }");
         Assert.True(BatchManager.IsRowTranslated(doc3.RootElement));
     }
-}
 
+    [Fact]
+    public void IsRowTranslated_RequiresEveryVisibleField()
+    {
+        using var partial = System.Text.Json.JsonDocument.Parse(@"{ ""name"": ""Duty"", ""translation_name"": ""Incarico"", ""description"": ""A duty"", ""translation_description"": """" }");
+        Assert.False(BatchManager.IsRowTranslated(partial.RootElement));
+        using var complete = System.Text.Json.JsonDocument.Parse(@"{ ""tag"": ""SCRIPT_ID"", ""name"": ""Duty"", ""translation_name"": ""Incarico"", ""description"": ""A duty"", ""translation_description"": ""Un incarico"" }");
+        Assert.True(BatchManager.IsRowTranslated(complete.RootElement));
+    }
+}
