@@ -14,10 +14,12 @@ public static class TranslationPathResolver
         ["textcommand"] = "system",
         ["howto"] = "system",
         ["howtocategory"] = "system",
+        ["baseparam"] = "system",
 
         // World
         ["placename"] = "world",
         ["classjob"] = "world",
+        ["guardiandeity"] = "world",
         ["race"] = "world",
         ["tribe"] = "world",
         ["weather"] = "world",

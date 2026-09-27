@@ -94,8 +94,8 @@ I file di traduzione sono suddivisi logicamente per dominio di gioco:
 
 | Categoria | Descrizione | Fogli Principali |
 |---|---|---|
-| `system/` | Interfaccia utente, schermate di sistema e comandi | `addon.json`, `lobby.json`, `error.json`, `maincommand.json`, `howto.json`, `textcommand.json`, `logmessage.json` |
-| `world/` | Elementi del mondo, geografia, personaggi e clan | `classjob.json`, `race.json`, `tribe.json`, `placename.json`, `fate.json`, `achievement.json`, `title.json`, `weather.json` |
+| `system/` | Interfaccia utente, schermate di sistema, statistiche e comandi | `addon.json`, `baseparam.json`, `lobby.json`, `error.json`, `maincommand.json`, `howto.json`, `textcommand.json`, `logmessage.json` |
+| `world/` | Elementi del mondo, geografia, personaggi e clan | `classjob.json`, `guardiandeity.json`, `race.json`, `tribe.json`, `placename.json`, `fate.json`, `achievement.json`, `title.json`, `weather.json` |
 | `combat/` | Abilità, stati alterati e tratti di combattimento | `action.json`, `actiontransient.json`, `status.json`, `trait.json`, `traittransient.json` |
 | `items/` | Oggetti, equipaggiamento e categorie UI | `item.json`, `itemuicategory.json` |
 | `dialogue/` | Testi ambientali, fumetti e dialoghi generici | `balloon.json`, `customtalk.json`, `defaulttalk.json` |

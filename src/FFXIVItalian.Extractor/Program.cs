@@ -276,44 +276,59 @@ ESEMPI:
         }
 
         var lumina = CreateLumina(sqpackPath);
-        Console.WriteLine($"Ricerca di \"{query}\" in tutti i fogli supportati...");
+        Console.WriteLine($"Ricerca di \"{query}\" in tutti i fogli master testuali...");
         int totalMatches = 0;
+        var rootExl = lumina.GetFile("exd/root.exl");
+        if (rootExl == null) return 1;
+        var sheetNames = System.Text.Encoding.UTF8.GetString(rootExl.Data)
+            .Split(['\r', '\n'], StringSplitOptions.RemoveEmptyEntries)
+            .Select(line => line.Split(',')[0].Trim())
+            .Where(name => name.Length > 0 && !name.Contains('/') && !name.StartsWith("EXLT", StringComparison.OrdinalIgnoreCase));
 
-        foreach (var ext in ExtractorRegistry.GetAll())
+        foreach (string sheetName in sheetNames)
         {
-            var exd = lumina.GetFile($"exd/{ext.SheetName.ToLowerInvariant()}_0_en.exd");
-            if (exd == null) continue;
-
-            var exh = lumina.GetFile($"exd/{ext.SheetName.ToLowerInvariant()}.exh");
-            ushort fixedSize = exh != null ? System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(exh.Data.AsSpan(0x06, 2)) : (ushort)24;
-
-            uint idx = System.Buffers.Binary.BinaryPrimitives.ReadUInt32BigEndian(exd.Data.AsSpan(0x08, 4));
-            int count = (int)(idx / 8);
-
-            for (int i = 0; i < count; i++)
+            var exh = lumina.GetFile($"exd/{sheetName.ToLowerInvariant()}.exh");
+            if (exh == null || exh.Data.Length < 0x20) continue;
+            var header = exh.Data.AsSpan();
+            ushort fixedSize = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(header.Slice(0x06, 2));
+            ushort colCount = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(header.Slice(0x08, 2));
+            ushort pageCount = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(header.Slice(0x0A, 2));
+            var stringOffsets = new List<ushort>();
+            for (int c = 0; c < colCount && 0x20 + c * 4 + 4 <= header.Length; c++)
             {
-                int entryPos = 0x20 + (i * 8);
-                uint rId = System.Buffers.Binary.BinaryPrimitives.ReadUInt32BigEndian(exd.Data.AsSpan(entryPos, 4));
-                uint off = System.Buffers.Binary.BinaryPrimitives.ReadUInt32BigEndian(exd.Data.AsSpan(entryPos + 4, 4));
-                if (off + 6 > exd.Data.Length) continue;
-
-                int dataSize = (int)System.Buffers.Binary.BinaryPrimitives.ReadUInt32BigEndian(exd.Data.AsSpan((int)off, 4));
-                int stringStart = (int)off + 6 + fixedSize;
-                int maxLen = dataSize - fixedSize;
-                if (stringStart + maxLen > exd.Data.Length || maxLen <= 0) continue;
-
-                var strSpan = exd.Data.AsSpan(stringStart, maxLen);
-                string text = BaseSheetExtractor.DecodeSeStringPayload(strSpan);
-
-                if (text.Contains(query, StringComparison.OrdinalIgnoreCase))
+                int pos = 0x20 + c * 4;
+                if (System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(header.Slice(pos, 2)) == 0)
+                    stringOffsets.Add(System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(header.Slice(pos + 2, 2)));
+            }
+            int pageTable = 0x20 + colCount * 4;
+            for (int p = 0; p < pageCount && pageTable + p * 8 + 4 <= header.Length; p++)
+            {
+                uint pageId = System.Buffers.Binary.BinaryPrimitives.ReadUInt32BigEndian(header.Slice(pageTable + p * 8, 4));
+                var exd = lumina.GetFile($"exd/{sheetName.ToLowerInvariant()}_{pageId}_en.exd");
+                if (exd == null || exd.Data.Length < 0x20) continue;
+                var data = exd.Data.AsSpan();
+                int count = (int)(System.Buffers.Binary.BinaryPrimitives.ReadUInt32BigEndian(data.Slice(0x08, 4)) / 8);
+                for (int i = 0; i < count && 0x20 + i * 8 + 8 <= data.Length; i++)
                 {
-                    totalMatches++;
-                    Console.ForegroundColor = ConsoleColor.Cyan;
-                    Console.Write($"  [{ext.SheetName}] ");
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.Write($"Riga {rId}: ");
-                    Console.ResetColor();
-                    Console.WriteLine(text.Replace('\r', ' ').Replace('\n', ' '));
+                    int index = 0x20 + i * 8;
+                    uint rId = System.Buffers.Binary.BinaryPrimitives.ReadUInt32BigEndian(data.Slice(index, 4));
+                    int row = (int)System.Buffers.Binary.BinaryPrimitives.ReadUInt32BigEndian(data.Slice(index + 4, 4));
+                    if (row < 0 || row + 6 + fixedSize > data.Length) continue;
+                    int size = (int)System.Buffers.Binary.BinaryPrimitives.ReadUInt32BigEndian(data.Slice(row, 4));
+                    int end = Math.Min(data.Length, row + 6 + size);
+                    foreach (ushort colOffset in stringOffsets)
+                    {
+                        int fixedPos = row + 6 + colOffset;
+                        if (fixedPos + 4 > row + 6 + fixedSize) continue;
+                        int start = row + 6 + fixedSize + (int)System.Buffers.Binary.BinaryPrimitives.ReadUInt32BigEndian(data.Slice(fixedPos, 4));
+                        if (start < row + 6 + fixedSize || start >= end) continue;
+                        int stop = start;
+                        while (stop < end && data[stop] != 0) stop++;
+                        string value = BaseSheetExtractor.DecodeSeStringPayload(data.Slice(start, stop - start));
+                        if (!value.Contains(query, StringComparison.OrdinalIgnoreCase)) continue;
+                        totalMatches++;
+                        Console.WriteLine($"  [{sheetName}] Riga {rId}, offset {colOffset}: {value.Replace('\r', ' ').Replace('\n', ' ')}");
+                    }
                 }
             }
         }
@@ -854,6 +869,15 @@ ESEMPI:
         {
             Console.WriteLine($"  - {s.Name,-30} ({s.StrCols} col. testo su {s.TotalCols})");
         }
+
+        var knownSheets = ExtractorRegistry.GetNames().ToHashSet(StringComparer.OrdinalIgnoreCase);
+        var missingMasterSheets = textSheetNames
+            .Where(s => !s.Name.Contains('/') && !knownSheets.Contains(s.Name))
+            .OrderBy(s => s.Name)
+            .ToList();
+        Console.WriteLine($"Fogli master testuali non registrati: {missingMasterSheets.Count}");
+        foreach (var s in missingMasterSheets)
+            Console.WriteLine($"  + {s.Name,-30} ({s.StrCols} col. testo su {s.TotalCols})");
 
         // Quest folder breakdown
         var questFolders = textSheetNames

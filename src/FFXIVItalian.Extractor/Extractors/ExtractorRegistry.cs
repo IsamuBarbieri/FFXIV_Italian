@@ -11,6 +11,7 @@ public static class ExtractorRegistry
         // Tier 1: Boot & System
         ["lobby"] = new LobbyExtractor(),
         ["addon"] = new AddonExtractor(),
+        ["addontransient"] = new UniversalSheetExtractor("AddonTransient", description: "Suggerimenti e comandi contestuali dell'interfaccia."),
         ["maincommand"] = new MainCommandExtractor(),
         ["maincommandcategory"] = new MainCommandCategoryExtractor(),
         ["error"] = new ErrorExtractor(),
@@ -21,6 +22,10 @@ public static class ExtractorRegistry
 
         // Tier 2: World & Character
         ["classjob"] = new ClassJobExtractor(),
+        ["classjobactionuicategory"] = new UniversalSheetExtractor("ClassJobActionUICategory", description: "Categorie UI delle azioni di classe e job."),
+        ["classjobcategory"] = new UniversalSheetExtractor("ClassJobCategory", description: "Categorie e restrizioni di classe e job."),
+        ["baseparam"] = new UniversalSheetExtractor("BaseParam", "baseparam.json", "Nomi e descrizioni degli attributi e delle statistiche del personaggio."),
+        ["guardiandeity"] = new UniversalSheetExtractor("GuardianDeity", "guardiandeity.json", "Nomi e descrizioni delle divinità patrone."),
         ["race"] = new RaceExtractor(),
         ["tribe"] = new TribeExtractor(),
         ["placename"] = new PlaceNameExtractor(),
@@ -45,12 +50,17 @@ public static class ExtractorRegistry
 
         // Tier 4: Items
         ["item"] = new UniversalSheetExtractor("Item", "item.json", "Nomi e descrizioni degli oggetti ed equipaggiamento."),
+        ["itemsearchcategory"] = new UniversalSheetExtractor("ItemSearchCategory", description: "Categorie di ricerca degli oggetti."),
+        ["itemseries"] = new UniversalSheetExtractor("ItemSeries", description: "Serie degli equipaggiamenti."),
+        ["itemspecialbonus"] = new UniversalSheetExtractor("ItemSpecialBonus", description: "Etichette dei bonus speciali degli oggetti."),
         ["itemuicategory"] = new UniversalSheetExtractor("ItemUICategory", "itemuicategory.json", "Categorie UI degli oggetti nell'inventario."),
 
         // Tier 5: Dialogue & World Events
         ["balloon"] = new UniversalSheetExtractor("Balloon", "balloon.json", "Fumetti di dialogo sopra la testa degli NPC."),
         ["defaulttalk"] = new UniversalSheetExtractor("DefaultTalk", "defaulttalk.json", "Dialoghi standard degli NPC nel mondo."),
         ["customtalk"] = new UniversalSheetExtractor("CustomTalk", "customtalk.json", "Dialoghi speciali e interazioni NPC."),
+        ["description"] = new UniversalSheetExtractor("Description", description: "Titoli e descrizioni delle guide estese."),
+        ["descriptionstring"] = new UniversalSheetExtractor("DescriptionString", description: "Testi delle guide estese."),
         ["fate"] = new UniversalSheetExtractor("Fate", "fate.json", "Titoli, descrizioni e obiettivi dei FATE."),
         ["achievement"] = new UniversalSheetExtractor("Achievement", "achievement.json", "Trofei e obiettivi sbloccabili."),
         ["contentfindercondition"] = new UniversalSheetExtractor("ContentFinderCondition", "contentfindercondition.json", "Nomi delle attività della Ricerca Incarichi.", selectedStringColumn: 1),

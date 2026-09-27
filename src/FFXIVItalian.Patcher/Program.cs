@@ -2,7 +2,9 @@ using FFXIVItalian.Core.Packaging;
 using FFXIVItalian.Core.Translation;
 using Lumina;
 using Lumina.Data;
+using System.Buffers.Binary;
 using System.Text;
+using System.Text.Json;
 
 Console.WriteLine("==================================================");
 Console.WriteLine(" FFXIV Italian - Penumbra Mod Packager (.pmp)");
@@ -103,6 +105,108 @@ if (Directory.Exists(sqPackPath))
 
                 fileMap["exd/addon_0_en.exd"] = patchedAddonExd;
                 Console.WriteLine($"  * 'exd/addon_0_en.exd' rigenerato ({patchedAddonExd.Length:N0} byte).");
+            }
+        }
+
+        // Fogli aggiunti con l'estrattore universale: stessa sequenza di colonne String dell'EXH.
+        foreach (string sheet in new[] { "addontransient", "classjobactionuicategory", "classjobcategory",
+            "itemsearchcategory", "itemseries", "itemspecialbonus", "description", "descriptionstring" })
+        {
+            string jsonPath = TranslationPathResolver.FindFile(translationsDir, sheet);
+            if (!File.Exists(jsonPath)) continue;
+
+            var exh = lumina.GetFile($"exd/{sheet}.exh")
+                ?? throw new InvalidDataException($"EXH mancante per {sheet}.");
+            ushort fixedSize = BinaryPrimitives.ReadUInt16BigEndian(exh.Data.AsSpan(0x06, 2));
+            ushort columnCount = BinaryPrimitives.ReadUInt16BigEndian(exh.Data.AsSpan(0x08, 2));
+            ushort pageCount = BinaryPrimitives.ReadUInt16BigEndian(exh.Data.AsSpan(0x0A, 2));
+            var offsets = new List<int>();
+            for (int column = 0; column < columnCount; column++)
+            {
+                int position = 0x20 + column * 4;
+                if (BinaryPrimitives.ReadUInt16BigEndian(exh.Data.AsSpan(position, 2)) == 0)
+                    offsets.Add(BinaryPrimitives.ReadUInt16BigEndian(exh.Data.AsSpan(position + 2, 2)));
+            }
+
+            using var document = JsonDocument.Parse(File.ReadAllText(jsonPath));
+            var rows = new Dictionary<uint, IReadOnlyDictionary<int, string>>();
+            foreach (var entry in document.RootElement.EnumerateObject())
+            {
+                if (!uint.TryParse(entry.Name, out uint rowId) || entry.Value.ValueKind != JsonValueKind.Object) continue;
+                var replacements = new Dictionary<int, string>();
+                for (int index = 0; index < offsets.Count; index++)
+                {
+                    string field = offsets.Count == 1 ? "translation" : index switch
+                    {
+                        0 => "translation_name",
+                        1 => "translation_description",
+                        _ => $"translation_col_{index}"
+                    };
+                    if (entry.Value.TryGetProperty(field, out var value) && value.ValueKind == JsonValueKind.String &&
+                        !string.IsNullOrWhiteSpace(value.GetString()))
+                        replacements[offsets[index]] = value.GetString()!;
+                }
+                if (replacements.Count > 0) rows[rowId] = replacements;
+            }
+            if (rows.Count == 0) continue;
+
+            int pageTable = 0x20 + columnCount * 4;
+            for (int page = 0; page < pageCount; page++)
+            {
+                uint startId = BinaryPrimitives.ReadUInt32BigEndian(exh.Data.AsSpan(pageTable + page * 8, 4));
+                uint nextId = page + 1 < pageCount
+                    ? BinaryPrimitives.ReadUInt32BigEndian(exh.Data.AsSpan(pageTable + (page + 1) * 8, 4))
+                    : uint.MaxValue;
+                var pageRows = rows.Where(row => row.Key >= startId && row.Key < nextId)
+                    .ToDictionary(row => row.Key, row => row.Value);
+                if (pageRows.Count == 0) continue;
+                string exdPath = $"exd/{sheet}_{startId}_en.exd";
+                var exd = lumina.GetFile(exdPath)
+                    ?? throw new InvalidDataException($"Pagina EXD mancante: {exdPath}.");
+                fileMap[exdPath] = ExdPatcher.PatchMultiColumnStringSheet(
+                    exd.Data, fixedSize, offsets, pageRows);
+                Console.WriteLine($"  * '{exdPath}' rigenerato ({pageRows.Count} righe tradotte).");
+            }
+        }
+
+        // 2a. PATCH BASEPARAM (nomi e descrizioni delle statistiche del personaggio)
+        string baseParamJsonPath = TranslationPathResolver.FindFile(translationsDir, "baseparam");
+        var baseParamReplacements = TranslationFileReader.LoadTwoStringReplacements(baseParamJsonPath);
+        var baseParamExh = lumina.GetFile("exd/baseparam.exh");
+        var baseParamExd = lumina.GetFile("exd/baseparam_0_en.exd");
+        if (baseParamReplacements.Count > 0 && baseParamExh != null && baseParamExd != null)
+        {
+            ushort fixedSize = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(baseParamExh.Data.AsSpan(0x06, 2));
+            ushort columnCount = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(baseParamExh.Data.AsSpan(0x08, 2));
+            var stringColumnOffsets = new List<int>();
+            for (int column = 0; column < columnCount; column++)
+            {
+                int columnPos = 0x20 + (column * 4);
+                ushort type = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(baseParamExh.Data.AsSpan(columnPos, 2));
+                ushort offset = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(baseParamExh.Data.AsSpan(columnPos + 2, 2));
+                if (type == 0) stringColumnOffsets.Add(offset);
+            }
+
+            if (stringColumnOffsets.Count >= 2)
+            {
+                var replacementsByColumn = baseParamReplacements.ToDictionary(
+                    kvp => kvp.Key,
+                    kvp =>
+                    {
+                        var columns = new Dictionary<int, string>();
+                        if (kvp.Value.Name != null) columns[stringColumnOffsets[0]] = kvp.Value.Name;
+                        if (kvp.Value.Description != null) columns[stringColumnOffsets[1]] = kvp.Value.Description;
+                        return (IReadOnlyDictionary<int, string>)columns;
+                    });
+
+                byte[] patchedBaseParamExd = ExdPatcher.PatchMultiColumnStringSheet(
+                    baseParamExd.Data,
+                    fixedDataSize: fixedSize,
+                    stringColumnOffsets,
+                    replacementsByColumn);
+
+                fileMap["exd/baseparam_0_en.exd"] = patchedBaseParamExd;
+                Console.WriteLine($"  * 'exd/baseparam_0_en.exd' rigenerato ({patchedBaseParamExd.Length:N0} byte).");
             }
         }
 
@@ -293,6 +397,44 @@ if (Directory.Exists(sqPackPath))
 
                 fileMap["exd/classjob_0_en.exd"] = patchedClassJobExd;
                 Console.WriteLine($"  * 'exd/classjob_0_en.exd' rigenerato ({patchedClassJobExd.Length:N0} byte).");
+            }
+        }
+
+        // 6b. PATCH GUARDIAN DEITY (Nomi dei patroni nel profilo personaggio)
+        string guardianDeityJsonPath = TranslationPathResolver.FindFile(translationsDir, "guardiandeity");
+        var guardianDeityReplacements = TranslationFileReader.LoadReplacements(guardianDeityJsonPath);
+        if (guardianDeityReplacements.Count > 0)
+        {
+            var guardianDeityExh = lumina.GetFile("exd/guardiandeity.exh");
+            var guardianDeityExd = lumina.GetFile("exd/guardiandeity_0_en.exd");
+            if (guardianDeityExh != null && guardianDeityExd != null)
+            {
+                ushort fixedSize = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(guardianDeityExh.Data.AsSpan(0x06, 2));
+                ushort columnCount = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(guardianDeityExh.Data.AsSpan(0x08, 2));
+                var stringColumnOffsets = new List<int>();
+                for (int column = 0; column < columnCount; column++)
+                {
+                    int columnPos = 0x20 + (column * 4);
+                    ushort type = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(guardianDeityExh.Data.AsSpan(columnPos, 2));
+                    ushort offset = System.Buffers.Binary.BinaryPrimitives.ReadUInt16BigEndian(guardianDeityExh.Data.AsSpan(columnPos + 2, 2));
+                    if (type == 0) stringColumnOffsets.Add(offset);
+                }
+
+                if (stringColumnOffsets.Count > 0)
+                {
+                    var replacementsByColumn = guardianDeityReplacements.ToDictionary(
+                        kvp => kvp.Key,
+                        kvp => (IReadOnlyDictionary<int, string>)new Dictionary<int, string> { [stringColumnOffsets[0]] = kvp.Value });
+
+                    byte[] patchedGuardianDeityExd = ExdPatcher.PatchMultiColumnStringSheet(
+                        guardianDeityExd.Data,
+                        fixedDataSize: fixedSize,
+                        stringColumnOffsets,
+                        replacementsByColumn);
+
+                    fileMap["exd/guardiandeity_0_en.exd"] = patchedGuardianDeityExd;
+                    Console.WriteLine($"  * 'exd/guardiandeity_0_en.exd' rigenerato ({patchedGuardianDeityExd.Length:N0} byte).");
+                }
             }
         }
 

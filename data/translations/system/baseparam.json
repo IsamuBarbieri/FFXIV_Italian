@@ -1,0 +1,440 @@
+{
+  "1": {
+    "name": "Strength",
+    "translation_name": "Forza",
+    "description": "Affects physical damage dealt by gladiator's arms, marauder's arms, dark knight's arms, gunbreaker's arms, pugilist's arms, lancer's arms, samurai's arms, reaper's arms, beastmaster's arms, thaumaturge's arms, arcanist's arms, red mage's arms, pictomancer's arms, blue mage's arms, conjurer's arms, astrologian's arms, and sage's arms.",
+    "translation_description": "Influisce sui danni fisici inflitti con le armi utilizzate da Gladiatore, Incursore, Cavaliere Oscuro, Eterlama, Pugile, Lanciere, Samurai, Mietitore, Domatore, Taumaturgo, Arcanista, Mago Rosso, Pittomante, Mago Blu, Incantatore, Astrologo e Saggio."
+  },
+  "2": {
+    "name": "Dexterity",
+    "translation_name": "Destrezza",
+    "description": "Affects physical damage dealt by rogue's arms, viper's arms, archer's arms, machinist's arms, and dancer's arms.",
+    "translation_description": "Influisce sui danni fisici inflitti con le armi del Furfante, della Vipera, dell'Arciere, dell'Artificiere e del Danzatore."
+  },
+  "3": {
+    "name": "Vitality",
+    "translation_name": "Vitalità",
+    "description": "Affects maximum HP.",
+    "translation_description": "Influisce sui PV massimi."
+  },
+  "4": {
+    "name": "Intelligence",
+    "translation_name": "Intelligenza",
+    "description": "Affects attack magic potency when role is DPS.",
+    "translation_description": "Influisce sulla potenza delle magie offensive quando il ruolo è DPS."
+  },
+  "5": {
+    "name": "Mind",
+    "translation_name": "Mente",
+    "description": "Affects healing magic potency. Also affects attack magic potency when role is Healer.",
+    "translation_description": "Influisce sulla potenza delle magie curative e, quando il ruolo è Curatore, anche sulla potenza delle magie offensive."
+  },
+  "6": {
+    "name": "Piety",
+    "translation_name": "Devozione",
+    "description": "Affects MP regeneration. Regeneration rate is determined by piety. Only applicable when in battle and role is Healer.",
+    "translation_description": "Influisce sulla rigenerazione dei PM. La velocità di rigenerazione dipende dal valore di Devozione. Si applica solo in combattimento e quando il ruolo è Curatore."
+  },
+  "7": {
+    "name": "HP",
+    "translation_name": "HP",
+    "description": "",
+    "translation_description": ""
+  },
+  "8": {
+    "name": "MP",
+    "translation_name": "MP",
+    "description": "",
+    "translation_description": ""
+  },
+  "9": {
+    "name": "TP",
+    "translation_name": "PT",
+    "description": "",
+    "translation_description": ""
+  },
+  "10": {
+    "name": "GP",
+    "translation_name": "PR",
+    "description": "",
+    "translation_description": ""
+  },
+  "11": {
+    "name": "CP",
+    "translation_name": "PC",
+    "description": "",
+    "translation_description": ""
+  },
+  "12": {
+    "name": "Physical Damage",
+    "translation_name": "Danno Fisico",
+    "description": "",
+    "translation_description": ""
+  },
+  "13": {
+    "name": "Magic Damage",
+    "translation_name": "Danno Magico",
+    "description": "",
+    "translation_description": ""
+  },
+  "14": {
+    "name": "Delay",
+    "translation_name": "Ritardo",
+    "description": "",
+    "translation_description": ""
+  },
+  "15": {
+    "name": "Additional Effect: ",
+    "translation_name": "Effetto Aggiuntivo: ",
+    "description": "",
+    "translation_description": ""
+  },
+  "16": {
+    "name": "Attack Speed",
+    "translation_name": "Velocità d'Attacco",
+    "description": "",
+    "translation_description": ""
+  },
+  "17": {
+    "name": "Block Rate",
+    "translation_name": "Probabilità di Parata",
+    "description": "",
+    "translation_description": ""
+  },
+  "18": {
+    "name": "Block Strength",
+    "translation_name": "Forza di Parata",
+    "description": "",
+    "translation_description": ""
+  },
+  "19": {
+    "name": "Tenacity",
+    "translation_name": "Tenacia",
+    "description": "Affects the amount of physical and magic damage dealt and received, as well as HP restored. The higher the value, the more damage dealt, the more HP restored, and the less damage taken. Only applicable when role is Tank.",
+    "translation_description": "Influisce sui danni fisici e magici inflitti e subiti, nonché sui PV ripristinati. Più alto è il valore, maggiori sono i danni inflitti e i PV ripristinati, e minori i danni subiti. Si applica solo al ruolo Difensore."
+  },
+  "20": {
+    "name": "Attack Power",
+    "translation_name": "Potenza d'Attacco",
+    "description": "Affects amount of damage dealt by physical attacks. The higher the value, the more damage dealt.",
+    "translation_description": "Influisce sui danni inflitti dagli attacchi fisici. Più alto è il valore, maggiori sono i danni inflitti."
+  },
+  "21": {
+    "name": "Defense",
+    "translation_name": "Difesa",
+    "description": "Affects the amount of damage taken by physical attacks. The higher the value, the less damage taken.",
+    "translation_description": "Influisce sui danni subiti dagli attacchi fisici. Più alto è il valore, minori sono i danni subiti."
+  },
+  "22": {
+    "name": "Direct Hit Rate",
+    "translation_name": "Colpo Diretto",
+    "description": "Affects the rate at which your physical and magic attacks land direct hits, dealing slightly more damage than normal hits. The higher the value, the higher the frequency with which your hits will be direct. Higher values will also result in greater damage for actions which guarantee direct hits.",
+    "translation_description": "Influisce sulla frequenza con cui gli attacchi fisici e magici mettono a segno colpi diretti, che infliggono leggermente più danni dei colpi normali. Più alto è il valore, più spesso i colpi saranno diretti. Un valore più alto aumenta anche i danni delle azioni che mettono sempre a segno colpi diretti."
+  },
+  "23": {
+    "name": "Evasion",
+    "translation_name": "Schivata",
+    "description": "",
+    "translation_description": ""
+  },
+  "24": {
+    "name": "Magic Defense",
+    "translation_name": "Difesa Magica",
+    "description": "Affects the amount of damage taken by magic attacks. The higher the value, the less damage taken.",
+    "translation_description": "Influisce sui danni subiti dagli attacchi magici. Più alto è il valore, minori sono i danni subiti."
+  },
+  "25": {
+    "name": "Critical Hit Power",
+    "translation_name": "Potenza Colpo Critico",
+    "description": "",
+    "translation_description": ""
+  },
+  "26": {
+    "name": "Critical Hit Resilience",
+    "translation_name": "Resistenza ai Colpi Critici",
+    "description": "",
+    "translation_description": ""
+  },
+  "27": {
+    "name": "Critical Hit",
+    "translation_name": "Colpo Critico",
+    "description": "Affects the amount of physical and magic damage dealt, as well as HP restored. The higher the value, the higher the frequency with which your hits will be critical/higher the potency of critical hits.",
+    "translation_description": "Influisce sui danni fisici e magici inflitti e sui PV ripristinati. Più alto è il valore, più spesso si mettono a segno colpi critici e maggiore è la potenza dei colpi critici."
+  },
+  "28": {
+    "name": "Critical Hit Evasion",
+    "translation_name": "Evasione Colpo Critico",
+    "description": "",
+    "translation_description": ""
+  },
+  "29": {
+    "name": "Slashing Resistance",
+    "translation_name": "Resistenza ai Danni Taglienti",
+    "description": "Decreases damage done by slashing attacks.",
+    "translation_description": "Riduce i danni degli attacchi taglienti."
+  },
+  "30": {
+    "name": "Piercing Resistance",
+    "translation_name": "Resistenza ai Danni Perforanti",
+    "description": "Decreases damage done by piercing attacks.",
+    "translation_description": "Riduce i danni degli attacchi perforanti."
+  },
+  "31": {
+    "name": "Blunt Resistance",
+    "translation_name": "Resistenza ai Danni Contundenti",
+    "description": "Decreases damage done by blunt attacks.",
+    "translation_description": "Riduce i danni degli attacchi contundenti."
+  },
+  "32": {
+    "name": "Projectile Resistance",
+    "translation_name": "Resistenza ai Proiettili",
+    "description": "",
+    "translation_description": ""
+  },
+  "33": {
+    "name": "Attack Magic Potency",
+    "translation_name": "Attacco Magico",
+    "description": "Affects the amount of damage dealt by magic attacks.",
+    "translation_description": "Influisce sui danni inflitti dagli attacchi magici."
+  },
+  "34": {
+    "name": "Healing Magic Potency",
+    "translation_name": "Potenza Cure",
+    "description": "Affects the amount of HP restored via healing magic.",
+    "translation_description": "Influisce sui PV ripristinati con le magie curative."
+  },
+  "35": {
+    "name": "Enhancement Magic Potency",
+    "translation_name": "Potenza delle Magie di Potenziamento",
+    "description": "",
+    "translation_description": ""
+  },
+  "36": {
+    "name": "Elemental Bonus",
+    "translation_name": "Bonus Elementale",
+    "description": "",
+    "translation_description": ""
+  },
+  "37": {
+    "name": "Fire Resistance",
+    "translation_name": "Resistenza al Fuoco",
+    "description": "Decreases fire-aspected damage.",
+    "translation_description": "Riduce i danni da fuoco."
+  },
+  "38": {
+    "name": "Ice Resistance",
+    "translation_name": "Resistenza al Ghiaccio",
+    "description": "Decreases ice-aspected damage.",
+    "translation_description": "Riduce i danni da ghiaccio."
+  },
+  "39": {
+    "name": "Wind Resistance",
+    "translation_name": "Resistenza al Vento",
+    "description": "Decreases wind-aspected damage.",
+    "translation_description": "Riduce i danni da vento."
+  },
+  "40": {
+    "name": "Earth Resistance",
+    "translation_name": "Resistenza alla Terra",
+    "description": "Decreases earth-aspected damage.",
+    "translation_description": "Riduce i danni da terra."
+  },
+  "41": {
+    "name": "Lightning Resistance",
+    "translation_name": "Resistenza al Fulmine",
+    "description": "Decreases lightning-aspected damage.",
+    "translation_description": "Riduce i danni da fulmine."
+  },
+  "42": {
+    "name": "Water Resistance",
+    "translation_name": "Resistenza all’Acqua",
+    "description": "Decreases water-aspected damage.",
+    "translation_description": "Riduce i danni d'acqua."
+  },
+  "43": {
+    "name": "Magic Resistance",
+    "translation_name": "Resistenza Magica",
+    "description": "",
+    "translation_description": ""
+  },
+  "44": {
+    "name": "Determination",
+    "translation_name": "Determinazione",
+    "description": "Affects the amount of damage dealt by both physical and magic attacks, as well as the amount of HP restored by healing spells.",
+    "translation_description": "Influisce sui danni inflitti dagli attacchi fisici e magici e sui PV ripristinati dalle magie curative."
+  },
+  "45": {
+    "name": "Skill Speed",
+    "translation_name": "Velocità Abilità",
+    "description": "Affects both the casting and recast timers, as well as the damage over time potency for weaponskills and auto-attacks. The higher the value, the shorter the timers/higher the potency.",
+    "translation_description": "Influisce sui tempi di lancio e di riutilizzo e sulla potenza dei danni periodici delle tecniche e degli attacchi automatici. Più alto è il valore, più brevi sono i tempi e maggiore è la potenza."
+  },
+  "46": {
+    "name": "Spell Speed",
+    "translation_name": "Velocità Incantesimi",
+    "description": "Affects both the casting and recast timers for spells. The higher the value, the shorter the timers. Also affects a spell's damage over time or healing over time potency.",
+    "translation_description": "Influisce sui tempi di lancio e di riutilizzo delle magie. Più alto è il valore, più brevi sono i tempi. Influisce anche sulla potenza dei danni e delle cure periodiche delle magie."
+  },
+  "47": {
+    "name": "Haste",
+    "translation_name": "Rapidità",
+    "description": "",
+    "translation_description": ""
+  },
+  "48": {
+    "name": "Morale",
+    "translation_name": "Morale",
+    "description": "In PvP, replaces physical and magical defense in determining damage inflicted by other players. Also influences the amount of damage dealt to other players.",
+    "translation_description": "In PvP sostituisce la difesa fisica e magica nel calcolo dei danni subiti dagli attacchi degli altri giocatori. Influisce anche sui danni inflitti agli altri giocatori."
+  },
+  "49": {
+    "name": "Enmity",
+    "translation_name": "Ostilità",
+    "description": "",
+    "translation_description": ""
+  },
+  "50": {
+    "name": "Enmity Reduction",
+    "translation_name": "Riduzione dell'Ostilità",
+    "description": "",
+    "translation_description": ""
+  },
+  "51": {
+    "name": "Desynthesis Skill Gain",
+    "translation_name": "Bonus Abilità di Desintesi",
+    "description": "",
+    "translation_description": ""
+  },
+  "52": {
+    "name": "EXP Bonus",
+    "translation_name": "Bonus EXP",
+    "description": "",
+    "translation_description": ""
+  },
+  "53": {
+    "name": "Regen",
+    "translation_name": "Rigenerazione",
+    "description": "",
+    "translation_description": ""
+  },
+  "54": {
+    "name": "Special Attribute",
+    "translation_name": "Attributo Speciale",
+    "description": "",
+    "translation_description": ""
+  },
+  "55": {
+    "name": "Main Attribute",
+    "translation_name": "Attributo Principale",
+    "description": "",
+    "translation_description": ""
+  },
+  "56": {
+    "name": "Secondary Attribute",
+    "translation_name": "Attributo Secondario",
+    "description": "",
+    "translation_description": ""
+  },
+  "57": {
+    "name": "Slow Resistance",
+    "translation_name": "Resistenza a Lentezza",
+    "description": "Shortens the duration of slow.",
+    "translation_description": "Riduce la durata di Lentezza."
+  },
+  "58": {
+    "name": "Petrification Resistance",
+    "translation_name": "Resistenza a Pietrificazione",
+    "description": "",
+    "translation_description": ""
+  },
+  "59": {
+    "name": "Paralysis Resistance",
+    "translation_name": "Resistenza a Paralisi",
+    "description": "",
+    "translation_description": ""
+  },
+  "60": {
+    "name": "Silence Resistance",
+    "translation_name": "Resistenza a Silenzio",
+    "description": "Shortens the duration of silence.",
+    "translation_description": "Riduce la durata di Silenzio."
+  },
+  "61": {
+    "name": "Blind Resistance",
+    "translation_name": "Resistenza a Cecità",
+    "description": "Shortens the duration of blind.",
+    "translation_description": "Riduce la durata di Cecità."
+  },
+  "62": {
+    "name": "Poison Resistance",
+    "translation_name": "Resistenza a Veleno",
+    "description": "Shortens the duration of poison.",
+    "translation_description": "Riduce la durata di Veleno."
+  },
+  "63": {
+    "name": "Stun Resistance",
+    "translation_name": "Resistenza a Stordimento",
+    "description": "Shortens the duration of stun.",
+    "translation_description": "Riduce la durata di Stordimento."
+  },
+  "64": {
+    "name": "Sleep Resistance",
+    "translation_name": "Resistenza a Sonno",
+    "description": "Shortens the duration of sleep.",
+    "translation_description": "Riduce la durata di Sonno."
+  },
+  "65": {
+    "name": "Bind Resistance",
+    "translation_name": "Resistenza a Blocco",
+    "description": "Shortens the duration of bind.",
+    "translation_description": "Riduce la durata di Blocco."
+  },
+  "66": {
+    "name": "Heavy Resistance",
+    "translation_name": "Resistenza a Pesantezza",
+    "description": "Shortens the duration of heavy.",
+    "translation_description": "Riduce la durata di Pesantezza."
+  },
+  "67": {
+    "name": "Doom Resistance",
+    "translation_name": "Resistenza a Condanna",
+    "description": "",
+    "translation_description": ""
+  },
+  "68": {
+    "name": "Reduced Durability Loss",
+    "translation_name": "Riduzione della Perdita di Durabilità",
+    "description": "",
+    "translation_description": ""
+  },
+  "69": {
+    "name": "Increased Spiritbond Gain",
+    "translation_name": "Aumento del Legame Spirituale",
+    "description": "",
+    "translation_description": ""
+  },
+  "70": {
+    "name": "Craftsmanship",
+    "translation_name": "Maestria",
+    "description": "Affects the amount of progress achieved in a single synthesis step.",
+    "translation_description": "Influisce sui progressi compiuti in ogni fase di sintesi."
+  },
+  "71": {
+    "name": "Control",
+    "translation_name": "Controllo",
+    "description": "Affects the amount of quality improved in a single synthesis step.",
+    "translation_description": "Influisce sul miglioramento della qualità in ogni fase di sintesi."
+  },
+  "72": {
+    "name": "Gathering",
+    "translation_name": "Raccolta",
+    "description": "Affects the rate at which items are gathered.",
+    "translation_description": "Influisce sulla probabilità di raccogliere gli oggetti."
+  },
+  "73": {
+    "name": "Perception",
+    "translation_name": "Percezione",
+    "description": "Affects item yield when gathering as a botanist or miner, and the size of fish when fishing or spearfishing.",
+    "translation_description": "Influisce sulla quantità di oggetti raccolti da botanici e minatori e sulla taglia dei pesci catturati con la pesca e la pesca subacquea."
+  }
+}

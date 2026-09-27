@@ -123,6 +123,7 @@ Per le **categorie di attività**: Quest = Missione; Subquest = Missione seconda
 | Retainer | Retainer | `system/addon.json#12580:original` | Termine conservato in una specifica etichetta. |
 | Mount | Monta | `system/addon.json#4964:original` | Azione contestuale. |
 | Mount | Pilota | `system/addon.json#11382:original` | Azione contestuale. |
+| Weaponskills | Tecniche | `system/addon.json#14484:original` | Categoria di azione; singolare: Tecnica. |
 | HP | HP | `system/addon.json#232:original` | Sigla conservata in un'etichetta. |
 | MP | MP | `system/addon.json#233:original` | Sigla conservata in un'etichetta. |
 
@@ -152,7 +153,7 @@ Per le **categorie di attività**: Quest = Missione; Subquest = Missione seconda
 | Paladin | Paladino | `world/classjob.json#19:name` |  |
 | Monk | Monaco | `world/classjob.json#20:name` |  |
 | Warrior | Guerriero | `world/classjob.json#21:name` |  |
-| Dragoon | Dragoon | `world/classjob.json#22:name` |  |
+| Dragoon | Dragone | `world/classjob.json#22:name` |  |
 | Bard | Bardo | `world/classjob.json#23:name` |  |
 | White Mage | Mago Bianco | `world/classjob.json#24:name` |  |
 | Black Mage | Mago Nero | `world/classjob.json#25:name` |  |
@@ -174,8 +175,7 @@ Per le **categorie di attività**: Quest = Missione; Subquest = Missione seconda
 | Viper | Vipera | `world/classjob.json#41:name` |  |
 | Pictomancer | Pittomante | `world/classjob.json#42:name` |  |
 | Beastmaster | Domatore | `world/classjob.json#43:name` |  |
-| Goldsmith | Orafo | `system/addon.json#816:original` | Variante attestata nell'interfaccia; nel foglio classjob: Orefice. |
-| Beastmaster | Signore delle Bestie | `world/placename.json#5322:name` | Variante attestata nell'interfaccia; nel foglio classjob: Domatore. |
+| Goldsmith | Orefice | `system/addon.json#816:original` |  |
 
 ### Razze e clan
 
