@@ -177,6 +177,7 @@ dotnet test
 2. **Terminologia approvata**:
    - Consulta `data/glossary/Glossary.md`; ogni voce rimanda a una riga revisionata e le varianti hanno una nota d’uso.
    - `dotnet run --project src/FFXIVItalian.Extractor -- validate --review` segnala possibili incoerenze nei file completi non ancora approvati; aggiungi un percorso per controllare un solo file.
+   - Per raccogliere nuovi termini dai file approvati, cercare le occorrenze nel corpus e revisionare le frasi con un modello locale opzionale, segui [docs/TERMINOLOGY_REVIEW.md](docs/TERMINOLOGY_REVIEW.md).
 3. **Concordanza di Genere e Profilazione Vocale**:
    - Ove possibile, si utilizzano forme inclusive o macro native di genere FFXIV.
    - Ogni comprimario (Urianger, Thancred, Alphinaud, Y'shtola, Tataru, Estinien, Emet-Selch) segue il registro linguistico documentato nella guida di stile.

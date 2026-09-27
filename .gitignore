@@ -17,6 +17,8 @@ venv/
 
 ## Generated Previews
 tools/clan_texture_previews/
+data/glossary/candidates*.json
+data/glossary/review*.json
 
 ## FFXIV Data & Dumps (Never commit raw Square Enix assets)
 *.dat
