@@ -2197,7 +2197,7 @@
   },
   "592": {
     "original": "Leve History",
-    "translation": "Cronologia Incarichi"
+    "translation": "Cronologia Mandati"
   },
   "593": {
     "original": "Journal",
@@ -2205,15 +2205,15 @@
   },
   "594": {
     "original": "Battlecraft",
-    "translation": "Mestieri da Guerra"
+    "translation": "Mandati Guerra"
   },
   "595": {
     "original": "Fieldcraft",
-    "translation": "Mestieri di Raccolta"
+    "translation": "Mandati Raccolta"
   },
   "596": {
     "original": "Tradecraft",
-    "translation": "Mestieri di Artigianato"
+    "translation": "Mandati Artigianato"
   },
   "597": {
     "original": "Faction",
@@ -4061,11 +4061,11 @@
   },
   "1080": {
     "original": "DoW/DoM",
-    "translation": "DdG/DdM"
+    "translation": "DoW/DoM"
   },
   "1081": {
     "original": "DoH/DoL",
-    "translation": "DdM/DdT"
+    "translation": "DoH/DoL"
   },
   "1082": {
     "original": "Tank",
@@ -15833,7 +15833,7 @@
   },
   "4655": {
     "original": "Advanced Melding Forbidden",
-    "translation": "Innesto Avanzata Vietata"
+    "translation": "Innesto Avanzato Vietato"
   },
   "4656": {
     "original": "Melding Fee",
@@ -32601,7 +32601,7 @@
   },
   "10083": {
     "original": "Duty Completion",
-    "translation": "Completamento Incarico"
+    "translation": "Completare Incarico"
   },
   "10084": {
     "original": "Practice",
@@ -32889,7 +32889,7 @@
   },
   "10160": {
     "original": "<hex:024804F2020203>Progress Record<hex:0248020103><hex:02100103>Progress within the latest Savage raids is<hex:02100103>periodically saved, allowing for continuation<hex:02100103>of the duty from that point.<hex:02100103><hex:02100103>Progress is reset every week on<hex:02100103><hex:020603120303><hex:020942DDFF0753756E646179FF074D6F6E646179FF0854756573646179FF0A5765646E6573646179FF095468757273646179FF07467269646179FF09536174757264617903> at <hex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03> <hex:020810E0DB0DFF05702E6D2EFF05612E6D2E03> (Earth time).<hex:02100103><hex:02100103><hex:024804F2020203>Party Progress<hex:0248020103><hex:02100103>A party's starting point in the raid is<hex:02100103>determined by the leader's past progress.<hex:02100103>As long as all other conditions are met, <hex:02100103>players who have not progressed as far as<hex:02100103>the leader may still participate in the duty.<hex:02100103><hex:02100103>If a party member's progress was less<hex:02100103>than that of the leader, then progress<hex:02100103>will be updated to match.<hex:02100103><hex:02100103>If a party member's progress is beyond<hex:02100103>that of the leader, that member's progress<hex:02100103>will remain unaffected.<hex:02100103><hex:02100103><hex:024804F2020203>Reward Restrictions<hex:0248020103><hex:02100103>Players will not earn rewards for completing<hex:02100103>phases they have already completed.<hex:02100103>Coffer quantity will vary based on the total<hex:02100103>number of party members who have already<hex:02100103>completed the duty.<hex:02100103><hex:02100103>When participating in the latest Savage raid<hex:02100103>with a matched party, duty rewards may<hex:02100103>change based on the progress level of<hex:02100103>matched members.<hex:02100103><hex:02100103><hex:024804F2020203>Job Distribution<hex:0248020103><hex:02100103>Parties formed with the Raid Finder do not<hex:02100103>allow for two members with the same job<hex:02100103>unless certain conditions are met.<hex:02100103><hex:02100103>DPS jobs are divided into the following roles:<hex:02100103>Melee DPS, Physical Ranged DPS,<hex:02100103>Magical Ranged DPS, and Not Specified.<hex:02100103><hex:02100103>When the raid purpose is set as “Duty Completion,”<hex:02100103>the jobs that fall into Not Specified must be<hex:02100103>different from the ones which fill the other three<hex:02100103>DPS roles. When the raid purpose is set to “Practice,”<hex:02100103>overlapping between specified and unspecified DPS<hex:02100103>jobs is allowed.<hex:02100103><hex:02100103><hex:024804F2020203>Loot Rules & Languages<hex:0248020103><hex:02100103>Loot rules and Language settings are imported<hex:02100103>from current Duty Finder settings.<hex:02100103><hex:02100103><hex:024804F2020203>Penalties<hex:0248020103><hex:02100103>Penalties for withdrawing from duties are<hex:02100103>shared between all matched content.",
-    "translation": "<hex:024804F2020203>Registro progressi<hex:0248020103><hex:02100103>I progressi nelle incursioni selvagge più recenti vengono<hex:02100103>salvati periodicamente, permettendo di riprendere<hex:02100103>l'incarico da quel punto.<hex:02100103><hex:02100103>I progressi si azzerano ogni settimana di<hex:02100103><hex:020603120303><hex:020942DDFF0753756E646179FF074D6F6E646179FF0854756573646179FF0A5765646E6573646179FF095468757273646179FF07467269646179FF09536174757264617903> alle <hex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03> <hex:020810E0DB0DFF05702E6D2EFF05612E6D2E03> (tempo reale).<hex:02100103><hex:02100103><hex:024804F2020203>Progressi del party<hex:0248020103><hex:02100103>Il punto di partenza nell'incursione per il party è<hex:02100103>determinato dai progressi precedenti del leader.<hex:02100103>Se tutte le altre condizioni sono soddisfatte, <hex:02100103>i giocatori che non sono avanzati quanto il leader<hex:02100103>possono comunque partecipare all'incarico.<hex:02100103><hex:02100103>Se i progressi di un membro erano inferiori<hex:02100103>a quelli del leader, allora i progressi<hex:02100103>verranno aggiornati di conseguenza.<hex:02100103><hex:02100103>Se i progressi di un membro sono superiori<hex:02100103>a quelli del leader, i progressi di quel membro<hex:02100103>rimarranno invariati.<hex:02100103><hex:02100103><hex:024804F2020203>Limitazioni ricompense<hex:0248020103><hex:02100103>I giocatori non otterranno ricompense per<hex:02100103>il completamento di fasi già completate in precedenza.<hex:02100103>Il numero di scrigni varierà in base al totale<hex:02100103>dei membri del party che hanno già completato<hex:02100103>l'incarico.<hex:02100103><hex:02100103>Partecipando all'ultima incursione selvaggia con un<hex:02100103>party abbinato, le ricompense potrebbero variare<hex:02100103>in base al livello di progresso dei membri<hex:02100103>abbinati.<hex:02100103><hex:02100103><hex:024804F2020203>Distribuzione job<hex:0248020103><hex:02100103>I party formati con la Ricerca Incursioni non consentono<hex:02100103>due membri con lo stesso job a meno che non<hex:02100103>siano soddisfatte determinate condizioni.<hex:02100103><hex:02100103>I job DPS sono suddivisi nei seguenti ruoli:<hex:02100103>Melee DPS, Physical Ranged DPS,<hex:02100103>Magical Ranged DPS e Non specificato.<hex:02100103><hex:02100103>Quando l'obiettivo dell'incursione è “Completamento Incarico”,<hex:02100103>i job che rientrano in Non specificato devono essere<hex:02100103>diversi da quelli che occupano gli altri tre ruoli<hex:02100103>DPS. Quando l'obiettivo è impostato su “Pratica”,<hex:02100103>è permessa la sovrapposizione tra job DPS specificati<hex:02100103>e non specificati.<hex:02100103><hex:02100103><hex:024804F2020203>Regole bottino e lingue<hex:0248020103><hex:02100103>Le regole del bottino e della lingua vengono importate<hex:02100103>dalle impostazioni attuali della Ricerca Incarichi.<hex:02100103><hex:02100103><hex:024804F2020203>Penalità<hex:0248020103><hex:02100103>Le penalità per l'abbandono degli incarichi sono<hex:02100103>condivise tra tutti i contenuti abbinati."
+    "translation": "<hex:024804F2020203>Registro progressi<hex:0248020103><hex:02100103>I progressi nelle incursioni selvagge più recenti vengono<hex:02100103>salvati periodicamente, permettendo di riprendere<hex:02100103>l'incarico da quel punto.<hex:02100103><hex:02100103>I progressi si azzerano ogni settimana di<hex:02100103><hex:020603120303><hex:020942DDFF0753756E646179FF074D6F6E646179FF0854756573646179FF0A5765646E6573646179FF095468757273646179FF07467269646179FF09536174757264617903> alle <hex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03> <hex:020810E0DB0DFF05702E6D2EFF05612E6D2E03> (tempo reale).<hex:02100103><hex:02100103><hex:024804F2020203>Progressi del party<hex:0248020103><hex:02100103>Il punto di partenza nell'incursione per il party è<hex:02100103>determinato dai progressi precedenti del leader.<hex:02100103>Se tutte le altre condizioni sono soddisfatte, <hex:02100103>i giocatori che non sono avanzati quanto il leader<hex:02100103>possono comunque partecipare all'incarico.<hex:02100103><hex:02100103>Se i progressi di un membro erano inferiori<hex:02100103>a quelli del leader, allora i progressi<hex:02100103>verranno aggiornati di conseguenza.<hex:02100103><hex:02100103>Se i progressi di un membro sono superiori<hex:02100103>a quelli del leader, i progressi di quel membro<hex:02100103>rimarranno invariati.<hex:02100103><hex:02100103><hex:024804F2020203>Limitazioni ricompense<hex:0248020103><hex:02100103>I giocatori non otterranno ricompense per<hex:02100103>il completamento di fasi già completate in precedenza.<hex:02100103>Il numero di scrigni varierà in base al totale<hex:02100103>dei membri del party che hanno già completato<hex:02100103>l'incarico.<hex:02100103><hex:02100103>Partecipando all'ultima incursione selvaggia con un<hex:02100103>party abbinato, le ricompense potrebbero variare<hex:02100103>in base al livello di progresso dei membri<hex:02100103>abbinati.<hex:02100103><hex:02100103><hex:024804F2020203>Distribuzione job<hex:0248020103><hex:02100103>I party formati con la Ricerca Incursioni non consentono<hex:02100103>due membri con lo stesso job a meno che non<hex:02100103>siano soddisfatte determinate condizioni.<hex:02100103><hex:02100103>I job DPS sono suddivisi nei seguenti ruoli:<hex:02100103>Melee DPS, Physical Ranged DPS,<hex:02100103>Magical Ranged DPS e Non specificato.<hex:02100103><hex:02100103>Quando l'obiettivo dell'incursione è “Completare Incarico”,<hex:02100103>i job che rientrano in Non specificato devono essere<hex:02100103>diversi da quelli che occupano gli altri tre ruoli<hex:02100103>DPS. Quando l'obiettivo è impostato su “Pratica”,<hex:02100103>è permessa la sovrapposizione tra job DPS specificati<hex:02100103>e non specificati.<hex:02100103><hex:02100103><hex:024804F2020203>Regole bottino e lingue<hex:0248020103><hex:02100103>Le regole del bottino e della lingua vengono importate<hex:02100103>dalle impostazioni attuali della Ricerca Incarichi.<hex:02100103><hex:02100103><hex:024804F2020203>Penalità<hex:0248020103><hex:02100103>Le penalità per l'abbandono degli incarichi sono<hex:02100103>condivise tra tutti i contenuti abbinati."
   },
   "10161": {
     "original": "Close",
@@ -35329,7 +35329,7 @@
   },
   "10925": {
     "original": "Duty Completion",
-    "translation": "Completamento Incarico"
+    "translation": "Completare Incarico"
   },
   "10926": {
     "original": "Practice",
@@ -35881,7 +35881,7 @@
   },
   "11077": {
     "original": "Objective: Duty Completion",
-    "translation": "Obiettivo: Completamento Incarico"
+    "translation": "Obiettivo: Completare Incarico"
   },
   "11078": {
     "original": "Objective: Practice",
@@ -44189,7 +44189,7 @@
   },
   "13581": {
     "original": "The <hex:022003E80203> in your possession will be used in succession until advanced materia melding succeeds.",
-    "translation": "Le <hex:022003E80203> in tuo possesso verranno usate in sequenza fino al successo dell'innesto avanzata."
+    "translation": "Le <hex:022003E80203> in tuo possesso verranno usate in sequenza fino al successo dell'innesto avanzato."
   },
   "13582": {
     "original": "Request advanced materia melding in bulk.",
@@ -44197,7 +44197,7 @@
   },
   "13583": {
     "original": "The <hex:022003E80203> in your possession will be used in succession until advanced materia melding succeeds.<hex:02100103>A reward will be offered only once regardless of the number of materia used.",
-    "translation": "Le <hex:022003E80203> in tuo possesso verranno usate in sequenza fino al successo dell'innesto avanzata.<hex:02100103>La ricompensa verrà offerta una sola volta a prescindere dal numero di materia usate."
+    "translation": "Le <hex:022003E80203> in tuo possesso verranno usate in sequenza fino al successo dell'innesto avanzato.<hex:02100103>La ricompensa verrà offerta una sola volta a prescindere dal numero di materia usate."
   },
   "13584": {
     "original": "Requesting advanced materia melding in bulk.",
@@ -44205,7 +44205,7 @@
   },
   "13585": {
     "original": "The <hex:022003E80203> in your possession will be used in succession until advanced materia melding succeeds.<hex:02100103>A reward will be offered only once regardless of the number of materia used.",
-    "translation": "Le <hex:022003E80203> in tuo possesso verranno usate in sequenza fino al successo dell'innesto avanzata.<hex:02100103>La ricompensa verrà offerta una sola volta a prescindere dal numero di materia usate."
+    "translation": "Le <hex:022003E80203> in tuo possesso verranno usate in sequenza fino al successo dell'innesto avanzato.<hex:02100103>La ricompensa verrà offerta una sola volta a prescindere dal numero di materia usate."
   },
   "13586": {
     "original": "Accept request for advanced materia melding in bulk.",
@@ -44213,7 +44213,7 @@
   },
   "13587": {
     "original": "You will be given <hex:022003E80203> attempts to successfully complete advanced materia melding.<hex:02100103>You will be rewarded only once regardless of the number of materia used.",
-    "translation": "Avrai a disposizione <hex:022003E80203> tentativi per completare con successo l'innesto avanzata.<hex:02100103>Riceverai la ricompensa una sola volta a prescindere dal numero di materia usate."
+    "translation": "Avrai a disposizione <hex:022003E80203> tentativi per completare con successo l'innesto avanzato.<hex:02100103>Riceverai la ricompensa una sola volta a prescindere dal numero di materia usate."
   },
   "13600": {
     "original": "You have not caught any fish.",
