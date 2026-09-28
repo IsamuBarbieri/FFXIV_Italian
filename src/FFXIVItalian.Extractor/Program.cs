@@ -47,6 +47,9 @@ public static class Program
             case "extract-quests":
                 return RunExtractQuests(args, sqpackPath);
 
+            case "extract-catalog":
+                return RunExtractCatalog(sqpackPath);
+
             case "discover":
                 return RunDiscover(sqpackPath);
 
@@ -93,6 +96,7 @@ COMANDI DISPONIBILI:
   autofill <foglio|all>         Pre-popola termini identici dal glossario canonico
   reorganize                    Riorganizza i file JSON in sottocartelle tematiche (system/, world/, combat/, items/...)
   extract-quests [esp|all]      Estrae tutti i dialoghi delle quest (all, arr, heavensward, stormblood, etc.)
+  extract-catalog               Estrae i fogli mancanti elencati nel catalogo
   list                          Mostra tutti gli estrattori di fogli registrati
   inspect <foglio> [rowId]      Ispeziona la struttura EXH/EXD di un foglio (es. lobby 1704)
   extract <foglio|all>          Estrae il testo originale in JSON preservando le traduzioni esistenti
@@ -773,7 +777,7 @@ ESEMPI:
 
         var lumina = CreateLumina(sqpackPath);
         Console.WriteLine($"Estrazione Quest narrative (filtro: '{filter}')...");
-        Console.WriteLine($"Destinazione: {Path.Combine(translationsDir, "quests")}");
+        Console.WriteLine($"Destinazione: {Path.Combine(translationsDir, "da_tradurre", "quests")} (o percorso esistente)");
         Console.WriteLine();
 
         var sw = System.Diagnostics.Stopwatch.StartNew();
@@ -871,6 +875,8 @@ ESEMPI:
         }
 
         var knownSheets = ExtractorRegistry.GetNames().ToHashSet(StringComparer.OrdinalIgnoreCase);
+        foreach (var file in Directory.GetFiles(FindTranslationsDir(), "*.json", SearchOption.AllDirectories))
+            knownSheets.Add(Path.GetFileNameWithoutExtension(file));
         var missingMasterSheets = textSheetNames
             .Where(s => !s.Name.Contains('/') && !knownSheets.Contains(s.Name))
             .OrderBy(s => s.Name)
@@ -895,5 +901,65 @@ ESEMPI:
         Console.WriteLine("=========================================================================");
 
         return 0;
+    }
+
+    private static int RunExtractCatalog(string sqpackPath)
+    {
+        if (!Directory.Exists(sqpackPath))
+        {
+            Console.Error.WriteLine($"Percorso sqpack non valido: {sqpackPath}");
+            return 1;
+        }
+
+        string catalog = Path.Combine(Directory.GetCurrentDirectory(), "docs", "UNEXTRACTED_SHEETS_CATALOG.txt");
+        if (!File.Exists(catalog))
+        {
+            Console.Error.WriteLine($"Catalogo non trovato: {catalog}");
+            return 1;
+        }
+
+        var names = System.Text.RegularExpressions.Regex.Matches(File.ReadAllText(catalog), @"(?m)^  \+ (\w+)")
+            .Select(match => match.Groups[1].Value)
+            .Distinct(StringComparer.OrdinalIgnoreCase)
+            .ToList();
+        var lumina = CreateLumina(sqpackPath);
+        string translationsDir = FindTranslationsDir();
+        var existingNames = Directory.GetFiles(translationsDir, "*.json", SearchOption.AllDirectories)
+            .Select(Path.GetFileNameWithoutExtension)
+            .ToHashSet(StringComparer.OrdinalIgnoreCase);
+        int extracted = 0, empty = 0, failed = 0, existing = 0;
+
+        foreach (string name in names)
+        {
+            if (existingNames.Contains(name))
+            {
+                existing++;
+                continue;
+            }
+
+            string target = Path.Combine(translationsDir, "da_tradurre", "misc", $"{name.ToLowerInvariant()}.json");
+            try
+            {
+                int rows = new UniversalSheetExtractor(name).ExtractAndSave(lumina, target);
+                if (rows == 0)
+                {
+                    File.Delete(target);
+                    empty++;
+                }
+                else
+                {
+                    extracted++;
+                    Console.WriteLine($"  {name}: {rows:N0} righe");
+                }
+            }
+            catch (Exception ex)
+            {
+                failed++;
+                Console.Error.WriteLine($"  {name}: {ex.Message}");
+            }
+        }
+
+        Console.WriteLine($"Catalogo: {names.Count} fogli, {extracted} estratti, {existing} già presenti, {empty} senza testo inglese, {failed} errori.");
+        return failed == 0 ? 0 : 1;
     }
 }

@@ -129,8 +129,11 @@ public static class BatchManager
         var allFiles = Directory.GetFiles(translationsDir, "*.json", SearchOption.AllDirectories).ToList();
 
         // Categorize files
-        var masterFiles = allFiles.Where(f => !f.Contains(Path.DirectorySeparatorChar + "quests" + Path.DirectorySeparatorChar)).ToList();
-        var questFiles = allFiles.Where(f => f.Contains(Path.DirectorySeparatorChar + "quests" + Path.DirectorySeparatorChar)).ToList();
+        static bool IsQuestFile(string path) =>
+            int.TryParse(Path.GetFileName(Path.GetDirectoryName(path)), out _) &&
+            path.Contains(Path.DirectorySeparatorChar + "quests" + Path.DirectorySeparatorChar);
+        var masterFiles = allFiles.Where(f => !IsQuestFile(f)).ToList();
+        var questFiles = allFiles.Where(IsQuestFile).ToList();
 
         int grandTotal = 0;
         int grandTranslated = 0;
@@ -220,9 +223,9 @@ public static class BatchManager
             var questGroups = questFiles
                 .GroupBy(f =>
                 {
-                    var rel = Path.GetRelativePath(Path.Combine(translationsDir, "quests"), f);
-                    var parts = rel.Split(Path.DirectorySeparatorChar);
-                    return parts.Length > 0 ? parts[0].ToUpperInvariant() : "ALTRE";
+                    var parts = Path.GetRelativePath(translationsDir, f).Split(Path.DirectorySeparatorChar);
+                    int questIndex = Array.FindIndex(parts, p => p.Equals("quests", StringComparison.OrdinalIgnoreCase));
+                    return questIndex >= 0 && questIndex + 1 < parts.Length ? parts[questIndex + 1].ToUpperInvariant() : "ALTRE";
                 })
                 .OrderBy(g => g.Key);
 

@@ -2,7 +2,7 @@
 
 Pipeline ingegneristica e suite di strumenti per la localizzazione italiana professionale di **Final Fantasy XIV**, basata sul caricatore mod a runtime **Penumbra** (plugin di Dalamud).
 
-Il progetto estrae, gestisce, traduce e ricompila in formato binario nativo EXD l'intero corpus testuale del gioco (oltre 433.000 righe e 5.500 quest) senza toccare i file originali `.dat` di Square Enix.
+Il progetto estrae, organizza, traduce e ricompila testi EXD del gioco. Il corpus attuale comprende 590.561 righe in 5.934 JSON, tra cui 5.532 quest, senza modificare i file originali `.dat` di Square Enix.
 
 La localizzazione comprende anche alcune texture dell'interfaccia: le scritte incorporate nelle immagini vengono adattate in italiano per rendere coerenti elementi visivi e testi di gioco. Le risorse sono organizzate in `data/assets/` e distribuite tramite Penumbra insieme alla mod.
 
@@ -10,10 +10,11 @@ La localizzazione comprende anche alcune texture dell'interfaccia: le scritte in
 
 ## Stato del Progetto
 
-- **Righe Totali Censite ed Estratte**: **433.250 righe**
-- **Righe Totali Attualmente Tradotte**: **39.755 righe (9,2% del corpus di gioco)**
+- **Righe Totali Censite ed Estratte**: **590.561 righe**
+- **Righe con almeno una traduzione**: **50.643** (il dato non misura i singoli campi)
+- **Stato dei file**: **5.890 da tradurre**, **33 da revisionare**, **11 approvati** nel glossario.
 - **Quest Narrative Organizzate per Espansione**: **5.532 missioni** (ARR, Heavensward, Stormblood, Shadowbringers, Endwalker, Dawntrail)
-- **Fogli al 100% Tradotti (22 fogli completi)**:
+- **Fogli con traduzioni presenti** (la copertura per riga non certifica la revisione né la completezza di ogni campo):
   - `addon.json` (14.976/14.976 - 100%): Interfaccia grafica completa, finestre di sistema, HUD, opzioni, indicatori e notifiche di gioco.
   - `placename.json` (5.302/5.302 - 100%): Toponimi completi, regioni, aree, insediamenti e landmark del mondo di gioco.
   - `status.json` (4.791/4.791 - 100%): Tutti gli status alterati, buff, debuff e descrizioni degli effetti di combattimento.
@@ -39,10 +40,24 @@ La localizzazione comprende anche alcune texture dell'interfaccia: le scritte in
   - `maincommandcategory.json` (7/7 - 100%): Categorie del menu principale.
 - **Gradi delle Grandi Compagnie**: completate le descrizioni maschili e femminili dei 19 gradi per ciascuna compagnia (`gcrankgridania*`, `gcranklimsa*`, `gcrankuldah*`).
 - **Infrastruttura**:
-  - Architettura a cartelle categorizzate (`system`, `world`, `combat`, `items`, `dialogue`, `quests`).
+  - Cartelle per stato editoriale e categoria (`da_tradurre`, `da_revisionare`; i file approvati restano nelle categorie originali).
   - Suite script Python per partizionamento, validazione SeString 1:1 e reintegrazione atomica (`scripts/`).
   - Pipeline di traduzione modulare a batch (`status`, `export-batch`, `import-batch`, `autofill`).
   - Patcher binario con hot-deploy istantaneo nella cartella Penumbra attiva (22 file binari EXD registrati in `meta.json` e `default_mod.json`).
+
+---
+
+## Stato editoriale dei file
+
+| Percorso | Contenuto |
+| --- | --- |
+| `data/translations/da_tradurre/<categoria>/` | Fogli senza traduzioni; le quest narrative sono divise per espansione e numero. |
+| `data/translations/da_revisionare/<categoria>/` | Fogli con almeno una traduzione, anche se altre righe o colonne sono ancora in inglese. |
+| `data/translations/system/` e `world/` | Gli 11 file revisionati elencati nella sezione **File approvati** del [glossario](data/glossary/Glossary.md). |
+
+Le categorie comprendono `activities`, `combat`, `crafting`, `dialogue`, `housing`, `items`, `minigames`, `quests`, `shops`, `social`, `system` e `world`. Dopo un'importazione o una nuova estrazione, eseguire `python tools/organize_sheets.py` per aggiornare la posizione dei file. L'approvazione editoriale richiede una revisione e l'aggiunta del file al glossario.
+
+Dei 358 fogli nel catalogo precedente, 354 hanno prodotto JSON con testo inglese. I quattro ancora elencati nel [catalogo corrente](docs/UNEXTRACTED_SHEETS_CATALOG.txt) non contengono righe inglesi nel client attuale.
 
 ---
 
@@ -53,13 +68,11 @@ FFXIV_Italian/
 ├── data/
 │   ├── batches/                   # File batch temporanei per traduzioni (export/import)
 │   ├── glossary/                  # Glossary.md (termini dai file approvati)
-│   └── translations/              # Corpus completo dei testi estratti e tradotti
-│       ├── system/                # UI, Addon, Lobby, Error, MainCommand, HowTo, TextCommand, LogMessage
-│       ├── world/                 # ClassJob, Race, Tribe, PlaceName, Weather, Fate, Achievement, Title
-│       ├── combat/                # Action, ActionTransient, Status, Trait, TraitTransient
-│       ├── items/                 # Item, ItemUiCategory
-│       ├── dialogue/              # Balloon, CustomTalk, DefaultTalk
-│       └── quests/                # 5.532 missioni suddivise per espansione (arr, heavensward, etc.)
+│   └── translations/              # Corpus JSON
+│       ├── da_tradurre/           # Nessuna traduzione; categorie e quest per espansione
+│       ├── da_revisionare/        # Almeno una traduzione, senza approvazione editoriale
+│       ├── system/                # Solo file revisionati e approvati
+│       └── world/                 # Solo file revisionati e approvati
 ├── docs/
 │   ├── ARCHITECTURE.md            # Architettura software, formati file e ciclo di vita patch
 │   ├── BATCH_TRANSLATION_GUIDE.md # Guida pratica alla traduzione a batch con AI o manuale
@@ -76,7 +89,7 @@ FFXIV_Italian/
 │   ├── FFXIVItalian.DiffTool/     # Comparatore delta patch per aggiornamenti di gioco
 │   └── FFXIVItalian.Patcher/      # Compilatore binario EXD, generatore .pmp e deployer Penumbra
 ├── tests/
-│   └── FFXIVItalian.Tests/        # Test suite xUnit (39 test: SeString, BatchManager, PathResolver, ecc.)
+│   └── FFXIVItalian.Tests/        # Test xUnit: SeString, batch, percorsi, ecc.
 ├── rebuild.bat                    # Script one-click per ricompilare il modpack
 └── rebuild.ps1                    # Script PowerShell one-click per ricompilare il modpack
 ```
@@ -105,22 +118,22 @@ Per tradurre senza sprecare token e con la massima precisione:
 
 1. **Esportare un lotto di righe non tradotte**:
    ```powershell
-   # Esporta fino a 100 righe pendenti dal foglio addon
-   dotnet run --project src/FFXIVItalian.Extractor -- export-batch addon --limit 100
+   # Esporta fino a 100 righe pendenti dal foglio balloon
+   dotnet run --project src/FFXIVItalian.Extractor -- export-batch balloon --size 100
    ```
 2. **Tradurre il file generato in `data/batches/`**:
-   - Utilizzare le istruzioni di [docs/PROMPT_COMPACT.md](file:///docs/PROMPT_COMPACT.md) (o [docs/TRANSLATION_PROMPT.md](file:///docs/TRANSLATION_PROMPT.md)) e il canone di [docs/STYLE_GUIDE.md](file:///docs/STYLE_GUIDE.md).
+   - Utilizzare le istruzioni di [docs/PROMPT_COMPACT.md](docs/PROMPT_COMPACT.md) (o [docs/TRANSLATION_PROMPT.md](docs/TRANSLATION_PROMPT.md)) e il canone di [docs/STYLE_GUIDE.md](docs/STYLE_GUIDE.md).
    - Preservare i codici di controllo e i tag SeString. Se un tag `<hex:...>` contiene testo inglese visibile, tradurlo e ricodificare le lunghezze del payload come descritto in `docs/TRANSLATION_PROMPT.md`.
 3. **Importare il batch tradotto nel foglio master**:
    ```powershell
-   dotnet run --project src/FFXIVItalian.Extractor -- import-batch addon data/batches/addon_batch_XXXXX.json
+   dotnet run --project src/FFXIVItalian.Extractor -- import-batch balloon data/batches/balloon_batch_XXXXX.json
    ```
 4. **Propagare traduzioni identiche (`autofill`)**:
    ```powershell
-   dotnet run --project src/FFXIVItalian.Extractor -- autofill
+   dotnet run --project src/FFXIVItalian.Extractor -- autofill all
    ```
 
-Per l'architettura parallela avanzata con subagenti e la guida rapida token-zero, consulta [docs/WORKFLOW_ANTIGRAVITY.md](file:///docs/WORKFLOW_ANTIGRAVITY.md) e [docs/BATCH_TRANSLATION_GUIDE.md](file:///docs/BATCH_TRANSLATION_GUIDE.md).
+Per la guida operativa consulta [docs/WORKFLOW_ANTIGRAVITY.md](docs/WORKFLOW_ANTIGRAVITY.md) e [docs/BATCH_TRANSLATION_GUIDE.md](docs/BATCH_TRANSLATION_GUIDE.md).
 
 ---
 
@@ -155,8 +168,15 @@ dotnet run --project src/FFXIVItalian.Extractor -- extract addon
 # Estrarre tutte le 5.532 quest narrative divise per espansione
 dotnet run --project src/FFXIVItalian.Extractor -- extract-quests
 
-# Riorganizzare automaticamente eventuali fogli piatti nella struttura a categorie
-dotnet run --project src/FFXIVItalian.Extractor -- reorganize
+# Rigenerare il catalogo dopo una patch del client
+dotnet run --project src/FFXIVItalian.Extractor -- discover | Set-Content -Encoding utf8 docs/UNEXTRACTED_SHEETS_CATALOG.txt
+
+# Estrarre i fogli ancora elencati nel catalogo
+dotnet run --project src/FFXIVItalian.Extractor -- extract-catalog
+
+# Aggiornare cartelle di stato e categoria dopo traduzioni o estrazioni
+python tools/organize_sheets.py
+
 ```
 
 ---
@@ -190,4 +210,4 @@ Grazie.
 
 ## Licenza e Diritti
 Questo progetto è un'iniziativa fan-made amatoriale della community italiana. Final Fantasy XIV e tutti i relativi asset, marchi e testi sono proprietà intellettuale e copyright di **SQUARE ENIX CO., LTD.**
-Nessun file proprietario protetto da copyright viene ridistribuito nel repository.
+Il repository include anche il pacchetto `.pmp` generato; Final Fantasy XIV e gli asset originali restano di SQUARE ENIX CO., LTD.

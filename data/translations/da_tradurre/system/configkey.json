@@ -1,0 +1,2594 @@
+{
+  "11": {
+    "name": "MOVE_AND_STEER",
+    "translation_name": "",
+    "description": "Steer",
+    "translation_description": ""
+  },
+  "12": {
+    "name": "MOVE_FORE",
+    "translation_name": "",
+    "description": "Move Forward",
+    "translation_description": ""
+  },
+  "13": {
+    "name": "MOVE_BACK",
+    "translation_name": "",
+    "description": "Move Back / Walk Backwards",
+    "translation_description": ""
+  },
+  "14": {
+    "name": "MOVE_LEFT",
+    "translation_name": "",
+    "description": "Move Left / Turn Left",
+    "translation_description": ""
+  },
+  "15": {
+    "name": "MOVE_RIGHT",
+    "translation_name": "",
+    "description": "Move Right / Turn Right",
+    "translation_description": ""
+  },
+  "16": {
+    "name": "MOVE_STRIFE_L",
+    "translation_name": "",
+    "description": "Strafe Left",
+    "translation_description": ""
+  },
+  "17": {
+    "name": "MOVE_STRIFE_R",
+    "translation_name": "",
+    "description": "Strafe Right",
+    "translation_description": ""
+  },
+  "18": {
+    "name": "JUMP",
+    "translation_name": "",
+    "description": "Jump",
+    "translation_description": ""
+  },
+  "19": {
+    "name": "WALK",
+    "translation_name": "",
+    "description": "Toggle between Run/Walk",
+    "translation_description": ""
+  },
+  "20": {
+    "name": "AUTORUN_KEY",
+    "translation_name": "",
+    "description": "Turn On/Off Auto-run",
+    "translation_description": ""
+  },
+  "21": {
+    "name": "SWARD",
+    "translation_name": "",
+    "description": "Draw/Sheathe Weapon",
+    "translation_description": ""
+  },
+  "22": {
+    "name": "CAMERA_FOCUS",
+    "translation_name": "",
+    "description": "Lock Camera on Target",
+    "translation_description": ""
+  },
+  "23": {
+    "name": "MOVE_DESCENT",
+    "translation_name": "",
+    "description": "Flight/Diving - Descend",
+    "translation_description": ""
+  },
+  "24": {
+    "name": "MOVE_RETENTION",
+    "translation_name": "",
+    "description": "Flight/Diving - Ascend",
+    "translation_description": ""
+  },
+  "25": {
+    "name": "MOVE_ANGLE_RISING",
+    "translation_name": "",
+    "description": "Flight/Diving - Angular Ascent",
+    "translation_description": ""
+  },
+  "26": {
+    "name": "MOVE_ANGLE_DESCENT",
+    "translation_name": "",
+    "description": "Flight/Diving - Angular Descent",
+    "translation_description": ""
+  },
+  "51": {
+    "name": "CAMERA_UP",
+    "translation_name": "",
+    "description": "Point Camera Up",
+    "translation_description": ""
+  },
+  "52": {
+    "name": "CAMERA_DOWN",
+    "translation_name": "",
+    "description": "Point Camera Down",
+    "translation_description": ""
+  },
+  "53": {
+    "name": "CAMERA_LEFT",
+    "translation_name": "",
+    "description": "Point Camera to the Left",
+    "translation_description": ""
+  },
+  "54": {
+    "name": "CAMERA_RIGHT",
+    "translation_name": "",
+    "description": "Point Camera to the Right",
+    "translation_description": ""
+  },
+  "55": {
+    "name": "CAMERA_MODE",
+    "translation_name": "",
+    "description": "Toggle between 1st/3rd Person Mode",
+    "translation_description": ""
+  },
+  "56": {
+    "name": "CAMERA_BACKWARD",
+    "translation_name": "",
+    "description": "Flip Camera",
+    "translation_description": ""
+  },
+  "57": {
+    "name": "CAMERA_ZOOMIN",
+    "translation_name": "",
+    "description": "Zoom Camera In / Previous Page",
+    "translation_description": ""
+  },
+  "58": {
+    "name": "CAMERA_ZOOMOUT",
+    "translation_name": "",
+    "description": "Zoom Camera Out / Next Page",
+    "translation_description": ""
+  },
+  "59": {
+    "name": "CAMERA_LOAD",
+    "translation_name": "",
+    "description": "Return Camera to Saved Position",
+    "translation_description": ""
+  },
+  "60": {
+    "name": "CAMERA_SAVE",
+    "translation_name": "",
+    "description": "Save Current Camera Position",
+    "translation_description": ""
+  },
+  "61": {
+    "name": "CAMERA_RESET",
+    "translation_name": "",
+    "description": "Return Camera to Default Position",
+    "translation_description": ""
+  },
+  "62": {
+    "name": "CAM_TILT_UP",
+    "translation_name": "",
+    "description": "Tilt Camera Up",
+    "translation_description": ""
+  },
+  "63": {
+    "name": "CAM_TILT_DOWN",
+    "translation_name": "",
+    "description": "Tilt Camera Down",
+    "translation_description": ""
+  },
+  "64": {
+    "name": "CAMERA_LOOKING",
+    "translation_name": "",
+    "description": "Face Camera",
+    "translation_description": ""
+  },
+  "65": {
+    "name": "GROUP_POSE",
+    "translation_name": "",
+    "description": "Group Pose",
+    "translation_description": ""
+  },
+  "66": {
+    "name": "IDLING_CAMERA",
+    "translation_name": "",
+    "description": "Switch to Idling Camera",
+    "translation_description": ""
+  },
+  "103": {
+    "name": "TARGET_NEXT",
+    "translation_name": "",
+    "description": "Cycle through Enemies (Nearest to Farthest)",
+    "translation_description": ""
+  },
+  "104": {
+    "name": "TARGET_PREV",
+    "translation_name": "",
+    "description": "Cycle through Enemies (Farthest to Nearest)",
+    "translation_description": ""
+  },
+  "105": {
+    "name": "TARGET_P1",
+    "translation_name": "",
+    "description": "Target Member 1 in Party List",
+    "translation_description": ""
+  },
+  "106": {
+    "name": "TARGET_P2",
+    "translation_name": "",
+    "description": "Target Member 2 in Party List",
+    "translation_description": ""
+  },
+  "107": {
+    "name": "TARGET_P3",
+    "translation_name": "",
+    "description": "Target Member 3 in Party List",
+    "translation_description": ""
+  },
+  "108": {
+    "name": "TARGET_P4",
+    "translation_name": "",
+    "description": "Target Member 4 in Party List",
+    "translation_description": ""
+  },
+  "109": {
+    "name": "TARGET_P5",
+    "translation_name": "",
+    "description": "Target Member 5 in Party List",
+    "translation_description": ""
+  },
+  "110": {
+    "name": "TARGET_P6",
+    "translation_name": "",
+    "description": "Target Member 6 in Party List",
+    "translation_description": ""
+  },
+  "111": {
+    "name": "TARGET_P7",
+    "translation_name": "",
+    "description": "Target Member 7 in Party List",
+    "translation_description": ""
+  },
+  "112": {
+    "name": "TARGET_P8",
+    "translation_name": "",
+    "description": "Target Member 8 in Party List",
+    "translation_description": ""
+  },
+  "113": {
+    "name": "TARGET_PET",
+    "translation_name": "",
+    "description": "Target Pet/Familiar",
+    "translation_description": ""
+  },
+  "114": {
+    "name": "TARGET_TTOT",
+    "translation_name": "",
+    "description": "Target the Target of Your Current Target (Assist Target)",
+    "translation_description": ""
+  },
+  "115": {
+    "name": "TARGET_LASTTARGET",
+    "translation_name": "",
+    "description": "Target Last Target",
+    "translation_description": ""
+  },
+  "116": {
+    "name": "TARGET_LASTENEMY",
+    "translation_name": "",
+    "description": "Target Last Enemy",
+    "translation_description": ""
+  },
+  "117": {
+    "name": "TARGET_LASTATTACKER",
+    "translation_name": "",
+    "description": "Target Enemy Attacking You",
+    "translation_description": ""
+  },
+  "118": {
+    "name": "TARGET_CLOSEST_ENEMY",
+    "translation_name": "",
+    "description": "Target Nearest Enemy",
+    "translation_description": ""
+  },
+  "119": {
+    "name": "TARGET_CLOSEST_PC",
+    "translation_name": "",
+    "description": "Target Nearest PC",
+    "translation_description": ""
+  },
+  "120": {
+    "name": "TARGET_CLOSEST_NPC",
+    "translation_name": "",
+    "description": "Target Nearest NPC or Object",
+    "translation_description": ""
+  },
+  "121": {
+    "name": "TARGET_FOCUS",
+    "translation_name": "",
+    "description": "Set Focus Target",
+    "translation_description": ""
+  },
+  "122": {
+    "name": "TARGET_SELECT",
+    "translation_name": "",
+    "description": "Target Current Focus Target",
+    "translation_description": ""
+  },
+  "123": {
+    "name": "FACE",
+    "translation_name": "",
+    "description": "Face Target",
+    "translation_description": ""
+  },
+  "124": {
+    "name": "CIRCLE_ALL",
+    "translation_name": "",
+    "description": "Set Targeting Mode to All",
+    "translation_description": ""
+  },
+  "125": {
+    "name": "CIRCLE_ENEMY",
+    "translation_name": "",
+    "description": "Set Targeting Mode to PC Only",
+    "translation_description": ""
+  },
+  "126": {
+    "name": "CIRCLE_PARTY",
+    "translation_name": "",
+    "description": "Set Targeting Mode to Party Only",
+    "translation_description": ""
+  },
+  "127": {
+    "name": "CIRCLE_PC",
+    "translation_name": "",
+    "description": "Set Targeting Mode to Enemy Only",
+    "translation_description": ""
+  },
+  "136": {
+    "name": "TARGET_ENEMY_LIST_UP_KEY",
+    "translation_name": "",
+    "description": "Cycle Up through Enmity List",
+    "translation_description": ""
+  },
+  "137": {
+    "name": "TARGET_ENEMY_LIST_DOWN_KEY",
+    "translation_name": "",
+    "description": "Cycle Down through Enmity List",
+    "translation_description": ""
+  },
+  "138": {
+    "name": "TARGET_ALLIANCE_NEXT_KEY",
+    "translation_name": "",
+    "description": "Cycle through Alliance List (Nearest to Farthest)",
+    "translation_description": ""
+  },
+  "139": {
+    "name": "TARGET_ALLIANCE_PREV_KEY",
+    "translation_name": "",
+    "description": "Cycle through Alliance List (Farthest to Nearest)",
+    "translation_description": ""
+  },
+  "140": {
+    "name": "TARGET_ALLIANCE1_NEXT",
+    "translation_name": "",
+    "description": "Cycle through Alliance List 1 (Nearest to Farthest)",
+    "translation_description": ""
+  },
+  "141": {
+    "name": "TARGET_ALLIANCE1_PREV",
+    "translation_name": "",
+    "description": "Cycle through Alliance List 1 (Farthest to Nearest)",
+    "translation_description": ""
+  },
+  "142": {
+    "name": "TARGET_ALLIANCE2_NEXT",
+    "translation_name": "",
+    "description": "Cycle through Alliance List 2 (Nearest to Farthest)",
+    "translation_description": ""
+  },
+  "143": {
+    "name": "TARGET_ALLIANCE2_PREV",
+    "translation_name": "",
+    "description": "Cycle through Alliance List 2 (Farthest to Nearest)",
+    "translation_description": ""
+  },
+  "144": {
+    "name": "TARGET_ALLIANCE1_1",
+    "translation_name": "",
+    "description": "Target Alliance 1, Member 1",
+    "translation_description": ""
+  },
+  "145": {
+    "name": "TARGET_ALLIANCE1_2",
+    "translation_name": "",
+    "description": "Target Alliance 1, Member 2",
+    "translation_description": ""
+  },
+  "146": {
+    "name": "TARGET_ALLIANCE1_3",
+    "translation_name": "",
+    "description": "Target Alliance 1, Member 3",
+    "translation_description": ""
+  },
+  "147": {
+    "name": "TARGET_ALLIANCE1_4",
+    "translation_name": "",
+    "description": "Target Alliance 1, Member 4",
+    "translation_description": ""
+  },
+  "148": {
+    "name": "TARGET_ALLIANCE1_5",
+    "translation_name": "",
+    "description": "Target Alliance 1, Member 5",
+    "translation_description": ""
+  },
+  "149": {
+    "name": "TARGET_ALLIANCE1_6",
+    "translation_name": "",
+    "description": "Target Alliance 1, Member 6",
+    "translation_description": ""
+  },
+  "150": {
+    "name": "TARGET_ALLIANCE1_7",
+    "translation_name": "",
+    "description": "Target Alliance 1, Member 7",
+    "translation_description": ""
+  },
+  "151": {
+    "name": "TARGET_ALLIANCE1_8",
+    "translation_name": "",
+    "description": "Target Alliance 1, Member 8",
+    "translation_description": ""
+  },
+  "152": {
+    "name": "TARGET_ALLIANCE2_1",
+    "translation_name": "",
+    "description": "Target Alliance 2, Member 1",
+    "translation_description": ""
+  },
+  "153": {
+    "name": "TARGET_ALLIANCE2_2",
+    "translation_name": "",
+    "description": "Target Alliance 2, Member 2",
+    "translation_description": ""
+  },
+  "154": {
+    "name": "TARGET_ALLIANCE2_3",
+    "translation_name": "",
+    "description": "Target Alliance 2, Member 3",
+    "translation_description": ""
+  },
+  "155": {
+    "name": "TARGET_ALLIANCE2_4",
+    "translation_name": "",
+    "description": "Target Alliance 2, Member 4",
+    "translation_description": ""
+  },
+  "156": {
+    "name": "TARGET_ALLIANCE2_5",
+    "translation_name": "",
+    "description": "Target Alliance 2, Member 5",
+    "translation_description": ""
+  },
+  "157": {
+    "name": "TARGET_ALLIANCE2_6",
+    "translation_name": "",
+    "description": "Target Alliance 2, Member 6",
+    "translation_description": ""
+  },
+  "158": {
+    "name": "TARGET_ALLIANCE2_7",
+    "translation_name": "",
+    "description": "Target Alliance 2, Member 7",
+    "translation_description": ""
+  },
+  "159": {
+    "name": "TARGET_ALLIANCE2_8",
+    "translation_name": "",
+    "description": "Target Alliance 2, Member 8",
+    "translation_description": ""
+  },
+  "160": {
+    "name": "BUDDY_TARGET",
+    "translation_name": "",
+    "description": "Target Own Companion",
+    "translation_description": ""
+  },
+  "161": {
+    "name": "TARGET_PVP_OPP_P1",
+    "translation_name": "",
+    "description": "Crystalline Conflict: Target Enemy Party, Member 1",
+    "translation_description": ""
+  },
+  "162": {
+    "name": "TARGET_PVP_OPP_P2",
+    "translation_name": "",
+    "description": "Crystalline Conflict: Target Enemy Party, Member 2",
+    "translation_description": ""
+  },
+  "163": {
+    "name": "TARGET_PVP_OPP_P3",
+    "translation_name": "",
+    "description": "Crystalline Conflict: Target Enemy Party, Member 3",
+    "translation_description": ""
+  },
+  "164": {
+    "name": "TARGET_PVP_OPP_P4",
+    "translation_name": "",
+    "description": "Crystalline Conflict: Target Enemy Party, Member 4",
+    "translation_description": ""
+  },
+  "165": {
+    "name": "TARGET_PVP_OPP_P5",
+    "translation_name": "",
+    "description": "Crystalline Conflict: Target Enemy Party, Member 5",
+    "translation_description": ""
+  },
+  "171": {
+    "name": "CMD_CHAT",
+    "translation_name": "",
+    "description": "Ready Chat Log",
+    "translation_description": ""
+  },
+  "172": {
+    "name": "CMD_COMMAND",
+    "translation_name": "",
+    "description": "Ready Text Command",
+    "translation_description": ""
+  },
+  "173": {
+    "name": "CMD_REPLY",
+    "translation_name": "",
+    "description": "Reply Temporarily (Forward)",
+    "translation_description": ""
+  },
+  "174": {
+    "name": "CMD_REPLY_REV",
+    "translation_name": "",
+    "description": "Reply Temporarily (Back)",
+    "translation_description": ""
+  },
+  "175": {
+    "name": "CMD_SAY",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Say",
+    "translation_description": ""
+  },
+  "176": {
+    "name": "CMD_YELL",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Yell",
+    "translation_description": ""
+  },
+  "177": {
+    "name": "CMD_SHOUT",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Shout",
+    "translation_description": ""
+  },
+  "178": {
+    "name": "CMD_PARTY",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Party",
+    "translation_description": ""
+  },
+  "179": {
+    "name": "CMD_ALLIANCE",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Alliance",
+    "translation_description": ""
+  },
+  "180": {
+    "name": "CMD_FREECOM",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Free Company",
+    "translation_description": ""
+  },
+  "181": {
+    "name": "CMD_LINKSHELL",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Next Linkshell",
+    "translation_description": ""
+  },
+  "182": {
+    "name": "CMD_LINKSHELL_REV",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Previous Linkshell",
+    "translation_description": ""
+  },
+  "183": {
+    "name": "CMD_LINKSHELL_1",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Linkshell [1]",
+    "translation_description": ""
+  },
+  "184": {
+    "name": "CMD_LINKSHELL_2",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Linkshell [2]",
+    "translation_description": ""
+  },
+  "185": {
+    "name": "CMD_LINKSHELL_3",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Linkshell [3]",
+    "translation_description": ""
+  },
+  "186": {
+    "name": "CMD_LINKSHELL_4",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Linkshell [4]",
+    "translation_description": ""
+  },
+  "187": {
+    "name": "CMD_LINKSHELL_5",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Linkshell [5]",
+    "translation_description": ""
+  },
+  "188": {
+    "name": "CMD_LINKSHELL_6",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Linkshell [6]",
+    "translation_description": ""
+  },
+  "189": {
+    "name": "CMD_LINKSHELL_7",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Linkshell [7]",
+    "translation_description": ""
+  },
+  "190": {
+    "name": "CMD_LINKSHELL_8",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Linkshell [8]",
+    "translation_description": ""
+  },
+  "191": {
+    "name": "CMD_REPLY_ALWAYS",
+    "translation_name": "",
+    "description": "Reply (Forward)",
+    "translation_description": ""
+  },
+  "192": {
+    "name": "CMD_REPLY_REV_ALWAYS",
+    "translation_name": "",
+    "description": "Reply (Back)",
+    "translation_description": ""
+  },
+  "193": {
+    "name": "CMD_SAY_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Say",
+    "translation_description": ""
+  },
+  "194": {
+    "name": "CMD_YELL_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Yell",
+    "translation_description": ""
+  },
+  "196": {
+    "name": "CMD_PARTY_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Party",
+    "translation_description": ""
+  },
+  "197": {
+    "name": "CMD_ALLIANCE_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Alliance",
+    "translation_description": ""
+  },
+  "198": {
+    "name": "CMD_FREECOM_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Free Company",
+    "translation_description": ""
+  },
+  "199": {
+    "name": "CMD_LINKSHELL_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Linkshell (Forward)",
+    "translation_description": ""
+  },
+  "200": {
+    "name": "CMD_LINKSHELL_REV_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Linkshell (Back)",
+    "translation_description": ""
+  },
+  "201": {
+    "name": "CMD_LINKSHELL_1_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Linkshell [1]",
+    "translation_description": ""
+  },
+  "202": {
+    "name": "CMD_LINKSHELL_2_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Linkshell [2]",
+    "translation_description": ""
+  },
+  "203": {
+    "name": "CMD_LINKSHELL_3_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Linkshell [3]",
+    "translation_description": ""
+  },
+  "204": {
+    "name": "CMD_LINKSHELL_4_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Linkshell [4]",
+    "translation_description": ""
+  },
+  "205": {
+    "name": "CMD_LINKSHELL_5_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Linkshell [5]",
+    "translation_description": ""
+  },
+  "206": {
+    "name": "CMD_LINKSHELL_6_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Linkshell [6]",
+    "translation_description": ""
+  },
+  "207": {
+    "name": "CMD_LINKSHELL_7_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Linkshell [7]",
+    "translation_description": ""
+  },
+  "208": {
+    "name": "CMD_LINKSHELL_8_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Linkshell [8]",
+    "translation_description": ""
+  },
+  "211": {
+    "name": "OK",
+    "translation_name": "",
+    "description": "Confirm",
+    "translation_description": ""
+  },
+  "212": {
+    "name": "CANCEL",
+    "translation_name": "",
+    "description": "Cancel",
+    "translation_description": ""
+  },
+  "213": {
+    "name": "ESC",
+    "translation_name": "",
+    "description": "Close UI Component/Open System Menu",
+    "translation_description": ""
+  },
+  "214": {
+    "name": "PAD_MAINMENUFOCUS",
+    "translation_name": "",
+    "description": "Target Main Menu",
+    "translation_description": ""
+  },
+  "215": {
+    "name": "MENU",
+    "translation_name": "",
+    "description": "Display Subcommands",
+    "translation_description": ""
+  },
+  "216": {
+    "name": "UP",
+    "translation_name": "",
+    "description": "Move Cursor up/Cycle up through Party List",
+    "translation_description": ""
+  },
+  "217": {
+    "name": "DOWN",
+    "translation_name": "",
+    "description": "Move Cursor down/Cycle down through Party List",
+    "translation_description": ""
+  },
+  "218": {
+    "name": "LEFT",
+    "translation_name": "",
+    "description": "Move Cursor/Target Cursor Left",
+    "translation_description": ""
+  },
+  "219": {
+    "name": "RIGHT",
+    "translation_name": "",
+    "description": "Move Cursor/Target Cursor Right",
+    "translation_description": ""
+  },
+  "220": {
+    "name": "TAB_NEXT",
+    "translation_name": "",
+    "description": "Cycle through UI Component Tabs (Forward)",
+    "translation_description": ""
+  },
+  "221": {
+    "name": "TAB_PREV",
+    "translation_name": "",
+    "description": "Cycle through UI Component Tabs (Back)",
+    "translation_description": ""
+  },
+  "222": {
+    "name": "HOTBAR_UP",
+    "translation_name": "",
+    "description": "Cycle through Hotbars (Up)",
+    "translation_description": ""
+  },
+  "223": {
+    "name": "HOTBAR_DOWN",
+    "translation_name": "",
+    "description": "Cycle through Hotbars (Down)",
+    "translation_description": ""
+  },
+  "224": {
+    "name": "KEY_SCREENSHOT",
+    "translation_name": "",
+    "description": "Take Screenshot",
+    "translation_description": ""
+  },
+  "225": {
+    "name": "HIDE",
+    "translation_name": "",
+    "description": "Toggle UI Display Mode",
+    "translation_description": ""
+  },
+  "226": {
+    "name": "MENU_LAYOUT",
+    "translation_name": "",
+    "description": "Open HUD Layout Mode",
+    "translation_description": ""
+  },
+  "227": {
+    "name": "PAD_HUDFOCUS",
+    "translation_name": "",
+    "description": "Cycle through HUD Components (Forward)",
+    "translation_description": ""
+  },
+  "228": {
+    "name": "PAD_HUDFOCUS_PREV",
+    "translation_name": "",
+    "description": "Cycle through HUD Components (Back)",
+    "translation_description": ""
+  },
+  "229": {
+    "name": "TARGET_CLICK_FILTER",
+    "translation_name": "",
+    "description": "Target Filters",
+    "translation_description": ""
+  },
+  "230": {
+    "name": "MENU_SCALE",
+    "translation_name": "",
+    "description": "Change Window Size",
+    "translation_description": ""
+  },
+  "231": {
+    "name": "HOTBAR_SET_1",
+    "translation_name": "",
+    "description": "Switch to Hotbar 1",
+    "translation_description": ""
+  },
+  "232": {
+    "name": "HOTBAR_SET_2",
+    "translation_name": "",
+    "description": "Switch to Hotbar 2",
+    "translation_description": ""
+  },
+  "233": {
+    "name": "HOTBAR_SET_3",
+    "translation_name": "",
+    "description": "Switch to Hotbar 3",
+    "translation_description": ""
+  },
+  "234": {
+    "name": "HOTBAR_SET_4",
+    "translation_name": "",
+    "description": "Switch to Hotbar 4",
+    "translation_description": ""
+  },
+  "235": {
+    "name": "HOTBAR_SET_5",
+    "translation_name": "",
+    "description": "Switch to Hotbar 5",
+    "translation_description": ""
+  },
+  "236": {
+    "name": "HOTBAR_SET_6",
+    "translation_name": "",
+    "description": "Switch to Hotbar 6",
+    "translation_description": ""
+  },
+  "237": {
+    "name": "HOTBAR_SET_7",
+    "translation_name": "",
+    "description": "Switch to Hotbar 7",
+    "translation_description": ""
+  },
+  "238": {
+    "name": "HOTBAR_SET_8",
+    "translation_name": "",
+    "description": "Switch to Hotbar 8",
+    "translation_description": ""
+  },
+  "239": {
+    "name": "HOTBAR_SET_9",
+    "translation_name": "",
+    "description": "Switch to Hotbar 9",
+    "translation_description": ""
+  },
+  "240": {
+    "name": "HOTBAR_SET_10",
+    "translation_name": "",
+    "description": "Switch to Hotbar 10",
+    "translation_description": ""
+  },
+  "241": {
+    "name": "MACRO_FORCED_OUTAGE",
+    "translation_name": "",
+    "description": "Cancel Macro",
+    "translation_description": ""
+  },
+  "242": {
+    "name": "HOTBAR_SET_EX",
+    "translation_name": "",
+    "description": "Switch to Pet Hotbar",
+    "translation_description": ""
+  },
+  "243": {
+    "name": "MOUSE_CURSOR_SONAR",
+    "translation_name": "",
+    "description": "Mouse Sonar",
+    "translation_description": ""
+  },
+  "244": {
+    "name": "MASTER_VOLUME_MUTE",
+    "translation_name": "",
+    "description": "Mute Master Volume",
+    "translation_description": ""
+  },
+  "245": {
+    "name": "MENU_CONTENTS_GENERAL",
+    "translation_name": "",
+    "description": "General Duty Key",
+    "translation_description": ""
+  },
+  "246": {
+    "name": "HUDLAYOUT_SET1",
+    "translation_name": "",
+    "description": "Switch to HUD Layout 1",
+    "translation_description": ""
+  },
+  "247": {
+    "name": "HUDLAYOUT_SET2",
+    "translation_name": "",
+    "description": "Switch to HUD Layout 2",
+    "translation_description": ""
+  },
+  "248": {
+    "name": "HUDLAYOUT_SET3",
+    "translation_name": "",
+    "description": "Switch to HUD Layout 3",
+    "translation_description": ""
+  },
+  "249": {
+    "name": "HUDLAYOUT_SET4",
+    "translation_name": "",
+    "description": "Switch to HUD Layout 4",
+    "translation_description": ""
+  },
+  "251": {
+    "name": "MENU_STATUS",
+    "translation_name": "",
+    "description": "Character",
+    "translation_description": ""
+  },
+  "252": {
+    "name": "MENU_BAG",
+    "translation_name": "",
+    "description": "Inventory",
+    "translation_description": ""
+  },
+  "253": {
+    "name": "MENU_ARMORY",
+    "translation_name": "",
+    "description": "Armoury Chest",
+    "translation_description": ""
+  },
+  "254": {
+    "name": "MENU_EVENT_BAG",
+    "translation_name": "",
+    "description": "Key Items",
+    "translation_description": ""
+  },
+  "255": {
+    "name": "MENU_MAP",
+    "translation_name": "",
+    "description": "Maps",
+    "translation_description": ""
+  },
+  "256": {
+    "name": "MENU_ACTION",
+    "translation_name": "",
+    "description": "Actions \u0026 Traits",
+    "translation_description": ""
+  },
+  "257": {
+    "name": "MENU_EMOTE",
+    "translation_name": "",
+    "description": "Emotes",
+    "translation_description": ""
+  },
+  "258": {
+    "name": "MENU_MOUNT_NOTEBOOK",
+    "translation_name": "",
+    "description": "Mount Guide",
+    "translation_description": ""
+  },
+  "259": {
+    "name": "MENU_MINION_NOTEBOOK",
+    "translation_name": "",
+    "description": "Minion Guide",
+    "translation_description": ""
+  },
+  "260": {
+    "name": "MENU_PVP_PROFILE",
+    "translation_name": "",
+    "description": "PvP Profile",
+    "translation_description": ""
+  },
+  "261": {
+    "name": "MENU_SOCIAL",
+    "translation_name": "",
+    "description": "Social",
+    "translation_description": ""
+  },
+  "262": {
+    "name": "MENU_PARTY_MEMBER",
+    "translation_name": "",
+    "description": "Party Members",
+    "translation_description": ""
+  },
+  "263": {
+    "name": "MENU_FRIEND_LIST",
+    "translation_name": "",
+    "description": "Friend List",
+    "translation_description": ""
+  },
+  "264": {
+    "name": "MENU_BLACK_LIST",
+    "translation_name": "",
+    "description": "Blacklist",
+    "translation_description": ""
+  },
+  "265": {
+    "name": "MENU_PC_SEARCH",
+    "translation_name": "",
+    "description": "Player Search",
+    "translation_description": ""
+  },
+  "266": {
+    "name": "MENU_LFG",
+    "translation_name": "",
+    "description": "Party Finder",
+    "translation_description": ""
+  },
+  "267": {
+    "name": "MENU_READY_CHECK",
+    "translation_name": "",
+    "description": "Ready Check",
+    "translation_description": ""
+  },
+  "268": {
+    "name": "MENU_FREECOM",
+    "translation_name": "",
+    "description": "Free Company",
+    "translation_description": ""
+  },
+  "269": {
+    "name": "MENU_HOUSING",
+    "translation_name": "",
+    "description": "Housing",
+    "translation_description": ""
+  },
+  "270": {
+    "name": "MENU_LINKSHELL",
+    "translation_name": "",
+    "description": "Linkshells",
+    "translation_description": ""
+  },
+  "271": {
+    "name": "MENU_CONTENT",
+    "translation_name": "",
+    "description": "Duty Finder",
+    "translation_description": ""
+  },
+  "272": {
+    "name": "MENU_CONTENT_INFO",
+    "translation_name": "",
+    "description": "Timers",
+    "translation_description": ""
+  },
+  "273": {
+    "name": "MENU_JOURNAL",
+    "translation_name": "",
+    "description": "Journal",
+    "translation_description": ""
+  },
+  "274": {
+    "name": "MENU_CRAFT",
+    "translation_name": "",
+    "description": "Crafting Log",
+    "translation_description": ""
+  },
+  "275": {
+    "name": "MENU_GATHER",
+    "translation_name": "",
+    "description": "Gathering Log",
+    "translation_description": ""
+  },
+  "276": {
+    "name": "MENU_MONSTER",
+    "translation_name": "",
+    "description": "Hunting Log",
+    "translation_description": ""
+  },
+  "277": {
+    "name": "MENU_FISH",
+    "translation_name": "",
+    "description": "Fishing Log",
+    "translation_description": ""
+  },
+  "278": {
+    "name": "MENU_FISH_GUIDE",
+    "translation_name": "",
+    "description": "Fish Guide",
+    "translation_description": ""
+  },
+  "279": {
+    "name": "MENU_CONTENTS_NOTEBOOK",
+    "translation_name": "",
+    "description": "Challenge Log",
+    "translation_description": ""
+  },
+  "280": {
+    "name": "MENU_ADVENTURE_NOTEBOOK",
+    "translation_name": "",
+    "description": "Sightseeing Log",
+    "translation_description": ""
+  },
+  "281": {
+    "name": "MENU_MARK",
+    "translation_name": "",
+    "description": "Signs",
+    "translation_description": ""
+  },
+  "282": {
+    "name": "MENU_FIELD_MARK",
+    "translation_name": "",
+    "description": "Waymarks",
+    "translation_description": ""
+  },
+  "283": {
+    "name": "MENU_BUDDY",
+    "translation_name": "",
+    "description": "Companions",
+    "translation_description": ""
+  },
+  "284": {
+    "name": "MENU_RETURN",
+    "translation_name": "",
+    "description": "Return",
+    "translation_description": ""
+  },
+  "285": {
+    "name": "MENU_TELEPO",
+    "translation_name": "",
+    "description": "Teleport",
+    "translation_description": ""
+  },
+  "286": {
+    "name": "MENU_ACHIVE",
+    "translation_name": "",
+    "description": "Achievements",
+    "translation_description": ""
+  },
+  "287": {
+    "name": "MENU_SYSTEM",
+    "translation_name": "",
+    "description": "System Menu",
+    "translation_description": ""
+  },
+  "288": {
+    "name": "MENU_HOWTO",
+    "translation_name": "",
+    "description": "Active Help",
+    "translation_description": ""
+  },
+  "289": {
+    "name": "MENU_RECOMMEND_LIST",
+    "translation_name": "",
+    "description": "Recommendations",
+    "translation_description": ""
+  },
+  "290": {
+    "name": "MENU_MACRO",
+    "translation_name": "",
+    "description": "User Macros",
+    "translation_description": ""
+  },
+  "291": {
+    "name": "MENU_SUPPORT",
+    "translation_name": "",
+    "description": "Support Desk",
+    "translation_description": ""
+  },
+  "292": {
+    "name": "MENU_CONFIG",
+    "translation_name": "",
+    "description": "Character Configuration",
+    "translation_description": ""
+  },
+  "293": {
+    "name": "MENU_SYSCONFIG",
+    "translation_name": "",
+    "description": "System Configuration",
+    "translation_description": ""
+  },
+  "294": {
+    "name": "MENU_LOGCOLOR",
+    "translation_name": "",
+    "description": "Log Colors",
+    "translation_description": ""
+  },
+  "295": {
+    "name": "MENU_PADCUSTOMIZE",
+    "translation_name": "",
+    "description": "Button Configuration",
+    "translation_description": ""
+  },
+  "296": {
+    "name": "MENU_GOLD_SAUCER",
+    "translation_name": "",
+    "description": "Gold Saucer",
+    "translation_description": ""
+  },
+  "297": {
+    "name": "MENU_AETHER_CURRENT",
+    "translation_name": "",
+    "description": "Aether Currents",
+    "translation_description": ""
+  },
+  "298": {
+    "name": "MENU_CURRENCY",
+    "translation_name": "",
+    "description": "Currency",
+    "translation_description": ""
+  },
+  "299": {
+    "name": "MENU_GEAR_SET",
+    "translation_name": "",
+    "description": "Gear Sets",
+    "translation_description": ""
+  },
+  "301": {
+    "name": "HOTBAR_1_1",
+    "translation_name": "",
+    "description": "Hotbar 1 - Slot 1",
+    "translation_description": ""
+  },
+  "302": {
+    "name": "HOTBAR_1_2",
+    "translation_name": "",
+    "description": "Hotbar 1 - Slot 2",
+    "translation_description": ""
+  },
+  "303": {
+    "name": "HOTBAR_1_3",
+    "translation_name": "",
+    "description": "Hotbar 1 - Slot 3",
+    "translation_description": ""
+  },
+  "304": {
+    "name": "HOTBAR_1_4",
+    "translation_name": "",
+    "description": "Hotbar 1 - Slot 4",
+    "translation_description": ""
+  },
+  "305": {
+    "name": "HOTBAR_1_5",
+    "translation_name": "",
+    "description": "Hotbar 1 - Slot 5",
+    "translation_description": ""
+  },
+  "306": {
+    "name": "HOTBAR_1_6",
+    "translation_name": "",
+    "description": "Hotbar 1 - Slot 6",
+    "translation_description": ""
+  },
+  "307": {
+    "name": "HOTBAR_1_7",
+    "translation_name": "",
+    "description": "Hotbar 1 - Slot 7",
+    "translation_description": ""
+  },
+  "308": {
+    "name": "HOTBAR_1_8",
+    "translation_name": "",
+    "description": "Hotbar 1 - Slot 8",
+    "translation_description": ""
+  },
+  "309": {
+    "name": "HOTBAR_1_9",
+    "translation_name": "",
+    "description": "Hotbar 1 - Slot 9",
+    "translation_description": ""
+  },
+  "310": {
+    "name": "HOTBAR_1_0",
+    "translation_name": "",
+    "description": "Hotbar 1 - Slot 10",
+    "translation_description": ""
+  },
+  "311": {
+    "name": "HOTBAR_1_A",
+    "translation_name": "",
+    "description": "Hotbar 1 - Slot 11",
+    "translation_description": ""
+  },
+  "312": {
+    "name": "HOTBAR_1_B",
+    "translation_name": "",
+    "description": "Hotbar 1 - Slot 12",
+    "translation_description": ""
+  },
+  "313": {
+    "name": "HOTBAR_2_1",
+    "translation_name": "",
+    "description": "Hotbar 2 - Slot 1",
+    "translation_description": ""
+  },
+  "314": {
+    "name": "HOTBAR_2_2",
+    "translation_name": "",
+    "description": "Hotbar 2 - Slot 2",
+    "translation_description": ""
+  },
+  "315": {
+    "name": "HOTBAR_2_3",
+    "translation_name": "",
+    "description": "Hotbar 2 - Slot 3",
+    "translation_description": ""
+  },
+  "316": {
+    "name": "HOTBAR_2_4",
+    "translation_name": "",
+    "description": "Hotbar 2 - Slot 4",
+    "translation_description": ""
+  },
+  "317": {
+    "name": "HOTBAR_2_5",
+    "translation_name": "",
+    "description": "Hotbar 2 - Slot 5",
+    "translation_description": ""
+  },
+  "318": {
+    "name": "HOTBAR_2_6",
+    "translation_name": "",
+    "description": "Hotbar 2 - Slot 6",
+    "translation_description": ""
+  },
+  "319": {
+    "name": "HOTBAR_2_7",
+    "translation_name": "",
+    "description": "Hotbar 2 - Slot 7",
+    "translation_description": ""
+  },
+  "320": {
+    "name": "HOTBAR_2_8",
+    "translation_name": "",
+    "description": "Hotbar 2 - Slot 8",
+    "translation_description": ""
+  },
+  "321": {
+    "name": "HOTBAR_2_9",
+    "translation_name": "",
+    "description": "Hotbar 2 - Slot 9",
+    "translation_description": ""
+  },
+  "322": {
+    "name": "HOTBAR_2_0",
+    "translation_name": "",
+    "description": "Hotbar 2 - Slot 10",
+    "translation_description": ""
+  },
+  "323": {
+    "name": "HOTBAR_2_A",
+    "translation_name": "",
+    "description": "Hotbar 2 - Slot 11",
+    "translation_description": ""
+  },
+  "324": {
+    "name": "HOTBAR_2_B",
+    "translation_name": "",
+    "description": "Hotbar 2 - Slot 12",
+    "translation_description": ""
+  },
+  "325": {
+    "name": "HOTBAR_3_1",
+    "translation_name": "",
+    "description": "Hotbar 3 - Slot 1",
+    "translation_description": ""
+  },
+  "326": {
+    "name": "HOTBAR_3_2",
+    "translation_name": "",
+    "description": "Hotbar 3 - Slot 2",
+    "translation_description": ""
+  },
+  "327": {
+    "name": "HOTBAR_3_3",
+    "translation_name": "",
+    "description": "Hotbar 3 - Slot 3",
+    "translation_description": ""
+  },
+  "328": {
+    "name": "HOTBAR_3_4",
+    "translation_name": "",
+    "description": "Hotbar 3 - Slot 4",
+    "translation_description": ""
+  },
+  "329": {
+    "name": "HOTBAR_3_5",
+    "translation_name": "",
+    "description": "Hotbar 3 - Slot 5",
+    "translation_description": ""
+  },
+  "330": {
+    "name": "HOTBAR_3_6",
+    "translation_name": "",
+    "description": "Hotbar 3 - Slot 6",
+    "translation_description": ""
+  },
+  "331": {
+    "name": "HOTBAR_3_7",
+    "translation_name": "",
+    "description": "Hotbar 3 - Slot 7",
+    "translation_description": ""
+  },
+  "332": {
+    "name": "HOTBAR_3_8",
+    "translation_name": "",
+    "description": "Hotbar 3 - Slot 8",
+    "translation_description": ""
+  },
+  "333": {
+    "name": "HOTBAR_3_9",
+    "translation_name": "",
+    "description": "Hotbar 3 - Slot 9",
+    "translation_description": ""
+  },
+  "334": {
+    "name": "HOTBAR_3_0",
+    "translation_name": "",
+    "description": "Hotbar 3 - Slot 10",
+    "translation_description": ""
+  },
+  "335": {
+    "name": "HOTBAR_3_A",
+    "translation_name": "",
+    "description": "Hotbar 3 - Slot 11",
+    "translation_description": ""
+  },
+  "336": {
+    "name": "HOTBAR_3_B",
+    "translation_name": "",
+    "description": "Hotbar 3 - Slot 12",
+    "translation_description": ""
+  },
+  "337": {
+    "name": "HOTBAR_4_1",
+    "translation_name": "",
+    "description": "Hotbar 4 - Slot 1",
+    "translation_description": ""
+  },
+  "338": {
+    "name": "HOTBAR_4_2",
+    "translation_name": "",
+    "description": "Hotbar 4 - Slot 2",
+    "translation_description": ""
+  },
+  "339": {
+    "name": "HOTBAR_4_3",
+    "translation_name": "",
+    "description": "Hotbar 4 - Slot 3",
+    "translation_description": ""
+  },
+  "340": {
+    "name": "HOTBAR_4_4",
+    "translation_name": "",
+    "description": "Hotbar 4 - Slot 4",
+    "translation_description": ""
+  },
+  "341": {
+    "name": "HOTBAR_4_5",
+    "translation_name": "",
+    "description": "Hotbar 4 - Slot 5",
+    "translation_description": ""
+  },
+  "342": {
+    "name": "HOTBAR_4_6",
+    "translation_name": "",
+    "description": "Hotbar 4 - Slot 6",
+    "translation_description": ""
+  },
+  "343": {
+    "name": "HOTBAR_4_7",
+    "translation_name": "",
+    "description": "Hotbar 4 - Slot 7",
+    "translation_description": ""
+  },
+  "344": {
+    "name": "HOTBAR_4_8",
+    "translation_name": "",
+    "description": "Hotbar 4 - Slot 8",
+    "translation_description": ""
+  },
+  "345": {
+    "name": "HOTBAR_4_9",
+    "translation_name": "",
+    "description": "Hotbar 4 - Slot 9",
+    "translation_description": ""
+  },
+  "346": {
+    "name": "HOTBAR_4_0",
+    "translation_name": "",
+    "description": "Hotbar 4 - Slot 10",
+    "translation_description": ""
+  },
+  "347": {
+    "name": "HOTBAR_4_A",
+    "translation_name": "",
+    "description": "Hotbar 4 - Slot 11",
+    "translation_description": ""
+  },
+  "348": {
+    "name": "HOTBAR_4_B",
+    "translation_name": "",
+    "description": "Hotbar 4 - Slot 12",
+    "translation_description": ""
+  },
+  "349": {
+    "name": "HOTBAR_5_1",
+    "translation_name": "",
+    "description": "Hotbar 5 - Slot 1",
+    "translation_description": ""
+  },
+  "350": {
+    "name": "HOTBAR_5_2",
+    "translation_name": "",
+    "description": "Hotbar 5 - Slot 2",
+    "translation_description": ""
+  },
+  "351": {
+    "name": "HOTBAR_5_3",
+    "translation_name": "",
+    "description": "Hotbar 5 - Slot 3",
+    "translation_description": ""
+  },
+  "352": {
+    "name": "HOTBAR_5_4",
+    "translation_name": "",
+    "description": "Hotbar 5 - Slot 4",
+    "translation_description": ""
+  },
+  "353": {
+    "name": "HOTBAR_5_5",
+    "translation_name": "",
+    "description": "Hotbar 5 - Slot 5",
+    "translation_description": ""
+  },
+  "354": {
+    "name": "HOTBAR_5_6",
+    "translation_name": "",
+    "description": "Hotbar 5 - Slot 6",
+    "translation_description": ""
+  },
+  "355": {
+    "name": "HOTBAR_5_7",
+    "translation_name": "",
+    "description": "Hotbar 5 - Slot 7",
+    "translation_description": ""
+  },
+  "356": {
+    "name": "HOTBAR_5_8",
+    "translation_name": "",
+    "description": "Hotbar 5 - Slot 8",
+    "translation_description": ""
+  },
+  "357": {
+    "name": "HOTBAR_5_9",
+    "translation_name": "",
+    "description": "Hotbar 5 - Slot 9",
+    "translation_description": ""
+  },
+  "358": {
+    "name": "HOTBAR_5_0",
+    "translation_name": "",
+    "description": "Hotbar 5 - Slot 10",
+    "translation_description": ""
+  },
+  "359": {
+    "name": "HOTBAR_5_A",
+    "translation_name": "",
+    "description": "Hotbar 5 - Slot 11",
+    "translation_description": ""
+  },
+  "360": {
+    "name": "HOTBAR_5_B",
+    "translation_name": "",
+    "description": "Hotbar 5 - Slot 12",
+    "translation_description": ""
+  },
+  "361": {
+    "name": "HOTBAR_6_1",
+    "translation_name": "",
+    "description": "Hotbar 6 - Slot 1",
+    "translation_description": ""
+  },
+  "362": {
+    "name": "HOTBAR_6_2",
+    "translation_name": "",
+    "description": "Hotbar 6 - Slot 2",
+    "translation_description": ""
+  },
+  "363": {
+    "name": "HOTBAR_6_3",
+    "translation_name": "",
+    "description": "Hotbar 6 - Slot 3",
+    "translation_description": ""
+  },
+  "364": {
+    "name": "HOTBAR_6_4",
+    "translation_name": "",
+    "description": "Hotbar 6 - Slot 4",
+    "translation_description": ""
+  },
+  "365": {
+    "name": "HOTBAR_6_5",
+    "translation_name": "",
+    "description": "Hotbar 6 - Slot 5",
+    "translation_description": ""
+  },
+  "366": {
+    "name": "HOTBAR_6_6",
+    "translation_name": "",
+    "description": "Hotbar 6 - Slot 6",
+    "translation_description": ""
+  },
+  "367": {
+    "name": "HOTBAR_6_7",
+    "translation_name": "",
+    "description": "Hotbar 6 - Slot 7",
+    "translation_description": ""
+  },
+  "368": {
+    "name": "HOTBAR_6_8",
+    "translation_name": "",
+    "description": "Hotbar 6 - Slot 8",
+    "translation_description": ""
+  },
+  "369": {
+    "name": "HOTBAR_6_9",
+    "translation_name": "",
+    "description": "Hotbar 6 - Slot 9",
+    "translation_description": ""
+  },
+  "370": {
+    "name": "HOTBAR_6_0",
+    "translation_name": "",
+    "description": "Hotbar 6 - Slot 10",
+    "translation_description": ""
+  },
+  "371": {
+    "name": "HOTBAR_6_A",
+    "translation_name": "",
+    "description": "Hotbar 6 - Slot 11",
+    "translation_description": ""
+  },
+  "372": {
+    "name": "HOTBAR_6_B",
+    "translation_name": "",
+    "description": "Hotbar 6 - Slot 12",
+    "translation_description": ""
+  },
+  "373": {
+    "name": "HOTBAR_7_1",
+    "translation_name": "",
+    "description": "Hotbar 7 - Slot 1",
+    "translation_description": ""
+  },
+  "374": {
+    "name": "HOTBAR_7_2",
+    "translation_name": "",
+    "description": "Hotbar 7 - Slot 2",
+    "translation_description": ""
+  },
+  "375": {
+    "name": "HOTBAR_7_3",
+    "translation_name": "",
+    "description": "Hotbar 7 - Slot 3",
+    "translation_description": ""
+  },
+  "376": {
+    "name": "HOTBAR_7_4",
+    "translation_name": "",
+    "description": "Hotbar 7 - Slot 4",
+    "translation_description": ""
+  },
+  "377": {
+    "name": "HOTBAR_7_5",
+    "translation_name": "",
+    "description": "Hotbar 7 - Slot 5",
+    "translation_description": ""
+  },
+  "378": {
+    "name": "HOTBAR_7_6",
+    "translation_name": "",
+    "description": "Hotbar 7 - Slot 6",
+    "translation_description": ""
+  },
+  "379": {
+    "name": "HOTBAR_7_7",
+    "translation_name": "",
+    "description": "Hotbar 7 - Slot 7",
+    "translation_description": ""
+  },
+  "380": {
+    "name": "HOTBAR_7_8",
+    "translation_name": "",
+    "description": "Hotbar 7 - Slot 8",
+    "translation_description": ""
+  },
+  "381": {
+    "name": "HOTBAR_7_9",
+    "translation_name": "",
+    "description": "Hotbar 7 - Slot 9",
+    "translation_description": ""
+  },
+  "382": {
+    "name": "HOTBAR_7_0",
+    "translation_name": "",
+    "description": "Hotbar 7 - Slot 10",
+    "translation_description": ""
+  },
+  "383": {
+    "name": "HOTBAR_7_A",
+    "translation_name": "",
+    "description": "Hotbar 7 - Slot 11",
+    "translation_description": ""
+  },
+  "384": {
+    "name": "HOTBAR_7_B",
+    "translation_name": "",
+    "description": "Hotbar 7 - Slot 12",
+    "translation_description": ""
+  },
+  "385": {
+    "name": "HOTBAR_8_1",
+    "translation_name": "",
+    "description": "Hotbar 8 - Slot 1",
+    "translation_description": ""
+  },
+  "386": {
+    "name": "HOTBAR_8_2",
+    "translation_name": "",
+    "description": "Hotbar 8 - Slot 2",
+    "translation_description": ""
+  },
+  "387": {
+    "name": "HOTBAR_8_3",
+    "translation_name": "",
+    "description": "Hotbar 8 - Slot 3",
+    "translation_description": ""
+  },
+  "388": {
+    "name": "HOTBAR_8_4",
+    "translation_name": "",
+    "description": "Hotbar 8 - Slot 4",
+    "translation_description": ""
+  },
+  "389": {
+    "name": "HOTBAR_8_5",
+    "translation_name": "",
+    "description": "Hotbar 8 - Slot 5",
+    "translation_description": ""
+  },
+  "390": {
+    "name": "HOTBAR_8_6",
+    "translation_name": "",
+    "description": "Hotbar 8 - Slot 6",
+    "translation_description": ""
+  },
+  "391": {
+    "name": "HOTBAR_8_7",
+    "translation_name": "",
+    "description": "Hotbar 8 - Slot 7",
+    "translation_description": ""
+  },
+  "392": {
+    "name": "HOTBAR_8_8",
+    "translation_name": "",
+    "description": "Hotbar 8 - Slot 8",
+    "translation_description": ""
+  },
+  "393": {
+    "name": "HOTBAR_8_9",
+    "translation_name": "",
+    "description": "Hotbar 8 - Slot 9",
+    "translation_description": ""
+  },
+  "394": {
+    "name": "HOTBAR_8_0",
+    "translation_name": "",
+    "description": "Hotbar 8 - Slot 10",
+    "translation_description": ""
+  },
+  "395": {
+    "name": "HOTBAR_8_A",
+    "translation_name": "",
+    "description": "Hotbar 8 - Slot 11",
+    "translation_description": ""
+  },
+  "396": {
+    "name": "HOTBAR_8_B",
+    "translation_name": "",
+    "description": "Hotbar 8 - Slot 12",
+    "translation_description": ""
+  },
+  "397": {
+    "name": "HOTBAR_9_1",
+    "translation_name": "",
+    "description": "Hotbar 9 - Slot 1",
+    "translation_description": ""
+  },
+  "398": {
+    "name": "HOTBAR_9_2",
+    "translation_name": "",
+    "description": "Hotbar 9 - Slot 2",
+    "translation_description": ""
+  },
+  "399": {
+    "name": "HOTBAR_9_3",
+    "translation_name": "",
+    "description": "Hotbar 9 - Slot 3",
+    "translation_description": ""
+  },
+  "400": {
+    "name": "HOTBAR_9_4",
+    "translation_name": "",
+    "description": "Hotbar 9 - Slot 4",
+    "translation_description": ""
+  },
+  "401": {
+    "name": "HOTBAR_9_5",
+    "translation_name": "",
+    "description": "Hotbar 9 - Slot 5",
+    "translation_description": ""
+  },
+  "402": {
+    "name": "HOTBAR_9_6",
+    "translation_name": "",
+    "description": "Hotbar 9 - Slot 6",
+    "translation_description": ""
+  },
+  "403": {
+    "name": "HOTBAR_9_7",
+    "translation_name": "",
+    "description": "Hotbar 9 - Slot 7",
+    "translation_description": ""
+  },
+  "404": {
+    "name": "HOTBAR_9_8",
+    "translation_name": "",
+    "description": "Hotbar 9 - Slot 8",
+    "translation_description": ""
+  },
+  "405": {
+    "name": "HOTBAR_9_9",
+    "translation_name": "",
+    "description": "Hotbar 9 - Slot 9",
+    "translation_description": ""
+  },
+  "406": {
+    "name": "HOTBAR_9_0",
+    "translation_name": "",
+    "description": "Hotbar 9 - Slot 10",
+    "translation_description": ""
+  },
+  "407": {
+    "name": "HOTBAR_9_A",
+    "translation_name": "",
+    "description": "Hotbar 9 - Slot 11",
+    "translation_description": ""
+  },
+  "408": {
+    "name": "HOTBAR_9_B",
+    "translation_name": "",
+    "description": "Hotbar 9 - Slot 12",
+    "translation_description": ""
+  },
+  "409": {
+    "name": "HOTBAR_10_1",
+    "translation_name": "",
+    "description": "Hotbar 10 - Slot 1",
+    "translation_description": ""
+  },
+  "410": {
+    "name": "HOTBAR_10_2",
+    "translation_name": "",
+    "description": "Hotbar 10 - Slot 2",
+    "translation_description": ""
+  },
+  "411": {
+    "name": "HOTBAR_10_3",
+    "translation_name": "",
+    "description": "Hotbar 10 - Slot 3",
+    "translation_description": ""
+  },
+  "412": {
+    "name": "HOTBAR_10_4",
+    "translation_name": "",
+    "description": "Hotbar 10 - Slot 4",
+    "translation_description": ""
+  },
+  "413": {
+    "name": "HOTBAR_10_5",
+    "translation_name": "",
+    "description": "Hotbar 10 - Slot 5",
+    "translation_description": ""
+  },
+  "414": {
+    "name": "HOTBAR_10_6",
+    "translation_name": "",
+    "description": "Hotbar 10 - Slot 6",
+    "translation_description": ""
+  },
+  "415": {
+    "name": "HOTBAR_10_7",
+    "translation_name": "",
+    "description": "Hotbar 10 - Slot 7",
+    "translation_description": ""
+  },
+  "416": {
+    "name": "HOTBAR_10_8",
+    "translation_name": "",
+    "description": "Hotbar 10 - Slot 8",
+    "translation_description": ""
+  },
+  "417": {
+    "name": "HOTBAR_10_9",
+    "translation_name": "",
+    "description": "Hotbar 10 - Slot 9",
+    "translation_description": ""
+  },
+  "418": {
+    "name": "HOTBAR_10_0",
+    "translation_name": "",
+    "description": "Hotbar 10 - Slot 10",
+    "translation_description": ""
+  },
+  "419": {
+    "name": "HOTBAR_10_A",
+    "translation_name": "",
+    "description": "Hotbar 10 - Slot 11",
+    "translation_description": ""
+  },
+  "420": {
+    "name": "HOTBAR_10_B",
+    "translation_name": "",
+    "description": "Hotbar 10 - Slot 12",
+    "translation_description": ""
+  },
+  "421": {
+    "name": "HOTBAR_EX_1",
+    "translation_name": "",
+    "description": "Pet Hotbar - Slot 1",
+    "translation_description": ""
+  },
+  "422": {
+    "name": "HOTBAR_EX_2",
+    "translation_name": "",
+    "description": "Pet Hotbar - Slot 2",
+    "translation_description": ""
+  },
+  "423": {
+    "name": "HOTBAR_EX_3",
+    "translation_name": "",
+    "description": "Pet Hotbar - Slot 3",
+    "translation_description": ""
+  },
+  "424": {
+    "name": "HOTBAR_EX_4",
+    "translation_name": "",
+    "description": "Pet Hotbar - Slot 4",
+    "translation_description": ""
+  },
+  "425": {
+    "name": "HOTBAR_EX_5",
+    "translation_name": "",
+    "description": "Pet Hotbar - Slot 5",
+    "translation_description": ""
+  },
+  "426": {
+    "name": "HOTBAR_EX_6",
+    "translation_name": "",
+    "description": "Pet Hotbar - Slot 6",
+    "translation_description": ""
+  },
+  "427": {
+    "name": "HOTBAR_EX_7",
+    "translation_name": "",
+    "description": "Pet Hotbar - Slot 7",
+    "translation_description": ""
+  },
+  "428": {
+    "name": "HOTBAR_EX_8",
+    "translation_name": "",
+    "description": "Pet Hotbar - Slot 8",
+    "translation_description": ""
+  },
+  "429": {
+    "name": "HOTBAR_EX_9",
+    "translation_name": "",
+    "description": "Pet Hotbar - Slot 9",
+    "translation_description": ""
+  },
+  "430": {
+    "name": "HOTBAR_EX_0",
+    "translation_name": "",
+    "description": "Pet Hotbar - Slot 10",
+    "translation_description": ""
+  },
+  "431": {
+    "name": "HOTBAR_EX_A",
+    "translation_name": "",
+    "description": "Pet Hotbar - Slot 11",
+    "translation_description": ""
+  },
+  "432": {
+    "name": "HOTBAR_EX_B",
+    "translation_name": "",
+    "description": "Pet Hotbar - Slot 12",
+    "translation_description": ""
+  },
+  "433": {
+    "name": "HOTBAR_CONTENTS_ACT_L",
+    "translation_name": "",
+    "description": "Duty Actions II",
+    "translation_description": ""
+  },
+  "434": {
+    "name": "HOTBAR_CONTENTS_ACT_R",
+    "translation_name": "",
+    "description": "Duty Actions I",
+    "translation_description": ""
+  },
+  "451": {
+    "name": "VIRTUAL_PAD_UP",
+    "translation_name": "",
+    "description": "\u003Chex:0212020203\u003E \u003Chex:022D72FF7002086CE4E94C01FF5F02085BE973FF4A020946E973FF0C646972656374696F6E616CFF0C646972656374696F6E616CFF0C646972656374696F6E616CFF06442D706164FF14646972656374696F6E616C20627574746F6E7303FF0C646972656374696F6E616C03FF060242023E030303\u003E",
+    "translation_description": ""
+  },
+  "452": {
+    "name": "VIRTUAL_PAD_DOWN",
+    "translation_name": "",
+    "description": "\u003Chex:0212020303\u003E \u003Chex:022D72FF7002086CE4E94C01FF5F02085BE973FF4A020946E973FF0C646972656374696F6E616CFF0C646972656374696F6E616CFF0C646972656374696F6E616CFF06442D706164FF14646972656374696F6E616C20627574746F6E7303FF0C646972656374696F6E616C03FF060242023E030303\u003E",
+    "translation_description": ""
+  },
+  "453": {
+    "name": "VIRTUAL_PAD_LEFT",
+    "translation_name": "",
+    "description": "\u003Chex:0212020403\u003E \u003Chex:022D72FF7002086CE4E94C01FF5F02085BE973FF4A020946E973FF0C646972656374696F6E616CFF0C646972656374696F6E616CFF0C646972656374696F6E616CFF06442D706164FF14646972656374696F6E616C20627574746F6E7303FF0C646972656374696F6E616C03FF060242023E030303\u003E",
+    "translation_description": ""
+  },
+  "454": {
+    "name": "VIRTUAL_PAD_RIGHT",
+    "translation_name": "",
+    "description": "\u003Chex:0212020503\u003E \u003Chex:022D72FF7002086CE4E94C01FF5F02085BE973FF4A020946E973FF0C646972656374696F6E616CFF0C646972656374696F6E616CFF0C646972656374696F6E616CFF06442D706164FF14646972656374696F6E616C20627574746F6E7303FF0C646972656374696F6E616C03FF060242023E030303\u003E",
+    "translation_description": ""
+  },
+  "455": {
+    "name": "VIRTUAL_PAD_TRIANGLE",
+    "translation_name": "",
+    "description": "\u003Chex:0212020C03\u003E \u003Chex:020860E4E94C01FF5102084DE973FF3F02093BE973FF0BE296B320427574746F6EFF0BE296B320427574746F6EFF0BE296B320427574746F6EFF095920427574746F6EFF095820427574746F6E03FF095920427574746F6E03FF08024204F201190303\u003E",
+    "translation_description": ""
+  },
+  "456": {
+    "name": "VIRTUAL_PAD_CIRCLE",
+    "translation_name": "",
+    "description": "\u003Chex:0212020903\u003E \u003Chex:020860E4E94C01FF5102084DE973FF3F02093BE973FF0BE2978B20427574746F6EFF0BE2978B20427574746F6EFF0BE2978B20427574746F6EFF094220427574746F6EFF094120427574746F6E03FF094220427574746F6E03FF08024204F2012D0303\u003E",
+    "translation_description": ""
+  },
+  "457": {
+    "name": "VIRTUAL_PAD_CROSS",
+    "translation_name": "",
+    "description": "\u003Chex:0212020A03\u003E \u003Chex:02085DE4E94C01FF4E02084AE973FF3C020938E973FF0AC39720427574746F6EFF0AC39720427574746F6EFF0AC39720427574746F6EFF094120427574746F6EFF094220427574746F6E03FF094120427574746F6E03FF08024204F201410303\u003E",
+    "translation_description": ""
+  },
+  "458": {
+    "name": "VIRTUAL_PAD_SQUARE",
+    "translation_name": "",
+    "description": "\u003Chex:0212020B03\u003E \u003Chex:020860E4E94C01FF5102084DE973FF3F02093BE973FF0BE296A120427574746F6EFF0BE296A120427574746F6EFF0BE296A120427574746F6EFF095820427574746F6EFF095920427574746F6E03FF095820427574746F6E03FF08024204F201550303\u003E",
+    "translation_description": ""
+  },
+  "459": {
+    "name": "VIRTUAL_PAD_START",
+    "translation_name": "",
+    "description": "\u003Chex:0212021303\u003E \u003Chex:020870E4E94C01FF6202085EE973FF4C020948E973FF0D535441525420427574746F6EFF0F4F5054494F4E5320427574746F6EFF0F4F5054494F4E5320427574746F6EFF0C4D454E5520427574746F6EFF092B20427574746F6E03FF0D535441525420427574746F6E03FF07024203F0F10303\u003E",
+    "translation_description": ""
+  },
+  "460": {
+    "name": "VIRTUAL_PAD_SELECT",
+    "translation_name": "",
+    "description": "\u003Chex:0212021403\u003E \u003Chex:020875E4E94C01FF66020862E973FF5102094DE973FF0E53454C45435420427574746F6EFF11546F7563682050616420427574746F6EFF11546F7563682050616420427574746F6EFF0C5669657720427574746F6EFF092D20427574746F6E03FF0C4241434B20427574746F6E03FF08024204F201050303\u003E",
+    "translation_description": ""
+  },
+  "461": {
+    "name": "VIRTUAL_PAD_L1",
+    "translation_name": "",
+    "description": "\u003Chex:0212020D03\u003E \u003Chex:020833E4E94C01FF26020822E973FF1A020916E973FF034C31FF034C31FF034C31FF034C42FF024C03FF034C4203FF06024202520303\u003E \u003Chex:02080FE4E94C08FF01FF07427574746F6E03\u003E",
+    "translation_description": ""
+  },
+  "462": {
+    "name": "VIRTUAL_PAD_L2",
+    "translation_name": "",
+    "description": "\u003Chex:0212020F03\u003E \u003Chex:020834E4E94C01FF27020823E973FF1B020917E973FF034C32FF034C32FF034C32FF034C54FF035A4C03FF034C5403FF06024202660303\u003E \u003Chex:02080FE4E94C08FF01FF07427574746F6E03\u003E",
+    "translation_description": ""
+  },
+  "463": {
+    "name": "VIRTUAL_PAD_R1",
+    "translation_name": "",
+    "description": "\u003Chex:0212020E03\u003E \u003Chex:020833E4E94C01FF26020822E973FF1A020916E973FF035231FF035231FF035231FF035242FF025203FF03524203FF060242028E0303\u003E \u003Chex:02080FE4E94C08FF01FF07427574746F6E03\u003E",
+    "translation_description": ""
+  },
+  "464": {
+    "name": "VIRTUAL_PAD_R2",
+    "translation_name": "",
+    "description": "\u003Chex:0212021003\u003E \u003Chex:020834E4E94C01FF27020823E973FF1B020917E973FF035232FF035232FF035232FF035254FF035A5203FF03525403FF06024202A20303\u003E \u003Chex:02080FE4E94C08FF01FF07427574746F6E03\u003E",
+    "translation_description": ""
+  },
+  "465": {
+    "name": "VIRTUAL_PAD_L3",
+    "translation_name": "",
+    "description": "\u003Chex:0212021103\u003E \u003Chex:02085EE4E94C01FF5102084DE973FF37020933E973FF034C33FF034C33FF034C33FF114C656674205468756D622D636C69636BFF114C65667420537469636B20507265737303FF114C656674205468756D622D636C69636B03FF060242027A0303\u003E",
+    "translation_description": ""
+  },
+  "466": {
+    "name": "VIRTUAL_PAD_R3",
+    "translation_name": "",
+    "description": "\u003Chex:0212021203\u003E \u003Chex:020861E4E94C01FF54020850E973FF39020935E973FF035233FF035233FF035233FF125269676874205468756D622D636C69636BFF12526967687420537469636B20507265737303FF125269676874205468756D622D636C69636B03FF06024202B60303\u003E",
+    "translation_description": ""
+  },
+  "467": {
+    "name": "VIRTUAL_PAD_LSTICK_UP",
+    "translation_name": "",
+    "description": "\u003Chex:0212021503\u003E \u003Chex:020864E4E94C01FF57020853E973FF4302093FE973FF0B4C65667420537469636BFF0B4C65667420537469636BFF0B4C65667420537469636BFF0B4C65667420537469636BFF0B4C65667420537469636B03FF0B4C65667420537469636B03FF06024202CA0303\u003E Up",
+    "translation_description": ""
+  },
+  "468": {
+    "name": "VIRTUAL_PAD_LSTICK_DOWN",
+    "translation_name": "",
+    "description": "\u003Chex:0212021503\u003E \u003Chex:020864E4E94C01FF57020853E973FF4302093FE973FF0B4C65667420537469636BFF0B4C65667420537469636BFF0B4C65667420537469636BFF0B4C65667420537469636BFF0B4C65667420537469636B03FF0B4C65667420537469636B03FF06024202CA0303\u003E Down",
+    "translation_description": ""
+  },
+  "469": {
+    "name": "VIRTUAL_PAD_LSTICK_LEFT",
+    "translation_name": "",
+    "description": "\u003Chex:0212021503\u003E \u003Chex:020864E4E94C01FF57020853E973FF4302093FE973FF0B4C65667420537469636BFF0B4C65667420537469636BFF0B4C65667420537469636BFF0B4C65667420537469636BFF0B4C65667420537469636B03FF0B4C65667420537469636B03FF06024202CA0303\u003E Left",
+    "translation_description": ""
+  },
+  "470": {
+    "name": "VIRTUAL_PAD_LSTICK_RIGHT",
+    "translation_name": "",
+    "description": "\u003Chex:0212021503\u003E \u003Chex:020864E4E94C01FF57020853E973FF4302093FE973FF0B4C65667420537469636BFF0B4C65667420537469636BFF0B4C65667420537469636BFF0B4C65667420537469636BFF0B4C65667420537469636B03FF0B4C65667420537469636B03FF06024202CA0303\u003E Right",
+    "translation_description": ""
+  },
+  "471": {
+    "name": "VIRTUAL_PAD_RSTICK_UP",
+    "translation_name": "",
+    "description": "\u003Chex:0212021803\u003E \u003Chex:02086BE4E94C01FF5D020859E973FF48020944E973FF0C526967687420537469636BFF0C526967687420537469636BFF0C526967687420537469636BFF0C526967687420537469636BFF0C526967687420537469636B03FF0C526967687420537469636B03FF07024203F0DD0303\u003E Up",
+    "translation_description": ""
+  },
+  "472": {
+    "name": "VIRTUAL_PAD_RSTICK_DOWN",
+    "translation_name": "",
+    "description": "\u003Chex:0212021803\u003E \u003Chex:02086BE4E94C01FF5D020859E973FF48020944E973FF0C526967687420537469636BFF0C526967687420537469636BFF0C526967687420537469636BFF0C526967687420537469636BFF0C526967687420537469636B03FF0C526967687420537469636B03FF07024203F0DD0303\u003E Down",
+    "translation_description": ""
+  },
+  "473": {
+    "name": "VIRTUAL_PAD_RSTICK_LEFT",
+    "translation_name": "",
+    "description": "\u003Chex:0212021803\u003E \u003Chex:02086BE4E94C01FF5D020859E973FF48020944E973FF0C526967687420537469636BFF0C526967687420537469636BFF0C526967687420537469636BFF0C526967687420537469636BFF0C526967687420537469636B03FF0C526967687420537469636B03FF07024203F0DD0303\u003E Left",
+    "translation_description": ""
+  },
+  "474": {
+    "name": "VIRTUAL_PAD_RSTICK_RIGHT",
+    "translation_name": "",
+    "description": "\u003Chex:0212021803\u003E \u003Chex:02086BE4E94C01FF5D020859E973FF48020944E973FF0C526967687420537469636BFF0C526967687420537469636BFF0C526967687420537469636BFF0C526967687420537469636BFF0C526967687420537469636B03FF0C526967687420537469636B03FF07024203F0DD0303\u003E Right",
+    "translation_description": ""
+  },
+  "490": {
+    "name": "MENU_PLAY_GUIDE",
+    "translation_name": "",
+    "description": "Playguide",
+    "translation_description": ""
+  },
+  "491": {
+    "name": "MENU_SUBCOMMAND_CUSTOMIZE",
+    "translation_name": "",
+    "description": "Subcommand Customization",
+    "translation_description": ""
+  },
+  "492": {
+    "name": "MENU_BEGINNER_CHANNEL_LIST",
+    "translation_name": "",
+    "description": "Novice Network List",
+    "translation_description": ""
+  },
+  "493": {
+    "name": "MENU_BEGINNERS_MANSION",
+    "translation_name": "",
+    "description": "Hall of the Novice",
+    "translation_description": ""
+  },
+  "494": {
+    "name": "MENU_ORCHESTRION",
+    "translation_name": "",
+    "description": "Orchestrion List",
+    "translation_description": ""
+  },
+  "495": {
+    "name": "MENU_RAID_FINDER",
+    "translation_name": "",
+    "description": "Raid Finder",
+    "translation_description": ""
+  },
+  "496": {
+    "name": "MENU_COUNTDOWN",
+    "translation_name": "",
+    "description": "Countdown",
+    "translation_description": ""
+  },
+  "497": {
+    "name": "MENU_CONTACTLIST",
+    "translation_name": "",
+    "description": "Contact List",
+    "translation_description": ""
+  },
+  "498": {
+    "name": "MENU_GROUND_MOUNT_SPEED",
+    "translation_name": "",
+    "description": "Mount Speed",
+    "translation_description": ""
+  },
+  "499": {
+    "name": "MENU_BUDDY_BAG",
+    "translation_name": "",
+    "description": "Chocobo Saddlebag",
+    "translation_description": ""
+  },
+  "500": {
+    "name": "MENU_CONTENTS_REPLAY",
+    "translation_name": "",
+    "description": "Duty Recorder",
+    "translation_description": ""
+  },
+  "501": {
+    "name": "MENU_REPLAY_READY_CHECK",
+    "translation_name": "",
+    "description": "Record Ready Check",
+    "translation_description": ""
+  },
+  "502": {
+    "name": "MENU_PVPTEAM_UI",
+    "translation_name": "",
+    "description": "PvP Team",
+    "translation_description": ""
+  },
+  "503": {
+    "name": "MENU_CWLINKSHELL",
+    "translation_name": "",
+    "description": "Cross-world Linkshell",
+    "translation_description": ""
+  },
+  "504": {
+    "name": "MENU_ALERM",
+    "translation_name": "",
+    "description": "Alarms",
+    "translation_description": ""
+  },
+  "505": {
+    "name": "MENU_AOZ",
+    "translation_name": "",
+    "description": "Blue Magic Spellbook",
+    "translation_description": ""
+  },
+  "506": {
+    "name": "MENU_FAITH",
+    "translation_name": "",
+    "description": "Trust",
+    "translation_description": ""
+  },
+  "507": {
+    "name": "MENU_FATE_PROGRESS",
+    "translation_name": "",
+    "description": "Shared FATE",
+    "translation_description": ""
+  },
+  "508": {
+    "name": "MENU_CIRCLE_LIST",
+    "translation_name": "",
+    "description": "Fellowship",
+    "translation_description": ""
+  },
+  "509": {
+    "name": "MENU_CIRCLE_RECRUIT",
+    "translation_name": "",
+    "description": "Fellowship Finder",
+    "translation_description": ""
+  },
+  "510": {
+    "name": "MENU_MCGUFFIN",
+    "translation_name": "",
+    "description": "Collection",
+    "translation_description": ""
+  },
+  "511": {
+    "name": "MENU_QUEST_REPLAY",
+    "translation_name": "",
+    "description": "New Game\u002B",
+    "translation_description": ""
+  },
+  "512": {
+    "name": "MENU_ORNAMENT_NOTEBOOK",
+    "translation_name": "",
+    "description": "Fashion Accessories",
+    "translation_description": ""
+  },
+  "513": {
+    "name": "WEBLINK",
+    "translation_name": "",
+    "description": "Official Sites",
+    "translation_description": ""
+  },
+  "514": {
+    "name": "MENU_BANNER_LIST",
+    "translation_name": "",
+    "description": "Portraits",
+    "translation_description": ""
+  },
+  "515": {
+    "name": "MENU_SDS",
+    "translation_name": "",
+    "description": "Duty Support",
+    "translation_description": ""
+  },
+  "516": {
+    "name": "MENU_CHARA_CARD",
+    "translation_name": "",
+    "description": "Adventurer Plate",
+    "translation_description": ""
+  },
+  "517": {
+    "name": "MENU_VVD",
+    "translation_name": "",
+    "description": "V\u0026C Dungeon Finder",
+    "translation_description": ""
+  },
+  "518": {
+    "name": "MENU_FACE_ACCESSORY",
+    "translation_name": "",
+    "description": "Facewear",
+    "translation_description": ""
+  },
+  "519": {
+    "name": "MENU_MUTE_LIST",
+    "translation_name": "",
+    "description": "Mute List",
+    "translation_description": ""
+  },
+  "520": {
+    "name": "TERM_FILTER",
+    "translation_name": "",
+    "description": "Term Filter",
+    "translation_description": ""
+  },
+  "521": {
+    "name": "QUICK_PANEL",
+    "translation_name": "",
+    "description": "Command Panel",
+    "translation_description": ""
+  },
+  "522": {
+    "name": "MENU_TOFU",
+    "translation_name": "",
+    "description": "Strategy Board",
+    "translation_description": ""
+  },
+  "523": {
+    "name": "XBM_BOOK",
+    "translation_name": "",
+    "description": "Master\u0027s Bestiary",
+    "translation_description": ""
+  },
+  "550": {
+    "name": "CMD_BEGINNER",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Novice Network",
+    "translation_description": ""
+  },
+  "551": {
+    "name": "CMD_BEGINNER_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Novice Network",
+    "translation_description": ""
+  },
+  "552": {
+    "name": "PVPTEAM_CHAT",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to PvP Team",
+    "translation_description": ""
+  },
+  "553": {
+    "name": "PVPTEAM_CHAT_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to PvP Team",
+    "translation_description": ""
+  },
+  "554": {
+    "name": "CMD_CWLINKSHELL",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Next Cross-world LS",
+    "translation_description": ""
+  },
+  "555": {
+    "name": "CMD_CWLINKSHELL_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Next Cross-world LS",
+    "translation_description": ""
+  },
+  "556": {
+    "name": "CMD_CWLINKSHELL_REV",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Previous Cross-world LS",
+    "translation_description": ""
+  },
+  "557": {
+    "name": "CMD_CWLINKSHELL_1",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Cross-world LS [1]",
+    "translation_description": ""
+  },
+  "558": {
+    "name": "CMD_CWLINKSHELL_2",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Cross-world LS [2]",
+    "translation_description": ""
+  },
+  "559": {
+    "name": "CMD_CWLINKSHELL_3",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Cross-world LS [3]",
+    "translation_description": ""
+  },
+  "560": {
+    "name": "CMD_CWLINKSHELL_4",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Cross-world LS [4]",
+    "translation_description": ""
+  },
+  "561": {
+    "name": "CMD_CWLINKSHELL_5",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Cross-world LS [5]",
+    "translation_description": ""
+  },
+  "562": {
+    "name": "CMD_CWLINKSHELL_6",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Cross-world LS [6]",
+    "translation_description": ""
+  },
+  "563": {
+    "name": "CMD_CWLINKSHELL_7",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Cross-world LS [7]",
+    "translation_description": ""
+  },
+  "564": {
+    "name": "CMD_CWLINKSHELL_8",
+    "translation_name": "",
+    "description": "Temporarily Switch Chat Mode to Cross-world LS [8]",
+    "translation_description": ""
+  },
+  "565": {
+    "name": "CMD_CWLINKSHELL_ALWAYS_REV",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Previous Cross-world LS",
+    "translation_description": ""
+  },
+  "566": {
+    "name": "CMD_CWLINKSHELL_1_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Cross-world LS [1]",
+    "translation_description": ""
+  },
+  "567": {
+    "name": "CMD_CWLINKSHELL_2_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Cross-world LS [2]",
+    "translation_description": ""
+  },
+  "568": {
+    "name": "CMD_CWLINKSHELL_3_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Cross-world LS [3]",
+    "translation_description": ""
+  },
+  "569": {
+    "name": "CMD_CWLINKSHELL_4_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Cross-world LS [4]",
+    "translation_description": ""
+  },
+  "570": {
+    "name": "CMD_CWLINKSHELL_5_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Cross-world LS [5]",
+    "translation_description": ""
+  },
+  "571": {
+    "name": "CMD_CWLINKSHELL_6_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Cross-world LS [6]",
+    "translation_description": ""
+  },
+  "572": {
+    "name": "CMD_CWLINKSHELL_7_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Cross-world LS [7]",
+    "translation_description": ""
+  },
+  "573": {
+    "name": "CMD_CWLINKSHELL_8_ALWAYS",
+    "translation_name": "",
+    "description": "Switch Chat Mode to Cross-world LS [8]",
+    "translation_description": ""
+  },
+  "591": {
+    "name": "CHATLOG_VIEWERMODE",
+    "translation_name": "",
+    "description": "Log Window Zoom",
+    "translation_description": ""
+  },
+  "592": {
+    "name": "MENU_SCENARIO_TREE",
+    "translation_name": "",
+    "description": "Scenario Guide: Main Scenario",
+    "translation_description": ""
+  },
+  "593": {
+    "name": "MENU_SCENARIO_TREE_SUB",
+    "translation_name": "",
+    "description": "Scenario Guide: Sidequests",
+    "translation_description": ""
+  },
+  "594": {
+    "name": "ACCESSIBILITY_COLORBLIND",
+    "translation_name": "",
+    "description": "Toggle Color Filtering Settings",
+    "translation_description": ""
+  }
+}

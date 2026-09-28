@@ -8,7 +8,12 @@ from translate_addontransient_controls_hex import translate_macro
 from translate_addontransient_verminion import translate_row as translate_verminion
 from translate_descriptionstring_phantom_hex import translate_row as translate_phantom
 
-ROOT = pathlib.Path(__file__).resolve().parents[1] / "data/translations/misc"
+ROOT = pathlib.Path(__file__).resolve().parents[1] / "data/translations/da_revisionare"
+AREAS = {
+    "addontransient": "system", "description": "system", "descriptionstring": "system",
+    "classjobactionuicategory": "combat", "classjobcategory": "world",
+    "itemsearchcategory": "items", "itemseries": "items", "itemspecialbonus": "items",
+}
 FILES = ("addontransient", "classjobactionuicategory", "classjobcategory",
          "itemsearchcategory", "itemseries", "itemspecialbonus", "description",
          "descriptionstring")
@@ -30,7 +35,7 @@ def pairs(row):
 def main():
     issues = []
     for name in FILES:
-        rows = json.loads((ROOT / f"{name}.json").read_text(encoding="utf-8"))
+        rows = json.loads((ROOT / AREAS[name] / f"{name}.json").read_text(encoding="utf-8"))
         pending = translated = hex_pending = excluded = 0
         for row_id, row in rows.items():
             for source, target in pairs(row):

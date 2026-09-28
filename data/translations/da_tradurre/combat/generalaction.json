@@ -1,0 +1,260 @@
+{
+  "1": {
+    "name": "Auto-attack",
+    "translation_name": "",
+    "description": "Automatically attack your current target at a set interval determined by your weapon.",
+    "translation_description": ""
+  },
+  "2": {
+    "name": "Jump",
+    "translation_name": "",
+    "description": "Make a spring from the ground or other base by flexion and sudden muscular extension of the legs.",
+    "translation_description": ""
+  },
+  "3": {
+    "name": "Limit Break",
+    "translation_name": "",
+    "description": "Spend energy stored in your party\u0027s limit gauge to execute a powerful battle technique. The technique executed is determined by the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Erole\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E of the party member who initiates it.\u003Chex:02100103\u003ETank: Increase party defense (area of effect: 50y).\u003Chex:02100103\u003EMelee: Single-target attack.\u003Chex:02100103\u003ERanged: Attack to all targets in a straight line (range: 30y).\u003Chex:02100103\u003ECaster: Area of effect attack (8y/10y/15y).\u003Chex:02100103\u003EHealer: HP restoration. Raise at level 3 (area of effect: 50y).\u003Chex:02100103\u003E\u203BIf target is not weakened at the time of Raise, the target will be restored in a non-weakened state. If target is weakened at the time of Raise, the weakness counter will reset.",
+    "translation_description": ""
+  },
+  "4": {
+    "name": "Sprint",
+    "translation_name": "",
+    "description": "Increases movement speed.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E10s (20s when not in combat)\u003Chex:02100103\u003E\u203BUnavailable in PvP.",
+    "translation_description": ""
+  },
+  "5": {
+    "name": "Desynthesis",
+    "translation_name": "",
+    "description": "Break down an item into one or more of its original materials.",
+    "translation_description": ""
+  },
+  "6": {
+    "name": "Repair",
+    "translation_name": "",
+    "description": "Use dark matter to mend damaged equipment.",
+    "translation_description": ""
+  },
+  "7": {
+    "name": "Teleport",
+    "translation_name": "",
+    "description": "Reduce your body to aether and instantly teleport to any aetheryte to which you have previously attuned. Requires a gil fee paid upon arrival at your destination.",
+    "translation_description": ""
+  },
+  "8": {
+    "name": "Return",
+    "translation_name": "",
+    "description": "Instantly return to your current home point.",
+    "translation_description": ""
+  },
+  "9": {
+    "name": "Mount Roulette",
+    "translation_name": "",
+    "description": "Summon a mount at random.",
+    "translation_description": ""
+  },
+  "10": {
+    "name": "Minion Roulette",
+    "translation_name": "",
+    "description": "Summon a minion at random.",
+    "translation_description": ""
+  },
+  "12": {
+    "name": "Materia Melding",
+    "translation_name": "",
+    "description": "Affix materia onto weapons and armor.",
+    "translation_description": ""
+  },
+  "13": {
+    "name": "Advanced Materia Melding",
+    "translation_name": "",
+    "description": "Affix materia onto weapons and armor. Can also affix materia to items with no slots remaining, but success is not guaranteed.",
+    "translation_description": ""
+  },
+  "14": {
+    "name": "Materia Extraction",
+    "translation_name": "",
+    "description": "Extract the aether from an item with a complete spiritbond, and then recrystallize the resulting residue into a concentrated substance known as \u201Cmateria.\u201D",
+    "translation_description": ""
+  },
+  "15": {
+    "name": "Dye",
+    "translation_name": "",
+    "description": "Use dye to color gear.",
+    "translation_description": ""
+  },
+  "16": {
+    "name": "Target Forward",
+    "translation_name": "",
+    "description": "Toggle forward through nearby enemies.",
+    "translation_description": ""
+  },
+  "17": {
+    "name": "Target Back",
+    "translation_name": "",
+    "description": "Toggle back through nearby enemies.",
+    "translation_description": ""
+  },
+  "18": {
+    "name": "Set Down",
+    "translation_name": "",
+    "description": "Put down the object you are carrying.",
+    "translation_description": ""
+  },
+  "19": {
+    "name": "Decipher",
+    "translation_name": "",
+    "description": "Remove a timeworn map from its glass prison and unlock its mysteries.",
+    "translation_description": ""
+  },
+  "20": {
+    "name": "Dig",
+    "translation_name": "",
+    "description": "Locate a buried treasure coffer within a 30-yalm radius and extract it from the ground.",
+    "translation_description": ""
+  },
+  "21": {
+    "name": "Aetherial Reduction",
+    "translation_name": "",
+    "description": "Break down an item to its aetherial components.",
+    "translation_description": ""
+  },
+  "22": {
+    "name": "Cast Glamour",
+    "translation_name": "",
+    "description": "Use a glamour prism to cast an optical illusion upon a piece of equipment, thus altering its appearance.",
+    "translation_description": ""
+  },
+  "23": {
+    "name": "Dismount",
+    "translation_name": "",
+    "description": "Dismount your current mount.",
+    "translation_description": ""
+  },
+  "24": {
+    "name": "Flying Mount Roulette",
+    "translation_name": "",
+    "description": "Summon a random flying mount.",
+    "translation_description": ""
+  },
+  "25": {
+    "name": "Glamour Plate",
+    "translation_name": "",
+    "description": "Create a set of multiple glamours to apply at once.",
+    "translation_description": ""
+  },
+  "26": {
+    "name": "Duty Action I",
+    "translation_name": "",
+    "description": "Execute a duty-specific action.",
+    "translation_description": ""
+  },
+  "27": {
+    "name": "Duty Action II",
+    "translation_name": "",
+    "description": "Execute a duty-specific action.",
+    "translation_description": ""
+  },
+  "28": {
+    "name": "Put Away",
+    "translation_name": "",
+    "description": "Stow personal effects.",
+    "translation_description": ""
+  },
+  "29": {
+    "name": "Sort Pet Hotbar",
+    "translation_name": "",
+    "description": "Change the order of hotbar-assigned actions.",
+    "translation_description": ""
+  },
+  "30": {
+    "name": "Sort Pet Hotbar",
+    "translation_name": "",
+    "description": "Change the order of hotbar-assigned actions.",
+    "translation_description": ""
+  },
+  "31": {
+    "name": "Phantom Action I",
+    "translation_name": "",
+    "description": "Execute a phantom action.",
+    "translation_description": ""
+  },
+  "32": {
+    "name": "Phantom Action II",
+    "translation_name": "",
+    "description": "Execute a phantom action.",
+    "translation_description": ""
+  },
+  "33": {
+    "name": "Phantom Action III",
+    "translation_name": "",
+    "description": "Execute a phantom action.",
+    "translation_description": ""
+  },
+  "34": {
+    "name": "Phantom Action IV",
+    "translation_name": "",
+    "description": "Execute a phantom action.",
+    "translation_description": ""
+  },
+  "35": {
+    "name": "Phantom Action V",
+    "translation_name": "",
+    "description": "Execute a phantom action.",
+    "translation_description": ""
+  },
+  "36": {
+    "name": "Attack Target",
+    "translation_name": "",
+    "description": "Selects target marked as target to attack. Cycles through targets numbered from lowest to highest when multiple targets are marked.",
+    "translation_description": ""
+  },
+  "37": {
+    "name": "Bind Target",
+    "translation_name": "",
+    "description": "Selects target marked as target to bind. Cycles through targets numbered from lowest to highest when multiple targets are marked.",
+    "translation_description": ""
+  },
+  "38": {
+    "name": "Ignore Target",
+    "translation_name": "",
+    "description": "Selects target marked as target to ignore. Cycles through targets numbered from lowest to highest when multiple targets are marked.",
+    "translation_description": ""
+  },
+  "39": {
+    "name": "Square Target",
+    "translation_name": "",
+    "description": "Selects target marked with a square.",
+    "translation_description": ""
+  },
+  "40": {
+    "name": "Circle Target",
+    "translation_name": "",
+    "description": "Selects target marked with a circle.",
+    "translation_description": ""
+  },
+  "41": {
+    "name": "Plus Target",
+    "translation_name": "",
+    "description": "Selects target marked with a plus.",
+    "translation_description": ""
+  },
+  "42": {
+    "name": "Triangle Target",
+    "translation_name": "",
+    "description": "Selects target marked with a triangle.",
+    "translation_description": ""
+  },
+  "43": {
+    "name": "Next Board",
+    "translation_name": "",
+    "description": "View the next Strategy Board.",
+    "translation_description": ""
+  },
+  "44": {
+    "name": "Previous Board",
+    "translation_name": "",
+    "description": "View the previous Strategy Board.",
+    "translation_description": ""
+  }
+}

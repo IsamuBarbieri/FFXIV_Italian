@@ -1,0 +1,92 @@
+{
+  "1": {
+    "name": "Roulette",
+    "translation_name": "",
+    "description": "Rules in play are chosen at random.",
+    "translation_description": ""
+  },
+  "2": {
+    "name": "All Open",
+    "translation_name": "",
+    "description": "Both decks are placed face up.",
+    "translation_description": ""
+  },
+  "3": {
+    "name": "Three Open",
+    "translation_name": "",
+    "description": "Three cards chosen at random from each deck are played face up.",
+    "translation_description": ""
+  },
+  "4": {
+    "name": "Same",
+    "translation_name": "",
+    "description": "When a card is played, if two or more of the sides are touching other cards, and the ranks of those sides are identical to those on the sides of the card played, the other cards are flipped.",
+    "translation_description": ""
+  },
+  "5": {
+    "name": "Sudden Death",
+    "translation_name": "",
+    "description": "If a match ends in a draw, a new deciding match is played with each player using the cards they captured.",
+    "translation_description": ""
+  },
+  "6": {
+    "name": "Plus",
+    "translation_name": "",
+    "description": "When a card is played, if two or more of the sides are touching other cards, and the sum of the ranks on the touching sides are identical to the sums on the other touching sides, the other cards are flipped.",
+    "translation_description": ""
+  },
+  "7": {
+    "name": "Random",
+    "translation_name": "",
+    "description": "Decks are chosen at random from each player\u0027s list of claimed cards.",
+    "translation_description": ""
+  },
+  "8": {
+    "name": "Order",
+    "translation_name": "",
+    "description": "Cards must be played in the order they appear in the deck.",
+    "translation_description": ""
+  },
+  "9": {
+    "name": "Chaos",
+    "translation_name": "",
+    "description": "Cards must be played in a random order determined before the match.",
+    "translation_description": ""
+  },
+  "10": {
+    "name": "Reverse",
+    "translation_name": "",
+    "description": "Lower numbers flip higher numbers.",
+    "translation_description": ""
+  },
+  "11": {
+    "name": "Fallen Ace",
+    "translation_name": "",
+    "description": "A rank 1 side can flip an A. When Reverse is in play, a rank A side will flip a 1.",
+    "translation_description": ""
+  },
+  "12": {
+    "name": "Ascension",
+    "translation_name": "",
+    "description": "A card\u0027s ranks increase in proportion to the number of cards of the same type already played.",
+    "translation_description": ""
+  },
+  "13": {
+    "name": "Descension",
+    "translation_name": "",
+    "description": "A card\u0027s ranks decrease in proportion to the number of cards of the same type already played.",
+    "translation_description": ""
+  },
+  "14": {
+    "name": "Swap",
+    "translation_name": "",
+    "description": "One random card from each player\u0027s deck will be swapped with the other.",
+    "translation_description": ""
+  },
+  "15": {
+    "name": "Draft",
+    "translation_name": "",
+    "description": "Decks must be built from a selection of randomly generated cards.",
+    "translation_description": ""
+  }
+}

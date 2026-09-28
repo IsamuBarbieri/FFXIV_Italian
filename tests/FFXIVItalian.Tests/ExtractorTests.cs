@@ -1,5 +1,6 @@
 using FFXIVItalian.Extractor.Extractors;
 using FFXIVItalian.Core.SeString;
+using FFXIVItalian.Core.Translation;
 using System.Text;
 using Xunit;
 
@@ -7,6 +8,26 @@ namespace FFXIVItalian.Tests;
 
 public class ExtractorTests
 {
+    [Fact]
+    public void TranslationPaths_KeepMovedQuestsAndPlaceNewSheetsInPendingArea()
+    {
+        string root = Path.Combine(Path.GetTempPath(), "FFXIV_PathTest_" + Path.GetRandomFileName());
+        string quest = Path.Combine(root, "da_tradurre", "quests", "arr", "000", "ClsArc000_00021.json");
+        Directory.CreateDirectory(Path.GetDirectoryName(quest)!);
+        try
+        {
+            File.WriteAllText(quest, "{}");
+            Assert.Equal(quest, TranslationPathResolver.FindFile(root, "quest/000/ClsArc000_00021"));
+            Assert.Equal(quest, TranslationPathResolver.ResolveTargetPath(root, "quest/000/ClsArc000_00021"));
+            Assert.Equal(Path.Combine(root, "da_tradurre", "misc", "newthings.json"),
+                TranslationPathResolver.ResolveTargetPath(root, "NewThings"));
+        }
+        finally
+        {
+            Directory.Delete(root, recursive: true);
+        }
+    }
+
     [Fact]
     public void ExtractorRegistry_ContainsAllExpectedSheets()
     {

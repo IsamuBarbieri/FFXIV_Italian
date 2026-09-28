@@ -9,7 +9,7 @@ import re
 from pathlib import Path
 
 
-PATH = Path(__file__).resolve().parents[1] / "data/translations/system/logmessage.json"
+PATH = Path(__file__).resolve().parents[1] / "data/translations/da_revisionare/system/logmessage.json"
 TAG = re.compile(r"<hex:([0-9A-F]+)>")
 WORD = re.compile(r"\s+([A-Za-zÀ-ÿ]+(?:'[A-Za-zÀ-ÿ]+)?)")
 IRREGULAR = {

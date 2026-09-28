@@ -862,14 +862,16 @@ if (achievementReplacements.Count > 0 && Directory.Exists(sqPackPath))
     }
 }
 
-// 22. PATCH TRANSLATED QUESTS (se presenti in data/translations/quests/)
-string questsDir = Path.Combine(translationsDir, "quests");
-if (Directory.Exists(questsDir) && Directory.Exists(sqPackPath))
+// 22. PATCH TRANSLATED QUESTS (anche nelle cartelle dello stato editoriale)
+var questFiles = Directory.GetFiles(translationsDir, "*.json", SearchOption.AllDirectories)
+    .Where(path => int.TryParse(Path.GetFileName(Path.GetDirectoryName(path)), out _) &&
+        path.Contains($"{Path.DirectorySeparatorChar}quests{Path.DirectorySeparatorChar}"));
+if (Directory.Exists(sqPackPath))
 {
     var luminaQuest = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
     int patchedQuests = 0;
 
-    foreach (var qFile in Directory.GetFiles(questsDir, "*.json", SearchOption.AllDirectories))
+    foreach (var qFile in questFiles)
     {
         try
         {

@@ -281,7 +281,6 @@ Per il sistema **glamour**: usare «illusione» al singolare e «illusioni» al 
 | Viper | Vipera | `world/classjob.json#41:name` |  |
 | Pictomancer | Pittomante | `world/classjob.json#42:name` |  |
 | Beastmaster | Domatore | `world/classjob.json#43:name` |  |
-| Goldsmith | Orefice | `system/addon.json#816:original` |  |
 
 ### Razze e clan
 

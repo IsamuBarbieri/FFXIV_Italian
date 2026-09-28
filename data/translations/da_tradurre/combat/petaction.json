@@ -1,0 +1,248 @@
+{
+  "1": {
+    "name": "Away",
+    "translation_name": "",
+    "description": "Order pet to leave the battlefield.",
+    "translation_description": ""
+  },
+  "2": {
+    "name": "Heel",
+    "translation_name": "",
+    "description": "Order pet to follow behind you.",
+    "translation_description": ""
+  },
+  "3": {
+    "name": "Place",
+    "translation_name": "",
+    "description": "Order pet to move to a specified location.",
+    "translation_description": ""
+  },
+  "4": {
+    "name": "Stay",
+    "translation_name": "",
+    "description": "Order pet to remain where it is.",
+    "translation_description": ""
+  },
+  "5": {
+    "name": "Guard",
+    "translation_name": "",
+    "description": "Order pet to refrain from attacking until you attack or are attacked.",
+    "translation_description": ""
+  },
+  "6": {
+    "name": "Steady",
+    "translation_name": "",
+    "description": "Order pet to refrain from attacking until ordered to do so.",
+    "translation_description": ""
+  },
+  "7": {
+    "name": "Sic",
+    "translation_name": "",
+    "description": "Order pet to attack.",
+    "translation_description": ""
+  },
+  "8": {
+    "name": "Obey",
+    "translation_name": "",
+    "description": "Order pet to attack, but refrain from using certain actions until ordered to do so.",
+    "translation_description": ""
+  },
+  "9": {
+    "name": "Gust",
+    "translation_name": "",
+    "description": "Deals wind damage with a potency of 90.",
+    "translation_description": ""
+  },
+  "10": {
+    "name": "Backdraft",
+    "translation_name": "",
+    "description": "Deals wind damage with a potency of 80.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EAdditional Effect:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 15-yalm knockback\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
+    "translation_description": ""
+  },
+  "11": {
+    "name": "Downburst",
+    "translation_name": "",
+    "description": "Deals wind damage with a potency of 80 to target and all enemies nearby it.\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
+    "translation_description": ""
+  },
+  "12": {
+    "name": "Shining Emerald",
+    "translation_name": "",
+    "description": "Increases target\u0027s magic damage taken by 10%.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 15s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
+    "translation_description": ""
+  },
+  "13": {
+    "name": "Gouge",
+    "translation_name": "",
+    "description": "Deals earth damage with a potency of 70.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EAdditional Effect:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E Increased enmity",
+    "translation_description": ""
+  },
+  "14": {
+    "name": "Shining Topaz",
+    "translation_name": "",
+    "description": "Deals earth damage with a potency of 60 to all nearby enemies.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EAdditional Effect:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E Increased enmity\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
+    "translation_description": ""
+  },
+  "15": {
+    "name": "Curl",
+    "translation_name": "",
+    "description": "Decreases damage suffered by pet by 20%.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 20s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
+    "translation_description": ""
+  },
+  "16": {
+    "name": "Storm",
+    "translation_name": "",
+    "description": "Deals earth damage with a potency of 60.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EAdditional Effect:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EStun\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 2s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
+    "translation_description": ""
+  },
+  "17": {
+    "name": "Wind Blade",
+    "translation_name": "",
+    "description": "Deals wind damage with a potency of 110.",
+    "translation_description": ""
+  },
+  "18": {
+    "name": "Shockwave",
+    "translation_name": "",
+    "description": "Deals wind damage with a potency of 90.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EAdditional Effect:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 15-yalm knockback\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
+    "translation_description": ""
+  },
+  "19": {
+    "name": "Aerial Slash",
+    "translation_name": "",
+    "description": "Deals wind damage with a potency of 90 to target and all enemies nearby it.\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
+    "translation_description": ""
+  },
+  "20": {
+    "name": "Contagion",
+    "translation_name": "",
+    "description": "Increases target\u0027s magic damage taken by 10%.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 15s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
+    "translation_description": ""
+  },
+  "21": {
+    "name": "Aerial Blast",
+    "translation_name": "",
+    "description": "Deals wind damage with a potency of 250 to target and all enemies nearby it.\u003Chex:02100103\u003EExecuted when master uses \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EEnkindle\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.",
+    "translation_description": ""
+  },
+  "22": {
+    "name": "Rock Buster",
+    "translation_name": "",
+    "description": "Deals earth damage with a potency of 85.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EAdditional Effect:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E Increased enmity",
+    "translation_description": ""
+  },
+  "23": {
+    "name": "Mountain Buster",
+    "translation_name": "",
+    "description": "Deals earth damage with a potency of 70 to all nearby enemies.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EAdditional Effect:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E Increased enmity\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
+    "translation_description": ""
+  },
+  "24": {
+    "name": "Earthen Ward",
+    "translation_name": "",
+    "description": "Decreases damage suffered by pet by 20%.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 20s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
+    "translation_description": ""
+  },
+  "25": {
+    "name": "Landslide",
+    "translation_name": "",
+    "description": "Deals earth damage with a potency of 70.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EAdditional Effect:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EStun\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 2s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
+    "translation_description": ""
+  },
+  "26": {
+    "name": "Earthen Fury",
+    "translation_name": "",
+    "description": "Deals earth damage with a potency of 200 to all nearby targets.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EAdditional Effect:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003ERazed Earth\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EPotency:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 20 \u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003E\u003Chex:02100103\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 15s\u003Chex:02100103\u003EExecuted when master uses \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EEnkindle\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.",
+    "translation_description": ""
+  },
+  "27": {
+    "name": "Crimson Cyclone",
+    "translation_name": "",
+    "description": "Deals fire damage with a potency of 110.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EAdditional Effect:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EStun\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 2s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
+    "translation_description": ""
+  },
+  "28": {
+    "name": "Burning Strike",
+    "translation_name": "",
+    "description": "Deals fire damage with a potency of 135.",
+    "translation_description": ""
+  },
+  "29": {
+    "name": "Radiant Shield",
+    "translation_name": "",
+    "description": "Creates a barrier around self and nearby party members.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 20s\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EBarrier Effect:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E When barrier is struck, increases striker\u0027s physical vulnerability by 2%\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 4s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
+    "translation_description": ""
+  },
+  "30": {
+    "name": "Flaming Crush",
+    "translation_name": "",
+    "description": "Deals fire damage with a potency of 110 to all nearby enemies.\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
+    "translation_description": ""
+  },
+  "31": {
+    "name": "Inferno",
+    "translation_name": "",
+    "description": "Deals fire damage with a potency of 200 to all enemies in a cone before it.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EAdditional Effect:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E Fire damage over time\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EPotency:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 20\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 15s\u003Chex:02100103\u003EExecuted when master uses \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EEnkindle\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.",
+    "translation_description": ""
+  },
+  "32": {
+    "name": "Embrace",
+    "translation_name": "",
+    "description": "Restore target\u0027s HP.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003ECure Potency:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 250",
+    "translation_description": ""
+  },
+  "33": {
+    "name": "Whispering Dawn",
+    "translation_name": "",
+    "description": "Gradually restores own HP and the HP of all nearby party members.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003ECure Potency:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 120\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 21s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
+    "translation_description": ""
+  },
+  "34": {
+    "name": "Fey Covenant",
+    "translation_name": "",
+    "description": "Increases magic defense of self and nearby party members by 20%.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 20s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
+    "translation_description": ""
+  },
+  "35": {
+    "name": "Fey Illumination",
+    "translation_name": "",
+    "description": "Increases spell-based HP restoration of self and nearby party members by 10%.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 20s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
+    "translation_description": ""
+  },
+  "36": {
+    "name": "Embrace",
+    "translation_name": "",
+    "description": "Restore target\u0027s HP.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003ECure Potency:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 250",
+    "translation_description": ""
+  },
+  "37": {
+    "name": "Silent Dusk",
+    "translation_name": "",
+    "description": "Silences target.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 1s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
+    "translation_description": ""
+  },
+  "38": {
+    "name": "Fey Caress",
+    "translation_name": "",
+    "description": "Removes a single detrimental effect from all nearby party members.\u003Chex:02100103\u003ESome effects cannot be removed.\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
+    "translation_description": ""
+  },
+  "39": {
+    "name": "Fey Wind",
+    "translation_name": "",
+    "description": "Reduces weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay of self and nearby party members by 3%.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 30s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
+    "translation_description": ""
+  },
+  "40": {
+    "name": "Offensive Mode",
+    "translation_name": "",
+    "description": "Command autoturret to focus on offensive maneuvers.",
+    "translation_description": ""
+  },
+  "41": {
+    "name": "Defensive Mode",
+    "translation_name": "",
+    "description": "Command autoturret to focus on supportive maneuvers.",
+    "translation_description": ""
+  }
+}

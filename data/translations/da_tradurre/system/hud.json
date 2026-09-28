@@ -1,0 +1,850 @@
+{
+  "0": {
+    "name": "Hotbar 1",
+    "translation_name": "",
+    "description": "Hotbar1",
+    "translation_description": "",
+    "col_2": "hot1",
+    "translation_col_2": ""
+  },
+  "1": {
+    "name": "Hotbar 2",
+    "translation_name": "",
+    "description": "Hotbar2",
+    "translation_description": "",
+    "col_2": "hot2",
+    "translation_col_2": ""
+  },
+  "2": {
+    "name": "Hotbar 3",
+    "translation_name": "",
+    "description": "Hotbar3",
+    "translation_description": "",
+    "col_2": "hot3",
+    "translation_col_2": ""
+  },
+  "3": {
+    "name": "Hotbar 4",
+    "translation_name": "",
+    "description": "Hotbar4",
+    "translation_description": "",
+    "col_2": "hot4",
+    "translation_col_2": ""
+  },
+  "4": {
+    "name": "Hotbar 5",
+    "translation_name": "",
+    "description": "Hotbar5",
+    "translation_description": "",
+    "col_2": "hot5",
+    "translation_col_2": ""
+  },
+  "5": {
+    "name": "Hotbar 6",
+    "translation_name": "",
+    "description": "Hotbar6",
+    "translation_description": "",
+    "col_2": "hot6",
+    "translation_col_2": ""
+  },
+  "6": {
+    "name": "Hotbar 7",
+    "translation_name": "",
+    "description": "Hotbar7",
+    "translation_description": "",
+    "col_2": "hot7",
+    "translation_col_2": ""
+  },
+  "7": {
+    "name": "Hotbar 8",
+    "translation_name": "",
+    "description": "Hotbar8",
+    "translation_description": "",
+    "col_2": "hot8",
+    "translation_col_2": ""
+  },
+  "8": {
+    "name": "Hotbar 9",
+    "translation_name": "",
+    "description": "Hotbar9",
+    "translation_description": "",
+    "col_2": "hot9",
+    "translation_col_2": ""
+  },
+  "9": {
+    "name": "Hotbar 10",
+    "translation_name": "",
+    "description": "Hotbar10",
+    "translation_description": "",
+    "col_2": "hot10",
+    "translation_col_2": ""
+  },
+  "10": {
+    "name": "Pet Hotbar",
+    "translation_name": "",
+    "description": "PetHotbar",
+    "translation_description": "",
+    "col_2": "phot",
+    "translation_col_2": ""
+  },
+  "11": {
+    "name": "Cross Hotbar",
+    "translation_name": "",
+    "description": "CrossHotbar",
+    "translation_description": "",
+    "col_2": "chot",
+    "translation_col_2": ""
+  },
+  "12": {
+    "name": "Progress Bar",
+    "translation_name": "",
+    "description": "ProgressBar",
+    "translation_description": "",
+    "col_2": "pbar",
+    "translation_col_2": ""
+  },
+  "13": {
+    "name": "Target Bar",
+    "translation_name": "",
+    "description": "TargetBar",
+    "translation_description": "",
+    "col_2": "tbar",
+    "translation_col_2": ""
+  },
+  "14": {
+    "name": "Focus Target Bar",
+    "translation_name": "",
+    "description": "FocusTarget",
+    "translation_description": "",
+    "col_2": "ftarget",
+    "translation_col_2": ""
+  },
+  "15": {
+    "name": "Party List",
+    "translation_name": "",
+    "description": "PartyList",
+    "translation_description": "",
+    "col_2": "plist",
+    "translation_col_2": ""
+  },
+  "16": {
+    "name": "Enmity List",
+    "translation_name": "",
+    "description": "EnmityList",
+    "translation_description": "",
+    "col_2": "elist",
+    "translation_col_2": ""
+  },
+  "17": {
+    "name": "Parameter Bar",
+    "translation_name": "",
+    "description": "ParamBar",
+    "translation_description": "",
+    "col_2": "param",
+    "translation_col_2": ""
+  },
+  "18": {
+    "name": "Notices",
+    "translation_name": "",
+    "description": "Notices",
+    "translation_description": "",
+    "col_2": "notice",
+    "translation_col_2": ""
+  },
+  "19": {
+    "name": "Minimap",
+    "translation_name": "",
+    "description": "Minimap",
+    "translation_description": "",
+    "col_2": "mmap",
+    "translation_col_2": ""
+  },
+  "20": {
+    "name": "Main Menu",
+    "translation_name": "",
+    "description": "MainMenu",
+    "translation_description": "",
+    "col_2": "mmenu",
+    "translation_col_2": ""
+  },
+  "21": {
+    "name": "Server Info",
+    "translation_name": "",
+    "description": "ServerInfo",
+    "translation_description": "",
+    "col_2": "server",
+    "translation_col_2": ""
+  },
+  "22": {
+    "name": "Gil",
+    "translation_name": "",
+    "description": "Gil",
+    "translation_description": "",
+    "col_2": "gil",
+    "translation_col_2": ""
+  },
+  "23": {
+    "name": "Inventory Grid",
+    "translation_name": "",
+    "description": "InventoryGrid",
+    "translation_description": "",
+    "col_2": "igrid",
+    "translation_col_2": ""
+  },
+  "24": {
+    "name": "Duty List",
+    "translation_name": "",
+    "description": "DutyList",
+    "translation_description": "",
+    "col_2": "dlist",
+    "translation_col_2": ""
+  },
+  "25": {
+    "name": "Item Help",
+    "translation_name": "",
+    "description": "ItemHelp",
+    "translation_description": "",
+    "col_2": "ihelp",
+    "translation_col_2": ""
+  },
+  "26": {
+    "name": "Action Help",
+    "translation_name": "",
+    "description": "ActionHelp",
+    "translation_description": "",
+    "col_2": "ahelp",
+    "translation_col_2": ""
+  },
+  "27": {
+    "name": "Limit Gauge",
+    "translation_name": "",
+    "description": "LimitGauge",
+    "translation_description": "",
+    "col_2": "lgauge",
+    "translation_col_2": ""
+  },
+  "28": {
+    "name": "Experience Bar",
+    "translation_name": "",
+    "description": "ExpBar",
+    "translation_description": "",
+    "col_2": "ebar",
+    "translation_col_2": ""
+  },
+  "29": {
+    "name": "Status Effects",
+    "translation_name": "",
+    "description": "StatusEffects",
+    "translation_description": "",
+    "col_2": "sfx",
+    "translation_col_2": ""
+  },
+  "30": {
+    "name": "Alliance List 1",
+    "translation_name": "",
+    "description": "AllianceList1",
+    "translation_description": "",
+    "col_2": "alist1",
+    "translation_col_2": ""
+  },
+  "31": {
+    "name": "Alliance List 2",
+    "translation_name": "",
+    "description": "AllianceList2",
+    "translation_description": "",
+    "col_2": "alist2",
+    "translation_col_2": ""
+  },
+  "32": {
+    "name": "Duty List",
+    "translation_name": "",
+    "description": "DutyList",
+    "translation_description": "",
+    "col_2": "dlist",
+    "translation_col_2": ""
+  },
+  "33": {
+    "name": "Timers",
+    "translation_name": "",
+    "description": "Timers",
+    "translation_description": "",
+    "col_2": "timers",
+    "translation_col_2": ""
+  },
+  "38": {
+    "name": "Left W Cross Hotbar",
+    "translation_name": "",
+    "description": "LeftWXHB",
+    "translation_description": "",
+    "col_2": "lwchot",
+    "translation_col_2": ""
+  },
+  "39": {
+    "name": "Right W Cross Hotbar",
+    "translation_name": "",
+    "description": "RightWXHB",
+    "translation_description": "",
+    "col_2": "rchot",
+    "translation_col_2": ""
+  },
+  "40": {
+    "name": "Oath Gauge",
+    "translation_name": "",
+    "description": "OathGauge",
+    "translation_description": "",
+    "col_2": "oathg",
+    "translation_col_2": ""
+  },
+  "41": {
+    "name": "Lightning Gauge",
+    "translation_name": "",
+    "description": "LightningGauge",
+    "translation_description": "",
+    "col_2": "lightg",
+    "translation_col_2": ""
+  },
+  "42": {
+    "name": "Beast Gauge",
+    "translation_name": "",
+    "description": "BeastGauge",
+    "translation_description": "",
+    "col_2": "beastg",
+    "translation_col_2": ""
+  },
+  "43": {
+    "name": "Dragon Gauge",
+    "translation_name": "",
+    "description": "DragonGauge",
+    "translation_description": "",
+    "col_2": "dragong",
+    "translation_col_2": ""
+  },
+  "44": {
+    "name": "Song Gauge",
+    "translation_name": "",
+    "description": "SongGauge",
+    "translation_description": "",
+    "col_2": "songg",
+    "translation_col_2": ""
+  },
+  "45": {
+    "name": "Healing Gauge",
+    "translation_name": "",
+    "description": "HealingGauge",
+    "translation_description": "",
+    "col_2": "healg",
+    "translation_col_2": ""
+  },
+  "46": {
+    "name": "Elemental Gauge",
+    "translation_name": "",
+    "description": "ElementalGauge",
+    "translation_description": "",
+    "col_2": "elemeng",
+    "translation_col_2": ""
+  },
+  "47": {
+    "name": "Aetherflow Gauge",
+    "translation_name": "",
+    "description": "AetherflowGauge",
+    "translation_description": "",
+    "col_2": "aetherg",
+    "translation_col_2": ""
+  },
+  "48": {
+    "name": "Aetherflow Gauge",
+    "translation_name": "",
+    "description": "AetherflowGauge",
+    "translation_description": "",
+    "col_2": "aetherg",
+    "translation_col_2": ""
+  },
+  "49": {
+    "name": "Trance Gauge",
+    "translation_name": "",
+    "description": "TranceGauge",
+    "translation_description": "",
+    "col_2": "tranceg",
+    "translation_col_2": ""
+  },
+  "50": {
+    "name": "Faerie Gauge",
+    "translation_name": "",
+    "description": "FaerieGauge",
+    "translation_description": "",
+    "col_2": "faerieg",
+    "translation_col_2": ""
+  },
+  "51": {
+    "name": "Ninki Gauge",
+    "translation_name": "",
+    "description": "NinkiGauge",
+    "translation_description": "",
+    "col_2": "ninkig",
+    "translation_col_2": ""
+  },
+  "52": {
+    "name": "Heat Gauge",
+    "translation_name": "",
+    "description": "HeatGauge",
+    "translation_description": "",
+    "col_2": "heatg",
+    "translation_col_2": ""
+  },
+  "54": {
+    "name": "Blood Gauge",
+    "translation_name": "",
+    "description": "BloodGauge",
+    "translation_description": "",
+    "col_2": "bloodg",
+    "translation_col_2": ""
+  },
+  "55": {
+    "name": "Arcana Gauge",
+    "translation_name": "",
+    "description": "ArcanaGauge",
+    "translation_description": "",
+    "col_2": "arcanag",
+    "translation_col_2": ""
+  },
+  "56": {
+    "name": "Kenki Gauge",
+    "translation_name": "",
+    "description": "KenkiGauge",
+    "translation_description": "",
+    "col_2": "kenkig",
+    "translation_col_2": ""
+  },
+  "57": {
+    "name": "Sen Gauge",
+    "translation_name": "",
+    "description": "SenGauge",
+    "translation_description": "",
+    "col_2": "seng",
+    "translation_col_2": ""
+  },
+  "58": {
+    "name": "Balance Gauge",
+    "translation_name": "",
+    "description": "BalanceGauge",
+    "translation_description": "",
+    "col_2": "balg",
+    "translation_col_2": ""
+  },
+  "59": {
+    "name": "Duty Gauge",
+    "translation_name": "",
+    "description": "DutyGauge",
+    "translation_description": "",
+    "col_2": "dutyg",
+    "translation_col_2": ""
+  },
+  "60": {
+    "name": "Duty Action",
+    "translation_name": "",
+    "description": "DutyAction",
+    "translation_description": "",
+    "col_2": "dutyact",
+    "translation_col_2": ""
+  },
+  "61": {
+    "name": "Chakra Gauge",
+    "translation_name": "",
+    "description": "ChakraGauge",
+    "translation_description": "",
+    "col_2": "chakrag",
+    "translation_col_2": ""
+  },
+  "62": {
+    "name": "Kazematoi",
+    "translation_name": "",
+    "description": "Kazematoi",
+    "translation_description": "",
+    "col_2": "kaze",
+    "translation_col_2": ""
+  },
+  "63": {
+    "name": "Scenario Guide",
+    "translation_name": "",
+    "description": "ScenarioGuide",
+    "translation_description": "",
+    "col_2": "sguide",
+    "translation_col_2": ""
+  },
+  "64": {
+    "name": "Rival Wings Gauges",
+    "translation_name": "",
+    "description": "RWGauge",
+    "translation_description": "",
+    "col_2": "rwg",
+    "translation_col_2": ""
+  },
+  "65": {
+    "name": "Rival Wings Alliance List",
+    "translation_name": "",
+    "description": "RWAlliance",
+    "translation_description": "",
+    "col_2": "rwa",
+    "translation_col_2": ""
+  },
+  "66": {
+    "name": "Rival Wings Team Info",
+    "translation_name": "",
+    "description": "RWTeam",
+    "translation_description": "",
+    "col_2": "rwt",
+    "translation_col_2": ""
+  },
+  "67": {
+    "name": "Status Info (Enhancements)",
+    "translation_name": "",
+    "description": "SInfoEnhancements",
+    "translation_description": "",
+    "col_2": "sienh",
+    "translation_col_2": ""
+  },
+  "68": {
+    "name": "Status Info (Enfeeblements)",
+    "translation_name": "",
+    "description": "SInfoEnfeeblements",
+    "translation_description": "",
+    "col_2": "sienf",
+    "translation_col_2": ""
+  },
+  "69": {
+    "name": "Status Info (Other)",
+    "translation_name": "",
+    "description": "SInfoOther",
+    "translation_description": "",
+    "col_2": "siother",
+    "translation_col_2": ""
+  },
+  "70": {
+    "name": "Target Info (Status)",
+    "translation_name": "",
+    "description": "TInfoStatus",
+    "translation_description": "",
+    "col_2": "tistat",
+    "translation_col_2": ""
+  },
+  "71": {
+    "name": "Target Info (Progress Bar)",
+    "translation_name": "",
+    "description": "TInfoProgress",
+    "translation_description": "",
+    "col_2": "tiprog",
+    "translation_col_2": ""
+  },
+  "72": {
+    "name": "Target Info (HP)",
+    "translation_name": "",
+    "description": "TInfoHP",
+    "translation_description": "",
+    "col_2": "tihp",
+    "translation_col_2": ""
+  },
+  "73": {
+    "name": "The Feast Score",
+    "translation_name": "",
+    "description": "FeastScore",
+    "translation_description": "",
+    "col_2": "fscore",
+    "translation_col_2": ""
+  },
+  "74": {
+    "name": "The Feast Ally Info",
+    "translation_name": "",
+    "description": "FeastAlly",
+    "translation_description": "",
+    "col_2": "fally",
+    "translation_col_2": ""
+  },
+  "75": {
+    "name": "The Feast Enemy Info",
+    "translation_name": "",
+    "description": "FeastEnemy",
+    "translation_description": "",
+    "col_2": "fenemy",
+    "translation_col_2": ""
+  },
+  "76": {
+    "name": "Rival Wings Station Info",
+    "translation_name": "",
+    "description": "RWStation",
+    "translation_description": "",
+    "col_2": "rwst",
+    "translation_col_2": ""
+  },
+  "77": {
+    "name": "Rival Wings Mercenary Info",
+    "translation_name": "",
+    "description": "RWMerc",
+    "translation_description": "",
+    "col_2": "rwmrc",
+    "translation_col_2": ""
+  },
+  "78": {
+    "name": "Darkside Gauge",
+    "translation_name": "",
+    "description": "DarksideGauge",
+    "translation_description": "",
+    "col_2": "darkg",
+    "translation_col_2": ""
+  },
+  "79": {
+    "name": "Powder Gauge",
+    "translation_name": "",
+    "description": "PowderGauge",
+    "translation_description": "",
+    "col_2": "powdg",
+    "translation_col_2": ""
+  },
+  "80": {
+    "name": "Step Gauge",
+    "translation_name": "",
+    "description": "StepGauge",
+    "translation_description": "",
+    "col_2": "stepg",
+    "translation_col_2": ""
+  },
+  "81": {
+    "name": "Fourfold Feathers",
+    "translation_name": "",
+    "description": "FourfoldFeathers",
+    "translation_description": "",
+    "col_2": "ffeath",
+    "translation_col_2": ""
+  },
+  "82": {
+    "name": "Battle High Gauge",
+    "translation_name": "",
+    "description": "BattleHighGauge",
+    "translation_description": "",
+    "col_2": "",
+    "translation_col_2": ""
+  },
+  "83": {
+    "name": "New Game\u002B Guide",
+    "translation_name": "",
+    "description": "NewGame\u002B",
+    "translation_description": "",
+    "col_2": "",
+    "translation_col_2": ""
+  },
+  "84": {
+    "name": "Compressed Aether",
+    "translation_name": "",
+    "description": "CompressedAether",
+    "translation_description": "",
+    "col_2": "caether",
+    "translation_col_2": ""
+  },
+  "85": {
+    "name": "Ocean Fishing: Voyage Missions",
+    "translation_name": "",
+    "description": "VoyageMissions",
+    "translation_description": "",
+    "col_2": "",
+    "translation_col_2": ""
+  },
+  "86": {
+    "name": "Status Info (Conditional Enhancements)",
+    "translation_name": "",
+    "description": "SInfoConditionalEnhancements",
+    "translation_description": "",
+    "col_2": "sicenh",
+    "translation_col_2": ""
+  },
+  "87": {
+    "name": "Soul Gauge",
+    "translation_name": "",
+    "description": "SoulGauge",
+    "translation_description": "",
+    "col_2": "soulg",
+    "translation_col_2": ""
+  },
+  "88": {
+    "name": "Death Gauge",
+    "translation_name": "",
+    "description": "DeathGauge",
+    "translation_description": "",
+    "col_2": "deathg",
+    "translation_col_2": ""
+  },
+  "89": {
+    "name": "Eukrasia",
+    "translation_name": "",
+    "description": "Eukrasia",
+    "translation_description": "",
+    "col_2": "eukrasia",
+    "translation_col_2": ""
+  },
+  "90": {
+    "name": "Addersgall Gauge",
+    "translation_name": "",
+    "description": "AddersgallGauge",
+    "translation_description": "",
+    "col_2": "adderg",
+    "translation_col_2": ""
+  },
+  "91": {
+    "name": "Beast Chakra Gauge",
+    "translation_name": "",
+    "description": "BeastChakraGauge",
+    "translation_description": "",
+    "col_2": "beastcg",
+    "translation_col_2": ""
+  },
+  "92": {
+    "name": "Crystalline Conflict Progress Gauge",
+    "translation_name": "",
+    "description": "CConflictProgress",
+    "translation_description": "",
+    "col_2": "ccprog",
+    "translation_col_2": ""
+  },
+  "93": {
+    "name": "Crystalline Conflict Ally Info",
+    "translation_name": "",
+    "description": "CConflictAlly",
+    "translation_description": "",
+    "col_2": "ccally",
+    "translation_col_2": ""
+  },
+  "95": {
+    "name": "Crystalline Conflict Enemy Info",
+    "translation_name": "",
+    "description": "CConflictEnemy",
+    "translation_description": "",
+    "col_2": "ccenemy",
+    "translation_col_2": ""
+  },
+  "96": {
+    "name": "PvP Battle Log",
+    "translation_name": "",
+    "description": "PvPLog",
+    "translation_description": "",
+    "col_2": "cclog",
+    "translation_col_2": ""
+  },
+  "97": {
+    "name": "Crystalline Conflict Map",
+    "translation_name": "",
+    "description": "CConflictMap",
+    "translation_description": "",
+    "col_2": "ccmap",
+    "translation_col_2": ""
+  },
+  "98": {
+    "name": "Frontline Score Info",
+    "translation_name": "",
+    "description": "FrontlineScore",
+    "translation_description": "",
+    "col_2": "flscore",
+    "translation_col_2": ""
+  },
+  "99": {
+    "name": "Blunderville Objective",
+    "translation_name": "",
+    "description": "BlunderObjective",
+    "translation_description": "",
+    "col_2": "bvgoal",
+    "translation_col_2": ""
+  },
+  "100": {
+    "name": "Blunderville Score",
+    "translation_name": "",
+    "description": "BlunderScore",
+    "translation_description": "",
+    "col_2": "bvscore",
+    "translation_col_2": ""
+  },
+  "101": {
+    "name": "Blunderville Status",
+    "translation_name": "",
+    "description": "BlunderStatus",
+    "translation_description": "",
+    "col_2": "bvstatus",
+    "translation_col_2": ""
+  },
+  "102": {
+    "name": "Blunderville Show Log",
+    "translation_name": "",
+    "description": "BlunderShowLog",
+    "translation_description": "",
+    "col_2": "bvlog",
+    "translation_col_2": ""
+  },
+  "103": {
+    "name": "Astral Gauge",
+    "translation_name": "",
+    "description": "AstralGauge",
+    "translation_description": "",
+    "col_2": "astralg",
+    "translation_col_2": ""
+  },
+  "104": {
+    "name": "Vipersight",
+    "translation_name": "",
+    "description": "",
+    "translation_description": "",
+    "col_2": "",
+    "translation_col_2": ""
+  },
+  "105": {
+    "name": "Serpent Offerings Gauge",
+    "translation_name": "",
+    "description": "",
+    "translation_description": "",
+    "col_2": "",
+    "translation_col_2": ""
+  },
+  "106": {
+    "name": "Canvases",
+    "translation_name": "",
+    "description": "",
+    "translation_description": "",
+    "col_2": "",
+    "translation_col_2": ""
+  },
+  "107": {
+    "name": "Palette Gauge",
+    "translation_name": "",
+    "description": "",
+    "translation_description": "",
+    "col_2": "",
+    "translation_col_2": ""
+  },
+  "108": {
+    "name": "Frontline Campaign Info",
+    "translation_name": "",
+    "description": "FrontlineCampaignInfo",
+    "translation_description": "",
+    "col_2": "flcamp",
+    "translation_col_2": ""
+  },
+  "109": {
+    "name": "Cosmic Exploration Info",
+    "translation_name": "",
+    "description": "CosmicExplorationInfo",
+    "translation_description": "",
+    "col_2": "csmex",
+    "translation_col_2": ""
+  },
+  "110": {
+    "name": "TP Gauge",
+    "translation_name": "",
+    "description": "TPGauge",
+    "translation_description": "",
+    "col_2": "tpg",
+    "translation_col_2": ""
+  },
+  "111": {
+    "name": "Inner Compass",
+    "translation_name": "",
+    "description": "InnerCompass",
+    "translation_description": "",
+    "col_2": "innerc",
+    "translation_col_2": ""
+  }
+}

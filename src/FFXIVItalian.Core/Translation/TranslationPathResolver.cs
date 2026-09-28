@@ -82,7 +82,7 @@ public static class TranslationPathResolver
         if (File.Exists(existing)) return existing;
 
         string subDir = GetTargetSubdirectory(sheetName);
-        return Path.Combine(translationsDir, subDir, fileName);
+        return Path.Combine(translationsDir, "da_tradurre", subDir, fileName);
     }
 
     public static string FindFile(string translationsDir, string sheetNameOrRelativePath)
@@ -117,6 +117,11 @@ public static class TranslationPathResolver
             string targetSub = GetTargetSubdirectory(rawSheet);
             string questPath = Path.Combine(translationsDir, targetSub, justName);
             if (File.Exists(questPath)) return questPath;
+            foreach (string state in new[] { "da_tradurre", "da_revisionare" })
+            {
+                questPath = Path.Combine(translationsDir, state, targetSub, justName);
+                if (File.Exists(questPath)) return questPath;
+            }
         }
 
         // 4. Search AllDirectories

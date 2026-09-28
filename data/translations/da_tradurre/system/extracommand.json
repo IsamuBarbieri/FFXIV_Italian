@@ -1,0 +1,26 @@
+{
+  "1": {
+    "name": "Group Pose",
+    "translation_name": "",
+    "description": "Perform a group pose, repeating the last executed emote or action on loop. Camera position, lighting, and color filter can be all be adjusted in the command settings.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EText Command: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E/grouppose\u003Chex:02100103\u003E\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EKey Mapping: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E Available",
+    "translation_description": ""
+  },
+  "2": {
+    "name": "Idling Camera",
+    "translation_name": "",
+    "description": "Enable the idling camera. While active, the idling camera will randomly toggle between nearby PCs and NPCs. Executing the command with a PC or NPC targeted will center the camera on that target. Camera position, lighting, and color filter can be all be adjusted in the command settings.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EText Command: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E/idlingcamera\u003Chex:02100103\u003E\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EKey Mapping: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E Available",
+    "translation_description": ""
+  },
+  "3": {
+    "name": "Alarm",
+    "translation_name": "",
+    "description": "Enable alarm. Alarms can be set to go off while in game and are deleted upon logout.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EText Command: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E/alarm\u003Chex:02100103\u003E\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EKey Mapping: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E Available",
+    "translation_description": ""
+  },
+  "4": {
+    "name": "Command Panel",
+    "translation_name": "",
+    "description": "Displays the Command Panel.\u003Chex:02100103\u003EFreely register various actions and commands including mounts, minions, emotes, and gear sets for easy access and execution.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EText Command: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E/commandpanel\u003Chex:02100103\u003E\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EKey Mapping: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E Available",
+    "translation_description": ""
+  }
+}

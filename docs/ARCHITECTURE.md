@@ -10,13 +10,10 @@ Questo documento illustra l'architettura software, i flussi di dati e l'ingegner
 flowchart TD
     SqPack["FFXIV SqPack (.dat / .index)"] --> Extractor["FFXIVItalian.Extractor (Lumina 7.7)"]
     
-    subgraph Storage["data/translations/ (Corpus Categorizzato)"]
-        system["system/ (addon, lobby, error, etc.)"]
-        world["world/ (classjob, placename, etc.)"]
-        combat["combat/ (action, status, trait, etc.)"]
-        items["items/ (item, itemuicategory)"]
-        dialogue["dialogue/ (balloon, customtalk, etc.)"]
-        quests["quests/ (5.532 quest per espansione)"]
+    subgraph Storage["data/translations/ (Corpus per stato editoriale)"]
+        pending["da_tradurre/ (nessuna traduzione)"]
+        review["da_revisionare/ (traduzioni da revisionare)"]
+        approved["system/, world/ (file approvati)"]
     end
     
     Extractor --> Storage
@@ -90,16 +87,20 @@ Strumento per la manutenzione e il monitoraggio degli aggiornamenti di gioco:
 
 ## 3. Organizzazione del Corpus (`data/translations/`)
 
-I file di traduzione sono suddivisi logicamente per dominio di gioco:
+I file sono divisi per stato editoriale. `da_tradurre/` contiene file senza traduzioni; `da_revisionare/` contiene file con almeno una traduzione non approvati; i file elencati nella sezione **File approvati** del glossario restano in `system/` e `world/`. Dentro ciascuno stato ci sono le categorie `activities`, `combat`, `crafting`, `dialogue`, `housing`, `items`, `minigames`, `quests`, `shops`, `social`, `system` e `world`. Le quest narrative usano `quests/<espansione>/<numero>/`; i fogli master relativi alle missioni sono in `quests/master/`.
+
+Per aggiornare le cartelle dopo un'importazione o una nuova estrazione: `python tools/organize_sheets.py`. La presenza di una traduzione non equivale alla revisione, e un file parzialmente tradotto rimane in `da_revisionare/` finché non è approvato.
+
+Percorsi esemplificativi:
 
 | Categoria | Descrizione | Fogli Principali |
 |---|---|---|
-| `system/` | Interfaccia utente, schermate di sistema, statistiche e comandi | `addon.json`, `baseparam.json`, `lobby.json`, `error.json`, `maincommand.json`, `howto.json`, `textcommand.json`, `logmessage.json` |
-| `world/` | Elementi del mondo, geografia, personaggi e clan | `classjob.json`, `guardiandeity.json`, `race.json`, `tribe.json`, `placename.json`, `fate.json`, `achievement.json`, `title.json`, `weather.json` |
-| `combat/` | Abilità, stati alterati e tratti di combattimento | `action.json`, `actiontransient.json`, `status.json`, `trait.json`, `traittransient.json` |
-| `items/` | Oggetti, equipaggiamento e categorie UI | `item.json`, `itemuicategory.json` |
-| `dialogue/` | Testi ambientali, fumetti e dialoghi generici | `balloon.json`, `customtalk.json`, `defaulttalk.json` |
-| `quests/` | Trame narrative, cutscene e dialoghi delle missioni | Suddivise per espansione (`arr`, `heavensward`, `stormblood`, `shadowbringers`, `endwalker`, `dawntrail`) |
+| `system/` | Interfaccia revisionata | `addon.json`, `lobby.json` |
+| `world/` | Nomi revisionati | `classjob.json`, `placename.json` |
+| `da_revisionare/combat/` | Combattimento con traduzioni da verificare | `action.json`, `status.json` |
+| `da_revisionare/items/` | Oggetti con traduzioni da verificare | `item.json`, `itemuicategory.json` |
+| `da_tradurre/dialogue/` | Dialoghi senza traduzioni | `balloon.json`, `defaulttalk.json` |
+| `da_tradurre/quests/` | Quest narrative senza traduzioni | Per espansione e cartella numerica |
 
 ---
 
