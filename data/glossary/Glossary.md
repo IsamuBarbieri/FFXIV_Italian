@@ -20,9 +20,11 @@ Fonte terminologica per le traduzioni future. Le voci derivano solo dai file rev
 
 Per aggiungere un file: completarne la revisione, inserirlo in questo elenco e aggiungere solo termini riutilizzabili con una fonte `percorso#ID:campo`. Le varianti dello stesso termine restano righe separate con una nota di contesto. Forme grammaticali e frasi complete richiedono sempre una verifica nel contesto.
 
+Per le **etichette e i testi di gioco**: la frase deve suonare naturale e grammaticalmente corretta in italiano; adattare articoli, preposizioni e accordi al contesto (per esempio «l'appello», «nella Piazza dei Chocobo», «a Vari Splendori»). Nelle etichette, conservare la maiuscola iniziale delle parole del nome inglese anche quando la resa le espande: Waymarks = Marcatori Tattici; Faux Hollows Available = Tane Sospette Disponibili. In prosa, rispettare le maiuscole del termine inglese, ignorando la sola maiuscola dovuta all'inizio frase; sigle e forme interamente maiuscole restano tali. Se il risultato non è grammaticale, correggere l'intera frase senza alterare il termine canonico.
+
 Per le **categorie di attività**: Quest = Missione; Subquest = Missione secondaria; Main Scenario Quest = Missione dello Scenario Principale; Duty = Incarico; Levequest e Leve = Mandato; Trial = Prova; Raid = Incursione; Dungeon = Spedizione; Deep Dungeon = Cripta Profonda; Guildhest = Operazione di Gilda; FATE resta FATE anche al plurale. I qualificatori di categoria (per esempio Alliance, Savage, Extreme) si traducono in italiano. Le forme singolari non attestate nelle fonti sotto sono convenzioni editoriali, non voci approvate. Queste equivalenze valgono per le attività di gioco: *duty* come dovere, *trial* come processo o prova narrativa, *quest* come ricerca generica e i nomi propri richiedono una traduzione contestuale. Non sostituire automaticamente i nomi di istanze o luoghi.
 
-Per le **fonoperle**: Linkshell = Fonoperla, Linkshells = Fonoperle; Cross-world Linkshell = Fonoperla Intermondo, Cross-world Linkshells = Fonoperle Intermondo. Nelle etichette numerate, `[1]`, `[2]` e così via indicano lo stesso schema; il numero resta invariato. In prosa usare la minuscola per i nomi comuni («una fonoperla intermondo», «le fonoperle»), adattando articoli, preposizioni e accordi. «Intermondo» qualifica anche il Gruppo Intermondo; «intramondo» indica un concetto diverso. Le forme singolari senza numero sono convenzioni editoriali ricavate dalle etichette numerate, mentre le righe sotto riportano solo forme esattamente attestate.
+Per le **fonoperle**: Linkshell = Fonoperla, Linkshells = Fonoperle; Cross-world Linkshell = Fonoperla Intermondo, Cross-world Linkshells = Fonoperle Intermondo. Nelle etichette numerate, `[1]`, `[2]` e così via indicano lo stesso schema; il numero resta invariato. In prosa usare la minuscola per i nomi comuni («una fonoperla intermondo», «le fonoperle»), adattando articoli, preposizioni e accordi. «Intermondo» qualifica le Fonoperle; Cross-world Party si traduce «Gruppo Intramondo». Le forme singolari senza numero sono convenzioni editoriali ricavate dalle etichette numerate, mentre le righe sotto riportano solo forme esattamente attestate. Nei nomi di funzione inglesi privi di articolo si può usare una forma italiana abbreviata senza articolo, se naturale: per esempio, Challenge Log = Registro Sfide.
 
 Per il sistema **glamour**: usare «illusione» al singolare e «illusioni» al plurale, adattando articoli e accordi. Le funzioni composte hanno le forme attestate sotto: Comò delle Illusioni, Piastra d'Illusione e Prisma delle Illusioni. In prosa usare le minuscole. «Glamour» in un nome proprio o in un contesto diverso richiede verifica; la sostituzione automatica non basta.
 
@@ -84,11 +86,20 @@ Per il sistema **glamour**: usare «illusione» al singolare e «illusioni» al 
 | Duties | Incarichi | `system/addon.json#15793:original` | Plurale del termine di gioco. |
 | Duty Finder | Ricerca Incarichi | `system/maincommand.json#33:name` | Nome della funzione. |
 | Duty Recorder | Registratore Incarichi | `system/maincommand.json#76:name` | Nome della funzione. |
+| Hotbar | Barra Azioni | `system/addon.json#48527:original` | Nome dell'interfaccia; in prosa adattare articolo e numero. |
 | Duty Support | Supporto Incarichi | `system/maincommand.json#91:name` | Nome della funzione. |
 | Duty Roulette | Roulette Incarichi | `system/addon.json#8605:original` | Nome della funzione. |
 | Party Finder | Ricerca Gruppo | `system/maincommand.json#57:name` | Nome della funzione di ricerca gruppi. |
 | Hall of the Novice | Sala dei Novizi | `system/maincommand.json#70:name` | Nome della funzione. |
-| Challenge Log | Registro delle Sfide | `system/maincommand.json#60:name` | Nome del registro. |
+| Challenge Log | Registro Sfide | `system/maincommand.json#60:name` | Nome del registro; forma abbreviata senza articolo. |
+| Challenge Log Rewards | Ricompense Registro Sfide | `system/addon.json#10116:original` | Etichetta abbreviata, senza articolo. |
+| Heaven-on-High | Pilastro dei Cieli | `system/addon.json#4809:original` | Nome del Deep Dungeon. |
+| Faux Hollows | Tane Sospette | `system/addon.json#11013:original` | Nome della funzione. |
+| Sundry Splendors | Vari Splendori | `system/addon.json#13512:original` | Nome del negozio. |
+| Mech Ops | Operazione Mech | `system/addon.json#16724:original` | Nome della modalità; al plurale nel testo: Operazioni Mech. |
+| Crucible of the Unbroken | Crogiolo degli Infrangibili | `system/addon.json#17601:original` | Nome del contenuto. |
+| Company Chest | Forziere della Compagnia | `system/addon.json#2880:original` | Nome della funzione della Compagnia Libera. |
+| Rowena's House of Splendors | Casa degli Splendori di Rowena | `system/addon.json#6170:original` | Nome del negozio. |
 | Hunting Log | Registro di Caccia | `system/maincommand.json#8:name` | Nome del registro. |
 | Gathering Log | Registro di Raccolta | `system/maincommand.json#7:name` | Nome del registro. |
 | Crafting Log | Registro di Fabbricazione | `system/maincommand.json#9:name` | Nome del registro. |
@@ -96,21 +107,24 @@ Per il sistema **glamour**: usare «illusione» al singolare e «illusioni» al 
 | Fellowships | Confraternite | `system/maincommand.json#85:name` | Nome della funzione; singolare: Confraternita. |
 | Fellowship Finder | Ricerca Confraternite | `system/maincommand.json#86:name` | Nome della funzione. |
 | Strategy Board | Lavagna Strategica | `system/maincommand.json#98:name` | Nome della funzione. |
-| Sightseeing Log | Diario di Esplorazione | `system/maincommand.json#64:name` | Nome del registro. |
+| Sightseeing Log | Diario Esplorazione | `system/maincommand.json#64:name` | Nome del registro. |
+| Vault Oneiron | Volta Oneiron | `system/howto.json#289:original` | Nome del luogo. |
 | Armoury Chest | Armeria | `system/maincommand.json#25:name` | Nome della funzione. |
-| Chocobo Saddlebag | Bisacce del Chocobo | `system/maincommand.json#77:name` | Nome della funzione. |
+| Chocobo Saddlebag | Bisaccia del Chocobo | `system/maincommand.json#77:name` | Nome della funzione. |
 | Blue Magic Spellbook | Grimorio di Magia Blu | `system/maincommand.json#81:name` | Nome della funzione. |
 | Aether Currents | Correnti Eteriche | `system/maincommand.json#67:name` | Nome della funzione. |
 | Adventurer Plate | Scheda dell'Avventuriero | `system/maincommand.json#93:name` | Nome della funzione. |
 | Shared FATE | FATE Condivisi | `system/maincommand.json#84:name` | Nome della funzione. |
 | New Game+ | Nuova Partita+ | `system/maincommand.json#88:name` | Nome della modalità. |
 | Waymarks | Marcatori Tattici | `system/maincommand.json#58:name` | Nome della funzione. |
-| Ready Check | Controllo Prontezza | `system/maincommand.json#59:name` | Nome della funzione. |
-| Record Ready Check | Controllo Prontezza Registrazione | `system/maincommand.json#79:name` | Funzione distinta dal normale Controllo Prontezza. |
+| Ready Check | Appello | `system/maincommand.json#59:name` | Nome della funzione. |
+| Record Ready Check | Registra Appello | `system/maincommand.json#79:name` | Funzione per registrare un appello prima di registrare un incarico. Varianti ammesse in prosa: «appello di registrazione», «appello per la registrazione». |
 | PvP Profile | Profilo PvP | `system/maincommand.json#56:name` | Nome della funzione. |
-| PvP Team | Squadra PvP | `system/maincommand.json#78:name` | Nome della funzione. |
-| Mount Guide | Guida alle Cavalcature | `system/maincommand.json#61:name` | Nome della funzione. |
-| Minion Guide | Guida ai Minion | `system/maincommand.json#62:name` | Nome della funzione. |
+| PvP Team | Squadra PvP | `system/maincommand.json#78:name` | Nome della funzione; in prosa rispettare le maiuscole dell'originale e adattare genere e numero («una squadra PvP», «le squadre PvP»). |
+| Silence Echo | Silenzia Eco | `system/addon.json#12691:original` | Etichetta contestuale; distinta dal termine generico «Silence». |
+| Starward Standings | Classifica Stellare | `system/addon.json#16716:original` | Etichetta della classifica; distinta dal nome dell'area «Spalti delle Stelle». |
+| Mount Guide | Guida Cavalcature | `system/maincommand.json#61:name` | Nome della funzione. |
+| Minion Guide | Guida Minion | `system/maincommand.json#62:name` | Nome della funzione. |
 | Raid Finder | Ricerca Incursioni | `system/maincommand.json#72:name` | Nome della funzione. |
 | V&C Dungeon Finder | Ricerca Spedizioni V&C | `system/maincommand.json#94:name` | Nome della funzione; comprende varianti e criterio. |
 | Levequests | Mandati | `system/addon.json#8602:original` | Singolare: Mandato; tipo specifico di attività. |
@@ -122,12 +136,29 @@ Per il sistema **glamour**: usare «illusione» al singolare e «illusioni» al 
 | Guildhests | Operazioni di Gilda | `system/addon.json#3165:original` | Singolare: Operazione di Gilda. |
 | FATE | FATE | `system/addon.json#5768:original` | Sigla invariabile. |
 | FATEs | FATE | `system/addon.json#8336:original` | Plurale senza punti. |
+| Need | Necessità | `system/addon.json#390:original` | Scelta per l'assegnazione del bottino. |
+| Greed | Brama | `system/addon.json#391:original` | Scelta per l'assegnazione del bottino. |
+| Pass | Rinuncia | `system/addon.json#392:original` | Scelta per rifiutare il bottino. |
+| Need, Greed, Pass | Necessità, Brama, Rinuncia | `system/addon.json#12693:original` | Nomi delle tre scelte nel sistema di distribuzione del bottino. Varianti ammesse in prosa: «Necessità, Brama e Rinuncia», «Solo Brama». |
+| Aetheryte Tickets | Buoni Eterite | `system/addon.json#8501:original` | Oggetti per il teletrasporto; tradurre «Aetheryte» come «Eterite». |
+| Aetheryte Ticket Usage | Uso dei Buoni Eterite | `system/addon.json#8522:original` | Etichetta della funzione. |
+| Chocobo Porter | Noleggio Chocobo | `system/addon.json#2730:original` | Servizio di noleggio del Chocobo. |
+| Levemete | Ufficiale degli Incarichi | `system/addon.json#678:original` | PNG che assegna Mandati; resa contestuale. |
+| Advanced Materia Melding | Innesto Avanzato di Materia | `system/howto.json#99:original` | Nome della funzione di innesto avanzato. |
+| Pet Glamours | Illusione dei Famigli | `system/howto.json#233:original` | Resa del sistema di glamour applicato ai famigli. |
+| Moogle Treasure Trove | Forziere del Moguri | `system/addon.json#2778:original` | Nome dell'evento. |
+| Happy Bunny | Coniglio Felice | `system/addon.json#9791:original` | Nome dell'attività con il coniglio. |
+| Forked Towers | Torri Biforcate | `system/addon.json#16699:original` | Nome del contenuto; al singolare «Torre Biforcata». |
+| Resident Caretaker | Custode Residenziale | `system/addon.json#3691:original` | Ruolo nella zona residenziale; in prosa usare le minuscole. |
 | Crystalline Conflict | Conflitto Cristallino | `system/addon.json#5557:original` | Modalità PvP. |
 | Frontline | Prima Linea | `system/addon.json#5558:original` | Modalità PvP; verificare le maiuscole nel contesto. |
+| Elite Enemy | Nemico d'élite | `system/addon.json#17542:original` | Etichetta con numero dinamico; abbreviare il numero come «n.». |
 | Rival Wings | Ali Rivali | `system/addon.json#5559:original` | Modalità PvP. |
 | Triple Triad | Triple Triad | `system/addon.json#9529:original` | Nome invariato del minigioco. |
 | Lord of Verminion | Lord of Verminion | `system/addon.json#9550:original` | Nome invariato del minigioco. |
 | Gold Saucer | Gold Saucer | `system/addon.json#8612:original` | Nome invariato della destinazione. |
+| The Gold Saucer | Gold Saucer | `world/placename.json#1484:name` | Nome della destinazione; variante ammessa in prosa: «Gold Saucer». |
+| Leap of Faith | Salto della Fede | `system/addon.json#8475:original` | GATE del Gold Saucer. |
 | The Hunt | La Caccia | `system/addon.json#838:original` | Funzione di gioco; distinguere dall'uso comune di hunt. |
 | Treasure Hunt | Caccia al Tesoro | `system/addon.json#2276:original` | Modalità di gioco; distinguere dall'uso comune. |
 | Journal | Diario di Viaggio | `system/addon.json#450:original` | Nome del menu. |
@@ -147,7 +178,7 @@ Per il sistema **glamour**: usare «illusione» al singolare e «illusioni» al 
 | Cross-world Linkshells | Fonoperle Intermondo | `system/addon.json#12110:original` | Plurale delle fonoperle intermondo. |
 | Cross-world Linkshell [1] | Fonoperla Intermondo [1] | `system/addon.json#4397:original` | Etichetta numerata: conservare il numero. |
 | Cross-world Linkshell Invites | Inviti alle Fonoperle Intermondo | `system/addon.json#102636:original` | Inviti alla funzione intermondo. |
-| Cross-world Party | Gruppo Intermondo | `system/addon.json#10902:original` | Gruppo formato tra mondi diversi. |
+| Cross-world Party | Gruppo Intramondo | `system/addon.json#10902:original` | Gruppo formato tra mondi diversi. |
 | Linkshell Distributor | Distributore di Fonoperle | `world/placename.json#1237:name` | Nome della funzione o del luogo. |
 | Home World | Mondo d'Origine | `system/addon.json#4728:original` | Mondo di appartenenza del personaggio. |
 | World Visit | Visita Mondo | `system/addon.json#12510:original` | Funzione di viaggio tra mondi. |
@@ -160,7 +191,7 @@ Per il sistema **glamour**: usare «illusione» al singolare e «illusioni» al 
 | Cast Glamour | Applica Illusione | `system/addon.json#3700:original` | Comando per applicare un'illusione. |
 | Apply Glamours | Applica Illusioni | `system/addon.json#10583:original` | Comando al plurale. |
 | Glamour-ready | Pronto per l'illusione | `system/addon.json#5728:original` | Idoneità dell'oggetto; adattare genere e numero in prosa. |
-| Outfit Glamour | Completo Illusione | `system/addon.json#15644:original` | Insieme di oggetti registrato come illusione. |
+| Outfit Glamour | Completo Illusione | `system/addon.json#15644:original` | Insieme di oggetti registrato come illusione. Varianti ammesse in prosa: «completi pronti per l'illusione». |
 | Furnishing Glamours | Illusioni d'Arredo | `system/addon.json#15533:original` | Aspetti alternativi degli arredi; in prosa minuscolo. |
 | Registered Glamours | Illusioni Registrate | `system/addon.json#15528:original` | Elenco delle illusioni d'arredo registrate. |
 | Placed Glamours | Illusioni Posizionate | `system/addon.json#15539:original` | Illusioni d'arredo già posizionate. |
@@ -186,11 +217,11 @@ Per il sistema **glamour**: usare «illusione» al singolare e «illusioni» al 
 | Emotes | Emote | `system/maincommand.json#17:name` | Categoria di azioni sociali. |
 | Fashion Accessories | Accessori di Moda | `system/maincommand.json#89:name` | Collezione di accessori. |
 | Friend List | Lista Amici | `system/maincommand.json#13:name` | Elenco sociale. |
-| HUD Layout | Disposizione HUD | `system/maincommand.json#22:name` | Funzione di disposizione dell'interfaccia. |
+| HUD Layout | Disposizione HUD | `system/maincommand.json#22:name` | Funzione di disposizione dell'interfaccia. Varianti ammesse in prosa: «disposizione dell'HUD», «disposizione HUD», «disposizione delle barre azioni nell'HUD», «disposizione e dimensione dell'HUD». |
 | Key Items | Oggetti Chiave | `system/maincommand.json#11:name` | Categoria di inventario. |
 | Keybind | Assegnazione Tasti | `system/maincommand.json#20:name` | Configurazione dei comandi. |
 | Mount Speed | Velocità Cavalcatura | `system/maincommand.json#75:name` | Funzione delle cavalcature. |
-| Mute List | Lista Silenziati | `system/maincommand.json#96:name` | Elenco sociale. |
+| Mute List | Lista Silenziati | `system/maincommand.json#96:name` | Nome del menu. Varianti ammesse in prosa: «lista dei personaggi silenziati». |
 | Player Search | Ricerca Giocatori | `system/maincommand.json#15:name` | Ricerca di altri giocatori. |
 | System Configuration | Configurazione di Sistema | `system/maincommand.json#19:name` | Menu delle impostazioni. |
 | User Macros | Macro Utente | `system/maincommand.json#21:name` | Funzione delle macro. |
@@ -199,10 +230,12 @@ Per il sistema **glamour**: usare «illusione» al singolare e «illusioni» al 
 | Sound Settings | Impostazioni Audio | `system/maincommand.json#46:name` | Impostazioni audio. |
 | UI Settings | Impostazioni Interfaccia | `system/maincommand.json#52:name` | Impostazioni dell'interfaccia. |
 | Item Settings | Impostazioni Oggetti | `system/maincommand.json#71:name` | Impostazioni degli oggetti. |
-| Mouse Settings | Impostazioni Mouse | `system/maincommand.json#48:name` | Impostazioni del mouse. |
+| Mouse Settings | Impostazioni Mouse | `system/maincommand.json#48:name` | Impostazioni del mouse. Varianti ammesse in prosa: «impostazioni di [dispositivo] e del mouse» quando il dispositivo è indicato dal tag dinamico. |
 | Theme Settings | Impostazioni Tema | `system/maincommand.json#83:name` | Impostazioni grafiche. |
 | Configuration Sharing | Condivisione Configurazione | `system/maincommand.json#99:name` | Condivisione delle impostazioni. |
-| Party Members | Membri del Gruppo | `system/maincommand.json#12:name` | Nome dell'elenco. |
+| Party Members | Membri del Gruppo | `system/maincommand.json#12:name` | Nome dell'elenco. Varianti ammesse in prosa: «membri», «tutti i membri» (quando il riferimento al gruppo è chiaro). |
+| Sanctuary Crafting Log | Registro di Fabbricazione del Rifugio Insulare | `system/addon.json#14259:original` | Nome del registro di fabbricazione del Rifugio Insulare. |
+| Sanctuary Gathering Log | Registro di Raccolta del Rifugio Insulare | `system/addon.json#14260:original` | Nome del registro di raccolta del Rifugio Insulare. |
 | Currency | Valute | `system/maincommand.json#66:name` | Nome del menu; altre etichette usano il singolare «Valuta». |
 
 ### Termini di gioco
@@ -211,6 +244,8 @@ Per il sistema **glamour**: usare «illusione» al singolare e «illusioni» al 
 | --- | --- | --- | --- |
 | Free Company | Compagnia Libera | `system/addon.json#646:original` |  |
 | Grand Company | Grande Compagnia | `system/addon.json#337:original` |  |
+| Subleader | Vice | `system/addon.json#38155:original` | Ruolo nella squadra PvP; in prosa minuscolo «vice». |
+| Subleaders | Vice | `system/addon.json#38047:original` | Plurale invariabile; in prosa «i vice». |
 | Aetheryte | Eterite | `system/addon.json#8511:original` |  |
 | Aethernet | Eternet | `system/addon.json#2720:original` |  |
 | Gil | Gil | `system/addon.json#830:original` |  |
@@ -354,6 +389,13 @@ Catalogo integrale: `data/translations/world/placename.json`. Cercare il nome in
 | Blue Badger Gate | Porta del Tasso Blu | `world/placename.json#87:name` | Forma canonica applicata a entrambe le occorrenze. |
 | Naked Rock | Roccianuda | `world/placename.json#92:name` | Forma canonica applicata a entrambe le occorrenze. |
 | The Fold | La Piega | `world/placename.json#5125:name` | Forma canonica applicata alle tre occorrenze. |
+| Abalathia's Spine | Spina di Abalathia | `system/addon.json#1590:original` | Forma in questa frase; la voce PlaceName autonoma è «La Spina di Abalathia». |
+| Crystal Tower Striker | Il Martello della Torre di Cristallo | `system/addon.json#9989:original` | Nome completo; non applicare separatamente il termine «Crystal Tower». |
+| Island Sanctuary | Rifugio Insulare | `system/addon.json#1799:original` | Nome dell'area; in prosa usare le minuscole e adattare l'articolo. |
+| The Occult Crescent | Falce Occulta | `world/placename.json#4931:name` | Nome dell'area; variante ammessa in prosa: «Falce Occulta» quando l'articolo è retto da una preposizione. |
+| Treasure Coffer | Forziere | `system/addon.json#17622:original` | In questi messaggi indica il forziere che contiene il tesoro. Varianti ammesse in prosa: «Scrigno del Tesoro». |
+| Residential Area | Zona Residenziale | `system/addon.json#8463:original` | Nome della zona; in prosa usare le minuscole. |
+| Market Wards | quartiere mercantile | `system/addon.json#948:original` | Forma singolare contestuale dopo «alcun». |
 | Skull Valley | Valleteschio | `world/placename.json#171:name` | Forma canonica applicata a entrambe le occorrenze. |
 | Via Praetoria | Via Praetoria | `world/placename.json#429:name` | Forma canonica applicata a entrambe le occorrenze. |
 | Central Hall | Salone Centrale | `world/placename.json#5484:name` | Forma canonica applicata a entrambe le occorrenze. |

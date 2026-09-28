@@ -1,0 +1,2762 @@
+# Checklist per la revisione delle segnalazioni
+
+Segnalazioni automatiche pendenti: 568. Sono 516 campi di traduzione distinti; 42 campi contengono più di un termine segnalato. La scansione propone casi da controllare, non errori certi.
+
+## Come annotarla
+
+- Nel riquadro globale di un termine puoi scrivere `APPLICA → testo/regola`, `MANTIENI` oppure `REGOLA → istruzione`. Vale per tutte le occorrenze, salvo eccezioni.
+- Per un singolo campo, scrivi la decisione accanto ad `Azione`; prevale sulla regola globale.
+- Spunta `[x]` quando hai deciso. Lascia vuoto ciò che vuoi ancora discutere.
+- Se usi `APPLICA`, indica la frase italiana completa desiderata.
+
+## Decisioni globali per termine
+
+- [ ] **Free Company** — 33 segnalazioni, 33 campi — **Azione globale:** ____________________
+- [ ] **PvP Team** — 33 segnalazioni, 33 campi — **Azione globale:** ____________________
+- [ ] **Resolution** — 31 segnalazioni, 31 campi — **Azione globale:** ____________________
+- [ ] **Treasure** — 27 segnalazioni, 27 campi — **Azione globale:** ____________________
+- [ ] **Home World** — 25 segnalazioni, 25 campi — **Azione globale:** ____________________
+- [ ] **Party Members** — 25 segnalazioni, 25 campi — **Azione globale:** ____________________
+- [ ] **Glamours** — 21 segnalazioni, 21 campi — **Azione globale:** ____________________
+- [ ] **Creation** — 15 segnalazioni, 15 campi — **Azione globale:** ____________________
+- [ ] **Friend List** — 14 segnalazioni, 14 campi — **Azione globale:** ____________________
+- [ ] **HUD Layout** — 12 segnalazioni, 12 campi — **Azione globale:** ____________________
+- [ ] **Aetheryte** — 11 segnalazioni, 11 campi — **Azione globale:** ____________________
+- [ ] **Outfit Glamour** — 10 segnalazioni, 10 campi — **Azione globale:** ____________________
+- [ ] **The First** — 10 segnalazioni, 10 campi — **Azione globale:** ____________________
+- [ ] **World Visit** — 10 segnalazioni, 10 campi — **Azione globale:** ____________________
+- [ ] **Company Chest** — 9 segnalazioni, 9 campi — **Azione globale:** ____________________
+- [ ] **Data Center** — 9 segnalazioni, 9 campi — **Azione globale:** ____________________
+- [ ] **Resident Caretaker** — 9 segnalazioni, 9 campi — **Azione globale:** ____________________
+- [ ] **Strategy Board** — 9 segnalazioni, 9 campi — **Azione globale:** ____________________
+- [ ] **Achievement** — 8 segnalazioni, 8 campi — **Azione globale:** ____________________
+- [ ] **Beyond** — 8 segnalazioni, 8 campi — **Azione globale:** ____________________
+- [ ] **Materia Melding** — 8 segnalazioni, 8 campi — **Azione globale:** ____________________
+- [ ] **Adventurer Plate** — 7 segnalazioni, 7 campi — **Azione globale:** ____________________
+- [ ] **Cross-world Party** — 7 segnalazioni, 7 campi — **Azione globale:** ____________________
+- [ ] **Random** — 7 segnalazioni, 7 campi — **Azione globale:** ____________________
+- [ ] **Passage** — 6 segnalazioni, 6 campi — **Azione globale:** ____________________
+- [ ] **The Gold Saucer** — 6 segnalazioni, 6 campi — **Azione globale:** ____________________
+- [ ] **Registered Glamours** — 5 segnalazioni, 5 campi — **Azione globale:** ____________________
+- [ ] **Crafting Log** — 4 segnalazioni, 4 campi — **Azione globale:** ____________________
+- [ ] **Cross-world Linkshells** — 4 segnalazioni, 4 campi — **Azione globale:** ____________________
+- [ ] **Fashion Accessories** — 4 segnalazioni, 4 campi — **Azione globale:** ____________________
+- [ ] **Glamour Dresser** — 4 segnalazioni, 4 campi — **Azione globale:** ____________________
+- [ ] **Glamour Plate** — 4 segnalazioni, 4 campi — **Azione globale:** ____________________
+- [ ] **Mute List** — 4 segnalazioni, 4 campi — **Azione globale:** ____________________
+- [ ] **Repairs** — 4 segnalazioni, 4 campi — **Azione globale:** ____________________
+- [ ] **The Deep** — 4 segnalazioni, 4 campi — **Azione globale:** ____________________
+- [ ] **UI Settings** — 4 segnalazioni, 4 campi — **Azione globale:** ____________________
+- [ ] **Wonder Square** — 4 segnalazioni, 4 campi — **Azione globale:** ____________________
+- [ ] **Apply Glamours** — 3 segnalazioni, 3 campi — **Azione globale:** ____________________
+- [ ] **Bridge** — 3 segnalazioni, 3 campi — **Azione globale:** ____________________
+- [ ] **Character Configuration** — 3 segnalazioni, 3 campi — **Azione globale:** ____________________
+- [ ] **Delivery Moogle** — 3 segnalazioni, 3 campi — **Azione globale:** ____________________
+- [ ] **Silence** — 3 segnalazioni, 3 campi — **Azione globale:** ____________________
+- [ ] **The Diadem** — 3 segnalazioni, 3 campi — **Azione globale:** ____________________
+- [ ] **Aetherial Reduction** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **Aethernet** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **Blue Magic Spellbook** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **Campsite** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **Chocobo Saddlebag** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **Cosmic Research** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **Currency** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **Elite Enemy** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **Foundation** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **Furnishing Glamours** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **Gathering Log** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **Grand Company** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **Limsa Lominsa** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **Mouse Settings** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **New Game+** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **Porter** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **Prosperity** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **Sound Settings** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **Starward Standings** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **Storeroom** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **Tessellation** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **The Core** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **The Firmament** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **The Occult Crescent** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **The Sea of Clouds** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **The Underworld** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **Transparency** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **Wolves' Den Pier** — 2 segnalazioni, 2 campi — **Azione globale:** ____________________
+- [ ] **Abalathia's Spine** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Aether Currents** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Ala Mhigo** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Back** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Barracks** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Black Mage** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Blue Mage** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Chocobo** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Chocobo Stables** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Class** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Coerthas** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Configuration Sharing** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Conjurers' Guild** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Cosmic Fortune** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Crystal Tower** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Crystalline Conflict** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Dark Knight** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Discovery** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Dravania** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Duty Recorder** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Eulmore** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Facilities** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Forecastle** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Frondale's Phrontistery** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Frontline** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Gil** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Glamour-ready** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Graphics Settings** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Greatloam Growery** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Gridania** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Hall of the Novice** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Housing** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Idyllshire** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Ishgard** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Island Sanctuary** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Itinerant Moogle** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Key Items** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Kugane** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **La Noscea** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Levemete** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Lord of Verminion** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Main Scenario Quests** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Market Wards** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Mech Ops** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Mosaic** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **North Horn** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Norvrandt** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Options** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Othard** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Phantom Village** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Placed Glamours** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Platinum Mirage** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Red Mage** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Reflections** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Residential Area** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Sagolii Desert** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Sanctuary** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **South Horn** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Stillglade Fane** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Subterrane** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Sunsilk Tapestries** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **System Configuration** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Thanalan** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **The Battlehall** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **The Depths** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **The Eyes** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **The Fold** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **The Frame** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **The Gathering** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **The Hard Place** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **The Heart** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **The Hourglass** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **The Path** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **The Watcher** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Tranquility** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Treasure Hunt** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **Upper Decks** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **User Macros** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+- [ ] **White Mage** — 1 segnalazioni, 1 campi — **Azione globale:** ____________________
+
+
+## Decisioni per campo
+
+### Luoghi — 204 campi
+
+- [ ] `system/addon.json#1590:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Abalathia's Spine → La Spina di Abalathia`
+  - Inglese: `Abalathia's Spine`
+  - Italiano attuale: `Spina di Abalathia`
+  - **Azione:** R
+- [ ] `system/addon.json#17250:translation` — **MAIUSCOLE + TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Aethernet → Eternet; Phantom Village → Il Villaggio Fantasma; The Occult Crescent → La Falce Occulta`
+  - Inglese: `New phantom jobs are available on the Occult Crescent: South Horn.New items are also available for purchase from the expedition antiquarian.Furthermore, attuning to all Aethernet shards in Tuliyollal will now unlock the phantom village as an Aethernet destination.`
+  - Italiano attuale: `Nuove Classi fantasma sono disponibili nella Falce Occulta: Corno Sud.Nuovi oggetti sono inoltre disponibili per l'acquisto presso l'antiquario della spedizione.Inoltre, sintonizzarsi con tutti i frammenti dell'Aethernet a Tuliyollal sbloccherà ora il villaggio fantasma come des…`
+  - **Azione:** R (regola delle iniziali maiuscole/minuscole come traduzione)
+- [ ] `system/lobby.json#184:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Ala Mhigo → Ala Mhigo`
+  - Inglese: `The strategy of the lancers is to outrange and fluster opponents with their long, two-handed polearms, peppering them with a barrage of thrusting attacks. They are trained with a number of weapons, giving a diversity to their attacks that makes them extremely versatile combatant…`
+  - Italiano attuale: `I Lancieri eccellono nell'arte dell'asta, impugnando lance, picche e alabarde con maestria impareggiabile. Sfruttando la portata delle proprie armi, mantengono i nemici a distanza di sicurezza per poi sferrare stoccate fulminee e letali fendenti circolari. Il continuo studio del…`
+  - **Azione:** R
+- [ ] `system/addon.json#10539:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Barracks → Caserma`
+  - Inglese: `Complete (Return to barracks for debriefing)`
+  - Italiano attuale: `Completata (Torna alla caserma per il resoconto)`
+  - **Azione:** R (regola delle iniziali maiuscole/minuscole come traduzione)
+- [ ] `system/addon.json#8094:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Beyond → Oltre; Treasure → Tesoro`
+  - Inglese: `Caution. You have already completed the duty selected. progressed beyond this part in the story. treasure will appear upon duty completion.Enter ?※Loot rule:`
+  - Italiano attuale: `Attenzione. Hai già completato l'incarico selezionato. ha superato questa parte della storia. forzieri appariranno al completamento dell'incarico.Entrare in ?※Regola bottino:`
+  - **Azione:** M
+- [ ] `system/addon.json#8095:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Beyond → Oltre; Treasure → Tesoro`
+  - Inglese: `progressed beyond this part in the story. treasure will appear upon duty completion.Enter ?※Loot rule:`
+  - Italiano attuale: `ha superato questa parte della storia. forzieri appariranno al completamento dell'incarico.Entrare in ?※Regola bottino:`
+  - **Azione:** M
+- [ ] `system/addon.json#8096:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Beyond → Oltre; Treasure → Tesoro`
+  - Inglese: `Caution. The duty selected is beyond your current story progression. progressed beyond this part in the story. treasure will appear upon duty completion.Enter ?※Loot rule:`
+  - Italiano attuale: `Attenzione. L'incarico selezionato supera i tuoi progressi attuali nella storia. ha superato questa parte della storia. forzieri appariranno al completamento dell'incarico.Entrare in ?※Regola bottino:`
+  - **Azione:** M
+- [ ] `system/addon.json#8097:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Beyond → Oltre`
+  - Inglese: `Caution. The duty selected is beyond your current story progression.Enter ?※Loot rule:`
+  - Italiano attuale: `Attenzione. L'incarico selezionato supera i tuoi progressi attuali nella storia.Entrare in ?※Regola bottino:`
+  - **Azione:** M
+- [ ] `system/addon.json#10096:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Beyond → Oltre`
+  - Inglese: `The duty selected is beyond your current story progression. The preceding duty will be skipped and its weekly reward lost. Proceed?`
+  - Italiano attuale: `L'incarico selezionato è oltre la tua attuale progressione della storia. L'incarico precedente verrà saltata e la sua ricompensa settimanale andrà persa. Procedere?`
+  - **Azione:** M
+- [ ] `system/addon.json#10452:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Beyond → Oltre`
+  - Inglese: `The beyond remain sealed.`
+  - Italiano attuale: `I oltre rimangono sigillati.`
+  - **Azione:** M
+- [ ] `system/addon.json#15956:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Beyond → Oltre`
+  - Inglese: `※A fixed party is required to challenge floors 31 and beyond.`
+  - Italiano attuale: `※È richiesto un party fisso per affrontare i piani dal 31 in poi.`
+  - **Azione:** M
+- [ ] `system/addon.json#16128:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Beyond → Oltre`
+  - Inglese: `Creates a blurred effect for objects and scenery beyond the camera's point of focus.※Depth of Field is only applicable in cutscenes and when using group pose.`
+  - Italiano attuale: `Crea un effetto sfocato per gli oggetti e lo scenario al di fuori del punto di messa a fuoco della telecamera.※La profondità di campo è applicabile solo nei filmati e quando si utilizza la posa di gruppo.`
+  - **Azione:** M
+- [ ] `system/addon.json#13921:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Bridge → Ponte`
+  - Inglese: `BRIDGE`
+  - Italiano attuale: `PONTE`
+  - **Azione:** R
+- [ ] `system/addon.json#13936:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Bridge → Ponte`
+  - Inglese: `BRIDGE`
+  - Italiano attuale: `PONTE`
+  - **Azione:** R
+- [ ] `system/addon.json#13946:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Bridge → Ponte`
+  - Inglese: `BRIDGE`
+  - Italiano attuale: `PONTE`
+  - **Azione:** R
+- [ ] `system/addon.json#17656:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Campsite → Accampamento`
+  - Inglese: `Leave the campsite without resting?You cannot return to the campsite after leaving.`
+  - Italiano attuale: `Lasciare l'accampamento senza riposare?Non potrai tornare all'accampamento dopo essere uscito.`
+  - **Azione:** M
+- [ ] `system/addon.json#17657:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Campsite → Accampamento`
+  - Inglese: `You and can recover HP at this campsite.Familiars that rest will lose current effects of feed.`
+  - Italiano attuale: `Tu e potete curarvi nell'accampamento.I famigli che riposano perderanno gli effetti attuali del cibo.`
+  - **Azione:** M
+- [ ] `system/addon.json#6853:translation` — **MAIUSCOLE + TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Chocobo Stables → Scuderie dei Chocobo; Storeroom → Magazzino`
+  - Inglese: `※You will not be able to renovate if the total number of items in your storeroom exceeds the storage capacity. When relocating, capacity is temporarily increased to 600 indoor furnishings and 80 outdoor furnishings. Chocobo stables and aetherytes not included in limit.`
+  - Italiano attuale: `※Non potrai ristrutturare se il numero totale di oggetti nel magazzino supera la capienza. Durante il trasferimento, la capienza viene temporaneamente estesa a 600 arredi interni e 80 arredi esterni. Stalle per Chocobo ed eteriti non rientrano nel limite.`
+  - **Azione:** M
+- [ ] `system/addon.json#1587:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Coerthas → Coerthas`
+  - Inglese: `coerthas`
+  - Italiano attuale: `coerthas`
+  - **Azione:** M
+- [ ] `system/lobby.json#188:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Conjurers' Guild → Gilda degli Incantatori; Creation → Creazione; Stillglade Fane → Tempio della Radura Silente`
+  - Inglese: `Conjury calls upon elemental forces present in nature and concentrates them to a potency at which spells can be woven. Through practiced meditation on the essences of creation, conjurers draw forth and absorb aether from their immediate surroundings. A wand or cane made from unw…`
+  - Italiano attuale: `Gli Incantatori attingono alle forze primordiali della natura, invocando gli elementi della terra, del vento e dell'acqua. In profonda comunione con gli spiriti elementali che dimorano nel reame, incanalano l'etere puro per risanare le ferite degli alleati, purificare le impurit…`
+  - **Azione:** M
+- [ ] `system/addon.json#16915:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Cosmic Fortune → Fortuna Cosmica`
+  - Inglese: `Pay to draw another cosmic fortune?(Credits remaining: )`
+  - Italiano attuale: `Pagare per estrarre un'altra fortuna cosmica?(Crediti rimanenti: )`
+  - **Azione:** M
+- [ ] `system/addon.json#16814:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Cosmic Research → Ricerca Cosmica`
+  - Inglese: `Unlock Cosmic Research by speaking with .`
+  - Italiano attuale: `Sblocca la Ricerca cosmica parlando con .`
+  - **Azione:** M
+- [ ] `system/addon.json#16996:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Cosmic Research → Ricerca Cosmica`
+  - Inglese: `Cosmic research is founded upon the collection of data pertaining to the Cosmic Exploration Initiative.Would you like to view the Exploration Guide?`
+  - Italiano attuale: `La ricerca cosmica si basa sulla raccolta di dati relativi all'Iniziativa di esplorazione cosmica.Vuoi visualizzare la Guida all'esplorazione?`
+  - **Azione:** M
+- [ ] `system/addon.json#6664:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Creation → Creazione`
+  - Inglese: `Commence creation of the following prototype:`
+  - Italiano attuale: `Avvia creazione del seguente prototipo:`
+  - **Azione:** M
+- [ ] `system/addon.json#8471:translation` — **MAIUSCOLE + TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Creation → Creazione; Wolves' Den Pier → Molo dell'Antro dei Lupi`
+  - Inglese: `Custom PvP teams can now be formed! View the team creation board located on the Wolves' Den Pier to learn more!`
+  - Italiano attuale: `È ora possibile formare squadre PvP personalizzate! Esamina la bacheca di creazione squadra situata al Molo della Tana dei Lupi per saperne di più!`
+  - **Azione:** M
+- [ ] `system/addon.json#10410:translation` — **MAIUSCOLE + TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Creation → Creazione; The Deep → L'Abisso`
+  - Inglese: `Proceed and your fixed party save data will be converted to matched party save data.Matched party save data still allows for the creation of preformed parties as long as the party is formed before returning to the deep dungeon, and the progression of all members is identical. An…`
+  - Italiano attuale: `Procedendo, i dati di salvataggio del tuo party fisso verranno convertiti in dati di salvataggio per party abbinato.I dati di salvataggio per party abbinato consentono comunque la creazione di party preformati, purché il party venga formato prima di rientrare nella Cripta Profon…`
+  - **Azione:** M
+- [ ] `system/lobby.json#31:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Creation → Creazione`
+  - Inglese: `Quit character creation and lose all progress?`
+  - Italiano attuale: `Vuoi uscire dalla creazione del personaggio e perdere tutti i progressi?`
+  - **Azione:** M
+- [ ] `system/lobby.json#142:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Creation → Creazione; The Deep → L'Abisso; Tranquility → Tranquillità`
+  - Inglese: `Auri creation myth tells of a Dawn Father and a Dusk Mother from whom all Au Ra are descended. The Raen believe their veins to run thick with the blood of the former─their brilliant white scales and iron wills serving as proof of this divine lineage. Unlike their sister clan, th…`
+  - Italiano attuale: `I Raen credono di discendere dalla Madre dell'Alba, divinità solare del loro pantheon. Le loro scaglie e corna sono di un colore bianco avorio immacolato, a simboleggiare purezza e serenità. Abbandonate le aspre steppe per valli riparate e coste orientali, i Raen hanno intrapres…`
+  - **Azione:** M
+- [ ] `system/lobby.json#144:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Creation → Creazione`
+  - Inglese: `Auri creation myth tells of a Dawn Father and a Dusk Mother from whom all Au Ra are descended. The Xaela believe their veins to run thick with the blood of the latter─their lustrous black scales and fiery wills serving as proof of this divine lineage. Unlike their sister clan, t…`
+  - Italiano attuale: `Gli Xaela venerano il Padre dell'Imbrunire, entità primordiale della notte stellata. Sfoggiano scaglie e corna di una fuligginosa tonalità nera come la pece e mantengono costumi nomadi nelle sterminate steppe di Othard. Suddivisi in decine di tribù guerriere costantemente in lot…`
+  - **Azione:** M
+- [ ] `system/lobby.json#820:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Creation → Creazione; Home World → Mondo d'Origine`
+  - Inglese: `“World” is another name for the server on which your character will reside.Once you have chosen a Home World, chances to move to another will be limited,so if you have made plans to play FINAL FANTASY XIV with friends, makecertain that you all select the same one.Worlds are divi…`
+  - Italiano attuale: `“Mondo” è un altro nome per indicare il server in cui risiederà il tuo personaggio.Una volta scelto un Mondo d'origine, le possibilità di trasferirsi saranno limitate,quindi se prevedi di giocare a FINAL FANTASY XIV con amici, assicuratidi selezionare lo stesso server.I Mondi so…`
+  - **Azione:** M
+- [ ] `system/lobby.json#823:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Creation → Creazione`
+  - Inglese: `Load character creation data for the saved to slot at : on ?`
+  - Italiano attuale: `Caricare i dati di creazione del personaggio per il salvati nello slot alle : del ?`
+  - **Azione:** M
+- [ ] `system/lobby.json#832:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Creation → Creazione`
+  - Inglese: `Load saved character creation data?`
+  - Italiano attuale: `Caricare i dati di creazione personaggio salvati?`
+  - **Azione:** M
+- [ ] `system/lobby.json#1970:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Creation → Creazione`
+  - Inglese: `Quit character creation and return to the Character Selection screen. You will lose all current progress.`
+  - Italiano attuale: `Abbandonare la creazione del personaggio e tornare alla schermata di Selezione Personaggio? Tutti i progressi attuali andranno perduti.`
+  - **Azione:** M
+- [ ] `system/lobby.json#2055:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Creation → Creazione`
+  - Inglese: `CHARACTER CREATION`
+  - Italiano attuale: `CREAZIONE PERSONAGGIO`
+  - **Azione:** M
+- [ ] `system/addon.json#9989:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Crystal Tower → La Torre di Cristallo`
+  - Inglese: `Crystal Tower Striker`
+  - Italiano attuale: `Il Martello della Torre di Cristallo`
+  - **Azione:** R
+- [ ] `system/addon.json#1106:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Delivery Moogle → Moguri Postino`
+  - Inglese: `You have received a letter from a GM.Visit a delivery moogle to accept and view it.`
+  - Italiano attuale: `Hai ricevuto una lettera da un GM.Visita un moguri postino per accettarla e visualizzarla.`
+  - **Azione:** M
+- [ ] `system/addon.json#1107:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Delivery Moogle → Moguri Postino; Home World → Mondo d'Origine`
+  - Inglese: `You have a new letter.Return to your Home World and visit a delivery moogle to accept and view it.`
+  - Italiano attuale: `Hai una nuova lettera.Torna al tuo Mondo d'origine e visita un moguri postino per accettarla e visualizzarla.`
+  - **Azione:** M
+- [ ] `system/addon.json#1114:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Delivery Moogle → Moguri Postino`
+  - Inglese: `You have a new letter.Visit a delivery moogle to accept and view it.`
+  - Italiano attuale: `Hai una nuova lettera.Visita un moguri postino per accettarla e visualizzarla.`
+  - **Azione:** M
+- [ ] `system/addon.json#15556:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Discovery → Scoperta`
+  - Inglese: `Delightful Discovery`
+  - Italiano attuale: `Scoperte Deliziose`
+  - **Azione:** M
+- [ ] `system/addon.json#1593:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Dravania → Dravania`
+  - Inglese: `dravania`
+  - Italiano attuale: `dravania`
+  - **Azione:** M
+- [ ] `system/addon.json#17542:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Elite Enemy → Nemico d'Elite`
+  - Inglese: `Elite Enemy #: Combat of beast.`
+  - Italiano attuale: `Nemico d'élite n. : Combatti di bestia.`
+  - **Azione:** R > Nemico d'élite n.
+- [ ] `system/addon.json#17552:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Elite Enemy → Nemico d'Elite`
+  - Inglese: `Elite Enemy`
+  - Italiano attuale: `Nemico d'Élite`
+  - **Azione:** M
+- [ ] `system/addon.json#1603:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Eulmore → Eulmore`
+  - Inglese: `eulmore`
+  - Italiano attuale: `eulmore`
+  - **Azione:** M
+- [ ] `system/addon.json#6253:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Facilities → Strutture`
+  - Inglese: `By choosing to demolish the company workshop, you will lose any progression made in company projects and exploratory/subaquatic voyages, and will not be refunded any gil used to purchase the facilities. Proceed?`
+  - Italiano attuale: `Scegliendo di demolire l'officina di compagnia, perderai tutti i progressi compiuti nei progetti di compagnia e nelle spedizioni esplorative/sottomarine, e non riceverai alcun rimborso del gil speso per acquistare le strutture. Procedere?`
+  - **Azione:** M
+- [ ] `system/addon.json#6583:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Forecastle → Castello di Prua`
+  - Inglese: `Forecastle`
+  - Italiano attuale: `Castello di prua`
+  - **Azione:** A
+- [ ] `system/addon.json#2635:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Foundation → Il Fondo`
+  - Inglese: `Foundation Date`
+  - Italiano attuale: `Data di Fondazione`
+  - **Azione:** M
+- [ ] `system/addon.json#4788:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Foundation → Il Fondo`
+  - Inglese: `Foundation Date`
+  - Italiano attuale: `Data di Fondazione`
+  - **Azione:** M
+- [ ] `world/placename.json#651:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Frondale's Phrontistery → Il Pensatoio di Frondale`
+  - Inglese: `Frondale's Phrontistery(Alchemists' Guild)`
+  - Italiano attuale: `Pensatoio di Frondale(Gilda degli Alchimisti)`
+  - **Azione:** M (L'originale non ha l'articolo)
+- [ ] `system/addon.json#14737:translation` — **MAIUSCOLE + TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Glamour Plate → Piastra d'Illusione; Sanctuary → Santuario`
+  - Inglese: `Unable to retrieve glamour plate data. You must be in a city or sanctuary to edit or display portraits of gear sets linked to glamour plates.`
+  - Italiano attuale: `Impossibile recuperare i dati della piastra delle proiezioni. Devi trovarti in una città o in un santuario per modificare o visualizzare i ritratti dei completi collegati alle piastre delle proiezioni.`
+  - **Azione:** A ma Santuario deve rimanere minuscolo
+- [ ] `world/placename.json#583:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Greatloam Growery → Il Vivaio Granterriccio`
+  - Inglese: `Greatloam Growery(Botanists' Guild)`
+  - Italiano attuale: `Vivaio Granterriccio(Gilda dei Botanici)`
+  - **Azione:** M (L'originale non ha l'articolo)
+- [ ] `system/addon.json#1577:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Gridania → Gridania`
+  - Inglese: `gridania`
+  - Italiano attuale: `gridania`
+  - **Azione:** M
+- [ ] `system/addon.json#8467:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Idyllshire → Borgopace; The Hard Place → Il Posto Duro`
+  - Inglese: `Paintings are now available for purchase at the Hard Place in Idyllshire. These paintings can be placed in frames and displayed in personal estates, rooms, and apartments.`
+  - Italiano attuale: `I dipinti sono ora acquistabili presso l'Hard Place a Idyllshire. Possono essere inseriti in cornici ed esposti in proprietà personali, camere e appartamenti.`
+  - **Azione:** A
+- [ ] `system/addon.json#1585:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Ishgard → Ishgard`
+  - Inglese: `ishgard`
+  - Italiano attuale: `ishgard`
+  - **Azione:** M
+- [ ] `system/addon.json#1799:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Island Sanctuary → Santuario Insulare`
+  - Inglese: `Used in the island sanctuary.`
+  - Italiano attuale: `Usato nel rifugio insulare.`
+  - **Azione:** R ma usiamo Rifugio Insulare al posto di Santuario Insulare
+- [ ] `system/addon.json#13753:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Itinerant Moogle → Moguri Itinerante`
+  - Inglese: `Obtained from .Itinerant Moogle,`
+  - Italiano attuale: `Ottenuto da .Moguri itinerante,`
+  - **Azione:** A
+- [ ] `system/addon.json#1595:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Kugane → Kugane`
+  - Inglese: `kugane`
+  - Italiano attuale: `kugane`
+  - **Azione:** M
+- [ ] `system/lobby.json#128:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `La Noscea → La Noscea; Limsa Lominsa → Limsa Lominsa; The First → Il Primo Mondo`
+  - Inglese: `From the flat landscapes of the Plainsfolk's home islands are where this Lalafellin clan takes its name. Their distinct hair coloration－ a myriad of earthy and grassy tones－helps them to blend in well with their environment, acting as an effective camouflage against would-be att…`
+  - Italiano attuale: `I Pratoverde hanno vissuto per generazioni nelle fertili pianure delle isole meridionali, costruendo caratteristiche dimore di paglia e argilla. I loro capelli presentano tonalità terrose e dorate che richiamano le distese erbose, mentre gli occhi grandi e luminosi riflettono la…`
+  - **Azione:** M
+- [ ] `system/addon.json#678:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Levemete → Incaricatore`
+  - Inglese: `Levemete`
+  - Italiano attuale: `Ufficiale degli Incarichi`
+  - **Azione:** MR
+- [ ] `system/lobby.json#132:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Limsa Lominsa → Limsa Lominsa; Sagolii Desert → Deserto di Sagolii`
+  - Inglese: `The self-proclaimed Seekers of the Sun are the diurnal clan of the Miqo'te race. Their preference for the warm light of day pervades all aspects of their culture, as is apparent in their devout reverence for Azeyma, the Warden, keeper of the sun and goddess of inquiry. They are …`
+  - Italiano attuale: `I Cercasole si sono adattati alla vita diurna e venerano Azeyma, Custode del Sole. I membri di questo clan si distinguono per gli occhi dai colori vividi con pupille verticali e sottili, simili a quelle dei felini predatori. La loro società tribale è rigidamente organizzata atto…`
+  - **Azione:** M
+- [ ] `system/addon.json#948:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Market Wards → Rioni del Mercato`
+  - Inglese: `This retainer has not been dispatchedto any market wards.`
+  - Italiano attuale: `Questo servitore non è stato inviatoad alcun quartiere mercantile.`
+  - **Azione:** `Questo servitore non è stato inviato ad alcun quartiere mercantile.` MR
+- [ ] `system/lobby.json#1981:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Mosaic → Il Mosaico`
+  - Inglese: `In the eastern reaches of the Aldenard landmass, home to vast, dense woodlands and coursing rivers, lies the forest nation of Gridania. The cityscape is a mosaic of labyrinthine waterways and great wooden structures, so gracefully constructed they seem a part of the surrounding …`
+  - Italiano attuale: `Nelle propaggini orientali della massa continentale di Aldenard, culla di vaste e fitte selve e fiumi impetuosi, sorge la nazione silvana di Gridania. Il paesaggio urbano è un mosaico armonioso di canali d'acqua labirintici e grandi strutture in legno, modellate con tale grazia …`
+  - **Azione:** M
+- [ ] `system/addon.json#16587:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `North Horn → Corno Nord`
+  - Inglese: `North Horn`
+  - Italiano attuale: `Corno del Nord`
+  - **Azione:** A
+- [ ] `system/addon.json#1605:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Norvrandt → Norvrandt`
+  - Inglese: `norvrandt`
+  - Italiano attuale: `norvrandt`
+  - **Azione:** M
+- [ ] `system/addon.json#1599:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Othard → Othard`
+  - Inglese: `othard`
+  - Italiano attuale: `othard`
+  - **Azione:** M
+- [ ] `system/addon.json#8918:translation` — **MAIUSCOLE + TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Passage → Passaggio; The Diadem → Il Diadema`
+  - Inglese: `Congratulations on completing the mission objectives!First things first: be sure to claim your mission reward. An icon on your map will mark the reward's location.With your mission objectives completed, you are free to explore the Diadem for the remainder of the operation time l…`
+  - Italiano attuale: `Congratulazioni per aver completato gli obiettivi della missione!Innanzitutto: assicurati di riscattare la tua ricompensa. Un'icona sulla mappa ne indicherà la posizione.Con gli obiettivi completati, sei libero di esplorare il Diadem per il tempo rimanente dell'operazione. I var…`
+  - **Azione:** M
+- [ ] `system/addon.json#16591:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Passage → Passaggio`
+  - Inglese: `Your current offering is sufficient to secure priority passage.`
+  - Italiano attuale: `La tua offerta attuale è sufficiente per assicurarti il passaggio prioritario.`
+  - **Azione:** M
+- [ ] `system/addon.json#16593:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Passage → Passaggio`
+  - Inglese: `Your current offering is insufficient for a chance at passage.`
+  - Italiano attuale: `La tua offerta attuale non è sufficiente per avere la possibilità di passare.`
+  - **Azione:** M
+- [ ] `system/addon.json#16594:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Passage → Passaggio`
+  - Inglese: `Your passage to the tower is not guaranteed.`
+  - Italiano attuale: `Il tuo passaggio alla torre non è garantito.`
+  - **Azione:** M
+- [ ] `system/addon.json#16595:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Passage → Passaggio`
+  - Inglese: `You have secured priority passage to the tower.`
+  - Italiano attuale: `Ti sei assicurato il passaggio prioritario alla torre.`
+  - **Azione:** M
+- [ ] `system/lobby.json#138:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Passage → Passaggio; Prosperity → Prosperità; The Underworld → Il Regno Sotterraneo`
+  - Inglese: `The Hellsguard are a Roegadyn clan with body and mind tempered by the unforgiving heat of the volcanic regions they inhabit. Believing these mountains of flame to be gates to the underworld, their line has for centuries stood vigil to prevent the passage of souls back to the rea…`
+  - Italiano attuale: `I Guardinferno sono un fiero clan di Roegadyn che ha eletto a propria dimora le regioni vulcaniche di Abalathia. Credendo fermamente che le bocche dei crateri costituiscano i varchi d'accesso agli inferi, si sono assunti il solenne compito di vegliare su tali abissi ardenti. La …`
+  - **Azione:** M
+- [ ] `world/placename.json#620:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Platinum Mirage → Il Miraggio di Platino`
+  - Inglese: `Platinum Mirage(Pugilists' Guild)`
+  - Italiano attuale: `Miraggio di Platino(Gilda dei Pugili)`
+  - **Azione:** M
+- [ ] `system/addon.json#2730:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Porter → Vettore Chocobo`
+  - Inglese: `Chocobo Porter`
+  - Italiano attuale: `Noleggio Chocobo`
+  - **Azione:** R
+- [ ] `system/addon.json#102381:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Porter → Vettore Chocobo`
+  - Inglese: `Chocobo Porter`
+  - Italiano attuale: `Chocobo da Noleggio`
+  - **Azione:** `Noleggio Chocobo`
+- [ ] `system/lobby.json#130:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Prosperity → Prosperità`
+  - Inglese: `Perhaps the most unique characteristic of the Dunesfolk is their luminous eyes─a result of a glossy, protective layer which covers the pupil, an evolutionary response to their homeland's glaring sunlight. Many individuals wear a small, traditional gemstone on their forehead, a s…`
+  - Italiano attuale: `I Dunagialla traggono origine dalle aride e desolate distese delle isole del sud, dove erigevano abitazioni sopra i dorsi di grandi bestie da soma. La caratteristica più peculiare di questo clan è la sottile membrana lucida che ricopre le pupille, evolutasi per proteggere gli oc…`
+  - **Azione:** M
+- [ ] `system/addon.json#9078:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Random → Casuale`
+  - Inglese: `Have a random pair of words selected for you.`
+  - Italiano attuale: `Seleziona casualmente una coppia di parole.`
+  - **Azione:** M
+- [ ] `system/addon.json#9306:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Random → Casuale`
+  - Inglese: `Allow a random number to be selected for you.`
+  - Italiano attuale: `Fai scegliere un numero casuale per te.`
+  - **Azione:** M
+- [ ] `system/addon.json#9787:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Random → Casuale`
+  - Inglese: `Random result from purchase:`
+  - Italiano attuale: `Risultato casuale dall'acquisto:`
+  - **Azione:** M
+- [ ] `system/addon.json#9788:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Random → Casuale`
+  - Inglese: `Random result from appraisal:`
+  - Italiano attuale: `Risultato casuale dalla perizia:`
+  - **Azione:** M
+- [ ] `system/lobby.json#2043:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Random → Casuale`
+  - Inglese: `Generates a random forename and surname based on in-world naming conventions. The resulting name can be further edited to your liking.`
+  - Italiano attuale: `Genera nome e cognome casuali basati sulle convenzioni del mondo di gioco. Il nome generato può essere ulteriormente personalizzato a piacimento.`
+  - **Azione:** M
+- [ ] `system/lobby.json#2106:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Random → Casuale`
+  - Inglese: `Generates a random forename and surname based on in-game naming conventions. The resulting name can be further edited to your liking.`
+  - Italiano attuale: `Genera nome e cognome casuali basati sulle convenzioni di gioco. Il nome generato può essere ulteriormente personalizzato a piacimento.`
+  - **Azione:** M
+- [ ] `system/addon.json#16129:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Reflections → Riflessi`
+  - Inglese: `Adjust the level of detail used for distant objects and light reflections.`
+  - Italiano attuale: `Regola il livello di dettaglio utilizzato per gli oggetti distanti e i riflessi di luce.`
+  - **Azione:** M
+- [ ] `system/addon.json#497:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Repairs → Riparazioni`
+  - Inglese: `Crafting & Repairs`
+  - Italiano attuale: `Fabbricazione e Riparazione`
+  - **Azione:** A
+- [ ] `system/addon.json#14943:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Repairs → Riparazioni`
+  - Inglese: `The requested repairs will be carried out using dark matter of a higher grade than is required. Proceed?`
+  - Italiano attuale: `Le riparazioni richieste verranno eseguite utilizzando materia oscura di grado superiore a quello necessario. Procedere?`
+  - **Azione:** M
+- [ ] `system/addon.json#14944:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Repairs → Riparazioni`
+  - Inglese: `You will be unable to receive all of the gil from the requested repairs. Proceed?`
+  - Italiano attuale: `Non potrai ricevere tutti i gil dalle riparazioni richieste. Procedere?`
+  - **Azione:** M
+- [ ] `system/addon.json#17227:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Repairs → Riparazioni`
+  - Inglese: `Cancel Repairs`
+  - Italiano attuale: `Annulla`
+  - **Azione:** M
+- [ ] `system/addon.json#3691:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resident Caretaker → Custode Residenziale`
+  - Inglese: `※Speak with a resident caretaker to retrieve items.`
+  - Italiano attuale: `※Parla con il custode residente per recuperare gli oggetti.`
+  - **Azione:** A (ma minuscolo)
+- [ ] `system/addon.json#8453:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resident Caretaker → Custode Residenziale`
+  - Inglese: `Members with personal chambers can now be discharged from free companies. Any items kept within the chambers can be reclaimed by speaking with a resident caretaker.`
+  - Italiano attuale: `I membri con camere personali possono ora essere espulsi dalla compagnia libera. Gli oggetti rimasti nelle camere possono essere recuperati parlando con un custode della residenza.`
+  - **Azione:** A
+- [ ] `system/addon.json#8455:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resident Caretaker → Custode Residenziale`
+  - Inglese: `You can now purchase land for a private estate. Speak with a resident caretaker for a detailed explanation on the steps required.`
+  - Italiano attuale: `Ora puoi acquistare terreni per una proprietà privata. Parla con un custode della residenza per una spiegazione dettagliata dei passaggi richiesti.`
+  - **Azione:** A
+- [ ] `system/addon.json#8457:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resident Caretaker → Custode Residenziale`
+  - Inglese: `You can now use expansion of duty permits, allowing the dispatchment of retainers on estate property. Speak with a resident caretaker for a detailed explanation on the steps required.`
+  - Italiano attuale: `Ora puoi usare i permessi di estensione degli incarichi, consentendo l'assegnazione dei servitori nella proprietà. Parla con un custode della residenza per maggiori dettagli.`
+  - **Azione:** A
+- [ ] `system/addon.json#8458:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resident Caretaker → Custode Residenziale`
+  - Inglese: `You can now use aetherial wheels. Charge wheels on wheel stands and convert the stored energy into company actions. Speak with a resident caretaker for a detailed explanation on the steps required.`
+  - Italiano attuale: `Ora puoi usare le ruote eteriche. Carica le ruote sui supporti e converti l'energia accumulata in azioni di compagnia. Parla con un custode della residenza per maggiori dettagli.`
+  - **Azione:** A
+- [ ] `system/addon.json#8459:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resident Caretaker → Custode Residenziale`
+  - Inglese: `You can now add a company workshop to your estate. Workshops can be used to craft company projects such as aetherial wheels, housing materials, and airships. Those airships can then be deployed on exploratory voyages. Speak with a resident caretaker for a detailed explanation on…`
+  - Italiano attuale: `Ora puoi aggiungere un'officina di compagnia alla tua proprietà. Le officine permettono di creare progetti di compagnia come ruote eteriche, materiali edilizi e aeronavi, che possono poi essere inviate in spedizioni esplorative. Parla con un custode della residenza per maggiori …`
+  - **Azione:** A
+- [ ] `system/addon.json#8461:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resident Caretaker → Custode Residenziale`
+  - Inglese: `The following changes have been made to housing: - Estate sharing is now available with private estates. - The brightness of estate lighting can now be adjusted. - Estates not accessed for extended periods of time will be automatically demolished and the plots of land put back u…`
+  - Italiano attuale: `Sono state apportate le seguenti modifiche agli alloggi: - La condivisione della residenza è ora disponibile per le proprietà private. - È ora possibile regolare la luminosità dell'illuminazione della proprietà. - Le proprietà a cui non si accede per lunghi periodi verranno auto…`
+  - **Azione:** A
+- [ ] `system/addon.json#8464:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resident Caretaker → Custode Residenziale`
+  - Inglese: `Apartments are now available for purchase in residential areas. Speak with a resident caretaker for details.`
+  - Italiano attuale: `Gli appartamenti sono ora disponibili per l'acquisto nelle zone residenziali. Parla con un custode della residenza per i dettagli.`
+  - **Azione:** A
+- [ ] `system/addon.json#8469:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resident Caretaker → Custode Residenziale`
+  - Inglese: `A relocation option is now available to estate owners wishing to move to a new plot of land. In addition, owners will now be granted use of storerooms for the temporary storage of both outdoor and indoor furnishings. Speak with a resident caretaker for details.`
+  - Italiano attuale: `L'opzione di trasferimento è ora disponibile per i proprietari che desiderano spostarsi su un nuovo terreno. Inoltre, viene concesso l'uso del magazzino per riporre temporaneamente arredi interni ed esterni. Parla con un custode della residenza per i dettagli.`
+  - **Azione:** A
+- [ ] `system/addon.json#8463:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Residential Area → Area Residenziale`
+  - Inglese: `Flowerpots and flower vases are now available for placement in all private estates and chambers. Curious crops grown in the flowerpots can be exchanged for materials at residential area material suppliers.`
+  - Italiano attuale: `Fioriere e vasi di fiori sono ora disponibili per tutte le proprietà e camere private. Le piante insolite coltivate nelle fioriere possono essere scambiate per materiali presso i fornitori di materiali della zona residenziale.`
+  - **Azione:** Zona Residenziale diventa Regola
+- [ ] `system/addon.json#4027:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `Resolution`
+  - Italiano attuale: `Risoluzione`
+  - **Azione:** M
+- [ ] `system/addon.json#4072:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `Shadow Resolution`
+  - Italiano attuale: `Risoluzione Ombre`
+  - **Azione:** M
+- [ ] `system/addon.json#4091:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `Allow resolution changes via mouse drag.`
+  - Italiano attuale: `Consenti cambio risoluzione trascinando il mouse.`
+  - **Azione:** M
+- [ ] `system/addon.json#4097:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `UI Resolution Settings`
+  - Italiano attuale: `Impostazioni Risoluzione Interfaccia`
+  - **Azione:** M
+- [ ] `system/addon.json#4098:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `UI Resolution`
+  - Italiano attuale: `Risoluzione Interfaccia`
+  - **Azione:** M
+- [ ] `system/addon.json#4125:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `Map Resolution`
+  - Italiano attuale: `Risoluzione Mappa`
+  - **Azione:** M
+- [ ] `system/addon.json#4163:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `Resolution`
+  - Italiano attuale: `Risoluzione`
+  - **Azione:** M
+- [ ] `system/addon.json#4164:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `Enable dynamic resolution.`
+  - Italiano attuale: `Attiva risoluzione dinamica.`
+  - **Azione:** M
+- [ ] `system/addon.json#4165:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `Automatically adjusts resolution levels for optimum performance.`
+  - Italiano attuale: `Regola automaticamente la risoluzione per prestazioni ottimali.`
+  - **Azione:** M
+- [ ] `system/addon.json#4168:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `3D Resolution Scaling`
+  - Italiano attuale: `Scala Risoluzione 3D`
+  - **Azione:** M
+- [ ] `system/addon.json#4195:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `Apply this resolution?Settings will be restored in .`
+  - Italiano attuale: `Applicare questa risoluzione?Le impostazioni saranno ripristinate tra .`
+  - **Azione:** M
+- [ ] `system/addon.json#8683:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `Texture Resolution`
+  - Italiano attuale: `Risoluzione Texture`
+  - **Azione:** M
+- [ ] `system/addon.json#8715:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `High Resolution UI Settings`
+  - Italiano attuale: `Impostazioni Interfaccia ad Alta Risoluzione`
+  - **Azione:** M
+- [ ] `system/addon.json#8716:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `Scales the UI for better viewing on high resolution displays.`
+  - Italiano attuale: `Ridimensiona l'interfaccia per schermi ad alta risoluzione.`
+  - **Azione:** M
+- [ ] `system/addon.json#8748:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `Screen Resolution`
+  - Italiano attuale: `Risoluzione dello Schermo`
+  - **Azione:** M
+- [ ] `system/addon.json#12432:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `High Resolution (for Full HD or higher)`
+  - Italiano attuale: `Alta risoluzione (per Full HD o superiore)`
+  - **Azione:** M
+- [ ] `system/addon.json#12433:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `Selecting high resolution layout may, in some cases, result in the UI being larger than the screen.`
+  - Italiano attuale: `La selezione del layout ad alta risoluzione potrebbe in alcuni casi rendere l'interfaccia più grande dello schermo.`
+  - **Azione:** M
+- [ ] `system/addon.json#16100:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `Adjust the resolution of UI assets.Certain HUD widgets, windows, or action icons may change according to the settings selected.※A reboot is required before changes are applied.StandardRender UI assets with HD or Full HD resolution settings.HighRender UI assets with WQHD or 4K re…`
+  - Italiano attuale: `Regola la risoluzione degli elementi dell'interfaccia (UI).Alcuni widget dell'HUD, finestre o icone delle azioni possono cambiare in base alle impostazioni selezionate.※È necessario riavviare il gioco per applicare le modifiche.StandardEsegue il rendering degli elementi dell'int…`
+  - **Azione:** M
+- [ ] `system/addon.json#16101:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `Dynamically scale the resolution of individual render targets to reduce GPU workload and maintain a consistent frame rate.`
+  - Italiano attuale: `Scala dinamicamente la risoluzione dei singoli target di rendering per ridurre il carico di lavoro della GPU e mantenere un frame rate costante.`
+  - **Azione:** M
+- [ ] `system/addon.json#16103:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `Choose between NVIDIA or AMD graphics upscaling.NVIDIA DLSS (Deep Learning Super Sampling)Uses deep learning technologies to upscale lower resolutions to desired display settings.※A GeForce RTX graphics card is required to enable this setting.AMD FSR (FidelityFX Super Resolution…`
+  - Italiano attuale: `Scegli tra l'upscaling grafico NVIDIA o AMD.NVIDIA DLSS (Deep Learning Super Sampling)Utilizza tecnologie di deep learning per eseguire l'upscaling da risoluzioni inferiori alle impostazioni di visualizzazione desiderate.※È necessaria una scheda grafica GeForce RTX per abilitare…`
+  - **Azione:** M
+- [ ] `system/addon.json#16116:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `Adjust the resolution of textures used to render shadows.`
+  - Italiano attuale: `Regola la risoluzione delle texture utilizzate per il rendering delle ombre.`
+  - **Azione:** M
+- [ ] `system/addon.json#16119:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `Adjust the resolution of textures used for characters and backgrounds.※A reboot is required before changes are applied.`
+  - Italiano attuale: `Regola la risoluzione delle texture utilizzate per i personaggi e gli sfondi.※È necessario riavviare il gioco per applicare le modifiche.`
+  - **Azione:** M
+- [ ] `system/addon.json#16132:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `Set the display resolution for the game.PresetsIncludes a list of pre-determined resolutions supported by your main display.When Full Screen is selected, the main display's refresh rate will also be applied.CustomFreely adjust the width and height of the screen's resolution.※Onl…`
+  - Italiano attuale: `Imposta la risoluzione dello schermo per il gioco.PreimpostazioniInclude un elenco di risoluzioni predeterminate supportate dallo schermo principale.Quando è selezionato Schermo intero, verrà applicata anche la frequenza di aggiornamento dello schermo principale.PersonalizzataRe…`
+  - **Azione:** M
+- [ ] `system/addon.json#16133:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `By default, HUD elements do not scale with the resolution of your screen, which may result in the UI appearing disproportionately small at higher resolutions. This setting allows you to select a suitable level of UI scaling relative to your desired display resolution.※When a low…`
+  - Italiano attuale: `Per impostazione predefinita, gli elementi dell'HUD non si ridimensionano con la risoluzione dello schermo, il che potrebbe far apparire l'interfaccia sproporzionatamente piccola a risoluzioni più elevate. Questa impostazione consente di selezionare un livello adeguato di ridime…`
+  - **Azione:** M
+- [ ] `system/addon.json#16140:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `Set the display resolution for the game.`
+  - Italiano attuale: `Imposta la risoluzione dello schermo per il gioco.`
+  - **Azione:** M
+- [ ] `system/addon.json#16141:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `By default, HUD elements do not scale with the resolution of your screen, which may result in the UI appearing disproportionately small at higher resolutions. This setting allows you to select a suitable level of UI scaling relative to your desired display resolution.※When a low…`
+  - Italiano attuale: `Per impostazione predefinita, gli elementi dell'HUD non si ridimensionano con la risoluzione dello schermo, il che potrebbe far apparire l'interfaccia sproporzionatamente piccola a risoluzioni più elevate. Questa impostazione consente di selezionare un livello adeguato di ridime…`
+  - **Azione:** M
+- [ ] `system/addon.json#16142:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `By default, system UI elements do not scale with the resolution of your screen, which may result in these menus appearing disproportionately small at higher resolutions. Enabling this setting will ensure the system UI scales automatically with your screen's resolution.`
+  - Italiano attuale: `Per impostazione predefinita, gli elementi dell'interfaccia di sistema non si ridimensionano con la risoluzione dello schermo, il che potrebbe far apparire questi menu sproporzionatamente piccoli a risoluzioni più elevate. L'abilitazione di questa impostazione garantirà che l'in…`
+  - **Azione:** M
+- [ ] `system/lobby.json#13:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `Warning! Screen resolution is set to Low (480p/i 576p/i)The recommended setting is High (720p).`
+  - Italiano attuale: `Attenzione! La risoluzione dello schermo è impostata su Bassa (480p/i 576p/i)L'impostazione consigliata è Alta (720p).`
+  - **Azione:** M
+- [ ] `system/lobby.json#851:translation` — **MAIUSCOLE + TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resolution → La Risoluzione; User Macros → Macro Utente`
+  - Inglese: `Save a backup of local system settings for UI, sound, user macros, and more to the server.※Display resolution, graphics quality, input device, and other settings dependent on current play environment will not be saved.`
+  - Italiano attuale: `Salva sul server un backup delle impostazioni di sistema locali relative a interfaccia, audio, macro utente e altro.※Risoluzione dello schermo, qualità grafica, periferiche di input e altre impostazioni dipendenti dall'ambiente di gioco attuale non verranno salvate.`
+  - **Azione:** M
+- [ ] `system/lobby.json#900:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `Saves UI size, frame rate limit, and other display settings.※Resolution and other graphical settings dependent on current play environment will not be saved.`
+  - Italiano attuale: `Salva dimensioni dell'interfaccia, limite fotogrammi e altre impostazioni video.※Risoluzione e impostazioni grafiche dipendenti dall'ambiente di gioco non verranno salvate.`
+  - **Azione:** M
+- [ ] `system/maincommand.json#45:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Resolution → La Risoluzione`
+  - Inglese: `Adjust display settings such as screen mode and resolution.`
+  - Italiano attuale: `Regola le impostazioni dello schermo, come risoluzione, proporzioni e modalità finestra o schermo intero.`
+  - **Azione:** M
+- [ ] `system/addon.json#2266:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Silence → Silenzio`
+  - Inglese: `Silence Echo`
+  - Italiano attuale: `Silenzia Eco`
+  - **Azione:** M
+- [ ] `system/addon.json#11179:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Silence → Silenzio`
+  - Inglese: `Duty Finder Settings: Silence Echo`
+  - Italiano attuale: `Impostazioni Ricerca Incarichi: Silenzia Eco`
+  - **Azione:** M
+- [ ] `system/addon.json#12691:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Silence → Silenzio`
+  - Inglese: `Silence Echo`
+  - Italiano attuale: `Disattiva Echo`
+  - **Azione:** Silenza Eco
+- [ ] `system/addon.json#16586:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `South Horn → Corno Sud`
+  - Inglese: `South Horn`
+  - Italiano attuale: `Corno del Sud`
+  - **Azione:** A
+- [ ] `system/addon.json#16716:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Starward Standings → Spalti delle Stelle`
+  - Inglese: `Starward Standings`
+  - Italiano attuale: `Classifica Stellare`
+  - **Azione:** R
+- [ ] `system/addon.json#16736:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Starward Standings → Spalti delle Stelle`
+  - Inglese: `Starward Standings`
+  - Italiano attuale: `Classifica Stellare`
+  - **Azione:** R
+- [ ] `system/addon.json#6224:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Storeroom → Magazzino`
+  - Inglese: `Place selected item into your storeroom.`
+  - Italiano attuale: `Riponi l'oggetto selezionato nel magazzino.`
+  - **Azione:** M
+- [ ] `system/lobby.json#112:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Subterrane → Sotterraneo`
+  - Inglese: `In former times, the Elezen were the sole inhabitants of Eorzea, claiming dominion over her. Traditionally a nomadic people, the tall, slender Elezen believed the realm to be theirs by divine right. Unfortunately, this belief made the eventual appearance of the Hyur in their mul…`
+  - Italiano attuale: `In tempi remoti, gli Elezen erano gli unici abitanti di Eorzea, su cui rivendicavano il dominio assoluto. Popolo tradizionalmente nomade, gli alti e slanciati Elezen credevano che il reame appartenesse loro per diritto divino. Sfortunatamente, tale convinzione rese la comparsa d…`
+  - **Azione:** M
+- [ ] `world/placename.json#644:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Sunsilk Tapestries → Arazzi Setasole`
+  - Inglese: `Sunsilk Tapestries(Weavers' Guild)`
+  - Italiano attuale: `Arazzi di Setasole(Gilda dei Tessitori)`
+  - **Azione:** M
+- [ ] `system/addon.json#8678:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Tessellation → La Tassellatura`
+  - Inglese: `Tessellation`
+  - Italiano attuale: `Tassellazione`
+  - **Azione:** M
+- [ ] `system/addon.json#16111:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Tessellation → La Tassellatura`
+  - Inglese: `Uses tessellation to improve the appearance of water surfaces.`
+  - Italiano attuale: `Utilizza la tassellazione per migliorare l'aspetto delle superfici acquatiche.`
+  - **Azione:** M
+- [ ] `system/addon.json#1583:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Thanalan → Thanalan`
+  - Inglese: `thanalan`
+  - Italiano attuale: `thanalan`
+  - **Azione:** M
+- [ ] `system/addon.json#9538:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The Battlehall → La Sala d'Armi`
+  - Inglese: `Withdrawing from a match three times a day, whether it be via the withdraw button or allowing the timer to run out, will result in dismissal from the Battlehall as well as a penalty temporarily restricting use of both Duty and Raid Finders.Proceed?`
+  - Italiano attuale: `Ritirarsi da una partita tre volte in un giorno, sia premendo il pulsante di ritiro che lasciando scadere il tempo, comporterà l'espulsione dalla Battlehall e una penalità che limiterà temporaneamente l'uso di Ricerca Incarichi e Ricerca Incursioni.Procedere?`
+  - **Azione:** M
+- [ ] `system/addon.json#11370:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The Core → Il Nucleo`
+  - Inglese: `A gobtank has emerged near the core.Limit gauge, ceruleum, and Soaring effects are increased for all team members.`
+  - Italiano attuale: `Un gobtank è apparso vicino al nucleo.La barra del Limit break, il ceruleum e gli effetti di Esaltazione sono aumentati per tutti i membri della squadra.`
+  - **Azione:** M
+- [ ] `system/addon.json#11383:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The Core → Il Nucleo`
+  - Inglese: `A gobtank has emerged near the core.Soaring effect is increased for all team members.`
+  - Italiano attuale: `Un gobtank è apparso vicino al nucleo.L'effetto Esaltazione è aumentato per tutti i membri della squadra.`
+  - **Azione:** M
+- [ ] `system/addon.json#10412:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The Deep → L'Abisso`
+  - Inglese: `Proceed and your save data will be deleted, allowing you reentry to the deep dungeon from 1.Dungeon progression and character level will be reset, but aetherpool arm and gear strength will remain unchanged.※Data cannot be restored once deleted.`
+  - Italiano attuale: `Procedendo, i dati di salvataggio verranno eliminati, consentendoti di rientrare nella Cripta Profonda da 1.La progressione nella Cripta Profonda e il livello del personaggio verranno azzerati, ma la potenza delle armi e dell'equipaggiamento aetherpool rimarrà invariata.※I dati …`
+  - **Azione:** M
+- [ ] `system/addon.json#10491:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The Deep → L'Abisso`
+  - Inglese: `View the deep dungeon guide.`
+  - Italiano attuale: `Visualizza la guida della Cripta Profonda.`
+  - **Azione:** M
+- [ ] `system/lobby.json#126:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The Depths → Le Profondità`
+  - Inglese: `Centuries ago, a number of Elezen sought out a life of peace and seclusion in the depths of Eorzea's caves and caverns. Today, they are called the Duskwight, though to their Wildwood cousins they are known simply as the Greys, after their preference for darkness and stone. The c…`
+  - Italiano attuale: `Gli Elezen Crepuscolari sono i discendenti di coloro che cercarono rifugio nelle vaste caverne sotterranee di Eorzea in seguito alla rottura dei legami con i loro fratelli Silvani. Vivendo da generazioni nell'oscurità, hanno sviluppato una carnagione straordinariamente pallida e…`
+  - **Azione:** M
+- [ ] `system/addon.json#8462:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The Diadem → Il Diadema; The Sea of Clouds → Il Mar di Nuvole`
+  - Inglese: `Exploratory missions are now available through the company workshop's voyage control panel. These missions allow you and your company members to explore a remote cluster of islets in the Sea of Clouds known as the Diadem.For further details, speak with the mammet voyager #004A.`
+  - Italiano attuale: `Le missioni esplorative sono ora disponibili tramite il pannello di controllo viaggi dell'officina di compagnia. Queste missioni consentono a te e ai tuoi compagni di esplorare un remoto gruppo di isolotti nel Mare delle Nuvole noto come Diadem.Per ulteriori dettagli, parla con …`
+  - **Azione:** M
+- [ ] `system/addon.json#8468:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The Diadem → Il Diadema; The Sea of Clouds → Il Mar di Nuvole`
+  - Inglese: `New exploratory missions are now available through the company workshop's voyage control panel. These missions allow you and your company members to explore a remote cluster of islets in the Sea of Clouds known as the Diadem.For further details, speak with the mammet voyager #00…`
+  - Italiano attuale: `Nuove missioni esplorative sono ora disponibili tramite il pannello di controllo viaggi dell'officina di compagnia. Queste missioni permettono a te e ai tuoi compagni di esplorare un remoto gruppo di isolotti nel Mare delle Nuvole noto come Diadem.Per ulteriori dettagli, parla c…`
+  - **Azione:** M
+- [ ] `system/lobby.json#114:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The Eyes → Gli Occhi`
+  - Inglese: `A wee people sporting short, rotund bodies, the Lalafell appear as no more than children to the eyes of most. Many of these nimble little folk hail from the islands of the south seas, where they practice a simple agricultural lifestyle. It was not until the opening of maritime t…`
+  - Italiano attuale: `Un popolo minuto dal corpo basso e paffuto, i Lalafell appaiono alla maggior parte degli sguardi come poco più che bambini. Molti di questi agili e piccoli individui provengono dalle isole dei mari meridionali, dove conducevano una semplice vita agricola. Fu solo con l'apertura …`
+  - **Azione:** M
+- [ ] `system/addon.json#12786:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The Firmament → Il Firmamento`
+  - Inglese: `With gratitude from all who set foot in the Firmament.`
+  - Italiano attuale: `Con gratitudine da parte di tutti coloro che mettono piede nel Firmamento.`
+  - **Azione:** M
+- [ ] `system/addon.json#13224:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The Firmament → Il Firmamento`
+  - Inglese: `Concerted works are in progress in the Firmament.`
+  - Italiano attuale: `Lavori collettivi in corso nel Firmamento.`
+  - **Azione:** M
+- [ ] `system/addon.json#1793:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The First → Il Primo Mondo`
+  - Inglese: `Streamline your subcommand optionsby relegating little-used commands to a second tier.To move a subcommand to the second tier,highlight it in the first tier list and pressthe right arrow button.`
+  - Italiano attuale: `Ottimizza le opzioni del sottomenuspostando i comandi usati raramente in un secondo livello.Per spostare un comando al secondo livello,evidenzialo nell'elenco del primo livello e premiil pulsante freccia destra.`
+  - **Azione:** M
+- [ ] `system/addon.json#1986:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The First → Il Primo Mondo`
+  - Inglese: `Type in the first few letters of the item you seekand press the Search button.Searches containing less than three characterswill yield a maximum of 20 results.Use the cursor keys or up/down to view history.`
+  - Italiano attuale: `Digita le prime lettere dell'oggetto desideratoe premi il pulsante Cerca.Le ricerche con meno di tre caratteriprodurranno un massimo di 20 risultati.Usa i tasti cursore o su/giù per visualizzare la cronologia.`
+  - **Azione:** M
+- [ ] `system/addon.json#17865:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The First → Il Primo Mondo`
+  - Inglese: `※Only the first place score and your score are displayed.`
+  - Italiano attuale: `※Vengono visualizzati solo il punteggio del primo classificato e il tuo punteggio.`
+  - **Azione:** M
+- [ ] `system/lobby.json#122:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The First → Il Primo Mondo`
+  - Inglese: `The Highlanders were the first of the Hyur to reach Eorzea. Their name derives from their long tradition of building strongholds in the mountains. Compared to their Midland brethren, the Highlanders are noticeably larger in build. Of late, Highlanders have become an increasingly…`
+  - Italiano attuale: `I Montanari furono i primi tra gli Hyur a giungere a Eorzea. Il loro nome trae origine dall'antica usanza di erigere roccaforti tra le vette montuose. Rispetto ai loro confratelli Piancolle, i Montanari presentano una corporatura visibilmente più possente. Negli ultimi tempi, i …`
+  - **Azione:** M
+- [ ] `system/lobby.json#140:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The First → Il Primo Mondo`
+  - Inglese: `The curved horns and beautifully patterned scales that characterize the Au Ra oft give rise to speculation that members of this Hyur-like race native to the Far Eastern continent of Othard are, in fact, the progeny of dragons. This, however, has long been disputed, with scholars…`
+  - Italiano attuale: `Le corna ricurve e le scaglie geometriche che contraddistinguono gli Au Ra hanno spesso alimentato l'ipotesi che questa stirpe di statura simile a quella hyuriana sia, in realtà, la discendenza dei draghi. Tale congettura è tuttavia oggetto di antica disputa, considerati i miti …`
+  - **Azione:** M
+- [ ] `system/lobby.json#471:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The First → Il Primo Mondo`
+  - Inglese: `Halone, mover of glaciers and goddess of war, is theguardian deity of Ishgard. She commands the element ofice and is associated with the first moon of the Eorzeancalendar. Halone is the daughter of Rhalgr, and a bitterrival of Nophica. She is most often depicted as arelentless w…`
+  - Italiano attuale: `Halone, Signora dei Ghiacciai e Dea della Guerra, è ladivinità protettrice di Ishgard. Governa l'elemento delghiaccio ed è associata alla prima luna del calendarioeorzeano. Halone è la figlia di Rhalgr e l'acerrimarivale di Nophica. È per lo più raffigurata come un'implacabilegu…`
+  - **Azione:** M
+- [ ] `system/lobby.json#1958:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The First → Il Primo Mondo`
+  - Inglese: `Specify the first and last name of your character.`
+  - Italiano attuale: `Specifica nome e cognome del tuo personaggio.`
+  - **Azione:** M
+- [ ] `system/lobby.json#1984:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The First → Il Primo Mondo`
+  - Inglese: `Both forename and surname must be between 2 and 15 characters and not total more than 20 characters combined. Only letters, hyphens, and apostrophes can be used. The first character of either name must be a letter. Hyphens cannot be used in succession or placed immediately befor…`
+  - Italiano attuale: `Sia il nome che il cognome devono contenere tra 2 e 15 caratteri e non superare complessivamente 20 caratteri totali. È consentito l'uso esclusivo di lettere, trattini e apostrofi. Il primo carattere di ciascun nome deve essere una lettera. Non è possibile inserire trattini cons…`
+  - **Azione:** M
+- [ ] `system/lobby.json#1985:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The First → Il Primo Mondo`
+  - Inglese: `Nicknames must be between 3 and 20 characters. Only letters, hyphens, and apostrophes can be used. The first character must be a letter. Hyphens cannot be used in succession or placed immediately before or after apostrophes.`
+  - Italiano attuale: `I soprannomi devono avere una lunghezza compresa tra 3 e 20 caratteri. È consentito usare solo lettere, trattini e apostrofi. Il primo carattere deve essere una lettera. I trattini non possono essere usati consecutivamente né posti immediatamente prima o dopo un apostrofo.`
+  - **Azione:** M
+- [ ] `system/addon.json#2277:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The Fold → La Piega`
+  - Inglese: `The Fold (Lv. )`
+  - Italiano attuale: `The Fold (Liv. )`
+  - **Azione:** A
+- [ ] `system/addon.json#16137:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The Frame → Il Telaio`
+  - Inglese: `Adjust the game's frame rate limit.NoneThe frame rate is uncapped, increasing to the extent your system is capable.Main Display Refresh RateSets your main display's refresh rate as the frame rate limit.60 fpsSets the frame rate limit to 60 fps.30 fpsSets the frame rate limit to …`
+  - Italiano attuale: `Regola il limite di frame rate del gioco.NessunoIl frame rate non è limitato, aumentando fino al massimo consentito dal sistema.Frequenza di aggiornamento dello schermo principaleImposta la frequenza di aggiornamento dello schermo principale come limite di frame rate.60 fpsImpos…`
+  - **Azione:** M
+- [ ] `system/addon.json#12679:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The Gathering → Il Raduno`
+  - Inglese: `Abandon the gathering node?Doing so will cause the node to dissipate.`
+  - Italiano attuale: `Abbandonare il nodo di raccolta?Il nodo si dissiperà.`
+  - **Azione:** M
+- [ ] `system/addon.json#8475:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The Gold Saucer → Il Gold Saucer`
+  - Inglese: `A new Gold Saucer Active Time Event“Leap of Faith” is now available!To coincide with this addition, the GATEschedule has been updated. Speak withthe Gold Saucer attendant at EntranceSquare for details.`
+  - Italiano attuale: `Un nuovo GATE del Gold Saucer"Leap of Faith" è ora disponibile!Per coincidere con questa aggiunta, il programmadei GATE è stato aggiornato. Parla conl'addetto del Gold Saucer a EntranceSquare per i dettagli.`
+  - **Azione:** M ma Leap of Faith va tradotto, non ricordo in quale file anocra da verificare c'é la traduzione
+- [ ] `system/addon.json#8478:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The Gold Saucer → Il Gold Saucer`
+  - Inglese: `A new Gold Saucer Active Time Event“Air Force One” is now available!To coincide with this addition, the GATEschedule has been updated. Speak withthe Gold Saucer attendant at EntranceSquare for details.`
+  - Italiano attuale: `Un nuovo GATE del Gold Saucer"Air Force One" è ora disponibile!Per coincidere con questa aggiunta, il programmadei GATE è stato aggiornato. Parla conl'addetto del Gold Saucer a EntranceSquare per i dettagli.`
+  - **Azione:** M
+- [ ] `system/addon.json#8481:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The Gold Saucer → Il Gold Saucer`
+  - Inglese: `A new Gold Saucer Active Time Event“The Slice Is Right” is now available!To coincide with this addition, the GATEschedule has been updated. Speak withthe Gold Saucer attendant at EntranceSquare for details.`
+  - Italiano attuale: `Un nuovo GATE del Gold Saucer"The Slice Is Right" è ora disponibile!Per coincidere con questa aggiunta, il programmadei GATE è stato aggiornato. Parla conl'addetto del Gold Saucer a EntranceSquare per i dettagli.`
+  - **Azione:** M
+- [ ] `system/addon.json#8482:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The Gold Saucer → Il Gold Saucer`
+  - Inglese: `A new stage has been added to the GoldSaucer Active Time Event “Leap of Faith”!To coincide with this addition, the GATEschedule has been updated. Speak withthe Gold Saucer attendant at EntranceSquare for details.`
+  - Italiano attuale: `Un nuovo percorso è stato aggiunto al GATEdel Gold Saucer "Leap of Faith"!Per coincidere con questa aggiunta, il programmadei GATE è stato aggiornato. Parla conl'addetto del Gold Saucer a EntranceSquare per i dettagli.`
+  - **Azione:** M
+- [ ] `system/addon.json#17202:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The Gold Saucer → Il Gold Saucer`
+  - Inglese: `A new stage has been added to the GoldSaucer Active Time Event “Air Force One”!To coincide with this addition, the GATEschedule has been updated. Speak withthe Gold Saucer attendant at EntranceSquare for details.`
+  - Italiano attuale: `È stato aggiunto un nuovo percorso all'ActiveTime Event del Gold Saucer “Air Force One”!In concomitanza con questa novità, il programmadei GATE è stato aggiornato. Rivolgiti all'addettodel Gold Saucer a EntranceSquare per tutti i dettagli.`
+  - **Azione:** M
+- [ ] `system/lobby.json#190:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The Heart → Il Cuore`
+  - Inglese: `In the hands of a skilled practitioner, thaumaturgy can be a force of terrifying destruction. At the heart of this school of magic lies the ability to call forth and command the latent aether within oneself through deep introspection. To then mold that aether into sorcery, the t…`
+  - Italiano attuale: `I Taumaturghi manipolano l'etere distruttivo attraverso l'alternanza mistica di fuoco, ghiaccio e folgore. Originari delle cripte e dei complessi funerari di Ul'dah, incanalano le fiamme ardenti per infliggere danni catastrofici, per poi passare al gelo profondo onde rigenerare …`
+  - **Azione:** M
+- [ ] `system/lobby.json#482:translation` — **MAIUSCOLE**
+  - Termini segnalati: `The Hourglass → La Clessidra`
+  - Inglese: `Althyk is the surveyor of change and space,and god of time. He commands the element ofearth and is associated with the twelfth moon ofthe Eorzean calendar. Althyk is the father ofAzeyma and Menphina, and elder brother toNymeia. He is most often depicted as anaustere emperor wiel…`
+  - Italiano attuale: `Althyk è l'Agrimensore del Mutamento e dello Spazio, Diodel Tempo. Governa l'elemento della terra ed è associato alladodicesima luna del calendario eorzeano. Althyk è il padre diAzeyma e Menphina, e fratello maggiore di Nymeia. È per lo piùraffigurato come un austero imperatore …`
+  - **Azione:** M
+- [ ] `system/addon.json#16699:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The Occult Crescent → La Falce Occulta`
+  - Inglese: `The Forked Towers are the greatest challenge to be found upon the Occult Crescent. Make full use of your phantom jobs and work in unison to overcome powerful foes and tricky battle mechanics.`
+  - Italiano attuale: `Le Forked Towers sono la sfida più ardua dell'Occult Crescent. Sfrutta al meglio le tue Classi fantasma e collabora con i tuoi alleati per superare potenti nemici e complesse meccaniche di battaglia.`
+  - **Azione:** A da tradurre anche "Le Forked Tower"
+- [ ] `system/lobby.json#180:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The Path → Il Cammino`
+  - Inglese: `The path of the pugilist is one of incessant training aimed at mastering the traditional techniques of hand-to-hand combat. Though they command formidable power when unarmed, they are wont to use metal, leather, and bone weaponry to maximize their destructive potential. Their pr…`
+  - Italiano attuale: `I Pugili sono combattenti corpo a corpo che fanno affidamento sull'agilità e sulla forza delle proprie membra, trasformando il proprio corpo in un'arma micidiale. Addestrati nelle discipline del combattimento e nell'impiego di tirapugni e guanti d'arme, i praticanti sferrano raf…`
+  - **Azione:** M
+- [ ] `system/lobby.json#480:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The Underworld → Il Regno Sotterraneo`
+  - Inglese: `Nald'thal, overseer of the underworld and god ofcommerce, is the guardian deity of Ul'dah. Hecommands the element of fire and is associatedwith the tenth moon of the Eorzean calendar.Nald'thal is the single manifestation of the deifictwins Nald and Thal. He is most often depicte…`
+  - Italiano attuale: `Nald'thal, Sovrintendente dell'Oltretomba e Dio del Commercio,è la divinità protettrice di Ul'dah. Governa l'elementodel fuoco ed è associato alla decima luna del calendarioeorzeano. Nald'thal è l'unica manifestazione dei gemellidivini Nald e Thal. È per lo più raffigurato come …`
+  - **Azione:** M
+- [ ] `system/lobby.json#474:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `The Watcher → L'Osservatore`
+  - Inglese: `Nymeia is the watcher of celestial bodies and goddessof fate. She commands the element of water and isassociated with the fourth moon of the Eorzean calendar.Nymeia is the younger sister of Althyk, and master ofRhalgr. She is most often depicted as a weaver donninga white silken…`
+  - Italiano attuale: `Nymeia è la Custode dei Corpi Celesti e la Dea del Destino.Governa l'elemento dell'acqua ed è associata alla quartaluna del calendario eorzeano. Nymeia è la sorella minoredi Althyk e la sovrana di Rhalgr. È per lo più raffigurata comeuna tessitrice avvolta da un velo di candida …`
+  - **Azione:** M
+- [ ] `system/addon.json#1194:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Transparency → Trasparenza`
+  - Inglese: `Turn on/off map transparency while inactive.`
+  - Italiano attuale: `Attiva/disattiva la trasparenza della mappa quando inattiva.`
+  - **Azione:** M
+- [ ] `system/addon.json#16147:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Transparency → Trasparenza`
+  - Inglese: `Adjust the transparency of visual alerts.`
+  - Italiano attuale: `Regola la trasparenza degli avvisi visivi.`
+  - **Azione:** M
+- [ ] `system/addon.json#1774:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Treasure → Tesoro`
+  - Inglese: `Used with treasure maps.`
+  - Italiano attuale: `Usato con le mappe del tesoro.`
+  - **Azione:** M
+- [ ] `system/addon.json#2778:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Treasure → Tesoro`
+  - Inglese: `This duty is part of the Moogle Treasure Trove event.`
+  - Italiano attuale: `Questo incarico fa parte dell'evento Forziere del Moguri.`
+  - **Azione:** M "Forziere del Moguri" deve essere aggiunto al glossario
+- [ ] `system/addon.json#8099:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Treasure → Tesoro`
+  - Inglese: `Caution.A total of members (including you) have already completed this duty and are no longer eligible for duty rewards. treasure will appear upon duty completion.Enter ?※Loot rule:`
+  - Italiano attuale: `Attenzione.Un totale di membri (te incluso) ha già completato questo incarico e non può ricevere ricompense. forzieri appariranno al completamento dell'incarico.Entrare in ?※Regola bottino:`
+  - **Azione:** M
+- [ ] `system/addon.json#8105:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Treasure → Tesoro`
+  - Inglese: `Open the treasure coffer? The treasure map will be lost.`
+  - Italiano attuale: `Aprire il forziere del tesoro? La mappa andrà persa.`
+  - **Azione:** M
+- [ ] `system/addon.json#8108:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Treasure → Tesoro`
+  - Inglese: `Examine the treasure coffer!`
+  - Italiano attuale: `Esamina il forziere del tesoro!`
+  - **Azione:** M
+- [ ] `system/addon.json#8110:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Treasure → Tesoro`
+  - Inglese: `Secure the treasure coffer!`
+  - Italiano attuale: `Metti al sicuro il forziere!`
+  - **Azione:** M
+- [ ] `system/addon.json#8113:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Treasure → Tesoro`
+  - Inglese: `Secure Treasure Coffer`
+  - Italiano attuale: `Metti al Sicuro Forziere`
+  - **Azione:** M
+- [ ] `system/addon.json#11411:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Treasure → Tesoro`
+  - Inglese: `This treasure coffer has been marked by the Gambler's Lure!Should you wish to try your luck, two cards will appear─one hidden, one revealed─with a possible value of one to nine. You must then guess whether the value of the hidden card is higher or lower than that of the other.・I…`
+  - Italiano attuale: `Questo forziere è sotto l'effetto di Lascia o Raddoppia!Se decidi di tentare la sorte, appariranno due carte, una coperta e una scoperta, con un valore da uno a nove. Dovrai indovinare se il valore della carta coperta è più alto o più basso di quello dell'altra.・Se indovini, la …`
+  - **Azione:** M
+- [ ] `system/addon.json#11610:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Treasure → Tesoro`
+  - Inglese: `Treasure Acquisition`
+  - Italiano attuale: `Acquisizione Tesori`
+  - **Azione:** M
+- [ ] `system/addon.json#15881:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Treasure → Tesoro`
+  - Inglese: `These objectives can be completed repeatedly during the event period. Moogle Treasure Trove rewards will be claimed automatically upon completion.`
+  - Italiano attuale: `Questi obiettivi possono essere completati ripetutamente durante il periodo dell'evento. Le ricompense del Moogle Treasure Trove verranno riscattate automaticamente al completamento.`
+  - **Azione:** M
+- [ ] `system/addon.json#15882:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Treasure → Tesoro`
+  - Inglese: `These bonus objectives can be completed once per week, and each player will be assigned their own objective. Moogle Treasure Trove rewards can be claimed from the Mogpendium upon completion.`
+  - Italiano attuale: `Questi obiettivi bonus possono essere completati una volta alla settimana e a ogni giocatore verrà assegnato il proprio obiettivo. Le ricompense del Moogle Treasure Trove possono essere riscattate dal Mogpendium al completamento.`
+  - **Azione:** M
+- [ ] `system/addon.json#15884:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Treasure → Tesoro`
+  - Inglese: `These challenges can be completed once per week by completing one of the two objectives. Moogle Treasure Trove rewards can be claimed from the Mogpendium upon completion.`
+  - Italiano attuale: `Queste sfide possono essere completate una volta alla settimana completando uno dei due obiettivi. Le ricompense del Moogle Treasure Trove possono essere riscattate dal Mogpendium al completamento.`
+  - **Azione:** M
+- [ ] `system/addon.json#15885:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Treasure → Tesoro`
+  - Inglese: `This challenge can be completed once per event period. Moogle Treasure Trove rewards can be claimed from the Mogpendium upon completion.`
+  - Italiano attuale: `Questa sfida può essere completata una sola volta per periodo dell'evento. Le ricompense del Moogle Treasure Trove possono essere riscattate dal Mogpendium al completamento.`
+  - **Azione:** M
+- [ ] `system/addon.json#15909:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Treasure → Tesoro`
+  - Inglese: `The Moogle Treasure Trove is not currently underway.`
+  - Italiano attuale: `Il Moogle Treasure Trove non è attualmente in corso.`
+  - **Azione:** M
+- [ ] `system/addon.json#15937:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Treasure → Tesoro`
+  - Inglese: `Decipher and collect the treasure.`
+  - Italiano attuale: `Decifra e raccogli il tesoro.`
+  - **Azione:** M
+- [ ] `system/addon.json#15943:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Treasure → Tesoro`
+  - Inglese: `Enter a treasure dungeon via a teleportation portal times.※Treasure hunts abandoned midway through will not count toward the total.`
+  - Italiano attuale: `Entra in una spedizione del tesoro tramite un portale di teletrasporto per volte.※Le cacce al tesoro abbandonate a metà non verranno conteggiate nel totale.`
+  - **Azione:** M
+- [ ] `system/addon.json#15945:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Treasure → Tesoro`
+  - Inglese: `Treasure DungeonLv.`
+  - Italiano attuale: `Spedizione del tesoroLiv.`
+  - **Azione:** M
+- [ ] `system/addon.json#15946:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Treasure → Tesoro`
+  - Inglese: `Decipher a timeworn map and collect the treasure.`
+  - Italiano attuale: `Decifra una mappa logora e raccogli il tesoro.`
+  - **Azione:** M
+- [ ] `system/addon.json#16465:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Treasure → Tesoro`
+  - Inglese: `Increased chance of obtaining certain items from the treasure coffer upon duty completion.`
+  - Italiano attuale: `Probabilità aumentata di ottenere determinati oggetti dallo scrigno del tesoro al completamento dell'incarico.`
+  - **Azione:** M
+- [ ] `system/addon.json#16675:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Treasure → Tesoro`
+  - Inglese: `Treasure Acquisition`
+  - Italiano attuale: `Acquisizione Tesori`
+  - **Azione:** M
+- [ ] `system/addon.json#17622:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Treasure → Tesoro`
+  - Inglese: `A treasure coffer lies open. Choose the ephemeral item you wish to receive.`
+  - Italiano attuale: `Si è aperto un forziere. Scegli l'oggetto effimero che desideri ricevere.`
+  - **Azione:** M
+- [ ] `system/addon.json#17623:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Treasure → Tesoro`
+  - Inglese: `A treasure coffer lies open. Your thief's knife persuades it to yield ephemeral .`
+  - Italiano attuale: `Si è aperto un forziere. All'interno trovi effimeri.`
+  - **Azione:** A `Si è aperto un forziere. All'interno trovi degli oggetti effimeri.`
+- [ ] `system/addon.json#17633:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Treasure → Tesoro`
+  - Inglese: `Close the coffer without receiving any items?You cannot reopen the treasure coffer after closing it.`
+  - Italiano attuale: `Chiudere il forziere senza ricevere alcun oggetto?Non potrai riaprire il forziere dopo averlo chiuso.`
+  - **Azione:** M
+- [ ] `system/howto.json#151:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Treasure → Tesoro`
+  - Inglese: `Finding Treasure`
+  - Italiano attuale: `Trovare Tesori`
+  - **Azione:** M
+- [ ] `system/addon.json#10145:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Upper Decks → Ponti Superiori`
+  - Inglese: `※Available from Wyrnzoen in the Marauders' Guild located on the upper decks of Limsa Lominsa.`
+  - Italiano attuale: `※Disponibile da Wyrnzoen nella Gilda degli Incursori sui ponti superiori di Limsa Lominsa.`
+  - **Azione:** M
+- [ ] `system/addon.json#15450:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Wolves' Den Pier → Molo dell'Antro dei Lupi`
+  - Inglese: `A new season has begun, and you have unclaimed rewards!Speak with the seasonal quartermaster at the Wolves' Den Pier to claim last season's tier rewards.Last season's rewards will only be available until the close of the current season.`
+  - Italiano attuale: `È iniziata una nuova stagione e hai delle ricompense non riscattate!Parla con il furiere stagionale al Wolves' Den Pier per riscattare le ricompense di grado della scorsa stagione.Le ricompense della scorsa stagione saranno disponibili solo fino alla fine della stagione attuale.`
+  - **Azione:** A
+- [ ] `system/addon.json#9880:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Wonder Square → Piazza delle Meraviglie`
+  - Inglese: `Available from in Wonder Square upon completing the quest “.”`
+  - Italiano attuale: `Disponibile da a Wonder Square completando la missione “”.`
+  - **Azione:** A
+- [ ] `system/addon.json#9897:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Wonder Square → Piazza delle Meraviglie`
+  - Inglese: `Available from in Wonder Square upon completing the sidequest “???” in .`
+  - Italiano attuale: `Disponibile da a Wonder Square completando la missione secondaria “???” in .`
+  - **Azione:** A
+- [ ] `system/addon.json#9898:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Wonder Square → Piazza delle Meraviglie`
+  - Inglese: `Available from in Wonder Square upon completing the main scenario quest “???” in .`
+  - Italiano attuale: `Disponibile da a Wonder Square completando la missione dello scenario principale “???” in .`
+  - **Azione:** A
+- [ ] `system/addon.json#9899:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Wonder Square → Piazza delle Meraviglie`
+  - Inglese: `Available from in Wonder Square upon completing the Chronicles of a New Era quest “???” in .`
+  - Italiano attuale: `Disponibile da a Wonder Square completando la missione Chronicles of a New Era “???” in .`
+  - **Azione:** A
+
+### Sistemi e funzioni ricorrenti — 177 campi
+
+- [ ] `system/addon.json#3861:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Aetherial Reduction → Riduzione Eterea`
+  - Inglese: `You do not fulfill the level requirements for aetherial reduction.`
+  - Italiano attuale: `Non soddisfi i requisiti di livello per la riduzione eterea.`
+  - **Azione:** M
+- [ ] `system/addon.json#3865:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Aetherial Reduction → Riduzione Eterea`
+  - Inglese: `Select “Automatic” to perform aetherial reduction on the remainder of the same item in your inventory ( remaining).`
+  - Italiano attuale: `Seleziona “Automatico” per eseguire la riduzione eterea su tutti gli oggetti uguali rimanenti nell'inventario ( rimanenti).`
+  - **Azione:** M
+- [ ] `system/lobby.json#1101:translation` — **MAIUSCOLE + TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Aetheryte → Eterite; World Visit → Visita Mondo`
+  - Inglese: `To avoid congested servers, you may temporarily transfer your character to a less-crowded World.• The destination World is chosen automatically.• Logging in will place your character at the aetheryte of your starting nation.Those unfamiliar with the World Visit system and its re…`
+  - Italiano attuale: `Per evitare server congestionati, puoi trasferire temporaneamente il tuo personaggio su un Mondo meno affollato.• Il Mondo di destinazione viene scelto automaticamente.• L'accesso posizionerà il tuo personaggio presso l'eterite della tua nazione iniziale.Coloro che non hanno fam…`
+  - **Azione:** M
+- [ ] `system/lobby.json#1178:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Aetheryte → Eterite; Home World → Mondo d'Origine`
+  - Inglese: `You may perform any necessary name changes by returning to your Home World.After changing names, logging in will place your character at the aetheryte of your starting nation.`
+  - Italiano attuale: `Puoi effettuare le modifiche di nome necessarie tornando al tuo Mondo d'origine.Dopo aver modificato il nome, l'accesso posizionerà il personaggio presso l'eterite della nazione iniziale.`
+  - **Azione:** M
+- [ ] `system/lobby.json#1193:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Aetheryte → Eterite; Home World → Mondo d'Origine`
+  - Inglese: `※You can visit Worlds within other data centers in the same region as your Home World via an aetheryte in either Limsa Lominsa, Gridania, or Ul'dah.`
+  - Italiano attuale: `※Puoi visitare i Mondi all'interno di altri Data Center nella stessa regione del tuo Mondo d'origine tramite un'eterite a Limsa Lominsa, Gridania o Ul'dah.`
+  - **Azione:** M
+- [ ] `system/lobby.json#1231:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Aetheryte → Eterite; Home World → Mondo d'Origine`
+  - Inglese: `You will now return to your Home World.Logging in will place your character at the aetheryte of your starting nation.`
+  - Italiano attuale: `Ritornerai ora al tuo Mondo d'origine.L'accesso posizionerà il tuo personaggio presso l'eterite della nazione iniziale.`
+  - **Azione:** M
+- [ ] `system/addon.json#5742:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Apply Glamours → Applica Illusioni`
+  - Inglese: `Apply glamours to selected areas?`
+  - Italiano attuale: `Applicare le illusioni alle parti selezionate?`
+  - **Azione:** M (forma plurale)
+- [ ] `system/addon.json#5746:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Apply Glamours → Applica Illusioni`
+  - Inglese: `Unable to apply glamours. Insufficient prisms.`
+  - Italiano attuale: `Impossibile applicare le illusioni. Prismi insufficienti.`
+  - **Azione:** M
+- [ ] `system/addon.json#8477:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Apply Glamours → Applica Illusioni`
+  - Inglese: `Achieving a maximum satisfaction level with Zhloe Aliapoh will now allow you to apply glamours to the budding shopkeep.`
+  - Italiano attuale: `Raggiungere il massimo livello di gradimento con Zhloe Aliapoh ti consentirà di applicare illusioni alla giovane negoziante.`
+  - **Azione:** M
+- [ ] `system/addon.json#13727:translation` — **MAIUSCOLE + TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Character Configuration → Configurazione Personaggio; Party Members → Membri del Gruppo`
+  - Inglese: `Sort Party ListSort party members into the order set under Party List Sorting in Character Configuration.`
+  - Italiano attuale: `Ordina lista del partyOrdina i membri del party secondo l'ordine impostato in Ordinamento lista party nella Configurazione personaggio.`
+  - **Azione:** A
+- [ ] `system/addon.json#17396:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Character Configuration → Configurazione Personaggio`
+  - Inglese: `Warning! Your current character configuration will be overwritten by the shared data settings.`
+  - Italiano attuale: `Attenzione! La configurazione attuale del tuo personaggio verrà sovrascritta dalle impostazioni dei dati condivisi.`
+  - **Azione:** M
+- [ ] `system/lobby.json#962:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Character Configuration → Configurazione Personaggio`
+  - Inglese: `This feature allows you to save backups of your Client and Character Configuration Settings to the FINAL FANTASY XIV servers, as well as import these backups to your , thereby allowing you to easily carry over your preferences to a different play environment.It is strongly recom…`
+  - Italiano attuale: `Questa funzionalità ti consente di salvare backup delle impostazioni del Client e del personaggio sui server di FINAL FANTASY XIV e di importarli sul tuo , consentendoti di trasferire facilmente le tue preferenze su un ambiente di gioco differente.Si consiglia vivamente di salva…`
+  - **Azione:** M
+- [ ] `system/addon.json#17313:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Configuration Sharing → Condivisione Configurazione`
+  - Inglese: `Process timed out. Unable to complete request.Please reopen the configuration sharing window and try again.`
+  - Italiano attuale: `Operazione scaduta. Impossibile completare la richiesta.Riapri la finestra di condivisione della configurazione e riprova.`
+  - **Azione:** M
+- [ ] `system/addon.json#10395:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Cross-world Linkshells → Fonoperle Intermondo`
+  - Inglese: `Slots 1 to 8 are active cross-world linkshells. If you disband or leave one of these channels, the slot will be replaced with the channel currently registered to slot 9.※You can leave cross-world linkshells, confirm members, and, if you have master status, disband cross-world li…`
+  - Italiano attuale: `Gli slot da 1 a 8 sono Fonoperla intermondo attive. Se sciogli o lasci uno di questi canali, lo slot verrà sostituito dal canale attualmente registrato nello slot 9.※Puoi lasciare le Fonoperle intermondo, confermare i membri e, se sei capogruppo, scioglierle tramite i sottomenu.…`
+  - **Azione:** A da correggere solo le iniziali che devono essere minuscolo come nell'originale
+- [ ] `system/addon.json#10398:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Cross-world Linkshells → Fonoperle Intermondo`
+  - Inglese: `Some cross-world linkshells have been deactivated because you have exceeded the maximum number of active channels. Inactive channels can be reactivated by leaving or disbanding unused cross-world linkshells.`
+  - Italiano attuale: `Alcune Fonoperle intermondo sono state disattivate poiché hai superato il numero massimo di canali attivi. I canali inattivi possono essere riattivati abbandonando o sciogliendo le Fonoperle inutilizzate.`
+  - **Azione:** A da correggere solo le iniziali che devono essere minuscolo come nell'originale
+- [ ] `system/addon.json#12118:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Cross-world Linkshells → Fonoperle Intermondo`
+  - Inglese: `Cross-world linkshells are special linkshells that allow players on different worlds to form private chat groups and communicate in real time. Any player can create a cross-world linkshell, as well as join one via invite. While communication between players on the same world is …`
+  - Italiano attuale: `Le Fonoperle intermondo sono Fonoperle speciali che consentono a giocatori di mondi diversi di formare gruppi di chat privati e comunicare in tempo reale. Qualsiasi giocatore può creare una fonoperla intermondo o unirsi a una tramite invito. Sebbene sia possibile comunicare tra …`
+  - **Azione:** A da correggere solo le iniziali che devono essere minuscolo come nell'originale
+- [ ] `system/maincommand.json#80:translation_description` — **MAIUSCOLE**
+  - Termini segnalati: `Cross-world Linkshells → Fonoperle Intermondo`
+  - Inglese: `Create cross-world linkshells, confirm cross-world linkshell status, and invite players to join cross-world parties.`
+  - Italiano attuale: `Crea e gestisci le fonoperle intermondo, controllane lo stato e invita giocatori nei gruppi intermondo.`
+  - **Azione:** M
+- [ ] `system/addon.json#1156:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Cross-world Party → Gruppo Intramondo`
+  - Inglese: `When joining as a party, you will be joined as a cross-world party.`
+  - Italiano attuale: `Quando partecipi come gruppo, verrai registrato come gruppo intramondo.`
+  - **Azione:** M
+- [ ] `system/addon.json#10903:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Cross-world Party → Gruppo Intramondo`
+  - Inglese: `You are currently in a cross-world party. Party-wide spells and actions will behave differently.`
+  - Italiano attuale: `Attualmente ti trovi in un gruppo intramondo. Incantesimi e azioni ad area sul gruppo funzioneranno in modo differente.`
+  - **Azione:** M
+- [ ] `system/addon.json#12624:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Cross-world Party → Gruppo Intramondo`
+  - Inglese: `Travel to ?Please be advised you must be playing solo or in a cross-world party for your transfer to be processed.`
+  - Italiano attuale: `Viaggiare verso ?Per poter procedere con il trasferimento devi essere in solitaria o in un gruppo intramondo.`
+  - **Azione:** M
+- [ ] `system/addon.json#13728:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Cross-world Party → Gruppo Intramondo`
+  - Inglese: `Convert to an In-world PartyConvert a cross-world party to an in-world party.`
+  - Italiano attuale: `Converti in gruppo localeConverte un gruppo intramondo in un gruppo locale.`
+  - **Azione:** M
+- [ ] `system/addon.json#13729:translation` — **MAIUSCOLE + TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Cross-world Party → Gruppo Intramondo; Party Members → Membri del Gruppo`
+  - Inglese: `Convert a cross-world party to an in-world party.※Command must be executed when all party members are in the same area.`
+  - Italiano attuale: `Converti un gruppo intramondo in un gruppo locale.※Il comando deve essere eseguito quando tutti i membri del party si trovano nella stessa area.`
+  - **Azione:** M
+- [ ] `system/addon.json#13741:translation` — **MAIUSCOLE + TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Cross-world Party → Gruppo Intramondo; World Visit → Visita Mondo`
+  - Inglese: `※This is a cross-world party.If the duty is entered from a World different to your current one, then you must use the World Visit system to travel to that World.`
+  - Italiano attuale: `※Questo è un gruppo intramondo.Se accedi all'incarico da un Mondo diverso da quello attuale, devi usare il sistema World Visit per viaggiare verso quel Mondo.`
+  - **Azione:** M
+- [ ] `system/addon.json#13742:translation` — **MAIUSCOLE + TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Cross-world Party → Gruppo Intramondo; Party Members → Membri del Gruppo`
+  - Inglese: `Recruiting for the following duty as a cross-world party:・Progression will be limited when entering this duty as a cross-world party. It is recommended that you convert to an in-world party.※The Convert command is located in the Party Members tab of the Party section in the main…`
+  - Italiano attuale: `Reclutamento per la seguente incarico come gruppo intramondo:・La progressione sarà limitata entrando in questo incarico come gruppo intramondo. Si consiglia di convertirlo in un party locale.※Il comando Converti si trova nella scheda Membri del party della sezione Party nel menu…`
+  - **Azione:** M
+- [ ] `system/addon.json#761:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Currency → Valute`
+  - Inglese: `Currency`
+  - Italiano attuale: `Valuta`
+  - **Azione:** M
+- [ ] `system/addon.json#3365:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Currency → Valute`
+  - Inglese: `Currency`
+  - Italiano attuale: `Valuta`
+  - **Azione:** M
+- [ ] `system/addon.json#7969:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Data Center → Data Center`
+  - Inglese: `※The Traveler title indicates a player is visiting another data center.`
+  - Italiano attuale: `※Il titolo indica che il giocatore sta visitando un altro data center.`
+  - **Azione:** M
+- [ ] `system/addon.json#12177:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Data Center → Data Center`
+  - Inglese: `The current order of cross-world linkshell channels will be reset. Channel numbers may change as a result. Please keep this in mind when accessing them via text command.All affiliated cross-world linkshell channels, regardless of data center, will be affected. Proceed?`
+  - Italiano attuale: `L'ordine attuale dei canali della Fonoperla intermondo verrà reimpostato. Di conseguenza i numeri dei canali potrebbero cambiare: tienilo a mente quando vi accedi tramite comandi testuali.Tutti i canali affiliati, a prescindere dal data center, subiranno questa modifica. Procede…`
+  - **Azione:** M
+- [ ] `system/addon.json#12740:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Data Center → Data Center`
+  - Inglese: `※If you do not receive a response to a friend request while in the same data center as the player to whom you sent it, your friend status will remain pending for one week, after which time the request will be rendered void.`
+  - Italiano attuale: `※Se non ricevi risposta a una richiesta di amicizia mentre ti trovi nello stesso data center dell'altro giocatore, la richiesta rimarrà in sospeso per una settimana, trascorsa la quale verrà annullata.`
+  - **Azione:** M
+- [ ] `system/addon.json#12742:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Data Center → Data Center; Home World → Mondo d'Origine`
+  - Inglese: `The Home World of is on a data center in a region different to you. Send friend request?`
+  - Italiano attuale: `Il Mondo d'origine di si trova in un data center di una regione diversa dalla tua. Inviare richiesta di amicizia?`
+  - **Azione:** M
+- [ ] `system/addon.json#16466:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Data Center → Data Center; Home World → Mondo d'Origine`
+  - Inglese: `Register from Home World physical data center.`
+  - Italiano attuale: `Registrati dal data center fisico del tuo Mondo d'origine.`
+  - **Azione:** M
+- [ ] `system/addon.json#17565:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Data Center → Data Center`
+  - Inglese: `Unable to participate in rankings of current data center.`
+  - Italiano attuale: `Impossibile partecipare alle classifiche dell'attuale data center.`
+  - **Azione:** M
+- [ ] `system/lobby.json#1164:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Data Center → Data Center`
+  - Inglese: `DATA CENTER`
+  - Italiano attuale: `DATA CENTER`
+  - **Azione:** M
+- [ ] `system/lobby.json#2006:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Data Center → Data Center`
+  - Inglese: `DATA CENTER`
+  - Italiano attuale: `DATA CENTER`
+  - **Azione:** M
+- [ ] `system/addon.json#7788:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Fashion Accessories → Accessori di Moda`
+  - Inglese: `Use pet hotbar for mount actions and fashion accessories.`
+  - Italiano attuale: `Usa barra azioni famiglio per azioni cavalcatura e accessori moda.`
+  - **Azione:** A
+- [ ] `system/addon.json#13039:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Fashion Accessories → Accessori di Moda`
+  - Inglese: `Revisit a dungeon in its completed state.Explorer Mode allows access to the following:・Explorer Mode-exclusive actions・Minions, mounts, and fashion accessories・Changing jobs (excluding DoL/DoH classes)・Performance actions※Available only for selected duties completed by the playe…`
+  - Italiano attuale: `Visita nuovamente una spedizione già completata.La Modalità esplorazione consente di accedere a quanto segue:・Azioni esclusive della Modalità esplorazione・Minion, cavalcature e accessori di moda・Cambio di job (escluse classi DdT/DdM)・Azioni di esibizione※Disponibile solo per inc…`
+  - **Azione:** M
+- [ ] `system/addon.json#13682:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Fashion Accessories → Accessori di Moda`
+  - Inglese: `Display fashion accessories help.`
+  - Italiano attuale: `Mostra guida agli accessori di moda.`
+  - **Azione:** M
+- [ ] `system/maincommand.json#89:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Fashion Accessories → Accessori di Moda`
+  - Inglese: `Displays a list of available fashion accessories.`
+  - Italiano attuale: `Mostra l'elenco degli accessori di stile posseduti, come ombrelli, ali e occhiali speciali.`
+  - **Azione:** A
+- [ ] `system/addon.json#65:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Friend List → Lista Amici`
+  - Inglese: `Remove from Friend List`
+  - Italiano attuale: `Rimuovi dagli Amici`
+  - **Azione:** A
+- [ ] `system/addon.json#126:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Friend List → Lista Amici`
+  - Inglese: `Accept friend request from ? ※Pending friend requests will be rendered void after a certain period of time. Responding to an expired request will remove the sender's name from your friend list, regardless of the option you choose.`
+  - Italiano attuale: `Accettare la richiesta di amicizia di ? ※Le richieste di amicizia in sospeso decadranno dopo un certo periodo di tempo. Rispondere a una richiesta scaduta rimuoverà il nome del mittente dalla tua lista amici, a prescindere dall'opzione scelta.`
+  - **Azione:** M
+- [ ] `system/addon.json#129:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Friend List → Lista Amici`
+  - Inglese: `Remove from your friend list?`
+  - Italiano attuale: `Rimuovere dalla tua lista amici?`
+  - **Azione:** M
+- [ ] `system/addon.json#131:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Friend List → Lista Amici`
+  - Inglese: `Letters can only be sent to players on your friend list. is not on that list.`
+  - Italiano attuale: `Le lettere possono essere inviate solo ai giocatori presenti nella tua lista amici. non è in lista.`
+  - **Azione:** M
+- [ ] `system/addon.json#133:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Friend List → Lista Amici`
+  - Inglese: `To send this message, you must first select a recipient from your friend list.`
+  - Italiano attuale: `Per inviare questo messaggio, seleziona prima un destinatario dalla tua lista amici.`
+  - **Azione:** M
+- [ ] `system/addon.json#348:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Friend List → Lista Amici`
+  - Inglese: `Add Player to Friend List`
+  - Italiano attuale: `Aggiungi giocatore alla lista amici`
+  - **Azione:** M
+- [ ] `system/addon.json#12628:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Friend List → Lista Amici`
+  - Inglese: `Full details of the player who sent this friend request are unavailable. You can only choose to refuse the request, or leave it pending.※Once a certain amount of time elapses, pending friend requests will be rendered void and the sender removed from your friend list.`
+  - Italiano attuale: `I dettagli completi del giocatore che ha inviato la richiesta di amicizia non sono disponibili. Puoi solo rifiutare la richiesta o lasciarla in sospeso.※Trascorso un certo periodo di tempo, le richieste in sospeso verranno annullate e il mittente rimosso dalla tua lista amici.`
+  - **Azione:** M
+- [ ] `system/addon.json#12741:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Friend List → Lista Amici`
+  - Inglese: `※You are unable to view the login details of players on your friend list while they are in a different region.`
+  - Italiano attuale: `※Non puoi visualizzare i dettagli di accesso dei giocatori nella tua lista amici mentre si trovano in una regione diversa.`
+  - **Azione:** M
+- [ ] `system/addon.json#15084:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Friend List → Lista Amici`
+  - Inglese: `Adventurer plates allow you to share character information on a profile of your own design. Other adventurers' plates can be viewed by accessing subcommands via targeting a character or right-clicking their name in the friend list, etc.※Your plate is not currently visible to oth…`
+  - Italiano attuale: `Le schede dell'avventuriero ti consentono di condividere informazioni sul personaggio in un profilo personalizzato. Le schede degli altri avventurieri possono essere visualizzate tramite i sottocomandi selezionando un personaggio o facendo clic destro sul suo nome nella lista am…`
+  - **Azione:** M
+- [ ] `system/addon.json#15091:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Friend List → Lista Amici`
+  - Inglese: `Adventurer plates allow you to share character information on a profile of your own design. Other adventurers' plates can be viewed by accessing subcommands via targeting a character or right-clicking their name in your friend list.`
+  - Italiano attuale: `Le schede dell'avventuriero ti consentono di condividere informazioni sul personaggio in un profilo personalizzato. Le schede degli altri avventurieri possono essere visualizzate tramite i sottocomandi selezionando un personaggio o facendo clic destro sul suo nome nella lista am…`
+  - **Azione:** M
+- [ ] `system/lobby.json#928:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Friend List → Lista Amici`
+  - Inglese: `Saves friend list group names and contact list.`
+  - Italiano attuale: `Salva i nomi dei gruppi dell'elenco amici e l'elenco dei contatti.`
+  - **Azione:** A
+- [ ] `system/maincommand.json#13:translation_description` — **MAIUSCOLE**
+  - Termini segnalati: `Friend List → Lista Amici`
+  - Inglese: `Displays a list of players on your friend list. From this list you can send /tell messages or invite players to a party.`
+  - Italiano attuale: `Mostra i giocatori aggiunti alla lista amici. Da qui puoi inviare sussurri (/tell) o invitarli in un gruppo.`
+  - **Azione:** M
+- [ ] `system/maincommand.json#74:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Friend List → Lista Amici`
+  - Inglese: `Displays a list of players with whom you have most recently partied. Players on the list can be added to your friend list.`
+  - Italiano attuale: `Mostra i giocatori con cui hai fatto gruppo di recente per consentirne l'aggiunta agli amici.`
+  - **Azione:** A
+- [ ] `system/addon.json#15537:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Furnishing Glamours → Illusioni d'Arredo`
+  - Inglese: `No furnishing glamours placed.`
+  - Italiano attuale: `Nessuna illusione d'arredo posizionata.`
+  - **Azione:** M
+- [ ] `system/addon.json#15558:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Furnishing Glamours → Illusioni d'Arredo`
+  - Inglese: `No furnishing glamours have been registered.`
+  - Italiano attuale: `Nessuna illusione d'arredo registrata.`
+  - **Azione:** M
+- [ ] `system/addon.json#3738:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Glamour Dresser → Comò delle Illusioni`
+  - Inglese: `Not required for glamour dresser items.`
+  - Italiano attuale: `Non richiesto per gli oggetti nel comò delle illusioni.`
+  - **Azione:** M
+- [ ] `system/addon.json#11994:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Glamour Dresser → Comò delle Illusioni; Glamours → Illusioni`
+  - Inglese: `Using on the selected item and placing it into the glamour dresser will reset its spiritbond to 0% and condition to 100%, as well as remove customization including glamours, dyes, crests, signatures, materia, and most aetherial bonuses. The item will also be bound to you upon re…`
+  - Italiano attuale: `Usare sull'oggetto selezionato e inserirlo nel comò delle illusioni azzererà il suo legame spirituale allo 0%, ne riporterà la condizione al 100% e rimuoverà ogni personalizzazione, inclusi illusioni, tinture, stemmi, firme, materia e la maggior parte dei bonus eterei. L'oggetto…`
+  - **Azione:** M
+- [ ] `system/addon.json#11995:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Glamour Dresser → Comò delle Illusioni; Glamours → Illusioni`
+  - Inglese: `Using on the selected items and placing them into the glamour dresser will reset their spiritbond to 0% and condition to 100%, as well as remove customization including glamours, dyes, crests, signatures, materia, and most aetherial bonuses. The items will also be bound to you u…`
+  - Italiano attuale: `Usare sugli oggetti selezionati e inserirli nel comò delle illusioni azzererà il loro legame spirituale allo 0%, ne riporterà la condizione al 100% e rimuoverà ogni personalizzazione, inclusi illusioni, tinture, stemmi, firme, materia e la maggior parte dei bonus eterei. Gli ogg…`
+  - **Azione:** M
+- [ ] `system/addon.json#15641:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Glamour Dresser → Comò delle Illusioni`
+  - Inglese: `The same outfit is already stored in your glamour dresser.`
+  - Italiano attuale: `Lo stesso completo illusione è già conservato nel tuo comò delle illusioni.`
+  - **Azione:** M
+- [ ] `system/addon.json#4395:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Glamour Plate → Piastra d'Illusione`
+  - Inglese: `Change Glamour Plate Link`
+  - Italiano attuale: `Cambia Collegamento Piastra`
+  - **Azione:** A
+- [ ] `system/addon.json#4396:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Glamour Plate → Piastra d'Illusione`
+  - Inglese: `Remove Glamour Plate Link`
+  - Italiano attuale: `Rimuovi Collegamento Piastra`
+  - **Azione:** A
+- [ ] `system/addon.json#11939:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Glamour Plate → Piastra d'Illusione`
+  - Inglese: `Glamour Plate Creation`
+  - Italiano attuale: `Creazione Piastra Illusione`
+  - **Azione:** A
+- [ ] `system/addon.json#10595:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Glamour-ready → Pronto per l'illusione`
+  - Inglese: `Glamour-ready`
+  - Italiano attuale: `Pronto per l'Illusione`
+  - **Azione:** A
+- [ ] `system/addon.json#896:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Glamours → Illusioni`
+  - Inglese: `Glamours are unavailable due to equipment restrictions.`
+  - Italiano attuale: `Le illusioni non sono disponibili a causa di restrizioni di equipaggiamento.`
+  - **Azione:** M
+- [ ] `system/addon.json#897:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Glamours → Illusioni`
+  - Inglese: `Glamours are unavailable due to equipment restrictions.`
+  - Italiano attuale: `Le illusioni non sono disponibili a causa di restrizioni di equipaggiamento.`
+  - **Azione:** M
+- [ ] `system/addon.json#898:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Glamours → Illusioni`
+  - Inglese: `Glamours are unavailable due to equipment restrictions.`
+  - Italiano attuale: `Le illusioni non sono disponibili a causa di restrizioni di equipaggiamento.`
+  - **Azione:** M
+- [ ] `system/addon.json#2406:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Glamours → Illusioni`
+  - Inglese: `Cast glamours.`
+  - Italiano attuale: `Applica illusioni.`
+  - **Azione:** A
+- [ ] `system/addon.json#3712:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Glamours → Illusioni`
+  - Inglese: `You do not possess any items which can used as glamours.`
+  - Italiano attuale: `Non possiedi oggetti utilizzabili come illusioni.`
+  - **Azione:** M
+- [ ] `system/addon.json#3729:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Glamours → Illusioni`
+  - Inglese: `Glamours will only be visible if your current class, job, race, or gender can equip both items.`
+  - Italiano attuale: `Le illusioni saranno visibili solo se la classe, il job, la razza o il genere attuali consentono di equipaggiare entrambi gli oggetti.`
+  - **Azione:** M
+- [ ] `system/addon.json#8490:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Glamours → Illusioni`
+  - Inglese: `When residing in an inn room, you can now choose to cast glamours using items not only from your inventory, but also those stored in glamour dressers or armoires.Retire to private chambers, and switch up your style in comfort!`
+  - Italiano attuale: `Nelle stanze della locanda ora puoi applicare illusioni usando non solo oggetti del tuo inventario, ma anche quelli conservati nei comò delle illusioni o negli armadi.Ritirati nelle stanze private e cambia stile in tutta comodità!`
+  - **Azione:** M
+- [ ] `system/addon.json#10514:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Glamours → Illusioni`
+  - Inglese: `Reflect glamours?`
+  - Italiano attuale: `Applicare le illusioni?`
+  - **Azione:** M
+- [ ] `system/addon.json#10515:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Glamours → Illusioni`
+  - Inglese: `Reset glamours?`
+  - Italiano attuale: `Reimpostare le illusioni?`
+  - **Azione:** M
+- [ ] `system/addon.json#10516:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Glamours → Illusioni`
+  - Inglese: `Undo all glamours?`
+  - Italiano attuale: `Annullare tutte le illusioni?`
+  - **Azione:** M
+- [ ] `system/addon.json#10588:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Glamours → Illusioni`
+  - Inglese: `Squadron glamours are available from level 51.`
+  - Italiano attuale: `Le illusioni dello squadrone sono disponibili dal livello 51.`
+  - **Azione:** M
+- [ ] `system/addon.json#10600:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Glamours → Illusioni`
+  - Inglese: `Squadron glamours unavailable.`
+  - Italiano attuale: `Le illusioni dello squadrone non sono disponibili.`
+  - **Azione:** M
+- [ ] `system/addon.json#11444:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Glamours → Illusioni`
+  - Inglese: `Glamour prisms are not required whenapplying glamours from an armoire.`
+  - Italiano attuale: `Non sono richiesti prismi delle illusioni quandosi applicano illusioni dall'armadio.`
+  - **Azione:** M
+- [ ] `system/addon.json#11980:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Glamours → Illusioni`
+  - Inglese: `There are no glamours.`
+  - Italiano attuale: `Non ci sono illusioni.`
+  - **Azione:** M
+- [ ] `system/addon.json#12187:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Glamours → Illusioni`
+  - Inglese: `Use to dispel selected glamours?※Dyes and company crests will also be removed.`
+  - Italiano attuale: `Usare per rimuovere le illusioni selezionate?※Verranno rimosse anche le tinture e gli stemmi di compagnia.`
+  - **Azione:** M
+- [ ] `system/addon.json#15648:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Glamours → Illusioni`
+  - Inglese: `Display Only Items in Outfit Glamours`
+  - Italiano attuale: `Mostra Solo gli Oggetti nei Completi Illusione`
+  - **Azione:** M
+- [ ] `system/addon.json#16032:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Glamours → Illusioni`
+  - Inglese: `View applied glamours.`
+  - Italiano attuale: `Visualizza le illusioni applicate.`
+  - **Azione:** M
+- [ ] `system/addon.json#16034:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Glamours → Illusioni`
+  - Inglese: `Viewing applied glamours.`
+  - Italiano attuale: `Visualizzazione illusioni applicate.`
+  - **Azione:** M
+- [ ] `system/howto.json#233:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Glamours → Illusioni`
+  - Inglese: `Pet Glamours`
+  - Italiano attuale: `Proiezioni per Famigli`
+  - **Azione:** A 'Illusione dei Famigli'
+- [ ] `system/maincommand.json#47:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Graphics Settings → Impostazioni Grafiche`
+  - Inglese: `Adjust various graphics settings in order to optimize performance on your system.`
+  - Italiano attuale: `Regola i parametri di rendering grafico per ottimizzare le prestazioni sul tuo sistema.`
+  - **Azione:** M
+- [ ] `system/addon.json#12774:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Home World → Mondo d'Origine`
+  - Inglese: `※No points will be awarded. You must be on your Home World.`
+  - Italiano attuale: `※Non verranno assegnati punti. Devi trovarti nel tuo Mondo d'origine.`
+  - **Azione:** A
+- [ ] `system/addon.json#13242:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Home World → Mondo d'Origine`
+  - Inglese: `※Unable to display seasonal score. You must be on your Home World.`
+  - Italiano attuale: `※Impossibile visualizzare il punteggio stagionale. Devi trovarti nel tuo Mondo d'origine.`
+  - **Azione:** A
+- [ ] `system/addon.json#13478:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Home World → Mondo d'Origine`
+  - Inglese: `※No points will be awarded. You must be on your Home World.`
+  - Italiano attuale: `※Non verranno assegnati punti. Devi trovarti nel tuo Mondo d'origine.`
+  - **Azione:** A
+- [ ] `system/addon.json#102265:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Home World → Mondo d'Origine`
+  - Inglese: `Must own an apartment or an estate, or be sharing an estate.Must be on Home World.`
+  - Italiano attuale: `Devi possedere un appartamento o una tenuta, oppure condividere una tenuta.Devi trovarti nel tuo Mondo d'origine.`
+  - **Azione:** A
+- [ ] `system/lobby.json#1163:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Home World → Mondo d'Origine`
+  - Inglese: `Returning to Home Data Center and Home World.Estimated Travel Time:`
+  - Italiano attuale: `Ritorno al Data Center di origine e al Mondo d'origine.Tempo di viaggio stimato:`
+  - **Azione:** A
+- [ ] `system/lobby.json#1176:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Home World → Mondo d'Origine`
+  - Inglese: `A name change is required to log in with this character. Please return to your Home World to change your name.`
+  - Italiano attuale: `È richiesto un cambio di nome per accedere con questo personaggio. Ritorna al tuo Mondo d'origine per modificare il nome.`
+  - **Azione:** A
+- [ ] `system/lobby.json#1177:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Home World → Mondo d'Origine`
+  - Inglese: `A name change for your retainer is required to log in with this character. Please return to your Home World to change your retainer's name.`
+  - Italiano attuale: `È richiesto un cambio di nome per il servitore per accedere con questo personaggio. Ritorna al tuo Mondo d'origine per modificare il nome del servitore.`
+  - **Azione:** A
+- [ ] `system/lobby.json#1180:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Home World → Mondo d'Origine`
+  - Inglese: `Unable to submit Return to Home World request at this time.`
+  - Italiano attuale: `Impossibile inviare la richiesta di Ritorno al Mondo d'origine in questo momento.`
+  - **Azione:** A
+- [ ] `system/lobby.json#1181:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Home World → Mondo d'Origine`
+  - Inglese: `Unable to return to Home World at this time. Please wait before attempting to return again.`
+  - Italiano attuale: `Impossibile ritornare al Mondo d'origine in questo momento. Attendi prima di riprovare.`
+  - **Azione:** A
+- [ ] `system/lobby.json#1182:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Home World → Mondo d'Origine`
+  - Inglese: `Return to Home World failed. Please wait before submitting another Return to Home World request via the subcommand.`
+  - Italiano attuale: `Ritorno al Mondo d'origine non riuscito. Attendi prima di inviare un'altra richiesta tramite il comando secondario.`
+  - **Azione:** A
+- [ ] `system/lobby.json#1184:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Home World → Mondo d'Origine`
+  - Inglese: `A name change is required to log in with this character. Please return to your Home World to change your name.`
+  - Italiano attuale: `È richiesto un cambio di nome per accedere con questo personaggio. Ritorna al tuo Mondo d'origine per modificare il nome.`
+  - **Azione:** A
+- [ ] `system/lobby.json#1185:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Home World → Mondo d'Origine`
+  - Inglese: `A name change for your retainer is required to log in with this character. Please return to your Home World to change your retainer's name.`
+  - Italiano attuale: `È richiesto un cambio di nome per il servitore per accedere con questo personaggio. Ritorna al tuo Mondo d'origine per modificare il nome del servitore.`
+  - **Azione:** A
+- [ ] `system/lobby.json#1191:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Home World → Mondo d'Origine`
+  - Inglese: `will now be returned to Home World in the data center.Estimated Travel Time: Please note the following:・This process may take several minutes to complete.・You will be unable to cancel this process while it is underway.・You will be unable to log in with a different character unti…`
+  - Italiano attuale: `tornerà ora al Mondo d'origine nel Data Center .Tempo di viaggio stimato: Nota quanto segue:・Questo processo potrebbe richiedere diversi minuti.・Non sarà possibile annullare il processo durante l'esecuzione.・Non sarà possibile accedere con un personaggio diverso fino al termine …`
+  - **Azione:** A
+- [ ] `system/lobby.json#1207:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Home World → Mondo d'Origine`
+  - Inglese: `Your character must be on their Home World to submit a Data Center Visit request.`
+  - Italiano attuale: `Il tuo personaggio deve trovarsi nel proprio Mondo d'origine per inviare una richiesta di Viaggio tra Data Center.`
+  - **Azione:** A
+- [ ] `system/lobby.json#1214:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Home World → Mondo d'Origine`
+  - Inglese: `The World you have selected for your Return to Home World request is not this character's Home World.`
+  - Italiano attuale: `Il Mondo selezionato per la richiesta di Ritorno al Mondo d'origine non corrisponde al Mondo d'origine di questo personaggio.`
+  - **Azione:** A
+- [ ] `system/lobby.json#1232:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Home World → Mondo d'Origine`
+  - Inglese: `To visit other Worlds with this character, you must first return to your Home World and change your character's name.`
+  - Italiano attuale: `Per visitare altri Mondi con questo personaggio, devi prima tornare al tuo Mondo d'origine e cambiarne il nome.`
+  - **Azione:** A
+- [ ] `system/lobby.json#1233:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Home World → Mondo d'Origine`
+  - Inglese: `To visit other Worlds with this character, you must first return to your Home World and change your retainer's name.`
+  - Italiano attuale: `Per visitare altri Mondi con questo personaggio, devi prima tornare al tuo Mondo d'origine e cambiare il nome del servitore.`
+  - **Azione:** A
+- [ ] `system/lobby.json#1238:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Home World → Mondo d'Origine`
+  - Inglese: `This World is experiencing congestion. Visiting characters cannot log in at this time, and you will be unable to return to your duty in progress.By abandoning the duty, you may return to your Home World.Abandon duty?`
+  - Italiano attuale: `Questo Mondo è attualmente congestionato. I personaggi in visita non possono accedere in questo momento e non potrai rientrare nell'incarico in corso.Abbandonando l'incarico, potrai tornare al tuo Mondo d'origine.Abbandonare l'incarico?`
+  - **Azione:** A
+- [ ] `system/addon.json#4683:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Housing → Alloggi`
+  - Inglese: `HOUSING`
+  - Italiano attuale: `ALLOGGI`
+  - **Azione:** M
+- [ ] `system/addon.json#562:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `HUD Layout → Disposizione HUD`
+  - Inglese: `Restore HUD layout defaults for this slot?`
+  - Italiano attuale: `Ripristinare la disposizione predefinita dell'HUD per questo slot?`
+  - **Azione:** M
+- [ ] `system/addon.json#3756:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `HUD Layout → Disposizione HUD`
+  - Inglese: `HUD Layout Settings`
+  - Italiano attuale: `Impostazioni Layout HUD`
+  - **Azione:** A
+- [ ] `system/addon.json#3757:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `HUD Layout → Disposizione HUD`
+  - Inglese: `HUD Layout Settings`
+  - Italiano attuale: `Impostazioni Layout HUD`
+  - **Azione:** A
+- [ ] `system/addon.json#3772:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `HUD Layout → Disposizione HUD`
+  - Inglese: `Adjust system and hotbar HUD layout.`
+  - Italiano attuale: `Regola layout HUD di sistema e barre azioni.`
+  - **Azione:** A
+- [ ] `system/addon.json#3773:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `HUD Layout → Disposizione HUD`
+  - Inglese: `Adjust system HUD layout.`
+  - Italiano attuale: `Regola layout HUD di sistema.`
+  - **Azione:** A
+- [ ] `system/addon.json#3774:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `HUD Layout → Disposizione HUD`
+  - Inglese: `Adjust hotbar HUD layout.`
+  - Italiano attuale: `Regola layout HUD delle barre azioni.`
+  - **Azione:** A
+- [ ] `system/addon.json#3775:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `HUD Layout → Disposizione HUD`
+  - Inglese: `Adjust duty-specific HUD layout. PvP-specific layouts can only be adjusted on Wolves' Den Pier or while participating in PvP.`
+  - Italiano attuale: `Regola layout HUD specifico per gli incarichi. I layout specifici PvP possono essere regolati solo al Molo dell'Antro dei Lupi o partecipando al PvP.`
+  - **Azione:** A
+- [ ] `system/addon.json#10241:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `HUD Layout → Disposizione HUD`
+  - Inglese: `(Set position on HUD Layout screen)`
+  - Italiano attuale: `(Imposta la posizione nella schermata Layout HUD)`
+  - **Azione:** A
+- [ ] `system/lobby.json#852:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `HUD Layout → Disposizione HUD`
+  - Inglese: `Save a backup of local character settings, HUD layout, hotbars, gear sets, and more to the server.※Item sort settings and inventory location data will not be saved.`
+  - Italiano attuale: `Salva sul server un backup delle impostazioni locali del personaggio, layout HUD, hotbar, completi e altro.※Impostazioni di ordinamento oggetti e posizione dell'inventario non verranno salvate.`
+  - **Azione:** A (anche hotbar deve essere tradotto come da glossario, s enon c'é va aggiunto é usata molto)
+- [ ] `system/lobby.json#921:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `HUD Layout → Disposizione HUD`
+  - Inglese: `Saves HUD layout and size settings.`
+  - Italiano attuale: `Salva le impostazioni di layout e dimensioni dell'HUD.`
+  - **Azione:** A
+- [ ] `system/lobby.json#995:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `HUD Layout → Disposizione HUD`
+  - Inglese: `Select the character you wish to copy HUD layout, hotbar configuration, and other settings from.※Up to 8 recently logged-in characters will be displayed.`
+  - Italiano attuale: `Seleziona il personaggio da cui desideri copiare layout HUD, configurazione hotbar e altre impostazioni.※Verranno visualizzati fino a 8 personaggi con accesso recente.`
+  - **Azione:** A
+- [ ] `system/maincommand.json#52:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `HUD Layout → Disposizione HUD; UI Settings → Impostazioni Interfaccia`
+  - Inglese: `Adjust various UI settings such as HUD layout.`
+  - Italiano attuale: `Regola i vari parametri dell'interfaccia grafica (HUD) e la visibilità delle barre.`
+  - **Azione:** M
+- [ ] `system/maincommand.json#11:translation_description` — **MAIUSCOLE**
+  - Termini segnalati: `Key Items → Oggetti Chiave`
+  - Inglese: `Displays a list of items used only in specific quests. If a quest is abandoned, all key items associated with it will be discarded.`
+  - Italiano attuale: `Mostra gli oggetti speciali utilizzati esclusivamente per missioni specifiche. Se abbandoni una missione, i relativi oggetti chiave andranno perduti.`
+  - **Azione:** M
+- [ ] `system/addon.json#13581:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Materia Melding → Innesto Materia`
+  - Inglese: `The in your possession will be used in succession until advanced materia melding succeeds.`
+  - Italiano attuale: `Le in tuo possesso verranno usate in sequenza fino al successo dell'innesto avanzato.`
+  - **Azione:** M (advanced materia melding da aggiungere in glossario come Innesto Avanzato)
+- [ ] `system/addon.json#13582:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Materia Melding → Innesto Materia`
+  - Inglese: `Request advanced materia melding in bulk.`
+  - Italiano attuale: `Richiedi innesto multipla di materia avanzata.`
+  - **Azione:** M
+- [ ] `system/addon.json#13583:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Materia Melding → Innesto Materia`
+  - Inglese: `The in your possession will be used in succession until advanced materia melding succeeds.A reward will be offered only once regardless of the number of materia used.`
+  - Italiano attuale: `Le in tuo possesso verranno usate in sequenza fino al successo dell'innesto avanzato.La ricompensa verrà offerta una sola volta a prescindere dal numero di materia usate.`
+  - **Azione:** M
+- [ ] `system/addon.json#13584:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Materia Melding → Innesto Materia`
+  - Inglese: `Requesting advanced materia melding in bulk.`
+  - Italiano attuale: `Richiesta di innesto multipla in corso.`
+  - **Azione:** M
+- [ ] `system/addon.json#13585:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Materia Melding → Innesto Materia`
+  - Inglese: `The in your possession will be used in succession until advanced materia melding succeeds.A reward will be offered only once regardless of the number of materia used.`
+  - Italiano attuale: `Le in tuo possesso verranno usate in sequenza fino al successo dell'innesto avanzato.La ricompensa verrà offerta una sola volta a prescindere dal numero di materia usate.`
+  - **Azione:** M
+- [ ] `system/addon.json#13586:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Materia Melding → Innesto Materia`
+  - Inglese: `Accept request for advanced materia melding in bulk.`
+  - Italiano attuale: `Accetta richiesta di innesto multipla di materia avanzata.`
+  - **Azione:** M
+- [ ] `system/addon.json#13587:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Materia Melding → Innesto Materia`
+  - Inglese: `You will be given attempts to successfully complete advanced materia melding.You will be rewarded only once regardless of the number of materia used.`
+  - Italiano attuale: `Avrai a disposizione tentativi per completare con successo l'innesto avanzato.Riceverai la ricompensa una sola volta a prescindere dal numero di materia usate.`
+  - **Azione:** M
+- [ ] `system/howto.json#99:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Materia Melding → Innesto Materia`
+  - Inglese: `Advanced Materia Melding`
+  - Italiano attuale: `Fusione Avanzata di Materia (Overmelding)`
+  - **Azione:** A (Innesto Avanzato di Materia)
+- [ ] `system/lobby.json#902:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Mouse Settings → Impostazioni Mouse`
+  - Inglese: `Saves and mouse settings.※Input device information will not be saved.`
+  - Italiano attuale: `Salva le impostazioni di e mouse.※Le informazioni sui dispositivi di Input non verranno salvate.`
+  - **Azione:** A `Salva le impostazioni del mouse.※Le informazioni sui dispositivi di Input non verranno salvate.`
+- [ ] `system/maincommand.json#48:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Mouse Settings → Impostazioni Mouse`
+  - Inglese: `Adjust various mouse settings such as camera sensitivity.`
+  - Italiano attuale: `Regola i parametri del puntatore del mouse, come la sensibilità dell'inquadratura.`
+  - **Azione:** M
+- [ ] `system/addon.json#10957:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Mute List → Lista Silenziati`
+  - Inglese: `will be registered to your blacklist. Messages from this character will no longer be displayed, and their character model will be hidden. Any other characters registered to this player's account will also be blacklisted.This character's name and Home World at the time of registr…`
+  - Italiano attuale: `verrà registrato nella tua lista nera. I messaggi inviati da questo personaggio non verranno più mostrati e il suo modello sarà nascosto. Anche tutti gli altri personaggi registrati sull'account di questo giocatore verranno aggiunti alla lista nera.Il nome e il Mondo d'Origine d…`
+  - **Azione:** M
+- [ ] `system/addon.json#14835:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Mute List → Lista Silenziati`
+  - Inglese: `will be registered to your mute list. Messages from this character will no longer be displayed.※The mute list is only saved locally.※To hide this character's character model in addition to their messages, add them to your blacklist instead.`
+  - Italiano attuale: `verrà registrato nella tua lista dei silenziati. I messaggi di questo personaggio non verranno più visualizzati.※La lista dei silenziati è salvata solo localmente.※Per nascondere il modello del personaggio oltre ai suoi messaggi, aggiungilo invece alla tua lista nera.`
+  - **Azione:** A
+- [ ] `system/addon.json#14836:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Mute List → Lista Silenziati`
+  - Inglese: `Remove from your mute list?`
+  - Italiano attuale: `Rimuovere dalla tua lista dei silenziati?`
+  - **Azione:** A
+- [ ] `system/maincommand.json#96:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Mute List → Lista Silenziati`
+  - Inglese: `Displays a list of players you have added to your mute list. Messages from these characters will be hidden.`
+  - Italiano attuale: `Mostra l'elenco dei personaggi silenziati i cui messaggi non appariranno nel tuo registro chat.`
+  - **Azione:** M
+- [ ] `system/addon.json#15618:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Outfit Glamour → Completo Illusione`
+  - Inglese: `outfit glamour-ready found.`
+  - Italiano attuale: `pronte per il completo illusione trovate.`
+  - **Azione:** A (trovati completi pronti per l'illuzione)
+- [ ] `system/addon.json#15619:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Outfit Glamour → Completo Illusione`
+  - Inglese: `Select the gear you wish to include in the outfit glamour. Only items of the same quality may be selected.Maximum Glamour Prisms Required: (Amount Held: ）`
+  - Italiano attuale: `Seleziona l'equipaggiamento da includere nel completo illusione. È possibile selezionare solo oggetti della stessa qualità.Numero massimo di prismi delle illusioni richiesto: (Quantità posseduta: ）`
+  - **Azione:** M
+- [ ] `system/addon.json#15626:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Outfit Glamour → Completo Illusione`
+  - Inglese: `Together, these items form an outfit glamour. Please select the items from this outfit glamour you wish to restore.`
+  - Italiano attuale: `Insieme, questi oggetti formano un completo illusione. Seleziona gli oggetti del completo illusione che desideri ripristinare.`
+  - **Azione:** M
+- [ ] `system/addon.json#15632:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Outfit Glamour → Completo Illusione`
+  - Inglese: `outfit glamour-ready found.`
+  - Italiano attuale: `Trovate pronte per il completo illusione.`
+  - **Azione:** A (trovati completi pronti per l'illuzione)
+- [ ] `system/addon.json#15633:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Outfit Glamour → Completo Illusione`
+  - Inglese: `The items below can be used to form an outfit glamour. Items used must be of the same quality.`
+  - Italiano attuale: `Gli oggetti sottostanti possono essere usati per formare un completo illusione. Gli oggetti utilizzati devono essere della stessa qualità.`
+  - **Azione:** M
+- [ ] `system/addon.json#15635:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Outfit Glamour → Completo Illusione`
+  - Inglese: `View Outfit Glamour-ready Items`
+  - Italiano attuale: `Visualizza gli oggetti pronti per il completo illusione`
+  - **Azione:** M
+- [ ] `system/addon.json#15636:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Outfit Glamour → Completo Illusione`
+  - Inglese: `Outfit Glamour-ready Item`
+  - Italiano attuale: `Oggetto pronto per il completo illusione`
+  - **Azione:** M
+- [ ] `system/addon.json#15643:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Outfit Glamour → Completo Illusione`
+  - Inglese: `Used as part of an outfit glamour.`
+  - Italiano attuale: `Usato come parte di un completo illusione.`
+  - **Azione:** M
+- [ ] `system/addon.json#15663:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Outfit Glamour → Completo Illusione`
+  - Inglese: `An outfit glamour matching this gear is available.Add to pre-existing outfit glamour?`
+  - Italiano attuale: `È disponibile un completo illusione corrispondente a questo equipaggiamento.Aggiungere al completo illusione esistente?`
+  - **Azione:** M
+- [ ] `system/addon.json#15664:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Outfit Glamour → Completo Illusione`
+  - Inglese: `Gear from this attire set can be added to the outfit glamour.`
+  - Italiano attuale: `L'equipaggiamento di questo completo può essere aggiunto al completo illusione.`
+  - **Azione:** M
+- [ ] `system/addon.json#321:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Party Members → Membri del Gruppo`
+  - Inglese: `There are no party members.`
+  - Italiano attuale: `Non ci sono membri nel gruppo.`
+  - **Azione:** M
+- [ ] `system/addon.json#586:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Party Members → Membri del Gruppo`
+  - Inglese: `Unable to commence levequest. One or more party members are too far away.`
+  - Italiano attuale: `Impossibile avviare un incarico. Uno o più membri del gruppo sono troppo lontani.`
+  - **Azione:** M
+- [ ] `system/addon.json#2401:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Party Members → Membri del Gruppo`
+  - Inglese: `of party members are currently eligible for reward issuance. Consequently, the number of coffers that appear will be reduced from to . Vote “Yes” if you wish to proceed, or “No” if you prefer to wait for absent players to return.※The number of coffers that will appear is determi…`
+  - Italiano attuale: `su membri del gruppo sono attualmente idonei alla ricezione della ricompensa. Di conseguenza, il numero di forzieri che appariranno sarà ridotto da a . Vota “Sì” se desideri procedere, o “No” se preferisci attendere il rientro dei giocatori assenti.※Il numero di forzieri che app…`
+  - **Azione:** M
+- [ ] `system/addon.json#2409:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Party Members → Membri del Gruppo`
+  - Inglese: `of party members are currently eligible for reward issuance. Consequently, the number of coffers that appear will be reduced to . Vote “Yes” if you wish to proceed, or “No” if you prefer to wait for absent players to return.※The number of coffers that will appear is determined b…`
+  - Italiano attuale: `su membri del gruppo sono attualmente idonei alla ricezione della ricompensa. Di conseguenza, il numero di forzieri che appariranno sarà ridotto a . Vota “Sì” se desideri procedere, o “No” se preferisci attendere il rientro dei giocatori assenti.※Il numero di forzieri che appari…`
+  - **Azione:** M
+- [ ] `system/addon.json#5625:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Party Members → Membri del Gruppo`
+  - Inglese: `Second Chance points can be earned by completing duties with party members who are new to the duty, or by completing duties which offer Second Chance bonus points.`
+  - Italiano attuale: `I punti Seconda Occasione possono essere ottenuti completando incarichi con membri del gruppo che partecipano per la prima volta, o completando incarichi con bonus Seconda Occasione.`
+  - **Azione:** M
+- [ ] `system/addon.json#8116:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Party Members → Membri del Gruppo`
+  - Inglese: `Journey through the portal?Any party members will also be transported.`
+  - Italiano attuale: `Viaggiare attraverso il portale?Anche gli altri membri del gruppo verranno trasportati.`
+  - **Azione:** M
+- [ ] `system/addon.json#9811:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Party Members → Membri del Gruppo`
+  - Inglese: `To perform a rematch, all party members must accept the challenge. The tournament will end if even one party member declines the rematch.Proceed?`
+  - Italiano attuale: `Per effettuare una rivincita, tutti i membri del party devono accettare la sfida. Il torneo terminerà se anche un solo membro rifiuta la rivincita.Procedere?`
+  - **Azione:** M
+- [ ] `system/addon.json#10019:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Party Members → Membri del Gruppo`
+  - Inglese: `All party members must select Greed.`
+  - Italiano attuale: `Tutti i membri del party devono selezionare Brama.`
+  - **Azione:** A
+- [ ] `system/addon.json#10069:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Party Members → Membri del Gruppo`
+  - Inglese: `Search for new party members in the event party composition falls below the minimum size.`
+  - Italiano attuale: `Cerca nuovi membri del party nel caso in cui la composizione scenda sotto la dimensione minima.`
+  - **Azione:** A
+- [ ] `system/addon.json#10332:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Party Members → Membri del Gruppo`
+  - Inglese: `Also hide nearby party members and friends.`
+  - Italiano attuale: `Nascondi anche membri del party e amici vicini.`
+  - **Azione:** A
+- [ ] `system/addon.json#10334:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Party Members → Membri del Gruppo`
+  - Inglese: `Also hide nearby party members and friends.`
+  - Italiano attuale: `Nascondi anche membri del party e amici vicini.`
+  - **Azione:** A
+- [ ] `system/addon.json#12101:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Party Members → Membri del Gruppo`
+  - Inglese: `When ensemble mode is enabled, all party members will be heard in sync by players in the vicinity, but there will be a delay between the inputs and the sounds being heard by those performing, according to the playback type.Those who select “Self Only” will only hear their own in…`
+  - Italiano attuale: `Quando la modalità concerto è attiva, tutti i membri del gruppo verranno ascoltati in sincronia dai giocatori nelle vicinanze, ma si verificherà un ritardo tra la pressione dei tasti e i suoni uditi da chi suona, in base al tipo di riproduzione.Selezionando Con “Solo se stesso” …`
+  - **Azione:** M
+- [ ] `system/addon.json#12693:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Party Members → Membri del Gruppo`
+  - Inglese: `Set the way in which loot is distributed.NormalThe Need, Greed, Pass system is employed for loot drops.Greed OnlyAll party members must select Greed or Pass.LootmasterThe party leader determines individual loot distribution.※Greed Only and Lootmaster can only be selected when us…`
+  - Italiano attuale: `Imposta la modalità di distribuzione del bottino.NormaleSi applica il sistema Need, Greed, Pass.Solo GreedTutti i membri del party possono selezionare solo Greed o Pass.LootmasterIl capogruppo decide l'assegnazione individuale del bottino.※Solo Greed e Lootmaster sono selezionab…`
+  - **Azione:** A, anche Need, Greed, Pass devono essere tradotti, c'é una convenzione anche per quelli negli altri file convertiti
+- [ ] `system/addon.json#13031:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Party Members → Membri del Gruppo`
+  - Inglese: `Limit the roulette to duties of an appropriate difficulty based on the level of party members.The duty chosen will be within eight levels of the lowest level party member. For example, should the lowest character level in the party be 70, a duty ranging from level 63 to 70 will …`
+  - Italiano attuale: `Limita la roulette agli incarichi con difficoltà adeguata al livello dei membri del party.l'incarico scelto sarà entro otto livelli dal membro del party di livello più basso. Ad esempio, se il livello più basso è 70, verrà scelta un incarico compreso tra il livello 63 e il 70.De…`
+  - **Azione:** A
+- [ ] `system/addon.json#13074:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Party Members → Membri del Gruppo`
+  - Inglese: `When ensemble mode is enabled, all party members will be heard in sync by players in the vicinity, but there will be a delay between the inputs and the sounds being heard by those performing, according to the playback type.Those who select “Self Only” will only hear their own in…`
+  - Italiano attuale: `Quando la modalità concerto è attiva, tutti i membri del party verranno ascoltati in sincronia dai giocatori nelle vicinanze, ma si verificherà un ritardo tra la pressione dei tasti e i suoni uditi da chi suona, in base al tipo di riproduzione.Selezionando “Solo se stesso” si ud…`
+  - **Azione:** A
+- [ ] `system/addon.json#102568:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Party Members → Membri del Gruppo`
+  - Inglese: `Enable portraits in commendations window?※If all party members have left, settings will be reflected during the next duty.`
+  - Italiano attuale: `Abilitare i ritratti nella finestra di encomio?※Se tutti i membri del gruppo hanno abbandonato, le impostazioni si applicheranno al prossimo incarico.`
+  - **Azione:** M
+- [ ] `system/addon.json#102621:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Party Members → Membri del Gruppo`
+  - Inglese: `Initiate a vote to abandon the current duty.If more than half the party members vote Yes, the party will be disbanded and the duty will end.※Please note that penalties will not be incurred for abandoning a duty in this fashion.`
+  - Italiano attuale: `Avvia una votazione per abbandonare l'incarico in corso.Se più della metà dei membri del gruppo vota Sì, il gruppo verrà sciolto e l'incarico avrà termine.※Nota che non riceverai penalità per aver abbandonato un incarico in questo modo.`
+  - **Azione:** M
+- [ ] `system/addon.json#102623:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Party Members → Membri del Gruppo`
+  - Inglese: `If more than half the party members vote Yes, the party will be disbanded and the duty will end.※Please note that penalties will not be incurred for abandoning a duty in this fashion.`
+  - Italiano attuale: `Se più della metà dei membri del gruppo vota Sì, il gruppo verrà sciolto e l'incarico avrà termine.※Nota che non riceverai penalità per aver abbandonato un incarico in questo modo.`
+  - **Azione:** M
+- [ ] `system/maincommand.json#12:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Party Members → Membri del Gruppo`
+  - Inglese: `Displays a list of your current party members. From this list you can change member order, and if you are leader, kick other players or dissolve the party altogether.`
+  - Italiano attuale: `Mostra l'elenco dei membri attuali del gruppo. Permette di modificare l'ordine e, se sei il capo gruppo, espellere giocatori o sciogliere il gruppo.`
+  - **Azione:** M
+- [ ] `system/maincommand.json#16:translation_description` — **MAIUSCOLE**
+  - Termini segnalati: `Party Members → Membri del Gruppo`
+  - Inglese: `Opens the map of your current location. Maps contain information on party members, aetherytes, shops, guilds, and quest destinations. Maps can also be zoomed in or out, or swapped with region or world maps.`
+  - Italiano attuale: `Apre la mappa della posizione attuale. Mostra i membri del gruppo, le eteriti, i mercanti, le gilde e le destinazioni delle missioni.`
+  - **Azione:** M
+- [ ] `system/maincommand.json#57:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Party Members → Membri del Gruppo`
+  - Inglese: `Find and recruit party members based on the specified conditions.`
+  - Italiano attuale: `Cerca o recluta compagni di squadra in base a condizioni e obiettivi prestabiliti.`
+  - **Azione:** M
+- [ ] `system/addon.json#15541:translation` — **MAIUSCOLE + TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Placed Glamours → Illusioni Posizionate; Registered Glamours → Illusioni Registrate`
+  - Inglese: `This furnishing glamour is currently placed on your island. Remove glamour registration?※While removing registration will not affect currently placed glamours, you will be unable to place this glamour again via the Registered Glamours list.`
+  - Italiano attuale: `Questa illusione d'arredo è attualmente posizionata sulla tua isola. Rimuovere la registrazione dell'illusione?※Sebbene la rimozione della registrazione non influisca sulle illusioni già posizionate, non potrai più posizionare questa illusione tramite la lista delle illusioni re…`
+  - **Azione:** M
+- [ ] `system/addon.json#15522:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Registered Glamours → Illusioni Registrate`
+  - Inglese: `Use to register the selected item as a glamour?Registered glamours may be placed as many times as desired from the Registered Glamours list.※Color settings will not be registered.※The selected furnishing item will be bound to you and remain in your inventory.`
+  - Italiano attuale: `Usare per registrare l'oggetto selezionato come illusione?Le illusioni registrate possono essere posizionate quante volte desideri dalla lista delle illusioni registrate.※Le impostazioni di colore non verranno registrate.※L'oggetto d'arredo selezionato verrà vincolato a te e rim…`
+  - **Azione:** M
+- [ ] `system/addon.json#15523:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Registered Glamours → Illusioni Registrate`
+  - Inglese: `This furnishing is not registered as a glamour. Proceed with removal?※By using an island prism to register this item, you may place it as many times as desired via the Registered Glamours list.`
+  - Italiano attuale: `Questo arredo non è registrato come illusione. Procedere con la rimozione?※Usando un prisma isolano per registrare questo oggetto, potrai posizionarlo quante volte desideri tramite la lista delle illusioni registrate.`
+  - **Azione:** M
+- [ ] `system/addon.json#15559:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Registered Glamours → Illusioni Registrate`
+  - Inglese: `Remove the selected furnishing glamour?※This glamour has been registered and may be placed again via the Registered Glamours list.※Color settings will revert to default.`
+  - Italiano attuale: `Rimuovere l'illusione d'arredo selezionata?※Questa illusione è stata registrata e potrà essere posizionata di nuovo tramite la lista delle illusioni registrate.※Le impostazioni di colore torneranno a quelle predefinite.`
+  - **Azione:** M
+- [ ] `system/addon.json#15563:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Registered Glamours → Illusioni Registrate`
+  - Inglese: `Use to register this item as a glamour?Registered glamours may be placed as many times as desired from the Registered Glamours list.※Color settings will not be registered.`
+  - Italiano attuale: `Usare per registrare questo oggetto come illusione?Le illusioni registrate possono essere posizionate quante volte desideri dalla lista delle illusioni registrate.※Le impostazioni di colore non verranno registrate.`
+  - **Azione:** M
+- [ ] `system/lobby.json#901:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Sound Settings → Impostazioni Audio`
+  - Inglese: `Saves volume, mute, and other sound settings.`
+  - Italiano attuale: `Salva volume, disattivazione audio e altre impostazioni sonore.`
+  - **Azione:** M
+- [ ] `system/maincommand.json#46:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Sound Settings → Impostazioni Audio`
+  - Inglese: `Adjust various sound settings such as music and effects volume, and listening position.`
+  - Italiano attuale: `Regola i vari volumi sonori: musica di sottofondo, effetti speciali, voci e posizione d'ascolto.`
+  - **Azione:** M
+- [ ] `system/lobby.json#2003:translation` — **MAIUSCOLE**
+  - Termini segnalati: `System Configuration → Configurazione di Sistema`
+  - Inglese: `SYSTEM CONFIGURATION`
+  - Italiano attuale: `CONFIGURAZIONE DI SISTEMA`
+  - **Azione:** M
+- [ ] `system/addon.json#841:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `UI Settings → Impostazioni Interfaccia`
+  - Inglese: `※Active Help windows can be disabled in UI Settings, located under Character Configuration.`
+  - Italiano attuale: `※Le finestre della Guida Attiva possono essere disattivate nelle Impostazioni UI, sotto Configurazione Personaggio.`
+  - **Azione:** M
+- [ ] `system/addon.json#847:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `UI Settings → Impostazioni Interfaccia`
+  - Inglese: `Active Help windows can be re-enabled in UI Settings, located under Character Configuration.`
+  - Italiano attuale: `Le finestre della Guida Attiva possono essere riattivate nelle Impostazioni UI, sotto Configurazione Personaggio.`
+  - **Azione:** M
+- [ ] `system/maincommand.json#63:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `UI Settings → Impostazioni Interfaccia`
+  - Inglese: `Adjust various gameplay and UI settings to make the game easier to hear, see, and use.`
+  - Italiano attuale: `Regola le opzioni speciali per facilitare l'ascolto, la visione e l'uso dell'interfaccia di gioco.`
+  - **Azione:** M
+- [ ] `system/lobby.json#1102:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `World Visit → Visita Mondo`
+  - Inglese: `Using the World Visit System`
+  - Italiano attuale: `Guida alla Visita Mondi`
+  - **Azione:** M
+- [ ] `system/lobby.json#1107:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `World Visit → Visita Mondo`
+  - Inglese: `Unable to submit World Visit request at this time.`
+  - Italiano attuale: `Impossibile inviare la richiesta di World Visit in questo momento.`
+  - **Azione:** A
+- [ ] `system/lobby.json#1112:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `World Visit → Visita Mondo`
+  - Inglese: `Character has not completed the game's opening event. Unable to submit World Visit request.`
+  - Italiano attuale: `Il personaggio non ha completato l'evento introduttivo del gioco. Impossibile inviare la richiesta di World Visit.`
+  - **Azione:** A
+- [ ] `system/lobby.json#1114:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `World Visit → Visita Mondo`
+  - Inglese: `World Visit system is temporarily unavailable.`
+  - Italiano attuale: `Il sistema World Visit è temporaneamente non disponibile.`
+  - **Azione:** A
+- [ ] `system/lobby.json#1115:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `World Visit → Visita Mondo`
+  - Inglese: `World Visit transfer failed. Please wait before submitting another transfer request via the subcommand.`
+  - Italiano attuale: `Trasferimento World Visit non riuscito. Attendi prima di inviare un'altra richiesta di trasferimento tramite il comando secondario.`
+  - **Azione:** A
+- [ ] `system/lobby.json#1116:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `World Visit → Visita Mondo`
+  - Inglese: `World Visit transfer successful. Login to now available.`
+  - Italiano attuale: `Trasferimento completato con successo. Accesso a ora disponibile.`
+  - **Azione:** M
+- [ ] `system/lobby.json#1215:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `World Visit → Visita Mondo`
+  - Inglese: `belongs to your current data center. Please use the World Visit system to travel there.`
+  - Italiano attuale: `appartiene al tuo Data Center attuale. Usa il sistema World Visit per viaggiare lì.`
+  - **Azione:** A
+- [ ] `system/lobby.json#2021:translation` — **MAIUSCOLE**
+  - Termini segnalati: `World Visit → Visita Mondo`
+  - Inglese: `WORLD VISIT`
+  - Italiano attuale: `VISITA MONDO`
+  - **Azione:** M
+
+### Interfaccia e comandi — 80 campi
+
+- [ ] `system/addon.json#14672:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Adventurer Plate → Scheda dell'Avventuriero`
+  - Inglese: `The selected portrait will be applied to your adventurer plate. Proceed?`
+  - Italiano attuale: `Il ritratto selezionato verrà applicato alla tua scheda dell'avventuriero. Procedere?`
+  - **Azione:** M
+- [ ] `system/addon.json#14760:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Adventurer Plate → Scheda dell'Avventuriero`
+  - Inglese: `All adventurer plate portrait settings will be copied and imported.※Poses that are incompatible due to class/job will be reverted to the default.`
+  - Italiano attuale: `Tutte le impostazioni del ritratto della scheda dell'avventuriero verranno copiate e importate.※Le pose incompatibili a causa della classe o job verranno ripristinate su quelle predefinite.`
+  - **Azione:** M
+- [ ] `system/addon.json#15065:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Adventurer Plate → Scheda dell'Avventuriero; Friend List → Lista Amici`
+  - Inglese: `These settings control who has permission to view your adventurer plate.“Everyone” will allow all players access, whereas “Friends Only” will restrict access to only those on your friend list. If you select “No One,” only you will be able to see your plate.`
+  - Italiano attuale: `Queste impostazioni controllano chi ha il permesso di visualizzare la tua scheda dell'avventuriero.“Tutti” consentirà l'accesso a tutti i giocatori, mentre “Solo amici” limiterà l'accesso a chi è nella tua lista amici. Se selezioni “Nessuno”, soltanto tu potrai vedere la tua sch…`
+  - **Azione:** M
+- [ ] `system/addon.json#15066:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Adventurer Plate → Scheda dell'Avventuriero`
+  - Inglese: `Select favorite class/job. Selection will display on your adventurer plate.`
+  - Italiano attuale: `Seleziona la tua classe preferita. La selezione verrà mostrata sulla tua scheda dell'avventuriero.`
+  - **Azione:** M
+- [ ] `system/addon.json#15067:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Adventurer Plate → Scheda dell'Avventuriero`
+  - Inglese: `Select favorite title. Selection will display on your adventurer plate.`
+  - Italiano attuale: `Seleziona il tuo titolo preferito. La selezione verrà mostrata sulla tua scheda dell'avventuriero.`
+  - **Azione:** M
+- [ ] `system/addon.json#15092:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Adventurer Plate → Scheda dell'Avventuriero`
+  - Inglese: `Your adventurer plate cannot be viewed by other players, because you have not created it yet.※Make your plate public by updating its appearance or settings.`
+  - Italiano attuale: `La tua scheda dell'avventuriero non può essere visualizzata dagli altri giocatori, poiché non l'hai ancora creata.※Rendi pubblica la tua scheda aggiornandone l'aspetto o le impostazioni.`
+  - **Azione:** M
+- [ ] `system/addon.json#15093:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Adventurer Plate → Scheda dell'Avventuriero`
+  - Inglese: `Your adventurer plate cannot be viewed by other players, because your portraits were reset after using Fantasia.※Make your plate public by updating its appearance or settings.`
+  - Italiano attuale: `La tua scheda dell'avventuriero non può essere visualizzata dagli altri giocatori, poiché i tuoi ritratti sono stati ripristinati dopo aver usato una Fantasia.※Rendi pubblica la tua scheda aggiornandone l'aspetto o le impostazioni.`
+  - **Azione:** M
+- [ ] `system/maincommand.json#67:translation_description` — **MAIUSCOLE**
+  - Termini segnalati: `Aether Currents → Correnti Eteriche`
+  - Inglese: `Displays attunement information for aether currents.`
+  - Italiano attuale: `Mostra lo stato di sintonia con le correnti eteriche necessarie per consentire il volo nelle varie regioni.`
+  - **Azione:** M
+- [ ] `system/lobby.json#2009:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Back → Indietro`
+  - Inglese: `BACK`
+  - Italiano attuale: `INDIETRO`
+  - **Azione:** M
+- [ ] `system/addon.json#12250:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Blue Magic Spellbook → Grimorio di Magia Blu`
+  - Inglese: `Blue Magic Spellbook`
+  - Italiano attuale: `Grimorio della Magia Blu`
+  - **Azione:** A
+- [ ] `system/addon.json#12470:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Blue Magic Spellbook → Grimorio di Magia Blu`
+  - Inglese: `Blue Magic Spellbook`
+  - Italiano attuale: `Grimorio della Magia Blu`
+  - **Azione:** A
+- [ ] `system/addon.json#1798:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Chocobo Saddlebag → Bisaccia del Chocobo`
+  - Inglese: `Used with chocobo saddlebag.`
+  - Italiano attuale: `Usato con la bisaccia del chocobo.`
+  - **Azione:** M
+- [ ] `system/maincommand.json#77:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Chocobo Saddlebag → Bisaccia del Chocobo`
+  - Inglese: `Displays a list of all items in your chocobo saddlebag. From this list, items can be transferred to your inventory, or that of a retainer. Cannot be accessed while participating in instanced duties.`
+  - Italiano attuale: `Mostra gli oggetti conservati nella bisaccia della tua cavalcatura chocobo per trasferirli nell'inventario. Non è accessibile durante gli incarichi con istanza.`
+  - **Azione:** M
+- [ ] `system/addon.json#2891:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Company Chest → Forziere della Compagnia`
+  - Inglese: `Store in the company chest?`
+  - Italiano attuale: `Depositare nel forziere della compagnia?`
+  - **Azione:** M
+- [ ] `system/addon.json#2892:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Company Chest → Forziere della Compagnia`
+  - Inglese: `Store in the company chest?`
+  - Italiano attuale: `Depositare nel forziere della compagnia?`
+  - **Azione:** M
+- [ ] `system/addon.json#2893:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Company Chest → Forziere della Compagnia; Free Company → Compagnia Libera`
+  - Inglese: `Only free company members are allowed access to the company chest.`
+  - Italiano attuale: `Solo i membri della compagnia libera possono accedere al forziere della compagnia.`
+  - **Azione:** M
+- [ ] `system/addon.json#2894:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Company Chest → Forziere della Compagnia`
+  - Inglese: `The company chest is unavailable at this time.`
+  - Italiano attuale: `Il forziere della compagnia non è disponibile al momento.`
+  - **Azione:** M
+- [ ] `system/addon.json#2895:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Company Chest → Forziere della Compagnia`
+  - Inglese: `Remove from the company chest?`
+  - Italiano attuale: `Rimuovere dal forziere della compagnia?`
+  - **Azione:** M
+- [ ] `system/addon.json#2896:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Company Chest → Forziere della Compagnia`
+  - Inglese: `Remove from the company chest?`
+  - Italiano attuale: `Rimuovere dal forziere della compagnia?`
+  - **Azione:** M
+- [ ] `system/addon.json#2899:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Company Chest → Forziere della Compagnia`
+  - Inglese: `You are not authorized to use the company chest.`
+  - Italiano attuale: `Non sei autorizzato a usare il forziere della compagnia.`
+  - **Azione:** M
+- [ ] `system/addon.json#3579:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Company Chest → Forziere della Compagnia`
+  - Inglese: `Select an item to place in your company chest.`
+  - Italiano attuale: `Seleziona un oggetto da riporre nel forziere della compagnia.`
+  - **Azione:** M
+- [ ] `system/lobby.json#21:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Company Chest → Forziere della Compagnia; Free Company → Compagnia Libera`
+  - Inglese: `Delete ?Please be aware that if you delete this character, you will lose all items, gil, and hired retainers in their possession.If this character is master of a free company for which there is no eligible successor, the free company will be automatically disbanded, causing comp…`
+  - Italiano attuale: `Vuoi eliminare ? Attenzione: se elimini questo personaggio, perderai tutti i suoi oggetti, i gil e i servitori assunti. Se questo personaggio è maestro di una compagnia libera senza successori validi, la compagnia verrà automaticamente sciolta, causando l'eliminazione della tenu…`
+  - **Azione:** M
+- [ ] `system/addon.json#14259:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Crafting Log → Registro di Fabbricazione`
+  - Inglese: `Sanctuary Crafting Log`
+  - Italiano attuale: `Registro Sintesi del Santuario`
+  - **Azione:** A
+- [ ] `system/addon.json#14294:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Crafting Log → Registro di Fabbricazione`
+  - Inglese: `Sanctuary Crafting Log`
+  - Italiano attuale: `Registro Sintesi del Santuario`
+  - **Azione:** A
+- [ ] `system/addon.json#16795:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Crafting Log → Registro di Fabbricazione`
+  - Inglese: `Cosmic Crafting Log`
+  - Italiano attuale: `Registro di Sintesi Cosmica`
+  - **Azione:** A
+- [ ] `system/addon.json#16812:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Crafting Log → Registro di Fabbricazione`
+  - Inglese: `Cosmic Crafting Log`
+  - Italiano attuale: `Registro di Sintesi Cosmica`
+  - **Azione:** A
+- [ ] `system/addon.json#11727:translation` — **MAIUSCOLE + TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Creation → Creazione; Crystalline Conflict → Conflitto Cristallino; Data Center → Data Center; PvP Team → Squadra PvP; Random → Casuale`
+  - Inglese: `PvP teams are adventurers who, rather than have their companionschosen at random, join together to take on Crystalline Conflict and other PvP duties in custom-made parties of their own creation.To create a PvP team, the following conditions must be met:・Only a party leader can c…`
+  - Italiano attuale: `I Team PvP sono formati da avventurieri che, invece di avere compagniscelti casualmente, si uniscono per affrontare Conflitti Cristallini e altri incarichi PvP in gruppi personalizzati.Per creare un Team PvP devono essere soddisfatte le seguenti condizioni:・Solo il capogruppo pu…`
+  - **Azione:** A solo "Squadra PvP" mantenendo le maiuscole/minuscole come sempre in abse all'originale
+- [ ] `system/addon.json#11847:translation` — **MAIUSCOLE + TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Creation → Creazione; Party Members → Membri del Gruppo; PvP Team → Squadra PvP`
+  - Inglese: `Submit request for creation of the PvP team “” to your party members?`
+  - Italiano attuale: `Inviare ai membri del gruppo la richiesta di creazione del Team PvP “”?`
+  - **Azione:** A solo "Squadra PvP" mantenendo le maiuscole/minuscole come sempre in abse all'originale
+- [ ] `system/addon.json#11852:translation` — **MAIUSCOLE + TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Creation → Creazione; PvP Team → Squadra PvP`
+  - Inglese: `has submitted a request to create the PvP team “.” The team will be created once all members have granted their approval. Misbehavior by any team members at any time may result in the automatic disbandment of the team. Approve creation?`
+  - Italiano attuale: `ha richiesto di creare il Team PvP “”. Il team verrà creato una volta ricevuta l'approvazione di tutti i membri. Comportamenti scorretti possono portare allo scioglimento automatico del team. Approvare la creazione?`
+  - **Azione:** A solo "Squadra PvP" mantenendo le maiuscole/minuscole come sempre in abse all'originale
+- [ ] `system/maincommand.json#76:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Duty Recorder → Registratore Incarichi`
+  - Inglese: `View recorded duties and adjust Duty Recorder settings.`
+  - Italiano attuale: `Riguarda le battaglie registrate e configura le opzioni del registratore di incarichi.`
+  - **Azione:** A
+- [ ] `system/addon.json#102488:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Frontline → Prima Linea`
+  - Inglese: `Frontline`
+  - Italiano attuale: `Prima linea`
+  - **Azione:** A
+- [ ] `system/addon.json#14260:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Gathering Log → Registro di Raccolta`
+  - Inglese: `Sanctuary Gathering Log`
+  - Italiano attuale: `Registro Raccolta del Santuario`
+  - **Azione:** A
+- [ ] `system/addon.json#14305:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Gathering Log → Registro di Raccolta`
+  - Inglese: `Sanctuary Gathering Log`
+  - Italiano attuale: `Registro Raccolta del Santuario`
+  - **Azione:** A
+- [ ] `system/maincommand.json#70:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Hall of the Novice → Sala dei Novizi`
+  - Inglese: `Grants entrance to the Hall of the Novice and access to their regimen of training exercises designed to teach new Disciples of War and Magic the basics of combat for tank, healer, and DPS roles.`
+  - Italiano attuale: `Accedi agli esercizi d'addestramento per apprendere le basi del combattimento per difensori (Difensore), guaritori (Healer) e assalitori (DPS).`
+  - **Azione:** A
+- [ ] `system/maincommand.json#65:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Lord of Verminion → Lord of Verminion; The Gold Saucer → Il Gold Saucer`
+  - Inglese: `Displays various information pertaining to the Gold Saucer, including MGP in possession, Cactpot draw times, Triple Triad tournament results, personal deck makeup, Lord of Verminion hotbar and Doman mahjong settings, and race chocobo status.`
+  - Italiano attuale: `Mostra le informazioni relative al Gold Saucer: MGP posseduti, estrazioni Cactpot, Triple Triad e Chocobo da corsa.`
+  - **Azione:** A
+- [ ] `system/addon.json#5672:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Main Scenario Quests → Missioni dello Scenario Principale`
+  - Inglese: `Main Scenario Quests Complete`
+  - Italiano attuale: `Missioni Principali Completate`
+  - **Azione:** M
+- [ ] `system/addon.json#16990:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Mech Ops → Operazione Mech`
+  - Inglese: `Mech ops are special missions that require the use of powerful vacuum suits.Would you like to view the Exploration Guide?`
+  - Italiano attuale: `Le Operazioni Mech sono missioni speciali che richiedono l'uso di potenti tute pressurizzate per il vuoto.Vuoi visualizzare la Guida all'esplorazione?`
+  - **Azione:** M (forma plurale)
+- [ ] `system/addon.json#12695:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `New Game+ → Nuova Partita+`
+  - Inglese: `Not available in New Game+ mode.`
+  - Italiano attuale: `Non disponibile in modalità New Game+.`
+  - **Azione:** A
+- [ ] `system/addon.json#13351:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `New Game+ → Nuova Partita+`
+  - Inglese: `New Game+ Mode`
+  - Italiano attuale: `Modalità New Game+`
+  - **Azione:** A
+- [ ] `system/lobby.json#2058:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Options → Opzioni`
+  - Inglese: `OPTIONS`
+  - Italiano attuale: `OPZIONI`
+  - **Azione:** M
+- [ ] `system/addon.json#11720:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `PvP Team Board`
+  - Italiano attuale: `Bacheca Team PvP`
+  - **Azione:** A
+- [ ] `system/addon.json#11722:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `Use the board not only to create your very own PvP team,but to view information on how teams are formed and rated.`
+  - Italiano attuale: `Usa la bacheca per creare il tuo Team PvPe consultare informazioni sulla formazione e la valutazione del team.`
+  - **Azione:** A
+- [ ] `system/addon.json#11724:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `PvP Team Outline`
+  - Italiano attuale: `Panoramica Team PvP`
+  - **Azione:** A
+- [ ] `system/addon.json#11725:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `PvP Team System`
+  - Italiano attuale: `Sistema dei Team PvP`
+  - **Azione:** A
+- [ ] `system/addon.json#11729:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `Team rating is a numerical value that indicates the relative strength ofa PvP team. This value will increase or decrease based on performancein ranked matches. To register for a PvP team-specific ranked match,a party of 4 members from the same PvP team must first be formed.`
+  - Italiano attuale: `Il punteggio del team è un valore numerico che indica la forza relativadi un Team PvP. Questo valore aumenta o diminuisce in base ai risultatinelle partite classificate. Per iscriversi a una partita classificata per team,è necessario formare un party di 4 membri dello stesso Tea…`
+  - **Azione:** A
+- [ ] `system/addon.json#11733:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `“Season” is the term used to indicate the fixed period of time duringwhich official team and solo PvP matches are held. Only participatingin ranked matches during a season will contribute to your PvP rating.Teams which end the season with the highest rankings are awardedspecial …`
+  - Italiano attuale: `“Stagione” è il termine che indica il periodo prestabilito durante il qualesi tengono le partite PvP ufficiali di squadra e in singolo. Solo la partecipazionealle partite classificate durante una stagione contribuirà alla valutazione PvP.I team che concludono la stagione ai vert…`
+  - **Azione:** A
+- [ ] `system/addon.json#11735:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `Team information, including status of current members, can be viewedunder PvP Team in the main menu.`
+  - Italiano attuale: `Le informazioni sul Team, incluso lo stato dei membri attuali, sono consultabiliin Team PvP all'interno del menu principale.`
+  - **Azione:** A
+- [ ] `system/addon.json#11737:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `To invite a player to a PvP team, target him or her and select Inviteto PvP Team from the subcommands. The invitee will join theteam upon agreeing to the request. To invite someone from anotherWorld server to your PvP team, you must first be in a cross-worldparty with that playe…`
+  - Italiano attuale: `Per invitare un giocatore in un Team PvP, selezionalo come bersaglio e scegli Invitanel Team PvP dai sottocomandi. Il giocatore invitato si unirà alteam accettando la richiesta. Per invitare qualcuno da un altro servernel tuo Team PvP, devi prima trovarti in un gruppo intramondo…`
+  - **Azione:** A
+- [ ] `system/addon.json#11739:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `Certain team actions, such as changing the team name or updating theteam crest, require authorization to execute. This authorization is onlygranted to team leaders and subleaders. A team subleader can beappointed by the team leader via subcommand on the member list inthe PvP Tea…`
+  - Italiano attuale: `Alcune azioni del team, come la modifica del nome o dell'emblemadel team, richiedono un'autorizzazione. Questa autorizzazione è concessaesclusivamente ai leader e ai sottileader del team. Un sottileader puòessere nominato dal leader tramite sottocomando sulla lista dei membrinel…`
+  - **Azione:** A
+- [ ] `system/addon.json#11741:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `To disband a team, the leader must first select the option DisbandTeam found under Status on the PvP Team interface. More than half ofthe team members must then agree to the disbandment before it isexecuted.To leave a PvP team, a member must select Leave Team, also foundunder St…`
+  - Italiano attuale: `Per sciogliere un team, il leader deve selezionare l'opzione SciogliTeam presente in Stato nell'interfaccia del Team PvP. Più della metà deimembri del team deve poi acconsentire allo scioglimento prima che vengaeffettuato.Per lasciare un Team PvP, un membro deve selezionare Lasc…`
+  - **Azione:** A
+- [ ] `system/addon.json#11743:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `If a leader is not online for more than 90 days (including cases wherethe character has been deleted), the PvP team's subleader will beautomatically promoted to leader. If the team does not have anappointed subleader, the title of leader will be assigned to themember who joined …`
+  - Italiano attuale: `Se il leader non accede per oltre 90 giorni (inclusi i casi in cuiil personaggio sia stato eliminato), il sottileader del Team PvP verràautomaticamente promosso a leader. Se il team non ha unsottileader designato, il ruolo di leader verrà assegnato almembro che A è unito al tea…`
+  - **Azione:** ____________________
+- [ ] `system/addon.json#11745:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `A PvP team will automatically be disbanded if no members log in for more than 90 days (Earth time).`
+  - Italiano attuale: `Un Team PvP verrà automaticamente sciolto se nessun membro accede per oltre 90 giorni (tempo reale).`
+  - **Azione:** A
+- [ ] `system/addon.json#11750:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `PvP Team`
+  - Italiano attuale: `Team PvP`
+  - **Azione:** A
+- [ ] `system/addon.json#11782:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `Invite to PvP Team`
+  - Italiano attuale: `Invita nel Team PvP`
+  - **Azione:** A
+- [ ] `system/addon.json#11783:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `Dismiss from PvP Team`
+  - Italiano attuale: `Espelli dal Team PvP`
+  - **Azione:** A
+- [ ] `system/addon.json#11785:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `PvP Team Invitation`
+  - Italiano attuale: `Invito nel Team PvP`
+  - **Azione:** A
+- [ ] `system/addon.json#11786:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `Invite to your PvP team?`
+  - Italiano attuale: `Invitare nel tuo Team PvP?`
+  - **Azione:** A
+- [ ] `system/addon.json#11787:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `Misbehavior by any PvP team members at any time may result in the automatic disbandment of the team. Accept 's invite?`
+  - Italiano attuale: `Comportamenti scorretti da parte di qualsiasi membro possono portare allo scioglimento automatico del team. Accettare l'invito di ?`
+  - **Azione:** A
+- [ ] `system/addon.json#11788:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `Decline 's PvP team invite?`
+  - Italiano attuale: `Rifiutare l'invito al Team PvP di ?`
+  - **Azione:** A
+- [ ] `system/addon.json#11789:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `Dismiss from the PvP team?`
+  - Italiano attuale: `Espellere dal Team PvP?`
+  - **Azione:** A
+- [ ] `system/addon.json#11823:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `※The PvP team will automatically be disbanded if no members log in for more than 90 days (Earth time).`
+  - Italiano attuale: `※Il Team PvP verrà sciolto automaticamente se nessun membro effettua l'accesso per oltre 90 giorni (tempo reale).`
+  - **Azione:** A
+- [ ] `system/addon.json#11827:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `To disband a PvP team, approval must be received from more than half of theteam members. Offline members will be recorded as not giving their assent.`
+  - Italiano attuale: `Per sciogliere un Team PvP è necessaria l'approvazione di più della metà deimembri del team. I membri Offline saranno considerati contrari.`
+  - **Azione:** A
+- [ ] `system/addon.json#11829:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `Promote to PvP team leader?`
+  - Italiano attuale: `Promuovere a leader del Team PvP?`
+  - **Azione:** A
+- [ ] `system/addon.json#11830:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `PvP Team Disbandment Confirmation`
+  - Italiano attuale: `Conferma Scioglimento del Team PvP`
+  - **Azione:** A
+- [ ] `system/addon.json#11832:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `A motion to disband the PvP team has been submitted by the team leader.Votes of any offline team members will be counted as “No.”Failing to reply in the allotted time will also render a vote “No.”`
+  - Italiano attuale: `Il leader ha proposto di sciogliere il Team PvP.I voti dei membri offline saranno conteggiati come “No”.Anche la mancata risposta entro il tempo limite varrà come voto contrario.`
+  - **Azione:** A
+- [ ] `system/addon.json#11840:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `Rename your PvP team.`
+  - Italiano attuale: `Rinomina il tuo Team PvP.`
+  - **Azione:** A
+- [ ] `system/addon.json#11844:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `PvP Team Name`
+  - Italiano attuale: `Nome del Team PvP`
+  - **Azione:** A
+- [ ] `system/addon.json#11850:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `PvP Team Creation Confirmation`
+  - Italiano attuale: `Conferma Creazione del Team PvP`
+  - **Azione:** A
+- [ ] `system/addon.json#102617:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `Only PvP Team Members`
+  - Italiano attuale: `Solo Membri del Team PvP`
+  - **Azione:** A
+- [ ] `system/maincommand.json#78:translation_description` — **MAIUSCOLE**
+  - Termini segnalati: `PvP Team → Squadra PvP`
+  - Inglese: `Displays information on your PvP team.`
+  - Italiano attuale: `Mostra le informazioni e lo stato della tua squadra PvP.`
+  - **Azione:** A
+- [ ] `system/addon.json#14500:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Strategy Board → Lavagna Strategica`
+  - Inglese: `Strategy Board List`
+  - Italiano attuale: `Elenco Lavagne Strategiche`
+  - **Azione:** M (forma plurale)
+- [ ] `system/addon.json#14548:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Strategy Board → Lavagna Strategica`
+  - Inglese: `A strategy board is being shared by a player on your blacklist. Proceed and view the strategy board?`
+  - Italiano attuale: `Una lavagna strategica è condivisa da un giocatore nella tua lista nera. Procedere e visualizzare la lavagna strategica?`
+  - **Azione:** M
+- [ ] `system/addon.json#14549:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Strategy Board → Lavagna Strategica`
+  - Inglese: `A strategy board is being shared by a player on your blacklist. Proceed and view the strategy board?`
+  - Italiano attuale: `Una lavagna strategica è condivisa da un giocatore nella tua lista nera. Procedere e visualizzare la lavagna strategica?`
+  - **Azione:** M
+- [ ] `system/addon.json#14550:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Strategy Board → Lavagna Strategica`
+  - Inglese: `“” will be shared in real time. Any changes made will be saved automatically.Proceed and view the strategy board?`
+  - Italiano attuale: `“” verrà condivisa in tempo reale. Eventuali modifiche apportate verranno salvate automaticamente.Procedere e visualizzare la lavagna strategica?`
+  - **Azione:** M
+- [ ] `system/addon.json#17094:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Strategy Board → Lavagna Strategica`
+  - Inglese: `Highlight an indicated role's icon when reviewing strategy board.This setting will be applied to all strategy boards. Moreover, the indicated role icon will only be highlighted if it has been set on the board being reviewed.`
+  - Italiano attuale: `Evidenzia l'icona del ruolo indicato durante la visualizzazione della lavagna strategica.Questa impostazione verrà applicata a tutte le lavagne strategiche. Inoltre, l'icona del ruolo indicato sarà evidenziata solo se è presente sulla lavagna esaminata.`
+  - **Azione:** M
+- [ ] `system/addon.json#17510:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Strategy Board → Lavagna Strategica`
+  - Inglese: `Please enter the share code for the strategy board you wish to import.`
+  - Italiano attuale: `Inserisci il codice di condivisione per la lavagna strategica che desideri importare.`
+  - **Azione:** M
+- [ ] `system/addon.json#17518:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Strategy Board → Lavagna Strategica`
+  - Inglese: `Use the code below to share your strategy board with other players.`
+  - Italiano attuale: `Usa il codice qui sotto per condividere la tua lavagna strategica con altri giocatori.`
+  - **Azione:** M
+- [ ] `system/addon.json#17525:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Strategy Board → Lavagna Strategica`
+  - Inglese: `The strategy board “” has been successfully loaded.Proceed and save this strategy board?`
+  - Italiano attuale: `La lavagna strategica “” è stata caricata con successo.Procedere e salvare questa lavagna strategica?`
+  - **Azione:** M
+- [ ] `system/addon.json#17527:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Strategy Board → Lavagna Strategica`
+  - Inglese: `Select a destination folder for the strategy board “.”`
+  - Italiano attuale: `Seleziona una cartella di destinazione per la lavagna strategica “”.`
+  - **Azione:** M
+- [ ] `system/addon.json#9791:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Treasure Hunt → Caccia al Tesoro`
+  - Inglese: `Happy bunny treasure hunt.`
+  - Italiano attuale: `Caccia al tesoro con Happy Bunny.`
+  - **Azione:** Da tradurre (Happy Bunny)
+
+### Termini di gioco — 52 campi
+
+- [ ] `system/addon.json#3367:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Achievement → Obiettivo`
+  - Inglese: `Displays achievement certificate help text.`
+  - Italiano attuale: `Mostra guida sui certificati obiettivo.`
+  - **Azione:** M
+- [ ] `system/addon.json#3368:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Achievement → Obiettivo`
+  - Inglese: `Select reward items via completed achievements to accept them.Furthermore, each time you earn an achievement, you will gain achievement points. These points can be exchanged for achievement certificates by speaking with Jonathas in Old Gridania. Certificates can then be used to …`
+  - Italiano attuale: `Seleziona le ricompense tramite gli obiettivi completati per riscattarle.Inoltre, ogni volta che ottieni un obiettivo guadagnerai punti obiettivo. Questi punti possono essere scambiati per certificati obiettivo parlando con Jonathas a Vecchia Gridania. I certificati possono poi …`
+  - **Azione:** M
+- [ ] `system/addon.json#4640:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Achievement → Obiettivo`
+  - Inglese: `You do not possess any achievement items.`
+  - Italiano attuale: `Non possiedi oggetti legati agli obiettivi.`
+  - **Azione:** M
+- [ ] `system/addon.json#4668:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Achievement → Obiettivo`
+  - Inglese: `The armoire contains no achievement items.`
+  - Italiano attuale: `L'armadio non contiene oggetti obiettivo.`
+  - **Azione:** M
+- [ ] `system/addon.json#13745:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Achievement → Obiettivo`
+  - Inglese: `Obtained from after completing the “” achievement.`
+  - Italiano attuale: `Ottenuto da dopo aver completato l'achievement “”.`
+  - **Azione:** A
+- [ ] `system/addon.json#13746:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Achievement → Obiettivo`
+  - Inglese: `Obtained from after completing the “” achievement.`
+  - Italiano attuale: `Ottenuto da dopo aver completato l'achievement “”.`
+  - **Azione:** A
+- [ ] `system/addon.json#13751:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Achievement → Obiettivo`
+  - Inglese: `Obtained from after completing the “” achievement.Jonathas,`
+  - Italiano attuale: `Ottenuto da dopo aver completato l'achievement “”.Jonathas,`
+  - **Azione:** A
+- [ ] `system/addon.json#13770:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Achievement → Obiettivo`
+  - Inglese: `Obtained from the “” achievement.`
+  - Italiano attuale: `Ottenuto dall'achievement “”.`
+  - **Azione:** A
+- [ ] `system/addon.json#8456:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Aethernet → Eternet`
+  - Inglese: `Subdivisions have been added to all three residential districts. There are now double the amount of plots available for purchase. Travel to the subdivisions is possible via Aethernet shards.`
+  - Italiano attuale: `Sono state aggiunte suddivisioni a tutti e tre i distretti residenziali. Il numero di terreni disponibili per l'acquisto è ora raddoppiato. I viaggi verso le suddivisioni sono possibili tramite i frammenti dell'Eterete.`
+  - **Azione:** A
+- [ ] `system/addon.json#608:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Aetheryte → Eterite`
+  - Inglese: `Your home point is not set to an aetheryte in this area. If you return to your current home point at any time during the levequest, you will automatically abandon the duty. Proceed?`
+  - Italiano attuale: `Il tuo punto di ritorno non è impostato su un eterite di quest'area. Se torni al tuo attuale punto di ritorno durante l'incarico, abbandonerai automaticamente l'incarico. Procedere?`
+  - **Azione:** M
+- [ ] `system/addon.json#3217:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Aetheryte → Eterite`
+  - Inglese: `Teleport to for gil?※This fee is waived when using an aetheryte ticket.`
+  - Italiano attuale: `Teletrasportarsi a per gil?※La tariffa viene annullata usando un biglietto per l'eterite.`
+  - **Azione:** M
+- [ ] `system/addon.json#8501:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Aetheryte → Eterite`
+  - Inglese: `Aetheryte Tickets:`
+  - Italiano attuale: `Buoni Teletrasporto:`
+  - **Azione:** A
+- [ ] `system/addon.json#8522:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Aetheryte → Eterite`
+  - Inglese: `Aetheryte Ticket Usage`
+  - Italiano attuale: `Uso dei Buoni Teletrasporto`
+  - **Azione:** A
+- [ ] `system/lobby.json#95:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Aetheryte → Eterite`
+  - Inglese: `Logging in with .Your character is currently on a World Server different from your Home World. Visit an aetheryte in either Limsa Lominsa, Gridania, or Ul'dah to return.`
+  - Italiano attuale: `Accesso in corso con . Il tuo personaggio si trova su un Mondo diverso dal tuo Mondo d'Origine. Visita un'eterite a Limsa Lominsa, Gridania o Ul'dah per fare ritorno.`
+  - **Azione:** M
+- [ ] `system/maincommand.json#35:translation_description` — **MAIUSCOLE**
+  - Termini segnalati: `Aetheryte → Eterite`
+  - Inglese: `Instantly travel to any aetheryte to which you have previously attuned. A fee will be collected upon your arrival.`
+  - Italiano attuale: `Viaggia istantaneamente verso qualsiasi eterite con cui ti sei precedentemente sintonizzato, dietro pagamento di una tariffa in gil.`
+  - **Azione:** M
+- [ ] `system/maincommand.json#36:translation_description` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Aetheryte → Eterite`
+  - Inglese: `Instantly return to your current home point (or dungeon starting point). No aetheryte usage fee is required, but you can only use the spell once every 15 minutes (Earth time).`
+  - Italiano attuale: `Ritorna istantaneamente al punto di ritorno designato (o all'inizio della spedizione). Gratuito, utilizzabile una volta ogni 15 minuti.`
+  - **Azione:** M
+- [ ] `system/addon.json#11207:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Chocobo → Chocobo`
+  - Inglese: `CHOCOBO`
+  - Italiano attuale: `CHOCOBO`
+  - **Azione:** M
+- [ ] `system/lobby.json#2019:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Class → Classe`
+  - Inglese: `CLASS`
+  - Italiano attuale: `CLASSE`
+  - **Azione:** M
+- [ ] `system/addon.json#905:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `Not enlisted in a free company.`
+  - Italiano attuale: `Non iscritto a una compagnia libera.`
+  - **Azione:** M
+- [ ] `system/addon.json#2852:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `Discharge from the free company? private chambers will automatically be demolished and chocobo removed from the stables. Any retainer stationed on estate grounds by will, however, remain.`
+  - Italiano attuale: `Espellere dalla compagnia libera? Le stanze private di saranno automaticamente demolite e il chocobo di rimosso dalle stalle. I servitori posizionati nella proprietà da rimarranno tuttavia sul posto.`
+  - **Azione:** M
+- [ ] `system/addon.json#2853:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `Leave the free company? Your retainer will remain on estate grounds.`
+  - Italiano attuale: `Abbandonare la compagnia libera? Il tuo servitore rimarrà nella proprietà.`
+  - **Azione:** M
+- [ ] `system/addon.json#2862:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `Assign your free company a name.`
+  - Italiano attuale: `Assegna un nome alla tua compagnia libera.`
+  - **Azione:** M
+- [ ] `system/addon.json#2866:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `Sign 's free company petition?`
+  - Italiano attuale: `Firmare la petizione per la compagnia libera di ?`
+  - **Azione:** M
+- [ ] `system/addon.json#2867:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `Refuse to sign 's free company petition?`
+  - Italiano attuale: `Rifiutare di firmare la petizione per la compagnia libera di ?`
+  - **Azione:** M
+- [ ] `system/addon.json#2868:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `Unsign 's free company petition?`
+  - Italiano attuale: `Rimuovere la firma dalla petizione per la compagnia libera di ?`
+  - **Azione:** M
+- [ ] `system/addon.json#2869:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `Delete 's signature from the free company petition?`
+  - Italiano attuale: `Eliminare la firma di dalla petizione della compagnia libera?`
+  - **Azione:** M
+- [ ] `system/addon.json#2870:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `Request sign your petition to form a free company?`
+  - Italiano attuale: `Chiedere a di firmare la tua petizione per formare una compagnia libera?`
+  - **Azione:** M
+- [ ] `system/addon.json#2871:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `Pay the 15,000-gil fee and finalize free company formation?`
+  - Italiano attuale: `Pagare la quota di 15.000 gil e finalizzare la creazione della compagnia libera?`
+  - **Azione:** M
+- [ ] `system/addon.json#2872:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `Invite to your free company?`
+  - Italiano attuale: `Invitare nella tua compagnia libera?`
+  - **Azione:** M
+- [ ] `system/addon.json#2873:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `Accept 's free company invite?`
+  - Italiano attuale: `Accettare l'invito nella compagnia libera di ?`
+  - **Azione:** M
+- [ ] `system/addon.json#2874:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `Decline 's free company invite?`
+  - Italiano attuale: `Rifiutare l'invito nella compagnia libera di ?`
+  - **Azione:** M
+- [ ] `system/addon.json#2875:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `You have been released from the free company.`
+  - Italiano attuale: `Sei stato congedato dalla compagnia libera.`
+  - **Azione:** M
+- [ ] `system/addon.json#2910:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `Three signatures are required to form a free company. Signature requests can be sent in the same manner as party invites. Those who sign your petition will be your free company's first members. Remember, only someone who is not currently a member of another free company can sign…`
+  - Italiano attuale: `Sono richieste tre firme per formare una compagnia libera. Le richieste di firma possono essere inviate come gli inviti nel gruppo. Chi firma la tua petizione sarà tra i primi membri della tua compagnia libera. Ricorda che solo chi non fa attualmente parte di un'altra compagnia …`
+  - **Azione:** M
+- [ ] `system/addon.json#2912:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `By signing a free company petition, you will become one of its establishing members.`
+  - Italiano attuale: `Firmando una petizione per la compagnia libera, ne diventerai uno dei membri fondatori.`
+  - **Azione:** M
+- [ ] `system/addon.json#3478:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `This feature is only available to free company members.`
+  - Italiano attuale: `Questa funzione è disponibile solo per i membri di una compagnia libera.`
+  - **Azione:** M
+- [ ] `system/addon.json#3527:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `This feature is only available to free company members.`
+  - Italiano attuale: `Questa funzione è disponibile solo per i membri di una compagnia libera.`
+  - **Azione:** M
+- [ ] `system/addon.json#4836:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `This feature is only available to free company members.`
+  - Italiano attuale: `Questa funzione è disponibile solo per i membri di una compagnia libera.`
+  - **Azione:** M
+- [ ] `system/addon.json#6260:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `Allow the following privileges to non-free company members:`
+  - Italiano attuale: `Concedi i seguenti privilegi a giocatori esterni alla compagnia libera:`
+  - **Azione:** M
+- [ ] `system/addon.json#6425:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `Confirm the purchase of this free company plot?※The amount of your deposit will be applied in full to your purchase, and you will receive no refund.`
+  - Italiano attuale: `Confermare l'acquisto di questo terreno di compagnia libera?※L'importo del deposito verrà applicato interamente all'acquisto e non riceverai alcun rimborso.`
+  - **Azione:** M
+- [ ] `system/addon.json#6426:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `Confirm purchase and relocate to this free company plot?※In principle, approximately 15% of the value of your old plot will be refunded to you. Please note that the refunded amount may not exceed the value of this new plot.Expected refund: gil`
+  - Italiano attuale: `Confermare l'acquisto e trasferirsi in questo terreno di compagnia libera?※In linea generale, verrà rimborsato circa il 15% del valore del vecchio terreno. L'importo rimborsato non può superare il valore del nuovo terreno.Rimborso previsto: gil`
+  - **Azione:** M
+- [ ] `system/addon.json#6532:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `Free Company.`
+  - Italiano attuale: `Compagnia libera.`
+  - **Azione:** A
+- [ ] `system/addon.json#6536:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `Travel to ward with free company estate.`
+  - Italiano attuale: `Raggiungi il distretto con la proprietà di compagnia libera.`
+  - **Azione:** M
+- [ ] `system/addon.json#6715:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `Free Company Estate Relocation (Plot , Ward , ).`
+  - Italiano attuale: `Trasferimento proprietà della compagnia libera (Terreno , distretto , ).`
+  - **Azione:** A
+- [ ] `system/addon.json#8452:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `Private chambers can now be added to free company estates.`
+  - Italiano attuale: `È ora possibile aggiungere camere Private alle proprietà di compagnia libera.`
+  - **Azione:** M
+- [ ] `system/addon.json#8472:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `The following temporary restrictions havebeen placed on future land purchases:・All new land purchases are limited to free companies.・Players may only own one private and one free company estate per World per service account.・Free companies with less than four members cannot purc…`
+  - Italiano attuale: `Le seguenti restrizioni temporanee sono stateapplicate ai futuri acquisti di terreni:・Tutti i nuovi acquisti di terreni sono riservati alle compagnie libere.・I giocatori possono possedere solo una proprietà privata e una di compagnia libera per ciascun Mondo per account di servi…`
+  - **Azione:** M
+- [ ] `system/addon.json#8800:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `Preparing free company estate auto-demolition.`
+  - Italiano attuale: `Preparazione autodemolizione proprietà di compagnia libera.`
+  - **Azione:** M
+- [ ] `system/addon.json#102533:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `For free company or linkshell recruitment information. Find allies to join you on your adventure:`
+  - Italiano attuale: `Per informazioni sul reclutamento di compagnie libere o Fonoperle. Trova alleati con cui condividere la tua avventura:`
+  - **Azione:** M
+- [ ] `system/addon.json#102657:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `You have applied for membership with another free company.Withdraw that application and apply for membership with ?`
+  - Italiano attuale: `Hai già inviato una candidatura a un'altra compagnia libera.Ritirare quella candidatura e candidarsi invece per ?`
+  - **Azione:** M
+- [ ] `system/lobby.json#1155:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Free Company → Compagnia Libera`
+  - Inglese: `The Data Center Travel system allows your character to visit Worlds in other data centers, where you can create parties with friends, trade items, challenge duties, and more.※Certain features will be unavailable while visiting other data centers, including access to linkshell an…`
+  - Italiano attuale: `Il sistema di Viaggio tra Data Center consente al tuo personaggio di visitare i Mondi di altri Data Center, dove potrai formare gruppi con amici, scambiare oggetti, affrontare incarichi e altro ancora.※Alcune funzionalità non saranno disponibili durante la visita ad altri Data C…`
+  - **Azione:** M
+- [ ] `system/addon.json#205:translation` — **MAIUSCOLE**
+  - Termini segnalati: `Gil → Gil`
+  - Inglese: `gil`
+  - Italiano attuale: `gil`
+  - **Azione:** M
+- [ ] `system/addon.json#17038:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Grand Company → Grande Compagnia`
+  - Inglese: `Complete Grand Company supply and provisioning missions.`
+  - Italiano attuale: `Completa missioni di rifornimento e provviste della Gran Compagnia.`
+  - **Azione:** A
+- [ ] `system/addon.json#17039:translation` — **TRADUZIONE/CONTESTO**
+  - Termini segnalati: `Grand Company → Grande Compagnia`
+  - Inglese: `Unlocked upon joining any Grand Company.`
+  - Italiano attuale: `Si sblocca dopo essersi uniti a una Gran Compagnia.`
+  - **Azione:** A
+
+### Classi e mestieri — 3 campi
+
+- [ ] `system/lobby.json#1806:translation_description` — **MAIUSCOLE**
+  - Termini segnalati: `Black Mage → Mago Nero; Blue Mage → Mago Blu; Red Mage → Mago Rosso`
+  - Inglese: `Decimate your foes. Possessing great talent for the offensive, DPS is a role whose sole focus is to rout the enemy with a diverse array of punishing attacks. Begin your journey as a pugilist, lancer, archer, thaumaturge, or arcanist. From there, master the jobs of monk, dragoon,…`
+  - Italiano attuale: `Annienta i tuoi avversari. Dotati di un talento straordinario per l'offensiva, i DPS sono un ruolo il cui unico obiettivo è sbaragliare il nemico con una variegata sequenza di attacchi devastanti. Inizia la tua avventura come pugile, lanciere, arciere, taumaturgo o arcanista. Da…`
+  - **Azione:** M
+- [ ] `system/lobby.json#1804:translation_description` — **MAIUSCOLE**
+  - Termini segnalati: `Dark Knight → Cavaliere Oscuro`
+  - Inglese: `Stand as a bulwark in the face of danger. With superior defensive abilities, tanks protect their comrades by diverting enemy focus and bearing the brunt of battle. Begin your journey as a gladiator or marauder, and later master the jobs of paladin, warrior, dark knight, and gunb…`
+  - Italiano attuale: `Ergiti come un baluardo dinanzi al pericolo. Grazie a doti difensive superiori, i difensori proteggono i compagni distogliendo l'attenzione dei nemici e sopportando il peso dello scontro. Inizia la tua avventura come gladiatore o incursore, per poi padroneggiare i job di paladin…`
+  - **Azione:** M
+- [ ] `system/lobby.json#1805:translation_description` — **MAIUSCOLE**
+  - Termini segnalati: `White Mage → Mago Bianco`
+  - Inglese: `Provide succor to all in need. Though limited in their offensive abilities, healers replenish health and protect their comrades with myriad rejuvenating skills. Begin your journey as a conjurer, and later master the jobs of white mage, scholar, astrologian, and sage. ※Please not…`
+  - Italiano attuale: `Porta conforto e sollievo a chiunque ne abbia bisogno. Benché dotati di capacità offensive limitate, i curatori ristorano la salute e difendono i compagni con una miriade di abilità rigeneranti. Inizia la tua avventura come incantatore, per poi padroneggiare i job di mago bianco…`
+  - **Azione:** M
+

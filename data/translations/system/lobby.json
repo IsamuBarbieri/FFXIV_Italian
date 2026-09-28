@@ -69,7 +69,7 @@
   },
   "21": {
     "original": "Delete <hex:022903EA0203>?<hex:02100103>Please be aware that if you delete this character, you will lose all items, gil, and hired retainers in their possession.<hex:02100103>If this character is master of a free company for which there is no eligible successor, the free company will be automatically disbanded, causing company estates and all items within the company chest to be deleted as well.",
-    "translation": "Vuoi eliminare <string(lstr1)>?\r\nAttenzione: se elimini questo personaggio, perderai tutti i suoi oggetti, i gil e i servitori assunti.\r\nSe questo personaggio è maestro di una compagnia libera senza successori validi, la compagnia verrà automaticamente sciolta, causando l'eliminazione della tenuta e degli oggetti nel forziere."
+    "translation": "Vuoi eliminare <string(lstr1)>?\r\nAttenzione: se elimini questo personaggio, perderai tutti i suoi oggetti, i gil e i servitori assunti.\r\nSe questo personaggio è maestro di una compagnia libera senza successori validi, la compagnia verrà automaticamente sciolta, causando l'eliminazione della tenuta e degli oggetti nel forziere della compagnia."
   },
   "22": {
     "original": "I understand and wish to delete this character.",
@@ -325,7 +325,7 @@
   },
   "96": {
     "original": "Logging in with <hex:022903EA0203>.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Your character is currently in a data center different from your Home World's. To return, select “Return to Home World” from the character subcommand menu before logging in.<hex:0249020103><hex:0248020103>",
-    "translation": "Accesso in corso con <string(lstr1)>.\r\n\r\n<hex:024804F201FA03><hex:024904F201FB03>Il tuo personaggio si trova in un Data Center diverso dal tuo Mondo d'Origine. Seleziona \"Torna al Mondo d'Origine\" dal sottomenu prima di accedere.<hex:0249020103><hex:0248020103>"
+    "translation": "Accesso in corso con <string(lstr1)>.\r\n\r\n<hex:024804F201FA03><hex:024904F201FB03>Il tuo personaggio si trova in un data center diverso dal tuo Mondo d'Origine. Seleziona \"Torna al Mondo d'Origine\" dal sottomenu prima di accedere.<hex:0249020103><hex:0248020103>"
   },
   "99": {
     "original": "<hex:02100103><hex:02100103>Starting Attributes: STR <hex:022003E80203>/DEX <hex:022003E80403>/VIT <hex:022003E80303>/INT <hex:022003E80503>/MND <hex:022003E80603>",
@@ -601,7 +601,7 @@
     "name": "Lancer",
     "translation_name": "Lanciere",
     "description": "The strategy of the lancers is to outrange and fluster opponents\nwith their long, two-handed polearms, peppering them with a barrage\nof thrusting attacks. They are trained with a number of weapons,\ngiving a diversity to their attacks that makes them extremely\nversatile combatants.\n\nIn former times, the longspear saw the most widespread use,\ndue in great part to the influence of the proud lancer legions of\nAla Mhigo. Since then, the guild has greatly expanded its armories\nto include a variety of weaponry, such as the halberd and the trident.\n\nCorresponding Job: Dragoon",
-    "translation_description": "I Lancieri eccellono nell'arte dell'asta, impugnando lance, picche e alabarde con maestria impareggiabile.\nSfruttando la portata delle proprie armi, mantengono i nemici a distanza di sicurezza per poi sferrare\nstoccate fulminee e letali fendenti circolari. Il continuo studio dell'equilibrio e del posizionamento\nconsente loro di colpire con precisione chirurgica i punti deboli delle difese avversarie,\npreparandosi a spiccare balzi poderosi.\n\nJob Corrispondente: Dragoon"
+    "translation_description": "I Lancieri eccellono nell'arte dell'asta, impugnando lance, picche e alabarde con maestria impareggiabile.\nSfruttando la portata delle proprie armi, mantengono i nemici a distanza di sicurezza per poi sferrare\nstoccate fulminee e letali fendenti circolari. Il continuo studio dell'equilibrio e del posizionamento\nconsente loro di colpire con precisione chirurgica i punti deboli delle difese avversarie,\npreparandosi a spiccare balzi poderosi.\n\nIn passato, la lancia lunga era l'arma più diffusa, anche grazie all'influenza delle fiere legioni di lancieri di Ala Mhigo. Da allora, la gilda ha ampliato notevolmente il proprio arsenale, includendo armi come alabarde e tridenti.\n\nJob Corrispondente: Dragone"
   },
   "186": {
     "name": "Archer",
@@ -1733,7 +1733,7 @@
   },
   "650": {
     "original": "Disconnect from the <hex:022903EA0203> data center and connect to the <hex:022903EA0303> data center?",
-    "translation": "Vuoi disconnetterti dal Data Center <string(lstr1)> e connetterti al Data Center <hex:022903EA0303>?"
+    "translation": "Vuoi disconnetterti dal data center <string(lstr1)> e connetterti al data center <hex:022903EA0303>?"
   },
   "651": {
     "original": "Saved data pertaining to HUD/window layout and size settings, including certain window-specific settings.",
@@ -1757,7 +1757,7 @@
   },
   "656": {
     "original": "Saved data pertaining to action change settings, favorites settings for the mount guide and other lists, as well as portrait settings, etc.",
-    "translation": "Dati salvati relativi alle impostazioni di cambio azione, ai preferiti per la guida alle cavalcature e altri elenchi, nonché alle impostazioni dei ritratti, ecc."
+    "translation": "Dati salvati relativi alle impostazioni di cambio azione, alle impostazioni dei preferiti per la guida cavalcature e per altri elenchi, nonché alle impostazioni dei ritratti, ecc."
   },
   "660": {
     "original": "\uE051Select Individually \uE052Select All",
@@ -1905,11 +1905,11 @@
   },
   "806": {
     "original": "FINAL FANTASY XIV requires connecting to one of several data centers to play. The closer your physical location to the data center, the smoother gameplay will be.<hex:02100103><hex:02100103><hex:0208F202A7E1E80201FFF202165468652063656E74657220796F7520686176652073656C6563746564206973207265636F6D6D656E64656420666F72207265736964656E7473206F662002093DE802FF064A6170616EFF0E4E6F72746820416D6572696361FF074575726F7065FF084F6365616E6961FF01FF01FF0E4E6F72746820416D6572696361032E2053656C65637420696620796F75207769736820746F2063726561746520612063686172616374657220616E6420706C617920696E206F6E65206F662074686520576F726C6473206C69737465642E0210010302088BE4E80208FF83024804F2023703024904F20238035468697320646174612063656E74657220697320666F7220636C6F7564207374726573732074657374696E67206F6E6C792E204E6F20636F6E6E656374696F6E732063616E206265206D616465206F75747369646520746865207465737420706572696F642E0249020103024802010302100103FF0103021001034561636820646174612063656E74657220636F6E7461696E73207365766572616C20756E6971756520576F726C6473202873657276657273292E20496620796F75206861766520616C7265616479206465636964656420776869636820576F726C64206F6E20776869636820796F752061726520676F696E6720746F20706C61792C20796F752073686F756C642073656C6563742074686520636F72726573706F6E64696E6720646174612063656E7465722EFF8846697273742063686F6F736520796F757220726567696F6E2C20616E64207468656E2073656C65637420796F757220646174612063656E7465722E20416C6C20646174612063656E746572732077697468696E207468652073616D6520726567696F6E206F66666572207468652073616D65207175616C697479206F662067616D65706C61792E03>",
-    "translation": "FINAL FANTASY XIV richiede la connessione a uno dei Data Center per giocare. Più la tua posizione geografica è vicina al Data Center, migliore sarà l'esperienza di gioco."
+    "translation": "FINAL FANTASY XIV richiede la connessione a uno dei data center per giocare. Più la tua posizione geografica è vicina al data center, migliore sarà l'esperienza di gioco."
   },
   "808": {
     "original": "Connecting to the <hex:022903EA0203> data center.",
-    "translation": "Connessione al Data Center <string(lstr1)> in corso."
+    "translation": "Connessione al data center <string(lstr1)> in corso."
   },
   "809": {
     "original": "Acquiring character list.",
@@ -2017,7 +2017,7 @@
   },
   "852": {
     "original": "Save a backup of local character settings, HUD layout, hotbars, gear sets, and more to the server.<hex:02100103>※Item sort settings and inventory location data will not be saved.<hex:020847E4E94F64FF3F02100103E280BB4F6E6C79204855442073697A6520616E64206C61796F75742077696C6C20626520736176656420666F722072656D6F746520706C61792EFF0103>",
-    "translation": "Salva sul server un backup delle impostazioni locali del personaggio, layout HUD, hotbar, completi e altro.<hex:02100103>※Impostazioni di ordinamento oggetti e posizione dell'inventario non verranno salvate.<hex:020847E4E94F64FF3F02100103E280BB4F6E6C79204855442073697A6520616E64206C61796F75742077696C6C20626520736176656420666F722072656D6F746520706C61792EFF0103>"
+    "translation": "Salva sul server un backup delle impostazioni locali del personaggio, della disposizione HUD, delle barre azioni, dei completi e altro.<hex:02100103>※Le impostazioni di ordinamento degli oggetti e la posizione nell'inventario non verranno salvate.<hex:020847E4E94F64FF3F02100103E280BB4F6E6C79204855442073697A6520616E64206C61796F75742077696C6C20626520736176656420666F722072656D6F746520706C61792EFF0103>"
   },
   "855": {
     "original": "This feature is unavailable on the free trial.",
@@ -2197,7 +2197,7 @@
   },
   "902": {
     "original": "Saves <hex:022F08FF06024202160303> and mouse settings.<hex:02100103>※Input device information will not be saved.",
-    "translation": "Salva le impostazioni di <hex:022F08FF06024202160303> e mouse.<hex:02100103>※Le informazioni sui dispositivi di Input non verranno salvate."
+    "translation": "Salva le impostazioni di <hex:022F08FF06024202160303> e del mouse.<hex:02100103>※Le informazioni sui dispositivi di Input non verranno salvate."
   },
   "903": {
     "original": "Saves your preferred color scheme.",
@@ -2221,7 +2221,7 @@
   },
   "921": {
     "original": "Saves HUD layout and size settings.",
-    "translation": "Salva le impostazioni di layout e dimensioni dell'HUD."
+    "translation": "Salva le impostazioni di disposizione e dimensione dell'HUD."
   },
   "922": {
     "original": "Saves hotbar/cross hotbar settings for all classes and jobs.",
@@ -2249,7 +2249,7 @@
   },
   "928": {
     "original": "Saves friend list group names and contact list.",
-    "translation": "Salva i nomi dei gruppi dell'elenco amici e l'elenco dei contatti."
+    "translation": "Salva i nomi dei gruppi della lista amici e l'elenco dei contatti."
   },
   "940": {
     "original": "Restore",
@@ -2417,7 +2417,7 @@
   },
   "995": {
     "original": "Select the character you wish to copy HUD layout, hotbar configuration, and other settings from.<hex:02100103>※Up to 8 recently logged-in characters will be displayed.",
-    "translation": "Seleziona il personaggio da cui desideri copiare layout HUD, configurazione hotbar e altre impostazioni.<hex:02100103>※Verranno visualizzati fino a 8 personaggi con accesso recente."
+    "translation": "Seleziona il personaggio da cui desideri copiare la disposizione HUD, la configurazione della barra azioni e le altre impostazioni.<hex:02100103>※Verranno visualizzati fino a 8 personaggi con accesso recente."
   },
   "996": {
     "original": "Searching for other character data...",
@@ -2701,7 +2701,7 @@
   },
   "1107": {
     "original": "Unable to submit World Visit request at this time.",
-    "translation": "Impossibile inviare la richiesta di World Visit in questo momento."
+    "translation": "Impossibile inviare la richiesta di Visita Mondo in questo momento."
   },
   "1108": {
     "original": "Unable to visit other Worlds at this time. Please wait before attempting another transfer.",
@@ -2721,7 +2721,7 @@
   },
   "1112": {
     "original": "Character has not completed the game's opening event. Unable to submit World Visit request.",
-    "translation": "Il personaggio non ha completato l'evento introduttivo del gioco. Impossibile inviare la richiesta di World Visit."
+    "translation": "Il personaggio non ha completato l'evento introduttivo del gioco. Impossibile inviare la richiesta di Visita Mondo."
   },
   "1113": {
     "original": "Character is currently imprisoned in the Mordion Gaol. <hex:020828E1E80201FF1552657475726E20746F20486F6D6520576F726C64FF0C576F726C6420566973697403> request denied.",
@@ -2729,11 +2729,11 @@
   },
   "1114": {
     "original": "World Visit system is temporarily unavailable.",
-    "translation": "Il sistema World Visit è temporaneamente non disponibile."
+    "translation": "La funzione Visita Mondo è temporaneamente non disponibile."
   },
   "1115": {
     "original": "World Visit transfer failed. Please wait before submitting another transfer request via the subcommand.",
-    "translation": "Trasferimento World Visit non riuscito. Attendi prima di inviare un'altra richiesta di trasferimento tramite il comando secondario."
+    "translation": "Trasferimento tramite Visita Mondo non riuscito. Attendi prima di inviare una nuova richiesta tramite il comando secondario."
   },
   "1116": {
     "original": "World Visit transfer successful. Login to <hex:022903EA0203> now available.",
@@ -2793,11 +2793,11 @@
   },
   "1162": {
     "original": "Select the data center and World you wish to visit.<hex:02100103>Estimated Travel Time: <hex:0208F0E6E3E8023DFF134C657373207468616E2031206D696E757465FFCD0208C9E3E80279FF144C657373207468616E2032206D696E75746573FFAE0208AAE3E802B5FF144C657373207468616E2033206D696E75746573FF8F02088BE3E802F2012CFF144C657373207468616E2035206D696E75746573FF6E02086AE3E802F20258FF154C657373207468616E203130206D696E75746573FF4C020848E3E802F204B0FF154C657373207468616E203230206D696E75746573FF2A556E6B6E6F776E2E2053657276657273206172652063757272656E746C7920636F6E6765737465642E03><hex:0303030303>",
-    "translation": "Seleziona il Data Center e il Mondo che desideri visitare.<hex:02100103>Tempo di viaggio stimato: <hex:0208F0E6E3E8023DFF134C657373207468616E2031206D696E757465FFCD0208C9E3E80279FF144C657373207468616E2032206D696E75746573FFAE0208AAE3E802B5FF144C657373207468616E2033206D696E75746573FF8F02088BE3E802F2012CFF144C657373207468616E2035206D696E75746573FF6E02086AE3E802F20258FF154C657373207468616E203130206D696E75746573FF4C020848E3E802F204B0FF154C657373207468616E203230206D696E75746573FF2A556E6B6E6F776E2E2053657276657273206172652063757272656E746C7920636F6E6765737465642E03><hex:03><hex:03><hex:03><hex:03><hex:03>"
+    "translation": "Seleziona il data center e il Mondo che desideri visitare.<hex:02100103>Tempo di viaggio stimato: <hex:0208F0E6E3E8023DFF134C657373207468616E2031206D696E757465FFCD0208C9E3E80279FF144C657373207468616E2032206D696E75746573FFAE0208AAE3E802B5FF144C657373207468616E2033206D696E75746573FF8F02088BE3E802F2012CFF144C657373207468616E2035206D696E75746573FF6E02086AE3E802F20258FF154C657373207468616E203130206D696E75746573FF4C020848E3E802F204B0FF154C657373207468616E203230206D696E75746573FF2A556E6B6E6F776E2E2053657276657273206172652063757272656E746C7920636F6E6765737465642E03><hex:03><hex:03><hex:03><hex:03><hex:03>"
   },
   "1163": {
     "original": "Returning to Home Data Center and Home World.<hex:02100103>Estimated Travel Time: <hex:0208F0E6E3E8023DFF134C657373207468616E2031206D696E757465FFCD0208C9E3E80279FF144C657373207468616E2032206D696E75746573FFAE0208AAE3E802B5FF144C657373207468616E2033206D696E75746573FF8F02088BE3E802F2012CFF144C657373207468616E2035206D696E75746573FF6E02086AE3E802F20258FF154C657373207468616E203130206D696E75746573FF4C020848E3E802F204B0FF154C657373207468616E203230206D696E75746573FF2A556E6B6E6F776E2E2053657276657273206172652063757272656E746C7920636F6E6765737465642E03><hex:0303030303>",
-    "translation": "Ritorno al Data Center di origine e al Mondo d'origine.<hex:02100103>Tempo di viaggio stimato: <hex:0208F0E6E3E8023DFF134C657373207468616E2031206D696E757465FFCD0208C9E3E80279FF144C657373207468616E2032206D696E75746573FFAE0208AAE3E802B5FF144C657373207468616E2033206D696E75746573FF8F02088BE3E802F2012CFF144C657373207468616E2035206D696E75746573FF6E02086AE3E802F20258FF154C657373207468616E203130206D696E75746573FF4C020848E3E802F204B0FF154C657373207468616E203230206D696E75746573FF2A556E6B6E6F776E2E2053657276657273206172652063757272656E746C7920636F6E6765737465642E03><hex:03><hex:03><hex:03><hex:03><hex:03>"
+    "translation": "Ritorno al Data Center di origine e al Mondo d'Origine.<hex:02100103>Tempo di viaggio stimato: <hex:0208F0E6E3E8023DFF134C657373207468616E2031206D696E757465FFCD0208C9E3E80279FF144C657373207468616E2032206D696E75746573FFAE0208AAE3E802B5FF144C657373207468616E2033206D696E75746573FF8F02088BE3E802F2012CFF144C657373207468616E2035206D696E75746573FF6E02086AE3E802F20258FF154C657373207468616E203130206D696E75746573FF4C020848E3E802F204B0FF154C657373207468616E203230206D696E75746573FF2A556E6B6E6F776E2E2053657276657273206172652063757272656E746C7920636F6E6765737465642E03><hex:03><hex:03><hex:03><hex:03><hex:03>"
   },
   "1164": {
     "original": "DATA CENTER",
@@ -2825,7 +2825,7 @@
   },
   "1170": {
     "original": "<hex:022903EA0203><hex:0212025903><hex:022903EA0303> will now be transported to <hex:022903EA0503> in the <hex:022903EA0403> data center.<hex:02100103>Estimated Travel Time: <hex:0208F0E6E3E8023DFF134C657373207468616E2031206D696E757465FFCD0208C9E3E80279FF144C657373207468616E2032206D696E75746573FFAE0208AAE3E802B5FF144C657373207468616E2033206D696E75746573FF8F02088BE3E802F2012CFF144C657373207468616E2035206D696E75746573FF6E02086AE3E802F20258FF154C657373207468616E203130206D696E75746573FF4C020848E3E802F204B0FF154C657373207468616E203230206D696E75746573FF2A556E6B6E6F776E2E2053657276657273206172652063757272656E746C7920636F6E6765737465642E03><hex:0303030303><hex:02100103><hex:02100103><hex:024804F2023703><hex:024904F2023803>Please note the following:<hex:02100103>\u30fbThis process may take several minutes to complete.<hex:02100103>\u30fbYou will be unable to cancel this process while it is underway.<hex:02100103>\u30fbYou will be unable to log in with a different character until this process has been completed.<hex:02100103><hex:02100103>\u203bTravel times may take longer during periods of server congestion.<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:022903EA0203><hex:0212025903><hex:022903EA0303> verr\u00e0 ora trasferito su <hex:022903EA0503> nel Data Center <hex:022903EA0403>.<hex:02100103>Tempo di viaggio stimato: <hex:0208F0E6E3E8023DFF134C657373207468616E2031206D696E757465FFCD0208C9E3E80279FF144C657373207468616E2032206D696E75746573FFAE0208AAE3E802B5FF144C657373207468616E2033206D696E75746573FF8F02088BE3E802F2012CFF144C657373207468616E2035206D696E75746573FF6E02086AE3E802F20258FF154C657373207468616E203130206D696E75746573FF4C020848E3E802F204B0FF154C657373207468616E203230206D696E75746573FF2A556E6B6E6F776E2E2053657276657273206172652063757272656E746C7920636F6E6765737465642E03><hex:03><hex:03><hex:03><hex:03><hex:03><hex:02100103><hex:02100103><hex:024804F2023703><hex:024904F2023803>Nota quanto segue:<hex:02100103>\u30fbQuesto processo potrebbe richiedere diversi minuti.<hex:02100103>\u30fbNon sar\u00e0 possibile annullare il processo durante l'esecuzione.<hex:02100103>\u30fbNon sar\u00e0 possibile accedere con un personaggio diverso fino al termine del processo.<hex:02100103><hex:02100103>\u203bI tempi di viaggio potrebbero essere pi\u00f9 lunghi durante periodi di congestione dei server.<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:022903EA0203><hex:0212025903><hex:022903EA0303> verrà ora trasferito su <hex:022903EA0503> nel data center <hex:022903EA0403>.<hex:02100103>Tempo di viaggio stimato: <hex:0208F0E6E3E8023DFF134C657373207468616E2031206D696E757465FFCD0208C9E3E80279FF144C657373207468616E2032206D696E75746573FFAE0208AAE3E802B5FF144C657373207468616E2033206D696E75746573FF8F02088BE3E802F2012CFF144C657373207468616E2035206D696E75746573FF6E02086AE3E802F20258FF154C657373207468616E203130206D696E75746573FF4C020848E3E802F204B0FF154C657373207468616E203230206D696E75746573FF2A556E6B6E6F776E2E2053657276657273206172652063757272656E746C7920636F6E6765737465642E03><hex:03><hex:03><hex:03><hex:03><hex:03><hex:02100103><hex:02100103><hex:024804F2023703><hex:024904F2023803>Nota quanto segue:<hex:02100103>・Questo processo potrebbe richiedere diversi minuti.<hex:02100103>・Non sarà possibile annullare il processo durante l'esecuzione.<hex:02100103>・Non sarà possibile accedere con un personaggio diverso fino al termine del processo.<hex:02100103><hex:02100103>※I tempi di viaggio potrebbero essere più lunghi durante periodi di congestione dei server.<hex:0249020103><hex:0248020103>"
   },
   "1171": {
     "original": "Proceed",
@@ -2841,19 +2841,19 @@
   },
   "1174": {
     "original": "<hex:022903EA0203><hex:0212025903><hex:022903EA0303> has arrived safely on <hex:022903EA0503> in the <hex:022903EA0403> data center!",
-    "translation": "<hex:022903EA0203><hex:0212025903><hex:022903EA0303> è arrivato sano e salvo su <hex:022903EA0503> nel Data Center <hex:022903EA0403>!"
+    "translation": "<hex:022903EA0203><hex:0212025903><hex:022903EA0303> è arrivato sano e salvo su <hex:022903EA0503> nel data center <hex:022903EA0403>!"
   },
   "1175": {
     "original": "This character is currently visiting the <hex:022903EA0203> data center.",
-    "translation": "Questo personaggio sta attualmente visitando il Data Center <hex:022903EA0203>."
+    "translation": "Questo personaggio sta attualmente visitando il data center <hex:022903EA0203>."
   },
   "1176": {
     "original": "A name change is required to log in with this character. Please return to your Home World to change your name.",
-    "translation": "È richiesto un cambio di nome per accedere con questo personaggio. Ritorna al tuo Mondo d'origine per modificare il nome."
+    "translation": "È richiesto un cambio di nome per accedere con questo personaggio. Ritorna al tuo Mondo d'Origine per modificare il nome."
   },
   "1177": {
     "original": "A name change for your retainer is required to log in with this character. Please return to your Home World to change your retainer's name.",
-    "translation": "È richiesto un cambio di nome per il servitore per accedere con questo personaggio. Ritorna al tuo Mondo d'origine per modificare il nome del servitore."
+    "translation": "È richiesto un cambio di nome per il servitore per accedere con questo personaggio. Ritorna al tuo Mondo d'Origine per modificare il nome del servitore."
   },
   "1178": {
     "original": "You may perform any necessary name changes by returning to your Home World.<hex:02100103>After changing names, logging in will place your character at the aetheryte of your starting nation.",
@@ -2865,15 +2865,15 @@
   },
   "1180": {
     "original": "Unable to submit Return to Home World request at this time.",
-    "translation": "Impossibile inviare la richiesta di Ritorno al Mondo d'origine in questo momento."
+    "translation": "Impossibile inviare la richiesta di Ritorno al Mondo d'Origine in questo momento."
   },
   "1181": {
     "original": "Unable to return to Home World at this time. Please wait before attempting to return again.",
-    "translation": "Impossibile ritornare al Mondo d'origine in questo momento. Attendi prima di riprovare."
+    "translation": "Impossibile ritornare al Mondo d'Origine in questo momento. Attendi prima di riprovare."
   },
   "1182": {
     "original": "Return to Home World failed. Please wait before submitting another Return to Home World request via the subcommand.",
-    "translation": "Ritorno al Mondo d'origine non riuscito. Attendi prima di inviare un'altra richiesta tramite il comando secondario."
+    "translation": "Ritorno al Mondo d'Origine non riuscito. Attendi prima di inviare un'altra richiesta tramite il comando secondario."
   },
   "1183": {
     "original": "Successfully returned to Home World.",
@@ -2881,11 +2881,11 @@
   },
   "1184": {
     "original": "A name change is required to log in with this character. Please return to your Home World to change your name.",
-    "translation": "È richiesto un cambio di nome per accedere con questo personaggio. Ritorna al tuo Mondo d'origine per modificare il nome."
+    "translation": "È richiesto un cambio di nome per accedere con questo personaggio. Ritorna al tuo Mondo d'Origine per modificare il nome."
   },
   "1185": {
     "original": "A name change for your retainer is required to log in with this character. Please return to your Home World to change your retainer's name.",
-    "translation": "È richiesto un cambio di nome per il servitore per accedere con questo personaggio. Ritorna al tuo Mondo d'origine per modificare il nome del servitore."
+    "translation": "È richiesto un cambio di nome per il servitore per accedere con questo personaggio. Ritorna al tuo Mondo d'Origine per modificare il nome del servitore."
   },
   "1186": {
     "original": "Proceed",
@@ -2909,7 +2909,7 @@
   },
   "1191": {
     "original": "<hex:022903EA0203><hex:0212025903><hex:022903EA0303> will now be returned to Home World <hex:022903EA0503> in the <hex:022903EA0403> data center.<hex:02100103>Estimated Travel Time: <hex:0208F0E6E3E8023DFF134C657373207468616E2031206D696E757465FFCD0208C9E3E80279FF144C657373207468616E2032206D696E75746573FFAE0208AAE3E802B5FF144C657373207468616E2033206D696E75746573FF8F02088BE3E802F2012CFF144C657373207468616E2035206D696E75746573FF6E02086AE3E802F20258FF154C657373207468616E203130206D696E75746573FF4C020848E3E802F204B0FF154C657373207468616E203230206D696E75746573FF2A556E6B6E6F776E2E2053657276657273206172652063757272656E746C7920636F6E6765737465642E03><hex:0303030303><hex:02100103><hex:02100103><hex:024804F2023703><hex:024904F2023803>Please note the following:<hex:02100103>\u30fbThis process may take several minutes to complete.<hex:02100103>\u30fbYou will be unable to cancel this process while it is underway.<hex:02100103>\u30fbYou will be unable to log in with a different character until this process has been completed.<hex:0249020103><hex:0248020103>",
-    "translation": "<hex:022903EA0203><hex:0212025903><hex:022903EA0303> torner\u00e0 ora al Mondo d'origine <hex:022903EA0503> nel Data Center <hex:022903EA0403>.<hex:02100103>Tempo di viaggio stimato: <hex:0208F0E6E3E8023DFF134C657373207468616E2031206D696E757465FFCD0208C9E3E80279FF144C657373207468616E2032206D696E75746573FFAE0208AAE3E802B5FF144C657373207468616E2033206D696E75746573FF8F02088BE3E802F2012CFF144C657373207468616E2035206D696E75746573FF6E02086AE3E802F20258FF154C657373207468616E203130206D696E75746573FF4C020848E3E802F204B0FF154C657373207468616E203230206D696E75746573FF2A556E6B6E6F776E2E2053657276657273206172652063757272656E746C7920636F6E6765737465642E03><hex:03><hex:03><hex:03><hex:03><hex:03><hex:02100103><hex:02100103><hex:024804F2023703><hex:024904F2023803>Nota quanto segue:<hex:02100103>\u30fbQuesto processo potrebbe richiedere diversi minuti.<hex:02100103>\u30fbNon sar\u00e0 possibile annullare il processo durante l'esecuzione.<hex:02100103>\u30fbNon sar\u00e0 possibile accedere con un personaggio diverso fino al termine del processo.<hex:0249020103><hex:0248020103>"
+    "translation": "<hex:022903EA0203><hex:0212025903><hex:022903EA0303> tornerà ora al Mondo d'Origine <hex:022903EA0503> nel data center <hex:022903EA0403>.<hex:02100103>Tempo di viaggio stimato: <hex:0208F0E6E3E8023DFF134C657373207468616E2031206D696E757465FFCD0208C9E3E80279FF144C657373207468616E2032206D696E75746573FFAE0208AAE3E802B5FF144C657373207468616E2033206D696E75746573FF8F02088BE3E802F2012CFF144C657373207468616E2035206D696E75746573FF6E02086AE3E802F20258FF154C657373207468616E203130206D696E75746573FF4C020848E3E802F204B0FF154C657373207468616E203230206D696E75746573FF2A556E6B6E6F776E2E2053657276657273206172652063757272656E746C7920636F6E6765737465642E03><hex:03><hex:03><hex:03><hex:03><hex:03><hex:02100103><hex:02100103><hex:024804F2023703><hex:024904F2023803>Nota quanto segue:<hex:02100103>・Questo processo potrebbe richiedere diversi minuti.<hex:02100103>・Non sarà possibile annullare il processo durante l'esecuzione.<hex:02100103>・Non sarà possibile accedere con un personaggio diverso fino al termine del processo.<hex:0249020103><hex:0248020103>"
   },
   "1192": {
     "original": "While visiting other data centers, the display of character information will be simplified.",
@@ -2925,7 +2925,7 @@
   },
   "1201": {
     "original": "Unable to visit another data center. There are currently no other data centers within your selected region.",
-    "translation": "Impossibile visitare un altro Data Center. Al momento non ci sono altri Data Center nella regione selezionata."
+    "translation": "Impossibile visitare un altro data center. Al momento non ci sono altri data center nella regione selezionata."
   },
   "1202": {
     "original": "Unable to <hex:020836E1E80201FF1572657475726E20746F20486F6D6520576F726C64FF1A766973697420616E6F7468657220646174612063656E74657203> at this time. Please wait before attempting again.",
@@ -2949,7 +2949,7 @@
   },
   "1207": {
     "original": "Your character must be on their Home World to submit a Data Center Visit request.",
-    "translation": "Il tuo personaggio deve trovarsi nel proprio Mondo d'origine per inviare una richiesta di Viaggio tra Data Center."
+    "translation": "Il tuo personaggio deve trovarsi nel proprio Mondo d'Origine per inviare una richiesta di Viaggio tra Data Center."
   },
   "1208": {
     "original": "Unable to <hex:020836E1E80301FF1572657475726E20746F20486F6D6520576F726C64FF1A766973697420616E6F7468657220646174612063656E74657203>. Please wait before submitting another request via the subcommand menu. <hex:020815E1E80201FF0D021001035B022003E802035DFF0103>",
@@ -2977,15 +2977,15 @@
   },
   "1214": {
     "original": "The World you have selected for your Return to Home World request is not this character's Home World.",
-    "translation": "Il Mondo selezionato per la richiesta di Ritorno al Mondo d'origine non corrisponde al Mondo d'origine di questo personaggio."
+    "translation": "Il Mondo selezionato per la richiesta di Ritorno al Mondo d'Origine non corrisponde al Mondo d'Origine di questo personaggio."
   },
   "1215": {
     "original": "<hex:022903EA0203> belongs to your current data center. Please use the World Visit system to travel there.",
-    "translation": "<hex:022903EA0203> appartiene al tuo Data Center attuale. Usa il sistema World Visit per viaggiare lì."
+    "translation": "<hex:022903EA0203> appartiene al tuo data center attuale. Usa la funzione Visita Mondo per raggiungerlo."
   },
   "1216": {
     "original": "Unable to visit <hex:022903EA0203>. This World belongs to a data center outside of your region.",
-    "translation": "Impossibile visitare <hex:022903EA0203>. Questo Mondo appartiene a un Data Center al di fuori della tua regione."
+    "translation": "Impossibile visitare <hex:022903EA0203>. Questo Mondo appartiene a un data center al di fuori della tua regione."
   },
   "1217": {
     "original": "You are currently on <hex:022903EA0203>. Canceling Data Center Visit request.",
@@ -3049,11 +3049,11 @@
   },
   "1232": {
     "original": "To visit other Worlds with this character, you must first return to your Home World and change your character's name.",
-    "translation": "Per visitare altri Mondi con questo personaggio, devi prima tornare al tuo Mondo d'origine e cambiarne il nome."
+    "translation": "Per visitare altri Mondi con questo personaggio, devi prima tornare al tuo Mondo d'Origine e cambiarne il nome."
   },
   "1233": {
     "original": "To visit other Worlds with this character, you must first return to your Home World and change your retainer's name.",
-    "translation": "Per visitare altri Mondi con questo personaggio, devi prima tornare al tuo Mondo d'origine e cambiare il nome del servitore."
+    "translation": "Per visitare altri Mondi con questo personaggio, devi prima tornare al tuo Mondo d'Origine e cambiare il nome del servitore."
   },
   "1234": {
     "original": "Your request for data center travel could not be processed, as you have never connected to Worlds in the selected region.<hex:02100103>From the Data Center Selection screen, please select any World in your desired region and proceed to the Character Selection screen. After doing so, you will be able to use the Data Center Travel system in that region.",
@@ -3073,7 +3073,7 @@
   },
   "1238": {
     "original": "<hex:024804F201FA03><hex:024904F201FB03>This World is experiencing congestion. Visiting characters cannot log in at this time, and you will be unable to return to your duty in progress.<hex:0249020103><hex:0248020103><hex:02100103>By abandoning the duty, you may return to your Home World.<hex:02100103>Abandon duty?",
-    "translation": "<hex:024804F201FA03><hex:024904F201FB03>Questo Mondo è attualmente congestionato. I personaggi in visita non possono accedere in questo momento e non potrai rientrare nell'incarico in corso.<hex:0249020103><hex:0248020103><hex:02100103>Abbandonando l'incarico, potrai tornare al tuo Mondo d'origine.<hex:02100103>Abbandonare l'incarico?"
+    "translation": "<hex:024804F201FA03><hex:024904F201FB03>Questo Mondo è attualmente congestionato. I personaggi in visita non possono accedere in questo momento e non potrai rientrare nell'incarico in corso.<hex:0249020103><hex:0248020103><hex:02100103>Abbandonando l'incarico, potrai tornare al tuo Mondo d'Origine.<hex:02100103>Abbandonare l'incarico?"
   },
   "1239": {
     "original": "Preparing to abandon duty.<hex:02100103>Please wait for the request to be processed.",
@@ -3093,7 +3093,7 @@
   },
   "1243": {
     "original": "Your account data must be updated before traveling to Worlds in <hex:022903EA0303>.<hex:02100103>After returning to the title screen, please select <hex:022903EA0303> from the Data Center menu option and access the Character Selection screen. This will allow you to use the data center travel system to visit Worlds within this regional data center.",
-    "translation": "I dati del tuo account devono essere aggiornati prima di viaggiare verso Mondi in <hex:022903EA0303>.<hex:02100103>Dopo essere tornato alla schermata del titolo, seleziona <hex:022903EA0303> dall'opzione di menu Data Center e accedi alla schermata di selezione personaggio. Questo ti consentirà di utilizzare il sistema di viaggio tra Data Center per visitare i Mondi in questo Data Center regionale."
+    "translation": "I dati del tuo account devono essere aggiornati prima di viaggiare verso Mondi in <hex:022903EA0303>.<hex:02100103>Dopo essere tornato alla schermata del titolo, seleziona <hex:022903EA0303> dall'opzione di menu Data Center e accedi alla schermata di selezione personaggio. Questo ti consentirà di utilizzare il sistema di viaggio tra data center per visitare i Mondi in questo data center regionale."
   },
   "1250": {
     "original": "Please note that Worlds on the Cloud Data Center will be shut down once the Cloud Data Center stress test has concluded. All character and retainer data on these Worlds will be deleted.",

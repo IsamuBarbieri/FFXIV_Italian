@@ -343,25 +343,25 @@
   },
   "59": {
     "name": "Ready Check",
-    "translation_name": "Controllo Prontezza",
+    "translation_name": "Appello",
     "description": "Confirm the readiness of other party and/or alliance members.",
-    "translation_description": "Avvia un controllo per confermare se tutti i membri del gruppo o dell\u0027alleanza sono pronti."
+    "translation_description": "Avvia un appello per confermare se tutti i membri del gruppo o dell'alleanza sono pronti."
   },
   "60": {
     "name": "Challenge Log",
-    "translation_name": "Registro delle Sfide",
+    "translation_name": "Registro Sfide",
     "description": "Displays a list of challenges that you can undertake. Information on progress and rewards is also available. Progress in each category is reset every \u003Chex:020603120303\u003E\u003Chex:020942DDFF0753756E646179FF074D6F6E646179FF0854756573646179FF0A5765646E6573646179FF095468757273646179FF07467269646179FF09536174757264617903\u003E at \u003Chex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03\u003E \u003Chex:020810E0DB0DFF05702E6D2EFF05612E6D2E03\u003E (Earth time).",
     "translation_description": "Mostra l\u0027elenco delle sfide settimanali affrontabili con progressi e ricompense, azzerate periodicamente."
   },
   "61": {
     "name": "Mount Guide",
-    "translation_name": "Guida alle Cavalcature",
+    "translation_name": "Guida Cavalcature",
     "description": "Displays detailed information on the mounts you have acquired.",
     "translation_description": "Mostra informazioni dettagliate su tutte le cavalcature acquisite."
   },
   "62": {
     "name": "Minion Guide",
-    "translation_name": "Guida ai Minion",
+    "translation_name": "Guida Minion",
     "description": "Displays detailed information on the minions you have collected.",
     "translation_description": "Mostra informazioni dettagliate su tutti i minion collezionati."
   },
@@ -373,7 +373,7 @@
   },
   "64": {
     "name": "Sightseeing Log",
-    "translation_name": "Diario di Esplorazione",
+    "translation_name": "Diario Esplorazione",
     "description": "Displays information on sightseeing vistas.",
     "translation_description": "Mostra i panorami e le meraviglie scoperte esplorando le terre di Eorzea."
   },
@@ -381,7 +381,7 @@
     "name": "Gold Saucer",
     "translation_name": "Gold Saucer",
     "description": "Displays various information pertaining to the Gold Saucer, including MGP in possession, Cactpot draw times, Triple Triad tournament results, personal deck makeup, Lord of Verminion hotbar and Doman mahjong settings, and race chocobo status.",
-    "translation_description": "Mostra le informazioni relative al Gold Saucer: MGP posseduti, estrazioni Cactpot, Triple Triad e Chocobo da corsa."
+    "translation_description": "Mostra varie informazioni relative al Gold Saucer, tra cui gli MGP posseduti, gli orari delle estrazioni del Cactpot, i risultati dei tornei di Triple Triad, la composizione del mazzo personale, la barra azioni di Lord of Verminion, le impostazioni del Mahjong Doman e lo stato dei Chocobo da corsa."
   },
   "66": {
     "name": "Currency",
@@ -411,7 +411,7 @@
     "name": "Hall of the Novice",
     "translation_name": "Sala dei Novizi",
     "description": "Grants entrance to the Hall of the Novice and access to their regimen of training exercises designed to teach new Disciples of War and Magic the basics of combat for tank, healer, and DPS roles.",
-    "translation_description": "Accedi agli esercizi d\u0027addestramento per apprendere le basi del combattimento per difensori (Difensore), guaritori (Healer) e assalitori (DPS)."
+    "translation_description": "Accedi alla Sala dei Novizi e ai relativi esercizi d'addestramento, pensati per insegnare ai nuovi Discepoli di Guerra e Magia le basi del combattimento nei ruoli di difensore, guaritore e DPS."
   },
   "71": {
     "name": "Item Settings",
@@ -435,7 +435,7 @@
     "name": "Contacts",
     "translation_name": "Giocatori Recenti",
     "description": "Displays a list of players with whom you have most recently partied. Players on the list can be added to your friend list.",
-    "translation_description": "Mostra i giocatori con cui hai fatto gruppo di recente per consentirne l\u0027aggiunta agli amici."
+    "translation_description": "Mostra i giocatori con cui hai fatto gruppo di recente, così da poterli aggiungere alla lista amici."
   },
   "75": {
     "name": "Mount Speed",
@@ -447,13 +447,13 @@
     "name": "Duty Recorder",
     "translation_name": "Registratore Incarichi",
     "description": "View recorded duties and adjust Duty Recorder settings.",
-    "translation_description": "Riguarda le battaglie registrate e configura le opzioni del registratore di incarichi."
+    "translation_description": "Consulta gli incarichi registrati e modifica le impostazioni del Registratore Incarichi."
   },
   "77": {
     "name": "Chocobo Saddlebag",
-    "translation_name": "Bisacce del Chocobo",
+    "translation_name": "Bisaccia del Chocobo",
     "description": "Displays a list of all items in your chocobo saddlebag. From this list, items can be transferred to your inventory, or that of a retainer. Cannot be accessed while participating in instanced duties.",
-    "translation_description": "Mostra gli oggetti conservati nelle bisacce della tua cavalcatura chocobo per trasferirli nell'inventario. Non è accessibile durante gli incarichi con istanza."
+    "translation_description": "Mostra gli oggetti conservati nella bisaccia della tua cavalcatura chocobo per trasferirli nell'inventario. Non è accessibile durante gli incarichi con istanza."
   },
   "78": {
     "name": "PvP Team",
@@ -463,9 +463,9 @@
   },
   "79": {
     "name": "Record Ready Check",
-    "translation_name": "Controllo Prontezza Registrazione",
+    "translation_name": "Registra Appello",
     "description": "Confirm the readiness of other party and/or alliance members before recording a duty. Can only be used while on a recordable duty.",
-    "translation_description": "Verifica la prontezza dei membri del gruppo prima di iniziare la registrazione di un incarico."
+    "translation_description": "Avvia un appello dei membri del gruppo prima di iniziare la registrazione di un incarico."
   },
   "80": {
     "name": "Cross-world Linkshells",
@@ -525,7 +525,7 @@
     "name": "Fashion Accessories",
     "translation_name": "Accessori di Moda",
     "description": "Displays a list of available fashion accessories.",
-    "translation_description": "Mostra l\u0027elenco degli accessori di stile posseduti, come ombrelli, ali e occhiali speciali."
+    "translation_description": "Mostra l'elenco degli accessori di moda disponibili."
   },
   "90": {
     "name": "Official Sites",

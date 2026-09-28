@@ -14,6 +14,13 @@ TRANSLATIONS = ROOT / "data" / "translations"
 GLOSSARY = ROOT / "data" / "glossary" / "Glossary.md"
 PLACE_NAMES = ROOT / "data" / "translations" / "world" / "placename.json"
 TAGS = re.compile(r"<[^>]+>|\{[^{}]+\}")
+ELISION = re.compile(r"\b(il|lo|la|del|dello|della|al|allo|alla|nel|nello|nella|sul|sullo|sulla|dal|dallo|dalla)\s+([aeiouàèéìòù])", re.IGNORECASE)
+KNOWN_GRAMMAR = (
+    (re.compile(r"\bAvvio di un appello\b", re.IGNORECASE), "Avvio dell'appello", "avvio_ready_check"),
+    (re.compile(r"\bdisponibile a Piazza dei Chocobo\b", re.IGNORECASE), "disponibile nella Piazza dei Chocobo", "preposizione_piazza_chocobo"),
+    (re.compile(r"\bTane Sospette disponibili\b", re.IGNORECASE), "Tane Sospette Disponibili", "maiuscole_nome_composto"),
+    (re.compile(r"\bTi diamo il benvenuto da Vari Splendori\b", re.IGNORECASE), "Ti diamo il benvenuto a Vari Splendori", "preposizione_vari_splendori"),
+)
 ROW = re.compile(r'^  "(?P<id>\d+)": \{\r?\n', re.MULTILINE)
 FIELD = re.compile(r'(?m)^    "(?P<name>translation(?:_[^"\r\n]+)?)": (?P<value>"(?:\\.|[^"\\])*")(?=,?\r?$)')
 
@@ -88,6 +95,178 @@ def write_json(path, value):
     Path(path).write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def case_style(text):
+    """Classify term casing while ignoring sentence-initial capitalization in phrases."""
+    words = re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ]+", text)
+    if not words:
+        return "mixed"
+    if all(word.isupper() for word in words):
+        return "upper"
+    if all(word.islower() for word in words):
+        return "lower"
+    # A capitalized first word followed by lowercase words is often just the
+    # start of a sentence (e.g. "Cross-world linkshells are...").
+    if " " in text and len(words) > 1 and words[0][0].isupper() and all(word.islower() for word in words[1:]):
+        return "lower"
+    if len(words) > 1 and all(word[0].isupper() for word in words):
+        return "title"
+    if len(words) == 1 and words[0][0].isupper():
+        return "title"
+    return "mixed"
+
+
+def expected_case(text, style):
+    if style == "upper":
+        return text.upper()
+    if style != "lower":
+        return text
+    # Keep established mixed-case acronyms such as PvP alongside all-caps ones.
+    acronyms = {m.group() for m in re.finditer(r"\b(?:[A-Z0-9]{2,}|[A-Z][a-z]+[A-Z][A-Za-z0-9]*)\b", text)}
+    lowered = text.lower()
+    for acronym in acronyms:
+        lowered = re.sub(r"(?i)(?<!\w)" + re.escape(acronym.lower()) + r"(?!\w)", acronym, lowered)
+    return lowered
+
+
+def grammar_correction(text):
+    """Apply only high-confidence, explicitly documented Italian cleanup rules."""
+    rules = []
+    prefixes = {"il": "l'", "lo": "l'", "la": "l'", "del": "dell'", "dello": "dell'",
+                "della": "dell'", "al": "all'", "allo": "all'", "alla": "all'",
+                "nel": "nell'", "nello": "nell'", "nella": "nell'", "sul": "sull'",
+                "sullo": "sull'", "sulla": "sull'", "dal": "dall'", "dallo": "dall'",
+                "dalla": "dall'"}
+
+    def elide(match):
+        prefix = prefixes[match.group(1).casefold()]
+        if match.group(1)[0].isupper():
+            prefix = prefix[0].upper() + prefix[1:]
+        return prefix + match.group(2)
+
+    text, count = ELISION.subn(elide, text)
+    if count:
+        rules.append("elisione_articolo_preposizione")
+    for pattern, replacement, rule in KNOWN_GRAMMAR:
+        def preserve_case(match):
+            if match.group()[0].islower():
+                return replacement[0].lower() + replacement[1:]
+            return replacement
+        text, count = pattern.subn(preserve_case, text)
+        if count:
+            rules.append(rule)
+    return text, rules
+
+
+def reviewed_maintained_fields(path):
+    """Load exact M field decisions from this tool's editable Markdown checklist."""
+    path = Path(path)
+    if not path.is_file():
+        return set()
+    decisions = {}
+    current = None
+    action = ""
+    for line in path.read_text(encoding="utf-8-sig").splitlines() + [""]:
+        match = re.match(r"- \[[ xX]\] `([^`]+)`", line)
+        if match:
+            if current and has_maintain_marker(action):
+                decisions[current] = checklist_text(original)
+            current, action, original, translation = match.group(1), "", "", ""
+            continue
+        if not current:
+            continue
+        match = re.match(r"\s*- Inglese: `(.*)`", line)
+        if match:
+            original = match.group(1)
+        match = re.match(r"\s*- Italiano attuale: `(.*)`", line)
+        if match:
+            translation = match.group(1)
+        match = re.match(r"\s*- \*\*Azione:\*\* (.*)", line)
+        if match:
+            action = match.group(1).strip()
+    if current and has_maintain_marker(action):
+        decisions[current] = checklist_text(original)
+    return decisions
+
+
+def checklist_text(text):
+    """A terminal ellipsis in the checklist marks a truncated preview."""
+    text = TAGS.sub("", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text[:-1] if text.endswith("…") else text
+
+
+def has_maintain_marker(action):
+    # R means "regola": it must produce an actionable review, not hide the
+    # occurrence as if the user had said to maintain it. MR explicitly starts
+    # with M and therefore keeps this exact occurrence while recording a rule.
+    return bool(re.match(r"\s*(?:MANTIENI|MR|M)(?![A-Z])", action.upper()))
+
+
+def reviewed_focus_terms(path):
+    """Read field notes that explicitly limit an A decision to one term."""
+    path = Path(path)
+    if not path.is_file():
+        return {}
+    focused = {}
+    current = action = None
+    for line in path.read_text(encoding="utf-8-sig").splitlines() + [""]:
+        match = re.match(r"- \[[ xX]\] `([^`]+)`", line)
+        if match:
+            if current and action:
+                term = re.match(r"\s*A\s+solo\s+[\"“]([^\"”]+)[\"”]", action, re.IGNORECASE)
+                if term:
+                    focused[current] = term.group(1).strip()
+            current, action = match.group(1), ""
+            continue
+        if current:
+            match = re.match(r"\s*- \*\*Azione:\*\* (.*)", line)
+            if match:
+                action = match.group(1).strip()
+    if current and action:
+        term = re.match(r"\s*A\s+solo\s+[\"“]([^\"”]+)[\"”]", action, re.IGNORECASE)
+        if term:
+            focused[current] = term.group(1).strip()
+    return focused
+
+
+def source_aligned_translation(text, candidate, style):
+    """Check source casing while allowing Italian articles and sentence starts."""
+    exact = re.compile(r"(?<!\w)" + re.escape(candidate) + r"(?!\w)")
+    if exact.search(text):
+        return True
+    # In Italian a definite article attached to a proper name is lowercase in
+    # running prose even when the glossary stores the standalone title case.
+    article = re.match(r"^(Il|Lo|La|I|Gli|Le|L')(?=\s|[A-ZÀ-ÖØ-Þ])(.+)$", candidate)
+    if article:
+        lower_article = article.group(1).lower() + article.group(2)
+        if re.search(r"(?<!\w)" + re.escape(lower_article) + r"(?!\w)", text):
+            return True
+    if style == "lower":
+        plain = TAGS.sub("", text)
+        folded = re.compile(r"(?<!\w)" + re.escape(candidate) + r"(?!\w)", re.IGNORECASE)
+        for match in folded.finditer(plain):
+            actual = match.group()
+            if actual[:1].isupper() and actual[1:] == candidate[1:]:
+                before = plain[:match.start()].rstrip()
+                if not before or before[-1] in ".!?:;":
+                    return True
+    return False
+
+
+def usage_variants(usage):
+    marker = "Varianti ammesse in prosa:"
+    if marker not in usage:
+        return []
+    tail = usage.split(marker, 1)[1]
+    return [value.strip() for value in re.findall(r"«([^»]+)»", tail)]
+
+
+def usage_variant_pattern(variant):
+    """Turn documented placeholders into a match for one preserved dynamic tag."""
+    escaped = re.escape(variant)
+    return escaped.replace(r"\[dispositivo\]", r"(?:<[^>]+>|\{[^{}]+\})")
+
+
 def harvest(args):
     if Path(args.out).exists() and not args.overwrite:
         raise ValueError(f"Il file esiste già: {args.out}. Usa un altro --out o --overwrite.")
@@ -132,6 +311,8 @@ def scan(args):
     if args.old and not args.term:
         raise ValueError("--old richiede --term")
     blocking = None
+    maintained = reviewed_maintained_fields(args.checklist) if args.checklist else set()
+    focused = reviewed_focus_terms(args.checklist) if args.checklist else {}
     if args.term:
         longer = {e["english"] for e in all_entries if len(e["english"]) > len(args.term)
                   and args.term.casefold() in e["english"].casefold()}
@@ -145,15 +326,38 @@ def scan(args):
     by_name = collections.defaultdict(list)
     for entry in entries:
         by_name[entry["english"].casefold()].append(entry)
+    by_italian = collections.defaultdict(set)
+    for name, variants in by_name.items():
+        for entry in variants:
+            by_italian[entry["italian"].casefold()].add(name)
     queue = []
     sampled = collections.Counter()
     for path in selected_files(args.file):
         relative = path.relative_to(TRANSLATIONS).as_posix()
-        if relative in approved and not args.include_approved:
+        if args.approved_only and relative not in approved:
+            continue
+        if not args.approved_only and relative in approved and not args.include_approved:
             continue
         rows = json.loads(path.read_text(encoding="utf-8-sig"))
         for row_id, row in rows.items():
             for source_field, target_field, original, translation in pairs(row):
+                decision_key = f"{relative}#{row_id}:{target_field}"
+                corrected, grammar_rules = grammar_correction(translation)
+                if grammar_rules and corrected != translation:
+                    queue.append(dict(file=relative, row_id=row_id, source_field=source_field,
+                                      target_field=target_field, original=original, translation=translation,
+                                      english="[controllo grammaticale italiano]", canonical=[],
+                                      references=["tools/terminology_review.py"],
+                                      usages=grammar_rules, old_italian="", suggestion=corrected,
+                                      status="pending", note="; ".join(grammar_rules), finding="grammar",
+                                      source_case="", expected_case=[]))
+                decision = maintained.get(decision_key)
+                if decision and checklist_text(original).startswith(decision):
+                    continue
+                old_match = bool(args.old and re.search(r"(?<!\w)" + re.escape(args.old) + r"(?!\w)",
+                                                         translation, re.IGNORECASE))
+                if args.old and not old_match:
+                    continue
                 if relative == "dialogue/customtalk.json" and (
                         source_field == "name" or
                         (source_field.startswith("col_") and source_field[4:].isdigit() and int(source_field[4:]) < 31)):
@@ -163,10 +367,13 @@ def scan(args):
                 searchable = blocking.sub(lambda m: " " * len(m.group()), original) if blocking else original
                 matches = {re.sub(r"\[\d+\]", "[1]", match.group()).casefold(): match.group()
                            for match in pattern.finditer(searchable)}
-                if args.old and re.search(r"(?<!\w)" + re.escape(args.old) + r"(?!\w)", translation, re.IGNORECASE):
+                if old_match:
                     matches.update({name: name for name in by_name})
                 for name, matched in matches.items():
-                    if not args.term and sampled[name] >= 5:
+                    focus = focused.get(decision_key)
+                    if focus and name not in by_italian.get(focus.casefold(), set()):
+                        continue
+                    if not args.term and not args.all_matches and sampled[name] >= 5:
                         continue  # Broad scan samples each term; --term retrieves every occurrence.
                     variants = by_name[name]
                     term = variants[0]["english"]
@@ -183,11 +390,30 @@ def scan(args):
                     canonical = list(dict.fromkeys(e["italian"].replace("[1]", number.group() if number else "[1]")
                                                    for e in variants))
                     # A matching Italian form is evidence of consistency, not proof of it.
-                    if not args.old and any(re.search(r"(?<!\w)" + re.escape(v) + r"(?!\w)", translation, re.IGNORECASE) for v in canonical):
-                        continue
+                    if not args.old:
+                        canonical_exact = any(re.search(r"(?<!\w)" + re.escape(v) + r"(?!\w)", translation)
+                                              for v in canonical)
+                        canonical_casefold = any(re.search(r"(?<!\w)" + re.escape(v) + r"(?!\w)", translation,
+                                                           re.IGNORECASE) for v in canonical)
+                        style = case_style(matched)
+                        aligned = [expected_case(value, style) for value in canonical]
+                        allowed = [alias for entry in variants for alias in usage_variants(entry["usage"])]
+                        alias_aligned = any(re.search(r"(?<!\w)" + usage_variant_pattern(alias) + r"(?!\w)", translation,
+                                                      re.IGNORECASE) for alias in allowed)
+                        source_aligned = any(source_aligned_translation(translation, value, style)
+                                             for value in aligned)
+                        if alias_aligned:
+                            continue
+                        if (canonical_casefold and not args.strict_canonical_case) or (
+                                args.strict_canonical_case and source_aligned):
+                            continue
+                    else:
+                        style, aligned = case_style(matched), []
                     queue.append(dict(file=relative, row_id=row_id, source_field=source_field,
                                       target_field=target_field, original=original, translation=translation,
                                       english=matched if number else variants[0]["english"], canonical=canonical,
+                                      finding=("case" if not args.old and canonical_casefold else "translation"),
+                                      source_case=style, expected_case=aligned,
                                       references=[e["reference"] for e in variants],
                                       usages=[e["usage"] for e in variants],
                                       old_italian=args.old or "",
@@ -222,12 +448,9 @@ def apply(args):
         rows = json.loads(raw)
         row_starts = list(ROW.finditer(raw))
         edits = []
-        seen = set()
+        seen = {}
         for item in items:
             key = (item["row_id"], item["target_field"])
-            if key in seen:
-                raise ValueError(f"Approvazione duplicata: {relative}#{key}")
-            seen.add(key)
             row = rows[item["row_id"]]
             proposal = item["suggestion"]
             if (row[item["source_field"]] != item["original"] or
@@ -242,6 +465,12 @@ def apply(args):
             found = [m for m in FIELD.finditer(raw, start, end) if m.group("name") == item["target_field"]]
             if len(found) != 1 or json.loads(found[0].group("value")) != item["translation"]:
                 raise ValueError(f"Campo JSON non individuato: {relative}#{key}")
+            previous = seen.get(key)
+            if previous is not None:
+                if previous != (item["translation"], proposal):
+                    raise ValueError(f"Proposte approvate in conflitto: {relative}#{key}")
+                continue
+            seen[key] = (item["translation"], proposal)
             edits.append((found[0].start("value"), found[0].end("value"), json.dumps(proposal, ensure_ascii=False)))
         for start, end, value in sorted(edits, reverse=True):
             raw = raw[:start] + value + raw[end:]
@@ -276,7 +505,16 @@ def main():
     scan_cmd.add_argument("--file", help="Percorso relativo a data/translations")
     scan_cmd.add_argument("--term", help="Solo questo termine inglese")
     scan_cmd.add_argument("--old", help="Vecchia forma italiana da cercare dopo una modifica del canone; richiede --term")
-    scan_cmd.add_argument("--include-approved", action="store_true")
+    scan_scope = scan_cmd.add_mutually_exclusive_group()
+    scan_scope.add_argument("--include-approved", action="store_true",
+                            help="Includi i file approvati nella scansione generale")
+    scan_scope.add_argument("--approved-only", action="store_true",
+                            help="Scansiona esclusivamente i file elencati come approvati nel glossario")
+    scan_cmd.add_argument("--all-matches", action="store_true", help="Non limita a cinque le segnalazioni per termine")
+    scan_cmd.add_argument("--strict-canonical-case", action="store_true",
+                          help="Controlla le maiuscole rispetto alla forma nell'originale, non solo al canone")
+    scan_cmd.add_argument("--checklist", default="data/glossary/review_checklist.md",
+                          help="Checklist precedente: i campi MANTIENI identici non vengono risegnalati")
     scan_cmd.add_argument("--limit", type=int, default=200)
     scan_cmd.add_argument("--out", default="data/glossary/review.json")
     scan_cmd.add_argument("--overwrite", action="store_true")
