@@ -11,6 +11,43 @@ from tools import terminology_review as review
 
 
 class TerminologyReviewTests(unittest.TestCase):
+    def test_all_places_are_available_and_conflicting_names_are_normalized(self):
+        _, entries = review.glossary()
+        places = [entry for entry in entries if entry["reference"].startswith("world/placename.json#")]
+        expected = json.loads(review.PLACE_NAMES.read_text(encoding="utf-8-sig"))
+        self.assertEqual(len(expected), len({entry["reference"] for entry in places}))
+        self.assertEqual({"Fortezza Oscura di Dzemael"},
+                         {entry["italian"] for entry in places if entry["english"] == "Dzemael Darkhold"})
+
+    def test_general_scan_catches_an_unlisted_place(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            (root / "draft.json").write_text(
+                json.dumps({"1": {"original": "Travel to New Gridania.",
+                                  "translation": "Viaggia verso Gridania Nuova."}}), encoding="utf-8")
+            output = root / "queue.json"
+            args = argparse.Namespace(file="draft.json", term=None, old=None,
+                                      include_approved=False, limit=10, out=str(output), overwrite=False)
+            with patch.object(review, "TRANSLATIONS", root):
+                review.scan(args)
+            queue = json.loads(output.read_text(encoding="utf-8"))
+            self.assertEqual(["Nuova Gridania"], queue[0]["canonical"])
+            self.assertIn("world/placename.json#52:name", queue[0]["references"])
+
+    def test_targeted_scan_uses_resolved_place_form(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            (root / "draft.json").write_text(
+                json.dumps({"1": {"original": "Enter Dzemael Darkhold.",
+                                  "translation": "Entra nella Fortezza di Dzemael."}}), encoding="utf-8")
+            output = root / "queue.json"
+            args = argparse.Namespace(file="draft.json", term="Dzemael Darkhold", old=None,
+                                      include_approved=False, limit=10, out=str(output), overwrite=False)
+            with patch.object(review, "TRANSLATIONS", root):
+                review.scan(args)
+            queue = json.loads(output.read_text(encoding="utf-8"))
+            self.assertEqual(["Fortezza Oscura di Dzemael"], queue[0]["canonical"])
+
     def test_scan_finds_contextual_name_without_rewriting(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
@@ -26,6 +63,19 @@ class TerminologyReviewTests(unittest.TestCase):
             self.assertEqual(["Ricerca Incarichi"], queue[0]["canonical"])
             self.assertEqual("pending", queue[0]["status"])
             self.assertIn("Cercatore", source.read_text(encoding="utf-8"))
+
+    def test_scan_finds_glamours_in_prose(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            (root / "draft.json").write_text(
+                json.dumps({"1": {"original": "These glamours affect gear.",
+                                  "translation": "Applica glamour all'equipaggiamento."}}), encoding="utf-8")
+            output = root / "queue.json"
+            args = argparse.Namespace(file="draft.json", term="Glamours", old=None,
+                                      include_approved=False, limit=10, out=str(output), overwrite=False)
+            with patch.object(review, "TRANSLATIONS", root):
+                review.scan(args)
+            self.assertEqual("Glamours", json.loads(output.read_text(encoding="utf-8"))[0]["english"])
 
     def test_only_approved_proposal_is_applied_and_other_bytes_stay_put(self):
         with tempfile.TemporaryDirectory() as folder:
@@ -55,8 +105,6 @@ class TerminologyReviewTests(unittest.TestCase):
     def test_tags_must_stay_identical(self):
         self.assertTrue(review.same_tokens("<hex:AA>Test {name}", "<hex:AA>Prova {name}"))
         self.assertFalse(review.same_tokens("<hex:AA>Test", "<hex:BB>Prova"))
-        self.assertTrue(review.small_revision("Vai a Sabbie del Risveglio.", "Vai alle Sabbie del Risveglio."))
-        self.assertFalse(review.small_revision("Registratore Incarichi " * 40, "Controllo Prontezza " * 40))
 
     def test_old_italian_finds_impact_even_without_english_name(self):
         with tempfile.TemporaryDirectory() as folder:

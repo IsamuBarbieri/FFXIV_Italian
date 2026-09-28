@@ -2,6 +2,8 @@
 
 Fonte terminologica per le traduzioni future. Le voci derivano solo dai file revisionati elencati sotto; le tabelle sono intenzionalmente selettive. I termini inglesi servono da riferimento e non vanno aggiunti tra parentesi nel testo di gioco.
 
+**Catalogo completo dei luoghi:** tutte le 5.302 coppie `name`/`translation` di `data/translations/world/placename.json` fanno parte del glossario, con fonte `world/placename.json#ID:name`. Il file approvato è la tabella integrale; la sezione Luoghi qui sotto evidenzia anche le rese canoniche appena uniformate. Le voci che contengono tag richiedono una revisione SeString.
+
 ## File approvati
 
 - `system/addon.json`
@@ -21,6 +23,8 @@ Per aggiungere un file: completarne la revisione, inserirlo in questo elenco e a
 Per le **categorie di attività**: Quest = Missione; Subquest = Missione secondaria; Main Scenario Quest = Missione dello Scenario Principale; Duty = Incarico; Levequest e Leve = Mandato; Trial = Prova; Raid = Incursione; Dungeon = Spedizione; Deep Dungeon = Cripta Profonda; Guildhest = Operazione di Gilda; FATE resta FATE anche al plurale. I qualificatori di categoria (per esempio Alliance, Savage, Extreme) si traducono in italiano. Le forme singolari non attestate nelle fonti sotto sono convenzioni editoriali, non voci approvate. Queste equivalenze valgono per le attività di gioco: *duty* come dovere, *trial* come processo o prova narrativa, *quest* come ricerca generica e i nomi propri richiedono una traduzione contestuale. Non sostituire automaticamente i nomi di istanze o luoghi.
 
 Per le **fonoperle**: Linkshell = Fonoperla, Linkshells = Fonoperle; Cross-world Linkshell = Fonoperla Intermondo, Cross-world Linkshells = Fonoperle Intermondo. Nelle etichette numerate, `[1]`, `[2]` e così via indicano lo stesso schema; il numero resta invariato. In prosa usare la minuscola per i nomi comuni («una fonoperla intermondo», «le fonoperle»), adattando articoli, preposizioni e accordi. «Intermondo» qualifica anche il Gruppo Intermondo; «intramondo» indica un concetto diverso. Le forme singolari senza numero sono convenzioni editoriali ricavate dalle etichette numerate, mentre le righe sotto riportano solo forme esattamente attestate.
+
+Per il sistema **glamour**: usare «illusione» al singolare e «illusioni» al plurale, adattando articoli e accordi. Le funzioni composte hanno le forme attestate sotto: Comò delle Illusioni, Piastra d'Illusione e Prisma delle Illusioni. In prosa usare le minuscole. «Glamour» in un nome proprio o in un contesto diverso richiede verifica; la sostituzione automatica non basta.
 
 ## Voci
 
@@ -87,13 +91,17 @@ Per le **fonoperle**: Linkshell = Fonoperla, Linkshells = Fonoperle; Cross-world
 | Challenge Log | Registro delle Sfide | `system/maincommand.json#60:name` | Nome del registro. |
 | Hunting Log | Registro di Caccia | `system/maincommand.json#8:name` | Nome del registro. |
 | Gathering Log | Registro di Raccolta | `system/maincommand.json#7:name` | Nome del registro. |
-| Crafting Log | Registro di Creazione | `system/maincommand.json#9:name` | Nome del registro. |
+| Crafting Log | Registro di Fabbricazione | `system/maincommand.json#9:name` | Nome del registro. |
+| Fishing Log | Registro di Pesca | `system/maincommand.json#29:name` | Nome del registro. |
+| Fellowships | Confraternite | `system/maincommand.json#85:name` | Nome della funzione; singolare: Confraternita. |
+| Fellowship Finder | Ricerca Confraternite | `system/maincommand.json#86:name` | Nome della funzione. |
+| Strategy Board | Lavagna Strategica | `system/maincommand.json#98:name` | Nome della funzione. |
 | Sightseeing Log | Diario di Esplorazione | `system/maincommand.json#64:name` | Nome del registro. |
-| Armoury Chest | Arsenale | `system/maincommand.json#25:name` | Nome della funzione. |
+| Armoury Chest | Armeria | `system/maincommand.json#25:name` | Nome della funzione. |
 | Chocobo Saddlebag | Bisacce del Chocobo | `system/maincommand.json#77:name` | Nome della funzione. |
 | Blue Magic Spellbook | Grimorio di Magia Blu | `system/maincommand.json#81:name` | Nome della funzione. |
 | Aether Currents | Correnti Eteriche | `system/maincommand.json#67:name` | Nome della funzione. |
-| Adventurer Plate | Targa dell'Avventuriero | `system/maincommand.json#93:name` | Nome della funzione. |
+| Adventurer Plate | Scheda dell'Avventuriero | `system/maincommand.json#93:name` | Nome della funzione. |
 | Shared FATE | FATE Condivisi | `system/maincommand.json#84:name` | Nome della funzione. |
 | New Game+ | Nuova Partita+ | `system/maincommand.json#88:name` | Nome della modalità. |
 | Waymarks | Marcatori Tattici | `system/maincommand.json#58:name` | Nome della funzione. |
@@ -145,8 +153,26 @@ Per le **fonoperle**: Linkshell = Fonoperla, Linkshells = Fonoperle; Cross-world
 | World Visit | Visita Mondo | `system/addon.json#12510:original` | Funzione di viaggio tra mondi. |
 | Data Center | Data Center | `system/addon.json#10890:original` | Nome invariato della struttura server. |
 | Housing | Alloggi | `system/addon.json#1999:original` | Sistema degli alloggi. |
-| Glamour Dresser | Comò delle Illusioni | `system/addon.json#3735:original` | Arredo della funzione glamour. |
+| Glamours | Illusioni | `system/addon.json#16030:original` | Nome della funzione; in prosa «illusioni». Singolare editoriale: «illusione». |
+| Glamour Dresser | Comò delle Illusioni | `system/addon.json#3735:original` | Arredo delle illusioni. In prosa «comò delle illusioni». |
+| Glamour Plate | Piastra d'Illusione | `system/addon.json#3185:original` | Piastra che memorizza un insieme di illusioni. |
+| Glamour Prism | Prisma delle Illusioni | `system/addon.json#5733:original` | Catalizzatore per applicare illusioni. |
+| Cast Glamour | Applica Illusione | `system/addon.json#3700:original` | Comando per applicare un'illusione. |
+| Apply Glamours | Applica Illusioni | `system/addon.json#10583:original` | Comando al plurale. |
+| Glamour-ready | Pronto per l'illusione | `system/addon.json#5728:original` | Idoneità dell'oggetto; adattare genere e numero in prosa. |
+| Outfit Glamour | Completo Illusione | `system/addon.json#15644:original` | Insieme di oggetti registrato come illusione. |
+| Furnishing Glamours | Illusioni d'Arredo | `system/addon.json#15533:original` | Aspetti alternativi degli arredi; in prosa minuscolo. |
+| Registered Glamours | Illusioni Registrate | `system/addon.json#15528:original` | Elenco delle illusioni d'arredo registrate. |
+| Placed Glamours | Illusioni Posizionate | `system/addon.json#15539:original` | Illusioni d'arredo già posizionate. |
+| Register Glamour | Registra Illusione | `system/addon.json#15525:original` | Registra l'aspetto alternativo di un arredo. |
+| Place Glamour | Posiziona Illusione | `system/addon.json#15564:original` | Posiziona un'illusione d'arredo. |
+| Store as Glamour | Conserva come Illusione | `system/addon.json#15622:original` | Salva un oggetto come illusione. |
 | Armoire | Armadio | `system/addon.json#3734:original` | Arredo di deposito. |
+| Retainer | Servitore | `system/addon.json#532:original` | Aiutante del personaggio; in prosa minuscolo. |
+| Materia Melding | Innesto Materia | `system/addon.json#993:original` | Funzione per innestare materia. |
+| Desynthesis | Desintesi | `system/addon.json#1815:original` | Funzione di smontaggio degli oggetti. |
+| Aetherial Reduction | Riduzione Eterea | `system/addon.json#2160:original` | Funzione di riduzione. |
+| Item Dyeing | Tintura Oggetti | `system/addon.json#4690:original` | Funzione di tintura dell'equipaggiamento. |
 | Custom Deliveries | Consegne su Misura | `system/addon.json#5700:original` | Attività ricorrente. |
 | Wondrous Tails | Code Meravigliose | `system/addon.json#5600:original` | Registro di attività. |
 | Portraits | Ritratti | `system/addon.json#14650:original` | Funzione del personaggio. |
@@ -288,6 +314,8 @@ Per le **fonoperle**: Linkshell = Fonoperla, Linkshells = Fonoperle; Cross-world
 
 ### Luoghi
 
+Catalogo integrale: `data/translations/world/placename.json`. Cercare il nome inglese nel campo `name` per ottenere la forma italiana `translation` e l'ID della fonte. Per un nome corto usare `scan --term "NOME"`.
+
 | Inglese | Italiano | Fonte | Uso |
 | --- | --- | --- | --- |
 | Vesper Bay | Baia del Vespro | `world/placename.json#274:name` |  |
@@ -322,6 +350,26 @@ Per le **fonoperle**: Linkshell = Fonoperla, Linkshells = Fonoperle; Cross-world
 | Whitebrim | Orlo Bianco | `world/placename.json#383:name` |  |
 | Bentbranch Meadows | Prati di Ramostorto | `world/placename.json#94:name` |  |
 | Copperbell Mines | Miniere di Camparame | `world/placename.json#48:name` |  |
+| The Tam-Tara Deepcroft | La Cripta di Tam-Tara | `world/placename.json#58:name` | Forma canonica applicata alle tre occorrenze. |
+| Dzemael Darkhold | Fortezza Oscura di Dzemael | `world/placename.json#64:name` | Forma canonica applicata alle tre occorrenze. |
+| Blue Badger Gate | Porta del Tasso Blu | `world/placename.json#87:name` | Forma canonica applicata a entrambe le occorrenze. |
+| Naked Rock | Roccianuda | `world/placename.json#92:name` | Forma canonica applicata a entrambe le occorrenze. |
+| The Fold | La Piega | `world/placename.json#5125:name` | Forma canonica applicata alle tre occorrenze. |
+| Skull Valley | Valleteschio | `world/placename.json#171:name` | Forma canonica applicata a entrambe le occorrenze. |
+| Via Praetoria | Via Praetoria | `world/placename.json#429:name` | Forma canonica applicata a entrambe le occorrenze. |
+| Central Hall | Salone Centrale | `world/placename.json#5484:name` | Forma canonica applicata a entrambe le occorrenze. |
+| Chocobokeep | Chocobiere | `world/placename.json#2315:name` | Forma canonica applicata a tutte le occorrenze. |
+| Fang Cage | Gabbia della Zanna | `world/placename.json#1700:name` | Forma canonica applicata a tutte le occorrenze. |
+| Claw Cage | Gabbia dell'Artiglio | `world/placename.json#1699:name` | Forma canonica applicata a tutte le occorrenze. |
+| Inner Sanctum | Sancta Sanctorum | `world/placename.json#1560:name` | Forma canonica applicata a entrambe le occorrenze. |
+| The Presence Chamber | Camera d'Udienza | `world/placename.json#872:name` | Forma canonica applicata a entrambe le occorrenze. |
+| Third Floor | Terzo Piano | `world/placename.json#1529:name` | Forma canonica applicata a tutte le occorrenze. |
+| Sohm Al Summit | Vetta Sohm Al | `world/placename.json#1010:name` | Forma canonica applicata a entrambe le occorrenze. |
+| Dimwold | Selvacupa | `world/placename.json#1015:name` | Forma canonica applicata a entrambe le occorrenze. |
+| Mirage Creek | Torrente Miraggio | `world/placename.json#1018:name` | Forma canonica applicata a entrambe le occorrenze. |
+| The Slow Wash | La Lenta Corrente | `world/placename.json#1020:name` | Forma canonica applicata a entrambe le occorrenze. |
+| The Sultana's Breath Subdivision | Quartieri del Respiro della Sultana | `world/placename.json#1191:name` | Forma canonica applicata a entrambe le occorrenze. |
+| The Sultana's Breath | Il Respiro della Sultana | `world/placename.json#1211:name` | Forma canonica applicata a entrambe le occorrenze. |
 
 ### Meteo
 
@@ -346,14 +394,3 @@ I nomi delle condizioni sono distinti dalle forme grammaticali usate nelle descr
 | Snow | Neve | `world/weather.json#15:name` |  |
 | Blizzards | Bufera di neve | `world/weather.json#16:name` |  |
 | Showers | Rovesci passeggeri | `world/weather.json#210:name` | Variante attestata in un'altra voce meteo. |
-
-## Divergenze da revisionare
-
-Queste etichette hanno traduzioni diverse nei file approvati. Non promuovere una variante a regola generale finché non sono state confrontate nel gioco e uniformate nelle fonti:
-
-- **Fellowships / Fellowship Finder**: «Sodalizi» e «Ricerca dei Sodalizi» in `system/addon.json#12800:original` e `#12933:original`; «Confraternite» e «Ricerca Confraternite» in `system/maincommand.json#85:name` e `#86:name`.
-- **Crafting Log**: «Registro di Fabbricazione», «Registro di Artigianato» e «Registro di Creazione» in `system/addon.json#1400:original`, `system/howto.json#28:original` e `system/maincommand.json#9:name`.
-- **Armoury Chest**: «Armeria», «Armeria Personale» e «Arsenale» in `system/addon.json#1370:original`, `system/howto.json#37:original` e `system/maincommand.json#25:name`.
-- **Adventurer Plate**: «Scheda dell'Avventuriero» in `system/addon.json#14761:original`; «Targa dell'Avventuriero» in `system/maincommand.json#93:name`.
-- **Fishing Log**: «Registro di Pesca» in `system/addon.json#3800:original`; «Diario di Pesca» in `system/maincommand.json#29:name`.
-- **Strategy Board**: «Lavagna Strategica» in `system/addon.json#14545:original`; «Lavagna Tattica» in `system/maincommand.json#98:name`.

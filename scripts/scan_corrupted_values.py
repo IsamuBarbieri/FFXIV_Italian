@@ -22,6 +22,8 @@ if hasattr(sys.stderr, "reconfigure"):
 HEX_TAG = re.compile(r"<hex:([0-9A-Fa-f]+)>")
 HEX_START = re.compile(r"<hex:")
 TAG = re.compile(r"<[^>]*>")
+READABLE_HEX = re.compile(rb"[A-Za-z][A-Za-z ',.!?/-]{4,}[A-Za-z.!?]")
+HEX_IDENTIFIERS = {"ClassJob", "Item", "Player", "Target"}
 REPLACEMENT_CHARS = "\ufffd\ufffe\uffff"
 
 
@@ -47,7 +49,26 @@ def line_number(raw_text: str, json_path: str) -> Optional[int]:
     return raw_text.count("\n", 0, found.start()) + 1 if found else None
 
 
-def scan_string(value: str, compare_to: Optional[str] = None) -> list:
+def untranslated_hex(original: str, translation: str) -> list[str]:
+    """Find readable source text still present in the matching translated payload."""
+    issues = []
+    for index, (source, target) in enumerate(zip(HEX_TAG.findall(original), HEX_TAG.findall(translation)), 1):
+        try:
+            source_bytes, target_bytes = bytes.fromhex(source), bytes.fromhex(target)
+        except ValueError:
+            continue  # The malformed tag is reported by scan_string.
+        # 02 08/09 carry literal alternatives; other opcodes commonly contain sheet lookup keys.
+        if source_bytes[:2] not in (b"\x02\x08", b"\x02\x09"):
+            continue
+        for match in READABLE_HEX.finditer(source_bytes):
+            phrase = match.group().decode("ascii").strip(" ,.!?/-")
+            if phrase in HEX_IDENTIFIERS or phrase.encode("ascii") not in target_bytes:
+                continue
+            issues.append(f"untranslated text in hex tag {index}: {phrase[:80]}")
+    return issues
+
+
+def scan_string(value: str, compare_to: Optional[str] = None, english_hex: bool = False) -> list:
     issues: list[str] = []
     plain_text = HEX_TAG.sub("", value)
 
@@ -84,11 +105,13 @@ def scan_string(value: str, compare_to: Optional[str] = None) -> list:
         current_tags = HEX_TAG.findall(value)
         if original_tags != current_tags:
             issues.append("translation hex tags differ from original")
+        if english_hex:
+            issues.extend(untranslated_hex(compare_to, value))
 
     return list(dict.fromkeys(issues))
 
 
-def scan_file(path: Path, compare_translation: bool, originals_only: bool) -> list:
+def scan_file(path: Path, compare_translation: bool, originals_only: bool, english_hex: bool = False) -> list:
     try:
         raw_text = path.read_text(encoding="utf-8")
         data = json.loads(raw_text)
@@ -100,21 +123,19 @@ def scan_file(path: Path, compare_translation: bool, originals_only: bool) -> li
         for key, entry in data.items():
             if not isinstance(entry, dict):
                 continue
-            original = entry.get("original")
             for field, value in entry.items():
                 if not isinstance(value, str):
                     continue
                 if originals_only and field != "original":
                     continue
-                reference = (
-                    original
-                    if compare_translation
-                    and field == "translation"
-                    and isinstance(original, str)
-                    and value.strip()
-                    else None
-                )
-                issues = scan_string(value, reference)
+                source_field = field.removeprefix("translation_") if field.startswith("translation_") else "original" if field == "translation" else None
+                if field == "translation" and "original" not in entry:
+                    source_field = "name"
+                reference = entry.get(source_field) if source_field and value.strip() else None
+                issues = scan_string(value, reference if compare_translation else None,
+                                     english_hex and isinstance(reference, str))
+                if english_hex and not compare_translation and isinstance(reference, str):
+                    issues.extend(untranslated_hex(reference, value))
                 if issues:
                     json_path = f"$.{key}.{field}"
                     results.append({
@@ -151,6 +172,7 @@ def main() -> int:
     parser.add_argument("--report", type=Path, help="Salva i risultati completi in un report JSON.")
     parser.add_argument("--no-compare", action="store_true", help="Non confrontare i tag hex tra original e translation.")
     parser.add_argument("--originals-only", action="store_true", help="Analizza solo i valori sorgente nel campo original.")
+    parser.add_argument("--no-english-hex", action="store_true", help="Disattiva il controllo del testo inglese nei tag hex.")
     args = parser.parse_args()
 
     files = collect_files(args.paths)
@@ -161,7 +183,7 @@ def main() -> int:
     findings = [
         finding
         for path in files
-        for finding in scan_file(path, not args.no_compare, args.originals_only)
+        for finding in scan_file(path, not args.no_compare, args.originals_only, not args.no_english_hex)
     ]
     if args.report:
         args.report.parent.mkdir(parents=True, exist_ok=True)

@@ -2,18 +2,17 @@
 
 import argparse
 import collections
-import difflib
 import json
 import os
 from pathlib import Path
 import re
 import tempfile
-from urllib import request
 
 
 ROOT = Path(__file__).resolve().parents[1]
 TRANSLATIONS = ROOT / "data" / "translations"
 GLOSSARY = ROOT / "data" / "glossary" / "Glossary.md"
+PLACE_NAMES = ROOT / "data" / "translations" / "world" / "placename.json"
 TAGS = re.compile(r"<[^>]+>|\{[^{}]+\}")
 ROW = re.compile(r'^  "(?P<id>\d+)": \{\r?\n', re.MULTILINE)
 FIELD = re.compile(r'(?m)^    "(?P<name>translation(?:_[^"\r\n]+)?)": (?P<value>"(?:\\.|[^"\\])*")(?=,?\r?$)')
@@ -37,6 +36,14 @@ def glossary():
             if source not in approved:
                 raise ValueError(f"Fonte non approvata: {cells[2]}")
             entries.append(dict(english=cells[0], italian=cells[1], reference=cells[2], category=category, usage=cells[3]))
+    if "world/placename.json" in approved:
+        places = json.loads(PLACE_NAMES.read_text(encoding="utf-8-sig"))
+        for row_id, row in places.items():
+            english, italian = row["name"], row["translation"]
+            if english and italian:
+                entries.append(dict(english=english, italian=italian,
+                                    reference=f"world/placename.json#{row_id}:name", category="Luoghi",
+                                    usage="Nome da PlaceName; verificare il contesto, soprattutto per gli omonimi."))
     return approved, entries
 
 
@@ -63,10 +70,9 @@ def selected_files(name):
 
 
 def approved_name_entries(approved, term):
-    """Allow targeted checks of all approved places and menu functions without a 5k-row Markdown table."""
+    """Allow targeted checks of approved menu functions without listing every label."""
     result = []
-    for relative, category in (("world/placename.json", "Luoghi"),
-                               ("system/maincommand.json", "Interfaccia e comandi")):
+    for relative, category in (("system/maincommand.json", "Interfaccia e comandi"),):
         if relative not in approved:
             continue
         rows = json.loads((TRANSLATIONS / relative).read_text(encoding="utf-8-sig"))
@@ -120,6 +126,9 @@ def scan(args):
             entries = approved_name_entries(approved, args.term)
         if not entries:
             raise ValueError(f"Termine assente dal glossario e dai nomi approvati: {args.term}")
+    else:
+        entries = [e for e in entries if e["category"] != "Luoghi" or
+                   (len(e["english"]) >= 6 and not TAGS.search(e["english"] + e["italian"]))]
     if args.old and not args.term:
         raise ValueError("--old richiede --term")
     blocking = None
@@ -167,7 +176,8 @@ def scan(args):
                     if (not args.old and len(term.split()) == 1 and
                             original.strip().casefold() != term.casefold() and
                             (len(term) < 6 or term.casefold() == variants[0]["italian"].casefold() or
-                             variants[0]["category"] not in ("Luoghi", "Termini di gioco"))):
+                             variants[0]["category"] not in ("Luoghi", "Termini di gioco")
+                             and term.casefold() != "glamours")):
                         continue
                     number = re.search(r"\[(\d+)\]", matched)
                     canonical = list(dict.fromkeys(e["italian"].replace("[1]", number.group() if number else "[1]")
@@ -193,55 +203,6 @@ def scan(args):
 
 def same_tokens(before, after):
     return TAGS.findall(before) == TAGS.findall(after)
-
-
-def small_revision(before, after):
-    changes = sum(max(i2 - i1, j2 - j1) for tag, i1, i2, j1, j2
-                  in difflib.SequenceMatcher(None, before, after).get_opcodes() if tag != "equal")
-    return changes <= max(80, len(before) // 10)
-
-
-def suggest(args):
-    path = Path(args.review)
-    queue = json.loads(path.read_text(encoding="utf-8"))
-    completed = 0
-    for item in queue:
-        if item["status"] != "pending" or item["suggestion"] or len(item["translation"]) > 2500:
-            continue
-        context = {key: item[key] for key in ("original", "translation", "english", "canonical", "references", "usages")}
-        prompt = ("Sei un revisore italiano di FFXIV. Restituisci la traduzione COMPLETA corretta. "
-                  "Modifica il minimo indispensabile; conserva parole, struttura e significato delle parti "
-                  "non coinvolte nel termine. Non confondere il termine con una funzione dal nome più lungo. "
-                  "Applica il termine canonico se il significato coincide; se è un omonimo, lascia la frase invariata. "
-                  "Controlla sempre la grammatica attorno al nome: articoli, preposizioni articolate, plurale, "
-                  "accordi e maiuscole. Il nome canonico è in forma isolata e nella frase può richiedere "
-                  "una preposizione diversa. Esempio indipendente: 'Vai a Torre di Cristallo' diventa "
-                  "'Vai alla Torre di Cristallo'. Conserva identici e "
-                  "nello stesso ordine tutti i tag <...> e {...}. Non inventare contenuto. "
-                  "Rispondi SOLO con JSON: {\"translation\": \"testo\", \"reason\": \"breve motivo\"}.\n"
-                  + json.dumps(context, ensure_ascii=False))
-        body = json.dumps({"model": args.model, "prompt": prompt, "format": "json", "stream": False,
-                           "think": False,
-                           "options": {"temperature": 0.2, "num_ctx": 8192, "num_predict": 2048}}).encode("utf-8")
-        try:
-            call = request.Request("http://localhost:11434/api/generate", data=body,
-                                   headers={"Content-Type": "application/json"})
-            with request.urlopen(call, timeout=180) as response:
-                answer = json.loads(json.load(response)["response"])
-            proposed = answer["translation"]
-            if not isinstance(proposed, str) or not proposed.strip() or not same_tokens(item["translation"], proposed):
-                raise ValueError("proposta vuota o tag modificati")
-            if not small_revision(item["translation"], proposed):
-                raise ValueError("proposta troppo estesa: revisione manuale necessaria")
-            item["suggestion"] = proposed
-            item["note"] = str(answer.get("reason", ""))
-        except (OSError, ValueError, KeyError, json.JSONDecodeError) as exc:
-            item["note"] = f"Modello: {exc}"
-        completed += 1
-        write_json(path, queue)  # Keep progress after each local model call.
-        if completed >= args.limit:
-            break
-    print(f"{completed} proposte elaborate in {path}. Impostare status=approved solo dopo la revisione umana.")
 
 
 def apply(args):
@@ -320,11 +281,6 @@ def main():
     scan_cmd.add_argument("--out", default="data/glossary/review.json")
     scan_cmd.add_argument("--overwrite", action="store_true")
     scan_cmd.set_defaults(run=scan)
-    suggest_cmd = modes.add_parser("suggest", help="Chiede proposte a un modello Ollama locale")
-    suggest_cmd.add_argument("--review", default="data/glossary/review.json")
-    suggest_cmd.add_argument("--model", default="gemma4:12b", help="Modello locale Ollama (predefinito: gemma4:12b)")
-    suggest_cmd.add_argument("--limit", type=int, default=20)
-    suggest_cmd.set_defaults(run=suggest)
     apply_cmd = modes.add_parser("apply", help="Applica soltanto le proposte con status=approved")
     apply_cmd.add_argument("--review", default="data/glossary/review.json")
     apply_cmd.add_argument("--dry-run", action="store_true")

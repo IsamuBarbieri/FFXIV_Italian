@@ -110,7 +110,7 @@ Per tradurre senza sprecare token e con la massima precisione:
    ```
 2. **Tradurre il file generato in `data/batches/`**:
    - Utilizzare le istruzioni di [docs/PROMPT_COMPACT.md](file:///docs/PROMPT_COMPACT.md) (o [docs/TRANSLATION_PROMPT.md](file:///docs/TRANSLATION_PROMPT.md)) e il canone di [docs/STYLE_GUIDE.md](file:///docs/STYLE_GUIDE.md).
-   - Preservare inalterati tutti i codici esadecimali `<hex:...>` e i tag di formattazione SeString.
+   - Preservare i codici di controllo e i tag SeString. Se un tag `<hex:...>` contiene testo inglese visibile, tradurlo e ricodificare le lunghezze del payload come descritto in `docs/TRANSLATION_PROMPT.md`.
 3. **Importare il batch tradotto nel foglio master**:
    ```powershell
    dotnet run --project src/FFXIVItalian.Extractor -- import-batch addon data/batches/addon_batch_XXXXX.json
@@ -173,11 +173,11 @@ dotnet test
 ## Filosofia e Regole di Traduzione
 
 1. **Integrità Tecnica Assoluta**:
-   - Nessun tag di controllo SeString (`<hex:...>`, `<Sheet(...)>`, `<Highlight>`, ecc.) o carattere speciale Unicode (`\uE051`, `\uE052`, `\u203B`) deve essere rimosso o alterato.
+   - Nessun codice di controllo SeString (`<Sheet(...)>`, `<Highlight>`, ecc.) o carattere speciale Unicode (`\uE051`, `\uE052`, `\u203B`) deve essere rimosso o alterato. Il testo leggibile nei payload `<hex:...>` si traduce aggiornando le lunghezze e verificando la struttura.
 2. **Terminologia approvata**:
    - Consulta `data/glossary/Glossary.md`; ogni voce rimanda a una riga revisionata e le varianti hanno una nota d’uso.
    - `dotnet run --project src/FFXIVItalian.Extractor -- validate --review` segnala possibili incoerenze nei file completi non ancora approvati; aggiungi un percorso per controllare un solo file.
-   - Per raccogliere nuovi termini dai file approvati, cercare le occorrenze nel corpus e revisionare le frasi con un modello locale opzionale, segui [docs/TERMINOLOGY_REVIEW.md](docs/TERMINOLOGY_REVIEW.md).
+   - Per raccogliere nuovi termini dai file approvati, cercare le occorrenze nel corpus e revisionare le frasi in una chat di coding, segui [docs/TERMINOLOGY_REVIEW.md](docs/TERMINOLOGY_REVIEW.md).
 3. **Concordanza di Genere e Profilazione Vocale**:
    - Ove possibile, si utilizzano forme inclusive o macro native di genere FFXIV.
    - Ogni comprimario (Urianger, Thancred, Alphinaud, Y'shtola, Tataru, Estinien, Emet-Selch) segue il registro linguistico documentato nella guida di stile.

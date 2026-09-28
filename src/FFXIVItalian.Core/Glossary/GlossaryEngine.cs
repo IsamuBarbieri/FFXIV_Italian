@@ -26,14 +26,32 @@ public class GlossaryEngine
         ["Extreme Trial"] = "Prova Estrema"
     };
     private readonly List<GlossaryEntry> _entries = [];
+    private readonly Dictionary<string, (string Italian, string Reference)> _placeNames = new(StringComparer.OrdinalIgnoreCase);
     public IReadOnlyList<GlossaryEntry> Entries => _entries;
 
     public void AddEntry(GlossaryEntry entry) => _entries.Add(entry);
+
+    public void AddPlaceNames(IEnumerable<PlaceNameEntry> names)
+    {
+        foreach (var group in names.GroupBy(name => name.English, StringComparer.OrdinalIgnoreCase))
+        {
+            if (string.IsNullOrWhiteSpace(group.Key) || group.Key.Contains('<') || ActivityLabels.ContainsKey(group.Key) ||
+                _entries.Any(entry => entry.Category != GlossaryCategory.Place &&
+                    entry.EnglishTerm.Equals(group.Key, StringComparison.OrdinalIgnoreCase))) continue;
+            var variants = group.Select(name => name.Italian).Distinct(StringComparer.OrdinalIgnoreCase).ToArray();
+            if (variants.Length == 1 && !string.IsNullOrWhiteSpace(variants[0]))
+                _placeNames[group.Key] = (variants[0], $"world/placename.json#{group.First().RowId}:name");
+        }
+    }
 
     public GlossaryComplianceResult ValidateTranslation(string originalEn, string translatedIt)
     {
         var result = new GlossaryComplianceResult();
         if (string.IsNullOrWhiteSpace(originalEn) || string.IsNullOrWhiteSpace(translatedIt)) return result;
+
+        if (_placeNames.TryGetValue(originalEn.Trim(), out var place) &&
+            !translatedIt.Trim().Equals(place.Italian, StringComparison.OrdinalIgnoreCase))
+            result.Warnings.Add($"Luogo '{originalEn.Trim()}' → {place.Italian} (fonte: {place.Reference}).");
 
         if (ActivityLabels.TryGetValue(originalEn.Trim(), out var activityLabel) &&
             !translatedIt.Trim().Equals(activityLabel, StringComparison.OrdinalIgnoreCase))

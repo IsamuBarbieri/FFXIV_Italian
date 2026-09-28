@@ -9,6 +9,24 @@ public class GlossaryTests
     private readonly GlossaryCatalog _catalog = GlossaryLoader.LoadCanonical();
 
     [Fact]
+    public void AllApprovedPlaceNamesAreAvailableAndUniqueNamesAreChecked()
+    {
+        string root = FindRepoRoot();
+        using var doc = JsonDocument.Parse(File.ReadAllText(Path.Combine(root, "data", "translations", "world", "placename.json")));
+        Assert.Equal(doc.RootElement.EnumerateObject().Count(), _catalog.PlaceNames.Count);
+        foreach (var place in _catalog.PlaceNames)
+        {
+            var row = doc.RootElement.GetProperty(place.RowId);
+            Assert.Equal(row.GetProperty("name").GetString(), place.English);
+            Assert.Equal(row.GetProperty("translation").GetString(), place.Italian);
+        }
+        Assert.True(_catalog.Engine.ValidateTranslation("New Gridania", "Nuova Gridania").IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation("New Gridania", "Gridania Nuova").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation("Dzemael Darkhold", "Fortezza Oscura di Dzemael").IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation("Dzemael Darkhold", "Bastione Sotterraneo di Dzemael").IsCompliant);
+    }
+
+    [Fact]
     public void EveryEntryIsPresentInAnApprovedSource()
     {
         Assert.Equal(11, _catalog.ApprovedFiles.Count);

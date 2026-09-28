@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <EmbeddedResource Include="..\..\data\glossary\Glossary.md" LogicalName="FFXIVItalian.Core.Glossary.md" />
+    <EmbeddedResource Include="..\..\data\translations\world\placename.json" LogicalName="FFXIVItalian.Core.PlaceNames.json" />
   </ItemGroup>
 
 </Project>

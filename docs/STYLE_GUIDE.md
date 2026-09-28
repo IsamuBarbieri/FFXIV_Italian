@@ -19,7 +19,7 @@ Nel client di gioco non si usa la notazione `Italiano (Inglese)` (*es. non scriv
 Nei fogli dei gradi delle Grandi Compagnie usa un riferimento breve alla fazione (*Capitano della Fiamma*, *Sottotenente della Tempesta*, *Sottomaresciallo del Serpente*). Traduci anche `col_2` con il nome comune del grado in minuscolo (*capitano*, *sergente*); scegli la forma femminile nel foglio dedicato quando il grado la prevede.
 
 ### Regola B: Nomi e toponimi
-Per le rese dei nomi e dei luoghi usa le forme documentate in `data/glossary/Glossary.md`, con le note di contesto e le fonti indicate. Per i nomi non presenti, verifica la traduzione prima di introdurre una nuova convenzione.
+Per le rese dei nomi e dei luoghi usa le forme documentate in `data/glossary/Glossary.md`; per tutti i luoghi consulta anche il catalogo integrale `data/translations/world/placename.json` (`name` → `translation`). Per i nomi non presenti, verifica la traduzione prima di introdurre una nuova convenzione.
 
 ### Regola C: Ricerca della Lore e del Contesto Culturale (Wiki & Lorebook)
 I nomi, i toponimi, i mostri e i titoli delle missioni non devono **mai** essere tradotti in modo isolato o letterale. È obbligatorio verificare la lore del mondo di gioco attraverso le fonti canoniche (Wiki di FFXIV, Gamer Escape, ConsoleGamesWiki, Lodestone ed *Encyclopaedia Eorzea*):

@@ -1,8 +1,13 @@
 using System.Reflection;
+using System.Text.Json;
 
 namespace FFXIVItalian.Core.Glossary;
 
-public sealed record GlossaryCatalog(GlossaryEngine Engine, IReadOnlySet<string> ApprovedFiles);
+public sealed record GlossaryCatalog(GlossaryEngine Engine, IReadOnlySet<string> ApprovedFiles)
+{
+    public IReadOnlyList<PlaceNameEntry> PlaceNames { get; init; } = [];
+}
+public sealed record PlaceNameEntry(string RowId, string English, string Italian);
 
 public static class GlossaryLoader
 {
@@ -13,7 +18,17 @@ public static class GlossaryLoader
         using var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("FFXIVItalian.Core.Glossary.md")
             ?? throw new InvalidOperationException("Glossary.md incorporato non trovato.");
         using var reader = new StreamReader(stream);
-        return LoadFromMarkdown(reader);
+        var catalog = LoadFromMarkdown(reader);
+        using var places = Assembly.GetExecutingAssembly().GetManifestResourceStream("FFXIVItalian.Core.PlaceNames.json")
+            ?? throw new InvalidOperationException("placename.json incorporato non trovato.");
+        using var doc = JsonDocument.Parse(places);
+        var names = doc.RootElement.EnumerateObject()
+            .Select(row => new PlaceNameEntry(row.Name,
+                row.Value.GetProperty("name").GetString() ?? "",
+                row.Value.GetProperty("translation").GetString() ?? ""))
+            .ToArray();
+        catalog.Engine.AddPlaceNames(names);
+        return catalog with { PlaceNames = names };
     }
 
     public static GlossaryCatalog LoadFromMarkdown(TextReader reader)
