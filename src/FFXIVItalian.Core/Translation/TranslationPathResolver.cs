@@ -15,6 +15,9 @@ public static class TranslationPathResolver
         ["howto"] = "system",
         ["howtocategory"] = "system",
         ["baseparam"] = "system",
+        ["addontransient"] = "system",
+        ["description"] = "system",
+        ["descriptionstring"] = "system",
 
         // World
         ["placename"] = "world",
@@ -31,10 +34,18 @@ public static class TranslationPathResolver
         ["status"] = "combat",
         ["trait"] = "combat",
         ["traittransient"] = "combat",
+        ["actioncategory"] = "combat",
+        ["actioncomboroute"] = "combat",
+        ["actioncomboroutetransient"] = "combat",
+        ["aozactiontransient"] = "combat",
+        ["classjobactionuicategory"] = "combat",
 
         // Items
         ["item"] = "items",
         ["itemuicategory"] = "items",
+        ["itemsearchcategory"] = "items",
+        ["itemseries"] = "items",
+        ["itemspecialbonus"] = "items",
 
         // Dialogue & World Events
         ["balloon"] = "dialogue",

@@ -12,7 +12,7 @@ La localizzazione comprende anche alcune texture dell'interfaccia: le scritte in
 
 - **Righe Totali Censite ed Estratte**: **590.561 righe**
 - **Righe con almeno una traduzione**: **50.643** (il dato non misura i singoli campi)
-- **Stato dei file**: **5.890 da tradurre**, **33 da revisionare**, **11 approvati** nel glossario.
+- **Stato dei file**: **5.886 da tradurre**, **0 da revisionare**, **48 approvati** nel glossario.
 - **Quest Narrative Organizzate per Espansione**: **5.532 missioni** (ARR, Heavensward, Stormblood, Shadowbringers, Endwalker, Dawntrail)
 - **Fogli con traduzioni presenti** (la copertura per riga non certifica la revisione né la completezza di ogni campo):
   - `addon.json` (14.976/14.976 - 100%): Interfaccia grafica completa, finestre di sistema, HUD, opzioni, indicatori e notifiche di gioco.
@@ -53,9 +53,9 @@ La localizzazione comprende anche alcune texture dell'interfaccia: le scritte in
 | --- | --- |
 | `data/translations/da_tradurre/<categoria>/` | Fogli senza traduzioni; le quest narrative sono divise per espansione e numero. |
 | `data/translations/da_revisionare/<categoria>/` | Fogli con almeno una traduzione, anche se altre righe o colonne sono ancora in inglese. |
-| `data/translations/system/` e `world/` | Gli 11 file revisionati elencati nella sezione **File approvati** del [glossario](data/glossary/Glossary.md). |
+| `data/translations/<categoria>/` | I file revisionati e approvati elencati nella sezione **File approvati** del [glossario](data/glossary/Glossary.md); questi percorsi sono usati dal patcher in fase di build. |
 
-Le categorie comprendono `activities`, `combat`, `crafting`, `dialogue`, `housing`, `items`, `minigames`, `quests`, `shops`, `social`, `system` e `world`. Dopo un'importazione o una nuova estrazione, eseguire `python tools/organize_sheets.py` per aggiornare la posizione dei file. L'approvazione editoriale richiede una revisione e l'aggiunta del file al glossario.
+Le categorie comprendono `activities`, `combat`, `crafting`, `dialogue`, `housing`, `items`, `minigames`, `quests`, `shops`, `social`, `system` e `world`. Dopo un'importazione o una nuova estrazione, eseguire `python tools/organize_sheets.py` per aggiornare la posizione dei file. L'approvazione editoriale richiede una revisione e l'aggiunta del file al glossario. Il patcher compila i fogli con gestori dedicati e quelli standard configurati in `src/FFXIVItalian.Patcher/Program.cs`, leggendo i JSON approvati dalle rispettive cartelle di categoria.
 
 Dei 358 fogli nel catalogo precedente, 354 hanno prodotto JSON con testo inglese. I quattro ancora elencati nel [catalogo corrente](docs/UNEXTRACTED_SHEETS_CATALOG.txt) non contengono righe inglesi nel client attuale.
 
@@ -71,8 +71,11 @@ FFXIV_Italian/
 │   └── translations/              # Corpus JSON
 │       ├── da_tradurre/           # Nessuna traduzione; categorie e quest per espansione
 │       ├── da_revisionare/        # Almeno una traduzione, senza approvazione editoriale
-│       ├── system/                # Solo file revisionati e approvati
-│       └── world/                 # Solo file revisionati e approvati
+│       ├── combat/                # Fogli di combattimento approvati
+│       ├── items/                 # Fogli oggetti approvati
+│       ├── social/                # Fogli social approvati
+│       ├── system/                # Fogli di sistema approvati
+│       └── world/                 # Fogli del mondo approvati
 ├── docs/
 │   ├── ARCHITECTURE.md            # Architettura software, formati file e ciclo di vita patch
 │   ├── BATCH_TRANSLATION_GUIDE.md # Guida pratica alla traduzione a batch con AI o manuale

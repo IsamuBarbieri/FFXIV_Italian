@@ -49,6 +49,33 @@ def line_number(raw_text: str, json_path: str) -> Optional[int]:
     return raw_text.count("\n", 0, found.start()) + 1 if found else None
 
 
+def readable_hex_text(payload: bytes) -> bytes:
+    """Drop FF text-length headers before searching SeString payloads for English."""
+    readable = bytearray()
+    index = 0
+    while index < len(payload):
+        if payload[index] == 0xFF and index + 1 < len(payload):
+            marker = payload[index + 1]
+            if marker < 0xD0:
+                readable.append(0)
+                index += 2
+                continue
+            if marker == 0xF2 and index + 3 < len(payload):
+                readable.append(0)
+                index += 4
+                continue
+            if marker == 0xF0 and index + 5 < len(payload):
+                readable.append(0)
+                index += 6
+                continue
+            readable.append(0)
+            index += 1
+            continue
+        readable.append(payload[index])
+        index += 1
+    return bytes(readable)
+
+
 def untranslated_hex(original: str, translation: str) -> list[str]:
     """Find readable source text still present in the matching translated payload."""
     issues = []
@@ -60,9 +87,13 @@ def untranslated_hex(original: str, translation: str) -> list[str]:
         # 02 08/09 carry literal alternatives; other opcodes commonly contain sheet lookup keys.
         if source_bytes[:2] not in (b"\x02\x08", b"\x02\x09"):
             continue
-        for match in READABLE_HEX.finditer(source_bytes):
+        source_text = readable_hex_text(source_bytes)
+        target_text = readable_hex_text(target_bytes)
+        for match in READABLE_HEX.finditer(source_text):
             phrase = match.group().decode("ascii").strip(" ,.!?/-")
-            if phrase in HEX_IDENTIFIERS or phrase.encode("ascii") not in target_bytes:
+            encoded_phrase = phrase.encode("ascii")
+            whole_phrase = re.compile(rb"(?<![A-Za-z])" + re.escape(encoded_phrase) + rb"(?![A-Za-z])")
+            if phrase in HEX_IDENTIFIERS or not whole_phrase.search(target_text):
                 continue
             issues.append(f"untranslated text in hex tag {index}: {phrase[:80]}")
     return issues

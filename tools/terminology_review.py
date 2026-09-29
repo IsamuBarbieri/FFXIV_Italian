@@ -375,7 +375,7 @@ def reviewed_maintained_fields(path):
     """Load exact M field decisions from this tool's editable Markdown checklist."""
     path = Path(path)
     if not path.is_file():
-        return set()
+        return {}
     decisions = {}
     current = None
     action = ""

@@ -17,6 +17,43 @@ Fonte terminologica per le traduzioni future. Le voci derivano solo dai file rev
 - `world/race.json`
 - `world/tribe.json`
 - `world/weather.json`
+- `combat/action.json`
+- `combat/actioncategory.json`
+- `combat/actioncomboroute.json`
+- `combat/actioncomboroutetransient.json`
+- `combat/actiontransient.json`
+- `combat/aozactiontransient.json`
+- `combat/classjobactionuicategory.json`
+- `combat/status.json`
+- `combat/trait.json`
+- `items/itemsearchcategory.json`
+- `items/itemseries.json`
+- `items/itemspecialbonus.json`
+- `items/itemuicategory.json`
+- `social/fcreputation.json`
+- `system/baseparam.json`
+- `system/description.json`
+- `system/descriptionstring.json`
+- `system/error.json`
+- `system/logmessage.json`
+- `world/achievement.json`
+- `world/beastreputationrank.json`
+- `world/classjobcategory.json`
+- `world/fate.json`
+- `world/gcrankgridaniafemaletext.json`
+- `world/gcrankgridaniamaletext.json`
+- `world/gcranklimsafemaletext.json`
+- `world/gcranklimsamaletext.json`
+- `world/gcrankuldahfemaletext.json`
+- `world/gcrankuldahmaletext.json`
+- `world/grandcompany.json`
+- `world/guardiandeity.json`
+- `world/title.json`
+- `combat/traittransient.json`
+- `dialogue/customtalk.json`
+- `items/item.json`
+- `system/addontransient.json`
+- `system/textcommand.json`
 
 Per aggiungere un file: completarne la revisione, inserirlo in questo elenco e aggiungere solo termini riutilizzabili con una fonte `percorso#ID:campo`. Le varianti dello stesso termine restano righe separate con una nota di contesto. Forme grammaticali e frasi complete richiedono sempre una verifica nel contesto.
 
@@ -27,6 +64,8 @@ Per le **categorie di attività**: Quest = Missione; Subquest = Missione seconda
 Per le **fonoperle**: Linkshell = Fonoperla, Linkshells = Fonoperle; Cross-world Linkshell = Fonoperla Intermondo, Cross-world Linkshells = Fonoperle Intermondo. Nelle etichette numerate, `[1]`, `[2]` e così via indicano lo stesso schema; il numero resta invariato. In prosa usare la minuscola per i nomi comuni («una fonoperla intermondo», «le fonoperle»), adattando articoli, preposizioni e accordi. «Intermondo» qualifica le Fonoperle; Cross-world Party si traduce «Gruppo Intramondo». Le forme singolari senza numero sono convenzioni editoriali ricavate dalle etichette numerate, mentre le righe sotto riportano solo forme esattamente attestate. Nei nomi di funzione inglesi privi di articolo si può usare una forma italiana abbreviata senza articolo, se naturale: per esempio, Challenge Log = Registro Sfide.
 
 Per il sistema **glamour**: usare «illusione» al singolare e «illusioni» al plurale, adattando articoli e accordi. Le funzioni composte hanno le forme attestate sotto: Comò delle Illusioni, Piastra d'Illusione e Prisma delle Illusioni. In prosa usare le minuscole. «Glamour» in un nome proprio o in un contesto diverso richiede verifica; la sostituzione automatica non basta.
+
+Per i **nomi di incantesimi e gli aspetti elementali combat**, usare le radici canoniche italiane: Fire = Fuoco, Thunder = Tuono, Blizzard/Ice = Gelo, Water/Hydro = Idro, Wind/Aero = Aero, Earth/Stone = Pietra, Holy = Sancta. Per gli altri usi lessicali, scegliere la resa richiesta dal contesto. Mantenere Medica, tradurre Regen con Rigene e Limit Break con Trascendenza. Nei nomi delle azioni, usare le iniziali maiuscole per le parole del nome; articoli e preposizioni interne restano minuscoli. Non iniziare mai un nome d’azione con un articolo: ometterlo. Per i nomi con prefisso Ver-, scrivere la radice della magia con l’iniziale minuscola (Verfuoco, Vertuono, Veraero, Verpietra, Versancta). Tradurre Flare con Fusione anche nei composti (Mega Fusione, Giga Fusione, Tera Fusione e simili), mantenendo Lanciafiamme per Flarethrower. Usare Reiz per Raise e i suoi composti, quindi Verraise = Verreiz e Reraise = Reiz Automatico. Lasciare in forma romanizzata giapponese i nomi delle abilità di Ninja e Samurai e conservare i nomi latini (per esempio Fortis, Celeris, Alea Iacta Est, Aqua Vitae, Exodus, Imperator, Imperium, Lumen Infinitum, Lux Solaris, Memento Mori, Oculus, Spiritus e Tenebrae Lemurum). Queste scelte sono decisioni editoriali per i file combat in revisione, non attestazioni approvate del glossario.
 
 ## Voci
 
@@ -363,6 +402,7 @@ Catalogo integrale: `data/translations/world/placename.json`. Cercare il nome in
 | The Rising Stones | Le Pietre Risorte | `world/placename.json#481:name` |  |
 | Revenant's Toll | Pedaggio del Redivivo | `world/placename.json#411:name` |  |
 | Limsa Lominsa | Limsa Lominsa | `world/placename.json#27:name` |  |
+| Maelstrom | La Tempesta | `world/placename.json#1775:name` | Nome della compagnia; come sostantivo comune, «maelstrom» si traduce «vortice». |
 | Gridania | Gridania | `world/placename.json#39:name` |  |
 | Ul'dah | Ul'dah | `world/placename.json#51:name` |  |
 | Ishgard | Ishgard | `world/placename.json#62:name` |  |

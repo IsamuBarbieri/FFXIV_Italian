@@ -110,7 +110,8 @@ if (Directory.Exists(sqPackPath))
 
         // Fogli aggiunti con l'estrattore universale: stessa sequenza di colonne String dell'EXH.
         foreach (string sheet in new[] { "addontransient", "classjobactionuicategory", "classjobcategory",
-            "itemsearchcategory", "itemseries", "itemspecialbonus", "description", "descriptionstring" })
+            "item", "itemsearchcategory", "itemseries", "itemspecialbonus", "description", "descriptionstring",
+            "action", "actioncategory", "actioncomboroute", "actioncomboroutetransient", "aozactiontransient" })
         {
             string jsonPath = TranslationPathResolver.FindFile(translationsDir, sheet);
             if (!File.Exists(jsonPath)) continue;

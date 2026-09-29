@@ -13,6 +13,8 @@ python tools/terminology_review.py harvest --file system/addon.json --include-un
 
 I candidati finiscono nel file passato a `--out` (`data/glossary/candidates.json` per impostazione predefinita), ordinati per numero di attestazioni nel file approvato. Esaminare significato e ricorrenza; inserire nel glossario solo le voci riutilizzabili, con la fonte e le eventuali eccezioni. `harvest` non promuove automaticamente nessuna voce. `--include-unchanged` comprende anche i nomi mantenuti in inglese. Tutti i nomi di `world/placename.json` sono già parte del glossario completo dei luoghi; `system/maincommand.json` resta ricercabile con `scan --term` senza copiare tutte le etichette nella tabella.
 
+Per `combat/action.json`, attendere la revisione completa del foglio in `da_revisionare/combat/`. Solo dopo aggiungere `combat/action.json` a **File approvati** e lanciare `python tools/organize_sheets.py`; il file passerà in `data/translations/combat/`. A quel punto raccogliere i candidati con `python tools/terminology_review.py harvest --file combat/action.json --include-unchanged --limit 300 --out data/glossary/candidates_action.json` e selezionare a mano le rese riutilizzabili. Non approvare il foglio né usare le sue traduzioni automatiche come fonte canonica prima della revisione.
+
 ## 2. Creare una coda di revisione
 
 ```powershell
@@ -31,7 +33,7 @@ La scansione generale mostra al massimo cinque esempi per termine, così un nome
 
 Quando cambia un nome canonico, aggiornare prima la riga approvata e la corrispondente voce del glossario, poi eseguire `scan --term "NOME INGLESE" --old "VECCHIA FORMA" --include-approved`. Le fonti del glossario devono continuare a corrispondere al testo dei file approvati.
 
-Le segnalazioni sono ipotesi: l'assenza della forma letterale può essere una parafrasi corretta; una parola inglese può essere un nome proprio, un comando tecnico o avere un altro significato. La presenza della forma canonica non dimostra da sola che gli accordi siano giusti.
+Le segnalazioni sono ipotesi: l'assenza della forma letterale può essere una parafrasi corretta; una parola inglese può essere un nome proprio, un comando tecnico o avere un altro significato. La presenza della forma canonica non dimostra da sola che gli accordi siano giusti. Nei testi combat, per esempio, *maelstrom* può indicare un «vortice», *stacks* degli «accumuli», *landing* un attacco che va a segno e *feast* un banchetto in senso comune.
 
 ## 3. Revisionare nella chat di coding
 
