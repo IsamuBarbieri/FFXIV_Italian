@@ -13,7 +13,7 @@ python tools/terminology_review.py harvest --file system/addon.json --include-un
 
 I candidati finiscono nel file passato a `--out` (`data/glossary/candidates.json` per impostazione predefinita), ordinati per numero di attestazioni nel file approvato. Esaminare significato e ricorrenza; inserire nel glossario solo le voci riutilizzabili, con la fonte e le eventuali eccezioni. `harvest` non promuove automaticamente nessuna voce. `--include-unchanged` comprende anche i nomi mantenuti in inglese. Tutti i nomi di `world/placename.json` sono già parte del glossario completo dei luoghi; `system/maincommand.json` resta ricercabile con `scan --term` senza copiare tutte le etichette nella tabella.
 
-Per `combat/action.json`, attendere la revisione completa del foglio in `da_revisionare/combat/`. Solo dopo aggiungere `combat/action.json` a **File approvati** e lanciare `python tools/organize_sheets.py`; il file passerà in `data/translations/combat/`. A quel punto raccogliere i candidati con `python tools/terminology_review.py harvest --file combat/action.json --include-unchanged --limit 300 --out data/glossary/candidates_action.json` e selezionare a mano le rese riutilizzabili. Non approvare il foglio né usare le sue traduzioni automatiche come fonte canonica prima della revisione.
+Per `combat/action.json`, attendere la revisione completa del foglio in `data/da_revisionare/combat/`. Solo dopo aggiungere `combat/action.json` a **File approvati** e lanciare `python tools/organize_sheets.py`; il file passerà in `data/translations/combat/`. A quel punto raccogliere i candidati con `python tools/terminology_review.py harvest --file combat/action.json --include-unchanged --limit 300 --out data/glossary/candidates_action.json` e selezionare a mano le rese riutilizzabili. Non approvare il foglio né usare le sue traduzioni automatiche come fonte canonica prima della revisione.
 
 ## 2. Creare una coda di revisione
 
@@ -44,7 +44,7 @@ Aprire una chat di coding con GPT-6 Luna e chiedere:
 Il modello si sceglie nella chat, non nello script. Il file della coda resta `pending` finché il revisore non controlla le proposte. Per cercare inglese ancora presente dentro i tag hex, eseguire anche:
 
 ```powershell
-python scripts/scan_corrupted_values.py data/translations --report data/glossary/review_hex.json
+python scripts/scan_corrupted_values.py data/translations data/da_tradurre data/da_revisionare --report data/glossary/review_hex.json
 ```
 
 Il report indica file, riga e frammento leggibile rimasto identico nel payload originale e tradotto. Sono segnalazioni da verificare: alcuni nomi interni del bytecode e nomi propri devono restare invariati. Per tradurre un payload SeString, ricodificare il testo in UTF-8 e aggiornare le lunghezze dei blocchi senza alterare i codici di controllo. Il controllo di integrità ordinario segnala anche i tag hex cambiati intenzionalmente; verificare tali casi nel contesto.

@@ -864,7 +864,7 @@ if (achievementReplacements.Count > 0 && Directory.Exists(sqPackPath))
 }
 
 // 22. PATCH TRANSLATED QUESTS (anche nelle cartelle dello stato editoriale)
-var questFiles = Directory.GetFiles(translationsDir, "*.json", SearchOption.AllDirectories)
+var questFiles = TranslationPathResolver.GetCorpusFiles(translationsDir)
     .Where(path => int.TryParse(Path.GetFileName(Path.GetDirectoryName(path)), out _) &&
         path.Contains($"{Path.DirectorySeparatorChar}quests{Path.DirectorySeparatorChar}"));
 if (Directory.Exists(sqPackPath))

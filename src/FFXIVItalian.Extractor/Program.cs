@@ -361,7 +361,7 @@ ESEMPI:
         int totalEntries = 0;
         int totalIssues = 0;
 
-        foreach (var file in Directory.GetFiles(translationsDir, "*.json", SearchOption.AllDirectories))
+        foreach (var file in TranslationPathResolver.GetCorpusFiles(translationsDir))
         {
             string fileName = Path.GetRelativePath(translationsDir, file);
             Console.WriteLine($"--- Analisi: {fileName} ---");
@@ -454,7 +454,7 @@ ESEMPI:
             }
             files = [path];
         }
-        else files = Directory.GetFiles(translationsDir, "*.json", SearchOption.AllDirectories);
+        else files = TranslationPathResolver.GetCorpusFiles(translationsDir).ToArray();
 
         int scanned = 0, complete = 0, findings = 0;
         foreach (var file in files)
@@ -777,7 +777,7 @@ ESEMPI:
 
         var lumina = CreateLumina(sqpackPath);
         Console.WriteLine($"Estrazione Quest narrative (filtro: '{filter}')...");
-        Console.WriteLine($"Destinazione: {Path.Combine(translationsDir, "da_tradurre", "quests")} (o percorso esistente)");
+        Console.WriteLine($"Destinazione: {Path.Combine(TranslationPathResolver.GetStateDirectory(translationsDir, "da_tradurre"), "quests")} (o percorso esistente)");
         Console.WriteLine();
 
         var sw = System.Diagnostics.Stopwatch.StartNew();
@@ -875,7 +875,7 @@ ESEMPI:
         }
 
         var knownSheets = ExtractorRegistry.GetNames().ToHashSet(StringComparer.OrdinalIgnoreCase);
-        foreach (var file in Directory.GetFiles(FindTranslationsDir(), "*.json", SearchOption.AllDirectories))
+        foreach (var file in TranslationPathResolver.GetCorpusFiles(FindTranslationsDir()))
             knownSheets.Add(Path.GetFileNameWithoutExtension(file));
         var missingMasterSheets = textSheetNames
             .Where(s => !s.Name.Contains('/') && !knownSheets.Contains(s.Name))
@@ -924,7 +924,7 @@ ESEMPI:
             .ToList();
         var lumina = CreateLumina(sqpackPath);
         string translationsDir = FindTranslationsDir();
-        var existingNames = Directory.GetFiles(translationsDir, "*.json", SearchOption.AllDirectories)
+        var existingNames = TranslationPathResolver.GetCorpusFiles(translationsDir)
             .Select(Path.GetFileNameWithoutExtension)
             .ToHashSet(StringComparer.OrdinalIgnoreCase);
         int extracted = 0, empty = 0, failed = 0, existing = 0;
@@ -937,7 +937,7 @@ ESEMPI:
                 continue;
             }
 
-            string target = Path.Combine(translationsDir, "da_tradurre", "misc", $"{name.ToLowerInvariant()}.json");
+            string target = TranslationPathResolver.ResolveTargetPath(translationsDir, name, $"{name.ToLowerInvariant()}.json");
             try
             {
                 int rows = new UniversalSheetExtractor(name).ExtractAndSave(lumina, target);

@@ -4,7 +4,7 @@ Analisi del client locale e dello screenshot ricevuto il 27 settembre 2026. Il c
 
 ## Aggiornamento del corpus — 28 settembre 2026
 
-I 358 fogli del censimento originale sono stati passati all'estrattore: 354 hanno prodotto JSON con testo inglese e sono stati ordinati in `data/translations/da_tradurre/`. Quattro fogli (`ContentEntry`, `CutsceneName`, `LoadingTipsSub`, `PreHandler`) hanno prodotto zero righe con testo inglese e non sono stati salvati come JSON vuoti. Restano nel catalogo corrente perché hanno colonne String nell'EXH; vanno riprovati dopo gli aggiornamenti del client. Il corpus ora contiene 5.934 JSON e 590.561 righe. Gli 11 file approvati nel glossario rimangono in `system/` e `world/`; 33 file con traduzioni senza approvazione sono in `da_revisionare/`; 5.890 file senza traduzioni sono in `da_tradurre/`.
+I 358 fogli del censimento originale sono stati passati all'estrattore: 354 hanno prodotto JSON con testo inglese e sono stati ordinati in `data/da_tradurre/`. Quattro fogli (`ContentEntry`, `CutsceneName`, `LoadingTipsSub`, `PreHandler`) hanno prodotto zero righe con testo inglese e non sono stati salvati come JSON vuoti. Restano nel catalogo corrente perché hanno colonne String nell'EXH; vanno riprovati dopo gli aggiornamenti del client. Il corpus ora contiene 5.934 JSON e 590.561 righe. Gli 11 file approvati nel glossario rimangono in `data/translations/system/` e `data/translations/world/`; 33 file con traduzioni senza approvazione sono in `data/da_revisionare/`; 5.890 file senza traduzioni sono in `data/da_tradurre/`.
 
 ## Censimento originale — 27 settembre 2026
 
@@ -12,7 +12,7 @@ I 358 fogli del censimento originale sono stati passati all'estrattore: 354 hann
 
 - `root.exl`: 7.120 fogli testuali multilingua, compresi quest e dialoghi specifici.
 - Fogli master testuali non registrati al momento dell'analisi: 358. La presenza di una colonna testuale non implica che ogni riga contenga una frase da tradurre.
-- Nuovi fogli estratti allora: `AddonTransient` (595 righe), `ClassJobActionUICategory` (21), `ClassJobCategory` (188), `ItemSearchCategory` (92), `ItemSeries` (30), `ItemSpecialBonus` (8), `Description` (28), `DescriptionString` (1.646). I JSON sono ora in `data/translations/da_revisionare/` nelle rispettive categorie; il patcher include questi otto fogli. `python tools/validate_new_sheets.py` verifica che non restino campi pendenti e che i tag EXD siano preservati. La licenza Lua e gli avvisi di licenza sulle esibizioni in `AddonTransient` (173, 247, 1016) restano originali per richiesta dell'utente.
+- Nuovi fogli estratti allora: `AddonTransient` (595 righe), `ClassJobActionUICategory` (21), `ClassJobCategory` (188), `ItemSearchCategory` (92), `ItemSeries` (30), `ItemSpecialBonus` (8), `Description` (28), `DescriptionString` (1.646). I JSON sono ora in `data/da_revisionare/` nelle rispettive categorie; il patcher include questi otto fogli. `python tools/validate_new_sheets.py` verifica che non restino campi pendenti e che i tag EXD siano preservati. La licenza Lua e gli avvisi di licenza sulle esibizioni in `AddonTransient` (173, 247, 1016) restano originali per richiesta dell'utente.
 - `DescriptionString` 247 contiene già nel client inglese frammenti mancanti indicati da `[...]`; la traduzione conserva queste lacune senza inventare testo.
 - Il comando `status` del 27 settembre 2026 conta 437.561 righe nel corpus, 51.197 con almeno una traduzione e 386.364 pendenti. La percentuale per riga non equivale alla copertura dei singoli campi. Le otto nuove tabelle sono complete, ma il resto del gioco rimane ampiamente in inglese.
 
@@ -20,7 +20,7 @@ I 358 fogli del censimento originale sono stati passati all'estrattore: 354 hann
 
 | Testo visibile | Fonte accertata | Stato / azione necessaria |
 | --- | --- | --- |
-| `Ark Angel's Cuirass of Maiming` | `Item`, riga 44520, colonna stringa offset 12 | Già estratto in `da_revisionare/items/item.json`; `translation_col_3` vuoto. Il patcher non include alcuna pagina `Item`. |
+| `Ark Angel's Cuirass of Maiming` | `Item`, riga 44520, colonna stringa offset 12 | Già estratto in `data/da_revisionare/items/item.json`; `translation_col_3` vuoto. Il patcher non include alcuna pagina `Item`. |
 | `Paladin`, `Dragoon`, altri job | `ClassJob`, per esempio riga 19, offset 16 | Traduzioni presenti in `world/classjob.json`; il `.pmp` e la cartella Penumbra attiva contengono `Paladino`. Il motivo per cui lo screenshot mostra l'inglese richiede verifica in gioco del mod caricato e dell'eventuale cache. |
 | `Strength`, `Critical Hit`, `Direct Hit Rate` | `BaseParam` e alcune righe `Addon` | Traduzioni già presenti nei JSON e patch previste dal patcher. Anche qui lo screenshot non prova che manchi l'estrazione. |
 | `Item Level`, `Repair Level`, `Advanced Melding Forbidden` | `Addon` | Traduzioni già presenti nel JSON. Lo screenshot mostra alcune etichette italiane, ma non necessariamente la versione attuale delle traduzioni. |

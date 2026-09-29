@@ -10,10 +10,10 @@ Questo documento illustra l'architettura software, i flussi di dati e l'ingegner
 flowchart TD
     SqPack["FFXIV SqPack (.dat / .index)"] --> Extractor["FFXIVItalian.Extractor (Lumina 7.7)"]
     
-    subgraph Storage["data/translations/ (Corpus per stato editoriale)"]
+    subgraph Storage["data/"]
         pending["da_tradurre/ (nessuna traduzione)"]
         review["da_revisionare/ (traduzioni da revisionare)"]
-        approved["system/, world/ (file approvati)"]
+        approved["translations/ (file approvati)"]
     end
     
     Extractor --> Storage
@@ -85,9 +85,9 @@ Strumento per la manutenzione e il monitoraggio degli aggiornamenti di gioco:
 
 ---
 
-## 3. Organizzazione del Corpus (`data/translations/`)
+## 3. Organizzazione del Corpus (`data/`)
 
-I file sono divisi per stato editoriale. `da_tradurre/` contiene file senza traduzioni; `da_revisionare/` contiene file con almeno una traduzione non approvati; i file elencati nella sezione **File approvati** del glossario restano in `system/` e `world/`. Dentro ciascuno stato ci sono le categorie `activities`, `combat`, `crafting`, `dialogue`, `housing`, `items`, `minigames`, `quests`, `shops`, `social`, `system` e `world`. Le quest narrative usano `quests/<espansione>/<numero>/`; i fogli master relativi alle missioni sono in `quests/master/`.
+I file senza approvazione sono separati dal corpus approvato. `data/da_tradurre/` contiene file senza traduzioni; `data/da_revisionare/` contiene file con almeno una traduzione non approvati; i file elencati nella sezione **File approvati** del glossario restano in `data/translations/`, nelle categorie `system/`, `world/` e le altre aree. Dentro ciascuno stato editoriale ci sono le categorie `activities`, `combat`, `crafting`, `dialogue`, `housing`, `items`, `minigames`, `quests`, `shops`, `social`, `system` e `world`. Le quest narrative usano `quests/<espansione>/<numero>/`; i fogli master relativi alle missioni sono in `quests/master/`.
 
 Per aggiornare le cartelle dopo un'importazione o una nuova estrazione: `python tools/organize_sheets.py`. La presenza di una traduzione non equivale alla revisione, e un file parzialmente tradotto rimane in `da_revisionare/` finché non è approvato.
 
@@ -97,10 +97,10 @@ Percorsi esemplificativi:
 |---|---|---|
 | `system/` | Interfaccia revisionata | `addon.json`, `lobby.json` |
 | `world/` | Nomi revisionati | `classjob.json`, `placename.json` |
-| `da_revisionare/combat/` | Combattimento con traduzioni da verificare | `action.json`, `status.json` |
-| `da_revisionare/items/` | Oggetti con traduzioni da verificare | `item.json`, `itemuicategory.json` |
-| `da_tradurre/dialogue/` | Dialoghi senza traduzioni | `balloon.json`, `defaulttalk.json` |
-| `da_tradurre/quests/` | Quest narrative senza traduzioni | Per espansione e cartella numerica |
+| `data/da_revisionare/combat/` | Combattimento con traduzioni da verificare | `action.json`, `status.json` |
+| `data/da_revisionare/items/` | Oggetti con traduzioni da verificare | `item.json`, `itemuicategory.json` |
+| `data/da_tradurre/dialogue/` | Dialoghi senza traduzioni | `balloon.json`, `defaulttalk.json` |
+| `data/da_tradurre/quests/` | Quest narrative senza traduzioni | Per espansione e cartella numerica |
 
 ---
 

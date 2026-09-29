@@ -126,7 +126,7 @@ public static class BatchManager
             return;
         }
 
-        var allFiles = Directory.GetFiles(translationsDir, "*.json", SearchOption.AllDirectories).ToList();
+        var allFiles = TranslationPathResolver.GetCorpusFiles(translationsDir).ToList();
 
         // Categorize files
         static bool IsQuestFile(string path) =>

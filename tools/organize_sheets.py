@@ -6,8 +6,10 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-TRANSLATIONS = ROOT / "data" / "translations"
-GLOSSARY = ROOT / "data" / "glossary" / "Glossary.md"
+DATA = ROOT / "data"
+TRANSLATIONS = DATA / "translations"
+EDITORIAL_STATES = (DATA / "da_tradurre", DATA / "da_revisionare")
+GLOSSARY = DATA / "glossary" / "Glossary.md"
 
 # First matching area wins. Existing categorized sheets keep their area.
 AREAS = {
@@ -48,35 +50,36 @@ def main():
 
     moves = []
     counts = {"da_tradurre": 0, "da_revisionare": 0, "revisionati": 0}
-    for source in sorted(TRANSLATIONS.rglob("*.json")):
-        parts = source.relative_to(TRANSLATIONS).parts
-        category = area(source.stem, parts)
-        data = json.loads(source.read_text(encoding="utf-8-sig"))
-        translated = any(
-            isinstance(row, dict) and any(
-                key.startswith("translation") and isinstance(value, str) and value.strip()
-                for key, value in row.items()
+    for source_root in (TRANSLATIONS, *EDITORIAL_STATES):
+        for source in sorted(source_root.rglob("*.json")):
+            parts = source.relative_to(source_root).parts
+            category = area(source.stem, parts)
+            data = json.loads(source.read_text(encoding="utf-8-sig"))
+            translated = any(
+                isinstance(row, dict) and any(
+                    key.startswith("translation") and isinstance(value, str) and value.strip()
+                    for key, value in row.items()
+                )
+                for row in data.values()
             )
-            for row in data.values()
-        )
-        relative = f"{category}/{source.name}".lower()
-        if relative in approved:
-            state = "revisionati"
-            target = TRANSLATIONS / category / source.name
-        else:
-            state = "da_revisionare" if translated else "da_tradurre"
-            if category == "quests":
-                subpath = parts[parts.index("quests") + 1:-1] if "quests" in parts else ()
-                if not subpath or not subpath[-1].isdigit():
-                    subpath = ("master",)
+            relative = f"{category}/{source.name}".lower()
+            if relative in approved:
+                state = "revisionati"
+                target = TRANSLATIONS / category / source.name
             else:
-                subpath = ()
-            target = TRANSLATIONS / state / category / Path(*subpath) / source.name
-        counts[state] += 1
-        if source != target:
-            if target.exists():
-                raise FileExistsError(f"Destinazione già presente: {target}")
-            moves.append((source, target))
+                state = "da_revisionare" if translated else "da_tradurre"
+                if category == "quests":
+                    subpath = parts[parts.index("quests") + 1:-1] if "quests" in parts else ()
+                    if not subpath or not subpath[-1].isdigit():
+                        subpath = ("master",)
+                else:
+                    subpath = ()
+                target = DATA / state / category / Path(*subpath) / source.name
+            counts[state] += 1
+            if source != target:
+                if target.exists():
+                    raise FileExistsError(f"Destinazione già presente: {target}")
+                moves.append((source, target))
 
     for source, target in moves:
         target.parent.mkdir(parents=True, exist_ok=True)

@@ -2,6 +2,23 @@ namespace FFXIVItalian.Core.Translation;
 
 public static class TranslationPathResolver
 {
+    private static readonly string[] EditorialStates = ["da_tradurre", "da_revisionare"];
+
+    public static string GetStateDirectory(string translationsDir, string state)
+    {
+        string fullPath = Path.GetFullPath(translationsDir);
+        string dataDir = Directory.GetParent(fullPath)?.FullName ?? fullPath;
+        return Path.Combine(dataDir, state);
+    }
+
+    public static string[] GetCorpusDirectories(string translationsDir) =>
+        [translationsDir, .. EditorialStates.Select(state => GetStateDirectory(translationsDir, state))];
+
+    public static IEnumerable<string> GetCorpusFiles(string translationsDir, string searchPattern = "*.json") =>
+        GetCorpusDirectories(translationsDir)
+            .Where(Directory.Exists)
+            .SelectMany(directory => Directory.GetFiles(directory, searchPattern, SearchOption.AllDirectories));
+
     private static readonly Dictionary<string, string> KnownCategories = new(StringComparer.OrdinalIgnoreCase)
     {
         // System
@@ -93,12 +110,12 @@ public static class TranslationPathResolver
         if (File.Exists(existing)) return existing;
 
         string subDir = GetTargetSubdirectory(sheetName);
-        return Path.Combine(translationsDir, "da_tradurre", subDir, fileName);
+        return Path.Combine(GetStateDirectory(translationsDir, "da_tradurre"), subDir, fileName);
     }
 
     public static string FindFile(string translationsDir, string sheetNameOrRelativePath)
     {
-        if (string.IsNullOrWhiteSpace(translationsDir) || !Directory.Exists(translationsDir))
+        if (string.IsNullOrWhiteSpace(translationsDir))
             return Path.Combine(translationsDir ?? "", sheetNameOrRelativePath);
 
         string fileName = sheetNameOrRelativePath.EndsWith(".json", StringComparison.OrdinalIgnoreCase)
@@ -128,15 +145,17 @@ public static class TranslationPathResolver
             string targetSub = GetTargetSubdirectory(rawSheet);
             string questPath = Path.Combine(translationsDir, targetSub, justName);
             if (File.Exists(questPath)) return questPath;
-            foreach (string state in new[] { "da_tradurre", "da_revisionare" })
+            foreach (string state in EditorialStates)
             {
                 questPath = Path.Combine(translationsDir, state, targetSub, justName);
+                if (File.Exists(questPath)) return questPath;
+                questPath = Path.Combine(GetStateDirectory(translationsDir, state), targetSub, justName);
                 if (File.Exists(questPath)) return questPath;
             }
         }
 
         // 4. Search AllDirectories
-        var match = Directory.GetFiles(translationsDir, justName, SearchOption.AllDirectories).FirstOrDefault();
+        var match = GetCorpusFiles(translationsDir, justName).FirstOrDefault();
         if (match != null) return match;
 
         // 5. Default path

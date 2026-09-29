@@ -11,20 +11,21 @@ public class ExtractorTests
     [Fact]
     public void TranslationPaths_KeepMovedQuestsAndPlaceNewSheetsInPendingArea()
     {
-        string root = Path.Combine(Path.GetTempPath(), "FFXIV_PathTest_" + Path.GetRandomFileName());
-        string quest = Path.Combine(root, "da_tradurre", "quests", "arr", "000", "ClsArc000_00021.json");
+        string temp = Path.Combine(Path.GetTempPath(), "FFXIV_PathTest_" + Path.GetRandomFileName());
+        string root = Path.Combine(temp, "data", "translations");
+        string quest = Path.Combine(temp, "data", "da_tradurre", "quests", "arr", "000", "ClsArc000_00021.json");
         Directory.CreateDirectory(Path.GetDirectoryName(quest)!);
         try
         {
             File.WriteAllText(quest, "{}");
             Assert.Equal(quest, TranslationPathResolver.FindFile(root, "quest/000/ClsArc000_00021"));
             Assert.Equal(quest, TranslationPathResolver.ResolveTargetPath(root, "quest/000/ClsArc000_00021"));
-            Assert.Equal(Path.Combine(root, "da_tradurre", "misc", "newthings.json"),
+            Assert.Equal(Path.Combine(temp, "data", "da_tradurre", "misc", "newthings.json"),
                 TranslationPathResolver.ResolveTargetPath(root, "NewThings"));
         }
         finally
         {
-            Directory.Delete(root, recursive: true);
+            Directory.Delete(temp, recursive: true);
         }
     }
 

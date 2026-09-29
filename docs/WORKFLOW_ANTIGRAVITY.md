@@ -9,7 +9,7 @@ Ottimizzato per **zero overhead di token**, **nessun subagente**, **zero split/f
 
 1. **Traduzione Sequenziale In-Place**:
    - Non si creano file batch temporanei né si usano script di split.
-   - Si lavora direttamente sul file master (`data/translations/...`).
+   - Si lavora direttamente sul file master (`data/da_revisionare/...` o `data/translations/...`).
    - Si individuano le voci pendenti (campo `translation` vuoto `""` o non tradotto) in ordine numerico/sequenziale di ID.
 2. **Salvataggio Progressivo & Ciclo Continuo ad Oltranza**:
    - L'agente traduce e scrive a blocchi consecutivi direttamente nel file JSON su disco.

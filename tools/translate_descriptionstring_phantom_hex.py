@@ -4,7 +4,7 @@ import json
 import pathlib
 import re
 
-PATH = pathlib.Path(__file__).resolve().parents[1] / "data/translations/da_revisionare/system/descriptionstring.json"
+PATH = pathlib.Path(__file__).resolve().parents[1] / "data/da_revisionare/system/descriptionstring.json"
 TAG = re.compile(r"<hex:([0-9A-Fa-f]+)>")
 SLOT = re.compile(r"\{@(\d+)\}")
 

@@ -9,7 +9,9 @@ import subprocess
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-TRANSLATIONS = ROOT / "data" / "translations"
+DATA = ROOT / "data"
+TRANSLATIONS = DATA / "translations"
+EDITORIAL_STATES = (DATA / "da_tradurre", DATA / "da_revisionare")
 CONNECTORS = set("""
     a an the of to in on and or for with at by from as is are it its you your
     i we us me my he she his her if not il lo la gli le un uno una l d di da
@@ -78,7 +80,10 @@ def completed_sheets():
         columns = line.split()
         if line.rstrip().endswith("[COMPLETO]") and len(columns) > 1 and columns[1].endswith(".json"):
             names.add(columns[1])
-    return {path for path in TRANSLATIONS.rglob("*.json") if path.name in names}
+    return {
+        path for base in (TRANSLATIONS, *EDITORIAL_STATES) if base.exists()
+        for path in base.rglob("*.json") if path.name in names
+    }
 
 
 def collect_changes(paths):

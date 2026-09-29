@@ -199,7 +199,7 @@ def collect_files(inputs: list) -> list:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Scansiona JSON FFXIV alla ricerca di valori corrotti.")
-    parser.add_argument("paths", nargs="*", default=["data/translations"], help="File o directory JSON da scansionare.")
+    parser.add_argument("paths", nargs="*", default=["data/translations", "data/da_tradurre", "data/da_revisionare"], help="File o directory JSON da scansionare.")
     parser.add_argument("--report", type=Path, help="Salva i risultati completi in un report JSON.")
     parser.add_argument("--no-compare", action="store_true", help="Non confrontare i tag hex tra original e translation.")
     parser.add_argument("--originals-only", action="store_true", help="Analizza solo i valori sorgente nel campo original.")
