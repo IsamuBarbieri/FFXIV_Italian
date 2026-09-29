@@ -32,17 +32,29 @@ CATEGORY_TEXT = {
     "Any Disciple of War (excluding gladiators)": "Qualsiasi Discepolo della Guerra (esclusi i Gladiatori)",
     "Any Disciple of the Hand (excluding culinarians)": "Qualsiasi Discepolo della Mano (esclusi i Cuochi)",
     "Jobs of the Disciples of War or Magic": "Job dei Discepoli della Guerra o della Magia",
-    "All classes and jobs (excluding limited jobs)": "Tutte le Classi e i Job (esclusi i Job limitati)",
-    "Any Disciple of War or Magic (excluding limited jobs)": "Qualsiasi Discepolo della Guerra o della Magia (esclusi i Job limitati)",
-    "Disciples of War (excluding limited jobs)": "Discepoli della Guerra (esclusi i Job limitati)",
-    "Any Disciple of Magic (excluding limited jobs)": "Qualsiasi Discepolo della Magia (esclusi i Job limitati)",
-    "Any job of the Disciples of War or Magic (excluding limited jobs)": "Qualsiasi Job dei Discepoli della Guerra o della Magia (esclusi i Job limitati)",
-    "Tank (excluding limited jobs)": "Difensori (esclusi i Job limitati)",
-    "Healer (excluding limited jobs)": "Curatori (esclusi i Job limitati)",
-    "Physical DPS (excluding limited jobs)": "DPS fisici (esclusi i Job limitati)",
-    "Melee DPS (excluding limited jobs)": "DPS da mischia (esclusi i Job limitati)",
-    "Physical Ranged DPS (excluding limited jobs)": "DPS fisici a distanza (esclusi i Job limitati)",
-    "Magical Ranged DPS (excluding limited jobs)": "DPS magici a distanza (esclusi i Job limitati)",
+    "All classes and jobs (excluding limited jobs)": "Tutte le classi e i job (esclusi i job limitati)",
+    "Any Disciple of War or Magic (excluding limited jobs)": "Qualsiasi Discepolo della Guerra o della Magia (esclusi i job limitati)",
+    "Disciples of War (excluding limited jobs)": "Discepoli della Guerra (esclusi i job limitati)",
+    "Any Disciple of Magic (excluding limited jobs)": "Qualsiasi Discepolo della Magia (esclusi i job limitati)",
+    "Any job of the Disciples of War or Magic (excluding limited jobs)": "Qualsiasi job dei Discepoli della Guerra o della Magia (esclusi i job limitati)",
+    "Tank (excluding limited jobs)": "Difensori (esclusi i job limitati)",
+    "Healer (excluding limited jobs)": "Curatori (esclusi i job limitati)",
+    "Physical DPS (excluding limited jobs)": "DPS fisici (esclusi i job limitati)",
+    "Melee DPS (excluding limited jobs)": "DPS da mischia (esclusi i job limitati)",
+    "Physical Ranged DPS (excluding limited jobs)": "DPS fisici a distanza (esclusi i job limitati)",
+    "Magical Ranged DPS (excluding limited jobs)": "DPS magici a distanza (esclusi i job limitati)",
+}
+
+JOB_ABBREVIATIONS = {
+    "GLA": "GLD", "PGL": "PGL", "MRD": "INC", "LNC": "LNC", "ARC": "ARC",
+    "CNJ": "INT", "THM": "TMR", "CRP": "FLG", "BSM": "FBR", "ARM": "ARM",
+    "GSM": "ORF", "LTW": "NCT", "WVR": "TST", "ALC": "ALC", "CUL": "CUC",
+    "MIN": "MNT", "BTN": "BTN", "FSH": "PSC", "PLD": "PLD", "MNK": "MNC",
+    "WAR": "GUE", "DRG": "DRG", "BRD": "BRD", "WHM": "MBN", "BLM": "MNR",
+    "ACN": "ACN", "SMN": "EVC", "SCH": "STD", "ROG": "FRT", "NIN": "NJA",
+    "MCH": "ART", "DRK": "CVS", "AST": "AST", "SAM": "SMR", "RDM": "MGR",
+    "BLU": "MBL", "GNB": "ETR", "DNC": "DNZ", "RPR": "MTR", "SGE": "SGO",
+    "VPR": "VPR", "PCT": "PTM", "BST": "DMT",
 }
 
 ITEM_SEARCH = {
@@ -169,7 +181,7 @@ def main():
     for row in rows.values():
         original = row["original"]
         if re.fullmatch(r"[A-Z]{3}(?:[ ,]+[A-Z]{3})*", original):
-            row["translation"] = original  # Official job abbreviations remain usable.
+            row["translation"] = re.sub(r"[A-Z]{3}", lambda m: JOB_ABBREVIATIONS[m.group()], original)
         elif original in CATEGORY_TEXT:
             row["translation"] = CATEGORY_TEXT[original]
         elif not row["translation"]:

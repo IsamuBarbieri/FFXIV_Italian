@@ -345,7 +345,7 @@
   },
   "89": {
     "original": "Unable to update the character list. Please try another data center, or try again later.",
-    "translation": "Impossibile aggiornare l'elenco dei personaggi. Prova con un altro centro dati o riprova più tardi."
+    "translation": "Impossibile aggiornare l'elenco dei personaggi. Prova con un altro data center o riprova più tardi."
   },
   "90": {
     "original": "<hex:022B2EFF2C020828E4EB02EB03FF04796F75FF1C020818E908FF1202310EFF074F626A53747203E908020203EB03030303> <hex:020811E4EB02EB03FF0568617665FF0468617303> declined the linkshell invite to “<hex:020816E909FF1002280CFF074F626A537472E9090103EB0403>.”",
@@ -377,11 +377,11 @@
   },
   "97": {
     "original": "Updating online status to Away from Keyboard.",
-    "translation": "Aggiornamento dello stato online su Assente dalla tastiera."
+    "translation": "Aggiornamento dello stato online ad Assente dalla tastiera."
   },
   "98": {
     "original": "Updating online status. No longer away from keyboard.",
-    "translation": "Aggiornamento dello stato online. Non più assente dalla tastiera."
+    "translation": "Aggiornamento dello stato online. Non sei più assente dalla tastiera."
   },
   "99": {
     "original": "Unable to join party. The player seeking recruits is on your blacklist.",
@@ -1481,7 +1481,7 @@
   },
   "382": {
     "original": "Unable to send mail. You have no friends who share the same Home World.",
-    "translation": "Impossibile inviare la lettera. Non hai amici che condividono lo stesso Mondo d'origine."
+    "translation": "Impossibile inviare la lettera. Non hai amici che condividono lo stesso Mondo d'Origine."
   },
   "383": {
     "original": "<hex:022B2EFF2C020828E4EB02EB03FF04796F75FF1C020818E908FF1202310EFF074F626A53747203E908020203EB03030303> <hex:02080FE4EB02EB03FF04617265FF03697303> no longer a leader of “<hex:022903EA0203>.”",
@@ -1653,7 +1653,7 @@
   },
   "428": {
     "original": "Unable to delete character. You must first log out from your Home World.",
-    "translation": "Impossibile eliminare il personaggio. Devi prima disconnetterti dal tuo mondo d'origine."
+    "translation": "Impossibile eliminare il personaggio. Devi prima disconnetterti dal tuo Mondo d'Origine."
   },
   "429": {
     "original": "Unable to retrieve results.",
@@ -2765,7 +2765,7 @@
   },
   "709": {
     "original": "Unable to change gear. Insufficient Armoury Chest space.",
-    "translation": "Impossibile cambiare equipaggiamento. Spazio insufficiente nell'Armoury Chest."
+    "translation": "Impossibile cambiare equipaggiamento. Spazio insufficiente nell'Armeria."
   },
   "710": {
     "original": "Equip a main arm first.",
@@ -2817,7 +2817,7 @@
   },
   "722": {
     "original": "Unable to change classes. Insufficient Armoury Chest space.",
-    "translation": "Impossibile cambiare classe. Spazio insufficiente nell'Armoury Chest."
+    "translation": "Impossibile cambiare classe. Spazio insufficiente nell'Armeria."
   },
   "723": {
     "original": "The selling price for this item has changed.",
@@ -2917,7 +2917,7 @@
   },
   "747": {
     "original": "Unable to unequip gear. Insufficient Armoury Chest space.",
-    "translation": "Impossibile rimuovere l'equipaggiamento. Spazio insufficiente nell'Armoury Chest."
+    "translation": "Impossibile rimuovere l'equipaggiamento. Spazio insufficiente nell'Armeria."
   },
   "748": {
     "original": "<hex:022B12FF1002310CFF054974656D03E80302020303> you put up for sale in the <hex:02280AFF05546F776EE8020103> markets has sold for <hex:022206E806FF022C03> gil (after fees).",
@@ -2965,7 +2965,7 @@
   },
   "759": {
     "original": "Unable to equip “<hex:022903EA0203>.” Insufficient Armoury Chest space.",
-    "translation": "Impossibile equipaggiare “<hex:022903EA0203>”. Spazio insufficiente nell'Armoury Chest."
+    "translation": "Impossibile equipaggiare “<hex:022903EA0203>”. Spazio insufficiente nell'Armeria."
   },
   "760": {
     "original": "Unable to equip “<hex:022903EA0203>.” One or more items missing.",
@@ -2977,7 +2977,7 @@
   },
   "762": {
     "original": "Unable to restore previous gear. Insufficient Armoury Chest space.",
-    "translation": "Impossibile ripristinare l'equipaggiamento precedente. Spazio insufficiente nell'Armoury Chest."
+    "translation": "Impossibile ripristinare l'equipaggiamento precedente. Spazio insufficiente nell'Armeria."
   },
   "763": {
     "original": "Unable to restore previous gear. One or more items missing.",
@@ -3069,19 +3069,19 @@
   },
   "785": {
     "original": "Your Armoury Chest is full.",
-    "translation": "L'Armoury Chest è piena."
+    "translation": "L'Armeria è piena."
   },
   "786": {
     "original": "Only gear can be placed in your Armoury Chest.",
-    "translation": "È possibile inserire solo equipaggiamento nell'Armoury Chest."
+    "translation": "È possibile inserire solo equipaggiamento nell'Armeria."
   },
   "787": {
     "original": "Gear must be placed in its proper Armoury Chest slot.",
-    "translation": "L'equipaggiamento deve essere inserito nel rispettivo slot dell'Armoury Chest."
+    "translation": "L'equipaggiamento deve essere inserito nel rispettivo slot dell'Armeria."
   },
   "788": {
     "original": "<hex:022B12FF1002310CFF054974656D03E80202020303> is placed in your Armoury Chest.",
-    "translation": "<hex:022B12FF1002310CFF054974656D03E80202020303> viene inserito nell'Armoury Chest."
+    "translation": "<hex:022B12FF1002310CFF054974656D03E80202020303> viene inserito nell'Armeria."
   },
   "789": {
     "original": "<hex:022B12FF1002310CFF054974656D03E80202020303> is added to your inventory.",
@@ -3125,7 +3125,7 @@
   },
   "800": {
     "original": "Text pasting is currently disabled. To enable this feature, go to <hex:0242020203> Settings in System Configuration.",
-    "translation": "L'incolla del testo è attualmente disabilitato. Per attivarlo, vai alle impostazioni <hex:0242020203> in Configurazione del Sistema."
+    "translation": "L'incolla del testo è attualmente disabilitato. Per attivarlo, vai alle impostazioni <hex:0242020203> in Configurazione di Sistema."
   },
   "801": {
     "original": "Changes saved.",
@@ -3229,7 +3229,7 @@
   },
   "826": {
     "original": "HUD layout changes saved.",
-    "translation": "Modifiche al layout dell'HUD salvate."
+    "translation": "Modifiche alla disposizione dell'HUD salvate."
   },
   "827": {
     "original": "Window size changed to <hex:022003E80203>%.",
@@ -3685,23 +3685,23 @@
   },
   "941": {
     "original": "Unable to change party leadership while using the Party Finder.",
-    "translation": "Impossibile cambiare il capogruppo mentre si usa il Party Finder."
+    "translation": "Impossibile cambiare il capogruppo mentre si usa la Ricerca Gruppo."
   },
   "942": {
     "original": "Unable to invite. You are currently using the Party Finder.",
-    "translation": "Impossibile invitare. Stai attualmente usando il Party Finder."
+    "translation": "Impossibile invitare. Stai attualmente usando la Ricerca Gruppo."
   },
   "943": {
     "original": "Unable to invite. That player is currently using the Party Finder.",
-    "translation": "Impossibile invitare. Quel giocatore sta attualmente usando il Party Finder."
+    "translation": "Impossibile invitare. Quel giocatore sta attualmente usando la Ricerca Gruppo."
   },
   "944": {
     "original": "Invite canceled. That player is currently using the Party Finder.",
-    "translation": "Invito annullato. Quel giocatore sta attualmente usando il Party Finder."
+    "translation": "Invito annullato. Quel giocatore sta attualmente usando la Ricerca Gruppo."
   },
   "945": {
     "original": "Invite canceled. You are currently using the Party Finder.",
-    "translation": "Invito annullato. Stai attualmente usando il Party Finder."
+    "translation": "Invito annullato. Stai attualmente usando la Ricerca Gruppo."
   },
   "946": {
     "original": "A player could not join your party. Dismiss companion and try again.",
@@ -3709,7 +3709,7 @@
   },
   "947": {
     "original": "The Party Finder has closed due to changes within the party.",
-    "translation": "Il Party Finder è stato chiuso a causa di modifiche all'interno del gruppo."
+    "translation": "La Ricerca Gruppo è stata chiusa a causa di modifiche all'interno del gruppo."
   },
   "948": {
     "original": "Unable to join party due to the presence of a companion. The leader has been notified. Please try again later.",
@@ -3721,11 +3721,11 @@
   },
   "951": {
     "original": "Unable to obtain achievement data. Try again later.",
-    "translation": "Impossibile ottenere i dati dei traguardi. Riprova più tardi."
+    "translation": "Impossibile ottenere i dati degli obiettivi. Riprova più tardi."
   },
   "952": {
     "original": "<hex:022B2EFF2C020828E4EB02EB03FF04796F75FF1C020818E908FF1202310EFF074F626A53747203E908020203EB03030303> <hex:020813E4EB02EB03FF056561726EFF066561726E7303> the achievement “<hex:022811FF0C416368696576656D656E74E8020203>”!",
-    "translation": "<hex:02083EE4EB02EB03FF0A5261676769756E6769FF2C022B1EFF1C020818E908FF1202310EFF074F626A53747203E908020203EB030303207261676769756E676503> il traguardo “<hex:022811FF0C416368696576656D656E74E8020203>”!"
+    "translation": "<hex:02083EE4EB02EB03FF0A5261676769756E6769FF2C022B1EFF1C020818E908FF1202310EFF074F626A53747203E908020203EB030303207261676769756E676503> l'obiettivo “<hex:022811FF0C416368696576656D656E74E8020203>”!"
   },
   "953": {
     "original": "中毒防止制限中のためアチーヴメント報酬を受け取れません。",
@@ -3733,19 +3733,19 @@
   },
   "954": {
     "original": "The Duty Finder and the Party Finder cannot be used simultaneously.",
-    "translation": "Non è possibile usare contemporaneamente la Ricerca Incarichi e il Party Finder."
+    "translation": "Non è possibile usare contemporaneamente la Ricerca Incarichi e la Ricerca Gruppo."
   },
   "955": {
     "original": "Unable to commence quest battle while using the Party Finder.",
-    "translation": "Impossibile iniziare la battaglia di missione mentre si usa il Party Finder."
+    "translation": "Impossibile iniziare la battaglia di missione mentre si usa la Ricerca Gruppo."
   },
   "956": {
     "original": "Unable to process Party Finder comment.",
-    "translation": "Impossibile elaborare il commento del Party Finder."
+    "translation": "Impossibile elaborare il commento della Ricerca Gruppo."
   },
   "957": {
     "original": "The Duty Finder and the Party Finder cannot be used simultaneously.",
-    "translation": "Non è possibile usare contemporaneamente la Ricerca Incarichi e il Party Finder."
+    "translation": "Non è possibile usare contemporaneamente la Ricerca Incarichi e la Ricerca Gruppo."
   },
   "958": {
     "original": "Unable to retrieve party member information.",
@@ -3773,7 +3773,7 @@
   },
   "965": {
     "original": "Only the party leader can use the Party Finder.",
-    "translation": "Solo il capogruppo può usare il Party Finder."
+    "translation": "Solo il capogruppo può usare la Ricerca Gruppo."
   },
   "966": {
     "original": "No party recruitment is in progress.",
@@ -4585,7 +4585,7 @@
   },
   "1178": {
     "original": "Proof of completion recorded in crafting log!",
-    "translation": "Prova di completamento registrata nel registro di creazione!"
+    "translation": "Prova di completamento registrata nel registro di fabbricazione!"
   },
   "1179": {
     "original": "The materials no longer hold a specific aspect.",
@@ -4621,11 +4621,11 @@
   },
   "1187": {
     "original": "A page on carpentry has been added to your crafting log.",
-    "translation": "Una pagina di falegnameria è stata aggiunta al tuo registro di creazione."
+    "translation": "Una pagina di falegnameria è stata aggiunta al tuo registro di fabbricazione."
   },
   "1188": {
     "original": "A page on leatherworking has been added to your crafting log.",
-    "translation": "Una pagina di concia è stata aggiunta al tuo registro di creazione."
+    "translation": "Una pagina di concia è stata aggiunta al tuo registro di fabbricazione."
   },
   "1189": {
     "original": "You cannot craft any more. Perhaps it is time for a break.",
@@ -4637,31 +4637,31 @@
   },
   "1191": {
     "original": "A page on weaving has been added to your crafting log.",
-    "translation": "Una pagina di tessitura è stata aggiunta al tuo registro di creazione."
+    "translation": "Una pagina di tessitura è stata aggiunta al tuo registro di fabbricazione."
   },
   "1192": {
     "original": "A page on alchemy has been added to your crafting log.",
-    "translation": "Una pagina di alchimia è stata aggiunta al tuo registro di creazione."
+    "translation": "Una pagina di alchimia è stata aggiunta al tuo registro di fabbricazione."
   },
   "1193": {
     "original": "A page on goldsmithing has been added to your crafting log.",
-    "translation": "Una pagina di oreficeria è stata aggiunta al tuo registro di creazione."
+    "translation": "Una pagina di oreficeria è stata aggiunta al tuo registro di fabbricazione."
   },
   "1194": {
     "original": "A page on cooking has been added to your crafting log.",
-    "translation": "Una pagina di cucina è stata aggiunta al tuo registro di creazione."
+    "translation": "Una pagina di cucina è stata aggiunta al tuo registro di fabbricazione."
   },
   "1195": {
     "original": "A page on blacksmithing has been added to your crafting log.",
-    "translation": "Una pagina di fabbro è stata aggiunta al tuo registro di creazione."
+    "translation": "Una pagina di fabbro è stata aggiunta al tuo registro di fabbricazione."
   },
   "1196": {
     "original": "A page on armoring has been added to your crafting log.",
-    "translation": "Una pagina di corazzaio è stata aggiunta al tuo registro di creazione."
+    "translation": "Una pagina di corazzaio è stata aggiunta al tuo registro di fabbricazione."
   },
   "1197": {
     "original": "A page on fishing has been added to your crafting log.",
-    "translation": "Una pagina di pesca è stata aggiunta al tuo registro di creazione."
+    "translation": "Una pagina di pesca è stata aggiunta al tuo registro di fabbricazione."
   },
   "1198": {
     "original": "Unable to craft. Insufficient craftsmanship rating.",
@@ -4957,7 +4957,7 @@
   },
   "1272": {
     "original": "You have arrived at a vista! Record it in your sightseeing log by using the emote “<hex:02280BFF06456D6F7465E8020103>.”",
-    "translation": "Sei arrivato a un panorama! Registralo nel tuo diario di esplorazione usando l'emote “<hex:02280BFF06456D6F7465E8020103>”."
+    "translation": "Sei arrivato a un panorama! Registralo nel tuo Diario Esplorazione usando l'emote “<hex:02280BFF06456D6F7465E8020103>”."
   },
   "1273": {
     "original": "You have strayed too far from the vista.",
@@ -4965,7 +4965,7 @@
   },
   "1274": {
     "original": "Sightseeing log entry “<hex:022903EA0203>” complete!",
-    "translation": "Voce del diario di esplorazione “<hex:022903EA0203>” completata!"
+    "translation": "Voce del Diario Esplorazione “<hex:022903EA0203>” completata!"
   },
   "1275": {
     "original": "Recipe added to favorites.",
@@ -5253,7 +5253,7 @@
   },
   "1346": {
     "original": "You now have Aethernet access to <hex:023123FF0A506C6163654E616D6503FF1302280FFF0A416574686572797465E8020A03030203>.",
-    "translation": "Ora hai accesso via Aethernet a <hex:023123FF0A506C6163654E616D6503FF1302280FFF0A416574686572797465E8020A03030203>."
+    "translation": "Ora puoi raggiungere <hex:023123FF0A506C6163654E616D6503FF1302280FFF0A416574686572797465E8020A03030203> tramite l'Eternet."
   },
   "1347": {
     "original": "Already registered as your security token free destination.",
@@ -5329,7 +5329,7 @@
   },
   "1366": {
     "original": "A new Aethernet destination is now accessible:<hex:02100103><hex:022821FF0A506C6163654E616D65FF1302280FFF0A416574686572797465E8020A030103>",
-    "translation": "Una nuova destinazione Aethernet è ora accessibile:<hex:02100103><hex:022821FF0A506C6163654E616D65FF1302280FFF0A416574686572797465E8020A030103>"
+    "translation": "È ora disponibile una nuova destinazione dell'Eternet:<hex:02100103><hex:022821FF0A506C6163654E616D65FF1302280FFF0A416574686572797465E8020A030103>"
   },
   "1367": {
     "original": "You slay <hex:023110FF09424E70634E616D6502E802020203>. (<hex:022003E80303>/<hex:022003E80403>)",
@@ -5584,7 +5584,7 @@
     "translation": "Impossibile salvare le impostazioni. Nessun adesivo in uso."
   },
   "1430": {
-    "original": "The party member holding the guildleve for “<hex:02280AFF054C657665E8020103>” has disappeared. Duty abandoned.",
+    "original": "The party member holding the gildleve for “<hex:02280AFF054C657665E8020103>” has disappeared. Duty abandoned.",
     "translation": "Il membro del gruppo che possiede il mandato per “<hex:02280AFF054C657665E8020103>” è scomparso. Incarico abbandonato."
   },
   "1431": {
@@ -5605,7 +5605,7 @@
   },
   "1435": {
     "original": "Unable to join as a cross-world party.",
-    "translation": "Impossibile unirsi come gruppo intermondo."
+    "translation": "Impossibile unirsi come Gruppo Intramondo."
   },
   "1436": {
     "original": "Unable to commence party recruitment. One or more party members is occupied.",
@@ -5641,7 +5641,7 @@
   },
   "1444": {
     "original": "<hex:022206E803FF022C03> <hex:020812E4E80302FF056974656DFF066974656D7303> found in the <hex:022903EA0203> section of your Armoury Chest.",
-    "translation": "<hex:022206E803FF022C03> <hex:020827E4E80302FF106F67676574746F2074726F7661746FFF106F6767657474692074726F7661746903> nella sezione <hex:022903EA0203> dell'Armoury Chest."
+    "translation": "<hex:022206E803FF022C03> <hex:020827E4E80302FF106F67676574746F2074726F7661746FFF106F6767657474692074726F7661746903> nella sezione <hex:022903EA0203> dell'Armeria."
   },
   "1445": {
     "original": "<hex:022206E803FF022C03> <hex:020812E4E80302FF056974656DFF066974656D7303> found in the <hex:020936E802FF04317374FF04326E64FF04337264FF04347468FF04357468FF04367468FF04377468FF04387468FF04397468FF053130746803> tab of your inventory.",
@@ -5673,7 +5673,7 @@
   },
   "1452": {
     "original": "<hex:022206E802FF022C03> <hex:020812E4E80202FF056974656DFF066974656D7303> found in glamour dresser.",
-    "translation": "<hex:022206E802FF022C03> <hex:020827E4E80202FF106F67676574746F2074726F7661746FFF106F6767657474692074726F7661746903> nella specchiera delle proiezioni."
+    "translation": "<hex:022206E802FF022C03> <hex:020827E4E80202FF106F67676574746F2074726F7661746FFF106F6767657474692074726F7661746903> nel comò delle illusioni."
   },
   "1453": {
     "original": "Results may not reflect current inventory status.",
@@ -5773,7 +5773,7 @@
   },
   "1477": {
     "original": "Unable to teleport. You are not attuned to that Aethernet destination.",
-    "translation": "Impossibile teletrasportarsi. Non sei sintonizzato con questa destinazione Aethernet."
+    "translation": "Impossibile teletrasportarsi. Non hai ancora attivato questa destinazione dell'Eternet."
   },
   "1478": {
     "original": "Unable to teleport. Current location is selected.",
@@ -5841,7 +5841,7 @@
   },
   "1494": {
     "original": "Insufficient inventory space. Unable to obtain Moogle Treasure Trove rewards.",
-    "translation": "Spazio nell'inventario insufficiente. Impossibile ottenere le ricompense del Tesoro Moguri."
+    "translation": "Spazio nell'inventario insufficiente. Impossibile ottenere le ricompense del Forziere del Moguri."
   },
   "1495": {
     "original": "You receive <hex:02082FE4E80302FF1002310CFF054974656D02E802020203FF18022003E803032002310DFF054974656D02E802E803020303>.",
@@ -5853,15 +5853,15 @@
   },
   "1497": {
     "original": "Unable to obtain Moogle Treasure Trove rewards.",
-    "translation": "Impossibile ottenere le ricompense del Tesoro Moguri."
+    "translation": "Impossibile ottenere le ricompense del Forziere del Moguri."
   },
   "1498": {
     "original": "Moogle Treasure Trove objective accomplished. Claim your rewards from the Mogpendium.",
-    "translation": "Obiettivo del Tesoro Moguri compiuto. Riscuoti le tue ricompense dal Mogpendio."
+    "translation": "Obiettivo del Forziere del Moguri completato. Riscuoti le tue ricompense dal Mogpendio."
   },
   "1499": {
     "original": "Unable to obtain Moogle Treasure Trove rewards.",
-    "translation": "Impossibile ottenere le ricompense del Tesoro Moguri."
+    "translation": "Impossibile ottenere le ricompense del Forziere del Moguri."
   },
   "1501": {
     "original": "You obtain a magitek photocell.",
@@ -5881,7 +5881,7 @@
   },
   "1505": {
     "original": "Confession Chamber door is now unlocked.",
-    "translation": "La porta della Camera delle Confessioni è ora sbloccata."
+    "translation": "La porta della Camera della Confessione è ora sbloccata."
   },
   "1506": {
     "original": "Execution Chamber door is now unlocked.",
@@ -5980,7 +5980,7 @@
     "translation": "Impossibile affrontare <hex:02083DE4E80301FF1D717565737461206261747461676C6961206469206D697373696F6E65FF19022815FF10496E7374616E6365436F6E74656E74E803040303> a causa dell'elevato carico del server."
   },
   "1530": {
-    "original": "The guildhest will end soon.<hex:02100103>Speak with the battlewarden immediately, or risk losing your reward.",
+    "original": "The gildhest will end soon.<hex:02100103>Speak with the battlewarden immediately, or risk losing your reward.",
     "translation": "La prova di gilda terminerà presto.<hex:02100103>Parla subito con il custode della battaglia, o rischi di perdere la tua ricompensa."
   },
   "1531": {
@@ -6184,7 +6184,7 @@
     "translation": "Accesso a <hex:02083DE4E80301FF1D717565737461206261747461676C6961206469206D697373696F6E65FF19022815FF10496E7374616E6365436F6E74656E74E803040303> negato. Uno o più membri del gruppo sono impegnati in un altro incarico."
   },
   "1587": {
-    "original": "You may not participate in any more guildhests at this time.",
+    "original": "You may not participate in any more gildhests at this time.",
     "translation": "Non puoi partecipare ad altre prove di gilda in questo momento."
   },
   "1588": {
@@ -6665,7 +6665,7 @@
   },
   "1786": {
     "original": "You can now apply glamours to Zhloe Aliapoh!",
-    "translation": "Ora puoi applicare proiezioni a Zhloe Aliapoh!"
+    "translation": "Ora puoi applicare illusioni a Zhloe Aliapoh!"
   },
   "1787": {
     "original": "You have yet to unlock glamours.",
@@ -7385,7 +7385,7 @@
   },
   "1968": {
     "original": "Gear set linked to glamour plate.",
-    "translation": "Completo collegato alla piastra delle proiezioni."
+    "translation": "Completo collegato alla piastra d'illusione."
   },
   "1969": {
     "original": "Gear set link updated.",
@@ -7393,7 +7393,7 @@
   },
   "1970": {
     "original": "Gear set unlinked from glamour plate.",
-    "translation": "Completo scollegato dalla piastra delle proiezioni."
+    "translation": "Completo scollegato dalla piastra d'illusione."
   },
   "1971": {
     "original": "Unable to use <hex:02310CFF054974656D03E802020203>. Character data exceeds its effects.",
@@ -7417,7 +7417,7 @@
   },
   "1977": {
     "original": "Unable to initiate record ready check. One or more party members are offline or otherwise unavailable.",
-    "translation": "Impossibile avviare il controllo di prontezza per la registrazione. Uno o più membri del gruppo sono offline o non disponibili."
+    "translation": "Impossibile avviare l'appello per la registrazione. Uno o più membri del gruppo non sono connessi o non sono disponibili."
   },
   "1978": {
     "original": "Unable to start duty record. The party does not meet the size requirement for this duty.",
@@ -7433,7 +7433,7 @@
   },
   "1981": {
     "original": "Unable to execute command while performing record ready check.",
-    "translation": "Impossibile eseguire il comando durante l'esecuzione del controllo di prontezza per la registrazione."
+    "translation": "Impossibile eseguire il comando mentre è in corso l'appello per la registrazione."
   },
   "1982": {
     "original": "Unable to execute command while performing ready check.",
@@ -7445,23 +7445,23 @@
   },
   "1984": {
     "original": "Unable to initiate record ready check while engaged in battle.",
-    "translation": "Impossibile avviare il controllo di prontezza per la registrazione durante una battaglia."
+    "translation": "Impossibile avviare l'appello per la registrazione durante un combattimento."
   },
   "1985": {
     "original": "You have commenced a record ready check.",
-    "translation": "Hai avviato un controllo di prontezza per la registrazione."
+    "translation": "Hai avviato un appello per la registrazione."
   },
   "1986": {
     "original": "<hex:022B49FF47020843E4EB02EB04FF1F02081BE909FF1202310EFF074F626A53747203E909020203FF04796F7503FF1C020818E909FF1202310EFF074F626A53747203E909020203EB04030303> <hex:020811E4EB02EB04FF0568617665FF0468617303> initiated a record ready check.",
-    "translation": "<hex:020831E4EB02EB04FF04486169FF25022B1EFF1C020818E909FF1202310EFF074F626A53747203E909020203EB04030320686103> avviato un controllo di prontezza per la registrazione."
+    "translation": "<hex:020831E4EB02EB04FF04486169FF25022B1EFF1C020818E909FF1202310EFF074F626A53747203E909020203EB04030320686103> avviato un appello per la registrazione."
   },
   "1987": {
     "original": "Unable to commence record ready check.",
-    "translation": "Impossibile avviare il controllo di prontezza per la registrazione."
+    "translation": "Impossibile avviare l'appello per la registrazione."
   },
   "1988": {
     "original": "Unable to respond to record ready check.",
-    "translation": "Impossibile rispondere al controllo di prontezza per la registrazione."
+    "translation": "Impossibile rispondere all'appello per la registrazione."
   },
   "1989": {
     "original": "One or more members have declined the ready check. Recording canceled. <hex:026003013003>",
@@ -7489,7 +7489,7 @@
   },
   "1995": {
     "original": "Duty record conditions met. Commence the <hex:024804F201FA03><hex:024904F201FB03>record ready check<hex:0249020103><hex:0248020103> to begin recording.",
-    "translation": "Condizioni di registrazione dell'incarico soddisfatte. Avvia il <hex:024804F201FA03><hex:024904F201FB03>controllo di prontezza per la registrazione<hex:0249020103><hex:0248020103> per iniziare a registrare."
+    "translation": "Requisiti per la registrazione dell'incarico soddisfatti. Avvia il comando <hex:024804F201FA03><hex:024904F201FB03>Registra Appello<hex:0249020103><hex:0248020103> per iniziare la registrazione."
   },
   "1996": {
     "original": "Duty record data cache limit exceeded. Unpausing recorder.",
@@ -7749,11 +7749,11 @@
   },
   "2061": {
     "original": "Shaft B4 is now clear.",
-    "translation": "Il pozzo B4 è ora sgombro."
+    "translation": "Il Pozzo B4 è ora sgombro."
   },
   "2062": {
     "original": "Shaft E2 can now be accessed.",
-    "translation": "Il pozzo E2 è ora accessibile."
+    "translation": "Il Pozzo E2 è ora accessibile."
   },
   "2063": {
     "original": "Lure Ichorous Ire near the blasting caps before they self-destruct.",
@@ -7765,7 +7765,7 @@
   },
   "2065": {
     "original": "Shaft E1 is now clear.",
-    "translation": "Il pozzo E1 è ora sgombro."
+    "translation": "Il Pozzo E1 è ora sgombro."
   },
   "2066": {
     "original": "<hex:022B16FF14023110FF09424E70634E616D6502E80202020303> is attempting to break through the wall.",
@@ -9393,11 +9393,11 @@
   },
   "2504": {
     "original": "You move to Automachina Research.",
-    "translation": "Ti sposti verso la Ricerca Automacchine."
+    "translation": "Ti sposti verso la Ricerca sugli Automachina."
   },
   "2505": {
     "original": "You move to Bioweapon Research.",
-    "translation": "Ti sposti verso la Ricerca Bioarmi."
+    "translation": "Ti sposti verso la Ricerca sulle Armi Biologiche."
   },
   "2506": {
     "original": "You board the autolift.",
@@ -9461,11 +9461,11 @@
   },
   "2521": {
     "original": "You move to the Inner Sanctum.",
-    "translation": "Ti sposti nel Santuario Interno."
+    "translation": "Ti sposti nel Sancta Sanctorum."
   },
   "2522": {
     "original": "You move to the Hall of the Spear.",
-    "translation": "Ti sposti nella Sala della Lancia."
+    "translation": "Ti sposti nel Salone della Lancia."
   },
   "2523": {
     "original": "Nunyenunc's feathers rain from the sky.",
@@ -10001,15 +10001,15 @@
   },
   "2658": {
     "original": "You move to an Answer of Silence.",
-    "translation": "Ti sposti verso una Risposta del Silenzio."
+    "translation": "Ti sposti verso una Risposta di Silenzio."
   },
   "2659": {
     "original": "You move to an Answer of Shame.",
-    "translation": "Ti sposti verso una Risposta della Vergogna."
+    "translation": "Ti sposti verso una Risposta di Vergogna."
   },
   "2660": {
     "original": "You move to the Shrine of the Goetic.",
-    "translation": "Ti sposti al Santuario del Goetico."
+    "translation": "Ti sposti al Santuario Goetico."
   },
   "2661": {
     "original": "You move to the Weeping Ruins.",
@@ -10165,7 +10165,7 @@
   },
   "2707": {
     "original": "You enter the Excruciationator.",
-    "translation": "Entri nell'Excruciationator."
+    "translation": "Entri nel Suppliziatore."
   },
   "2708": {
     "original": "Power generator energy transfer complete. The scrap machine resets.",
@@ -10421,7 +10421,7 @@
   },
   "2771": {
     "original": "Emergency mission commenced!<hex:02100103>A temporary home point has been set upon the Missing Gem.",
-    "translation": "Missione di emergenza iniziata!<hex:02100103>Un punto di ritorno temporaneo è stato impostato sulla Gemma Perduta."
+    "translation": "Missione di emergenza iniziata!<hex:02100103>Un punto di ritorno temporaneo è stato impostato sulla Gemma Mancante."
   },
   "2772": {
     "original": "<hex:022003E80203> <hex:020816E4E80202FF076D696E757465FF086D696E7574657303> remaining until emergency mission completion.",
@@ -10769,7 +10769,7 @@
   },
   "2861": {
     "original": "You return to the Ala Mhigan Mercantile District.",
-    "translation": "Torni al Distretto Mercantile di Ala Mhigo."
+    "translation": "Torni al Distretto Commerciale di Ala Mhigo."
   },
   "2862": {
     "original": "The magitek field surrounding the <hex:020848E4E80201FF21024804F2021E03024904F2021F0346616C636F6E730249020103024802010327FF20024804F2022003024904F2022103526176656E73024902010302480201032703> <hex:023110FF09424E70634E616D6504E803020203> dissipates!",
@@ -10845,7 +10845,7 @@
   },
   "2880": {
     "original": "You enter the Garamsythe Waterway.",
-    "translation": "Entri nel Canale di Garamsythe."
+    "translation": "Entri nei Canali di Garamsythe."
   },
   "2881": {
     "original": "Shinryu suffers <hex:022003E80203> points of damage!",
@@ -10977,7 +10977,7 @@
   },
   "2913": {
     "original": "The Phantom Train suffers <hex:022003E80203> <hex:020814E4E80202FF06706F696E74FF07706F696E747303> of damage!",
-    "translation": "Il Phantom Train subisce <hex:022003E80203> <hex:020814E4E80202FF06706F696E74FF07706F696E747303> di danno!"
+    "translation": "Il Treno Fantasma subisce <hex:022003E80203> <hex:020814E4E80202FF06706F696E74FF07706F696E747303> di danno!"
   },
   "2914": {
     "original": "You struggle to breathe...",
@@ -11793,7 +11793,7 @@
   },
   "3125": {
     "original": "Free company standing with the <hex:022812FF0D4772616E64436F6D70616E79E8020103> has increased to “<hex:022812FF0D464352657075746174696F6EE8030503>.”",
-    "translation": "La reputazione della compagnia libera con la <hex:022812FF0D4772616E64436F6D70616E79E8020103> e salita a “<hex:022812FF0D464352657075746174696F6EE8030503>”."
+    "translation": "La reputazione della compagnia libera presso la <hex:022812FF0D4772616E64436F6D70616E79E8020103> è salita a “<hex:022812FF0D464352657075746174696F6EE8030503>”."
   },
   "3126": {
     "original": "Company action “<hex:022813FF0E436F6D70616E79416374696F6EE8020103>” is now active.",
@@ -11925,7 +11925,7 @@
   },
   "3166": {
     "original": "You may only submit an application to a free company on your Home World.",
-    "translation": "Puoi presentare una candidatura solo a una compagnia libera del tuo mondo d'origine."
+    "translation": "Puoi presentare una candidatura solo a una compagnia libera del tuo Mondo d'Origine."
   },
   "3167": {
     "original": "You have withdrawn your application to “<hex:020816E909FF1002280CFF074F626A537472E9090103EB0403>.”",
@@ -12293,7 +12293,7 @@
   },
   "3259": {
     "original": "Your star is in dignity with the Bole!",
-    "translation": "La tua stella e in armonia con la Bole!"
+    "translation": "La tua stella e in armonia con il Fusto!"
   },
   "3260": {
     "original": "Your star is in dignity with the Spire!",
@@ -13461,7 +13461,7 @@
   },
   "3556": {
     "original": "No more aetherial reduction for you.",
-    "translation": "Niente piu riduzione eterica per te."
+    "translation": "Non puoi effettuare altre riduzioni eteree."
   },
   "3557": {
     "original": "No more deliveries to Rowena for you.",
@@ -13493,7 +13493,7 @@
   },
   "3564": {
     "original": "Automatic aetherial reduction canceled.",
-    "translation": "Riduzione eterica automatica annullata."
+    "translation": "Riduzione eterea automatica annullata."
   },
   "3568": {
     "original": "You detect no teeming waters.",
@@ -13993,7 +13993,7 @@
   },
   "3704": {
     "original": "Party Finder unlocked.",
-    "translation": "Party Finder sbloccato."
+    "translation": "Ricerca Gruppo sbloccata."
   },
   "3705": {
     "original": "Aesthetician now available.",
@@ -14017,7 +14017,7 @@
   },
   "3710": {
     "original": "A new regular duty has been added to the Duty Finder.<hex:02100103>Stone, Sky, Sea options have also been updated.",
-    "translation": "Un nuovo incarico regolare e stato aggiunto alla Ricerca Incarichi.<hex:02100103>Anche le opzioni di Stone, Sky, Sea sono state aggiornate."
+    "translation": "Un nuovo incarico regolare e stato aggiunto alla Ricerca Incarichi.<hex:02100103>Anche le opzioni di Pietra, Cielo, Mare sono state aggiornate."
   },
   "3711": {
     "original": "You attune with the aether current.<hex:02100103>In addition to currents found in the field, there are others which can only be accessed through main and side quests.<hex:02100103>Information on current attunement can be viewed under Aether Currents in the main menu.",
@@ -14077,7 +14077,7 @@
   },
   "3725": {
     "original": "Unable to commence duty while using the Party Finder.",
-    "translation": "Impossibile iniziare l'incarico durante l'uso del Party Finder."
+    "translation": "Impossibile iniziare l'incarico durante l'uso del Ricerca Gruppo."
   },
   "3726": {
     "original": "A new high-end duty has been added to the Raid Finder.",
@@ -14085,7 +14085,7 @@
   },
   "3727": {
     "original": "A new high-end duty has been added to the Raid Finder.<hex:02100103>Stone, Sky, Sea options have also been updated.",
-    "translation": "Un nuovo incarico di alto livello è stato aggiunto alla Ricerca Incursioni.<hex:02100103>Anche le opzioni di Stone, Sky, Sea sono state aggiornate."
+    "translation": "Un nuovo incarico di alto livello è stato aggiunto alla Ricerca Incursioni.<hex:02100103>Anche le opzioni di Pietra, Cielo, Mare sono state aggiornate."
   },
   "3728": {
     "original": "The anima housed in <hex:02310CFF054974656D03E802020203> shows vague signs of aetheric condensation.",
@@ -14293,19 +14293,19 @@
   },
   "3780": {
     "original": "Challenge log entry “<hex:022812FF0D436F6E74656E74734E6F7465E8020C03>” complete!",
-    "translation": "Voce del registro delle sfide “<hex:022812FF0D436F6E74656E74734E6F7465E8020C03>” completata!"
+    "translation": "Voce del Registro Sfide “<hex:022812FF0D436F6E74656E74734E6F7465E8020C03>” completata!"
   },
   "3781": {
     "original": "A new challenge log category has been unlocked.",
-    "translation": "Una nuova categoria del registro delle sfide e stata sbloccata."
+    "translation": "Si è sbloccata una nuova categoria del Registro Sfide."
   },
   "3782": {
     "original": "A new challenge log entry has been added.",
-    "translation": "Una nuova voce e stata aggiunta al registro delle sfide."
+    "translation": "Il Registro Sfide ora include una nuova voce."
   },
   "3783": {
     "original": "Challenge log entry “<hex:022812FF0D436F6E74656E74734E6F7465E8020C03>” is almost complete!",
-    "translation": "La voce del registro delle sfide “<hex:022812FF0D436F6E74656E74734E6F7465E8020C03>” e quasi completa!"
+    "translation": "La voce del Registro Sfide “<hex:022812FF0D436F6E74656E74734E6F7465E8020C03>” è quasi completa!"
   },
   "3784": {
     "original": "中毒防止中のため、攻略手帳に書き込みできませんでした",
@@ -14349,7 +14349,7 @@
   },
   "3794": {
     "original": "Ready check complete.<hex:02100103>Ready: <hex:022003E80203>/<hex:022003E80403><hex:02100103>Not Ready: <hex:022003E80303>/<hex:022003E80403><hex:020815E4E80301FF07026003012F03FF0702600301300303>",
-    "translation": "Controllo di prontezza completato.<hex:02100103>Pronti: <hex:022003E80203>/<hex:022003E80403><hex:02100103>Non pronti: <hex:022003E80303>/<hex:022003E80403><hex:020815E4E80301FF07026003012F03FF0702600301300303>"
+    "translation": "Appello completato.<hex:02100103>Pronti: <hex:022003E80203>/<hex:022003E80403><hex:02100103>Non pronti: <hex:022003E80303>/<hex:022003E80403><hex:020815E4E80301FF07026003012F03FF0702600301300303>"
   },
   "3795": {
     "original": "Unable to initiate ready check while engaged in battle.",
@@ -14357,7 +14357,7 @@
   },
   "3796": {
     "original": "Unable to record vista in sightseeing log. Conditions such as weather and time of day not met.",
-    "translation": "Impossibile registrare la veduta nel diario delle esplorazioni. Condizioni quali meteo e orario non soddisfatte."
+    "translation": "Impossibile registrare la veduta nel Diario Esplorazione. Condizioni quali meteo e orario non soddisfatte."
   },
   "3797": {
     "original": "Unable to display this achievement.",
@@ -14641,7 +14641,7 @@
   },
   "3868": {
     "original": "Incorrect glamour plate number.",
-    "translation": "Numero tavola delle proiezioni non corretto."
+    "translation": "Numero della piastra d'illusione non corretto."
   },
   "3869": {
     "original": "Mount BGM volume <hex:020815E4E80201FF066D75746564FF08756E6D7574656403>.",
@@ -15025,7 +15025,7 @@
   },
   "3964": {
     "original": "Unable to perform action. Incorrect Grand Company allegiance.",
-    "translation": "Impossibile eseguire l'azione. Affiliazione alla Gran Compagnia non corretta."
+    "translation": "Impossibile eseguire l'azione. Affiliazione alla Grande Compagnia non corretta."
   },
   "3965": {
     "original": "Unable to commence mission.",
@@ -15033,7 +15033,7 @@
   },
   "3966": {
     "original": "Unable to cast glamour. Squadron member level cannot be lower than that of the glamour cast.",
-    "translation": "Impossibile applicare la proiezione. Il livello del membro della squadra non puo essere inferiore a quello della proiezione applicata."
+    "translation": "Impossibile applicare l'illusione. Il livello del membro della squadra non può essere inferiore a quello dell'oggetto usato per l'illusione."
   },
   "3967": {
     "original": "Unable to issue battle tactics.",
@@ -15117,11 +15117,11 @@
   },
   "3988": {
     "original": "You obtain <hex:02082EE4E80302FF1002310CFF054974656D02E802020203FF17022003E803032002310CFF054974656D04E80204020303> as a Kupo of Fortune prize.",
-    "translation": "Ottieni <hex:02082EE4E80302FF1002310CFF054974656D02E802020203FF17022003E803032002310CFF054974656D04E80204020303> come premio del Kupo of Fortune."
+    "translation": "Ottieni <hex:02082EE4E80302FF1002310CFF054974656D02E802020203FF17022003E803032002310CFF054974656D04E80204020303> come premio del Kupo della Fortuna."
   },
   "3989": {
     "original": "You donate resources to the reconstruction of the Firmament!",
-    "translation": "Doni risorse per la ricostruzione del Firmament!"
+    "translation": "Doni risorse per la ricostruzione del Firmamento!"
   },
   "3990": {
     "original": "Mission canceled. Your fee has been refunded.",
@@ -15697,7 +15697,7 @@
   },
   "4135": {
     "original": "<hex:022B1DFF1B022817FF12436F6D70616E7943726166744472616674E802010303> created.<hex:02100103>A new recipe has been added to the company crafting log.",
-    "translation": "<hex:022B1DFF1B022817FF12436F6D70616E7943726166744472616674E802010303> creato.<hex:02100103>Una nuova ricetta e stata aggiunta al registro delle creazioni della compagnia."
+    "translation": "<hex:022B1DFF1B022817FF12436F6D70616E7943726166744472616674E802010303> creato.<hex:02100103>Una nuova ricetta è stata aggiunta al registro di fabbricazione della Compagnia."
   },
   "4136": {
     "original": "You are not authorized to register or dismantle company airships or submersibles.",
@@ -15853,7 +15853,7 @@
   },
   "4174": {
     "original": "A new recipe has been added to the company crafting log.",
-    "translation": "Una nuova ricetta e stata aggiunta al registro delle creazioni della compagnia."
+    "translation": "Una nuova ricetta è stata aggiunta al registro di fabbricazione della Compagnia."
   },
   "4175": {
     "original": "Your estate retainer's weapon is now showing.",
@@ -15873,11 +15873,11 @@
   },
   "4179": {
     "original": "A new course to the Diadem (Hard) has been charted!",
-    "translation": "Una nuova rotta per the Diadem (Hard) e stata tracciata!"
+    "translation": "Una nuova rotta per il Diadema (Difficile) è stata tracciata!"
   },
   "4180": {
     "original": "<hex:022B2EFF2C020828E4EB02EB03FF04796F75FF1C020818E908FF1202310EFF074F626A53747203E908020203EB03030303> <hex:020815E4EB02EB03FF066368617274FF0763686172747303> a new course to the Diadem (Hard)!",
-    "translation": "<hex:020839E4EB02EB03FF07547261636369FF2A022B1EFF1C020818E908FF1202310EFF074F626A53747203E908020203EB030303207472616363696103> una nuova rotta per the Diadem (Hard)!"
+    "translation": "<hex:020839E4EB02EB03FF07547261636369FF2A022B1EFF1C020818E908FF1202310EFF074F626A53747203E908020203EB030303207472616363696103> una nuova rotta per il Diadema (Difficile)!"
   },
   "4181": {
     "original": "Unable to execute command. Not enough airships are available to carry all participating parties.",
@@ -16041,11 +16041,11 @@
   },
   "4222": {
     "original": "Not enlisted in the proper Grand Company.",
-    "translation": "Non arruolato nella Gran Compagnia corretta."
+    "translation": "Non sei arruolato nella Grande Compagnia corretta."
   },
   "4223": {
     "original": "Ineligible to participate in duty. One or more party members are not enlisted in the proper Grand Company.",
-    "translation": "Non idoneo a partecipare all'incarico. Uno o piu membri del gruppo non sono arruolati nella Gran Compagnia corretta."
+    "translation": "Non idoneo a partecipare all'incarico. Uno o più membri del gruppo non sono arruolati nella Grande Compagnia corretta."
   },
   "4224": {
     "original": "Your item level has been synced to <hex:022003E80203>.<hex:02100103>※While synced, all item stats are adjusted.",
@@ -16105,7 +16105,7 @@
   },
   "4239": {
     "original": "No party members eligible for duty rewards are present. Waiting 5 minutes before coffer number is calculated.",
-    "translation": "Nessun membro del gruppo idoneo alle ricompense dell'incarico e presente. Attesa di 5 minuti prima del calcolo del numero di forzieri."
+    "translation": "Non sono presenti membri del gruppo idonei a ricevere le ricompense dell'incarico. Attesa di 5 minuti prima del calcolo del numero di forzieri."
   },
   "4240": {
     "original": "Waiting for return of party members eligible for duty rewards before calculating coffer number.",
@@ -16213,7 +16213,7 @@
   },
   "4266": {
     "original": "Unable to store further items in your glamour dresser.",
-    "translation": "Impossibile riporre altri oggetti nella specchiera delle proiezioni."
+    "translation": "Impossibile riporre altri oggetti nel comò delle illusioni."
   },
   "4267": {
     "original": "This glamour cannot be applied to your current race and/or gender.",
@@ -16225,7 +16225,7 @@
   },
   "4269": {
     "original": "Unable to cast glamour. Weapon types are different.",
-    "translation": "Impossibile applicare la proiezione. I tipi di arma sono differenti."
+    "translation": "Impossibile applicare l'illusione: i tipi di arma non corrispondono."
   },
   "4270": {
     "original": "You do not possess any equippable components.",
@@ -16353,7 +16353,7 @@
   },
   "4302": {
     "original": "Unable to cast glamour due to gear category mismatch.",
-    "translation": "Impossibile applicare la proiezione a causa della mancata corrispondenza della categoria di equipaggiamento."
+    "translation": "Impossibile applicare l'illusione: la categoria dell'equipaggiamento non corrisponde."
   },
   "4303": {
     "original": "Glamours may not be stacked.",
@@ -16361,23 +16361,23 @@
   },
   "4304": {
     "original": "Unable to cast glamour with that item.",
-    "translation": "Impossibile applicare la proiezione con quell'oggetto."
+    "translation": "Impossibile applicare un'illusione con quell'oggetto."
   },
   "4305": {
     "original": "Unable to cast glamour. Base item's level requirement cannot be lower than that of the glamour cast.",
-    "translation": "Impossibile applicare la proiezione. Il livello richiesto per l'oggetto di Base non puo essere inferiore a quello della proiezione applicata."
+    "translation": "Impossibile applicare l'illusione. Il livello richiesto dall'oggetto di base non può essere inferiore a quello dell'oggetto usato per l'illusione."
   },
   "4306": {
     "original": "Unable to cast glamour due to gender restriction.",
-    "translation": "Impossibile applicare la proiezione a causa di restrizioni di genere."
+    "translation": "Impossibile applicare l'illusione per via di una restrizione di genere."
   },
   "4307": {
     "original": "Unable to cast glamour due to race restriction.",
-    "translation": "Impossibile applicare la proiezione a causa di restrizioni di razza."
+    "translation": "Impossibile applicare l'illusione per via di una restrizione di razza."
   },
   "4308": {
     "original": "Unable to cast glamour due to class restriction.",
-    "translation": "Impossibile applicare la proiezione a causa di restrizioni di classe."
+    "translation": "Impossibile applicare l'illusione per via di una restrizione di classe."
   },
   "4309": {
     "original": "<hex:022B2EFF2C020828E4EB02EB03FF04796F75FF1C020818E908FF1202310EFF074F626A53747203E908020203EB03030303> <hex:020813E4EB02EB03FF0563617374FF06636173747303> a glamour. <hex:022B12FF1002310CFF054974656D03E80202020303> takes on the appearance of <hex:02310CFF054974656D02E803020203>.",
@@ -16417,7 +16417,7 @@
   },
   "4318": {
     "original": "Unable to cast glamour from plate <hex:022003E80203>.",
-    "translation": "Impossibile applicare la proiezione dalla tavola <hex:022003E80203>."
+    "translation": "Impossibile applicare l'illusione salvata nella piastra d'illusione <hex:022003E80203>."
   },
   "4319": {
     "original": "Unable to execute command while desynthesizing an item.",
@@ -16577,11 +16577,11 @@
   },
   "4358": {
     "original": "Final preparations are being made to the Ivory Chapel.<hex:02100103>Please use this time to change your gear.",
-    "translation": "Sono in corso i preparativi finali per la Ivory Chapel.<hex:02100103>Approfitta di questo momento per cambiare il tuo equipaggiamento."
+    "translation": "Sono in corso i preparativi finali per la Cappella d'Avorio.<hex:02100103>Approfitta di questo momento per cambiare il tuo equipaggiamento."
   },
   "4359": {
     "original": "Preparations to the Ivory Chapel are complete. Guests may now enter.",
-    "translation": "I preparativi per la Ivory Chapel sono completati. Gli ospiti possono ora entrare."
+    "translation": "I preparativi per la Cappella d'Avorio sono completati. Gli ospiti possono ora entrare."
   },
   "4360": {
     "original": "After the ceremony, guests will receive a special bomboniere.",
@@ -16597,7 +16597,7 @@
   },
   "4363": {
     "original": "During the reception, couples and guests are free to move about the Ivory Chapel.<hex:02100103>Group photographs can be taken at this time.",
-    "translation": "Durante il ricevimento, la coppia e gli ospiti sono liberi di muoversi nella Ivory Chapel.<hex:02100103>In questo momento e possibile scattare fotografie di gruppo."
+    "translation": "Durante il ricevimento, la coppia e gli ospiti sono liberi di muoversi nella Cappella d'Avorio.<hex:02100103>In questo momento e possibile scattare fotografie di gruppo."
   },
   "4364": {
     "original": "Glamours projected from plate <hex:022003E80203>.",
@@ -16657,27 +16657,27 @@
   },
   "4378": {
     "original": "Unable to fully apply glamour plate <hex:022003E80203>.<hex:02100103>Some items may be of an incompatible category, or contradictory to character race and gender.",
-    "translation": "Impossibile applicare completamente la tavola delle proiezioni <hex:022003E80203>.<hex:02100103>Alcuni oggetti potrebbero appartenere a una categoria incompatibile o essere contrari alla razza e al genere del personaggio."
+    "translation": "Impossibile applicare completamente la piastra d'illusione <hex:022003E80203>.<hex:02100103>Alcuni oggetti potrebbero appartenere a una categoria incompatibile o non essere compatibili con la razza o il genere del personaggio."
   },
   "4379": {
     "original": "Unable to execute command while performing aetherial reduction.",
-    "translation": "Impossibile eseguire il comando durante la riduzione eterica."
+    "translation": "Impossibile eseguire il comando durante la riduzione eterea."
   },
   "4380": {
     "original": "A projection of <hex:02310CFF054974656D03E802020203> is added to your glamour dresser.",
-    "translation": "Una proiezione di <hex:02310CFF054974656D03E802020203> e stata aggiunta alla tua specchiera delle proiezioni."
+    "translation": "Una proiezione di <hex:02310CFF054974656D03E802020203> e stata aggiunta al tuo comò delle illusioni."
   },
   "4381": {
     "original": "The projection of <hex:02310CFF054974656D03E802020203> is removed from your glamour dresser.",
-    "translation": "La proiezione di <hex:02310CFF054974656D03E802020203> e stata rimossa dalla tua specchiera delle proiezioni."
+    "translation": "La proiezione di <hex:02310CFF054974656D03E802020203> e stata rimossa dal tuo comò delle illusioni."
   },
   "4382": {
     "original": "Glamour plate <hex:022003E80203> saved.",
-    "translation": "Tavola delle proiezioni <hex:022003E80203> salvata."
+    "translation": "Piastra d'illusione <hex:022003E80203> salvata."
   },
   "4383": {
     "original": "The projection of <hex:02310CFF054974656D03E802020203> is restored to its original form and removed from your glamour dresser.",
-    "translation": "La proiezione di <hex:02310CFF054974656D03E802020203> viene ripristinata alla sua forma originale e rimossa dalla tua specchiera delle proiezioni."
+    "translation": "La proiezione di <hex:02310CFF054974656D03E802020203> viene ripristinata alla sua forma originale e rimossa dal tuo comò delle illusioni."
   },
   "4384": {
     "original": "Glamour dispelled.",
@@ -16729,7 +16729,7 @@
   },
   "4396": {
     "original": "Aetherial reduction has been canceled. Please try again.",
-    "translation": "La riduzione eterica e stata annullata. Riprova."
+    "translation": "La riduzione eterea è stata annullata. Riprova."
   },
   "4397": {
     "original": "Unable to register in Explorer Mode. You have not completed this duty. ",
@@ -16793,7 +16793,7 @@
   },
   "4414": {
     "original": "You cannot accept bills from this Grand Company's Hunt board.",
-    "translation": "Non puoi accettare manifesti dalla bacheca della Caccia di questa Gran Compagnia."
+    "translation": "Non puoi accettare manifesti dalla bacheca della Caccia di questa Grande Compagnia."
   },
   "4415": {
     "original": "You obtain <hex:023111FF0A4576656E744974656D02E802020203>.<hex:02100103>Mark details can viewed at any time by using the bill located under the Key Items tab of your inventory.",
@@ -16833,7 +16833,7 @@
   },
   "4424": {
     "original": "As each Grand Company will dispatch only <hex:020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E8020303> <hex:020815E4E80202FF067061727479FF087061727469657303> to the campaign, the number of occupiable outposts has been reduced to three.",
-    "translation": "Poiche ciascuna Gran Compagnia inviera solo <hex:020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E8020303> <hex:020815E4E80202FF067061727479FF087061727469657303> alla campagna, il numero di avamposti occupabili e stato ridotto a tre."
+    "translation": "Poiché ciascuna Grande Compagnia invierà solo <hex:020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E8020303> <hex:020815E4E80202FF067061727479FF087061727469657303> alla campagna, il numero di avamposti occupabili è stato ridotto a tre."
   },
   "4425": {
     "original": "<hex:02280CFF07537461747573E8030103> has overtaken a member of the <hex:022812FF0D4772616E64436F6D70616E79E8020103>!",
@@ -16849,7 +16849,7 @@
   },
   "4428": {
     "original": "As each Grand Company will dispatch only <hex:020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E8020303> <hex:020815E4E80202FF067061727479FF087061727469657303> to the campaign, neutral enemy behavior will differ.",
-    "translation": "Poiche ciascuna Gran Compagnia inviera solo <hex:020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E8020303> <hex:020815E4E80202FF067061727479FF087061727469657303> alla campagna, il comportamento dei nemici neutrali sara differente."
+    "translation": "Poiché ciascuna Grande Compagnia invierà solo <hex:020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E8020303> <hex:020815E4E80202FF067061727479FF087061727469657303> alla campagna, il comportamento dei nemici neutrali sarà differente."
   },
   "4429": {
     "original": "The <hex:02091BE803FF0772616E6B2042FF0772616E6B2041FF0772616E6B205303> <hex:02310CFF05454F626A04E802020203> has activated.",
@@ -16877,7 +16877,7 @@
   },
   "4435": {
     "original": "As each Grand Company will dispatch only <hex:020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E8020303> <hex:020815E4E80202FF067061727479FF087061727469657303> to the campaign, tomelith activation patterns will differ.",
-    "translation": "Poiche ciascuna Gran Compagnia inviera solo <hex:020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E8020303> <hex:020815E4E80202FF067061727479FF087061727469657303> alla campagna, gli schemi di attivazione dei tomelith saranno differenti."
+    "translation": "Poiché ciascuna Grande Compagnia invierà solo <hex:020860E802FF54020850E2E8020BFF4202093EE802FF046F6E65FF0474776FFF067468726565FF05666F7572FF0566697665FF04736978FF06736576656EFF066569676874FF056E696E65FF0474656E03FF07022003E8020303FF07022003E8020303> <hex:020815E4E80202FF067061727479FF087061727469657303> alla campagna, gli schemi di attivazione dei tomelith sarànno differenti."
   },
   "4436": {
     "original": "Unable to occupy tomelith immediately after location has changed hands.",
@@ -16885,7 +16885,7 @@
   },
   "4437": {
     "original": "This tomelith is already occupied by your Grand Company.",
-    "translation": "Questo tomelith e gia occupato dalla tua Gran Compagnia."
+    "translation": "Questo tomelith è già occupato dalla tua Grande Compagnia."
   },
   "4438": {
     "original": "Unable to complete interaction.",
@@ -16957,7 +16957,7 @@
   },
   "4455": {
     "original": "You do not fulfill the level requirements for aetherial reduction.",
-    "translation": "Non soddisfi i requisiti di livello per la riduzione eterica."
+    "translation": "Non soddisfi i requisiti di livello per la riduzione eterea."
   },
   "4456": {
     "original": "Unable to summon striking dummy in this location.",
@@ -17189,11 +17189,11 @@
   },
   "4513": {
     "original": "You have not logged into your Home World for a prolonged period of time.<hex:02100103>Please return to your Home World and confirm the status of your community authorizations.",
-    "translation": "Non effettui l'accesso al tuo Mondo d'origine da molto tempo.<hex:02100103>Torna al tuo Mondo d'origine e conferma lo stato delle tue autorizzazioni comunitarie."
+    "translation": "Non effettui l'accesso al tuo Mondo d'Origine da molto tempo.<hex:02100103>Torna al tuo Mondo d'Origine e conferma lo stato delle tue autorizzazioni comunitarie."
   },
   "4514": {
     "original": "You have logged in outside of your Home World. Please briefly return to<hex:02100103>your Home World to enable important system notifications. If you have<hex:02100103>been away from your Home World for a prolonged period of time, please<hex:02100103>confirm the status of your community authorizations.",
-    "translation": "Hai effettuato l'accesso al di fuori del tuo Mondo d'origine. Torna brevemente nel<hex:02100103>tuo Mondo d'origine per attivare importanti notifiche di sistema. Se sei stato<hex:02100103>lontano dal tuo Mondo d'origine per un periodo prolungato, per favore<hex:02100103>conferma lo stato delle tue autorizzazioni comunitarie."
+    "translation": "Hai effettuato l'accesso al di fuori del tuo Mondo d'Origine. Torna brevemente nel<hex:02100103>tuo Mondo d'Origine per attivare importanti notifiche di sistema. Se sei stato<hex:02100103>lontano dal tuo Mondo d'Origine per un periodo prolungato, per favore<hex:02100103>conferma lo stato delle tue autorizzazioni comunitarie."
   },
   "4515": {
     "original": "You cannot examine this keepsake.",
@@ -17253,7 +17253,7 @@
   },
   "4529": {
     "original": "<hex:022B12FF1002310CFF054974656D02E80202020303> has been removed from your <hex:02081FE4E80401FF0A696E76656E746F7279FF0E41726D6F75727920436865737403> and stored as the <hex:022D12FF1002310CFF054974656D04E80302020303> outfit glamour.",
-    "translation": "<hex:022B12FF1002310CFF054974656D02E80202020303> e stato rimosso dal tuo <hex:020819E4E80401FF0A696E76656E746F7279FF0841726D6572696103> e conservato come proiezione dell\u0027abito <hex:022D12FF1002310CFF054974656D04E80302020303>."
+    "translation": "L'oggetto <hex:022B12FF1002310CFF054974656D02E80202020303> è stato rimosso dal tuo <hex:020819E4E80401FF0A696E76656E746F7279FF0841726D6572696103> e conservato come completo pronto per l'illusione <hex:022D12FF1002310CFF054974656D04E80302020303>."
   },
   "4530": {
     "original": "Unable to open as this tab has been set to another channel log.",
@@ -17273,7 +17273,7 @@
   },
   "4534": {
     "original": "A projection of <hex:02310CFF054974656D03E802020203> is added to your glamour dresser.",
-    "translation": "Una proiezione di <hex:02310CFF054974656D03E802020203> e stata aggiunta alla tua specchiera delle proiezioni."
+    "translation": "Una proiezione di <hex:02310CFF054974656D03E802020203> e stata aggiunta al tuo comò delle illusioni."
   },
   "4535": {
     "original": "Part of <hex:02310CFF054974656D03E802020203> is restored to your inventory.",
@@ -17329,7 +17329,7 @@
   },
   "4551": {
     "original": "A new regular duty has been added to the Duty Finder and Duty Support.<hex:02100103>Stone, Sky, Sea options have also been updated.",
-    "translation": "Un nuovo incarico regolare e stato aggiunto alla Ricerca Incarichi e al Supporto Incarichi.<hex:02100103>Anche le opzioni di Stone, Sky, Sea sono state aggiornate."
+    "translation": "Un nuovo incarico regolare e stato aggiunto alla Ricerca Incarichi e al Supporto Incarichi.<hex:02100103>Anche le opzioni di Pietra, Cielo, Mare sono state aggiornate."
   },
   "4552": {
     "original": "The V&C Dungeon Finder has been updated with a new variant dungeon.",
@@ -17341,11 +17341,11 @@
   },
   "4558": {
     "original": "Your efforts have restored some small measure of stability to Lakeland.",
-    "translation": "I tuoi sforzi hanno restituito un certo grado di stabilita a Lakeland."
+    "translation": "I tuoi sforzi hanno restituito un certo grado di stabilita a Terralago."
   },
   "4559": {
     "original": "Your efforts have brought greater stability to Lakeland.",
-    "translation": "I tuoi sforzi hanno portato maggiore stabilita a Lakeland."
+    "translation": "I tuoi sforzi hanno portato maggiore stabilita a Terralago."
   },
   "4560": {
     "original": "Your efforts have restored some small measure of stability to Kholusia.",
@@ -17373,19 +17373,19 @@
   },
   "4566": {
     "original": "Your efforts have restored some small measure of stability to the Rak'tika Greatwood.",
-    "translation": "I tuoi sforzi hanno restituito un certo grado di stabilita alla Rak'tika Greatwood."
+    "translation": "I tuoi sforzi hanno restituito un certo grado di stabilita nella Grande Foresta di Rak'tika."
   },
   "4567": {
     "original": "Your efforts have brought greater stability to the Rak'tika Greatwood.",
-    "translation": "I tuoi sforzi hanno portato maggiore stabilita alla Rak'tika Greatwood."
+    "translation": "I tuoi sforzi hanno portato maggiore stabilita nella Grande Foresta di Rak'tika."
   },
   "4568": {
     "original": "Your efforts have restored some small measure of stability to the Tempest.",
-    "translation": "I tuoi sforzi hanno restituito un certo grado di stabilita alla Tempest."
+    "translation": "I tuoi sforzi hanno restituito un certo grado di stabilita a Fossantica."
   },
   "4569": {
     "original": "Your efforts have brought greater stability to the Tempest.",
-    "translation": "I tuoi sforzi hanno portato maggiore stabilita alla Tempest."
+    "translation": "I tuoi sforzi hanno portato maggiore stabilita a Fossantica."
   },
   "4572": {
     "original": "Unable to enter the instance. You are not connecting from an internet café.",
@@ -18145,7 +18145,7 @@
   },
   "4826": {
     "original": "Unable to enter a match while using the Party Finder.",
-    "translation": "Impossibile partecipare a una partita durante l'uso del Party Finder."
+    "translation": "Impossibile partecipare a una partita durante l'uso del Ricerca Gruppo."
   },
   "4827": {
     "original": "The next Verminion Challenge is available!",
@@ -18345,7 +18345,7 @@
   },
   "4882": {
     "original": "You left the Battlehall. Your match entry was withdrawn.",
-    "translation": "Hai lasciato la Battlehall. La tua iscrizione alla partita e stata ritirata."
+    "translation": "Hai lasciato la Sala d'Armi. La tua iscrizione alla partita e stata ritirata."
   },
   "4883": {
     "original": "Match entry canceled.",
@@ -19073,7 +19073,7 @@
   },
   "5340": {
     "original": "The Bole blazes in the welkin, unlocking the gate to the first heaven.",
-    "translation": "La Bole arde nella volta celeste, aprendo la porta del primo cielo."
+    "translation": "Il Fusto arde nella volta celeste, aprendo la porta del primo cielo."
   },
   "5341": {
     "original": "The Balance blazes in the welkin, unlocking the gate to the second heaven.",
@@ -20301,7 +20301,7 @@
   },
   "5671": {
     "original": "Current inventory may not be reflected for your glamour dresser. Access your glamour dresser to resolve this issue.",
-    "translation": "L'inventario attuale potrebbe non essere riflesso per la tua specchiera delle proiezioni. Accedi alla specchiera delle proiezioni per risolvere il problema."
+    "translation": "L'inventario attuale potrebbe non risultare aggiornato nel comò delle illusioni. Accedi al comò delle illusioni per risolvere il problema."
   },
   "5672": {
     "original": "Current inventory may not be reflected for a retainer. Call your retainer to resolve this issue.",
@@ -20365,7 +20365,7 @@
   },
   "5753": {
     "original": "You have envisioned a stirring tale of heroism! Regale the faux commander to gain access to Faux Hollows.",
-    "translation": "Hai immaginato un'avvincente storia di eroismo! Intrattieni il faux commander per ottenere l'accesso a Faux Hollows."
+    "translation": "Hai immaginato un'avvincente storia di eroismo! Intrattieni il Comandante Fittizio per accedere alle Tane Sospette."
   },
   "5756": {
     "original": "<hex:022B12FF1002310CFF054974656D04E80202020303> has been added to your market board favorites. (<hex:022003E80303>/<hex:022003E80403>)",
@@ -20453,11 +20453,11 @@
   },
   "5777": {
     "original": "The Moogle Treasure Trove objectives have been updated. Open the Mogpendium again to view them.",
-    "translation": "Gli obiettivi del Tesoro Moguri sono stati aggiornati. Apri nuovamente il Mogpendium per visualizzarli."
+    "translation": "Gli obiettivi del Forziere del Moguri sono stati aggiornati. Apri nuovamente il Mogpendium per visualizzarli."
   },
   "5778": {
     "original": "The status of the Moogle Treasure Trove has changed. Open the Mogpendium again to view the objectives.",
-    "translation": "Lo stato del Tesoro Moguri è cambiato. Apri nuovamente il Mogpendium per visualizzare gli obiettivi."
+    "translation": "Lo stato del Forziere del Moguri è cambiato. Apri nuovamente il Mogpendium per visualizzare gli obiettivi."
   },
   "5780": {
     "original": "Currency settings saved.",
@@ -20529,7 +20529,7 @@
   },
   "5801": {
     "original": "Unable to visit another data center. You must first log out from your Home World.",
-    "translation": "Impossibile visitare un altro data center. Devi prima disconnetterti dal tuo Mondo d'origine."
+    "translation": "Impossibile visitare un altro data center. Devi prima disconnetterti dal tuo Mondo d'Origine."
   },
   "5802": {
     "original": "Unable to back up character settings while outside your Home Data Center.",
@@ -20537,11 +20537,11 @@
   },
   "5803": {
     "original": "Unable to visit other Worlds. You must first return to your Home World and change your character's name.",
-    "translation": "Impossibile visitare altri Mondi. Devi prima tornare al tuo Mondo d'origine e cambiare il nome del tuo personaggio."
+    "translation": "Impossibile visitare altri Mondi. Devi prima tornare al tuo Mondo d'Origine e cambiare il nome del tuo personaggio."
   },
   "5804": {
     "original": "Unable to visit other Worlds. You must first return to your Home World and change your retainer's name.",
-    "translation": "Impossibile visitare altri Mondi. Devi prima tornare al tuo Mondo d'origine e cambiare il nome del tuo retainer."
+    "translation": "Impossibile visitare altri Mondi. Devi prima tornare al tuo Mondo d'Origine e cambiare il nome del tuo retainer."
   },
   "5805": {
     "original": "Unable to execute this command within your current Data Center.",
@@ -20597,11 +20597,11 @@
   },
   "5823": {
     "original": "Free destinations are not available on this platform. Teleporting will incur a gil fee.",
-    "translation": "Le destinazioni gratuite non sono disponibili su questa piattaforma. Il teletrasporto richiederà una commissione in guil."
+    "translation": "Le destinazioni gratuite non sono disponibili su questa piattaforma. Il teletrasporto richiederà una commissione in gil."
   },
   "5824": {
     "original": "Your PlayStation®Plus Reward has expired. Teleporting will incur a gil fee.<hex:02100103>You may remove registered destinations from the teleportation menu, which can be accessed by selecting Teleport under Travel in the main menu.",
-    "translation": "La tua ricompensa PlayStation®Plus è scaduta. Il teletrasporto richiederà una commissione in guil.<hex:02100103>Puoi rimuovere le destinazioni registrate dal menu del teletrasporto, accessibile selezionando Teletrasporto sotto Viaggio nel menu principale."
+    "translation": "La tua ricompensa PlayStation®Plus è scaduta. Il teletrasporto richiederà una commissione in gil.<hex:02100103>Puoi rimuovere le destinazioni registrate dal menu del teletrasporto, accessibile selezionando Teletrasporto sotto Viaggio nel menu principale."
   },
   "5825": {
     "original": "Destination has been removed.",
@@ -20621,7 +20621,7 @@
   },
   "5829": {
     "original": "Your Nintendo Switch Online Reward has expired. Teleporting will incur a gil fee.<hex:02100103>You may remove registered destinations from the teleportation menu, which can be accessed by selecting Teleport under Travel in the main menu.",
-    "translation": "La tua ricompensa Nintendo Switch Online è scaduta. Il teletrasporto richiederà una commissione in guil.<hex:02100103>Puoi rimuovere le destinazioni registrate dal menu del teletrasporto, accessibile selezionando Teletrasporto sotto Viaggio nel menu principale."
+    "translation": "La tua ricompensa Nintendo Switch Online è scaduta. Il teletrasporto richiederà una commissione in gil.<hex:02100103>Puoi rimuovere le destinazioni registrate dal menu del teletrasporto, accessibile selezionando Teletrasporto sotto Viaggio nel menu principale."
   },
   "5840": {
     "original": "Too many results to display.<hex:02100103>Add more letters to refine search.",
@@ -21045,7 +21045,7 @@
   },
   "6043": {
     "original": "You purchase <hex:020832E4E80302FF1002310CFF054974656D02E802020203FF1B022206E803FF022C032002310DFF054974656D04E802E803020303> for <hex:022206E804FF022C03> gil.",
-    "translation": "Acquisti <hex:020832E4E80302FF1002310CFF054974656D02E802020203FF1B022206E803FF022C032002310DFF054974656D04E802E803020303> per <hex:022206E804FF022C03> guil."
+    "translation": "Acquisti <hex:020832E4E80302FF1002310CFF054974656D02E802020203FF1B022206E803FF022C032002310DFF054974656D04E802E803020303> per <hex:022206E804FF022C03> gil."
   },
   "6044": {
     "original": "Unable to access voyage control panel. Another member is currently using it.",
@@ -21185,15 +21185,15 @@
   },
   "6080": {
     "original": "You purchase multiple items for a grand total of <hex:022206E802FF022C03> gil.",
-    "translation": "Acquisti più oggetti per un totale complessivo di <hex:022206E802FF022C03> guil."
+    "translation": "Acquisti più oggetti per un totale complessivo di <hex:022206E802FF022C03> gil."
   },
   "6081": {
     "original": "<hex:022B12FF1002310CFF054974656D03E80202020303> you put up for sale on your mannequin has sold for <hex:022206E803FF022C03> gil.",
-    "translation": "<hex:022B12FF1002310CFF054974656D03E80202020303> messo in vendita sul tuo manichino è stato venduto per <hex:022206E803FF022C03> guil."
+    "translation": "<hex:022B12FF1002310CFF054974656D03E80202020303> messo in vendita sul tuo manichino è stato venduto per <hex:022206E803FF022C03> gil."
   },
   "6082": {
     "original": "Multiple items put up for sale on your mannequin have sold for <hex:022206E802FF022C03> gil.",
-    "translation": "Diversi oggetti messi in vendita sul tuo manichino sono stati venduti per <hex:022206E802FF022C03> guil."
+    "translation": "Diversi oggetti messi in vendita sul tuo manichino sono stati venduti per <hex:022206E802FF022C03> gil."
   },
   "6083": {
     "original": "Unable to place mannequin. You must have at least one retainer in your employ.",
@@ -21689,7 +21689,7 @@
   },
   "7120": {
     "original": "Unable to open main map while in a deep dungeon.",
-    "translation": "Impossibile aprire la mappa principale in una Cripta Profonda."
+    "translation": "Impossibile aprire la mappa principale in una cripta profonda."
   },
   "7121": {
     "original": "Unable to execute command. There is no save data.",
@@ -22521,7 +22521,7 @@
   },
   "7444": {
     "original": "Cross-world party formed.<hex:02100103>Party-wide spells and actions will behave differently.",
-    "translation": "Gruppo Cross-world formato.<hex:02100103>Gli incantesimi e le azioni estese al gruppo si comporteranno diversamente."
+    "translation": "Gruppo Intramondo formato.<hex:02100103>Gli incantesimi e le azioni estese al gruppo si comporteranno diversamente."
   },
   "7445": {
     "original": "Registration limit reached. Unable to continue recruitment.",
@@ -22529,15 +22529,15 @@
   },
   "7446": {
     "original": "Cross-world party joined.<hex:02100103>Party-wide spells and actions will behave differently.",
-    "translation": "Unito al gruppo intermondo.<hex:02100103>Gli incantesimi e le azioni estesi al gruppo si comporteranno diversamente."
+    "translation": "Unito al Gruppo Intramondo.<hex:02100103>Gli incantesimi e le azioni estesi al gruppo si comporteranno diversamente."
   },
   "7447": {
     "original": "<hex:026003014803>You dissolve the cross-world party.",
-    "translation": "<hex:026003014803>Sciogli il gruppo cross-world."
+    "translation": "<hex:026003014803>Sciogli il Gruppo Intramondo."
   },
   "7448": {
     "original": "<hex:026003014803>The cross-world party has been disbanded.",
-    "translation": "<hex:026003014803>Il gruppo cross-world è stato sciolto."
+    "translation": "<hex:026003014803>Il Gruppo Intramondo è stato sciolto."
   },
   "7449": {
     "original": "A party server error has occurred.",
@@ -22577,11 +22577,11 @@
   },
   "7458": {
     "original": "Unable to join cross-world party. The party is now full.",
-    "translation": "Impossibile entrare nel gruppo cross-world. Il gruppo è al completo."
+    "translation": "Impossibile entrare nel Gruppo Intramondo. Il gruppo è al completo."
   },
   "7459": {
     "original": "Unable to join cross-world party.",
-    "translation": "Impossibile entrare nel gruppo cross-world."
+    "translation": "Impossibile entrare nel Gruppo Intramondo."
   },
   "7460": {
     "original": "Party requirements updated. Participation denied.",
@@ -22601,11 +22601,11 @@
   },
   "7464": {
     "original": "Party Finder alliance formed. Party-wide spells and actions will behave differently.",
-    "translation": "Alleanza del Party Finder formata. Incantesimi e azioni estesi al gruppo si comporteranno diversamente."
+    "translation": "Alleanza della Ricerca Gruppo formata. Incantesimi e azioni estesi al gruppo si comporteranno diversamente."
   },
   "7465": {
     "original": "Party Finder alliance joined. Party-wide spells and actions will behave differently.",
-    "translation": "Unito all'alleanza del Party Finder. Incantesimi e azioni estesi al gruppo si comporteranno diversamente."
+    "translation": "Unito all'alleanza della Ricerca Gruppo. Incantesimi e azioni estesi al gruppo si comporteranno diversamente."
   },
   "7466": {
     "original": "You have joined <hex:022903EA0203>'s alliance for <hex:022903EA0403>.",
@@ -22617,15 +22617,15 @@
   },
   "7468": {
     "original": "<hex:026003014803>You dissolve the Party Finder alliance.",
-    "translation": "<hex:026003014803>Sciogli l'alleanza del Party Finder."
+    "translation": "<hex:026003014803>Sciogli l'alleanza della Ricerca Gruppo."
   },
   "7469": {
     "original": "<hex:026003014803> The Party Finder alliance has been disbanded.",
-    "translation": "<hex:026003014803>L'alleanza del Party Finder è stata sciolta."
+    "translation": "<hex:026003014803>L'alleanza della Ricerca Gruppo è stata sciolta."
   },
   "7470": {
     "original": "Unable to join party. You have already completed the duty specified in the Party Finder's requirements.",
-    "translation": "Impossibile entrare nel gruppo. Hai già completato l'incarico specificato nei requisiti del Party Finder."
+    "translation": "Impossibile entrare nel gruppo. Hai già completato l'incarico specificato nei requisiti della Ricerca Gruppo."
   },
   "7471": {
     "original": "Unable to execute command in current state.",
@@ -22673,7 +22673,7 @@
   },
   "7485": {
     "original": "Message to <hex:022903EA0203> could not be sent.<hex:02100103>That character is on another World server and not on your friend list. Use <hex:020812E4E94F04FF076F7074696F6EFF04416C7403>+R to reply to a Party Finder message.",
-    "translation": "Impossibile inviare il messaggio a <hex:022903EA0203>.<hex:02100103>Quel personaggio si trova su un altro server di Mondo e non è nella tua lista amici. Usa <hex:020813E4E94F04FF084F707A696F6E65FF04416C7403>+R per rispondere a un messaggio del Party Finder."
+    "translation": "Impossibile inviare il messaggio a <hex:022903EA0203>.<hex:02100103>Quel personaggio si trova su un altro server di Mondo e non è nella tua lista amici. Usa <hex:020813E4E94F04FF084F707A696F6E65FF04416C7403>+R per rispondere a un messaggio della Ricerca Gruppo."
   },
   "7486": {
     "original": "Unable to send /tell. That party is no longer accepting members.",
@@ -22697,7 +22697,7 @@
   },
   "7491": {
     "original": "The Party Finder cannot be viewed in this location.",
-    "translation": "Il Party Finder non può essere visualizzato in questo luogo."
+    "translation": "La Ricerca Gruppo non può essere visualizzato in questo luogo."
   },
   "7492": {
     "original": "Unable to join. Only one player per job permitted.",
@@ -22705,11 +22705,11 @@
   },
   "7493": {
     "original": "Could not form a cross-world party.",
-    "translation": "Impossibile formare un gruppo cross-world."
+    "translation": "Impossibile formare un Gruppo Intramondo."
   },
   "7494": {
     "original": "Unable to join. One or more party members do not match the jobs specified in the Party Finder's requirements.",
-    "translation": "Impossibile unirsi. Uno o più membri del gruppo non corrispondono ai job specificati nei requisiti del Party Finder."
+    "translation": "Impossibile unirsi. Uno o più membri del gruppo non corrispondono ai job specificati nei requisiti della Ricerca Gruppo."
   },
   "7495": {
     "original": "Unable to join. One or more party members do not meet the requirements specified to participate.",
@@ -22725,7 +22725,7 @@
   },
   "7498": {
     "original": "One or more party members failed to join the party.",
-    "translation": "Uno o più membri non sono riusciti a unirsi al gruppo."
+    "translation": "Uno o più membri del gruppo non sono riusciti a unirsi."
   },
   "7499": {
     "original": "Unable to join party due to current quest progression.",
@@ -22733,7 +22733,7 @@
   },
   "7500": {
     "original": "This command can only be used when participating in a Crystalline Conflict match.",
-    "translation": "Questo comando può essere utilizzato solo partecipando a un incontro di Crystalline Conflict."
+    "translation": "Questo comando può essere utilizzato solo partecipando a un incontro del Conflitto Cristallino."
   },
   "7501": {
     "original": "Hello.<hex:026003026103>",
@@ -23073,7 +23073,7 @@
   },
   "7587": {
     "original": "Unable to register while participating in a cross-world party.",
-    "translation": "Impossibile registrarsi mentre si partecipa a un gruppo cross-world."
+    "translation": "Impossibile registrarsi mentre si partecipa a un Gruppo Intramondo."
   },
   "7588": {
     "original": "Not participating in the corresponding GATE.",
@@ -23661,7 +23661,7 @@
   },
   "7766": {
     "original": "Unable to execute command while using the Party Finder.",
-    "translation": "Impossibile eseguire il comando durante l'uso del Party Finder."
+    "translation": "Impossibile eseguire il comando durante l'uso del Ricerca Gruppo."
   },
   "7767": {
     "original": "Unable to execute command while using housing functions.",
@@ -23705,7 +23705,7 @@
   },
   "7779": {
     "original": "Unable to execute command while delving into a deep dungeon.",
-    "translation": "Impossibile eseguire il comando durante l'esplorazione di una Cripta Profonda."
+    "translation": "Impossibile eseguire il comando durante l'esplorazione di una cripta profonda."
   },
   "7780": {
     "original": "Unable to execute command while swimming.",
@@ -23725,7 +23725,7 @@
   },
   "7784": {
     "original": "Unable to execute command while participating in a cross-world party or alliance.",
-    "translation": "Impossibile eseguire il comando mentre si partecipa a un gruppo o a un'alleanza cross-world."
+    "translation": "Impossibile eseguire il comando mentre si partecipa a un Gruppo Intramondo o a un'alleanza tra Mondi."
   },
   "7785": {
     "original": "Cannot execute at this time.",
@@ -23917,7 +23917,7 @@
   },
   "7954": {
     "original": "Unable to convert while using the Party Finder.",
-    "translation": "Impossibile convertire durante l'uso del Party Finder."
+    "translation": "Impossibile convertire durante l'uso del Ricerca Gruppo."
   },
   "7955": {
     "original": "Command available for cross-world parties only.",
@@ -23933,7 +23933,7 @@
   },
   "7958": {
     "original": "The party leader has converted your cross-world party to an in-world party.",
-    "translation": "Il capogruppo ha convertito il tuo gruppo cross-world in un gruppo locale."
+    "translation": "Il capogruppo ha convertito il tuo Gruppo Intramondo in un gruppo locale."
   },
   "7959": {
     "original": "Conversion to in-world party failed. Some players were removed from the party.",
@@ -24025,7 +24025,7 @@
   },
   "7981": {
     "original": "Unable to equip recommended gear. Insufficient Armoury Chest space.",
-    "translation": "Impossibile equipaggiare l'equipaggiamento consigliato. Spazio nell'Armoury Chest insufficiente."
+    "translation": "Impossibile equipaggiare l'equipaggiamento consigliato. Spazio nell'Armeria insufficiente."
   },
   "7982": {
     "original": "Item condition has changed. Closing recommendation window.",
@@ -25753,7 +25753,7 @@
   },
   "9030": {
     "original": "Unable to create PvP team. One or more party members are from another data center.",
-    "translation": "Impossibile creare la squadra PvP. Uno o più membri del party appartengono a un altro data center."
+    "translation": "Impossibile creare la squadra PvP. Uno o più membri del gruppo appartengono a un altro data center."
   },
   "9031": {
     "original": "Unable to confirm PvP team creation while outside your Home Data Center.",
@@ -25777,7 +25777,7 @@
   },
   "9044": {
     "original": "To exchange <hex:02310CFF054974656D04E802030203><hex:02081DE1E80301FF1520616E642002310CFF054974656D04E803030203FF0103>, you must first complete the achievement <hex:022811FF0C416368696576656D656E74E8040203>.",
-    "translation": "Per scambiare <hex:02310CFF054974656D04E802030203><hex:02081DE1E80301FF1520616E642002310CFF054974656D04E803030203FF0103>, devi prima completare l'achievement <hex:022811FF0C416368696576656D656E74E8040203>."
+    "translation": "Per scambiare <hex:02310CFF054974656D04E802030203><hex:02081DE1E80301FF1520616E642002310CFF054974656D04E803030203FF0103>, devi prima completare l'obiettivo <hex:022811FF0C416368696576656D656E74E8040203>."
   },
   "9051": {
     "original": "<hex:022B2EFF2C020828E4EB02EB03FF04796F75FF1C020818E908FF1202310EFF074F626A53747203E908020203EB03030303> <hex:020813E4EB02EB03FF056761696EFF066761696E7303> <hex:022206E803FF022C03><hex:020813E4E80401FF01FF0B282B022003E80403252903> elemental experience <hex:020817E4FF0465787002FF06706F696E74FF07706F696E747303>.",
@@ -25865,7 +25865,7 @@
   },
   "9082": {
     "original": "There are no other Aethernet shards available to you in this region. ",
-    "translation": "Non ci sono altri frammenti dell'Aethernet disponibili per te in questa regione."
+    "translation": "Non hai a disposizione altri frammenti dell'Eternet in questa regione."
   },
   "9100": {
     "original": "You use an aetheric stabilizer to enter the node.",
@@ -25937,7 +25937,7 @@
   },
   "9123": {
     "original": "Configuration sharing can only be used on your Home World.",
-    "translation": "La condivisione della configurazione può essere utilizzata solo sul tuo Home World."
+    "translation": "La condivisione della configurazione può essere utilizzata solo sul tuo Mondo d'Origine."
   },
   "9124": {
     "original": "Configuration sharing can only be used in a sanctuary.",
@@ -26657,15 +26657,15 @@
   },
   "9401": {
     "original": "This feature is only available to characters on their Home World.",
-    "translation": "Questa funzione è disponibile solo per i personaggi sul loro Home World."
+    "translation": "Questa funzione è disponibile solo per i personaggi che si trovano nel proprio Mondo d'Origine."
   },
   "9402": {
     "original": "That feature is only available for use with characters currently on their Home World.",
-    "translation": "Questa funzione è disponibile solo per i personaggi attualmente sul loro Home World."
+    "translation": "Questa funzione può essere usata solo con i personaggi che si trovano attualmente nel proprio Mondo d'Origine."
   },
   "9403": {
     "original": "That feature is only available for use with characters currently on their Home World.",
-    "translation": "Questa funzione è disponibile solo per i personaggi attualmente sul loro Home World."
+    "translation": "Questa funzione può essere usata solo con i personaggi che si trovano attualmente nel proprio Mondo d'Origine."
   },
   "9404": {
     "original": "That feature is unavailable while waiting to visit another World.",
@@ -26673,7 +26673,7 @@
   },
   "9405": {
     "original": "The destination World is no longer available. World Visit canceled.",
-    "translation": "Il Mondo di destinazione non è più disponibile. Visita al Mondo annullata."
+    "translation": "Il Mondo di destinazione non è più disponibile. Procedura Visita Mondo annullata."
   },
   "9406": {
     "original": "Unable to participate in a GATE already registered on another World.",
@@ -26693,15 +26693,15 @@
   },
   "9410": {
     "original": "An error occurred while attempting a World Visit.<hex:02100103>Try again later.",
-    "translation": "Si è verificato un errore durante il tentativo di visitare il Mondo.<hex:02100103>Riprova più tardi."
+    "translation": "Si è verificato un errore durante la procedura Visita Mondo.<hex:02100103>Riprova più tardi."
   },
   "9411": {
     "original": "An error has occurred. World Visit canceled.<hex:02100103>Please try again later.",
-    "translation": "Si è verificato un errore. Visita al Mondo annullata.<hex:02100103>Riprova più tardi."
+    "translation": "Si è verificato un errore. Procedura Visita Mondo annullata.<hex:02100103>Riprova più tardi."
   },
   "9412": {
     "original": "World Visit canceled.",
-    "translation": "Visita al Mondo annullata."
+    "translation": "Procedura Visita Mondo annullata."
   },
   "9413": {
     "original": "World Visits currently blocked.<hex:02100103>If you are unsure why you have received this message, visit the support desk.",
@@ -26713,7 +26713,7 @@
   },
   "9416": {
     "original": "You must be playing solo or in a cross-world party to use this feature.",
-    "translation": "Devi giocare in solitaria o in un party cross-world per usare questa funzione."
+    "translation": "Devi giocare in solitaria o partecipare a un Gruppo Intramondo per usare questa funzione."
   },
   "9417": {
     "original": "That feature is only available for use with characters currently in their Home Data Center.",
@@ -26733,15 +26733,15 @@
   },
   "9421": {
     "original": "World exists on the same data center. Please use the World Visit system.",
-    "translation": "Il Mondo appartiene allo stesso data center. Utilizza il sistema World Visit."
+    "translation": "Il Mondo appartiene allo stesso data center. Utilizza la funzione Visita Mondo."
   },
   "9422": {
     "original": "Your Home World cannot be selected as a destination.",
-    "translation": "Il tuo Home World non può essere selezionato come destinazione."
+    "translation": "Il tuo Mondo d'Origine non può essere selezionato come destinazione."
   },
   "9423": {
     "original": "Your Home World is currently experiencing server difficulties.",
-    "translation": "Il tuo Home World sta attualmente riscontrando difficoltà con i server."
+    "translation": "I server del tuo Mondo d'Origine stanno riscontrando problemi."
   },
   "9424": {
     "original": "Unable to visit World. Character movement has been restricted at this time.",
@@ -27285,7 +27285,7 @@
   },
   "9590": {
     "original": "If you wish to leave the Diadem, you may do so via the exit at the starting point or the Duty Finder menu.",
-    "translation": "Se desideri lasciare il Diadem, puoi farlo tramite l'uscita al punto di partenza o tramite il menu della Ricerca Incarichi."
+    "translation": "Se desideri lasciare il Diadema, puoi farlo tramite l'uscita al punto di partenza o tramite il menu della Ricerca Incarichi."
   },
   "9591": {
     "original": "You have prevented a Flood of Light!",
@@ -27373,19 +27373,19 @@
   },
   "9612": {
     "original": "One of your party members does not meet the requirements for duty.",
-    "translation": "Uno dei membri del party non soddisfa i requisiti per l'incarico."
+    "translation": "Uno dei membri del gruppo non soddisfa i requisiti per l'incarico."
   },
   "9613": {
     "original": "Unable to register. One or more party members are incapacitated.",
-    "translation": "Impossibile registrarsi. Uno o più membri del party sono k.o."
+    "translation": "Impossibile registrarsi. Uno o più membri del gruppo sono k.o."
   },
   "9614": {
     "original": "Unable to register. One or more party members have insufficient quest progress.",
-    "translation": "Impossibile registrarsi. Uno o più membri del party non hanno progressi di missione sufficienti."
+    "translation": "Impossibile registrarsi. Uno o più membri del gruppo non hanno progressi di missione sufficienti."
   },
   "9615": {
     "original": "Unable to register. One or more party members are participating in a critical engagement.",
-    "translation": "Impossibile registrarsi. Uno o più membri del party stanno partecipando a un critical engagement."
+    "translation": "Impossibile registrarsi. Uno o più membri del gruppo stanno partecipando a un critical engagement."
   },
   "9616": {
     "original": "Your party leader has registered the party for the following duty:<hex:02100103><hex:022812FF0D44796E616D69634576656E74E8020C03>",
@@ -27497,15 +27497,15 @@
   },
   "9643": {
     "original": "Lyon the Beast King orders his minions to Majesty's Auspice!",
-    "translation": "Lyon il Re delle Bestie ordina ai suoi servitori di raggiungere il Majesty's Auspice!"
+    "translation": "Lyon il Re delle Bestie ordina ai suoi servitori di raggiungere l'Auspicio di Maestà!"
   },
   "9644": {
     "original": "Lyon the Beast King would do battle at Majesty's Place...",
-    "translation": "Lyon il Re delle Bestie vuole dare battaglia al Majesty's Place..."
+    "translation": "Lyon il Re delle Bestie vuole dare battaglia alla Piazza di Maestà..."
   },
   "9645": {
     "original": "You have been summoned to battle at Majesty's Place!",
-    "translation": "Sei stato convocato a combattere al Majesty's Place!"
+    "translation": "Sei stato convocato a combattere alla Piazza di Maestà!"
   },
   "9646": {
     "original": "You have prevailed against Lyon the Beast King! Confidence within the Resistance surges as the enemy falters!",
@@ -27517,7 +27517,7 @@
   },
   "9648": {
     "original": "You have been flung to Majesty's Auspice!",
-    "translation": "Sei stato scagliato al Majesty's Auspice!"
+    "translation": "Sei stato scagliato all'Auspicio di Maestà!"
   },
   "9649": {
     "original": "Malevolent energies seep into the floor...",
@@ -27601,7 +27601,7 @@
   },
   "9669": {
     "original": "One or more party members have accepted a challenge to duel. Registration for the following duty has been canceled:<hex:02100103><hex:022812FF0D44796E616D69634576656E74E8020C03>",
-    "translation": "Uno o più membri del party hanno accettato una sfida a duello. La registrazione per la seguente incarico è stata annullata:<hex:02100103><hex:022812FF0D44796E616D69634576656E74E8020C03>"
+    "translation": "Uno o più membri del gruppo hanno accettato una sfida a duello. La registrazione per la seguente incarico è stata annullata:<hex:02100103><hex:022812FF0D44796E616D69634576656E74E8020C03>"
   },
   "9670": {
     "original": "You were not chosen to duel in the critical engagement, <hex:022812FF0D44796E616D69634576656E74E8020C03>.<hex:02100103>However, your presence on the battlefield has increased your notoriety by 1.",
@@ -27669,11 +27669,11 @@
   },
   "9686": {
     "original": "You move to the River of Knowledge.",
-    "translation": "Ti sposti al River of Knowledge."
+    "translation": "Ti sposti al Fiume della Conoscenza."
   },
   "9687": {
     "original": "You move to the Heaven of Wind.",
-    "translation": "Ti sposti al Heaven of Wind."
+    "translation": "Ti sposti al Cielo del Vento."
   },
   "9688": {
     "original": "You move to the mythic mountains.",
@@ -27697,7 +27697,7 @@
   },
   "9693": {
     "original": "“<hex:022B1FFF1D022819FF145656444E6F7465626F6F6B436F6E74656E7473E802030303>” is added to the Mount Rokkon exorcism record.",
-    "translation": "«<hex:022B1FFF1D022819FF145656444E6F7465626F6F6B436F6E74656E7473E802030303>» è stato aggiunto al registro di esorcismo del Mount Rokkon."
+    "translation": "«<hex:022B1FFF1D022819FF145656444E6F7465626F6F6B436F6E74656E7473E802030303>» è stato aggiunto al registro di esorcismo del Monte Rokkon."
   },
   "9694": {
     "original": "Bullets slide into the cylinder!",
@@ -27745,7 +27745,7 @@
   },
   "9705": {
     "original": "There are no other Aethernet shards available to you in this region. ",
-    "translation": "Non ci sono altri frammenti dell'Aethernet disponibili per te in questa regione."
+    "translation": "Non hai a disposizione altri frammenti dell'Eternet in questa regione."
   },
   "9706": {
     "original": "No entries to display.",
@@ -27789,11 +27789,11 @@
   },
   "9716": {
     "original": "Failed to update mute list comment.",
-    "translation": "Impossibile aggiornare il commento dell'elenco silenziati."
+    "translation": "Impossibile aggiornare il commento della Lista Silenziati."
   },
   "9717": {
     "original": "Mute list comment updated.",
-    "translation": "Commento dell'elenco silenziati aggiornato."
+    "translation": "Commento della Lista Silenziati aggiornato."
   },
   "9718": {
     "original": "There are one or more muted characters in your party.",
@@ -27817,11 +27817,11 @@
   },
   "9723": {
     "original": "Your mute list is full.",
-    "translation": "Il tuo elenco di personaggi silenziati è pieno."
+    "translation": "La tua Lista Silenziati è piena."
   },
   "9724": {
     "original": "Unable to add to mute list.",
-    "translation": "Impossibile aggiungere all'elenco dei silenziati."
+    "translation": "Impossibile aggiungere il personaggio alla Lista Silenziati."
   },
   "9725": {
     "original": "<hex:022B2EFF2C020828E4EB02EB03FF04796F75FF1C020818E908FF1202310EFF074F626A53747203E908020203EB03030303> <hex:02080FE4EB02EB03FF04617265FF03697303> now muted.",
@@ -27829,11 +27829,11 @@
   },
   "9726": {
     "original": "Unable to remove from mute list.",
-    "translation": "Impossibile rimuovere dall'elenco dei silenziati."
+    "translation": "Impossibile rimuovere il personaggio dalla Lista Silenziati."
   },
   "9727": {
     "original": "<hex:020828E4EB02EB03FF04796F75FF1C020818E908FF1202310EFF074F626A53747203E908020203EB030303> removed from mute list.",
-    "translation": "<hex:022B1EFF1C020818E908FF1202310EFF074F626A53747203E908020203EB030303> non figura più nell'elenco dei silenziati."
+    "translation": "<hex:022B1EFF1C020818E908FF1202310EFF074F626A53747203E908020203EB030303> non figura più nella Lista Silenziati."
   },
   "9728": {
     "original": "Messages from this character will be temporarily visible.",
@@ -27909,7 +27909,7 @@
   },
   "9746": {
     "original": "<hex:020828E4EB02EB03FF04796F75FF1C020818E908FF1202310EFF074F626A53747203E908020203EB030303> removed from mute list as they are registered to your friend list.",
-    "translation": "<hex:022B1EFF1C020818E908FF1202310EFF074F626A53747203E908020203EB030303> non figura più nell'elenco dei silenziati poiché è registrato nella tua lista amici."
+    "translation": "<hex:022B1EFF1C020818E908FF1202310EFF074F626A53747203E908020203EB030303> non figura più nella Lista Silenziati perché fa parte della tua lista amici."
   },
   "9750": {
     "original": "The decisive battle is over. You can now attack the green head!",
@@ -27953,19 +27953,19 @@
   },
   "9760": {
     "original": "You move to the Inner Locus",
-    "translation": "Ti sposti nell'Inner Locus."
+    "translation": "Ti sposti nel Luogo Interno."
   },
   "9761": {
     "original": "You move to the Hidden Locus.",
-    "translation": "Ti sposti nell'Hidden Locus."
+    "translation": "Ti sposti nel Luogo Nascosto."
   },
   "9762": {
     "original": "You move to the Still Sanctum.",
-    "translation": "Ti sposti nello Still Sanctum."
+    "translation": "Ti sposti nel Santuario Immobile."
   },
   "9763": {
     "original": "You move to the Dormant Altar.",
-    "translation": "Ti sposti nel Dormant Altar."
+    "translation": "Ti sposti all'Altare Dormiente."
   },
   "9764": {
     "original": "Gaia's memories have taken form!",
@@ -28545,7 +28545,7 @@
   },
   "9918": {
     "original": "<hex:02280AFF054974656DE8020A03> recorded in sanctuary gathering log.",
-    "translation": "<hex:02280AFF054974656DE8020A03> registrato nel registro di raccolta del santuario."
+    "translation": "<hex:02280AFF054974656DE8020A03> registrato nel registro di raccolta del Rifugio Insulare."
   },
   "9919": {
     "original": "<hex:022B2EFF2C020828E4EB02EB03FF04796F75FF1C020818E908FF1202310EFF074F626A53747203E908020203EB03030303> <hex:020813E4EB02EB03FF056761696EFF066761696E7303> <hex:022003E80203> island experience <hex:020817E4FF0465787002FF06706F696E74FF07706F696E747303>.",
@@ -28981,7 +28981,7 @@
   },
   "10030": {
     "original": "The achievement could not be displayed due to filter settings.",
-    "translation": "Impossibile visualizzare l'achievement a causa delle impostazioni dei filtri."
+    "translation": "Impossibile visualizzare l'obiettivo a causa delle impostazioni dei filtri."
   },
   "10031": {
     "original": "The lightning is sapping Fordola's strength!",
@@ -29125,11 +29125,11 @@
   },
   "10066": {
     "original": "You move to the Heaven of Fire.",
-    "translation": "Ti sposti all'Heaven of Fire."
+    "translation": "Ti sposti al Cielo del Fuoco."
   },
   "10067": {
     "original": "You enter the Twin Halls.",
-    "translation": "Entri nelle Twin Halls."
+    "translation": "Entri nelle Aule Gemelle."
   },
   "10068": {
     "original": "The magitek terminal is now accessible!",
@@ -29665,7 +29665,7 @@
   },
   "10202": {
     "original": "Unable to access the boat for the Moraby Drydocks while using the Duty Finder.",
-    "translation": "Impossibile accedere alla nave per i Moraby Drydocks durante l'uso della Ricerca Incarichi."
+    "translation": "Impossibile accedere alla nave per il Carenaggio di Moraby durante l'uso della Ricerca Incarichi."
   },
   "10203": {
     "original": "Unable to claim. You cannot carry any more of the yields harvested by the produce producer.",
@@ -29729,7 +29729,7 @@
   },
   "10218": {
     "original": "You have gained access to island furnishing glamours.<hex:02100103>Access the guide via the islekeep's index for more information.",
-    "translation": "Hai sbloccato i glamour degli arredi dell'isola.<hex:02100103>Consulta la guida tramite il registro dell'islekeep per maggiori informazioni."
+    "translation": "Hai sbloccato le illusioni d'arredo dell'isola.<hex:02100103>Consulta la guida nell'indice del custode dell'isola per maggiori informazioni."
   },
   "10219": {
     "original": "Unable to process furnishing glamour request.",
@@ -29737,11 +29737,11 @@
   },
   "10220": {
     "original": "Furnishing glamours placed in unauthorized locations have been removed.",
-    "translation": "I glamour degli arredi posizionati in luoghi non autorizzati sono stati rimossi."
+    "translation": "Le illusioni d'arredo collocate in luoghi non autorizzati sono state rimosse."
   },
   "10221": {
     "original": "You may now place a greater number of furnishing glamours on your island.",
-    "translation": "Ora puoi posizionare un numero maggiore di glamour di arredi sulla tua isola."
+    "translation": "Ora puoi collocare più illusioni d'arredo sulla tua isola."
   },
   "10222": {
     "original": "Unable to remove glamour. You are too far away.",
@@ -29865,15 +29865,15 @@
   },
   "10255": {
     "original": "You move to the Heaven of Ice.",
-    "translation": "Ti sposti all'Heaven of Ice."
+    "translation": "Ti sposti al Cielo del Ghiaccio."
   },
   "10256": {
     "original": "You move to the Hall of the Spear.",
-    "translation": "Ti sposti alla Hall of the Spear."
+    "translation": "Ti sposti al Salone della Lancia."
   },
   "10257": {
     "original": "You move to the Chamber of Revolutions.",
-    "translation": "Ti sposti alla Chamber of Revolutions."
+    "translation": "Ti sposti alla Camera delle Rivoluzioni."
   },
   "10258": {
     "original": "Powerful magicks obstruct the flow of your body's aether, causing your resistances to plummet!",
@@ -30509,7 +30509,7 @@
   },
   "10467": {
     "original": "You must return to your Home World to proceed with this quest.",
-    "translation": "Devi tornare sul tuo Home World per proseguire con questa missione."
+    "translation": "Devi tornare sul tuo Mondo d'Origine per proseguire con questa missione."
   },
   "10468": {
     "original": "<hex:0212024003>You have lost sight of Y'adebh. Speak with her again to reform your party.",
@@ -30529,15 +30529,15 @@
   },
   "10472": {
     "original": "Unable to commence New Game+ mode from your current location. Please try again from a different location.",
-    "translation": "Impossibile avviare la modalità New Game+ dalla posizione attuale. Riprova da una posizione diversa."
+    "translation": "Impossibile avviare la modalità Nuova Partita+ dalla posizione attuale. Riprova da una posizione diversa."
   },
   "10473": {
     "original": "Unable to cancel New Game+ mode from your current location. Please try again from a different location.",
-    "translation": "Impossibile annullare la modalità New Game+ dalla posizione attuale. Riprova da una posizione diversa."
+    "translation": "Impossibile annullare la modalità Nuova Partita+ dalla posizione attuale. Riprova da una posizione diversa."
   },
   "10474": {
     "original": "Unable to resume New Game+ mode from your current location. Please try again from a different location.",
-    "translation": "Impossibile riprendere la modalità New Game+ dalla posizione attuale. Riprova da una posizione diversa."
+    "translation": "Impossibile riprendere la modalità Nuova Partita+ dalla posizione attuale. Riprova da una posizione diversa."
   },
   "10475": {
     "original": "<hex:0212024003>You have lost sight of Geode. Speak with him again to reform your party.",
@@ -30673,7 +30673,7 @@
   },
   "10521": {
     "original": "The Dream She Lived ─ Early Storm Surge",
-    "translation": "The Dream She Lived ─ Early Storm Surge"
+    "translation": "Il Sogno che Visse ─ Fase iniziale dell'Impeto della Tempesta"
   },
   "10524": {
     "original": "The crystallized rock shatters into pieces!",
@@ -30689,11 +30689,11 @@
   },
   "10527": {
     "original": "The Dream She Lost ─ Late Storm Surge",
-    "translation": "The Dream She Lost ─ Late Storm Surge"
+    "translation": "Il Sogno che Perse ─ Fase finale dell'Impeto della Tempesta"
   },
   "10528": {
     "original": "My Dream Everlasting ─ Alexandria's Restoration",
-    "translation": "My Dream Everlasting ─ Alexandria's Restoration"
+    "translation": "Il Mio Sogno Eterno ─ Ricostruzione di Alexandria"
   },
   "10529": {
     "original": "●パーツに攻撃を加えたことで、ボスに<hex:022003E80303>ダメージを与えた！",
@@ -30961,11 +30961,11 @@
   },
   "10598": {
     "original": "You have already acquired this item as a fashion accessory.<hex:02100103>Fashion accessories can be exchanged for facewear by speaking with Calamity salvagers located in Limsa Lominsa, Gridania, and Ul'dah.",
-    "translation": "Hai già acquisito questo oggetto come accessorio di moda.<hex:02100103>Gli accessori di moda possono essere scambiati con accessori facciali parlando con i Calamity salvager situati a Limsa Lominsa, Gridania e Ul'dah."
+    "translation": "Hai già acquisito questo oggetto come accessorio di moda.<hex:02100103>Gli accessori di moda possono essere scambiati con accessori facciali rivolgendosi ai recuperatori della calamità presenti a Limsa Lominsa, Gridania e Ul'dah."
   },
   "10599": {
     "original": "You have already acquired this item as a fashion accessory.<hex:02100103>Fashion accessories can be exchanged for facewear by speaking with Calamity salvagers located in Limsa Lominsa, Gridania, and Ul'dah.",
-    "translation": "Hai già acquisito questo oggetto come accessorio di moda.<hex:02100103>Gli accessori di moda possono essere scambiati con accessori facciali parlando con i Calamity salvager situati a Limsa Lominsa, Gridania e Ul'dah."
+    "translation": "Hai già acquisito questo oggetto come accessorio di moda.<hex:02100103>Gli accessori di moda possono essere scambiati con accessori facciali rivolgendosi ai recuperatori della calamità presenti a Limsa Lominsa, Gridania e Ul'dah."
   },
   "10600": {
     "original": "The falling rock shatters the crystal...",
@@ -31137,7 +31137,7 @@
   },
   "10642": {
     "original": "Unable to use. You are not a member of the corresponding Grand Company.",
-    "translation": "Impossibile usare. Non appartieni alla Gran Compagnia corrispondente."
+    "translation": "Impossibile usare. Non appartieni alla Grande Compagnia corrispondente."
   },
   "10643": {
     "original": "Cloudlets of Darkness manifest...",
@@ -31293,7 +31293,7 @@
   },
   "10681": {
     "original": "A mystical presence has withdrawn from the South Horn...",
-    "translation": "Una presenza mistica si è ritirata dal South Horn..."
+    "translation": "Una presenza mistica si è ritirata dal Corno Sud..."
   },
   "10682": {
     "original": "The scorching heat saps your strength...",
@@ -31373,7 +31373,7 @@
   },
   "10701": {
     "original": "Unable to use with no party members.",
-    "translation": "Impossibile usare senza membri nel party."
+    "translation": "Impossibile usare senza membri nel gruppo."
   },
   "10702": {
     "original": "Unable to use during battle.",
@@ -31705,7 +31705,7 @@
   },
   "10807": {
     "original": "Moongate Hub has issued a red alert, allowing you to undertake critical missions.<hex:02100103>Further details can be found under “<hex:022819FF124465736372697074696F6E537472696E67F20523011903>” in your exotablet.",
-    "translation": "Il Moongate Hub ha emesso un allarme rosso, consentendoti di intraprendere missioni critiche.<hex:02100103>Ulteriori dettagli sono disponibili alla voce «<hex:022819FF124465736372697074696F6E537472696E67F20523011903>» nel tuo exotablet."
+    "translation": "Lo Snodo della Porta Lunare ha emesso un allarme rosso, consentendoti di intraprendere missioni critiche.<hex:02100103>Ulteriori dettagli sono disponibili alla voce «<hex:022819FF124465736372697074696F6E537472696E67F20523011903>» nel tuo exotablet."
   },
   "10810": {
     "original": "Your contributions to the exploration initiative have earned you access to the Cosmoliner.<hex:02100103>Further details can be found under “<hex:022819FF124465736372697074696F6E537472696E67F2051A011903>” in your exotablet.",
@@ -31713,7 +31713,7 @@
   },
   "10811": {
     "original": "Thanks to your contributions, the Starward Standings holograms have been erected in the Moongate Hub.<hex:02100103>Further details can be found under “<hex:022819FF124465736372697074696F6E537472696E67F20514011903>” in your exotablet.",
-    "translation": "Grazie ai tuoi contributi, gli ologrammi dei Starward Standings sono stati eretti nel Moongate Hub.<hex:02100103>Ulteriori dettagli sono disponibili alla voce «<hex:022819FF124465736372697074696F6E537472696E67F20514011903>» nel tuo exotablet."
+    "translation": "Grazie ai tuoi contributi, gli ologrammi della Classifica Stellare sono stati eretti nello Snodo della Porta Lunare.<hex:02100103>Ulteriori dettagli sono disponibili alla voce «<hex:022819FF124465736372697074696F6E537472696E67F20514011903>» nel tuo exotablet."
   },
   "10812": {
     "original": "You must first complete the quest “<hex:02280BFF065175657374E8020103>” to participate in this FATE.",
@@ -32069,7 +32069,7 @@
   },
   "10901": {
     "original": "One or more party members are new to this duty.<hex:02100103>Upon completion, a bonus may be awarded based on the number of new party members.",
-    "translation": "Uno o più membri del party affrontano questo incarico per la prima volta.<hex:02100103>Al completamento, potrebbe essere assegnato un bonus in base al numero di nuovi membri."
+    "translation": "Uno o più membri del gruppo affrontano questo incarico per la prima volta.<hex:02100103>Al completamento, potrebbe essere assegnato un bonus in base al numero di nuovi membri."
   },
   "10902": {
     "original": "<hex:022003E80303> party <hex:020816E2E80302FF076D656D626572FF086D656D6265727303> <hex:020810E2E80302FF04776173FF057765726503> new to this duty upon its completion. A bonus <hex:02310CFF054974656D04E802020203> has been added to the rewards.",
@@ -32285,11 +32285,11 @@
   },
   "10960": {
     "original": "Unable to change knowledge level sync settings. One or more party members is engaged in combat.",
-    "translation": "Impossibile modificare le impostazioni di sincronizzazione del livello di conoscenza. Uno o più membri del party sono impegnati in combattimento."
+    "translation": "Impossibile modificare le impostazioni di sincronizzazione del livello di conoscenza. Uno o più membri del gruppo sono impegnati in combattimento."
   },
   "10961": {
     "original": "Unable to change knowledge level sync settings. One or more party members has just exited combat.",
-    "translation": "Impossibile modificare le impostazioni di sincronizzazione del livello di conoscenza. Uno o più membri del party sono appena usciti dal combattimento."
+    "translation": "Impossibile modificare le impostazioni di sincronizzazione del livello di conoscenza. Uno o più membri del gruppo sono appena usciti dal combattimento."
   },
   "10962": {
     "original": "Knowledge level sync has been <hex:020818E1E80201FF08656E61626C6564FF0964697361626C656403>.",
@@ -32301,7 +32301,7 @@
   },
   "10964": {
     "original": "A mystical presence has withdrawn from the South Horn, leaving behind a treasure coffer!",
-    "translation": "Una presenza mistica si è ritirata dal South Horn, lasciando dietro di sé uno scrigno del tesoro!"
+    "translation": "Una presenza mistica si è ritirata dal Corno Sud, lasciando dietro di sé uno scrigno del tesoro!"
   },
   "10965": {
     "original": "You sense the presence of <hex:022003E80203> silver <hex:020816E4E80202FF07636F66666572FF08636F666665727303> and <hex:022003E80303> bronze <hex:020816E4E80302FF07636F66666572FF08636F666665727303> in the area!",
@@ -32381,7 +32381,7 @@
   },
   "10984": {
     "original": "There are no other Aethernet shards available to you in this region.",
-    "translation": "Non ci sono altri frammenti dell'Aethernet disponibili per te in questa regione."
+    "translation": "Non hai a disposizione altri frammenti dell'Eternet in questa regione."
   },
   "10985": {
     "original": "You discover a treasure coffer!",
@@ -32429,7 +32429,7 @@
   },
   "10996": {
     "original": "In return for your fortune carrot, the happy bunny wishes to offer you treasure.",
-    "translation": "In cambio della tua carota della fortuna, l'happy bunny desidera offrirti un tesoro."
+    "translation": "In cambio della tua carota della fortuna, il coniglio felice desidera offrirti un tesoro."
   },
   "10997": {
     "original": "You sense no happy bunnies in the area...",
@@ -32449,7 +32449,7 @@
   },
   "11001": {
     "original": "“<hex:022819FF124465736372697074696F6E537472696E67F204C8011803>” has been added to the Occult Crescent guide.",
-    "translation": "«<hex:022819FF124465736372697074696F6E537472696E67F204C8011803>» è stato aggiunto alla guida dell'Occult Crescent."
+    "translation": "«<hex:022819FF124465736372697074696F6E537472696E67F204C8011803>» è stato aggiunto alla guida della Falce Occulta."
   },
   "11002": {
     "original": "You have joined the critical encounter “<hex:022812FF0D44796E616D69634576656E74E8020C03>.”",
@@ -32501,7 +32501,7 @@
   },
   "11016": {
     "original": "“<hex:022819FF124465736372697074696F6E537472696E67F204BD011803>” has been added to the Occult Crescent guide.",
-    "translation": "«<hex:022819FF124465736372697074696F6E537472696E67F204BD011803>» è stato aggiunto alla guida dell'Occult Crescent."
+    "translation": "«<hex:022819FF124465736372697074696F6E537472696E67F204BD011803>» è stato aggiunto alla guida della Falce Occulta."
   },
   "11017": {
     "original": "Unable to participate. Aetherial node capacity exceeded.",
@@ -32557,11 +32557,11 @@
   },
   "11030": {
     "original": "“<hex:022819FF124465736372697074696F6E537472696E67F20676011803>” has been added to the Occult Crescent guide.",
-    "translation": "«<hex:022819FF124465736372697074696F6E537472696E67F20676011803>» è stato aggiunto alla guida dell'Occult Crescent."
+    "translation": "«<hex:022819FF124465736372697074696F6E537472696E67F20676011803>» è stato aggiunto alla guida della Falce Occulta."
   },
   "11031": {
     "original": "“<hex:022819FF124465736372697074696F6E537472696E67F20679011803>” has been added to the Occult Crescent guide.",
-    "translation": "«<hex:022819FF124465736372697074696F6E537472696E67F20679011803>» è stato aggiunto alla guida dell'Occult Crescent."
+    "translation": "«<hex:022819FF124465736372697074696F6E537472696E67F20679011803>» è stato aggiunto alla guida della Falce Occulta."
   },
   "11032": {
     "original": "Unable to participate. A knowledge level of 40 is required to enter.",
@@ -32569,7 +32569,7 @@
   },
   "11033": {
     "original": "“<hex:022819FF124465736372697074696F6E537472696E67F2067B011803>” has been added to the Occult Crescent guide.",
-    "translation": "«<hex:022819FF124465736372697074696F6E537472696E67F2067B011803>» è stato aggiunto alla guida dell'Occult Crescent."
+    "translation": "«<hex:022819FF124465736372697074696F6E537472696E67F2067B011803>» è stato aggiunto alla guida della Falce Occulta."
   },
   "11034": {
     "original": "Unable to participate. You must have a knowledge level of 40 and have completed certain quests to enter the Forked Tower: Magic.",
@@ -32585,7 +32585,7 @@
   },
   "11037": {
     "original": "“<hex:022819FF124465736372697074696F6E537472696E67F206DE011803>” has been added to the Occult Crescent guide.",
-    "translation": "«<hex:022819FF124465736372697074696F6E537472696E67F206DE011803>» è stato aggiunto alla guida dell'Occult Crescent."
+    "translation": "«<hex:022819FF124465736372697074696F6E537472696E67F206DE011803>» è stato aggiunto alla guida della Falce Occulta."
   },
   "11038": {
     "original": "If your knowledge level is above 20, it will be synced.",
@@ -32849,7 +32849,7 @@
   },
   "11192": {
     "original": "You must return to your Home World to travel to cosmic exploration areas.",
-    "translation": "Devi tornare sul tuo Home World per viaggiare nelle aree di esplorazione cosmica."
+    "translation": "Devi tornare sul tuo Mondo d'Origine per viaggiare nelle aree di esplorazione cosmica."
   },
   "11195": {
     "original": "You've started a gold count streak.",
@@ -33085,11 +33085,11 @@
   },
   "11260": {
     "original": "You were expelled from Vault Oneiron...",
-    "translation": "Sei stato espulso dalla Vault Oneiron..."
+    "translation": "Sei stato espulso dalla Volta Oneiron..."
   },
   "11261": {
     "original": "Your party wakes far from Vault Oneiron...",
-    "translation": "Il tuo party si risveglia lontano dalla Vault Oneiron..."
+    "translation": "Il tuo party si risveglia lontano dalla Volta Oneiron..."
   },
   "11262": {
     "original": "Grab 100 shining sacks in 90 seconds!",
@@ -33465,7 +33465,7 @@
   },
   "11364": {
     "original": "Unable to teleport. You have not attuned to other Aethernet shards.",
-    "translation": "Impossibile teletrasportarsi. Non ti sei sintonizzato con altri frammenti dell'Aethernet."
+    "translation": "Impossibile teletrasportarsi. Non hai ancora attivato altri frammenti dell'Eternet."
   },
   "11365": {
     "original": "Able to execute <hex:02280CFF07416374696F6EE8020103>!",
@@ -33761,7 +33761,7 @@
   },
   "11442": {
     "original": "Unable to challenge the Crucible of the Unbroken. You must leave your party first.",
-    "translation": "Impossibile sfidare il Crucible of the Unbroken. Devi prima lasciare il tuo party."
+    "translation": "Impossibile sfidare il Crogiolo degli Infrangibili. Devi prima lasciare il tuo gruppo."
   },
   "11443": {
     "original": "You are not yet strong enough to befriend this beast...",
@@ -33881,7 +33881,7 @@
   },
   "11472": {
     "original": "You can only participate in Crucible Rankings on your Home World.",
-    "translation": "Puoi partecipare alle Crucible Rankings solo sul tuo Home World."
+    "translation": "Puoi partecipare alle Classifiche del Crogiolo solo sul tuo Mondo d'Origine."
   },
   "11473": {
     "original": "Unable to view. No applicable data.",
@@ -33905,7 +33905,7 @@
   },
   "11478": {
     "original": "Unable to create new save data. Please return to your Home World and attend to the suspended data applicable to Crucible Rankings.",
-    "translation": "Impossibile creare nuovi dati di salvataggio. Torna sul tuo Home World e gestisci i dati sospesi relativi alle Crucible Rankings."
+    "translation": "Impossibile creare nuovi dati di salvataggio. Torna sul tuo Mondo d'Origine e gestisci i dati sospesi relativi alle Classifiche del Crogiolo."
   },
   "11479": {
     "original": "The coward's knife cuts a way past combat. Select “Flee” to escape an enemy space.",
@@ -33989,11 +33989,11 @@
   },
   "11506": {
     "original": "There are one or more unattuned Aethernet shards in the area.",
-    "translation": "Ci sono uno o più frammenti dell'Aethernet non sintonizzati nell'area."
+    "translation": "Ci sono uno o più frammenti dell'Eternet non ancora sintonizzati nell'area."
   },
   "11507": {
     "original": "New Aethernet shards can be found across this region. These points have also been indicated on your map.",
-    "translation": "Nuovi frammenti dell'Aethernet possono essere trovati in questa regione. Questi punti sono stati indicati anche sulla tua mappa."
+    "translation": "Puoi trovare nuovi frammenti dell'Eternet in questa regione; la mappa ne indica anche la posizione."
   },
   "11508": {
     "original": "Time expired. You forfeit the duty.",
@@ -34073,11 +34073,11 @@
   },
   "11527": {
     "original": "A mystical presence has withdrawn from the North Horn...",
-    "translation": "Una presenza mistica si è ritirata dal North Horn..."
+    "translation": "Una presenza mistica si è ritirata dal Corno Nord..."
   },
   "11530": {
     "original": "A mystical presence has withdrawn from the North Horn, leaving behind a treasure coffer!",
-    "translation": "Una presenza mistica si è ritirata dal North Horn, lasciando dietro di sé uno scrigno del tesoro!"
+    "translation": "Una presenza mistica si è ritirata dal Corno Nord, lasciando dietro di sé uno scrigno del tesoro!"
   },
   "11531": {
     "original": "Your foe is scanning for moving targets!",
@@ -34121,7 +34121,7 @@
   },
   "11541": {
     "original": "“<hex:022819FF124465736372697074696F6E537472696E67F20497011B03>” has been added to the Sightseeing Log guide.",
-    "translation": "«<hex:022819FF124465736372697074696F6E537472696E67F20497011B03>» è stato aggiunto alla guida del Sightseeing Log."
+    "translation": "«<hex:022819FF124465736372697074696F6E537472696E67F20497011B03>» è stato aggiunto alla guida del Diario Esplorazione."
   },
   "11542": {
     "original": "Use Molting Python to break free of your bonds!",
@@ -34449,11 +34449,11 @@
   },
   "11676": {
     "original": "“<hex:022819FF124465736372697074696F6E537472696E67F206A4011D03>” has been added to the Crucible of the Unbroken guide.",
-    "translation": "«<hex:022819FF124465736372697074696F6E537472696E67F206A4011D03>» è stato aggiunto alla guida del Crucible of the Unbroken."
+    "translation": "«<hex:022819FF124465736372697074696F6E537472696E67F206A4011D03>» è stato aggiunto alla guida del Crogiolo degli Infrangibili."
   },
   "11677": {
     "original": "“<hex:022819FF124465736372697074696F6E537472696E67F206E2011D03>” has been added to the Crucible of the Unbroken guide.",
-    "translation": "«<hex:022819FF124465736372697074696F6E537472696E67F206E2011D03>» è stato aggiunto alla guida del Crucible of the Unbroken."
+    "translation": "«<hex:022819FF124465736372697074696F6E537472696E67F206E2011D03>» è stato aggiunto alla guida del Crogiolo degli Infrangibili."
   },
   "11779": {
     "original": "The duty has ended. The time limit for this instance has been adjusted.",

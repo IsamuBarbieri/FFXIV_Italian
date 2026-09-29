@@ -5,7 +5,7 @@
   },
   "2": {
     "original": "GLA",
-    "translation": "GLA"
+    "translation": "GLD"
   },
   "3": {
     "original": "PGL",
@@ -13,7 +13,7 @@
   },
   "4": {
     "original": "MRD",
-    "translation": "MRD"
+    "translation": "INC"
   },
   "5": {
     "original": "LNC",
@@ -25,19 +25,19 @@
   },
   "7": {
     "original": "CNJ",
-    "translation": "CNJ"
+    "translation": "INT"
   },
   "8": {
     "original": "THM",
-    "translation": "THM"
+    "translation": "TMR"
   },
   "9": {
     "original": "CRP",
-    "translation": "CRP"
+    "translation": "FLG"
   },
   "10": {
     "original": "BSM",
-    "translation": "BSM"
+    "translation": "FBR"
   },
   "11": {
     "original": "ARM",
@@ -45,15 +45,15 @@
   },
   "12": {
     "original": "GSM",
-    "translation": "GSM"
+    "translation": "ORF"
   },
   "13": {
     "original": "LTW",
-    "translation": "LTW"
+    "translation": "NCT"
   },
   "14": {
     "original": "WVR",
-    "translation": "WVR"
+    "translation": "TST"
   },
   "15": {
     "original": "ALC",
@@ -61,11 +61,11 @@
   },
   "16": {
     "original": "CUL",
-    "translation": "CUL"
+    "translation": "CUC"
   },
   "17": {
     "original": "MIN",
-    "translation": "MIN"
+    "translation": "MNT"
   },
   "18": {
     "original": "BTN",
@@ -73,7 +73,7 @@
   },
   "19": {
     "original": "FSH",
-    "translation": "FSH"
+    "translation": "PSC"
   },
   "20": {
     "original": "PLD",
@@ -81,11 +81,11 @@
   },
   "21": {
     "original": "MNK",
-    "translation": "MNK"
+    "translation": "MNC"
   },
   "22": {
     "original": "WAR",
-    "translation": "WAR"
+    "translation": "GUE"
   },
   "23": {
     "original": "DRG",
@@ -97,11 +97,11 @@
   },
   "25": {
     "original": "WHM",
-    "translation": "WHM"
+    "translation": "MBN"
   },
   "26": {
     "original": "BLM",
-    "translation": "BLM"
+    "translation": "MNR"
   },
   "27": {
     "original": "ACN",
@@ -109,11 +109,11 @@
   },
   "28": {
     "original": "SMN",
-    "translation": "SMN"
+    "translation": "EVC"
   },
   "29": {
     "original": "SCH",
-    "translation": "SCH"
+    "translation": "STD"
   },
   "30": {
     "original": "Disciple of War",
@@ -145,43 +145,43 @@
   },
   "37": {
     "original": "GLA PGL MRD LNC ARC ROG CNJ THM ACN PLD WAR DRK",
-    "translation": "GLA PGL MRD LNC ARC ROG CNJ THM ACN PLD WAR DRK"
+    "translation": "GLD PGL INC LNC ARC FRT INT TMR ACN PLD GUE CVS"
   },
   "38": {
     "original": "GLA PLD",
-    "translation": "GLA PLD"
+    "translation": "GLD PLD"
   },
   "39": {
     "original": "GLA PGL MRD LNC ARC ROG PLD WAR DRK",
-    "translation": "GLA PGL MRD LNC ARC ROG PLD WAR DRK"
+    "translation": "GLD PGL INC LNC ARC FRT PLD GUE CVS"
   },
   "40": {
     "original": "GLA PGL MRD LNC ARC ROG CNJ THM ACN MNK WAR DRG BRD NIN",
-    "translation": "GLA PGL MRD LNC ARC ROG CNJ THM ACN MNK WAR DRG BRD NIN"
+    "translation": "GLD PGL INC LNC ARC FRT INT TMR ACN MNC GUE DRG BRD NJA"
   },
   "41": {
     "original": "PGL MNK",
-    "translation": "PGL MNK"
+    "translation": "PGL MNC"
   },
   "42": {
     "original": "GLA PGL MRD LNC ARC ROG MNK WAR DRG BRD NIN",
-    "translation": "GLA PGL MRD LNC ARC ROG MNK WAR DRG BRD NIN"
+    "translation": "GLD PGL INC LNC ARC FRT MNC GUE DRG BRD NJA"
   },
   "43": {
     "original": "GLA PGL MRD LNC ARC ROG CNJ THM ACN PLD MNK WAR DRG DRK",
-    "translation": "GLA PGL MRD LNC ARC ROG CNJ THM ACN PLD MNK WAR DRG DRK"
+    "translation": "GLD PGL INC LNC ARC FRT INT TMR ACN PLD MNC GUE DRG CVS"
   },
   "44": {
     "original": "MRD WAR",
-    "translation": "MRD WAR"
+    "translation": "INC GUE"
   },
   "45": {
     "original": "GLA PGL MRD LNC ARC ROG PLD MNK WAR DRG DRK",
-    "translation": "GLA PGL MRD LNC ARC ROG PLD MNK WAR DRG DRK"
+    "translation": "GLD PGL INC LNC ARC FRT PLD MNC GUE DRG CVS"
   },
   "46": {
     "original": "GLA PGL MRD LNC ARC ROG CNJ THM ACN MNK DRG BRD NIN MCH",
-    "translation": "GLA PGL MRD LNC ARC ROG CNJ THM ACN MNK DRG BRD NIN MCH"
+    "translation": "GLD PGL INC LNC ARC FRT INT TMR ACN MNC DRG BRD NJA ART"
   },
   "47": {
     "original": "LNC DRG",
@@ -189,11 +189,11 @@
   },
   "48": {
     "original": "GLA PGL MRD LNC ARC ROG MNK DRG BRD NIN MCH",
-    "translation": "GLA PGL MRD LNC ARC ROG MNK DRG BRD NIN MCH"
+    "translation": "GLD PGL INC LNC ARC FRT MNC DRG BRD NJA ART"
   },
   "49": {
     "original": "GLA PGL MRD LNC ARC ROG CNJ THM ACN BRD BLM SMN MCH",
-    "translation": "GLA PGL MRD LNC ARC ROG CNJ THM ACN BRD BLM SMN MCH"
+    "translation": "GLD PGL INC LNC ARC FRT INT TMR ACN BRD MNR EVC ART"
   },
   "50": {
     "original": "ARC BRD",
@@ -201,79 +201,79 @@
   },
   "51": {
     "original": "GLA PGL MRD LNC ARC ROG BRD MCH",
-    "translation": "GLA PGL MRD LNC ARC ROG BRD MCH"
+    "translation": "GLD PGL INC LNC ARC FRT BRD ART"
   },
   "52": {
     "original": "GLA PGL MRD LNC ARC ROG CNJ THM ACN PLD WHM SCH AST",
-    "translation": "GLA PGL MRD LNC ARC ROG CNJ THM ACN PLD WHM SCH AST"
+    "translation": "GLD PGL INC LNC ARC FRT INT TMR ACN PLD MBN STD AST"
   },
   "53": {
     "original": "CNJ WHM",
-    "translation": "CNJ WHM"
+    "translation": "INT MBN"
   },
   "54": {
     "original": "GLA PGL MRD LNC ARC ROG CNJ THM ACN WHM BLM SMN SCH AST",
-    "translation": "GLA PGL MRD LNC ARC ROG CNJ THM ACN WHM BLM SMN SCH AST"
+    "translation": "GLD PGL INC LNC ARC FRT INT TMR ACN MBN MNR EVC STD AST"
   },
   "55": {
     "original": "THM BLM",
-    "translation": "THM BLM"
+    "translation": "TMR MNR"
   },
   "56": {
     "original": "GLA CNJ THM PLD WHM BLM BST",
-    "translation": "GLA CNJ THM PLD WHM BLM BST"
+    "translation": "GLD INT TMR PLD MBN MNR DMT"
   },
   "57": {
     "original": "GLA THM PLD BLM BST",
-    "translation": "GLA THM PLD BLM BST"
+    "translation": "GLD TMR PLD MNR DMT"
   },
   "58": {
     "original": "GLA CNJ PLD WHM BST",
-    "translation": "GLA CNJ PLD WHM BST"
+    "translation": "GLD INT PLD MBN DMT"
   },
   "59": {
     "original": "GLA MRD PLD WAR DRK GNB",
-    "translation": "GLA MRD PLD WAR DRK GNB"
+    "translation": "GLD INC PLD GUE CVS ETR"
   },
   "60": {
     "original": "GLA MRD LNC PLD WAR DRG DRK GNB RPR",
-    "translation": "GLA MRD LNC PLD WAR DRG DRK GNB RPR"
+    "translation": "GLD INC LNC PLD GUE DRG CVS ETR MTR"
   },
   "61": {
     "original": "CNJ THM ACN WHM SCH AST",
-    "translation": "CNJ THM ACN WHM SCH AST"
+    "translation": "INT TMR ACN MBN STD AST"
   },
   "62": {
     "original": "CNJ THM ACN WHM BLM SMN SCH AST",
-    "translation": "CNJ THM ACN WHM BLM SMN SCH AST"
+    "translation": "INT TMR ACN MBN MNR EVC STD AST"
   },
   "63": {
     "original": "THM ACN BLM SMN RDM BLU PCT",
-    "translation": "THM ACN BLM SMN RDM BLU PCT"
+    "translation": "TMR ACN MNR EVC MGR MBL PTM"
   },
   "64": {
     "original": "CNJ WHM SCH AST SGE",
-    "translation": "CNJ WHM SCH AST SGE"
+    "translation": "INT MBN STD AST SGO"
   },
   "65": {
     "original": "PGL MNK SAM BST",
-    "translation": "PGL MNK SAM BST"
+    "translation": "PGL MNC SMR DMT"
   },
   "66": {
     "original": "ARC BRD MCH DNC",
-    "translation": "ARC BRD MCH DNC"
+    "translation": "ARC BRD ART DNZ"
   },
   "67": {
     "original": "GLA PGL MRD LNC ROG MNK DRG NIN",
-    "translation": "GLA PGL MRD LNC ROG MNK DRG NIN"
+    "translation": "GLD PGL INC LNC FRT MNC DRG NJA"
   },
   "68": {
     "original": "ACN SMN SCH",
-    "translation": "ACN SMN SCH"
+    "translation": "ACN EVC STD"
   },
   "69": {
     "original": "ACN SMN",
-    "translation": "ACN SMN"
+    "translation": "ACN EVC"
   },
   "70": {
     "original": "Any Disciple of the Hand (excluding culinarians)",
@@ -281,23 +281,23 @@
   },
   "71": {
     "original": "GLA PGL MRD LNC ARC ROG CNJ THM ACN WHM BLM SMN SCH",
-    "translation": "GLA PGL MRD LNC ARC ROG CNJ THM ACN WHM BLM SMN SCH"
+    "translation": "GLD PGL INC LNC ARC FRT INT TMR ACN MBN MNR EVC STD"
   },
   "72": {
     "original": "CNJ THM ACN WHM BLM SMN SCH",
-    "translation": "CNJ THM ACN WHM BLM SMN SCH"
+    "translation": "INT TMR ACN MBN MNR EVC STD"
   },
   "73": {
     "original": "CNJ WHM SCH AST SGE",
-    "translation": "CNJ WHM SCH AST SGE"
+    "translation": "INT MBN STD AST SGO"
   },
   "76": {
     "original": "LNC DRG RPR",
-    "translation": "LNC DRG RPR"
+    "translation": "LNC DRG MTR"
   },
   "84": {
     "original": "PGL LNC MNK DRG SAM RPR BST",
-    "translation": "PGL LNC MNK DRG SAM RPR BST"
+    "translation": "PGL LNC MNC DRG SMR MTR DMT"
   },
   "85": {
     "original": "Jobs of the Disciples of War or Magic",
@@ -305,55 +305,55 @@
   },
   "86": {
     "original": "PLD WAR DRK GNB MNK DRG NIN SAM",
-    "translation": "PLD WAR DRK GNB MNK DRG NIN SAM"
+    "translation": "PLD GUE CVS ETR MNC DRG NJA SMR"
   },
   "87": {
     "original": "BRD MCH DNC BLM SMN RDM WHM SCH AST",
-    "translation": "BRD MCH DNC BLM SMN RDM WHM SCH AST"
+    "translation": "BRD ART DNZ MNR EVC MGR MBN STD AST"
   },
   "88": {
     "original": "GLA MRD PGL LNC ARC ROG PLD MNK WAR DRG BRD NIN MCH",
-    "translation": "GLA MRD PGL LNC ARC ROG PLD MNK WAR DRG BRD NIN MCH"
+    "translation": "GLD INC PGL LNC ARC FRT PLD MNC GUE DRG BRD NJA ART"
   },
   "89": {
     "original": "BLM SMN RDM PCT",
-    "translation": "BLM SMN RDM PCT"
+    "translation": "MNR EVC MGR PTM"
   },
   "90": {
     "original": "ARC CNJ THM ACN WHM BRD BLM SMN SCH MCH AST",
-    "translation": "ARC CNJ THM ACN WHM BRD BLM SMN SCH MCH AST"
+    "translation": "ARC INT TMR ACN MBN BRD MNR EVC STD ART AST"
   },
   "91": {
     "original": "ROG",
-    "translation": "ROG"
+    "translation": "FRT"
   },
   "92": {
     "original": "NIN",
-    "translation": "NIN"
+    "translation": "NJA"
   },
   "93": {
     "original": "ROG NIN",
-    "translation": "ROG NIN"
+    "translation": "FRT NJA"
   },
   "94": {
     "original": "GLA PGL MRD LNC ARC ROG NIN",
-    "translation": "GLA PGL MRD LNC ARC ROG NIN"
+    "translation": "GLD PGL INC LNC ARC FRT NJA"
   },
   "95": {
     "original": "GLA PGL MRD LNC ROG NIN",
-    "translation": "GLA PGL MRD LNC ROG NIN"
+    "translation": "GLD PGL INC LNC FRT NJA"
   },
   "96": {
     "original": "MCH",
-    "translation": "MCH"
+    "translation": "ART"
   },
   "97": {
     "original": "PGL LNC ARC ROG MNK DRG BRD NIN MCH",
-    "translation": "PGL LNC ARC ROG MNK DRG BRD NIN MCH"
+    "translation": "PGL LNC ARC FRT MNC DRG BRD NJA ART"
   },
   "98": {
     "original": "DRK",
-    "translation": "DRK"
+    "translation": "CVS"
   },
   "99": {
     "original": "AST",
@@ -361,31 +361,31 @@
   },
   "100": {
     "original": "ARC ROG BRD NIN MCH",
-    "translation": "ARC ROG BRD NIN MCH"
+    "translation": "ARC FRT BRD NJA ART"
   },
   "101": {
     "original": "PGL LNC ROG MNK DRG NIN",
-    "translation": "PGL LNC ROG MNK DRG NIN"
+    "translation": "PGL LNC FRT MNC DRG NJA"
   },
   "102": {
     "original": "PGL ROG MNK NIN SAM VPR BST",
-    "translation": "PGL ROG MNK NIN SAM VPR BST"
+    "translation": "PGL FRT MNC NJA SMR VPR DMT"
   },
   "103": {
     "original": "ROG NIN VPR",
-    "translation": "ROG NIN VPR"
+    "translation": "FRT NJA VPR"
   },
   "105": {
     "original": "ARC ROG BRD NIN MCH DNC VPR",
-    "translation": "ARC ROG BRD NIN MCH DNC VPR"
+    "translation": "ARC FRT BRD NJA ART DNZ VPR"
   },
   "106": {
     "original": "GLA MRD PGL LNC ARC ROG BRD",
-    "translation": "GLA MRD PGL LNC ARC ROG BRD"
+    "translation": "GLD INC PGL LNC ARC FRT BRD"
   },
   "107": {
     "original": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST",
-    "translation": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST"
+    "translation": "PLD MNC GUE DRG BRD MBN MNR EVC STD NJA ART CVS AST"
   },
   "108": {
     "original": "Disciples of War or Magic",
@@ -397,327 +397,327 @@
   },
   "111": {
     "original": "SAM",
-    "translation": "SAM"
+    "translation": "SMR"
   },
   "112": {
     "original": "RDM",
-    "translation": "RDM"
+    "translation": "MGR"
   },
   "113": {
     "original": "GLA MRD PLD WAR DRK GNB",
-    "translation": "GLA MRD PLD WAR DRK GNB"
+    "translation": "GLD INC PLD GUE CVS ETR"
   },
   "114": {
     "original": "PGL LNC ROG MNK DRG NIN SAM RPR VPR",
-    "translation": "PGL LNC ROG MNK DRG NIN SAM RPR VPR"
+    "translation": "PGL LNC FRT MNC DRG NJA SMR MTR VPR"
   },
   "115": {
     "original": "ARC BRD MCH DNC",
-    "translation": "ARC BRD MCH DNC"
+    "translation": "ARC BRD ART DNZ"
   },
   "116": {
     "original": "THM ACN BLM SMN RDM BLU PCT",
-    "translation": "THM ACN BLM SMN RDM BLU PCT"
+    "translation": "TMR ACN MNR EVC MGR MBL PTM"
   },
   "117": {
     "original": "CNJ WHM SCH AST SGE",
-    "translation": "CNJ WHM SCH AST SGE"
+    "translation": "INT MBN STD AST SGO"
   },
   "118": {
     "original": "PGL LNC ARC ROG MNK DRG BRD NIN MCH SAM DNC RPR VPR",
-    "translation": "PGL LNC ARC ROG MNK DRG BRD NIN MCH SAM DNC RPR VPR"
+    "translation": "PGL LNC ARC FRT MNC DRG BRD NJA ART SMR DNZ MTR VPR"
   },
   "119": {
     "original": "PGL LNC THM ACN ROG MNK DRG BLM SMN NIN SAM RDM BLU RPR VPR PCT",
-    "translation": "PGL LNC THM ACN ROG MNK DRG BLM SMN NIN SAM RDM BLU RPR VPR PCT"
+    "translation": "PGL LNC TMR ACN FRT MNC DRG MNR EVC NJA SMR MGR MBL MTR VPR PTM"
   },
   "120": {
     "original": "CNJ THM ACN WHM BLM SMN SCH AST RDM BLU SGE PCT",
-    "translation": "CNJ THM ACN WHM BLM SMN SCH AST RDM BLU SGE PCT"
+    "translation": "INT TMR ACN MBN MNR EVC STD AST MGR MBL SGO PTM"
   },
   "121": {
     "original": "PLD WAR DRK GNB",
-    "translation": "PLD WAR DRK GNB"
+    "translation": "PLD GUE CVS ETR"
   },
   "122": {
     "original": "MNK DRG NIN SAM RPR VPR",
-    "translation": "MNK DRG NIN SAM RPR VPR"
+    "translation": "MNC DRG NJA SMR MTR VPR"
   },
   "123": {
     "original": "BRD MCH DNC",
-    "translation": "BRD MCH DNC"
+    "translation": "BRD ART DNZ"
   },
   "124": {
     "original": "BLM SMN RDM BLU PCT",
-    "translation": "BLM SMN RDM BLU PCT"
+    "translation": "MNR EVC MGR MBL PTM"
   },
   "125": {
     "original": "WHM SCH AST SGE",
-    "translation": "WHM SCH AST SGE"
+    "translation": "MBN STD AST SGO"
   },
   "126": {
     "original": "MNK DRG BRD NIN MCH SAM DNC RPR VPR",
-    "translation": "MNK DRG BRD NIN MCH SAM DNC RPR VPR"
+    "translation": "MNC DRG BRD NJA ART SMR DNZ MTR VPR"
   },
   "127": {
     "original": "MNK DRG BLM SMN NIN SAM RDM BLU RPR VPR PCT",
-    "translation": "MNK DRG BLM SMN NIN SAM RDM BLU RPR VPR PCT"
+    "translation": "MNC DRG MNR EVC NJA SMR MGR MBL MTR VPR PTM"
   },
   "128": {
     "original": "WHM BLM SMN SCH AST RDM BLU SGE PCT",
-    "translation": "WHM BLM SMN SCH AST RDM BLU SGE PCT"
+    "translation": "MBN MNR EVC STD AST MGR MBL SGO PTM"
   },
   "129": {
     "original": "BLU",
-    "translation": "BLU"
+    "translation": "MBL"
   },
   "130": {
     "original": "All classes and jobs (excluding limited jobs)",
-    "translation": "Tutte le Classi e i Job (esclusi i Job limitati)"
+    "translation": "Tutte le classi e i job (esclusi i job limitati)"
   },
   "131": {
     "original": "MNK DRG BRD BLM SMN NIN MCH SAM RDM DNC RPR VPR PCT",
-    "translation": "MNK DRG BRD BLM SMN NIN MCH SAM RDM DNC RPR VPR PCT"
+    "translation": "MNC DRG BRD MNR EVC NJA ART SMR MGR DNZ MTR VPR PTM"
   },
   "132": {
     "original": "MNK DRG BRD WHM BLM SMN SCH NIN MCH AST SAM RDM DNC RPR SGE VPR PCT",
-    "translation": "MNK DRG BRD WHM BLM SMN SCH NIN MCH AST SAM RDM DNC RPR SGE VPR PCT"
+    "translation": "MNC DRG BRD MBN MNR EVC STD NJA ART AST SMR MGR DNZ MTR SGO VPR PTM"
   },
   "133": {
     "original": "WHM SCH AST SGE",
-    "translation": "WHM SCH AST SGE"
+    "translation": "MBN STD AST SGO"
   },
   "134": {
     "original": "PLD WAR DRK GNB",
-    "translation": "PLD WAR DRK GNB"
+    "translation": "PLD GUE CVS ETR"
   },
   "135": {
     "original": "PLD MNK WAR DRG BRD BLM SMN NIN MCH DRK SAM RDM GNB DNC RPR VPR PCT",
-    "translation": "PLD MNK WAR DRG BRD BLM SMN NIN MCH DRK SAM RDM GNB DNC RPR VPR PCT"
+    "translation": "PLD MNC GUE DRG BRD MNR EVC NJA ART CVS SMR MGR ETR DNZ MTR VPR PTM"
   },
   "136": {
     "original": "PLD WAR WHM SCH DRK AST GNB SGE",
-    "translation": "PLD WAR WHM SCH DRK AST GNB SGE"
+    "translation": "PLD GUE MBN STD CVS AST ETR SGO"
   },
   "137": {
     "original": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC RPR SGE VPR PCT",
-    "translation": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC RPR SGE VPR PCT"
+    "translation": "PLD MNC GUE DRG BRD MBN MNR EVC STD NJA ART CVS AST SMR MGR ETR DNZ MTR SGO VPR PTM"
   },
   "138": {
     "original": "PLD MNK WAR DRG NIN DRK SAM GNB RPR VPR",
-    "translation": "PLD MNK WAR DRG NIN DRK SAM GNB RPR VPR"
+    "translation": "PLD MNC GUE DRG NJA CVS SMR ETR MTR VPR"
   },
   "139": {
     "original": "BRD MCH DNC",
-    "translation": "BRD MCH DNC"
+    "translation": "BRD ART DNZ"
   },
   "140": {
     "original": "WHM BLM SMN SCH AST RDM SGE PCT",
-    "translation": "WHM BLM SMN SCH AST RDM SGE PCT"
+    "translation": "MBN MNR EVC STD AST MGR SGO PTM"
   },
   "141": {
     "original": "PLD MNK WAR DRG BRD WHM BLM SMN SCH MCH DRK AST SAM RDM GNB DNC RPR SGE VPR PCT",
-    "translation": "PLD MNK WAR DRG BRD WHM BLM SMN SCH MCH DRK AST SAM RDM GNB DNC RPR SGE VPR PCT"
+    "translation": "PLD MNC GUE DRG BRD MBN MNR EVC STD ART CVS AST SMR MGR ETR DNZ MTR SGO VPR PTM"
   },
   "142": {
     "original": "Any Disciple of War or Magic (excluding limited jobs)",
-    "translation": "Qualsiasi Discepolo della Guerra o della Magia (esclusi i Job limitati)"
+    "translation": "Qualsiasi Discepolo della Guerra o della Magia (esclusi i job limitati)"
   },
   "143": {
     "original": "Disciples of War (excluding limited jobs)",
-    "translation": "Discepoli della Guerra (esclusi i Job limitati)"
+    "translation": "Discepoli della Guerra (esclusi i job limitati)"
   },
   "144": {
     "original": "Any Disciple of Magic (excluding limited jobs)",
-    "translation": "Qualsiasi Discepolo della Magia (esclusi i Job limitati)"
+    "translation": "Qualsiasi Discepolo della Magia (esclusi i job limitati)"
   },
   "145": {
     "original": "PLD MNK WAR DRG BRD NIN MCH DRK SAM GNB DNC RPR VPR",
-    "translation": "PLD MNK WAR DRG BRD NIN MCH DRK SAM GNB DNC RPR VPR"
+    "translation": "PLD MNC GUE DRG BRD NJA ART CVS SMR ETR DNZ MTR VPR"
   },
   "146": {
     "original": "Any job of the Disciples of War or Magic (excluding limited jobs)",
-    "translation": "Qualsiasi Job dei Discepoli della Guerra o della Magia (esclusi i Job limitati)"
+    "translation": "Qualsiasi job dei Discepoli della Guerra o della Magia (esclusi i job limitati)"
   },
   "147": {
     "original": "BLM SMN RDM PCT",
-    "translation": "BLM SMN RDM PCT"
+    "translation": "MNR EVC MGR PTM"
   },
   "148": {
     "original": "MNK DRG NIN SAM RPR VPR",
-    "translation": "MNK DRG NIN SAM RPR VPR"
+    "translation": "MNC DRG NJA SMR MTR VPR"
   },
   "149": {
     "original": "GNB",
-    "translation": "GNB"
+    "translation": "ETR"
   },
   "150": {
     "original": "DNC",
-    "translation": "DNC"
+    "translation": "DNZ"
   },
   "151": {
     "original": "BSM, ARM, GSM",
-    "translation": "BSM, ARM, GSM"
+    "translation": "FBR, ARM, ORF"
   },
   "152": {
     "original": "CRP, LTW, WVR",
-    "translation": "CRP, LTW, WVR"
+    "translation": "FLG, NCT, TST"
   },
   "153": {
     "original": "ALC, CUL",
-    "translation": "ALC, CUL"
+    "translation": "ALC, CUC"
   },
   "154": {
     "original": "MIN, BTN",
-    "translation": "MIN, BTN"
+    "translation": "MNT, BTN"
   },
   "155": {
     "original": "FSH",
-    "translation": "FSH"
+    "translation": "PSC"
   },
   "156": {
     "original": "Tank (excluding limited jobs)",
-    "translation": "Difensori (esclusi i Job limitati)"
+    "translation": "Difensori (esclusi i job limitati)"
   },
   "157": {
     "original": "Healer (excluding limited jobs)",
-    "translation": "Curatori (esclusi i Job limitati)"
+    "translation": "Curatori (esclusi i job limitati)"
   },
   "158": {
     "original": "Physical DPS (excluding limited jobs)",
-    "translation": "DPS fisici (esclusi i Job limitati)"
+    "translation": "DPS Fisici (esclusi i job limitati)"
   },
   "159": {
     "original": "Magical Ranged DPS (excluding limited jobs)",
-    "translation": "DPS magici a distanza (esclusi i Job limitati)"
+    "translation": "DPS Magici a Distanza (esclusi i job limitati)"
   },
   "160": {
     "original": "ACN SCH",
-    "translation": "ACN SCH"
+    "translation": "ACN STD"
   },
   "161": {
     "original": "GLA PGL MRD LNC ARC PLD MNK WAR DRG BRD ROG NIN MCH DRK SAM GNB DNC RPR VPR",
-    "translation": "GLA PGL MRD LNC ARC PLD MNK WAR DRG BRD ROG NIN MCH DRK SAM GNB DNC RPR VPR"
+    "translation": "GLD PGL INC LNC ARC PLD MNC GUE DRG BRD FRT NJA ART CVS SMR ETR DNZ MTR VPR"
   },
   "162": {
     "original": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC",
-    "translation": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC"
+    "translation": "PLD MNC GUE DRG BRD MBN MNR EVC STD NJA ART CVS AST SMR MGR ETR DNZ"
   },
   "163": {
     "original": "MNK DRG BRD BLM SMN NIN MCH SAM RDM DNC RPR VPR PCT",
-    "translation": "MNK DRG BRD BLM SMN NIN MCH SAM RDM DNC RPR VPR PCT"
+    "translation": "MNC DRG BRD MNR EVC NJA ART SMR MGR DNZ MTR VPR PTM"
   },
   "164": {
     "original": "MNK DRG BRD WHM BLM SMN SCH NIN MCH AST SAM RDM DNC RPR SGE VPR PCT",
-    "translation": "MNK DRG BRD WHM BLM SMN SCH NIN MCH AST SAM RDM DNC RPR SGE VPR PCT"
+    "translation": "MNC DRG BRD MBN MNR EVC STD NJA ART AST SMR MGR DNZ MTR SGO VPR PTM"
   },
   "165": {
     "original": "WHM SCH AST SGE",
-    "translation": "WHM SCH AST SGE"
+    "translation": "MBN STD AST SGO"
   },
   "166": {
     "original": "PLD WAR DRK GNB",
-    "translation": "PLD WAR DRK GNB"
+    "translation": "PLD GUE CVS ETR"
   },
   "167": {
     "original": "PLD MNK WAR DRG BRD BLM SMN NIN MCH DRK SAM RDM GNB DNC RPR VPR PCT",
-    "translation": "PLD MNK WAR DRG BRD BLM SMN NIN MCH DRK SAM RDM GNB DNC RPR VPR PCT"
+    "translation": "PLD MNC GUE DRG BRD MNR EVC NJA ART CVS SMR MGR ETR DNZ MTR VPR PTM"
   },
   "168": {
     "original": "PLD WAR WHM SCH DRK AST GNB SGE",
-    "translation": "PLD WAR WHM SCH DRK AST GNB SGE"
+    "translation": "PLD GUE MBN STD CVS AST ETR SGO"
   },
   "169": {
     "original": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC RPR SGE VPR PCT",
-    "translation": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC RPR SGE VPR PCT"
+    "translation": "PLD MNC GUE DRG BRD MBN MNR EVC STD NJA ART CVS AST SMR MGR ETR DNZ MTR SGO VPR PTM"
   },
   "170": {
     "original": "PLD MNK WAR DRG NIN DRK SAM GNB RPR VPR",
-    "translation": "PLD MNK WAR DRG NIN DRK SAM GNB RPR VPR"
+    "translation": "PLD MNC GUE DRG NJA CVS SMR ETR MTR VPR"
   },
   "171": {
     "original": "BRD MCH DNC",
-    "translation": "BRD MCH DNC"
+    "translation": "BRD ART DNZ"
   },
   "172": {
     "original": "WHM BLM SMN SCH AST RDM SGE PCT",
-    "translation": "WHM BLM SMN SCH AST RDM SGE PCT"
+    "translation": "MBN MNR EVC STD AST MGR SGO PTM"
   },
   "173": {
     "original": "PLD MNK WAR DRG BRD WHM BLM SMN SCH MCH DRK AST SAM RDM GNB DNC RPR SGE VPR PCT",
-    "translation": "PLD MNK WAR DRG BRD WHM BLM SMN SCH MCH DRK AST SAM RDM GNB DNC RPR SGE VPR PCT"
+    "translation": "PLD MNC GUE DRG BRD MBN MNR EVC STD ART CVS AST SMR MGR ETR DNZ MTR SGO VPR PTM"
   },
   "174": {
     "original": "PLD MNK WAR DRG BRD NIN MCH DRK SAM GNB DNC RPR VPR",
-    "translation": "PLD MNK WAR DRG BRD NIN MCH DRK SAM GNB DNC RPR VPR"
+    "translation": "PLD MNC GUE DRG BRD NJA ART CVS SMR ETR DNZ MTR VPR"
   },
   "175": {
     "original": "BLM SMN RDM PCT",
-    "translation": "BLM SMN RDM PCT"
+    "translation": "MNR EVC MGR PTM"
   },
   "176": {
     "original": "MNK DRG NIN SAM RPR VPR",
-    "translation": "MNK DRG NIN SAM RPR VPR"
+    "translation": "MNC DRG NJA SMR MTR VPR"
   },
   "177": {
     "original": "MNK DRG BRD NIN MCH SAM DNC RPR VPR",
-    "translation": "MNK DRG BRD NIN MCH SAM DNC RPR VPR"
+    "translation": "MNC DRG BRD NJA ART SMR DNZ MTR VPR"
   },
   "178": {
     "original": "PLD WAR BLM SMN DRK RDM GNB PCT",
-    "translation": "PLD WAR BLM SMN DRK RDM GNB PCT"
+    "translation": "PLD GUE MNR EVC CVS MGR ETR PTM"
   },
   "179": {
     "original": "WHM SMN SCH AST RDM SGE PCT",
-    "translation": "WHM SMN SCH AST RDM SGE PCT"
+    "translation": "MBN EVC STD AST MGR SGO PTM"
   },
   "180": {
     "original": "RPR",
-    "translation": "RPR"
+    "translation": "MTR"
   },
   "181": {
     "original": "SGE",
-    "translation": "SGE"
+    "translation": "SGO"
   },
   "186": {
     "original": "Tank (excluding limited jobs)",
-    "translation": "Difensori (esclusi i Job limitati)"
+    "translation": "Difensori (esclusi i job limitati)"
   },
   "187": {
     "original": "Healer (excluding limited jobs)",
-    "translation": "Curatori (esclusi i Job limitati)"
+    "translation": "Curatori (esclusi i job limitati)"
   },
   "188": {
     "original": "Melee DPS (excluding limited jobs)",
-    "translation": "DPS da mischia (esclusi i Job limitati)"
+    "translation": "DPS da Mischia (esclusi i job limitati)"
   },
   "189": {
     "original": "Physical Ranged DPS (excluding limited jobs)",
-    "translation": "DPS fisici a distanza (esclusi i Job limitati)"
+    "translation": "DPS Fisici a Distanza (esclusi i job limitati)"
   },
   "190": {
     "original": "Magical Ranged DPS (excluding limited jobs)",
-    "translation": "DPS magici a distanza (esclusi i Job limitati)"
+    "translation": "DPS Magici a Distanza (esclusi i job limitati)"
   },
   "191": {
     "original": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC RPR SGE",
-    "translation": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC RPR SGE"
+    "translation": "PLD MNC GUE DRG BRD MBN MNR EVC STD NJA ART CVS AST SMR MGR ETR DNZ MTR SGO"
   },
   "192": {
     "original": "Any Disciple of War or Magic (excluding limited jobs)",
-    "translation": "Qualsiasi Discepolo della Guerra o della Magia (esclusi i Job limitati)"
+    "translation": "Qualsiasi Discepolo della Guerra o della Magia (esclusi i job limitati)"
   },
   "193": {
     "original": "PGL LNC ARC ROG CNJ THM ACN MNK DRG BRD WHM BLM SMN SCH NIN MCH AST SAM RDM DNC RPR SGE VPR PCT",
-    "translation": "PGL LNC ARC ROG CNJ THM ACN MNK DRG BRD WHM BLM SMN SCH NIN MCH AST SAM RDM DNC RPR SGE VPR PCT"
+    "translation": "PGL LNC ARC FRT INT TMR ACN MNC DRG BRD MBN MNR EVC STD NJA ART AST SMR MGR DNZ MTR SGO VPR PTM"
   },
   "194": {
     "original": "GLA MRD CNJ PLD WAR WHM SCH DRK AST GNB SGE",
-    "translation": "GLA MRD CNJ PLD WAR WHM SCH DRK AST GNB SGE"
+    "translation": "GLD INC INT PLD GUE MBN STD CVS AST ETR SGO"
   },
   "195": {
     "original": "GLA MRD PGL LNC ARC ROG THM ACN PLD MNK WAR DRG BRD BLM SMN NIN MCH DRK SAM RDM GNB DNC RPR VPR PCT",
-    "translation": "GLA MRD PGL LNC ARC ROG THM ACN PLD MNK WAR DRG BRD BLM SMN NIN MCH DRK SAM RDM GNB DNC RPR VPR PCT"
+    "translation": "GLD INC PGL LNC ARC FRT TMR ACN PLD MNC GUE DRG BRD MNR EVC NJA ART CVS SMR MGR ETR DNZ MTR VPR PTM"
   },
   "196": {
     "original": "VPR",
@@ -725,30 +725,30 @@
   },
   "197": {
     "original": "PCT",
-    "translation": "PCT"
+    "translation": "PTM"
   },
   "198": {
     "original": "THM BLM ACN SMN RDM PCT",
-    "translation": "THM BLM ACN SMN RDM PCT"
+    "translation": "TMR MNR ACN EVC MGR PTM"
   },
   "199": {
     "original": "CNJ THM WHM BLM ACN SMN SCH AST RDM SGE PCT",
-    "translation": "CNJ THM WHM BLM ACN SMN SCH AST RDM SGE PCT"
+    "translation": "INT TMR MBN MNR ACN EVC STD AST MGR SGO PTM"
   },
   "200": {
     "original": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC RPR SGE VPR PCT",
-    "translation": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC RPR SGE VPR PCT"
+    "translation": "PLD MNC GUE DRG BRD MBN MNR EVC STD NJA ART CVS AST SMR MGR ETR DNZ MTR SGO VPR PTM"
   },
   "201": {
     "original": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC RPR SGE VPR PCT",
-    "translation": "PLD MNK WAR DRG BRD WHM BLM SMN SCH NIN MCH DRK AST SAM RDM GNB DNC RPR SGE VPR PCT"
+    "translation": "PLD MNC GUE DRG BRD MBN MNR EVC STD NJA ART CVS AST SMR MGR ETR DNZ MTR SGO VPR PTM"
   },
   "202": {
     "original": "MIN BTN",
-    "translation": "MIN BTN"
+    "translation": "MNT BTN"
   },
   "203": {
     "original": "BST",
-    "translation": "BST"
+    "translation": "DMT"
   }
 }

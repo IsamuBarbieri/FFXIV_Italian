@@ -4927,7 +4927,7 @@
   },
   "830": {
     "name": "The Bole",
-    "translation_name": "The Bole",
+    "translation_name": "Il Fusto",
     "description": "Damage taken is reduced.",
     "translation_description": "I danni subiti sono ridotti."
   },
@@ -5331,7 +5331,7 @@
     "name": "Bole Drawn",
     "translation_name": "Bole Pescata",
     "description": "The <hex:024804F201FA03><hex:024904F201FB03>Bole<hex:0249020103><hex:0248020103> card is drawn.",
-    "translation_description": "La carta <hex:024804F201FA03><hex:024904F201FB03>The Bole<hex:0249020103><hex:0248020103> è stata pescata."
+    "translation_description": "La carta «<hex:024804F201FA03><hex:024904F201FB03>Il Fusto<hex:0249020103><hex:0248020103>» è stata pescata."
   },
   "915": {
     "name": "Arrow Drawn",
@@ -5373,7 +5373,7 @@
     "name": "Bole Held",
     "translation_name": "Bole Conservata",
     "description": "The <hex:024804F201FA03><hex:024904F201FB03>Bole<hex:0249020103><hex:0248020103> card is drawn and held in your spread.",
-    "translation_description": "La carta <hex:024804F201FA03><hex:024904F201FB03>The Bole<hex:0249020103><hex:0248020103> è pescata e conservata nella tua riserva."
+    "translation_description": "La carta «<hex:024804F201FA03><hex:024904F201FB03>Il Fusto<hex:0249020103><hex:0248020103>» è stata pescata e conservata nella tua riserva."
   },
   "922": {
     "name": "Arrow Held",
@@ -7849,7 +7849,7 @@
   },
   "1339": {
     "name": "The Bole",
-    "translation_name": "The Bole",
+    "translation_name": "Il Fusto",
     "description": "Damage taken is reduced.",
     "translation_description": "I danni subiti sono ridotti."
   },
@@ -9585,7 +9585,7 @@
     "name": "Kill Command",
     "translation_name": "Comando di Uccidere",
     "description": "Deleting variables from the Interdimensional Rift.",
-    "translation_description": "Eliminazione delle variabili dalla Frattura Interdimensionale."
+    "translation_description": "Eliminazione delle variabili dalla Faglia Interdimensionale."
   },
   "1630": {
     "name": "Love's True Form",
@@ -10167,7 +10167,7 @@
     "name": "Waning Nocturne",
     "translation_name": "Notturno Calante",
     "description": "Unable to auto-attack or use spells, weaponskills, and abilities.",
-    "translation_description": "Impossibile attaccare automaticamente o usare incantesimi, abilità con armi e abilità."
+    "translation_description": "Impossibile attaccare automaticamente o usare incantesimi, tecniche e abilità."
   },
   "1728": {
     "name": "Contractual Obligation",
@@ -11095,7 +11095,7 @@
   },
   "1883": {
     "name": "The Bole",
-    "translation_name": "The Bole",
+    "translation_name": "Il Fusto",
     "description": "Damage dealt is increased.",
     "translation_description": "I danni inflitti sono aumentati."
   },
@@ -11889,7 +11889,7 @@
     "name": "Repelling Shot",
     "translation_name": "Repelling Shot",
     "description": "Damage dealt by weaponskills is increased.",
-    "translation_description": "I danni inflitti dalle abilità con armi sono aumentati."
+    "translation_description": "I danni inflitti dalle tecniche sono aumentati."
   },
   "2018": {
     "name": "Wildfire",
@@ -17583,7 +17583,7 @@
     "name": "Blackblood",
     "translation_name": "Sangue Nero",
     "description": "Able to execute powerful weaponskills.",
-    "translation_description": "In grado di eseguire potenti abilità con armi."
+    "translation_description": "In grado di eseguire potenti tecniche."
   },
   "3034": {
     "name": "Dark Arts",
@@ -17649,7 +17649,7 @@
     "name": "Junction Tank",
     "translation_name": "Junction Difensore",
     "description": "Able to execute <hex:024804F201F403><hex:024904F201F503>Nebula<hex:0249020103><hex:0248020103>. Execution of certain weaponskills will create a barrier to nullify damage.",
-    "translation_description": "Permette di eseguire <hex:024804F201F403><hex:024904F201F503>Nebula<hex:0249020103><hex:0248020103>. L'esecuzione di determinate abilità con armi creerà una barriera per annullare i danni."
+    "translation_description": "Permette di eseguire <hex:024804F201F403><hex:024904F201F503>Nebula<hex:0249020103><hex:0248020103>. L'esecuzione di determinate tecniche creerà una barriera per annullare i danni."
   },
   "3045": {
     "name": "Junction DPS",
@@ -17661,7 +17661,7 @@
     "name": "Junction Healer",
     "translation_name": "Junction Curatore",
     "description": "Able to execute <hex:024804F201F403><hex:024904F201F503>Aurora<hex:0249020103><hex:0248020103>. Restoring HP to self and nearby party members upon executing certain actions.",
-    "translation_description": "Permette di eseguire <hex:024804F201F403><hex:024904F201F503>Aurora<hex:0249020103><hex:0248020103>. Restoring HP to self e nearby party members upon executing certain actions."
+    "translation_description": "Permette di eseguire <hex:024804F201F403><hex:024904F201F503>Aurora<hex:0249020103><hex:0248020103>. Ripristina i PV tuoi e dei membri del gruppo nelle vicinanze quando esegui determinate azioni."
   },
   "3047": {
     "name": "Hypervelocity",
@@ -17709,7 +17709,7 @@
     "name": "Guard",
     "translation_name": "Guardia",
     "description": "Damage taken is reduced. All <hex:024804F201FA03><hex:024904F201FB03>Stun<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Heavy<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Bind<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Silence<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Half-asleep<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Sleep<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Deep Freeze<hex:0249020103><hex:0248020103>, knockback, and draw-in effects are nullified. Movement speed is reduced.",
-    "translation_description": "I danni subiti sono ridotti. Tutti gli effetti di <hex:024804F201FA03><hex:024904F201FB03>Stun<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Heavy<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Bind<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Silence<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Half-asleep<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Sleep<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Deep Freeze<hex:0249020103><hex:0248020103>, respingimento e attrazione sono annullati. La velocità di movimento è ridotta."
+    "translation_description": "I danni subiti sono ridotti. Tutti gli effetti di <hex:024804F201FA03><hex:024904F201FB03>Stun<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Heavy<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Bind<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Silenzio<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Half-asleep<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Sleep<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Deep Freeze<hex:0249020103><hex:0248020103>, respingimento e attrazione sono annullati. La velocità di movimento è ridotta."
   },
   "3055": {
     "name": "Contact Prohibition Ordained",
@@ -18921,19 +18921,19 @@
     "name": "Berserk",
     "translation_name": "Berserk",
     "description": "Damage dealt by certain weaponskills is increased.",
-    "translation_description": "I danni inflitti da determinate abilità con armi sono aumentati."
+    "translation_description": "I danni inflitti da determinate tecniche sono aumentati."
   },
   "3258": {
     "name": "Lance Charge",
     "translation_name": "Lance Charge",
     "description": "Damage dealt by certain weaponskills is increased.",
-    "translation_description": "I danni inflitti da determinate abilità con armi sono aumentati."
+    "translation_description": "I danni inflitti da determinate tecniche sono aumentati."
   },
   "3259": {
     "name": "Life Surge",
     "translation_name": "Life Surge",
     "description": "Certain weaponskills are guaranteed to deal critical damage with a portion of the resulting damage being absorbed as HP.",
-    "translation_description": "Determinate abilità con armi infliggono colpi critici garantiti, assorbendo una parte dei danni inflitti sotto forma di PV."
+    "translation_description": "Determinate tecniche infliggono colpi critici garantiti, assorbendo una parte dei danni inflitti sotto forma di PV."
   },
   "3260": {
     "name": "Damage Up",
@@ -19707,7 +19707,7 @@
     "name": "Bole Drawn",
     "translation_name": "Bole Pescata",
     "description": "The <hex:024804F201FA03><hex:024904F201FB03>Bole<hex:0249020103><hex:0248020103> card is drawn.",
-    "translation_description": "La carta <hex:024804F201FA03><hex:024904F201FB03>The Bole<hex:0249020103><hex:0248020103> è stata pescata."
+    "translation_description": "La carta «<hex:024804F201FA03><hex:024904F201FB03>Il Fusto<hex:0249020103><hex:0248020103>» è stata pescata."
   },
   "3404": {
     "name": "Arrow Drawn",
@@ -21201,7 +21201,7 @@
     "name": "Guard",
     "translation_name": "Guardia",
     "description": "Damage taken is reduced. All <hex:024804F201FA03><hex:024904F201FB03>Stun<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Heavy<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Bind<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Silence<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Half-asleep<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Sleep<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Deep Freeze<hex:0249020103><hex:0248020103>, knockback, and draw-in effects are nullified. Movement speed is reduced.",
-    "translation_description": "I danni subiti sono ridotti. Tutti gli effetti di <hex:024804F201FA03><hex:024904F201FB03>Stun<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Heavy<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Bind<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Silence<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Half-asleep<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Sleep<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Deep Freeze<hex:0249020103><hex:0248020103>, respingimento e attrazione sono annullati. La velocità di movimento è ridotta."
+    "translation_description": "I danni subiti sono ridotti. Tutti gli effetti di <hex:024804F201FA03><hex:024904F201FB03>Stun<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Heavy<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Bind<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Silenzio<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Half-asleep<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Sleep<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Deep Freeze<hex:0249020103><hex:0248020103>, respingimento e attrazione sono annullati. La velocità di movimento è ridotta."
   },
   "3674": {
     "name": "Subtractive Palette",
@@ -22405,7 +22405,7 @@
   },
   "3890": {
     "name": "The Bole",
-    "translation_name": "The Bole",
+    "translation_name": "Il Fusto",
     "description": "Damage taken is reduced.",
     "translation_description": "I danni subiti sono ridotti."
   },
@@ -23217,7 +23217,7 @@
     "name": "Bole Drawn",
     "translation_name": "Bole Pescata",
     "description": "The <hex:024804F201FA03><hex:024904F201FB03>Bole<hex:0249020103><hex:0248020103> card is drawn.",
-    "translation_description": "La carta <hex:024804F201FA03><hex:024904F201FB03>The Bole<hex:0249020103><hex:0248020103> è stata pescata."
+    "translation_description": "La carta «<hex:024804F201FA03><hex:024904F201FB03>Il Fusto<hex:0249020103><hex:0248020103>» è stata pescata."
   },
   "4043": {
     "name": "Arrow Drawn",
@@ -23367,7 +23367,7 @@
     "name": "Hardened Scales",
     "translation_name": "Squame Indurite",
     "description": "Though unable to move, damage taken is reduced. All <hex:024804F201FA03><hex:024904F201FB03>Stun<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Heavy<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Bind<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Silence<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Half-asleep<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Sleep<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Deep Freeze<hex:0249020103><hex:0248020103>, knockback, and draw-in effects are nullified.",
-    "translation_description": "Sebbene impossibilitato a muoversi, i danni subiti sono ridotti. Tutti gli effetti di <hex:024804F201FA03><hex:024904F201FB03>Stun<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Heavy<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Bind<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Silence<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Half-asleep<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Sleep<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Deep Freeze<hex:0249020103><hex:0248020103>, respingimento e attrazione sono annullati."
+    "translation_description": "Anche se non può muoversi, i danni subiti sono ridotti. Tutti gli effetti di <hex:024804F201FA03><hex:024904F201FB03>Stun<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Heavy<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Bind<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Silenzio<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Half-asleep<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Sleep<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Deep Freeze<hex:0249020103><hex:0248020103>, respingimento e attrazione sono annullati."
   },
   "4097": {
     "name": "Armored Scales",
@@ -25485,7 +25485,7 @@
     "name": "Swift",
     "translation_name": "Lesto",
     "description": "All <hex:024804F201FA03><hex:024904F201FB03>Stun<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Heavy<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Bind<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Silence<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Half-asleep<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Sleep<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Deep Freeze<hex:0249020103><hex:0248020103>, knockback, and draw-in effects are nullified. Movement speed is also greatly increased.",
-    "translation_description": "Tutti gli effetti di <hex:024804F201FA03><hex:024904F201FB03>Stun<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Heavy<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Bind<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Silence<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Half-asleep<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Sleep<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Deep Freeze<hex:0249020103><hex:0248020103>, respingimento e attrazione sono annullati. Anche la velocità di movimento è notevolmente aumentata."
+    "translation_description": "Tutti gli effetti di <hex:024804F201FA03><hex:024904F201FB03>Stun<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Heavy<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Bind<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Silenzio<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Half-asleep<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Sleep<hex:0249020103><hex:0248020103>, <hex:024804F201FA03><hex:024904F201FB03>Deep Freeze<hex:0249020103><hex:0248020103>, respingimento e attrazione sono annullati. Anche la velocità di movimento è notevolmente aumentata."
   },
   "4478": {
     "name": "Dervish",
@@ -27033,13 +27033,13 @@
     "name": "Winners Keepers",
     "translation_name": "Chi Vince Tiene",
     "description": "The next victorious battle within the Crucible of the Unbroken is likely to yield ample loot.",
-    "translation_description": "La prossima vittoria in battaglia nel Crogiolo degli Infranti offrirà probabilmente un ricco bottino."
+    "translation_description": "La prossima vittoria in battaglia nel Crogiolo degli Infrangibili offrirà probabilmente un ricco bottino."
   },
   "4856": {
     "name": "Token Benefits",
     "translation_name": "Benefici Simbolici",
     "description": "The next victorious battle within the Crucible of the Unbroken is likely to yield ample territory tokens.",
-    "translation_description": "La prossima vittoria in battaglia nel Crogiolo degli Infranti offrirà probabilmente abbondanti gettoni territoriali."
+    "translation_description": "La prossima vittoria in battaglia nel Crogiolo degli Infrangibili offrirà probabilmente abbondanti gettoni territoriali."
   },
   "4857": {
     "name": "Tough Skin",
@@ -27123,7 +27123,7 @@
     "name": "Sandstill",
     "translation_name": "Quiete di Sabbia",
     "description": "Protected by sands that will turn back time should you suffer defeat within the Crucible of the Unbroken.",
-    "translation_description": "Protetto da sabbie che riavvolgeranno il tempo in caso di sconfitta nel Crogiolo degli Infranti."
+    "translation_description": "Protetto da sabbie che riavvolgeranno il tempo in caso di sconfitta nel Crogiolo degli Infrangibili."
   },
   "4873": {
     "name": "Image",

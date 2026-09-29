@@ -14,12 +14,17 @@ TRANSLATIONS = ROOT / "data" / "translations"
 GLOSSARY = ROOT / "data" / "glossary" / "Glossary.md"
 PLACE_NAMES = ROOT / "data" / "translations" / "world" / "placename.json"
 TAGS = re.compile(r"<[^>]+>|\{[^{}]+\}")
-ELISION = re.compile(r"\b(il|lo|la|del|dello|della|al|allo|alla|nel|nello|nella|sul|sullo|sulla|dal|dallo|dalla)\s+([aeiouàèéìòù])", re.IGNORECASE)
+HEX_TAG = re.compile(r"<hex:([0-9a-f]+)>", re.IGNORECASE)
+ELISION = re.compile(r"\b((?i:il|del|dello|della|al|allo|alla|nel|nello|nella|sul|sullo|sulla|dal|dallo|dalla))\s+(?!(?i:i[aeiouàèéìòù]))([aeiouàèéìòù])")
+IAIJUTSU_ARTICLES = re.compile(r"\b(?P<article>il|lo|l['’]|del|dello|dell['’]|al|allo|all['’]|nel|nello|nell['’]|sul|sullo|sull['’]|dal|dallo|dall['’])\s*(?P<term>iaijutsu)\b", re.IGNORECASE)
 KNOWN_GRAMMAR = (
     (re.compile(r"\bAvvio di un appello\b", re.IGNORECASE), "Avvio dell'appello", "avvio_ready_check"),
     (re.compile(r"\bdisponibile a Piazza dei Chocobo\b", re.IGNORECASE), "disponibile nella Piazza dei Chocobo", "preposizione_piazza_chocobo"),
     (re.compile(r"\bTane Sospette disponibili\b", re.IGNORECASE), "Tane Sospette Disponibili", "maiuscole_nome_composto"),
     (re.compile(r"\bTi diamo il benvenuto da Vari Splendori\b", re.IGNORECASE), "Ti diamo il benvenuto a Vari Splendori", "preposizione_vari_splendori"),
+    (re.compile(r"\bQuesto Tecnica\b", re.IGNORECASE), "Questa Tecnica", "accordo_questa_tecnica"),
+    (re.compile(r"\bl['’]esecuzione di tecnica\b", re.IGNORECASE), "l'esecuzione di una tecnica", "articolo_tecnica_generica"),
+    (re.compile(r"\bdispositivi di Input\b", re.IGNORECASE), "dispositivi di input", "maiuscola_input_device"),
 )
 ROW = re.compile(r'^  "(?P<id>\d+)": \{\r?\n', re.MULTILINE)
 FIELD = re.compile(r'(?m)^    "(?P<name>translation(?:_[^"\r\n]+)?)": (?P<value>"(?:\\.|[^"\\])*")(?=,?\r?$)')
@@ -70,9 +75,13 @@ def pairs(row):
 def selected_files(name):
     if name:
         path = (TRANSLATIONS / name).resolve()
-        if not path.is_relative_to(TRANSLATIONS.resolve()) or not path.is_file():
-            raise ValueError(f"File di traduzione non valido: {name}")
-        return [path]
+        if not path.is_relative_to(TRANSLATIONS.resolve()):
+            raise ValueError(f"Percorso di traduzione non valido: {name}")
+        if path.is_file():
+            return [path]
+        if path.is_dir():
+            return sorted(path.rglob("*.json"))
+        raise ValueError(f"File o cartella di traduzione non validi: {name}")
     return sorted(TRANSLATIONS.rglob("*.json"))
 
 
@@ -95,6 +104,24 @@ def write_json(path, value):
     Path(path).write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def plain_text(text):
+    """Read visible text from ordinary markup and SeString hex-encoded payloads."""
+    def decode_hex(match):
+        try:
+            payload = bytes.fromhex(match.group(1))
+        except ValueError:
+            return " "
+        payload = re.sub(rb"\x02[\x48\x49]\x04.{3}\x03", b"", payload)
+        payload = re.sub(rb"\x02[\x48\x49]\x02\x01\x03", b"", payload)
+        payload = re.sub(rb"\x02\x10\x01\x03", b" ", payload)
+        decoded = payload.decode("utf-8", errors="replace")
+        return "".join(" " if not char.isprintable() or char == "\ufffd" else char for char in decoded)
+
+    text = HEX_TAG.sub(decode_hex, text)
+    text = TAGS.sub("", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
 def case_style(text):
     """Classify term casing while ignoring sentence-initial capitalization in phrases."""
     words = re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ]+", text)
@@ -104,10 +131,14 @@ def case_style(text):
         return "upper"
     if all(word.islower() for word in words):
         return "lower"
-    # A capitalized first word followed by lowercase words is often just the
-    # start of a sentence (e.g. "Cross-world linkshells are...").
-    if " " in text and len(words) > 1 and words[0][0].isupper() and all(word.islower() for word in words[1:]):
+    acronyms = {m.group() for m in re.finditer(r"\b(?:[A-Z0-9]{2,}|[A-Z][a-z]+[A-Z][A-Za-z0-9]*)\b", text)}
+    lexical = [word for word in words if word not in acronyms]
+    if lexical and all(word.islower() for word in lexical):
         return "lower"
+    # A capitalized first word followed by lowercase words is sentence case,
+    # not a title (e.g. a list label such as "Friend list").
+    if " " in text and len(words) > 1 and words[0][0].isupper() and all(word.islower() for word in words[1:]):
+        return "sentence"
     if len(words) > 1 and all(word[0].isupper() for word in words):
         return "title"
     if len(words) == 1 and words[0][0].isupper():
@@ -115,17 +146,184 @@ def case_style(text):
     return "mixed"
 
 
+def sentence_initial(text, position):
+    prefix = re.sub(r"[\s※■•・]+$", "", plain_text(text[:position])).rstrip()
+    return not prefix or bool(re.search(r"[.!?…][\"'’”»\])}]*\s*$", prefix))
+
+
+def place_name_case_matches(term, matched, at_sentence_start):
+    expected = re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ]+", term)
+    actual = re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ]+", TAGS.sub("", matched))
+    if len(expected) != len(actual):
+        return True
+    for index, (canonical, found) in enumerate(zip(expected, actual)):
+        # English articles are lowercase in running prose even when they are
+        # capitalized in the standalone place name.
+        if index == 0 and canonical.casefold() in {"the", "a", "an"}:
+            continue
+        if canonical != found:
+            return False
+    return True
+
+
+def exact_place_occurrences(term, occurrences, original, source_field, relative):
+    """Avoid treating a place-name prefix inside a different title as the place."""
+    plain = plain_text(original)
+    aligned = TAGS.sub(lambda match: " " * len(match.group()), original)
+    for matched, position in occurrences:
+        if source_field == "name" and plain.strip(" .!?…'’\"“”«»()[]").casefold() != term.casefold():
+            continue
+        if (relative.endswith("/world/title.json") and source_field == "description" and
+                plain.strip(" .!?…'’\"“”«»()[]").casefold() != term.casefold()):
+            continue
+        end = position + len(matched)
+        for opening, closing in (("“", "”"), ("«", "»"), ('"', '"')):
+            quote_start = aligned.rfind(opening, 0, position)
+            quote_end = aligned.find(closing, end)
+            if (quote_start >= 0 and quote_end >= end and
+                    aligned.find(closing, quote_start + len(opening), position) < 0 and
+                    aligned.find(opening, end, quote_end) < 0):
+                quoted = aligned[quote_start + len(opening):quote_end].strip(" .!?…'’\"“”«»()[]")
+                if quoted.casefold() != TAGS.sub("", matched).casefold():
+                    break
+        else:
+            quoted = None
+        if quoted is not None and quoted.casefold() != TAGS.sub("", matched).casefold():
+            continue
+        if (source_field == "original" and
+                ("/combat/" in f"/{relative}" or "/items/" in f"/{relative}") and
+                plain.strip(" .!?…'’\"“”«»()[]").casefold() == term.casefold()):
+            # A full name in an action/trait/item field is a content title, not a PlaceName reference.
+            continue
+        if (relative.endswith("/combat/status.json") and source_field in {"original", "name"} and
+                plain.strip(" .!?…'’\"“”«»()[]").casefold() == term.casefold()):
+            # A standalone status name can collide with a PlaceName without referring to that location.
+            continue
+        if (relative.endswith("/combat/actiontransient.json") and source_field == "original" and
+                term.casefold() == "resolution" and
+                re.search(r"\bchanges to\s+$", aligned[max(0, position - 150):position], re.IGNORECASE)):
+            # Resolution is an action name here, not either PlaceName with the same spelling.
+            continue
+        if (relative.endswith("/combat/actiontransient.json") and source_field == "original" and
+                term.casefold() == "starfall" and
+                re.search(r"\bPrediction of\s+$", aligned[max(0, position - 100):position])):
+            # The tagged Prediction of Starfall is an action effect, not the PlaceName.
+            continue
+        if len(term.split()) == 1:
+            previous_word = re.search(r"([A-ZÀ-ÖØ-Þ][A-Za-zÀ-ÖØ-öø-ÿ'’]*)\s+$", aligned[:position])
+            if previous_word:
+                # A one-word PlaceName can be the last word of a different proper name
+                # (e.g. the location-like suffix in "Phantom Flurry").
+                continue
+        previous_prefix = re.search(r"([A-ZÀ-ÖØ-Þ][A-Za-zÀ-ÖØ-öø-ÿ'’]*)\s+$", aligned[:position])
+        if previous_prefix and previous_prefix.group(1).casefold() == "camp":
+            # Camp + area name is a distinct PlaceName; match its full glossary
+            # entry rather than the area-name suffix on its own.
+            continue
+        if term.casefold().startswith("the "):
+            prefix = aligned[:position]
+            if re.search(r"\bof\s+$", prefix, re.IGNORECASE):
+                title_prefix = re.search(r"([A-ZÀ-ÖØ-Þ][A-Za-zÀ-ÖØ-öø-ÿ'’]*)\s+of\s+$", prefix)
+                if title_prefix:
+                    # Keep "The Deep" distinct from the longer title "Doom of the Deep".
+                    continue
+            if (term.casefold() == "the burn" and
+                    re.search(r"\bFeeling\s+$", prefix)):
+                # Do not match "The Burn" inside the longer titled engagement "Feeling the Burn".
+                continue
+        if term.casefold() == "stacks":
+            before = aligned[max(0, position - 45):position]
+            after = aligned[position + len(matched):position + len(matched) + 5]
+            if re.search(r"\bMana\s+$", before, re.IGNORECASE):
+                continue
+            if re.search(r"(?:maximum|repertoire|mana|\d+)\s+$", before, re.IGNORECASE) and after.lstrip().startswith(":"):
+                continue
+        if not place_name_case_matches(term, matched, sentence_initial(original, position)):
+            continue
+        tail = aligned[end:]
+        next_word = re.match(r"\s+([A-ZÀ-ÖØ-Þ][A-Za-zÀ-ÖØ-öø-ÿ'’]*)", tail)
+        linked_extension = re.match(
+            r"\s+(?:for|of|in|on|at|and|the|to)\s+[A-ZÀ-ÖØ-Þ][A-Za-zÀ-ÖØ-öø-ÿ'’]*",
+            tail, re.IGNORECASE)
+        if next_word or linked_extension:
+            # A following capitalized word or title link extends the full name.
+            continue
+        yield matched, position
+
+
+def exact_function_occurrences(term, occurrences, original, ignore_title_extensions=False):
+    """Match a named feature exactly, while allowing a lowercase English article in prose."""
+    aligned = TAGS.sub(lambda match: " " * len(match.group()), original)
+    term_words = term.split()
+    for matched, position in occurrences:
+        matched_words = TAGS.sub("", matched).split()
+        if len(term_words) != len(matched_words):
+            continue
+        if term_words[0].casefold() == "the":
+            exact_words = (matched_words[0].casefold() == "the" and
+                           matched_words[1:] == term_words[1:])
+        else:
+            exact_words = matched == term
+        if not exact_words and not (sentence_initial(original, position) and
+                                    matched.casefold() == term.casefold()):
+            continue
+        if ignore_title_extensions:
+            tail = aligned[position + len(matched):]
+            next_word = re.match(r"\s+([A-ZÀ-ÖØ-Þ][A-Za-zÀ-ÖØ-öø-ÿ'’]*)", tail)
+            linked_extension = re.match(
+                r"\s+(?:for|of|in|on|at|and|the)\s+[A-ZÀ-ÖØ-Þ][A-Za-zÀ-ÖØ-öø-ÿ'’]*",
+                tail, re.IGNORECASE)
+            if next_word or linked_extension:
+                continue
+        yield matched, position
+
+
 def expected_case(text, style):
+    if style == "fixed":
+        return text
     if style == "upper":
         return text.upper()
-    if style != "lower":
+    if style not in ("lower", "sentence"):
         return text
     # Keep established mixed-case acronyms such as PvP alongside all-caps ones.
     acronyms = {m.group() for m in re.finditer(r"\b(?:[A-Z0-9]{2,}|[A-Z][a-z]+[A-Z][A-Za-z0-9]*)\b", text)}
     lowered = text.lower()
     for acronym in acronyms:
         lowered = re.sub(r"(?i)(?<!\w)" + re.escape(acronym.lower()) + r"(?!\w)", acronym, lowered)
+    if style == "sentence":
+        first = re.search(r"[A-Za-zÀ-ÖØ-öø-ÿ]+", lowered)
+        if first:
+            lowered = lowered[:first.start()] + first.group().capitalize() + lowered[first.end():]
     return lowered
+
+
+def canonical_forms(value):
+    """Include correct Italian preposition+article forms of titled names."""
+    article = re.match(r"(?i)^(Il|Lo|La|I|Gli|Le|L['’])\s*(.+)$", value)
+    if not article:
+        return [value]
+    base = article.group(2)
+    forms = {
+        "il": ("il", "del", "al", "nel", "sul", "dal"),
+        "lo": ("lo", "dello", "allo", "nello", "sullo", "dallo"),
+        "la": ("la", "della", "alla", "nella", "sulla", "dalla"),
+        "i": ("i", "dei", "ai", "nei", "sui", "dai"),
+        "gli": ("gli", "degli", "agli", "negli", "sugli", "dagli"),
+        "le": ("le", "delle", "alle", "nelle", "sulle", "dalle"),
+        "l'": ("l'", "dell'", "all'", "nell'", "sull'", "dall'"),
+        "l’": ("l’", "dell’", "all’", "nell’", "sull’", "dall’"),
+    }[article.group(1).casefold()]
+    separator = "" if article.group(1).casefold() in {"l'", "l’"} else " "
+    variants = [prefix + separator + base for prefix in forms]
+    variants += [form[0].upper() + form[1:] for form in variants if form]
+    return list(dict.fromkeys([value] + variants))
+
+
+def canonical_present(text, value, ignore_case=False):
+    text = plain_text(text)
+    flags = re.IGNORECASE if ignore_case else 0
+    return any(re.search(r"(?<!\w)" + re.escape(form) + r"(?!\w)", text, flags)
+               for form in canonical_forms(value))
 
 
 def grammar_correction(text):
@@ -146,6 +344,22 @@ def grammar_correction(text):
     text, count = ELISION.subn(elide, text)
     if count:
         rules.append("elisione_articolo_preposizione")
+    articles = {"il": "lo", "lo": "lo", "l'": "lo", "l’": "lo",
+                "del": "dello", "dello": "dello", "dell'": "dello", "dell’": "dello",
+                "al": "allo", "allo": "allo", "all'": "allo", "all’": "allo",
+                "nel": "nello", "nello": "nello", "nell'": "nello", "nell’": "nello",
+                "sul": "sullo", "sullo": "sullo", "sull'": "sullo", "sull’": "sullo",
+                "dal": "dallo", "dallo": "dallo", "dall'": "dallo", "dall’": "dallo"}
+
+    def iaijutsu_article(match):
+        article = articles[match.group("article").casefold()]
+        if match.group("article")[0].isupper():
+            article = article.capitalize()
+        return article + " " + match.group("term")
+
+    text, count = IAIJUTSU_ARTICLES.subn(iaijutsu_article, text)
+    if count:
+        rules.append("articolo_iaijutsu_semiconsonante")
     for pattern, replacement, rule in KNOWN_GRAMMAR:
         def preserve_case(match):
             if match.group()[0].islower():
@@ -231,18 +445,17 @@ def reviewed_focus_terms(path):
 
 def source_aligned_translation(text, candidate, style):
     """Check source casing while allowing Italian articles and sentence starts."""
-    exact = re.compile(r"(?<!\w)" + re.escape(candidate) + r"(?!\w)")
-    if exact.search(text):
+    if canonical_present(text, candidate):
         return True
     # In Italian a definite article attached to a proper name is lowercase in
     # running prose even when the glossary stores the standalone title case.
-    article = re.match(r"^(Il|Lo|La|I|Gli|Le|L')(?=\s|[A-ZÀ-ÖØ-Þ])(.+)$", candidate)
+    article = re.match(r"(?i)^(Il|Lo|La|I|Gli|Le|L['’]|Un|Uno|Una|Un['’])(?=\s|[A-ZÀ-ÖØ-Þ])(.+)$", candidate)
     if article:
         lower_article = article.group(1).lower() + article.group(2)
         if re.search(r"(?<!\w)" + re.escape(lower_article) + r"(?!\w)", text):
             return True
     if style == "lower":
-        plain = TAGS.sub("", text)
+        plain = plain_text(text)
         folded = re.compile(r"(?<!\w)" + re.escape(candidate) + r"(?!\w)", re.IGNORECASE)
         for match in folded.finditer(plain):
             actual = match.group()
@@ -254,11 +467,31 @@ def source_aligned_translation(text, candidate, style):
 
 
 def usage_variants(usage):
-    marker = "Varianti ammesse in prosa:"
-    if marker not in usage:
-        return []
-    tail = usage.split(marker, 1)[1]
-    return [value.strip() for value in re.findall(r"«([^»]+)»", tail)]
+    variants = []
+    marker = re.search(r"Varianti ammesse in prosa:\s*(.*)", usage, re.IGNORECASE)
+    if marker:
+        tail = marker.group(1)
+        variants.extend(value.strip() for value in re.findall(r"«([^»]+)»", tail))
+    singular = re.search(r"\bsingolare:\s*«([^»]+)»", usage, re.IGNORECASE)
+    if singular:
+        variants.append(singular.group(1).strip())
+    return list(dict.fromkeys(variants))
+
+
+def usage_variant_present(text, variant):
+    """Match a documented prose form using its Italian sentence position for casing."""
+    pattern = re.compile(r"(?<!\w)" + usage_variant_pattern(variant) + r"(?!\w)", re.IGNORECASE)
+    for visible in (text, plain_text(text)):
+        for match in pattern.finditer(visible):
+            expected = variant
+            if case_style(variant) == "lower" and sentence_initial(visible, match.start()):
+                first = re.search(r"[A-Za-zÀ-ÖØ-öø-ÿ]", expected)
+                if first:
+                    expected = expected[:first.start()] + first.group().upper() + expected[first.end():]
+            matched_variant = re.sub(r"(?:<[^>]+>|\{[^{}]+\})", "[dispositivo]", match.group())
+            if matched_variant == expected:
+                return True
+    return False
 
 
 def usage_variant_pattern(variant):
@@ -317,12 +550,17 @@ def scan(args):
         longer = {e["english"] for e in all_entries if len(e["english"]) > len(args.term)
                   and args.term.casefold() in e["english"].casefold()}
         if longer:
-            blocking = re.compile(r"(?<!\w)(?:" + "|".join(re.escape(n) for n in sorted(longer, key=len, reverse=True))
-                                  + r")(?!\w)", re.IGNORECASE)
+            blocking = re.compile(r"(?<![\w-])(?:" + "|".join(re.escape(n) for n in sorted(longer, key=len, reverse=True))
+                                  + r")(?![\w-])", re.IGNORECASE)
     # Longest first: "Duty Finder" should win over "Duty".
     names = sorted({e["english"] for e in entries}, key=lambda x: (-len(x), x.casefold()))
-    pattern = re.compile(r"(?<!\w)(?:" + "|".join(re.escape(n).replace(r"\[1\]", r"\[\d+\]") for n in names)
-                         + r")(?!\w)", re.IGNORECASE)
+    patterns = []
+    for name in names:
+        words = re.split(r"\s+", name)
+        patterns.append(r"(?:[\s]|<[^>]+>|\{[^{}]+\})+".join(
+            re.escape(word).replace(r"\[1\]", r"\[\d+\]") for word in words))
+    pattern = re.compile(r"(?<![\w-])(?:" + "|".join(patterns)
+                         + r")(?![\w-])", re.IGNORECASE)
     by_name = collections.defaultdict(list)
     for entry in entries:
         by_name[entry["english"].casefold()].append(entry)
@@ -365,18 +603,41 @@ def scan(args):
                 if len(original) > 2500:
                     continue  # Large SeString payloads need a separate manual pass.
                 searchable = blocking.sub(lambda m: " " * len(m.group()), original) if blocking else original
-                matches = {re.sub(r"\[\d+\]", "[1]", match.group()).casefold(): match.group()
-                           for match in pattern.finditer(searchable)}
+                matches = collections.defaultdict(list)
+                for match in pattern.finditer(searchable):
+                    name = re.sub(r"\s+", " ", re.sub(r"\[\d+\]", "[1]",
+                                      TAGS.sub("", match.group()))).strip().casefold()
+                    matches[name].append((match.group(), match.start()))
                 if old_match:
-                    matches.update({name: name for name in by_name})
-                for name, matched in matches.items():
+                    matches.update({name: [(name, 0)] for name in by_name})
+                for name, occurrences in matches.items():
                     focus = focused.get(decision_key)
                     if focus and name not in by_italian.get(focus.casefold(), set()):
                         continue
                     if not args.term and not args.all_matches and sampled[name] >= 5:
                         continue  # Broad scan samples each term; --term retrieves every occurrence.
-                    variants = by_name[name]
+                    variants = by_name.get(name)
+                    if not variants:
+                        # Regex matches may normalize a tagged/dynamic source form
+                        # differently from the glossary key; it is not a review hit.
+                        continue
                     term = variants[0]["english"]
+                    if term.casefold() == "ready check" and re.search(r"\bensemble mode\b", original, re.IGNORECASE):
+                        continue
+                    if any("Nome della funzione" in entry["usage"] for entry in variants):
+                        ignore_title_extensions = any("prefisso di un titolo composto da ignorare" in
+                                                      entry["usage"].casefold() for entry in variants)
+                        occurrences = list(exact_function_occurrences(term, occurrences, original,
+                                                                     ignore_title_extensions))
+                        if not occurrences:
+                            continue
+                    if any(entry["category"] == "Luoghi" for entry in variants):
+                        aligned_occurrences = list(exact_place_occurrences(term, occurrences, original,
+                                                                          source_field, relative))
+                        if not aligned_occurrences:
+                            continue
+                        occurrences = aligned_occurrences
+                    matched, match_position = occurrences[0]
                     if (not args.term and (len({e["italian"].casefold() for e in variants}) > 1 or
                                            variants[0]["category"] in ("Meteo", "Razze e clan"))):
                         continue
@@ -391,27 +652,33 @@ def scan(args):
                                                    for e in variants))
                     # A matching Italian form is evidence of consistency, not proof of it.
                     if not args.old:
-                        canonical_exact = any(re.search(r"(?<!\w)" + re.escape(v) + r"(?!\w)", translation)
-                                              for v in canonical)
-                        canonical_casefold = any(re.search(r"(?<!\w)" + re.escape(v) + r"(?!\w)", translation,
-                                                           re.IGNORECASE) for v in canonical)
-                        style = case_style(matched)
+                        canonical_exact = any(canonical_present(translation, v) for v in canonical)
+                        canonical_casefold = any(canonical_present(translation, v, ignore_case=True)
+                                                 for v in canonical)
+                        fixed_case = any(re.search(r"\bmaiuscole fisse:", entry["usage"], re.IGNORECASE)
+                                         for entry in variants)
+                        style = "fixed" if fixed_case else case_style(TAGS.sub("", matched))
                         aligned = [expected_case(value, style) for value in canonical]
                         allowed = [alias for entry in variants for alias in usage_variants(entry["usage"])]
-                        alias_aligned = any(re.search(r"(?<!\w)" + usage_variant_pattern(alias) + r"(?!\w)", translation,
-                                                      re.IGNORECASE) for alias in allowed)
+                        alias_aligned = any(usage_variant_present(translation, alias) for alias in allowed)
                         source_aligned = any(source_aligned_translation(translation, value, style)
                                              for value in aligned)
                         if alias_aligned:
                             continue
                         if (canonical_casefold and not args.strict_canonical_case) or (
-                                args.strict_canonical_case and source_aligned):
+                                args.strict_canonical_case and (source_aligned or
+                                                                len(re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ]+", matched)) == 1
+                                                                and sentence_initial(original, match_position))):
                             continue
                     else:
-                        style, aligned = case_style(matched), []
+                        style, aligned = case_style(TAGS.sub("", matched)), []
                     queue.append(dict(file=relative, row_id=row_id, source_field=source_field,
                                       target_field=target_field, original=original, translation=translation,
                                       english=matched if number else variants[0]["english"], canonical=canonical,
+                                      source_matches=[dict(text=value, start=position,
+                                                           before=original[max(0, position - 60):position],
+                                                           after=original[position + len(value):position + len(value) + 60])
+                                                      for value, position in occurrences],
                                       finding=("case" if not args.old and canonical_casefold else "translation"),
                                       source_case=style, expected_case=aligned,
                                       references=[e["reference"] for e in variants],
@@ -428,7 +695,23 @@ def scan(args):
 
 
 def same_tokens(before, after):
-    return TAGS.findall(before) == TAGS.findall(after)
+    left, right = TAGS.findall(before), TAGS.findall(after)
+    if len(left) != len(right):
+        return False
+    for old, new in zip(left, right):
+        if old.startswith("<hex:") and new.startswith("<hex:"):
+            try:
+                old_payload = bytes.fromhex(HEX_TAG.fullmatch(old).group(1))
+                new_payload = bytes.fromhex(HEX_TAG.fullmatch(new).group(1))
+            except (ValueError, AttributeError):
+                return False
+            old_controls = bytes(value for value in old_payload if value < 32 or value == 127)
+            new_controls = bytes(value for value in new_payload if value < 32 or value == 127)
+            if old_controls != new_controls:
+                return False
+        elif old != new:
+            return False
+    return True
 
 
 def apply(args):

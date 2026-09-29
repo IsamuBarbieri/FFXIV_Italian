@@ -91,36 +91,36 @@ Per il sistema **glamour**: usare «illusione» al singolare e «illusioni» al 
 | Duty Roulette | Roulette Incarichi | `system/addon.json#8605:original` | Nome della funzione. |
 | Party Finder | Ricerca Gruppo | `system/maincommand.json#57:name` | Nome della funzione di ricerca gruppi. |
 | Hall of the Novice | Sala dei Novizi | `system/maincommand.json#70:name` | Nome della funzione. |
-| Challenge Log | Registro Sfide | `system/maincommand.json#60:name` | Nome del registro; forma abbreviata senza articolo. |
+| Challenge Log | Registro Sfide | `system/maincommand.json#60:name` | Nome del registro; forma abbreviata senza articolo. Maiuscole fisse: «Registro Sfide». |
 | Challenge Log Rewards | Ricompense Registro Sfide | `system/addon.json#10116:original` | Etichetta abbreviata, senza articolo. |
 | Heaven-on-High | Pilastro dei Cieli | `system/addon.json#4809:original` | Nome del Deep Dungeon. |
 | Faux Hollows | Tane Sospette | `system/addon.json#11013:original` | Nome della funzione. |
 | Sundry Splendors | Vari Splendori | `system/addon.json#13512:original` | Nome del negozio. |
-| Mech Ops | Operazione Mech | `system/addon.json#16724:original` | Nome della modalità; al plurale nel testo: Operazioni Mech. |
+| Mech Ops | Operazione Mech | `system/addon.json#16724:original` | Nome della modalità; varianti ammesse in prosa: «Operazioni Mech», «operazioni Mech», «operazioni mech». |
 | Crucible of the Unbroken | Crogiolo degli Infrangibili | `system/addon.json#17601:original` | Nome del contenuto. |
 | Company Chest | Forziere della Compagnia | `system/addon.json#2880:original` | Nome della funzione della Compagnia Libera. |
 | Rowena's House of Splendors | Casa degli Splendori di Rowena | `system/addon.json#6170:original` | Nome del negozio. |
-| Hunting Log | Registro di Caccia | `system/maincommand.json#8:name` | Nome del registro. |
-| Gathering Log | Registro di Raccolta | `system/maincommand.json#7:name` | Nome del registro. |
+| Hunting Log | Registro di Caccia | `system/maincommand.json#8:name` | Nome del registro; varianti ammesse in prosa: «registro di caccia», «voce del registro di caccia», «rango di difficoltà del registro di caccia». |
+| Gathering Log | Registro di Raccolta | `system/maincommand.json#7:name` | Nome del registro; varianti ammesse in prosa: «taccuino di raccolta». |
 | Crafting Log | Registro di Fabbricazione | `system/maincommand.json#9:name` | Nome del registro. |
-| Fishing Log | Registro di Pesca | `system/maincommand.json#29:name` | Nome del registro. |
+| Fishing Log | Registro di Pesca | `system/maincommand.json#29:name` | Nome del registro; varianti ammesse in prosa: «taccuino di pesca», «registro di pesca». |
 | Fellowships | Confraternite | `system/maincommand.json#85:name` | Nome della funzione; singolare: Confraternita. |
 | Fellowship Finder | Ricerca Confraternite | `system/maincommand.json#86:name` | Nome della funzione. |
-| Strategy Board | Lavagna Strategica | `system/maincommand.json#98:name` | Nome della funzione. |
-| Sightseeing Log | Diario Esplorazione | `system/maincommand.json#64:name` | Nome del registro. |
+| Strategy Board | Lavagna Strategica | `system/maincommand.json#98:name` | Nome della funzione; varianti ammesse in prosa: «lavagna strategica», «lavagne strategiche», «Lavagne Strategiche». |
+| Sightseeing Log | Diario Esplorazione | `system/maincommand.json#64:name` | Nome del registro; maiuscole fisse: Diario Esplorazione. |
 | Vault Oneiron | Volta Oneiron | `system/howto.json#289:original` | Nome del luogo. |
 | Armoury Chest | Armeria | `system/maincommand.json#25:name` | Nome della funzione. |
 | Chocobo Saddlebag | Bisaccia del Chocobo | `system/maincommand.json#77:name` | Nome della funzione. |
 | Blue Magic Spellbook | Grimorio di Magia Blu | `system/maincommand.json#81:name` | Nome della funzione. |
-| Aether Currents | Correnti Eteriche | `system/maincommand.json#67:name` | Nome della funzione. |
-| Adventurer Plate | Scheda dell'Avventuriero | `system/maincommand.json#93:name` | Nome della funzione. |
+| Aether Currents | Correnti Eteriche | `system/maincommand.json#67:name` | Nome della funzione; varianti ammesse in prosa: «correnti eteriche», «corrente eterica». |
+| Adventurer Plate | Scheda dell'Avventuriero | `system/maincommand.json#93:name` | Nome della funzione; varianti ammesse in prosa: «scheda dell'avventuriero». |
 | Shared FATE | FATE Condivisi | `system/maincommand.json#84:name` | Nome della funzione. |
 | New Game+ | Nuova Partita+ | `system/maincommand.json#88:name` | Nome della modalità. |
 | Waymarks | Marcatori Tattici | `system/maincommand.json#58:name` | Nome della funzione. |
 | Ready Check | Appello | `system/maincommand.json#59:name` | Nome della funzione. |
-| Record Ready Check | Registra Appello | `system/maincommand.json#79:name` | Funzione per registrare un appello prima di registrare un incarico. Varianti ammesse in prosa: «appello di registrazione», «appello per la registrazione». |
+| Record Ready Check | Registra Appello | `system/maincommand.json#79:name` | Funzione per registrare un appello prima di registrare un incarico. Varianti ammesse in prosa: «appello di registrazione», «appello per la registrazione». L'etichetta del comando mantiene le maiuscole fisse: «Registra Appello». |
 | PvP Profile | Profilo PvP | `system/maincommand.json#56:name` | Nome della funzione. |
-| PvP Team | Squadra PvP | `system/maincommand.json#78:name` | Nome della funzione; in prosa rispettare le maiuscole dell'originale e adattare genere e numero («una squadra PvP», «le squadre PvP»). |
+| PvP Team | Squadra PvP | `system/maincommand.json#78:name` | Nome della funzione; varianti ammesse in prosa: «una squadra PvP», «le squadre PvP», «delle squadre PvP», «squadre PvP». |
 | Silence Echo | Silenzia Eco | `system/addon.json#12691:original` | Etichetta contestuale; distinta dal termine generico «Silence». |
 | Starward Standings | Classifica Stellare | `system/addon.json#16716:original` | Etichetta della classifica; distinta dal nome dell'area «Spalti delle Stelle». |
 | Mount Guide | Guida Cavalcature | `system/maincommand.json#61:name` | Nome della funzione. |
@@ -132,7 +132,7 @@ Per il sistema **glamour**: usare «illusione» al singolare e «illusioni» al 
 | Trials | Prove | `system/addon.json#8608:original` | Singolare: Prova; attività istanziata. |
 | Raids | Incursioni | `system/addon.json#8609:original` | Singolare: Incursione; attività istanziata. |
 | Dungeons | Spedizioni | `system/addon.json#8335:original` | Singolare: Spedizione; attività istanziata. |
-| Deep Dungeon | Cripta Profonda | `system/addon.json#2304:original` | Tipo distinto di attività. |
+| Deep Dungeon | Cripta Profonda | `system/addon.json#2304:original` | Tipo distinto di attività. Varianti ammesse in prosa: «cripta profonda», «cripte profonde», rispettando le maiuscole della frase. |
 | Guildhests | Operazioni di Gilda | `system/addon.json#3165:original` | Singolare: Operazione di Gilda. |
 | FATE | FATE | `system/addon.json#5768:original` | Sigla invariabile. |
 | FATEs | FATE | `system/addon.json#8336:original` | Plurale senza punti. |
@@ -147,10 +147,11 @@ Per il sistema **glamour**: usare «illusione» al singolare e «illusioni» al 
 | Advanced Materia Melding | Innesto Avanzato di Materia | `system/howto.json#99:original` | Nome della funzione di innesto avanzato. |
 | Pet Glamours | Illusione dei Famigli | `system/howto.json#233:original` | Resa del sistema di glamour applicato ai famigli. |
 | Moogle Treasure Trove | Forziere del Moguri | `system/addon.json#2778:original` | Nome dell'evento. |
-| Happy Bunny | Coniglio Felice | `system/addon.json#9791:original` | Nome dell'attività con il coniglio. |
+| Happy Bunny | Coniglio Felice | `system/addon.json#9791:original` | Nome dell'attività; in etichetta usare «Coniglio Felice». Varianti ammesse in prosa: «coniglio felice». |
 | Forked Towers | Torri Biforcate | `system/addon.json#16699:original` | Nome del contenuto; al singolare «Torre Biforcata». |
 | Resident Caretaker | Custode Residenziale | `system/addon.json#3691:original` | Ruolo nella zona residenziale; in prosa usare le minuscole. |
 | Crystalline Conflict | Conflitto Cristallino | `system/addon.json#5557:original` | Modalità PvP. |
+| The Feast | Il Banchetto | `system/addon.json#5510:original` | Modalità PvP; in prosa adattare l'articolo («nel Banchetto», «del Banchetto»). |
 | Frontline | Prima Linea | `system/addon.json#5558:original` | Modalità PvP; verificare le maiuscole nel contesto. |
 | Elite Enemy | Nemico d'élite | `system/addon.json#17542:original` | Etichetta con numero dinamico; abbreviare il numero come «n.». |
 | Rival Wings | Ali Rivali | `system/addon.json#5559:original` | Modalità PvP. |
@@ -159,8 +160,8 @@ Per il sistema **glamour**: usare «illusione» al singolare e «illusioni» al 
 | Gold Saucer | Gold Saucer | `system/addon.json#8612:original` | Nome invariato della destinazione. |
 | The Gold Saucer | Gold Saucer | `world/placename.json#1484:name` | Nome della destinazione; variante ammessa in prosa: «Gold Saucer». |
 | Leap of Faith | Salto della Fede | `system/addon.json#8475:original` | GATE del Gold Saucer. |
-| The Hunt | La Caccia | `system/addon.json#838:original` | Funzione di gioco; distinguere dall'uso comune di hunt. |
-| Treasure Hunt | Caccia al Tesoro | `system/addon.json#2276:original` | Modalità di gioco; distinguere dall'uso comune. |
+| The Hunt | La Caccia | `system/addon.json#838:original` | Nome della funzione di gioco; prefisso di un titolo composto da ignorare; distinguere dall'uso comune di hunt; varianti ammesse in prosa: «la caccia». |
+| Treasure Hunt | Caccia al Tesoro | `system/addon.json#2276:original` | Modalità di gioco; distinguere dall'uso comune; varianti ammesse in prosa: «Caccia al tesoro», «caccia al tesoro». |
 | Journal | Diario di Viaggio | `system/addon.json#450:original` | Nome del menu. |
 | Journal | Diario | `system/addon.json#593:original` | Etichetta breve. |
 | All | Tutti | `system/addon.json#970:original` | Insieme di elementi. |
@@ -175,25 +176,25 @@ Per il sistema **glamour**: usare «illusione» al singolare e «illusioni» al 
 | --- | --- | --- | --- |
 | Linkshells | Fonoperle | `system/addon.json#410:original` | Plurale; singolare editoriale: Fonoperla. |
 | Linkshell [1] | Fonoperla [1] | `system/addon.json#4500:original` | Etichetta numerata: conservare il numero. |
-| Cross-world Linkshells | Fonoperle Intermondo | `system/addon.json#12110:original` | Plurale delle fonoperle intermondo. |
+| Cross-world Linkshells | Fonoperle Intermondo | `system/addon.json#12110:original` | Plurale delle fonoperle intermondo; varianti ammesse in prosa: «fonoperla intermondo», «fonoperle intermondo». |
 | Cross-world Linkshell [1] | Fonoperla Intermondo [1] | `system/addon.json#4397:original` | Etichetta numerata: conservare il numero. |
 | Cross-world Linkshell Invites | Inviti alle Fonoperle Intermondo | `system/addon.json#102636:original` | Inviti alla funzione intermondo. |
-| Cross-world Party | Gruppo Intramondo | `system/addon.json#10902:original` | Gruppo formato tra mondi diversi. |
+| Cross-world Party | Gruppo Intramondo | `system/addon.json#10902:original` | Gruppo formato tra mondi diversi; maiuscole fisse: Gruppo Intramondo. |
 | Linkshell Distributor | Distributore di Fonoperle | `world/placename.json#1237:name` | Nome della funzione o del luogo. |
 | Home World | Mondo d'Origine | `system/addon.json#4728:original` | Mondo di appartenenza del personaggio. |
 | World Visit | Visita Mondo | `system/addon.json#12510:original` | Funzione di viaggio tra mondi. |
-| Data Center | Data Center | `system/addon.json#10890:original` | Nome invariato della struttura server. |
+| Data Center | Data Center | `system/addon.json#10890:original` | Nome invariato della struttura server; variante ammessa in prosa per il termine minuscolo nell'originale: «data center». |
 | Housing | Alloggi | `system/addon.json#1999:original` | Sistema degli alloggi. |
-| Glamours | Illusioni | `system/addon.json#16030:original` | Nome della funzione; in prosa «illusioni». Singolare editoriale: «illusione». |
-| Glamour Dresser | Comò delle Illusioni | `system/addon.json#3735:original` | Arredo delle illusioni. In prosa «comò delle illusioni». |
-| Glamour Plate | Piastra d'Illusione | `system/addon.json#3185:original` | Piastra che memorizza un insieme di illusioni. |
-| Glamour Prism | Prisma delle Illusioni | `system/addon.json#5733:original` | Catalizzatore per applicare illusioni. |
-| Cast Glamour | Applica Illusione | `system/addon.json#3700:original` | Comando per applicare un'illusione. |
-| Apply Glamours | Applica Illusioni | `system/addon.json#10583:original` | Comando al plurale. |
+| Glamours | Illusioni | `system/addon.json#16030:original` | Nome della funzione. Varianti ammesse in prosa: «illusioni», «Illusioni» nei titoli, «Completi Pronti per l'Illusione» per gli Outfit Glamour. Singolare editoriale: «illusione». |
+| Glamour Dresser | Comò delle Illusioni | `system/addon.json#3735:original` | Arredo delle illusioni. Varianti ammesse in prosa: «comò delle illusioni», «i comò delle illusioni». |
+| Glamour Plate | Piastra d'Illusione | `system/addon.json#3185:original` | Piastra che memorizza un insieme di illusioni. Varianti ammesse in prosa: «piastra d'illusione», «piastre d'illusione», «Piastre d'Illusione» (etichetta del pulsante), rispettando le maiuscole richieste dalla frase. |
+| Glamour Prism | Prisma delle Illusioni | `system/addon.json#5733:original` | Catalizzatore per applicare illusioni. Varianti ammesse in prosa: «prisma delle illusioni», «prismi delle illusioni», rispettando le maiuscole della frase. |
+| Cast Glamour | Applica Illusione | `system/addon.json#3700:original` | Comando per applicare un'illusione. Varianti ammesse in prosa: «applicare un'illusione», «applicare l'illusione», «applicata un'illusione». Il nome del comando mantiene le maiuscole fisse: «Applica Illusione». |
+| Apply Glamours | Applica Illusioni | `system/addon.json#10583:original` | Comando al plurale con maiuscole fisse: «Applica Illusioni». Varianti ammesse in prosa: «applicare illusioni», «applicare le illusioni». |
 | Glamour-ready | Pronto per l'illusione | `system/addon.json#5728:original` | Idoneità dell'oggetto; adattare genere e numero in prosa. |
-| Outfit Glamour | Completo Illusione | `system/addon.json#15644:original` | Insieme di oggetti registrato come illusione. Varianti ammesse in prosa: «completi pronti per l'illusione». |
-| Furnishing Glamours | Illusioni d'Arredo | `system/addon.json#15533:original` | Aspetti alternativi degli arredi; in prosa minuscolo. |
-| Registered Glamours | Illusioni Registrate | `system/addon.json#15528:original` | Elenco delle illusioni d'arredo registrate. |
+| Outfit Glamour | Completo Illusione | `system/addon.json#15644:original` | Insieme di oggetti registrato come illusione. Varianti ammesse in prosa: «completi pronti per l'illusione», «completo pronto per l'illusione», «Completi Pronti per l'Illusione», «Completo Pronto per l'Illusione». |
+| Furnishing Glamours | Illusioni d'Arredo | `system/addon.json#15533:original` | Aspetti alternativi degli arredi. Varianti ammesse in prosa: «illusioni d'arredo»; mantenere le minuscole nel testo corrente. |
+| Registered Glamours | Illusioni Registrate | `system/addon.json#15528:original` | Nome dell'elenco delle illusioni d'arredo registrate. Varianti ammesse in prosa: «Illusioni Registrate» per l'etichetta, «illusioni registrate» in prosa. |
 | Placed Glamours | Illusioni Posizionate | `system/addon.json#15539:original` | Illusioni d'arredo già posizionate. |
 | Register Glamour | Registra Illusione | `system/addon.json#15525:original` | Registra l'aspetto alternativo di un arredo. |
 | Place Glamour | Posiziona Illusione | `system/addon.json#15564:original` | Posiziona un'illusione d'arredo. |
@@ -202,26 +203,26 @@ Per il sistema **glamour**: usare «illusione» al singolare e «illusioni» al 
 | Retainer | Servitore | `system/addon.json#532:original` | Aiutante del personaggio; in prosa minuscolo. |
 | Materia Melding | Innesto Materia | `system/addon.json#993:original` | Funzione per innestare materia. |
 | Desynthesis | Desintesi | `system/addon.json#1815:original` | Funzione di smontaggio degli oggetti. |
-| Aetherial Reduction | Riduzione Eterea | `system/addon.json#2160:original` | Funzione di riduzione. |
-| Item Dyeing | Tintura Oggetti | `system/addon.json#4690:original` | Funzione di tintura dell'equipaggiamento. |
+| Aetherial Reduction | Riduzione Eterea | `system/addon.json#2160:original` | Funzione di riduzione; varianti ammesse in prosa: «riduzione eterea», «la riduzione eterea», «riduzioni eteree». |
+| Item Dyeing | Tintura Oggetti | `system/addon.json#4690:original` | Funzione di tintura dell'equipaggiamento; varianti ammesse in prosa: «tintura degli oggetti», «finestra di tintura degli oggetti». |
 | Custom Deliveries | Consegne su Misura | `system/addon.json#5700:original` | Attività ricorrente. |
 | Wondrous Tails | Code Meravigliose | `system/addon.json#5600:original` | Registro di attività. |
 | Portraits | Ritratti | `system/addon.json#14650:original` | Funzione del personaggio. |
 | Actions & Traits | Azioni e Tratti | `system/maincommand.json#3:name` | Menu del personaggio. |
 | Blacklist | Lista Nera | `system/maincommand.json#14:name` | Elenco di giocatori bloccati. |
-| Character Configuration | Configurazione Personaggio | `system/maincommand.json#34:name` | Menu delle impostazioni. |
+| Character Configuration | Configurazione Personaggio | `system/maincommand.json#34:name` | Menu delle impostazioni; varianti ammesse in prosa: «configurazione del personaggio», «Configurazione del Personaggio», «impostazioni del personaggio». |
 | Collection | Collezione | `system/maincommand.json#87:name` | Menu della collezione. |
 | Companion | Compagno | `system/maincommand.json#42:name` | Funzione del compagno. |
 | Contacts | Giocatori Recenti | `system/maincommand.json#74:name` | Elenco dei contatti recenti. |
 | Countdown | Conto alla Rovescia | `system/maincommand.json#73:name` | Funzione del gruppo. |
 | Emotes | Emote | `system/maincommand.json#17:name` | Categoria di azioni sociali. |
-| Fashion Accessories | Accessori di Moda | `system/maincommand.json#89:name` | Collezione di accessori. |
+| Fashion Accessories | Accessori di Moda | `system/maincommand.json#89:name` | Collezione di accessori. Varianti ammesse in prosa: «accessorio di moda», «accessori di moda», rispettando le maiuscole della frase. |
 | Friend List | Lista Amici | `system/maincommand.json#13:name` | Elenco sociale. |
-| HUD Layout | Disposizione HUD | `system/maincommand.json#22:name` | Funzione di disposizione dell'interfaccia. Varianti ammesse in prosa: «disposizione dell'HUD», «disposizione HUD», «disposizione delle barre azioni nell'HUD», «disposizione e dimensione dell'HUD». |
-| Key Items | Oggetti Chiave | `system/maincommand.json#11:name` | Categoria di inventario. |
+| HUD Layout | Disposizione HUD | `system/maincommand.json#22:name` | Funzione di disposizione dell'interfaccia. Varianti ammesse in prosa: «disposizione dell'HUD», «disposizione HUD», «disposizione speciale dell'HUD», «disposizione delle barre azioni nell'HUD», «disposizione e dimensione dell'HUD». |
+| Key Items | Oggetti Chiave | `system/maincommand.json#11:name` | Categoria di inventario; varianti ammesse in prosa: «oggetti chiave», «scheda Oggetti chiave». |
 | Keybind | Assegnazione Tasti | `system/maincommand.json#20:name` | Configurazione dei comandi. |
-| Mount Speed | Velocità Cavalcatura | `system/maincommand.json#75:name` | Funzione delle cavalcature. |
-| Mute List | Lista Silenziati | `system/maincommand.json#96:name` | Nome del menu. Varianti ammesse in prosa: «lista dei personaggi silenziati». |
+| Mount Speed | Velocità Cavalcatura | `system/maincommand.json#75:name` | Funzione delle cavalcature; varianti ammesse in prosa: «velocità della cavalcatura», «velocità delle cavalcature», «quella della cavalcatura». |
+| Mute List | Lista Silenziati | `system/maincommand.json#96:name` | Nome del menu. Maiuscole fisse: «Lista Silenziati». Varianti ammesse in prosa: «lista dei personaggi silenziati». |
 | Player Search | Ricerca Giocatori | `system/maincommand.json#15:name` | Ricerca di altri giocatori. |
 | System Configuration | Configurazione di Sistema | `system/maincommand.json#19:name` | Menu delle impostazioni. |
 | User Macros | Macro Utente | `system/maincommand.json#21:name` | Funzione delle macro. |
@@ -232,18 +233,18 @@ Per il sistema **glamour**: usare «illusione» al singolare e «illusioni» al 
 | Item Settings | Impostazioni Oggetti | `system/maincommand.json#71:name` | Impostazioni degli oggetti. |
 | Mouse Settings | Impostazioni Mouse | `system/maincommand.json#48:name` | Impostazioni del mouse. Varianti ammesse in prosa: «impostazioni di [dispositivo] e del mouse» quando il dispositivo è indicato dal tag dinamico. |
 | Theme Settings | Impostazioni Tema | `system/maincommand.json#83:name` | Impostazioni grafiche. |
-| Configuration Sharing | Condivisione Configurazione | `system/maincommand.json#99:name` | Condivisione delle impostazioni. |
-| Party Members | Membri del Gruppo | `system/maincommand.json#12:name` | Nome dell'elenco. Varianti ammesse in prosa: «membri», «tutti i membri» (quando il riferimento al gruppo è chiaro). |
-| Sanctuary Crafting Log | Registro di Fabbricazione del Rifugio Insulare | `system/addon.json#14259:original` | Nome del registro di fabbricazione del Rifugio Insulare. |
-| Sanctuary Gathering Log | Registro di Raccolta del Rifugio Insulare | `system/addon.json#14260:original` | Nome del registro di raccolta del Rifugio Insulare. |
+| Configuration Sharing | Condivisione Configurazione | `system/maincommand.json#99:name` | Condivisione delle impostazioni; varianti ammesse in prosa: «condivisione della configurazione». |
+| Party Members | Membri del Gruppo | `system/maincommand.json#12:name` | Nome dell'elenco. Varianti ammesse in prosa: «membro del gruppo», «membri del gruppo», «membri vicini del gruppo», «membri del suo gruppo», «membri», «altri membri», «tutti i membri», «gruppo prefissato», «gruppo abbinato», «gruppo di massimo quattro giocatori», «gruppi da uno a quattro giocatori», «gruppo in anticipo», «con il gruppo», «in gruppo», «menu del gruppo», «nessun membro nel gruppo», «membri nel gruppo», «altri membri nel gruppo», «membri per il gruppo» (quando il riferimento al gruppo è chiaro). |
+| Sanctuary Crafting Log | Registro di Fabbricazione del Rifugio Insulare | `system/addon.json#14259:original` | Nome del registro di fabbricazione del Rifugio Insulare; variante in prosa: «registro di fabbricazione del Rifugio Insulare». |
+| Sanctuary Gathering Log | Registro di Raccolta del Rifugio Insulare | `system/addon.json#14260:original` | Nome del registro di raccolta del Rifugio Insulare; varianti ammesse in prosa: «registro di raccolta del Rifugio Insulare». |
 | Currency | Valute | `system/maincommand.json#66:name` | Nome del menu; altre etichette usano il singolare «Valuta». |
 
 ### Termini di gioco
 
 | Inglese | Italiano | Fonte | Uso |
 | --- | --- | --- | --- |
-| Free Company | Compagnia Libera | `system/addon.json#646:original` |  |
-| Grand Company | Grande Compagnia | `system/addon.json#337:original` |  |
+| Free Company | Compagnia Libera | `system/addon.json#646:original` | Varianti ammesse in prosa: «Compagnia Libera», «compagnia libera», «compagnie libere» quando il riferimento indica la stessa organizzazione. |
+| Grand Company | Grande Compagnia | `system/addon.json#337:original` | Varianti ammesse in prosa: «Grandi Compagnie». |
 | Subleader | Vice | `system/addon.json#38155:original` | Ruolo nella squadra PvP; in prosa minuscolo «vice». |
 | Subleaders | Vice | `system/addon.json#38047:original` | Plurale invariabile; in prosa «i vice». |
 | Aetheryte | Eterite | `system/addon.json#8511:original` |  |
@@ -255,7 +256,7 @@ Per il sistema **glamour**: usare «illusione» al singolare e «illusioni» al 
 | Materia | Materia | `system/addon.json#481:original` |  |
 | Mount | Cavalcatura | `system/addon.json#774:original` |  |
 | Minion | Minion | `system/addon.json#8303:original` |  |
-| Achievement | Obiettivo | `system/addon.json#1484:original` |  |
+| Achievement | Obiettivo | `system/addon.json#1484:original` | Varianti ammesse in prosa: «obiettivi». |
 | Quest | Missione | `system/addon.json#12723:original` | Categoria generale, singolare. |
 | Job | Job | `system/addon.json#684:original` |  |
 | Class | Classe | `system/addon.json#869:original` |  |
@@ -264,7 +265,7 @@ Per il sistema **glamour**: usare «illusione» al singolare e «illusioni» al 
 | Retainer | Retainer | `system/addon.json#12580:original` | Termine conservato in una specifica etichetta. |
 | Mount | Monta | `system/addon.json#4964:original` | Azione contestuale. |
 | Mount | Pilota | `system/addon.json#11382:original` | Azione contestuale. |
-| Weaponskills | Tecniche | `system/addon.json#14484:original` | Categoria di azione; singolare: Tecnica. |
+| Weaponskills | Tecniche | `system/addon.json#14484:original` | Categoria di azione; singolare: «tecnica». |
 | HP | PV | `system/addon.json#232:original` | Sigla conservata in un'etichetta. |
 | MP | PM | `system/addon.json#233:original` | Sigla conservata in un'etichetta. |
 
@@ -272,6 +273,8 @@ Per il sistema **glamour**: usare «illusione» al singolare e «illusioni» al 
 
 | Inglese | Italiano | Fonte | Uso |
 | --- | --- | --- | --- |
+| DoW/DoM | Combattenti/Maghi | `system/addon.json#1080:original` | Etichetta breve per le categorie Discepoli della Guerra e Discepoli della Magia. |
+| DoH/DoL | Artigiani/Raccoglitori | `system/addon.json#1081:original` | Etichetta breve per le categorie Discepoli della Mano e Discepoli della Terra. |
 | Adventurer | Avventuriero | `world/classjob.json#0:name` |  |
 | Gladiator | Gladiatore | `world/classjob.json#1:name` |  |
 | Pugilist | Pugile | `world/classjob.json#2:name` |  |
@@ -296,18 +299,18 @@ Per il sistema **glamour**: usare «illusione» al singolare e «illusioni» al 
 | Warrior | Guerriero | `world/classjob.json#21:name` |  |
 | Dragoon | Dragone | `world/classjob.json#22:name` |  |
 | Bard | Bardo | `world/classjob.json#23:name` |  |
-| White Mage | Mago Bianco | `world/classjob.json#24:name` |  |
-| Black Mage | Mago Nero | `world/classjob.json#25:name` |  |
+| White Mage | Mago Bianco | `world/classjob.json#24:name` | Varianti ammesse in prosa: «mago bianco», «Maga Bianca», «Maga Bianca Makai». |
+| Black Mage | Mago Nero | `world/classjob.json#25:name` | Varianti ammesse in prosa: «mago nero», «Maga Nera», «Maga Nera Makai». |
 | Arcanist | Arcanista | `world/classjob.json#26:name` |  |
 | Summoner | Evocatore | `world/classjob.json#27:name` |  |
 | Scholar | Studioso | `world/classjob.json#28:name` |  |
 | Rogue | Furfante | `world/classjob.json#29:name` |  |
 | Ninja | Ninja | `world/classjob.json#30:name` |  |
 | Machinist | Artificiere | `world/classjob.json#31:name` |  |
-| Dark Knight | Cavaliere Oscuro | `world/classjob.json#32:name` |  |
+| Dark Knight | Cavaliere Oscuro | `world/classjob.json#32:name` | Variante ammessa in prosa: «cavaliere oscuro». |
 | Astrologian | Astrologo | `world/classjob.json#33:name` |  |
 | Samurai | Samurai | `world/classjob.json#34:name` |  |
-| Red Mage | Mago Rosso | `world/classjob.json#35:name` |  |
+| Red Mage | Mago Rosso | `world/classjob.json#35:name` | Varianti ammesse in prosa: «mago rosso», «Maga Rossa», «maga rossa», «Maga Rossa Makai». |
 | Blue Mage | Mago Blu | `world/classjob.json#36:name` |  |
 | Gunbreaker | Eterlama | `world/classjob.json#37:name` |  |
 | Dancer | Danzatore | `world/classjob.json#38:name` |  |
@@ -380,6 +383,12 @@ Catalogo integrale: `data/translations/world/placename.json`. Cercare il nome in
 | Buscarron's Druthers | Il Capriccio di Buscarron | `world/placename.json#119:name` |  |
 | Camp Drybone | Campo Ossasecca | `world/placename.json#300:name` |  |
 | Camp Overlook | Campo Belvedere | `world/placename.json#237:name` |  |
+| Loading Station | Stazione di Carico | `world/placename.json#2599:name` | Varianti ammesse in prosa: «stazione», «stazioni», «stazioni di carico». |
+| Camp Iron Lake | Campo Lago di Ferro | `world/placename.json#176:name` | Nome completo della località; distinto dal luogo «Iron Lake». |
+| Camp Nine Ivies | Campo Nove Edere | `world/placename.json#74:name` | Nome completo della località; distinto dal luogo «Nine Ivies». |
+| Camp Black Brush | Campo Sterpenero | `world/placename.json#248:name` | Nome completo della località; distinto dal luogo «Black Brush». |
+| Camp Broken Water | Campo Acqua Spezzata | `world/placename.json#254:name` | Nome completo della località; distinto dal luogo «Broken Water». |
+
 | Bronze Lake | Lago di Bronzo | `world/placename.json#177:name` |  |
 | Whitebrim | Orlo Bianco | `world/placename.json#383:name` |  |
 | Bentbranch Meadows | Prati di Ramostorto | `world/placename.json#94:name` |  |
