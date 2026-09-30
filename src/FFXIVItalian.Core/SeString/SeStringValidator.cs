@@ -23,10 +23,14 @@ public static partial class SeStringValidator
             return result;
         }
 
-        // Check for unbalanced angle brackets
+        // Literal angle brackets can occur in source text (for example in comparisons).
+        // Preserve the source counts and report only when the translation changes them.
         int openCount = translatedIt.Count(c => c == '<');
         int closeCount = translatedIt.Count(c => c == '>');
-        if (openCount != closeCount)
+        int originalOpenCount = originalEn.Count(c => c == '<');
+        int originalCloseCount = originalEn.Count(c => c == '>');
+        if (openCount != closeCount &&
+            (openCount != originalOpenCount || closeCount != originalCloseCount))
         {
             result.Errors.Add($"Parentesi angolari sbilanciate: trovati {openCount} '<' e {closeCount} '>'.");
         }

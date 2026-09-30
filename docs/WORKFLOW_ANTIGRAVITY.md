@@ -3,6 +3,8 @@
 Workflow per sessioni di traduzione assistita con Antigravity.  
 Ottimizzato per **zero overhead di token**, **nessun subagente**, **zero split/file temporanei**, e **salvataggio incrementale in-place** direttamente nel file JSON originale.
 
+Questo documento descrive una modalità specifica di lavoro diretto in-place. Per il flusso principale usato con file assegnati, controlli automatici, revisione visiva e aggiornamento del glossario, consulta [TRANSLATION_WORKFLOW.md](TRANSLATION_WORKFLOW.md).
+
 ---
 
 ## 1. Principi Fondamentali

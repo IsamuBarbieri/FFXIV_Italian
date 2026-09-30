@@ -36,9 +36,9 @@ public static class ExdPatcher
         uint indexTableSize = BinaryPrimitives.ReadUInt32BigEndian(originalExd.AsSpan(0x08, 4));
         int rowCount = (int)(indexTableSize / 8);
 
-        var rows = new List<ExdRowData>(rowCount);
+        var rows = new ExdRowData?[rowCount];
 
-        for (int i = 0; i < rowCount; i++)
+        void PatchRow(int i)
         {
             int entryPos = HeaderSize + (i * 8);
             uint rowId = BinaryPrimitives.ReadUInt32BigEndian(originalExd.AsSpan(entryPos, 4));
@@ -46,7 +46,7 @@ public static class ExdPatcher
 
             if (offset + RowHeaderSize > originalExd.Length)
             {
-                continue;
+                return;
             }
 
             int dataSize = (int)BinaryPrimitives.ReadUInt32BigEndian(originalExd.AsSpan((int)offset, 4));
@@ -58,7 +58,7 @@ public static class ExdPatcher
 
             if (stringStart > originalExd.Length || fixedStart + fixedDataSize > originalExd.Length)
             {
-                continue;
+                return;
             }
 
             byte[] fixedData = originalExd.AsSpan(fixedStart, fixedDataSize).ToArray();
@@ -83,17 +83,26 @@ public static class ExdPatcher
                 stringData = originalExd.AsSpan(stringStart, Math.Max(0, stringLength)).ToArray();
             }
 
-            rows.Add(new ExdRowData
+            rows[i] = new ExdRowData
             {
                 RowId = rowId,
                 SubRowCount = subRowCount,
                 FixedData = fixedData,
                 StringData = stringData
-            });
+            };
         }
 
+        if (rowCount >= 1024 && Environment.ProcessorCount > 1)
+            Parallel.For(0, rowCount, PatchRow);
+        else
+            for (int i = 0; i < rowCount; i++) PatchRow(i);
+
+        var orderedRows = new List<ExdRowData>(rowCount);
+        foreach (var row in rows)
+            if (row is not null) orderedRows.Add(row);
+
         // Rebuild the EXDF binary file
-        return RebuildExdf(rows);
+        return RebuildExdf(orderedRows);
     }
 
     /// <summary>
@@ -115,9 +124,9 @@ public static class ExdPatcher
         uint indexTableSize = BinaryPrimitives.ReadUInt32BigEndian(originalExd.AsSpan(0x08, 4));
         int rowCount = (int)(indexTableSize / 8);
 
-        var rows = new List<ExdRowData>(rowCount);
+        var rows = new ExdRowData?[rowCount];
 
-        for (int i = 0; i < rowCount; i++)
+        void PatchRow(int i)
         {
             int entryPos = HeaderSize + (i * 8);
             uint rowId = BinaryPrimitives.ReadUInt32BigEndian(originalExd.AsSpan(entryPos, 4));
@@ -125,7 +134,7 @@ public static class ExdPatcher
 
             if (offset + RowHeaderSize > originalExd.Length)
             {
-                continue;
+                return;
             }
 
             int dataSize = (int)BinaryPrimitives.ReadUInt32BigEndian(originalExd.AsSpan((int)offset, 4));
@@ -137,7 +146,7 @@ public static class ExdPatcher
 
             if (stringStart > originalExd.Length || fixedStart + fixedDataSize > originalExd.Length)
             {
-                continue;
+                return;
             }
 
             byte[] fixedData = originalExd.AsSpan(fixedStart, fixedDataSize).ToArray();
@@ -172,16 +181,25 @@ public static class ExdPatcher
                 stringData = originalExd.AsSpan(stringStart, Math.Max(0, stringLength)).ToArray();
             }
 
-            rows.Add(new ExdRowData
+            rows[i] = new ExdRowData
             {
                 RowId = rowId,
                 SubRowCount = subRowCount,
                 FixedData = fixedData,
                 StringData = stringData
-            });
+            };
         }
 
-        return RebuildExdf(rows);
+        if (rowCount >= 1024 && Environment.ProcessorCount > 1)
+            Parallel.For(0, rowCount, PatchRow);
+        else
+            for (int i = 0; i < rowCount; i++) PatchRow(i);
+
+        var orderedRows = new List<ExdRowData>(rowCount);
+        foreach (var row in rows)
+            if (row is not null) orderedRows.Add(row);
+
+        return RebuildExdf(orderedRows);
     }
 
     /// <summary>
@@ -202,9 +220,9 @@ public static class ExdPatcher
         uint indexTableSize = BinaryPrimitives.ReadUInt32BigEndian(originalExd.AsSpan(0x08, 4));
         int rowCount = (int)(indexTableSize / 8);
 
-        var rows = new List<ExdRowData>(rowCount);
+        var rows = new ExdRowData?[rowCount];
 
-        for (int i = 0; i < rowCount; i++)
+        void PatchRow(int i)
         {
             int entryPos = HeaderSize + (i * 8);
             uint rowId = BinaryPrimitives.ReadUInt32BigEndian(originalExd.AsSpan(entryPos, 4));
@@ -212,7 +230,7 @@ public static class ExdPatcher
 
             if (offset + RowHeaderSize > originalExd.Length)
             {
-                continue;
+                return;
             }
 
             int dataSize = (int)BinaryPrimitives.ReadUInt32BigEndian(originalExd.AsSpan((int)offset, 4));
@@ -224,7 +242,7 @@ public static class ExdPatcher
 
             if (stringStart > originalExd.Length || fixedStart + fixedDataSize > originalExd.Length)
             {
-                continue;
+                return;
             }
 
             byte[] fixedData = originalExd.AsSpan(fixedStart, fixedDataSize).ToArray();
@@ -267,16 +285,25 @@ public static class ExdPatcher
                 stringData = originalExd.AsSpan(stringStart, Math.Max(0, stringLength)).ToArray();
             }
 
-            rows.Add(new ExdRowData
+            rows[i] = new ExdRowData
             {
                 RowId = rowId,
                 SubRowCount = subRowCount,
                 FixedData = fixedData,
                 StringData = stringData
-            });
+            };
         }
 
-        return RebuildExdf(rows);
+        if (rowCount >= 1024 && Environment.ProcessorCount > 1)
+            Parallel.For(0, rowCount, PatchRow);
+        else
+            for (int i = 0; i < rowCount; i++) PatchRow(i);
+
+        var orderedRows = new List<ExdRowData>(rowCount);
+        foreach (var row in rows)
+            if (row is not null) orderedRows.Add(row);
+
+        return RebuildExdf(orderedRows);
     }
 
     private static byte[] ReadNullTerminatedBytes(byte[] data, int baseOffset, uint relativeOffset, int maxLength)
@@ -311,77 +338,46 @@ public static class ExdPatcher
 
     public static byte[] RebuildExdf(List<ExdRowData> rows)
     {
-        using var ms = new MemoryStream();
-        using var writer = new BinaryWriter(ms);
-
         int rowCount = rows.Count;
         uint indexSize = (uint)(rowCount * 8);
+        long dataStart = HeaderSize + (long)indexSize;
+        long totalLength = dataStart;
+        foreach (var row in rows)
+        {
+            totalLength += RowHeaderSize + (long)row.FixedData.Length + row.StringData.Length;
+            totalLength = (totalLength + RowAlignment - 1) & ~(RowAlignment - 1L);
+        }
 
-        // 1. Write Header placeholder
-        byte[] header = new byte[HeaderSize];
-        header[0] = (byte)'E';
-        header[1] = (byte)'X';
-        header[2] = (byte)'D';
-        header[3] = (byte)'F';
-        BinaryPrimitives.WriteUInt16BigEndian(header.AsSpan(4, 2), 2); // Version 2
-        BinaryPrimitives.WriteUInt32BigEndian(header.AsSpan(8, 4), indexSize);
-        writer.Write(header);
+        if (totalLength > int.MaxValue)
+            throw new InvalidDataException("La pagina EXDF ricostruita supera la dimensione massima supportata.");
 
-        // 2. Reserve space for index table
-        long indexStartPos = ms.Position;
-        byte[] indexPlaceholder = new byte[indexSize];
-        writer.Write(indexPlaceholder);
+        var output = new byte[(int)totalLength];
+        output[0] = (byte)'E';
+        output[1] = (byte)'X';
+        output[2] = (byte)'D';
+        output[3] = (byte)'F';
+        BinaryPrimitives.WriteUInt16BigEndian(output.AsSpan(4, 2), 2);
+        BinaryPrimitives.WriteUInt32BigEndian(output.AsSpan(8, 4), indexSize);
 
-        // 3. Write Row Data
-        var indexEntries = new (uint RowId, uint Offset)[rowCount];
-        long dataStartPos = ms.Position;
-
+        int rowDataOffset = (int)dataStart;
         for (int i = 0; i < rowCount; i++)
         {
             var row = rows[i];
-            long currentOffset = ms.Position;
-            indexEntries[i] = (row.RowId, (uint)currentOffset);
+            int indexOffset = HeaderSize + i * 8;
+            BinaryPrimitives.WriteUInt32BigEndian(output.AsSpan(indexOffset, 4), row.RowId);
+            BinaryPrimitives.WriteUInt32BigEndian(output.AsSpan(indexOffset + 4, 4), (uint)rowDataOffset);
 
             int dataSize = row.FixedData.Length + row.StringData.Length;
+            BinaryPrimitives.WriteUInt32BigEndian(output.AsSpan(rowDataOffset, 4), (uint)dataSize);
+            BinaryPrimitives.WriteUInt16BigEndian(output.AsSpan(rowDataOffset + 4, 2), row.SubRowCount);
+            row.FixedData.AsSpan().CopyTo(output.AsSpan(rowDataOffset + RowHeaderSize));
+            row.StringData.AsSpan().CopyTo(output.AsSpan(rowDataOffset + RowHeaderSize + row.FixedData.Length));
 
-            // Row header (6 bytes)
-            byte[] rowHeader = new byte[RowHeaderSize];
-            BinaryPrimitives.WriteUInt32BigEndian(rowHeader.AsSpan(0, 4), (uint)dataSize);
-            BinaryPrimitives.WriteUInt16BigEndian(rowHeader.AsSpan(4, 2), row.SubRowCount);
-            writer.Write(rowHeader);
-
-            // Fixed data + String data
-            writer.Write(row.FixedData);
-            writer.Write(row.StringData);
-
-            // Alignment to 4 bytes
-            int padding = (RowAlignment - (int)(ms.Position % RowAlignment)) % RowAlignment;
-            for (int p = 0; p < padding; p++)
-            {
-                writer.Write((byte)0);
-            }
+            rowDataOffset = (rowDataOffset + RowHeaderSize + dataSize + RowAlignment - 1) & ~(RowAlignment - 1);
         }
 
-        long dataEndPos = ms.Position;
-        uint dataSectionSize = (uint)(dataEndPos - dataStartPos);
-
-        // 4. Go back and write index table
-        ms.Seek(indexStartPos, SeekOrigin.Begin);
-        foreach (var (rowId, offset) in indexEntries)
-        {
-            byte[] entryBytes = new byte[8];
-            BinaryPrimitives.WriteUInt32BigEndian(entryBytes.AsSpan(0, 4), rowId);
-            BinaryPrimitives.WriteUInt32BigEndian(entryBytes.AsSpan(4, 4), offset);
-            writer.Write(entryBytes);
-        }
-
-        // 5. Go back and write data section size in header (offset 0x0C)
-        ms.Seek(0x0C, SeekOrigin.Begin);
-        byte[] dataSizeField = new byte[4];
-        BinaryPrimitives.WriteUInt32BigEndian(dataSizeField, dataSectionSize);
-        writer.Write(dataSizeField);
-
-        return ms.ToArray();
+        BinaryPrimitives.WriteUInt32BigEndian(output.AsSpan(0x0C, 4), (uint)(rowDataOffset - dataStart));
+        return output;
     }
 }
 

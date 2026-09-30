@@ -31,6 +31,12 @@ string sqPackPath = @"G:\SquareEnix\FINAL FANTASY XIV - A Realm Reborn\game\sqpa
 string penumbraModDir = @"G:\SquareEnix\FFXIV_Mod\FFXIV Italiano (Test In-Game)";
 string outputPmp = Path.Combine(projectRoot, "FFXIV_Italian.pmp");
 
+GameData? sharedGameData = null;
+Func<GameData> getGameData = () => sharedGameData ??= new GameData(sqPackPath, new LuminaOptions
+{
+    DefaultExcelLanguage = Language.English
+});
+
 if (args.Length > 0 && Directory.Exists(args[0]))
 {
     sqPackPath = args[0];
@@ -61,10 +67,7 @@ if (Directory.Exists(sqPackPath))
 {
     try
     {
-        var lumina = new GameData(sqPackPath, new LuminaOptions
-        {
-            DefaultExcelLanguage = Language.English
-        });
+        var lumina = getGameData();
 
         // 1. PATCH LOBBY (Schermata del Titolo e Creazione PG)
         string lobbyJsonPath = TranslationPathResolver.FindFile(translationsDir, "lobby");
@@ -152,14 +155,24 @@ if (Directory.Exists(sqPackPath))
             if (rows.Count == 0) continue;
 
             int pageTable = 0x20 + columnCount * 4;
+            var sortedRows = rows.OrderBy(row => row.Key).ToArray();
+            int translationIndex = 0;
             for (int page = 0; page < pageCount; page++)
             {
                 uint startId = BinaryPrimitives.ReadUInt32BigEndian(exh.Data.AsSpan(pageTable + page * 8, 4));
                 uint nextId = page + 1 < pageCount
                     ? BinaryPrimitives.ReadUInt32BigEndian(exh.Data.AsSpan(pageTable + (page + 1) * 8, 4))
                     : uint.MaxValue;
-                var pageRows = rows.Where(row => row.Key >= startId && row.Key < nextId)
-                    .ToDictionary(row => row.Key, row => row.Value);
+
+                while (translationIndex < sortedRows.Length && sortedRows[translationIndex].Key < startId)
+                    translationIndex++;
+
+                var pageRows = new Dictionary<uint, IReadOnlyDictionary<int, string>>();
+                while (translationIndex < sortedRows.Length && sortedRows[translationIndex].Key < nextId)
+                {
+                    var row = sortedRows[translationIndex++];
+                    pageRows.Add(row.Key, row.Value);
+                }
                 if (pageRows.Count == 0) continue;
                 string exdPath = $"exd/{sheet}_{startId}_en.exd";
                 var exd = lumina.GetFile(exdPath)
@@ -376,7 +389,7 @@ if (Directory.Exists(sqPackPath))
             }
         }
 
-        // 6. PATCH CLASSJOB (Nomi di classi e job, inclusa la schermata di selezione personaggio)
+        // 6. PATCH CLASSJOB: la macro ClassJob usa la colonna 0; la schermata usa la colonna 16.
         string classJobJsonPath = TranslationPathResolver.FindFile(translationsDir, "classjob");
         var classJobReplacements = TranslationFileReader.LoadReplacements(classJobJsonPath);
         if (classJobReplacements.Count > 0)
@@ -388,7 +401,7 @@ if (Directory.Exists(sqPackPath))
             {
                 var classJobMulti = classJobReplacements.ToDictionary(
                     kvp => kvp.Key,
-                    kvp => (IReadOnlyDictionary<int, string>)new Dictionary<int, string> { [16] = kvp.Value });
+                    kvp => (IReadOnlyDictionary<int, string>)new Dictionary<int, string> { [0] = kvp.Value, [16] = kvp.Value });
 
                 byte[] patchedClassJobExd = ExdPatcher.PatchMultiColumnStringSheet(
                     originalClassJobExd.Data,
@@ -477,7 +490,7 @@ if (tribeReplacements.Count > 0 && Directory.Exists(sqPackPath))
 {
     Console.WriteLine();
     Console.WriteLine($"Caricate {tribeReplacements.Count} traduzioni da '{Path.GetFileName(tribeJsonPath)}'.");
-    var lumina8 = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var lumina8 = getGameData();
     var originalTribeExd = lumina8.GetFile("exd/tribe_0_en.exd");
     if (originalTribeExd != null)
     {
@@ -504,7 +517,7 @@ if (raceReplacements.Count > 0 && Directory.Exists(sqPackPath))
 {
     Console.WriteLine();
     Console.WriteLine($"Caricate {raceReplacements.Count} traduzioni da '{Path.GetFileName(raceJsonPath)}'.");
-    var lumina9 = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var lumina9 = getGameData();
     var originalRaceExd = lumina9.GetFile("exd/race_0_en.exd");
     if (originalRaceExd != null)
     {
@@ -531,7 +544,7 @@ if (howToCatReplacements.Count > 0 && Directory.Exists(sqPackPath))
 {
     Console.WriteLine();
     Console.WriteLine($"Caricate {howToCatReplacements.Count} traduzioni da '{Path.GetFileName(howToCatJsonPath)}'.");
-    var luminaHowToCat = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var luminaHowToCat = getGameData();
     var originalHowToCatExd = luminaHowToCat.GetFile("exd/howtocategory_0_en.exd");
     if (originalHowToCatExd != null)
     {
@@ -553,7 +566,7 @@ if (itemCatReplacements.Count > 0 && Directory.Exists(sqPackPath))
 {
     Console.WriteLine();
     Console.WriteLine($"Caricate {itemCatReplacements.Count} traduzioni da '{Path.GetFileName(itemCatJsonPath)}'.");
-    var luminaItemCat = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var luminaItemCat = getGameData();
     var originalItemCatExd = luminaItemCat.GetFile("exd/itemuicategory_0_en.exd");
     if (originalItemCatExd != null)
     {
@@ -575,7 +588,7 @@ if (weatherReplacements.Count > 0 && Directory.Exists(sqPackPath))
 {
     Console.WriteLine();
     Console.WriteLine($"Caricate {weatherReplacements.Count} traduzioni da '{Path.GetFileName(weatherJsonPath)}'.");
-    var luminaWeather = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var luminaWeather = getGameData();
     var originalWeatherExd = luminaWeather.GetFile("exd/weather_0_en.exd");
     if (originalWeatherExd != null)
     {
@@ -598,7 +611,7 @@ if (howToReplacements.Count > 0 && Directory.Exists(sqPackPath))
 {
     Console.WriteLine();
     Console.WriteLine($"Caricate {howToReplacements.Count} traduzioni da '{Path.GetFileName(howToJsonPath)}'.");
-    var luminaHowTo = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var luminaHowTo = getGameData();
     var originalHowToExd = luminaHowTo.GetFile("exd/howto_0_en.exd");
     if (originalHowToExd != null)
     {
@@ -617,7 +630,7 @@ if (howToReplacements.Count > 0 && Directory.Exists(sqPackPath))
 string textCmdJsonPath = TranslationPathResolver.FindFile(translationsDir, "textcommand");
 if (Directory.Exists(sqPackPath))
 {
-    var luminaTextCmd = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var luminaTextCmd = getGameData();
     var textCmdExh = luminaTextCmd.GetFile("exd/textcommand.exh");
     if (textCmdExh != null)
     {
@@ -665,7 +678,7 @@ if (logMessageReplacements.Count > 0 && Directory.Exists(sqPackPath))
 {
     Console.WriteLine();
     Console.WriteLine($"Caricate {logMessageReplacements.Count} traduzioni da '{Path.GetFileName(logMessageJsonPath)}'.");
-    var luminaLogMessage = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var luminaLogMessage = getGameData();
     var originalLogMessageExd = luminaLogMessage.GetFile("exd/logmessage_0_en.exd");
     if (originalLogMessageExd != null)
     {
@@ -688,7 +701,7 @@ if (traitReplacements.Count > 0 && Directory.Exists(sqPackPath))
 {
     Console.WriteLine();
     Console.WriteLine($"Caricate {traitReplacements.Count} traduzioni da '{Path.GetFileName(traitJsonPath)}'.");
-    var luminaTrait = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var luminaTrait = getGameData();
     var originalTraitExd = luminaTrait.GetFile("exd/trait_0_en.exd");
     if (originalTraitExd != null)
     {
@@ -710,7 +723,7 @@ if (actionTransientReplacements.Count > 0 && Directory.Exists(sqPackPath))
 {
     Console.WriteLine();
     Console.WriteLine($"Caricate {actionTransientReplacements.Count} traduzioni da '{Path.GetFileName(actionTransientJsonPath)}'.");
-    var luminaActionTransient = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var luminaActionTransient = getGameData();
     var originalActionTransientExd = luminaActionTransient.GetFile("exd/actiontransient_0_en.exd");
     if (originalActionTransientExd != null)
     {
@@ -732,7 +745,7 @@ if (traitTransientReplacements.Count > 0 && Directory.Exists(sqPackPath))
 {
     Console.WriteLine();
     Console.WriteLine($"Caricate {traitTransientReplacements.Count} traduzioni da '{Path.GetFileName(traitTransientJsonPath)}'.");
-    var luminaTraitTrans = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var luminaTraitTrans = getGameData();
     var originalTraitTransExd = luminaTraitTrans.GetFile("exd/traittransient_0_en.exd");
     if (originalTraitTransExd != null)
     {
@@ -754,7 +767,7 @@ if (titleReplacements.Count > 0 && Directory.Exists(sqPackPath))
 {
     Console.WriteLine();
     Console.WriteLine($"Caricate {titleReplacements.Count} traduzioni da '{Path.GetFileName(titleJsonPath)}'.");
-    var luminaTitle = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var luminaTitle = getGameData();
     var originalTitleExd = luminaTitle.GetFile("exd/title_0_en.exd");
     if (originalTitleExd != null)
     {
@@ -777,7 +790,7 @@ if (customTalkReplacements.Count > 0 && Directory.Exists(sqPackPath))
 {
     Console.WriteLine();
     Console.WriteLine($"Caricate {customTalkReplacements.Count} traduzioni da '{Path.GetFileName(customTalkJsonPath)}'.");
-    var luminaCustomTalk = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var luminaCustomTalk = getGameData();
     var originalCustomTalkExd = luminaCustomTalk.GetFile("exd/customtalk_720896_en.exd");
     if (originalCustomTalkExd != null)
     {
@@ -801,7 +814,7 @@ if (statusReplacements.Count > 0 && Directory.Exists(sqPackPath))
 {
     Console.WriteLine();
     Console.WriteLine($"Caricate {statusReplacements.Count} traduzioni da '{Path.GetFileName(statusJsonPath)}'.");
-    var luminaStatus = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var luminaStatus = getGameData();
     var originalStatusExd = luminaStatus.GetFile("exd/status_0_en.exd");
     if (originalStatusExd != null)
     {
@@ -824,7 +837,7 @@ if (fateReplacements.Count > 0 && Directory.Exists(sqPackPath))
 {
     Console.WriteLine();
     Console.WriteLine($"Caricate {fateReplacements.Count} traduzioni da '{Path.GetFileName(fateJsonPath)}'.");
-    var luminaFate = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var luminaFate = getGameData();
     var originalFateExd = luminaFate.GetFile("exd/fate_0_en.exd");
     if (originalFateExd != null)
     {
@@ -847,7 +860,7 @@ if (achievementReplacements.Count > 0 && Directory.Exists(sqPackPath))
 {
     Console.WriteLine();
     Console.WriteLine($"Caricate {achievementReplacements.Count} traduzioni da '{Path.GetFileName(achievementJsonPath)}'.");
-    var luminaAchievement = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var luminaAchievement = getGameData();
     var originalAchievementExd = luminaAchievement.GetFile("exd/achievement_0_en.exd");
     if (originalAchievementExd != null)
     {
@@ -869,7 +882,7 @@ var questFiles = TranslationPathResolver.GetCorpusFiles(translationsDir)
         path.Contains($"{Path.DirectorySeparatorChar}quests{Path.DirectorySeparatorChar}"));
 if (Directory.Exists(sqPackPath))
 {
-    var luminaQuest = new GameData(sqPackPath, new LuminaOptions { DefaultExcelLanguage = Language.English });
+    var luminaQuest = getGameData();
     int patchedQuests = 0;
 
     foreach (var qFile in questFiles)

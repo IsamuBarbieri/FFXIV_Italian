@@ -51,7 +51,7 @@ public static class GlossaryAudit
                     source.Name == "name" && (original == "Dungeon" || original == "Raid")) continue;
                 if (Path.GetFileName(filePath).Equals("achievement.json", StringComparison.OrdinalIgnoreCase) &&
                     source.Name == "name") continue; // Achievement titles are proper names.
-                var result = engine.ValidateTranslation(original, translated);
+                var result = engine.ValidateTranslation(original, translated, filePath);
                 foreach (var warning in result.Warnings)
                     findings.Add(new GlossaryFinding(row.Name, targetName, original, translated, warning));
             }

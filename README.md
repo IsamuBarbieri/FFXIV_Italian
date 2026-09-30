@@ -1,216 +1,90 @@
-# FFXIV Italiano: Suite di Localizzazione Professionale
+# Final Fantasy XIV Italiano
 
-Pipeline ingegneristica e suite di strumenti per la localizzazione italiana professionale di **Final Fantasy XIV**, basata sul caricatore mod a runtime **Penumbra** (plugin di Dalamud).
+Progetto fan-made per tradurre in italiano i testi di Final Fantasy XIV e creare un mod installabile con Penumbra. L'estrattore legge i dati dall'installazione locale del gioco; il patcher genera file EXD e il pacchetto Penumbra senza modificare gli archivi originali.
 
-Il progetto estrae, organizza, traduce e ricompila testi EXD del gioco. Il corpus attuale comprende 590.561 righe in 5.934 JSON, tra cui 5.532 quest, senza modificare i file originali `.dat` di Square Enix.
+## Stato del progetto
 
-La localizzazione comprende anche alcune texture dell'interfaccia: le scritte incorporate nelle immagini vengono adattate in italiano per rendere coerenti elementi visivi e testi di gioco. Le risorse sono organizzate in `data/assets/` e distribuite tramite Penumbra insieme alla mod.
+Fotografia del corpus al 29 settembre 2026. Per i valori aggiornati usa il comando `status`.
 
----
+| Indicatore | Valore |
+| --- | ---: |
+| Righe nel corpus | 590.561 |
+| Righe complete secondo l'estrattore | 101.294 (17,2%) |
+| Righe ancora pendenti | 489.267 |
+| File JSON da tradurre | 5.886 |
+| File in revisione | 0 |
+| File approvati | 48 |
+| File delle quest narrative | 5.532 |
 
-## Stato del Progetto
+Una riga è completa quando tutti i campi testuali previsti hanno una traduzione. Lo stato editoriale è distinto dalla copertura: solo i file approvati vengono compilati dal patcher.
 
-- **Righe Totali Censite ed Estratte**: **590.561 righe**
-- **Righe con almeno una traduzione**: **50.643** (il dato non misura i singoli campi)
-- **Stato dei file**: **5.886 da tradurre**, **0 da revisionare**, **48 approvati** nel glossario.
-- **Quest Narrative Organizzate per Espansione**: **5.532 missioni** (ARR, Heavensward, Stormblood, Shadowbringers, Endwalker, Dawntrail)
-- **Fogli con traduzioni presenti** (la copertura per riga non certifica la revisione né la completezza di ogni campo):
-  - `addon.json` (14.976/14.976 - 100%): Interfaccia grafica completa, finestre di sistema, HUD, opzioni, indicatori e notifiche di gioco.
-  - `placename.json` (5.302/5.302 - 100%): Toponimi completi, regioni, aree, insediamenti e landmark del mondo di gioco.
-  - `status.json` (4.791/4.791 - 100%): Tutti gli status alterati, buff, debuff e descrizioni degli effetti di combattimento.
-  - `achievement.json` (4.003/4.003 - 100%): Tutti i nomi, descrizioni e requisiti degli obiettivi e trofei del personaggio.
-  - `actiontransient.json` (3.406/3.406 - 100%): Tutte le descrizioni dettagliate, effetti e parametri nei tooltip delle abilità.
-  - `fate.json` (1.714/1.714 - 100%): Tutti i nomi, le descrizioni e gli obiettivi degli eventi F.A.T.E.; tradotti anche i testi incorporati nei payload SeString esadecimali, preservandone la struttura.
-  - `lobby.json` (975/975 - 100%): Schermata del titolo, login, selezione e creazione personaggio, opzioni client, gestione server e data center.
-  - `customtalk.json` (952/952 - 100%): Tutte le opzioni e prompt di interazione dei menu NPC (dialoghi brevi, opzioni servitori, chocobo, scambi, ecc.; script ID preservati intatti).
-  - `title.json` (885/885 - 100%): Tutti i titoli onorifici dei personaggi giocanti (declinati sia al maschile che al femminile).
-  - `trait.json` (682/682 - 100%): Tutti i nomi dei tratti passivi di classe e job di combattimento, gathering e crafting.
-  - `traittransient.json` (682/682 - 100%): Tutte le descrizioni e i tooltip dettagliati dei tratti passivi.
-  - `textcommand.json` (543/543 - 100%): Tutti i comandi chat slash e guide all'uso (comandi originali preservati per piena compatibilità con macro e guide esterne).
-  - `howto.json` (262/262 - 100%): Tutte le guide e finestre tutorial di aiuto per principianti.
-  - `weather.json` (209/209 - 100%): Tutte le condizioni meteorologiche di Eorzea e dei mondi di gioco.
-  - `itemuicategory.json` (113/113 - 100%): Tutte le categorie dell'inventario e dell'armeria.
-  - `maincommand.json` (99/99 - 100%): Menu comandi principali di gioco.
-  - `error.json` (63/63 - 100%): Messaggi di errore di sistema e connettività.
-  - `logmessage.json` (8.615/8.615 - 100%): Messaggi di sistema, notifiche e log di gioco.
-  - `classjob.json` (44/44 - 100%): Tutte le classi e i job di combattimento, gathering e crafting.
-  - `howtocategory.json` (16/16 - 100%): Categorie delle guide e dei tutorial.
-  - `tribe.json` (16/16 - 100%): Tutti i clan e tribù dei personaggi.
-  - `race.json` (8/8 - 100%): Tutte le razze giocabili di Eorzea.
-  - `maincommandcategory.json` (7/7 - 100%): Categorie del menu principale.
-- **Gradi delle Grandi Compagnie**: completate le descrizioni maschili e femminili dei 19 gradi per ciascuna compagnia (`gcrankgridania*`, `gcranklimsa*`, `gcrankuldah*`).
-- **Infrastruttura**:
-  - Cartelle per stato editoriale e categoria (`da_tradurre`, `da_revisionare`; i file approvati restano nelle categorie originali).
-  - Suite script Python per partizionamento, validazione SeString 1:1 e reintegrazione atomica (`scripts/`).
-  - Pipeline di traduzione modulare a batch (`status`, `export-batch`, `import-batch`, `autofill`).
-  - Patcher binario con hot-deploy istantaneo nella cartella Penumbra attiva (22 file binari EXD registrati in `meta.json` e `default_mod.json`).
+## Come lavoriamo sulle traduzioni
 
----
+Il responsabile fornisce uno o più file e, quando serve, file di riferimento per l'allineamento. Le traduzioni vengono prodotte e controllate caso per caso, passano nel validatore automatico, ricevono una revisione visiva e vengono corrette in base al feedback. Le scelte ricorrenti confermate si registrano nel glossario.
 
-## Stato editoriale dei file
+Il validatore controlla vincoli tecnici e coerenza terminologica; non sostituisce il controllo linguistico o l'approvazione umana. Vedi [il workflow di traduzione](docs/TRANSLATION_WORKFLOW.md) e [AI_USAGE.md](AI_USAGE.md).
+
+### Stati editoriali
+
+| Percorso | Stato |
+| --- | --- |
+| `data/da_tradurre/<categoria>/` | Senza traduzione italiana. |
+| `data/da_revisionare/<categoria>/` | Traduzioni presenti, in attesa di revisione. |
+| `data/translations/<categoria>/` | File approvati e inclusi nel build della mod. |
+
+Le categorie sono `activities`, `combat`, `crafting`, `dialogue`, `housing`, `items`, `minigames`, `quests`, `shops`, `social`, `system` e `world`. Le quest narrative sono suddivise per espansione e cartella numerica. Dopo nuove estrazioni o importazioni, esegui `python tools/organize_sheets.py` per riallineare gli stati e le categorie.
+
+## Struttura del repository
 
 | Percorso | Contenuto |
 | --- | --- |
-| `data/da_tradurre/<categoria>/` | Fogli senza traduzioni; le quest narrative sono divise per espansione e numero. |
-| `data/da_revisionare/<categoria>/` | Fogli con almeno una traduzione, anche se altre righe o colonne sono ancora in inglese. |
-| `data/translations/<categoria>/` | I file revisionati e approvati elencati nella sezione **File approvati** del [glossario](data/glossary/Glossary.md); questi percorsi sono usati dal patcher in fase di build. |
+| `data/` | Corpus JSON, glossario e risorse localizzate. |
+| `src/FFXIVItalian.Core` | Modelli, percorsi, glossario e gestione SeString. |
+| `src/FFXIVItalian.Extractor` | Estrazione, stato, ricerca e flussi di traduzione a batch. |
+| `src/FFXIVItalian.DiffTool` | Confronto delle versioni del gioco. |
+| `src/FFXIVItalian.Patcher` | Compilazione EXD e generazione/deploy Penumbra. |
+| `tools/` e `scripts/` | Strumenti operativi e validatori. |
+| `tests/` | Test C# e Python. |
+| `docs/` | Architettura, traduzione, terminologia e verifiche. |
+| `tools/README.md` | Uso dei generatori e delle utility per texture. |
+| `rebuild.bat` e `rebuild.ps1` | Avvio rapido del rebuild della mod. |
+| `FFXIV_Italian.pmp` | Pacchetto Penumbra versionato nel repository. |
 
-Le categorie comprendono `activities`, `combat`, `crafting`, `dialogue`, `housing`, `items`, `minigames`, `quests`, `shops`, `social`, `system` e `world`. Dopo un'importazione o una nuova estrazione, eseguire `python tools/organize_sheets.py` per aggiornare la posizione dei file. L'approvazione editoriale richiede una revisione e l'aggiunta del file al glossario. Il patcher compila i fogli con gestori dedicati e quelli standard configurati in `src/FFXIVItalian.Patcher/Program.cs`, leggendo i JSON approvati dalle rispettive cartelle di categoria.
+Per la mappa completa consulta [l'indice dei documenti](docs/README.md).
 
-Dei 358 fogli nel catalogo precedente, 354 hanno prodotto JSON con testo inglese. I quattro ancora elencati nel [catalogo corrente](docs/UNEXTRACTED_SHEETS_CATALOG.txt) non contengono righe inglesi nel client attuale.
+## Comandi principali
 
----
+Prerequisiti: .NET 10 SDK, installazione locale di FFXIV e Penumbra configurato in Dalamud.
 
-## Architettura del Repository
-
-```
-FFXIV_Italian/
-├── data/
-│   ├── batches/                   # File batch temporanei per traduzioni (export/import)
-│   ├── da_tradurre/               # Nessuna traduzione; categorie e quest per espansione
-│   ├── da_revisionare/            # Almeno una traduzione, senza approvazione editoriale
-│   ├── glossary/                  # Glossary.md (termini dai file approvati)
-│   └── translations/              # Corpus JSON
-│       ├── combat/                # Fogli di combattimento approvati
-│       ├── items/                 # Fogli oggetti approvati
-│       ├── social/                # Fogli social approvati
-│       ├── system/                # Fogli di sistema approvati
-│       └── world/                 # Fogli del mondo approvati
-├── docs/
-│   ├── ARCHITECTURE.md            # Architettura software, formati file e ciclo di vita patch
-│   ├── BATCH_TRANSLATION_GUIDE.md # Guida pratica alla traduzione a batch con AI o manuale
-│   ├── PROMPT_COMPACT.md          # Prompt condensato ultra-ottimizzato per token saving
-│   ├── STYLE_GUIDE.md             # Guida di stile linguistico, registri dei comprimari e formattazione
-│   ├── TRANSLATION_PROMPT.md      # Metaprompt di sistema per LLM per preservare tag SeString
-│   └── WORKFLOW_ANTIGRAVITY.md    # Protocollo operativo interno per sessioni con agente AI
-├── scripts/
-│   ├── split_untranslated.py      # Partizionamento file master in lotti compatti per subagenti
-│   └── apply_all_translations.py  # Validazione SeString 1:1 rigorosa e reintegrazione atomica
-├── src/
-│   ├── FFXIVItalian.Core/         # Risolutore percorsi, modelli dati, validatore SeString e glossario
-│   ├── FFXIVItalian.Extractor/    # Estrattore Lumina 7.x, cruscotto avanzamento, batch manager
-│   ├── FFXIVItalian.DiffTool/     # Comparatore delta patch per aggiornamenti di gioco
-│   └── FFXIVItalian.Patcher/      # Compilatore binario EXD, generatore .pmp e deployer Penumbra
-├── tests/
-│   └── FFXIVItalian.Tests/        # Test xUnit: SeString, batch, percorsi, ecc.
-├── rebuild.bat                    # Script one-click per ricompilare il modpack
-└── rebuild.ps1                    # Script PowerShell one-click per ricompilare il modpack
-```
-
----
-
-## Prerequisiti
-
-1. [.NET 10 SDK](https://dotnet.microsoft.com/download)
-2. Installazione locale di **Final Fantasy XIV** (es. `G:\SquareEnix\FINAL FANTASY XIV - A Realm Reborn`)
-3. [XIVLauncher](https://goatcorp.github.io/) con il plugin **Penumbra** configurato in Dalamud.
-
----
-
-## Guida Operativa ai Comandi
-
-### 1. Cruscotto di Avanzamento (`status`)
-Mostra in tempo reale lo stato di tutti i fogli di gioco divisi per categoria, con il conteggio di righe tradotte, pendenti e percentuale:
 ```powershell
+# Avanzamento corrente
 dotnet run --project src/FFXIVItalian.Extractor -- status
-```
 
-### 2. Workflow di Traduzione a Batch
+# Validare il corpus approvato
+dotnet run --project src/FFXIVItalian.Extractor -- validate
 
-Per tradurre senza sprecare token e con la massima precisione:
+# Controllare un file in revisione
+dotnet run --project src/FFXIVItalian.Extractor -- validate --review data/da_revisionare/<categoria>/<file>.json
 
-1. **Esportare un lotto di righe non tradotte**:
-   ```powershell
-   # Esporta fino a 100 righe pendenti dal foglio balloon
-   dotnet run --project src/FFXIVItalian.Extractor -- export-batch balloon --size 100
-   ```
-2. **Tradurre il file generato in `data/batches/`**:
-   - Utilizzare le istruzioni di [docs/PROMPT_COMPACT.md](docs/PROMPT_COMPACT.md) (o [docs/TRANSLATION_PROMPT.md](docs/TRANSLATION_PROMPT.md)) e il canone di [docs/STYLE_GUIDE.md](docs/STYLE_GUIDE.md).
-   - Preservare i codici di controllo e i tag SeString. Se un tag `<hex:...>` contiene testo inglese visibile, tradurlo e ricodificare le lunghezze del payload come descritto in `docs/TRANSLATION_PROMPT.md`.
-3. **Importare il batch tradotto nel foglio master**:
-   ```powershell
-   dotnet run --project src/FFXIVItalian.Extractor -- import-batch balloon data/batches/balloon_batch_XXXXX.json
-   ```
-4. **Propagare traduzioni identiche (`autofill`)**:
-   ```powershell
-   dotnet run --project src/FFXIVItalian.Extractor -- autofill all
-   ```
+# Traduzione batch alternativa
+dotnet run --project src/FFXIVItalian.Extractor -- export-batch <foglio> --size 50
+dotnet run --project src/FFXIVItalian.Extractor -- import-batch <foglio> data/batches/<batch>.json
+dotnet run --project src/FFXIVItalian.Extractor -- autofill <foglio|all>
 
-Per la guida operativa consulta [docs/WORKFLOW_ANTIGRAVITY.md](docs/WORKFLOW_ANTIGRAVITY.md) e [docs/BATCH_TRANSLATION_GUIDE.md](docs/BATCH_TRANSLATION_GUIDE.md).
-
----
-
-### 3. Ricompilazione e Applicazione della Mod nel Gioco
-
-Per compilare i fogli EXD tradotti, generare il pacchetto Penumbra `.pmp` e aggiornare istantaneamente la cartella mod attiva:
-
-```powershell
-# Tramite script veloce
-.\rebuild.bat
-
-# Oppure tramite CLI
-dotnet run --project src/FFXIVItalian.Patcher
-```
-
-> [!NOTE]
-> Il patcher rileva automaticamente il percorso attivo della cartella Penumbra (es. `G:\SquareEnix\FFXIV_Mod\FFXIV Italiano (Test In-Game)`) e copia direttamente i file EXD rigenerati, aggiornando anche `meta.json` e `default_mod.json`.
->
-> Inoltre, verifica e garantisce che l'opzione Dalamud `IsResumeGameAfterPluginLoad` sia abilitata in `dalamudConfig.json`, prevenendo il caricamento anticipato di schermate o font non tradotti.
-
----
-
-### 4. Estrazione ed Ispezione Dati
-
-```powershell
-# Ispezionare la struttura di colonne di un qualsiasi foglio EXD originale
-dotnet run --project src/FFXIVItalian.Extractor -- inspect Addon
-
-# Estrarre un singolo foglio (o aggiornarlo dai file di gioco)
-dotnet run --project src/FFXIVItalian.Extractor -- extract addon
-
-# Estrarre tutte le 5.532 quest narrative divise per espansione
-dotnet run --project src/FFXIVItalian.Extractor -- extract-quests
-
-# Rigenerare il catalogo dopo una patch del client
-dotnet run --project src/FFXIVItalian.Extractor -- discover | Set-Content -Encoding utf8 docs/UNEXTRACTED_SHEETS_CATALOG.txt
-
-# Estrarre i fogli ancora elencati nel catalogo
-dotnet run --project src/FFXIVItalian.Extractor -- extract-catalog
-
-# Aggiornare cartelle di stato e categoria dopo traduzioni o estrazioni
-python tools/organize_sheets.py
-
-```
-
----
-
-### 5. Suite di Test
-
-Esegui tutti i test automatici per verificare la tenuta dei percorsi, del motore a batch, dei tag SeString e del glossario:
-```powershell
+# Test e rebuild del mod
 dotnet test
+python -m unittest discover -s tests
+.\rebuild.bat
 ```
 
----
+In alternativa, genera o applica la mod con `dotnet run --project src/FFXIVItalian.Patcher`. Le build del patcher usano i file approvati; non modificano i file originali di FFXIV.
 
-## Filosofia e Regole di Traduzione
+## Documentazione e contributi
 
-1. **Integrità Tecnica Assoluta**:
-   - Nessun codice di controllo SeString (`<Sheet(...)>`, `<Highlight>`, ecc.) o carattere speciale Unicode (`\uE051`, `\uE052`, `\u203B`) deve essere rimosso o alterato. Il testo leggibile nei payload `<hex:...>` si traduce aggiornando le lunghezze e verificando la struttura.
-2. **Terminologia approvata**:
-   - Consulta `data/glossary/Glossary.md`; ogni voce rimanda a una riga revisionata e le varianti hanno una nota d’uso.
-   - `dotnet run --project src/FFXIVItalian.Extractor -- validate --review` segnala possibili incoerenze nei file completi non ancora approvati; aggiungi un percorso per controllare un solo file.
-   - Per raccogliere nuovi termini dai file approvati, cercare le occorrenze nel corpus e revisionare le frasi in una chat di coding, segui [docs/TERMINOLOGY_REVIEW.md](docs/TERMINOLOGY_REVIEW.md).
-3. **Concordanza di Genere e Profilazione Vocale**:
-   - Ove possibile, si utilizzano forme inclusive o macro native di genere FFXIV.
-   - Ogni comprimario (Urianger, Thancred, Alphinaud, Y'shtola, Tataru, Estinien, Emet-Selch) segue il registro linguistico documentato nella guida di stile.
+- [Guida di stile](docs/STYLE_GUIDE.md)
+- [Prompt tecnico per le traduzioni](docs/TRANSLATION_PROMPT.md)
+- [Glossario approvato](data/glossary/Glossary.md)
+- [Architettura](docs/ARCHITECTURE.md)
+- [Come contribuire](CONTRIBUTING.md)
 
----
-
-## Come Contribuire
-Se volete partecipare a questo ambizioso progetto potete farlo in varie maniere. Potete revisionare le traduzioni se trovate incongruenze o frasi sbagliate, convertire voi stessi pezzi mancanti con l'AI, oppure potete fare una [donazione](https://ko-fi.com/xeladon) per aiutarmi a sostenere i costi di traduzione. Qualsiasi forma di supporto é bena accetta, anche solo far conoscere il progetto a piú persone possibili. 
-Grazie.
-
-## Licenza e Diritti
-Questo progetto è un'iniziativa fan-made amatoriale della community italiana. Final Fantasy XIV e tutti i relativi asset, marchi e testi sono proprietà intellettuale e copyright di **SQUARE ENIX CO., LTD.**
-Il repository include anche il pacchetto `.pmp` generato; Final Fantasy XIV e gli asset originali restano di SQUARE ENIX CO., LTD.
+Final Fantasy XIV, i suoi testi e i relativi asset appartengono a Square Enix. Questo progetto è una localizzazione fan-made, non ufficiale e non affiliata a Square Enix.

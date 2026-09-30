@@ -501,7 +501,7 @@ ESEMPI:
         }
 
         // 2. Check Glossary Compliance
-        var glResult = engine.ValidateTranslation(orig, trans);
+        var glResult = engine.ValidateTranslation(orig, trans, file);
         foreach (var pro in glResult.ProhibitedUsages)
         {
             issues++;

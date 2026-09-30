@@ -6,5 +6,5 @@ Write-Host "==================================================" -ForegroundColor
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 Set-Location $scriptDir
 
-dotnet run --project src/FFXIVItalian.Patcher
+dotnet run --configuration Release --project src/FFXIVItalian.Patcher
 

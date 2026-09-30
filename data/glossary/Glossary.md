@@ -118,10 +118,12 @@ Per i **nomi di incantesimi e gli aspetti elementali combat**, usare le radici c
 | Return | Ritorna | `system/addon.json#1460:original` | Comando di ritorno. |
 | Return | Indietro | `system/lobby.json#507:original` | Navigazione alla schermata precedente. |
 | Return | Rientro | `system/maincommand.json#36:name` | Etichetta nominale contestuale. |
+| Return | Ritorno | `combat/status.json#2452:name` | Nome dello status; distinto dai comandi di ritorno. |
 | Exit | Esci | `system/addon.json#2849:original` | Azione. |
 | Exit | Uscita | `world/placename.json#528:name` | Etichetta nominale. |
 | Duty | Incarichi | `system/maincommandcategory.json#2:original` | Categoria del menu; plurale di Incarico. |
 | Duty | Incarico | `system/addon.json#2225:original` | Attività singola. Distinta dalle missioni delle quest. |
+| Saga of Dawn and Duty | Saga dell'Alba e del Dovere | `combat/action.json#37193:original` | Nome di un attacco; «duty» è dovere, non Incarico. |
 | Duties | Incarichi | `system/addon.json#15793:original` | Plurale del termine di gioco. |
 | Duty Finder | Ricerca Incarichi | `system/maincommand.json#33:name` | Nome della funzione. |
 | Duty Recorder | Registratore Incarichi | `system/maincommand.json#76:name` | Nome della funzione. |
@@ -198,6 +200,7 @@ Per i **nomi di incantesimi e gli aspetti elementali combat**, usare le radici c
 | Lord of Verminion | Lord of Verminion | `system/addon.json#9550:original` | Nome invariato del minigioco. |
 | Gold Saucer | Gold Saucer | `system/addon.json#8612:original` | Nome invariato della destinazione. |
 | The Gold Saucer | Gold Saucer | `world/placename.json#1484:name` | Nome della destinazione; variante ammessa in prosa: «Gold Saucer». |
+| The Gold Saucer | Il Gold Saucer | `world/placename.json#1484:name` | Forma autonoma del toponimo. |
 | Leap of Faith | Salto della Fede | `system/addon.json#8475:original` | GATE del Gold Saucer. |
 | The Hunt | La Caccia | `system/addon.json#838:original` | Nome della funzione di gioco; prefisso di un titolo composto da ignorare; distinguere dall'uso comune di hunt; varianti ammesse in prosa: «la caccia». |
 | Treasure Hunt | Caccia al Tesoro | `system/addon.json#2276:original` | Modalità di gioco; distinguere dall'uso comune; varianti ammesse in prosa: «Caccia al tesoro», «caccia al tesoro». |
@@ -208,6 +211,20 @@ Per i **nomi di incantesimi e gli aspetti elementali combat**, usare le radici c
 | Battle | Combattimento | `system/howtocategory.json#4:original` | Categoria tutorial. |
 | Crafting | Artigianato | `system/howtocategory.json#12:original` | Categoria tutorial. |
 | Crafting | Creazione | `system/addon.json#13233:original` | Etichetta contestuale in addon. |
+| Overview | Panoramica | `system/descriptionstring.json#122:original` | Titolo di una sezione informativa. |
+| Qty. | Qtà | `system/addon.json#618:original` | Abbreviazione dell'etichetta «Quantity». |
+| Collectability | Collezionabilità | `system/addon.json#1056:original` | Statistica usata nel sistema di raccolta. |
+| Default | Predefinito | `system/addon.json#1217:original` | Valore predefinito nelle opzioni. |
+| Category | Categoria | `system/addon.json#612:original` | Etichetta di categoria nell'interfaccia. |
+| Requirements | Requisiti | `system/addon.json#992:original` | Titolo di una sezione informativa. |
+| Rewards | Ricompense | `system/descriptionstring.json#582:original` | Titolo di una sezione informativa. |
+| Leave | Abbandona | `system/addon.json#2508:original` | Comando per lasciare un gruppo o un'attività. |
+| Proceed | Procedi | `system/addon.json#924:original` | Comando o pulsante di conferma. |
+| Remove | Rimuovi | `system/addon.json#85:original` | Comando per rimuovere un elemento. |
+| Edit | Modifica | `system/addon.json#442:original` | Comando per modificare un elemento. |
+| Class/Job | Classe/Job | `system/addon.json#315:original` | Etichetta d'interfaccia; mantenere «Job» secondo la voce canonica. |
+| Healer | Curatore | `system/addon.json#1083:original` | Ruolo di classe; in prosa usare «curatore» e «curatori». |
+| Normal | Normale | `combat/status.json#2204:name` | Stato o opzione; accordare in base al sostantivo in contesto. |
 
 ### Sistemi e funzioni ricorrenti
 
@@ -277,6 +294,7 @@ Per i **nomi di incantesimi e gli aspetti elementali combat**, usare le radici c
 | Sanctuary Crafting Log | Registro di Fabbricazione del Rifugio Insulare | `system/addon.json#14259:original` | Nome del registro di fabbricazione del Rifugio Insulare; variante in prosa: «registro di fabbricazione del Rifugio Insulare». |
 | Sanctuary Gathering Log | Registro di Raccolta del Rifugio Insulare | `system/addon.json#14260:original` | Nome del registro di raccolta del Rifugio Insulare; varianti ammesse in prosa: «registro di raccolta del Rifugio Insulare». |
 | Currency | Valute | `system/maincommand.json#66:name` | Nome del menu; altre etichette usano il singolare «Valuta». |
+| Currency | Valuta | `items/itemuicategory.json#100:original` | Forma singolare usata nelle etichette. |
 
 ### Termini di gioco
 
@@ -305,6 +323,17 @@ Per i **nomi di incantesimi e gli aspetti elementali combat**, usare le radici c
 | Mount | Monta | `system/addon.json#4964:original` | Azione contestuale. |
 | Mount | Pilota | `system/addon.json#11382:original` | Azione contestuale. |
 | Weaponskills | Tecniche | `system/addon.json#14484:original` | Categoria di azione; singolare: «tecnica». |
+| Byregot's Strike | Colpo di Byregot | `combat/action.json#29029:original` | Nome di un'azione; «strike» qui significa colpo, non sciopero. |
+| Byregot's Strike | Il Colpo di Byregot | `world/placename.json#324:name` | Forma autonoma del toponimo. |
+| Air Raid | Incursione Aerea | `combat/action.json#6602:original` | Nome di un'azione; «raid» qui è reso come «incursione». |
+| Formation: Air Raid | Formazione: Incursione Aerea | `combat/action.json#20400:original` | Nome di un'azione. |
+| Call Strategic Raid | Chiama Incursione Strategica | `combat/action.json#24578:original` | Nome di un'azione. |
+| Hair Raid | Incursione dei Capelli | `combat/action.json#30076:original` | Nome di un'azione; stessa resa per le varianti dello stesso nome. |
+| Morrowmotes | Soffio d'Aurora | `combat/action.json#4026:original` | Nome di un'azione. |
+| Morrowmotes | Soffio d'Aurora | `world/placename.json#2156:name` | Nome di luogo; stessa resa del nome dell'azione. |
+| Dungeon Siege | Assedio Sotterraneo | `world/achievement.json#742:name` | Nome della serie di obiettivi; mantiene il numero romano. |
+| Dungeon Master | Signore del Sotterraneo | `world/achievement.json#746:name` | Nome di un obiettivo. |
+| Dungeon Master | Signora del Sotterraneo | `world/title.json#109:description` | Forma femminile del titolo; accordo di genere. |
 | HP | PV | `system/addon.json#232:original` | Sigla conservata in un'etichetta. |
 | MP | PM | `system/addon.json#233:original` | Sigla conservata in un'etichetta. |
 
@@ -359,6 +388,54 @@ Per i **nomi di incantesimi e gli aspetti elementali combat**, usare le radici c
 | Pictomancer | Pittomante | `world/classjob.json#42:name` |  |
 | Beastmaster | Domatore | `world/classjob.json#43:name` |  |
 
+### Sigle delle classi e dei mestieri
+
+| Inglese | Italiano | Fonte | Uso |
+| --- | --- | --- | --- |
+| GLA | GLA | `world/classjobcategory.json#2:original` | Sigla del Gladiatore. |
+| PGL | PGL | `world/classjobcategory.json#3:original` | Sigla del Pugile. |
+| MRD | ICR | `world/classjobcategory.json#4:original` | Sigla dell'Incursore. |
+| LNC | LNC | `world/classjobcategory.json#5:original` | Sigla del Lanciere. |
+| ARC | ARC | `world/classjobcategory.json#6:original` | Sigla dell'Arciere. |
+| CNJ | INC | `world/classjobcategory.json#7:original` | Sigla dell'Incantatore. |
+| THM | TAU | `world/classjobcategory.json#8:original` | Sigla del Taumaturgo. |
+| CRP | FAL | `world/classjobcategory.json#9:original` | Sigla del Falegname. |
+| BSM | FBR | `world/classjobcategory.json#10:original` | Sigla del Fabbro. |
+| ARM | ARM | `world/classjobcategory.json#11:original` | Sigla dell'Armaiolo. |
+| GSM | ORE | `world/classjobcategory.json#12:original` | Sigla dell'Orefice. |
+| LTW | CON | `world/classjobcategory.json#13:original` | Sigla del Conciatore. |
+| WVR | TES | `world/classjobcategory.json#14:original` | Sigla del Tessitore. |
+| ALC | ALC | `world/classjobcategory.json#15:original` | Sigla dell'Alchimista. |
+| CUL | CUO | `world/classjobcategory.json#16:original` | Sigla del Cuoco. |
+| MIN | MIN | `world/classjobcategory.json#17:original` | Sigla del Minatore. |
+| BTN | BOT | `world/classjobcategory.json#18:original` | Sigla del Botanico. |
+| FSH | PES | `world/classjobcategory.json#19:original` | Sigla del Pescatore. |
+| PLD | PLD | `world/classjobcategory.json#20:original` | Sigla del Paladino. |
+| MNK | MNC | `world/classjobcategory.json#21:original` | Sigla del Monaco. |
+| WAR | GUE | `world/classjobcategory.json#22:original` | Sigla del Guerriero. |
+| DRG | DRG | `world/classjobcategory.json#23:original` | Sigla del Dragone. |
+| BRD | BRD | `world/classjobcategory.json#24:original` | Sigla del Bardo. |
+| WHM | MBI | `world/classjobcategory.json#25:original` | Sigla del Mago Bianco. |
+| BLM | MNE | `world/classjobcategory.json#26:original` | Sigla del Mago Nero. |
+| ACN | ACN | `world/classjobcategory.json#27:original` | Sigla dell'Arcanista. |
+| SMN | EVO | `world/classjobcategory.json#28:original` | Sigla dell'Evocatore. |
+| SCH | STU | `world/classjobcategory.json#29:original` | Sigla dello Studioso. |
+| ROG | FUR | `world/classjobcategory.json#91:original` | Sigla del Furfante. |
+| NIN | NIN | `world/classjobcategory.json#92:original` | Sigla del Ninja. |
+| MCH | ART | `world/classjobcategory.json#96:original` | Sigla dell'Artificiere. |
+| DRK | COS | `world/classjobcategory.json#98:original` | Sigla del Cavaliere Oscuro. |
+| AST | AST | `world/classjobcategory.json#99:original` | Sigla dell'Astrologo. |
+| SAM | SAM | `world/classjobcategory.json#111:original` | Sigla del Samurai. |
+| RDM | MRO | `world/classjobcategory.json#112:original` | Sigla del Mago Rosso. |
+| BLU | MBL | `world/classjobcategory.json#129:original` | Sigla del Mago Blu. |
+| GNB | ETE | `world/classjobcategory.json#149:original` | Sigla dell'Eterlama. |
+| DNC | DNZ | `world/classjobcategory.json#150:original` | Sigla del Danzatore. |
+| RPR | MTR | `world/classjobcategory.json#180:original` | Sigla del Mietitore. |
+| SGE | SGO | `world/classjobcategory.json#181:original` | Sigla del Saggio. |
+| VPR | VPR | `world/classjobcategory.json#196:original` | Sigla della Vipera. |
+| PCT | PTM | `world/classjobcategory.json#197:original` | Sigla del Pittomante. |
+| BST | DMT | `world/classjobcategory.json#203:original` | Sigla del Domatore. |
+
 ### Razze e clan
 
 | Inglese | Italiano | Fonte | Uso |
@@ -403,6 +480,7 @@ Catalogo integrale: `data/translations/world/placename.json`. Cercare il nome in
 | Revenant's Toll | Pedaggio del Redivivo | `world/placename.json#411:name` |  |
 | Limsa Lominsa | Limsa Lominsa | `world/placename.json#27:name` |  |
 | Maelstrom | La Tempesta | `world/placename.json#1775:name` | Nome della compagnia; come sostantivo comune, «maelstrom» si traduce «vortice». |
+| Maelstrom | Vortice | `combat/action.json#7127:original` | Uso comune in un nome d'azione; la Compagnia usa «La Tempesta». |
 | Gridania | Gridania | `world/placename.json#39:name` |  |
 | Ul'dah | Ul'dah | `world/placename.json#51:name` |  |
 | Ishgard | Ishgard | `world/placename.json#62:name` |  |
@@ -423,6 +501,7 @@ Catalogo integrale: `data/translations/world/placename.json`. Cercare il nome in
 | Buscarron's Druthers | Il Capriccio di Buscarron | `world/placename.json#119:name` |  |
 | Camp Drybone | Campo Ossasecca | `world/placename.json#300:name` |  |
 | Camp Overlook | Campo Belvedere | `world/placename.json#237:name` |  |
+| Camp Skull Valley | Campo Valle Teschio | `world/placename.json#224:name` | Nome completo della località; distinto da «Skull Valley». |
 | Loading Station | Stazione di Carico | `world/placename.json#2599:name` | Varianti ammesse in prosa: «stazione», «stazioni», «stazioni di carico». |
 | Camp Iron Lake | Campo Lago di Ferro | `world/placename.json#176:name` | Nome completo della località; distinto dal luogo «Iron Lake». |
 | Camp Nine Ivies | Campo Nove Edere | `world/placename.json#74:name` | Nome completo della località; distinto dal luogo «Nine Ivies». |
@@ -442,9 +521,14 @@ Catalogo integrale: `data/translations/world/placename.json`. Cercare il nome in
 | Crystal Tower Striker | Il Martello della Torre di Cristallo | `system/addon.json#9989:original` | Nome completo; non applicare separatamente il termine «Crystal Tower». |
 | Island Sanctuary | Rifugio Insulare | `system/addon.json#1799:original` | Nome dell'area; in prosa usare le minuscole e adattare l'articolo. |
 | The Occult Crescent | Falce Occulta | `world/placename.json#4931:name` | Nome dell'area; variante ammessa in prosa: «Falce Occulta» quando l'articolo è retto da una preposizione. |
+| The Occult Crescent | La Falce Occulta | `system/description.json#3604507:name` | Forma autonoma del nome dell'area. |
 | Treasure Coffer | Forziere | `system/addon.json#17622:original` | In questi messaggi indica il forziere che contiene il tesoro. Varianti ammesse in prosa: «Scrigno del Tesoro». |
+| Treasure Coffer | Scrigno del Tesoro | `system/addon.json#10113:original` | Variante usata come etichetta autonoma. |
 | Residential Area | Zona Residenziale | `system/addon.json#8463:original` | Nome della zona; in prosa usare le minuscole. |
 | Market Wards | quartiere mercantile | `system/addon.json#948:original` | Forma singolare contestuale dopo «alcun». |
+| Market Wards | Rioni del Mercato | `world/placename.json#753:name` | Nome proprio della località; distinto dall'uso comune singolare. |
+| Starward Standings | Spalti delle Stelle | `world/placename.json#2567:name` | Nome della località; la funzione usa «Classifica Stellare». |
+| Abalathia's Spine | La Spina di Abalathia | `world/placename.json#497:name` | Forma autonoma del toponimo; nelle frasi può cadere l'articolo. |
 | Skull Valley | Valleteschio | `world/placename.json#171:name` | Forma canonica applicata a entrambe le occorrenze. |
 | Via Praetoria | Via Praetoria | `world/placename.json#429:name` | Forma canonica applicata a entrambe le occorrenze. |
 | Central Hall | Salone Centrale | `world/placename.json#5484:name` | Forma canonica applicata a entrambe le occorrenze. |
@@ -476,6 +560,7 @@ I nomi delle condizioni sono distinti dalle forme grammaticali usate nelle descr
 | Rain | Pioggia | `world/weather.json#7:name` |  |
 | Showers | Rovesci | `world/weather.json#8:name` |  |
 | Thunder | Tuoni | `world/weather.json#9:name` |  |
+| Thunder | Tuono | `combat/action.json#144:original` | Nome dell'elemento nelle azioni; la condizione meteo usa il plurale «Tuoni». |
 | Thunderstorms | Tempesta di fulmini | `world/weather.json#10:name` |  |
 | Dust Storms | Tempesta di Polvere | `world/weather.json#11:name` |  |
 | Sandstorms | Tempesta di sabbia | `world/weather.json#12:name` |  |

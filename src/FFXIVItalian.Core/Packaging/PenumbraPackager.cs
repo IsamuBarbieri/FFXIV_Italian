@@ -96,8 +96,8 @@ public static class PenumbraPackager
         foreach (var (gamePath, content) in fileContents)
         {
             var fileEntry = archive.CreateEntry(gamePath, CompressionLevel.Optimal);
-            await using var entryStream = fileEntry.Open();
-            await entryStream.WriteAsync(content);
+            using var entryStream = fileEntry.Open();
+            entryStream.Write(content);
         }
     }
 }

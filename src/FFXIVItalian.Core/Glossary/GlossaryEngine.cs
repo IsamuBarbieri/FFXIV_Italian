@@ -44,13 +44,24 @@ public class GlossaryEngine
         }
     }
 
-    public GlossaryComplianceResult ValidateTranslation(string originalEn, string translatedIt)
+    public GlossaryComplianceResult ValidateTranslation(string originalEn, string translatedIt, string? sourceContext = null)
     {
         var result = new GlossaryComplianceResult();
         if (string.IsNullOrWhiteSpace(originalEn) || string.IsNullOrWhiteSpace(translatedIt)) return result;
 
-        if (_placeNames.TryGetValue(originalEn.Trim(), out var place) &&
-            !translatedIt.Trim().Equals(place.Italian, StringComparison.OrdinalIgnoreCase))
+        var approvedExactVariants = _entries
+            .Where(entry => entry.EnglishTerm.Equals(originalEn.Trim(), StringComparison.OrdinalIgnoreCase))
+            .Select(entry => entry.ItalianTerm);
+        var normalizedContext = sourceContext?.Replace('\\', '/');
+        bool isPlaceNameSheet = string.IsNullOrWhiteSpace(sourceContext) ||
+            (normalizedContext is not null &&
+             (normalizedContext.Equals("placename.json", StringComparison.OrdinalIgnoreCase) ||
+              normalizedContext.Equals("world/placename.json", StringComparison.OrdinalIgnoreCase) ||
+              normalizedContext.EndsWith("/world/placename.json", StringComparison.OrdinalIgnoreCase)));
+        // The full place catalog contains common words that are valid action/status names too.
+        if (isPlaceNameSheet && _placeNames.TryGetValue(originalEn.Trim(), out var place) &&
+            !translatedIt.Trim().Equals(place.Italian, StringComparison.OrdinalIgnoreCase) &&
+            !approvedExactVariants.Contains(translatedIt.Trim(), StringComparer.OrdinalIgnoreCase))
             result.Warnings.Add($"Luogo '{originalEn.Trim()}' → {place.Italian} (fonte: {place.Reference}).");
 
         if (ActivityLabels.TryGetValue(originalEn.Trim(), out var activityLabel) &&
@@ -67,8 +78,8 @@ public class GlossaryEngine
                 .Replace("Dungeons of Lyhe Ghiah", "", StringComparison.OrdinalIgnoreCase);
             var targetText = translatedIt.Replace("Trials of the Braves", "", StringComparison.OrdinalIgnoreCase)
                 .Replace("Dungeons of Lyhe Ghiah", "", StringComparison.OrdinalIgnoreCase);
-            if (Regex.IsMatch(sourceText, pattern, RegexOptions.IgnoreCase) &&
-                Regex.IsMatch(targetText, pattern, RegexOptions.IgnoreCase) &&
+            if (Regex.IsMatch(sourceText, pattern) &&
+                Regex.IsMatch(targetText, pattern) &&
                 !originalEn.Trim().Equals(term, StringComparison.OrdinalIgnoreCase))
                 result.Warnings.Add($"Possibile categoria ancora in inglese: '{term}' (verificare nomi propri e comandi).");
         }
@@ -93,16 +104,18 @@ public class GlossaryEngine
                 Regex.IsMatch(translatedIt, pattern, RegexOptions.IgnoreCase))
                 result.Warnings.Add($"Termine inglese ancora presente: '{term}' → {expected} (fonte: {group.First().RuleId}).");
         }
+        var originalOutsideQuotedNames = Regex.Replace(originalEn, "[“‘\\\"].*?[”’\\\"]", "");
+        var translatedOutsideQuotedNames = Regex.Replace(translatedIt, "[“‘\\\"].*?[”’\\\"]", "");
         if (_entries.Any(e => e.EnglishTerm == "Duty" && e.ItalianTerm == "Incarico") &&
             !originalEn.Trim().Equals("Duty", StringComparison.OrdinalIgnoreCase) &&
             !originalEn.Trim().Equals("Duties", StringComparison.OrdinalIgnoreCase) &&
-            Regex.IsMatch(originalEn, @"\bdut(?:y|ies)\b", RegexOptions.IgnoreCase) &&
-            !originalEn.Contains("Duty calls", StringComparison.OrdinalIgnoreCase))
+            Regex.IsMatch(originalOutsideQuotedNames, @"\bdut(?:y|ies)\b", RegexOptions.IgnoreCase) &&
+            !originalOutsideQuotedNames.Contains("Duty calls", StringComparison.OrdinalIgnoreCase))
         {
-            if (Regex.IsMatch(translatedIt, @"\bdut(?:y|ies)\b", RegexOptions.IgnoreCase))
+            if (Regex.IsMatch(translatedOutsideQuotedNames, @"\bdut(?:y|ies)\b", RegexOptions.IgnoreCase))
                 result.Warnings.Add("'Duty' rimane in inglese; usare Incarico/Incarichi per l'attività di gioco.");
             if (!Regex.IsMatch(originalEn, @"\b(?:quests?|missions?|dailies)\b", RegexOptions.IgnoreCase) &&
-                Regex.IsMatch(translatedIt, @"\bmission[ei]\b", RegexOptions.IgnoreCase))
+                Regex.IsMatch(translatedOutsideQuotedNames, @"\bmission[ei]\b", RegexOptions.IgnoreCase))
                 result.Warnings.Add("'Duty' è reso come Missione; usare Incarico/Incarichi per l'attività di gioco.");
         }
         return result;

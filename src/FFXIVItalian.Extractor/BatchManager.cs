@@ -522,7 +522,7 @@ public static class BatchManager
 
         if (engine != null)
         {
-            var glResult = engine.ValidateTranslation(orig, trans);
+            var glResult = engine.ValidateTranslation(orig, trans, file);
             foreach (var pro in glResult.ProhibitedUsages)
             {
                 glossaryWarnings++;
