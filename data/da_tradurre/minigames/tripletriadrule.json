@@ -1,92 +1,92 @@
 {
   "1": {
     "name": "Roulette",
-    "translation_name": "",
+    "translation_name": "Roulette",
     "description": "Rules in play are chosen at random.",
-    "translation_description": ""
+    "translation_description": "Le regole in vigore vengono scelte casualmente."
   },
   "2": {
     "name": "All Open",
-    "translation_name": "",
+    "translation_name": "Tutte Scoperte",
     "description": "Both decks are placed face up.",
-    "translation_description": ""
+    "translation_description": "Entrambi i mazzi vengono disposti scoperti."
   },
   "3": {
     "name": "Three Open",
-    "translation_name": "",
+    "translation_name": "Tre Scoperte",
     "description": "Three cards chosen at random from each deck are played face up.",
-    "translation_description": ""
+    "translation_description": "Tre carte estratte a caso da ciascun mazzo vengono disposte scoperte."
   },
   "4": {
     "name": "Same",
-    "translation_name": "",
+    "translation_name": "Uguale",
     "description": "When a card is played, if two or more of the sides are touching other cards, and the ranks of those sides are identical to those on the sides of the card played, the other cards are flipped.",
-    "translation_description": ""
+    "translation_description": "Quando viene giocata una carta, se almeno due lati toccano altre carte e i loro valori corrispondono a quelli dei lati della carta appena giocata, le carte adiacenti vengono girate."
   },
   "5": {
     "name": "Sudden Death",
-    "translation_name": "",
+    "translation_name": "Morte Improvvisa",
     "description": "If a match ends in a draw, a new deciding match is played with each player using the cards they captured.",
-    "translation_description": ""
+    "translation_description": "Se la partita finisce in parità, si gioca uno spareggio usando le carte catturate da ciascun giocatore."
   },
   "6": {
     "name": "Plus",
-    "translation_name": "",
+    "translation_name": "Somma",
     "description": "When a card is played, if two or more of the sides are touching other cards, and the sum of the ranks on the touching sides are identical to the sums on the other touching sides, the other cards are flipped.",
-    "translation_description": ""
+    "translation_description": "Quando viene giocata una carta, se almeno due lati toccano altre carte e la somma dei valori sui lati a contatto corrisponde, le carte adiacenti vengono girate."
   },
   "7": {
     "name": "Random",
-    "translation_name": "",
+    "translation_name": "Casuale",
     "description": "Decks are chosen at random from each player\u0027s list of claimed cards.",
-    "translation_description": ""
+    "translation_description": "I mazzi vengono scelti casualmente tra le carte ottenute da ciascun giocatore."
   },
   "8": {
     "name": "Order",
-    "translation_name": "",
+    "translation_name": "Ordine",
     "description": "Cards must be played in the order they appear in the deck.",
-    "translation_description": ""
+    "translation_description": "Le carte devono essere giocate nell'ordine in cui compaiono nel mazzo."
   },
   "9": {
     "name": "Chaos",
-    "translation_name": "",
+    "translation_name": "Caos",
     "description": "Cards must be played in a random order determined before the match.",
-    "translation_description": ""
+    "translation_description": "Le carte devono essere giocate in un ordine casuale stabilito prima della partita."
   },
   "10": {
     "name": "Reverse",
-    "translation_name": "",
+    "translation_name": "Inverso",
     "description": "Lower numbers flip higher numbers.",
-    "translation_description": ""
+    "translation_description": "I valori più bassi girano quelli più alti."
   },
   "11": {
     "name": "Fallen Ace",
-    "translation_name": "",
+    "translation_name": "Asso Caduto",
     "description": "A rank 1 side can flip an A. When Reverse is in play, a rank A side will flip a 1.",
-    "translation_description": ""
+    "translation_description": "Un lato di valore 1 può girare un Asso. Con la regola Inverso attiva, un lato Asso può girare un 1."
   },
   "12": {
     "name": "Ascension",
-    "translation_name": "",
+    "translation_name": "Ascensione",
     "description": "A card\u0027s ranks increase in proportion to the number of cards of the same type already played.",
-    "translation_description": ""
+    "translation_description": "I valori di una carta aumentano in base al numero di carte dello stesso tipo già giocate."
   },
   "13": {
     "name": "Descension",
-    "translation_name": "",
+    "translation_name": "Discensione",
     "description": "A card\u0027s ranks decrease in proportion to the number of cards of the same type already played.",
-    "translation_description": ""
+    "translation_description": "I valori di una carta diminuiscono in base al numero di carte dello stesso tipo già giocate."
   },
   "14": {
     "name": "Swap",
-    "translation_name": "",
+    "translation_name": "Scambio",
     "description": "One random card from each player\u0027s deck will be swapped with the other.",
-    "translation_description": ""
+    "translation_description": "Una carta scelta a caso dal mazzo di ciascun giocatore viene scambiata con l'altra."
   },
   "15": {
     "name": "Draft",
-    "translation_name": "",
+    "translation_name": "Selezione",
     "description": "Decks must be built from a selection of randomly generated cards.",
-    "translation_description": ""
+    "translation_description": "I mazzi devono essere composti scegliendo tra carte generate casualmente."
   }
 }

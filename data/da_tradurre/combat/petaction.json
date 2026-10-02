@@ -1,248 +1,248 @@
 {
   "1": {
     "name": "Away",
-    "translation_name": "",
+    "translation_name": "Assente",
     "description": "Order pet to leave the battlefield.",
-    "translation_description": ""
+    "translation_description": "Ordina al famiglio di lasciare il campo di battaglia."
   },
   "2": {
     "name": "Heel",
-    "translation_name": "",
+    "translation_name": "Al Piede",
     "description": "Order pet to follow behind you.",
-    "translation_description": ""
+    "translation_description": "Ordina al famiglio di seguirti da vicino."
   },
   "3": {
     "name": "Place",
-    "translation_name": "",
+    "translation_name": "Posiziona",
     "description": "Order pet to move to a specified location.",
-    "translation_description": ""
+    "translation_description": "Ordina al famiglio di spostarsi in una posizione specifica."
   },
   "4": {
     "name": "Stay",
-    "translation_name": "",
+    "translation_name": "Resta",
     "description": "Order pet to remain where it is.",
-    "translation_description": ""
+    "translation_description": "Ordina al famiglio di restare fermo."
   },
   "5": {
     "name": "Guard",
-    "translation_name": "",
+    "translation_name": "Guardia",
     "description": "Order pet to refrain from attacking until you attack or are attacked.",
-    "translation_description": ""
+    "translation_description": "Ordina al famiglio di non attaccare finché non attacchi o non vieni attaccato."
   },
   "6": {
     "name": "Steady",
-    "translation_name": "",
+    "translation_name": "Calma",
     "description": "Order pet to refrain from attacking until ordered to do so.",
-    "translation_description": ""
+    "translation_description": "Ordina al famiglio di non attaccare finché non riceve l’ordine."
   },
   "7": {
     "name": "Sic",
-    "translation_name": "",
+    "translation_name": "Sì",
     "description": "Order pet to attack.",
-    "translation_description": ""
+    "translation_description": "Ordina al famiglio di attaccare."
   },
   "8": {
     "name": "Obey",
-    "translation_name": "",
+    "translation_name": "Obbedire",
     "description": "Order pet to attack, but refrain from using certain actions until ordered to do so.",
-    "translation_description": ""
+    "translation_description": "Ordina al famiglio di attaccare senza usare determinate azioni finché non riceve l’ordine."
   },
   "9": {
     "name": "Gust",
-    "translation_name": "",
+    "translation_name": "Raffica",
     "description": "Deals wind damage with a potency of 90.",
-    "translation_description": ""
+    "translation_description": "Infligge danni da vento con una potenza di 90."
   },
   "10": {
     "name": "Backdraft",
-    "translation_name": "",
+    "translation_name": "Ritorno di Fiamma",
     "description": "Deals wind damage with a potency of 80.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EAdditional Effect:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 15-yalm knockback\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
-    "translation_description": ""
+    "translation_description": "Infligge danni da vento con una potenza di 80.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Effetto aggiuntivo:<hex:0249020103><hex:0248020103> respingimento di 15 yalm<hex:02100103>Quando è attiva la modalità <hex:024804F201FA03><hex:024904F201FB03>Obbedire<hex:0249020103><hex:0248020103>, l’azione viene eseguita solo su comando."
   },
   "11": {
     "name": "Downburst",
-    "translation_name": "",
+    "translation_name": "Raffica Discendente",
     "description": "Deals wind damage with a potency of 80 to target and all enemies nearby it.\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
-    "translation_description": ""
+    "translation_description": "Infligge danni da vento con una potenza di 80 al bersaglio e a tutti i nemici vicini.<hex:02100103>Quando è attiva la modalità <hex:024804F201FA03><hex:024904F201FB03>Obbedire<hex:0249020103><hex:0248020103>, l’azione viene eseguita solo su comando."
   },
   "12": {
     "name": "Shining Emerald",
-    "translation_name": "",
+    "translation_name": "Smeraldo Splendente",
     "description": "Increases target\u0027s magic damage taken by 10%.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 15s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
-    "translation_description": ""
+    "translation_description": "Aumenta del 10% i danni magici subiti dal bersaglio.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata:<hex:0249020103><hex:0248020103> 15s<hex:02100103>Quando è attiva la modalità <hex:024804F201FA03><hex:024904F201FB03>Obbedire<hex:0249020103><hex:0248020103>, l’azione viene eseguita solo su comando."
   },
   "13": {
     "name": "Gouge",
-    "translation_name": "",
+    "translation_name": "Squarcio",
     "description": "Deals earth damage with a potency of 70.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EAdditional Effect:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E Increased enmity",
-    "translation_description": ""
+    "translation_description": "Infligge danni da terra con una potenza di 70.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Effetto aggiuntivo:<hex:0249020103><hex:0248020103> aumenta l’ostilità"
   },
   "14": {
     "name": "Shining Topaz",
-    "translation_name": "",
+    "translation_name": "Topazio Luminoso",
     "description": "Deals earth damage with a potency of 60 to all nearby enemies.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EAdditional Effect:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E Increased enmity\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
-    "translation_description": ""
+    "translation_description": "Infligge danni da terra con una potenza di 60 a tutti i nemici vicini.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Effetto aggiuntivo:<hex:0249020103><hex:0248020103> aumenta l’ostilità<hex:02100103>Quando è attiva la modalità <hex:024804F201FA03><hex:024904F201FB03>Obbedire<hex:0249020103><hex:0248020103>, l’azione viene eseguita solo su comando."
   },
   "15": {
     "name": "Curl",
-    "translation_name": "",
+    "translation_name": "Raggomitolamento",
     "description": "Decreases damage suffered by pet by 20%.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 20s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
-    "translation_description": ""
+    "translation_description": "Riduce del 20% i danni subiti dal famiglio.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata:<hex:0249020103><hex:0248020103> 20s<hex:02100103>Quando è attiva la modalità <hex:024804F201FA03><hex:024904F201FB03>Obbedire<hex:0249020103><hex:0248020103>, l’azione viene eseguita solo su comando."
   },
   "16": {
     "name": "Storm",
-    "translation_name": "",
+    "translation_name": "Tempesta",
     "description": "Deals earth damage with a potency of 60.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EAdditional Effect:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EStun\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 2s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
-    "translation_description": ""
+    "translation_description": "Infligge danni da terra con una potenza di 60.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Effetto aggiuntivo:<hex:0249020103><hex:0248020103> <hex:024804F201FA03><hex:024904F201FB03>Stordimento<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata:<hex:0249020103><hex:0248020103> 2s<hex:02100103>Quando è attiva la modalità <hex:024804F201FA03><hex:024904F201FB03>Obbedire<hex:0249020103><hex:0248020103>, l’azione viene eseguita solo su comando."
   },
   "17": {
     "name": "Wind Blade",
-    "translation_name": "",
+    "translation_name": "Lama del Vento",
     "description": "Deals wind damage with a potency of 110.",
-    "translation_description": ""
+    "translation_description": "Infligge danni da vento con una potenza di 110."
   },
   "18": {
     "name": "Shockwave",
-    "translation_name": "",
+    "translation_name": "Onda d’Urto",
     "description": "Deals wind damage with a potency of 90.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EAdditional Effect:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 15-yalm knockback\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
-    "translation_description": ""
+    "translation_description": "Infligge danni da vento con una potenza di 90.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Effetto aggiuntivo:<hex:0249020103><hex:0248020103> respingimento di 15 yalm<hex:02100103>Quando è attiva la modalità <hex:024804F201FA03><hex:024904F201FB03>Obbedire<hex:0249020103><hex:0248020103>, l’azione viene eseguita solo su comando."
   },
   "19": {
     "name": "Aerial Slash",
-    "translation_name": "",
+    "translation_name": "Fendente Aereo",
     "description": "Deals wind damage with a potency of 90 to target and all enemies nearby it.\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
-    "translation_description": ""
+    "translation_description": "Infligge danni da vento con una potenza di 90 al bersaglio e a tutti i nemici vicini.<hex:02100103>Quando è attiva la modalità <hex:024804F201FA03><hex:024904F201FB03>Obbedire<hex:0249020103><hex:0248020103>, l’azione viene eseguita solo su comando."
   },
   "20": {
     "name": "Contagion",
-    "translation_name": "",
+    "translation_name": "Contagio",
     "description": "Increases target\u0027s magic damage taken by 10%.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 15s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
-    "translation_description": ""
+    "translation_description": "Aumenta del 10% i danni magici subiti dal bersaglio.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata:<hex:0249020103><hex:0248020103> 15s<hex:02100103>Quando è attiva la modalità <hex:024804F201FA03><hex:024904F201FB03>Obbedire<hex:0249020103><hex:0248020103>, l’azione viene eseguita solo su comando."
   },
   "21": {
     "name": "Aerial Blast",
-    "translation_name": "",
+    "translation_name": "Esplosione Aerea",
     "description": "Deals wind damage with a potency of 250 to target and all enemies nearby it.\u003Chex:02100103\u003EExecuted when master uses \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EEnkindle\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.",
-    "translation_description": ""
+    "translation_description": "Infligge danni da vento con una potenza di 250 al bersaglio e a tutti i nemici vicini.<hex:02100103>Viene eseguita quando il padrone usa <hex:024804F201F403><hex:024904F201F503>Infervora<hex:0249020103><hex:0248020103>."
   },
   "22": {
     "name": "Rock Buster",
-    "translation_name": "",
+    "translation_name": "Spaccaroccia",
     "description": "Deals earth damage with a potency of 85.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EAdditional Effect:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E Increased enmity",
-    "translation_description": ""
+    "translation_description": "Infligge danni da terra con una potenza di 85.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Effetto aggiuntivo:<hex:0249020103><hex:0248020103> aumenta l’ostilità"
   },
   "23": {
     "name": "Mountain Buster",
-    "translation_name": "",
+    "translation_name": "Spaccamonti",
     "description": "Deals earth damage with a potency of 70 to all nearby enemies.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EAdditional Effect:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E Increased enmity\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
-    "translation_description": ""
+    "translation_description": "Infligge danni da terra con una potenza di 70 a tutti i nemici vicini.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Effetto aggiuntivo:<hex:0249020103><hex:0248020103> aumenta l’ostilità<hex:02100103>Quando è attiva la modalità <hex:024804F201FA03><hex:024904F201FB03>Obbedire<hex:0249020103><hex:0248020103>, l’azione viene eseguita solo su comando."
   },
   "24": {
     "name": "Earthen Ward",
-    "translation_name": "",
+    "translation_name": "Baluardo Terrestre",
     "description": "Decreases damage suffered by pet by 20%.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 20s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
-    "translation_description": ""
+    "translation_description": "Riduce del 20% i danni subiti dal famiglio.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata:<hex:0249020103><hex:0248020103> 20s<hex:02100103>Quando è attiva la modalità <hex:024804F201FA03><hex:024904F201FB03>Obbedire<hex:0249020103><hex:0248020103>, l’azione viene eseguita solo su comando."
   },
   "25": {
     "name": "Landslide",
-    "translation_name": "",
+    "translation_name": "Frana",
     "description": "Deals earth damage with a potency of 70.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EAdditional Effect:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EStun\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 2s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
-    "translation_description": ""
+    "translation_description": "Infligge danni da terra con una potenza di 70.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Effetto aggiuntivo:<hex:0249020103><hex:0248020103> <hex:024804F201FA03><hex:024904F201FB03>Stordimento<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata:<hex:0249020103><hex:0248020103> 2s<hex:02100103>Quando è attiva la modalità <hex:024804F201FA03><hex:024904F201FB03>Obbedire<hex:0249020103><hex:0248020103>, l’azione viene eseguita solo su comando."
   },
   "26": {
     "name": "Earthen Fury",
-    "translation_name": "",
+    "translation_name": "Furia Tellurica",
     "description": "Deals earth damage with a potency of 200 to all nearby targets.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EAdditional Effect:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003ERazed Earth\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EPotency:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 20 \u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003E\u003Chex:02100103\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 15s\u003Chex:02100103\u003EExecuted when master uses \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EEnkindle\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.",
-    "translation_description": ""
+    "translation_description": "Infligge danni da terra con una potenza di 200 a tutti i bersagli vicini.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Effetto aggiuntivo:<hex:0249020103><hex:0248020103> <hex:024804F201FA03><hex:024904F201FB03>Terra Rasa<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201F803><hex:024904F201F903>Potenza:<hex:0249020103><hex:0248020103> 20 <hex:024804F201F803><hex:024904F201F903><hex:02100103>Durata:<hex:0249020103><hex:0248020103> 15s<hex:02100103>Viene eseguita quando il padrone usa <hex:024804F201F403><hex:024904F201F503>Infervora<hex:0249020103><hex:0248020103>."
   },
   "27": {
     "name": "Crimson Cyclone",
-    "translation_name": "",
+    "translation_name": "Ciclone Cremisi",
     "description": "Deals fire damage with a potency of 110.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EAdditional Effect:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EStun\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 2s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
-    "translation_description": ""
+    "translation_description": "Infligge danni da fuoco con una potenza di 110.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Effetto aggiuntivo:<hex:0249020103><hex:0248020103> <hex:024804F201FA03><hex:024904F201FB03>Stordimento<hex:0249020103><hex:0248020103><hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata:<hex:0249020103><hex:0248020103> 2s<hex:02100103>Quando è attiva la modalità <hex:024804F201FA03><hex:024904F201FB03>Obbedire<hex:0249020103><hex:0248020103>, l’azione viene eseguita solo su comando."
   },
   "28": {
     "name": "Burning Strike",
-    "translation_name": "",
+    "translation_name": "Colpo Rovente",
     "description": "Deals fire damage with a potency of 135.",
-    "translation_description": ""
+    "translation_description": "Infligge danni da fuoco con una potenza di 135."
   },
   "29": {
     "name": "Radiant Shield",
-    "translation_name": "",
+    "translation_name": "Scudo Radioso",
     "description": "Creates a barrier around self and nearby party members.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 20s\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EBarrier Effect:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E When barrier is struck, increases striker\u0027s physical vulnerability by 2%\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 4s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
-    "translation_description": ""
+    "translation_description": "Crea una barriera attorno a sé e ai membri del gruppo vicini.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata:<hex:0249020103><hex:0248020103> 20s<hex:02100103><hex:024804F201F803><hex:024904F201F903>Effetto barriera:<hex:0249020103><hex:0248020103> Quando la barriera viene colpita, aumenta del 2% la vulnerabilità fisica dell'attaccante.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata:<hex:0249020103><hex:0248020103> 4s<hex:02100103>Quando è attiva la modalità <hex:024804F201FA03><hex:024904F201FB03>Obbedire<hex:0249020103><hex:0248020103>, l’azione viene eseguita solo su comando."
   },
   "30": {
     "name": "Flaming Crush",
-    "translation_name": "",
+    "translation_name": "Schianto Fiammeggiante",
     "description": "Deals fire damage with a potency of 110 to all nearby enemies.\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
-    "translation_description": ""
+    "translation_description": "Infligge danni da fuoco con una potenza di 110 a tutti i nemici vicini.<hex:02100103>Quando è attiva la modalità <hex:024804F201FA03><hex:024904F201FB03>Obbedire<hex:0249020103><hex:0248020103>, l’azione viene eseguita solo su comando."
   },
   "31": {
     "name": "Inferno",
-    "translation_name": "",
+    "translation_name": "Fiamma Infernale",
     "description": "Deals fire damage with a potency of 200 to all enemies in a cone before it.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EAdditional Effect:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E Fire damage over time\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EPotency:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 20\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 15s\u003Chex:02100103\u003EExecuted when master uses \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EEnkindle\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.",
-    "translation_description": ""
+    "translation_description": "Infligge danni da fuoco con una potenza di 200 a tutti i nemici in un cono frontale.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Effetto aggiuntivo:<hex:0249020103><hex:0248020103> danni da fuoco periodici<hex:02100103><hex:024804F201F803><hex:024904F201F903>Potenza:<hex:0249020103><hex:0248020103> 20<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata:<hex:0249020103><hex:0248020103> 15s<hex:02100103>Viene eseguita quando il padrone usa <hex:024804F201F403><hex:024904F201F503>Infervora<hex:0249020103><hex:0248020103>."
   },
   "32": {
     "name": "Embrace",
-    "translation_name": "",
+    "translation_name": "Abbraccio",
     "description": "Restore target\u0027s HP.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003ECure Potency:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 250",
-    "translation_description": ""
+    "translation_description": "Ripristina i PV del bersaglio.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Potenza di cura:<hex:0249020103><hex:0248020103> 250"
   },
   "33": {
     "name": "Whispering Dawn",
-    "translation_name": "",
+    "translation_name": "Alba Sussurrante",
     "description": "Gradually restores own HP and the HP of all nearby party members.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003ECure Potency:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 120\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 21s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
-    "translation_description": ""
+    "translation_description": "Ripristina gradualmente i propri PV e quelli di tutti i membri del gruppo vicini.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Potenza di cura:<hex:0249020103><hex:0248020103> 120<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata:<hex:0249020103><hex:0248020103> 21s<hex:02100103>Quando è attiva la modalità <hex:024804F201FA03><hex:024904F201FB03>Obbedire<hex:0249020103><hex:0248020103>, l’azione viene eseguita solo su comando."
   },
   "34": {
     "name": "Fey Covenant",
-    "translation_name": "",
+    "translation_name": "Patto Fatato",
     "description": "Increases magic defense of self and nearby party members by 20%.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 20s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
-    "translation_description": ""
+    "translation_description": "Aumenta del 20% la difesa magica propria e dei membri del gruppo vicini.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata:<hex:0249020103><hex:0248020103> 20s<hex:02100103>Quando è attiva la modalità <hex:024804F201FA03><hex:024904F201FB03>Obbedire<hex:0249020103><hex:0248020103>, l’azione viene eseguita solo su comando."
   },
   "35": {
     "name": "Fey Illumination",
-    "translation_name": "",
+    "translation_name": "Illuminazione Fatata",
     "description": "Increases spell-based HP restoration of self and nearby party members by 10%.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 20s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
-    "translation_description": ""
+    "translation_description": "Aumenta del 10% l’efficacia delle magie che ripristinano i PV, per sé e per i membri del gruppo vicini.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata:<hex:0249020103><hex:0248020103> 20s<hex:02100103>Quando è attiva la modalità <hex:024804F201FA03><hex:024904F201FB03>Obbedire<hex:0249020103><hex:0248020103>, l’azione viene eseguita solo su comando."
   },
   "36": {
     "name": "Embrace",
-    "translation_name": "",
+    "translation_name": "Abbraccio",
     "description": "Restore target\u0027s HP.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003ECure Potency:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 250",
-    "translation_description": ""
+    "translation_description": "Ripristina i PV del bersaglio.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Potenza di cura:<hex:0249020103><hex:0248020103> 250"
   },
   "37": {
     "name": "Silent Dusk",
-    "translation_name": "",
+    "translation_name": "Crepuscolo Silenzioso",
     "description": "Silences target.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 1s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
-    "translation_description": ""
+    "translation_description": "Infligge Silenzio al bersaglio.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata:<hex:0249020103><hex:0248020103> 1s<hex:02100103>Quando è attiva la modalità <hex:024804F201FA03><hex:024904F201FB03>Obbedire<hex:0249020103><hex:0248020103>, l’azione viene eseguita solo su comando."
   },
   "38": {
     "name": "Fey Caress",
-    "translation_name": "",
+    "translation_name": "Carezza Fatata",
     "description": "Removes a single detrimental effect from all nearby party members.\u003Chex:02100103\u003ESome effects cannot be removed.\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
-    "translation_description": ""
+    "translation_description": "Rimuove un singolo effetto negativo da tutti i membri del gruppo vicini.<hex:02100103>Alcuni effetti non possono essere rimossi.<hex:02100103>Quando è attiva la modalità <hex:024804F201FA03><hex:024904F201FB03>Obbedire<hex:0249020103><hex:0248020103>, l’azione viene eseguita solo su comando."
   },
   "39": {
     "name": "Fey Wind",
-    "translation_name": "",
+    "translation_name": "Vento Fatato",
     "description": "Reduces weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay of self and nearby party members by 3%.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration:\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 30s\u003Chex:02100103\u003EWhen \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EObey\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is active, will only execute upon command.",
-    "translation_description": ""
+    "translation_description": "Riduce del 3% per sé e per i membri del gruppo vicini i tempi di esecuzione e ricarica delle tecniche, i tempi di lancio e ricarica degli incantesimi e il ritardo degli attacchi automatici.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata:<hex:0249020103><hex:0248020103> 30s<hex:02100103>Quando è attiva la modalità <hex:024804F201FA03><hex:024904F201FB03>Obbedire<hex:0249020103><hex:0248020103>, l’azione viene eseguita solo su comando."
   },
   "40": {
     "name": "Offensive Mode",
-    "translation_name": "",
+    "translation_name": "Modalità Offensiva",
     "description": "Command autoturret to focus on offensive maneuvers.",
-    "translation_description": ""
+    "translation_description": "Ordina alla torretta automatica di concentrarsi sulle manovre offensive."
   },
   "41": {
     "name": "Defensive Mode",
-    "translation_name": "",
+    "translation_name": "Modalità Difensiva",
     "description": "Command autoturret to focus on supportive maneuvers.",
-    "translation_description": ""
+    "translation_description": "Ordina alla torretta automatica di concentrarsi sulle manovre di supporto."
   }
 }

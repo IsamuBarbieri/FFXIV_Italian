@@ -1,26 +1,26 @@
 {
   "1": {
     "name": "Group Pose",
-    "translation_name": "",
+    "translation_name": "Posa di Gruppo",
     "description": "Perform a group pose, repeating the last executed emote or action on loop. Camera position, lighting, and color filter can be all be adjusted in the command settings.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EText Command: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E/grouppose\u003Chex:02100103\u003E\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EKey Mapping: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E Available",
-    "translation_description": ""
+    "translation_description": "Esegui una posa di gruppo ripetendo in loop l'ultima emote o azione. Nelle impostazioni del comando puoi regolare la posizione della camera, l'illuminazione e il filtro colore.<hex:02100103><hex:02100103><hex:024804F201F403><hex:024904F201F503>Comando Testuale: <hex:0249020103><hex:0248020103>/grouppose<hex:02100103><hex:024804F201F403><hex:024904F201F503>Mappatura Tasti: <hex:0249020103><hex:0248020103>Disponibile"
   },
   "2": {
     "name": "Idling Camera",
-    "translation_name": "",
+    "translation_name": "Camera Inattiva",
     "description": "Enable the idling camera. While active, the idling camera will randomly toggle between nearby PCs and NPCs. Executing the command with a PC or NPC targeted will center the camera on that target. Camera position, lighting, and color filter can be all be adjusted in the command settings.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EText Command: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E/idlingcamera\u003Chex:02100103\u003E\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EKey Mapping: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E Available",
-    "translation_description": ""
+    "translation_description": "Attiva la camera inattiva, che mentre è in funzione passa casualmente tra i personaggi giocanti e non giocanti nelle vicinanze. Se esegui il comando con un personaggio giocante o non giocante selezionato, la camera si centra su di lui. Nelle impostazioni del comando puoi regolare la posizione della camera, l'illuminazione e il filtro colore.<hex:02100103><hex:02100103><hex:024804F201F403><hex:024904F201F503>Comando Testuale: <hex:0249020103><hex:0248020103>/idlingcamera<hex:02100103><hex:024804F201F403><hex:024904F201F503>Mappatura Tasti: <hex:0249020103><hex:0248020103>Disponibile"
   },
   "3": {
     "name": "Alarm",
-    "translation_name": "",
+    "translation_name": "Sveglia",
     "description": "Enable alarm. Alarms can be set to go off while in game and are deleted upon logout.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EText Command: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E/alarm\u003Chex:02100103\u003E\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EKey Mapping: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E Available",
-    "translation_description": ""
+    "translation_description": "Attiva la sveglia. Puoi impostare le sveglie perché suonino mentre giochi; vengono eliminate quando esci dal gioco.<hex:02100103><hex:02100103><hex:024804F201F403><hex:024904F201F503>Comando Testuale: <hex:0249020103><hex:0248020103>/alarm<hex:02100103><hex:024804F201F403><hex:024904F201F503>Mappatura Tasti: <hex:0249020103><hex:0248020103>Disponibile"
   },
   "4": {
     "name": "Command Panel",
-    "translation_name": "",
+    "translation_name": "Pannello dei Comandi",
     "description": "Displays the Command Panel.\u003Chex:02100103\u003EFreely register various actions and commands including mounts, minions, emotes, and gear sets for easy access and execution.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EText Command: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E/commandpanel\u003Chex:02100103\u003E\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EKey Mapping: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E Available",
-    "translation_description": ""
+    "translation_description": "Visualizza il Pannello dei Comandi.<hex:02100103>Registra liberamente azioni e comandi, come cavalcature, servitori, emote e set d'equipaggiamento, per accedervi ed eseguirli rapidamente.<hex:02100103><hex:02100103><hex:024804F201F403><hex:024904F201F503>Comando Testuale: <hex:0249020103><hex:0248020103>/commandpanel<hex:02100103><hex:024804F201F403><hex:024904F201F503>Mappatura Tasti: <hex:0249020103><hex:0248020103>Disponibile"
   }
 }

@@ -1,4 +1,4 @@
-# Glossario approvato — FFXIV Italiano
+﻿# Glossario approvato — FFXIV Italiano
 
 Fonte terminologica per le traduzioni future. Le voci derivano solo dai file revisionati elencati sotto; le tabelle sono intenzionalmente selettive. I termini inglesi servono da riferimento e non vanno aggiunti tra parentesi nel testo di gioco.
 
@@ -307,6 +307,20 @@ Per i **nomi di incantesimi e gli aspetti elementali combat**, usare le radici c
 | Aetheryte | Eterite | `system/addon.json#8511:original` |  |
 | Aethernet | Eternet | `system/addon.json#2720:original` |  |
 | Gil | Gil | `system/addon.json#830:original` |  |
+| Scrip | Gettone | `dialogue/topicselect.json#3276859:original` | Valuta degli Artigiani e dei Raccoglitori; al plurale usare «Gettoni degli Artigiani/dei Raccoglitori». |
+| Simular | Simulacro | `items/xbmitem.json#146:col_2` | Categoria di mangime; nei nomi composti usare «Simulacro di [ingrediente]» e al plurale «Simulacri di [ingrediente]». |
+| Claret Dragon | Drago Cremisi | `world/mkdlore.json#285:name` | Nome della creatura; nel composto «Claret Dragon's Power» usare «Potere del Drago Cremisi». |
+| Scion of the Seventh Dawn | Figlio della Settima Alba | `world/enpcresident.json#1003851:name` | Singolare del titolo; adattare al genere della persona («Figlia della Settima Alba» per una donna); al plurale «Scions of the Seventh Dawn» → «Figli della Settima Alba». |
+| Scion | Figlio | `world/enpcresident.json#1003851:name` | Forma singolare; usare «Figlia» per una donna. |
+| Scions | Figli | `world/enpcresident.json#1003851:name` | Forma plurale del nome del gruppo. |
+| Delineation | Compendio | `crafting/craftaction.json#100179:description` | Risorsa consumata dalle Azioni da Specialista; usare «Compendio di [disciplina]» e, per «Crafter's Delineation», «Compendio dell'Artigiano». |
+| Light-heavyweight | Pesi Leggeri | `world/contentfindercondition.json#985:original` | Categoria di peso AAC M1–M4. |
+| Cruiserweight | Pesi Medi | `world/contentfindercondition.json#1019:original` | Categoria di peso AAC M1–M4. |
+| Heavyweight | Pesi Massimi | `world/contentfindercondition.json#1068:original` | Categoria di peso AAC M1–M4. |
+| Ultimate raid | Incursione Suprema | `housing/bannerobtainhinttype.json#61:original` | «Suprema» è la resa della modalità Ultimate. |
+| Blunderful | Blunderful | `housing/bannerdecoration.json#187:original` | Nome ufficiale della cornice Fall Guys; lasciare in inglese. |
+| Blunderous | Blunderous | `housing/bannerdecoration.json#188:original` | Nome ufficiale della cornice Fall Guys; lasciare in inglese. |
+| Blunder-villed | Blunder-villed | `housing/bannerdecoration.json#189:original` | Nome ufficiale della cornice Fall Guys; lasciare in inglese. |
 | The Black Shroud | Velo Nero | `system/addon.json#1578:original` |  |
 | Chocobo | Chocobo | `system/addon.json#9081:original` |  |
 | Retainer | Servitore | `system/addon.json#532:original` |  |
@@ -316,6 +330,7 @@ Per i **nomi di incantesimi e gli aspetti elementali combat**, usare le radici c
 | Achievement | Obiettivo | `system/addon.json#1484:original` | Varianti ammesse in prosa: «obiettivi». |
 | Quest | Missione | `system/addon.json#12723:original` | Categoria generale, singolare. |
 | Job | Job | `system/addon.json#684:original` |  |
+| Job Gauge| Barra Job |  |  |
 | Class | Classe | `system/addon.json#869:original` |  |
 | HP | PV | `system/addon.json#1000:original` |  |
 | MP | PM | `system/addon.json#724:original` |  |

@@ -1,182 +1,182 @@
 {
   "4": {
     "name": "Reduced Difficulty",
-    "translation_name": "",
+    "translation_name": "Difficoltà Ridotta",
     "description": "The following changes have been made to Savage duties:\u003Chex:02100103\u003E\u3000\u30FBProgress records are no longer kept for individual duties.\u003Chex:02100103\u003E\u3000\u30FBThe \u201CProgress\u201D option is no longer available.\u003Chex:02100103\u003E\u3000\u30FBTreasure coffers will always appear upon completion.\u003Chex:02100103\u003E\u3000\u30FBThe weekly limit on items from treasure coffers has been removed.\u003Chex:02100103\u003E",
-    "translation_description": ""
+    "translation_description": "Le seguenti modifiche sono state apportate agli incarichi di difficoltà Selvaggia:<hex:02100103>　・I progressi non vengono più registrati per i singoli incarichi.<hex:02100103>　・L’opzione «Progressi» non è più disponibile.<hex:02100103>　・I forzieri appariranno sempre al completamento.<hex:02100103>　・È stato rimosso il limite settimanale agli oggetti ottenibili dai forzieri.<hex:02100103>"
   },
   "5": {
     "name": "Matching Requirements",
-    "translation_name": "",
+    "translation_name": "Requisiti di Abbinamento",
     "description": "\u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EMatching Requirements\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u003Chex:02100103\u003EThe \u201CDuty Complete\u201D option is only available for previously completed duties.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EPurpose\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u003Chex:02100103\u003EThe \u201CDuty Completion\u201D option is only available if the weekly reward has yet to be obtained.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EPractice Phase Selection\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u003Chex:02100103\u003EThis is only available when \u201CPurpose\u201D is set to \u201CPractice.\u201D Practice phase selection does not entail the actual skipping of phases.\u003Chex:02100103\u003E\u003Chex:02100103\u003EIf the registration period overlaps with the weekly reset, registration will be canceled.",
-    "translation_description": ""
+    "translation_description": "<hex:024804F201FA03><hex:024904F201FB03>Requisiti di Abbinamento<hex:0249020103><hex:0248020103><hex:02100103>L’opzione «Incarico Completato» è disponibile solo per gli incarichi già completati.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Scopo<hex:0249020103><hex:0248020103><hex:02100103>L’opzione «Completamento Incarico» è disponibile solo se non hai ancora ottenuto la ricompensa settimanale.<hex:02100103><hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Selezione della Fase di Allenamento<hex:0249020103><hex:0248020103><hex:02100103>Disponibile solo quando «Scopo» è impostato su «Pratica». La selezione della fase di allenamento non comporta il salto effettivo delle fasi.<hex:02100103><hex:02100103>Se il periodo di registrazione coincide con il reset settimanale, la registrazione verrà annullata."
   },
   "6": {
     "name": "Progress Record",
-    "translation_name": "",
+    "translation_name": "Registro Progressi",
     "description": "Progress within the latest Savage duty is periodically saved, allowing for continuation from that point.\u003Chex:02100103\u003E\u003Chex:02100103\u003EProgress is reset every week on \u003Chex:020603120303\u003E\u003Chex:020942DDFF0753756E646179FF074D6F6E646179FF0854756573646179FF0A5765646E6573646179FF095468757273646179FF07467269646179FF09536174757264617903\u003E at \u003Chex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03\u003E \u003Chex:020810E0DB0DFF05702E6D2EFF05612E6D2E03\u003E (Earth time).\u003Chex:02100103\u003E",
-    "translation_description": ""
+    "translation_description": "I progressi nell’incarico di difficoltà Selvaggia più recente vengono salvati periodicamente, così puoi riprendere da quel punto.<hex:02100103><hex:02100103>I progressi si azzerano ogni settimana il <hex:020603120303><hex:020942DDFF0753756E646179FF074D6F6E646179FF0854756573646179FF0A5765646E6573646179FF095468757273646179FF07467269646179FF09536174757264617903> alle <hex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03> <hex:020810E0DB0DFF05702E6D2EFF05612E6D2E03> (tempo reale).<hex:02100103>"
   },
   "7": {
     "name": "Reward Restrictions",
-    "translation_name": "",
+    "translation_name": "Limitazioni Ricompense",
     "description": "Players will not earn rewards for completing phases they have already completed.\u003Chex:02100103\u003E\u003Chex:02100103\u003ECoffer and reward quantity will vary based on the total number of party members who have already completed the duty.\u003Chex:02100103\u003E\u3000\u30FB0 players = 1 coffer \u003Chex:02100103\u003E\u3000\u30FB1-4 players = 1 coffer (Reduced reward quantity)\u003Chex:02100103\u003E\u3000\u30FB5 or more = No coffers\u003Chex:02100103\u003E \u003Chex:02100103\u003EWhen participating in the latest Savage raid with a matched party, duty rewards may change based on the progress level of matched members.",
-    "translation_description": ""
+    "translation_description": "I giocatori non ricevono ricompense per il completamento di fasi già completate.<hex:02100103><hex:02100103>Il numero di forzieri e la quantità delle ricompense variano in base al numero totale di membri del gruppo che hanno già completato l’incarico.<hex:02100103>　・0 giocatori = 1 forziere<hex:02100103>　・1-4 giocatori = 1 forziere (quantità di ricompense ridotta)<hex:02100103>　・5 o più = nessun forziere<hex:02100103> <hex:02100103>Partecipando all’incursione Selvaggia più recente con un gruppo abbinato, le ricompense dell’incarico possono variare in base ai progressi dei membri abbinati."
   },
   "8": {
     "name": "Job Distribution",
-    "translation_name": "",
+    "translation_name": "Distribuzione Job",
     "description": "Parties formed with the Raid Finder do not allow for two members with the same job unless certain conditions are met.\u003Chex:02100103\u003E\u3000\u30FBDPS jobs are divided into the following roles:\u003Chex:02100103\u003E    Melee DPS, Physical Ranged DPS, Magical Ranged DPS, and Not Specified.\u003Chex:02100103\u003E\u003Chex:02100103\u003EWhen the raid purpose is set as \u201CDuty Completion,\u201D the jobs that fall into Not Specified must be different from the ones which fill the other three DPS roles. When the raid purpose is set to \u201CPractice,\u201D overlapping between specified and unspecified DPS jobs is allowed.\u003Chex:02100103\u003E\u003Chex:02100103\u003EParties formed with the Raid Finder do not allow for more than one pure healer and one barrier healer.\u003Chex:02100103\u003E\u3000\u30FBPure Healers: White Mage, Astrologian\u003Chex:02100103\u003E\u3000\u203BEmphasis on actions that directly heal self and party members.\u003Chex:02100103\u003E\u3000\u30FBBarrier Healers: Scholar, Sage\u003Chex:02100103\u003E\u3000\u203BEmphasis on actions that negate damage via magicked barriers.",
-    "translation_description": ""
+    "translation_description": "La Ricerca Incursioni non consente di abbinare due membri con lo stesso Job, salvo in determinate condizioni.<hex:02100103>　・I Job DPS sono suddivisi nei seguenti ruoli:<hex:02100103>    DPS corpo a corpo, DPS fisici a distanza, DPS magici a distanza e non specificati.<hex:02100103><hex:02100103>Quando lo scopo dell’incursione è «Completamento Incarico», i Job appartenenti al ruolo non specificato devono essere diversi da quelli degli altri tre ruoli DPS. Quando lo scopo è «Pratica», è ammessa la sovrapposizione tra i Job DPS specificati e quelli non specificati.<hex:02100103><hex:02100103>La Ricerca Incursioni non consente di abbinare più di un curatore puro e un curatore con barriera.<hex:02100103>　・Curatori puri: Mago Bianco, Astrologo<hex:02100103>　※Sono privilegiate le azioni che curano direttamente sé stessi e i membri del gruppo.<hex:02100103>　・Curatori con barriera: Studioso, Saggio<hex:02100103>　※Sono privilegiate le azioni che annullano i danni con barriere magiche."
   },
   "9": {
     "name": "Party Progress",
-    "translation_name": "",
+    "translation_name": "Progressi del Gruppo",
     "description": "A party\u0027s starting point in the duty is determined by the leader\u0027s past progress. As long as all other conditions are met, players who have not progressed as far as the leader may still participate in the duty.\u003Chex:02100103\u003E\u003Chex:02100103\u003EIf a party member\u0027s progress was less than that of the leader, then progress will be updated to match.\u003Chex:02100103\u003EIf a party member\u0027s progress is beyond that of the leader, that member\u0027s progress will remain unaffected.\u003Chex:02100103\u003E",
-    "translation_description": ""
+    "translation_description": "Il punto di partenza del gruppo nell’incarico viene determinato dai progressi precedenti del leader. Se tutte le altre condizioni sono soddisfatte, anche i giocatori che non sono avanzati quanto il leader possono partecipare all’incarico.<hex:02100103><hex:02100103>Se i progressi di un membro del gruppo erano inferiori a quelli del leader, verranno aggiornati di conseguenza.<hex:02100103>Se i progressi di un membro del gruppo sono superiori a quelli del leader, rimarranno invariati.<hex:02100103>"
   },
   "10": {
     "name": "Duty Finder",
-    "translation_name": "",
+    "translation_name": "Ricerca Incarichi",
     "description": "The \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EDuty Finder\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E allows you to challenge dungeons and other duties with a \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003Eparty of other players\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E. You may access it via \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EDuty\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E in the main menu, or by choosing the appropriate option at the entrance of any duty.",
-    "translation_description": ""
+    "translation_description": "La <hex:024804F201FA03><hex:024904F201FB03>Ricerca Incarichi<hex:0249020103><hex:0248020103> ti permette di affrontare spedizioni e altri incarichi con un <hex:024804F201FA03><hex:024904F201FB03>gruppo di altri giocatori<hex:0249020103><hex:0248020103>. Puoi accedervi dalla voce <hex:024804F201FA03><hex:024904F201FB03>Incarichi<hex:0249020103><hex:0248020103> nel menu principale oppure selezionando l’opzione appropriata all’ingresso di un incarico."
   },
   "11": {
     "name": "Duty Registration",
-    "translation_name": "",
+    "translation_name": "Registrazione Incarico",
     "description": "Enter dungeons and other duties via the \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EDuty Finder\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E by choosing your desired duty, then selecting \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EJoin\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E. You will then be automatically matched with compatible players destined for the same duty.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003E\u203BYou may register for up to five duties at one time.\u003Chex:02100103\u003E\u203BDuties marked by a lock symbol require certain conditions to be met before becoming accessible.\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E",
-    "translation_description": ""
+    "translation_description": "Accedi a spedizioni e altri incarichi tramite la <hex:024804F201FA03><hex:024904F201FB03>Ricerca Incarichi<hex:0249020103><hex:0248020103>: scegli l’incarico desiderato e seleziona <hex:024804F201FA03><hex:024904F201FB03>Partecipa<hex:0249020103><hex:0248020103>. Verrai quindi abbinato automaticamente a giocatori compatibili diretti allo stesso incarico.<hex:02100103><hex:02100103><hex:024804F201F403><hex:024904F201F503>※Puoi registrarti a un massimo di cinque incarichi contemporaneamente.<hex:02100103>※Per accedere agli incarichi contrassegnati dal simbolo del lucchetto, è necessario soddisfare determinati requisiti.<hex:0249020103><hex:0248020103>"
   },
   "12": {
     "name": "Duty Status",
-    "translation_name": "",
+    "translation_name": "Stato Incarico",
     "description": "When you register for a duty, it will appear along with an icon in your duty list. You may check \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003Eduty status\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E, including matching progress and approximate waiting times, by selecting this entry.",
-    "translation_description": ""
+    "translation_description": "Quando ti registri per un incarico, questo appare nell’elenco degli incarichi insieme a un’icona. Selezionando la voce puoi controllare lo <hex:024804F201FA03><hex:024904F201FB03>stato dell’incarico<hex:0249020103><hex:0248020103>, compresi i progressi dell’abbinamento e i tempi di attesa approssimativi."
   },
   "13": {
     "name": "Commencing Duty",
-    "translation_name": "",
+    "translation_name": "Avvio dell’Incarico",
     "description": "Once you have been successfully matched with other players, a prompt window indicated by a \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003Enotification sound\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E will appear. Begin duty by selecting \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003ECommence\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003E\u203BPlease note that if you do not commence duty within the time limit, your registration will be automatically withdrawn, and you must start the process over.\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E",
-    "translation_description": ""
+    "translation_description": "Quando l’abbinamento con gli altri giocatori è riuscito, appare una finestra di notifica accompagnata da un <hex:024804F201FA03><hex:024904F201FB03>suono di avviso<hex:0249020103><hex:0248020103>. Seleziona <hex:024804F201FA03><hex:024904F201FB03>Inizia<hex:0249020103><hex:0248020103> per avviare l’incarico.<hex:02100103><hex:02100103><hex:024804F201F403><hex:024904F201F503>※Se non avvii l’incarico entro il tempo limite, la registrazione verrà annullata automaticamente e dovrai ricominciare la procedura.<hex:0249020103><hex:0248020103>"
   },
   "14": {
     "name": "What Next?",
-    "translation_name": "",
+    "translation_name": "E ora?",
     "description": "Over the course of your adventures, the number of duties available to you will gradually increase. Many duties can be cleared via both the \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EDuty Finder\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E and \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EDuty Support\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E systems, so it\u0027s worth familiarizing yourself with both. You may also rechallenge previously cleared dungeons by accessing \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EDuty Finder\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E or \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EDuty Support\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E via \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EDuty\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E in the main menu.",
-    "translation_description": ""
+    "translation_description": "Con il progredire delle tue avventure, aumenterà gradualmente il numero di incarichi disponibili. Molti possono essere completati sia con la <hex:024804F201FA03><hex:024904F201FB03>Ricerca Incarichi<hex:0249020103><hex:0248020103> sia con il sistema di <hex:024804F201FA03><hex:024904F201FB03>Supporto Incarichi<hex:0249020103><hex:0248020103>, quindi ti consigliamo di familiarizzare con entrambi. Puoi anche ripetere le spedizioni già completate usando la <hex:024804F201FA03><hex:024904F201FB03>Ricerca Incarichi<hex:0249020103><hex:0248020103> o il <hex:024804F201FA03><hex:024904F201FB03>Supporto Incarichi<hex:0249020103><hex:0248020103> dalla voce <hex:024804F201FA03><hex:024904F201FB03>Incarichi<hex:0249020103><hex:0248020103> nel menu principale."
   },
   "15": {
     "name": "Entering V\u0026C Dungeons",
-    "translation_name": "",
+    "translation_name": "Accesso alle Spedizioni V&C",
     "description": "You can enter a variant or criterion dungeon via the V\u0026C Dungeon Finder window, which is accessed either by speaking with the NPC at the dungeon entrance, interacting with the dungeon entrance itself, or selecting the option from \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EDuty\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E in the main menu.\u003Chex:02100103\u003E\u003Chex:02100103\u003EThis window features all the necessary information regarding dungeon entry, as well as the dungeon-specific settings.",
-    "translation_description": ""
+    "translation_description": "Puoi accedere a una spedizione Variant o Criterio dalla finestra della Ricerca Spedizioni V&C. Puoi aprirla parlando con l’NPC all’ingresso, interagendo con l’ingresso stesso o selezionando l’opzione dal menu <hex:024804F201FA03><hex:024904F201FB03>Incarichi<hex:0249020103><hex:0248020103>.<hex:02100103><hex:02100103>La finestra mostra tutte le informazioni necessarie per accedere alla spedizione e le relative impostazioni."
   },
   "16": {
     "name": "Variant Dungeons",
-    "translation_name": "",
+    "translation_name": "Spedizioni Variant",
     "description": "The difficulty of a \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003Evariant dungeon\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E is automatically adjusted to provide a challenge for parties of between one to four players. Victory will require effort and attention, but it is entirely possible to complete these dungeons alone. \u003Chex:02100103\u003E\u003Chex:02100103\u003EIf you wish to enter as a solo player or with your current party members, be sure to uncheck the \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EEnable party matching\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E option (disabled by default). Conversely, enabling this option will match you with other adventurers to tackle the dungeon in a four-player party.",
-    "translation_description": ""
+    "translation_description": "La difficoltà di una <hex:024804F201FA03><hex:024904F201FB03>spedizione Variant<hex:0249020103><hex:0248020103> si adatta automaticamente ai gruppi composti da uno a quattro giocatori. Completare queste spedizioni richiede impegno e attenzione, ma è possibile riuscirci anche da soli.<hex:02100103><hex:02100103>Per accedere da solo o con i membri del tuo gruppo, deseleziona l’opzione <hex:024804F201FA03><hex:024904F201FB03>Abilita abbinamento del gruppo<hex:0249020103><hex:0248020103> (disattivata per impostazione predefinita). Se la attivi, verrai abbinato ad altri avventurieri per affrontare la spedizione in un gruppo da quattro."
   },
   "17": {
     "name": "Variant Actions",
-    "translation_name": "",
+    "translation_name": "Azioni Variant",
     "description": "To allow for greater freedom in role choices, variant dungeons grant players the use of special \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003Evariant actions\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.\u003Chex:02100103\u003E\u003Chex:02100103\u003EThese actions mimic existing abilities such as \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003ECure\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E or \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003ERampart\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E, alleviating the need for dedicated tanks, DPS, or healers. Each player has two actions available for use during the dungeon, and these can be changed \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003Eat any time\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E via the \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003ESet Actions\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E button in the V\u0026C Dungeon Finder window.",
-    "translation_description": ""
+    "translation_description": "Per offrire maggiore libertà nella scelta dei ruoli, le spedizioni Variant permettono di usare speciali <hex:024804F201FA03><hex:024904F201FB03>azioni Variant<hex:0249020103><hex:0248020103>.<hex:02100103><hex:02100103>Queste azioni riproducono abilità esistenti come <hex:024804F201FA03><hex:024904F201FB03>Cura<hex:0249020103><hex:0248020103> o <hex:024804F201FA03><hex:024904F201FB03>Bastione<hex:0249020103><hex:0248020103>, riducendo la necessità di avere ruoli dedicati a difesa, DPS e cura. Ogni giocatore può usare due azioni durante la spedizione e può cambiarle <hex:024804F201FA03><hex:024904F201FB03>in qualsiasi momento<hex:0249020103><hex:0248020103> con il pulsante <hex:024804F201FA03><hex:024904F201FB03>Imposta Azioni<hex:0249020103><hex:0248020103> nella finestra della Ricerca Spedizioni V&C."
   },
   "18": {
     "name": "Unraveling the Story",
-    "translation_name": "",
+    "translation_name": "Svelare la Storia",
     "description": "Variant dungeons feature \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003Ebranching paths\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E, and by exploring these choices alongside the quest character will you reveal new elements of the overarching story.\u003Chex:02100103\u003E\u003Chex:02100103\u003EUpon completing each path, a new entry will be added to the journal or expedition log associated with the dungeon. Simply open the V\u0026C Dungeon Finder window and select the character portrait to browse the completed entries.",
-    "translation_description": ""
+    "translation_description": "Le spedizioni Variant presentano <hex:024804F201FA03><hex:024904F201FB03>percorsi ramificati<hex:0249020103><hex:0248020103>: esplorando le varie possibilità insieme al personaggio della missione, scoprirai nuovi elementi della storia complessiva.<hex:02100103><hex:02100103>Al completamento di ogni percorso, verrà aggiunta una nuova voce al diario o al registro di spedizione associato. Apri la finestra della Ricerca Spedizioni V&C e seleziona il ritratto del personaggio per consultare le voci completate."
   },
   "19": {
     "name": "Criterion Dungeons",
-    "translation_name": "",
+    "translation_name": "Spedizioni Criterio",
     "description": "You have unlocked \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003Ecriterion dungeons\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E, a tier of difficulties which can be accessed by switching the tab at the top of the V\u0026C Dungeon Finder window. \u003Chex:02100103\u003E\u003Chex:02100103\u003ECriterion dungeons have no accompanying NPC or branching paths to explore. In place of newly discovered story elements, the tab will instead display a list of available dungeons, as well as the amount of \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003Especial currency\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E earned from attempting these more punishing challenges.",
-    "translation_description": ""
+    "translation_description": "Hai sbloccato le <hex:024804F201FA03><hex:024904F201FB03>spedizioni Criterio<hex:0249020103><hex:0248020103>, un livello di difficoltà accessibile selezionando la scheda in alto nella finestra della Ricerca Spedizioni V&C.<hex:02100103><hex:02100103>Le spedizioni Criterio non includono NPC né percorsi ramificati da esplorare. Al posto di nuove parti della storia, la scheda mostra un elenco delle spedizioni disponibili e la quantità di <hex:024804F201FA03><hex:024904F201FB03>valuta speciale<hex:0249020103><hex:0248020103> ottenuta affrontando queste sfide impegnative."
   },
   "20": {
     "name": "Criterion Dungeon Restrictions",
-    "translation_name": "",
+    "translation_name": "Restrizioni delle Spedizioni Criterio",
     "description": "Unlike variant dungeons, criterion dungeons \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003Edo not allow job changes\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E. Resurrection via Raise or other abilities is also restricted, being permitted only through use of the special action Variant Raise II.",
-    "translation_description": ""
+    "translation_description": "A differenza delle spedizioni Variant, quelle Criterio <hex:024804F201FA03><hex:024904F201FB03>non consentono di cambiare Job<hex:0249020103><hex:0248020103>. Anche la resurrezione con Reiz o altre abilità è limitata: è consentito soltanto usare l’azione speciale Reiz Variante II."
   },
   "21": {
     "name": "Party Member Portraits",
-    "translation_name": "",
+    "translation_name": "Ritratti dei Membri del Gruppo",
     "description": "By way of introduction, party member portraits are automatically displayed at the beginning of assorted duties. While size and positioning cannot be adjusted during its initial display, this window may be disabled via the gear icon of the Party Member Portraits window or in Character Configuration settings.",
-    "translation_description": ""
+    "translation_description": "I ritratti dei membri del gruppo vengono mostrati automaticamente all’inizio di alcuni incarichi. Durante la visualizzazione iniziale non puoi modificarne la dimensione o la posizione. Puoi disattivare la finestra dall’icona a forma di ingranaggio nella finestra dei ritratti dei membri del gruppo o nelle impostazioni della Configurazione Personaggio."
   },
   "22": {
     "name": "Displaying Party Member Portraits",
-    "translation_name": "",
+    "translation_name": "Visualizzare i Ritratti dei Membri del Gruppo",
     "description": "Party member portraits may be manually displayed during a duty by accessing the Duty Menu, selecting the Functions tab, and then pressing \u201CDisplay Party Member Portraits.\u201D You may also redisplay party member portraits via the corresponding notification.",
-    "translation_description": ""
+    "translation_description": "Durante un incarico, puoi mostrare manualmente i ritratti dei membri del gruppo aprendo il Menu Incarico, selezionando la scheda Funzioni e premendo «Mostra ritratti dei membri del gruppo». Puoi visualizzarli di nuovo anche dalla notifica corrispondente."
   },
   "23": {
     "name": "Settings",
-    "translation_name": "",
+    "translation_name": "Impostazioni",
     "description": "The following settings may be adjusted via the gear icon in the Party Member Portraits window:\u003Chex:02100103\u003E\u003Chex:02100103\u003E  \u30FBShow party member portraits at the start of duty.\u003Chex:02100103\u003E  \u30FBDisplay party member portraits notification.\u003Chex:02100103\u003E  \u30FBAllow compact portrait display.",
-    "translation_description": ""
+    "translation_description": "Puoi modificare le seguenti impostazioni dall’icona a forma di ingranaggio nella finestra dei ritratti dei membri del gruppo:<hex:02100103><hex:02100103>  ・Mostra i ritratti dei membri del gruppo all’inizio dell’incarico.<hex:02100103>  ・Mostra la notifica dei ritratti dei membri del gruppo.<hex:02100103>  ・Consenti la visualizzazione compatta dei ritratti."
   },
   "25": {
     "name": "Variant Dungeon Item Level",
-    "translation_name": "",
+    "translation_name": "Livello Oggetto delle Spedizioni Variant",
     "description": "When exploring a variant dungeon with a light party (4 players) formed via \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003Ematching\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E, all players must fulfill the required \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003Eaverage item level\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.\u003Chex:02100103\u003E\u003Chex:02100103\u003EPlease note that fulfilling average item level is not required when exploring solo or with a preformed party.",
-    "translation_description": ""
+    "translation_description": "Quando affronti una spedizione Variant con un gruppo leggero (4 giocatori) formato tramite <hex:024804F201FA03><hex:024904F201FB03>abbinamento<hex:0249020103><hex:0248020103>, tutti i membri devono raggiungere il <hex:024804F201FA03><hex:024904F201FB03>livello oggetto medio<hex:0249020103><hex:0248020103> richiesto.<hex:02100103><hex:02100103>Il livello oggetto medio richiesto non si applica se affronti la spedizione da solo o con un gruppo già formato."
   },
   "26": {
     "name": "Criterion Dungeon Matching",
-    "translation_name": "",
+    "translation_name": "Abbinamento per Spedizioni Criterio",
     "description": "The \u201C\u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EDuty Complete\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u201D option is only available to those who have previously completed that particular duty.",
-    "translation_description": ""
+    "translation_description": "L’opzione «<hex:024804F201FA03><hex:024904F201FB03>Incarico Completato<hex:0249020103><hex:0248020103>» è disponibile solo se hai già completato l’incarico."
   },
   "27": {
     "name": "Command Panel",
-    "translation_name": "",
+    "translation_name": "Pannello Comandi",
     "description": "The Command Panel allows you to freely register various actions and commands including mounts, minions, emotes, and gear sets for easy access and execution.",
-    "translation_description": ""
+    "translation_description": "Il Pannello Comandi permette di registrare liberamente azioni e comandi, fra cui cavalcature, minion, emote e set equipaggiamento, per accedervi ed eseguirli rapidamente."
   },
   "28": {
     "name": "Registering Commands",
-    "translation_name": "",
+    "translation_name": "Registrare Comandi",
     "description": "\u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EUsing a \u003Chex:0242020203\u003E\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u003Chex:02100103\u003EOpen the Hotbar Palette, then select \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EAssign to Command Panel\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.\u003Chex:02100103\u003E\u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EUsing a Mouse and Keyboard\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u003Chex:02100103\u003EThe desired command or action can be freely dragged and dropped to your desired slot in the Command Panel.",
-    "translation_description": ""
+    "translation_description": "<hex:024804F201FA03><hex:024904F201FB03>Con il controller <hex:0242020203><hex:0249020103><hex:0248020103><hex:02100103>apri la Tavolozza della Barra Azioni, quindi seleziona <hex:024804F201FA03><hex:024904F201FB03>Assegna al Pannello Comandi<hex:0249020103><hex:0248020103>.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Con mouse e tastiera<hex:0249020103><hex:0248020103><hex:02100103>Puoi trascinare liberamente il comando o l’azione desiderati nello slot che preferisci del Pannello Comandi."
   },
   "29": {
     "name": "Settings",
-    "translation_name": "",
+    "translation_name": "Impostazioni",
     "description": "Selecting the gear icon on the upper right corner of the panel will open the settings menu.\u003Chex:02100103\u003EHere you can fine-tune the functionality of the panel including its behavior after executing commands, cursor position, and panel transparency.",
-    "translation_description": ""
+    "translation_description": "Seleziona l’icona a forma di ingranaggio nell’angolo in alto a destra del pannello per aprire il menu delle impostazioni.<hex:02100103>Da qui puoi regolare il comportamento del pannello dopo l’esecuzione dei comandi, la posizione del cursore e la trasparenza."
   },
   "30": {
     "name": "Using the Command Panel",
-    "translation_name": "",
+    "translation_name": "Uso del Pannello Comandi",
     "description": "\u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003E\u003Chex:0242020203\u003E\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u003Chex:02100103\u003EWhen opening the Command Panel, the cursor will default to the center slot. This allows you to easily reach all slots of the panel within two steps.\u003Chex:02100103\u003E\u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EMouse and Keyboard\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u003Chex:02100103\u003EActions and commands assigned to the panel can be clicked directly with your mouse. The mouse wheel can also be used to quickly change between tabs of the panel.",
-    "translation_description": ""
+    "translation_description": "<hex:024804F201FA03><hex:024904F201FB03><hex:0242020203><hex:0249020103><hex:0248020103><hex:02100103>Quando apri il Pannello Comandi, il cursore si posiziona per impostazione predefinita sullo slot centrale. In questo modo puoi raggiungere facilmente tutti gli slot del pannello in due passaggi.<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>Mouse e tastiera<hex:0249020103><hex:0248020103><hex:02100103>Puoi fare clic con il mouse sulle azioni e sui comandi assegnati al pannello. Puoi anche usare la rotellina per passare rapidamente da una scheda all’altra."
   },
   "31": {
     "name": "Savage Criterion Restrictions",
-    "translation_name": "",
+    "translation_name": "Restrizioni delle Spedizioni Criterio Selvagge",
     "description": "Criterion dungeons of \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003ESavage\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E difficulty disable the use of variant actions completely, and must be attempted by preformed four-player parties meeting the entry requirements.",
-    "translation_description": ""
+    "translation_description": "Le spedizioni Criterio di difficoltà <hex:024804F201FA03><hex:024904F201FB03>Selvaggia<hex:0249020103><hex:0248020103> disattivano completamente le azioni Variant e possono essere affrontate solo da gruppi preformati di quattro giocatori che soddisfano i requisiti di accesso."
   },
   "32": {
     "name": "Variant Dungeon Level Sync",
-    "translation_name": "",
+    "translation_name": "Sincronizzazione del Livello nelle Spedizioni Variant",
     "description": "You must be level 90 or above to participate in a variant dungeon. If you are below the duty level, you will be \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003Elevel synced\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E accordingly.\u003Chex:02100103\u003E\u003Chex:02100103\u003EUpon completing a variant dungeon while level synced, you will be awarded \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003Eexperience points\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E in place of Allagan tomestones.",
-    "translation_description": ""
+    "translation_description": "Per partecipare a una spedizione Variant devi essere almeno di livello 90. Se il tuo livello è superiore a quello dell’incarico, verrà <hex:024804F201FA03><hex:024904F201FB03>sincronizzato<hex:0249020103><hex:0248020103> di conseguenza.<hex:02100103><hex:02100103>Completando una spedizione Variant con il livello sincronizzato, riceverai <hex:024804F201FA03><hex:024904F201FB03>punti esperienza<hex:0249020103><hex:0248020103> al posto delle Tomoliti Allagane."
   },
   "33": {
     "name": "Variant Dungeons (Advanced)",
-    "translation_name": "",
+    "translation_name": "Spedizioni Variant (Avanzate)",
     "description": "You have unlocked \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003Evariant dungeons (advanced)\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E, which can be accessed by switching the tab at the top of the V\u0026C Dungeon Finder window.\u003Chex:02100103\u003E\u003Chex:02100103\u003EIn variant dungeons (advanced), you will \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003Efight the bosses\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E from the corresponding variant dungeon in the order of your choosing. After each individual battle, you will have the option to complete the duty.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003ETwo variant actions can be selected for use\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E in variant dungeons (advanced).\u003Chex:02100103\u003E\u003Chex:02100103\u003ETwo to four players are required and \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003Ematching will be carried out to fill the party when registering alone\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.\u003Chex:02100103\u003E",
-    "translation_description": ""
+    "translation_description": "Hai sbloccato le <hex:024804F201FA03><hex:024904F201FB03>spedizioni Variant (avanzate)<hex:0249020103><hex:0248020103>, accessibili selezionando la scheda in alto nella finestra della Ricerca Spedizioni V&C.<hex:02100103><hex:02100103>Nelle spedizioni Variant (avanzate), puoi <hex:024804F201FA03><hex:024904F201FB03>affrontare i boss<hex:0249020103><hex:0248020103> della spedizione Variant corrispondente nell’ordine che preferisci. Dopo ogni scontro puoi scegliere di completare l’incarico.<hex:02100103><hex:02100103>Puoi selezionare <hex:024804F201FA03><hex:024904F201FB03>due azioni Variant<hex:0249020103><hex:0248020103> da usare nelle spedizioni Variant (avanzate).<hex:02100103><hex:02100103>È necessario partecipare in due, tre o quattro giocatori. <hex:024804F201FA03><hex:024904F201FB03>Il sistema abbinerà altri giocatori per completare il gruppo quando ti registri da solo<hex:0249020103><hex:0248020103>.<hex:02100103>"
   },
   "34": {
     "name": "Accessing the Command Panel",
-    "translation_name": "",
+    "translation_name": "Accesso al Pannello Comandi",
     "description": "The Command Panel can be found under the \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003EExtras tab of the Actions \u0026 Traits menu\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.\u003Chex:02100103\u003E\u003Chex:02100103\u003EIt can also be accessed via the following methods:\u003Chex:02100103\u003E\u30FBShortcuts assigned to the hotbar\u003Chex:02100103\u003E\u30FBConfigured key assignments:\u003Chex:02100103\u003E\u3000System Configuration \u2192 \u003Chex:0242021603\u003E Settings\u003Chex:02100103\u003E\u30FBKeybinds\u003Chex:02100103\u003E\u30FBText Commands",
-    "translation_description": ""
+    "translation_description": "Puoi trovare il Pannello Comandi nella scheda <hex:024804F201FA03><hex:024904F201FB03>Extra del menu Azioni e Tratti<hex:0249020103><hex:0248020103>.<hex:02100103><hex:02100103>Puoi accedervi anche nei modi seguenti:<hex:02100103>・Scorciatoie assegnate alla Barra Azioni<hex:02100103>・Assegnazioni dei tasti configurate:<hex:02100103>　Configurazione di Sistema → <hex:0242021603> Impostazioni<hex:02100103>・Assegnazioni Tasti<hex:02100103>・Comandi Testuali"
   }
 }

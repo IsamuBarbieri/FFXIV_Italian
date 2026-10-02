@@ -1,19 +1,19 @@
 {
   "2359297": {
     "name": "Monster Toss",
-    "translation_name": "",
+    "translation_name": "Mostro nel Cesto",
     "description": "It\u0027s all in the wrist!\u003Chex:02100103\u003E\u003Chex:02100103\u003EPayout:\u003Chex:02100103\u003E1-2 points \u2192 20 MGP\u003Chex:02100103\u003E3-4 points \u2192 30 MGP\u003Chex:02100103\u003E5\uFF5E  points \u2192 50 MGP",
-    "translation_description": "",
+    "translation_description": "Basta avere un po' di polso!<hex:02100103><hex:02100103>Premio:<hex:02100103>1-2 punti → 20 MGP<hex:02100103>3-4 punti → 30 MGP<hex:02100103>5～ punti → 50 MGP",
     "col_2": "",
     "translation_col_2": "",
     "col_3": "Shots Made",
-    "translation_col_3": ""
+    "translation_col_3": "Tiri Riusciti"
   },
   "2359298": {
     "name": "The Moogle\u0027s Paw",
-    "translation_name": "",
+    "translation_name": "La Zampa del Moogle",
     "description": "Seize the day...and the loot!\u003Chex:02100103\u003E\u003Chex:02100103\u003EPayout:\u003Chex:02100103\u003ELarge item \u2192 10 MGP\u003Chex:02100103\u003ESmall item \u2192 25 MGP",
-    "translation_description": "",
+    "translation_description": "Cogli l'attimo... e il bottino!<hex:02100103><hex:02100103>Premio:<hex:02100103>Oggetto grande → 10 MGP<hex:02100103>Oggetto piccolo → 25 MGP",
     "col_2": "",
     "translation_col_2": "",
     "col_3": "",
@@ -21,9 +21,9 @@
   },
   "2359299": {
     "name": "Crystal Tower Striker",
-    "translation_name": "",
+    "translation_name": "Il Martello della Torre di Cristallo",
     "description": "Swing with all your might!\u003Chex:02100103\u003E\u003Chex:02100103\u003EPayout:\u003Chex:02100103\u003EGLANCING! \u2192 10 MGP\u003Chex:02100103\u003ECRUSHING!! \u2192 15 MGP\u003Chex:02100103\u003EPULVERIZING!!! \u2192 25 MGP",
-    "translation_description": "",
+    "translation_description": "Colpisci con tutte le tue forze!<hex:02100103><hex:02100103>Premio:<hex:02100103>DI STRISCIO! → 10 MGP<hex:02100103>DEVASTANTE!! → 15 MGP<hex:02100103>POLVERIZZANTE!!! → 25 MGP",
     "col_2": "",
     "translation_col_2": "",
     "col_3": "",
@@ -31,9 +31,9 @@
   },
   "2359300": {
     "name": "Cuff-a-Cur",
-    "translation_name": "",
+    "translation_name": "Picchia Chi Può",
     "description": "Aim for the sweet spot!\u003Chex:02100103\u003E\u003Chex:02100103\u003EPayout:\u003Chex:02100103\u003EBRUISING! \u2192 10 MGP\u003Chex:02100103\u003EPUNISHING!! \u2192 15 MGP\u003Chex:02100103\u003EBRUTAL!!! \u2192 25 MGP",
-    "translation_description": "",
+    "translation_description": "Mira al punto giusto!<hex:02100103><hex:02100103>Premio:<hex:02100103>DOLOROSO! → 10 MGP<hex:02100103>PUNITIVO!! → 15 MGP<hex:02100103>BRUTALE!!! → 25 MGP",
     "col_2": "",
     "translation_col_2": "",
     "col_3": "",
@@ -41,22 +41,22 @@
   },
   "2359301": {
     "name": "The Finer Miner",
-    "translation_name": "",
+    "translation_name": "Il Minatore Matto",
     "description": "Swing to determine the\u003Chex:02100103\u003Enumber of mining attempts.\u003Chex:02100103\u003EThe fewer attempts available,\u003Chex:02100103\u003Ethe higher the payout!\u003Chex:02100103\u003E\u003Chex:02100103\u003ETitan \u2192 4 times\u003Chex:02100103\u003EMorbol \u2192 5 times\u003Chex:02100103\u003ECactuar \u2192 6 times",
-    "translation_description": "",
+    "translation_description": "Colpisci per determinare il<hex:02100103>numero di tentativi di scavo.<hex:02100103>Meno tentativi hai a disposizione,<hex:02100103>maggiore sarà il premio!<hex:02100103><hex:02100103>Titan → 4 volte<hex:02100103>Morbol → 5 volte<hex:02100103>Cactuar → 6 volte",
     "col_2": "Swing the pickaxe to locate the\u003Chex:02100103\u003Ehidden ore. The closer you are, the\u003Chex:02100103\u003Emore the mining gauge is reduced.\u003Chex:02100103\u003EYou win if the gauge reaches zero\u003Chex:02100103\u003Ebefore you run out of attempts.",
-    "translation_col_2": "",
+    "translation_col_2": "Colpisci con il piccone per trovare il<hex:02100103>minerale nascosto. Più ti avvicini,<hex:02100103>più cala l'indicatore di scavo.<hex:02100103>Vinci se l'indicatore arriva a zero<hex:02100103>prima che finiscano i tentativi.",
     "col_3": "MGP Earned",
-    "translation_col_3": ""
+    "translation_col_3": "MGP Ottenuti"
   },
   "2359302": {
     "name": "Out on a Limb",
-    "translation_name": "",
+    "translation_name": "Il Potatore Matto",
     "description": "Swing to determine\u003Chex:02100103\u003Ethe gauge speed.\u003Chex:02100103\u003EThe higher the speed,\u003Chex:02100103\u003Ethe higher the payout!\u003Chex:02100103\u003E\u003Chex:02100103\u003ETitan \u2192 Very fast\u003Chex:02100103\u003EMorbol \u2192 Fast\u003Chex:02100103\u003ECactuar \u2192 Slow",
-    "translation_description": "",
+    "translation_description": "Colpisci per determinare<hex:02100103>la velocità dell'indicatore.<hex:02100103>Più è alta la velocità,<hex:02100103>maggiore sarà il premio!<hex:02100103><hex:02100103>Titan → Molto alta<hex:02100103>Morbol → Alta<hex:02100103>Cactuar → Bassa",
     "col_2": "Swing the hatchet to locate the\u003Chex:02100103\u003Ehidden timber. The closer you are,\u003Chex:02100103\u003Ethe more the gathering gauge is reduced.\u003Chex:02100103\u003EYou win if the gauge reaches zero\u003Chex:02100103\u003Ebefore you run out of attempts.",
-    "translation_col_2": "",
+    "translation_col_2": "Colpisci con l'accetta per trovare il<hex:02100103>legname nascosto. Più ti avvicini,<hex:02100103>più cala l'indicatore di raccolta.<hex:02100103>Vinci se l'indicatore arriva a zero<hex:02100103>prima che finiscano i tentativi.",
     "col_3": "MGP Earned",
-    "translation_col_3": ""
+    "translation_col_3": "MGP Ottenuti"
   }
 }
