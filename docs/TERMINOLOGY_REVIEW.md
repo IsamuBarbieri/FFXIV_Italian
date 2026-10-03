@@ -1,6 +1,6 @@
 # Revisione terminologica assistita
 
-Il glossario approvato in `data/glossary/Glossary.md` resta la fonte editoriale. Un file completo non diventa automaticamente una fonte approvata: va revisionato e aggiunto all'elenco del glossario. Ogni voce nuova deve indicare `percorso#ID:campo` e una nota d'uso se il termine è ambiguo.
+Il glossario in `data/glossary/Glossary.md` resta la fonte editoriale. Un file completo non diventa automaticamente approvato: per aggiungerlo alle fonti approvate va prima revisionato e inserito nell'elenco. Le voci indicano `percorso#ID:campo`, una fonte contestuale `@review/percorso#ID:campo` oppure «Decisione dell'utente» quando la scelta è stata confermata esplicitamente; una citazione `@review/` non promuove il file. Aggiungere una nota d'uso per i termini ambigui.
 
 Lo strumento `tools/terminology_review.py` usa solo la libreria standard di Python. Non modifica le traduzioni durante la raccolta o la scansione. La coda JSON contiene la frase originale, la traduzione attuale, le varianti canoniche e le fonti. `status` parte sempre da `pending`.
 
@@ -25,7 +25,7 @@ python tools/terminology_review.py scan --term "The Waking Sands" --old "Sabbie 
 python tools/terminology_review.py scan --term "Dzemael Darkhold" --out data/glossary/review_dzemael.json
 ```
 
-La coda predefinita è `data/glossary/review.json`. `--file` restringe la scansione; senza `--file` vengono letti tutti i JSON di traduzione. I file approvati sono esclusi dalla scansione ordinaria; `--include-approved` li include per analizzare l'impatto di un cambio di nome. `--old` trova anche frasi che contengono la vecchia resa italiana. I nomi lunghi e le voci singole vengono trattati in modo diverso per ridurre gli omonimi. Le stringhe oltre 2500 caratteri richiedono una verifica manuale separata.
+La coda predefinita è `data/glossary/review.json`. `--file` restringe la scansione ai JSON relativi a `data/translations`; per un singolo file in revisione si può usare `--file @review/<categoria>/<file>.json`. Senza `--file` vengono letti i JSON canonici non approvati; `--include-approved` aggiunge quelli elencati nel glossario, mentre `--include-review` aggiunge tutti i file in `data/da_revisionare/`. Per controllare l'intero corpus canonico/deployato e quello in revisione senza limiti di righe, usare `scan --include-review --include-approved --all-matches --limit 0`. `--old` trova anche frasi che contengono la vecchia resa italiana. I nomi lunghi e le voci singole vengono trattati in modo diverso per ridurre gli omonimi. Le stringhe oltre 2500 caratteri richiedono una verifica manuale separata.
 
 `harvest` e `scan` non sovrascrivono una coda esistente. Usare un nuovo percorso `--out` per una nuova sessione, oppure `--overwrite` solo dopo aver archiviato le decisioni precedenti.
 
@@ -33,7 +33,7 @@ La scansione generale mostra al massimo cinque esempi per termine, così un nome
 
 Quando cambia un nome canonico, aggiornare prima la riga approvata e la corrispondente voce del glossario, poi eseguire `scan --term "NOME INGLESE" --old "VECCHIA FORMA" --include-approved`. Le fonti del glossario devono continuare a corrispondere al testo dei file approvati.
 
-Le segnalazioni sono ipotesi: l'assenza della forma letterale può essere una parafrasi corretta; una parola inglese può essere un nome proprio, un comando tecnico o avere un altro significato. La presenza della forma canonica non dimostra da sola che gli accordi siano giusti. Nei testi combat, per esempio, *maelstrom* può indicare un «vortice», *stacks* degli «accumuli», *landing* un attacco che va a segno e *feast* un banchetto in senso comune.
+Le segnalazioni sono ipotesi: l'assenza della forma letterale può essere una parafrasi corretta; una parola inglese può essere un nome proprio, un comando tecnico o avere un altro significato. La presenza della forma canonica non dimostra da sola che gli accordi siano giusti. Il controllo grammaticale è intenzionalmente limitato a regole esplicite e può segnalare casi contestuali validi: verificare sempre l'intera voce. Nei testi combat, per esempio, *maelstrom* può indicare un «vortice», *stacks* degli «accumuli», *landing* un attacco che va a segno e *feast* un banchetto in senso comune.
 
 ## 3. Revisionare nella chat di coding
 

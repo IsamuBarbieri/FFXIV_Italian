@@ -1,6 +1,6 @@
-﻿# Glossario approvato — FFXIV Italiano
+# Glossario approvato — FFXIV Italiano
 
-Fonte terminologica per le traduzioni future. Le voci derivano solo dai file revisionati elencati sotto; le tabelle sono intenzionalmente selettive. I termini inglesi servono da riferimento e non vanno aggiunti tra parentesi nel testo di gioco.
+Fonte terminologica per le traduzioni future. Le voci derivano dai file approvati elencati sotto, da file esplicitamente marcati `@review/` come riferimento contestuale o da decisioni terminologiche confermate dall'utente; le tabelle sono intenzionalmente selettive. Citare un file in revisione non lo promuove allo stato approvato. I termini inglesi servono da riferimento e non vanno aggiunti tra parentesi nel testo di gioco.
 
 **Catalogo completo dei luoghi:** tutte le 5.302 coppie `name`/`translation` di `data/translations/world/placename.json` fanno parte del glossario, con fonte `world/placename.json#ID:name`. Il file approvato è la tabella integrale; la sezione Luoghi qui sotto evidenzia anche le rese canoniche appena uniformate. Le voci che contengono tag richiedono una revisione SeString.
 
@@ -307,20 +307,20 @@ Per i **nomi di incantesimi e gli aspetti elementali combat**, usare le radici c
 | Aetheryte | Eterite | `system/addon.json#8511:original` |  |
 | Aethernet | Eternet | `system/addon.json#2720:original` |  |
 | Gil | Gil | `system/addon.json#830:original` |  |
-| Scrip | Gettone | `dialogue/topicselect.json#3276859:original` | Valuta degli Artigiani e dei Raccoglitori; al plurale usare «Gettoni degli Artigiani/dei Raccoglitori». |
-| Simular | Simulacro | `items/xbmitem.json#146:col_2` | Categoria di mangime; nei nomi composti usare «Simulacro di [ingrediente]» e al plurale «Simulacri di [ingrediente]». |
-| Claret Dragon | Drago Cremisi | `world/mkdlore.json#285:name` | Nome della creatura; nel composto «Claret Dragon's Power» usare «Potere del Drago Cremisi». |
-| Scion of the Seventh Dawn | Figlio della Settima Alba | `world/enpcresident.json#1003851:name` | Singolare del titolo; adattare al genere della persona («Figlia della Settima Alba» per una donna); al plurale «Scions of the Seventh Dawn» → «Figli della Settima Alba». |
-| Scion | Figlio | `world/enpcresident.json#1003851:name` | Forma singolare; usare «Figlia» per una donna. |
-| Scions | Figli | `world/enpcresident.json#1003851:name` | Forma plurale del nome del gruppo. |
-| Delineation | Compendio | `crafting/craftaction.json#100179:description` | Risorsa consumata dalle Azioni da Specialista; usare «Compendio di [disciplina]» e, per «Crafter's Delineation», «Compendio dell'Artigiano». |
-| Light-heavyweight | Pesi Leggeri | `world/contentfindercondition.json#985:original` | Categoria di peso AAC M1–M4. |
-| Cruiserweight | Pesi Medi | `world/contentfindercondition.json#1019:original` | Categoria di peso AAC M1–M4. |
-| Heavyweight | Pesi Massimi | `world/contentfindercondition.json#1068:original` | Categoria di peso AAC M1–M4. |
-| Ultimate raid | Incursione Suprema | `housing/bannerobtainhinttype.json#61:original` | «Suprema» è la resa della modalità Ultimate. |
-| Blunderful | Blunderful | `housing/bannerdecoration.json#187:original` | Nome ufficiale della cornice Fall Guys; lasciare in inglese. |
-| Blunderous | Blunderous | `housing/bannerdecoration.json#188:original` | Nome ufficiale della cornice Fall Guys; lasciare in inglese. |
-| Blunder-villed | Blunder-villed | `housing/bannerdecoration.json#189:original` | Nome ufficiale della cornice Fall Guys; lasciare in inglese. |
+| Scrip | Gettone | Decisione dell'utente | Valuta degli Artigiani e dei Raccoglitori; al plurale usare «Gettoni degli Artigiani/dei Raccoglitori». |
+| Simular | Simulacro | Decisione dell'utente | Categoria di mangime; nei nomi composti usare «Simulacro di [ingrediente]» e al plurale «Simulacri di [ingrediente]». |
+| Claret Dragon | Drago Cremisi | Decisione dell'utente | Nome della creatura; nel composto «Claret Dragon's Power» usare «Potere del Drago Cremisi». |
+| Scion of the Seventh Dawn | Figlio della Settima Alba | Decisione dell'utente | Singolare del titolo; adattare al genere della persona («Figlia della Settima Alba» per una donna); al plurale «Scions of the Seventh Dawn» → «Figli della Settima Alba». |
+| Scion | Figlio | Decisione dell'utente | Forma singolare; usare «Figlia» per una donna. |
+| Scions | Figli | Decisione dell'utente | Forma plurale del nome del gruppo. |
+| Delineation | Compendio | `@review/crafting/craftaction.json#100179:description` | Risorsa consumata dalle Azioni da Specialista; usare «Compendio di [disciplina]» e, per «Crafter's Delineation», «Compendio dell'Artigiano». |
+| Light-heavyweight | Pesi Leggeri | Decisione dell'utente | Categoria di peso AAC M1–M4. |
+| Cruiserweight | Pesi Medi | Decisione dell'utente | Categoria di peso AAC M1–M4. |
+| Heavyweight | Pesi Massimi | Decisione dell'utente | Categoria di peso AAC M1–M4. |
+| Ultimate raid | Incursione Suprema | Decisione dell'utente | «Suprema» è la resa della modalità Ultimate. |
+| Blunderful | Blunderful | Decisione dell'utente | Nome ufficiale della cornice Fall Guys; lasciare in inglese. |
+| Blunderous | Blunderous | Decisione dell'utente | Nome ufficiale della cornice Fall Guys; lasciare in inglese. |
+| Blunder-villed | Blunder-villed | Decisione dell'utente | Nome ufficiale della cornice Fall Guys; lasciare in inglese. |
 | The Black Shroud | Velo Nero | `system/addon.json#1578:original` |  |
 | Chocobo | Chocobo | `system/addon.json#9081:original` |  |
 | Retainer | Servitore | `system/addon.json#532:original` |  |
@@ -330,7 +330,7 @@ Per i **nomi di incantesimi e gli aspetti elementali combat**, usare le radici c
 | Achievement | Obiettivo | `system/addon.json#1484:original` | Varianti ammesse in prosa: «obiettivi». |
 | Quest | Missione | `system/addon.json#12723:original` | Categoria generale, singolare. |
 | Job | Job | `system/addon.json#684:original` |  |
-| Job Gauge| Barra Job |  |  |
+| Job Gauge | Indicatore Job | `system/addon.json#11182:original` | Forma attestata in «Job Gauge Details» → «Dettagli Indicatore Job». |
 | Class | Classe | `system/addon.json#869:original` |  |
 | HP | PV | `system/addon.json#1000:original` |  |
 | MP | PM | `system/addon.json#724:original` |  |
@@ -368,7 +368,7 @@ Per i **nomi di incantesimi e gli aspetti elementali combat**, usare le radici c
 | Thaumaturge | Taumaturgo | `world/classjob.json#7:name` |  |
 | Carpenter | Falegname | `world/classjob.json#8:name` |  |
 | Blacksmith | Fabbro | `world/classjob.json#9:name` |  |
-| Armorer | Armaiolo | `world/classjob.json#10:name` |  |
+| Armorer | Corazziere | `world/classjob.json#10:name` | Nome della classe artigiana; usare «corazziere» anche nei composti e nelle descrizioni. |
 | Goldsmith | Orefice | `world/classjob.json#11:name` |  |
 | Leatherworker | Conciatore | `world/classjob.json#12:name` |  |
 | Weaver | Tessitore | `world/classjob.json#13:name` |  |
@@ -416,7 +416,7 @@ Per i **nomi di incantesimi e gli aspetti elementali combat**, usare le radici c
 | THM | TAU | `world/classjobcategory.json#8:original` | Sigla del Taumaturgo. |
 | CRP | FAL | `world/classjobcategory.json#9:original` | Sigla del Falegname. |
 | BSM | FBR | `world/classjobcategory.json#10:original` | Sigla del Fabbro. |
-| ARM | ARM | `world/classjobcategory.json#11:original` | Sigla dell'Armaiolo. |
+| ARM | COR | `world/classjobcategory.json#11:original` | Sigla del Corazziere. |
 | GSM | ORE | `world/classjobcategory.json#12:original` | Sigla dell'Orefice. |
 | LTW | CON | `world/classjobcategory.json#13:original` | Sigla del Conciatore. |
 | WVR | TES | `world/classjobcategory.json#14:original` | Sigla del Tessitore. |
@@ -487,6 +487,7 @@ Catalogo integrale: `data/translations/world/placename.json`. Cercare il nome in
 | Inglese | Italiano | Fonte | Uso |
 | --- | --- | --- | --- |
 | Vesper Bay | Baia del Vespro | `world/placename.json#274:name` |  |
+| Archeo Alexandria | Archeo Alexandria | `world/placename.json#4676:name` | Conservare il toponimo ufficiale «Alexandria», senza adattarlo in «Alessandria». |
 | Aleport | Portobirra | `world/placename.json#223:name` |  |
 | Wineport | Portovino | `world/placename.json#216:name` |  |
 | Quarrymill | Cavamulino | `world/placename.json#129:name` |  |

@@ -11,6 +11,8 @@ import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
 TRANSLATIONS = ROOT / "data" / "translations"
+REVIEW = ROOT / "data" / "da_revisionare"
+REVIEW_PREFIX = "@review/"
 GLOSSARY = ROOT / "data" / "glossary" / "Glossary.md"
 PLACE_NAMES = ROOT / "data" / "translations" / "world" / "placename.json"
 TAGS = re.compile(r"<[^>]+>|\{[^{}]+\}")
@@ -45,7 +47,12 @@ def glossary():
             if len(cells) != 4:
                 raise ValueError(f"Riga glossario non valida: {line}")
             source = cells[2].split("#", 1)[0]
-            if source not in approved:
+            review_source = source.removeprefix(REVIEW_PREFIX)
+            review_path = (REVIEW / review_source).resolve()
+            if (source not in approved and
+                    not source.startswith("Decisione dell'utente") and
+                    not (source.startswith(REVIEW_PREFIX) and review_path.is_relative_to(REVIEW.resolve())
+                         and review_path.is_file())):
                 raise ValueError(f"Fonte non approvata: {cells[2]}")
             entries.append(dict(english=cells[0], italian=cells[1], reference=cells[2], category=category, usage=cells[3]))
     if "world/placename.json" in approved:
@@ -72,17 +79,27 @@ def pairs(row):
             yield source, target, original, row[target]
 
 
-def selected_files(name):
+def selected_files(name, include_review=False):
     if name:
-        path = (TRANSLATIONS / name).resolve()
-        if not path.is_relative_to(TRANSLATIONS.resolve()):
-            raise ValueError(f"Percorso di traduzione non valido: {name}")
+        review_file = name.startswith(REVIEW_PREFIX)
+        root = REVIEW if review_file else TRANSLATIONS
+        relative = name[len(REVIEW_PREFIX):] if review_file else name
+        path = (root / relative).resolve()
+        if not path.is_relative_to(root.resolve()):
+            raise ValueError(f"Percorso non valido: {name}")
+        prefix = REVIEW_PREFIX if review_file else ""
         if path.is_file():
-            return [path]
+            return [(path, prefix + path.relative_to(root.resolve()).as_posix())]
         if path.is_dir():
-            return sorted(path.rglob("*.json"))
+            return [(item, prefix + item.relative_to(root.resolve()).as_posix())
+                    for item in sorted(path.rglob("*.json"))]
         raise ValueError(f"File o cartella di traduzione non validi: {name}")
-    return sorted(TRANSLATIONS.rglob("*.json"))
+    files = [(path, path.relative_to(TRANSLATIONS).as_posix())
+             for path in TRANSLATIONS.rglob("*.json")]
+    if include_review:
+        files.extend((path, REVIEW_PREFIX + path.relative_to(REVIEW).as_posix())
+                     for path in REVIEW.rglob("*.json"))
+    return sorted(files, key=lambda item: item[1].casefold())
 
 
 def approved_name_entries(approved, term):
@@ -570,11 +587,11 @@ def scan(args):
             by_italian[entry["italian"].casefold()].add(name)
     queue = []
     sampled = collections.Counter()
-    for path in selected_files(args.file):
-        relative = path.relative_to(TRANSLATIONS).as_posix()
-        if args.approved_only and relative not in approved:
+    for path, relative in selected_files(args.file, getattr(args, "include_review", False)):
+        in_review = relative.startswith(REVIEW_PREFIX)
+        if args.approved_only and (in_review or relative not in approved):
             continue
-        if not args.approved_only and relative in approved and not args.include_approved:
+        if not args.approved_only and not in_review and relative in approved and not args.include_approved:
             continue
         rows = json.loads(path.read_text(encoding="utf-8-sig"))
         for row_id, row in rows.items():
@@ -686,7 +703,7 @@ def scan(args):
                                       old_italian=args.old or "",
                                       suggestion="", status="pending", note=""))
                     sampled[name] += 1
-                    if len(queue) >= args.limit:
+                    if args.limit and len(queue) >= args.limit:
                         write_json(args.out, queue)
                         print(f"Limite di {args.limit} segnalazioni raggiunto; restringere con --file o --term. Coda: {args.out}")
                         return
@@ -722,8 +739,11 @@ def apply(args):
         grouped[item["file"]].append(item)
     plans = []
     for relative, items in grouped.items():
-        path = (TRANSLATIONS / relative).resolve()
-        if not path.is_relative_to(TRANSLATIONS.resolve()) or not path.is_file():
+        in_review = relative.startswith(REVIEW_PREFIX)
+        root = REVIEW if in_review else TRANSLATIONS
+        name = relative[len(REVIEW_PREFIX):] if in_review else relative
+        path = (root / name).resolve()
+        if not path.is_relative_to(root.resolve()) or not path.is_file():
             raise ValueError(f"File non valido: {relative}")
         original_bytes = path.read_bytes()
         bom = original_bytes.startswith(b"\xef\xbb\xbf")
@@ -785,7 +805,7 @@ def main():
     candidate.add_argument("--overwrite", action="store_true")
     candidate.set_defaults(run=harvest)
     scan_cmd = modes.add_parser("scan", help="Cerca possibili incoerenze nel corpus")
-    scan_cmd.add_argument("--file", help="Percorso relativo a data/translations")
+    scan_cmd.add_argument("--file", help="Percorso relativo a data/translations o @review/<categoria>/<file>.json")
     scan_cmd.add_argument("--term", help="Solo questo termine inglese")
     scan_cmd.add_argument("--old", help="Vecchia forma italiana da cercare dopo una modifica del canone; richiede --term")
     scan_scope = scan_cmd.add_mutually_exclusive_group()
@@ -793,6 +813,8 @@ def main():
                             help="Includi i file approvati nella scansione generale")
     scan_scope.add_argument("--approved-only", action="store_true",
                             help="Scansiona esclusivamente i file elencati come approvati nel glossario")
+    scan_cmd.add_argument("--include-review", action="store_true",
+                          help="Aggiunge tutti i JSON in data/da_revisionare alla scansione")
     scan_cmd.add_argument("--all-matches", action="store_true", help="Non limita a cinque le segnalazioni per termine")
     scan_cmd.add_argument("--strict-canonical-case", action="store_true",
                           help="Controlla le maiuscole rispetto alla forma nell'originale, non solo al canone")
@@ -807,8 +829,11 @@ def main():
     apply_cmd.add_argument("--dry-run", action="store_true")
     apply_cmd.set_defaults(run=apply)
     args = parser.parse_args()
-    if getattr(args, "limit", 1) < 1:
-        parser.error("--limit deve essere positivo")
+    limit = getattr(args, "limit", 1)
+    if args.command == "harvest" and limit < 1:
+        parser.error("--limit deve essere positivo per harvest")
+    if args.command == "scan" and limit < 0:
+        parser.error("--limit non può essere negativo; per nessun limite usare 0")
     try:
         args.run(args)
     except (OSError, ValueError, KeyError, json.JSONDecodeError) as exc:

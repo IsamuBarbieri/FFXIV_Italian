@@ -65,7 +65,7 @@ ITEM_SEARCH = {
     14: "Armi da Taumaturgo", 15: "Armi da Elementalista",
     16: "Armi da Arcanista", 17: "Scudi", 18: "Armi da Danzatore",
     19: "Attrezzi da Falegname", 20: "Attrezzi da Fabbro",
-    21: "Attrezzi da Armaiolo", 22: "Attrezzi da Orefice",
+    21: "Attrezzi da Corazziere", 22: "Attrezzi da Orefice",
     23: "Attrezzi da Conciatore", 24: "Attrezzi da Tessitore",
     25: "Attrezzi da Alchimista", 26: "Attrezzi da Cuoco",
     27: "Attrezzi da Minatore", 28: "Attrezzi da Botanico",

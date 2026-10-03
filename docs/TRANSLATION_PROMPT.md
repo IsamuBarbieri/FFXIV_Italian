@@ -22,6 +22,8 @@ Devi rispettare tassativamente le seguenti REGOLE VINCOLANTI. Qualsiasi deviazio
 - **MAIUSCOLE E MINUSCOLE**: Mantieni nella traduzione le iniziali maiuscole delle parole che sono maiuscole nell'originale. Gli articoli italiani interni alla frase, comprese le forme articolate (*del, dello, della, dei, degli, delle*), restano minuscoli. Esempio: *Order of the Twin Adder* → **Ordine della Vipera Gemella**.
 - **CONVENZIONI E STILE LINGUISTICO**: Traduci in italiano naturale e scorrevole, coerente con la grammatica italiana e il contesto di gioco.
 - **CATEGORIE DI ATTIVITÀ**: Usa le forme del glossario: Quest/Missione, Subquest/Missione secondaria, Duty/Incarico, Levequest e Leve/Mandato, Trial/Prova, Raid/Incursione, Dungeon/Spedizione, Deep Dungeon/Cripta Profonda, Guildhest/Operazione di Gilda e FATE/FATE. Traduci i qualificatori di categoria. Distingui usi comuni e nomi propri dalle etichette di attività.
+- **ETICHETTE E NOMI DI MECCANICHE**: Nelle categorie dei negozi ometti l'azione implicita quando rende la voce prolissa (*Purchase Items* → **Oggetti**); conserva i verbi per comandi e azioni reali. Per attività in corso valuta il gerundio (*Interacting* → **Interagendo**). Traduci *right/left* come direzioni e accordale al referente, senza confonderle con «giusto» o «lasciato».
+- **TERMINI CANONICI**: *Armorer* è **Corazziere** (sigla **COR**); conserva i toponimi nella grafia ufficiale attestata, per esempio **Alexandria**.
 
 ---
 
@@ -39,7 +41,7 @@ Il motore di gioco utilizza un bytecode binario proprietario (SeString). I tag s
 ---
 
 ### 3. GLOSSARIO APPROVATO
-Prima di tradurre, leggi `data/glossary/Glossary.md`. Usa le voci per i termini ricorrenti e rispetta le note sulle varianti contestuali. Solo i file elencati nel glossario sono approvati come fonti terminologiche.
+Prima di tradurre, leggi `data/glossary/Glossary.md`. Usa le voci per i termini ricorrenti e rispetta le note sulle varianti contestuali. Le scelte esplicite dell'utente prevalgono; i riferimenti `@review/` sono esempi contestuali e non dichiarano approvato il file.
 
 ---
 

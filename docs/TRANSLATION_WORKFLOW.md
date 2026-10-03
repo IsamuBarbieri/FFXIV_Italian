@@ -11,6 +11,7 @@ Questo è il flusso principale quando il responsabile fornisce uno o più file d
 ## 2. Tradurre
 
 - Si lavora caso per caso, preservando il senso, il contesto, il registro del personaggio e le scelte terminologiche approvate.
+- Se una resa è incerta, cerca le correzioni recenti dell'utente in `data/translations/` e `data/da_revisionare/`. Usa le prime come canone; le seconde come precedenti contestuali, senza promuoverne automaticamente i termini al glossario.
 - Si conservano ID, campi originali, metadati e schema JSON. Si modificano solo i campi di traduzione.
 - I tag, i controlli e le variabili SeString restano intatti. I payload esadecimali con testo visibile si traducono e si ricodificano seguendo le istruzioni tecniche esistenti.
 - Le ambiguità che dipendono dal contesto si segnalano invece di risolverle inventando informazioni.
@@ -27,6 +28,14 @@ Per i file approvati, `validate` controlla il corpus canonico. Per script o fogl
 
 Dopo il controllo automatico, rileggi ogni voce nel contesto per verificare significato, naturalezza, registro, genere, tag e coerenza terminologica. Il validatore non sostituisce questa revisione.
 
+Per una scansione terminologica completa dei file in revisione e dei file canonici/deployati, usa:
+
+```powershell
+python tools/terminology_review.py scan --include-review --include-approved --all-matches --limit 0 --out data/glossary/review_all.json
+```
+
+La coda segnala possibili incoerenze, non errori certi. Controlla ogni candidato nell'intera voce e correggi anche la regola del revisore se produce falsi positivi. Il report non approva né sposta file.
+
 ## 4. Revisione dell'utente e correzioni
 
 - L'utente fa un controllo visivo complessivo e indica i cambiamenti desiderati.
@@ -35,7 +44,7 @@ Dopo il controllo automatico, rileggi ogni voce nel contesto per verificare sign
 
 ## 5. Aggiornare il glossario
 
-Aggiungi una voce quando l'utente conferma una scelta che ricorre o che deve diventare canonica. Ogni voce deve riportare una fonte nel corpus e una nota che chiarisca eventuali varianti o limiti di contesto. Non registrare come canonica una proposta ancora in discussione o una soluzione valida per una sola frase.
+Aggiungi una voce quando l'utente conferma una scelta riutilizzabile. Indica una fonte `percorso#ID:campo` o, se è una scelta esplicita senza attestazione nel corpus, «Decisione dell'utente»; annota varianti e limiti di contesto. Non promuovere automaticamente una proposta del revisore o una soluzione valida per una sola frase.
 
 ## Workflow batch alternativo
 
