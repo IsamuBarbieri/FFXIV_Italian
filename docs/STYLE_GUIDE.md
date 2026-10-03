@@ -36,6 +36,20 @@ I nomi, i toponimi, i mostri e i titoli delle missioni non devono **mai** essere
 4. **Contesto Scenico e Geopolitico**:
    - Verificare chi partecipa alla scena, il tono drammatico o comico e l'atmosfera della fazione (es. il cinismo mercantilista di Ul'dah, la sacralità animista di Gridania, la parlata marinaresca e rozza di Limsa Lominsa).
 
+### Regola D: Divieto di sostituzione meccanica e accordo sintattico obbligatorio
+Quando si allinea un termine al glossario (o durante una correzione terminologica), è **vietato** sostituire la parola in modo cieco/meccanico. Bisogna sempre rileggere la frase e accordare articoli e preposizioni articolate al genere e numero del nuovo termine italiano:
+- *Velo Nero* è maschile: **il Velo Nero**, **del Velo Nero**, **nel Velo Nero** (MAI *«della Velo Nero»*, *«la Velo Nero»*, *«nella Velo Nero»*).
+- *Vecchia Sharlayan* vuole la preposizione semplice: **di Vecchia Sharlayan** o **della Vecchia Sharlayan** (MAI *«del Vecchia Sharlayan»*).
+- *Officine Ferrocielo* è plurale: **dalle Officine Ferrocielo** (MAI *«dalla Officine»*).
+- *Cratere delle Braci* è maschile: **al Cratere delle Braci** (MAI *«alla Cratere»*).
+- *Prove di Bardam* richiede l'articolo articolato: **alle Prove di Bardam** (MAI *«a Prove di Bardam»*).
+
+### Regola E: Nomi propri dei Loporrit invariati
+Tutti i nomi propri dei Loporrit che terminano in *-way* (*Livingway, Growingway, Cookingway, Mappingway, Piercingway, Fusingway, Searchingway, Reportingway*, ecc.) sono nomi propri invariabili e **non si traducono mai** (vietato tradurre "-way" in "-via", es. vietato *«Trafiggivia»* o *«Fondivia»*). Le strutture a essi intitolate mantengono il nome proprio invariato: **la Galleria di Piercingway**, **il Condotto di Fusingway**.
+
+### Regola F: Nessun prestito orfano e coerenza tra campi
+Non lasciare mai parole o frammenti in inglese residui nei testi tradotti (es. *plate* al posto di *piastra* nelle spiegazioni dei comandi o delle finestre). Inoltre, garantisci sempre la coerenza interna tra nome dell'oggetto e descrizione nei file come `buddyequip.json` o `item.json`.
+
 ---
 
 ## 2. Risoluzione della Concordanza di Genere

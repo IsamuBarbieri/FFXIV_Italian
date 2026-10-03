@@ -1,0 +1,206 @@
+{
+  "1": {
+    "name": "City Patrol",
+    "translation_name": "Pattuglia cittadina",
+    "description": "Patrol city streets and maintain peace in \u003Chex:020924E802FF0E4C696D7361204C6F6D696E7361FF0947726964616E6961FF07556C2764616803\u003E.",
+    "translation_description": "Pattuglia le strade cittadine e mantieni la pace a <hex:020924E802FF0E4C696D7361204C6F6D696E7361FF0947726964616E6961FF07556C2764616803>."
+  },
+  "2": {
+    "name": "Military Courier",
+    "translation_name": "Corriere militare",
+    "description": "Deliver written orders to unit stationed \u003Chex:020942E802FF1D617420746865204465204E6576656C6C6520436865636B706F696E74FF0F6174207468652042616E6E6F636BFF106174205361676F6C6969204761746503\u003E.",
+    "translation_description": "Consegna gli ordini scritti all’unità di stanza presso <hex:020953E802FF21696C20506F73746F20646920426C6F63636F206469204465204E6576656C6C65FF18696C20507265736964696F2064656C2042616E6E6F636BFF146C6120506F727461206469205361676F6C696903>."
+  },
+  "3": {
+    "name": "Outskirts Patrol",
+    "translation_name": "Pattuglia periferica",
+    "description": "Patrol \u003Chex:02093BE802FF116D6964646C65204C61204E6F73636561FF137468652043656E7472616C205368726F7564FF1163656E7472616C205468616E616C616E03\u003E and eliminate potential threats to travelers.",
+    "translation_description": "Fai la ronda in una di queste zone: <hex:020939E802FF134C61204E6F736365612043656E7472616C65FF0E56656C6F2043656E7472616C65FF125468616E616C616E2043656E7472616C6503>. Elimina ogni potenziale minaccia per i viaggiatori."
+  },
+  "4": {
+    "name": "Beastmen Recon",
+    "translation_name": "Ricognizione delle tribù bestiali",
+    "description": "\u003Chex:020997E802FF3347726F7570206F66206B6F626F6C64207069636B6D656E2073706F7474656420696E206C6F776572204C61204E6F73636561FF2F4978616C2072616964696E672070617274792073706F7474656420696E2074686520536F757468205368726F7564FF2F416D616C6A276161207761722070617274792073706F7474656420696E2063656E7472616C205468616E616C616E03\u003E. Confirm presence of beastmen, and report current location. DO NOT ENGAGE.",
+    "translation_description": "<hex:0209F200DFE802FF4BC38820737461746F2061767669737461746F20756E2067727570706F206469206D696E61746F726920636F626F6C6469206E656C6C61204C61204E6F7363656120496E666572696F7265FF44C38820737461746F2061767669737461746F20756E2067727570706F20646920696E637572736F7269204978616C206E656C2056656C6F204D65726964696F6E616C65FF4BC38820737461746F2061767669737461746F20756E2067727570706F2064692067756572726965726920416D616C6AE280996161206E656C205468616E616C616E2043656E7472616C6503>. Conferma la presenza delle tribù bestiali e segnala la loro posizione. NON INGAGGIARE IL NEMICO."
+  },
+  "5": {
+    "name": "Supply Wagon Escort",
+    "translation_name": "Scorta al carro dei rifornimenti",
+    "description": "Escort supply wagon to \u003Chex:020938E802FF1243616D7020536B756C6C2056616C6C6579FF13416D61726973736169782773205370697265FF0D43616D7020447279626F6E6503\u003E. Remain alert for possible threats, and ensure supplies arrive undamaged.",
+    "translation_description": "Scorta il carro dei rifornimenti <hex:02094AE802FF17616C2043616D706F2056616C6C65205465736368696FFF1A616C6C61204775676C696120646920416D6172697373616978FF13616C2043616D706F204F737361736563636103>. Resta in allerta per possibili minacce e assicurati che il carico arrivi integro."
+  },
+  "6": {
+    "name": "Pest Eradication",
+    "translation_name": "Eliminazione dei parassiti",
+    "description": "Residents of \u003Chex:02093BE802FF116D6964646C65204C61204E6F73636561FF137468652043656E7472616C205368726F7564FF1163656E7472616C205468616E616C616E03\u003E request military support. Deploy to area, and cull \u003Chex:020924E802FF08676F6F62627565FF07747265616E74FF0F6769616E7420746F72746F69736503\u003E population.",
+    "translation_description": "Gli abitanti della zona di <hex:020939E802FF134C61204E6F736365612043656E7472616C65FF0E56656C6F2043656E7472616C65FF125468616E616C616E2043656E7472616C6503> chiedono supporto militare. Raggiungi l’area e decima gli esemplari di <hex:020928E802FF08676F6F62627565FF07747265616E74FF137461727461727567686520676967616E746903>."
+  },
+  "7": {
+    "name": "Flagged Mission: Voidsent Elimination",
+    "translation_name": "Missione segnalata: Eliminazione delle creature del Vuoto",
+    "description": "Cabal of minor voidsent spotted in vicinity of \u003Chex:020935E802FF14576F616420576869737065722043616E796F6EFF0B537069726974686F6C64FF104E6F706869636127732057656C6C7303\u003E. Deploy to area and execute thorough \u201Csweep and eliminate.\u201D",
+    "translation_description": "Un gruppo di creature minori del Vuoto è stato avvistato <hex:02096CE802FF2B6E6569207072657373692064656C6C6120476F6C612064656C20537573737572726F20417A7A7572726FFF1B6E65692070726573736920646920526F6363617370697269746FFF206E6569207072657373692064656920506F7A7A69206469204E6F706869636103>. Raggiungi la zona e conduci un accurato rastrellamento per eliminare la minaccia."
+  },
+  "8": {
+    "name": "Frontline Support",
+    "translation_name": "Supporto al fronte",
+    "description": "\u003Chex:020939E802FF1243616D7020536B756C6C2056616C6C6579FF10457567656E69612773205370697265FF114C6974746C6520416C61204D6869676F03\u003E garrison requests reinforcements. Deploy to area and repel \u003Chex:02091CE802FF076B6F626F6C64FF064978616C69FF09416D616C6A27616103\u003E assault.",
+    "translation_description": "La guarnigione, di stanza <hex:020947E802FF16612043616D706F2056616C6C65205465736368696FFF17616C6C61204775676C696120646920457567656E6961FF146120506963636F6C6120416C61204D6869676F03>, chiede rinforzi. Raggiungi l’area e respingi un attacco di <hex:02091CE802FF08636F626F6C6469FF054978616CFF09416D616C6A27616103>."
+  },
+  "9": {
+    "name": "Officer Escort",
+    "translation_name": "Scorta a un ufficiale",
+    "description": "High-ranking \u003Chex:02091AE802FF0873657270656E74FF06666C616D65FF0673746F726D03\u003E officer to visit city to plan Alliance strategies. Meet said officer at airship landing, and serve as personal guard for visit duration.",
+    "translation_description": "Un ufficiale di alto rango <hex:02094FE802FF2364656C6CE280994F7264696E652064656C6C61205669706572612047656D656C6C61FF1764656C6C65204669616D6D6520496D6D6F7274616C69FF0F64656C6C612054656D706573746103> visiterà la città per pianificare le strategie dell’Alleanza. Accoglilo all’aeroporto e proteggilo per tutta la visita."
+  },
+  "10": {
+    "name": "Border Patrol",
+    "translation_name": "Pattuglia di confine",
+    "description": "Patrol \u003Chex:02093BE802FF126561737465726E204C61204E6F73636561FF1174686520536F757468205368726F7564FF12736F75746865726E205468616E616C616E03\u003E and ensure major trade routes are secure.",
+    "translation_description": "Pattuglia <hex:020951E802FF1F6C61207A6F6E61206F7269656E74616C65206469204C61204E6F73636561FF14696C2056656C6F204D65726964696F6E616C65FF18696C205468616E616C616E204D65726964696F6E616C6503> e mantieni sicure le principali rotte commerciali."
+  },
+  "11": {
+    "name": "Stronghold Recon",
+    "translation_name": "Ricognizione di una roccaforte",
+    "description": "Reconnoiter the \u003Chex:02093BE802FF0B4B6F626F6C6420446967FF164978616C69206C6F6767696E672067726F756E6473FF14416D616C6A27616120656E63616D706D656E7403\u003E and assess enemy forces. Avoid engagements when possible, but mission completion takes priority.",
+    "translation_description": "Esplora <hex:02095AE802FF154C6F20536361766F2064656920436F626F6C6469FF1D6C652061726565206469207461676C696F206465676C69204978616CFF226CE28099616363616D70616D656E746F206465676C6920416D616C6AE28099616103> e valuta le forze nemiche. Evita gli scontri quando possibile, ma porta a termine la missione a ogni costo."
+  },
+  "12": {
+    "name": "Search and Rescue",
+    "translation_name": "Ricerca e soccorso",
+    "description": "Contact lost with unit deployed in enemy-controlled region of \u003Chex:020939E802FF106F75746572204C61204E6F73636561FF11746865204E6F727468205368726F7564FF126E6F72746865726E205468616E616C616E03\u003E. Locate missing unit, and evacuate surviving members.",
+    "translation_description": "Si sono persi i contatti con un’unità schierata in una regione nemica: <hex:020944E802FF124C61204E6F736365612045737465726E61FF1456656C6F2053657474656E7472696F6E616C65FF185468616E616C616E2053657474656E7472696F6E616C6503>. Trova i dispersi ed evacua i superstiti."
+  },
+  "13": {
+    "name": "Allied Maneuvers",
+    "translation_name": "Manovre con gli alleati",
+    "description": "The \u003Chex:02094FE802FF17496D6D6F7274616C20466C616D657320696E76697465FF124D61656C7374726F6D20696E7669746573FF204F72646572206F6620746865205477696E20416464657220696E766974657303\u003E us to participate in allied maneuvers. Represent the \u003Chex:020938E802FF0A4D61656C7374726F6DFF184F72646572206F6620746865205477696E204164646572FF10496D6D6F7274616C20466C616D657303\u003E, and uphold our company\u0027s reputation for excellence.",
+    "translation_description": "<hex:020966E802FF204C65204669616D6D6520496D6D6F7274616C6920636920696E766974616E6FFF164C612054656D706573746120636920696E76697461FF2A4CE280994F7264696E652064656C6C61205669706572612047656D656C6C6120636920696E7669746103> a partecipare a manovre congiunte. Rappresenta <hex:020946E802FF0C6C612054656D7065737461FF206CE280994F7264696E652064656C6C61205669706572612047656D656C6C61FF146C65204669616D6D6520496D6D6F7274616C6903> e difendi l’eccellente reputazione della nostra Compagnia."
+  },
+  "14": {
+    "name": "Flagged Mission: Crystal Recovery",
+    "translation_name": "Missione segnalata: Recupero dei cristalli",
+    "description": "A joint operation is planned to prevent summoning of \u003Chex:020919E802FF06546974616EFF07476172756461FF06496672697403\u003E by forces entrenched in the \u003Chex:02093BE802FF0B4B6F626F6C6420446967FF164978616C69206C6F6767696E672067726F756E6473FF14416D616C6A27616120656E63616D706D656E7403\u003E. Cooperate with allies to infiltrate stronghold and seize cache of ritual crystals.",
+    "translation_description": "È in programma un’operazione congiunta per impedire che le forze asserragliate <hex:020961E802FF17616C6C6F20536361766F2064656920436F626F6C6469FF206E656C6C652061726565206469207461676C696F206465676C69204978616CFF24616C6CE28099616363616D70616D656E746F206465676C6920416D616C6AE28099616103> evochino <hex:020919E802FF06546974616EFF07476172756461FF06496672697403>. Collabora con gli alleati per infiltrarti nella roccaforte e recuperare i cristalli rituali."
+  },
+  "15": {
+    "name": "Flagged Mission: Crystal Recovery",
+    "translation_name": "Missione segnalata: Recupero dei cristalli",
+    "description": "A joint operation is planned to prevent summoning of \u003Chex:020919E802FF06546974616EFF07476172756461FF06496672697403\u003E by forces entrenched in the \u003Chex:02093BE802FF0B4B6F626F6C6420446967FF164978616C69206C6F6767696E672067726F756E6473FF14416D616C6A27616120656E63616D706D656E7403\u003E. Cooperate with allies to infiltrate stronghold and seize cache of ritual crystals.",
+    "translation_description": "È in programma un’operazione congiunta per impedire che le forze asserragliate <hex:020961E802FF17616C6C6F20536361766F2064656920436F626F6C6469FF206E656C6C652061726565206469207461676C696F206465676C69204978616CFF24616C6CE28099616363616D70616D656E746F206465676C6920416D616C6AE28099616103> evochino <hex:020919E802FF06546974616EFF07476172756461FF06496672697403>. Collabora con gli alleati per infiltrarti nella roccaforte e recuperare i cristalli rituali."
+  },
+  "16": {
+    "name": "Stronghold Assault",
+    "translation_name": "Assalto a una roccaforte",
+    "description": "Rendezvous with Allied forces and join multi-pronged assault on \u003Chex:02092BE802FF147468652055274768616D61726F204D696E6573FF084E6174616C616EFF095A6168617227616B03\u003E.",
+    "translation_description": "Raggiungi le forze alleate e partecipa a un assalto coordinato <hex:020937E802FF1C616C6C65204D696E696572652064692055E280994768616D61726FFF0A61204E6174616C616EFF0B61205A6168617227616B03>."
+  },
+  "17": {
+    "name": "Black Market Crackdown",
+    "translation_name": "Operazione contro il mercato nero",
+    "description": "Plans for sale of black market weapons uncovered by intelligence. Deploy to coordinates provided, and apprehend all involved in deal.",
+    "translation_description": "L’intelligence ha scoperto un piano per vendere armi al mercato nero. Raggiungi le coordinate indicate e arresta tutti i coinvolti."
+  },
+  "18": {
+    "name": "Imperial Recon",
+    "translation_name": "Ricognizione imperiale",
+    "description": "Reconnoiter \u003Chex:020939E802FF114361737472756D204F63636964656E73FF0F4361737472756D2043656E747269FF134361737472756D204D6572696469616E756D03\u003E garrison and report on enemy numbers and activity.",
+    "translation_description": "Esplora la guarnigione di <hex:020939E802FF114361737472756D204F63636964656E73FF0F4361737472756D2043656E747269FF134361737472756D204D6572696469616E756D03> e valuta consistenza e attività delle forze nemiche. Se possibile, evita gli scontri."
+  },
+  "19": {
+    "name": "Imperial Pursuit",
+    "translation_name": "Inseguimento imperiale",
+    "description": "Man described as possible imperial deserter spotted in \u003Chex:02093AE802FF126561737465726E204C61204E6F73636561FF107468652045617374205368726F7564FF126E6F72746865726E205468616E616C616E03\u003E. Locate suspect and bring in for interrogation.",
+    "translation_description": "Le segnalazioni indicano un possibile disertore imperiale <hex:02094CE802FF17696E204C61204E6F73636561204F7269656E74616C65FF136E656C2056656C6F204F7269656E74616C65FF1C6E656C205468616E616C616E2053657474656E7472696F6E616C6503>. Rintraccia il sospetto e catturalo per interrogarlo."
+  },
+  "20": {
+    "name": "Imperial Feint",
+    "translation_name": "Finta imperiale",
+    "description": "Participate in allied mobilization against imperial forces in Mor Dhona. Ensure vital feint operation succeeds.",
+    "translation_description": "Partecipa alla mobilitazione degli alleati contro le forze imperiali a Mor Dhona e assicurati che la manovra diversiva riesca."
+  },
+  "21": {
+    "name": "Supply Line Disruption",
+    "translation_name": "Interruzione delle linee di rifornimento",
+    "description": "A large-scale operation is planned to disrupt \u003Chex:020982E802FF2A5361686167696E20737570706C79206C696E657320696E207765737465726E204C61204E6F73636561FF274978616C6920737570706C79206C696E657320696E20746865204E6F727468205368726F7564FF2B416D616C6A27616120737570706C79206C696E657320696E20736F75746865726E205468616E616C616E03\u003E. Deploy to area, and report to commanding officer for further orders.",
+    "translation_description": "È in programma un’operazione su vasta scala per interrompere <hex:0209CFE802FF4A6C65206C696E6565206469207269666F726E696D656E746F20646569205361686167696E206E656C6C61207061727465206F63636964656E74616C65206469204C61204E6F73636561FF3C6C65206C696E6565206469207269666F726E696D656E746F206465676C69204978616C206E656C2056656C6F2053657474656E7472696F6E616C65FF436C65206C696E6565206469207269666F726E696D656E746F206465676C6920416D616C6AE280996161206E656C205468616E616C616E204D65726964696F6E616C6503>. Raggiungi l’area e riferisci all’ufficiale in comando per ricevere ulteriori ordini."
+  },
+  "22": {
+    "name": "Criminal Pursuit",
+    "translation_name": "Caccia ai criminali",
+    "description": "Dangerous criminal wanted by the \u003Chex:020938E802FF10496D6D6F7274616C20466C616D6573FF0A4D61656C7374726F6DFF184F72646572206F6620746865205477696E20416464657203\u003E reported fleeing into \u003Chex:02092AE802FF0A4C61204E6F73636561FF1174686520426C61636B205368726F7564FF095468616E616C616E03\u003E. Coordinate with \u003Chex:02091AE802FF06666C616D65FF0673746F726DFF0873657270656E7403\u003E officer in charge of case and assist with pursuit.",
+    "translation_description": "Un pericoloso criminale ricercato <hex:02094FE802FF1764616C6C65204669616D6D6520496D6D6F7274616C69FF0F64616C6C612054656D7065737461FF2364616C6CE280994F7264696E652064656C6C61205669706572612047656D656C6C6103> è stato visto fuggire nei territori di <hex:020923E802FF0A4C61204E6F73636561FF0A56656C6F204E65726FFF095468616E616C616E03>. Collabora con l’ufficiale <hex:02094FE802FF1764656C6C65204669616D6D6520496D6D6F7274616C69FF0F64656C6C612054656D7065737461FF2364656C6CE280994F7264696E652064656C6C61205669706572612047656D656C6C6103> che segue il caso e aiutalo nell’inseguimento."
+  },
+  "23": {
+    "name": "Supply Wagon Destruction",
+    "translation_name": "Distruzione del carro dei rifornimenti",
+    "description": "Use imperial delivery schedule obtained by intelligence to locate and destroy Garlean supply wagon en route to \u003Chex:020939E802FF114361737472756D204F63636964656E73FF0F4361737472756D2043656E747269FF134361737472756D204D6572696469616E756D03\u003E.",
+    "translation_description": "Usa il programma di consegne imperiali recuperato dall’intelligence per individuare e distruggere un carro dei rifornimenti garleano diretto <hex:020942E802FF14616C204361737472756D204F63636964656E73FF12616C204361737472756D2043656E747269FF16616C204361737472756D204D6572696469616E756D03>."
+  },
+  "24": {
+    "name": "Chimerical Elimination",
+    "translation_name": "Eliminazione delle mostruosità",
+    "description": "\u003Chex:020968E802FF1D4D696E6F74617572206F6620657863657074696F6E616C2073697A65FF234C616D696120696E20636F6D6D616E64206F6620706F74656E74206D616769636B73FF224368696D657261206F6620756E707265636564656E74656420736176616765727903\u003E reported in local territory. Locate creature, and ensure threat is eliminated.",
+    "translation_description": "È stata segnalata la presenza di <hex:020977E802FF27756E206D696E6F746175726F2064692064696D656E73696F6E6920656363657A696F6E616C69FF2A756E61206C616D6961206573706572746120646920706F74656E74692061727469206D616769636865FF20756E61206368696D657261206469206665726F63696120696E61756469746103> nel territorio. Trova la creatura ed elimina la minaccia."
+  },
+  "25": {
+    "name": "Primal Recon",
+    "translation_name": "Ricognizione dei Primal",
+    "description": "A joint operation is planned with the Scions of the Seventh Dawn to reconnoiter the \u003Chex:02091BE802FF076B6F626F6C64FF054978616CFF09416D616C6A27616103\u003E for signs of summoning. Rendezvous with \u003Chex:020921E802FF09536C616673777973FF0A44617269757374656CFF08416C69616E6E6503\u003E and do as our allies bid.",
+    "translation_description": "È in programma un’operazione congiunta con gli Eredi della Settima Alba per esplorare i territori <hex:02092CE802FF0C64656920436F626F6C6469FF0B6465676C69204978616CFF0F6465676C6920416D616C6A27616103> in cerca di segni di evocazione. Incontra <hex:020921E802FF09536C616673777973FF0A44617269757374656CFF08416C69616E6E6503> e segui le indicazioni dei nostri alleati."
+  },
+  "26": {
+    "name": "Counter-magitek Exercises",
+    "translation_name": "Esercitazioni anti-magitek",
+    "description": "Training exercises are scheduled incorporating captured magitek weaponry. We are invited to participate and contribute to the development of counter-magitek tactics.",
+    "translation_description": "Sono in programma esercitazioni con armi magitek catturate. Partecipa e contribuisci allo sviluppo di tattiche per contrastare la magitek."
+  },
+  "27": {
+    "name": "Infiltrate and Rescue",
+    "translation_name": "Infiltrazione e salvataggio",
+    "description": "Civilians have been abducted by \u003Chex:020932E802FF147468652053657270656E742052656176657273FF09746865204978616CFF0F74686520466C616D6566616E677303\u003E. Infiltrate the enemy stronghold and liberate the captives before they are turned into thralls.",
+    "translation_description": "È stato segnalato il rapimento di civili da parte di <hex:020938E802FF176920507265646F6E692064656C6C6120566970657261FF09676C69204978616CFF126C65205A616E6E652064692046756F636F03>. Infiltrati nella roccaforte nemica e libera i prigionieri prima che vengano asserviti."
+  },
+  "28": {
+    "name": "Outlaw Subjugation",
+    "translation_name": "Eliminazione dei fuorilegge",
+    "description": "Outlaws believed to be a splinter faction of the \u003Chex:02092BE802FF0A4D616D6F6F6C204A61FF0C436F6575726C636C617773FF0F436F72707365204272696761646503\u003E have grown into an unacceptable threat. Find and summarily eliminate them.",
+    "translation_description": "Una banda di fuorilegge, ritenuta una fazione dissidente <hex:02093FE802FF0E646569204D616D6F6F6C204A61FF1064656920436F6575726C636C617773FF1B64656C6C6120427269676174612064656920436164617665726903>, è diventata una minaccia intollerabile. Trovala ed eliminala senza indugio."
+  },
+  "29": {
+    "name": "Cult Crackdown",
+    "translation_name": "Repressione del culto",
+    "description": "The Lambs of Dalamud are engaging in illegal recruitment in \u003Chex:020924E802FF0E4C696D7361204C6F6D696E7361FF0947726964616E6961FF07556C2764616803\u003E. Under the guise of civilians, make contact with the cultists and bring their activities to light.",
+    "translation_description": "Gli Agnelli di Dalamud stanno reclutando illegalmente a <hex:020924E802FF0E4C696D7361204C6F6D696E7361FF0947726964616E6961FF07556C2764616803>. Avvicinati ai cultisti sotto le mentite spoglie di un civile e fai emergere le loro attività."
+  },
+  "30": {
+    "name": "Voidsent Elimination",
+    "translation_name": "Eliminazione delle creature del Vuoto",
+    "description": "\u003Chex:020944E802FF144120737563637562757320766F696473656E74FF16412074726F756261646F757220766F696473656E74FF1454686520766F696473656E7420416E6368616703\u003E has been sighted nearby. Hunt down the menace before civilians can come to harm.",
+    "translation_description": "È stata segnalata la presenza di <hex:020952E802FF16756E6120737563637562652064656C2056756F746FFF19756E206D656E65737472656C6C6F2064656C2056756F746FFF1D6C612063726561747572612064656C2056756F746F20416E6368616703> nelle vicinanze. Dai la caccia alla creatura prima che faccia del male ai civili."
+  },
+  "31": {
+    "name": "Armor Annihilation",
+    "translation_name": "Distruzione dell’armatura magitek",
+    "description": "An abandoned suit of magitek armor has run amok. Hasten to the site and coordinate with the officer in charge to destroy the machine.",
+    "translation_description": "Un’armatura magitek abbandonata è impazzita. Raggiungi il luogo e collabora con l’ufficiale responsabile per distruggerla."
+  },
+  "32": {
+    "name": "Invasive Testing",
+    "translation_name": "Collaudi non autorizzati",
+    "description": "Brazen minions of the Illuminati are field-testing weaponry on sovereign soil. Confront them and put an end to the unsanctioned experiment.",
+    "translation_description": "Gli sgherri degli Illuminati stanno collaudando armi sul nostro territorio con sfacciata arroganza. Affrontali e poni fine a questi esperimenti non autorizzati."
+  },
+  "33": {
+    "name": "Impostor Alert",
+    "translation_name": "Allarme impostore",
+    "description": "A brutish man has been terrorizing citizens while masquerading as a serpent sergeant. For the honor of the Alliance, locate and apprehend the impostor.",
+    "translation_description": "Un uomo minaccia i cittadini fingendosi un sergente della Vipera. Per l’onore dell’Alleanza, trovalo e arresta l’impostore."
+  },
+  "34": {
+    "name": "Flagged Mission: Sapper Strike",
+    "translation_name": "Missione segnalata: Attacco dei genieri",
+    "description": "Intelligence reports imperial sappers in \u003Chex:02093AE802FF126561737465726E204C61204E6F73636561FF107468652045617374205368726F7564FF126E6F72746865726E205468616E616C616E03\u003E, en route to destroy city fortifications. Deploy to the area, and eliminate the enemy unit.",
+    "translation_description": "L’intelligence segnala genieri imperiali nella zona di <hex:020941E802FF144C61204E6F73636561204F7269656E74616C65FF0F56656C6F204F7269656E74616C65FF185468616E616C616E2053657474656E7472696F6E616C6503>, diretti a distruggere le fortificazioni cittadine. Raggiungi l’area ed elimina l’unità nemica."
+  }
+}

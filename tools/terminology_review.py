@@ -27,6 +27,17 @@ KNOWN_GRAMMAR = (
     (re.compile(r"\bQuesto Tecnica\b", re.IGNORECASE), "Questa Tecnica", "accordo_questa_tecnica"),
     (re.compile(r"\bl['’]esecuzione di tecnica\b", re.IGNORECASE), "l'esecuzione di una tecnica", "articolo_tecnica_generica"),
     (re.compile(r"\bdispositivi di Input\b", re.IGNORECASE), "dispositivi di input", "maiuscola_input_device"),
+    (re.compile(r"\bdella\s+Velo Nero\b", re.IGNORECASE), "del Velo Nero", "accordo_velo_nero_del"),
+    (re.compile(r"\bla\s+Velo Nero\b", re.IGNORECASE), "il Velo Nero", "accordo_velo_nero_il"),
+    (re.compile(r"\bnella\s+Velo Nero\b", re.IGNORECASE), "nel Velo Nero", "accordo_velo_nero_nel"),
+    (re.compile(r"\bdel\s+Vecchia Sharlayan\b", re.IGNORECASE), "di Vecchia Sharlayan", "preposizione_vecchia_sharlayan"),
+    (re.compile(r"\bdalla\s+Officine Ferrocielo\b", re.IGNORECASE), "dalle Officine Ferrocielo", "accordo_officine_ferrocielo_plurale"),
+    (re.compile(r"\balla\s+Cratere delle Braci\b", re.IGNORECASE), "al Cratere delle Braci", "accordo_cratere_delle_braci_maschile"),
+    (re.compile(r"\bil\s+Galleria di Piercingway\b", re.IGNORECASE), "la Galleria di Piercingway", "accordo_galleria_piercingway_femminile"),
+    (re.compile(r"\bdel\s+Galleria di Piercingway\b", re.IGNORECASE), "della Galleria di Piercingway", "accordo_galleria_piercingway_femminile"),
+    (re.compile(r"\ba Prove di Bardam\b", re.IGNORECASE), "alle Prove di Bardam", "preposizione_prove_di_bardam"),
+    (re.compile(r"\bGalleria di Trafiggivia\b", re.IGNORECASE), "Galleria di Piercingway", "nome_proprio_loporrit_piercingway"),
+    (re.compile(r"\bdalla plate 1\b", re.IGNORECASE), "dalla piastra 1", "traduzione_plate_piastra"),
 )
 ROW = re.compile(r'^  "(?P<id>\d+)": \{\r?\n', re.MULTILINE)
 FIELD = re.compile(r'(?m)^    "(?P<name>translation(?:_[^"\r\n]+)?)": (?P<value>"(?:\\.|[^"\\])*")(?=,?\r?$)')
@@ -185,8 +196,14 @@ def place_name_case_matches(term, matched, at_sentence_start):
 
 def exact_place_occurrences(term, occurrences, original, source_field, relative):
     """Avoid treating a place-name prefix inside a different title as the place."""
+    relative = "/" + relative.replace("\\", "/").lstrip("/")
     plain = plain_text(original)
     aligned = TAGS.sub(lambda match: " " * len(match.group()), original)
+    # `/search` examples must keep place names in the language users enter.
+    search_input_examples = (
+        relative.endswith("/system/textcommand.json") and source_field == "col_2" and
+        re.match(r"(?is)^ALIAS:.*?/search\s+\[condition\]", original)
+    )
     for matched, position in occurrences:
         if source_field == "name" and plain.strip(" .!?…'’\"“”«»()[]").casefold() != term.casefold():
             continue
@@ -194,6 +211,7 @@ def exact_place_occurrences(term, occurrences, original, source_field, relative)
                 plain.strip(" .!?…'’\"“”«»()[]").casefold() != term.casefold()):
             continue
         end = position + len(matched)
+        exact_input_quote = False
         for opening, closing in (("“", "”"), ("«", "»"), ('"', '"')):
             quote_start = aligned.rfind(opening, 0, position)
             quote_end = aligned.find(closing, end)
@@ -203,8 +221,13 @@ def exact_place_occurrences(term, occurrences, original, source_field, relative)
                 quoted = aligned[quote_start + len(opening):quote_end].strip(" .!?…'’\"“”«»()[]")
                 if quoted.casefold() != TAGS.sub("", matched).casefold():
                     break
+                exact_input_quote = search_input_examples
+                if exact_input_quote:
+                    break
         else:
             quoted = None
+        if exact_input_quote:
+            continue
         if quoted is not None and quoted.casefold() != TAGS.sub("", matched).casefold():
             continue
         if (source_field == "original" and
@@ -260,7 +283,7 @@ def exact_place_occurrences(term, occurrences, original, source_field, relative)
         tail = aligned[end:]
         next_word = re.match(r"\s+([A-ZÀ-ÖØ-Þ][A-Za-zÀ-ÖØ-öø-ÿ'’]*)", tail)
         linked_extension = re.match(
-            r"\s+(?:for|of|in|on|at|and|the|to)\s+[A-ZÀ-ÖØ-Þ][A-Za-zÀ-ÖØ-öø-ÿ'’]*",
+            r"\s+(?:for|from|of|in|on|at|and|the|to)\s+[A-ZÀ-ÖØ-Þ][A-Za-zÀ-ÖØ-öø-ÿ'’]*",
             tail, re.IGNORECASE)
         if next_word or linked_extension:
             # A following capitalized word or title link extends the full name.
@@ -333,11 +356,12 @@ def canonical_forms(value):
     separator = "" if article.group(1).casefold() in {"l'", "l’"} else " "
     variants = [prefix + separator + base for prefix in forms]
     variants += [form[0].upper() + form[1:] for form in variants if form]
-    return list(dict.fromkeys([value] + variants))
+    return list(dict.fromkeys([value, base] + variants))
 
 
 def canonical_present(text, value, ignore_case=False):
-    text = plain_text(text)
+    text = plain_text(text).replace("’", "'").replace("‘", "'")
+    value = value.replace("’", "'").replace("‘", "'")
     flags = re.IGNORECASE if ignore_case else 0
     return any(re.search(r"(?<!\w)" + re.escape(form) + r"(?!\w)", text, flags)
                for form in canonical_forms(value))
@@ -485,7 +509,7 @@ def source_aligned_translation(text, candidate, style):
 
 def usage_variants(usage):
     variants = []
-    marker = re.search(r"Varianti ammesse in prosa:\s*(.*)", usage, re.IGNORECASE)
+    marker = re.search(r"Variant[ei]\s+ammess[ae][^:]{0,48}:\s*(.*)", usage, re.IGNORECASE)
     if marker:
         tail = marker.group(1)
         variants.extend(value.strip() for value in re.findall(r"«([^»]+)»", tail))
@@ -497,10 +521,12 @@ def usage_variants(usage):
 
 def usage_variant_present(text, variant):
     """Match a documented prose form using its Italian sentence position for casing."""
-    pattern = re.compile(r"(?<!\w)" + usage_variant_pattern(variant) + r"(?!\w)", re.IGNORECASE)
-    for visible in (text, plain_text(text)):
+    normalized = variant.replace("’", "'").replace("‘", "'")
+    normalized_text = text.replace("’", "'").replace("‘", "'")
+    pattern = re.compile(r"(?<!\w)" + usage_variant_pattern(normalized) + r"(?!\w)", re.IGNORECASE)
+    for visible in (normalized_text, plain_text(normalized_text)):
         for match in pattern.finditer(visible):
-            expected = variant
+            expected = normalized
             if case_style(variant) == "lower" and sentence_initial(visible, match.start()):
                 first = re.search(r"[A-Za-zÀ-ÖØ-öø-ÿ]", expected)
                 if first:
@@ -589,13 +615,22 @@ def scan(args):
     sampled = collections.Counter()
     for path, relative in selected_files(args.file, getattr(args, "include_review", False)):
         in_review = relative.startswith(REVIEW_PREFIX)
+        path_key = "/" + relative.replace("\\", "/").lstrip("/")
         if args.approved_only and (in_review or relative not in approved):
             continue
         if not args.approved_only and not in_review and relative in approved and not args.include_approved:
             continue
+        if path_key.endswith(("/system/textcommandparam.json", "/social/charamakename.json")):
+            continue
         rows = json.loads(path.read_text(encoding="utf-8-sig"))
         for row_id, row in rows.items():
             for source_field, target_field, original, translation in pairs(row):
+                if (path_key.endswith(("/housing/orchestrion.json", "/minigames/weddingbgm.json",
+                                       "/minigames/performguidescore.json")) and translation == original):
+                    continue
+                if (not args.term and source_field == "original" and
+                        re.match(r"(?i)^\s*N[.°º](?:\s|$)", plain_text(translation))):
+                    continue  # "No." is a number abbreviation here, not the negative answer.
                 decision_key = f"{relative}#{row_id}:{target_field}"
                 corrected, grammar_rules = grammar_correction(translation)
                 if grammar_rules and corrected != translation:
@@ -617,9 +652,10 @@ def scan(args):
                         source_field == "name" or
                         (source_field.startswith("col_") and source_field[4:].isdigit() and int(source_field[4:]) < 31)):
                     continue
-                if len(original) > 2500:
+                if len(original) > 2500 and not (args.all_matches or args.term):
                     continue  # Large SeString payloads need a separate manual pass.
                 searchable = blocking.sub(lambda m: " " * len(m.group()), original) if blocking else original
+                searchable = searchable.replace("’", "'").replace("‘", "'")
                 matches = collections.defaultdict(list)
                 for match in pattern.finditer(searchable):
                     name = re.sub(r"\s+", " ", re.sub(r"\[\d+\]", "[1]",
@@ -639,6 +675,11 @@ def scan(args):
                         # differently from the glossary key; it is not a review hit.
                         continue
                     term = variants[0]["english"]
+                    current_match = occurrences[0][0]
+                    if (term.casefold() == "the feast" and
+                            current_match.casefold() == "the feast" and
+                            re.search(r"\bnourished by the feast\b", original, re.IGNORECASE)):
+                        continue  # Common noun here, not the named PvP mode.
                     if term.casefold() == "ready check" and re.search(r"\bensemble mode\b", original, re.IGNORECASE):
                         continue
                     if any("Nome della funzione" in entry["usage"] for entry in variants):
@@ -649,6 +690,8 @@ def scan(args):
                         if not occurrences:
                             continue
                     if any(entry["category"] == "Luoghi" for entry in variants):
+                        if path_key.endswith("/items/buddyequip.json") and re.search(r"\bbarding\b", original, re.IGNORECASE):
+                            continue
                         aligned_occurrences = list(exact_place_occurrences(term, occurrences, original,
                                                                           source_field, relative))
                         if not aligned_occurrences:
@@ -658,11 +701,8 @@ def scan(args):
                     if (not args.term and (len({e["italian"].casefold() for e in variants}) > 1 or
                                            variants[0]["category"] in ("Meteo", "Razze e clan"))):
                         continue
-                    if (not args.old and len(term.split()) == 1 and
-                            original.strip().casefold() != term.casefold() and
-                            (len(term) < 6 or term.casefold() == variants[0]["italian"].casefold() or
-                             variants[0]["category"] not in ("Luoghi", "Termini di gioco")
-                             and term.casefold() != "glamours")):
+                    if (not args.old and not args.term and len(term.split()) == 1 and
+                            plain_text(original).strip(" .!?…'’\"“”«»()[]").casefold() != term.casefold()):
                         continue
                     number = re.search(r"\[(\d+)\]", matched)
                     canonical = list(dict.fromkeys(e["italian"].replace("[1]", number.group() if number else "[1]")

@@ -40,8 +40,16 @@ Il motore di gioco utilizza un bytecode binario proprietario (SeString). I tag s
 
 ---
 
-### 3. GLOSSARIO APPROVATO
+### 3. GLOSSARIO APPROVATO E REGOLE DI ADATTAMENTO SINTATTICO
 Prima di tradurre, leggi `data/glossary/Glossary.md`. Usa le voci per i termini ricorrenti e rispetta le note sulle varianti contestuali. Le scelte esplicite dell'utente prevalgono; i riferimenti `@review/` sono esempi contestuali e non dichiarano approvato il file.
+- **DIVIETO DI SOSTITUZIONE MECCANICA CIECA**: Non effettuare MAI un mero trova-e-sostituisci del lemma. Quando inserisci un termine del glossario, devi rileggere l'intera frase e accordare l'articolo determinativo o la preposizione articolata al genere e numero del termine inserito:
+  - *Velo Nero* è maschile: **il Velo Nero**, **del Velo Nero**, **nel Velo Nero** (MAI *«della Velo Nero»*, *«la Velo Nero»*, *«nella Velo Nero»*).
+  - *Vecchia Sharlayan* vuole la preposizione semplice: **di Vecchia Sharlayan** o **della Vecchia Sharlayan** (MAI *«del Vecchia Sharlayan»*).
+  - *Officine Ferrocielo* è plurale: **dalle Officine Ferrocielo** (MAI *«dalla Officine»*).
+  - *Cratere delle Braci* è maschile: **al Cratere delle Braci** (MAI *«alla Cratere»*).
+  - *Prove di Bardam* richiede la preposizione articolata: **alle Prove di Bardam** (MAI *«a Prove di Bardam»*).
+- **NOMI PROPRI DEI LOPORRIT INVARIATI**: Tutti i nomi dei Loporrit terminanti in *-way* (*Livingway, Growingway, Cookingway, Mappingway, Piercingway, Fusingway, Searchingway, Reportingway*, ecc.) sono nomi propri invariabili e **NON si traducono mai** (vietato inventare calchi come *«Trafiggivia»* o *«Fondivia»*). Le gallerie o strutture a essi intitolate mantengono il nome proprio (*«la Galleria di Piercingway»*, *«il Condotto di Fusingway»*).
+- **NESSUN PRESTITO INGLESE RESIDUO E COERENZA**: Elimina qualunque termine inglese orfano rimasto nel testo (es. *plate* → *piastra*). Mantieni sempre la coerenza interna tra nome dell'oggetto e descrizione (es. in *buddyequip* o *item*).
 
 ---
 

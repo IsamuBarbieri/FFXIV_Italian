@@ -1,0 +1,866 @@
+{
+  "0": {
+    "name": "leather saddle",
+    "translation_name": "sella di cuoio",
+    "description": "leather saddles",
+    "translation_description": "selle di cuoio",
+    "col_2": "Leather Saddle",
+    "translation_col_2": "Sella di Cuoio"
+  },
+  "1": {
+    "name": "Lominsan saddle",
+    "translation_name": "sella lominsana",
+    "description": "Lominsan saddles",
+    "translation_description": "selle lominsane",
+    "col_2": "Lominsan Saddle",
+    "translation_col_2": "Sella Lominsana"
+  },
+  "2": {
+    "name": "set of Lominsan half barding",
+    "translation_name": "mezza bardatura lominsana",
+    "description": "sets of Lominsan half barding",
+    "translation_description": "mezze bardature lominsane",
+    "col_2": "Lominsan Half Barding",
+    "translation_col_2": "Mezza Bardatura Lominsana"
+  },
+  "3": {
+    "name": "set of Lominsan barding",
+    "translation_name": "bardatura lominsana",
+    "description": "sets of Lominsan barding",
+    "translation_description": "bardature lominsane",
+    "col_2": "Lominsan Barding",
+    "translation_col_2": "Bardatura Lominsana"
+  },
+  "4": {
+    "name": "set of Lominsan crested barding",
+    "translation_name": "bardatura lominsana crestata",
+    "description": "sets of Lominsan crested barding",
+    "translation_description": "bardature lominsane crestate",
+    "col_2": "Lominsan Crested Barding",
+    "translation_col_2": "Bardatura Lominsana Crestata"
+  },
+  "5": {
+    "name": "Gridanian saddle",
+    "translation_name": "sella gridaniana",
+    "description": "Gridanian saddles",
+    "translation_description": "selle gridaniane",
+    "col_2": "Gridanian Saddle",
+    "translation_col_2": "Sella Gridaniana"
+  },
+  "6": {
+    "name": "set of Gridanian half barding",
+    "translation_name": "mezza bardatura gridaniana",
+    "description": "sets of Gridanian half barding",
+    "translation_description": "mezze bardature gridaniane",
+    "col_2": "Gridanian Half Barding",
+    "translation_col_2": "Mezza Bardatura Gridaniana"
+  },
+  "7": {
+    "name": "set of Gridanian barding",
+    "translation_name": "bardatura gridaniana",
+    "description": "sets of Gridanian barding",
+    "translation_description": "bardature gridaniane",
+    "col_2": "Gridanian Barding",
+    "translation_col_2": "Bardatura Gridaniana"
+  },
+  "8": {
+    "name": "set of Gridanian crested barding",
+    "translation_name": "bardatura gridaniana crestata",
+    "description": "sets of Gridanian crested barding",
+    "translation_description": "bardature gridaniane crestate",
+    "col_2": "Gridanian Crested Barding",
+    "translation_col_2": "Bardatura Gridaniana Crestata"
+  },
+  "9": {
+    "name": "Ul'dahn saddle",
+    "translation_name": "sella ul'diana",
+    "description": "Ul'dahn saddles",
+    "translation_description": "selle ul'diane",
+    "col_2": "Ul'dahn Saddle",
+    "translation_col_2": "Sella Ul'diana"
+  },
+  "10": {
+    "name": "set of Ul'dahn half barding",
+    "translation_name": "mezza bardatura ul'diana",
+    "description": "sets of Ul'dahn half barding",
+    "translation_description": "mezze bardature ul'diane",
+    "col_2": "Ul'dahn Half Barding",
+    "translation_col_2": "Mezza Bardatura Ul'diana"
+  },
+  "11": {
+    "name": "set of Ul'dahn barding",
+    "translation_name": "bardatura ul'diana",
+    "description": "sets of Ul'dahn barding",
+    "translation_description": "bardature ul'diane",
+    "col_2": "Ul'dahn Barding",
+    "translation_col_2": "Bardatura Ul'diana"
+  },
+  "12": {
+    "name": "set of Ul'dahn crested barding",
+    "translation_name": "bardatura ul'diana crestata",
+    "description": "sets of Ul'dahn crested barding",
+    "translation_description": "bardature ul'diane crestate",
+    "col_2": "Ul'dahn Crested Barding",
+    "translation_col_2": "Bardatura Ul'diana Crestata"
+  },
+  "13": {
+    "name": "set of paladin barding",
+    "translation_name": "bardatura da Paladino",
+    "description": "sets of paladin barding",
+    "translation_description": "bardature da Paladino",
+    "col_2": "Paladin Barding",
+    "translation_col_2": "Bardatura da Paladino"
+  },
+  "14": {
+    "name": "set of dragoon barding",
+    "translation_name": "bardatura da Dragone",
+    "description": "sets of dragoon barding",
+    "translation_description": "bardature da Dragone",
+    "col_2": "Dragoon Barding",
+    "translation_col_2": "Bardatura da Dragone"
+  },
+  "15": {
+    "name": "set of white mage barding",
+    "translation_name": "bardatura da Mago Bianco",
+    "description": "sets of white mage barding",
+    "translation_description": "bardature da Mago Bianco",
+    "col_2": "White Mage Barding",
+    "translation_col_2": "Bardatura da Mago Bianco"
+  },
+  "16": {
+    "name": "set of Sleipnir barding",
+    "translation_name": "bardatura di Sleipnir",
+    "description": "sets of Sleipnir barding",
+    "translation_description": "bardature di Sleipnir",
+    "col_2": "Sleipnir Barding",
+    "translation_col_2": "Bardatura di Sleipnir"
+  },
+  "17": {
+    "name": "set of behemoth barding",
+    "translation_name": "bardatura di Behemoth",
+    "description": "sets of behemoth barding",
+    "translation_description": "bardature di Behemoth",
+    "col_2": "Behemoth Barding",
+    "translation_col_2": "Bardatura di Behemoth"
+  },
+  "18": {
+    "name": "flyer shaffron",
+    "translation_name": "frontale alato",
+    "description": "flyer shaffrons",
+    "translation_description": "frontali alati",
+    "col_2": "Flyer Shaffron",
+    "translation_col_2": "Frontale Alato"
+  },
+  "19": {
+    "name": "set of black mage barding",
+    "translation_name": "bardatura da Mago Nero",
+    "description": "sets of black mage barding",
+    "translation_description": "bardature da Mago Nero",
+    "col_2": "Black Mage Barding",
+    "translation_col_2": "Bardatura da Mago Nero"
+  },
+  "20": {
+    "name": "set of sovereign barding",
+    "translation_name": "bardatura sovrana",
+    "description": "sets of sovereign barding",
+    "translation_description": "bardature sovrane",
+    "col_2": "Sovereign Barding",
+    "translation_col_2": "Bardatura Sovrana"
+  },
+  "21": {
+    "name": "set of Starlight barding",
+    "translation_name": "bardatura Starlight",
+    "description": "sets of Starlight barding",
+    "translation_description": "bardature Starlight",
+    "col_2": "Starlight Barding",
+    "translation_col_2": "Bardatura Starlight"
+  },
+  "22": {
+    "name": "set of tidal barding",
+    "translation_name": "bardatura delle maree",
+    "description": "sets of tidal barding",
+    "translation_description": "bardature delle maree",
+    "col_2": "Tidal Barding",
+    "translation_col_2": "Bardatura delle Maree"
+  },
+  "23": {
+    "name": "set of Barding of Light",
+    "translation_name": "bardatura della Luce",
+    "description": "sets of Barding of Light",
+    "translation_description": "bardature della Luce",
+    "col_2": "Barding of Light",
+    "translation_col_2": "Bardatura della Luce"
+  },
+  "24": {
+    "name": "set of egg barding",
+    "translation_name": "bardatura dell'uovo",
+    "description": "sets of egg barding",
+    "translation_description": "bardature dell'uovo",
+    "col_2": "Egg Barding",
+    "translation_col_2": "Bardatura dell'Uovo"
+  },
+  "25": {
+    "name": "set of Levin barding",
+    "translation_name": "bardatura del Tuono",
+    "description": "sets of Levin barding",
+    "translation_description": "bardature del Tuono",
+    "col_2": "Levin Barding",
+    "translation_col_2": "Bardatura del Tuono"
+  },
+  "26": {
+    "name": "set of plumed barding",
+    "translation_name": "bardatura piumata",
+    "description": "sets of plumed barding",
+    "translation_description": "bardature piumate",
+    "col_2": "Plumed Barding",
+    "translation_col_2": "Bardatura Piumata"
+  },
+  "27": {
+    "name": "set of eerie barding",
+    "translation_name": "bardatura spettrale",
+    "description": "sets of eerie barding",
+    "translation_description": "bardature spettrali",
+    "col_2": "Eerie Barding",
+    "translation_col_2": "Bardatura Spettrale"
+  },
+  "28": {
+    "name": "set of ice barding",
+    "translation_name": "bardatura del Gelo",
+    "description": "sets of ice barding",
+    "translation_description": "bardature del Gelo",
+    "col_2": "Ice Barding",
+    "translation_col_2": "Bardatura del Gelo"
+  },
+  "29": {
+    "name": "set of gambler barding",
+    "translation_name": "bardatura del giocatore d'azzardo",
+    "description": "sets of gambler barding",
+    "translation_description": "bardature del giocatore d'azzardo",
+    "col_2": "Gambler Barding",
+    "translation_col_2": "Bardatura del Giocatore d'Azzardo"
+  },
+  "30": {
+    "name": "set of paramour barding",
+    "translation_name": "bardatura dell'innamorato",
+    "description": "sets of paramour barding",
+    "translation_description": "bardature dell'innamorato",
+    "col_2": "Paramour Barding",
+    "translation_col_2": "Bardatura dell'Innamorato"
+  },
+  "31": {
+    "name": "set of Ishgardian half barding",
+    "translation_name": "mezza bardatura ishgardiana",
+    "description": "sets of Ishgardian half barding",
+    "translation_description": "mezze bardature ishgardiane",
+    "col_2": "Ishgardian Half Barding",
+    "translation_col_2": "Mezza Bardatura Ishgardiana"
+  },
+  "32": {
+    "name": "set of Ishgardian barding",
+    "translation_name": "bardatura ishgardiana",
+    "description": "sets of Ishgardian barding",
+    "translation_description": "bardature ishgardiane",
+    "col_2": "Ishgardian Barding",
+    "translation_col_2": "Bardatura Ishgardiana"
+  },
+  "34": {
+    "name": "set of Expanse barding",
+    "translation_name": "bardatura dell'espansione",
+    "description": "sets of Expanse barding",
+    "translation_description": "bardature dell'espansione",
+    "col_2": "Expanse Barding",
+    "translation_col_2": "Bardatura dell'Espansione"
+  },
+  "35": {
+    "name": "set of Hive barding",
+    "translation_name": "bardatura dell'alveare",
+    "description": "sets of Hive barding",
+    "translation_description": "bardature dell'alveare",
+    "col_2": "Hive Barding",
+    "translation_col_2": "Bardatura dell'Alveare"
+  },
+  "36": {
+    "name": "set of noble barding",
+    "translation_name": "bardatura nobile",
+    "description": "sets of noble barding",
+    "translation_description": "bardature nobili",
+    "col_2": "Noble Barding",
+    "translation_col_2": "Bardatura Nobile"
+  },
+  "37": {
+    "name": "set of Orthodox barding",
+    "translation_name": "bardatura ortodossa",
+    "description": "sets of Orthodox barding",
+    "translation_description": "bardature ortodosse",
+    "col_2": "Orthodox Barding",
+    "translation_col_2": "Bardatura Ortodossa"
+  },
+  "38": {
+    "name": "set of highland barding",
+    "translation_name": "bardatura delle alture",
+    "description": "sets of highland barding",
+    "translation_description": "bardature delle alture",
+    "col_2": "Highland Barding",
+    "translation_col_2": "Bardatura delle Alture"
+  },
+  "39": {
+    "name": "set of wild rose barding",
+    "translation_name": "bardatura rosa selvatica",
+    "description": "sets of wild rose barding",
+    "translation_description": "bardature rosa selvatica",
+    "col_2": "Wild Rose Barding",
+    "translation_col_2": "Bardatura Rosa Selvatica"
+  },
+  "40": {
+    "name": "set of round table barding",
+    "translation_name": "bardatura della tavola rotonda",
+    "description": "sets of round table barding",
+    "translation_description": "bardature della tavola rotonda",
+    "col_2": "Round Table Barding",
+    "translation_col_2": "Bardatura della Tavola Rotonda"
+  },
+  "41": {
+    "name": "set of Sephirotic barding",
+    "translation_name": "bardatura Sephirotica",
+    "description": "sets of Sephirotic barding",
+    "translation_description": "bardature Sephirotica",
+    "col_2": "Sephirotic Barding",
+    "translation_col_2": "Bardatura Sephirotica"
+  },
+  "42": {
+    "name": "set of egg hunter barding",
+    "translation_name": "bardatura da cacciatore d'uova",
+    "description": "sets of egg hunter barding",
+    "translation_description": "bardature da cacciatore d'uova",
+    "col_2": "Egg Hunter Barding",
+    "translation_col_2": "Bardatura da Cacciatore d'Uova"
+  },
+  "43": {
+    "name": "set of Far Eastern barding",
+    "translation_name": "bardatura dell'estremo oriente",
+    "description": "sets of Far Eastern barding",
+    "translation_description": "bardature dell'estremo oriente",
+    "col_2": "Far Eastern Barding",
+    "translation_col_2": "Bardatura dell'Estremo Oriente"
+  },
+  "44": {
+    "name": "set of race barding",
+    "translation_name": "bardatura da corsa",
+    "description": "sets of race barding",
+    "translation_description": "bardature da corsa",
+    "col_2": "Race Barding",
+    "translation_col_2": "Bardatura da Corsa"
+  },
+  "45": {
+    "name": "set of Horde barding",
+    "translation_name": "bardatura dell'Orda",
+    "description": "sets of Horde barding",
+    "translation_description": "bardature dell'Orda",
+    "col_2": "Horde Barding",
+    "translation_col_2": "Bardatura dell'Orda"
+  },
+  "46": {
+    "name": "set of butlery barding",
+    "translation_name": "bardatura da maggiordomo",
+    "description": "sets of butlery barding",
+    "translation_description": "bardature da maggiordomo",
+    "col_2": "Butlery Barding",
+    "translation_col_2": "Bardatura da Maggiordomo"
+  },
+  "47": {
+    "name": "set of Sophic barding",
+    "translation_name": "bardatura sofica",
+    "description": "sets of Sophic barding",
+    "translation_description": "bardature sofiche",
+    "col_2": "Sophic Barding",
+    "translation_col_2": "Bardatura Sofica"
+  },
+  "48": {
+    "name": "set of abigail barding",
+    "translation_name": "bardatura di Abigail",
+    "description": "sets of abigail barding",
+    "translation_description": "bardature di Abigail",
+    "col_2": "Abigail Barding",
+    "translation_col_2": "Bardatura di Abigail"
+  },
+  "49": {
+    "name": "set of Mandervillian barding",
+    "translation_name": "bardatura Mandervilliana",
+    "description": "sets of Mandervillian barding",
+    "translation_description": "bardature mandervilliane",
+    "col_2": "Mandervillian Barding",
+    "translation_col_2": "Bardatura Mandervilliana"
+  },
+  "50": {
+    "name": "set of angelic barding",
+    "translation_name": "bardatura angelica",
+    "description": "sets of angelic barding",
+    "translation_description": "bardature angeliche",
+    "col_2": "Angelic Barding",
+    "translation_col_2": "Bardatura Angelica"
+  },
+  "51": {
+    "name": "set of demonic barding",
+    "translation_name": "bardatura demoniaca",
+    "description": "sets of demonic barding",
+    "translation_description": "bardature demoniache",
+    "col_2": "Demonic Barding",
+    "translation_col_2": "Bardatura Demoniaca"
+  },
+  "52": {
+    "name": "set of Zurvanite barding",
+    "translation_name": "bardatura Zurvanita",
+    "description": "sets of Zurvanite barding",
+    "translation_description": "bardature zurvanite",
+    "col_2": "Zurvanite Barding",
+    "translation_col_2": "Bardatura Zurvanita"
+  },
+  "53": {
+    "name": "set of reveler's barding",
+    "translation_name": "bardatura del festaiolo",
+    "description": "sets of reveler's barding",
+    "translation_description": "bardature del festaiolo",
+    "col_2": "Reveler's Barding",
+    "translation_col_2": "Bardatura del Festaiolo"
+  },
+  "54": {
+    "name": "set of Ala Mhigan barding",
+    "translation_name": "bardatura ala mhigana",
+    "description": "sets of Ala Mhigan barding",
+    "translation_description": "bardature ala mhigane",
+    "col_2": "Ala Mhigan Barding",
+    "translation_col_2": "Bardatura Ala Mhigana"
+  },
+  "55": {
+    "name": "set of blissful barding",
+    "translation_name": "bardatura beata",
+    "description": "sets of blissful barding",
+    "translation_description": "bardature beate",
+    "col_2": "Blissful Barding",
+    "translation_col_2": "Bardatura Beata"
+  },
+  "56": {
+    "name": "set of Hingan barding",
+    "translation_name": "bardatura hingashiana",
+    "description": "sets of Hingan barding",
+    "translation_description": "bardature hingashiane",
+    "col_2": "Hingan Barding",
+    "translation_col_2": "Bardatura Hingashiana"
+  },
+  "57": {
+    "name": "set of Oriental barding",
+    "translation_name": "bardatura orientale",
+    "description": "sets of Oriental barding",
+    "translation_description": "bardature orientali",
+    "col_2": "Oriental Barding",
+    "translation_col_2": "Bardatura Orientale"
+  },
+  "58": {
+    "name": "set of Nezha barding",
+    "translation_name": "bardatura di Nezha",
+    "description": "sets of Nezha barding",
+    "translation_description": "bardature di Nezha",
+    "col_2": "Nezha Barding",
+    "translation_col_2": "Bardatura di Nezha"
+  },
+  "59": {
+    "name": "set of Shinryu barding",
+    "translation_name": "bardatura di Shinryu",
+    "description": "sets of Shinryu barding",
+    "translation_description": "bardature di Shinryu",
+    "col_2": "Shinryu Barding",
+    "translation_col_2": "Bardatura di Shinryu"
+  },
+  "60": {
+    "name": "set of Ixion barding",
+    "translation_name": "bardatura di Ixion",
+    "description": "sets of Ixion barding",
+    "translation_description": "bardature di Ixion",
+    "col_2": "Ixion Barding",
+    "translation_col_2": "Bardatura di Ixion"
+  },
+  "61": {
+    "name": "set of red mage barding",
+    "translation_name": "bardatura da Mago Rosso",
+    "description": "sets of red mage barding",
+    "translation_description": "bardature da Mago Rosso",
+    "col_2": "Red Mage Barding",
+    "translation_col_2": "Bardatura da Mago Rosso"
+  },
+  "62": {
+    "name": "set of Byakko barding",
+    "translation_name": "bardatura di Byakko",
+    "description": "sets of Byakko barding",
+    "translation_description": "bardature di Byakko",
+    "col_2": "Byakko Barding",
+    "translation_col_2": "Bardatura di Byakko"
+  },
+  "63": {
+    "name": "chocobo raincoat",
+    "translation_name": "impermeabile per Chocobo",
+    "description": "chocobo raincoats",
+    "translation_description": "impermeabili per Chocobo",
+    "col_2": "Chocobo Raincoat",
+    "translation_col_2": "Impermeabile per Chocobo"
+  },
+  "64": {
+    "name": "set of lunar barding",
+    "translation_name": "bardatura lunare",
+    "description": "sets of lunar barding",
+    "translation_description": "bardature lunari",
+    "col_2": "Lunar Barding",
+    "translation_col_2": "Bardatura Lunare"
+  },
+  "65": {
+    "name": "set of Suzaku barding",
+    "translation_name": "bardatura di Suzaku",
+    "description": "sets of Suzaku barding",
+    "translation_description": "bardature di Suzaku",
+    "col_2": "Suzaku Barding",
+    "translation_col_2": "Bardatura di Suzaku"
+  },
+  "66": {
+    "name": "set of samurai barding",
+    "translation_name": "bardatura da Samurai",
+    "description": "sets of samurai barding",
+    "translation_description": "bardature da Samurai",
+    "col_2": "Samurai Barding",
+    "translation_col_2": "Bardatura da Samurai"
+  },
+  "67": {
+    "name": "set of Seiryu barding",
+    "translation_name": "bardatura di Seiryu",
+    "description": "sets of Seiryu barding",
+    "translation_description": "bardature di Seiryu",
+    "col_2": "Seiryu Barding",
+    "translation_col_2": "Bardatura di Seiryu"
+  },
+  "68": {
+    "name": "set of Yojimbo barding",
+    "translation_name": "bardatura di Yojimbo",
+    "description": "sets of Yojimbo barding",
+    "translation_description": "bardature di Yojimbo",
+    "col_2": "Yojimbo Barding",
+    "translation_col_2": "Bardatura di Yojimbo"
+  },
+  "69": {
+    "name": "set of Titania barding",
+    "translation_name": "bardatura di Titania",
+    "description": "sets of Titania barding",
+    "translation_description": "bardature di Titania",
+    "col_2": "Titania Barding",
+    "translation_col_2": "Bardatura di Titania"
+  },
+  "70": {
+    "name": "set of Innocence barding",
+    "translation_name": "bardatura di Innocence",
+    "description": "sets of Innocence barding",
+    "translation_description": "bardature di Innocence",
+    "col_2": "Innocence Barding",
+    "translation_col_2": "Bardatura di Innocence"
+  },
+  "71": {
+    "name": "set of dancer barding",
+    "translation_name": "bardatura da Danzatore",
+    "description": "sets of dancer barding",
+    "translation_description": "bardature da Danzatore",
+    "col_2": "Dancer Barding",
+    "translation_col_2": "Bardatura da Danzatore"
+  },
+  "72": {
+    "name": "set of deepshadow barding",
+    "translation_name": "bardatura delle Ombre Profonde",
+    "description": "sets of deepshadow barding",
+    "translation_description": "bardature delle Ombre Profonde",
+    "col_2": "Deepshadow Barding",
+    "translation_col_2": "Bardatura delle Ombre Profonde"
+  },
+  "73": {
+    "name": "set of Hades barding",
+    "translation_name": "bardatura di Hades",
+    "description": "sets of Hades barding",
+    "translation_description": "bardature di Hades",
+    "col_2": "Hades Barding",
+    "translation_col_2": "Bardatura di Hades"
+  },
+  "74": {
+    "name": "set of saintly barding",
+    "translation_name": "bardatura santa",
+    "description": "sets of saintly barding",
+    "translation_description": "bardature santa",
+    "col_2": "Saintly Barding",
+    "translation_col_2": "Bardatura Santa"
+  },
+  "75": {
+    "name": "set of Ruby barding",
+    "translation_name": "bardatura del Rubino",
+    "description": "sets of Ruby barding",
+    "translation_description": "bardature del Rubino",
+    "col_2": "Ruby Barding",
+    "translation_col_2": "Bardatura del Rubino"
+  },
+  "76": {
+    "name": "set of machinist barding",
+    "translation_name": "bardatura da Artificiere",
+    "description": "sets of machinist barding",
+    "translation_description": "bardature da Artificiere",
+    "col_2": "Machinist Barding",
+    "translation_col_2": "Bardatura da Artificiere"
+  },
+  "77": {
+    "name": "set of True Barding of Light",
+    "translation_name": "vera bardatura della Luce",
+    "description": "sets of True Barding of Light",
+    "translation_description": "vere bardature della Luce",
+    "col_2": "True Barding of Light",
+    "translation_col_2": "Vera Bardatura della Luce"
+  },
+  "78": {
+    "name": "set of Emerald barding",
+    "translation_name": "bardatura di Smeraldo",
+    "description": "sets of Emerald barding",
+    "translation_description": "bardature di Smeraldo",
+    "col_2": "Emerald Barding",
+    "translation_col_2": "Bardatura di Smeraldo"
+  },
+  "79": {
+    "name": "set of queen's guard barding",
+    "translation_name": "bardatura della guardia della regina",
+    "description": "sets of queen's guard barding",
+    "translation_description": "bardature della guardia della regina",
+    "col_2": "Queen's Guard Barding",
+    "translation_col_2": "Bardatura della Guardia della Regina"
+  },
+  "80": {
+    "name": "set of Bozjan barding",
+    "translation_name": "bardatura bozjana",
+    "description": "sets of Bozjan barding",
+    "translation_description": "bardature bozjane",
+    "col_2": "Bozjan Barding",
+    "translation_col_2": "Bardatura Bozjana"
+  },
+  "81": {
+    "name": "set of Diamond barding",
+    "translation_name": "bardatura del Diamante",
+    "description": "sets of Diamond barding",
+    "translation_description": "bardature del Diamante",
+    "col_2": "Diamond Barding",
+    "translation_col_2": "Bardatura del Diamante"
+  },
+  "82": {
+    "name": "set of barding of eternal Darkness",
+    "translation_name": "bardatura dell'oscurità eterna",
+    "description": "sets of barding of eternal Darkness",
+    "translation_description": "bardature dell'oscurità eterna",
+    "col_2": "Barding of Eternal Darkness",
+    "translation_col_2": "Bardatura dell'Oscurità Eterna"
+  },
+  "83": {
+    "name": "set of barding of divine Light",
+    "translation_name": "bardatura della Luce divina",
+    "description": "sets of barding of divine Light",
+    "translation_description": "bardature della Luce divina",
+    "col_2": "Barding of Divine Light",
+    "translation_col_2": "Bardatura della Luce Divina"
+  },
+  "84": {
+    "name": "set of postmoogle barding",
+    "translation_name": "bardatura del Mogpostino",
+    "description": "sets of postmoogle barding",
+    "translation_description": "bardature del Mogpostino",
+    "col_2": "Postmoogle Barding",
+    "translation_col_2": "Bardatura del Mogpostino"
+  },
+  "85": {
+    "name": "set of Thavnairian barding",
+    "translation_name": "bardatura thavnairiana",
+    "description": "sets of Thavnairian barding",
+    "translation_description": "bardature thavnairiane",
+    "col_2": "Thavnairian Barding",
+    "translation_col_2": "Bardatura Thavnairiana"
+  },
+  "86": {
+    "name": "set of bluefeather barding",
+    "translation_name": "bardatura della piuma blu",
+    "description": "sets of bluefeather barding",
+    "translation_description": "bardature della piuma blu",
+    "col_2": "Bluefeather Barding",
+    "translation_col_2": "Bardatura della Piuma Blu"
+  },
+  "87": {
+    "name": "set of wolf barding",
+    "translation_name": "bardatura lupina",
+    "description": "sets of wolf barding",
+    "translation_description": "bardature lupina",
+    "col_2": "Wolf Barding",
+    "translation_col_2": "Bardatura Lupina"
+  },
+  "88": {
+    "name": "set of windswept barding",
+    "translation_name": "bardatura sferzata dal vento",
+    "description": "sets of windswept barding",
+    "translation_description": "bardature sferzate dal vento",
+    "col_2": "Windswept Barding",
+    "translation_col_2": "Bardatura Sferzata dal Vento"
+  },
+  "89": {
+    "name": "set of isle pioneer's barding",
+    "translation_name": "bardatura del pioniere insulare",
+    "description": "sets of isle pioneer's barding",
+    "translation_description": "bardature del pioniere insulare",
+    "col_2": "Isle Pioneer's Barding",
+    "translation_col_2": "Bardatura del Pioniere Insulare"
+  },
+  "90": {
+    "name": "set of flamecloaked barding",
+    "translation_name": "bardatura ammantata di fiamme",
+    "description": "sets of flamecloaked barding",
+    "translation_description": "bardature ammantate di fiamme",
+    "col_2": "Flamecloaked Barding",
+    "translation_col_2": "Bardatura Ammantata di Fiamme"
+  },
+  "91": {
+    "name": "set of Allagan barding",
+    "translation_name": "bardatura allagana",
+    "description": "sets of Allagan barding",
+    "translation_description": "bardature allagane",
+    "col_2": "Allagan Barding",
+    "translation_col_2": "Bardatura Allagana"
+  },
+  "92": {
+    "name": "set of voidcast barding",
+    "translation_name": "bardatura forgiata nel vuoto",
+    "description": "sets of voidcast barding",
+    "translation_description": "bardature forgiata nel vuoto",
+    "col_2": "Voidcast Barding",
+    "translation_col_2": "Bardatura Forgiata nel Vuoto"
+  },
+  "93": {
+    "name": "set of felicitous barding",
+    "translation_name": "bardatura felicitosa",
+    "description": "sets of felicitous barding",
+    "translation_description": "bardature felicitose",
+    "col_2": "Felicitous Barding",
+    "translation_col_2": "Bardatura Felicitosa"
+  },
+  "94": {
+    "name": "set of abyssal barding",
+    "translation_name": "bardatura abissale",
+    "description": "sets of abyssal barding",
+    "translation_description": "bardature abissali",
+    "col_2": "Abyssal Barding",
+    "translation_col_2": "Bardatura Abissale"
+  },
+  "95": {
+    "name": "set of wayfarer's barding",
+    "translation_name": "bardatura del viandante",
+    "description": "sets of wayfarer's barding",
+    "translation_description": "bardature del viandante",
+    "col_2": "Wayfarer's Barding",
+    "translation_col_2": "Bardatura del Viandante"
+  },
+  "96": {
+    "name": "set of Turali barding",
+    "translation_name": "bardatura Turali",
+    "description": "sets of Turali barding",
+    "translation_description": "bardature Turali",
+    "col_2": "Turali Barding",
+    "translation_col_2": "Bardatura Turali"
+  },
+  "97": {
+    "name": "set of Skyruin barding",
+    "translation_name": "bardatura della rovina celeste",
+    "description": "sets of Skyruin barding",
+    "translation_description": "bardature della rovina celeste",
+    "col_2": "Skyruin Barding",
+    "translation_col_2": "Bardatura della Rovina Celeste"
+  },
+  "98": {
+    "name": "set of electrope barding",
+    "translation_name": "bardatura Electrope",
+    "description": "sets of electrope barding",
+    "translation_description": "bardature Electrope",
+    "col_2": "Electrope Barding",
+    "translation_col_2": "Bardatura Electrope"
+  },
+  "99": {
+    "name": "set of wild ride barding",
+    "translation_name": "bardatura corsa selvaggia",
+    "description": "sets of wild ride barding",
+    "translation_description": "bardature corsa selvaggia",
+    "col_2": "Wild Ride Barding",
+    "translation_col_2": "Bardatura Corsa Selvaggia"
+  },
+  "100": {
+    "name": "set of eternal barding",
+    "translation_name": "bardatura eterna",
+    "description": "sets of eternal barding",
+    "translation_description": "bardature eterna",
+    "col_2": "Eternal Barding",
+    "translation_col_2": "Bardatura Eterna"
+  },
+  "101": {
+    "name": "set of Starlight Stalls barding",
+    "translation_name": "bardatura Starlight Stalls",
+    "description": "sets of Starlight Stalls barding",
+    "translation_description": "bardature Starlight Stalls",
+    "col_2": "Starlight Stalls Barding",
+    "translation_col_2": "Bardatura Starlight Stalls"
+  },
+  "102": {
+    "name": "set of queen's knight barding",
+    "translation_name": "bardatura del cavaliere della regina",
+    "description": "sets of queen's knight barding",
+    "translation_description": "bardature del cavaliere della regina",
+    "col_2": "Queen's Knight Barding",
+    "translation_col_2": "Bardatura del Cavaliere della Regina"
+  },
+  "103": {
+    "name": "set of barding of the dead",
+    "translation_name": "bardatura dei morti",
+    "description": "sets of barding of the dead",
+    "translation_description": "bardature dei morti",
+    "col_2": "Barding of the Dead",
+    "translation_col_2": "Bardatura dei Morti"
+  },
+  "104": {
+    "name": "set of pilgrim's barding",
+    "translation_name": "bardatura del pellegrino",
+    "description": "sets of pilgrim's barding",
+    "translation_description": "bardature del pellegrino",
+    "col_2": "Pilgrim's Barding",
+    "translation_col_2": "Bardatura del Pellegrino"
+  },
+  "105": {
+    "name": "set of runaway barding",
+    "translation_name": "bardatura del fuggitivo",
+    "description": "sets of runaway barding",
+    "translation_description": "bardature del fuggitivo",
+    "col_2": "Runaway Barding",
+    "translation_col_2": "Bardatura del Fuggitivo"
+  },
+  "106": {
+    "name": "set of cosmic barding",
+    "translation_name": "bardatura cosmica",
+    "description": "sets of cosmic barding",
+    "translation_description": "bardature cosmiche",
+    "col_2": "Cosmic Barding",
+    "translation_col_2": "Bardatura Cosmica"
+  },
+  "107": {
+    "name": "set of barding of naught",
+    "translation_name": "bardatura del nulla",
+    "description": "sets of barding of naught",
+    "translation_description": "bardature del nulla",
+    "col_2": "Barding of Naught",
+    "translation_col_2": "Bardatura del Nulla"
+  },
+  "108": {
+    "name": "set of picnicker's barding",
+    "translation_name": "bardatura da picnic",
+    "description": "sets of picnicker's barding",
+    "translation_description": "bardature da picnic",
+    "col_2": "Picnicker's Barding",
+    "translation_col_2": "Bardatura da Picnic"
+  }
+}

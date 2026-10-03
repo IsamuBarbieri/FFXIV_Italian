@@ -4,16 +4,16 @@ Progetto fan-made per tradurre in italiano i testi di Final Fantasy XIV e creare
 
 ## Stato del progetto
 
-Fotografia del corpus al 29 settembre 2026. Per i valori aggiornati usa il comando `status`.
+Fotografia del corpus al 3 ottobre 2026. Per i valori aggiornati usa il comando `status`.
 
 | Indicatore | Valore |
 | --- | ---: |
 | Righe nel corpus | 590.561 |
-| Righe complete secondo l'estrattore | 101.294 (17,2%) |
-| Righe ancora pendenti | 489.267 |
-| File JSON da tradurre | 5.886 |
+| Righe complete secondo l'estrattore | 130.300 (22,1%) |
+| Righe ancora pendenti | 460.261 |
+| File JSON da tradurre | 5.567 |
 | File in revisione | 0 |
-| File approvati | 48 |
+| File approvati | 367 |
 | File delle quest narrative | 5.532 |
 
 Una riga è completa quando tutti i campi testuali previsti hanno una traduzione. Lo stato editoriale è distinto dalla copertura: solo i file approvati vengono compilati dal patcher.
@@ -33,6 +33,8 @@ Il validatore controlla vincoli tecnici e coerenza terminologica; non sostituisc
 | `data/translations/<categoria>/` | File approvati e inclusi nel build della mod. |
 
 Le categorie sono `activities`, `combat`, `crafting`, `dialogue`, `housing`, `items`, `minigames`, `quests`, `shops`, `social`, `system` e `world`. Le quest narrative sono suddivise per espansione e cartella numerica. Dopo nuove estrazioni o importazioni, esegui `python tools/organize_sheets.py` per riallineare gli stati e le categorie.
+
+Il patcher carica automaticamente i JSON approvati in `data/translations/` quando trova il relativo EXH nel client. Gli handler dedicati conservano le eccezioni di formato dei fogli già curati. Le risorse in `data/assets/` mantengono il percorso relativo; i file nelle altre cartelle sotto `data/` vengono inclusi automaticamente usando il loro percorso relativo a `data/`.
 
 ## Struttura del repository
 

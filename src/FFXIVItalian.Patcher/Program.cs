@@ -111,78 +111,6 @@ if (Directory.Exists(sqPackPath))
             }
         }
 
-        // Fogli aggiunti con l'estrattore universale: stessa sequenza di colonne String dell'EXH.
-        foreach (string sheet in new[] { "addontransient", "classjobactionuicategory", "classjobcategory",
-            "item", "itemsearchcategory", "itemseries", "itemspecialbonus", "description", "descriptionstring",
-            "action", "actioncategory", "actioncomboroute", "actioncomboroutetransient", "aozactiontransient" })
-        {
-            string jsonPath = TranslationPathResolver.FindFile(translationsDir, sheet);
-            if (!File.Exists(jsonPath)) continue;
-
-            var exh = lumina.GetFile($"exd/{sheet}.exh")
-                ?? throw new InvalidDataException($"EXH mancante per {sheet}.");
-            ushort fixedSize = BinaryPrimitives.ReadUInt16BigEndian(exh.Data.AsSpan(0x06, 2));
-            ushort columnCount = BinaryPrimitives.ReadUInt16BigEndian(exh.Data.AsSpan(0x08, 2));
-            ushort pageCount = BinaryPrimitives.ReadUInt16BigEndian(exh.Data.AsSpan(0x0A, 2));
-            var offsets = new List<int>();
-            for (int column = 0; column < columnCount; column++)
-            {
-                int position = 0x20 + column * 4;
-                if (BinaryPrimitives.ReadUInt16BigEndian(exh.Data.AsSpan(position, 2)) == 0)
-                    offsets.Add(BinaryPrimitives.ReadUInt16BigEndian(exh.Data.AsSpan(position + 2, 2)));
-            }
-
-            using var document = JsonDocument.Parse(File.ReadAllText(jsonPath));
-            var rows = new Dictionary<uint, IReadOnlyDictionary<int, string>>();
-            foreach (var entry in document.RootElement.EnumerateObject())
-            {
-                if (!uint.TryParse(entry.Name, out uint rowId) || entry.Value.ValueKind != JsonValueKind.Object) continue;
-                var replacements = new Dictionary<int, string>();
-                for (int index = 0; index < offsets.Count; index++)
-                {
-                    string field = offsets.Count == 1 ? "translation" : index switch
-                    {
-                        0 => "translation_name",
-                        1 => "translation_description",
-                        _ => $"translation_col_{index}"
-                    };
-                    if (entry.Value.TryGetProperty(field, out var value) && value.ValueKind == JsonValueKind.String &&
-                        !string.IsNullOrWhiteSpace(value.GetString()))
-                        replacements[offsets[index]] = value.GetString()!;
-                }
-                if (replacements.Count > 0) rows[rowId] = replacements;
-            }
-            if (rows.Count == 0) continue;
-
-            int pageTable = 0x20 + columnCount * 4;
-            var sortedRows = rows.OrderBy(row => row.Key).ToArray();
-            int translationIndex = 0;
-            for (int page = 0; page < pageCount; page++)
-            {
-                uint startId = BinaryPrimitives.ReadUInt32BigEndian(exh.Data.AsSpan(pageTable + page * 8, 4));
-                uint nextId = page + 1 < pageCount
-                    ? BinaryPrimitives.ReadUInt32BigEndian(exh.Data.AsSpan(pageTable + (page + 1) * 8, 4))
-                    : uint.MaxValue;
-
-                while (translationIndex < sortedRows.Length && sortedRows[translationIndex].Key < startId)
-                    translationIndex++;
-
-                var pageRows = new Dictionary<uint, IReadOnlyDictionary<int, string>>();
-                while (translationIndex < sortedRows.Length && sortedRows[translationIndex].Key < nextId)
-                {
-                    var row = sortedRows[translationIndex++];
-                    pageRows.Add(row.Key, row.Value);
-                }
-                if (pageRows.Count == 0) continue;
-                string exdPath = $"exd/{sheet}_{startId}_en.exd";
-                var exd = lumina.GetFile(exdPath)
-                    ?? throw new InvalidDataException($"Pagina EXD mancante: {exdPath}.");
-                fileMap[exdPath] = ExdPatcher.PatchMultiColumnStringSheet(
-                    exd.Data, fixedSize, offsets, pageRows);
-                Console.WriteLine($"  * '{exdPath}' rigenerato ({pageRows.Count} righe tradotte).");
-            }
-        }
-
         // 2a. PATCH BASEPARAM (nomi e descrizioni delle statistiche del personaggio)
         string baseParamJsonPath = TranslationPathResolver.FindFile(translationsDir, "baseparam");
         var baseParamReplacements = TranslationFileReader.LoadTwoStringReplacements(baseParamJsonPath);
@@ -943,22 +871,141 @@ if (Directory.Exists(sqPackPath))
     }
 }
 
-// PATCH ASSET UI (texture localizzate per la creazione del personaggio)
-string assetsDir = Path.Combine(projectRoot, "data", "assets");
-if (Directory.Exists(assetsDir))
+// PATCH AUTOMATICO DEI FOGLI APPROVATI NON GESTITI DA UN HANDLER SPECIFICO.
+// Gli handler sopra mantengono le eccezioni di formato e il fine tuning dei fogli già curati.
+if (Directory.Exists(sqPackPath))
 {
-    var assetFiles = Directory.EnumerateFiles(assetsDir, "*", SearchOption.AllDirectories).ToArray();
-    foreach (var assetPath in assetFiles)
+    var automaticGameData = getGameData();
+    var customSheets = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
     {
-        string gamePath = Path.GetRelativePath(assetsDir, assetPath).Replace(Path.DirectorySeparatorChar, '/');
-        fileMap[gamePath] = await File.ReadAllBytesAsync(assetPath);
+        "lobby", "addon", "baseparam", "grandcompany", "fcreputation", "beastreputationrank",
+        "gcrankgridaniafemaletext", "gcrankgridaniamaletext", "gcranklimsafemaletext",
+        "gcranklimsamaletext", "gcrankuldahfemaletext", "gcrankuldahmaletext",
+        "maincommandcategory", "maincommand", "error", "classjob", "guardiandeity", "placename",
+        "tribe", "race", "howtocategory", "itemuicategory", "weather", "howto", "textcommand",
+        "logmessage", "trait", "actiontransient", "traittransient", "title", "customtalk",
+        "status", "fate", "achievement"
+    };
+    int discoveredSheets = 0;
+    int patchedPages = 0;
+
+    foreach (string jsonPath in Directory.EnumerateFiles(translationsDir, "*.json", SearchOption.AllDirectories))
+    {
+        string relativePath = Path.GetRelativePath(translationsDir, jsonPath);
+        if (relativePath.StartsWith($"quests{Path.DirectorySeparatorChar}", StringComparison.OrdinalIgnoreCase)) continue;
+
+        string sheet = Path.GetFileNameWithoutExtension(jsonPath);
+        if (customSheets.Contains(sheet)) continue;
+
+        var exh = automaticGameData.GetFile($"exd/{sheet}.exh");
+        if (exh == null) continue;
+        discoveredSheets++;
+
+        ushort fixedSize = BinaryPrimitives.ReadUInt16BigEndian(exh.Data.AsSpan(0x06, 2));
+        ushort columnCount = BinaryPrimitives.ReadUInt16BigEndian(exh.Data.AsSpan(0x08, 2));
+        ushort pageCount = BinaryPrimitives.ReadUInt16BigEndian(exh.Data.AsSpan(0x0A, 2));
+        var offsets = new List<int>();
+        for (int column = 0; column < columnCount; column++)
+        {
+            int position = 0x20 + column * 4;
+            if (BinaryPrimitives.ReadUInt16BigEndian(exh.Data.AsSpan(position, 2)) == 0)
+                offsets.Add(BinaryPrimitives.ReadUInt16BigEndian(exh.Data.AsSpan(position + 2, 2)));
+        }
+        if (offsets.Count == 0) continue;
+
+        using var document = JsonDocument.Parse(File.ReadAllText(jsonPath));
+        var rows = new Dictionary<uint, IReadOnlyDictionary<int, string>>();
+        foreach (var entry in document.RootElement.EnumerateObject())
+        {
+            if (!uint.TryParse(entry.Name, out uint rowId) || entry.Value.ValueKind != JsonValueKind.Object) continue;
+            var replacements = new Dictionary<int, string>();
+            for (int index = 0; index < offsets.Count; index++)
+            {
+                string[] fields = offsets.Count == 1
+                    ? ["translation", "translation_name", "translation_col_0"]
+                    : index switch
+                    {
+                        0 => ["translation_name", "translation", "translation_name_masculine", "translation_col_0"],
+                        1 => ["translation_description", "translation_alt", "translation_name_feminine", "translation_col_1"],
+                        _ => [$"translation_col_{index}"]
+                    };
+
+                foreach (string field in fields)
+                {
+                    if (entry.Value.TryGetProperty(field, out var value) && value.ValueKind == JsonValueKind.String &&
+                        !string.IsNullOrWhiteSpace(value.GetString()))
+                    {
+                        replacements[offsets[index]] = value.GetString()!;
+                        break;
+                    }
+                }
+            }
+            if (replacements.Count > 0) rows[rowId] = replacements;
+        }
+        if (rows.Count == 0) continue;
+
+        int pageTable = 0x20 + columnCount * 4;
+        var sortedRows = rows.OrderBy(row => row.Key).ToArray();
+        int translationIndex = 0;
+        for (int page = 0; page < pageCount; page++)
+        {
+            uint startId = BinaryPrimitives.ReadUInt32BigEndian(exh.Data.AsSpan(pageTable + page * 8, 4));
+            uint nextId = page + 1 < pageCount
+                ? BinaryPrimitives.ReadUInt32BigEndian(exh.Data.AsSpan(pageTable + (page + 1) * 8, 4))
+                : uint.MaxValue;
+            while (translationIndex < sortedRows.Length && sortedRows[translationIndex].Key < startId)
+                translationIndex++;
+
+            var pageRows = new Dictionary<uint, IReadOnlyDictionary<int, string>>();
+            while (translationIndex < sortedRows.Length && sortedRows[translationIndex].Key < nextId)
+            {
+                var row = sortedRows[translationIndex++];
+                pageRows.Add(row.Key, row.Value);
+            }
+            if (pageRows.Count == 0) continue;
+
+            string exdPath = $"exd/{sheet}_{startId}_en.exd";
+            if (fileMap.ContainsKey(exdPath)) continue; // Un handler dedicato ha già applicato le sue regole.
+            var exd = automaticGameData.GetFile(exdPath)
+                ?? throw new InvalidDataException($"Pagina EXD mancante per '{relativePath}': {exdPath}.");
+            fileMap[exdPath] = ExdPatcher.PatchMultiColumnStringSheet(exd.Data, fixedSize, offsets, pageRows);
+            patchedPages++;
+            Console.WriteLine($"  * '{exdPath}' rigenerato ({pageRows.Count} righe tradotte da {relativePath}).");
+        }
     }
 
-    if (assetFiles.Length > 0)
+    Console.WriteLine($"[Scoperta automatica] Esaminati {discoveredSheets} fogli approvati, patchate {patchedPages} pagine EXD.");
+}
+
+// PATCH ASSET UI (texture localizzate per la creazione del personaggio)
+string assetsDir = Path.Combine(projectRoot, "data", "assets");
+var dataDir = Path.Combine(projectRoot, "data");
+var excludedDataFolders = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+    { "translations", "da_tradurre", "da_revisionare", "glossary" };
+var resourceFiles = Directory.EnumerateFiles(dataDir, "*", SearchOption.AllDirectories)
+    .Where(path =>
     {
-        Console.WriteLine();
-        Console.WriteLine($"Caricate {assetFiles.Length} risorse UI localizzate da '{assetsDir}'.");
+        string relative = Path.GetRelativePath(dataDir, path);
+        string firstFolder = relative.Split(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar)[0];
+        return !excludedDataFolders.Contains(firstFolder);
+    })
+    .ToArray();
+if (resourceFiles.Length > 0)
+{
+    foreach (var resourcePath in resourceFiles)
+    {
+        string relative = Path.GetRelativePath(dataDir, resourcePath);
+        string gamePath = relative.StartsWith($"assets{Path.DirectorySeparatorChar}", StringComparison.OrdinalIgnoreCase)
+            ? Path.GetRelativePath(assetsDir, resourcePath)
+            : relative;
+        gamePath = gamePath.Replace(Path.DirectorySeparatorChar, '/');
+        if (fileMap.ContainsKey(gamePath))
+            throw new InvalidDataException($"Risorsa duplicata nel pacchetto: '{relative}' collide con '{gamePath}'.");
+        fileMap[gamePath] = await File.ReadAllBytesAsync(resourcePath);
     }
+
+    Console.WriteLine();
+    Console.WriteLine($"Caricate {resourceFiles.Length} risorse da data/ (assets e cartelle aggiuntive).");
 }
 
 fileMap["readme_ita.txt"] = Encoding.UTF8.GetBytes("FFXIV Italiano - Compilato da file JSON in data/translations.");
