@@ -1,0 +1,106 @@
+{
+  "entries": [
+    {
+      "Id": "duty-commenced",
+      "SourcePath": "ui/icon/120000/en/120021.tex",
+      "TargetPath": "ui/icon/120000/en/120021.tex",
+      "Text": "Incarico Iniziato",
+      "Layout": "full"
+    },
+    {
+      "Id": "duty-complete",
+      "SourcePath": "ui/icon/120000/en/120022.tex",
+      "TargetPath": "ui/icon/120000/en/120022.tex",
+      "Text": "Incarico Completato",
+      "Layout": "full"
+    },
+    {
+      "Id": "duty-failed",
+      "SourcePath": "ui/icon/120000/en/120023.tex",
+      "TargetPath": "ui/icon/120000/en/120023.tex",
+      "Text": "Incarico Fallito",
+      "Layout": "full"
+    },
+    {
+      "Id": "forward",
+      "SourcePath": "ui/icon/120000/en/120024.tex",
+      "TargetPath": "ui/icon/120000/en/120024.tex",
+      "Text": "Avanti!",
+      "Layout": "full"
+    },
+    {
+      "Id": "quest-accepted",
+      "SourcePath": "ui/icon/120000/en/120001.tex",
+      "TargetPath": "ui/icon/120000/en/120001.tex",
+      "Text": "Missione Accettata",
+      "Layout": "full"
+    },
+    {
+      "Id": "quest-complete",
+      "SourcePath": "ui/icon/120000/en/120002.tex",
+      "TargetPath": "ui/icon/120000/en/120002.tex",
+      "Text": "Missione Completata",
+      "Layout": "full"
+    },
+    {
+      "Id": "fate-joined",
+      "SourcePath": "ui/icon/120000/en/120081.tex",
+      "TargetPath": "ui/icon/120000/en/120081.tex",
+      "Text": "FATE Iniziato",
+      "Layout": "full"
+    },
+    {
+      "Id": "fate-complete",
+      "SourcePath": "ui/icon/120000/en/120082.tex",
+      "TargetPath": "ui/icon/120000/en/120082.tex",
+      "Text": "FATE Completato",
+      "Layout": "full"
+    },
+    {
+      "Id": "level-up",
+      "SourcePath": "ui/icon/120000/en/120111.tex",
+      "TargetPath": "ui/icon/120000/en/120111.tex",
+      "Text": "Livello Aumentato!",
+      "Layout": "full",
+      "Height": 128
+    },
+    {
+      "Id": "gate-joined",
+      "SourcePath": "ui/icon/121000/en/121561.tex",
+      "TargetPath": "ui/icon/121000/en/121561.tex",
+      "Text": "GATE Iniziato",
+      "Layout": "full"
+    },
+    {
+      "Id": "gate-complete",
+      "SourcePath": "ui/icon/121000/en/121562.tex",
+      "TargetPath": "ui/icon/121000/en/121562.tex",
+      "Text": "GATE Completato",
+      "Layout": "full"
+    },
+    {
+      "Id": "light-party",
+      "SourcePath": "ui/icon/120000/en/120114.tex",
+      "TargetPath": "ui/icon/120000/en/120114.tex",
+      "Text": "Gruppo Ristretto",
+      "Layout": "full",
+      "Height": 128
+    },
+    {
+      "Id": "full-party",
+      "SourcePath": "ui/icon/120000/en/120115.tex",
+      "TargetPath": "ui/icon/120000/en/120115.tex",
+      "Text": "Gruppo Completo",
+      "Layout": "full",
+      "Height": 128
+    },
+    {
+      "Id": "level-down",
+      "SourcePath": "ui/icon/120000/en/120119.tex",
+      "TargetPath": "ui/icon/120000/en/120119.tex",
+      "Text": "Livello Diminuito...",
+      "Layout": "full",
+      "Height": 128
+    }
+  ]
+}

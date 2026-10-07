@@ -40,7 +40,7 @@ La coda segnala possibili incoerenze, non errori certi. Controlla ogni candidato
 
 - L'utente fa un controllo visivo complessivo e indica i cambiamenti desiderati.
 - Si applicano le correzioni ai file interessati e si ripete la validazione necessaria.
-- Il file resta in revisione finché l'utente non ne approva il passaggio allo stato approvato.
+- Il file resta in `data/da_revisionare/` finché l'utente non lo approva; l'approvazione consiste nello spostarlo in `data/translations/`.
 
 ## 5. Aggiornare il glossario
 

@@ -1,4 +1,5 @@
 using System.Text.Json;
+using System.Text.RegularExpressions;
 
 namespace FFXIVItalian.Core.Glossary;
 
@@ -32,6 +33,11 @@ public static class GlossaryAudit
                 if (Path.GetFileName(filePath).Equals("customtalk.json", StringComparison.OrdinalIgnoreCase) &&
                     (source.Name == "name" || (source.Name.StartsWith("col_", StringComparison.Ordinal) &&
                      int.TryParse(source.Name[4..], out var column) && column < 31))) continue;
+                if (Path.GetFileName(filePath).Equals("textcommand.json", StringComparison.OrdinalIgnoreCase) &&
+                    source.Name == "col_2" &&
+                    Regex.IsMatch(source.Value.GetString() ?? "",
+                        @"(?is)^ALIAS(?:ES)?:.*?(?:USAGE|USO):.*?/search\s+\[condition\]"))
+                    continue; // I nomi tra virgolette sono parametri letterali della sintassi /search.
 
                 string targetName = "translation_" + source.Name;
                 if ((source.Name == "original" || source.Name == "name") &&

@@ -44,15 +44,14 @@ FIELD = re.compile(r'(?m)^    "(?P<name>translation(?:_[^"\r\n]+)?)": (?P<value>
 
 
 def glossary():
-    approved, entries = set(), []
+    approved = {path.relative_to(TRANSLATIONS).as_posix() for path in TRANSLATIONS.rglob("*.json")}
+    entries = []
     section = category = ""
     for line in GLOSSARY.read_text(encoding="utf-8-sig").splitlines():
         if line.startswith("## "):
             section = line[3:]
         elif line.startswith("### "):
             category = line[4:]
-        elif section == "File approvati" and line.startswith("- `"):
-            approved.add(line.split("`", 2)[1])
         elif section == "Voci" and line.startswith("| ") and not line.startswith(("| Inglese |", "| --- |")):
             cells = [cell.strip().strip("`") for cell in line.strip("|").split("|")]
             if len(cells) != 4:
@@ -202,11 +201,41 @@ def exact_place_occurrences(term, occurrences, original, source_field, relative)
     # `/search` examples must keep place names in the language users enter.
     search_input_examples = (
         relative.endswith("/system/textcommand.json") and source_field == "col_2" and
-        re.match(r"(?is)^ALIAS:.*?/search\s+\[condition\]", original)
+        re.match(r"(?is)^ALIAS:.*?(?:USAGE|USO):.*?/search\s+\[condition\]", plain)
     )
     for matched, position in occurrences:
-        if source_field == "name" and plain.strip(" .!?…'’\"“”«»()[]").casefold() != term.casefold():
+        title = plain.strip(" .!?…'’\"“”«»()[]")
+        if (source_field in {"original", "name"} and
+                relative.endswith("/combat/status.json") and
+                term.casefold() == "the dungeons" and
+                title.casefold() == "to the dungeons"):
+            # This is a status describing a character being sent to prison, not a place name.
             continue
+        if (source_field == "name" and relative.endswith("/world/fate.json") and
+                (term.casefold(), title.casefold()) in {
+                    ("the bridge", "under the bridge"),
+                    ("the hole", "fire in the hole"),
+                    ("the yard", "stamp the yard"),
+                    ("the deep", "it came from beneath the deep"),
+                }):
+            # These FATE titles use common nouns or idioms, not the similarly named places.
+            continue
+        if (source_field in {"original", "name"} and relative.endswith("/world/fateevent.json") and
+                term.casefold() == "the deep" and
+                re.search(r"\b(?:call\s+o'|loath(?:e|ed))\s+the\s+Deep\b", plain, re.IGNORECASE)):
+            # Sailors use "the Deep" for the open sea in these lines.
+            continue
+        if (source_field == "name" and relative.endswith("/system/howtopage.json") and
+                term.casefold() == "the gathering" and
+                re.search(r"\bfrom\s+the\s+Gathering\s+window\b", plain, re.IGNORECASE)):
+            # Here Gathering names the gathering interface, not the place.
+            continue
+        if (source_field == "name" and relative.endswith("/world/achievement.json") and
+                term.casefold() == "the walk" and title.casefold() == "walk the walk"):
+            # This achievement uses the English idiom as a complete title.
+            continue
+        # A location can be a meaningful part of a longer achievement or feature title.
+        # Keep such matches for review; the boundary checks below reject title extensions.
         if (relative.endswith("/world/title.json") and source_field == "description" and
                 plain.strip(" .!?…'’\"“”«»()[]").casefold() != term.casefold()):
             continue
@@ -628,6 +657,11 @@ def scan(args):
                 if (path_key.endswith(("/housing/orchestrion.json", "/minigames/weddingbgm.json",
                                        "/minigames/performguidescore.json")) and translation == original):
                     continue
+                if (path_key.endswith("/system/textcommand.json") and source_field == "col_2" and
+                        re.match(r"(?is)^ALIAS:.*?(?:USAGE|USO):.*?/search\s+\[condition\]",
+                                 plain_text(original))):
+                    # Place names in this help entry are literal /search arguments.
+                    continue
                 if (not args.term and source_field == "original" and
                         re.match(r"(?i)^\s*N[.°º](?:\s|$)", plain_text(translation))):
                     continue  # "No." is a number abbreviation here, not the negative answer.
@@ -689,7 +723,9 @@ def scan(args):
                                                                      ignore_title_extensions))
                         if not occurrences:
                             continue
-                    if any(entry["category"] == "Luoghi" for entry in variants):
+                    # A glossary term can name both a location and a feature used in prose.
+                    # Apply place-name casing only when every meaning is a location.
+                    if variants and all(entry["category"] == "Luoghi" for entry in variants):
                         if path_key.endswith("/items/buddyequip.json") and re.search(r"\bbarding\b", original, re.IGNORECASE):
                             continue
                         aligned_occurrences = list(exact_place_occurrences(term, occurrences, original,
@@ -852,7 +888,7 @@ def main():
     scan_scope.add_argument("--include-approved", action="store_true",
                             help="Includi i file approvati nella scansione generale")
     scan_scope.add_argument("--approved-only", action="store_true",
-                            help="Scansiona esclusivamente i file elencati come approvati nel glossario")
+                            help="Scansiona esclusivamente i file presenti in data/translations")
     scan_cmd.add_argument("--include-review", action="store_true",
                           help="Aggiunge tutti i JSON in data/da_revisionare alla scansione")
     scan_cmd.add_argument("--all-matches", action="store_true", help="Non limita a cinque le segnalazioni per termine")

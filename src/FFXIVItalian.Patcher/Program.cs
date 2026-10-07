@@ -914,6 +914,7 @@ if (Directory.Exists(sqPackPath))
         if (offsets.Count == 0) continue;
 
         using var document = JsonDocument.Parse(File.ReadAllText(jsonPath));
+        bool isContentFinderCondition = sheet.Equals("contentfindercondition", StringComparison.OrdinalIgnoreCase);
         var rows = new Dictionary<uint, IReadOnlyDictionary<int, string>>();
         foreach (var entry in document.RootElement.EnumerateObject())
         {
@@ -925,6 +926,8 @@ if (Directory.Exists(sqPackPath))
                     ? ["translation", "translation_name", "translation_col_0"]
                     : index switch
                     {
+                        0 when isContentFinderCondition => ["translation_name", "translation_name_masculine", "translation_col_0"],
+                        1 when isContentFinderCondition => ["translation", "translation_description", "translation_alt", "translation_name_feminine", "translation_col_1"],
                         0 => ["translation_name", "translation", "translation_name_masculine", "translation_col_0"],
                         1 => ["translation_description", "translation_alt", "translation_name_feminine", "translation_col_1"],
                         _ => [$"translation_col_{index}"]

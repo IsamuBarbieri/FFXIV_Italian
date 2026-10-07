@@ -9,7 +9,6 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 TRANSLATIONS = DATA / "translations"
 EDITORIAL_STATES = (DATA / "da_tradurre", DATA / "da_revisionare")
-GLOSSARY = DATA / "glossary" / "Glossary.md"
 
 # First matching area wins. Existing categorized sheets keep their area.
 AREAS = {
@@ -40,41 +39,32 @@ def area(name, parts):
 
 
 def main():
-    approved = set()
-    in_section = False
-    for line in GLOSSARY.read_text(encoding="utf-8-sig").splitlines():
-        if line.startswith("## "):
-            in_section = line == "## File approvati"
-        elif in_section and line.startswith("- `"):
-            approved.add(line.split("`", 2)[1].lower())
-
     moves = []
-    counts = {"da_tradurre": 0, "da_revisionare": 0, "revisionati": 0}
+    counts = {"da_tradurre": 0, "da_revisionare": 0, "approvati": 0}
     for source_root in (TRANSLATIONS, *EDITORIAL_STATES):
         for source in sorted(source_root.rglob("*.json")):
             parts = source.relative_to(source_root).parts
             category = area(source.stem, parts)
-            data = json.loads(source.read_text(encoding="utf-8-sig"))
-            translated = any(
-                isinstance(row, dict) and any(
-                    key.startswith("translation") and isinstance(value, str) and value.strip()
-                    for key, value in row.items()
-                )
-                for row in data.values()
-            )
-            relative = f"{category}/{source.name}".lower()
-            if relative in approved:
-                state = "revisionati"
-                target = TRANSLATIONS / category / source.name
+            if source_root == TRANSLATIONS:
+                state = "approvati"
             else:
+                data = json.loads(source.read_text(encoding="utf-8-sig"))
+                translated = any(
+                    isinstance(row, dict) and any(
+                        key.startswith("translation") and isinstance(value, str) and value.strip()
+                        for key, value in row.items()
+                    )
+                    for row in data.values()
+                )
                 state = "da_revisionare" if translated else "da_tradurre"
-                if category == "quests":
-                    subpath = parts[parts.index("quests") + 1:-1] if "quests" in parts else ()
-                    if not subpath or not subpath[-1].isdigit():
-                        subpath = ("master",)
-                else:
-                    subpath = ()
-                target = DATA / state / category / Path(*subpath) / source.name
+            if category == "quests":
+                subpath = parts[parts.index("quests") + 1:-1] if "quests" in parts else ()
+                if not subpath or not subpath[-1].isdigit():
+                    subpath = ("master",)
+            else:
+                subpath = ()
+            target_root = TRANSLATIONS if state == "approvati" else DATA / state
+            target = target_root / category / Path(*subpath) / source.name
             counts[state] += 1
             if source != target:
                 if target.exists():

@@ -72,6 +72,12 @@ public class GlossaryEngine
             result.Warnings.Add("Sigla FATE: usare FATE senza punti.");
         foreach (var term in new[] { "dungeon", "raid", "trial", "guildhest", "levequest", "subquest" })
         {
+            if (term is "dungeon" or "raid") continue; // Prestiti stabilmente usati nel lessico italiano di gioco.
+            bool approvedItalianLoanword = _entries.Any(entry =>
+                entry.Category == GlossaryCategory.GameTerm &&
+                entry.EnglishTerm.Equals(term, StringComparison.OrdinalIgnoreCase) &&
+                entry.ItalianTerm.Equals(term, StringComparison.OrdinalIgnoreCase));
+            if (approvedItalianLoanword) continue;
             var pattern = $@"\b{term}s?\b";
             // These are proper titles, even though they contain category words.
             var sourceText = originalEn.Replace("Trials of the Braves", "", StringComparison.OrdinalIgnoreCase)

@@ -32,6 +32,40 @@ Le anteprime vengono salvate in `tools/clan_texture_previews`: il PNG semplice m
 
 `leftInset` è espresso in pixel HR1 e regola il margine interno a sinistra.
 
+## Cartelli delle zone
+
+`AreaTextureTool` estrae le texture originali e rigenera i cartelli con testo italiano, nello stesso formato usato dal client. Usa il font **Jupiter Pro Regular** installato come `Jupiter-Pro.ttf`; le minuscole sono disegnate a 5/6 della dimensione delle maiuscole. Il testo è creato in Photoshop con `JupiterPro`, usando le alternative contestuali del font completo per la N iniziale curva. Photoshop applica direttamente il preset `Zone Style.ASL` tramite `AreaTextureTool/Styles/apply_zone_style.jsx`.
+
+Per ricostruire il catalogo dei cartelli a partire dai nomi tradotti e verificare i percorsi contro l'installazione locale del gioco:
+
+```powershell
+dotnet run --project .\tools\AreaTextureTool -- catalog
+```
+
+Il catalogo legge gli ID delle texture dai campi `PlaceNameRegionIcon` e `PlaceNameIcon` di `TerritoryType`, controlla formato e dimensioni nel client locale e associa i nomi italiani di `placename.json`. Quando il territorio è legato a una duty e il cartello è specifico dell'attività, usa il nome tradotto in `contentfindercondition.json`. Alcune intestazioni di regione senza una voce in quei due fogli hanno una resa esplicita nel catalogo. I codici SeString vengono rimossi dal testo rasterizzato senza modificare i JSON. La configurazione trovata è salvata in `AreaTextureTool/area_texture_labels.json`.
+
+Per estrarre una texture originale in PNG:
+
+```powershell
+dotnet run --project .\tools\AreaTextureTool -- dump ui/icon/123000/en/123202.tex .\tools\fullscreen_texture_previews\original_new_gridania.png
+```
+
+Per generare tutte le voci configurate, comprese le varianti HR1 (richiede Photoshop installato):
+
+```powershell
+pwsh -File .\tools\generate_area_textures.ps1
+```
+
+Le voci individuate producono le versioni standard e HR1 sotto `data/assets`, mantenendo i percorsi originali del gioco; le anteprime PNG finali sono in `tools/fullscreen_texture_previews` e gli intermedi Photoshop vengono rimossi dopo la conversione. Aggiungi una voce a `AreaTextureTool/area_texture_labels.json` per riusare il generatore su altri cartelli. Una configurazione diversa si può specificare allo script con `-ConfigPath`. Per il catalogo e il dump, la cartella sqpack si specifica con `--sqpack`. Parametri del preset e geometria sono documentati in `AreaTextureTool/Styles/README.md`.
+
+Le texture full screen hanno una configurazione separata e usano `FONTSPRINGDEMO-JupiterProBold`; per la punteggiatura usa `JupiterPro-Bold`. Il generatore duplica il livello `This Uses Jupiter Font` dal PSD di riferimento, mantenendo font, rapporto delle minuscole, trasformazione, colore e bevel; ingrandisce il testo 1,7× e calibra il bagliore esterno per evitare che si fonda tra le lettere. Il file `full_screen_texture_labels.json` contiene anche texture compatte da 128 px di altezza oltre agli annunci da 360 px. L’ASL fornito resta invariato perché il preset che Photoshop ne ricava è diverso dal PSD. Se il PSD non è già aperto, il tool lo apre dal percorso predefinito `..\..\Duty Complete font.psd`; si può cambiare percorso con `-FullScreenReferencePsdPath`.
+
+```powershell
+pwsh -File .\tools\generate_area_textures.ps1 -ConfigPath .\tools\AreaTextureTool\full_screen_texture_labels.json
+```
+
+Il full screen non importa preset in Photoshop e quindi non aggiunge stili duplicati. `-ReloadStyle` riguarda i preset ASL delle zone e delle regioni.
+
 ## Maiuscole delle traduzioni
 
 Lo script controlla i fogli completati secondo `dotnet run --project src/FFXIVItalian.Extractor -- status`.

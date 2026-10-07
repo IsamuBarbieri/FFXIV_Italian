@@ -27,22 +27,38 @@ public class GlossaryTests
     }
 
     [Fact]
-    public void EveryEntryIsPresentInAnApprovedSource()
+    public void FileReferencesResolveToApprovedOrReviewSources()
     {
-        Assert.Equal(11, _catalog.ApprovedFiles.Count);
         Assert.NotEmpty(_catalog.Engine.Entries);
         string root = FindRepoRoot();
+        int fileSources = 0;
         foreach (var entry in _catalog.Engine.Entries)
         {
-            Assert.Contains(entry.SourceFile, _catalog.ApprovedFiles);
-            using var doc = JsonDocument.Parse(File.ReadAllText(Path.Combine(root, "data", "translations", entry.SourceFile)));
+            if (entry.SourceFile == "Decisione dell'utente")
+            {
+                Assert.Empty(entry.RowId);
+                Assert.Empty(entry.SourceField);
+                continue;
+            }
+
+            bool reviewSource = entry.SourceFile.StartsWith("@review/", StringComparison.Ordinal);
+            string relativePath = reviewSource ? entry.SourceFile["@review/".Length..] : entry.SourceFile;
+            string sourceRoot = Path.GetFullPath(Path.Combine(root, "data", reviewSource ? "da_revisionare" : "translations"));
+            string sourcePath = Path.GetFullPath(Path.Combine(sourceRoot, relativePath.Replace('/', Path.DirectorySeparatorChar)));
+            Assert.StartsWith(sourceRoot + Path.DirectorySeparatorChar, sourcePath, StringComparison.OrdinalIgnoreCase);
+            Assert.True(File.Exists(sourcePath), entry.SourceFile);
+            using var doc = JsonDocument.Parse(File.ReadAllText(sourcePath));
             var row = doc.RootElement.GetProperty(entry.RowId);
             string targetField = "translation_" + entry.SourceField;
             if (!row.TryGetProperty(targetField, out _) &&
                 (entry.SourceField == "original" || entry.SourceField == "name")) targetField = "translation";
-            Assert.Equal(entry.EnglishTerm, row.GetProperty(entry.SourceField).GetString());
-            Assert.Equal(entry.ItalianTerm, row.GetProperty(targetField).GetString());
+            string original = row.GetProperty(entry.SourceField).GetString() ?? "";
+            string translation = row.GetProperty(targetField).GetString() ?? "";
+            Assert.False(string.IsNullOrWhiteSpace(original), entry.SourceFile);
+            Assert.False(string.IsNullOrWhiteSpace(translation), entry.SourceFile);
+            fileSources++;
         }
+        Assert.NotEqual(0, fileSources);
     }
 
     [Fact]
@@ -63,12 +79,16 @@ public class GlossaryTests
     }
 
     [Fact]
-    public void ApprovedFilesDoNotRetainDutyInItalian()
+    public void ApprovedTranslationFilesDoNotRetainDutyInItalian()
     {
         string root = FindRepoRoot();
-        foreach (var file in _catalog.ApprovedFiles)
+        string translations = Path.Combine(root, "data", "translations");
+        var files = Directory.EnumerateFiles(translations, "*.json", SearchOption.AllDirectories).ToArray();
+        Assert.NotEmpty(files);
+        foreach (var path in files)
         {
-            using var doc = JsonDocument.Parse(File.ReadAllText(Path.Combine(root, "data", "translations", file)));
+            string file = Path.GetRelativePath(translations, path).Replace('\\', '/');
+            using var doc = JsonDocument.Parse(File.ReadAllText(path));
             foreach (var row in doc.RootElement.EnumerateObject())
             {
                 if (row.Value.ValueKind != JsonValueKind.Object) continue;

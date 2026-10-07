@@ -1,394 +1,8 @@
 # Glossario approvato — FFXIV Italiano
 
-Fonte terminologica per le traduzioni future. Le voci derivano dai file approvati elencati sotto, da file esplicitamente marcati `@review/` come riferimento contestuale o da decisioni terminologiche confermate dall'utente; le tabelle sono intenzionalmente selettive. Citare un file in revisione non lo promuove allo stato approvato. I termini inglesi servono da riferimento e non vanno aggiunti tra parentesi nel testo di gioco.
+Fonte terminologica per le traduzioni future. Sono approvati i file JSON presenti in `data/translations/`; lo stato editoriale dipende dal percorso. Le voci possono citare file approvati, file `@review/` come riferimento contestuale o decisioni terminologiche confermate dall'utente. Citare un file in revisione non lo promuove allo stato approvato. I termini inglesi servono da riferimento e non vanno aggiunti tra parentesi nel testo di gioco.
 
-**Catalogo completo dei luoghi:** tutte le 5.302 coppie `name`/`translation` di `data/translations/world/placename.json` fanno parte del glossario, con fonte `world/placename.json#ID:name`. Il file approvato è la tabella integrale; la sezione Luoghi qui sotto evidenzia anche le rese canoniche appena uniformate. Le voci che contengono tag richiedono una revisione SeString.
-
-## File approvati
-
-- `activities/contentgauge.json`
-- `activities/contentroulette.json`
-- `activities/contentsnote.json`
-- `activities/contentsnotecategory.json`
-- `activities/contentstutorial.json`
-- `activities/contentstutorialpage.json`
-- `activities/contenttype.json`
-- `activities/contentuicategory.json`
-- `activities/deepdungeon.json`
-- `activities/deepdungeon4gimmickeffecttransient.json`
-- `activities/deepdungeondemiclone.json`
-- `activities/deepdungeonequipment.json`
-- `activities/deepdungeonflooreffectui.json`
-- `activities/deepdungeonmagicstone.json`
-- `activities/dynamicevent.json`
-- `activities/dynamiceventenemytype.json`
-- `activities/dynamiceventsinglebattle.json`
-- `activities/eventaction.json`
-- `activities/eventpathmove.json`
-- `activities/eventsituationicontooltip.json`
-- `activities/eventvfx.json`
-- `activities/ikdcontentbonus.json`
-- `activities/ikdplayermissioncondition.json`
-- `activities/ikdroute.json`
-- `activities/massivepccontent.json`
-- `activities/massivepccontenttextdata.json`
-- `activities/mjiprogress.json`
-- `activities/mjitext.json`
-- `activities/mkdrelicgrowth2category.json`
-- `activities/mkdrelicgrowth2contentlist.json`
-- `activities/mkdrelicgrowth2monster.json`
-- `activities/mkdsupportjob.json`
-- `activities/mycwarresultnotebook.json`
-- `activities/partycontenttextdata.json`
-- `activities/partycontenttransient.json`
-- `activities/publiccontent.json`
-- `activities/publiccontenttextdata.json`
-- `activities/skyisland2mission.json`
-- `activities/skyisland2missiondetail.json`
-- `activities/vvdnotebookcontents.json`
-- `activities/vvdnotebookseries.json`
-- `activities/vvdvoteroutelabel.json`
-- `activities/wksachievement.json`
-- `activities/wkspraiseui.json`
-- `combat/action.json`
-- `combat/actioncategory.json`
-- `combat/actioncomboroute.json`
-- `combat/actioncomboroutetransient.json`
-- `combat/actiontransient.json`
-- `combat/aozactiontransient.json`
-- `combat/aozscore.json`
-- `combat/attacktype.json`
-- `combat/bgcarmyaction.json`
-- `combat/bgcarmyactiontransient.json`
-- `combat/buddyaction.json`
-- `combat/classjobactionuicategory.json`
-- `combat/companionmove.json`
-- `combat/companiontransient.json`
-- `combat/dpschallenge.json`
-- `combat/fieldmarker.json`
-- `combat/generalaction.json`
-- `combat/maneuversarmor.json`
-- `combat/marker.json`
-- `combat/mkdtrait.json`
-- `combat/petaction.json`
-- `combat/pvpranktransient.json`
-- `combat/pvpselecttrait.json`
-- `combat/pvpselecttraittransient.json`
-- `combat/status.json`
-- `combat/trait.json`
-- `combat/traittransient.json`
-- `combat/xbmactioneffecttype.json`
-- `combat/xbmactiontarget.json`
-- `combat/xbmelement.json`
-- `combat/xbmpet.json`
-- `combat/xbmscorebonus.json`
-- `combat/xbmscorerank.json`
-- `combat/xpvpgroupactivity.json`
-- `crafting/airshipexplorationlog.json`
-- `crafting/airshipexplorationparamtype.json`
-- `crafting/airshipexplorationpoint.json`
-- `crafting/bankacraftworks.json`
-- `crafting/companycraftdraft.json`
-- `crafting/companycraftdraftcategory.json`
-- `crafting/companycraftmanufactorystate.json`
-- `crafting/companycrafttype.json`
-- `crafting/craftaction.json`
-- `crafting/crafttype.json`
-- `crafting/fishingspot.json`
-- `crafting/gatheringcondition.json`
-- `crafting/gatheringpointbonustype.json`
-- `crafting/gatheringpointname.json`
-- `crafting/gatheringsubcategory.json`
-- `crafting/gatheringtype.json`
-- `crafting/hugecraftworksnpc.json`
-- `crafting/hwdannounce.json`
-- `crafting/hwdcraftersupplyterm.json`
-- `crafting/hwddevlevelwebtext.json`
-- `crafting/hwdgathereinspectterm.json`
-- `crafting/hwdinfoboardarticle.json`
-- `crafting/hwdinfoboardarticletransient.json`
-- `crafting/hwdinfoboardarticletype.json`
-- `crafting/hwdinfoboardbacknumber.json`
-- `crafting/mjicraftworksobjecttheme.json`
-- `crafting/recipesubcategory.json`
-- `crafting/secretrecipebook.json`
-- `crafting/sharlayancraftworks.json`
-- `crafting/spearfishingcombotarget.json`
-- `crafting/spearfishingecology.json`
-- `crafting/spearfishingitem.json`
-- `crafting/submarineexploration.json`
-- `crafting/submarineexplorationlog.json`
-- `crafting/submarinemap.json`
-- `crafting/submarinespeccategory.json`
-- `crafting/valentionsweetsmaterial.json`
-- `crafting/valentionsweetsrecipe.json`
-- `crafting/wkscosmotoolname.json`
-- `crafting/wksdevgrade.json`
-- `crafting/wksemergencyinfotext.json`
-- `crafting/wksfatecontrol.json`
-- `crafting/wksitemsubcategory.json`
-- `crafting/wksmechaeventdata.json`
-- `crafting/wksmissiontext.json`
-- `crafting/wksnextplanetguidance.json`
-- `crafting/wkspioneeringtrailstring.json`
-- `crafting/wksplanetselect.json`
-- `crafting/wkstext.json`
-- `dialogue/contenttalk.json`
-- `dialogue/craftlevetalk.json`
-- `dialogue/customtalk.json`
-- `dialogue/emjvoicenpc.json`
-- `dialogue/gimmickbill.json`
-- `dialogue/gimmicktalk.json`
-- `dialogue/gimmickyesno.json`
-- `dialogue/goldsaucertalk.json`
-- `dialogue/halloweennpcselect.json`
-- `dialogue/pointmenu.json`
-- `dialogue/pointmenustring.json`
-- `dialogue/snipe.json`
-- `dialogue/snipetalk.json`
-- `dialogue/snipetalkname.json`
-- `dialogue/topicselect.json`
-- `housing/aquariumwater.json`
-- `housing/bannerbg.json`
-- `housing/bannerdecoration.json`
-- `housing/bannerdesignpreset.json`
-- `housing/bannerframe.json`
-- `housing/bannerobtainhinttype.json`
-- `housing/bannertimeline.json`
-- `housing/characardbase.json`
-- `housing/characarddecoration.json`
-- `housing/characarddesigncategory.json`
-- `housing/characarddesignpreset.json`
-- `housing/characardheader.json`
-- `housing/characardplaystyle.json`
-- `housing/furniturecatalogcategory.json`
-- `housing/groupposeframe.json`
-- `housing/groupposestamp.json`
-- `housing/groupposestampcategory.json`
-- `housing/groupposestampfontcolor.json`
-- `housing/housingappeal.json`
-- `housing/housingemploymentnpcrace.json`
-- `housing/housingmateauthority.json`
-- `housing/housingmerchantpose.json`
-- `housing/housingplacement.json`
-- `housing/housingpreset.json`
-- `housing/housingrenovation.json`
-- `housing/housingunplacement.json`
-- `housing/mjihudmode.json`
-- `housing/orchestrion.json`
-- `housing/orchestrioncategory.json`
-- `housing/tofubg.json`
-- `housing/tofueditparam.json`
-- `housing/tofuobject.json`
-- `housing/tofuobjectcategory.json`
-- `housing/tofupreset.json`
-- `housing/tofupresetcategory.json`
-- `housing/yardcatalogcategory.json`
-- `items/animaweapon5param.json`
-- `items/animaweapon5patterngroup.json`
-- `items/animaweapon5spirittalkparam.json`
-- `items/animaweaponfuitalkparam.json`
-- `items/buddyequip.json`
-- `items/cabinetsubcategory.json`
-- `items/deepdungeonitem.json`
-- `items/emjcostumedata.json`
-- `items/eurekaaetheritem.json`
-- `items/eurekamagiciteitemtype.json`
-- `items/eventitemcategory.json`
-- `items/glasses.json`
-- `items/glassesstyle.json`
-- `items/item.json`
-- `items/itemsearchcategory.json`
-- `items/itemseries.json`
-- `items/itemspecialbonus.json`
-- `items/itemuicategory.json`
-- `items/mjiitemcategory.json`
-- `items/myctemporaryitemuicategory.json`
-- `items/ornament.json`
-- `items/ornamenttransient.json`
-- `items/petmirage.json`
-- `items/phantomweaponextodo.json`
-- `items/phantomweaponextododetailtxt.json`
-- `items/relic6magicite.json`
-- `items/stain.json`
-- `items/xbmitem.json`
-- `items/xbmitemtype.json`
-- `items/ykw.json`
-- `minigames/chocoboraceability.json`
-- `minigames/chocoboracechallenge.json`
-- `minigames/chocoboraceitem.json`
-- `minigames/colosseummatchrank.json`
-- `minigames/fashioncheckthemecategory.json`
-- `minigames/fashioncheckweeklytheme.json`
-- `minigames/goldsaucerarcademachine.json`
-- `minigames/goldsaucertextdata.json`
-- `minigames/minigameturnbreakaction.json`
-- `minigames/minigameturnbreakstatus.json`
-- `minigames/minionrace.json`
-- `minigames/minionrules.json`
-- `minigames/minionskilltype.json`
-- `minigames/minionstage.json`
-- `minigames/omikuji.json`
-- `minigames/omikujiguidance.json`
-- `minigames/perform.json`
-- `minigames/performguidescore.json`
-- `minigames/performtransient.json`
-- `minigames/racingchocobonamecategory.json`
-- `minigames/racingchocoboparam.json`
-- `minigames/rideshootingtextdata.json`
-- `minigames/tripletriadcard.json`
-- `minigames/tripletriadcardtype.json`
-- `minigames/tripletriadcompetition.json`
-- `minigames/tripletriadrule.json`
-- `minigames/weddingbgm.json`
-- `minigames/weeklybingotext.json`
-- `shops/collectablesshop.json`
-- `shops/collectablesshopitemgroup.json`
-- `shops/disposalshop.json`
-- `shops/disposalshopfiltertype.json`
-- `shops/fccshop.json`
-- `shops/fittingshopcategory.json`
-- `shops/fittingshopitemset.json`
-- `shops/gcshopitemcategory.json`
-- `shops/gilshop.json`
-- `shops/inclusionshop.json`
-- `shops/inclusionshopcategory.json`
-- `shops/inclusionshopwelcomtext.json`
-- `shops/lotteryexchangeshop.json`
-- `shops/mjidisposalshopuicategory.json`
-- `shops/specialshopitemcategory.json`
-- `shops/tomestoneconvert.json`
-- `social/charamakename.json`
-- `social/circleactivity.json`
-- `social/companyaction.json`
-- `social/fcactivity.json`
-- `social/fcactivitycategory.json`
-- `social/fcauthority.json`
-- `social/fcauthoritycategory.json`
-- `social/fcchestname.json`
-- `social/fchierarchy.json`
-- `social/fcprofile.json`
-- `social/fcreputation.json`
-- `social/fcrights.json`
-- `social/gcarmycandidatecategory.json`
-- `social/gcarmyexpedition.json`
-- `social/gcarmyexpeditiontrait.json`
-- `social/gcarmyexpeditiontraitcond.json`
-- `social/gcarmyexpeditiontype.json`
-- `social/gcarmytraining.json`
-- `social/mateauthoritycategory.json`
-- `social/onlinestatus.json`
-- `social/playersearchlocation.json`
-- `social/playersearchsublocation.json`
-- `social/retainertaskrandom.json`
-- `system/addon.json`
-- `system/addontransient.json`
-- `system/akatsukinotestring.json`
-- `system/attributive.json`
-- `system/baseparam.json`
-- `system/chatbubbletype.json`
-- `system/colorfilter.json`
-- `system/configkey.json`
-- `system/creditcast.json`
-- `system/csbonustextdata.json`
-- `system/dawnmemberuiparam.json`
-- `system/description.json`
-- `system/descriptionstandalonetransient.json`
-- `system/descriptionstring.json`
-- `system/emjaddon.json`
-- `system/error.json`
-- `system/eventtutorial.json`
-- `system/eventtutorialpage.json`
-- `system/extracommand.json`
-- `system/exversion.json`
-- `system/fgsaddon.json`
-- `system/guidepagestring.json`
-- `system/guidetitle.json`
-- `system/howto.json`
-- `system/howtocategory.json`
-- `system/howtopage.json`
-- `system/hud.json`
-- `system/lobby.json`
-- `system/logfilter.json`
-- `system/logkind.json`
-- `system/logmessage.json`
-- `system/maincommand.json`
-- `system/maincommandcategory.json`
-- `system/mcguffinuidata.json`
-- `system/multiplehelp.json`
-- `system/multiplehelpstring.json`
-- `system/notebookdivision.json`
-- `system/notebookdivisioncategory.json`
-- `system/opencontentcandidatename.json`
-- `system/platform.json`
-- `system/qte.json`
-- `system/quickchat.json`
-- `system/quickchattransient.json`
-- `system/textcommand.json`
-- `system/textcommandparam.json`
-- `system/webguidance.json`
-- `system/weburl.json`
-- `world/achievement.json`
-- `world/achievementcategory.json`
-- `world/achievementkind.json`
-- `world/adventure.json`
-- `world/aetheryte.json`
-- `world/beastreputationrank.json`
-- `world/beasttribe.json`
-- `world/chocobotaxistand.json`
-- `world/classjob.json`
-- `world/classjobcategory.json`
-- `world/companion.json`
-- `world/contentfindercondition.json`
-- `world/contentfinderconditiontransient.json`
-- `world/emote.json`
-- `world/emotecategory.json`
-- `world/emotetransient.json`
-- `world/fate.json`
-- `world/fateevent.json`
-- `world/gcrankgridaniafemaletext.json`
-- `world/gcrankgridaniamaletext.json`
-- `world/gcranklimsafemaletext.json`
-- `world/gcranklimsamaletext.json`
-- `world/gcrankuldahfemaletext.json`
-- `world/gcrankuldahmaletext.json`
-- `world/gfateclimbing.json`
-- `world/gfatestelth.json`
-- `world/grandcompany.json`
-- `world/guardiandeity.json`
-- `world/mjiname.json`
-- `world/mkdlore.json`
-- `world/monsternote.json`
-- `world/mount.json`
-- `world/mounttransient.json`
-- `world/pet.json`
-- `world/placename.json`
-- `world/race.json`
-- `world/title.json`
-- `world/town.json`
-- `world/treasure.json`
-- `world/tribe.json`
-- `world/warp.json`
-- `world/warplogic.json`
-- `world/weather.json`
-- `world/worldphysicaldc.json`
-- `world/worldregiongroup.json`
-
-Per aggiungere un file: completarne la revisione, inserirlo in questo elenco e aggiungere solo termini riutilizzabili con una fonte `percorso#ID:campo`. Le varianti dello stesso termine restano righe separate con una nota di contesto. Forme grammaticali e frasi complete richiedono sempre una verifica nel contesto.
-
-Per le **etichette e i testi di gioco**: la frase deve suonare naturale e grammaticalmente corretta in italiano; adattare articoli, preposizioni e accordi al contesto (per esempio «l'appello», «nella Piazza dei Chocobo», «a Vari Splendori»). Nelle etichette, conservare la maiuscola iniziale delle parole del nome inglese anche quando la resa le espande: Waymarks = Marcatori Tattici; Faux Hollows Available = Tane Sospette Disponibili. In prosa, rispettare le maiuscole del termine inglese, ignorando la sola maiuscola dovuta all'inizio frase; sigle e forme interamente maiuscole restano tali. Se il risultato non è grammaticale, correggere l'intera frase senza alterare il termine canonico.
-
-**Divieto di sostituzione meccanica:** l'inserimento o l'allineamento di un termine di glossario non deve MAI avvenire tramite mero copia-incolla o find-and-replace cieco. È obbligatorio verificare la concordanza di genere e numero dell'articolo e della preposizione articolata (es. *«del Velo Nero»* e non *«della Velo Nero»*, *«di Vecchia Sharlayan»* e non *«del Vecchia Sharlayan»*, *«dalle Officine Ferrocielo»* e non *«dalla Officine»*, *«al Cratere delle Braci»* e non *«alla Cratere»*).
-
-**Nomi propri dei Loporrit:** tutti i nomi propri dei Loporrit terminanti in *-way* (Livingway, Growingway, Cookingway, Mappingway, Piercingway, Fusingway, Searchingway, Reportingway, ecc.) sono nomi propri invariabili e NON vanno mai tradotti in italiano né trattati come nomi comuni (vietato categoricamente "Trafiggivia", "Fondivia", ecc.). Strutture o gallerie associate mantengono il nome proprio invariato (es. *«la Galleria di Piercingway»*).
-
-Per le **categorie di attività**: Quest = Missione; Subquest = Missione secondaria; Main Scenario Quest = Missione dello Scenario Principale; Duty = Incarico; Levequest e Leve = Mandato; Trial = Prova; Raid = Incursione; Dungeon = Spedizione; Deep Dungeon = Cripta Profonda; Guildhest = Operazione di Gilda; FATE resta FATE anche al plurale. I qualificatori di categoria (per esempio Alliance, Savage, Extreme) si traducono in italiano. Le forme singolari non attestate nelle fonti sotto sono convenzioni editoriali, non voci approvate. Queste equivalenze valgono per le attività di gioco: *duty* come dovere, *trial* come processo o prova narrativa, *quest* come ricerca generica e i nomi propri richiedono una traduzione contestuale. Non sostituire automaticamente i nomi di istanze o luoghi.
-
-Per le **fonoperle**: Linkshell = Fonoperla, Linkshells = Fonoperle; Cross-world Linkshell = Fonoperla Intermondo, Cross-world Linkshells = Fonoperle Intermondo. Nelle etichette numerate, `[1]`, `[2]` e così via indicano lo stesso schema; il numero resta invariato. In prosa usare la minuscola per i nomi comuni («una fonoperla intermondo», «le fonoperle»), adattando articoli, preposizioni e accordi. «Intermondo» qualifica le Fonoperle; Cross-world Party si traduce «Gruppo Intramondo». Le forme singolari senza numero sono convenzioni editoriali ricavate dalle etichette numerate, mentre le righe sotto riportano solo forme esattamente attestate. Nei nomi di funzione inglesi privi di articolo si può usare una forma italiana abbreviata senza articolo, se naturale: per esempio, Challenge Log = Registro Sfide.
-
-Per il sistema **glamour**: usare «illusione» al singolare e «illusioni» al plurale, adattando articoli e accordi. Le funzioni composte hanno le forme attestate sotto: Comò delle Illusioni, Piastra d'Illusione e Prisma delle Illusioni. In prosa usare le minuscole. «Glamour» in un nome proprio o in un contesto diverso richiede verifica; la sostituzione automatica non basta.
-
-Per i **nomi di incantesimi e gli aspetti elementali combat**, usare le radici canoniche italiane: Fire = Fuoco, Thunder = Tuono, Blizzard/Ice = Gelo, Water/Hydro = Idro, Wind/Aero = Aero, Earth/Stone = Pietra, Holy = Sancta. Per gli altri usi lessicali, scegliere la resa richiesta dal contesto. Mantenere Medica, tradurre Regen con Rigene e Limit Break con Trascendenza. Nei nomi delle azioni, usare le iniziali maiuscole per le parole del nome; articoli e preposizioni interne restano minuscoli. Non iniziare mai un nome d’azione con un articolo: ometterlo. Per i nomi con prefisso Ver-, scrivere la radice della magia con l’iniziale minuscola (Verfuoco, Vertuono, Veraero, Verpietra, Versancta). Tradurre Flare con Fusione anche nei composti (Mega Fusione, Giga Fusione, Tera Fusione e simili), mantenendo Lanciafiamme per Flarethrower. Usare Reiz per Raise e i suoi composti, quindi Verraise = Verreiz e Reraise = Reiz Automatico. Lasciare in forma romanizzata giapponese i nomi delle abilità di Ninja e Samurai e conservare i nomi latini (per esempio Fortis, Celeris, Alea Iacta Est, Aqua Vitae, Exodus, Imperator, Imperium, Lumen Infinitum, Lux Solaris, Memento Mori, Oculus, Spiritus e Tenebrae Lemurum). Queste scelte sono decisioni editoriali per i file combat in revisione, non attestazioni approvate del glossario.
+**Catalogo completo dei luoghi:** tutte le 5.302 coppie `name`/`translation` di `data/translations/world/placename.json` fanno parte del glossario, con fonte `world/placename.json#ID:name`. Questo file è il catalogo integrale; la sezione Luoghi qui sotto evidenzia anche le rese canoniche appena uniformate. Le voci che contengono tag richiedono una revisione SeString.
 
 ## Voci
 
@@ -450,7 +64,7 @@ Per i **nomi di incantesimi e gli aspetti elementali combat**, usare le radici c
 | Duties | Incarichi | `system/addon.json#15793:original` | Plurale del termine di gioco. |
 | Duty Finder | Ricerca Incarichi | `system/maincommand.json#33:name` | Nome della funzione. Varianti ammesse in prosa: «Ricerca degli Incarichi», «Incarico trovato» nei messaggi di abbinamento. |
 | Duty Recorder | Registratore Incarichi | `system/maincommand.json#76:name` | Nome della funzione. |
-| Hotbar | Barra Azioni | `system/addon.json#48527:original` | Nome dell'interfaccia; in prosa adattare articolo e numero. |
+| Hotbar | Barra Azioni | `system/addon.json#1305:original` | Nome dell'interfaccia; in prosa adattare articolo e numero. |
 | Duty Support | Supporto Incarichi | `system/maincommand.json#91:name` | Nome della funzione. |
 | Duty Roulette | Roulette Incarichi | `system/addon.json#8605:original` | Nome della funzione. |
 | Party Finder | Ricerca Gruppo | `system/maincommand.json#57:name` | Nome della funzione di ricerca gruppi. |
@@ -460,7 +74,7 @@ Per i **nomi di incantesimi e gli aspetti elementali combat**, usare le radici c
 | Heaven-on-High | Pilastro dei Cieli | `system/addon.json#4809:original` | Nome del Deep Dungeon. |
 | Faux Hollows | Tane Sospette | `system/addon.json#11013:original` | Nome della funzione. |
 | Sundry Splendors | Vari Splendori | `system/addon.json#13512:original` | Nome del negozio. |
-| Mech Ops | Operazione Mech | `system/addon.json#16724:original` | Nome della modalità; varianti ammesse in prosa: «Operazioni Mech», «operazioni Mech», «operazioni mech». |
+| Mech Ops | Operazione Mech | `system/addon.json#16724:original` | Modalità dell'Esplorazione Cosmica, con piloti e supporto a terra; varianti ammesse in prosa: «operazione mech», «Operazioni Mech», «operazioni mech». |
 | Crucible of the Unbroken | Crogiolo degli Infrangibili | `system/addon.json#17601:original` | Nome del contenuto. |
 | Company Chest | Forziere della Compagnia | `system/addon.json#2880:original` | Nome della funzione della Compagnia Libera. |
 | Rowena's House of Splendors | Casa degli Splendori di Rowena | `system/addon.json#6170:original` | Nome del negozio. |
@@ -475,14 +89,14 @@ Per i **nomi di incantesimi e gli aspetti elementali combat**, usare le radici c
 | Amajina & Sons Mineral Concern | Impresa Mineraria Amajina e Figli | `world/contentfinderconditiontransient.json#3:original` | Varianti ammesse in prosa: «Compagnia Mineraria Amajina e Figli». |
 | Far East | Estremo Oriente | `world/mkdlore.json#1:description` | Varianti ammesse in prosa: «Lontano Oriente». |
 | Grand Company | Grande Compagnia | `dialogue/contenttalk.json#42:original` | Varianti ammesse in prosa: «Compagnia Maggiore». |
-| The Churning Mists | Nebbie Turbinose | `world/contentfinderconditiontransient.json#37:original` | Nome dell'area. |
+| The Churning Mists | Nebbie Vorticose | `world/contentfinderconditiontransient.json#37:original` | Nome dell'area; forma preferita dall'utente. |
 | Sightseeing Log | Diario Esplorazione | `system/maincommand.json#64:name` | Nome del registro; maiuscole fisse: Diario Esplorazione. |
 | Vault Oneiron | Volta Oneiron | `system/howto.json#289:original` | Nome del luogo. |
 | Armoury Chest | Armeria | `system/maincommand.json#25:name` | Nome della funzione. |
 | Chocobo Saddlebag | Bisaccia del Chocobo | `system/maincommand.json#77:name` | Nome della funzione. |
 | Blue Magic Spellbook | Grimorio di Magia Blu | `system/maincommand.json#81:name` | Nome della funzione. |
 | Aether Currents | Correnti Eteriche | `system/maincommand.json#67:name` | Nome della funzione; varianti ammesse in prosa: «correnti eteriche», «corrente eterica». |
-| Adventurer Plate | Scheda dell'Avventuriero | `system/maincommand.json#93:name` | Nome della funzione; varianti ammesse in prosa: «scheda dell'avventuriero». |
+| Adventurer Plate | Scheda dell'Avventuriero | `system/maincommand.json#93:name` | Nome della funzione; varianti ammesse in prosa: «scheda dell'avventuriero», «schede degli avventurieri». |
 | Shared FATE | FATE Condivisi | `system/maincommand.json#84:name` | Nome della funzione. |
 | New Game+ | Nuova Partita+ | `system/maincommand.json#88:name` | Nome della modalità. |
 | Waymarks | Marcatori Tattici | `system/maincommand.json#58:name` | Nome della funzione. |
@@ -518,13 +132,13 @@ Per i **nomi di incantesimi e gli aspetti elementali combat**, usare le radici c
 | Familiars | Famigli | Decisione dell'utente | Forma plurale nel testo dinamico di `system/addon.json#17657`: usare quando il conteggio è diverso da 1. |
 | Pet Glamours | Illusione dei Famigli | `system/howto.json#233:original` | Resa del sistema di glamour applicato ai famigli. |
 | Moogle Treasure Trove | Forziere del Moguri | `system/addon.json#2778:original` | Nome dell'evento; varianti ammesse in prosa: «Tesoro dei Moogle». |
-| Happy Bunny | Coniglio Felice | `system/addon.json#9791:original` | Nome dell'attività; in etichetta usare «Coniglio Felice». Varianti ammesse in prosa: «coniglio felice», «Coniglietto Felice», «coniglietto felice». |
+| Happy Bunny | Coniglio Felice | `system/addon.json#9791:original` | Nome dell'attività; in etichetta usare «Coniglio Felice». Varianti ammesse in prosa: «coniglio felice», «Coniglietto Felice», «coniglietto felice». In `world/enpcresident.json#1042437:translation_name`, l'originale tutto minuscolo richiede «coniglio felice»; al plurale: «conigli felici». |
 | Forked Towers | Torri Biforcate | `system/addon.json#16699:original` | Nome del contenuto; al singolare «Torre Biforcata». |
-| Resident Caretaker | Custode Residenziale | `system/addon.json#3691:original` | Ruolo nella zona residenziale; in prosa usare le minuscole. |
+| Resident Caretaker | Custode Residenziale | `system/addon.json#3691:original` | Ruolo nella zona residenziale; varianti ammesse in prosa: «custode residente», «custode locale», «custode», «custode del quartiere». |
 | Crystalline Conflict | Conflitto Cristallino | `system/addon.json#5557:original` | Modalità PvP. |
 | The Feast | Il Banchetto | `system/addon.json#5510:original` | Modalità PvP; in prosa adattare l'articolo («nel Banchetto», «del Banchetto»). Varianti ammesse in prosa per il senso comune: «banchetto». |
 | Frontline | Prima Linea | `system/addon.json#5558:original` | Modalità PvP; verificare le maiuscole nel contesto. |
-| Elite Enemy | Nemico d'élite | `system/addon.json#17542:original` | Etichetta con numero dinamico; abbreviare il numero come «n.». |
+| Elite Enemy | Nemico d'élite | `system/addon.json#17542:original` | Etichetta con numero dinamico; abbreviare il numero come «n.»; varianti ammesse in prosa: «nemici d'élite», «nemici élite». |
 | Rival Wings | Ali Rivali | `system/addon.json#5559:original` | Modalità PvP. |
 | Triple Triad | Triple Triad | `system/addon.json#9529:original` | Nome ufficiale del minigioco; varianti ammesse in prosa: «Tris». |
 | Lord of Verminion | Lord of Verminion | `system/addon.json#9550:original` | Nome invariato del minigioco. |
@@ -592,6 +206,7 @@ Per i **nomi di incantesimi e gli aspetti elementali combat**, usare le radici c
 | Aetherial Reduction | Riduzione Eterea | `system/addon.json#2160:original` | Funzione di riduzione; varianti ammesse in prosa: «riduzione eterea», «Riduzione Eterica», «la riduzione eterea», «riduzioni eteree». |
 | Item Dyeing | Tintura Oggetti | `system/addon.json#4690:original` | Funzione di tintura dell'equipaggiamento; varianti ammesse in prosa: «tintura degli oggetti», «finestra di tintura degli oggetti». |
 | Custom Deliveries | Consegne Personalizzate | `system/notebookdivisioncategory.json#6:original` | Attività ricorrente; varianti ammesse in prosa: «Consegne su Misura». |
+| Custom Deliveries | Consegne su Misura | `world/placename.json#1298:name` | Forma approvata per l'etichetta nel catalogo dei luoghi; variante della funzione «Consegne Personalizzate». |
 | Wondrous Tails | Code Meravigliose | `system/addon.json#5600:original` | Registro di attività. |
 | Portraits | Ritratti | `system/addon.json#14650:original` | Funzione del personaggio. |
 | Actions & Traits | Azioni e Tratti | `system/maincommand.json#3:name` | Menu del personaggio. |
@@ -627,15 +242,15 @@ Per i **nomi di incantesimi e gli aspetti elementali combat**, usare le radici c
 | Currency | Valuta | `items/itemuicategory.json#100:original` | Forma singolare usata nelle etichette. |
 
 
-| Lost Finds Cache | Deposito dei Reperti Perduti | `system/addontransient.json#350:original` | Nome del luogo o della struttura. |
+| Lost Finds Cache | Deposito dei Reperti Perduti | `system/addontransient.json#350:original` | Deposito delle azioni perdute del Fronte Meridionale di Bozja. |
 ### Termini di gioco
 
 | Inglese | Italiano | Fonte | Uso |
 | --- | --- | --- | --- |
 | Free Company | Compagnia Libera | `system/howtopage.json#1760:name` | Varianti ammesse in prosa: «Compagnia Libera», «compagnia libera», «compagnie libere» quando il riferimento indica la stessa organizzazione.  Varianti ammesse in prosa: «Compagnie Libere». |
 | Grand Company | Grande Compagnia | `system/addon.json#337:original` | Varianti ammesse in prosa: «Grandi Compagnie». |
-| Subleader | Vice | `system/addon.json#38155:original` | Ruolo nella squadra PvP; in prosa minuscolo «vice». |
-| Subleaders | Vice | `system/addon.json#38047:original` | Plurale invariabile; in prosa «i vice». |
+| Subleader | Vice | `system/addon.json#11771:original` | Ruolo nella squadra PvP; in prosa minuscolo «vice». |
+| Subleaders | Vice | `system/addon.json#11819:original` | Plurale invariabile; in prosa «i vice». |
 | Aetheryte | Eterite | `system/addon.json#8511:original` |  |
 | Aethernet | Eternet | `system/addon.json#2720:original` |  |
 | Gil | Gil | `system/addon.json#830:original` |  |
@@ -659,7 +274,7 @@ Per i **nomi di incantesimi e gli aspetti elementali combat**, usare le radici c
 | Materia | Materia | `system/addon.json#481:original` |  |
 | Mount | Cavalcatura | `system/addon.json#774:original` |  |
 | Minion | Minion | `system/addon.json#8303:original` |  |
-| Achievement | Obiettivo | `system/addon.json#1484:original` | Varianti ammesse in prosa: «obiettivi». |
+| Achievement | Obiettivo | `system/addon.json#1484:original` | Per la categoria di gioco usare «Obiettivo» al singolare e «Obiettivi» al plurale; accordare gli articoli («gli obiettivi», «degli obiettivi»). In prosa, il termine resta minuscolo. |
 | Quest | Missione | `system/addon.json#12723:original` | Categoria generale, singolare. |
 | Job | Job | `system/addon.json#684:original` |  |
 | Job Gauge | Barra Job | `system/guidetitle.json#1:name` | Nome dell'indicatore per il Job; varianti ammesse in prosa: «Indicatore Job».  Varianti ammesse in prosa: «indicatore Job». |
@@ -729,7 +344,7 @@ Per i **nomi di incantesimi e gli aspetti elementali combat**, usare le radici c
 | Astrologian | Astrologo | `world/classjob.json#33:name` |  |
 | Samurai | Samurai | `world/classjob.json#34:name` |  |
 | Red Mage | Mago Rosso | `world/classjob.json#35:name` | Varianti ammesse in prosa: «mago rosso», «Maga Rossa», «maga rossa», «Maga Rossa Makai». |
-| Blue Mage | Mago Blu | `world/classjob.json#36:name` |  |
+| Blue Mage | Mago Blu | `world/classjob.json#36:name` | Varianti ammesse in prosa: «mago blu», «maghi blu». |
 | Gunbreaker | Eterlama | `world/classjob.json#37:name` |  |
 | Dancer | Danzatore | `world/classjob.json#38:name` |  |
 | Reaper | Mietitore | `world/classjob.json#39:name` |  |
@@ -807,7 +422,7 @@ Per i **nomi di incantesimi e gli aspetti elementali combat**, usare le radici c
 | Seeker of the Sun | Cercasole | `world/tribe.json#7:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
 | Keeper of the Moon | Guardialuna | `world/tribe.json#8:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
 | Sea Wolf | Lupo di Mare | `world/tribe.json#9:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
-| Hellsguard | Guardinferno | `world/tribe.json#10:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+| Hellsguard | Guardinferno | `world/tribe.json#10:name_masculine` | I nomi composti da parole comuni si traducono come descrizioni italiane; non applicare questa regola ai nomi dei Lupi di Mare in lingua Roegadyn antica. Decisione dell'utente. |
 | Raen | Raen | `world/tribe.json#11:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
 | Xaela | Xaela | `world/tribe.json#12:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
 | Helions | Eliano | `world/tribe.json#13:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
@@ -825,28 +440,30 @@ Catalogo integrale: `data/translations/world/placename.json`. Cercare il nome in
 | Archeo Alexandria | Archeo Alexandria | `world/placename.json#4676:name` | Conservare il toponimo ufficiale «Alexandria», senza adattarlo in «Alessandria». |
 | The Source | La Fonte | `system/akatsukinotestring.json#33:original` | Nome del mondo; varianti ammesse in prosa: «la Sorgente», «Sorgente». |
 | The Missing Gem | La Gemma Mancante | `world/placename.json#2267:name` | Nome dell'isola / settore esplorativo nel Diadema. |
-| The One River | Fiume Unico | `crafting/spearfishingitem.json#20034:original` | Nome del fiume. |
-| The One River | Fiume Unico | `crafting/spearfishingitem.json#20034:original` | Nome del fiume. |
+| The One River | Fiumescelto | `crafting/spearfishingitem.json#20034:original` | Nome del fiume in Yanxia; forma preferita dall'utente. |
 | The Ruby Sea | Il Mar Rubino | `world/contentfinderconditiontransient.json#235:original` | Nome del mare; varianti ammesse in prosa: «Mare di Rubino». |
+| Minion Square | Piazza dei Minion | `world/placename.json#1578:name` | Area del Gold Saucer dedicata a Lord of Verminion; mantenere «Minion» invariato. |
 | The Sea of Clouds | Il Mar di Nuvole | `world/contentfinderconditiontransient.json#11:original` | Nome del mare; varianti ammesse in prosa: «Mare di Nuvole». |
-| Mt. Gulg | Monte Gulg | `world/contentfinderconditiontransient.json#659:original` | Forma usata in prosa; il toponimo autonomo può mantenere il nome inglese. |
+| Mt. Gulg | Monte Gulg | `world/contentfinderconditiontransient.json#659:original` | Forma usata in prosa; varianti ammesse per il nome autonomo: «Mt. Gulg». |
+| Mt. Gulg | Mt. Gulg | `world/placename.json#2997:name` | Variante ammessa per il toponimo autonomo; in prosa usare «Monte Gulg». |
 | The First | Il Primo Mondo | `world/mounttransient.json#170:description` | Nome del Primo Riflesso; varianti ammesse in prosa: «Prima Riflessione», «della Prima», «del Primo», «la Prima», «il Primo», «nel Primo». |
 | The Interdimensional Rift | La Faglia Interdimensionale | `combat/companiontransient.json#345:description` | Nome del luogo; varianti ammesse in prosa: «Fenditura Interdimensionale». |
 | The Tower of Zot | La Torre di Zot | `minigames/tripletriadcard.json#336:col_2` | Nome del luogo; varianti ammesse in prosa: «Torre di Babil». |
 | The Warring Triad | Triade Guerriera | `minigames/tripletriadcard.json#168:col_2` | Nome del gruppo di tre eikon. |
 | The World of Darkness | Il Mondo dell'Oscurità | `dialogue/gimmickbill.json#60:original` | Nome del Tredicesimo; varianti ammesse in prosa: «Mondo delle Tenebre». |
 | The Battlehall | La Sala d'Armi | `dialogue/customtalk.json#721265:col_31` | Nome del luogo; varianti ammesse in prosa: «Sala dei Duelli». |
-| The Scholar | Erudito | `minigames/omikujiguidance.json#2501:original` | In questi testi indica l'archetipo del saggio; non il Job. Varianti ammesse in prosa: «studioso». |
+| The Scholar | Erudito | `minigames/omikujiguidance.json#2501:description` | In questi testi indica l'archetipo del saggio; non il Job. Varianti ammesse in prosa: «studioso». |
+| The Scholar | Lo Studioso | `world/placename.json#3826:name` | Nome del landmark di Thaliak nello Scholar's Harbor; variante approvata per il nome del luogo. |
 | Hair Raid | Incursione dei Capelli | `combat/action.json#30076:original` | Nome di un'azione; variante ammessa in prosa: «Assalto di Capelli». |
 | Wanderlust | Sete di Viaggio | `world/placename.json#2150:name` | Nome proprio; variante ammessa per il compagno: «Spirito Vagabondo». |
-| Tessellation | La Tassellatura | `system/addon.json#8678:original` | Opzione grafica; variante ammessa: «Tassellazione». |
+| Tessellation | Tassellazione | `system/addon.json#8678:original` | Opzione grafica; variante ammessa: «La Tassellatura». |
+| Tessellation | La Tassellatura | `world/placename.json#3240:name` | Nome del ponte che collega l'Exarch Gate al Crystarium; variante approvata per l'opzione grafica. |
 | Gatekeeper | Guardiano dei Cancelli | `world/title.json#207:description` | Titolo; variante ammessa in prosa: «Custode delle Porte». |
 | The Rothlyt Sound | Stretto di Rothlyt | `minigames/tripletriadcard.json#10:col_2` | Nome dello stretto; varianti ammesse in prosa: «Stretto di Rothlyt». |
 | The Aetherfont | La Fonte Eterica | `minigames/tripletriadcard.json#381:col_2` | Nome del luogo. |
 | Pilgrim's Traverse | Traversata del Pellegrino | `world/placename.json#2150:name` | Nome proprio; variante ammessa in prosa: «Cammino del Pellegrino». |
 | Kydonia Knolls | I Poggi di Kydonia | `combat/companiontransient.json#495:description` | Nome di una formazione rocciosa. |
 | Moongate Hub | Lo Snodo della Porta Lunare | `crafting/wksplanetselect.json#0:original` | Nome della base lunare. |
-| The Aetherfont | La Fonte Eterica | `minigames/tripletriadcard.json#381:col_2` | Nome del luogo. |
 | Aleport | Portobirra | `world/placename.json#223:name` |  |
 | Wineport | Portovino | `world/placename.json#216:name` |  |
 | Quarrymill | Cavamulino | `world/placename.json#129:name` |  |
@@ -870,7 +487,7 @@ Catalogo integrale: `data/translations/world/placename.json`. Cercare il nome in
 | Upper La Noscea | La Noscea Superiore | `world/placename.json#34:name` |  |
 | Western La Noscea | La Noscea Occidentale | `world/placename.json#33:name` |  |
 | Eastern La Noscea | La Noscea Orientale | `world/placename.json#32:name` |  |
-| Outer La Noscea | Noscea Esterna | `world/placename.json#350:name` |  |
+| Outer La Noscea | La Noscea Esterna | `world/placename.json#350:name` |  |
 | The Drowning Wench | La Fanciulla Annegata | `world/placename.json#715:name` |  |
 | The Quicksand | Le Sabbie Mobili | `world/placename.json#615:name` |  |
 | Buscarron's Druthers | Il Capriccio di Buscarron | `world/placename.json#119:name` |  |
@@ -895,6 +512,7 @@ Catalogo integrale: `data/translations/world/placename.json`. Cercare il nome in
 | Abalathia's Spine | Spina di Abalathia | `system/addon.json#1590:original` | Forma in questa frase; la voce PlaceName autonoma è «La Spina di Abalathia». |
 | Crystal Tower Striker | Il Martello della Torre di Cristallo | `system/addon.json#9989:original` | Nome completo; non applicare separatamente il termine «Crystal Tower». |
 | Island Sanctuary | Rifugio Insulare | `system/addon.json#1799:original` | Nome dell'area; in prosa usare le minuscole e adattare l'articolo. |
+| Hideaway | Base dell'Isola | `system/descriptionstring.json#684:original` | Nel Rifugio Insulare indica la base operativa sud-occidentale dell'isola; variante ammessa in prosa: «base». |
 | The Occult Crescent | Falce Occulta | `world/placename.json#4931:name` | Nome dell'area; variante ammessa in prosa: «Falce Occulta» quando l'articolo è retto da una preposizione. |
 | The Occult Crescent | La Falce Occulta | `system/description.json#3604507:name` | Forma autonoma del nome dell'area. |
 | Treasure Coffer | Forziere | `system/addon.json#17622:original` | In questi messaggi indica il forziere che contiene il tesoro. Varianti ammesse in prosa: «Scrigno del Tesoro». |
@@ -949,7 +567,7 @@ Catalogo integrale: `data/translations/world/placename.json`. Cercare il nome in
 | The Sirensong Sea | Il Mar Canto | `combat/companiontransient.json#258:description` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Mare del Canto delle Sirene». |
 | Hells' Lid | Tappinferno | `combat/companiontransient.json#279:description` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Bocca dell'Inferno». |
 | The Sil'dihn Subterrane | I Sotterranei di Sil'dih | `combat/companiontransient.json#463:description` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Sotterranei di Sil'dih». |
-| The Underworld | Il Regno Sotterraneo | `combat/companiontransient.json#477:description` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Inferi». |
+| The Underworld | Il Regno Sotterraneo | `combat/companiontransient.json#477:description` | Varianti ammesse in prosa: «Inferi» per il luogo personificato, «inferi» in senso comune o idiomatico. |
 | The Skydeep Cenote | Il Cenote Abissale | `combat/companiontransient.json#519:description` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Cenote delle Profondità Celesti». |
 | Marsh Ligaka | Palude Ligaka | `crafting/spearfishingitem.json#20262:original` | Nome del luogo o della struttura. Varianti ammesse in prosa: «palude di Ligaka». |
 | The Ut'ohmu Horizon | Orizzonte Ut'ohmu | `crafting/spearfishingitem.json#20267:original` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Orizzonte di Ut'ohmu». |
@@ -1006,3 +624,62 @@ I nomi delle condizioni sono distinti dalle forme grammaticali usate nelle descr
 | Snow | Neve | `world/weather.json#15:name` |  |
 | Blizzards | Bufera di neve | `world/weather.json#16:name` |  |
 | Showers | Rovesci passeggeri | `world/weather.json#210:name` | Variante attestata in un'altra voce meteo. |
+
+### Rifugio Insulare
+
+Le voci identificano strutture, aree, visioni, missioni e mammets del Rifugio Insulare. I nomi degli NPC sono ruoli/nominativi di mammets specifici, non descrizioni generiche.
+
+| Inglese | Italiano | Fonte | Uso |
+| --- | --- | --- | --- |
+| Island Sanctuary Guide | Guida del Rifugio Insulare | `system/logmessage.json#10136:original` | Nome della guida di aiuto del Rifugio Insulare. |
+| Sanctuary Rank [1] | Rango [1] del Rifugio Insulare | `world/achievement.json#3089:description` | Progressione dell'isola; con il numero usare «rango 10 del rifugio insulare». |
+| Islekeep | Custode dell'Isola | `activities/mjitext.json#66:original` | Titolo del proprietario dell'isola; in prosa usare «custode dell'isola». |
+| Cozy Cabin | Casetta Accogliente | `activities/mjitext.json#2:original` | Struttura principale dell'isola. |
+| Cropland | Campo Coltivato | `activities/mjitext.json#62:original` | Area di coltivazione dell'isola. |
+| Pasture | Pascolo | `activities/mjitext.json#63:original` | Area per gli animali catturati. |
+| Mossy Mountains | Montagne Muschiose | `activities/mjitext.json#43:original` | Area di spedizione dei mammets del granaio. |
+| Mountain Hollow | Cavità della Montagna | `activities/mjiprogress.json#39:description` | Area interna alla grotta dell'isola, raggiunta durante la progressione. |
+| The Coziest of Cabins | La Casetta più Accogliente | `activities/mjiprogress.json#1:name` | Visione del Rifugio Insulare. |
+| Top Crops | Coltivazioni Eccellenti | `activities/mjiprogress.json#7:name` | Visione legata alla costruzione del Campo Coltivato. |
+| Adorable Animals | Animali Adorabili | `activities/mjiprogress.json#13:name` | Visione legata alla costruzione del Pascolo. |
+| A Workshop of Wonders | Una Bottega delle Meraviglie | `activities/mjiprogress.json#20:name` | Visione legata alla costruzione dell'officina. |
+| The Perfect Paradise | Il Paradiso Perfetto | `activities/mjiprogress.json#26:name` | Visione di sviluppo dell'isola. |
+| Passionate Pioneering | Pionierismo Appassionato | `activities/mjiprogress.json#28:name` | Visione di sviluppo dell'isola. |
+| Delightful Discovery | Una Scoperta Entusiasmante | `activities/mjiprogress.json#30:name` | Visione che sblocca la Cavità della Montagna. |
+| The Land of Luxury | La Terra del Lusso | `activities/mjiprogress.json#35:name` | Visione di sviluppo dell'isola. |
+| A Subterranean Investigation | Un'Indagine Sotterranea | `activities/mjiprogress.json#37:name` | Missione che porta alla Cavità della Montagna; distinta dalla visione «A Subterranean Expansion». |
+| An Idyllic Island | Un'Isola Idilliaca | `activities/mjiprogress.json#42:name` | Visione conclusiva dello sviluppo dell'isola. |
+| Felicitous Furball | Batuffolo Felice | `activities/mjiprogress.json#1:description` | Mammet che guida la squadra di aiutanti dell'isola. |
+| Produce Producer | Curatore dei prodotti | `system/addon.json#14326:original` | Mammet che gestisce la coltivazione automatizzata; varianti ammesse in prosa: «coltivatore», «responsabile dei raccolti», «addetto alle colture». In `world/enpcresident.json#1043465:translation_name`, rispettare il minuscolo dell'originale: «curatore dei prodotti»; al plurale: «curatori dei prodotti». |
+| Creature Comforter | Custode delle creature | `system/addon.json#15223:original` | Mammet che gestisce la cura degli animali del Pascolo; varianti ammesse in prosa: «responsabile degli animali», «addetto agli animali». In `world/enpcresident.json#1043466:translation_name`, rispettare il minuscolo dell'originale: «custode delle creature»; al plurale: «custodi delle creature». |
+| Pathological Pathfinder | Esploratore Ossessivo | `activities/mjiprogress.json#21:description` | Mammet che libera ed espande il terreno; rende il tono comico del nome. |
+| Determined Digger | Scavatore Determinato | `activities/mjiprogress.json#33:description` | Mammet addetto agli scavi nella Cavità della Montagna. |
+
+### Titoli narrativi
+
+| Inglese | Italiano | Fonte | Uso |
+| --- | --- | --- | --- |
+| Once More, to the Ruby Sea | Ancora una volta, al Mar Rubino | `world/achievement.json#1788:description` | Titolo della missione principale che conduce al Mar Rubino. |
+
+### Nomi propri
+
+| Inglese | Italiano | Fonte | Uso |
+| --- | --- | --- | --- |
+| Baderon Tenfingers | Baderon Diecidita | Decisione dell'utente | Soprannome composto: conserva il nome proprio Baderon e traduce «Tenfingers». Riferimento: `world/enpcresident.json#1011882:translation_name`. |
+
+### Eventi e termini di lore
+
+| Inglese | Italiano | Fonte | Uso |
+| --- | --- | --- | --- |
+| The Twelve Archons | i Dodici Arconti | `dialogue/snipetalk.json#48:translation_name` | Eroi della leggenda legata a Hatching-tide; la resa riguarda il gruppo storico. |
+| The Echo | L'Eco | `combat/status.json#42:translation_name` | Nome del potere dei Discendenti. |
+| The Scions of the Seventh Dawn | Eredi della Settima Alba | `world/contentfinderconditiontransient.json#284:translation` | Nome dell'organizzazione; usare la forma estesa al primo riferimento. |
+| primal (in prosa) | primordiale | `activities/deepdungeonmagicstone.json#1:translation_col_3` | Nome comune per un essere evocato; rispettare eventuali etichette di categoria canoniche. |
+| Little Ladies' Day | Little Ladies' Day | `items/cabinetsubcategory.json#12:translation` | Nome della festa stagionale, lasciato in inglese. |
+| Hatching-tide | Festa delle Uova | Decisione dell'utente | Nome della festa stagionale; riferimento contestuale: `@review/world/enpcresident.json#1011803:translation_name`. |
+| Scholasticate | Il Seminario | Decisione dell'utente | Istituzione di Sant'Endalim; nei ruoli rispettare il minuscolo dell'originale: «docente del seminario», «diacono del seminario». Riferimento: `@review/world/enpcresident.json#1011215:translation_name`. |
+| Starlight Celebration | Celebrazione delle Stelle | Decisione dell'utente | Nome della festa stagionale; riferimento contestuale: `@review/world/enpcresident.json#1010742:translation_name`. |
+| Moonfire Faire | Festa del Fuoco Lunare | Decisione dell'utente | Nome della festa stagionale estiva; riferimento contestuale: `@review/world/enpcresident.json#1009242:translation_col_2`. |
+| The Rising | La Rinascita | Decisione dell'utente | Nome dell'evento annuale; nei ruoli usare «della Rinascita». Riferimento: `@review/world/enpcresident.json#1009290:translation_name`. |
+| All Saints' Wake | Veglia di Tutti i Santi | Decisione dell'utente | Nome della festa stagionale; riferimento contestuale: `@review/world/enpcresident.json#1043978:translation_name`. |
+| voidsent | creatura del vuoto (sing.), creature del vuoto (pl.) | Decisione dell'utente | Nome comune della specie; rispettare il minuscolo dell'originale. Riferimento: `@review/world/enpcresident.json#1042066:translation_name`. |

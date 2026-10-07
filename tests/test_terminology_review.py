@@ -11,6 +11,20 @@ from tools import terminology_review as review
 
 
 class TerminologyReviewTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.glossary_function = staticmethod(review.glossary)
+        cls.canonical_glossary = review.glossary()
+
+    def scan_at(self, args):
+        for name, default in (("approved_only", False), ("include_review", False),
+                              ("all_matches", False), ("strict_canonical_case", False),
+                              ("checklist", "__missing_checklist__.md")):
+            if not hasattr(args, name):
+                setattr(args, name, default)
+        with patch.object(review, "glossary", return_value=self.canonical_glossary):
+            review.scan(args)
+
     def test_all_places_are_available_and_conflicting_names_are_normalized(self):
         _, entries = review.glossary()
         places = [entry for entry in entries if entry["reference"].startswith("world/placename.json#")]
@@ -29,7 +43,7 @@ class TerminologyReviewTests(unittest.TestCase):
             args = argparse.Namespace(file="draft.json", term=None, old=None,
                                       include_approved=False, limit=10, out=str(output), overwrite=False)
             with patch.object(review, "TRANSLATIONS", root):
-                review.scan(args)
+                self.scan_at(args)
             queue = json.loads(output.read_text(encoding="utf-8"))
             self.assertEqual(["Nuova Gridania"], queue[0]["canonical"])
             self.assertIn("world/placename.json#52:name", queue[0]["references"])
@@ -44,7 +58,7 @@ class TerminologyReviewTests(unittest.TestCase):
             args = argparse.Namespace(file="draft.json", term="Dzemael Darkhold", old=None,
                                       include_approved=False, limit=10, out=str(output), overwrite=False)
             with patch.object(review, "TRANSLATIONS", root):
-                review.scan(args)
+                self.scan_at(args)
             queue = json.loads(output.read_text(encoding="utf-8"))
             self.assertEqual(["Fortezza Oscura di Dzemael"], queue[0]["canonical"])
 
@@ -57,7 +71,7 @@ class TerminologyReviewTests(unittest.TestCase):
             args = argparse.Namespace(file="draft.json", term="Duty Finder", old=None,
                                       include_approved=False, limit=10, out=str(output), overwrite=False)
             with patch.object(review, "TRANSLATIONS", root):
-                review.scan(args)
+                self.scan_at(args)
             queue = json.loads(output.read_text(encoding="utf-8"))
             self.assertEqual(1, len(queue))
             self.assertEqual(["Ricerca Incarichi"], queue[0]["canonical"])
@@ -74,7 +88,7 @@ class TerminologyReviewTests(unittest.TestCase):
             args = argparse.Namespace(file="draft.json", term="Glamours", old=None,
                                       include_approved=False, limit=10, out=str(output), overwrite=False)
             with patch.object(review, "TRANSLATIONS", root):
-                review.scan(args)
+                self.scan_at(args)
             self.assertEqual("Glamours", json.loads(output.read_text(encoding="utf-8"))[0]["english"])
 
     def test_only_approved_proposal_is_applied_and_other_bytes_stay_put(self):
@@ -104,7 +118,7 @@ class TerminologyReviewTests(unittest.TestCase):
 
     def test_tags_must_stay_identical(self):
         self.assertTrue(review.same_tokens("<hex:AA>Test {name}", "<hex:AA>Prova {name}"))
-        self.assertFalse(review.same_tokens("<hex:AA>Test", "<hex:BB>Prova"))
+        self.assertFalse(review.same_tokens("<hex:01>Test", "<hex:02>Prova"))
 
     def test_old_italian_finds_impact_even_without_english_name(self):
         with tempfile.TemporaryDirectory() as folder:
@@ -116,7 +130,7 @@ class TerminologyReviewTests(unittest.TestCase):
             args = argparse.Namespace(file="draft.json", term="The Waking Sands", old="Sabbie del Risveglio",
                                       include_approved=False, limit=10, out=str(output), overwrite=False)
             with patch.object(review, "TRANSLATIONS", root):
-                review.scan(args)
+                self.scan_at(args)
             queue = json.loads(output.read_text(encoding="utf-8"))
             self.assertEqual(1, len(queue))
             self.assertEqual("The Waking Sands", queue[0]["english"])
@@ -131,11 +145,33 @@ class TerminologyReviewTests(unittest.TestCase):
             args = argparse.Namespace(file="draft.json", term=None, old=None,
                                       include_approved=False, limit=10, out=str(output), overwrite=False)
             with patch.object(review, "TRANSLATIONS", root):
-                review.scan(args)
+                self.scan_at(args)
             queue = json.loads(output.read_text(encoding="utf-8"))
             self.assertEqual(1, len(queue))
             self.assertEqual("Cross-world Linkshell [3]", queue[0]["english"])
             self.assertEqual(["Fonoperla Intermondo [3]"], queue[0]["canonical"])
+
+    def test_approved_sources_are_derived_from_translation_directory(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            translations = root / "translations"
+            (translations / "system").mkdir(parents=True)
+            (translations / "system" / "sample.json").write_text(
+                json.dumps({"1": {"original": "Cancel", "translation": "Annulla"}}), encoding="utf-8")
+            glossary_path = root / "Glossary.md"
+            glossary_path.write_text(
+                "## Voci\n\n### Interfaccia\n\n"
+                "| Inglese | Italiano | Fonte | Uso |\n| --- | --- | --- | --- |\n"
+                "| Cancel | Annulla | `system/sample.json#1:original` |  |\n"
+                "| Confirm | Conferma | Decisione dell'utente |  |\n", encoding="utf-8")
+
+            with patch.object(review, "TRANSLATIONS", translations), \
+                    patch.object(review, "GLOSSARY", glossary_path):
+                approved, entries = self.glossary_function()
+
+            self.assertEqual({"system/sample.json"}, approved)
+            self.assertEqual(["system/sample.json#1:original", "Decisione dell'utente"],
+                             [entry["reference"] for entry in entries])
 
 
 if __name__ == "__main__":

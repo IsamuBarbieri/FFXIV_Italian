@@ -87,9 +87,9 @@ Strumento per la manutenzione e il monitoraggio degli aggiornamenti di gioco:
 
 ## 3. Organizzazione del Corpus (`data/`)
 
-I file senza approvazione sono separati dal corpus approvato. `data/da_tradurre/` contiene file senza traduzioni; `data/da_revisionare/` contiene file con almeno una traduzione non approvati; i file elencati nella sezione **File approvati** del glossario restano in `data/translations/`, nelle categorie `system/`, `world/` e le altre aree. Dentro ciascuno stato editoriale ci sono le categorie `activities`, `combat`, `crafting`, `dialogue`, `housing`, `items`, `minigames`, `quests`, `shops`, `social`, `system` e `world`. Le quest narrative usano `quests/<espansione>/<numero>/`; i fogli master relativi alle missioni sono in `quests/master/`.
+I file sono separati per stato editoriale: `data/da_tradurre/` contiene file senza traduzioni, `data/da_revisionare/` file con traduzioni in attesa di revisione e `data/translations/` i file approvati. La cartella è l'unica fonte dello stato. Dentro ciascuno stato editoriale ci sono le categorie `activities`, `combat`, `crafting`, `dialogue`, `housing`, `items`, `minigames`, `quests`, `shops`, `social`, `system` e `world`. Le quest narrative usano `quests/<espansione>/<numero>/`; i fogli master relativi alle missioni sono in `quests/master/`.
 
-Per aggiornare le cartelle dopo un'importazione o una nuova estrazione: `python tools/organize_sheets.py`. La presenza di una traduzione non equivale alla revisione, e un file parzialmente tradotto rimane in `da_revisionare/` finché non è approvato.
+Per aggiornare le cartelle dopo un'importazione o una nuova estrazione: `python tools/organize_sheets.py`. Il comando organizza i file per categoria e stato rilevato, ma non approva file: spostare un file revisionato in `data/translations/` è l'atto di approvazione.
 
 Percorsi esemplificativi:
 

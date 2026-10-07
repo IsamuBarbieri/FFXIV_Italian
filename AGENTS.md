@@ -10,6 +10,7 @@
 ## Traduzioni
 
 - Traduci e controlla le voci una per una, tenendo conto del contesto, del registro del personaggio e delle decisioni del glossario.
+- Per ogni traduzione con riferimenti narrativi o nomi propri (personaggi, luoghi, popoli, fazioni, creature, quest e oggetti legati alla lore), consulta la pagina pertinente della wiki di FFXIV e usa il contesto attestato per scegliere la resa. Non tradurre questi riferimenti in modo isolato o per semplice somiglianza lessicale; se la wiki non chiarisce il punto, segnala l'ambiguità senza inventare dettagli.
 - Per capire una scelta editoriale, cerca prima correzioni recenti dell'utente nei file canonici e revisionati. Prevalgono le istruzioni esplicite dell'utente e il glossario; una correzione isolata non va generalizzata fuori dal suo contesto.
 - Conserva ID, struttura JSON, campi sorgente e metadati. Modifica solo i campi di traduzione richiesti.
 - Preserva tag e codici SeString. Traduci il testo leggibile dentro i payload esadecimali solo seguendo le regole e gli strumenti esistenti.
