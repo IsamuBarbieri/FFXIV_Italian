@@ -64,6 +64,8 @@ Quando traduci battute di dialogo, rispetta rigorosamente il registro psicologic
 - **Estinien Sanguedidrago**: Laconico, asciutto, militare; pochissime parole, zero fronzoli diplomatici.
 - **Emet-Selch**: Teatrale, aristocratico, sarcastico e stanco; cinismo condiscendente che cela un dolore millenario tragico e struggente.
 - **Haurchefant Pietragrigia**: Cavalieresco, caloroso, esuberante, sincero affetto ed entusiasmo solare per il Guerriero della Luce.
+- **Società Alleate e popoli affini**: identifica il parlante e applica la matrice completa in `docs/STYLE_GUIDE.md`. In particolare, conserva la terza persona e gli appellativi dei Sylph, le inversioni degli Ixal, rendi l'intercalare `kupo` dei Moguri con `kupò`, mantieni le sibilanti degli Sahagin, degli Ananta e degli Ondo, i segnali sonori dei Vath e le ripetizioni dei Namazu. Non aggiungere accenti o tic vocali se l'originale non li marca.
+- **Campi collegati e terminologia**: controlla ogni `translation_*` con il campo sorgente corrispondente; nei nomi e nelle descrizioni degli oggetti verifica accordi, plurali, maiuscole e coerenza tra campi. Applica le sostituzioni del glossario anche nelle frasi, preservando solo i composti e i nomi propri indicati come invariati. Scrivi `kupò` per l'intercalare parlato e mantieni forme composte come «noce kupo».
 
 ---
 

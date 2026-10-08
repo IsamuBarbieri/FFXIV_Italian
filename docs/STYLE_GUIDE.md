@@ -50,6 +50,52 @@ Tutti i nomi propri dei Loporrit che terminano in *-way* (*Livingway, Growingway
 ### Regola F: Nessun prestito orfano e coerenza tra campi
 Non lasciare mai parole o frammenti in inglese residui nei testi tradotti (es. *plate* al posto di *piastra* nelle spiegazioni dei comandi o delle finestre). Inoltre, garantisci sempre la coerenza interna tra nome dell'oggetto e descrizione nei file come `buddyequip.json` o `item.json`.
 
+Per gli oggetti, controlla ogni campo tradotto insieme al proprio originale: nome, descrizione, categoria e titolo possono richiedere forme diverse. Fai concordare articoli, aggettivi e plurali con il nome italiano (*gladio obsoleto / spatha obsoleta*; *chiave della Porta*, non «chiavi del Porta»). Nei composti di materiali evita la ripetizione involontaria di «di» (*grimorio in pelle di lupo*) e applica le forme del glossario anche nelle descrizioni. Le maiuscole dei nomi visualizzati seguono il campo e l'originale: non trasformare una forma minuscola di prosa in un titolo.
+
+### Parlato delle Società Alleate e dei popoli affini
+
+La denominazione ufficiale attuale è **Società Alleate** (*Allied Societies*); «tribù delle bestie» e «tribù alleate» sono nomi storici dei contenuti. Il roster ufficiale comprende queste venti società:
+
+| Espansione | Società Alleate |
+| :--- | :--- |
+| A Realm Reborn | Amalj'aa, Sylph, Kobold, Sahagin, Ixal |
+| Heavensward | Vanu Vanu, Vath, Moguri |
+| Stormblood | Ananta, Kojin, Namazu |
+| Shadowbringers | Pixie, Qitari, Nani |
+| Endwalker | Arkasodara, Omicron, Loporrit |
+| Dawntrail | Pelupelu, Mamool Ja, Yok Huy |
+
+Le catene intersocietarie riuniscono le società di A Realm Reborn, Heavensward, Stormblood, Endwalker e Dawntrail; Shadowbringers non ne ha una. La lista segue la [banca dati ufficiale delle missioni del Lodestone](https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/) e la [suddivisione per espansione delle Società Alleate](https://ffxiv.consolegameswiki.com/wiki/Allied_Society_Quests). Goblin, Gnath, Qiqirn e Ondo sono popoli affini utili per la revisione dei dialoghi, ma non aggiungono società al roster.
+
+| Popolo | Tratto da conservare nella resa italiana |
+| :--- | :--- |
+| **Amalj'aa** | Registro marziale e rituale quando presente; conserva richiami a fratellanza, fuoco e giuramenti se appartengono alla battuta. Niente grafia fonetica inventata. |
+| **Sylph** | Mantieni la terza persona riferita a sé o al proprio gruppo (*this one / these ones*) e gli appellativi *walking one*. Usa in modo coerente **questo qui / questi qui** e **camminante / camminanti**, adattando articoli e frase alla sintassi italiana. |
+| **Kobold** | Lessico concreto di miniera, fabbricazione, conteggio e scambio quando il testo lo richiama; italiano standard, senza storpiature aggiunte. |
+| **Sahagin** | Conserva il soffio iniziale *psh* e le sibilanti allungate già marcate nell'originale. In italiano usa **sss** dentro parole adatte; non sostituirlo con vocali ripetute e non estenderlo a ogni parola. |
+| **Ixal** | Preserva le inversioni sintattiche riconoscibili con qualche costruzione marcata ma chiara. Mantieni appellativi come *featherless one* con una resa coerente come **implume**; conserva immagini di piume, taloni e volo quando presenti. |
+| **Moguri (Moogle)** | Rendi l'intercalare **kupo** con **kupò** quando compare nell'originale, nella posizione della battuta; non aggiungerlo come suffisso automatico a ogni frase. |
+| **Vanu Vanu** | Mantieni tono oracolare, immagini di cielo e volo, l'autoreferenza in terza persona quando presente e l'appellativo **forestiero** per *netherling*. Evita di introdurre costruzioni anomale se la fonte non le mostra. |
+| **Gnath dell'Onemind** | Quando la fonte attribuisce la battuta all'alveare, conserva il «noi» collettivo e la volontà condivisa; non trattare il parlante come un individuo isolato. |
+| **Vath** | Rendi i segnali sonori espliciti come «clic» e «clac». I Vath del Nonmind hanno identità e obiettivi individuali: non confonderli con la voce collettiva dei Gnath dell'Onemind. |
+| **Ananta** | Allunga le sibilanti quando l'originale le allunga; rendile con **sss** in parole italiane adatte, senza alterare parole prive di suoni sibilanti. |
+| **Kojin** | Rispetta lessico e tono legati a tesori, scambi, onore e devozione se presenti; non assegnare un accento comune a tutti i Kojin. |
+| **Namazu** | Conserva le ripetizioni brevi ed entusiaste dell'originale, in particolare **sì, sì** e **no, no**; non aggiungere riempitivi dove mancano. |
+| **Pixie** | Mantieni malizia, giocosità e ironia proprie del singolo interlocutore; niente suffissi o deformazioni fonetiche di specie. |
+| **Qitari** | Segui il tono di racconto e memoria degli antenati quando emerge dalla battuta; non inventare arcaismi o un accento uniforme. |
+| **Nani** | Mantieni il saluto **Lali-ho** quando presente e traduci in italiano gli appellativi culturali per chi è senza barba. Conserva il tono schietto e bonario senza imitare un accento reale. |
+| **Arkasodara** | Italiano standard; rendi il tono solidale, pratico o mercantile del singolo personaggio senza attribuire una parlata deformata all'intero popolo. |
+| **Omicron** | Conserva il lessico analitico e tecnico e le formule di unità/macchina se espresse; non spezzare la grammatica italiana per farli sembrare robotici. |
+| **Loporrit** | Le voci restano individuali, spesso energiche o ottimiste. I nomi propri in **-way** restano invariati secondo la Regola E. |
+| **Pelupelu** | Mantieni cortesia, lessico commerciale e retorica promozionale quando presenti; niente accento inventato. |
+| **Mamool Ja** | Rispetta differenze di carattere e contesto culturale tra parlanti; non applicare una grammatica tribale uniforme. |
+| **Yok Huy** | Conserva il tono solenne, misurato o cerimoniale quando attestato; evita un italiano pseudoarcaico aggiunto. |
+| **Goblin** *(popolo affine)* | Ricrea in italiano le parole composte e i giochi fonici che esistono nella fonte; mantieni interiezioni esplicite come *Pshhh* e non trasferire meccanicamente ogni composto. |
+| **Ondo** *(popolo affine)* | Conserva le sibilanti allungate esplicite con **sss**, come per gli Ananta e i Sahagin; mantieni appellativi come *finless one* in forma italiana coerente. |
+| **Qiqirn** *(popolo affine)* | Segui la voce del singolo personaggio e le eventuali difficoltà di pronuncia mostrate nella battuta; non attribuire automaticamente a tutti una grafia deformata o un accento. |
+
+Queste indicazioni descrivono solo segnali attestati. In ogni revisione identifica prima chi parla e controlla la battuta inglese: una parola ricorrente da sola non basta ad attribuire il registro a un'intera specie. Quando l'originale non marca una pronuncia, conserva il tono e il lessico culturale senza aggiungere tic vocali.
+
 ---
 
 ## 2. Risoluzione della Concordanza di Genere

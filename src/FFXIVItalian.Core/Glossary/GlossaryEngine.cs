@@ -11,6 +11,14 @@ public class GlossaryComplianceResult
 
 public class GlossaryEngine
 {
+    private sealed record TermGroup(string Term, string[] Variants, string RuleId, Regex? Pattern, bool EquipmentOnly);
+
+    private sealed record ValidationIndex(
+        Dictionary<string, TermGroup> ExactTerms,
+        TermGroup[] ResidualTerms,
+        HashSet<string> ApprovedItalianLoanwords,
+        bool HasDutyIncarico);
+
     private static readonly Dictionary<string, string> ActivityLabels = new(StringComparer.OrdinalIgnoreCase)
     {
         ["Subquest"] = "Missione secondaria",
@@ -27,9 +35,14 @@ public class GlossaryEngine
     };
     private readonly List<GlossaryEntry> _entries = [];
     private readonly Dictionary<string, (string Italian, string Reference)> _placeNames = new(StringComparer.OrdinalIgnoreCase);
+    private ValidationIndex? _validationIndex;
     public IReadOnlyList<GlossaryEntry> Entries => _entries;
 
-    public void AddEntry(GlossaryEntry entry) => _entries.Add(entry);
+    public void AddEntry(GlossaryEntry entry)
+    {
+        _entries.Add(entry);
+        _validationIndex = null;
+    }
 
     public void AddPlaceNames(IEnumerable<PlaceNameEntry> names)
     {
@@ -49,9 +62,8 @@ public class GlossaryEngine
         var result = new GlossaryComplianceResult();
         if (string.IsNullOrWhiteSpace(originalEn) || string.IsNullOrWhiteSpace(translatedIt)) return result;
 
-        var approvedExactVariants = _entries
-            .Where(entry => entry.EnglishTerm.Equals(originalEn.Trim(), StringComparison.OrdinalIgnoreCase))
-            .Select(entry => entry.ItalianTerm);
+        var index = GetValidationIndex();
+        string trimmedOriginal = originalEn.Trim();
         var normalizedContext = sourceContext?.Replace('\\', '/');
         bool isPlaceNameSheet = string.IsNullOrWhiteSpace(sourceContext) ||
             (normalizedContext is not null &&
@@ -59,12 +71,13 @@ public class GlossaryEngine
               normalizedContext.Equals("world/placename.json", StringComparison.OrdinalIgnoreCase) ||
               normalizedContext.EndsWith("/world/placename.json", StringComparison.OrdinalIgnoreCase)));
         // The full place catalog contains common words that are valid action/status names too.
-        if (isPlaceNameSheet && _placeNames.TryGetValue(originalEn.Trim(), out var place) &&
+        if (isPlaceNameSheet && _placeNames.TryGetValue(trimmedOriginal, out var place) &&
             !translatedIt.Trim().Equals(place.Italian, StringComparison.OrdinalIgnoreCase) &&
-            !approvedExactVariants.Contains(translatedIt.Trim(), StringComparer.OrdinalIgnoreCase))
-            result.Warnings.Add($"Luogo '{originalEn.Trim()}' → {place.Italian} (fonte: {place.Reference}).");
+            (!index.ExactTerms.TryGetValue(trimmedOriginal, out var placeTerm) ||
+             !placeTerm.Variants.Contains(translatedIt.Trim(), StringComparer.OrdinalIgnoreCase)))
+            result.Warnings.Add($"Luogo '{trimmedOriginal}' → {place.Italian} (fonte: {place.Reference}).");
 
-        if (ActivityLabels.TryGetValue(originalEn.Trim(), out var activityLabel) &&
+        if (ActivityLabels.TryGetValue(trimmedOriginal, out var activityLabel) &&
             !translatedIt.Trim().Equals(activityLabel, StringComparison.OrdinalIgnoreCase))
             result.Warnings.Add($"Categoria di attività '{originalEn.Trim()}' → {activityLabel}.");
         if (Regex.IsMatch(originalEn, @"\bFATEs?\b", RegexOptions.IgnoreCase) &&
@@ -72,12 +85,7 @@ public class GlossaryEngine
             result.Warnings.Add("Sigla FATE: usare FATE senza punti.");
         foreach (var term in new[] { "dungeon", "raid", "trial", "guildhest", "levequest", "subquest" })
         {
-            if (term is "dungeon" or "raid") continue; // Prestiti stabilmente usati nel lessico italiano di gioco.
-            bool approvedItalianLoanword = _entries.Any(entry =>
-                entry.Category == GlossaryCategory.GameTerm &&
-                entry.EnglishTerm.Equals(term, StringComparison.OrdinalIgnoreCase) &&
-                entry.ItalianTerm.Equals(term, StringComparison.OrdinalIgnoreCase));
-            if (approvedItalianLoanword) continue;
+            if (index.ApprovedItalianLoanwords.Contains(term)) continue;
             var pattern = $@"\b{term}s?\b";
             // These are proper titles, even though they contain category words.
             var sourceText = originalEn.Replace("Trials of the Braves", "", StringComparison.OrdinalIgnoreCase)
@@ -90,29 +98,25 @@ public class GlossaryEngine
                 result.Warnings.Add($"Possibile categoria ancora in inglese: '{term}' (verificare nomi propri e comandi).");
         }
 
-        foreach (var group in _entries.GroupBy(e => e.EnglishTerm, StringComparer.OrdinalIgnoreCase))
-        {
-            var term = group.Key;
-            var variants = group.Select(e => e.ItalianTerm).Distinct(StringComparer.OrdinalIgnoreCase).ToArray();
-            var expected = string.Join(" / ", variants);
-            if (originalEn.Trim().Equals(term, StringComparison.OrdinalIgnoreCase))
-            {
-                if (!variants.Contains(translatedIt.Trim(), StringComparer.OrdinalIgnoreCase))
-                    result.Warnings.Add($"'{term}' → {expected} (fonte: {group.First().RuleId}).");
-                continue;
-            }
+        bool hasExactTerm = index.ExactTerms.TryGetValue(trimmedOriginal, out var exactTerm);
+        if (hasExactTerm && !exactTerm!.Variants.Contains(translatedIt.Trim(), StringComparer.OrdinalIgnoreCase))
+            result.Warnings.Add($"'{exactTerm.Term}' → {string.Join(" / ", exactTerm.Variants)} (fonte: {exactTerm.RuleId}).");
 
-            // In longer text, only flag a retained English phrase. A contextual paraphrase
-            // is valid, so the absence of a literal Italian form is never treated as an error.
-            if (!term.Contains(' ') || variants.Contains(term, StringComparer.OrdinalIgnoreCase)) continue;
-            string pattern = $@"(?<![\p{{L}}\p{{N}}]){Regex.Escape(term)}(?![\p{{L}}\p{{N}}])";
-            if (Regex.IsMatch(originalEn, pattern, RegexOptions.IgnoreCase) &&
-                Regex.IsMatch(translatedIt, pattern, RegexOptions.IgnoreCase))
-                result.Warnings.Add($"Termine inglese ancora presente: '{term}' → {expected} (fonte: {group.First().RuleId}).");
+        // Other longer glossary terms can still occur inside an exact source label.
+        foreach (var group in index.ResidualTerms)
+        {
+            if (group.EquipmentOnly &&
+                (normalizedContext is null ||
+                 !(normalizedContext.Equals("items/item.json", StringComparison.OrdinalIgnoreCase) ||
+                   normalizedContext.EndsWith("/items/item.json", StringComparison.OrdinalIgnoreCase))))
+                continue;
+            if (hasExactTerm && group.Term.Equals(trimmedOriginal, StringComparison.OrdinalIgnoreCase)) continue;
+            if (group.Pattern!.IsMatch(originalEn) && group.Pattern.IsMatch(translatedIt))
+                result.Warnings.Add($"Termine inglese ancora presente: '{group.Term}' → {string.Join(" / ", group.Variants)} (fonte: {group.RuleId}).");
         }
         var originalOutsideQuotedNames = Regex.Replace(originalEn, "[“‘\\\"].*?[”’\\\"]", "");
         var translatedOutsideQuotedNames = Regex.Replace(translatedIt, "[“‘\\\"].*?[”’\\\"]", "");
-        if (_entries.Any(e => e.EnglishTerm == "Duty" && e.ItalianTerm == "Incarico") &&
+        if (index.HasDutyIncarico &&
             !originalEn.Trim().Equals("Duty", StringComparison.OrdinalIgnoreCase) &&
             !originalEn.Trim().Equals("Duties", StringComparison.OrdinalIgnoreCase) &&
             Regex.IsMatch(originalOutsideQuotedNames, @"\bdut(?:y|ies)\b", RegexOptions.IgnoreCase) &&
@@ -125,5 +129,56 @@ public class GlossaryEngine
                 result.Warnings.Add("'Duty' è reso come Missione; usare Incarico/Incarichi per l'attività di gioco.");
         }
         return result;
+    }
+
+    private ValidationIndex GetValidationIndex()
+    {
+        if (_validationIndex is not null) return _validationIndex;
+
+        var groups = _entries
+            .GroupBy(entry => entry.EnglishTerm, StringComparer.OrdinalIgnoreCase)
+            .Select(group =>
+            {
+                var variants = GetItalianVariants(group)
+                    .Distinct(StringComparer.OrdinalIgnoreCase).ToArray();
+                string matchTerm = Regex.Replace(group.Key, @"\s+\([^()]*\)$", "").Trim();
+                var notes = group.Select(entry => entry.Notes).ToArray();
+                bool checkResidual = notes.Any(note => note.StartsWith("Controllo automatico: residuo", StringComparison.OrdinalIgnoreCase));
+                bool checkInterjection = notes.Any(note => note.StartsWith("Controllo automatico: intercalare", StringComparison.OrdinalIgnoreCase));
+                bool equipmentOnly = notes.Any(note => note.StartsWith("Controllo automatico: suffisso equipaggiamento", StringComparison.OrdinalIgnoreCase));
+                Regex? pattern = checkInterjection
+                    ? new Regex($@"(?:^|[,;!?]\s*){Regex.Escape(matchTerm)}(?=\s*(?:[!?.,;:]|$))", RegexOptions.IgnoreCase)
+                    : checkResidual || equipmentOnly
+                        ? new Regex($@"(?<![\p{{L}}\p{{N}}/]){Regex.Escape(matchTerm)}(?![\p{{L}}\p{{N}}])", RegexOptions.IgnoreCase)
+                        : null;
+                return new TermGroup(group.Key, variants, group.First().RuleId, pattern, equipmentOnly);
+            })
+            .ToArray();
+
+        var exactTerms = groups.ToDictionary(group => group.Term, StringComparer.OrdinalIgnoreCase);
+        var residualTerms = groups.Where(group => group.Pattern is not null).ToArray();
+        var approvedLoanwords = _entries
+            .Where(entry => entry.Category == GlossaryCategory.GameTerm &&
+                entry.EnglishTerm.Equals(entry.ItalianTerm, StringComparison.OrdinalIgnoreCase))
+            .Select(entry => entry.EnglishTerm)
+            .ToHashSet(StringComparer.OrdinalIgnoreCase);
+        bool hasDutyIncarico = _entries.Any(entry => entry.EnglishTerm == "Duty" && entry.ItalianTerm == "Incarico");
+
+        return _validationIndex = new ValidationIndex(exactTerms, residualTerms, approvedLoanwords, hasDutyIncarico);
+    }
+
+    private static IEnumerable<string> GetItalianVariants(IGrouping<string, GlossaryEntry> group)
+    {
+        foreach (var entry in group)
+        {
+            foreach (var variant in entry.ItalianTerm.Split(" / ", StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries))
+                yield return variant;
+
+            const string marker = "Varianti ammesse in prosa:";
+            int start = entry.Notes.IndexOf(marker, StringComparison.OrdinalIgnoreCase);
+            if (start < 0) continue;
+            foreach (Match match in Regex.Matches(entry.Notes[start..], @"«([^»]+)»"))
+                yield return match.Groups[1].Value.Trim();
+        }
     }
 }

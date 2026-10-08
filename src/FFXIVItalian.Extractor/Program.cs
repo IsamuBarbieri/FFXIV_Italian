@@ -69,7 +69,7 @@ public static class Program
             case "validate":
                 return args.Length > 1 && args[1].Equals("--review", StringComparison.OrdinalIgnoreCase)
                     ? RunGlossaryReview(args)
-                    : RunValidate();
+                    : RunValidate(args.ElementAtOrDefault(1));
 
             case "apply-cc":
                 return RunApplyCharacterCreation();
@@ -101,8 +101,8 @@ COMANDI DISPONIBILI:
   inspect <foglio> [rowId]      Ispeziona la struttura EXH/EXD di un foglio (es. lobby 1704)
   extract <foglio|all>          Estrae il testo originale in JSON preservando le traduzioni esistenti
   search <query>                Cerca un testo in inglese in tutti i fogli supportati
-  validate                      Verifica le traduzioni con Glossary.md e SeString
-  validate --review [file]      Controlla le categorie nei file completi, oppure in un file specifico
+  validate [cartella|file]      Verifica tutti i campi tradotti con Glossary.md e SeString
+  validate --review [file]      Mostra suggerimenti di revisione terminologica
 
 OPZIONI:
   --sqpack <percorso>           Specifica il percorso della cartella sqpack del gioco
@@ -342,65 +342,96 @@ ESEMPI:
         return 0;
     }
 
-    private static int RunValidate()
+    private static int RunValidate(string? requestedPath = null)
     {
         string translationsDir = FindTranslationsDir();
-        if (!Directory.Exists(translationsDir))
+        string targetPath = string.IsNullOrWhiteSpace(requestedPath)
+            ? translationsDir
+            : Path.GetFullPath(Path.IsPathRooted(requestedPath)
+                ? requestedPath
+                : Path.Combine(Environment.CurrentDirectory, requestedPath));
+        bool singleFile = File.Exists(targetPath);
+        string scanRoot = singleFile ? Path.GetDirectoryName(targetPath)! : targetPath;
+        if (!singleFile && !Directory.Exists(scanRoot))
         {
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine($"Cartella traduzioni non trovata: {translationsDir}");
+            Console.WriteLine($"Percorso da validare non trovato: {targetPath}");
             Console.ResetColor();
             return 1;
         }
 
         var engine = FFXIVItalian.Core.Glossary.GlossaryLoader.CreateCanonicalEngine();
         Console.WriteLine($"Motore Glossario inizializzato ({engine.Entries.Count} regole canoniche).");
-        Console.WriteLine($"Validazione di tutti i file JSON in: {translationsDir}");
+        Console.WriteLine($"Validazione: {targetPath}");
         Console.WriteLine();
 
         int totalEntries = 0;
         int totalIssues = 0;
 
-        foreach (var file in TranslationPathResolver.GetCorpusFiles(translationsDir))
+        string[] files = singleFile
+            ? [targetPath]
+            : Directory.GetFiles(scanRoot, "*.json", SearchOption.AllDirectories).OrderBy(path => path, StringComparer.OrdinalIgnoreCase).ToArray();
+        if (files.Length == 0)
         {
-            string fileName = Path.GetRelativePath(translationsDir, file);
-            Console.WriteLine($"--- Analisi: {fileName} ---");
-            string content = File.ReadAllText(file);
-            using var doc = System.Text.Json.JsonDocument.Parse(content);
+            Console.WriteLine("Nessun file JSON trovato.");
+            return 0;
+        }
 
+        foreach (var file in files)
+        {
+            string fileName = Path.GetRelativePath(scanRoot, file).Replace('\\', '/');
+            string validationContext = GetValidationContextPath(file, scanRoot);
+            Console.WriteLine($"--- Analisi: {fileName} ---");
             int fileEntries = 0;
             int fileIssues = 0;
-
-            foreach (var prop in doc.RootElement.EnumerateObject())
+            try
             {
-                string rowId = prop.Name;
-                if (prop.Value.ValueKind == System.Text.Json.JsonValueKind.String)
+                using var doc = System.Text.Json.JsonDocument.Parse(File.ReadAllText(file));
+                if (doc.RootElement.ValueKind != System.Text.Json.JsonValueKind.Object)
+                    throw new System.Text.Json.JsonException("La radice del JSON deve essere un oggetto.");
+
+                foreach (var row in doc.RootElement.EnumerateObject())
                 {
-                    string trans = prop.Value.GetString() ?? "";
-                    fileEntries++;
-                    fileIssues += ValidateSingleEntry(fileName, rowId, "", trans, engine);
-                }
-                else if (prop.Value.ValueKind == System.Text.Json.JsonValueKind.Object)
-                {
-                    fileEntries++;
-                    var obj = prop.Value;
-                    string orig = "";
-                    string trans = "";
-
-                    if (obj.TryGetProperty("name", out var np)) orig = np.GetString() ?? "";
-                    if (obj.TryGetProperty("original", out var op)) orig = op.GetString() ?? "";
-                    if (obj.TryGetProperty("translation", out var tp)) trans = tp.GetString() ?? "";
-                    if (obj.TryGetProperty("translation_name", out var tnp)) trans = tnp.GetString() ?? "";
-
-                    fileIssues += ValidateSingleEntry(fileName, rowId, orig, trans, engine);
-
-                    if (obj.TryGetProperty("description", out var dp) && obj.TryGetProperty("translation_description", out var tdp))
+                    if (row.Value.ValueKind == System.Text.Json.JsonValueKind.String)
                     {
-                        string dOrig = dp.GetString() ?? "";
-                        string dTrans = tdp.GetString() ?? "";
-                        fileIssues += ValidateSingleEntry(fileName, $"{rowId} (desc)", dOrig, dTrans, engine);
+                        fileEntries++;
+                        fileIssues += ValidateSingleEntry(fileName, row.Name, "", row.Value.GetString() ?? "", engine);
+                        continue;
+                    }
+                    if (row.Value.ValueKind != System.Text.Json.JsonValueKind.Object) continue;
+
+                    foreach (var target in row.Value.EnumerateObject())
+                    {
+                        if (!target.Name.StartsWith("translation_", StringComparison.Ordinal) ||
+                            target.Value.ValueKind != System.Text.Json.JsonValueKind.String) continue;
+                        string sourceField = target.Name["translation_".Length..];
+                        if (!row.Value.TryGetProperty(sourceField, out var source) || source.ValueKind != System.Text.Json.JsonValueKind.String)
+                        {
+                            fileEntries++;
+                            fileIssues += ValidateSingleEntry(fileName, $"{row.Name}:{target.Name}", "", target.Value.GetString() ?? "", engine);
+                            continue;
+                        }
+                        fileEntries++;
+                        fileIssues += ValidateSingleEntry(fileName, $"{row.Name}:{target.Name}", source.GetString() ?? "", target.Value.GetString() ?? "", engine, validationContext);
+                    }
+
+                    if (row.Value.TryGetProperty("translation", out var translation) && translation.ValueKind == System.Text.Json.JsonValueKind.String)
+                    {
+                        string sourceField = row.Value.TryGetProperty("original", out _) ? "original" : "name";
+                        string original = row.Value.TryGetProperty(sourceField, out var source) && source.ValueKind == System.Text.Json.JsonValueKind.String
+                            ? source.GetString() ?? ""
+                            : "";
+                        fileEntries++;
+                        fileIssues += ValidateSingleEntry(fileName, $"{row.Name}:translation", original, translation.GetString() ?? "", engine, validationContext);
                     }
                 }
+            }
+            catch (Exception ex) when (ex is IOException or System.Text.Json.JsonException or UnauthorizedAccessException)
+            {
+                fileIssues++;
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine($"  [ERRORE FILE] {fileName}: {ex.Message}");
+                Console.ResetColor();
             }
 
             if (fileIssues == 0)
@@ -432,10 +463,21 @@ ESEMPI:
         else
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine($"CONVALIDA COMPLETATA: Trovati {totalIssues} avvisi su {totalEntries} righe.");
+            Console.WriteLine($"CONVALIDA NON SUPERATA: Trovati {totalIssues} problemi su {totalEntries} campi tradotti.");
             Console.ResetColor();
-            return 0;
+            return 1;
         }
+    }
+
+    private static string GetValidationContextPath(string file, string fallbackRoot)
+    {
+        for (var directory = new DirectoryInfo(Path.GetDirectoryName(file)!); directory is not null; directory = directory.Parent)
+        {
+            if (directory.Name.Equals("translations", StringComparison.OrdinalIgnoreCase) ||
+                directory.Name.Equals("da_revisionare", StringComparison.OrdinalIgnoreCase))
+                return Path.GetRelativePath(directory.FullName, file).Replace('\\', '/');
+        }
+        return Path.GetRelativePath(fallbackRoot, file).Replace('\\', '/');
     }
 
     private static int RunGlossaryReview(string[] args)
@@ -485,7 +527,7 @@ ESEMPI:
         return 0;
     }
 
-    private static int ValidateSingleEntry(string file, string rowId, string orig, string trans, FFXIVItalian.Core.Glossary.GlossaryEngine engine)
+    private static int ValidateSingleEntry(string file, string rowId, string orig, string trans, FFXIVItalian.Core.Glossary.GlossaryEngine engine, string? sourceContext = null)
     {
         if (string.IsNullOrWhiteSpace(trans)) return 0;
         int issues = 0;
@@ -501,21 +543,28 @@ ESEMPI:
         }
 
         // 2. Check Glossary Compliance
-        var glResult = engine.ValidateTranslation(orig, trans, file);
-        foreach (var pro in glResult.ProhibitedUsages)
+        bool literalSearchSyntax = Path.GetFileName(sourceContext ?? file).Equals("textcommand.json", StringComparison.OrdinalIgnoreCase) &&
+            rowId.EndsWith(":translation_col_2", StringComparison.Ordinal) &&
+            System.Text.RegularExpressions.Regex.IsMatch(orig,
+                @"(?is)^ALIAS(?:ES)?:.*?(?:USAGE|USO):.*?/search\s+\[condition\]");
+        if (!literalSearchSyntax)
         {
-            issues++;
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine($"  [FORMA VIETATA] {file} Riga {rowId}: {pro}");
-            Console.ResetColor();
-        }
+            var glResult = engine.ValidateTranslation(orig, trans, sourceContext ?? file);
+            foreach (var pro in glResult.ProhibitedUsages)
+            {
+                issues++;
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine($"  [FORMA VIETATA] {file} Riga {rowId}: {pro}");
+                Console.ResetColor();
+            }
 
-        foreach (var warn in glResult.Warnings)
-        {
-            issues++;
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine($"  [AVVISO GLOSSARIO] {file} Riga {rowId}: {warn}");
-            Console.ResetColor();
+            foreach (var warn in glResult.Warnings)
+            {
+                issues++;
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine($"  [AVVISO GLOSSARIO] {file} Riga {rowId}: {warn}");
+                Console.ResetColor();
+            }
         }
 
         return issues;

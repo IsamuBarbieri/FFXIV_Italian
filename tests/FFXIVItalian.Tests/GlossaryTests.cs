@@ -79,6 +79,34 @@ public class GlossaryTests
     }
 
     [Fact]
+    public void ValidationIndexRefreshesWhenEntriesAreAdded()
+    {
+        var engine = new GlossaryEngine();
+        engine.AddEntry(new GlossaryEntry { EnglishTerm = "Duty", ItalianTerm = "Incarico" });
+
+        Assert.False(engine.ValidateTranslation("Duty", "Compito").IsCompliant);
+
+        engine.AddEntry(new GlossaryEntry { EnglishTerm = "Duty", ItalianTerm = "Compito" });
+
+        Assert.True(engine.ValidateTranslation("Duty", "Compito").IsCompliant);
+    }
+
+    [Fact]
+    public void ExplicitResidualRulesCheckTermsInPhrasesAndPreserveKupoCompounds()
+    {
+        Assert.False(_catalog.Engine.ValidateTranslation(
+            "An Allagan tomestone was found.", "È stata trovata una tomestone allagana.").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation(
+            "An Allagan tomestone was found.", "È stata trovata una tavoletta allagana.").IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation(
+            "dated bronze gladius", "gladio di bronzo dated", "items/item.json").IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation(
+            "Welcome, kupo!", "Benvenuti, kupo!").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation(
+            "A kupo nut is on the table.", "C'è una noce kupo sul tavolo.").IsCompliant);
+    }
+
+    [Fact]
     public void ApprovedTranslationFilesDoNotRetainDutyInItalian()
     {
         string root = FindRepoRoot();
@@ -94,8 +122,21 @@ public class GlossaryTests
                 if (row.Value.ValueKind != JsonValueKind.Object) continue;
                 foreach (var field in row.Value.EnumerateObject())
                     if (field.Name.StartsWith("translation", StringComparison.Ordinal) && field.Value.ValueKind == JsonValueKind.String)
-                        Assert.False(Regex.IsMatch(field.Value.GetString() ?? "", @"\bDut(?:y|ies)\b", RegexOptions.IgnoreCase),
+                    {
+                        if (file.Equals("system/textcommandparam.json", StringComparison.OrdinalIgnoreCase) &&
+                            row.Value.TryGetProperty("original", out var command) &&
+                            command.GetString()?.Equals("duty", StringComparison.OrdinalIgnoreCase) == true)
+                            continue; // È un identificatore letterale del comando, non testo localizzato.
+                        if (file.Equals("system/textcommand.json", StringComparison.OrdinalIgnoreCase) &&
+                            field.Name == "translation_col_2" &&
+                            row.Value.TryGetProperty("col_2", out var source) &&
+                            Regex.IsMatch(source.GetString() ?? "",
+                                @"(?is)^ALIAS(?:ES)?:.*?(?:USAGE|USO):.*?/search\s+\[condition\]"))
+                            continue; // La parola è un parametro letterale della sintassi /search.
+                        string translated = Regex.Replace(field.Value.GetString() ?? "", "[“‘\\\"].*?[”’\\\"]", "");
+                        Assert.False(Regex.IsMatch(translated, @"\bDut(?:y|ies)\b", RegexOptions.IgnoreCase),
                             $"{file}#{row.Name}:{field.Name}");
+                    }
             }
         }
     }

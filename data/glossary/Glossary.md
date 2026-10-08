@@ -4,6 +4,8 @@ Fonte terminologica per le traduzioni future. Sono approvati i file JSON present
 
 **Catalogo completo dei luoghi:** tutte le 5.302 coppie `name`/`translation` di `data/translations/world/placename.json` fanno parte del glossario, con fonte `world/placename.json#ID:name`. Questo file è il catalogo integrale; la sezione Luoghi qui sotto evidenzia anche le rese canoniche appena uniformate. Le voci che contengono tag richiedono una revisione SeString.
 
+Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine inglese se resta nella traduzione di una frase; `Controllo automatico: suffisso equipaggiamento.` applica lo stesso controllo ai nomi di equipaggiamento in `items/item.json`; `Controllo automatico: intercalare.` controlla l'intercalare parlato preservando composti come «noce kupo».
+
 ## Voci
 
 ### Interfaccia e comandi
@@ -401,6 +403,60 @@ Fonte terminologica per le traduzioni future. Sono approvati i file JSON present
 | PCT | PTM | `world/classjobcategory.json#197:original` | Sigla del Pittomante. |
 | BST | DMT | `world/classjobcategory.json#203:original` | Sigla del Domatore. |
 
+### Suffissi di equipaggiamento (Ruoli e Discipline)
+
+| Inglese | Italiano | Fonte | Uso |
+| --- | --- | --- | --- |
+| of Fending | della Difesa | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Suffisso per l'equipaggiamento da difensore (Tank). Sostituisce «da difensore» e «di difesa». |
+| of Maiming | della Lacerazione | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Suffisso per l'equipaggiamento da assaltatore pesante (Dragoon / Reaper). |
+| of Slaying | della Furia | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Suffisso per l'equipaggiamento/accessori da mischia (Strength DPS). Sostituisce «da attacco». |
+| of Striking | dell'Impeto | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Suffisso per l'equipaggiamento da mischia corpo a corpo (Monk / Samurai). Sostituisce «da combattimento». |
+| of Scouting | dell'Incursione | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Suffisso per l'equipaggiamento da ricognizione/incursione (Ninja / Viper). Sostituisce «da esploratore». |
+| of Aiming | della Mira | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Suffisso per l'equipaggiamento da attaccante fisico a distanza (Physical Ranged DPS). Sostituisce «da mira». |
+| of Casting | dell'Arcano | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Suffisso per l'equipaggiamento da incantatore (Magic Ranged DPS). Sostituisce «da incantatore» e «per il lancio di incantesimi». |
+| of Healing | della Cura | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Suffisso per l'equipaggiamento da curatore (Healer). Sostituisce «di guarigione» e «da guaritore». |
+| of War | della Guerra | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Suffisso per l'equipaggiamento generico dei Discepoli della Guerra (Disciples of War). |
+| of Magic | della Magia | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Suffisso per l'equipaggiamento generico dei Discepoli della Magia (Disciples of Magic). |
+| of Crafting | della Creazione | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Suffisso per l'equipaggiamento dei Discepoli della Mano (Disciples of the Hand). Sostituisce «da sintesi». |
+| of Gathering | della Raccolta | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Suffisso per l'equipaggiamento dei Discepoli della Terra (Disciples of the Land). Sostituisce «da raccolta». |
+
+### Oggetti ed equipaggiamento
+
+| Inglese | Italiano | Fonte | Uso |
+| --- | --- | --- | --- |
+| Artemis Bow | arco di Artemide | Decisione dell'utente | Controllo automatico: residuo. Arma relic per Bardo e relativi stadi evolutivi. |
+| Stardust Rod | verga della Polvere Stellare | Decisione dell'utente | Controllo automatico: residuo. Arma relic per Mago Nero e relativi stadi evolutivi. |
+| Chicken Knife | Coltello da Pollo | Decisione dell'utente | Controllo automatico: residuo. Arma iconica per Mago Rosso. |
+| break blade | lama spezzante | Decisione dell'utente | Spada da gladiatore. |
+| thousand needle | ago dei mille aghi | Decisione dell'utente | Strumento da tessitore. |
+| dual haken | doppio haken | Decisione dell'utente | Ascia da marauder. |
+| the Destroyer's Stead | Sostegno del Distruttore | Decisione dell'utente | Lancia sacra di Ser Vellguine. |
+| Worm of the Dell | Drago della Conca | Decisione dell'utente | Bastone sacro di Ser Haumeric (worm nel senso araldico di drago/lindworm). |
+| cluster | aggregato | Decisione dell'utente | Categoria di cristalli elementali di alto rango (es. aggregato di fulmine, aggregato planare). |
+| Blade's (Bozja gear) | della Lama | Decisione dell'utente | Set di equipaggiamento delle Lame di Bozja (es. diadema della Lama della Difesa). |
+| Gunblade | Eterlama | Decisione dell'utente | Controllo automatico: residuo. Arma del job Gunbreaker (femminile: l'eterlama, armi da eterlama). |
+| Titanbronze | Bronzo Titanico | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Lega e set di equipaggiamento (es. spada di bronzo titanico, lingotto di bronzo titanico). |
+| Deepgold | Oro Cupo | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Lega aurifera e set di equipaggiamento (es. spada d'oro cupo, lingotto d'oro cupo). |
+| Stonegold | Litoro | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Lega aurifera-litica e set di equipaggiamento (es. stocco di litoro, lingotto di litoro). |
+| Bluespirit | Azzurrite | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Minerale etereo azzurro e set di equipaggiamento (es. spada d'azzurrite, minerale d'azzurrite). |
+| Truegold | Aurovero | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Minerale/metallo aurifero puro (es. sabbia d'aurovero, minerale d'aurovero). |
+| Equipaggiamento in materiali composti | in [materiale] di [creatura/origine] | Decisione dell'utente | Per evitare ripetizioni di «di» (es. «grimorio in pelle di lobo pregiato» anziché «di pelle di...»; «targa in pelle di raptor»). Non si applica a contenitori/unità di misura come «tazza di tisana» o «pezza di cuoio di». |
+| Mistic Memory | della Memoria Mistica | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Set di equipaggiamento (es. celata della Memoria Mistica della Difesa). |
+| Queensknight | del Cavaliere della Regina | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Set di armi ed equipaggiamento (es. falcione del Cavaliere della Regina). |
+| Sky Rat | del Ratto del Cielo | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Set di equipaggiamento (es. maschera del Ratto del Cielo della Difesa). |
+| Radiant's (gear) | della Schiera Radiosa | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Set di equipaggiamento della Schiera Radiosa di Thavnair (es. spada bastarda della Schiera Radiosa). |
+| Law's Order | dell'Ordine Giusto | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Set di armi di Bozja (es. spada bastarda dell'Ordine Giusto). |
+| Courtly Lover | dell'Amante Cortese | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Set di armi ed equipaggiamento (es. spada dell'Amante Cortese). |
+| Tomestone | Tavoletta | Decisione dell'utente | Controllo automatico: residuo. Singolare: Tavoletta / la tavoletta; plurale: Tavolette / le tavolette (es. Tavoletta allagana di poetica). Sostituisce «tomestone». |
+| Wolf Mark | Marchio del Lupo | Decisione dell'utente | Valuta PvP; plurale: Marchi del Lupo (es. 500 Marchi del Lupo). Sostituisce «Contrassegno del Lupo». |
+| Dated (gear) | obsoleto / obsoleta | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Equipaggiamento della versione 1.0 (es. gladio di bronzo obsoleto, spatha di bronzo obsoleta). Sostituisce la dicitura «d'epoca». |
+| Cesti | Tirapugni | Decisione dell'utente | Categoria d'arma per pugile/monaco (es. paio di tirapugni in pelle di dodo). Sostituisce «cesti». |
+| Gridanian (gear/items) | gridaniano / gridaniana | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Aggettivo relativo a Gridania (es. macuahuitl gridaniano, spatha gridaniana). |
+| Lominsan (gear/items) | lominsano / lominsana | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Aggettivo relativo a Limsa Lominsa (es. spada corta lominsana, arco lominsano). Sostituisce la formula perifrastica «di Limsa Lominsa». |
+| Ul'dahn (gear/items) | ul'dahno / ul'dahna | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Aggettivo relativo a Ul'dah (es. falchione ul'dahno, scimitarra ul'dahna). Sostituisce la formula perifrastica «di Ul'dahn». |
+| GC Factions (short form) | della Fiamma / della Vipera / della Tempesta | Decisione dell'utente | Forma abbreviata per equipaggiamenti e gradi delle Grandi Compagnie (es. «libro del sergente della Fiamma», «pugnale del soldato semplice della Vipera», «spadone dell'ufficiale della Tempesta»). Evita ripetizioni prolungate come «delle Fiamme Immortali» o «dell'Ordine della Vipera Gemella». |
+| Elm (material) | d'olmo | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Forma elisa obbligatoria (es. «tronco d’olmo», «tavola d’olmo», «macuahuitl d’olmo»). Evitare la forma non elisa «di olmo». |
+
 ### Razze e clan
 
 | Inglese | Italiano | Fonte | Uso |
@@ -429,6 +485,21 @@ Fonte terminologica per le traduzioni future. Sono approvati i file JSON present
 | The Lost | Ramingo | `world/tribe.json#14:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
 | Rava | Rava | `world/tribe.json#15:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
 | Veena | Veena | `world/tribe.json#16:name_masculine` | Forma del nome; controllare gli accordi nel contesto. |
+
+### Parlato delle Società Alleate
+
+| Inglese | Italiano | Fonte | Uso |
+| --- | --- | --- | --- |
+| Sylph: this one / these ones | questo qui / questi qui | `@review/dialogue/defaulttalk.json#590258:name` | Autoreferenza in terza persona; conservare il tratto e accordare al numero. |
+| Sylph: walking one(s) | camminante / camminanti | `@review/dialogue/defaulttalk.json#590270:name` | Appellativo per chi non è Sylph; evitare «camminatore», che suggerisce un mestiere o un ruolo. |
+| Sahagin: sibilanti allungate | sss | `combat/companiontransient.json#61:col_2` | Decisione dell'utente: rendere con sibilanti allungate solo le parole marcate dalla fonte, senza allungare vocali a caso. |
+| Ananta: sibilanti allungate | sss | `combat/companiontransient.json#262:col_2` | Decisione dell'utente, verificata sulle battute originali di Sarisha ed Eshana: seguire la stessa convenzione degli Sahagin. |
+| Ondo: sibilanti allungate | sss | `@review/dialogue/npcyell.json#8552:original` | Resa attestata nelle battute degli Ondo del Tempest; conservare il segnale quando è presente nella fonte. |
+| Ixal: featherless one(s) | implume / implumi | `@review/activities/instancecontenttextdata.json#13005:original` | Appellativo rivolto a chi non ha piume; mantenere la voce inversa degli Ixal quando è marcata, senza rendere il testo oscuro. |
+| kupo | kupò | `@review/dialogue/defaulttalk.json#592316:name` | Controllo automatico: intercalare. Per l'intercalare pronunciato usare la grafia «kupò»; parole citate, composti e nomi propri come «noce kupo» e «Uccell-kupo» restano invariati. |
+| Vath: click / clack | clic / clac | `@review/dialogue/balloon.json#5293:original` | Tradurre come segnali sonori quando sono testo visibile; non trattarli come tag SeString. |
+| Namazu: yes, yes / no, no | sì, sì / no, no | `@review/crafting/fishparameter.json#1246:name` | Conservare la ripetizione entusiasta se presente nella battuta; non aggiungere particelle a frasi che non la contengono. |
+| Vanu Vanu: netherling | forestiero | `world/fateevent.json#249:name` | Appellativo per chi viene da fuori; mantenere la forma coerente con genere e numero della frase, senza renderlo «creatura infernale». |
 
 ### Luoghi
 
@@ -666,16 +737,19 @@ Le voci identificano strutture, aree, visioni, missioni e mammets del Rifugio In
 | Inglese | Italiano | Fonte | Uso |
 | --- | --- | --- | --- |
 | Baderon Tenfingers | Baderon Diecidita | Decisione dell'utente | Soprannome composto: conserva il nome proprio Baderon e traduce «Tenfingers». Riferimento: `world/enpcresident.json#1011882:translation_name`. |
+| Chirpy Chocobo | Chocobo Cinguettante | Decisione dell'utente | Mascotte dei festeggiamenti (fête) della Ricostruzione di Ishgard («Tosatura dello Yak»). Riferimento: `dialogue/balloon.json#6318:translation`. |
+| Mighty Moogle | Moguri Possente | Decisione dell'utente | Mascotte dei festeggiamenti (fête) della Ricostruzione di Ishgard («Fatti di Stoffa Morbida»). Riferimento: `dialogue/balloon.json#6317:translation`. |
+| Perky Piggy | Porcellino Vispo | Decisione dell'utente | Mascotte dei festeggiamenti (fête) della Ricostruzione di Ishgard («Caccia al Balocco»). Riferimento: `dialogue/balloon.json#6304:translation`. |
 
 ### Eventi e termini di lore
 
 | Inglese | Italiano | Fonte | Uso |
 | --- | --- | --- | --- |
-| The Twelve Archons | i Dodici Arconti | `dialogue/snipetalk.json#48:translation_name` | Eroi della leggenda legata a Hatching-tide; la resa riguarda il gruppo storico. |
-| The Echo | L'Eco | `combat/status.json#42:translation_name` | Nome del potere dei Discendenti. |
-| The Scions of the Seventh Dawn | Eredi della Settima Alba | `world/contentfinderconditiontransient.json#284:translation` | Nome dell'organizzazione; usare la forma estesa al primo riferimento. |
-| primal (in prosa) | primordiale | `activities/deepdungeonmagicstone.json#1:translation_col_3` | Nome comune per un essere evocato; rispettare eventuali etichette di categoria canoniche. |
-| Little Ladies' Day | Little Ladies' Day | `items/cabinetsubcategory.json#12:translation` | Nome della festa stagionale, lasciato in inglese. |
+| The Twelve Archons | i Dodici Arconti | `dialogue/snipetalk.json#48:name` | Eroi della leggenda legata a Hatching-tide; la resa riguarda il gruppo storico. |
+| The Echo | L'Eco | `combat/status.json#42:name` | Nome del potere dei Discendenti. |
+| The Scions of the Seventh Dawn | Eredi della Settima Alba | `world/contentfinderconditiontransient.json#284:original` | Nome dell'organizzazione; usare la forma estesa al primo riferimento. |
+| primal (in prosa) | primordiale | `activities/deepdungeonmagicstone.json#1:col_3` | Nome comune per un essere evocato; rispettare eventuali etichette di categoria canoniche. |
+| Little Ladies' Day | Little Ladies' Day | `items/cabinetsubcategory.json#12:original` | Nome della festa stagionale, lasciato in inglese. |
 | Hatching-tide | Festa delle Uova | Decisione dell'utente | Nome della festa stagionale; riferimento contestuale: `@review/world/enpcresident.json#1011803:translation_name`. |
 | Scholasticate | Il Seminario | Decisione dell'utente | Istituzione di Sant'Endalim; nei ruoli rispettare il minuscolo dell'originale: «docente del seminario», «diacono del seminario». Riferimento: `@review/world/enpcresident.json#1011215:translation_name`. |
 | Starlight Celebration | Celebrazione delle Stelle | Decisione dell'utente | Nome della festa stagionale; riferimento contestuale: `@review/world/enpcresident.json#1010742:translation_name`. |
