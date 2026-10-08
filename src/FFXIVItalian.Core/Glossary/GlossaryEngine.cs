@@ -12,11 +12,64 @@ public class GlossaryComplianceResult
 public class GlossaryEngine
 {
     private static readonly Regex PhysicalDungeonContext = new(
-        @"\b(?:this|that)\s+(?:[\p{L}-]+\s+){0,2}dungeons?\b|\b(?:narrow|dark|abandoned|underground)\s+dungeons?\b|\b(?:enter|entering|exit|exiting|leave|leaving|come and go from)\s+(?:the\s+)?(?:[\p{L}-]+\s+)?dungeons?\b",
+        @"\b(?:this|that)\s+(?:[\p{L}-]+\s+){0,2}dungeons?\b|\b(?:narrow|dark|abandoned|underground)\s+dungeons?\b|\bdungeons?\s+(?:entrance|exit|interior|depths|denizens|inhabitants)\b|\b(?:entrance|exit)\s+(?:to|of)\s+(?:(?:the|this|that)\s+)?dungeons?\b|\b(?:inside|within|in)\s+(?:the|this|that)\s+dungeons?\b(?!\s+finder\b)|\b(?:exit|exiting|leave|leaving)\s+(?:the|this|that)\s+dungeons?\b|\bcome and go from\s+(?:the\s+)?(?:[\p{L}-]+\s+)?dungeons?\b",
         RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
     private static readonly Regex DungeonActivityContext = new(
-        @"\bdungeon-delving\b|\b(?:equipment|quests?|activities|content)\s+and\s+dungeons?\b|\b(?:run|clear|complete|queue for|explore|delve into|delving into)\s+(?:the\s+)?dungeons?\b|\binstanced\s+dungeons?\b",
+        @"\bdungeon-delving\b|\bdungeon finder\b|\b(?:equipment|quests?|activities|content)\s+and\s+dungeons?\b|\b(?:challenge|challenging|rechallenge|rechallenging|run|clear(?:ed)?|complete(?:d)?|queue for|explore|delve into|delving into)\s+(?:(?:the|a|an)\s+)?dungeons?\b|\b(?:variant|criterion|instanced)\s+dungeons?\b|\b(?:enter|entering)\s+dungeons?\s+and\s+other\s+duties\b|\benter\s+(?:(?:the|a|an)\s+)?dungeon\s+as\s+a\s+solo\s+player\b",
         RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+    private static readonly Regex DutyExitVoteContext = new(
+        @"\bend duty\b.*\bmost votes\b.*\b(?:exit|leave the dungeon)\b",
+        RegexOptions.IgnoreCase | RegexOptions.CultureInvariant | RegexOptions.Singleline);
+
+    private static bool UsesExpeditionForPhysicalDungeon(string originalEn, string translatedIt)
+    {
+        bool deicticPlace = Regex.IsMatch(originalEn,
+            @"\b(?:this|that)\s+(?:[\p{L}-]+\s+){0,2}dungeons?\b",
+            RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+        if (deicticPlace && Regex.IsMatch(translatedIt,
+                @"\b(?:questa|questo|quella|quello|queste|questi)\s+spedizion\w*\b",
+                RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
+            return true;
+
+        bool physicalThreshold = Regex.IsMatch(originalEn,
+            @"\bdungeons?\s+(?:entrance|exit|interior|depths|denizens|inhabitants)\b|\b(?:entrance|exit)\s+(?:to|of)\s+(?:(?:the|this|that)\s+)?dungeons?\b",
+            RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+        if (physicalThreshold && Regex.IsMatch(translatedIt,
+                @"\b(?:ingresso|entrata|uscita|interno|profondit\w*|abitanti|creature)\s+(?:della|dello|del|delle|degli|dei|dell['’])\s+spedizion\w*\b",
+                RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
+            return true;
+
+        bool physicalExit = Regex.IsMatch(originalEn,
+            @"\b(?:exit|exiting|leave|leaving)\s+(?:the|this|that)\s+dungeons?\b",
+            RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+        if (physicalExit && Regex.IsMatch(translatedIt,
+                @"\b(?:esci|uscire|uscendo|lascia|lasci|lasciare|abbandona|abbandonare)\b[^.!?]{0,60}\bspedizion\w*\b",
+                RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
+            return true;
+
+        bool physicalInterior = Regex.IsMatch(originalEn,
+            @"\b(?:inside|within|in)\s+(?:the|this|that)\s+dungeons?\b",
+            RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+        if (physicalInterior && Regex.IsMatch(translatedIt,
+                @"\b(?:dentro|all['’]interno|nel|nello|nella|nei|nelle)\b[^.!?]{0,60}\bspedizion\w*\b",
+                RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
+            return true;
+
+        bool descriptivePlace = Regex.IsMatch(originalEn,
+            @"\b(?:narrow|dark|abandoned|underground)\s+dungeons?\b",
+            RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+        return descriptivePlace && Regex.IsMatch(translatedIt,
+            @"\bspedizion\w*[^.!?]{0,30}\b(?:strett\w*|bu[iy]\w*|oscur\w*|abbandonat\w*|sotterrane\w*)\b|\b(?:strett\w*|bu[iy]\w*|oscur\w*|abbandonat\w*|sotterrane\w*)\b[^.!?]{0,30}\bspedizion\w*\b",
+            RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+    }
+
+    private string RemoveCanonicalSubterranePlaceNames(string originalEn, string translatedIt)
+    {
+        foreach (var place in _canonicalSubterranePlaceNames)
+            if (place.Source.IsMatch(originalEn))
+                translatedIt = place.Target.Replace(translatedIt, "");
+        return translatedIt;
+    }
 
     private sealed record TermGroup(string Term, string[] Variants, string RuleId, Regex? Pattern, bool EquipmentOnly, bool RoleSuffixOnly);
 
@@ -42,6 +95,7 @@ public class GlossaryEngine
     };
     private readonly List<GlossaryEntry> _entries = [];
     private readonly Dictionary<string, (string Italian, string Reference)> _placeNames = new(StringComparer.OrdinalIgnoreCase);
+    private List<(Regex Source, Regex Target)> _canonicalSubterranePlaceNames = [];
     private ValidationIndex? _validationIndex;
     public IReadOnlyList<GlossaryEntry> Entries => _entries;
 
@@ -62,6 +116,29 @@ public class GlossaryEngine
             if (variants.Length == 1 && !string.IsNullOrWhiteSpace(variants[0]))
                 _placeNames[group.Key] = (variants[0], $"world/placename.json#{group.First().RowId}:name");
         }
+
+        var placeNamePatterns = new List<(Regex Source, Regex Target)>();
+        foreach (var place in _placeNames.Where(place =>
+                     place.Key.Contains("Subterrane", StringComparison.OrdinalIgnoreCase) &&
+                     place.Value.Italian.Contains("sotterrane", StringComparison.OrdinalIgnoreCase)))
+        {
+            var sourceForms = new[]
+            {
+                place.Key,
+                Regex.Replace(place.Key, @"^(?:the|another|a)\s+", "", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant)
+            }.Distinct(StringComparer.OrdinalIgnoreCase);
+            var targetForms = new[]
+            {
+                place.Value.Italian,
+                Regex.Replace(place.Value.Italian, @"^(?:il|lo|la|i|gli|le)\s+", "", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant)
+            }.Distinct(StringComparer.OrdinalIgnoreCase);
+            string sourcePattern = string.Join("|", sourceForms.OrderByDescending(form => form.Length).Select(Regex.Escape));
+            string targetPattern = string.Join("|", targetForms.OrderByDescending(form => form.Length).Select(Regex.Escape));
+            placeNamePatterns.Add((
+                new Regex($@"(?<![\p{{L}}])(?:{sourcePattern})(?![\p{{L}}])", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant | RegexOptions.Compiled),
+                new Regex($@"(?<![\p{{L}}])(?:{targetPattern})(?![\p{{L}}])", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant | RegexOptions.Compiled)));
+        }
+        _canonicalSubterranePlaceNames = placeNamePatterns;
     }
 
     public GlossaryComplianceResult ValidateTranslation(string originalEn, string translatedIt, string? sourceContext = null, bool checkActivityCategories = true)
@@ -94,13 +171,17 @@ public class GlossaryEngine
         var translatedOutsideQuotedNames = Regex.Replace(translatedIt, "[“‘\\\"].*?[”’\\\"]", "");
         if (checkActivityCategories)
         {
-            bool physicalDungeon = PhysicalDungeonContext.IsMatch(originalOutsideQuotedNames);
-            bool dungeonActivity = !physicalDungeon && DungeonActivityContext.IsMatch(originalOutsideQuotedNames);
-            if (physicalDungeon && Regex.IsMatch(translatedOutsideQuotedNames, @"\bspedizion\w*\b", RegexOptions.IgnoreCase))
+            // This phrase is a proper orchestrion track title, not a generic dungeon reference.
+            var sourceCategoryText = Regex.Replace(originalOutsideQuotedNames, @"Battle in the Dungeon(?:\s+#\d+)?", "", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+            var targetCategoryText = Regex.Replace(translatedOutsideQuotedNames, @"Battaglia nel dungeon(?:\s+#\d+)?", "", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+            bool dutyExitVote = DutyExitVoteContext.IsMatch(originalEn);
+            bool physicalDungeon = !dutyExitVote && PhysicalDungeonContext.IsMatch(sourceCategoryText);
+            bool dungeonActivity = dutyExitVote || (!physicalDungeon && DungeonActivityContext.IsMatch(sourceCategoryText));
+            if (physicalDungeon && UsesExpeditionForPhysicalDungeon(sourceCategoryText, targetCategoryText))
                 result.Warnings.Add("Dungeon indica un luogo fisico in questo contesto; usare una forma di «sotterraneo», non «spedizione».");
-            else if (physicalDungeon && Regex.IsMatch(translatedOutsideQuotedNames, @"\bdungeons?\b", RegexOptions.IgnoreCase))
+            else if (physicalDungeon && Regex.IsMatch(targetCategoryText, @"\bdungeons?\b", RegexOptions.IgnoreCase))
                 result.Warnings.Add("Dungeon indica un luogo fisico in questo contesto; tradurre con una forma di «sotterraneo».");
-            else if (dungeonActivity && Regex.IsMatch(translatedOutsideQuotedNames, @"\bsotterrane\w*\b", RegexOptions.IgnoreCase))
+            else if (dungeonActivity && Regex.IsMatch(RemoveCanonicalSubterranePlaceNames(sourceCategoryText, targetCategoryText), @"\bsotterrane\w*\b", RegexOptions.IgnoreCase))
                 result.Warnings.Add("Dungeon indica un'attività in questo contesto; usare una forma di «spedizione», non «sotterraneo».");
 
             foreach (var term in new[] { "dungeon", "raid", "trial", "guildhest", "levequest", "subquest" })
@@ -109,9 +190,9 @@ public class GlossaryEngine
                 if (index.ApprovedItalianLoanwords.Contains(term)) continue;
                 var pattern = $@"\b{term}s?\b";
                 // These are proper titles, even though they contain category words.
-                var sourceText = originalOutsideQuotedNames.Replace("Trials of the Braves", "", StringComparison.OrdinalIgnoreCase)
+                var sourceText = sourceCategoryText.Replace("Trials of the Braves", "", StringComparison.OrdinalIgnoreCase)
                     .Replace("Dungeons of Lyhe Ghiah", "", StringComparison.OrdinalIgnoreCase);
-                var targetText = translatedOutsideQuotedNames.Replace("Trials of the Braves", "", StringComparison.OrdinalIgnoreCase)
+                var targetText = targetCategoryText.Replace("Trials of the Braves", "", StringComparison.OrdinalIgnoreCase)
                     .Replace("Dungeons of Lyhe Ghiah", "", StringComparison.OrdinalIgnoreCase);
                 if (Regex.IsMatch(sourceText, pattern) &&
                     Regex.IsMatch(targetText, pattern) &&

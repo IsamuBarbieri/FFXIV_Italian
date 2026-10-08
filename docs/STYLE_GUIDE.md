@@ -4,7 +4,7 @@ Questo documento definisce i principi editoriali, la gestione dei registri dei p
 
 La fonte canonica di riferimento terminologico è costituita da `data/glossary/Glossary.md`.
 
-Per le categorie di attività usa le equivalenze raccolte nel glossario: Missione, Missione secondaria, Incarico, Mandato, Prova, Incursione, Spedizione, Cripta Profonda, Operazione di Gilda e FATE. In particolare, *Dungeon* come attività istanziata è **Spedizione**; se indica il luogo fisico in cui si entra, si esce o ci si muove, è **sotterraneo**. Mantieni distinti attività, luoghi fisici, nomi propri e usi comuni.
+Per le categorie di attività usa le equivalenze raccolte nel glossario: Missione, Missione secondaria, Incarico, Mandato, Prova, Incursione, Spedizione, Cripta Profonda, Operazione di Gilda e FATE. In particolare, *Dungeon* come attività istanziata è **Spedizione**; se descrive l'ambiente fisico, per esempio l'ingresso o l'interno, è **sotterraneo**. Le funzioni di gioco che concludono un Incarico e fanno uscire dal dungeon si riferiscono all'attività e usano «spedizione». Mantieni distinti attività, luoghi fisici, nomi propri e usi comuni.
 
 ---
 

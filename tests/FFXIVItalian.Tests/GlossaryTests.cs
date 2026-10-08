@@ -82,6 +82,36 @@ public class GlossaryTests
             "No one comes and goes from this dungeon without permission.",
             "Nessuno può entrare o uscire da questo sotterraneo senza permesso.").IsCompliant);
         Assert.False(_catalog.Engine.ValidateTranslation(
+            "You can enter a variant dungeon via the V&C Dungeon Finder and interact with the dungeon entrance.",
+            "Puoi accedere a una spedizione variante dalla Ricerca Spedizioni V&C e interagire con l'ingresso della spedizione.").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation(
+            "You can enter a variant dungeon via the V&C Dungeon Finder and interact with the dungeon entrance.",
+            "Puoi accedere a una spedizione variante dalla Ricerca Spedizioni V&C e interagire con l'ingresso del sotterraneo.").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation(
+            "Enter dungeons and other duties via the Duty Finder.",
+            "Accedi a spedizioni e altri incarichi tramite la Ricerca Incarichi.").IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation(
+            "Enter dungeons and other duties via the Duty Finder.",
+            "Accedi a sotterranei e altri incarichi tramite la Ricerca Incarichi.").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation(
+            "These actions are available during the dungeon and can be changed in the Dungeon Finder window.",
+            "Queste azioni sono disponibili durante la spedizione e modificabili dalla finestra Ricerca Spedizioni V&C.").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation(
+            "Complete the criterion dungeon Another Sil'dihn Subterrane.",
+            "Completa la spedizione criterio «Altri Sotterranei di Sil'dih».").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation(
+            "Battle in the Dungeon orchestrion roll",
+            "Battaglia nel dungeon rullo orchestrion").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation(
+            "Save your progress and leave the dungeon. Speak with the expedition bishop.",
+            "Salva i progressi e lascia il sotterraneo. Parla con il vescovo della spedizione.").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation(
+            "“End duty.” has received the most votes. Proceed to the exit to leave the dungeon.",
+            "«Termina incarico» ha ricevuto più voti. Raggiungi l'uscita per lasciare la spedizione.").IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation(
+            "“End duty.” has received the most votes. Proceed to the exit to leave the dungeon.",
+            "«Termina incarico» ha ricevuto più voti. Raggiungi l'uscita per lasciare il sotterraneo.").IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation(
             "You spend most of your time traipsing about dark dungeons.",
             "Passi la maggior parte del tempo nelle spedizioni più oscure.").IsCompliant);
         Assert.True(_catalog.Engine.ValidateTranslation(

@@ -118,7 +118,7 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Raids | Incursioni | `system/addon.json#8609:original` | Singolare: Incursione; attività istanziata. |
 | Dungeons | Spedizioni | `system/addon.json#8335:original` | Attività istanziata; al singolare: Spedizione. Per il luogo fisico usare Sotterraneo, secondo il contesto. |
 | Dungeon | Spedizione | Decisione dell'utente | Etichetta dell'attività istanziata. |
-| Dungeon (physical place) | Sotterraneo | Decisione dell'utente | Luogo fisico: usare «sotterraneo» quando si parla di entrare, uscire o muoversi nel dungeon; non applicare la resa dell'attività. |
+| Dungeon (physical place) | Sotterraneo | Decisione dell'utente | Luogo fisico: usare «sotterraneo» in riferimenti espliciti all'ambiente, come «this dungeon», l'ingresso o l'interno. Le funzioni che concludono un Incarico, per esempio la votazione per terminare e lasciare il dungeon, si riferiscono all'attività e usano «spedizione». Il validatore confronta i riferimenti con la frase tradotta, senza segnalare «spedizione» usato correttamente altrove nello stesso testo. |
 | Deep Dungeon | Cripta Profonda | `system/addon.json#2304:original` | Tipo distinto di attività. Varianti ammesse in prosa: «cripta profonda», «cripte profonde», rispettando le maiuscole della frase. |
 | Guildhests | Operazioni di Gilda | `system/addon.json#3165:original` | Singolare: Operazione di Gilda. |
 | FATE | FATE | `system/addon.json#5768:original` | Sigla invariabile. |
