@@ -4,7 +4,7 @@ Questo documento definisce i principi editoriali, la gestione dei registri dei p
 
 La fonte canonica di riferimento terminologico è costituita da `data/glossary/Glossary.md`.
 
-Per le categorie di attività usa le equivalenze raccolte nel glossario: Missione, Missione secondaria, Incarico, Mandato, Prova, Incursione, Spedizione, Cripta Profonda, Operazione di Gilda e FATE. Mantieni distinti i tipi di attività. Applica la regola al significato di gioco, non ai nomi propri o agli usi comuni delle stesse parole inglesi.
+Per le categorie di attività usa le equivalenze raccolte nel glossario: Missione, Missione secondaria, Incarico, Mandato, Prova, Incursione, Spedizione, Cripta Profonda, Operazione di Gilda e FATE. In particolare, *Dungeon* come attività istanziata è **Spedizione**; se indica il luogo fisico in cui si entra, si esce o ci si muove, è **sotterraneo**. Mantieni distinti attività, luoghi fisici, nomi propri e usi comuni.
 
 ---
 
@@ -43,14 +43,17 @@ Quando si allinea un termine al glossario (o durante una correzione terminologic
 - *Officine Ferrocielo* è plurale: **dalle Officine Ferrocielo** (MAI *«dalla Officine»*).
 - *Cratere delle Braci* è maschile: **al Cratere delle Braci** (MAI *«alla Cratere»*).
 - *Prove di Bardam* richiede l'articolo articolato: **alle Prove di Bardam** (MAI *«a Prove di Bardam»*).
+- *Tomestone* è femminile: **la tua tavoletta**, **tavoletta allagana**, **tavolette allagane**. Quando il termine sostituisce un nome in una frase, correggi anche articolo, possessivo, aggettivo, numero e verbo.
 
 ### Regola E: Nomi propri dei Loporrit invariati
-Tutti i nomi propri dei Loporrit che terminano in *-way* (*Livingway, Growingway, Cookingway, Mappingway, Piercingway, Fusingway, Searchingway, Reportingway*, ecc.) sono nomi propri invariabili e **non si traducono mai** (vietato tradurre "-way" in "-via", es. vietato *«Trafiggivia»* o *«Fondivia»*). Le strutture a essi intitolate mantengono il nome proprio invariato: **la Galleria di Piercingway**, **il Condotto di Fusingway**.
+Tutti i nomi propri dei Loporrit che terminano in *-way* (*Livingway, Growingway, Cookingway, Mappingway, Piercingway, Fusingway, Searchingway, Reportingway*, ecc.) sono nomi propri invariabili e **non si traducono mai** (vietato tradurre "-way" in "-via", es. vietato *«Trafiggivia»* o *«Fondivia»*). Come campo nome, usa **Galleria di Piercingway** senza aggiungere l'articolo assente nell'originale; nella prosa inseriscilo solo se richiesto dalla sintassi italiana. Usa **Condotto di Fusingway** con lo stesso criterio.
 
 ### Regola F: Nessun prestito orfano e coerenza tra campi
 Non lasciare mai parole o frammenti in inglese residui nei testi tradotti (es. *plate* al posto di *piastra* nelle spiegazioni dei comandi o delle finestre). Inoltre, garantisci sempre la coerenza interna tra nome dell'oggetto e descrizione nei file come `buddyequip.json` o `item.json`.
 
 Per gli oggetti, controlla ogni campo tradotto insieme al proprio originale: nome, descrizione, categoria e titolo possono richiedere forme diverse. Fai concordare articoli, aggettivi e plurali con il nome italiano (*gladio obsoleto / spatha obsoleta*; *chiave della Porta*, non «chiavi del Porta»). Nei composti di materiali evita la ripetizione involontaria di «di» (*grimorio in pelle di lupo*) e applica le forme del glossario anche nelle descrizioni. Le maiuscole dei nomi visualizzati seguono il campo e l'originale: non trasformare una forma minuscola di prosa in un titolo.
+
+Le correzioni automatiche sono ammesse solo quando l'intera frase sorgente coincide con una frase approvata. Per un termine inserito in una frase più ampia, il validatore segnala un candidato: rileggi originale e traduzione, poi adatta la resa al contesto e alla grammatica. Il validatore non applica sostituzioni ai file.
 
 ### Parlato delle Società Alleate e dei popoli affini
 

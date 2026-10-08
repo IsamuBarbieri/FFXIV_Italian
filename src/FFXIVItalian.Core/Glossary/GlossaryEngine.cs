@@ -11,7 +11,14 @@ public class GlossaryComplianceResult
 
 public class GlossaryEngine
 {
-    private sealed record TermGroup(string Term, string[] Variants, string RuleId, Regex? Pattern, bool EquipmentOnly);
+    private static readonly Regex PhysicalDungeonContext = new(
+        @"\b(?:this|that)\s+(?:[\p{L}-]+\s+){0,2}dungeons?\b|\b(?:narrow|dark|abandoned|underground)\s+dungeons?\b|\b(?:enter|entering|exit|exiting|leave|leaving|come and go from)\s+(?:the\s+)?(?:[\p{L}-]+\s+)?dungeons?\b",
+        RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+    private static readonly Regex DungeonActivityContext = new(
+        @"\bdungeon-delving\b|\b(?:equipment|quests?|activities|content)\s+and\s+dungeons?\b|\b(?:run|clear|complete|queue for|explore|delve into|delving into)\s+(?:the\s+)?dungeons?\b|\binstanced\s+dungeons?\b",
+        RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+
+    private sealed record TermGroup(string Term, string[] Variants, string RuleId, Regex? Pattern, bool EquipmentOnly, bool RoleSuffixOnly);
 
     private sealed record ValidationIndex(
         Dictionary<string, TermGroup> ExactTerms,
@@ -57,7 +64,7 @@ public class GlossaryEngine
         }
     }
 
-    public GlossaryComplianceResult ValidateTranslation(string originalEn, string translatedIt, string? sourceContext = null)
+    public GlossaryComplianceResult ValidateTranslation(string originalEn, string translatedIt, string? sourceContext = null, bool checkActivityCategories = true)
     {
         var result = new GlossaryComplianceResult();
         if (string.IsNullOrWhiteSpace(originalEn) || string.IsNullOrWhiteSpace(translatedIt)) return result;
@@ -83,19 +90,34 @@ public class GlossaryEngine
         if (Regex.IsMatch(originalEn, @"\bFATEs?\b", RegexOptions.IgnoreCase) &&
             translatedIt.Contains("F.A.T.E.", StringComparison.OrdinalIgnoreCase))
             result.Warnings.Add("Sigla FATE: usare FATE senza punti.");
-        foreach (var term in new[] { "dungeon", "raid", "trial", "guildhest", "levequest", "subquest" })
+        var originalOutsideQuotedNames = Regex.Replace(originalEn, "[“‘\\\"].*?[”’\\\"]", "");
+        var translatedOutsideQuotedNames = Regex.Replace(translatedIt, "[“‘\\\"].*?[”’\\\"]", "");
+        if (checkActivityCategories)
         {
-            if (index.ApprovedItalianLoanwords.Contains(term)) continue;
-            var pattern = $@"\b{term}s?\b";
-            // These are proper titles, even though they contain category words.
-            var sourceText = originalEn.Replace("Trials of the Braves", "", StringComparison.OrdinalIgnoreCase)
-                .Replace("Dungeons of Lyhe Ghiah", "", StringComparison.OrdinalIgnoreCase);
-            var targetText = translatedIt.Replace("Trials of the Braves", "", StringComparison.OrdinalIgnoreCase)
-                .Replace("Dungeons of Lyhe Ghiah", "", StringComparison.OrdinalIgnoreCase);
-            if (Regex.IsMatch(sourceText, pattern) &&
-                Regex.IsMatch(targetText, pattern) &&
-                !originalEn.Trim().Equals(term, StringComparison.OrdinalIgnoreCase))
-                result.Warnings.Add($"Possibile categoria ancora in inglese: '{term}' (verificare nomi propri e comandi).");
+            bool physicalDungeon = PhysicalDungeonContext.IsMatch(originalOutsideQuotedNames);
+            bool dungeonActivity = !physicalDungeon && DungeonActivityContext.IsMatch(originalOutsideQuotedNames);
+            if (physicalDungeon && Regex.IsMatch(translatedOutsideQuotedNames, @"\bspedizion\w*\b", RegexOptions.IgnoreCase))
+                result.Warnings.Add("Dungeon indica un luogo fisico in questo contesto; usare una forma di «sotterraneo», non «spedizione».");
+            else if (physicalDungeon && Regex.IsMatch(translatedOutsideQuotedNames, @"\bdungeons?\b", RegexOptions.IgnoreCase))
+                result.Warnings.Add("Dungeon indica un luogo fisico in questo contesto; tradurre con una forma di «sotterraneo».");
+            else if (dungeonActivity && Regex.IsMatch(translatedOutsideQuotedNames, @"\bsotterrane\w*\b", RegexOptions.IgnoreCase))
+                result.Warnings.Add("Dungeon indica un'attività in questo contesto; usare una forma di «spedizione», non «sotterraneo».");
+
+            foreach (var term in new[] { "dungeon", "raid", "trial", "guildhest", "levequest", "subquest" })
+            {
+                if (term == "dungeon" && (physicalDungeon || dungeonActivity)) continue;
+                if (index.ApprovedItalianLoanwords.Contains(term)) continue;
+                var pattern = $@"\b{term}s?\b";
+                // These are proper titles, even though they contain category words.
+                var sourceText = originalOutsideQuotedNames.Replace("Trials of the Braves", "", StringComparison.OrdinalIgnoreCase)
+                    .Replace("Dungeons of Lyhe Ghiah", "", StringComparison.OrdinalIgnoreCase);
+                var targetText = translatedOutsideQuotedNames.Replace("Trials of the Braves", "", StringComparison.OrdinalIgnoreCase)
+                    .Replace("Dungeons of Lyhe Ghiah", "", StringComparison.OrdinalIgnoreCase);
+                if (Regex.IsMatch(sourceText, pattern) &&
+                    Regex.IsMatch(targetText, pattern) &&
+                    !originalEn.Trim().Equals(term, StringComparison.OrdinalIgnoreCase))
+                    result.Warnings.Add($"Possibile categoria ancora in inglese: '{term}' (verificare nomi propri e comandi).");
+            }
         }
 
         bool hasExactTerm = index.ExactTerms.TryGetValue(trimmedOriginal, out var exactTerm);
@@ -105,27 +127,47 @@ public class GlossaryEngine
         // Other longer glossary terms can still occur inside an exact source label.
         foreach (var group in index.ResidualTerms)
         {
-            if (group.EquipmentOnly &&
+            if ((group.EquipmentOnly || group.RoleSuffixOnly) &&
                 (normalizedContext is null ||
                  !(normalizedContext.Equals("items/item.json", StringComparison.OrdinalIgnoreCase) ||
                    normalizedContext.EndsWith("/items/item.json", StringComparison.OrdinalIgnoreCase))))
                 continue;
             if (hasExactTerm && group.Term.Equals(trimmedOriginal, StringComparison.OrdinalIgnoreCase)) continue;
-            if (group.Pattern!.IsMatch(originalEn) && group.Pattern.IsMatch(translatedIt))
+            if (group.Pattern!.IsMatch(originalOutsideQuotedNames) && group.Pattern.IsMatch(translatedOutsideQuotedNames))
                 result.Warnings.Add($"Termine inglese ancora presente: '{group.Term}' → {string.Join(" / ", group.Variants)} (fonte: {group.RuleId}).");
         }
-        var originalOutsideQuotedNames = Regex.Replace(originalEn, "[“‘\\\"].*?[”’\\\"]", "");
-        var translatedOutsideQuotedNames = Regex.Replace(translatedIt, "[“‘\\\"].*?[”’\\\"]", "");
+
+        bool sourceHasTomestonesPlural = Regex.IsMatch(originalOutsideQuotedNames, @"\btomestones\b", RegexOptions.IgnoreCase) &&
+            !Regex.IsMatch(originalOutsideQuotedNames, @"\btomestone\b", RegexOptions.IgnoreCase);
+        if (sourceHasTomestonesPlural && Regex.IsMatch(translatedOutsideQuotedNames, @"\btavoletta\b", RegexOptions.IgnoreCase) &&
+            !Regex.IsMatch(translatedOutsideQuotedNames, @"\btavolette\b", RegexOptions.IgnoreCase))
+            result.Warnings.Add("Tomestones è plurale in originale: verificare che «tavoletta» non sia al singolare.");
+        if (Regex.IsMatch(translatedOutsideQuotedNames,
+                @"\b(?:il|lo|un|questo|quello|al|nel|sul|dal|del|dello)\s+(?:(?:tuo|suo|mio|nostro|vostro)\s+)?tavoletta\b|\btavoletta\s+allagano\b",
+                RegexOptions.IgnoreCase))
+            result.Warnings.Add("Accordo di genere errato per «tavoletta»: verificare articolo, possessivo e aggettivi al femminile.");
+        if (Regex.IsMatch(translatedOutsideQuotedNames, @"\btavoletta\b.{0,400}\bpuò essere scambiato\b|\btavoletta\b.{0,60}\b(?:trovati|ottenuti|scambiati|conservati)\b", RegexOptions.IgnoreCase) ||
+            Regex.IsMatch(translatedOutsideQuotedNames, @"\b(?:micro)?tavolette\b.{0,60}\b(?:piccoli|ricercati|scambiati|trovati|ottenuti|conservati)\b", RegexOptions.IgnoreCase))
+            result.Warnings.Add("Possibile errore di accordo con «tavoletta»: controllare genere e numero di participi e aggettivi.");
         if (index.HasDutyIncarico &&
             !originalEn.Trim().Equals("Duty", StringComparison.OrdinalIgnoreCase) &&
-            !originalEn.Trim().Equals("Duties", StringComparison.OrdinalIgnoreCase) &&
-            Regex.IsMatch(originalOutsideQuotedNames, @"\bdut(?:y|ies)\b", RegexOptions.IgnoreCase) &&
-            !originalOutsideQuotedNames.Contains("Duty calls", StringComparison.OrdinalIgnoreCase))
+            !originalEn.Trim().Equals("Duties", StringComparison.OrdinalIgnoreCase))
         {
-            if (Regex.IsMatch(translatedOutsideQuotedNames, @"\bdut(?:y|ies)\b", RegexOptions.IgnoreCase))
+            string[] sourceSegments = Regex.Split(originalOutsideQuotedNames, @"(?i)<hex:02100103>");
+            string[] translatedSegments = Regex.Split(translatedOutsideQuotedNames, @"(?i)<hex:02100103>");
+            bool hasDutySegment = sourceSegments.Length == translatedSegments.Length &&
+                sourceSegments.Where((segment, index) =>
+                    Regex.IsMatch(segment, @"\bdut(?:y|ies)\b", RegexOptions.IgnoreCase) &&
+                    !segment.Contains("Duty calls", StringComparison.OrdinalIgnoreCase) &&
+                    Regex.IsMatch(translatedSegments[index], @"\bmission[ei]\b", RegexOptions.IgnoreCase)).Any();
+            bool hasEnglishDutySegment = sourceSegments.Length == translatedSegments.Length &&
+                sourceSegments.Where((segment, index) =>
+                    Regex.IsMatch(segment, @"\bdut(?:y|ies)\b", RegexOptions.IgnoreCase) &&
+                    !segment.Contains("Duty calls", StringComparison.OrdinalIgnoreCase) &&
+                    Regex.IsMatch(translatedSegments[index], @"\bdut(?:y|ies)\b", RegexOptions.IgnoreCase)).Any();
+            if (hasEnglishDutySegment)
                 result.Warnings.Add("'Duty' rimane in inglese; usare Incarico/Incarichi per l'attività di gioco.");
-            if (!Regex.IsMatch(originalEn, @"\b(?:quests?|missions?|dailies)\b", RegexOptions.IgnoreCase) &&
-                Regex.IsMatch(translatedOutsideQuotedNames, @"\bmission[ei]\b", RegexOptions.IgnoreCase))
+            if (!Regex.IsMatch(originalEn, @"\b(?:quests?|missions?|dailies)\b", RegexOptions.IgnoreCase) && hasDutySegment)
                 result.Warnings.Add("'Duty' è reso come Missione; usare Incarico/Incarichi per l'attività di gioco.");
         }
         return result;
@@ -144,14 +186,19 @@ public class GlossaryEngine
                 string matchTerm = Regex.Replace(group.Key, @"\s+\([^()]*\)$", "").Trim();
                 var notes = group.Select(entry => entry.Notes).ToArray();
                 bool checkResidual = notes.Any(note => note.StartsWith("Controllo automatico: residuo", StringComparison.OrdinalIgnoreCase));
+                bool checkPlural = notes.Any(note => note.StartsWith("Controllo automatico: residuo plurale", StringComparison.OrdinalIgnoreCase));
                 bool checkInterjection = notes.Any(note => note.StartsWith("Controllo automatico: intercalare", StringComparison.OrdinalIgnoreCase));
                 bool equipmentOnly = notes.Any(note => note.StartsWith("Controllo automatico: suffisso equipaggiamento", StringComparison.OrdinalIgnoreCase));
+                bool roleSuffixOnly = notes.Any(note => note.StartsWith("Controllo automatico: suffisso ruolo equipaggiamento", StringComparison.OrdinalIgnoreCase));
+                string residualTerm = Regex.Escape(matchTerm).Replace("'", "['’]");
                 Regex? pattern = checkInterjection
                     ? new Regex($@"(?:^|[,;!?]\s*){Regex.Escape(matchTerm)}(?=\s*(?:[!?.,;:]|$))", RegexOptions.IgnoreCase)
-                    : checkResidual || equipmentOnly
-                        ? new Regex($@"(?<![\p{{L}}\p{{N}}/]){Regex.Escape(matchTerm)}(?![\p{{L}}\p{{N}}])", RegexOptions.IgnoreCase)
+                    : roleSuffixOnly
+                        ? new Regex($@"(?<![\p{{L}}\p{{N}}/]){Regex.Escape(matchTerm)}(?=\s*(?:<hex:[^>]+>\s*)*(?:\(IL\s*\d+\))?[.!?]?$)", RegexOptions.IgnoreCase)
+                        : checkResidual || equipmentOnly
+                        ? new Regex($@"(?<![\p{{L}}\p{{N}}/]){residualTerm}{(checkPlural ? "s?" : "")}(?![\p{{L}}\p{{N}}])", RegexOptions.IgnoreCase)
                         : null;
-                return new TermGroup(group.Key, variants, group.First().RuleId, pattern, equipmentOnly);
+                return new TermGroup(group.Key, variants, group.First().RuleId, pattern, equipmentOnly || roleSuffixOnly, roleSuffixOnly);
             })
             .ToArray();
 
@@ -174,10 +221,9 @@ public class GlossaryEngine
             foreach (var variant in entry.ItalianTerm.Split(" / ", StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries))
                 yield return variant;
 
-            const string marker = "Varianti ammesse in prosa:";
-            int start = entry.Notes.IndexOf(marker, StringComparison.OrdinalIgnoreCase);
-            if (start < 0) continue;
-            foreach (Match match in Regex.Matches(entry.Notes[start..], @"«([^»]+)»"))
+            var marker = Regex.Match(entry.Notes, @"variant[ei]\s+ammess[ae][^:]*:\s*", RegexOptions.IgnoreCase);
+            if (!marker.Success) continue;
+            foreach (Match match in Regex.Matches(entry.Notes[marker.Index..], @"«([^»]+)»"))
                 yield return match.Groups[1].Value.Trim();
         }
     }

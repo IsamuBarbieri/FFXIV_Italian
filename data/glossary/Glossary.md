@@ -4,7 +4,7 @@ Fonte terminologica per le traduzioni future. Sono approvati i file JSON present
 
 **Catalogo completo dei luoghi:** tutte le 5.302 coppie `name`/`translation` di `data/translations/world/placename.json` fanno parte del glossario, con fonte `world/placename.json#ID:name`. Questo file è il catalogo integrale; la sezione Luoghi qui sotto evidenzia anche le rese canoniche appena uniformate. Le voci che contengono tag richiedono una revisione SeString.
 
-Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine inglese se resta nella traduzione di una frase; `Controllo automatico: suffisso equipaggiamento.` applica lo stesso controllo ai nomi di equipaggiamento in `items/item.json`; `Controllo automatico: intercalare.` controlla l'intercalare parlato preservando composti come «noce kupo».
+Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine inglese se resta nella traduzione di una frase; `Controllo automatico: residuo plurale.` controlla anche il plurale inglese in `-s`; `Controllo automatico: suffisso equipaggiamento.` applica il controllo ai termini di materiali e provenienza in `items/item.json`; `Controllo automatico: suffisso ruolo equipaggiamento.` verifica i suffissi di ruolo solo alla fine dei nomi di equipaggiamento; `Controllo automatico: intercalare.` controlla l'intercalare parlato preservando composti come «noce kupo».
 
 ## Voci
 
@@ -116,7 +116,9 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Leves | Mandati | `system/addon.json#8337:original` | Sinonimo di Levequests; varianti ammesse in prosa: «Incarico di [dispositivo]». |
 | Trials | Prove | `system/addon.json#8608:original` | Singolare: Prova; attività istanziata. |
 | Raids | Incursioni | `system/addon.json#8609:original` | Singolare: Incursione; attività istanziata. |
-| Dungeons | Spedizioni | `system/addon.json#8335:original` | Singolare: Spedizione; attività istanziata. |
+| Dungeons | Spedizioni | `system/addon.json#8335:original` | Attività istanziata; al singolare: Spedizione. Per il luogo fisico usare Sotterraneo, secondo il contesto. |
+| Dungeon | Spedizione | Decisione dell'utente | Etichetta dell'attività istanziata. |
+| Dungeon (physical place) | Sotterraneo | Decisione dell'utente | Luogo fisico: usare «sotterraneo» quando si parla di entrare, uscire o muoversi nel dungeon; non applicare la resa dell'attività. |
 | Deep Dungeon | Cripta Profonda | `system/addon.json#2304:original` | Tipo distinto di attività. Varianti ammesse in prosa: «cripta profonda», «cripte profonde», rispettando le maiuscole della frase. |
 | Guildhests | Operazioni di Gilda | `system/addon.json#3165:original` | Singolare: Operazione di Gilda. |
 | FATE | FATE | `system/addon.json#5768:original` | Sigla invariabile. |
@@ -152,7 +154,7 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Treasure Hunt | Caccia al Tesoro | `system/addon.json#2276:original` | Modalità di gioco; distinguere dall'uso comune; varianti ammesse in prosa: «Caccia al tesoro», «caccia al tesoro». |
 | Journal | Diario di Viaggio | `system/addon.json#450:original` | Nome del menu. |
 | Journal | Diario | `system/addon.json#593:original` | Etichetta breve. |
-| All | Tutti | `system/addon.json#970:original` | Insieme di elementi. |
+| All | Tutti | `system/addon.json#970:original` | Insieme di elementi; variante ammessa in prosa: «Tutte». |
 | All | Tutto | `system/howtocategory.json#1:original` | Categoria tutorial. |
 | Battle | Combattimento | `system/howtocategory.json#4:original` | Categoria tutorial. |
 | Crafting | Artigianato | `system/howtocategory.json#12:original` | Categoria tutorial. |
@@ -407,18 +409,18 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 
 | Inglese | Italiano | Fonte | Uso |
 | --- | --- | --- | --- |
-| of Fending | della Difesa | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Suffisso per l'equipaggiamento da difensore (Tank). Sostituisce «da difensore» e «di difesa». |
-| of Maiming | della Lacerazione | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Suffisso per l'equipaggiamento da assaltatore pesante (Dragoon / Reaper). |
-| of Slaying | della Furia | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Suffisso per l'equipaggiamento/accessori da mischia (Strength DPS). Sostituisce «da attacco». |
-| of Striking | dell'Impeto | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Suffisso per l'equipaggiamento da mischia corpo a corpo (Monk / Samurai). Sostituisce «da combattimento». |
-| of Scouting | dell'Incursione | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Suffisso per l'equipaggiamento da ricognizione/incursione (Ninja / Viper). Sostituisce «da esploratore». |
-| of Aiming | della Mira | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Suffisso per l'equipaggiamento da attaccante fisico a distanza (Physical Ranged DPS). Sostituisce «da mira». |
-| of Casting | dell'Arcano | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Suffisso per l'equipaggiamento da incantatore (Magic Ranged DPS). Sostituisce «da incantatore» e «per il lancio di incantesimi». |
-| of Healing | della Cura | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Suffisso per l'equipaggiamento da curatore (Healer). Sostituisce «di guarigione» e «da guaritore». |
-| of War | della Guerra | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Suffisso per l'equipaggiamento generico dei Discepoli della Guerra (Disciples of War). |
-| of Magic | della Magia | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Suffisso per l'equipaggiamento generico dei Discepoli della Magia (Disciples of Magic). |
-| of Crafting | della Creazione | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Suffisso per l'equipaggiamento dei Discepoli della Mano (Disciples of the Hand). Sostituisce «da sintesi». |
-| of Gathering | della Raccolta | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Suffisso per l'equipaggiamento dei Discepoli della Terra (Disciples of the Land). Sostituisce «da raccolta». |
+| of Fending | della Difesa | Decisione dell'utente | Controllo automatico: suffisso ruolo equipaggiamento. Suffisso per l'equipaggiamento da difensore (Tank). Sostituisce «da difensore» e «di difesa». |
+| of Maiming | della Lacerazione | Decisione dell'utente | Controllo automatico: suffisso ruolo equipaggiamento. Suffisso per l'equipaggiamento da assaltatore pesante (Dragoon / Reaper). |
+| of Slaying | della Furia | Decisione dell'utente | Controllo automatico: suffisso ruolo equipaggiamento. Suffisso per l'equipaggiamento/accessori da mischia (Strength DPS). Sostituisce «da attacco». |
+| of Striking | dell'Impeto | Decisione dell'utente | Controllo automatico: suffisso ruolo equipaggiamento. Suffisso per l'equipaggiamento da mischia corpo a corpo (Monk / Samurai). Sostituisce «da combattimento». |
+| of Scouting | dell'Incursione | Decisione dell'utente | Controllo automatico: suffisso ruolo equipaggiamento. Suffisso per l'equipaggiamento da ricognizione/incursione (Ninja / Viper). Sostituisce «da esploratore». |
+| of Aiming | della Mira | Decisione dell'utente | Controllo automatico: suffisso ruolo equipaggiamento. Suffisso per l'equipaggiamento da attaccante fisico a distanza (Physical Ranged DPS). Sostituisce «da mira». |
+| of Casting | dell'Arcano | Decisione dell'utente | Controllo automatico: suffisso ruolo equipaggiamento. Suffisso per l'equipaggiamento da incantatore (Magic Ranged DPS). Sostituisce «da incantatore» e «per il lancio di incantesimi». |
+| of Healing | della Cura | Decisione dell'utente | Controllo automatico: suffisso ruolo equipaggiamento. Suffisso per l'equipaggiamento da curatore (Healer). Sostituisce «di guarigione» e «da guaritore». |
+| of War | della Guerra | Decisione dell'utente | Controllo automatico: suffisso ruolo equipaggiamento. Suffisso per l'equipaggiamento generico dei Discepoli della Guerra (Disciples of War). |
+| of Magic | della Magia | Decisione dell'utente | Controllo automatico: suffisso ruolo equipaggiamento. Suffisso per l'equipaggiamento generico dei Discepoli della Magia (Disciples of Magic). |
+| of Crafting | della Creazione | Decisione dell'utente | Controllo automatico: suffisso ruolo equipaggiamento. Suffisso per l'equipaggiamento dei Discepoli della Mano (Disciples of the Hand). Sostituisce «da sintesi». |
+| of Gathering | della Raccolta | Decisione dell'utente | Controllo automatico: suffisso ruolo equipaggiamento. Suffisso per l'equipaggiamento dei Discepoli della Terra (Disciples of the Land). Sostituisce «da raccolta». |
 
 ### Oggetti ed equipaggiamento
 
@@ -447,7 +449,7 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Radiant's (gear) | della Schiera Radiosa | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Set di equipaggiamento della Schiera Radiosa di Thavnair (es. spada bastarda della Schiera Radiosa). |
 | Law's Order | dell'Ordine Giusto | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Set di armi di Bozja (es. spada bastarda dell'Ordine Giusto). |
 | Courtly Lover | dell'Amante Cortese | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Set di armi ed equipaggiamento (es. spada dell'Amante Cortese). |
-| Tomestone | Tavoletta | Decisione dell'utente | Controllo automatico: residuo. Singolare: Tavoletta / la tavoletta; plurale: Tavolette / le tavolette (es. Tavoletta allagana di poetica). Sostituisce «tomestone». |
+| Tomestone | Tavoletta | Decisione dell'utente | Controllo automatico: residuo plurale. Singolare femminile: «la tavoletta allagana»; plurale: «le tavolette allagane». Nei testi, rileggere la frase e adattare articoli, possessivi, aggettivi e verbi; non sostituire il lemma alla cieca. |
 | Wolf Mark | Marchio del Lupo | Decisione dell'utente | Valuta PvP; plurale: Marchi del Lupo (es. 500 Marchi del Lupo). Sostituisce «Contrassegno del Lupo». |
 | Dated (gear) | obsoleto / obsoleta | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Equipaggiamento della versione 1.0 (es. gladio di bronzo obsoleto, spatha di bronzo obsoleta). Sostituisce la dicitura «d'epoca». |
 | Cesti | Tirapugni | Decisione dell'utente | Categoria d'arma per pugile/monaco (es. paio di tirapugni in pelle di dodo). Sostituisce «cesti». |
@@ -612,7 +614,7 @@ Catalogo integrale: `data/translations/world/placename.json`. Cercare il nome in
 
 | Old Sharlayan | Vecchia Sharlayan | `world/placename.json#3705:name` | Nome del luogo. In prosa usare la preposizione semplice: «di Vecchia Sharlayan» o «della Vecchia Sharlayan» (vietato l'uso di «del Vecchia Sharlayan»). |
 | Netroot Radius | Raggio di Radicirete | `crafting/wksdevgrade.json#205:col_3` | Nome del luogo o della struttura. |
-| Piercingway Tunnel | La Galleria di Piercingway | `world/placename.json#5238:name` | Nome del luogo o della struttura. I nomi propri dei Loporrit terminanti in -way restano invariati; struttura femminile («la Galleria di Piercingway», «della Galleria di Piercingway»). |
+| Piercingway Tunnel | Galleria di Piercingway | `world/placename.json#5238:name` | Nome del luogo o della struttura, senza articolo nel campo nome. I nomi propri dei Loporrit terminanti in -way restano invariati; in prosa inserire l'articolo solo quando richiesto dalla sintassi italiana. |
 | The Cosmoor | L'Ormeggio Cosmico | `crafting/wksmissiontext.json#89:original` | Nome del luogo o della struttura. |
 | Zorgor the Boundless | Zorgor lo Sconfinato | `dialogue/gimmickbill.json#90:original` | Nome del luogo o della struttura. |
 | Rhotano Sea | Mare di Rhotano | `world/adventure.json#2162693:col_2` | Nome del luogo o della struttura. |
@@ -647,10 +649,10 @@ Catalogo integrale: `data/translations/world/placename.json`. Cercare il nome in
 | Fusingway Vent | Condotto di Fusingway | `crafting/wkstext.json#16:original` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Fenditura di Fusingway». |
 | Grandma Laurel | Nonna Alloro | `crafting/wkstext.json#29:original` | Nome del luogo o della struttura. Varianti ammesse in prosa: «nonna Laurel». |
 | The Capitol | Il Campidoglio | `dialogue/contenttalk.json#208:original` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Capitale». |
-| The Meso Terminal | Il Meso Terminal | `dialogue/gimmicktalk.json#41:original` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Terminale Meso». |
+| The Meso Terminal | Il Terminale Meso | `world/placename.json#5266:name` | Nome del luogo o della struttura. In prosa si può usare «Terminale Meso» senza articolo quando la sintassi lo consente. |
 | Full Bloom Gardens | Giardini della Piena Fioritura | `dialogue/pointmenu.json#18:original` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Giardini Fioriti». |
 | Tomb of the Nullstone | Tomba della Pietra Nullificante | `minigames/tripletriadcard.json#152:col_2` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Tomba della Pietranulla». |
-| Watts's Anvil | L'Incudine di Watts | `minigames/tripletriadcard.json#296:col_2` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Fucina di Watts». |
+| Watts's Anvil | L'Incudine di Watts | `minigames/tripletriadcard.json#296:col_2` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Fucina di Watts», «Incudine di Watts». |
 | Matoya's Relict | L'Eremo di Matoya | `minigames/tripletriadcard.json#306:col_2` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Relitto di Matoya». |
 | The Promenade | Il Lungomare | `world/adventure.json#2162701:col_2` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Passeggiata». |
 | The Fragrant Chamber | La Camera Profumata | `world/adventure.json#2162701:col_2` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Sala Profumata». |
@@ -689,7 +691,7 @@ I nomi delle condizioni sono distinti dalle forme grammaticali usate nelle descr
 | Thunder | Tuono | `combat/action.json#144:original` | Nome dell'elemento nelle azioni; la condizione meteo usa il plurale «Tuoni». |
 | Thunderstorms | Tempesta di fulmini | `world/weather.json#10:name` |  |
 | Dust Storms | Tempesta di Polvere | `world/weather.json#11:name` |  |
-| Sandstorms | Tempesta di sabbia | `world/weather.json#12:name` |  |
+| Sandstorms | Tempesta di sabbia / Tempeste di sabbia | `world/weather.json#12:name` | Usare il singolare o il plurale secondo la frase. |
 | Hot Spells | Ondata di Caldo | `world/weather.json#13:name` |  |
 | Heat Waves | Ondata di Calore Torrido | `world/weather.json#14:name` |  |
 | Snow | Neve | `world/weather.json#15:name` |  |
@@ -747,9 +749,9 @@ Le voci identificano strutture, aree, visioni, missioni e mammets del Rifugio In
 | --- | --- | --- | --- |
 | The Twelve Archons | i Dodici Arconti | `dialogue/snipetalk.json#48:name` | Eroi della leggenda legata a Hatching-tide; la resa riguarda il gruppo storico. |
 | The Echo | L'Eco | `combat/status.json#42:name` | Nome del potere dei Discendenti. |
-| The Scions of the Seventh Dawn | Eredi della Settima Alba | `world/contentfinderconditiontransient.json#284:original` | Nome dell'organizzazione; usare la forma estesa al primo riferimento. |
+| The Scions of the Seventh Dawn | Eredi della Settima Alba | `world/contentfinderconditiontransient.json#284:original` | Nome dell'organizzazione; usare la forma estesa al primo riferimento. Variante ammessa con articolo: «Gli Eredi della Settima Alba». |
 | primal (in prosa) | primordiale | `activities/deepdungeonmagicstone.json#1:col_3` | Nome comune per un essere evocato; rispettare eventuali etichette di categoria canoniche. |
-| Little Ladies' Day | Little Ladies' Day | `items/cabinetsubcategory.json#12:original` | Nome della festa stagionale, lasciato in inglese. |
+| Little Ladies' Day | Giornata delle Piccole Dame | Decisione dell'utente | Controllo automatico: residuo. Nome della festa stagionale; accordare articoli e preposizioni alla forma femminile «Giornata» (es. «durante la Giornata delle Piccole Dame»). |
 | Hatching-tide | Festa delle Uova | Decisione dell'utente | Nome della festa stagionale; riferimento contestuale: `@review/world/enpcresident.json#1011803:translation_name`. |
 | Scholasticate | Il Seminario | Decisione dell'utente | Istituzione di Sant'Endalim; nei ruoli rispettare il minuscolo dell'originale: «docente del seminario», «diacono del seminario». Riferimento: `@review/world/enpcresident.json#1011215:translation_name`. |
 | Starlight Celebration | Celebrazione delle Stelle | Decisione dell'utente | Nome della festa stagionale; riferimento contestuale: `@review/world/enpcresident.json#1010742:translation_name`. |

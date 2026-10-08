@@ -412,7 +412,11 @@ ESEMPI:
                             continue;
                         }
                         fileEntries++;
-                        fileIssues += ValidateSingleEntry(fileName, $"{row.Name}:{target.Name}", source.GetString() ?? "", target.Value.GetString() ?? "", engine, validationContext);
+                        // In creature labels, "dungeon" can describe origin rather than an activity category.
+                        bool orchestrionTitle = Path.GetFileName(file).Equals("orchestrion.json", StringComparison.OrdinalIgnoreCase) &&
+                            target.Name.Equals("translation_name", StringComparison.Ordinal);
+                        bool checkActivityCategories = !orchestrionTitle && !Path.GetFileName(file).Equals("bnpcname.json", StringComparison.OrdinalIgnoreCase);
+                        fileIssues += ValidateSingleEntry(fileName, $"{row.Name}:{target.Name}", source.GetString() ?? "", target.Value.GetString() ?? "", engine, validationContext, checkActivityCategories, orchestrionTitle);
                     }
 
                     if (row.Value.TryGetProperty("translation", out var translation) && translation.ValueKind == System.Text.Json.JsonValueKind.String)
@@ -422,7 +426,8 @@ ESEMPI:
                             ? source.GetString() ?? ""
                             : "";
                         fileEntries++;
-                        fileIssues += ValidateSingleEntry(fileName, $"{row.Name}:translation", original, translation.GetString() ?? "", engine, validationContext);
+                        bool checkActivityCategories = !Path.GetFileName(file).Equals("bnpcname.json", StringComparison.OrdinalIgnoreCase);
+                        fileIssues += ValidateSingleEntry(fileName, $"{row.Name}:translation", original, translation.GetString() ?? "", engine, validationContext, checkActivityCategories);
                     }
                 }
             }
@@ -527,7 +532,7 @@ ESEMPI:
         return 0;
     }
 
-    private static int ValidateSingleEntry(string file, string rowId, string orig, string trans, FFXIVItalian.Core.Glossary.GlossaryEngine engine, string? sourceContext = null)
+    private static int ValidateSingleEntry(string file, string rowId, string orig, string trans, FFXIVItalian.Core.Glossary.GlossaryEngine engine, string? sourceContext = null, bool checkActivityCategories = true, bool skipGlossary = false)
     {
         if (string.IsNullOrWhiteSpace(trans)) return 0;
         int issues = 0;
@@ -547,9 +552,12 @@ ESEMPI:
             rowId.EndsWith(":translation_col_2", StringComparison.Ordinal) &&
             System.Text.RegularExpressions.Regex.IsMatch(orig,
                 @"(?is)^ALIAS(?:ES)?:.*?(?:USAGE|USO):.*?/search\s+\[condition\]");
-        if (!literalSearchSyntax)
+        bool literalCommandParameter = Path.GetFileName(sourceContext ?? file).Equals("textcommandparam.json", StringComparison.OrdinalIgnoreCase);
+        // Character-make fields are generated name fragments, so English words can be proper names.
+        bool generatedNameFragment = Path.GetFileName(sourceContext ?? file).Equals("charamakename.json", StringComparison.OrdinalIgnoreCase);
+        if (!skipGlossary && !literalSearchSyntax && !literalCommandParameter && !generatedNameFragment)
         {
-            var glResult = engine.ValidateTranslation(orig, trans, sourceContext ?? file);
+            var glResult = engine.ValidateTranslation(orig, trans, sourceContext ?? file, checkActivityCategories);
             foreach (var pro in glResult.ProhibitedUsages)
             {
                 issues++;

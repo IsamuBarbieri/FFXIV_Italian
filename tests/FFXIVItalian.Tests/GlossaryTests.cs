@@ -75,6 +75,43 @@ public class GlossaryTests
         Assert.False(_catalog.Engine.ValidateTranslation("Dungeon", "Dungeon").IsCompliant);
         Assert.True(_catalog.Engine.ValidateTranslation("Dungeon", "Spedizione").IsCompliant);
         Assert.False(_catalog.Engine.ValidateTranslation("Enter the dungeon", "Entra nel dungeon").IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation(
+            "No one comes and goes from this dungeon without permission.",
+            "Nessuno può entrare o uscire da questa spedizione senza permesso.").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation(
+            "No one comes and goes from this dungeon without permission.",
+            "Nessuno può entrare o uscire da questo sotterraneo senza permesso.").IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation(
+            "You spend most of your time traipsing about dark dungeons.",
+            "Passi la maggior parte del tempo nelle spedizioni più oscure.").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation(
+            "You spend most of your time traipsing about dark dungeons.",
+            "Passi la maggior parte del tempo nei sotterranei più oscuri.").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation(
+            "We will keep coming up with interesting new equipment and dungeons!",
+            "Continueremo a ideare equipaggiamenti e spedizioni interessanti!").IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation(
+            "We will keep coming up with interesting new equipment and dungeons!",
+            "Continueremo a ideare equipaggiamenti e sotterranei interessanti!").IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation(
+            "Lovingly tap your tomestone.", "Tocca affettuosamente il tuo tavoletta.").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation(
+            "Lovingly tap your tomestone.", "Tocca affettuosamente la tua tavoletta.").IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation(
+            "Collecting tomestones with the old crowd.", "Raccogliere tavoletta con i vecchi compagni.").IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation(
+            "An Allagan tomestone can be exchanged.", "Questa tavoletta allagana può essere scambiato.").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation(
+            "An Allagan tomestone can be exchanged.", "Questa tavoletta allagana può essere scambiata.").IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation(
+            "micro tomestones are highly sought after.", "Le microtavolette sono molto ricercati.").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation(
+            "Researchers constructed this variety of tomestone and abandoned these tomestones.",
+            "I ricercatori costruirono questo tipo di tavoletta e poi abbandonarono il progetto.").IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation(
+            "Little Ladies' Day festivities", "festeggiamenti del Little Ladies’ Day").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation(
+            "Little Ladies' Day festivities", "festeggiamenti della Giornata delle Piccole Dame").IsCompliant);
         Assert.True(_catalog.Engine.ValidateTranslation("Raid the Dungeons of Lyhe Ghiah", "Compi un'incursione nei Dungeons of Lyhe Ghiah").IsCompliant);
     }
 
@@ -96,14 +133,29 @@ public class GlossaryTests
     {
         Assert.False(_catalog.Engine.ValidateTranslation(
             "An Allagan tomestone was found.", "È stata trovata una tomestone allagana.").IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation(
+            "Allagan tomestones", "tomestones allagane").IsCompliant);
         Assert.True(_catalog.Engine.ValidateTranslation(
             "An Allagan tomestone was found.", "È stata trovata una tavoletta allagana.").IsCompliant);
         Assert.False(_catalog.Engine.ValidateTranslation(
             "dated bronze gladius", "gladio di bronzo dated", "items/item.json").IsCompliant);
         Assert.False(_catalog.Engine.ValidateTranslation(
+            "falchion of War", "falchione of War", "items/item.json").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation(
+            "In the Arms of War orchestrion roll", "In the Arms of War rullo orchestrion", "items/item.json").IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation(
             "Welcome, kupo!", "Benvenuti, kupo!").IsCompliant);
         Assert.True(_catalog.Engine.ValidateTranslation(
+            "Hair Raid", "Assalto di Capelli").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation(
+            "Wanderlust", "Spirito Vagabondo").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation(
             "A kupo nut is on the table.", "C'è una noce kupo sul tavolo.").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation(
+            "His duties were unfinished.<hex:02100103>He pursued his goal.",
+            "I suoi doveri erano incompiuti.<hex:02100103>Seguì la sua missione.").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation(
+            "dungeon tomato", "pomodoro del dungeon", "world/bnpcname.json", checkActivityCategories: false).IsCompliant);
     }
 
     [Fact]

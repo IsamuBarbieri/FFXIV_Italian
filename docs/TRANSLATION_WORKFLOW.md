@@ -28,6 +28,8 @@ Per i file approvati, `validate` controlla il corpus canonico. Per script o fogl
 
 Dopo il controllo automatico, rileggi ogni voce nel contesto per verificare significato, naturalezza, registro, genere, tag e coerenza terminologica. Il validatore non sostituisce questa revisione.
 
+Il validatore è di sola verifica e non modifica le traduzioni. Un'applicazione automatica di una correzione è ammessa solo quando l'intera frase sorgente coincide con una frase approvata; se cambia anche solo il contesto circostante, l'agente adatta la correzione leggendo originale e traduzione completi.
+
 Per una scansione terminologica completa dei file in revisione e dei file canonici/deployati, usa:
 
 ```powershell
