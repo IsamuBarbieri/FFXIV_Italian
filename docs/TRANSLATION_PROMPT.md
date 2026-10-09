@@ -23,6 +23,7 @@ Devi rispettare tassativamente le seguenti REGOLE VINCOLANTI. Qualsiasi deviazio
 - **CONVENZIONI E STILE LINGUISTICO**: Traduci in italiano naturale e scorrevole, coerente con la grammatica italiana e il contesto di gioco.
 - **CATEGORIE DI ATTIVITÀ**: Usa le forme del glossario: Quest/Missione, Subquest/Missione secondaria, Duty/Incarico, Levequest e Leve/Mandato, Trial/Prova, Raid/Incursione, Dungeon/Spedizione quando indica il contenuto istanziato e Dungeon/Sotterraneo quando indica un luogo fisico, Deep Dungeon/Cripta Profonda, Guildhest/Operazione di Gilda e FATE/FATE. L'accesso tramite Duty Finder e le funzioni che concludono un Incarico riguardano la spedizione; riferimenti all'ambiente fisico, come l'ingresso o l'interno, indicano il sotterraneo. Traduci i qualificatori di categoria e distingui le attività dai luoghi, dagli usi comuni e dai nomi propri.
 - **ETICHETTE E NOMI DI MECCANICHE**: Nelle categorie dei negozi ometti l'azione implicita quando rende la voce prolissa (*Purchase Items* → **Oggetti**); conserva i verbi per comandi e azioni reali. Per attività in corso valuta il gerundio (*Interacting* → **Interagendo**). Traduci *right/left* come direzioni e accordale al referente, senza confonderle con «giusto» o «lasciato».
+- **LIVELLO OGGETTO**: Per la statistica usa **Livello Oggetto** (*Item Level*); nelle etichette brevi di menu, negozi e tabelle usa l'abbreviazione canonica **Liv.Ogg.**. Sostituisci la sigla inglese *IL* nelle etichette e nei testi.
 - **TERMINI CANONICI**: *Armorer* è **Corazziere** (sigla **COR**); conserva i toponimi nella grafia ufficiale attestata, per esempio **Alexandria**.
 
 ---
@@ -50,6 +51,8 @@ Prima di tradurre, leggi `data/glossary/Glossary.md`. Usa le voci per i termini 
   - *Prove di Bardam* richiede la preposizione articolata: **alle Prove di Bardam** (MAI *«a Prove di Bardam»*).
 - **NOMI PROPRI DEI LOPORRIT INVARIATI**: Tutti i nomi dei Loporrit terminanti in *-way* (*Livingway, Growingway, Cookingway, Mappingway, Piercingway, Fusingway, Searchingway, Reportingway*, ecc.) sono nomi propri invariabili e **NON si traducono mai** (vietato inventare calchi come *«Trafiggivia»* o *«Fondivia»*). Come campo nome, usa *«Galleria di Piercingway»* senza aggiungere l'articolo assente nell'originale; nella prosa inseriscilo solo se richiesto dalla sintassi.
 - **NESSUN PRESTITO INGLESE RESIDUO E COERENZA**: Elimina qualunque termine inglese orfano rimasto nel testo (es. *plate* → *piastra*). Mantieni sempre la coerenza interna tra nome dell'oggetto e descrizione (es. in *buddyequip* o *item*).
+- **UNITÀ EORZEANE**: Rispetta genere e numero concordati nel glossario: *ilm/ilmi, fulm/fulmi, yalm/yalmi, malm/malmi* al maschile; *onza/onze, ponza/ponze, tonza/tonze* al femminile. Non lasciare le forme plurali inglesi.
+- **CONTENUTI INVARIATI**: In `system/creditlisttext.json`, copia `original` identico in `translation`. In `housing/orchestrion.json`, conserva identici `name` e `translation_name`; traduci solo le descrizioni.
 
 ---
 
@@ -66,6 +69,7 @@ Quando traduci battute di dialogo, rispetta rigorosamente il registro psicologic
 - **Haurchefant Pietragrigia**: Cavalieresco, caloroso, esuberante, sincero affetto ed entusiasmo solare per il Guerriero della Luce.
 - **Società Alleate e popoli affini**: identifica il parlante e applica la matrice completa in `docs/STYLE_GUIDE.md`. In particolare, conserva la terza persona e gli appellativi dei Sylph, le inversioni degli Ixal, rendi l'intercalare `kupo` dei Moguri con `kupò`, mantieni le sibilanti degli Sahagin, degli Ananta e degli Ondo, i segnali sonori dei Vath e le ripetizioni dei Namazu. Non aggiungere accenti o tic vocali se l'originale non li marca.
 - **Campi collegati e terminologia**: controlla ogni `translation_*` con il campo sorgente corrispondente; nei nomi e nelle descrizioni degli oggetti verifica accordi, plurali, maiuscole e coerenza tra campi. Il validatore segnala i candidati ma non corregge i file: applica una sostituzione soltanto quando coincide l'intera frase approvata, altrimenti adatta manualmente il termine alla frase e al contesto. Scrivi `kupò` per l'intercalare parlato e mantieni forme composte come «noce kupo».
+- **VALIDAZIONE SENZA RISCRITTURA**: Dopo l'allineamento, esegui `dotnet run --project src/FFXIVItalian.Extractor -- validate <cartella-o-file>`. Il validatore controlla SeString, regole del glossario e forme delle unità; produce segnalazioni da verificare e non modifica mai i JSON. Esamina originale e traduzione nel contesto, poi correggi manualmente con accordi e preposizioni adeguati.
 
 ---
 

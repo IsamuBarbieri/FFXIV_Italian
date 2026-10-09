@@ -11,6 +11,17 @@ public class GlossaryComplianceResult
 
 public class GlossaryEngine
 {
+    private static readonly IReadOnlyDictionary<string, string> EorzeanMeasureForms = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+    {
+        ["ilm"] = "ilm", ["ilms"] = "ilmi",
+        ["fulm"] = "fulm", ["fulms"] = "fulmi",
+        ["yalm"] = "yalm", ["yalms"] = "yalmi",
+        ["malm"] = "malm", ["malms"] = "malmi",
+        ["onze"] = "onza", ["onzes"] = "onze",
+        ["ponze"] = "ponza", ["ponzes"] = "ponze",
+        ["tonze"] = "tonza", ["tonzes"] = "tonze"
+    };
+
     private static readonly Regex PhysicalDungeonContext = new(
         @"\b(?:this|that)\s+(?:[\p{L}-]+\s+){0,2}dungeons?\b|\b(?:narrow|dark|abandoned|underground)\s+dungeons?\b|\bdungeons?\s+(?:entrance|exit|interior|depths|denizens|inhabitants)\b|\b(?:entrance|exit)\s+(?:to|of)\s+(?:(?:the|this|that)\s+)?dungeons?\b|\b(?:inside|within|in)\s+(?:the|this|that)\s+dungeons?\b(?!\s+finder\b)|\b(?:exit|exiting|leave|leaving)\s+(?:the|this|that)\s+dungeons?\b|\bcome and go from\s+(?:the\s+)?(?:[\p{L}-]+\s+)?dungeons?\b",
         RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
@@ -169,6 +180,17 @@ public class GlossaryEngine
             result.Warnings.Add("Sigla FATE: usare FATE senza punti.");
         var originalOutsideQuotedNames = Regex.Replace(originalEn, "[“‘\\\"].*?[”’\\\"]", "");
         var translatedOutsideQuotedNames = Regex.Replace(translatedIt, "[“‘\\\"].*?[”’\\\"]", "");
+
+        var reportedMeasureForms = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+        foreach (Match measure in Regex.Matches(originalOutsideQuotedNames, @"(?<![\p{L}])[\p{L}]+(?![\p{L}])"))
+        {
+            if (!EorzeanMeasureForms.TryGetValue(measure.Value, out string? expectedForm)) continue;
+            if (!Regex.IsMatch(translatedOutsideQuotedNames,
+                    $@"(?<![\p{{L}}]){Regex.Escape(expectedForm)}(?![\p{{L}}])",
+                    RegexOptions.IgnoreCase | RegexOptions.CultureInvariant) && reportedMeasureForms.Add(measure.Value))
+                result.Warnings.Add($"Unità eorzeana «{measure.Value}»: in italiano usare «{expectedForm}» (verificare genere e numero).");
+        }
+
         if (checkActivityCategories)
         {
             // This phrase is a proper orchestrion track title, not a generic dungeon reference.
@@ -212,6 +234,9 @@ public class GlossaryEngine
                 (normalizedContext is null ||
                  !(normalizedContext.Equals("items/item.json", StringComparison.OrdinalIgnoreCase) ||
                    normalizedContext.EndsWith("/items/item.json", StringComparison.OrdinalIgnoreCase))))
+                continue;
+            if (group.Term.Equals("Birdsong", StringComparison.OrdinalIgnoreCase) &&
+                Regex.IsMatch(originalOutsideQuotedNames, @"\bOrchestrion Roll\b", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
                 continue;
             if (hasExactTerm && group.Term.Equals(trimmedOriginal, StringComparison.OrdinalIgnoreCase)) continue;
             if (group.Pattern!.IsMatch(originalOutsideQuotedNames) && group.Pattern.IsMatch(translatedOutsideQuotedNames))

@@ -17,6 +17,11 @@
 - Dopo la traduzione esegui il validatore appropriato sul perimetro modificato. Il controllo automatico non sostituisce la revisione linguistica né l'approvazione dell'utente.
 - Applica le correzioni dell'utente. Aggiungi al glossario le decisioni terminologiche confermate, con riferimento `percorso#ID:campo` oppure «Decisione dell'utente» e una nota d'uso.
 - Non spostare file tra gli stati editoriali e non dichiarare un file approvato senza conferma dell'utente.
+- **File esclusi o invariati per decisione editoriale**:
+  - `system/creditlisttext.json`: i crediti di gioco non vanno mai tradotti; il campo `translation` deve coincidere identico con `original`.
+  - `housing/orchestrion.json`: i titoli musicali (`name` / `translation_name`) conservano i titoli originali dei brani e non vanno tradotti (si traducono solo le descrizioni).
+  - **Misure e pesi eorzeani**: le unità di misura eorzeane seguono l'adattamento morfologico concordato: distanze/lunghezze maschili con plurale in *-mi* (*ilm/ilmi, fulm/fulmi, yalm/yalmi, malm/malmi*) e pesi femminili della prima declinazione (*onza/onze, ponza/ponze, tonza/tonze*).
+
 
 ## Revisione terminologica
 

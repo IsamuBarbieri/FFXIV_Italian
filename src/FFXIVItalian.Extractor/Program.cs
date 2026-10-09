@@ -537,6 +537,20 @@ ESEMPI:
         if (string.IsNullOrWhiteSpace(trans)) return 0;
         int issues = 0;
 
+        string contextFileName = Path.GetFileName(sourceContext ?? file);
+        bool gameCredits = contextFileName.Equals("creditlisttext.json", StringComparison.OrdinalIgnoreCase) &&
+            rowId.EndsWith(":translation", StringComparison.Ordinal);
+        bool orchestrionTitle = contextFileName.Equals("orchestrion.json", StringComparison.OrdinalIgnoreCase) &&
+            rowId.EndsWith(":translation_name", StringComparison.Ordinal);
+        if ((gameCredits || orchestrionTitle) && !orig.Equals(trans, StringComparison.Ordinal))
+        {
+            issues++;
+            Console.ForegroundColor = ConsoleColor.Red;
+            string content = gameCredits ? "I crediti devono restare identici all'originale" : "I titoli musicali devono restare identici all'originale";
+            Console.WriteLine($"  [CONTENUTO INVARIATO] {file} Riga {rowId}: {content}.");
+            Console.ResetColor();
+        }
+
         // 1. Check SeString Syntax
         var seResult = FFXIVItalian.Core.SeString.SeStringValidator.Validate(orig, trans);
         foreach (var err in seResult.Errors)
@@ -548,14 +562,14 @@ ESEMPI:
         }
 
         // 2. Check Glossary Compliance
-        bool literalSearchSyntax = Path.GetFileName(sourceContext ?? file).Equals("textcommand.json", StringComparison.OrdinalIgnoreCase) &&
+        bool literalSearchSyntax = contextFileName.Equals("textcommand.json", StringComparison.OrdinalIgnoreCase) &&
             rowId.EndsWith(":translation_col_2", StringComparison.Ordinal) &&
             System.Text.RegularExpressions.Regex.IsMatch(orig,
                 @"(?is)^ALIAS(?:ES)?:.*?(?:USAGE|USO):.*?/search\s+\[condition\]");
-        bool literalCommandParameter = Path.GetFileName(sourceContext ?? file).Equals("textcommandparam.json", StringComparison.OrdinalIgnoreCase);
+        bool literalCommandParameter = contextFileName.Equals("textcommandparam.json", StringComparison.OrdinalIgnoreCase);
         // Character-make fields are generated name fragments, so English words can be proper names.
-        bool generatedNameFragment = Path.GetFileName(sourceContext ?? file).Equals("charamakename.json", StringComparison.OrdinalIgnoreCase);
-        if (!skipGlossary && !literalSearchSyntax && !literalCommandParameter && !generatedNameFragment)
+        bool generatedNameFragment = contextFileName.Equals("charamakename.json", StringComparison.OrdinalIgnoreCase);
+        if (!gameCredits && !skipGlossary && !literalSearchSyntax && !literalCommandParameter && !generatedNameFragment)
         {
             var glResult = engine.ValidateTranslation(orig, trans, sourceContext ?? file, checkActivityCategories);
             foreach (var pro in glResult.ProhibitedUsages)

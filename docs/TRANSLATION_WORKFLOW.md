@@ -7,6 +7,8 @@ Questo è il flusso principale quando il responsabile fornisce uno o più file d
 - L'utente indica i file da tradurre e, se necessario, i file di riferimento o di allineamento.
 - I file di riferimento forniscono contesto; si modificano solo se l'utente li indica anche come destinazioni.
 - Si leggono glossario, guida di stile, prompt tecnico ed esempi vicini nel corpus.
+- Si tengono conto delle eccezioni editoriali stabilite: `system/creditlisttext.json` (crediti di gioco non tradotti, `translation` coincide con `original`) e `housing/orchestrion.json` (titoli dei brani musicali in `name`/`translation_name` invariati).
+
 
 ## 2. Tradurre
 

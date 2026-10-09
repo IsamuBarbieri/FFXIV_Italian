@@ -4,7 +4,7 @@ Fonte terminologica per le traduzioni future. Sono approvati i file JSON present
 
 **Catalogo completo dei luoghi:** tutte le 5.302 coppie `name`/`translation` di `data/translations/world/placename.json` fanno parte del glossario, con fonte `world/placename.json#ID:name`. Questo file è il catalogo integrale; la sezione Luoghi qui sotto evidenzia anche le rese canoniche appena uniformate. Le voci che contengono tag richiedono una revisione SeString.
 
-Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine inglese se resta nella traduzione di una frase; `Controllo automatico: residuo plurale.` controlla anche il plurale inglese in `-s`; `Controllo automatico: suffisso equipaggiamento.` applica il controllo ai termini di materiali e provenienza in `items/item.json`; `Controllo automatico: suffisso ruolo equipaggiamento.` verifica i suffissi di ruolo solo alla fine dei nomi di equipaggiamento; `Controllo automatico: intercalare.` controlla l'intercalare parlato preservando composti come «noce kupo».
+Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine inglese se resta nella traduzione di una frase; `Controllo automatico: residuo plurale.` controlla anche il plurale inglese in `-s`; `Controllo automatico: suffisso equipaggiamento.` applica il controllo ai termini di materiali e provenienza in `items/item.json`; `Controllo automatico: suffisso ruolo equipaggiamento.` verifica i suffissi di ruolo solo alla fine dei nomi di equipaggiamento; `Controllo automatico: intercalare.` controlla l'intercalare parlato preservando composti come «noce kupo». Questi controlli generano candidati da verificare: il validatore non modifica i file. La forma eorzeana delle misure è verificata in base al singolare o al plurale presente nell'originale.
 
 ## Voci
 
@@ -41,6 +41,8 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Select | Seleziona | `system/addon.json#3139:original` |  |
 | Name | Nome | `system/addon.json#293:original` |  |
 | Level | Livello | `system/addon.json#335:original` |  |
+| Item Level | Livello Oggetto | Decisione dell'utente | Controllo automatico: residuo. Nome della statistica di potenza degli oggetti. Nelle etichette di menu, shop e tabelle con vincoli di spazio usare «Liv.Ogg.» (variante ammessa; Varianti ammesse in etichette: «Liv.Ogg.»). |
+| IL | Liv.Ogg. | Decisione dell'utente | Controllo automatico: residuo. Abbreviazione canonica di Item Level (Livello Oggetto). Rispecchia il francese «NvObj» e il tedesco «G.-St.». Varianti ammesse in prosa: «Liv.Ogg.». |
 | Rank | Grado | `system/addon.json#732:original` | Nel Mahjong indica la posizione in classifica; varianti ammesse in prosa: «Posizione». |
 | Equipment | Equipaggiamento | `system/addon.json#11333:original` |  |
 | Gear | Equipaggiamento | `system/addon.json#852:original` |  |
@@ -260,6 +262,10 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Gil | Gil | `system/addon.json#830:original` |  |
 | Scrip | Gettone | Decisione dell'utente | Valuta degli Artigiani e dei Raccoglitori; al plurale usare «Gettoni degli Artigiani/dei Raccoglitori». |
 | Simular | Simulacro | Decisione dell'utente | Categoria di mangime; nei nomi composti usare «Simulacro di [ingrediente]» e al plurale «Simulacri di [ingrediente]». |
+| EXP | ESP | Decisione dell'utente | Controllo automatico: residuo. Sigla italiana dei punti esperienza; usare «ESP» nelle etichette e descrizioni (es. «Bonus ESP»). Riferimento: `items/item.json#2632:translation_col_2`. |
+| Rolanberry | bacca Rolan | Decisione dell'utente | Controllo automatico: residuo. Nome del frutto e ingrediente, femminile: «la bacca Rolan», «della bacca Rolan». Nei nomi di ricette usare la forma idiomatica «alle bacche Rolan»; accordare articoli e aggettivi al femminile plurale (es. «le bacche Rolan essiccate e aspre»). Riferimento: `items/item.json#4815:translation_name`. |
+| Rolanberries | bacche Rolan | Decisione dell'utente | Controllo automatico: residuo plurale. Plurale femminile: «le/delle/alle bacche Rolan»; concordare gli aggettivi (es. «bacche Rolan essiccate e aspre»). Riferimento: `items/item.json#4815:translation_description`. |
+| Rolanberry Red | Rosso Rolan | `items/stain.json#9:translation_name` | Nome della tonalità; nel nome dell'oggetto usare «Tintura Rosso Rolan», senza interpretare Rolanberry come frutto. |
 | Claret Dragon | Drago Cremisi | Decisione dell'utente | Nome della creatura; nel composto «Claret Dragon's Power» usare «Potere del Drago Cremisi». |
 | Scion of the Seventh Dawn | Erede della Settima Alba | `combat/companiontransient.json#91:description` | Nome invariabile per genere: al singolare «Erede della Settima Alba», al plurale «Eredi della Settima Alba». |
 | Scion | Erede | Decisione dell'utente | Forma singolare; «Erede» non varia per genere. |
@@ -274,6 +280,7 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Blunder-villed | Blunder-villed | Decisione dell'utente | Nome ufficiale della cornice Fall Guys; lasciare in inglese. |
 | The Black Shroud | Velo Nero | `system/addon.json#1578:original` | Nome dell'area. Genere grammaticale maschile: usare «il Velo Nero», «del Velo Nero», «nel Velo Nero». Vietato categoricamente l'uso di articoli o preposizioni femminili («la Velo Nero», «della Velo Nero», «nella Velo Nero»). |
 | Chocobo | Chocobo | `system/addon.json#9081:original` |  |
+| Airship | Aeronave | Decisione dell'utente | Controllo automatico: residuo plurale. Plurale inglese: «Airships» → «Aeronavi». |
 | Retainer | Servitore | `system/addon.json#532:original` |  |
 | Materia | Materia | `system/addon.json#481:original` |  |
 | Mount | Cavalcatura | `system/addon.json#774:original` |  |
@@ -306,6 +313,30 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 
 | Maelstrom Command | Comando della Tempesta | `world/contentfinderconditiontransient.json#40:original` | Nome del luogo o della struttura. |
 | Conjurers' Guild | Gilda degli Incantatori | `system/lobby.json#188:description` | Nome del luogo o della struttura. |
+
+### Misure e pesi
+
+Decisione dell'utente: adattamento morfologico delle unità di misura eorzeane:
+- **Distanza / Lunghezza (maschili)**: singolare in *-m*, plurale in *-mi* (*ilm / ilmi, fulm / fulmi, yalm / yalmi, malm / malmi*).
+- **Peso (femminili)**: singolare in *-a*, plurale in *-e* (*onza / onze, ponza / ponze, tonza / tonze*).
+
+| Inglese | Italiano | Fonte | Uso |
+| --- | --- | --- | --- |
+| yalm | yalm | Decisione dell'utente | Unità di misura eorzeana di lunghezza (maschile, circa 1 iarda / 0,9 m). Riferimento: `@review/dialogue/defaulttalk.json#589846:name`. |
+| yalms | yalmi | Decisione dell'utente | Plurale maschile (es. «dieci maledetti yalmi»). |
+| malm | malm | Decisione dell'utente | Unità di misura eorzeana di distanza (maschile, circa 1 miglio / 1,6 km). |
+| malms | malmi | Decisione dell'utente | Plurale maschile. |
+| ilm | ilm | Decisione dell'utente | Unità di misura eorzeana di lunghezza (maschile, circa 1 pollice / 2,5 cm). |
+| ilms | ilmi | Decisione dell'utente | Plurale maschile. |
+| fulm | fulm | Decisione dell'utente | Unità di misura eorzeana di lunghezza (maschile, circa 1 piede / 30 cm). |
+| fulms | fulmi | Decisione dell'utente | Plurale maschile. |
+| onze | onza | Decisione dell'utente | Unità di peso eorzeana (femminile, circa 1 oncia / 28 g). |
+| onzes | onze | Decisione dell'utente | Plurale femminile. |
+| ponze | ponza | Decisione dell'utente | Unità di peso eorzeana (femminile, circa 1 libbra / 453 g). |
+| ponzes | ponze | Decisione dell'utente | Plurale femminile. |
+| tonze | tonza | Decisione dell'utente | Unità di peso eorzeana (femminile, circa 1 tonnellata). |
+| tonzes | tonze | Decisione dell'utente | Plurale femminile. |
+
 ### Classi e mestieri
 
 | Inglese | Italiano | Fonte | Uso |
@@ -458,6 +489,27 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Ul'dahn (gear/items) | ul'dahno / ul'dahna | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Aggettivo relativo a Ul'dah (es. falchione ul'dahno, scimitarra ul'dahna). Sostituisce la formula perifrastica «di Ul'dahn». |
 | GC Factions (short form) | della Fiamma / della Vipera / della Tempesta | Decisione dell'utente | Forma abbreviata per equipaggiamenti e gradi delle Grandi Compagnie (es. «libro del sergente della Fiamma», «pugnale del soldato semplice della Vipera», «spadone dell'ufficiale della Tempesta»). Evita ripetizioni prolungate come «delle Fiamme Immortali» o «dell'Ordine della Vipera Gemella». |
 | Elm (material) | d'olmo | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Forma elisa obbligatoria (es. «tronco d’olmo», «tavola d’olmo», «macuahuitl d’olmo»). Evitare la forma non elisa «di olmo». |
+| Snakestongue (gear) | Linguaserpe | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Adattamento composto a parola singola per la serie di equipaggiamento PvP (es. «elmo Linguaserpe», «lancia Linguaserpe»). Riferimento: `items/item.json#7378:name`. |
+| Bearsmaw (gear) | Fauciorso | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Adattamento composto a parola singola per la serie di equipaggiamento PvP (es. «armetto Fauciorso», «ascia Fauciorso»). Riferimento: `items/item.json#7372:name`. |
+| Hawkwing (gear) | Alafalco | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Adattamento composto a parola singola per la serie di equipaggiamento PvP (es. «armetto Alafalco», «artigli Alafalco»). Riferimento: `items/item.json#7366:name`. |
+| Lionsmane (gear) | Chiomaleone | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Adattamento composto a parola singola per la serie di equipaggiamento PvP (es. «armetto Chiomaleone», «scudo Chiomaleone»). Riferimento: `items/item.json#7360:name`. |
+| Birdsong (gear) | Cantaugello | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Adattamento composto a parola singola per la serie di equipaggiamento PvP (es. «maschera Cantaugello», «arco Cantaugello»). Riferimento: `items/item.json#7384:name`. Non applicare ai titoli dei rulli orchestrion. |
+| Swansgrace (gear) | Graziacigno | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Adattamento composto a parola singola per la serie di equipaggiamento PvP (es. «cappuccio Graziacigno», «bastone Graziacigno»). Riferimento: `items/item.json#7390:name`. |
+| Wolfseye (gear) | Occhiolupo | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Adattamento composto a parola singola per la serie di equipaggiamento PvP (es. «cappello Occhiolupo», «bastone Occhiolupo»). Riferimento: `items/item.json#7396:name`. |
+| Elkhorn (gear) | Cornoalce | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Adattamento composto a parola singola per la serie di equipaggiamento PvP (es. «cappello Cornoalce», «grimorio Cornoalce»). Riferimento: `items/item.json#7402:name`. |
+| Elktail (gear) | Codalce | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Adattamento composto a parola singola per la serie di equipaggiamento PvP (es. «cappello Codalce», «grimorio Codalce»). Riferimento: `items/item.json#7408:name`. |
+| Hellwolf (gear) | Infernalupo | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Adattamento composto a parola singola per la serie di accessori PvP (es. «bracciale Infernalupo della Difesa»). Riferimento: `items/item.json#7414:name`. |
+| Roseblood (gear) | Rosasangue | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Adattamento composto a parola singola per la serie di equipaggiamento PvP (es. «cappello Rosasangue», «abito Rosasangue»). Riferimento: `items/item.json#42661:name`. |
+| Evenstar (gear) | Stellavespro | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Adattamento composto a parola singola per la serie di equipaggiamento (es. «cappello Stellavespro», «giubba Stellavespro»). Riferimento: `items/item.json#7340:name`. |
+| Daystar (gear) | Stelladiurna | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Adattamento composto a parola singola per la serie di equipaggiamento (es. «diadema Stelladiurna», «veste Stelladiurna»). Riferimento: `items/item.json#7330:name`. |
+| Gloam (gear) | Crepuscolo | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Adattamento per la serie di equipaggiamento (es. «cuffia Crepuscolo», «sopravveste Crepuscolo»). Riferimento: `items/item.json#7310:name`. |
+| Auroral (gear) | Aurorale | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Adattamento aggettivale per la serie di equipaggiamento (es. «cuffia Aurorale», «bracciali Aurorali»). Riferimento: `items/item.json#7320:name`. |
+| Hoplon (shield) | Oplone | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Termine canonico italiano per lo scudo rotondo (plur. «oploni», es. «oplone di bronzo», «oplone Noct»). Riferimento: `items/item.json#7350:name`. |
+| Conquerer (weapon) | Conquistatore | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Ascia da guerra da Marauder/Warrior (es. «Conquistatore», «Conquistatore logoro»). Riferimento: `items/item.json#7353:name`. |
+| Liberator (weapon) | Liberatore | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Lancia da Dragoon (es. «Liberatore», «Liberatore logoro»). Riferimento: `items/item.json#7354:name`. |
+| Burtgang | Burtgang | Decisione dell'utente | Nome proprio mitologico di spada leggendaria di origine antico-nordica/germanica (*Þiðreks saga*), conservato invariato. Riferimento: `items/item.json#7351:name`. |
+
+
 
 ### Razze e clan
 
@@ -758,4 +810,4 @@ Le voci identificano strutture, aree, visioni, missioni e mammets del Rifugio In
 | Moonfire Faire | Festa del Fuoco Lunare | Decisione dell'utente | Nome della festa stagionale estiva; riferimento contestuale: `@review/world/enpcresident.json#1009242:translation_col_2`. |
 | The Rising | La Rinascita | Decisione dell'utente | Nome dell'evento annuale; nei ruoli usare «della Rinascita». Riferimento: `@review/world/enpcresident.json#1009290:translation_name`. |
 | All Saints' Wake | Veglia di Tutti i Santi | Decisione dell'utente | Nome della festa stagionale; riferimento contestuale: `@review/world/enpcresident.json#1043978:translation_name`. |
-| voidsent | creatura del vuoto (sing.), creature del vuoto (pl.) | Decisione dell'utente | Nome comune della specie; rispettare il minuscolo dell'originale. Riferimento: `@review/world/enpcresident.json#1042066:translation_name`. |
+| voidsent | creatura del vuoto (sing.), creature del vuoto (pl.) | Decisione dell'utente | Controllo automatico: residuo plurale. Nome comune della specie; rispettare il minuscolo dell'originale. Riferimento: `@review/world/enpcresident.json#1042066:translation_name`. |

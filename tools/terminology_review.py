@@ -649,7 +649,9 @@ def scan(args):
             continue
         if not args.approved_only and not in_review and relative in approved and not args.include_approved:
             continue
-        if path_key.endswith(("/system/textcommandparam.json", "/social/charamakename.json")):
+        # Credits are preserved verbatim and are checked for equality by the .NET validator.
+        if path_key.endswith(("/system/textcommandparam.json", "/social/charamakename.json",
+                              "/system/creditlisttext.json")):
             continue
         rows = json.loads(path.read_text(encoding="utf-8-sig"))
         for row_id, row in rows.items():

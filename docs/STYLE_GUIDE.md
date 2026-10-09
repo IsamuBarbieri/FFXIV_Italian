@@ -2,7 +2,7 @@
 
 Questo documento definisce i principi editoriali, la gestione dei registri dei personaggi e le regole grammaticali di riferimento per la localizzazione italiana di **Final Fantasy XIV**.
 
-La fonte canonica di riferimento terminologico è costituita da `data/glossary/Glossary.md`.
+La fonte canonica di riferimento terminologico è costituita da `data/glossary/Glossary.md`. Le annotazioni «Controllo automatico» nel glossario attivano verifiche mirate: il validatore segnala le voci da controllare, ma non riscrive né corregge i file.
 
 Per le categorie di attività usa le equivalenze raccolte nel glossario: Missione, Missione secondaria, Incarico, Mandato, Prova, Incursione, Spedizione, Cripta Profonda, Operazione di Gilda e FATE. In particolare, *Dungeon* come attività istanziata è **Spedizione**; se descrive l'ambiente fisico, per esempio l'ingresso o l'interno, è **sotterraneo**. Le funzioni di gioco che concludono un Incarico e fanno uscire dal dungeon si riferiscono all'attività e usano «spedizione». Mantieni distinti attività, luoghi fisici, nomi propri e usi comuni.
 
@@ -11,7 +11,7 @@ Per le categorie di attività usa le equivalenze raccolte nel glossario: Mission
 ## 1. Principi di Base
 
 ### Regola 0: Maiuscole e minuscole
-Riproduci nella traduzione le maiuscole iniziali presenti nell'originale, parola per parola. Mantieni minuscoli gli articoli italiani interni alla frase, comprese le forme articolate (*del, dello, della, dei, degli, delle*); la prima parola resta maiuscola quando anche la stringa originale inizia con una maiuscola. Esempio: *Order of the Twin Adder* → **Ordine della Vipera Gemella**.
+Riproduci le maiuscole iniziali delle parole presenti nell'originale e conserva anche un eventuale iniziale minuscola: non trasformare automaticamente una frase che comincia con una minuscola in un titolo. Mantieni minuscoli gli articoli italiani interni alla frase, comprese le forme articolate (*del, dello, della, dei, degli, delle*). Esempio: *Order of the Twin Adder* → **Ordine della Vipera Gemella**; *letter to Goberin* → **lettera a Goberin**.
 
 ### Regola A: Adattamento per Videogioco (Niente Doppioni a Schermo)
 Nel client di gioco non si usa la notazione `Italiano (Inglese)` (*es. non scriviamo "Baia del Vespro (Vesper Bay)" nei dialoghi o nei menu*). Il testo deve essere **esclusivamente in italiano**, scorrevole, naturale e perfettamente dimensionato per i box dell'interfaccia.
@@ -19,6 +19,7 @@ Nel client di gioco non si usa la notazione `Italiano (Inglese)` (*es. non scriv
 Nei fogli dei gradi delle Grandi Compagnie usa un riferimento breve alla fazione (*Capitano della Fiamma*, *Sottotenente della Tempesta*, *Sottomaresciallo del Serpente*). Traduci anche `col_2` con il nome comune del grado in minuscolo (*capitano*, *sergente*); scegli la forma femminile nel foglio dedicato quando il grado la prevede.
 
 Nelle etichette di categoria di negozi e menu, non ripetere un'azione già implicita nella schermata: per esempio, *Purchase Items* può diventare **Oggetti**, non «Acquista Oggetti». Mantieni il verbo quando l'etichetta descrive davvero un'azione o un comando. Per gli stati che indicano un'attività in corso, usa il gerundio quando è naturale (*Interacting* → **Interagendo**). Nei nomi delle meccaniche, *right/left* indica destra/sinistra, non «giusto/lasciato»: identifica il referente e accorda la direzione (*Destra Mielata*, *Zantetsuken Destro*).
+Per la statistica di potenza dell'equipaggiamento, il termine completo è **Livello Oggetto** (*Item Level*); nelle etichette di negozi, menu e interfaccia con vincoli di spazio si impiega sistematicamente l'abbreviazione canonica **Liv.Ogg.** (es. *Liv.Ogg. 720*), rispecchiando le convenzioni delle altre localizzazioni europee (*NvObj* in francese, *G.-St.* in tedesco) e l'uso canonico in `system/addon.json`.
 
 ### Regola B: Nomi e toponimi
 Per le rese dei nomi e dei luoghi usa le forme documentate in `data/glossary/Glossary.md`; per tutti i luoghi consulta anche il catalogo integrale `data/translations/world/placename.json` (`name` → `translation`). Per i nomi non presenti, verifica la traduzione prima di introdurre una nuova convenzione.
@@ -54,6 +55,25 @@ Non lasciare mai parole o frammenti in inglese residui nei testi tradotti (es. *
 Per gli oggetti, controlla ogni campo tradotto insieme al proprio originale: nome, descrizione, categoria e titolo possono richiedere forme diverse. Fai concordare articoli, aggettivi e plurali con il nome italiano (*gladio obsoleto / spatha obsoleta*; *chiave della Porta*, non «chiavi del Porta»). Nei composti di materiali evita la ripetizione involontaria di «di» (*grimorio in pelle di lupo*) e applica le forme del glossario anche nelle descrizioni. Le maiuscole dei nomi visualizzati seguono il campo e l'originale: non trasformare una forma minuscola di prosa in un titolo.
 
 Le correzioni automatiche sono ammesse solo quando l'intera frase sorgente coincide con una frase approvata. Per un termine inserito in una frase più ampia, il validatore segnala un candidato: rileggi originale e traduzione, poi adatta la resa al contesto e alla grammatica. Il validatore non applica sostituzioni ai file.
+
+### Regola G: Contenuti non tradotti o a formato fisso (Crediti, Brani musicali)
+Per decisione editoriale, alcuni contenuti mantengono la versione originale e non devono essere tradotti:
+- **Crediti di gioco (`system/creditlisttext.json`)**: i crediti di gioco non vanno mai tradotti. Il campo `translation` deve coincidere identico e tale e quale con l'originale (`original`); il validatore verifica l'uguaglianza.
+- **Titoli musicali dell'Orchestrion (`housing/orchestrion.json`)**: i titoli dei brani (`name` / `translation_name`) conservano i titoli originali delle musiche e non vanno mai tradotti; si traducono esclusivamente i testi descrittivi (`description` / `translation_description`). Anche qui il validatore verifica che il titolo resti identico.
+
+### Regola H: Unità di misura e pesi eorzeani
+Le unità di misura di Eorzea seguono un adattamento morfologico preciso e regolare stabilito per decisione editoriale:
+- **Distanza e Lunghezza (genere maschile)**: mantengono la desinenza in *-m* al singolare e prendono la desinenza in *-mi* al plurale:
+  - *ilm* (sing.) / *ilmi* (plur.) [pollice]
+  - *fulm* (sing.) / *fulmi* (plur.) [piede]
+  - *yalm* (sing.) / *yalmi* (plur.) [iarda] (es. *«dieci maledetti yalmi»*)
+  - *malm* (sing.) / *malmi* (plur.) [miglio]
+- **Peso (genere femminile)**: si adattano come nomi femminili della prima declinazione in *-a* al singolare e in *-e* al plurale:
+  - *onza* (sing.) / *onze* (plur.) [oncia]
+  - *ponza* (sing.) / *ponze* (plur.) [libbra]
+  - *tonza* (sing.) / *tonze* (plur.) [tonnellata]
+Il validatore controlla il numero dell'unità nell'originale e segnala quando nella traduzione manca la forma italiana corrispondente. Mantieni l'unità nella frase e accorda articoli e aggettivi secondo genere e numero.
+
 
 ### Parlato delle Società Alleate e dei popoli affini
 
