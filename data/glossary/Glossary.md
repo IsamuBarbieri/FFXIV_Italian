@@ -42,7 +42,7 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Name | Nome | `system/addon.json#293:original` |  |
 | Level | Livello | `system/addon.json#335:original` |  |
 | Item Level | Livello Oggetto | Decisione dell'utente | Controllo automatico: residuo. Nome della statistica di potenza degli oggetti. Nelle etichette di menu, shop e tabelle con vincoli di spazio usare «Liv.Ogg.» (variante ammessa; Varianti ammesse in etichette: «Liv.Ogg.»). |
-| IL | Liv.Ogg. | Decisione dell'utente | Controllo automatico: residuo. Abbreviazione canonica di Item Level (Livello Oggetto). Rispecchia il francese «NvObj» e il tedesco «G.-St.». Varianti ammesse in prosa: «Liv.Ogg.». |
+| IL | Liv.Ogg. | Decisione dell'utente | Abbreviazione canonica di Item Level (Livello Oggetto). Rispecchia il francese «NvObj» e il tedesco «G.-St.». Varianti ammesse in prosa: «Liv.Ogg.». |
 | Rank | Grado | `system/addon.json#732:original` | Nel Mahjong indica la posizione in classifica; varianti ammesse in prosa: «Posizione». |
 | Equipment | Equipaggiamento | `system/addon.json#11333:original` |  |
 | Gear | Equipaggiamento | `system/addon.json#852:original` |  |
@@ -263,9 +263,10 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Scrip | Gettone | Decisione dell'utente | Valuta degli Artigiani e dei Raccoglitori; al plurale usare «Gettoni degli Artigiani/dei Raccoglitori». |
 | Simular | Simulacro | Decisione dell'utente | Categoria di mangime; nei nomi composti usare «Simulacro di [ingrediente]» e al plurale «Simulacri di [ingrediente]». |
 | EXP | ESP | Decisione dell'utente | Controllo automatico: residuo. Sigla italiana dei punti esperienza; usare «ESP» nelle etichette e descrizioni (es. «Bonus ESP»). Riferimento: `items/item.json#2632:translation_col_2`. |
-| Rolanberry | bacca Rolan | Decisione dell'utente | Controllo automatico: residuo. Nome del frutto e ingrediente, femminile: «la bacca Rolan», «della bacca Rolan». Nei nomi di ricette usare la forma idiomatica «alle bacche Rolan»; accordare articoli e aggettivi al femminile plurale (es. «le bacche Rolan essiccate e aspre»). Riferimento: `items/item.json#4815:translation_name`. |
-| Rolanberries | bacche Rolan | Decisione dell'utente | Controllo automatico: residuo plurale. Plurale femminile: «le/delle/alle bacche Rolan»; concordare gli aggettivi (es. «bacche Rolan essiccate e aspre»). Riferimento: `items/item.json#4815:translation_description`. |
-| Rolanberry Red | Rosso Rolan | `items/stain.json#9:translation_name` | Nome della tonalità; nel nome dell'oggetto usare «Tintura Rosso Rolan», senza interpretare Rolanberry come frutto. |
+| Rolanberry | Rolanbacca | Decisione dell'utente | Controllo automatico: residuo. Nome del frutto e ingrediente, femminile: «la Rolanbacca», «della Rolanbacca». Nei nomi di ricette usare la forma idiomatica «alle Rolanbacche»; accordare articoli e aggettivi al femminile plurale (es. «le Rolanbacche essiccate e aspre»). Eccezione: «Rolanberry Field» è il nome proprio «Campo di Rolanbacche»; «Rolanberry children» indica i bambini del campo, non i frutti. Riferimento: `items/item.json#4815:translation_name`. |
+| Rolanberries | Rolanbacche | Decisione dell'utente | Controllo automatico: residuo plurale. Plurale femminile: «le/delle/alle Rolanbacche»; concordare gli aggettivi (es. «Rolanbacche essiccate e aspre»). Riferimento: `items/item.json#4815:translation_description`. |
+| Rolanberry Red | Rosso Rolan | `items/stain.json#9:name` | Nome della tonalità; nel nome dell'oggetto usare «Tintura Rosso Rolan», senza interpretare Rolanberry come frutto. |
+| Minotaur Malm | Il Malm del Minotauro / Malm del Minotauro | `world/placename.json#322:name` | Nome proprio della località; mantenere «Malm» anche nei composti (es. `world/placename.json#470:name`). |
 | Claret Dragon | Drago Cremisi | Decisione dell'utente | Nome della creatura; nel composto «Claret Dragon's Power» usare «Potere del Drago Cremisi». |
 | Scion of the Seventh Dawn | Erede della Settima Alba | `combat/companiontransient.json#91:description` | Nome invariabile per genere: al singolare «Erede della Settima Alba», al plurale «Eredi della Settima Alba». |
 | Scion | Erede | Decisione dell'utente | Forma singolare; «Erede» non varia per genere. |
@@ -336,6 +337,8 @@ Decisione dell'utente: adattamento morfologico delle unità di misura eorzeane:
 | ponzes | ponze | Decisione dell'utente | Plurale femminile. |
 | tonze | tonza | Decisione dell'utente | Unità di peso eorzeana (femminile, circa 1 tonnellata). |
 | tonzes | tonze | Decisione dell'utente | Plurale femminile. |
+
+Nel controllo delle unità, non declinare le forme che appartengono a nomi propri attestati: «Hell of Malms» / «Inferno dei Malm» (`world/placename.json#1773:name`), «Baldewyn Four Yalms» (`@review/world/bnpcname.json#1381:name`) e il titolo musicale «Six Fulms Under» (`housing/orchestrion.json#855:name`). Queste eccezioni valgono solo per i nomi indicati.
 
 ### Classi e mestieri
 
@@ -412,7 +415,7 @@ Decisione dell'utente: adattamento morfologico delle unità di misura eorzeane:
 | FSH | PES | `world/classjobcategory.json#19:original` | Sigla del Pescatore. |
 | PLD | PLD | `world/classjobcategory.json#20:original` | Sigla del Paladino. |
 | MNK | MNC | `world/classjobcategory.json#21:original` | Sigla del Monaco. |
-| WAR | GUE | `world/classjobcategory.json#22:original` | Sigla del Guerriero. |
+| WAR | GUE | `world/classjobcategory.json#22:original` | Sigla del Guerriero, applicata solo nelle categorie di classi e mestieri. |
 | DRG | DRG | `world/classjobcategory.json#23:original` | Sigla del Dragone. |
 | BRD | BRD | `world/classjobcategory.json#24:original` | Sigla del Bardo. |
 | WHM | MBI | `world/classjobcategory.json#25:original` | Sigla del Mago Bianco. |

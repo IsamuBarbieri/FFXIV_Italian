@@ -11,15 +11,15 @@ public class GlossaryComplianceResult
 
 public class GlossaryEngine
 {
-    private static readonly IReadOnlyDictionary<string, string> EorzeanMeasureForms = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+    private static readonly IReadOnlyDictionary<string, (string Singular, string Plural)> EorzeanMeasureForms = new Dictionary<string, (string Singular, string Plural)>(StringComparer.OrdinalIgnoreCase)
     {
-        ["ilm"] = "ilm", ["ilms"] = "ilmi",
-        ["fulm"] = "fulm", ["fulms"] = "fulmi",
-        ["yalm"] = "yalm", ["yalms"] = "yalmi",
-        ["malm"] = "malm", ["malms"] = "malmi",
-        ["onze"] = "onza", ["onzes"] = "onze",
-        ["ponze"] = "ponza", ["ponzes"] = "ponze",
-        ["tonze"] = "tonza", ["tonzes"] = "tonze"
+        ["ilm"] = ("ilm", "ilmi"), ["ilms"] = ("ilm", "ilmi"),
+        ["fulm"] = ("fulm", "fulmi"), ["fulms"] = ("fulm", "fulmi"),
+        ["yalm"] = ("yalm", "yalmi"), ["yalms"] = ("yalm", "yalmi"),
+        ["malm"] = ("malm", "malmi"), ["malms"] = ("malm", "malmi"),
+        ["onze"] = ("onza", "onze"), ["onzes"] = ("onza", "onze"),
+        ["ponze"] = ("ponza", "ponze"), ["ponzes"] = ("ponza", "ponze"),
+        ["tonze"] = ("tonza", "tonze"), ["tonzes"] = ("tonza", "tonze")
     };
 
     private static readonly Regex PhysicalDungeonContext = new(
@@ -31,6 +31,40 @@ public class GlossaryEngine
     private static readonly Regex DutyExitVoteContext = new(
         @"\bend duty\b.*\bmost votes\b.*\b(?:exit|leave the dungeon)\b",
         RegexOptions.IgnoreCase | RegexOptions.CultureInvariant | RegexOptions.Singleline);
+
+    private static bool IsPluralMeasureContext(string original, Match measure)
+    {
+        if (measure.Value.EndsWith('s')) return true;
+        string following = original[(measure.Index + measure.Length)..];
+        if (Regex.IsMatch(following, @"^\s+or\s+two\b", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
+            return true;
+        string preceding = original[..measure.Index];
+        var numeric = Regex.Match(preceding, @"(?<number>\d[\d,]*)[-\s]*$", RegexOptions.CultureInvariant);
+        if (numeric.Success && long.TryParse(numeric.Groups["number"].Value.Replace(",", ""), out long count))
+            return count > 1;
+        var spelledNumber = Regex.Match(preceding,
+            @"\b(?<number>(?:twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety)(?:\s+|-)?(?:one|two|three|four|five|six|seven|eight|nine)?|zero|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen)(?:\s+|-)+$",
+            RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+        if (spelledNumber.Success)
+            return !spelledNumber.Groups["number"].Value.Equals("one", StringComparison.OrdinalIgnoreCase);
+        return Regex.IsMatch(preceding,
+            @"\b(?:many|several|numerous|multiple|few|various|hundreds?|thousands?)(?:\s+|-)(?:[\p{L}-]+\s+){0,3}$",
+            RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+    }
+
+    private static string RemoveKnownProperNamesFromMeasureCheck(string original)
+    {
+        return Regex.Replace(original,
+            @"\bHell of Malms\b|\bBaldewyn Four Yalms\b|\bSix Fulms Under\b",
+            "", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+    }
+
+    private static string RemoveKnownMeasureIdioms(string original)
+    {
+        return Regex.Replace(original,
+            @"\bevery ilm (?=(?:an|the|as)\b)|\bevery ilm of (?:these mines|the)\b|\bwithin an ilm of (?:its|one's|his|her) life\b|\bhardest yalms\b|\bI was malms away\b|\bevery last onze of\b|\bevery onze of\b|\bdon't do an onze of good\b|\ba tonze of research left to do\b|\ban ilm or two taller\b",
+            "", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+    }
 
     private static bool UsesExpeditionForPhysicalDungeon(string originalEn, string translatedIt)
     {
@@ -182,14 +216,27 @@ public class GlossaryEngine
         var translatedOutsideQuotedNames = Regex.Replace(translatedIt, "[“‘\\\"].*?[”’\\\"]", "");
 
         var reportedMeasureForms = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
-        foreach (Match measure in Regex.Matches(originalOutsideQuotedNames, @"(?<![\p{L}])[\p{L}]+(?![\p{L}])"))
+        var measureCheckSource = RemoveKnownMeasureIdioms(RemoveKnownProperNamesFromMeasureCheck(originalOutsideQuotedNames));
+        foreach (Match measure in Regex.Matches(measureCheckSource, @"(?<![\p{L}])[\p{L}]+(?![\p{L}])"))
         {
-            if (!EorzeanMeasureForms.TryGetValue(measure.Value, out string? expectedForm)) continue;
-            if (!Regex.IsMatch(translatedOutsideQuotedNames,
+            if (!EorzeanMeasureForms.TryGetValue(measure.Value, out var forms)) continue;
+            string expectedForm = IsPluralMeasureContext(measureCheckSource, measure) ? forms.Plural : forms.Singular;
+            bool hasExpectedForm = Regex.IsMatch(translatedOutsideQuotedNames,
                     $@"(?<![\p{{L}}]){Regex.Escape(expectedForm)}(?![\p{{L}}])",
-                    RegexOptions.IgnoreCase | RegexOptions.CultureInvariant) && reportedMeasureForms.Add(measure.Value))
+                    RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+            bool usesGrammaticalSingularAfterQualche = expectedForm.Equals(forms.Plural, StringComparison.OrdinalIgnoreCase) &&
+                Regex.IsMatch(translatedOutsideQuotedNames,
+                    $@"\bqualche\s+{Regex.Escape(forms.Singular)}\b",
+                    RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+            if (!hasExpectedForm && !usesGrammaticalSingularAfterQualche && reportedMeasureForms.Add(measure.Value + "=" + expectedForm))
                 result.Warnings.Add($"Unità eorzeana «{measure.Value}»: in italiano usare «{expectedForm}» (verificare genere e numero).");
         }
+
+        bool sourceHasItemLevel = Regex.IsMatch(originalOutsideQuotedNames, @"\bItem Level\b", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant) ||
+            Regex.IsMatch(originalOutsideQuotedNames, @"(?<![\p{L}])IL\s*:?\s*\d+\b", RegexOptions.CultureInvariant);
+        bool translationKeepsEnglishItemLevel = Regex.IsMatch(translatedOutsideQuotedNames, @"(?<![\p{L}])IL\s*:?\s*\d+\b", RegexOptions.CultureInvariant);
+        if (sourceHasItemLevel && translationKeepsEnglishItemLevel)
+            result.Warnings.Add("Sigla Item Level «IL» ancora presente: usare «Liv.Ogg.» o «Livello Oggetto».");
 
         if (checkActivityCategories)
         {
@@ -224,6 +271,13 @@ public class GlossaryEngine
         }
 
         bool hasExactTerm = index.ExactTerms.TryGetValue(trimmedOriginal, out var exactTerm);
+        // WAR means the Warrior job only in the class/job category sheet; racing dialogue uses the ordinary word.
+        if (hasExactTerm && exactTerm!.Term.Equals("WAR", StringComparison.OrdinalIgnoreCase) &&
+            normalizedContext?.EndsWith("/world/classjobcategory.json", StringComparison.OrdinalIgnoreCase) != true)
+        {
+            hasExactTerm = false;
+            exactTerm = null;
+        }
         if (hasExactTerm && !exactTerm!.Variants.Contains(translatedIt.Trim(), StringComparer.OrdinalIgnoreCase))
             result.Warnings.Add($"'{exactTerm.Term}' → {string.Join(" / ", exactTerm.Variants)} (fonte: {exactTerm.RuleId}).");
 
@@ -235,9 +289,16 @@ public class GlossaryEngine
                  !(normalizedContext.Equals("items/item.json", StringComparison.OrdinalIgnoreCase) ||
                    normalizedContext.EndsWith("/items/item.json", StringComparison.OrdinalIgnoreCase))))
                 continue;
-            if (group.Term.Equals("Birdsong", StringComparison.OrdinalIgnoreCase) &&
-                Regex.IsMatch(originalOutsideQuotedNames, @"\bOrchestrion Roll\b", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
+            if (group.Term.Equals("Birdsong (gear)", StringComparison.OrdinalIgnoreCase) &&
+                (Regex.IsMatch(originalOutsideQuotedNames, @"\bOrchestrion Rolls?\b", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant) ||
+                 (normalizedContext?.EndsWith("/items/item.json", StringComparison.OrdinalIgnoreCase) == true &&
+                   trimmedOriginal.Equals("Birdsong", StringComparison.OrdinalIgnoreCase))))
                 continue;
+            if (group.Term.Equals("Rolanberry", StringComparison.OrdinalIgnoreCase) &&
+                Regex.IsMatch(originalOutsideQuotedNames, @"\bRolanberry children\b", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
+                continue;
+            // The IL abbreviation has a dedicated case-sensitive check above; an IgnoreCase glossary regex also sees Italian "il".
+            if (group.Term.Equals("IL", StringComparison.OrdinalIgnoreCase)) continue;
             if (hasExactTerm && group.Term.Equals(trimmedOriginal, StringComparison.OrdinalIgnoreCase)) continue;
             if (group.Pattern!.IsMatch(originalOutsideQuotedNames) && group.Pattern.IsMatch(translatedOutsideQuotedNames))
                 result.Warnings.Add($"Termine inglese ancora presente: '{group.Term}' → {string.Join(" / ", group.Variants)} (fonte: {group.RuleId}).");

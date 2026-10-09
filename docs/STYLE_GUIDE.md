@@ -72,7 +72,7 @@ Le unità di misura di Eorzea seguono un adattamento morfologico preciso e regol
   - *onza* (sing.) / *onze* (plur.) [oncia]
   - *ponza* (sing.) / *ponze* (plur.) [libbra]
   - *tonza* (sing.) / *tonze* (plur.) [tonnellata]
-Il validatore controlla il numero dell'unità nell'originale e segnala quando nella traduzione manca la forma italiana corrispondente. Mantieni l'unità nella frase e accorda articoli e aggettivi secondo genere e numero.
+Quando il riferimento alla misura è letterale, mantieni l'unità e accorda articoli e aggettivi secondo genere e numero. Il validatore verifica la forma corrispondente; «qualche» regge correttamente il singolare anche con valore plurale (es. «qualche ilm»). Se la misura compare in un'espressione idiomatica inglese («every ilm the…», «within an ilm of one's life», «I was malms away», «every last onze of…», «every onze of dedication», «a tonze of research left to do», «an ilm or two taller»), traducine il senso in modo naturale: non forzare un'unità che in italiano suonerebbe innaturale. Aggiungi al validatore un'eccezione mirata per ogni idiom verificato.
 
 
 ### Parlato delle Società Alleate e dei popoli affini
