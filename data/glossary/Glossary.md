@@ -819,6 +819,37 @@ Le voci identificano strutture, aree, visioni, missioni e mammets del Rifugio In
 | Chirpy Chocobo | Chocobo Cinguettante | Decisione dell'utente | Mascotte dei festeggiamenti (fête) della Ricostruzione di Ishgard («Tosatura dello Yak»). Riferimento: `dialogue/balloon.json#6318:translation`. |
 | Mighty Moogle | Moguri Possente | Decisione dell'utente | Mascotte dei festeggiamenti (fête) della Ricostruzione di Ishgard («Fatti di Stoffa Morbida»). Riferimento: `dialogue/balloon.json#6317:translation`. |
 | Perky Piggy | Porcellino Vispo | Decisione dell'utente | Mascotte dei festeggiamenti (fête) della Ricostruzione di Ishgard («Caccia al Balocco»). Riferimento: `dialogue/balloon.json#6304:translation`. |
+| Iceheart | Cuore di Ghiaccio | Decisione dell'utente | Nome tradotto; al plurale «Cuori di Ghiaccio». Mantenere le maiuscole del nome proprio e scrivere «a molla» con la minuscola. |
+| Coeurlfist | Pugno di Coeurl | Decisione dell'utente | Soprannome; tradurre solo «Fist» e conservare «Coeurl». |
+| magitek avenger | vendicatore magitec | Decisione dell'utente | Nome comune di macchina; plurale «vendicatori magitec» e minuscolo nei campi che hanno la fonte minuscola. |
+| white whittret | donnola bianca | Decisione dell'utente | Nome comune della creatura; concordare l'aggettivo al plurale («donnole bianche»). |
+| bridesmoogle | moguri nuziale | Decisione dell'utente | Nome comune della creatura; «moguri» resta invariabile e l'aggettivo concorda («moguri nuziali» al plurale). |
+| Redback | Dorsorosso | Decisione dell'utente | Nome proprio del minion; plurale «Dorsorossi» quando la fonte indica più esemplari. |
+| Minitek | minitec | Decisione dell'utente | Adattamento di «magitek» usato come nome comune; rispettare il minuscolo salvo inizio frase. |
+| bitty duckbill | ornitorinco minuscolo | Decisione dell'utente | Nome comune della creatura; concordare al plurale («ornitorinchi minuscoli»). |
+| gimme kitten | gattino scroccone | Decisione dell'utente | Nome comune del minion; concordare al plurale («gattini scrocconi»). |
+| puny mage | maghetto minuscolo | Decisione dell'utente | Nome comune; concordare al plurale («maghetti minuscoli»). |
+| flame recruit | recluta della fiamma | Decisione dell'utente | Ruolo militare; mantenere «fiamma» minuscolo e concordare al plurale. |
+| magic pot | vaso magico | Decisione dell'utente | Nome comune della creatura; usare «vasi magici» al plurale. |
+| Ascian | Ascian / Asciani | Decisione dell'utente | Nome del popolo; singolare «Ascian», plurale «Asciani». |
+| flame private | soldato semplice della fiamma | Decisione dell'utente | Grado militare; forme femminili «soldatessa semplice» e «soldatesse semplici»; «fiamma» minuscolo. |
+| Silent Moss the Solemn | Muschio Silente il Solenne | Decisione dell'utente | Nome proprio e titolo; conservare maiuscole e ordine della resa. |
+| glaring goodwife | massaia furiosa | Decisione dell'utente | Nome comune dell'NPC; concordare al plurale («massaie furiose»). |
+| House Fortemps guard | Guardia della Casata Fortemps | Decisione dell'utente | Ruolo; usare la maiuscola nella denominazione autonoma, la minuscola nella prosa; «Casata Fortemps» è un nome proprio. |
+| House Fortemps knight | Cavaliere della Casata Fortemps / Cavaliera della Casata Fortemps / Cavalieri della Casata Fortemps | Decisione dell'utente | Ruolo; concordare genere e numero («Cavaliere/Cavalieri», «Cavaliera/Cavalieri» secondo il referente). |
+| adventurous frontier hand | lavoratore di frontiera avventuroso | Decisione dell'utente | Ruolo; concordare genere e numero con il referente. |
+| Tailfeather hunter | Cacciatore di Codapiuma | Decisione dell'utente | Ruolo nei nomi autonomi; nella prosa usare la minuscola e concordare il numero («cacciatori»). Codapiuma resta un nome proprio. |
+| moogle | moguri | Decisione dell'utente | Nome comune della specie, invariabile al plurale; minuscolo salvo inizio frase o nome proprio. Per «one-minded moogle», conservare l'aggettivo già presente: «moguri risoluto». |
+| Imperial pilus prior | Primipilo imperiale | Decisione dell'utente | Grado militare; plurale «Primipili imperiali». |
+| Serpent Commander Heuloix | Comandante della Vipera Heuloix | Decisione dell'utente | Titolo e nome proprio; conservare le maiuscole della forma del nome. |
+| graverobber | tombarolo | Decisione dell'utente | Nome comune di ruolo; concordare al plurale («tombaroli»). |
+| Skysteel engineer | Ingegnere di Ferrocielo | Decisione dell'utente | Ruolo nei nomi autonomi; plurale «Ingegneri di Ferrocielo». Nella prosa usare la minuscola. |
+| Bombardier researcher | ricercatore dei Bombardieri | Decisione dell'utente | Ruolo; concordare genere e numero, mantenendo «Bombardieri» come nome proprio della compagnia. |
+| Wood Wailer sentry | Sentinella Guardabosco | Decisione dell'utente | Ruolo; usare il plurale «Sentinelle Guardabosco». |
+| Bloody Executioner deckhand | Mozzo degli Esecutori Sanguinari | Decisione dell'utente | Ruolo; concordare «Mozzo/Mozzi» e conservare il nome della nave. |
+| lightning sprite | elementale del fulmine | Decisione dell'utente | Nome comune della creatura; plurale «elementali del fulmine». |
+| magitek | magitec | Decisione dell'utente | Adattamento italiano; mantenere invariabile e rispettare il maiuscolo/minuscolo della fonte. Anche il composto «Praemagitek» diventa «Praemagitec». |
+| Alexandrian | Alexandrino | Decisione dell'utente | Aggettivo/etnonimo; declinare in genere e numero («Alexandrina», «Alexandrini», «Alexandrine»); lasciare «Alexandria» invariato come toponimo. |
 
 ### Eventi e termini di lore
 
