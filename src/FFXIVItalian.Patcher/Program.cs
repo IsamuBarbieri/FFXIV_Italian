@@ -58,7 +58,7 @@ var meta = new PenumbraMeta
     Name = "FFXIV Italiano (Test In-Game)",
     Author = "FFXIV Italian Community",
     Description = "Localizzazione italiana professionale: Schermata del Titolo (START, EXIT, CONFIGURAZIONE), Creazione Personaggio e Interfaccia di Sistema.",
-    Version = "0.2.0-title-test",
+    Version = "1.0",
     Website = "https://github.com/IsamuBarbieri/FFXIV_Italian"
 };
 
