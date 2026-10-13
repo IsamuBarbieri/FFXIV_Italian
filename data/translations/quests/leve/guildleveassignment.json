@@ -1,0 +1,452 @@
+{
+  "0": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_TITLE",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_TITLE",
+    "description": "What might you be interested in today?",
+    "translation_description": "Che cosa ti interessa oggi?"
+  },
+  "1": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_00",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_00",
+    "description": "Battlecraft Leves.",
+    "translation_description": "Mandati di Combattimento."
+  },
+  "2": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_01",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_01",
+    "description": "Fieldcraft Leves.",
+    "translation_description": "Mandati di Raccolta."
+  },
+  "3": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_02",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_02",
+    "description": "Tradecraft Leves.",
+    "translation_description": "Mandati di Artigianato."
+  },
+  "4": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_03",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_03",
+    "description": "Faction Leves.",
+    "translation_description": "Mandati di Fazione."
+  },
+  "5": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_04",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_04",
+    "description": "Tutorial Leves.",
+    "translation_description": "Mandati di Addestramento."
+  },
+  "6": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_05",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_05",
+    "description": "Leve History Evaluation.",
+    "translation_description": "Valutazione della Cronologia Mandati."
+  },
+  "7": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_06",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_06",
+    "description": "Information on leves.",
+    "translation_description": "Informazioni sui mandati."
+  },
+  "8": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_07",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_07",
+    "description": "Nothing.",
+    "translation_description": "Niente."
+  },
+  "9": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_08",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_08",
+    "description": "Maelstrom Leves.",
+    "translation_description": "Mandati della Tempesta."
+  },
+  "10": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_09",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_09",
+    "description": "Order of the Twin Adder Leves.",
+    "translation_description": "Mandati dell'Ordine della Vipera Gemella."
+  },
+  "11": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_10",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_10",
+    "description": "Immortal Flames Leves.",
+    "translation_description": "Mandati delle Fiamme Immortali."
+  },
+  "12": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_11",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_11",
+    "description": "Supply & Provisioning Missions.",
+    "translation_description": "Missioni di Rifornimento e Approvvigionamento."
+  },
+  "13": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_REWARD",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_REWARD",
+    "description": "Collect Reward.",
+    "translation_description": "Ritira la Ricompensa."
+  },
+  "14": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_BATTLE_MULTI",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_BATTLE_MULTI",
+    "description": "Large-scale Battlecraft Leves. (Allowances required: <hex:022815FF114C65766553797374656D446566696E65580203>)",
+    "translation_description": "Mandati di Combattimento su Larga Scala. (Permessi necessari: <hex:022815FF114C65766553797374656D446566696E65580203>)"
+  },
+  "15": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_GATHER_MULTI",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_GATHER_MULTI",
+    "description": "Large-scale Fieldcraft Leves. (Allowances required: <hex:022815FF114C65766553797374656D446566696E65580203>)",
+    "translation_description": "Mandati di Raccolta su Larga Scala. (Permessi necessari: <hex:022815FF114C65766553797374656D446566696E65580203>)"
+  },
+  "16": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_CRAFT_MULTI",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_SELECT_MENU_CRAFT_MULTI",
+    "description": "Large-scale Tradecraft Leves. (Allowances required: <hex:022815FF114C65766553797374656D446566696E65580203>)",
+    "translation_description": "Mandati di Artigianato su Larga Scala. (Permessi necessari: <hex:022815FF114C65766553797374656D446566696E65580203>)"
+  },
+  "17": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_ADD_REWARD_BY_GATHERING",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_ADD_REWARD_BY_GATHERING",
+    "description": "A <hex:022003E80203>% bonus has been awarded for excellent performance.",
+    "translation_description": "Un bonus del <hex:022003E80203>% è stato assegnato per l'ottima prestazione."
+  },
+  "18": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_ADD_REWARD_BY_GCLEVE",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_ADD_REWARD_BY_GCLEVE",
+    "description": "A bonus has been awarded based on:<hex:020826E802FF2002100103202D204772616E6420436F6D70616E7920656E6C6973746D656E74FF0103><hex:020820E803FF1A02100103202D204F766572616C6C206576616C756174696F6EFF0103>",
+    "translation_description": "È stato assegnato un bonus in base a:<hex:020831E802FF2B02100103202D20417272756F6C616D656E746F206E656C6C61204772616E646520436F6D7061676E6961FF0103><hex:020825E803FF1F02100103202D2056616C7574617A696F6E6520636F6D706C657373697661FF0103>"
+  },
+  "19": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_ADD_REWARD_BY_DIFFICULTY",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_ADD_REWARD_BY_DIFFICULTY",
+    "description": "A bonus has been awarded based on:<hex:02082CE802FF2602100103202D20446966666963756C7479020811E803FF01FF0B020807E804FF01FF010303FF0103><hex:02082BE803FF2502100103202D205370656564206F6620636F6D706C6574696F6E020807E804FF01FF0103FF0103><hex:02081EE804FF1802100103202D20426F756E747920636F6C6C6563746564FF0103>",
+    "translation_description": "È stato assegnato un bonus in base a:<hex:02082DE802FF2702100103202D204469666669636F6C74C3A0020811E803FF01FF0B020807E804FF01FF010303FF0103><hex:020832E803FF2C02100103202D2056656C6F636974C3A020646920636F6D706C6574616D656E746F020807E804FF01FF0103FF0103><hex:02081DE804FF1702100103202D205461676C696120726973636F737361FF0103>"
+  },
+  "20": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_ADD_REWARD_BY_BONUS",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_ADD_REWARD_BY_BONUS",
+    "description": "A bonus has been awarded based on:<hex:02082BE803FF2502100103202D205370656564206F6620636F6D706C6574696F6E020807E804FF01FF0103FF0103><hex:02081EE804FF1802100103202D20426F756E747920636F6C6C6563746564FF0103>",
+    "translation_description": "È stato assegnato un bonus in base a:<hex:020832E803FF2C02100103202D2056656C6F636974C3A020646920636F6D706C6574616D656E746F020807E804FF01FF0103FF0103><hex:02081DE804FF1702100103202D205461676C696120726973636F737361FF0103>"
+  },
+  "21": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_NOT_GET_REWARD_BATTLE",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_NOT_GET_REWARD_BATTLE",
+    "description": "Your current class does not belong to the Disciplines of War or Magic. No experience was earned.",
+    "translation_description": "La tua classe attuale non è tra quelle dei Discepoli della Guerra o della Magia. Non hai ottenuto esperienza."
+  },
+  "22": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_NOT_ENOUGH_FACTION_TICKET",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_NOT_ENOUGH_FACTION_TICKET",
+    "description": "You lack the credits necessary to participate in any of the available faction levequests.",
+    "translation_description": "Non hai i crediti necessari per partecipare a nessuno dei mandati di fazione disponibili."
+  },
+  "23": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_NOT_SELECTABLE",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_NOT_SELECTABLE",
+    "description": "This option is unavailable.",
+    "translation_description": "Questa opzione non è disponibile."
+  },
+  "24": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_EXPLAIN_MENU_TITLE",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_EXPLAIN_MENU_TITLE",
+    "description": "What would you like to know?",
+    "translation_description": "Che cosa desideri sapere?"
+  },
+  "25": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_EXPLAIN_MENU_00",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_EXPLAIN_MENU_00",
+    "description": "What are leves?",
+    "translation_description": "Che cosa sono i mandati?"
+  },
+  "26": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_EXPLAIN_MENU_01",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_EXPLAIN_MENU_01",
+    "description": "What are leve allowances?",
+    "translation_description": "Che cosa sono i permessi per i mandati?"
+  },
+  "27": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_EXPLAIN_MENU_02",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_EXPLAIN_MENU_02",
+    "description": "What is leve linking?",
+    "translation_description": "Che cos'è il collegamento dei mandati?"
+  },
+  "28": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_EXPLAIN_MENU_03",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_EXPLAIN_MENU_03",
+    "description": "What are battlecraft leves?",
+    "translation_description": "Che cosa sono i mandati di combattimento?"
+  },
+  "29": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_EXPLAIN_MENU_04",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_EXPLAIN_MENU_04",
+    "description": "What are fieldcraft leves?",
+    "translation_description": "Che cosa sono i mandati di raccolta?"
+  },
+  "30": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_EXPLAIN_MENU_05",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_EXPLAIN_MENU_05",
+    "description": "What are tradecraft leves?",
+    "translation_description": "Che cosa sono i mandati di artigianato?"
+  },
+  "31": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_EXPLAIN_MENU_06",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_EXPLAIN_MENU_06",
+    "description": "What are wanted targets?",
+    "translation_description": "Che cosa sono i bersagli ricercati?"
+  },
+  "32": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_EXPLAIN_MENU_07",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_EXPLAIN_MENU_07",
+    "description": "What if I find a treasure coffer?",
+    "translation_description": "Che cosa devo fare se trovo un forziere del tesoro?"
+  },
+  "33": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_EXPLAIN_MENU_08",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_EXPLAIN_MENU_08",
+    "description": "What are faction-sponsored levequests?",
+    "translation_description": "Che cosa sono i mandati di fazione?"
+  },
+  "34": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_EXPLAIN_MENU_09",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_EXPLAIN_MENU_09",
+    "description": "What is leve history evaluation?",
+    "translation_description": "Che cos'è la valutazione della cronologia dei mandati?"
+  },
+  "35": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_EXPLAIN_MENU_10",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_EXPLAIN_MENU_10",
+    "description": "Nothing in particular.",
+    "translation_description": "Niente in particolare."
+  },
+  "36": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_GUILDLEVE_00",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_GUILDLEVE_00",
+    "description": "In a realm as large as this one, there will always be those who are looking for someone willing to assist them with their troubles. Instead of doing the searching on their own, they often come to a local guild or similar organization to have their petition documented.",
+    "translation_description": "In un regno vasto come questo c'è sempre chi cerca qualcuno disposto ad aiutarlo a risolvere i propri problemi. Invece di cercare da sé, spesso si rivolge a una gilda locale o a un'organizzazione simile per far registrare la propria richiesta."
+  },
+  "37": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_GUILDLEVE_01",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_GUILDLEVE_01",
+    "description": "These tasks are called “levequests,” and if someone happens to be interested in accepting one, they are presented with a leve plate that is used in conjunction with the quest. Leve plates are, in effect, passes which grant their bearers “leave” to perform various actions which might otherwise be prohibited, such as the eradication of beasts, admittance to restricted areas, and more.",
+    "translation_description": "Questi incarichi sono chiamati «mandati» e, se qualcuno desidera accettarne uno, gli viene consegnata una piastra del mandato da usare durante il mandato. In pratica, le piastre sono permessi che autorizzano chi le porta a compiere azioni altrimenti vietate, come eliminare bestie, accedere a zone riservate e altro ancora."
+  },
+  "38": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_TICKET_00",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_TICKET_00",
+    "description": "To ensure that the available tasks are distributed evenly amongst all those who seek employment, a limit has been placed on the number of leves that one may accept at any one time.",
+    "translation_description": "Per garantire che gli incarichi disponibili siano distribuiti equamente tra chi cerca lavoro, è stato fissato un limite al numero di mandati che si possono accettare contemporaneamente."
+  },
+  "39": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_TICKET_01",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_TICKET_01",
+    "description": "Every 12 hours (Earth time) adventurers will receive three <hex:024804F201F403><hex:024904F201F503>leve allowances<hex:0249020103><hex:0248020103>. These allowances can be used to purchase new leves, or re-challenge those which were failed or abandoned. The maximum number of allowances one can possess is one hundred.",
+    "translation_description": "Ogni 12 ore (ora terrestre), gli avventurieri ricevono tre <hex:024804F201F403><hex:024904F201F503>permessi per i mandati<hex:0249020103><hex:0248020103>. Questi permessi consentono di accettare nuovi mandati o di riprovare quelli falliti o abbandonati. Si possono possedere al massimo cento permessi."
+  },
+  "40": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_LEVE_LINK_00",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_LEVE_LINK_00",
+    "description": "When multiple party members all possess the same battlecraft leve, they will have the opportunity to perform what is called a “leve link.”",
+    "translation_description": "Quando più membri di un gruppo hanno lo stesso mandato di combattimento, possono unirsi per affrontarlo, in quello che viene chiamato «collegamento dei mandati»."
+  },
+  "41": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_LEVE_LINK_01",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_LEVE_LINK_01",
+    "description": "This will assure that due credit is given for the completion of the task, and prevent the need for repeating the same levequest twice.",
+    "translation_description": "In questo modo tutti riceveranno il giusto riconoscimento per aver completato l'incarico, senza dover ripetere due volte lo stesso mandato."
+  },
+  "42": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_BATTLE_LEVE_00",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_BATTLE_LEVE_00",
+    "description": "Battlecraft leves are intended for Disciples of War or Magic, as they most often involve the slaying or pacification of a target. After obtaining the corresponding leve plate, these quests can be initiated from your journal.",
+    "translation_description": "I mandati di combattimento sono pensati per i Discepoli della Guerra o della Magia, poiché spesso richiedono di uccidere o placare un bersaglio. Dopo aver ottenuto la relativa piastra del mandato, puoi avviarli dal diario."
+  },
+  "43": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_GATHERING_LEVE_00",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_GATHERING_LEVE_00",
+    "description": "Fieldcraft leves are intended for Disciples of the Land, and require that the proper tools be equipped before initiation. Fishing leves, while classified as fieldcraft leves, are conducted in a manner similar to tradecraft leves in that they are initiated as soon as you obtain the plates.",
+    "translation_description": "I mandati di raccolta sono pensati per i Discepoli della Terra e richiedono che tu abbia equipaggiato gli strumenti adatti prima di avviarli. I mandati di pesca, sebbene classificati come mandati di raccolta, seguono modalità simili a quelli di artigianato: si avviano non appena ottieni le piastre."
+  },
+  "44": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_GATHERING_LEVE_01",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_GATHERING_LEVE_01",
+    "description": "Also, fieldcraft levequests other than those of the fishing variety must be performed alone.",
+    "translation_description": "Inoltre, i mandati di raccolta, fatta eccezione per quelli di pesca, devono essere svolti in solitaria."
+  },
+  "45": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_CRAFT_LEVE_00",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_CRAFT_LEVE_00",
+    "description": "Tradecraft leves are intended for Disciples of the Hand, and unlike other types of levequests, have no time limits, and are initiated automatically upon obtaining the plates.",
+    "translation_description": "I mandati di artigianato sono pensati per i Discepoli della Mano e, a differenza degli altri tipi di mandato, non hanno limiti di tempo e si avviano automaticamente quando ottieni le piastre."
+  },
+  "46": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_CRAFT_LEVE_01",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_CRAFT_LEVE_01",
+    "description": "Once a levequest objective has been crafted, it must be delivered personally to the client to collect your reward. The client can be confirmed in your journal.",
+    "translation_description": "Una volta fabbricato l'oggetto richiesto dal mandato, devi consegnarlo di persona al committente per ritirare la ricompensa. Puoi consultare il nome del committente nel diario."
+  },
+  "47": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_WANTED_00",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_WANTED_00",
+    "description": "On rare occasions while undertaking battlecraft levequests, you will come across creatures with bounties on their heads.",
+    "translation_description": "Di rado, durante un mandato di combattimento, potresti imbatterti in creature ricercate sulle quali grava una taglia."
+  },
+  "48": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_WANTED_01",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_WANTED_01",
+    "description": "While you need not engage them to complete your levequest objectives, slaying the wanted targets will earn you the price of their bounty.",
+    "translation_description": "Non è necessario affrontarle per completare l'obiettivo del mandato, ma uccidendo i bersagli ricercati incasserai la taglia."
+  },
+  "49": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_TREASURE_00",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_TREASURE_00",
+    "description": "If you happen to discover a treasure coffer while on a levequest, you are entitled to the contents within, as are your party members.",
+    "translation_description": "Se durante un mandato trovi un forziere del tesoro, hai diritto al suo contenuto, così come i membri del tuo gruppo."
+  },
+  "50": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_TREASURE_01",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_TREASURE_01",
+    "description": "All party members should check the coffer individually, as not to miss out on their share of the loot.",
+    "translation_description": "Ogni membro del gruppo dovrebbe controllare personalmente il forziere, così da non perdere la propria parte del bottino."
+  },
+  "51": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_FACTION_00",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_FACTION_00",
+    "description": "Eorzea plays host to numerous civilian organizations, both great and small, which represent the many and varied interests of her people. Three of the largest and most influential of these take a keen interest in adventurer activity.",
+    "translation_description": "Eorzea ospita numerose organizzazioni civili, grandi e piccole, che rappresentano gli interessi più disparati dei suoi abitanti. Tre delle più grandi e influenti seguono con particolare interesse le attività degli avventurieri."
+  },
+  "52": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_FACTION_01",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_FACTION_01",
+    "description": "They are the Brotherhood of the Broken Blade―a group of vigilantes who are convinced the beast tribes will one day destroy the realm, unless they destroy them first; Azeyma's Shields―self-proclaimed protectors of the weak and enemies of evil; and the Horn and Hand―a band of scholars and scientists, merchants and moneylenders who seek to gain fame (and fortune) by aiding in the outfitting of adventurers.",
+    "translation_description": "Sono la Brotherhood of the Broken Blade―un gruppo di vigilanti convinti che le tribù delle bestie finiranno per distruggere il regno, a meno che i vigilanti non le annientino prima; Azeyma's Shields―sedicenti protettori dei deboli e nemici del male; e la Horn and Hand―un gruppo di studiosi e scienziati, mercanti e prestatori di denaro che cerca fama (e fortuna) aiutando a equipaggiare gli avventurieri."
+  },
+  "53": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_FACTION_02",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_FACTION_02",
+    "description": "To extend their influence throughout Eorzea, each of these “factions” sponsors levequests which coincide with their particular area of interest. Completing a levequest sponsored by a certain faction not only earns you “credits,” but also increases the influence that faction has in the area where the levequest was completed.",
+    "translation_description": "Per estendere la propria influenza in tutta Eorzea, ciascuna di queste «fazioni» sponsorizza mandati in linea con i propri interessi. Completare un mandato sponsorizzato da una certa fazione non solo ti fa guadagnare «crediti», ma accresce anche l'influenza che essa esercita nella zona in cui il mandato è stato completato."
+  },
+  "54": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_FACTION_03",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_FACTION_03",
+    "description": "Faction credits earned after completing levequests can be used to gain access to special missions offered only to loyal followers. The factions often reward those who complete these tasks with rare items or generous amounts of gil.",
+    "translation_description": "I crediti di fazione ottenuti completando mandati permettono di accedere a missioni speciali, riservate ai seguaci più fedeli. Spesso le fazioni ricompensano chi porta a termine queste missioni con oggetti rari o generose quantità di gil."
+  },
+  "55": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_HISTORY_00",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_HISTORY_00",
+    "description": "Leve history evaluation provides skilled adventurers with tasks that best fit their abilities, while rewarding them for continued contribution to the city<hex:021F0103>state and realm.",
+    "translation_description": "La valutazione della cronologia dei mandati offre agli avventurieri esperti incarichi adatti alle loro capacità, ricompensandoli per il contributo continuo alla città<hex:021F0103>stato e al regno."
+  },
+  "56": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_HISTORY_01",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_HISTORY_01",
+    "description": "A record of completed levequests can be found in your <hex:024804F201F403><hex:024904F201F503>Leve History<hex:0249020103><hex:0248020103> located in your <hex:024804F201F403><hex:024904F201F503>Journal<hex:0249020103><hex:0248020103>. You must have completed at least six quests to be eligible for evaluation. Once an adventurer's past performance has been evaluated, he or she will be provided with a new quest in exchange for the used leve plates.",
+    "translation_description": "Un resoconto dei mandati completati si trova alla voce <hex:024804F201F403><hex:024904F201F503>Cronologia Mandati<hex:0249020103><hex:0248020103> del tuo <hex:024804F201F403><hex:024904F201F503>Diario<hex:0249020103><hex:0248020103>. Per poter accedere alla valutazione devi aver completato almeno sei mandati. Una volta valutate le tue prestazioni passate, riceverai un nuovo mandato in cambio delle piastre usate."
+  },
+  "57": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_HISTORY_02",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_HISTORY_02",
+    "description": "What is more, additional monetary or item bonuses will be awarded to those who succeed in fulfilling the new leve's objectives. These bonuses fluctuate depending on the original history evaluation, with certain combinations of leves earning adventurers better rewards than others.",
+    "translation_description": "Inoltre, se riesci a completare gli obiettivi del nuovo mandato, riceverai ulteriori bonus in denaro o in oggetti. L'entità del bonus varia in base alla valutazione della cronologia dei mandati: alcune combinazioni di mandati garantiscono ricompense migliori di altre."
+  },
+  "58": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_HISTORY_03",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_HISTORY_03",
+    "description": "To accept this new leve, you will be required to use one of your leve allowances. Faction leves, if offered, will never require credits.",
+    "translation_description": "Per accettare questo nuovo mandato dovrai usare uno dei tuoi permessi per i mandati. Se ti viene offerto un mandato di fazione, non saranno mai richiesti crediti."
+  },
+  "59": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_COMPANY_LEVE00",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_COMPANY_LEVE00",
+    "description": "Two types of tasks are offered here─one being Grand Company levequests, the other being supply and provisioning missions.",
+    "translation_description": "Qui vengono offerte due categorie di incarichi: i mandati di Grande Compagnia e le missioni di rifornimento e approvvigionamento della Grande Compagnia."
+  },
+  "60": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_COMPANY_LEVE01",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_COMPANY_LEVE01",
+    "description": "Grand Company levequests are various one-man tasks that have been deemed too important or dangerous to place in the hands of a normal adventurer.",
+    "translation_description": "I mandati di Grande Compagnia sono incarichi individuali, considerati troppo importanti o pericolosi per essere affidati a un normale avventuriero."
+  },
+  "61": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_COMPANY_LEVE02",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_COMPANY_LEVE02",
+    "description": "The Eorzean Alliance charter states that Grand Company levequests are to be made available to all adventurers enlisted in a Grand Company, regardless of allegiance.",
+    "translation_description": "Lo statuto dell'Alleanza Eorzeana stabilisce che i mandati di Grande Compagnia siano accessibili a tutti gli avventurieri arruolati in una Grande Compagnia, a prescindere dalla loro affiliazione."
+  },
+  "62": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_COMPANY_LEVE03",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_COMPANY_LEVE03",
+    "description": "However, Grand Companies will often provide members with bonuses for undertaking their own company's leves.",
+    "translation_description": "Tuttavia, spesso le Grandi Compagnie offrono bonus ai membri che svolgono i mandati della propria compagnia."
+  },
+  "63": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_COMPANY_LEVE04",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_COMPANY_LEVE04",
+    "description": "There are also other bonuses rewarded based on performance.",
+    "translation_description": "Sono previsti anche altri bonus, assegnati in base alle prestazioni."
+  },
+  "64": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_COMPANY_LEVE05",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_EXPLAIN_COMPANY_LEVE05",
+    "description": "Supply and provisioning missions entail the crafting or gathering and subsequent delivery of items requested by individual Grand Companies.",
+    "translation_description": "Le missioni di rifornimento e approvvigionamento della Grande Compagnia richiedono di fabbricare o raccogliere oggetti e poi consegnarli su richiesta delle singole Grandi Compagnie."
+  },
+  "65": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_CRAFT_LEVE_HOWTO_00",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_CRAFT_LEVE_HOWTO_00",
+    "description": "Tradecraft leves involve the crafting and delivery of various items.",
+    "translation_description": "I mandati di artigianato prevedono la creazione e la consegna di vari oggetti."
+  },
+  "66": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_CRAFT_LEVE_HOWTO_01",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_CRAFT_LEVE_HOWTO_01",
+    "description": "Depending on the client's needs, the items requested might range from simple weapons to ornate jewelry.",
+    "translation_description": "A seconda delle necessità del committente, gli oggetti richiesti possono spaziare da semplici armi a gioielli elaborati."
+  },
+  "67": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_GATHERING_LEVE_HOWTO_00",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_GATHERING_LEVE_HOWTO_00",
+    "description": "Fieldcraft leves involve the locating and gathering of various items found occurring in nature.",
+    "translation_description": "I mandati di raccolta consistono nel localizzare e raccogliere vari oggetti presenti in natura."
+  },
+  "68": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_GATHERING_LEVE_HOWTO_01",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_GATHERING_LEVE_HOWTO_01",
+    "description": "Depending on the type of item, you may need to journey into areas inhabited by powerful creatures.",
+    "translation_description": "A seconda dell'oggetto, potresti doverti avventurare in zone abitate da creature potenti."
+  },
+  "69": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_GATHERING_LEVE_HOWTO_02",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_GATHERING_LEVE_HOWTO_02",
+    "description": "It is recommended that, for these tasks, you employ stealth.",
+    "translation_description": "Per svolgere queste attività, è consigliabile muoversi furtivamente."
+  },
+  "70": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_COMPANY_LEVE_HOWTO_00",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_COMPANY_LEVE_HOWTO_00",
+    "description": "Grand Company levequests are various one-man tasks that have been deemed too important or dangerous to place in the hands of a normal adventurer.",
+    "translation_description": "I mandati di Grande Compagnia sono incarichi individuali, considerati troppo importanti o pericolosi per essere affidati a un normale avventuriero."
+  },
+  "71": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_COMPANY_LEVE_HOWTO_01",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_COMPANY_LEVE_HOWTO_01",
+    "description": "The Eorzean Alliance charter states that Grand Company levequests are to be made available to all adventurers enlisted in a Grand Company, regardless of allegiance.",
+    "translation_description": "Lo statuto dell'Alleanza Eorzeana stabilisce che i mandati di Grande Compagnia siano accessibili a tutti gli avventurieri arruolati in una Grande Compagnia, a prescindere dalla loro affiliazione."
+  },
+  "72": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_COMPANY_LEVE_HOWTO_02",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_COMPANY_LEVE_HOWTO_02",
+    "description": "However, Grand Companies will often provide members with bonuses for undertaking their own company's leves.",
+    "translation_description": "Tuttavia, spesso le Grandi Compagnie offrono bonus ai membri che svolgono i mandati della propria compagnia."
+  },
+  "73": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_COMPANY_LEVE_HOWTO_03",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_COMPANY_LEVE_HOWTO_03",
+    "description": "There are also other bonuses rewarded based on performance.",
+    "translation_description": "Sono previsti anche altri bonus, assegnati in base alle prestazioni."
+  },
+  "74": {
+    "name": "TEXT_GUILDLEVEASSIGNMENT_TALK_NOT_SELECTABLE_ALPHA",
+    "translation_name": "TEXT_GUILDLEVEASSIGNMENT_TALK_NOT_SELECTABLE_ALPHA",
+    "description": "Not available in the Beta Version.",
+    "translation_description": "Not available in the Beta Version."
+  }
+}

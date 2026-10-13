@@ -67,6 +67,9 @@ dotnet run --project src/FFXIVItalian.Extractor -- status
 # Dopo un aggiornamento del client: confronto e copie aggiornate, senza modificare il corpus
 dotnet run --project src/FFXIVItalian.Extractor -- update
 
+# Integra file nuovi e righe aggiunte; conserva le voci modificate per la revisione
+dotnet run --project src/FFXIVItalian.Extractor -- update --integrate
+
 # Validare il corpus approvato
 dotnet run --project src/FFXIVItalian.Extractor -- validate
 
@@ -88,7 +91,9 @@ In alternativa, genera o applica la mod con `dotnet run --project src/FFXIVItali
 
 Il comando `update` legge il client locale (il percorso predefinito è in G; è disponibile `--sqpack`) e confronta i fogli inglesi di `root.exl` con tutti e tre gli stati editoriali. Ogni esecuzione crea una cartella distinta in `data/updates/`, esclusa da Git, con `report.md`, `report.json`, copie aggiornate in `updated/` e copie originali in `backup/`. Il rapporto elenca file nuovi, ID aggiunti, ID modificati con i campi interessati, righe rimosse ed errori. Il JSON contiene le voci prima e dopo, comprese le traduzioni conservate.
 
-La base di confronto è il corpus attuale: «file nuovo» significa assente dal corpus, anche se già esistente nel vecchio client. Le traduzioni e i metadati restano conservati nelle copie; gli originali modificati richiedono controllo umano. Le righe rimosse restano nelle copie per evitare perdita di lavoro e vanno risolte prima di usarle. Non sostituire in blocco i file approvati: valida e revisiona le copie interessate, poi integra solo quelle autorizzate mantenendo lo stato editoriale concordato. Il comando non modifica il corpus, non approva file e non ricompila la mod. Un codice di uscita 1 indica errori o file non associati al client: consulta la sezione finale del rapporto prima di integrare. Per gli aggiornamenti successivi, integra prima le differenze già risolte, altrimenti verranno segnalate di nuovo.
+La base di confronto è il corpus attuale: «file nuovo» significa assente dal corpus, anche se già esistente nel vecchio client. `update` senza opzioni non modifica il corpus. Con `--integrate`, i fogli nuovi entrano in `data/da_tradurre/` e le righe aggiunte vengono inserite nel file esistente, nello stesso stato editoriale, con traduzione vuota. Traduzioni, metadati e sorgenti delle righe già presenti restano intatti. L'integrazione si sospende se il confronto ha errori o se un file è cambiato dopo la lettura.
+
+Le sorgenti modificate si controllano in `review.md`: ogni campo mostra prima, dopo e traduzione attuale. Dopo il controllo, aggiorna nel file del corpus la sorgente e, se serve, la traduzione di quella voce; conserva lo stato editoriale e valida il file. Il successivo `update` non segnalerà più le differenze risolte. Le righe rimosse restano conservate e segnalate, finché non si decide come trattarle. Non sostituire in blocco i file approvati con le copie di `updated/`. Il comando non approva file e non ricompila la mod. Per il flusso completo consulta [Aggiornamenti del client](docs/GAME_UPDATE_WORKFLOW.md).
 
 ## Documentazione e contributi
 

@@ -72,7 +72,9 @@ public static class TranslationPathResolver
         ["achievement"] = "world",
         ["contentfindercondition"] = "world",
         ["contentfinderconditiontransient"] = "world",
-        ["aetheryte"] = "world"
+        ["aetheryte"] = "world",
+        ["chocobotaxistand"] = "world",
+        ["guildleveassignment"] = Path.Combine("quests", "master")
     };
 
     public static string GetTargetSubdirectory(string sheetName)
@@ -97,6 +99,20 @@ public static class TranslationPathResolver
             return "quests";
         }
 
+        var normalized = sheetName.Replace('\\', '/').ToLowerInvariant();
+        if (normalized.Contains('/'))
+        {
+            string family = normalized.Split('/')[0];
+            string category = family switch
+            {
+                "custom" or "cut_scene" or "opening" or "story" => "dialogue",
+                "content" or "dungeon" or "guild_order" or "raid" => "activities",
+                "leve" => "quests", "shop" => "shops",
+                "transport" or "warp" => "world", "system" => "system",
+                _ => "misc"
+            };
+            return Path.Combine(category, Path.GetDirectoryName(normalized)!);
+        }
         return KnownCategories.TryGetValue(sheetName, out var cat) ? cat : "misc";
     }
 
@@ -111,6 +127,18 @@ public static class TranslationPathResolver
 
         string subDir = GetTargetSubdirectory(sheetName);
         return Path.Combine(GetStateDirectory(translationsDir, "da_tradurre"), subDir, fileName);
+    }
+
+    public static string? ResolveSheetForFile(string jsonPath, IEnumerable<string> candidateSheets)
+    {
+        var candidates = candidateSheets.ToArray();
+        var matches = candidates.Where(sheet => Path.GetFullPath(jsonPath).EndsWith(
+            Path.DirectorySeparatorChar + Path.Combine(GetTargetSubdirectory(sheet),
+                Path.GetFileName(sheet.Replace('\\', '/')).ToLowerInvariant() + ".json"),
+            StringComparison.OrdinalIgnoreCase)).ToArray();
+        if (matches.Length == 1) return matches[0];
+        if (matches.Length == 0 && candidates.Length <= 1) return candidates.SingleOrDefault();
+        throw new InvalidDataException($"Foglio ambiguo per {jsonPath}: verificare categoria e percorso completo.");
     }
 
     public static string FindFile(string translationsDir, string sheetNameOrRelativePath)
@@ -129,36 +157,28 @@ public static class TranslationPathResolver
         // 2. Relative check with Category
         string justName = Path.GetFileName(fileName);
         string sheetBase = Path.GetFileNameWithoutExtension(fileName);
+        if (sheetNameOrRelativePath.Contains('/') || sheetNameOrRelativePath.Contains('\\'))
+        {
+            string rawSheet = sheetNameOrRelativePath.EndsWith(".json", StringComparison.OrdinalIgnoreCase)
+                ? sheetNameOrRelativePath[..^5] : sheetNameOrRelativePath;
+            string target = Path.Combine(GetTargetSubdirectory(rawSheet), justName);
+            foreach (string directory in GetCorpusDirectories(translationsDir))
+                foreach (string relative in new[] { fileName, target })
+                    if (File.Exists(Path.Combine(directory, relative))) return Path.Combine(directory, relative);
+            // A full sheet name must not fall back to a different, homonymous sheet.
+            return Path.Combine(translationsDir, target);
+        }
         if (KnownCategories.TryGetValue(sheetBase, out var cat))
         {
             string catPath = Path.Combine(translationsDir, cat, justName);
             if (File.Exists(catPath)) return catPath;
         }
 
-        // 3. Quest path check
-        if (sheetNameOrRelativePath.StartsWith("quest/", StringComparison.OrdinalIgnoreCase) ||
-            sheetNameOrRelativePath.StartsWith(@"quest\", StringComparison.OrdinalIgnoreCase))
-        {
-            string rawSheet = sheetNameOrRelativePath.EndsWith(".json", StringComparison.OrdinalIgnoreCase)
-                ? sheetNameOrRelativePath[..^5]
-                : sheetNameOrRelativePath;
-            string targetSub = GetTargetSubdirectory(rawSheet);
-            string questPath = Path.Combine(translationsDir, targetSub, justName);
-            if (File.Exists(questPath)) return questPath;
-            foreach (string state in EditorialStates)
-            {
-                questPath = Path.Combine(translationsDir, state, targetSub, justName);
-                if (File.Exists(questPath)) return questPath;
-                questPath = Path.Combine(GetStateDirectory(translationsDir, state), targetSub, justName);
-                if (File.Exists(questPath)) return questPath;
-            }
-        }
-
-        // 4. Search AllDirectories
+        // 3. Search AllDirectories for an unqualified sheet name.
         var match = GetCorpusFiles(translationsDir, justName).FirstOrDefault();
         if (match != null) return match;
 
-        // 5. Default path
+        // 4. Default path
         string defaultSub = GetTargetSubdirectory(sheetBase);
         return Path.Combine(translationsDir, defaultSub, justName);
     }

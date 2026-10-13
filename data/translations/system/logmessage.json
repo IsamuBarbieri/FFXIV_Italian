@@ -148,8 +148,8 @@
     "translation": "Scambio non riuscito. Spazio nell'inventario insufficiente."
   },
   "40": {
-    "original": "<hex:022B49FF47020843E4EB02EB04FF1F02081BE909FF1202310EFF074F626A53747203E909020203FF04796F7503FF1C020818E909FF1202310EFF074F626A53747203E909020203EB04030303> <hex:020810E4EB02EB04FF03646FFF05646F657303> not have sufficient inventory space.",
-    "translation": "Scambio non riuscito. <hex:020844E4EB02EB04FF0D4E6F6E20706F737369656469FF2F022B1EFF1C020818E909FF1202310EFF074F626A53747203E909020203EB040303206E6F6E20706F73736965646503> spazio sufficiente nell'inventario."
+    "original": "Trade not complete. <hex:022B49FF47020843E4EB02EB04FF1F02081BE909FF1202310EFF074F626A53747203E909020203FF04796F7503FF1C020818E909FF1202310EFF074F626A53747203E909020203EB04030303> <hex:020810E4EB02EB04FF03646FFF05646F657303> not have sufficient inventory space.",
+    "translation": "Scambio non completato. <hex:020844E4EB02EB04FF0D4E6F6E20706F737369656469FF2F022B1EFF1C020818E909FF1202310EFF074F626A53747203E909020203EB040303206E6F6E20706F73736965646503> spazio sufficiente nell'inventario."
   },
   "41": {
     "original": "Only items in perfect condition can be traded.",
@@ -5584,7 +5584,7 @@
     "translation": "Impossibile salvare le impostazioni. Nessun adesivo in uso."
   },
   "1430": {
-    "original": "The party member holding the gildleve for “<hex:02280AFF054C657665E8020103>” has disappeared. Duty abandoned.",
+    "original": "The party member holding the guildleve for “<hex:02280AFF054C657665E8020103>” has disappeared. Duty abandoned.",
     "translation": "Il membro del gruppo che possiede il mandato per «<hex:02280AFF054C657665E8020103>» è scomparso. Incarico abbandonato."
   },
   "1431": {
@@ -5980,8 +5980,8 @@
     "translation": "Impossibile affrontare <hex:02083DE4E80301FF1D717565737461206261747461676C6961206469206D697373696F6E65FF19022815FF10496E7374616E6365436F6E74656E74E803040303> a causa dell'elevato carico del server."
   },
   "1530": {
-    "original": "The gildhest will end soon.<hex:02100103>Speak with the battlewarden immediately, or risk losing your reward.",
-    "translation": "La prova di gilda terminerà presto.<hex:02100103>Parla subito con il custode della battaglia, o rischi di perdere la tua ricompensa."
+    "original": "The guildhest will end soon.<hex:02100103>Speak with the battlewarden immediately, or risk losing your reward.",
+    "translation": "L'operazione di gilda terminerà presto.<hex:02100103>Parla subito con il custode della battaglia, o rischi di perdere la tua ricompensa."
   },
   "1531": {
     "original": "<hex:022B09FF07022903EB390303> has begun.",
@@ -6184,8 +6184,8 @@
     "translation": "Accesso a <hex:02083DE4E80301FF1D717565737461206261747461676C6961206469206D697373696F6E65FF19022815FF10496E7374616E6365436F6E74656E74E803040303> negato. Uno o più membri del gruppo sono impegnati in un altro incarico."
   },
   "1587": {
-    "original": "You may not participate in any more gildhests at this time.",
-    "translation": "Non puoi partecipare ad altre prove di gilda in questo momento."
+    "original": "You may not participate in any more guildhests at this time.",
+    "translation": "Non puoi partecipare ad altre operazioni di gilda in questo momento."
   },
   "1588": {
     "original": "Only the party leader may initiate entry into <hex:020832E4E80301FF127468697320717565737420626174746C65FF19022815FF10496E7374616E6365436F6E74656E74E803040303>.",
@@ -17849,7 +17849,7 @@
   },
   "4717": {
     "original": "<hex:022B09FF07022903EA020303> is now property of the Manderville Gold Saucer.",
-    "translation": "<hex:022B09FF07022903EA020303> è ora proprietà del Manderville Gold Saucer."
+    "translation": "<hex:022B09FF07022903EA020303> è ora proprietà del Gold Saucer Manderville."
   },
   "4718": {
     "original": "The covering is a success!",

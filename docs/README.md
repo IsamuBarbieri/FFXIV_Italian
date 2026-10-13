@@ -12,6 +12,7 @@
 ## Progetto e manutenzione
 
 - [Architettura](ARCHITECTURE.md): moduli, dati e flussi di build.
+- [Aggiornamenti del client](GAME_UPDATE_WORKFLOW.md): confronto dei fogli, integrazione delle righe nuove e revisione delle sorgenti modificate.
 - [Catalogo dei fogli non estratti](UNEXTRACTED_SHEETS_CATALOG.txt): fogli ancora da ispezionare o estrarre.
 - [Audit del testo inglese](ENGLISH_TEXT_AUDIT.md) e [audit terminologico delle attività](ACTIVITY_TERMINOLOGY_AUDIT.md): verifiche puntuali, da leggere come rapporti aggiornati alla data in cui sono stati prodotti.
 - [Strumenti per le texture](../tools/README.md): generazione ed esportazione delle texture di creazione personaggio.

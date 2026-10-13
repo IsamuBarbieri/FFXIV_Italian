@@ -19,7 +19,7 @@ public class UniversalSheetExtractor : BaseSheetExtractor
     public UniversalSheetExtractor(string sheetName, string? defaultJsonFileName = null, string? description = null, int? selectedStringColumn = null)
     {
         _sheetName = sheetName;
-        _defaultJsonFileName = defaultJsonFileName ?? $"{sheetName.ToLowerInvariant()}.json";
+        _defaultJsonFileName = defaultJsonFileName ?? $"{Path.GetFileName(sheetName.Replace('\\', '/')).ToLowerInvariant()}.json";
         _description = description ?? $"Foglio EXD {sheetName}";
         _selectedStringColumn = selectedStringColumn;
     }

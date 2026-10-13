@@ -889,13 +889,23 @@ if (Directory.Exists(sqPackPath))
     };
     int discoveredSheets = 0;
     int patchedPages = 0;
+    var sheetCatalog = automaticGameData.GetFile("exd/root.exl")
+        ?? throw new InvalidDataException("Catalogo root.exl mancante.");
+    var sheetsByName = Encoding.UTF8.GetString(sheetCatalog.Data)
+        .Split(['\r', '\n'], StringSplitOptions.RemoveEmptyEntries)
+        .Select(line => line.Split(',')[0].Trim()).Where(sheet => !sheet.StartsWith("EXLT"))
+        .Distinct(StringComparer.OrdinalIgnoreCase)
+        .GroupBy(sheet => sheet.Split('/').Last(), StringComparer.OrdinalIgnoreCase)
+        .ToDictionary(group => group.Key, group => group.ToArray(), StringComparer.OrdinalIgnoreCase);
 
     foreach (string jsonPath in Directory.EnumerateFiles(translationsDir, "*.json", SearchOption.AllDirectories))
     {
         string relativePath = Path.GetRelativePath(translationsDir, jsonPath);
-        if (relativePath.StartsWith($"quests{Path.DirectorySeparatorChar}", StringComparison.OrdinalIgnoreCase)) continue;
-
-        string sheet = Path.GetFileNameWithoutExtension(jsonPath);
+        if (relativePath.StartsWith($"quests{Path.DirectorySeparatorChar}", StringComparison.OrdinalIgnoreCase)
+            && !relativePath.StartsWith(Path.Combine("quests", "leve") + Path.DirectorySeparatorChar, StringComparison.OrdinalIgnoreCase)) continue;
+        sheetsByName.TryGetValue(Path.GetFileNameWithoutExtension(jsonPath), out var candidates);
+        string? sheet = TranslationPathResolver.ResolveSheetForFile(jsonPath, candidates ?? [])?.ToLowerInvariant();
+        if (sheet == null) continue;
         if (customSheets.Contains(sheet)) continue;
 
         var exh = automaticGameData.GetFile($"exd/{sheet}.exh");
@@ -985,7 +995,7 @@ if (Directory.Exists(sqPackPath))
 string assetsDir = Path.Combine(projectRoot, "data", "assets");
 var dataDir = Path.Combine(projectRoot, "data");
 var excludedDataFolders = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
-    { "translations", "da_tradurre", "da_revisionare", "glossary" };
+    { "translations", "da_tradurre", "da_revisionare", "glossary", "updates", "cache", "raw_dumps" };
 var resourceFiles = Directory.EnumerateFiles(dataDir, "*", SearchOption.AllDirectories)
     .Where(path =>
     {

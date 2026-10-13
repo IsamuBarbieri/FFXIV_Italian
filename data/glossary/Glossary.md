@@ -129,6 +129,8 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | V&C Dungeon Finder | Ricerca Spedizioni V&C | `system/maincommand.json#94:name` | Nome della funzione; comprende varianti e criterio. Varianti ammesse in prosa: «finestra di ricerca delle spedizioni V&C». |
 | Levequests | Mandati | `system/addon.json#8602:original` | Singolare: Mandato; tipo specifico di attività. |
 | Leves | Mandati | `system/addon.json#8337:original` | Sinonimo di Levequests; varianti ammesse in prosa: «Incarico di [dispositivo]». |
+| Supply & Provisioning Missions | Missioni di Rifornimento e Approvvigionamento | Decisione dell'utente | Denominazione congiunta delle due attività delle Grandi Compagnie. Non usare «Provviste» per Provisioning. Variante ammessa in prosa: «missioni di rifornimento e approvvigionamento». |
+| Supply and Provisioning Missions | Missioni di Rifornimento e Approvvigionamento | Decisione dell'utente | Stessa denominazione con la congiunzione estesa. Variante ammessa in prosa: «missioni di rifornimento e approvvigionamento». |
 | Trials | Prove | `system/addon.json#8608:original` | Singolare: Prova; attività istanziata. |
 | Raids | Incursioni | `system/addon.json#8609:original` | Singolare: Incursione; attività istanziata. |
 | Dungeons | Spedizioni | `system/addon.json#8335:original` | Attività istanziata; al singolare: Spedizione. Per il luogo fisico usare Sotterraneo, secondo il contesto. |
@@ -162,6 +164,7 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Triple Triad | Triple Triad | `system/addon.json#9529:original` | Nome ufficiale del minigioco; varianti ammesse in prosa: «Tris». |
 | Lord of Verminion | Lord of Verminion | `system/addon.json#9550:original` | Nome invariato del minigioco. |
 | Gold Saucer | Gold Saucer | `system/addon.json#8612:original` | Nome invariato della destinazione. |
+| Manderville Gold Saucer | Gold Saucer Manderville | Decisione dell'utente | Nome completo del luogo; usare anche nei composti che ne indicano attrazioni, arredi, punti e crediti. Sostituisce «Gold Saucer di Manderville». Non altera la forma breve «Gold Saucer» né le sigle MGP, MGF e MGC. |
 | The Gold Saucer | Gold Saucer | `world/placename.json#1484:name` | Nome della destinazione; variante ammessa in prosa: «Gold Saucer». |
 | The Gold Saucer | Il Gold Saucer | `world/placename.json#1484:name` | Forma autonoma del toponimo. |
 | Leap of Faith | Salto della Fede | `system/addon.json#8475:original` | GATE del Gold Saucer. |

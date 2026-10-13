@@ -1,0 +1,350 @@
+{
+  "0": {
+    "name": "TEXT_AETHERYTE_MAINMENU_TITLE",
+    "translation_name": "TEXT_AETHERYTE_MAINMENU_TITLE",
+    "description": "Welcome to <hex:023111FF0A506C6163654E616D6503E802030203>.",
+    "translation_description": "Ti do il benvenuto a <hex:023111FF0A506C6163654E616D6503E802030203>."
+  },
+  "1": {
+    "name": "TEXT_AETHERYTE_TOWN_WARP",
+    "translation_name": "TEXT_AETHERYTE_TOWN_WARP",
+    "description": "<hex:0212024603> Aethernet.",
+    "translation_description": "<hex:0212024603> Eternet."
+  },
+  "2": {
+    "name": "TEXT_AETHERYTE_HOUSING_WARP",
+    "translation_name": "TEXT_AETHERYTE_HOUSING_WARP",
+    "description": "<hex:0212024603> Residential District Aethernet.",
+    "translation_description": "<hex:0212024603> Eternet del Distretto Residenziale."
+  },
+  "3": {
+    "name": "TEXT_AETHERYTE_MENU_WKT",
+    "translation_name": "TEXT_AETHERYTE_MENU_WKT",
+    "description": "<hex:0212024603> Visit Another World Server.",
+    "translation_description": "<hex:0212024603> Visita un Altro Mondo."
+  },
+  "4": {
+    "name": "TEXT_AETHERYTE_REGISTER_HOME_POINT_CHECKED",
+    "translation_name": "TEXT_AETHERYTE_REGISTER_HOME_POINT_CHECKED",
+    "description": "<hex:0212024503> Set Home Point.",
+    "translation_description": "<hex:0212024503> Imposta come Punto di ritorno."
+  },
+  "5": {
+    "name": "TEXT_AETHERYTE_REGISTER_HOME_POINT",
+    "translation_name": "TEXT_AETHERYTE_REGISTER_HOME_POINT",
+    "description": "<hex:0212024603> Set Home Point.",
+    "translation_description": "<hex:0212024603> Imposta come Punto di ritorno."
+  },
+  "6": {
+    "name": "TEXT_AETHERYTE_REGISTER_FAVORITE_CHECKED",
+    "translation_name": "TEXT_AETHERYTE_REGISTER_FAVORITE_CHECKED",
+    "description": "<hex:0212024503> Register Favored Destination.",
+    "translation_description": "<hex:0212024503> Registra come Destinazione preferita."
+  },
+  "7": {
+    "name": "TEXT_AETHERYTE_REGISTER_FAVORITE",
+    "translation_name": "TEXT_AETHERYTE_REGISTER_FAVORITE",
+    "description": "<hex:0212024603> Register Favored Destination.",
+    "translation_description": "<hex:0212024603> Registra come Destinazione preferita."
+  },
+  "8": {
+    "name": "TEXT_AETHERYTE_REGISTER_TOKEN_FAVORITE_CHECKED",
+    "translation_name": "TEXT_AETHERYTE_REGISTER_TOKEN_FAVORITE_CHECKED",
+    "description": "<hex:020811E968FF060212024403FF06021202790303> Register Security Token Free Destination.",
+    "translation_description": "<hex:020811E968FF060212024403FF06021202790303> Registra come destinazione gratuita con security token."
+  },
+  "9": {
+    "name": "TEXT_AETHERYTE_REGISTER_TOKEN_FAVORITE",
+    "translation_name": "TEXT_AETHERYTE_REGISTER_TOKEN_FAVORITE",
+    "description": "<hex:0212024603> Register Security Token Free Destination.",
+    "translation_description": "<hex:0212024603> Registra come destinazione gratuita con security token."
+  },
+  "10": {
+    "name": "TEXT_AETHERYTE_REGISTER_PSPLUS_FAVORITE_CHECKED",
+    "translation_name": "TEXT_AETHERYTE_REGISTER_PSPLUS_FAVORITE_CHECKED",
+    "description": "<hex:020833E969FF17020813E4E94F64FF060212027C03FF060212027A0303FF17020813E4E94F64FF060212024003FF060212027B030303> Register <hex:020810E4E94F64FF08505320506C7573FF0103> Free Destination.",
+    "translation_description": "<hex:020833E969FF17020813E4E94F64FF060212027C03FF060212027A0303FF17020813E4E94F64FF060212024003FF060212027B030303> Registra come destinazione gratuita<hex:020814E4E94F64FF0C20646920505320506C7573FF0103>."
+  },
+  "11": {
+    "name": "TEXT_AETHERYTE_REGISTER_PSPLUS_FAVORITE",
+    "translation_name": "TEXT_AETHERYTE_REGISTER_PSPLUS_FAVORITE",
+    "description": "<hex:020813E4E94F64FF060212027C03FF060212027A0303> Register <hex:020810E4E94F64FF08505320506C7573FF0103> Free Destination.",
+    "translation_description": "<hex:020813E4E94F64FF060212027C03FF060212027A0303> Registra come destinazione gratuita<hex:020814E4E94F64FF0C20646920505320506C7573FF0103>."
+  },
+  "12": {
+    "name": "TEXT_AETHERYTE_REGISTER_NSO_FAVORITE_CHECKED",
+    "translation_name": "TEXT_AETHERYTE_REGISTER_NSO_FAVORITE_CHECKED",
+    "description": "<hex:020833E969FF17020813E4E94C08FF06021202B903FF060212027A0303FF17020813E4E94C08FF060212024003FF060212027B030303> Register <hex:02081FE4E94C08FF174E696E74656E646F20537769746368204F6E6C696E65FF0103> Free Destination.",
+    "translation_description": "<hex:020833E969FF17020813E4E94C08FF06021202B903FF060212027A0303FF17020813E4E94C08FF060212024003FF060212027B030303> Registra come destinazione gratuita<hex:020823E4E94C08FF1B206469204E696E74656E646F20537769746368204F6E6C696E65FF0103>."
+  },
+  "13": {
+    "name": "TEXT_AETHERYTE_REGISTER_NSO_FAVORITE",
+    "translation_name": "TEXT_AETHERYTE_REGISTER_NSO_FAVORITE",
+    "description": "<hex:020813E4E94C08FF06021202B903FF060212027A0303> Register <hex:02081FE4E94C08FF174E696E74656E646F20537769746368204F6E6C696E65FF0103> Free Destination.",
+    "translation_description": "<hex:020813E4E94C08FF06021202B903FF060212027A0303> Registra come destinazione gratuita<hex:020823E4E94C08FF1B206469204E696E74656E646F20537769746368204F6E6C696E65FF0103>."
+  },
+  "14": {
+    "name": "TEXT_AETHERYTE_REGISTER_INFORM_NSO_REQUIRED",
+    "translation_name": "TEXT_AETHERYTE_REGISTER_INFORM_NSO_REQUIRED",
+    "description": "Registered Nintendo Switch Online free destinations are only available with an active Nintendo Switch Online subscription.<hex:02100103> ※If you have an active subscription, please restart FINAL FANTASY XIV.",
+    "translation_description": "Le destinazioni gratuite di Nintendo Switch Online registrate sono disponibili solo con un abbonamento attivo a Nintendo Switch Online.<hex:02100103> ※Se hai un abbonamento attivo, riavvia FINAL FANTASY XIV."
+  },
+  "15": {
+    "name": "TEXT_AETHERYTE_REGISTER_INFORM_CLOSE",
+    "translation_name": "TEXT_AETHERYTE_REGISTER_INFORM_CLOSE",
+    "description": "Close",
+    "translation_description": "Chiudi"
+  },
+  "16": {
+    "name": "TEXT_AETHERYTE_MOVE_INSTANCE",
+    "translation_name": "TEXT_AETHERYTE_MOVE_INSTANCE",
+    "description": "<hex:0212024603> Travel to Instanced Area.",
+    "translation_description": "<hex:0212024603> Vai all'Area Istanziata."
+  },
+  "17": {
+    "name": "TEXT_AETHERYTE_MENU_CANCEL",
+    "translation_name": "TEXT_AETHERYTE_MENU_CANCEL",
+    "description": "<hex:0212024603> Cancel.",
+    "translation_description": "<hex:0212024603> Annulla."
+  },
+  "18": {
+    "name": "TEXT_AETHERYTE_AETHERNET_MENU_TITLE",
+    "translation_name": "TEXT_AETHERYTE_AETHERNET_MENU_TITLE",
+    "description": "Select a destination.<hex:02100103>Current Location: <hex:022903EA0203>",
+    "translation_description": "Seleziona una destinazione.<hex:02100103>Posizione Attuale: <hex:022903EA0203>"
+  },
+  "19": {
+    "name": "TEXT_AETHERYTE_AETHERNET_MENU_TITLE_NONE_MESSAGE",
+    "translation_name": "TEXT_AETHERYTE_AETHERNET_MENU_TITLE_NONE_MESSAGE",
+    "description": "<hex:02100103><hex:02100103>There are no other Aethernet shards available.<hex:02100103><hex:02100103>",
+    "translation_description": "<hex:02100103><hex:02100103>Non sono disponibili altri frammenti dell'Eternet.<hex:02100103><hex:02100103>"
+  },
+  "20": {
+    "name": "TEXT_AETHERYTE_AETHERNET_DEST_NAME",
+    "translation_name": "TEXT_AETHERYTE_AETHERNET_DEST_NAME",
+    "description": "<hex:02280FFF0A506C6163654E616D65E8020103>.",
+    "translation_description": "<hex:02280FFF0A506C6163654E616D65E8020103>."
+  },
+  "21": {
+    "name": "TEXT_AETHERYTE_AETHERNET_MENU_CANCEL",
+    "translation_name": "TEXT_AETHERYTE_AETHERNET_MENU_CANCEL",
+    "description": "Quit.",
+    "translation_description": "Esci."
+  },
+  "22": {
+    "name": "TEXT_AETHERYTE_MOVE_INSTANCE_MENU_CANCEL",
+    "translation_name": "TEXT_AETHERYTE_MOVE_INSTANCE_MENU_CANCEL",
+    "description": "<hex:02280DFF064164646F6EF6018FC90103>.",
+    "translation_description": "<hex:02280DFF064164646F6EF6018FC90103>."
+  },
+  "23": {
+    "name": "TEXT_AETHERYTE_FIRST_OPEN_01",
+    "translation_name": "TEXT_AETHERYTE_FIRST_OPEN_01",
+    "description": "You now have access to the Aethernet.",
+    "translation_description": "Ora hai accesso all'Eternet."
+  },
+  "24": {
+    "name": "TEXT_AETHERYTE_FIRST_OPEN_02",
+    "translation_name": "TEXT_AETHERYTE_FIRST_OPEN_02",
+    "description": "Quick travel throughout the city can be achieved by simply placing your hand upon Aethernet shards.",
+    "translation_description": "Puoi spostarti rapidamente per la città appoggiando semplicemente la mano sui frammenti dell'Eternet."
+  },
+  "25": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_FST",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_FST",
+    "description": "You have attuned yourself to all the Aethernet shards in Gridania. The Blue Badger Gate, the Yellow Serpent Gate, and the airship landing are now accessible as Aethernet destinations.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet di Gridania. Ora puoi raggiungere la Porta del Tasso Blu, la Porta della Vipera Gialla e l'attracco delle aeronavi tramite l'Eternet."
+  },
+  "26": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_FST_WITH_WHITE_WOLF_GATE",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_FST_WITH_WHITE_WOLF_GATE",
+    "description": "You have attuned yourself to all the Aethernet shards in Gridania. The Blue Badger Gate, the Yellow Serpent Gate, the White Wolf Gate, and the airship landing are now accessible as Aethernet destinations.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet di Gridania. Ora puoi raggiungere la Porta del Tasso Blu, la Porta della Vipera Gialla, la Porta del Lupo Bianco e l'attracco delle aeronavi tramite l'Eternet."
+  },
+  "27": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_SEA",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_SEA",
+    "description": "You have attuned yourself to all the Aethernet shards in Limsa Lominsa. The Zephyr Gate, the Tempest Gate, and the airship landing are now accessible as Aethernet destinations.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet di Limsa Lominsa. Ora puoi raggiungere Porta Zefiro, Porta Tempesta e l'attracco delle aeronavi tramite l'Eternet."
+  },
+  "28": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_WIL",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_WIL",
+    "description": "You have attuned yourself to all the Aethernet shards in Ul'dah. The Gate of Nald, the Gate of Thal, the Gate of the Sultana, and the airship landing are now accessible as Aethernet destinations.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet di Ul'dah. Ora puoi raggiungere la Porta di Nald, la Porta di Thal, la Porta della Sultana e l'attracco delle aeronavi tramite l'Eternet."
+  },
+  "29": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_GOLDSAUCER",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_GOLDSAUCER",
+    "description": "You have attuned yourself to all the Aethernet shards in the Manderville Gold Saucer.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet del Gold Saucer Manderville."
+  },
+  "30": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_TOWN_ROC",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_TOWN_ROC",
+    "description": "You have attuned yourself to all the Aethernet shards in Ishgard. The Gates of Judgement are now accessible as an Aethernet destination.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet di Ishgard. Ora puoi raggiungere i Cancelli del Giudizio tramite l'Eternet."
+  },
+  "31": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_TOWN_IDYLLSHIRE",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_TOWN_IDYLLSHIRE",
+    "description": "You have attuned yourself to all the Aethernet shards in Idyllshire. Epilogue Gate is now accessible as an Aethernet destination.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet di Borgopace. Ora puoi raggiungere il Cancello dell'Epilogo tramite l'Eternet."
+  },
+  "32": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_TOWN_IDYLLSHIRE_WITH_QUESTCOMP",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_TOWN_IDYLLSHIRE_WITH_QUESTCOMP",
+    "description": "You have attuned yourself to all the Aethernet shards in Idyllshire. Prologue Gate and Epilogue Gate are now accessible as Aethernet destinations.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet di Borgopace. Ora puoi raggiungere il Cancello del Prologo e il Cancello dell'Epilogo tramite l'Eternet."
+  },
+  "33": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_TOWN_KUGANE",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_TOWN_KUGANE",
+    "description": "You have attuned yourself to all the Aethernet shards in Kugane. The airship landing is now accessible as an Aethernet destination.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet di Kugane. Ora puoi raggiungere l'attracco delle aeronavi tramite l'Eternet."
+  },
+  "34": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_TOWN_KUGANE_WITH_QUESTCOMP",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_TOWN_KUGANE_WITH_QUESTCOMP",
+    "description": "You have attuned yourself to all the Aethernet shards in Kugane. The Ruby Price and the Kugane airship landing are now accessible as Aethernet destinations.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet di Kugane. Ora puoi raggiungere il Prezzo del Rubino e l'attracco delle aeronavi di Kugane tramite l'Eternet."
+  },
+  "35": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_TOWN_RHALGRS_REACH",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_TOWN_RHALGRS_REACH",
+    "description": "You have attuned yourself to all the Aethernet shards in Rhalgr's Reach. The Fringes Gate is now accessible as an Aethernet destination.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet della Presa di Rhalgr. Ora puoi raggiungere il Cancello dei Margini tramite l'Eternet."
+  },
+  "36": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_TOWN_RHALGRS_REACH_WITH_QUESTCOMP",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_TOWN_RHALGRS_REACH_WITH_QUESTCOMP",
+    "description": "You have attuned yourself to all the Aethernet shards in Rhalgr's Reach. The Fringes Gate and the Peaks Gate are now accessible as Aethernet destinations.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet della Presa di Rhalgr. Ora puoi raggiungere il Cancello dei Margini e il Cancello delle Vette tramite l'Eternet."
+  },
+  "37": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_DOMAN_ENCLAVE",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_DOMAN_ENCLAVE",
+    "description": "You have attuned yourself to all the Aethernet shards in the Doman Enclave. The One River is now accessible as an Aethernet destination.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet dell'Enclave Domana. Ora puoi raggiungere Fiumescelto tramite l'Eternet."
+  },
+  "38": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_DOMAN_ENCLAVE_WITH_QUESTCOMP",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_DOMAN_ENCLAVE_WITH_QUESTCOMP",
+    "description": "You have attuned yourself to all the Aethernet shards in the Doman Enclave. The One River and Gangos are now accessible as Aethernet destinations.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet dell'Enclave Domana. Ora puoi raggiungere Fiumescelto e Gangos tramite l'Eternet."
+  },
+  "39": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_CRYSTALIUM",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_CRYSTALIUM",
+    "description": "You have attuned yourself to all the Aethernet shards in the Crystarium. Lakeland is now accessible as an Aethernet destination.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet del Crystarium. Ora puoi raggiungere Terralago tramite l'Eternet."
+  },
+  "40": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_EURMORE",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_EURMORE",
+    "description": "You have attuned yourself to all the Aethernet shards in Eulmore. Kholusia is now accessible as an Aethernet destination.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet di Eulmore. Ora puoi raggiungere Kholusia tramite l'Eternet."
+  },
+  "41": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_OLD_SHARLAYAN",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_OLD_SHARLAYAN",
+    "description": "You have attuned yourself to all the Aethernet shards in Old Sharlayan.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet di Vecchia Sharlayan."
+  },
+  "42": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_OLD_SHARLAYAN_WITH_QUESTCOMP",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_OLD_SHARLAYAN_WITH_QUESTCOMP",
+    "description": "You have attuned yourself to all the Aethernet shards in Old Sharlayan. Labyrinthos is now accessible as an Aethernet destination.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet di Vecchia Sharlayan. Ora puoi raggiungere Labyrinthos tramite l'Eternet."
+  },
+  "43": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_RADZ_AT_HAN",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_RADZ_AT_HAN",
+    "description": "You have attuned yourself to all the Aethernet shards in Radz<hex:021F0103>at<hex:021F0103>Han.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet di Radz<hex:021F0103>at<hex:021F0103>Han."
+  },
+  "44": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_RADZ_AT_HAN_WITH_QUESTCOMP",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_RADZ_AT_HAN_WITH_QUESTCOMP",
+    "description": "You have attuned yourself to all the Aethernet shards in Radz<hex:021F0103>at<hex:021F0103>Han. Thavnair is now accessible as an Aethernet destination.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet di Radz<hex:021F0103>at<hex:021F0103>Han. Ora puoi raggiungere Thavnair tramite l'Eternet."
+  },
+  "45": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL",
+    "description": "You have attuned yourself to all the Aethernet shards in Tuliyollal.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet di Tuliyollal."
+  },
+  "46": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_0_0",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_0_0",
+    "description": "You have attuned yourself to all the Aethernet shards in Tuliyollal. The Arch of the Dawn (Urqopacha) is now accessible as an Aethernet destination.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet di Tuliyollal. Ora puoi raggiungere l'Arco dell'Alba (Urqopacha) tramite l'Eternet."
+  },
+  "47": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_1_0",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_1_0",
+    "description": "You have attuned yourself to all the Aethernet shards in Tuliyollal. The Arch of the Dawn (Kozama'uka) is now accessible as an Aethernet destination.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet di Tuliyollal. Ora puoi raggiungere l'Arco dell'Alba (Kozama'uka) tramite l'Eternet."
+  },
+  "48": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_2_0",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_2_0",
+    "description": "You have attuned yourself to all the Aethernet shards in Tuliyollal. The Arch of the Dawn (Urqopacha) and the Arch of the Dawn (Kozama'uka) are now accessible as Aethernet destinations.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet di Tuliyollal. Ora puoi raggiungere l'Arco dell'Alba (Urqopacha) e l'Arco dell'Alba (Kozama'uka) tramite l'Eternet."
+  },
+  "49": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_3_0",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_3_0",
+    "description": "You have attuned yourself to all the Aethernet shards in Tuliyollal. The Arch of the Dawn (Urqopacha), the Arch of the Dawn (Kozama'uka), and Ihuykatumu (Kozama'uka) are now accessible as Aethernet destinations.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet di Tuliyollal. Ora puoi raggiungere l'Arco dell'Alba (Urqopacha), l'Arco dell'Alba (Kozama'uka) e Ihuykatumu (Kozama'uka) tramite l'Eternet."
+  },
+  "50": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_4_0",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_4_0",
+    "description": "You have attuned yourself to all the Aethernet shards in Tuliyollal.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet di Tuliyollal."
+  },
+  "51": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_4_1",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_4_1",
+    "description": "The Arch of the Dawn (Urqopacha), the Arch of the Dawn (Kozama'uka), Ihuykatumu (Kozama'uka), and the dirigible landing (Yak T'el) are now accessible as Aethernet destinations.",
+    "translation_description": "L'Arco dell'Alba (Urqopacha), l'Arco dell'Alba (Kozama'uka), Ihuykatumu (Kozama'uka) e l'attracco dei dirigibili (Yak T'el) sono ora disponibili come destinazioni dell'Eternet."
+  },
+  "52": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_5_0",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_5_0",
+    "description": "You have attuned yourself to all the Aethernet shards in Tuliyollal.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet di Tuliyollal."
+  },
+  "53": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_5_1",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_5_1",
+    "description": "The Arch of the Dawn (Urqopacha), the Arch of the Dawn (Kozama'uka), Ihuykatumu (Kozama'uka), the dirigible landing (Yak T'el), and the Xak Tural skygate (Shaaloani) are now accessible as Aethernet destinations.",
+    "translation_description": "L'Arco dell'Alba (Urqopacha), l'Arco dell'Alba (Kozama'uka), Ihuykatumu (Kozama'uka), l'attracco dei dirigibili (Yak T'el) e la Porta Celeste di Xak Tural (Shaaloani) sono ora disponibili come destinazioni dell'Eternet."
+  },
+  "54": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_SOLUTION_NINE",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_SOLUTION_NINE",
+    "description": "You have attuned yourself to all the Aethernet shards in Solution Nine.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet di Soluzione Nove."
+  },
+  "55": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_SOLUTION_NINE_1",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_SOLUTION_NINE_1",
+    "description": "Scanning port nine (Heritage Found) is now accessible as an Aethernet destination.",
+    "translation_description": "La Porta di Scansione Nove (Retaggio Ritrovato) è ora disponibile come destinazione dell'Eternet."
+  },
+  "56": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_6_0",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_6_0",
+    "description": "You have attuned yourself to all the Aethernet shards in Tuliyollal.",
+    "translation_description": "Hai raggiunto la sintonia con tutti i frammenti dell'Eternet di Tuliyollal."
+  },
+  "57": {
+    "name": "TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_6_1",
+    "translation_name": "TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_6_1",
+    "description": "The Arch of the Dawn (Urqopacha), the Arch of the Dawn (Kozama'uka), Ihuykatumu (Kozama'uka), the dirigible landing (Yak T'el), the Xak Tural skygate (Shaaloani), and the phantom village are now accessible as Aethernet destinations.",
+    "translation_description": "L'Arco dell'Alba (Urqopacha), l'Arco dell'Alba (Kozama'uka), Ihuykatumu (Kozama'uka), l'attracco dei dirigibili (Yak T'el), la Porta Celeste di Xak Tural (Shaaloani) e il Villaggio Fantasma sono ora disponibili come destinazioni dell'Eternet."
+  }
+}
