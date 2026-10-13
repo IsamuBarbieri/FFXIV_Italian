@@ -14,6 +14,7 @@ Devi rispettare tassativamente le seguenti REGOLE VINCOLANTI. Qualsiasi deviazio
 ---
 
 ### 1. REGOLE DI ADATTAMENTO PER IL CLIENT DI GIOCO (UI & NARRATIVA)
+- **CONTESTO DEL FOGLIO**: Prima di tradurre, identifica dove appare il testo nel gioco e quali campi o righe dipendono tra loro. Verifica per esempio la coerenza tra nome e descrizione, oppure tra stati successivi di un obiettivo.
 - **MAI DOPPIONI A SCHERMO**: Non inserire MAI il testo inglese tra parentesi nei file di traduzione del gioco.
   - CORRETTO: "Baia del Vespro", "Sabbie del Risveglio", "Lame d'Ottone".
   - VIETATO: "Baia del Vespro (Vesper Bay)", "Sabbie del Risveglio (The Waking Sands)".
@@ -21,6 +22,8 @@ Devi rispettare tassativamente le seguenti REGOLE VINCOLANTI. Qualsiasi deviazio
 - **CONCISIONE ED ELEGANZA**: I bottoni e i menu dell'interfaccia hanno limiti di spazio rigidi. Evita calchi prolissi; usa termini compatti ed espressivi (*es. "Inizia", "Annulla", "Ritorno", "Incarichi"*).
 - **MAIUSCOLE E MINUSCOLE**: Mantieni nella traduzione le iniziali maiuscole delle parole che sono maiuscole nell'originale. Gli articoli italiani interni alla frase, comprese le forme articolate (*del, dello, della, dei, degli, delle*), restano minuscoli. Esempio: *Order of the Twin Adder* → **Ordine della Vipera Gemella**.
 - **CONVENZIONI E STILE LINGUISTICO**: Traduci in italiano naturale e scorrevole, coerente con la grammatica italiana e il contesto di gioco.
+- **ETICHETTA E PROSA**: Applica le note d'uso del glossario secondo la funzione del campo; una maiuscola prevista per un'etichetta non si estende automaticamente alla prosa. Usa l'apostrofo ASCII (`'`) e le virgolette a caporale (« ») per citazioni e termini menzionati.
+- **VERBI D'AZIONE**: Mantieni coerenti le istruzioni ricorrenti quando azione e registro coincidono; scegli la resa in base al contesto (per esempio *Report to* può richiedere «Torna da» oppure «Fai rapporto a»). Non fissare una traduzione unica senza verificare il referente.
 - **CATEGORIE DI ATTIVITÀ**: Usa le forme del glossario: Quest/Missione, Subquest/Missione secondaria, Duty/Incarico, Levequest e Leve/Mandato, Trial/Prova, Raid/Incursione, Dungeon/Spedizione quando indica il contenuto istanziato e Dungeon/Sotterraneo quando indica un luogo fisico, Deep Dungeon/Cripta Profonda, Guildhest/Operazione di Gilda e FATE/FATE. L'accesso tramite Duty Finder e le funzioni che concludono un Incarico riguardano la spedizione; riferimenti all'ambiente fisico, come l'ingresso o l'interno, indicano il sotterraneo. Traduci i qualificatori di categoria e distingui le attività dai luoghi, dagli usi comuni e dai nomi propri.
 - **ETICHETTE E NOMI DI MECCANICHE**: Nelle categorie dei negozi ometti l'azione implicita quando rende la voce prolissa (*Purchase Items* → **Oggetti**); conserva i verbi per comandi e azioni reali. Per attività in corso valuta il gerundio (*Interacting* → **Interagendo**). Traduci *right/left* come direzioni e accordale al referente, senza confonderle con «giusto» o «lasciato».
 - **LIVELLO OGGETTO**: Per la statistica usa **Livello Oggetto** (*Item Level*); nelle etichette brevi di menu, negozi e tabelle usa l'abbreviazione canonica **Liv.Ogg.**. Sostituisci la sigla inglese *IL* nelle etichette e nei testi.
@@ -43,6 +46,7 @@ Il motore di gioco utilizza un bytecode binario proprietario (SeString). I tag s
 
 ### 3. GLOSSARIO APPROVATO E REGOLE DI ADATTAMENTO SINTATTICO
 Prima di tradurre, leggi `data/glossary/Glossary.md`. Usa le voci per i termini ricorrenti e rispetta le note sulle varianti contestuali. Le scelte esplicite dell'utente prevalgono; i riferimenti `@review/` sono esempi contestuali e non dichiarano approvato il file.
+- **DISAMBIGUAZIONE MIRATA**: Se l'inglese è ambiguo, arcaico o allusivo, oppure non chiarisce una meccanica, confronta quando disponibili le versioni ufficiali FR/DE/JA. Trattale come indizi da verificare nel contesto, non come fonte di sostituzioni automatiche; annota i casi decisivi.
 - **DISTINZIONI DAL CENSIMENTO**: Identifica il referente e il campo: Arms araldico/Stemma, stack di effetti/accumuli, range di livelli/soglia, range spaziale/portata o raggio. Distingui tecniche d'arma, abilità, incantesimi e azioni istintive. Usa ATT/DIF per le statistiche nei campi tecnici; «varia in base a» per una dipendenza numerica senza presumere una formula. Vedi `docs/TRANSLATION_CENSUS.md`.
 - **COMANDI LETTERALI**: Conserva /party, /waymark, /cwlinkshell1 e i parametri eseguibili; traduci la spiegazione con gruppo, marcatore tattico e fonoperla. Non tradurre gli identificatori per eliminare un residuo inglese.
 - **NOMI COMPOSTI DEI PERSONAGGI**: Quando il nome di un PG, PNG o personaggio secondario è formato da parole inglesi comuni che nel contesto attestato hanno funzione descrittiva (cognome, soprannome o appellativo), adattane il significato in italiano, conservando il nome proprio non descrittivo: *Edda Blackbosom* → **Edda Cuorenero**. Nella prosa adatta articoli e preposizioni (*Blackbosom's attire* → **abito di Cuorenero**). Verifica lore, forma canonica e correzioni dell'utente; non tradurre automaticamente cognomi arbitrari o nomi che devono restare invariati. Se la funzione è ambigua, segnalala invece di inventare una resa.
@@ -86,7 +90,7 @@ Quando traduci battute di dialogo, rispetta rigorosamente il registro psicologic
 ---
 
 ### 6. FORMATO DI OUTPUT
-Restituisci esclusivamente il blocco JSON valido richiesto, preservando la struttura delle chiavi numeriche esistenti:
+Se il lavoro richiede un blocco JSON, restituisci JSON valido preservando la struttura delle chiavi numeriche esistenti:
 ```json
 {
   "rowId": {
@@ -106,5 +110,5 @@ oppure, per comandi a due campi:
   }
 }
 ```
-Nessun commento superfluo, nessun testo inglese inserito tra parentesi nella traduzione, nessun tag SeString alterato.
+Se modifichi direttamente i file, riporta in breve il perimetro controllato, l'esito della validazione e le motivazioni editoriali pertinenti (glossario e note d'uso, uniformazioni terminologiche o sintattiche, tipografia e coerenza tra campi, disambiguazioni multilingue effettive). Nessun testo inglese inserito tra parentesi nella traduzione; conserva la struttura SeString e ricodifica soltanto i payload con testo visibile da tradurre, secondo la sezione 2.
 ```

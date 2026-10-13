@@ -1,0 +1,2342 @@
+{
+  "0": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_DEFAULT_TALK_1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_DEFAULT_TALK_1",
+    "description": "Greetings! I take it you have come to see me about a retainer.",
+    "translation_description": ""
+  },
+  "1": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_DEFAULT_TALK_2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_DEFAULT_TALK_2",
+    "description": "Retainers are hardworking lads and lasses who will help you to manage those spoils earned while off slaying dragons or whatever it is you adventurers do.",
+    "translation_description": ""
+  },
+  "2": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_DEFAULT_TALK_3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_DEFAULT_TALK_3",
+    "description": "Unfortunately, you do not appear you could even slay an eft, let alone a dragon, therefore I must decline any petition you may have to take a retainer into your employ.",
+    "translation_description": ""
+  },
+  "3": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_DEFAULT_TALK_4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_DEFAULT_TALK_4",
+    "description": "Build yourself a reputation in this city, however, and I shall provide you with whatever it is you need. Might I suggest you start by heading back to the Adventurers\u0027 Guild and seeing if someone there has work for you?",
+    "translation_description": ""
+  },
+  "4": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_TITLE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_TITLE",
+    "description": "What would you like to do?",
+    "translation_description": ""
+  },
+  "5": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_TALK",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_TALK",
+    "description": "Small Talk.",
+    "translation_description": ""
+  },
+  "6": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_CREATE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_CREATE",
+    "description": "Hire a retainer.",
+    "translation_description": ""
+  },
+  "7": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REMOVE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REMOVE",
+    "description": "Release a retainer.",
+    "translation_description": ""
+  },
+  "8": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REMAKE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REMAKE",
+    "description": "Change a retainer\u0027s appearance and nickname.",
+    "translation_description": ""
+  },
+  "9": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_EXPLANATION",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_EXPLANATION",
+    "description": "Ask about retainers.",
+    "translation_description": ""
+  },
+  "10": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_JOBCHANGE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_JOBCHANGE",
+    "description": "Inquire about retainer jobs.",
+    "translation_description": ""
+  },
+  "11": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_CHECK_CASHBACK",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_CHECK_CASHBACK",
+    "description": "View market tax rates.",
+    "translation_description": ""
+  },
+  "12": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_CANCEL",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_CANCEL",
+    "description": "Nothing.",
+    "translation_description": ""
+  },
+  "13": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_LIMSA",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_LIMSA",
+    "description": "Dispatch a retainer to Limsa Lominsa.",
+    "translation_description": ""
+  },
+  "14": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_GRIDANIA",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_GRIDANIA",
+    "description": "Dispatch a retainer to Gridania.",
+    "translation_description": ""
+  },
+  "15": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_ULDAH",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_ULDAH",
+    "description": "Dispatch a retainer to Ul\u0027dah.",
+    "translation_description": ""
+  },
+  "16": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_ISHGARD",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_ISHGARD",
+    "description": "Dispatch a retainer to Ishgard.",
+    "translation_description": ""
+  },
+  "17": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_TOWN40",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_TOWN40",
+    "description": "Dispatch a retainer to Kugane.",
+    "translation_description": ""
+  },
+  "18": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_OLDSHARLAYAN",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_OLDSHARLAYAN",
+    "description": "Dispatch a retainer to Old Sharlayan.",
+    "translation_description": ""
+  },
+  "19": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_VER70",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_VER70",
+    "description": "Dispatch a retainer to Tuliyollal.",
+    "translation_description": ""
+  },
+  "20": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_EXPLANATION_MENU_TITLE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_EXPLANATION_MENU_TITLE",
+    "description": "What will you ask?",
+    "translation_description": ""
+  },
+  "21": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_EXPLANATION_MENU_WHAT_IS",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_EXPLANATION_MENU_WHAT_IS",
+    "description": "Who are retainers?",
+    "translation_description": ""
+  },
+  "22": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_EXPLANATION_MENU_ABOUT",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_EXPLANATION_MENU_ABOUT",
+    "description": "What services can retainers provide?",
+    "translation_description": ""
+  },
+  "23": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_EXPLANATION_MENU_CALL",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_EXPLANATION_MENU_CALL",
+    "description": "How do I summon a retainer?",
+    "translation_description": ""
+  },
+  "24": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_BACK",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_BACK",
+    "description": "Nothing",
+    "translation_description": ""
+  },
+  "25": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ABOUT_TALK_01",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ABOUT_TALK_01",
+    "description": "Retainers are men and women who offer their services in exchange for coin. Though they\u0027re seldom as sharp as adventurers like yourself, they\u0027re no strangers to life\u0027s more menial tasks\u2500tasks which your lot might not think worth your time.",
+    "translation_description": ""
+  },
+  "26": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ABOUT_TALK_02",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ABOUT_TALK_02",
+    "description": "Retainers can provide a host of different services, from tending your items to protecting your gil. Oh, and you need not worry about providing recompense for a retainer\u0027s services, for the Adventurers\u0027 Guild will not only cover his salary, but also replace anything that goes missing, should you wake up to find your belongings gone and your retainer nowhere to be found.",
+    "translation_description": ""
+  },
+  "27": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ITEMS_GIL_TALK_01",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ITEMS_GIL_TALK_01",
+    "description": "Another job retainers are often asked to perform is the tending of items placed up for sale in the markets\u2500something many adventurers cannot be bothered to do themselves.",
+    "translation_description": ""
+  },
+  "28": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ITEMS_GIL_TALK_02",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ITEMS_GIL_TALK_02",
+    "description": "If you wish to experience the market for yourself, I ask that you seek out one of the nearby boards.",
+    "translation_description": ""
+  },
+  "29": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CALL_TALK_01",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CALL_TALK_01",
+    "description": "Retainers in your employ can be summoned at any time using special bells like the one nearby.",
+    "translation_description": ""
+  },
+  "30": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CALL_TALK_02",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CALL_TALK_02",
+    "description": "Summoning bells can also be found around the realm in oft-visited locations such as city markets and inns.",
+    "translation_description": ""
+  },
+  "31": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_TITLE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_TITLE",
+    "description": "Current Market Tax Rates:",
+    "translation_description": ""
+  },
+  "32": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_LIMSA",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_LIMSA",
+    "description": "Limsa Lominsa: Reduced",
+    "translation_description": ""
+  },
+  "33": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_LIMSA_NONE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_LIMSA_NONE",
+    "description": "Limsa Lominsa: Normal",
+    "translation_description": ""
+  },
+  "34": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_GRIDANIA",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_GRIDANIA",
+    "description": "Gridania: Reduced",
+    "translation_description": ""
+  },
+  "35": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_GRIDANIA_NONE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_GRIDANIA_NONE",
+    "description": "Gridania: Normal",
+    "translation_description": ""
+  },
+  "36": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_ULDAH",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_ULDAH",
+    "description": "Ul\u0027dah: Reduced",
+    "translation_description": ""
+  },
+  "37": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_ULDAH_NONE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_ULDAH_NONE",
+    "description": "Ul\u0027dah: Normal",
+    "translation_description": ""
+  },
+  "38": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_ISHGARD",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_ISHGARD",
+    "description": "Ishgard: Reduced",
+    "translation_description": ""
+  },
+  "39": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_ISHGARD_NONE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_ISHGARD_NONE",
+    "description": "Ishgard: Normal",
+    "translation_description": ""
+  },
+  "40": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_TOWN40",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_TOWN40",
+    "description": "Kugane: Reduced",
+    "translation_description": ""
+  },
+  "41": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_TOWN40_NONE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_TOWN40_NONE",
+    "description": "Kugane: Normal",
+    "translation_description": ""
+  },
+  "42": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK",
+    "description": "\u003Chex:02280AFF05546F776EE8020103\u003E: Reduced",
+    "translation_description": ""
+  },
+  "43": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_NONE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_NONE",
+    "description": "\u003Chex:02280AFF05546F776EE8020103\u003E: Normal",
+    "translation_description": ""
+  },
+  "44": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_LIMSA",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_LIMSA",
+    "description": "Tax on items sold in the Limsa Lominsa markets is reduced to \u003Chex:022003E80303\u003E% until \u003Chex:020703E80403\u003E\u003Chex:02082CE4E94E04FF1320022002DC032F022002DE032F022002DF03FF12022002DE032F022002DC032F022002DF0303\u003E (Earth date).",
+    "translation_description": ""
+  },
+  "45": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_GRIDANIA",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_GRIDANIA",
+    "description": "Tax on items sold in the Gridania markets is reduced to \u003Chex:022003E80303\u003E% until \u003Chex:020703E80403\u003E\u003Chex:02082CE4E94E04FF1320022002DC032F022002DE032F022002DF03FF12022002DE032F022002DC032F022002DF0303\u003E (Earth date).",
+    "translation_description": ""
+  },
+  "46": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ULDAH",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ULDAH",
+    "description": "Tax on items sold in the Ul\u0027dah markets is reduced to \u003Chex:022003E80303\u003E% until \u003Chex:020703E80403\u003E\u003Chex:02082CE4E94E04FF1320022002DC032F022002DE032F022002DF03FF12022002DE032F022002DC032F022002DF0303\u003E (Earth date).",
+    "translation_description": ""
+  },
+  "47": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ISHGARD",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ISHGARD",
+    "description": "Tax on items sold in the Ishgard markets is reduced to \u003Chex:022003E80303\u003E% until \u003Chex:020703E80403\u003E\u003Chex:02082CE4E94E04FF1320022002DC032F022002DE032F022002DF03FF12022002DE032F022002DC032F022002DF0303\u003E (Earth date).",
+    "translation_description": ""
+  },
+  "48": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_TOWN40",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_TOWN40",
+    "description": "Tax on items sold in the Kugane markets is reduced to \u003Chex:022003E80303\u003E% until \u003Chex:020703E80403\u003E\u003Chex:02082CE4E94E04FF1320022002DC032F022002DE032F022002DF03FF12022002DE032F022002DC032F022002DF0303\u003E (Earth date).",
+    "translation_description": ""
+  },
+  "49": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK",
+    "description": "Tax on items sold in the \u003Chex:02280AFF05546F776EE8020103\u003E markets is reduced to \u003Chex:022003E80503\u003E% until \u003Chex:020703E80303\u003E\u003Chex:02082CE4E94E04FF1320022002DC032F022002DE032F022002DF03FF12022002DE032F022002DC032F022002DF0303\u003E (Earth date).",
+    "translation_description": ""
+  },
+  "50": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_NO_CASHBACK_LIMSA",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_NO_CASHBACK_LIMSA",
+    "description": "Tax on items sold in the Limsa Lominsa markets is the normal rate of \u003Chex:022003E80203\u003E%.",
+    "translation_description": ""
+  },
+  "51": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_NO_CASHBACK_GRIDANIA",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_NO_CASHBACK_GRIDANIA",
+    "description": "Tax on items sold in the Gridania markets is the normal rate of \u003Chex:022003E80203\u003E%.",
+    "translation_description": ""
+  },
+  "52": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_NO_CASHBACK_ULDAH",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_NO_CASHBACK_ULDAH",
+    "description": "Tax on items sold in the Ul\u0027dah markets is the normal rate of \u003Chex:022003E80203\u003E%.",
+    "translation_description": ""
+  },
+  "53": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_NO_CASHBACK_ISHGARD",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_NO_CASHBACK_ISHGARD",
+    "description": "Tax on items sold in the Ishgard markets is the normal rate of \u003Chex:022003E80203\u003E%.",
+    "translation_description": ""
+  },
+  "54": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_NO_CASHBACK_TOWN40",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_NO_CASHBACK_TOWN40",
+    "description": "Tax on items sold in the Kugane markets is the normal rate of \u003Chex:022003E80203\u003E%.",
+    "translation_description": ""
+  },
+  "55": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_NO_CASHBACK",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_NO_CASHBACK",
+    "description": "Tax on items sold in the \u003Chex:02280AFF05546F776EE8020103\u003E markets is the normal rate of \u003Chex:022003E80303\u003E%.",
+    "translation_description": ""
+  },
+  "56": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_ABOUT",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_ABOUT",
+    "description": "Learn about Market Tax",
+    "translation_description": ""
+  },
+  "57": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_EXPLANATION",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_EXPLANATION",
+    "description": "To make their markets more attractive to prospective sellers, cities will often lower the percentage of tax that is collected from each sale.",
+    "translation_description": ""
+  },
+  "58": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_CAUTION",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_CAUTION",
+    "description": "Reduced tax rate periods can end earlier than indicated if areas require maintenance.",
+    "translation_description": ""
+  },
+  "59": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CREATE_TALK_01",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CREATE_TALK_01",
+    "description": "According to our records, you may hire up to \u003Chex:022003E80203\u003E retainers.",
+    "translation_description": ""
+  },
+  "60": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_NO_RETAINERS_TALK",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_NO_RETAINERS_TALK",
+    "description": "Currently, you have no retainers in your employ.",
+    "translation_description": ""
+  },
+  "61": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_HAVE_RETAINERS_TALK",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_HAVE_RETAINERS_TALK",
+    "description": "Currently, you have \u003Chex:022003E80203\u003E \u003Chex:02081AE4E80202FF0972657461696E6572FF0A72657461696E65727303\u003E in your employ.",
+    "translation_description": ""
+  },
+  "62": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CUSTOMIZE_WARNING",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CUSTOMIZE_WARNING",
+    "description": "While customizing your retainer, you will be unable to communicate with players and engage in other activities.",
+    "translation_description": ""
+  },
+  "63": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CUSTOMIZE_TALK",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CUSTOMIZE_TALK",
+    "description": "Excellent. We have quite a few men and women on our lists, so I invite you to describe the retainer you desire, down to the most minute detail.",
+    "translation_description": ""
+  },
+  "64": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_DUTY_FINDER_WARNING",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_DUTY_FINDER_WARNING",
+    "description": "Beginning the retainer customization process will automatically cancel your Duty Finder registration.",
+    "translation_description": ""
+  },
+  "65": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_DUTY_FINDER_CONFIRM",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_DUTY_FINDER_CONFIRM",
+    "description": "Withdraw duty registration and hire a retainer?",
+    "translation_description": ""
+  },
+  "66": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_TALK",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_TALK",
+    "description": "I can think of several retainers that are exactly as you describe. Oddly enough, they have strikingly different personalities. If you would be so kind as to state a preference, it would be most helpful.",
+    "translation_description": ""
+  },
+  "67": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_TITLE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_TITLE",
+    "description": "Select your retainer\u0027s personality.",
+    "translation_description": ""
+  },
+  "68": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_CHEERFUL",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_CHEERFUL",
+    "description": "Polite.",
+    "translation_description": ""
+  },
+  "69": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_WILD",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_WILD",
+    "description": "Rough.",
+    "translation_description": ""
+  },
+  "70": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_COOLHEADED",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_COOLHEADED",
+    "description": "Serious.",
+    "translation_description": ""
+  },
+  "71": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_CAREFREE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_CAREFREE",
+    "description": "Carefree.",
+    "translation_description": ""
+  },
+  "72": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_PROBLEMATIC",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_PROBLEMATIC",
+    "description": "Independent.",
+    "translation_description": ""
+  },
+  "73": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_PLAYFUL",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_PLAYFUL",
+    "description": "Lively.",
+    "translation_description": ""
+  },
+  "74": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CHECK_PERSONALITY_ENTER",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CHECK_PERSONALITY_ENTER",
+    "description": "Very well, I have just the individual in mind. When summoned, this retainer will greet you just so:",
+    "translation_description": ""
+  },
+  "75": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CHECK_PERSONALITY_LEAVE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CHECK_PERSONALITY_LEAVE",
+    "description": "And when dismissed, this retainer will bid you farewell just so:",
+    "translation_description": ""
+  },
+  "76": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CHECK_PERSONALITY_CONFIRM",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CHECK_PERSONALITY_CONFIRM",
+    "description": "Hire this retainer?",
+    "translation_description": ""
+  },
+  "77": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_NAME_ASK",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_NAME_ASK",
+    "description": "Excellent. It is also customary to give a retainer an appellation of one\u0027s own making\u2500a nickname, as it were. We find this deepens the bond between our clients and their retainers.",
+    "translation_description": ""
+  },
+  "78": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_NAME_PROMPT_TITLE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_NAME_PROMPT_TITLE",
+    "description": "Retainer Nickname",
+    "translation_description": ""
+  },
+  "79": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_NAME_PROMPT_MESSAGE0",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_NAME_PROMPT_MESSAGE0",
+    "description": "Give your retainer a nickname.",
+    "translation_description": ""
+  },
+  "80": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_NAME_PROMPT_MESSAGE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_NAME_PROMPT_MESSAGE1",
+    "description": "Names must be at least 3 characters long and can contain letters, apostrophes, and hyphens. Please note, however, that hyphens cannot be used in succession or placed immediately before or after apostrophes.",
+    "translation_description": ""
+  },
+  "81": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_NAME_PROMPT_HEAD",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_NAME_PROMPT_HEAD",
+    "description": " ",
+    "translation_description": ""
+  },
+  "82": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CANCEL_CONFIRM",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CANCEL_CONFIRM",
+    "description": "Are you certain you wish to cancel the hiring process?",
+    "translation_description": ""
+  },
+  "83": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CREATE_CONFIRM",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CREATE_CONFIRM",
+    "description": "Hire the services of \u003Chex:022903EA0203\u003E?",
+    "translation_description": ""
+  },
+  "84": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_CREATE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_CREATE",
+    "description": "Hire a retainer?",
+    "translation_description": ""
+  },
+  "85": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_CREATE_YES",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_CREATE_YES",
+    "description": "Yes",
+    "translation_description": ""
+  },
+  "86": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_CREATE_NO",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_CREATE_NO",
+    "description": "No",
+    "translation_description": ""
+  },
+  "87": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CREATING_RETAINER",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CREATING_RETAINER",
+    "description": "One moment, please, while I draft the proper documentation.",
+    "translation_description": ""
+  },
+  "88": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CREATE_SUCCESS_01",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CREATE_SUCCESS_01",
+    "description": "Congratulations! \u003Chex:022B09FF07022903EA020303\u003E is now in your employ.",
+    "translation_description": ""
+  },
+  "89": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CREATE_SUCCESS_02",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CREATE_SUCCESS_02",
+    "description": "You can summon your new retainer using the nearby bell.",
+    "translation_description": ""
+  },
+  "90": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CREATE_SUCCESS_03",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CREATE_SUCCESS_03",
+    "description": "If you have any further questions or requests, please do not hesitate to ask.",
+    "translation_description": ""
+  },
+  "91": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_CREATE_FAILED_NAME",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_CREATE_FAILED_NAME",
+    "description": "The name you have chosen is not available. Please select another.",
+    "translation_description": ""
+  },
+  "92": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_CREATE_FULL",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_CREATE_FULL",
+    "description": "I am sorry, but you cannot hire any more retainers.",
+    "translation_description": ""
+  },
+  "93": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_CREATE_CANCEL",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_CREATE_CANCEL",
+    "description": "Understood. If you change your mind, speak with me again.",
+    "translation_description": ""
+  },
+  "94": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_LIMSA_01",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_LIMSA_01",
+    "description": "Select the retainer you wish to send to the markets in Limsa Lominsa.",
+    "translation_description": ""
+  },
+  "95": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_LIMSA",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_LIMSA",
+    "description": "Send \u003Chex:022B09FF07022903EA020303\u003E to Limsa Lominsa?",
+    "translation_description": ""
+  },
+  "96": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_LIMSA",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_LIMSA",
+    "description": "\u003Chex:022B09FF07022903EA020303\u003E has been sent to Limsa Lominsa.",
+    "translation_description": ""
+  },
+  "97": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_LIMSA",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_LIMSA",
+    "description": "That retainer is already in Limsa Lominsa.",
+    "translation_description": ""
+  },
+  "98": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_GRIDANIA_01",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_GRIDANIA_01",
+    "description": "Select the retainer you wish to send to the markets in Gridania.",
+    "translation_description": ""
+  },
+  "99": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_GRIDANIA",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_GRIDANIA",
+    "description": "Send \u003Chex:022B09FF07022903EA020303\u003E to Gridania?",
+    "translation_description": ""
+  },
+  "100": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_GRIDANIA",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_GRIDANIA",
+    "description": "\u003Chex:022B09FF07022903EA020303\u003E has been sent to Gridania.",
+    "translation_description": ""
+  },
+  "101": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_GRIDANIA",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_GRIDANIA",
+    "description": "That retainer is already in Gridania.",
+    "translation_description": ""
+  },
+  "102": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_ULDAH_01",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_ULDAH_01",
+    "description": "Select the retainer you wish to send to the markets in Ul\u0027dah.",
+    "translation_description": ""
+  },
+  "103": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_ULDAH",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_ULDAH",
+    "description": "Send \u003Chex:022B09FF07022903EA020303\u003E to Ul\u0027dah?",
+    "translation_description": ""
+  },
+  "104": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_ULDAH",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_ULDAH",
+    "description": "\u003Chex:022B09FF07022903EA020303\u003E has been sent to Ul\u0027dah.",
+    "translation_description": ""
+  },
+  "105": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_ULDAH",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_ULDAH",
+    "description": "That retainer is already in Ul\u0027dah.",
+    "translation_description": ""
+  },
+  "106": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_ISHGARD_01",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_ISHGARD_01",
+    "description": "Select the retainer you wish to send to the markets in Ishgard.",
+    "translation_description": ""
+  },
+  "107": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_ISHGARD",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_ISHGARD",
+    "description": "Send \u003Chex:022B09FF07022903EA020303\u003E to Ishgard?",
+    "translation_description": ""
+  },
+  "108": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_ISHGARD",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_ISHGARD",
+    "description": "\u003Chex:022B09FF07022903EA020303\u003E has been sent to Ishgard.",
+    "translation_description": ""
+  },
+  "109": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_ISHGARD",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_ISHGARD",
+    "description": "That retainer is already in Ishgard.",
+    "translation_description": ""
+  },
+  "110": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_TOWN40_01",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_TOWN40_01",
+    "description": "Select the retainer you wish to send to the markets in Kugane.",
+    "translation_description": ""
+  },
+  "111": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_TOWN40",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_TOWN40",
+    "description": "Send \u003Chex:022B09FF07022903EA020303\u003E to Kugane?",
+    "translation_description": ""
+  },
+  "112": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_TOWN40",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_TOWN40",
+    "description": "\u003Chex:022B09FF07022903EA020303\u003E has been sent to Kugane.",
+    "translation_description": ""
+  },
+  "113": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_TOWN40",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_TOWN40",
+    "description": "That retainer is already in Kugane.",
+    "translation_description": ""
+  },
+  "114": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_OLDSHARLAYAN_01",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_OLDSHARLAYAN_01",
+    "description": "Select the retainer you wish to send to the markets in Old Sharlayan.",
+    "translation_description": ""
+  },
+  "115": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_OLDSHARLAYAN",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_OLDSHARLAYAN",
+    "description": "Send \u003Chex:022B09FF07022903EA020303\u003E to Old Sharlayan?",
+    "translation_description": ""
+  },
+  "116": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_OLDSHARLAYAN",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_OLDSHARLAYAN",
+    "description": "\u003Chex:022B09FF07022903EA020303\u003E has been sent to Old Sharlayan.",
+    "translation_description": ""
+  },
+  "117": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_OLDSHARLAYAN",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_OLDSHARLAYAN",
+    "description": "That retainer is already in Old Sharlayan.",
+    "translation_description": ""
+  },
+  "118": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_VER70_01",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_VER70_01",
+    "description": "Select the retainer you wish to send to the markets in Tuliyollal.",
+    "translation_description": ""
+  },
+  "119": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_VER70",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_VER70",
+    "description": "Send \u003Chex:022B09FF07022903EA020303\u003E to Tuliyollal?",
+    "translation_description": ""
+  },
+  "120": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_VER70",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_VER70",
+    "description": "\u003Chex:022B09FF07022903EA020303\u003E has been sent to Tuliyollal.",
+    "translation_description": ""
+  },
+  "121": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_VER70",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_VER70",
+    "description": "That retainer is already in Tuliyollal.",
+    "translation_description": ""
+  },
+  "122": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_YES",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_YES",
+    "description": "Yes",
+    "translation_description": ""
+  },
+  "123": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_NO",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_NO",
+    "description": "No",
+    "translation_description": ""
+  },
+  "124": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REMAKE_RETAINER_EXPLANATION",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REMAKE_RETAINER_EXPLANATION",
+    "description": "You...are dissatisfied with one of your retainers? Very well. If you would be so kind as to inform me which retainer is lacking, we can begin the review process.",
+    "translation_description": ""
+  },
+  "125": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REMAKE_RETAINER_TALK",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REMAKE_RETAINER_TALK",
+    "description": "You may change your retainers\u0027 nicknames or instruct them to visit the aesthetician at any time. If you desire more drastic changes to a retainer\u0027s appearance or personality, the retainer vocate will assist you in finding a replacement of comparable skill and experience.",
+    "translation_description": ""
+  },
+  "126": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_REMAKE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_REMAKE",
+    "description": "Review your specifications for \u003Chex:022B09FF07022903EA020303\u003E?",
+    "translation_description": ""
+  },
+  "127": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_REMAKE_YES",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_REMAKE_YES",
+    "description": "Yes",
+    "translation_description": ""
+  },
+  "128": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_REMAKE_NO",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_REMAKE_NO",
+    "description": "No",
+    "translation_description": ""
+  },
+  "129": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMAKE_CANCEL",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMAKE_CANCEL",
+    "description": "Then you \u003Chex:021A020203\u003Eare\u003Chex:021A020103\u003E completely satisfied with your retainer? Understood. Pray speak with me again should your preferences change.",
+    "translation_description": ""
+  },
+  "130": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_DUTY_FINDER_CONFIRM_REMAKE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_DUTY_FINDER_CONFIRM_REMAKE",
+    "description": "Withdraw duty registration and review your retainer?",
+    "translation_description": ""
+  },
+  "131": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMAKE_TALK",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMAKE_TALK",
+    "description": "Very well. First, let us review your retainer\u0027s current appearance. I must ask that you describe in detail which aspects you find unappealing, and what you would prefer.",
+    "translation_description": ""
+  },
+  "132": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_TALK_REMAKE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_TALK_REMAKE",
+    "description": "I see... Next, I would have you confirm your preference with regards to personality. \u201CThe right retainer for the right person,\u201D as we are wont to say.",
+    "translation_description": ""
+  },
+  "133": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CHECK_PERSONALITY_REMAKE_ENTER",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CHECK_PERSONALITY_REMAKE_ENTER",
+    "description": "To ensure there is no misunderstanding, know that your retainer will address you just so:",
+    "translation_description": ""
+  },
+  "134": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CHECK_PERSONALITY_CONFIRM_REMAKE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CHECK_PERSONALITY_CONFIRM_REMAKE",
+    "description": "Are you satisfied with this personality?",
+    "translation_description": ""
+  },
+  "135": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_NAME_ASK_REMAKE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_NAME_ASK_REMAKE",
+    "description": "Understood. Finally, I must needs verify the nickname you would give your retainer. You may register the same nickname if you like.",
+    "translation_description": ""
+  },
+  "136": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CANCEL_CONFIRM_REMAKE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CANCEL_CONFIRM_REMAKE",
+    "description": "Are you certain you wish to cancel the review process?",
+    "translation_description": ""
+  },
+  "137": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REMAKE_CONFIRM",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REMAKE_CONFIRM",
+    "description": "Complete your review of \u003Chex:022903EA0203\u003E?",
+    "translation_description": ""
+  },
+  "138": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REMEKE_RETAINER",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REMEKE_RETAINER",
+    "description": "One moment, please, while I draft the proper documentation.",
+    "translation_description": ""
+  },
+  "139": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_EQUIP_HAVE_RETAINER",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_EQUIP_HAVE_RETAINER",
+    "description": "Forgive me, but you must first instruct your retainer to remove all equipment. A necessary precaution, in light of past incidents.",
+    "translation_description": ""
+  },
+  "140": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_VENTURE_RETAINER",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_VENTURE_RETAINER",
+    "description": "Our records indicate that your retainer is currently undertaking a venture. Until that is no longer the case, I fear we cannot begin the review process.",
+    "translation_description": ""
+  },
+  "141": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMAKE_FAILED",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMAKE_FAILED",
+    "description": "Due to unforeseen circumstances, we cannot review your retainer at this time.",
+    "translation_description": ""
+  },
+  "142": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REMAKE_SUCCESS_01",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REMAKE_SUCCESS_01",
+    "description": "I am pleased to inform you that your review has been processed, and \u003Chex:022903EA0203\u003E is now ready to serve you.",
+    "translation_description": ""
+  },
+  "143": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REMAKE_SUCCESS_02",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REMAKE_SUCCESS_02",
+    "description": "You can summon your retainer using the nearby bell.",
+    "translation_description": ""
+  },
+  "144": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REMOVE_RETAINER_EXPLANATION",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REMOVE_RETAINER_EXPLANATION",
+    "description": "Very well. Allow me a moment to locate your documentation.",
+    "translation_description": ""
+  },
+  "145": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_NO_RETAINERS_AVAILABLE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_NO_RETAINERS_AVAILABLE",
+    "description": "It does not appear you have any retainers in your employ at this time.",
+    "translation_description": ""
+  },
+  "146": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REMOVE_RETAINER_TALK",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REMOVE_RETAINER_TALK",
+    "description": "Confirm the retainer you wish to release.",
+    "translation_description": ""
+  },
+  "147": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_REMOVE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_REMOVE",
+    "description": "Release \u003Chex:022B09FF07022903EA020303\u003E?",
+    "translation_description": ""
+  },
+  "148": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_REMOVE_HASHOUSE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_REMOVE_HASHOUSE",
+    "description": "Release \u003Chex:022B09FF07022903EA020303\u003E?\u003Chex:02100103\u003EPlease be advised that retainers placed in estates will not be automatically removed.",
+    "translation_description": ""
+  },
+  "149": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_REMOVE_YES",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_REMOVE_YES",
+    "description": "Yes",
+    "translation_description": ""
+  },
+  "150": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_REMOVE_NO",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_REMOVE_NO",
+    "description": "No",
+    "translation_description": ""
+  },
+  "151": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMOVE_SUCCESS",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMOVE_SUCCESS",
+    "description": "\u003Chex:022B09FF07022903EA020303\u003E is released from service.",
+    "translation_description": ""
+  },
+  "152": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMOVE_FAILED_INVENTORY",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMOVE_FAILED_INVENTORY",
+    "description": "Our records show that the retainer you wish to release is still in possession of several of your belongings, and may have placed a number of them for sale on the market.",
+    "translation_description": ""
+  },
+  "153": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMOVE_FAILED_INVENTORY2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMOVE_FAILED_INVENTORY2",
+    "description": "You must retrieve those belongings before I can approve the dismissal.",
+    "translation_description": ""
+  },
+  "154": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMOVE_CANCEL",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMOVE_CANCEL",
+    "description": "Understood. The retainer shall remain in your employ. Speak with me again if you change your mind.",
+    "translation_description": ""
+  },
+  "155": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_JOB_MENU_TITLE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_JOB_MENU_TITLE",
+    "description": "What would you like to do?",
+    "translation_description": ""
+  },
+  "156": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_JOB_MENU_HOWTO",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_JOB_MENU_HOWTO",
+    "description": "Ask about assigning your retainer a job.",
+    "translation_description": ""
+  },
+  "157": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_JOB_MENU_RELATION",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_JOB_MENU_RELATION",
+    "description": "Ask about job requirements.",
+    "translation_description": ""
+  },
+  "158": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_JOB_MENU_OBTAIN",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_JOB_MENU_OBTAIN",
+    "description": "Purchase a copy of \u003Chex:021A020203\u003EModern Vocation\u003Chex:021A020103\u003E.",
+    "translation_description": ""
+  },
+  "159": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_JOB_MENU_CANCEL",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_JOB_MENU_CANCEL",
+    "description": "Nothing.",
+    "translation_description": ""
+  },
+  "160": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_JOB_HOWTO_TALK_01",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_JOB_HOWTO_TALK_01",
+    "description": "By popular demand, we have prepared an exhaustive publication to aid clients who would have their retainers train in certain ancient or esoteric traditions.",
+    "translation_description": ""
+  },
+  "161": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_JOB_HOWTO_TALK_02",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_JOB_HOWTO_TALK_02",
+    "description": "To assign your retainer a \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Ejob\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E, you must first obtain \u003Chex:02310CFF054974656D02E802020203\u003E, which can be purchased from the retainer vocate for 40 ventures.",
+    "translation_description": ""
+  },
+  "162": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_JOB_HOWTO_TALK_03",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_JOB_HOWTO_TALK_03",
+    "description": "Furthermore, you must have achieved level 50 in the job you wish to assign your retainer. Please note that the jobs you can assign your retainer are determined by their class. Limited jobs are not available.",
+    "translation_description": ""
+  },
+  "163": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_JOB_HOWTO_TALK_04",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_JOB_HOWTO_TALK_04",
+    "description": "If you wish to assign a level 50 retainer a job which is not currently available, you will need to reset and change their class.",
+    "translation_description": ""
+  },
+  "164": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_RELATION_TALK_01",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_RELATION_TALK_01",
+    "description": "As you may know, a certain measure of experience is required before a retainer may train in a more advanced tradition.",
+    "translation_description": ""
+  },
+  "165": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_RELATION_MENU_TITLE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_RELATION_MENU_TITLE",
+    "description": "Select a class.",
+    "translation_description": ""
+  },
+  "166": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_RELATION_MENU_CLASS",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_RELATION_MENU_CLASS",
+    "description": "\u003Chex:022B14FF1202280EFF09436C6173734A6F62E802010303\u003E.",
+    "translation_description": ""
+  },
+  "167": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_RELATION_MENU_CANCEL",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_RELATION_MENU_CANCEL",
+    "description": "Return.",
+    "translation_description": ""
+  },
+  "168": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_TALK_01",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_TALK_01",
+    "description": "A retainer who has been assigned the \u003Chex:02280EFF09436C6173734A6F62E8020103\u003E class may be eligible to train in the following traditions:",
+    "translation_description": ""
+  },
+  "169": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_MENU_TITLE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_MENU_TITLE",
+    "description": "Select a job.",
+    "translation_description": ""
+  },
+  "170": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_MENU_CLASS",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_MENU_CLASS",
+    "description": "\u003Chex:022B14FF1202280EFF09436C6173734A6F62E802010303\u003E.",
+    "translation_description": ""
+  },
+  "171": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_MENU_CANCEL",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_MENU_CANCEL",
+    "description": "Return.",
+    "translation_description": ""
+  },
+  "172": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_TALK_10",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_TALK_10",
+    "description": "To assign your retainer the \u003Chex:02280EFF09436C6173734A6F62E8020103\u003E job, you yourself must first achieve level 50 as \u003Chex:0208B0E4E8020BFF15616E2002280EFF09436C6173734A6F62E8020103FF94020890E4E8020FFF15616E2002280EFF09436C6173734A6F62E8020103FF74020870E4E80206FF15616E2002280EFF09436C6173734A6F62E8020103FF54020850E4E8021BFF15616E2002280EFF09436C6173734A6F62E8020103FF34020830E4E80222FF15616E2002280EFF09436C6173734A6F62E8020103FF14612002280EFF09436C6173734A6F62E80201030303030303\u003E. Additionally, your retainer must have achieved level 30 as \u003Chex:0208B0E4E8030BFF15616E2002280EFF09436C6173734A6F62E8030103FF94020890E4E8030FFF15616E2002280EFF09436C6173734A6F62E8030103FF74020870E4E80306FF15616E2002280EFF09436C6173734A6F62E8030103FF54020850E4E8031BFF15616E2002280EFF09436C6173734A6F62E8030103FF34020830E4E80322FF15616E2002280EFF09436C6173734A6F62E8030103FF14612002280EFF09436C6173734A6F62E80301030303030303\u003E.",
+    "translation_description": ""
+  },
+  "173": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_TALK_20",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_TALK_20",
+    "description": "To assign your retainer the \u003Chex:02280EFF09436C6173734A6F62E8020103\u003E job, you yourself must first achieve level 50 as \u003Chex:0208B0E4E8020BFF15616E2002280EFF09436C6173734A6F62E8020103FF94020890E4E8020FFF15616E2002280EFF09436C6173734A6F62E8020103FF74020870E4E80206FF15616E2002280EFF09436C6173734A6F62E8020103FF54020850E4E8021BFF15616E2002280EFF09436C6173734A6F62E8020103FF34020830E4E80222FF15616E2002280EFF09436C6173734A6F62E8020103FF14612002280EFF09436C6173734A6F62E80201030303030303\u003E. Additionally, your retainer must have achieved level 50 as a Disciple of War or Magic.",
+    "translation_description": ""
+  },
+  "174": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_TALK_30",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_TALK_30",
+    "description": "To assign your retainer the \u003Chex:02280EFF09436C6173734A6F62E8020103\u003E job, you yourself must first achieve level 60 as \u003Chex:0208B0E4E8020BFF15616E2002280EFF09436C6173734A6F62E8020103FF94020890E4E8020FFF15616E2002280EFF09436C6173734A6F62E8020103FF74020870E4E80206FF15616E2002280EFF09436C6173734A6F62E8020103FF54020850E4E8021BFF15616E2002280EFF09436C6173734A6F62E8020103FF34020830E4E80222FF15616E2002280EFF09436C6173734A6F62E8020103FF14612002280EFF09436C6173734A6F62E80201030303030303\u003E. Additionally, your retainer must have achieved level 60 as a Disciple of War or Magic.",
+    "translation_description": ""
+  },
+  "175": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_TALK_40",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_TALK_40",
+    "description": "To assign your retainer the \u003Chex:02280EFF09436C6173734A6F62E8020103\u003E job, you yourself must first achieve level 70 as \u003Chex:0208B0E4E8020BFF15616E2002280EFF09436C6173734A6F62E8020103FF94020890E4E8020FFF15616E2002280EFF09436C6173734A6F62E8020103FF74020870E4E80206FF15616E2002280EFF09436C6173734A6F62E8020103FF54020850E4E8021BFF15616E2002280EFF09436C6173734A6F62E8020103FF34020830E4E80222FF15616E2002280EFF09436C6173734A6F62E8020103FF14612002280EFF09436C6173734A6F62E80201030303030303\u003E. Additionally, your retainer must have achieved level 70 as a Disciple of War or Magic.",
+    "translation_description": ""
+  },
+  "176": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_TALK_50",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_TALK_50",
+    "description": "To assign your retainer the \u003Chex:02280EFF09436C6173734A6F62E8020103\u003E job, you yourself must first achieve level 80 as \u003Chex:0208B0E4E8020BFF15616E2002280EFF09436C6173734A6F62E8020103FF94020890E4E8020FFF15616E2002280EFF09436C6173734A6F62E8020103FF74020870E4E80206FF15616E2002280EFF09436C6173734A6F62E8020103FF54020850E4E8021BFF15616E2002280EFF09436C6173734A6F62E8020103FF34020830E4E80222FF15616E2002280EFF09436C6173734A6F62E8020103FF14612002280EFF09436C6173734A6F62E80201030303030303\u003E. Additionally, your retainer must have achieved level 80 as a Disciple of War or Magic.",
+    "translation_description": ""
+  },
+  "177": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_SCROLL_HAS_ALREADY",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_SCROLL_HAS_ALREADY",
+    "description": "Ahem. If I am not mistaken, do you not already have a copy of that publication in your possession?",
+    "translation_description": ""
+  },
+  "178": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_SCROLL_TALK_01",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_SCROLL_TALK_01",
+    "description": "You already possess a copy of \u003Chex:021A020203\u003EModern Vocation\u003Chex:021A020103\u003E. You may summon a retainer and assign them a job, if they meet the necessary requirements.",
+    "translation_description": ""
+  },
+  "179": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_SCROLL_TALK_02",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_SCROLL_TALK_02",
+    "description": "",
+    "translation_description": ""
+  },
+  "180": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_SCROLL_TALK_03",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_SCROLL_TALK_03",
+    "description": "",
+    "translation_description": ""
+  },
+  "181": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_SCROLL_TRADE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_SCROLL_TRADE",
+    "description": "Exchange 40 ventures for \u003Chex:02310CFF054974656D02E802020203\u003E?",
+    "translation_description": ""
+  },
+  "182": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_SCROLL_YES",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_SCROLL_YES",
+    "description": "Yes",
+    "translation_description": ""
+  },
+  "183": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_SCROLL_NO",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ASK_SCROLL_NO",
+    "description": "No",
+    "translation_description": ""
+  },
+  "184": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_SCROLL_FULL_BAG",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_SCROLL_FULL_BAG",
+    "description": "Unable to obtain \u003Chex:02310CFF054974656D03E802020203\u003E. Your inventory is full.",
+    "translation_description": ""
+  },
+  "185": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_SCROLL_SHORTAGE_COIN",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_SCROLL_SHORTAGE_COIN",
+    "description": "Unable to purchase \u003Chex:02310CFF054974656D03E802020203\u003E. You do not have enough ventures.",
+    "translation_description": ""
+  },
+  "186": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_SCROLL_SHORTAGE_EXCHANGE_GUIDE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_SCROLL_SHORTAGE_EXCHANGE_GUIDE",
+    "description": "If you possess a venture promissory note, you may redeem it for ventures through a Calamity salvager.",
+    "translation_description": ""
+  },
+  "187": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_TRADE_TALK_01",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_TRADE_TALK_01",
+    "description": "You exchange 40 ventures for \u003Chex:02310CFF054974656D03E802020203\u003E.",
+    "translation_description": ""
+  },
+  "188": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_TRADE_TALK_02",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_TRADE_TALK_02",
+    "description": "You may now summon a retainer and assign them a job, if they meet the necessary requirements.",
+    "translation_description": ""
+  },
+  "189": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_MALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_MALE_TYPE1",
+    "description": "(-Polite Hyuran Male-)I have come, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E.",
+    "translation_description": ""
+  },
+  "190": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_MALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_MALE_TYPE2",
+    "description": "(-Rough Hyuran Male-)Nothin\u0027 fer ye to worry about.",
+    "translation_description": ""
+  },
+  "191": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_MALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_MALE_TYPE3",
+    "description": "(-Serious Hyuran Male-)You summoned?",
+    "translation_description": ""
+  },
+  "192": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_MALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_MALE_TYPE4",
+    "description": "(-Carefree Hyuran Male-)Yes? \u003Csigh\u003E I hope this doesn\u0027t take long...",
+    "translation_description": ""
+  },
+  "193": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_MALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_MALE_TYPE5",
+    "description": "(-Independent Hyuran Male-)You wish to see how a master handles a bazaar?",
+    "translation_description": ""
+  },
+  "194": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_MALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_MALE_TYPE6",
+    "description": "(-Lively Hyuran Male-)Hello, hello! You called?",
+    "translation_description": ""
+  },
+  "195": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_FEMALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_FEMALE_TYPE1",
+    "description": "(-Polite Hyuran Female-)At your service, my \u003Chex:02080FE905FF056C616479FF056C6F726403\u003E.",
+    "translation_description": ""
+  },
+  "196": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_FEMALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_FEMALE_TYPE2",
+    "description": "(-Rough Hyuran Female-)What\u0027s it to be this time, love?",
+    "translation_description": ""
+  },
+  "197": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_FEMALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_FEMALE_TYPE3",
+    "description": "(-Serious Hyuran Female-)What would you ask?",
+    "translation_description": ""
+  },
+  "198": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_FEMALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_FEMALE_TYPE4",
+    "description": "(-Carefree Hyuran Female-)I\u0027m so sorry to keep you waiting, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. So very, very sorry.",
+    "translation_description": ""
+  },
+  "199": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_FEMALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_FEMALE_TYPE5",
+    "description": "(-Independent Hyuran Female-)Quickly now, I\u0027ve places to be.",
+    "translation_description": ""
+  },
+  "200": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_FEMALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_FEMALE_TYPE6",
+    "description": "(-Lively Hyuran Female-)Well, if it ain\u0027t my favorite client! Always a pleasure, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E!",
+    "translation_description": ""
+  },
+  "201": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_MALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_MALE_TYPE1",
+    "description": "(-Polite Elezen Male-)Yes, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E? What is your bidding?",
+    "translation_description": ""
+  },
+  "202": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_MALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_MALE_TYPE2",
+    "description": "(-Rough Elezen Male-)What\u0027s on the agenda, chief? Deprivin\u0027 saps o\u0027 their hard-earned gil?",
+    "translation_description": ""
+  },
+  "203": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_MALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_MALE_TYPE3",
+    "description": "(-Serious Elezen Male-)I have come. You may proceed.",
+    "translation_description": ""
+  },
+  "204": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_MALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_MALE_TYPE4",
+    "description": "(-Carefree Elezen Male-)Oh, hello there. To what do I owe the pleasure?",
+    "translation_description": ""
+  },
+  "205": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_MALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_MALE_TYPE5",
+    "description": "(-Independent Elezen Male-)I am come to conduct business, and only business.",
+    "translation_description": ""
+  },
+  "206": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_MALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_MALE_TYPE6",
+    "description": "(-Lively Elezen Male-)You look to be in good health, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. How may I assist you this fine \u003Chex:02082EE3E90C0DFF14020810E3E90C05FF04657665FF056D6F726E03FF1302080FE3E90C12FF04646179FF046576650303\u003E?",
+    "translation_description": ""
+  },
+  "207": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_FEMALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_FEMALE_TYPE1",
+    "description": "(-Polite Elezen Female-)What is it you would have me do, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E?",
+    "translation_description": ""
+  },
+  "208": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_FEMALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_FEMALE_TYPE2",
+    "description": "(-Rough Elezen Female-)Usually, it\u0027s me doin\u0027 the summons and others doin\u0027 the waitin\u0027.",
+    "translation_description": ""
+  },
+  "209": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_FEMALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_FEMALE_TYPE3",
+    "description": "(-Serious Elezen Female-)Is there something that I can help you with?",
+    "translation_description": ""
+  },
+  "210": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_FEMALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_FEMALE_TYPE4",
+    "description": "(-Carefree Elezen Female-)Oh, why must you summon me at a time like this...?",
+    "translation_description": ""
+  },
+  "211": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_FEMALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_FEMALE_TYPE5",
+    "description": "(-Independent Elezen Female-)I\u0027m sure there is a perfectly good explanation for this summons.",
+    "translation_description": ""
+  },
+  "212": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_FEMALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_FEMALE_TYPE6",
+    "description": "(-Lively Elezen Female-)You know, I thought you might be along to summon me. You may rest assured that I am ready and eager to serve.",
+    "translation_description": ""
+  },
+  "213": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_MALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_MALE_TYPE1",
+    "description": "(-Polite Lalafellin Male-)Hail to thee, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. Your humble servant has heard your summons.",
+    "translation_description": ""
+  },
+  "214": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_MALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_MALE_TYPE2",
+    "description": "(-Rough Lalafellin Male-)Greetin\u0027s and salutations, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E. Pray speak yer desires, an\u0027 I\u0027ll do me damndest to see \u0027em done.",
+    "translation_description": ""
+  },
+  "215": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_MALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_MALE_TYPE3",
+    "description": "(-Serious Lalafellin Male-)I was wondering when you\u0027d get around to calling me.",
+    "translation_description": ""
+  },
+  "216": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_MALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_MALE_TYPE4",
+    "description": "(-Carefree Lalafellin Male-)Mind if we keep this brief? I\u0027ve got a pretty little thing that\u0027s waitin\u0027 for me.",
+    "translation_description": ""
+  },
+  "217": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_MALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_MALE_TYPE5",
+    "description": "(-Independent Lalafellin Male-)What?",
+    "translation_description": ""
+  },
+  "218": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_MALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_MALE_TYPE6",
+    "description": "(-Lively Lalafellin Male-)I\u0027m here, I\u0027m here!",
+    "translation_description": ""
+  },
+  "219": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_FEMALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_FEMALE_TYPE1",
+    "description": "(-Polite Lalafellin Female-)Here I am, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E, as per your request.",
+    "translation_description": ""
+  },
+  "220": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_FEMALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_FEMALE_TYPE2",
+    "description": "(-Rough Lalafellin Female-)\u0027Ello, dearie. What\u0027s on the docket?",
+    "translation_description": ""
+  },
+  "221": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_FEMALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_FEMALE_TYPE3",
+    "description": "(-Serious Lalafellin Female-)I never miss a chance to line these pockets.",
+    "translation_description": ""
+  },
+  "222": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_FEMALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_FEMALE_TYPE4",
+    "description": "(-Carefree Lalafellin Female-)Well, this is unexpected! What\u0027ll it be?",
+    "translation_description": ""
+  },
+  "223": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_FEMALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_FEMALE_TYPE5",
+    "description": "(-Independent Lalafellin Female-)What is it now?",
+    "translation_description": ""
+  },
+  "224": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_FEMALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_FEMALE_TYPE6",
+    "description": "(-Lively Lalafellin Female-)Here I aaaaaam!",
+    "translation_description": ""
+  },
+  "225": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_MALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_MALE_TYPE1",
+    "description": "(-Polite Miqo\u0027te Male-)How may I be of serrrvice, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E?",
+    "translation_description": ""
+  },
+  "226": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_MALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_MALE_TYPE2",
+    "description": "(-Rough Miqo\u0027te Male-)It\u0027s a war out there, \u003Chex:02080EE905FF056D697373FF0473697203\u003E. You have no idea.",
+    "translation_description": ""
+  },
+  "227": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_MALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_MALE_TYPE3",
+    "description": "(-Serious Miqo\u0027te Male-)...",
+    "translation_description": ""
+  },
+  "228": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_MALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_MALE_TYPE4",
+    "description": "(-Carefree Miqo\u0027te Male-)Business or pleasure?",
+    "translation_description": ""
+  },
+  "229": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_MALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_MALE_TYPE5",
+    "description": "(-Independent Miqo\u0027te Male-)I presume you did not summon me solely for the pleasure of my company.",
+    "translation_description": ""
+  },
+  "230": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_MALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_MALE_TYPE6",
+    "description": "(-Lively Miqo\u0027te Male-)Just the \u003Chex:020821E905FF0C66616972206D616964656EFF1068616E64736F6D652066656C6C6F7703\u003E I was hoping to see! Tell me your heart\u0027s desire.",
+    "translation_description": ""
+  },
+  "231": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_FEMALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_FEMALE_TYPE1",
+    "description": "(-Polite Miqo\u0027te Female-)I hope your catcall is not one of disapproval.",
+    "translation_description": ""
+  },
+  "232": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_FEMALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_FEMALE_TYPE2",
+    "description": "(-Rough Miqo\u0027te Female-)Ye rang, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E?",
+    "translation_description": ""
+  },
+  "233": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_FEMALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_FEMALE_TYPE3",
+    "description": "(-Serious Miqo\u0027te Female-)A cat\u0027s ears do not miss much\u2015least of all a summons.",
+    "translation_description": ""
+  },
+  "234": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_FEMALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_FEMALE_TYPE4",
+    "description": "(-Carefree Miqo\u0027te Female-)Curiosity called the cat. What do you have for me today?",
+    "translation_description": ""
+  },
+  "235": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_FEMALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_FEMALE_TYPE5",
+    "description": "(-Independent Miqo\u0027te Female-)Ready when you are.",
+    "translation_description": ""
+  },
+  "236": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_FEMALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_FEMALE_TYPE6",
+    "description": "(-Lively Miqo\u0027te Female-)I was just thinking of you!",
+    "translation_description": ""
+  },
+  "237": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_MALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_MALE_TYPE1",
+    "description": "(-Polite Roegadyn Male-)What need have you of me today, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E?",
+    "translation_description": ""
+  },
+  "238": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_MALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_MALE_TYPE2",
+    "description": "(-Rough Roegadyn Male-)Bwahahaha! Ye got work needs gettin\u0027 done? Just point me in the right bloody direction.",
+    "translation_description": ""
+  },
+  "239": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_MALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_MALE_TYPE3",
+    "description": "(-Serious Roegadyn Male-)I\u0027ve come. What is it?",
+    "translation_description": ""
+  },
+  "240": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_MALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_MALE_TYPE4",
+    "description": "(-Carefree Roegadyn Male-)Hey there\u2500hic\u2500\u003Chex:020810E905FF066D69737379FF056D61746503\u003E! Care to join me fer a pint?",
+    "translation_description": ""
+  },
+  "241": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_MALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_MALE_TYPE5",
+    "description": "(-Independent Roegadyn Male-)Couldn\u0027t come no quicker. Where\u0027s the work?",
+    "translation_description": ""
+  },
+  "242": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_MALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_MALE_TYPE6",
+    "description": "(-Lively Roegadyn Male-)I came runnin\u0027 soon as I heard the bell! Ye need somethin\u0027, chief?",
+    "translation_description": ""
+  },
+  "243": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_FEMALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_FEMALE_TYPE1",
+    "description": "(-Polite Roegadyn Female-)I am at your disposal, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E.",
+    "translation_description": ""
+  },
+  "244": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_FEMALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_FEMALE_TYPE2",
+    "description": "(-Rough Roegadyn Female-)Ye got somethin\u0027 fer me, cap\u0027n?",
+    "translation_description": ""
+  },
+  "245": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_FEMALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_FEMALE_TYPE3",
+    "description": "(-Serious Roegadyn Female-)Go ahead, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "translation_description": ""
+  },
+  "246": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_FEMALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_FEMALE_TYPE4",
+    "description": "(-Carefree Roegadyn Female-)Let\u0027s keep this short and sweet, shall we?",
+    "translation_description": ""
+  },
+  "247": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_FEMALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_FEMALE_TYPE5",
+    "description": "(-Independent Roegadyn Female-)This wouldn\u0027t be necessary if you entrusted your financial affairs to me.",
+    "translation_description": ""
+  },
+  "248": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_FEMALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_FEMALE_TYPE6",
+    "description": "(-Lively Roegadyn Female-)So\u2500sellin\u0027, buyin\u0027, drinkin\u0027, whorin\u0027? What\u0027s it to be today?",
+    "translation_description": ""
+  },
+  "249": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_MALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_MALE_TYPE1",
+    "description": "(-Polite Auri Male-)Greetings, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. How may I be of service?",
+    "translation_description": ""
+  },
+  "250": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_MALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_MALE_TYPE2",
+    "description": "(-Rough Auri Male-)What\u0027ll it be, \u003Chex:02080FE905FF056D697373FF056D61746503\u003E?",
+    "translation_description": ""
+  },
+  "251": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_MALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_MALE_TYPE3",
+    "description": "(-Serious Auri Male-)State your business.",
+    "translation_description": ""
+  },
+  "252": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_MALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_MALE_TYPE4",
+    "description": "(-Carefree Auri Male-)And how does this wonderful \u003Chex:020835E3E90C0DFF17020813E3E90C05FF086576656E696E67FF0464617903FF17020813E3E90C12FF04646179FF086576656E696E670303\u003E find you?",
+    "translation_description": ""
+  },
+  "253": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_MALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_MALE_TYPE5",
+    "description": "(-Independent Auri Male-)Well... Here I am...\u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E.",
+    "translation_description": ""
+  },
+  "254": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_MALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_MALE_TYPE6",
+    "description": "(-Lively Auri Male-)We work the market stalls,\u266A\u003Chex:02100103\u003EAnd our uniforms are pretty;\u266A\u003Chex:02100103\u003EWe are sober men and true,\u266A\u003Chex:02100103\u003EAnd attentive to our duties!\u266A",
+    "translation_description": ""
+  },
+  "255": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_FEMALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_FEMALE_TYPE1",
+    "description": "(-Polite Auri Female-)\u003Chex:020815E905FF084D79206C616479FF084D79206C6F726403\u003E. What would you ask of me?",
+    "translation_description": ""
+  },
+  "256": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_FEMALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_FEMALE_TYPE2",
+    "description": "(-Rough Auri Female-)So. We doing this?",
+    "translation_description": ""
+  },
+  "257": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_FEMALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_FEMALE_TYPE3",
+    "description": "(-Serious Auri Female-)Yes?",
+    "translation_description": ""
+  },
+  "258": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_FEMALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_FEMALE_TYPE4",
+    "description": "(-Carefree Auri Female-)Hey, it\u0027s...it\u0027s you! Hello again, you!",
+    "translation_description": ""
+  },
+  "259": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_FEMALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_FEMALE_TYPE5",
+    "description": "(-Independent Auri Female-)I-It\u0027s not like I want to sell your items or anything.",
+    "translation_description": ""
+  },
+  "260": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_FEMALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_FEMALE_TYPE6",
+    "description": "(-Lively Auri Female-)What do you have for me? Come on, come on! Don\u0027t be shy!",
+    "translation_description": ""
+  },
+  "261": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_MALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_MALE_TYPE1",
+    "description": "(-Polite Hrothgar Male-)You rang, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E?",
+    "translation_description": ""
+  },
+  "262": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_MALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_MALE_TYPE2",
+    "description": "(-Rough Hrothgar Male-)I trust this will be worth my while.",
+    "translation_description": ""
+  },
+  "263": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_MALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_MALE_TYPE3",
+    "description": "(-Serious Hrothgar Male-)\u003Chex:021A020203\u003EWhat\u003Chex:021A020103\u003E?",
+    "translation_description": ""
+  },
+  "264": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_MALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_MALE_TYPE4",
+    "description": "(-Carefree Hrothgar Male-)Whatever you need, leave it to me! I have my methods.",
+    "translation_description": ""
+  },
+  "265": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_MALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_MALE_TYPE5",
+    "description": "(-Independent Hrothgar Male-)Gahaha! If it isn\u0027t my favorite \u003Chex:020815E905FF096D69737472657373FF076D617374657203\u003E!",
+    "translation_description": ""
+  },
+  "266": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_MALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_MALE_TYPE6",
+    "description": "(-Lively Hrothgar Male-)It is I, your most loyal and capable retainer!",
+    "translation_description": ""
+  },
+  "267": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_FEMALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_FEMALE_TYPE1",
+    "description": "(-Polite Viera Female-)What will it be, love?",
+    "translation_description": ""
+  },
+  "268": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_FEMALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_FEMALE_TYPE2",
+    "description": "(-Rough Viera Female-)Your orders! I would hear them at once!",
+    "translation_description": ""
+  },
+  "269": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_FEMALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_FEMALE_TYPE3",
+    "description": "(-Serious Viera Female-)If there is something you would ask of me, then ask it.",
+    "translation_description": ""
+  },
+  "270": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_FEMALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_FEMALE_TYPE4",
+    "description": "(-Carefree Viera Female-)Yes...? Is there something you\u2500\u003Cyawn\u003E\u2500need?",
+    "translation_description": ""
+  },
+  "271": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_FEMALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_FEMALE_TYPE5",
+    "description": "(-Independent Viera Female-)A task for me? I hope it\u0027s something fun!",
+    "translation_description": ""
+  },
+  "272": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_FEMALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_FEMALE_TYPE6",
+    "description": "(-Lively Viera Female-)I am here to do your every bidding, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E! Ask of me anything at all!",
+    "translation_description": ""
+  },
+  "273": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_MALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_MALE_TYPE1",
+    "description": "(-Polite Viera Male-)I have been awaiting your summons, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. What would you have of me this fine \u003Chex:020839E3E90C0DFF1B020817E3E90C05FF086576656E696E67FF086D6F726E696E6703FF17020813E3E90C12FF04646179FF086576656E696E670303\u003E?",
+    "translation_description": ""
+  },
+  "274": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_MALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_MALE_TYPE2",
+    "description": "(-Rough Viera Male-)What can I do for ye, yer \u003Chex:020817E905FF096C61647973686970FF096C6F72647368697003\u003E?",
+    "translation_description": ""
+  },
+  "275": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_MALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_MALE_TYPE3",
+    "description": "(-Serious Viera Male-)You called, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E...?",
+    "translation_description": ""
+  },
+  "276": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_MALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_MALE_TYPE4",
+    "description": "(-Carefree Viera Male-)You\u2500hic\u2500rang?",
+    "translation_description": ""
+  },
+  "277": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_MALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_MALE_TYPE5",
+    "description": "(-Independent Viera Male-)Need my assistance, do you? Let\u0027s make this quick, then.",
+    "translation_description": ""
+  },
+  "278": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_MALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_MALE_TYPE6",
+    "description": "(-Lively Viera Male-)You have my ear, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E. Both of them, in fact!",
+    "translation_description": ""
+  },
+  "279": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_FEMALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_FEMALE_TYPE1",
+    "description": "(-Polite Hrothgar Female-)You summoned me, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E?",
+    "translation_description": ""
+  },
+  "280": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_FEMALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_FEMALE_TYPE2",
+    "description": "(-Rough Hrothgar Female-)At your beck an\u0027 call, I am!",
+    "translation_description": ""
+  },
+  "281": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_FEMALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_FEMALE_TYPE3",
+    "description": "(-Serious Hrothgar Female-)You called, and I have come.",
+    "translation_description": ""
+  },
+  "282": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_FEMALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_FEMALE_TYPE4",
+    "description": "(-Carefree Hrothgar Female-)At last\u2500I thought you\u0027d \u003Chex:021A020203\u003Enever\u003Chex:021A020103\u003E call. What does \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E need of me?",
+    "translation_description": ""
+  },
+  "283": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_FEMALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_FEMALE_TYPE5",
+    "description": "(-Independent Hrothgar Female-)Could it be...? The famous \u003Chex:022C0DFF07022903EB0203FF02200203\u003E has called on \u003Chex:021A020203\u003Eme\u003Chex:021A020103\u003E? \u003Cchuckle\u003E",
+    "translation_description": ""
+  },
+  "284": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_FEMALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_FEMALE_TYPE6",
+    "description": "(-Lively Hrothgar Female-)Yes, yes, here I am! Ready at a moment\u0027s notice!",
+    "translation_description": ""
+  },
+  "285": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_MALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_MALE_TYPE1",
+    "description": "(-Polite Hyuran Male-)If that is all, I will take my leave now, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E.",
+    "translation_description": ""
+  },
+  "286": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_MALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_MALE_TYPE2",
+    "description": "(-Rough Hyuran Male-)Take care o\u0027 yerself, hear?",
+    "translation_description": ""
+  },
+  "287": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_MALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_MALE_TYPE3",
+    "description": "(-Serious Hyuran Male-)Until we next meet.",
+    "translation_description": ""
+  },
+  "288": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_MALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_MALE_TYPE4",
+    "description": "(-Carefree Hyuran Male-)Well, it\u0027s about time. Good-bye.",
+    "translation_description": ""
+  },
+  "289": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_MALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_MALE_TYPE5",
+    "description": "(-Independent Hyuran Male-)I believe thanks are in order.",
+    "translation_description": ""
+  },
+  "290": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_MALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_MALE_TYPE6",
+    "description": "(-Lively Hyuran Male-)I\u0027m off, then!",
+    "translation_description": ""
+  },
+  "291": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_FEMALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_FEMALE_TYPE1",
+    "description": "(-Polite Hyuran Female-)With your leave, my \u003Chex:02080FE905FF056C616479FF056C6F726403\u003E.",
+    "translation_description": ""
+  },
+  "292": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_FEMALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_FEMALE_TYPE2",
+    "description": "(-Rough Hyuran Female-)Don\u0027t you worry \u0027bout a thing. I got this.",
+    "translation_description": ""
+  },
+  "293": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_FEMALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_FEMALE_TYPE3",
+    "description": "(-Serious Hyuran Female-)Farewell, then.",
+    "translation_description": ""
+  },
+  "294": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_FEMALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_FEMALE_TYPE4",
+    "description": "(-Carefree Hyuran Female-)If there is nothing else, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E, I\u0027ll be going now.",
+    "translation_description": ""
+  },
+  "295": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_FEMALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_FEMALE_TYPE5",
+    "description": "(-Independent Hyuran Female-)Is that all? Very well, until next time.",
+    "translation_description": ""
+  },
+  "296": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_FEMALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_FEMALE_TYPE6",
+    "description": "(-Lively Hyuran Female-)Oh, will that be all today? Very well, but promise me you\u0027ll come back soon!",
+    "translation_description": ""
+  },
+  "297": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_MALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_MALE_TYPE1",
+    "description": "(-Polite Elezen Male-)As always, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E, it has been an honor and a privilege.",
+    "translation_description": ""
+  },
+  "298": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_MALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_MALE_TYPE2",
+    "description": "(-Rough Elezen Male-)You can count on me, chief\u2500I know how to get things done.",
+    "translation_description": ""
+  },
+  "299": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_MALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_MALE_TYPE3",
+    "description": "(-Serious Elezen Male-)Don\u0027t be a stranger.",
+    "translation_description": ""
+  },
+  "300": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_MALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_MALE_TYPE4",
+    "description": "(-Carefree Elezen Male-)I swear it shall be done. Eventually.",
+    "translation_description": ""
+  },
+  "301": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_MALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_MALE_TYPE5",
+    "description": "(-Independent Elezen Male-)As you wish.",
+    "translation_description": ""
+  },
+  "302": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_MALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_MALE_TYPE6",
+    "description": "(-Lively Elezen Male-)Capital! I shall carry out your orders forthwith.",
+    "translation_description": ""
+  },
+  "303": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_FEMALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_FEMALE_TYPE1",
+    "description": "(-Polite Elezen Female-)I humbly await your next summons, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E.",
+    "translation_description": ""
+  },
+  "304": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_FEMALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_FEMALE_TYPE2",
+    "description": "(-Rough Elezen Female-)Don\u0027t leave me alone for too long, hear?",
+    "translation_description": ""
+  },
+  "305": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_FEMALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_FEMALE_TYPE3",
+    "description": "(-Serious Elezen Female-)Always a pleasure.",
+    "translation_description": ""
+  },
+  "306": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_FEMALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_FEMALE_TYPE4",
+    "description": "(-Carefree Elezen Female-)That will be all, yes? Then if you would excuse me...",
+    "translation_description": ""
+  },
+  "307": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_FEMALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_FEMALE_TYPE5",
+    "description": "(-Independent Elezen Female-)I believe that concludes our dealings for now.",
+    "translation_description": ""
+  },
+  "308": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_FEMALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_FEMALE_TYPE6",
+    "description": "(-Lively Elezen Female-)Are you certain you don\u0027t desire anything else? Anything at all? Very well, I shall take my leave.",
+    "translation_description": ""
+  },
+  "309": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_MALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_MALE_TYPE1",
+    "description": "(-Polite Lalafellin Male-)Your every whim shall be swiftly carried out with due care and consideration.",
+    "translation_description": ""
+  },
+  "310": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_MALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_MALE_TYPE2",
+    "description": "(-Rough Lalafellin Male-)Shouldn\u0027t take more than a moment, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E.",
+    "translation_description": ""
+  },
+  "311": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_MALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_MALE_TYPE3",
+    "description": "(-Serious Lalafellin Male-)I\u0027ll be going, then.",
+    "translation_description": ""
+  },
+  "312": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_MALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_MALE_TYPE4",
+    "description": "(-Carefree Lalafellin Male-)Thank the gods we\u0027re finished. I\u0027ve got plans to put my hands in places I\u0027ve never seen...if you know what I mean.",
+    "translation_description": ""
+  },
+  "313": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_MALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_MALE_TYPE5",
+    "description": "(-Independent Lalafellin Male-)Be well.",
+    "translation_description": ""
+  },
+  "314": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_MALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_MALE_TYPE6",
+    "description": "(-Lively Lalafellin Male-)I\u0027m off, I\u0027m off!",
+    "translation_description": ""
+  },
+  "315": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_FEMALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_FEMALE_TYPE1",
+    "description": "(-Polite Lalafellin Female-)Until we meet again!",
+    "translation_description": ""
+  },
+  "316": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_FEMALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_FEMALE_TYPE2",
+    "description": "(-Rough Lalafellin Female-)Blessin\u0027s o\u0027 the Twelve upon ye.",
+    "translation_description": ""
+  },
+  "317": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_FEMALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_FEMALE_TYPE3",
+    "description": "(-Serious Lalafellin Female-)May Nald\u0027thal see fit to fatten our pockets!",
+    "translation_description": ""
+  },
+  "318": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_FEMALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_FEMALE_TYPE4",
+    "description": "(-Carefree Lalafellin Female-)Very good, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E! Your wish is my command, and so forth.",
+    "translation_description": ""
+  },
+  "319": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_FEMALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_FEMALE_TYPE5",
+    "description": "(-Independent Lalafellin Female-)You know how to reach me.",
+    "translation_description": ""
+  },
+  "320": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_FEMALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_FEMALE_TYPE6",
+    "description": "(-Lively Lalafellin Female-)Is it time for good-byes already? I\u0027m going to miss you...",
+    "translation_description": ""
+  },
+  "321": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_MALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_MALE_TYPE1",
+    "description": "(-Polite Miqo\u0027te Male-)Thy will be done.",
+    "translation_description": ""
+  },
+  "322": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_MALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_MALE_TYPE2",
+    "description": "(-Rough Miqo\u0027te Male-)The markets may be a bleedin\u0027 battlefield, but I\u0027m a godsdamned soldier. You can count on me, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "translation_description": ""
+  },
+  "323": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_MALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_MALE_TYPE3",
+    "description": "(-Serious Miqo\u0027te Male-)...",
+    "translation_description": ""
+  },
+  "324": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_MALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_MALE_TYPE4",
+    "description": "(-Carefree Miqo\u0027te Male-)Why so serrrious? \u003Csigh\u003E So it goes.",
+    "translation_description": ""
+  },
+  "325": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_MALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_MALE_TYPE5",
+    "description": "(-Independent Miqo\u0027te Male-)I hardly think that warranted my personal appearance, but what is done is done.",
+    "translation_description": ""
+  },
+  "326": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_MALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_MALE_TYPE6",
+    "description": "(-Lively Miqo\u0027te Male-)Then I have satisfied your every need? Excellent! I do so take pleasure in servicing my clients.",
+    "translation_description": ""
+  },
+  "327": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_FEMALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_FEMALE_TYPE1",
+    "description": "(-Polite Miqo\u0027te Female-)Good-bye for now, \u003Chex:020811E905FF066D6164616DFF06736972727203\u003E.",
+    "translation_description": ""
+  },
+  "328": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_FEMALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_FEMALE_TYPE2",
+    "description": "(-Rough Miqo\u0027te Female-)Right then, let\u0027s get on with it!",
+    "translation_description": ""
+  },
+  "329": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_FEMALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_FEMALE_TYPE3",
+    "description": "(-Serious Miqo\u0027te Female-)There is no call for concerrrn.",
+    "translation_description": ""
+  },
+  "330": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_FEMALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_FEMALE_TYPE4",
+    "description": "(-Carefree Miqo\u0027te Female-)When the master\u0027s away, the cat will play.",
+    "translation_description": ""
+  },
+  "331": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_FEMALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_FEMALE_TYPE5",
+    "description": "(-Independent Miqo\u0027te Female-)Gods, this is tirin\u0027...",
+    "translation_description": ""
+  },
+  "332": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_FEMALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_FEMALE_TYPE6",
+    "description": "(-Lively Miqo\u0027te Female-)You don\u0027t want to be with me anymore? \u003Csniffle\u003E",
+    "translation_description": ""
+  },
+  "333": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_MALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_MALE_TYPE1",
+    "description": "(-Polite Roegadyn Male-)I shall carry out your wishes as instructed, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "translation_description": ""
+  },
+  "334": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_MALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_MALE_TYPE2",
+    "description": "(-Rough Roegadyn Male-)Bwahahaha! I\u0027m in yer bazaar, sellin\u0027 yer wares!",
+    "translation_description": ""
+  },
+  "335": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_MALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_MALE_TYPE3",
+    "description": "(-Serious Roegadyn Male-)I will go now.",
+    "translation_description": ""
+  },
+  "336": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_MALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_MALE_TYPE4",
+    "description": "(-Carefree Roegadyn Male-)Awww, bugger. Reckon I best get to work...",
+    "translation_description": ""
+  },
+  "337": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_MALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_MALE_TYPE5",
+    "description": "(-Independent Roegadyn Male-)I don\u0027t do good-byes.",
+    "translation_description": ""
+  },
+  "338": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_MALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_MALE_TYPE6",
+    "description": "(-Lively Roegadyn Male-)Go and grab yourself some shut-eye, chief. You look terrible!",
+    "translation_description": ""
+  },
+  "339": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_FEMALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_FEMALE_TYPE1",
+    "description": "(-Polite Roegadyn Female-)Will that be all for today, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E? Understood.",
+    "translation_description": ""
+  },
+  "340": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_FEMALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_FEMALE_TYPE2",
+    "description": "(-Rough Roegadyn Female-)Aye, aye, cap\u0027n!",
+    "translation_description": ""
+  },
+  "341": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_FEMALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_FEMALE_TYPE3",
+    "description": "(-Serious Roegadyn Female-)Duly noted.",
+    "translation_description": ""
+  },
+  "342": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_FEMALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_FEMALE_TYPE4",
+    "description": "(-Carefree Roegadyn Female-)Not exactly how I was hopin\u0027 to spend my day, but I suppose it can\u0027t be helped.",
+    "translation_description": ""
+  },
+  "343": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_FEMALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_FEMALE_TYPE5",
+    "description": "(-Independent Roegadyn Female-)Ours is not to reason why. Ours is but to do and die.",
+    "translation_description": ""
+  },
+  "344": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_FEMALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_FEMALE_TYPE6",
+    "description": "(-Lively Roegadyn Female-)Ever the consummate professional, I see. Another time, then.",
+    "translation_description": ""
+  },
+  "345": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_MALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_MALE_TYPE1",
+    "description": "(-Polite Auri Male-)If there is nothing else, then I shall take my leave.",
+    "translation_description": ""
+  },
+  "346": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_MALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_MALE_TYPE2",
+    "description": "(-Rough Auri Male-)Is that all? Guess I\u0027ll be on my way, then.",
+    "translation_description": ""
+  },
+  "347": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_MALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_MALE_TYPE3",
+    "description": "(-Serious Auri Male-)Any last requests? Very well. Heh heh heh... Ahem.",
+    "translation_description": ""
+  },
+  "348": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_MALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_MALE_TYPE4",
+    "description": "(-Carefree Auri Male-)Ah, yes, of course. Duty calls!",
+    "translation_description": ""
+  },
+  "349": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_MALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_MALE_TYPE5",
+    "description": "(-Independent Auri Male-)You are finished with me, then?",
+    "translation_description": ""
+  },
+  "350": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_MALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_MALE_TYPE6",
+    "description": "(-Lively Auri Male-)Here today and gone tomorrow;\u266A\u003Chex:02100103\u003EYes, I know\u2500\u266A\u003Chex:02100103\u003EThat is so!\u266A",
+    "translation_description": ""
+  },
+  "351": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_FEMALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_FEMALE_TYPE1",
+    "description": "(-Polite Auri Female-)If ever you have need of me, just ring.",
+    "translation_description": ""
+  },
+  "352": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_FEMALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_FEMALE_TYPE2",
+    "description": "(-Rough Auri Female-)Always a pleasure, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E.",
+    "translation_description": ""
+  },
+  "353": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_FEMALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_FEMALE_TYPE3",
+    "description": "(-Serious Auri Female-)Right, then.",
+    "translation_description": ""
+  },
+  "354": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_FEMALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_FEMALE_TYPE4",
+    "description": "(-Carefree Auri Female-)Finished already? Guess that\u0027s that, then.",
+    "translation_description": ""
+  },
+  "355": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_FEMALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_FEMALE_TYPE5",
+    "description": "(-Independent Auri Female-)You\u0027re leaving already? Fine, then! I-It\u0027s not like I wanted you to stay or anything.",
+    "translation_description": ""
+  },
+  "356": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_FEMALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_FEMALE_TYPE6",
+    "description": "(-Lively Auri Female-)Very good, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E! Very good indeed!",
+    "translation_description": ""
+  },
+  "357": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_MALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_MALE_TYPE1",
+    "description": "(-Polite Hrothgar Male-)Always a pleasure to serve, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E.",
+    "translation_description": ""
+  },
+  "358": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_MALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_MALE_TYPE2",
+    "description": "(-Rough Hrothgar Male-)Hmph. I hope that next time you will have a more meaningful task for me.",
+    "translation_description": ""
+  },
+  "359": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_MALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_MALE_TYPE3",
+    "description": "(-Serious Hrothgar Male-)\u003Chex:021A020203\u003EGood-bye\u003Chex:021A020103\u003E.",
+    "translation_description": ""
+  },
+  "360": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_MALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_MALE_TYPE4",
+    "description": "(-Carefree Hrothgar Male-)And with that, I shall be off. Places to go, people to see.",
+    "translation_description": ""
+  },
+  "361": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_MALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_MALE_TYPE5",
+    "description": "(-Indepedent Hrothgar Male-)Bahahaha! Till next time, my friend!",
+    "translation_description": ""
+  },
+  "362": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_MALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_MALE_TYPE6",
+    "description": "(-Lively Hrothgar Male-)Ring for me whenever you please! You know that I will never let you down!",
+    "translation_description": ""
+  },
+  "363": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_FEMALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_FEMALE_TYPE1",
+    "description": "(-Polite Viera Female-)Must we part so soon?",
+    "translation_description": ""
+  },
+  "364": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_FEMALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_FEMALE_TYPE2",
+    "description": "(-Rough Viera Female-)And I am off!",
+    "translation_description": ""
+  },
+  "365": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_FEMALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_FEMALE_TYPE3",
+    "description": "(-Serious Viera Female-)Call on me as you please. If I am so inclined, I will answer.",
+    "translation_description": ""
+  },
+  "366": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_FEMALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_FEMALE_TYPE4",
+    "description": "(-Carefree Viera Female-)That is all, I suppose...? \u003Cyawn\u003E Very well...",
+    "translation_description": ""
+  },
+  "367": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_FEMALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_FEMALE_TYPE5",
+    "description": "(-Indepedent Viera Female-)That is all? Oh, I was hoping there\u0027d be more...",
+    "translation_description": ""
+  },
+  "368": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_FEMALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_FEMALE_TYPE6",
+    "description": "(-Lively Viera Female-)Is that all you need of me? But I could yet serve you in so many ways!",
+    "translation_description": ""
+  },
+  "369": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_MALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_MALE_TYPE1",
+    "description": "(-Polite Viera Male-)Do not hesitate to call upon me again. Fare you well in your endeavors, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "translation_description": ""
+  },
+  "370": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_MALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_MALE_TYPE2",
+    "description": "(-Rough Viera Male-)Just say the word, yer \u003Chex:020817E905FF096C61647973686970FF096C6F72647368697003\u003E, and I\u0027ll be here with bells on.",
+    "translation_description": ""
+  },
+  "371": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_MALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_MALE_TYPE3",
+    "description": "(-Serious Viera Male-)If you have no further need of my services...",
+    "translation_description": ""
+  },
+  "372": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_MALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_MALE_TYPE4",
+    "description": "(-Carefree Viera Male-)I\u0027m off for another glass, then. You know where to find me!",
+    "translation_description": ""
+  },
+  "373": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_MALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_MALE_TYPE5",
+    "description": "(-Independent Viera Male-)What\u2500is that it? Are you \u003Chex:021A020203\u003Esure\u003Chex:021A020103\u003E you need a retainer?",
+    "translation_description": ""
+  },
+  "374": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_MALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_MALE_TYPE6",
+    "description": "(-Lively Viera Male-)Nothing else? Then I shall be hopping along.",
+    "translation_description": ""
+  },
+  "375": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_FEMALE_TYPE1",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_FEMALE_TYPE1",
+    "description": "(-Polite Hrothgar Female-)I\u0027m glad to have been of service. Mind you don\u0027t overdo things, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "translation_description": ""
+  },
+  "376": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_FEMALE_TYPE2",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_FEMALE_TYPE2",
+    "description": "(-Rough Hrothgar Female-)Had your fill of me, eh? Fair enough! Let me know if you need aught else!",
+    "translation_description": ""
+  },
+  "377": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_FEMALE_TYPE3",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_FEMALE_TYPE3",
+    "description": "(-Serious Hrothgar Female-)We\u0027re done? Then I take my leave.",
+    "translation_description": ""
+  },
+  "378": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_FEMALE_TYPE4",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_FEMALE_TYPE4",
+    "description": "(-Carefree Hrothgar Female-)There\u0027s naught else \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E requires? I\u0027ll be sharpening my claws, then, waiting for your next summons.",
+    "translation_description": ""
+  },
+  "379": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_FEMALE_TYPE5",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_FEMALE_TYPE5",
+    "description": "(-Independent Hrothgar Female-)Nothing else? Right... I\u0027ll be off!",
+    "translation_description": ""
+  },
+  "380": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_FEMALE_TYPE6",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_FEMALE_TYPE6",
+    "description": "(-Lively Hrothgar Female-)Have everything you need? I\u0027ll take a little nap, then.",
+    "translation_description": ""
+  },
+  "381": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_ORDER_FAILED_NO_CHARGE",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_ORDER_FAILED_NO_CHARGE",
+    "description": "You cannot perform this action until you have purchased the services of an additional retainer.",
+    "translation_description": ""
+  },
+  "382": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REMOVE_INVENTORY_EXPLANATION",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REMOVE_INVENTORY_EXPLANATION",
+    "description": "You cannot release retainers while they are in possession of any items or gil.",
+    "translation_description": ""
+  },
+  "383": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_EXPLANATION_01",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_EXPLANATION_01",
+    "description": "What would you like to know?",
+    "translation_description": ""
+  },
+  "384": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMOVE_FAILED",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMOVE_FAILED",
+    "description": "You were unable to release that retainer.",
+    "translation_description": ""
+  },
+  "385": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_CREATE_FAILED",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_CREATE_FAILED",
+    "description": "Your application for a retainer was denied.",
+    "translation_description": ""
+  },
+  "386": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_CALL_FAILED",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_CALL_FAILED",
+    "description": "Your retainer could not be summoned.",
+    "translation_description": ""
+  },
+  "387": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_MARKET_FAILED",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_REGISTER_MARKET_FAILED",
+    "description": "The retainer was unable to make the trip.",
+    "translation_description": ""
+  },
+  "388": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_NAME_TOO_SHORT",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_NAME_TOO_SHORT",
+    "description": "Nicknames must be between 3 and 20 characters.",
+    "translation_description": ""
+  },
+  "389": {
+    "name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_CONTRACT_ENDED",
+    "translation_name": "TEXT_CMNDEFRETAINERDESK_00009_RETAINER_CONTRACT_ENDED",
+    "description": "This retainer\u0027s contract has been suspended.",
+    "translation_description": ""
+  }
+}

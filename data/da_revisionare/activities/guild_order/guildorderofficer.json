@@ -1,0 +1,140 @@
+{
+  "0": {
+    "name": "TEXT_GUILDORDEROFFICER_MENU_TITLE",
+    "translation_name": "TEXT_GUILDORDEROFFICER_MENU_TITLE",
+    "description": "What would you like to do?",
+    "translation_description": "Cosa desideri fare?"
+  },
+  "1": {
+    "name": "TEXT_GUILDORDEROFFICER_MENU_00",
+    "translation_name": "TEXT_GUILDORDEROFFICER_MENU_00",
+    "description": "Withdraw self from the operation.",
+    "translation_description": "Ritirarsi dall\u0027operazione."
+  },
+  "2": {
+    "name": "TEXT_GUILDORDEROFFICER_MENU_01",
+    "translation_name": "TEXT_GUILDORDEROFFICER_MENU_01",
+    "description": "Withdraw party from the operation.",
+    "translation_description": "Ritirare il gruppo dall\u0027operazione."
+  },
+  "3": {
+    "name": "TEXT_GUILDORDEROFFICER_MENU_02",
+    "translation_name": "TEXT_GUILDORDEROFFICER_MENU_02",
+    "description": "Return to duty.",
+    "translation_description": "Tornare in servizio."
+  },
+  "4": {
+    "name": "TEXT_GUILDORDEROFFICER_RETURN_ME_MENU_TITLE",
+    "translation_name": "TEXT_GUILDORDEROFFICER_RETURN_ME_MENU_TITLE",
+    "description": "You will be removed from your party. Proceed?",
+    "translation_description": "Verrai rimosso dal gruppo. Vuoi procedere?"
+  },
+  "5": {
+    "name": "TEXT_GUILDORDEROFFICER_RETURN_ME_MENU_YES",
+    "translation_name": "TEXT_GUILDORDEROFFICER_RETURN_ME_MENU_YES",
+    "description": "Yes",
+    "translation_description": "S\u00ec"
+  },
+  "6": {
+    "name": "TEXT_GUILDORDEROFFICER_RETURN_ME_MENU_NO",
+    "translation_name": "TEXT_GUILDORDEROFFICER_RETURN_ME_MENU_NO",
+    "description": "No",
+    "translation_description": "No"
+  },
+  "7": {
+    "name": "TEXT_GUILDORDEROFFICER_RETURN_PARTY_MENU_TITLE",
+    "translation_name": "TEXT_GUILDORDEROFFICER_RETURN_PARTY_MENU_TITLE",
+    "description": "Abandon current duty?",
+    "translation_description": "Abbandonare l\u0027incarico attuale?"
+  },
+  "8": {
+    "name": "TEXT_GUILDORDEROFFICER_RETURN_PARTY_MENU_YES",
+    "translation_name": "TEXT_GUILDORDEROFFICER_RETURN_PARTY_MENU_YES",
+    "description": "Yes",
+    "translation_description": "S\u00ec"
+  },
+  "9": {
+    "name": "TEXT_GUILDORDEROFFICER_RETURN_PARTY_MENU_NO",
+    "translation_name": "TEXT_GUILDORDEROFFICER_RETURN_PARTY_MENU_NO",
+    "description": "No",
+    "translation_description": "No"
+  },
+  "10": {
+    "name": "TEXT_GUILDORDEROFFICER_RETURN_CONFIRM_MENU_TITLE",
+    "translation_name": "TEXT_GUILDORDEROFFICER_RETURN_CONFIRM_MENU_TITLE",
+    "description": "Are you certain?",
+    "translation_description": "Confermi?"
+  },
+  "11": {
+    "name": "TEXT_GUILDORDEROFFICER_RETURN_CONFIRM_MENU_YES",
+    "translation_name": "TEXT_GUILDORDEROFFICER_RETURN_CONFIRM_MENU_YES",
+    "description": "Absolutely",
+    "translation_description": "Sì, certo."
+  },
+  "12": {
+    "name": "TEXT_GUILDORDEROFFICER_RETURN_CONFIRM_MENU_NO",
+    "translation_name": "TEXT_GUILDORDEROFFICER_RETURN_CONFIRM_MENU_NO",
+    "description": "No",
+    "translation_description": "No"
+  },
+  "13": {
+    "name": "TEXT_GUILDORDEROFFICER_RET_SUCCESS_SYSTEM_TALK_00",
+    "translation_name": "TEXT_GUILDORDEROFFICER_RET_SUCCESS_SYSTEM_TALK_00",
+    "description": "You will leave the instance once all party members have collected their rewards.",
+    "translation_description": "Uscirai dall\u0027istanza quando tutti i membri del gruppo avranno ritirato le ricompense."
+  },
+  "14": {
+    "name": "TEXT_GUILDORDEROFFICER_RET_FAIL_SYSTEM_TALK_00",
+    "translation_name": "TEXT_GUILDORDEROFFICER_RET_FAIL_SYSTEM_TALK_00",
+    "description": "Make room in your inventory and speak with the battlewarden once again to receive your reward.",
+    "translation_description": "Libera spazio nell\u0027inventario e parla di nuovo con il Custode di Battaglia per ricevere la ricompensa."
+  },
+  "15": {
+    "name": "TEXT_GUILDORDEROFFICER_AFTER_RWD_MENU_TITLE",
+    "translation_name": "TEXT_GUILDORDEROFFICER_AFTER_RWD_MENU_TITLE",
+    "description": "Leave without your party?",
+    "translation_description": "Uscire senza il gruppo?"
+  },
+  "16": {
+    "name": "TEXT_GUILDORDEROFFICER_AFTER_RWD_MENU_YES",
+    "translation_name": "TEXT_GUILDORDEROFFICER_AFTER_RWD_MENU_YES",
+    "description": "Yes",
+    "translation_description": "S\u00ec"
+  },
+  "17": {
+    "name": "TEXT_GUILDORDEROFFICER_AFTER_RWD_MENU_NO",
+    "translation_name": "TEXT_GUILDORDEROFFICER_AFTER_RWD_MENU_NO",
+    "description": "No",
+    "translation_description": "No"
+  },
+  "18": {
+    "name": "TEXT_GUILDORDEROFFICER_AFTER_RWD_RETURN_MENU_TITLE",
+    "translation_name": "TEXT_GUILDORDEROFFICER_AFTER_RWD_RETURN_MENU_TITLE",
+    "description": "You will be removed from the party. Proceed?",
+    "translation_description": "Verrai rimosso dal gruppo. Vuoi procedere?"
+  },
+  "19": {
+    "name": "TEXT_GUILDORDEROFFICER_AFTER_RWD_RETURN_MENU_YES",
+    "translation_name": "TEXT_GUILDORDEROFFICER_AFTER_RWD_RETURN_MENU_YES",
+    "description": "Yes",
+    "translation_description": "S\u00ec"
+  },
+  "20": {
+    "name": "TEXT_GUILDORDEROFFICER_AFTER_RWD_RETURN_MENU_NO",
+    "translation_name": "TEXT_GUILDORDEROFFICER_AFTER_RWD_RETURN_MENU_NO",
+    "description": "No",
+    "translation_description": "No"
+  },
+  "21": {
+    "name": "TEXT_GUILDORDEROFFICER_FIRST_BONUS_SYSTEM_TALK_00",
+    "translation_name": "TEXT_GUILDORDEROFFICER_FIRST_BONUS_SYSTEM_TALK_00",
+    "description": "A bonus has been added to your reward for completing the hest as \u003Chex:0208B0E4E9450BFF15616E2002280EFF09436C6173734A6F62E9450103FF94020890E4E9450FFF15616E2002280EFF09436C6173734A6F62E9450103FF74020870E4E94506FF15616E2002280EFF09436C6173734A6F62E9450103FF54020850E4E9451BFF15616E2002280EFF09436C6173734A6F62E9450103FF34020830E4E94522FF15616E2002280EFF09436C6173734A6F62E9450103FF14612002280EFF09436C6173734A6F62E94501030303030303\u003E for the first time.",
+    "translation_description": "Hai ricevuto un bonus per la prima Operazione di Gilda completata con \u003Chex:0208B0E4E9450BFF15616E2002280EFF09436C6173734A6F62E9450103FF94020890E4E9450FFF15616E2002280EFF09436C6173734A6F62E9450103FF74020870E4E94506FF15616E2002280EFF09436C6173734A6F62E9450103FF54020850E4E9451BFF15616E2002280EFF09436C6173734A6F62E9450103FF34020830E4E94522FF15616E2002280EFF09436C6173734A6F62E9450103FF14612002280EFF09436C6173734A6F62E94501030303030303\u003E."
+  },
+  "22": {
+    "name": "TEXT_GUILDORDEROFFICER_FIRST_BONUS_SYSTEM_TALK_01",
+    "translation_name": "TEXT_GUILDORDEROFFICER_FIRST_BONUS_SYSTEM_TALK_01",
+    "description": "\u003Chex:020815E802FF0E416E206164646974696F6E616CFF024103\u003E bonus has been added for your party completing the operation \u003Chex:020940E803FF1D776974682061206D696E696D616C206E756D626572206F66204B4F73FF1E776974686F757420737566666572696E6720612073696E676C65204B4F03\u003E.",
+    "translation_description": "\u003Chex:020814E802FF0D556E20756C746572696F7265FF024103\u003E bonus aggiuntivo è stato assegnato al gruppo per aver completato l\u0027operazione \u003Chex:02093FE803FF1D636F6E20756E206E756D65726F206D696E696D6F206469204B2E4F2EFF1D73656E7A6120737562697265206E65616E63686520756E204B2E4F2E03\u003E."
+  }
+}

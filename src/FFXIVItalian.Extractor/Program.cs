@@ -63,6 +63,10 @@ public static class Program
             case "extract":
                 return RunExtract(args, sqpackPath);
 
+            case "update":
+                try { return GameUpdate.Run(CreateLumina(sqpackPath), FindTranslationsDir(), sqpackPath); }
+                catch (Exception ex) { Console.Error.WriteLine(ex.Message); return 1; }
+
             case "search":
                 return RunSearch(args, sqpackPath);
 
@@ -100,6 +104,7 @@ COMANDI DISPONIBILI:
   list                          Mostra tutti gli estrattori di fogli registrati
   inspect <foglio> [rowId]      Ispeziona la struttura EXH/EXD di un foglio (es. lobby 1704)
   extract <foglio|all>          Estrae il testo originale in JSON preservando le traduzioni esistenti
+  update                        Prepara copie aggiornate e rapporto differenze in data/updates/ (non modifica il corpus)
   search <query>                Cerca un testo in inglese in tutti i fogli supportati
   validate [cartella|file]      Verifica tutti i campi tradotti con Glossary.md e SeString
   validate --review [file]      Mostra suggerimenti di revisione terminologica

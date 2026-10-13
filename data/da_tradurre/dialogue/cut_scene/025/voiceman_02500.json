@@ -1,0 +1,3230 @@
+{
+  "0": {
+    "name": "TEXT_VOICEMAN_02500_000010_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_000010_MINFILIA",
+    "description": "We have a guest from Ishgard who wishes to speak with you.",
+    "translation_description": ""
+  },
+  "1": {
+    "name": "TEXT_VOICEMAN_02500_000020_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_000020_MINFILIA",
+    "description": "I believe the two of you have met?",
+    "translation_description": ""
+  },
+  "2": {
+    "name": "TEXT_VOICEMAN_02500_000030_LUCIA",
+    "translation_name": "TEXT_VOICEMAN_02500_000030_LUCIA",
+    "description": "We have. I had hoped to speak with Commander Leveilleur as well, but I cannot afford to wait any longer.",
+    "translation_description": ""
+  },
+  "3": {
+    "name": "TEXT_VOICEMAN_02500_000040_LUCIA",
+    "translation_name": "TEXT_VOICEMAN_02500_000040_LUCIA",
+    "description": "The lord commander sent me hither to request your aid in a matter of grave import.",
+    "translation_description": ""
+  },
+  "4": {
+    "name": "TEXT_VOICEMAN_02500_000050_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_000050_MOENBRYDA",
+    "description": "You see now why I had Tataru summon you.",
+    "translation_description": ""
+  },
+  "5": {
+    "name": "TEXT_VOICEMAN_02500_000060_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_000060_MINFILIA",
+    "description": "Now that we are all assembled, perhaps you would be good enough to elaborate on the nature of the matter which brought you to us.",
+    "translation_description": ""
+  },
+  "6": {
+    "name": "TEXT_VOICEMAN_02500_000070_LUCIA",
+    "translation_name": "TEXT_VOICEMAN_02500_000070_LUCIA",
+    "description": "The Observatorium\u0027s astrologians have sounded the alarum.",
+    "translation_description": ""
+  },
+  "7": {
+    "name": "TEXT_VOICEMAN_02500_000080_LUCIA",
+    "translation_name": "TEXT_VOICEMAN_02500_000080_LUCIA",
+    "description": "Last night, the dragon star burned with an intensity not seen in fifteen summers.",
+    "translation_description": ""
+  },
+  "8": {
+    "name": "TEXT_VOICEMAN_02500_000090_LUCIA",
+    "translation_name": "TEXT_VOICEMAN_02500_000090_LUCIA",
+    "description": "Not since the Dravanians engaged the Empire in the Battle of Silvertear Skies.",
+    "translation_description": ""
+  },
+  "9": {
+    "name": "TEXT_VOICEMAN_02500_000100_URIANGER",
+    "translation_name": "TEXT_VOICEMAN_02500_000100_URIANGER",
+    "description": "\u201CThe northern sky doth burn full bright upon the wyrm lord\u0027s call. The red behemoth beckoneth, and flame consumeth all.\u201D",
+    "translation_description": ""
+  },
+  "10": {
+    "name": "TEXT_VOICEMAN_02500_000110_LUCIA",
+    "translation_name": "TEXT_VOICEMAN_02500_000110_LUCIA",
+    "description": "The old Coerthan rhyme, aye.",
+    "translation_description": ""
+  },
+  "11": {
+    "name": "TEXT_VOICEMAN_02500_000120_LUCIA",
+    "translation_name": "TEXT_VOICEMAN_02500_000120_LUCIA",
+    "description": "The brightening of the dragon star is said to accompany the roar of a great wyrm. The astrologians believe that it was Midgardsormr himself who cried out on this occasion.",
+    "translation_description": ""
+  },
+  "12": {
+    "name": "TEXT_VOICEMAN_02500_000130_URIANGER",
+    "translation_name": "TEXT_VOICEMAN_02500_000130_URIANGER",
+    "description": "After an absence of centuries, the king of kings did return to lead his kind against the might of Garlemald...",
+    "translation_description": ""
+  },
+  "13": {
+    "name": "TEXT_VOICEMAN_02500_000140_URIANGER",
+    "translation_name": "TEXT_VOICEMAN_02500_000140_URIANGER",
+    "description": "...Only to fall in his duel with the \u003Chex:021A020203\u003EAgrius\u003Chex:021A020103\u003E, proud flagship of the Garlean fleet. Devoid of life, his corpse remaineth entwined about the magitek monstrosity even unto this day.",
+    "translation_description": ""
+  },
+  "14": {
+    "name": "TEXT_VOICEMAN_02500_000150_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_000150_MINFILIA",
+    "description": "Urianger has the right of it. Whatever this alteration in the dragon star portends, the great wyrm has shown no sign of life.",
+    "translation_description": ""
+  },
+  "15": {
+    "name": "TEXT_VOICEMAN_02500_000160_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_000160_MINFILIA",
+    "description": "Tataru, have the Domans reported aught out of the ordinary?",
+    "translation_description": ""
+  },
+  "16": {
+    "name": "TEXT_VOICEMAN_02500_000170_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_000170_MOENBRYDA",
+    "description": "Correct me if I\u0027m wrong, but if Midgardsormr had roared, wouldn\u0027t we have heard it here in Revenant\u0027s Toll?",
+    "translation_description": ""
+  },
+  "17": {
+    "name": "TEXT_VOICEMAN_02500_000180_LUCIA",
+    "translation_name": "TEXT_VOICEMAN_02500_000180_LUCIA",
+    "description": "\u201CRoar\u201D is but a figure of speech. Dravanians can communicate in ways beyond our ken.",
+    "translation_description": ""
+  },
+  "18": {
+    "name": "TEXT_VOICEMAN_02500_000190_LUCIA",
+    "translation_name": "TEXT_VOICEMAN_02500_000190_LUCIA",
+    "description": "It is for this very reason that we are forced to look for signs in the heavens. We cannot say with any confidence that a great wyrm roared at all, much less that it was Midgardsormr.",
+    "translation_description": ""
+  },
+  "19": {
+    "name": "TEXT_VOICEMAN_02500_000200_LUCIA",
+    "translation_name": "TEXT_VOICEMAN_02500_000200_LUCIA",
+    "description": "Only by directly examining the Keeper of the Lake can we be certain. However, it will take too long to gain the Holy See\u0027s approval to dispatch the Temple Knights.",
+    "translation_description": ""
+  },
+  "20": {
+    "name": "TEXT_VOICEMAN_02500_000210_LUCIA",
+    "translation_name": "TEXT_VOICEMAN_02500_000210_LUCIA",
+    "description": "Therefore, Ser Aymeric would entrust this task to you. Do you accept?",
+    "translation_description": ""
+  },
+  "21": {
+    "name": "TEXT_VOICEMAN_02500_000220_LUCIA",
+    "translation_name": "TEXT_VOICEMAN_02500_000220_LUCIA",
+    "description": "We knew you would not disappoint us. Now, if you would excuse me, I must return and assist the lord commander. We have precious little time to prepare.",
+    "translation_description": ""
+  },
+  "22": {
+    "name": "TEXT_VOICEMAN_02500_000230_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_000230_MINFILIA",
+    "description": "To prepare for what, pray tell?",
+    "translation_description": ""
+  },
+  "23": {
+    "name": "TEXT_VOICEMAN_02500_000240_LUCIA",
+    "translation_name": "TEXT_VOICEMAN_02500_000240_LUCIA",
+    "description": "When a great wyrm roars, his brethren cannot choose but answer. We prepare for battle.",
+    "translation_description": ""
+  },
+  "24": {
+    "name": "TEXT_VOICEMAN_02500_100010_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_100010_MIDGARDSORMR",
+    "description": "Who treadeth now upon my bones and waketh me from slumber sweet?",
+    "translation_description": ""
+  },
+  "25": {
+    "name": "TEXT_VOICEMAN_02500_100020_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_100020_MIDGARDSORMR",
+    "description": "Thou hast forgotten the face of thy lord. Remember, mortal, and fear me.",
+    "translation_description": ""
+  },
+  "26": {
+    "name": "TEXT_VOICEMAN_02500_200010_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_200010_MIDGARDSORMR",
+    "description": "By Her gifts hast thou earned a moment\u0027s reprieve.",
+    "translation_description": ""
+  },
+  "27": {
+    "name": "TEXT_VOICEMAN_02500_200020_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_200020_MIDGARDSORMR",
+    "description": "Speak, mortal, and I shall listen.",
+    "translation_description": ""
+  },
+  "28": {
+    "name": "TEXT_VOICEMAN_02500_200030_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_200030_MIDGARDSORMR",
+    "description": "Guided by a \u003Chex:021A020203\u003Estar\u003Chex:021A020103\u003E...? Heh heh heh.",
+    "translation_description": ""
+  },
+  "29": {
+    "name": "TEXT_VOICEMAN_02500_200040_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_200040_MIDGARDSORMR",
+    "description": "My people have heard the song. Ishgard shall burn.",
+    "translation_description": ""
+  },
+  "30": {
+    "name": "TEXT_VOICEMAN_02500_200050_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_200050_MIDGARDSORMR",
+    "description": "Sons must answer for their fathers\u0027 misdeeds.",
+    "translation_description": ""
+  },
+  "31": {
+    "name": "TEXT_VOICEMAN_02500_200060_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_200060_MIDGARDSORMR",
+    "description": "We do not forget. We do not forgive.",
+    "translation_description": ""
+  },
+  "32": {
+    "name": "TEXT_VOICEMAN_02500_200070_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_200070_MIDGARDSORMR",
+    "description": "Seven children did I sire. One now singeth of retribution.",
+    "translation_description": ""
+  },
+  "33": {
+    "name": "TEXT_VOICEMAN_02500_200080_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_200080_MIDGARDSORMR",
+    "description": "I rise to join in the chorus.",
+    "translation_description": ""
+  },
+  "34": {
+    "name": "TEXT_VOICEMAN_02500_200090_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_200090_MIDGARDSORMR",
+    "description": "Thou art powerless to silence us, mortal. Yet thou shalt not live to labor in vain. Thy reprieve is at an end.",
+    "translation_description": ""
+  },
+  "35": {
+    "name": "TEXT_VOICEMAN_02500_200100_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_200100_MIDGARDSORMR",
+    "description": "Hmph. Trickery is thy shield. This frail, ignoble creature is not gifted, but chosen...",
+    "translation_description": ""
+  },
+  "36": {
+    "name": "TEXT_VOICEMAN_02500_200110_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_200110_MIDGARDSORMR",
+    "description": "Hearken to me, Hydaelyn! I remember...and I \u003Chex:021A020203\u003Econsent\u003Chex:021A020103\u003E.",
+    "translation_description": ""
+  },
+  "37": {
+    "name": "TEXT_VOICEMAN_02500_200120_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_200120_MIDGARDSORMR",
+    "description": "Fear not, mortal... I shall not harm thee...",
+    "translation_description": ""
+  },
+  "38": {
+    "name": "TEXT_VOICEMAN_02500_200130_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_200130_MIDGARDSORMR",
+    "description": "Heh heh heh. Mayhap thou thinkest me an oathbreaker?",
+    "translation_description": ""
+  },
+  "39": {
+    "name": "TEXT_VOICEMAN_02500_200140_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_200140_MIDGARDSORMR",
+    "description": "Thou art mistaken. If thou comest to harm, it shall be by another\u0027s hand, not mine.",
+    "translation_description": ""
+  },
+  "40": {
+    "name": "TEXT_VOICEMAN_02500_200150_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_200150_MIDGARDSORMR",
+    "description": "I did but strip thee of thy mistress\u0027s feeble blessing.",
+    "translation_description": ""
+  },
+  "41": {
+    "name": "TEXT_VOICEMAN_02500_200160_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_200160_MIDGARDSORMR",
+    "description": "Thou didst profit much by Her grace, but no more.",
+    "translation_description": ""
+  },
+  "42": {
+    "name": "TEXT_VOICEMAN_02500_200170_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_200170_MIDGARDSORMR",
+    "description": "The covenant binds me to thee.",
+    "translation_description": ""
+  },
+  "43": {
+    "name": "TEXT_VOICEMAN_02500_200180_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_200180_MIDGARDSORMR",
+    "description": "I shall watch...listen...and \u003Chex:021A020203\u003Ewait\u003Chex:021A020103\u003E.",
+    "translation_description": ""
+  },
+  "44": {
+    "name": "TEXT_VOICEMAN_02500_200190_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_200190_MIDGARDSORMR",
+    "description": "Fight and struggle, if it be thy will.",
+    "translation_description": ""
+  },
+  "45": {
+    "name": "TEXT_VOICEMAN_02500_200200_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_200200_MIDGARDSORMR",
+    "description": "Man hath ever coveted that which lieth beyond his grasp.",
+    "translation_description": ""
+  },
+  "46": {
+    "name": "TEXT_VOICEMAN_02500_200210_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_200210_MIDGARDSORMR",
+    "description": "I drink of Her body, and thence doth mine own find new life.",
+    "translation_description": ""
+  },
+  "47": {
+    "name": "TEXT_VOICEMAN_02500_200220_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_200220_MIDGARDSORMR",
+    "description": "When it hath grown whole, the loyal and penitent shall rejoice.",
+    "translation_description": ""
+  },
+  "48": {
+    "name": "TEXT_VOICEMAN_02500_200230_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_200230_MIDGARDSORMR",
+    "description": "The Dragonsong heraldeth a beginning...and an end.",
+    "translation_description": ""
+  },
+  "49": {
+    "name": "TEXT_VOICEMAN_02500_300010_LUCIA",
+    "translation_name": "TEXT_VOICEMAN_02500_300010_LUCIA",
+    "description": "My friend! I can scarce believe it! You confronted the wyrm lord and lived to tell the tale!",
+    "translation_description": ""
+  },
+  "50": {
+    "name": "TEXT_VOICEMAN_02500_300020_LUCIA",
+    "translation_name": "TEXT_VOICEMAN_02500_300020_LUCIA",
+    "description": "I give thanks to Halone for your preservation. It is our sole cause for gladness.",
+    "translation_description": ""
+  },
+  "51": {
+    "name": "TEXT_VOICEMAN_02500_300030_LUCIA",
+    "translation_name": "TEXT_VOICEMAN_02500_300030_LUCIA",
+    "description": "Your encounter with the Keeper of the Lake served to confirm our fears. A great wyrm has roared, and it makes little difference if it was one of the two in Eorzea or any other...",
+    "translation_description": ""
+  },
+  "52": {
+    "name": "TEXT_VOICEMAN_02500_300040_LUCIA",
+    "translation_name": "TEXT_VOICEMAN_02500_300040_LUCIA",
+    "description": "The Dravanians are coming.",
+    "translation_description": ""
+  },
+  "53": {
+    "name": "TEXT_VOICEMAN_02500_300050_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_300050_ALPHINAUD",
+    "description": "I am told that Ishgard has magical defenses against Dravanian attack, though I am not privy to their exact nature.",
+    "translation_description": ""
+  },
+  "54": {
+    "name": "TEXT_VOICEMAN_02500_300060_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_300060_ALPHINAUD",
+    "description": "Will they be enough to repel a massive force?",
+    "translation_description": ""
+  },
+  "55": {
+    "name": "TEXT_VOICEMAN_02500_300070_LUCIA",
+    "translation_name": "TEXT_VOICEMAN_02500_300070_LUCIA",
+    "description": "Ishgard has weathered countless assaults over centuries. This will be no different.",
+    "translation_description": ""
+  },
+  "56": {
+    "name": "TEXT_VOICEMAN_02500_300080_LUCIA",
+    "translation_name": "TEXT_VOICEMAN_02500_300080_LUCIA",
+    "description": "And now that you have confirmed the threat, none can ignore the lord commander\u0027s calls for the wards to be strengthened.",
+    "translation_description": ""
+  },
+  "57": {
+    "name": "TEXT_VOICEMAN_02500_300090_LUCIA",
+    "translation_name": "TEXT_VOICEMAN_02500_300090_LUCIA",
+    "description": "I dare not presume to speak for him, but I expect the lord commander would sing your praises.",
+    "translation_description": ""
+  },
+  "58": {
+    "name": "TEXT_VOICEMAN_02500_300100_LUCIA",
+    "translation_name": "TEXT_VOICEMAN_02500_300100_LUCIA",
+    "description": "I must away, but we shall meet again soon.",
+    "translation_description": ""
+  },
+  "59": {
+    "name": "TEXT_VOICEMAN_02500_300110_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_300110_ALPHINAUD",
+    "description": "Countless assaults weathered...and this will be no different? Why am I not convinced?",
+    "translation_description": ""
+  },
+  "60": {
+    "name": "TEXT_VOICEMAN_02500_400010_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_400010_MOENBRYDA",
+    "description": "Now that everything\u0027s calmed down a bit\u2500relatively speaking, I mean\u2500I thought it might be a good time to share our progress on the weapon.",
+    "translation_description": ""
+  },
+  "61": {
+    "name": "TEXT_VOICEMAN_02500_400020_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_400020_MOENBRYDA",
+    "description": "I believe we\u0027re on the verge of a breakthrough.",
+    "translation_description": ""
+  },
+  "62": {
+    "name": "TEXT_VOICEMAN_02500_400030_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_400030_MINFILIA",
+    "description": "Well, don\u0027t keep us all in suspense.",
+    "translation_description": ""
+  },
+  "63": {
+    "name": "TEXT_VOICEMAN_02500_400040_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_400040_MOENBRYDA",
+    "description": "Just in case anyone\u0027s forgotten, let\u0027s start by reviewing what we already know. So! An Ascian is an immortal because its soul doesn\u0027t return to the aetherial realm when its host is defeated. Instead, it flees to the place that lies between our world and the void.",
+    "translation_description": ""
+  },
+  "64": {
+    "name": "TEXT_VOICEMAN_02500_400050_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_400050_MOENBRYDA",
+    "description": "Therefore, the first step to \u003Chex:021A020203\u003Epermanently\u003Chex:021A020103\u003E defeating an Ascian is preventing its soul from making this journey. And if you recall, when we last gathered here, I had verified that white auracite has adequate capacity to entrap the beings, albeit only briefly.",
+    "translation_description": ""
+  },
+  "65": {
+    "name": "TEXT_VOICEMAN_02500_400060_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_400060_THANCRED",
+    "description": "Which left the small matter of their extermination.",
+    "translation_description": ""
+  },
+  "66": {
+    "name": "TEXT_VOICEMAN_02500_400070_URIANGER",
+    "translation_name": "TEXT_VOICEMAN_02500_400070_URIANGER",
+    "description": "Aye. To unmake an Ascian soul, one must needs smite it with a concentrated burst, or \u201Cblade,\u201D of purest aether. However, we wanted for both the data and the means to forge such a weapon.",
+    "translation_description": ""
+  },
+  "67": {
+    "name": "TEXT_VOICEMAN_02500_400080_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_400080_MOENBRYDA",
+    "description": "Short of experimenting on an actual Ascian, you see, there\u0027s no way to gauge how much aether its soul is made of.",
+    "translation_description": ""
+  },
+  "68": {
+    "name": "TEXT_VOICEMAN_02500_400090_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_400090_MOENBRYDA",
+    "description": "As such, we don\u0027t know what aetheric density our blade needs to have in order for it to work.",
+    "translation_description": ""
+  },
+  "69": {
+    "name": "TEXT_VOICEMAN_02500_400100_YDA",
+    "translation_name": "TEXT_VOICEMAN_02500_400100_YDA",
+    "description": "So we\u0027ll just have to make the densest blade we can, and hope for the best! Though that would require a \u003Chex:021A020203\u003Elot\u003Chex:021A020103\u003E of aether...",
+    "translation_description": ""
+  },
+  "70": {
+    "name": "TEXT_VOICEMAN_02500_400110_YDA",
+    "translation_name": "TEXT_VOICEMAN_02500_400110_YDA",
+    "description": "Hang on a minute! Why didn\u0027t we think of this before!? White auracite can hold an absolute \u003Chex:021A020203\u003Eheap\u003Chex:021A020103\u003E of aether, can\u0027t it!?",
+    "translation_description": ""
+  },
+  "71": {
+    "name": "TEXT_VOICEMAN_02500_400120_PAPALYMO",
+    "translation_name": "TEXT_VOICEMAN_02500_400120_PAPALYMO",
+    "description": "Please tell me you\u0027re joking. Gods\u0027 sakes, Yda! I feel as though I\u0027m reliving the same scene over and over with you! How many times do you need to be told that white auracite cannot store aether for long periods?",
+    "translation_description": ""
+  },
+  "72": {
+    "name": "TEXT_VOICEMAN_02500_400130_PAPALYMO",
+    "translation_name": "TEXT_VOICEMAN_02500_400130_PAPALYMO",
+    "description": "Being intangible matter, aether is given to dispersion; only in its crystallized form is it a stable source of energy. I will test you later on this, so see to it you do not forget.",
+    "translation_description": ""
+  },
+  "73": {
+    "name": "TEXT_VOICEMAN_02500_400140_YDA",
+    "translation_name": "TEXT_VOICEMAN_02500_400140_YDA",
+    "description": "Ah...r-right, yes... It\u0027s all coming back to me...",
+    "translation_description": ""
+  },
+  "74": {
+    "name": "TEXT_VOICEMAN_02500_400150_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_400150_THANCRED",
+    "description": "So our hopes rest on good old crystals again, do they? While they are certainly reliable, they leave something to be desired in the area of portability.",
+    "translation_description": ""
+  },
+  "75": {
+    "name": "TEXT_VOICEMAN_02500_400160_YSHTOLA",
+    "translation_name": "TEXT_VOICEMAN_02500_400160_YSHTOLA",
+    "description": "Indeed. I am reminded of the quantity of corrupted crystals required to thwart Leviathan, and the extraordinary lengths to which the Lominsans went to transport them. What if it should prove that a similar quantity was needed to destroy an Ascian soul\u2500or still \u003Chex:021A020203\u003Emore\u003Chex:021A020103\u003E...?",
+    "translation_description": ""
+  },
+  "76": {
+    "name": "TEXT_VOICEMAN_02500_400170_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_400170_THANCRED",
+    "description": "I do not envy the poor sod who has to lug all of that around on the off chance that an Ascian appears.",
+    "translation_description": ""
+  },
+  "77": {
+    "name": "TEXT_VOICEMAN_02500_400180_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_400180_MOENBRYDA",
+    "description": "That\u0027s the very problem we set out to solve, and I reckon we\u0027ve found the answer. If it isn\u0027t practical to lug around the aether we need, we\u0027ll just have to draw upon another source.",
+    "translation_description": ""
+  },
+  "78": {
+    "name": "TEXT_VOICEMAN_02500_400190_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_400190_MOENBRYDA",
+    "description": "And the only viable source is the land.",
+    "translation_description": ""
+  },
+  "79": {
+    "name": "TEXT_VOICEMAN_02500_400200_YSHTOLA",
+    "translation_name": "TEXT_VOICEMAN_02500_400200_YSHTOLA",
+    "description": "If you mean to tap the great river of aether, know that it will entail considerable risk. Meddling with the currents may well induce a surge like to the one which despoiled Mor Dhona.",
+    "translation_description": ""
+  },
+  "80": {
+    "name": "TEXT_VOICEMAN_02500_400210_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_400210_MOENBRYDA",
+    "description": "Give me a bit more credit, will you? Why would we need to tap the river when there\u0027re veritable \u003Chex:021A020203\u003Ereservoirs\u003Chex:021A020103\u003E jutting out all over the land?",
+    "translation_description": ""
+  },
+  "81": {
+    "name": "TEXT_VOICEMAN_02500_400220_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_400220_MOENBRYDA",
+    "description": "Aye, I speak of corrupted crystals. It might be that their aspect is out of balance, but a crystal\u0027s a crystal\u2500it contains aether, and we can help ourselves to it.",
+    "translation_description": ""
+  },
+  "82": {
+    "name": "TEXT_VOICEMAN_02500_400230_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_400230_THANCRED",
+    "description": "While corrupted crystals are indeed abundant, there is no guarantee that they will be in close proximity at a crucial moment.",
+    "translation_description": ""
+  },
+  "83": {
+    "name": "TEXT_VOICEMAN_02500_400240_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_400240_MOENBRYDA",
+    "description": "Ah, but what if we don\u0027t need them to be? What if we could tap their power from \u003Chex:021A020203\u003Eafar\u003Chex:021A020103\u003E? A malm away, say?",
+    "translation_description": ""
+  },
+  "84": {
+    "name": "TEXT_VOICEMAN_02500_400250_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_400250_MOENBRYDA",
+    "description": "If we could do that, we\u0027d have ready access to aether aplenty in almost every corner of Eorzea.",
+    "translation_description": ""
+  },
+  "85": {
+    "name": "TEXT_VOICEMAN_02500_400260_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_400260_MOENBRYDA",
+    "description": "I\u0027ve yet to put my theories to the proof, but I\u0027ve got a good feeling about this. If no one has any objections, I\u0027d like to see where this avenue leads.",
+    "translation_description": ""
+  },
+  "86": {
+    "name": "TEXT_VOICEMAN_02500_400270_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_400270_MINFILIA",
+    "description": "If you think it worth your while, you have my blessing.",
+    "translation_description": ""
+  },
+  "87": {
+    "name": "TEXT_VOICEMAN_02500_400280_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_400280_MINFILIA",
+    "description": "But tell us, what \u003Chex:021A020203\u003Eare\u003Chex:021A020103\u003E your theories? I for one am most eager to understand the process, however vaguely.",
+    "translation_description": ""
+  },
+  "88": {
+    "name": "TEXT_VOICEMAN_02500_400290_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_400290_MOENBRYDA",
+    "description": "I thought you might say that. But no one wants to listen to boring old theories all day, do they? I know I don\u0027t. So, with your permission, I\u0027d like to try something a bit more hands-on. I\u0027ve already built an aetheric siphon especially for this purpose, and I\u0027ve been meaning to try it out.",
+    "translation_description": ""
+  },
+  "89": {
+    "name": "TEXT_VOICEMAN_02500_400300_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_400300_MOENBRYDA",
+    "description": "Thing is, the profusion of corrupted crystals in Mor Dhona makes it something of a high-risk testing ground. If anything goes awry with the siphon, it would be better if it didn\u0027t happen within spitting distance of quite so much aether.",
+    "translation_description": ""
+  },
+  "90": {
+    "name": "TEXT_VOICEMAN_02500_400310_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_400310_MOENBRYDA",
+    "description": "Ideally, I need an isolated specimen. Does anyone know where I can find one?",
+    "translation_description": ""
+  },
+  "91": {
+    "name": "TEXT_VOICEMAN_02500_400320_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_400320_ALPHINAUD",
+    "description": "May I suggest northern Thanalan? There you will find corrupted crystals of middling size, standing a reasonable distance apart. Ideal for your needs, I should have thought. Oh, and if you do elect to visit the place, I should be much obliged if you would assist me in another matter while you are in the area.",
+    "translation_description": ""
+  },
+  "92": {
+    "name": "TEXT_VOICEMAN_02500_400330_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_400330_MINFILIA",
+    "description": "Has something happened?",
+    "translation_description": ""
+  },
+  "93": {
+    "name": "TEXT_VOICEMAN_02500_400340_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_400340_ALPHINAUD",
+    "description": "Movement has been observed at Castrum Meridianum.",
+    "translation_description": ""
+  },
+  "94": {
+    "name": "TEXT_VOICEMAN_02500_400350_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_400350_ALPHINAUD",
+    "description": "During Operation Archon, the Alliance dealt the stronghold a heavy blow. Its facilities were extensively damaged, and its garrison reduced to a fraction of its former strength.",
+    "translation_description": ""
+  },
+  "95": {
+    "name": "TEXT_VOICEMAN_02500_400360_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_400360_ALPHINAUD",
+    "description": "Not long after our forces withdrew, however, their ranks were replenished by reinforcements from Castrum Centri. They now seek to rebuild, and to this end they have their sights set upon the Ceruleum Processing Plant.",
+    "translation_description": ""
+  },
+  "96": {
+    "name": "TEXT_VOICEMAN_02500_400370_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_400370_ALPHINAUD",
+    "description": "Having lost the Empire\u0027s support, the XIVth Legion lacks the resources to sustain itself. To them, this is a bid for survival, and they will doubtless fight like desperate men.",
+    "translation_description": ""
+  },
+  "97": {
+    "name": "TEXT_VOICEMAN_02500_400380_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_400380_ALPHINAUD",
+    "description": "Though I have dispatched the Crystal Braves, I fear their strength alone may not suffice to stay the imperial assault. I would request the Scions\u0027 aid in the defensive effort.",
+    "translation_description": ""
+  },
+  "98": {
+    "name": "TEXT_VOICEMAN_02500_400390_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_400390_MOENBRYDA",
+    "description": "If I didn\u0027t know better, I\u0027d say you were trying to inveigle us into fighting your battle with the promise of shiny crystals!",
+    "translation_description": ""
+  },
+  "99": {
+    "name": "TEXT_VOICEMAN_02500_400400_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_400400_MOENBRYDA",
+    "description": "Well then, consider me inveigled! I won\u0027t lie, the crystals you speak of sound perfect\u2500so the Garleans have to go!",
+    "translation_description": ""
+  },
+  "100": {
+    "name": "TEXT_VOICEMAN_02500_400410_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_400410_MOENBRYDA",
+    "description": "Besides, we can\u0027t afford to beat about the bush. There\u0027s no telling when the Ascians will next appear.",
+    "translation_description": ""
+  },
+  "101": {
+    "name": "TEXT_VOICEMAN_02500_400420_URIANGER",
+    "translation_name": "TEXT_VOICEMAN_02500_400420_URIANGER",
+    "description": "Thine eagerness to hurl thyself into the jaws of danger cometh as little surprise. Exercise due caution, I prithee.",
+    "translation_description": ""
+  },
+  "102": {
+    "name": "TEXT_VOICEMAN_02500_400430_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_400430_MINFILIA",
+    "description": "Though you have become a Crystal Brave, you are yet a Scion, Alphinaud. We could hardly refuse you.",
+    "translation_description": ""
+  },
+  "103": {
+    "name": "TEXT_VOICEMAN_02500_400440_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_400440_MINFILIA",
+    "description": "Pray join the Crystal Braves and lend them your support. Thancred and Papalymo shall accompany you.",
+    "translation_description": ""
+  },
+  "104": {
+    "name": "TEXT_VOICEMAN_02500_400450_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_400450_MINFILIA",
+    "description": "Yda and Y\u0027shtola\u2500in the meantime I would have you assist Moenbryda. Scout out the crystal clusters, that the testing may commence as soon as the Garlean threat has been eliminated.",
+    "translation_description": ""
+  },
+  "105": {
+    "name": "TEXT_VOICEMAN_02500_400460_URIANGER",
+    "translation_name": "TEXT_VOICEMAN_02500_400460_URIANGER",
+    "description": "If it please you, I shall continue mine own experiments on white auracite.",
+    "translation_description": ""
+  },
+  "106": {
+    "name": "TEXT_VOICEMAN_02500_400470_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_400470_MINFILIA",
+    "description": "Thank you, Urianger. Everyone, pray see to your preparations and depart as soon as you are able. Go well, and be safe.",
+    "translation_description": ""
+  },
+  "107": {
+    "name": "TEXT_VOICEMAN_02500_500010_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_500010_MOENBRYDA",
+    "description": "Hold on. I won\u0027t be a second.",
+    "translation_description": ""
+  },
+  "108": {
+    "name": "TEXT_VOICEMAN_02500_500020_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_500020_MOENBRYDA",
+    "description": "The beast seemed peckish, so I gave it a taste of my axe.",
+    "translation_description": ""
+  },
+  "109": {
+    "name": "TEXT_VOICEMAN_02500_500030_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_500030_MOENBRYDA",
+    "description": "I know, I know... As Urianger never tires of reminding me, \u201CAn axe ill becometh the hand of a scholar.\u201D What can I say? I like axes. To hear my mother tell it, I came into this world holding one.",
+    "translation_description": ""
+  },
+  "110": {
+    "name": "TEXT_VOICEMAN_02500_500040_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_500040_MOENBRYDA",
+    "description": "And it\u0027s not as if it stopped me picking up a quill, is it? I often think of the man who introduced me to the joys of learning... He\u0027s one of the reasons I decided to come to Eorzea.",
+    "translation_description": ""
+  },
+  "111": {
+    "name": "TEXT_VOICEMAN_02500_500050_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_500050_MOENBRYDA",
+    "description": "...Him and my excruciatingly stiff childhood friend. Considering how unalike we are, it\u0027s a wonder we ever got on. The world\u0027s a strange old place, isn\u0027t it?",
+    "translation_description": ""
+  },
+  "112": {
+    "name": "TEXT_VOICEMAN_02500_500060_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_500060_MOENBRYDA",
+    "description": "Aye, that ought to do it.",
+    "translation_description": ""
+  },
+  "113": {
+    "name": "TEXT_VOICEMAN_02500_500070_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_500070_MOENBRYDA",
+    "description": "So far, so good. At these concentrations, it shouldn\u0027t matter too much if something goes awry. Just enough aether to make it interesting.",
+    "translation_description": ""
+  },
+  "114": {
+    "name": "TEXT_VOICEMAN_02500_500080_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_500080_MOENBRYDA",
+    "description": "Did you see that? The way the crystal glowed?",
+    "translation_description": ""
+  },
+  "115": {
+    "name": "TEXT_VOICEMAN_02500_500090_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_500090_MOENBRYDA",
+    "description": "The siphon works, I\u0027m happy to say. With a few refinements, it should satisfy our appetite for aether. Which just leaves the small matter of forging our blade.",
+    "translation_description": ""
+  },
+  "116": {
+    "name": "TEXT_VOICEMAN_02500_500100_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_500100_MOENBRYDA",
+    "description": "I\u0027m not sure how to go about it just yet, but I swear to find a way. I\u0027ll put a blade in your hands if it\u0027s the last thing I do.",
+    "translation_description": ""
+  },
+  "117": {
+    "name": "TEXT_VOICEMAN_02500_500110_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_500110_NABRIALES",
+    "description": "(-???-)\u003Chex:024804F2022303\u003E\u003Chex:02080CE905FF04536865FF03486503\u003E senses me. A useful talent.\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "118": {
+    "name": "TEXT_VOICEMAN_02500_500120_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_500120_MOENBRYDA",
+    "description": "An Ascian!? Are they onto us!?",
+    "translation_description": ""
+  },
+  "119": {
+    "name": "TEXT_VOICEMAN_02500_500130_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_500130_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003EBy your brand, I see you are an Archon of Sharlayan. Keeper of knowledge. Seeker of truth. Meddler.\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "120": {
+    "name": "TEXT_VOICEMAN_02500_500140_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_500140_MOENBRYDA",
+    "description": "I don\u0027t know what the hells you\u0027re saying, but I don\u0027t much like your tone.",
+    "translation_description": ""
+  },
+  "121": {
+    "name": "TEXT_VOICEMAN_02500_500150_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_500150_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003EHahaha. Your instincts serve you well. But come, be not unsettled on my account. That lovely brow was not made for frowns. Ah, but I waste my breath.\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "122": {
+    "name": "TEXT_VOICEMAN_02500_500160_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_500160_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003ELet me direct my words to one who understands them. We meet at last, Warrior of Light. I am Nabriales...\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "123": {
+    "name": "TEXT_VOICEMAN_02500_500170_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_500170_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003E...And you have long been a thorn in my side. I suffered the overweening presence of Lahabrea that men might host the power of gods, only for you to undo my hard work.\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "124": {
+    "name": "TEXT_VOICEMAN_02500_500180_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_500180_MOENBRYDA",
+    "description": "Yaaarrrgh!",
+    "translation_description": ""
+  },
+  "125": {
+    "name": "TEXT_VOICEMAN_02500_500190_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_500190_MOENBRYDA",
+    "description": "Oh, bugger...",
+    "translation_description": ""
+  },
+  "126": {
+    "name": "TEXT_VOICEMAN_02500_500200_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_500200_MOENBRYDA",
+    "description": "Urgh!",
+    "translation_description": ""
+  },
+  "127": {
+    "name": "TEXT_VOICEMAN_02500_500210_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_500210_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003EDo settle down.\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "128": {
+    "name": "TEXT_VOICEMAN_02500_500220_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_500220_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003EYou must concede that I acted in self-defense.\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "129": {
+    "name": "TEXT_VOICEMAN_02500_500230_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_500230_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003EBut what\u0027s this? I do not sense the blessing of Light...\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "130": {
+    "name": "TEXT_VOICEMAN_02500_500240_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_500240_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003EOh dear! Could it be that frail Hydaelyn has forgotten Her champion!? This I did \u003Chex:021A020203\u003Enot\u003Chex:021A020103\u003E foresee!\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "131": {
+    "name": "TEXT_VOICEMAN_02500_500250_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_500250_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003EShorn of Light as you are, you are no longer a threat. And better yet, the seal is broken.\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "132": {
+    "name": "TEXT_VOICEMAN_02500_500260_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_500260_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003ENow is the time to claim the staff!\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "133": {
+    "name": "TEXT_VOICEMAN_02500_500270_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_500270_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003EWith it in my grasp, I shall rise above them all and take my place at Lord Zodiark\u0027s right hand!\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "134": {
+    "name": "TEXT_VOICEMAN_02500_500280_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_500280_MOENBRYDA",
+    "description": "What did that bastard want with us?",
+    "translation_description": ""
+  },
+  "135": {
+    "name": "TEXT_VOICEMAN_02500_500290_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_500290_MOENBRYDA",
+    "description": "Nabriales, he calls himself? With charm like that, I\u0027ll bet he has maidens falling at his feet. Unconscious.",
+    "translation_description": ""
+  },
+  "136": {
+    "name": "TEXT_VOICEMAN_02500_500300_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_500300_MOENBRYDA",
+    "description": "But this staff\u2500you say just talking about it had the bastard grinning like a brat on his nameday? Must be quite a staff.",
+    "translation_description": ""
+  },
+  "137": {
+    "name": "TEXT_VOICEMAN_02500_500310_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_500310_MOENBRYDA",
+    "description": "Oh, gods... He means Tupsimati, Master Louisoix\u0027s staff!",
+    "translation_description": ""
+  },
+  "138": {
+    "name": "TEXT_VOICEMAN_02500_500320_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_500320_MOENBRYDA",
+    "description": "Minfilia\u0027s in danger! We have to get back to the Rising Stones!",
+    "translation_description": ""
+  },
+  "139": {
+    "name": "TEXT_VOICEMAN_02500_600010_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_600010_MINFILIA",
+    "description": "You two!",
+    "translation_description": ""
+  },
+  "140": {
+    "name": "TEXT_VOICEMAN_02500_600020_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_600020_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003ESo you were able to divine my intent. What now, Warrior of Light? Ah, but that name is no longer fitting. You have become decidedly \u003Chex:021A020203\u003Edull\u003Chex:021A020103\u003E, and quite incapable of barring my entry.\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "141": {
+    "name": "TEXT_VOICEMAN_02500_600030_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_600030_MINFILIA",
+    "description": "What do you mean!?",
+    "translation_description": ""
+  },
+  "142": {
+    "name": "TEXT_VOICEMAN_02500_600040_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_600040_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003EYou truly do not know? Then I suppose it is only right that I \u003Chex:021A020203\u003Eenlighten\u003Chex:021A020103\u003E you.\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "143": {
+    "name": "TEXT_VOICEMAN_02500_600050_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_600050_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003EThe blessing of Light kept you and your fellow meddlers safe. It was that which prevented my kind from entering your domain.\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "144": {
+    "name": "TEXT_VOICEMAN_02500_600060_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_600060_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003EMy kind, I say, though it had no power over the likes of Elidibus and Lahabrea. Being of this world, they could come and go as they please, while I could only look on...\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "145": {
+    "name": "TEXT_VOICEMAN_02500_600070_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_600070_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003EBut I need look no longer. Now that the seal is gone, I mean to act. Unlike the others, I am not given to waiting. I shall take that staff and bring about the next Rejoining.\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "146": {
+    "name": "TEXT_VOICEMAN_02500_600080_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_600080_MINFILIA",
+    "description": "...Rejoining? Then it was \u003Chex:021A020203\u003Eyour\u003Chex:021A020103\u003E doing! The Isle of Val, the scholars\u2500all of it!",
+    "translation_description": ""
+  },
+  "147": {
+    "name": "TEXT_VOICEMAN_02500_600090_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_600090_MOENBRYDA",
+    "description": "You will not harm her!",
+    "translation_description": ""
+  },
+  "148": {
+    "name": "TEXT_VOICEMAN_02500_600100_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_600100_MOENBRYDA",
+    "description": "Urrrgh!",
+    "translation_description": ""
+  },
+  "149": {
+    "name": "TEXT_VOICEMAN_02500_600110_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_600110_MINFILIA",
+    "description": "Moenbryda!",
+    "translation_description": ""
+  },
+  "150": {
+    "name": "TEXT_VOICEMAN_02500_600120_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_600120_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003EWhy must you insist on forcing my hand? Did you learn nothing from our last meeting? Ah, but I forget\u2500my words fall upon deaf ears.\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "151": {
+    "name": "TEXT_VOICEMAN_02500_600130_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_600130_MINFILIA",
+    "description": "The staff is but a broken relic\u2500a memorial to the departed. What possible use could you have for it?",
+    "translation_description": ""
+  },
+  "152": {
+    "name": "TEXT_VOICEMAN_02500_600140_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_600140_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003EWhat use!? You mean to say that all this time, you kept the key, never knowing what it was you possessed?\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "153": {
+    "name": "TEXT_VOICEMAN_02500_600150_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_600150_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003EThe staff Tupsimati\u2500or rather, the stone tablet it bears\u2500is host to a great power.\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "154": {
+    "name": "TEXT_VOICEMAN_02500_600160_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_600160_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003ETogether with the horn, it can be used to draw vast quantities of aether from its bearer\u0027s surroundings.\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "155": {
+    "name": "TEXT_VOICEMAN_02500_600170_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_600170_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003EHow else do you think Louisoix was able to invoke the power of the Twelve without making them an offering of crystals?\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "156": {
+    "name": "TEXT_VOICEMAN_02500_600180_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_600180_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003ESummoning requires not only prayer, but a profusion of aether. Even a child knows that.\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "157": {
+    "name": "TEXT_VOICEMAN_02500_600190_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_600190_MINFILIA",
+    "description": "If I did not know before, you may be certain I do now. But above all, I know that we cannot allow this staff to fall into your hands. I will die before I let you take it.",
+    "translation_description": ""
+  },
+  "158": {
+    "name": "TEXT_VOICEMAN_02500_600200_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_600200_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003EInsufferable woman. I would happily end your miserable life here and now... Alas, Elidibus would never let me hear the end of it.\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "159": {
+    "name": "TEXT_VOICEMAN_02500_600210_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_600210_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003EVery well. If you will not part with the staff, I will take you too.\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "160": {
+    "name": "TEXT_VOICEMAN_02500_600220_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_600220_MOENBRYDA",
+    "description": "After them! Quickly...before the rift closes!",
+    "translation_description": ""
+  },
+  "161": {
+    "name": "TEXT_VOICEMAN_02500_700010_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_700010_NABRIALES",
+    "description": "It appears I have underestimated you... You are a formidable foe, even without the blessing of Light...",
+    "translation_description": ""
+  },
+  "162": {
+    "name": "TEXT_VOICEMAN_02500_700020_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_700020_NABRIALES",
+    "description": "And now I am forced to reveal this unseemly form. Hmph.",
+    "translation_description": ""
+  },
+  "163": {
+    "name": "TEXT_VOICEMAN_02500_700030_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_700030_MOENBRYDA",
+    "description": "You\u0027re safe... Thank the Twelve...",
+    "translation_description": ""
+  },
+  "164": {
+    "name": "TEXT_VOICEMAN_02500_700040_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_700040_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003EYou may have bested me this day...but what of the next? What of all the days to come!?\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "165": {
+    "name": "TEXT_VOICEMAN_02500_700050_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_700050_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003ERemember: Light no longer holds sway here. I may return whensoever I wish. Again and again and again. Eventually, you will falter and the staff will be mine. Until next time, Scions.\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "166": {
+    "name": "TEXT_VOICEMAN_02500_700060_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_700060_MINFILIA",
+    "description": "There will be no next time! This is the end!",
+    "translation_description": ""
+  },
+  "167": {
+    "name": "TEXT_VOICEMAN_02500_700070_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_700070_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003EWhat!? What trickery is this!?\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "168": {
+    "name": "TEXT_VOICEMAN_02500_700080_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_700080_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003ENo! Nooo! You cannot! Nooooooooo!\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "169": {
+    "name": "TEXT_VOICEMAN_02500_700090_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_700090_MINFILIA",
+    "description": "Use Tupsimati to gather aether! Quickly, before he breaks free!",
+    "translation_description": ""
+  },
+  "170": {
+    "name": "TEXT_VOICEMAN_02500_700100_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_700100_MINFILIA",
+    "description": "Concentrate! Call to mind the time you struck down Lahabrea with the blade of Light!",
+    "translation_description": ""
+  },
+  "171": {
+    "name": "TEXT_VOICEMAN_02500_700110_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_700110_MINFILIA",
+    "description": "Why won\u0027t it work? Is it because we lack the blessing of Light?",
+    "translation_description": ""
+  },
+  "172": {
+    "name": "TEXT_VOICEMAN_02500_700120_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_700120_MOENBRYDA",
+    "description": "Damn it... So much aether...and it still isn\u0027t enough...",
+    "translation_description": ""
+  },
+  "173": {
+    "name": "TEXT_VOICEMAN_02500_700130_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_700130_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003EFools! No mortal prison can contain me! I shall make you pay for your insolence!\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "174": {
+    "name": "TEXT_VOICEMAN_02500_700140_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_700140_MINFILIA",
+    "description": "Please, Mother Hydaelyn! Hearken to our plea! Lend us Your divine Light!",
+    "translation_description": ""
+  },
+  "175": {
+    "name": "TEXT_VOICEMAN_02500_700150_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_700150_MINFILIA",
+    "description": "Why can You not hear us? Do our words no longer reach You?",
+    "translation_description": ""
+  },
+  "176": {
+    "name": "TEXT_VOICEMAN_02500_700160_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_700160_MOENBRYDA",
+    "description": "If only we had...a bit more aether...",
+    "translation_description": ""
+  },
+  "177": {
+    "name": "TEXT_VOICEMAN_02500_700170_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_700170_MINFILIA",
+    "description": "Moenbryda! What are you doing!?",
+    "translation_description": ""
+  },
+  "178": {
+    "name": "TEXT_VOICEMAN_02500_700180_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_700180_MOENBRYDA",
+    "description": "Master Louisoix... I understand now...the choice you made...",
+    "translation_description": ""
+  },
+  "179": {
+    "name": "TEXT_VOICEMAN_02500_700190_MOENBRYDA",
+    "translation_name": "TEXT_VOICEMAN_02500_700190_MOENBRYDA",
+    "description": "In death...there is life... Farewell, Urianger...you daft old coot...",
+    "translation_description": ""
+  },
+  "180": {
+    "name": "TEXT_VOICEMAN_02500_700200_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_700200_MINFILIA",
+    "description": "Moenbryda, no! You mustn\u0027t\u2500!",
+    "translation_description": ""
+  },
+  "181": {
+    "name": "TEXT_VOICEMAN_02500_700210_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_700210_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003EWhat!? Nooo! It...it cannot end!\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "182": {
+    "name": "TEXT_VOICEMAN_02500_700220_NABRIALES",
+    "translation_name": "TEXT_VOICEMAN_02500_700220_NABRIALES",
+    "description": "\u003Chex:024804F2022303\u003EI am eternal! I am immortaaaaaal!\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "183": {
+    "name": "TEXT_VOICEMAN_02500_700230_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_700230_MINFILIA",
+    "description": "Moenbryda... She\u0027s...she\u0027s gone...",
+    "translation_description": ""
+  },
+  "184": {
+    "name": "TEXT_VOICEMAN_02500_700240_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_700240_MINFILIA",
+    "description": "You did it, my friend. The Ascian is dead.",
+    "translation_description": ""
+  },
+  "185": {
+    "name": "TEXT_VOICEMAN_02500_800010_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_800010_MINFILIA",
+    "description": "This device is a legacy of Moenbryda\u0027s toils and sacrifice.",
+    "translation_description": ""
+  },
+  "186": {
+    "name": "TEXT_VOICEMAN_02500_800020_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_800020_MINFILIA",
+    "description": "I shall hold on to it for safekeeping.",
+    "translation_description": ""
+  },
+  "187": {
+    "name": "TEXT_VOICEMAN_02500_800030_YDA",
+    "translation_name": "TEXT_VOICEMAN_02500_800030_YDA",
+    "description": "Minfilia! Are you all right?",
+    "translation_description": ""
+  },
+  "188": {
+    "name": "TEXT_VOICEMAN_02500_800040_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_800040_MINFILIA",
+    "description": "I am.",
+    "translation_description": ""
+  },
+  "189": {
+    "name": "TEXT_VOICEMAN_02500_800050_PAPALYMO",
+    "translation_name": "TEXT_VOICEMAN_02500_800050_PAPALYMO",
+    "description": "We were surveying northern Thanalan when we received the distress call.",
+    "translation_description": ""
+  },
+  "190": {
+    "name": "TEXT_VOICEMAN_02500_800060_PAPALYMO",
+    "translation_name": "TEXT_VOICEMAN_02500_800060_PAPALYMO",
+    "description": "We returned as swiftly as we were able.",
+    "translation_description": ""
+  },
+  "191": {
+    "name": "TEXT_VOICEMAN_02500_800070_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_800070_THANCRED",
+    "description": "It seems you have everything in hand, however.",
+    "translation_description": ""
+  },
+  "192": {
+    "name": "TEXT_VOICEMAN_02500_800080_YSHTOLA",
+    "translation_name": "TEXT_VOICEMAN_02500_800080_YSHTOLA",
+    "description": "What happened here? Where is Moenbryda?",
+    "translation_description": ""
+  },
+  "193": {
+    "name": "TEXT_VOICEMAN_02500_800090_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_800090_THANCRED",
+    "description": "She gave her life to temper the blade of Light? I...I have no words.",
+    "translation_description": ""
+  },
+  "194": {
+    "name": "TEXT_VOICEMAN_02500_800100_YSHTOLA",
+    "translation_name": "TEXT_VOICEMAN_02500_800100_YSHTOLA",
+    "description": "Rather than await the inevitable, she took her fate into her own hands.",
+    "translation_description": ""
+  },
+  "195": {
+    "name": "TEXT_VOICEMAN_02500_800110_YDA",
+    "translation_name": "TEXT_VOICEMAN_02500_800110_YDA",
+    "description": "Does...does Urianger know...?",
+    "translation_description": ""
+  },
+  "196": {
+    "name": "TEXT_VOICEMAN_02500_800120_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_800120_MINFILIA",
+    "description": "My friend. There is something I must tell you.",
+    "translation_description": ""
+  },
+  "197": {
+    "name": "TEXT_VOICEMAN_02500_800130_URIANGER",
+    "translation_name": "TEXT_VOICEMAN_02500_800130_URIANGER",
+    "description": "I heard all, my lady.",
+    "translation_description": ""
+  },
+  "198": {
+    "name": "TEXT_VOICEMAN_02500_800140_URIANGER",
+    "translation_name": "TEXT_VOICEMAN_02500_800140_URIANGER",
+    "description": "The moon sinketh, taking her leave of the heavens. Yet her passing heraldeth the coming of a new day.\u003Chex:02100103\u003E...Moenbryda hath fulfilled her destiny, hath she not?",
+    "translation_description": ""
+  },
+  "199": {
+    "name": "TEXT_VOICEMAN_02500_800150_URIANGER",
+    "translation_name": "TEXT_VOICEMAN_02500_800150_URIANGER",
+    "description": "Long ago, far across the seas in the Sharlayan motherland, Moenbryda and I did study under the sage tutelage of Master Louisoix.",
+    "translation_description": ""
+  },
+  "200": {
+    "name": "TEXT_VOICEMAN_02500_800160_URIANGER",
+    "translation_name": "TEXT_VOICEMAN_02500_800160_URIANGER",
+    "description": "Full oft did he impress upon us that knowledge existeth to serve the greater good. This sentiment, however, was contrary to the nation\u0027s policy of neutrality, which censured intercedence in the affairs of foreign lands.",
+    "translation_description": ""
+  },
+  "201": {
+    "name": "TEXT_VOICEMAN_02500_800170_URIANGER",
+    "translation_name": "TEXT_VOICEMAN_02500_800170_URIANGER",
+    "description": "In spite of vehement opposition, he founded the Circle of Knowing and journeyed hither to the heart of Eorzea. Through his noble sacrifice was the realm spared its doom.",
+    "translation_description": ""
+  },
+  "202": {
+    "name": "TEXT_VOICEMAN_02500_800180_URIANGER",
+    "translation_name": "TEXT_VOICEMAN_02500_800180_URIANGER",
+    "description": "Yet this great soul, whom all should rightly have honored, was branded a pariah in his own land. His peers did accuse him of forsaking his duty as a man of learning, and of meddling in the course of history.",
+    "translation_description": ""
+  },
+  "203": {
+    "name": "TEXT_VOICEMAN_02500_800190_URIANGER",
+    "translation_name": "TEXT_VOICEMAN_02500_800190_URIANGER",
+    "description": "When he left Sharlayan behind, Master Louisoix gave no word to signal his intent to Moenbryda. Close as they were, as master and disciple, she was deeply wounded by the sudden exclusion from his confidence.",
+    "translation_description": ""
+  },
+  "204": {
+    "name": "TEXT_VOICEMAN_02500_800200_URIANGER",
+    "translation_name": "TEXT_VOICEMAN_02500_800200_URIANGER",
+    "description": "Above all, however, she was confused. Try as she might, she could ill comprehend her master\u0027s motive. The slanders that were heaped upon him after his passing served only to inflame the turmoil within her.",
+    "translation_description": ""
+  },
+  "205": {
+    "name": "TEXT_VOICEMAN_02500_800210_URIANGER",
+    "translation_name": "TEXT_VOICEMAN_02500_800210_URIANGER",
+    "description": "For years upon end, she knew not what to believe, torn as she was \u0027twixt the man whom she revered, and the man who forsook her and his duty both.",
+    "translation_description": ""
+  },
+  "206": {
+    "name": "TEXT_VOICEMAN_02500_800220_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_800220_MINFILIA",
+    "description": "The Louisoix I knew would never forsake his duty, much less one of his own.",
+    "translation_description": ""
+  },
+  "207": {
+    "name": "TEXT_VOICEMAN_02500_800230_URIANGER",
+    "translation_name": "TEXT_VOICEMAN_02500_800230_URIANGER",
+    "description": "This I know full well, my lady. \u0027Twas not for want of love that Master Louisoix hid his intent. He but desired that Moenbryda discover her own path, free of the shadow of his influence.",
+    "translation_description": ""
+  },
+  "208": {
+    "name": "TEXT_VOICEMAN_02500_800240_URIANGER",
+    "translation_name": "TEXT_VOICEMAN_02500_800240_URIANGER",
+    "description": "Long did I contemplate revealing the truth to her, and long did I hold my peace. After all, was it not Master Louisoix\u0027s wish that she come to the truth unaided? I told myself it was, and resolved to let her suffer.",
+    "translation_description": ""
+  },
+  "209": {
+    "name": "TEXT_VOICEMAN_02500_800250_URIANGER",
+    "translation_name": "TEXT_VOICEMAN_02500_800250_URIANGER",
+    "description": "Knowingly did I deny my friend the comfort she craved. And now she hath gone to her rest with doubt still in her heart.",
+    "translation_description": ""
+  },
+  "210": {
+    "name": "TEXT_VOICEMAN_02500_800260_URIANGER",
+    "translation_name": "TEXT_VOICEMAN_02500_800260_URIANGER",
+    "description": "Speakest thou in earnest? Did Moenbryda truly come to understand Master Louisoix\u0027s will before the end?",
+    "translation_description": ""
+  },
+  "211": {
+    "name": "TEXT_VOICEMAN_02500_800270_URIANGER",
+    "translation_name": "TEXT_VOICEMAN_02500_800270_URIANGER",
+    "description": "The realization hath set her free. She may now find the peace which hath for so long eluded her.",
+    "translation_description": ""
+  },
+  "212": {
+    "name": "TEXT_VOICEMAN_02500_800280_URIANGER",
+    "translation_name": "TEXT_VOICEMAN_02500_800280_URIANGER",
+    "description": "Oh, Moenbryda... My dearest... How I shall miss thee...",
+    "translation_description": ""
+  },
+  "213": {
+    "name": "TEXT_VOICEMAN_02500_800290_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_800290_MINFILIA",
+    "description": "Moenbryda gave her life that we might possess the means to defeat the Ascians.",
+    "translation_description": ""
+  },
+  "214": {
+    "name": "TEXT_VOICEMAN_02500_800300_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_800300_MINFILIA",
+    "description": "Her sacrifice must not be in vain. Let us continue her work on the blade of aether and see it to completion.",
+    "translation_description": ""
+  },
+  "215": {
+    "name": "TEXT_VOICEMAN_02500_800310_URIANGER",
+    "translation_name": "TEXT_VOICEMAN_02500_800310_URIANGER",
+    "description": "My lady. I would mourn Moenbryda in mine own way. I beg your permission to return to the Waking Sands.",
+    "translation_description": ""
+  },
+  "216": {
+    "name": "TEXT_VOICEMAN_02500_800320_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_800320_MINFILIA",
+    "description": "Of course, my friend. Take all the time you require. We shall be here should you have need of us.",
+    "translation_description": ""
+  },
+  "217": {
+    "name": "TEXT_VOICEMAN_02500_900010_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_900010_MINFILIA",
+    "description": "Forgive me, Moenbryda. Had I been quicker, or wiser...",
+    "translation_description": ""
+  },
+  "218": {
+    "name": "TEXT_VOICEMAN_02500_900020_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_900020_MINFILIA",
+    "description": "But I was not, and you paid the price.",
+    "translation_description": ""
+  },
+  "219": {
+    "name": "TEXT_VOICEMAN_02500_900030_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_900030_MINFILIA",
+    "description": "But you would not suffer us to wallow in our sorrow, would you? You would tell us to...pick ourselves up and get on with it.",
+    "translation_description": ""
+  },
+  "220": {
+    "name": "TEXT_VOICEMAN_02500_900040_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_900040_MINFILIA",
+    "description": "And so we shall. We shall defend this realm and her people to the last.",
+    "translation_description": ""
+  },
+  "221": {
+    "name": "TEXT_VOICEMAN_02500_900060_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_900060_MIDGARDSORMR",
+    "description": "Life for death. A fair exchange.",
+    "translation_description": ""
+  },
+  "222": {
+    "name": "TEXT_VOICEMAN_02500_900070_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_900070_MIDGARDSORMR",
+    "description": "Other bargains will be struck.",
+    "translation_description": ""
+  },
+  "223": {
+    "name": "TEXT_VOICEMAN_02500_900050_YDA",
+    "translation_name": "TEXT_VOICEMAN_02500_900050_YDA",
+    "description": "I\u0027ll never forget you, Moen. None of us will.",
+    "translation_description": ""
+  },
+  "224": {
+    "name": "TEXT_VOICEMAN_02500_900080_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_900080_MIDGARDSORMR",
+    "description": "The song riseth to a crescendo.",
+    "translation_description": ""
+  },
+  "225": {
+    "name": "TEXT_VOICEMAN_02500_900090_YDA",
+    "translation_name": "TEXT_VOICEMAN_02500_900090_YDA",
+    "description": "Is that what I think it is...?",
+    "translation_description": ""
+  },
+  "226": {
+    "name": "TEXT_VOICEMAN_02500_900100_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_900100_ALPHINAUD",
+    "description": "Hello!? Can you hear me!?",
+    "translation_description": ""
+  },
+  "227": {
+    "name": "TEXT_VOICEMAN_02500_900110_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_900110_ALPHINAUD",
+    "description": "We have received grave tidings from Ishgard. Pray return to the Rising Stones at once.",
+    "translation_description": ""
+  },
+  "228": {
+    "name": "TEXT_VOICEMAN_02500_900120_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_900120_MINFILIA",
+    "description": "Twelve forfend, is the hour already upon us!?",
+    "translation_description": ""
+  },
+  "229": {
+    "name": "TEXT_VOICEMAN_02500_900130_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_900130_MINFILIA",
+    "description": "Come. Our enemies do not rest, and neither will we.",
+    "translation_description": ""
+  },
+  "230": {
+    "name": "TEXT_VOICEMAN_02500_A00010_ICEHEART",
+    "translation_name": "TEXT_VOICEMAN_02500_A00010_ICEHEART",
+    "description": "(-Iceheart-)The sons must answer for their fathers\u0027 misdeeds. Only then will the cycle be broken...",
+    "translation_description": ""
+  },
+  "231": {
+    "name": "TEXT_VOICEMAN_02500_A00020_ICEHEART",
+    "translation_name": "TEXT_VOICEMAN_02500_A00020_ICEHEART",
+    "description": "(-Iceheart-)Brothers and sisters of the heavens! We raise our voices and join you in the chorus!",
+    "translation_description": ""
+  },
+  "232": {
+    "name": "TEXT_VOICEMAN_02500_A00030_ICEHEART",
+    "translation_name": "TEXT_VOICEMAN_02500_A00030_ICEHEART",
+    "description": "(-Iceheart-)The sinners\u0027 feeble magicks are undone! Come! Claim your retribution!",
+    "translation_description": ""
+  },
+  "233": {
+    "name": "TEXT_VOICEMAN_02500_A00040_ICEHEART",
+    "translation_name": "TEXT_VOICEMAN_02500_A00040_ICEHEART",
+    "description": "(-Iceheart-)Ahahahahahah!",
+    "translation_description": ""
+  },
+  "234": {
+    "name": "TEXT_VOICEMAN_02500_C00010_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_C00010_MINFILIA",
+    "description": "Alphinaud, it is good to see you. Tell me, what have you learned?",
+    "translation_description": ""
+  },
+  "235": {
+    "name": "TEXT_VOICEMAN_02500_C00020_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_C00020_ALPHINAUD",
+    "description": "Pray summon the others. Everyone must hear my report.",
+    "translation_description": ""
+  },
+  "236": {
+    "name": "TEXT_VOICEMAN_02500_C00030_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_C00030_MINFILIA",
+    "description": "So this was all but a taste of what\u0027s to come...",
+    "translation_description": ""
+  },
+  "237": {
+    "name": "TEXT_VOICEMAN_02500_C00040_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_C00040_ALPHINAUD",
+    "description": "Indeed. The main host advances upon Ishgard as we speak.",
+    "translation_description": ""
+  },
+  "238": {
+    "name": "TEXT_VOICEMAN_02500_C00050_PAPALYMO",
+    "translation_name": "TEXT_VOICEMAN_02500_C00050_PAPALYMO",
+    "description": "Whose vaunted defenses have been nullified.",
+    "translation_description": ""
+  },
+  "239": {
+    "name": "TEXT_VOICEMAN_02500_C00060_YSHTOLA",
+    "translation_name": "TEXT_VOICEMAN_02500_C00060_YSHTOLA",
+    "description": "Shorn of its wards, the city will bear the full force of Nidhogg\u0027s fury.",
+    "translation_description": ""
+  },
+  "240": {
+    "name": "TEXT_VOICEMAN_02500_C00070_YDA",
+    "translation_name": "TEXT_VOICEMAN_02500_C00070_YDA",
+    "description": "All those people...",
+    "translation_description": ""
+  },
+  "241": {
+    "name": "TEXT_VOICEMAN_02500_C00080_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_C00080_THANCRED",
+    "description": "Alphinaud is right. The Dravanians cannot be allowed to prevail. If Ishgard falls, all of Eorzea will suffer the consequences.",
+    "translation_description": ""
+  },
+  "242": {
+    "name": "TEXT_VOICEMAN_02500_C00090_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_C00090_ALPHINAUD",
+    "description": "Then you agree that we have no choice but to intervene. For the good of the realm, the Scions of the Seventh Dawn and the Crystal Braves must join the defense of Ishgard.",
+    "translation_description": ""
+  },
+  "243": {
+    "name": "TEXT_VOICEMAN_02500_C00100_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_C00100_MINFILIA",
+    "description": "Let there be no ambiguity about what has been proposed. We would be directly intervening in the war.",
+    "translation_description": ""
+  },
+  "244": {
+    "name": "TEXT_VOICEMAN_02500_C00110_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_C00110_MINFILIA",
+    "description": "But if all here believe the cause to be just, then to war we shall go.",
+    "translation_description": ""
+  },
+  "245": {
+    "name": "TEXT_VOICEMAN_02500_C00120_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_C00120_MINFILIA",
+    "description": "The path we now embark upon is perilous, but I pray you will walk with us to the end.",
+    "translation_description": ""
+  },
+  "246": {
+    "name": "TEXT_VOICEMAN_02500_C00130_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_C00130_MINFILIA",
+    "description": "For those we have lost. For those we can yet save.",
+    "translation_description": ""
+  },
+  "247": {
+    "name": "TEXT_VOICEMAN_02500_C00140_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_C00140_ALPHINAUD",
+    "description": "Then it is settled. I shall inform the council of our intentions, and request that they contribute their own forces to the defense of Ishgard.",
+    "translation_description": ""
+  },
+  "248": {
+    "name": "TEXT_VOICEMAN_02500_D00010_MERLWYB",
+    "translation_name": "TEXT_VOICEMAN_02500_D00010_MERLWYB",
+    "description": "We are well aware of Ishgard\u0027s dilemma, and we agree with your assessment.",
+    "translation_description": ""
+  },
+  "249": {
+    "name": "TEXT_VOICEMAN_02500_D00020_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_D00020_ALPHINAUD",
+    "description": "Then I trust there are no objections to the Crystal Braves\u0027 intervention?",
+    "translation_description": ""
+  },
+  "250": {
+    "name": "TEXT_VOICEMAN_02500_D00030_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_D00030_RAUBAHN",
+    "description": "Ul\u0027dah has none.",
+    "translation_description": ""
+  },
+  "251": {
+    "name": "TEXT_VOICEMAN_02500_D00040_KANESENNA",
+    "translation_name": "TEXT_VOICEMAN_02500_D00040_KANESENNA",
+    "description": "Gridania does not object.",
+    "translation_description": ""
+  },
+  "252": {
+    "name": "TEXT_VOICEMAN_02500_D00050_MERLWYB",
+    "translation_name": "TEXT_VOICEMAN_02500_D00050_MERLWYB",
+    "description": "The Crystal Braves are yours to command, Alphinaud. Do what you will. We shall pray for your success.",
+    "translation_description": ""
+  },
+  "253": {
+    "name": "TEXT_VOICEMAN_02500_D00060_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_D00060_ALPHINAUD",
+    "description": "It was my hope that you would offer more substantial aid than prayer. I know it is within your means.",
+    "translation_description": ""
+  },
+  "254": {
+    "name": "TEXT_VOICEMAN_02500_D00070_MERLWYB",
+    "translation_name": "TEXT_VOICEMAN_02500_D00070_MERLWYB",
+    "description": "Do not presume that you have knowledge of our every concern. The Garleans and the beast tribes are but two of many.",
+    "translation_description": ""
+  },
+  "255": {
+    "name": "TEXT_VOICEMAN_02500_D00080_MERLWYB",
+    "translation_name": "TEXT_VOICEMAN_02500_D00080_MERLWYB",
+    "description": "We are not in a position to contribute greatly to the defense of Ishgard\u2500not when our own homes are still under siege.",
+    "translation_description": ""
+  },
+  "256": {
+    "name": "TEXT_VOICEMAN_02500_D00090_KANESENNA",
+    "translation_name": "TEXT_VOICEMAN_02500_D00090_KANESENNA",
+    "description": "We dare not leave our interests in Carteneau undefended as well. Teledji Adeledji and his ilk would seize control of the territories in our absence.",
+    "translation_description": ""
+  },
+  "257": {
+    "name": "TEXT_VOICEMAN_02500_D00100_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_D00100_ALPHINAUD",
+    "description": "The enemy is at their gates, and you would cower behind yours!?",
+    "translation_description": ""
+  },
+  "258": {
+    "name": "TEXT_VOICEMAN_02500_D00110_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_D00110_RAUBAHN",
+    "description": "No one is cowering, boy. We will offer what support we can.",
+    "translation_description": ""
+  },
+  "259": {
+    "name": "TEXT_VOICEMAN_02500_D00120_MERLWYB",
+    "translation_name": "TEXT_VOICEMAN_02500_D00120_MERLWYB",
+    "description": "Aye. \u003Chex:021A020203\u003ESupport\u003Chex:021A020103\u003E. A handful of men and no more.",
+    "translation_description": ""
+  },
+  "260": {
+    "name": "TEXT_VOICEMAN_02500_D00130_KANESENNA",
+    "translation_name": "TEXT_VOICEMAN_02500_D00130_KANESENNA",
+    "description": "Would that we could commit more than a token force to this cause. Yet there \u003Chex:021A020203\u003Eare\u003Chex:021A020103\u003E others to whom you might turn. The free companies ever want for work.",
+    "translation_description": ""
+  },
+  "261": {
+    "name": "TEXT_VOICEMAN_02500_D00140_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_D00140_RAUBAHN",
+    "description": "Ah, yes, the free companies... They\u0027re not like to turn you down.",
+    "translation_description": ""
+  },
+  "262": {
+    "name": "TEXT_VOICEMAN_02500_D00150_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_D00150_ALPHINAUD",
+    "description": "I beg your pardon!? You would entrust the survival of Ishgard to \u003Chex:021A020203\u003Esellswords\u003Chex:021A020103\u003E!?",
+    "translation_description": ""
+  },
+  "263": {
+    "name": "TEXT_VOICEMAN_02500_D00160_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_D00160_ALPHINAUD",
+    "description": "Crises like these are the very reason why this alliance was formed! It is our duty to aid our fellow man!",
+    "translation_description": ""
+  },
+  "264": {
+    "name": "TEXT_VOICEMAN_02500_D00170_MERLWYB",
+    "translation_name": "TEXT_VOICEMAN_02500_D00170_MERLWYB",
+    "description": "My \u003Chex:021A020203\u003Eduty\u003Chex:021A020103\u003E is to \u003Chex:021A020203\u003Emy\u003Chex:021A020103\u003E country and \u003Chex:021A020203\u003Emy\u003Chex:021A020103\u003E people.",
+    "translation_description": ""
+  },
+  "265": {
+    "name": "TEXT_VOICEMAN_02500_D00180_MERLWYB",
+    "translation_name": "TEXT_VOICEMAN_02500_D00180_MERLWYB",
+    "description": "If you expect us to place the welfare of a foreign power above our own, you\u0027re going to be sorely disappointed.",
+    "translation_description": ""
+  },
+  "266": {
+    "name": "TEXT_VOICEMAN_02500_D00190_MERLWYB",
+    "translation_name": "TEXT_VOICEMAN_02500_D00190_MERLWYB",
+    "description": "Lest you doubt, Limsa comes first, then the Alliance, and finally\u2500circumstances permitting\u2500Ishgard and the rest.",
+    "translation_description": ""
+  },
+  "267": {
+    "name": "TEXT_VOICEMAN_02500_D00200_MERLWYB",
+    "translation_name": "TEXT_VOICEMAN_02500_D00200_MERLWYB",
+    "description": "If you cannot understand so simple a concept, then you have no place at this table.",
+    "translation_description": ""
+  },
+  "268": {
+    "name": "TEXT_VOICEMAN_02500_D00210_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_D00210_ALPHINAUD",
+    "description": "Forgive me, Admiral. I was...careless in my choice of words.",
+    "translation_description": ""
+  },
+  "269": {
+    "name": "TEXT_VOICEMAN_02500_D00220_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_D00220_RAUBAHN",
+    "description": "I suggest you assemble a party of elite adventurers, assuming you haven\u0027t already. Your fellows served us well during Operation Archon. I daresay they will do so again.",
+    "translation_description": ""
+  },
+  "270": {
+    "name": "TEXT_VOICEMAN_02500_D00230_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_D00230_RAUBAHN",
+    "description": "If I may, Your Grace, I wish to propose a redistribution of forces.",
+    "translation_description": ""
+  },
+  "271": {
+    "name": "TEXT_VOICEMAN_02500_D00240_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_D00240_RAUBAHN",
+    "description": "If we entrust the security of Ul\u0027dah to the Brass Blades for a time, we can dispatch a larger force to Ishgard.",
+    "translation_description": ""
+  },
+  "272": {
+    "name": "TEXT_VOICEMAN_02500_D00250_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_D00250_RAUBAHN",
+    "description": "Your Grace?",
+    "translation_description": ""
+  },
+  "273": {
+    "name": "TEXT_VOICEMAN_02500_D00260_NANAMOULNAMO",
+    "translation_name": "TEXT_VOICEMAN_02500_D00260_NANAMOULNAMO",
+    "description": "Yes, yes of course. Do what you will.",
+    "translation_description": ""
+  },
+  "274": {
+    "name": "TEXT_VOICEMAN_02500_D00270_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_D00270_RAUBAHN",
+    "description": "Is Her Grace not feeling well?",
+    "translation_description": ""
+  },
+  "275": {
+    "name": "TEXT_VOICEMAN_02500_D00280_LADYINWAITING2",
+    "translation_name": "TEXT_VOICEMAN_02500_D00280_LADYINWAITING2",
+    "description": "To the best of my knowledge, Her Grace is in perfect health.",
+    "translation_description": ""
+  },
+  "276": {
+    "name": "TEXT_VOICEMAN_02500_D00290_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_D00290_RAUBAHN",
+    "description": "I see. Carry on.",
+    "translation_description": ""
+  },
+  "277": {
+    "name": "TEXT_VOICEMAN_02500_F00010_NANAMOULNAMO",
+    "translation_name": "TEXT_VOICEMAN_02500_F00010_NANAMOULNAMO",
+    "description": "O Sultantree, hallowed spirit of my line...",
+    "translation_description": ""
+  },
+  "278": {
+    "name": "TEXT_VOICEMAN_02500_F00020_NANAMOULNAMO",
+    "translation_name": "TEXT_VOICEMAN_02500_F00020_NANAMOULNAMO",
+    "description": "Through my weakness, the glorious House of Ul has all but disappeared beneath the sands. For want of the strength to raise it up again, it were better that it fall.",
+    "translation_description": ""
+  },
+  "279": {
+    "name": "TEXT_VOICEMAN_02500_F00030_NANAMOULNAMO",
+    "translation_name": "TEXT_VOICEMAN_02500_F00030_NANAMOULNAMO",
+    "description": "Forgive me, but I know not what else to do...",
+    "translation_description": ""
+  },
+  "280": {
+    "name": "TEXT_VOICEMAN_02500_G00010_NANAMOULNAMO",
+    "translation_name": "TEXT_VOICEMAN_02500_G00010_NANAMOULNAMO",
+    "description": "You needn\u0027t trouble yourself so.",
+    "translation_description": ""
+  },
+  "281": {
+    "name": "TEXT_VOICEMAN_02500_G00020_LADYINWAITING2",
+    "translation_name": "TEXT_VOICEMAN_02500_G00020_LADYINWAITING2",
+    "description": "Your Grace is most kind, but it is no trouble to me, rather an honor.",
+    "translation_description": ""
+  },
+  "282": {
+    "name": "TEXT_VOICEMAN_02500_G00030_LADYINWAITING2",
+    "translation_name": "TEXT_VOICEMAN_02500_G00030_LADYINWAITING2",
+    "description": "If Your Grace is ready, I shall summon the Warrior of Light.",
+    "translation_description": ""
+  },
+  "283": {
+    "name": "TEXT_VOICEMAN_02500_G00040_NANAMOULNAMO",
+    "translation_name": "TEXT_VOICEMAN_02500_G00040_NANAMOULNAMO",
+    "description": "I am.",
+    "translation_description": ""
+  },
+  "284": {
+    "name": "TEXT_VOICEMAN_02500_H00010_KANESENNA",
+    "translation_name": "TEXT_VOICEMAN_02500_H00010_KANESENNA",
+    "description": "I take it you have grown accustomed to your responsibilities?",
+    "translation_description": ""
+  },
+  "285": {
+    "name": "TEXT_VOICEMAN_02500_H00020_AYMERIC",
+    "translation_name": "TEXT_VOICEMAN_02500_H00020_AYMERIC",
+    "description": "The day-to-day duties are not so demanding. The social obligations, on the other hand...",
+    "translation_description": ""
+  },
+  "286": {
+    "name": "TEXT_VOICEMAN_02500_H00030_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_H00030_MINFILIA",
+    "description": " Everyone looks to be in high spirits.",
+    "translation_description": ""
+  },
+  "287": {
+    "name": "TEXT_VOICEMAN_02500_H00040_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_H00040_ALPHINAUD",
+    "description": "With good cause.",
+    "translation_description": ""
+  },
+  "288": {
+    "name": "TEXT_VOICEMAN_02500_H00050_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_H00050_MINFILIA",
+    "description": "A common victory may serve to unite even the most unlikely of allies.",
+    "translation_description": ""
+  },
+  "289": {
+    "name": "TEXT_VOICEMAN_02500_H00060_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_H00060_MINFILIA",
+    "description": "You\u0027ve brought us one step closer to a united Eorzea.",
+    "translation_description": ""
+  },
+  "290": {
+    "name": "TEXT_VOICEMAN_02500_H00070_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_H00070_ALPHINAUD",
+    "description": "Your modesty knows no bounds, Antecedent.",
+    "translation_description": ""
+  },
+  "291": {
+    "name": "TEXT_VOICEMAN_02500_H00080_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_H00080_ALPHINAUD",
+    "description": "Were it not for your efforts, Ser Aymeric would never have become such a steadfast ally.",
+    "translation_description": ""
+  },
+  "292": {
+    "name": "TEXT_VOICEMAN_02500_H00090_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_H00090_ALPHINAUD",
+    "description": "When he convinces his countrymen to rejoin the Alliance, we shall all reap the benefits\u2500military \u003Chex:021A020203\u003Eand\u003Chex:021A020103\u003E economic.",
+    "translation_description": ""
+  },
+  "293": {
+    "name": "TEXT_VOICEMAN_02500_H00100_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_H00100_ALPHINAUD",
+    "description": "I tell you, we are on the cusp of a new era of unity and prosperity.",
+    "translation_description": ""
+  },
+  "294": {
+    "name": "TEXT_VOICEMAN_02500_H00110_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_H00110_ALPHINAUD",
+    "description": "Territorial disputes are all that divide us now.",
+    "translation_description": ""
+  },
+  "295": {
+    "name": "TEXT_VOICEMAN_02500_H00120_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_H00120_ALPHINAUD",
+    "description": "But I have faith that we will find an amicable solution in time.",
+    "translation_description": ""
+  },
+  "296": {
+    "name": "TEXT_VOICEMAN_02500_H00130_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_H00130_ALPHINAUD",
+    "description": "And failing that, I\u0027ll have my trusty Warrior of Light box the ears of all concerned. Speaking of whom...?",
+    "translation_description": ""
+  },
+  "297": {
+    "name": "TEXT_VOICEMAN_02500_H00140_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_H00140_MINFILIA",
+    "description": "\u003Chex:02080CE905FF04536865FF03486503\u003E will be joining us shortly. A matter at the Quicksand required \u003Chex:02080DE905FF04686572FF0468697303\u003E attention, but it did not sound serious.",
+    "translation_description": ""
+  },
+  "298": {
+    "name": "TEXT_VOICEMAN_02500_I00010_NANAMOULNAMO",
+    "translation_name": "TEXT_VOICEMAN_02500_I00010_NANAMOULNAMO",
+    "description": "Enter.",
+    "translation_description": ""
+  },
+  "299": {
+    "name": "TEXT_VOICEMAN_02500_I00020_LADYINWAITING2",
+    "translation_name": "TEXT_VOICEMAN_02500_I00020_LADYINWAITING2",
+    "description": "Your Grace. Your guest has arrived.",
+    "translation_description": ""
+  },
+  "300": {
+    "name": "TEXT_VOICEMAN_02500_I00030_NANAMOULNAMO",
+    "translation_name": "TEXT_VOICEMAN_02500_I00030_NANAMOULNAMO",
+    "description": "Pray come in, and take your ease.",
+    "translation_description": ""
+  },
+  "301": {
+    "name": "TEXT_VOICEMAN_02500_J00010_MERLWYB",
+    "translation_name": "TEXT_VOICEMAN_02500_J00010_MERLWYB",
+    "description": "\u0027Tis well that the Steps of Faith held against the Horde.",
+    "translation_description": ""
+  },
+  "302": {
+    "name": "TEXT_VOICEMAN_02500_J00020_KANESENNA",
+    "translation_name": "TEXT_VOICEMAN_02500_J00020_KANESENNA",
+    "description": "And what of the city proper?",
+    "translation_description": ""
+  },
+  "303": {
+    "name": "TEXT_VOICEMAN_02500_J00030_AYMERIC",
+    "translation_name": "TEXT_VOICEMAN_02500_J00030_AYMERIC",
+    "description": "We sustained some few losses, but the heart of our nation yet beats with vigor. I am not certain I could say the same had we not received your most generous aid.",
+    "translation_description": ""
+  },
+  "304": {
+    "name": "TEXT_VOICEMAN_02500_J00040_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_J00040_RAUBAHN",
+    "description": "An attack on Ishgard is an attack on the realm. We stand together or fall divided.",
+    "translation_description": ""
+  },
+  "305": {
+    "name": "TEXT_VOICEMAN_02500_J00050_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_J00050_ALPHINAUD",
+    "description": "Such noble words...after the fact.",
+    "translation_description": ""
+  },
+  "306": {
+    "name": "TEXT_VOICEMAN_02500_J00060_AYMERIC",
+    "translation_name": "TEXT_VOICEMAN_02500_J00060_AYMERIC",
+    "description": "I had hoped to speak in the presence of Her Grace, but it seems she has been delayed... That being the case, now would seem as good a time as any...",
+    "translation_description": ""
+  },
+  "307": {
+    "name": "TEXT_VOICEMAN_02500_J00070_AYMERIC",
+    "translation_name": "TEXT_VOICEMAN_02500_J00070_AYMERIC",
+    "description": "Honored friends! Pray allow me to convey Ishgard\u0027s warmest gratitude for your part in the defense of our lands.",
+    "translation_description": ""
+  },
+  "308": {
+    "name": "TEXT_VOICEMAN_02500_J00080_AYMERIC",
+    "translation_name": "TEXT_VOICEMAN_02500_J00080_AYMERIC",
+    "description": "\u0027Tis upon the success of this very alliance that my recommendation to throw open the Gates of Judgement shall be founded. With the blessing of the archbishop, it is my hope that Ishgard will soon be reunited with her long-estranged sister nations\u2500and that Eorzea shall once more be as one!",
+    "translation_description": ""
+  },
+  "309": {
+    "name": "TEXT_VOICEMAN_02500_J00090_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_J00090_ALPHINAUD",
+    "description": "Very well.",
+    "translation_description": ""
+  },
+  "310": {
+    "name": "TEXT_VOICEMAN_02500_J00100_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_J00100_MINFILIA",
+    "description": "Is aught amiss?",
+    "translation_description": ""
+  },
+  "311": {
+    "name": "TEXT_VOICEMAN_02500_J00110_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_J00110_ALPHINAUD",
+    "description": "Nothing to worry about. I shall return anon.",
+    "translation_description": ""
+  },
+  "312": {
+    "name": "TEXT_VOICEMAN_02500_J00120_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_J00120_ALPHINAUD",
+    "description": "You wished a word, Yuyuhase?",
+    "translation_description": ""
+  },
+  "313": {
+    "name": "TEXT_VOICEMAN_02500_K00010_NANAMOULNAMO",
+    "translation_name": "TEXT_VOICEMAN_02500_K00010_NANAMOULNAMO",
+    "description": "You may go.",
+    "translation_description": ""
+  },
+  "314": {
+    "name": "TEXT_VOICEMAN_02500_K00020_LADYINWAITING2",
+    "translation_name": "TEXT_VOICEMAN_02500_K00020_LADYINWAITING2",
+    "description": "Your Grace.",
+    "translation_description": ""
+  },
+  "315": {
+    "name": "TEXT_VOICEMAN_02500_K00030_NANAMOULNAMO",
+    "translation_name": "TEXT_VOICEMAN_02500_K00030_NANAMOULNAMO",
+    "description": "You must be curious as to the reason for this private audience. The matter I would discuss, however, will soon make apparent the need for discretion.",
+    "translation_description": ""
+  },
+  "316": {
+    "name": "TEXT_VOICEMAN_02500_K00040_NANAMOULNAMO",
+    "translation_name": "TEXT_VOICEMAN_02500_K00040_NANAMOULNAMO",
+    "description": "I intend to abdicate the throne and dissolve the monarchy.",
+    "translation_description": ""
+  },
+  "317": {
+    "name": "TEXT_VOICEMAN_02500_K00050_NANAMOULNAMO",
+    "translation_name": "TEXT_VOICEMAN_02500_K00050_NANAMOULNAMO",
+    "description": "You have seen for yourself the storm of turmoil that howls through our streets. The government fails in its responsibilities, and my subjects suffer the consequences of our incompetence.",
+    "translation_description": ""
+  },
+  "318": {
+    "name": "TEXT_VOICEMAN_02500_K00060_NANAMOULNAMO",
+    "translation_name": "TEXT_VOICEMAN_02500_K00060_NANAMOULNAMO",
+    "description": "But I will see them suffer no longer. The victory feast shall provide the stage on which I declare the dissolution of the sultanate.",
+    "translation_description": ""
+  },
+  "319": {
+    "name": "TEXT_VOICEMAN_02500_K00070_NANAMOULNAMO",
+    "translation_name": "TEXT_VOICEMAN_02500_K00070_NANAMOULNAMO",
+    "description": "\u0027Tis mine intent that the ruling class of our golden city should take its place beside the common man in a fair and equitable republic. No more shall this nation bow to the whims of a privileged few.",
+    "translation_description": ""
+  },
+  "320": {
+    "name": "TEXT_VOICEMAN_02500_K00080_NANAMOULNAMO",
+    "translation_name": "TEXT_VOICEMAN_02500_K00080_NANAMOULNAMO",
+    "description": "Yet that which I propose will entail the tearing up of this city\u0027s very foundations. And even Raubahn with all his strength and influence will be hard-pressed to keep his footing on such treacherous ground.",
+    "translation_description": ""
+  },
+  "321": {
+    "name": "TEXT_VOICEMAN_02500_K00090_NANAMOULNAMO",
+    "translation_name": "TEXT_VOICEMAN_02500_K00090_NANAMOULNAMO",
+    "description": "Thus would I ask you to lend him a steadying hand.",
+    "translation_description": ""
+  },
+  "322": {
+    "name": "TEXT_VOICEMAN_02500_K00100_NANAMOULNAMO",
+    "translation_name": "TEXT_VOICEMAN_02500_K00100_NANAMOULNAMO",
+    "description": "You who have endured the wrath of innumerable foes are the one hero in whom I can place my trust. Will you do this thing for me?",
+    "translation_description": ""
+  },
+  "323": {
+    "name": "TEXT_VOICEMAN_02500_K00110_NANAMOULNAMO",
+    "translation_name": "TEXT_VOICEMAN_02500_K00110_NANAMOULNAMO",
+    "description": "I am truly grateful. More grateful than I can well express.",
+    "translation_description": ""
+  },
+  "324": {
+    "name": "TEXT_VOICEMAN_02500_K00120_NANAMOULNAMO",
+    "translation_name": "TEXT_VOICEMAN_02500_K00120_NANAMOULNAMO",
+    "description": "How much we have both changed since that day we met beneath the Sultantree... And the days ahead promise to change us further still. I hope that we will recognize ourselves when all of this is over...",
+    "translation_description": ""
+  },
+  "325": {
+    "name": "TEXT_VOICEMAN_02500_K00130_NANAMOULNAMO",
+    "translation_name": "TEXT_VOICEMAN_02500_K00130_NANAMOULNAMO",
+    "description": "Much of my dread for the coming days has been quieted...",
+    "translation_description": ""
+  },
+  "326": {
+    "name": "TEXT_VOICEMAN_02500_K00140_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_K00140_TELEDJIADELEDJI",
+    "description": "Your Grace!?",
+    "translation_description": ""
+  },
+  "327": {
+    "name": "TEXT_VOICEMAN_02500_K00150_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_K00150_TELEDJIADELEDJI",
+    "description": "Her Grace... The sultana is dead.",
+    "translation_description": ""
+  },
+  "328": {
+    "name": "TEXT_VOICEMAN_02500_K00160_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_K00160_TELEDJIADELEDJI",
+    "description": "Poison in her wine...?",
+    "translation_description": ""
+  },
+  "329": {
+    "name": "TEXT_VOICEMAN_02500_K00170_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_K00170_TELEDJIADELEDJI",
+    "description": "You! You did this!",
+    "translation_description": ""
+  },
+  "330": {
+    "name": "TEXT_VOICEMAN_02500_K00180_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_K00180_TELEDJIADELEDJI",
+    "description": "Spare us your denials! I see no other suspects, and the room has but the one entrance!",
+    "translation_description": ""
+  },
+  "331": {
+    "name": "TEXT_VOICEMAN_02500_K00190_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_K00190_TELEDJIADELEDJI",
+    "description": "I hereby accuse you of regicide! Men\u2500arrest this viper!",
+    "translation_description": ""
+  },
+  "332": {
+    "name": "TEXT_VOICEMAN_02500_K00200_BRASSBLADE02400",
+    "translation_name": "TEXT_VOICEMAN_02500_K00200_BRASSBLADE02400",
+    "description": "(-Brass Blade-)Sir! You\u0027re coming with us!",
+    "translation_description": ""
+  },
+  "333": {
+    "name": "TEXT_VOICEMAN_02500_L00010_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_L00010_ALPHINAUD",
+    "description": "\u003Cgasp\u003E",
+    "translation_description": ""
+  },
+  "334": {
+    "name": "TEXT_VOICEMAN_02500_L00020_CRYSTALBRAVE02400",
+    "translation_name": "TEXT_VOICEMAN_02500_L00020_CRYSTALBRAVE02400",
+    "description": "(-Crystal Brave-)Sir. Barring a few exceptions, we have detained all those with allegiance to the Scions. The Rising Stones is also under our control.",
+    "translation_description": ""
+  },
+  "335": {
+    "name": "TEXT_VOICEMAN_02500_L00030_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_L00030_ALPHINAUD",
+    "description": "And what do you hope to achieve with this mutiny?",
+    "translation_description": ""
+  },
+  "336": {
+    "name": "TEXT_VOICEMAN_02500_L00040_YUYUHASE",
+    "translation_name": "TEXT_VOICEMAN_02500_L00040_YUYUHASE",
+    "description": "Why, that which we have striven for all along, Commander: the salvation of Eorzea.",
+    "translation_description": ""
+  },
+  "337": {
+    "name": "TEXT_VOICEMAN_02500_M00010_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_M00010_RAUBAHN",
+    "description": "What is the meaning of this?",
+    "translation_description": ""
+  },
+  "338": {
+    "name": "TEXT_VOICEMAN_02500_M00020_AYMERIC",
+    "translation_name": "TEXT_VOICEMAN_02500_M00020_AYMERIC",
+    "description": "Knights from the homeland? This cannot bode well...",
+    "translation_description": ""
+  },
+  "339": {
+    "name": "TEXT_VOICEMAN_02500_M00030_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_M00030_TELEDJIADELEDJI",
+    "description": "Lord Commander. We have received an urgent message from the Holy See.",
+    "translation_description": ""
+  },
+  "340": {
+    "name": "TEXT_VOICEMAN_02500_M00040_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_M00040_TELEDJIADELEDJI",
+    "description": "I am grieved to report that your serpentine foes have resumed their assault. Needless to say, your presence is urgently required. These knights have come to bear you swiftly home to Ishgard.",
+    "translation_description": ""
+  },
+  "341": {
+    "name": "TEXT_VOICEMAN_02500_M00050_AYMERIC",
+    "translation_name": "TEXT_VOICEMAN_02500_M00050_AYMERIC",
+    "description": "...A surprise attack?",
+    "translation_description": ""
+  },
+  "342": {
+    "name": "TEXT_VOICEMAN_02500_M00060_LUCIA",
+    "translation_name": "TEXT_VOICEMAN_02500_M00060_LUCIA",
+    "description": "We\u0027ve had no such word from our men. And the timing is most fortuitous to catch us away from the city...",
+    "translation_description": ""
+  },
+  "343": {
+    "name": "TEXT_VOICEMAN_02500_M00070_AYMERIC",
+    "translation_name": "TEXT_VOICEMAN_02500_M00070_AYMERIC",
+    "description": "Most fortuitous indeed...",
+    "translation_description": ""
+  },
+  "344": {
+    "name": "TEXT_VOICEMAN_02500_M00080_TEMPLEKNIGHT02400",
+    "translation_name": "TEXT_VOICEMAN_02500_M00080_TEMPLEKNIGHT02400",
+    "description": "Lord Commander, we must away!",
+    "translation_description": ""
+  },
+  "345": {
+    "name": "TEXT_VOICEMAN_02500_M00090_AYMERIC",
+    "translation_name": "TEXT_VOICEMAN_02500_M00090_AYMERIC",
+    "description": "You have been a most gracious host. I hope that I might one day return the favor.",
+    "translation_description": ""
+  },
+  "346": {
+    "name": "TEXT_VOICEMAN_02500_M00100_AYMERIC",
+    "translation_name": "TEXT_VOICEMAN_02500_M00100_AYMERIC",
+    "description": "Come, Lucia.",
+    "translation_description": ""
+  },
+  "347": {
+    "name": "TEXT_VOICEMAN_02500_N00010_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_N00010_THANCRED",
+    "description": "Whatever is going on in there...?",
+    "translation_description": ""
+  },
+  "348": {
+    "name": "TEXT_VOICEMAN_02500_N00020_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_N00020_THANCRED",
+    "description": "Ah, the ever-dutiful Brass Blades. I must apologize, but my dance card is rather full. Another time, perhaps?",
+    "translation_description": ""
+  },
+  "349": {
+    "name": "TEXT_VOICEMAN_02500_N00030_BRASSBLADE02400",
+    "translation_name": "TEXT_VOICEMAN_02500_N00030_BRASSBLADE02400",
+    "description": "Thancred of the Scions of the Seventh Dawn. You stand accused of committing acts of espionage in service to the Garlean Empire.",
+    "translation_description": ""
+  },
+  "350": {
+    "name": "TEXT_VOICEMAN_02500_N00040_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_N00040_THANCRED",
+    "description": "Espionage? What in the seven hells are you talking about?",
+    "translation_description": ""
+  },
+  "351": {
+    "name": "TEXT_VOICEMAN_02500_N00050_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_N00050_THANCRED",
+    "description": "Ah. If you\u0027re referring to that business with the Ultima Weapon, then you must understand\u2500I-I wasn\u0027t myself...",
+    "translation_description": ""
+  },
+  "352": {
+    "name": "TEXT_VOICEMAN_02500_N00060_BRASSBLADE02400",
+    "translation_name": "TEXT_VOICEMAN_02500_N00060_BRASSBLADE02400",
+    "description": "Under interrogation, an imperial prisoner revealed your involvement in numerous dealings with the enemy. We\u0027ve also been investigating reports that you are a practitioner of forbidden arts.",
+    "translation_description": ""
+  },
+  "353": {
+    "name": "TEXT_VOICEMAN_02500_N00070_BRASSBLADE02400",
+    "translation_name": "TEXT_VOICEMAN_02500_N00070_BRASSBLADE02400",
+    "description": "You\u0027d best come along with us.",
+    "translation_description": ""
+  },
+  "354": {
+    "name": "TEXT_VOICEMAN_02500_N00080_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_N00080_THANCRED",
+    "description": "You invite me to your party and now you want me to leave? I do so detest receiving mixed signals.",
+    "translation_description": ""
+  },
+  "355": {
+    "name": "TEXT_VOICEMAN_02500_N00090_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_N00090_THANCRED",
+    "description": "Come, then. I believe I\u0027ve lost my appetite for this farce of a celebration!",
+    "translation_description": ""
+  },
+  "356": {
+    "name": "TEXT_VOICEMAN_02500_O00010_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_O00010_RAUBAHN",
+    "description": "You go too far, Lord Adeledji! By what right do you march armed soldiers into a royal banquet and eject state visitors without Her Grace\u0027s consent!?",
+    "translation_description": ""
+  },
+  "357": {
+    "name": "TEXT_VOICEMAN_02500_O00020_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_O00020_RAUBAHN",
+    "description": "You treat the Brass Blades as your personal army, and show contempt for the throne with your every act. Leave us. Now.",
+    "translation_description": ""
+  },
+  "358": {
+    "name": "TEXT_VOICEMAN_02500_O00030_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_O00030_TELEDJIADELEDJI",
+    "description": "Is that an order, General? Mayhap you have mistaken me for one of your Flames? You will find I am not so slavishly obedient. And you lecture \u003Chex:021A020203\u003Eme\u003Chex:021A020103\u003E on personal armies!",
+    "translation_description": ""
+  },
+  "359": {
+    "name": "TEXT_VOICEMAN_02500_O00040_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_O00040_TELEDJIADELEDJI",
+    "description": "As for your \u003Chex:021A020203\u003Eoutrageous\u003Chex:021A020103\u003E claim that I have shown contempt for the throne, let all here observe that it was not \u003Chex:021A020203\u003EI\u003Chex:021A020103\u003E who feasted while an assassin removed its occupant!",
+    "translation_description": ""
+  },
+  "360": {
+    "name": "TEXT_VOICEMAN_02500_O00050_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_O00050_TELEDJIADELEDJI",
+    "description": "I expect this is your idea of defending the nation, is it? This and diluting our forces through these distractions in Carteneau and Coerthas!",
+    "translation_description": ""
+  },
+  "361": {
+    "name": "TEXT_VOICEMAN_02500_O00060_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_O00060_TELEDJIADELEDJI",
+    "description": "I do begin to see how the ranks of the Immortal Flames came to be riddled with Garlean sympathizers! You are plainly unfit for command!",
+    "translation_description": ""
+  },
+  "362": {
+    "name": "TEXT_VOICEMAN_02500_O00070_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_O00070_RAUBAHN",
+    "description": "Wait... Wait, gods damn you! Your words make no sense. What assassin?",
+    "translation_description": ""
+  },
+  "363": {
+    "name": "TEXT_VOICEMAN_02500_O00080_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_O00080_TELEDJIADELEDJI",
+    "description": "You mean to say you don\u0027t know!? We caught the vaunted champion of the Scions in Her Grace\u0027s private chambers not moments after the deed was done!",
+    "translation_description": ""
+  },
+  "364": {
+    "name": "TEXT_VOICEMAN_02500_O00090_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_O00090_MINFILIA",
+    "description": "No\u2500 No, this cannot be!",
+    "translation_description": ""
+  },
+  "365": {
+    "name": "TEXT_VOICEMAN_02500_O00100_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_O00100_TELEDJIADELEDJI",
+    "description": "Save your breath. You will need it to plead your case. You and your entire order are to be tried for this atrocity.",
+    "translation_description": ""
+  },
+  "366": {
+    "name": "TEXT_VOICEMAN_02500_O00110_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_O00110_TELEDJIADELEDJI",
+    "description": "Bring in the prisoner!",
+    "translation_description": ""
+  },
+  "367": {
+    "name": "TEXT_VOICEMAN_02500_P00010_ILBERD",
+    "translation_name": "TEXT_VOICEMAN_02500_P00010_ILBERD",
+    "description": "This \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E stands accused of poisoning Her Royal Majesty Nanamo Ul Namo. And as suspected accessories to the crime, all members of the Scions of the Seventh Dawn will be detained for questioning!",
+    "translation_description": ""
+  },
+  "368": {
+    "name": "TEXT_VOICEMAN_02500_P00020_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_P00020_MINFILIA",
+    "description": "This is madness!",
+    "translation_description": ""
+  },
+  "369": {
+    "name": "TEXT_VOICEMAN_02500_P00030_ILBERD",
+    "translation_name": "TEXT_VOICEMAN_02500_P00030_ILBERD",
+    "description": "What a pity... Who\u0027d have thought your tale would end like this?",
+    "translation_description": ""
+  },
+  "370": {
+    "name": "TEXT_VOICEMAN_02500_P00040_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_P00040_TELEDJIADELEDJI",
+    "description": "Should you demand further proof, a vial with traces of the substance used to poison Her Grace was found upon the assassin\u0027s person.",
+    "translation_description": ""
+  },
+  "371": {
+    "name": "TEXT_VOICEMAN_02500_P00050_YSHTOLA",
+    "translation_name": "TEXT_VOICEMAN_02500_P00050_YSHTOLA",
+    "description": "How very convenient.",
+    "translation_description": ""
+  },
+  "372": {
+    "name": "TEXT_VOICEMAN_02500_P00060_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_P00060_TELEDJIADELEDJI",
+    "description": "You would speak of convenience?",
+    "translation_description": ""
+  },
+  "373": {
+    "name": "TEXT_VOICEMAN_02500_P00070_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_P00070_TELEDJIADELEDJI",
+    "description": "Who persuaded Her Grace to host this celebration? A diversion which presented you and your confederates ample opportunity to commit the crime, and a crowd within which to fade from view! A more \u201Cconvenient\u201D occasion I could scarcely imagine!",
+    "translation_description": ""
+  },
+  "374": {
+    "name": "TEXT_VOICEMAN_02500_P00080_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_P00080_MINFILIA",
+    "description": "How dare you! After all we have done for Ul\u0027dah!",
+    "translation_description": ""
+  },
+  "375": {
+    "name": "TEXT_VOICEMAN_02500_P00090_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_P00090_TELEDJIADELEDJI",
+    "description": "Hold your tongue, witch! I\u0027ll not be ensorcelled! I know all about the dark gift that you and your disciples wield!",
+    "translation_description": ""
+  },
+  "376": {
+    "name": "TEXT_VOICEMAN_02500_P00100_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_P00100_TELEDJIADELEDJI",
+    "description": "Oh, yes...I\u0027ve observed how you worked upon the minds of the Alliance leaders, bending them to your will!",
+    "translation_description": ""
+  },
+  "377": {
+    "name": "TEXT_VOICEMAN_02500_P00110_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_P00110_TELEDJIADELEDJI",
+    "description": "And what of your \u003Chex:021A020203\u003Ecordial\u003Chex:021A020103\u003E relationship with Ser Aymeric? For years, Ishgard abjured all contact with the outside world, and now the lord commander of the Temple Knights treats you with the familiarity of a childhood friend!",
+    "translation_description": ""
+  },
+  "378": {
+    "name": "TEXT_VOICEMAN_02500_P00120_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_P00120_TELEDJIADELEDJI",
+    "description": "I\u0027ll tell you what I think\u2500I think this desperate defense of Ishgard was but a ruse to deceive us into dividing our forces.",
+    "translation_description": ""
+  },
+  "379": {
+    "name": "TEXT_VOICEMAN_02500_P00130_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_P00130_TELEDJIADELEDJI",
+    "description": "Your next move will be to charm your Coerthan allies into invading our lands!",
+    "translation_description": ""
+  },
+  "380": {
+    "name": "TEXT_VOICEMAN_02500_P00140_PAPALYMO",
+    "translation_name": "TEXT_VOICEMAN_02500_P00140_PAPALYMO",
+    "description": "Now that is truly ridiculous.",
+    "translation_description": ""
+  },
+  "381": {
+    "name": "TEXT_VOICEMAN_02500_P00150_YDA",
+    "translation_name": "TEXT_VOICEMAN_02500_P00150_YDA",
+    "description": "How do you even think of this stuff!?",
+    "translation_description": ""
+  },
+  "382": {
+    "name": "TEXT_VOICEMAN_02500_P00160_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_P00160_RAUBAHN",
+    "description": "She... She cannot be dead...",
+    "translation_description": ""
+  },
+  "383": {
+    "name": "TEXT_VOICEMAN_02500_P00170_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_P00170_RAUBAHN",
+    "description": "Stand aside, Ilberd! I want to see the sultana!",
+    "translation_description": ""
+  },
+  "384": {
+    "name": "TEXT_VOICEMAN_02500_P00180_ILBERD",
+    "translation_name": "TEXT_VOICEMAN_02500_P00180_ILBERD",
+    "description": "Spare yourself the pain, brother. I saw her with my own eyes.",
+    "translation_description": ""
+  },
+  "385": {
+    "name": "TEXT_VOICEMAN_02500_P00190_ILBERD",
+    "translation_name": "TEXT_VOICEMAN_02500_P00190_ILBERD",
+    "description": "For a mercy, the poison took her swiftly\u2500her handmaiden can attest to that.",
+    "translation_description": ""
+  },
+  "386": {
+    "name": "TEXT_VOICEMAN_02500_P00200_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_P00200_RAUBAHN",
+    "description": "This cannot be...",
+    "translation_description": ""
+  },
+  "387": {
+    "name": "TEXT_VOICEMAN_02500_P00210_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_P00210_RAUBAHN",
+    "description": "Nanamo... Nanamo... NOOOOOO!!!",
+    "translation_description": ""
+  },
+  "388": {
+    "name": "TEXT_VOICEMAN_02500_Q00010_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00010_TELEDJIADELEDJI",
+    "description": "Plainly, the Royalists can no longer be relied upon to keep our nation safe. And so it falls to the Monetarists of the Syndicate to govern Ul\u0027dah. But should you wish to help us, General, we would be more than happy to entrust the task of planning Her Grace\u0027s funeral to you.",
+    "translation_description": ""
+  },
+  "389": {
+    "name": "TEXT_VOICEMAN_02500_Q00020_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00020_TELEDJIADELEDJI",
+    "description": "It seems only right that you should bury your precious sultana, and we will be glad to be rid of that burden.",
+    "translation_description": ""
+  },
+  "390": {
+    "name": "TEXT_VOICEMAN_02500_Q00030_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00030_RAUBAHN",
+    "description": "I\u0027ll bet you will. You more than any man.",
+    "translation_description": ""
+  },
+  "391": {
+    "name": "TEXT_VOICEMAN_02500_Q00040_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00040_TELEDJIADELEDJI",
+    "description": "...Whatever do you mean?",
+    "translation_description": ""
+  },
+  "392": {
+    "name": "TEXT_VOICEMAN_02500_Q00050_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00050_RAUBAHN",
+    "description": "I mean you had her killed, you black-hearted bastard!",
+    "translation_description": ""
+  },
+  "393": {
+    "name": "TEXT_VOICEMAN_02500_Q00060_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00060_TELEDJIADELEDJI",
+    "description": "What rot! ...Though I did have sufficient motive, \u0027tis true. That young lady caused me no end of grief.",
+    "translation_description": ""
+  },
+  "394": {
+    "name": "TEXT_VOICEMAN_02500_Q00070_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00070_TELEDJIADELEDJI",
+    "description": "She always was a most unwilling puppet. I daresay Her Grace was grateful that someone thought to cut her strings.",
+    "translation_description": ""
+  },
+  "395": {
+    "name": "TEXT_VOICEMAN_02500_Q00080_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00080_RAUBAHN",
+    "description": "You would mock her? THEN MOCK HER FROM HELL!",
+    "translation_description": ""
+  },
+  "396": {
+    "name": "TEXT_VOICEMAN_02500_Q00090_TELEDJIADELEDJI",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00090_TELEDJIADELEDJI",
+    "description": "Wha\u2500",
+    "translation_description": ""
+  },
+  "397": {
+    "name": "TEXT_VOICEMAN_02500_Q00100_LOLORITO",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00100_LOLORITO",
+    "description": "Have you lost your mind, General!? It is forbidden to draw steel in the royal chambers, much less slaughter our fellow Syndicate members!",
+    "translation_description": ""
+  },
+  "398": {
+    "name": "TEXT_VOICEMAN_02500_Q00110_LOLORITO",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00110_LOLORITO",
+    "description": "\u003Cgasp\u003E ...You\u0027re one of them! You\u0027ve been in league with the Scions all along!",
+    "translation_description": ""
+  },
+  "399": {
+    "name": "TEXT_VOICEMAN_02500_Q00120_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00120_RAUBAHN",
+    "description": "YOU! You\u0027re next, you scheming bastard!",
+    "translation_description": ""
+  },
+  "400": {
+    "name": "TEXT_VOICEMAN_02500_Q00130_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00130_RAUBAHN",
+    "description": "AAARRRGH!!!",
+    "translation_description": ""
+  },
+  "401": {
+    "name": "TEXT_VOICEMAN_02500_Q00140_MERLWYB",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00140_MERLWYB",
+    "description": "Seven hells!",
+    "translation_description": ""
+  },
+  "402": {
+    "name": "TEXT_VOICEMAN_02500_Q00150_KANESENNA",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00150_KANESENNA",
+    "description": "Raubahn!",
+    "translation_description": ""
+  },
+  "403": {
+    "name": "TEXT_VOICEMAN_02500_Q00160_GUARD02500",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00160_GUARD02500",
+    "description": "(-Maelstrom Soldier-)Admiral, we must leave!",
+    "translation_description": ""
+  },
+  "404": {
+    "name": "TEXT_VOICEMAN_02500_Q00170_MERLWYB",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00170_MERLWYB",
+    "description": "",
+    "translation_description": ""
+  },
+  "405": {
+    "name": "TEXT_VOICEMAN_02500_Q00180_ILBERD",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00180_ILBERD",
+    "description": "How unlike you, old friend. I did not expect to take your arm so easily.",
+    "translation_description": ""
+  },
+  "406": {
+    "name": "TEXT_VOICEMAN_02500_Q00230_LOLORITO",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00230_LOLORITO",
+    "description": "Take the Scions into custody! They have conspired to commit regicide!",
+    "translation_description": ""
+  },
+  "407": {
+    "name": "TEXT_VOICEMAN_02500_Q00240_LOLORITO",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00240_LOLORITO",
+    "description": "And arrest this traitor as well!",
+    "translation_description": ""
+  },
+  "408": {
+    "name": "TEXT_VOICEMAN_02500_Q00190_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00190_RAUBAHN",
+    "description": "Ilberd! I hope you choke on their coin!",
+    "translation_description": ""
+  },
+  "409": {
+    "name": "TEXT_VOICEMAN_02500_Q00200_ILBERD",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00200_ILBERD",
+    "description": "\u0027Tis better than the dirt I\u0027ve supped on these long years. We can\u0027t all abandon Ala Mhigo and become great war heroes as you have.",
+    "translation_description": ""
+  },
+  "410": {
+    "name": "TEXT_VOICEMAN_02500_Q00210_ILBERD",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00210_ILBERD",
+    "description": "You are not the man you once were, Raubahn. Since that girl strapped the yoke around your neck, you\u0027ve become docile.",
+    "translation_description": ""
+  },
+  "411": {
+    "name": "TEXT_VOICEMAN_02500_Q00220_ILBERD",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00220_ILBERD",
+    "description": "She took the mad bull and cut off his balls. And a bull that cannot rut is fit for naught but slaughter.",
+    "translation_description": ""
+  },
+  "412": {
+    "name": "TEXT_VOICEMAN_02500_Q00250_ILBERD",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00250_ILBERD",
+    "description": "Shall I tell you who really killed your precious sultana?",
+    "translation_description": ""
+  },
+  "413": {
+    "name": "TEXT_VOICEMAN_02500_Q00251_ILBERD",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00251_ILBERD",
+    "description": "...It was me.",
+    "translation_description": ""
+  },
+  "414": {
+    "name": "TEXT_VOICEMAN_02500_Q00260_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00260_RAUBAHN",
+    "description": "You! You die!",
+    "translation_description": ""
+  },
+  "415": {
+    "name": "TEXT_VOICEMAN_02500_Q00270_ILBERD",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00270_ILBERD",
+    "description": "Hmph.",
+    "translation_description": ""
+  },
+  "416": {
+    "name": "TEXT_VOICEMAN_02500_Q00280_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00280_RAUBAHN",
+    "description": "I never doubted you. Not for a moment. But there is more to this than I yet understand.",
+    "translation_description": ""
+  },
+  "417": {
+    "name": "TEXT_VOICEMAN_02500_Q00290_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00290_RAUBAHN",
+    "description": "Flee this place. Clear your names.",
+    "translation_description": ""
+  },
+  "418": {
+    "name": "TEXT_VOICEMAN_02500_Q00300_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00300_RAUBAHN",
+    "description": "Find out who is behind this plot! It is the only way! Now go!",
+    "translation_description": ""
+  },
+  "419": {
+    "name": "TEXT_VOICEMAN_02500_Q00310_RAUBAHN",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00310_RAUBAHN",
+    "description": "Yaaaaaargh!",
+    "translation_description": ""
+  },
+  "420": {
+    "name": "TEXT_VOICEMAN_02500_Q00320_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00320_THANCRED",
+    "description": "Ah, there you are!",
+    "translation_description": ""
+  },
+  "421": {
+    "name": "TEXT_VOICEMAN_02500_Q00330_YSHTOLA",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00330_YSHTOLA",
+    "description": "Thancred! Where have you been?",
+    "translation_description": ""
+  },
+  "422": {
+    "name": "TEXT_VOICEMAN_02500_Q00340_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00340_THANCRED",
+    "description": "Avoiding the fumbling advances of some very persistent admirers.",
+    "translation_description": ""
+  },
+  "423": {
+    "name": "TEXT_VOICEMAN_02500_Q00341_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00341_THANCRED",
+    "description": "When I realized the celebrations had turned sour, it seemed prudent to slip away and take stock of the situation.",
+    "translation_description": ""
+  },
+  "424": {
+    "name": "TEXT_VOICEMAN_02500_Q00350_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00350_THANCRED",
+    "description": "\u0027Twould appear that much of the city is already under tight guard. It occurs to me that expanding the Brass Blades\u0027 authority may not have been such a wonderful idea after all...",
+    "translation_description": ""
+  },
+  "425": {
+    "name": "TEXT_VOICEMAN_02500_Q00360_PAPALYMO",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00360_PAPALYMO",
+    "description": "The success of this plan was contingent upon those thugs having the run of the place. Just how long has this scheme been in motion?",
+    "translation_description": ""
+  },
+  "426": {
+    "name": "TEXT_VOICEMAN_02500_Q00370_YSHTOLA",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00370_YSHTOLA",
+    "description": "The careful preparations, the maneuvering of forces... I am inclined to agree with the General\u0027s insistence that a deeper plot exists here.",
+    "translation_description": ""
+  },
+  "427": {
+    "name": "TEXT_VOICEMAN_02500_Q00380_YDA",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00380_YDA",
+    "description": "So...would I be right in thinking we now have an excuse to pummel as many Brass Blades as we like?",
+    "translation_description": ""
+  },
+  "428": {
+    "name": "TEXT_VOICEMAN_02500_Q00390_PAPALYMO",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00390_PAPALYMO",
+    "description": "Unless you plan on pummeling them \u003Chex:021A020203\u003Eall\u003Chex:021A020103\u003E, I\u0027m not sure that will greatly aid our cause.",
+    "translation_description": ""
+  },
+  "429": {
+    "name": "TEXT_VOICEMAN_02500_Q00400_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00400_MINFILIA",
+    "description": "The sultana\u0027s assassination was but one part of the scheme. We too were its targets. And though we did not share poor Nanamo\u0027s fate, we are yet hobbled by the charges laid at our door. Where now might we seek refuge?",
+    "translation_description": ""
+  },
+  "430": {
+    "name": "TEXT_VOICEMAN_02500_Q00410_PAPALYMO",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00410_PAPALYMO",
+    "description": "Where indeed. We may safely assume that our foe has thought to have the Rising Stones watched.",
+    "translation_description": ""
+  },
+  "431": {
+    "name": "TEXT_VOICEMAN_02500_Q00420_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00420_THANCRED",
+    "description": "Forgive me for stating the obvious, but our choice of destination will matter little if we cannot secure an escape route out of Ul\u0027dah.",
+    "translation_description": ""
+  },
+  "432": {
+    "name": "TEXT_VOICEMAN_02500_Q00430_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00430_THANCRED",
+    "description": "Happily, I believe I can provide one. Papashan once told me about the passages hidden in the walls of the palace. If I recall correctly, the fireplace in Nanamo\u0027s chambers conceals the entrance to a tunnel.",
+    "translation_description": ""
+  },
+  "433": {
+    "name": "TEXT_VOICEMAN_02500_Q00440_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00440_THANCRED",
+    "description": "It should lead outside the city, and allow us to avoid any messy confrontations.",
+    "translation_description": ""
+  },
+  "434": {
+    "name": "TEXT_VOICEMAN_02500_Q00450_YDA",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00450_YDA",
+    "description": "The rest of you go on ahead. I\u0027ll handle this lot!",
+    "translation_description": ""
+  },
+  "435": {
+    "name": "TEXT_VOICEMAN_02500_Q00460_PAPALYMO",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00460_PAPALYMO",
+    "description": "By yourself!?",
+    "translation_description": ""
+  },
+  "436": {
+    "name": "TEXT_VOICEMAN_02500_Q00461_PAPALYMO",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00461_PAPALYMO",
+    "description": "\u003Csigh\u003E ...I suppose I shall just have to join you.",
+    "translation_description": ""
+  },
+  "437": {
+    "name": "TEXT_VOICEMAN_02500_Q00480_YDA",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00480_YDA",
+    "description": "Crystal Braves, too, huh? Now \u003Chex:021A020203\u003Ethis\u003Chex:021A020103\u003E should be interesting!",
+    "translation_description": ""
+  },
+  "438": {
+    "name": "TEXT_VOICEMAN_02500_Q00470_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00470_MINFILIA",
+    "description": "Yda! Papalymo!",
+    "translation_description": ""
+  },
+  "439": {
+    "name": "TEXT_VOICEMAN_02500_Q00490_PAPALYMO",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00490_PAPALYMO",
+    "description": "We will hold our pursuers here. Hurry, now! Find this tunnel of Thancred\u0027s!",
+    "translation_description": ""
+  },
+  "440": {
+    "name": "TEXT_VOICEMAN_02500_Q00500_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_Q00500_THANCRED",
+    "description": "Minfilia! We cannot linger!",
+    "translation_description": ""
+  },
+  "441": {
+    "name": "TEXT_VOICEMAN_02500_R00010_YDA",
+    "translation_name": "TEXT_VOICEMAN_02500_R00010_YDA",
+    "description": "Ow! Now look what you\u0027ve done!",
+    "translation_description": ""
+  },
+  "442": {
+    "name": "TEXT_VOICEMAN_02500_R00020_PAPALYMO",
+    "translation_name": "TEXT_VOICEMAN_02500_R00020_PAPALYMO",
+    "description": "Yda, are you all right!? There are just too many of them...",
+    "translation_description": ""
+  },
+  "443": {
+    "name": "TEXT_VOICEMAN_02500_R00030_YDA",
+    "translation_name": "TEXT_VOICEMAN_02500_R00030_YDA",
+    "description": "I\u0027m fine! I could do this all day! How about you?",
+    "translation_description": ""
+  },
+  "444": {
+    "name": "TEXT_VOICEMAN_02500_R00040_PAPALYMO",
+    "translation_name": "TEXT_VOICEMAN_02500_R00040_PAPALYMO",
+    "description": "...Nearing the end of my tether.",
+    "translation_description": ""
+  },
+  "445": {
+    "name": "TEXT_VOICEMAN_02500_R00050_YDA",
+    "translation_name": "TEXT_VOICEMAN_02500_R00050_YDA",
+    "description": "This is so \u003Chex:021A020203\u003Estupid\u003Chex:021A020103\u003E! We\u0027re the Scions of the Seventh Dawn! The ones who stand between this realm and the evil that\u0027s trying to destroy it!",
+    "translation_description": ""
+  },
+  "446": {
+    "name": "TEXT_VOICEMAN_02500_R00060_PAPALYMO",
+    "translation_name": "TEXT_VOICEMAN_02500_R00060_PAPALYMO",
+    "description": "And if you think we\u0027ll leave the stewardship of Eorzea to the likes of your masters, then you\u0027re sorely mistaken!",
+    "translation_description": ""
+  },
+  "447": {
+    "name": "TEXT_VOICEMAN_02500_R00070_YDA",
+    "translation_name": "TEXT_VOICEMAN_02500_R00070_YDA",
+    "description": "Sorry I dragged you into this, Papalymo...",
+    "translation_description": ""
+  },
+  "448": {
+    "name": "TEXT_VOICEMAN_02500_R00080_PAPALYMO",
+    "translation_name": "TEXT_VOICEMAN_02500_R00080_PAPALYMO",
+    "description": "Hah, \u0027tis hardly the first time. And I\u0027ll be damned if it will be the last.",
+    "translation_description": ""
+  },
+  "449": {
+    "name": "TEXT_VOICEMAN_02500_R00090_PAPALYMO",
+    "translation_name": "TEXT_VOICEMAN_02500_R00090_PAPALYMO",
+    "description": "Let them have it, Yda!",
+    "translation_description": ""
+  },
+  "450": {
+    "name": "TEXT_VOICEMAN_02500_R00100_YDA",
+    "translation_name": "TEXT_VOICEMAN_02500_R00100_YDA",
+    "description": "I was hoping you\u0027d say that!",
+    "translation_description": ""
+  },
+  "451": {
+    "name": "TEXT_VOICEMAN_02500_S00010_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_S00010_MINFILIA",
+    "description": "I never knew such a watercourse existed beneath Ul\u0027dah.",
+    "translation_description": ""
+  },
+  "452": {
+    "name": "TEXT_VOICEMAN_02500_S00020_YSHTOLA",
+    "translation_name": "TEXT_VOICEMAN_02500_S00020_YSHTOLA",
+    "description": "The architecture is of the Sil\u0027dihn style, if I am not mistaken. The ancients plainly foresaw the need for a ready means of escape.",
+    "translation_description": ""
+  },
+  "453": {
+    "name": "TEXT_VOICEMAN_02500_S00030_CRYSTALBRAVE02400",
+    "translation_name": "TEXT_VOICEMAN_02500_S00030_CRYSTALBRAVE02400",
+    "description": "(-???-)This way!",
+    "translation_description": ""
+  },
+  "454": {
+    "name": "TEXT_VOICEMAN_02500_S00040_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_S00040_THANCRED",
+    "description": "Well, that didn\u0027t take long. It seems these tunnels were not as secret as I had hoped.",
+    "translation_description": ""
+  },
+  "455": {
+    "name": "TEXT_VOICEMAN_02500_S00050_YSHTOLA",
+    "translation_name": "TEXT_VOICEMAN_02500_S00050_YSHTOLA",
+    "description": "You two go on ahead. Thancred and I will deal with this.",
+    "translation_description": ""
+  },
+  "456": {
+    "name": "TEXT_VOICEMAN_02500_S00060_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_S00060_MINFILIA",
+    "description": "Wh-What do you mean to do!?",
+    "translation_description": ""
+  },
+  "457": {
+    "name": "TEXT_VOICEMAN_02500_S00070_YSHTOLA",
+    "translation_name": "TEXT_VOICEMAN_02500_S00070_YSHTOLA",
+    "description": "Only that which is required to ensure that the dawn\u0027s light survive to brighten the morrow.",
+    "translation_description": ""
+  },
+  "458": {
+    "name": "TEXT_VOICEMAN_02500_S00080_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_S00080_THANCRED",
+    "description": "Fear not, Antecedent. You haven\u0027t seen the last of these fair features.",
+    "translation_description": ""
+  },
+  "459": {
+    "name": "TEXT_VOICEMAN_02500_S00090_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_S00090_MINFILIA",
+    "description": "My friends...",
+    "translation_description": ""
+  },
+  "460": {
+    "name": "TEXT_VOICEMAN_02500_S00100_YSHTOLA",
+    "translation_name": "TEXT_VOICEMAN_02500_S00100_YSHTOLA",
+    "description": "Leave us!",
+    "translation_description": ""
+  },
+  "461": {
+    "name": "TEXT_VOICEMAN_02500_S00110_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_S00110_THANCRED",
+    "description": "What is the plan, milady? Shall I take the dozen on the left, and you the dozen on the right? The odds are not exactly stacked in our favor...",
+    "translation_description": ""
+  },
+  "462": {
+    "name": "TEXT_VOICEMAN_02500_S00120_YSHTOLA",
+    "translation_name": "TEXT_VOICEMAN_02500_S00120_YSHTOLA",
+    "description": "Numbers will count for little when I bring the tunnel down upon their heads. Though I cannot say I relish the thought of being entombed with you for all eternity.",
+    "translation_description": ""
+  },
+  "463": {
+    "name": "TEXT_VOICEMAN_02500_S00130_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_S00130_THANCRED",
+    "description": "You wound me! I will have you know that many a maid would \u003Chex:021A020203\u003Ekill\u003Chex:021A020103\u003E for the chance to spend forever at my side! Now, may I have the last dance?",
+    "translation_description": ""
+  },
+  "464": {
+    "name": "TEXT_VOICEMAN_02500_S00140_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_S00140_THANCRED",
+    "description": "Ugh!",
+    "translation_description": ""
+  },
+  "465": {
+    "name": "TEXT_VOICEMAN_02500_S00150_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_S00150_THANCRED",
+    "description": "Well, this is going splendidly... Now would be a good time, milady!",
+    "translation_description": ""
+  },
+  "466": {
+    "name": "TEXT_VOICEMAN_02500_S00160_YSHTOLA",
+    "translation_name": "TEXT_VOICEMAN_02500_S00160_YSHTOLA",
+    "description": "\u0027Tis done!",
+    "translation_description": ""
+  },
+  "467": {
+    "name": "TEXT_VOICEMAN_02500_S00170_YSHTOLA",
+    "translation_name": "TEXT_VOICEMAN_02500_S00170_YSHTOLA",
+    "description": "Forgive me, Mhitra...",
+    "translation_description": ""
+  },
+  "468": {
+    "name": "TEXT_VOICEMAN_02500_S00180_THANCRED",
+    "translation_name": "TEXT_VOICEMAN_02500_S00180_THANCRED",
+    "description": "Farewell, Minfilia...",
+    "translation_description": ""
+  },
+  "469": {
+    "name": "TEXT_VOICEMAN_02500_T00010_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_T00010_MINFILIA",
+    "description": "Hydaelyn... She speaks to me.",
+    "translation_description": ""
+  },
+  "470": {
+    "name": "TEXT_VOICEMAN_02500_T00020_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_T00020_MINFILIA",
+    "description": "No!",
+    "translation_description": ""
+  },
+  "471": {
+    "name": "TEXT_VOICEMAN_02500_T00030_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_T00030_MINFILIA",
+    "description": "I must remain behind...but you cannot stay with me.",
+    "translation_description": ""
+  },
+  "472": {
+    "name": "TEXT_VOICEMAN_02500_T00040_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_T00040_MINFILIA",
+    "description": "Please, you must go on! You are the Warrior of Light! You are \u003Chex:021A020203\u003Ehope\u003Chex:021A020103\u003E\u2500for the Scions, and for all the realm!",
+    "translation_description": ""
+  },
+  "473": {
+    "name": "TEXT_VOICEMAN_02500_T00050_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_T00050_MINFILIA",
+    "description": "As long as your flame continues to burn, the light of the dawn may ever be relit!",
+    "translation_description": ""
+  },
+  "474": {
+    "name": "TEXT_VOICEMAN_02500_T00060_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_T00060_MINFILIA",
+    "description": "You must escape, and save Eorzea from those who would plunge it into darkness!",
+    "translation_description": ""
+  },
+  "475": {
+    "name": "TEXT_VOICEMAN_02500_T00070_MINFILIA",
+    "translation_name": "TEXT_VOICEMAN_02500_T00070_MINFILIA",
+    "description": "\u0027Tis the only way...",
+    "translation_description": ""
+  },
+  "476": {
+    "name": "TEXT_VOICEMAN_02500_U00010_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_U00010_ALPHINAUD",
+    "description": "I am glad to see you safe, my friend! What of the others?",
+    "translation_description": ""
+  },
+  "477": {
+    "name": "TEXT_VOICEMAN_02500_U00020_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_U00020_ALPHINAUD",
+    "description": "Damn that man!",
+    "translation_description": ""
+  },
+  "478": {
+    "name": "TEXT_VOICEMAN_02500_U00030_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_U00030_ALPHINAUD",
+    "description": "Teledji played me for a fool! I thought the Crystal Braves mine till the very moment I felt the blade at my back...",
+    "translation_description": ""
+  },
+  "479": {
+    "name": "TEXT_VOICEMAN_02500_U00040_PIPPIN",
+    "translation_name": "TEXT_VOICEMAN_02500_U00040_PIPPIN",
+    "description": "(-???-)There will be ample time for soul-searching later. For now, we must put some malms between us and Ul\u0027dah.",
+    "translation_description": ""
+  },
+  "480": {
+    "name": "TEXT_VOICEMAN_02500_U00050_BREMONDT",
+    "translation_name": "TEXT_VOICEMAN_02500_U00050_BREMONDT",
+    "description": "Well, if it ain\u0027t the hero of the Scions! You look to me like a \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E in need of a nice, relaxin\u0027 carriage ride!",
+    "translation_description": ""
+  },
+  "481": {
+    "name": "TEXT_VOICEMAN_02500_U00060_BREMONDT",
+    "translation_name": "TEXT_VOICEMAN_02500_U00060_BREMONDT",
+    "description": "Well, would you look who it is! Need a ride? I doubt it\u0027ll be half as excitin\u0027 as the last trip we took\u2500not if I have anythin\u0027 to say about it, anyway!",
+    "translation_description": ""
+  },
+  "482": {
+    "name": "TEXT_VOICEMAN_02500_U00070_BREMONDT",
+    "translation_name": "TEXT_VOICEMAN_02500_U00070_BREMONDT",
+    "description": "Let\u0027s not dawdle, eh? All aboard!",
+    "translation_description": ""
+  },
+  "483": {
+    "name": "TEXT_VOICEMAN_02500_V00010_BREMONDT",
+    "translation_name": "TEXT_VOICEMAN_02500_V00010_BREMONDT",
+    "description": "I was stockin\u0027 up on supplies over in Vesper Bay, you see, when your sister come up an\u0027 begged a favor. Said her brother was havin\u0027 some trouble down in Ul\u0027dah, an\u0027 likely needed a helpin\u0027 hand gettin\u0027 away.",
+    "translation_description": ""
+  },
+  "484": {
+    "name": "TEXT_VOICEMAN_02500_V00020_BREMONDT",
+    "translation_name": "TEXT_VOICEMAN_02500_V00020_BREMONDT",
+    "description": "Thinkin\u0027 them ruins would make a fine hidin\u0027 place, I decided to try there first...an\u0027 lo an\u0027 behold, there you were.",
+    "translation_description": ""
+  },
+  "485": {
+    "name": "TEXT_VOICEMAN_02500_V00030_BREMONDT",
+    "translation_name": "TEXT_VOICEMAN_02500_V00030_BREMONDT",
+    "description": "Aye, an\u0027 judgin\u0027 by them soldiers as were pourin\u0027 out of the city, I arrived not a moment too soon...",
+    "translation_description": ""
+  },
+  "486": {
+    "name": "TEXT_VOICEMAN_02500_V00040_BREMONDT",
+    "translation_name": "TEXT_VOICEMAN_02500_V00040_BREMONDT",
+    "description": "Must\u0027ve been fate that we happened to find \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E there though, eh?",
+    "translation_description": ""
+  },
+  "487": {
+    "name": "TEXT_VOICEMAN_02500_V00050_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_V00050_ALPHINAUD",
+    "description": "I had thought to look out for Alisaie, but \u0027twould appear she was the one watching over me. I\u0027ve made such a mess of things...",
+    "translation_description": ""
+  },
+  "488": {
+    "name": "TEXT_VOICEMAN_02500_V00060_BREMONDT",
+    "translation_name": "TEXT_VOICEMAN_02500_V00060_BREMONDT",
+    "description": "An\u0027 who might you be, young sir?",
+    "translation_description": ""
+  },
+  "489": {
+    "name": "TEXT_VOICEMAN_02500_V00070_PIPPIN",
+    "translation_name": "TEXT_VOICEMAN_02500_V00070_PIPPIN",
+    "description": "Pipin Tarupin, Vice Marshal of the Immortal Flames.",
+    "translation_description": ""
+  },
+  "490": {
+    "name": "TEXT_VOICEMAN_02500_V00080_PIPPIN",
+    "translation_name": "TEXT_VOICEMAN_02500_V00080_PIPPIN",
+    "description": "I had been on the Ala Mhigan front these past few moons, but an urgent communication called me back to Ul\u0027dah.",
+    "translation_description": ""
+  },
+  "491": {
+    "name": "TEXT_VOICEMAN_02500_V00090_PIPPIN",
+    "translation_name": "TEXT_VOICEMAN_02500_V00090_PIPPIN",
+    "description": "Scarce had my boots touched the cobbles, though, when the streets erupted with cries of assassination. I immediately went in search of answers, and came across Master Alphinaud here. Needless to say, I did not think his imprisonment justified.",
+    "translation_description": ""
+  },
+  "492": {
+    "name": "TEXT_VOICEMAN_02500_V00100_PIPPIN",
+    "translation_name": "TEXT_VOICEMAN_02500_V00100_PIPPIN",
+    "description": "The blame plainly lies with the Monetarists. Their greed and corruption are well known to me, but for them to take advantage of the situation with such alacrity...",
+    "translation_description": ""
+  },
+  "493": {
+    "name": "TEXT_VOICEMAN_02500_V00110_BREMONDT",
+    "translation_name": "TEXT_VOICEMAN_02500_V00110_BREMONDT",
+    "description": "...Was that \u201CPipin,\u201D you said? Ain\u0027t that the name of General Aldynn\u0027s lad?",
+    "translation_description": ""
+  },
+  "494": {
+    "name": "TEXT_VOICEMAN_02500_V00120_PIPPIN",
+    "translation_name": "TEXT_VOICEMAN_02500_V00120_PIPPIN",
+    "description": "Yes, I am his son. Adopted, of course. \u0027Twas only as we were leaving Ul\u0027dah that I learned of Father\u0027s fate.",
+    "translation_description": ""
+  },
+  "495": {
+    "name": "TEXT_VOICEMAN_02500_V00130_PIPPIN",
+    "translation_name": "TEXT_VOICEMAN_02500_V00130_PIPPIN",
+    "description": "Once I have seen you a safe distance away, I mean to return to the city and extricate him from this madness.",
+    "translation_description": ""
+  },
+  "496": {
+    "name": "TEXT_VOICEMAN_02500_V00140_BREMONDT",
+    "translation_name": "TEXT_VOICEMAN_02500_V00140_BREMONDT",
+    "description": "Then you needn\u0027t travel no further than Black Brush\u2500our fugitives have a friend waitin\u0027 for \u0027em there.",
+    "translation_description": ""
+  },
+  "497": {
+    "name": "TEXT_VOICEMAN_02500_V00150_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_V00150_ALPHINAUD",
+    "description": "I dreamed of bringing about Eorzea\u0027s salvation, but in the end...",
+    "translation_description": ""
+  },
+  "498": {
+    "name": "TEXT_VOICEMAN_02500_V00160_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_V00160_ALPHINAUD",
+    "description": "\u0027Twas I who needed saving.",
+    "translation_description": ""
+  },
+  "499": {
+    "name": "TEXT_VOICEMAN_02500_W00010_HAURCHEFANT",
+    "translation_name": "TEXT_VOICEMAN_02500_W00010_HAURCHEFANT",
+    "description": "There has been word from the capital. Ishgard has weathered another assault, and \u0027tis said several wyverns broke through into the city proper.",
+    "translation_description": ""
+  },
+  "500": {
+    "name": "TEXT_VOICEMAN_02500_W00020_HAURCHEFANT",
+    "translation_name": "TEXT_VOICEMAN_02500_W00020_HAURCHEFANT",
+    "description": "The Temple Knights succeeded in slaying the beasts, but the intrusion prompted orders to further strengthen the guard and to place the city under a perpetual state of alert.",
+    "translation_description": ""
+  },
+  "501": {
+    "name": "TEXT_VOICEMAN_02500_W00030_HAURCHEFANT",
+    "translation_name": "TEXT_VOICEMAN_02500_W00030_HAURCHEFANT",
+    "description": "How keenly we feel the loss of our wards at the Gates of Judgement...",
+    "translation_description": ""
+  },
+  "502": {
+    "name": "TEXT_VOICEMAN_02500_W00040_HAURCHEFANT",
+    "translation_name": "TEXT_VOICEMAN_02500_W00040_HAURCHEFANT",
+    "description": "Yet we must not bemoan our misfortune. Ser Aymeric is safely returned from Ul\u0027dah and once more leads the defense of Ishgard.",
+    "translation_description": ""
+  },
+  "503": {
+    "name": "TEXT_VOICEMAN_02500_W00050_HAURCHEFANT",
+    "translation_name": "TEXT_VOICEMAN_02500_W00050_HAURCHEFANT",
+    "description": "As for the matter of your asylum, I am afraid no progress will be made until the threat to our nation has diminished.",
+    "translation_description": ""
+  },
+  "504": {
+    "name": "TEXT_VOICEMAN_02500_W00060_HAURCHEFANT",
+    "translation_name": "TEXT_VOICEMAN_02500_W00060_HAURCHEFANT",
+    "description": "But do not despair! You are not without allies.",
+    "translation_description": ""
+  },
+  "505": {
+    "name": "TEXT_VOICEMAN_02500_W00070_HAURCHEFANT",
+    "translation_name": "TEXT_VOICEMAN_02500_W00070_HAURCHEFANT",
+    "description": "You are more than welcome to shelter here for as long as you wish. Pray think of it as a new headquarters of sorts\u2500the \u201CFalling Snows\u201D or some such!",
+    "translation_description": ""
+  },
+  "506": {
+    "name": "TEXT_VOICEMAN_02500_W00080_HAURCHEFANT",
+    "translation_name": "TEXT_VOICEMAN_02500_W00080_HAURCHEFANT",
+    "description": "All frivolity aside, any who come here in search of you will receive no aid from House Fortemps. For once, the Ishgardian reputation for inhospitality shall work in our favor.",
+    "translation_description": ""
+  },
+  "507": {
+    "name": "TEXT_VOICEMAN_02500_W00090_HAURCHEFANT",
+    "translation_name": "TEXT_VOICEMAN_02500_W00090_HAURCHEFANT",
+    "description": "Agents of Ul\u0027dah will find their every inquiry dismissed, and their every request for entry rebuffed, until such time as their masters have acknowledged your innocence.",
+    "translation_description": ""
+  },
+  "508": {
+    "name": "TEXT_VOICEMAN_02500_W00100_HAURCHEFANT",
+    "translation_name": "TEXT_VOICEMAN_02500_W00100_HAURCHEFANT",
+    "description": "You once fought to preserve the honor of my dear friend\u2500\u0027tis a blessing that I may now repay that debt in kind.",
+    "translation_description": ""
+  },
+  "509": {
+    "name": "TEXT_VOICEMAN_02500_W00110_HAURCHEFANT",
+    "translation_name": "TEXT_VOICEMAN_02500_W00110_HAURCHEFANT",
+    "description": "But let us dwell no more on this. Pray join the rest of your companions.",
+    "translation_description": ""
+  },
+  "510": {
+    "name": "TEXT_VOICEMAN_02500_W00120_HAURCHEFANT",
+    "translation_name": "TEXT_VOICEMAN_02500_W00120_HAURCHEFANT",
+    "description": "\u0027Tis bitterly cold this day. I suspect there are those who might welcome the warmth your presence brings.",
+    "translation_description": ""
+  },
+  "511": {
+    "name": "TEXT_VOICEMAN_02500_X00010_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_X00010_ALPHINAUD",
+    "description": "\u0027Tis all my doing...",
+    "translation_description": ""
+  },
+  "512": {
+    "name": "TEXT_VOICEMAN_02500_X00020_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_X00020_ALPHINAUD",
+    "description": "I believed myself the only one who truly understood Eorzea\u0027s woes. And look what that arrogance has wrought.",
+    "translation_description": ""
+  },
+  "513": {
+    "name": "TEXT_VOICEMAN_02500_X00030_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_X00030_ALPHINAUD",
+    "description": "I gave commands, influenced governments with my certainty...",
+    "translation_description": ""
+  },
+  "514": {
+    "name": "TEXT_VOICEMAN_02500_X00040_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_X00040_ALPHINAUD",
+    "description": "I treated the Crystal Braves, and even the Scions themselves, as pawns in my great scheme to save the realm.",
+    "translation_description": ""
+  },
+  "515": {
+    "name": "TEXT_VOICEMAN_02500_X00050_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_X00050_ALPHINAUD",
+    "description": "But in my headlong rush unto imagined glory, I paid no heed to the ground upon which I trod!",
+    "translation_description": ""
+  },
+  "516": {
+    "name": "TEXT_VOICEMAN_02500_X00060_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_X00060_ALPHINAUD",
+    "description": "The salvation of Eorzea... What was it that I hoped to achieve?",
+    "translation_description": ""
+  },
+  "517": {
+    "name": "TEXT_VOICEMAN_02500_X00070_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_X00070_ALPHINAUD",
+    "description": "Did I believe that I could rid the realm of every danger and difficulty? That I could defeat the Empire and the Ascians, and find homes for every refugee?",
+    "translation_description": ""
+  },
+  "518": {
+    "name": "TEXT_VOICEMAN_02500_X00080_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_X00080_ALPHINAUD",
+    "description": "Oh yes, I was so very clever. \u201CBecome a guardian of Eorzea,\u201D I implored, and sat back to watch my perfect army cleanse the land of chaos.",
+    "translation_description": ""
+  },
+  "519": {
+    "name": "TEXT_VOICEMAN_02500_X00090_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_X00090_ALPHINAUD",
+    "description": "\u0027Twas all but a means to feed my own vanity.",
+    "translation_description": ""
+  },
+  "520": {
+    "name": "TEXT_VOICEMAN_02500_X00100_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_X00100_ALPHINAUD",
+    "description": "Only when all is lost do I finally realize the truth.",
+    "translation_description": ""
+  },
+  "521": {
+    "name": "TEXT_VOICEMAN_02500_X00110_TATARU",
+    "translation_name": "TEXT_VOICEMAN_02500_X00110_TATARU",
+    "description": "Oh, Alphinaud...",
+    "translation_description": ""
+  },
+  "522": {
+    "name": "TEXT_VOICEMAN_02500_X00120_HAURCHEFANT",
+    "translation_name": "TEXT_VOICEMAN_02500_X00120_HAURCHEFANT",
+    "description": "So, Master Alphinaud, are you content to remain a broken blade? Is there no flame hot enough to reforge you?",
+    "translation_description": ""
+  },
+  "523": {
+    "name": "TEXT_VOICEMAN_02500_X00130_HAURCHEFANT",
+    "translation_name": "TEXT_VOICEMAN_02500_X00130_HAURCHEFANT",
+    "description": "What of the fine companions who yet stand at your side? I daresay the fires of their determination will soon have you slicing the air again with your customary wit!",
+    "translation_description": ""
+  },
+  "524": {
+    "name": "TEXT_VOICEMAN_02500_X00140_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_X00140_ALPHINAUD",
+    "description": "I hardly deserve such friendship. And besides, where are we to go...?",
+    "translation_description": ""
+  },
+  "525": {
+    "name": "TEXT_VOICEMAN_02500_X00150_TATARU",
+    "translation_name": "TEXT_VOICEMAN_02500_X00150_TATARU",
+    "description": "Alphinaud? If I may...?",
+    "translation_description": ""
+  },
+  "526": {
+    "name": "TEXT_VOICEMAN_02500_X00160_TATARU",
+    "translation_name": "TEXT_VOICEMAN_02500_X00160_TATARU",
+    "description": "Should this place not serve our purpose, then...then we shall go to Ishgard!",
+    "translation_description": ""
+  },
+  "527": {
+    "name": "TEXT_VOICEMAN_02500_X00170_TATARU",
+    "translation_name": "TEXT_VOICEMAN_02500_X00170_TATARU",
+    "description": "Minfilia told me many times: as long as we stand fast against despair, the beacon of hope will never be lost to sight.",
+    "translation_description": ""
+  },
+  "528": {
+    "name": "TEXT_VOICEMAN_02500_X00180_TATARU",
+    "translation_name": "TEXT_VOICEMAN_02500_X00180_TATARU",
+    "description": "Be it in the snow or in the clouds, we few will see that the dawn\u0027s light shines again!",
+    "translation_description": ""
+  },
+  "529": {
+    "name": "TEXT_VOICEMAN_02500_X00190_TATARU",
+    "translation_name": "TEXT_VOICEMAN_02500_X00190_TATARU",
+    "description": "\u003Csniff\u003E \u003Csniff\u003E",
+    "translation_description": ""
+  },
+  "530": {
+    "name": "TEXT_VOICEMAN_02500_X00200_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_X00200_ALPHINAUD",
+    "description": "You are right, Tataru, thank you. And thank you for your kind words, Lord Haurchefant.",
+    "translation_description": ""
+  },
+  "531": {
+    "name": "TEXT_VOICEMAN_02500_X00210_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_X00210_ALPHINAUD",
+    "description": "\u0027Tis true that Eorzea yet has her guardians.",
+    "translation_description": ""
+  },
+  "532": {
+    "name": "TEXT_VOICEMAN_02500_X00220_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_X00220_ALPHINAUD",
+    "description": "The Scions have achieved much, and \u0027twould be remiss of me to discard it all in a fit of self-pity.",
+    "translation_description": ""
+  },
+  "533": {
+    "name": "TEXT_VOICEMAN_02500_X00230_ALPHINAUD",
+    "translation_name": "TEXT_VOICEMAN_02500_X00230_ALPHINAUD",
+    "description": "Let us then resume our journey, together...one step at a time.",
+    "translation_description": ""
+  },
+  "534": {
+    "name": "TEXT_VOICEMAN_02500_Y00010_LADYINWAITING2",
+    "translation_name": "TEXT_VOICEMAN_02500_Y00010_LADYINWAITING2",
+    "description": "All has been arranged as you desired, my lord.",
+    "translation_description": ""
+  },
+  "535": {
+    "name": "TEXT_VOICEMAN_02500_Y00020_LOLORITO",
+    "translation_name": "TEXT_VOICEMAN_02500_Y00020_LOLORITO",
+    "description": "Hmph.",
+    "translation_description": ""
+  },
+  "536": {
+    "name": "TEXT_VOICEMAN_02500_Z00010_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_Z00010_MIDGARDSORMR",
+    "description": "Heh heh heh. Thou thinkest sanctuary lieth beyond?",
+    "translation_description": ""
+  },
+  "537": {
+    "name": "TEXT_VOICEMAN_02500_Z00020_MIDGARDSORMR",
+    "translation_name": "TEXT_VOICEMAN_02500_Z00020_MIDGARDSORMR",
+    "description": "Delusion. Despair. Death. Thou shalt find naught else here.",
+    "translation_description": ""
+  }
+}

@@ -1,0 +1,902 @@
+{
+  "0": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_000",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_000",
+    "description": "A great threat to the peace here in the Shroud has made itself known, and I have been sent to help drive it out. Adventurer or no, I will not suffer anyone interfering with my work. Now please, move along.",
+    "translation_description": "Una grave minaccia per la quiete del Velo Nero si \u00e8 manifestata, e mi hanno mandato a scacciarla. Non tollerer\u00f2 interferenze nel mio lavoro, che tu sia avventuriero o meno. Ora, per favore, prosegui."
+  },
+  "1": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_020",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_020",
+    "description": "We were fortunate the curator of that damnable place was careless enough to leave his notes where we might find them. Perhaps now we can discover his true motives.",
+    "translation_description": "Abbiamo avuto fortuna: il custode di quel maledetto luogo ha lasciato i suoi appunti dove potevamo trovarli. Forse ora scopriremo le sue vere intenzioni."
+  },
+  "2": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_START_MENU_ENTER",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_START_MENU_ENTER",
+    "description": "Enter the Palace of the Dead",
+    "translation_description": "Entra nel Palazzo dei Morti"
+  },
+  "3": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_START_MENU_RESET",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_START_MENU_RESET",
+    "description": "Reset your progress",
+    "translation_description": "Azzerare i progressi"
+  },
+  "4": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_START_MENU_BREAKUP",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_START_MENU_BREAKUP",
+    "description": "Disband your fixed party",
+    "translation_description": "Sciogliere il gruppo prefissato"
+  },
+  "5": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_START_MENU_SCORE",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_START_MENU_SCORE",
+    "description": "View your scores",
+    "translation_description": "Visualizzare i punteggi"
+  },
+  "6": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_START_MENU_ABOUT",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_START_MENU_ABOUT",
+    "description": "Learn about the Palace of the Dead",
+    "translation_description": "Informazioni sul Palazzo dei Morti"
+  },
+  "7": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ENTER_MENU_TITLE",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ENTER_MENU_TITLE",
+    "description": "What will you do?",
+    "translation_description": "Cosa fai?"
+  },
+  "8": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ENTER_MENU_FIXED",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ENTER_MENU_FIXED",
+    "description": "Enter with a fixed party.",
+    "translation_description": "Entrare con un gruppo prefissato."
+  },
+  "9": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ENTER_MENU_MATCHING",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ENTER_MENU_MATCHING",
+    "description": "Enter with a matched party.",
+    "translation_description": "Entrare con un gruppo abbinato."
+  },
+  "10": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ENTER_MENU_BACK",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ENTER_MENU_BACK",
+    "description": "Return.",
+    "translation_description": "Indietro."
+  },
+  "11": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ENTER_FIXED_Q",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ENTER_FIXED_Q",
+    "description": "Are you sure you wish to enter with a fixed party?",
+    "translation_description": "Confermi l\u0027ingresso con un gruppo prefissato?"
+  },
+  "12": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ENTER_MATCHING_Q",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ENTER_MATCHING_Q",
+    "description": "Are you sure you wish to enter with a matched party?",
+    "translation_description": "Confermi l\u0027ingresso con un gruppo abbinato?"
+  },
+  "13": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_050",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_050",
+    "description": "You would enter the ruins alone!? Weakened by the ruin\u0027s magicks, you will have naught but the aetherpool arms of the Padjal to aid you. Even they may not prove enough without enhancement.",
+    "translation_description": "Vuoi entrare nelle rovine in solitaria!? La magia delle rovine ti indebolir\u00e0; potrai contare soltanto sulle armi Aetherpool dei Padjal. Potrebbero non bastarti se non le potenzi."
+  },
+  "14": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ENTER_SOLO",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ENTER_SOLO",
+    "description": "Are you sure you wish to enter alone?",
+    "translation_description": "Confermi l\u0027ingresso in solitaria?"
+  },
+  "15": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_ENTER_WHICH_Q",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_ENTER_WHICH_Q",
+    "description": "From which floor will you enter?",
+    "translation_description": "Da quale piano vuoi entrare?"
+  },
+  "16": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_ENTER_A1",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_ENTER_A1",
+    "description": "Floor one.",
+    "translation_description": "Primo piano."
+  },
+  "17": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_ENTER_A2",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_ENTER_A2",
+    "description": "Floor fifty-one.",
+    "translation_description": "Cinquantunesimo piano."
+  },
+  "18": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_TITLE",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_TITLE",
+    "description": "",
+    "translation_description": ""
+  },
+  "19": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_WHAT",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_WHAT",
+    "description": "",
+    "translation_description": ""
+  },
+  "20": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_RESET",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_RESET",
+    "description": "",
+    "translation_description": ""
+  },
+  "21": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_DISSOLVE",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_DISSOLVE",
+    "description": "",
+    "translation_description": ""
+  },
+  "22": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_EQUIP",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_EQUIP",
+    "description": "",
+    "translation_description": ""
+  },
+  "23": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_ITEM",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_ITEM",
+    "description": "",
+    "translation_description": ""
+  },
+  "24": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_TREASURE",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_TREASURE",
+    "description": "",
+    "translation_description": ""
+  },
+  "25": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_SCORE",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_SCORE",
+    "description": "",
+    "translation_description": ""
+  },
+  "26": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_BACK",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_BACK",
+    "description": "",
+    "translation_description": ""
+  },
+  "27": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_WHAT_TITLE",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_WHAT_TITLE",
+    "description": "",
+    "translation_description": ""
+  },
+  "28": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_WHAT_Q1",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_WHAT_Q1",
+    "description": "",
+    "translation_description": ""
+  },
+  "29": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_WHAT_Q2",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_WHAT_Q2",
+    "description": "",
+    "translation_description": ""
+  },
+  "30": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_WHAT_Q3",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_WHAT_Q3",
+    "description": "",
+    "translation_description": ""
+  },
+  "31": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_LEVEL_Q1",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_LEVEL_Q1",
+    "description": "",
+    "translation_description": ""
+  },
+  "32": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_LEVEL_Q2",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_LEVEL_Q2",
+    "description": "",
+    "translation_description": ""
+  },
+  "33": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_WHAT_Q4",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_WHAT_Q4",
+    "description": "",
+    "translation_description": ""
+  },
+  "34": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_WHAT_Q5",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_WHAT_Q5",
+    "description": "",
+    "translation_description": ""
+  },
+  "35": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_WHAT_BACK",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_WHAT_BACK",
+    "description": "",
+    "translation_description": ""
+  },
+  "36": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_305",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_305",
+    "description": "",
+    "translation_description": ""
+  },
+  "37": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_306",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_306",
+    "description": "",
+    "translation_description": ""
+  },
+  "38": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_307",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_307",
+    "description": "",
+    "translation_description": ""
+  },
+  "39": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_405",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_405",
+    "description": "",
+    "translation_description": ""
+  },
+  "40": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_100_405",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_100_405",
+    "description": "",
+    "translation_description": ""
+  },
+  "41": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_410",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_410",
+    "description": "",
+    "translation_description": ""
+  },
+  "42": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_415",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_415",
+    "description": "",
+    "translation_description": ""
+  },
+  "43": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_308",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_308",
+    "description": "",
+    "translation_description": ""
+  },
+  "44": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_105",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_105",
+    "description": "",
+    "translation_description": ""
+  },
+  "45": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_DISSOLVE_TITLE",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_DISSOLVE_TITLE",
+    "description": "",
+    "translation_description": ""
+  },
+  "46": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_DISSOLVE_Q1",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_DISSOLVE_Q1",
+    "description": "",
+    "translation_description": ""
+  },
+  "47": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_DISSOLVE_Q2",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_DISSOLVE_Q2",
+    "description": "",
+    "translation_description": ""
+  },
+  "48": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_DISSOLVE_Q3",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_DISSOLVE_Q3",
+    "description": "",
+    "translation_description": ""
+  },
+  "49": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_DISSOLVE_BACK",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_DISSOLVE_BACK",
+    "description": "",
+    "translation_description": ""
+  },
+  "50": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_201",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_201",
+    "description": "",
+    "translation_description": ""
+  },
+  "51": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_202",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_202",
+    "description": "",
+    "translation_description": ""
+  },
+  "52": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_100_202",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_100_202",
+    "description": "",
+    "translation_description": ""
+  },
+  "53": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_203",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_203",
+    "description": "",
+    "translation_description": ""
+  },
+  "54": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_EQUIP_TITLE",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_EQUIP_TITLE",
+    "description": "",
+    "translation_description": ""
+  },
+  "55": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_EQUIP_Q1",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_EQUIP_Q1",
+    "description": "",
+    "translation_description": ""
+  },
+  "56": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_EQUIP_Q2",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_EQUIP_Q2",
+    "description": "",
+    "translation_description": ""
+  },
+  "57": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_EQUIP_Q3",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_EQUIP_Q3",
+    "description": "",
+    "translation_description": ""
+  },
+  "58": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_EQUIP_BACK",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_EQUIP_BACK",
+    "description": "",
+    "translation_description": ""
+  },
+  "59": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_505",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_505",
+    "description": "",
+    "translation_description": ""
+  },
+  "60": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_507",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_507",
+    "description": "",
+    "translation_description": ""
+  },
+  "61": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_100_507",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_100_507",
+    "description": "",
+    "translation_description": ""
+  },
+  "62": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_508",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_508",
+    "description": "",
+    "translation_description": ""
+  },
+  "63": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_605",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_605",
+    "description": "",
+    "translation_description": ""
+  },
+  "64": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_TREASURE_TITLE",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_TREASURE_TITLE",
+    "description": "",
+    "translation_description": ""
+  },
+  "65": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_TREASURE_Q1",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_TREASURE_Q1",
+    "description": "What is the Accursed Hoard?",
+    "translation_description": "Che cos\u0027\u00e8 il Tesoro Maledetto?"
+  },
+  "66": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_TREASURE_Q2",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_TREASURE_Q2",
+    "description": "",
+    "translation_description": ""
+  },
+  "67": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_TREASURE_Q3",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_TREASURE_Q3",
+    "description": "",
+    "translation_description": ""
+  },
+  "68": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_TREASURE_BACK",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_TREASURE_BACK",
+    "description": "",
+    "translation_description": ""
+  },
+  "69": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_700",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_700",
+    "description": "",
+    "translation_description": ""
+  },
+  "70": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_701",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_701",
+    "description": "",
+    "translation_description": ""
+  },
+  "71": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_702",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_702",
+    "description": "",
+    "translation_description": ""
+  },
+  "72": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_SCORE_TITLE",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_SCORE_TITLE",
+    "description": "",
+    "translation_description": ""
+  },
+  "73": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_SCORE_Q1",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_SCORE_Q1",
+    "description": "",
+    "translation_description": ""
+  },
+  "74": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_SCORE_Q2",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_SCORE_Q2",
+    "description": "",
+    "translation_description": ""
+  },
+  "75": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_SCORE_BACK",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_SCORE_BACK",
+    "description": "",
+    "translation_description": ""
+  },
+  "76": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_800",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_800",
+    "description": "",
+    "translation_description": ""
+  },
+  "77": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_801",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_801",
+    "description": "",
+    "translation_description": ""
+  },
+  "78": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_DESCRIPTION_LAST",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_DESCRIPTION_LAST",
+    "description": "",
+    "translation_description": ""
+  },
+  "79": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_MIDDLE_TOP_MENU_NEXT",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_MIDDLE_TOP_MENU_NEXT",
+    "description": "Proceed to the next floor",
+    "translation_description": "Proseguire al piano successivo"
+  },
+  "80": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_MIDDLE_TOP_MENU_EXPLAIN",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_MIDDLE_TOP_MENU_EXPLAIN",
+    "description": "Review rules for the Palace of the Dead",
+    "translation_description": "Consultare le regole del Palazzo dei Morti"
+  },
+  "81": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_MIDDLE_Q",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_MIDDLE_Q",
+    "description": "Proceed to the next floor with your current party?",
+    "translation_description": "Vuoi procedere al piano successivo con il gruppo attuale?"
+  },
+  "82": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_DESCRIPTION_NEXT",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_DESCRIPTION_NEXT",
+    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation_description": "\uff08\u2605Non utilizzato; rimozione prevista\u2605\uff09"
+  },
+  "83": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_DESCRIPTION_BACK",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_DESCRIPTION_BACK",
+    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation_description": "\uff08\u2605Non utilizzato; rimozione prevista\u2605\uff09"
+  },
+  "84": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_TEST_1",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_TEST_1",
+    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation_description": "\uff08\u2605Non utilizzato; rimozione prevista\u2605\uff09"
+  },
+  "85": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_TEST_3",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_TEST_3",
+    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation_description": "\uff08\u2605Non utilizzato; rimozione prevista\u2605\uff09"
+  },
+  "86": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_RESET_Q",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_RESET_Q",
+    "description": "",
+    "translation_description": ""
+  },
+  "87": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_BREAKUP_Q",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_BREAKUP_Q",
+    "description": "",
+    "translation_description": ""
+  },
+  "88": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_A1_000_002",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_A1_000_002",
+    "description": "",
+    "translation_description": ""
+  },
+  "89": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_A1_000_003",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_A1_000_003",
+    "description": "",
+    "translation_description": ""
+  },
+  "90": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_A2_000_001",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_A2_000_001",
+    "description": "",
+    "translation_description": ""
+  },
+  "91": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_A2_000_002",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_A2_000_002",
+    "description": "",
+    "translation_description": ""
+  },
+  "92": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_A3_000_001",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_A3_000_001",
+    "description": "",
+    "translation_description": ""
+  },
+  "93": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_A3_000_002",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_A3_000_002",
+    "description": "",
+    "translation_description": ""
+  },
+  "94": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_A4_000_001",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_A4_000_001",
+    "description": "",
+    "translation_description": ""
+  },
+  "95": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_A4_000_002",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_A4_000_002",
+    "description": "",
+    "translation_description": ""
+  },
+  "96": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_506",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_506",
+    "description": "",
+    "translation_description": ""
+  },
+  "97": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_START_IS_NOT_OPENED",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_START_IS_NOT_OPENED",
+    "description": "",
+    "translation_description": ""
+  },
+  "98": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_RESET_TALK",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_RESET_TALK",
+    "description": "",
+    "translation_description": ""
+  },
+  "99": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_RESET_YES_TALK",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_RESET_YES_TALK",
+    "description": "",
+    "translation_description": ""
+  },
+  "100": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_RESET_NO_TALK",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_RESET_NO_TALK",
+    "description": "",
+    "translation_description": ""
+  },
+  "101": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_BREAKUP_TALK",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_BREAKUP_TALK",
+    "description": "",
+    "translation_description": ""
+  },
+  "102": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_BREAKUP_YES_TALK",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_BREAKUP_YES_TALK",
+    "description": "",
+    "translation_description": ""
+  },
+  "103": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_BREAKUP_NO_TALK",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_BREAKUP_NO_TALK",
+    "description": "",
+    "translation_description": ""
+  },
+  "104": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_YES",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_YES",
+    "description": "",
+    "translation_description": ""
+  },
+  "105": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_NO",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_NO",
+    "description": "",
+    "translation_description": ""
+  },
+  "106": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ENTER_SAVE_TITLE",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ENTER_SAVE_TITLE",
+    "description": "",
+    "translation_description": ""
+  },
+  "107": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ENTER_SAVE_NEW",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ENTER_SAVE_NEW",
+    "description": "",
+    "translation_description": ""
+  },
+  "108": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ENTER_SAVE_CONTINUE",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ENTER_SAVE_CONTINUE",
+    "description": "",
+    "translation_description": ""
+  },
+  "109": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ENTER_SAVE_BACK",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ENTER_SAVE_BACK",
+    "description": "",
+    "translation_description": ""
+  },
+  "110": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_100",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_100",
+    "description": "If you would retrace your steps back to the labyrinth entrance you are more than welcome to do so. At the very least, the earlier floors should prove an opportune time to fortify your aetherpool arms.",
+    "translation_description": "Se vuoi tornare sui tuoi passi fino all\u0027ingresso del labirinto, fai pure. Almeno, i primi piani potrebbero essere l\u0027occasione giusta per potenziare le armi Aetherpool."
+  },
+  "111": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_110",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_110",
+    "description": "Understood. When next you descend into the ruin, pray keep your wits about you. There\u0027s no telling what new perils await you down there.",
+    "translation_description": "D\u0027accordo. Quando tornerai nelle rovine, mantieni la lucidit\u00e0: non si sa mai quali nuovi pericoli ti attendano laggi\u00f9."
+  },
+  "112": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_120",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_120",
+    "description": "So you would stay your course, then. Very well. I look forward to hearing of your progress.",
+    "translation_description": "Allora hai deciso di proseguire. D\u0027accordo, attendo tue notizie sui progressi."
+  },
+  "113": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_200",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_200",
+    "description": "You wish to form a new group to explore Gelmorra? Curious that you would do so having come thus far, but it is not my place to judge. You are free to seek new allies as you see fit.",
+    "translation_description": "Vuoi formare un nuovo gruppo per esplorare Gelmorra? \u00c8 curioso che tu voglia farlo dopo tanta strada, ma non spetta a me giudicare. Puoi cercare nuovi compagni come preferisci."
+  },
+  "114": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_210",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_210",
+    "description": "I see... Well, come speak with me when you have found comrades with whom you would return to the ruins.",
+    "translation_description": "Capisco... Torna a parlarmi quando avrai trovato compagni con cui rientrare nelle rovine."
+  },
+  "115": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_220",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_220",
+    "description": "I see... Well, one should never make such decisions lightly. I pray you safe passage when you return to the ruins.",
+    "translation_description": "Capisco... Beh, non sono decisioni da prendere alla leggera. Al tuo ritorno, ti auguro buon viaggio."
+  },
+  "116": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_300",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_300",
+    "description": "As I mentioned to you before, we received reports of a magical gateway appearing in the ruins of Issom\u003Chex:021F0103\u003EHar. It leads into a labyrinth warded with powerful magicks that make exploration nigh impossible through ordinary means.",
+    "translation_description": "Come ti dicevo, ci sono state segnalazioni di un varco magico apparso tra le rovine di Issom\u003Chex:021F0103\u003E-Har. Conduce a un labirinto protetto da magie cos\u00ec potenti da rendere quasi impossibile esplorarlo con mezzi ordinari."
+  },
+  "117": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_301",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_301",
+    "description": "The place feasts upon the aether of all who enter, making them easy prey for the creatures within. What\u0027s more, the path changed each time we dared venture inside.",
+    "translation_description": "Il luogo si nutre dell\u0027etere di chiunque vi entri e lo rende facile preda delle creature che lo abitano. Inoltre, il percorso cambiava ogni volta che osavamo addentrarci."
+  },
+  "118": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_302",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_302",
+    "description": "Not to mention the traps and the Twelve know what else was waiting down there. It is plain to see why townsfolk have come to call it the Palace of the Dead. Still, if you would brave its depths to discover what horrors lie there in the dark, we would gladly accept your aid.",
+    "translation_description": "E poi c\u0027erano le trappole e chiss\u00e0 cos\u0027altro ci attendeva laggi\u00f9, per volere dei Dodici. \u00c8 chiaro perch\u00e9 la gente abbia iniziato a chiamarlo Palazzo dei Morti. Eppure, se vuoi affrontarne le profondit\u00e0 e scoprire quali orrori si celano nel buio, accetteremo volentieri il tuo aiuto."
+  },
+  "119": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_400",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_400",
+    "description": "The garish armor and arms you\u0027re accustomed to will mean nothing once you step foot into those ruins. You must judge the strength of your enemies carefully if you mean to survive.",
+    "translation_description": "Le armature sgargianti e le armi che usi di solito non ti serviranno a nulla quando entrerai nelle rovine. Se vuoi sopravvivere, valuta con attenzione la forza dei nemici."
+  },
+  "120": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_500",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_500",
+    "description": "It was E\u003Chex:021F0103\u003EUna\u003Chex:021F0103\u003EKotor who deduced the reason for our sudden lack of spirit when first entering the ruins.",
+    "translation_description": "Fu E\u003Chex:021F0103\u003EUna\u003Chex:021F0103\u003EKotor a intuire il motivo per cui, al nostro primo ingresso nelle rovine, avevamo perso le forze."
+  },
+  "121": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_501",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_501",
+    "description": "As he tells it, the labyrinth is warded with powerful magicks that drain the aether from all those who enter. Thankfully, he also provided us with a solution.",
+    "translation_description": "A suo dire, il labirinto \u00e8 protetto da potenti magie che prosciugano l\u0027etere di chiunque vi entri. Per fortuna, ci ha anche proposto una soluzione."
+  },
+  "122": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_502",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_502",
+    "description": "For those who would venture into the ruins, he has prepared aetherpool arms and armor, which safeguard and channel the wielder\u0027s energies to better withstand the powerful magicks protecting the ruins.",
+    "translation_description": "Per chi si avventura nelle rovine, ha preparato armi e armature Aetherpool, che proteggono e incanalano le energie di chi le usa per resistere meglio alle potenti magie che proteggono le rovine."
+  },
+  "123": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_600",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_600",
+    "description": "We recently discovered a small cache containing pottery with peculiar engravings. Upon closer inspection, E\u003Chex:021F0103\u003EUna\u003Chex:021F0103\u003EKotor determined them to be magicked urns of Gelmorran design.",
+    "translation_description": "Di recente abbiamo trovato un piccolo deposito di ceramiche con strane incisioni. Dopo averle esaminate, E\u003Chex:021F0103\u003EUna\u003Chex:021F0103\u003EKotor ha stabilito che si tratta di urne magiche di fattura gelmorriana."
+  },
+  "124": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_601",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_601",
+    "description": "If you should happen upon any of these urns\u2500or pomanders as we call them\u2500I urge you to take them with you. The effects of their magic are quite varied, and may prove useful against whatever ghastly creatures you encounter down there.",
+    "translation_description": "Se dovessi imbatterti in una di queste urne \u2014 o pomander, come le chiamiamo noi \u2014 ti consiglio di portarla con te. I loro effetti magici sono molto vari e potrebbero tornarti utili contro le creature orrende che incontrerai laggi\u00f9."
+  },
+  "125": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_106",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_106",
+    "description": "Although floor progression and character level will be reset, aetherpool arm and gear strength will remain unchanged.",
+    "translation_description": "I progressi nei piani e il livello del personaggio verranno azzerati, ma la forza delle armi e dell\u0027equipaggiamento Aetherpool rester\u00e0 invariata."
+  },
+  "126": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_107",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_107",
+    "description": "Please note, however, that data cannot be restored once deleted.",
+    "translation_description": "Attenzione: una volta eliminati, i dati non possono essere recuperati."
+  },
+  "127": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_100_203",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_100_203",
+    "description": "Players who have not progressed to the same floor cannot enter the Palace of the Dead together as a party. Those on earlier floors must instead use the matching system on their own.",
+    "translation_description": "I giocatori con progressi diversi non possono affrontare insieme il Palazzo dei Morti. Chi si trova ai piani precedenti deve usare da solo il sistema di abbinamento."
+  },
+  "128": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_101_203",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_101_203",
+    "description": "Once all players have reached the same floor, they can proceed together by forming a party and choosing to enter as a matched party.",
+    "translation_description": "Una volta raggiunto lo stesso piano, potrete proseguire insieme formando un gruppo e scegliendo l\u0027ingresso con abbinamento."
+  },
+  "129": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_204",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_204",
+    "description": "Please note that all special items (pomanders) will be lost upon converting your data.",
+    "translation_description": "Tieni presente che la conversione dei dati eliminer\u00e0 tutti gli oggetti speciali (i pomander)."
+  },
+  "130": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_309",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_309",
+    "description": "Especially powerful enemies can be found on certain floors. Players can save their progress in the Palace of the Dead upon defeating these enemies.",
+    "translation_description": "Alcuni piani ospitano nemici particolarmente potenti. Sconfiggendoli, si possono salvare i progressi nel Palazzo dei Morti."
+  },
+  "131": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_310",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_310",
+    "description": "After saving one\u0027s progress, players can resume their foray into the Palace of the Dead immediately or return at a later time.",
+    "translation_description": "Dopo aver salvato i progressi, puoi proseguire subito l\u0027esplorazione del Palazzo dei Morti oppure riprenderla pi\u00f9 tardi."
+  },
+  "132": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_100_310",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_100_310",
+    "description": "Players who choose to leave and return later will start on the floor following their last save point.",
+    "translation_description": "Se lasci la cripta per tornare pi\u00f9 tardi, ripartirai dal piano successivo all\u0027ultimo punto di salvataggio."
+  },
+  "133": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_311",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_311",
+    "description": "In the event all party members are incapacitated, you will be removed from the Palace of the Dead and must resume from your last save point.",
+    "translation_description": "Se tutto il gruppo viene sconfitto, verrai espulso dal Palazzo dei Morti e dovrai ripartire dall\u0027ultimo punto di salvataggio."
+  },
+  "134": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_400",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_400",
+    "description": "Players who have registered a product key for FINAL FANTASY XIV: Heavensward to their service account may play up to floor 50 in the Palace of the Dead. Those who have yet to do so may only play up to floor 40.",
+    "translation_description": "Se hai registrato un codice prodotto di FINAL FANTASY XIV: Heavensward sul tuo account di servizio, puoi raggiungere il piano 50 del Palazzo dei Morti. In caso contrario, puoi arrivare solo al piano 40."
+  },
+  "135": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_401",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_401",
+    "description": "Furthermore, players currently on the free trial may only play up to floor 10.",
+    "translation_description": "Inoltre, con la versione di prova gratuita puoi raggiungere solo il piano 10."
+  },
+  "136": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_100_410",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_100_410",
+    "description": "You will continue to acquire these actions and traits as you normally would even should your level in the Palace of the Dead exceed that of your actual class or job level.",
+    "translation_description": "Continuerai a ottenere queste azioni e questi tratti come di consueto, anche se il livello raggiunto nel Palazzo dei Morti supera quello effettivo della tua classe o del job."
+  },
+  "137": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_411",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_411",
+    "description": "When resuming forays into the deep dungeon, players will start at the level attained at the time of their last saving.",
+    "translation_description": "Quando riprenderai l\u0027esplorazione della Cripta Profonda, partirai dal livello raggiunto al momento dell\u0027ultimo salvataggio."
+  },
+  "138": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_101_507",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_101_507",
+    "description": "In the event the strength of your aetherpool gear exceeds the maximum allowed by your current level, its attributes will be synced. This can be confirmed when viewing your items and gear in the Character Info window.",
+    "translation_description": "Se la forza del tuo equipaggiamento Aetherpool supera il massimo consentito dal livello attuale, i suoi parametri verranno sincronizzati. Puoi verificarlo nella finestra delle informazioni sul personaggio, dove sono mostrati oggetti ed equipaggiamento."
+  },
+  "139": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_509",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_509",
+    "description": "In such cases, it may be necessary to resume your exploration of the Palace of the Dead from floor 1 to ensure your aetherpool gear is of sufficient strength.",
+    "translation_description": "In tal caso, potrebbe essere necessario riprendere l\u0027esplorazione del Palazzo dei Morti dal piano 1 per assicurarti che il tuo equipaggiamento Aetherpool abbia forza sufficiente."
+  },
+  "140": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_606",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_000_606",
+    "description": "They have various effects such as revealing the entirety of a map or increasing the number of treasure coffers on a given floor. Effective use of these items will help ensure the situation is always to your advantage.",
+    "translation_description": "Gli oggetti speciali hanno vari effetti: possono rivelare l\u0027intera mappa o aumentare il numero di scrigni del tesoro presenti a un piano. Usarli al meglio ti dar\u00e0 sempre un vantaggio."
+  },
+  "141": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_LEVEL",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_LEVEL",
+    "description": "How do I grow stronger in the Palace of the Dead?",
+    "translation_description": "Come posso diventare pi\u00f9 forte nel Palazzo dei Morti?"
+  },
+  "142": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_LEVEL_BACK",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_LEVEL_BACK",
+    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation_description": "\uff08\u2605Non utilizzato; rimozione prevista\u2605\uff09"
+  },
+  "143": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_010",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_010",
+    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation_description": "\uff08\u2605Non utilizzato; rimozione prevista\u2605\uff09"
+  },
+  "144": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_030",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_WOODWAILERCAPTAIN01556_000_030",
+    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "translation_description": "\uff08\u2605Non utilizzato; rimozione prevista\u2605\uff09"
+  },
+  "145": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_START_MENU_TITLE",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_START_MENU_TITLE",
+    "description": "What will you do?",
+    "translation_description": "Cosa fai?"
+  },
+  "146": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_START_MENU_EXIT",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_START_MENU_EXIT",
+    "description": "Nothing.",
+    "translation_description": "Niente."
+  },
+  "147": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_MIDDLE_TOP_MENU_CANCEL",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_MIDDLE_TOP_MENU_CANCEL",
+    "description": "",
+    "translation_description": ""
+  },
+  "148": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_WHAT_Q4EX",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_TEST_ABOUT_WHAT_Q4EX",
+    "description": "Floor restrictions.",
+    "translation_description": "Limitazioni dei piani."
+  },
+  "149": {
+    "name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_100_308",
+    "translation_name": "TEXT_DEEPDUNGEONENTRANCE_SYSTEM_100_308",
+    "description": "",
+    "translation_description": ""
+  }
+}

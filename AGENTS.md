@@ -11,13 +11,17 @@
 ## Traduzioni
 
 - Traduci e controlla le voci una per una, tenendo conto del contesto, del registro del personaggio e delle decisioni del glossario.
+- Prima di intervenire, identifica la funzione del foglio nel gioco (dialogo, HUD, tooltip, registro, oggetto o menu) e i rapporti tra campi e righe. Verifica le dipendenze pertinenti, per esempio nome e descrizione di un oggetto o un campo che riprende la riga precedente.
+- Distingui etichette e prosa: applica le note d'uso del glossario, adattando maiuscole, articoli, preposizioni e accordi alla frase. Uniforma i verbi ricorrenti solo quando indicano la stessa azione e lo stesso registro.
 - Per ogni traduzione con riferimenti narrativi o nomi propri (personaggi, luoghi, popoli, fazioni, creature, quest e oggetti legati alla lore), consulta la pagina pertinente della wiki di FFXIV e usa il contesto attestato per scegliere la resa. Non tradurre questi riferimenti in modo isolato o per semplice somiglianza lessicale; se la wiki non chiarisce il punto, segnala l'ambiguità senza inventare dettagli.
+- Quando l'inglese è ambiguo per significato, gioco di parole o meccanica, confronta se disponibili le versioni ufficiali francese, tedesca o giapponese. Usa il confronto come indizio e registra la scelta nei casi decisivi; non è un passaggio obbligatorio per ogni voce.
 - Per capire una scelta editoriale, cerca prima correzioni recenti dell'utente nei file canonici e revisionati. Prevalgono le istruzioni esplicite dell'utente e il glossario; una correzione isolata non va generalizzata fuori dal suo contesto.
 - Conserva ID, struttura JSON, campi sorgente e metadati. Modifica solo i campi di traduzione richiesti.
 - Preserva tag e codici SeString. Traduci il testo leggibile dentro i payload esadecimali solo seguendo le regole e gli strumenti esistenti.
 - Per accordi riferiti al giocatore, verifica entrambi i risultati completi di If(gnum4), ramo femminile e poi maschile; non cambiare il referente delle condizioni native. Le sole eccezioni alla conservazione dei trattini sono quelle documentate nel glossario.
 - Prima di scegliere un lemma identifica il campo e il referente: Arms araldico non è un'arma, range di livelli non è una distanza, weaponskill non è un'azione istintiva. Conserva comandi e parametri letterali, traducendo la spiegazione circostante.
 - Dopo la traduzione esegui il validatore appropriato sul perimetro modificato. Il controllo automatico non sostituisce la revisione linguistica né l'approvazione dell'utente.
+- Nel resoconto indica il perimetro verificato e le motivazioni delle correzioni pertinenti: glossario e note d'uso, uniformazioni terminologiche o sintattiche, tipografia e coerenza tra campi, eventuale disambiguazione multilingue. Non inventare categorie prive di interventi.
 - Applica le correzioni dell'utente. Aggiungi al glossario le decisioni terminologiche confermate, con riferimento `percorso#ID:campo` oppure «Decisione dell'utente» e una nota d'uso.
 - Non spostare file tra gli stati editoriali e non dichiarare un file approvato senza conferma dell'utente.
 - **File esclusi o invariati per decisione editoriale**:

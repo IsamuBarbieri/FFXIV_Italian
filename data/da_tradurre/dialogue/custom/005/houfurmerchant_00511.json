@@ -1,0 +1,1394 @@
+{
+  "0": {
+    "name": "TEXT_HOUFURMERCHANT_00511_CALL_RETAINER_FAILED",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_CALL_RETAINER_FAILED",
+    "description": "Your retainer did not respond.",
+    "translation_description": ""
+  },
+  "1": {
+    "name": "TEXT_HOUFURMERCHANT_00511_CALL_FAILED_NO_CHARGE",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_CALL_FAILED_NO_CHARGE",
+    "description": "The retainer managing this mannequin has been released from service. To access this mannequin, place it again and assign a new retainer.",
+    "translation_description": ""
+  },
+  "2": {
+    "name": "TEXT_HOUFURMERCHANT_00511_CHANGE_STATUS_DISABLE",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_CHANGE_STATUS_DISABLE",
+    "description": "You must remove all gear from the mannequin before changing its settings.",
+    "translation_description": ""
+  },
+  "3": {
+    "name": "TEXT_HOUFURMERCHANT_00511_SELL_DISABLE",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_SELL_DISABLE",
+    "description": "You must remove all gear from the mannequin before you can list items for sale.",
+    "translation_description": ""
+  },
+  "4": {
+    "name": "TEXT_HOUFURMERCHANT_00511_DISPLAY_DISABLE",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_DISPLAY_DISABLE",
+    "description": "You must remove all gear from the mannequin before you can list items to display.",
+    "translation_description": ""
+  },
+  "5": {
+    "name": "TEXT_HOUFURMERCHANT_00511_Q1_000_001",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_Q1_000_001",
+    "description": "Select an option.",
+    "translation_description": ""
+  },
+  "6": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A1_000_001",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A1_000_001",
+    "description": "Select gear to sell.",
+    "translation_description": ""
+  },
+  "7": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A1_000_008",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A1_000_008",
+    "description": "Select gear to display.",
+    "translation_description": ""
+  },
+  "8": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A1_000_002",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A1_000_002",
+    "description": "View sale history.",
+    "translation_description": ""
+  },
+  "9": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A1_000_004",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A1_000_004",
+    "description": "Assign mannequin class. (Current setting: \u003Chex:022D14FF1202280EFF09436C6173734A6F62E802010303\u003E)",
+    "translation_description": ""
+  },
+  "10": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A1_000_005",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A1_000_005",
+    "description": "Select race and gender. (Current setting: \u003Chex:020813E4E80301FF054D616C65FF0746656D616C6503\u003E \u003Chex:02280AFF0552616365E8020103\u003E)",
+    "translation_description": ""
+  },
+  "11": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A1_000_006",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A1_000_006",
+    "description": "Select a pose. (Current setting: \u003Chex:022819FF14486F7573696E674D65726368616E74506F7365E8020203\u003E)",
+    "translation_description": ""
+  },
+  "12": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A1_000_007",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A1_000_007",
+    "description": "Quit.",
+    "translation_description": ""
+  },
+  "13": {
+    "name": "TEXT_HOUFURMERCHANT_00511_Q2_000_001",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_Q2_000_001",
+    "description": "Select a class.",
+    "translation_description": ""
+  },
+  "14": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A2_000_001",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A2_000_001",
+    "description": "Tank.",
+    "translation_description": ""
+  },
+  "15": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A2_000_002",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A2_000_002",
+    "description": "Healer.",
+    "translation_description": ""
+  },
+  "16": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A2_000_003",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A2_000_003",
+    "description": "DPS.",
+    "translation_description": ""
+  },
+  "17": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A2_000_004",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A2_000_004",
+    "description": "Disciple of the Hand.",
+    "translation_description": ""
+  },
+  "18": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A2_000_005",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A2_000_005",
+    "description": "Disciple of the Land.",
+    "translation_description": ""
+  },
+  "19": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A2_000_006",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A2_000_006",
+    "description": "Quit.",
+    "translation_description": ""
+  },
+  "20": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A3_000_001",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A3_000_001",
+    "description": "\u003Chex:022D14FF1202280EFF09436C6173734A6F62E802010303\u003E.",
+    "translation_description": ""
+  },
+  "21": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A3_000_002",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A3_000_002",
+    "description": "Quit.",
+    "translation_description": ""
+  },
+  "22": {
+    "name": "TEXT_HOUFURMERCHANT_00511_Q4_000_001",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_Q4_000_001",
+    "description": "Your mannequin\u0027s class will be changed to \u003Chex:02280EFF09436C6173734A6F62E8020103\u003E. Proceed?",
+    "translation_description": ""
+  },
+  "23": {
+    "name": "TEXT_HOUFURMERCHANT_00511_Q32_000_001",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_Q32_000_001",
+    "description": "Select race.",
+    "translation_description": ""
+  },
+  "24": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A32_000_001",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A32_000_001",
+    "description": "\u003Chex:02280AFF0552616365E8020103\u003E.",
+    "translation_description": ""
+  },
+  "25": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A32_000_002",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A32_000_002",
+    "description": "Quit.",
+    "translation_description": ""
+  },
+  "26": {
+    "name": "TEXT_HOUFURMERCHANT_00511_Q33_001_001",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_Q33_001_001",
+    "description": "Select gender.",
+    "translation_description": ""
+  },
+  "27": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A33_001_001",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A33_001_001",
+    "description": "Male.",
+    "translation_description": ""
+  },
+  "28": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A33_001_002",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A33_001_002",
+    "description": "Female.",
+    "translation_description": ""
+  },
+  "29": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A33_001_003",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A33_001_003",
+    "description": "Quit.",
+    "translation_description": ""
+  },
+  "30": {
+    "name": "TEXT_HOUFURMERCHANT_00511_Q34_002_001",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_Q34_002_001",
+    "description": "Your mannequin will be changed to a \u003Chex:020813E4E80301FF054D616C65FF0746656D616C6503\u003E \u003Chex:02280AFF0552616365E8020103\u003E. Proceed?",
+    "translation_description": ""
+  },
+  "31": {
+    "name": "TEXT_HOUFURMERCHANT_00511_Q5_000_001",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_Q5_000_001",
+    "description": "Select race and gender.",
+    "translation_description": ""
+  },
+  "32": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A5_000_001",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A5_000_001",
+    "description": "Male Miqo\u0027te.",
+    "translation_description": ""
+  },
+  "33": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A5_000_002",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A5_000_002",
+    "description": "Female Miqo\u0027te.",
+    "translation_description": ""
+  },
+  "34": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A5_000_003",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A5_000_003",
+    "description": "Quit.",
+    "translation_description": ""
+  },
+  "35": {
+    "name": "TEXT_HOUFURMERCHANT_00511_Q6_000_001",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_Q6_000_001",
+    "description": "Your mannequin will be changed to a \u003Chex:020823E1E80202FF0F66656D616C65204D69716F277465FF0D6D616C65204D69716F27746503\u003E. Proceed?",
+    "translation_description": ""
+  },
+  "36": {
+    "name": "TEXT_HOUFURMERCHANT_00511_Q7_000_001",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_Q7_000_001",
+    "description": "Select a pose.",
+    "translation_description": ""
+  },
+  "37": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A7_000_000",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A7_000_000",
+    "description": "\u003Chex:022819FF14486F7573696E674D65726368616E74506F7365E8020203\u003E.",
+    "translation_description": ""
+  },
+  "38": {
+    "name": "TEXT_HOUFURMERCHANT_00511_A7_000_001",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_A7_000_001",
+    "description": "Quit.",
+    "translation_description": ""
+  },
+  "39": {
+    "name": "TEXT_HOUFURMERCHANT_00511_Q8_000_001",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_Q8_000_001",
+    "description": "Your mannequin\u0027s pose will be changed to \u003Chex:022819FF14486F7573696E674D65726368616E74506F7365E8020203\u003E. Proceed?",
+    "translation_description": ""
+  },
+  "40": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_MALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_MALE_TYPE1",
+    "description": "I have come, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E.",
+    "translation_description": ""
+  },
+  "41": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_MALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_MALE_TYPE2",
+    "description": "Nothin\u0027 fer ye to worry about.",
+    "translation_description": ""
+  },
+  "42": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_MALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_MALE_TYPE3",
+    "description": "You summoned?",
+    "translation_description": ""
+  },
+  "43": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_MALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_MALE_TYPE4",
+    "description": "Yes? \u003Csigh\u003E I hope this doesn\u0027t take long...",
+    "translation_description": ""
+  },
+  "44": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_MALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_MALE_TYPE5",
+    "description": "You wish to see how a master handles a bazaar?",
+    "translation_description": ""
+  },
+  "45": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_MALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_MALE_TYPE6",
+    "description": "Hello, hello! You called?",
+    "translation_description": ""
+  },
+  "46": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_FEMALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_FEMALE_TYPE1",
+    "description": "At your service, my \u003Chex:02080FE905FF056C616479FF056C6F726403\u003E.",
+    "translation_description": ""
+  },
+  "47": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_FEMALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_FEMALE_TYPE2",
+    "description": "What\u0027s it to be this time, love?",
+    "translation_description": ""
+  },
+  "48": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_FEMALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_FEMALE_TYPE3",
+    "description": "What would you ask?",
+    "translation_description": ""
+  },
+  "49": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_FEMALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_FEMALE_TYPE4",
+    "description": "I\u0027m so sorry to keep you waiting, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. So very, very sorry.",
+    "translation_description": ""
+  },
+  "50": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_FEMALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_FEMALE_TYPE5",
+    "description": "Quickly now, I\u0027ve places to be.",
+    "translation_description": ""
+  },
+  "51": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_FEMALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_FEMALE_TYPE6",
+    "description": "Well, if it ain\u0027t my favorite client! Always a pleasure, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E!",
+    "translation_description": ""
+  },
+  "52": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_MALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_MALE_TYPE1",
+    "description": "Yes, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E? What is your bidding?",
+    "translation_description": ""
+  },
+  "53": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_MALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_MALE_TYPE2",
+    "description": "What\u0027s on the agenda, chief? Deprivin\u0027 saps o\u0027 their hard-earned gil?",
+    "translation_description": ""
+  },
+  "54": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_MALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_MALE_TYPE3",
+    "description": "I have come. You may proceed.",
+    "translation_description": ""
+  },
+  "55": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_MALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_MALE_TYPE4",
+    "description": "Oh, hello there. To what do I owe the pleasure?",
+    "translation_description": ""
+  },
+  "56": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_MALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_MALE_TYPE5",
+    "description": "I am come to conduct business, and only business.",
+    "translation_description": ""
+  },
+  "57": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_MALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_MALE_TYPE6",
+    "description": "You look to be in good health, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. How may I assist you this fine \u003Chex:02082EE3E90C0DFF14020810E3E90C05FF04657665FF056D6F726E03FF1302080FE3E90C12FF04646179FF046576650303\u003E?",
+    "translation_description": ""
+  },
+  "58": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_FEMALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_FEMALE_TYPE1",
+    "description": "What is it you would have me do, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E?",
+    "translation_description": ""
+  },
+  "59": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_FEMALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_FEMALE_TYPE2",
+    "description": "Usually, it\u0027s me doin\u0027 the summons and others doin\u0027 the waitin\u0027.",
+    "translation_description": ""
+  },
+  "60": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_FEMALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_FEMALE_TYPE3",
+    "description": "Is there something that I can help you with?",
+    "translation_description": ""
+  },
+  "61": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_FEMALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_FEMALE_TYPE4",
+    "description": "Oh, why must you summon me at a time like this...?",
+    "translation_description": ""
+  },
+  "62": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_FEMALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_FEMALE_TYPE5",
+    "description": "I\u0027m sure there is a perfectly good explanation for this summons.",
+    "translation_description": ""
+  },
+  "63": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_FEMALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_FEMALE_TYPE6",
+    "description": "You know, I thought you might be along to summon me. You may rest assured that I am ready and eager to serve.",
+    "translation_description": ""
+  },
+  "64": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_MALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_MALE_TYPE1",
+    "description": "Hail to thee, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. Your humble servant has heard your summons.",
+    "translation_description": ""
+  },
+  "65": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_MALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_MALE_TYPE2",
+    "description": "Greetin\u0027s and salutations, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E. Pray speak yer desires, an\u0027 I\u0027ll do me damndest to see \u0027em done.",
+    "translation_description": ""
+  },
+  "66": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_MALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_MALE_TYPE3",
+    "description": "I was wondering when you\u0027d get around to calling me.",
+    "translation_description": ""
+  },
+  "67": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_MALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_MALE_TYPE4",
+    "description": "Mind if we keep this brief? I\u0027ve got a pretty little thing that\u0027s waitin\u0027 for me.",
+    "translation_description": ""
+  },
+  "68": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_MALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_MALE_TYPE5",
+    "description": "What?",
+    "translation_description": ""
+  },
+  "69": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_MALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_MALE_TYPE6",
+    "description": "I\u0027m here, I\u0027m here!",
+    "translation_description": ""
+  },
+  "70": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_FEMALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_FEMALE_TYPE1",
+    "description": "Here I am, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E, as per your request.",
+    "translation_description": ""
+  },
+  "71": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_FEMALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_FEMALE_TYPE2",
+    "description": "\u0027Ello, dearie. What\u0027s on the docket?",
+    "translation_description": ""
+  },
+  "72": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_FEMALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_FEMALE_TYPE3",
+    "description": "I never miss a chance to line these pockets.",
+    "translation_description": ""
+  },
+  "73": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_FEMALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_FEMALE_TYPE4",
+    "description": "Well, this is unexpected! What\u0027ll it be?",
+    "translation_description": ""
+  },
+  "74": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_FEMALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_FEMALE_TYPE5",
+    "description": "What is it now?",
+    "translation_description": ""
+  },
+  "75": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_FEMALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_FEMALE_TYPE6",
+    "description": "Here I aaaaaam!",
+    "translation_description": ""
+  },
+  "76": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_MALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_MALE_TYPE1",
+    "description": "How may I be of serrrvice, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E?",
+    "translation_description": ""
+  },
+  "77": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_MALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_MALE_TYPE2",
+    "description": "It\u0027s a war out there, \u003Chex:02080EE905FF056D697373FF0473697203\u003E. You have no idea.",
+    "translation_description": ""
+  },
+  "78": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_MALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_MALE_TYPE3",
+    "description": "...",
+    "translation_description": ""
+  },
+  "79": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_MALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_MALE_TYPE4",
+    "description": "Business or pleasure?",
+    "translation_description": ""
+  },
+  "80": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_MALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_MALE_TYPE5",
+    "description": "I presume you did not summon me solely for the pleasure of my company.",
+    "translation_description": ""
+  },
+  "81": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_MALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_MALE_TYPE6",
+    "description": "Just the \u003Chex:020821E905FF0C66616972206D616964656EFF1068616E64736F6D652066656C6C6F7703\u003E I was hoping to see! Tell me your heart\u0027s desire.",
+    "translation_description": ""
+  },
+  "82": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_FEMALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_FEMALE_TYPE1",
+    "description": "I hope your catcall is not one of disapproval.",
+    "translation_description": ""
+  },
+  "83": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_FEMALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_FEMALE_TYPE2",
+    "description": "Ye rang, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E?",
+    "translation_description": ""
+  },
+  "84": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_FEMALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_FEMALE_TYPE3",
+    "description": "A cat\u0027s ears do not miss much\u2015least of all a summons.",
+    "translation_description": ""
+  },
+  "85": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_FEMALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_FEMALE_TYPE4",
+    "description": "Curiosity called the cat. What do you have for me today?",
+    "translation_description": ""
+  },
+  "86": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_FEMALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_FEMALE_TYPE5",
+    "description": "Ready when you are.",
+    "translation_description": ""
+  },
+  "87": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_FEMALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_FEMALE_TYPE6",
+    "description": "I was just thinking of you!",
+    "translation_description": ""
+  },
+  "88": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_MALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_MALE_TYPE1",
+    "description": "What need have you of me today, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E?",
+    "translation_description": ""
+  },
+  "89": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_MALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_MALE_TYPE2",
+    "description": "Bwahahaha! Ye got work needs gettin\u0027 done? Just point me in the right bloody direction.",
+    "translation_description": ""
+  },
+  "90": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_MALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_MALE_TYPE3",
+    "description": "I\u0027ve come. What is it?",
+    "translation_description": ""
+  },
+  "91": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_MALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_MALE_TYPE4",
+    "description": "Hey there\u2500hic\u2500\u003Chex:020810E905FF066D69737379FF056D61746503\u003E! Care to join me fer a pint?",
+    "translation_description": ""
+  },
+  "92": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_MALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_MALE_TYPE5",
+    "description": "Couldn\u0027t come no quicker. Where\u0027s the work?",
+    "translation_description": ""
+  },
+  "93": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_MALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_MALE_TYPE6",
+    "description": "I came runnin\u0027 soon as I heard the bell! Ye need somethin\u0027, chief?",
+    "translation_description": ""
+  },
+  "94": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_FEMALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_FEMALE_TYPE1",
+    "description": "I am at your disposal, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E.",
+    "translation_description": ""
+  },
+  "95": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_FEMALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_FEMALE_TYPE2",
+    "description": "Ye got somethin\u0027 fer me, cap\u0027n?",
+    "translation_description": ""
+  },
+  "96": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_FEMALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_FEMALE_TYPE3",
+    "description": "Go ahead, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "translation_description": ""
+  },
+  "97": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_FEMALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_FEMALE_TYPE4",
+    "description": "Let\u0027s keep this short and sweet, shall we?",
+    "translation_description": ""
+  },
+  "98": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_FEMALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_FEMALE_TYPE5",
+    "description": "This wouldn\u0027t be necessary if you entrusted your financial affairs to me.",
+    "translation_description": ""
+  },
+  "99": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_FEMALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_FEMALE_TYPE6",
+    "description": "So\u2500sellin\u0027, buyin\u0027, drinkin\u0027, whorin\u0027? What\u0027s it to be today?",
+    "translation_description": ""
+  },
+  "100": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_AURA_MALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_AURA_MALE_TYPE1",
+    "description": "Greetings, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. How may I be of service?",
+    "translation_description": ""
+  },
+  "101": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_AURA_MALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_AURA_MALE_TYPE2",
+    "description": "What\u0027ll it be, \u003Chex:02080FE905FF056D697373FF056D61746503\u003E?",
+    "translation_description": ""
+  },
+  "102": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_AURA_MALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_AURA_MALE_TYPE3",
+    "description": "State your business.",
+    "translation_description": ""
+  },
+  "103": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_AURA_MALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_AURA_MALE_TYPE4",
+    "description": "And how does this wonderful \u003Chex:020835E3E90C0DFF17020813E3E90C05FF086576656E696E67FF0464617903FF17020813E3E90C12FF04646179FF086576656E696E670303\u003E find you?",
+    "translation_description": ""
+  },
+  "104": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_AURA_MALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_AURA_MALE_TYPE5",
+    "description": "Well... Here I am...\u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E.",
+    "translation_description": ""
+  },
+  "105": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_AURA_MALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_AURA_MALE_TYPE6",
+    "description": "We work the market stalls,\u266A\u003Chex:02100103\u003EAnd our uniforms are pretty;\u266A\u003Chex:02100103\u003EWe are sober men and true,\u266A\u003Chex:02100103\u003EAnd attentive to our duties!\u266A",
+    "translation_description": ""
+  },
+  "106": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_AURA_FEMALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_AURA_FEMALE_TYPE1",
+    "description": "\u003Chex:020815E905FF084D79206C616479FF084D79206C6F726403\u003E. What would you ask of me?",
+    "translation_description": ""
+  },
+  "107": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_AURA_FEMALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_AURA_FEMALE_TYPE2",
+    "description": "So. We doing this?",
+    "translation_description": ""
+  },
+  "108": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_AURA_FEMALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_AURA_FEMALE_TYPE3",
+    "description": "Yes?",
+    "translation_description": ""
+  },
+  "109": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_AURA_FEMALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_AURA_FEMALE_TYPE4",
+    "description": "Hey, it\u0027s...it\u0027s you! Hello again, you!",
+    "translation_description": ""
+  },
+  "110": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_AURA_FEMALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_AURA_FEMALE_TYPE5",
+    "description": "I-It\u0027s not like I want to sell your items or anything.",
+    "translation_description": ""
+  },
+  "111": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_AURA_FEMALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_AURA_FEMALE_TYPE6",
+    "description": "What do you have for me? Come on, come on! Don\u0027t be shy!",
+    "translation_description": ""
+  },
+  "112": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_MALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_MALE_TYPE1",
+    "description": "You rang, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E?",
+    "translation_description": ""
+  },
+  "113": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_MALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_MALE_TYPE2",
+    "description": "I trust this will be worth my while.",
+    "translation_description": ""
+  },
+  "114": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_MALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_MALE_TYPE3",
+    "description": "\u003Chex:021A020203\u003EWhat\u003Chex:021A020103\u003E?",
+    "translation_description": ""
+  },
+  "115": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_MALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_MALE_TYPE4",
+    "description": "Whatever you need, leave it to me! I have my methods.",
+    "translation_description": ""
+  },
+  "116": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_MALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_MALE_TYPE5",
+    "description": "Gahaha! If it isn\u0027t my favorite \u003Chex:020815E905FF096D69737472657373FF076D617374657203\u003E!",
+    "translation_description": ""
+  },
+  "117": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_MALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_MALE_TYPE6",
+    "description": "It is I, your most loyal and capable retainer!",
+    "translation_description": ""
+  },
+  "118": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_FEMALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_FEMALE_TYPE1",
+    "description": "What will it be, love?",
+    "translation_description": ""
+  },
+  "119": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_FEMALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_FEMALE_TYPE2",
+    "description": "Your orders! I would hear them at once!",
+    "translation_description": ""
+  },
+  "120": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_FEMALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_FEMALE_TYPE3",
+    "description": "If there is something you would ask of me, then ask it.",
+    "translation_description": ""
+  },
+  "121": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_FEMALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_FEMALE_TYPE4",
+    "description": "Yes...? Is there something you\u2500\u003Cyawn\u003E\u2500need?",
+    "translation_description": ""
+  },
+  "122": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_FEMALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_FEMALE_TYPE5",
+    "description": "A task for me? I hope it\u0027s something fun!",
+    "translation_description": ""
+  },
+  "123": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_FEMALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_FEMALE_TYPE6",
+    "description": "I am here to do your every bidding, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E! Ask of me anything at all!",
+    "translation_description": ""
+  },
+  "124": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_MALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_MALE_TYPE1",
+    "description": "I have been awaiting your summons, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. What would you have of me this fine \u003Chex:020839E3E90C0DFF1B020817E3E90C05FF086576656E696E67FF086D6F726E696E6703FF17020813E3E90C12FF04646179FF086576656E696E670303\u003E?",
+    "translation_description": ""
+  },
+  "125": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_MALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_MALE_TYPE2",
+    "description": "What can I do for ye, yer \u003Chex:020817E905FF096C61647973686970FF096C6F72647368697003\u003E?",
+    "translation_description": ""
+  },
+  "126": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_MALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_MALE_TYPE3",
+    "description": "You called, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E...?",
+    "translation_description": ""
+  },
+  "127": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_MALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_MALE_TYPE4",
+    "description": "You\u2500hic\u2500rang?",
+    "translation_description": ""
+  },
+  "128": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_MALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_MALE_TYPE5",
+    "description": "Need my assistance, do you? Let\u0027s make this quick, then.",
+    "translation_description": ""
+  },
+  "129": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_MALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_MALE_TYPE6",
+    "description": "You have my ear, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E. Both of them, in fact!",
+    "translation_description": ""
+  },
+  "130": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_FEMALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_FEMALE_TYPE1",
+    "description": "You summoned me, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E?",
+    "translation_description": ""
+  },
+  "131": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_FEMALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_FEMALE_TYPE2",
+    "description": "At your beck an\u0027 call, I am!",
+    "translation_description": ""
+  },
+  "132": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_FEMALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_FEMALE_TYPE3",
+    "description": "You called, and I have come.",
+    "translation_description": ""
+  },
+  "133": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_FEMALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_FEMALE_TYPE4",
+    "description": "At last\u2500I thought you\u0027d \u003Chex:021A020203\u003Enever\u003Chex:021A020103\u003E call. What does \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E need of me?",
+    "translation_description": ""
+  },
+  "134": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_FEMALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_FEMALE_TYPE5",
+    "description": "Could it be...? The famous \u003Chex:022C0DFF07022903EB0203FF02200203\u003E has called on \u003Chex:021A020203\u003Eme\u003Chex:021A020103\u003E? \u003Cchuckle\u003E",
+    "translation_description": ""
+  },
+  "135": {
+    "name": "TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_FEMALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_FEMALE_TYPE6",
+    "description": "Yes, yes, here I am! Ready at a moment\u0027s notice!",
+    "translation_description": ""
+  },
+  "136": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_MALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_MALE_TYPE1",
+    "description": "If that is all, I will take my leave now, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E.",
+    "translation_description": ""
+  },
+  "137": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_MALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_MALE_TYPE2",
+    "description": "Take care o\u0027 yerself, hear?",
+    "translation_description": ""
+  },
+  "138": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_MALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_MALE_TYPE3",
+    "description": "Until we next meet.",
+    "translation_description": ""
+  },
+  "139": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_MALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_MALE_TYPE4",
+    "description": "Well, it\u0027s about time. Good-bye.",
+    "translation_description": ""
+  },
+  "140": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_MALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_MALE_TYPE5",
+    "description": "I believe thanks are in order.",
+    "translation_description": ""
+  },
+  "141": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_MALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_MALE_TYPE6",
+    "description": "I\u0027m off, then!",
+    "translation_description": ""
+  },
+  "142": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_FEMALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_FEMALE_TYPE1",
+    "description": "With your leave, my \u003Chex:02080FE905FF056C616479FF056C6F726403\u003E.",
+    "translation_description": ""
+  },
+  "143": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_FEMALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_FEMALE_TYPE2",
+    "description": "Don\u0027t you worry \u0027bout a thing. I got this.",
+    "translation_description": ""
+  },
+  "144": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_FEMALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_FEMALE_TYPE3",
+    "description": "Farewell, then.",
+    "translation_description": ""
+  },
+  "145": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_FEMALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_FEMALE_TYPE4",
+    "description": "If there is nothing else, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E, I\u0027ll be going now.",
+    "translation_description": ""
+  },
+  "146": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_FEMALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_FEMALE_TYPE5",
+    "description": "Is that all? Very well, until next time.",
+    "translation_description": ""
+  },
+  "147": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_FEMALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_FEMALE_TYPE6",
+    "description": "Oh, will that be all today? Very well, but promise me you\u0027ll come back soon!",
+    "translation_description": ""
+  },
+  "148": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_MALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_MALE_TYPE1",
+    "description": "As always, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E, it has been an honor and a privilege.",
+    "translation_description": ""
+  },
+  "149": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_MALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_MALE_TYPE2",
+    "description": "You can count on me, chief\u2500I know how to get things done.",
+    "translation_description": ""
+  },
+  "150": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_MALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_MALE_TYPE3",
+    "description": "Don\u0027t be a stranger.",
+    "translation_description": ""
+  },
+  "151": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_MALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_MALE_TYPE4",
+    "description": "I swear it shall be done. Eventually.",
+    "translation_description": ""
+  },
+  "152": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_MALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_MALE_TYPE5",
+    "description": "As you wish.",
+    "translation_description": ""
+  },
+  "153": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_MALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_MALE_TYPE6",
+    "description": "Capital! I shall carry out your orders forthwith.",
+    "translation_description": ""
+  },
+  "154": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_FEMALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_FEMALE_TYPE1",
+    "description": "I humbly await your next summons, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E.",
+    "translation_description": ""
+  },
+  "155": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_FEMALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_FEMALE_TYPE2",
+    "description": "Don\u0027t leave me alone for too long, hear?",
+    "translation_description": ""
+  },
+  "156": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_FEMALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_FEMALE_TYPE3",
+    "description": "Always a pleasure.",
+    "translation_description": ""
+  },
+  "157": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_FEMALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_FEMALE_TYPE4",
+    "description": "That will be all, yes? Then if you would excuse me...",
+    "translation_description": ""
+  },
+  "158": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_FEMALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_FEMALE_TYPE5",
+    "description": "I believe that concludes our dealings for now.",
+    "translation_description": ""
+  },
+  "159": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_FEMALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_FEMALE_TYPE6",
+    "description": "Are you certain you don\u0027t desire anything else? Anything at all? Very well, I shall take my leave.",
+    "translation_description": ""
+  },
+  "160": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_MALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_MALE_TYPE1",
+    "description": "Your every whim shall be swiftly carried out with due care and consideration.",
+    "translation_description": ""
+  },
+  "161": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_MALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_MALE_TYPE2",
+    "description": "Shouldn\u0027t take more than a moment, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E.",
+    "translation_description": ""
+  },
+  "162": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_MALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_MALE_TYPE3",
+    "description": "I\u0027ll be going, then.",
+    "translation_description": ""
+  },
+  "163": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_MALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_MALE_TYPE4",
+    "description": "Thank the gods we\u0027re finished. I\u0027ve got plans to put my hands in places I\u0027ve never seen...if you know what I mean.",
+    "translation_description": ""
+  },
+  "164": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_MALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_MALE_TYPE5",
+    "description": "Be well.",
+    "translation_description": ""
+  },
+  "165": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_MALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_MALE_TYPE6",
+    "description": "I\u0027m off, I\u0027m off!",
+    "translation_description": ""
+  },
+  "166": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_FEMALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_FEMALE_TYPE1",
+    "description": "Until we meet again!",
+    "translation_description": ""
+  },
+  "167": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_FEMALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_FEMALE_TYPE2",
+    "description": "Blessin\u0027s o\u0027 the Twelve upon ye.",
+    "translation_description": ""
+  },
+  "168": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_FEMALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_FEMALE_TYPE3",
+    "description": "May Nald\u0027thal see fit to fatten our pockets!",
+    "translation_description": ""
+  },
+  "169": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_FEMALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_FEMALE_TYPE4",
+    "description": "Very good, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E! Your wish is my command, and so forth.",
+    "translation_description": ""
+  },
+  "170": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_FEMALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_FEMALE_TYPE5",
+    "description": "You know how to reach me.",
+    "translation_description": ""
+  },
+  "171": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_FEMALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_FEMALE_TYPE6",
+    "description": "Is it time for good-byes already? I\u0027m going to miss you...",
+    "translation_description": ""
+  },
+  "172": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_MALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_MALE_TYPE1",
+    "description": "Thy will be done.",
+    "translation_description": ""
+  },
+  "173": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_MALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_MALE_TYPE2",
+    "description": "The markets may be a bleedin\u0027 battlefield, but I\u0027m a godsdamned soldier. You can count on me, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "translation_description": ""
+  },
+  "174": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_MALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_MALE_TYPE3",
+    "description": "...",
+    "translation_description": ""
+  },
+  "175": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_MALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_MALE_TYPE4",
+    "description": "Why so serrrious? \u003Csigh\u003E So it goes.",
+    "translation_description": ""
+  },
+  "176": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_MALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_MALE_TYPE5",
+    "description": "I hardly think that warranted my personal appearance, but what is done is done.",
+    "translation_description": ""
+  },
+  "177": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_MALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_MALE_TYPE6",
+    "description": "Then I have satisfied your every need? Excellent! I do so take pleasure in servicing my clients.",
+    "translation_description": ""
+  },
+  "178": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_FEMALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_FEMALE_TYPE1",
+    "description": "Good-bye for now, \u003Chex:020811E905FF066D6164616DFF06736972727203\u003E.",
+    "translation_description": ""
+  },
+  "179": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_FEMALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_FEMALE_TYPE2",
+    "description": "Right then, let\u0027s get on with it!",
+    "translation_description": ""
+  },
+  "180": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_FEMALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_FEMALE_TYPE3",
+    "description": "There is no call for concerrrn.",
+    "translation_description": ""
+  },
+  "181": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_FEMALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_FEMALE_TYPE4",
+    "description": "When the master\u0027s away, the cat will play.",
+    "translation_description": ""
+  },
+  "182": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_FEMALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_FEMALE_TYPE5",
+    "description": "Gods, this is tirin\u0027...",
+    "translation_description": ""
+  },
+  "183": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_FEMALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_FEMALE_TYPE6",
+    "description": "You don\u0027t want to be with me anymore? \u003Csniffle\u003E",
+    "translation_description": ""
+  },
+  "184": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_MALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_MALE_TYPE1",
+    "description": "I shall carry out your wishes as instructed, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "translation_description": ""
+  },
+  "185": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_MALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_MALE_TYPE2",
+    "description": "Bwahahaha! I\u0027m in yer bazaar, sellin\u0027 yer wares!",
+    "translation_description": ""
+  },
+  "186": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_MALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_MALE_TYPE3",
+    "description": "I will go now.",
+    "translation_description": ""
+  },
+  "187": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_MALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_MALE_TYPE4",
+    "description": "Awww, bugger. Reckon I best get to work...",
+    "translation_description": ""
+  },
+  "188": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_MALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_MALE_TYPE5",
+    "description": "I don\u0027t do good-byes.",
+    "translation_description": ""
+  },
+  "189": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_MALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_MALE_TYPE6",
+    "description": "Go and grab yourself some shut-eye, chief. You look terrible!",
+    "translation_description": ""
+  },
+  "190": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_FEMALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_FEMALE_TYPE1",
+    "description": "Will that be all for today, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E? Understood.",
+    "translation_description": ""
+  },
+  "191": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_FEMALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_FEMALE_TYPE2",
+    "description": "Aye, aye, cap\u0027n!",
+    "translation_description": ""
+  },
+  "192": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_FEMALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_FEMALE_TYPE3",
+    "description": "Duly noted.",
+    "translation_description": ""
+  },
+  "193": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_FEMALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_FEMALE_TYPE4",
+    "description": "Not exactly how I was hopin\u0027 to spend my day, but I suppose it can\u0027t be helped.",
+    "translation_description": ""
+  },
+  "194": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_FEMALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_FEMALE_TYPE5",
+    "description": "Ours is not to reason why. Ours is but to do and die.",
+    "translation_description": ""
+  },
+  "195": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_FEMALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_FEMALE_TYPE6",
+    "description": "Ever the consummate professional, I see. Another time, then.",
+    "translation_description": ""
+  },
+  "196": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_MALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_MALE_TYPE1",
+    "description": "If there is nothing else, then I shall take my leave.",
+    "translation_description": ""
+  },
+  "197": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_MALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_MALE_TYPE2",
+    "description": "Is that all? Guess I\u0027ll be on my way, then.",
+    "translation_description": ""
+  },
+  "198": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_MALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_MALE_TYPE3",
+    "description": "Any last requests? Very well. Heh heh heh... Ahem.",
+    "translation_description": ""
+  },
+  "199": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_MALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_MALE_TYPE4",
+    "description": "Ah, yes, of course. Duty calls!",
+    "translation_description": ""
+  },
+  "200": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_MALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_MALE_TYPE5",
+    "description": "You are finished with me, then?",
+    "translation_description": ""
+  },
+  "201": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_MALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_MALE_TYPE6",
+    "description": "Here today and gone tomorrow;\u266A\u003Chex:02100103\u003EYes, I know\u2500\u266A\u003Chex:02100103\u003EThat is so!\u266A",
+    "translation_description": ""
+  },
+  "202": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_FEMALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_FEMALE_TYPE1",
+    "description": "If ever you have need of me, just ring.",
+    "translation_description": ""
+  },
+  "203": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_FEMALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_FEMALE_TYPE2",
+    "description": "Always a pleasure, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E.",
+    "translation_description": ""
+  },
+  "204": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_FEMALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_FEMALE_TYPE3",
+    "description": "Right, then.",
+    "translation_description": ""
+  },
+  "205": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_FEMALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_FEMALE_TYPE4",
+    "description": "Finished already? Guess that\u0027s that, then.",
+    "translation_description": ""
+  },
+  "206": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_FEMALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_FEMALE_TYPE5",
+    "description": "You\u0027re leaving already? Fine, then! I-It\u0027s not like I wanted you to stay or anything.",
+    "translation_description": ""
+  },
+  "207": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_FEMALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_FEMALE_TYPE6",
+    "description": "Very good, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E! Very good indeed!",
+    "translation_description": ""
+  },
+  "208": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_MALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_MALE_TYPE1",
+    "description": "Always a pleasure to serve, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E.",
+    "translation_description": ""
+  },
+  "209": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_MALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_MALE_TYPE2",
+    "description": "Hmph. I hope that next time you will have a more meaningful task for me.",
+    "translation_description": ""
+  },
+  "210": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_MALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_MALE_TYPE3",
+    "description": "\u003Chex:021A020203\u003EGood-bye\u003Chex:021A020103\u003E.",
+    "translation_description": ""
+  },
+  "211": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_MALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_MALE_TYPE4",
+    "description": "And with that, I shall be off. Places to go, people to see.",
+    "translation_description": ""
+  },
+  "212": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_MALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_MALE_TYPE5",
+    "description": "Bahahaha! Till next time, my friend!",
+    "translation_description": ""
+  },
+  "213": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_MALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_MALE_TYPE6",
+    "description": "Ring for me whenever you please! You know that I will never let you down!",
+    "translation_description": ""
+  },
+  "214": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_FEMALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_FEMALE_TYPE1",
+    "description": "Must we part so soon?",
+    "translation_description": ""
+  },
+  "215": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_FEMALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_FEMALE_TYPE2",
+    "description": "And I am off!",
+    "translation_description": ""
+  },
+  "216": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_FEMALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_FEMALE_TYPE3",
+    "description": "Call on me as you please. If I am so inclined, I will answer.",
+    "translation_description": ""
+  },
+  "217": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_FEMALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_FEMALE_TYPE4",
+    "description": "That is all, I suppose...? \u003Cyawn\u003E Very well...",
+    "translation_description": ""
+  },
+  "218": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_FEMALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_FEMALE_TYPE5",
+    "description": "That is all? Oh, I was hoping there\u0027d be more...",
+    "translation_description": ""
+  },
+  "219": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_FEMALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_FEMALE_TYPE6",
+    "description": "Is that all you need of me? But I could yet serve you in so many ways!",
+    "translation_description": ""
+  },
+  "220": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_MALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_MALE_TYPE1",
+    "description": "Do not hesitate to call upon me again. Fare you well in your endeavors, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "translation_description": ""
+  },
+  "221": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_MALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_MALE_TYPE2",
+    "description": "Just say the word, yer \u003Chex:020817E905FF096C61647973686970FF096C6F72647368697003\u003E, and I\u0027ll be here with bells on.",
+    "translation_description": ""
+  },
+  "222": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_MALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_MALE_TYPE3",
+    "description": "If you have no further need of my services...",
+    "translation_description": ""
+  },
+  "223": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_MALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_MALE_TYPE4",
+    "description": "I\u0027m off for another glass, then. You know where to find me!",
+    "translation_description": ""
+  },
+  "224": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_MALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_MALE_TYPE5",
+    "description": "What\u2500is that it? Are you \u003Chex:021A020203\u003Esure\u003Chex:021A020103\u003E you need a retainer?",
+    "translation_description": ""
+  },
+  "225": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_MALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_MALE_TYPE6",
+    "description": "Nothing else? Then I shall be hopping along.",
+    "translation_description": ""
+  },
+  "226": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_FEMALE_TYPE1",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_FEMALE_TYPE1",
+    "description": "I\u0027m glad to have been of service. Mind you don\u0027t overdo things, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "translation_description": ""
+  },
+  "227": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_FEMALE_TYPE2",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_FEMALE_TYPE2",
+    "description": "Had your fill of me, eh? Fair enough! Let me know if you need aught else!",
+    "translation_description": ""
+  },
+  "228": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_FEMALE_TYPE3",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_FEMALE_TYPE3",
+    "description": "We\u0027re done? Then I take my leave.",
+    "translation_description": ""
+  },
+  "229": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_FEMALE_TYPE4",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_FEMALE_TYPE4",
+    "description": "There\u0027s naught else \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E requires? I\u0027ll be sharpening my claws, then, waiting for your next summons.",
+    "translation_description": ""
+  },
+  "230": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_FEMALE_TYPE5",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_FEMALE_TYPE5",
+    "description": "Nothing else? Right... I\u0027ll be off!",
+    "translation_description": ""
+  },
+  "231": {
+    "name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_FEMALE_TYPE6",
+    "translation_name": "TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_FEMALE_TYPE6",
+    "description": "Have everything you need? I\u0027ll take a little nap, then.",
+    "translation_description": ""
+  }
+}

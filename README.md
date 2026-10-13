@@ -64,6 +64,9 @@ Prerequisiti: .NET 10 SDK, installazione locale di FFXIV e Penumbra configurato 
 # Avanzamento corrente
 dotnet run --project src/FFXIVItalian.Extractor -- status
 
+# Dopo un aggiornamento del client: confronto e copie aggiornate, senza modificare il corpus
+dotnet run --project src/FFXIVItalian.Extractor -- update
+
 # Validare il corpus approvato
 dotnet run --project src/FFXIVItalian.Extractor -- validate
 
@@ -82,6 +85,10 @@ python -m unittest discover -s tests
 ```
 
 In alternativa, genera o applica la mod con `dotnet run --project src/FFXIVItalian.Patcher`. Le build del patcher usano i file approvati; non modificano i file originali di FFXIV.
+
+Il comando `update` legge il client locale (il percorso predefinito è in G; è disponibile `--sqpack`) e confronta i fogli inglesi di `root.exl` con tutti e tre gli stati editoriali. Ogni esecuzione crea una cartella distinta in `data/updates/`, esclusa da Git, con `report.md`, `report.json`, copie aggiornate in `updated/` e copie originali in `backup/`. Il rapporto elenca file nuovi, ID aggiunti, ID modificati con i campi interessati, righe rimosse ed errori. Il JSON contiene le voci prima e dopo, comprese le traduzioni conservate.
+
+La base di confronto è il corpus attuale: «file nuovo» significa assente dal corpus, anche se già esistente nel vecchio client. Le traduzioni e i metadati restano conservati nelle copie; gli originali modificati richiedono controllo umano. Le righe rimosse restano nelle copie per evitare perdita di lavoro e vanno risolte prima di usarle. Non sostituire in blocco i file approvati: valida e revisiona le copie interessate, poi integra solo quelle autorizzate mantenendo lo stato editoriale concordato. Il comando non modifica il corpus, non approva file e non ricompila la mod. Un codice di uscita 1 indica errori o file non associati al client: consulta la sezione finale del rapporto prima di integrare. Per gli aggiornamenti successivi, integra prima le differenze già risolte, altrimenti verranno segnalate di nuovo.
 
 ## Documentazione e contributi
 

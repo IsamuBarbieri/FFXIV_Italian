@@ -1,0 +1,74 @@
+{
+  "0": {
+    "name": "TEXT_CMNGSCCHOCOBORACEFORGETABILITY_00229_TALK_ACTOR_02",
+    "translation_name": "TEXT_CMNGSCCHOCOBORACEFORGETABILITY_00229_TALK_ACTOR_02",
+    "description": "You wish for \u003Chex:022903EA0203\u003E to unlearn an ability? Very well, if you would be so kind as to specify the undesired ability...",
+    "translation_description": ""
+  },
+  "1": {
+    "name": "TEXT_CMNGSCCHOCOBORACEFORGETABILITY_00229_001_Q1",
+    "translation_name": "TEXT_CMNGSCCHOCOBORACEFORGETABILITY_00229_001_Q1",
+    "description": "Are you certain you wish for your race chocobo to unlearn \u003Chex:022818FF1343686F636F626F526163654162696C697479E8030103\u003E?",
+    "translation_description": ""
+  },
+  "2": {
+    "name": "TEXT_CMNGSCCHOCOBORACEFORGETABILITY_00229_001_A1",
+    "translation_name": "TEXT_CMNGSCCHOCOBORACEFORGETABILITY_00229_001_A1",
+    "description": "Yes",
+    "translation_description": ""
+  },
+  "3": {
+    "name": "TEXT_CMNGSCCHOCOBORACEFORGETABILITY_00229_001_A2",
+    "translation_name": "TEXT_CMNGSCCHOCOBORACEFORGETABILITY_00229_001_A2",
+    "description": "No",
+    "translation_description": ""
+  },
+  "4": {
+    "name": "TEXT_CMNGSCCHOCOBORACEFORGETABILITY_00229_001_DONE",
+    "translation_name": "TEXT_CMNGSCCHOCOBORACEFORGETABILITY_00229_001_DONE",
+    "description": "And with that, the process is complete. I pray this meets with your satisfaction.",
+    "translation_description": ""
+  },
+  "5": {
+    "name": "TEXT_CMNGSCCHOCOBORACEFORGETABILITY_00229_TALK_ACTOR",
+    "translation_name": "TEXT_CMNGSCCHOCOBORACEFORGETABILITY_00229_TALK_ACTOR",
+    "description": "You wish for your race chocobo to unlearn an ability? Very well, if you would be so kind as to specify the undesired ability...",
+    "translation_description": ""
+  },
+  "6": {
+    "name": "TEXT_CMNGSCCHOCOBORACEFORGETABILITY_00229_ERROR_001_01",
+    "translation_name": "TEXT_CMNGSCCHOCOBORACEFORGETABILITY_00229_ERROR_001_01",
+    "description": "No, this cannot be right, can it? According to my records, you do not even have a registered race chocobo.",
+    "translation_description": ""
+  },
+  "7": {
+    "name": "TEXT_CMNGSCCHOCOBORACEFORGETABILITY_00229_ERROR_001_02",
+    "translation_name": "TEXT_CMNGSCCHOCOBORACEFORGETABILITY_00229_ERROR_001_02",
+    "description": "Race chocobos cannot unlearn abilities until they have been officially registered.",
+    "translation_description": ""
+  },
+  "8": {
+    "name": "TEXT_CMNGSCCHOCOBORACEFORGETABILITY_00229_ERROR_002_01",
+    "translation_name": "TEXT_CMNGSCCHOCOBORACEFORGETABILITY_00229_ERROR_002_01",
+    "description": "You did remember to bring a bottle of lethe water, did you not? If not, I fear we cannot proceed.",
+    "translation_description": ""
+  },
+  "9": {
+    "name": "TEXT_CMNGSCCHOCOBORACEFORGETABILITY_00229_ERROR_002_02",
+    "translation_name": "TEXT_CMNGSCCHOCOBORACEFORGETABILITY_00229_ERROR_002_02",
+    "description": "Abilities cannot be unlearned without lethe water, which can be purchased from the tack \u0026 feed trader at the race counter.",
+    "translation_description": ""
+  },
+  "10": {
+    "name": "TEXT_CMNGSCCHOCOBORACEFORGETABILITY_00229_ERROR_003_01",
+    "translation_name": "TEXT_CMNGSCCHOCOBORACEFORGETABILITY_00229_ERROR_003_01",
+    "description": "Hm. So far as I can tell, your race chocobo possesses no abilities which can be unlearned.",
+    "translation_description": ""
+  },
+  "11": {
+    "name": "TEXT_CMNGSCCHOCOBORACEFORGETABILITY_00229_ERROR_003_02",
+    "translation_name": "TEXT_CMNGSCCHOCOBORACEFORGETABILITY_00229_ERROR_003_02",
+    "description": "Hereditary abilities are permanent. Only acquired abilities may be unlearned.",
+    "translation_description": ""
+  }
+}

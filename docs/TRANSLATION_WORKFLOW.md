@@ -7,6 +7,7 @@ Questo è il flusso principale quando il responsabile fornisce uno o più file d
 - L'utente indica i file da tradurre e, se necessario, i file di riferimento o di allineamento.
 - I file di riferimento forniscono contesto; si modificano solo se l'utente li indica anche come destinazioni.
 - Si leggono glossario, guida di stile, prompt tecnico ed esempi vicini nel corpus.
+- Si identifica dove appare il foglio nel gioco e si individuano i campi e le righe collegati (per esempio nome/descrizione o uno stato che riprende la riga precedente). Il campo sorgente corrispondente e la catena logica guidano la revisione.
 - Si tengono conto delle eccezioni editoriali stabilite: `system/creditlisttext.json` (crediti di gioco non tradotti, `translation` coincide con `original`) e `housing/orchestrion.json` (titoli dei brani musicali in `name`/`translation_name` invariati).
 
 
@@ -17,6 +18,7 @@ Questo è il flusso principale quando il responsabile fornisce uno o più file d
 - Si conservano ID, campi originali, metadati e schema JSON. Si modificano solo i campi di traduzione.
 - Conserva controlli, variabili e referenti SeString; traduci e ricodifica il testo visibile nei payload. Per il genere del giocatore applica la sezione 2 della guida di stile: puoi aggiungere If(gnum4) quando l'accordo italiano lo richiede, anche se assente nell'originale. Verifica integralmente le frasi femminile e maschile senza modificare il campo sorgente.
 - Le ambiguità che dipendono dal contesto si segnalano invece di risolverle inventando informazioni.
+- Se l'inglese lascia incerti senso, gioco di parole o meccanica, si confrontano quando disponibili le versioni ufficiali francese, tedesca o giapponese. Si annota la fonte e la decisione solo per i passaggi in cui il confronto è stato utile.
 
 ## 3. Validare e revisionare
 
@@ -29,6 +31,8 @@ dotnet run --project src/FFXIVItalian.Extractor -- validate --review data/da_rev
 Per i file approvati, `validate` controlla il corpus canonico. Per script o fogli speciali usa soltanto il validatore specifico che li copre; per esempio `tools/validate_new_sheets.py` controlla il gruppo di fogli dichiarato nel file.
 
 Dopo il controllo automatico, rileggi ogni voce nel contesto per verificare significato, naturalezza, registro, genere, tag e coerenza terminologica. Il validatore non sostituisce questa revisione.
+
+Nel resoconto finale riporta il perimetro e l'esito della verifica; raggruppa solo le correzioni effettuate per allineamento al glossario (con nota d'uso), uniformazione terminologica o sintattica, tipografia o coerenza tra campi. Segnala a parte le disambiguazioni multilingue effettivamente svolte.
 
 Il validatore è di sola verifica e non modifica le traduzioni. Un'applicazione automatica di una correzione è ammessa solo quando l'intera frase sorgente coincide con una frase approvata; se cambia anche solo il contesto circostante, l'agente adatta la correzione leggendo originale e traduzione completi.
 

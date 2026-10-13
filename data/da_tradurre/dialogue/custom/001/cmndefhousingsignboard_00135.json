@@ -1,0 +1,68 @@
+{
+  "0": {
+    "name": "TEXT_CMNDEFHOUSINGSIGNBOARD_00135_NO_PERMIT_TO_BUY1",
+    "translation_name": "TEXT_CMNDEFHOUSINGSIGNBOARD_00135_NO_PERMIT_TO_BUY1",
+    "description": "In order to purchase a plot of land privately, you must have at least one class at level 50.",
+    "translation_description": ""
+  },
+  "1": {
+    "name": "TEXT_CMNDEFHOUSINGSIGNBOARD_00135_NO_PERMIT_TO_BUY2",
+    "translation_name": "TEXT_CMNDEFHOUSINGSIGNBOARD_00135_NO_PERMIT_TO_BUY2",
+    "description": "Furthermore, you must hold a rank of second lieutenant or above in one of the Grand Companies.",
+    "translation_description": ""
+  },
+  "2": {
+    "name": "TEXT_CMNDEFHOUSINGSIGNBOARD_00135_KUGANE_NOT_OPENED",
+    "translation_name": "TEXT_CMNDEFHOUSINGSIGNBOARD_00135_KUGANE_NOT_OPENED",
+    "description": "At present, Shirogane is open for display only. Land sales will commence at a later time.",
+    "translation_description": ""
+  },
+  "3": {
+    "name": "TEXT_CMNDEFHOUSINGSIGNBOARD_00135_KUGANE_NOT_ARROWED_TO_BUY",
+    "translation_name": "TEXT_CMNDEFHOUSINGSIGNBOARD_00135_KUGANE_NOT_ARROWED_TO_BUY",
+    "description": "In order to purhase a plot in Shirogane, you must first complete the main scenario quest \u201CNot without Incident.\u201D",
+    "translation_description": ""
+  },
+  "4": {
+    "name": "TEXT_CMNDEFHOUSINGSIGNBOARD_00135_ISHGARD_NOT_OPENED",
+    "translation_name": "TEXT_CMNDEFHOUSINGSIGNBOARD_00135_ISHGARD_NOT_OPENED",
+    "description": "At present, Empyreum is open for display only. Land sales will commence at a later time.",
+    "translation_description": ""
+  },
+  "5": {
+    "name": "TEXT_CMNDEFHOUSINGSIGNBOARD_00135_ISHGARD_NOT_ARROWED_TO_BUY",
+    "translation_name": "TEXT_CMNDEFHOUSINGSIGNBOARD_00135_ISHGARD_NOT_ARROWED_TO_BUY",
+    "description": "In order to purchase a plot in Empyreum, you must first complete the main scenario quest \u201CLitany of Peace.\u201D",
+    "translation_description": ""
+  },
+  "6": {
+    "name": "TEXT_CMNDEFHOUSINGSIGNBOARD_00135_LAND_LOTTERY_LOTTED",
+    "translation_name": "TEXT_CMNDEFHOUSINGSIGNBOARD_00135_LAND_LOTTERY_LOTTED",
+    "description": "You have submitted a lottery entry for plot \u003Chex:022003E80403\u003E, ward \u003Chex:022003E80303\u003E, \u003Chex:022825FF0A506C6163654E616D65FF17022813FF0E5465727269746F727954797065E80206030103\u003E. Your lottery number is \u003Chex:022003E80503\u003E. Results will be available from \u003Chex:020703E80603\u003E\u003Chex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03\u003E:\u003Chex:022402DA03\u003E \u003Chex:020810E0DB0DFF05702E6D2EFF05612E6D2E03\u003E \u003Chex:02082BE4E94E04FF12022002DC032F022002DE032F022002DF03FF12022002DE032F022002DC032F022002DF0303\u003E.",
+    "translation_description": ""
+  },
+  "7": {
+    "name": "TEXT_CMNDEFHOUSINGSIGNBOARD_00135_LAND_LOTTERY_LOTTED_2",
+    "translation_name": "TEXT_CMNDEFHOUSINGSIGNBOARD_00135_LAND_LOTTERY_LOTTED_2",
+    "description": "The status of your lottery entry can be confirmed at any time via the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EEstate\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E tab of the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ETimers\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E interface located under \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EDuty\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E in the main menu.",
+    "translation_description": ""
+  },
+  "8": {
+    "name": "TEXT_CMNDEFHOUSINGSIGNBOARD_00135_LAND_LOTTERY_REFUND_FULL_GIL",
+    "translation_name": "TEXT_CMNDEFHOUSINGSIGNBOARD_00135_LAND_LOTTERY_REFUND_FULL_GIL",
+    "description": "Unable to claim refund. You cannot carry any more gil.",
+    "translation_description": ""
+  },
+  "9": {
+    "name": "TEXT_CMNDEFHOUSINGSIGNBOARD_00135_LAND_LOTTERY_GUIDE",
+    "translation_name": "TEXT_CMNDEFHOUSINGSIGNBOARD_00135_LAND_LOTTERY_GUIDE",
+    "description": "You have submitted a lottery entry for a different plot. Please confirm the status of your lottery entry by accessing the same placard by which you entered the lottery.\u003Chex:02100103\u003E\u003Chex:02100103\u003EPending Entry:\u003Chex:02100103\u003EPlot \u003Chex:022003E80403\u003E, Ward \u003Chex:022003E80303\u003E, \u003Chex:022825FF0A506C6163654E616D65FF17022813FF0E5465727269746F727954797065E80206030103\u003E",
+    "translation_description": ""
+  },
+  "10": {
+    "name": "TEXT_CMNDEFHOUSINGSIGNBOARD_00135_LAND_LOTTERY_GUIDE_OK",
+    "translation_name": "TEXT_CMNDEFHOUSINGSIGNBOARD_00135_LAND_LOTTERY_GUIDE_OK",
+    "description": "Accept",
+    "translation_description": ""
+  }
+}

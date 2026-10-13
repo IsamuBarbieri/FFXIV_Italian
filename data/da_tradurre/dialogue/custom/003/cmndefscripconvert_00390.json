@@ -1,0 +1,62 @@
+{
+  "0": {
+    "name": "TEXT_CMNDEFSCRIPCONVERT_00390_TALK_GREETING_00000",
+    "translation_name": "TEXT_CMNDEFSCRIPCONVERT_00390_TALK_GREETING_00000",
+    "description": "Greetings, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. If you have any \u003Chex:02310CFF054974656D04E802030203\u003E or \u003Chex:02310CFF054974656D04E803030203\u003E, I should be glad to offer you \u003Chex:02310CFF054974656D04E804030203\u003E and \u003Chex:02310CFF054974656D04E805030203\u003E respectively in exchange.",
+    "translation_description": "Salve, <hex:020815E905FF087369676E6F7261FF087369676E6F726503>. Se possiedi <hex:02310CFF054974656D04E802030203> o <hex:02310CFF054974656D04E803030203>, sar\u00e0 un piacere offrirti rispettivamente <hex:02310CFF054974656D04E804030203> e <hex:02310CFF054974656D04E805030203> in cambio."
+  },
+  "1": {
+    "name": "TEXT_CMNDEFSCRIPCONVERT_00390_ASK_SCRIP_Q000",
+    "translation_name": "TEXT_CMNDEFSCRIPCONVERT_00390_ASK_SCRIP_Q000",
+    "description": "Select the scrip you wish to exchange.",
+    "translation_description": "Seleziona il gettone che vuoi scambiare."
+  },
+  "2": {
+    "name": "TEXT_CMNDEFSCRIPCONVERT_00390_ASK_SCRIP_A001",
+    "translation_name": "TEXT_CMNDEFSCRIPCONVERT_00390_ASK_SCRIP_A001",
+    "description": "\u003Chex:022D12FF1002310CFF054974656D04E80203020303\u003E.",
+    "translation_description": "<hex:022D12FF1002310CFF054974656D04E80203020303>."
+  },
+  "3": {
+    "name": "TEXT_CMNDEFSCRIPCONVERT_00390_ASK_SCRIP_A002",
+    "translation_name": "TEXT_CMNDEFSCRIPCONVERT_00390_ASK_SCRIP_A002",
+    "description": "\u003Chex:022D12FF1002310CFF054974656D04E80203020303\u003E.",
+    "translation_description": "<hex:022D12FF1002310CFF054974656D04E80203020303>."
+  },
+  "4": {
+    "name": "TEXT_CMNDEFSCRIPCONVERT_00390_ASK_SCRIP_A003",
+    "translation_name": "TEXT_CMNDEFSCRIPCONVERT_00390_ASK_SCRIP_A003",
+    "description": "Cancel.",
+    "translation_description": "Annulla."
+  },
+  "5": {
+    "name": "TEXT_CMNDEFSCRIPCONVERT_00390_ASK_EXCHANGE_Q000",
+    "translation_name": "TEXT_CMNDEFSCRIPCONVERT_00390_ASK_EXCHANGE_Q000",
+    "description": "Exchange \u003Chex:020836E4E80302FF17022003E803032002310CFF054974656D04E802020203FF18022003E803032002310DFF054974656D04E802E803020303\u003E for \u003Chex:020836E4E80502FF17022003E805032002310CFF054974656D04E804020203FF18022003E805032002310DFF054974656D04E804E805020303\u003E?",
+    "translation_description": "Vuoi scambiare <hex:020836E4E80302FF17022003E803032002310CFF054974656D04E802020203FF18022003E803032002310DFF054974656D04E802E803020303> con <hex:020836E4E80502FF17022003E805032002310CFF054974656D04E804020203FF18022003E805032002310DFF054974656D04E804E805020303>?"
+  },
+  "6": {
+    "name": "TEXT_CMNDEFSCRIPCONVERT_00390_ASK_LIMIT_Q000",
+    "translation_name": "TEXT_CMNDEFSCRIPCONVERT_00390_ASK_LIMIT_Q000",
+    "description": "Warning: You will not be able to receive all \u003Chex:02310CFF054974656D03E802030203\u003E. Do you still wish to proceed?",
+    "translation_description": "Attenzione: non potrai ricevere la quantit\u00e0 completa di <hex:02310CFF054974656D03E802030203>. Vuoi procedere comunque?"
+  },
+  "7": {
+    "name": "TEXT_CMNDEFSCRIPCONVERT_00390_SYSTEM_EXCHANGE_00000",
+    "translation_name": "TEXT_CMNDEFSCRIPCONVERT_00390_SYSTEM_EXCHANGE_00000",
+    "description": "Exchange complete.",
+    "translation_description": "Scambio completato."
+  },
+  "8": {
+    "name": "TEXT_CMNDEFSCRIPCONVERT_00390_TALK_NOTOBTAINABLE_00000",
+    "translation_name": "TEXT_CMNDEFSCRIPCONVERT_00390_TALK_NOTOBTAINABLE_00000",
+    "description": "Oh? You don\u0027t appear to have any \u003Chex:02310CFF054974656D04E802030203\u003E...",
+    "translation_description": "Oh? Non sembra che tu abbia <hex:02310CFF054974656D04E802030203>..."
+  },
+  "9": {
+    "name": "TEXT_CMNDEFSCRIPCONVERT_00390_TALK_MAXIMUM_00000",
+    "translation_name": "TEXT_CMNDEFSCRIPCONVERT_00390_TALK_MAXIMUM_00000",
+    "description": "Oh? It seems you already possess the maximum number of \u003Chex:02310CFF054974656D04E802030203\u003E permitted...",
+    "translation_description": "Oh? A quanto pare hai gi\u00e0 raggiunto il limite consentito per <hex:02310CFF054974656D04E802030203>..."
+  }
+}

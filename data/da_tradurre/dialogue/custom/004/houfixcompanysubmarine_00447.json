@@ -1,0 +1,200 @@
+{
+  "0": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_TALK_ACTOR",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_TALK_ACTOR",
+    "description": "",
+    "translation_description": ""
+  },
+  "1": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_SELECT_TITLE_0",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_SELECT_TITLE_0",
+    "description": "Select an option.",
+    "translation_description": ""
+  },
+  "2": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_SELECT_TITLE",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_SELECT_TITLE",
+    "description": "Vessels deployed: \u003Chex:022003E80303\u003E/\u003Chex:022003E80403\u003E\u003Chex:02100103\u003ECeruleum tanks: \u003Chex:022003E80203\u003E\u003Chex:02100103\u003ESelect a submersible.",
+    "translation_description": ""
+  },
+  "3": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_ADD_NEW_SUBMARINE",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_ADD_NEW_SUBMARINE",
+    "description": "Outfit and register a submersible. (Dive credits required: \u003Chex:022003E80203\u003E)",
+    "translation_description": ""
+  },
+  "4": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_NAME",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_NAME",
+    "description": "\u003Chex:021A020203\u003E\u003Chex:022903EA0203\u003E\u003Chex:021A020103\u003E. (Rank: \u003Chex:022003E80603\u003E) \u003Chex:02094EE803FF01FF01FF462028566F7961676520636F6D706C65746520696E20020811E1E80701FF09022003E807036420FF0103020811E1E80401FF09022003E804036820FF0103022003E805036D2903\u003E",
+    "translation_description": ""
+  },
+  "5": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_NAME_FINISH",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_NAME_FINISH",
+    "description": "\u003Chex:021A020203\u003E\u003Chex:022903EA0203\u003E\u003Chex:021A020103\u003E. (Rank: \u003Chex:022003E80603\u003E) [Voyage complete]",
+    "translation_description": ""
+  },
+  "6": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_SELECT_EXIT",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_SELECT_EXIT",
+    "description": "Nothing.",
+    "translation_description": ""
+  },
+  "7": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CMD_TITLE",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CMD_TITLE",
+    "description": "Vessels deployed: \u003Chex:022003E80503\u003E/\u003Chex:022003E80603\u003E\u003Chex:02100103\u003ECeruleum tanks: \u003Chex:022003E80303\u003E\u003Chex:02100103\u003E\u003Chex:021A020203\u003E\u003Chex:022903EA0203\u003E\u003Chex:021A020103\u003E (Rank: \u003Chex:022003E80403\u003E) - Available",
+    "translation_description": ""
+  },
+  "8": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CMD_EXPEDITION",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CMD_EXPEDITION",
+    "description": "Deploy submersible on subaquatic voyage",
+    "translation_description": ""
+  },
+  "9": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CMD_RESULT",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CMD_RESULT",
+    "description": "View previous voyage log",
+    "translation_description": ""
+  },
+  "10": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CMD_PARTS",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CMD_PARTS",
+    "description": "Change submersible components",
+    "translation_description": ""
+  },
+  "11": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CMD_REPAIR_PARTS",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CMD_REPAIR_PARTS",
+    "description": "Repair submersible components",
+    "translation_description": ""
+  },
+  "12": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CMD_SETTING",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CMD_SETTING",
+    "description": "Change submersible preferences",
+    "translation_description": ""
+  },
+  "13": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CONF_COLOR",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CONF_COLOR",
+    "description": "Paint submersible",
+    "translation_description": ""
+  },
+  "14": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CONF_NAME",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CONF_NAME",
+    "description": "Change submersible name",
+    "translation_description": ""
+  },
+  "15": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CONF_REMOVE",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CONF_REMOVE",
+    "description": "Dismantle submersible",
+    "translation_description": ""
+  },
+  "16": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_VOY_TITLE",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_VOY_TITLE",
+    "description": "Vessels deployed: \u003Chex:022003E80403\u003E/\u003Chex:022003E80503\u003E\u003Chex:02100103\u003E\u003Chex:021A020203\u003E\u003Chex:022903EA0203\u003E\u003Chex:021A020103\u003E (Rank: \u003Chex:022003E80303\u003E) - Deployed\u003Chex:02100103\u003EVoyage complete in \u003Chex:020811E1E80601FF09022003E806036420FF0103\u003E\u003Chex:020811E1E80701FF09022003E807036820FF0103\u003E\u003Chex:022003E80803\u003Em",
+    "translation_description": ""
+  },
+  "17": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_VOY_CUR_COND",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_VOY_CUR_COND",
+    "description": "Recall submersible",
+    "translation_description": ""
+  },
+  "18": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_VOY_CUR_MAP",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_VOY_CUR_MAP",
+    "description": "View navigational charts",
+    "translation_description": ""
+  },
+  "19": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_VOY_CUR_STATUS",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_VOY_CUR_STATUS",
+    "description": "View submersible status",
+    "translation_description": ""
+  },
+  "20": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_NAME_TITLE",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_NAME_TITLE",
+    "description": "Rename your submersible.",
+    "translation_description": ""
+  },
+  "21": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_NAME_CAPTION",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_NAME_CAPTION",
+    "description": "Submersible Name",
+    "translation_description": ""
+  },
+  "22": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_NAME_MES_0",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_NAME_MES_0",
+    "description": "Names must be formed from alphanumeric characters. The following punctuation marks are also allowed:\u003Chex:02100103\u003E\u003Chex:024804F201FC03\u003E\u003Chex:024904F201FD03\u003E\u0027\u003Chex:021D0103\u003E. , : ; ! ? \u0026 - _\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u003Chex:02100103\u003E\u2022 Double spaces/underscores are not allowed.\u003Chex:02100103\u003E\u2022 A space cannot be used before or after the name.\u003Chex:02100103\u003E\u2022 Names consisting solely of punctuation marks are prohibited.",
+    "translation_description": ""
+  },
+  "23": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_REMOVE_SUBMARINE_TITLE",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_REMOVE_SUBMARINE_TITLE",
+    "description": "Are you certain you wish to dismantle \u003Chex:021A020203\u003E\u003Chex:022903EA0203\u003E\u003Chex:021A020103\u003E?\u003Chex:02100103\u003E\u003Chex:024804F201FC03\u003E\u003Chex:024904F201FD03\u003EPlease note that while submersible components will be returned, your submersible\u0027s registration, rank, and accrued experience will be lost.\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E",
+    "translation_description": ""
+  },
+  "24": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_REMOVE_SUBMARINE_CHECK",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_REMOVE_SUBMARINE_CHECK",
+    "description": "Dismantle Submersible.",
+    "translation_description": ""
+  },
+  "25": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_REGISTRATION_1",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_REGISTRATION_1",
+    "description": "To outfit and register a submersible, you must have in your possession the requisite components and dive credits.",
+    "translation_description": ""
+  },
+  "26": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_REGISTRATION_2",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_REGISTRATION_2",
+    "description": "\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EDive credits\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E can be purchased from resident caretakers with company credits.",
+    "translation_description": ""
+  },
+  "27": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_REGISTRATION_3",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_REGISTRATION_3",
+    "description": "\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESubmersible components\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E can be constructed in your company workshop. Please note that hull, stern, bow, and bridge components are required to outfit a submersible.",
+    "translation_description": ""
+  },
+  "28": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_ENERGY",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_ENERGY",
+    "description": "You cannot deploy your submersible on subaquatic voyages without ceruleum tanks, which can be purchased from resident caretakers with company credits.",
+    "translation_description": ""
+  },
+  "29": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_EXPLOG_1",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_EXPLOG_1",
+    "description": "Upon the completion of a subaquatic voyage, your mammet will provide a \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Evoyage log\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E detailing the results.",
+    "translation_description": ""
+  },
+  "30": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_EXPLOG_2",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_EXPLOG_2",
+    "description": "The information contained in this log may prove useful in preparing for your next subaquatic voyage.",
+    "translation_description": ""
+  },
+  "31": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_EXPLOG_3",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_EXPLOG_3",
+    "description": "Please note that only the log for the previous voyage will be retained.",
+    "translation_description": ""
+  },
+  "32": {
+    "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_REPAIR_ITEM",
+    "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_REPAIR_ITEM",
+    "description": "You cannot repair submersible components without the requisite materials.",
+    "translation_description": ""
+  }
+}

@@ -13,6 +13,8 @@ Per le categorie di attività usa le equivalenze raccolte nel glossario: Mission
 ### Regola 0: Maiuscole e minuscole
 Riproduci le maiuscole iniziali delle parole presenti nell'originale e conserva anche un eventuale iniziale minuscola: non trasformare automaticamente una frase che comincia con una minuscola in un titolo. Mantieni minuscoli gli articoli italiani interni alla frase, comprese le forme articolate (*del, dello, della, dei, degli, delle*). Esempio: *Order of the Twin Adder* → **Ordine della Vipera Gemella**; *letter to Goberin* → **lettera a Goberin**.
 
+La forma di un termine in un'etichetta o titolo non impone le stesse maiuscole nella prosa: segui le note d'uso del glossario e la funzione del campo. Nei testi di gioco usa l'apostrofo dritto ASCII (`'`) e le virgolette a caporale (« ») per citazioni o termini menzionati, salvo vincoli dei tag o del campo sorgente.
+
 ### Regola A: Adattamento per Videogioco (Niente Doppioni a Schermo)
 Nel client di gioco non si usa la notazione `Italiano (Inglese)` (*es. non scriviamo "Baia del Vespro (Vesper Bay)" nei dialoghi o nei menu*). Il testo deve essere **esclusivamente in italiano**, scorrevole, naturale e perfettamente dimensionato per i box dell'interfaccia.
 

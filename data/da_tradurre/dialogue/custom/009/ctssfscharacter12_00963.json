@@ -1,0 +1,902 @@
+{
+  "0": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_GREETING_TIISOLJA_000_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_GREETING_TIISOLJA_000_000",
+    "description": "How are things going, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E? Remember, we want advertisements that convey the peerless taste of Aunt Tii\u0027s Tacos!",
+    "translation_description": ""
+  },
+  "1": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_GREETING_TIISOLJA_000_001",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_GREETING_TIISOLJA_000_001",
+    "description": "Hhuki and I are hard at work in the kitchen, so we\u0027re relying on you to secure us proper packaging. Enough for all our tacos!",
+    "translation_description": ""
+  },
+  "2": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_GREETING_TIISOLJA_000_002",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_GREETING_TIISOLJA_000_002",
+    "description": "Nobody likes lumpy paste, so we\u0027ve been thumping and grinding like Yok Huy stonemasons. My arms may be tired, but I\u0027ve strength enough to accept anything you\u0027ve brought!",
+    "translation_description": ""
+  },
+  "3": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_GREETING_TIISOLJA_000_003",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_GREETING_TIISOLJA_000_003",
+    "description": "How are our uniforms coming along? Capturing Taquito\u0027s charm will be difficult, but well worth it!",
+    "translation_description": ""
+  },
+  "4": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_GREETING_TIISOLJA_000_004",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_GREETING_TIISOLJA_000_004",
+    "description": "Lovely to see you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! Are you here for a taco or a delivery? Or both!",
+    "translation_description": ""
+  },
+  "5": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_TOPMENU_000_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_TOPMENU_000_000",
+    "description": "What will you do?",
+    "translation_description": ""
+  },
+  "6": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_TOPMENU_000_001",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_TOPMENU_000_001",
+    "description": "Make a delivery (\u003Chex:022003E80303\u003E remaining).",
+    "translation_description": ""
+  },
+  "7": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_TOPMENU_000_002",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_TOPMENU_000_002",
+    "description": "Learn about custom deliveries.",
+    "translation_description": ""
+  },
+  "8": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_TOPMENU_000_003",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_TOPMENU_000_003",
+    "description": "Nothing.",
+    "translation_description": ""
+  },
+  "9": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_TUTORIAL_000_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_TUTORIAL_000_000",
+    "description": "Help Tiisol Ja achieve her goals by delivering collectables. For more information, speak with her and select \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ELearn about custom deliveries\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.",
+    "translation_description": ""
+  },
+  "10": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_TUTORIAL_001_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_TUTORIAL_001_000",
+    "description": "In making your first successful delivery, you have begun to earn Tiisol Ja\u0027s trust.",
+    "translation_description": ""
+  },
+  "11": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_TUTORIAL_001_001",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_TUTORIAL_001_001",
+    "description": "With each successful delivery, Tiisol Ja will grow more and more satisfied with your efforts. Fill the gauge completely and Tiisol Ja\u0027s \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Esatisfaction level\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E will increase, giving you the opportunity to learn more about Aunt Tii\u0027s Tacos.",
+    "translation_description": ""
+  },
+  "12": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_TUTORIAL_001_002",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_TUTORIAL_001_002",
+    "description": "You can make up to six deliveries in a given week. Deliver the items Tiisol Ja needs, and deliver them often to win the trust and praise of your new business partner!",
+    "translation_description": ""
+  },
+  "13": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_WEEKLYLIMIT_000_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_WEEKLYLIMIT_000_000",
+    "description": "You have reached the weekly limit for deliveries. You may begin again starting \u003Chex:020603120303\u003E\u003Chex:020942DDFF0753756E646179FF074D6F6E646179FF0854756573646179FF0A5765646E6573646179FF095468757273646179FF07467269646179FF09536174757264617903\u003E at \u003Chex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03\u003E \u003Chex:020810E0DB0DFF05702E6D2EFF05612E6D2E03\u003E (Earth time).",
+    "translation_description": ""
+  },
+  "14": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_001_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_001_000",
+    "description": "As you can see, I spared no detail when decorating this stand! I just love bright feathers and metallic detailing. But whatever you think will catch an Alexandrian eye will be perfect!",
+    "translation_description": ""
+  },
+  "15": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_001_001",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_001_001",
+    "description": "We have packaging that keeps our tacos warm, of course. With the right alchemical glaze on the case, our tacos will stay fresh for a time\u2500but not for a journey all the way to Alexandria!",
+    "translation_description": ""
+  },
+  "16": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_001_002",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_001_002",
+    "description": "There\u0027s more than one way to make a paste. Crushing and grinding are the obvious options, but have you ever considered straining or evaporation? The more tools we have on hand, the more methods we can try!",
+    "translation_description": ""
+  },
+  "17": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_001_003",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_001_003",
+    "description": "Taquito\u0027s adorable little image next to a delicious-looking taco? \u003Chex:021A020203\u003EEveryone\u003Chex:021A020103\u003E will be eager to wear our tunics, so let\u0027s make sure we have enough for all shapes and sizes!",
+    "translation_description": ""
+  },
+  "18": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_001_004",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_001_004",
+    "description": "Have you tried those special Alexandrian drinks? What a rush! If we\u0027re to pack a taco with that much punch, we\u0027ll need some special packaging!",
+    "translation_description": ""
+  },
+  "19": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_002_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_002_000",
+    "description": "We Turali love bold colors, so we use natural pigments to dye our clothes and paint our structures. You\u0027d be amazed by the hues our plants and minerals can muster! Homegrown splendor, I tell you.",
+    "translation_description": ""
+  },
+  "20": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_002_001",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_002_001",
+    "description": "A freshly pressed tortilla stuffed with piping-hot filling\u2500this is your Aunt Tii\u0027s way. I won\u0027t settle for soggy or tepid, so anything that keeps our precious tacos warm and ventilated is essential for deliveries!",
+    "translation_description": ""
+  },
+  "21": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_002_002",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_002_002",
+    "description": "Neotaco filling may have a simple consistency, but your Aunt Tii won\u0027t compromise on flavor. We need aromatic spices that can be ground to dust and \u003Chex:021A020203\u003Estill\u003Chex:021A020103\u003E knock your nose off!",
+    "translation_description": ""
+  },
+  "22": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_002_003",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_002_003",
+    "description": "I\u0027d like our shirts to be durable enough to undergo thorough washing, but soft enough for comfort. There\u0027s a special type of cotton that may serve perfectly, but you don\u0027t often see it at market... Which is why I have you, an expert gatherer!",
+    "translation_description": ""
+  },
+  "23": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_002_004",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_002_004",
+    "description": "Tortillas can be made of corn, wheat, beans\u2500any number of different ingredients. But what if we found something \u003Chex:021A020203\u003Eparticularly\u003Chex:021A020103\u003E daring, for that extra bit of flourish?",
+    "translation_description": ""
+  },
+  "24": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_003_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_003_000",
+    "description": "The fish we like best for stocks has both impeccable flavor and scales that gleam like dusk and dawn combined. Perfect for advertisements, I think! After all, who doesn\u0027t love shiny things?",
+    "translation_description": ""
+  },
+  "25": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_003_001",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_003_001",
+    "description": "I\u0027m never stingy on filling, so we\u0027ll need something to avoid spillage on the trip to Solution Nine. There\u0027s a jellyfish that stretches something wonderful when dried. Perhaps we can use it as wrapping?",
+    "translation_description": ""
+  },
+  "26": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_003_002",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_003_002",
+    "description": "I swear, the trickiest fish to catch are those most packed with nutrients. But once we\u0027ve got them, they\u0027ll be under my pestle. Aunt Tii is here to \u003Chex:021A020203\u003Ecook\u003Chex:021A020103\u003E.",
+    "translation_description": ""
+  },
+  "27": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_003_003",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_003_003",
+    "description": "Squid ink serves well as dye, but only if it comes from inedible squid. Apparently, the edible ones aren\u0027t nearly as effective! Mysterious, but that\u0027s what rumor holds...",
+    "translation_description": ""
+  },
+  "28": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_003_004",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_KNOWLEDGE_TIISOLJA_003_004",
+    "description": "If we make tacos from fish fit to burst with carbonation, do you think that would affect the taste? A crackle and pop\u2500a shock to the senses!",
+    "translation_description": ""
+  },
+  "29": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_JUDGEMENT_TIISOLJA_000_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_JUDGEMENT_TIISOLJA_000_000",
+    "description": "...Oh, lovely! Thank you for your efforts, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E.",
+    "translation_description": ""
+  },
+  "30": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_JUDGEMENT_TIISOLJA_000_001",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_JUDGEMENT_TIISOLJA_000_001",
+    "description": "...My, my! You\u0027ve exceeded my expectations, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Thank you very much!",
+    "translation_description": ""
+  },
+  "31": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_JUDGEMENT_TIISOLJA_000_002",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_JUDGEMENT_TIISOLJA_000_002",
+    "description": "...You\u0027ve outdone yourself, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! I could hardly imagine, let alone ask for, anything finer. You have my deepest thanks!",
+    "translation_description": ""
+  },
+  "32": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_JUDGEMENT_TIISOLJA_000_003",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_JUDGEMENT_TIISOLJA_000_003",
+    "description": "...Oh, how you spoil your Aunt Tii! If I were to repay your kindness in tacos, I\u0027d fill your belly to bursting and it would \u003Chex:021A020203\u003Estill\u003Chex:021A020103\u003E not be enough.",
+    "translation_description": ""
+  },
+  "33": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_FULLBAG_000_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_FULLBAG_000_000",
+    "description": "Unable to obtain your reward. Your inventory is full.",
+    "translation_description": ""
+  },
+  "34": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_FULLBAG_000_001",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_FULLBAG_000_001",
+    "description": "To collect your reward, make room in your inventory and speak with Tiisol Ja once more.",
+    "translation_description": ""
+  },
+  "35": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_BEFRANKUP_TIISOLJA_000_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_BEFRANKUP_TIISOLJA_000_000",
+    "description": "All right, I think we have what we need for our advertisements. Let me contact Strata.",
+    "translation_description": ""
+  },
+  "36": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_BEFRANKUP_TIISOLJA_001_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_BEFRANKUP_TIISOLJA_001_000",
+    "description": "All that\u0027s left is to seal up our precious cargo and hope for the best! I\u0027ll let Strata know we\u0027re ready.",
+    "translation_description": ""
+  },
+  "37": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_BEFRANKUP_TIISOLJA_002_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_BEFRANKUP_TIISOLJA_002_000",
+    "description": "You\u0027ve been a wonderful help. Leave the rest to us, and make yourself comfortable by the table over there.",
+    "translation_description": ""
+  },
+  "38": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_BEFRANKUP_TIISOLJA_003_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_BEFRANKUP_TIISOLJA_003_000",
+    "description": "Excellent work! I think we have all we need to supply our staff with perfectly adorable uniforms. Let\u0027s have Hhuki model for us!",
+    "translation_description": ""
+  },
+  "39": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_001_001",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_001_001",
+    "description": "The Consortium has faithfully implemented your advertisements into Solution Nine\u0027s infrastructure, and I\u0027m pleased to report that consumer reception has been distinctly positive. Aunt Tii\u0027s Tacos is a fascination.",
+    "translation_description": ""
+  },
+  "40": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_001_002",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_001_002",
+    "description": "",
+    "translation_description": ""
+  },
+  "41": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_001_003",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_001_003",
+    "description": "However, we have also received feedback that tacos appear complex and difficult to eat.",
+    "translation_description": ""
+  },
+  "42": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_001_004",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_001_004",
+    "description": "You must remember that most people in Solution Nine are accustomed to simplified jellies and nutritional bars for their meals. A bountiful selection of taco fillings, for instance, may be overwhelming to those with less adventurous palates.",
+    "translation_description": ""
+  },
+  "43": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_001_005",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_001_005",
+    "description": "I see... It must be difficult to choose if your choice has generally been limited. But limiting the tacos we offer also seems like a shame to me...",
+    "translation_description": ""
+  },
+  "44": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_001_006",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_001_006",
+    "description": "I would say it\u0027s unconscionable. Aunt Tii\u0027s Tacos prides itself in providing myriad toppings for bespoke experiences. If these people can\u0027t appreciate that, then\u2500",
+    "translation_description": ""
+  },
+  "45": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_001_106",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_001_106",
+    "description": "It\u0027s all right, Hhuki. Your Aunt Tii has no intention of reducing our offerings, but I would like to help steer our new customers towards their preferred tastes.",
+    "translation_description": ""
+  },
+  "46": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_001_007",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_001_007",
+    "description": "For that, I can think of no better answer than to proceed with taco tastings in Solution Nine, as I had initially planned.",
+    "translation_description": ""
+  },
+  "47": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_001_008",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_001_008",
+    "description": "You needn\u0027t concern yourself with limitations at this juncture. Provide what you feel is a full representation of your menu, and we will take proper measure of consumer preference and behavior.",
+    "translation_description": ""
+  },
+  "48": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_001_009",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_001_009",
+    "description": "Then your Aunt Tii will offer up a feast! We\u0027ll bring all the things we Tuliyollans like best and see how the Alexandrians take to them.",
+    "translation_description": ""
+  },
+  "49": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_001_010",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_001_010",
+    "description": "What to prepare, what to prepare... We\u0027ll need our regular tools, and, of course, a few cooks. Hhuki, for starters...",
+    "translation_description": ""
+  },
+  "50": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_001_011",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_001_011",
+    "description": "Then there\u0027s the matter of hiring new staff, and preparing a kitchen in Alexandria. I should handle those in person... Oh, but what am I saying? If Hhuki and I are over there, who will look after things here?",
+    "translation_description": ""
+  },
+  "51": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_Q1_001_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_Q1_001_000",
+    "description": "What will you say?",
+    "translation_description": ""
+  },
+  "52": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_A1_001_001",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_A1_001_001",
+    "description": "Sounds like a job for couriers.",
+    "translation_description": ""
+  },
+  "53": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_A1_001_002",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_A1_001_002",
+    "description": "Could we charter a taco dirigible?",
+    "translation_description": ""
+  },
+  "54": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_001_012",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_001_012",
+    "description": "Indeed, delivering to Solution Nine does seem to be the surest option. Rest assured, the Consortium will make arrangements with trusted couriers to convey everything both promptly and safely. ",
+    "translation_description": ""
+  },
+  "55": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_001_013",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_001_013",
+    "description": "Oh, how generous! I can\u0027t thank you enough...but I will ask for a favor. Could those couriers bring us samples of popular Alexandrian foodstuffs as well?",
+    "translation_description": ""
+  },
+  "56": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_001_014",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_001_014",
+    "description": "Wonderful! If the people of Alexandria are tasting our cuisine, I think it only fitting we sample theirs. I\u0027m sure we\u0027ll reach an understanding that way!",
+    "translation_description": ""
+  },
+  "57": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_001_015",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_001_015",
+    "description": "",
+    "translation_description": ""
+  },
+  "58": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_001_016",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_001_016",
+    "description": "",
+    "translation_description": ""
+  },
+  "59": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_001_017",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_001_017",
+    "description": "We have much to prepare\u2500Hhuki and I will take care of the tortillas and fillings. In the meantime, I want you to ready some containers that will keep Aunt Tii\u0027s signature tacos warm and fresh on their journey across Tural! ",
+    "translation_description": ""
+  },
+  "60": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_002_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_002_000",
+    "description": "I am pleased to report that our tastings were successful. To preface, our participants were in awe of both the tortillas and their varied fillings. Everything was kept in pristine condition during delivery, to the point where many assumed the tacos had been freshly prepared nearby.",
+    "translation_description": ""
+  },
+  "61": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_002_001",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_002_001",
+    "description": "That said, I am also obliged to report the qualms diners had regarding efficiency and nutritional balance. Some cited a taco\u0027s tendency to spill as a deterrent when considering future consumption, for instance. Here is the full record of our polling.",
+    "translation_description": ""
+  },
+  "62": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_002_002",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_002_002",
+    "description": "...Spiced rroneek was the most popular flavor? That\u0027s a hint in the right direction!",
+    "translation_description": ""
+  },
+  "63": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_002_003",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_002_003",
+    "description": "",
+    "translation_description": ""
+  },
+  "64": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_002_004",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_002_004",
+    "description": "As for the rest, we\u0027ll have to consider how to make our tacos more compatible with Alexandrian habits. I daresay we have our next goal!",
+    "translation_description": ""
+  },
+  "65": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_002_005",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_002_005",
+    "description": "Indeed. Creating a taco both easy to eat and nutritionally balanced\u2500from the perspective of an Alexandrian. Do you think you can manage it?",
+    "translation_description": ""
+  },
+  "66": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_MOBCHEF_002_006",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_MOBCHEF_002_006",
+    "description": "(-???-)Aunt Tii! Aunt Tiiiiii! ",
+    "translation_description": ""
+  },
+  "67": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_MOBCHEF_002_106",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_MOBCHEF_002_106",
+    "description": "Your little rascal has been underfoot all day, meowing like a menace and trying to lick the sauce. The manufactory has half a mind to dunk it in the harbor.",
+    "translation_description": ""
+  },
+  "68": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TACOCAT_002_007",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TACOCAT_002_007",
+    "description": "Mrrrrrrowl, rrrowl, rrrooowlll!",
+    "translation_description": ""
+  },
+  "69": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_002_008",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_002_008",
+    "description": "Taquito, you naughty girl! The poor dear is probably hungry, that\u0027s all. Feed her some of that fluffy fish dip we just whipped up, would you?",
+    "translation_description": ""
+  },
+  "70": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_002_009",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_002_009",
+    "description": "...Wait a moment. That\u0027s it!",
+    "translation_description": ""
+  },
+  "71": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_002_010",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_002_010",
+    "description": "We make paste! All kinds of paste, starting with that spiced rroneek that did so well. Wrap it up tight in a tortilla, and what do we have? A taco just like an Alexandrian jelly pack or meal bar!",
+    "translation_description": ""
+  },
+  "72": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_002_011",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_002_011",
+    "description": "Easy to eat, easy to blend in nourishing flourishes. I think we\u0027ve found our Solution Nine taco solution!",
+    "translation_description": ""
+  },
+  "73": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_002_012",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_002_012",
+    "description": "B-But what about the texture!? A taco is a vessel of both flavor and surprise\u2500its ingredients are meant to dance and inspire with every bite!",
+    "translation_description": ""
+  },
+  "74": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_002_013",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_002_013",
+    "description": "Can you really call some...paste-filled packet one of Aunt Tii\u0027s tacos?",
+    "translation_description": ""
+  },
+  "75": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_002_014",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_002_014",
+    "description": "Of course I can. Any taco we make is an Aunt Tii taco!",
+    "translation_description": ""
+  },
+  "76": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_002_015",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_002_015",
+    "description": "The shape may be Alexandrian, but the flavor will be undeniably Turali. Discovering how to combine the two well is our job as true masters of the craft.",
+    "translation_description": ""
+  },
+  "77": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_002_115",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_002_115",
+    "description": "...If you insist.",
+    "translation_description": ""
+  },
+  "78": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_002_016",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_002_016",
+    "description": "We have direction, purpose, and a miracle worker on our team. Nothing can stop us from perfecting this new taco. A neotaco, if you will!",
+    "translation_description": ""
+  },
+  "79": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_002_017",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_002_017",
+    "description": "Making paste takes time and hard work, but if our invention is going to be an Alexandrian staple, we had better hone our techniques and improve our efficiency. ",
+    "translation_description": ""
+  },
+  "80": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_002_018",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_002_018",
+    "description": "For that, we\u0027ll need special tools, spices, and supplements. I know you\u0027ll do your Aunt Tii proud!",
+    "translation_description": ""
+  },
+  "81": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_003_001",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_003_001",
+    "description": "Savory rroneek... An aromatic kick of spice... Even considering the addition of supplements, I am forced to concede that this is our signature flavor.",
+    "translation_description": ""
+  },
+  "82": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_003_002",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_003_002",
+    "description": "But this...this is not a taco. You cannot convince me otherwise.",
+    "translation_description": ""
+  },
+  "83": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_003_003",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_003_003",
+    "description": "Hhuki, that\u0027s...",
+    "translation_description": ""
+  },
+  "84": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TACOCAT_003_004",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TACOCAT_003_004",
+    "description": "Mrow! Mrrrow!",
+    "translation_description": ""
+  },
+  "85": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_MOTHER00963_003_005",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_MOTHER00963_003_005",
+    "description": "...You\u0027re the lady who runs the taco stand, aren\u0027t you? Your little kitty was very insistent we follow it, and I\u0027m glad we did\u2500we\u0027re famished!",
+    "translation_description": ""
+  },
+  "86": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_GIRL00963_003_006",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_GIRL00963_003_006",
+    "description": "",
+    "translation_description": ""
+  },
+  "87": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_003_007",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_003_007",
+    "description": "Yes, welcome! I\u0027m Aunt Tii and my stand offers the best tacos in the city. In fact, we were just discussing an addition to our menu. Weren\u0027t we, Hhuki?",
+    "translation_description": ""
+  },
+  "88": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_003_008",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_003_008",
+    "description": "",
+    "translation_description": ""
+  },
+  "89": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_003_008",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_003_008",
+    "description": "We are developing a new...\u003Chex:021A020203\u003Eitem\u003Chex:021A020103\u003E specifically catered to Alexandrian tastes. Forgive me for assuming based upon your garb, but we would be most grateful for your opinion, should you wish to sample it.",
+    "translation_description": ""
+  },
+  "90": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_MOTHER00963_003_009",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_MOTHER00963_003_009",
+    "description": "",
+    "translation_description": ""
+  },
+  "91": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_GIRL00963_003_010",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_GIRL00963_003_010",
+    "description": "That was delicious! Just like a meal bar from back home, except squishy on the inside and in a whole new flavor! Can we come again tomorrow, please?",
+    "translation_description": ""
+  },
+  "92": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_MOTHER00963_003_011",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_MOTHER00963_003_011",
+    "description": "...I hail from Tural myself, despite appearances. There\u0027s nothing quite like the taste of tacos.",
+    "translation_description": ""
+  },
+  "93": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_MOTHER00963_003_012",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_MOTHER00963_003_012",
+    "description": "My daughter has struggled to find something she enjoys eating over here. The food is so different, you see... But it would seem your new \u201Citem\u201D has won her over. As it doubtless would other Alexandrians.",
+    "translation_description": ""
+  },
+  "94": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_003_013",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_003_013",
+    "description": "",
+    "translation_description": ""
+  },
+  "95": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_003_013",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_003_013",
+    "description": "...Thank you. Eventually, we plan to add it to our menu, so we would be honored by your future patronage.",
+    "translation_description": ""
+  },
+  "96": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_003_014",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_003_014",
+    "description": "Two happy customers! I\u0027d say our neotacos went over well. ...Or do they still not pass muster?",
+    "translation_description": ""
+  },
+  "97": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_003_015",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_003_015",
+    "description": "",
+    "translation_description": ""
+  },
+  "98": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_003_015",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_003_015",
+    "description": "...I have been shortsighted, Aunt Tii. Please forgive me.",
+    "translation_description": ""
+  },
+  "99": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_003_016",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_003_016",
+    "description": "There is nothing to forgive. Our job is to put smiles on faces, and we do that best with tacos. The shape matters little when you consider the end result. Today, we helped a woman reconnect with her culture and share it with her daughter. Tomorrow, who can say?",
+    "translation_description": ""
+  },
+  "100": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_003_017",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_003_017",
+    "description": "",
+    "translation_description": ""
+  },
+  "101": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_003_018",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_003_018",
+    "description": "I have always admired your talents and ambition. It is the reason I arrived at your kitchen...and why I will do my utmost to support your vision of how Aunt Tii\u0027s Tacos should evolve.",
+    "translation_description": ""
+  },
+  "102": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_003_019",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_003_019",
+    "description": "",
+    "translation_description": ""
+  },
+  "103": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_003_020",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_003_020",
+    "description": "",
+    "translation_description": ""
+  },
+  "104": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_003_021",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_003_021",
+    "description": "It would seem we have a product tested and approved for sale. I shall pass along this happy news to Rhodina.",
+    "translation_description": ""
+  },
+  "105": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_003_022",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_003_022",
+    "description": "Preparations for a storefront in Solution Nine are already underway, but before we proceed with our grand opening, the Consortium would like us to address one final detail.",
+    "translation_description": ""
+  },
+  "106": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_003_023",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_003_023",
+    "description": "Taquito. Or, rather, a casual staff uniform featuring her image. No few members of the Consortium have eagerly backed the proposal, but how would you feel about producing such neotunics?",
+    "translation_description": ""
+  },
+  "107": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_003_024",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_STRATA_003_024",
+    "description": "",
+    "translation_description": ""
+  },
+  "108": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_003_025",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_003_025",
+    "description": "Ecstatic! That plump little angel is the face of our Alexandrian venture. I just know Taquito will make a name for our neotacos abroad!",
+    "translation_description": ""
+  },
+  "109": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_003_026",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_003_026",
+    "description": "I have some artistic friends who would \u003Chex:021A020203\u003Eleap\u003Chex:021A020103\u003E at the opportunity to lend a hand, but they\u0027ll need supplies, and lots of them.",
+    "translation_description": ""
+  },
+  "110": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_003_027",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_003_027",
+    "description": "Our whole staff will eventually take shifts at the second branch, and cooking is messy business, so the more spares we have, the better. Oh, I can hardly wait to see the adorable design we come up with!",
+    "translation_description": ""
+  },
+  "111": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_004_001",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_004_001",
+    "description": "Oh, Hhuki! It suits you so well!",
+    "translation_description": ""
+  },
+  "112": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_004_002",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_004_002",
+    "description": "And just look at the quality! \u003Chex:022C0DFF07022903EB0203FF02200203\u003E, you\u0027re a marvel.",
+    "translation_description": ""
+  },
+  "113": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_004_003",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_004_003",
+    "description": "",
+    "translation_description": ""
+  },
+  "114": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_004_004",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_004_004",
+    "description": "While you were busy with the tunics, your Aunt Tii was improving the neotaco. Finding new ways to refine my technique is what drives me, after all!",
+    "translation_description": ""
+  },
+  "115": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_004_005",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_004_005",
+    "description": "I, too, have been doing what I can to learn more of Alexandria. I visited the production facilities and farms that generate traditional Alexandrian fare, so as to better understand what ingredients are readily available. ",
+    "translation_description": ""
+  },
+  "116": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_004_006",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_HHUKI_004_006",
+    "description": "I determined that we might reduce production costs at our second branch by incorporating viable local produce.",
+    "translation_description": ""
+  },
+  "117": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_004_007",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_004_007",
+    "description": "That\u0027s a splendid idea, Hhuki! Let\u0027s keep exploring new ways to help our fledgling business soar.",
+    "translation_description": ""
+  },
+  "118": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_004_008",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_004_008",
+    "description": "For now, I think it\u0027s time to tell Strata that we\u0027re ready. ...We\u0027re finally ready!",
+    "translation_description": ""
+  },
+  "119": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_004_009",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_LCUT_RANKUP_TIISOLJA_004_009",
+    "description": "We never would have made it this far without you, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Would you do us the honor of attending our grand opening?",
+    "translation_description": ""
+  },
+  "120": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUPINFO_000_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUPINFO_000_000",
+    "description": "Tiisol Ja is pleased with your efforts. She now considers you a \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EHandy Helper\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.",
+    "translation_description": ""
+  },
+  "121": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUPINFO_000_001",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUPINFO_000_001",
+    "description": "Tiisol Ja is delighted with your efforts. She now considers you a \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EFlavor Savior\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.",
+    "translation_description": ""
+  },
+  "122": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUPINFO_000_002",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUPINFO_000_002",
+    "description": "Tiisol Ja is overjoyed with your efforts. She now considers you a \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EPaste Perfectionist\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.",
+    "translation_description": ""
+  },
+  "123": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUPINFO_000_003",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUPINFO_000_003",
+    "description": "Tiisol Ja could not be happier with your efforts. She now considers you a \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EBeloved \u003Chex:020812E905FF064E69656365FF074E657068657703\u003E\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.",
+    "translation_description": ""
+  },
+  "124": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUPINFO_001_001",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUPINFO_001_001",
+    "description": "And yet there is still much work to be done before a branch of Aunt Tii\u0027s Tacos can open its doors in Alexandria. To that end, Tiisol Ja has a new favor to ask of you...",
+    "translation_description": ""
+  },
+  "125": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUPINFO_001_002",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUPINFO_001_002",
+    "description": "Through your efforts, all is in readiness for the debut of Aunt Tii\u0027s Tacos in Alexandria. It seems, however, that Tiisol Ja has one last favor to ask...",
+    "translation_description": ""
+  },
+  "126": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_AFTRANKUP_000_001",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_AFTRANKUP_000_001",
+    "description": "The Custom Deliveries list for Tiisol Ja has been updated. To view the new list, speak with Tiisol Ja and select \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EMake a delivery\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.",
+    "translation_description": ""
+  },
+  "127": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_AFTRANKUP_001_001",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_AFTRANKUP_001_001",
+    "description": "A new quest continuing the story of Aunt Tii\u0027s Tacos is now available. Upon its completion, the Custom Deliveries list for Tiisol Ja will be updated.",
+    "translation_description": ""
+  },
+  "128": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_001_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_001_000",
+    "description": "Thank you for all your help, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. You must be exhausted. And starved!",
+    "translation_description": ""
+  },
+  "129": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_001_001",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_001_001",
+    "description": "Come, come, let your Aunt Tii fix you a taco. Spicy? Mild? I can even make you one filled with fruit and honey, if that\u0027s your pleasure!",
+    "translation_description": ""
+  },
+  "130": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_002_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_002_000",
+    "description": "You really are a godssend, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. Thanks to your help, we\u0027ve been testing all sorts of flavors, for both Turali and Alexandrian customers.",
+    "translation_description": ""
+  },
+  "131": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_002_001",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_002_001",
+    "description": "Working towards opening a second branch has only strengthened our resolve here at Aunt Tii\u0027s Tacos. The future is bright, I tell you!",
+    "translation_description": ""
+  },
+  "132": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_003_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_003_000",
+    "description": "Always on the move, our Taquito! Yesterday Alexandria, today Tuliyollal.",
+    "translation_description": ""
+  },
+  "133": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_003_001",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_003_001",
+    "description": "And with a whole cohort of little customers in tow! Perhaps we should offer a special menu for fluffy friends...",
+    "translation_description": ""
+  },
+  "134": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_004_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_004_000",
+    "description": "That fashionable Mosaic place in Solution Nine has such lovely brews. It makes me want to design a taco just to pair with coffee!",
+    "translation_description": ""
+  },
+  "135": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_004_001",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_004_001",
+    "description": "We offer beverages that complement our flavors here, but it\u0027s hard to compete with a certified bar across the street. You know the place\u2500where we first sat down with Strata!",
+    "translation_description": ""
+  },
+  "136": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_005_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_005_000",
+    "description": "Br\u0027uk Evu! Come to steal my trade secrets, you old tiger?",
+    "translation_description": ""
+  },
+  "137": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_BRUKEVU_005_001",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_BRUKEVU_005_001",
+    "description": "Ha! As if you\u0027d let me. No, I\u0027m just here to congratulate you on your Alexandrian branch. I\u0027ve heard nothing but praise for your new tacos.",
+    "translation_description": ""
+  },
+  "138": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_005_002",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_005_002",
+    "description": "I owe everything to my cooks, the Rhodina Consortium, and our miracle-working assistant here. ...Who looks a little hungry, I daresay! How about treating \u003Chex:02080DE905FF04686572FF0468696D03\u003E to a taco, eh?",
+    "translation_description": ""
+  },
+  "139": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_WUKLAMAT_006_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_WUKLAMAT_006_000",
+    "description": "Hey, Aunt Tii!",
+    "translation_description": ""
+  },
+  "140": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_WUKLAMAT_006_001",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_WUKLAMAT_006_001",
+    "description": "Oh, and \u003Chex:022C0DFF07022903EB0203FF02200203\u003E! You\u0027re here too!",
+    "translation_description": ""
+  },
+  "141": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_006_002",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_006_002",
+    "description": "Third Promise! Or Vow of Resolve, I should say. I feel like it\u0027s been ages since last we spoke!",
+    "translation_description": ""
+  },
+  "142": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_WUKLAMAT_006_003",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_WUKLAMAT_006_003",
+    "description": "Hehe, sorry about that. Who knew being Dawnservant would keep me too busy to eat tacos?",
+    "translation_description": ""
+  },
+  "143": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_WUKLAMAT_006_004",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_WUKLAMAT_006_004",
+    "description": "But when I heard about your Alexandrian menu, I just \u003Chex:021A020203\u003Ehad\u003Chex:021A020103\u003E to have a taste. So, here I am! ",
+    "translation_description": ""
+  },
+  "144": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_006_005",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_006_005",
+    "description": "What an honor! Well, you just leave everything to your old Aunt Tii\u2500she\u0027ll make you a taco you\u0027ll never forget.",
+    "translation_description": ""
+  },
+  "145": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_WUKLAMAT_006_006",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_WUKLAMAT_006_006",
+    "description": "You want one too, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E? My treat!",
+    "translation_description": ""
+  },
+  "146": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_006_007",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_RANKUP_TIISOLJA_006_007",
+    "description": "Here we are! Two taco sets for two hardworking souls. Relax and enjoy!",
+    "translation_description": ""
+  },
+  "147": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_AFTWEEKLY_000_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_AFTWEEKLY_000_000",
+    "description": "You have delivered the weekly maximum of six items to Tiisol Ja. You may begin making deliveries again starting \u003Chex:020603120303\u003E\u003Chex:020942DDFF0753756E646179FF074D6F6E646179FF0854756573646179FF0A5765646E6573646179FF095468757273646179FF07467269646179FF09536174757264617903\u003E at \u003Chex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03\u003E \u003Chex:020810E0DB0DFF05702E6D2EFF05612E6D2E03\u003E (Earth time).",
+    "translation_description": ""
+  },
+  "148": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_TIISOLJA_000_000",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_TIISOLJA_000_000",
+    "description": "I can\u0027t believe this day has finally come...!",
+    "translation_description": ""
+  },
+  "149": {
+    "name": "TEXT_CTSSFSCHARACTER12_00963_QUEST_SYSTEM_000_002",
+    "translation_name": "TEXT_CTSSFSCHARACTER12_00963_QUEST_SYSTEM_000_002",
+    "description": "In order to undertake the next quest, speak with Tiisol Ja as a Disciple of the Hand or the Land.",
+    "translation_description": ""
+  }
+}
