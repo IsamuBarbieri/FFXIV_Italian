@@ -339,7 +339,7 @@ Decisione dell'utente: adattamento morfologico delle unità di misura eorzeane:
 
 | Inglese | Italiano | Fonte | Uso |
 | --- | --- | --- | --- |
-| yalm | yalm | Decisione dell'utente | Unità di misura eorzeana di lunghezza (maschile, circa 1 iarda / 0,9 m). Riferimento: `@review/dialogue/defaulttalk.json#589846:name`. |
+| yalm | yalm | Decisione dell'utente | Unità di misura eorzeana di lunghezza (maschile, circa 1 iarda / 0,9 m). Riferimento: `dialogue/defaulttalk.json#589846:name`. |
 | yalms | yalmi | Decisione dell'utente | Plurale maschile (es. «dieci maledetti yalmi»). |
 | malm | malm | Decisione dell'utente | Unità di misura eorzeana di distanza (maschile, circa 1 miglio / 1,6 km). |
 | malms | malmi | Decisione dell'utente | Plurale maschile. |
@@ -354,7 +354,7 @@ Decisione dell'utente: adattamento morfologico delle unità di misura eorzeane:
 | tonze | tonza | Decisione dell'utente | Unità di peso eorzeana (femminile, circa 1 tonnellata). |
 | tonzes | tonze | Decisione dell'utente | Plurale femminile. |
 
-Nel controllo delle unità, non declinare le forme che appartengono a nomi propri attestati: «Hell of Malms» / «Inferno dei Malm» (`world/placename.json#1773:name`), «Baldewyn Four Yalms» (`@review/world/bnpcname.json#1381:name`) e il titolo musicale «Six Fulms Under» (`housing/orchestrion.json#855:name`). Queste eccezioni valgono solo per i nomi indicati.
+Nel controllo delle unità, non declinare le forme che appartengono a nomi propri attestati: «Hell of Malms» / «Inferno dei Malm» (`world/placename.json#1773:name`), «Baldewyn Four Yalms» (`world/bnpcname.json#1381:name`) e il titolo musicale «Six Fulms Under» (`housing/orchestrion.json#855:name`). Queste eccezioni valgono solo per i nomi indicati.
 
 ### Classi e mestieri
 
@@ -389,7 +389,7 @@ Per le etichette delle armi, *One<hex:021F0103>handed* e *Two<hex:021F0103>hande
 | Dragoon | Dragone | `world/classjob.json#22:name` |  |
 | Bard | Bardo | `world/classjob.json#23:name` |  |
 | White Mage | Mago Bianco | `world/classjob.json#24:name` | Varianti ammesse in prosa: «mago bianco», «Maga Bianca», «Maga Bianca Makai». |
-| Black Mage | Mago Nero | `world/classjob.json#25:name` | Varianti ammesse in prosa: «mago nero», «Maga Nera», «Maga Nera Makai». |
+| Black Mage | Mago Nero | `world/classjob.json#25:name` | Varianti ammesse in prosa: «mago nero», «maghi neri», «Maga Nera», «maghe nere», «Maga Nera Makai». |
 | Arcanist | Arcanista | `world/classjob.json#26:name` |  |
 | Summoner | Evocatore | `world/classjob.json#27:name` |  |
 | Scholar | Studioso | `world/classjob.json#28:name` |  |
@@ -565,15 +565,15 @@ Per le etichette delle armi, *One<hex:021F0103>handed* e *Two<hex:021F0103>hande
 
 | Inglese | Italiano | Fonte | Uso |
 | --- | --- | --- | --- |
-| Sylph: this one / these ones | questo qui / questi qui | `@review/dialogue/defaulttalk.json#590258:name` | Autoreferenza in terza persona; conservare il tratto e accordare al numero. |
-| Sylph: walking one(s) | camminante / camminanti | `@review/dialogue/defaulttalk.json#590270:name` | Appellativo per chi non è Sylph; evitare «camminatore», che suggerisce un mestiere o un ruolo. |
+| Sylph: this one / these ones | questo qui / questi qui | `dialogue/defaulttalk.json#590258:name` | Autoreferenza in terza persona; conservare il tratto e accordare al numero. |
+| Sylph: walking one(s) | camminante / camminanti | `dialogue/defaulttalk.json#590270:name` | Appellativo per chi non è Sylph; evitare «camminatore», che suggerisce un mestiere o un ruolo. |
 | Sahagin: sibilanti allungate | sss | `combat/companiontransient.json#61:col_2` | Decisione dell'utente: rendere con sibilanti allungate solo le parole marcate dalla fonte, senza allungare vocali a caso. |
 | Ananta: sibilanti allungate | sss | `combat/companiontransient.json#262:col_2` | Decisione dell'utente, verificata sulle battute originali di Sarisha ed Eshana: seguire la stessa convenzione degli Sahagin. |
-| Ondo: sibilanti allungate | sss | `@review/dialogue/npcyell.json#8552:original` | Resa attestata nelle battute degli Ondo del Tempest; conservare il segnale quando è presente nella fonte. |
-| Ixal: featherless one(s) | implume / implumi | `@review/activities/instancecontenttextdata.json#13005:original` | Appellativo rivolto a chi non ha piume; mantenere la voce inversa degli Ixal quando è marcata, senza rendere il testo oscuro. |
-| kupo | kupò | `@review/dialogue/defaulttalk.json#592316:name` | Controllo automatico: intercalare. Per l'intercalare pronunciato usare la grafia «kupò»; parole citate, composti e nomi propri come «noce kupo» e «Uccell-kupo» restano invariati. |
-| Vath: click / clack | clic / clac | `@review/dialogue/balloon.json#5293:original` | Tradurre come segnali sonori quando sono testo visibile; non trattarli come tag SeString. |
-| Namazu: yes, yes / no, no | sì, sì / no, no | `@review/crafting/fishparameter.json#1246:name` | Conservare la ripetizione entusiasta se presente nella battuta; non aggiungere particelle a frasi che non la contengono. |
+| Ondo: sibilanti allungate | sss | `dialogue/npcyell.json#8552:original` | Resa attestata nelle battute degli Ondo del Tempest; conservare il segnale quando è presente nella fonte. |
+| Ixal: featherless one(s) | implume / implumi | `activities/instancecontenttextdata.json#13005:original` | Appellativo rivolto a chi non ha piume; mantenere la voce inversa degli Ixal quando è marcata, senza rendere il testo oscuro. |
+| kupo | kupò | `dialogue/defaulttalk.json#592316:name` | Controllo automatico: intercalare. Per l'intercalare pronunciato usare la grafia «kupò»; parole citate, composti e nomi propri come «noce kupo» e «Uccell-kupo» restano invariati. |
+| Vath: click / clack | clic / clac | `dialogue/balloon.json#5293:original` | Tradurre come segnali sonori quando sono testo visibile; non trattarli come tag SeString. |
+| Namazu: yes, yes / no, no | sì, sì / no, no | `crafting/fishparameter.json#1246:name` | Conservare la ripetizione entusiasta se presente nella battuta; non aggiungere particelle a frasi che non la contengono. |
 | Vanu Vanu: netherling | forestiero | `world/fateevent.json#249:name` | Appellativo per chi viene da fuori; mantenere la forma coerente con genere e numero della frase, senza renderlo «creatura infernale». |
 
 ### Luoghi
@@ -830,13 +830,13 @@ Le voci identificano strutture, aree, visioni, missioni e mammets del Rifugio In
 | The Scions of the Seventh Dawn | Eredi della Settima Alba | `world/contentfinderconditiontransient.json#284:original` | Nome dell'organizzazione; usare la forma estesa al primo riferimento. Variante ammessa con articolo: «Gli Eredi della Settima Alba». |
 | Primal | Primal | Decisione dell'utente | Termine di lore invariabile in italiano; usare il maschile e accordare articoli e preposizioni («il Primal», «i Primal», «del Primal»). «Primordiale» non è la resa del nome di queste entità; rimane disponibile come aggettivo comune se la fonte non indica un Primal. Non declinare «Primal» in «Primali». |
 | Little Ladies' Day | Giornata delle Piccole Dame | Decisione dell'utente | Controllo automatico: residuo. Nome della festa stagionale; accordare articoli e preposizioni alla forma femminile «Giornata» (es. «durante la Giornata delle Piccole Dame»). |
-| Hatching-tide | Festa delle Uova | Decisione dell'utente | Nome della festa stagionale; riferimento contestuale: `@review/world/enpcresident.json#1011803:translation_name`. Eccezione tecnica confermata dall'utente: in `world/fate.json#1594:translation_description`, `#1595:translation_description` e `#1856:translation_description`, rendere `Hatching<hex:021F0103>tide` come «Festa delle Uova», eliminando esclusivamente il tag del trattino `<hex:021F0103>`. L'eccezione vale soltanto per queste tre voci; conservare tutti gli altri tag. |
-| Scholasticate | Il Seminario | Decisione dell'utente | Istituzione di Sant'Endalim; nei ruoli rispettare il minuscolo dell'originale: «docente del seminario», «diacono del seminario». Riferimento: `@review/world/enpcresident.json#1011215:translation_name`. |
-| Starlight Celebration | Celebrazione delle Stelle | Decisione dell'utente | Nome della festa stagionale; riferimento contestuale: `@review/world/enpcresident.json#1010742:translation_name`. |
-| Moonfire Faire | Festa del Fuoco Lunare | Decisione dell'utente | Nome della festa stagionale estiva; riferimento contestuale: `@review/world/enpcresident.json#1009242:translation_col_2`. |
-| The Rising | La Rinascita | Decisione dell'utente | Nome dell'evento annuale; nei ruoli usare «della Rinascita». Riferimento: `@review/world/enpcresident.json#1009290:translation_name`. |
-| All Saints' Wake | Veglia di Tutti i Santi | Decisione dell'utente | Nome della festa stagionale; riferimento contestuale: `@review/world/enpcresident.json#1043978:translation_name`. |
-| voidsent | creatura del vuoto (sing.), creature del vuoto (pl.) | Decisione dell'utente | Controllo automatico: residuo plurale. Nome comune della specie; rispettare il minuscolo dell'originale. Riferimento: `@review/world/enpcresident.json#1042066:translation_name`. |
+| Hatching-tide | Festa delle Uova | Decisione dell'utente | Nome della festa stagionale; riferimento contestuale: `world/enpcresident.json#1011803:translation_name`. Eccezione tecnica confermata dall'utente: in `world/fate.json#1594:translation_description`, `#1595:translation_description` e `#1856:translation_description`, rendere `Hatching<hex:021F0103>tide` come «Festa delle Uova», eliminando esclusivamente il tag del trattino `<hex:021F0103>`. L'eccezione vale soltanto per queste tre voci; conservare tutti gli altri tag. |
+| Scholasticate | Il Seminario | Decisione dell'utente | Istituzione di Sant'Endalim; nei ruoli rispettare il minuscolo dell'originale: «docente del seminario», «diacono del seminario». Riferimento: `world/enpcresident.json#1011215:translation_name`. |
+| Starlight Celebration | Celebrazione delle Stelle | Decisione dell'utente | Nome della festa stagionale; riferimento contestuale: `world/enpcresident.json#1010742:translation_name`. |
+| Moonfire Faire | Festa del Fuoco Lunare | Decisione dell'utente | Nome della festa stagionale estiva; riferimento contestuale: `world/enpcresident.json#1009242:translation_col_2`. |
+| The Rising | La Rinascita | Decisione dell'utente | Nome dell'evento annuale; nei ruoli usare «della Rinascita». Riferimento: `world/enpcresident.json#1009290:translation_name`. |
+| All Saints' Wake | Veglia di Tutti i Santi | Decisione dell'utente | Nome della festa stagionale; riferimento contestuale: `world/enpcresident.json#1043978:translation_name`. |
+| voidsent | creatura del vuoto (sing.), creature del vuoto (pl.) | Decisione dell'utente | Controllo automatico: residuo plurale. Nome comune della specie; rispettare il minuscolo dell'originale. Riferimento: `world/enpcresident.json#1042066:translation_name`. |
 | Dawnservant | Custode dell'Alba | Decisione dell'utente | Titolo del sovrano di Tural; accordare articoli e preposizioni con «Custode» e mantenere minuscola la preposizione interna «dell'». Riferimenti: `combat/actiontransient.json#37129:translation`. |
 | Beastkin | Bestiomorfi | Decisione dell'utente | Categoria tassonomica dei famigli; singolare «Bestiomorfo». In prosa usare il minuscolo quando il nome non è un'etichetta di categoria. Riferimenti: `combat/actiontransient.json#44895:translation`. |
 | Vilekin | Vilomorfi | Decisione dell'utente | Categoria tassonomica dei famigli; singolare «Vilomorfo». In prosa usare il minuscolo quando il nome non è un'etichetta di categoria. Riferimenti: `combat/actiontransient.json#44895:translation`. |

@@ -11,6 +11,21 @@ from tools import terminology_review as review
 
 
 class TerminologyReviewTests(unittest.TestCase):
+    def test_deep_creature_names_do_not_hide_real_place_references(self):
+        for title in ("Thing from the Deep", "Things from the Deep",
+                      "trained Thing from the Deep", "trained Things from the Deep"):
+            occurrences = [("the Deep", title.index("the Deep"))]
+            for field in ("name", "description"):
+                with self.subTest(title=title, field=field):
+                    self.assertEqual([], list(review.exact_place_occurrences(
+                        "The Deep", occurrences, title, field, "world/bnpcname.json")))
+            self.assertEqual(occurrences, list(review.exact_place_occurrences(
+                "The Deep", occurrences, title, "original", "dialogue/npcyell.json")))
+        title = "guardian of the Deep"
+        occurrences = [("the Deep", title.index("the Deep"))]
+        self.assertEqual(occurrences, list(review.exact_place_occurrences(
+            "The Deep", occurrences, title, "name", "world/bnpcname.json")))
+
     @classmethod
     def setUpClass(cls):
         cls.glossary_function = staticmethod(review.glossary)

@@ -205,6 +205,12 @@ def exact_place_occurrences(term, occurrences, original, source_field, relative)
     )
     for matched, position in occurrences:
         title = plain.strip(" .!?…'’\"“”«»()[]")
+        if (relative.endswith("/world/bnpcname.json") and
+                source_field in {"name", "description"} and term.casefold() == "the deep" and
+                title.casefold() in {"thing from the deep", "things from the deep",
+                                     "trained thing from the deep", "trained things from the deep"}):
+            # These creature names refer to sea depths, not the PlaceName homonym.
+            continue
         if (source_field in {"original", "name"} and
                 relative.endswith("/combat/status.json") and
                 term.casefold() == "the dungeons" and
@@ -718,7 +724,9 @@ def scan(args):
                         continue  # Common noun here, not the named PvP mode.
                     if term.casefold() == "ready check" and re.search(r"\bensemble mode\b", original, re.IGNORECASE):
                         continue
-                    if any("Nome della funzione" in entry["usage"] for entry in variants):
+                    # Glamours also names appearances in prose; old-form searches need no English match.
+                    if (not old_match and term.casefold() != "glamours" and
+                            any("Nome della funzione" in entry["usage"] for entry in variants)):
                         ignore_title_extensions = any("prefisso di un titolo composto da ignorare" in
                                                       entry["usage"].casefold() for entry in variants)
                         occurrences = list(exact_function_occurrences(term, occurrences, original,
@@ -727,7 +735,7 @@ def scan(args):
                             continue
                     # A glossary term can name both a location and a feature used in prose.
                     # Apply place-name casing only when every meaning is a location.
-                    if variants and all(entry["category"] == "Luoghi" for entry in variants):
+                    if not old_match and variants and all(entry["category"] == "Luoghi" for entry in variants):
                         if path_key.endswith("/items/buddyequip.json") and re.search(r"\bbarding\b", original, re.IGNORECASE):
                             continue
                         aligned_occurrences = list(exact_place_occurrences(term, occurrences, original,
