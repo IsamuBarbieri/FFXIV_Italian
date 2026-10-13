@@ -1,5 +1,6 @@
 using FFXIVItalian.Core.Packaging;
 using FFXIVItalian.Core.Translation;
+using FFXIVItalian.Patcher;
 using Lumina;
 using Lumina.Data;
 using System.Buffers.Binary;
@@ -1012,6 +1013,11 @@ if (resourceFiles.Length > 0)
 }
 
 fileMap["readme_ita.txt"] = Encoding.UTF8.GetBytes("FFXIV Italiano - Compilato da file JSON in data/translations.");
+meta.Groups = TranslationOptionBuilder.Create(translationsDir, fileMap.Keys);
+Console.WriteLine();
+Console.WriteLine("[Opzioni Penumbra] Blocchi selezionabili, tutti attivi per impostazione predefinita:");
+foreach (var group in meta.Groups)
+    Console.WriteLine($"  * {group.Name}: {group.Options[0].Files.Count} file");
 
 // A. Compilazione pacchetto .pmp per distribuzione
 Console.WriteLine();
@@ -1058,15 +1064,12 @@ if (Directory.Exists(penumbraModDir))
 
     meta.Identifier = existingIdentifier;
     meta.FileVersion = 4;
-    meta.DefaultData.Files.Clear();
-    var defaultMod = new PenumbraDefaultMod();
-
-    foreach (var key in fileMap.Keys)
+    var defaultMod = new PenumbraDefaultMod
     {
-        string normKey = key.Replace('\\', '/');
-        meta.DefaultData.Files[normKey] = normKey;
-        defaultMod.Files[normKey] = normKey;
-    }
+        Files = new(meta.DefaultData.Files),
+        FileSwaps = new(meta.DefaultData.FileSwaps),
+        Manipulations = [.. meta.DefaultData.Manipulations],
+    };
 
     var jsonOptions = new System.Text.Json.JsonSerializerOptions { WriteIndented = true };
     string penumbraMetaJson = System.Text.Json.JsonSerializer.Serialize(meta, jsonOptions);

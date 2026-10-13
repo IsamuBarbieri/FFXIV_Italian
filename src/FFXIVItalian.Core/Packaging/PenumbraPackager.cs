@@ -12,6 +12,28 @@ public class PenumbraDefaultData
     public List<object> Manipulations { get; set; } = [];
 }
 
+public class PenumbraOption
+{
+    public Guid Id { get; set; }
+    public string Name { get; set; } = string.Empty;
+    public string Description { get; set; } = string.Empty;
+    public Dictionary<string, string> Files { get; set; } = new();
+    public Dictionary<string, string> FileSwaps { get; set; } = new();
+    public List<object> Manipulations { get; set; } = [];
+}
+
+public class PenumbraOptionGroup
+{
+    public string Type { get; set; } = "Multi";
+    public Guid Id { get; set; }
+    public string Name { get; set; } = string.Empty;
+    public string Description { get; set; } = string.Empty;
+    public string Image { get; set; } = string.Empty;
+    public int Page { get; set; }
+    public ulong DefaultSettings { get; set; } = 1;
+    public List<PenumbraOption> Options { get; set; } = [];
+}
+
 public class PenumbraMeta
 {
     public int FileVersion { get; set; } = 4;
@@ -29,7 +51,7 @@ public class PenumbraMeta
     public string Website { get; set; } = "https://github.com/barbi/FFXIV_Italian";
     public string[] ModTags { get; set; } = ["translation", "italian", "italiano", "ui"];
     public PenumbraDefaultData DefaultData { get; set; } = new();
-    public List<object> Groups { get; set; } = [];
+    public List<PenumbraOptionGroup> Groups { get; set; } = [];
 }
 
 public class PenumbraDefaultMod
@@ -65,10 +87,24 @@ public static class PenumbraPackager
         using var zipToCreate = new FileStream(outputPmpPath, FileMode.Create);
         using var archive = new ZipArchive(zipToCreate, ZipArchiveMode.Create);
 
-        // 1. Populate DefaultData
+        // Files assigned to selectable options must not also be active by default.
+        meta.DefaultData.Files.Clear();
+        var groupedFiles = meta.Groups
+            .SelectMany(group => group.Options)
+            .SelectMany(option => option.Files.Values)
+            .ToHashSet(StringComparer.OrdinalIgnoreCase);
+
         foreach (var (gamePath, _) in fileContents)
         {
-            meta.DefaultData.Files[gamePath] = gamePath;
+            string normalizedPath = gamePath.Replace('\\', '/');
+            if (!groupedFiles.Contains(normalizedPath))
+                meta.DefaultData.Files[normalizedPath] = normalizedPath;
+        }
+
+        foreach (string groupedFile in groupedFiles)
+        {
+            if (!fileContents.ContainsKey(groupedFile))
+                throw new InvalidDataException($"File di un'opzione Penumbra assente dal pacchetto: '{groupedFile}'.");
         }
 
         // 2. Write meta.json
@@ -79,12 +115,12 @@ public static class PenumbraPackager
         }
 
         // 2. Build default_mod.json
-        var defaultMod = new PenumbraDefaultMod();
-        foreach (var (gamePath, _) in fileContents)
+        var defaultMod = new PenumbraDefaultMod
         {
-            // The file path inside the mod package
-            defaultMod.Files[gamePath] = gamePath;
-        }
+            Files = new(meta.DefaultData.Files),
+            FileSwaps = new(meta.DefaultData.FileSwaps),
+            Manipulations = [.. meta.DefaultData.Manipulations],
+        };
 
         var defaultModEntry = archive.CreateEntry("default_mod.json", CompressionLevel.Optimal);
         await using (var entryStream = defaultModEntry.Open())

@@ -36,6 +36,8 @@ Le categorie sono `activities`, `combat`, `crafting`, `dialogue`, `housing`, `it
 
 Il patcher carica automaticamente i JSON approvati in `data/translations/` quando trova il relativo EXH nel client. Gli handler dedicati conservano le eccezioni di formato dei fogli già curati. Le risorse in `data/assets/` mantengono il percorso relativo; i file nelle altre cartelle sotto `data/` vengono inclusi automaticamente usando il loro percorso relativo a `data/`.
 
+Nelle opzioni del mod in Penumbra puoi attivare o disattivare dieci blocchi di traduzione. Sono preselezionati per impostazione predefinita; dialoghi e missioni condividono il blocco **Missioni**, mentre i contenuti non assegnati a un blocco specifico rientrano in **Interfaccia**.
+
 ## Struttura del repository
 
 | Percorso | Contenuto |
