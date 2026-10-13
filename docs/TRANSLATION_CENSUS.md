@@ -39,3 +39,15 @@ Il glossario conserva le scelte esplicite già presenti e aggiunge distinzioni t
 4. Cerca la voce nel glossario: amplia la nota quando basta; aggiungi una voce soltanto per una distinzione riutilizzabile. Metti una sola fonte sorgente nella colonna Fonte, ulteriori attestazioni nella colonna Uso. Usa `@review/` per i precedenti in revisione.
 5. Aggiorna AGENTS, workflow, guida e prompt solo per istruzioni operative emerse dal censimento. Non duplicare l'intero glossario nei prompt.
 6. Esegui validatore tecnico e scansione terminologica sul perimetro dichiarato; esamina manualmente ogni segnalazione. Correggi la voce errata oppure la regola responsabile del falso positivo, con una verifica mirata, e ripeti fino a zero problemi. Non cambiare stati editoriali per superare un controllo.
+
+## Verifica successiva al commit iniziale
+
+Il primo passaggio tecnico ha rilevato 42 problemi nel corpus canonico e zero nel corpus in revisione. Le 42 segnalazioni sono state esaminate leggendo i campi sorgenti e tradotti: sono stati corretti 24 campi (ESP, malmi, Colpo Devastante, rolanbacche e creature del vuoto con i relativi accordi). Le altre 18 segnalazioni erano falsi positivi: 16 forme femminili dei ruoli dei PNG, l'idioma «within an ilm of godhood» e il titolo musicale invariato «Maelstrom Command» nel selettore matrimoniale.
+
+Le forme femminili sono documentate nel glossario. L'eccezione dell'idioma è delimitata alla frase verificata e un test controlla che non nasconda misure letterali nello stesso testo. Per il selettore musicale il controllo SeString resta attivo: soltanto il titolo già identico alla fonte evita l'equivalenza con il luogo omonimo. La scansione Python conservava già questi titoli.
+
+Contesto verificato: [creature del vuoto](https://ffxiv.consolegameswiki.com/wiki/Voidsent), [Armamento Diabolico](https://ffxiv.consolegameswiki.com/wiki/Diablo_Armament), [Athena](https://ffxiv.consolegameswiki.com/wiki/Athena) e pagine delle attività interessate. Nel codice di creazione del personaggio è stato inoltre corretto il riferimento alla [Madre del Crepuscolo degli Xaela](https://ffxiv.consolegameswiki.com/wiki/Xaela): «primordial» è un aggettivo, non il nome di un Primal.
+
+Il passaggio tecnico successivo sul corpus canonico risulta pulito su 218.866 campi; il corpus in revisione comprende 452.737 campi. Questo esito non dichiara approvate le traduzioni in revisione e non costituisce una revisione linguistica integrale dei 52.166 campi modificati inizialmente.
+
+La scansione terminologica completa produce una coda separata di candidati, non errori tecnici certi. Al primo passaggio erano 632, inclusi suffissi di equipaggiamento intercettati nei dialoghi e «The Rising» intercettato in «rising waters» o «Rising Dragon». La coda non è stata respinta in blocco né azzerata tramite eccezioni indiscriminate: le segnalazioni che restano richiedono revisione contestuale individuale. Il conteggio corrente è nel report generato `data/glossary/review_all.json`, escluso da Git.

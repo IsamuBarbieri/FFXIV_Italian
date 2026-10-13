@@ -146,6 +146,19 @@ public class GlossaryTests
     }
 
     [Fact]
+    public void VerifiedMeasureIdiomDoesNotHideLiteralMeasures()
+    {
+        Assert.True(_catalog.Engine.ValidateTranslation(
+            "Athena came within an ilm of godhood.", "Athena sfiorò la condizione divina.").IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation(
+            "Athena came within an ilm of godhood and moved ten yalms.",
+            "Athena sfiorò la condizione divina e si spostò di dieci metri.").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation("Lancer", "Lanciera").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation("Thaumaturge", "Taumaturga").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation("Archer", "Arciera").IsCompliant);
+    }
+
+    [Fact]
     public void ValidationIndexRefreshesWhenEntriesAreAdded()
     {
         var engine = new GlossaryEngine();

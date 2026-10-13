@@ -62,7 +62,7 @@ public class GlossaryEngine
     private static string RemoveKnownMeasureIdioms(string original)
     {
         return Regex.Replace(original,
-            @"\bevery ilm (?=(?:an|the|as)\b)|\bevery ilm of (?:these mines|the)\b|\bwithin an ilm of (?:its|one's|his|her) life\b|\bhardest yalms\b|\bI was malms away\b|\bevery last onze of\b|\bevery onze of\b|\bdon't do an onze of good\b|\ba tonze of research left to do\b|\ban ilm or two taller\b",
+            @"\bevery ilm (?=(?:an|the|as)\b)|\bevery ilm of (?:these mines|the)\b|\bwithin an ilm of (?:its|one's|his|her) life\b|\bwithin an ilm of godhood\b|\bhardest yalms\b|\bI was malms away\b|\bevery last onze of\b|\bevery onze of\b|\bdon't do an onze of good\b|\ba tonze of research left to do\b|\ban ilm or two taller\b",
             "", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
     }
 

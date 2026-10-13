@@ -569,7 +569,10 @@ ESEMPI:
         bool literalCommandParameter = contextFileName.Equals("textcommandparam.json", StringComparison.OrdinalIgnoreCase);
         // Character-make fields are generated name fragments, so English words can be proper names.
         bool generatedNameFragment = contextFileName.Equals("charamakename.json", StringComparison.OrdinalIgnoreCase);
-        if (!gameCredits && !skipGlossary && !literalSearchSyntax && !literalCommandParameter && !generatedNameFragment)
+        // Wedding music titles can coincide with locations without naming those locations here.
+        bool unchangedWeddingMusic = contextFileName.Equals("weddingbgm.json", StringComparison.OrdinalIgnoreCase) &&
+            rowId.EndsWith(":translation", StringComparison.Ordinal) && orig.Equals(trans, StringComparison.Ordinal);
+        if (!gameCredits && !skipGlossary && !literalSearchSyntax && !literalCommandParameter && !generatedNameFragment && !unchangedWeddingMusic)
         {
             var glResult = engine.ValidateTranslation(orig, trans, sourceContext ?? file, checkActivityCategories);
             foreach (var pro in glResult.ProhibitedUsages)

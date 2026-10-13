@@ -368,10 +368,10 @@ Per le etichette delle armi, *One<hex:021F0103>handed* e *Two<hex:021F0103>hande
 | Gladiator | Gladiatore | `world/classjob.json#1:name` |  |
 | Pugilist | Pugile | `world/classjob.json#2:name` |  |
 | Marauder | Incursore | `world/classjob.json#3:name` |  |
-| Lancer | Lanciere | `world/classjob.json#4:name` |  |
-| Archer | Arciere | `world/classjob.json#5:name` |  |
+| Lancer | Lanciere | `world/classjob.json#4:name` |  Forma femminile per PNG identificati nei campi di supporto: «Lanciera». Varianti ammesse in prosa: «Lanciera». Non applicare il genere del giocatore a questi ruoli. |
+| Archer | Arciere | `world/classjob.json#5:name` |  Forma femminile per PNG identificati nei campi di supporto: «Arciera». Varianti ammesse in prosa: «Arciera». Non applicare il genere del giocatore a questi ruoli. |
 | Conjurer | Incantatore | `world/classjob.json#6:name` |  |
-| Thaumaturge | Taumaturgo | `world/classjob.json#7:name` |  |
+| Thaumaturge | Taumaturgo | `world/classjob.json#7:name` |  Forma femminile per PNG identificati nei campi di supporto: «Taumaturga». Varianti ammesse in prosa: «Taumaturga». Non applicare il genere del giocatore a questi ruoli. |
 | Carpenter | Falegname | `world/classjob.json#8:name` |  |
 | Blacksmith | Fabbro | `world/classjob.json#9:name` |  |
 | Armorer | Corazziere | `world/classjob.json#10:name` | Nome della classe artigiana; usare «corazziere» anche nei composti e nelle descrizioni. |
