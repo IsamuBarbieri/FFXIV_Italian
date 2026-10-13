@@ -277,7 +277,7 @@ public abstract class BaseSheetExtractor : ISheetExtractor
             Directory.CreateDirectory(dir);
         }
 
-        var options = new JsonSerializerOptions { WriteIndented = true };
+        var options = new JsonSerializerOptions { WriteIndented = true, Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping };
         File.WriteAllText(path, obj.ToJsonString(options));
     }
 }

@@ -9,6 +9,27 @@ namespace FFXIVItalian.Tests;
 public class ExtractorTests
 {
     [Fact]
+    public void SaveJsonObject_KeepsTextAndHexTagsReadableAndRoundTripsQuotes()
+    {
+        string path = Path.Combine(Path.GetTempPath(), "FFXIV_JsonTest_" + Path.GetRandomFileName());
+        const string value = "L'arma è «eterica» <hex:02100103> \"test\"";
+        var obj = new System.Text.Json.Nodes.JsonObject { ["translation"] = value };
+        try
+        {
+            BaseSheetExtractor.SaveJsonObject(path, obj);
+            string json = File.ReadAllText(path);
+            Assert.Contains("L'arma è «eterica» <hex:02100103>", json);
+            Assert.DoesNotContain("\\u0027", json);
+            Assert.DoesNotContain("\\u003C", json);
+            Assert.Equal(value, System.Text.Json.Nodes.JsonNode.Parse(json)!["translation"]!.GetValue<string>());
+        }
+        finally
+        {
+            File.Delete(path);
+        }
+    }
+
+    [Fact]
     public void TranslationPaths_KeepMovedQuestsAndPlaceNewSheetsInPendingArea()
     {
         string temp = Path.Combine(Path.GetTempPath(), "FFXIV_PathTest_" + Path.GetRandomFileName());

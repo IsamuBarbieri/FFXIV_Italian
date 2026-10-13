@@ -1,22 +1,22 @@
 {
   "0": {
     "tag": "TEXT_BANIXA406_01503_SEQ_00",
-    "original": "\u003Chex:024804F201FC03\u003E\u003Chex:024904F201FD03\u003E\uE0BE Quest Sync\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u003Chex:02100103\u003ETazel Meyean the Lettered would turn to you for your crafting expertise.\u003Chex:02100103\u003E\u203BThe crafting portion of this quest is recommended for Disciples of the Hand level 10 and above, and the battle portion for Disciples of War or Magic level 47 and above.",
+    "original": "<hex:024804F201FC03><hex:024904F201FD03> Quest Sync<hex:0249020103><hex:0248020103><hex:02100103>Tazel Meyean the Lettered would turn to you for your crafting expertise.<hex:02100103>※The crafting portion of this quest is recommended for Disciples of the Hand level 10 and above, and the battle portion for Disciples of War or Magic level 47 and above.",
     "translation": ""
   },
   "1": {
     "tag": "TEXT_BANIXA406_01503_SEQ_01",
-    "original": "Tazel Meyean the Lettered has asked you to craft four high-quality components for his revolutionary heat vent unit. Doing so requires that you have access to Gerolt\u0027s forge in Hyrstmill. By way of payment for using the facility, the Ixali inventor bids you obtain three pieces of plate worn by the dullahans that prowl Proud Creek.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that the difficulty of this quest has been synced to your current level.",
+    "original": "Tazel Meyean the Lettered has asked you to craft four high-quality components for his revolutionary heat vent unit. Doing so requires that you have access to Gerolt's forge in Hyrstmill. By way of payment for using the facility, the Ixali inventor bids you obtain three pieces of plate worn by the dullahans that prowl Proud Creek.<hex:02100103><hex:02100103>※Please note that the difficulty of this quest has been synced to your current level.",
     "translation": ""
   },
   "2": {
     "tag": "TEXT_BANIXA406_01503_SEQ_02",
-    "original": "You have obtained three pieces of dullahan plate. Make your way to Hyrstmill and offer them to Drake, Gerolt\u0027s apprentice.",
+    "original": "You have obtained three pieces of dullahan plate. Make your way to Hyrstmill and offer them to Drake, Gerolt's apprentice.",
     "translation": ""
   },
   "3": {
     "tag": "TEXT_BANIXA406_01503_SEQ_03",
-    "original": "Satisfied with the dullahan plate you have brought, Drake grants you unlimited access to his master\u0027s crafting facility. With the materials he has supplied, synthesize four high-quality heat vent components, and deliver them to Tazel Meyean at Ehcatl.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BIn the event that the status \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EFacility Access: Detailing\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E wears off or the synthesis ends in failure, you may try again by speaking with Drake.",
+    "original": "Satisfied with the dullahan plate you have brought, Drake grants you unlimited access to his master's crafting facility. With the materials he has supplied, synthesize four high-quality heat vent components, and deliver them to Tazel Meyean at Ehcatl.<hex:02100103><hex:02100103>※In the event that the status <hex:024804F201F403><hex:024904F201F503>Facility Access: Detailing<hex:0249020103><hex:0248020103> wears off or the synthesis ends in failure, you may try again by speaking with Drake.",
     "translation": ""
   },
   "4": {
@@ -36,7 +36,7 @@
   },
   "26": {
     "tag": "TEXT_BANIXA406_01503_TODO_02",
-    "original": "\u003Chex:020882E3E802E803FF2E53796E74686573697A6520686561742076656E7420636F6D706F6E656E74732002280AFF064164646F6E0A0103FF4C44656C697665722074686520686561742076656E7420636F6D706F6E656E74732002280AFF064164646F6E0A010320746F2054617A656C204D657965616E20746865204C6574746572656403\u003E.",
+    "original": "<hex:020882E3E802E803FF2E53796E74686573697A6520686561742076656E7420636F6D706F6E656E74732002280AFF064164646F6E0A0103FF4C44656C697665722074686520686561742076656E7420636F6D706F6E656E74732002280AFF064164646F6E0A010320746F2054617A656C204D657965616E20746865204C6574746572656403>.",
     "translation": ""
   },
   "48": {
@@ -66,7 +66,7 @@
   },
   "53": {
     "tag": "TEXT_BANIXA406_01503_TAZELMEYEAN_000_041",
-    "original": "With his fledgling, name of Drake, you must speak\u2500get permission to use facility and materials. As payment, bring him dullahan plate. Maybe three pieces. Get them from fiends around Proud Creek, you can.",
+    "original": "With his fledgling, name of Drake, you must speak─get permission to use facility and materials. As payment, bring him dullahan plate. Maybe three pieces. Get them from fiends around Proud Creek, you can.",
     "translation": ""
   },
   "54": {
@@ -76,12 +76,12 @@
   },
   "55": {
     "tag": "TEXT_BANIXA406_01503_DRAKE_000_060",
-    "original": "Greetings, good \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. Are you here to collect your kettle?\u003Chex:02100103\u003E...Begging your pardon? You wish to \u003Chex:021A020203\u003Euse\u003Chex:021A020103\u003E our facility? I-I\u0027m afraid I must consult my master...",
+    "original": "Greetings, good <hex:02080FE905FF066D6164616DFF0473697203>. Are you here to collect your kettle?<hex:02100103>...Begging your pardon? You wish to <hex:021A020203>use<hex:021A020103> our facility? I-I'm afraid I must consult my master...",
     "translation": ""
   },
   "56": {
     "tag": "TEXT_BANIXA406_01503_DRAKE_000_061",
-    "original": "You would give us these pieces of plate as payment? Gods know we can\u0027t have too much good steel for our kettles. Master Gerolt shall have no cause to complain, I should think.",
+    "original": "You would give us these pieces of plate as payment? Gods know we can't have too much good steel for our kettles. Master Gerolt shall have no cause to complain, I should think.",
     "translation": ""
   },
   "57": {
@@ -96,7 +96,7 @@
   },
   "59": {
     "tag": "TEXT_BANIXA406_01503_DRAKE_100_100",
-    "original": "You have finished your work, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E? I assume that you will be on your way. Should you later find that you still have need of our facility and supplies, know that both are at your disposal.",
+    "original": "You have finished your work, <hex:02080FE905FF066D6164616DFF0473697203>? I assume that you will be on your way. Should you later find that you still have need of our facility and supplies, know that both are at your disposal.",
     "translation": ""
   },
   "60": {

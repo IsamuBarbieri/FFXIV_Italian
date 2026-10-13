@@ -1,12 +1,12 @@
 {
   "0": {
     "tag": "TEXT_AKTKZK003_04356_SEQ_00",
-    "original": "\u003Chex:024804F201FC03\u003E\u003Chex:024904F201FD03\u003E\uE0BE Quest Sync\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u003Chex:02100103\u003EThe Omicron guard requests a word of advice.",
+    "original": "<hex:024804F201FC03><hex:024904F201FD03> Quest Sync<hex:0249020103><hex:0248020103><hex:02100103>The Omicron guard requests a word of advice.",
     "translation": ""
   },
   "1": {
     "tag": "TEXT_AKTKZK003_04356_SEQ_01",
-    "original": "An Omicron guard asks you for ways to keep itself engaged while on patrol. As its options are limited by its standing orders, you settle on teaching it how to dance, because at this point, this may as well happen.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that the difficulty of this quest has been synced to your current level.",
+    "original": "An Omicron guard asks you for ways to keep itself engaged while on patrol. As its options are limited by its standing orders, you settle on teaching it how to dance, because at this point, this may as well happen.<hex:02100103><hex:02100103>※Please note that the difficulty of this quest has been synced to your current level.",
     "translation": ""
   },
   "2": {
@@ -16,7 +16,7 @@
   },
   "3": {
     "tag": "TEXT_AKTKZK003_04356_SEQ_03",
-    "original": "In an open space thankfully free of anyone who might be jabbed in the eye by their pointy appendages, the Omicron guards perform a somewhat stilted\u2500yet surprisingly lengthy\u2500dance for your enjoyment. After kindly freeing them from their gyration loop, you give them an encouraging review on their performance.",
+    "original": "In an open space thankfully free of anyone who might be jabbed in the eye by their pointy appendages, the Omicron guards perform a somewhat stilted─yet surprisingly lengthy─dance for your enjoyment. After kindly freeing them from their gyration loop, you give them an encouraging review on their performance.",
     "translation": ""
   },
   "4": {
@@ -41,7 +41,7 @@
   },
   "48": {
     "tag": "TEXT_AKTKZK003_04356_VIGILANTOMNICRON04356_000_000",
-    "original": "\u003Cwhirr\u003E This unit has received orders from Stigma-1 to patrol Base Omicron. Review of these orders indicate they supersede any other incoming directives.",
+    "original": "<whirr> This unit has received orders from Stigma-1 to patrol Base Omicron. Review of these orders indicate they supersede any other incoming directives.",
     "translation": ""
   },
   "49": {
@@ -51,7 +51,7 @@
   },
   "50": {
     "tag": "TEXT_AKTKZK003_04356_VIGILANTOMNICRON04356_000_003",
-    "original": "Analyzing potential outcomes of repetitive movement... \u003Cwhirr\u003E Cross-reference of Omicron schematics suggests current behavioral pattern has a 86% chance of negatively impacting future mobility. This unit requests suggestions for supplemental motions that do not conflict with current orders.",
+    "original": "Analyzing potential outcomes of repetitive movement... <whirr> Cross-reference of Omicron schematics suggests current behavioral pattern has a 86% chance of negatively impacting future mobility. This unit requests suggestions for supplemental motions that do not conflict with current orders.",
     "translation": ""
   },
   "51": {
@@ -76,17 +76,17 @@
   },
   "55": {
     "tag": "TEXT_AKTKZK003_04356_VIGILANTOMNICRON04356_000_005",
-    "original": "Reviewing motion database... \u003Cwhirr\u003E This unit is not equipped with the functionality to adjust its inflection while transmitting audible data. Issuing alternative proposal: move this unit\u0027s appendages in time with extrapolated rhythms from said \u201Csinging.\u201D",
+    "original": "Reviewing motion database... <whirr> This unit is not equipped with the functionality to adjust its inflection while transmitting audible data. Issuing alternative proposal: move this unit's appendages in time with extrapolated rhythms from said “singing.”",
     "translation": ""
   },
   "56": {
     "tag": "TEXT_AKTKZK003_04356_VIGILANTOMNICRON04356_000_006",
-    "original": "Verifying information... Proposed movements identified as \u201Cdancing.\u201D Initial analysis suggests these motions may facilitate a diagnostics check of this unit\u0027s joint modules and posture calibration systems. ",
+    "original": "Verifying information... Proposed movements identified as “dancing.” Initial analysis suggests these motions may facilitate a diagnostics check of this unit's joint modules and posture calibration systems. ",
     "translation": ""
   },
   "57": {
     "tag": "TEXT_AKTKZK003_04356_VIGILANTOMNICRON04356_000_010",
-    "original": "Reviewing motion database... \u003Cwhirr\u003E No results found. Initial analysis suggests random movements may facilitate a diagnostics check of this unit\u0027s joint modules and posture calibration systems. ",
+    "original": "Reviewing motion database... <whirr> No results found. Initial analysis suggests random movements may facilitate a diagnostics check of this unit's joint modules and posture calibration systems. ",
     "translation": ""
   },
   "58": {
@@ -96,22 +96,22 @@
   },
   "59": {
     "tag": "TEXT_AKTKZK003_04356_VIGILANTOMNICRON04356_000_016",
-    "original": "Verifying information... Proposed movements identified as \u201Cdancing.\u201D This unit will attempt to implement said motions into current orders.",
+    "original": "Verifying information... Proposed movements identified as “dancing.” This unit will attempt to implement said motions into current orders.",
     "translation": ""
   },
   "60": {
     "tag": "TEXT_AKTKZK003_04356_VIGILANTOMNICRON04356_000_020",
-    "original": "Attempting... \u003Cwhirr\u003E Insufficient reference data. This unit requires a visual of \u201Cdancing\u201D to analyze and simulate accordingly.",
+    "original": "Attempting... <whirr> Insufficient reference data. This unit requires a visual of “dancing” to analyze and simulate accordingly.",
     "translation": ""
   },
   "61": {
     "tag": "TEXT_AKTKZK003_04356_VIGILANTOMNICRON04356_000_030",
-    "original": "Insufficient reference data for \u201Cdancing.\u201D \u003Cwhirr\u003E This unit requests that you provide a visual to analyze and simulate accordingly.",
+    "original": "Insufficient reference data for “dancing.” <whirr> This unit requests that you provide a visual to analyze and simulate accordingly.",
     "translation": ""
   },
   "62": {
     "tag": "TEXT_AKTKZK003_04356_VIGILANTOMNICRON04356_000_040",
-    "original": "...Movement patterns identified. \u003Cwhirr\u003E Review of this unit\u0027s memory confirms that no data previously existed for the displayed motions. Simulation difficulty...undetermined.",
+    "original": "...Movement patterns identified. <whirr> Review of this unit's memory confirms that no data previously existed for the displayed motions. Simulation difficulty...undetermined.",
     "translation": ""
   },
   "63": {
@@ -126,7 +126,7 @@
   },
   "65": {
     "tag": "TEXT_AKTKZK003_04356_VIGILANTOMNICRON04356_000_043",
-    "original": "Processing response... \u003Cwhirr\u003E Tentative approval detected. Issuing rendezvous order to subordinate Omicron guards near current coordinates. This unit requests you stand by outside the base.",
+    "original": "Processing response... <whirr> Tentative approval detected. Issuing rendezvous order to subordinate Omicron guards near current coordinates. This unit requests you stand by outside the base.",
     "translation": ""
   },
   "66": {
@@ -141,7 +141,7 @@
   },
   "68": {
     "tag": "TEXT_AKTKZK003_04356_VIGILANTOMNICRON04356_000_052",
-    "original": "Reviewing performance... \u003Cwhirr\u003E Analysis suggests that difficulty of \u201Cdancing\u201D greatly exceeded expected values. Further analysis indicates potential application of said motions as combat maneuvers.",
+    "original": "Reviewing performance... <whirr> Analysis suggests that difficulty of “dancing” greatly exceeded expected values. Further analysis indicates potential application of said motions as combat maneuvers.",
     "translation": ""
   },
   "69": {
@@ -151,7 +151,7 @@
   },
   "70": {
     "tag": "TEXT_AKTKZK003_04356_VIGILANTOMNICRON04356_000_054",
-    "original": "Termination order confirmed... \u003Cwhirr\u003E This unit thanks you for your swift action, and further requests performance appraisal.",
+    "original": "Termination order confirmed... <whirr> This unit thanks you for your swift action, and further requests performance appraisal.",
     "translation": ""
   },
   "71": {
@@ -171,7 +171,7 @@
   },
   "74": {
     "tag": "TEXT_AKTKZK003_04356_VIGILANTOMNICRON04356_000_055",
-    "original": "Recording feedback... \u003Cwhirr\u003E Reconfiguring emotional state to \u201Cgrateful.\u201D This unit appreciates your invaluable input and will incorporate received feedback into future programs. Returning to Base Omicron...",
+    "original": "Recording feedback... <whirr> Reconfiguring emotional state to “grateful.” This unit appreciates your invaluable input and will incorporate received feedback into future programs. Returning to Base Omicron...",
     "translation": ""
   },
   "75": {
@@ -186,7 +186,7 @@
   },
   "77": {
     "tag": "TEXT_AKTKZK003_04356_VIGILANTOMNICRON04356_000_062",
-    "original": "Reinitiating gratitude protocol... \u003Cwhirr\u003E This unit thanks you for providing useful data. You are requested to observe the Omicrons\u0027 improved \u201Cdancing\u201D at an unspecified future time. Await further instructions.",
+    "original": "Reinitiating gratitude protocol... <whirr> This unit thanks you for providing useful data. You are requested to observe the Omicrons' improved “dancing” at an unspecified future time. Await further instructions.",
     "translation": ""
   }
 }

@@ -14,25 +14,25 @@
   "2": {
     "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_SELECT_TITLE",
     "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_SELECT_TITLE",
-    "description": "Vessels deployed: \u003Chex:022003E80303\u003E/\u003Chex:022003E80403\u003E\u003Chex:02100103\u003ECeruleum tanks: \u003Chex:022003E80203\u003E\u003Chex:02100103\u003ESelect a submersible.",
+    "description": "Vessels deployed: <hex:022003E80303>/<hex:022003E80403><hex:02100103>Ceruleum tanks: <hex:022003E80203><hex:02100103>Select a submersible.",
     "translation_description": ""
   },
   "3": {
     "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_ADD_NEW_SUBMARINE",
     "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_ADD_NEW_SUBMARINE",
-    "description": "Outfit and register a submersible. (Dive credits required: \u003Chex:022003E80203\u003E)",
+    "description": "Outfit and register a submersible. (Dive credits required: <hex:022003E80203>)",
     "translation_description": ""
   },
   "4": {
     "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_NAME",
     "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_NAME",
-    "description": "\u003Chex:021A020203\u003E\u003Chex:022903EA0203\u003E\u003Chex:021A020103\u003E. (Rank: \u003Chex:022003E80603\u003E) \u003Chex:02094EE803FF01FF01FF462028566F7961676520636F6D706C65746520696E20020811E1E80701FF09022003E807036420FF0103020811E1E80401FF09022003E804036820FF0103022003E805036D2903\u003E",
+    "description": "<hex:021A020203><hex:022903EA0203><hex:021A020103>. (Rank: <hex:022003E80603>) <hex:02094EE803FF01FF01FF462028566F7961676520636F6D706C65746520696E20020811E1E80701FF09022003E807036420FF0103020811E1E80401FF09022003E804036820FF0103022003E805036D2903>",
     "translation_description": ""
   },
   "5": {
     "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_NAME_FINISH",
     "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_NAME_FINISH",
-    "description": "\u003Chex:021A020203\u003E\u003Chex:022903EA0203\u003E\u003Chex:021A020103\u003E. (Rank: \u003Chex:022003E80603\u003E) [Voyage complete]",
+    "description": "<hex:021A020203><hex:022903EA0203><hex:021A020103>. (Rank: <hex:022003E80603>) [Voyage complete]",
     "translation_description": ""
   },
   "6": {
@@ -44,7 +44,7 @@
   "7": {
     "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CMD_TITLE",
     "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CMD_TITLE",
-    "description": "Vessels deployed: \u003Chex:022003E80503\u003E/\u003Chex:022003E80603\u003E\u003Chex:02100103\u003ECeruleum tanks: \u003Chex:022003E80303\u003E\u003Chex:02100103\u003E\u003Chex:021A020203\u003E\u003Chex:022903EA0203\u003E\u003Chex:021A020103\u003E (Rank: \u003Chex:022003E80403\u003E) - Available",
+    "description": "Vessels deployed: <hex:022003E80503>/<hex:022003E80603><hex:02100103>Ceruleum tanks: <hex:022003E80303><hex:02100103><hex:021A020203><hex:022903EA0203><hex:021A020103> (Rank: <hex:022003E80403>) - Available",
     "translation_description": ""
   },
   "8": {
@@ -98,7 +98,7 @@
   "16": {
     "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_VOY_TITLE",
     "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_VOY_TITLE",
-    "description": "Vessels deployed: \u003Chex:022003E80403\u003E/\u003Chex:022003E80503\u003E\u003Chex:02100103\u003E\u003Chex:021A020203\u003E\u003Chex:022903EA0203\u003E\u003Chex:021A020103\u003E (Rank: \u003Chex:022003E80303\u003E) - Deployed\u003Chex:02100103\u003EVoyage complete in \u003Chex:020811E1E80601FF09022003E806036420FF0103\u003E\u003Chex:020811E1E80701FF09022003E807036820FF0103\u003E\u003Chex:022003E80803\u003Em",
+    "description": "Vessels deployed: <hex:022003E80403>/<hex:022003E80503><hex:02100103><hex:021A020203><hex:022903EA0203><hex:021A020103> (Rank: <hex:022003E80303>) - Deployed<hex:02100103>Voyage complete in <hex:020811E1E80601FF09022003E806036420FF0103><hex:020811E1E80701FF09022003E807036820FF0103><hex:022003E80803>m",
     "translation_description": ""
   },
   "17": {
@@ -134,13 +134,13 @@
   "22": {
     "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_NAME_MES_0",
     "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_NAME_MES_0",
-    "description": "Names must be formed from alphanumeric characters. The following punctuation marks are also allowed:\u003Chex:02100103\u003E\u003Chex:024804F201FC03\u003E\u003Chex:024904F201FD03\u003E\u0027\u003Chex:021D0103\u003E. , : ; ! ? \u0026 - _\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u003Chex:02100103\u003E\u2022 Double spaces/underscores are not allowed.\u003Chex:02100103\u003E\u2022 A space cannot be used before or after the name.\u003Chex:02100103\u003E\u2022 Names consisting solely of punctuation marks are prohibited.",
+    "description": "Names must be formed from alphanumeric characters. The following punctuation marks are also allowed:<hex:02100103><hex:024804F201FC03><hex:024904F201FD03>'<hex:021D0103>. , : ; ! ? & - _<hex:0249020103><hex:0248020103><hex:02100103>• Double spaces/underscores are not allowed.<hex:02100103>• A space cannot be used before or after the name.<hex:02100103>• Names consisting solely of punctuation marks are prohibited.",
     "translation_description": ""
   },
   "23": {
     "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_REMOVE_SUBMARINE_TITLE",
     "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_REMOVE_SUBMARINE_TITLE",
-    "description": "Are you certain you wish to dismantle \u003Chex:021A020203\u003E\u003Chex:022903EA0203\u003E\u003Chex:021A020103\u003E?\u003Chex:02100103\u003E\u003Chex:024804F201FC03\u003E\u003Chex:024904F201FD03\u003EPlease note that while submersible components will be returned, your submersible\u0027s registration, rank, and accrued experience will be lost.\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E",
+    "description": "Are you certain you wish to dismantle <hex:021A020203><hex:022903EA0203><hex:021A020103>?<hex:02100103><hex:024804F201FC03><hex:024904F201FD03>Please note that while submersible components will be returned, your submersible's registration, rank, and accrued experience will be lost.<hex:0249020103><hex:0248020103>",
     "translation_description": ""
   },
   "24": {
@@ -158,13 +158,13 @@
   "26": {
     "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_REGISTRATION_2",
     "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_REGISTRATION_2",
-    "description": "\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EDive credits\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E can be purchased from resident caretakers with company credits.",
+    "description": "<hex:024804F201F403><hex:024904F201F503>Dive credits<hex:0249020103><hex:0248020103> can be purchased from resident caretakers with company credits.",
     "translation_description": ""
   },
   "27": {
     "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_REGISTRATION_3",
     "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_REGISTRATION_3",
-    "description": "\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESubmersible components\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E can be constructed in your company workshop. Please note that hull, stern, bow, and bridge components are required to outfit a submersible.",
+    "description": "<hex:024804F201F403><hex:024904F201F503>Submersible components<hex:0249020103><hex:0248020103> can be constructed in your company workshop. Please note that hull, stern, bow, and bridge components are required to outfit a submersible.",
     "translation_description": ""
   },
   "28": {
@@ -176,7 +176,7 @@
   "29": {
     "name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_EXPLOG_1",
     "translation_name": "TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_EXPLOG_1",
-    "description": "Upon the completion of a subaquatic voyage, your mammet will provide a \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Evoyage log\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E detailing the results.",
+    "description": "Upon the completion of a subaquatic voyage, your mammet will provide a <hex:024804F201F403><hex:024904F201F503>voyage log<hex:0249020103><hex:0248020103> detailing the results.",
     "translation_description": ""
   },
   "30": {

@@ -1,17 +1,17 @@
 {
   "0": {
     "tag": "TEXT_BANIXA501_01509_SEQ_00",
-    "original": "\u003Chex:024804F201FC03\u003E\u003Chex:024904F201FD03\u003E\uE0BE Quest Sync\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u003Chex:02100103\u003EDuzal Meyean the Steady seeks a skilled Disciple of the Hand to assist his team of crafts...birds in the creation of intricate components.\u003Chex:02100103\u003E\u203BThe crafting portion of this quest is recommended for Disciples of the Hand level 15 and above.",
+    "original": "<hex:024804F201FC03><hex:024904F201FD03> Quest Sync<hex:0249020103><hex:0248020103><hex:02100103>Duzal Meyean the Steady seeks a skilled Disciple of the Hand to assist his team of crafts...birds in the creation of intricate components.<hex:02100103>※The crafting portion of this quest is recommended for Disciples of the Hand level 15 and above.",
     "translation": ""
   },
   "1": {
     "tag": "TEXT_BANIXA501_01509_SEQ_01",
-    "original": "Duzal Meyean has asked you to synthesize components for the system of speaking tubes to be installed on the \u003Chex:021A020203\u003EDezul Qualan\u003Chex:021A020103\u003E. Proper equipment to craft these items, however, is only found at the Diamond Forge in Revenant\u0027s Toll. Speak with forgewife Fyrbryda about receiving permission to utilize the facilities.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that the difficulty of this quest has been synced to your current level.",
+    "original": "Duzal Meyean has asked you to synthesize components for the system of speaking tubes to be installed on the <hex:021A020203>Dezul Qualan<hex:021A020103>. Proper equipment to craft these items, however, is only found at the Diamond Forge in Revenant's Toll. Speak with forgewife Fyrbryda about receiving permission to utilize the facilities.<hex:02100103><hex:02100103>※Please note that the difficulty of this quest has been synced to your current level.",
     "translation": ""
   },
   "2": {
     "tag": "TEXT_BANIXA501_01509_SEQ_02",
-    "original": "Fyrbryda\u0027s rules for the forge are simple: one, all materials brought inside must be inspected for contraband, and two, if anyone wishes to make use of the facilities, they must first provide a generous contribution to the Revenant\u0027s Toll chapter of the Adventurers\u0027 Guild. Currently, the guild is in short supply of tangle skippers\u2500a rare variety of air-breathing fish from which medicine for the pox is brewed. Travel west to the Tangle and catch two skippers using moth pupae.",
+    "original": "Fyrbryda's rules for the forge are simple: one, all materials brought inside must be inspected for contraband, and two, if anyone wishes to make use of the facilities, they must first provide a generous contribution to the Revenant's Toll chapter of the Adventurers' Guild. Currently, the guild is in short supply of tangle skippers─a rare variety of air-breathing fish from which medicine for the pox is brewed. Travel west to the Tangle and catch two skippers using moth pupae.",
     "translation": ""
   },
   "3": {
@@ -21,7 +21,7 @@
   },
   "4": {
     "tag": "TEXT_BANIXA501_01509_SEQ_04",
-    "original": "Fyrbryda has granted you access to the Diamond Forge\u0027s crafting facilities. Use the materials given to you by Duzal Meyean and inspected by Fyrbryda to synthesize a high-quality speaking tube component. Once completed, return to Ehcatl with the item.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BIn the event that the status \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EFacility Access: Specialization\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E wears off or the synthesis ends in failure, you may try again by speaking with Fyrbryda.",
+    "original": "Fyrbryda has granted you access to the Diamond Forge's crafting facilities. Use the materials given to you by Duzal Meyean and inspected by Fyrbryda to synthesize a high-quality speaking tube component. Once completed, return to Ehcatl with the item.<hex:02100103><hex:02100103>※In the event that the status <hex:024804F201F403><hex:024904F201F503>Facility Access: Specialization<hex:0249020103><hex:0248020103> wears off or the synthesis ends in failure, you may try again by speaking with Fyrbryda.",
     "translation": ""
   },
   "5": {
@@ -31,7 +31,7 @@
   },
   "24": {
     "tag": "TEXT_BANIXA501_01509_TODO_00",
-    "original": "Speak with Fyrbryda in Revenant\u0027s Toll.",
+    "original": "Speak with Fyrbryda in Revenant's Toll.",
     "translation": ""
   },
   "25": {
@@ -46,7 +46,7 @@
   },
   "27": {
     "tag": "TEXT_BANIXA501_01509_TODO_03",
-    "original": "\u003Chex:020888E3E802E803FF3353796E74686573697A65206120737065616B696E67207475626520636F6D706F6E656E742002280AFF064164646F6E0A0103FF4D44656C697665722074686520737065616B696E67207475626520636F6D706F6E656E742002280AFF064164646F6E0A010320746F2044757A616C204D657965616E207468652053746561647903\u003E.",
+    "original": "<hex:020888E3E802E803FF3353796E74686573697A65206120737065616B696E67207475626520636F6D706F6E656E742002280AFF064164646F6E0A0103FF4D44656C697665722074686520737065616B696E67207475626520636F6D706F6E656E742002280AFF064164646F6E0A010320746F2044757A616C204D657965616E207468652053746561647903>.",
     "translation": ""
   },
   "48": {
@@ -56,22 +56,22 @@
   },
   "49": {
     "tag": "TEXT_BANIXA501_01509_DUZALMEYEAN_000_010",
-    "original": "Tasked with crafting of \u003Chex:021A020203\u003EDezul Qualan\u003Chex:021A020103\u003E\u0027s speaking tubes, we are. If tubes not perfect, warp, voices will. Unheard, orders will be. Lost, lives will be. Caw!",
+    "original": "Tasked with crafting of <hex:021A020203>Dezul Qualan<hex:021A020103>'s speaking tubes, we are. If tubes not perfect, warp, voices will. Unheard, orders will be. Lost, lives will be. Caw!",
     "translation": ""
   },
   "50": {
     "tag": "TEXT_BANIXA501_01509_DUZALMEYEAN_000_020",
-    "original": "Tasked with crafting of \u003Chex:021A020203\u003EDezul Qualan\u003Chex:021A020103\u003E\u0027s speaking tubes, we are. If tubing not treated, rust in firmament mists, it will. Unheard, orders will be. Lost, lives will be. Caw!",
+    "original": "Tasked with crafting of <hex:021A020203>Dezul Qualan<hex:021A020103>'s speaking tubes, we are. If tubing not treated, rust in firmament mists, it will. Unheard, orders will be. Lost, lives will be. Caw!",
     "translation": ""
   },
   "51": {
     "tag": "TEXT_BANIXA501_01509_DUZALMEYEAN_000_030",
-    "original": "Tasked with crafting of \u003Chex:021A020203\u003EDezul Qualan\u003Chex:021A020103\u003E\u0027s speaking tubes, we are. If tubes not padded, cluttered, voices will become. Unheard, orders will be. Lost, lives will be. Caw!",
+    "original": "Tasked with crafting of <hex:021A020203>Dezul Qualan<hex:021A020103>'s speaking tubes, we are. If tubes not padded, cluttered, voices will become. Unheard, orders will be. Lost, lives will be. Caw!",
     "translation": ""
   },
   "52": {
     "tag": "TEXT_BANIXA501_01509_DUZALMEYEAN_000_040",
-    "original": "Featherless, you may be, but privileged, you are. Where shunned, an Ixal is, welcome are the \u003Chex:020814E905FF0A646175676874657273FF05736F6E7303\u003E of man\u2500welcome to use gifts of art and knowledge.",
+    "original": "Featherless, you may be, but privileged, you are. Where shunned, an Ixal is, welcome are the <hex:020814E905FF0A646175676874657273FF05736F6E7303> of man─welcome to use gifts of art and knowledge.",
     "translation": ""
   },
   "53": {
@@ -86,22 +86,22 @@
   },
   "55": {
     "tag": "TEXT_BANIXA501_01509_FYRBRYDA_000_060",
-    "original": "You\u0027ve the look of business about you, so I won\u0027t waste your time mincing words. My rules here are simple. Follow them, and you are free to use the facilities for as long as you need.",
+    "original": "You've the look of business about you, so I won't waste your time mincing words. My rules here are simple. Follow them, and you are free to use the facilities for as long as you need.",
     "translation": ""
   },
   "56": {
     "tag": "TEXT_BANIXA501_01509_FYRBRYDA_000_061",
-    "original": "Rule one\u2500aught that passes through those doors must be inspected. I will have no contraband within my walls. Period. Rule two\u2500you make a contribution of my choice to the Revenant\u0027s Toll chapter of the Adventurers\u0027 Guild. No questions asked. No exceptions.",
+    "original": "Rule one─aught that passes through those doors must be inspected. I will have no contraband within my walls. Period. Rule two─you make a contribution of my choice to the Revenant's Toll chapter of the Adventurers' Guild. No questions asked. No exceptions.",
     "translation": ""
   },
   "57": {
     "tag": "TEXT_BANIXA501_01509_FYRBRYDA_000_062",
-    "original": "If that suits you, journey to the Tangle and use moth pupae to catch us two tangle skippers. The gall from their bellies is known to stave off the pox, and a recent outbreak has tapped the hamlet\u0027s supply.",
+    "original": "If that suits you, journey to the Tangle and use moth pupae to catch us two tangle skippers. The gall from their bellies is known to stave off the pox, and a recent outbreak has tapped the hamlet's supply.",
     "translation": ""
   },
   "58": {
     "tag": "TEXT_BANIXA501_01509_FYRBRYDA_000_063",
-    "original": "If it doesn\u0027t, you can leave, and let the screams of suffering children haunt your nightmares for eternity.",
+    "original": "If it doesn't, you can leave, and let the screams of suffering children haunt your nightmares for eternity.",
     "translation": ""
   },
   "59": {
@@ -111,7 +111,7 @@
   },
   "60": {
     "tag": "TEXT_BANIXA501_01509_FYRBRYDA_000_090",
-    "original": "Quick with you now, before the pox claims another innocent child\u0027s life.",
+    "original": "Quick with you now, before the pox claims another innocent child's life.",
     "translation": ""
   },
   "61": {
@@ -136,7 +136,7 @@
   },
   "65": {
     "tag": "TEXT_BANIXA501_01509_DUZALMEYEAN_000_131",
-    "original": "Hah! Clumsy buzzard brethren! Quick to look down upon featherless one, you are. Yet behold! Perfect, \u003Chex:02080DE905FF04686572FF0468697303\u003E work is. If into passing my inspection, more care was placed than into passing wind, hands of featherless one, we would not have to borrow! Caw!",
+    "original": "Hah! Clumsy buzzard brethren! Quick to look down upon featherless one, you are. Yet behold! Perfect, <hex:02080DE905FF04686572FF0468697303> work is. If into passing my inspection, more care was placed than into passing wind, hands of featherless one, we would not have to borrow! Caw!",
     "translation": ""
   },
   "66": {

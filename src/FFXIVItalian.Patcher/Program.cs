@@ -1071,7 +1071,7 @@ if (Directory.Exists(penumbraModDir))
         Manipulations = [.. meta.DefaultData.Manipulations],
     };
 
-    var jsonOptions = new System.Text.Json.JsonSerializerOptions { WriteIndented = true };
+    var jsonOptions = new System.Text.Json.JsonSerializerOptions { WriteIndented = true, Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping };
     string penumbraMetaJson = System.Text.Json.JsonSerializer.Serialize(meta, jsonOptions);
     await File.WriteAllTextAsync(Path.Combine(penumbraModDir, "meta.json"), penumbraMetaJson);
     Console.WriteLine($"  * Scritto: meta.json ({meta.DefaultData.Files.Count} file registrati)");

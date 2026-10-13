@@ -1,10 +1,10 @@
 {
   "1": {
-    "original": "\u00D7 \u003Chex:022003E80203\u003E",
+    "original": "× <hex:022003E80203>",
     "translation": ""
   },
   "2": {
-    "original": "\u6B8B\u308A",
+    "original": "残り",
     "translation": "Rimanenti"
   },
   "3": {
@@ -129,7 +129,7 @@
   },
   "33": {
     "original": "Yes",
-    "translation": "S\u00ec"
+    "translation": "Sì"
   },
   "34": {
     "original": "No",
@@ -144,7 +144,7 @@
     "translation": "Ritirarsi dalla partita?"
   },
   "37": {
-    "original": "Withdraw from this ranked match?\u003Chex:02100103\u003EYou will be counted as having finished in fourth place.",
+    "original": "Withdraw from this ranked match?<hex:02100103>You will be counted as having finished in fourth place.",
     "translation": "Vuoi ritirarti da questa partita classificata?<hex:02100103>Risulterai al quarto posto."
   },
   "38": {
@@ -192,11 +192,11 @@
     "translation": "Ura Dora"
   },
   "49": {
-    "original": "\u003Chex:022003E80203\u003E Han",
+    "original": "<hex:022003E80203> Han",
     "translation": "<hex:022003E80203> Han"
   },
   "50": {
-    "original": "\u003Chex:022003E80203\u003E Fu",
+    "original": "<hex:022003E80203> Fu",
     "translation": "<hex:022003E80203> Fu"
   },
   "51": {
@@ -236,11 +236,11 @@
     "translation": "Triplo Yakuman"
   },
   "60": {
-    "original": "Time until next hand: \u003Chex:022003E80203\u003E:\u003Chex:022403E80303\u003E",
+    "original": "Time until next hand: <hex:022003E80203>:<hex:022403E80303>",
     "translation": "Tempo alla prossima mano: <hex:022003E80203>:<hex:022403E80303>"
   },
   "61": {
-    "original": "Time until final results: \u003Chex:022003E80203\u003E:\u003Chex:022403E80303\u003E",
+    "original": "Time until final results: <hex:022003E80203>:<hex:022403E80303>",
     "translation": "Tempo ai risultati finali: <hex:022003E80203>:<hex:022403E80303>"
   },
   "62": {
@@ -256,83 +256,83 @@
     "translation": "Termina la Partita"
   },
   "65": {
-    "original": "\u25CFOPPONENT SELECT",
-    "translation": "\u25cfSELEZIONE AVVERSARIO"
+    "original": "●OPPONENT SELECT",
+    "translation": "●SELEZIONE AVVERSARIO"
   },
   "66": {
-    "original": "\u25CF\u5BFE\u6226\u8005\u9078\u629E",
-    "translation": "\u25cfSELEZIONE AVVERSARIO"
+    "original": "●対戦者選択",
+    "translation": "●SELEZIONE AVVERSARIO"
   },
   "67": {
-    "original": "\u25CF\u9EBB\u96C0\u3092\u59CB\u3081\u308B",
-    "translation": "\u25cfInizia Mahjong"
+    "original": "●麻雀を始める",
+    "translation": "●Inizia Mahjong"
   },
   "68": {
-    "original": "\u25CF\u623B\u308B",
-    "translation": "\u25cfIndietro"
+    "original": "●戻る",
+    "translation": "●Indietro"
   },
   "69": {
-    "original": "\u25CF\u6B8B\u308A\u5BFE\u6226\u8005",
-    "translation": "\u25cfAvversari Rimanenti"
+    "original": "●残り対戦者",
+    "translation": "●Avversari Rimanenti"
   },
   "70": {
-    "original": "\u25CF\u003Chex:022003E80203\u003E/\u003Chex:022003E80303\u003E",
+    "original": "●<hex:022003E80203>/<hex:022003E80303>",
     "translation": ""
   },
   "71": {
-    "original": "\u25CF\u307E\u308F\u308A\u3092\u6C17\u306B\u305B\u305A\u30AB\u30F3\u3092\u3057\u307E\u304F\u3063\u3066\u5834\u3092\u8352\u3089\u3059\u66B4\u308C\u3093\u574A\u3002",
-    "translation": "\u25cfUn tipo irruento che dichiara kan a ripetizione senza curarsi degli altri e scompiglia la partita."
+    "original": "●まわりを気にせずカンをしまくって場を荒らす暴れん坊。",
+    "translation": "●Un tipo irruento che dichiara kan a ripetizione senza curarsi degli altri e scompiglia la partita."
   },
   "72": {
-    "original": "\u25CF\u30DD\u30F3\u30DD\u30F3\u9CF4\u3044\u3066\u300C\u30C8\u30A4\u30C8\u30A4\u300D\u3092\u72D9\u3046\u3002",
-    "translation": "\u25cfChiama pon in continuazione puntando a \u00abtoitoi\u00bb."
+    "original": "●ポンポン鳴いて「トイトイ」を狙う。",
+    "translation": "●Chiama pon in continuazione puntando a «toitoi»."
   },
   "73": {
-    "original": "\u25CF\u300C\u30E1\u30F3\u30BF\u30F3\u30D4\u30F3\u4E09\u8272\u300D\u304C\u5F97\u610F\u306A\u6B63\u7D71\u6D3E\u3002\u4ED6\u5BB6\u306E\u30EA\u30FC\u30C1\u304C\u6016\u304F\u3066\u304A\u308A\u3061\u3083\u3046\u3053\u3068\u3082\u3002",
-    "translation": "\u25cfUn giocatore tradizionalista, esperto di \u00abmen-tan-pin-sanshoku\u00bb. A volte passa a un gioco difensivo quando teme il riichi degli avversari."
+    "original": "●「メンタンピン三色」が得意な正統派。他家のリーチが怖くておりちゃうことも。",
+    "translation": "●Un giocatore tradizionalista, esperto di «men-tan-pin-sanshoku». A volte passa a un gioco difensivo quando teme il riichi degli avversari."
   },
   "74": {
-    "original": "\u25CF\u6DF7\u4E00\u304C\u597D\u304D\u3002\u30AB\u30F3\u3067\u30C9\u30E9\u3092\u5897\u3084\u3057\u3066\u9AD8\u5F97\u70B9\u3092\u72D9\u3046\u3002\u9ED9\u8074\u3082\u3042\u308A\u6CB9\u65AD\u3067\u304D\u306A\u3044\u3002",
-    "translation": "\u25cfAma l'honitsu e cerca di accumulare punti aumentando le dora con i kan. A volte resta in tenpai senza dichiarare riichi: non sottovalutarlo."
+    "original": "●混一が好き。カンでドラを増やして高得点を狙う。黙聴もあり油断できない。",
+    "translation": "●Ama l'honitsu e cerca di accumulare punti aumentando le dora con i kan. A volte resta in tenpai senza dichiarare riichi: non sottovalutarlo."
   },
   "75": {
-    "original": "\u25CF\u304A\u5F97\u610F\u306E\u56DB\u6697\u523B\u304C\u70B8\u88C2\u3059\u308B\u3002",
-    "translation": "\u25cfIl suo colpo migliore, il suuankou, pu\u00f2 fare la differenza."
+    "original": "●お得意の四暗刻が炸裂する。",
+    "translation": "●Il suo colpo migliore, il suuankou, può fare la differenza."
   },
   "76": {
-    "original": "\u25CF\u624B\u3092\u3064\u304F\u308B\u306E\u304C\u901F\u3044\u3002\u89AA\u3067\u306E\u4E00\u767A\u9006\u8EE2\u306F\u8981\u6CE8\u610F\u3002",
-    "translation": "\u25cfCompone la mano in fretta. Se \u00e8 mazziere, attenzione: pu\u00f2 ribaltare la partita!"
+    "original": "●手をつくるのが速い。親での一発逆転は要注意。",
+    "translation": "●Compone la mano in fretta. Se è mazziere, attenzione: può ribaltare la partita!"
   },
   "77": {
-    "original": "\u25CF\u4F1D\u627F\u3067\u306F\u53E4\u306E\u77E5\u8B58\u3092\u3082\u3064\u7406\u77E5\u7684\u306A\u304A\u3058\u3044\u3061\u3083\u3093\u3002\u724C\u306E\u6D41\u308C\u306B\u9006\u3089\u308F\u306A\u3044\u81EA\u7136\u6D41\u3002",
-    "translation": "\u25cfSecondo la leggenda, \u00e8 un nonnino saggio e razionale, depositario di antiche conoscenze. Il suo stile naturale segue il flusso delle tessere."
+    "original": "●伝承では古の知識をもつ理知的なおじいちゃん。牌の流れに逆らわない自然流。",
+    "translation": "●Secondo la leggenda, è un nonnino saggio e razionale, depositario di antiche conoscenze. Il suo stile naturale segue il flusso delle tessere."
   },
   "78": {
-    "original": "\u25CF\u3044\u3064\u8AB0\u304C\u3053\u306E\u96C0\u8358\u306B\u547C\u3073\u964D\u308D\u3057\u305F\u306E\u304B\u3001\u305D\u306E\u771F\u5B9F\u3092\u77E5\u308B\u8005\u306F\u3044\u306A\u3044\u3002",
-    "translation": "\u25cfNessuno sa chi l'abbia evocato in questa sala di mahjong, n\u00e9 quando."
+    "original": "●いつ誰がこの雀荘に呼び降ろしたのか、その真実を知る者はいない。",
+    "translation": "●Nessuno sa chi l'abbia evocato in questa sala di mahjong, né quando."
   },
   "79": {
-    "original": "\u25CF",
+    "original": "●",
     "translation": ""
   },
   "83": {
-    "original": "\u002B\u003Chex:022003E80203\u003E",
+    "original": "+<hex:022003E80203>",
     "translation": ""
   },
   "84": {
-    "original": "-\u003Chex:022003E80203\u003E",
+    "original": "-<hex:022003E80203>",
     "translation": ""
   },
   "85": {
-    "original": "\u25B2\u003Chex:022003E80203\u003E",
+    "original": "▲<hex:022003E80203>",
     "translation": ""
   },
   "86": {
-    "original": "\u25BC\u003Chex:022003E80203\u003E",
+    "original": "▼<hex:022003E80203>",
     "translation": ""
   },
   "87": {
-    "original": "\u003Chex:0212020C03\u003E Support Features",
+    "original": "<hex:0212020C03> Support Features",
     "translation": "<hex:0212020C03> Funzioni di Supporto"
   },
   "88": {
@@ -604,7 +604,7 @@
     "translation": "Posizione"
   },
   "155": {
-    "original": "Time remaining: \u003Chex:022003E80203\u003E:\u003Chex:022403E80303\u003E",
+    "original": "Time remaining: <hex:022003E80203>:<hex:022403E80303>",
     "translation": "Tempo rimanente: <hex:022003E80203>:<hex:022403E80303>"
   },
   "156": {
@@ -664,7 +664,7 @@
     "translation": "Punti Ottenuti"
   },
   "178": {
-    "original": "In the event of a draw, \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Eany players unable to call a winning hand\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E must pay points to those \u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003Eable to call a winning hand\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.",
+    "original": "In the event of a draw, <hex:024804F201F403><hex:024904F201F503>any players unable to call a winning hand<hex:0249020103><hex:0248020103> must pay points to those <hex:024804F201FA03><hex:024904F201FB03>able to call a winning hand<hex:0249020103><hex:0248020103>.",
     "translation": "In caso di pareggio, <hex:024804F201F403><hex:024904F201F503>i giocatori che non possono dichiarare una mano vincente<hex:0249020103><hex:0248020103> devono cedere punti ai giocatori <hex:024804F201FA03><hex:024904F201FB03>che possono dichiarare una mano vincente<hex:0249020103><hex:0248020103>."
   },
   "179": {
@@ -680,7 +680,7 @@
     "translation": "Punti Grado Totali"
   },
   "182": {
-    "original": "\u003Chex:022003E80203\u003E\u003Chex:020810E1E80301FF082F022003E80303FF0103\u003E",
+    "original": "<hex:022003E80203><hex:020810E1E80301FF082F022003E80303FF0103>",
     "translation": ""
   },
   "183": {
@@ -696,19 +696,19 @@
     "translation": "Punti"
   },
   "186": {
-    "original": "\u003Chex:020818E1E80201FF09202B022003E80203FF0820022003E8020303\u003E",
+    "original": "<hex:020818E1E80201FF09202B022003E80203FF0820022003E8020303>",
     "translation": ""
   },
   "187": {
-    "original": "\u003Chex:022003E80203\u003E Each",
+    "original": "<hex:022003E80203> Each",
     "translation": "<hex:022003E80203> a Testa"
   },
   "188": {
-    "original": "\u003Chex:022003E80203\u003E - \u003Chex:022003E80303\u003E",
+    "original": "<hex:022003E80203> - <hex:022003E80303>",
     "translation": ""
   },
   "189": {
-    "original": "Honba \u003Chex:022003E80203\u003E",
+    "original": "Honba <hex:022003E80203>",
     "translation": "Honba <hex:022003E80203>"
   },
   "190": {
@@ -724,15 +724,15 @@
     "translation": "Dora (Mahjong Domano)"
   },
   "199": {
-    "original": "\u003Chex:020825E4E95101FF18020814E4E94F04FF08636F6E74726F6CFF054374726C03FF06021E02100303\u003E:  Show Point Difference",
+    "original": "<hex:020825E4E95101FF18020814E4E94F04FF08636F6E74726F6CFF054374726C03FF06021E02100303>:  Show Point Difference",
     "translation": "<hex:020825E4E95101FF18020814E4E94F04FF08636F6E74726F6CFF054374726C03FF06021E02100303>: Mostra Differenza di Punteggio"
   },
   "200": {
-    "original": "Rating: \u003Chex:022003E80203\u003E",
+    "original": "Rating: <hex:022003E80203>",
     "translation": "Valutazione: <hex:022003E80203>"
   },
   "201": {
-    "original": "Time remaining until new hand: \u003Chex:022003E80203\u003E minutes",
+    "original": "Time remaining until new hand: <hex:022003E80203> minutes",
     "translation": "Tempo alla prossima mano: <hex:022003E80203> minuti"
   },
   "202": {
@@ -748,7 +748,7 @@
     "translation": "Mano finale"
   },
   "205": {
-    "original": "\u003Chex:020825E4E95101FF18020814E4E94F04FF08636F6E74726F6CFF054374726C03FF06021E02100303\u003E: Check Discarded Tiles",
+    "original": "<hex:020825E4E95101FF18020814E4E94F04FF08636F6E74726F6CFF054374726C03FF06021E02100303>: Check Discarded Tiles",
     "translation": "<hex:020825E4E95101FF18020814E4E94F04FF08636F6E74726F6CFF054374726C03FF06021E02100303>: Controlla Tessere Scartate"
   },
   "206": {
@@ -760,7 +760,7 @@
     "translation": "Tempo rimanente:"
   },
   "208": {
-    "original": "Furiten: Prevents you from calling ron because a tile in your discard pile could have been used\u003Chex:02100103\u003Eto complete a winning hand, or you missed the chance to call a winning hand.\u003Chex:02100103\u003EYou may also be subject to furiten if you are in tenpai with an open hand but no guaranteed yaku.",
+    "original": "Furiten: Prevents you from calling ron because a tile in your discard pile could have been used<hex:02100103>to complete a winning hand, or you missed the chance to call a winning hand.<hex:02100103>You may also be subject to furiten if you are in tenpai with an open hand but no guaranteed yaku.",
     "translation": "Furiten: Impedisce di dichiarare ron se una tessera tra quelle scartate avrebbe potuto<hex:02100103>completare una mano vincente, oppure se hai mancato l'occasione di dichiarare la vittoria.<hex:02100103>Puoi essere in furiten anche se sei in tenpai con una mano aperta ma senza uno yaku garantito."
   },
   "209": {
@@ -776,15 +776,15 @@
     "translation": "Elenco Avversari"
   },
   "212": {
-    "original": "\u003Chex:022903EA0203\u003E",
+    "original": "<hex:022903EA0203>",
     "translation": ""
   },
   "213": {
-    "original": "\u003Chex:022903EA0203\u003E",
+    "original": "<hex:022903EA0203>",
     "translation": ""
   },
   "214": {
-    "original": "\u003Chex:022903EA0203\u003E",
+    "original": "<hex:022903EA0203>",
     "translation": ""
   },
   "215": {
@@ -792,7 +792,7 @@
     "translation": "Visualizza Elenco Avversari"
   },
   "216": {
-    "original": "Rtg: \u003Chex:022003E80203\u003E",
+    "original": "Rtg: <hex:022003E80203>",
     "translation": "Val.: <hex:022003E80203>"
   },
   "256": {
@@ -861,19 +861,19 @@
   },
   "272": {
     "original": "Win with east round and east seat tiles.",
-    "translation": "Vinci con tessere del vento est, quando est \u00e8 sia il vento del giro sia il tuo vento."
+    "translation": "Vinci con tessere del vento est, quando est è sia il vento del giro sia il tuo vento."
   },
   "273": {
     "original": "Win with south round and south seat tiles.",
-    "translation": "Vinci con tessere del vento sud, quando sud \u00e8 sia il vento del giro sia il tuo vento."
+    "translation": "Vinci con tessere del vento sud, quando sud è sia il vento del giro sia il tuo vento."
   },
   "274": {
     "original": "Win with west round and west seat tiles.",
-    "translation": "Vinci con tessere del vento ovest, quando ovest \u00e8 sia il vento del giro sia il tuo vento."
+    "translation": "Vinci con tessere del vento ovest, quando ovest è sia il vento del giro sia il tuo vento."
   },
   "275": {
     "original": "Win with north round and north seat tiles.",
-    "translation": "Vinci con tessere del vento nord, quando nord \u00e8 sia il vento del giro sia il tuo vento."
+    "translation": "Vinci con tessere del vento nord, quando nord è sia il vento del giro sia il tuo vento."
   },
   "276": {
     "original": "Win with a triplet (or kan) of white dragon yaku tiles.",
@@ -889,7 +889,7 @@
   },
   "279": {
     "original": "Awards bonus han but is not a yaku by itself.",
-    "translation": "Fornisce han bonus, ma non costituisce uno yaku di per s\u00e9."
+    "translation": "Fornisce han bonus, ma non costituisce uno yaku di per sé."
   },
   "280": {
     "original": "Declare riichi on the first turn, then win immediately after.",
@@ -961,7 +961,7 @@
   },
   "297": {
     "original": "(Yakuman) Any non-dealer wins on the first tile drawn.",
-    "translation": "(Yakuman) Un giocatore che non \u00e8 mazziere vince pescando la prima tessera."
+    "translation": "(Yakuman) Un giocatore che non è mazziere vince pescando la prima tessera."
   },
   "298": {
     "original": "(Yakuman) Form a hand using only number tiles from one suit, where it is possible to call a winning hand using any number.",
@@ -1017,19 +1017,19 @@
   },
   "311": {
     "original": "Awards bonus han but is not a yaku by itself.",
-    "translation": "Fornisce han bonus, ma non costituisce uno yaku di per s\u00e9."
+    "translation": "Fornisce han bonus, ma non costituisce uno yaku di per sé."
   },
   "312": {
     "original": "Awards bonus han but is not a yaku by itself.",
-    "translation": "Fornisce han bonus, ma non costituisce uno yaku di per s\u00e9."
+    "translation": "Fornisce han bonus, ma non costituisce uno yaku di per sé."
   },
   "313": {
     "original": "(Yakuman) Win with three triplets of dragon tiles. If another player allowed the third triplet to be called, they must pay a penalty.",
-    "translation": "(Yakuman) Vinci con tre tris di tessere drago. Se un altro giocatore ha scartato la tessera con cui hai dichiarato il terzo tris, dovr\u00e0 pagare una penalit\u00e0."
+    "translation": "(Yakuman) Vinci con tre tris di tessere drago. Se un altro giocatore ha scartato la tessera con cui hai dichiarato il terzo tris, dovrà pagare una penalità."
   },
   "314": {
     "original": "(Yakuman) Win with four triplets of wind tiles. If another player allowed the fourth triplet to be called, they must pay a penalty.",
-    "translation": "(Yakuman) Vinci con quattro tris di tessere vento. Se un altro giocatore ha scartato la tessera con cui hai dichiarato il quarto tris, dovr\u00e0 pagare una penalit\u00e0."
+    "translation": "(Yakuman) Vinci con quattro tris di tessere vento. Se un altro giocatore ha scartato la tessera con cui hai dichiarato il quarto tris, dovrà pagare una penalità."
   },
   "331": {
     "original": "Characters (1)",
@@ -1105,39 +1105,39 @@
   },
   "349": {
     "original": "Bamboo (1)",
-    "translation": "Bamb\u00f9 (1)"
+    "translation": "Bambù (1)"
   },
   "350": {
     "original": "Bamboo (2)",
-    "translation": "Bamb\u00f9 (2)"
+    "translation": "Bambù (2)"
   },
   "351": {
     "original": "Bamboo (3)",
-    "translation": "Bamb\u00f9 (3)"
+    "translation": "Bambù (3)"
   },
   "352": {
     "original": "Bamboo (4)",
-    "translation": "Bamb\u00f9 (4)"
+    "translation": "Bambù (4)"
   },
   "353": {
     "original": "Bamboo (5)",
-    "translation": "Bamb\u00f9 (5)"
+    "translation": "Bambù (5)"
   },
   "354": {
     "original": "Bamboo (6)",
-    "translation": "Bamb\u00f9 (6)"
+    "translation": "Bambù (6)"
   },
   "355": {
     "original": "Bamboo (7)",
-    "translation": "Bamb\u00f9 (7)"
+    "translation": "Bambù (7)"
   },
   "356": {
     "original": "Bamboo (8)",
-    "translation": "Bamb\u00f9 (8)"
+    "translation": "Bambù (8)"
   },
   "357": {
     "original": "Bamboo (9)",
-    "translation": "Bamb\u00f9 (9)"
+    "translation": "Bambù (9)"
   },
   "358": {
     "original": "East Wind",
@@ -1177,6 +1177,6 @@
   },
   "367": {
     "original": "Bamboo (5)",
-    "translation": "Bamb\u00f9 (5)"
+    "translation": "Bambù (5)"
   }
 }

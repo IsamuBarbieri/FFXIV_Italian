@@ -12,7 +12,7 @@ public record UpdateChange(string File, string Id, string Kind, JsonNode? Before
 
 public static class GameUpdate
 {
-    private static readonly JsonSerializerOptions Options = new() { WriteIndented = true };
+    private static readonly JsonSerializerOptions Options = new() { WriteIndented = true, Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping };
 
     // Keep translations and editorial metadata, including removed rows, for human review.
     public static JsonObject Merge(string file, JsonObject before, JsonObject extracted, List<UpdateChange> changes)

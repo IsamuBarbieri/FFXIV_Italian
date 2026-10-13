@@ -401,7 +401,7 @@ public static class CharacterCreationTranslations
             sorted[k.ToString()] = root[k.ToString()]!.DeepClone();
         }
 
-        var opt = new JsonSerializerOptions { WriteIndented = true };
+        var opt = new JsonSerializerOptions { WriteIndented = true, Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping };
         File.WriteAllText(lobbyJsonPath, sorted.ToJsonString(opt));
     }
 }

@@ -14,14 +14,14 @@
   "3": {
     "name": "Limit Break",
     "translation_name": "Trascendenza",
-    "description": "Spend energy stored in your party\u0027s limit gauge to execute a powerful battle technique. The technique executed is determined by the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Erole\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E of the party member who initiates it.\u003Chex:02100103\u003ETank: Increase party defense (area of effect: 50y).\u003Chex:02100103\u003EMelee: Single-target attack.\u003Chex:02100103\u003ERanged: Attack to all targets in a straight line (range: 30y).\u003Chex:02100103\u003ECaster: Area of effect attack (8y/10y/15y).\u003Chex:02100103\u003EHealer: HP restoration. Raise at level 3 (area of effect: 50y).\u003Chex:02100103\u003E\u203BIf target is not weakened at the time of Raise, the target will be restored in a non-weakened state. If target is weakened at the time of Raise, the weakness counter will reset.",
-    "translation_description": "Consuma l'energia accumulata nella barra di trascendenza del gruppo per eseguire una potente tecnica di combattimento. La tecnica dipende dal \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Eruolo\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E del membro del gruppo che la attiva.\u003Chex:02100103\u003EDifensore: aumenta la difesa del gruppo (raggio d'azione: 50 yalmi).\u003Chex:02100103\u003EDPS da mischia: attacco a bersaglio singolo.\u003Chex:02100103\u003EDPS fisico a distanza: attacca tutti i bersagli in linea retta (gittata: 30 yalmi).\u003Chex:02100103\u003EDPS magico a distanza: attacco ad area (raggio: 8/10/15 yalmi).\u003Chex:02100103\u003ECuratore: ripristina i PV. Al livello 3, rianima i membri del gruppo (raggio d'azione: 50 yalmi).\u003Chex:02100103\u003E\u203BSe al momento della rianimazione il bersaglio non è affetto da Debolezza, tornerà in vita senza questo status. Se invece ne è affetto, la durata dello status verrà reimpostata."
+    "description": "Spend energy stored in your party's limit gauge to execute a powerful battle technique. The technique executed is determined by the <hex:024804F201F403><hex:024904F201F503>role<hex:0249020103><hex:0248020103> of the party member who initiates it.<hex:02100103>Tank: Increase party defense (area of effect: 50y).<hex:02100103>Melee: Single-target attack.<hex:02100103>Ranged: Attack to all targets in a straight line (range: 30y).<hex:02100103>Caster: Area of effect attack (8y/10y/15y).<hex:02100103>Healer: HP restoration. Raise at level 3 (area of effect: 50y).<hex:02100103>※If target is not weakened at the time of Raise, the target will be restored in a non-weakened state. If target is weakened at the time of Raise, the weakness counter will reset.",
+    "translation_description": "Consuma l'energia accumulata nella barra di trascendenza del gruppo per eseguire una potente tecnica di combattimento. La tecnica dipende dal <hex:024804F201F403><hex:024904F201F503>ruolo<hex:0249020103><hex:0248020103> del membro del gruppo che la attiva.<hex:02100103>Difensore: aumenta la difesa del gruppo (raggio d'azione: 50 yalmi).<hex:02100103>DPS da mischia: attacco a bersaglio singolo.<hex:02100103>DPS fisico a distanza: attacca tutti i bersagli in linea retta (gittata: 30 yalmi).<hex:02100103>DPS magico a distanza: attacco ad area (raggio: 8/10/15 yalmi).<hex:02100103>Curatore: ripristina i PV. Al livello 3, rianima i membri del gruppo (raggio d'azione: 50 yalmi).<hex:02100103>※Se al momento della rianimazione il bersaglio non è affetto da Debolezza, tornerà in vita senza questo status. Se invece ne è affetto, la durata dello status verrà reimpostata."
   },
   "4": {
     "name": "Sprint",
     "translation_name": "Scatto",
-    "description": "Increases movement speed.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E10s (20s when not in combat)\u003Chex:02100103\u003E\u203BUnavailable in PvP.",
-    "translation_description": "Aumenta la velocità di movimento.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDurata: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E10s (20s fuori dal combattimento)\u003Chex:02100103\u003E※Non disponibile in PvP."
+    "description": "Increases movement speed.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Duration: <hex:0249020103><hex:0248020103>10s (20s when not in combat)<hex:02100103>※Unavailable in PvP.",
+    "translation_description": "Aumenta la velocità di movimento.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata: <hex:0249020103><hex:0248020103>10s (20s fuori dal combattimento)<hex:02100103>※Non disponibile in PvP."
   },
   "5": {
     "name": "Desynthesis",
@@ -74,7 +74,7 @@
   "14": {
     "name": "Materia Extraction",
     "translation_name": "Estrazione Materia",
-    "description": "Extract the aether from an item with a complete spiritbond, and then recrystallize the resulting residue into a concentrated substance known as \u201Cmateria.\u201D",
+    "description": "Extract the aether from an item with a complete spiritbond, and then recrystallize the resulting residue into a concentrated substance known as “materia.”",
     "translation_description": "Estrae l'etere da un oggetto con legame spirituale completo e ricristallizza il residuo ottenuto in una sostanza concentrata chiamata «materia»."
   },
   "15": {

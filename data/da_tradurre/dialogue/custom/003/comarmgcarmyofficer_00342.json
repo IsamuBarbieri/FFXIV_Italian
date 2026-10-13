@@ -20,13 +20,13 @@
   "3": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_MENU_CANCEL2",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_MENU_CANCEL2",
-    "description": "\u003Chex:02080EE1E80201FF060212024603FF0103\u003ECancel",
+    "description": "<hex:02080EE1E80201FF060212024603FF0103>Cancel",
     "translation_description": ""
   },
   "4": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_RANK_UP",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_RANK_UP",
-    "description": "Squadron Rank \u003Chex:022003E80203\u003E",
+    "description": "Squadron Rank <hex:022003E80203>",
     "translation_description": ""
   },
   "5": {
@@ -38,37 +38,37 @@
   "6": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_MENU_TITLE_EXPEDITION",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_MENU_TITLE_EXPEDITION",
-    "description": "Current deployment: \u003Chex:022816FF11476341726D7945787065646974696F6EE8020903\u003E\u003Chex:02100103\u003EMission status: \u003Chex:0208CAE1E80301FF09436F6D706C657465FFBA0208ACE1E80501FF66022003E8050320020812E4E80502FF05686F7572FF06686F7572730302081AE1E80401FF1202080EE1E80501FF0620616E6420FF0103FF0103020829E1E80401FF21022003E8040320020816E4E80402FF076D696E757465FF086D696E7574657303FF0103FF3F02083BE1E80401FF21022003E8040320020816E4E80402FF076D696E757465FF086D696E7574657303FF134C657373207468616E2031206D696E75746503032072656D61696E696E6703\u003E [\u003Chex:020703E80603\u003E\u003Chex:02082BE4E94E04FF12022002DC032F022002DE032F022002DF03FF12022002DE032F022002DC032F022002DF0303\u003E \u003Chex:022002DB03\u003E:\u003Chex:022402DA03\u003E]",
+    "description": "Current deployment: <hex:022816FF11476341726D7945787065646974696F6EE8020903><hex:02100103>Mission status: <hex:0208CAE1E80301FF09436F6D706C657465FFBA0208ACE1E80501FF66022003E8050320020812E4E80502FF05686F7572FF06686F7572730302081AE1E80401FF1202080EE1E80501FF0620616E6420FF0103FF0103020829E1E80401FF21022003E8040320020816E4E80402FF076D696E757465FF086D696E7574657303FF0103FF3F02083BE1E80401FF21022003E8040320020816E4E80402FF076D696E757465FF086D696E7574657303FF134C657373207468616E2031206D696E75746503032072656D61696E696E6703> [<hex:020703E80603><hex:02082BE4E94E04FF12022002DC032F022002DE032F022002DF03FF12022002DE032F022002DC032F022002DF0303> <hex:022002DB03>:<hex:022402DA03>]",
     "translation_description": ""
   },
   "7": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_MENU_TITLE_TRAINING",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_MENU_TITLE_TRAINING",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "8": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_MENU_001",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_MENU_001",
-    "description": "\u003Chex:02080EE1E80201FF060212024603FF0103\u003ESquadron Missions",
+    "description": "<hex:02080EE1E80201FF060212024603FF0103>Squadron Missions",
     "translation_description": ""
   },
   "9": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_MENU_002",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_MENU_002",
-    "description": "\u003Chex:02080EE1E80201FF060212024603FF0103\u003EAbort Current Deployment",
+    "description": "<hex:02080EE1E80201FF060212024603FF0103>Abort Current Deployment",
     "translation_description": ""
   },
   "10": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_MENU_003",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_MENU_003",
-    "description": "\u003Chex:02080EE1E80201FF060212024603FF0103\u003ERead the Squadron Guide",
+    "description": "<hex:02080EE1E80201FF060212024603FF0103>Read the Squadron Guide",
     "translation_description": ""
   },
   "11": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_MENU_004",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_MENU_004",
-    "description": "\u003Chex:02080EE1E80201FF060212026603FF0103\u003ENew Missions",
+    "description": "<hex:02080EE1E80201FF060212026603FF0103>New Missions",
     "translation_description": ""
   },
   "12": {
@@ -98,19 +98,19 @@
   "16": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_OBTAIN_TITLE",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_OBTAIN_TITLE",
-    "description": "Warning: You will not be able to receive all the following:\u003Chex:02100103\u003E\u003Chex:02081CE1E80201FF14021001032020436F6D70616E79205365616C73FF0103\u003E\u003Chex:020812E1E80301FF0A0210010320204D4750FF0103\u003E\u003Chex:020824E1E80401FF1C021001032020022D12FF1002310CFF054974656D04E80603020303FF0103\u003E\u003Chex:020824E1E80501FF1C021001032020022D12FF1002310CFF054974656D04E80703020303FF0103\u003E\u003Chex:02100103\u003E\u003Chex:02100103\u003EDo you still wish to proceed?",
+    "description": "Warning: You will not be able to receive all the following:<hex:02100103><hex:02081CE1E80201FF14021001032020436F6D70616E79205365616C73FF0103><hex:020812E1E80301FF0A0210010320204D4750FF0103><hex:020824E1E80401FF1C021001032020022D12FF1002310CFF054974656D04E80603020303FF0103><hex:020824E1E80501FF1C021001032020022D12FF1002310CFF054974656D04E80703020303FF0103><hex:02100103><hex:02100103>Do you still wish to proceed?",
     "translation_description": ""
   },
   "17": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_ABORT_YESNO",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_ABORT_YESNO",
-    "description": "\u003Chex:022816FF11476341726D7945787065646974696F6EE8020903\u003E\u003Chex:02100103\u003EMission status: \u003Chex:0208ACE1E80401FF66022003E8040320020812E4E80402FF05686F7572FF06686F7572730302081AE1E80301FF1202080EE1E80401FF0620616E6420FF0103FF0103020829E1E80301FF21022003E8030320020816E4E80302FF076D696E757465FF086D696E7574657303FF0103FF3F02083BE1E80301FF21022003E8030320020816E4E80302FF076D696E757465FF086D696E7574657303FF134C657373207468616E2031206D696E7574650303\u003E remaining [\u003Chex:020703E80503\u003E\u003Chex:02082BE4E94E04FF12022002DC032F022002DE032F022002DF03FF12022002DE032F022002DC032F022002DF0303\u003E \u003Chex:022002DB03\u003E:\u003Chex:022402DA03\u003E]\u003Chex:02100103\u003EAbort mission?",
+    "description": "<hex:022816FF11476341726D7945787065646974696F6EE8020903><hex:02100103>Mission status: <hex:0208ACE1E80401FF66022003E8040320020812E4E80402FF05686F7572FF06686F7572730302081AE1E80301FF1202080EE1E80401FF0620616E6420FF0103FF0103020829E1E80301FF21022003E8030320020816E4E80302FF076D696E757465FF086D696E7574657303FF0103FF3F02083BE1E80301FF21022003E8030320020816E4E80302FF076D696E757465FF086D696E7574657303FF134C657373207468616E2031206D696E7574650303> remaining [<hex:020703E80503><hex:02082BE4E94E04FF12022002DC032F022002DE032F022002DF03FF12022002DE032F022002DC032F022002DF0303> <hex:022002DB03>:<hex:022402DA03>]<hex:02100103>Abort mission?",
     "translation_description": ""
   },
   "18": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_ABORT_YESNO_TRAINING",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_ABORT_YESNO_TRAINING",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "19": {
@@ -194,37 +194,37 @@
   "32": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_270",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_270",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "33": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_270",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_270",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "34": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_270",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_270",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "35": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_280",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_280",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "36": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_280",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_280",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "37": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_280",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_280",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "38": {
@@ -242,7 +242,7 @@
   "40": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_283",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_283",
-    "description": "You can also check if recruits are available by opening the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ETimers\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E interface located under \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EDuty\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E in the main menu.",
+    "description": "You can also check if recruits are available by opening the <hex:024804F201F403><hex:024904F201F503>Timers<hex:0249020103><hex:0248020103> interface located under <hex:024804F201F403><hex:024904F201F503>Duty<hex:0249020103><hex:0248020103> in the main menu.",
     "translation_description": ""
   },
   "41": {
@@ -254,13 +254,13 @@
   "42": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_290",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_290",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "43": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_291",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_291",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "44": {
@@ -278,49 +278,49 @@
   "46": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_290",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_290",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "47": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_291",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_291",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "48": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_290",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_290",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "49": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_291",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_291",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "50": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_200_292",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_200_292",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "51": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_300",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_300",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "52": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_301",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_301",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "53": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_300",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_300",
-    "description": "Squadron missions are duties that have been assigned to your adventurer recruits by the \u003Chex:020812E1E93501FF0A4D61656C7374726F6DFF0103\u003E\u003Chex:020820E1E93601FF184F72646572206F6620746865205477696E204164646572FF0103\u003E\u003Chex:020818E1E93701FF10496D6D6F7274616C20466C616D6573FF0103\u003E. To undertake a mission, you must select four squadron members for deployment.",
+    "description": "Squadron missions are duties that have been assigned to your adventurer recruits by the <hex:020812E1E93501FF0A4D61656C7374726F6DFF0103><hex:020820E1E93601FF184F72646572206F6620746865205477696E204164646572FF0103><hex:020818E1E93701FF10496D6D6F7274616C20466C616D6573FF0103>. To undertake a mission, you must select four squadron members for deployment.",
     "translation_description": ""
   },
   "54": {
@@ -332,7 +332,7 @@
   "55": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_302",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_302",
-    "description": "The time remaining until a mission is completed can be viewed by opening the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ETimers\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E interface located under \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EDuty\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E in the main menu.",
+    "description": "The time remaining until a mission is completed can be viewed by opening the <hex:024804F201F403><hex:024904F201F503>Timers<hex:0249020103><hex:0248020103> interface located under <hex:024804F201F403><hex:024904F201F503>Duty<hex:0249020103><hex:0248020103> in the main menu.",
     "translation_description": ""
   },
   "56": {
@@ -344,73 +344,73 @@
   "57": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_304",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_304",
-    "description": "Each duty can be completed once per week, with all mission timers and respective strength requirements being reset every \u003Chex:020603120303\u003E\u003Chex:020942DDFF0753756E646179FF074D6F6E646179FF0854756573646179FF0A5765646E6573646179FF095468757273646179FF07467269646179FF09536174757264617903\u003E at \u003Chex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03\u003E \u003Chex:020810E0DB0DFF05702E6D2EFF05612E6D2E03\u003E (Earth time).",
+    "description": "Each duty can be completed once per week, with all mission timers and respective strength requirements being reset every <hex:020603120303><hex:020942DDFF0753756E646179FF074D6F6E646179FF0854756573646179FF0A5765646E6573646179FF095468757273646179FF07467269646179FF09536174757264617903> at <hex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03> <hex:020810E0DB0DFF05702E6D2EFF05612E6D2E03> (Earth time).",
     "translation_description": ""
   },
   "58": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_302",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_302",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "59": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_305",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_305",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "60": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_300",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_300",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "61": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_301",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_301",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "62": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_302",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_302",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "63": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_300",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_300",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "64": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_301",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_301",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "65": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_302",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_302",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "66": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_310",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_310",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "67": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_311",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_311",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "68": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_312",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_312",
-    "description": "Training courses will improve your squadron\u0027s attributes as a unit, providing increases to overall physical, mental, and tactical strength.",
+    "description": "Training courses will improve your squadron's attributes as a unit, providing increases to overall physical, mental, and tactical strength.",
     "translation_description": ""
   },
   "69": {
@@ -422,7 +422,7 @@
   "70": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_314",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_314",
-    "description": "Each training course takes 1 hour to complete (Earth time). The time remaining until a course is completed can be viewed by opening the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ETimers\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E interface located under \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EDuty\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E in the main menu.",
+    "description": "Each training course takes 1 hour to complete (Earth time). The time remaining until a course is completed can be viewed by opening the <hex:024804F201F403><hex:024904F201F503>Timers<hex:0249020103><hex:0248020103> interface located under <hex:024804F201F403><hex:024904F201F503>Duty<hex:0249020103><hex:0248020103> in the main menu.",
     "translation_description": ""
   },
   "71": {
@@ -434,31 +434,31 @@
   "72": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_316",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_316",
-    "description": "You can order your squadron to train up to three times a day. This limit is reset every day at \u003Chex:0206020603\u003E\u003Chex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03\u003E \u003Chex:020810E0DB0DFF05702E6D2EFF05612E6D2E03\u003E (Earth time).",
+    "description": "You can order your squadron to train up to three times a day. This limit is reset every day at <hex:0206020603><hex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03> <hex:020810E0DB0DFF05702E6D2EFF05612E6D2E03> (Earth time).",
     "translation_description": ""
   },
   "73": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_310",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_310",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09 ",
+    "description": "（★未使用／削除予定★） ",
     "translation_description": ""
   },
   "74": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_311",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_311",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "75": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_310",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_310",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "76": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_311",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_311",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "77": {
@@ -482,19 +482,19 @@
   "80": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_321",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_321",
-    "description": "Once you have the item required, check the regimen board and select the option to \u201CView squadron roster.\u201D Next, choose a squadron member, and use the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EChange Class\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E subcommand to switch to the desired class.",
+    "description": "Once you have the item required, check the regimen board and select the option to “View squadron roster.” Next, choose a squadron member, and use the <hex:024804F201F403><hex:024904F201F503>Change Class<hex:0249020103><hex:0248020103> subcommand to switch to the desired class.",
     "translation_description": ""
   },
   "81": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_330",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_330",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "82": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_331",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_331",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "83": {
@@ -506,13 +506,13 @@
   "84": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_331",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_331",
-    "description": "This \u201Csquadron chemistry\u201D can affect the outcome of missions by improving attributes or increasing rewards, and its bonuses will come into play when meeting certain requirements. Requirements vary, but generally involve deploying a squadron composed of a certain combination of classes or races.",
+    "description": "This “squadron chemistry” can affect the outcome of missions by improving attributes or increasing rewards, and its bonuses will come into play when meeting certain requirements. Requirements vary, but generally involve deploying a squadron composed of a certain combination of classes or races.",
     "translation_description": ""
   },
   "85": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_332",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_332",
-    "description": "Chemistry settings are accessed via the regimen board by selecting \u201CView squadron roster,\u201D then using the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EConfirm Chemistry\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E subcommand after choosing a squadron member.",
+    "description": "Chemistry settings are accessed via the regimen board by selecting “View squadron roster,” then using the <hex:024804F201F403><hex:024904F201F503>Confirm Chemistry<hex:0249020103><hex:0248020103> subcommand after choosing a squadron member.",
     "translation_description": ""
   },
   "86": {
@@ -524,97 +524,97 @@
   "87": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_340",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_340",
-    "description": "The \u201CMission Affinity\u201D window displays a random prerequisite for select missions. By deploying members of the suggested class or race, the effects of squadron chemistry will be amplified.",
+    "description": "The “Mission Affinity” window displays a random prerequisite for select missions. By deploying members of the suggested class or race, the effects of squadron chemistry will be amplified.",
     "translation_description": ""
   },
   "88": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_341",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_341",
-    "description": "Meeting affinity prerequisites can also greatly improve your squadron\u0027s chances of completing the more difficult duties, so be sure to take this information into consideration when deciding which members to deploy.",
+    "description": "Meeting affinity prerequisites can also greatly improve your squadron's chances of completing the more difficult duties, so be sure to take this information into consideration when deciding which members to deploy.",
     "translation_description": ""
   },
   "89": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_342",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_342",
-    "description": "Affinity prerequisites are attached to all routine and priority missions, and are reset every \u003Chex:020603120303\u003E\u003Chex:020942DDFF0753756E646179FF074D6F6E646179FF0854756573646179FF0A5765646E6573646179FF095468757273646179FF07467269646179FF09536174757264617903\u003E at \u003Chex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03\u003E \u003Chex:020810E0DB0DFF05702E6D2EFF05612E6D2E03\u003E (Earth time).",
+    "description": "Affinity prerequisites are attached to all routine and priority missions, and are reset every <hex:020603120303><hex:020942DDFF0753756E646179FF074D6F6E646179FF0854756573646179FF0A5765646E6573646179FF095468757273646179FF07467269646179FF09536174757264617903> at <hex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03> <hex:020810E0DB0DFF05702E6D2EFF05612E6D2E03> (Earth time).",
     "translation_description": ""
   },
   "90": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_021_000_GRD",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_021_000_GRD",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "91": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_021_001_GRD",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_021_001_GRD",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "92": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_021_002_GRD",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_021_002_GRD",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "93": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_021_003_GRD",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_021_003_GRD",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "94": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_021_000_LIM",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_021_000_LIM",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "95": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_021_001_LIM",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_021_001_LIM",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "96": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_021_002_LIM",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_021_002_LIM",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "97": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_021_003_LIM",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_021_003_LIM",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "98": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_021_000_ULD",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_021_000_ULD",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "99": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_021_001_ULD",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_021_001_ULD",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "100": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_021_002_ULD",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_021_002_ULD",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "101": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_021_003_ULD",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_021_003_ULD",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "102": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_340",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_340",
-    "description": "Command missions are duties that put you at the head of a four-man unit\u2500yourself and three soldiers\u2500for a foray into an instanced dungeon.",
+    "description": "Command missions are duties that put you at the head of a four-man unit─yourself and three soldiers─for a foray into an instanced dungeon.",
     "translation_description": ""
   },
   "103": {
@@ -674,7 +674,7 @@
   "112": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_350",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_350",
-    "description": "Orders can also be set to your other hotbars by selecting them from the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EOrders\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E interface found within \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EActions \u0026 Traits\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.",
+    "description": "Orders can also be set to your other hotbars by selecting them from the <hex:024804F201F403><hex:024904F201F503>Orders<hex:0249020103><hex:0248020103> interface found within <hex:024804F201F403><hex:024904F201F503>Actions & Traits<hex:0249020103><hex:0248020103>.",
     "translation_description": ""
   },
   "113": {
@@ -686,7 +686,7 @@
   "114": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_360",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_360",
-    "description": "Battle tactics govern unit members\u0027 behavior during a command mission.",
+    "description": "Battle tactics govern unit members' behavior during a command mission.",
     "translation_description": ""
   },
   "115": {
@@ -698,7 +698,7 @@
   "116": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_362",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_362",
-    "description": "Other tactics include Offensive, Balanced, and Defensive. Each directs a unit member\u0027s behavior while offering unique enhancing effects.",
+    "description": "Other tactics include Offensive, Balanced, and Defensive. Each directs a unit member's behavior while offering unique enhancing effects.",
     "translation_description": ""
   },
   "117": {
@@ -728,13 +728,13 @@
   "121": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_100",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_100",
-    "description": "Welcome to the squadron barracks, Commander! I\u0027ve been fully debriefed on this new initiative, and stand ready to answer any questions you might have.",
+    "description": "Welcome to the squadron barracks, Commander! I've been fully debriefed on this new initiative, and stand ready to answer any questions you might have.",
     "translation_description": ""
   },
   "122": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_136",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_136",
-    "description": "First and foremost, however, we\u0027ll need to increase the number of squadron members. We have three recruits at present, but our squadron won\u0027t be ready to deploy until we have at least four.",
+    "description": "First and foremost, however, we'll need to increase the number of squadron members. We have three recruits at present, but our squadron won't be ready to deploy until we have at least four.",
     "translation_description": ""
   },
   "123": {
@@ -758,7 +758,7 @@
   "126": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_140",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_140",
-    "description": "You can also check if recruits are available by opening the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ETimers\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E interface located under \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EDuty\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E in the main menu.",
+    "description": "You can also check if recruits are available by opening the <hex:024804F201F403><hex:024904F201F503>Timers<hex:0249020103><hex:0248020103> interface located under <hex:024804F201F403><hex:024904F201F503>Duty<hex:0249020103><hex:0248020103> in the main menu.",
     "translation_description": ""
   },
   "127": {
@@ -770,37 +770,37 @@
   "128": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_110",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_110",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "129": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_111",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_111",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "130": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_101",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_101",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "131": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_102",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_102",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "132": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_110",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_110",
-    "description": "Ah, our fledgling squadron\u0027s first deployment!",
+    "description": "Ah, our fledgling squadron's first deployment!",
     "translation_description": ""
   },
   "133": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_111",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_111",
-    "description": "Now, ordinarily I would offer you a list of pre-approved duties to choose from, but I\u0027ve taken the liberty of arranging a simple mission to ease the recruits into their roles.",
+    "description": "Now, ordinarily I would offer you a list of pre-approved duties to choose from, but I've taken the liberty of arranging a simple mission to ease the recruits into their roles.",
     "translation_description": ""
   },
   "134": {
@@ -812,37 +812,37 @@
   "135": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_113",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_113",
-    "description": "Squadron missions must be undertaken by a unit comprised of four members. Choose the recruits you deem suitable for the mission, and then select the \u201CDeploy\u201D button.",
+    "description": "Squadron missions must be undertaken by a unit comprised of four members. Choose the recruits you deem suitable for the mission, and then select the “Deploy” button.",
     "translation_description": ""
   },
   "136": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_120",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_120",
-    "description": "The order has been given, Commander: the squadron is mission-bound.\u003Chex:02100103\u003E...Ah, I should also mention that each deployment is funded by company seals.",
+    "description": "The order has been given, Commander: the squadron is mission-bound.<hex:02100103>...Ah, I should also mention that each deployment is funded by company seals.",
     "translation_description": ""
   },
   "137": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_121",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_121",
-    "description": "I\u0027ve paid what\u0027s owed this time around, but the \u003Chex:020812E1E93501FF0A4D61656C7374726F6DFF0103\u003E\u003Chex:020820E1E93601FF184F72646572206F6620746865205477696E204164646572FF0103\u003E\u003Chex:020818E1E93701FF10496D6D6F7274616C20466C616D6573FF0103\u003E requires that their soldiers receive fair compensation. For future deployments, you\u0027ll need to pay the recruits yourself, Commander.",
+    "description": "I've paid what's owed this time around, but the <hex:020812E1E93501FF0A4D61656C7374726F6DFF0103><hex:020820E1E93601FF184F72646572206F6620746865205477696E204164646572FF0103><hex:020818E1E93701FF10496D6D6F7274616C20466C616D6573FF0103> requires that their soldiers receive fair compensation. For future deployments, you'll need to pay the recruits yourself, Commander.",
     "translation_description": ""
   },
   "138": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_122",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_122",
-    "description": "And now we wait. Once the squadron has returned from their mission, speak to me and I\u0027ll provide you with a full report.",
+    "description": "And now we wait. Once the squadron has returned from their mission, speak to me and I'll provide you with a full report.",
     "translation_description": ""
   },
   "139": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_124",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_124",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "140": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_125",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_125",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "141": {
@@ -854,31 +854,31 @@
   "142": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_123",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_123",
-    "description": "Squadron missions require 18 hours to complete (Earth time). The time remaining until a mission is completed can be viewed by opening the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ETimers\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E interface located under \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EDuty\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E in the main menu.",
+    "description": "Squadron missions require 18 hours to complete (Earth time). The time remaining until a mission is completed can be viewed by opening the <hex:024804F201F403><hex:024904F201F503>Timers<hex:0249020103><hex:0248020103> interface located under <hex:024804F201F403><hex:024904F201F503>Duty<hex:0249020103><hex:0248020103> in the main menu.",
     "translation_description": ""
   },
   "143": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_130",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_130",
-    "description": "Let\u0027s see here...\u003Chex:02100103\u003EAye, the recruits appear to have carried out their task in a sufficiently competent manner. You\u0027d be surprised at how many privates manage to lose their way on a simple patrol route...",
+    "description": "Let's see here...<hex:02100103>Aye, the recruits appear to have carried out their task in a sufficiently competent manner. You'd be surprised at how many privates manage to lose their way on a simple patrol route...",
     "translation_description": ""
   },
   "144": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_131",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_131",
-    "description": "In any case, a small success like this will improve the unit\u0027s cohesion and help sharpen their individual skills.",
+    "description": "In any case, a small success like this will improve the unit's cohesion and help sharpen their individual skills.",
     "translation_description": ""
   },
   "145": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_132",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_132",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "146": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_133",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_133",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "147": {
@@ -890,49 +890,49 @@
   "148": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_135",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_135",
-    "description": "Each mission can be completed once per week, with deployment status being reset every \u003Chex:020603120303\u003E\u003Chex:020942DDFF0753756E646179FF074D6F6E646179FF0854756573646179FF0A5765646E6573646179FF095468757273646179FF07467269646179FF09536174757264617903\u003E at \u003Chex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03\u003E \u003Chex:020810E0DB0DFF05702E6D2EFF05612E6D2E03\u003E (Earth time).",
+    "description": "Each mission can be completed once per week, with deployment status being reset every <hex:020603120303><hex:020942DDFF0753756E646179FF074D6F6E646179FF0854756573646179FF0A5765646E6573646179FF095468757273646179FF07467269646179FF09536174757264617903> at <hex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03> <hex:020810E0DB0DFF05702E6D2EFF05612E6D2E03> (Earth time).",
     "translation_description": ""
   },
   "149": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_136",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_136",
-    "description": "Now let\u0027s talk training. Specialized instruction will improve the abilities of individual recruits, but its main purpose is to encourage the growth of the squadron as a whole.",
+    "description": "Now let's talk training. Specialized instruction will improve the abilities of individual recruits, but its main purpose is to encourage the growth of the squadron as a whole.",
     "translation_description": ""
   },
   "150": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_137",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_137",
-    "description": "When you decide that the squadron\u0027s skills could use some sharpening, check the regimen board for a list of available training courses.",
+    "description": "When you decide that the squadron's skills could use some sharpening, check the regimen board for a list of available training courses.",
     "translation_description": ""
   },
   "151": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_138",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_138",
-    "description": "Aye, as much as I champion learning through doing, there are some things that need to be taught if the troops are to handle the tougher deployments.\u003Chex:02100103\u003E\u201CThe more ye bleed durin\u0027 trainin\u0027 the less ye\u0027ll bleed on the field!\u201D as my old drill sergeant used to say...",
+    "description": "Aye, as much as I champion learning through doing, there are some things that need to be taught if the troops are to handle the tougher deployments.<hex:02100103>“The more ye bleed durin' trainin' the less ye'll bleed on the field!” as my old drill sergeant used to say...",
     "translation_description": ""
   },
   "152": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_139",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_139",
-    "description": "If we want this squadron to be the most elite unit in the \u003Chex:020812E1E93501FF0A4D61656C7374726F6DFF0103\u003E\u003Chex:020820E1E93601FF184F72646572206F6620746865205477696E204164646572FF0103\u003E\u003Chex:020818E1E93701FF10496D6D6F7274616C20466C616D6573FF0103\u003E then we\u0027d best not neglect their military education!",
+    "description": "If we want this squadron to be the most elite unit in the <hex:020812E1E93501FF0A4D61656C7374726F6DFF0103><hex:020820E1E93601FF184F72646572206F6620746865205477696E204164646572FF0103><hex:020818E1E93701FF10496D6D6F7274616C20466C616D6573FF0103> then we'd best not neglect their military education!",
     "translation_description": ""
   },
   "153": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_150",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_150",
-    "description": "Our squadron has been improving by leaps and bounds, but I think it\u0027s time for the recruits to try their hands at a more challenging deployment. It\u0027s the only way they\u0027ll learn to push past their limits.",
+    "description": "Our squadron has been improving by leaps and bounds, but I think it's time for the recruits to try their hands at a more challenging deployment. It's the only way they'll learn to push past their limits.",
     "translation_description": ""
   },
   "154": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_151",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_151",
-    "description": "One or more squadron members have reached level 20, unlocking a special promotion mission. Successfully completing this mission will increase your squadron\u0027s rank.",
+    "description": "One or more squadron members have reached level 20, unlocking a special promotion mission. Successfully completing this mission will increase your squadron's rank.",
     "translation_description": ""
   },
   "155": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_152",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_152",
-    "description": "Due to the high difficulty level of the promotion mission, however, it is advised that you first improve your squadron members\u0027 individual attributes as much as possible before attempting a deployment.",
+    "description": "Due to the high difficulty level of the promotion mission, however, it is advised that you first improve your squadron members' individual attributes as much as possible before attempting a deployment.",
     "translation_description": ""
   },
   "156": {
@@ -944,25 +944,25 @@
   "157": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_161",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_161",
-    "description": "Your squadron has attained Rank Two!\u003Chex:02100103\u003EAs well as trainee missions, you will now have access to the higher difficulty \u201Croutine missions.\u201D",
+    "description": "Your squadron has attained Rank Two!<hex:02100103>As well as trainee missions, you will now have access to the higher difficulty “routine missions.”",
     "translation_description": ""
   },
   "158": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_162",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_162",
-    "description": "You have also received a copy of \u003Chex:021A020203\u003EContemporary Warfare: Defense\u003Chex:021A020103\u003E as a reward for completing the promotion mission. This special item allows you to change a squadron member\u0027s class.",
+    "description": "You have also received a copy of <hex:021A020203>Contemporary Warfare: Defense<hex:021A020103> as a reward for completing the promotion mission. This special item allows you to change a squadron member's class.",
     "translation_description": ""
   },
   "159": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_163",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_163",
-    "description": "Check the regimen board and select the option to \u201CView squadron roster.\u201D Next, choose a squadron member, and use the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EChange Class\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E subcommand to switch to the desired class.",
+    "description": "Check the regimen board and select the option to “View squadron roster.” Next, choose a squadron member, and use the <hex:024804F201F403><hex:024904F201F503>Change Class<hex:0249020103><hex:0248020103> subcommand to switch to the desired class.",
     "translation_description": ""
   },
   "160": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_170",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_170",
-    "description": "Are you keeping an eye on squadron chemistry, Commander? It\u0027s surprising how much better the recruits perform when teamed with members that complement or challenge them.",
+    "description": "Are you keeping an eye on squadron chemistry, Commander? It's surprising how much better the recruits perform when teamed with members that complement or challenge them.",
     "translation_description": ""
   },
   "161": {
@@ -980,13 +980,13 @@
   "163": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_173",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_173",
-    "description": "This \u201Csquadron chemistry\u201D can affect the outcome of missions by improving attributes or increasing rewards, and its bonuses will come into play when meeting certain requirements. Requirements vary, but generally involve deploying a squadron composed of a certain combination of classes or races.",
+    "description": "This “squadron chemistry” can affect the outcome of missions by improving attributes or increasing rewards, and its bonuses will come into play when meeting certain requirements. Requirements vary, but generally involve deploying a squadron composed of a certain combination of classes or races.",
     "translation_description": ""
   },
   "164": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_174",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_174",
-    "description": "Chemistry settings are accessed via the regimen board by selecting \u201CView squadron roster,\u201D then using the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EConfirm Chemistry\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E subcommand after choosing a squadron member.",
+    "description": "Chemistry settings are accessed via the regimen board by selecting “View squadron roster,” then using the <hex:024804F201F403><hex:024904F201F503>Confirm Chemistry<hex:0249020103><hex:0248020103> subcommand after choosing a squadron member.",
     "translation_description": ""
   },
   "165": {
@@ -998,19 +998,19 @@
   "166": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_180",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_180",
-    "description": "I can hardly recognize those green recruits we started with, Commander. In fact, I\u0027ve heard rumors making the rounds in \u003Chex:02081AE1E93501FF124D61656C7374726F6D20436F6D6D616E64FF0103\u003E\u003Chex:020819E1E93601FF117468652041646465727327204E657374FF0103\u003E\u003Chex:02081BE1E93701FF137468652048616C6C206F6620466C616D6573FF0103\u003E that our squadron is on the short list for the next big assignment...",
+    "description": "I can hardly recognize those green recruits we started with, Commander. In fact, I've heard rumors making the rounds in <hex:02081AE1E93501FF124D61656C7374726F6D20436F6D6D616E64FF0103><hex:020819E1E93601FF117468652041646465727327204E657374FF0103><hex:02081BE1E93701FF137468652048616C6C206F6620466C616D6573FF0103> that our squadron is on the short list for the next big assignment...",
     "translation_description": ""
   },
   "167": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_181",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_181",
-    "description": "One or more squadron members have reached level 40, unlocking a special promotion mission. Successfully completing this mission will increase your squadron\u0027s rank.",
+    "description": "One or more squadron members have reached level 40, unlocking a special promotion mission. Successfully completing this mission will increase your squadron's rank.",
     "translation_description": ""
   },
   "168": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_182",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_182",
-    "description": "Due to the exceedingly high difficulty of the promotion mission, however, it is advised that you first improve your squadron members\u0027 individual attributes as much as possible before attempting a deployment.",
+    "description": "Due to the exceedingly high difficulty of the promotion mission, however, it is advised that you first improve your squadron members' individual attributes as much as possible before attempting a deployment.",
     "translation_description": ""
   },
   "169": {
@@ -1022,7 +1022,7 @@
   "170": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_191",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_191",
-    "description": "Your squadron has attained Rank Three!\u003Chex:02100103\u003EYou now have access to the higher difficulty \u201Cpriority missions.\u201D",
+    "description": "Your squadron has attained Rank Three!<hex:02100103>You now have access to the higher difficulty “priority missions.”",
     "translation_description": ""
   },
   "171": {
@@ -1040,7 +1040,7 @@
   "173": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_194",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_194",
-    "description": "Priority mission status is reset every \u003Chex:020603120303\u003E\u003Chex:020942DDFF0753756E646179FF074D6F6E646179FF0854756573646179FF0A5765646E6573646179FF095468757273646179FF07467269646179FF09536174757264617903\u003E at \u003Chex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03\u003E \u003Chex:020810E0DB0DFF05702E6D2EFF05612E6D2E03\u003E (Earth time).",
+    "description": "Priority mission status is reset every <hex:020603120303><hex:020942DDFF0753756E646179FF074D6F6E646179FF0854756573646179FF0A5765646E6573646179FF095468757273646179FF07467269646179FF09536174757264617903> at <hex:020821DBFF1D020919DB02030405060708090A0B0C0D02030405060708090A0B0C030D03> <hex:020810E0DB0DFF05702E6D2EFF05612E6D2E03> (Earth time).",
     "translation_description": ""
   },
   "174": {
@@ -1052,13 +1052,13 @@
   "175": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_196",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_196",
-    "description": "We\u0027ve received a missive from \u003Chex:02081AE1E93501FF124D61656C7374726F6D20436F6D6D616E64FF0103\u003E\u003Chex:020819E1E93601FF117468652041646465727327204E657374FF0103\u003E\u003Chex:02081BE1E93701FF137468652048616C6C206F6620466C616D6573FF0103\u003E regarding your performance. If you\u0027ll permit me...",
+    "description": "We've received a missive from <hex:02081AE1E93501FF124D61656C7374726F6D20436F6D6D616E64FF0103><hex:020819E1E93601FF117468652041646465727327204E657374FF0103><hex:02081BE1E93701FF137468652048616C6C206F6620466C616D6573FF0103> regarding your performance. If you'll permit me...",
     "translation_description": ""
   },
   "176": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_197",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_197",
-    "description": "\u003Chex:021A020203\u003EFor outstanding efforts in the Adventurer Squadron initiative, \u003Chex:022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF010303\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E is hereby promoted to \u003Chex:02081FE1E93501FF1766697273742073746F726D206C69657574656E616E74FF0103\u003E\u003Chex:020821E1E93601FF1966697273742073657270656E74206C69657574656E616E74FF0103\u003E\u003Chex:02081FE1E93701FF17666972737420666C616D65206C69657574656E616E74FF0103\u003E. Effective immediately.\u003Chex:021A020103\u003E",
+    "description": "<hex:021A020203>For outstanding efforts in the Adventurer Squadron initiative, <hex:022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF010303> <hex:022C0DFF07022903EB0203FF02200303> is hereby promoted to <hex:02081FE1E93501FF1766697273742073746F726D206C69657574656E616E74FF0103><hex:020821E1E93601FF1966697273742073657270656E74206C69657574656E616E74FF0103><hex:02081FE1E93701FF17666972737420666C616D65206C69657574656E616E74FF0103>. Effective immediately.<hex:021A020103>",
     "translation_description": ""
   },
   "177": {
@@ -1070,19 +1070,19 @@
   "178": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_330",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_330",
-    "description": "We\u0027ve received a missive from \u003Chex:02081AE1E93501FF124D61656C7374726F6D20436F6D6D616E64FF0103\u003E\u003Chex:020819E1E93601FF117468652041646465727327204E657374FF0103\u003E\u003Chex:02081BE1E93701FF137468652048616C6C206F6620466C616D6573FF0103\u003E. If you\u0027ll permit me...",
+    "description": "We've received a missive from <hex:02081AE1E93501FF124D61656C7374726F6D20436F6D6D616E64FF0103><hex:020819E1E93601FF117468652041646465727327204E657374FF0103><hex:02081BE1E93701FF137468652048616C6C206F6620466C616D6573FF0103>. If you'll permit me...",
     "translation_description": ""
   },
   "179": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_331",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_331",
-    "description": "\u003Chex:021A020203\u003EFor ongoing excellence in the Adventurer Squadron initiative, \u003Chex:022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF010303\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E\u0027s squadron is hereby granted authorization to undertake command missions. Effective immediately.\u003Chex:021A020103\u003E",
+    "description": "<hex:021A020203>For ongoing excellence in the Adventurer Squadron initiative, <hex:022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF010303> <hex:022C0DFF07022903EB0203FF02200303>'s squadron is hereby granted authorization to undertake command missions. Effective immediately.<hex:021A020103>",
     "translation_description": ""
   },
   "180": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_332",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_332",
-    "description": "Well, an expansion of our sphere of activity! This is proof positive of the company\u0027s faith in us, Commander.",
+    "description": "Well, an expansion of our sphere of activity! This is proof positive of the company's faith in us, Commander.",
     "translation_description": ""
   },
   "181": {
@@ -1094,7 +1094,7 @@
   "182": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_334",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_334",
-    "description": "You now have access to command missions. These duties put you at the head of a four-man unit\u2500yourself and three soldiers\u2500for a foray into an instanced dungeon.",
+    "description": "You now have access to command missions. These duties put you at the head of a four-man unit─yourself and three soldiers─for a foray into an instanced dungeon.",
     "translation_description": ""
   },
   "183": {
@@ -1130,13 +1130,13 @@
   "188": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_221",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_221",
-    "description": "We\u0027ve received a missive from \u003Chex:02081AE1E93501FF124D61656C7374726F6D20436F6D6D616E64FF0103\u003E\u003Chex:020819E1E93601FF117468652041646465727327204E657374FF0103\u003E\u003Chex:02081BE1E93701FF137468652048616C6C206F6620466C616D6573FF0103\u003E regarding your performance. If you\u0027ll permit me...",
+    "description": "We've received a missive from <hex:02081AE1E93501FF124D61656C7374726F6D20436F6D6D616E64FF0103><hex:020819E1E93601FF117468652041646465727327204E657374FF0103><hex:02081BE1E93701FF137468652048616C6C206F6620466C616D6573FF0103> regarding your performance. If you'll permit me...",
     "translation_description": ""
   },
   "189": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_222",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_222",
-    "description": "\u003Chex:021A020203\u003EFor outstanding efforts in the Adventurer Squadron initiative, \u003Chex:022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF010303\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E is hereby promoted to \u003Chex:02081FE1E93501FF1766697273742073746F726D206C69657574656E616E74FF0103\u003E\u003Chex:020821E1E93601FF1966697273742073657270656E74206C69657574656E616E74FF0103\u003E\u003Chex:02081FE1E93701FF17666972737420666C616D65206C69657574656E616E74FF0103\u003E. Effective immediately.\u003Chex:021A020103\u003E",
+    "description": "<hex:021A020203>For outstanding efforts in the Adventurer Squadron initiative, <hex:022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF010303> <hex:022C0DFF07022903EB0203FF02200303> is hereby promoted to <hex:02081FE1E93501FF1766697273742073746F726D206C69657574656E616E74FF0103><hex:020821E1E93601FF1966697273742073657270656E74206C69657574656E616E74FF0103><hex:02081FE1E93701FF17666972737420666C616D65206C69657574656E616E74FF0103>. Effective immediately.<hex:021A020103>",
     "translation_description": ""
   },
   "190": {
@@ -1154,19 +1154,19 @@
   "192": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_240",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_240",
-    "description": "Greetings, Commander. The squadron is performing well, but let\u0027s keep up the pace! How shall we proceed? Mission deployment or training?",
+    "description": "Greetings, Commander. The squadron is performing well, but let's keep up the pace! How shall we proceed? Mission deployment or training?",
     "translation_description": ""
   },
   "193": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_250",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_250",
-    "description": "We have three eager recruits, but we need to enlist at least one more member before we can call ourselves a squadron. Let\u0027s get this barracks filled, Commander!",
+    "description": "We have three eager recruits, but we need to enlist at least one more member before we can call ourselves a squadron. Let's get this barracks filled, Commander!",
     "translation_description": ""
   },
   "194": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_251",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_251",
-    "description": "Your own deeds as an adventurer should serve to attract new recruits\u2500all you need to do is choose from the hopefuls who submit their enlistment papers.",
+    "description": "Your own deeds as an adventurer should serve to attract new recruits─all you need to do is choose from the hopefuls who submit their enlistment papers.",
     "translation_description": ""
   },
   "195": {
@@ -1184,49 +1184,49 @@
   "197": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_261",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_261",
-    "description": "When you decide that the squadron\u0027s skills could use some sharpening, check the regimen board for a list of available training courses.",
+    "description": "When you decide that the squadron's skills could use some sharpening, check the regimen board for a list of available training courses.",
     "translation_description": ""
   },
   "198": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_262",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_262",
-    "description": "Aye, as much as I champion learning through doing, there are some things that need to be taught if the troops are to handle the tougher deployments.\u003Chex:02100103\u003E\u201CThe more ye bleed durin\u0027 trainin\u0027 the less ye\u0027ll bleed on the field!\u201D as my old drill sergeant used to say...",
+    "description": "Aye, as much as I champion learning through doing, there are some things that need to be taught if the troops are to handle the tougher deployments.<hex:02100103>“The more ye bleed durin' trainin' the less ye'll bleed on the field!” as my old drill sergeant used to say...",
     "translation_description": ""
   },
   "199": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_263",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_263",
-    "description": "If we want this squadron to be the most elite unit in the \u003Chex:020812E1E93501FF0A4D61656C7374726F6DFF0103\u003E\u003Chex:020820E1E93601FF184F72646572206F6620746865205477696E204164646572FF0103\u003E\u003Chex:020818E1E93701FF10496D6D6F7274616C20466C616D6573FF0103\u003E then we\u0027d best not neglect their military education!",
+    "description": "If we want this squadron to be the most elite unit in the <hex:020812E1E93501FF0A4D61656C7374726F6DFF0103><hex:020820E1E93601FF184F72646572206F6620746865205477696E204164646572FF0103><hex:020818E1E93701FF10496D6D6F7274616C20466C616D6573FF0103> then we'd best not neglect their military education!",
     "translation_description": ""
   },
   "200": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_320",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_320",
-    "description": "Commander. Our squadron appears to be gaining a solid reputation within the \u003Chex:020812E1E93501FF0A4D61656C7374726F6DFF0103\u003E\u003Chex:02080EE1E93601FF064F72646572FF0103\u003E\u003Chex:02080FE1E93701FF07466C616D6573FF0103\u003E.",
+    "description": "Commander. Our squadron appears to be gaining a solid reputation within the <hex:020812E1E93501FF0A4D61656C7374726F6DFF0103><hex:02080EE1E93601FF064F72646572FF0103><hex:02080FE1E93701FF07466C616D6573FF0103>.",
     "translation_description": ""
   },
   "201": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_321",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_321",
-    "description": "Expectations are high, and I think it\u0027s time we deployed the troops on a mission that truly tests the limits of their capabilities.",
+    "description": "Expectations are high, and I think it's time we deployed the troops on a mission that truly tests the limits of their capabilities.",
     "translation_description": ""
   },
   "202": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_322",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_322",
-    "description": "A special promotion mission is currently available in the list of routine missions. Successfully completing this mission will increase your squadron\u0027s rank.",
+    "description": "A special promotion mission is currently available in the list of routine missions. Successfully completing this mission will increase your squadron's rank.",
     "translation_description": ""
   },
   "203": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_100",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_100",
-    "description": "Welcome to the squadron barracks, Commander! I\u0027ve been fully debriefed on this new initiative, and stand ready to answer any questions you might have.",
+    "description": "Welcome to the squadron barracks, Commander! I've been fully debriefed on this new initiative, and stand ready to answer any questions you might have.",
     "translation_description": ""
   },
   "204": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_136",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_136",
-    "description": "First and foremost, however, we\u0027ll need to increase the number of squadron members. We have three recruits at present, but our squadron won\u0027t be ready to deploy until we have at least four.",
+    "description": "First and foremost, however, we'll need to increase the number of squadron members. We have three recruits at present, but our squadron won't be ready to deploy until we have at least four.",
     "translation_description": ""
   },
   "205": {
@@ -1238,31 +1238,31 @@
   "206": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_110",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_110",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "207": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_111",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_111",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "208": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_101",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_101",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "209": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_110",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_110",
-    "description": "Ah, our fledgling squadron\u0027s first deployment!",
+    "description": "Ah, our fledgling squadron's first deployment!",
     "translation_description": ""
   },
   "210": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_111",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_111",
-    "description": "Now, ordinarily I would offer you a list of pre-approved duties to choose from, but I\u0027ve taken the liberty of arranging a simple mission to ease the recruits into their roles.",
+    "description": "Now, ordinarily I would offer you a list of pre-approved duties to choose from, but I've taken the liberty of arranging a simple mission to ease the recruits into their roles.",
     "translation_description": ""
   },
   "211": {
@@ -1274,85 +1274,85 @@
   "212": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_120",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_120",
-    "description": "The order has been given, Commander: the squadron is mission-bound.\u003Chex:02100103\u003E...Ah, I should also mention that each deployment is funded by company seals.",
+    "description": "The order has been given, Commander: the squadron is mission-bound.<hex:02100103>...Ah, I should also mention that each deployment is funded by company seals.",
     "translation_description": ""
   },
   "213": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_121",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_121",
-    "description": "I\u0027ve paid what\u0027s owed this time around, but the \u003Chex:020812E1E93501FF0A4D61656C7374726F6DFF0103\u003E\u003Chex:020820E1E93601FF184F72646572206F6620746865205477696E204164646572FF0103\u003E\u003Chex:020818E1E93701FF10496D6D6F7274616C20466C616D6573FF0103\u003E requires that their soldiers receive fair compensation. For future deployments, you\u0027ll need to pay the recruits yourself, Commander.",
+    "description": "I've paid what's owed this time around, but the <hex:020812E1E93501FF0A4D61656C7374726F6DFF0103><hex:020820E1E93601FF184F72646572206F6620746865205477696E204164646572FF0103><hex:020818E1E93701FF10496D6D6F7274616C20466C616D6573FF0103> requires that their soldiers receive fair compensation. For future deployments, you'll need to pay the recruits yourself, Commander.",
     "translation_description": ""
   },
   "214": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_122",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_122",
-    "description": "And now we wait. Once the squadron has returned from their mission, speak to me and I\u0027ll provide you with a full report.",
+    "description": "And now we wait. Once the squadron has returned from their mission, speak to me and I'll provide you with a full report.",
     "translation_description": ""
   },
   "215": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_124",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_124",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "216": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_125",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_125",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "217": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_130",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_130",
-    "description": "Let\u0027s see here...\u003Chex:02100103\u003EAye, the recruits appear to have carried out their task in a sufficiently competent manner. You\u0027d be surprised at how many privates manage to lose their way on a simple patrol route...",
+    "description": "Let's see here...<hex:02100103>Aye, the recruits appear to have carried out their task in a sufficiently competent manner. You'd be surprised at how many privates manage to lose their way on a simple patrol route...",
     "translation_description": ""
   },
   "218": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_131",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_131",
-    "description": "In any case, a small success like this will improve the unit\u0027s cohesion and help sharpen their individual skills.",
+    "description": "In any case, a small success like this will improve the unit's cohesion and help sharpen their individual skills.",
     "translation_description": ""
   },
   "219": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_132",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_132",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "220": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_133",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_133",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "221": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_136",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_136",
-    "description": "Now let\u0027s talk training. Specialized instruction will improve the abilities of individual recruits, but its main purpose is to encourage the growth of the squadron as a whole.",
+    "description": "Now let's talk training. Specialized instruction will improve the abilities of individual recruits, but its main purpose is to encourage the growth of the squadron as a whole.",
     "translation_description": ""
   },
   "222": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_137",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_137",
-    "description": "When you decide that the squadron\u0027s skills could use some sharpening, check the regimen board for a list of available training courses.",
+    "description": "When you decide that the squadron's skills could use some sharpening, check the regimen board for a list of available training courses.",
     "translation_description": ""
   },
   "223": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_138",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_138",
-    "description": "Aye, as much as I champion learning through doing, there are some things that need to be taught if the troops are to handle the tougher deployments.\u003Chex:02100103\u003E\u201CThe more ye bleed durin\u0027 trainin\u0027 the less ye\u0027ll bleed on the field!\u201D as my old drill sergeant used to say...",
+    "description": "Aye, as much as I champion learning through doing, there are some things that need to be taught if the troops are to handle the tougher deployments.<hex:02100103>“The more ye bleed durin' trainin' the less ye'll bleed on the field!” as my old drill sergeant used to say...",
     "translation_description": ""
   },
   "224": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_139",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_139",
-    "description": "If we want this squadron to be the most elite unit in the \u003Chex:020812E1E93501FF0A4D61656C7374726F6DFF0103\u003E\u003Chex:020820E1E93601FF184F72646572206F6620746865205477696E204164646572FF0103\u003E\u003Chex:020818E1E93701FF10496D6D6F7274616C20466C616D6573FF0103\u003E then we\u0027d best not neglect their military education!",
+    "description": "If we want this squadron to be the most elite unit in the <hex:020812E1E93501FF0A4D61656C7374726F6DFF0103><hex:020820E1E93601FF184F72646572206F6620746865205477696E204164646572FF0103><hex:020818E1E93701FF10496D6D6F7274616C20466C616D6573FF0103> then we'd best not neglect their military education!",
     "translation_description": ""
   },
   "225": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_150",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_150",
-    "description": "Our squadron has been improving by leaps and bounds, but I think it\u0027s time for the recruits to try their hands at a more challenging deployment. It\u0027s the only way they\u0027ll learn to push past their limits.",
+    "description": "Our squadron has been improving by leaps and bounds, but I think it's time for the recruits to try their hands at a more challenging deployment. It's the only way they'll learn to push past their limits.",
     "translation_description": ""
   },
   "226": {
@@ -1364,7 +1364,7 @@
   "227": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_170",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_170",
-    "description": "Are you keeping an eye on squadron chemistry, Commander? It\u0027s surprising how much better the recruits perform when teamed with members that complement or challenge them.",
+    "description": "Are you keeping an eye on squadron chemistry, Commander? It's surprising how much better the recruits perform when teamed with members that complement or challenge them.",
     "translation_description": ""
   },
   "228": {
@@ -1376,7 +1376,7 @@
   "229": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_180",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_180",
-    "description": "I can hardly recognize those green recruits we started with, Commander. In fact, I\u0027ve heard rumors making the rounds in \u003Chex:02081AE1E93501FF124D61656C7374726F6D20436F6D6D616E64FF0103\u003E\u003Chex:020819E1E93601FF117468652041646465727327204E657374FF0103\u003E\u003Chex:02081BE1E93701FF137468652048616C6C206F6620466C616D6573FF0103\u003E that our squadron is on the short list for the next big assignment...",
+    "description": "I can hardly recognize those green recruits we started with, Commander. In fact, I've heard rumors making the rounds in <hex:02081AE1E93501FF124D61656C7374726F6D20436F6D6D616E64FF0103><hex:020819E1E93601FF117468652041646465727327204E657374FF0103><hex:02081BE1E93701FF137468652048616C6C206F6620466C616D6573FF0103> that our squadron is on the short list for the next big assignment...",
     "translation_description": ""
   },
   "230": {
@@ -1394,13 +1394,13 @@
   "232": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_196",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_196",
-    "description": "We\u0027ve received a missive from \u003Chex:02081AE1E93501FF124D61656C7374726F6D20436F6D6D616E64FF0103\u003E\u003Chex:020819E1E93601FF117468652041646465727327204E657374FF0103\u003E\u003Chex:02081BE1E93701FF137468652048616C6C206F6620466C616D6573FF0103\u003E regarding your performance. If you\u0027ll permit me...",
+    "description": "We've received a missive from <hex:02081AE1E93501FF124D61656C7374726F6D20436F6D6D616E64FF0103><hex:020819E1E93601FF117468652041646465727327204E657374FF0103><hex:02081BE1E93701FF137468652048616C6C206F6620466C616D6573FF0103> regarding your performance. If you'll permit me...",
     "translation_description": ""
   },
   "233": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_197",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_197",
-    "description": "\u003Chex:021A020203\u003EFor outstanding efforts in the Adventurer Squadron initiative, \u003Chex:022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF010303\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E is hereby promoted to \u003Chex:02081FE1E93501FF1766697273742073746F726D206C69657574656E616E74FF0103\u003E\u003Chex:020821E1E93601FF1966697273742073657270656E74206C69657574656E616E74FF0103\u003E\u003Chex:02081FE1E93701FF17666972737420666C616D65206C69657574656E616E74FF0103\u003E. Effective immediately.\u003Chex:021A020103\u003E",
+    "description": "<hex:021A020203>For outstanding efforts in the Adventurer Squadron initiative, <hex:022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF010303> <hex:022C0DFF07022903EB0203FF02200303> is hereby promoted to <hex:02081FE1E93501FF1766697273742073746F726D206C69657574656E616E74FF0103><hex:020821E1E93601FF1966697273742073657270656E74206C69657574656E616E74FF0103><hex:02081FE1E93701FF17666972737420666C616D65206C69657574656E616E74FF0103>. Effective immediately.<hex:021A020103>",
     "translation_description": ""
   },
   "234": {
@@ -1412,19 +1412,19 @@
   "235": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_330",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_330",
-    "description": "We\u0027ve received a missive from \u003Chex:02081AE1E93501FF124D61656C7374726F6D20436F6D6D616E64FF0103\u003E\u003Chex:020819E1E93601FF117468652041646465727327204E657374FF0103\u003E\u003Chex:02081BE1E93701FF137468652048616C6C206F6620466C616D6573FF0103\u003E. If you\u0027ll permit me...",
+    "description": "We've received a missive from <hex:02081AE1E93501FF124D61656C7374726F6D20436F6D6D616E64FF0103><hex:020819E1E93601FF117468652041646465727327204E657374FF0103><hex:02081BE1E93701FF137468652048616C6C206F6620466C616D6573FF0103>. If you'll permit me...",
     "translation_description": ""
   },
   "236": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_331",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_331",
-    "description": "\u003Chex:021A020203\u003EFor ongoing excellence in the Adventurer Squadron initiative, \u003Chex:022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF010303\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E\u0027s squadron is hereby granted authorization to undertake command missions. Effective immediately.\u003Chex:021A020103\u003E",
+    "description": "<hex:021A020203>For ongoing excellence in the Adventurer Squadron initiative, <hex:022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF010303> <hex:022C0DFF07022903EB0203FF02200303>'s squadron is hereby granted authorization to undertake command missions. Effective immediately.<hex:021A020103>",
     "translation_description": ""
   },
   "237": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_332",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_332",
-    "description": "Well, an expansion of our sphere of activity! This is proof positive of the company\u0027s faith in us, Commander.",
+    "description": "Well, an expansion of our sphere of activity! This is proof positive of the company's faith in us, Commander.",
     "translation_description": ""
   },
   "238": {
@@ -1448,13 +1448,13 @@
   "241": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_221",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_221",
-    "description": "We\u0027ve received a missive from \u003Chex:02081AE1E93501FF124D61656C7374726F6D20436F6D6D616E64FF0103\u003E\u003Chex:020819E1E93601FF117468652041646465727327204E657374FF0103\u003E\u003Chex:02081BE1E93701FF137468652048616C6C206F6620466C616D6573FF0103\u003E regarding your performance. If you\u0027ll permit me...",
+    "description": "We've received a missive from <hex:02081AE1E93501FF124D61656C7374726F6D20436F6D6D616E64FF0103><hex:020819E1E93601FF117468652041646465727327204E657374FF0103><hex:02081BE1E93701FF137468652048616C6C206F6620466C616D6573FF0103> regarding your performance. If you'll permit me...",
     "translation_description": ""
   },
   "242": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_222",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_222",
-    "description": "\u003Chex:021A020203\u003EFor outstanding efforts in the Adventurer Squadron initiative, \u003Chex:022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF010303\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E is hereby promoted to \u003Chex:02081FE1E93501FF1766697273742073746F726D206C69657574656E616E74FF0103\u003E\u003Chex:020821E1E93601FF1966697273742073657270656E74206C69657574656E616E74FF0103\u003E\u003Chex:02081FE1E93701FF17666972737420666C616D65206C69657574656E616E74FF0103\u003E. Effective immediately.\u003Chex:021A020103\u003E",
+    "description": "<hex:021A020203>For outstanding efforts in the Adventurer Squadron initiative, <hex:022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF010303> <hex:022C0DFF07022903EB0203FF02200303> is hereby promoted to <hex:02081FE1E93501FF1766697273742073746F726D206C69657574656E616E74FF0103><hex:020821E1E93601FF1966697273742073657270656E74206C69657574656E616E74FF0103><hex:02081FE1E93701FF17666972737420666C616D65206C69657574656E616E74FF0103>. Effective immediately.<hex:021A020103>",
     "translation_description": ""
   },
   "243": {
@@ -1472,19 +1472,19 @@
   "245": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_240",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_240",
-    "description": "Greetings, Commander. The squadron is performing well, but let\u0027s keep up the pace! How shall we proceed? Mission deployment or training?",
+    "description": "Greetings, Commander. The squadron is performing well, but let's keep up the pace! How shall we proceed? Mission deployment or training?",
     "translation_description": ""
   },
   "246": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_250",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_250",
-    "description": "We have three eager recruits, but we need to enlist at least one more member before we can call ourselves a squadron. Let\u0027s get this barracks filled, Commander!",
+    "description": "We have three eager recruits, but we need to enlist at least one more member before we can call ourselves a squadron. Let's get this barracks filled, Commander!",
     "translation_description": ""
   },
   "247": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_251",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_251",
-    "description": "Your own deeds as an adventurer should serve to attract new recruits\u2500all you need to do is choose from the hopefuls who submit their enlistment papers.",
+    "description": "Your own deeds as an adventurer should serve to attract new recruits─all you need to do is choose from the hopefuls who submit their enlistment papers.",
     "translation_description": ""
   },
   "248": {
@@ -1496,43 +1496,43 @@
   "249": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_261",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_261",
-    "description": "When you decide that the squadron\u0027s skills could use some sharpening, check the regimen board for a list of available training courses.",
+    "description": "When you decide that the squadron's skills could use some sharpening, check the regimen board for a list of available training courses.",
     "translation_description": ""
   },
   "250": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_262",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_262",
-    "description": "Aye, as much as I champion learning through doing, there are some things that need to be taught if the troops are to handle the tougher deployments.\u003Chex:02100103\u003E\u201CThe more ye bleed durin\u0027 trainin\u0027 the less ye\u0027ll bleed on the field!\u201D as my old drill sergeant used to say...",
+    "description": "Aye, as much as I champion learning through doing, there are some things that need to be taught if the troops are to handle the tougher deployments.<hex:02100103>“The more ye bleed durin' trainin' the less ye'll bleed on the field!” as my old drill sergeant used to say...",
     "translation_description": ""
   },
   "251": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_263",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_263",
-    "description": "If we want this squadron to be the most elite unit in the \u003Chex:020812E1E93501FF0A4D61656C7374726F6DFF0103\u003E\u003Chex:020820E1E93601FF184F72646572206F6620746865205477696E204164646572FF0103\u003E\u003Chex:020818E1E93701FF10496D6D6F7274616C20466C616D6573FF0103\u003E then we\u0027d best not neglect their military education!",
+    "description": "If we want this squadron to be the most elite unit in the <hex:020812E1E93501FF0A4D61656C7374726F6DFF0103><hex:020820E1E93601FF184F72646572206F6620746865205477696E204164646572FF0103><hex:020818E1E93701FF10496D6D6F7274616C20466C616D6573FF0103> then we'd best not neglect their military education!",
     "translation_description": ""
   },
   "252": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_320",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_320",
-    "description": "Commander. Our squadron appears to be gaining a solid reputation within the \u003Chex:020812E1E93501FF0A4D61656C7374726F6DFF0103\u003E\u003Chex:02080EE1E93601FF064F72646572FF0103\u003E\u003Chex:02080FE1E93701FF07466C616D6573FF0103\u003E.",
+    "description": "Commander. Our squadron appears to be gaining a solid reputation within the <hex:020812E1E93501FF0A4D61656C7374726F6DFF0103><hex:02080EE1E93601FF064F72646572FF0103><hex:02080FE1E93701FF07466C616D6573FF0103>.",
     "translation_description": ""
   },
   "253": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_321",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_321",
-    "description": "Expectations are high, and I think it\u0027s time we deployed the troops on a mission that truly tests the limits of their capabilities.",
+    "description": "Expectations are high, and I think it's time we deployed the troops on a mission that truly tests the limits of their capabilities.",
     "translation_description": ""
   },
   "254": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_100",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_100",
-    "description": "Welcome to the squadron barracks, Commander! I\u0027ve been fully debriefed on this new initiative, and stand ready to answer any questions you might have.",
+    "description": "Welcome to the squadron barracks, Commander! I've been fully debriefed on this new initiative, and stand ready to answer any questions you might have.",
     "translation_description": ""
   },
   "255": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_136",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_136",
-    "description": "First and foremost, however, we\u0027ll need to increase the number of squadron members. We have three recruits at present, but our squadron won\u0027t be ready to deploy until we have at least four.",
+    "description": "First and foremost, however, we'll need to increase the number of squadron members. We have three recruits at present, but our squadron won't be ready to deploy until we have at least four.",
     "translation_description": ""
   },
   "256": {
@@ -1544,31 +1544,31 @@
   "257": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_110",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_110",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "258": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_111",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_111",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "259": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_101",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_101",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "260": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_110",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_110",
-    "description": "Ah, our fledgling squadron\u0027s first deployment!",
+    "description": "Ah, our fledgling squadron's first deployment!",
     "translation_description": ""
   },
   "261": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_111",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_111",
-    "description": "Now, ordinarily I would offer you a list of pre-approved duties to choose from, but I\u0027ve taken the liberty of arranging a simple mission to ease the recruits into their roles.",
+    "description": "Now, ordinarily I would offer you a list of pre-approved duties to choose from, but I've taken the liberty of arranging a simple mission to ease the recruits into their roles.",
     "translation_description": ""
   },
   "262": {
@@ -1580,85 +1580,85 @@
   "263": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_120",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_120",
-    "description": "The order has been given, Commander: the squadron is mission-bound.\u003Chex:02100103\u003E...Ah, I should also mention that each deployment is funded by company seals.",
+    "description": "The order has been given, Commander: the squadron is mission-bound.<hex:02100103>...Ah, I should also mention that each deployment is funded by company seals.",
     "translation_description": ""
   },
   "264": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_121",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_121",
-    "description": "I\u0027ve paid what\u0027s owed this time around, but the \u003Chex:020812E1E93501FF0A4D61656C7374726F6DFF0103\u003E\u003Chex:020820E1E93601FF184F72646572206F6620746865205477696E204164646572FF0103\u003E\u003Chex:020818E1E93701FF10496D6D6F7274616C20466C616D6573FF0103\u003E requires that their soldiers receive fair compensation. For future deployments, you\u0027ll need to pay the recruits yourself, Commander.",
+    "description": "I've paid what's owed this time around, but the <hex:020812E1E93501FF0A4D61656C7374726F6DFF0103><hex:020820E1E93601FF184F72646572206F6620746865205477696E204164646572FF0103><hex:020818E1E93701FF10496D6D6F7274616C20466C616D6573FF0103> requires that their soldiers receive fair compensation. For future deployments, you'll need to pay the recruits yourself, Commander.",
     "translation_description": ""
   },
   "265": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_122",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_122",
-    "description": "And now we wait. Once the squadron has returned from their mission, speak to me and I\u0027ll provide you with a full report.",
+    "description": "And now we wait. Once the squadron has returned from their mission, speak to me and I'll provide you with a full report.",
     "translation_description": ""
   },
   "266": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_124",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_124",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "267": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_125",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_125",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "268": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_130",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_130",
-    "description": "Let\u0027s see here...\u003Chex:02100103\u003EAye, the recruits appear to have carried out their task in a sufficiently competent manner. You\u0027d be surprised at how many privates manage to lose their way on a simple patrol route...",
+    "description": "Let's see here...<hex:02100103>Aye, the recruits appear to have carried out their task in a sufficiently competent manner. You'd be surprised at how many privates manage to lose their way on a simple patrol route...",
     "translation_description": ""
   },
   "269": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_131",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_131",
-    "description": "In any case, a small success like this will improve the unit\u0027s cohesion and help sharpen their individual skills.",
+    "description": "In any case, a small success like this will improve the unit's cohesion and help sharpen their individual skills.",
     "translation_description": ""
   },
   "270": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_132",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_132",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "271": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_133",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_133",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "272": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_136",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_136",
-    "description": "Now let\u0027s talk training. Specialized instruction will improve the abilities of individual recruits, but its main purpose is to encourage the growth of the squadron as a whole.",
+    "description": "Now let's talk training. Specialized instruction will improve the abilities of individual recruits, but its main purpose is to encourage the growth of the squadron as a whole.",
     "translation_description": ""
   },
   "273": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_137",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_137",
-    "description": "When you decide that the squadron\u0027s skills could use some sharpening, check the regimen board for a list of available training courses.",
+    "description": "When you decide that the squadron's skills could use some sharpening, check the regimen board for a list of available training courses.",
     "translation_description": ""
   },
   "274": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_138",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_138",
-    "description": "Aye, as much as I champion learning through doing, there are some things that need to be taught if the troops are to handle the tougher deployments.\u003Chex:02100103\u003E\u201CThe more ye bleed durin\u0027 trainin\u0027 the less ye\u0027ll bleed on the field!\u201D as my old drill sergeant used to say...",
+    "description": "Aye, as much as I champion learning through doing, there are some things that need to be taught if the troops are to handle the tougher deployments.<hex:02100103>“The more ye bleed durin' trainin' the less ye'll bleed on the field!” as my old drill sergeant used to say...",
     "translation_description": ""
   },
   "275": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_139",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_139",
-    "description": "If we want this squadron to be the most elite unit in the \u003Chex:020812E1E93501FF0A4D61656C7374726F6DFF0103\u003E\u003Chex:020820E1E93601FF184F72646572206F6620746865205477696E204164646572FF0103\u003E\u003Chex:020818E1E93701FF10496D6D6F7274616C20466C616D6573FF0103\u003E then we\u0027d best not neglect their military education!",
+    "description": "If we want this squadron to be the most elite unit in the <hex:020812E1E93501FF0A4D61656C7374726F6DFF0103><hex:020820E1E93601FF184F72646572206F6620746865205477696E204164646572FF0103><hex:020818E1E93701FF10496D6D6F7274616C20466C616D6573FF0103> then we'd best not neglect their military education!",
     "translation_description": ""
   },
   "276": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_150",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_150",
-    "description": "Our squadron has been improving by leaps and bounds, but I think it\u0027s time for the recruits to try their hands at a more challenging deployment. It\u0027s the only way they\u0027ll learn to push past their limits.",
+    "description": "Our squadron has been improving by leaps and bounds, but I think it's time for the recruits to try their hands at a more challenging deployment. It's the only way they'll learn to push past their limits.",
     "translation_description": ""
   },
   "277": {
@@ -1670,7 +1670,7 @@
   "278": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_170",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_170",
-    "description": "Are you keeping an eye on squadron chemistry, Commander? It\u0027s surprising how much better the recruits perform when teamed with members that complement or challenge them.",
+    "description": "Are you keeping an eye on squadron chemistry, Commander? It's surprising how much better the recruits perform when teamed with members that complement or challenge them.",
     "translation_description": ""
   },
   "279": {
@@ -1682,7 +1682,7 @@
   "280": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_180",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_180",
-    "description": "I can hardly recognize those green recruits we started with, Commander. In fact, I\u0027ve heard rumors making the rounds in \u003Chex:02081AE1E93501FF124D61656C7374726F6D20436F6D6D616E64FF0103\u003E\u003Chex:020819E1E93601FF117468652041646465727327204E657374FF0103\u003E\u003Chex:02081BE1E93701FF137468652048616C6C206F6620466C616D6573FF0103\u003E that our squadron is on the short list for the next big assignment...",
+    "description": "I can hardly recognize those green recruits we started with, Commander. In fact, I've heard rumors making the rounds in <hex:02081AE1E93501FF124D61656C7374726F6D20436F6D6D616E64FF0103><hex:020819E1E93601FF117468652041646465727327204E657374FF0103><hex:02081BE1E93701FF137468652048616C6C206F6620466C616D6573FF0103> that our squadron is on the short list for the next big assignment...",
     "translation_description": ""
   },
   "281": {
@@ -1700,13 +1700,13 @@
   "283": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_196",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_196",
-    "description": "We\u0027ve received a missive from \u003Chex:02081AE1E93501FF124D61656C7374726F6D20436F6D6D616E64FF0103\u003E\u003Chex:020819E1E93601FF117468652041646465727327204E657374FF0103\u003E\u003Chex:02081BE1E93701FF137468652048616C6C206F6620466C616D6573FF0103\u003E regarding your performance. If you\u0027ll permit me...",
+    "description": "We've received a missive from <hex:02081AE1E93501FF124D61656C7374726F6D20436F6D6D616E64FF0103><hex:020819E1E93601FF117468652041646465727327204E657374FF0103><hex:02081BE1E93701FF137468652048616C6C206F6620466C616D6573FF0103> regarding your performance. If you'll permit me...",
     "translation_description": ""
   },
   "284": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_197",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_197",
-    "description": "\u003Chex:021A020203\u003EFor outstanding efforts in the Adventurer Squadron initiative, \u003Chex:022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF010303\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E is hereby promoted to \u003Chex:02081FE1E93501FF1766697273742073746F726D206C69657574656E616E74FF0103\u003E\u003Chex:020821E1E93601FF1966697273742073657270656E74206C69657574656E616E74FF0103\u003E\u003Chex:02081FE1E93701FF17666972737420666C616D65206C69657574656E616E74FF0103\u003E. Effective immediately.\u003Chex:021A020103\u003E",
+    "description": "<hex:021A020203>For outstanding efforts in the Adventurer Squadron initiative, <hex:022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF010303> <hex:022C0DFF07022903EB0203FF02200303> is hereby promoted to <hex:02081FE1E93501FF1766697273742073746F726D206C69657574656E616E74FF0103><hex:020821E1E93601FF1966697273742073657270656E74206C69657574656E616E74FF0103><hex:02081FE1E93701FF17666972737420666C616D65206C69657574656E616E74FF0103>. Effective immediately.<hex:021A020103>",
     "translation_description": ""
   },
   "285": {
@@ -1718,19 +1718,19 @@
   "286": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_330",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_330",
-    "description": "We\u0027ve received a missive from \u003Chex:02081AE1E93501FF124D61656C7374726F6D20436F6D6D616E64FF0103\u003E\u003Chex:020819E1E93601FF117468652041646465727327204E657374FF0103\u003E\u003Chex:02081BE1E93701FF137468652048616C6C206F6620466C616D6573FF0103\u003E regarding your performance. If you\u0027ll permit me...",
+    "description": "We've received a missive from <hex:02081AE1E93501FF124D61656C7374726F6D20436F6D6D616E64FF0103><hex:020819E1E93601FF117468652041646465727327204E657374FF0103><hex:02081BE1E93701FF137468652048616C6C206F6620466C616D6573FF0103> regarding your performance. If you'll permit me...",
     "translation_description": ""
   },
   "287": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_331",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_331",
-    "description": "\u003Chex:021A020203\u003EFor ongoing excellence in the Adventurer Squadron initiative, \u003Chex:022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF010303\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E\u0027s squadron is hereby granted authorization to undertake command missions. Effective immediately.\u003Chex:021A020103\u003E",
+    "description": "<hex:021A020203>For ongoing excellence in the Adventurer Squadron initiative, <hex:022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF010303> <hex:022C0DFF07022903EB0203FF02200303>'s squadron is hereby granted authorization to undertake command missions. Effective immediately.<hex:021A020103>",
     "translation_description": ""
   },
   "288": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_332",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_332",
-    "description": "Well, an expansion of our sphere of activity! This is proof positive of the company\u0027s faith in us, Commander.",
+    "description": "Well, an expansion of our sphere of activity! This is proof positive of the company's faith in us, Commander.",
     "translation_description": ""
   },
   "289": {
@@ -1754,13 +1754,13 @@
   "292": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_221",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_221",
-    "description": "We\u0027ve received a missive from \u003Chex:02081AE1E93501FF124D61656C7374726F6D20436F6D6D616E64FF0103\u003E\u003Chex:020819E1E93601FF117468652041646465727327204E657374FF0103\u003E\u003Chex:02081BE1E93701FF137468652048616C6C206F6620466C616D6573FF0103\u003E regarding your performance. If you\u0027ll permit me...",
+    "description": "We've received a missive from <hex:02081AE1E93501FF124D61656C7374726F6D20436F6D6D616E64FF0103><hex:020819E1E93601FF117468652041646465727327204E657374FF0103><hex:02081BE1E93701FF137468652048616C6C206F6620466C616D6573FF0103> regarding your performance. If you'll permit me...",
     "translation_description": ""
   },
   "293": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_222",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_222",
-    "description": "\u003Chex:021A020203\u003EFor outstanding efforts in the Adventurer Squadron initiative, \u003Chex:022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF010303\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E is hereby promoted to \u003Chex:02081FE1E93501FF1766697273742073746F726D206C69657574656E616E74FF0103\u003E\u003Chex:020821E1E93601FF1966697273742073657270656E74206C69657574656E616E74FF0103\u003E\u003Chex:02081FE1E93701FF17666972737420666C616D65206C69657574656E616E74FF0103\u003E. Effective immediately.\u003Chex:021A020103\u003E",
+    "description": "<hex:021A020203>For outstanding efforts in the Adventurer Squadron initiative, <hex:022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF010303> <hex:022C0DFF07022903EB0203FF02200303> is hereby promoted to <hex:02081FE1E93501FF1766697273742073746F726D206C69657574656E616E74FF0103><hex:020821E1E93601FF1966697273742073657270656E74206C69657574656E616E74FF0103><hex:02081FE1E93701FF17666972737420666C616D65206C69657574656E616E74FF0103>. Effective immediately.<hex:021A020103>",
     "translation_description": ""
   },
   "294": {
@@ -1778,19 +1778,19 @@
   "296": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_240",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_240",
-    "description": "Greetings, Commander. The squadron is performing well, but let\u0027s keep up the pace! How shall we proceed? Mission deployment or training?",
+    "description": "Greetings, Commander. The squadron is performing well, but let's keep up the pace! How shall we proceed? Mission deployment or training?",
     "translation_description": ""
   },
   "297": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_250",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_250",
-    "description": "We have three eager recruits, but we need to enlist at least one more member before we can call ourselves a squadron. Let\u0027s get this barracks filled, Commander!",
+    "description": "We have three eager recruits, but we need to enlist at least one more member before we can call ourselves a squadron. Let's get this barracks filled, Commander!",
     "translation_description": ""
   },
   "298": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_251",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_251",
-    "description": "Your own deeds as an adventurer should serve to attract new recruits\u2500all you need to do is choose from the hopefuls who submit their enlistment papers.",
+    "description": "Your own deeds as an adventurer should serve to attract new recruits─all you need to do is choose from the hopefuls who submit their enlistment papers.",
     "translation_description": ""
   },
   "299": {
@@ -1802,85 +1802,85 @@
   "300": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_261",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_261",
-    "description": "When you decide that the squadron\u0027s skills could use some sharpening, check the regimen board for a list of available training courses.",
+    "description": "When you decide that the squadron's skills could use some sharpening, check the regimen board for a list of available training courses.",
     "translation_description": ""
   },
   "301": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_262",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_262",
-    "description": "Aye, as much as I champion learning through doing, there are some things that need to be taught if the troops are to handle the tougher deployments.\u003Chex:02100103\u003E\u201CThe more ye bleed durin\u0027 trainin\u0027 the less ye\u0027ll bleed on the field!\u201D as my old drill sergeant used to say...",
+    "description": "Aye, as much as I champion learning through doing, there are some things that need to be taught if the troops are to handle the tougher deployments.<hex:02100103>“The more ye bleed durin' trainin' the less ye'll bleed on the field!” as my old drill sergeant used to say...",
     "translation_description": ""
   },
   "302": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_263",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_263",
-    "description": "If we want this squadron to be the most elite unit in the \u003Chex:020812E1E93501FF0A4D61656C7374726F6DFF0103\u003E\u003Chex:020820E1E93601FF184F72646572206F6620746865205477696E204164646572FF0103\u003E\u003Chex:020818E1E93701FF10496D6D6F7274616C20466C616D6573FF0103\u003E then we\u0027d best not neglect their military education!",
+    "description": "If we want this squadron to be the most elite unit in the <hex:020812E1E93501FF0A4D61656C7374726F6DFF0103><hex:020820E1E93601FF184F72646572206F6620746865205477696E204164646572FF0103><hex:020818E1E93701FF10496D6D6F7274616C20466C616D6573FF0103> then we'd best not neglect their military education!",
     "translation_description": ""
   },
   "303": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_320",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_320",
-    "description": "Commander. Our squadron appears to be gaining a solid reputation within the \u003Chex:020812E1E93501FF0A4D61656C7374726F6DFF0103\u003E\u003Chex:02080EE1E93601FF064F72646572FF0103\u003E\u003Chex:02080FE1E93701FF07466C616D6573FF0103\u003E.",
+    "description": "Commander. Our squadron appears to be gaining a solid reputation within the <hex:020812E1E93501FF0A4D61656C7374726F6DFF0103><hex:02080EE1E93601FF064F72646572FF0103><hex:02080FE1E93701FF07466C616D6573FF0103>.",
     "translation_description": ""
   },
   "304": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_321",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_321",
-    "description": "Expectations are high, and I think it\u0027s time we deployed the troops on a mission that truly tests the limits of their capabilities.",
+    "description": "Expectations are high, and I think it's time we deployed the troops on a mission that truly tests the limits of their capabilities.",
     "translation_description": ""
   },
   "305": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_006_001_LIM",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_006_001_LIM",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "306": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_006_001_GRD",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_006_001_GRD",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "307": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_006_001_ULD",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_006_001_ULD",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   },
   "308": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_400",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_400",
-    "description": "Commander, the Adders\u0027 Nest has sent a new mission our way. I\u0027ve read the briefing, and it\u0027s a tough one. But if we can pull it off... Well, let\u0027s just say I think we\u0027ll be in for a commendation.",
+    "description": "Commander, the Adders' Nest has sent a new mission our way. I've read the briefing, and it's a tough one. But if we can pull it off... Well, let's just say I think we'll be in for a commendation.",
     "translation_description": ""
   },
   "309": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_401",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_401",
-    "description": "By successfully completing command missions at five different locations, you have gained access to a special \u201Cflagged mission.\u201D",
+    "description": "By successfully completing command missions at five different locations, you have gained access to a special “flagged mission.”",
     "translation_description": ""
   },
   "310": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_402",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_402",
-    "description": "Due to the exceedingly high difficulty of this mission, however, it is advised that you first improve your squadron members\u0027 individual attributes as much as possible before attempting a deployment.",
+    "description": "Due to the exceedingly high difficulty of this mission, however, it is advised that you first improve your squadron members' individual attributes as much as possible before attempting a deployment.",
     "translation_description": ""
   },
   "311": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_410",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_410",
-    "description": "Congratulations, Commander! I knew our squadron was up to the task, but there\u0027s nothing quite so satisfying as seeing \u201CMission Successful\u201D at the top of a report.",
+    "description": "Congratulations, Commander! I knew our squadron was up to the task, but there's nothing quite so satisfying as seeing “Mission Successful” at the top of a report.",
     "translation_description": ""
   },
   "312": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_411",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_411",
-    "description": "Seems we have a visitor...\u003Chex:02100103\u003ECome in!",
+    "description": "Seems we have a visitor...<hex:02100103>Come in!",
     "translation_description": ""
   },
   "313": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_412",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_412",
-    "description": "(-???-)I trust I\u0027ve found the barracks of Lieutenant \u003Chex:022C0DFF07022903EB0203FF02200303\u003E and \u003Chex:02080DE905FF04686572FF0468697303\u003E squadron?",
+    "description": "(-???-)I trust I've found the barracks of Lieutenant <hex:022C0DFF07022903EB0203FF02200303> and <hex:02080DE905FF04686572FF0468697303> squadron?",
     "translation_description": ""
   },
   "314": {
@@ -1892,7 +1892,7 @@
   "315": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_414",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_414",
-    "description": "I heard word the lieutenant had just returned from \u003Chex:02080DE905FF04686572FF0468697303\u003E mission, and I wished to speak with our decorated hero in person.",
+    "description": "I heard word the lieutenant had just returned from <hex:02080DE905FF04686572FF0468697303> mission, and I wished to speak with our decorated hero in person.",
     "translation_description": ""
   },
   "316": {
@@ -1904,49 +1904,49 @@
   "317": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_416",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_416",
-    "description": "Taking your exemplary service into consideration, we\u0027ve decided that a moment of recognition is long overdue. Ahem.",
+    "description": "Taking your exemplary service into consideration, we've decided that a moment of recognition is long overdue. Ahem.",
     "translation_description": ""
   },
   "318": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_417",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_417",
-    "description": "\u003Chex:021A020203\u003EFor outstanding efforts in the Adventurer Squadron initiative, \u003Chex:022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF010303\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E is hereby promoted to \u003Chex:020816E1E93501FF0E73746F726D206361707461696EFF0103\u003E\u003Chex:020818E1E93601FF1073657270656E74206361707461696EFF0103\u003E\u003Chex:020816E1E93701FF0E666C616D65206361707461696EFF0103\u003E. May your deeds be guided by the will of the elementals.\u003Chex:021A020103\u003E",
+    "description": "<hex:021A020203>For outstanding efforts in the Adventurer Squadron initiative, <hex:022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF010303> <hex:022C0DFF07022903EB0203FF02200303> is hereby promoted to <hex:020816E1E93501FF0E73746F726D206361707461696EFF0103><hex:020818E1E93601FF1073657270656E74206361707461696EFF0103><hex:020816E1E93701FF0E666C616D65206361707461696EFF0103>. May your deeds be guided by the will of the elementals.<hex:021A020103>",
     "translation_description": ""
   },
   "319": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_418",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_418",
-    "description": "What did I tell you! I knew a promotion was in the offing. And what an honor that our squadron\u0027s success merited a personal visit from the serpent marshal himself!",
+    "description": "What did I tell you! I knew a promotion was in the offing. And what an honor that our squadron's success merited a personal visit from the serpent marshal himself!",
     "translation_description": ""
   },
   "320": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_419",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_419",
-    "description": "Congratulations again, Commander. You\u0027ve proven once again that with the right leadership, this squadron is capable of anything!",
+    "description": "Congratulations again, Commander. You've proven once again that with the right leadership, this squadron is capable of anything!",
     "translation_description": ""
   },
   "321": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_400",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_400",
-    "description": "Commander, the Maelstrom higher-ups have sent a new mission our way. I\u0027ve read the briefing, and it\u0027s a tough one. But if we can pull it off... Well, let\u0027s just say I think we\u0027ll be in for a commendation.",
+    "description": "Commander, the Maelstrom higher-ups have sent a new mission our way. I've read the briefing, and it's a tough one. But if we can pull it off... Well, let's just say I think we'll be in for a commendation.",
     "translation_description": ""
   },
   "322": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_410",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_410",
-    "description": "Congratulations, Commander! I knew our squadron was up to the task, but there\u0027s nothing quite so satisfying as seeing \u201CMission Successful\u201D at the top of a report.",
+    "description": "Congratulations, Commander! I knew our squadron was up to the task, but there's nothing quite so satisfying as seeing “Mission Successful” at the top of a report.",
     "translation_description": ""
   },
   "323": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_411",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_411",
-    "description": "Seems we have a visitor...\u003Chex:02100103\u003ECome in!",
+    "description": "Seems we have a visitor...<hex:02100103>Come in!",
     "translation_description": ""
   },
   "324": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_412",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_412",
-    "description": "(-???-)Greetings, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. I hope I\u0027m not interrupting anything important.",
+    "description": "(-???-)Greetings, <hex:022C0DFF07022903EB0203FF02200203>. I hope I'm not interrupting anything important.",
     "translation_description": ""
   },
   "325": {
@@ -1958,61 +1958,61 @@
   "326": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_414",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_414",
-    "description": "I\u0027d heard the lieutenant here had returned from \u003Chex:02080DE905FF04686572FF0468697303\u003E mission, and I wished to speak with \u003Chex:02080DE905FF04686572FF0468696D03\u003E in person.",
+    "description": "I'd heard the lieutenant here had returned from <hex:02080DE905FF04686572FF0468697303> mission, and I wished to speak with <hex:02080DE905FF04686572FF0468696D03> in person.",
     "translation_description": ""
   },
   "327": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_415",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_415",
-    "description": "As you well know, there is much to trouble a soldier\u0027s heart in these trying times. Yet the valor shown by you and your troops is a constant source of inspiration for many in the Maelstrom.",
+    "description": "As you well know, there is much to trouble a soldier's heart in these trying times. Yet the valor shown by you and your troops is a constant source of inspiration for many in the Maelstrom.",
     "translation_description": ""
   },
   "328": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_416",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_416",
-    "description": "And after speaking with my colleagues, we\u0027ve decided that a little recognition for your efforts is long overdue. A moment, if you will...",
+    "description": "And after speaking with my colleagues, we've decided that a little recognition for your efforts is long overdue. A moment, if you will...",
     "translation_description": ""
   },
   "329": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_417",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_417",
-    "description": "\u003Chex:021A020203\u003EFor outstanding efforts in the Adventurer Squadron initiative, \u003Chex:022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF010303\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E is hereby promoted to \u003Chex:020816E1E93501FF0E73746F726D206361707461696EFF0103\u003E\u003Chex:020818E1E93601FF1073657270656E74206361707461696EFF0103\u003E\u003Chex:020816E1E93701FF0E666C616D65206361707461696EFF0103\u003E. May your deeds see the Maelstrom through the rough seas ahead.\u003Chex:021A020103\u003E",
+    "description": "<hex:021A020203>For outstanding efforts in the Adventurer Squadron initiative, <hex:022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF010303> <hex:022C0DFF07022903EB0203FF02200303> is hereby promoted to <hex:020816E1E93501FF0E73746F726D206361707461696EFF0103><hex:020818E1E93601FF1073657270656E74206361707461696EFF0103><hex:020816E1E93701FF0E666C616D65206361707461696EFF0103>. May your deeds see the Maelstrom through the rough seas ahead.<hex:021A020103>",
     "translation_description": ""
   },
   "330": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_418",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_418",
-    "description": "What did I tell you! I knew a promotion was in the offing. And what an honor that our squadron\u0027s success merited a personal visit from the storm marshal himself!",
+    "description": "What did I tell you! I knew a promotion was in the offing. And what an honor that our squadron's success merited a personal visit from the storm marshal himself!",
     "translation_description": ""
   },
   "331": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_419",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_419",
-    "description": "Congratulations again, Commander. You\u0027ve proven once again that with the right leadership, this squadron is capable of anything!",
+    "description": "Congratulations again, Commander. You've proven once again that with the right leadership, this squadron is capable of anything!",
     "translation_description": ""
   },
   "332": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_400",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_400",
-    "description": "Commander, the Hall of Flames has sent a new mission our way. I\u0027ve read the briefing, and it\u0027s a tough one. But if we can pull it off... Well, let\u0027s just say I think we\u0027ll be in for a commendation.",
+    "description": "Commander, the Hall of Flames has sent a new mission our way. I've read the briefing, and it's a tough one. But if we can pull it off... Well, let's just say I think we'll be in for a commendation.",
     "translation_description": ""
   },
   "333": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_410",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_410",
-    "description": "Congratulations, Commander! I knew our squadron was up to the task, but there\u0027s nothing quite so satisfying as seeing \u201CMission Successful\u201D at the top of a report.",
+    "description": "Congratulations, Commander! I knew our squadron was up to the task, but there's nothing quite so satisfying as seeing “Mission Successful” at the top of a report.",
     "translation_description": ""
   },
   "334": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_411",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_411",
-    "description": "Seems we have a visitor...\u003Chex:02100103\u003ECome in!",
+    "description": "Seems we have a visitor...<hex:02100103>Come in!",
     "translation_description": ""
   },
   "335": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_412",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_412",
-    "description": "(-???-)Lieutenant \u003Chex:022C0DFF07022903EB0203FF02200303\u003E? Good, I thought I\u0027d wandered into the wrong barracks for a moment there.",
+    "description": "(-???-)Lieutenant <hex:022C0DFF07022903EB0203FF02200303>? Good, I thought I'd wandered into the wrong barracks for a moment there.",
     "translation_description": ""
   },
   "336": {
@@ -2024,37 +2024,37 @@
   "337": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_414",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_414",
-    "description": "I\u0027d heard the lieutenant here had returned from \u003Chex:02080DE905FF04686572FF0468697303\u003E mission, and wanted a word with \u003Chex:02080DE905FF04686572FF0468696D03\u003E in person.",
+    "description": "I'd heard the lieutenant here had returned from <hex:02080DE905FF04686572FF0468697303> mission, and wanted a word with <hex:02080DE905FF04686572FF0468696D03> in person.",
     "translation_description": ""
   },
   "338": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_415",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_415",
-    "description": "As you well know, the world\u0027s seen some tough times and there\u0027s more lurkin\u0027 up ahead. But you and your squadron, well, you\u0027ve been the inspiration that many soldiers need to carry on.",
+    "description": "As you well know, the world's seen some tough times and there's more lurkin' up ahead. But you and your squadron, well, you've been the inspiration that many soldiers need to carry on.",
     "translation_description": ""
   },
   "339": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_416",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_416",
-    "description": "I\u0027ve gone over it with my peers in the Hall of Flames, and we reckon it\u0027s high time you were recognized for your efforts. A little quiet, if you will...",
+    "description": "I've gone over it with my peers in the Hall of Flames, and we reckon it's high time you were recognized for your efforts. A little quiet, if you will...",
     "translation_description": ""
   },
   "340": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_417",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_417",
-    "description": "\u003Chex:021A020203\u003EFor outstanding efforts in the Adventurer Squadron initiative, \u003Chex:022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF010303\u003E \u003Chex:022C0DFF07022903EB0203FF02200303\u003E is hereby promoted to \u003Chex:020816E1E93501FF0E73746F726D206361707461696EFF0103\u003E\u003Chex:020818E1E93601FF1073657270656E74206361707461696EFF0103\u003E\u003Chex:020816E1E93701FF0E666C616D65206361707461696EFF0103\u003E. May your fire burn ever bright and steady.\u003Chex:021A020103\u003E",
+    "description": "<hex:021A020203>For outstanding efforts in the Adventurer Squadron initiative, <hex:022B7EFF7C020825E1E93501FF1D022819FF14474352616E6B4C696D73614D616C6554657874E9350903FF0103020828E1E93601FF2002281CFF17474352616E6B47726964616E69614D616C6554657874E9360903FF0103020825E1E93701FF1D022819FF14474352616E6B556C6461684D616C6554657874E9370903FF010303> <hex:022C0DFF07022903EB0203FF02200303> is hereby promoted to <hex:020816E1E93501FF0E73746F726D206361707461696EFF0103><hex:020818E1E93601FF1073657270656E74206361707461696EFF0103><hex:020816E1E93701FF0E666C616D65206361707461696EFF0103>. May your fire burn ever bright and steady.<hex:021A020103>",
     "translation_description": ""
   },
   "341": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_418",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_418",
-    "description": "What did I tell you! I knew a promotion was in the offing. And what an honor that our squadron\u0027s success merited a personal visit from the flame marshal himself!",
+    "description": "What did I tell you! I knew a promotion was in the offing. And what an honor that our squadron's success merited a personal visit from the flame marshal himself!",
     "translation_description": ""
   },
   "342": {
     "name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_419",
     "translation_name": "TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_419",
-    "description": "Congratulations again, Commander. You\u0027ve proven once again that with the right leadership, this squadron is capable of anything!",
+    "description": "Congratulations again, Commander. You've proven once again that with the right leadership, this squadron is capable of anything!",
     "translation_description": ""
   }
 }

@@ -116,7 +116,7 @@ public static class DalamudConfigService
             // Update property
             root[PropertyName] = true;
 
-            var options = new JsonSerializerOptions { WriteIndented = true };
+            var options = new JsonSerializerOptions { WriteIndented = true, Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping };
             string updatedJson = root.ToJsonString(options);
 
             // Atomic write

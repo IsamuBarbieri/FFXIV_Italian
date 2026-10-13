@@ -65,7 +65,8 @@ public static class PenumbraPackager
 {
     private static readonly JsonSerializerOptions JsonOptions = new()
     {
-        WriteIndented = true
+        WriteIndented = true,
+        Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
     };
 
     public static async Task CreatePmpPackageAsync(

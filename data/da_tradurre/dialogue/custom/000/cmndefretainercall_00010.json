@@ -8,13 +8,13 @@
   "1": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LVUP_NO_CLASS",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LVUP_NO_CLASS",
-    "description": "Unable to use \u003Chex:02310CFF054974656D03E802020203\u003E. You must first assign a class for your retainer.",
+    "description": "Unable to use <hex:02310CFF054974656D03E802020203>. You must first assign a class for your retainer.",
     "translation_description": ""
   },
   "2": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LVUP_NO_EFFECT",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LVUP_NO_EFFECT",
-    "description": "Unable to use \u003Chex:02310CFF054974656D03E802020203\u003E. Your retainer has already attained level \u003Chex:022003E80303\u003E.",
+    "description": "Unable to use <hex:02310CFF054974656D03E802020203>. Your retainer has already attained level <hex:022003E80303>.",
     "translation_description": ""
   },
   "3": {
@@ -26,43 +26,43 @@
   "4": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ASK_PLAYER_LVSYNC",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ASK_PLAYER_LVSYNC",
-    "description": "You can only advance your retainer as far as level \u003Chex:022003E80203\u003E, to match your current level. Do you wish to proceed?",
+    "description": "You can only advance your retainer as far as level <hex:022003E80203>, to match your current level. Do you wish to proceed?",
     "translation_description": ""
   },
   "5": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LVUP_NO_ITEM",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LVUP_NO_ITEM",
-    "description": "You do not have \u003Chex:02310CFF054974656D02E802020203\u003E in your possession.",
+    "description": "You do not have <hex:02310CFF054974656D02E802020203> in your possession.",
     "translation_description": ""
   },
   "6": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ASK_USE_LVUP_ITEM",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ASK_USE_LVUP_ITEM",
-    "description": "Give \u003Chex:02310CFF054974656D03E802020203\u003E to your retainer?",
+    "description": "Give <hex:02310CFF054974656D03E802020203> to your retainer?",
     "translation_description": ""
   },
   "7": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ASK_USE_LVUP_ITEM_CHECK",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ASK_USE_LVUP_ITEM_CHECK",
-    "description": "Advance retainer to level \u003Chex:022003E80203\u003E.",
+    "description": "Advance retainer to level <hex:022003E80203>.",
     "translation_description": ""
   },
   "8": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_RETAINER_ENTER_1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_RETAINER_ENTER_1",
-    "description": "Greetings, \u003Chex:022C0DFF07022903EB0203FF02200203\u003E. You rang?",
+    "description": "Greetings, <hex:022C0DFF07022903EB0203FF02200203>. You rang?",
     "translation_description": ""
   },
   "9": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_HYURAN_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_HYURAN_MALE_TYPE1",
-    "description": "I have come, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E.",
+    "description": "I have come, <hex:020815E905FF094D69737472657373FF074D617374657203>.",
     "translation_description": ""
   },
   "10": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_HYURAN_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_HYURAN_MALE_TYPE2",
-    "description": "Nothin\u0027 fer ye to worry about.",
+    "description": "Nothin' fer ye to worry about.",
     "translation_description": ""
   },
   "11": {
@@ -74,7 +74,7 @@
   "12": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_HYURAN_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_HYURAN_MALE_TYPE4",
-    "description": "Yes? \u003Csigh\u003E I hope this doesn\u0027t take long...",
+    "description": "Yes? <sigh> I hope this doesn't take long...",
     "translation_description": ""
   },
   "13": {
@@ -92,13 +92,13 @@
   "15": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_HYURAN_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_HYURAN_FEMALE_TYPE1",
-    "description": "At your service, my \u003Chex:02080FE905FF056C616479FF056C6F726403\u003E.",
+    "description": "At your service, my <hex:02080FE905FF056C616479FF056C6F726403>.",
     "translation_description": ""
   },
   "16": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_HYURAN_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_HYURAN_FEMALE_TYPE2",
-    "description": "What\u0027s it to be this time, love?",
+    "description": "What's it to be this time, love?",
     "translation_description": ""
   },
   "17": {
@@ -110,31 +110,31 @@
   "18": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_HYURAN_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_HYURAN_FEMALE_TYPE4",
-    "description": "I\u0027m so sorry to keep you waiting, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. So very, very sorry.",
+    "description": "I'm so sorry to keep you waiting, <hex:02080FE905FF066D6164616DFF0473697203>. So very, very sorry.",
     "translation_description": ""
   },
   "19": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_HYURAN_FEMALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_HYURAN_FEMALE_TYPE5",
-    "description": "Quickly now, I\u0027ve places to be.",
+    "description": "Quickly now, I've places to be.",
     "translation_description": ""
   },
   "20": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_HYURAN_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_HYURAN_FEMALE_TYPE6",
-    "description": "Well, if it ain\u0027t my favorite client! Always a pleasure, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E!",
+    "description": "Well, if it ain't my favorite client! Always a pleasure, <hex:02080FE905FF066D6164616DFF0473697203>!",
     "translation_description": ""
   },
   "21": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ELEZEN_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ELEZEN_MALE_TYPE1",
-    "description": "Yes, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E? What is your bidding?",
+    "description": "Yes, <hex:02080FE905FF066D6164616DFF0473697203>? What is your bidding?",
     "translation_description": ""
   },
   "22": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ELEZEN_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ELEZEN_MALE_TYPE2",
-    "description": "What\u0027s on the agenda, chief? Deprivin\u0027 saps o\u0027 their hard-earned gil?",
+    "description": "What's on the agenda, chief? Deprivin' saps o' their hard-earned gil?",
     "translation_description": ""
   },
   "23": {
@@ -158,19 +158,19 @@
   "26": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ELEZEN_MALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ELEZEN_MALE_TYPE6",
-    "description": "You look to be in good health, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. How may I assist you this fine \u003Chex:02082EE3E90C0DFF14020810E3E90C05FF04657665FF056D6F726E03FF1302080FE3E90C12FF04646179FF046576650303\u003E?",
+    "description": "You look to be in good health, <hex:02080FE905FF066D6164616DFF0473697203>. How may I assist you this fine <hex:02082EE3E90C0DFF14020810E3E90C05FF04657665FF056D6F726E03FF1302080FE3E90C12FF04646179FF046576650303>?",
     "translation_description": ""
   },
   "27": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ELEZEN_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ELEZEN_FEMALE_TYPE1",
-    "description": "What is it you would have me do, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E?",
+    "description": "What is it you would have me do, <hex:020813E905FF076D696C616479FF076D696C6F726403>?",
     "translation_description": ""
   },
   "28": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ELEZEN_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ELEZEN_FEMALE_TYPE2",
-    "description": "Usually, it\u0027s me doin\u0027 the summons and others doin\u0027 the waitin\u0027.",
+    "description": "Usually, it's me doin' the summons and others doin' the waitin'.",
     "translation_description": ""
   },
   "29": {
@@ -188,7 +188,7 @@
   "31": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ELEZEN_FEMALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ELEZEN_FEMALE_TYPE5",
-    "description": "I\u0027m sure there is a perfectly good explanation for this summons.",
+    "description": "I'm sure there is a perfectly good explanation for this summons.",
     "translation_description": ""
   },
   "32": {
@@ -200,25 +200,25 @@
   "33": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_LALAFELL_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_LALAFELL_MALE_TYPE1",
-    "description": "Hail to thee, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. Your humble servant has heard your summons.",
+    "description": "Hail to thee, <hex:02080FE905FF066D6164616DFF0473697203>. Your humble servant has heard your summons.",
     "translation_description": ""
   },
   "34": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_LALAFELL_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_LALAFELL_MALE_TYPE2",
-    "description": "Greetin\u0027s and salutations, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E. Pray speak yer desires, an\u0027 I\u0027ll do me damndest to see \u0027em done.",
+    "description": "Greetin's and salutations, <hex:020813E905FF076D696C616479FF076D696C6F726403>. Pray speak yer desires, an' I'll do me damndest to see 'em done.",
     "translation_description": ""
   },
   "35": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_LALAFELL_MALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_LALAFELL_MALE_TYPE3",
-    "description": "I was wondering when you\u0027d get around to calling me.",
+    "description": "I was wondering when you'd get around to calling me.",
     "translation_description": ""
   },
   "36": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_LALAFELL_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_LALAFELL_MALE_TYPE4",
-    "description": "Mind if we keep this brief? I\u0027ve got a pretty little thing that\u0027s waitin\u0027 for me.",
+    "description": "Mind if we keep this brief? I've got a pretty little thing that's waitin' for me.",
     "translation_description": ""
   },
   "37": {
@@ -230,19 +230,19 @@
   "38": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_LALAFELL_MALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_LALAFELL_MALE_TYPE6",
-    "description": "I\u0027m here, I\u0027m here!",
+    "description": "I'm here, I'm here!",
     "translation_description": ""
   },
   "39": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_LALAFELL_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_LALAFELL_FEMALE_TYPE1",
-    "description": "Here I am, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E, as per your request.",
+    "description": "Here I am, <hex:020815E905FF094D69737472657373FF074D617374657203>, as per your request.",
     "translation_description": ""
   },
   "40": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_LALAFELL_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_LALAFELL_FEMALE_TYPE2",
-    "description": "\u0027Ello, dearie. What\u0027s on the docket?",
+    "description": "'Ello, dearie. What's on the docket?",
     "translation_description": ""
   },
   "41": {
@@ -254,7 +254,7 @@
   "42": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_LALAFELL_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_LALAFELL_FEMALE_TYPE4",
-    "description": "Well, this is unexpected! What\u0027ll it be?",
+    "description": "Well, this is unexpected! What'll it be?",
     "translation_description": ""
   },
   "43": {
@@ -272,13 +272,13 @@
   "45": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_MIQOTE_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_MIQOTE_MALE_TYPE1",
-    "description": "How may I be of serrrvice, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E?",
+    "description": "How may I be of serrrvice, <hex:02080FE905FF066D6164616DFF0473697203>?",
     "translation_description": ""
   },
   "46": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_MIQOTE_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_MIQOTE_MALE_TYPE2",
-    "description": "It\u0027s a war out there, \u003Chex:02080EE905FF056D697373FF0473697203\u003E. You have no idea.",
+    "description": "It's a war out there, <hex:02080EE905FF056D697373FF0473697203>. You have no idea.",
     "translation_description": ""
   },
   "47": {
@@ -302,7 +302,7 @@
   "50": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_MIQOTE_MALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_MIQOTE_MALE_TYPE6",
-    "description": "Just the \u003Chex:020821E905FF0C66616972206D616964656EFF1068616E64736F6D652066656C6C6F7703\u003E I was hoping to see! Tell me your heart\u0027s desire.",
+    "description": "Just the <hex:020821E905FF0C66616972206D616964656EFF1068616E64736F6D652066656C6C6F7703> I was hoping to see! Tell me your heart's desire.",
     "translation_description": ""
   },
   "51": {
@@ -314,13 +314,13 @@
   "52": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_MIQOTE_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_MIQOTE_FEMALE_TYPE2",
-    "description": "Ye rang, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E?",
+    "description": "Ye rang, <hex:020813E905FF076D696C616479FF076D696C6F726403>?",
     "translation_description": ""
   },
   "53": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_MIQOTE_FEMALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_MIQOTE_FEMALE_TYPE3",
-    "description": "A cat\u0027s ears do not miss much\u2015least of all a summons.",
+    "description": "A cat's ears do not miss much―least of all a summons.",
     "translation_description": ""
   },
   "54": {
@@ -344,85 +344,85 @@
   "57": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ROEGADYN_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ROEGADYN_MALE_TYPE1",
-    "description": "What need have you of me today, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E?",
+    "description": "What need have you of me today, <hex:02080FE905FF066D6164616DFF0473697203>?",
     "translation_description": ""
   },
   "58": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ROEGADYN_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ROEGADYN_MALE_TYPE2",
-    "description": "Bwahahaha! Ye got work needs gettin\u0027 done? Just point me in the right bloody direction.",
+    "description": "Bwahahaha! Ye got work needs gettin' done? Just point me in the right bloody direction.",
     "translation_description": ""
   },
   "59": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ROEGADYN_MALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ROEGADYN_MALE_TYPE3",
-    "description": "I\u0027ve come. What is it?",
+    "description": "I've come. What is it?",
     "translation_description": ""
   },
   "60": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ROEGADYN_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ROEGADYN_MALE_TYPE4",
-    "description": "Hey there\u2500hic\u2500\u003Chex:020810E905FF066D69737379FF056D61746503\u003E! Care to join me fer a pint?",
+    "description": "Hey there─hic─<hex:020810E905FF066D69737379FF056D61746503>! Care to join me fer a pint?",
     "translation_description": ""
   },
   "61": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ROEGADYN_MALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ROEGADYN_MALE_TYPE5",
-    "description": "Couldn\u0027t come no quicker. Where\u0027s the work?",
+    "description": "Couldn't come no quicker. Where's the work?",
     "translation_description": ""
   },
   "62": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ROEGADYN_MALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ROEGADYN_MALE_TYPE6",
-    "description": "I came runnin\u0027 soon as I heard the bell! Ye need somethin\u0027, chief?",
+    "description": "I came runnin' soon as I heard the bell! Ye need somethin', chief?",
     "translation_description": ""
   },
   "63": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ROEGADYN_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ROEGADYN_FEMALE_TYPE1",
-    "description": "I am at your disposal, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E.",
+    "description": "I am at your disposal, <hex:020813E905FF076D696C616479FF076D696C6F726403>.",
     "translation_description": ""
   },
   "64": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ROEGADYN_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ROEGADYN_FEMALE_TYPE2",
-    "description": "Ye got somethin\u0027 fer me, cap\u0027n?",
+    "description": "Ye got somethin' fer me, cap'n?",
     "translation_description": ""
   },
   "65": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ROEGADYN_FEMALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ROEGADYN_FEMALE_TYPE3",
-    "description": "Go ahead, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "description": "Go ahead, <hex:02080FE905FF066D6164616DFF0473697203>.",
     "translation_description": ""
   },
   "66": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ROEGADYN_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ROEGADYN_FEMALE_TYPE4",
-    "description": "Let\u0027s keep this short and sweet, shall we?",
+    "description": "Let's keep this short and sweet, shall we?",
     "translation_description": ""
   },
   "67": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ROEGADYN_FEMALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ROEGADYN_FEMALE_TYPE5",
-    "description": "This wouldn\u0027t be necessary if you entrusted your financial affairs to me.",
+    "description": "This wouldn't be necessary if you entrusted your financial affairs to me.",
     "translation_description": ""
   },
   "68": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ROEGADYN_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_ROEGADYN_FEMALE_TYPE6",
-    "description": "So\u2500sellin\u0027, buyin\u0027, drinkin\u0027, whorin\u0027? What\u0027s it to be today?",
+    "description": "So─sellin', buyin', drinkin', whorin'? What's it to be today?",
     "translation_description": ""
   },
   "69": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_AURA_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_AURA_MALE_TYPE1",
-    "description": "Greetings, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. How may I be of service?",
+    "description": "Greetings, <hex:02080FE905FF066D6164616DFF0473697203>. How may I be of service?",
     "translation_description": ""
   },
   "70": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_AURA_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_AURA_MALE_TYPE2",
-    "description": "What\u0027ll it be, \u003Chex:02080FE905FF056D697373FF056D61746503\u003E?",
+    "description": "What'll it be, <hex:02080FE905FF056D697373FF056D61746503>?",
     "translation_description": ""
   },
   "71": {
@@ -434,25 +434,25 @@
   "72": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_AURA_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_AURA_MALE_TYPE4",
-    "description": "And how does this wonderful \u003Chex:020835E3E90C0DFF17020813E3E90C05FF086576656E696E67FF0464617903FF17020813E3E90C12FF04646179FF086576656E696E670303\u003E find you?",
+    "description": "And how does this wonderful <hex:020835E3E90C0DFF17020813E3E90C05FF086576656E696E67FF0464617903FF17020813E3E90C12FF04646179FF086576656E696E670303> find you?",
     "translation_description": ""
   },
   "73": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_AURA_MALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_AURA_MALE_TYPE5",
-    "description": "Well... Here I am...\u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E.",
+    "description": "Well... Here I am...<hex:020815E905FF094D69737472657373FF074D617374657203>.",
     "translation_description": ""
   },
   "74": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_AURA_MALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_AURA_MALE_TYPE6",
-    "description": "We work the market stalls,\u266A\u003Chex:02100103\u003EAnd our uniforms are pretty;\u266A\u003Chex:02100103\u003EWe are sober men and true,\u266A\u003Chex:02100103\u003EAnd attentive to our duties!\u266A",
+    "description": "We work the market stalls,♪<hex:02100103>And our uniforms are pretty;♪<hex:02100103>We are sober men and true,♪<hex:02100103>And attentive to our duties!♪",
     "translation_description": ""
   },
   "75": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_AURA_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_AURA_FEMALE_TYPE1",
-    "description": "\u003Chex:020815E905FF084D79206C616479FF084D79206C6F726403\u003E. What would you ask of me?",
+    "description": "<hex:020815E905FF084D79206C616479FF084D79206C6F726403>. What would you ask of me?",
     "translation_description": ""
   },
   "76": {
@@ -470,31 +470,31 @@
   "78": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_AURA_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_AURA_FEMALE_TYPE4",
-    "description": "Hey, it\u0027s...it\u0027s you! Hello again, you!",
+    "description": "Hey, it's...it's you! Hello again, you!",
     "translation_description": ""
   },
   "79": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_AURA_FEMALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_AURA_FEMALE_TYPE5",
-    "description": "I-It\u0027s not like I want to sell your items or anything.",
+    "description": "I-It's not like I want to sell your items or anything.",
     "translation_description": ""
   },
   "80": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_AURA_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER_AURA_FEMALE_TYPE6",
-    "description": "What do you have for me? Come on, come on! Don\u0027t be shy!",
+    "description": "What do you have for me? Come on, come on! Don't be shy!",
     "translation_description": ""
   },
   "81": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_HYURAN_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_HYURAN_MALE_TYPE1",
-    "description": "If that is all, I will take my leave now, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E.",
+    "description": "If that is all, I will take my leave now, <hex:020815E905FF094D69737472657373FF074D617374657203>.",
     "translation_description": ""
   },
   "82": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_HYURAN_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_HYURAN_MALE_TYPE2",
-    "description": "Take care o\u0027 yerself, hear?",
+    "description": "Take care o' yerself, hear?",
     "translation_description": ""
   },
   "83": {
@@ -506,7 +506,7 @@
   "84": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_HYURAN_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_HYURAN_MALE_TYPE4",
-    "description": "Well, it\u0027s about time. Good-bye.",
+    "description": "Well, it's about time. Good-bye.",
     "translation_description": ""
   },
   "85": {
@@ -518,19 +518,19 @@
   "86": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_HYURAN_MALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_HYURAN_MALE_TYPE6",
-    "description": "I\u0027m off, then!",
+    "description": "I'm off, then!",
     "translation_description": ""
   },
   "87": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_HYURAN_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_HYURAN_FEMALE_TYPE1",
-    "description": "With your leave, my \u003Chex:02080FE905FF056C616479FF056C6F726403\u003E.",
+    "description": "With your leave, my <hex:02080FE905FF056C616479FF056C6F726403>.",
     "translation_description": ""
   },
   "88": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_HYURAN_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_HYURAN_FEMALE_TYPE2",
-    "description": "Don\u0027t you worry \u0027bout a thing. I got this.",
+    "description": "Don't you worry 'bout a thing. I got this.",
     "translation_description": ""
   },
   "89": {
@@ -542,7 +542,7 @@
   "90": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_HYURAN_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_HYURAN_FEMALE_TYPE4",
-    "description": "If there is nothing else, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E, I\u0027ll be going now.",
+    "description": "If there is nothing else, <hex:02080FE905FF066D6164616DFF0473697203>, I'll be going now.",
     "translation_description": ""
   },
   "91": {
@@ -554,25 +554,25 @@
   "92": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_HYURAN_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_HYURAN_FEMALE_TYPE6",
-    "description": "Oh, will that be all today? Very well, but promise me you\u0027ll come back soon!",
+    "description": "Oh, will that be all today? Very well, but promise me you'll come back soon!",
     "translation_description": ""
   },
   "93": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_ELEZEN_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_ELEZEN_MALE_TYPE1",
-    "description": "As always, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E, it has been an honor and a privilege.",
+    "description": "As always, <hex:02080FE905FF066D6164616DFF0473697203>, it has been an honor and a privilege.",
     "translation_description": ""
   },
   "94": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_ELEZEN_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_ELEZEN_MALE_TYPE2",
-    "description": "You can count on me, chief\u2500I know how to get things done.",
+    "description": "You can count on me, chief─I know how to get things done.",
     "translation_description": ""
   },
   "95": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_ELEZEN_MALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_ELEZEN_MALE_TYPE3",
-    "description": "Don\u0027t be a stranger.",
+    "description": "Don't be a stranger.",
     "translation_description": ""
   },
   "96": {
@@ -596,13 +596,13 @@
   "99": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_ELEZEN_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_ELEZEN_FEMALE_TYPE1",
-    "description": "I humbly await your next summons, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E.",
+    "description": "I humbly await your next summons, <hex:020813E905FF076D696C616479FF076D696C6F726403>.",
     "translation_description": ""
   },
   "100": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_ELEZEN_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_ELEZEN_FEMALE_TYPE2",
-    "description": "Don\u0027t leave me alone for too long, hear?",
+    "description": "Don't leave me alone for too long, hear?",
     "translation_description": ""
   },
   "101": {
@@ -626,7 +626,7 @@
   "104": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_ELEZEN_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_ELEZEN_FEMALE_TYPE6",
-    "description": "Are you certain you don\u0027t desire anything else? Anything at all? Very well, I shall take my leave.",
+    "description": "Are you certain you don't desire anything else? Anything at all? Very well, I shall take my leave.",
     "translation_description": ""
   },
   "105": {
@@ -638,19 +638,19 @@
   "106": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_LALAFELL_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_LALAFELL_MALE_TYPE2",
-    "description": "Shouldn\u0027t take more than a moment, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E.",
+    "description": "Shouldn't take more than a moment, <hex:020813E905FF076D696C616479FF076D696C6F726403>.",
     "translation_description": ""
   },
   "107": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_LALAFELL_MALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_LALAFELL_MALE_TYPE3",
-    "description": "I\u0027ll be going, then.",
+    "description": "I'll be going, then.",
     "translation_description": ""
   },
   "108": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_LALAFELL_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_LALAFELL_MALE_TYPE4",
-    "description": "Thank the gods we\u0027re finished. I\u0027ve got plans to put my hands in places I\u0027ve never seen...if you know what I mean.",
+    "description": "Thank the gods we're finished. I've got plans to put my hands in places I've never seen...if you know what I mean.",
     "translation_description": ""
   },
   "109": {
@@ -662,7 +662,7 @@
   "110": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_LALAFELL_MALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_LALAFELL_MALE_TYPE6",
-    "description": "I\u0027m off, I\u0027m off!",
+    "description": "I'm off, I'm off!",
     "translation_description": ""
   },
   "111": {
@@ -674,19 +674,19 @@
   "112": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_LALAFELL_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_LALAFELL_FEMALE_TYPE2",
-    "description": "Blessin\u0027s o\u0027 the Twelve upon ye.",
+    "description": "Blessin's o' the Twelve upon ye.",
     "translation_description": ""
   },
   "113": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_LALAFELL_FEMALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_LALAFELL_FEMALE_TYPE3",
-    "description": "May Nald\u0027thal see fit to fatten our pockets!",
+    "description": "May Nald'thal see fit to fatten our pockets!",
     "translation_description": ""
   },
   "114": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_LALAFELL_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_LALAFELL_FEMALE_TYPE4",
-    "description": "Very good, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E! Your wish is my command, and so forth.",
+    "description": "Very good, <hex:02080FE905FF066D6164616DFF0473697203>! Your wish is my command, and so forth.",
     "translation_description": ""
   },
   "115": {
@@ -698,7 +698,7 @@
   "116": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_LALAFELL_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_LALAFELL_FEMALE_TYPE6",
-    "description": "Is it time for good-byes already? I\u0027m going to miss you...",
+    "description": "Is it time for good-byes already? I'm going to miss you...",
     "translation_description": ""
   },
   "117": {
@@ -710,7 +710,7 @@
   "118": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_MIQOTE_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_MIQOTE_MALE_TYPE2",
-    "description": "The markets may be a bleedin\u0027 battlefield, but I\u0027m a godsdamned soldier. You can count on me, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "description": "The markets may be a bleedin' battlefield, but I'm a godsdamned soldier. You can count on me, <hex:02080FE905FF066D6164616DFF0473697203>.",
     "translation_description": ""
   },
   "119": {
@@ -722,7 +722,7 @@
   "120": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_MIQOTE_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_MIQOTE_MALE_TYPE4",
-    "description": "Why so serrrious? \u003Csigh\u003E So it goes.",
+    "description": "Why so serrrious? <sigh> So it goes.",
     "translation_description": ""
   },
   "121": {
@@ -740,13 +740,13 @@
   "123": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_MIQOTE_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_MIQOTE_FEMALE_TYPE1",
-    "description": "Good-bye for now, \u003Chex:020811E905FF066D6164616DFF06736972727203\u003E.",
+    "description": "Good-bye for now, <hex:020811E905FF066D6164616DFF06736972727203>.",
     "translation_description": ""
   },
   "124": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_MIQOTE_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_MIQOTE_FEMALE_TYPE2",
-    "description": "Right then, let\u0027s get on with it!",
+    "description": "Right then, let's get on with it!",
     "translation_description": ""
   },
   "125": {
@@ -758,31 +758,31 @@
   "126": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_MIQOTE_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_MIQOTE_FEMALE_TYPE4",
-    "description": "When the master\u0027s away, the cat will play.",
+    "description": "When the master's away, the cat will play.",
     "translation_description": ""
   },
   "127": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_MIQOTE_FEMALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_MIQOTE_FEMALE_TYPE5",
-    "description": "Gods, this is tirin\u0027...",
+    "description": "Gods, this is tirin'...",
     "translation_description": ""
   },
   "128": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_MIQOTE_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_MIQOTE_FEMALE_TYPE6",
-    "description": "You don\u0027t want to be with me anymore? \u003Csniffle\u003E",
+    "description": "You don't want to be with me anymore? <sniffle>",
     "translation_description": ""
   },
   "129": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_ROEGADYN_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_ROEGADYN_MALE_TYPE1",
-    "description": "I shall carry out your wishes as instructed, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "description": "I shall carry out your wishes as instructed, <hex:02080FE905FF066D6164616DFF0473697203>.",
     "translation_description": ""
   },
   "130": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_ROEGADYN_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_ROEGADYN_MALE_TYPE2",
-    "description": "Bwahahaha! I\u0027m in yer bazaar, sellin\u0027 yer wares!",
+    "description": "Bwahahaha! I'm in yer bazaar, sellin' yer wares!",
     "translation_description": ""
   },
   "131": {
@@ -800,7 +800,7 @@
   "133": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_ROEGADYN_MALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_ROEGADYN_MALE_TYPE5",
-    "description": "I don\u0027t do good-byes.",
+    "description": "I don't do good-byes.",
     "translation_description": ""
   },
   "134": {
@@ -812,13 +812,13 @@
   "135": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_ROEGADYN_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_ROEGADYN_FEMALE_TYPE1",
-    "description": "Will that be all for today, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E? Understood.",
+    "description": "Will that be all for today, <hex:020813E905FF076D696C616479FF076D696C6F726403>? Understood.",
     "translation_description": ""
   },
   "136": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_ROEGADYN_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_ROEGADYN_FEMALE_TYPE2",
-    "description": "Aye, aye, cap\u0027n!",
+    "description": "Aye, aye, cap'n!",
     "translation_description": ""
   },
   "137": {
@@ -830,7 +830,7 @@
   "138": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_ROEGADYN_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_ROEGADYN_FEMALE_TYPE4",
-    "description": "Not exactly how I was hopin\u0027 to spend my day, but I suppose it can\u0027t be helped.",
+    "description": "Not exactly how I was hopin' to spend my day, but I suppose it can't be helped.",
     "translation_description": ""
   },
   "139": {
@@ -854,7 +854,7 @@
   "142": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_AURA_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_AURA_MALE_TYPE2",
-    "description": "Is that all? Guess I\u0027ll be on my way, then.",
+    "description": "Is that all? Guess I'll be on my way, then.",
     "translation_description": ""
   },
   "143": {
@@ -878,7 +878,7 @@
   "146": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_AURA_MALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_AURA_MALE_TYPE6",
-    "description": "Here today and gone tomorrow;\u266A\u003Chex:02100103\u003EYes, I know\u2500\u266A\u003Chex:02100103\u003EThat is so!\u266A",
+    "description": "Here today and gone tomorrow;♪<hex:02100103>Yes, I know─♪<hex:02100103>That is so!♪",
     "translation_description": ""
   },
   "147": {
@@ -890,7 +890,7 @@
   "148": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_AURA_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_AURA_FEMALE_TYPE2",
-    "description": "Always a pleasure, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E.",
+    "description": "Always a pleasure, <hex:020815E905FF094D69737472657373FF074D617374657203>.",
     "translation_description": ""
   },
   "149": {
@@ -902,19 +902,19 @@
   "150": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_AURA_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_AURA_FEMALE_TYPE4",
-    "description": "Finished already? Guess that\u0027s that, then.",
+    "description": "Finished already? Guess that's that, then.",
     "translation_description": ""
   },
   "151": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_AURA_FEMALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_AURA_FEMALE_TYPE5",
-    "description": "You\u0027re leaving already? Fine, then! I-It\u0027s not like I wanted you to stay or anything.",
+    "description": "You're leaving already? Fine, then! I-It's not like I wanted you to stay or anything.",
     "translation_description": ""
   },
   "152": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_AURA_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE_AURA_FEMALE_TYPE6",
-    "description": "Very good, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E! Very good indeed!",
+    "description": "Very good, <hex:02080FE905FF066D6164616DFF0473697203>! Very good indeed!",
     "translation_description": ""
   },
   "153": {
@@ -950,7 +950,7 @@
   "158": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_MENU_MARKET_FROM_RETAINER",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_MENU_MARKET_FROM_RETAINER",
-    "description": "Sell items in your retainer\u0027s inventory on the market.",
+    "description": "Sell items in your retainer's inventory on the market.",
     "translation_description": ""
   },
   "159": {
@@ -1028,7 +1028,7 @@
   "171": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_RESET_ERROR_EQUIPMENT",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_RESET_ERROR_EQUIPMENT",
-    "description": "You cannot change your retainer\u0027s class/job until all gear has been removed.",
+    "description": "You cannot change your retainer's class/job until all gear has been removed.",
     "translation_description": ""
   },
   "172": {
@@ -1046,55 +1046,55 @@
   "174": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_RECOMMEND_JOB_CHANGE",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_RECOMMEND_JOB_CHANGE",
-    "description": "Your retainer is qualified to be trained in more advanced traditions. Select \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EAssign retainer a job\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E to proceed.",
+    "description": "Your retainer is qualified to be trained in more advanced traditions. Select <hex:024804F201F403><hex:024904F201F503>Assign retainer a job<hex:0249020103><hex:0248020103> to proceed.",
     "translation_description": ""
   },
   "175": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_SUGGEST_JOB_CHANGE",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_SUGGEST_JOB_CHANGE",
-    "description": "To train your retainer in a more advanced tradition, select \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EAssign retainer a job\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E to proceed.",
+    "description": "To train your retainer in a more advanced tradition, select <hex:024804F201F403><hex:024904F201F503>Assign retainer a job<hex:0249020103><hex:0248020103> to proceed.",
     "translation_description": ""
   },
   "176": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_SUGGEST_JOB_SCROLL",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_SUGGEST_JOB_SCROLL",
-    "description": "To assign your retainer a job, you must have \u003Chex:02310CFF054974656D02E802020203\u003E in your possession, which can be purchased from retainer vocates.",
+    "description": "To assign your retainer a job, you must have <hex:02310CFF054974656D02E802020203> in your possession, which can be purchased from retainer vocates.",
     "translation_description": ""
   },
   "177": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_JOB_ERROR_EQUIPMENT",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_JOB_ERROR_EQUIPMENT",
-    "description": "You cannot assign your retainer the \u003Chex:02280EFF09436C6173734A6F62E8020103\u003E job until all gear has been removed.",
+    "description": "You cannot assign your retainer the <hex:02280EFF09436C6173734A6F62E8020103> job until all gear has been removed.",
     "translation_description": ""
   },
   "178": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_JOB_ERROR_NEED_RETAINER_LEVEL",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_JOB_ERROR_NEED_RETAINER_LEVEL",
-    "description": "You cannot assign your retainer the \u003Chex:02280EFF09436C6173734A6F62E8020103\u003E job until they have achieved level \u003Chex:022003E80303\u003E.",
+    "description": "You cannot assign your retainer the <hex:02280EFF09436C6173734A6F62E8020103> job until they have achieved level <hex:022003E80303>.",
     "translation_description": ""
   },
   "179": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_JOB_ERROR_NEED_PLAYER_LEVEL",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_JOB_ERROR_NEED_PLAYER_LEVEL",
-    "description": "You cannot assign your retainer the \u003Chex:02280EFF09436C6173734A6F62E8020103\u003E job until you achieve level \u003Chex:022003E80303\u003E as \u003Chex:0208B0E4E8020BFF15616E2002280EFF09436C6173734A6F62E8020103FF94020890E4E8020FFF15616E2002280EFF09436C6173734A6F62E8020103FF74020870E4E80206FF15616E2002280EFF09436C6173734A6F62E8020103FF54020850E4E8021BFF15616E2002280EFF09436C6173734A6F62E8020103FF34020830E4E80222FF15616E2002280EFF09436C6173734A6F62E8020103FF14612002280EFF09436C6173734A6F62E80201030303030303\u003E.",
+    "description": "You cannot assign your retainer the <hex:02280EFF09436C6173734A6F62E8020103> job until you achieve level <hex:022003E80303> as <hex:0208B0E4E8020BFF15616E2002280EFF09436C6173734A6F62E8020103FF94020890E4E8020FFF15616E2002280EFF09436C6173734A6F62E8020103FF74020870E4E80206FF15616E2002280EFF09436C6173734A6F62E8020103FF54020850E4E8021BFF15616E2002280EFF09436C6173734A6F62E8020103FF34020830E4E80222FF15616E2002280EFF09436C6173734A6F62E8020103FF14612002280EFF09436C6173734A6F62E80201030303030303>.",
     "translation_description": ""
   },
   "180": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_JOB_ERROR_LOW_PLAYER_LEVEL",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_JOB_ERROR_LOW_PLAYER_LEVEL",
-    "description": "You cannot assign your retainer the \u003Chex:02280EFF09436C6173734A6F62E8020103\u003E job until you yourself achieve a higher level as \u003Chex:0208B0E4E8020BFF15616E2002280EFF09436C6173734A6F62E8020103FF94020890E4E8020FFF15616E2002280EFF09436C6173734A6F62E8020103FF74020870E4E80206FF15616E2002280EFF09436C6173734A6F62E8020103FF54020850E4E8021BFF15616E2002280EFF09436C6173734A6F62E8020103FF34020830E4E80222FF15616E2002280EFF09436C6173734A6F62E8020103FF14612002280EFF09436C6173734A6F62E80201030303030303\u003E.",
+    "description": "You cannot assign your retainer the <hex:02280EFF09436C6173734A6F62E8020103> job until you yourself achieve a higher level as <hex:0208B0E4E8020BFF15616E2002280EFF09436C6173734A6F62E8020103FF94020890E4E8020FFF15616E2002280EFF09436C6173734A6F62E8020103FF74020870E4E80206FF15616E2002280EFF09436C6173734A6F62E8020103FF54020850E4E8021BFF15616E2002280EFF09436C6173734A6F62E8020103FF34020830E4E80222FF15616E2002280EFF09436C6173734A6F62E8020103FF14612002280EFF09436C6173734A6F62E80201030303030303>.",
     "translation_description": ""
   },
   "181": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_JOB_ERROR_NO_ITEM",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_JOB_ERROR_NO_ITEM",
-    "description": "Unable to proceed. You do not have \u003Chex:02310CFF054974656D02E802020203\u003E in your possession.",
+    "description": "Unable to proceed. You do not have <hex:02310CFF054974656D02E802020203> in your possession.",
     "translation_description": ""
   },
   "182": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_JOB_CHANGE_SUCCESS",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_JOB_CHANGE_SUCCESS",
-    "description": "Your retainer has become \u003Chex:0208B0E4E8020BFF15616E2002280EFF09436C6173734A6F62E8020103FF94020890E4E8020FFF15616E2002280EFF09436C6173734A6F62E8020103FF74020870E4E80206FF15616E2002280EFF09436C6173734A6F62E8020103FF54020850E4E8021BFF15616E2002280EFF09436C6173734A6F62E8020103FF34020830E4E80222FF15616E2002280EFF09436C6173734A6F62E8020103FF14612002280EFF09436C6173734A6F62E80201030303030303\u003E!",
+    "description": "Your retainer has become <hex:0208B0E4E8020BFF15616E2002280EFF09436C6173734A6F62E8020103FF94020890E4E8020FFF15616E2002280EFF09436C6173734A6F62E8020103FF74020870E4E80206FF15616E2002280EFF09436C6173734A6F62E8020103FF54020850E4E8021BFF15616E2002280EFF09436C6173734A6F62E8020103FF34020830E4E80222FF15616E2002280EFF09436C6173734A6F62E8020103FF14612002280EFF09436C6173734A6F62E80201030303030303>!",
     "translation_description": ""
   },
   "183": {
@@ -1112,7 +1112,7 @@
   "185": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ASK_CHANGE_JOB",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ASK_CHANGE_JOB",
-    "description": "Entrust your copy of \u003Chex:021A020203\u003EModern Vocation\u003Chex:021A020103\u003E to your retainer and bid them learn the ways of the \u003Chex:02280EFF09436C6173734A6F62E8030103\u003E?\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EPlease note that retainers cannot change jobs without resetting all progress.\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E",
+    "description": "Entrust your copy of <hex:021A020203>Modern Vocation<hex:021A020103> to your retainer and bid them learn the ways of the <hex:02280EFF09436C6173734A6F62E8030103>?<hex:02100103><hex:02100103><hex:024804F201F403><hex:024904F201F503>Please note that retainers cannot change jobs without resetting all progress.<hex:0249020103><hex:0248020103>",
     "translation_description": ""
   },
   "186": {
@@ -1124,13 +1124,13 @@
   "187": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ASK_RESET_JOB",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ASK_RESET_JOB",
-    "description": "Your retainer\u0027s copy of \u003Chex:021A020203\u003EModern Vocation\u003Chex:021A020103\u003E will be permanently discarded. Are you sure you wish to proceed?",
+    "description": "Your retainer's copy of <hex:021A020203>Modern Vocation<hex:021A020103> will be permanently discarded. Are you sure you wish to proceed?",
     "translation_description": ""
   },
   "188": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ASK_RESET_CLASS",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ASK_RESET_CLASS",
-    "description": "Reset \u003Chex:022903EA0203\u003E\u0027s class/job?\u003Chex:02100103\u003E(\u003Chex:022B14FF1202280EFF09436C6173734A6F62E803010303\u003E: Level \u003Chex:022003E80403\u003E)\u003Chex:02100103\u003E\u003Chex:024804F201FA03\u003E\u003Chex:024904F201FB03\u003E\u203BResetting will revert this class/job to level 1.\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u003Chex:02100103\u003E",
+    "description": "Reset <hex:022903EA0203>'s class/job?<hex:02100103>(<hex:022B14FF1202280EFF09436C6173734A6F62E803010303>: Level <hex:022003E80403>)<hex:02100103><hex:024804F201FA03><hex:024904F201FB03>※Resetting will revert this class/job to level 1.<hex:0249020103><hex:0248020103><hex:02100103>",
     "translation_description": ""
   },
   "189": {
@@ -1250,7 +1250,7 @@
   "208": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_CLASS_CONFIRM_ASK",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_CLASS_CONFIRM_ASK",
-    "description": "\u003Chex:022903EA0203\u003E will become \u003Chex:0208B0E4E8030BFF15616E2002280EFF09436C6173734A6F62E8030103FF94020890E4E8030FFF15616E2002280EFF09436C6173734A6F62E8030103FF74020870E4E80306FF15616E2002280EFF09436C6173734A6F62E8030103FF54020850E4E8031BFF15616E2002280EFF09436C6173734A6F62E8030103FF34020830E4E80322FF15616E2002280EFF09436C6173734A6F62E8030103FF14612002280EFF09436C6173734A6F62E80301030303030303\u003E. Are you certain you wish to proceed?",
+    "description": "<hex:022903EA0203> will become <hex:0208B0E4E8030BFF15616E2002280EFF09436C6173734A6F62E8030103FF94020890E4E8030FFF15616E2002280EFF09436C6173734A6F62E8030103FF74020870E4E80306FF15616E2002280EFF09436C6173734A6F62E8030103FF54020850E4E8031BFF15616E2002280EFF09436C6173734A6F62E8030103FF34020830E4E80322FF15616E2002280EFF09436C6173734A6F62E8030103FF14612002280EFF09436C6173734A6F62E80301030303030303>. Are you certain you wish to proceed?",
     "translation_description": ""
   },
   "209": {
@@ -1268,7 +1268,7 @@
   "211": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_CLASS_RESET_DONE",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_CLASS_RESET_DONE",
-    "description": "\u003Chex:022903EA0203\u003E is no longer \u003Chex:0208B0E4E8030BFF15616E2002280EFF09436C6173734A6F62E8030103FF94020890E4E8030FFF15616E2002280EFF09436C6173734A6F62E8030103FF74020870E4E80306FF15616E2002280EFF09436C6173734A6F62E8030103FF54020850E4E8031BFF15616E2002280EFF09436C6173734A6F62E8030103FF34020830E4E80322FF15616E2002280EFF09436C6173734A6F62E8030103FF14612002280EFF09436C6173734A6F62E80301030303030303\u003E.",
+    "description": "<hex:022903EA0203> is no longer <hex:0208B0E4E8030BFF15616E2002280EFF09436C6173734A6F62E8030103FF94020890E4E8030FFF15616E2002280EFF09436C6173734A6F62E8030103FF74020870E4E80306FF15616E2002280EFF09436C6173734A6F62E8030103FF54020850E4E8031BFF15616E2002280EFF09436C6173734A6F62E8030103FF34020830E4E80322FF15616E2002280EFF09436C6173734A6F62E8030103FF14612002280EFF09436C6173734A6F62E80301030303030303>.",
     "translation_description": ""
   },
   "212": {
@@ -1286,7 +1286,7 @@
   "214": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_RESET_CLASS_QUESTION",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_RESET_CLASS_QUESTION",
-    "description": "You are about to reset your retainer\u0027s class/job. Please note that this process cannot be reversed, and all progress will be permanently lost. Are you certain you wish to proceed?",
+    "description": "You are about to reset your retainer's class/job. Please note that this process cannot be reversed, and all progress will be permanently lost. Are you certain you wish to proceed?",
     "translation_description": ""
   },
   "215": {
@@ -1304,13 +1304,13 @@
   "217": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_HYURAN_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_HYURAN_MALE_TYPE1",
-    "description": "Your bidding will be done, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E.",
+    "description": "Your bidding will be done, <hex:020815E905FF094D69737472657373FF074D617374657203>.",
     "translation_description": ""
   },
   "218": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_HYURAN_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_HYURAN_MALE_TYPE2",
-    "description": "Easy now, easy. I\u0027m on it.",
+    "description": "Easy now, easy. I'm on it.",
     "translation_description": ""
   },
   "219": {
@@ -1340,13 +1340,13 @@
   "223": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_HYURAN_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_HYURAN_FEMALE_TYPE1",
-    "description": "I understand, my \u003Chex:02080FE905FF056C616479FF056C6F726403\u003E.",
+    "description": "I understand, my <hex:02080FE905FF056C616479FF056C6F726403>.",
     "translation_description": ""
   },
   "224": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_HYURAN_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_HYURAN_FEMALE_TYPE2",
-    "description": "Hah! I\u0027ll be back afore you know it.",
+    "description": "Hah! I'll be back afore you know it.",
     "translation_description": ""
   },
   "225": {
@@ -1358,7 +1358,7 @@
   "226": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_HYURAN_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_HYURAN_FEMALE_TYPE4",
-    "description": "I\u0027ll give it my best, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "description": "I'll give it my best, <hex:02080FE905FF066D6164616DFF0473697203>.",
     "translation_description": ""
   },
   "227": {
@@ -1370,19 +1370,19 @@
   "228": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_HYURAN_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_HYURAN_FEMALE_TYPE6",
-    "description": "I won\u0027t let you down, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E!",
+    "description": "I won't let you down, <hex:02080FE905FF066D6164616DFF0473697203>!",
     "translation_description": ""
   },
   "229": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ELEZEN_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ELEZEN_MALE_TYPE1",
-    "description": "I shall not fail you, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "description": "I shall not fail you, <hex:02080FE905FF066D6164616DFF0473697203>.",
     "translation_description": ""
   },
   "230": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ELEZEN_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ELEZEN_MALE_TYPE2",
-    "description": "No need to worry, chief\u2500this is where I shine.",
+    "description": "No need to worry, chief─this is where I shine.",
     "translation_description": ""
   },
   "231": {
@@ -1412,7 +1412,7 @@
   "235": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ELEZEN_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ELEZEN_FEMALE_TYPE1",
-    "description": "As you ask, so shall it be done, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "description": "As you ask, so shall it be done, <hex:02080FE905FF066D6164616DFF0473697203>.",
     "translation_description": ""
   },
   "236": {
@@ -1424,13 +1424,13 @@
   "237": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ELEZEN_FEMALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ELEZEN_FEMALE_TYPE3",
-    "description": "I\u0027ll take care of everything.",
+    "description": "I'll take care of everything.",
     "translation_description": ""
   },
   "238": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ELEZEN_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ELEZEN_FEMALE_TYPE4",
-    "description": "A venture? \u003Chex:021A020203\u003ENow\u003Chex:021A020103\u003E? Well, if you insist.",
+    "description": "A venture? <hex:021A020203>Now<hex:021A020103>? Well, if you insist.",
     "translation_description": ""
   },
   "239": {
@@ -1442,31 +1442,31 @@
   "240": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ELEZEN_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ELEZEN_FEMALE_TYPE6",
-    "description": "That sounds like fun! You\u0027ll be joining me, yes? \u003Chex:021A020203\u003ENo\u003Chex:021A020103\u003E? Oh.",
+    "description": "That sounds like fun! You'll be joining me, yes? <hex:021A020203>No<hex:021A020103>? Oh.",
     "translation_description": ""
   },
   "241": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_LALAFELL_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_LALAFELL_MALE_TYPE1",
-    "description": "You will not be disappointed, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "description": "You will not be disappointed, <hex:02080FE905FF066D6164616DFF0473697203>.",
     "translation_description": ""
   },
   "242": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_LALAFELL_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_LALAFELL_MALE_TYPE2",
-    "description": "You got it, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E.",
+    "description": "You got it, <hex:020813E905FF076D696C616479FF076D696C6F726403>.",
     "translation_description": ""
   },
   "243": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_LALAFELL_MALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_LALAFELL_MALE_TYPE3",
-    "description": "That\u0027s it? All right.",
+    "description": "That's it? All right.",
     "translation_description": ""
   },
   "244": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_LALAFELL_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_LALAFELL_MALE_TYPE4",
-    "description": "Hope you ain\u0027t expectin\u0027 me to rush. I wanna take it nice and slow.",
+    "description": "Hope you ain't expectin' me to rush. I wanna take it nice and slow.",
     "translation_description": ""
   },
   "245": {
@@ -1478,25 +1478,25 @@
   "246": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_LALAFELL_MALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_LALAFELL_MALE_TYPE6",
-    "description": "I\u0027ll do it, I\u0027ll do it!",
+    "description": "I'll do it, I'll do it!",
     "translation_description": ""
   },
   "247": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_LALAFELL_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_LALAFELL_FEMALE_TYPE1",
-    "description": "It is an honor to serve you, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E.",
+    "description": "It is an honor to serve you, <hex:020815E905FF094D69737472657373FF074D617374657203>.",
     "translation_description": ""
   },
   "248": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_LALAFELL_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_LALAFELL_FEMALE_TYPE2",
-    "description": "Is that all? A triflin\u0027 task!",
+    "description": "Is that all? A triflin' task!",
     "translation_description": ""
   },
   "249": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_LALAFELL_FEMALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_LALAFELL_FEMALE_TYPE3",
-    "description": "If there\u0027s profit to be made, I\u0027ll make it.",
+    "description": "If there's profit to be made, I'll make it.",
     "translation_description": ""
   },
   "250": {
@@ -1508,7 +1508,7 @@
   "251": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_LALAFELL_FEMALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_LALAFELL_FEMALE_TYPE5",
-    "description": "Fine...for now. But you\u0027re asking a bit much, considering what I\u0027m paid.",
+    "description": "Fine...for now. But you're asking a bit much, considering what I'm paid.",
     "translation_description": ""
   },
   "252": {
@@ -1520,13 +1520,13 @@
   "253": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_MIQOTE_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_MIQOTE_MALE_TYPE1",
-    "description": "Excellent decision, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. Venturrres are my specialty.",
+    "description": "Excellent decision, <hex:02080FE905FF066D6164616DFF0473697203>. Venturrres are my specialty.",
     "translation_description": ""
   },
   "254": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_MIQOTE_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_MIQOTE_MALE_TYPE2",
-    "description": "A special solo mission? Hells, why didn\u0027t you say so sooner! Of course I\u0027ll do it!",
+    "description": "A special solo mission? Hells, why didn't you say so sooner! Of course I'll do it!",
     "translation_description": ""
   },
   "255": {
@@ -1556,7 +1556,7 @@
   "259": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_MIQOTE_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_MIQOTE_FEMALE_TYPE1",
-    "description": "It shall be done forthwith, \u003Chex:020811E905FF066D6164616DFF06736972727203\u003E.",
+    "description": "It shall be done forthwith, <hex:020811E905FF066D6164616DFF06736972727203>.",
     "translation_description": ""
   },
   "260": {
@@ -1568,37 +1568,37 @@
   "261": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_MIQOTE_FEMALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_MIQOTE_FEMALE_TYPE3",
-    "description": "You needn\u0027t say another worrrd.",
+    "description": "You needn't say another worrrd.",
     "translation_description": ""
   },
   "262": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_MIQOTE_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_MIQOTE_FEMALE_TYPE4",
-    "description": "I\u0027ll start now, if that\u0027s what you want.",
+    "description": "I'll start now, if that's what you want.",
     "translation_description": ""
   },
   "263": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_MIQOTE_FEMALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_MIQOTE_FEMALE_TYPE5",
-    "description": "Not quite \u003Chex:021A020203\u003Ead\u003Chex:021A020103\u003Eventurin\u0027, but it\u0027s close enough.",
+    "description": "Not quite <hex:021A020203>ad<hex:021A020103>venturin', but it's close enough.",
     "translation_description": ""
   },
   "264": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_MIQOTE_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_MIQOTE_FEMALE_TYPE6",
-    "description": "I\u0027ll do anything you say, exactly as you say.",
+    "description": "I'll do anything you say, exactly as you say.",
     "translation_description": ""
   },
   "265": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ROEGADYN_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ROEGADYN_MALE_TYPE1",
-    "description": "I shall not keep you waiting overlong, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "description": "I shall not keep you waiting overlong, <hex:02080FE905FF066D6164616DFF0473697203>.",
     "translation_description": ""
   },
   "266": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ROEGADYN_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ROEGADYN_MALE_TYPE2",
-    "description": "Bwahahaha! So that\u0027s what this is about! I\u0027ll handle it!",
+    "description": "Bwahahaha! So that's what this is about! I'll handle it!",
     "translation_description": ""
   },
   "267": {
@@ -1610,7 +1610,7 @@
   "268": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ROEGADYN_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ROEGADYN_MALE_TYPE4",
-    "description": "Nothing\u2500hic\u2500nothing to it!",
+    "description": "Nothing─hic─nothing to it!",
     "translation_description": ""
   },
   "269": {
@@ -1622,19 +1622,19 @@
   "270": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ROEGADYN_MALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ROEGADYN_MALE_TYPE6",
-    "description": "I\u0027ll give it everything I\u0027ve got, chief!",
+    "description": "I'll give it everything I've got, chief!",
     "translation_description": ""
   },
   "271": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ROEGADYN_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ROEGADYN_FEMALE_TYPE1",
-    "description": "I will not be long, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E.",
+    "description": "I will not be long, <hex:020813E905FF076D696C616479FF076D696C6F726403>.",
     "translation_description": ""
   },
   "272": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ROEGADYN_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ROEGADYN_FEMALE_TYPE2",
-    "description": "Ye picked the right woman fer the job, cap\u0027n!",
+    "description": "Ye picked the right woman fer the job, cap'n!",
     "translation_description": ""
   },
   "273": {
@@ -1646,7 +1646,7 @@
   "274": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ROEGADYN_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ROEGADYN_FEMALE_TYPE4",
-    "description": "Oh, for the love of\u2500 Really? Godsdammit.",
+    "description": "Oh, for the love of─ Really? Godsdammit.",
     "translation_description": ""
   },
   "275": {
@@ -1658,7 +1658,7 @@
   "276": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ROEGADYN_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_ROEGADYN_FEMALE_TYPE6",
-    "description": "Oho, so it\u0027s venturin\u0027, it is! This ought to be fun.",
+    "description": "Oho, so it's venturin', it is! This ought to be fun.",
     "translation_description": ""
   },
   "277": {
@@ -1670,43 +1670,43 @@
   "278": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_AURA_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_AURA_MALE_TYPE2",
-    "description": "Venture, eh? Ain\u0027t nothin\u0027 to it.",
+    "description": "Venture, eh? Ain't nothin' to it.",
     "translation_description": ""
   },
   "279": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_AURA_MALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_AURA_MALE_TYPE3",
-    "description": "Oh, I\u0027ll get busy. I\u0027ll get very busy, indeed.",
+    "description": "Oh, I'll get busy. I'll get very busy, indeed.",
     "translation_description": ""
   },
   "280": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_AURA_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_AURA_MALE_TYPE4",
-    "description": "What? I mean, I\u0027m flattered you think I can handle it, but...",
+    "description": "What? I mean, I'm flattered you think I can handle it, but...",
     "translation_description": ""
   },
   "281": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_AURA_MALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_AURA_MALE_TYPE5",
-    "description": "I don\u0027t recall this being part of my contract...",
+    "description": "I don't recall this being part of my contract...",
     "translation_description": ""
   },
   "282": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_AURA_MALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_AURA_MALE_TYPE6",
-    "description": "A simple retainer, lowly born,\u266A\u003Chex:02100103\u003EUnlettered and unknown,\u266A\u003Chex:02100103\u003EWho toils for bread from early morn,\u266A\u003Chex:02100103\u003ETill half the night has flown!\u266A",
+    "description": "A simple retainer, lowly born,♪<hex:02100103>Unlettered and unknown,♪<hex:02100103>Who toils for bread from early morn,♪<hex:02100103>Till half the night has flown!♪",
     "translation_description": ""
   },
   "283": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_AURA_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_AURA_FEMALE_TYPE1",
-    "description": "\u003Chex:020815E905FF084D79206C616479FF084D79206C6F726403\u003E shall not be disappointed.",
+    "description": "<hex:020815E905FF084D79206C616479FF084D79206C6F726403> shall not be disappointed.",
     "translation_description": ""
   },
   "284": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_AURA_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_AURA_FEMALE_TYPE2",
-    "description": "Sure, why not? I\u0027ll give it a go!",
+    "description": "Sure, why not? I'll give it a go!",
     "translation_description": ""
   },
   "285": {
@@ -1718,13 +1718,13 @@
   "286": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_AURA_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_AURA_FEMALE_TYPE4",
-    "description": "I\u0027ll do it! I\u0027ll rob the\u2500 I mean, er, what you said.",
+    "description": "I'll do it! I'll rob the─ I mean, er, what you said.",
     "translation_description": ""
   },
   "287": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_AURA_FEMALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ACCEPT_AURA_FEMALE_TYPE5",
-    "description": "A v-venture!? Great! It\u0027s not like I would rather spend time with you or anything.",
+    "description": "A v-venture!? Great! It's not like I would rather spend time with you or anything.",
     "translation_description": ""
   },
   "288": {
@@ -1736,13 +1736,13 @@
   "289": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_HYURAN_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_HYURAN_MALE_TYPE1",
-    "description": "I pray this meets with your satisfaction, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E.",
+    "description": "I pray this meets with your satisfaction, <hex:020815E905FF094D69737472657373FF074D617374657203>.",
     "translation_description": ""
   },
   "290": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_HYURAN_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_HYURAN_MALE_TYPE2",
-    "description": "How\u0027s that grab ye?",
+    "description": "How's that grab ye?",
     "translation_description": ""
   },
   "291": {
@@ -1754,7 +1754,7 @@
   "292": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_HYURAN_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_HYURAN_MALE_TYPE4",
-    "description": "Let\u0027s not do this again for a while, shall we?",
+    "description": "Let's not do this again for a while, shall we?",
     "translation_description": ""
   },
   "293": {
@@ -1772,7 +1772,7 @@
   "295": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_HYURAN_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_HYURAN_FEMALE_TYPE1",
-    "description": "May it please you, my \u003Chex:02080FE905FF056C616479FF056C6F726403\u003E.",
+    "description": "May it please you, my <hex:02080FE905FF056C616479FF056C6F726403>.",
     "translation_description": ""
   },
   "296": {
@@ -1790,7 +1790,7 @@
   "298": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_HYURAN_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_HYURAN_FEMALE_TYPE4",
-    "description": "That\u0027s the last of it.",
+    "description": "That's the last of it.",
     "translation_description": ""
   },
   "299": {
@@ -1802,19 +1802,19 @@
   "300": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_HYURAN_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_HYURAN_FEMALE_TYPE6",
-    "description": "I think that went well, don\u0027t you?",
+    "description": "I think that went well, don't you?",
     "translation_description": ""
   },
   "301": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_ELEZEN_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_ELEZEN_MALE_TYPE1",
-    "description": "It was my pleasure, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "description": "It was my pleasure, <hex:02080FE905FF066D6164616DFF0473697203>.",
     "translation_description": ""
   },
   "302": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_ELEZEN_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_ELEZEN_MALE_TYPE2",
-    "description": "A rousin\u0027 success, if I do say so myself.",
+    "description": "A rousin' success, if I do say so myself.",
     "translation_description": ""
   },
   "303": {
@@ -1826,7 +1826,7 @@
   "304": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_ELEZEN_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_ELEZEN_MALE_TYPE4",
-    "description": "It\u0027s all yours. Enjoy.",
+    "description": "It's all yours. Enjoy.",
     "translation_description": ""
   },
   "305": {
@@ -1838,19 +1838,19 @@
   "306": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_ELEZEN_MALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_ELEZEN_MALE_TYPE6",
-    "description": "What I wouldn\u0027t give to do this all the time!",
+    "description": "What I wouldn't give to do this all the time!",
     "translation_description": ""
   },
   "307": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_ELEZEN_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_ELEZEN_FEMALE_TYPE1",
-    "description": "Does it please you, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E?",
+    "description": "Does it please you, <hex:020813E905FF076D696C616479FF076D696C6F726403>?",
     "translation_description": ""
   },
   "308": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_ELEZEN_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_ELEZEN_FEMALE_TYPE2",
-    "description": "One day it\u0027ll be me givin\u0027 the orders.",
+    "description": "One day it'll be me givin' the orders.",
     "translation_description": ""
   },
   "309": {
@@ -1862,7 +1862,7 @@
   "310": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_ELEZEN_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_ELEZEN_FEMALE_TYPE4",
-    "description": "A thoroughly pedestrian result, I\u0027m afraid. I would understand if you decided not to assign me ventures henceforth.",
+    "description": "A thoroughly pedestrian result, I'm afraid. I would understand if you decided not to assign me ventures henceforth.",
     "translation_description": ""
   },
   "311": {
@@ -1928,7 +1928,7 @@
   "321": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_LALAFELL_FEMALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_LALAFELL_FEMALE_TYPE3",
-    "description": "\u0027Twas a most profitable venture, I\u0027d say.",
+    "description": "'Twas a most profitable venture, I'd say.",
     "translation_description": ""
   },
   "322": {
@@ -1940,7 +1940,7 @@
   "323": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_LALAFELL_FEMALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_LALAFELL_FEMALE_TYPE5",
-    "description": "You\u0027re welcome.",
+    "description": "You're welcome.",
     "translation_description": ""
   },
   "324": {
@@ -1952,13 +1952,13 @@
   "325": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_MIQOTE_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_MIQOTE_MALE_TYPE1",
-    "description": "It is an honor to serrrve, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "description": "It is an honor to serrrve, <hex:02080FE905FF066D6164616DFF0473697203>.",
     "translation_description": ""
   },
   "326": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_MIQOTE_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_MIQOTE_MALE_TYPE2",
-    "description": "I await your orders, \u003Chex:02080EE905FF056D697373FF0473697203\u003E!",
+    "description": "I await your orders, <hex:02080EE905FF056D697373FF0473697203>!",
     "translation_description": ""
   },
   "327": {
@@ -1970,7 +1970,7 @@
   "328": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_MIQOTE_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_MIQOTE_MALE_TYPE4",
-    "description": "Why don\u0027t we both take it easy for a while?",
+    "description": "Why don't we both take it easy for a while?",
     "translation_description": ""
   },
   "329": {
@@ -1988,7 +1988,7 @@
   "331": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_MIQOTE_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_MIQOTE_FEMALE_TYPE1",
-    "description": "Your goods, \u003Chex:020811E905FF066D6164616DFF06736972727203\u003E.",
+    "description": "Your goods, <hex:020811E905FF066D6164616DFF06736972727203>.",
     "translation_description": ""
   },
   "332": {
@@ -2012,7 +2012,7 @@
   "335": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_MIQOTE_FEMALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_MIQOTE_FEMALE_TYPE5",
-    "description": "And that\u0027s the end of that chapter.",
+    "description": "And that's the end of that chapter.",
     "translation_description": ""
   },
   "336": {
@@ -2042,7 +2042,7 @@
   "340": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_ROEGADYN_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_ROEGADYN_MALE_TYPE4",
-    "description": "Why don\u0027t we toast our success with a pint or two?",
+    "description": "Why don't we toast our success with a pint or two?",
     "translation_description": ""
   },
   "341": {
@@ -2054,13 +2054,13 @@
   "342": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_ROEGADYN_MALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_ROEGADYN_MALE_TYPE6",
-    "description": "It\u0027s all there, chief. Ye have me word.",
+    "description": "It's all there, chief. Ye have me word.",
     "translation_description": ""
   },
   "343": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_ROEGADYN_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_ROEGADYN_FEMALE_TYPE1",
-    "description": "\u003Chex:020813E905FF074D696C616479FF074D696C6F726403\u003E is satisfied, I trust?",
+    "description": "<hex:020813E905FF074D696C616479FF074D696C6F726403> is satisfied, I trust?",
     "translation_description": ""
   },
   "344": {
@@ -2078,7 +2078,7 @@
   "346": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_ROEGADYN_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_ROEGADYN_FEMALE_TYPE4",
-    "description": "Hope you\u0027re godsdamned happy.",
+    "description": "Hope you're godsdamned happy.",
     "translation_description": ""
   },
   "347": {
@@ -2096,25 +2096,25 @@
   "349": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_AURA_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_AURA_MALE_TYPE1",
-    "description": "I pray that you are pleased with the result, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "description": "I pray that you are pleased with the result, <hex:02080FE905FF066D6164616DFF0473697203>.",
     "translation_description": ""
   },
   "350": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_AURA_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_AURA_MALE_TYPE2",
-    "description": "Bet you weren\u0027t expecting \u003Chex:021A020203\u003Ethat\u003Chex:021A020103\u003E now, were you?",
+    "description": "Bet you weren't expecting <hex:021A020203>that<hex:021A020103> now, were you?",
     "translation_description": ""
   },
   "351": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_AURA_MALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_AURA_MALE_TYPE3",
-    "description": "Ah, for the days when ventures were a gentleman\u0027s pursuit...",
+    "description": "Ah, for the days when ventures were a gentleman's pursuit...",
     "translation_description": ""
   },
   "352": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_AURA_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_AURA_MALE_TYPE4",
-    "description": "If you don\u0027t mind me saying, I think I did rather well.",
+    "description": "If you don't mind me saying, I think I did rather well.",
     "translation_description": ""
   },
   "353": {
@@ -2126,19 +2126,19 @@
   "354": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_AURA_MALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_AURA_MALE_TYPE6",
-    "description": "Can I survive this overbearing,\u266A\u003Chex:02100103\u003EOr live a life of mad despairing,\u266A\u003Chex:02100103\u003EMy proffered goods despised, rejected?\u266A\u003Chex:02100103\u003ENo, no, it\u0027s not to be expected!\u266A",
+    "description": "Can I survive this overbearing,♪<hex:02100103>Or live a life of mad despairing,♪<hex:02100103>My proffered goods despised, rejected?♪<hex:02100103>No, no, it's not to be expected!♪",
     "translation_description": ""
   },
   "355": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_AURA_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_AURA_FEMALE_TYPE1",
-    "description": "I live to serve, \u003Chex:020815E905FF086D79206C616479FF086D79206C6F726403\u003E.",
+    "description": "I live to serve, <hex:020815E905FF086D79206C616479FF086D79206C6F726403>.",
     "translation_description": ""
   },
   "356": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_AURA_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_AURA_FEMALE_TYPE2",
-    "description": "All\u0027s well that ends well, wouldn\u0027t you say?",
+    "description": "All's well that ends well, wouldn't you say?",
     "translation_description": ""
   },
   "357": {
@@ -2150,25 +2150,25 @@
   "358": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_AURA_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_AURA_FEMALE_TYPE4",
-    "description": "All acquired in accordance with local laws. \u003Cwink\u003E \u003Cwink\u003E",
+    "description": "All acquired in accordance with local laws. <wink> <wink>",
     "translation_description": ""
   },
   "359": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_AURA_FEMALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_AURA_FEMALE_TYPE5",
-    "description": "Alright, take yer shite and quit leerin\u0027 at me arse.\u003Chex:02100103\u003E...What? Ye can\u0027t seriously expect me to humor yer fetishes all the time, can ye?",
+    "description": "Alright, take yer shite and quit leerin' at me arse.<hex:02100103>...What? Ye can't seriously expect me to humor yer fetishes all the time, can ye?",
     "translation_description": ""
   },
   "360": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_AURA_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_COMPLETE_AURA_FEMALE_TYPE6",
-    "description": "Hardly my finest work, but I\u0027m not ashamed to say I did it.",
+    "description": "Hardly my finest work, but I'm not ashamed to say I did it.",
     "translation_description": ""
   },
   "361": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_TUTORIAL_INTRO_1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_TUTORIAL_INTRO_1",
-    "description": "You can now send your retainers afield on procurement expeditions known as \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Eventures\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.",
+    "description": "You can now send your retainers afield on procurement expeditions known as <hex:024804F201F403><hex:024904F201F503>ventures<hex:0249020103><hex:0248020103>.",
     "translation_description": ""
   },
   "362": {
@@ -2180,7 +2180,7 @@
   "363": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_TUTORIAL_INTRO_3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_TUTORIAL_INTRO_3",
-    "description": "After summoning a retainer, select \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Eassign retainer class\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E from the retainer menu to begin.",
+    "description": "After summoning a retainer, select <hex:024804F201F403><hex:024904F201F503>assign retainer class<hex:0249020103><hex:0248020103> from the retainer menu to begin.",
     "translation_description": ""
   },
   "364": {
@@ -2198,7 +2198,7 @@
   "366": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_TUTORIAL_CLASS_3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_TUTORIAL_CLASS_3",
-    "description": "Your retainer\u0027s class determines which ventures he or she can embark upon.",
+    "description": "Your retainer's class determines which ventures he or she can embark upon.",
     "translation_description": ""
   },
   "367": {
@@ -2210,7 +2210,7 @@
   "368": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_TUTORIAL_FIRST_CLASS_1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_TUTORIAL_FIRST_CLASS_1",
-    "description": "\u003Chex:022903EA0203\u003E has become \u003Chex:0208B0E4E8030BFF15616E2002280EFF09436C6173734A6F62E8030103FF94020890E4E8030FFF15616E2002280EFF09436C6173734A6F62E8030103FF74020870E4E80306FF15616E2002280EFF09436C6173734A6F62E8030103FF54020850E4E8031BFF15616E2002280EFF09436C6173734A6F62E8030103FF34020830E4E80322FF15616E2002280EFF09436C6173734A6F62E8030103FF14612002280EFF09436C6173734A6F62E80301030303030303\u003E!",
+    "description": "<hex:022903EA0203> has become <hex:0208B0E4E8030BFF15616E2002280EFF09436C6173734A6F62E8030103FF94020890E4E8030FFF15616E2002280EFF09436C6173734A6F62E8030103FF74020870E4E80306FF15616E2002280EFF09436C6173734A6F62E8030103FF54020850E4E8031BFF15616E2002280EFF09436C6173734A6F62E8030103FF34020830E4E80322FF15616E2002280EFF09436C6173734A6F62E8030103FF14612002280EFF09436C6173734A6F62E80301030303030303>!",
     "translation_description": ""
   },
   "369": {
@@ -2222,13 +2222,13 @@
   "370": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_TUTORIAL_FIRST_CLASS_3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_TUTORIAL_FIRST_CLASS_3",
-    "description": "Select \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Eview retainer attributes and gear\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E from the retainer menu to proceed.",
+    "description": "Select <hex:024804F201F403><hex:024904F201F503>view retainer attributes and gear<hex:0249020103><hex:0248020103> from the retainer menu to proceed.",
     "translation_description": ""
   },
   "371": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_TUTORIAL_SECOND_CLASS_1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_TUTORIAL_SECOND_CLASS_1",
-    "description": "\u003Chex:022903EA0203\u003E has become \u003Chex:0208B0E4E8030BFF15616E2002280EFF09436C6173734A6F62E8030103FF94020890E4E8030FFF15616E2002280EFF09436C6173734A6F62E8030103FF74020870E4E80306FF15616E2002280EFF09436C6173734A6F62E8030103FF54020850E4E8031BFF15616E2002280EFF09436C6173734A6F62E8030103FF34020830E4E80322FF15616E2002280EFF09436C6173734A6F62E8030103FF14612002280EFF09436C6173734A6F62E80301030303030303\u003E!",
+    "description": "<hex:022903EA0203> has become <hex:0208B0E4E8030BFF15616E2002280EFF09436C6173734A6F62E8030103FF94020890E4E8030FFF15616E2002280EFF09436C6173734A6F62E8030103FF74020870E4E80306FF15616E2002280EFF09436C6173734A6F62E8030103FF54020850E4E8031BFF15616E2002280EFF09436C6173734A6F62E8030103FF34020830E4E80322FF15616E2002280EFF09436C6173734A6F62E8030103FF14612002280EFF09436C6173734A6F62E80301030303030303>!",
     "translation_description": ""
   },
   "372": {
@@ -2264,7 +2264,7 @@
   "377": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_TUTORIAL_FIRST_WEAPON_1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_TUTORIAL_FIRST_WEAPON_1",
-    "description": "You have equipped a main arm to \u003Chex:022903EA0203\u003E!",
+    "description": "You have equipped a main arm to <hex:022903EA0203>!",
     "translation_description": ""
   },
   "378": {
@@ -2276,7 +2276,7 @@
   "379": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_TUTORIAL_FIRST_WEAPON_3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_TUTORIAL_FIRST_WEAPON_3",
-    "description": "Select \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Eassign venture\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E from the retainer menu to proceed.",
+    "description": "Select <hex:024804F201F403><hex:024904F201F503>assign venture<hex:0249020103><hex:0248020103> from the retainer menu to proceed.",
     "translation_description": ""
   },
   "380": {
@@ -2330,7 +2330,7 @@
   "388": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ABOUT_VENTURES_5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ABOUT_VENTURES_5",
-    "description": "Assigning a venture requires a payment in a unique currency of the same name\u2500\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Eventures\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.",
+    "description": "Assigning a venture requires a payment in a unique currency of the same name─<hex:024804F201F403><hex:024904F201F503>ventures<hex:0249020103><hex:0248020103>.",
     "translation_description": ""
   },
   "389": {
@@ -2342,19 +2342,19 @@
   "390": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_FIRST_VENTURE_1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_FIRST_VENTURE_1",
-    "description": "You have assigned \u003Chex:022903EA0203\u003E a venture!",
+    "description": "You have assigned <hex:022903EA0203> a venture!",
     "translation_description": ""
   },
   "391": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_FIRST_VENTURE_2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_FIRST_VENTURE_2",
-    "description": "To confirm the time remaining until a venture is complete, select \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ETimers\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E under Duty from the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Emain menu\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E, and select \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EVentures\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.",
+    "description": "To confirm the time remaining until a venture is complete, select <hex:024804F201F403><hex:024904F201F503>Timers<hex:0249020103><hex:0248020103> under Duty from the <hex:024804F201F403><hex:024904F201F503>main menu<hex:0249020103><hex:0248020103>, and select <hex:024804F201F403><hex:024904F201F503>Ventures<hex:0249020103><hex:0248020103>.",
     "translation_description": ""
   },
   "392": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_FIRST_VENTURE_3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_FIRST_VENTURE_3",
-    "description": "You can also confirm the time remaining by selecting \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Eview venture report\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E from the retainer menu.",
+    "description": "You can also confirm the time remaining by selecting <hex:024804F201F403><hex:024904F201F503>view venture report<hex:0249020103><hex:0248020103> from the retainer menu.",
     "translation_description": ""
   },
   "393": {
@@ -2378,19 +2378,19 @@
   "396": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_FIRST_COMPLETED_1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_FIRST_COMPLETED_1",
-    "description": "\u003Chex:022903EA0203\u003E has completed a venture!",
+    "description": "<hex:022903EA0203> has completed a venture!",
     "translation_description": ""
   },
   "397": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_FIRST_COMPLETED_2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_FIRST_COMPLETED_2",
-    "description": "To claim the fruits of your retainer\u0027s labor, select \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Eview venture report\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E from the retainer menu.",
+    "description": "To claim the fruits of your retainer's labor, select <hex:024804F201F403><hex:024904F201F503>view venture report<hex:0249020103><hex:0248020103> from the retainer menu.",
     "translation_description": ""
   },
   "398": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_TUTORIAL_FINISHED_1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_TUTORIAL_FINISHED_1",
-    "description": "\u003Chex:022903EA0203\u003E has gained experience for completing a venture!",
+    "description": "<hex:022903EA0203> has gained experience for completing a venture!",
     "translation_description": ""
   },
   "399": {
@@ -2420,13 +2420,13 @@
   "403": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_FORTUNE_TASK_UNLOCK_1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_FORTUNE_TASK_UNLOCK_1",
-    "description": "Your retainer is now experienced enough to undertake \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Equick exploration ventures\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.",
+    "description": "Your retainer is now experienced enough to undertake <hex:024804F201F403><hex:024904F201F503>quick exploration ventures<hex:0249020103><hex:0248020103>.",
     "translation_description": ""
   },
   "404": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_FORTUNE_TASK_UNLOCK_2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_FORTUNE_TASK_UNLOCK_2",
-    "description": "Select \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Eassign venture\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E from the retainer menu to proceed.",
+    "description": "Select <hex:024804F201F403><hex:024904F201F503>assign venture<hex:0249020103><hex:0248020103> from the retainer menu to proceed.",
     "translation_description": ""
   },
   "405": {
@@ -2462,13 +2462,13 @@
   "410": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_HYURAN_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_HYURAN_MALE_TYPE1",
-    "description": "Do you require aught else, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E?",
+    "description": "Do you require aught else, <hex:020815E905FF094D69737472657373FF074D617374657203>?",
     "translation_description": ""
   },
   "411": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_HYURAN_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_HYURAN_MALE_TYPE2",
-    "description": "Ye know I\u0027m in the middle o\u0027 yer venture, don\u0027t ye?",
+    "description": "Ye know I'm in the middle o' yer venture, don't ye?",
     "translation_description": ""
   },
   "412": {
@@ -2480,7 +2480,7 @@
   "413": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_HYURAN_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_HYURAN_MALE_TYPE4",
-    "description": "What now? I\u0027m busy.",
+    "description": "What now? I'm busy.",
     "translation_description": ""
   },
   "414": {
@@ -2498,13 +2498,13 @@
   "416": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_HYURAN_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_HYURAN_FEMALE_TYPE1",
-    "description": "Yes, my \u003Chex:02080FE905FF056C616479FF056C6F726403\u003E?",
+    "description": "Yes, my <hex:02080FE905FF056C616479FF056C6F726403>?",
     "translation_description": ""
   },
   "417": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_HYURAN_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_HYURAN_FEMALE_TYPE2",
-    "description": "Somethin\u0027 else, love?",
+    "description": "Somethin' else, love?",
     "translation_description": ""
   },
   "418": {
@@ -2516,7 +2516,7 @@
   "419": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_HYURAN_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_HYURAN_FEMALE_TYPE4",
-    "description": "You couldn\u0027t have picked a more inconvenient time.",
+    "description": "You couldn't have picked a more inconvenient time.",
     "translation_description": ""
   },
   "420": {
@@ -2528,19 +2528,19 @@
   "421": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_HYURAN_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_HYURAN_FEMALE_TYPE6",
-    "description": "What is it, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E? Something urgent?",
+    "description": "What is it, <hex:02080FE905FF066D6164616DFF0473697203>? Something urgent?",
     "translation_description": ""
   },
   "422": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ELEZEN_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ELEZEN_MALE_TYPE1",
-    "description": "You have additional orders, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E?",
+    "description": "You have additional orders, <hex:02080FE905FF066D6164616DFF0473697203>?",
     "translation_description": ""
   },
   "423": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ELEZEN_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ELEZEN_MALE_TYPE2",
-    "description": "Tell me you ain\u0027t got somethin\u0027 else for me, chief!",
+    "description": "Tell me you ain't got somethin' else for me, chief!",
     "translation_description": ""
   },
   "424": {
@@ -2552,7 +2552,7 @@
   "425": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ELEZEN_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ELEZEN_MALE_TYPE4",
-    "description": "I\u0027m here now, so...",
+    "description": "I'm here now, so...",
     "translation_description": ""
   },
   "426": {
@@ -2564,19 +2564,19 @@
   "427": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ELEZEN_MALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ELEZEN_MALE_TYPE6",
-    "description": "Apologies for the delay, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E!",
+    "description": "Apologies for the delay, <hex:02080FE905FF066D6164616DFF0473697203>!",
     "translation_description": ""
   },
   "428": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ELEZEN_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ELEZEN_FEMALE_TYPE1",
-    "description": "\u003Chex:020813E905FF074D696C616479FF074D696C6F726403\u003E has another task for me?",
+    "description": "<hex:020813E905FF074D696C616479FF074D696C6F726403> has another task for me?",
     "translation_description": ""
   },
   "429": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ELEZEN_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ELEZEN_FEMALE_TYPE2",
-    "description": "I\u0027m a little busy, but what is it?",
+    "description": "I'm a little busy, but what is it?",
     "translation_description": ""
   },
   "430": {
@@ -2588,7 +2588,7 @@
   "431": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ELEZEN_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ELEZEN_FEMALE_TYPE4",
-    "description": "Summons? \u003Chex:021A020203\u003ENow\u003Chex:021A020103\u003E? Well, if you insist.",
+    "description": "Summons? <hex:021A020203>Now<hex:021A020103>? Well, if you insist.",
     "translation_description": ""
   },
   "432": {
@@ -2600,25 +2600,25 @@
   "433": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ELEZEN_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ELEZEN_FEMALE_TYPE6",
-    "description": "Missed me, didn\u0027t you?",
+    "description": "Missed me, didn't you?",
     "translation_description": ""
   },
   "434": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_LALAFELL_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_LALAFELL_MALE_TYPE1",
-    "description": "Hail to thee, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. Your humble servant has set aside his task and hastened to your side.",
+    "description": "Hail to thee, <hex:02080FE905FF066D6164616DFF0473697203>. Your humble servant has set aside his task and hastened to your side.",
     "translation_description": ""
   },
   "435": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_LALAFELL_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_LALAFELL_MALE_TYPE2",
-    "description": "Why\u0027d ye call me back from me venture, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E?",
+    "description": "Why'd ye call me back from me venture, <hex:020813E905FF076D696C616479FF076D696C6F726403>?",
     "translation_description": ""
   },
   "436": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_LALAFELL_MALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_LALAFELL_MALE_TYPE3",
-    "description": "This really isn\u0027t the best time.",
+    "description": "This really isn't the best time.",
     "translation_description": ""
   },
   "437": {
@@ -2636,31 +2636,31 @@
   "439": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_LALAFELL_MALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_LALAFELL_MALE_TYPE6",
-    "description": "I\u0027m back, I\u0027m back!",
+    "description": "I'm back, I'm back!",
     "translation_description": ""
   },
   "440": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_LALAFELL_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_LALAFELL_FEMALE_TYPE1",
-    "description": "How may I serve you, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E?",
+    "description": "How may I serve you, <hex:020815E905FF094D69737472657373FF074D617374657203>?",
     "translation_description": ""
   },
   "441": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_LALAFELL_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_LALAFELL_FEMALE_TYPE2",
-    "description": "Did somethin\u0027 \u0027appen, dearie?",
+    "description": "Did somethin' 'appen, dearie?",
     "translation_description": ""
   },
   "442": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_LALAFELL_FEMALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_LALAFELL_FEMALE_TYPE3",
-    "description": "What\u0027s all this, then? Another chance for mischief?",
+    "description": "What's all this, then? Another chance for mischief?",
     "translation_description": ""
   },
   "443": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_LALAFELL_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_LALAFELL_FEMALE_TYPE4",
-    "description": "\u003Cyawn\u003E Just so you know, I was busy carrying out your tasks.",
+    "description": "<yawn> Just so you know, I was busy carrying out your tasks.",
     "translation_description": ""
   },
   "444": {
@@ -2678,13 +2678,13 @@
   "446": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_MIQOTE_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_MIQOTE_MALE_TYPE1",
-    "description": "I have rrreturned, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "description": "I have rrreturned, <hex:02080FE905FF066D6164616DFF0473697203>.",
     "translation_description": ""
   },
   "447": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_MIQOTE_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_MIQOTE_MALE_TYPE2",
-    "description": "\u003Chex:02080EE905FF054D697373FF0453697203\u003E, you mustn\u0027t interrupt a soldier when he\u0027s on a mission!",
+    "description": "<hex:02080EE905FF054D697373FF0453697203>, you mustn't interrupt a soldier when he's on a mission!",
     "translation_description": ""
   },
   "448": {
@@ -2714,13 +2714,13 @@
   "452": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_MIQOTE_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_MIQOTE_FEMALE_TYPE1",
-    "description": "Forgive me, \u003Chex:020811E905FF066D6164616DFF06736972727203\u003E, but your catcall comes at an inopportune time.",
+    "description": "Forgive me, <hex:020811E905FF066D6164616DFF06736972727203>, but your catcall comes at an inopportune time.",
     "translation_description": ""
   },
   "453": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_MIQOTE_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_MIQOTE_FEMALE_TYPE2",
-    "description": "Damn, just when I was startin\u0027 to enjoy meself!",
+    "description": "Damn, just when I was startin' to enjoy meself!",
     "translation_description": ""
   },
   "454": {
@@ -2732,49 +2732,49 @@
   "455": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_MIQOTE_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_MIQOTE_FEMALE_TYPE4",
-    "description": "You know I\u0027ve not finished the venture yet, rrright?",
+    "description": "You know I've not finished the venture yet, rrright?",
     "translation_description": ""
   },
   "456": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_MIQOTE_FEMALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_MIQOTE_FEMALE_TYPE5",
-    "description": "Mind explainin\u0027 what this is about?",
+    "description": "Mind explainin' what this is about?",
     "translation_description": ""
   },
   "457": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_MIQOTE_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_MIQOTE_FEMALE_TYPE6",
-    "description": "You know, you shouldn\u0027t summon me when I\u0027m in the middle of a venture!",
+    "description": "You know, you shouldn't summon me when I'm in the middle of a venture!",
     "translation_description": ""
   },
   "458": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ROEGADYN_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ROEGADYN_MALE_TYPE1",
-    "description": "Did you require aught else, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E?",
+    "description": "Did you require aught else, <hex:02080FE905FF066D6164616DFF0473697203>?",
     "translation_description": ""
   },
   "459": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ROEGADYN_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ROEGADYN_MALE_TYPE2",
-    "description": "Bwahahaha! Ye need somethin\u0027 else?",
+    "description": "Bwahahaha! Ye need somethin' else?",
     "translation_description": ""
   },
   "460": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ROEGADYN_MALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ROEGADYN_MALE_TYPE3",
-    "description": "I\u0027ve returned. What is it now?",
+    "description": "I've returned. What is it now?",
     "translation_description": ""
   },
   "461": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ROEGADYN_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ROEGADYN_MALE_TYPE4",
-    "description": "Yeah? I was just enjoyin\u0027 a pint of\u2500hic\u2500uh, venturin\u0027.",
+    "description": "Yeah? I was just enjoyin' a pint of─hic─uh, venturin'.",
     "translation_description": ""
   },
   "462": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ROEGADYN_MALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ROEGADYN_MALE_TYPE5",
-    "description": "I\u0027ve already got my hands full with this venture, but what is it?",
+    "description": "I've already got my hands full with this venture, but what is it?",
     "translation_description": ""
   },
   "463": {
@@ -2786,19 +2786,19 @@
   "464": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ROEGADYN_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ROEGADYN_FEMALE_TYPE1",
-    "description": "I am at \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E\u0027s beck and call.",
+    "description": "I am at <hex:020813E905FF076D696C616479FF076D696C6F726403>'s beck and call.",
     "translation_description": ""
   },
   "465": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ROEGADYN_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ROEGADYN_FEMALE_TYPE2",
-    "description": "What\u0027ll it be, cap\u0027n?",
+    "description": "What'll it be, cap'n?",
     "translation_description": ""
   },
   "466": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ROEGADYN_FEMALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ROEGADYN_FEMALE_TYPE3",
-    "description": "\u003Chex:02080FE905FF064D6164616DFF0453697203\u003E?",
+    "description": "<hex:02080FE905FF064D6164616DFF0453697203>?",
     "translation_description": ""
   },
   "467": {
@@ -2816,55 +2816,55 @@
   "469": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ROEGADYN_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_ROEGADYN_FEMALE_TYPE6",
-    "description": "Dammit, \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E, did ye forget I was out on a venture?",
+    "description": "Dammit, <hex:02080FE905FF06776F6D616EFF046D616E03>, did ye forget I was out on a venture?",
     "translation_description": ""
   },
   "470": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_AURA_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_AURA_MALE_TYPE1",
-    "description": "Is aught amiss, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E?",
+    "description": "Is aught amiss, <hex:02080FE905FF066D6164616DFF0473697203>?",
     "translation_description": ""
   },
   "471": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_AURA_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_AURA_MALE_TYPE2",
-    "description": "Something on your mind, \u003Chex:02080FE905FF056D697373FF056D61746503\u003E?",
+    "description": "Something on your mind, <hex:02080FE905FF056D697373FF056D61746503>?",
     "translation_description": ""
   },
   "472": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_AURA_MALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_AURA_MALE_TYPE3",
-    "description": "I have a life outside of \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E, you know.",
+    "description": "I have a life outside of <hex:021A020203>you<hex:021A020103>, you know.",
     "translation_description": ""
   },
   "473": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_AURA_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_AURA_MALE_TYPE4",
-    "description": "Let me tell you, it was absolute chaos out there. Quite frankly, I\u0027m lucky to be alive! But I heard your call, and I knew I had to answer.",
+    "description": "Let me tell you, it was absolute chaos out there. Quite frankly, I'm lucky to be alive! But I heard your call, and I knew I had to answer.",
     "translation_description": ""
   },
   "474": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_AURA_MALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_AURA_MALE_TYPE5",
-    "description": "Worried about your venture? Don\u0027t be. Or have you some other reason for summoning me?",
+    "description": "Worried about your venture? Don't be. Or have you some other reason for summoning me?",
     "translation_description": ""
   },
   "475": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_AURA_MALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_AURA_MALE_TYPE6",
-    "description": "Fair moon, to thee I sing,\u266A\u003Chex:02100103\u003EBright regent of the heavens,\u266A\u003Chex:02100103\u003ESay, why is everything\u266A\u003Chex:02100103\u003EEither at sixes or at sevens?\u266A",
+    "description": "Fair moon, to thee I sing,♪<hex:02100103>Bright regent of the heavens,♪<hex:02100103>Say, why is everything♪<hex:02100103>Either at sixes or at sevens?♪",
     "translation_description": ""
   },
   "476": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_AURA_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_AURA_FEMALE_TYPE1",
-    "description": "\u003Chex:020815E905FF084D79206C616479FF084D79206C6F726403\u003E. Is there aught else you require?",
+    "description": "<hex:020815E905FF084D79206C616479FF084D79206C6F726403>. Is there aught else you require?",
     "translation_description": ""
   },
   "477": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_AURA_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_AURA_FEMALE_TYPE2",
-    "description": "Can\u0027t say I was expecting this. What can I do for you?",
+    "description": "Can't say I was expecting this. What can I do for you?",
     "translation_description": ""
   },
   "478": {
@@ -2876,19 +2876,19 @@
   "479": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_AURA_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_AURA_FEMALE_TYPE4",
-    "description": "Now, before you go jumping to conclusions, I\u0027d just like to\u2500 Oh! What can I do for you?",
+    "description": "Now, before you go jumping to conclusions, I'd just like to─ Oh! What can I do for you?",
     "translation_description": ""
   },
   "480": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_AURA_FEMALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_AURA_FEMALE_TYPE5",
-    "description": "I-It\u0027s not like I was slaving away to make you happy or anything.",
+    "description": "I-It's not like I was slaving away to make you happy or anything.",
     "translation_description": ""
   },
   "481": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_AURA_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER2_AURA_FEMALE_TYPE6",
-    "description": "Somethin\u0027 else I can do for you, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E? Don\u0027t hold back now.",
+    "description": "Somethin' else I can do for you, <hex:02080FE905FF066D6164616DFF0473697203>? Don't hold back now.",
     "translation_description": ""
   },
   "482": {
@@ -2912,31 +2912,31 @@
   "485": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_HYURAN_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_HYURAN_MALE_TYPE4",
-    "description": "If there\u0027s nothing else...",
+    "description": "If there's nothing else...",
     "translation_description": ""
   },
   "486": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_HYURAN_MALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_HYURAN_MALE_TYPE5",
-    "description": "I shall return to \u003Chex:021A020203\u003Eyour\u003Chex:021A020103\u003E work.",
+    "description": "I shall return to <hex:021A020203>your<hex:021A020103> work.",
     "translation_description": ""
   },
   "487": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_HYURAN_MALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_HYURAN_MALE_TYPE6",
-    "description": "You\u0027ve got it!",
+    "description": "You've got it!",
     "translation_description": ""
   },
   "488": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_HYURAN_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_HYURAN_FEMALE_TYPE1",
-    "description": "Pray excuse me, my \u003Chex:02080FE905FF056C616479FF056C6F726403\u003E.",
+    "description": "Pray excuse me, my <hex:02080FE905FF056C616479FF056C6F726403>.",
     "translation_description": ""
   },
   "489": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_HYURAN_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_HYURAN_FEMALE_TYPE2",
-    "description": "I\u0027d best get goin\u0027.",
+    "description": "I'd best get goin'.",
     "translation_description": ""
   },
   "490": {
@@ -2948,7 +2948,7 @@
   "491": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_HYURAN_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_HYURAN_FEMALE_TYPE4",
-    "description": "Guess I\u0027ll get back to that venture you assigned me.",
+    "description": "Guess I'll get back to that venture you assigned me.",
     "translation_description": ""
   },
   "492": {
@@ -2960,19 +2960,19 @@
   "493": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_HYURAN_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_HYURAN_FEMALE_TYPE6",
-    "description": "I\u0027ll take care of it, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E, don\u0027t you worry!",
+    "description": "I'll take care of it, <hex:02080FE905FF066D6164616DFF0473697203>, don't you worry!",
     "translation_description": ""
   },
   "494": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_ELEZEN_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_ELEZEN_MALE_TYPE1",
-    "description": "As you wish, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "description": "As you wish, <hex:02080FE905FF066D6164616DFF0473697203>.",
     "translation_description": ""
   },
   "495": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_ELEZEN_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_ELEZEN_MALE_TYPE2",
-    "description": "Don\u0027t forget that I\u0027m busy with this venture o\u0027 yours, chief!",
+    "description": "Don't forget that I'm busy with this venture o' yours, chief!",
     "translation_description": ""
   },
   "496": {
@@ -2996,19 +2996,19 @@
   "499": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_ELEZEN_MALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_ELEZEN_MALE_TYPE6",
-    "description": "Understood, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E! Oh, and fear not\u2500the venture shall be completed on time!",
+    "description": "Understood, <hex:02080FE905FF066D6164616DFF0473697203>! Oh, and fear not─the venture shall be completed on time!",
     "translation_description": ""
   },
   "500": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_ELEZEN_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_ELEZEN_FEMALE_TYPE1",
-    "description": "I shall carry out \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E\u0027s wishes to the best of my ability.",
+    "description": "I shall carry out <hex:020813E905FF076D696C616479FF076D696C6F726403>'s wishes to the best of my ability.",
     "translation_description": ""
   },
   "501": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_ELEZEN_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_ELEZEN_FEMALE_TYPE2",
-    "description": "We finished? That venture\u0027s not goin\u0027 to finish itself.",
+    "description": "We finished? That venture's not goin' to finish itself.",
     "translation_description": ""
   },
   "502": {
@@ -3038,13 +3038,13 @@
   "506": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_LALAFELL_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_LALAFELL_MALE_TYPE1",
-    "description": "Do not hesitate to call on me again, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "description": "Do not hesitate to call on me again, <hex:02080FE905FF066D6164616DFF0473697203>.",
     "translation_description": ""
   },
   "507": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_LALAFELL_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_LALAFELL_MALE_TYPE2",
-    "description": "I\u0027ll do what I can, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E.",
+    "description": "I'll do what I can, <hex:020813E905FF076D696C616479FF076D696C6F726403>.",
     "translation_description": ""
   },
   "508": {
@@ -3056,7 +3056,7 @@
   "509": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_LALAFELL_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_LALAFELL_MALE_TYPE4",
-    "description": "I can\u0027t keep runnin\u0027 back to see you during these ventures, you know.",
+    "description": "I can't keep runnin' back to see you during these ventures, you know.",
     "translation_description": ""
   },
   "510": {
@@ -3068,13 +3068,13 @@
   "511": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_LALAFELL_MALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_LALAFELL_MALE_TYPE6",
-    "description": "I\u0027ll go, I\u0027ll go!",
+    "description": "I'll go, I'll go!",
     "translation_description": ""
   },
   "512": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_LALAFELL_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_LALAFELL_FEMALE_TYPE1",
-    "description": "As ever, it is an honor, \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E.",
+    "description": "As ever, it is an honor, <hex:020815E905FF094D69737472657373FF074D617374657203>.",
     "translation_description": ""
   },
   "513": {
@@ -3086,25 +3086,25 @@
   "514": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_LALAFELL_FEMALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_LALAFELL_FEMALE_TYPE3",
-    "description": "We\u0027d best see to our respective tasks, eh?",
+    "description": "We'd best see to our respective tasks, eh?",
     "translation_description": ""
   },
   "515": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_LALAFELL_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_LALAFELL_FEMALE_TYPE4",
-    "description": "Don\u0027t summon me, I\u0027ll summon you.",
+    "description": "Don't summon me, I'll summon you.",
     "translation_description": ""
   },
   "516": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_LALAFELL_FEMALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_LALAFELL_FEMALE_TYPE5",
-    "description": "\u003Csigh\u003E I am not getting paid enough for this.",
+    "description": "<sigh> I am not getting paid enough for this.",
     "translation_description": ""
   },
   "517": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_LALAFELL_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_LALAFELL_FEMALE_TYPE6",
-    "description": "We\u0027ll talk again soon!",
+    "description": "We'll talk again soon!",
     "translation_description": ""
   },
   "518": {
@@ -3128,7 +3128,7 @@
   "521": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_MIQOTE_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_MIQOTE_MALE_TYPE4",
-    "description": "I suppose you want me to finish the venture too, don\u0027t you? \u003Csigh\u003E",
+    "description": "I suppose you want me to finish the venture too, don't you? <sigh>",
     "translation_description": ""
   },
   "522": {
@@ -3140,19 +3140,19 @@
   "523": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_MIQOTE_MALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_MIQOTE_MALE_TYPE6",
-    "description": "Patience, my good \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E. Your venture will be finished in due time.",
+    "description": "Patience, my good <hex:02080FE905FF06776F6D616EFF046D616E03>. Your venture will be finished in due time.",
     "translation_description": ""
   },
   "524": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_MIQOTE_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_MIQOTE_FEMALE_TYPE1",
-    "description": "I shall rrreturn to my venture, \u003Chex:020811E905FF066D6164616DFF06736972727203\u003E.",
+    "description": "I shall rrreturn to my venture, <hex:020811E905FF066D6164616DFF06736972727203>.",
     "translation_description": ""
   },
   "525": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_MIQOTE_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_MIQOTE_FEMALE_TYPE2",
-    "description": "The wilderness calls to me, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E.",
+    "description": "The wilderness calls to me, <hex:020813E905FF076D696C616479FF076D696C6F726403>.",
     "translation_description": ""
   },
   "526": {
@@ -3164,7 +3164,7 @@
   "527": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_MIQOTE_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_MIQOTE_FEMALE_TYPE4",
-    "description": "I told you I\u0027d take care of it, so stop worrying.",
+    "description": "I told you I'd take care of it, so stop worrying.",
     "translation_description": ""
   },
   "528": {
@@ -3176,19 +3176,19 @@
   "529": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_MIQOTE_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_MIQOTE_FEMALE_TYPE6",
-    "description": "...Try as I might, I can\u0027t stay mad at you.",
+    "description": "...Try as I might, I can't stay mad at you.",
     "translation_description": ""
   },
   "530": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_ROEGADYN_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_ROEGADYN_MALE_TYPE1",
-    "description": "Beg your pardon, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E, but I must needs return to my venture.",
+    "description": "Beg your pardon, <hex:02080FE905FF066D6164616DFF0473697203>, but I must needs return to my venture.",
     "translation_description": ""
   },
   "531": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_ROEGADYN_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_ROEGADYN_MALE_TYPE2",
-    "description": "Bwahahaha! Back to me venturin\u0027!",
+    "description": "Bwahahaha! Back to me venturin'!",
     "translation_description": ""
   },
   "532": {
@@ -3200,7 +3200,7 @@
   "533": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_ROEGADYN_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_ROEGADYN_MALE_TYPE4",
-    "description": "Now then, if ye\u0027ll\u2500hic\u2500excuse me, I\u0027ve got a venture what needs doin\u0027!",
+    "description": "Now then, if ye'll─hic─excuse me, I've got a venture what needs doin'!",
     "translation_description": ""
   },
   "534": {
@@ -3218,13 +3218,13 @@
   "536": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_ROEGADYN_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_ROEGADYN_FEMALE_TYPE1",
-    "description": "Understood, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E.",
+    "description": "Understood, <hex:020813E905FF076D696C616479FF076D696C6F726403>.",
     "translation_description": ""
   },
   "537": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_ROEGADYN_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_ROEGADYN_FEMALE_TYPE2",
-    "description": "Ye still want me to carry out that venture, too, eh? Just checkin\u0027.",
+    "description": "Ye still want me to carry out that venture, too, eh? Just checkin'.",
     "translation_description": ""
   },
   "538": {
@@ -3236,7 +3236,7 @@
   "539": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_ROEGADYN_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_ROEGADYN_FEMALE_TYPE4",
-    "description": "\u0027Fore you ask, I\u0027ve not forgotten about the venture.",
+    "description": "'Fore you ask, I've not forgotten about the venture.",
     "translation_description": ""
   },
   "540": {
@@ -3260,7 +3260,7 @@
   "543": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_AURA_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_AURA_MALE_TYPE2",
-    "description": "Right, then. I ought to be getting back to that thing of yours. \u201CVenture,\u201D was it...?",
+    "description": "Right, then. I ought to be getting back to that thing of yours. “Venture,” was it...?",
     "translation_description": ""
   },
   "544": {
@@ -3272,31 +3272,31 @@
   "545": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_AURA_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_AURA_MALE_TYPE4",
-    "description": "If I don\u0027t make it back, I just want you to know... Eh, the hells with it. I\u0027ll tell you next time.",
+    "description": "If I don't make it back, I just want you to know... Eh, the hells with it. I'll tell you next time.",
     "translation_description": ""
   },
   "546": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_AURA_MALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_AURA_MALE_TYPE5",
-    "description": "As you wish...\u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E.",
+    "description": "As you wish...<hex:020815E905FF094D69737472657373FF074D617374657203>.",
     "translation_description": ""
   },
   "547": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_AURA_MALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_AURA_MALE_TYPE6",
-    "description": "I must wander to and fro;\u266A\u003Chex:02100103\u003EBut wherever I may go,\u266A\u003Chex:02100103\u003EI shall never be untrue to thee!\u266A",
+    "description": "I must wander to and fro;♪<hex:02100103>But wherever I may go,♪<hex:02100103>I shall never be untrue to thee!♪",
     "translation_description": ""
   },
   "548": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_AURA_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_AURA_FEMALE_TYPE1",
-    "description": "\u003Chex:020815E905FF084D79206C616479FF084D79206C6F726403\u003E.",
+    "description": "<hex:020815E905FF084D79206C616479FF084D79206C6F726403>.",
     "translation_description": ""
   },
   "549": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_AURA_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_AURA_FEMALE_TYPE2",
-    "description": "I suppose you\u0027ll be wanting me to finish that venture too, yes? Right, right. Don\u0027t know why I bothered asking...",
+    "description": "I suppose you'll be wanting me to finish that venture too, yes? Right, right. Don't know why I bothered asking...",
     "translation_description": ""
   },
   "550": {
@@ -3308,19 +3308,19 @@
   "551": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_AURA_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_AURA_FEMALE_TYPE4",
-    "description": "Right, so, if anyone asks, I wasn\u0027t here, agreed? Cheers.",
+    "description": "Right, so, if anyone asks, I wasn't here, agreed? Cheers.",
     "translation_description": ""
   },
   "552": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_AURA_FEMALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_AURA_FEMALE_TYPE5",
-    "description": "Go on, then. Go. It\u0027s not like I haven\u0027t more important things to do or anything.",
+    "description": "Go on, then. Go. It's not like I haven't more important things to do or anything.",
     "translation_description": ""
   },
   "553": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_AURA_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_LEAVE2_AURA_FEMALE_TYPE6",
-    "description": "Hm, hm. You\u0027ve really nothin\u0027 else to ask? If you say so, then.",
+    "description": "Hm, hm. You've really nothin' else to ask? If you say so, then.",
     "translation_description": ""
   },
   "554": {
@@ -3332,7 +3332,7 @@
   "555": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_HYURAN_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_HYURAN_MALE_TYPE2",
-    "description": "Hey, I finished that venture o\u0027 yours.",
+    "description": "Hey, I finished that venture o' yours.",
     "translation_description": ""
   },
   "556": {
@@ -3362,13 +3362,13 @@
   "560": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_HYURAN_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_HYURAN_FEMALE_TYPE1",
-    "description": "My \u003Chex:02080FE905FF056C616479FF056C6F726403\u003E, the venture you bid me undertake has been finished.",
+    "description": "My <hex:02080FE905FF056C616479FF056C6F726403>, the venture you bid me undertake has been finished.",
     "translation_description": ""
   },
   "561": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_HYURAN_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_HYURAN_FEMALE_TYPE2",
-    "description": "I\u0027ve got your goods, by the way. Let me know when you want \u0027em.",
+    "description": "I've got your goods, by the way. Let me know when you want 'em.",
     "translation_description": ""
   },
   "562": {
@@ -3380,7 +3380,7 @@
   "563": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_HYURAN_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_HYURAN_FEMALE_TYPE4",
-    "description": "Thank the gods that\u0027s over.",
+    "description": "Thank the gods that's over.",
     "translation_description": ""
   },
   "564": {
@@ -3392,19 +3392,19 @@
   "565": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_HYURAN_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_HYURAN_FEMALE_TYPE6",
-    "description": "Good news, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E! The venture was a success!",
+    "description": "Good news, <hex:02080FE905FF066D6164616DFF0473697203>! The venture was a success!",
     "translation_description": ""
   },
   "566": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ELEZEN_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ELEZEN_MALE_TYPE1",
-    "description": "\u003Chex:02080FE905FF064D6164616DFF0453697203\u003E, your venture is complete.",
+    "description": "<hex:02080FE905FF064D6164616DFF0453697203>, your venture is complete.",
     "translation_description": ""
   },
   "567": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ELEZEN_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ELEZEN_MALE_TYPE2",
-    "description": "Got somethin\u0027 for you, chief!",
+    "description": "Got somethin' for you, chief!",
     "translation_description": ""
   },
   "568": {
@@ -3434,7 +3434,7 @@
   "572": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ELEZEN_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ELEZEN_FEMALE_TYPE1",
-    "description": "I come with good tidings, \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E.",
+    "description": "I come with good tidings, <hex:020813E905FF076D696C616479FF076D696C6F726403>.",
     "translation_description": ""
   },
   "573": {
@@ -3446,31 +3446,31 @@
   "574": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ELEZEN_FEMALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ELEZEN_FEMALE_TYPE3",
-    "description": "There you are! I\u0027ve brought what you requested.",
+    "description": "There you are! I've brought what you requested.",
     "translation_description": ""
   },
   "575": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ELEZEN_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ELEZEN_FEMALE_TYPE4",
-    "description": "Oh, it\u0027s you. I suppose you\u0027ll want to hear about the venture.",
+    "description": "Oh, it's you. I suppose you'll want to hear about the venture.",
     "translation_description": ""
   },
   "576": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ELEZEN_FEMALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ELEZEN_FEMALE_TYPE5",
-    "description": "Let\u0027s get on with it, shall we?",
+    "description": "Let's get on with it, shall we?",
     "translation_description": ""
   },
   "577": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ELEZEN_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ELEZEN_FEMALE_TYPE6",
-    "description": "I\u0027ve been waiting for your summons.",
+    "description": "I've been waiting for your summons.",
     "translation_description": ""
   },
   "578": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_LALAFELL_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_LALAFELL_MALE_TYPE1",
-    "description": "Hail to thee, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E. You shall be pleased to hear that the venture was a success.",
+    "description": "Hail to thee, <hex:02080FE905FF066D6164616DFF0473697203>. You shall be pleased to hear that the venture was a success.",
     "translation_description": ""
   },
   "579": {
@@ -3482,13 +3482,13 @@
   "580": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_LALAFELL_MALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_LALAFELL_MALE_TYPE3",
-    "description": "I\u0027m finished.",
+    "description": "I'm finished.",
     "translation_description": ""
   },
   "581": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_LALAFELL_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_LALAFELL_MALE_TYPE4",
-    "description": "Been a long time comin\u0027, but the venture\u0027s finally finished.",
+    "description": "Been a long time comin', but the venture's finally finished.",
     "translation_description": ""
   },
   "582": {
@@ -3506,13 +3506,13 @@
   "584": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_LALAFELL_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_LALAFELL_FEMALE_TYPE1",
-    "description": "Does \u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E wish to hear my report?",
+    "description": "Does <hex:020815E905FF094D69737472657373FF074D617374657203> wish to hear my report?",
     "translation_description": ""
   },
   "585": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_LALAFELL_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_LALAFELL_FEMALE_TYPE2",
-    "description": "\u0027Ello, dearie. I reckon you want your goods?",
+    "description": "'Ello, dearie. I reckon you want your goods?",
     "translation_description": ""
   },
   "586": {
@@ -3536,19 +3536,19 @@
   "589": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_LALAFELL_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_LALAFELL_FEMALE_TYPE6",
-    "description": "I\u0027m baaack!",
+    "description": "I'm baaack!",
     "translation_description": ""
   },
   "590": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_MIQOTE_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_MIQOTE_MALE_TYPE1",
-    "description": "My rrreport is rrready, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "description": "My rrreport is rrready, <hex:02080FE905FF066D6164616DFF0473697203>.",
     "translation_description": ""
   },
   "591": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_MIQOTE_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_MIQOTE_MALE_TYPE2",
-    "description": "Mission accomplished, \u003Chex:02080EE905FF056D697373FF0473697203\u003E!",
+    "description": "Mission accomplished, <hex:02080EE905FF056D697373FF0473697203>!",
     "translation_description": ""
   },
   "592": {
@@ -3560,7 +3560,7 @@
   "593": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_MIQOTE_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_MIQOTE_MALE_TYPE4",
-    "description": "May I leave after making my report? No? \u003Csigh\u003E",
+    "description": "May I leave after making my report? No? <sigh>",
     "translation_description": ""
   },
   "594": {
@@ -3578,7 +3578,7 @@
   "596": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_MIQOTE_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_MIQOTE_FEMALE_TYPE1",
-    "description": "This cat has brought you a present, \u003Chex:020811E905FF066D6164616DFF06736972727203\u003E...",
+    "description": "This cat has brought you a present, <hex:020811E905FF066D6164616DFF06736972727203>...",
     "translation_description": ""
   },
   "597": {
@@ -3590,7 +3590,7 @@
   "598": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_MIQOTE_FEMALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_MIQOTE_FEMALE_TYPE3",
-    "description": "\u0027Twas naught more than a rrroutine task.",
+    "description": "'Twas naught more than a rrroutine task.",
     "translation_description": ""
   },
   "599": {
@@ -3602,7 +3602,7 @@
   "600": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_MIQOTE_FEMALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_MIQOTE_FEMALE_TYPE5",
-    "description": "Everythin\u0027 you need to know is in the report.",
+    "description": "Everythin' you need to know is in the report.",
     "translation_description": ""
   },
   "601": {
@@ -3614,13 +3614,13 @@
   "602": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ROEGADYN_MALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ROEGADYN_MALE_TYPE1",
-    "description": "I have brought that which you desire, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "description": "I have brought that which you desire, <hex:02080FE905FF066D6164616DFF0473697203>.",
     "translation_description": ""
   },
   "603": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ROEGADYN_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ROEGADYN_MALE_TYPE2",
-    "description": "Bwahahaha! That venture was an \u003Chex:021A020203\u003Ead\u003Chex:021A020103\u003Eventure, let me tell ye!",
+    "description": "Bwahahaha! That venture was an <hex:021A020203>ad<hex:021A020103>venture, let me tell ye!",
     "translation_description": ""
   },
   "604": {
@@ -3632,7 +3632,7 @@
   "605": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ROEGADYN_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ROEGADYN_MALE_TYPE4",
-    "description": "Venture? What in the seven hells are ye\u2500 Oh, the \u003Chex:021A020203\u003Eventure\u003Chex:021A020103\u003E! Aye, I did that.",
+    "description": "Venture? What in the seven hells are ye─ Oh, the <hex:021A020203>venture<hex:021A020103>! Aye, I did that.",
     "translation_description": ""
   },
   "606": {
@@ -3650,37 +3650,37 @@
   "608": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ROEGADYN_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ROEGADYN_FEMALE_TYPE1",
-    "description": "I have what \u003Chex:020813E905FF076D696C616479FF076D696C6F726403\u003E requested in my possession.",
+    "description": "I have what <hex:020813E905FF076D696C616479FF076D696C6F726403> requested in my possession.",
     "translation_description": ""
   },
   "609": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ROEGADYN_FEMALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ROEGADYN_FEMALE_TYPE2",
-    "description": "I\u0027ve got the goods, cap\u0027n!",
+    "description": "I've got the goods, cap'n!",
     "translation_description": ""
   },
   "610": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ROEGADYN_FEMALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ROEGADYN_FEMALE_TYPE3",
-    "description": "Venture complete, \u003Chex:02080FE905FF066D6164616DFF0473697203\u003E.",
+    "description": "Venture complete, <hex:02080FE905FF066D6164616DFF0473697203>.",
     "translation_description": ""
   },
   "611": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ROEGADYN_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ROEGADYN_FEMALE_TYPE4",
-    "description": "Took a while, but the venture\u0027s done.",
+    "description": "Took a while, but the venture's done.",
     "translation_description": ""
   },
   "612": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ROEGADYN_FEMALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ROEGADYN_FEMALE_TYPE5",
-    "description": "I had a mind to summon \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E, actually.",
+    "description": "I had a mind to summon <hex:021A020203>you<hex:021A020103>, actually.",
     "translation_description": ""
   },
   "613": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ROEGADYN_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_ROEGADYN_FEMALE_TYPE6",
-    "description": "This venturin\u0027 business ain\u0027t so bad!",
+    "description": "This venturin' business ain't so bad!",
     "translation_description": ""
   },
   "614": {
@@ -3692,7 +3692,7 @@
   "615": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_AURA_MALE_TYPE2",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_AURA_MALE_TYPE2",
-    "description": "Guess what I\u0027ve got for you! No, really. Guess!",
+    "description": "Guess what I've got for you! No, really. Guess!",
     "translation_description": ""
   },
   "616": {
@@ -3704,25 +3704,25 @@
   "617": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_AURA_MALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_AURA_MALE_TYPE4",
-    "description": "You know, I think I\u0027m starting to get the hang of this.",
+    "description": "You know, I think I'm starting to get the hang of this.",
     "translation_description": ""
   },
   "618": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_AURA_MALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_AURA_MALE_TYPE5",
-    "description": "Per your orders, I have completed the venture...\u003Chex:020815E905FF094D69737472657373FF074D617374657203\u003E.",
+    "description": "Per your orders, I have completed the venture...<hex:020815E905FF094D69737472657373FF074D617374657203>.",
     "translation_description": ""
   },
   "619": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_AURA_MALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_AURA_MALE_TYPE6",
-    "description": "For he himself has said it,\u266A\u003Chex:02100103\u003EAnd it\u0027s greatly to his credit,\u266A\u003Chex:02100103\u003EThat he is a retainer!\u266A\u003Chex:02100103\u003EHe remains a retainer!\u266A",
+    "description": "For he himself has said it,♪<hex:02100103>And it's greatly to his credit,♪<hex:02100103>That he is a retainer!♪<hex:02100103>He remains a retainer!♪",
     "translation_description": ""
   },
   "620": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_AURA_FEMALE_TYPE1",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_AURA_FEMALE_TYPE1",
-    "description": "I have seen to the venture, \u003Chex:020815E905FF086D79206C616479FF086D79206C6F726403\u003E.",
+    "description": "I have seen to the venture, <hex:020815E905FF086D79206C616479FF086D79206C6F726403>.",
     "translation_description": ""
   },
   "621": {
@@ -3734,25 +3734,25 @@
   "622": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_AURA_FEMALE_TYPE3",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_AURA_FEMALE_TYPE3",
-    "description": "I\u0027ve finished.",
+    "description": "I've finished.",
     "translation_description": ""
   },
   "623": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_AURA_FEMALE_TYPE4",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_AURA_FEMALE_TYPE4",
-    "description": "Heh, didn\u0027t expect him to put up such a\u2500 Oh! Just the \u003Chex:02080FE905FF06776F6D616EFF046D616E03\u003E I was hoping to see!",
+    "description": "Heh, didn't expect him to put up such a─ Oh! Just the <hex:02080FE905FF06776F6D616EFF046D616E03> I was hoping to see!",
     "translation_description": ""
   },
   "624": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_AURA_FEMALE_TYPE5",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_AURA_FEMALE_TYPE5",
-    "description": "I-It\u0027s not like I risked life and limb to bring you back shiny baubles or anything.",
+    "description": "I-It's not like I risked life and limb to bring you back shiny baubles or anything.",
     "translation_description": ""
   },
   "625": {
     "name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_AURA_FEMALE_TYPE6",
     "translation_name": "TEXT_CMNDEFRETAINERCALL_00010_ENTER3_AURA_FEMALE_TYPE6",
-    "description": "Oh, it has been a day such as you wouldn\u0027t believe!",
+    "description": "Oh, it has been a day such as you wouldn't believe!",
     "translation_description": ""
   }
 }

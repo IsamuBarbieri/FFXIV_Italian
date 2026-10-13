@@ -1,12 +1,12 @@
 {
   "0": {
     "tag": "TEXT_KINGZA004_05020_SEQ_00",
-    "original": "\u003Chex:024804F201FC03\u003E\u003Chex:024904F201FD03\u003E\uE0BE Quest Sync\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u003Chex:02100103\u003EYou happen upon a curious cob of corn that almost seems alive.",
+    "original": "<hex:024804F201FC03><hex:024904F201FD03> Quest Sync<hex:0249020103><hex:0248020103><hex:02100103>You happen upon a curious cob of corn that almost seems alive.",
     "translation": ""
   },
   "1": {
     "tag": "TEXT_KINGZA004_05020_SEQ_01",
-    "original": "You speak with the curious cob of corn, which you discover is an ancient spirit that refers to itself as the Cornservant. Forgotten and lost to time, the Cornservant feared it would fade away completely. Your presence, however, has given the jubilant cob renewed hope. It longs to nourish the hearts and bellies of Tuliyollal, and with your help, they believe their purpose can be fulfilled.\u003Chex:02100103\u003E\u003Chex:02100103\u003E\u203BPlease note that the difficulty of this quest has been synced to your current level.",
+    "original": "You speak with the curious cob of corn, which you discover is an ancient spirit that refers to itself as the Cornservant. Forgotten and lost to time, the Cornservant feared it would fade away completely. Your presence, however, has given the jubilant cob renewed hope. It longs to nourish the hearts and bellies of Tuliyollal, and with your help, they believe their purpose can be fulfilled.<hex:02100103><hex:02100103>※Please note that the difficulty of this quest has been synced to your current level.",
     "translation": ""
   },
   "2": {
@@ -26,7 +26,7 @@
   },
   "5": {
     "tag": "TEXT_KINGZA004_05020_SEQ_05",
-    "original": "Though the bellies of Tuliyollal are filled, there are other hungry souls in the world that cry out for sustenance. The Cornservant would answer their calls, but not before offering you a small token of appreciation\u2500corn fresh from their own cob.",
+    "original": "Though the bellies of Tuliyollal are filled, there are other hungry souls in the world that cry out for sustenance. The Cornservant would answer their calls, but not before offering you a small token of appreciation─corn fresh from their own cob.",
     "translation": ""
   },
   "24": {
@@ -41,7 +41,7 @@
   },
   "26": {
     "tag": "TEXT_KINGZA004_05020_TODO_02",
-    "original": "Accompany the Cornservant to Morrow\u0027s Measure and speak with them.",
+    "original": "Accompany the Cornservant to Morrow's Measure and speak with them.",
     "translation": ""
   },
   "27": {
@@ -51,7 +51,7 @@
   },
   "48": {
     "tag": "TEXT_KINGZA004_05020_CORNSERVANT_000_001",
-    "original": "(-Curious Corn-)\u003Crustle\u003E \u003Crustle\u003E ...",
+    "original": "(-Curious Corn-)<rustle> <rustle> ...",
     "translation": ""
   },
   "49": {
@@ -71,7 +71,7 @@
   },
   "52": {
     "tag": "TEXT_KINGZA004_05020_A1_000_001",
-    "original": "What\u0027s the matter?",
+    "original": "What's the matter?",
     "translation": ""
   },
   "53": {
@@ -81,7 +81,7 @@
   },
   "54": {
     "tag": "TEXT_KINGZA004_05020_CORNSERVANT_000_005",
-    "original": "(-Curious Corn-)\u003Crustle\u003E You... You can see me!?",
+    "original": "(-Curious Corn-)<rustle> You... You can see me!?",
     "translation": ""
   },
   "55": {
@@ -106,12 +106,12 @@
   },
   "59": {
     "tag": "TEXT_KINGZA004_05020_CORNSERVANT_000_010",
-    "original": "(-Curious Corn-)Yet here at the last, I have found a kindly soul able and willing to lend me an ear. But will \u003Chex:02080CE905FF04736865FF03686503\u003E lend me a hand as well, I wonder?",
+    "original": "(-Curious Corn-)Yet here at the last, I have found a kindly soul able and willing to lend me an ear. But will <hex:02080CE905FF04736865FF03686503> lend me a hand as well, I wonder?",
     "translation": ""
   },
   "60": {
     "tag": "TEXT_KINGZA004_05020_CORNSERVANT_000_011",
-    "original": "(-Curious Corn-)I wish to help the people of Tural\u2500fill their hearts and bellies both, lest their hunger invite terrible misfortune.",
+    "original": "(-Curious Corn-)I wish to help the people of Tural─fill their hearts and bellies both, lest their hunger invite terrible misfortune.",
     "translation": ""
   },
   "61": {
@@ -121,12 +121,12 @@
   },
   "62": {
     "tag": "TEXT_KINGZA004_05020_CORNSERVANT_000_013",
-    "original": "(-Curious Corn-)Alas, I cannot reach them in my diminished state, but \u003Chex:021A020203\u003Eyou\u003Chex:021A020103\u003E can! And so I shall bequeath unto you the most delectable corn dishes, which are to then be distributed to the masses. What say you?",
+    "original": "(-Curious Corn-)Alas, I cannot reach them in my diminished state, but <hex:021A020203>you<hex:021A020103> can! And so I shall bequeath unto you the most delectable corn dishes, which are to then be distributed to the masses. What say you?",
     "translation": ""
   },
   "63": {
     "tag": "TEXT_KINGZA004_05020_CORNSERVANT_000_014",
-    "original": "(-Curious Corn-)\u003Crustle\u003E Such selflessness, such compassion! How long has it been since last I met a soul so grossly incandescent? I am but a humble stalk basking in the warmth of your generous heart. Well, my friend, let us be off!",
+    "original": "(-Curious Corn-)<rustle> Such selflessness, such compassion! How long has it been since last I met a soul so grossly incandescent? I am but a humble stalk basking in the warmth of your generous heart. Well, my friend, let us be off!",
     "translation": ""
   },
   "64": {
@@ -136,7 +136,7 @@
   },
   "65": {
     "tag": "TEXT_KINGZA004_05020_CORNSERVANT_000_020",
-    "original": "\u003Crustle\u003E Goodness, how long has it been since last man has partaken of my corn? I can hardly wait!",
+    "original": "<rustle> Goodness, how long has it been since last man has partaken of my corn? I can hardly wait!",
     "translation": ""
   },
   "66": {
@@ -221,12 +221,12 @@
   },
   "82": {
     "tag": "TEXT_KINGZA004_05020_HUNGRYMAN05020_000_060",
-    "original": "\u003Csigh\u003E What am I to do now? I\u0027m like to starve at this rate...",
+    "original": "<sigh> What am I to do now? I'm like to starve at this rate...",
     "translation": ""
   },
   "83": {
     "tag": "TEXT_KINGZA004_05020_CORNSERVANT_000_061",
-    "original": "\u003Crustle\u003E His belly\u2500it speaks to me! I bid you offer him this grilled corn, seared to perfection with the hope that yet burns in my corny bosom.",
+    "original": "<rustle> His belly─it speaks to me! I bid you offer him this grilled corn, seared to perfection with the hope that yet burns in my corny bosom.",
     "translation": ""
   },
   "84": {
@@ -236,22 +236,22 @@
   },
   "85": {
     "tag": "TEXT_KINGZA004_05020_HUNGRYMAN05020_000_063",
-    "original": "That\u0027s awful kind of you. I\u0027m new to Tuliyollal, and it\u0027s been pretty hard. Harder since I lost my job. I\u0027ve been so hungry lately I can barely think straight. But the smell of this corn with its smoky-sweet aroma has brightened my day. I can hardly wait to eat it!",
+    "original": "That's awful kind of you. I'm new to Tuliyollal, and it's been pretty hard. Harder since I lost my job. I've been so hungry lately I can barely think straight. But the smell of this corn with its smoky-sweet aroma has brightened my day. I can hardly wait to eat it!",
     "translation": ""
   },
   "86": {
     "tag": "TEXT_KINGZA004_05020_HUNGRYMAN05020_000_064",
-    "original": "Feels like maybe my luck is starting to turn around. Thank you, \u003Chex:02080EE905FF056D697373FF0473697203\u003E. I won\u0027t forget this!",
+    "original": "Feels like maybe my luck is starting to turn around. Thank you, <hex:02080EE905FF056D697373FF0473697203>. I won't forget this!",
     "translation": ""
   },
   "87": {
     "tag": "TEXT_KINGZA004_05020_HUNGRYOLDWOMAN05020_000_065",
-    "original": "\u003Csigh\u003E Perhaps I\u0027ll simply skip \u003Chex:02083BE3E90C0DFF1C020818E3E90C05FF0764696E6E6572FF0A627265616B6661737403FF18020814E3E90C12FF066C756E6368FF0764696E6E65720303\u003E today...",
+    "original": "<sigh> Perhaps I'll simply skip <hex:02083BE3E90C0DFF1C020818E3E90C05FF0764696E6E6572FF0A627265616B6661737403FF18020814E3E90C12FF066C756E6368FF0764696E6E65720303> today...",
     "translation": ""
   },
   "88": {
     "tag": "TEXT_KINGZA004_05020_CORNSERVANT_000_066",
-    "original": "A belly and heart both in dire need of nourishment! \u003Crustle\u003E Here\u2500take of my cob. Let its earthy scent and savory flavors offer her comfort.",
+    "original": "A belly and heart both in dire need of nourishment! <rustle> Here─take of my cob. Let its earthy scent and savory flavors offer her comfort.",
     "translation": ""
   },
   "89": {
@@ -261,27 +261,27 @@
   },
   "90": {
     "tag": "TEXT_KINGZA004_05020_HUNGRYOLDWOMAN05020_000_068",
-    "original": "Life simply isn\u0027t the same without him. One moment I think I\u0027m fine, then suddenly I find myself brought to tears. Even eating has been a struggle. But I know he wouldn\u0027t want me to mourn him.",
+    "original": "Life simply isn't the same without him. One moment I think I'm fine, then suddenly I find myself brought to tears. Even eating has been a struggle. But I know he wouldn't want me to mourn him.",
     "translation": ""
   },
   "91": {
     "tag": "TEXT_KINGZA004_05020_HUNGRYOLDWOMAN05020_000_069",
-    "original": "Thank you for this. I\u0027ll try to do better. For his sake and mine.",
+    "original": "Thank you for this. I'll try to do better. For his sake and mine.",
     "translation": ""
   },
   "92": {
     "tag": "TEXT_KINGZA004_05020_HUNGRYMAMOOLJA05020_000_070",
-    "original": "I\u0027m so hungry, but I have no money... May the gods forgive me for what I\u0027m about to do.",
+    "original": "I'm so hungry, but I have no money... May the gods forgive me for what I'm about to do.",
     "translation": ""
   },
   "93": {
     "tag": "TEXT_KINGZA004_05020_CORNSERVANT_000_071",
-    "original": "Do you hear that, friend? \u003Crustle\u003E His belly weeps from hunger! Pray offer him this corn. Let its smoky sweetness give him comfort, and deliver him from foul temptation.",
+    "original": "Do you hear that, friend? <rustle> His belly weeps from hunger! Pray offer him this corn. Let its smoky sweetness give him comfort, and deliver him from foul temptation.",
     "translation": ""
   },
   "94": {
     "tag": "TEXT_KINGZA004_05020_HUNGRYMAMOOLJA05020_000_072",
-    "original": "Is this grilled corn for me? Truly? My stomach has been in knots for days\u2500thank you!",
+    "original": "Is this grilled corn for me? Truly? My stomach has been in knots for days─thank you!",
     "translation": ""
   },
   "95": {
@@ -291,12 +291,12 @@
   },
   "96": {
     "tag": "TEXT_KINGZA004_05020_HUNGRYMAMOOLJA05020_000_074",
-    "original": "This corn has filled my aching stomach and helped to clear my head. Oh, what a fool I\u0027ve been. It\u0027s time I start over and get my life together!",
+    "original": "This corn has filled my aching stomach and helped to clear my head. Oh, what a fool I've been. It's time I start over and get my life together!",
     "translation": ""
   },
   "97": {
     "tag": "TEXT_KINGZA004_05020_CORNSERVANT_000_075",
-    "original": "\u003Crustle\u003E The rumbling of bellies in need has ceased. Come, let us find a quiet place to speak.",
+    "original": "<rustle> The rumbling of bellies in need has ceased. Come, let us find a quiet place to speak.",
     "translation": ""
   },
   "98": {
@@ -311,7 +311,7 @@
   },
   "100": {
     "tag": "TEXT_KINGZA004_05020_CORNSERVANT_000_090",
-    "original": "\u003Crustle\u003E There you are. I hope our little excursion was as fulfilling for you as it was for me.",
+    "original": "<rustle> There you are. I hope our little excursion was as fulfilling for you as it was for me.",
     "translation": ""
   },
   "101": {

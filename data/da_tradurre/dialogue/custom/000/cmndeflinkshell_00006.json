@@ -92,8 +92,8 @@
   "15": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_FIRST_TALK_002",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_FIRST_TALK_002",
-    "description": "To that end, I would like to introduce to you the \u201Clinkshell.\u201D",
-    "translation_description": "Vorrei dunque presentarti la \u00abfonoperla\u00bb."
+    "description": "To that end, I would like to introduce to you the “linkshell.”",
+    "translation_description": "Vorrei dunque presentarti la «fonoperla»."
   },
   "16": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_FIRST_TALK_003",
@@ -117,7 +117,7 @@
     "name": "TEXT_CMNDEFLINKSHELL_00006_MAIN_TALK_001",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_MAIN_TALK_001",
     "description": "Would you like to learn more about linkshells? Or are you perhaps interested in creating your own?",
-    "translation_description": "Vuoi saperne di pi\u00f9 sulle fonoperle? O magari vuoi crearne una?"
+    "translation_description": "Vuoi saperne di più sulle fonoperle? O magari vuoi crearne una?"
   },
   "20": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_MAINMENU_Q1_000_1",
@@ -213,7 +213,7 @@
     "name": "TEXT_CMNDEFLINKSHELL_00006_PROCEDUREMENU_TALK_001",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_PROCEDUREMENU_TALK_001",
     "description": "Excellent! Shall I create a new linkshell for you? Or do you wish to make changes to an existing one?",
-    "translation_description": "Perfetto! Vuoi che ti crei una nuova fonoperla o preferisci apportare modifiche a una che hai gi\u00e0?"
+    "translation_description": "Perfetto! Vuoi che ti crei una nuova fonoperla o preferisci apportare modifiche a una che hai già?"
   },
   "36": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_PROCEDUREMENU_Q1_000_1",
@@ -297,7 +297,7 @@
     "name": "TEXT_CMNDEFLINKSHELL_00006_MAKE_GUIDE_002",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_MAKE_GUIDE_002",
     "description": "Should your registration be approved, your linkshell will be created and you will be designated its master.",
-    "translation_description": "Se la richiesta verr\u00e0 approvata, la fonoperla sar\u00e0 creata e tu ne diventerai <hex:02081BE905FF0B6C61206D616573747261FF0B696C206D61657374726F03>."
+    "translation_description": "Se la richiesta verrà approvata, la fonoperla sarà creata e tu ne diventerai <hex:02081BE905FF0B6C61206D616573747261FF0B696C206D61657374726F03>."
   },
   "50": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_MAKE_GUIDE_003",
@@ -338,19 +338,19 @@
   "56": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_ADD_GUIDE_004_SYS",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_ADD_GUIDE_004_SYS",
-    "description": "You can also invite players by selecting their names in the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Esocial\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E interface and choosing a linkshell from the subcommand menu.",
+    "description": "You can also invite players by selecting their names in the <hex:024804F201F403><hex:024904F201F503>social<hex:0249020103><hex:0248020103> interface and choosing a linkshell from the subcommand menu.",
     "translation_description": "Puoi anche invitare i giocatori selezionando i loro nomi dall'interfaccia <hex:024804F201F403><hex:024904F201F503>sociale<hex:0249020103><hex:0248020103> e scegliendo una fonoperla dal menu dei comandi."
   },
   "57": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_ADD_GUIDE_005",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_ADD_GUIDE_005",
     "description": "If he accepts your invitation, he will immediately become a member of your linkshell!",
-    "translation_description": "Se accetta l'invito, diventer\u00e0 subito membro della tua fonoperla!"
+    "translation_description": "Se accetta l'invito, diventerà subito membro della tua fonoperla!"
   },
   "58": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_ENTER_GUIDE_001",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_ENTER_GUIDE_001",
-    "description": "In order to join a linkshell, you must receive an invitation from that linkshell\u0027s master or one of its leaders.",
+    "description": "In order to join a linkshell, you must receive an invitation from that linkshell's master or one of its leaders.",
     "translation_description": "Per unirti a una fonoperla, devi ricevere un invito dal suo maestro o da uno dei suoi leader."
   },
   "59": {
@@ -368,44 +368,44 @@
   "61": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_ENTER_GUIDE_004_SYS",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_ENTER_GUIDE_004_SYS",
-    "description": "However, until you select \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EAccept Linkshell Invite\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E, you will not be able to send or receive messages through that linkshell.",
-    "translation_description": "Tuttavia, finch\u00e9 non selezioni <hex:024804F201F403><hex:024904F201F503>Accetta Invito a Fonoperla<hex:0249020103><hex:0248020103>, non potrai inviare n\u00e9 ricevere messaggi tramite quella fonoperla."
+    "description": "However, until you select <hex:024804F201F403><hex:024904F201F503>Accept Linkshell Invite<hex:0249020103><hex:0248020103>, you will not be able to send or receive messages through that linkshell.",
+    "translation_description": "Tuttavia, finché non selezioni <hex:024804F201F403><hex:024904F201F503>Accetta Invito a Fonoperla<hex:0249020103><hex:0248020103>, non potrai inviare né ricevere messaggi tramite quella fonoperla."
   },
   "62": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_CHAT_GUIDE_001",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_CHAT_GUIDE_001",
     "description": "Conversing with others over linkshell is as easy as speaking with them in person.",
-    "translation_description": "Conversare con gli altri tramite una fonoperla \u00e8 semplice come parlare di persona."
+    "translation_description": "Conversare con gli altri tramite una fonoperla è semplice come parlare di persona."
   },
   "63": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_CHAT_GUIDE_002_SYS",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_CHAT_GUIDE_002_SYS",
     "description": "To send messages to members of a certain linkshell, select the speech bubble icon situated by the chat log, followed by the linkshell to designate it as the default chat mode.",
-    "translation_description": "Per inviare messaggi ai membri di una fonoperla, seleziona l'icona a forma di fumetto accanto alla finestra della chat, poi scegli la fonoperla per impostarla come modalit\u00e0 chat predefinita."
+    "translation_description": "Per inviare messaggi ai membri di una fonoperla, seleziona l'icona a forma di fumetto accanto alla finestra della chat, poi scegli la fonoperla per impostarla come modalità chat predefinita."
   },
   "64": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_CHAT_GUIDE_003_SYS",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_CHAT_GUIDE_003_SYS",
-    "description": "You can also change the default chat mode by selecting \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ELinkshells\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E under \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESocial\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E from the main menu, selecting a linkshell, and choosing \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EOpen Communication\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E from the subcommand menu.",
-    "translation_description": "Puoi cambiare la modalit\u00e0 chat predefinita anche selezionando <hex:024804F201F403><hex:024904F201F503>Fonoperle<hex:0249020103><hex:0248020103> nella sezione <hex:024804F201F403><hex:024904F201F503>Social<hex:0249020103><hex:0248020103> dal menu principale, scegliendo una fonoperla e poi <hex:024804F201F403><hex:024904F201F503>Apri Comunicazione<hex:0249020103><hex:0248020103> dal menu dei comandi."
+    "description": "You can also change the default chat mode by selecting <hex:024804F201F403><hex:024904F201F503>Linkshells<hex:0249020103><hex:0248020103> under <hex:024804F201F403><hex:024904F201F503>Social<hex:0249020103><hex:0248020103> from the main menu, selecting a linkshell, and choosing <hex:024804F201F403><hex:024904F201F503>Open Communication<hex:0249020103><hex:0248020103> from the subcommand menu.",
+    "translation_description": "Puoi cambiare la modalità chat predefinita anche selezionando <hex:024804F201F403><hex:024904F201F503>Fonoperle<hex:0249020103><hex:0248020103> nella sezione <hex:024804F201F403><hex:024904F201F503>Social<hex:0249020103><hex:0248020103> dal menu principale, scegliendo una fonoperla e poi <hex:024804F201F403><hex:024904F201F503>Apri Comunicazione<hex:0249020103><hex:0248020103> dal menu dei comandi."
   },
   "65": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_LEADER_GUIDE_001",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_LEADER_GUIDE_001",
     "description": "The linkshell master has the authority to invite and remove members, as well as rename and disband the linkshell.",
-    "translation_description": "Il maestro della fonoperla pu\u00f2 invitare o rimuovere membri, oltre a rinominare e sciogliere la fonoperla."
+    "translation_description": "Il maestro della fonoperla può invitare o rimuovere membri, oltre a rinominare e sciogliere la fonoperla."
   },
   "66": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_LEADER_GUIDE_002",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_LEADER_GUIDE_002",
     "description": "The linkshell master can also designate other members as linkshell leaders, bestowing upon them the authority to invite and remove members.",
-    "translation_description": "Il maestro della fonoperla pu\u00f2 anche nominare leader tra gli altri membri, conferendo loro l'autorit\u00e0 di invitare e rimuovere membri."
+    "translation_description": "Il maestro della fonoperla può anche nominare leader tra gli altri membri, conferendo loro l'autorità di invitare e rimuovere membri."
   },
   "67": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_LEADER_GUIDE_003",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_LEADER_GUIDE_003",
     "description": "While the powers possessed by leaders and masters are similar, true authority still belongs to the linkshell master.",
-    "translation_description": "I leader e i maestri hanno poteri simili, ma l'autorit\u00e0 finale spetta al maestro della fonoperla."
+    "translation_description": "I leader e i maestri hanno poteri simili, ma l'autorità finale spetta al maestro della fonoperla."
   },
   "68": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_LEAVE_GUIDE_001",
@@ -416,25 +416,25 @@
   "69": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_LEAVE_GUIDE_002_SYS",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_LEAVE_GUIDE_002_SYS",
-    "description": "You can quit a linkshell by selecting \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ELinkshells\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E under \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESocial\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E from the main menu, selecting a linkshell, and choosing \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EQuit Linkshell\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E from the subcommand menu.",
+    "description": "You can quit a linkshell by selecting <hex:024804F201F403><hex:024904F201F503>Linkshells<hex:0249020103><hex:0248020103> under <hex:024804F201F403><hex:024904F201F503>Social<hex:0249020103><hex:0248020103> from the main menu, selecting a linkshell, and choosing <hex:024804F201F403><hex:024904F201F503>Quit Linkshell<hex:0249020103><hex:0248020103> from the subcommand menu.",
     "translation_description": "Puoi abbandonare una fonoperla selezionando <hex:024804F201F403><hex:024904F201F503>Fonoperle<hex:0249020103><hex:0248020103> nella sezione <hex:024804F201F403><hex:024904F201F503>Social<hex:0249020103><hex:0248020103> dal menu principale, scegliendone una e poi <hex:024804F201F403><hex:024904F201F503>Abbandona Fonoperla<hex:0249020103><hex:0248020103> dal menu dei comandi."
   },
   "70": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_LEAVE_GUIDE_003_SYS",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_LEAVE_GUIDE_003_SYS",
     "description": "Please note, however, that the linkshell master cannot resign without transferring his or her authority to another member.",
-    "translation_description": "Il maestro, tuttavia, non pu\u00f2 dimettersi senza prima trasferire la propria autorit\u00e0 a un altro membro."
+    "translation_description": "Il maestro, tuttavia, non può dimettersi senza prima trasferire la propria autorità a un altro membro."
   },
   "71": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_LEAVE_GUIDE_004_SYS",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_LEAVE_GUIDE_004_SYS",
-    "description": "You can transfer authority by selecting \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ELinkshells\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E under \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESocial\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E from the main menu, selecting a linkshell, selecting a player, and choosing \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EPromote to Linkshell Master\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E from the subcommand menu.",
-    "translation_description": "Puoi trasferire l'autorit\u00e0 selezionando <hex:024804F201F403><hex:024904F201F503>Fonoperle<hex:0249020103><hex:0248020103> nella sezione <hex:024804F201F403><hex:024904F201F503>Social<hex:0249020103><hex:0248020103> dal menu principale, scegliendo una fonoperla e un giocatore, poi selezionando <hex:024804F201F403><hex:024904F201F503>Promuovi a Maestro Fonoperla<hex:0249020103><hex:0248020103> dal menu dei comandi."
+    "description": "You can transfer authority by selecting <hex:024804F201F403><hex:024904F201F503>Linkshells<hex:0249020103><hex:0248020103> under <hex:024804F201F403><hex:024904F201F503>Social<hex:0249020103><hex:0248020103> from the main menu, selecting a linkshell, selecting a player, and choosing <hex:024804F201F403><hex:024904F201F503>Promote to Linkshell Master<hex:0249020103><hex:0248020103> from the subcommand menu.",
+    "translation_description": "Puoi trasferire l'autorità selezionando <hex:024804F201F403><hex:024904F201F503>Fonoperle<hex:0249020103><hex:0248020103> nella sezione <hex:024804F201F403><hex:024904F201F503>Social<hex:0249020103><hex:0248020103> dal menu principale, scegliendo una fonoperla e un giocatore, poi selezionando <hex:024804F201F403><hex:024904F201F503>Promuovi a Maestro Fonoperla<hex:0249020103><hex:0248020103> dal menu dei comandi."
   },
   "72": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_LEAVE_GUIDE_005_SYS",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_LEAVE_GUIDE_005_SYS",
-    "description": "In the event that you are the only member in the linkshell, you must instead disband your linkshell by speaking with a \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Elinkshell distributor\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E.",
+    "description": "In the event that you are the only member in the linkshell, you must instead disband your linkshell by speaking with a <hex:024804F201F403><hex:024904F201F503>linkshell distributor<hex:0249020103><hex:0248020103>.",
     "translation_description": "Se nella fonoperla non ci sono altri membri oltre a te, invece, devi scioglierla parlando con un <hex:024804F201F403><hex:024904F201F503>distributore di fonoperle<hex:0249020103><hex:0248020103>."
   },
   "73": {
@@ -452,8 +452,8 @@
   "75": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_MAKE_PROCEDURE_NG_000_1",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_MAKE_PROCEDURE_NG_000_1",
-    "description": "It appears you are already a member of eight different linkshells. For your own safety, I cannot permit you to create another\u2500the cacophony of voices constantly reverberating in your head would place undue stress upon your mental faculties.",
-    "translation_description": "Mi dispiace, ma fai gi\u00e0 parte di otto fonoperle. Non posso permetterti di crearne un'altra per la tua sicurezza: il continuo frastuono di voci che ti rimbomba in testa metterebbe a dura prova le tue facolt\u00e0 mentali."
+    "description": "It appears you are already a member of eight different linkshells. For your own safety, I cannot permit you to create another─the cacophony of voices constantly reverberating in your head would place undue stress upon your mental faculties.",
+    "translation_description": "Mi dispiace, ma fai già parte di otto fonoperle. Non posso permetterti di crearne un'altra per la tua sicurezza: il continuo frastuono di voci che ti rimbomba in testa metterebbe a dura prova le tue facoltà mentali."
   },
   "76": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_MAKE_SUCCESS_001",
@@ -470,8 +470,8 @@
   "78": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_NAMECHANGE_PROCEDURE_NG_000_1",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_NAMECHANGE_PROCEDURE_NG_000_1",
-    "description": "I\u0027m afraid that a linkshell can only be renamed by its master. Our records indicate that you are not \u003Chex:02080CE905FF04736865FF03686503\u003E.",
-    "translation_description": "Mi dispiace, ma solo il maestro di una fonoperla pu\u00f2 cambiarne il nome. Dai nostri registri risulta che tu non sei <hex:02081BE905FF0B6C61206D616573747261FF0B696C206D61657374726F03>."
+    "description": "I'm afraid that a linkshell can only be renamed by its master. Our records indicate that you are not <hex:02080CE905FF04736865FF03686503>.",
+    "translation_description": "Mi dispiace, ma solo il maestro di una fonoperla può cambiarne il nome. Dai nostri registri risulta che tu non sei <hex:02081BE905FF0B6C61206D616573747261FF0B696C206D61657374726F03>."
   },
   "79": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_NAMECHANGE_SUCCESS_001",
@@ -488,8 +488,8 @@
   "81": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_BREAK_PROCEDURE_NG_000_1",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_BREAK_PROCEDURE_NG_000_1",
-    "description": "I\u0027m afraid that a linkshell can only be disbanded by its master. Our records indicate that you are not \u003Chex:02080CE905FF04736865FF03686503\u003E.",
-    "translation_description": "Mi dispiace, ma solo il maestro di una fonoperla pu\u00f2 scioglierla. Dai nostri registri risulta che tu non sei <hex:02081BE905FF0B6C61206D616573747261FF0B696C206D61657374726F03>."
+    "description": "I'm afraid that a linkshell can only be disbanded by its master. Our records indicate that you are not <hex:02080CE905FF04736865FF03686503>.",
+    "translation_description": "Mi dispiace, ma solo il maestro di una fonoperla può scioglierla. Dai nostri registri risulta che tu non sei <hex:02081BE905FF0B6C61206D616573747261FF0B696C206D61657374726F03>."
   },
   "82": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_BREAK_SUCCESS_001",
@@ -512,14 +512,14 @@
   "85": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_00005_PROMPT_MESSAGE2",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_00005_PROMPT_MESSAGE2",
-    "description": "\u0027\u003Chex:021D0103\u003E. , : ; ! ? \u0026 - _",
+    "description": "'<hex:021D0103>. , : ; ! ? & - _",
     "translation_description": "'<hex:021D0103>. , : ; ! ? & - _"
   },
   "86": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_00005_PROMPT_MESSAGE3",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_00005_PROMPT_MESSAGE3",
-    "description": "\u2022 Double spaces/underscores are not allowed.\u003Chex:02100103\u003E\u2022 A space cannot be used before or after the name.\u003Chex:02100103\u003E\u2022 Names consisting solely of punctuation marks are prohibited.",
-    "translation_description": "\u2022 Non sono ammessi spazi doppi o trattini bassi consecutivi.<hex:02100103>\u2022 Il nome non pu\u00f2 iniziare o terminare con uno spazio.<hex:02100103>\u2022 Non sono ammessi nomi composti soltanto da segni di punteggiatura."
+    "description": "• Double spaces/underscores are not allowed.<hex:02100103>• A space cannot be used before or after the name.<hex:02100103>• Names consisting solely of punctuation marks are prohibited.",
+    "translation_description": "• Non sono ammessi spazi doppi o trattini bassi consecutivi.<hex:02100103>• Il nome non può iniziare o terminare con uno spazio.<hex:02100103>• Non sono ammessi nomi composti soltanto da segni di punteggiatura."
   },
   "87": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_00005_PROMPT_HEAD",
@@ -530,14 +530,14 @@
   "88": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_00005_CONFIRM_MESSAGE",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_00005_CONFIRM_MESSAGE",
-    "description": "Set name as \u201C\u003Chex:022903EA0203\u003E\u201D?",
-    "translation_description": "Vuoi impostare il nome come \u00ab<hex:022903EA0203>\u00bb?"
+    "description": "Set name as “<hex:022903EA0203>”?",
+    "translation_description": "Vuoi impostare il nome come «<hex:022903EA0203>»?"
   },
   "89": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_00005_CONFIRM_YES",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_00005_CONFIRM_YES",
     "description": "Yes",
-    "translation_description": "S\u00ec"
+    "translation_description": "Sì"
   },
   "90": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_00005_CONFIRM_NO",
@@ -548,7 +548,7 @@
   "91": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_00005_BREAK_WARNING",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_00005_BREAK_WARNING",
-    "description": "You are about to disband \u003Chex:022903EA0203\u003E. All members will be notified. You will not be able to restore this linkshell once it has been disbanded. Are you certain you wish to proceed?",
+    "description": "You are about to disband <hex:022903EA0203>. All members will be notified. You will not be able to restore this linkshell once it has been disbanded. Are you certain you wish to proceed?",
     "translation_description": "Stai per sciogliere <hex:022903EA0203>. Tutti i membri riceveranno una notifica e non potrai recuperare questa fonoperla dopo averla sciolta. Vuoi davvero procedere?"
   },
   "92": {
@@ -561,7 +561,7 @@
     "name": "TEXT_CMNDEFLINKSHELL_00006_00005_BREAK_YES",
     "translation_name": "TEXT_CMNDEFLINKSHELL_00006_00005_BREAK_YES",
     "description": "Yes",
-    "translation_description": "S\u00ec"
+    "translation_description": "Sì"
   },
   "94": {
     "name": "TEXT_CMNDEFLINKSHELL_00006_00005_BREAK_NO",

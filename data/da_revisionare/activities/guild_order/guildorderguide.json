@@ -9,13 +9,13 @@
     "name": "TEXT_GUILDORDERGUIDE_SELECT_MENU_00",
     "translation_name": "TEXT_GUILDORDERGUIDE_SELECT_MENU_00",
     "description": "Joining a guildhest.",
-    "translation_description": "Partecipare a un\u0027Operazione di Gilda."
+    "translation_description": "Partecipa a un'operazione di gilda."
   },
   "2": {
     "name": "TEXT_GUILDORDERGUIDE_SELECT_MENU_01",
     "translation_name": "TEXT_GUILDORDERGUIDE_SELECT_MENU_01",
     "description": "Learning more about guildhests.",
-    "translation_description": "Informazioni sulle Operazioni di Gilda."
+    "translation_description": "Chiedi informazioni sulle operazioni di gilda."
   },
   "3": {
     "name": "TEXT_GUILDORDERGUIDE_SELECT_MENU_02",
@@ -27,7 +27,7 @@
     "name": "TEXT_GUILDORDERGUIDE_SELECT_STAGE_MENU_TITLE",
     "translation_name": "TEXT_GUILDORDERGUIDE_SELECT_STAGE_MENU_TITLE",
     "description": "Select an operation.",
-    "translation_description": "Scegli un\u0027operazione."
+    "translation_description": "Scegli un'operazione."
   },
   "5": {
     "name": "TEXT_GUILDORDERGUIDE_SELECT_STAGE_MENU_CANCEL",
@@ -39,13 +39,13 @@
     "name": "TEXT_GUILDORDERGUIDE_START_MENU_TITLE",
     "translation_name": "TEXT_GUILDORDERGUIDE_START_MENU_TITLE",
     "description": "Begin the operation?",
-    "translation_description": "Iniziare l\u0027operazione?"
+    "translation_description": "Iniziare l'operazione?"
   },
   "7": {
     "name": "TEXT_GUILDORDERGUIDE_START_MENU_YES",
     "translation_name": "TEXT_GUILDORDERGUIDE_START_MENU_YES",
     "description": "Yes",
-    "translation_description": "S\u00ec"
+    "translation_description": "Sì"
   },
   "8": {
     "name": "TEXT_GUILDORDERGUIDE_START_MENU_NO",
@@ -56,8 +56,8 @@
   "9": {
     "name": "TEXT_GUILDORDERGUIDE_INFO_TALK_00",
     "translation_name": "TEXT_GUILDORDERGUIDE_INFO_TALK_00",
-    "description": "Guildhests are small party-based operations overseen by the Adventurers\u0027 Guild.",
-    "translation_description": "Le Operazioni di Gilda sono brevi prove per gruppi ridotti, organizzate dalla Gilda degli Avventurieri."
+    "description": "Guildhests are small party-based operations overseen by the Adventurers' Guild.",
+    "translation_description": "Le operazioni di gilda sono brevi attività per gruppi ridotti, organizzate dalla Gilda degli Avventurieri."
   },
   "10": {
     "name": "TEXT_GUILDORDERGUIDE_INFO_TALK_01",
@@ -68,25 +68,25 @@
   "11": {
     "name": "TEXT_GUILDORDERGUIDE_INFO_TALK_02",
     "translation_name": "TEXT_GUILDORDERGUIDE_INFO_TALK_02",
-    "description": "Rewards for completing the operation are based on your party\u0027s performance. A bonus will be awarded the first time you complete a hest with each class.",
-    "translation_description": "La ricompensa dipende dal rendimento del gruppo. Riceverai un bonus la prima volta che completi una prova con ciascuna classe."
+    "description": "Rewards for completing the operation are based on your party's performance. A bonus will be awarded the first time you complete a hest with each class.",
+    "translation_description": "La ricompensa dipende dal rendimento del gruppo. Riceverai un bonus la prima volta che completi un'operazione con ciascuna classe."
   },
   "12": {
     "name": "TEXT_GUILDORDERGUIDE_INFO_TALK_03",
     "translation_name": "TEXT_GUILDORDERGUIDE_INFO_TALK_03",
     "description": "A bonus will also be awarded for completing the operation with a minimal number of KOs.",
-    "translation_description": "Riceverete inoltre un bonus se completate l\u0027operazione subendo il minor numero possibile di K.O."
+    "translation_description": "Riceverai inoltre un bonus se il gruppo completa l'operazione subendo il minor numero possibile di K.O."
   },
   "13": {
     "name": "TEXT_GUILDORDERGUIDE_INFO_TALK_04",
     "translation_name": "TEXT_GUILDORDERGUIDE_INFO_TALK_04",
     "description": "New operations will become available as you increase in level or as you complete existing hests. Some operations can only be unlocked by speaking with certain battlewardens.",
-    "translation_description": "Altre prove si sbloccano salendo di livello o completando quelle disponibili. Per alcune dovrai parlare con un Custode di Battaglia."
+    "translation_description": "Nuove operazioni diventano disponibili salendo di livello o completando quelle già sbloccate. Per alcune dovrai parlare con determinati custodi di battaglia."
   },
   "14": {
     "name": "TEXT_GUILDORDERGUIDE_ERROR_TALK",
     "translation_name": "TEXT_GUILDORDERGUIDE_ERROR_TALK",
-    "description": "You were unable to commence \u201C\u003Chex:022815FF10496E7374616E6365436F6E74656E74E8030403\u003E.\u201D",
-    "translation_description": "Impossibile avviare «\u003Chex:022815FF10496E7374616E6365436F6E74656E74E8030403\u003E»."
+    "description": "You were unable to commence “<hex:022815FF10496E7374616E6365436F6E74656E74E8030403>.”",
+    "translation_description": "Impossibile avviare «<hex:022815FF10496E7374616E6365436F6E74656E74E8030403>»."
   }
 }

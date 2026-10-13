@@ -86,7 +86,7 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Hall of the Novice | Sala dei Novizi | `system/maincommand.json#70:name` | Nome della funzione. |
 | Challenge Log | Registro Sfide | `system/maincommand.json#60:name` | Nome del registro; forma abbreviata senza articolo. Maiuscole fisse: «Registro Sfide».  Varianti ammesse in prosa: «Registro delle Sfide». |
 | Challenge Log Rewards | Ricompense Registro Sfide | `system/addon.json#10116:original` | Etichetta abbreviata, senza articolo. |
-| Heaven-on-High | Pilastro dei Cieli | `system/addon.json#4809:original` | Nome del Deep Dungeon. |
+| Heaven-on-High | Pilastro dei Cieli | `system/addon.json#4809:original` | Nome del Deep Dungeon. Decisione dell'utente: nelle occorrenze di `Heaven<hex:021F0103>on<hex:021F0103>High` in `data/da_revisionare/`, usare «Pilastro dei Cieli» eliminando esclusivamente i due tag del trattino `<hex:021F0103>` interni al nome. Conservare tutti gli altri tag; l'eccezione non si estende ad altri nomi o ai file canonici. |
 | Faux Hollows | Tane Sospette | `system/addon.json#11013:original` | Nome della funzione. |
 | Sundry Splendors | Vari Splendori | `system/addon.json#13512:original` | Nome del negozio. |
 | Mech Ops | Operazione Mech | `system/addon.json#16724:original` | Modalità dell'Esplorazione Cosmica, con piloti e supporto a terra; varianti ammesse in prosa: «operazione mech», «Operazioni Mech», «operazioni mech». |
@@ -271,6 +271,7 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Subleader | Vice | `system/addon.json#11771:original` | Ruolo nella squadra PvP; in prosa minuscolo «vice». |
 | Subleaders | Vice | `system/addon.json#11819:original` | Plurale invariabile; in prosa «i vice». |
 | Aetheryte | Eterite | `system/addon.json#8511:original` |  |
+| Aetherpool | Eterico | Decisione dell'utente | Controllo automatico: residuo. Aggettivo da accordare al sostantivo: «arma/armatura/impugnatura eterica», «armi/armature/impugnature eteriche», «equipaggiamento/vetro/frammento eterico», «frammenti/scudi eterici». Eliminare «di aetherpool» quando diventa un aggettivo; adeguare articoli e altri aggettivi. Maiuscole secondo il campo sorgente e la funzione, minuscolo in prosa. Sostituisce anche le precedenti rese «etereo/eterea» e «della riserva eterea» riferite ad aetherpool; non modificare gli altri usi di etereo né sorgenti, identificatori o tag. Varianti ammesse in prosa: «eterica», «eterici», «eteriche». |
 | Aethernet | Eternet | `system/addon.json#2720:original` |  |
 | Gil | Gil | `system/addon.json#830:original` |  |
 | Scrip | Gettone | Decisione dell'utente | Valuta degli Artigiani e dei Raccoglitori; al plurale usare «Gettoni degli Artigiani/dei Raccoglitori». |

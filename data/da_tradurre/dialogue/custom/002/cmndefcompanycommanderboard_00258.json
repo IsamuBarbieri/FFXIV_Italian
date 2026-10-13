@@ -8,25 +8,25 @@
   "1": {
     "name": "TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_SELECT_TITLE",
     "translation_name": "TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_SELECT_TITLE",
-    "description": "Vessels deployed: \u003Chex:022003E80303\u003E/\u003Chex:022003E80403\u003E\u003Chex:02100103\u003ECeruleum tanks: \u003Chex:022003E80203\u003E\u003Chex:02100103\u003ESelect an airship.",
+    "description": "Vessels deployed: <hex:022003E80303>/<hex:022003E80403><hex:02100103>Ceruleum tanks: <hex:022003E80203><hex:02100103>Select an airship.",
     "translation_description": ""
   },
   "2": {
     "name": "TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_ADD_NEW_AIRSHIP",
     "translation_name": "TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_ADD_NEW_AIRSHIP",
-    "description": "Outfit and register an airship. (Flight credits required: \u003Chex:022003E80203\u003E)",
+    "description": "Outfit and register an airship. (Flight credits required: <hex:022003E80203>)",
     "translation_description": ""
   },
   "3": {
     "name": "TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME",
     "translation_name": "TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME",
-    "description": "\u003Chex:021A020203\u003E\u003Chex:022903EA0203\u003E\u003Chex:021A020103\u003E. (Rank: \u003Chex:022003E80603\u003E) \u003Chex:0209B6E803FF01FF01FF472028566F7961676520636F6D706C65746520696E20020811E1E80701FF09022003E807036420FF0103020811E1E80401FF09022003E804036820FF0103022003E805036D2920FF4820284D697373696F6E20636F6D706C65746520696E20020811E1E80701FF09022003E807036420FF0103020811E1E80401FF09022003E804036820FF0103022003E805036D2920FF1D20284177616974696E6720616C6C69616E636520706172746965732903\u003E",
+    "description": "<hex:021A020203><hex:022903EA0203><hex:021A020103>. (Rank: <hex:022003E80603>) <hex:0209B6E803FF01FF01FF472028566F7961676520636F6D706C65746520696E20020811E1E80701FF09022003E807036420FF0103020811E1E80401FF09022003E804036820FF0103022003E805036D2920FF4820284D697373696F6E20636F6D706C65746520696E20020811E1E80701FF09022003E807036420FF0103020811E1E80401FF09022003E804036820FF0103022003E805036D2920FF1D20284177616974696E6720616C6C69616E636520706172746965732903>",
     "translation_description": ""
   },
   "4": {
     "name": "TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME_FINISH",
     "translation_name": "TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME_FINISH",
-    "description": "\u003Chex:021A020203\u003E\u003Chex:022903EA0203\u003E\u003Chex:021A020103\u003E. (Rank: \u003Chex:022003E80603\u003E) \u003Chex:020930E803FF01FF01FF13205B566F7961676520636F6D706C6574655DFF14205B4D697373696F6E20636F6D706C6574655D03\u003E",
+    "description": "<hex:021A020203><hex:022903EA0203><hex:021A020103>. (Rank: <hex:022003E80603>) <hex:020930E803FF01FF01FF13205B566F7961676520636F6D706C6574655DFF14205B4D697373696F6E20636F6D706C6574655D03>",
     "translation_description": ""
   },
   "5": {
@@ -38,7 +38,7 @@
   "6": {
     "name": "TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_TITLE",
     "translation_name": "TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_TITLE",
-    "description": "Vessels deployed: \u003Chex:022003E80503\u003E/\u003Chex:022003E80603\u003E\u003Chex:02100103\u003ECeruleum tanks: \u003Chex:022003E80303\u003E\u003Chex:02100103\u003E\u003Chex:021A020203\u003E\u003Chex:022903EA0203\u003E\u003Chex:021A020103\u003E (Rank: \u003Chex:022003E80403\u003E) - Available",
+    "description": "Vessels deployed: <hex:022003E80503>/<hex:022003E80603><hex:02100103>Ceruleum tanks: <hex:022003E80303><hex:02100103><hex:021A020203><hex:022903EA0203><hex:021A020103> (Rank: <hex:022003E80403>) - Available",
     "translation_description": ""
   },
   "7": {
@@ -116,7 +116,7 @@
   "19": {
     "name": "TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_VOY_TITLE",
     "translation_name": "TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_VOY_TITLE",
-    "description": "Vessels deployed: \u003Chex:022003E80403\u003E/\u003Chex:022003E80503\u003E\u003Chex:02100103\u003E\u003Chex:021A020203\u003E\u003Chex:022903EA0203\u003E\u003Chex:021A020103\u003E (Rank: \u003Chex:022003E80303\u003E) - Deployed\u003Chex:02100103\u003EVoyage complete in \u003Chex:020811E1E80601FF09022003E806036420FF0103\u003E\u003Chex:020811E1E80701FF09022003E807036820FF0103\u003E\u003Chex:022003E80803\u003Em",
+    "description": "Vessels deployed: <hex:022003E80403>/<hex:022003E80503><hex:02100103><hex:021A020203><hex:022903EA0203><hex:021A020103> (Rank: <hex:022003E80303>) - Deployed<hex:02100103>Voyage complete in <hex:020811E1E80601FF09022003E806036420FF0103><hex:020811E1E80701FF09022003E807036820FF0103><hex:022003E80803>m",
     "translation_description": ""
   },
   "20": {
@@ -152,13 +152,13 @@
   "25": {
     "name": "TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME_MES_0",
     "translation_name": "TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME_MES_0",
-    "description": "Names must be formed from alphanumeric characters. The following punctuation marks are also allowed:\u003Chex:02100103\u003E\u003Chex:024804F201FC03\u003E\u003Chex:024904F201FD03\u003E\u0027\u003Chex:021D0103\u003E. , : ; ! ? \u0026 - _\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E\u003Chex:02100103\u003E\u2022 Double spaces/underscores are not allowed.\u003Chex:02100103\u003E\u2022 A space cannot be used before or after the name.\u003Chex:02100103\u003E\u2022 Names consisting solely of punctuation marks are prohibited.",
+    "description": "Names must be formed from alphanumeric characters. The following punctuation marks are also allowed:<hex:02100103><hex:024804F201FC03><hex:024904F201FD03>'<hex:021D0103>. , : ; ! ? & - _<hex:0249020103><hex:0248020103><hex:02100103>• Double spaces/underscores are not allowed.<hex:02100103>• A space cannot be used before or after the name.<hex:02100103>• Names consisting solely of punctuation marks are prohibited.",
     "translation_description": ""
   },
   "26": {
     "name": "TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_REMOVE_AIRSHIP_TITLE",
     "translation_name": "TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_REMOVE_AIRSHIP_TITLE",
-    "description": "Are you certain you wish to dismantle \u003Chex:021A020203\u003E\u003Chex:022903EA0203\u003E\u003Chex:021A020103\u003E?\u003Chex:02100103\u003E\u003Chex:024804F201FC03\u003E\u003Chex:024904F201FD03\u003EPlease note that while airship components will be returned, your airship\u0027s registration, rank, and accrued experience will be lost.\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E",
+    "description": "Are you certain you wish to dismantle <hex:021A020203><hex:022903EA0203><hex:021A020103>?<hex:02100103><hex:024804F201FC03><hex:024904F201FD03>Please note that while airship components will be returned, your airship's registration, rank, and accrued experience will be lost.<hex:0249020103><hex:0248020103>",
     "translation_description": ""
   },
   "27": {
@@ -176,13 +176,13 @@
   "29": {
     "name": "TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_REGISTRATION_2",
     "translation_name": "TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_REGISTRATION_2",
-    "description": "\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EFlight credits\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E can be purchased from resident caretakers with company credits.",
+    "description": "<hex:024804F201F403><hex:024904F201F503>Flight credits<hex:0249020103><hex:0248020103> can be purchased from resident caretakers with company credits.",
     "translation_description": ""
   },
   "30": {
     "name": "TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_REGISTRATION_3",
     "translation_name": "TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_REGISTRATION_3",
-    "description": "\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EAirship components\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E can be constructed in your company workshop. Please note that hull, rigging, forecastle, and aftcastle components are required to outfit an airship.",
+    "description": "<hex:024804F201F403><hex:024904F201F503>Airship components<hex:0249020103><hex:0248020103> can be constructed in your company workshop. Please note that hull, rigging, forecastle, and aftcastle components are required to outfit an airship.",
     "translation_description": ""
   },
   "31": {
@@ -194,7 +194,7 @@
   "32": {
     "name": "TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_EXPLOG_1",
     "translation_name": "TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_EXPLOG_1",
-    "description": "Upon the completion of an exploratory voyage, your mammet will provide a \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003Evoyage log\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E detailing the results.",
+    "description": "Upon the completion of an exploratory voyage, your mammet will provide a <hex:024804F201F403><hex:024904F201F503>voyage log<hex:0249020103><hex:0248020103> detailing the results.",
     "translation_description": ""
   },
   "33": {
@@ -260,7 +260,7 @@
   "43": {
     "name": "TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NOT_IMPLEMENTED_SORA2",
     "translation_name": "TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NOT_IMPLEMENTED_SORA2",
-    "description": "\u30C7\u30A3\u30A2\u30C7\u30E0\u8AF8\u5CF6\u306B\u81F3\u308B\u7A7A\u8DEF\u306E\u98A8\u8108\u304C\u4E71\u308C\u3066\u3044\u308B\u305F\u3081\u3001\u003Chex:02100103\u003E\u73FE\u5728\u3001\u63A2\u7D22\u3092\u884C\u3046\u3053\u3068\u304C\u3067\u304D\u307E\u305B\u3093\u3002\u003Chex:02100103\u003E\u98A8\u8108\u306E\u5B89\u5B9A\u3092\u304A\u5F85\u3061\u304F\u3060\u3055\u3044\u3002",
+    "description": "ディアデム諸島に至る空路の風脈が乱れているため、<hex:02100103>現在、探索を行うことができません。<hex:02100103>風脈の安定をお待ちください。",
     "translation_description": ""
   }
 }

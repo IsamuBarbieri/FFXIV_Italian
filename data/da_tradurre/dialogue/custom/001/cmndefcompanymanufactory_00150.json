@@ -14,7 +14,7 @@
   "2": {
     "name": "TEXT_CMNDEFCOMPANYMANUFACTORY_00150_MENU_CC_SUPPLY",
     "translation_name": "TEXT_CMNDEFCOMPANYMANUFACTORY_00150_MENU_CC_SUPPLY",
-    "description": "Contribute materials. (Quality: \u003Chex:022003E80203\u003E/100)",
+    "description": "Contribute materials. (Quality: <hex:022003E80203>/100)",
     "translation_description": ""
   },
   "3": {
@@ -32,13 +32,13 @@
   "5": {
     "name": "TEXT_CMNDEFCOMPANYMANUFACTORY_00150_MENU_CC_PROGRESS",
     "translation_name": "TEXT_CMNDEFCOMPANYMANUFACTORY_00150_MENU_CC_PROGRESS",
-    "description": "Advance to the next phase of production. (Quality: \u003Chex:022003E80203\u003E/100)",
+    "description": "Advance to the next phase of production. (Quality: <hex:022003E80203>/100)",
     "translation_description": ""
   },
   "6": {
     "name": "TEXT_CMNDEFCOMPANYMANUFACTORY_00150_MENU_CC_LAST_PROGRESS",
     "translation_name": "TEXT_CMNDEFCOMPANYMANUFACTORY_00150_MENU_CC_LAST_PROGRESS",
-    "description": "Complete the construction of \u003Chex:02310CFF054974656D03E802020203\u003E. (Quality: \u003Chex:022003E80303\u003E/100)",
+    "description": "Complete the construction of <hex:02310CFF054974656D03E802020203>. (Quality: <hex:022003E80303>/100)",
     "translation_description": ""
   },
   "7": {
@@ -50,7 +50,7 @@
   "8": {
     "name": "TEXT_CMNDEFCOMPANYMANUFACTORY_00150_SUBMENU_CC_BREAK_ALL_CONF",
     "translation_name": "TEXT_CMNDEFCOMPANYMANUFACTORY_00150_SUBMENU_CC_BREAK_ALL_CONF",
-    "description": "Are you certain you wish to discontinue the construction of \u003Chex:02310CFF054974656D03E802020203\u003E?\u003Chex:02100103\u003E\u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EPlease note that all progress will be lost, and materials previously contributed will not be returned.\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E",
+    "description": "Are you certain you wish to discontinue the construction of <hex:02310CFF054974656D03E802020203>?<hex:02100103><hex:024804F201F403><hex:024904F201F503>Please note that all progress will be lost, and materials previously contributed will not be returned.<hex:0249020103><hex:0248020103>",
     "translation_description": ""
   },
   "9": {
@@ -74,7 +74,7 @@
   "12": {
     "name": "TEXT_CMNDEFCOMPANYMANUFACTORY_00150_FINISH_CONF",
     "translation_name": "TEXT_CMNDEFCOMPANYMANUFACTORY_00150_FINISH_CONF",
-    "description": "Retrieve \u003Chex:02310CFF054974656D03E802020203\u003E from the company workshop?",
+    "description": "Retrieve <hex:02310CFF054974656D03E802020203> from the company workshop?",
     "translation_description": ""
   },
   "13": {

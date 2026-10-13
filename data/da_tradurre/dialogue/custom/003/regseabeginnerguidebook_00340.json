@@ -44,19 +44,19 @@
   "7": {
     "name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_GUIDENOTE00340_000_010",
     "translation_name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_GUIDENOTE00340_000_010",
-    "description": "(-Entry for \u201CCallow Conjurer\u201D-)\u003Chex:021A020203\u003EGreetings, fellow fledgling adventurer! We may never meet, so I thought I\u0027d leave a handy hint that the \u201Cmasters\u201D of this hall neglected to teach me!\u003Chex:021A020103\u003E",
+    "description": "(-Entry for “Callow Conjurer”-)<hex:021A020203>Greetings, fellow fledgling adventurer! We may never meet, so I thought I'd leave a handy hint that the “masters” of this hall neglected to teach me!<hex:021A020103>",
     "translation_description": ""
   },
   "8": {
     "name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_011",
     "translation_name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_011",
-    "description": "In addition to using the icons placed on your hotbar, you can execute actions via text commands entered in the chat input bar. Typing \u003Chex:024804F2022203\u003E/action Cure\u003Chex:0248020103\u003E for example, will allow you to cast the Cure spell.",
+    "description": "In addition to using the icons placed on your hotbar, you can execute actions via text commands entered in the chat input bar. Typing <hex:024804F2022203>/action Cure<hex:0248020103> for example, will allow you to cast the Cure spell.",
     "translation_description": ""
   },
   "9": {
     "name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_012",
     "translation_name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_012",
-    "description": "You can also designate a target for the action. To target your own character, leave a space after the action name, then type \u003Chex:024804F2022203\u003E\u003Cme\u003E\u003Chex:0248020103\u003E. Or, to use an action on your currently selected target, simply add \u003Chex:024804F2022203\u003E\u003Ct\u003E\u003Chex:0248020103\u003E.",
+    "description": "You can also designate a target for the action. To target your own character, leave a space after the action name, then type <hex:024804F2022203><me><hex:0248020103>. Or, to use an action on your currently selected target, simply add <hex:024804F2022203><t><hex:0248020103>.",
     "translation_description": ""
   },
   "10": {
@@ -68,13 +68,13 @@
   "11": {
     "name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_014",
     "translation_name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_014",
-    "description": "A complete list of text commands can be viewed via the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EUser Macro\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E window opened from the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESystem\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E menu.",
+    "description": "A complete list of text commands can be viewed via the <hex:024804F201F403><hex:024904F201F503>User Macro<hex:0249020103><hex:0248020103> window opened from the <hex:024804F201F403><hex:024904F201F503>System<hex:0249020103><hex:0248020103> menu.",
     "translation_description": ""
   },
   "12": {
     "name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_GUIDENOTE00340_000_020",
     "translation_name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_GUIDENOTE00340_000_020",
-    "description": "(-Entry for \u201CMiqo\u0027te Myrmidon\u201D-)\u003Chex:021A020203\u003EDo you ever find that the more desperate the situation, the harder it is to perform techniques you\u0027ve drilled a thousand times? For me, it was incredibly helpful to sit down and write out my most common combat procedures before heading into battle!\u003Chex:021A020103\u003E",
+    "description": "(-Entry for “Miqo'te Myrmidon”-)<hex:021A020203>Do you ever find that the more desperate the situation, the harder it is to perform techniques you've drilled a thousand times? For me, it was incredibly helpful to sit down and write out my most common combat procedures before heading into battle!<hex:021A020103>",
     "translation_description": ""
   },
   "13": {
@@ -86,37 +86,37 @@
   "14": {
     "name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_022",
     "translation_name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_022",
-    "description": "To access the macro editor, open the \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003ESystem\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E menu and select \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EUser Macros\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E. The following are some examples of common macros.",
+    "description": "To access the macro editor, open the <hex:024804F201F403><hex:024904F201F503>System<hex:0249020103><hex:0248020103> menu and select <hex:024804F201F403><hex:024904F201F503>User Macros<hex:0249020103><hex:0248020103>. The following are some examples of common macros.",
     "translation_description": ""
   },
   "15": {
     "name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_023",
     "translation_name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_023",
-    "description": "Use Shield Lob on target and mark with sign:\u003Chex:02100103\u003E\u003Chex:024804F2022203\u003E/marking attack1 \u003Ct\u003E\u003Chex:02100103\u003E/action \u201CShield Lob\u201D \u003Ct\u003E\u003Chex:0248020103\u003E",
+    "description": "Use Shield Lob on target and mark with sign:<hex:02100103><hex:024804F2022203>/marking attack1 <t><hex:02100103>/action “Shield Lob” <t><hex:0248020103>",
     "translation_description": ""
   },
   "16": {
     "name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_024",
     "translation_name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_024",
-    "description": "Target nearest enemy and face target:\u003Chex:02100103\u003E\u003Chex:024804F2022203\u003E/tenemy\u003Chex:02100103\u003E/ft\u003Chex:0248020103\u003E",
+    "description": "Target nearest enemy and face target:<hex:02100103><hex:024804F2022203>/tenemy<hex:02100103>/ft<hex:0248020103>",
     "translation_description": ""
   },
   "17": {
     "name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_025",
     "translation_name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_025",
-    "description": "Declare action being executed in party chat:\u003Chex:02100103\u003E\u003Chex:024804F2022203\u003E/p Raising \u003Ct\u003E!\u003Chex:02100103\u003E/action Raise \u003Ct\u003E\u003Chex:0248020103\u003E",
+    "description": "Declare action being executed in party chat:<hex:02100103><hex:024804F2022203>/p Raising <t>!<hex:02100103>/action Raise <t><hex:0248020103>",
     "translation_description": ""
   },
   "18": {
     "name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_026",
     "translation_name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_026",
-    "description": "Macros such as these make it easy to perform complex actions with reliability and minimal input. Experiment with the editor, and you\u0027ll soon have a set of user macros to suit all your adventuring needs.",
+    "description": "Macros such as these make it easy to perform complex actions with reliability and minimal input. Experiment with the editor, and you'll soon have a set of user macros to suit all your adventuring needs.",
     "translation_description": ""
   },
   "19": {
     "name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_GUIDENOTE00340_000_030",
     "translation_name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_GUIDENOTE00340_000_030",
-    "description": "(-Entry for \u201CVagabond Lalafell\u201D-)\u003Chex:021A020203\u003EThe one thing all party members should learn how to do is communicate! And not just through words\u2500you might be surprised at how easily an agreed-upon sign can save time...not to mention unnecessary injury!\u003Chex:021A020103\u003E",
+    "description": "(-Entry for “Vagabond Lalafell”-)<hex:021A020203>The one thing all party members should learn how to do is communicate! And not just through words─you might be surprised at how easily an agreed-upon sign can save time...not to mention unnecessary injury!<hex:021A020103>",
     "translation_description": ""
   },
   "20": {
@@ -128,7 +128,7 @@
   "21": {
     "name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_032",
     "translation_name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_032",
-    "description": "Signs, for example, can be used to mark any target\u2500friendly or hostile\u2500with an eye-catching symbol.",
+    "description": "Signs, for example, can be used to mark any target─friendly or hostile─with an eye-catching symbol.",
     "translation_description": ""
   },
   "22": {
@@ -146,13 +146,13 @@
   "24": {
     "name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_035",
     "translation_name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_035",
-    "description": "The various signs and waymarks can be found under \u003Chex:024804F201F403\u003E\u003Chex:024904F201F503\u003EParty\u003Chex:0249020103\u003E\u003Chex:0248020103\u003E in the main menu.",
+    "description": "The various signs and waymarks can be found under <hex:024804F201F403><hex:024904F201F503>Party<hex:0249020103><hex:0248020103> in the main menu.",
     "translation_description": ""
   },
   "25": {
     "name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_GUIDENOTE00340_000_040",
     "translation_name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_GUIDENOTE00340_000_040",
-    "description": "(-Entry for \u201CAnxious Adventurer\u201D-)\u003Chex:021A020203\u003EI was always too afraid to join a party\u2500afraid that I\u0027d do the wrong thing. Then the masters explained to me how everyone has a role, and what exactly those roles are. That advice instilled me with confidence, and mayhap it will do the same for you...\u003Chex:021A020103\u003E",
+    "description": "(-Entry for “Anxious Adventurer”-)<hex:021A020203>I was always too afraid to join a party─afraid that I'd do the wrong thing. Then the masters explained to me how everyone has a role, and what exactly those roles are. That advice instilled me with confidence, and mayhap it will do the same for you...<hex:021A020103>",
     "translation_description": ""
   },
   "26": {
@@ -164,19 +164,19 @@
   "27": {
     "name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_042",
     "translation_name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_042",
-    "description": "The Tank (Gladiator, Marauder)\u003Chex:02100103\u003ETank classes are hardy bulwarks with mountains of HP and excellent defensive attributes. Tanks protect their companions by building enmity with opponents and bearing the brunt of enemy attacks.",
+    "description": "The Tank (Gladiator, Marauder)<hex:02100103>Tank classes are hardy bulwarks with mountains of HP and excellent defensive attributes. Tanks protect their companions by building enmity with opponents and bearing the brunt of enemy attacks.",
     "translation_description": ""
   },
   "28": {
     "name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_043",
     "translation_name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_043",
-    "description": "The Healer (Conjurer)\u003Chex:02100103\u003EHealers are specialists in the restorative arts. It is their job to keep their companions alive by restoring lost HP and cleansing detrimental effects such as poison.",
+    "description": "The Healer (Conjurer)<hex:02100103>Healers are specialists in the restorative arts. It is their job to keep their companions alive by restoring lost HP and cleansing detrimental effects such as poison.",
     "translation_description": ""
   },
   "29": {
     "name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_044",
     "translation_name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_044",
-    "description": "The DPS (Pugilist, Lancer, Archer, Rogue, Thaumaturge, Arcanist)\u003Chex:02100103\u003EDPS (short for Damage Per Second) classes are the masters of inflicting harm. These damage dealers must be careful not to invite an enemy\u0027s wrath by exceeding the enmity built by the tank.",
+    "description": "The DPS (Pugilist, Lancer, Archer, Rogue, Thaumaturge, Arcanist)<hex:02100103>DPS (short for Damage Per Second) classes are the masters of inflicting harm. These damage dealers must be careful not to invite an enemy's wrath by exceeding the enmity built by the tank.",
     "translation_description": ""
   },
   "30": {
@@ -188,13 +188,13 @@
   "31": {
     "name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_046",
     "translation_name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_046",
-    "description": "Once you understand your role, it becomes clear what actions are expected of you in a group situation. When everyone plays their part, you truly become a \u201Cparty\u201D\u2500a band of companions capable of defeating foes far more powerful than could any adventurer fighting alone.",
+    "description": "Once you understand your role, it becomes clear what actions are expected of you in a group situation. When everyone plays their part, you truly become a “party”─a band of companions capable of defeating foes far more powerful than could any adventurer fighting alone.",
     "translation_description": ""
   },
   "32": {
     "name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_GUIDENOTE00340_000_050",
     "translation_name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_GUIDENOTE00340_000_050",
-    "description": "(-Entry for \u201CRustic Roegadyn\u201D-)\u003Chex:021A020203\u003ESometimes me mates would use words that made no bloody sense...an\u0027 I\u0027d just nod along. But ye can be sure I began askin\u0027 what they meant after me fear o\u0027 lookin\u0027 foolish almost got me skewered...\u003Chex:021A020103\u003E",
+    "description": "(-Entry for “Rustic Roegadyn”-)<hex:021A020203>Sometimes me mates would use words that made no bloody sense...an' I'd just nod along. But ye can be sure I began askin' what they meant after me fear o' lookin' foolish almost got me skewered...<hex:021A020103>",
     "translation_description": ""
   },
   "33": {
@@ -206,31 +206,31 @@
   "34": {
     "name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_052",
     "translation_name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_052",
-    "description": "Spawn: Verb or noun used when a monster (re)appears in the world.\u003Chex:02100103\u003EAdd: Used to describe sudden enemy reinforcements.\u003Chex:02100103\u003EPull: The act of bringing a distant foe to the party\u0027s location.",
+    "description": "Spawn: Verb or noun used when a monster (re)appears in the world.<hex:02100103>Add: Used to describe sudden enemy reinforcements.<hex:02100103>Pull: The act of bringing a distant foe to the party's location.",
     "translation_description": ""
   },
   "35": {
     "name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_053",
     "translation_name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_053",
-    "description": "Aggro: Enmity. The gauge of an enemy\u0027s likelihood to attack you. Also known as \u201Chate\u201D or \u201Cthreat.\u201D\u003Chex:02100103\u003EBuff: Positive effects that improve attributes.\u003Chex:02100103\u003EDebuff: Negative effects that weaken attributes.",
+    "description": "Aggro: Enmity. The gauge of an enemy's likelihood to attack you. Also known as “hate” or “threat.”<hex:02100103>Buff: Positive effects that improve attributes.<hex:02100103>Debuff: Negative effects that weaken attributes.",
     "translation_description": ""
   },
   "36": {
     "name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_054",
     "translation_name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_054",
-    "description": "DoT: Abbreviation for \u201CDamage over Time.\u201D\u003Chex:02100103\u003EAE/AoE: Abbreviation for \u201CArea (of) Effect.\u201D",
+    "description": "DoT: Abbreviation for “Damage over Time.”<hex:02100103>AE/AoE: Abbreviation for “Area (of) Effect.”",
     "translation_description": ""
   },
   "37": {
     "name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_055",
     "translation_name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_SYSTEM_000_055",
-    "description": "There are many more terms that may be unfamiliar to players new to the game, so don\u0027t be afraid to ask a mentor or party member for an explanation!",
+    "description": "There are many more terms that may be unfamiliar to players new to the game, so don't be afraid to ask a mentor or party member for an explanation!",
     "translation_description": ""
   },
   "38": {
     "name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_TALK_ACTOR",
     "translation_name": "TEXT_REGSEABEGINNERGUIDEBOOK_00340_TALK_ACTOR",
-    "description": "\uFF08\u2605\u672A\u4F7F\u7528\uFF0F\u524A\u9664\u4E88\u5B9A\u2605\uFF09",
+    "description": "（★未使用／削除予定★）",
     "translation_description": ""
   }
 }
