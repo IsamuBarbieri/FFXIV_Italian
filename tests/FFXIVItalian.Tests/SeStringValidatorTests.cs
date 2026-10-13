@@ -5,6 +5,29 @@ namespace FFXIVItalian.Tests;
 
 public class SeStringValidatorTests
 {
+    [Theory]
+    [InlineData("One<hex:021F0103>handed Thaumaturge's Arm", "Arma da Taumaturgo a una mano")]
+    [InlineData("Two<hex:021F0103>handed Thaumaturge's Arm", "Arma da Taumaturgo a due mani")]
+    [InlineData("One<hex:021F0103>handed Conjurer's Arm", "Arma da Incantatore a una mano")]
+    [InlineData("Two<hex:021F0103>handed Conjurer's Arm", "Arma da Incantatore a due mani")]
+    [InlineData("city<hex:021F0103>state", "città<hex:021F0103>stato")]
+    public void Validate_ContextualHyphenAdaptation_Passes(string en, string it)
+    {
+        Assert.True(SeStringValidator.Validate(en, it).IsValid);
+    }
+
+    [Theory]
+    [InlineData("Arma da Taumaturgo a una<hex:021F0103> mano")]
+    [InlineData("Arma da Incantatore a due<hex:021F0103> mani")]
+    [InlineData("Arma a Una <hex:021f0103> Mano")]
+    public void Validate_HyphenBetweenNumeralAndHand_Fails(string it)
+    {
+        var result = SeStringValidator.Validate("One<hex:021F0103>handed Conjurer's Arm", it);
+
+        Assert.False(result.IsValid);
+        Assert.Contains(result.Errors, e => e.Contains("Trattino SeString improprio"));
+    }
+
     [Fact]
     public void Validate_ValidStringWithBalancedTags_Passes()
     {

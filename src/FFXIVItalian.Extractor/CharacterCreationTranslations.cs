@@ -151,7 +151,7 @@ public static class CharacterCreationTranslations
         SetMulti(144,
             "Xaela", "Xaela",
             "The Xaela revere the Dusk Mother, primordial entity of the star-strewn night.\nThey boast lustrous scales and horns of pitch black and maintain nomadic ways\nacross the vast Azim Steppe. Divided into dozens of martial tribes perpetually\nwarring and allying among themselves, the Xaela place supreme value on battle prowess,\nsurvival skills, and untrammeled freedom beneath the open sky.",
-            "Gli Xaela venerano il Padre dell'Imbrunire, entità primordiale della notte stellata.\nSfoggiano scaglie e corna di una fuligginosa tonalità nera come la pece e mantengono costumi nomadi\nnelle sterminate steppe di Othard. Suddivisi in decine di tribù guerriere costantemente in lotta o alleanza\ntra loro, gli Xaela ripongono il massimo valore nel coraggio in battaglia, nell'abilità venatoria e nella libertà\nassoluta sotto la volta celeste.");
+            "Gli Xaela venerano la Madre del Crepuscolo, entità primordiale della notte stellata.\nSfoggiano scaglie e corna di una fuligginosa tonalità nera come la pece e mantengono costumi nomadi\nnelle sterminate steppe di Othard. Suddivisi in decine di tribù guerriere costantemente in lotta o alleanza\ntra loro, gli Xaela ripongono il massimo valore nel coraggio in battaglia, nell'abilità venatoria e nella libertà\nassoluta sotto la volta celeste.");
 
         SetMulti(462,
             "Helions", "Eliano",

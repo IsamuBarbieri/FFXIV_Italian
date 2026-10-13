@@ -7,7 +7,7 @@
   },
   "1": {
     "name": "Choco Potion",
-    "translation_name": "Pozione Chocobo",
+    "translation_name": "Choco Pozione",
     "description": "Instantly restores stamina by 10%.",
     "translation_description": "Ripristina istantaneamente il 10% della resistenza."
   },
@@ -25,7 +25,7 @@
   },
   "4": {
     "name": "Choco Aether",
-    "translation_name": "Etere Chocobo",
+    "translation_name": "Choco Etere",
     "description": "Allows a previously used race ability to be executed again.",
     "translation_description": "Consente di usare di nuovo un'abilità di gara già utilizzata."
   },
@@ -33,13 +33,13 @@
     "name": "Bacchus\u0027s Water",
     "translation_name": "Acqua di Bacco",
     "description": "Sends the forerunning chocobo into a Frenzied state.",
-    "translation_description": "Fa entrare in Frenesia il chocobo in testa alla gara."
+    "translation_description": "Infligge lo stato Frenetico al chocobo che ti precede."
   },
   "6": {
     "name": "Graviball",
     "translation_name": "Palla Gravitazionale",
     "description": "Afflicts the forerunning chocobo with Heavy.",
-    "translation_description": "Infligge Pesantezza al chocobo in testa alla gara."
+    "translation_description": "Infligge Pesantezza al chocobo che ti precede."
   },
   "7": {
     "name": "Briar Caltrop",
@@ -51,11 +51,11 @@
     "name": "Hero Tonic",
     "translation_name": "Tonico dell'Eroe",
     "description": "Invigorates your chocobo for 15 seconds, increasing its overall performance while nullifying any enfeeblements.",
-    "translation_description": "Dà nuova energia al tuo chocobo per 15 secondi, migliorandone le prestazioni e annullando ogni debilitazione."
+    "translation_description": "Dà nuova energia al tuo chocobo per 15 secondi, migliorandone le prestazioni e annullando ogni alterazione negativa."
   },
   "9": {
     "name": "Choco Meteor",
-    "translation_name": "Chocobo Meteora",
+    "translation_name": "Choco Meteora",
     "description": "Summons a meteor from the heavens to wreak havoc on all other chocobos.",
     "translation_description": "Evoca una meteora dal cielo per devastare tutti gli altri chocobo."
   },
@@ -63,12 +63,12 @@
     "name": "Stamina Swapper",
     "translation_name": "Scambio di Resistenza",
     "description": "Interchanges your chocobo\u0027s stamina with that of a forerunning chocobo. Swap is made only if the forerunning chocobo has more stamina than yours.",
-    "translation_description": "Scambia la resistenza del tuo chocobo con quella del chocobo in testa alla gara. Lo scambio avviene solo se il suo valore è superiore al tuo."
+    "translation_description": "Scambia la resistenza del tuo chocobo con quella di un chocobo che ti precede. Lo scambio avviene solo se quel chocobo ha più resistenza del tuo."
   },
   "11": {
     "name": "Spiderweb",
     "translation_name": "Ragnatela",
     "description": "Renders the chocobo running immediately behind you unable to use items.",
-    "translation_description": "Impedisce al chocobo che ti segue da vicino di usare oggetti."
+    "translation_description": "Impedisce al chocobo immediatamente dietro di te di usare oggetti."
   }
 }

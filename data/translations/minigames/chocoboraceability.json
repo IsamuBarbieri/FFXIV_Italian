@@ -19,19 +19,19 @@
   },
   "4": {
     "name": "Choco Cure",
-    "translation_name": "Cura Chocobo",
+    "translation_name": "Choco Cura",
     "description": "Restores 6% of total stamina.",
     "translation_description": "Ripristina il 6% della resistenza totale."
   },
   "5": {
     "name": "Choco Cure II",
-    "translation_name": "Cura Chocobo II",
+    "translation_name": "Choco Cura II",
     "description": "Restores 9% of total stamina.",
     "translation_description": "Ripristina il 9% della resistenza totale."
   },
   "6": {
     "name": "Choco Cure III",
-    "translation_name": "Cura Chocobo III",
+    "translation_name": "Choco Cura III",
     "description": "Restores 12% of total stamina.",
     "translation_description": "Ripristina il 12% della resistenza totale."
   },
@@ -51,7 +51,7 @@
     "name": "Choco Esuna III",
     "translation_name": "Choco Esuna III",
     "description": "Removes all current enfeeblements with a 100% success rate.",
-    "translation_description": "Rimuove tutte le alterazioni negative attive con una probabilità del 105%."
+    "translation_description": "Rimuove tutte le alterazioni negative attive con una probabilità del 100%."
   },
   "10": {
     "name": "Choco Ease",
@@ -93,37 +93,37 @@
     "name": "Choco Reflect",
     "translation_name": "Choco Riflesso",
     "description": "Repels any non-area of effect enfeeblement back to its point of origin.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 10s",
-    "translation_description": "Rimanda all’origine qualsiasi alterazione negativa che non ha effetto ad area.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata: <hex:0249020103><hex:0248020103> 10 s"
+    "translation_description": "Rimanda all'origine qualsiasi alterazione negativa priva di effetto ad area.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata: <hex:0249020103><hex:0248020103> 10 s"
   },
   "17": {
     "name": "Choco Reflect II",
     "translation_name": "Choco Riflesso II",
     "description": "Repels any non-area of effect enfeeblement back to its point of origin.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 15s",
-    "translation_description": "Rimanda all’origine qualsiasi alterazione negativa che non ha effetto ad area.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata: <hex:0249020103><hex:0248020103> 15 s"
+    "translation_description": "Rimanda all'origine qualsiasi alterazione negativa priva di effetto ad area.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata: <hex:0249020103><hex:0248020103> 15 s"
   },
   "18": {
     "name": "Choco Reflect III",
     "translation_name": "Choco Riflesso III",
     "description": "Repels any non-area of effect enfeeblement back to its point of origin.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 20s",
-    "translation_description": "Rimanda all’origine qualsiasi alterazione negativa che non ha effetto ad area.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata: <hex:0249020103><hex:0248020103> 20 s"
+    "translation_description": "Rimanda all'origine qualsiasi alterazione negativa priva di effetto ad area.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata: <hex:0249020103><hex:0248020103> 20 s"
   },
   "19": {
     "name": "Choco Steal",
     "translation_name": "Choco Furto",
     "description": "Take an item from the satchel of the forerunning jockey with a 50% success rate.",
-    "translation_description": "Ruba un oggetto dalla bisaccia del fantino in testa alla corsa con una probabilità del 50%."
+    "translation_description": "Ruba un oggetto dalla bisaccia del fantino che precede con una probabilità del 50%."
   },
   "20": {
     "name": "Choco Steal II",
     "translation_name": "Choco Furto II",
     "description": "Take an item from the satchel of the forerunning jockey with a 70% success rate.",
-    "translation_description": "Ruba un oggetto dalla bisaccia del fantino in testa alla corsa con una probabilità del 70%."
+    "translation_description": "Ruba un oggetto dalla bisaccia del fantino che precede con una probabilità del 70%."
   },
   "21": {
     "name": "Choco Steal III",
     "translation_name": "Choco Furto III",
     "description": "Take an item from the satchel of the forerunning jockey with a 90% success rate.",
-    "translation_description": "Ruba un oggetto dalla bisaccia del fantino in testa alla corsa con una probabilità del 90%."
+    "translation_description": "Ruba un oggetto dalla bisaccia del fantino che precede con una probabilità del 90%."
   },
   "22": {
     "name": "Choco Silence",
@@ -147,37 +147,37 @@
     "name": "Choco Shock",
     "translation_name": "Choco Scossa",
     "description": "Creates a disconcerting aura which distracts nearby chocobos and prevents them from using items.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 25s",
-    "translation_description": "Crea un’aura sconcertante che distrae i chocobo vicini e impedisce loro di usare oggetti.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata: <hex:0249020103><hex:0248020103> 25 s"
+    "translation_description": "Crea un'aura disorientante che distrae i chocobo vicini e impedisce loro di usare oggetti.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata: <hex:0249020103><hex:0248020103> 25 s"
   },
   "26": {
     "name": "Choco Shock II",
     "translation_name": "Choco Scossa II",
     "description": "Creates a disconcerting aura which distracts nearby chocobos and prevents them from using items.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 30s",
-    "translation_description": "Crea un’aura sconcertante che distrae i chocobo vicini e impedisce loro di usare oggetti.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata: <hex:0249020103><hex:0248020103> 30 s"
+    "translation_description": "Crea un'aura disorientante che distrae i chocobo vicini e impedisce loro di usare oggetti.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata: <hex:0249020103><hex:0248020103> 30 s"
   },
   "27": {
     "name": "Choco Shock III",
     "translation_name": "Choco Scossa III",
     "description": "Creates a disconcerting aura which distracts nearby chocobos and prevents them from using items.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 35s",
-    "translation_description": "Crea un’aura sconcertante che distrae i chocobo vicini e impedisce loro di usare oggetti.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata: <hex:0249020103><hex:0248020103> 35 s"
+    "translation_description": "Crea un'aura disorientante che distrae i chocobo vicini e impedisce loro di usare oggetti.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata: <hex:0249020103><hex:0248020103> 35 s"
   },
   "28": {
     "name": "Increased Stamina",
     "translation_name": "Resistenza Aumentata",
     "description": "Reduces stamina depletion during acceleration by 9%.",
-    "translation_description": "Riduce del 9% il consumo di resistenza durante l’accelerazione."
+    "translation_description": "Riduce del 9% il consumo di resistenza durante l'accelerazione."
   },
   "29": {
     "name": "Increased Stamina II",
     "translation_name": "Resistenza Aumentata II",
     "description": "Reduces stamina depletion during acceleration by 12%.",
-    "translation_description": "Riduce del 12% il consumo di resistenza durante l’accelerazione."
+    "translation_description": "Riduce del 12% il consumo di resistenza durante l'accelerazione."
   },
   "30": {
     "name": "Increased Stamina III",
     "translation_name": "Resistenza Aumentata III",
     "description": "Reduces stamina depletion during acceleration by 15%.",
-    "translation_description": "Riduce del 15% il consumo di resistenza durante l’accelerazione."
+    "translation_description": "Riduce del 15% il consumo di resistenza durante l'accelerazione."
   },
   "31": {
     "name": "Heavy Resistance",
@@ -195,7 +195,7 @@
     "name": "Heavy Resistance III",
     "translation_name": "Resistenza a Pesantezza III",
     "description": "Increases chances of resisting Heavy to 80%.",
-    "translation_description": "Aumenta al 80% la probabilità di resistere alla Pesantezza."
+    "translation_description": "Aumenta all'80% la probabilità di resistere alla Pesantezza."
   },
   "34": {
     "name": "Heavy Resistance IV",
@@ -225,7 +225,7 @@
     "name": "Level Head III",
     "translation_name": "Sangue Freddo III",
     "description": "Increases chances of resisting Frenzied status to 80%.",
-    "translation_description": "Aumenta al 80% la probabilità di resistere allo stato Frenetico."
+    "translation_description": "Aumenta all'80% la probabilità di resistere allo stato Frenetico."
   },
   "39": {
     "name": "Level Head IV",
@@ -255,29 +255,29 @@
     "name": "Speedy Recovery III",
     "translation_name": "Recupero Rapido III",
     "description": "Increases ability-induced stamina recovery by 80%.",
-    "translation_description": "Aumenta del 80% il recupero di resistenza fornito dalle abilità."
+    "translation_description": "Aumenta dell'80% il recupero di resistenza fornito dalle abilità."
   },
   "44": {
     "name": "Dressage",
     "translation_name": "Addestramento",
     "description": "Increases EXP earned in races by 10%.",
-    "translation_description": "Aumenta del 10% gli EXP ottenuti nelle gare."
+    "translation_description": "Aumenta del 10% l'ESP ottenuta nelle gare."
   },
   "45": {
     "name": "Dressage II",
     "translation_name": "Addestramento II",
     "description": "Increases EXP earned in races by 20%.",
-    "translation_description": "Aumenta del 20% gli EXP ottenuti nelle gare."
+    "translation_description": "Aumenta del 20% l'ESP ottenuta nelle gare."
   },
   "46": {
     "name": "Dressage III",
     "translation_name": "Addestramento III",
     "description": "Increases EXP earned in races by 30%.",
-    "translation_description": "Aumenta del 30% gli EXP ottenuti nelle gare."
+    "translation_description": "Aumenta del 30% l'ESP ottenuta nelle gare."
   },
   "47": {
     "name": "Head Start",
-    "translation_name": "Partenza Anticipata",
+    "translation_name": "Partenza a Razzo",
     "description": "Begin the race at maximum speed.",
     "translation_description": "Inizia la gara alla massima velocità."
   },
@@ -285,43 +285,43 @@
     "name": "Choco Drain",
     "translation_name": "Choco Assorbimento",
     "description": "Generates a field which drains the stamina of nearby chocobos at a rate of 15 per second.",
-    "translation_description": "Crea un’area che prosciuga la resistenza dei chocobo vicini al ritmo di 15 punti al secondo."
+    "translation_description": "Crea un'area che prosciuga la resistenza dei chocobo vicini al ritmo di 15 punti al secondo."
   },
   "49": {
     "name": "Choco Drain II",
     "translation_name": "Choco Assorbimento II",
     "description": "Generates a field which drains the stamina of nearby chocobos at a rate of 25 per second.",
-    "translation_description": "Crea un’area che prosciuga la resistenza dei chocobo vicini al ritmo di 25 punti al secondo."
+    "translation_description": "Crea un'area che prosciuga la resistenza dei chocobo vicini al ritmo di 25 punti al secondo."
   },
   "50": {
     "name": "Choco Drain III",
     "translation_name": "Choco Assorbimento III",
     "description": "Generates a field which drains the stamina of nearby chocobos at a rate of 35 per second.",
-    "translation_description": "Crea un’area che prosciuga la resistenza dei chocobo vicini al ritmo di 35 punti al secondo."
+    "translation_description": "Crea un'area che prosciuga la resistenza dei chocobo vicini al ritmo di 35 punti al secondo."
   },
   "51": {
     "name": "Paradigm Shift",
     "translation_name": "Cambio di Paradigma",
     "description": "Swaps current item with a different one.",
-    "translation_description": "Scambia l’oggetto attuale con uno diverso."
+    "translation_description": "Scambia l'oggetto attuale con uno diverso."
   },
   "52": {
     "name": "Mimic",
     "translation_name": "Mimesi",
     "description": "Repeats any ability or item used by a forerunning chocobo.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 7s",
-    "translation_description": "Imita qualsiasi abilità o oggetto usato da un chocobo in testa alla corsa.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata: <hex:0249020103><hex:0248020103> 7 s"
+    "translation_description": "Ripete qualsiasi abilità o oggetto usato da un chocobo che precede.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata: <hex:0249020103><hex:0248020103> 7 s"
   },
   "53": {
     "name": "Mimic II",
     "translation_name": "Mimesi II",
     "description": "Repeats any ability or item used by a forerunning chocobo.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 11s",
-    "translation_description": "Imita qualsiasi abilità o oggetto usato da un chocobo in testa alla corsa.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata: <hex:0249020103><hex:0248020103> 11 s"
+    "translation_description": "Ripete qualsiasi abilità o oggetto usato da un chocobo che precede.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata: <hex:0249020103><hex:0248020103> 11 s"
   },
   "54": {
     "name": "Mimic III",
     "translation_name": "Mimesi III",
     "description": "Repeats any ability or item used by a forerunning chocobo.\u003Chex:02100103\u003E\u003Chex:024804F201F803\u003E\u003Chex:024904F201F903\u003EDuration: \u003Chex:0249020103\u003E\u003Chex:0248020103\u003E 15s",
-    "translation_description": "Imita qualsiasi abilità o oggetto usato da un chocobo in testa alla corsa.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata: <hex:0249020103><hex:0248020103> 15 s"
+    "translation_description": "Ripete qualsiasi abilità o oggetto usato da un chocobo che precede.<hex:02100103><hex:024804F201F803><hex:024904F201F903>Durata: <hex:0249020103><hex:0248020103> 15 s"
   },
   "55": {
     "name": "Feather Field",
@@ -351,19 +351,19 @@
     "name": "Choco Reraise",
     "translation_name": "Choco Reiz Automatico",
     "description": "Instantly restores 60 stamina when stamina meter reaches zero.",
-    "translation_description": "Ripristina immediatamente 60 punti di resistenza quando l’indicatore della resistenza arriva a zero."
+    "translation_description": "Ripristina immediatamente 60 punti di resistenza quando l'indicatore della resistenza arriva a zero."
   },
   "60": {
     "name": "Choco Reraise II",
     "translation_name": "Choco Reiz Automatico II",
     "description": "Instantly restores 130 stamina when stamina meter reaches zero.",
-    "translation_description": "Ripristina immediatamente 130 punti di resistenza quando l’indicatore della resistenza arriva a zero."
+    "translation_description": "Ripristina immediatamente 130 punti di resistenza quando l'indicatore della resistenza arriva a zero."
   },
   "61": {
     "name": "Choco Reraise III",
     "translation_name": "Choco Reiz Automatico III",
     "description": "Instantly restores 200 stamina when stamina meter reaches zero.",
-    "translation_description": "Ripristina immediatamente 200 punti di resistenza quando l’indicatore della resistenza arriva a zero."
+    "translation_description": "Ripristina immediatamente 200 punti di resistenza quando l'indicatore della resistenza arriva a zero."
   },
   "62": {
     "name": "Enfeeblement Clause",
@@ -387,18 +387,18 @@
     "name": "Breather",
     "translation_name": "Recupero del Fiato",
     "description": "Restores stamina at a rate of 0.8% per second while decelerating.",
-    "translation_description": "Ripristina la resistenza a una velocità dell’0,8% al secondo durante la decelerazione."
+    "translation_description": "Ripristina la resistenza al ritmo dello 0,8% al secondo durante la decelerazione."
   },
   "66": {
     "name": "Breather II",
     "translation_name": "Recupero del Fiato II",
     "description": "Restores stamina at a rate of 1% per second while decelerating.",
-    "translation_description": "Ripristina la resistenza a una velocità dell’1% al secondo durante la decelerazione."
+    "translation_description": "Ripristina la resistenza al ritmo dell'1% al secondo durante la decelerazione."
   },
   "67": {
     "name": "Breather III",
     "translation_name": "Recupero del Fiato III",
     "description": "Restores stamina at a rate of 1.2% per second while decelerating.",
-    "translation_description": "Ripristina la resistenza a una velocità dell’1,2% al secondo durante la decelerazione."
+    "translation_description": "Ripristina la resistenza al ritmo dell'1,2% al secondo durante la decelerazione."
   }
 }

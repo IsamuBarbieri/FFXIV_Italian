@@ -15,7 +15,7 @@ Questo è il flusso principale quando il responsabile fornisce uno o più file d
 - Si lavora caso per caso, preservando il senso, il contesto, il registro del personaggio e le scelte terminologiche approvate.
 - Se una resa è incerta, cerca le correzioni recenti dell'utente in `data/translations/` e `data/da_revisionare/`. Usa le prime come canone; le seconde come precedenti contestuali, senza promuoverne automaticamente i termini al glossario.
 - Si conservano ID, campi originali, metadati e schema JSON. Si modificano solo i campi di traduzione.
-- I tag, i controlli e le variabili SeString restano intatti. I payload esadecimali con testo visibile si traducono e si ricodificano seguendo le istruzioni tecniche esistenti.
+- Conserva controlli, variabili e referenti SeString; traduci e ricodifica il testo visibile nei payload. Per il genere del giocatore applica la sezione 2 della guida di stile: puoi aggiungere If(gnum4) quando l'accordo italiano lo richiede, anche se assente nell'originale. Verifica integralmente le frasi femminile e maschile senza modificare il campo sorgente.
 - Le ambiguità che dipendono dal contesto si segnalano invece di risolverle inventando informazioni.
 
 ## 3. Validare e revisionare
@@ -49,6 +49,10 @@ La coda segnala possibili incoerenze, non errori certi. Controlla ogni candidato
 ## 5. Aggiornare il glossario
 
 Aggiungi una voce quando l'utente conferma una scelta riutilizzabile. Indica una fonte `percorso#ID:campo` o, se è una scelta esplicita senza attestazione nel corpus, «Decisione dell'utente»; annota varianti e limiti di contesto. Non promuovere automaticamente una proposta del revisore o una soluzione valida per una sola frase.
+
+Per censire le correzioni non committate, segui [il censimento editoriale](TRANSLATION_CENSUS.md). Confronta i campi con `HEAD`, leggi la coppia sorgente/traduzione e registra le distinzioni riutilizzabili nel glossario. Nella colonna Fonte inserisci un solo riferimento al campo sorgente; conserva ulteriori attestazioni ai campi tradotti nella colonna Uso. `@review/` indica un precedente contestuale, senza approvare il file.
+
+Nel ciclo di pulizia alterna validatore, esame manuale dei risultati e correzioni mirate. Riesegui il controllo sullo stesso perimetro dopo ogni intervento, senza disattivare regole per nascondere problemi. Se il lavoro include codice, esegui anche i test pertinenti. Riporta separatamente esito tecnico e stato editoriale; conserva in un commit successivo le correzioni emerse dopo il commit iniziale.
 
 ## Workflow batch alternativo
 

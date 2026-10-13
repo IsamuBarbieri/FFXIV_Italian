@@ -6,6 +6,16 @@ Fonte terminologica per le traduzioni future. Sono approvati i file JSON present
 
 Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine inglese se resta nella traduzione di una frase; `Controllo automatico: residuo plurale.` controlla anche il plurale inglese in `-s`; `Controllo automatico: suffisso equipaggiamento.` applica il controllo ai termini di materiali e provenienza in `items/item.json`; `Controllo automatico: suffisso ruolo equipaggiamento.` verifica i suffissi di ruolo solo alla fine dei nomi di equipaggiamento; `Controllo automatico: intercalare.` controlla l'intercalare parlato preservando composti come «noce kupo». Questi controlli generano candidati da verificare: il validatore non modifica i file. La forma eorzeana delle misure è verificata in base al singolare o al plurale presente nell'originale.
 
+## Concordanza di genere del personaggio giocante
+
+**Decisione dell'utente:** gli appellativi e gli accordi riferiti al giocatore si adattano al genere del personaggio mediante SeString. Le rese neutre naturali sono ammesse quando conservano significato e registro; non eliminare titoli o snaturare la frase per evitare la condizione.
+
+- Coppie d'uso: **avventuriero / avventuriera**, **Guerriero della Luce / Guerriera della Luce**, **eroe / eroina**, **amico / amica**, **forestiero / forestiera**, **signore / signora**. La barra descrive le due forme e non va mostrata nel gioco. «Gilda degli Avventurieri» resta il nome dell'organizzazione; i plurali collettivi non dipendono dal genere locale.
+- Nel JSON usa **If(gnum4)** compilato: condizione `E9 05`, ramo **femminile**, ramo **maschile**. Esempio «avventuriera» / «avventuriero»: `<hex:02081FE905FF0D617676656E74757269657261FF0D617676656E7475726965726F03>`. Fonte tecnica contestuale: `dialogue/contenttalk.json#112:translation`. Le lunghezze contano i byte UTF-8.
+- Accorda articoli, preposizioni, pronomi, aggettivi e participi in entrambi i rami. Preferisci il segmento completo («un'avventuriera esperta» / «un avventuriero esperto»). I possessivi concordano con ciò che è posseduto, non con il possessore.
+- Non applicare il genere locale a PNG o terzi, né a etichette generiche come «Scheda dell’Avventuriero» o «Nuovo Avventuriero». Il nome di una categoria non indica il genere di chi la consulta. Preserva i referenti delle condizioni native: IfPcGender (`0B`) usa l'ObjectId indicato e ordina i rami **maschile, femminile**. Nomi di oggetti, titoli musicali, citazioni rivolte a un PNG identificato e collettivi richiedono il proprio contesto.
+- Regole e verifica dei due risultati: `docs/STYLE_GUIDE.md`, sezione 2, e `docs/TRANSLATION_PROMPT.md`, sezione 5. La pseudomacro `<If(PlayerParameter(Gender)...)>` non è compilata dall'encoder.
+
 ## Voci
 
 ### Interfaccia e comandi
@@ -23,8 +33,9 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Apply | Applica | `system/addon.json#1218:original` |  |
 | Save | Salva | `system/addon.json#552:original` |  |
 | Character | Personaggio | `system/addon.json#230:original` |  |
+| NPC | PNG | Decisione dell'utente | Controllo automatico: residuo plurale. Sigla di personaggio non giocante, maschile invariabile al singolare e al plurale; anche NPCs diventa PNG. Usare «il PNG», «i PNG», «del PNG», «dei PNG», «al PNG», «ai PNG», «dal PNG», «dai PNG», «nel PNG», «nei PNG», «sul PNG», «sui PNG», «un PNG». Conservare la sigla maiuscola anche in prosa. Non modificare comandi, identificatori tecnici o campi sorgente. Riferimenti: `shops/fittingshopcategory.json#52:translation`. |
 | Map | Mappa | `system/addon.json#467:original` |  |
-| Party | Gruppo | `system/addon.json#176:original` |  |
+| Party | Gruppo | `system/addon.json#176:original` |  Singolare «gruppo», plurale «gruppi»; evita il residuo «party» nella prosa. Conserva /party come comando e Party nei soli identificatori tecnici. |
 | Teleport | Teletrasporto | `system/addon.json#186:original` |  |
 | Configuration | Configurazione | `system/lobby.json#2:original` |  |
 | Settings | Impostazioni | `system/addon.json#2660:original` |  |
@@ -83,12 +94,14 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Company Chest | Forziere della Compagnia | `system/addon.json#2880:original` | Nome della funzione della Compagnia Libera. |
 | Rowena's House of Splendors | Casa degli Splendori di Rowena | `system/addon.json#6170:original` | Nome del negozio. |
 | Hunting Log | Registro di Caccia | `system/maincommand.json#8:name` | Nome del registro; varianti ammesse in prosa: «registro di caccia», «voce del registro di caccia», «rango di difficoltà del registro di caccia». |
+| Field Record | Rapporti sul Campo | `system/mcguffinuidata.json#3:original` | Nome della raccolta delle schede di Save the Queen; usare la forma canonica anche se l'originale è singolare. |
 | Gathering Log | Registro di Raccolta | `system/maincommand.json#7:name` | Nome del registro; varianti ammesse in prosa: «taccuino di raccolta». |
 | Crafting Log | Registro di Fabbricazione | `system/maincommand.json#9:name` | Nome del registro. |
 | Fishing Log | Registro di Pesca | `system/maincommand.json#29:name` | Nome del registro; varianti ammesse in prosa: «taccuino di pesca», «registro di pesca». |
 | Fellowships | Confraternite | `system/maincommand.json#85:name` | Nome della funzione; singolare: Confraternita. |
 | Fellowship Finder | Ricerca Confraternite | `system/maincommand.json#86:name` | Nome della funzione. Varianti ammesse in prosa: «Ricerca dei Sodalizi». |
 | Strategy Board | Lavagna Strategica | `system/maincommand.json#98:name` | Nome della funzione; varianti ammesse in prosa: «lavagna strategica», «lavagne strategiche», «Lavagne Strategiche», «Lavagna Tattica». |
+| Unending Codex | Codex Infinito | `system/mcguffinuidata.json#5:original` | Nome della raccolta; mantenere la forma invariabile e adattare articoli e preposizioni alla sintassi italiana («nel Codex Infinito»). |
 | The Source | La Sorgente | `minigames/tripletriadcard.json#387:col_2` | Variante del nome del mondo usata sistematicamente nei testi revisionati. |
 | Amajina & Sons Mineral Concern | Impresa Mineraria Amajina e Figli | `world/contentfinderconditiontransient.json#3:original` | Varianti ammesse in prosa: «Compagnia Mineraria Amajina e Figli». |
 | Far East | Estremo Oriente | `world/mkdlore.json#1:description` | Varianti ammesse in prosa: «Lontano Oriente». |
@@ -103,7 +116,7 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Adventurer Plate | Scheda dell'Avventuriero | `system/maincommand.json#93:name` | Nome della funzione; varianti ammesse in prosa: «scheda dell'avventuriero», «schede degli avventurieri». |
 | Shared FATE | FATE Condivisi | `system/maincommand.json#84:name` | Nome della funzione. |
 | New Game+ | Nuova Partita+ | `system/maincommand.json#88:name` | Nome della modalità. |
-| Waymarks | Marcatori Tattici | `system/maincommand.json#58:name` | Nome della funzione. |
+| Waymarks | Marcatori Tattici | `system/maincommand.json#58:name` | Nome della funzione. Singolare in prosa: «marcatore tattico»; evita il residuo «waymark». Conserva /waymark, /wmark e i sottocomandi letterali nella sintassi dei comandi. Attestazione: `system/textcommand.json#178:translation_col_2`. |
 | Ready Check | Appello | `system/maincommand.json#59:name` | Nome della funzione. |
 | Record Ready Check | Registra Appello | `system/maincommand.json#79:name` | Funzione per registrare un appello prima di registrare un incarico. Varianti ammesse in prosa: «appello di registrazione», «appello per la registrazione», «verifica di prontezza alla registrazione». L'etichetta del comando mantiene le maiuscole fisse: «Registra Appello». |
 | PvP Profile | Profilo PvP | `system/maincommand.json#56:name` | Nome della funzione. |
@@ -180,7 +193,7 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 
 | Inglese | Italiano | Fonte | Uso |
 | --- | --- | --- | --- |
-| Linkshells | Fonoperle | `system/addon.json#410:original` | Plurale; singolare editoriale: Fonoperla. |
+| Linkshells | Fonoperle | `system/addon.json#410:original` | Plurale; singolare editoriale: Fonoperla. Evita «fonosfera»; conserva /linkshell e /cwlinkshell1 come comandi, ma traduci il nome della funzione nella spiegazione. |
 | Linkshell [1] | Fonoperla [1] | `system/addon.json#4500:original` | Etichetta numerata: conservare il numero. |
 | Cross-world Linkshells | Fonoperle Intermondo | `system/addon.json#12110:original` | Plurale delle fonoperle intermondo; varianti ammesse in prosa: «fonoperla intermondo», «fonoperle intermondo». |
 | Cross-world Linkshell [1] | Fonoperla Intermondo [1] | `system/addon.json#4397:original` | Etichetta numerata: conservare il numero. |
@@ -236,7 +249,7 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Accessibility Settings | Impostazioni Accessibilità | `system/maincommand.json#63:name` | Impostazioni di accessibilità. |
 | Graphics Settings | Impostazioni Grafiche | `system/maincommand.json#47:name` | Impostazioni video.  Varianti ammesse in prosa: «parametri di rendering grafico». |
 | Sound Settings | Impostazioni Audio | `system/maincommand.json#46:name` | Impostazioni audio.  Varianti ammesse in prosa: «impostazioni sonore», «volumi sonori». |
-| UI Settings | Impostazioni Interfaccia | `system/maincommand.json#52:name` | Impostazioni dell'interfaccia. Varianti ammesse in prosa: «Impostazioni UI», «interfaccia di gioco», «parametri dell'interfaccia grafica», «impostazioni dell’interfaccia utente». |
+| UI Settings | Impostazioni Interfaccia | `system/maincommand.json#52:name` | Impostazioni dell'interfaccia. Varianti ammesse in prosa: «Impostazioni UI», «interfaccia di gioco», «parametri dell'interfaccia grafica», «impostazioni dell'interfaccia utente». |
 | Item Settings | Impostazioni Oggetti | `system/maincommand.json#71:name` | Impostazioni degli oggetti. |
 | Mouse Settings | Impostazioni Mouse | `system/maincommand.json#48:name` | Impostazioni del mouse. Varianti ammesse in prosa: «impostazioni di [dispositivo] e del mouse», «impostazioni Tastiera/Mouse», «parametri del puntatore del mouse» quando il dispositivo è indicato dal tag dinamico. |
 | Theme Settings | Impostazioni Tema | `system/maincommand.json#83:name` | Impostazioni grafiche. |
@@ -261,6 +274,8 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Aethernet | Eternet | `system/addon.json#2720:original` |  |
 | Gil | Gil | `system/addon.json#830:original` |  |
 | Scrip | Gettone | Decisione dell'utente | Valuta degli Artigiani e dei Raccoglitori; al plurale usare «Gettoni degli Artigiani/dei Raccoglitori». |
+| Tankbuster | Colpo Devastante | Decisione dell'utente | Nome della meccanica di attacco ad alto danno rivolta al difensore; usare questa resa nelle etichette, adattando articoli e accordi in prosa. |
+| Instinctual Skill | Azione Istintiva | Decisione dell'utente | Termine di gioco del Domatore e dei famigli. Plurale: «Azioni Istintive». In prosa usare «azione istintiva / azioni istintive», rispettando le maiuscole dell'originale; sostituisce «abilità istintiva/istintuale» e «tecnica istintiva». Riferimento: `items/xbmitem.json#19:translation_col_3`. Non estendere questa resa a ogni occorrenza di skill: identifica prima la categoria di azione nel contesto. |
 | Simular | Simulacro | Decisione dell'utente | Categoria di mangime; nei nomi composti usare «Simulacro di [ingrediente]» e al plurale «Simulacri di [ingrediente]». |
 | EXP | ESP | Decisione dell'utente | Controllo automatico: residuo. Sigla italiana dei punti esperienza; usare «ESP» nelle etichette e descrizioni (es. «Bonus ESP»). Riferimento: `items/item.json#2632:translation_col_2`. |
 | Rolanberry | Rolanbacca | Decisione dell'utente | Controllo automatico: residuo. Nome del frutto e ingrediente, femminile: «la Rolanbacca», «della Rolanbacca». Nei nomi di ricette usare la forma idiomatica «alle Rolanbacche»; accordare articoli e aggettivi al femminile plurale (es. «le Rolanbacche essiccate e aspre»). Eccezione: «Rolanberry Field» è il nome proprio «Campo di Rolanbacche»; «Rolanberry children» indica i bambini del campo, non i frutti. Riferimento: `items/item.json#4815:translation_name`. |
@@ -290,13 +305,14 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Quest | Missione | `system/addon.json#12723:original` | Categoria generale, singolare. |
 | Job | Job | `system/addon.json#684:original` |  |
 | Job Gauge | Barra Job | `system/guidetitle.json#1:name` | Nome dell'indicatore per il Job; varianti ammesse in prosa: «Indicatore Job».  Varianti ammesse in prosa: «indicatore Job». |
+| Addersgall Gauge | Barra dell'Umore | Decisione dell'utente | Barra Job del Saggio; mantenere «Addersgall» quando si parla della risorsa accumulata. |
 | Class | Classe | `system/addon.json#869:original` |  |
 | HP | PV | `system/addon.json#1000:original` |  |
 | MP | PM | `system/addon.json#724:original` |  |
 | Retainer | Retainer | `system/addon.json#12580:original` | Termine conservato in una specifica etichetta. |
 | Mount | Monta | `system/addon.json#4964:original` | Azione contestuale. |
 | Mount | Pilota | `system/addon.json#11382:original` | Azione contestuale. |
-| Weaponskills | Tecniche | `system/addon.json#14484:original` | Categoria di azione; singolare: «tecnica». |
+| Weaponskills | Tecniche | `system/addon.json#14484:original` | Categoria di azione; singolare: «tecnica». Nelle descrizioni tecniche è attestato anche «tecniche d'arma» (`combat/status.json#1346:translation_description`). Non confondere con abilità, incantesimi o azioni istintive. |
 | Byregot's Strike | Colpo di Byregot | `combat/action.json#29029:original` | Nome di un'azione; «strike» qui significa colpo, non sciopero. |
 | Byregot's Strike | Il Colpo di Byregot | `world/placename.json#324:name` | Forma autonoma del toponimo. |
 | Air Raid | Incursione Aerea | `combat/action.json#6602:original` | Nome di un'azione; «raid» qui è reso come «incursione». |
@@ -341,6 +357,8 @@ Decisione dell'utente: adattamento morfologico delle unità di misura eorzeane:
 Nel controllo delle unità, non declinare le forme che appartengono a nomi propri attestati: «Hell of Malms» / «Inferno dei Malm» (`world/placename.json#1773:name`), «Baldewyn Four Yalms» (`@review/world/bnpcname.json#1381:name`) e il titolo musicale «Six Fulms Under» (`housing/orchestrion.json#855:name`). Queste eccezioni valgono solo per i nomi indicati.
 
 ### Classi e mestieri
+
+Per le etichette delle armi, *One<hex:021F0103>handed* e *Two<hex:021F0103>handed* diventano **a una mano** e **a due mani**, senza il tag del trattino `<hex:021F0103>`. Il trattino appartiene al composto inglese e non va reinserito nella locuzione italiana. Questa eccezione non autorizza la rimozione di altri tag né dei trattini necessari in italiano (es. «città-stato»). Fonte: Decisione dell'utente; `items/itemuicategory.json#6:translation`, `#7:translation`, `#8:translation`, `#9:translation`.
 
 | Inglese | Italiano | Fonte | Uso |
 | --- | --- | --- | --- |
@@ -389,7 +407,7 @@ Nel controllo delle unità, non declinare le forme che appartengono a nomi propr
 | Sage | Saggio | `world/classjob.json#40:name` |  |
 | Viper | Vipera | `world/classjob.json#41:name` |  |
 | Pictomancer | Pittomante | `world/classjob.json#42:name` |  |
-| Beastmaster | Domatore | `world/classjob.json#43:name` |  |
+| Beastmaster | Domatore | `world/classjob.json#43:name` |  Nei riferimenti al Job usa «Domatore», in prosa «domatore» secondo le maiuscole sorgente; evita il residuo «beastmaster». Le azioni dei famigli sono «azioni istintive», non tecniche d'arma. |
 
 ### Sigle delle classi e dei mestieri
 
@@ -488,10 +506,10 @@ Nel controllo delle unità, non declinare le forme che appartengono a nomi propr
 | Dated (gear) | obsoleto / obsoleta | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Equipaggiamento della versione 1.0 (es. gladio di bronzo obsoleto, spatha di bronzo obsoleta). Sostituisce la dicitura «d'epoca». |
 | Cesti | Tirapugni | Decisione dell'utente | Categoria d'arma per pugile/monaco (es. paio di tirapugni in pelle di dodo). Sostituisce «cesti». |
 | Gridanian (gear/items) | gridaniano / gridaniana | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Aggettivo relativo a Gridania (es. macuahuitl gridaniano, spatha gridaniana). |
-| Lominsan (gear/items) | lominsano / lominsana | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Aggettivo relativo a Limsa Lominsa (es. spada corta lominsana, arco lominsano). Sostituisce la formula perifrastica «di Limsa Lominsa». |
+| Lominsan | lominsano / lominsana | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Aggettivo relativo a Limsa Lominsa (es. spada corta lominsana, arco lominsano). Sostituisce la formula perifrastica «di Limsa Lominsa». |
 | Ul'dahn (gear/items) | ul'dahno / ul'dahna | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Aggettivo relativo a Ul'dah (es. falchione ul'dahno, scimitarra ul'dahna). Sostituisce la formula perifrastica «di Ul'dahn». |
-| GC Factions (short form) | della Fiamma / della Vipera / della Tempesta | Decisione dell'utente | Forma abbreviata per equipaggiamenti e gradi delle Grandi Compagnie (es. «libro del sergente della Fiamma», «pugnale del soldato semplice della Vipera», «spadone dell'ufficiale della Tempesta»). Evita ripetizioni prolungate come «delle Fiamme Immortali» o «dell'Ordine della Vipera Gemella». |
-| Elm (material) | d'olmo | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Forma elisa obbligatoria (es. «tronco d’olmo», «tavola d’olmo», «macuahuitl d’olmo»). Evitare la forma non elisa «di olmo». |
+| GC Factions (short form) | della Fiamma / della Vipera / della Tempesta | Decisione dell'utente | Forma abbreviata per equipaggiamenti e gradi delle Grandi Compagnie (es. «libro del sergente della Fiamma», «pugnale del soldato semplice della Vipera», «spadone dell'ufficiale della Tempesta»). Evita ripetizioni prolungate come «delle Fiamme Immortali» o «dell'Ordine della Vipera Gemella». Nei gradi di Gridania il nome breve è «della Vipera», non «del Serpente» (`world/gcrankgridaniafemaletext.json#1:translation_name`). |
+| Elm (material) | d'olmo | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Forma elisa obbligatoria (es. «tronco d'olmo», «tavola d'olmo», «macuahuitl d'olmo»). Evitare la forma non elisa «di olmo». |
 | Snakestongue (gear) | Linguaserpe | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Adattamento composto a parola singola per la serie di equipaggiamento PvP (es. «elmo Linguaserpe», «lancia Linguaserpe»). Riferimento: `items/item.json#7378:name`. |
 | Bearsmaw (gear) | Fauciorso | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Adattamento composto a parola singola per la serie di equipaggiamento PvP (es. «armetto Fauciorso», «ascia Fauciorso»). Riferimento: `items/item.json#7372:name`. |
 | Hawkwing (gear) | Alafalco | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Adattamento composto a parola singola per la serie di equipaggiamento PvP (es. «armetto Alafalco», «artigli Alafalco»). Riferimento: `items/item.json#7366:name`. |
@@ -704,6 +722,7 @@ Catalogo integrale: `data/translations/world/placename.json`. Cercare il nome in
 | Fusingway Vent | Condotto di Fusingway | `crafting/wkstext.json#16:original` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Fenditura di Fusingway». |
 | Grandma Laurel | Nonna Alloro | `crafting/wkstext.json#29:original` | Nome del luogo o della struttura. Varianti ammesse in prosa: «nonna Laurel». |
 | The Capitol | Il Campidoglio | `dialogue/contenttalk.json#208:original` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Capitale». |
+| Mistwake | Scia delle Nebbie | `world/placename.json#5350:name` | Adattamento richiesto dall'utente. Nome della spedizione e del luogo; femminile: «nella Scia delle Nebbie», «della Scia delle Nebbie». Per equipaggiamento e creature usare «della Scia delle Nebbie». «Wake» interpretato come scia; la wiki attesta il contesto del Continente della Nebbia, non un'etimologia esplicita. Altra attestazione: `items/cabinetsubcategory.json#198:translation`. |
 | The Meso Terminal | Il Terminale Meso | `world/placename.json#5266:name` | Nome del luogo o della struttura. In prosa si può usare «Terminale Meso» senza articolo quando la sintassi lo consente. |
 | Full Bloom Gardens | Giardini della Piena Fioritura | `dialogue/pointmenu.json#18:original` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Giardini Fioriti». |
 | Tomb of the Nullstone | Tomba della Pietra Nullificante | `minigames/tripletriadcard.json#152:col_2` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Tomba della Pietranulla». |
@@ -726,8 +745,10 @@ Catalogo integrale: `data/translations/world/placename.json`. Cercare il nome in
 | The Duergar Mountains | Montagne dei Duergar | `world/contentfinderconditiontransient.json#779:original` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Monti dei Duergar». |
 | Royal Allagan Sunway | La Via Solare Reale Allagana | `world/fateevent.json#81:description` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Strada Solare Allagana Reale». |
 | The Wanderer's Haven | Il Rifugio del Vagabondo | `world/mkdlore.json#46:description` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Rifugio del Viandante». |
+| Secluded Stacks / The Secluded Stacks | Biblioteca Appartata | `world/placename.json#5196:name` | Sala bibliotecaria in cima alla Torre del Sangue, contenente tomi, tavolette e manoscritti. «Stacks» ha valore bibliotecario; non usare «cataste». In prosa: «biblioteca appartata», rispettando le maiuscole dell'originale. Altra attestazione: `world/mkdlore.json#30:translation_name`. |
 | The Diadem | Il Diadema | `system/addon.json#8462:original` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Diadema». |
 | Sagolii Desert | Deserto di Sagolii | `system/lobby.json#132:description` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Deserto di Sagolii». |
+| Irmin Hedge | Siepe di Irmin | `combat/action.json#26756:original` | Nome della barriera o evocazione protettiva vegetale. |
 ### Meteo
 
 I nomi delle condizioni sono distinti dalle forme grammaticali usate nelle descrizioni.
@@ -793,6 +814,7 @@ Le voci identificano strutture, aree, visioni, missioni e mammets del Rifugio In
 
 | Inglese | Italiano | Fonte | Uso |
 | --- | --- | --- | --- |
+| Blackbosom | Cuorenero | Decisione dell'utente | Soprannome/cognome composto di Edda; mantenere la forma invariabile come nome proprio in tutti i testi, compresi NPC e personaggi secondari. Usare «Edda Cuorenero» e «di Cuorenero» secondo la sintassi. |
 | Baderon Tenfingers | Baderon Diecidita | Decisione dell'utente | Soprannome composto: conserva il nome proprio Baderon e traduce «Tenfingers». Riferimento: `world/enpcresident.json#1011882:translation_name`. |
 | Chirpy Chocobo | Chocobo Cinguettante | Decisione dell'utente | Mascotte dei festeggiamenti (fête) della Ricostruzione di Ishgard («Tosatura dello Yak»). Riferimento: `dialogue/balloon.json#6318:translation`. |
 | Mighty Moogle | Moguri Possente | Decisione dell'utente | Mascotte dei festeggiamenti (fête) della Ricostruzione di Ishgard («Fatti di Stoffa Morbida»). Riferimento: `dialogue/balloon.json#6317:translation`. |
@@ -804,13 +826,38 @@ Le voci identificano strutture, aree, visioni, missioni e mammets del Rifugio In
 | --- | --- | --- | --- |
 | The Twelve Archons | i Dodici Arconti | `dialogue/snipetalk.json#48:name` | Eroi della leggenda legata a Hatching-tide; la resa riguarda il gruppo storico. |
 | The Echo | L'Eco | `combat/status.json#42:name` | Nome del potere dei Discendenti. |
+| Endsinger | Cantamorte | Decisione dell'utente | Nome e titolo dell'entità femminile; usare «la Cantamorte» e «della Cantamorte». |
 | The Scions of the Seventh Dawn | Eredi della Settima Alba | `world/contentfinderconditiontransient.json#284:original` | Nome dell'organizzazione; usare la forma estesa al primo riferimento. Variante ammessa con articolo: «Gli Eredi della Settima Alba». |
-| primal (in prosa) | primordiale | `activities/deepdungeonmagicstone.json#1:col_3` | Nome comune per un essere evocato; rispettare eventuali etichette di categoria canoniche. |
+| Primal | Primal | Decisione dell'utente | Termine di lore invariabile in italiano; usare il maschile e accordare articoli e preposizioni («il Primal», «i Primal», «del Primal»). «Primordiale» non è la resa del nome di queste entità; rimane disponibile come aggettivo comune se la fonte non indica un Primal. Non declinare «Primal» in «Primali». |
 | Little Ladies' Day | Giornata delle Piccole Dame | Decisione dell'utente | Controllo automatico: residuo. Nome della festa stagionale; accordare articoli e preposizioni alla forma femminile «Giornata» (es. «durante la Giornata delle Piccole Dame»). |
-| Hatching-tide | Festa delle Uova | Decisione dell'utente | Nome della festa stagionale; riferimento contestuale: `@review/world/enpcresident.json#1011803:translation_name`. |
+| Hatching-tide | Festa delle Uova | Decisione dell'utente | Nome della festa stagionale; riferimento contestuale: `@review/world/enpcresident.json#1011803:translation_name`. Eccezione tecnica confermata dall'utente: in `world/fate.json#1594:translation_description`, `#1595:translation_description` e `#1856:translation_description`, rendere `Hatching<hex:021F0103>tide` come «Festa delle Uova», eliminando esclusivamente il tag del trattino `<hex:021F0103>`. L'eccezione vale soltanto per queste tre voci; conservare tutti gli altri tag. |
 | Scholasticate | Il Seminario | Decisione dell'utente | Istituzione di Sant'Endalim; nei ruoli rispettare il minuscolo dell'originale: «docente del seminario», «diacono del seminario». Riferimento: `@review/world/enpcresident.json#1011215:translation_name`. |
 | Starlight Celebration | Celebrazione delle Stelle | Decisione dell'utente | Nome della festa stagionale; riferimento contestuale: `@review/world/enpcresident.json#1010742:translation_name`. |
 | Moonfire Faire | Festa del Fuoco Lunare | Decisione dell'utente | Nome della festa stagionale estiva; riferimento contestuale: `@review/world/enpcresident.json#1009242:translation_col_2`. |
 | The Rising | La Rinascita | Decisione dell'utente | Nome dell'evento annuale; nei ruoli usare «della Rinascita». Riferimento: `@review/world/enpcresident.json#1009290:translation_name`. |
 | All Saints' Wake | Veglia di Tutti i Santi | Decisione dell'utente | Nome della festa stagionale; riferimento contestuale: `@review/world/enpcresident.json#1043978:translation_name`. |
 | voidsent | creatura del vuoto (sing.), creature del vuoto (pl.) | Decisione dell'utente | Controllo automatico: residuo plurale. Nome comune della specie; rispettare il minuscolo dell'originale. Riferimento: `@review/world/enpcresident.json#1042066:translation_name`. |
+| Dawnservant | Custode dell'Alba | Decisione dell'utente | Titolo del sovrano di Tural; accordare articoli e preposizioni con «Custode» e mantenere minuscola la preposizione interna «dell'». Riferimenti: `combat/actiontransient.json#37129:translation`. |
+| Beastkin | Bestiomorfi | Decisione dell'utente | Categoria tassonomica dei famigli; singolare «Bestiomorfo». In prosa usare il minuscolo quando il nome non è un'etichetta di categoria. Riferimenti: `combat/actiontransient.json#44895:translation`. |
+| Vilekin | Vilomorfi | Decisione dell'utente | Categoria tassonomica dei famigli; singolare «Vilomorfo». In prosa usare il minuscolo quando il nome non è un'etichetta di categoria. Riferimenti: `combat/actiontransient.json#44895:translation`. |
+| Cloudkin | Aeromorfi | Decisione dell'utente | Categoria tassonomica dei famigli; singolare «Aeromorfo». In prosa usare il minuscolo quando il nome non è un'etichetta di categoria. Riferimenti: `combat/actiontransient.json#44895:translation`. |
+| Seedkin | Fitomorfi | Decisione dell'utente | Categoria tassonomica dei famigli; singolare «Fitomorfo». In prosa usare il minuscolo quando il nome non è un'etichetta di categoria. Riferimenti: `combat/actiontransient.json#44895:translation`. |
+| Sunbeard | Barbasole | Decisione dell'utente | Nome della creatura, maschile invariabile: «il barbasole», «i barbasole», «del barbasole», «dei barbasole». Usare «barbasole» in prosa e nei nomi sorgente minuscoli; «Barbasole» quando la fonte ha l'iniziale maiuscola. Per bushy sunbeard: «barbasole folto», plurale «barbasole folti». Riferimenti: `world/fateevent.json#743:translation_name`; `world/fate.json#1865:translation_description`. |
+| Wavekin | Idromorfi | Decisione dell'utente | Categoria tassonomica dei famigli; singolare «Idromorfo». In prosa usare il minuscolo quando il nome non è un'etichetta di categoria. Riferimenti: `combat/actiontransient.json#44895:translation`. |
+| Scalekin | Squamorfi | Decisione dell'utente | Categoria tassonomica dei famigli; singolare «Squamorfo». In prosa usare il minuscolo quando il nome non è un'etichetta di categoria. Riferimenti: `combat/actiontransient.json#44895:translation`. |
+| Soulkin | Animamorfi | Decisione dell'utente | Categoria tassonomica dei famigli; singolare «Animamorfo». In prosa usare il minuscolo quando il nome non è un'etichetta di categoria. Riferimenti: `combat/actiontransient.json#44895:translation`. |
+| Ashkin | Necromorfi | Decisione dell'utente | Categoria tassonomica dei famigli; singolare «Necromorfo». In prosa usare il minuscolo quando il nome non è un'etichetta di categoria. Riferimenti: `combat/actiontransient.json#44895:translation`. |
+
+### Distinzioni ricorrenti dal censimento
+
+Rese attestate nelle correzioni del corpus: il qualificatore inglese delimita il contesto, non è testo da mostrare nel client. I conteggi e i casi esclusi sono documentati in `docs/TRANSLATION_CENSUS.md`.
+
+| Inglese | Italiano | Fonte | Uso |
+| --- | --- | --- | --- |
+| Arms (heraldry) | Stemma | `housing/bannerdecoration.json#36:original` | In decorazioni e insegne Arms ha valore araldico: «Stemma del Conflitto di Bronzo 1», non «Armi». Non applicare ai nomi di armi o alle categorie di equipaggiamento. |
+| Stack (effect) | Accumulo | `crafting/craftaction.json#100161:description` | Plurale «accumuli» per il numero di applicazioni di un effetto; evita «cumuli». Per pile di oggetti, accumuli fisici o il verbo to stack valuta il referente. |
+| ATK | ATT | `combat/companiontransient.json#8:col_4` | Sigla della statistica Attacco nelle descrizioni dei minion; maschile: «l'ATT», «dell'ATT». Non abbreviare ogni uso narrativo di attack. |
+| DEF | DIF | `combat/companiontransient.json#6:col_4` | Sigla della statistica Difesa nelle descrizioni dei minion; femminile: «la DIF», «della DIF». Non abbreviare ogni uso narrativo di defense. |
+| Weaponskill | Tecnica d'arma | `combat/status.json#1346:description` | Singolare della categoria; nelle etichette brevi è ammesso «Tecnica». Non usare «abilità con armi». Varianti ammesse in prosa: «tecnica», «tecniche», «tecniche d'arma». |
+| Potency scales with item level | La potenza varia in base al livello oggetto | `combat/actiontransient.json#41592:original` | Formula per la dipendenza della potenza dal livello oggetto; evita il calco «scala con». Non presumere una crescita lineare né trasferire la frase intera a descrizioni con condizioni diverse. |
+| Range (level threshold) | Soglia | `combat/traittransient.json#35:original` | In Stealth/Furtività indica il livello massimo dei nemici evitabili: «Estende al livello 30 la soglia…». Per una distanza spaziale usa invece portata o raggio secondo il campo. |

@@ -43,6 +43,9 @@ Il motore di gioco utilizza un bytecode binario proprietario (SeString). I tag s
 
 ### 3. GLOSSARIO APPROVATO E REGOLE DI ADATTAMENTO SINTATTICO
 Prima di tradurre, leggi `data/glossary/Glossary.md`. Usa le voci per i termini ricorrenti e rispetta le note sulle varianti contestuali. Le scelte esplicite dell'utente prevalgono; i riferimenti `@review/` sono esempi contestuali e non dichiarano approvato il file.
+- **DISTINZIONI DAL CENSIMENTO**: Identifica il referente e il campo: Arms araldico/Stemma, stack di effetti/accumuli, range di livelli/soglia, range spaziale/portata o raggio. Distingui tecniche d'arma, abilità, incantesimi e azioni istintive. Usa ATT/DIF per le statistiche nei campi tecnici; «varia in base a» per una dipendenza numerica senza presumere una formula. Vedi `docs/TRANSLATION_CENSUS.md`.
+- **COMANDI LETTERALI**: Conserva /party, /waymark, /cwlinkshell1 e i parametri eseguibili; traduci la spiegazione con gruppo, marcatore tattico e fonoperla. Non tradurre gli identificatori per eliminare un residuo inglese.
+- **NOMI COMPOSTI DEI PERSONAGGI**: Quando il nome di un PG, PNG o personaggio secondario è formato da parole inglesi comuni che nel contesto attestato hanno funzione descrittiva (cognome, soprannome o appellativo), adattane il significato in italiano, conservando il nome proprio non descrittivo: *Edda Blackbosom* → **Edda Cuorenero**. Nella prosa adatta articoli e preposizioni (*Blackbosom's attire* → **abito di Cuorenero**). Verifica lore, forma canonica e correzioni dell'utente; non tradurre automaticamente cognomi arbitrari o nomi che devono restare invariati. Se la funzione è ambigua, segnalala invece di inventare una resa.
 - **DIVIETO DI SOSTITUZIONE MECCANICA CIECA**: Non effettuare MAI un mero trova-e-sostituisci del lemma. Applica automaticamente una resa solo se l'intera frase sorgente coincide con quella approvata; negli altri casi controlla originale e traduzione nel contesto, riscrivi la frase quando serve e accorda articoli, possessivi, aggettivi e verbi al genere e numero del termine:
   - *Velo Nero* è maschile: **il Velo Nero**, **del Velo Nero**, **nel Velo Nero** (MAI *«della Velo Nero»*, *«la Velo Nero»*, *«nella Velo Nero»*).
   - *Vecchia Sharlayan* vuole la preposizione semplice: **di Vecchia Sharlayan** o **della Vecchia Sharlayan** (MAI *«del Vecchia Sharlayan»*).
@@ -74,9 +77,10 @@ Quando traduci battute di dialogo, rispetta rigorosamente il registro psicologic
 ---
 
 ### 5. ACCORDO DI GENERE
-- Per i dialoghi rivolti al giocatore (*Guerriero/a della Luce*), se la frase non dispone del tag condizionale di sesso di gioco, formula la frase in **stile epiceno** (neutro naturale):
-  - *Invece di*: "Sei stato molto coraggioso."
-  - *Usa*: "Hai dimostrato grande coraggio." / "È stato un atto di vero eroismo."
+- Applica la sezione 2 di `docs/STYLE_GUIDE.md` e la concordanza del glossario: aggiungi una condizione di genere quando serve a conservare senso e registro, anche se assente nell'inglese. Conserva le rese epicene naturali che non perdono informazioni.
+- Nei JSON usa bytecode `<hex:...>`, mai la pseudomacro `<If(PlayerParameter(Gender)...)>`. **If(gnum4)** (`02 08`, condizione `E9 05`) sceglie il ramo femminile e poi quello maschile: `<hex:02081FE905FF0D617676656E74757269657261FF0D617676656E7475726965726F03>` = «avventuriera» / «avventuriero».
+- Accorda articolo, nome, aggettivo, participio e pronome nell'intero segmento. Ricodifica tutte le lunghezze in byte UTF-8, inclusi i contenitori annidati. Leggi separatamente entrambe le frasi complete; non mostrare barre «avventuriero/a».
+- Preserva le condizioni native e i referenti: **IfPcGender** (`0B`) riguarda l'ObjectId indicato e ha prima il ramo maschile, poi quello femminile; non è intercambiabile con `If(gnum4)`. Non applicare il genere locale a PNG, altri giocatori o gruppi. I possessivi concordano con ciò che è posseduto.
 - Per gli NPC parlanti e destinatari, rispetta il genere anagrafico indicato nei metadati.
 
 ---

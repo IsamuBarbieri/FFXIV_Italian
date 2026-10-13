@@ -38,6 +38,14 @@ public static partial class SeStringValidator
         var originalTags = TagRegex().Matches(originalEn).Select(m => m.Value).ToList();
         var translatedTags = TagRegex().Matches(translatedIt).Select(m => m.Value).ToList();
 
+        // English one-/two-handed loses its hyphen in Italian, unlike compounds such as città-stato.
+        if (Regex.IsMatch(translatedIt,
+                @"\b(?:una\s*<hex:021F0103>\s*mano|due\s*<hex:021F0103>\s*mani)\b",
+                RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
+        {
+            result.Errors.Add("Trattino SeString improprio: usare 'a una mano' o 'a due mani' senza <hex:021F0103>.");
+        }
+
         // Check for placeholder tags that must be preserved exactly
         // e.g. <FullName>, <Forename>, <Surname>, <PlayerParameter(...)>, <Sheet(...)>, <SheetEn(...)>
         var essentialTags = originalTags

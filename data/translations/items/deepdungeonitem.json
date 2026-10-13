@@ -41,21 +41,21 @@
   },
   "5": {
     "name": "pomander of affluence",
-    "translation_name": "ambra dell'affluenza",
+    "translation_name": "ambra dell'abbondanza",
     "description": "pomanders of affluence",
-    "translation_description": "ambre dell'affluenza",
+    "translation_description": "ambre dell'abbondanza",
     "col_2": "Pomander of Affluence",
-    "translation_col_2": "Ambra dell'Affluenza",
+    "translation_col_2": "Ambra dell'Abbondanza",
     "col_3": "Increases the number of treasure coffers \u003Chex:02080DE4E96E05FF03696EFF036F6E03\u003E the next \u003Chex:02091EE96EFF06666C6F6F72FF06666C6F6F72FF06666C6F6F72FF056172656103\u003E.",
     "translation_col_3": "Aumenta il numero di forzieri <hex:02080DE4E96E05FF046E656CFF046E656C03> <hex:02091EE96EFF086C6976656C6C6FFF086C6976656C6C6FFF086C6976656C6C6FFF086C6976656C6C6F03> successivo."
   },
   "6": {
     "name": "pomander of flight",
-    "translation_name": "ambra del volo",
+    "translation_name": "ambra della fuga",
     "description": "pomanders of flight",
-    "translation_description": "ambre del volo",
+    "translation_description": "ambre della fuga",
     "col_2": "Pomander of Flight",
-    "translation_col_2": "Ambra del Volo",
+    "translation_col_2": "Ambra della Fuga",
     "col_3": "Decreases the number of enemies \u003Chex:02080DE4E96E05FF03696EFF036F6E03\u003E the next \u003Chex:02091EE96EFF06666C6F6F72FF06666C6F6F72FF06666C6F6F72FF056172656103\u003E.",
     "translation_col_3": "Diminuisce il numero di nemici <hex:02080DE4E96E05FF046E656CFF046E656C03> <hex:02091EE96EFF086C6976656C6C6FFF086C6976656C6C6FFF086C6976656C6C6FFF086C6976656C6C6F03> successivo."
   },
@@ -91,13 +91,13 @@
   },
   "10": {
     "name": "pomander of witching",
-    "translation_name": "ambra delle streghe",
+    "translation_name": "ambra della stregoneria",
     "description": "pomanders of witching",
-    "translation_description": "ambre delle streghe",
+    "translation_description": "ambre della stregoneria",
     "col_2": "Pomander of Witching",
-    "translation_col_2": "Ambra delle Streghe",
+    "translation_col_2": "Ambra della Stregoneria",
     "col_3": "Transforms all targets within range into a frog, imp, or chicken.",
-    "translation_col_3": "Trasforma tutti i bersagli nel raggio d’azione in una rana, un folletto o una gallina."
+    "translation_col_3": "Trasforma tutti i bersagli nel raggio d'azione in una rana, un diavoletto o una gallina."
   },
   "11": {
     "name": "pomander of serenity",
@@ -117,7 +117,7 @@
     "col_2": "Pomander of Rage",
     "translation_col_2": "Ambra della Rabbia",
     "col_3": "Transforms user into a manticore.",
-    "translation_col_3": "Trasforma chi lo usa in una manticora."
+    "translation_col_3": "Trasforma chi la usa in una manticora."
   },
   "13": {
     "name": "pomander of lust",
@@ -127,7 +127,7 @@
     "col_2": "Pomander of Lust",
     "translation_col_2": "Ambra della Lussuria",
     "col_3": "Transforms user into a succubus.",
-    "translation_col_3": "Trasforma chi lo usa in una succube."
+    "translation_col_3": "Trasforma chi la usa in una succube."
   },
   "14": {
     "name": "pomander of intuition",
@@ -157,7 +157,7 @@
     "col_2": "Pomander of Resolution",
     "translation_col_2": "Ambra della Risoluzione",
     "col_3": "Transforms user into Kuribu.",
-    "translation_col_3": "Trasforma chi lo usa in Kuribu."
+    "translation_col_3": "Trasforma chi la usa in Kuribu."
   },
   "17": {
     "name": "pomander of frailty",
@@ -217,7 +217,7 @@
     "col_2": "Protomander of Dread",
     "translation_col_2": "Protoambra del Terrore",
     "col_3": "Transforms user into a dreadnaught.",
-    "translation_col_3": "Trasforma chi lo usa in una corazzata."
+    "translation_col_3": "Trasforma chi la usa in un colosso spettrale."
   },
   "23": {
     "name": "protomander of safety",
@@ -261,21 +261,21 @@
   },
   "27": {
     "name": "protomander of affluence",
-    "translation_name": "protoambra dell'affluenza",
+    "translation_name": "protoambra dell'abbondanza",
     "description": "protomanders of affluence",
-    "translation_description": "protoambre dell'affluenza",
+    "translation_description": "protoambre dell'abbondanza",
     "col_2": "Protomander of Affluence",
-    "translation_col_2": "Protoambra dell'Affluenza",
+    "translation_col_2": "Protoambra dell'Abbondanza",
     "col_3": "Increases the number of treasure coffers \u003Chex:02080DE4E96E05FF03696EFF036F6E03\u003E the next \u003Chex:02091EE96EFF06666C6F6F72FF06666C6F6F72FF06666C6F6F72FF056172656103\u003E.",
     "translation_col_3": "Aumenta il numero di forzieri <hex:02080DE4E96E05FF046E656CFF046E656C03> <hex:02091EE96EFF086C6976656C6C6FFF086C6976656C6C6FFF086C6976656C6C6FFF086C6976656C6C6F03> successivo."
   },
   "28": {
     "name": "protomander of flight",
-    "translation_name": "protoambra del volo",
+    "translation_name": "protoambra della fuga",
     "description": "protomanders of flight",
-    "translation_description": "protoambre del volo",
+    "translation_description": "protoambre della fuga",
     "col_2": "Protomander of Flight",
-    "translation_col_2": "Protoambra del Volo",
+    "translation_col_2": "Protoambra della Fuga",
     "col_3": "Decreases the number of enemies \u003Chex:02080DE4E96E05FF03696EFF036F6E03\u003E the next \u003Chex:02091EE96EFF06666C6F6F72FF06666C6F6F72FF06666C6F6F72FF056172656103\u003E.",
     "translation_col_3": "Diminuisce il numero di nemici <hex:02080DE4E96E05FF046E656CFF046E656C03> <hex:02091EE96EFF086C6976656C6C6FFF086C6976656C6C6FFF086C6976656C6C6FFF086C6976656C6C6F03> successivo."
   },
@@ -311,13 +311,13 @@
   },
   "32": {
     "name": "protomander of witching",
-    "translation_name": "protoambra delle streghe",
+    "translation_name": "protoambra della stregoneria",
     "description": "protomanders of witching",
-    "translation_description": "protoambre delle streghe",
+    "translation_description": "protoambre della stregoneria",
     "col_2": "Protomander of Witching",
-    "translation_col_2": "Protoambra delle Streghe",
+    "translation_col_2": "Protoambra della Stregoneria",
     "col_3": "Transforms all targets within range into a frog, imp, or chicken.",
-    "translation_col_3": "Trasforma tutti i bersagli nel raggio d’azione in una rana, un folletto o una gallina."
+    "translation_col_3": "Trasforma tutti i bersagli nel raggio d'azione in una rana, un diavoletto o una gallina."
   },
   "33": {
     "name": "protomander of serenity",
@@ -357,7 +357,7 @@
     "col_2": "Pomander of Haste",
     "translation_col_2": "Ambra della Celerità",
     "col_3": "Renders party able to swiftly execute weaponskills, spells, and auto-attacks.",
-    "translation_col_3": "Permette al gruppo di eseguire rapidamente tecniche d'arma, incantesimi e attacchi automatici."
+    "translation_col_3": "Permette al gruppo di eseguire rapidamente tecniche, incantesimi e attacchi automatici."
   },
   "37": {
     "name": "pomander of purification",

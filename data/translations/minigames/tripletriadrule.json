@@ -15,13 +15,13 @@
     "name": "Three Open",
     "translation_name": "Tre Scoperte",
     "description": "Three cards chosen at random from each deck are played face up.",
-    "translation_description": "Tre carte estratte a caso da ciascun mazzo vengono disposte scoperte."
+    "translation_description": "Tre carte scelte a caso da ciascun mazzo vengono mostrate scoperte."
   },
   "4": {
     "name": "Same",
     "translation_name": "Uguale",
     "description": "When a card is played, if two or more of the sides are touching other cards, and the ranks of those sides are identical to those on the sides of the card played, the other cards are flipped.",
-    "translation_description": "Quando viene giocata una carta, se almeno due lati toccano altre carte e i loro valori corrispondono a quelli dei lati della carta appena giocata, le carte adiacenti vengono girate."
+    "translation_description": "Quando viene giocata una carta, se almeno due dei suoi lati toccano altre carte e ciascuno ha lo stesso valore del lato a contatto, le carte corrispondenti vengono girate."
   },
   "5": {
     "name": "Sudden Death",
@@ -33,7 +33,7 @@
     "name": "Plus",
     "translation_name": "Somma",
     "description": "When a card is played, if two or more of the sides are touching other cards, and the sum of the ranks on the touching sides are identical to the sums on the other touching sides, the other cards are flipped.",
-    "translation_description": "Quando viene giocata una carta, se almeno due lati toccano altre carte e la somma dei valori sui lati a contatto corrisponde, le carte adiacenti vengono girate."
+    "translation_description": "Quando viene giocata una carta, se almeno due dei suoi lati toccano altre carte e le somme dei valori di ciascuna coppia di lati a contatto sono uguali, le carte corrispondenti vengono girate."
   },
   "7": {
     "name": "Random",
@@ -57,13 +57,13 @@
     "name": "Reverse",
     "translation_name": "Inverso",
     "description": "Lower numbers flip higher numbers.",
-    "translation_description": "I valori più bassi girano quelli più alti."
+    "translation_description": "Le carte con valori più bassi girano quelle con valori più alti."
   },
   "11": {
     "name": "Fallen Ace",
     "translation_name": "Asso Caduto",
     "description": "A rank 1 side can flip an A. When Reverse is in play, a rank A side will flip a 1.",
-    "translation_description": "Un lato di valore 1 può girare un Asso. Con la regola Inverso attiva, un lato Asso può girare un 1."
+    "translation_description": "Un valore 1 può girare una carta con valore A. Con la regola Inverso attiva, un valore A gira una carta con valore 1."
   },
   "12": {
     "name": "Ascension",
@@ -81,7 +81,7 @@
     "name": "Swap",
     "translation_name": "Scambio",
     "description": "One random card from each player\u0027s deck will be swapped with the other.",
-    "translation_description": "Una carta scelta a caso dal mazzo di ciascun giocatore viene scambiata con l'altra."
+    "translation_description": "I giocatori si scambiano una carta scelta a caso da ciascun mazzo."
   },
   "15": {
     "name": "Draft",

@@ -5,7 +5,7 @@
 - [Workflow di traduzione assistita](TRANSLATION_WORKFLOW.md): passaggi dal file ricevuto alla revisione e all'aggiornamento del glossario.
 - [Guida di stile](STYLE_GUIDE.md): tono, registri dei personaggi e convenzioni linguistiche.
 - [Prompt tecnico](TRANSLATION_PROMPT.md): struttura dei dati e regole SeString per i modelli.
-- [Prompt compatto](PROMPT_COMPACT.md): variante breve del prompt.
+- [Censimento editoriale](TRANSLATION_CENSUS.md): correzioni ricorrenti, fonti e limiti delle regole ricavate dal diff.
 - [Workflow diretto Antigravity](WORKFLOW_ANTIGRAVITY.md): modalità specifica di modifica progressiva in-place.
 - [Revisione terminologica](TERMINOLOGY_REVIEW.md): raccolta e verifica di termini ricorrenti.
 

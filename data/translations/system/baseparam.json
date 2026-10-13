@@ -9,7 +9,7 @@
     "name": "Dexterity",
     "translation_name": "Destrezza",
     "description": "Affects physical damage dealt by rogue's arms, viper's arms, archer's arms, machinist's arms, and dancer's arms.",
-    "translation_description": "Influisce sui danni fisici inflitti con le armi del Furfante, della Vipera, dell'Arciere, dell'Artificiere e del Danzatore."
+    "translation_description": "Influisce sui danni fisici inflitti con le armi utilizzate da furfante, vipera, arciere, artificiere e danzatore."
   },
   "3": {
     "name": "Vitality",
@@ -27,13 +27,13 @@
     "name": "Mind",
     "translation_name": "Mente",
     "description": "Affects healing magic potency. Also affects attack magic potency when role is Healer.",
-    "translation_description": "Influisce sulla potenza delle magie curative e, quando il ruolo è Curatore, anche sulla potenza delle magie offensive."
+    "translation_description": "Influisce sulla potenza delle magie curative e, quando il ruolo è curatore, anche sulla potenza delle magie offensive."
   },
   "6": {
     "name": "Piety",
     "translation_name": "Devozione",
     "description": "Affects MP regeneration. Regeneration rate is determined by piety. Only applicable when in battle and role is Healer.",
-    "translation_description": "Influisce sulla rigenerazione dei PM. La velocità di rigenerazione dipende dal valore di Devozione. Si applica solo in combattimento e quando il ruolo è Curatore."
+    "translation_description": "Influisce sulla rigenerazione dei PM. La velocità di rigenerazione dipende dal valore di devozione. Si applica solo in combattimento e quando il ruolo è curatore."
   },
   "7": {
     "name": "HP",
@@ -163,7 +163,7 @@
   },
   "28": {
     "name": "Critical Hit Evasion",
-    "translation_name": "Evasione Colpo Critico",
+    "translation_name": "Schivata Colpi Critici",
     "description": "",
     "translation_description": ""
   },
@@ -247,7 +247,7 @@
   },
   "42": {
     "name": "Water Resistance",
-    "translation_name": "Resistenza all’Acqua",
+    "translation_name": "Resistenza all'Acqua",
     "description": "Decreases water-aspected damage.",
     "translation_description": "Riduce i danni d'acqua."
   },
@@ -267,7 +267,7 @@
     "name": "Skill Speed",
     "translation_name": "Velocità Abilità",
     "description": "Affects both the casting and recast timers, as well as the damage over time potency for weaponskills and auto-attacks. The higher the value, the shorter the timers/higher the potency.",
-    "translation_description": "Influisce sui tempi di lancio e di riutilizzo e sulla potenza dei danni periodici delle tecniche e degli attacchi automatici. Più alto è il valore, più brevi sono i tempi e maggiore è la potenza."
+    "translation_description": "Influisce sui tempi di lancio e di riutilizzo delle tecniche, sulla potenza dei loro danni periodici e su quella degli attacchi automatici. Più alto è il valore, più brevi sono i tempi e maggiore è la potenza."
   },
   "46": {
     "name": "Spell Speed",
@@ -301,13 +301,13 @@
   },
   "51": {
     "name": "Desynthesis Skill Gain",
-    "translation_name": "Bonus Abilità di Desintesi",
+    "translation_name": "Incremento Abilità di Desintesi",
     "description": "",
     "translation_description": ""
   },
   "52": {
     "name": "EXP Bonus",
-    "translation_name": "Bonus EXP",
+    "translation_name": "Bonus ESP",
     "description": "",
     "translation_description": ""
   },
@@ -339,7 +339,7 @@
     "name": "Slow Resistance",
     "translation_name": "Resistenza a Lentezza",
     "description": "Shortens the duration of slow.",
-    "translation_description": "Riduce la durata di Lentezza."
+    "translation_description": "Riduce la durata dell'effetto lentezza."
   },
   "58": {
     "name": "Petrification Resistance",
@@ -357,43 +357,43 @@
     "name": "Silence Resistance",
     "translation_name": "Resistenza a Silenzio",
     "description": "Shortens the duration of silence.",
-    "translation_description": "Riduce la durata di Silenzio."
+    "translation_description": "Riduce la durata dell'effetto silenzio."
   },
   "61": {
     "name": "Blind Resistance",
     "translation_name": "Resistenza a Cecità",
     "description": "Shortens the duration of blind.",
-    "translation_description": "Riduce la durata di Cecità."
+    "translation_description": "Riduce la durata dell'effetto cecità."
   },
   "62": {
     "name": "Poison Resistance",
     "translation_name": "Resistenza a Veleno",
     "description": "Shortens the duration of poison.",
-    "translation_description": "Riduce la durata di Veleno."
+    "translation_description": "Riduce la durata dell'effetto veleno."
   },
   "63": {
     "name": "Stun Resistance",
     "translation_name": "Resistenza a Stordimento",
     "description": "Shortens the duration of stun.",
-    "translation_description": "Riduce la durata di Stordimento."
+    "translation_description": "Riduce la durata dell'effetto stordimento."
   },
   "64": {
     "name": "Sleep Resistance",
     "translation_name": "Resistenza a Sonno",
     "description": "Shortens the duration of sleep.",
-    "translation_description": "Riduce la durata di Sonno."
+    "translation_description": "Riduce la durata dell'effetto sonno."
   },
   "65": {
     "name": "Bind Resistance",
     "translation_name": "Resistenza a Blocco",
     "description": "Shortens the duration of bind.",
-    "translation_description": "Riduce la durata di Blocco."
+    "translation_description": "Riduce la durata dell'effetto blocco."
   },
   "66": {
     "name": "Heavy Resistance",
     "translation_name": "Resistenza a Pesantezza",
     "description": "Shortens the duration of heavy.",
-    "translation_description": "Riduce la durata di Pesantezza."
+    "translation_description": "Riduce la durata dell'effetto pesantezza."
   },
   "67": {
     "name": "Doom Resistance",
@@ -409,7 +409,7 @@
   },
   "69": {
     "name": "Increased Spiritbond Gain",
-    "translation_name": "Aumento del Legame Spirituale",
+    "translation_name": "Bonus Incremento del Legame Spirituale",
     "description": "",
     "translation_description": ""
   },

@@ -24,6 +24,8 @@ Per la statistica di potenza dell'equipaggiamento, il termine completo è **Live
 ### Regola B: Nomi e toponimi
 Per le rese dei nomi e dei luoghi usa le forme documentate in `data/glossary/Glossary.md`; per tutti i luoghi consulta anche il catalogo integrale `data/translations/world/placename.json` (`name` → `translation`). Per i nomi non presenti, verifica la traduzione prima di introdurre una nuova convenzione.
 
+Quando un nome di personaggio è formato da parole inglesi comuni che, nel contesto attestato, funzionano da cognome descrittivo, soprannome o appellativo, adattane il significato in italiano. Conserva il nome proprio non descrittivo e accorda la costruzione alla sintassi italiana: *Edda Blackbosom* → **Edda Cuorenero**, *Blackbosom's attire* → **abito di Cuorenero**. Applica il criterio a PG, PNG e personaggi secondari; verifica lore e correzioni canoniche prima di scegliere la resa. Non tradurre automaticamente cognomi arbitrari, nomi con una forma canonica invariata o composti la cui funzione non è chiara: in caso di dubbio, segnala l'ambiguità.
+
 Per la classe artigiana *Armorer* usa **Corazziere** (sigla italiana **COR**), come nel glossario. Mantieni i nomi propri nella forma canonica già attestata: per esempio **Alexandria** non diventa «Alessandria».
 
 ### Regola C: Ricerca della Lore e del Contesto Culturale (Wiki & Lorebook)
@@ -50,6 +52,10 @@ Quando si allinea un termine al glossario (o durante una correzione terminologic
 Tutti i nomi propri dei Loporrit che terminano in *-way* (*Livingway, Growingway, Cookingway, Mappingway, Piercingway, Fusingway, Searchingway, Reportingway*, ecc.) sono nomi propri invariabili e **non si traducono mai** (vietato tradurre "-way" in "-via", es. vietato *«Trafiggivia»* o *«Fondivia»*). Come campo nome, usa **Galleria di Piercingway** senza aggiungere l'articolo assente nell'originale; nella prosa inseriscilo solo se richiesto dalla sintassi italiana. Usa **Condotto di Fusingway** con lo stesso criterio.
 
 ### Regola F: Nessun prestito orfano e coerenza tra campi
+
+Le correzioni censite in [TRANSLATION_CENSUS.md](TRANSLATION_CENSUS.md) richiedono di identificare il referente prima del lemma: *Arms* nelle insegne è «Stemma»; *range* può indicare una soglia di livelli invece della portata; gli *stack* degli effetti sono «accumuli». Mantieni distinte tecniche d'arma, abilità, incantesimi e azioni istintive. Le sigle ATT/DIF indicano statistiche nei campi tecnici, non sostituiscono ogni uso di attacco/difesa. Per una dipendenza numerica preferisci «varia in base a» al calco «scala con», senza inventare la formula.
+
+Gli identificatori letterali dei comandi (*/party, /waymark, /cwlinkshell1*) restano invariati; nelle spiegazioni usa gruppo, marcatore tattico e fonoperla. Il divieto di residui inglesi non autorizza a tradurre la sintassi eseguibile. Nell'interfaccia rivolta al singolo giocatore usa il tu; per annunci a un gruppo o battute di personaggi conserva il destinatario e il registro attestati.
 Non lasciare mai parole o frammenti in inglese residui nei testi tradotti (es. *plate* al posto di *piastra* nelle spiegazioni dei comandi o delle finestre). Inoltre, garantisci sempre la coerenza interna tra nome dell'oggetto e descrizione nei file come `buddyequip.json` o `item.json`.
 
 Per gli oggetti, controlla ogni campo tradotto insieme al proprio originale: nome, descrizione, categoria e titolo possono richiedere forme diverse. Fai concordare articoli, aggettivi e plurali con il nome italiano (*gladio obsoleto / spatha obsoleta*; *chiave della Porta*, non «chiavi del Porta»). Nei composti di materiali evita la ripetizione involontaria di «di» (*grimorio in pelle di lupo*) e applica le forme del glossario anche nelle descrizioni. Le maiuscole dei nomi visualizzati seguono il campo e l'originale: non trasformare una forma minuscola di prosa in un titolo.
@@ -126,10 +132,14 @@ Queste indicazioni descrivono solo segnali attestati. In ogni revisione identifi
 La lingua italiana richiede l'accordo di genere (*maschile/femminile*) per participi e aggettivi.
 
 ### A. Personaggio Giocante (Guerriero/a della Luce)
-1. Ove possibile, sfruttare i tag nativi `SeString` del gioco (`<If(PlayerParameter(Gender)...)>`) per mostrare dinamicamente la forma maschile o femminile in tempo reale.
-2. In alternativa, formulare la frase in stile **epiceno** (neutro naturale):
-   - *Invece di*: "Sono felice che tu sia tornato sano e salvo."
-   - *Usa*: "Che gioia sapere che sei incolume." / "È un sollievo rivederti qui."
+1. Quando il referente è il personaggio giocante, accorda al suo genere appellativi, titoli, articoli, pronomi, aggettivi e participi. Aggiungi una condizione SeString anche se assente nell'inglese, quando serve a conservare significato e registro. Non usare maschile fisso, barre («avventuriero/a»), parentesi o asterischi nel testo visualizzato.
+2. Nel JSON usa un payload compilabile `<hex:...>`. La condizione attestata nel corpus è **If(gnum4)**: macro `02 08`, condizione `E9 05` (parametro globale 4), ramo **femminile prima**, ramo **maschile dopo**. Esempio: `<hex:02081FE905FF0D617676656E74757269657261FF0D617676656E7475726965726F03>` mostra «avventuriera» o «avventuriero». La pseudomacro `<If(PlayerParameter(Gender)...)>` non è compilata dall'encoder e non va inserita nei JSON.
+3. Preferisci rami con l'intero segmento variabile («un'avventuriera esperta» / «un avventuriero esperto»), includendo articolo e accordi. I suffissi isolati sono ammessi soltanto se entrambe le frasi sono corrette. Ricodifica tutte le lunghezze in **byte UTF-8**, incluse quelle dei contenitori annidati. Per payload esistenti riusa `tools/translate_hex_literals.py` entro i suoi limiti e verifica tutte le lunghezze.
+4. Conserva i referenti e le differenze di significato delle condizioni esistenti. Una resa epicena può assorbire una distinzione puramente grammaticale (per esempio «her/his» → «suo»), ma non eliminare informazioni o variabili. Distinzione tecnica: **IfPcGender** (`0B`) usa l'ObjectId e ordina i rami **maschile, femminile**; non sostituirlo con `If(gnum4)`, che riguarda il giocatore locale. Non applicare il genere locale a PNG, altri giocatori, gruppi, nomi di oggetti o titoli musicali. I possessivi italiani si accordano con ciò che è posseduto («i suoi occhi»), non con il possessore.
+5. Le formulazioni epicene naturali restano valide se conservano tutto il senso e il registro («Hai dimostrato grande coraggio», «Ti do il benvenuto»). Se la neutralizzazione elimina un appellativo, un titolo, un'immagine o un'informazione importante, ripristinali con la condizione. Non riscrivere una frase valida soltanto per aggiungere un tag.
+6. Revisiona separatamente la frase femminile e quella maschile complete, anche nei payload annidati, poi esegui il validatore. L'approvazione editoriale e il collaudo nel client restano distinti dalla validazione tecnica.
+
+Riferimenti: [espressioni Lumina](https://github.com/NotAdam/Lumina/blob/master/src/Lumina/Text/Expressions/ExpressionType.cs), [macro Lumina](https://github.com/NotAdam/Lumina/blob/master/src/Lumina/Text/Payloads/MacroCode.cs); condizione del giocatore attestata in `dialogue/contenttalk.json#112:translation`.
 
 ### B. NPC (Chi parla e a chi ci si riferisce)
 Il database `ENpcBase` contiene il flag binario del genere (`0 = Maschio, 1 = Femmina`). Il nostro estrattore inietta automaticamente questi metadati nel JSON di traduzione.
