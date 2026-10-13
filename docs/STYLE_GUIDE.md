@@ -2,7 +2,9 @@
 
 Questo documento definisce i principi editoriali, la gestione dei registri dei personaggi e le regole grammaticali di riferimento per la localizzazione italiana di **Final Fantasy XIV**.
 
-La fonte canonica di riferimento terminologico è costituita da `data/glossary/Glossary.md`. Le annotazioni «Controllo automatico» nel glossario attivano verifiche mirate: il validatore segnala le voci da controllare, ma non riscrive né corregge i file.
+La fonte canonica di riferimento terminologico è costituita da `data/glossary/Glossary.md`. Dopo le istruzioni esplicite dell'utente e il glossario, `data/translations/` è la memoria ufficiale delle scelte italiane del progetto, anche per formule ricorrenti e adattamenti non ancora raccolti nel glossario. Cerca precedenti mirati nei fogli pertinenti e confronta originale, traduzione, campo e contesto: riusa una resa solo quando referente, significato e funzione coincidono, adattando sintassi e registro. Riutilizza i riferimenti già verificati senza rileggere tutto il corpus a ogni voce. I file in revisione restano esempi contestuali.
+
+Se due rese sono incompatibili nello stesso contesto e nessuna istruzione o nota del glossario risolve il conflitto, chiedi all'utente come riconciliarle, mostrando varianti e riferimenti `percorso#ID:campo`; nel frattempo prosegui le voci indipendenti. Non uniformare differenze motivate da significato, referente, registro, sintassi o funzione del campo e non modificare file di riferimento fuori dal perimetro autorizzato. Le annotazioni «Controllo automatico» nel glossario attivano verifiche mirate: il validatore segnala le voci da controllare, ma non riscrive né corregge i file.
 
 Per le categorie di attività usa le equivalenze raccolte nel glossario: Missione, Missione secondaria, Incarico, Mandato, Prova, Incursione, Spedizione, Cripta Profonda, Operazione di Gilda e FATE. In particolare, *Dungeon* come attività istanziata è **Spedizione**; se descrive l'ambiente fisico, per esempio l'ingresso o l'interno, è **sotterraneo**. Le funzioni di gioco che concludono un Incarico e fanno uscire dal dungeon si riferiscono all'attività e usano «spedizione». Mantieni distinti attività, luoghi fisici, nomi propri e usi comuni.
 
@@ -31,7 +33,7 @@ Quando un nome di personaggio è formato da parole inglesi comuni che, nel conte
 Per la classe artigiana *Armorer* usa **Corazziere** (sigla italiana **COR**), come nel glossario. Mantieni i nomi propri nella forma canonica già attestata: per esempio **Alexandria** non diventa «Alessandria».
 
 ### Regola C: Ricerca della Lore e del Contesto Culturale (Wiki & Lorebook)
-I nomi, i toponimi, i mostri e i titoli delle missioni non devono **mai** essere tradotti in modo isolato o letterale. È obbligatorio verificare la lore del mondo di gioco attraverso le fonti canoniche (Wiki di FFXIV, Gamer Escape, ConsoleGamesWiki, Lodestone ed *Encyclopaedia Eorzea*):
+I nomi, i toponimi, i mostri e i titoli delle missioni non devono **mai** essere tradotti in modo isolato o letterale. Verifica prima i precedenti nel corpus canonico del progetto. Quando manca un precedente pertinente, il contesto non è attestato o resta un dubbio, consulta le fonti della lore (Wiki di FFXIV, Gamer Escape, ConsoleGamesWiki, Lodestone ed *Encyclopaedia Eorzea*). Queste fonti chiariscono il contesto; le scelte italiane già stabilite nel progetto guidano l'adattamento. La ricerca, quando necessaria, riguarda:
 1. **Origine ed Etimologia Culturale di Razza e Fazione**:
    - Comprendere *perché* un luogo, un NPC o una fazione porta quel nome nella cultura eorzeana (es. convenzioni linguistiche di razza: nomi Roegadyn Guardia dell'Inferno composti descrittivi vs Lupi di Mare in lingua antica; nomi Garleani con gradi latini; toponimi Elezen a Ishgard).
 2. **Mostri, Bestiario e Creature Mitologiche**:
