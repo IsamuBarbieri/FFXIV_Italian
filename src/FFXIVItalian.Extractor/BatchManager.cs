@@ -307,14 +307,14 @@ public static class BatchManager
         Console.ForegroundColor = ConsoleColor.Yellow;
         Console.WriteLine(" 3. 📜 TRAMA E MISSIONI (La narrazione di gioco):");
         Console.ResetColor();
-        Console.WriteLine("    * Quests ARR     : 58.910 righe pendenti (1.599 missioni) - Campagna principale di A Realm Reborn");
+        Console.WriteLine("    Usa status quests per i conteggi correnti delle missioni.");
         Console.WriteLine();
 
         Console.ForegroundColor = ConsoleColor.Cyan;
         Console.WriteLine("-----------------------------------------------------------------------------------------");
         Console.WriteLine(" COME AVVIARE UN BATCH DI TRADUZIONE:");
         Console.WriteLine("   1. Esporta:  dotnet run --project src/FFXIVItalian.Extractor -- export-batch <foglio> --size 50");
-        Console.WriteLine("   2. Traduci:  fornisci il file in data/batches/ seguendo docs/TRANSLATION_PROMPT.md");
+        Console.WriteLine("   2. Traduci:  fornisci il file in data/batches/ seguendo docs/TRANSLATION.md");
         Console.WriteLine("   3. Importa:  dotnet run --project src/FFXIVItalian.Extractor -- import-batch <foglio> <batch.json>");
         Console.WriteLine("   4. Rebuild:  .\\rebuild.bat  (oppure dotnet run --project src/FFXIVItalian.Patcher)");
         Console.WriteLine("-----------------------------------------------------------------------------------------");

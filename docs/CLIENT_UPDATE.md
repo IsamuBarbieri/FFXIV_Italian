@@ -1,4 +1,4 @@
-# Aggiornamenti del client
+# Aggiornamento del client
 
 Dopo che il client ufficiale ha aggiornato il gioco, esegui dalla radice del progetto:
 
@@ -12,7 +12,7 @@ Il confronto legge i fogli inglesi elencati in `root.exl`, inclusi quelli con pe
 
 | Risultato | Integrazione e lavoro editoriale |
 | --- | --- |
-| Foglio assente dal corpus | File nuovo in `data/da_tradurre/`, nella categoria e nelle sottocartelle pertinenti. Segue il normale workflow di traduzione. |
+| Foglio assente dal corpus | File nuovo in `data/da_tradurre/`, nella categoria e nelle sottocartelle pertinenti. Segue la guida [Traduzione](TRANSLATION.md). |
 | ID aggiunto a un file esistente | Riga inserita nello stesso file con traduzione vuota; le voci esistenti restano intatte. |
 | Sorgente modificata | Nessuna sostituzione automatica nel corpus. `review.md` mostra vecchia sorgente, nuova sorgente e traduzione attuale, campo per campo. |
 | ID rimosso dal client | Riga conservata nel corpus e segnalata nel rapporto. Nessuna cancellazione automatica. |
@@ -31,3 +31,11 @@ Per una voce modificata, leggi entrambe le sorgenti e la traduzione nel contesto
 «Nuovo» significa assente dal corpus locale: non certifica che il foglio sia stato introdotto dall'ultima patch. I file lasciati in `da_tradurre/` sono già conosciuti e non vengono classificati di nuovo come nuovi.
 
 Il confronto e l'integrazione non traducono testi, non pubblicano la mod e non spostano file esistenti tra gli stati editoriali. In caso di interruzione durante l'integrazione, ogni file è scritto attraverso una sostituzione atomica; alcune aggiunte potrebbero essere già applicate. I backup restano disponibili e un nuovo confronto rileva ciò che manca.
+
+## Chiusura dell'aggiornamento
+
+Traduci le aggiunte con [Traduzione](TRANSLATION.md) e controlla le sorgenti modificate con [Revisione](REVISION.md). Valida tutti i file interessati, controlla il diff e conserva backup e rapporti finché l'aggiornamento non è stato verificato in gioco.
+
+Dopo l'approvazione delle modifiche, ricompila usando `rebuild.ps1`, `rebuild.bat` o il patcher. I wrapper eseguono il patcher: possono produrre il pacchetto, effettuare il deploy locale e aggiornare la configurazione Dalamud. Non sono semplici validatori. Percorsi e prerequisiti sono in [Architettura e manutenzione](ARCHITECTURE.md).
+
+Non usare `extract` come sostituto di `update`: l'estrazione serve a ottenere fogli specifici e non conserva il rapporto delle sorgenti cambiate. Per ispezionare testo non individuato usa `search`, `inspect` e `discover`; il catalogo di `discover` è un rapporto generato, non una lista editoriale permanente. Puoi salvarlo in `tools/reports/`, esclusa da Git.

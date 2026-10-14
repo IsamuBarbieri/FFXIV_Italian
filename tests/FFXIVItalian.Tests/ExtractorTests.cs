@@ -8,6 +8,38 @@ namespace FFXIVItalian.Tests;
 
 public class ExtractorTests
 {
+    [Theory]
+    [InlineData("F0EF", 239)]
+    [InlineData("F101", 256)]
+    [InlineData("F20103", 259)]
+    [InlineData("F6010203", 66051)]
+    public void DecodeSeStringPayload_PreservesPackedLengthsAndNestedTerminators(string length, int size)
+    {
+        byte[] payload = Enumerable.Repeat((byte)1, size).ToArray();
+        payload[10] = 3;
+        byte[] bytes = [2, 8, .. Convert.FromHexString(length), .. payload, 3];
+        Assert.Equal($"<hex:{Convert.ToHexString(bytes)}>", BaseSheetExtractor.DecodeSeStringPayload(bytes));
+        Assert.Equal(bytes, SeStringEncoder.Encode(BaseSheetExtractor.DecodeSeStringPayload(bytes)));
+    }
+
+    [Fact]
+    public void ReorganizeDoesNotOverwriteAnExistingTranslation()
+    {
+        string folder = Path.Combine(Path.GetTempPath(), Guid.NewGuid().ToString("N"));
+        try
+        {
+            Directory.CreateDirectory(Path.Combine(folder, "system"));
+            string source = Path.Combine(folder, "addon.json");
+            string target = Path.Combine(folder, "system", "addon.json");
+            File.WriteAllText(source, "draft");
+            File.WriteAllText(target, "approved");
+            Assert.Throws<IOException>(() => TranslationPathResolver.Reorganize(folder));
+            Assert.Equal("draft", File.ReadAllText(source));
+            Assert.Equal("approved", File.ReadAllText(target));
+        }
+        finally { Directory.Delete(folder, true); }
+    }
+
     [Fact]
     public void SaveJsonObject_KeepsTextAndHexTagsReadableAndRoundTripsQuotes()
     {

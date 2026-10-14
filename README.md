@@ -1,106 +1,131 @@
-# Final Fantasy XIV Italiano
+<p align="center">
+  <img src="docs/assets/banner.png" alt="FFXIV Italiano — Eorzea, nella tua lingua." width="100%">
+</p>
 
-Progetto fan-made per tradurre in italiano i testi di Final Fantasy XIV e creare un mod installabile con Penumbra. L'estrattore legge i dati dall'installazione locale del gioco; il patcher genera file EXD e il pacchetto Penumbra senza modificare gli archivi originali.
+<p align="center">
+  <strong>La localizzazione italiana di Final Fantasy XIV.</strong><br>
+  Interfaccia, oggetti, azioni e testi di sistema nella tua lingua.<br>
+  Le missioni e le cutscene sono il prossimo capitolo.
+</p>
 
-## Stato del progetto
+<p align="center">
+  <a href="https://github.com/IsamuBarbieri/FFXIV_Italian/releases/latest/download/FFXIV_Italian.pmp">
+    <img src="docs/assets/download.svg" alt="Scarica FFXIV_Italian.pmp" width="310" height="76">
+  </a>
+</p>
 
-Fotografia del corpus al 3 ottobre 2026. Per i valori aggiornati usa il comando `status`.
+<p align="center">
+  <a href="https://github.com/IsamuBarbieri/FFXIV_Italian/releases">Versioni e note di rilascio</a> ·
+  <a href="#installazione">Installazione</a> ·
+  <a href="#avanzamento">Avanzamento</a> ·
+  <a href="https://github.com/IsamuBarbieri/FFXIV_Italian/issues">Segnala un problema</a>
+</p>
 
-| Indicatore | Valore |
-| --- | ---: |
-| Righe nel corpus | 590.561 |
-| Righe complete secondo l'estrattore | 130.300 (22,1%) |
-| Righe ancora pendenti | 460.261 |
-| File JSON da tradurre | 5.567 |
-| File in revisione | 0 |
-| File approvati | 367 |
-| File delle quest narrative | 5.532 |
+## Eorzea, in italiano
 
-Una riga è completa quando tutti i campi testuali previsti hanno una traduzione. Lo stato editoriale è distinto dalla copertura: solo i file approvati vengono compilati dal patcher.
+**FFXIV Italiano** è una localizzazione fan-made dei testi del gioco, distribuita come mod per Penumbra. Scarica il pacchetto, importalo e scegli quali parti della traduzione attivare. Penumbra applica le modifiche al client senza alterare gli archivi originali dell'installazione.
 
-## Come lavoriamo sulle traduzioni
+L'interfaccia è tradotta. Il lavoro prosegue sui testi narrativi: missioni, dialoghi e cutscene possono ancora apparire in inglese. La patch riguarda i testi; puoi mantenere il doppiaggio che preferisci.
 
-Il responsabile fornisce uno o più file e, quando serve, file di riferimento per l'allineamento. Le traduzioni vengono prodotte e controllate caso per caso, passano nel validatore automatico, ricevono una revisione visiva e vengono corrette in base al feedback. Le scelte ricorrenti confermate si registrano nel glossario.
-
-Il validatore controlla vincoli tecnici e coerenza terminologica; non sostituisce il controllo linguistico o l'approvazione umana. Vedi [il workflow di traduzione](docs/TRANSLATION_WORKFLOW.md) e [AI_USAGE.md](AI_USAGE.md).
-
-### Stati editoriali
-
-| Percorso | Stato |
+| Contenuto | Cosa trovi in italiano |
 | --- | --- |
-| `data/da_tradurre/<categoria>/` | Senza traduzione italiana. |
-| `data/da_revisionare/<categoria>/` | Traduzioni presenti, in attesa di revisione. |
-| `data/translations/<categoria>/` | File approvati e inclusi nel build della mod. |
+| **Interfaccia e sistemi** | Menu, finestre, guide, tooltip e messaggi di gioco. |
+| **Mondo e personaggi** | Luoghi, PNG, nemici, classi e mestieri. |
+| **Oggetti e combattimento** | Nomi e descrizioni di oggetti, azioni, abilità, tratti e stati. |
+| **Attività e collezioni** | Obiettivi, registri e contenuti delle attività. |
+| **Missioni e cutscene** | Localizzazione narrativa in lavorazione, aggiunta nelle successive versioni. |
 
-Le categorie sono `activities`, `combat`, `crafting`, `dialogue`, `housing`, `items`, `minigames`, `quests`, `shops`, `social`, `system` e `world`. Le quest narrative sono suddivise per espansione e cartella numerica. Dopo nuove estrazioni o importazioni, esegui `python tools/organize_sheets.py` per riallineare gli stati e le categorie.
+Le opzioni del mod permettono di attivare separatamente dieci blocchi: **Missioni**, **Nomi di PNG, nemici, luoghi e termini del mondo di gioco**, **Classi e mestieri**, **Oggetti**, **Oggetti legati a eventi**, **Oggetti collezionabili**, **Azioni, abilità, tratti e stati**, **Obiettivi**, **Registro di combattimento e messaggi di sistema**, **Interfaccia**. I blocchi presenti nel pacchetto sono attivi per impostazione predefinita.
 
-Il patcher carica automaticamente i JSON approvati in `data/translations/` quando trova il relativo EXH nel client. Gli handler dedicati conservano le eccezioni di formato dei fogli già curati. Le risorse in `data/assets/` mantengono il percorso relativo; i file nelle altre cartelle sotto `data/` vengono inclusi automaticamente usando il loro percorso relativo a `data/`.
+## Installazione
 
-Nelle opzioni del mod in Penumbra puoi attivare o disattivare dieci blocchi di traduzione. Sono preselezionati per impostazione predefinita; dialoghi e missioni condividono il blocco **Missioni**, mentre i contenuti non assegnati a un blocco specifico rientrano in **Interfaccia**.
+### 1. Prepara gli strumenti
 
-## Struttura del repository
+Servono Final Fantasy XIV installato su PC, XIVLauncher con Dalamud attivo e Penumbra funzionante. Per installare e configurare gli strumenti segui le guide dei rispettivi progetti:
 
-| Percorso | Contenuto |
+| Strumento | Download e istruzioni |
 | --- | --- |
-| `data/` | Corpus JSON, glossario e risorse localizzate. |
-| `src/FFXIVItalian.Core` | Modelli, percorsi, glossario e gestione SeString. |
-| `src/FFXIVItalian.Extractor` | Estrazione, stato, ricerca e flussi di traduzione a batch. |
-| `src/FFXIVItalian.DiffTool` | Confronto delle versioni del gioco. |
-| `src/FFXIVItalian.Patcher` | Compilazione EXD e generazione/deploy Penumbra. |
-| `tools/` e `scripts/` | Strumenti operativi e validatori. |
-| `tests/` | Test C# e Python. |
-| `docs/` | Architettura, traduzione, terminologia e verifiche. |
-| `tools/README.md` | Uso dei generatori e delle utility per texture. |
-| `rebuild.bat` e `rebuild.ps1` | Avvio rapido del rebuild della mod. |
-| `FFXIV_Italian.pmp` | Pacchetto Penumbra versionato nel repository. |
+| **XIVLauncher / Dalamud** | [Sito ufficiale](https://goatcorp.github.io/) · [Guida in italiano](https://github.com/goatcorp/FFXIVQuickLauncher/wiki/Info-%28Italian%29) |
+| **Penumbra** | [Installazione ufficiale](https://github.com/xivdev/Penumbra#installing) |
 
-Per la mappa completa consulta [l'indice dei documenti](docs/README.md).
+### 2. Scarica la patch
 
-## Comandi principali
+Apri [l'ultima release](https://github.com/IsamuBarbieri/FFXIV_Italian/releases/latest) e scarica **`FFXIV_Italian.pmp`** dalla sezione **Assets**. Controlla nelle note la versione del client compatibile.
 
-Prerequisiti: .NET 10 SDK, installazione locale di FFXIV e Penumbra configurato in Dalamud.
+### 3. Importa e attiva
 
-```powershell
-# Avanzamento corrente
-dotnet run --project src/FFXIVItalian.Extractor -- status
+1. Imposta **inglese** come lingua dei testi del client: la patch localizza i dati della versione inglese.
+2. Avvia il gioco con XIVLauncher e apri Penumbra con **`/penumbra`**.
+3. Usa **Import** per importare `FFXIV_Italian.pmp`.
+4. Seleziona **FFXIV Italiano**, attivalo nella collezione **Base / Default** e scegli i blocchi di traduzione desiderati.
+5. Nelle impostazioni di Dalamud (**`/xlsettings`**), abilita **“Wait for plugins before game loads”**.
+6. **Chiudi e riavvia completamente il gioco.**
 
-# Dopo un aggiornamento del client: confronto e copie aggiornate, senza modificare il corpus
-dotnet run --project src/FFXIVItalian.Extractor -- update
+L'attesa del caricamento dei plugin consente a Penumbra di applicare la localizzazione anche ai testi letti all'avvio, prima di entrare con il personaggio.
 
-# Integra file nuovi e righe aggiunte; conserva le voci modificate per la revisione
-dotnet run --project src/FFXIVItalian.Extractor -- update --integrate
+## Avanzamento
 
-# Validare il corpus approvato
-dotnet run --project src/FFXIVItalian.Extractor -- validate
+<p align="center">
+  <img src="docs/assets/progress.svg" alt="Avanzamento del corpus: righe complete e totali, contenuti condivisi e quest narrative per espansione." width="900">
+</p>
 
-# Controllare un file in revisione
-dotnet run --project src/FFXIVItalian.Extractor -- validate --review data/da_revisionare/<categoria>/<file>.json
+Il grafico mostra le **righe complete rispetto al corpus estratto**: una riga è completa quando tutti i suoi campi testuali previsti hanno una traduzione. I conteggi fotografano il lavoro editoriale e possono includere bozze; il pacchetto distribuisce soltanto le traduzioni approvate.
 
-# Traduzione batch alternativa
-dotnet run --project src/FFXIVItalian.Extractor -- export-batch <foglio> --size 50
-dotnet run --project src/FFXIVItalian.Extractor -- import-batch <foglio> data/batches/<batch>.json
-dotnet run --project src/FFXIVItalian.Extractor -- autofill <foglio|all>
+Le quest narrative sono raggruppate per espansione. L'interfaccia, i sistemi e gli altri fogli, compresi i dialoghi esterni a queste quest, compaiono nei **contenuti condivisi** e sono contati una sola volta. La percentuale complessiva comprende anche tutta la narrazione ancora da tradurre.
 
-# Test e rebuild del mod
-dotnet test
-python -m unittest discover -s tests
-.\rebuild.bat
-```
+## Aggiornare o rimuovere la patch
 
-In alternativa, genera o applica la mod con `dotnet run --project src/FFXIVItalian.Patcher`. Le build del patcher usano i file approvati; non modificano i file originali di FFXIV.
+Quando esce una nuova versione, scarica il nuovo `FFXIV_Italian.pmp`, rimuovi o disattiva il pacchetto precedente in Penumbra, importa quello aggiornato e riavvia il gioco. Mantieni attiva una sola versione della localizzazione.
 
-Il comando `update` legge il client locale (il percorso predefinito è in G; è disponibile `--sqpack`) e confronta i fogli inglesi di `root.exl` con tutti e tre gli stati editoriali. Ogni esecuzione crea una cartella distinta in `data/updates/`, esclusa da Git, con `report.md`, `report.json`, copie aggiornate in `updated/` e copie originali in `backup/`. Il rapporto elenca file nuovi, ID aggiunti, ID modificati con i campi interessati, righe rimosse ed errori. Il JSON contiene le voci prima e dopo, comprese le traduzioni conservate.
+Dopo una patch ufficiale di FFXIV, verifica la compatibilità nelle [note di rilascio](https://github.com/IsamuBarbieri/FFXIV_Italian/releases). Se la versione del client non è ancora supportata, disattiva temporaneamente la localizzazione.
 
-La base di confronto è il corpus attuale: «file nuovo» significa assente dal corpus, anche se già esistente nel vecchio client. `update` senza opzioni non modifica il corpus. Con `--integrate`, i fogli nuovi entrano in `data/da_tradurre/` e le righe aggiunte vengono inserite nel file esistente, nello stesso stato editoriale, con traduzione vuota. Traduzioni, metadati e sorgenti delle righe già presenti restano intatti. L'integrazione si sospende se il confronto ha errori o se un file è cambiato dopo la lettura.
+Per tornare ai testi originali basta disattivare **FFXIV Italiano** in Penumbra e riavviare il gioco. Puoi anche rimuovere il mod dal plugin.
 
-Le sorgenti modificate si controllano in `review.md`: ogni campo mostra prima, dopo e traduzione attuale. Dopo il controllo, aggiorna nel file del corpus la sorgente e, se serve, la traduzione di quella voce; conserva lo stato editoriale e valida il file. Il successivo `update` non segnalerà più le differenze risolte. Le righe rimosse restano conservate e segnalate, finché non si decide come trattarle. Non sostituire in blocco i file approvati con le copie di `updated/`. Il comando non approva file e non ricompila la mod. Per il flusso completo consulta [Aggiornamenti del client](docs/GAME_UPDATE_WORKFLOW.md).
+## Domande frequenti
 
-## Documentazione e contributi
+<details>
+<summary><strong>Ho attivato la patch, ma vedo ancora tutto in inglese.</strong></summary>
 
-- [Guida di stile](docs/STYLE_GUIDE.md)
-- [Prompt tecnico per le traduzioni](docs/TRANSLATION_PROMPT.md)
-- [Glossario approvato](data/glossary/Glossary.md)
-- [Architettura](docs/ARCHITECTURE.md)
-- [Come contribuire](CONTRIBUTING.md)
+Controlla la lingua dei testi del client, la collezione Base / Default e l'attivazione del mod e dei suoi blocchi. Abilita l'attesa dei plugin in Dalamud e riavvia completamente il gioco: rientrare con il personaggio può non bastare per i testi già caricati.
 
-Final Fantasy XIV, i suoi testi e i relativi asset appartengono a Square Enix. Questo progetto è una localizzazione fan-made, non ufficiale e non affiliata a Square Enix.
+Se alcuni menu sono italiani ma una missione o una cutscene è inglese, quel testo può essere ancora in lavorazione.
+
+</details>
+
+<details>
+<summary><strong>Il gioco è stato aggiornato e Dalamud o Penumbra non sono disponibili.</strong></summary>
+
+Attendi l'aggiornamento degli strumenti e controlla che la release della localizzazione supporti il nuovo client. Per problemi del launcher o del plugin consulta la [FAQ di XIVLauncher](https://goatcorp.github.io/faq/) e il [progetto Penumbra](https://github.com/xivdev/Penumbra).
+
+</details>
+
+<details>
+<summary><strong>Una macro che richiama azioni per nome non funziona più.</strong></summary>
+
+Controlla che il nome dell'azione nella macro coincida con quello visualizzato dopo la localizzazione. Puoi anche disattivare il blocco **Azioni, abilità, tratti e stati** nelle opzioni della patch.
+
+</details>
+
+<details>
+<summary><strong>Vedo un testo tagliato, una traduzione errata o un problema durante il gioco.</strong></summary>
+
+Apri una [segnalazione](https://github.com/IsamuBarbieri/FFXIV_Italian/issues/new) indicando versione del client e della patch, schermata o passaggi per riprodurre il problema e il luogo preciso: menu, oggetto, PNG o missione. Per problemi di funzionamento indica anche se persistono dopo aver disattivato la localizzazione.
+
+</details>
+
+## Dietro la localizzazione
+
+Per chi mantiene il progetto, i riferimenti operativi sono:
+
+- [Traduzione da zero](docs/TRANSLATION.md) — contesto, corpus, registri e SeString.
+- [Revisione](docs/REVISION.md) — controlli, feedback e riconciliazione delle discrepanze.
+- [Aggiornamento del client](docs/CLIENT_UPDATE.md) — confronto e integrazione dopo le patch del gioco.
+- [Architettura e manutenzione](docs/ARCHITECTURE.md) — build, strumenti e asset.
+
+---
+
+<p align="center">
+  <strong>Una localizzazione della community, per la community italiana.</strong><br>
+  Progetto fan-made, non ufficiale e non affiliato a Square Enix.<br>
+  Final Fantasy XIV, i suoi testi, personaggi e marchi appartengono a Square Enix.
+</p>

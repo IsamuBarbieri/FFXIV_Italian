@@ -209,7 +209,7 @@ public static class TranslationPathResolver
             string targetPath = Path.Combine(targetDir, fileName);
             if (Path.GetFullPath(file) != Path.GetFullPath(targetPath))
             {
-                File.Move(file, targetPath, overwrite: true);
+                File.Move(file, targetPath, overwrite: false);
                 Console.WriteLine($"  [SPOSTATO] {fileName,-25} -> {subDir}/{fileName}");
                 moved++;
             }

@@ -9,6 +9,24 @@ namespace FFXIVItalian.Tests;
 public class PenumbraPackagerTests
 {
     [Fact]
+    public void ResourceFilesExcludeEditorialFoldersAndKeepExplicitGameRoots()
+    {
+        string folder = Path.Combine(Path.GetTempPath(), Guid.NewGuid().ToString("N"));
+        try
+        {
+            foreach (string relative in new[] { "assets/ui/icon/test.tex", "ui/logo/test.tex", "batches/draft.json", "updates/backup.json", "unknown/report.txt", "translations/system/addon.json" })
+            {
+                string file = Path.Combine(folder, relative);
+                Directory.CreateDirectory(Path.GetDirectoryName(file)!);
+                File.WriteAllText(file, "test");
+            }
+            Assert.Equal(new[] { "assets/ui/icon/test.tex", "ui/logo/test.tex" },
+                PenumbraPackager.GetResourceFiles(folder).Select(file => Path.GetRelativePath(folder, file).Replace('\\', '/')).Order());
+        }
+        finally { Directory.Delete(folder, true); }
+    }
+
+    [Fact]
     public async Task CreatePmpPackageAsync_GeneratesValidZipAndManifests()
     {
         string tempPmp = Path.Combine(Path.GetTempPath(), $"test_mod_{Guid.NewGuid():N}.pmp");

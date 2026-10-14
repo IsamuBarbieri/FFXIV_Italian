@@ -216,41 +216,27 @@ public abstract class BaseSheetExtractor : ISheetExtractor
 
     private static int ReadEncodedLength(ReadOnlySpan<byte> span, out int markerBytesRead)
     {
-        if (span.IsEmpty)
-        {
-            markerBytesRead = 0;
-            return 0;
-        }
-
-        byte b = span[0];
-        if (b < 0xD0)
+        markerBytesRead = 0;
+        if (span.IsEmpty) return -1;
+        byte marker = span[0];
+        if (marker is > 0 and < 0xD0)
         {
             markerBytesRead = 1;
-            return Math.Max(0, b - 1);
+            return marker - 1;
         }
-        if (b == 0xF0 && span.Length >= 5)
-        {
-            markerBytesRead = 5;
-            return Math.Max(0, BinaryPrimitives.ReadInt32BigEndian(span.Slice(1, 4)));
-        }
-        if (b == 0xF2 && span.Length >= 3)
-        {
-            markerBytesRead = 3;
-            return BinaryPrimitives.ReadUInt16BigEndian(span.Slice(1, 2));
-        }
-        if (b == 0xFA && span.Length >= 4)
-        {
-            markerBytesRead = 4;
-            return (span[1] << 16) | (span[2] << 8) | span[3];
-        }
-        if (b == 0xFE && span.Length >= 2)
-        {
-            markerBytesRead = 2;
-            return span[1];
-        }
+        if (marker is < 0xF0 or > 0xFE) return -1;
 
+        // Packed integers store only nonzero bytes, selected by the marker's bit mask.
+        int mask = (marker + 1) & 0x0F;
+        uint value = 0;
         markerBytesRead = 1;
-        return b;
+        for (int bit = 8, shift = 24; bit > 0; bit >>= 1, shift -= 8)
+        {
+            if ((mask & bit) == 0) continue;
+            if (markerBytesRead >= span.Length || span[markerBytesRead] == 0) return -1;
+            value |= (uint)span[markerBytesRead++] << shift;
+        }
+        return value <= int.MaxValue ? (int)value : -1;
     }
 
     /// <summary>

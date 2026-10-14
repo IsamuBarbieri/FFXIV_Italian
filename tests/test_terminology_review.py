@@ -11,6 +11,16 @@ from tools import terminology_review as review
 
 
 class TerminologyReviewTests(unittest.TestCase):
+    def test_targeted_corpus_lookup_keeps_conflicting_attestations(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            (root / "first.json").write_text(json.dumps({"1": {"original": "Cancel", "translation": "Annulla"}}), encoding="utf-8")
+            (root / "second.json").write_text(json.dumps({"2": {"col_2": "Cancel", "translation_col_2": "Interrompi"}}), encoding="utf-8")
+            with patch.object(review, "TRANSLATIONS", root):
+                entries = review.approved_name_entries({"first.json", "second.json"}, "Cancel")
+            self.assertEqual({"Annulla", "Interrompi"}, {entry["italian"] for entry in entries})
+            self.assertEqual({"first.json#1:original", "second.json#2:col_2"}, {entry["reference"] for entry in entries})
+
     def test_deep_creature_names_do_not_hide_real_place_references(self):
         for title in ("Thing from the Deep", "Things from the Deep",
                       "trained Thing from the Deep", "trained Things from the Deep"):
@@ -44,7 +54,9 @@ class TerminologyReviewTests(unittest.TestCase):
         _, entries = review.glossary()
         places = [entry for entry in entries if entry["reference"].startswith("world/placename.json#")]
         expected = json.loads(review.PLACE_NAMES.read_text(encoding="utf-8-sig"))
-        self.assertEqual(len(expected), len({entry["reference"] for entry in places}))
+        expected_references = {f"world/placename.json#{row_id}:name"
+                               for row_id, row in expected.items() if row["name"] and row["translation"]}
+        self.assertEqual(expected_references, {entry["reference"] for entry in places})
         self.assertEqual({"Fortezza Oscura di Dzemael"},
                          {entry["italian"] for entry in places if entry["english"] == "Dzemael Darkhold"})
 

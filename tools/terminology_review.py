@@ -113,17 +113,16 @@ def selected_files(name, include_review=False):
 
 
 def approved_name_entries(approved, term):
-    """Allow targeted checks of approved menu functions without listing every label."""
+    """Read exact term attestations from approved files without duplicating the corpus."""
     result = []
-    for relative, category in (("system/maincommand.json", "Interfaccia e comandi"),):
-        if relative not in approved:
-            continue
+    for relative in sorted(approved):
         rows = json.loads((TRANSLATIONS / relative).read_text(encoding="utf-8-sig"))
         for row_id, row in rows.items():
             for source, _, english, italian in pairs(row):
-                if source == "name" and english.casefold() == term.casefold():
+                if english.casefold() == term.casefold():
                     result.append(dict(english=english, italian=italian,
-                                       reference=f"{relative}#{row_id}:name", category=category, usage=""))
+                                       reference=f"{relative}#{row_id}:{source}",
+                                       category="Corpus", usage="Attestazione: verificare referente, significato e funzione."))
     return result
 
 

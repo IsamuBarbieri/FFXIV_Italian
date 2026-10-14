@@ -63,6 +63,18 @@ public class PenumbraDefaultMod
 
 public static class PenumbraPackager
 {
+    public static IEnumerable<string> GetResourceFiles(string dataDir)
+    {
+        // Only explicit asset roots belong in a release, never editorial working folders.
+        foreach (string folder in new[] { "assets", "ui", "exd", "common", "bg", "char", "sound", "vfx", "shader" })
+        {
+            string directory = Path.Combine(dataDir, folder);
+            if (Directory.Exists(directory))
+                foreach (string file in Directory.EnumerateFiles(directory, "*", SearchOption.AllDirectories))
+                    yield return file;
+        }
+    }
+
     private static readonly JsonSerializerOptions JsonOptions = new()
     {
         WriteIndented = true,

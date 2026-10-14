@@ -27,15 +27,4 @@ public class GlossaryEntry
     public string SourceFile { get; set; } = string.Empty;
     public string RowId { get; set; } = string.Empty;
     public string SourceField { get; set; } = string.Empty;
-    public bool CaseSensitive { get; set; } = false;
-    public List<string> ProhibitedForms { get; set; } = []; // e.g. "Maelstrom" -> prohibited, must be "La Tempesta"
-}
-
-public class VoiceProfile
-{
-    public required string CharacterName { get; set; }
-    public required string Register { get; set; }
-    public required string StyleDescription { get; set; }
-    public List<string> KeyTraits { get; set; } = [];
-    public List<string> CharacteristicPhrases { get; set; } = [];
 }

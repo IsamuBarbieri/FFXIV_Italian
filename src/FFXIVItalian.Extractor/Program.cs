@@ -48,7 +48,7 @@ public static class Program
                 return RunExtractQuests(args, sqpackPath);
 
             case "extract-catalog":
-                return RunExtractCatalog(sqpackPath);
+                return RunExtractCatalog(args, sqpackPath);
 
             case "discover":
                 return RunDiscover(sqpackPath);
@@ -100,7 +100,7 @@ COMANDI DISPONIBILI:
   autofill <foglio|all>         Pre-popola termini identici dal glossario canonico
   reorganize                    Riorganizza i file JSON in sottocartelle tematiche (system/, world/, combat/, items/...)
   extract-quests [esp|all]      Estrae tutti i dialoghi delle quest (all, arr, heavensward, stormblood, etc.)
-  extract-catalog               Estrae i fogli mancanti elencati nel catalogo
+  extract-catalog [--catalog <file>] Estrae i fogli mancanti da tools/reports/unextracted_sheets.txt
   list                          Mostra tutti gli estrattori di fogli registrati
   inspect <foglio> [rowId]      Ispeziona la struttura EXH/EXD di un foglio (es. lobby 1704)
   extract <foglio|all>          Estrae il testo originale in JSON preservando le traduzioni esistenti
@@ -732,7 +732,7 @@ ESEMPI:
             Console.WriteLine($"Esportato batch di {count} righe in: {outFile}");
             Console.ResetColor();
             Console.WriteLine();
-            Console.WriteLine("SUGGERIMENTO: Fornisci questo file JSON al prompt di traduzione assieme a docs/TRANSLATION_PROMPT.md.");
+            Console.WriteLine("SUGGERIMENTO: Fornisci questo file JSON al prompt di traduzione assieme a docs/TRANSLATION.md.");
             Console.WriteLine($"Al termine, importa le traduzioni con: dotnet run --project src/FFXIVItalian.Extractor -- import-batch {sheetName} \"{outFile}\"");
             return 0;
         }
@@ -982,7 +982,7 @@ ESEMPI:
         return 0;
     }
 
-    private static int RunExtractCatalog(string sqpackPath)
+    private static int RunExtractCatalog(string[] args, string sqpackPath)
     {
         if (!Directory.Exists(sqpackPath))
         {
@@ -990,10 +990,13 @@ ESEMPI:
             return 1;
         }
 
-        string catalog = Path.Combine(Directory.GetCurrentDirectory(), "docs", "UNEXTRACTED_SHEETS_CATALOG.txt");
+        int catalogOption = Array.IndexOf(args, "--catalog");
+        string catalog = catalogOption >= 0 && catalogOption + 1 < args.Length
+            ? args[catalogOption + 1]
+            : Path.Combine(Directory.GetCurrentDirectory(), "tools", "reports", "unextracted_sheets.txt");
         if (!File.Exists(catalog))
         {
-            Console.Error.WriteLine($"Catalogo non trovato: {catalog}");
+            Console.Error.WriteLine($"Catalogo non trovato: {catalog}. Salva l'output di discover oppure specifica --catalog <file>.");
             return 1;
         }
 

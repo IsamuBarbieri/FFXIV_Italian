@@ -36,11 +36,16 @@ def _encode_uint(value: int) -> bytes:
     return bytes([0xEF + mask, *(part for part in parts if part)])
 
 
-def _replace_text_run(text: bytes, replacements: dict[bytes, bytes]) -> bytes:
+def _replace_text_run(text: bytes, replacements: dict[bytes, bytes] | None) -> bytes:
+    if replacements is None:
+        text.decode("utf-8")
+        if any(byte < 0x20 and byte not in (9, 10, 13) for byte in text):
+            raise ValueError("Control byte outside a SeString macro")
+        return b""
     return replacements.get(text, text)
 
 
-def _transform_expressions(data: bytes, replacements: dict[bytes, bytes]) -> bytes:
+def _transform_expressions(data: bytes, replacements: dict[bytes, bytes] | None) -> bytes:
     output = bytearray()
     offset = 0
     while offset < len(data):
@@ -51,7 +56,7 @@ def _transform_expressions(data: bytes, replacements: dict[bytes, bytes]) -> byt
 
 
 def _transform_expression(
-    data: bytes, offset: int, replacements: dict[bytes, bytes]
+    data: bytes, offset: int, replacements: dict[bytes, bytes] | None
 ) -> tuple[bytes, int]:
     code = data[offset]
     if code == 0xFF:
@@ -76,7 +81,7 @@ def _transform_expression(
     return data[offset:offset + consumed], consumed
 
 
-def _transform_sestring(data: bytes, replacements: dict[bytes, bytes]) -> bytes:
+def _transform_sestring(data: bytes, replacements: dict[bytes, bytes] | None) -> bytes:
     output = bytearray()
     offset = 0
     while offset < len(data):
@@ -115,9 +120,49 @@ def replace_literals(tag: str, replacements: dict[str, str]) -> str:
     return f"<hex:{result.hex().upper()}>"
 
 
-def replace_nested_literal(tag: str, old: str, new: str) -> str:
-    """Backward-compatible helper for a simple, one-byte-length macro payload."""
-    return replace_literals(tag, {old: new})
+def macro_signature(tag: str) -> bytes:
+    """Validate macro lengths and compare controls independently of visible text."""
+    if not tag.startswith("<hex:") or not tag.endswith(">"):
+        raise ValueError("Expected a SeString <hex:...> tag")
+    raw = bytes.fromhex(tag[5:-1])
+    if not raw.startswith(b"\x02"):
+        raise ValueError("Expected a SeString macro")
+    return control_signature(raw)
+
+
+def control_signature(raw: bytes) -> bytes:
+    """Validate a complete SeString, including macros split across JSON fragments."""
+    try:
+        return _transform_sestring(raw, None)
+    except IndexError as error:
+        raise ValueError("Truncated SeString expression") from error
+
+
+def player_gender_branches(tag: str) -> tuple[str, str] | None:
+    """Recognize only If(gnum4) with two plain UTF-8 branches, female then male."""
+    raw = bytes.fromhex(tag[5:-1])
+    if raw[:2] != b"\x02\x08":
+        return None
+    length, marker_size = _decode_uint(raw, 2)
+    start = 2 + marker_size
+    if raw[start:start + 2] != b"\xe9\x05":
+        return None
+    macro_signature(tag)
+    branches = []
+    offset = start + 2
+    for _ in range(2):
+        if offset >= len(raw) or raw[offset] != 0xFF:
+            raise ValueError("If(gnum4) requires two string branches")
+        size, consumed = _decode_uint(raw, offset + 1)
+        begin = offset + 1 + consumed
+        branch = raw[begin:begin + size]
+        if any(byte < 0x20 for byte in branch):
+            raise ValueError("Additional If(gnum4) branches must contain plain text")
+        branches.append(branch.decode("utf-8"))
+        offset = begin + size
+    if offset != start + length:
+        raise ValueError("Unexpected If(gnum4) expressions")
+    return branches[0], branches[1]
 
 
 if __name__ == "__main__":

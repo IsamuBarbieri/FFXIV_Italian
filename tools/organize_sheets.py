@@ -40,6 +40,7 @@ def area(name, parts):
 
 def main():
     moves = []
+    destinations = set()
     counts = {"da_tradurre": 0, "da_revisionare": 0, "approvati": 0}
     for source_root in (TRANSLATIONS, *EDITORIAL_STATES):
         for source in sorted(source_root.rglob("*.json")):
@@ -67,8 +68,9 @@ def main():
             target = target_root / category / Path(*subpath) / source.name
             counts[state] += 1
             if source != target:
-                if target.exists():
+                if target.exists() or target in destinations:
                     raise FileExistsError(f"Destinazione già presente: {target}")
+                destinations.add(target)
                 moves.append((source, target))
 
     for source, target in moves:

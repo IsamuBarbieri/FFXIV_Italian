@@ -8,6 +8,16 @@ public class GlossaryTests
 {
     private readonly GlossaryCatalog _catalog = GlossaryLoader.LoadCanonical();
 
+    [Theory]
+    [InlineData("Mount", "Cavalcatura")]
+    [InlineData("Thunder", "Tuoni")]
+    [InlineData("Crafting", "Fabbricazione")]
+    [InlineData("Battle", "Battaglia")]
+    public void ContextualVariantsSurviveRegistryReduction(string source, string translation)
+    {
+        Assert.True(_catalog.Engine.ValidateTranslation(source, translation).IsCompliant);
+    }
+
     [Fact]
     public void AllApprovedPlaceNamesAreAvailableAndUniqueNamesAreChecked()
     {
@@ -248,7 +258,11 @@ public class GlossaryTests
         try
         {
             File.WriteAllText(path, json);
-            var result = GlossaryAudit.AuditFile(path, _catalog.Engine);
+            var engine = new GlossaryEngine();
+            engine.AddEntry(new GlossaryEntry { EnglishTerm = "Cancel", ItalianTerm = "Annulla" });
+            engine.AddEntry(new GlossaryEntry { EnglishTerm = "Return", ItalianTerm = "Indietro" });
+            engine.AddEntry(new GlossaryEntry { EnglishTerm = "Duty", ItalianTerm = "Incarico" });
+            var result = GlossaryAudit.AuditFile(path, engine);
             Assert.Equal(complete, result.IsComplete);
             Assert.Equal(findings, result.Findings.Count);
         }

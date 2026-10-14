@@ -12,6 +12,22 @@ import organize_sheets
 
 
 class OrganizeSheetsTests(unittest.TestCase):
+    def test_two_inputs_cannot_be_planned_for_the_same_destination(self):
+        with tempfile.TemporaryDirectory() as folder:
+            data = Path(folder)
+            pending, review, approved = (data / name for name in ("da_tradurre", "da_revisionare", "translations"))
+            files = [pending / "addontransient.json", review / "addontransient.json"]
+            for file in files:
+                file.parent.mkdir(parents=True, exist_ok=True)
+                file.write_text(json.dumps({"1": {"original": "Cancel", "translation": ""}}), encoding="utf-8")
+            with patch.object(organize_sheets, "DATA", data), \
+                    patch.object(organize_sheets, "TRANSLATIONS", approved), \
+                    patch.object(organize_sheets, "EDITORIAL_STATES", (pending, review)):
+                with self.assertRaises(FileExistsError):
+                    organize_sheets.main()
+            self.assertTrue(all(file.exists() for file in files))
+            self.assertFalse((pending / "system" / "addontransient.json").exists())
+
     def test_representative_catalog_sheets_have_useful_areas(self):
         examples = {
             "QuestRedoChapterUI": "quests",

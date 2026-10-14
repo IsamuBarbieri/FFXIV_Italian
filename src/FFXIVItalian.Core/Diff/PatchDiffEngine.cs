@@ -63,58 +63,6 @@ public class PatchDiffEngine
         return report;
     }
 
-    public List<TranslationRow> MergeIntoCorpus(
-        List<TranslationRow> currentCorpus,
-        PatchSnapshot newSnapshot,
-        PatchDiffReport diffReport)
-    {
-        var corpusDict = currentCorpus.ToDictionary(r => r.Key, r => r);
-        var updatedCorpus = new List<TranslationRow>();
-
-        // 1. Process all entries in the new snapshot
-        foreach (var (key, snapshotEntry) in newSnapshot.Rows)
-        {
-            if (corpusDict.TryGetValue(key, out var existingRow))
-            {
-                // Check if it was modified
-                var modification = diffReport.ModifiedRows.FirstOrDefault(m => m.Key == key);
-                if (modification != null)
-                {
-                    // Text changed in English! Needs review!
-                    existingRow.OriginalEn = snapshotEntry.TextEn;
-                    existingRow.SourceHash = snapshotEntry.Hash;
-                    existingRow.Status = TranslationStatus.Draft;
-                    existingRow.TranslatorNotes = $"[PATCH UPDATE {diffReport.NewVersion}] Testo originale inglese modificato da Square Enix. Testo precedente: \"{modification.OldText}\"";
-                    updatedCorpus.Add(existingRow);
-                }
-                else
-                {
-                    // Unchanged! Keep existing translation intact
-                    updatedCorpus.Add(existingRow);
-                }
-            }
-            else
-            {
-                // Brand new row!
-                updatedCorpus.Add(new TranslationRow
-                {
-                    Key = key,
-                    SheetName = snapshotEntry.SheetName,
-                    RowId = snapshotEntry.RowId,
-                    SubRowId = snapshotEntry.SubRowId,
-                    ColumnIndex = snapshotEntry.ColumnIndex,
-                    OriginalEn = snapshotEntry.TextEn,
-                    CurrentIt = string.Empty,
-                    Status = TranslationStatus.Untranslated,
-                    SourceHash = snapshotEntry.Hash,
-                    TranslatorNotes = $"[PATCH NEW {diffReport.NewVersion}] Inserito nella patch {diffReport.NewVersion}"
-                });
-            }
-        }
-
-        return updatedCorpus;
-    }
-
     public static async Task<PatchSnapshot> LoadSnapshotAsync(string filePath)
     {
         var json = await File.ReadAllTextAsync(filePath);

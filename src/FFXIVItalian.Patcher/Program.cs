@@ -994,16 +994,7 @@ if (Directory.Exists(sqPackPath))
 // PATCH ASSET UI (texture localizzate per la creazione del personaggio)
 string assetsDir = Path.Combine(projectRoot, "data", "assets");
 var dataDir = Path.Combine(projectRoot, "data");
-var excludedDataFolders = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
-    { "translations", "da_tradurre", "da_revisionare", "glossary", "updates", "cache", "raw_dumps" };
-var resourceFiles = Directory.EnumerateFiles(dataDir, "*", SearchOption.AllDirectories)
-    .Where(path =>
-    {
-        string relative = Path.GetRelativePath(dataDir, path);
-        string firstFolder = relative.Split(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar)[0];
-        return !excludedDataFolders.Contains(firstFolder);
-    })
-    .ToArray();
+var resourceFiles = PenumbraPackager.GetResourceFiles(dataDir).ToArray();
 if (resourceFiles.Length > 0)
 {
     foreach (var resourcePath in resourceFiles)

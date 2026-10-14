@@ -1,10 +1,16 @@
-# Glossario approvato — FFXIV Italiano
+# Decisioni terminologiche ed eccezioni — FFXIV Italiano
 
-Fonte terminologica per le traduzioni future. Sono approvati i file JSON presenti in `data/translations/`; lo stato editoriale dipende dal percorso. Le voci possono citare file approvati, file `@review/` come riferimento contestuale o decisioni terminologiche confermate dall'utente. Citare un file in revisione non lo promuove allo stato approvato. I termini inglesi servono da riferimento e non vanno aggiunti tra parentesi nel testo di gioco.
+`data/translations/` è la memoria ufficiale della localizzazione. Cerca lì le rese già approvate, confrontando sorgente, traduzione, campo e contesto; non duplicare qui ogni nome o etichetta. Questo registro conserva decisioni dell'utente, varianti contestuali, accordi ed eccezioni che la sola coppia sorgente/traduzione non spiega. Le istruzioni esplicite dell'utente prevalgono.
 
-**Catalogo completo dei luoghi:** tutte le 5.302 coppie `name`/`translation` di `data/translations/world/placename.json` fanno parte del glossario, con fonte `world/placename.json#ID:name`. Questo file è il catalogo integrale; la sezione Luoghi qui sotto evidenzia anche le rese canoniche appena uniformate. Le voci che contengono tag richiedono una revisione SeString.
+Per discrepanze reali dello stesso referente, significato e funzione, presenta varianti e riferimenti all'utente. Dopo la scelta uniforma tutte le occorrenze pertinenti nel corpus approvato e in revisione, oltre alla nuova traduzione, con accordi e controlli specifici. Differenze motivate dal contesto restano valide. Procedura: [Traduzione](../../docs/TRANSLATION.md#2-corpus-decisioni-e-discrepanze).
+
+Lo stato editoriale dipende dal percorso: `@review/` è una fonte contestuale e non approva il file. I termini inglesi sono riferimenti e non vanno aggiunti fra parentesi al testo di gioco. Il catalogo integrale dei luoghi è `data/translations/world/placename.json`, letto direttamente dai controlli; le voci Luoghi qui presenti documentano decisioni e varianti.
 
 Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine inglese se resta nella traduzione di una frase; `Controllo automatico: residuo plurale.` controlla anche il plurale inglese in `-s`; `Controllo automatico: suffisso equipaggiamento.` applica il controllo ai termini di materiali e provenienza in `items/item.json`; `Controllo automatico: suffisso ruolo equipaggiamento.` verifica i suffissi di ruolo solo alla fine dei nomi di equipaggiamento; `Controllo automatico: intercalare.` controlla l'intercalare parlato preservando composti come «noce kupo». Questi controlli generano candidati da verificare: il validatore non modifica i file. La forma eorzeana delle misure è verificata in base al singolare o al plurale presente nell'originale.
+
+## Licenze e avvisi nella UI
+
+**Decisione dell'utente:** le informazioni e gli avvisi di licenza mostrati nelle finestre di gioco vanno tradotti. Questo include le informazioni sulle esibizioni in `system/addontransient.json#247:original` e `#1016:original`. Le licenze generali consultabili dalla lobby restano in inglese; il testo dei software di terze parti in `system/addontransient.json#173:original` mantiene l'originale. Distingui la funzione del testo, non applicare un'esclusione a tutte le voci che contengono «license» o all'intero foglio.
 
 ## Concordanza di genere del personaggio giocante
 
@@ -14,7 +20,7 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 - Nel JSON usa **If(gnum4)** compilato: condizione `E9 05`, ramo **femminile**, ramo **maschile**. Esempio «avventuriera» / «avventuriero»: `<hex:02081FE905FF0D617676656E74757269657261FF0D617676656E7475726965726F03>`. Fonte tecnica contestuale: `dialogue/contenttalk.json#112:translation`. Le lunghezze contano i byte UTF-8.
 - Accorda articoli, preposizioni, pronomi, aggettivi e participi in entrambi i rami. Preferisci il segmento completo («un'avventuriera esperta» / «un avventuriero esperto»). I possessivi concordano con ciò che è posseduto, non con il possessore.
 - Non applicare il genere locale a PNG o terzi, né a etichette generiche come «Scheda dell’Avventuriero» o «Nuovo Avventuriero». Il nome di una categoria non indica il genere di chi la consulta. Preserva i referenti delle condizioni native: IfPcGender (`0B`) usa l'ObjectId indicato e ordina i rami **maschile, femminile**. Nomi di oggetti, titoli musicali, citazioni rivolte a un PNG identificato e collettivi richiedono il proprio contesto.
-- Regole e verifica dei due risultati: `docs/STYLE_GUIDE.md`, sezione 2, e `docs/TRANSLATION_PROMPT.md`, sezione 5. La pseudomacro `<If(PlayerParameter(Gender)...)>` non è compilata dall'encoder.
+- Regole e verifica dei due risultati: [Traduzione](../../docs/TRANSLATION.md#4-json-e-sestring). La pseudomacro `<If(PlayerParameter(Gender)...)>` non è compilata dall'encoder.
 
 ## Voci
 
@@ -22,51 +28,16 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 
 | Inglese | Italiano | Fonte | Uso |
 | --- | --- | --- | --- |
-| Cancel | Annulla | `system/addon.json#2:original` |  |
-| Close | Chiudi | `system/addon.json#1219:original` |  |
-| Confirm | Conferma | `system/addon.json#572:original` |  |
-| Yes | Sì | `system/addon.json#576:original` |  |
-| No | No | `system/addon.json#577:original` |  |
-| Item | Oggetto | `system/addon.json#355:original` |  |
-| Inventory | Inventario | `system/addon.json#520:original` |  |
-| Reward | Ricompensa | `system/addon.json#463:original` |  |
-| Apply | Applica | `system/addon.json#1218:original` |  |
-| Save | Salva | `system/addon.json#552:original` |  |
-| Character | Personaggio | `system/addon.json#230:original` |  |
 | NPC | PNG | Decisione dell'utente | Controllo automatico: residuo plurale. Sigla di personaggio non giocante, maschile invariabile al singolare e al plurale; anche NPCs diventa PNG. Usare «il PNG», «i PNG», «del PNG», «dei PNG», «al PNG», «ai PNG», «dal PNG», «dai PNG», «nel PNG», «nei PNG», «sul PNG», «sui PNG», «un PNG». Conservare la sigla maiuscola anche in prosa. Non modificare comandi, identificatori tecnici o campi sorgente. Riferimenti: `shops/fittingshopcategory.json#52:translation`. |
-| Map | Mappa | `system/addon.json#467:original` |  |
 | Party | Gruppo | `system/addon.json#176:original` |  Singolare «gruppo», plurale «gruppi»; evita il residuo «party» nella prosa. Conserva /party come comando e Party nei soli identificatori tecnici. |
-| Teleport | Teletrasporto | `system/addon.json#186:original` |  |
-| Configuration | Configurazione | `system/lobby.json#2:original` |  |
-| Settings | Impostazioni | `system/addon.json#2660:original` |  |
-| Options | Opzioni | `system/addon.json#465:original` |  |
-| System | Sistema | `system/addon.json#1059:original` |  |
-| Help | Aiuto | `system/addon.json#2624:original` |  |
-| Search | Cerca | `system/addon.json#325:original` |  |
-| Back | Indietro | `system/addon.json#2222:original` |  |
-| Next | Avanti | `system/addon.json#9800:original` |  |
-| Previous | Precedente | `system/addon.json#17797:original` |  |
-| Accept | Accetta | `system/addon.json#168:original` |  |
-| Decline | Rifiuta | `system/addon.json#169:original` |  |
 | Delete | Elimina | `system/addon.json#68:original` | Varianti ammesse in prosa: «Eliminare». |
-| Select | Seleziona | `system/addon.json#3139:original` |  |
-| Name | Nome | `system/addon.json#293:original` |  |
-| Level | Livello | `system/addon.json#335:original` |  |
 | Item Level | Livello Oggetto | Decisione dell'utente | Controllo automatico: residuo. Nome della statistica di potenza degli oggetti. Nelle etichette di menu, shop e tabelle con vincoli di spazio usare «Liv.Ogg.» (variante ammessa; Varianti ammesse in etichette: «Liv.Ogg.»). |
 | IL | Liv.Ogg. | Decisione dell'utente | Abbreviazione canonica di Item Level (Livello Oggetto). Rispecchia il francese «NvObj» e il tedesco «G.-St.». Varianti ammesse in prosa: «Liv.Ogg.». |
 | Rank | Grado | `system/addon.json#732:original` | Nel Mahjong indica la posizione in classifica; varianti ammesse in prosa: «Posizione». |
-| Equipment | Equipaggiamento | `system/addon.json#11333:original` |  |
-| Gear | Equipaggiamento | `system/addon.json#852:original` |  |
-| Crafting | Fabbricazione | `system/addon.json#273:original` |  |
+| Crafting | Fabbricazione | `system/addon.json#273:original` | Nome dell'attività di fabbricazione; distinto dalle altre etichette contestuali del lemma. |
 | Gathering | Raccolta | `system/addon.json#276:original` | Varianti ammesse in prosa per l'attività in corso: «Raccogliendo». |
-| Fishing | Pesca | `system/addon.json#2342:original` |  |
-| Movement | Movimento | `system/addon.json#1302:original` |  |
-| Battle | Battaglia | `system/addon.json#663:original` |  |
-| Quests | Missioni | `system/addon.json#454:original` |  |
+| Battle | Battaglia | `system/addon.json#663:original` | Battaglia nella UI; distinta dalla categoria tutorial «Combattimento». |
 | Main Scenario Quests | Missioni dello Scenario Principale | `system/howto.json#80:original` | Categoria delle missioni principali. |
-| Items | Oggetti | `system/addon.json#1926:original` |  |
-| Logs | Registri | `system/maincommand.json#38:name` |  |
-| Travel | Viaggio | `system/maincommandcategory.json#4:original` |  |
 | Return | Ritorna | `system/addon.json#1460:original` | Comando di ritorno. |
 | Return | Indietro | `system/lobby.json#507:original` | Navigazione alla schermata precedente. |
 | Return | Rientro | `system/maincommand.json#36:name` | Etichetta nominale contestuale. |
@@ -273,10 +244,8 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Grand Company | Grande Compagnia | `system/addon.json#337:original` | Varianti ammesse in prosa: «Grandi Compagnie». |
 | Subleader | Vice | `system/addon.json#11771:original` | Ruolo nella squadra PvP; in prosa minuscolo «vice». |
 | Subleaders | Vice | `system/addon.json#11819:original` | Plurale invariabile; in prosa «i vice». |
-| Aetheryte | Eterite | `system/addon.json#8511:original` |  |
+| Aetheryte | Eterite | `system/addon.json#8511:original` | Nome comune della struttura; distinto dai toponimi omonimi. |
 | Aetherpool | Eterico | Decisione dell'utente | Controllo automatico: residuo. Aggettivo da accordare al sostantivo: «arma/armatura/impugnatura eterica», «armi/armature/impugnature eteriche», «equipaggiamento/vetro/frammento eterico», «frammenti/scudi eterici». Eliminare «di aetherpool» quando diventa un aggettivo; adeguare articoli e altri aggettivi. Maiuscole secondo il campo sorgente e la funzione, minuscolo in prosa. Sostituisce anche le precedenti rese «etereo/eterea» e «della riserva eterea» riferite ad aetherpool; non modificare gli altri usi di etereo né sorgenti, identificatori o tag. Varianti ammesse in prosa: «eterica», «eterici», «eteriche». |
-| Aethernet | Eternet | `system/addon.json#2720:original` |  |
-| Gil | Gil | `system/addon.json#830:original` |  |
 | Scrip | Gettone | Decisione dell'utente | Valuta degli Artigiani e dei Raccoglitori; al plurale usare «Gettoni degli Artigiani/dei Raccoglitori». |
 | Tankbuster | Colpo Devastante | Decisione dell'utente | Nome della meccanica di attacco ad alto danno rivolta al difensore; usare questa resa nelle etichette, adattando articoli e accordi in prosa. |
 | Instinctual Skill | Azione Istintiva | Decisione dell'utente | Termine di gioco del Domatore e dei famigli. Plurale: «Azioni Istintive». In prosa usare «azione istintiva / azioni istintive», rispettando le maiuscole dell'originale; sostituisce «abilità istintiva/istintuale» e «tecnica istintiva». Riferimento: `items/xbmitem.json#19:translation_col_3`. Non estendere questa resa a ogni occorrenza di skill: identifica prima la categoria di azione nel contesto. |
@@ -299,20 +268,12 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Blunderous | Blunderous | Decisione dell'utente | Nome ufficiale della cornice Fall Guys; lasciare in inglese. |
 | Blunder-villed | Blunder-villed | Decisione dell'utente | Nome ufficiale della cornice Fall Guys; lasciare in inglese. |
 | The Black Shroud | Velo Nero | `system/addon.json#1578:original` | Nome dell'area. Genere grammaticale maschile: usare «il Velo Nero», «del Velo Nero», «nel Velo Nero». Vietato categoricamente l'uso di articoli o preposizioni femminili («la Velo Nero», «della Velo Nero», «nella Velo Nero»). |
-| Chocobo | Chocobo | `system/addon.json#9081:original` |  |
 | Airship | Aeronave | Decisione dell'utente | Controllo automatico: residuo plurale. Plurale inglese: «Airships» → «Aeronavi». |
-| Retainer | Servitore | `system/addon.json#532:original` |  |
-| Materia | Materia | `system/addon.json#481:original` |  |
-| Mount | Cavalcatura | `system/addon.json#774:original` |  |
-| Minion | Minion | `system/addon.json#8303:original` |  |
+| Mount | Cavalcatura | `system/addon.json#774:original` | Nome della cavalcatura; distinto dalle azioni «Monta» e «Pilota». |
 | Achievement | Obiettivo | `system/addon.json#1484:original` | Per la categoria di gioco usare «Obiettivo» al singolare e «Obiettivi» al plurale; accordare gli articoli («gli obiettivi», «degli obiettivi»). In prosa, il termine resta minuscolo. |
 | Quest | Missione | `system/addon.json#12723:original` | Categoria generale, singolare. |
-| Job | Job | `system/addon.json#684:original` |  |
 | Job Gauge | Barra Job | `system/guidetitle.json#1:name` | Nome dell'indicatore per il Job; varianti ammesse in prosa: «Indicatore Job».  Varianti ammesse in prosa: «indicatore Job». |
 | Addersgall Gauge | Barra dell'Umore | Decisione dell'utente | Barra Job del Saggio; mantenere «Addersgall» quando si parla della risorsa accumulata. |
-| Class | Classe | `system/addon.json#869:original` |  |
-| HP | PV | `system/addon.json#1000:original` |  |
-| MP | PM | `system/addon.json#724:original` |  |
 | Retainer | Retainer | `system/addon.json#12580:original` | Termine conservato in una specifica etichetta. |
 | Mount | Monta | `system/addon.json#4964:original` | Azione contestuale. |
 | Mount | Pilota | `system/addon.json#11382:original` | Azione contestuale. |
@@ -368,49 +329,15 @@ Per le etichette delle armi, *One<hex:021F0103>handed* e *Two<hex:021F0103>hande
 | --- | --- | --- | --- |
 | DoW/DoM | Combattenti/Maghi | `system/addon.json#1080:original` | Etichetta breve per le categorie Discepoli della Guerra e Discepoli della Magia. |
 | DoH/DoL | Artigiani/Raccoglitori | `system/addon.json#1081:original` | Etichetta breve per le categorie Discepoli della Mano e Discepoli della Terra. |
-| Adventurer | Avventuriero | `world/classjob.json#0:name` |  |
-| Gladiator | Gladiatore | `world/classjob.json#1:name` |  |
-| Pugilist | Pugile | `world/classjob.json#2:name` |  |
-| Marauder | Incursore | `world/classjob.json#3:name` |  |
 | Lancer | Lanciere | `world/classjob.json#4:name` |  Forma femminile per PNG identificati nei campi di supporto: «Lanciera». Varianti ammesse in prosa: «Lanciera». Non applicare il genere del giocatore a questi ruoli. |
 | Archer | Arciere | `world/classjob.json#5:name` |  Forma femminile per PNG identificati nei campi di supporto: «Arciera». Varianti ammesse in prosa: «Arciera». Non applicare il genere del giocatore a questi ruoli. |
-| Conjurer | Incantatore | `world/classjob.json#6:name` |  |
 | Thaumaturge | Taumaturgo | `world/classjob.json#7:name` |  Forma femminile per PNG identificati nei campi di supporto: «Taumaturga». Varianti ammesse in prosa: «Taumaturga». Non applicare il genere del giocatore a questi ruoli. |
-| Carpenter | Falegname | `world/classjob.json#8:name` |  |
-| Blacksmith | Fabbro | `world/classjob.json#9:name` |  |
 | Armorer | Corazziere | `world/classjob.json#10:name` | Nome della classe artigiana; usare «corazziere» anche nei composti e nelle descrizioni. |
-| Goldsmith | Orefice | `world/classjob.json#11:name` |  |
-| Leatherworker | Conciatore | `world/classjob.json#12:name` |  |
-| Weaver | Tessitore | `world/classjob.json#13:name` |  |
-| Alchemist | Alchimista | `world/classjob.json#14:name` |  |
-| Culinarian | Cuoco | `world/classjob.json#15:name` |  |
-| Miner | Minatore | `world/classjob.json#16:name` |  |
-| Botanist | Botanico | `world/classjob.json#17:name` |  |
-| Fisher | Pescatore | `world/classjob.json#18:name` |  |
-| Paladin | Paladino | `world/classjob.json#19:name` |  |
-| Monk | Monaco | `world/classjob.json#20:name` |  |
-| Warrior | Guerriero | `world/classjob.json#21:name` |  |
-| Dragoon | Dragone | `world/classjob.json#22:name` |  |
-| Bard | Bardo | `world/classjob.json#23:name` |  |
 | White Mage | Mago Bianco | `world/classjob.json#24:name` | Varianti ammesse in prosa: «mago bianco», «Maga Bianca», «Maga Bianca Makai». |
 | Black Mage | Mago Nero | `world/classjob.json#25:name` | Varianti ammesse in prosa: «mago nero», «maghi neri», «Maga Nera», «maghe nere», «Maga Nera Makai». |
-| Arcanist | Arcanista | `world/classjob.json#26:name` |  |
-| Summoner | Evocatore | `world/classjob.json#27:name` |  |
-| Scholar | Studioso | `world/classjob.json#28:name` |  |
-| Rogue | Furfante | `world/classjob.json#29:name` |  |
-| Ninja | Ninja | `world/classjob.json#30:name` |  |
-| Machinist | Artificiere | `world/classjob.json#31:name` |  |
 | Dark Knight | Cavaliere Oscuro | `world/mounttransient.json#56:description` | Variante ammessa in prosa: «cavaliere oscuro».  Varianti ammesse in prosa: «Cavalieri Oscuri», «cavalieri oscuri». |
-| Astrologian | Astrologo | `world/classjob.json#33:name` |  |
-| Samurai | Samurai | `world/classjob.json#34:name` |  |
 | Red Mage | Mago Rosso | `world/classjob.json#35:name` | Varianti ammesse in prosa: «mago rosso», «Maga Rossa», «maga rossa», «Maga Rossa Makai». |
 | Blue Mage | Mago Blu | `world/classjob.json#36:name` | Varianti ammesse in prosa: «mago blu», «maghi blu». |
-| Gunbreaker | Eterlama | `world/classjob.json#37:name` |  |
-| Dancer | Danzatore | `world/classjob.json#38:name` |  |
-| Reaper | Mietitore | `world/classjob.json#39:name` |  |
-| Sage | Saggio | `world/classjob.json#40:name` |  |
-| Viper | Vipera | `world/classjob.json#41:name` |  |
-| Pictomancer | Pittomante | `world/classjob.json#42:name` |  |
 | Beastmaster | Domatore | `world/classjob.json#43:name` |  Nei riferimenti al Job usa «Domatore», in prosa «domatore» secondo le maiuscole sorgente; evita il residuo «beastmaster». Le azioni dei famigli sono «azioni istintive», non tecniche d'arma. |
 
 ### Sigle delle classi e dei mestieri
@@ -586,7 +513,6 @@ Catalogo integrale: `data/translations/world/placename.json`. Cercare il nome in
 
 | Inglese | Italiano | Fonte | Uso |
 | --- | --- | --- | --- |
-| Vesper Bay | Baia del Vespro | `world/placename.json#274:name` |  |
 | Archeo Alexandria | Archeo Alexandria | `world/placename.json#4676:name` | Conservare il toponimo ufficiale «Alexandria», senza adattarlo in «Alessandria». |
 | The Source | La Fonte | `system/akatsukinotestring.json#33:original` | Nome del mondo; varianti ammesse in prosa: «la Sorgente», «Sorgente». |
 | The Missing Gem | La Gemma Mancante | `world/placename.json#2267:name` | Nome dell'isola / settore esplorativo nel Diadema. |
@@ -614,35 +540,8 @@ Catalogo integrale: `data/translations/world/placename.json`. Cercare il nome in
 | Pilgrim's Traverse | Traversata del Pellegrino | `world/placename.json#2150:name` | Nome proprio; variante ammessa in prosa: «Cammino del Pellegrino». |
 | Kydonia Knolls | I Poggi di Kydonia | `combat/companiontransient.json#495:description` | Nome di una formazione rocciosa. |
 | Moongate Hub | Lo Snodo della Porta Lunare | `crafting/wksplanetselect.json#0:original` | Nome della base lunare. |
-| Aleport | Portobirra | `world/placename.json#223:name` |  |
-| Wineport | Portovino | `world/placename.json#216:name` |  |
-| Quarrymill | Cavamulino | `world/placename.json#129:name` |  |
-| The Waking Sands | Sabbie del Risveglio | `world/placename.json#356:name` |  |
-| The Rising Stones | Le Pietre Risorte | `world/placename.json#481:name` |  |
-| Revenant's Toll | Pedaggio del Redivivo | `world/placename.json#411:name` |  |
-| Limsa Lominsa | Limsa Lominsa | `world/placename.json#27:name` |  |
 | Maelstrom | La Tempesta | `world/placename.json#1775:name` | Nome della compagnia; come sostantivo comune, «maelstrom» si traduce «vortice». |
 | Maelstrom | Vortice | `combat/action.json#7127:original` | Uso comune in un nome d'azione; la Compagnia usa «La Tempesta». |
-| Gridania | Gridania | `world/placename.json#39:name` |  |
-| Ul'dah | Ul'dah | `world/placename.json#51:name` |  |
-| Ishgard | Ishgard | `world/placename.json#62:name` |  |
-| Eorzea | Eorzea | `world/placename.json#21:name` |  |
-| La Noscea | La Noscea | `world/placename.json#22:name` |  |
-| Central Shroud | Velo Centrale | `world/placename.json#54:name` |  |
-| East Shroud | Velo Orientale | `world/placename.json#55:name` |  |
-| South Shroud | Velo Meridionale | `world/placename.json#56:name` |  |
-| North Shroud | Velo Settentrionale | `world/placename.json#57:name` |  |
-| Middle La Noscea | La Noscea Centrale | `world/placename.json#30:name` |  |
-| Lower La Noscea | La Noscea Inferiore | `world/placename.json#31:name` |  |
-| Upper La Noscea | La Noscea Superiore | `world/placename.json#34:name` |  |
-| Western La Noscea | La Noscea Occidentale | `world/placename.json#33:name` |  |
-| Eastern La Noscea | La Noscea Orientale | `world/placename.json#32:name` |  |
-| Outer La Noscea | La Noscea Esterna | `world/placename.json#350:name` |  |
-| The Drowning Wench | La Fanciulla Annegata | `world/placename.json#715:name` |  |
-| The Quicksand | Le Sabbie Mobili | `world/placename.json#615:name` |  |
-| Buscarron's Druthers | Il Capriccio di Buscarron | `world/placename.json#119:name` |  |
-| Camp Drybone | Campo Ossasecca | `world/placename.json#300:name` |  |
-| Camp Overlook | Campo Belvedere | `world/placename.json#237:name` |  |
 | Camp Skull Valley | Campo Valle Teschio | `world/placename.json#224:name` | Nome completo della località; distinto da «Skull Valley». |
 | Loading Station | Stazione di Carico | `world/placename.json#2599:name` | Varianti ammesse in prosa: «stazione», «stazioni», «stazioni di carico». |
 | Camp Iron Lake | Campo Lago di Ferro | `world/placename.json#176:name` | Nome completo della località; distinto dal luogo «Iron Lake». |
@@ -650,10 +549,6 @@ Catalogo integrale: `data/translations/world/placename.json`. Cercare il nome in
 | Camp Black Brush | Campo Sterpenero | `world/placename.json#248:name` | Nome completo della località; distinto dal luogo «Black Brush». |
 | Camp Broken Water | Campo Acqua Spezzata | `world/placename.json#254:name` | Nome completo della località; distinto dal luogo «Broken Water». |
 
-| Bronze Lake | Lago di Bronzo | `world/placename.json#177:name` |  |
-| Whitebrim | Orlo Bianco | `world/placename.json#383:name` |  |
-| Bentbranch Meadows | Prati di Ramostorto | `world/placename.json#94:name` |  |
-| Copperbell Mines | Miniere di Camparame | `world/placename.json#48:name` |  |
 | The Tam-Tara Deepcroft | La Cripta di Tam-Tara | `world/placename.json#58:name` | Forma canonica applicata alle tre occorrenze. |
 | Dzemael Darkhold | Fortezza Oscura di Dzemael | `world/placename.json#64:name` | Forma canonica applicata alle tre occorrenze. |
 | Blue Badger Gate | Porta del Tasso Blu | `world/placename.json#87:name` | Forma canonica applicata a entrambe le occorrenze. |
@@ -759,23 +654,10 @@ I nomi delle condizioni sono distinti dalle forme grammaticali usate nelle descr
 
 | Inglese | Italiano | Fonte | Uso |
 | --- | --- | --- | --- |
-| Clear Skies | Cielo Sereno | `world/weather.json#1:name` |  |
-| Fair Skies | Cielo Limpido | `world/weather.json#2:name` |  |
-| Clouds | Nuvoloso | `world/weather.json#3:name` |  |
-| Fog | Nebbia | `world/weather.json#4:name` |  |
-| Wind | Vento | `world/weather.json#5:name` |  |
-| Gales | Raffiche di vento | `world/weather.json#6:name` |  |
-| Rain | Pioggia | `world/weather.json#7:name` |  |
-| Showers | Rovesci | `world/weather.json#8:name` |  |
-| Thunder | Tuoni | `world/weather.json#9:name` |  |
+| Showers | Rovesci | `world/weather.json#8:name` | Condizione meteorologica; distinta dalla variante «Rovesci passeggeri» attestata in un'altra voce meteo. |
+| Thunder | Tuoni | `world/weather.json#9:name` | Condizione meteorologica al plurale; distinta dal nome dell'elemento «Tuono» nelle azioni. |
 | Thunder | Tuono | `combat/action.json#144:original` | Nome dell'elemento nelle azioni; la condizione meteo usa il plurale «Tuoni». |
-| Thunderstorms | Tempesta di fulmini | `world/weather.json#10:name` |  |
-| Dust Storms | Tempesta di Polvere | `world/weather.json#11:name` |  |
 | Sandstorms | Tempesta di sabbia / Tempeste di sabbia | `world/weather.json#12:name` | Usare il singolare o il plurale secondo la frase. |
-| Hot Spells | Ondata di Caldo | `world/weather.json#13:name` |  |
-| Heat Waves | Ondata di Calore Torrido | `world/weather.json#14:name` |  |
-| Snow | Neve | `world/weather.json#15:name` |  |
-| Blizzards | Bufera di neve | `world/weather.json#16:name` |  |
 | Showers | Rovesci passeggeri | `world/weather.json#210:name` | Variante attestata in un'altra voce meteo. |
 
 ### Rifugio Insulare
@@ -885,7 +767,7 @@ Le voci identificano strutture, aree, visioni, missioni e mammets del Rifugio In
 
 ### Distinzioni ricorrenti dal censimento
 
-Rese attestate nelle correzioni del corpus: il qualificatore inglese delimita il contesto, non è testo da mostrare nel client. I conteggi e i casi esclusi sono documentati in `docs/TRANSLATION_CENSUS.md`.
+Rese attestate nelle correzioni del corpus: il qualificatore inglese delimita il contesto, non è testo da mostrare nel client. Il metodo di censimento è documentato in [Revisione](../../docs/REVISION.md#censimento-del-diff).
 
 | Inglese | Italiano | Fonte | Uso |
 | --- | --- | --- | --- |
