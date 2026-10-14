@@ -88,6 +88,7 @@ Il comando legacy `reorganize` sposta solo JSON nella radice delle traduzioni e 
 
 | Strumento | Uso |
 | --- | --- |
+| `tools/character_voice_audit.py` | Censimento in sola lettura dei fogli Voiceman e riscontro dei contenitori audio nel client Windows locale. Procedura e limiti in [Censimento del parlato](characters/VOICE_CENSUS.md); rapporti non versionati in `tools/reports/`. |
 | `tools/terminology_review.py` | Scansioni mirate, code di revisione e applicazione di proposte approvate. |
 | `scripts/scan_corrupted_values.py` | Valori sospetti e inglese invariato nei payload hex. |
 | `tools/translate_hex_literals.py` | Ricodifica di segmenti UTF-8 con aggiornamento delle lunghezze annidate. |

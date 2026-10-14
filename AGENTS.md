@@ -2,6 +2,7 @@
 
 - Prima di modificare, controlla `git status` e `git diff` e conserva il lavoro presente.
 - Per nuove traduzioni leggi [Traduzione](docs/TRANSLATION.md); per revisioni [Revisione](docs/REVISION.md); dopo una patch [Aggiornamento del client](docs/CLIENT_UPDATE.md). Le regole comuni stanno nella guida di traduzione; non duplicarle negli altri documenti.
+- Per dialoghi e testi attribuiti a un personaggio consulta [Voci dei personaggi](docs/CHARACTER_VOICES.md) e soltanto le schede dei parlanti e delle fasi pertinenti; applica il metodo e i limiti della guida di traduzione.
 - `data/translations/` è la memoria ufficiale. [Glossary.md](data/glossary/Glossary.md) conserva decisioni, varianti ed eccezioni; le istruzioni esplicite dell'utente prevalgono. I file in revisione sono precedenti contestuali.
 - Cerca precedenti mirati e verifica sorgente, traduzione, campo e contesto. Per discrepanze reali chiedi quale forma mantenere con riferimenti `percorso#ID:campo`; dopo la scelta uniforma tutte le occorrenze pertinenti, comprese quelle approvate, e la nuova traduzione. Prosegui le voci indipendenti mentre attendi; non sostituire meccanicamente differenze contestualmente valide.
 - Lavora voce per voce sui campi assegnati. Preserva ID, struttura JSON, sorgenti, metadati e controlli SeString; non riformattare interi JSON. Le sole estensioni del perimetro sono quelle richieste dall'utente o pertinenti alla riconciliazione confermata.

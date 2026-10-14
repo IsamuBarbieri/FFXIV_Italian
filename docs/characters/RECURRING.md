@@ -1,0 +1,121 @@
+# Ricorrenti fra più archi narrativi
+
+[Indice e metodo](../CHARACTER_VOICES.md). Stato delle rese: **bozze editoriali**, con verifica limitata ai campioni e alle fasi documentati sotto. I collegamenti alla wiki documentano identità, ruolo e arco narrativo; non attestano da soli le scelte stilistiche italiane o una battuta doppiata.
+
+I nomi delle schede sono identificatori sorgente; per il testo di gioco usa corpus e glossario. Il riferimento ENpcResident, quando presente, verifica soltanto il nome, non il parlante di una scena. Le note di fase delimitano la proposta, non autorizzano anticipazioni nelle traduzioni.
+
+## Compagni, mentori e famiglia degli Scions
+
+| Personaggio | Ambito / fase | Voce e resa proposta | Limiti e variazioni | Riferimenti di contesto |
+| --- | --- | --- | --- | --- |
+| **Urianger** | ARR–DT | Colto e solenne; periodi distesi, cadenza letteraria leggibile, lessico elevato motivato. | Arcaismi dosati; non oscurare un ordine urgente. Conservare la maggiore apertura emotiva delle scene successive. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Urianger); `data/translations/world/enpcresident.json#1003784:name` |
+| **Thancred** | ARR–DT | Scorrevole e disinvolto; ironia asciutta nelle conversazioni, franchezza nelle operazioni. | Separare leggerezza iniziale, responsabilità verso Ryne e tono operativo; non aggiungere seduzione o battute. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Thancred); `data/translations/world/enpcresident.json#1003781:name` |
+| **Alphinaud** | ARR–DT | Curato e argomentativo; collegamenti logici espliciti, cortesia diplomatica. | ARR: sicurezza talvolta presuntuosa; HW e oltre: maggiore ascolto. Non anticipare la maturazione né fare di ogni frase un comizio. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Alphinaud); `data/translations/world/enpcresident.json#1003053:name` |
+| **Alisaie** | ARR–DT | Diretta e partecipe; ritmo incisivo, emozioni espresse senza giri superflui. | Distinguere protesta, affetto e vulnerabilità; non aggiungere aggressività o esclamazioni. Le spiegazioni restano complete. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Alisaie); `data/translations/world/enpcresident.json#1003054:name` |
+| **Y'shtola** | ARR–DT | Misurata e autorevole; lessico preciso, ironia sobria quando presente. | Conservare preoccupazione e urgenza reali; non renderla impassibile o sarcastica in ogni scena. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Y'shtola); `data/translations/world/enpcresident.json#1003782:name` |
+| **Tataru** | ARR–DT; serie personale | Vivace e premurosa nel privato, chiara e risoluta nell'organizzazione. | Niente parlato infantile o vezzeggiativi automatici; le finanze sono un ambito, non il contenuto di ogni battuta. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Tataru); `data/translations/world/enpcresident.json#1003785:name` |
+| **Estinien** | Job DRG; HW–DT | Asciutto e franco; formulazioni dirette, pochi abbellimenti. | Separare ostilità e vendetta iniziali dalla maggiore disponibilità successiva. Non tagliare spiegazioni né eliminare ironia. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Estinien); `data/translations/world/enpcresident.json#1007115:name` |
+| **G'raha Tia** | Crystal Tower; SHB–DT | Studioso curioso e caloroso; chiarezza erudita, entusiasmo nelle scene personali. | Il Crystal Exarch ha una funzione pubblica più composta. Dopo SHB non imporre quel distacco a ogni conversazione. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/G'raha_Tia); `data/translations/world/enpcresident.json#1005517:name` |
+| **Krile** | HW–DT | Accorta e affabile; domande precise, ironia garbata e attenzione agli altri. | DT aggiunge un coinvolgimento personale: non mantenerla sempre in posizione di osservatrice, né infantilizzarla. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Krile); `data/translations/world/enpcresident.json#1012813:name` |
+| **Minfilia** | ARR; HW/SHB come Oracle of Light | Coordinatrice composta e incoraggiante; formulazioni inclusive e decisioni chiare. | Distinguere la funzione spirituale successiva. Non trasferire questa voce a Ryne, anche quando il testo la chiama Minfilia. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Minfilia_Warde); `data/translations/world/enpcresident.json#1003783:name` |
+| **Lyse** | Yda in ARR/HW; SB e ritorni | Spontanea e schietta; ritmo colloquiale, slancio emotivo e concretezza. | Separare il ruolo di Yda dalla leadership di SB; non confonderla con la Yda storica né trasformare maturazione in eloquenza accademica. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Lyse); `data/translations/world/enpcresident.json#1018327:name` |
+| **Papalymo** | ARR; patch HW | Colto e pragmatico; spiegazioni ordinate e rimproveri asciutti. | L'ironia con Yda dipende dal rapporto. Non farne un brontolone costante o un duplicato di Urianger. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Papalymo); `data/translations/world/enpcresident.json#1002276:name` |
+| **F'lhaminn** | ARR e ritorni | Premurosa e riflessiva; tatto, ascolto, frasi naturali senza enfasi eccessiva. | Conservare autonomia ed esperienza; non aggiungere appellativi materni a ogni interlocutore. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/F'lhaminn); `data/translations/world/enpcresident.json#1007723:name` |
+| **Louisoix** | Antefatti; Bahamut | Saggio e persuasivo; ragionamenti ampi, autorevolezza benevola. | Nella serie Bahamut distinguere ostilità sotto controllo e successivo dialogo da mentore; niente oracoli o benevolenza aggiunti alla prima fase. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Louisoix); `data/translations/world/enpcresident.json#1006797:name` |
+| **Matoya** | HW e ritorni | Brusca e penetrante; rimproveri secchi, ironia pungente, precisione da studiosa. | Non cancellare affetto o malinconia; non attribuire automaticamente questa voce a chi porta il suo nome o titolo. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Matoya); `data/translations/world/enpcresident.json#1011902:name` |
+
+## Secondari dell'organizzazione e alleati
+
+| Personaggio | Ambito / fase | Voce e resa proposta | Limiti e variazioni | Riferimenti di contesto |
+| --- | --- | --- | --- | --- |
+| **Riol** | ARR e ritorni | Informale e vigile; resoconti concreti, osservazioni da uomo d'esperienza. | Rendere il parlato marcato con naturalezza, senza inventare un dialetto regionale italiano. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Riol); `data/translations/world/enpcresident.json#1006341:name` |
+| **Hoary Boulder** | ARR e ritorni | Schietto e volenteroso; tono leale, entusiasmo nell'azione e nell'addestramento. | Evitare il gigante ingenuo stereotipato; non dedurre la voce dalla corporatura. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Hoary_Boulder); `data/translations/world/enpcresident.json#1007734:name` |
+| **Coultenet** | ARR e ritorni | Calmo e analitico; lessico curato, ironia controllata. | Mantenere il contrasto con Hoary Boulder senza farne una regola su tutti gli Elezen. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Coultenet); `data/translations/world/enpcresident.json#1007735:name` |
+| **Alianne** | ARR e ritorni | Sincera e diligente; cortesia semplice, dubbi e volontà di contribuire. | Non infantilizzarla né ridurla alla relazione con il nonno. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Alianne); `data/translations/world/enpcresident.json#1004478:name` |
+| **Isildaure** | ARR e ritorni | Esperto e affettuoso; racconti concreti e curiosità ancora viva. | Età non significa parlato arcaico; preservare le reazioni energiche quando presenti. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Isildaure); `data/translations/world/enpcresident.json#1004477:name` |
+| **Slafborn** | ARR e ritorni | Accogliente e pratico; richieste chiare, spirito comunitario. | Non trasformare ogni intervento in un ordine militare o un discorso paternalistico. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Slafborn); `data/translations/world/enpcresident.json#1006530:name` |
+
+## Tecnici, mercanti e artigiani
+
+| Personaggio | Ambito / fase | Voce e resa proposta | Limiti e variazioni | Riferimenti di contesto |
+| --- | --- | --- | --- | --- |
+| **Cid** | ARR e serie tecniche; ritorni | Competente e collaborativo; spiegazioni tecniche accessibili, concretezza operativa. | Separare entusiasmo da ingegnere e responsabilità personale; niente gergo dove la fonte non lo usa. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Cid); `data/translations/world/enpcresident.json#1003855:name` |
+| **Nero** | ARR; Crystal Tower; Omega e ritorni | Brillante e competitivo; precisione tecnica, sarcasmo e autocompiacimento calibrati. | Non aggiungere una frecciata a Cid a ogni frase; lasciare emergere la collaborazione quando cambia il rapporto. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Nero); `data/translations/world/enpcresident.json#1009371:name` |
+| **Biggs** | ARR e serie tecniche | Pratico e schietto; problemi e soluzioni presentati con pochi passaggi. | Non ridurre la competenza a forza fisica o fare di ogni scambio una gag. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Biggs); `data/translations/world/enpcresident.json#1003836:name` |
+| **Wedge** | ARR e serie tecniche | Entusiasta e sensibile; spiegazioni vive, esitazioni solo se espresse. | Non imporre balbettio o ingenuità infantile; la competenza tecnica resta credibile. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Wedge); `data/translations/world/enpcresident.json#1003837:name` |
+| **Jessie** | ARR e serie tecniche | Organizzata e risoluta; chiarezza su incarichi, costi e scadenze. | Conservare humour e coinvolgimento personale; non farne una copia di Tataru. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Jessie); `data/translations/world/enpcresident.json#1006980:name` |
+| **Rowena** | ARR–DT; armi e consegne | Pragmatica e negoziale; cortesia orientata agli affari, richieste precise. | Non aggiungere avidità o minacce alle battute neutrali; distinguere transazione e rapporto personale. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Rowena); `data/translations/world/enpcresident.json#1001304:name` |
+| **Gerolt** | ARR–DT; armi | Ruvido e concreto; lessico artigiano e colloquialità dove attestati. | Conservare imprecazioni presenti senza aumentarle; niente ubriachezza automatica o perdita della sua competenza. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Gerolt_(ARR)); `data/translations/world/enpcresident.json#1003075:name` |
+
+## Hildibrand e famiglia Manderville
+
+| Personaggio | Ambito / fase | Voce e resa proposta | Limiti e variazioni | Riferimenti di contesto |
+| --- | --- | --- | --- | --- |
+| **Hildibrand** | ARR–DT; serie Hildibrand | Pomposo e sicuro di sé; presentazioni solenni e deduzioni enfatiche con comicità leggibile. | La gag nasce dal contrasto con gli eventi; non aggiungere errori, tormentoni o assurdità alla sorgente. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Hildibrand); `data/translations/world/enpcresident.json#1005512:name` |
+| **Nashu Mhakaracca** | ARR–DT; serie Hildibrand | Entusiasta e fiduciosa; reazioni immediate e sincerità anche nelle deduzioni stravaganti. | Non deformare la grammatica o farne una bambina; seguire il tempo comico della scena. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Nashu_Mhakaracca); `data/translations/world/enpcresident.json#1005501:name` |
+| **Godbert** | ARR e serie Manderville | Cortese e grandioso; calore, cerimoniosità e convinzione nelle situazioni improbabili. | Separare comicità fisica e serietà negli affari; non rendere ogni frase uno slogan Manderville. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Godbert); `data/translations/world/enpcresident.json#1005513:name` |
+| **Julyan** | Serie Hildibrand | Franchezza domestica anche ruvida e affettuosa; rimproveri energici e intimidazione secondo la scena. Conservare le imprecazioni presenti, senza aggiungerne. | Seguire il cambio di tono effettivo; non introdurre minacce in una battuta affettuosa. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Julyan); `data/translations/world/enpcresident.json#1005506:name` |
+| **Gilgamesh** | Serie Hildibrand | Combattivo e teatrale; vanteria cavalleresca, sfide enfatiche e franchezza comica. | Non importare formule da altri giochi; distinguere la spavalderia dalle ammissioni sincere. | [Wiki](https://ffxiv.consolegameswiki.com/wiki/Gilgamesh); `data/translations/world/enpcresident.json#1005543:name` |
+
+
+## Riscontro sulle cutscene
+
+Verifica del 14 ottobre 2026 sui fogli `voiceman` del corpus e sugli archivi del client `2026.10.06.0000.0000`. Il conteggio riguarda campi di testo candidati a parlato con un contenitore SCD della variante `en`, esclusi segnaposto e istruzioni riconosciute; non indica battute ascoltate o necessariamente usate nella versione pubblicata.
+
+I campioni indicati sono stati confrontati con la proposta di voce. Il confronto resta limitato a quelle battute e fasi: non verifica tutta la scheda, le altre quest o una futura resa italiana. Un riscontro breve, ripetuto o soltanto di combattimento è parziale. Lo stato editoriale dei JSON resta quello della cartella.
+
+| Profilo | Tag riscontrati | Candidati EN | Campioni confrontati / esito del perimetro |
+| --- | --- | ---: | --- |
+| Urianger | `URIANGER` | 626 | `data/da_tradurre/dialogue/cut_scene/022/voiceman_02200.json#3:description`; `data/da_tradurre/dialogue/cut_scene/075/voiceman_07505.json#250:description`; `data/da_tradurre/dialogue/cut_scene/022/voiceman_02200.json#4:description` |
+| Thancred | `THANCRED` | 615 | `data/da_tradurre/dialogue/cut_scene/022/voiceman_02200.json#1:description`; `data/da_tradurre/dialogue/cut_scene/075/voiceman_07505.json#249:description`; `data/da_tradurre/dialogue/cut_scene/022/voiceman_02200.json#124:description` |
+| Alphinaud | `ALPHINAUD` | 1586 | `data/da_tradurre/dialogue/cut_scene/022/voiceman_02200.json#12:description`; `data/da_tradurre/dialogue/cut_scene/075/voiceman_07505.json#232:description`; `data/da_tradurre/dialogue/cut_scene/022/voiceman_02200.json#26:description` |
+| Alisaie | `ALISAIE` | 1109 | `data/da_tradurre/dialogue/cut_scene/024/voiceman_02401.json#2:description`; `data/da_tradurre/dialogue/cut_scene/075/voiceman_07505.json#245:description`; `data/da_tradurre/dialogue/cut_scene/024/voiceman_02401.json#18:description` |
+| Y'shtola | `YSHTOLA` | 1217 | `data/da_tradurre/dialogue/cut_scene/022/voiceman_02200.json#77:description`; `data/da_tradurre/dialogue/cut_scene/075/voiceman_07505.json#246:description`; `data/da_tradurre/dialogue/cut_scene/024/voiceman_02400.json#243:description` |
+| Tataru | `TATARU` | 173 | `data/da_tradurre/dialogue/cut_scene/025/voiceman_02500.json#526:description`; `data/da_tradurre/dialogue/cut_scene/075/voiceman_07505.json#258:description`; `data/da_tradurre/dialogue/cut_scene/025/voiceman_02500.json#528:description` |
+| Estinien | `ESTINIEN` | 513 | `data/da_tradurre/dialogue/cut_scene/030/voiceman_03003.json#6:description`; `data/da_tradurre/dialogue/cut_scene/075/voiceman_07505.json#188:description`; `data/da_tradurre/dialogue/cut_scene/030/voiceman_03003.json#162:description` |
+| G'raha Tia | `GRAHATIA` | 502 | `data/da_tradurre/dialogue/cut_scene/053/voiceman_05300.json#589:description`; `data/da_tradurre/dialogue/cut_scene/075/voiceman_07505.json#240:description`; `data/da_tradurre/dialogue/cut_scene/053/voiceman_05300.json#590:description` |
+| Krile | `KRILE` | 747 | `data/da_tradurre/dialogue/cut_scene/031/voiceman_03100.json#30:description`; `data/da_tradurre/dialogue/cut_scene/075/voiceman_07505.json#244:description`; `data/da_tradurre/dialogue/cut_scene/031/voiceman_03100.json#33:description` |
+| Minfilia | `MINFILIA` | 259 | `data/da_tradurre/dialogue/cut_scene/022/voiceman_02200.json#87:description`; `data/da_tradurre/dialogue/cut_scene/050/voiceman_05003.json#299:description`; `data/da_tradurre/dialogue/cut_scene/022/voiceman_02200.json#104:description` |
+| Lyse | `LYSE`, `LYSENARRATION`, `YDA` | 435 | `data/da_tradurre/dialogue/cut_scene/024/voiceman_02400.json#128:description`; `data/da_tradurre/dialogue/cut_scene/060/voiceman_06005.json#340:description`; `data/da_tradurre/dialogue/cut_scene/024/voiceman_02400.json#246:description` |
+| Papalymo | `PAPALYMO` | 62 | `data/da_tradurre/dialogue/cut_scene/024/voiceman_02400.json#158:description`; `data/da_tradurre/dialogue/cut_scene/035/voiceman_03500.json#115:description`; `data/da_tradurre/dialogue/cut_scene/024/voiceman_02400.json#293:description` |
+| F'lhaminn | — | 0 | Nessun tag attribuito in questi 98 fogli; riscontro testuale nelle quest sotto, senza conclusioni sul doppiaggio. |
+| Louisoix | `LOUISOIX` | 57 | `data/da_tradurre/dialogue/cut_scene/024/voiceman_02401.json#6:description`; `data/da_tradurre/dialogue/cut_scene/024/voiceman_02401.json#95:description`; `data/da_tradurre/dialogue/cut_scene/024/voiceman_02401.json#14:description` |
+| Matoya | `MATOYA` | 76 | `data/da_tradurre/dialogue/cut_scene/030/voiceman_03006.json#64:description`; `data/da_tradurre/dialogue/cut_scene/054/voiceman_05400.json#191:description`; `data/da_tradurre/dialogue/cut_scene/030/voiceman_03006.json#69:description` |
+| Riol | — | 0 | Nessun tag attribuito in questi 98 fogli; riscontro testuale nelle quest sotto, senza conclusioni sul doppiaggio. |
+| Hoary Boulder | `HOARYBOULDER` | 18 | `data/da_tradurre/dialogue/cut_scene/060/voiceman_06000.json#29:description`; `data/da_tradurre/dialogue/cut_scene/075/voiceman_07505.json#248:description`; `data/da_tradurre/dialogue/cut_scene/060/voiceman_06000.json#31:description` |
+| Coultenet | — | 0 | Nessun tag attribuito in questi 98 fogli; riscontro testuale nelle quest sotto, senza conclusioni sul doppiaggio. |
+| Alianne | — | 0 | Nessun tag attribuito in questi 98 fogli; riscontro testuale nelle quest sotto, senza conclusioni sul doppiaggio. |
+| Isildaure | — | 0 | Nessun tag attribuito in questi 98 fogli; riscontro testuale nelle quest sotto, senza conclusioni sul doppiaggio. |
+| Slafborn | — | 0 | Nessun tag attribuito in questi 98 fogli; riscontro testuale nelle quest sotto, senza conclusioni sul doppiaggio. |
+| Cid | `CID` | 91 | `data/da_tradurre/dialogue/cut_scene/030/voiceman_03003.json#207:description`; `data/da_tradurre/dialogue/cut_scene/060/voiceman_06006.json#159:description`; `data/da_tradurre/dialogue/cut_scene/030/voiceman_03003.json#213:description` |
+| Nero | `NERO` | 32 | `data/da_tradurre/dialogue/cut_scene/035/voiceman_03500.json#137:description`; `data/da_tradurre/dialogue/cut_scene/054/voiceman_05400.json#69:description`; `data/da_tradurre/dialogue/cut_scene/035/voiceman_03500.json#141:description` |
+| Biggs | `BIGGS` | 17 | `data/da_tradurre/dialogue/cut_scene/030/voiceman_03003.json#206:description`; `data/da_tradurre/dialogue/cut_scene/050/voiceman_05000.json#14:description`; `data/da_tradurre/dialogue/cut_scene/030/voiceman_03007.json#13:description` |
+| Wedge | `WEDGE` | 16 | `data/da_tradurre/dialogue/cut_scene/030/voiceman_03003.json#205:description`; `data/da_tradurre/dialogue/cut_scene/050/voiceman_05000.json#12:description`; `data/da_tradurre/dialogue/cut_scene/030/voiceman_03005.json#53:description` |
+| Jessie | — | 0 | Nessun tag attribuito in questi 98 fogli; riscontro testuale nelle quest sotto, senza conclusioni sul doppiaggio. |
+| Rowena | — | 0 | Nessun tag attribuito in questi 98 fogli; riscontro testuale nelle quest sotto, senza conclusioni sul doppiaggio. |
+| Gerolt | — | 0 | Nessun tag attribuito in questi 98 fogli; riscontro testuale nelle quest sotto, senza conclusioni sul doppiaggio. |
+| Hildibrand | — | 0 | Nessun tag attribuito in questi 98 fogli; riscontro testuale nelle quest sotto, senza conclusioni sul doppiaggio. |
+| Nashu Mhakaracca | — | 0 | Nessun tag attribuito in questi 98 fogli; riscontro testuale nelle quest sotto, senza conclusioni sul doppiaggio. |
+| Godbert | — | 0 | Nessun tag attribuito in questi 98 fogli; riscontro testuale nelle quest sotto, senza conclusioni sul doppiaggio. |
+| Julyan | — | 0 | Nessun tag attribuito in questi 98 fogli; riscontro testuale nelle quest sotto, senza conclusioni sul doppiaggio. |
+| Gilgamesh | `GILGAMESH` | 2 | `data/da_tradurre/dialogue/cut_scene/022/voiceman_02200.json#259:description`; `data/da_tradurre/dialogue/cut_scene/022/voiceman_02200.json#260:description` |
+
+## Riscontro testuale fuori dalle cutscene
+
+Campioni sorgente delle quest e dei dialoghi custom, cercati nei tre stati editoriali. Questi riferimenti sostengono il confronto della parlata, **non attestano audio**. Il campo sorgente prevale sulla traduzione presente e una battuta isolata non autorizza tic permanenti. Le rese restano proposte editoriali.
+
+| Personaggio | Campioni sorgente | Ambito della verifica |
+| --- | --- | --- |
+| F'lhaminn | `data/da_tradurre/quests/arr/003/GaiUse505_00367.json#61:original`; `data/da_tradurre/quests/stormblood/032/LucKbb241_03254.json#86:original` | Confronto preliminare delle sole fasi indicate dai riferimenti; non estendere automaticamente ai ritorni. |
+| Riol | `data/da_tradurre/quests/arr/003/GaiUse501_00363.json#48:original`; `data/da_tradurre/quests/stormblood/031/StmBde107_03149.json#55:original` | Confronto preliminare delle sole fasi indicate dai riferimenti; non estendere automaticamente ai ritorni. |
+| Coultenet | `data/da_tradurre/quests/arr/003/GaiUse505_00367.json#63:original`; `data/da_tradurre/quests/stormblood/032/LucKma101_03279.json#64:original` | Confronto preliminare delle sole fasi indicate dai riferimenti; non estendere automaticamente ai ritorni. |
+| Alianne | `data/da_tradurre/quests/arr/000/GaiUse402_00053.json#66:original`; `data/da_tradurre/quests/stormblood/031/StmBdf101_03179.json#49:original` | Confronto preliminare delle sole fasi indicate dai riferimenti; non estendere automaticamente ai ritorni. |
+| Isildaure | `data/da_tradurre/quests/arr/002/ManSea203_00245.json#96:original`; `data/da_tradurre/quests/heavensward/022/HeaVnc101_02231.json#114:original` | Confronto preliminare delle sole fasi indicate dai riferimenti; non estendere automaticamente ai ritorni. |
+| Slafborn | `data/da_tradurre/quests/arr/000/SubLak001_00045.json#117:original`; `data/da_tradurre/quests/stormblood/030/StmBdy502_03087.json#77:original` | Confronto preliminare delle sole fasi indicate dai riferimenti; non estendere automaticamente ai ritorni. |
+| Jessie | `data/da_tradurre/quests/arr/001/SubCts818_00164.json#55:original`; `data/da_tradurre/quests/stormblood/031/StmBdr304_03157.json#161:original` | Confronto preliminare delle sole fasi indicate dai riferimenti; non estendere automaticamente ai ritorni. |
+| Rowena | `data/da_tradurre/quests/arr/000/SubLak001_00045.json#65:original`; `data/da_tradurre/dialogue/custom/005/ctserkeureka4krile_00545.json#212:description` | Confronto preliminare delle sole fasi indicate dai riferimenti; non estendere automaticamente ai ritorni. |
+| Gerolt | `data/da_tradurre/quests/arr/002/JobRel007_00206.json#60:original`; `data/da_tradurre/dialogue/custom/009/ctsmkdweptrade5_00980.json#8:description` | Confronto preliminare delle sole fasi indicate dai riferimenti; non estendere automaticamente ai ritorni. |
+| Hildibrand | `data/da_tradurre/quests/arr/001/ChrHdb401_00166.json#101:original`; `data/da_tradurre/quests/stormblood/031/ChrHdb752_03168.json#185:original` | Confronto preliminare delle sole fasi indicate dai riferimenti; non estendere automaticamente ai ritorni. |
+| Nashu Mhakaracca | `data/da_tradurre/quests/arr/001/ChrHdb401_00166.json#86:original`; `data/da_tradurre/quests/stormblood/031/ChrHdb752_03168.json#121:original` | Confronto preliminare delle sole fasi indicate dai riferimenti; non estendere automaticamente ai ritorni. |
+| Godbert | `data/da_tradurre/quests/arr/002/ChrHdb402_00202.json#110:original`; `data/da_tradurre/dialogue/custom/007/fesest2021addpubenpc_00713.json#14:description` | Confronto preliminare delle sole fasi indicate dai riferimenti; non estendere automaticamente ai ritorni. |
+| Julyan | `data/da_tradurre/quests/arr/004/ChrHdb504_00493.json#82:original`; `data/da_tradurre/dialogue/custom/007/fesest2021addpubenpc_00713.json#15:description` | Confronto preliminare delle sole fasi indicate dai riferimenti; non estendere automaticamente ai ritorni. |
