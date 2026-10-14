@@ -37,6 +37,16 @@ L'interfaccia è tradotta. Il lavoro prosegue sui testi narrativi: missioni, dia
 
 Le opzioni del mod permettono di attivare separatamente dieci blocchi: **Missioni**, **Nomi di PNG, nemici, luoghi e termini del mondo di gioco**, **Classi e mestieri**, **Oggetti**, **Oggetti legati a eventi**, **Oggetti collezionabili**, **Azioni, abilità, tratti e stati**, **Obiettivi**, **Registro di combattimento e messaggi di sistema**, **Interfaccia**. I blocchi presenti nel pacchetto sono attivi per impostazione predefinita.
 
+## Avanzamento
+
+<p align="center">
+  <img src="docs/assets/progress.svg" alt="Avanzamento del corpus: righe complete e totali, contenuti condivisi e quest narrative per espansione." width="900">
+</p>
+
+Il grafico mostra le **righe complete rispetto al corpus estratto**: una riga è completa quando tutti i suoi campi testuali previsti hanno una traduzione. I conteggi fotografano il lavoro editoriale e possono includere bozze; il pacchetto distribuisce soltanto le traduzioni approvate.
+
+Le quest narrative sono raggruppate per espansione. L'interfaccia, i sistemi e gli altri fogli, compresi i dialoghi esterni a queste quest, compaiono nei **contenuti condivisi** e sono contati una sola volta. La percentuale complessiva comprende anche tutta la narrazione ancora da tradurre.
+
 ## Installazione
 
 ### 1. Prepara gli strumenti
@@ -62,16 +72,6 @@ Apri [l'ultima release](https://github.com/IsamuBarbieri/FFXIV_Italian/releases/
 6. **Chiudi e riavvia completamente il gioco.**
 
 L'attesa del caricamento dei plugin consente a Penumbra di applicare la localizzazione anche ai testi letti all'avvio, prima di entrare con il personaggio.
-
-## Avanzamento
-
-<p align="center">
-  <img src="docs/assets/progress.svg" alt="Avanzamento del corpus: righe complete e totali, contenuti condivisi e quest narrative per espansione." width="900">
-</p>
-
-Il grafico mostra le **righe complete rispetto al corpus estratto**: una riga è completa quando tutti i suoi campi testuali previsti hanno una traduzione. I conteggi fotografano il lavoro editoriale e possono includere bozze; il pacchetto distribuisce soltanto le traduzioni approvate.
-
-Le quest narrative sono raggruppate per espansione. L'interfaccia, i sistemi e gli altri fogli, compresi i dialoghi esterni a queste quest, compaiono nei **contenuti condivisi** e sono contati una sola volta. La percentuale complessiva comprende anche tutta la narrazione ancora da tradurre.
 
 ## Aggiornare o rimuovere la patch
 
