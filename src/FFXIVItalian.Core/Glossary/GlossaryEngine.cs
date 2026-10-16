@@ -62,7 +62,7 @@ public class GlossaryEngine
     private static string RemoveKnownMeasureIdioms(string original)
     {
         return Regex.Replace(original,
-            @"\bevery ilm (?=(?:an|the|as)\b)|\bevery ilm of (?:these mines|the)\b|\bwithin an ilm of (?:its|one's|his|her) life\b|\bwithin an ilm of godhood\b|\bhardest yalms\b|\bI was malms away\b|\bevery last onze of\b|\bevery onze of\b|\bdon't do an onze of good\b|\ba tonze of research left to do\b|\ban ilm or two taller\b",
+            @"\bevery ilm (?=(?:an|the|as)\b)|\bevery ilm of (?:these mines|the)\b|\bwithin an ilm of (?:its|one's|his|her) life\b|\bwithin an ilm of godhood\b|\bhardest yalms\b|\bput in the hard yalms\b|\bgo the extra malm\b|\bmalms ahead of you\b|\bI was malms away\b|\bevery last onze of\b|\bevery onze of\b|\bdon't do an onze of good\b|\ba tonze of research left to do\b|\ban ilm or two taller\b",
             "", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
     }
 
@@ -190,6 +190,9 @@ public class GlossaryEngine
     {
         var result = new GlossaryComplianceResult();
         if (string.IsNullOrWhiteSpace(originalEn) || string.IsNullOrWhiteSpace(translatedIt)) return result;
+        // Custom dialogue keys are internal identifiers, not player-visible text.
+        if (originalEn == translatedIt && Regex.IsMatch(originalEn, @"\ATEXT_[A-Z0-9_]+\z", RegexOptions.CultureInvariant))
+            return result;
 
         var index = GetValidationIndex();
         string trimmedOriginal = originalEn.Trim();

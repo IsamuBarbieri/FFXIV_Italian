@@ -168,6 +168,29 @@ public class GlossaryTests
         Assert.True(_catalog.Engine.ValidateTranslation("Archer", "Arciera").IsCompliant);
     }
 
+    [Theory]
+    [InlineData("We don't go the extra malm with the utensils.", "Non curiamo anche gli utensili.")]
+    [InlineData("I'm already malms ahead of you.", "Sono già parecchio avanti a te.")]
+    [InlineData("We've put in the hard yalms to get where we are.", "Abbiamo fatto un bel pezzo di strada per arrivare fin qui.")]
+    public void AdaptedMeasureIdiomsStillCheckOtherLiteralMeasures(string source, string translation)
+    {
+        Assert.True(_catalog.Engine.ValidateTranslation(source, translation).IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation(
+            source + " Walk ten yalms.", translation + " Cammina per dieci metri.").IsCompliant);
+        Assert.True(_catalog.Engine.ValidateTranslation(
+            source + " Walk ten yalms.", translation + " Cammina per dieci yalmi.").IsCompliant);
+    }
+
+    [Theory]
+    [InlineData("TEXT_TSTPRGTEST_00001_NPC_TRADE_OK")]
+    [InlineData("TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_SELECT_TITLE_0")]
+    public void UnchangedInternalDialogueKeysAreNotGlossaryTerms(string key)
+    {
+        Assert.True(_catalog.Engine.ValidateTranslation(key, key).IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation(key + " NPC", key + " NPC").IsCompliant);
+        Assert.False(_catalog.Engine.ValidateTranslation("An airship and an NPC.", "Un airship e un NPC.").IsCompliant);
+    }
+
     [Fact]
     public void ValidationIndexRefreshesWhenEntriesAreAdded()
     {
