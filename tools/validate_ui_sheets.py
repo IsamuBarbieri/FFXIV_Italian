@@ -73,7 +73,7 @@ def check_sestring_controls(original, translation):
 def main():
     issues = []
     for name in FILES:
-        rows = json.loads((ROOT / AREAS[name] / f"{name}.json").read_text(encoding="utf-8"))
+        rows = json.loads((ROOT / AREAS[name] / f"{name}.json").read_text(encoding="utf-8-sig"))
         pending = translated = hex_pending = excluded = 0
         for row_id, row in rows.items():
             for source, target in pairs(row):

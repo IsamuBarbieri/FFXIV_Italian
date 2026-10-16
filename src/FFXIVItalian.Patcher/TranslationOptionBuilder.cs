@@ -10,16 +10,16 @@ public static class TranslationOptionBuilder
 
     private static readonly Block[] Blocks =
     [
-        new("missions", "Missioni", "Missioni e dialoghi."),
-        new("world", "Nomi di PNG, nemici, luoghi e termini del mondo di gioco", "Nomi di PNG, nemici, luoghi e termini del mondo di gioco."),
-        new("jobs", "Classi e mestieri", "Nomi e testi relativi a classi e mestieri."),
+        new("missions", "Missioni e dialoghi", "Dialoghi, scelte e menu dei PNG; testi delle missioni approvate presenti in questa build."),
+        new("world", "Mondo di gioco", "Nomi di PNG, nemici, luoghi, razze e clan; titoli, reputazioni, gradi delle Grandi Compagnie, F.A.T.E. e altri testi del mondo di gioco."),
+        new("jobs", "Classi e mestieri", "Nomi, sigle e categorie delle classi e dei mestieri."),
         new("items", "Oggetti", "Nomi, descrizioni e categorie degli oggetti comuni."),
         new("event-items", "Oggetti legati a eventi", "Oggetti e categorie legati agli eventi."),
         new("collectibles", "Oggetti collezionabili", "Collezioni, schedari e oggetti collezionabili."),
         new("combat", "Azioni, abilità, tratti e stati", "Testi di combattimento, azioni, abilità, tratti e stati."),
         new("achievements", "Obiettivi", "Obiettivi e relative categorie."),
         new("logs", "Registro di combattimento e messaggi di sistema", "Registro, errori e messaggi di sistema."),
-        new("interface", "Interfaccia", "Interfaccia e contenuti non inclusi negli altri blocchi."),
+        new("interface", "Interfaccia e altri contenuti", "Titolo, creazione del personaggio, menu, guide, attività, artigianato, alloggi, negozi, contenuti sociali e minigiochi; texture italiane disponibili."),
     ];
 
     private static readonly HashSet<string> LogSheets = new(StringComparer.OrdinalIgnoreCase)
@@ -86,7 +86,7 @@ public static class TranslationOptionBuilder
             {
                 Id = StableId($"group:{block.Key}"),
                 Name = block.Name,
-                Description = block.Description,
+                Description = $"{block.Description} Pagine di testo: {filesByBlock[block.Key].Count(path => path.Key.EndsWith(".exd", StringComparison.OrdinalIgnoreCase))}; risorse grafiche o aggiuntive: {filesByBlock[block.Key].Count(path => !path.Key.EndsWith(".exd", StringComparison.OrdinalIgnoreCase))}. La copertura è limitata ai contenuti approvati disponibili.",
                 DefaultSettings = 1,
                 Options =
                 [

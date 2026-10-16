@@ -33,6 +33,8 @@ dotnet run --configuration Release --project src/FFXIVItalian.Patcher -- <cartel
 
 Il patcher produce `FFXIV_Italian.pmp`, effettua il deploy se la cartella locale configurata esiste e controlla `IsResumeGameAfterPluginLoad` in Dalamud. I wrapper di rebuild avviano questo stesso processo. Non avviarli durante una semplice revisione linguistica.
 
+Prima di generare il pacchetto confronta ogni campo tradotto non vuoto del corpus approvato con i byte nella riga e nella colonna EXD di destinazione, inclusi i payload SeString. Un campo omesso o diverso interrompe la build. Dopo la generazione riapre il PMP e controlla contenuto e registrazione univoca di tutti i file in `DefaultData` e `Groups` del `meta.json` Penumbra v4, e la coerenza del `default_mod.json`, prima del deploy. Le descrizioni e il README interno riportano i conteggi effettivi della build; i campi includono anche identificatori tecnici e varianti, non equivalgono a frasi tradotte né a una percentuale del gioco completo.
+
 ## Dati e risorse
 
 `data/translations/` contiene i JSON compilabili. Gli altri stati editoriali non vengono compilati. Le categorie sono activities, combat, crafting, dialogue, housing, items, minigames, quests, shops, social, system e world; i fogli non categorizzati possono usare misc. Le quest narrative mantengono espansione e cartella numerica; i master sono in `quests/master/`.

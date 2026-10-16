@@ -57,7 +57,7 @@ var meta = new PenumbraMeta
 {
     Name = "FFXIV Italiano (Test In-Game)",
     Author = "FFXIV Italian Community",
-    Description = "Localizzazione italiana professionale: Schermata del Titolo (START, EXIT, CONFIGURAZIONE), Creazione Personaggio e Interfaccia di Sistema.",
+    Description = "Localizzazione italiana amatoriale di Final Fantasy XIV, in sviluppo.",
     Version = "1.0",
     Website = "https://github.com/IsamuBarbieri/FFXIV_Italian"
 };
@@ -217,43 +217,6 @@ if (Directory.Exists(sqPackPath))
             }
         }
 
-        // 2e. PATCH GC RANK TEXT (i titoli sono suddivisi per compagnia e genere)
-        string[] gcRankSheets =
-        [
-            "gcranklimsamaletext", "gcranklimsafemaletext",
-            "gcrankgridaniamaletext", "gcrankgridaniafemaletext",
-            "gcrankuldahmaletext", "gcrankuldahfemaletext"
-        ];
-        foreach (string sheet in gcRankSheets)
-        {
-            string rankJsonPath = TranslationPathResolver.FindFile(translationsDir, sheet);
-            var replacements = TranslationFileReader.LoadReplacements(rankJsonPath);
-            var rankNouns = TranslationFileReader.LoadTextCommandReplacements(rankJsonPath, 8);
-            if (replacements.Count == 0 && rankNouns.Count == 0) continue;
-
-            string exdPath = $"exd/{sheet}_0_en.exd";
-            var originalExd = lumina.GetFile(exdPath);
-            if (originalExd == null) continue;
-
-            var columns = replacements.ToDictionary(
-                kvp => kvp.Key,
-                kvp => (IReadOnlyDictionary<int, string>)new Dictionary<int, string> { [0] = kvp.Value });
-            foreach (var (rowId, nounColumns) in rankNouns)
-            {
-                var row = columns.TryGetValue(rowId, out var existing)
-                    ? new Dictionary<int, string>(existing)
-                    : new Dictionary<int, string>();
-                row[8] = nounColumns[8];
-                columns[rowId] = row;
-            }
-            byte[] patchedExd = ExdPatcher.PatchMultiColumnStringSheet(
-                originalExd.Data,
-                fixedDataSize: 24,
-                stringColumnOffsets: [0, 4, 8, 12],
-                columns);
-            fileMap[exdPath] = patchedExd;
-            Console.WriteLine($"  * '{exdPath}' rigenerato ({patchedExd.Length:N0} byte).");
-        }
         // 3. PATCH MAINCOMMANDCATEGORY (Le macro-categorie del menu principale)
         string catJsonPath = TranslationPathResolver.FindFile(translationsDir, "maincommandcategory");
         var catReplacements = TranslationFileReader.LoadReplacements(catJsonPath);
@@ -755,29 +718,6 @@ if (statusReplacements.Count > 0 && Directory.Exists(sqPackPath))
     }
 }
 
-// 20. PATCH FATE (Eventi a tempo F.A.T.E. del mondo aperto)
-string fateJsonPath = TranslationPathResolver.FindFile(translationsDir, "fate");
-var fateReplacements = TranslationFileReader.LoadTwoStringReplacements(fateJsonPath);
-if (fateReplacements.Count > 0 && Directory.Exists(sqPackPath))
-{
-    Console.WriteLine();
-    Console.WriteLine($"Caricate {fateReplacements.Count} traduzioni da '{Path.GetFileName(fateJsonPath)}'.");
-    var luminaFate = getGameData();
-    var originalFateExd = luminaFate.GetFile("exd/fate_0_en.exd");
-    if (originalFateExd != null)
-    {
-        byte[] patchedFateExd = ExdPatcher.PatchTwoStringSheet(
-            originalFateExd.Data,
-            fixedDataSize: 388,
-            string1ColumnOffset: 0,
-            string2ColumnOffset: 4,
-            fateReplacements);
-
-        fileMap["exd/fate_0_en.exd"] = patchedFateExd;
-        Console.WriteLine($"  * 'exd/fate_0_en.exd' rigenerato ({patchedFateExd.Length:N0} byte).");
-    }
-}
-
 // 21. PATCH ACHIEVEMENT (Obiettivi e trofei del personaggio)
 string achievementJsonPath = TranslationPathResolver.FindFile(translationsDir, "achievement");
 var achievementReplacements = TranslationFileReader.LoadTwoStringReplacements(achievementJsonPath);
@@ -801,8 +741,8 @@ if (achievementReplacements.Count > 0 && Directory.Exists(sqPackPath))
     }
 }
 
-// 22. PATCH TRANSLATED QUESTS (anche nelle cartelle dello stato editoriale)
-var questFiles = TranslationPathResolver.GetCorpusFiles(translationsDir)
+// 22. PATCH TRANSLATED QUESTS (solo il corpus approvato)
+var questFiles = Directory.EnumerateFiles(translationsDir, "*.json", SearchOption.AllDirectories)
     .Where(path => int.TryParse(Path.GetFileName(Path.GetDirectoryName(path)), out _) &&
         path.Contains($"{Path.DirectorySeparatorChar}quests{Path.DirectorySeparatorChar}"));
 if (Directory.Exists(sqPackPath))
@@ -876,12 +816,10 @@ if (Directory.Exists(sqPackPath))
     var customSheets = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
     {
         "lobby", "addon", "baseparam", "grandcompany", "fcreputation", "beastreputationrank",
-        "gcrankgridaniafemaletext", "gcrankgridaniamaletext", "gcranklimsafemaletext",
-        "gcranklimsamaletext", "gcrankuldahfemaletext", "gcrankuldahmaletext",
         "maincommandcategory", "maincommand", "error", "classjob", "guardiandeity", "placename",
         "tribe", "race", "howtocategory", "itemuicategory", "weather", "howto", "textcommand",
         "logmessage", "trait", "actiontransient", "traittransient", "title", "customtalk",
-        "status", "fate", "achievement"
+        "status", "achievement"
     };
     int discoveredSheets = 0;
     int patchedPages = 0;
@@ -1009,7 +947,17 @@ if (resourceFiles.Length > 0)
     Console.WriteLine($"Caricate {resourceFiles.Length} risorse da data/ (assets e cartelle aggiuntive).");
 }
 
-fileMap["readme_ita.txt"] = Encoding.UTF8.GetBytes("FFXIV Italiano - Compilato da file JSON in data/translations.");
+var coverage = TranslationBuildVerifier.Verify(translationsDir, getGameData(), fileMap);
+meta.Description = $"Localizzazione italiana amatoriale di Final Fantasy XIV, in sviluppo. " +
+    $"Questa build include {coverage.Files} fogli approvati e {coverage.Fields} campi compilati, inclusi identificatori e varianti, " +
+    $"in {fileMap.Count(file => file.Key.EndsWith(".exd", StringComparison.OrdinalIgnoreCase))} pagine EXD, oltre a {resourceFiles.Length} risorse localizzate. " +
+    "Contenuti: interfaccia, creazione del personaggio, dialoghi dei PNG, mondo di gioco, classi e mestieri, combattimento, oggetti, obiettivi, attività, artigianato, alloggi, negozi e minigiochi. " +
+    "La traduzione del gioco è parziale; ogni blocco si può disattivare nelle opzioni. " +
+    "I contenuti ancora da tradurre o revisionare sono esclusi. Progetto non ufficiale e non affiliato a Square Enix.";
+fileMap["readme_ita.txt"] = Encoding.UTF8.GetBytes($"FFXIV Italiano\n\n{meta.Description}\n\n" +
+    "Installazione: importa il file PMP in Penumbra, abilita la mod nella raccolta desiderata e usa il client in inglese. " +
+    "Tutti i blocchi sono attivi per impostazione predefinita. Riavvia il gioco dopo l'installazione o l'aggiornamento dei testi.\n\n" +
+    $"Progetto e aggiornamenti: {meta.Website}\n");
 meta.Groups = TranslationOptionBuilder.Create(translationsDir, fileMap.Keys);
 Console.WriteLine();
 Console.WriteLine("[Opzioni Penumbra] Blocchi selezionabili, tutti attivi per impostazione predefinita:");
@@ -1020,6 +968,7 @@ foreach (var group in meta.Groups)
 Console.WriteLine();
 Console.WriteLine($"Generazione archivio Penumbra ({Path.GetFileName(outputPmp)})...");
 await PenumbraPackager.CreatePmpPackageAsync(outputPmp, meta, fileMap);
+TranslationBuildVerifier.VerifyPackage(outputPmp, meta, fileMap);
 
 // B. Scrittura DIRETTA nella cartella attiva di Penumbra dell'utente (Hot-Reload istantaneo!)
 if (Directory.Exists(penumbraModDir))

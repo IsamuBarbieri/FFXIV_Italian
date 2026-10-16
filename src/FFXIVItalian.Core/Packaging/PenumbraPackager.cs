@@ -46,7 +46,7 @@ public class PenumbraMeta
 
     public string Name { get; set; } = "FFXIV Italiano";
     public string Author { get; set; } = "FFXIV Italian Localization Team";
-    public string Description { get; set; } = "Localizzazione italiana professionale di Final Fantasy XIV.";
+    public string Description { get; set; } = "Localizzazione italiana amatoriale di Final Fantasy XIV, in sviluppo.";
     public string Version { get; set; } = "0.1.0";
     public string Website { get; set; } = "https://github.com/barbi/FFXIV_Italian";
     public string[] ModTags { get; set; } = ["translation", "italian", "italiano", "ui"];
