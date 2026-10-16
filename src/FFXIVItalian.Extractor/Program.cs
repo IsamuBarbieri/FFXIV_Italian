@@ -14,9 +14,12 @@ public static class Program
 
     public static int Main(string[] args)
     {
-        Console.WriteLine("==================================================");
-        Console.WriteLine(" FFXIV Italian - Estrattore e Ispettore Fogli EXD");
-        Console.WriteLine("==================================================");
+        if (!(args.Length == 2 && args[0].Equals("status", StringComparison.OrdinalIgnoreCase) && args[1] == "--json"))
+        {
+            Console.WriteLine("==================================================");
+            Console.WriteLine(" FFXIV Italian - Estrattore e Ispettore Fogli EXD");
+            Console.WriteLine("==================================================");
+        }
 
         if (args.Length == 0 || args[0].Equals("--help", StringComparison.OrdinalIgnoreCase) || args[0].Equals("-h", StringComparison.OrdinalIgnoreCase))
         {
@@ -94,7 +97,7 @@ USO:
   dotnet run --project src/FFXIVItalian.Extractor -- <comando> [opzioni]
 
 COMANDI DISPONIBILI:
-  status [filtro]               Mostra il cruscotto di avanzamento (es. status, status pending, status system)
+  status [filtro|--json]        Mostra il cruscotto o i conteggi per file e stato editoriale in JSON
   export-batch <foglio> [opt]   Esporta un blocco (batch) di righe pendenti pronte per la traduzione
   import-batch <foglio> <file>  Importa e convalida un batch tradotto nel master JSON
   autofill <foglio|all>         Pre-popola termini identici dal glossario canonico
@@ -682,6 +685,17 @@ ESEMPI:
     private static int RunStatus(string[] args)
     {
         string translationsDir = FindTranslationsDir();
+        if (args.Length == 2 && args[1] == "--json")
+        {
+            string dataDir = Directory.GetParent(translationsDir)!.FullName;
+            var sheets = TranslationPathResolver.GetCorpusFiles(translationsDir).Order().Select(path => new
+            {
+                Path = Path.GetRelativePath(dataDir, path).Replace('\\', '/'),
+                Stats = BatchManager.CalculateStats(path)
+            });
+            Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(sheets));
+            return 0;
+        }
         string? filter = args.Length > 1 ? args[1] : null;
         BatchManager.PrintStatus(translationsDir, filter);
         return 0;
@@ -953,14 +967,14 @@ ESEMPI:
             Console.WriteLine($"  - {s.Name,-30} ({s.StrCols} col. testo su {s.TotalCols})");
         }
 
-        var knownSheets = ExtractorRegistry.GetNames().ToHashSet(StringComparer.OrdinalIgnoreCase);
+        var knownSheets = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
         foreach (var file in TranslationPathResolver.GetCorpusFiles(FindTranslationsDir()))
             knownSheets.Add(Path.GetFileNameWithoutExtension(file));
         var missingMasterSheets = textSheetNames
             .Where(s => !s.Name.Contains('/') && !knownSheets.Contains(s.Name))
             .OrderBy(s => s.Name)
             .ToList();
-        Console.WriteLine($"Fogli master testuali non registrati: {missingMasterSheets.Count}");
+        Console.WriteLine($"Fogli master testuali assenti dal corpus: {missingMasterSheets.Count}");
         foreach (var s in missingMasterSheets)
             Console.WriteLine($"  + {s.Name,-30} ({s.StrCols} col. testo su {s.TotalCols})");
 

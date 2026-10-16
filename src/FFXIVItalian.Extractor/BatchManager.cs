@@ -44,7 +44,7 @@ public static class BatchManager
             foreach (var prop in doc.RootElement.EnumerateObject())
             {
                 total++;
-                if (IsRowTranslated(prop.Value))
+                if (IsRowTranslated(prop.Value, sheetName))
                 {
                     translated++;
                 }
@@ -60,7 +60,7 @@ public static class BatchManager
         }
     }
 
-    public static bool IsRowTranslated(JsonElement elem)
+    public static bool IsRowTranslated(JsonElement elem, string? sheetName = null)
     {
         if (elem.ValueKind == JsonValueKind.String)
         {
@@ -72,7 +72,7 @@ public static class BatchManager
             // CustomTalk columns 2-30 are script identifiers; 31-32 are visible prompts.
             bool hasC31 = elem.TryGetProperty("col_31", out var c31);
             bool hasC32 = elem.TryGetProperty("col_32", out var c32);
-            if (hasC31 || hasC32)
+            if ((sheetName == null || sheetName.Equals("customtalk", StringComparison.OrdinalIgnoreCase)) && (hasC31 || hasC32))
             {
                 string c31Text = hasC31 && c31.ValueKind == JsonValueKind.String ? c31.GetString() ?? "" : "";
                 string c32Text = hasC32 && c32.ValueKind == JsonValueKind.String ? c32.GetString() ?? "" : "";
@@ -90,12 +90,26 @@ public static class BatchManager
                 return c31Ok && c32Ok;
             }
 
+            // In placename, rows with empty source 'name' are valid if translation is populated
+            if (sheetName != null && sheetName.Equals("placename", StringComparison.OrdinalIgnoreCase) &&
+                elem.TryGetProperty("name", out var pName) && string.IsNullOrWhiteSpace(pName.GetString()) &&
+                elem.TryGetProperty("translation", out var pTrans) && !string.IsNullOrWhiteSpace(pTrans.GetString()))
+            {
+                return true;
+            }
+
             bool hasText = false;
+            bool hasTechnicalText = false;
             foreach (var source in elem.EnumerateObject())
             {
                 if (source.Value.ValueKind != JsonValueKind.String ||
                     source.Name is "tag" || source.Name.StartsWith("translation", StringComparison.Ordinal) ||
                     string.IsNullOrWhiteSpace(source.Value.GetString())) continue;
+                if (IsTechnicalSourceField(sheetName, source.Name, source.Value.GetString()!))
+                {
+                    hasTechnicalText = true;
+                    continue;
+                }
                 var targetName = source.Name == "original" && elem.TryGetProperty("translation", out _)
                     ? "translation" : "translation_" + source.Name;
                 if (!elem.TryGetProperty(targetName, out var target) && source.Name == "name")
@@ -103,10 +117,48 @@ public static class BatchManager
                 hasText = true;
                 if (target.ValueKind != JsonValueKind.String || string.IsNullOrWhiteSpace(target.GetString())) return false;
             }
-            return hasText;
+            return hasText || hasTechnicalText;
         }
 
         return false;
+    }
+
+    private static bool IsTechnicalSourceField(string? sheetName, string field, string value)
+    {
+        // These columns contain resource/configuration keys, not text shown to the player.
+        string sheet = sheetName?.ToLowerInvariant() ?? "";
+        if (sheet switch
+        {
+            "contentgauge" or "eventvfx" or "wkscosmotoolname" or "lotteryexchangeshop" => field == "description",
+            "configkey" or "perform" or "performguidescore" => field == "name",
+            "chatbubbletype" => field is "description" or "col_2" or "col_3",
+            "qte" => field is "name" or "description" or "col_2",
+            "snipe" => value.StartsWith("ev_snipe", StringComparison.Ordinal),
+            "groupposeframe" => field == "name" && value.StartsWith("GroupPoseFrame9grid", StringComparison.Ordinal),
+            "mount" => (field is "col_2" or "col_3" or "col_4") && (value.StartsWith("SE_", StringComparison.Ordinal) || value.StartsWith("E_Bt_", StringComparison.Ordinal)),
+            "aetheryte" => field == "col_2",
+            "warplogic" => field == "name" || value.StartsWith("QST_", StringComparison.Ordinal) ||
+                value.StartsWith("QUEST_", StringComparison.Ordinal) || value.StartsWith("HOWTO_", StringComparison.Ordinal) ||
+                value == "ITEM_CHILD_TICKET",
+            "weburl" => field == "original" && Uri.TryCreate(value, UriKind.Absolute, out var uri) && uri.Scheme is "http" or "https",
+            "notebookdivision" => value.StartsWith("[翻訳不要]", StringComparison.Ordinal) || System.Text.RegularExpressions.Regex.IsMatch(value, @"^\d+-\d+$"),
+            "emjaddon" => !System.Text.RegularExpressions.Regex.Replace(value, @"<hex:[0-9A-Fa-f]+>", "").Any(char.IsAsciiLetter),
+            "logkind" => IsLogKindTechnicalPrefix(value),
+            _ => false
+        }) return true;
+
+        // Verified empty-slot sentinels in these sheets; a literal zero elsewhere may be UI text.
+        return (value is "0" or "<nil>") && (sheet is "craftlevetalk" or "tripletriadcard" or
+            "contentfinderconditiontransient" or "mjiname" or "ctsmjicropland_00804" or
+            "ctsmjiorchestrion_00808" or "ctsmkdwepuiview_00981" or "ctswkselevator_00969" or "fessum2017_00431");
+    }
+
+    private static bool IsLogKindTechnicalPrefix(string value)
+    {
+        // logkind entries are chat channel prefix formats (color tags, delimiters, and [GM]/[PvP] tags)
+        string stripped = System.Text.RegularExpressions.Regex.Replace(value, @"<hex:[0-9A-Fa-f]+>", "");
+        string lettersOnly = new string(stripped.Where(char.IsAsciiLetter).ToArray());
+        return lettersOnly is "" or "GM" or "PvP";
     }
 
     public static void PrintStatus(string translationsDir, string? filter = null)

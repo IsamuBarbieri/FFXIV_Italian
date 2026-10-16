@@ -25,7 +25,7 @@
 
 **FFXIV Italiano** è una localizzazione fan-made dei testi del gioco, distribuita come mod per Penumbra. Scarica il pacchetto, importalo e scegli quali parti della traduzione attivare. Penumbra applica le modifiche al client senza alterare gli archivi originali dell'installazione.
 
-L'interfaccia è tradotta. Il lavoro prosegue sui testi narrativi: missioni, dialoghi e cutscene possono ancora apparire in inglese. La patch riguarda i testi; puoi mantenere il doppiaggio che preferisci.
+L'obiettivo della **versione 1.0** è coprire interfaccia, sistemi e contenuti condivisi. Le lacune ancora da completare o verificare sono elencate nel [piano della versione 1.0](docs/RELEASE_1_0.md). Missioni, diari, dialoghi e cutscene hanno un avanzamento distinto; i dialoghi già approvati sono inclusi nella patch. La patch riguarda i testi; puoi mantenere il doppiaggio che preferisci.
 
 | Contenuto | Cosa trovi in italiano |
 | --- | --- |
@@ -35,17 +35,17 @@ L'interfaccia è tradotta. Il lavoro prosegue sui testi narrativi: missioni, dia
 | **Attività e collezioni** | Obiettivi, registri e contenuti delle attività. |
 | **Missioni e cutscene** | Localizzazione narrativa in lavorazione, aggiunta nelle successive versioni. |
 
-Le opzioni del mod permettono di attivare separatamente dieci blocchi: **Missioni**, **Nomi di PNG, nemici, luoghi e termini del mondo di gioco**, **Classi e mestieri**, **Oggetti**, **Oggetti legati a eventi**, **Oggetti collezionabili**, **Azioni, abilità, tratti e stati**, **Obiettivi**, **Registro di combattimento e messaggi di sistema**, **Interfaccia**. I blocchi presenti nel pacchetto sono attivi per impostazione predefinita.
+Le opzioni del mod permettono di attivare separatamente dieci blocchi: **Missioni e dialoghi**, **Mondo di gioco**, **Classi e mestieri**, **Oggetti**, **Oggetti legati a eventi**, **Oggetti collezionabili**, **Azioni, abilità, tratti e stati**, **Obiettivi**, **Registro di combattimento e messaggi di sistema**, **Interfaccia e altri contenuti**. I blocchi presenti nel pacchetto sono attivi per impostazione predefinita.
 
 ## Avanzamento
 
 <p align="center">
-  <img src="docs/assets/progress.svg" alt="Avanzamento del corpus: righe complete e totali, contenuti condivisi e quest narrative per espansione." width="900">
+  <img src="docs/assets/progress.svg" alt="Obiettivo 1.0: interfaccia e contenuti condivisi. Barre separate per dialoghi, cutscene, cataloghi delle missioni e quest per espansione." width="900">
 </p>
 
-Il grafico mostra le **righe complete rispetto al corpus estratto**: una riga è completa quando tutti i suoi campi testuali previsti hanno una traduzione. I conteggi fotografano il lavoro editoriale e possono includere bozze; il pacchetto distribuisce soltanto le traduzioni approvate.
+Il dato principale misura l'**obiettivo 1.0 sul corpus estratto**: interfaccia, sistemi e contenuti condivisi. Una riga è coperta quando i suoi campi testuali previsti hanno una traduzione; le colonne tecniche e i segnaposto verificati non richiedono traduzione. Le barre contano solo le righe coperte nei file approvati, mentre bozze e file da tradurre restano nel denominatore. Il conteggio non certifica la copertura dell'intero client o delle texture, né la resa in gioco.
 
-Le quest narrative sono raggruppate per espansione. L'interfaccia, i sistemi e gli altri fogli, compresi i dialoghi esterni a queste quest, compaiono nei **contenuti condivisi** e sono contati una sola volta. La percentuale complessiva comprende anche tutta la narrazione ancora da tradurre.
+La narrazione è distinta in **dialoghi**, **cutscene**, **titoli, diari e cataloghi delle missioni** e **quest per espansione**. Ogni foglio è contato una volta. Le cutscene hanno una barra dedicata: non corrispondono sempre a una singola quest e possono contenere battute di combattimento e contenuti collaterali. Il [piano della versione 1.0](docs/RELEASE_1_0.md) spiega il perimetro e riporta i fogli ancora da completare o verificare, anche quando sono già in `translations/`.
 
 ## Installazione
 

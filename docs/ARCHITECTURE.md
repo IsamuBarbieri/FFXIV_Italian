@@ -70,7 +70,9 @@ Per aggiornare `docs/assets/progress.svg` dai conteggi correnti dell'estrattore:
 python tools/update_readme_progress.py
 ```
 
-Lo script esegue `status` senza filtri, conserva la definizione di riga completa dell'estrattore e separa i fogli delle quest dagli altri contenuti senza duplicarli. Richiede Python e .NET, solo per la manutenzione del grafico. Per un rapporto già salvato usa `--status-file <file>` e `--date YYYY-MM-DD`; verifica la data e committa il grafico insieme alle modifiche del corpus.
+Lo script esegue `status --json`, usando i conteggi per file dell'estrattore e lo stato editoriale dei percorsi. Genera anche [il piano della versione 1.0](RELEASE_1_0.md), con i fogli ancora da completare o verificare. Il dato principale riguarda interfaccia e contenuti condivisi; dialoghi, cutscene, cataloghi delle missioni e quest per espansione sono contati separatamente, senza duplicazioni. Le barre includono nel numeratore soltanto le righe coperte nei fogli approvati. Le colonne tecniche e i segnaposto verificati sono riconosciuti da `BatchManager.IsTechnicalSourceField`, senza escludere il testo nei payload SeString.
+
+Richiede Python e .NET, solo per la manutenzione del grafico. Per un rapporto JSON già salvato di `status --json` usa `--status-file <file>` e `--date YYYY-MM-DD`; verifica la data e committa grafico e piano insieme alle modifiche del corpus. I conteggi riguardano i JSON estratti: non certificano da soli la copertura del catalogo del client, delle texture o la resa in gioco.
 
 ## Cataloghi generati
 
