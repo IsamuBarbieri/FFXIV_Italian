@@ -26,7 +26,7 @@ Ogni esecuzione crea `data/updates/<esecuzione>/`, esclusa da Git:
 - `backup/`: copie precedenti dei file interessati.
 - `updated/`: copie complete del possibile aggiornamento, che conservano le traduzioni precedenti anche quando la sorgente cambia. Non sono automaticamente approvate e non vanno copiate in blocco sul corpus.
 
-Per una voce modificata, leggi entrambe le sorgenti e la traduzione nel contesto. Aggiorna nel file corrente il campo sorgente e correggi la traduzione solo se necessario; poi usa il validatore di traduzione. Non cambiare lo stato editoriale senza approvazione. Le differenze già risolte spariscono al confronto successivo; quelle ancora da controllare restano visibili, evitando di perderle dopo una seconda patch.
+Per una voce modificata, leggi entrambe le sorgenti e la traduzione nel contesto, includendo il testo interno dei SeString secondo [JSON e SeString](TRANSLATION.md#4-json-e-sestring). Aggiorna nel file corrente il campo sorgente e correggi la traduzione solo se necessario; poi usa il validatore di traduzione. Non cambiare lo stato editoriale senza approvazione. Le differenze già risolte spariscono al confronto successivo; quelle ancora da controllare restano visibili, evitando di perderle dopo una seconda patch.
 
 «Nuovo» significa assente dal corpus locale: non certifica che il foglio sia stato introdotto dall'ultima patch. I file lasciati in `da_tradurre/` sono già conosciuti e non vengono classificati di nuovo come nuovi.
 

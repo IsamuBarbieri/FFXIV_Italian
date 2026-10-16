@@ -163,11 +163,12 @@ public class ExdPatcherTests
 
         byte[] originalExd = ExdPatcher.RebuildExdf(rows);
 
-        // 2. Patch only column 16 ("Beastmaster" -> "Signore delle Bestie"), leaving col 0 and 4 untouched
+        // 2. Patch column 4 (job abbreviation) and column 16 (display name), leaving col 0 untouched
         var replacements = new Dictionary<uint, IReadOnlyDictionary<int, string>>
         {
             [43] = new Dictionary<int, string>
             {
+                [4] = "COS",
                 [16] = "Signore delle Bestie"
             }
         };
@@ -189,11 +190,11 @@ public class ExdPatcherTests
         uint off2 = BinaryPrimitives.ReadUInt32BigEndian(patchedExd.AsSpan(fixedStart + 16, 4));
 
         string s0 = Encoding.UTF8.GetString(patchedExd.AsSpan(stringStart + (int)off0, "beastmaster".Length));
-        string s1 = Encoding.UTF8.GetString(patchedExd.AsSpan(stringStart + (int)off1, "BST".Length));
+        string s1 = Encoding.UTF8.GetString(patchedExd.AsSpan(stringStart + (int)off1, "COS".Length));
         string s2 = Encoding.UTF8.GetString(patchedExd.AsSpan(stringStart + (int)off2, "Signore delle Bestie".Length));
 
         Assert.Equal("beastmaster", s0);
-        Assert.Equal("BST", s1);
+        Assert.Equal("COS", s1);
         Assert.Equal("Signore delle Bestie", s2);
     }
 }

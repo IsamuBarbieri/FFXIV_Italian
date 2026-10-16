@@ -10,7 +10,7 @@ public sealed class ClassJobExtractor : BaseSheetExtractor
 {
     public override string SheetName => "ClassJob";
     public override string DefaultJsonFileName => "classjob.json";
-    public override string Description => "Nomi delle classi e dei mestieri (Gladiatore, Mago Nero, Paladino...).";
+    public override string Description => "Nomi e sigle delle classi e dei mestieri (Gladiatore, Mago Nero, Paladino...).";
 
     public override int ExtractAndSave(GameData lumina, string targetJsonPath)
     {
@@ -32,15 +32,19 @@ public sealed class ClassJobExtractor : BaseSheetExtractor
             uint off = BinaryPrimitives.ReadUInt32BigEndian(exd.Data.AsSpan(entryPos + 4, 4));
             int dataSize = (int)BinaryPrimitives.ReadUInt32BigEndian(exd.Data.AsSpan((int)off, 4));
 
-            // Name is at column offset 16 (offset 0 is abbreviation/code)
+            // Col 0 contiene il nome interno, col 4 la sigla e col 16 il nome visualizzato.
             string text = ReadRowString(exd.Data, (int)off + 6, fixedSize, 16, dataSize);
             if (string.IsNullOrWhiteSpace(text))
             {
                 text = ReadRowString(exd.Data, (int)off + 6, fixedSize, 0, dataSize);
             }
+            string abbreviation = ReadRowString(exd.Data, (int)off + 6, fixedSize, 4, dataSize);
 
             string key = rId.ToString();
             string translation = string.Empty;
+            string translationAbbreviation = string.Empty;
+            bool hasAbbreviationSource = false;
+            bool hasAbbreviationTranslation = false;
             bool hasExisting = false;
 
             if (existing != null && existing.TryGetPropertyValue(key, out var oldNode) && oldNode is JsonObject oldObj)
@@ -49,6 +53,17 @@ public sealed class ClassJobExtractor : BaseSheetExtractor
                 if (oldObj.TryGetPropertyValue("translation", out var transNode))
                 {
                     translation = transNode?.GetValue<string>() ?? string.Empty;
+                }
+
+                if (oldObj.TryGetPropertyValue("col_4", out _))
+                {
+                    hasAbbreviationSource = true;
+                }
+
+                if (oldObj.TryGetPropertyValue("translation_col_4", out var abbreviationNode))
+                {
+                    translationAbbreviation = abbreviationNode?.GetValue<string>() ?? string.Empty;
+                    hasAbbreviationTranslation = true;
                 }
             }
 
@@ -59,6 +74,16 @@ public sealed class ClassJobExtractor : BaseSheetExtractor
                 ["name"] = text,
                 ["translation"] = translation
             };
+
+            if (hasAbbreviationSource)
+            {
+                entryObj["col_4"] = abbreviation;
+            }
+
+            if (hasAbbreviationTranslation)
+            {
+                entryObj["translation_col_4"] = translationAbbreviation;
+            }
 
             root[key] = entryObj;
             extracted++;

@@ -1,0 +1,15 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>0.1.0.0</Version>
+    <Author>FFXIV Italiano</Author>
+    <Name>FFXIV Italiano Text Inspector</Name>
+    <Punchline>Trova il file e la riga dietro al testo dell'interfaccia.</Punchline>
+    <Description>Ispeziona il testo dell'interfaccia di FFXIV sotto il puntatore e cerca la corrispondenza nel corpus locale di FFXIV Italiano.</Description>
+    <Tags>ffxiv;translation;italian;utility</Tags>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/FFXIVItalian.Core/SeString/SeStringValidator.cs" Link="SeStringValidator.cs" />
+  </ItemGroup>
+</Project>

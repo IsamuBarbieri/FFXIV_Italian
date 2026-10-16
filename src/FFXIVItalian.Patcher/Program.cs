@@ -318,9 +318,9 @@ if (Directory.Exists(sqPackPath))
             }
         }
 
-        // 6. PATCH CLASSJOB: la macro ClassJob usa la colonna 0; la schermata usa la colonna 16.
+        // 6. PATCH CLASSJOB: nomi alle colonne 0/16 e sigla alla colonna 4.
         string classJobJsonPath = TranslationPathResolver.FindFile(translationsDir, "classjob");
-        var classJobReplacements = TranslationFileReader.LoadReplacements(classJobJsonPath);
+        var classJobReplacements = TranslationFileReader.LoadClassJobReplacements(classJobJsonPath);
         if (classJobReplacements.Count > 0)
         {
             Console.WriteLine();
@@ -328,15 +328,11 @@ if (Directory.Exists(sqPackPath))
             var originalClassJobExd = lumina.GetFile("exd/classjob_0_en.exd");
             if (originalClassJobExd != null)
             {
-                var classJobMulti = classJobReplacements.ToDictionary(
-                    kvp => kvp.Key,
-                    kvp => (IReadOnlyDictionary<int, string>)new Dictionary<int, string> { [0] = kvp.Value, [16] = kvp.Value });
-
                 byte[] patchedClassJobExd = ExdPatcher.PatchMultiColumnStringSheet(
                     originalClassJobExd.Data,
                     fixedDataSize: 112,
                     stringColumnOffsets: [0, 4, 8, 16],
-                    classJobMulti);
+                    classJobReplacements);
 
                 fileMap["exd/classjob_0_en.exd"] = patchedClassJobExd;
                 Console.WriteLine($"  * 'exd/classjob_0_en.exd' rigenerato ({patchedClassJobExd.Length:N0} byte).");

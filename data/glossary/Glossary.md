@@ -43,6 +43,7 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Return | Rientro | `system/maincommand.json#36:name` | Etichetta nominale contestuale. |
 | Return | Ritorno | `combat/status.json#2452:name` | Nome dello status; distinto dai comandi di ritorno. |
 | Exit | Esci | `system/addon.json#2849:original` | Azione. |
+| Phrontistery / Phrontisterion | Phrontisterio | Decisione dell'utente | Nome dell'istituzione di Frondale; mantenere «Phrontisterio» anche nei nomi dei ruoli e nelle varianti inglesi Phrontistery/Phrontisterion. Riferimenti: `world/enpcresident.json#1017813:name`; `world/enpcresident.json#1033006:name`. |
 | Exit | Uscita | `world/placename.json#528:name` | Etichetta nominale. |
 | Duty | Incarichi | `system/maincommandcategory.json#2:original` | Categoria del menu; plurale di Incarico. |
 | Duty | Incarico | `system/addon.json#2225:original` | Attività singola. Distinta dalle missioni delle quest. |
@@ -55,6 +56,8 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Duty Roulette | Roulette Incarichi | `system/addon.json#8605:original` | Nome della funzione. |
 | Party Finder | Ricerca Gruppo | `system/maincommand.json#57:name` | Nome della funzione di ricerca gruppi. |
 | Hall of the Novice | Sala dei Novizi | `system/maincommand.json#70:name` | Nome della funzione. |
+| Novice Network | Rete dei Novizi | Decisione dell'utente | Nome del canale/funzione; usare con gli articoli e le preposizioni richiesti dalla frase. Riferimenti: `system/addon.json#651:original`; `system/addon.json#4508:original`. |
+| Returner | Ritornato | Decisione dell'utente | Nome dello status/categoria; al plurale «Ritornati» e, se la frase richiede l’accordo femminile, «Ritornata». Lasciare invariati i token tecnici dei comandi e della ricerca. Riferimenti: `social/onlinestatus.json#31:original`; `system/textcommandparam.json#424:original`. |
 | Challenge Log | Registro Sfide | `system/maincommand.json#60:name` | Nome del registro; forma abbreviata senza articolo. Maiuscole fisse: «Registro Sfide».  Varianti ammesse in prosa: «Registro delle Sfide». |
 | Challenge Log Rewards | Ricompense Registro Sfide | `system/addon.json#10116:original` | Etichetta abbreviata, senza articolo. |
 | Heaven-on-High | Pilastro dei Cieli | `system/addon.json#4809:original` | Nome del Deep Dungeon. Decisione dell'utente: nelle occorrenze di `Heaven<hex:021F0103>on<hex:021F0103>High` in `data/da_revisionare/`, usare «Pilastro dei Cieli» eliminando esclusivamente i due tag del trattino `<hex:021F0103>` interni al nome. Conservare tutti gli altri tag; l'eccezione non si estende ad altri nomi o ai file canonici. |
@@ -62,7 +65,7 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Sundry Splendors | Vari Splendori | `system/addon.json#13512:original` | Nome del negozio. |
 | Mech Ops | Operazione Mech | `system/addon.json#16724:original` | Modalità dell'Esplorazione Cosmica, con piloti e supporto a terra; varianti ammesse in prosa: «operazione mech», «Operazioni Mech», «operazioni mech». |
 | Crucible of the Unbroken | Crogiolo degli Infrangibili | `system/addon.json#17601:original` | Nome del contenuto. |
-| Company Chest | Forziere della Compagnia | `system/addon.json#2880:original` | Nome della funzione della Compagnia Libera. |
+| Company Chest | Forziere della Compagnia | `system/addon.json#2880:original` | Nome della funzione della Compagnia Libera. Variante ammessa solo per vincoli di spazio della UI: «Forziere» in `system/addon.json#2963:translation`. |
 | Rowena's House of Splendors | Casa degli Splendori di Rowena | `system/addon.json#6170:original` | Nome del negozio. |
 | Hunting Log | Registro di Caccia | `system/maincommand.json#8:name` | Nome del registro; varianti ammesse in prosa: «registro di caccia», «voce del registro di caccia», «rango di difficoltà del registro di caccia». |
 | Field Record | Rapporti sul Campo | `system/mcguffinuidata.json#3:original` | Nome della raccolta delle schede di Save the Queen; usare la forma canonica anche se l'originale è singolare. |
@@ -83,6 +86,7 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Armoury Chest | Armeria | `system/maincommand.json#25:name` | Nome della funzione. |
 | Chocobo Saddlebag | Bisaccia del Chocobo | `system/maincommand.json#77:name` | Nome della funzione. |
 | Blue Magic Spellbook | Grimorio di Magia Blu | `system/maincommand.json#81:name` | Nome della funzione. |
+| Accursed Hoard | Tesoro Maledetto | Decisione dell'utente | Nome del tesoro recuperabile nelle Cripte Profonde; usa «pezzo/frammento del Tesoro Maledetto» per *piece*, secondo il contesto. |
 | Aether Currents | Correnti Eteriche | `system/maincommand.json#67:name` | Nome della funzione; varianti ammesse in prosa: «correnti eteriche», «corrente eterica». |
 | Adventurer Plate | Scheda dell'Avventuriero | `system/maincommand.json#93:name` | Nome della funzione; varianti ammesse in prosa: «scheda dell'avventuriero», «schede degli avventurieri». |
 | Shared FATE | FATE Condivisi | `system/maincommand.json#84:name` | Nome della funzione. |
@@ -132,6 +136,10 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Frontline | Prima Linea | `system/addon.json#5558:original` | Modalità PvP; verificare le maiuscole nel contesto. |
 | Elite Enemy | Nemico d'élite | `system/addon.json#17542:original` | Etichetta con numero dinamico; abbreviare il numero come «n.»; varianti ammesse in prosa: «nemici d'élite», «nemici élite». |
 | Rival Wings | Ali Rivali | `system/addon.json#5559:original` | Modalità PvP. |
+| Soaring | Ascesa | Decisione dell'utente | Nome dell'effetto di Ali Rivali; non usarlo per il senso generico di «volteggiare». Riferimenti: `combat/status.json#1465:name`; `system/descriptionstring.json#144:original`. |
+| Cruise Chaser | Inseguitore | Decisione dell'utente | Nome del machina di Ali Rivali; adattare articolo e numero. |
+| Oppressor | Oppressore | Decisione dell'utente | Nome del machina di Ali Rivali; adattare articolo e numero. |
+| Brute Justice | Giustizia Brutale | Decisione dell'utente | Nome del machina di Ali Rivali; adattare articolo e numero. |
 | Triple Triad | Triple Triad | `system/addon.json#9529:original` | Nome ufficiale del minigioco; varianti ammesse in prosa: «Tris». |
 | Lord of Verminion | Lord of Verminion | `system/addon.json#9550:original` | Nome invariato del minigioco. |
 | Gold Saucer | Gold Saucer | `system/addon.json#8612:original` | Nome invariato della destinazione. |
@@ -167,6 +175,7 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 
 | Inglese | Italiano | Fonte | Uso |
 | --- | --- | --- | --- |
+| Sanction (Grandi Compagnie) | Benedizione | Decisione dell'utente | Potenziamento degli equipaggiamenti delle Grandi Compagnie; sostituisce «Sanzione di Compagnia», «Sanzione» e «Patrocinio» in questo contesto. Non estendere agli attacchi omonimi di `combat/action.json` né a sanction nel senso comune di permesso. Riferimenti: `combat/status.json#245:name`; `items/item.json#4636:col_2`. |
 | Linkshells | Fonoperle | `system/addon.json#410:original` | Plurale; singolare editoriale: Fonoperla. Evita «fonosfera»; conserva /linkshell e /cwlinkshell1 come comandi, ma traduci il nome della funzione nella spiegazione. |
 | Linkshell [1] | Fonoperla [1] | `system/addon.json#4500:original` | Etichetta numerata: conservare il numero. |
 | Cross-world Linkshells | Fonoperle Intermondo | `system/addon.json#12110:original` | Plurale delle fonoperle intermondo; varianti ammesse in prosa: «fonoperla intermondo», «fonoperle intermondo». |
@@ -245,7 +254,13 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 | Subleader | Vice | `system/addon.json#11771:original` | Ruolo nella squadra PvP; in prosa minuscolo «vice». |
 | Subleaders | Vice | `system/addon.json#11819:original` | Plurale invariabile; in prosa «i vice». |
 | Aetheryte | Eterite | `system/addon.json#8511:original` | Nome comune della struttura; distinto dai toponimi omonimi. |
+| Aetherial node(s) | Nodo Eterico / Nodi Eterici | Decisione dell'utente | Nome comune dei nodi eterici; in prosa usare la minuscola e accordare singolare/plurale. Riferimenti: `activities/publiccontenttextdata.json#2134:original`; `world/eobjname.json#2009727:name`. |
+| Keystone (rite of succession) | Pietrachiave | Decisione dell'utente | Nome delle sette pietre ottenute dagli elettori nel rito di successione; scrivere una parola: «pietrachiave» al singolare e «pietrachiavi» al plurale. Non estendere a chiavi di volta architettoniche, alle pietre del Palazzo del Viandante o agli usi figurati. Riferimenti: `activities/ktgtypewordtextdata.json#1685:name`; `world/eobjname.json#2005518:name`. |
+| proto-aetheryte | protoeterite | Decisione dell'utente | Nome comune dell'apparato antico di Eureka; in prosa minuscolo. Sostituisce «proto-eterite» ed «etereporto prototipo». Riferimento: `world/contentfinderconditiontransient.json#598:original`. |
+| Crystal Forge | Forgia di Cristallo | Decisione dell'utente | Nome dell’apparato usato nelle spedizioni Eureka; al plurale «Forge di Cristallo». Versione migliorata: «Forgia di Cristallo Mark II». Riferimenti: `dialogue/customtalk.json#721389:col_32`; `world/eobjname.json#2009555:name`. |
+| Logos Manipulator | Sintetizzatore Logos | Decisione dell'utente | Nome del dispositivo che estrae e trasmuta i mnemi dai logogrammi; nei richiami abbreviati allo stesso dispositivo usare «Sintetizzatore». Riferimenti: `dialogue/customtalk.json#721411:col_32`; `system/addon.json#11640:original`. |
 | Aetherpool | Eterico | Decisione dell'utente | Controllo automatico: residuo. Aggettivo da accordare al sostantivo: «arma/armatura/impugnatura eterica», «armi/armature/impugnature eteriche», «equipaggiamento/vetro/frammento eterico», «frammenti/scudi eterici». Eliminare «di aetherpool» quando diventa un aggettivo; adeguare articoli e altri aggettivi. Maiuscole secondo il campo sorgente e la funzione, minuscolo in prosa. Sostituisce anche le precedenti rese «etereo/eterea» e «della riserva eterea» riferite ad aetherpool; non modificare gli altri usi di etereo né sorgenti, identificatori o tag. Varianti ammesse in prosa: «eterica», «eterici», «eteriche». |
+| Vitiated Aether | Etere corrotto | Decisione dell'utente | Flusso energetico delle spedizioni Eureka; in prosa usare la minuscola. Riferimenti: `activities/publiccontenttextdata.json#2001:original`; `system/logmessage.json#3741:original`. |
 | Scrip | Gettone | Decisione dell'utente | Valuta degli Artigiani e dei Raccoglitori; al plurale usare «Gettoni degli Artigiani/dei Raccoglitori». |
 | Tankbuster | Colpo Devastante | Decisione dell'utente | Nome della meccanica di attacco ad alto danno rivolta al difensore; usare questa resa nelle etichette, adattando articoli e accordi in prosa. |
 | Instinctual Skill | Azione Istintiva | Decisione dell'utente | Termine di gioco del Domatore e dei famigli. Plurale: «Azioni Istintive». In prosa usare «azione istintiva / azioni istintive», rispettando le maiuscole dell'originale; sostituisce «abilità istintiva/istintuale» e «tecnica istintiva». Riferimento: `items/xbmitem.json#19:translation_col_3`. Non estendere questa resa a ogni occorrenza di skill: identifica prima la categoria di azione nel contesto. |
@@ -295,6 +310,7 @@ Nella colonna **Uso**, `Controllo automatico: residuo.` segnala il termine ingle
 
 | Maelstrom Command | Comando della Tempesta | `world/contentfinderconditiontransient.json#40:original` | Nome del luogo o della struttura. |
 | Conjurers' Guild | Gilda degli Incantatori | `system/lobby.json#188:description` | Nome del luogo o della struttura. |
+| Dosis | Dose | Decisione dell'utente | Nome dell'incantesimo del saggio; mantenere il singolare anche nelle varianti Dose II, Dose III e Dose Eukrasica (II/III), comprese le azioni dei PNG e i riferimenti nei payload SeString. Non modificare il sostantivo italiano comune «dosi». Riferimenti: `combat/action.json#24283:original`; `combat/actiontransient.json#24290:translation`. |
 
 ### Misure e pesi
 
@@ -460,6 +476,7 @@ Per le etichette delle armi, *One<hex:021F0103>handed* e *Two<hex:021F0103>hande
 | Conquerer (weapon) | Conquistatore | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Ascia da guerra da Marauder/Warrior (es. «Conquistatore», «Conquistatore logoro»). Riferimento: `items/item.json#7353:name`. |
 | Liberator (weapon) | Liberatore | Decisione dell'utente | Controllo automatico: suffisso equipaggiamento. Lancia da Dragoon (es. «Liberatore», «Liberatore logoro»). Riferimento: `items/item.json#7354:name`. |
 | Burtgang | Burtgang | Decisione dell'utente | Nome proprio mitologico di spada leggendaria di origine antico-nordica/germanica (*Þiðreks saga*), conservato invariato. Riferimento: `items/item.json#7351:name`. |
+| Lockbox (Eureka) | Forziere | Decisione dell'utente | Nome degli scrigni chiusi che si trovano nelle spedizioni Eureka; accordare al plurale «forzieri» e nei composti descrittivi. Riferimenti: `items/item.json#17341:name`; `items/item.json#17341:col_3`. |
 
 
 
@@ -513,12 +530,23 @@ Catalogo integrale: `data/translations/world/placename.json`. Cercare il nome in
 
 | Inglese | Italiano | Fonte | Uso |
 | --- | --- | --- | --- |
+| Seat of the First Bow | Seggio del Primo Arco | Decisione dell'utente | Nome del luogo; usare «Seggio» e non «Sede». Riferimenti: `world/placename.json#346:name`; `world/warp.json#131075:description`. Varianti ammesse nelle etichette: «Il Seggio del Primo Arco». |
+| Baldesion Arsenal | Arsenale di Baldesion | Decisione dell'utente | Nome della spedizione; in prosa accordare articolo e preposizioni alla forma maschile («nell'Arsenale di Baldesion»). Riferimenti: `world/achievement.json#2227:description`; `activities/publiccontenttextdata.json#2132:original`. |
+| Temenos Rookery | La Colombaia di Temenos | Decisione dell'utente | Nome della struttura di allevamento degli amaro nel Crystarium; usare la forma completa per questo luogo, mantenendo «Garzaia» per gli altri rookery. Riferimenti: `world/adventure.json#2162896:name`; `world/placename.json#3246:name`. |
+| Slitherbough | Fendiscoglio | Decisione dell'utente | Toponimo; usare questa forma per il villaggio e per i riferimenti alla sua provenienza, adattando la frase. Riferimenti: `world/chocobotaxistand.json#1179718:original`; `world/placename.json#3170:name`. |
+| Estersands | Sabbie Orientali | Decisione dell'utente | Regione del deserto di Dalmasca; sostituisce «Dune Orientali». La decisione non riguarda Westersands. Riferimento: `@review/dialogue/custom/004/reghinallaganstoragesystem_00491.json#73:description`. |
+| Fields of Gold | Campi Dorati | Decisione dell'utente | Toponimo di Ok'hanu; sostituisce «Campi d'Oro». Riferimenti: `world/placename.json#4591:name`; `items/eventitemhelp.json#2003513:original`. Varianti ammesse nelle etichette: «I Campi Dorati». |
+| Cracked Cistern | Cisterna Crepata | Decisione dell'utente | Toponimo; sostituisce «Cisterna Incrinata». Conservare l'articolo richiesto dalla frase o dall'etichetta. Riferimento: `world/placename.json#4605:name`. Varianti ammesse nelle etichette: «La Cisterna Crepata». |
+| Zephyr Gate | Porta Zefiro | Decisione dell'utente | Toponimo; usare questa forma, con articoli e preposizioni richiesti dalla frase. Riferimenti: `world/placename.json#179:name`; `world/placename.json#735:name`. |
+| The Salt Strand | La Riva Salata | Decisione dell'utente | Toponimo; usare questa forma, con articoli e preposizioni richiesti dalla frase. Riferimenti: `world/adventure.json#2162693:name`; `world/placename.json#338:name`. |
+| The Hard Place | L'Incudine | Decisione dell'utente | Nome del locale di Adkiragh; usare «all'Incudine» nei riferimenti al luogo e «dell'Incudine» quando la frase richiede la preposizione articolata. Riferimenti: `world/placename.json#2096:name`; `dialogue/defaulttalk.json#595139:name`. |
 | Archeo Alexandria | Archeo Alexandria | `world/placename.json#4676:name` | Conservare il toponimo ufficiale «Alexandria», senza adattarlo in «Alessandria». |
 | The Source | La Fonte | `system/akatsukinotestring.json#33:original` | Nome del mondo; varianti ammesse in prosa: «la Sorgente», «Sorgente». |
 | The Missing Gem | La Gemma Mancante | `world/placename.json#2267:name` | Nome dell'isola / settore esplorativo nel Diadema. |
 | The One River | Fiumescelto | `crafting/spearfishingitem.json#20034:original` | Nome del fiume in Yanxia; forma preferita dall'utente. |
 | The Ruby Sea | Il Mar Rubino | `world/contentfinderconditiontransient.json#235:original` | Nome del mare; varianti ammesse in prosa: «Mare di Rubino». |
 | Minion Square | Piazza dei Minion | `world/placename.json#1578:name` | Area del Gold Saucer dedicata a Lord of Verminion; mantenere «Minion» invariato. |
+| Beankeep | Assistente di Blunderville | Decisione dell'utente | Ruolo dell'incaricato di Blunderville; sostituisce «Custode dei Fagioli». Riferimento: `world/enpcresident.json#1046439:name`. |
 | The Sea of Clouds | Il Mar di Nuvole | `world/contentfinderconditiontransient.json#11:original` | Nome del mare; varianti ammesse in prosa: «Mare di Nuvole». |
 | Mt. Gulg | Monte Gulg | `world/contentfinderconditiontransient.json#659:original` | Forma usata in prosa; varianti ammesse per il nome autonomo: «Mt. Gulg». |
 | Mt. Gulg | Mt. Gulg | `world/placename.json#2997:name` | Variante ammessa per il toponimo autonomo; in prosa usare «Monte Gulg». |
@@ -526,6 +554,7 @@ Catalogo integrale: `data/translations/world/placename.json`. Cercare il nome in
 | The Interdimensional Rift | La Faglia Interdimensionale | `combat/companiontransient.json#345:description` | Nome del luogo; varianti ammesse in prosa: «Fenditura Interdimensionale». |
 | The Tower of Zot | La Torre di Zot | `minigames/tripletriadcard.json#336:col_2` | Nome del luogo; varianti ammesse in prosa: «Torre di Babil». |
 | The Warring Triad | Triade Guerriera | `minigames/tripletriadcard.json#168:col_2` | Nome del gruppo di tre eikon. |
+| Dragonsong War | Guerra del Canto dei Draghi | Decisione dell'utente | Nome del conflitto ishgardiano; uniformare nei titoli e nella prosa riferiti allo stesso evento. Riferimenti: `activities/instancecontenttextdata.json#32621:original`; `system/opencontentcandidatename.json#33:original`. |
 | The World of Darkness | Il Mondo dell'Oscurità | `dialogue/gimmickbill.json#60:original` | Nome del Tredicesimo; varianti ammesse in prosa: «Mondo delle Tenebre». |
 | The Battlehall | La Sala d'Armi | `dialogue/customtalk.json#721265:col_31` | Nome del luogo; varianti ammesse in prosa: «Sala dei Duelli». |
 | The Scholar | Erudito | `minigames/omikujiguidance.json#2501:description` | In questi testi indica l'archetipo del saggio; non il Job. Varianti ammesse in prosa: «studioso». |
@@ -646,8 +675,10 @@ Catalogo integrale: `data/translations/world/placename.json`. Cercare il nome in
 | The Wanderer's Haven | Il Rifugio del Vagabondo | `world/mkdlore.json#46:description` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Rifugio del Viandante». |
 | Secluded Stacks / The Secluded Stacks | Biblioteca Appartata | `world/placename.json#5196:name` | Sala bibliotecaria in cima alla Torre del Sangue, contenente tomi, tavolette e manoscritti. «Stacks» ha valore bibliotecario; non usare «cataste». In prosa: «biblioteca appartata», rispettando le maiuscole dell'originale. Altra attestazione: `world/mkdlore.json#30:translation_name`. |
 | The Diadem | Il Diadema | `system/addon.json#8462:original` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Diadema». |
+| Skybuilders' Board | Bacheca dei Costruttori Celesti | Decisione dell'utente | Nome proprio della bacheca dei lavori del Firmamento; al plurale «bacheche dei Costruttori Celesti». Riferimenti: `system/addon.json#13200:original`; `world/eobjname.json#2010775:name`. |
 | Sagolii Desert | Deserto di Sagolii | `system/lobby.json#132:description` | Nome del luogo o della struttura. Varianti ammesse in prosa: «Deserto di Sagolii». |
 | Irmin Hedge | Siepe di Irmin | `combat/action.json#26756:original` | Nome della barriera o evocazione protettiva vegetale. |
+| The Forbidden Land, Eureka | Terra Proibita, Eureka | Decisione dell'utente | Nome del luogo; aggiungere il nome della regione quando la fonte specifica Anemos, Pagos, Pyros o Hydatos. Riferimenti: `system/addon.json#2305:original`; `world/contentfindercondition.json#581:original`. |
 ### Meteo
 
 I nomi delle condizioni sono distinti dalle forme grammaticali usate nelle descrizioni.
@@ -667,6 +698,7 @@ Le voci identificano strutture, aree, visioni, missioni e mammets del Rifugio In
 | Inglese | Italiano | Fonte | Uso |
 | --- | --- | --- | --- |
 | Island Sanctuary Guide | Guida del Rifugio Insulare | `system/logmessage.json#10136:original` | Nome della guida di aiuto del Rifugio Insulare. |
+| Landmarks | Punti di riferimento | Decisione dell'utente | Nel Rifugio Insulare indica le strutture costruibili dedicate; usare la stessa forma nelle etichette e in prosa. Riferimenti: `system/addon.json#14269:original`; `system/addon.json#15253:original`. |
 | Sanctuary Rank [1] | Rango [1] del Rifugio Insulare | `world/achievement.json#3089:description` | Progressione dell'isola; con il numero usare «rango 10 del rifugio insulare». |
 | Islekeep | Custode dell'Isola | `activities/mjitext.json#66:original` | Titolo del proprietario dell'isola; in prosa usare «custode dell'isola». |
 | Cozy Cabin | Casetta Accogliente | `activities/mjitext.json#2:original` | Struttura principale dell'isola. |
@@ -695,13 +727,44 @@ Le voci identificano strutture, aree, visioni, missioni e mammets del Rifugio In
 | Inglese | Italiano | Fonte | Uso |
 | --- | --- | --- | --- |
 | Once More, to the Ruby Sea | Ancora una volta, al Mar Rubino | `world/achievement.json#1788:description` | Titolo della missione principale che conduce al Mar Rubino. |
+| It’s Probably Pirates | Probabilmente sono pirati | Decisione dell'utente | Titolo della missione; mantenere questa forma nei requisiti di sblocco. Riferimenti: `dialogue/defaulttalk.json#594798:col_2`; `dialogue/defaulttalk.json#596333:description`. |
 
 ### Nomi propri
 
 | Inglese | Italiano | Fonte | Uso |
 | --- | --- | --- | --- |
+| Yellowjackets | Giubbe Gialle | Decisione dell'utente | Nome della milizia di Limsa Lominsa; un membro è una «Giubba Gialla» al singolare e le «Giubbe Gialle» al plurale. Accordare articoli e aggettivi al contesto. Riferimenti: `world/bnpcname.json#981:description`; `world/enpcresident.json#1003285:description`. |
+| Warrior of Darkness | Guerriero dell'Oscurità | Decisione dell'utente | Titolo riferito al personaggio giocante; accordare con il genere mediante If(gnum4), usando «Guerriera dell'Oscurità» al femminile. Riferimenti: `world/bnpcname.json#5240:name`; `world/enpcresident.json#1013810:name`. |
+| Shadowkeeper | Custode delle Ombre | Decisione dell'utente | Personaggio femminile; usare l'articolo e gli accordi al femminile («la Custode»). Riferimenti: `combat/action.json#22304:original`; `world/bnpcname.json#9769:name`. |
+| Faux Commander | Comandante Volpe | Decisione dell'utente | Nome proprio del personaggio e delle ricompense associate; usare «Comandante Volpe» al singolare e «Comandanti Volpe» al plurale. Riferimenti: `housing/characarddecoration.json#405:original`; `world/enpcresident.json#1028179:name`. |
+| Berube skipper | Amaro Berube | Decisione dell'utente | Nome della razza di Skip; usare per l'animale, non per chi lo alleva. Riferimenti: `items/item.json#27251:col_2`; `@review/dialogue/custom/005/ctsdkbcharacter3_00569.json#26:description`. |
+| Brute Bomber | Bombarolo Brutale | Decisione dell'utente | Nome del combattente dell'Arcadion; usare questa forma in dialoghi, messaggi, etichette e riferimenti al personaggio. Riferimenti: `housing/bannerbg.json#380:original`; `housing/bannerdesignpreset.json#361:original`. |
+
+| Gods' Quiver | Faretra degli Dei | Decisione dell'utente | Nome della fazione; usare questa forma in tutto il corpus. Riferimenti: `world/bnpcname.json#621:name`; `world/bnpcname.json#1861:name`. |
+| Convictors | Redento / Redenti | Decisione dell'utente | Nome della fazione e dei suoi membri: singolare «Redento», plurale «Redenti». Per la sede, usare «Rifugio dei Redenti». Riferimenti: `world/enpcresident.json#1015169:description`; `world/enpcresident.json#1015170:description`. |
+| せーりーふー | せーりーふー | Decisione dell'utente | Lasciare la stringa in giapponese nei cinque campi `description` dei file custom: non ha una resa lessicale chiara e probabilmente non è usata nei file inglesi. |
+| Nepto Dragon | Neptodrago | Decisione dell'utente | Nome della creatura; al plurale «Neptodraghi». Riferimenti: `items/item.json#8754:name`; `items/item.json#8754:col_3`. |
+| Eastern alliance | Alleanza Orientale | Decisione dell'utente | Nome della coalizione; usare questa forma anche quando la frase richiede l'articolo o un'altra preposizione. Riferimenti: `world/bnpcname.json#10180:name`; `world/bnpcname.json#10180:description`. |
+| Sultansworn | Giurati della Sultana | Decisione dell'utente | Nome della fazione; declinare «Giurato» e «Giurati» in base al referente, mantenendo il nome approvato. Riferimenti: `world/bnpcname.json#970:name`; `world/bnpcname.json#1911:name`. |
+| Crystal Braves | Bravi di Cristallo | Decisione dell'utente | Nome della fazione; usare questa forma in prosa e nei nomi. Riferimenti: `world/enpcresident.json#1001881:description`; `world/enpcresident.json#1006967:description`. |
+| Landsguard | Guardia Territoriale | Decisione dell'utente | Nome della forza di Tuliyollal; usare questa forma in dialoghi, nomi dei membri e testi di lore. Riferimenti: `world/enpcresident.json#1046791:name`; `world/enpcresident.json#1051928:name`. |
+| Songstress of Ul'dah | Cantautrice di Ul'dah | Decisione dell'utente | Titolo dell'artista; mantenere «Cantautrice» nelle occorrenze pertinenti. Riferimenti: `dialogue/balloon.json#2882:original`; `dialogue/defaulttalk.json#600699:name`. |
+| Allagan Empire | Impero Allagano | Decisione dell'utente | Nome dell'impero; accordare l'aggettivo al nome «Impero». Riferimenti: `dialogue/npcyell.json#18017:original`; `items/eventitemhelp.json#2000936:original`. |
+| Wood Wailers | Sentinelle del Bosco | Decisione dell'utente | Nome della fazione di Gridania; distinguere i riferimenti alla fazione dai guardaboschi generici. Riferimenti: `world/enpcresident.json#1002841:description`; `world/enpcresident.json#1002842:description`. Per un membro usare «Sentinella del Bosco»; accordare al femminile grammaticale anche quando il referente è un uomo. Per il ruolo sentry: «Guardia delle Sentinelle del Bosco» (plurale «Guardie delle Sentinelle del Bosco»). Sostituisce «Guardaboschi», «Guardiaselva» e Wood Wailer quando indicano la fazione o i suoi membri. |
+| Twelveswood | Bosco dei Dodici | Decisione dell'utente | Nome della foresta; usare «Bosco» nelle occorrenze pertinenti. Riferimenti: `minigames/racingchocoboname.json#1254:original`; `dialogue/defaulttalk.json#589867:name`. |
+| Final Days | Ultimi Giorni | Decisione dell'utente | Nome dell'evento; uniformare «Ultimi Giorni» nelle occorrenze pertinenti. Riferimenti: `system/akatsukinotestring.json#8:original`; `system/akatsukinotestring.json#9:original`. |
+| The Unending Journey | Il Viaggio Senza Fine | Decisione dell'utente | Nome della funzione e dei relativi oggetti; allineare il menu alla forma già presente in `items/item.json#13069:translation_name`. Riferimenti: `items/item.json#13069:col_3`; `system/addon.json#4800:original`. |
+| Alexandrite | Alexandrite | Decisione dell'utente | Nome del catalizzatore; mantenere la grafia scelta anche nei nomi degli oggetti (es. «frammento di Alexandrite»). Riferimenti: `dialogue/pointmenustring.json#63:original`; `items/item.json#7883:col_3`. |
+| Clutchfather Novv | Padre della Covata Novv | Decisione dell'utente | Titolo di Novv; usare «Covata» per il gruppo familiare, non «Branco». Riferimenti: `dialogue/defaulttalk.json#591280:name`; `combat/companiontransient.json#61:col_2`. |
+| Heavensturn | Capodanno Celeste | Decisione dell'utente | Nome della ricorrenza; usare la forma canonica in prosa e nei nomi degli oggetti collegati. Riferimenti: `housing/orchestrion.json#83:name`; `shops/fittingshopcategory.json#102:original`. |
+| Advent cake(s) (Capodanno Celeste) | Mochi di Capodanno | Decisione dell'utente | Nome dei dolci di riso tradizionali del Capodanno Celeste; in prosa usare «mochi di Capodanno», senza estendere la forma a mochi generici. Riferimenti: `items/eventitem.json#2001940:name`; `items/eventitem.json#2001940:col_2`. |
+| Kobold(s) | koboldo / koboldi | Decisione dell'utente | Nome del popolo: «koboldo» al singolare, «koboldi» al plurale; accordare anche le forme aggettivali. Riferimenti: `minigames/tripletriadcard.json#17:name`; `world/enpcresident.json#1003859:name`. |
+| Primal(s) | primale / primali | Decisione dell'utente | Nome delle entità evocate: «primale» al singolare e «primali» al plurale. Accordare l'articolo al genere della singola entità («il/la primale»; «i/le primali»). L'aggettivo generico *primal* può richiedere «primordiale» (es. «furia primordiale»), senza indicare un'entità evocata. «Primordiale» resta l'aggettivo comune quando la fonte dice *primordial/primeval* e non indica un Primale. Conservare «The Primals» nei nomi di gruppo, nei titoli musicali e nei crediti. Riferimenti: `minigames/racingchocoboname.json#1419:original`; `minigames/tripletriadcardtype.json#1:original`. |
+| Somanoutics | Somanautica | Decisione dell'utente | Nome dell'arte del Saggio; usare «Somanautica» anche nei riferimenti alla disciplina, come «fondamenti della Somanautica». Riferimenti: `activities/instancecontenttextdata.json#32034:original`; `dialogue/defaulttalk.json#598424:name`. |
+| Zodiac Weapon(s) | Arma dello Zodiaco / Armi dello Zodiaco | Decisione dell'utente | Nome della categoria; accordare «Arma/Armi» al numero e mantenere «dello Zodiaco». Riferimenti: `system/addon.json#2491:original`; `world/achievementcategory.json#63:original`. |
 | Blackbosom | Cuorenero | Decisione dell'utente | Soprannome/cognome composto di Edda; mantenere la forma invariabile come nome proprio in tutti i testi, compresi NPC e personaggi secondari. Usare «Edda Cuorenero» e «di Cuorenero» secondo la sintassi. |
 | Baderon Tenfingers | Baderon Diecidita | Decisione dell'utente | Soprannome composto: conserva il nome proprio Baderon e traduce «Tenfingers». Riferimento: `world/enpcresident.json#1011882:translation_name`. |
+| Bert the Beloved | Bert il Benamato | Decisione dell'utente | Soprannome di Bert; usare questa forma nelle battute e nei riferimenti al personaggio. Riferimenti: `dialogue/defaulttalk.json#599452:name`; `dialogue/defaulttalk.json#598920:name`. |
 | Chirpy Chocobo | Chocobo Cinguettante | Decisione dell'utente | Mascotte dei festeggiamenti (fête) della Ricostruzione di Ishgard («Tosatura dello Yak»). Riferimento: `dialogue/balloon.json#6318:translation`. |
 | Mighty Moogle | Moguri Possente | Decisione dell'utente | Mascotte dei festeggiamenti (fête) della Ricostruzione di Ishgard («Fatti di Stoffa Morbida»). Riferimento: `dialogue/balloon.json#6317:translation`. |
 | Perky Piggy | Porcellino Vispo | Decisione dell'utente | Mascotte dei festeggiamenti (fête) della Ricostruzione di Ishgard («Caccia al Balocco»). Riferimento: `dialogue/balloon.json#6304:translation`. |
@@ -731,26 +794,51 @@ Le voci identificano strutture, aree, visioni, missioni e mammets del Rifugio In
 | graverobber | tombarolo | Decisione dell'utente | Nome comune di ruolo; concordare al plurale («tombaroli»). |
 | Skysteel engineer | Ingegnere di Ferrocielo | Decisione dell'utente | Ruolo nei nomi autonomi; plurale «Ingegneri di Ferrocielo». Nella prosa usare la minuscola. |
 | Bombardier researcher | ricercatore dei Bombardieri | Decisione dell'utente | Ruolo; concordare genere e numero, mantenendo «Bombardieri» come nome proprio della compagnia. |
-| Wood Wailer sentry | Sentinella Guardabosco | Decisione dell'utente | Ruolo; usare il plurale «Sentinelle Guardabosco». |
+| Wood Wailer sentry | Guardia delle Sentinelle del Bosco | Decisione dell'utente | Ruolo; plurale «Guardie delle Sentinelle del Bosco». Sostituisce «Sentinella Guardabosco» e la proposta «Sentinella del Bosco di guardia». Riferimenti: `world/bnpcname.json#453:name`; `world/enpcresident.json#1041741:name`. |
 | Bloody Executioner deckhand | Mozzo degli Esecutori Sanguinari | Decisione dell'utente | Ruolo; concordare «Mozzo/Mozzi» e conservare il nome della nave. |
 | lightning sprite | elementale del fulmine | Decisione dell'utente | Nome comune della creatura; plurale «elementali del fulmine». |
 | magitek | magitec | Decisione dell'utente | Adattamento italiano; mantenere invariabile e rispettare il maiuscolo/minuscolo della fonte. Anche il composto «Praemagitek» diventa «Praemagitec». |
 | Alexandrian | Alexandrino | Decisione dell'utente | Aggettivo/etnonimo; declinare in genere e numero («Alexandrina», «Alexandrini», «Alexandrine»); lasciare «Alexandria» invariato come toponimo. |
+
+| Ironheart | Cuordiferro | Decisione dell'utente | Cognome della famiglia; usare questa forma per Millith, Nedrick, Kester, Ulger e gli altri membri. Riferimenti: `world/enpcresident.json#1019464:name`; `world/enpcresident.json#1019464:description`. |
+| Sphere scroll(s) | pergamena sferica / pergamene sferiche | Decisione dell'utente | Nome dell'oggetto; mantenere questa forma al singolare e al plurale. Riferimenti: `dialogue/customtalk.json#721067:col_31`; `system/howto.json#175:original`. |
+| Zodiac glass | Lente dello Zodiaco | Decisione dell'utente | Nome dell'oggetto; al plurale «Lenti dello Zodiaco». Riferimenti: `items/item.json#8659:name`; `items/item.json#8659:col_3`. |
+| Continental Circus | Circo Continentale | Decisione dell'utente | Nome della compagnia; usare la forma italiana nelle menzioni e nei nomi. Riferimenti: `world/enpcresident.json#1010179:col_2`; `world/enpcresident.json#1010180:col_2`. |
+| Hippo Riders | Cavalcatori di Ippopotami | Decisione dell'utente | Nome del gruppo di corrieri thavnairiani; nelle menzioni usare «i Cavalcatori di Ippopotami». Riferimenti: `housing/bannerbg.json#156:original`; `housing/bannerdesignpreset.json#125:original`. |
+| Scarlet Snout | Muso Scarlatto | Decisione dell'utente | Soprannome di Papà Gruff; sostituisce la forma inglese nei riferimenti allo stesso personaggio. Riferimento: `dialogue/defaulttalk.json#597222:name`. |
+| Doomsday Clown | Pagliaccio del Giorno del Giudizio | `@review/dialogue/custom/007/feshlw2021actionguide_00737.json#8:description` | Titolo alternativo di Papà Gruff; usare questa forma quando la fonte presenta il soprannome. |
+| Yes We Cant | Sì, Non Possiamo | Decisione dell'utente | Titolo della missione; conservare il gioco di parole scelto dall'utente. Riferimenti: `world/achievement.json#1027:description`; `system/lobby.json#642:original`. |
+| Ceremony Planner (Claribel) | Organizzatrice della Cerimonia | Decisione dell'utente | Ruolo di Claribel, accordato al personaggio femminile; usare «organizzatrice» nei riferimenti al suo incarico. Riferimenti: `world/enpcresident.json#1009761:col_2`; `world/enpcresident.json#1010508:col_2`. |
+| Bloody Executioners | Boia Sanguinari | Decisione dell'utente | Nome della fazione; usare questa forma nelle menzioni del gruppo. Riferimenti: `world/enpcresident.json#1010265:description`; `world/enpcresident.json#1010266:description`. |
+| Durai Papers | Documenti dei Durai | Decisione dell'utente | Nome della testata/raccolta; usare questa forma nelle menzioni. Riferimenti: `dialogue/npcyell.json#7122:original`; `world/contentfinderconditiontransient.json#636:original`. |
+| Majestic Theater Company | Compagnia Teatrale Majestica | Decisione dell'utente | Nome della compagnia; mantenere «Imperiale» quando la fonte include «Imperial». Riferimenti: `dialogue/defaulttalk.json#596749:name`; `dialogue/defaulttalk.json#596781:name`. |
+| Mythril Eye | L'Occhio di Mithril | Decisione dell'utente | Nome del giornale; in prosa usare le forme contratte «dell'Occhio», «dall'Occhio». Riferimenti: `world/enpcresident.json#1016354:name`; `world/enpcresident.json#1018403:name`. |
+| Velodyna Gatekeepers | Guardiani di Velodyna | Decisione dell'utente | Nome della fazione; per il ruolo individuale usare «Guardiano/Guardiana di Velodyna» secondo il personaggio. Riferimenti: `housing/bannerbg.json#185:original`; `housing/bannerdesignpreset.json#154:original`. |
 
 ### Eventi e termini di lore
 
 | Inglese | Italiano | Fonte | Uso |
 | --- | --- | --- | --- |
 | The Twelve Archons | i Dodici Arconti | `dialogue/snipetalk.json#48:name` | Eroi della leggenda legata a Hatching-tide; la resa riguarda il gruppo storico. |
+| Dragon Gay | drago allegro | Decisione dell'utente | Nel titolo della fiaba «The Boy and the Dragon Gay», gay significa «allegro»; usare «Il Ragazzo e il Drago Allegro», anche nei titoli derivati. Sostituisce «Drago Gay» e «Drago Gioioso». Riferimento: `world/eobjname.json#2007490:name`. |
+| Sixth Umbral Calamity | Sesta Calamità Umbrale | Decisione dell'utente | Nome dell’evento storico; usare questa forma nelle menzioni della calamità. Riferimenti: `crafting/fishparameter.json#528:name`; `dialogue/defaulttalk.json#598467:name`. |
 | The Echo | L'Eco | `combat/status.json#42:name` | Nome del potere dei Discendenti. |
 | Endsinger | Cantamorte | Decisione dell'utente | Nome e titolo dell'entità femminile; usare «la Cantamorte» e «della Cantamorte». |
+| Cloud of Darkness | Nube Oscura | Decisione dell'utente | Nome della regina delle creature del vuoto; usare «Nube Oscura» al singolare e «Nubi Oscure» per le manifestazioni plurali. Riferimenti: `minigames/tripletriadcard.json#140:name`; `world/bnpcname.json#3240:name`. |
 | The Scions of the Seventh Dawn | Eredi della Settima Alba | `world/contentfinderconditiontransient.json#284:original` | Nome dell'organizzazione; usare la forma estesa al primo riferimento. Variante ammessa con articolo: «Gli Eredi della Settima Alba». |
-| Primal | Primal | Decisione dell'utente | Termine di lore invariabile in italiano; usare il maschile e accordare articoli e preposizioni («il Primal», «i Primal», «del Primal»). «Primordiale» non è la resa del nome di queste entità; rimane disponibile come aggettivo comune se la fonte non indica un Primal. Non declinare «Primal» in «Primali». |
 | Little Ladies' Day | Giornata delle Piccole Dame | Decisione dell'utente | Controllo automatico: residuo. Nome della festa stagionale; accordare articoli e preposizioni alla forma femminile «Giornata» (es. «durante la Giornata delle Piccole Dame»). |
-| Hatching-tide | Festa delle Uova | Decisione dell'utente | Nome della festa stagionale; riferimento contestuale: `world/enpcresident.json#1011803:translation_name`. Eccezione tecnica confermata dall'utente: in `world/fate.json#1594:translation_description`, `#1595:translation_description` e `#1856:translation_description`, rendere `Hatching<hex:021F0103>tide` come «Festa delle Uova», eliminando esclusivamente il tag del trattino `<hex:021F0103>`. L'eccezione vale soltanto per queste tre voci; conservare tutti gli altri tag. |
+| Hatching-tide | Festa delle Uova | Decisione dell'utente | Nome della festa stagionale; riferimento contestuale: `world/enpcresident.json#1011803:translation_name`. Eccezione tecnica confermata dall'utente: in `world/fate.json#1594:translation_description`, `#1595:translation_description`, `#1856:translation_description`; `data/da_revisionare/dialogue/custom/006/fesest2020transform_00668.json#0,#2,#9,#11,#18:translation_description`; `data/da_revisionare/dialogue/custom/007/fesest2021guide_00712.json#0,#1,#4:translation_description`; `data/da_revisionare/dialogue/custom/007/fesest2021addpubenpc_00713.json#0,#11:translation_description`; e `data/da_revisionare/dialogue/custom/007/fesest2021recollection_00714.json#4,#39:translation_description`; `data/da_revisionare/dialogue/custom/008/fespdyest2024guid_00843.json#0,#4,#19-23,#26:translation_description`; `data/da_revisionare/dialogue/custom/009/fesest2025guide_00914.json#0-4:translation_description`; `data/da_revisionare/dialogue/custom/009/fesest2026guide_00959.json#0-4:translation_description`, rendere `Hatching<hex:021F0103>tide` come «Festa delle Uova», eliminando esclusivamente il tag del trattino `<hex:021F0103>`. L'eccezione vale soltanto per queste voci; conservare tutti gli altri tag. |
 | Scholasticate | Il Seminario | Decisione dell'utente | Istituzione di Sant'Endalim; nei ruoli rispettare il minuscolo dell'originale: «docente del seminario», «diacono del seminario». Riferimento: `world/enpcresident.json#1011215:translation_name`. |
 | Starlight Celebration | Celebrazione delle Stelle | Decisione dell'utente | Nome della festa stagionale; riferimento contestuale: `world/enpcresident.json#1010742:translation_name`. |
+| The Masked Carnivale | Il Carnevale Mascherato | Decisione dell'utente | Nome dell'attività; mantenere «Carnevale Mascherato» nelle menzioni e accordare articoli/preposizioni. Riferimenti: `activities/contenttype.json#27:original`; `system/addon.json#8832:original`. |
+| Starlight sentinel | sentinella delle Stelle | Decisione dell'utente | Nome dell’albero decorato per la Celebrazione delle Stelle; accordare genere e numero. Riferimenti: `items/item.json#13066:name`; `items/item.json#13066:col_3`. Varianti ammesse per gli arredi specifici: «abete sentinella della Celebrazione delle Stelle», «sentinella argentata della Celebrazione delle Stelle», «sentinella argentata autentica della Celebrazione delle Stelle». Gli aggettivi distinguono gli oggetti; non eliminarli per uniformare il nome. |
+| Zodiac Braves | Eroi dello Zodiaco | Decisione dell'utente | Nome collettivo degli eroi di Ivalice; al singolare usare «Eroe dello Zodiaco». Riferimenti: `items/item.json#9500:col_2`; `items/item.json#9491:col_2`. |
+| Soul attunement | sintonia spirituale | Decisione dell'utente | Termine per la progressione spirituale delle armi reliquia; usare questa forma nelle istruzioni e nei messaggi di stato. Riferimenti: `system/logmessage.json#4655:original`; `system/addon.json#3010:original`. |
+| Festal Cant | Canto Festivo | Decisione dell'utente | Nome dell'incanto usato durante la parata. Riferimenti: `combat/action.json#2360:original`; `dialogue/npcyell.json#2305:original`. |
 | Moonfire Faire | Festa del Fuoco Lunare | Decisione dell'utente | Nome della festa stagionale estiva; riferimento contestuale: `world/enpcresident.json#1009242:translation_col_2`. |
+| Grand Chaperone | Gran Supervisore | Decisione dell'utente | Titolo di Haermaga alla Festa del Fuoco Lunare; usare «Gran Supervisore» anche nei dialoghi. Riferimenti: `world/enpcresident.json#1017199:col_2`; `dialogue/defaulttalk.json#601190:name`. |
+| Eorzean Nimble Warrior course | percorso del Guerriero Agile Eorzeano | Decisione dell'utente | Nome del percorso acrobatico della Festa del Fuoco Lunare; usare «percorso del Guerriero Agile Eorzeano» nelle menzioni. Riferimenti: `dialogue/balloon.json#6893:original`; `dialogue/balloon.json#4021:original`. |
+| Great White Tsuchinoko | Grande Tsuchinoko Bianco | Decisione dell'utente | Nome proprio della creatura leggendaria; accordare articoli e numero al contesto. Riferimenti: `items/item.json#41472:description`; `world/bnpcname.json#12612:description`. |
 | The Rising | La Rinascita | Decisione dell'utente | Nome dell'evento annuale; nei ruoli usare «della Rinascita». Riferimento: `world/enpcresident.json#1009290:translation_name`. |
 | All Saints' Wake | Veglia di Tutti i Santi | Decisione dell'utente | Nome della festa stagionale; riferimento contestuale: `world/enpcresident.json#1043978:translation_name`. |
 | voidsent | creatura del vuoto (sing.), creature del vuoto (pl.) | Decisione dell'utente | Controllo automatico: residuo plurale. Nome comune della specie; rispettare il minuscolo dell'originale. Riferimento: `world/enpcresident.json#1042066:translation_name`. |
@@ -764,6 +852,18 @@ Le voci identificano strutture, aree, visioni, missioni e mammets del Rifugio In
 | Scalekin | Squamorfi | Decisione dell'utente | Categoria tassonomica dei famigli; singolare «Squamorfo». In prosa usare il minuscolo quando il nome non è un'etichetta di categoria. Riferimenti: `combat/actiontransient.json#44895:translation`. |
 | Soulkin | Animamorfi | Decisione dell'utente | Categoria tassonomica dei famigli; singolare «Animamorfo». In prosa usare il minuscolo quando il nome non è un'etichetta di categoria. Riferimenti: `combat/actiontransient.json#44895:translation`. |
 | Ashkin | Necromorfi | Decisione dell'utente | Categoria tassonomica dei famigli; singolare «Necromorfo». In prosa usare il minuscolo quando il nome non è un'etichetta di categoria. Riferimenti: `combat/actiontransient.json#44895:translation`. |
+| Spoken | Parlanti | `@review/dialogue/custom/009/ctsetcxbmloosefroxtalk_00992.json#14:description` | Categoria tassonomica per le creature capaci di parlare e farsi capire; usare «Parlanti» come etichetta e «parlante» in prosa. |
+| Forgekin | Meccanomorfi | `@review/dialogue/custom/009/ctsetcxbmloosefroxtalk_00992.json#15:description` | Categoria tassonomica delle creature meccaniche; usare «meccanomorfo» al singolare e «meccanomorfi» al plurale. |
+
+| Sundrop Dance | Danza della Goccia Solare | Decisione dell'utente | Nome della danza rituale dei Vanu Vanu; mantenere il nome scelto nelle battute. Riferimenti: `combat/companiontransient.json#172:col_3`; `world/emote.json#120:original`. |
+| The Hounds of Ishgard | i Mastini di Ishgard | Decisione dell'utente | Nome della fazione; usare «i Mastini» in prosa. Riferimenti: `dialogue/defaulttalk.json#594136:name`. |
+| Bombard(s) | Piro / Piros | Decisione dell'utente | Nome dei nemici della Festa del Fuoco Lunare; singolare «Piro», plurale «Piros». Non confondere con Bombardier/Bombardieri. Riferimenti: `world/bnpcname.json#1642:name`; `world/bnpcname.json#1642:description`. |
+| Cascadiers | Cascadiers | Decisione dell'utente | Nome della fazione legata alla Festa del Fuoco Lunare; lasciarlo invariato. Riferimenti: `world/fate.json#532:col_3`; `world/fate.json#533:col_3`. |
+| Saint of Nymeia | Santo di Nymeia | Decisione dell'utente | Titolo del personaggio della Celebrazione delle Stelle; tradurre anche nei riferimenti al Santo nel dialogo. Riferimenti: `world/enpcresident.json#1016274:name`; `world/enpcresident.json#1017823:name`. |
+| the Spinner (Nymeia) | la Tessitrice | Decisione dell'utente | Epiteto della dea Nymeia; non applicare a spinner come esca da pesca o a usi comuni del verbo. Riferimenti: `items/item.json#43558:col_3`; `system/lobby.json#161:original`. |
+| Valentione's Day | Giornata di Valentione | Decisione dell'utente | Nome della ricorrenza; usare questa forma nei riferimenti all'evento e nei nomi collegati. Riferimenti: `shops/fittingshopcategory.json#103:original`; `world/eobjname.json#2009385:name`. |
+| Emissary of ardor | emissario dell’ardore / emissaria dell’ardore | `world/achievement.json#2484:description` | Ruolo della Casata Valentione; accordare «emissario/emissaria» al genere. Per “head emissary” usare «emissaria capo». Nuova traduzione: `data/da_revisionare/dialogue/custom/008/fesvlt2024guide_00844.json#17,#20,#23:description`. |
+| Lifestream | Flusso Vitale | Decisione dell'utente | Termine di lore; accordare articoli e preposizioni alla forma maschile («nel Flusso Vitale», «del Flusso Vitale»). Riferimenti: `activities/ktgtypewordtextdata.json#609:name`; `activities/ktgtypewordtextdata.json#956:name`. |
 
 ### Distinzioni ricorrenti dal censimento
 
@@ -778,3 +878,50 @@ Rese attestate nelle correzioni del corpus: il qualificatore inglese delimita il
 | Weaponskill | Tecnica d'arma | `combat/status.json#1346:description` | Singolare della categoria; nelle etichette brevi è ammesso «Tecnica». Non usare «abilità con armi». Varianti ammesse in prosa: «tecnica», «tecniche», «tecniche d'arma». |
 | Potency scales with item level | La potenza varia in base al livello oggetto | `combat/actiontransient.json#41592:original` | Formula per la dipendenza della potenza dal livello oggetto; evita il calco «scala con». Non presumere una crescita lineare né trasferire la frase intera a descrizioni con condizioni diverse. |
 | Range (level threshold) | Soglia | `combat/traittransient.json#35:original` | In Stealth/Furtività indica il livello massimo dei nemici evitabili: «Estende al livello 30 la soglia…». Per una distanza spaziale usa invece portata o raggio secondo il campo. |
+| Sons of Saint Coinach | Figli di San Coinach | Decisione dell'utente | Nome dell'organizzazione di studiosi; per un membro «Figlio di San Coinach». Sostituisce «Figli/Figlio di Saint Coinach»; la scelta riguarda l'organizzazione e i suoi membri, non automaticamente ogni toponimo contenente Saint Coinach. Riferimento: `world/enpcresident.json#1011641:description`. |
+| Anima Weapon | Arma Anima / Armi Anima | Decisione dell'utente | «Anima» è il nome proprio della reliquia; accordare «arma» al numero e agli aggettivi. Riferimenti: `items/item.json#13223:col_2`; `items/item.json#13225:col_2`. |
+| Ultima Weapon | Arma Ultima | Decisione dell'utente | Nome della macchina da guerra allagana; in prosa usare l’articolo femminile «l’Arma Ultima». Riferimenti: `minigames/tripletriadcard.json#51:name`; `world/bnpcname.json#2137:name`. |
+| Crystal Caravan | Carovana di Cristallo | Decisione dell'utente | Nome della compagnia teatrale; usare «Carovana di Cristallo» anche nei ruoli dei suoi membri. Riferimenti: `world/enpcresident.json#1017489:name`; `world/enpcresident.json#1017493:name`. |
+| Ruby Tithe | Decima di Rubino | Decisione dell'utente | Tributo riscosso dalla Confederazione nel Mar Rubino. Riferimenti: `dialogue/defaulttalk.json#594010:name`; `minigames/tripletriadcard.json#214:col_2`. |
+| Ruby Princess | Principessa di Rubino | Decisione dell'utente | Titolo della sovrana di Shisui; accordare il titolo nelle forme plurali. Riferimenti: `world/bnpcname.json#6241:name`; `activities/instancecontenttextdata.json#14903:original`. |
+### Decisioni terminologiche: Ishgard e Firmamento
+
+| Inglese | Italiano | Fonte | Uso |
+| --- | --- | --- | --- |
+| Skybuilders | Costruttori Celesti | Decisione dell'utente | Nome del gruppo di artigiani e raccoglitori del Firmamento; usare «Costruttori Celesti» anche nei composti e nei riferimenti al gruppo. Riferimenti: `items/item.json#28731:col_3`; `items/item.json#28745:name`. |
+| Skybuilders' Scrip(s) | Gettone dei Costruttori Celesti / Gettoni dei Costruttori Celesti | Decisione dell'utente | Valuta ottenuta contribuendo ai lavori del Firmamento; al plurale usare «Gettoni dei Costruttori Celesti». Riferimenti: `items/item.json#28063:name`; `items/item.json#28063:col_3`. |
+| Heavens’ Ward | Guardia Celeste | Decisione dell'utente | Nome dell’ordine cavalleresco di Ishgard; per i membri usare «cavalieri della Guardia Celeste». Riferimenti: `housing/orchestrion.json#398:name`; `items/cabinetsubcategory.json#107:original`. |
+| Ishgard Restoration | Ricostruzione di Ishgard | Decisione dell'utente | Nome del progetto e dell'attività; mantenere «Ricostruzione» nelle etichette e nelle menzioni della ricostruzione ufficiale. Riferimenti: `system/notebookdivision.json#2006:original`; `crafting/hwdinfoboardarticletransient.json#19:name`. |
+| Skyrise Celebration | Celebrazione del Firmamento | Decisione dell'utente | Nome dell'evento che comprende le Fêtes; accordare articoli e preposizioni al femminile singolare. Riferimenti: `crafting/hwddevlevelwebtext.json#114:name`; `crafting/hwddevlevelwebtext.json#115:name`. |
+
+### Nomi di oggetti e bevande
+
+| Inglese | Italiano | Fonte | Uso |
+| --- | --- | --- | --- |
+| Bozjan Clusters | Aggregati di Bozja | Decisione dell'utente | Valuta degli scontri critici; usare la forma scelta anche nel nome del menu e nei dialoghi. Riferimenti: `items/item.json#31135:description`; `system/addon.json#13822:original`. |
+| Diamond Weapon | Arma di Diamante | Decisione dell'utente | Nome proprio della macchina da guerra; accordare al femminile. Riferimenti: `minigames/tripletriadcard.json#324:name`; `world/bnpcname.json#9953:name`. |
+| Wicked White | Maledetto Bianco | Decisione dell'utente | Nome del cocktail; mantenere coerente il riferimento nelle battute dei clienti. Nuova traduzione `data/da_revisionare/dialogue/custom/006/regnor4girutt_00688.json#16,#43,#70,#73,#98:description`. |
+| Alcoholic Beaverage | Bevanda al Castoro | Decisione dell'utente | Nome del cocktail; conservare la battuta sui castori. Nuova traduzione `data/da_revisionare/dialogue/custom/006/regnor4girutt_00688.json#17,#47,#74,#103:description`. |
+
+### Terminologia aggiuntiva: Bozja ed Eulmore
+
+| Inglese | Italiano | Fonte | Uso |
+| --- | --- | --- | --- |
+| Boutique of Splendors | Boutique degli Splendori | Decisione dell'utente | Nome della boutique di Rowena; usare questa forma nei dialoghi e nelle descrizioni dei suoi incaricati e materiali. Riferimenti: `items/item.json#39766:col_2`; `items/item.json#38749:col_2`. |
+| Resplendent Tool(s) | attrezzo splendente / attrezzi splendenti | Decisione dell'utente | Nome degli attrezzi da artigiano e dei relativi componenti; usare «Scambio degli Attrezzi Splendenti» per Resplendent Tool Exchange. Riferimenti: `shops/specialshop.json#1770333:original`; `world/enpcresident.json#1027566:col_2`. |
+| Blade (grado della Resistenza Bozjana) | Lama | Decisione dell'utente | Titolo rivolto all'avventuriero nel contesto della Resistenza Bozjana; non applicare al nome «Lame di Gunnhildr» né agli usi comuni di blade. Riferimenti: `combat/action.json#36347:original`; `combat/action.json#36356:original`. |
+
+### Terminologia Dawntrail confermata
+
+| Inglese | Italiano | Fonte | Uso |
+| --- | --- | --- | --- |
+| Earthenshire | Borgoargilla | Decisione dell'utente | Toponimo da scrivere unito e senza articolo; accordare le preposizioni al contesto. Riferimenti: `world/adventure.json#2162998:name`; `world/chocobotaxistand.json#1179740:original`. |
+| Skyruin | Flagello Celeste | Decisione dell'utente | Epiteto di Valigarmanda; usare «il Flagello Celeste» nei riferimenti diretti, accordando articoli e preposizioni. Lasciare invariati i titoli musicali in `housing/orchestrion.json`, secondo la guida di traduzione. Riferimenti: `combat/action.json#36161:original`; `combat/action.json#36162:original`. |
+| Ceruleum | ceruleo | Decisione dell'utente | Usare «ceruleo» quando indica il combustibile o il minerale, con maiuscola solo a inizio frase o nei titoli dei campi. Lasciare invariati i titoli musicali e il nome della tinta «Ceruleum Blue». Riferimenti: `system/addon.json#11358:original`; `system/akatsukinotestring.json#92:original`. |
+| Xak Tural Railing | Ferrovia di Xak Tural | Decisione dell'utente | Nome dell'azienda ferroviaria; usare la forma completa alla prima menzione e «Ferrovia» quando il contesto è chiaro. Riferimenti: `items/item.json#44858:col_2`; `combat/companiontransient.json#539:description`. |
+### Esplorazione Cosmica
+
+| Inglese | Italiano | Fonte | Uso |
+| --- | --- | --- | --- |
+| Artifact(s) (Esplorazione Cosmica) | Manufatto / manufatti | Decisione dell'utente | Reperti analizzati dai droni nelle rovine; usare «manufatto» al singolare e «manufatti» al plurale. Riferimenti: `world/eobjname.json#2015138:name`; `world/eobjname.json#2015138:description`. |
+| Ancient Record(s) | Registro Antico / registri antichi | Decisione dell'utente | Nome dei dati recuperati dall’analisi dei manufatti; usare «registro antico» al singolare e «registri antichi» al plurale. Riferimenti: `items/item.json#50411:name`; `items/item.json#50411:col_3`. |

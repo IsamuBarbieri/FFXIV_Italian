@@ -62,6 +62,39 @@ public class ExtractorTests
     }
 
     [Fact]
+    public void LoadClassJobReplacements_MapsNameAndAbbreviationColumns()
+    {
+        string path = Path.Combine(Path.GetTempPath(), "FFXIV_ClassJobTest_" + Path.GetRandomFileName());
+        try
+        {
+            File.WriteAllText(path, """
+                {
+                  "32": {
+                    "translation": "Cavaliere Oscuro",
+                    "translation_col_4": "COS"
+                  },
+                  "33": {
+                    "translation": "Astrologo"
+                  }
+                }
+                """);
+
+            var replacements = TranslationFileReader.LoadClassJobReplacements(path);
+
+            Assert.Equal("Cavaliere Oscuro", replacements[32][0]);
+            Assert.Equal("Cavaliere Oscuro", replacements[32][16]);
+            Assert.Equal("COS", replacements[32][4]);
+            Assert.Equal("Astrologo", replacements[33][0]);
+            Assert.Equal("Astrologo", replacements[33][16]);
+            Assert.False(replacements[33].ContainsKey(4));
+        }
+        finally
+        {
+            if (File.Exists(path)) File.Delete(path);
+        }
+    }
+
+    [Fact]
     public void TranslationPaths_KeepMovedQuestsAndPlaceNewSheetsInPendingArea()
     {
         string temp = Path.Combine(Path.GetTempPath(), "FFXIV_PathTest_" + Path.GetRandomFileName());

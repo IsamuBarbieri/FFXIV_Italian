@@ -3,13 +3,13 @@
     "name": "TEXT_REGROC2MARIORIE_00707_MARIORIE_000_000",
     "translation_name": "TEXT_REGROC2MARIORIE_00707_MARIORIE_000_000",
     "description": "<hex:022C0DFF07022903EB0203FF02200203>! Might I take your presence here to mean you are willing to grace us with an encore performance? If so, I shall be happy to send for your fellow performers at once!",
-    "translation_description": ""
+    "translation_description": "<hex:022C0DFF07022903EB0203FF02200203>! La tua presenza qui significa forse che vuoi concederci un bis? In tal caso, farò subito chiamare gli altri artisti!"
   },
   "1": {
     "name": "TEXT_REGROC2MARIORIE_00707_MARIORIE_000_001",
     "translation_name": "TEXT_REGROC2MARIORIE_00707_MARIORIE_000_001",
     "description": "Oh, and if you'd like to try your hand at a more challenging composition this time, I'd be happy to procure another score.",
-    "translation_description": ""
+    "translation_description": "Ah, e se questa volta vuoi cimentarti con una composizione più impegnativa, sarò felice di procurarti un altro spartito."
   },
   "2": {
     "name": "TEXT_REGROC2MARIORIE_00707_SYSTEM_000_002",
@@ -21,72 +21,72 @@
     "name": "TEXT_REGROC2MARIORIE_00707_Q1_000_000",
     "translation_name": "TEXT_REGROC2MARIORIE_00707_Q1_000_000",
     "description": "Commence the concert?",
-    "translation_description": ""
+    "translation_description": "Vuoi iniziare il concerto?"
   },
   "4": {
     "name": "TEXT_REGROC2MARIORIE_00707_A1_000_001",
     "translation_name": "TEXT_REGROC2MARIORIE_00707_A1_000_001",
     "description": "Perform a traditional tune.",
-    "translation_description": ""
+    "translation_description": "Eseguire un brano tradizionale."
   },
   "5": {
     "name": "TEXT_REGROC2MARIORIE_00707_A1_000_002",
     "translation_name": "TEXT_REGROC2MARIORIE_00707_A1_000_002",
     "description": "Perform an elaborate tune.",
-    "translation_description": ""
+    "translation_description": "Eseguire un brano elaborato."
   },
   "6": {
     "name": "TEXT_REGROC2MARIORIE_00707_A1_000_003",
     "translation_name": "TEXT_REGROC2MARIORIE_00707_A1_000_003",
     "description": "Not quite yet.",
-    "translation_description": ""
+    "translation_description": "Non ancora."
   },
   "7": {
     "name": "TEXT_REGROC2MARIORIE_00707_A1_000_004",
     "translation_name": "TEXT_REGROC2MARIORIE_00707_A1_000_004",
     "description": "How do I do this again?",
-    "translation_description": ""
+    "translation_description": "Come si faceva?"
   },
   "8": {
     "name": "TEXT_REGROC2MARIORIE_00707_MARIORIE_000_003",
     "translation_name": "TEXT_REGROC2MARIORIE_00707_MARIORIE_000_003",
     "description": "Oh, but forgive me. I did not mean to pressure you so. Whenever you feel in the mood to perform, you need only say the word.",
-    "translation_description": ""
+    "translation_description": "Oh, perdonami. Non volevo metterti pressione. Quando ti sentirai in vena di esibirti, ti basterà dirlo."
   },
   "9": {
     "name": "TEXT_REGROC2MARIORIE_00707_SYSTEM_000_004",
     "translation_name": "TEXT_REGROC2MARIORIE_00707_SYSTEM_000_004",
     "description": "When the performance begins, the orchestra will perform a song. Time your inputs with the on-screen prompts.",
-    "translation_description": ""
+    "translation_description": "Quando inizia l’esibizione, l’orchestra suonerà un brano. Premi a tempo seguendo le indicazioni sullo schermo."
   },
   "10": {
     "name": "TEXT_REGROC2MARIORIE_00707_SYSTEM_000_005",
     "translation_name": "TEXT_REGROC2MARIORIE_00707_SYSTEM_000_005",
     "description": "When a blue prompt appears (left), time your input as the diamonds overlap.<hex:02100103>When an orange prompt appears (center), make several rapid inputs until the prompt disappears.<hex:02100103>When a red prompt appears (right), press and hold the input for the duration of the prompt.",
-    "translation_description": ""
+    "translation_description": "Quando appare un indicatore blu (a sinistra), premi a tempo quando i rombi si sovrappongono.<hex:02100103>Quando appare un indicatore arancione (al centro), premi rapidamente più volte finché non scompare.<hex:02100103>Quando appare un indicatore rosso (a destra), tieni premuto il tasto per tutta la durata dell’indicatore."
   },
   "11": {
     "name": "TEXT_REGROC2MARIORIE_00707_SYSTEM_000_006",
     "translation_name": "TEXT_REGROC2MARIORIE_00707_SYSTEM_000_006",
     "description": "The controls are as follows:",
-    "translation_description": ""
+    "translation_description": "I comandi sono i seguenti:"
   },
   "12": {
     "name": "TEXT_REGROC2MARIORIE_00707_SYSTEM_000_007",
     "translation_name": "TEXT_REGROC2MARIORIE_00707_SYSTEM_000_007",
     "description": "<hex:0208F0F1E4E95101FF9B4D6F7573653A20EE81914C6566742D636C69636B206F7220EE819272696768742D636C69636B20616E797768657265206F6E2073637265656E02100103>Keyboard: Any standard, unmodified key<hex:02100103><hex:506C65617365206E6F7465207468617420636861742077696C6C2062652074656D706F726172696C792064697361626C65642EFF50><hex:02081AE1E94C01FF0B436F6E74726F6C6C6572FF0847616D6570616403>: All buttons and directional buttons except <hex:021E021303><hex:0320>",
-    "translation_description": ""
+    "translation_description": "<hex:0208F2012EE4E95101FFF0D34D6F7573653A20EE819166616920636C696320636F6C2070756C73616E74652073696E697374726F206F20EE8192636F6C2070756C73616E74652064657374726F20696E20756E2070756E746F207175616C73696173692064656C6C6F2073636865726D6F0210010354617374696572613A207175616C736961736920746173746F207374616E646172642073656E7A61206D6F646966696361746F7269021001034E6F74613A206C6120636861742076657272C3A02074656D706F72616E65616D656E74652064697361747469766174612EFF5302081AE1E94C01FF0B436F6E74726F6C6C6572FF0847616D65706164033A20547574746920692070756C73616E74692065206920746173746920646972657A696F6E616C69207472616E6E6520021E02130303> "
   },
   "13": {
     "name": "TEXT_REGROC2MARIORIE_00707_SYSTEM_000_008",
     "translation_name": "TEXT_REGROC2MARIORIE_00707_SYSTEM_000_008",
     "description": "To access the Pause menu, press the <hex:02080FE4E94F04FF04657363FF0445736303> key or <hex:021E021303> button, from which you may choose to end the performance.",
-    "translation_description": ""
+    "translation_description": "Per aprire il menu di pausa, premi il tasto <hex:02080FE4E94F04FF04457363FF0445736303> oppure il pulsante <hex:021E021303>; da lì potrai scegliere di terminare l’esibizione."
   },
   "14": {
     "name": "TEXT_REGROC2MARIORIE_00707_MARIORIE_000_999",
     "translation_name": "TEXT_REGROC2MARIORIE_00707_MARIORIE_000_999",
     "description": "Ah, <hex:022C0DFF07022903EB0203FF02200203>. I am making the necessary preparations for an encore performance as we speak. Pray stop back a bit later if you feel inclined to share in the joy of music once more.",
-    "translation_description": ""
+    "translation_description": "Ah, <hex:022C0DFF07022903EB0203FF02200203>. Sto già facendo i preparativi necessari per il bis. Torna pure fra un po’, se ti va di condividere ancora la gioia della musica."
   }
 }

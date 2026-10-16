@@ -3,114 +3,114 @@
     "name": "TEXT_HOUFURPLANTPOT_00331_TALK_NONE",
     "translation_name": "TEXT_HOUFURPLANTPOT_00331_TALK_NONE",
     "description": "There is nothing in this flowerpot.",
-    "translation_description": ""
+    "translation_description": "Questo vaso da fiori è vuoto."
   },
   "1": {
     "name": "TEXT_HOUFURPLANTPOT_00331_END_EVENT",
     "translation_name": "TEXT_HOUFURPLANTPOT_00331_END_EVENT",
     "description": "Quit",
-    "translation_description": ""
+    "translation_description": "Esci"
   },
   "2": {
     "name": "TEXT_HOUFURPLANTPOT_00331_SET_SEED",
     "translation_name": "TEXT_HOUFURPLANTPOT_00331_SET_SEED",
     "description": "Plant Seeds",
-    "translation_description": ""
+    "translation_description": "Pianta i semi"
   },
   "3": {
     "name": "TEXT_HOUFURPLANTPOT_00331_SET_FERTILIZER",
     "translation_name": "TEXT_HOUFURPLANTPOT_00331_SET_FERTILIZER",
     "description": "Fertilize Crop",
-    "translation_description": ""
+    "translation_description": "Concima la pianta"
   },
   "4": {
     "name": "TEXT_HOUFURPLANTPOT_00331_CARE",
     "translation_name": "TEXT_HOUFURPLANTPOT_00331_CARE",
     "description": "Tend Crop",
-    "translation_description": ""
+    "translation_description": "Cura la pianta"
   },
   "5": {
     "name": "TEXT_HOUFURPLANTPOT_00331_DISPOSE",
     "translation_name": "TEXT_HOUFURPLANTPOT_00331_DISPOSE",
     "description": "Remove Crop",
-    "translation_description": ""
+    "translation_description": "Rimuovi la pianta"
   },
   "6": {
     "name": "TEXT_HOUFURPLANTPOT_00331_HARVEST",
     "translation_name": "TEXT_HOUFURPLANTPOT_00331_HARVEST",
     "description": "Harvest Crop",
-    "translation_description": ""
+    "translation_description": "Raccogli"
   },
   "7": {
     "name": "TEXT_HOUFURPLANTPOT_00331_TALK_DEAD",
     "translation_name": "TEXT_HOUFURPLANTPOT_00331_TALK_DEAD",
     "description": "<hex:02280AFF054974656DE8020A03><hex:02100103>This crop is beyond hope.",
-    "translation_description": ""
+    "translation_description": "<hex:02280AFF054974656DE8020A03><hex:02100103>Questa coltivazione è ormai irrecuperabile."
   },
   "8": {
     "name": "TEXT_HOUFURPLANTPOT_00331_TALK_VIGOROUS",
     "translation_name": "TEXT_HOUFURPLANTPOT_00331_TALK_VIGOROUS",
     "description": "<hex:02280AFF054974656DE8020A03><hex:02100103>This crop is doing well.",
-    "translation_description": ""
+    "translation_description": "<hex:02280AFF054974656DE8020A03><hex:02100103>Questa coltivazione cresce bene."
   },
   "9": {
     "name": "TEXT_HOUFURPLANTPOT_00331_TALK_DEPRESSED",
     "translation_name": "TEXT_HOUFURPLANTPOT_00331_TALK_DEPRESSED",
     "description": "<hex:02280AFF054974656DE8020A03><hex:02100103>This crop has seen better days...",
-    "translation_description": ""
+    "translation_description": "<hex:02280AFF054974656DE8020A03><hex:02100103>Questa coltivazione è in cattive condizioni..."
   },
   "10": {
     "name": "TEXT_HOUFURPLANTPOT_00331_TALK_RIPE",
     "translation_name": "TEXT_HOUFURPLANTPOT_00331_TALK_RIPE",
     "description": "<hex:02280AFF054974656DE8020A03><hex:02100103>This crop is ready to be harvested.",
-    "translation_description": ""
+    "translation_description": "<hex:02280AFF054974656DE8020A03><hex:02100103>La coltivazione è pronta per il raccolto."
   },
   "11": {
     "name": "TEXT_HOUFURPLANTPOT_00331_ASK_DISPOSE",
     "translation_name": "TEXT_HOUFURPLANTPOT_00331_ASK_DISPOSE",
     "description": "Are you certain you wish to remove this crop?",
-    "translation_description": ""
+    "translation_description": "Sei sicuro di voler rimuovere questa coltivazione?"
   },
   "12": {
     "name": "TEXT_HOUFURPLANTPOT_00331_ASK_DISPOSE_YES",
     "translation_name": "TEXT_HOUFURPLANTPOT_00331_ASK_DISPOSE_YES",
     "description": "Yes",
-    "translation_description": ""
+    "translation_description": "Sì"
   },
   "13": {
     "name": "TEXT_HOUFURPLANTPOT_00331_ASK_DISPOSE_NO",
     "translation_name": "TEXT_HOUFURPLANTPOT_00331_ASK_DISPOSE_NO",
     "description": "No",
-    "translation_description": ""
+    "translation_description": "No"
   },
   "14": {
     "name": "TEXT_HOUFURPLANTPOT_00331_TALK_FLOWER_VIGOROUS",
     "translation_name": "TEXT_HOUFURPLANTPOT_00331_TALK_FLOWER_VIGOROUS",
     "description": "The <hex:022F10FF0E02280AFF054974656DE8020A0303> have taken root, and the crop is doing well.",
-    "translation_description": ""
+    "translation_description": "Hanno attecchito <hex:022F10FF0E02280AFF054974656DE8020A0303> e la coltivazione cresce bene."
   },
   "15": {
     "name": "TEXT_HOUFURPLANTPOT_00331_TALK_FLOWER_DEPRESSED",
     "translation_name": "TEXT_HOUFURPLANTPOT_00331_TALK_FLOWER_DEPRESSED",
     "description": "The <hex:022F10FF0E02280AFF054974656DE8020A0303> have taken root, but the crop has seen better days...",
-    "translation_description": ""
+    "translation_description": "Hanno attecchito <hex:022F10FF0E02280AFF054974656DE8020A0303>, ma la coltivazione è in cattive condizioni..."
   },
   "16": {
     "name": "TEXT_HOUFURPLANTPOT_00331_FLOWER_PREDICT",
     "translation_name": "TEXT_HOUFURPLANTPOT_00331_FLOWER_PREDICT",
     "description": "Perhaps it will yield <hex:020990E802FF0C72656420666C6F77657273FF0D626C756520666C6F77657273FF0F79656C6C6F7720666C6F77657273FF0E677265656E20666C6F77657273FF0F6F72616E676520666C6F77657273FF0F707572706C6520666C6F77657273FF32666C6F776572732C206275742077686F2063616E20736179207768617420636F6C6F722074686579206D6967687420626503>...",
-    "translation_description": ""
+    "translation_description": "Forse darà <hex:02097DE802FF0C66696F726920726F737369FF0A66696F726920626C75FF0D66696F7269206769616C6C69FF0C66696F7269207665726469FF1066696F7269206172616E63696F6E69FF0C66696F72692076696F6C61FF2866696F72692C206D61206368697373C3A02064692063686520636F6C6F726520736172616E6E6F03>..."
   },
   "17": {
     "name": "TEXT_HOUFURPLANTPOT_00331_FLOWER_PREDICT_UNKNOWN",
     "translation_name": "TEXT_HOUFURPLANTPOT_00331_FLOWER_PREDICT_UNKNOWN",
     "description": "Perhaps it will yield <hex:02092DE802FF04726564FF05626C7565FF0779656C6C6F77FF06677265656EFF076F72616E6765FF07707572706C6503> flowers, or perhaps flowers of a more unusual shade...",
-    "translation_description": ""
+    "translation_description": "Forse darà fiori <hex:020930E802FF06726F737369FF04626C75FF076769616C6C69FF067665726469FF0A6172616E63696F6E69FF0676696F6C6103>, o forse fiori di una tonalità più insolita..."
   },
   "18": {
     "name": "TEXT_HOUFURPLANTPOT_00331_FLOWERED",
     "translation_name": "TEXT_HOUFURPLANTPOT_00331_FLOWERED",
     "description": "<hex:02280AFF054974656DE8020A03><hex:02100103>These flowers are in bloom.",
-    "translation_description": ""
+    "translation_description": "<hex:02280AFF054974656DE8020A03><hex:02100103>Questi fiori sono sbocciati."
   }
 }

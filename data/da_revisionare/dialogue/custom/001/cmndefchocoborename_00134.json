@@ -3,25 +3,25 @@
     "name": "TEXT_CMNDEFCHOCOBORENAME_00134_MY_CHOCOBO_RENAME_UNQUALIFIED",
     "translation_name": "TEXT_CMNDEFCHOCOBORENAME_00134_MY_CHOCOBO_RENAME_UNQUALIFIED",
     "description": "You cannot perform this action while your companion is present.",
-    "translation_description": ""
+    "translation_description": "Non puoi eseguire questa azione mentre hai al seguito il tuo compagno."
   },
   "1": {
     "name": "TEXT_CMNDEFCHOCOBORENAME_00134_PROMPT_MY_CHOCOBO_RENAME_TITLE",
     "translation_name": "TEXT_CMNDEFCHOCOBORENAME_00134_PROMPT_MY_CHOCOBO_RENAME_TITLE",
     "description": "Please rename your personal chocobo.",
-    "translation_description": ""
+    "translation_description": "Rinomina il tuo chocobo personale."
   },
   "2": {
     "name": "TEXT_CMNDEFCHOCOBORENAME_00134_PROMPT_MY_CHOCOBO_RENAME_CAPTION",
     "translation_name": "TEXT_CMNDEFCHOCOBORENAME_00134_PROMPT_MY_CHOCOBO_RENAME_CAPTION",
     "description": "Chocobo Name:",
-    "translation_description": ""
+    "translation_description": "Nome del chocobo:"
   },
   "3": {
     "name": "TEXT_CMNDEFCHOCOBORENAME_00134_PROMPT_MY_CHOCOBO_RENAME_MES0",
     "translation_name": "TEXT_CMNDEFCHOCOBORENAME_00134_PROMPT_MY_CHOCOBO_RENAME_MES0",
     "description": "Names must be between 2 and 20 alphabetic characters and can include apostrophes but not hyphens.",
-    "translation_description": ""
+    "translation_description": "I nomi devono contenere da 2 a 20 lettere. Possono includere apostrofi, ma non trattini."
   },
   "4": {
     "name": "TEXT_CMNDEFCHOCOBORENAME_00134_PROMPT_MY_CHOCOBO_RENAME_MES1",
@@ -39,12 +39,12 @@
     "name": "TEXT_CMNDEFCHOCOBORENAME_00134_PROMPT_MY_CHOCOBO_RENAME_SUCCESS",
     "translation_name": "TEXT_CMNDEFCHOCOBORENAME_00134_PROMPT_MY_CHOCOBO_RENAME_SUCCESS",
     "description": "Your chocobo has been renamed <hex:022903EA0203>.",
-    "translation_description": ""
+    "translation_description": "Il tuo chocobo è stato rinominato <hex:022903EA0203>."
   },
   "7": {
     "name": "TEXT_CMNDEFCHOCOBORENAME_00134_MY_CHOCOBO_RENAME_STABLE",
     "translation_name": "TEXT_CMNDEFCHOCOBORENAME_00134_MY_CHOCOBO_RENAME_STABLE",
     "description": "You cannot perform this action while your chocobo is stabled.",
-    "translation_description": ""
+    "translation_description": "Non puoi eseguire questa azione mentre il tuo chocobo è in stalla."
   }
 }

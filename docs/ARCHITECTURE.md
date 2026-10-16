@@ -54,7 +54,7 @@ dotnet run --project src/FFXIVItalian.Extractor -- import-batch <foglio> <batch.
 
 L'import C# gestisce i campi espliciti previsti dal suo codice; non è un importatore generale di ogni `translation_col_*` e scrive il master anche quando segnala problemi. Verifica il formato, conserva il diff e valida il file: il comando non approva il risultato.
 
-Per batch esterni con manifest e colonne dedicate restano `scripts/split_untranslated.py` e `scripts/apply_all_translations.py`. I loro formati non sono intercambiabili con quelli C#. Prima dell'applicazione usa `--validate-only`; il confronto dei tag identici non consente traduzioni intenzionali dei payload o aggiunte di condizioni. Questi casi vanno gestiti direttamente con i controlli SeString.
+Per batch esterni con manifest e colonne dedicate restano `scripts/split_untranslated.py` e `scripts/apply_all_translations.py`. I loro formati non sono intercambiabili con quelli C#. Prima dell'applicazione usa `--validate-only`; il confronto dei tag identici non consente traduzioni intenzionali dei payload o aggiunte di condizioni. Questi casi vanno gestiti direttamente secondo [JSON e SeString](TRANSLATION.md#4-json-e-sestring), con i controlli pertinenti; il limite del batch non giustifica lasciare non tradotto il testo visibile nei payload.
 
 `autofill` riempie soltanto campi vuoti con equivalenze esatte del glossario prive di varianti concorrenti; non consulta il contesto di una scena. Non usarlo come traduttore di dialoghi.
 

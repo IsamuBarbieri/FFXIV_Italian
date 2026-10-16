@@ -4,6 +4,48 @@ namespace FFXIVItalian.Core.Translation;
 
 public static class TranslationFileReader
 {
+    public static Dictionary<uint, IReadOnlyDictionary<int, string>> LoadClassJobReplacements(string jsonFilePath)
+    {
+        var result = new Dictionary<uint, IReadOnlyDictionary<int, string>>();
+
+        if (!File.Exists(jsonFilePath))
+        {
+            return result;
+        }
+
+        using var doc = JsonDocument.Parse(File.ReadAllText(jsonFilePath));
+        foreach (var property in doc.RootElement.EnumerateObject())
+        {
+            if (!uint.TryParse(property.Name, out uint rowId) || property.Value.ValueKind != JsonValueKind.Object)
+            {
+                continue;
+            }
+
+            var columns = new Dictionary<int, string>();
+            if (property.Value.TryGetProperty("translation", out var nameTranslation) &&
+                nameTranslation.ValueKind == JsonValueKind.String &&
+                !string.IsNullOrWhiteSpace(nameTranslation.GetString()))
+            {
+                columns[0] = nameTranslation.GetString()!;
+                columns[16] = nameTranslation.GetString()!;
+            }
+
+            if (property.Value.TryGetProperty("translation_col_4", out var abbreviationTranslation) &&
+                abbreviationTranslation.ValueKind == JsonValueKind.String &&
+                !string.IsNullOrWhiteSpace(abbreviationTranslation.GetString()))
+            {
+                columns[4] = abbreviationTranslation.GetString()!;
+            }
+
+            if (columns.Count > 0)
+            {
+                result[rowId] = columns;
+            }
+        }
+
+        return result;
+    }
+
     public static Dictionary<uint, string> LoadReplacements(string jsonFilePath)
     {
         var result = new Dictionary<uint, string>();

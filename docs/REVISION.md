@@ -8,7 +8,7 @@ Controlla `git status` e `git diff`, definisci il perimetro e preserva le modifi
 
 Cerca precedenti mirati nel corpus approvato. Per discrepanze reali applica [la riconciliazione](TRANSLATION.md#2-corpus-decisioni-e-discrepanze): presenta i casi all'utente e, dopo la scelta, correggi tutte le occorrenze pertinenti anche nei file approvati. Non effettuare sostituzioni cieche. Una frase sorgente identica può essere riutilizzata soltanto dopo aver verificato che contesto e funzione coincidano.
 
-Controlla entrambi i risultati completi delle condizioni di genere. Verifica comandi letterali, campi nome/descrizione, varianti ammesse e le eccezioni editoriali prima di correggere un presunto residuo inglese.
+Controlla il testo interno di ogni SeString, anche nei payload rimasti identici alla sorgente, seguendo [JSON e SeString](TRANSLATION.md#4-json-e-sestring). Controlla entrambi i risultati completi delle condizioni di genere. Verifica comandi letterali, campi nome/descrizione, varianti ammesse e le eccezioni editoriali prima di correggere un presunto residuo inglese.
 
 ## Controlli
 
