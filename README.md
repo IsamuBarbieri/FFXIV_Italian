@@ -55,15 +55,6 @@ Le opzioni del mod permettono di attivare separatamente dieci blocchi di testo e
   <img src="docs/assets/progress.svg" alt="Avanzamento di interfaccia e contenuti condivisi. Barre separate per dialoghi, cutscene, cataloghi delle missioni e quest per espansione." width="900">
 </p>
 
-Al **18 ottobre 2026**, il corpus estratto ha **349.826 righe coperte nei fogli approvati su 650.386 (53,8%)**.
-
-| Perimetro | Righe coperte nei fogli approvati / totale |
-| --- | ---: |
-| Interfaccia e contenuti condivisi | 263.901 / 263.901 (100%) |
-| Dialoghi e testi collegati | 75.034 / 75.034 (100%) |
-| Cutscene e battute doppiate | 0 / 27.141 (0%) |
-| Titoli, diari e cataloghi delle missioni | 10.891 / 17.862 (61,0%) |
-
 Le quest per espansione sono dettagliate nel grafico. Questi dati sono uguali per Lite e Full.
 
 I conteggi misurano la **copertura del corpus estratto**, con interfaccia, sistemi e contenuti condivisi distinti dalla narrazione. Una riga è coperta quando i suoi campi testuali previsti hanno una traduzione; le colonne tecniche e i segnaposto verificati non richiedono traduzione. Le barre contano solo le righe coperte nei file approvati, mentre bozze e file da tradurre restano nel denominatore. Il conteggio non certifica la copertura dell'intero client o delle texture, né la resa in gioco.
