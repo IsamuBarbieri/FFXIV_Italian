@@ -1,0 +1,14 @@
+# Solo documentazione pubblica; pacchetti allegati alle release GitHub.
+/*
+!/.gitignore
+!/README.md
+!/docs/
+/docs/*
+!/docs/assets/
+!/docs/releases/
+/docs/assets/*
+!/docs/assets/banner.png
+!/docs/assets/download.svg
+!/docs/assets/progress.svg
+/docs/releases/*
+!/docs/releases/*.md
